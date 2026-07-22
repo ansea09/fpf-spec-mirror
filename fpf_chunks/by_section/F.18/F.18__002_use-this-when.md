@@ -6,18 +6,23 @@ section_id: "F.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:0 — Use This When"
-line_start: 91793
-line_end: 91805
+line_start: 92546
+line_end: 92558
 dependencies:
+  - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.P"
+  - "C.2.1"
   - "E.10"
+  - "E.10.ARCH"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
@@ -45,7 +50,7 @@ Use `F.18` when a name must become stable, public, Core-facing, reusable across 
 - one tempting head word is useful in one context but misleading in another;
 - a role-derived, method-derived, status-like, evidence-like, interface-like, or slot-like name risks creating a second ontology by wording alone.
 
-First useful move: recover the governed object or governed value before choosing the name. Ask: what already-governed value is being named, in which bounded context, by which governing pattern, for which use, and with which local sense? Only then decide whether a `NameCard` and, when public or cross-context use is current, a `UnifiedTermRow` are needed.
+First useful move: recover the exact governed object or governed value before choosing the name. When relation-facing wording is current, distinguish a predicate-definition episteme, an admitted relation kind, an obtaining relation occurrence, a representation element, and a designator or reference; for a residual relation claim, cite the `A.6.RCD` settlement before naming. Other candidates—such as a role, method, work, characteristic, status value, architecture element, or claim-bearing episteme—stay under their direct owners rather than being forced into that relation-facing list. Then ask: under which effective by-value `U.ReferenceScheme`, by which governing pattern, for which use, and with which local sense is this exact object named? Only then decide whether a `NameCard` and, when public or cross-scheme use is current, a `UnifiedTermRow` are needed.
 
 Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the governing pattern for the object being named.
 

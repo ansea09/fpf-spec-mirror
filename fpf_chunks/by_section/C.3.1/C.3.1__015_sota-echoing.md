@@ -6,18 +6,23 @@ section_id: "C.3.1:13"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__015_sota-echoing.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:13 — SoTA-Echoing"
-line_start: 43048
-line_end: 43051
+line_start: 43968
+line_end: 43971
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,13 +30,15 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:13 - SoTA-Echoing
 
-Formal type systems, ontology engineering, and bounded-context modeling all distinguish a local classification relation from the public ontology or schema governance that may later reuse it. C.3.1 follows that separation: `U.Kind` is a local typed-reasoning value and `U.SubkindOf` is a partial-order claim over those values. Durable FPF U-kind admission needs `E.24.UK` because it carries ontic identity, slot relation, naming, construction, and parsimony obligations that a local subkind order does not carry.
+Type theory, ontology engineering, and versioned schema practice distinguish partial-order laws, intensional declarations, interpretation editions, and their extensions. C.3.1 keeps the useful order law but grounds its practical consequence in C.3.2 judgments and leaves declaration identity to A.6.0/C.2.1, cross-context use to C.3.3, and public U-kind admission to `E.24.UK`. That admission remains separate because it carries ontic identity, membership criteria, construction, naming, and parsimony obligations that a local subkind order does not.
 

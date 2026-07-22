@@ -6,18 +6,23 @@ section_id: "C.3.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__016_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:14 — Relations"
-line_start: 43052
-line_end: 43057
+line_start: 43972
+line_end: 43978
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,15 +30,18 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:14 - Relations
 
-- **Builds on:** `C.3`, USM, F-G-R, and C.2.3 formality.
-- **Coordinates with:** `E.24.UK`, `A.8`, `A.11`, `F.8`, and `F.5`.
-- **Does not replace:** C.3.2 intent and membership, C.3.3 bridges, or E.24-family U-kind governance.
+- **Specializes:** `A.6.REL` for the direct `U.SubkindOf` relation settlement: exact kind participants, obtaining predicate, applicability, lightweight occurrence use, and participant-plus-reference-scheme identity.
+- **Builds on:** `C.3`, A.6.0 declaration identity, C.2.1 episteme and assertion identity, A.2.6/USM context-slice and scope discipline, F-G-R, and C.2.3 formality.
+- **Coordinates with:** `C.3.2` judgments and extensions, `C.3.3` cross-context bridges, `A.6.5` declaration-slot uses that consume an already obtaining subkind relation, `C.29` representations, `E.24.UK` durable U-kind admission, and `A.8`, `A.11`, `F.8`, and `F.5` when public kind governance is current.
+- **Does not replace:** C.2.1 governance of affirmative, negative, or unresolved subkind assertions; a direct candidate-feature governor; classification assertion; kind declaration; context bridge; or public naming decision.
 

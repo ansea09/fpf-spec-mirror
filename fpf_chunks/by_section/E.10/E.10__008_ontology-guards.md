@@ -6,15 +6,16 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 71766
-line_end: 71927
+line_start: 72403
+line_end: 72564
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
   - "A.2.8"
@@ -23,6 +24,7 @@ dependencies:
   - "A.6.0"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.P.WMR"
   - "A.6.RCD"
   - "A.7"
   - "B.1"
@@ -76,12 +78,12 @@ keywords:
 * **Don’t:** `ClinicalSafetyDomain` as a type with inheritance; `Domain Governance` sections in Tech.
 
 **Onto5 — Always state what the term names**
-* **Rule.** The definition or first line of a gloss states the FPF kind named by the term: a `U.Holon`, `U.System`, `U.Episteme`, `Tradition`, `Lineage`, `Profile`, `Role`, `U.Work` execution, `Characteristic`, or `Carrier`.
+* **Rule.** The definition or first line of a gloss states the FPF kind or object named by the term: a `U.Holon`, `U.System`, `U.Episteme`, `Tradition`, `Lineage`, `Profile`, `Role`, `U.Work` as the admitted kind or a Work occurrence admitted under it, `Characteristic`, or `Carrier`.
 * **Do:** “**Kind named:** `ReviewerRole` — a role intention playable by a holon within an editorial context.”
 * **Don’t:** “Reviewer — a person who …” (blurs the kind named).
 
 **Onto6 — Bans and ontology recovery hints**  *(mirror E.10 § 9 L-rules; do not duplicate tables; not a substitution table)*
-* `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`; possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, `U.Transformation`, and `TransformationFlowStructure` only after the governing kind, relation position, use relation, or claim kind is named by value.
+* `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`; possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, one dated Work occurrence admitted under `U.Work`, a separate episteme about it, `U.Transformation`, and `TransformationFlowStructure` only after the governing kind, relation position, use relation, or claim kind is named by value.
 * `Tradition` → **`Tradition`** (Tech); leave “Tradition” only as a Plain twin with an adjacent Tech label.
 * `domain` → **`DomainFamily` + {ContextId list} + UTS twins**.
 * `…CarrierRole` used for a role-assigned holon or system -> **explicit `U.RoleAssignment(holderRef=..., roleRef=...Role, boundedContextRef=..., windowRef?=...)`**.
@@ -143,7 +145,7 @@ If an EntityOfConcern-side item is currently named `… Standard`, rename it to 
 | `U.Episteme`             | body of knowledge, document, dataset, model | The pair preserves the **Carrier and Content** distinction (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
 | `U.MethodDescription`    | recipe, SOP, playbook, code, spec‑text      | If testable, call out **Spec** explicitly per E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use).                               |
-| `U.Work`                 | run, execution, activity, job, case         | Never use “process” or “procedure” here.                                                     |
+| `U.Work`                 | work (work kind)                           | This plain twin names the admitted kind only. A run, execution, activity, job, or case can name one Work individual only after A.15.1 grounds that occurrence; show an explicit occurrence name and the head **work occurrence** rather than reusing the kind twin. |
 | `U.Role`                 | role, hat, mask                             | Always **context‑indexed** per D.CTX.                                                        |
 | `U.PromiseContent`              | promise, offering, service offering         | Never equate to provider system or API (L‑SERV).                                             |
 | `U.Capability`           | ability, capacity (within bounds)           | Separate from Role, Method, and Work; carries **envelope and measures**.                          |
@@ -172,11 +174,11 @@ A plain twin binds to the **same SenseCell** as its Tech name in that Context (F
 **CC‑TWIN‑3 - Head‑term discipline (HND).**
 The plain twin preserves the **head term** of the Tech name or appends an explicit bracketed head on **first use**:
 
-* Roles keep **“(role)”**, service-facet labels keep **“(service promise or access)”** after the direct FPF target is recovered, Methods keep **“(method)”**, Work keeps **“(work record)”**, Capability keeps **“(capability)”**.
+* Roles keep **"(role)"**, service-facet labels keep **"(service promise or access)"** after the direct FPF target is recovered, Methods keep **"(method)"**, `U.Work` as a kind keeps **"(work kind)"**, one Work individual keeps **"(work occurrence)"**, a separate episteme about it keeps **"(work record)"** only when its Tech name denotes that record, and Capability keeps **"(capability)"**.
   *Examples:*
   `TransformerRole` → “**Transformer (role)**”,
   `U.PromiseContent` → “**post-op monitoring service promise**”; service-access publication or access relation → “**service access**”,
-  `U.Work` → “**work (work record)**”.
+  `U.Work` -> **work (work kind)**; `PumpInspection_2026-07-22T0900` -> **inspection work occurrence**; `PumpInspectionRecord_2026-07-22` -> **inspection work record** only when that Tech name denotes a separate episteme.
 
 **CC‑TWIN‑4 - Kind‑consistent.**
 A plain twin does not map across **Kinds** (C.3). If the twin's everyday interpretation can denote a different Kind (e.g., *Tradition* = organization, corpus, domain), it is admitted only with a bracketed head and **Context gloss** on first use (see CC-TWIN-7).

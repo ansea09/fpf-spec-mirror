@@ -3,32 +3,41 @@ chunk_kind: "child"
 pattern_id: "C.3.5"
 pattern_title: "KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
 section_id: "C.3.5:4"
-section_title: "Manager Heuristics (informative)"
+section_title: "Manager heuristics (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__005_manager-heuristics-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
-  - "C.3.5:4 — Manager Heuristics (informative)"
-line_start: 43808
-line_end: 43817
+  - "C.3.5:4 — Manager heuristics (informative)"
+line_start: 44696
+line_end: 44706
 dependencies:
+  - "A.2.6"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
+  - "C.3.4"
+  - "C.3.A"
 keywords:
   - "K0-K3"
   - "KindAT"
-  - "abstraction tier"
-  - "informative facet"
-  - "planning"
+  - "assurance planning"
+  - "declaration planning"
+  - "editorial facet"
 ---
 
-### C.3.5:4 - Manager Heuristics (informative)
+### C.3.5:4 - Manager heuristics (informative)
 
-| Decision area       | K0                               | K1                          | K2                                         | K3                                      |
-| ------------------- | -------------------------------- | --------------------------- | ------------------------------------------ | --------------------------------------- |
-| **ΔF investment**   | Prefer F5/6 executable semantics | F3→F4 acceptance predicates | F4→F7 (predicates/proofs)                  | F7→F9 (proof‑carrying, higher equality) |
-| **ΔR design**       | Slice‑focused checks             | Behavioral diversity        | Variant/subkind coverage                   | Equivalence witnesses at boundaries     |
-| **Bridge style**    | Instance map                     | Pattern map                 | Type map                                   | Up‑to‑iso / functorial                  |
-| **Expected `CL^k`** | Low outside Context                 | Medium                      | Med/High                                   | High where iso holds                    |
-| **Refactoring**     | Aggregate to K2 when stable      | Crystallize invariants → K2 | Maintain lattice; promote masks → subkinds | Keep iso constraints explicit           |
+| Decision area | K0 | K1 | K2 | K3 |
+| --- | --- | --- | --- | --- |
+| declaration work | identity/cohort criterion when reuse needs it | behavioral acceptance criterion | explicit invariant-bearing signature | equivalence-invariant signature |
+| assurance work | exact candidates and slices | behavioral diversity | subkind and boundary coverage | equivalence witnesses |
+| bridge expectation | instance correspondence | pattern correspondence | kind/order correspondence | equivalence-preserving correspondence |
+| refactoring cue | identify a stable kind only when a real reusable criterion appears | crystallize a stable criterion when warranted | maintain order and signature continuity explicitly | keep the equivalence notion explicit |
+
+These are planning cues, not default F values, R values, classification results, or `CL^k` assessments.
 

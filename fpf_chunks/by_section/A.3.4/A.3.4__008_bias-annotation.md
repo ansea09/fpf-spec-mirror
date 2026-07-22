@@ -6,61 +6,55 @@ section_id: "A.3.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__008_bias-annotation.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:6 — Bias-Annotation"
-line_start: 8023
-line_end: 8037
+line_start: 7944
+line_end: 7949
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.11"
+  - "A.14"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
-  - "A.6.5"
-  - "A.6.F"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
+  - "B.2"
   - "B.3"
+  - "C.13"
   - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "C.30.ASV"
   - "C.32.P2S"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
-  - "E.20"
   - "E.24"
+  - "E.24.UK"
+  - "F.18"
+  - "G.11"
 keywords:
-  - "bounded change"
-  - "functioning"
-  - "input/output conditions"
-  - "transformation"
-  - "transformation-flow structure"
-  - "transformed entity"
-  - "transformer"
+  - "actual bounded change"
+  - "actual subject facts"
+  - "changed referent"
+  - "continuity and reidentification"
+  - "occurrence boundary"
+  - "transformation composition"
 ---
 
 ### A.3.4:6 - Bias-Annotation
 
 Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 
-This pattern intentionally biases toward object separation: transformation, method, mechanism, work, dynamics episteme, temporal aspect, temporal-claim adequacy, evidence, result, and publication are kept as linked values, not synonyms.
-
-Resisted distortions:
-
-- **software narrowing:** algorithm or process wording is treated as code-only when the project concern is a physical, formal, architectural, or project-world transformation;
-- **method-as-effect:** a way of doing is treated as if it had already produced the change;
-- **model-as-authority:** a dynamics episteme is treated as permission, evidence, or gate passage;
-- **trace-as-law:** one work occurrence becomes a reusable law;
-- **formal-as-work:** a proof construction, morphism, or formal transition is treated as project-world work;
-- **temporal-overread:** rate or rhythm wording is treated as a transformation without transformation relation and boundary conditions.
+This pattern keeps actual change, transformation composition, conditional holon classification, direct subject facts, method, work, flow structure, representation, assertion, evidence, evaluation, publication, production, and receiving use distinct. It resists software narrowing, method-as-effect, model-as-authority, trace-as-law, formal-as-project-work, relation-verb-as-change, sampled-slice composition, blanket transformation holonhood, work-caused-change-as-production, and result-word-as-kind errors.
 

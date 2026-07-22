@@ -6,29 +6,32 @@ section_id: "A.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__004_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:3 — Forces"
-line_start: 6634
-line_end: 6641
+line_start: 6628
+line_end: 6635
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.7"
+  - "A.22"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
   - "A.6.0"
   - "A.6.1"
+  - "A.6.5"
+  - "A.6.REL"
   - "B.1.5"
+  - "C.2.1"
   - "C.2.P.DR"
   - "C.20"
   - "C.29"
@@ -37,24 +40,19 @@ dependencies:
   - "E.18"
   - "E.18.1"
   - "E.20"
+  - "F.9"
   - "G.11"
   - "G.5"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "method"
-  - "method composition"
-  - "method vs method description vs work"
-  - "non-agentive holon"
-  - "submethod"
-  - "way of doing"
 ---
 
 ### A.3.1:3 - Forces
 
 * A method has enough identity stability to support comparison, reuse, teaching, improvement, and audit across many runs.
-* Work still happens in dated situations with named systems, resources, holders, conditions, and outcomes; a method statement does not establish that dated work has occurred.
+* Work still happens in dated situations with exact performer assignments, actual participants, resource uses, conditions, and separately governed effects; a method statement establishes none of those occurrence-side facts.
 * Method descriptions can be executable, formal, graphical, procedural, declarative, or hybrid; publication form alone does not decide the method ontology.
 * Mechanisms and mathematical substrates often make a method explainable or constrained enough to rely on, but the mechanism claim and the method claim still answer different project questions.
 * A useful method statement remains applicable to welding, clinical triage, proof construction, optimization, agent orchestration, lab protocols, software execution, and organizational work without making software notation the default model of method.

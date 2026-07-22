@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 23604
-line_end: 23634
+line_start: 24176
+line_end: 24206
 dependencies:
   - "A.10"
   - "A.12"
@@ -59,7 +59,7 @@ Use A.15 first when the claim is about who acts, by which method, under which ro
 Application choices:
 
 1. Name the role, method, and work result before naming any distributed state.
-2. State which work traces, records, events, observations, reports, metrics, `U.Work` occurrences, or `RoleEnactmentFact` records make the coordination visible.
+2. State which exact Work occurrences admitted under `U.Work` and which separate traces, records, events, observations, reports, metrics, or `RoleEnactmentFact` epistemes make the coordination visible.
 3. Ask whether role-method-work alignment alone explains the case. If yes, stay in A.15.
 4. If no participant statement, local component report, single evidence record, dashboard, or exported representation carries the inferred state faithfully enough for the intended state use, add a `C.26.2` low-recoverability distributed-state reading.
 5. State the weakest evidence-bound state-reading claim, time window, rival explanations, and export loss.
@@ -69,7 +69,7 @@ Add a `C.26.2` low-recoverability distributed-state reading only when coordinate
 
 | Field | Required content |
 | --- | --- |
-| Evidence/provenance source relation | Work trace, record, event, observation, report, metric, `U.Work` occurrence, or `RoleEnactmentFact` record used by `A.10` or `G.6` for the stated claim |
+| Evidence/provenance source relation | Exact Work occurrence admitted under `U.Work`, or a separate work trace, record, event, observation, report, metric, or `RoleEnactmentFact` episteme used by `A.10` or `G.6` for the stated claim |
 | Time window | When the distributed-state reading holds and when it decays or needs refresh |
 | Probe or occasion | What question, task, workshop, incident, handover, dashboard, or coordination situation made the state inferable |
 | Weakest claim | The minimal distributed-state reading carried by the evidence sources |

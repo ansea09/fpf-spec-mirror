@@ -6,15 +6,16 @@ section_id: "E.10:12"
 section_title: "Archetypal Grounding - three worked micro-examples - E.10 across domains (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-worked-micro-examples-e-10-across-domains-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:12 — Archetypal Grounding - three worked micro-examples - E.10 across domains (informative)"
-line_start: 72423
-line_end: 72448
+line_start: 73060
+line_end: 73085
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
   - "A.2.8"
@@ -23,6 +24,7 @@ dependencies:
   - "A.6.0"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.P.WMR"
   - "A.6.RCD"
   - "A.7"
   - "B.1"
@@ -57,7 +59,7 @@ keywords:
 **Messy:** “The welding **function** provides air‑tight seams; the **process** costs 3 min.”
 **E.10-clean rewrite:**
 “`Robot_SN789` has **Capability** ‘execute `Weld_MIG_v3` within envelope E at measures M’.
-Each **Work** occurrence applies that method to a workpiece and produces a seam; result measurements compare the seam with the acceptance bounds published in `Seal_Acceptance.md`, while duration measurements support the three-minute average.
+Each exact **Work** occurrence enacts that method and has the workpiece joint as its affected referent. Each actual bounded change of that joint must first be identified independently under `A.3.4` at the resolution and boundary required by the receiving use. Exact direct work-to-change facts may then relate the **Work** to those already identified transformations; neither the **Work**, method enactment, nor that relation supplies transformation identity, and none by itself establishes a new seam entity. If the receiving use claims that one distinct seam entity was first constituted, `A.15.PROD` must recover its exact identity-specification basis and inception boundary. Separate measurement-result epistemes record seam-characteristic and duration values: the acceptance evaluation compares the seam values with the bounds published in `Seal_Acceptance.md`, while duration measurements are used under their direct evidence relation for the three-minute-average claim.
 `U.RoleAssignment(holderRef=Robot_SN789, roleRef=WelderRole, boundedContextRef=WeldingCellContext)` assigns the robot to the work-facing role.”
 
 #### E.10:12.3 - Cloud and SRE (production Context)

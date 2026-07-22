@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__004_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:3 — Forces"
-line_start: 23289
-line_end: 23297
+line_start: 23863
+line_end: 23871
 dependencies:
   - "A.10"
   - "A.12"
@@ -56,7 +56,7 @@ keywords:
 
 | Force | Tension |
 | :--- | :--- |
-| **Structure vs. Contextual Enactment** | The need to model stable structural decomposition (`mereology`) vs. the need to model holder-in-role assignment, holder capability instances, capability support relations, capability-fit conditions, method, plan, and dated work occurrence. |
+| **Structure vs. Enactment Alignment** | The need to model stable structural decomposition (`mereology`) vs. the need to model holder-in-role assignment, holder capability instances, capability support relations, capability-fit conditions, method, plan, and dated work occurrence. |
 | **Method, plan, and occurrence** | The need for reusable method and description values, intended-work planning, and a specific dated record of performed work. |
 | **Clarity vs. Jargon** | The need for a precise, formal vocabulary to prevent ambiguity vs. the reality that teams use informal, domain-specific wording like "process" or "workflow." |
 | **Accountability vs. Complexity** | The need for a complete, end-to-end audit trail for every decision-relevant work occurrence vs. the desire to keep models simple and avoid excessive documentation. |

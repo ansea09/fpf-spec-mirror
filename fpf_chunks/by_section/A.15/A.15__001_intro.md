@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:intro — Intro"
-line_start: 23201
-line_end: 23261
+line_start: 23775
+line_end: 23835
 dependencies:
   - "A.10"
   - "A.12"
@@ -52,7 +52,7 @@ keywords:
   - "work-entry readiness"
 ---
 
-## A.15 - Role–Method–Work Alignment (Contextual Enactment)
+## A.15 - Role–Method–Work Alignment
 
 > **Type:** Architectural (A)
 > **Status:** Stable
@@ -64,16 +64,16 @@ keywords:
 
 **Start here when.** The dominant ambiguity is role vs method vs schedule vs performed work occurrence, and the team keeps arguing over encountered "process" wording without separating recipe, plan, capability, and executed work.
 
-**First output.** One explicit separation of `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`, plus the shortest traceable chain that already exists from `U.RoleAssignment` through the governing `U.Method` and its `methodDescriptionRef` or `U.MethodDescription` reference to the intended `U.WorkPlan` or dated performed `U.Work` occurrence, or an explicit source-relation gap that blocks admission of the claim.
+**First output.** One explicit separation of `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, one dated Work occurrence admitted under that kind, and any separate assertion or description about it, plus the shortest traceable chain that already exists from `U.RoleAssignment` through the governing `U.Method` and its `methodDescriptionRef` or `U.MethodDescription` reference to the intended `U.WorkPlan` or actual Work occurrence, or an explicit source-relation gap that blocks admission of the claim.
 
-**Working enactment-alignment spine.** Role, method, plan, and work confusion -> separate role, holder, bounded context, method description, intended `U.WorkPlan`, and dated performed `U.Work` -> choose proceed, plan, bounded probe, narrow, apply the direct governing pattern for any non-A.15 claim, or stop -> output the smallest alignment frame needed for the next work-family use -> use `A.15.4` only when an encountered episteme publication, display, credential view, explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source-relation chain begins to carry or justify a work claim or reliance claim.
+**Working enactment-alignment sequence.** Role, method, plan, and work confusion -> separate the role, holder, role-taxonomy episteme, effective reference scheme, method description, intended `U.WorkPlan`, `U.Work` kind, actual dated Work occurrence, and any record about it -> choose proceed, plan, bounded probe, narrow, apply the direct governing pattern for any non-A.15 claim, or stop -> output the smallest alignment frame needed for the next work-family use -> use `A.15.4` only when an encountered episteme publication, display, credential view, explanation, copied statement, provenance mark, dashboard tile, schema wording, API wording, or composed source-relation chain begins to carry or justify a work claim or reliance claim.
 
 **Working alignment applications.**
-1. Name the role, holder, and context distinction under repair.
+1. Name the role, holder, exact role-taxonomy episteme, and effective reference scheme under repair.
 2. Name the method or method description that is meant to govern the work.
-3. Name the intended `U.WorkPlan` or dated performed `U.Work` occurrence being claimed.
+3. Name the intended `U.WorkPlan`, or identify the actual dated Work occurrence admitted under `U.Work` and keep any assertion or record about it separate.
 4. Choose the next governed use: proceed inside the recovered relation, plan, run a bounded reversible probe, narrow scope, apply the governing FPF pattern and project-side FPF kind and reference named by value for the claim or effect being made, or stop.
-5. If a reliance appearance such as a display, credential view, copied approval, generated explanation, publication face, or cue is being used by appearance for a work claim or reliance claim before the governing pattern position is named, apply `A.15.4` work-relevant appearance-based reliance repair to that claim; keep `A.15` only for the `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation.
+5. If a reliance appearance such as a display, credential view, copied approval, generated explanation, publication face, or cue is being used by appearance for a work claim or reliance claim before the governing pattern position is named, apply `A.15.4` work-relevant appearance-based reliance repair to that claim; keep `A.15` only for the separation among `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, each actual Work individual admitted under it, and every separate episteme about such an occurrence.
 
 **Action-pattern protection.** This pattern is not about classifying encountered publications, displays, or cues. It keeps role, method, plan, holder `U.Capability` instance, separately governed capability-support records and relations, capability-fit checks, and performed work distinct so the acting engineer-manager can choose the next admissible work-family or reliance use. Work-relevant appearance-based reliance repair is handled by the related `A.15.4` cluster member.
 
@@ -83,7 +83,7 @@ keywords:
 
 **Ordinary use.** If the team only needs to separate role, method, plan, holder `U.Capability` instance, capability-fit checks, and performed work for orientation or planning, one separation sentence or small working card is enough.
 
-**Reliance-bearing use.** Use the fuller alignment frame when a reliance appearance is about to guide planned work, performed work, role attribution, role-state attribution, release reliance, disputed responsibility, or cross-context use. Use `A.15.4` when the issue under repair is whether that appearance exposes the project-side FPF kind and reference named by value required for that work claim or reliance claim.
+**Reliance-bearing use.** Use the fuller alignment frame when a reliance appearance is about to guide planned work, performed work, role attribution, role-state attribution, release reliance, disputed responsibility, or use under another role taxonomy or reference scheme. Use `A.15.4` when the issue under repair is whether that appearance exposes the project-side FPF kind and reference named by value required for that work claim or reliance claim.
 
 **Stop condition.** Stop once the separation changes no next admissible work-family use or reliance use and blocks no concrete overclaim about role, role-state, method, plan, work, approval, evidence, or release.
 
@@ -91,9 +91,9 @@ keywords:
 
 | Admissible project use | Source-finding or reversible probe | Non-admissible use |
 | --- | --- | --- |
-| A maintenance team names `PumpInspectorRole`, the inspection method description, the current `U.WorkPlan`, and the dated `U.Work` record that will be created after the inspection. The team may plan and perform the inspection under those distinct records. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is used as the source for a work or reliance claim by appearance. Use `A.15.4` for appearance-based reliance repair. |
+| A maintenance team names `PumpInspectorRole`, the inspection method description, and the current `U.WorkPlan`. After the inspection actually occurs, it identifies the dated Work occurrence admitted under `U.Work` and creates a separate inspection record that designates it. The plan, occurrence, and record remain distinct. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is used as the source for a work or reliance claim by appearance. Use `A.15.4` for appearance-based reliance repair. |
 
-**Alignment frame in plain terms.** One alignment frame linking `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` through `U.RoleAssignment`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
+**Alignment frame in plain terms.** One alignment frame that keeps `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, one actual Work individual admitted under it, and any episteme about that occurrence distinct, while exact `performedBy` and `enactsMethod` relations connect the occurrence to its `U.RoleAssignment` and `U.Method`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
 
 **First admissible work-family use in plain terms.** Keep role value, holder assignment, semantic method, method-description reference, intended work plan, and dated performed work distinct while making the chain between them inspectable enough for enactment, audit, and source-relation recovery.
 
@@ -103,11 +103,11 @@ keywords:
 
 **Not this pattern when.** Not this pattern when the honest need is only one dated work occurrence (`A.15.1`), only planning or schedule baseline (`A.15.2`), only work-entry readiness or full-kit preparation (`A.15.5`), only a cue note that has not yet become an enactment-alignment question (`A.16` or `A.16.1`), only boundary wording or policy wording without a role-method-work question under repair (`A.6` or `A.6.B`), or work-relevant appearance-based reliance repair for a display, credential view, copied approval, generated explanation, publication face, or similar reliance appearance (`A.15.4`).
 
-**Related project records and governing patterns.** `A.15.1` governs dated execution records, `A.15.2` schedule or baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant appearance-based reliance repair, `A.15.5` work-entry readiness and full-kit preparation, `B.5.1` Explore -> Shape -> Evidence -> Operate for project progression, `F.11` method and work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
+**Related project records and governing patterns.** `A.15.1` governs dated Work occurrences admitted under `U.Work` and the boundary to separate assertions or records about them; `A.15.2` governs schedule or baseline planning records, `A.15.3` slot-filling plan items, `A.15.4` work-relevant appearance-based reliance repair, `A.15.5` work-entry readiness and full-kit preparation, `B.5.1` Explore -> Shape -> Evidence -> Operate for project progression, `F.11` method and work vocabulary alignment across contexts, and `F.17` the human-facing work sheet.
 
-**Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain `U.MethodDescription`, `U.WorkPlan`, and `U.Work` structures here. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, counterfactual sampling realizability, and supported use and unsupported use.
+**Causal-use work boundary.** Realized counterfactual-sampling work, counterfactual randomization, intervention assignment, target-trial emulation work, and causal evidence collection remain separately represented here as `U.MethodDescription` epistemes, `U.WorkPlan` epistemes, and world-side Work individuals admitted under `U.Work` together with their exact role and method relations. `A.15` can say who performs which sampling or intervention work under which method and role; it does not make the resulting causal use admissible. `C.28` governs the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, counterfactual sampling realizability, and supported use and unsupported use.
 
-**Related-record mistakes.** If the first honest cue is still only a cue, keep it under `A.16` or `A.16.1`; if the question under repair is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you only need one executed occurrence rather than the alignment frame, recover the `A.15.1` dated work-occurrence record; if a reliance appearance is being used for a work relation or reliance relation, use `A.15.4`.
+**Related-record mistakes.** If the first honest cue is still only a cue, keep it under `A.16` or `A.16.1`; if the question under repair is boundary wording, promise, agreement-like service, or policy wording, recover the corresponding `A.6` boundary-claim record; if you need one executed occurrence rather than the alignment frame, recover the dated Work occurrence under `A.15.1` and create or cite a separate assertion or record only when that episteme is also needed; if a reliance appearance is being used for a work relation or reliance relation, use `A.15.4`.
 
 **Boundary to coarsened renderings.** A lighter briefing, summary, redacted note, or coarsened rendering may orient work or cue attention. It becomes sufficient for work execution, plan use, approval, gate decision, or execution evidence only when the required method, plan, approval, gate, or evidence source remains explicit and reopenable. Treat the coarsened-rendering relation through `A.6.3.CSC Controlled Semantic Coarsening` when the rendering itself changes what can be relied on.
 

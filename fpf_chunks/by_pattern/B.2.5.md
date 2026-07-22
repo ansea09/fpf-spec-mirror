@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
-line_start: 36566
-line_end: 36779
+line_start: 37459
+line_end: 37672
 dependencies:
   - "A.1"
   - "A.10"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:End"
 section_title: "A.15:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__020_a-15-end.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:End — A.15:End"
-line_start: 23665
-line_end: 23666
+line_start: 24237
+line_end: 24238
 dependencies:
   - "A.10"
   - "A.12"

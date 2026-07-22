@@ -1,56 +1,62 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+pattern_title: "U.Mechanism - Reusable Law-Governed Operation Declaration"
 section_id: "A.6.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__003_problem.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+  - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:2 — Problem"
-line_start: 11290
-line_end: 11295
+line_start: 11236
+line_end: 11248
 dependencies:
+  - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
   - "A.2.6"
-  - "A.20"
-  - "A.21"
+  - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "B.3"
-  - "C.16"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.29"
+  - "C.3"
   - "E.10"
   - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.18"
   - "E.20"
+  - "E.24.PUB"
   - "F.18"
-  - "U.BoundedContext"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Signature"
-  - "U.Work"
-  - "U.WorkPlan"
+  - "F.9"
+  - "G.11"
 keywords:
   - "AdmissibilityConditions"
-  - "Bridge‑only"
   - "LawSet"
-  - "Mechanism"
   - "OperationAlgebra"
-  - "Transport"
+  - "U.Mechanism"
+  - "application binding"
+  - "operation application"
+  - "operation declaration"
+  - "realization"
 ---
 
 ### A.6.1:2 - Problem
 
-Without a kernel mechanism pattern, scope, normalization, selection, comparison, and publication constructs proliferate with incompatible algebras, hidden guard predicates, and ungoverned reuse. Cross-context use loses its Bridge and Reliability penalty relation. Numeric comparison drifts into scale-incompatible scalarization. Realizations begin to relax laws rather than safely implement them.
+FPF needs reusable operation declarations for scope, normalization, selection, comparison, physical modeling, and other domains. Without one precise ontic:
 
-FPF already has the A.6.0 Signature discipline, bridge and reference-plane patterns, characteristic-space and measurement rules, and work or evidence patterns. What is missing without `U.Mechanism` is one kernel kind for reusable law-governed operation algebras with admissibility, transport, audit, and monotone realization.
+1. an operation name does not reveal its typed arguments or result;
+2. declared laws are mixed with admission predicates and evaluation outcomes;
+3. applicability is hidden behind an unexplained context label;
+4. a realization is confused with the declaration it realizes;
+5. mathematical notation or imperative prose is overread as an executable sequence;
+6. descriptions, publications, methods, and dated work acquire mechanism identity by proximity.
+
+The repair is not a larger declaration form. It is a smaller set of exact distinctions with progressive explicitness.
 

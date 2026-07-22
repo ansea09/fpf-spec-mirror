@@ -6,14 +6,16 @@ section_id: "A.6.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__013_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:12 — Relations"
-line_start: 17911
-line_end: 17925
+line_start: 18484
+line_end: 18499
 dependencies:
+  - "A.15.3"
   - "A.6.0"
+  - "A.6.1"
   - "A.6.P"
   - "A.6.REL"
   - "A.6.RSIR"
@@ -32,6 +34,7 @@ keywords:
 - `A.2.1` governs role-assignment predicate, identity, and participant meanings; A.6.5 governs their exact SlotSpec reading.
 - `C.2.1` governs episteme identity, assertion and description content, and their explicit fields. A field corresponds to a relation SlotSpec only when a compatible `RelationSignature` contains that SlotSpec for a participant meaning stated by the direct relation pattern.
 - `C.3` and `C.3.1` govern local participant kinds only when typed quantification or kind order is current.
+- `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 govern the planned claim, the direct relation pattern owns the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
 - `A.15.1` and `A.3.1` govern the constructive holonhood and identity of work and methods; `A.3.4` governs the actual-bounded-change identity of transformations; `E.18` governs selected transformation-flow structures over those independently governed transformations and adjacent loci.
 - `A.1`, `A.2`, and `A.15` keep acting systems, role values, role assignments, methods, and performed work distinct.
 - `A.2.4` governs compact episteme evidence-use and status-use relation SlotSpecs; `A.10` governs the full evidence-provenance path, and `F.10` governs durable status semantics. A.6.5 does not duplicate those relations or make the episteme a role holder.

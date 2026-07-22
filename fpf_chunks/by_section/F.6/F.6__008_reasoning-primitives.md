@@ -6,12 +6,12 @@ section_id: "F.6:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__008_reasoning-primitives.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:6 — Reasoning Primitives"
-line_start: 87382
-line_end: 87406
+line_start: 88135
+line_end: 88159
 dependencies:
   - "A.15"
   - "A.15.1"

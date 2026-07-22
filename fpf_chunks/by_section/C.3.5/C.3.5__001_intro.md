@@ -6,38 +6,46 @@ section_id: "C.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__001_intro.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:intro — Intro"
-line_start: 43721
-line_end: 43739
+line_start: 44613
+line_end: 44631
 dependencies:
+  - "A.2.6"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
+  - "C.3.4"
+  - "C.3.A"
 keywords:
   - "K0-K3"
   - "KindAT"
-  - "abstraction tier"
-  - "informative facet"
-  - "planning"
+  - "assurance planning"
+  - "declaration planning"
+  - "editorial facet"
 ---
 
 ## C.3.5 - KindAT — Intentional Abstraction Facet for Kinds (K0…K3)
 
-> **One‑line summary.** Defines **KindAT** as an **informative facet** attached to `U.Kind` that classifies the **intentional abstraction stance** of a kind—**K0 Instance**, **K1 Behavioral Pattern**, **K2 Formal Kind/Class**, **K3 Up‑to‑Iso**—to **guide ΔF/ΔR planning, bridge expectations, catalog/search, and refactoring**. **KindAT is not a Characteristic**: it has **no algebra**, **no thresholds**, and **MUST NOT** appear in guards or composition math. All assurance remains in **F–G–R**; typed semantics remain in **C.3.1–C.3.4**.
+> **One-line summary.** `KindAT` is an informative editorial facet on one local `U.Kind`. Its anchors—K0 Instance, K1 Behavioral Pattern, K2 Formal Kind/Class, and K3 Up-to-Iso—help plan declaration rigor, assurance coverage, bridge expectations, catalog search, and refactoring. KindAT is not a Characteristic: it has no algebra or threshold and never appears in guards or composition. It changes neither the kind, a `KindSignature`, a classification judgment, an extension representation, nor F–G–R.
 
-**Status.** Mixed:
-— **Informative** for the anchors, heuristics, examples, and guidance.
-— **Normative** for the **usage rules** that forbid employing AT in guards/composition and constrain its placement.
+**Status.** Informative for anchors, heuristics, examples, and guidance; normative only for the usage rules that prohibit guard/composition use and constrain placement.
 
-**Placement.** Part C (Kinds), identifier **C.3.5**. Audience: engineering managers, architects, editors, assurance leads.
+**Placement.** Part C (Kinds), identifier **C.3.5**. Audience: engineering managers, architects, editors, and assurance leads.
 
 **Depends on.**
-— **C.3.1** (`U.Kind`, `U.SubkindOf (⊑)`), **C.3.2** (`KindSignature` + F, `Extension/MemberOf`), **C.3.3** (KindBridge + `CL^k`), **C.3.4** (RoleMask).
-— **A.2.6 USM** (Claim/Work scope over `U.ContextSlice`), **C.2.2 F–G–R**, **C.2.3 U.Formality (F)**.
-— **MM‑CHR** distinction **Facet vs Characteristic** (editors).
 
-**Non‑goals.**
-— No numerical scale, no gating, no composition operators, no “quality” scoring.
-— No effect on **F**, **G**, or **R** besides **planning hints**.
+- **C.3/C.3.1:** the context-local `U.Kind`, obtaining `U.SubkindOf` relations, and kind continuity.
+- **C.3.2:** the separate `KindSignature` declaration episteme, exact four-input classification judgment, and optional pinned-edition extension representation.
+- **C.3.3:** the obtaining `KindBridge` relation and its separate bridge-assertion episteme carrying `CL^k`, loss, evidence, and admitted use.
+- **C.3.4:** the `RoleMask` declaration episteme and exact masked judgment.
+- **A.2.6, C.2.2, and C.2.3:** Claim/Work scope, F–G–R, and `U.Formality` on the episteme that owns it.
+- **MM-CHR:** the Facet-versus-Characteristic distinction.
+
+**Non-goals.** KindAT supplies no numerical scale, gating rule, composition operator, public-kind admission, classification result, or assurance score.
 

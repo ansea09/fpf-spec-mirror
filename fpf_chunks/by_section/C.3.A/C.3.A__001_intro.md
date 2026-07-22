@@ -6,38 +6,47 @@ section_id: "C.3.A:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__001_intro.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:intro — Intro"
-line_start: 43884
-line_end: 43900
+line_start: 44772
+line_end: 44790
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.2.6"
-  - "C.3.x"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
+  - "C.3.1-C.3.5"
 keywords:
   - "ESG"
-  - "Kind-CAL"
   - "Method-Work"
-  - "Typed guard"
-  - "USM"
-  - "regulatory profile"
+  - "assurance"
+  - "declaration compatibility"
+  - "exact candidate judgment"
+  - "guard refusal"
+  - "regulatory"
+  - "true/false/unknown"
 ---
 
 ## C.3.A - Typed Guard Macros for Kinds + USM (Annex)
 
-> **One‑line summary.** Provides **normative guard macros** that combine **USM Scope** (A.2.6) with **Kind‑CAL** (C.3.x) so authors can gate state changes and compositions that **quantify over kinds** without conflating **entityOfConcern** (Kinds) with **applicability** (Scope **G**) or **assurance** (**R**). Includes **decision trees, anti‑patterns, and examples** (informative). **AT (KindAT)** is **never** used in guards.
+> **One-line summary.** These guard macros combine C.3 declaration compatibility, the exact C.3.2 candidate judgment when an actual candidate is current, RoleMask and KindBridge declarations/relations, and A.2.6 Scope without collapsing them. A claim quantified over a kind can be checked at declaration level; applying that claim or a capability to one candidate additionally requires `J(candidate, kind, signatureEdition, slice)`. `true`, `false`, and `unknown` remain classification values, while allow/refuse remains a separate guard disposition. KindAT never appears in a guard.
 
-**Status.** Mixed:
-— **Normative**: guard macro clauses, evaluation order, fail‑closed discipline, conformance checklist.
-— **Informative**: …  decision trees, anti‑patterns, worked examples, macro skeletons.
+**Status.** Normative for macro obligations, evaluation order, three-valued/fail-closed discipline, and the conformance checklist; informative for decision trees, examples, and implementation-like skeletons.
 
-**Placement.** Part C (Kinds), identifier **C.3.A** (Annex). Audience: engineering managers, editors, reviewers, assurance leads.
+**Placement.** Part C (Kinds), identifier **C.3.A**. Audience: engineering managers, editors, reviewers, assurance leads, and authors of regulatory, evidence, ESG, and Method–Work checks.
 
 **Depends on.**
-— **A.2.6 USM**: `U.ContextSlice`, `U.ClaimScope` (**G**), `U.WorkScope`, ∈/∩/**SpanUnion**/translate, **Γ\_time** policy, Bridge + **CL** (scope).
-— **C.3.1**: `U.Kind`, `U.SubkindOf (⊑)`; **C.3.2**: `KindSignature` (with **F**) and `Extension/MemberOf`; **C.3.3**: **KindBridge** + `CL^k` (kind‑congruence) & loss notes; **C.3.4**: **RoleMask**.
-— **C.3.5**: **KindAT** (facet) — **explicitly forbidden** in guards.
-— **C.2.2 F–G–R**: weakest‑link, penalties to **R** only; **C.2.3 F**: F0…F9 (expression rigor).
-— **Part B Bridges & CL**: scope bridge semantics and CL ladder.
+
+- **A.2.6 USM:** exact `U.ContextSlice`, Claim/Work scope, `Gamma_time`, scope bridges, and SpanUnion.
+- **C.3/C.3.1:** exact local kinds and obtaining `U.SubkindOf` relations.
+- **C.3.2:** `KindSignature` declaration epistemes, `J(candidate, kind, signatureEdition, slice)`, `true`/`false`/`unknown`, and optional extension representations.
+- **C.3.3:** obtaining `KindBridge` relations and separate bridge-assertion epistemes carrying `CL^k`, loss, evidence, definedness, and admitted use.
+- **C.3.4:** `RoleMask` and `MaskAdapter` declaration epistemes and `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, slice)`.
+- **C.3.5:** KindAT as an editorial facet forbidden in guards.
+- **C.2.2/C.2.3 and Part B:** F–G–R, formality on the owning episteme, bridge consequences, and scope congruence.
+- **A.15/A.15.1:** the separation of capability, plan, exact actual Work occurrence, and every episteme about it.
 

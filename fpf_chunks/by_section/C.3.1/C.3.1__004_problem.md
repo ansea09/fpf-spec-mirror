@@ -6,18 +6,23 @@ section_id: "C.3.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__004_problem.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:2 — Problem"
-line_start: 42962
-line_end: 42965
+line_start: 43855
+line_end: 43858
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,13 +30,15 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:2 - Problem
 
-A user can need the sentence "cooling pump is a pump" to be typed and checkable without claiming that FPF must add `U.CoolingPump`. If `U.SubkindOf` is allowed to stand for every stronger-looking relation, then dependency, part-whole, slot filling, construction, and public naming all collapse into one hierarchy. C.3.1 keeps the partial order narrow so other governing relations stay available.
+The statement `cooling pump is a pump` is useful only if candidate classifications respect it. Yet an extension table can hide a bad subkind link, two declaration editions can use incompatible criteria, and same spelling can conceal a cross-context change. Conversely, every editorial or formalization change need not create a new kind. The core needs both a monotonicity check and an explicit continuity decision without absorbing the declaration or extension into the kind.
 

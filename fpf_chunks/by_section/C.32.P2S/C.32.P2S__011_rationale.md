@@ -6,21 +6,24 @@ section_id: "C.32.P2S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__011_rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:10 — Rationale"
-line_start: 62599
-line_end: 62606
+line_start: 63246
+line_end: 63253
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
+  - "A.6.RCD"
   - "B.2"
   - "C.11"
   - "C.16"
@@ -60,18 +63,22 @@ keywords:
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
   - "candidate structures"
+  - "exact domain work"
   - "expected structures"
   - "governing-pattern-specific return"
+  - "independently grounded actual changes"
+  - "no-automatic-composition"
   - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
+  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:10 - Rationale
 
-C.32.P2S belongs under C.32 because the central transformation is architecture synthesis: recovering problem pressure and structural uncertainty, generating candidate selected-structure changes, preserving alternatives, making decision-ready content, and returning actual-structure feedback to the next synthesis question.
+C.32.P2S belongs under C.32 because its central architecturing concern is architecture synthesis: recovering problem pressure and structural uncertainty, generating candidate selected-structure changes, preserving alternatives, making decision-ready content, and returning actual-structure feedback to the next synthesis question. This architecturing concern is not itself a `U.Transformation`; any actual bounded change during realization remains independently governed by `A.3.4`.
 
 It cannot be only a C.22 pattern because a problem card does not carry architecture synthesis, decision, realization, and feedback. It cannot be only a C.30 pattern because grounded architecture and structural-view adequacy do not themselves construct candidate palettes or govern downstream work. It cannot be only a C.32 pattern because the palette is only one stage of the larger architecturing flow. It cannot be only C.32.PAD or C.32.ADR because decisions and records do not create the candidate space and do not realize structures. It cannot be only A.15 or E.18.1 because method and work carry-through and P2W do not govern architecture candidate synthesis or selected-structure decision content.
 
-The P2S structural-information slots are selected now because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures, while descriptions, decisions, methods, work, and eval reports capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, work records, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
+The P2S structural-information slots are selected now because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures, while descriptions, decisions, methods, Work occurrences, separate records about them, and eval reports capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, references to Work occurrences, separate work-record epistemes, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
 

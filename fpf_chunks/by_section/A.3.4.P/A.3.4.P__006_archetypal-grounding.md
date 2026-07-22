@@ -6,15 +6,14 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 8228
-line_end: 8268
+line_start: 8166
+line_end: 8209
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.3.1"
@@ -26,13 +25,11 @@ dependencies:
   - "A.6.5"
   - "A.6.F"
   - "A.6.M"
-  - "B.3"
   - "C.2.1"
   - "C.2.P.DR"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "C.30"
   - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
@@ -43,8 +40,6 @@ dependencies:
   - "E.20"
   - "E.24"
   - "E.8"
-  - "F.18"
-  - "F.19"
 keywords:
 ---
 
@@ -60,32 +55,35 @@ Repair: recover whether the current claim is a refrigerator subsystem transforma
 
 Source wording says: "The attention block transforms activations in the model pipeline."
 
-Repair: the block may be a system-like architecture locus or module allocation; activations and tensor shapes may fill input and output slots or signature slots; attention may be a method description or mathematical lens; the pipeline may be a transformation-flow structure. Benchmarks or ablations are evidence or result relations only when their governing patterns are current.
+Repair: the block may be an architecture locus or module allocation, but that fact alone establishes no actor. If dated inference work is claimed, recover its exact Work occurrence admitted under `U.Work`, covering `U.RoleAssignment`, direct `performedBy`, and the separately governed work-to-activation relation required by the use. If a non-work block action is claimed, recover the exact operation-application, functioning, causal, or other direct actor-side relation; otherwise leave action unresolved. A design organization, method or method family, toolchain, or communication system that shaped the block first keeps its exact kind and then only its exact architecture, work, communication, constraint, or candidate-synthesis relation. Activation and tensor-shape claims use exact participant, port, operation-application, or signature relations; attention may be a method description or mathematical lens; the pipeline may be a transformation-flow structure. Benchmarks or ablations are evidence or evaluation relations only when their governing patterns are current.
 
 #### A.3.4.P:5.3 - CRISPR editing workflow
 
 Source wording says: "The guide-selection workflow changes the target gene."
 
-Repair: the target-gene edit is the candidate `U.Transformation`; guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim. A table rank or workflow diagram does not establish gate passage, deontic permission, work authorization, release authorization, or performed lab work for the edit.
+Repair: the target-gene edit is only a candidate `U.Transformation` until the exact biological referent, edit boundary, boundary conditions, actual sequence and direct-relation facts, and reidentification rule establish one occurrence. Guide selection may be method, method description, work plan, evidence-facing table, or performed lab work according to the current claim. A table rank or workflow diagram establishes neither actual edit, gate passage, deontic permission, work authorization, release authorization, nor performed lab work.
 
 #### A.3.4.P:5.4 - Evidence path near a plant change
 
 Source wording says: "The evidence path lets the valve-change flow proceed."
 
-Repair: an evidence path may be a legitimate `A.10` provenance relation for a named claim. The valve change still needs the transformation, work plan, dated work, gate, assurance, and result relations when those claims are current. The path does not establish work authorization, release authorization, gate passage, or performed work by shape or name.
+Repair: an evidence path may be a legitimate `A.10` provenance relation for a named claim. The valve change still needs its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis; work plan, dated work, gate, assurance, result, and receiving use remain exact neighboring relations when current. The path establishes no work authorization, release authorization, gate passage, performed work, or actual transformation by shape or name.
 
 #### A.3.4.P:5.5 - Filled minimal repair note
 
 ```text
 TransformationWordingRepair:
   EncounteredWording: "the refrigeration circuit moves heat through the cycle"
-  WorkingConcern: recover whether the sentence is about one bounded heat-transfer change, a compound transformation-flow structure, a thermodynamic mechanism, a functional architecture view, or a schematic publication.
-  RecoveredEntityOfConcern: refrigerator heat-transfer behavior in the bounded cooling context.
-  TransformationCoreDisposition: not one atomic transformation yet; compound transformation-flow structure is current.
-  RecoveredSlotOrNeighboringValue: compressor, condenser, expansion, and evaporator transformations are candidate component transformations; thermodynamic laws are mechanism-governing material; the diagram is a publication only if the diagram itself is the current object.
-  GoverningPattern: `E.18` for selected transformation-flow structure; `A.3.4` for each bounded component transformation when named; `C.30.ASV` for functional architecture view; direct publication pattern when the schematic publication is current.
-  RetainedUse: "circuit" may stay as ordinary domain wording after the selected structure is named.
-  BlockedOverread: the circuit label is not proof of functioning, not a gate decision, not dated work, and not one atomic transformation.
-  RemainingReaderUse: name the selected transformation-flow structure and then open the direct governing pattern for the next claim being made.
+  WorkingConcern: recover whether the sentence is about one bounded heat-transfer change, a selected compound transformation-flow structure, a thermodynamic mechanism, a functional architecture view, or a schematic publication.
+  RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the exact selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
+  ActualTransformationDisposition: no actual bounded transformation is recovered; `RefrigeratorHeatTransferFlowStructure-1` is the exact current object, and its selection establishes neither transformation composition nor partlessness.
+  TransformationOccurrenceBasis: no component transformation occurrence is asserted; each remains unresolved until its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis are recovered.
+  ActingSystemDisposition: unresolved and not asserted; the circuit wording supplies no exact dated Work occurrence admitted under `U.Work`, `performedBy` relation, work-to-change relation, or non-work direct actor-side relation.
+  ArchitectureInfluenceDisposition: no influence claim is current and no influence source is selected; any later source must first keep its exact kind and then receive only its exact architecture, work, communication, constraint, or candidate-synthesis relation.
+  NeighboringClaimAndExactRelation: the four named transformation loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; their exact transformation occurrences and structure-membership relations remain to be recovered under `E.18` and `A.3.4`. Thermodynamic-law material, functional view, and schematic publication remain unselected neighboring candidates.
+  GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; `A.3.4` governs each component transformation only after its occurrence basis is recovered; mechanism, architecture-view, and publication patterns open only if one of those candidate objects becomes current.
+  RetainedUse: "circuit" may remain ordinary domain wording for `RefrigeratorHeatTransferFlowStructure-1` after that exact selected structure is named.
+  BlockedOverread: `RefrigeratorHeatTransferFlowStructure-1` is not proof of functioning, an actor, dated work, a gate decision, one actual transformation, or transformation composition; its component loci do not establish component occurrences, parthood, or partlessness.
+  RemainingReaderUse: use `E.18` for `RefrigeratorHeatTransferFlowStructure-1`; open `A.3.4` only for a component whose exact occurrence basis is recovered, or the direct mechanism, architecture-view, or publication pattern only when that separate object becomes current.
 ```
 

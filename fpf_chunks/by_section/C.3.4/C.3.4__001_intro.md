@@ -6,25 +6,29 @@ section_id: "C.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__001_intro.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:intro — Intro"
-line_start: 43497
-line_end: 43516
+line_start: 44418
+line_end: 44437
 dependencies:
+  - "C.2.1"
   - "C.3.1"
   - "C.3.2"
+  - "C.3.3"
+  - "C.3.A"
 keywords:
-  - "RoleMask"
-  - "constraints"
-  - "context-local adaptation"
-  - "subkind promotion"
+  - "RoleMask declaration episteme"
+  - "candidate-feature constraint"
+  - "masked judgment"
+  - "stable-refinement review"
+  - "vocabulary binding"
 ---
 
 ## C.3.4 - RoleMask — Contextual Adaptation of Kinds (without cloning)
 
-> **One‑line summary.** Defines **`U.RoleMask(kind, Context)`** as a **context‑local adaptation** of a `U.Kind` that (a) adds **constraints** and/or **vocabulary bindings**, and (b) may **narrow** membership **deterministically** within a `U.ContextSlice`, **without creating a new kind**. RoleMasks are catalogued, versioned, and guard‑addressable; frequent, stable constraint masks **SHOULD be promoted** to explicit **subkinds**. Cross‑context use of a RoleMask requires a **KindBridge** (for kinds) and, when needed, a **MaskAdapter** (for mask constraints). All penalties route to **R**; **F/G** remain unchanged.
+> **One-line summary.** Defines **`RoleMask`** as a C.2.1 declaration episteme for one named local use of an exact base kind. Its content pins the base `KindSignature` edition, additional candidate-feature constraints, vocabulary bindings, intended guard use, and definedness. Applying it yields an exact `true`/`false`/`unknown` masked judgment; it creates neither a new kind nor a direct membership relation. Cross-context use requires an obtaining KindBridge relation, a target declaration, and a separate MaskAdapter declaration when constraints or bindings change. Formality remains on declaration epistemes; guard refusal remains separate from `unknown`.
 
 **Status.** Normative in **Part C**. Identifier **C.3.4**.
 **Audience.** Engineering managers, architects, reviewers, editors.
@@ -32,7 +36,7 @@ keywords:
 **Depends on.**
 
 * **C.3.1 — U.Kind & SubkindOf (Core):** kinds are intensional; `⊑` is a partial order; kinds **carry no Scope**.
-* **C.3.2 — KindSignature (+F) & Extension/MemberOf:** signature F; deterministic `MemberOf(e,k,slice)`; `EntitySet(slice)`.
+* **C.3.2 — Kind intent, judgment, and extension:** `KindSignature` is a declaration episteme; the exact four-input judgment is three-valued; any extension is a pinned-edition representation of true candidates.
 * **C.3.3 — KindBridge & CL^k:** Cross‑context kind mapping; `CL^k` penalties → **R** only.
 * **A.2.6 — USM (Context slices & Scopes):** Claim/Work scope (**G**) over `U.ContextSlice`; bridges and **CL** for scope.
 * **C.2.2 — F–G–R; C.2.3 — U.Formality (F).**

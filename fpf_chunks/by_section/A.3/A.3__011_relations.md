@@ -6,53 +6,51 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:10 — Relations"
-line_start: 6549
-line_end: 6591
+line_start: 6544
+line_end: 6585
 dependencies:
-  - "A.15"
-  - "A.2"
+  - "A.10"
+  - "A.12-A.15"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
+  - "A.4"
+  - "A.7"
+  - "B.1.4-B.1.6"
+  - "F.9"
 keywords:
-  - "Method"
-  - "MethodDescription"
-  - "System-in-Role"
-  - "Work"
-  - "action"
-  - "causality"
-  - "change"
 ---
 
 ### A.3:10 - Relations
 
 **A.7 Strict Distinction.**
-A.3 operationalises A.7 by keeping **target EntityOfConcern ≠ MethodDescription ≠ observation/log Work**:
-*target EntityOfConcern* = target holon; *MethodDescription* = design description; *observation/log Work* = `Work` evidence or record. Violations (e.g., treating a recipe as a part) are non‑conformant and usually show up as Γ failures.
+A.3 keeps the target EntityOfConcern, MethodDescription, Method, RoleAssignment occurrence, dated Work occurrence, Work assertion or description, actual change, log or observation, and evidence relation distinct. A recipe or log is not part of the target, and a record about Work is not the Work occurrence.
 
 **A.12 Acting-Side Externalization & External Transformer.**
-A.3's CC-A3-1 is the mechanical guard-rail for A.12: even in self-modification, the *modelling split* keeps the acting-side holder distinct from the object-under-change.
+A.3's CC-A3-1 uses A.12 only when an actor-side or reflexive-work claim is current. The split keeps grounded acting and changed positions distinct for that claim; it neither invents an actor for non-separable change nor turns ordinary descent to already grounded parts into an MHT.
 
 **A.13 Agential Role.**
-When the bearer is an acting system or collective system with an agential role assignment, A.3 keeps identity, role assignment, method, plan, work, and evidence separate while A.13 supplies the agency-characteristic profile. This is where policy, plan, and action pipelines remain tied to explicit role assignments and Γ compatibility.
+When an agency claim is current, A.13/C.9 governs its characteristic profile while A.3 keeps identity, role assignment, method, plan, work, transformation, and evidence separate. Scale-free or minimal physical agentivity, observerhood, self-evidencing, or causal participation does not by itself establish an obtaining `U.RoleAssignment`, `TransformerRole@Context`, method enactment, or dated Work.
 
-**A.15 Role–Method–Work Alignment.**
-A.3 relies on A.15’s vocabulary guard‑rails (roles are not parts; methods are masks of work; specs are recipes). CC‑A3‑2/‑4 are enforceable precisely because A.15 fixes the naming discipline.
+**A.3.4 Bounded Change Under Conditions.**
+A.3.4 independently identifies one actual bounded transformation from the changed referent and subject-side occurrence facts. A.3 opens only when an actor-side enactment claim is additionally grounded. Natural, spontaneous, formal, relational, and joint-dynamics changes therefore need no fictive performer.
+
+**A.3.3, direct relation, interaction, and causality owners.**
+These owners establish participation and causal structure. Use an asymmetric actor-target factorization only when that result is independently grounded; retain a joint or non-separable account otherwise. `C.26` may test a residual probe, frame, order, incompatible-read, or no-faithful-export lens issue, but it is neither physical quantum ontology nor a second transformation owner.
+
+**A.15 Role-Method-Work Alignment.**
+A.3 relies on A.15's separation of role value, exact world-side RoleAssignment occurrence, run-independent Method, conditional MethodDescription reliance, intended WorkPlan episteme, world-side dated Work occurrence, and any assertion, description, log, or evidence about that occurrence. The Work stands in an actual `enactsMethod` relation; a MethodDescription may describe the Method; neither the description, plan, nor record proves that Work or actual change occurred.
 
 **A.14 Advanced Mereology.**
-A.3 consumes A.14’s **PortionOf** (for quantitative deltas) and **PhaseOf** (for versioning) and forbids role/recipe leakage into part–whole trees. Γ‑flavours declare which A.14 hooks they use.
+A.3 consumes A.14/C.13 only for independently grounded part or structure relations and forbids role or recipe leakage into part-whole trees. Selecting grounded internal positions for a reflexive claim is not an MHT; B.2 opens only when the containing whole is actually reidentified.
 
-**B‑cluster (Γ‑sections).**
-A.3 is executable only because Γ‑operators provide aggregation and invariants:
-
-* **Γ\_sys** enforces boundary folds and conservation;
-* **Γ\_epist** preserves document/data provenance and versioning;
-* **Γ\_time** orders work;
-* **Γ\_method** composes recipes;
-* **Γ\_work** accounts resource deltas; each inherits B‑invariants (e.g., B‑1 Conservation, B‑2 No‑Duplication).
+**B-cluster (Gamma sections).**
+A.3 supplies grounded actor-side facts and exact Work occurrences; receiving assertions may designate them, but A.3 does not require a universal bundle of Gamma calculations. B.1.5 governs order-sensitive Method composition and optional `Gamma_method`; B.1.4 governs a selected temporal aggregation and optional `Gamma_time`; B.1.6 governs a selected Work-resource aggregation and optional `Gamma_work`. System-boundary and epistemic aggregations use their exact direct patterns when current. Every such result has its own EntityOfConcern, policy, evidence, and admissible use rather than becoming a field or identity condition of MethodDescription, RoleAssignment, or Work.
 
 **Indexing to the glossary.**
 Terms used here (TransformerRole, Work, Method, MethodDescription, PortionOf, PhaseOf, BoundedContext) remain exactly as defined in Annex A; see A.1/A.2/A.14/A.15 entries for lexical registers.

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:12d"
 section_title: "P2W Performed-Work Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__017_p2w-performed-work-relation.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:12d — P2W Performed-Work Relation"
-line_start: 23645
-line_end: 23650
+line_start: 24217
+line_end: 24222
 dependencies:
   - "A.10"
   - "A.12"
@@ -54,7 +54,7 @@ keywords:
 
 ### A.15:12d - P2W Performed-Work Relation
 
-When `E.18.1` reaches performed work, this family keeps the current kind as `U.Work`. WorkEnactment wording is explanatory only: it points to dated performed work, not to a second work kind.
+When `E.18.1` reaches performed work, this family keeps `U.Work` as the admitted kind and identifies one exact dated Work occurrence under it. `WorkEnactment` is not a second kind and should not be used as a pseudo-object between a plan and the occurrence.
 
-A performed-work record may cite a `U.WorkPlan` and planned baseline, while recording launch values, performed values, substitutions, variance, telemetry, outputs, outcome, and result-related records in the performed-work occurrence. Comparator, transport, `PrincipleFrame`, `U.Signature(profile=FormalSubstrate)`, evidence, assurance, and gate relations are named separately when those claims are being made.
+A performed-work record is a separate `U.Episteme` that may cite a `U.WorkPlan`, planned baseline, and the exact Work occurrence. It may state actual launch bindings, performed values, substitutions, variance, telemetry, outputs, outcome claims, and result-record references only by citing their independently obtaining relations; none is stored in or constituted by the Work occurrence. Comparator, transport, `PrincipleFrame`, `U.Signature(profile=FormalSubstrate)`, evidence, assurance, and gate relations remain separately governed.
 

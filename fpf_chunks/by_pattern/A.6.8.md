@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.8.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
-line_start: 18944
-line_end: 19463
+line_start: 19518
+line_end: 20037
 dependencies:
   - "A.15"
   - "A.2.3"

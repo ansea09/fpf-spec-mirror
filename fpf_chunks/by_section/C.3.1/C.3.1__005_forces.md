@@ -6,18 +6,23 @@ section_id: "C.3.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__005_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:3 — Forces"
-line_start: 42966
-line_end: 42974
+line_start: 43859
+line_end: 43868
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,18 +30,21 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Minimal typed reasoning vs full ontology | A claim needs kind compatibility, but not every kind needs an ontic and public U-kind name. |
-| Subkind order vs dependency | A partial order over kinds is useful, but it is not a generic depends-on, part-of, slot, or construction relation. |
-| Context-local use vs cross-context reuse | A kind can work inside one context while same-word reuse still needs bridge discipline. |
-| Intent and membership detail vs compact core | C.3.1 keeps the core small; intent, membership, and bridges remain with neighboring C.3 patterns when live. |
+| Minimal typed reasoning vs ontology growth | A project needs local compatibility without admitting another durable FPF U-kind. |
+| Partial order vs actual classification | An order over kind values must constrain judgments, not merely arrange labels or extension rows. |
+| Stable kind vs changing declaration | A kind may continue across a corrected or strengthened declaration, but an incompatible redefinition must not inherit identity silently. |
+| Current extension vs kind identity | Candidate state and context slices can change current true members without changing either the kind or its signature. |
+| Local use vs cross-context reuse | Same spelling does not carry a kind across contexts or reference schemes. |
 

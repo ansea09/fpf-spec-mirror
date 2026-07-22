@@ -6,42 +6,46 @@ section_id: "A.3.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:9 — Consequences"
-line_start: 7273
-line_end: 7291
+line_start: 7274
+line_end: 7292
 dependencies:
   - "A.1.1"
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
-  - "A.3"
+  - "A.22"
   - "A.3.1"
+  - "A.6.1"
+  - "A.6.5"
+  - "B.1.5"
   - "B.3"
+  - "C.2.1"
   - "C.2.P.DR"
   - "C.28"
+  - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.18"
-  - "U.BoundedContext"
+  - "F.9"
   - "U.Method"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "SOP"
-  - "U.Episteme"
-  - "code"
-  - "method description"
-  - "method vs description vs work"
-  - "model"
-  - "recipe"
-  - "source"
+  - "claim-bearing episteme"
+  - "exact U.Method EntityOfConcern"
+  - "method-description membership"
+  - "representation versus publication versus plan versus Work"
+  - "same method versus equivalent descriptions"
+  - "substantive way-of-doing claim"
 ---
 
 ### A.3.2:9 - Consequences
@@ -49,17 +53,17 @@ keywords:
 | Benefit | Cost or caution |
 | --- | --- |
 | Method descriptions become reusable across notations. | Users must separate method identity from description form. |
-| Audits can distinguish description, plan, work, evidence, and authority. | The first repair step is slot recovery, not a vocabulary replacement. |
+| Audits can distinguish description, plan, work, evidence, and authority. | The first repair is to recover the current claim and exact governed object, then apply the membership rule; a vocabulary replacement is not enough. |
 | Software, lab, industrial, organizational, and proof-centered descriptions can be compared under one FPF kind. | Some files contain several current claims and must be split into several governing-pattern statements. |
 | Equivalent descriptions can be declared without forcing identical notation. | Equivalence and refinement need local criteria. |
 | Declarative representations can be used without being turned into ordered work-control claims. | Route-like language needs `C.2.P.DR` or a direct governing-pattern assignment. |
 
 #### A.3.2:9.1 - Quick use cards
 
-* **Written way is not the way itself.** A method description describes a `U.Method`.
-* **Executable is still not a run.** Runs are `U.Work`.
-* **Representation is not enough.** Code, proof, solver, SOP, diagram, and workflow words require slot recovery.
-* **Mechanism needs laws.** Use `A.6.1` and `E.20` when operation algebra, laws, admissibility, transport, audit, or realization is current.
+* **Claims first.** The claim-bearing episteme can be `U.MethodDescription`; its exact `U.Method`, C.29 representation, publication occurrence, publication form, and `U.PresentationCarrier` remain distinct.
+* **Executable is still not a run.** Runs are Work individuals admitted under `U.Work` only when A.15.1 grounds their occurrences.
+* **Representation is not enough.** Code, proof, solver, procedure, diagram, and workflow wording requires recovery of the current claim and exact governed object.
+* **Mechanism needs its declaration.** Use `A.6.1` when operation algebra, laws, admissibility, or applicability is current; keep transport, audit, realization, evaluation, and evidence-use relations under their direct patterns.
 * **Math needs its own claim.** Use `A.6.0` and `C.29` when formal substrate or mathematical-lens use is current.
 * **No ordered-action overread.** Use `C.2.P.DR` when declarative representations are overread as ordered action structures.
 

@@ -3,29 +3,37 @@ chunk_kind: "child"
 pattern_id: "C.3.5"
 pattern_title: "KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
 section_id: "C.3.5:9"
-section_title: "Worked Mini‑Examples (informative)"
+section_title: "Worked mini-examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__010_worked-mini-examples-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
-  - "C.3.5:9 — Worked Mini‑Examples (informative)"
-line_start: 43865
-line_end: 43871
+  - "C.3.5:9 — Worked mini-examples (informative)"
+line_start: 44753
+line_end: 44759
 dependencies:
+  - "A.2.6"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
+  - "C.3.4"
+  - "C.3.A"
 keywords:
   - "K0-K3"
   - "KindAT"
-  - "abstraction tier"
-  - "informative facet"
-  - "planning"
+  - "assurance planning"
+  - "declaration planning"
+  - "editorial facet"
 ---
 
-### C.3.5:9 - Worked Mini‑Examples (informative)
+### C.3.5:9 - Worked mini-examples (informative)
 
-* **K0 (Instance).** `Account_US_GAAP_2025_Q1_Cohort`. Plan **R** slice checks; avoid type‑maps across Contexts.
-* **K1 (Behavior).** `CacheableRequest` (“idempotent under retry; cache key well‑formed”). Raise **F3→F4**; design **R** for failure‑mode diversity; expect **pattern bridges**.
-* **K2 (Formal).** `Account` with invariants (balance = debits−credits; posting rules). Raise **F4+**; plan **R** over `Asset`/`Liability` subkinds; bridge via **type maps**.
-* **K3 (Up‑to‑Iso).** `UndirectedGraph` up to node relabeling. Expect **up‑to‑iso bridges**; proofs at **F7+**; **R** checks interface equivalence witnesses.
+- **K0.** `Account_US_GAAP_2025_Q1_Cohort`: use exact candidate judgments in the pinned quarter slice; do not infer a broad kind from one query result.
+- **K1.** `CacheableRequest`: make retry/idempotence behavior evaluable in a named signature edition and test diverse failure modes.
+- **K2.** `Account`: use explicit posting and balance invariants, test relevant subkinds, and evaluate each candidate with the exact signature edition and slice.
+- **K3.** `UndirectedGraph` up to node relabeling: state the equivalence notion and require bridge/evidence witnesses that preserve it.
 

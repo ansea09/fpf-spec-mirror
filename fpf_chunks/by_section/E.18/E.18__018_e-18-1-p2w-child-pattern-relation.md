@@ -6,17 +6,20 @@ section_id: "E.18:15a"
 section_title: "E.18.1 P2W Child-Pattern Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__018_e-18-1-p2w-child-pattern-relation.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15a — E.18.1 P2W Child-Pattern Relation"
-line_start: 80558
-line_end: 80561
+line_start: 81207
+line_end: 81210
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.2.6"
   - "A.20"
   - "A.21"
   - "A.3.4"
+  - "A.6.RCD"
   - "A.7"
   - "C.29"
   - "C.30.TFS-REL"
@@ -32,12 +35,13 @@ dependencies:
   - "G.9"
 keywords:
   - "P2W support"
-  - "composition"
+  - "U.Transfer"
+  - "adjacent governed loci"
   - "crossings"
   - "flow valuation"
-  - "guards"
-  - "selected transformations"
-  - "transformation flow structure"
+  - "independently grounded actual transformations"
+  - "no-automatic-composition boundary"
+  - "selected transformation-flow structure"
 ---
 
 ### E.18:15a - E.18.1 P2W Child-Pattern Relation

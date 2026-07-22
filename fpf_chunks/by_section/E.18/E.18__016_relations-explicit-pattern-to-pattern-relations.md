@@ -6,17 +6,20 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 80511
-line_end: 80544
+line_start: 81159
+line_end: 81193
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.2.6"
   - "A.20"
   - "A.21"
   - "A.3.4"
+  - "A.6.RCD"
   - "A.7"
   - "C.29"
   - "C.30.TFS-REL"
@@ -32,12 +35,13 @@ dependencies:
   - "G.9"
 keywords:
   - "P2W support"
-  - "composition"
+  - "U.Transfer"
+  - "adjacent governed loci"
   - "crossings"
   - "flow valuation"
-  - "guards"
-  - "selected transformations"
-  - "transformation flow structure"
+  - "independently grounded actual transformations"
+  - "no-automatic-composition boundary"
+  - "selected transformation-flow structure"
 ---
 
 ### E.18:14 - Relations (explicit pattern-to-pattern relations)
@@ -67,10 +71,11 @@ keywords:
 * **E.18 -> constrains -> G.11 EvaluatingAndRefreshing.** EditionBumpProposal, two-phase update through the UNM declaration locus, path-local refresh.
 
 **Work boundary**
-* **E.18 -> coordinates with -> A.15 U.WorkEnactment (`FinalizeLaunchValuesOnlyInWork`).** Single point of `FinalizeLaunchValues`; `FreshnessUpToDate` hard at LaunchGate; acceptance and telemetry published here.
+* **E.18 -> coordinates with -> A.15.1 Work occurrences and A.15.5 work-entry readiness.** `LaunchGate` consumes one exact prospective `workEntryClaimRef` and keeps `FreshnessUpToDate` hard before an attempted run. If Work occurs, A.15.1 governs the identity of the exact Work individual and requires the relevant world-side relations involving it to obtain independently; a separate `FinalizeLaunchValues` witness, telemetry record, or acceptance claim may designate the occurrence but is not that occurrence.
+* **E.18 -> coordinates with -> A.3.4, A.15.1, and A.15.PROD at actual-change and production boundaries.** A `Transformation` locus points to one independently identified actual change under `A.3.4`; an adjacent `Work` locus points to an exact dated occurrence under `A.15.1`. A work-causes-change assertion cites its direct subject governor or a local claim selected under `A.6.RCD` disposition 2. Production-work participation, entity-identity inception, and historically indexed production completion cite separate local `A.15.PROD` claims; E.18 neither derives them from proximity nor introduces replacement relation kinds.
 
 **Structure and reuse**
-* **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. The current ontology is: `A.3.4` governs each bounded `U.Transformation`, E.18 governs the selected compound structure over transformations and adjacent governed loci, and the named governing patterns govern method, work, mechanism, evidence, publication, gate, decision, and refresh claims when those claims are current.
+* **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. The current ontology is: `A.3.4` governs each independently identified actual bounded `U.Transformation`; E.18 governs the selected compound structure over transformations and adjacent governed loci without asserting transformation composition; and the named governing patterns govern method, work, mechanism, work-to-change, production, evidence, publication, gate, decision, and refresh claims when those claims are current.
 * **E.18 -> coordinates with -> architecture transformation-flow relation patterns.** When a selected transformation-flow structure is used in an architecture-flow relation, the architecture transformation-flow relation pattern records the relation between `TransformationFlowStructure` and `ArchitectureOf@Context`; E.18 keeps selected structure, crossing, and flow-valuation discipline.
 * **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every transfer or locus where publication occurs; Lean mode applies only as per profile.
 

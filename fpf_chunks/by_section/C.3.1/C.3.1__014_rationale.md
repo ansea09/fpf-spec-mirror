@@ -6,18 +6,23 @@ section_id: "C.3.1:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__014_rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:12 — Rationale"
-line_start: 43044
-line_end: 43047
+line_start: 43964
+line_end: 43967
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,13 +30,15 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:12 - Rationale
 
-The core must stay small because it is used inside many other FPF claims. Once a local kind relation starts carrying construction, admission, naming, scope, or slot discipline, it becomes too heavy and starts creating false ontology. C.3.1 therefore gives only the typed partial order and leaves stronger relations to the patterns that govern those objects.
+Kind identity, direct `U.SubkindOf` obtaining, assertion identity, declaration identity, candidate state, and current extension answer different questions and change under different conditions. Their separation lets a kind survive a compatible declaration revision while preventing an assertion or revised criterion from creating an order fact, silently rewriting prior classifications, or hiding a non-obtaining subkind proposal. Keeping the core small also prevents construction, admission, naming, scope, slot discipline, or dependency from being smuggled into one hierarchy relation.
 

@@ -6,23 +6,27 @@ section_id: "C.3.3:1"
 section_title: "Purpose & Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__002_purpose-audience.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:1 — Purpose & Audience"
-line_start: 43281
-line_end: 43289
+line_start: 44227
+line_end: 44235
 dependencies:
   - "A.2.6"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.2.2"
   - "C.3.1"
   - "C.3.2"
+  - "F.9"
 keywords:
   - "CL^k"
-  - "KindBridge"
+  - "KindBridge direct relation"
   - "R penalty"
-  - "cross-context mapping"
-  - "type-congruence"
+  - "bridge assertion episteme"
+  - "loss"
+  - "target judgment"
 ---
 
 ### C.3.3:1 - Purpose & Audience

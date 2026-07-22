@@ -3,48 +3,62 @@ chunk_kind: "child"
 pattern_id: "C.3.A"
 pattern_title: "Typed Guard Macros for Kinds + USM (Annex)"
 section_id: "C.3.A:7"
-section_title: "Decision Trees (informative)"
+section_title: "Decision trees (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__008_decision-trees-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
-  - "C.3.A:7 — Decision Trees (informative)"
-line_start: 44067
-line_end: 44090
+  - "C.3.A:7 — Decision trees (informative)"
+line_start: 44958
+line_end: 44988
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.2.6"
-  - "C.3.x"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
+  - "C.3.1-C.3.5"
 keywords:
   - "ESG"
-  - "Kind-CAL"
   - "Method-Work"
-  - "Typed guard"
-  - "USM"
-  - "regulatory profile"
+  - "assurance"
+  - "declaration compatibility"
+  - "exact candidate judgment"
+  - "guard refusal"
+  - "regulatory"
+  - "true/false/unknown"
 ---
 
-### C.3.A:7 - Decision Trees (informative)
+### C.3.A:7 - Decision trees (informative)
 
-**D1 - Admitting a typed claim**
+**D1 — Admit a quantified claim.**
 
-1. **same Context?** If **yes** → check `⊑` (`k ⊑ k′` if expected). If **no** → require **KindBridge**.
-2. **Scope coverage?** Compute `covers(TargetSlice)`.
-3. **Membership defined?** `MemberOf(?, k(′), TargetSlice)` defined? If **no** → deny.
-4. **Bridges used?** Apply penalties **Φ/Ψ** to **R**.
-5. **Freshness?** Check windows. **Optional**: `F ≥ F_k` if ESG mandates.
+1. Pin the quantified claim kind, receiving kind, and both exact signature editions.
+2. In one context, require the receiving kind to be identical to or a subkind of the claim kind; across contexts, recover the exact source-claim to target-receiving KindBridge relation and assertion.
+3. Check Claim scope against the exact TargetSlice and `Gamma_time`.
+4. Apply R consequences and freshness/threshold checks.
+5. Return the separate action disposition. Do not ask for a candidate unless the receiving use applies the claim to one.
 
-**D2 - Composing A → B**
+**D2 — Apply the claim to a candidate.**
 
-1. Typed: `k_A ⊑ k_B` or **KindBridge** to `k′_B ⊑ k_B`.
-2. Scope: `Scope(A) ∩ Scope(B)` covers TargetSlice.
-3. Penalties: apply **Φ/Ψ** to **R**.
-4. Freshness: along serial path.
-5. If **mask** expected: either A implies it or add **mask adapter**.
+1. Identify the candidate under its direct governor.
+2. Complete D1.
+3. Evaluate the exact four-input target judgment under the receiving-kind declaration; use the already established order or bridge for the claim-kind consequence.
+4. On `true`, continue; on `false`, refuse as known failure; on `unknown`, refuse and retain the non-settlement reason.
 
-**D3 - Union across lines**
+**D3 — Compose or cross a context.**
 
-1. Prove per‑line typed admission.
-2. Provide independence partition.
-3. Publish **SpanUnion**; no extrapolation.
+1. Pin source and target declarations.
+2. Recover the obtaining kind relation/bridge and separate assertion; recover Scope Bridge separately.
+3. Check the serial or translated scope.
+4. If an actual output/candidate is current, evaluate it under the target declaration.
+5. Apply R consequences and decide separately.
+
+**D4 — Publish a union.**
+
+1. Complete the relevant D1/D2 checks per line.
+2. Demonstrate support-line independence.
+3. Publish only the supported union; retain line-specific classifications and bridge consequences.
 

@@ -6,30 +6,34 @@ section_id: "C.3.4:9"
 section_title: "Anti‑patterns & Remedies (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_anti-patterns-remedies-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:9 — Anti‑patterns & Remedies (informative)"
-line_start: 43648
-line_end: 43658
+line_start: 44550
+line_end: 44560
 dependencies:
+  - "C.2.1"
   - "C.3.1"
   - "C.3.2"
+  - "C.3.3"
+  - "C.3.A"
 keywords:
-  - "RoleMask"
-  - "constraints"
-  - "context-local adaptation"
-  - "subkind promotion"
+  - "RoleMask declaration episteme"
+  - "candidate-feature constraint"
+  - "masked judgment"
+  - "stable-refinement review"
+  - "vocabulary binding"
 ---
 
 ### C.3.4:9 - Anti‑patterns & Remedies (informative)
 
 | Anti‑pattern                                      | Why it’s wrong                         | Remedy                                                                                |
 | ------------------------------------------------- | -------------------------------------- | ------------------------------------------------------------------------------------- |
-| Mask as “new type”                                | Duplicates kind; breaks alignment      | Keep the kind; if stable refinement → publish **subkind** (`⊑`).                      |
-| Hiding Scope in mask membership                   | Conflates channels; non‑portable       | Move context conditions to **USM** guards; keep only entity predicates in membership. |
+| Mask treated as a new type | Duplicates the kind and hides the declaration episteme | Keep the base kind; for a stable conceptual refinement identify another local kind and establish `U.SubkindOf` independently. |
+| Hiding Scope in a masked judgment | Conflates context with candidate features | Move context predicates to USM guards; keep only direct candidate-feature predicates in `J_mask`. |
 | Unregistered mask in guards                       | Non‑deterministic; un‑auditable        | Register & version the mask; fail closed otherwise.                                   |
-| Cross‑context use without KindBridge/MaskAdapter     | Silent semantic drift                  | Require **KindBridge** + **MaskAdapter**; apply `Ψ(CL^k)` and any `Φ(CL)` to **R**.    |
-| Mask proliferation (ten masks that mean the same) | Catalog entropy; inconsistent behavior | Consolidate; promote frequently used constraints to **subkinds**.                     |
-| Treating mask name as kind synonym                | Hides constraints; invites misuse      | In prose, say “`RoleMask(k, name)`”; in guards, reference mask fields explicitly.     |
+| Cross-context use without exact bridge and adapter objects | Silently reuses source truth | Establish the KindBridge relation and bridge assertion, target declarations, and any MaskAdapter episteme; then evaluate the target `J_mask` and apply justified R penalties. |
+| Mask proliferation (ten masks that mean the same) | Catalog entropy; inconsistent behavior | Consolidate declarations; for a stable conceptual distinction, separately identify a local kind and establish its obtaining `U.SubkindOf` relation. |
+| Treating a mask name as a kind synonym | Hides constraints and invites misuse | Designate the exact RoleMask declaration edition and base kind separately in prose and guards. |
 

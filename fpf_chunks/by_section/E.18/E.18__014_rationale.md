@@ -6,17 +6,20 @@ section_id: "E.18:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:11 — Rationale"
-line_start: 80483
-line_end: 80493
+line_start: 81131
+line_end: 81141
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.2.6"
   - "A.20"
   - "A.21"
   - "A.3.4"
+  - "A.6.RCD"
   - "A.7"
   - "C.29"
   - "C.30.TFS-REL"
@@ -32,12 +35,13 @@ dependencies:
   - "G.9"
 keywords:
   - "P2W support"
-  - "composition"
+  - "U.Transfer"
+  - "adjacent governed loci"
   - "crossings"
   - "flow valuation"
-  - "guards"
-  - "selected transformations"
-  - "transformation flow structure"
+  - "independently grounded actual transformations"
+  - "no-automatic-composition boundary"
+  - "selected transformation-flow structure"
 ---
 
 ### E.18:11 - Rationale
@@ -47,7 +51,7 @@ E.18 states **strict separation of concerns** (selected-structure scope only); *
 * **What the selected structure is:** structure-positioned transformation and slot-filler loci plus the single relation kind `U.Transfer`; graph, morphism, tuple, category, or algebra language is used only when a current mathematical description or lens expresses the relation.
 * **Where and when it crosses contexts:** **only** at `OperationalGate(profile)`, with Bridge and UTS, CL and CL^plane, and Φ published in R-lane.
 * **How comparability works:** UNM is the single governing locus for unit, plane, and transport declarations, and selectors operate **only** on normalized, edition-pinned comparators, returning sets or archives rather than totals. Edition-aware pins and archive semantics are checked through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` for current selector or archive cases.
-* **How change propagates:** sentinel‑bounded `PathSlice` refresh; editions are monotone; LaunchGate is the only binder of launch‑values.
+* **How change propagates:** sentinel-bounded `PathSlice` refresh; editions are monotone; LaunchGate is the sole pre-run decision locus for the selected `workEntryClaimRef`, while actual launch values are established only through independently obtaining direct relations or A.6.1 bindings involving the later Work occurrence and may be cited by a separate finalization witness.
 
 This arrangement gives checkable conditions for **functorial publication** (commuting squares on crossings) and **orthogonality** of inner technical validity (ConstraintValidity) to context fit (GateFit), which in turn keeps gate aggregation **order-independent** under the CV=>GF activation predicate.
 

@@ -1,0 +1,49 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.P.WMR"
+pattern_title: "Exact Relation Recovery for Method and Work Claims"
+section_id: "A.6.P.WMR:6"
+section_title: "Bias-Annotation"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.P.WMR/A.6.P.WMR__007_bias-annotation.md"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+heading_path:
+  - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
+  - "A.6.P.WMR:6 — Bias-Annotation"
+line_start: 16007
+line_end: 16021
+dependencies:
+  - "A.15.1"
+  - "A.15.1-A.15.3"
+  - "A.15.2"
+  - "A.15.3"
+  - "A.15.PROD"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
+  - "A.6.1"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "C.2.P"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.18.1"
+  - "F.18"
+keywords:
+---
+
+### A.6.P.WMR:6 - Bias-Annotation
+
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Limited to recovering one method/work-boundary relation-bearing claim after A.6.P has isolated it; not Universal governance for all relation ambiguity, work identity, production, evidence, publication, transfer, or receiving use.**
+
+The pattern deliberately weights **Onto/Epist** toward exact entities, relation kinds, claim dimensions, and non-invention, and **Prag** toward the shortest usable result from the four-family contract. **Did** favors ordinary wording and heterogeneous worked cases before heavier assurance. The **Arch** cost is coordination with several direct owners rather than one convenient input/output/result architecture. The **Gov** boundary is that the accountable subject owner supplies, rejects, or reframes a missing governor; WMR cannot admit it. Mitigation is the thin five-question core, one of four truthful exit families, and independent `factually unsupported`, `missing-information`, and `missing-governor` reasons, with future-owner routing only for the last, plus owner-local handoff only when the receiving use needs it and the scope limits below. The following domain-bias rows are informative risk cues; they add no duties beyond the checklist.
+
+| Bias | Countermeasure |
+| --- | --- |
+| Artifact bias | The countermeasure distinguishes a changed continuing referent, newly constituted entity, episteme, resource, or delivered item before any `result` reading. |
+| Workflow bias | Arrows, stages, WBS rows, and work-package names remain descriptions or plans until exact work and direct relations obtain. |
+| Production bias | Work-caused change, entity-identity inception, and production completion remain separate claims. |
+| Data bias | Epistemic source-to-use and premise or reference relations remain explicit; a datum does not become an operation argument or work input by default. |
+| Evidence bias | An available record or application binding establishes neither truth, warrant, acceptance, nor downstream use. |
+| Ontology-growth bias | An exact blocker replaces any convenience move toward a broad new kind. |
+

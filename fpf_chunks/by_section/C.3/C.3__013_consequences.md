@@ -6,26 +6,28 @@ section_id: "C.3:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__013_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:11 — Consequences"
-line_start: 42897
-line_end: 42904
+line_start: 43793
+line_end: 43800
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
   - "A.22.CGUS"
+  - "A.6.0"
   - "A.7.1"
   - "A.8"
-  - "C.2.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
-  - "F.5"
+  - "F.18"
   - "F.8"
 keywords:
   - "classification"
@@ -40,9 +42,9 @@ keywords:
 
 ### C.3:11 - Consequences
 
-**Benefits.** C.3 lets users make typed claims without premature ontology growth; it keeps local membership, scope, and reuse across reference schemes or context slices inspectable.
+**Benefits.** C.3 supports local typed claims, subkind reasoning, classification, and queryable extensions without premature ontology growth or evidence-created membership.
 
-**Costs.** The user must state intent and extent when they matter and must not hide bridge loss behind familiar labels.
+**Costs.** Repeated uses must pin a declaration edition and context slice, and receiving uses must distinguish `false` from `unknown`.
 
-**Risks avoided.** The main avoided risks are false sameness, accidental public `U.*` minting, and category mistakes in selector, evidence, architecture, or method claims.
+**Risks avoided.** False sameness, implicit time, scope-on-kind, record ontology, accidental relation minting, kind/individual substitution, and mathematical-set overread are blocked at the first use.
 

@@ -6,12 +6,12 @@ section_id: "C.31:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__003_problem.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:2 — Problem"
-line_start: 61014
-line_end: 61021
+line_start: 61635
+line_end: 61642
 dependencies:
   - "A.10"
   - "A.17"

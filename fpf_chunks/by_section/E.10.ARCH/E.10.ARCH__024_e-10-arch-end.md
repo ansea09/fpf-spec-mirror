@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:End"
 section_title: "E.10.ARCH:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__024_e-10-arch-end.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:End — E.10.ARCH:End"
-line_start: 73245
-line_end: 73246
+line_start: 73893
+line_end: 73894
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -28,8 +29,11 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
   - "C.16"
   - "C.16.P"
   - "C.16.Q"

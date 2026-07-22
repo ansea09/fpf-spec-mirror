@@ -1,80 +1,73 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+pattern_title: "U.Mechanism - Reusable Law-Governed Operation Declaration"
 section_id: "A.6.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__008_conformance-checklist.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+  - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:7 — Conformance Checklist"
-line_start: 11484
-line_end: 11513
+line_start: 11556
+line_end: 11579
 dependencies:
+  - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
   - "A.2.6"
-  - "A.20"
-  - "A.21"
+  - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "B.3"
-  - "C.16"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.29"
+  - "C.3"
   - "E.10"
   - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.18"
   - "E.20"
+  - "E.24.PUB"
   - "F.18"
-  - "U.BoundedContext"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Signature"
-  - "U.Work"
-  - "U.WorkPlan"
+  - "F.9"
+  - "G.11"
 keywords:
   - "AdmissibilityConditions"
-  - "Bridge‑only"
   - "LawSet"
-  - "Mechanism"
   - "OperationAlgebra"
-  - "Transport"
+  - "U.Mechanism"
+  - "application binding"
+  - "operation application"
+  - "operation declaration"
+  - "realization"
 ---
 
 ### A.6.1:7 - Conformance Checklist
 
-**CC-UM.0 (A.6.0 alignment).** A conforming `U.Mechanism` publication includes the four-row `U.Signature` Block. `OperationAlgebra` is the Vocabulary row, `LawSet` is the Laws row, and `Applicability` is the Applicability row. `SlotIndex` is a derived index, not a fifth Signature row.
-
-**CC-UM.1 (Complete declaration).** A conforming publication includes DeclarationHeader, Imports, SubjectBlock, SlotIndex, OperationAlgebra, LawSet, AdmissibilityConditions, Applicability, Transport, GammaTimePolicy, PlaneRegime, and Audit.
-
-**CC-UM.2 (Manifest coupling).** If imported or reused, the mechanism includes a SignatureManifest consistent with DeclarationHeader, imports, and provided symbols.
-
-**CC-UM.3 (Monotone realization).** A realization satisfies the mechanism LawSet and imported laws. It may tighten laws or guards and must not relax them.
-
-**CC-UM.4 (Opaque imports).** Realizations and mechanisms treat imported signatures as opaque. They reference only provided symbols and ClaimIds.
-
-**CC-UM.5 (Bridge-only transport).** Cross-context or cross-plane use names BridgeId, channel, ReferencePlane, and plane policy when needed. Transport does not create a `U.Transfer` edge.
-
-**CC-UM.6 (Reliability-only penalties).** Scope, kind, bridge, or plane penalties are recorded in Reliability or effective Reliability only. Formality and Guarantee stay invariant.
-
-**CC-UM.7 (Comparison compliance).** Numeric comparison or aggregation binds to characteristic-space, measurement, scale, and comparison rules. Partial orders remain set-valued unless a declared scorer governs the reduction.
-
-**CC-UM.8 (Tri-state guards).** Guard predicates are deterministic, context-local, and fail closed. Unknowns become `degrade` or `abstain`, not zero or false.
-
-**CC-UM.9 (SlotIndex as view).** SlotIndex is mechanically derivable from per-operator SlotSpecs plus guard-only SlotSpecs. Didactic ValueKind projections do not replace SlotSpecs.
-
-**CC-UM.10 (Specialization chains).** A mechanism specialization names its parent and morphism kind, preserves inherited SlotKinds, narrows ValueKinds only in Refinement, and avoids new mandatory inputs to inherited operations.
-
-**CC-UM.11 (No in-place kind definition).** `RangedValueKind` references an existing C.3 `U.Kind`, admitted durable U-kind, Concept-Set row, or imported signature symbol. Any new durable U-kind requires a separate accepted E.24.UK, A.11, and naming decision.
-
-**CC-UM.12 (Method-position separation).** A mechanism publication does not close a method, method-description, work-plan, dated-work, evidence, gate, publication-use, or result claim. Linked values are named by their governing patterns.
-
-**CC-UM.13 (No tool binding).** Kernel mechanism narrative does not depend on vendor names, CI hooks, telemetry fields, or tool-specific evaluator semantics. Such details are outside the mechanism unless another governing pattern admits them.
+1. **Exact episteme.** One `U.Mechanism` episteme and its exact `EntityOfConcernRef` are recoverable.
+2. **Identity.** Content, EntityOfConcern, and effective `U.ReferenceScheme` remain recoverable.
+3. **Signature dependence.** The mechanism uses A.6.0 signature content and adds operation and admission semantics without becoming a second root beside `U.Episteme`.
+4. **Typed operation declarations.** Every reused operation has declaration-local argument and result meanings, exact ValueKinds, binding designation rules, and semantic cardinalities when needed. None is an A.6.5 SlotSpec.
+5. **Application semantics.** Every particular application needed by a receiving claim has an exact application predicate, identity rule, extent rule, and recoverable occurrence boundary.
+6. **Actual bindings.** Every claimed actual argument or returned result has an obtaining declaration-local binding with the exact application and bound value; type compatibility, description, plan, record, or token match is insufficient.
+7. **Binding identity.** The application, mechanism edition, operation designator, argument or result designator, bound value, and maximal continuous binding extent distinguish the binding occurrence.
+8. **Recognition result.** A recognition-evaluation declaration uses `true | false | unknown` with the A.1 meanings; `unknown` is not false, a candidate state, evidence status, currentness, or receiving disposition.
+9. **Law and admission split.** Reusable laws, proposed-application admission predicates, and the operation's own returned value remain distinct.
+10. **Exact applicability.** `U.ClaimScope`, time, selected `CHR:ReferencePlane` when current, and mechanism-specific conditions replace generic context wording.
+11. **Optional structure.** A model-use structure is cited only when its selected relations delimit or change the receiving mechanism use; it does not replace the effective reference scheme or claim scope.
+12. **Dependency truth.** SignatureManifest content names actual imports and provided names only when dependency replay matters.
+13. **Realization relation.** A realizer keeps its direct kind; the direct relation declares its participants, obtaining predicate, and maximal-continuous-interval identity rule.
+14. **Evaluation and evidence boundary.** Evidence availability can change evaluation or warrant without changing world-side satisfaction; an argument binding establishes use, not truth or warrant.
+15. **Method and work boundary.** Method, method description, work plan, dated work, actual application, and binding remain separately identifiable. A.6.1 owns neither dated-work identity nor work mereology.
+16. **Result boundary.** A result binding neither produces nor constitutes its bound entity and does not materialize a C.2.1 result episteme.
+17. **Direct mechanism relations.** Every refinement, conservative-extension, or equivalence claim names exact endpoint editions, reference schemes, scope, predicate, preserved and changed content, and direct governor. Generic mechanism `transport` is absent; exact cross-context `SenseCell` correspondence returns to F.9.
+18. **Mathematical-lens boundary.** Quotient, product, morphism, operand order, and tuple claims use C.29 when mathematical structure preservation is current.
+19. **Progressive explicitness.** One-off direct use is not forced into a mechanism declaration or application-binding apparatus.
+20. **CGUS boundary.** Mnemonic imperatives are not called an executable sequence; condition-governed continuation uses A.22.CGUS.
+21. **Changed object.** Declaration, application, binding, realization, evaluation, evidence, work, representation, and publication changes return to the object that actually changed.
 

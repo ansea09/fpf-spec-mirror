@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:7"
 section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_subject-pattern-thin-pointer-rule.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 73093
-line_end: 73116
+line_start: 73739
+line_end: 73763
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -28,8 +29,11 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
   - "C.16"
   - "C.16.P"
   - "C.16.Q"
@@ -82,6 +86,7 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - use `A.3.1` when method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, method-algebra, method-graph, selector-calculus, or programming-paradigm wording hides whether the current slot is method, method relation structure, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
 - use `A.6.RSIR` when relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording hides the current governed object or claim kind and no direct governing pattern is yet clear;
 
+- use `A.6.P.WMR` when input, raw-material, source-data, source-material, output, result, outcome, deliverable, handoff, or work-name wording hides one exact work/method-boundary relation-bearing claim; use `C.2.P` first for the epistemic source side, and return one of the four truthful WMR exits rather than classification or actual-slot fallback;
 - use `C.2.P.DR` when a declarative representation, graph relation, evidence-path wording, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
 - use the direct governing pattern, with `A.19.SPR` only when hidden state-family wording remains, when admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording already recovers its bearer, claim kind, source relation, value frame, and admissible use.
 

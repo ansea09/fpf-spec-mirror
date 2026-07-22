@@ -6,15 +6,14 @@ section_id: "A.3.4.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__004_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:3 — Forces"
-line_start: 8142
-line_end: 8151
+line_start: 8070
+line_end: 8079
 dependencies:
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.3.1"
@@ -26,13 +25,11 @@ dependencies:
   - "A.6.5"
   - "A.6.F"
   - "A.6.M"
-  - "B.3"
   - "C.2.1"
   - "C.2.P.DR"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "C.30"
   - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
@@ -43,8 +40,6 @@ dependencies:
   - "E.20"
   - "E.24"
   - "E.8"
-  - "F.18"
-  - "F.19"
 keywords:
 ---
 
@@ -52,9 +47,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Recognition and precision | Source labels help readers recognize a change situation, but FPF use needs recovered kind, slot, and governing pattern. |
-| Atomic and compound change | `U.Transformation` identifies one bounded change; `TransformationFlowStructure` composes or locates several transformations and adjacent loci. |
-| System and behavior | A system, holon, module, or component may fill a transformer-side slot, while functioning remains transformation or transformation-flow behavior under conditions. |
+| Recognition and precision | Source labels help readers recognize a change situation, but FPF use needs a recovered kind, subject-side occurrence basis, exact relation, and governing pattern. |
+| One actual transformation and selected flow structure | `U.Transformation` identifies one independently grounded actual bounded change and establishes neither transformation parthood nor partlessness at the current resolution. `TransformationFlowStructure` positions, relates, or locates transformation loci and adjacent governed values; common structure membership establishes no transformation composition. |
+| Acting system and influence source | A role assignment alone does not prove performance, and generic transformation participation does not prove action. Performed-work attribution needs one exact dated Work occurrence admitted under `U.Work`, its direct `performedBy` relation to the covering `U.RoleAssignment`, and any separately governed work-to-change relation needed by the claim; a non-work actor needs another exact direct actor-side governor. Every influence source keeps its own kind and exact relation. |
 | Formal and project-world change | A formal construction may be a transformation over a formal object, or it may be a mathematical description of project-world structure; the current object decides. |
 | Repair and readability | The repair must recover enough ontology for safe use without turning every ordinary sentence into a table. |
 

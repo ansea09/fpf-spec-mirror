@@ -6,21 +6,24 @@ section_id: "C.32.P2S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__010_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:9 — Consequences"
-line_start: 62589
-line_end: 62598
+line_start: 63236
+line_end: 63245
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
+  - "A.6.RCD"
   - "B.2"
   - "C.11"
   - "C.16"
@@ -60,16 +63,20 @@ keywords:
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
   - "candidate structures"
+  - "exact domain work"
   - "expected structures"
   - "governing-pattern-specific return"
+  - "independently grounded actual changes"
+  - "no-automatic-composition"
   - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
+  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:9 - Consequences
 
-The project gains one replayable architecturing flow from pressure to actual-structure feedback. Practitioners can see where the work currently stands and which governing pattern governs the next claim, without treating descriptions, decisions, eval results, or work records as interchangeable.
+The project gains one replayable architecturing flow from pressure to actual-structure feedback. Practitioners can see where the work currently stands and which governing pattern governs the next claim, without treating descriptions, decisions, eval results, Work occurrences, or separate records about them as interchangeable.
 
 The cost is disciplined record work: the card preserves structural uncertainty, candidate plurality, accepted losses, handoffs, and stronger-structure inspection return. If that cost is not justified because the question is already governed by one narrower pattern, use that pattern directly and do not open P2S.
 

@@ -6,28 +6,27 @@ section_id: "A.3:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__002_intent.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:1 — Intent"
-line_start: 6386
-line_end: 6389
+line_start: 6370
+line_end: 6373
 dependencies:
-  - "A.15"
-  - "A.2"
+  - "A.10"
+  - "A.12-A.15"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
+  - "A.4"
+  - "A.7"
+  - "B.1.4-B.1.6"
+  - "F.9"
 keywords:
-  - "Method"
-  - "MethodDescription"
-  - "System-in-Role"
-  - "Work"
-  - "action"
-  - "causality"
-  - "change"
 ---
 
 ### A.3:1 - Intent
 
-Establish a single, substrate‑neutral way to say **who acts**, **under which role**, **according to which description**, **by which capability**, and **what actually happened**—without “self‑magic” and without blurring design‑time and run‑time. The pattern fixes the **Transformer Quartet** so all kernel and Γ‑patterns reuse the *same four anchors*. It builds directly on **Holon‑Role Duality (A.2)** and **Temporal Duality (A.4)** and is guarded by **Strict Distinction (A.7)** and **Evidence Graph Referring (A.10)**.
+Establish a substrate-neutral way to say which system performed one dated world-side Work occurrence, under which exact `U.RoleAssignment`, by enacting which `U.Method`, and which separately governed method-description, capability, work-to-change, evidence, or aggregation claims the current use additionally relies on—without self-magic and without blurring run-independent semantics, the occurrence, and an episteme that describes or asserts it. The pattern keeps the **Transformer Quartet** object families distinct; it does not require every change claim or Work assertion to carry all four. `A.3.4` independently identifies an actual bounded change; that identification alone establishes no acting system, agency, role assignment, method, or work. A.3 builds directly on **Holon-Role Duality (A.2)** and **Temporal Duality (A.4)** and is guarded by **Strict Distinction (A.7)** and **Evidence Graph Referring (A.10)**.
 

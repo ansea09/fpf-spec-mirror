@@ -1,73 +1,69 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+pattern_title: "U.Mechanism - Reusable Law-Governed Operation Declaration"
 section_id: "A.6.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__002_problem-frame.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+  - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:1 — Problem frame"
-line_start: 11267
-line_end: 11289
+line_start: 11216
+line_end: 11235
 dependencies:
+  - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
   - "A.2.6"
-  - "A.20"
-  - "A.21"
+  - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "B.3"
-  - "C.16"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.29"
+  - "C.3"
   - "E.10"
   - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.18"
   - "E.20"
+  - "E.24.PUB"
   - "F.18"
-  - "U.BoundedContext"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Signature"
-  - "U.Work"
-  - "U.WorkPlan"
+  - "F.9"
+  - "G.11"
 keywords:
   - "AdmissibilityConditions"
-  - "Bridge‑only"
   - "LawSet"
-  - "Mechanism"
   - "OperationAlgebra"
-  - "Transport"
+  - "U.Mechanism"
+  - "application binding"
+  - "operation application"
+  - "operation declaration"
+  - "realization"
 ---
 
 ### A.6.1:1 - Problem frame
 
-Use this pattern when a reusable declaration must do more than name a signature. Use it when the project needs to declare a **law-governed operation algebra**, admissibility predicates, context-local applicability, cross-context transport, and realization discipline for a `U.Mechanism`.
+An engineer needs a reusable declaration of operations, their typed argument and result positions, the laws they preserve, and the conditions under which an operation is admitted. The declared operation family may be used for physical modeling, clinical calculation, selection, normalization, or another named engineering use.
 
-Use it when the working question is:
+Use this pattern when the working question is:
 
-* which `SubjectKind` and `RangedValueKind` the mechanism ranges over;
-* which operations are available and which SlotSpecs those operations publish;
-* which laws and invariants govern the operations;
-* which admissibility predicates fail closed before an operation can be used;
-* which bridge, reference-plane, and reliability-penalty relation governs cross-context or cross-plane use;
-* whether a realization tightens the mechanism without relaxing its laws.
+> What operation family is being declared, which laws govern it, and under which claim scope, time, selected `CHR:ReferencePlane`, and mechanism conditions may its operations be used?
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is `U.Mechanism`: a specialization of `U.Signature` whose vocabulary is an `OperationAlgebra`, whose laws are a `LawSet`, and whose additional fields declare admissibility, applicability, transport, time policy, plane policy, audit surface, and monotone realization relation.
+The primary `EntityOfConcern` of this pattern is one `U.Mechanism` episteme. `U.Mechanism` is a dependent durable U-kind governed through the `U.Signature` identity and content settlement; it adds operation and admission semantics to the reusable declaration. The declared operation family remains the episteme's exact `EntityOfConcernRef` rather than becoming the episteme itself.
 
-**First useful move.** Write the mechanism as an A.6.0 Signature Block, then add only the mechanism-specific fields: `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, `Transport`, `GammaTimePolicy`, `PlaneRegime`, and `Audit`. If cross-context use is current, name the Bridge and the Reliability penalty relation before any reuse claim is made.
+**Primary working reader and concern.** The reader is an engineer who needs to reuse or compare an operation declaration without confusing it with the method that uses it, the entity that realizes it, the work that evaluates it, or a publication that presents it.
 
-**What goes wrong if missed.** An implementation recipe, method name, policy rule, telemetry package, or cross-context reuse habit can masquerade as mechanism law. Downstream work then cannot tell which operations are admitted, which predicates fail closed, which realization is monotone, and which losses affect Reliability rather than Formality or Guarantee.
+The first useful move is to name the declared operation family and its subject, then state its `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and exact Applicability. Inside each reused operation, declare the exact argument and result meanings, kinds, application predicate, extent rule, and identity rule. Open an actual operation-application binding only after one particular application has been independently identified and its actual bound value matters to a receiving claim. Add a dependency manifest only when names are reused across declarations.
 
-**What this buys in practice.** Scope mechanisms, normalization mechanisms, selector mechanisms, scoring mechanisms, publication mechanisms, and comparison mechanisms can be compared, refined, extended, transported, and realized without hiding law, guard, time, plane, or Reliability assumptions.
+What goes wrong if this pattern is missed: implementation behavior, method instructions, evaluation outcomes, and publication metadata enter the declaration as if they were operation laws. A later user cannot tell whether the declaration changed, one realization failed, or only the evidence became stale.
 
-**Not this pattern when.** If the claim is only a reusable declaration with no operation algebra and no admissibility predicates, use `A.6.0`. If the claim is a semantic way of doing, use `A.3.1`. If the claim is an episteme describing that way, use `A.3.2`. If the claim is planned or dated work, use `A.15.2` or `A.15.1`. If the claim is evidence, assurance, gate authority, publication use, or result acceptance, use the governing pattern for that claim.
+What this buys: the declaration can remain stable while methods, realizers, evaluations, descriptions, and publications evolve under their own patterns.
+
+Do not use this pattern merely because prose contains words such as mechanism, algorithm, process, or workflow. Recover the current object first. Use A.3.1 when the current object is a semantic way of doing, A.15.1 when it is performed work, and the direct system or episteme pattern when it is a physical assembly or a model description.
 

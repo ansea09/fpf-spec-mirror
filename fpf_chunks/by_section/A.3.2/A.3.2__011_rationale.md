@@ -6,47 +6,51 @@ section_id: "A.3.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__011_rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:10 — Rationale"
-line_start: 7292
-line_end: 7297
+line_start: 7293
+line_end: 7298
 dependencies:
   - "A.1.1"
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
-  - "A.3"
+  - "A.22"
   - "A.3.1"
+  - "A.6.1"
+  - "A.6.5"
+  - "B.1.5"
   - "B.3"
+  - "C.2.1"
   - "C.2.P.DR"
   - "C.28"
+  - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.18"
-  - "U.BoundedContext"
+  - "F.9"
   - "U.Method"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "SOP"
-  - "U.Episteme"
-  - "code"
-  - "method description"
-  - "method vs description vs work"
-  - "model"
-  - "recipe"
-  - "source"
+  - "claim-bearing episteme"
+  - "exact U.Method EntityOfConcern"
+  - "method-description membership"
+  - "representation versus publication versus plan versus Work"
+  - "same method versus equivalent descriptions"
+  - "substantive way-of-doing claim"
 ---
 
 ### A.3.2:10 - Rationale
 
-FPF needs `U.MethodDescription` because a project often works with recipes, programs, protocols, diagrams, and formal files before any dated work occurs. Those representations can be improved, versioned, compared, audited, and cited; treating them as the method itself, the run, the authorization, or the evidence destroys those distinctions.
+Projects need reusable claims about ways of doing before any dated work occurs. Treating a file as the method description by appearance hides two decisions that later work needs: which episteme is being relied on, and which admitted method its claims concern. The positive claim threshold makes this distinction usable without demanding a complete procedure card.
 
-The pattern is intentionally representation-agnostic. A method description is an episteme about a way of doing, not a privileged notation. Code and solver files can be method descriptions, but so can SOPs, guidelines, lab protocols, proof scripts, and diagrams when the current claim is that they describe a method.
+The pattern is representation-agnostic because a method can be described through procedural text, code, diagrams, mathematical notation, protocols, or combinations of them. The episteme can be revised and evaluated while its C.29 representations, publication occurrences, publication forms, and presentation carriers change independently. This separation lets a project compare descriptions and judge fitness for a receiving use without turning notation, approval, publication, or enactment into kind membership.
 

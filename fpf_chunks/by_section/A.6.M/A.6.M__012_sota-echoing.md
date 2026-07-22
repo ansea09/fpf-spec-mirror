@@ -6,12 +6,12 @@ section_id: "A.6.M:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__012_sota-echoing.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:11 — SoTA-Echoing"
-line_start: 17551
-line_end: 17563
+line_start: 18117
+line_end: 18129
 dependencies:
   - "A.10"
   - "A.20"

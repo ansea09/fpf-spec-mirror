@@ -6,15 +6,16 @@ section_id: "E.10:10"
 section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
-line_start: 72360
-line_end: 72399
+line_start: 72997
+line_end: 73036
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
   - "A.2.8"
@@ -23,6 +24,7 @@ dependencies:
   - "A.6.0"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.P.WMR"
   - "A.6.RCD"
   - "A.7"
   - "B.1"
@@ -65,13 +67,13 @@ Pass 2 is not a lexical replacement table. For each underlined word or phrase, f
 
 2.1 Recover underlined words through **§ 9 L‑rules** table:
  • recipe -> **`U.Method` or `U.MethodDescription`**, depending on whether the EntityOfConcern is the way of doing or its description episteme
- • planned work window or dated occurrence -> **`U.WorkPlan`** or **`U.Work`**
+ • planned work window or dated occurrence -> **`U.WorkPlan`** or a **Work occurrence admitted under `U.Work`**
  • promise -> **`U.PromiseContent`**
  • ability -> **`U.Capability`**
  • actor or doer wording -> **`...Role`** role value or explicit `U.RoleAssignment`, depending on whether the value or the assignment relation is being named
  • document or evidence-bearing publication cue → **`Episteme`** used in an evidence-use, source-use, status-use, constraint, commitment, gate, or publication-use relation named by the direct governing pattern
 2.2 Apply **LEX.Morph** (§ 8): suffix gates such as `...Role`, `...Work`, `MethodDescription`, service-description episteme, service-access publication, or service-offer record labels, casing, and reserved prefixes.
-2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: the EntityOfConcern named directly; recipes and docs as Description epistemes; Spec only where the specification-granting gate is present; actuals as run records.
+2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: name the EntityOfConcern directly; keep recipes and documents as Description epistemes; use Spec only where the specification-granting gate is present; recover actual performed facts as independently obtaining relations involving a Work occurrence and keep run records as separate epistemes.
 2.4 Attach **Context tags** on first use; set **twin labels** (Tech and Plain) in the local Glossary.
 2.5 Record a local `KindRestorationCheck` for every changed FPF-governed phrase: pre-repair kind, relation, slot position or use position, use, and scope; post-repair kind, relation, slot position or use position, use, and scope; and preserved, split, intentionally changed, or blocker disposition. A changed word without this check remains an unresolved lexical finding. If a relation, signature, field, mathematical-lens, role, method, work, evidence, assurance, gate, or decision use position is being used, cite the governing pattern for that position; `E.10` detects the wording-use problem and does not replace the selected ontology.
 

@@ -6,32 +6,36 @@ section_id: "C.3.4:11"
 section_title: "Authoring & Review Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__012_authoring-review-guidance-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:11 — Authoring & Review Guidance (informative)"
-line_start: 43683
-line_end: 43703
+line_start: 44575
+line_end: 44595
 dependencies:
+  - "C.2.1"
   - "C.3.1"
   - "C.3.2"
+  - "C.3.3"
+  - "C.3.A"
 keywords:
-  - "RoleMask"
-  - "constraints"
-  - "context-local adaptation"
-  - "subkind promotion"
+  - "RoleMask declaration episteme"
+  - "candidate-feature constraint"
+  - "masked judgment"
+  - "stable-refinement review"
+  - "vocabulary binding"
 ---
 
 ### C.3.4:11 - Authoring & Review Guidance (informative)
 
 #### C.3.4:11.1 - Authoring a RoleMask card
 
-**Fields (suggested).** `name`, `kind`, `type (constraint/vocabulary/composite)`, `intent`, `constraints (entity vs context split)`, `bindings`, `membership definition (if any)`, `definedness`, `examples`, `known bridges/adapters`, `promotion note`.
+**Publication fields (suggested).** A card or catalog row may represent the RoleMask declaration's designator, base kind, pinned kind-signature edition, declaration edition, type, intended use, candidate-feature constraints, separately routed Scope expectations, bindings, definedness, examples, known bridge/adapter declarations, and any stable-distinction review note. The card is not the declaration episteme or a new ontic object.
 **Rules of thumb.**
 
 * Keep entity predicates **small and testable**.
-* Put **context** in Scope, not in membership.
-* If ≥ 3 teams reuse the same constraint mask → **promotion** review.
+* Put context predicates in Scope, not in the masked classification criterion.
+* If several teams reuse the same stable conceptual constraint, review whether a separately identified local kind and an obtaining `U.SubkindOf` relation are warranted; mask reuse itself establishes neither.
 
 #### C.3.4:11.2 - Reviewer 7‑point checklist
 
@@ -39,7 +43,7 @@ keywords:
 2. **Type** declared correctly (constraint/vocabulary/composite)?
 3. Entity vs context **split** respected?
 4. **Determinism** (no “latest”) satisfied?
-5. Guard **routes** context to **USM** and entity to **membership**?
-6. Any Cross‑context use has **KindBridge** + **MaskAdapter** with penalties **to R**?
-7. **Promotion** warranted (stable, reused) or consolidation needed?
+5. Does the guard route context to USM, evaluate the exact three-valued masked judgment for the candidate, and keep refusal separate?
+6. Does every cross-context use recover the KindBridge relation and assertion, target declarations, any MaskAdapter episteme, target `J_mask`, and only the justified R penalties?
+7. Is declaration consolidation sufficient, or does a stable conceptual distinction warrant a separately identified local kind and independently obtaining subkind relation?
 

@@ -6,53 +6,42 @@ section_id: "A.15.3:6"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__007_scope-declaration-and-rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:6 — Scope Declaration and Rationale"
-line_start: 24702
-line_end: 24709
+line_start: 25218
+line_end: 25223
 dependencies:
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
-  - "A.20"
-  - "A.21"
+  - "A.6.1"
   - "A.6.5"
-  - "A.6.7"
-  - "B.3"
-  - "C.27.TA"
-  - "E.10.D1"
-  - "E.10.D2"
+  - "A.6.RCD"
+  - "C.2.1"
   - "E.17"
-  - "E.18"
-  - "E.18.1"
-  - "E.19"
-  - "E.20"
-  - "E.24"
-  - "G.11"
-  - "G.6"
-  - "U.RelationSlotDiscipline"
-  - "U.Work"
+  - "E.24.PUB"
   - "U.WorkPlan"
 keywords:
-  - "P2W seam"
-  - "WorkPlanning"
-  - "edition pins"
-  - "guard pins"
-  - "planned baseline"
-  - "planned filler"
-  - "slot-bearing description"
-  - "variance trail"
-  - "Γ_time selector"
+  - "WorkPlan claim content"
+  - "actual-use predicate"
+  - "baseline replay"
+  - "concrete RefKind and policy"
+  - "direct owner"
+  - "edition pin"
+  - "exact declaration member"
+  - "intended-performance designator"
+  - "no actuality by plan"
+  - "open-world omission"
+  - "participant/argument/result meaning"
+  - "positive planned designation"
+  - "semantic cardinality"
 ---
 
 ### A.15.3:6 - Scope Declaration and Rationale
 
-`SlotFillingsPlanItem` has a deliberate explicitness bias. It asks for target description, context, time, and planned rows because those are the smallest fields that keep planned slot filling separate from performed work and publication views.
+**Scope.** A.15.3 governs only positive planned designation against exact declaration members inside one WorkPlan. It does not govern declaration admission, prohibitions or negative constraints, work identity, actual participation, operation application, later comparison, evidence, readiness, gates, results, production, delivery, acceptance, publication, or downstream effects.
 
-The pattern does not try to make every work plan heavy. Ordinary plans stay in A.15.2. A.15.3 opens only when slot-filling choices themselves are the planned baseline that later work, gates, evidence, or publication projections will rely on.
-
-The anti-bias guard is locality: if the current issue is mechanism meaning, work-entry readiness, evidence sufficiency, gate passage, appearance-based reliance repair, publication use, or performed work, use that governing pattern and bring only the returned planned-baseline relation back here.
+**Rationale.** The pattern gives practitioners a reusable planned-baseline move without admitting another U-kind or universal slot relation. Dispatching each row to its declaration family preserves both practical replay and ontological locality.
 

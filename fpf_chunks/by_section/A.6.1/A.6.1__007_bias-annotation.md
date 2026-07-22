@@ -1,61 +1,59 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+pattern_title: "U.Mechanism - Reusable Law-Governed Operation Declaration"
 section_id: "A.6.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__007_bias-annotation.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+  - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:6 — Bias-Annotation"
-line_start: 11473
-line_end: 11483
+line_start: 11546
+line_end: 11555
 dependencies:
+  - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
   - "A.2.6"
-  - "A.20"
-  - "A.21"
+  - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "B.3"
-  - "C.16"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.29"
+  - "C.3"
   - "E.10"
   - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.18"
   - "E.20"
+  - "E.24.PUB"
   - "F.18"
-  - "U.BoundedContext"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Signature"
-  - "U.Work"
-  - "U.WorkPlan"
+  - "F.9"
+  - "G.11"
 keywords:
   - "AdmissibilityConditions"
-  - "Bridge‑only"
   - "LawSet"
-  - "Mechanism"
   - "OperationAlgebra"
-  - "Transport"
+  - "U.Mechanism"
+  - "application binding"
+  - "operation application"
+  - "operation declaration"
+  - "realization"
 ---
 
 ### A.6.1:6 - Bias-Annotation
 
-Typical biases:
+**Scope declaration:** Universal across FPF-governed domains.
 
-* **implementation-as-law bias**: code, workflow diagrams, or recipes are treated as mechanism law;
-* **method-as-mechanism bias**: a way of doing is treated as an operation algebra with laws and admissibility predicates;
-* **transport-by-habit bias**: cross-context reuse happens without Bridge, ReferencePlane, and Reliability penalty relation;
-* **scalarization bias**: partial orders, ordinal scales, or cross-unit values are forced into one number;
-* **slot-position bias**: parameter positions substitute for named SlotKinds and SlotSpecs;
-* **tool-binding bias**: evaluator, vendor, CI, or telemetry details are put into kernel mechanism semantics.
+- **Gov.** Favors one direct governing declaration for operation meaning. Counter-risk: every operation becomes a mechanism card. Mitigation: use the progressive-explicitness threshold.
+- **Arch.** Favors separate declaration, realization, method, work, and publication relations. Counter-risk: too many linked objects. Mitigation: materialize only the objects needed by a named receiving claim.
+- **Onto-Epist.** Favors `U.Mechanism` as declaration episteme and preserves the direct kind of its subject and realizer. Counter-risk: the familiar word mechanism is overread as a machine part. Mitigation: the early object-and-relation guide and heterogeneous cases expose the distinction.
+- **Prag.** Favors explicit argument and result declarations, application rules, laws, admission conditions, and applicability. Counter-risk: formal apparatus outruns value. Mitigation: ordinary direct statements remain admissible, and actual bindings open only for a named receiving use.
+- **Did.** Favors a short mantra and concrete cases. Counter-risk: readers treat imperative recall as execution order. Mitigation: A.22.CGUS alone governs condition-governed executable continuation.
 

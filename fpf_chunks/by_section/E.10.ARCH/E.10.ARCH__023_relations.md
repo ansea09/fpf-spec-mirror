@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__023_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Relations"
-line_start: 73220
-line_end: 73244
+line_start: 73868
+line_end: 73892
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -28,8 +29,11 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
   - "C.16"
   - "C.16.P"
   - "C.16.Q"
@@ -65,7 +69,7 @@ keywords:
 
 - `E.10` recognizes and closes local wording issues or selects the applicable row.
 - `A.6.RSIR` realizes first-level recovery for the relation, signature, interface, role, and slot cluster only until the direct governing pattern is clear.
-- `A.6.P` realizes the shared algorithm for relation construction and retained relation specializations.
+- `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations; `A.6.P.WMR` specializes one current method/work-boundary relation-bearing claim and returns exactly one family: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or an exact non-assertability result independently reasoned as `factually unsupported`, `missing-information`, or `missing-governor`; only the last names the affected receiving use and future owner. `A.6.RCD` owns only the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current governor closes the receiver.
 
 - `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
@@ -73,7 +77,7 @@ keywords:
 - `A.3.1` governs `U.Method` and method-like slot recovery when semantic way of doing is hidden.
 - `A.3.2` governs `U.MethodDescription` when an episteme describes a method.
 - `A.6.0`, `C.29`, `A.6.1`, and `E.20` govern formal-substrate declarations, mathematical-lens use, mechanism meaning, and mechanism-governing-definition assignment when those claims are current.
-- `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide.
+- `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide; `A.15.PROD` governs the local production-work, entity-identity-inception, or production-completion claim when that exact WMR exit is current.
 - `E.18` governs graph paths, path slices, flow valuations, and graph relations over selected `TransformationFlowStructure` when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
 - `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before return to the governing pattern.

@@ -6,56 +6,40 @@ section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 43426
-line_end: 43459
+line_start: 44367
+line_end: 44380
 dependencies:
   - "A.2.6"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.2.2"
   - "C.3.1"
   - "C.3.2"
+  - "F.9"
 keywords:
   - "CL^k"
-  - "KindBridge"
+  - "KindBridge direct relation"
   - "R penalty"
-  - "cross-context mapping"
-  - "type-congruence"
+  - "bridge assertion episteme"
+  - "loss"
+  - "target judgment"
 ---
 
 ### C.3.3:9 - Worked Examples (informative)
 
 #### C.3.3:9.1 - Vehicle → TransportUnit (manufacturing)
 
-**Source kind:** `Vehicle` (K2, signature F4).
-**target Context:** `PlantB`, kind `TransportUnit` exists.
-
-**KindBridge:**
-
-* `Vehicle ↦ TransportUnit`; **order**: preserves `PassengerCar ⊑ Vehicle`; **collapses** `EV ⊑ Vehicle` into `TransportUnit` (no EV subkind).
-* **`CL^k=2`** (mid); **loss notes:** “battery‑health invariants not carried”; **definedness:** only for `registryAPI v1.4`, `Γ_time` in last 365 d.
-
-**Use:** Claim quantified over `Vehicle` crosses to `PlantB`.
-**Guards:** scope bridge CL=2 (rig bias); kind bridge `CL^k=2`; both penalties reduce **R**. **F/G** unchanged.
+Source kinds `Vehicle` and `PassengerCar`, target kinds `TransportUnit` and `PassengerTransportUnit`, and their exact declaration editions are independently identified. One KindBridge relation obtains from `Vehicle` to `TransportUnit` and another from `PassengerCar` to `PassengerTransportUnit` under the pinned scheme editions. The bridge assertion states that source fact `SubkindOfObtains(PassengerCar, Vehicle; sourceRS)` is preserved by target fact `SubkindOfObtains(PassengerTransportUnit, TransportUnit; targetRS)`, while the EV distinction is collapsed; it records `CL^k=2`, the lost battery-health invariants, and definedness limited to `registryAPI v1.4` in the selected time window. A candidate is classified only by `J(candidate, TransportUnit, transportUnitEdition, TargetSlice)` or the more specific target judgment when that receiving use is current. The independent scope-bridge and kind-bridge reliance penalties reduce R; F and G are unchanged.
 
 #### C.3.3:9.2 - AuthenticatedRequest across services (software)
 
-**Source kind:** `AuthenticatedRequest` defined by `AuthStandard v2.3`.
-**target Context:** `Frontend` with different auth header scheme.
-
-**KindBridge:** signature translation (`authHeader` → `x‑auth`), preserves “signature valid” property; **`CL^k=3`** (high).
-**Loss notes:** none; **definedness:** only where `AuthStandard v2.3` is in scope.
-
-**Effect:** Rules quantified over `AuthenticatedRequest` can be reused; **R** penalty small (Ψ(3) near 1). Scope remains independent (API v2.3).
+Source and target `AuthenticatedRequest` kinds and their exact declaration editions are independently identified. The bridge mapping predicate states the `authHeader` to `x-auth` correspondence and preservation of the signature-validity invariant; the bridge assertion gives `CL^k=3` and its definedness under `AuthStandard v2.3`. It does not construct the target declaration. The frontend evaluates each exact request with its target signature edition and slice; unavailable target dependencies yield `unknown`.
 
 #### C.3.3:9.3 - AdultPatient across jurisdictions (clinical)
 
-**Source kind:** `AdultPatient` (≥ 18 at `Γ_time`).
-**target Context:** `JurisdictionY` uses ≥ 21.
-
-**KindBridge:** `AdultPatient ↦ AdultPerson_Y` with boundary mismatch; **`CL^k=1`**.
-**Loss notes:** “Boundary 18 vs 21; map narrows to ≥ 21”.
-**Guard:** Require **mask adapter** or **narrow Scope** to cohorts where DOB is known and ≥ 21. **R** penalty strong; **F/G** remain as declared.
+The obtaining bridge relates source kind `AdultPatient` to independently identified target kind `AdultPerson_Y`. Its assertion gives `CL^k=1`, states the 18-versus-21 boundary loss, and limits definedness to the declared jurisdictional editions. The target classification uses its own signature edition. Missing DOB support yields `unknown`; a mask adapter or narrower Scope may support a later use, while the guard's refusal and R penalty remain separate from target truth.
 

@@ -6,110 +6,95 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 7959
-line_end: 8022
+line_start: 7898
+line_end: 7943
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.11"
+  - "A.14"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
-  - "A.6.5"
-  - "A.6.F"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
+  - "B.2"
   - "B.3"
+  - "C.13"
   - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "C.30.ASV"
   - "C.32.P2S"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
-  - "E.20"
   - "E.24"
+  - "E.24.UK"
+  - "F.18"
+  - "G.11"
 keywords:
-  - "bounded change"
-  - "functioning"
-  - "input/output conditions"
-  - "transformation"
-  - "transformation-flow structure"
-  - "transformed entity"
-  - "transformer"
+  - "actual bounded change"
+  - "actual subject facts"
+  - "changed referent"
+  - "continuity and reidentification"
+  - "occurrence boundary"
+  - "transformation composition"
 ---
 
 ### A.3.4:5 - Archetypal Grounding
 
-#### A.3.4:5.1 - Physical System Change
+#### A.3.4:5.1 - Physical system change
 
-A nuclear-plant team claims a revised operating method stabilizes a temperature profile after a thermal-power change.
+A nuclear-plant team claims a revised operating method stabilizes a temperature profile after a thermal-power change. Identify the actual cooling-loop change through the exact loop state, stabilization interval, operating boundary conditions, and characteristic-state facts. The method is `U.Method`; the control-law model is an episteme; dated adjustment work is a Work individual admitted under `U.Work`; measurements and the safety decision have separate governors. None substitutes for the actual transformation.
 
-`U.Transformation` names the bounded change: reactor subsystem under context, initial operating condition, post-change stability condition, transformation relation, admissibility and safety boundary, and time window. The operating method is `U.Method`; the operation algebra or control law may be `U.Mechanism`; the state-space model is `U.Dynamics`; the work trace is `U.Work`; the safety evidence and gate use remain with evidence and gate patterns.
+#### A.3.4:5.2 - Biological editing
 
-#### A.3.4:5.2 - Biological Editing
+A CRISPR project claims an editing protocol changed a DNA target while keeping off-target risk under a bound. The actual transformation concerns the exact biological referent, edit interval, boundary conditions, and sequence facts. The protocol description, biochemical mechanism, lab work, sequence-measurement result, risk evaluation, acceptance verdict, and publication remain separate. `edited sequence`, `lab output`, and `accepted result` do not name one relation.
 
-A CRISPR project claims an editing protocol changes a DNA target while keeping off-target risk under a bound.
+Separately, `Seedling-B17` undergoes a spontaneous first-leaf unfolding episode. The changed referent is the already-existing seedling under its direct biological identity rule. The exact boundary runs from unfolding onset `t0` to the first stable full-expansion state `t1` under declared growth conditions; exact leaf-configuration and exposed-surface facts before, during, and after distinguish the episode, while measurements only support an assertion about those facts. The same-seedling continuity rule covers ordinary cellular turnover and growth and excludes division, grafting, death, or replacement. At this selected resolution these facts ground one actual `U.Transformation` and assert neither finer transformation parts nor partlessness. No `U.System`, `U.RoleAssignment`, enacted method, dated Work occurrence admitted under `U.Work`, transformer, or production-through-work claim is introduced unless separately grounded. A seedling label, observation series, or growth record supplies none of those claims. A.15.PROD therefore opens no production-through-work claim; retain the actual transformation and return any incompatible actor-side requirement to its direct governor without inventing a performer.
 
-`U.Transformation` names the changed biological target, initial condition, post-state or delta, editing transformation relation, admissibility or boundary condition, and any temporal or ordering reference that changes the claim. The editing protocol fills `MethodDescriptionRef` or `MethodRef` when it is a selected way of doing; the biochemical mechanism fills `MechanismRef`; off-target measurements fill `EvidenceOrSourceRef`; the observed edited sequence or accepted lab output fills `ResultRef`. The protocol description is not the transformation; the biochemical mechanism is not the dated lab work; the off-target evidence is not permission to use the result.
+#### A.3.4:5.3 - Specification repair
 
-#### A.3.4:5.3 - Specification Repair
+A safety specification is revised so that an emergency-stop boundary no longer permits two incompatible readings. `EmergencyStopSpec-E1` and `EmergencyStopSpec-E2` differ in claim content and are therefore distinct C.2.1 epistemes. `EpistemeEditionRelation(EmergencyStopSpec-E1, EmergencyStopSpec-E2)` may obtain only when its historical-continuation predicate is grounded; neither participant is the same changed episteme. Suppose exact source carrier `EmergencyStopSpec-Carrier-17 : U.PresentationCarrier` is selected under E.24.PUB and independently governed as the same carrier across the editing interval. A.3.4 may then identify a transformation of that continuing carrier only from its exact editing boundary, before/during/after borne-expression facts, and carrier-continuity rule; if direct carrier identity, those facts, or that rule are absent, no A.3.4 transformation claim follows from the two episteme identities. If the editing work is additionally claimed to have first constituted `EmergencyStopSpec-E2`, the separate A.15.PROD inception branch requires the exact applicable identity-specification edition, exact identity-closing work, governed effects and links, and earliest satisfying boundary; otherwise return its exact blocker and do not assert that inception or an edition relation that depends on it. The editing work, repair method, ambiguity-removal assertion, review result, and publication of the later episteme remain distinct.
 
-A safety specification is revised so that an emergency-stop boundary no longer permits two incompatible readings.
+#### A.3.4:5.4 - Formal construction
 
-`U.Transformation` can name the bounded change to the specification episteme: the affected episteme or section, the initial ambiguous condition, the clarified post-state condition, the transformation relation, and the review or acceptance condition. The edit work is `U.Work`; the repair method is `U.Method`; the revised specification remains an episteme or publication under its own governing pattern.
+A proof constructs a formal object and shows that a morphism preserves an invariant. Under the declared formal substrate, the exact formal object and ordered boundary can ground a formal transformation. The proof term and morphism expression are representations; a publication of the proof is another relation. No physical or organizational work follows without an independently governed realization claim.
 
-#### A.3.4:5.4 - Formal Construction
+#### A.3.4:5.5 - Architecture change
 
-A mathematical proof constructs an object and shows that a morphism preserves a chosen invariant.
+An architecture team changes a selected structure so that an interlevel conflict is reduced while a key architecture characteristic stays within bounds. The selected structure and its before-and-after relation organization remain governed by the architecture patterns. The architecture work, change assertion, characteristic evaluation, decision, and publication remain separate from the actual transformation of the selected structure.
 
-`U.Transformation` may govern the formal transformation when the formal object is the `EntityOfConcern`: initial formal object, constructed object or delta, morphism or construction relation, and admissibility or invariant condition. Formal substrate or mathematical lens fills `FormalOrMathLensRef` unless it is already the context-of-meaning for the formal object; the proof relation fills an evidence relation, a source relation, or a `C.2.1` claim-bearing episteme, not core transformation identity. It does not describe project-world work until a separate realization, method, work, or evidence relation is named.
+#### A.3.4:5.6 - Functional transformer in a flow
 
-#### A.3.4:5.5 - Architecture Move
-
-An architecture team changes a selected structure so that an interlevel conflict is reduced while a key architecture characteristic stays within bounds.
-
-`U.Transformation` names the structure change and delta condition. The architecture pattern governs the selected structure and characteristic; `C.29` may supply a mathematical lens for preserved and lost structure; `C.27.TA` may govern trajectory, cadence, recovery, inertia, or validity window; work planning and dated work stay with `A.15.2` and `A.15.1`.
-
-#### A.3.4:5.6 - Functional Transformer In A Flow
-
-Use this slice when the same sentence says that a system "performs a function", "transforms input to output", or "implements an algorithm". The first question is not whether a function word is present. The first question is which transformation, bearer, input/output boundary, method or algorithm, and flow position are current.
-
-```text
-Functional transformation slice:
-  TransformationCore:
-    transformedEntityOrStructure:
-    boundedContext:
-    initialCondition:
-    postStateConditionOrDelta:
-    transformationRelation:
-    admissibilityOrBoundaryCondition:
-  TransformerRef?: U.System bearing TransformerRole@Context, candidate system, or not recovered
-  InputConditionOrPortRefs?: accepted input state, flow, material, energy, signal, information, work product, formal object, condition, or functional port signature
-  OutputConditionOrPortRefs?: produced state, flow, material, energy, signal, information, work product, formal object, condition, or functional port signature
-  FunctioningRef?: FunctionalElement@Context relation when this transformation is used as the element's functioning
-  MethodRef? or MethodDescriptionRef?: algorithm, protocol, recipe, controller, or generalized method only when that claim is current
-  MechanismRef?: law-governed realization or operation structure when current
-  TransformationFlowStructureRef?: containing flow, path, path slice, composition, coupling, or constraint when current
-```
+When a sentence says that a system "transforms input to output" or "implements an algorithm", recover at least four different claims: the exact system and its role assignment when current; the actual transformation and changed referent; the direct participant, port, or operation bindings at the boundary; and the selected E.18 flow location. Recover the method or method description only when that claim is current.
 
 Examples:
 
-- A pump in a hydraulic network is a `U.System` filling `TransformerRef?` when it raises pressure or moves fluid under the current claim. Its required behavior grounds a `U.Transformation`; inlet/outlet hydraulic conditions or port signatures fill input/output slots; the pump curve may fill mechanism or dynamics slots; the network path fills `TransformationFlowStructureRef?`.
-- A resistor in an electrical circuit is a system or component locus bearing transformer role when the claim is voltage-current relation, heat dissipation, or signal conditioning. Its terminals are not module interfaces by default; they are input/output or port-signature slots for the electrical transformation unless a module-interface claim is current.
-- A warehouse in a logistics network performs receiving, storing, picking, or shipping transformations. The warehouse or candidate subsystem fills `TransformerRef?`; pallets, orders, inventory states, or documents fill input/output slots; a routing algorithm may be `U.Method` or `U.MethodDescription`; dated picking work remains `U.Work`.
-- A refrigerator thermal cycle has compressor, condenser, expansion, and evaporator transformations inside one `TransformationFlowStructure`. The refrigerator or subsystem can fill `TransformerRef?`; heat-flow and refrigerant-state boundaries fill input/output slots; the thermodynamic mechanism and control method stay with their governing slots.
-- A neural-network block transforms activations inside an architecture flow. The block can be a candidate system or module locus depending on the claim; tensor shape signatures may fill input/output slots; an attention algorithm may be method or method description; benchmarks, ablations, or pruning masks are evidence/result or architecture claims only when their governing patterns are current.
+- A pump can be the acting system while the actual transformation is the bounded pressure change of an exact fluid volume. Inlet and outlet pressure facts are characteristic-state and port facts; the pump curve is a model episteme.
+- A warehouse can perform receiving work while pallet location and inventory-state changes are transformations. Orders and pallets participate under their exact work, transfer, resource, or affected-referent relations; they are not one input-output kind.
+- A neural-network block can participate in an activation transformation. Tensor-shape declarations, attention method, dated inference work, benchmark evaluation, and architecture allocation retain separate governors.
 
-These cases permit the sentence "the system performs a functional transformation at this point in the flow" when the system/candidate system, `TransformerRole@Context`, bounded transformation, input/output boundary, and flow location are named or explicitly marked unknown/not-current. They also prevent the overread that a named algorithm, module, port, or evidence record by itself proves the transformation, functioning, compatibility, or result.
+A flow position, algorithm label, module name, or output record establishes neither actual transformation nor work.
+
+#### A.3.4:5.7 - Assembly changes before PumpSkid identity
+
+Before any claim that PumpSkid 7 exists as one entity, the exact referents are the already existing base frame `BF-7`, pump unit `PU-7`, motor `MU-7`, junction enclosure `JE-7`, pipe spool `PS-7`, cable set `CS-7`, and their open mechanical, electrical, and fluid-interface facts. `AssemblyConfiguration-7` is the exact A.22 selected structure of those referents and their actual attachment, terminal, and flange-connection relation organization during assembly. It is not a surrogate name for a future PumpSkid 7 entity.
+
+The mounting transformation changes the exact frame-to-pump and frame-to-motor attachment facts. The wiring transformation changes exact cable-to-terminal connection facts. The fluid-connection transformation changes exact spool-to-flange and seal facts. Each is identified independently under A.3.4:4.1 by its changed referent, extent, boundary conditions, actual before/during/after facts, and continuity rule. Provided the attachment, terminal, flange, and seal facts themselves have direct application-side governors, the change of `AssemblyConfiguration-7` can likewise be identified independently from that selected structure's before/during/after relation organization, exact extent and boundary conditions, and its own continuity rule. Call that occurrence the configuration transformation; the three other changes are not its components merely because they occur in the same assembly episode.
+
+No named FPF basis in this use supplies the missing transformation-to-transformation bridge. A.22 supplies the selected structure, C.27.TA supplies temporal aspects, and A.14/C.13 supply structural mereology and `Γ_m` traces; none supplies actual-change contribution, changed-referent constitution, transformation-specific temporal or boundary compatibility, or the subject composition rule required by A.6.RCD. The case therefore stops before any component-to-configuration parthood or composite-transformation claim. It retains the independently identified mounting, wiring, fluid-connection, and configuration transformations plus the exact missing-governor and missing-substrate blocker.
+
+The candidate `TransformationPartOfRelation` name creates no occurrence, and no positive local compound parthood claim is asserted. Positive A.1 classification is also blocked: it would additionally require an admitted direct transformation-parthood kind with exact obtaining occurrences, a composite reidentification rule, a composition-grounded whole-level characteristic, and the modal larger-assembly component. The point at which a separate PumpSkid 7 identity rule first becomes true remains an entity-identity inception question; production completion, commissioning work, evidence, acceptance, and any B.2 whole-reidentification claim also remain separate.
 

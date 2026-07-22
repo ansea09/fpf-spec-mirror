@@ -6,12 +6,12 @@ section_id: "A.6.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__010_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:9 — Consequences"
-line_start: 19365
-line_end: 19383
+line_start: 19939
+line_end: 19957
 dependencies:
   - "A.15"
   - "A.2.3"

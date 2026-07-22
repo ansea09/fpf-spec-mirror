@@ -6,47 +6,50 @@ section_id: "A.3.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__003_problem-frame.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:1 — Problem Frame"
-line_start: 7666
-line_end: 7691
+line_start: 7668
+line_end: 7693
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.11"
+  - "A.14"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
-  - "A.6.5"
-  - "A.6.F"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
+  - "B.2"
   - "B.3"
+  - "C.13"
   - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "C.30.ASV"
   - "C.32.P2S"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
-  - "E.20"
   - "E.24"
+  - "E.24.UK"
+  - "F.18"
+  - "G.11"
 keywords:
-  - "bounded change"
-  - "functioning"
-  - "input/output conditions"
-  - "transformation"
-  - "transformation-flow structure"
-  - "transformed entity"
-  - "transformer"
+  - "actual bounded change"
+  - "actual subject facts"
+  - "changed referent"
+  - "continuity and reidentification"
+  - "occurrence boundary"
+  - "transformation composition"
 ---
 
 ### A.3.4:1 - Problem Frame
@@ -67,11 +70,11 @@ FPF already has strong neighboring patterns:
 - `A.15.2` and `A.15.1` for work plans and dated work;
 - `E.18` for transformation-flow structures;
 - `E.18.2` for mathematical descriptions of transformation-flow structures;
-- `E.18.1` for problem-to-principle-to-work carry-through;
+- `E.18.1` for problem-to-work carry-through;
 - `C.27.TA` for positive temporal aspects;
 - `C.27` for temporal-claim adequacy;
 - `C.29` for mathematical-lens use;
 - evidence, gate, assurance, source, result, decision, and publication patterns for their own claims.
 
-What is missing is the compact ontic that says how these values fit around one bounded transformation without turning any one of them into the whole change.
+What is missing is a positive way to identify the actual bounded change first and then recover each neighboring object through its own direct relation, without turning a checklist or description into the transformation ontology.
 

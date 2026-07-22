@@ -6,21 +6,24 @@ section_id: "C.32.P2S:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__014_footer-marker.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:13 — Footer marker"
-line_start: 62631
-line_end: 62634
+line_start: 63278
+line_end: 63281
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
+  - "A.6.RCD"
   - "B.2"
   - "C.11"
   - "C.16"
@@ -60,14 +63,18 @@ keywords:
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
   - "candidate structures"
+  - "exact domain work"
   - "expected structures"
   - "governing-pattern-specific return"
+  - "independently grounded actual changes"
+  - "no-automatic-composition"
   - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
+  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:13 - Footer marker
 
-`C.32.P2S` governs one reader-facing problem-to-structure architecturing flow: pressure and structural uncertainty become candidate, selected, expected, realized, and evaluated selected structures with governing-pattern-specific return or repair exits named by value.
+`C.32.P2S` governs one reader-facing problem-to-structure architecturing flow: pressure and structural uncertainty are carried into candidate, selected, and expected structures, then through exact domain work to independently grounded actual changes and subject-side actual structures, with descriptions, evaluations, and governing-pattern-specific return or repair exits named by value.
 

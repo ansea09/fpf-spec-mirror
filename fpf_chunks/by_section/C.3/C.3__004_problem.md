@@ -6,26 +6,28 @@ section_id: "C.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__004_problem.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:2 — Problem"
-line_start: 42808
-line_end: 42811
+line_start: 43694
+line_end: 43697
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
   - "A.22.CGUS"
+  - "A.6.0"
   - "A.7.1"
   - "A.8"
-  - "C.2.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
-  - "F.5"
+  - "F.18"
   - "F.8"
 keywords:
   - "classification"
@@ -40,5 +42,5 @@ keywords:
 
 ### C.3:2 - Problem
 
-A project often needs typed reasoning before it is doing ontology governance. The same working word may label a source category, a project-local grouping, a schema class, an ordinary-language kind, or a candidate public FPF U-kind. If the user treats all of these as the same object, the text starts making unsupported membership, scope, naming, and construction claims. C.3 keeps the current claim's local kind value visible while leaving durable U-kind admission to `E.24.UK`.
+A project often needs classification before it needs ontology governance. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, several false conclusions follow: a label classifies by itself, evidence creates the feature it reports, missing evidence proves non-membership, a table becomes an entity set, or a plan row becomes actual work. C.3 keeps each conclusion at its direct owner.
 

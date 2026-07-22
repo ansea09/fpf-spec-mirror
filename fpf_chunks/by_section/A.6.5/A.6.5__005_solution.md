@@ -6,14 +6,16 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 17647
-line_end: 17803
+line_start: 18213
+line_end: 18372
 dependencies:
+  - "A.15.3"
   - "A.6.0"
+  - "A.6.1"
   - "A.6.P"
   - "A.6.REL"
   - "A.6.RSIR"
@@ -32,6 +34,8 @@ Apply relation-declaration slot discipline only after the direct relation and it
 
 Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. The notation `U.RelationSlotDiscipline` is not admitted: it has no separate instances, identity rule, grounding rule, constructive assembly, or ontic settlement. The governed object in this pattern is one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements under `C.29`.
 
+A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. No method-description, plan, work, evaluation, card, schema, or record field becomes a SlotSpec. A receiving episteme field may designate a participant under A.6.5 only through an explicit correspondence to one exact SlotSpec in one independently governed `RelationSignature`.
+
 #### A.6.5:4.1 - Keep pattern scope exact
 
 | Governed object | Governing pattern | What A.6.5 contributes |
@@ -41,6 +45,7 @@ Relation-declaration slot discipline is a rule set, not a durable U-kind. This p
 | `RelationSignature` declaration | `A.6.0` | complete `SlotSpec` declarations inside its vocabulary item |
 | Assertion that a predicate obtains | `C.2.1` and the direct claim pattern | no new assertion kind; the assertion can name exact relation participants |
 | Local derived kind of participants | `C.3` and `C.3.1` | a local kind whose extent rule selects actual participants corresponding to one declared relation-participant meaning; the SlotKind remains declaration-local |
+| Planned participant designation | `A.15.2` and `A.15.3` | one exact SlotSpec may be cited as the target of a planned filling; A.6.5 contributes only the declaration-local SlotKind, ValueKind, and refMode discipline and establishes neither the plan claim nor actual participation |
 
 None of these objects gets its identity or truth condition from A.6.5. A.6.5 governs typing discipline at their shared boundary.
 

@@ -6,12 +6,12 @@ section_id: "A.15.2:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__008_scope-declaration-and-rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7 — Scope Declaration and Rationale"
-line_start: 24323
-line_end: 24328
+line_start: 24936
+line_end: 24941
 dependencies:
   - "A.10"
   - "A.15"
@@ -20,25 +20,44 @@ dependencies:
   - "A.15.4"
   - "A.15.5"
   - "A.2.1"
+  - "A.2.2"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.5"
+  - "A.6.RCD"
+  - "A.6.REL"
+  - "B.1.4"
+  - "B.1.6"
   - "B.3"
+  - "C.2.1"
   - "C.32.P2S"
   - "E.17"
+  - "E.24"
+  - "E.24.UK"
+  - "F.9"
   - "U.Method"
   - "U.MethodDescription"
   - "U.RoleAssignment"
   - "U.Work"
 keywords:
-  - "forecast"
-  - "intent"
-  - "plan"
-  - "schedule"
+  - "PlanItem content"
+  - "horizon"
+  - "intended-work episteme"
+  - "no actuality by plan"
+  - "performer and capability conditions"
+  - "positive or governed-negative local fulfilment assertion"
+  - "possible future performance"
+  - "present EntityOfConcern"
+  - "reusable predicate semantics"
+  - "variance"
 ---
 
 ### A.15.2:7 - Scope Declaration and Rationale
 
-* **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions; when the current claim is performed work, evidence, assurance, publication-use, appearance-based reliance repair, or declarative representation, apply the governing pattern for that claim.
-* **Scope declaration:** Universal; meanings of windows, budgets, constraints, and authorization references are **context-local** via `U.BoundedContext`.
-* **Rationale:** Elevates **planning and scheduling** to a first-class episteme that coordinates Methods, `U.RoleAssignment`s, and Work without conflation.
+* **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions. When the current claim is performed work, a non-agentive forecast, dynamics, evidence, assurance, publication use, appearance-based reliance repair, or declarative representation, apply the direct pattern for that claim.
+* **Scope declaration:** Domain-general where a system is actually coordinating possible future performed work. A tide table, weather forecast, simulation schedule, or predicted natural trajectory is not a WorkPlan unless its claim content also coordinates a system's intended Work. Interpretation is local through the effective `U.ReferenceScheme` and any exact selected model-use structure; `U.BoundedContext` and F.9 are used only when their own exact conditions are current.
+* **Rationale:** Planning and scheduling become a first-class episteme that systems can use to coordinate intended methods, performer and role conditions, and possible future work without turning the episteme into an actor or the proposal into an occurrence.
 

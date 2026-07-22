@@ -6,12 +6,12 @@ section_id: "A.15.1:2"
 section_title: "Problem (what breaks without a clean notion of Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__003_problem-what-breaks-without-a-clean-notion-of-work.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:2 — Problem (what breaks without a clean notion of Work)"
-line_start: 23704
-line_end: 23711
+line_start: 24276
+line_end: 24283
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -19,14 +19,16 @@ dependencies:
   - "A.15"
   - "A.15.4"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.6"
-  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
-  - "B.1"
+  - "A.3.4"
+  - "A.6.1"
+  - "B.1.4"
   - "B.1.6"
   - "B.3"
   - "C.2.1"
@@ -45,14 +47,20 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "EpisodeOf_work"
-  - "TemporalPartOf_work"
-  - "actuals"
-  - "concurrent work part"
-  - "operational work part"
-  - "performed enactment"
-  - "trace"
-  - "work occurrence"
+  - "U.Work admitted kind"
+  - "actual binding"
+  - "affected referent"
+  - "enactsMethod"
+  - "episode"
+  - "no automatic transformation"
+  - "occurrence assertion and record separation"
+  - "overlap"
+  - "performed resource-use fact"
+  - "performedBy"
+  - "retry"
+  - "work continuity"
+  - "work part"
+  - "world-side dated occurrence"
 ---
 
 ### A.15.1:2 - Problem (what breaks without a clean notion of Work)
@@ -60,6 +68,6 @@ keywords:
 1. **Plan and occurrence confusion.** Schedules and diagrams get mistaken for performed work, so audits and KPIs attach to plans or representations instead of dated occurrences.
 2. **Method-description and work conflation.** A method description, code artifact, or SOP is reported as if it were performed work; conversely, logs are treated as recipes.
 3. **Who and when leakage.** People and calendars are baked into method descriptions; reuse and staffing agility collapse.
-4. **Resource dishonesty.** Energy, money, and tool wear are booked to methods or roles, not to performed work occurrences; costing and sustainability measures drift.
+4. **Resource dishonesty.** Energy, money, and tool wear are represented as fields or booked to methods or roles instead of being stated through separately obtaining resource-use relations involving exact Work individuals; costing and sustainability measures drift.
 5. **Mereology muddle.** Teams hand-wave over work parts, retries, overlaps, or long-running episodes; roll-ups double-count or miss work.
 

@@ -6,12 +6,12 @@ section_id: "A.16.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__011_rationale.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:10 — Rationale"
-line_start: 26394
-line_end: 26396
+line_start: 27287
+line_end: 27289
 dependencies:
   - "A.16"
   - "A.16.0"

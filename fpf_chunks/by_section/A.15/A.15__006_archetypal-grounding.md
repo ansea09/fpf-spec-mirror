@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 23452
-line_end: 23492
+line_start: 24022
+line_end: 24064
 dependencies:
   - "A.10"
   - "A.12"
@@ -58,16 +58,18 @@ The role-method-work alignment applies whenever the question under repair is hol
 
 | Archetype | **`U.System` Archetype (Manufacturing)** | **`U.Episteme` Archetype (Scientific Peer Review)** |
 | :--- | :--- | :--- |
-| **`U.BoundedContext`** | `FactoryFloor:ProductionLine_B` | `Journal:PhysicsLetters_A` |
-| **`U.Role`** | `WeldingRobotRole` | `PeerReviewRole` |
-| **`Holder`** | `ABB_Robot_Model_IRB_6700` (`U.System`) | `Dr_Alice_Smith` (modeled as a `U.System`) |
-| **`U.RoleAssignment`** | assignment with holder slot `ABB_Robot_Model_IRB_6700`, role slot `WeldingRobotRole`, context slot `Line_B`, and current-window slots and source-reference slots when they matter | assignment with holder slot `Dr_Alice_Smith`, role slot `PeerReviewRole`, context slot `PhysicsLetters_A`, and current-window slots and source-reference slots when they matter |
-| **`U.MethodDescription`** | `Welding_Procedure_WP-28A.pdf` (SOP) | `Peer_Review_Guidelines_v3.docx` |
+| **Role-taxonomy episteme** | `FactoryProductionRoles-2026` | `PhysicsPeerReviewRoles-2026` |
+| **Effective `U.ReferenceScheme`** | `Factory-Line-B-Role-Scheme` | `PhysicsLetters-A-Review-Scheme` |
+| **`U.Role`** | `WeldingRobotRole` | `PeerReviewerRole` |
+| **Holder** | `ABB_Robot_Model_IRB_6700` (`U.System`) | `Dr_Alice_Smith` (modeled as a `U.System`) |
+| **`U.RoleAssignment`** | exact four participants: the robot holder, `WeldingRobotRole`, `FactoryProductionRoles-2026`, and `Factory-Line-B-Role-Scheme`; actual extent is derived from uninterrupted obtaining | exact four participants: Alice as holder, `PeerReviewerRole`, `PhysicsPeerReviewRoles-2026`, and `PhysicsLetters-A-Review-Scheme`; actual extent is derived from uninterrupted obtaining |
+| **`U.MethodDescription`** | `Welding_Procedure_WP-28A.pdf` describes `WeldingMethod` | `Peer_Review_Guidelines_v3.docx` describes `PeerReviewMethod` |
 | **`U.Capability` instance of holder** | `executeWeldingSeam(Type: 3F)` within declared envelope, measures, and currentness condition | `evaluateManuscript(Field: QuantumOptics)` within declared envelope, measures, and currentness condition |
-| **`U.Work` occurrence** | Manufacturing work: `Weld_Job_#78345` (15:32-15:34 UTC, consumed 1.2 kWh, 5g Argon) - **enactsMethod** `WeldingMethod`, with `methodDescriptionRef = Welding_Procedure_WP-28A.pdf` | Peer-review work: `Review_of_Manuscript_#PL-2025-018` (completed 2025-08-15, took 4 hours) - **enactsMethod** `PeerReviewMethod`, with `methodDescriptionRef = Peer_Review_Guidelines_v3.docx` |
+| **Receiving interpretation use, only if current** | designates the selected factory model-use structure separately from the generic assignment | designates the selected journal review model-use structure separately from the generic assignment |
+| **Work occurrence admitted under `U.Work`** | Manufacturing work: `Weld_Job_#78345` is one Work individual; its exact temporal relation covers 15:32-15:34 UTC, separately obtaining resource-use relations connect it to 1.2 kWh and 5g Argon, and exact `enactsMethod` connects it to `WeldingMethod`. A separate assertion may cite `methodDescriptionRef = Welding_Procedure_WP-28A.pdf`. | Peer-review work: `Review_of_Manuscript_#PL-2025-018` is one Work individual; its exact temporal relation ends on 2025-08-15, a separately obtaining resource-use relation connects it to four hours of reviewer time, and exact `enactsMethod` connects it to `PeerReviewMethod`. A separate assertion may cite `methodDescriptionRef = Peer_Review_Guidelines_v3.docx`. |
 
 **Key takeaway from grounding:**
-This side-by-side comparison reveals the power of the framework. A seemingly different activity like welding a car chassis and reviewing a scientific paper are shown to have the same underlying enactment structure. Both involve a `Holder` (`U.System`) under `U.RoleAssignment` within a `U.BoundedContext`, a recovered `U.Method`, a holder `U.Capability` instance when a currentness assessment supports reliance on that instance, any separate capability statement used for that reliance, a separate capability-fit condition or admission check over that capability instance when fit is current for the work claim, a cited `U.MethodDescription` when a recipe or source is used to identify or constrain the method, and a specific, auditable `U.Work` occurrence. This universality is what allows FPF to compare and align disparate domains without collapsing their local structure.
+The welding and peer-review cases share one enactment alignment without sharing a domain ontology. Each has a holder `U.System`, a role interpreted by an exact role-taxonomy episteme and effective reference scheme, a four-participant `U.RoleAssignment`, a run-independent `U.Method`, a separate `U.MethodDescription`, a holder capability when reliance on it is current, and a dated Work occurrence admitted under `U.Work`. A selected model-use structure appears only in the receiving interpretation use that needs it. This is enough to compare the alignment while preserving different local structures; any classification beyond `U.Work` remains with its direct owner.
 
 #### A.15:5.1.a - Briefing guides orientation, not execution
 
@@ -79,11 +81,11 @@ This briefing may orient the team and cue attention. If the team wants to execut
 
 #### A.15:5.1.b - P2W principle-scheme publication guides planning, not occurrence
 
-**Source set.** A team has a principle scheme that shows an `E.18.1` P2W carry-through structure for a fabrication task: signature or principle episteme, method-family selection, selected method, `U.WorkPlan`, performed `U.Work`, work-result record, and result measurement.
+**Source set.** A team has a principle scheme that shows an `E.18.1` P2W carry-through structure for a fabrication task: signature or principle episteme, method-family selection, selected method, `U.WorkPlan`, an actual Work occurrence admitted under `U.Work`, a separate work-result record, and result measurement.
 
-**Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any work occurrence is recorded.`
+**Published slice.** `For this batch family, method M-2 is selected from the declared method family; prepare work plan WP-17 before any actual Work occurrence exists.`
 
-This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, dated performed `U.Work`, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, physical medium, screen, export, OCR behavior, or publication-use, apply the governing pattern for that claim being made. If no project-side kind and reference named by value exists, create only an `A.15.4` repair request, decision-request record for the next decision, prospective work-plan entry, or explicit missing-source-relation note.
+This publication may guide method inspection and work-planning preparation under `A.15`. A conforming use keeps selected method, `U.WorkPlan`, actual dated Work occurrence, separate assertion or record about it, work-result record, and result measurement distinct. If the publication is used for evidence, provenance, engineering justification, gate or constraint decision, physical medium, screen, export, OCR behavior, or publication-use, apply the governing pattern for that claim being made. If no project-side kind and reference named by value exists, create only an `A.15.4` repair request, decision-request record for the next decision, prospective work-plan entry, or explicit missing-source-relation note.
 
 #### A.15:5.1.c - Scenario guides method selection, not performed work
 
@@ -91,5 +93,5 @@ This publication may guide method inspection and work-planning preparation under
 
 **Published slice.** `Under scenario S, method family MF-2 is admissible for planning; choose the selected method and prepare the work plan before execution.`
 
-The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, record that project choice or plan as the selected `A.15` selected-method, work-plan, or work-occurrence record named by value. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence relation, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only an `A.15.4` repair request, decision-request record, prospective work-plan entry, or missing-source-relation note.
+The scenario can guide method-family selection and work-planning preparation. Once the team selects a method or prepares a plan, state that project choice or plan through its governed episteme. If an actual Work occurrence is later claimed, ground that world-side individual independently under `A.15.1`; a separately governed assertion or performed-work record may designate it but does not become the occurrence. If the scenario is used for evidence, gate, or engineering-justification reliance, first recover the project evidence relation, gate or constraint decision, or engineering-justification record named by value under `A.10`, `A.20`, `A.21`, or `B.3`; otherwise record only an `A.15.4` repair request, decision-request record, prospective work-plan entry, or missing-source-relation note.
 

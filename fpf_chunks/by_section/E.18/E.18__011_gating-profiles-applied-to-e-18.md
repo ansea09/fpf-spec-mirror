@@ -6,17 +6,20 @@ section_id: "E.18:8"
 section_title: "Gating Profiles (applied to E.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__011_gating-profiles-applied-to-e-18.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:8 — Gating Profiles (applied to E.18)"
-line_start: 80451
-line_end: 80463
+line_start: 81099
+line_end: 81111
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.2.6"
   - "A.20"
   - "A.21"
   - "A.3.4"
+  - "A.6.RCD"
   - "A.7"
   - "C.29"
   - "C.30.TFS-REL"
@@ -32,12 +35,13 @@ dependencies:
   - "G.9"
 keywords:
   - "P2W support"
-  - "composition"
+  - "U.Transfer"
+  - "adjacent governed loci"
   - "crossings"
   - "flow valuation"
-  - "guards"
-  - "selected transformations"
-  - "transformation flow structure"
+  - "independently grounded actual transformations"
+  - "no-automatic-composition boundary"
+  - "selected transformation-flow structure"
 ---
 
 ### E.18:8 - Gating Profiles (applied to E.18)

@@ -6,16 +6,17 @@ section_id: "E.10.ARCH:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__002_use-this-when.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0 — Use This When"
-line_start: 72866
-line_end: 72900
+line_start: 73506
+line_end: 73541
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.17"
   - "A.18"
   - "A.19"
@@ -28,8 +29,11 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3.CSC"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
   - "C.16"
   - "C.16.P"
   - "C.16.Q"
@@ -76,7 +80,8 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 - quality-term repair that decides between relation construction, quality characterization, evaluative characterization, Q-bundle use, pattern-quality coordinate use, action invitation, bridge, or governing pattern;
 - state-family wording such as state, status, posture, readiness, stance, or currentness before the bearer, state frame, value set, admissible use, or governing pattern is recovered;
 - admissibility-like, legal, lawful, authority, validity, readiness, pass-looking, fail-looking, or conformance wording before bearer, claim kind, source relation, value frame, bounded use, and direct governing pattern are recovered;
-- method, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control strategy, or programming-paradigm wording before its current ontic slot, relation position, use relation, or claim kind is recovered as method, method description, formal substrate, mathematical-lens use, mechanism, work plan, dated work, evidence relation, or quote-only source wording;
+- method, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control strategy, or programming-paradigm wording before the current method, work, mechanism, or description object, exact direct relation use, claim-bearing episteme, representation use, and governing pattern are recovered;
+- input, raw-material, source-data, source-material, output, result, outcome, deliverable, handoff, or work-name wording before the exact entity, related object, four orthogonal claim dimensions (claim subject; modality and exact temporal extent; polarity; recovery/support state), governor or reason-specific non-assertability basis, and any performed-work occurrence basis are recovered;
 - relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording before the current governed object or claim kind is recovered and before the direct governing pattern can carry the recovered claim;
 
 - graph, path, query, table, dashboard, checklist predicate, publication face, evidence-path wording, or pattern-relation wording overread as a route, call, dispatch, invocation, work sequence, permission, release, evidence result, or pattern application;
@@ -92,7 +97,7 @@ Use it especially when a subject or adequacy pattern contains repeated first-sta
 **Not this pattern when.**
 
 - If a sentence is repaired locally under `E.10`, stop there.
-- If the governing pattern and primary `EntityOfConcern`, relation record, or claim record are already recoverable by value, use that governing pattern directly.
+- If the governing pattern and current governed object, exact direct relation use, or claim-bearing episteme are already recoverable by value, use that governing pattern directly.
 - If the kind under repair is evidence, assurance, gate, work, decision, causal-use, release, mathematical-lens use, grounded architecture adequacy, structural-view adequacy, characteristic-space construction, Q-bundle construction, pattern-quality evaluation, method, mechanism, method description, formal substrate, graph path, evidence or provenance relation, publication face, or another FPF kind named by value, the governing pattern governs its own invariant. `E.10.ARCH` only governs the wording-use restoration distribution.
 - If the wording problem is phrase-level apparatus around an already recoverable kind, use `F.19` rather than creating a new wording-use restoration row.
 

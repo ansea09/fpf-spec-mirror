@@ -3,114 +3,129 @@ chunk_kind: "child"
 pattern_id: "C.3.A"
 pattern_title: "Typed Guard Macros for Kinds + USM (Annex)"
 section_id: "C.3.A:4"
-section_title: "Normative Guard Macros"
+section_title: "Normative guard macros"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__005_normative-guard-macros.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
-  - "C.3.A:4 — Normative Guard Macros"
-line_start: 43937
-line_end: 44026
+  - "C.3.A:4 — Normative guard macros"
+line_start: 44825
+line_end: 44922
 dependencies:
+  - "A.15"
+  - "A.15.1"
   - "A.2.6"
-  - "C.3.x"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
+  - "C.3.1-C.3.5"
 keywords:
   - "ESG"
-  - "Kind-CAL"
   - "Method-Work"
-  - "Typed guard"
-  - "USM"
-  - "regulatory profile"
+  - "assurance"
+  - "declaration compatibility"
+  - "exact candidate judgment"
+  - "guard refusal"
+  - "regulatory"
+  - "true/false/unknown"
 ---
 
-### C.3.A:4 - Normative Guard Macros
+### C.3.A:4 - Normative guard macros
 
-> **Notation.** “**SHALL**” clauses are normative obligations. “Notes” are informative reminders. Names like `Guard_TypedClaim` are editorial handles; Contexts may alias them, but **MUST** preserve semantics. Macro names (e.g., `Guard_TypedClaim`) are editorial handles; Contexts may alias them provided the logical obligations are preserved.
+Names such as `Guard_TypedClaim` are editorial handles. A context may alias them only when the same objects, values, and refusal distinctions remain recoverable.
 
-#### C.3.A:4.1 - **Guard\_TypedClaim** — admit a claim quantified over a kind
+#### C.3.A:4.1 - Guard_TypedClaim — declaration-level admission
 
-**Intent.** Approve a state transition that asserts Claim **C** which quantifies over `U.Kind` **k** at **TargetSlice**.
+**Intent.** Decide whether claim `C`, quantified over local kind `k_claim`, may enter a receiving use restricted to kind `k_receive` in `TargetSlice`, without claiming anything yet about an unnamed candidate.
 
-**Guard\_TypedClaim(C, k, TargetSlice, thresholds?)** — **SHALL** include, in this order:
+`Guard_TypedClaim(C, k_claim, claimSignatureEdition, k_receive, receiveSignatureEdition, TargetSlice, thresholds?)` SHALL:
 
-1. **ScopeCoverage.** `U.ClaimScope(C) covers TargetSlice`. *(USM A.2.6)*
-2. **Γ\_time declared.** TargetSlice **SHALL** specify **Γ\_time** (point/window/policy). No “latest”. *(A.2.6)*
-3. **Kind definedness.** `MemberOf(?, k, TargetSlice)` is **defined and deterministic**. *(C.3.2 K‑05/K‑07)*
-4. **Typed compatibility.**
-   4.1 **same Context**: if C expects `k′`, require `k ⊑ k′`. *(C.3.1)*
-   4.2 **Cross Context**: if Contexts differ, require a declared **KindBridge** that maps `k → k′` and publishes **`CL^k ≥ c`** with loss notes. *(C.3.3)*
-5. **Assurance penalties (R only).** If step 4.2 used a KindBridge, the guard **SHALL** apply a monotone penalty **Ψ(`CL^k`)** to **R**. If a **Scope bridge** was used to move C’s Scope (USM), apply **Φ(CL)** to **R**. *(C.2.2 + C.3.3 + Part B)*
-6. **Evidence freshness (if trust is implied).** Freshness windows and expiry checks **SHALL** be separate predicates (not Scope). *(C.2.2)*
-7. **Formality threshold (if ESG mandates).** If the Context gates rigor, require `U.Formality(C) ≥ F_k`. *(C.2.3)*
+1. recover the exact `KindSignature` declaration episteme editions whose respective `EntityOfConcern` values are `k_claim` and `k_receive`, and whose evaluation domains and effective reference schemes cover the declared use; when both roles use the same kind and edition, state that identity rather than duplicating the declaration;
+2. establish declaration-level kind compatibility:
+   - in one context, the kinds are identical or `SubkindOfObtains(k_receive, k_claim; effectiveReferenceScheme)` holds under C.3.1, with an identified `R_sub : U.SubkindOf` occurrence only when occurrence identity is needed; or
+   - across contexts, an obtaining KindBridge relates exact source `k_claim` and target `k_receive` under the paired source and target `KindSignature` editions, and a separate current bridge assertion states the mapping, applicability, loss, `CL^k`, evidence, and admitted receiving use;
+3. require `U.ClaimScope(C)` to cover the exact `TargetSlice` and require an explicit `Gamma_time` selector;
+4. apply only the justified bridge consequences to R;
+5. check evidence freshness separately when the admission implies reliance; and
+6. check a policy-required formality threshold on the exact claim or declaration episteme that owns the value.
 
-**Prohibitions.**
-— **AT forbidden.** KindAT **MUST NOT** appear in this guard. *(C.3.5 AT‑01/02)*
-— **No “domain” placeholders.** Guards **SHALL** name an addressable **TargetSlice**, not a fuzzy “domain”.
+The same-context direction above is contravariant only for restricting a universally quantified claim: a claim over `Vehicle` may enter a `PassengerCar`-restricted use when `PassengerCar` is a subkind of `Vehicle`. It is not a generic compatibility direction for producer outputs, operation arguments, mutable positions, or arbitrary typed slots; each such use states its own variance rule. This guard MUST NOT invent an anonymous candidate or infer a candidate classification from declaration compatibility.
 
-#### C.3.A:4.2 - **Guard\_TypedJoin** — compose two typed claims/specs (A → B)
+#### C.3.A:4.2 - Guard_CandidateUse — apply a typed claim to an exact candidate
 
-**Intent.** Permit composition where **A** produces facts over `k_A` and **B** consumes `k_B`.
+**Intent.** Decide whether claim `C`, quantified over `k_claim`, may be used for exact target-side candidate `candidate` in a receiving use restricted to `k_receive`.
 
-**Guard\_TypedJoin(A, k\_A; B, k\_B; TargetSlice)** — **SHALL** include:
+`Guard_CandidateUse(C, candidate, k_claim, claimSignatureEdition, k_receive, receiveSignatureEdition, TargetSlice)` SHALL:
 
-1. **TypedCompat.**
-   1.1 **same Context**: require `k_A ⊑ k_B`.
-   1.2 **Cross Context**: require **KindBridge** mapping `k_A → k′_B` with **`CL^k ≥ c`** and `k′_B ⊑ k_B`.
-2. **ScopeSerial.** Compute `Scope_serial = ClaimScope(A) ∩ ClaimScope(B)`. Require `Scope_serial covers TargetSlice`. *(A.2.6)*
-3. **Penalties (R only).** Apply **Ψ(`CL^k`)** if a KindBridge was used; apply **Φ(CL)** if a Scope bridge was used. *(C.2.2 / Part B / C.3.3)*
-4. **Freshness.** Guard **SHALL** assert required freshness windows for evidence **along the serial path**.
-5. **No type‑by‑scope.** The guard **MUST NOT** widen Scope to “fix” a type mismatch; remedies are subkind introduction, adapter, or bridge.
+1. identify the candidate under its direct governor before classification;
+2. satisfy `Guard_TypedClaim` for the same claim-kind and receiving-kind editions and slice;
+3. evaluate `J(candidate, k_receive, receiveSignatureEdition, TargetSlice)`;
+4. continue candidate-bearing use only on `true`: for a same-context proper subkind, the already established `SubkindOfObtains(k_receive, k_claim; RS)` supplies the monotone claim-kind consequence; for a cross-context use, rely only through the obtaining KindBridge and its current assertion, without inventing a source-context candidate judgment;
+5. refuse on known `false` while retaining that value; and
+6. refuse on `unknown` while retaining the missing dependency, unavailable support, or out-of-domain reason.
 
-**Mask awareness.** If B expects a **RoleMask(k\_B)**: either show A’s outputs already satisfy mask constraints, or add a documented **mask adapter** (see 4.3) and treat any **contextual** constraints as part of **ScopeSerial**.
+Evidence may support a classification assertion, but record presence, bridge presence, or guard invocation MUST NOT make the candidate satisfy the receiving criterion. When `k_claim` and `k_receive` are identical under one declaration edition, record that identity and evaluate the candidate once.
 
-#### C.3.A:4.3 - **Guard\_MaskedUse** — use a RoleMask with a kind
+#### C.3.A:4.3 - Guard_TypedJoin — compose typed producers and consumers
 
-**Intent.** Use `U.Kind` **k** under a **RoleMask** **m** in Context **R**.
+**Intent.** Compose producer `A`, which declares output kind `k_A`, with consumer `B`, which expects input kind `k_B`.
 
-**Guard\_MaskedUse(k, m, TargetSlice)** — **SHALL** include:
+`Guard_TypedJoin(A, k_A, edition_A; B, k_B, edition_B; TargetSlice)` SHALL:
 
-1. **MaskRegistered.** `RoleMask(k, m, version)` is **registered and versioned**. *(C.3.4 RM‑06)*
-2. **MaskDeterminism.** All mask constraints are **observable** on TargetSlice; if the mask narrows membership, it **SHALL** be deterministic. *(RM‑03)*
-3. **MaskType clarity.** Mask **SHALL** declare its type: constraint / vocabulary / composite. *(RM‑04)*
-4. **Promotion cue.** If mask is reused widely as a de‑facto subkind, editors **SHOULD** promote it to an explicit `⊑` link. *(RM‑05)*
-5. **Cross‑context use.** If `TargetSlice.Context ≠ owner(k).Context`, require:
-   5.1 **KindBridge** with **`CL^k ≥ c`**;
-   5.2 **MaskAdapter** (if constraints need translation), deterministic;
-   5.3 Penalty **Ψ(`CL^k`)** to **R**. *(RM‑07 + C.3.3)*
-6. **ScopeCoverage.** `U.ClaimScope(artifact) covers TargetSlice`. *(A.2.6)*
+1. pin both declaration episteme editions;
+2. establish output-to-input compatibility in the covariant flow direction:
+   - in one context, the kinds are identical or `SubkindOfObtains(k_A, k_B; effectiveReferenceScheme)` holds; or
+   - across contexts, an obtaining KindBridge maps `k_A` to exact target-side kind `k_A'`, its separate assertion carries the current mapping and loss basis, and `k_A'` is identical to `k_B` or `SubkindOfObtains(k_A', k_B; targetReferenceScheme)` holds;
+3. compute serial scope as the intersection of the two governed scopes and require coverage of `TargetSlice`;
+4. route bridge consequences to R and check freshness separately; and
+5. when an actual produced candidate enters B, evaluate `J(candidate, k_B, edition_B, TargetSlice)` and continue only on `true`, preserving `false` and `unknown` separately from refusal.
 
-**Prohibitions.**
-— **Mask ≠ Kind.** Guards **MUST NOT** treat the mask name as a synonym for the Kind. *(RM‑06)*
+Declaration compatibility alone MUST NOT classify a future or actual output. Scope widening MUST NOT repair a type mismatch. The universal-claim variance rule in `Guard_TypedClaim` does not reverse this producer-to-consumer direction.
 
-#### C.3.A:4.4 - **Guard\_SpanUnion\_Typed** — publish parallel coverage across independent support lines
+#### C.3.A:4.4 - Guard_MaskedUse — exact RoleMask use
 
-**Intent.** Publish **SpanUnion** of scopes for **the same typed claim** supported by **independent** lines `L₁…Lₙ`.
+**Intent.** Use exact candidate `candidate` under a named RoleMask declaration in `TargetSlice`.
 
-**Guard\_SpanUnion\_Typed(C, k, {Lᵢ})** — **SHALL** include:
+`Guard_MaskedUse(artifact, candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)` SHALL:
 
-1. **Per‑line discipline.** For each line `Lᵢ`, first satisfy **Guard\_TypedClaim(C, k, Sliceᵢ)** (or its Cross‑context variant) at the relevant slices/supports.
-2. **Independence justification.** Publisher **SHALL** include a partition or certificate showing that essential components of `Lᵢ` are **disjoint** from `Lⱼ` (no shared weakest link). *(A.2.6 §7.3)*
-3. **Published scope.** `Scope_published = SpanUnion({Sᵢ})`, where each `Sᵢ` is the serial scope for line `Lᵢ`.
-4. **No overreach.** The union **MUST NOT** include slices not covered by any `Sᵢ`.
-5. **Typed consistency.** The **entityOfConcern** (kind **k**) is **the same** across lines; if not, normalize via subkinds or adapters before union.
+1. recover the exact C.2.1 RoleMask declaration episteme, its base kind, pinned base signature edition, intended use, candidate-feature constraints, bindings, dependencies, and definedness;
+2. check artifact scope separately through USM;
+3. evaluate `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, TargetSlice)`;
+4. continue only on `true`, refuse while preserving known `false`, and fail closed while preserving `unknown`;
+5. keep context predicates out of the candidate-feature criterion; and
+6. for cross-context use, establish the KindBridge relation and assertion, target declarations, and any separate `MaskAdapter` declaration episteme before evaluating the target masked judgment.
 
-**Note.** Independence and union rules are USM‑native; this macro ties them to typed claims without adding new algebra.
+A mask name is not a kind synonym. Repeated mask use can trigger review for a separately identified local kind and independently obtaining `U.SubkindOf` relation; no guard or catalog action performs that admission.
 
-#### C.3.A:4.5 - **Guard\_XContext\_Typed** — Cross‑context typed reuse (both bridges)
+#### C.3.A:4.5 - Guard_SpanUnion_Typed — parallel support lines
 
-**Intent.** Reuse **C** quantified over **k** in another Context’s **TargetSlice**.
+**Intent.** Publish SpanUnion for the same typed claim supported by independent lines.
 
-**Guard\_XContext\_Typed(C, k, TargetSlice)** — **SHALL** include:
+For each line, the guard SHALL:
 
-1. **Scope bridge.** There **exists** a Scope Bridge **b\_s** `(source = owner(C).Context, target = TargetSlice.Context)` with **CL ≥ c\_s**. *(Part B)*
-2. **Kind bridge.** There **exists** a KindBridge **b\_k** `(source = owner(k).Context, target = TargetSlice.Context)` with **`CL^k ≥ c_k`**. *(C.3.3)*
-3. **Mapped scope coverage.** `Scope′ = translate(b_s, ClaimScope(C))` and `Scope′ covers TargetSlice`.
-4. **Mapped kind definedness.** `k′ = translate(b_k, k)` and `MemberOf(?, k′, TargetSlice)` is **defined**.
-5. **Penalties (R only).** Apply **Φ(CL(b\_s))** and **Ψ(`CL^k(b_k)`)** to **R**.
-6. **Loss notes.** Publisher **SHALL** attach loss notes from both bridges (rig bias, collapsed subkinds, etc.).
+1. recover the same governed claim, quantified kind, and signature edition;
+2. satisfy declaration-level typed admission in that line's slice;
+3. when a line's evidence is candidate-specific, bind each exact candidate and its exact judgment rather than treating a row label as classification;
+4. preserve line-specific bridge consequences and freshness;
+5. provide the USM independence justification; and
+6. include no slice outside the union of covered line scopes.
 
-**Prohibitions.**
-— **Do not** “merge” bridges; Scope and Kind are orthogonal channels.
-— **Do not** alter **F** or **G** due to `CL`/`CL^k`; penalties land in **R** only.
+If lines quantify over genuinely different kinds, normalize through separately justified kind relations or publish distinct claims; do not hide the difference in SpanUnion.
+
+#### C.3.A:4.6 - Guard_XContext_Typed — cross-context typed reuse
+
+**Intent.** Reuse claim `C` from a source context in target `TargetSlice` while keeping scope translation, kind correspondence, and target classification separate.
+
+`Guard_XContext_Typed(C, sourceKind, sourceSignatureEdition, targetKind, targetSignatureEdition, TargetSlice, candidate?)` SHALL:
+
+1. recover an obtaining Scope Bridge and its applicable congruence assessment when Claim scope crosses context;
+2. recover an obtaining KindBridge relation with exact source/target kind participants and its separate bridge assertion with pinned scheme/signature editions, mapping rule, definedness, `CL^k`, loss, evidence, and admitted use;
+3. recover the independently authored target `KindSignature` edition;
+4. require translated Claim scope to cover `TargetSlice`;
+5. when an actual candidate is current, evaluate the fresh target judgment `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` and preserve all three values;
+6. apply the justified scope- and kind-bridge consequences to R only; and
+7. make the separate allow/refuse decision.
+
+A source judgment may support reliance but MUST NOT be copied as target truth. If no candidate is current, the guard ends at declaration-level compatibility and scope; it does not fabricate one.
 

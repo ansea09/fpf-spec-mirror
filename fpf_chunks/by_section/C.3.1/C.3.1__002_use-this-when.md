@@ -6,18 +6,23 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:0 — Use This When"
-line_start: 42941
-line_end: 42957
+line_start: 43837
+line_end: 43850
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,26 +30,25 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:0 - Use This When
 
-Use this pattern when a context needs a minimal kind value and subkind order for typed claim reasoning.
+Use this pattern when one typed-reasoning use needs a context-local kind, a subkind order, or a decision about whether the same local kind continues across editions of its declaration.
 
-**What goes wrong if missed.** A local kind order is confused with durable FPF U-kind governance: subkind links start standing in for construction, ontic admission, naming, scope, or dependency relations.
+**What goes wrong if missed.** `U.SubkindOf` starts carrying dependency, construction, scope, public kind admission, or extension-table maintenance. A changed declaration is mistaken either for a new kind automatically or for a harmless rewrite automatically, and old classifications are silently reinterpreted.
 
-**What this buys.** The user gets a small, inspectable typed-reasoning core: `U.Kind` values stay context-local, `U.SubkindOf` remains a partial order, and durable U-kind admission stays with `E.24.UK`.
+**What this buys.** The user gets a small local partial order, a judgment-level monotonicity law, and an explicit kind-continuity decision while durable U-kind admission, classification, declaration identity, and cross-context bridging stay with their own governors.
 
-Typical moments:
+**Primary EntityOfConcern.** One context-local `U.Kind` identity and any `U.SubkindOf` order used under an effective `U.ReferenceScheme`.
 
-- a claim needs a context-local kind value for what it quantifies over;
-- a local kind order is needed for typed compatibility;
-- `U.SubkindOf` is being mistaken for dependent durable U-kind relation;
-- a source says "type" or "kind" and the author must decide whether the current use is C.3 typed reasoning or E.24.UK U-kind admission.
+**First useful move.** Write the ordinary order claim first: `CoolingPumpKind is a subkind of PumpKind in this plant reference scheme.` Then identify the declaration editions used to evaluate candidates and test whether the order is monotone for the same candidate and slice.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the C.3.1 core relation among context-local `U.Kind` values and the `U.SubkindOf` partial order.
+**Not this pattern when.** Use C.3.2 for the declaration, one candidate classification, or an extension representation; C.3.3 for use across contexts; and `E.24.UK` when a local kind is proposed as a durable public FPF U-kind.
 

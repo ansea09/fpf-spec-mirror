@@ -6,36 +6,40 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:intro — Intro"
-line_start: 43261
-line_end: 43280
+line_start: 44207
+line_end: 44226
 dependencies:
   - "A.2.6"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.2.2"
   - "C.3.1"
   - "C.3.2"
+  - "F.9"
 keywords:
   - "CL^k"
-  - "KindBridge"
+  - "KindBridge direct relation"
   - "R penalty"
-  - "cross-context mapping"
-  - "type-congruence"
+  - "bridge assertion episteme"
+  - "loss"
+  - "target judgment"
 ---
 
 ## C.3.3 - KindBridge & CL^k — Cross‑context Mapping of Kinds
 
-> **One‑line summary.** Defines **`KindBridge`** as the normative mechanism for moving **kinds** (their **intent** and selected **subkind‑of** links) between bounded contexts (“Contexts”). A bridge declares **how a source kind maps to a target kind**, which parts of the **`⊑`** order are preserved or collapsed, and publishes a **type‑congruence level `CL^k`** with **loss notes** and a **definedness area**. **`CL^k` penalties apply only to Reliability (R)** when a claim depends on Cross‑context classification; **F** (formality) and **G** (Claim scope) remain unchanged. Scope translation continues to use the **USM Bridge + CL** channel; **KindBridge** is a **separate, parallel channel** for EntityOfConcern.
+> **One-line summary.** Defines **`KindBridge`** as the direct cross-context relation between one exact source local kind and one exact target local kind under pinned reference-scheme editions and a declared mapping predicate. A separate C.2.1 bridge-assertion episteme states direction, paired `KindSignature` editions, order preservation or collapse, `CL^k`, loss notes, definedness, evidence, and admitted use. Target classification is always a fresh four-input C.3.2 judgment; a source result or bridge assertion never creates target truth. `CL^k` affects only the receiving reliance value R, while F and Claim scope G remain with their own owners.
 
 **Status.** Normative in **Part C**. Identifier **C.3.3**.
 **Audience.** Engineering managers, architects, assurance leads, editors.
 
 **Depends on.**
 
-* **C.3.1 — U.Kind & SubkindOf (Core):** kinds are context-local `U.Kind` records; `⊑` is a partial order; kinds **do not carry Scope**.
-* **C.3.2 — KindSignature (+F) & Extension/MemberOf:** signature declares its own **F**; membership `MemberOf(e,k,slice)` is **deterministic** per `U.ContextSlice`.
+* **C.3.1 — U.Kind & SubkindOf (Core):** kinds are context-local `U.Kind` values; `U.SubkindOf` is an obtaining direct relation under an exact effective reference scheme; kinds carry no Scope.
+* **C.3.2 — Kind intent, judgment, and extension:** `KindSignature` is a declaration episteme; `J(candidate, kind, signatureEdition, slice)` returns `true`, `false`, or `unknown`; an optional pinned-edition `KindExtension` is only a representation of true candidates.
 * **A.2.6 — USM (Context slices & Scopes):** Claim scope (**G**) and Work scope live on claims/capabilities; scope bridging and **CL** penalties are defined there.
 * **C.2.2 — F–G–R:** weakest‑link; penalties land in **R**, not **F/G**.
 * **C.2.3 — U.Formality (F):** signature rigor.

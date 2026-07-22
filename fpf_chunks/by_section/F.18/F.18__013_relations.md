@@ -6,18 +6,23 @@ section_id: "F.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:11 — Relations"
-line_start: 92221
-line_end: 92238
+line_start: 93004
+line_end: 93021
 dependencies:
+  - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.P"
+  - "C.2.1"
   - "E.10"
+  - "E.10.ARCH"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
@@ -42,9 +47,9 @@ Builds on `F.0.1`, `F.1`, `F.2`, `F.3`, `F.5`, `F.8`, `F.9`, `F.13`, `F.14`, `F.
 
 Coordinates with:
 
-- `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, and `A.15` for role value, role assignment, role state, role relation structure, role-algebra lens use, and work-role alignment;
+- `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, and `A.15.1` for role value, role assignment, role state, role relation structure, role-algebra lens use, role-method-work alignment, and exact performed-work occurrence grounding;
 - `A.3.1` and `A.3.2` for method and method-family names;
-- `A.6.5`, `A.6.RSIR`, `A.6.0`, `A.6.M`, `A.6.F`, and `A.6.C` for relation, slot, signature, interface, port, and protocol names;
+- `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.REL`, `A.6.5`, `A.6.RSIR`, `A.6.0`, `A.6.M`, `A.6.F`, and `A.6.C` for relation-claim settlement, work/method-boundary relation recovery, relation-kind and occurrence boundaries, slot, signature, interface, port, and protocol names;
 - `A.10`, `B.3`, `F.10`, `E.10.D2`, `E.17`, and `C.2.1` for evidence-use, assurance-use, status-use, source-use, publication-use, and description-use names;
 - `C.16`, `C.18`, and Part G search patterns when candidate comparison uses Pareto or quality-diversity vocabulary.
 

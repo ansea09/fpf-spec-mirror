@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:12f"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__019_lowering-repair-and-refresh-conditions.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:12f — Lowering, Repair, and Refresh Conditions"
-line_start: 23657
-line_end: 23664
+line_start: 24229
+line_end: 24236
 dependencies:
   - "A.10"
   - "A.12"
@@ -54,9 +54,9 @@ keywords:
 
 ### A.15:12f - Lowering, Repair, and Refresh Conditions
 
-Lower an `A.15` claim when the role, holder, bounded context, method, method description, work plan, work-entry readiness relation, performed work occurrence, or capability check cannot be named at the granularity required by the next work-family use. A weaker but admissible result is a separation note, missing-source-relation note, `A.15.4` repair request, decision-request record for the next decision, prospective work-plan entry, or `A.15.5` readiness-gap note.
+Lower an `A.15` claim when the role, holder, role-taxonomy episteme, effective reference scheme, method, method description, work plan, work-entry readiness relation, performed work occurrence, or capability check cannot be named at the granularity required by the next work-family use. A weaker but admissible result is a separation note, missing-source-relation note, `A.15.4` repair request, decision-request record for the next decision, prospective work-plan entry, or `A.15.5` readiness-gap note.
 
 Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, role-state currentness record, or source-currentness window was wrong for the claimed use. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence relation changed, and do not treat an `A.15.4` repair request as carrying a non-A.15 claim.
 
-Refresh the `A.15` use before relying on it across a new context, new role assignment, new method family, new work plan, new execution window, new result measurement, or new evidence, assurance, gate, appearance-based reliance repair, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the governing pattern for that relation and keep only the remaining `A.15` separation here.
+Refresh the `A.15` use before relying on it under a new role taxonomy, effective reference scheme, selected model-use structure, role assignment, method family, work plan, execution window, result measurement, or evidence, assurance, gate, appearance-based reliance repair, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the governing pattern for that relation and keep only the remaining `A.15` separation here.
 

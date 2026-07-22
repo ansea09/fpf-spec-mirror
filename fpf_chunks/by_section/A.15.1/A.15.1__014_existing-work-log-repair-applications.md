@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 24081
-line_end: 24092
+line_start: 24673
+line_end: 24684
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -19,14 +19,16 @@ dependencies:
   - "A.15"
   - "A.15.4"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.6"
-  - "A.2.8.PER"
   - "A.3.1"
   - "A.3.2"
-  - "B.1"
+  - "A.3.4"
+  - "A.6.1"
+  - "B.1.4"
   - "B.1.6"
   - "B.3"
   - "C.2.1"
@@ -45,25 +47,31 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "EpisodeOf_work"
-  - "TemporalPartOf_work"
-  - "actuals"
-  - "concurrent work part"
-  - "operational work part"
-  - "performed enactment"
-  - "trace"
-  - "work occurrence"
+  - "U.Work admitted kind"
+  - "actual binding"
+  - "affected referent"
+  - "enactsMethod"
+  - "episode"
+  - "no automatic transformation"
+  - "occurrence assertion and record separation"
+  - "overlap"
+  - "performed resource-use fact"
+  - "performedBy"
+  - "retry"
+  - "work continuity"
+  - "work part"
+  - "world-side dated occurrence"
 ---
 
 ### A.15.1:12 - Existing work-log repair applications
 
-1. **Backfill links.** For existing logs, create work-occurrence records and attach `enactsMethod`, `methodDescriptionRef` when current, and `performedBy`.
-2. **Recover the work-judgment basis.** Name the exact method-description edition, effective reference scheme, continuity-policy description, and any current scope, qualification window, aggregation policy, criterion, or evidence-use relation.
-3. **Record the episode policy.** Decide when an interruption keeps identity or forces a new occurrence.
+1. **Recover occurrence assertions.** For existing logs, identify the independently grounded Work occurrence and write an assertion or description that cites its designator, actual `enactsMethod`, optional `methodDescriptionRef`, exact `performedBy`, extent, affected referent, bindings, containing system, and resource-use facts. Do not create Work by creating a record.
+2. **Recover the work-judgment basis.** Name exact `workContinuityPolicyRef`, its effective reference scheme, and any current MethodDescription edition, scope, qualification window, aggregation policy, criterion, or evidence-use relation without making those epistemes part of the Work.
+3. **Record the continuity policy.** Cite exact `workContinuityPolicyRef` and decide when an interruption stays within one occurrence, creates an episode, or forces a new occurrence.
 4. **Separate slice, episode, and operational part.** Use interval/aspect for `TemporalPartOf_work`, event-bounded continuity for `EpisodeOf_work`, and recovered occurrence-side part plus any separately recovered method factor for `OperationalPartOf_work`.
 5. **Name only useful work parts.** If no current resource, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use hangs on the candidate part, keep it as a relation, evidence slice, or telemetry slice.
-6. **Choose Γ\_time per KPI.** Put "union" or "hull" in the KPI definition so disputes expose the coverage policy instead of hiding it.
-7. **Set an overlap policy.** Write one sentence on how shared costs are allocated; apply consistently.
-8. **Pull plans out.** Move calendars to `U.WorkPlan`; let Work record performed values.
-9. **Parameter blocks.** Make parameters explicit and bind them at start; root-cause analyses become easier.
+6. **Return temporal roll-up to B.1.4.** Cite the exact temporal aggregation and its union, hull, coverage, and non-overlap policy in the KPI rather than recreating it on Work.
+7. **Return resource roll-up to B.1.6.** Recover the typed resource ledger, evidence basis, allocation, and overlap or deduplication policy there; each contributing performed resource-use relation remains independently obtaining with an exact Work occurrence as a participant.
+8. **Pull plans out.** Keep calendars and planned fillings in exact `U.WorkPlan` content; establish performed values only through direct relations in which the Work occurrence participates and through exact A.6.1 bindings.
+9. **Bind actual values directly.** Recover each participant or parameter through its obtaining subject relation or exact A.6.1 application binding; retain MethodDescription defaults and WorkPlan choices as non-actual neighbors.
 

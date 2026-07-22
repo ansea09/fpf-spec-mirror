@@ -1,56 +1,59 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+pattern_title: "U.Mechanism - Reusable Law-Governed Operation Declaration"
 section_id: "A.6.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__001_intro.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+  - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:intro — Intro"
-line_start: 11261
-line_end: 11266
+line_start: 11206
+line_end: 11215
 dependencies:
+  - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
   - "A.2.6"
-  - "A.20"
-  - "A.21"
+  - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "B.3"
-  - "C.16"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.29"
+  - "C.3"
   - "E.10"
   - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.18"
   - "E.20"
+  - "E.24.PUB"
   - "F.18"
-  - "U.BoundedContext"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Signature"
-  - "U.Work"
-  - "U.WorkPlan"
+  - "F.9"
+  - "G.11"
 keywords:
   - "AdmissibilityConditions"
-  - "Bridge‑only"
   - "LawSet"
-  - "Mechanism"
   - "OperationAlgebra"
-  - "Transport"
+  - "U.Mechanism"
+  - "application binding"
+  - "operation application"
+  - "operation declaration"
+  - "realization"
 ---
 
-## A.6.1 - U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind
+## A.6.1 - U.Mechanism - Reusable Law-Governed Operation Declaration
 
-> **Type:** Definitional pattern
 > **Status:** Stable
-> **Normativity:** Normative
+
+**Pattern kind.** Ontic declaration pattern.
+
+**Builds on.** A.6.0 for signature identity and content, C.2.1 for episteme identity, and A.2.6 for claim scope.
+
+**Coordinates with.** A.6.REL for relation occurrences, A.6.5 only for the contrasting `RelationSignature` SlotSpec discipline, C.3 for local operation ValueKinds, A.1 for holon-recognition semantics, A.3.1 for methods, A.15.1 for performed work, F.9 only for exact cross-context `SenseCell` correspondence and admitted use, CHR for selected `CHR:ReferencePlane` values, A.1.1 and A.22 for a selected `BoundedModelUseStructure`, C.29 for mathematical-lens use, E.20 for mechanism introduction, E.24.PUB for publication, A.22.CGUS for executable continuation structure, and G.11 for currentness.
 

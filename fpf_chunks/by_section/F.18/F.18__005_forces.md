@@ -6,18 +6,23 @@ section_id: "F.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__005_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:3 — Forces"
-line_start: 91853
-line_end: 91862
+line_start: 92608
+line_end: 92617
 dependencies:
+  - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.P"
+  - "C.2.1"
   - "E.10"
+  - "E.10.ARCH"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
@@ -40,8 +45,8 @@ keywords:
 
 | Force | Naming tension |
 | --- | --- |
-| Local sense and cross-context reuse | A name must be usable in one bounded context while remaining bridgeable elsewhere without spelling-based identity. |
-| Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep kind, context, governing pattern, and sense recoverable. |
+| Local sense and cross-scheme reuse | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable under another without spelling-based identity. |
+| Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep governed kind, effective reference scheme, local sense, governing pattern, and intended use recoverable. |
 | Continuity and correction | Readers need stable public names, while authors must be able to rename, split, merge, or retire names without erasing earlier uses. |
 | Familiarity and precision | Familiar words are easier to adopt, but some familiar words import wrong prototypes from another discipline. |
 | Role recognition and role explosion | Role morphology is useful for `U.Role` values, but it must not absorb holder assignment, capability, method, work, evidence, or status claims. |

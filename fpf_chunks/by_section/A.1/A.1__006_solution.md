@@ -6,37 +6,36 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
-line_start: 1457
-line_end: 1604
+line_start: 1466
+line_end: 1590
 dependencies:
   - "A.1.1"
-  - "A.12"
+  - "A.10"
   - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
   - "A.22"
   - "A.3.4"
-  - "A.6.5"
-  - "A.7"
+  - "A.6.1"
+  - "B.2"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.2.1"
   - "C.20"
   - "C.30"
   - "E.10.ARCH"
-  - "E.24"
   - "E.24.UK"
+  - "G.11"
 keywords:
 ---
 
 ### A.1:4 - Solution
 
-Use A.1 to decide whether the current object is only a referenceable entity, a holon, or a directly admitted holon kind.
+Use A.1 to distinguish an exact referenceable entity from a candidate that satisfies the constructive holon criterion under an already admitted public holon kind.
 
 ```text
 U.Entity
@@ -45,43 +44,44 @@ U.Entity
     U.Episteme
     U.Method           only under A.3.1 and direct method-composition patterns
     U.Work             only under A.15.1
-    U.BoundedContext   only under A.1.1
     U.Discipline       only under C.20
     named C.3 U.Kind   only when a direct governing pattern admits holon treatment
 ```
 
-This is not a classical taxonomic ladder and not a publication hierarchy. It is a governed admission discipline for part-whole treatment in FPF.
+This is not a classical taxonomic ladder and not a publication hierarchy. `E.24.UK` owns public U-kind admission; A.1 owns recognition of exact candidates under the admitted holon kinds and the kind-specific patterns shown above. A selected `U.Structure`, including `BoundedModelUseStructure`, remains dependent relation organization rather than a holon kind.
 
 #### A.1:4.1 - U.Entity
 
-`U.Entity` is anything that can be individuated and referenced under a bounded context. It carries no part-whole, acting, claim-bearing, or architecture assumption by itself.
+`U.Entity` is anything that can be individuated and referenced. It carries no part-whole, acting, claim-bearing, model-use, or architecture assumption by itself.
 
-Use `U.Entity` when the current move only needs to point to something: a number, claim, named product, material batch, data value, legal clause, role value, source reference, document, or object under concern.
+Use `U.Entity` when the current move only needs to point to something: a number, claim, named product, material batch, data value, legal clause, role value, reference, document, or another object under concern.
 
-Do not apply holon aggregation, part-whole grounding, acting-system roles, or architecture claims to a bare `U.Entity` unless a current pattern also admits the entity as `U.Holon` or as a directly governed holon kind.
+Do not apply holon aggregation, part-whole grounding, acting-system roles, or architecture claims to a bare `U.Entity` unless its actual construction satisfies the A.1 criterion for `U.Holon` or a kind-specific criterion for another already admitted public holon kind.
 
-#### A.1:4.2 - U.Holon
+#### A.1:4.2 - U.Holon And Context-Independent Recognition
 
-`U.Holon` is the broad part-whole EntityOfConcern: a `U.Entity` considered as a whole with parts and as a possible part of larger wholes in a bounded context.
+`U.Holon` is the broad part-whole EntityOfConcern: an exact `U.Entity` whose actual construction supports treatment as a whole with parts and as a possible part of a larger whole.
 
-A holon claim is admissible only when the current text names the bounded context, the identity or recognition rule, the current part relation, and the governing pattern that admits the object under that part-whole treatment.
+Keep ontology admission and candidate recognition separate. `E.24.UK` owns the one-time FPF decision that admits `U.Holon` and every other public holon kind. A.1 owns the constructive criterion by which an exact candidate is recognized under an already admitted kind. Candidate classification is a judgment about that exact entity; it is not a direct relation to a pattern edition, criterion episteme, evaluator, evidence set, or status value.
 
-The A.1 holon slot relation is:
+For one exact candidate, recover six distinct constructive components. Do not let one component stand in for another:
 
-```text
-HolonSlotRelation@Context:
-  holonRef: U.Holon
-  boundedContextRef: U.BoundedContext
-  identityOrRecognitionRule:
-  partRelationRefs:
-  selectedStructureRefs?
-  holonDelimitationRelationRefs?
-  holonBoundaryCrossingRelationRefs?
-  containingWholeRefs?
-  admittedHolonKindRef?: U.System | U.Episteme | U.Method | U.Work | U.BoundedContext | U.Discipline | named C.3 U.Kind admitted by a direct governing pattern
-```
+1. **Exact candidate.** Identify one exact `U.Entity` under its direct identity rule.
+2. **Exact constituents.** Identify the entities claimed to constitute this candidate. Nearby entities, members of a set, sampled points, and arbitrary slices are not constituents by inclusion or wording.
+3. **Constructive part relations and assembly.** Recover the exact obtaining part-relation occurrences under their direct patterns and the assembly by which those constituents compose this candidate. A list, diagram, or shared boundary does not establish those relations.
+4. **Reidentification rule.** State the rule that distinguishes this whole and says which constituent, relation, boundary, or phase changes preserve or end its identity.
+5. **Composition-grounded whole-level characteristic.** Recover at least one exact characteristic whose value or state is produced or sustained by the composition and is not attributable to one constituent alone.
+6. **Possible participation in a larger constructive assembly.** Recover the candidate's actual boundary, interfaces, relevant characteristics, and identity-preservation conditions. Those facts must satisfy the applicability and compatibility conditions of at least one governed larger-assembly construction method or rule under which an admissible construction would include this candidate as a constituent while preserving its identity. One exact episteme may describe that method or state that rule and its conditions; the episteme does not create applicability, compatibility, or possibility.
 
-This relation is a selected SlotRelation expression, not a new U-kind and not a record that acts. Under open-world discipline, an omitted slot means "not current or not recovered for this claim", not "absent in the world".
+Name the already admitted holon kind and its direct kind-specific pattern separately from those six components. The candidate satisfies the A.1 criterion when all six world-side components hold and any kind-specific condition is satisfied; it fails when a required component or condition does not hold. Satisfaction or failure does not vary with current evidence availability or evaluator access. Replacing a constituent or part-relation occurrence preserves the same holon only when the reidentification rule admits that change. An unassembled collection fails even when a project card calls it a holon.
+
+Exact dated classification work belongs to `A.15.1`. When a reusable typed recognition-evaluation operation is current, `A.6.1` governs its declared arguments and result plus the actual application bindings. The evaluation returns `true` when its governed inputs determine satisfaction, `false` when they determine failure, and `unknown` when missing evidence or an unavailable dependency prevents either determination. `unknown` is an evaluation result, not a third candidate state: the same candidate can satisfy or fail the criterion while the current evaluation remains unable to determine which.
+
+When another use must inspect or cite the judgment, identify an optional C.2.1 classification-assertion or evaluation-result episteme whose exact EntityOfConcern is the candidate. Its claim content names the admitted kind, the A.1 criterion, the constituent and part-relation facts, reidentification rule, whole-level characteristic, candidate-side compatibility facts, exact construction-method-or-rule episteme, evaluation frame, and `true | false | unknown` judgment needed by that use. The assertion creates none of the candidate, constituents, part relations, assembly, characteristic, compatibility facts, method or rule, larger-assembly possibility, or holonhood.
+
+Exact evidence and assurance relations support or warrant assertion claim content. `G.11` separately governs whether the selected assertion edition is current. Receiving work separately decides whether to rely, decline to rely, defer, or reopen. `B.2` owns the different question whether the existing whole is no longer the right EntityOfConcern for a receiving use. A.1 satisfaction, failure, or evaluation uncertainty supplies neither warrant for a B.2 claim nor grounds for selecting B.2.
+
+In ordinary use, stop after naming the candidate, six constructive components, admitted kind, kind-specific condition, and resulting judgment needed by the current work. Materialize a classification assertion only when a named receiving use depends on that episteme.
 
 #### A.1:4.3 - Admitted Holon Kinds
 
@@ -89,96 +89,72 @@ Current accepted holon-kind examples are:
 
 - `U.System`, governed here as the acting physical or operational holon kind;
 - `U.Episteme`, governed here only as a non-agentive claim-bearing holon, with full slot discipline in `C.2.1`;
-- `U.Work`, governed by `A.15.1` as a dated 4D occurrence holon;
-- `U.BoundedContext`, governed by `A.1.1` as a semantic-frame holon;
+- `U.Work`, governed by `A.15.1` as the admitted kind for dated 4D occurrence holons;
 - `U.Discipline`, governed by `C.20` as a field-level practice-and-knowledge holon;
 - `U.Method`, governed by `A.3.1` and method-composition patterns such as `B.1.5` as a non-agentive method holon whose submethods compose into a whole method across levels.
 
-No blank "other kind" escape hatch is selected. If a source claims another holon kind, the current FPF use must name the concrete C.3 `U.Kind`, the part-whole relation, the direct governing pattern, and the slot discipline that makes holon treatment admissible before any part-whole, architecture, role, work, evidence, or source-use claim relies on it.
+No blank "other kind" escape hatch is selected. A project-local holon classification names its concrete C.3 `U.Kind`, the A.1 criterion, any kind-specific criterion, and the direct patterns for the construction facts it uses. A proposed public `U.*` holon kind first passes `E.24.UK` and gains one direct governing pattern. Neither route may rely on part-whole, architecture, role, work, evidence, or source-use claims before the candidate-side criterion is recoverable.
 
-Holon admission is decided by own constructive assembly with meta-holon transition, not by agentivity or wording. A candidate kind can be treated holonically when a bounded context can select the participating objects from the surrounding practice or world, fix their boundaries, assemble them through a current part-whole relation into a whole, and recover a whole-level property, capability, constraint, function, claim-bearing structure, or other characteristic that belongs to the assembled whole rather than to any single part or to a label. The resulting whole must also be eligible to become a part in a larger assembly. Grounding is the agreement discipline for that construction: it fixes the selected objects, boundaries, part relation, assembly operation, MHT evidence, and governing patterns. Relations may arrange, constrain, assign, qualify, or describe parts; those relations do not become parts by that fact.
+Candidate recognition is decided by the six candidate-side constructive components in A.1:4.2, not by agentivity, wording, evidence availability, or a B.2 whole-reidentification result. Grounding work selects the participating objects from the surrounding practice or world, fixes their boundaries, identifies constituents and exact part relations, recovers the assembly and reidentification rule, and tests the resulting whole-level characteristic and larger-assembly compatibility. Relations may arrange, constrain, assign, qualify, or describe constituents; those relations do not become constituents by that fact.
 
-`U.Role` and `U.Method` are therefore not decided by whether they act. `U.Episteme` already shows that a non-agentive object can be a holon. The ontology decision is: `U.Method` is a non-agentive holon kind, and `U.Role` is not a holon kind. A method can have submethods composing into whole methods with whole-level preconditions, effects, invariants, interfaces, constraints, and assurance hooks; the resulting method can participate in a larger method. A step label or step description is not a method part by label: it must first be recovered as a `U.Method` submethod rather than as a method-description node, order relation, work-plan item, or work occurrence. A role value names what a holder is being in a context; its assignment, state, capability, responsibility, permission, commitment, obligation, method participation, and role relation structure are neighboring objects, relation positions, or descriptions, not role parts.
+`U.Role` and `U.Method` are therefore not decided by whether they act. `U.Episteme` already shows that a non-agentive object can be a holon. The ontology decision is: `U.Method` is a non-agentive holon kind, and `U.Role` is not a holon kind. A method can have submethods composing into whole methods with whole-level preconditions, effects, invariants, interfaces, constraints, and assurance hooks; the resulting method can participate in a larger method. A step label or step description is not a method part by label: it is first recovered as a `U.Method` submethod rather than a method-description node, order relation, work-plan item, or work occurrence. A role value states what a holder is being under one assignment relation and role-taxonomy interpretation; assignment, state, capability, responsibility, permission, commitment, obligation, method participation, and role relation structure remain neighboring objects or relations rather than role parts.
 
 #### A.1:4.4 - U.System
 
-`U.System` is an acting physical or operational holon kind. It can bear work-facing role assignments, capabilities, methods, mechanisms, work occurrences, transformation participation, and responsibility-bearing claims when the direct neighboring patterns make those claims current.
+`U.System` is an acting physical or operational holon kind. It can participate in work-facing role assignments, capability relations, method enactment, mechanism realization, work occurrences, transformations, functioning relations, and responsibility-bearing claims when their direct patterns make those claims current.
 
-The A.1 system participation relation is:
+Its kind-specific condition is acting eligibility: the recognized whole has an actual physical or operational organization through which it can causally participate in work or transformation while preserving its identity. Capability evidence or actual participation can support a classification assertion; a role assignment, work occurrence, or capability relation does not create the system by participation alone.
 
-```text
-SystemParticipationRelation@Context:
-  systemRef: U.System
-  boundedContextRef: U.BoundedContext
-  holonDelimitationRelationRef?
-  roleAssignmentRefs?
-  capabilityRefs?
-  methodRefs?
-  methodDescriptionRefs?
-  mechanismRefs?
-  workPlanRefs?
-  workOccurrenceRefs?
-  transformationParticipationRefs?
-  functioningOrFunctionalElementRefs?
-  evidenceRelationRefs?
-  assuranceRelationRefs?
-  temporalAspectRefs?
-  dynamicsAspectRefs?
-```
+Keep those relations separate:
 
-This relation links acting-system participation across role, capability, method, mechanism, work, transformation, functioning, evidence, assurance, temporal, and dynamics concerns. It does not collapse those concerns into one kind. Role assignment remains role discipline; method remains method discipline; performed work remains work discipline; transformation remains `U.Transformation`; functioning and functional element remain with their direct governing patterns.
+- `A.2.1` governs the role-assignment occurrence whose `HolderSystemSlot` is filled by the system.
+- `A.2.2` governs capability claims about that system.
+- `A.3.1`, `A.3.2`, and the mechanism family govern method, method description, and mechanism realization.
+- `A.15.1` governs performed work and the exact relation through which the system is attributed as performer.
+- `A.3.4` governs the bounded transformation; the exact direct subject-relation pattern governs the system's participation in it.
+- Functioning, evidence, assurance, temporal, and dynamics claims remain with their direct patterns.
+
+A.1 introduces no omnibus participation relation over references to all those occurrences. Listing them together in a worked case creates no additional world-side relation. If the selected organization among several direct relations changes an engineering decision, select that organization as `U.Structure` under A.22 and keep every constituent occurrence under its direct identity. Claim scope, effective reference scheme, and optional model-use structure qualify each dependent assertion only where its direct pattern makes them current.
 
 #### A.1:4.5 - U.Episteme
 
 `U.Episteme` is a claim-bearing, non-agentive holon kind. It can be changed, used, cited, published, represented, versioned, structured, compared, interpreted, or relied on by acting systems, but it does not act by itself.
 
-Use `C.2.1` and the episteme family for episteme slot relation, claim graph, viewpoint, reference scheme, evidence relation, publication relation, source-use relation, and claim-bearing structure. A.1 only says that an episteme can be treated as a holon when part-whole treatment of the claim-bearing object is current.
+Use `C.2.1` for episteme identity, `EpistemeConstitutionRelation`, and the direct empirical-grounding and edition relations declared there. Use the neighboring direct patterns for viewpoint, view, claim scope, bounded model use, evidence, publication, source use, carrier, and representation. A.1 only says that an episteme can be treated as a holon when part-whole treatment of the claim-bearing object is current.
 
-Do not say that an episteme decides, approves, performs work, promises, revises itself, authorizes action, or bears responsibility. A system in role may do those things with or about an episteme.
+A system in role decides, approves, performs work, promises, revises, authorizes, or bears responsibility with or about an episteme. The episteme does not perform those acts by itself.
 
-#### A.1:4.6 - Holon Delimitation And Boundary Crossing
+#### A.1:4.6 - Recover Holon Delimitation And Boundary Crossing
 
-Do not create `U.Boundary` or `U.Interaction` from boundary or interaction wording.
+When a claim concerns where a holon is delimited, recover the exact delimitation relation, criterion, or selected structure supplied by the direct holon, mereology, architecture, or domain pattern. Do not force an identity rule, membership relation, environment relation, selected structure, and boundary condition into one universal relation signature. Those objects have different kinds and predicates.
 
-Use `HolonDelimitationRelation@Context` when the current claim is about where the holon is delimited in a bounded context: identity rule, membership or part relation, environment relation, selected structure, or current boundary condition.
-
-Use `HolonBoundaryCrossingRelation@Context` when the current claim is about a relation crossing that delimitation: transformation, signal, control, measurement, source use, publication use, evidence relation, probe relation, coupling, or another direct relation. If bounded change under conditions is current, use `A.3.4` for `U.Transformation`; the boundary-crossing relation may point to it but is not the transformation itself.
+When one direct relation crosses that delimitation, keep the direct relation occurrence under its own pattern and use F.9 for the exact crossing or bridge claim. State the delimited holon, the direct crossing relation, direction, fit, loss, scope, and qualification window that are current for that use. A crossing classification does not replace the signal, control, measurement, transformation, source-use, publication-use, evidence-use, coupling, or other direct relation occurrence.
 
 Do not call every boundary an interface. Use interface language only when a governing signature, module, architecture, port, or interface pattern makes interface meaning current.
 
-External holon vocabularies do not admit FPF kinds by label. If a source says `AgentHolon`, `OrganisationHolon`, `DataHolon`, `ProcessHolon`, `Portal`, `Projection`, or a similar semantic-web holon class, recover the FPF claim before using it. Acting-agent and organization claims require `U.System` admission; data, document, and projected-content claims usually require `U.Episteme`, publication, source, evidence, or description patterns; process-holon wording requires work, method, work-plan, or transformation patterns; portal or traversal wording requires an access, boundary-crossing, policy, or evidence relation. A.1 admits only the holon or system claim when that claim is current.
+External holon vocabularies do not admit FPF kinds or establish candidate holonhood by label. Recover the current FPF claim first. Acting-agent and organization claims test the `U.System` criterion; data, document, and projected-content claims usually use `U.Episteme`, publication, source-use, evidence, or description patterns; process-holon wording uses work, method, work-plan, or transformation patterns; portal or traversal wording uses an access, crossing, policy, or evidence relation. A.1 recognizes only the exact candidate-side holon or system claim when its criterion is satisfied.
 
-Do not call a Markov blanket a holon boundary, interface, interface module, physical component, statistical separator, or agency proof until the current claim is recovered. If source wording says `Markov blanket`, first decide whether it names accepted local Markov dynamics, a mathematical or probabilistic lens, a holon delimitation or boundary-crossing relation, a physical interface module or component, a functional element, a boundary description or publication, or an agency-threshold claim. Apply the direct governing pattern. A.1 admits only the holon and delimitation claim when those are current.
+A Markov blanket is not a holon boundary by name. First recover whether the source names accepted local Markov dynamics, a mathematical or probabilistic lens, an exact holon-delimitation claim, a physical interface module or component, a functional element, a boundary description, or an agency-threshold claim. Apply the direct governing pattern. A.1 recognizes the exact holon candidate only when its constructive criterion is satisfied; it does not turn the neighboring delimitation claim into holonhood.
 
 #### A.1:4.7 - Collections, Collection-As-Whole, And Acting Collectives
 
 A list, set, batch, fleet, pool, clientele, community, supplier base, or coverage zone does not become a `U.System` by wording.
 
-First recover whether the source claims:
+First recover the current claim: membership under A.14; collection-as-whole constructive grounding under C.13 and B.3.5 when assurance is current; whole-level characteristic under C.16; acting collective recognition under the `U.System` criterion plus A.15.1 work; or whole reidentification under B.2.
 
-- membership only, governed by A.14 relation vocabulary;
-- collection-as-whole constructive grounding, governed by C.13 and B.3.5 where assurance grounding is current;
-- whole-level characteristic, governed by C.16;
-- acting collective system, governed by `U.System` admission plus A.15 and role, method, and work patterns;
-- whole reidentification, governed by B.2.
-
-An acting collective `U.System` needs boundary, coordination, role assignments, capability or method evidence, and work-facing participation. If those are not current, keep the object as a collection or collection-as-whole claim under direct governing patterns.
+An acting collective `U.System` has a boundary, coordination, role assignments, capability or method evidence, and work-facing participation. If those are not current, keep the object as a collection or collection-as-whole claim under direct governing patterns.
 
 #### A.1:4.8 - Constructional Grounding
 
-A.1 names holon admission. It does not replace part-whole grounding.
+A.1 governs constructive holon recognition. It does not replace part-whole grounding or E.24.UK public-kind admission.
 
-Use:
+Use A.14 for relation vocabulary such as component, portion, aspect, phase, member, and part-whole relation; C.13 for constructive grounding such as `Gamma_m.sum`, `Gamma_m.set`, or slice treatment; and B.3.5 for Working-Model assurance grounding when the part-whole claim supports assurance or evidence.
 
-- A.14 for relation vocabulary such as component, portion, aspect, phase, member, and part-whole relation;
-- C.13 for constructive grounding such as `Gamma_m.sum`, `Gamma_m.set`, or slice treatment when the constructional grounding question is current;
-- B.3.5 for Working-Model assurance grounding when the part-whole claim is used for assurance or evidence.
+FPF avoids unrestricted composition. A set of nearby objects, graph, diagram, role bundle, method algebra, or source table does not become a holon merely because it can be described as a whole.
 
-FPF avoids unrestricted composition. A set of nearby objects, a graph, a diagram, a role bundle, a method algebra, or a source table does not become a holon merely because it can be described as a whole.
+#### A.1:4.9 - Slot Filling Does Not Create A Kind
 
-#### A.1:4.9 - Slot Position Does Not Create A Kind
+A system that fills `HolderSystemSlot` of a role-assignment occurrence remains a system. An episteme that participates as the EntityOfConcern in an `EpistemeConstitutionRelation` remains an episteme. A system can participate in a transformation through an exact governed direct relation without becoming the changed holon's super-holon. A holon that participates as the EntityOfConcern of a structure-description episteme remains that holon rather than becoming the description.
 
-A system in a role-assignment holder slot remains a system. An episteme in an EntityOfConcern slot remains an episteme. A holon whose structure is described does not become the description of that structure. A system changing another holon may fill transformation participation slots without becoming that holon's super-holon. A publication, dashboard, model, or digital twin may describe a holon without becoming that holon.
-
-Use the direct governing pattern for the current slot relation before creating a durable name.
+The SlotSpec belongs to the direct relation declaration. Its SlotKind names the local participant slot; its ValueKind constrains admissible fillers. Filling that slot establishes neither a new intrinsic kind for the filler nor a new relation occurrence unless the direct obtaining predicate and identity rule are also satisfied. Use the direct governing pattern before introducing any durable kind name.
 

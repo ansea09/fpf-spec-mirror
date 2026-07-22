@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `d6af871b3e4e47c952d800a2a418c0634f180aaf`
+Commit SHA: `0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4`
 
 Chunking method: `pattern-aware`
 
-Patterns: `288`
+Patterns: `290`
 
 ## Patterns
 
@@ -38,7 +38,7 @@ Patterns: `288`
 - [A.6.C — Contract Unpacking for Boundaries](by_pattern/A.6.C.md)
 - [A.6.REL — Relation Obtaining and Individuated Relation Occurrences](by_pattern/A.6.REL.md)
 - [A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme](by_pattern/A.6.0.md)
-- [A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind](by_pattern/A.6.1.md)
+- [A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration](by_pattern/A.6.1.md)
 - [A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes](by_pattern/A.6.2.md)
 - [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
@@ -47,6 +47,7 @@ Patterns: `288`
 - [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
 - [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
+- [A.6.P.WMR — Exact Relation Recovery for Method and Work Claims](by_pattern/A.6.P.WMR.md)
 - [A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission](by_pattern/A.6.RCD.md)
 - [A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration](by_pattern/A.6.RSIR.md)
 - [A.6.A — Action-Invitation Precision Restoration (ACT-INV)](by_pattern/A.6.A.md)
@@ -70,12 +71,13 @@ Patterns: `288`
 - [A.12 — Acting-Side Externalization and Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
 - [A.14 — Advanced Mereology: Components, Portions, Aspects & Phases](by_pattern/A.14.md)
-- [A.15 — Role–Method–Work Alignment (Contextual Enactment)](by_pattern/A.15.md)
+- [A.15 — Role–Method–Work Alignment](by_pattern/A.15.md)
 - [A.15.1 — U.Work](by_pattern/A.15.1.md)
 - [A.15.2 — U.WorkPlan](by_pattern/A.15.2.md)
 - [A.15.3 — SlotFillingsPlanItem](by_pattern/A.15.3.md)
 - [A.15.4 — Work-Relevant Appearance-Based Reliance Repair](by_pattern/A.15.4.md)
 - [A.15.5 — Work-Entry Readiness and Full-Kit Preparation](by_pattern/A.15.5.md)
+- [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)
 - [A.16.1 — U.PreArticulationCuePack](by_pattern/A.16.1.md)
@@ -138,7 +140,7 @@ Patterns: `288`
 - [C.2.P.DR — Declarative Representation Precision Restoration](by_pattern/C.2.P.DR.md)
 - [C.3 — Kinds, Intent and Extent, and Typed Reasoning](by_pattern/C.3.md)
 - [C.3.1 — U.Kind and U.SubkindOf Core](by_pattern/C.3.1.md)
-- [C.3.2 — KindSignature (+F) & Extension/MemberOf](by_pattern/C.3.2.md)
+- [C.3.2 — Kind Intent, Membership Judgment, and Extension](by_pattern/C.3.2.md)
 - [C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds](by_pattern/C.3.3.md)
 - [C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)](by_pattern/C.3.4.md)
 - [C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)](by_pattern/C.3.5.md)

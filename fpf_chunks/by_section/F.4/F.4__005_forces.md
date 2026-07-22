@@ -6,12 +6,12 @@ section_id: "F.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__005_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:3 — Forces"
-line_start: 86605
-line_end: 86614
+line_start: 87358
+line_end: 87367
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.6.4:5.2"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:5.2 — Common Anti-Patterns and How to Avoid Them"
-line_start: 14614
-line_end: 14622
+line_start: 14689
+line_end: 14697
 dependencies:
   - "A.6.2"
   - "A.6.3"

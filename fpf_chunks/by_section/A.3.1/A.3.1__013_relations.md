@@ -6,29 +6,32 @@ section_id: "A.3.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__013_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:12 — Relations"
-line_start: 7003
-line_end: 7008
+line_start: 7000
+line_end: 7005
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.7"
+  - "A.22"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
   - "A.6.0"
   - "A.6.1"
+  - "A.6.5"
+  - "A.6.REL"
   - "B.1.5"
+  - "C.2.1"
   - "C.2.P.DR"
   - "C.20"
   - "C.29"
@@ -37,18 +40,13 @@ dependencies:
   - "E.18"
   - "E.18.1"
   - "E.20"
+  - "F.9"
   - "G.11"
   - "G.5"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "method"
-  - "method composition"
-  - "method vs method description vs work"
-  - "non-agentive holon"
-  - "submethod"
-  - "way of doing"
 ---
 
 ### A.3.1:12 - Relations

@@ -6,15 +6,16 @@ section_id: "E.10:14"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_conformance-checklist.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:14 — Conformance Checklist"
-line_start: 72460
-line_end: 72474
+line_start: 73097
+line_end: 73112
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
   - "A.2.8"
@@ -23,6 +24,7 @@ dependencies:
   - "A.6.0"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.P.WMR"
   - "A.6.RCD"
   - "A.7"
   - "B.1"
@@ -55,5 +57,6 @@ Use this checklist for the accepted wording span, not for the whole corpus by re
 7. **Final wording closes the local wording-use case.** The result is accepted wording, direct governing-pattern use, controlled precision reduction, quote-only use, reduced-use cue, blocked use, incomplete rewrite, ordinary prose, or not-triggered disposition.
 8. **No umbrella replacement.** The repair does not replace one broad head with another broad head such as `basis`, `support`, `route`, `path`, `status`, `record`, `object`, `role`, `method`, `mechanism`, `flow`, or `structure` without the recovered object and relation.
 9. **Reader use remains visible.** The user can still see what to do next with the project object, relation, source, evidence, publication, method, work, architecture, characteristic, or other EntityOfConcern that made the wording important.
+10. **Work/method boundary words close through a governor.** `input`, `raw material`, `source data`, `source material`, `output`, `result`, `outcome`, `deliverable`, `handoff`, and work-name wording either retain an already exact direct pattern use or return one `A.6.P.WMR` exit. Classification, a generic result relation, method-description filling, or an actual-slot-looking reference is not closure.
 
 

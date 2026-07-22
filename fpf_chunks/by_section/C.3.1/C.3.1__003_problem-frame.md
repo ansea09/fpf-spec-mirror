@@ -6,18 +6,23 @@ section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:1 — Problem Frame"
-line_start: 42958
-line_end: 42961
+line_start: 43851
+line_end: 43854
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,13 +30,15 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:1 - Problem Frame
 
-C.3.1 gives FPF a small object for typed reasoning without importing a full ontology stack. `U.Kind` names a kind of thing in one context. `U.SubkindOf` orders such kinds. This is different from durable FPF U-kind admission. A C.3 `U.Kind` can become part of a U-kind admission question, but it is not admitted merely by being a `U.Kind`.
+FPF needs kind compatibility without making every project category part of its durable ontology. `U.Kind` therefore supplies a local typed-reasoning value under an effective reference scheme, and `U.SubkindOf` orders those values. A `KindSignature` edition can declare how one kind is evaluated, but the declaration episteme is not the kind. Candidate state, a context slice, a declaration edition, and the kind's own continuity can change independently.
 

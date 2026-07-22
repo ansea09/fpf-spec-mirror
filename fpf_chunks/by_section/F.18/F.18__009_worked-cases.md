@@ -6,18 +6,23 @@ section_id: "F.18:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__009_worked-cases.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:7 — Worked Cases"
-line_start: 92063
-line_end: 92171
+line_start: 92838
+line_end: 92952
 dependencies:
+  - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.P"
+  - "C.2.1"
   - "E.10"
+  - "E.10.ARCH"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
@@ -50,12 +55,16 @@ Recovered values:
 - `ShipbuildingMethod` or method family under `A.3.1` and `A.3.2`;
 - `HullAssemblyWork` under work patterns.
 
+Here `HullAssemblyWork` is a work-family label or a label in a plan or assignment episteme. A designator such as `HullAssemblyWork-42@2026-07-15T09:10/11:35` names performed work only when the current record recovers its obtaining performer assignment, enacted method, temporal extent, containing system, affected hull referent, material bindings and resource-use facts, plus an applicable continuity policy when disambiguation is current. A changed hull state, measurement result, evaluation verdict, delivery occurrence, or acceptance verdict remains a separately governed and separately named value.
+
 F.18 settlement:
 
 ```text
 NameCard:
   GovernedValueRef: ShipbuilderRole@ShipyardProductionContext
   GoverningPatternRef: A.2
+  ReferenceScheme: FPFCoreReferenceScheme
+
   TechLabel: ShipbuilderRole
   PlainLabel: shipbuilder role
   RejectedCandidates: ShipbuilderCapability; HullAssemblyWorker; CertifiedShipbuilder
@@ -83,6 +92,8 @@ F.18 settlement:
 NameCard:
   GovernedValueRef: robotics-qualified engineering role expression in MusicalRobotLab_2026
   GoverningPatternRef: A.2.7 plus A.2 and F.4 when a durable role value is declared
+  ReferenceScheme: FPFCoreReferenceScheme
+
   TechLabel: RoboticsEngineerRole only if durable Tech disambiguation is needed
   PlainLabel: engineer-roboticist or robotics engineer
   RejectedCandidates: engineer and roboticist; engineer-roboticist-musician; RobotEngineeringMethod
@@ -143,5 +154,5 @@ Recovered values:
 - deployable module under module-interface patterns;
 - management unit under organizational patterns.
 
-F.18 settlement: choose a Tech label only for the governed value in its bounded context. Use `F.9` bridges for cross-context comparison. Use `F.17` only if a public term row is needed.
+F.18 settlement: choose a Tech label only for the governed value under the declared by-value reference scheme and local sense. Use `F.9` only when cross-context `SenseCell` correspondence is current; a changed reference scheme by itself is handled in the NameCard and establishes no governed-value identity. Use `F.17` only if a public term row is needed.
 

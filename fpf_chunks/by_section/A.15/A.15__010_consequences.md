@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment (Contextual Enactment)"
+pattern_title: "Role–Method–Work Alignment"
 section_id: "A.15:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__010_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment (Contextual Enactment)"
+  - "A.15 — Role–Method–Work Alignment"
   - "A.15:9 — Consequences"
-line_start: 23544
-line_end: 23552
+line_start: 24116
+line_end: 24124
 dependencies:
   - "A.10"
   - "A.12"
@@ -57,7 +57,7 @@ keywords:
 | Benefits | Trade-offs and Mitigations |
 | :--- | :--- |
 | **Unambiguous Communication:** Provides a shared, precise vocabulary for teams to discuss roles, methods, work plans, work occurrences, and results, eliminating the ambiguity of source terms like "process." | **Initial Learning Curve:** Requires teams to learn and internalize the distinctions between the core entities. *Mitigation:* The "Chef" analogy and clear archetypes serve as powerful didactic tools. FPF tooling can guide users with templates. |
-| **End-to-End Traceability:** The framework creates a traceability relation that links each admitted operational event (`U.Work`) back to its role assignment, context, method-description reference, plan when current, and evidence relations or evidence-provenance relations. This is critical for regulated industries and for root-cause analysis. | **Increased Formality:** Requires more explicit modeling than informal approaches. *Mitigation:* This is a strategic investment. The upfront cost of formal modeling is offset by downstream savings in debugging, re-work, and compliance efforts. |
-| **Enables True Modularity:** By separating capability-fit from execution, the framework allows for easier substitution. A `MethodDescription` can be updated without invalidating past `Work` records. A holder can be replaced with another when the replacement holder satisfies the governing capability-fit condition. | - |
-| **Foundation for role-source accountability:** The model makes it possible to state role-bound work rules without making the role or publication act. For example: "Only a holder acting under `AuditorRole` in a `U.RoleAssignment` satisfying the governing role, holder, bounded-context, method, and capability-fit or gate conditions can perform the communicative `ApproveRelease` approval work." | - |
+| **End-to-End Traceability:** The framework links each admitted Work individual to its exact four-participant role assignment and enacted method through obtaining relations; a separate assertion may cite the method-description edition, plan, evidence relation, or evidence-provenance relation needed by the receiving use. This supports root-cause analysis without treating interpretation metadata as work. | **Increased Formality:** Requires more explicit modeling than informal approaches. *Mitigation:* Record only the relations needed by the receiving use; do not materialize the whole alignment when a shorter direct claim suffices. |
+| **Enables True Modularity:** By separating capability-fit from execution, the framework allows for easier substitution. A `MethodDescription` can be updated without changing past Work occurrences; any assertion or record about those occurrences remains a separate episteme and retains whatever edition reference its receiving use requires. A holder can be replaced with another when the replacement holder satisfies the governing capability-fit condition. | - |
+| **Foundation for role-source accountability:** The model makes it possible to state role-bound work rules without making the role or publication act. For example, only a holder acting under `AuditorRole` in a `U.RoleAssignment` with the exact auditor-role taxonomy and effective scheme, and satisfying the governing method and capability-fit or gate conditions, can perform one approval Work occurrence admitted under `U.Work`; its exact speech-act or instituted-effect relation makes the approval claim current, not a label-defined Work subkind. | - |
 

@@ -6,18 +6,23 @@ section_id: "C.3.1:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__013_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:11 — Consequences"
-line_start: 43036
-line_end: 43043
+line_start: 43956
+line_end: 43963
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,17 +30,19 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:11 - Consequences
 
-**Benefits.** Typed compatibility and kind order remain available for everyday reasoning without forcing ontology growth.
+**Benefits.** Local typed compatibility remains small while its consequences for actual candidate judgments are testable.
 
-**Costs.** Users must use the neighboring patterns for intent, membership, bridges, and U-kind admission when those questions become live.
+**Costs.** A declaration change that matters to later classification needs an explicit edition and a separate continuity decision.
 
-**Risks avoided.** C.3.1 avoids false hierarchies, accidental U-kind minting, and dependency relations disguised as subkind relations.
+**Risks avoided.** False hierarchy, silent redefinition, retrospective reinterpretation, table-created membership, and kind/individual substitution are blocked.
 

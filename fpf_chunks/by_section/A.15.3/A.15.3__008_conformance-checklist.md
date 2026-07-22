@@ -6,66 +6,55 @@ section_id: "A.15.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__008_conformance-checklist.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:7 — Conformance Checklist"
-line_start: 24710
-line_end: 24730
+line_start: 25224
+line_end: 25242
 dependencies:
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
-  - "A.20"
-  - "A.21"
+  - "A.6.1"
   - "A.6.5"
-  - "A.6.7"
-  - "B.3"
-  - "C.27.TA"
-  - "E.10.D1"
-  - "E.10.D2"
+  - "A.6.RCD"
+  - "C.2.1"
   - "E.17"
-  - "E.18"
-  - "E.18.1"
-  - "E.19"
-  - "E.20"
-  - "E.24"
-  - "G.11"
-  - "G.6"
-  - "U.RelationSlotDiscipline"
-  - "U.Work"
+  - "E.24.PUB"
   - "U.WorkPlan"
 keywords:
-  - "P2W seam"
-  - "WorkPlanning"
-  - "edition pins"
-  - "guard pins"
-  - "planned baseline"
-  - "planned filler"
-  - "slot-bearing description"
-  - "variance trail"
-  - "Γ_time selector"
+  - "WorkPlan claim content"
+  - "actual-use predicate"
+  - "baseline replay"
+  - "concrete RefKind and policy"
+  - "direct owner"
+  - "edition pin"
+  - "exact declaration member"
+  - "intended-performance designator"
+  - "no actuality by plan"
+  - "open-world omission"
+  - "participant/argument/result meaning"
+  - "positive planned designation"
+  - "semantic cardinality"
 ---
 
 ### A.15.3:7 - Conformance Checklist
 
-| ID | A conforming `SlotFillingsPlanItem`... | Check |
+| ID | Requirement | Practical test |
 | --- | --- | --- |
-| CC-A15.3-01 | is a `U.WorkPlan.PlanItem` with `kind = SlotFillingsPlanItem`. | It contains planned rows, not logs, actuals, or step logic. |
-| CC-A15.3-02 | targets exactly one slot-bearing description. | `target_slot_bearing_description_ref` names a Description episteme with SlotSpecs; multiple targets use multiple PlanItems. |
-| CC-A15.3-03 | keeps mechanism identity outside the PlanItem. | `MechanismDefinitionRef` is not the target unless a governing description wrapper exposes the planned slots. |
-| CC-A15.3-04 | names EntityOfConcern and bounded context. | The baseline says what it is about and where the planned use is bounded. |
-| CC-A15.3-05 | names a time selector or time rule when currentness, latest, reproducibility, or launch preparation matters. | No implicit "latest" controls a reliance-bearing baseline. |
-| CC-A15.3-05a | uses exactly one time selector form when time is required. | Both-present and both-absent time baselines are nonconforming for reliance-bearing use. |
-| CC-A15.3-06 | uses planned-filling rows as the authoritative row source. | Views, cards, and indices are derivable projections only. |
-| CC-A15.3-07 | uses concrete RefKinds for ByRef fillers. | No generic `Ref`, generic `SpecRef`, or untyped placeholder carries the planned filler. |
-| CC-A15.3-08 | preserves target SlotKind meaning. | The PlanItem chooses fillers; it does not redefine SlotKinds. |
-| CC-A15.3-09 | keeps guard-preparation refs separate from gate results. | Later gate passage is recorded under the gate pattern. |
-| CC-A15.3-10 | keeps evidence-reference pins separate from evidence-use. | Later evidence and assurance are governed by A.10, B.3, G.6, or the current evidence pattern. |
-| CC-A15.3-11 | keeps crossing-preparation refs separate from crossing witnesses. | Crossing refs cite expected Bridge, policy, reference-plane, or published-baseline references only; they do not embed `CL`, `Phi`, or `Psi` tables or claim that a crossing occurred. |
-| CC-A15.3-12 | keeps launch values and actuals out of the plan. | Performed work records launch values, substitutions, and variance. |
-| CC-A15.3-13 | preserves cited baselines after work. | A changed plan becomes a new edition or new PlanItem; performed work records variance against the cited baseline. |
-| CC-A15.3-14 | gives lowering and refresh conditions. | Missing target description, exposed SlotKind set, context, time, RefKind, edition pin, guard ref, evidence pin, crossing-policy ref, or variance relation lowers or reopens the claim. |
-| CC-A15.3-15 | may be cited by `A.15.5` but does not decide readiness. | Readiness-preparation refs and planned fillers can be cited by `WorkEntryReadiness@Context`; the readiness relation is governed by `A.15.5`. |
+| CC-A15.3-01 | The item is declaration-local WorkPlan content, not a U-kind, record, or relation occurrence. | Its designator resolves inside one exact WorkPlan edition; no independent PlanItem identity rule or row authority is claimed. |
+| CC-A15.3-02 | The enclosing WorkPlan retains one already identified present EntityOfConcern, while the item names an intended-performance designator. | No possible future performance is treated as an existing entity, reference target, or dated Work merely because it is planned. |
+| CC-A15.3-03 | Every row targets one exact declaration edition and member with one direct owner of the reusable member meaning and corresponding actual-use predicate. | Declaration ref, member designator, family, direct-owner pattern, and predicate route are recoverable; A.15.3 owns only the intended-use claim. |
+| CC-A15.3-04 | Relation-participant rows target only A.6.5 SlotSpecs inside exact RelationSignatures. | A method description, schema field, plan field, or operation argument is never called a SlotSpec. |
+| CC-A15.3-05 | Operation rows target exact A.6.1 ArgumentDeclarations or ResultDeclarations. | Mechanism edition, operation designator, member designator, binding rule, predicate, and cardinality resolve together. |
+| CC-A15.3-06 | Any other target has an explicit direct declaration owner. | Missing reusable meaning, corresponding actual-use predicate, or owner yields a blocker rather than a generic target. |
+| CC-A15.3-07 | Planned value or designation follows the target member's ValueKind, designation rule, and semantic cardinality. | For a single-valued target, exact conditions and a resolution rule make at most one planned value effective; multivalued and ordering semantics come only from the target declaration, not row count or layout. |
+| CC-A15.3-08 | The row is a positive intended-use claim. | Omission is open-world; prohibition, exclusion, required absence, and completeness are separate governed plan claims rather than empty or negated fillers. |
+| CC-A15.3-09 | Planned filling remains planned. | No row establishes dated work, direct-relation obtaining, operation application, argument binding, returned result, change, production, delivery, acceptance, or outcome. |
+| CC-A15.3-10 | Plan revision follows C.2.1 WorkPlan identity. | Changing identity-bearing row content identifies the resulting plan episteme edition; no standalone PlanItem edition ontology is invented. |
+| CC-A15.3-11 | Later actual facts keep direct governors. | Work, relation participants, and A.6.1 bindings are independently identified rather than inferred from a plan row. |
+| CC-A15.3-12 | Later comparison preserves the cited baseline and truthful polarity. | Substitution or variance is a neighboring governed claim; missing-filler or negative results require an applicable closure or negative criterion rather than absent records. |
+| CC-A15.3-13 | Edition, reference, and policy pins are use-driven and concrete. | No implicit “latest,” generic RefKind, generic PolicyRef, publication face, or incompatible duplicate pin controls a reliance-bearing row. |
+| CC-A15.3-14 | Conditions and projections stop at their direct owners. | Time, location, readiness, evidence, gate, bridge, publication, and comparison claims are cited rather than absorbed; cards and views add no rows or semantics. |
 

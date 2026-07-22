@@ -1,69 +1,66 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.1"
-pattern_title: "U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+pattern_title: "U.Mechanism - Reusable Law-Governed Operation Declaration"
 section_id: "A.6.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__010_consequences.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "A.6.1 — U.Mechanism - Law-governed application to a SubjectKind over a RangedValueKind"
+  - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:9 — Consequences"
-line_start: 11528
-line_end: 11546
+line_start: 11599
+line_end: 11615
 dependencies:
+  - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
   - "A.2.6"
-  - "A.20"
-  - "A.21"
+  - "A.22"
+  - "A.22.CGUS"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
-  - "B.3"
-  - "C.16"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.29"
+  - "C.3"
   - "E.10"
   - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.18"
   - "E.20"
+  - "E.24.PUB"
   - "F.18"
-  - "U.BoundedContext"
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Signature"
-  - "U.Work"
-  - "U.WorkPlan"
+  - "F.9"
+  - "G.11"
 keywords:
   - "AdmissibilityConditions"
-  - "Bridge‑only"
   - "LawSet"
-  - "Mechanism"
   - "OperationAlgebra"
-  - "Transport"
+  - "U.Mechanism"
+  - "application binding"
+  - "operation application"
+  - "operation declaration"
+  - "realization"
 ---
 
 ### A.6.1:9 - Consequences
 
-| Benefit | Cost or caution |
-| --- | --- |
-| Mechanism families share one kernel declaration shape. | Teams must name slots, laws, guards, and transport policy explicitly. |
-| Reuse becomes auditable across contexts and planes. | Bridge and Reliability penalty relations cannot be skipped for convenience. |
-| Realizations can vary without relaxing laws. | Implementations must be checked against signature and imported-law opacity. |
-| Method, mechanism, work, evidence, and gate claims stay separated. | Source labels often need `E.10.ARCH` recovery before typed assignment. |
-| Comparison and normalization mechanisms stop hiding scale-incompatible arithmetic. | Some familiar single-score practices become inadmissible until a scorer is declared. |
+**Benefits.**
 
-#### A.6.1:9.1 - Quick use cards
+- Mechanism declarations can remain stable while realizers and work change.
+- Physical, clinical, manufacturing, epistemic, and software cases use one declaration discipline without one domain becoming the default ontology.
+- Admission, evaluation, and evidence claims become independently inspectable.
+- Independently governed cross-reference-scheme, cross-`CHR:ReferencePlane`, and cross-model-use comparisons expose preserved and lost meaning without one generic transport relation.
+- A reader can stop at a direct sentence when durable mechanism identity has no receiving use.
 
-* **Mechanism = operation algebra plus laws.** Add guards, transport, time, plane, audit, and realization discipline.
-* **Method is not mechanism.** A method can use or fill a mechanism slot; it does not become the mechanism by name.
-* **Guards fail closed.** Unknown guard results become `degrade` or `abstain`.
-* **Transport is Bridge-only.** Crossings need Bridge, ReferencePlane, and Reliability penalty relation.
-* **SlotKinds travel.** Positional parameters do not replace SlotSpecs.
-* **Realizations tighten.** A realization may specialize but not relax mechanism laws.
+**Costs and trade-offs.**
+
+- Authors recover the declared subject, effective reference scheme, and exact applicability rather than relying on one context label.
+- A realization claim may need a separate relation and evidence-use statement.
+- Mechanism comparison may require explicit mappings among operation argument and result declarations and a C.29 lens.
+- Some familiar single-score or implicit-latest practices become unusable until their scale, scorer, or time policy is stated.
 

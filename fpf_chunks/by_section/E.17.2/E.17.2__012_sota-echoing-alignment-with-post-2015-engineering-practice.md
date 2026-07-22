@@ -6,12 +6,12 @@ section_id: "E.17.2:7.2"
 section_title: "SoTA-Echoing - Alignment with post-2015 engineering practice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__012_sota-echoing-alignment-with-post-2015-engineering-practice.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:7.2 — SoTA-Echoing - Alignment with post-2015 engineering practice"
-line_start: 77153
-line_end: 77169
+line_start: 77801
+line_end: 77817
 dependencies:
   - "A.1"
   - "A.15"

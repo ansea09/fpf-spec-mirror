@@ -6,15 +6,16 @@ section_id: "E.10:19"
 section_title: "E.10 regression cues (concept-only “diff” triggers)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__021_e-10-regression-cues-concept-only-diff-triggers.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:19 — E.10 regression cues (concept-only “diff” triggers)"
-line_start: 72520
-line_end: 72537
+line_start: 73158
+line_end: 73175
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
   - "A.2.8"
@@ -23,6 +24,7 @@ dependencies:
   - "A.6.0"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.P.WMR"
   - "A.6.RCD"
   - "A.7"
   - "B.1"
@@ -53,10 +55,10 @@ Re-review your prose when any of these happen:
 * **Recipes gain or lose steps** → update **`MethodDescription`**, not service labels or `Role` names.
 * **Evidence verbs creep into actor sentences** → re-apply L-rules (documents do not act).
 * **A generic head or support-headed compound acquires FPF-governed claim or admissible use** (`comparative`, `safe`, `interactive`, `reliable`, `support`, `supported`, `supporting`, `support-looking`, and similar modifiers or heads) → restore the head kind first, then unpack the qualifier claim or support-like interpretation before broader publication.
-* **Method, practice, technique, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control-strategy, method-algebra, method-graph, or selector-calculus wording changes** -> recover the slot or method-side relation before rewriting: `U.Method`, `MethodRelationStructure@BoundedContext`, `U.MethodDescription`, formal-substrate declaration, mathematical-lens use, `U.Mechanism`, `U.WorkPlan`, dated `U.Work`, role assignment or role relation, bounded context, discipline or cultural-evolution source label, method-family registry or selector outcome, evidence relation, or quote-only source wording. Do not replace one umbrella with another.
+* **Method, practice, technique, algorithm, program, proof, solver, workflow, process, procedure, access path, query plan, control-strategy, method-algebra, method-graph, or selector-calculus wording changes** -> recover the slot or method-side relation before rewriting: `U.Method`, `MethodRelationStructure@BoundedContext`, `U.MethodDescription`, formal-substrate declaration, mathematical-lens use, `U.Mechanism`, `U.WorkPlan`, one dated Work occurrence admitted under `U.Work`, a separate episteme about it, role assignment or role relation, bounded context, discipline or cultural-evolution source label, method-family registry or selector outcome, evidence relation, or quote-only source wording. Do not replace one umbrella with another.
 * **A declarative representation starts to sound imperative** (graph path, path slice, evidence-path wording, query, predicate, table, dashboard, publication face, mathematical representation, method-description representation, source-chain relation, carrier path, or FPF pattern relation "runs", "routes", "calls", "dispatches", "authorizes", or "flows" without a recovered kind) → apply `C.2.P.DR` or the direct governing pattern such as `E.18`, `A.10`, `A.19.SPR`, `E.17`, `C.29`, `A.3.1`, `A.3.2`, `A.15.2`, `A.15.1`, `E.8`, or `F.19`.
 * **New token minted** → ensure `LEX.TokenClass` declared; perform collision checks; add CharacteristicSpace if enum.
 * **Suffix drift** (e.g., `…Work` on a plan) → fix via **LEX.Morph**.
 * **Cross-Context reuse by label** appears -> use a **Bridge** (F.9) or split senses.
-* **A guarded head needs a new label** → prefer a guarded-head note first; if no admissible existing token remains for one durable reusable name, handle the naming question with full **F.18 `MintNew` or `DocumentLegacy`**.
+* **A guarded head needs a new label** → prefer a guarded-head note first; if no admissible existing token remains for one durable reusable name, settle the governed value, record the applicable **F.8** decision, and use **F.18** plus an **F.17** row when public publication is current.
 

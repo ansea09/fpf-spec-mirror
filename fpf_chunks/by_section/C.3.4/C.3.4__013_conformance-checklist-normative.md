@@ -6,34 +6,38 @@ section_id: "C.3.4:12"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__013_conformance-checklist-normative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:12 — Conformance Checklist (normative)"
-line_start: 43704
-line_end: 43718
+line_start: 44596
+line_end: 44610
 dependencies:
+  - "C.2.1"
   - "C.3.1"
   - "C.3.2"
+  - "C.3.3"
+  - "C.3.A"
 keywords:
-  - "RoleMask"
-  - "constraints"
-  - "context-local adaptation"
-  - "subkind promotion"
+  - "RoleMask declaration episteme"
+  - "candidate-feature constraint"
+  - "masked judgment"
+  - "stable-refinement review"
+  - "vocabulary binding"
 ---
 
 ### C.3.4:12 - Conformance Checklist (normative)
 
-| ID        | Requirement                                                                                                                                                |
-| --------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **RM‑01** | RoleMask **SHALL** be a named, versioned record with intent, constraints, bindings, membership definition (if any), and intended guard use.                |
-| **RM‑02** | RoleMask **MUST NOT** introduce a new `U.Kind`; stable refinements **SHALL** be modeled as subkinds (`⊑`).                                                 |
-| **RM‑03** | Mask membership (when defined) **MUST** be deterministic given `slice` and mask fields; implicit “latest” forbidden.                                       |
-| **RM‑04** | Mask **SHALL** declare its type: constraint / vocabulary / composite; vocabulary masks **MUST NOT** change membership.                                     |
-| **RM‑05** | Context conditions **SHALL** be enforced via **USM Scope** guards; membership narrowing **MAY** use entity predicates only.                                |
-| **RM‑06** | Guards **MAY** reference a mask only if it is **registered, versioned**, and its constraints are **observable**; mask names **MUST NOT** be kind synonyms. |
-| **RM‑07** | Frequently reused constraint masks **SHOULD** be **promoted** to subkinds; editors **SHALL** track promotions.                                             |
-| **RM‑08** | Contexts **SHALL** catalog masks; redundant masks **SHOULD** be consolidated.                                                                                 |
-| **RM‑09** | Cross‑context masked use **SHALL** declare a **KindBridge** (`CL^k`) and any **MaskAdapter**; penalties **MUST** reduce **R** only.                            |
-| **RM‑10** | Mask definedness **SHALL** be stated; guards **fail closed** outside the defined area.                                                                     |
+| ID | Requirement |
+| --- | --- |
+| **RM-01** | RoleMask is a C.2.1 declaration episteme with exact base kind, pinned `KindSignature` edition, declaration edition, intended use, constraint/binding content, definedness, and its own formality when current. |
+| **RM-02** | It creates no new kind or `U.SubkindOf` relation; any stable refinement is independently identified and governed by C.3.1. |
+| **RM-03** | `J_mask(candidate, kind, kindSignatureEdition, roleMaskEdition, slice)` is reproducible and returns `true`, `false`, or `unknown`; guard refusal is separate. |
+| **RM-04** | Vocabulary masks preserve the base judgment; constraint/composite masks use only direct candidate-feature predicates and apply false-if-any-false, true-if-all-true, otherwise-unknown conjunction. |
+| **RM-05** | Context conditions remain USM Scope predicates and are not folded into classification. |
+| **RM-06** | A guard designates exact declaration editions, evaluates the exact candidate, and does not treat a mask name as a kind synonym. |
+| **RM-07** | Broad stable reuse triggers review for a separately identified local kind and an obtaining subkind relation; a declaration or catalog row does not perform promotion. |
+| **RM-08** | Every guard-addressable RoleMask resolves durably to its exact declaration and dependency editions; an optional catalog represents those references and may consolidate redundant declarations without becoming ontology. |
+| **RM-09** | Cross-context use establishes the exact KindBridge relation, target declarations, and any separate MaskAdapter episteme before evaluating the target masked judgment. |
+| **RM-10** | RoleMask non-settlement yields target `unknown`; MaskAdapter non-settlement blocks the cross-context use without rewriting an independent target masked judgment; fail-closed is never `false`. |
 

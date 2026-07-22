@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist (CC‑A.6.P)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__009_conformance-checklist-cc-a-6-p.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline"
   - "A.6.P:7 — Conformance Checklist (CC‑A.6.P)"
-line_start: 15299
-line_end: 15356
+line_start: 15387
+line_end: 15446
 dependencies:
   - "A.10"
   - "A.2.4"
@@ -25,6 +25,7 @@ dependencies:
   - "A.6.A"
   - "A.6.B"
   - "A.6.H"
+  - "A.6.P.WMR"
   - "A.6.S"
   - "A.7"
   - "C.16.Q"
@@ -63,9 +64,9 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 1. **CC‑A.6.P‑1 — Lens is explicit.**
    P SHALL name the stable lens used to stabilise the ambiguity cluster and justify its fit.
 
-2. **CC‑A.6.P‑2 — RelationKind is explicit and named through admissible mint-or-reuse.**
-   Every in‑scope relation claim SHALL name an explicit RelationKind token, and that token SHALL resolve to a vocabulary entry whose relation specification skeleton publishes (at minimum): polarity (and explicit inverses if needed), participant SlotSpecs `⟨SlotKind, ValueKind, refMode⟩`, qualifier requirements, witness expectations for decision or publication use, admissible semantic change classes, and (when applicable) cross-Context or cross-plane policy (Bridge + CL + loss notes). Claims classified under A.6.B SHALL respect A.6.B.
-   When a suitable token does not already exist, authors SHALL mint or document it through **F.18** rather than inventing a one-off label by intuition: **MintNew** is the default, the seed candidate set and NQD-front SHALL be shown, and the final token SHALL be selected from that non-dominated front unless an explicit continuity exception is recorded.
+2. **CC‑A.6.P‑2 — Direct RelationKind is explicit, admitted, then named.**
+   Every in-scope direct subject-relation claim that the specialization returns as positive or governed negative SHALL name an explicit admitted RelationKind token, and that token SHALL resolve to a vocabulary entry whose relation specification skeleton publishes (at minimum): polarity (and explicit inverses if needed), participant SlotSpecs `⟨SlotKind, ValueKind, refMode⟩`, qualifier requirements, witness expectations for decision or publication use, admissible semantic change classes, and (when applicable) cross-Context or cross-plane policy (Bridge + CL + loss notes). Claims classified under A.6.B SHALL respect A.6.B. An exact `A.6.1` operation-application binding, local `A.15.PROD`/`A.6.RCD` claim, or non-assertability result remains under its direct owner and is not made a RelationKind token or occurrence by this checklist.
+   When a suitable token does not already exist, authors SHALL first settle the governed relation value and any required kind admission, then record the applicable **F.8** decision. `nameDirectPatternValue` is admissible only for that settled value; otherwise keep a local phrase or alias, or return `blockOrLowerUse`. A durable selected name SHALL use **F.18** candidate comparison and lineage, and a public, Core-facing, durable, or cross-context term SHALL also publish the corresponding **F.17** row. Neither a NameCard nor a term row admits the relation kind or an occurrence.
    The relation specification skeleton SHALL also declare admissible **repair options for endpoint kind mismatches** (KindBridge / explicit narrowing / explicit retargeting) and enforce **qualifier placement discipline** (no adjective smuggling).
 
 3. **CC‑A.6.P‑3 — Slot‑explicit instances.**
@@ -111,4 +112,6 @@ A pattern P conforms to A.6.P (i.e., is an RPR‑pattern) iff:
 
 15. **CC‑A.6.P‑15 — Trigger rule is explicit.**
     P SHALL include an explicit trigger rule (or selection heuristic) stating when the repair case applies and what counts as “in-scope” umbrella relational prose.
+
+16. **CC‑A.6.P‑16 — Neighbor exit.** The repaired claim leaves A.6.P through one exact governing exit named in A.6.P:4.11. `A.6.RCD` is used only when exact participants are recovered and no current direct relation closes the named receiving claim.
 

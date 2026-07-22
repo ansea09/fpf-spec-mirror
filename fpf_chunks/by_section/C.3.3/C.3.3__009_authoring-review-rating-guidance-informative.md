@@ -6,31 +6,35 @@ section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 43401
-line_end: 43425
+line_start: 44342
+line_end: 44366
 dependencies:
   - "A.2.6"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.2.2"
   - "C.3.1"
   - "C.3.2"
+  - "F.9"
 keywords:
   - "CL^k"
-  - "KindBridge"
+  - "KindBridge direct relation"
   - "R penalty"
-  - "cross-context mapping"
-  - "type-congruence"
+  - "bridge assertion episteme"
+  - "loss"
+  - "target judgment"
 ---
 
 ### C.3.3:8 - Authoring, Review & Rating Guidance (informative)
 
-#### C.3.3:8.1 - Authoring a KindBridge
+#### C.3.3:8.1 - Authoring a KindBridge assertion
 
 * **Start narrow & honest.** Declare only the kinds and `⊑` links you **actually preserve**; mark the rest **unknown**.
-* **Prefer named targets.** If the target already has a suitable kind, map to it; use **signature translation** only when necessary, and list what is preserved, relaxed, or dropped.
+* **Prefer independently identified target kinds.** If the target already has a suitable kind and declaration edition, relate that kind directly. If a new target declaration is required, author it separately before asserting bridge obtaining; list what the mapping predicate preserves, relaxes, or drops.
 * **Write loss notes in plain language.** Example: “EV vs ICE subkinds collapsed; battery‑health invariants dropped.”
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
 * **Assign `CL^k` from exemplars.** Calibrate on concrete counter‑examples and preserved properties; resist optimistic ratings.

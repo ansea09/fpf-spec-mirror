@@ -6,18 +6,23 @@ section_id: "C.3.1:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__010_bias-annotation.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:8 — Bias-Annotation"
-line_start: 43014
-line_end: 43017
+line_start: 43927
+line_end: 43930
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.REL"
   - "A.8"
+  - "C.2.1"
   - "C.2.3"
+  - "C.29"
   - "C.3"
   - "C.3.2"
   - "C.3.3"
@@ -25,13 +30,15 @@ dependencies:
   - "F.5"
   - "F.8"
 keywords:
-  - "kind"
+  - "U.SubkindOf direct relation"
+  - "assertion episteme"
+  - "local kind"
   - "partial order"
-  - "subkind"
-  - "type hierarchy"
+  - "relation occurrence"
+  - "relation-obtaining predicate"
 ---
 
 ### C.3.1:8 - Bias-Annotation
 
-C.3.1 prevents subkind bias: using one familiar hierarchy relation as a universal relation for dependency, composition, construction, slot filling, role assignment, public naming, or ontology admission. It also prevents public-name bias: assuming a `U.*` spelling follows from a local kind value.
+C.3.1 counters hierarchy bias, assertion-as-world bias, label continuity bias, and table-repair bias. A stronger-looking relation is not automatically an obtaining `U.SubkindOf` occurrence; an edge, predicate expression, or affirmative assertion does not make it obtain; same spelling or higher formality does not settle kind identity; and an extension table is an output representation, not the place to repair a contradictory order.
 

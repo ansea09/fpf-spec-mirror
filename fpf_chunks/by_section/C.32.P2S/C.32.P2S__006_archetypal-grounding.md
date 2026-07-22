@@ -6,21 +6,24 @@ section_id: "C.32.P2S:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__006_archetypal-grounding.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:5 — Archetypal Grounding"
-line_start: 62537
-line_end: 62550
+line_start: 63178
+line_end: 63193
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
+  - "A.6.RCD"
   - "B.2"
   - "C.11"
   - "C.16"
@@ -60,16 +63,20 @@ keywords:
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
   - "candidate structures"
+  - "exact domain work"
   - "expected structures"
   - "governing-pattern-specific return"
+  - "independently grounded actual changes"
+  - "no-automatic-composition"
   - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
+  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:5 - Archetypal Grounding
 
-**Tell.** A capable architect does not merely "document the architecture." The architect transforms pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling work that realizes the structures, and watching whether the actual holon has the intended architecture under operation.
+**Tell.** A capable architect does not merely "document the architecture." The architect carries pressure into structure: first by finding which selected structures are missing or inadequate, then by constructing alternatives, deciding what will be pursued, enabling exact domain work, and watching which subject-side structures actually obtain under operation. An actual transformation is introduced only when its own `A.3.4` basis is grounded.
 
 **First-minute use slice.** A plant architect sees that expected throughput and actual throughput diverge after a layout change. The first P2S card pass names the production cell as described holon, the operating shift as bounded context, pressure kind `actualStructureDivergesFromExpectedStructure`, first governing pattern `C.30`, unknown structure `material-flow bottleneck bearer`, selected structure candidate `buffer placement`, and governing pattern for the next claim `C.32`. The card does not yet add a PAD decision, work plan, or eval result; those refs appear only after their governing patterns become current.
 
@@ -80,4 +87,6 @@ keywords:
 **Show B - organization and role/method structures.** Inspection work catches ontological errors late. The source may call the object a review practice, but P2S first restores the claim: the described holon is the review organization-as-system or bounded review-work context; the adjacent governed structures include role relation structure, method relation structure, method descriptions, evidence handoffs, decision records, and live attention cues. Architecture characteristics include error containment, learnability, throughput, evidence reuse, and repair locality. Candidate synthesis compares a single checker role assignment, a split intake and ontology-checking role relation structure, and a live-beat microstep method relation structure. The project architecture decision binds those selected structures to method descriptions and readiness checks. Later inspection work and telemetry show whether errors are caught earlier or whether the selected method-side or role-side structures need repair.
 
 **Show C - transformer and transformed co-synthesis.** A team wants a modular product architecture but its toolchain, team communication, release method, and evidence workflow only support one tightly coupled build. P2S uses `C.32.CONWAY`: transformer-side structures and transformed-side product structures are both candidate variables. Candidate families include changing the product modules only, changing the team and toolchain only, changing both, or accepting a bounded mismatch while retaining a named correspondence-frame return condition. The decision states which side changes now, what architecture characteristics are protected, what work realizes the change, and what operation or delivery feedback can return to the `C.32.CONWAY` correspondence frame or to decision repair.
+
+**Show D - PumpSkid 7 realization and return.** Architecture pressure calls for a modular pump-skid with selected module and placement structures; `C.32.PAD` governs the project architecture decision. Exact assembly work `W-PS7-ASSEMBLY` and later commissioning work `W-PS7-COMMISSION` are separate Work occurrences admitted under `U.Work` by `A.15.1`. Mounting change `T-PS7-MOUNT`, wiring change `T-PS7-WIRE`, fluid-connection change `T-PS7-CONNECT`, and commissioning-related change `T-PS7-COMMISSION` are each independently identified under `A.3.4`, with exact work-to-change governors where the assembly or commissioning work is asserted to cause them. Shared work, temporal adjacency, and one selected pump-skid configuration do not establish one composite transformation. The local `A.15.PROD` entity-identity-inception claim uses the applicable PumpSkid 7 identity-specification edition, its direct applicability basis, exact work-to-change and change-to-identity facts, and `inceptionBoundary`; it need not assert a composite transformation. Later commissioning can remain production work until exact subject-state facts at `completionBoundary` satisfy the applicable production-completion-criterion edition; only then can a separate historically indexed completion claim be written. A later `C.30.AD` or `C.30.ASV` record describes the actual structure; `C.32.ACE` evaluates service-access coupling. When coupling is worse than the selected expectation, the eval result returns to decision repair or new synthesis. Neither the description, evaluation, identity-inception claim, completion claim, nor shared assembly work proves conformance to the selected architecture or transformation composition.
 

@@ -3,30 +3,38 @@ chunk_kind: "child"
 pattern_id: "C.3.5"
 pattern_title: "KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
 section_id: "C.3.5:8"
-section_title: "Integration Notes (informative)"
+section_title: "Integration notes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__009_integration-notes-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
-  - "C.3.5:8 — Integration Notes (informative)"
-line_start: 43857
-line_end: 43864
+  - "C.3.5:8 — Integration notes (informative)"
+line_start: 44745
+line_end: 44752
 dependencies:
+  - "A.2.6"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
+  - "C.3.4"
+  - "C.3.A"
 keywords:
   - "K0-K3"
   - "KindAT"
-  - "abstraction tier"
-  - "informative facet"
-  - "planning"
+  - "assurance planning"
+  - "declaration planning"
+  - "editorial facet"
 ---
 
-### C.3.5:8 - Integration Notes (informative)
+### C.3.5:8 - Integration notes (informative)
 
-* **With C.3.1/3.2 (Kinds, Signature, Extension).** AT guides *how* to evolve signature **F** and *what* R coverage is sensible; it **does not** change membership semantics.
-* **With C.3.3 (KindBridge).** AT hints at likely **bridge style** (instance‑map / pattern‑map / type‑map / up‑to‑iso), but **`CL^k`** is still computed from signature/order preservation; penalties route to **R**.
-* **With C.3.4 (RoleMask).** Persistent K1‑style masks often warrant **promotion to K2 subkinds**.
-* **With A.2.6 (USM).** All scope decisions remain under **G**. AT text should never be used to infer coverage.
-* **With C.2.3 (F).** AT does not raise/lower **F**; it **suggests** where raising F is cost‑effective.
+- **C.3.1/C.3.2.** KindAT may guide work on the signature declaration and assurance plan; it changes neither kind continuity nor the four-input judgment.
+- **C.3.3.** KindAT may suggest what preservation evidence to seek. The bridge assertion, not the tag, carries `CL^k`, loss, evidence, and admitted use.
+- **C.3.4.** Repeated mask use is a review cue only. A new local kind and any `U.SubkindOf` relation are established independently.
+- **A.2.6.** Scope remains G on the claim or Work use. KindAT never supplies coverage.
+- **C.2.3.** The relevant declaration or claim episteme owns F. KindAT can motivate investment but cannot assign the value.
 

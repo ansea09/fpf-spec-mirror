@@ -6,43 +6,37 @@ section_id: "C.3.4:10"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__011_worked-examples-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:10 — Worked Examples (informative)"
-line_start: 43659
-line_end: 43682
+line_start: 44561
+line_end: 44574
 dependencies:
+  - "C.2.1"
   - "C.3.1"
   - "C.3.2"
+  - "C.3.3"
+  - "C.3.A"
 keywords:
-  - "RoleMask"
-  - "constraints"
-  - "context-local adaptation"
-  - "subkind promotion"
+  - "RoleMask declaration episteme"
+  - "candidate-feature constraint"
+  - "masked judgment"
+  - "stable-refinement review"
+  - "vocabulary binding"
 ---
 
 ### C.3.4:10 - Worked Examples (informative)
 
-#### C.3.4:10.1 - `Vehicle@ABSOnly` (constraint mask)
+#### C.3.4:10.1 - `Vehicle@ABSOnly` constraint use
 
-**Kind.** `Vehicle` (K2, signature F4).
-**Mask.** `Vehicle@ABSOnly` — entity‑level predicate `hasABS(x)=true`; type **constraint**.
-**Guards.** `MemberOf(–, Vehicle@ABSOnly, TargetSlice)` defined & deterministic; **Scope** (surface/speed/rig/Γ\_time) checked separately.
-**Promotion?** If ABS‑only becomes a conceptual category, publish `VehicleWithABS ⊑ Vehicle` and retire the mask.
+The `RoleMask` declaration episteme designates `Vehicle`, pins its `KindSignature` edition, and adds the direct candidate-feature predicate `hasABS(candidate)=true`. For an exact vehicle and TargetSlice, evaluate `J_mask(vehicle, Vehicle, vehicleEdition, absMaskEdition, TargetSlice)`. Surface, speed, rig, and time remain Scope predicates. Missing ABS evidence gives `unknown`; a guard may decline use. If ABS becomes a stable conceptual distinction, identify local kind `VehicleWithABS` and establish an obtaining `U.SubkindOf` relation separately.
 
-#### C.3.4:10.2 - `AuthenticatedRequest@Frontend` (vocabulary mask)
+#### C.3.4:10.2 - `AuthenticatedRequest@Frontend` vocabulary use
 
-**Kind.** `AuthenticatedRequest` defined by `AuthStandard v2.3`.
-**Mask.** `@Frontend` binds `authHeader → X‑Auth` (aliases only); **no** narrowing; type **vocabulary**.
-**Cross‑context.** If reused in another Context, require **KindBridge** for the kind; **no** MaskAdapter needed (aliases are local).
-**R.** Only scope bridge penalties apply (if any).
+The RoleMask declaration binds `authHeader` to local spelling `X-Auth` and adds no candidate criterion. The masked judgment therefore equals the base `J(request, AuthenticatedRequest, authEdition, slice)`. Another spelling, row, or field does not classify the request. Cross-context kind use still requires the exact KindBridge relation; local aliases alone require no MaskAdapter unless their correspondence is relied on across contexts.
 
-#### C.3.4:10.3 - `AdultPatient@Clinic` (composite mask) across jurisdictions
+#### C.3.4:10.3 - `AdultPatient@Clinic` composite use
 
-**Kind.** `AdultPatient` (≥ 18 at `Γ_time`).
-**Mask.** `@Clinic`: entity constraint “DOB present”; context hint “EHR system = X” (this part belongs with Scope). Type **composite**.
-**Cross‑context.** Jurisdiction Y uses ≥ 21 → **KindBridge** with `CL^k=1`; **MaskAdapter** maps DOB fields.
-**Guards.** Scope bridge (coding system) + KindBridge + MaskAdapter; penalties **Ψ(1)** (kind) + **Φ(CL)** (scope) to **R**.
-**Outcome.** Allowed with reduced R; consider target‑side subkind `AdultPerson_Y`.
+The declaration pins the base adult-patient signature edition and adds the direct candidate-feature criterion `ageAt(patient, slice) >= 21`; `EHR system = X` remains Scope. A date-of-birth record may support the age claim, but record availability is not the patient feature or the mask criterion. In Jurisdiction Y, establish the KindBridge relation to the target kind, use a target RoleMask edition, and use a MaskAdapter declaration only for a changed age threshold or interpretation. Evaluate the exact target `J_mask`. An unavailable date-of-birth dependency yields `unknown`; the guard declines use separately and R receives only the justified bridge penalties.
 

@@ -6,12 +6,12 @@ section_id: "F.9.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__006_archetypal-grounding.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:5 — Archetypal Grounding"
-line_start: 88835
-line_end: 88841
+line_start: 89588
+line_end: 89594
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

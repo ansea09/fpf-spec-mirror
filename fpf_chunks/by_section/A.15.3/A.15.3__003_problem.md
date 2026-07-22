@@ -6,56 +6,46 @@ section_id: "A.15.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__003_problem.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:2 — Problem"
-line_start: 24449
-line_end: 24459
+line_start: 25067
+line_end: 25076
 dependencies:
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
-  - "A.20"
-  - "A.21"
+  - "A.6.1"
   - "A.6.5"
-  - "A.6.7"
-  - "B.3"
-  - "C.27.TA"
-  - "E.10.D1"
-  - "E.10.D2"
+  - "A.6.RCD"
+  - "C.2.1"
   - "E.17"
-  - "E.18"
-  - "E.18.1"
-  - "E.19"
-  - "E.20"
-  - "E.24"
-  - "G.11"
-  - "G.6"
-  - "U.RelationSlotDiscipline"
-  - "U.Work"
+  - "E.24.PUB"
   - "U.WorkPlan"
 keywords:
-  - "P2W seam"
-  - "WorkPlanning"
-  - "edition pins"
-  - "guard pins"
-  - "planned baseline"
-  - "planned filler"
-  - "slot-bearing description"
-  - "variance trail"
-  - "Γ_time selector"
+  - "WorkPlan claim content"
+  - "actual-use predicate"
+  - "baseline replay"
+  - "concrete RefKind and policy"
+  - "direct owner"
+  - "edition pin"
+  - "exact declaration member"
+  - "intended-performance designator"
+  - "no actuality by plan"
+  - "open-world omission"
+  - "participant/argument/result meaning"
+  - "positive planned designation"
+  - "semantic cardinality"
 ---
 
 ### A.15.3:2 - Problem
 
-Without an explicit `SlotFillingsPlanItem`, six failures recur:
+Without this boundary, five failures recur:
 
-1. **Plan and performed-work blur.** Planned fillers get treated as launch values or run-time actuals.
-2. **Slot drift.** A SlotKind's meaning changes because the target description edition changed, but the plan still reads as if it meant the old description.
-3. **Implicit latest.** Source text says "use latest" or "current best" without a time selector or pinned edition.
-4. **View becomes authority.** A card, dashboard, or generated view becomes the de facto place where planned rows live.
-5. **Mechanism prose hides planning.** Suite or mechanism text quietly carries chosen fillers even though those choices vary by plan instance.
-6. **Variance disappears.** After work happens, the plan is edited to match the performed work, erasing the gap that audit or improvement needs.
+1. **Generic slot creation.** Any description field named input, output, role, result, or parameter is treated as a SlotSpec.
+2. **Declaration-family collapse.** RelationSignature SlotSpecs and operation arguments or results are placed in one undifferentiated slot schema.
+3. **Plan-as-actual inference.** A planned value is treated as an obtaining relation participant or actual operation binding.
+4. **Description-as-declaration inference.** A `U.MethodDescription` that mentions an input or effect is treated as if it declared a reusable participant locus.
+5. **Baseline rewrite.** Performed values are copied back into the plan, erasing substitution and variance.
 

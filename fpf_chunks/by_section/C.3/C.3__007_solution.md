@@ -6,26 +6,28 @@ section_id: "C.3:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_solution.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:5 — Solution"
-line_start: 42835
-line_end: 42849
+line_start: 43723
+line_end: 43736
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
   - "A.22.CGUS"
+  - "A.6.0"
   - "A.7.1"
   - "A.8"
-  - "C.2.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
-  - "F.5"
+  - "F.18"
   - "F.8"
 keywords:
   - "classification"
@@ -40,16 +42,15 @@ keywords:
 
 ### C.3:5 - Solution
 
-Use C.3 when the current claim is about typed compatibility, membership, kind intent, kind extent, or kind bridges across reference schemes or context slices.
+Use the lightest object that answers the current typed-reasoning question.
 
-Do not use C.3 to admit durable U-kind names. That decision belongs to `E.24.UK`, with `A.8`, `A.11`, `F.8`, and `F.18` when kernel-level or public naming force is current.
+1. **Recover the local kind.** State the effective `U.ReferenceScheme` and the typed-reasoning use. A local `U.Kind` is not automatically a durable FPF U-kind.
+2. **Use C.3.1 for order and continuity.** `U.SubkindOf` is a partial order over local kinds. C.3.1 also decides whether the same local kind continues when a declaration edition changes.
+3. **Use C.3.2 for declaration and judgment.** A repeated criterion may justify a `KindSignature`; one application judges an exact candidate against one exact edition in one exact slice.
+4. **Let direct features decide.** Direct qualities, relations, constructive grounding, or other governed candidate features make the criterion hold or fail. Measurements, observations, schemas, sources, and evidence support claims about those features; they do not constitute membership.
+5. **Keep three results.** A satisfied criterion gives `true`; a known failed criterion gives `false`; missing evidence, an unavailable declared dependency, or an out-of-domain candidate gives `unknown`. A guard may decline use on `unknown` without changing that judgment to `false`.
+6. **Materialize an extension only for use.** A query, quantification, comparison, or review may need `KindExtension(k, slice)`. The representation contains the true candidates for the fixed signature edition and slice; notation, rows, or set membership do not create an ontic collection or classification relation.
+7. **Keep scope, formality, and work separate.** Formality characterizes the declaration episteme. Scope belongs to claims or capabilities. `U.Work` is the admitted U-kind; `W : U.Work` is one independently grounded, world-side, dated 4D work occurrence; a plan, log, card, field bundle, or database row about W is a separate episteme. No kind symbol or record occupies an individual-occurrence position.
 
-Normative decisions:
-
-1. `U.Kind` is local to a declared typed-reasoning use and intent-bearing under an effective `U.ReferenceScheme`; its extent is evaluated over `U.ContextSlice` values.
-2. `U.SubkindOf` is a partial-order relation over C.3 `U.Kind` values.
-3. Kind intent and kind extent are different claims and may have different evidence.
-4. Kinds do not carry scope; claim scope and work scope remain USM values.
-5. Kind reuse across reference schemes or context slices requires bridge discipline and loss notes.
-6. Public `U.*` spelling in a heading, title, filename, or ToC row does not follow from C.3 typed reasoning.
+Typed reasoning composes with F-G-R and USM in this order: recover typed compatibility and the exact judgment; separately check claim-scope coverage; then apply evidence, assurance, freshness, and bridge consequences when the receiving use requires them.
 

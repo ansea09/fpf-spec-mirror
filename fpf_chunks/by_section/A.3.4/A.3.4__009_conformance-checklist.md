@@ -6,63 +6,68 @@ section_id: "A.3.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__009_conformance-checklist.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:7 — Conformance Checklist"
-line_start: 8038
-line_end: 8054
+line_start: 7950
+line_end: 7968
 dependencies:
   - "A.1"
-  - "A.1.1"
   - "A.10"
+  - "A.11"
+  - "A.14"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
-  - "A.6.5"
-  - "A.6.F"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
+  - "B.2"
   - "B.3"
+  - "C.13"
   - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
-  - "C.30.ASV"
   - "C.32.P2S"
   - "E.18"
   - "E.18.1"
-  - "E.18.2"
-  - "E.20"
   - "E.24"
+  - "E.24.UK"
+  - "F.18"
+  - "G.11"
 keywords:
-  - "bounded change"
-  - "functioning"
-  - "input/output conditions"
-  - "transformation"
-  - "transformation-flow structure"
-  - "transformed entity"
-  - "transformer"
+  - "actual bounded change"
+  - "actual subject facts"
+  - "changed referent"
+  - "continuity and reidentification"
+  - "occurrence boundary"
+  - "transformation composition"
 ---
 
 ### A.3.4:7 - Conformance Checklist
 
 | Check | Conformance statement |
 | --- | --- |
-| `CC-A34-1` | The `TransformationCore` identifies the transformed object, bounded context, initial condition, post-state condition or delta, transformation relation, and boundary condition. |
-| `CC-A34-2` | Participation and check slots are considered and each receives an open-world disposition: filled, unknown or not recovered, not asserted, not current for this claim, or used to lower or block a claim that depends on the missing value. |
-| `CC-A34-3` | The transformed object is typed through its governing pattern, with A.1 used for entity, holon, or system source discipline where relevant. |
-| `CC-A34-4` | Method, method description, mechanism, work plan, work occurrence, dynamics episteme, temporal aspect, temporal-claim adequacy, evidence, result, source, gate, decision, assurance, publication, and refresh or reopen values keep their own governing patterns while filling participation and check slots in the transformation ontic. |
-| `CC-A34-5` | A `C.2.1` episteme may carry claims about the transformation, one transformation slot, one slot filler, or a relation among those values, but descriptions and publications of a transformation are not treated as the transformation itself. |
-| `CC-A34-6` | Time, rate, rhythm, cadence, effort, inertia, freshness, validity-window, or ordering wording uses `C.27.TA` for positive temporal aspects and `C.27` for temporal-claim adequacy. |
-| `CC-A34-7` | Formal or mathematical structure uses `A.6.0`, `A.6.1`, `C.29`, or the direct mathematical pattern before it is used as a transformation law, formal relation, or evidence relation. |
-| `CC-A34-8` | Evidence, assurance, gate, result acceptance, and decision authority are not inferred from `TransformationCore` or from a `C.2.1` episteme about the transformation. |
-| `CC-A34-9` | The identity-plus-participation slot relation follows `A.6.5` SlotKind/ValueKind/RefKind discipline; dependent patterns may cite `U.Transformation`, filled identity slots, or specific participation and check slots without copying the full slot relation or turning their own values into identity slots. |
-| `CC-A34-10` | Functional-transformation uses recover `TransformerRef?`, `InputConditionOrPortRefs?`, `OutputConditionOrPortRefs?`, `FunctioningRef?`, and `TransformationFlowStructureRef?` when those claims are current; none is silently left to A.6.F, C.30.ASV, or E.18 as an outside reference. |
-| `CC-A34-11` | A system/candidate system may be said to perform a functional transformation at a flow point only when the system or candidate system, `TransformerRole@Context`, bounded transformation, input/output or port boundary, and flow location are named or explicitly marked unknown/not-current. |
-| `CC-A34-12` | Algorithm wording is recovered as `U.Method`, `U.MethodDescription`, formal substrate, mechanism, work, or evidence according to the current claim; it is not treated as software-only and not used as proof that transformation occurred. |
+| `CC-A34-1` | One exact changed referent, temporal extent or formal ordering boundary, boundary conditions, actual change facts, and continuity or reidentification rule identify the transformation. |
+| `CC-A34-2` | A task, desired state, method, plan, work trace, operation family, model, delta expression, morphism, predicate, relation occurrence, assertion, picture, or publication does not establish actuality or transformation identity. |
+| `CC-A34-3` | Every subject fact uses its direct relation or characteristic governor; no union-valued `transformationRelation` field is used. |
+| `CC-A34-4` | Method, method description, operation declaration or binding, plan, work, flow structure, representation, evidence, evaluation, and publication retain separate identities and relations. |
+| `CC-A34-5` | A transformation assertion is a C.2.1 episteme about the actual transformation or exact base facts; it is not the occurrence. |
+| `CC-A34-6` | Time, rate, rhythm, duration, and ordering claims use `C.27.TA` and `C.27` without replacing transformation identity. |
+| `CC-A34-7` | E.18 flow structure and C.29 representation neither perform work nor make the transformation actual. |
+| `CC-A34-8` | Evidence, assurance, gate, acceptance, and decision authority are not inferred from the transformation or its description. |
+| `CC-A34-9` | `input`, `output`, `result`, `outcome`, `deliverable`, and `handoff` remain Plain relation-position cues until the exact participant and direct relation are recovered. |
+| `CC-A34-10` | When performed work is claimed to cause or realize the transformation, exact work-to-change facts are governed independently; co-occurrence is insufficient. |
+| `CC-A34-11` | Every proposed component and whole-configuration transformation is identified independently. Composition is asserted only under exact direct contribution and transformed-referent relations, temporal and boundary compatibility governors, and one applicable composition and reidentification rule; otherwise the transformations remain separate. |
+| `CC-A34-12` | `WF-A34-TPD-1` remains unsatisfied while any exact base relation, direct pattern, temporal or boundary compatibility governor, derivation substrate, composition or reidentification rule, dependency edition, occurrence-consuming receiver, or `A.6.REL` identity basis is absent. `TransformationPartOfRelation` remains a proposed derived-kind designator, and the exact result is a blocker: no positive local compound transformation-parthood claim and no candidate-kind occurrence are asserted. |
+| `CC-A34-13` | Only an exact grounded composite with exact admitted part-relation occurrences and every additional A.1 fact may also be classified as `U.Holon`; world-side satisfaction, three-valued evaluation, optional assertion, evidence or warrant, edition currentness, receiving disposition, and B.2 remain separate. |
+| `CC-A34-14` | No post-state, work reference, work-caused change, changed continuing entity, or transformation holon classification proves production-work participation, entity-identity inception, or production completion. |
 

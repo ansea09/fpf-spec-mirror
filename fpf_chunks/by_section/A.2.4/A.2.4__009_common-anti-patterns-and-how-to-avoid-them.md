@@ -6,12 +6,12 @@ section_id: "A.2.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 3812
-line_end: 3822
+line_start: 3796
+line_end: 3806
 dependencies:
   - "A.10"
   - "A.2"

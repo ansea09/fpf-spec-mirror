@@ -6,51 +6,42 @@ section_id: "A.15.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__013_relations.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12 — Relations"
-line_start: 24769
-line_end: 24774
+line_start: 25283
+line_end: 25288
 dependencies:
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
-  - "A.20"
-  - "A.21"
+  - "A.6.1"
   - "A.6.5"
-  - "A.6.7"
-  - "B.3"
-  - "C.27.TA"
-  - "E.10.D1"
-  - "E.10.D2"
+  - "A.6.RCD"
+  - "C.2.1"
   - "E.17"
-  - "E.18"
-  - "E.18.1"
-  - "E.19"
-  - "E.20"
-  - "E.24"
-  - "G.11"
-  - "G.6"
-  - "U.RelationSlotDiscipline"
-  - "U.Work"
+  - "E.24.PUB"
   - "U.WorkPlan"
 keywords:
-  - "P2W seam"
-  - "WorkPlanning"
-  - "edition pins"
-  - "guard pins"
-  - "planned baseline"
-  - "planned filler"
-  - "slot-bearing description"
-  - "variance trail"
-  - "Γ_time selector"
+  - "WorkPlan claim content"
+  - "actual-use predicate"
+  - "baseline replay"
+  - "concrete RefKind and policy"
+  - "direct owner"
+  - "edition pin"
+  - "exact declaration member"
+  - "intended-performance designator"
+  - "no actuality by plan"
+  - "open-world omission"
+  - "participant/argument/result meaning"
+  - "positive planned designation"
+  - "semantic cardinality"
 ---
 
 ### A.15.3:12 - Relations
 
-- **Builds upon:** `A.15.2` for `U.WorkPlan` and PlanItem discipline; `A.15.1` for performed `U.Work`; `A.6.5` for SlotKind, ValueKind, RefKind, and SlotSpec discipline; `E.24` for ontic introduction and slot-relation discipline; `E.10.D2` for EntityOfConcern vs Description episteme vs specification-use; `E.17` for publication-use and view-use projection; `E.18.1` for P2W carry-through; `E.20` for mechanism-introduction boundaries.
-- **Coordinates with:** `A.15.5` for work-entry readiness and full-kit preparation; `A.20` and `A.21` for gates and constraint decisions; `A.10`, `B.3`, and `G.6` for evidence, assurance, and provenance; `C.27.TA` and `G.11` for currentness and refresh; Part G patterns when planned baselines are used by kits, packs, or refresh plans.
-- **Does not replace:** target description patterns, mechanism definitions, suite definitions, gate records, evidence relations, publication views, performed work, or `A.15.4` appearance-based reliance repair.
+- **Builds upon:** C.2.1 and A.15.2 for WorkPlan identity, present EntityOfConcern, intended-performance designators, and intended-work content; A.6.5 for SlotSpecs inside exact RelationSignatures; A.6.1 for operation argument and result declarations; and the direct pattern governing any other admissible target declaration.
+- **Coordinates with:** A.15.1 for dated Work; direct relation patterns for actual participation; A.6.1 for actual operation applications and bindings; A.6.RCD for later local fulfilment or variance claims when no current direct comparison relation closes the use; A.15.5 for work-entry readiness; and exact evidence, gate, evaluation, result, production, delivery, acceptance, publication, and currentness patterns only when those claims become current.
+- **Does not replace:** a declaration, method or method description, WorkPlan, dated Work, actual participant or binding, constraint or negative plan claim, comparison result, result episteme, evidence, gate, production, or publication object.
 

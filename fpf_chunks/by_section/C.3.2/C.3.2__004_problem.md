@@ -1,34 +1,40 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.2"
-pattern_title: "KindSignature (+F) & Extension/MemberOf"
-section_id: "C.3.2:3"
+pattern_title: "Kind Intent, Membership Judgment, and Extension"
+section_id: "C.3.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__004_problem.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
-  - "C.3.2:3 — Problem"
-line_start: 43094
-line_end: 43100
+  - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
+  - "C.3.2:2 — Problem"
+line_start: 44005
+line_end: 44008
 dependencies:
+  - "A.14"
+  - "A.2.6"
+  - "A.6.0"
+  - "C.2.1"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
   - "C.3.1"
   - "C.3.3"
   - "C.3.4"
+  - "C.3.5"
+  - "C.3.A"
+  - "E.24.UK"
 keywords:
-  - "Formality F"
-  - "KindSignature"
-  - "MemberOf"
-  - "determinism"
-  - "extension"
-  - "intension"
+  - "KindExtension representation"
+  - "KindSignature declaration episteme"
+  - "candidate classification"
+  - "local kind"
+  - "true/false/unknown"
 ---
 
-### C.3.2:3 - Problem
+### C.3.2:2 - Problem
 
-1. **Ambiguous membership.** Membership depends on tacit “latest” states or unwritten defaults.
-2. **Signature opacity.** A kind’s definition is scattered; no single place to declare rigor (**F**) or assumptions.
-3. **Order violations.** Subkind hierarchies do not guarantee subset behavior in practice.
-4. **Scope leakage.** Teams smuggle applicability (G) into kind definitions, recreating G‑ladders by another name.
+The shorthand `MemberOf(e,k,slice)` is unsafe for this problem because readers can take it as an A.14 collection relation, an ontic classification-relation occurrence, a three-valued evaluation, a database lookup, or a guard. Likewise, `U.EntitySet(slice)` makes a set representation look like an admitted entity kind. Deterministic-looking notation then carries the wrong ontology. C.3.2 restores an explicit declaration, a judgment, and an optional representation while leaving candidate identity and direct features with their actual governors.
 

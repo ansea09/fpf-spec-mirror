@@ -6,12 +6,12 @@ section_id: "A.6.3:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 12334
-line_end: 12412
+line_start: 12409
+line_end: 12487
 dependencies:
   - "A.6.0"
   - "A.6.2"

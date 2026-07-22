@@ -6,21 +6,24 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 62452
-line_end: 62536
+line_start: 63085
+line_end: 63177
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
+  - "A.15.PROD"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
+  - "A.6.RCD"
   - "B.2"
   - "C.11"
   - "C.16"
@@ -60,11 +63,15 @@ keywords:
   - "ProblemToStructureArchitecturingFlowCard@Project"
   - "actual-structure feedback"
   - "candidate structures"
+  - "exact domain work"
   - "expected structures"
   - "governing-pattern-specific return"
+  - "independently grounded actual changes"
+  - "no-automatic-composition"
   - "problem-to-structure architecturing unfolding"
   - "selected structures"
   - "structural uncertainty"
+  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:4 - Solution
@@ -82,8 +89,10 @@ Use the analogy with `E.18.1` P2W narrowly. P2W carries an accepted problem-side
 7. Make a project architecture decision through `C.32.PAD` when implementation commitment is current. The decision relation names the selected architecture option, affected structures, trade-off, accepted losses, method and work consequences, accepted lost-structure return, and decision repair or supersession condition.
 8. Publish descriptions, views, ADR-like records, narrative renderings, or other records only as descriptions, structure-to-narrative renderings, or publication forms of structures, decision relations, method expectations, description or view loss repair, and reader use. Use `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, `E.17`, and `E.24.PUB` as applicable.
 9. Hand transformer roles the method descriptions, constraints, readiness expectations, work expectations, and structure-use return conditions needed to realize selected structures. Use `A.15`, `A.15.2`, and `A.15.5` for method, work-plan, and readiness claims.
-10. Realize selected structures in the transformed holon through domain work. Use `A.15.1` for performed work and `A.3.4` when one bounded transformation claim is current. The P2S card records refs; it does not perform the work.
-11. Observe, inspect, measure, and evaluate actual selected structures, architecture-characteristic results, and functional-characteristic or capability implications in operation or use. Ask whether the realized structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved. Do not turn functional demand into an architecture characteristic or an eval result into decision authority. Use `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles. Use `E.23` when repeated improvement method is current, `G.11` when currentness, telemetry, edition, freshness, or decay orchestration is current, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool updates, `C.32.PAD` or `C.32.ADA` for decision repair or supersession, `C.32` for new synthesis, and `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss repair. Feed actual-structure divergence, eval results, functional implications, freshness loss, description or view loss, and new constraints into the return or repair action governed by the receiving pattern.
+10. Realize selected structures in the transformed holon through domain work without treating the selected or expected structure, decision, method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, or transfer as the actual structure or as an actual transformation. Use `A.15.1` for each exact dated work occurrence. Use `A.3.4` for each independently identified actual bounded change, and cite the exact direct work-to-change governor or a local claim selected under `A.6.RCD` disposition 2 whenever exact work is asserted to cause or realize that change. Use separate local `A.15.PROD` claims only when production-work participation, entity-identity inception, or historically indexed production completion is current. The P2S card records refs; it performs none of the work and derives none of those claims.
+11. Observe, inspect, measure, and evaluate subject-side `U.Structure` values whose declared substrate and selected relation organization are recovered under `A.22` from directly governed facts that actually obtain, together with architecture-characteristic results and functional-characteristic or capability implications in operation or use. Ask whether those actual structures enable or block the functions and effects they were meant to bear, and ask what selected structure, accepted loss, counter-characteristic, or functional implication got worse when a visible metric improved. A description, measurement, evaluation result, publication, or resemblance to the selected structure does not itself make a structure actual or establish conformance. Use `C.30` only for the corresponding subject-side `ArchitectureOf@Context` claim, `C.30.AD` or `C.30.ASV` for actual-structure descriptions or views, `C.32.ACE` for eval programs and eval results, `C.16` for measurement, and `C.25` for Q-bundles. Use `E.23` when repeated improvement method is current, `G.11` when currentness, telemetry, edition, freshness, or decay orchestration is current, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool updates, `C.32.PAD` or `C.32.ADA` for decision repair or supersession, `C.32` for new synthesis, and `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss repair. Feed actual-structure divergence, eval results, functional implications, freshness loss, description or view loss, and new constraints into the return or repair action governed by the receiving pattern.
+
+At the realization boundary, keep selected structure, expected structure, actual subject-side structure, exact dated work, independently identified actual transformations, local production claims, actual-structure description, and evaluation result as different objects. Shared assembly work, temporal adjacency, common affected referents, one flow, or one selected configuration establishes neither one composite transformation nor absence of finer transformation parts. If a receiving claim requires transformation composition, return the exact missing-governor blocker; do not use that blocker to stop independent work, inception, completion, actual-structure, description, evaluation, or return claims.
 
 When one holon changes another holon, add the transformer/transformed branch before candidate synthesis becomes narrow. Name the changing relation, the transformer holon, the transformed holon, and selected structures on both sides when they constrain the candidate set. Use `C.32.CONWAY` to frame candidate families: change transformer-side structures, change transformed-side structures, change both, or declare a bounded mismatch with the named correspondence or decision-repair return condition.
 
@@ -101,13 +110,18 @@ P2SUnfoldingStructureBlock:
   candidateSynthesisLoci[]:
   decisionLinkageRef?:
   realizationWorkLinkageRef?:
+  actualTransformationRefs[]?:
+  directWorkToChangeGovernorRefs[]?:
+  productionWorkClaimRefs[]?:
+  entityIdentityInceptionClaimRefs[]?:
+  productionCompletionClaimRefs[]?:
   actualStructureFeedbackRef?:
   e18TransformationFlowUnfoldingRefs[]?:
   descriptionRefs[]?:
   blockedOverread: not architecture decision, not ADR, not work plan by itself
 ```
 
-The block is useful when the architecture work has to show how problem pressure constrains candidate, selected, expected, or actual structures without hiding which pattern governs the next claim. `unfoldingStructureRef` names the current CGUS record or local architecture-facing structure block; an A.22-level narrower-specialization relation, when needed, remains `specializedStructureRef?` on the A.22.CGUS record. `decisionLinkageRef` points to `C.32.PAD` only when a project architecture decision is current. `descriptionRefs[]` point to `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, or publication governing patterns only when a description, view, ADR projection, narrative rendering, or publication claim is current. `realizationWorkLinkageRef` points to the A.15 family; the P2S block does not authorize or record performed work.
+The block is useful when the architecture work has to show how problem pressure constrains candidate, selected, expected, or actual structures without hiding which pattern governs the next claim. `unfoldingStructureRef` names the current CGUS record or local architecture-facing structure block; an A.22-level narrower-specialization relation, when needed, remains `specializedStructureRef?` on the A.22.CGUS record. `decisionLinkageRef` points to `C.32.PAD` only when a project architecture decision is current. `descriptionRefs[]` point to `C.30.AD`, `C.30.ASV`, `C.32.ADR`, `A.6.3.NAR`, or publication governing patterns only when a description, view, ADR projection, narrative rendering, or publication claim is current. `realizationWorkLinkageRef` points to the exact A.15-family work relation; actual transformations and direct work-to-change governors retain their `A.3.4`, direct-subject, or `A.6.RCD` owners. The three production-ref groups point only to separate local `A.15.PROD` claims. The P2S block neither authorizes nor records performed work and does not make selected or expected structure actual.
 
 Use `e18TransformationFlowUnfoldingRefs[]` only for slices whose substrate is transformation-flow structure. P2S itself is broader: it can carry module, functional, placement, control, role, method, evidence, scale, information, and other architecture-relevant structures through architecture synthesis and feedback.
 
@@ -118,6 +132,7 @@ Use `ArchitectureUnfoldingStructureUse@Project` when a named constraint-governed
 ```text
 ArchitectureUnfoldingStructureUse@Project:
   kind: dependent architecture-use relation record under C.32.P2S, C.30, and adjacent architecture governing patterns
+  projectWorkOccurrenceRef?: U.EntityRef constrained to an individual admitted under U.Work
   architectureQuestionRef:
   architectureOfRef:
   unfoldingStructureRef:
@@ -140,7 +155,7 @@ ArchitectureUnfoldingStructureUse@Project:
   repairOrSupersessionCondition:
 ```
 
-`architectureQuestionRef` and `architectureOfRef` name the architecture question and described holon in bounded context. `unfoldingStructureRef` names the CGUS or local block being used. `affectedSelectedStructures[]`, `architectureCharacteristicRefs[]`, and `acceptedLosses[]` state why the unfolding structure matters for architecture rather than for a generic route. Method and work refs point to the A.15 family only as realization or feedback linkage. Decisions, descriptions, ADR-like projections, measurements, evals, evidence, gates, publication, and performed work still exit to their direct governing patterns.
+For `ArchitectureUnfoldingStructureUse@Project`, the suffix again remains only a compatibility and retrieval cue. When `projectWorkOccurrenceRef` is filled, it designates the exact composite Work occurrence admitted under `U.Work` that is an explicit participant in this architecture-use relation; when it is absent, no project locality is asserted. `architectureQuestionRef` and `architectureOfRef` name the architecture question and described holon in bounded context. `unfoldingStructureRef` names the CGUS or local block being used. `affectedSelectedStructures[]`, `architectureCharacteristicRefs[]`, and `acceptedLosses[]` state why the unfolding structure matters for architecture rather than for a generic route. Method and work refs point to the A.15 family only as realization or feedback linkage. Decisions, descriptions, ADR-like projections, measurements, evals, evidence, gates, publication, and performed work still exit to their direct governing patterns.
 
 Stop conditions:
 

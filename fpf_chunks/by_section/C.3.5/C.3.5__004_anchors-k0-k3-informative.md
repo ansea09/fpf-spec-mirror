@@ -6,51 +6,69 @@ section_id: "C.3.5:3"
 section_title: "Anchors K0…K3 (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__004_anchors-k0-k3-informative.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:3 — Anchors K0…K3 (informative)"
-line_start: 43776
-line_end: 43807
+line_start: 44654
+line_end: 44695
 dependencies:
+  - "A.2.6"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
+  - "C.3.4"
+  - "C.3.A"
 keywords:
   - "K0-K3"
   - "KindAT"
-  - "abstraction tier"
-  - "informative facet"
-  - "planning"
+  - "assurance planning"
+  - "declaration planning"
+  - "editorial facet"
 ---
 
-### C.3.5:3 - **Anchors K0…K3** (informative)
+### C.3.5:3 - Anchors K0…K3 (informative)
 
-> **How to read.** Each anchor states the **intentional stance** of the kind, **inclusion cues**, **non‑examples** (to prevent misuse), and **planning hints** (ΔF/ΔR/bridge expectations). Anchors are **context‑local editorial tags** on `U.Kind`.
+#### C.3.5:3.1 - K0 — Instance-level
 
-#### C.3.5:3.1 - **K0 — Instance‑level**
+**Intent.** The local kind is used for named exemplars or a tightly curated cohort.
 
-**Intent.** The kind denotes **exemplars** or a **tightly curated set**; often a named cohort or a concrete template.
-**Cues.** Membership relies on listing or direct identity features; little to no general invariants.
-**Non‑examples.** Any kind with stable, general invariants belongs in **K2**.
-**Planning hints.** Focus **R on TargetSlice** (executable checks, F5/6); avoid premature proof engineering. Bridges are **instance‑maps**; expect **low `CL^k`** outside the Context.
+**Cues.** The reusable criterion, when one is needed, relies mainly on direct identity features or an enumerated bounded candidate domain.
 
-#### C.3.5:3.2 - **K1 — Behavioral Pattern**
+**Non-example.** A stable invariant-bearing distinction belongs nearer K2 even if few candidates are currently known.
 
-**Intent.** The kind is a **role/behavioral** pattern (“things that act like …”), typically stated via Standards or controlled NL, not a full type.
-**Cues.** “Duck‑typing” flavor; Standards reference behavior/state transitions.
-**Non‑examples.** If you can state global invariants as predicates, consider **K2**.
-**Planning hints.** Invest in **F3→F4** (predicate‑like acceptances); **R** must test **behavioral diversity**; bridges are **pattern maps** with moderate `CL^k`.
+**Planning.** Prefer exact slice-bound judgments and assurance over the current candidate domain. Cross-context reuse is likely to need explicit instance correspondence and may have low `CL^k`.
 
-#### C.3.5:3.3 - **K2 — Formal Kind/Class**
+#### C.3.5:3.2 - K1 — Behavioral pattern
 
-**Intent.** A **formal class** with explicit **invariants/relations** (ontology class, type with Standards).
-**Cues.** Predicate‑like signature, subkind lattice, invariants reviewed.
-**Non‑examples.** Pure examples/cohorts (K0); informal roles (K1).
-**Planning hints.** Raise **KindSignature F** to **F4+**, consider **F7** for safety‑critical cores; **R** should cover **subkinds/variants**; bridges are **type‑maps**, `CL^k` often medium/high.
+**Intent.** The local kind is recognized through repeatable behavior or role-like performance rather than a mature formal invariant set.
 
-#### C.3.5:3.4 - **K3 — Up‑to‑Iso**
+**Cues.** A `KindSignature` may use controlled prose, behavioral obligations, or executable acceptance predicates.
 
-**Intent.** Defined **up to isomorphism/equivalence** (category‑theoretic flavor; “equal as structure,” not by identity); equality‑as‑structure matters.
-**Cues.** Statements invariant under isomorphism; reasoning by equivalence classes.
-**Non‑examples.** Classes where identity matters beyond structure.
-**Planning hints.** Expect **up‑to‑iso** bridges; `CL^k` can be high where equivalence is respected. **F7–F9** likely for key properties; **R** focuses on **witnesses of equivalence** at interfaces.
+**Non-example.** A kind with stable explicit predicates and order relations belongs nearer K2.
+
+**Planning.** Invest in making the signature criterion evaluable and in testing behavioral diversity. Bridges are usually pattern correspondences whose assertions must state loss.
+
+#### C.3.5:3.3 - K2 — Formal kind/class
+
+**Intent.** The local kind has explicit invariants, relations, and a reviewed position in a local kind order.
+
+**Cues.** A reusable `KindSignature` declaration episteme pins predicate-like criteria, dependencies, and reference scheme; judgments are replayable under exact editions.
+
+**Non-example.** An informal cohort or role cue does not become K2 merely because it is stored in a schema.
+
+**Planning.** Consider raising the declaration episteme's F where the receiving use warrants it; plan R across relevant subkinds and boundary cases. KindBridge assertions may support medium or high `CL^k` only from demonstrated signature/order preservation.
+
+#### C.3.5:3.4 - K3 — Up-to-Iso
+
+**Intent.** The kind's governed criterion is invariant under a declared isomorphism or equivalence notion.
+
+**Cues.** Structural equivalence, rather than individual identity, is load-bearing in the signature and receiving use.
+
+**Non-example.** A class whose candidate identity matters beyond the declared structure is not K3.
+
+**Planning.** Require explicit equivalence witnesses and receiver acceptance. High `CL^k` is justified only when the obtaining bridge and its assertion demonstrate preservation of the relevant equivalence structure.
 

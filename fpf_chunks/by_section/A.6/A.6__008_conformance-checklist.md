@@ -6,12 +6,12 @@ section_id: "A.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__008_conformance-checklist.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:7 — Conformance Checklist"
-line_start: 8947
-line_end: 8959
+line_start: 8892
+line_end: 8904
 dependencies:
   - "A.10"
   - "A.15"

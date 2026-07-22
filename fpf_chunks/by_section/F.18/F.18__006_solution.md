@@ -6,18 +6,23 @@ section_id: "F.18:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__006_solution.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:4 — Solution"
-line_start: 91863
-line_end: 91949
+line_start: 92618
+line_end: 92706
 dependencies:
+  - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.6.RSIR"
-  - "C.2.P"
+  - "C.2.1"
   - "E.10"
+  - "E.10.ARCH"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
@@ -56,11 +61,11 @@ Every durable name must satisfy these invariants.
 | --- | --- |
 | Governed value first | Name the governed value or value family before naming the label. |
 | Governing pattern visible | Cite the pattern that owns the value: for example `A.2` for role value, `A.2.1` for role assignment, `A.6.5` for relation slot discipline, `F.10` or `A.19.SPR` for status value use, `A.10` for evidence use. |
-| Bounded context visible | The name lives in one bounded context or in a declared cross-context publication row. |
+| Reference scheme visible | The NameCard carries the effective `U.ReferenceScheme` by value; a model-use structure, claim scope, project work, or other locality relation remains separate and appears only when the naming use needs it. |
 | Local sense visible | The name resolves to a local sense, Concept-Set row, or direct-pattern value. |
 | Two labels when reusable | The Tech label is precise; the Plain label helps ordinary readers. Both point to the same governed value. |
 | Candidate comparison visible | At least two plausible head families are considered unless a cited external standard fixes the label. |
-| Bridge only for cross-context sameness | A spelling match does not establish sameness. |
+| Bridge only for cross-context sense alignment | A spelling match, shared reference scheme, or `F.9` Bridge does not establish governed-value identity; F.9 states only its exact sense correspondence and admitted use. |
 | Lineage visible | Rename, split, merge, retirement, and alias decisions are recorded. |
 
 #### F.18:4.2 - `NameCard` Fields
@@ -72,7 +77,7 @@ NameCard:
   NameCardId:
   GovernedValueRef:
   GoverningPatternRef:
-  BoundedContextRef:
+  ReferenceScheme:
   LocalSenseRef:
   TechLabel:
   PlainLabel:
@@ -87,14 +92,16 @@ NameCard:
 
 Field discipline:
 
-- `GovernedValueRef` names the value, relation, slot, claim record, or local concept being named. It is not a row id by default.
+- `GovernedValueRef` resolves to the exact already-governed object or value being named. For relation-facing wording it resolves to exactly one of the objects distinguished in section 5.6; a field label, record, card, table row, or local phrase is not a proxy for that object.
 - `GoverningPatternRef` names the pattern that decides the value, not the pattern that merely publishes or teaches the name.
+- `ReferenceScheme` carries the effective `U.ReferenceScheme` by value. It is not a reference field and does not introduce `U.ReferenceSchemeRef`.
+
 - `CandidateSet` records the plausible labels considered, grouped by head-term family.
 - `RejectedCandidates` records why tempting names were not selected.
 - `UnifiedTermRowRef` is present only when `F.17` term-row publication is current.
-- `RefreshCondition` says when the name must be reconsidered: context edition change, bridge change, governing-pattern change, or repeated reader error.
+- `RefreshCondition` says when the name must be reconsidered: reference-scheme edition change, bridge change, governing-pattern change, or repeated reader error.
 
-Names such as "foundational principle pattern set", "FPF Core", "domain principle framework", and "local practice framework" require ordinary `NameCard` work before public stabilization in a concrete context. Source aliases such as `ZPF`, `SPF`, `TPF`, or broad `xPF` labels remain intake aliases until `F.18` has settled the governed value, bounded context, rejected candidates, and admissible short form.
+Names such as "foundational principle pattern set", "FPF Core", "domain principle framework", and "local practice framework" require ordinary `NameCard` work before public stabilization under an effective reference scheme. Source aliases such as `ZPF`, `SPF`, `TPF`, or broad `xPF` labels remain intake aliases until `F.18` has settled the governed value, by-value reference scheme, local sense, rejected candidates, and admissible short form.
 
 #### F.18:4.3 - Candidate Selection
 

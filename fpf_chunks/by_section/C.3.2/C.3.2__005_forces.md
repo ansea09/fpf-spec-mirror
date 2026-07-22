@@ -1,36 +1,48 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.2"
-pattern_title: "KindSignature (+F) & Extension/MemberOf"
-section_id: "C.3.2:4"
+pattern_title: "Kind Intent, Membership Judgment, and Extension"
+section_id: "C.3.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__005_forces.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
-  - "C.3.2 — KindSignature (+F) & Extension/MemberOf"
-  - "C.3.2:4 — Forces"
-line_start: 43101
-line_end: 43109
+  - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
+  - "C.3.2:3 — Forces"
+line_start: 44009
+line_end: 44020
 dependencies:
+  - "A.14"
+  - "A.2.6"
+  - "A.6.0"
+  - "C.2.1"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
   - "C.3.1"
   - "C.3.3"
   - "C.3.4"
+  - "C.3.5"
+  - "C.3.A"
+  - "E.24.UK"
 keywords:
-  - "Formality F"
-  - "KindSignature"
-  - "MemberOf"
-  - "determinism"
-  - "extension"
-  - "intension"
+  - "KindExtension representation"
+  - "KindSignature declaration episteme"
+  - "candidate classification"
+  - "local kind"
+  - "true/false/unknown"
 ---
 
-### C.3.2:4 - Forces
+### C.3.2:3 - Forces
 
-| Force                              | Tension to resolve                                                                                   |
-| ---------------------------------- | ---------------------------------------------------------------------------------------------------- |
-| **Local freedom vs comparability** | Contexts need their own notations, but membership must be checkable in a common style.                  |
-| **Expressivity vs determinism**    | Rich intent is welcome, but membership must be deterministic given `slice`.                          |
-| **Intent vs applicability**        | Define “what counts” (intent/extent) without encoding “where valid” (G).                             |
-| **Rigor vs cost**                  | Raising signature F has cost; the framework must support low‑F drafts and high‑F safety cores alike. |
+| Force | Tension |
+| --- | --- |
+| Readable use vs reusable declaration | One case should stay ordinary, while repeated classification needs a stable criterion and assumptions. |
+| Direct feature vs evidence | Candidate features make the criterion hold; evidence only supports an assertion about them. |
+| False vs unknown | Known criterion failure differs from unavailable evidence, missing dependency, or out-of-domain input. |
+| Intent vs extension | A declaration can stay fixed while candidate state or the selected slice changes the true-candidate set. |
+| Set use vs ontology | A query may need a set without creating a collection holon, direct relation occurrence, or `U.EntitySet`. |
+| Local kind vs public kind | A project kind can be useful without durable FPF U-kind admission. |
+| Scope vs evaluation input | Claims may be scoped; the kind is not. The context slice is an input to classification. |
 

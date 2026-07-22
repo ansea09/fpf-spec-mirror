@@ -6,29 +6,32 @@ section_id: "A.3.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "A.3.1 — U.Method: Context-Defined Way of Doing"
   - "A.3.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 6951
-line_end: 6961
+line_start: 6948
+line_end: 6958
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.10"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.7"
+  - "A.22"
   - "A.3"
   - "A.3.2"
   - "A.3.3"
   - "A.6.0"
   - "A.6.1"
+  - "A.6.5"
+  - "A.6.REL"
   - "B.1.5"
+  - "C.2.1"
   - "C.2.P.DR"
   - "C.20"
   - "C.29"
@@ -37,18 +40,13 @@ dependencies:
   - "E.18"
   - "E.18.1"
   - "E.20"
+  - "F.9"
   - "G.11"
   - "G.5"
   - "U.BoundedContext"
   - "U.Capability"
   - "U.RoleAssignment"
 keywords:
-  - "method"
-  - "method composition"
-  - "method vs method description vs work"
-  - "non-agentive holon"
-  - "submethod"
-  - "way of doing"
 ---
 
 ### A.3.1:8 - Common Anti-Patterns and How to Avoid Them
@@ -56,7 +54,7 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | "The code is the method." | If the claim is about the repository or executable text, use `U.MethodDescription`; if it is about the semantic way of doing, name the `U.Method` and its context. |
-| "The workflow diagram is the work." | Use `U.MethodDescription` for the diagram, `U.WorkPlan` for planned work, and `U.Work` for dated occurrence. |
+| "The workflow diagram is the work." | Use `U.MethodDescription` for the diagram, `U.WorkPlan` for planned work, and one Work occurrence admitted under `U.Work` for the dated occurrence. |
 | "The graph path routes the decision." | If it is graph structure, use `E.18`; if it is overread as route or action, use `C.2.P.DR`; if a gate or authority claim is current, use the direct gate or authority pattern. |
 | "The optimization model is the process." | Recover whether the current claim is formal substrate, method description, method semantics, work plan, work, or evidence. |
 | "The protocol approval proves safe execution." | Separate publication-state claim, gate or authorization claim, evidence claim or assurance claim, work plan, and dated work. |

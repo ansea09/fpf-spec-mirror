@@ -6,26 +6,28 @@ section_id: "C.3:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__009_archetypal-grounding.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:7 — Archetypal Grounding"
-line_start: 42866
-line_end: 42874
+line_start: 43753
+line_end: 43763
 dependencies:
   - "A.1"
   - "A.11"
   - "A.2.6"
   - "A.22.CGUS"
+  - "A.6.0"
   - "A.7.1"
   - "A.8"
-  - "C.2.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3"
   - "C.3.1"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
-  - "F.5"
+  - "F.18"
   - "F.8"
 keywords:
   - "classification"
@@ -42,8 +44,10 @@ keywords:
 
 | Situation | C.3 typed-reasoning move | Boundary |
 | --- | --- | --- |
-| A safety standard uses a source category such as "critical component". | Treat the category as a local `U.Kind` value interpreted under the selected reference scheme, with intent and extent criteria for the named context slices. | Do not mint a durable FPF U-kind unless `E.24.UK` admits the ontic and public naming case. |
-| A software schema has a `Customer` class. | Use C.3 to ask what claims quantify over instances matching that schema under the declared reference scheme and in the named context slice. | Do not assume the schema class is the same kind as a contractual customer, user role, payer, or account holder. |
-| A cross-discipline term appears with the same label in two traditions. | Keep kind reuse bridge-visible and record loss notes before comparing extents. | Same label is not sameness of kind or scope. |
-| A local project splits "robotic musical instrument" into several working categories. | Let local kinds support the current typed reasoning claim. | Public `U.*` spelling, FPF naming, and durable ontic admission remain outside C.3. |
+| Pump #14 is evaluated as a cooling pump. | Use one local kind, one declared criterion, one exact plant slice, and one `true`/`false`/`unknown` judgment. | The pump and its cooling, flow, and measured-state facts remain under direct physical and measurement governors. |
+| A maintenance episteme is classified while PDF and HTML forms circulate. | Judge the exact episteme against the local kind criterion. | Publication form and carrier do not decide membership. |
+| A temperature value is classified into an interval. | Keep the value under its unit and measurement interpretation and judge the value directly. | Do not fabricate a value-shaped entity merely to classify it. |
+| A schema labels a row `Customer`. | Treat the label as a cue to recover the actual candidate and criterion. | Schema spelling alone yields neither `true` nor a public U-kind. |
+| A measurement required by a criterion is unavailable. | Return `unknown`; let a safety guard decline the use separately. | Do not coerce missing information to `false`. |
+| A log row is labelled `inspection work`. | First identify any exact dated `W : U.Work` under `A.15.1`; only then can W be a candidate for a local kind. | The row, plan, or label is not W, and `U.Work` never occupies W's individual position. |
 

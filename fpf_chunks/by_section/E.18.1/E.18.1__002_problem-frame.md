@@ -6,28 +6,43 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "d6af871b3e4e47c952d800a2a418c0634f180aaf"
+commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 80587
-line_end: 80619
+line_start: 81236
+line_end: 81272
 dependencies:
   - "A.15"
+  - "A.15.PROD"
+  - "A.19.CPM"
+  - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.1"
+  - "A.6.P"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.16"
+  - "C.18"
+  - "C.19"
   - "C.22.2"
   - "C.29"
   - "E.11.PUA"
   - "E.11.PUR"
   - "E.18"
   - "E.18.3"
+  - "F.17"
+  - "F.18"
+  - "F.8"
   - "F.9"
   - "G.11"
   - "G.2"
+  - "G.5"
+  - "G.9"
   - "U.Mechanism"
   - "U.Signature"
 keywords:
@@ -37,11 +52,15 @@ keywords:
 
 Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide work, but the next FPF use is not yet settled. The practitioner has an unsettled carry-through question: which problem-side distinction can be carried into the next FPF relation or record named by value?
 
-The primary EntityOfConcern is the P2W carry-through relation: the relation between accepted problem-side material and the wider work transformation that continues to use its selected distinctions. P2W carries those distinctions through method selection, planning when current, dated work, result interpretation, and return when an earlier assumption changes.
+The primary `EntityOfConcern` is the accepted `ProblemCard@Context` whose carried claim must remain usable under one named receiving-use viewpoint while the practitioner selects and applies one direct governor. P2W may carry that claim through method selection, planning when current, dated work when it occurs, an actual transformation when independently grounded, exact subject claims about what changed, result interpretation, and local return when an earlier assumption changes. No P2W relation kind or occurrence is introduced; P2W itself is neither the dated work nor a `U.Transformation`.
 
-Keep three objects separate. The **P2W relation** is the EntityOfConcern of this pattern. The **subject EntityOfConcern** is the system, episteme, method, role, work occurrence, relation, or other project entity addressed by the accepted problem and by each direct pattern. The **ProblemCard, compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those relations inspectable. Later method enactment or dated work can change or preserve the subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note under the named receiving-use viewpoint. The **subject EntityOfConcern** of each direct pattern is the system, episteme, method, role, work occurrence, relation, or other project entity addressed by that pattern. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those direct claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
 
-E.11.PUA governs a smaller use and may begin without `ProblemCard@Context`: apply one selected pattern to one current practical question, obtain the first directly typed result, and state its receiving use. E.18.1 begins only when the wider work transformation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
+**Primary working reader, concern, and viewpoint.** The primary reader is the practitioner who already has an accepted `ProblemCard@Context` and is choosing one next FPF-governed relation without treating source wording or a supporting episteme as downstream authority. The concern is use of that accepted claim in the current continuation, not a new relation occurrence or the whole downstream project. The viewpoint is the named receiving use: which direct relation and governing pattern can carry this accepted distinction into one governed value?
+
+**So-what adoption test.** Adopt P2W only when preserving the accepted distinction changes the direct relation selected, the governed value written, or the decision to continue, split, stop, or return. If the direct relation and value are already settled and P2W would add only another note, do not use it; apply the direct pattern.
+
+E.11.PUA governs a smaller use and may begin without `ProblemCard@Context`: apply one selected pattern to one current practical question, obtain the first directly typed result, and state its receiving use. E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
 
 
 #### E.18.1:1.1 - Use this when
