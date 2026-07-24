@@ -6,16 +6,17 @@ section_id: "A.6.RCD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__002_use-this-when.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:0 — Use This When"
-line_start: 16108
-line_end: 16130
+line_start: 16310
+line_end: 16332
 dependencies:
   - "A.11"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.P"
   - "A.6.REL"
   - "B.3"
   - "C.2.1"
@@ -25,6 +26,7 @@ dependencies:
   - "F.18"
   - "F.9"
   - "G.11"
+  - "U.Signature"
 keywords:
 ---
 
@@ -41,13 +43,13 @@ Typical first-minute situations are:
 
 **Primary EntityOfConcern.** One exact needed relation-bearing claim for one named receiving use. The application also settles whether that claim remains local, receives a reusable predicate-definition episteme, or justifies a derived or primitive relation kind. This wording does not mint a `NeededRelationClaim` kind or an application-record kind.
 
-**First useful move.** Write the blocked receiving use and the participant meanings in ordinary domain language. Then use `A.6.P` to verify that no current direct relation already closes the claim.
+**First useful move.** Write the blocked receiving use and the participant meanings in ordinary domain language. Then use `A.6.P` to recover the current direct governing pattern and predicate and ask whether that predicate can already state the needed affirmative, negative, or exact governed modal claim for those participants. If current facts or history do not decide that predicate, keep the direct question open and route information sufficiency or reliance to the exact evaluation or evidence owner. Derive a compound predicate only when no current direct predicate can express the needed claim.
 
 **What goes wrong if missed.** A team either leaves the claim as vague connective prose or promotes a formula, query, graph path, definition, or convenient name into ontology. The first loses replayable meaning. The second invents relation kinds without an obtaining law or occurrence identity.
 
 **What this buys.** The engineer gets the lightest sufficient result: an existing direct relation, a local compound claim, reusable predicate-definition content with an optional separately admitted derived relation kind, or a genuinely irreducible primitive relation kind. The ontology grows only when the receiving use needs occurrence semantics that claim content alone cannot supply.
 
-**Ordinary non-use boundary.** Do not use this pattern when a current direct relation already states the needed claim; use that direct pattern and stop. Do not use it for wording-only cleanup, mathematical-lens adequacy, naming, evidence, assurance, or publication questions. `E.10`, `C.29`, `F.18`, `A.10`, `B.3`, and `E.17` govern those questions respectively.
+**Ordinary non-use boundary.** Do not use this pattern when a current direct governing predicate can already state the needed affirmative, negative, or exact governed modal claim; write that claim under the direct pattern and stop. A negative, hypothetical, forecast, or governed modal claim needs no obtaining relation occurrence. When available facts do not decide the direct predicate, leave that question open and assess information sufficiency, support, or reliance under the exact evaluation or evidence owner; `unresolved` is not a direct relation-claim polarity. Do not use A.6.RCD for wording-only cleanup, mathematical-lens adequacy, naming, evidence, assurance, or publication questions. `E.10`, `C.29`, `F.18`, `A.10`, `B.3`, and `E.17` govern those questions respectively.
 
 **Cheap stop.** If a readable current direct relation closes the receiving use, stop before constructing a compound claim. If a local compound claim closes it, stop before publishing a reusable definition. If a reusable definition closes it, stop before admitting a relation kind.
 

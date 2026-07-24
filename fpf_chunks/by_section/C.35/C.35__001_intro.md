@@ -6,12 +6,12 @@ section_id: "C.35:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__001_intro.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:intro — Intro"
-line_start: 65891
-line_end: 65896
+line_start: 66333
+line_end: 66338
 dependencies:
   - "A.22"
   - "A.6.M"

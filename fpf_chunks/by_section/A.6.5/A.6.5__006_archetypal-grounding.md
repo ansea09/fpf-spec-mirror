@@ -6,12 +6,12 @@ section_id: "A.6.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__006_archetypal-grounding.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:5 — Archetypal Grounding"
-line_start: 18373
-line_end: 18414
+line_start: 18609
+line_end: 18656
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -28,17 +28,9 @@ keywords:
 
 ### A.6.5:5 - Archetypal Grounding
 
-#### A.6.5:5.1 - Physical assembly
+#### A.6.5:5.1 - Role assignment: first minute, substitution, and repeated occurrence
 
-`Bearing_B isPartOf Pump_P` can remain a readable part-relation assertion. When an engineer needs reusable participant typing in maintenance analysis, the direct mereology pattern contains the part and whole participant meanings, and its `RelationSignature` contains the `PartHolonSlot` and `WholeHolonSlot` SlotSpecs, each with ValueKind `U.Holon` and RefKind `U.HolonRef`. The actual relation participants are the bearing and pump. An assertion or relation-occurrence description episteme may designate them through references that resolve to those holons. Under A.14 and the direct part-relation identity rule, removal and reinstallation may distinguish repeated part-relation occurrences.
-
-The bearing and pump do not become SlotKinds, and their references do not replace them as participants. Each remains a holon that participates directly in the world-side relation; the `RelationSignature` separately declares the SlotSpec used by receiving epistemes to distinguish its designation.
-
-After replacement, changing the `PartHolonSlot` designation from `Bearing_B_Ref` to `Bearing_C_Ref` in a maintenance assertion or relation-occurrence description episteme can be type-correct while `Bearing_C isPartOf Pump_P` is still false because installation has not occurred. Exact SlotSpecs make the proposed designation reviewable; they do not substitute type correctness or reference change for the direct part-relation claim.
-
-#### A.6.5:5.2 - Role-assignment assertion in inspection work
-
-In this worked case, the direct role-assignment predicate already obtains, and affirmative assertion polarity is warranted under `A.2.1`; any reliance posture for a receiving use remains separately governed. The assertion designates the four required actual participants and may designate the explicitly individuated occurrence; it is not the `RelationSignature` and does not create the occurrence by being recorded. The following field block represents the assertion episteme under `C.29`:
+**First minute.** Assume the current case facts explicitly: `Robot_7` is an admitted `U.System`; `InspectorRole`, `MaintenanceRoles_2026`, and `MaintenanceScheme_A` are the other three A.2.1 participants; and the assignment state holds without interruption from 09:00 to 17:00 on 13 July. A.2.1 defines the predicate and continuity rule; it does not inspect this robot or warrant the assertion. The stated case facts satisfy the predicate, and the `RoleAssignmentAssertion` records affirmative polarity. Any evidence and reliance posture remain separately governed. The following field block represents that assertion episteme under `C.29`:
 
 ```text
 RoleAssignmentAssertion:
@@ -50,7 +42,17 @@ RoleAssignmentAssertion:
   assignmentInterval: [2026-07-13T09:00, 2026-07-13T17:00]
 ```
 
-The four labels inside `participantDesignations` correspond to SlotKinds in the `RoleAssignmentRelationSignature`. `assignmentInterval` is a different assertion field: it states the currently known temporal extent and corresponds to no relation-participant SlotSpec. `Robot_7_Ref : U.EntityRef` resolves to `Robot_7 : U.System`; `MaintenanceRoles_2026_Ref : U.EpistemeRef` resolves to the role-taxonomy episteme. `InspectorRole : U.Role` and `MaintenanceScheme_A : U.ReferenceScheme` are carried by value. The assignment is an obtaining relation occurrence independently of this assertion. The robot may later perform inspection work by a method. Neither the role, the assertion, nor the assignment performs that work, and the verb **holds** does not turn any of them into a holon.
+The four labels inside `participantDesignations` are convenient source-side labels in this compact representation. An explicit C.29 correspondence relates each label to the matching SlotKind in the `RoleAssignmentRelationSignature`; equal spelling does not identify field and SlotKind, and another source field keeps its own name. `assignmentInterval` is a different assertion field and corresponds to no relation-participant SlotSpec. `Robot_7_Ref : U.EntityRef` resolves to `Robot_7 : U.System`; `MaintenanceRoles_2026_Ref : U.EpistemeRef` resolves to the role-taxonomy episteme. `InspectorRole : U.Role` and `MaintenanceScheme_A : U.ReferenceScheme` are carried by value. The assertion does not create the assignment, and neither role, assertion, nor assignment performs inspection work.
+
+**Substitution.** Assume `Robot_8_Ref : U.EntityRef` resolves to another admitted `Robot_8 : U.System`. Replacing only the `HolderSystemSlot` designation with `Robot_8_Ref` passes the declared ValueKind check, but it does not make `Robot_8` hold the role. Current assignment facts must separately satisfy the A.2.1 predicate before an affirmative assertion is warranted. The proposed designation can therefore be type-correct while the direct claim remains negative or unresolved.
+
+**Repeated occurrence.** If the same four participants enter another inspection shift after a demonstrated non-assignment period, the A.2.1 continuity rule ends the first occurrence and starts another. A copied field block or reused row key does not merge them. Conversely, closing an open `assignmentInterval` for one uninterrupted assignment refines the same occurrence; an evidence gap alone does not split it.
+
+#### A.6.5:5.2 - Hypothetical physical-assembly boundary
+
+`Bearing_B isPartOf Pump_P` may remain a readable source claim, but current A.14 supplies no generic or installed-part occurrence-identity rule based on removal, reinstallation, installation interval, or installation work. `PartHolonSlot`, `WholeHolonSlot`, and their RefKinds are therefore only a hypothetical declaration candidate until an accepted direct part-relation owner states the participant meanings, predicate, applicability, and same-versus-new-occurrence rule. Do not claim current conformance or an individuated part-relation occurrence from this sketch.
+
+Conditional on such a future declaration, changing a proposed part designation from `Bearing_B_Ref` to `Bearing_C_Ref` could be ValueKind-compatible while the direct relation remains false because current case facts do not satisfy its predicate. Until that owner exists, keep the bearings, pump, installation work, proposed part relation, assertion, designations, and representation separate. The counterexample demonstrates that typed substitution cannot create obtaining; it does not supply the missing parthood settlement.
 
 #### A.6.5:5.3 - Episteme fields are not relation participants by table shape
 
@@ -60,9 +62,13 @@ When a direct relation among an episteme and other entities is current, the gove
 
 #### A.6.5:5.4 - Relation-dependent result wording
 
-After machining, the machined component can remain the same physical entity in a changed state. It does not acquire a special result kind. When a receiving claim calls it a *result*, first recover the exact current relation or relation-bearing claim: affected-referent and actual-change facts for a continuing component, an entity-identity-inception claim when a new entity first exists, or the direct measurement, evaluation, delivery, acceptance, or transfer relation when that is what the claim means. Use an entity-identity-inception governor only when a current pattern actually supplies it. If that claim or any other needed relation has no current direct governor, keep an exact missing-governor blocker instead of presuming a generic work-result relation.
+After machining, the machined component can remain the same physical entity in a changed state. It does not acquire a special result kind. Start with one question: **did this same component continue through the change, or did a new entity begin?**
 
-Only a selected reusable direct relation receives a compatible `RelationSignature` with one SlotSpec per participant meaning. An assertion episteme may then state that exact relation. A local kind of participating entities is introduced only when typed quantification is current in a receiving use. This case demonstrates the three readings in A.6.5:4.6 without naming a participant after a broad result word.
+1. **Same component continued.** Name that component, the characteristic that changed, and the actual machining transformation. Use the existing owner of that characteristic and A.3.4 for the bounded change. The component's identity continues; calling it the work's “result” adds no kind, participant meaning, or relation.
+2. **A new entity began.** Use this branch only when an admitted identity-inception owner defines the predicate and identity rule and the current work and change facts satisfy them. If no such owner exists, return one missing-governor result naming the candidate entity, relevant work and change facts, required inception predicate, and receiving use. Do not infer a generic work-result relation.
+3. **The sentence names another relation.** Rewrite it with its one concrete verb and participants before declaring slots. For example, `Component_C was delivered to AssemblyCell_2` selects one candidate delivery claim about that item and receiver, not a `result` kind. Recover that direct relation owner and any additional participant meanings it requires; if it does not close, return its missing-governor result. Handle an evaluation or acceptance sentence separately when that is the actual wording rather than listing possible owners.
+
+Only the direct relation selected by one of those concrete sentences receives a compatible `RelationSignature`, and only when reusable typed use is current. Its assertion episteme records that relation; A.6.5 neither invents a broad result participant nor turns the domain choice into a catalogue.
 
 #### A.6.5:5.5 - Formal reduced case
 

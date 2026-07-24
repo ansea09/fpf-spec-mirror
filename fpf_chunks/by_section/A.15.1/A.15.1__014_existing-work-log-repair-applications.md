@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 24673
-line_end: 24684
+line_start: 24969
+line_end: 24980
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,6 +37,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
+  - "F.6"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
@@ -47,27 +48,23 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "U.Work admitted kind"
-  - "actual binding"
-  - "affected referent"
-  - "enactsMethod"
-  - "episode"
-  - "no automatic transformation"
-  - "occurrence assertion and record separation"
-  - "overlap"
-  - "performed resource-use fact"
-  - "performedBy"
-  - "retry"
-  - "work continuity"
-  - "work part"
+  - "actual performer U.System"
+  - "admitted U.Work kind"
+  - "containing system"
+  - "covering U.RoleAssignment"
+  - "enacted method"
+  - "optional direct bindings and resource use"
+  - "performedUnderAssignment"
+  - "separate result or consequence"
+  - "temporal extent"
   - "world-side dated occurrence"
 ---
 
 ### A.15.1:12 - Existing work-log repair applications
 
-1. **Recover occurrence assertions.** For existing logs, identify the independently grounded Work occurrence and write an assertion or description that cites its designator, actual `enactsMethod`, optional `methodDescriptionRef`, exact `performedBy`, extent, affected referent, bindings, containing system, and resource-use facts. Do not create Work by creating a record.
-2. **Recover the work-judgment basis.** Name exact `workContinuityPolicyRef`, its effective reference scheme, and any current MethodDescription edition, scope, qualification window, aggregation policy, criterion, or evidence-use relation without making those epistemes part of the Work.
-3. **Record the continuity policy.** Cite exact `workContinuityPolicyRef` and decide when an interruption stays within one occurrence, creates an episode, or forces a new occurrence.
+1. **Recover occurrence assertions.** For existing logs, identify the independently grounded Work occurrence and write an assertion or description that cites its designator, each actual performer system, the covering assignment and any explicit F.6 attribution, actual `enactsMethod`, extent, and containing system. Add optional `methodDescriptionRef` and only those independently obtaining work-to-referent, binding, and resource-use relations on which the receiving claim relies. Do not create Work by creating a record.
+2. **Recover the work-judgment basis.** Name the direct occurrence facts first. Add exact `workContinuityPolicyRef`, effective reference scheme, scope, or qualification window only when the current identity, episode, retry, resumption, or aggregation judgment needs a branch criterion. Keep any MethodDescription edition, aggregation policy, criterion, and evidence-use relation outside the Work.
+3. **Record a continuity policy only for an actual ambiguity.** Cite exact `workContinuityPolicyRef` and its named use when an interruption, resumption, replacement, switch, or composite boundary could support more than one segmentation. If direct facts already close a simple uninterrupted case, omit the policy.
 4. **Separate slice, episode, and operational part.** Use interval/aspect for `TemporalPartOf_work`, event-bounded continuity for `EpisodeOf_work`, and recovered occurrence-side part plus any separately recovered method factor for `OperationalPartOf_work`.
 5. **Name only useful work parts.** If no current resource, evidence, KPI, acceptance, repair, aggregation, cross-context reliance, or source-relation return use hangs on the candidate part, keep it as a relation, evidence slice, or telemetry slice.
 6. **Return temporal roll-up to B.1.4.** Cite the exact temporal aggregation and its union, hull, coverage, and non-overlap policy in the KPI rather than recreating it on Work.

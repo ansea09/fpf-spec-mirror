@@ -6,42 +6,48 @@ section_id: "F.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__003_problem-frame.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:1 — Problem Frame"
-line_start: 87963
-line_end: 87970
+line_start: 88581
+line_end: 88588
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:1 - Problem Frame
 
-Role assignment sits between a role description and performed work. A role description lets a reader recognize `InspectorRole` or `ReviewerRole`; it does not assign a holder. A work occurrence may be performed by a holder under a role assignment; it is not the assignment itself. A status value, evidence relation, standard-use relation, requirement-use relation, or publication cue may constrain, evidence, qualify, or display a work-admission relation; it is not a role holder and not performed work.
+`U.RoleAssignment` says that one admitted `U.System` holds one `U.Role`, interpreted through one role-taxonomy episteme and effective reference scheme, during one assignment episode. `U.Work` says that a dated occurrence happened. Neither statement alone says that this work was performed under this assignment.
 
-A common source shape mixes these questions into one "role assignment and enactment cycle" with a status branch. That made the pattern convenient but ontologically noisy. A status assertion and a work-facing role assignment have different subjects, slots, evidence, windows, and direct governing patterns. Putting them into one cycle made status look like a kind of role assignment and made `RoleEnactment` look like a durable run-time object.
+F.6 governs the missing direct relation. The assignment is one participant and the work occurrence is the other. A roster row may assert the assignment; a work log may assert the work and attribution; evidence may support either assertion. Those epistemes help a system know or use the relation, but they do not become relation participants and do not make the world-side relation obtain merely by being recorded.
 
-F.6 therefore becomes a check pattern. It asks whether the current local claim can use a recovered `U.RoleAssignment`, and whether a current `U.Work` occurrence can cite that assignment. If the current claim is status, evidence, source, publication, bridge, capability, or method, F.6 names the direct governing pattern and stops.
+This separation matters because assignment, state, ability, performance, evidence, and acceptance can vary independently. A system can hold a role and do no work. It can perform poor work under a valid assignment. A report can accurately describe the work without performing it. One compact "enactment" label hides these distinctions.
 

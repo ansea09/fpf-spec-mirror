@@ -6,47 +6,51 @@ section_id: "F.6:10"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__012_common-anti-patterns-and-repairs.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:10 — Common Anti-Patterns and Repairs"
-line_start: 88244
-line_end: 88256
+line_start: 88809
+line_end: 88819
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:10 - Common Anti-Patterns and Repairs
 
-| Anti-pattern | Symptom | Repair |
-| --- | --- | --- |
-| Role description as assignment | A role card or label is cited as proof that someone holds the role. | Recover `U.RoleAssignment` through `A.2.1`; keep the card as role-description episteme under `F.4`. |
-| Assignment as work | "Assigned reviewer" is used as evidence that review happened. | Name the `U.Work` occurrence under `A.15.1` or lower the claim to assignment only. |
-| Work without assignment | A work log names "reviewed" but gives no holder-role-context assignment. | Recover holder, role, context, and window; if missing, block performed-work attribution. |
-| `U.RoleEnactment` revival | A log or pattern names a durable role-enactment object. | Use `Work.performedBy = RoleAssignment`; name `RoleEnactmentFact` only when a fact label is useful. |
-| Evidence role | A report, dataset, model card, or standard is made a role holder. | Use evidence-use, source-use, standard-use, requirement-use, status-use, or publication-use relation. |
-| Status branch | `Approved`, `Ready`, `Satisfied`, or `Valid` is handled as a role. | Use `F.10` or the direct status-use pattern. |
-| Access role as work role | RBAC or permission label is used as proof of work-facing role assignment. | Recover the access or policy relation first; create a work-facing role assignment only if actual work attribution is current. |
-| Cross-context role reuse | BPMN participant, RBAC role, PROV activity, or local team role are treated as one role. | Keep local assignment; use `F.9` for bridge or substitution claims. |
+| Anti-pattern | Failure | Repair |
+|---|---|---|
+| Assignment proves work | Role holding is confused with dated performance. | Name the `U.Work` occurrence and direct `performedUnderAssignment` relation. |
+| Work attributed by role label | Assignment episode and interpretation are unavailable. | Recover the exact `U.RoleAssignment` through its four participants and uninterrupted obtaining extent. |
+| Non-covering assignment | Work is attributed outside the assignment episode. | Select the covering assignment occurrence or leave attribution unresolved; do not widen the window by prose. |
+| `RoleEnactmentFact` retained | A duplicate object competes with work and attribution. | Replace it with `performedUnderAssignment(WorkOccurrenceSlot, RoleAssignmentSlot)`. |
+| Report as performer | A result or evidence episteme is put in holder position. | Keep the report in its work-result, evidence, source, or publication relation. |
+| Context shorthand becomes ontology | `Context` is inserted as a universal relation participant. | Recover the exact denoted object and use its direct pattern; generic assignment keeps four participants and derives its episode extent from uninterrupted obtaining. |
 

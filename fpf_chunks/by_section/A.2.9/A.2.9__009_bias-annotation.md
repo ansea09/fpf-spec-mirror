@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__009_bias-annotation.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:6 — Bias-Annotation"
-line_start: 6292
-line_end: 6301
+line_start: 6372
+line_end: 6381
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,14 +23,15 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:6 — Bias-Annotation
@@ -39,7 +40,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Ke
 
 * **Gov bias:** favors explicit accountable performers and auditable records; increases clarity but adds modeling overhead.
 * **Arch bias:** optimizes evolvability by keeping institutional effects referenceable rather than embedded in prose.
-* **Onto/Epist bias:** enforces act≠utterance≠carrier and prevents episteme-as-agent metaphors.
+* **Onto/Epist bias:** enforces kind≠actual act≠record≠utterance≠carrier and prevents episteme-as-agent metaphors.
 * **Prag bias:** models only what is needed for decisions/audit (not full intention/sincerity/perlocutionary psychology).
 * **Did bias:** keeps the record minimal and queryable for state checklists and boundary reviews.
 

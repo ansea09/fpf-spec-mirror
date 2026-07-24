@@ -6,12 +6,12 @@ section_id: "A.6.C:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__001_intro.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:intro — Intro"
-line_start: 10112
-line_end: 10122
+line_start: 10263
+line_end: 10273
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,30 +35,28 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "(RFC 2119 + RFC 8174)"
-  - "A as predicates (“is admissible iff…”)"
-  - "Boundary Norm Square (L/A/D/E)"
-  - "MVPK faces “no new semantics”"
-  - "RECOMMENDED"
-  - "REQUIRED"
-  - "SLA/guarantee claim classification"
-  - "accountable commitment vs exact permission result"
-  - "and E as observable/evidenced properties. If a BCP‑14 keyword or synonym appears in an L/A/E claim"
-  - "and OPTIONAL"
-  - "as a disciplined modality family"
-  - "contract bundle unpacking"
-  - "exercise"
-  - "finding"
-  - "in L/A/E claims"
-  - "including common synonyms such as SHALL"
-  - "non-violation"
-  - "permission projections cite the corresponding D- and exact A.2.8.PER grant"
-  - "phrase L as definitions or invariants (“is defined as…”"
-  - "promise content ≠ work"
-  - "promise-act/utterance separation"
-  - "the face is non-conformant until rewritten without the BCP‑14 keyword or moved out of the face"
-  - "the sentence MUST be rewritten to remove the keyword or moved out of the face"
-  - "“holds iff…”)"
+  - "MUST NOT"
+  - "MVPK no-new-semantics"
+  - "OPTIONAL"
+  - "SHOULD"
+  - "a mechanism entry predicate enters A"
+  - "and SHOULD NOT enter D only for an accountable duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "are statement operators"
+  - "atomic L/A/D/E rows"
+  - "commitment or grant"
+  - "dated Work"
+  - "description and publication"
+  - "four-question contract lens"
+  - "gate"
+  - "not ontology or quadrant selectors. MUST"
+  - "obtaining versus representation"
+  - "or prohibition. MAY"
+  - "promise content"
+  - "recommendation-as-duty"
+  - "rewrite it or mark it informative"
+  - "separate result and evidence"
+  - "speech-act Work"
 ---
 
 ## A.6.C — Contract Unpacking for Boundaries
@@ -69,6 +67,6 @@ keywords:
 > **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
 > **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.8 (RPR‑SERV)** (service‑cluster polysemy unpacking), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
 > **Naming boundary:** **F.18** may provide durable names for recovered terms when naming is current; it does not govern the promise-content, speech-act, commitment, permission, work, evidence, or boundary ontology.
-> **Mint or reuse (terminology):** Reuses “contract”, “SLA”, and “guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** as an unpacking lens (not a new entity kind), plus optional register columns (`bundleId`, `bundlePart`, and `faceRefs`). **NQD-front seeds (informative):** contract packet, agreement bundle, boundary bundle (chosen: *Contract Bundle* for low collision with existing “bundle” terms).
-> **Purpose (one line):** Prevent “contract soup” and agency misattribution by unpacking contract-language into distinct promise-content, utterance package, commitment or permission under separate direct owners, performed work, and carrier-referenced evidence as adjudication basis, then classifying each part into the Boundary Norm Square.
+> **Mint or reuse (terminology):** Reuses “contract”, “SLA”, and “guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** only as a four-question unpacking lens, not an entity kind or register-part taxonomy. The existing A.6.B Claim Register may add `bundleId`, optional `questionRef`, `directObjectRef`, `ownerPatternRef`, and `faceRefs`; it remains the one atomic-claim record.
+> **Purpose (one line):** Prevent “contract soup” by asking four plain questions, then recording each resulting atomic claim with its direct object, owner, quadrant, and evidence path when current.
 

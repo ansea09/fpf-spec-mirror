@@ -6,12 +6,12 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
-line_start: 21736
-line_end: 21786
+line_start: 21982
+line_end: 22032
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -20,9 +20,11 @@ dependencies:
   - "E.24"
   - "E.24.UK"
 keywords:
+  - "actual system performing under an assignment"
   - "bounded unresolved result"
-  - "direct-owner return"
-  - "ontology repair"
+  - "exact subject and direct owner"
+  - "one selected analysis apparatus"
+  - "smallest defeated claim"
   - "wrong engineering consequence"
 ---
 
@@ -32,7 +34,7 @@ keywords:
 
 The method described here specializes the method described by `C.19.2`. It always inherits the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, method/reader/performer/work/result separation, positive stop, and reopen rule.
 
-The normal short path begins with one already-selected subject or ontology owner, so it uses the lawful one-apparatus branch and creates no option set. Use `C.18` only when candidate ontology apparatuses must be generated or reframed. Use `C.11` only when two or more available eligible alternatives make a real local-choice question current. After selection, `A.15.2` owns planning and `A.15.1` owns dated work; `C.24` enters only for tool-call enactment planning.
+The normal short path uses the already selected A.7.1 analysis method as its one current apparatus. It begins from one exact engineering subject and that subject's current direct owner; subject and owner are inputs and constraints, not apparatus candidates. Use `C.18` only when the team must generate or reframe alternative analysis methods, models, formalisms, or other direct-kind apparatuses for the same declared use. Use `C.11` only when two or more already-available apparatuses are eligible for that same use and guarantee, making a real local-choice question current. After selection, `A.15.2` owns planning and `A.15.1` owns dated work; `C.24` enters only for tool-call enactment planning.
 
 #### A.7.1:4.2 - Start from the defeated consequence
 

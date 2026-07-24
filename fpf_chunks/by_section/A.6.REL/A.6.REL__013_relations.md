@@ -6,12 +6,12 @@ section_id: "A.6.REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__013_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:12 — Relations"
-line_start: 10817
-line_end: 10831
+line_start: 10985
+line_end: 11000
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -28,9 +28,10 @@ keywords:
 - `A.6.0` declares RelationSignature participant SlotSpecs and restates the direct predicate, applicability, and exact identity rule for reuse without making the relation obtain.
 - `A.6.5` separates world-side participants from RelationSignature SlotKinds and from participant designations in assertions or descriptions.
 - `A.6.P` governs restoration of hidden direct relations and participants before occurrence identity is attempted.
+- `A.6.RCD` governs the residual case in which exact participants are known but no current direct relation closes the named receiving claim; any admitted derived or primitive relation kind returns with its own direct subject settlement and identity rule.
 - `A.6.RSIR` governs selection among a direct relation, relation-participant meaning, declaration SlotSpec, `RelationSignature`, and another exact interface object when wording is ambiguous.
 - `A.2.1` governs role-assignment obtaining and identity; `F.6` governs later attribution to performed work.
-- `A.14` and direct mereology patterns govern part-relation identity and part-whole change.
+- `A.14` and exact direct mereology patterns govern only the part-relation kinds and part-whole changes they actually declare; A.6.REL adds no installed-part settlement.
 - `A.15.1` governs work occurrence identity and readable links to separately governed participation, change, operation-result, production, evaluation, delivery, and acceptance claims.
 - `C.2.1` governs assertions and descriptions about relation obtaining, predicate satisfaction, and occurrences; `E.17` and `E.24.PUB` govern publication relations.
 - `C.22.PFR` supplies a worked case with two explicitly individuated relation occurrences participating in one dependent evaluative relation.

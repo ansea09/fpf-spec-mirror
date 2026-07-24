@@ -6,12 +6,12 @@ section_id: "A.15.4:3.1"
 section_title: "Archetypal Grounding - Worked Dashboard And Approval Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__006_archetypal-grounding-worked-dashboard-and-approval-examples.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.1 — Archetypal Grounding - Worked Dashboard And Approval Examples"
-line_start: 25520
-line_end: 25599
+line_start: 25819
+line_end: 25899
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,23 +33,19 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
-  - "U.Work"
 keywords:
-  - "allowed use now"
-  - "appearance overread blocked"
+  - "allowed or blocked use"
   - "appearance-based reliance"
-  - "claim/effect position"
   - "copied approval"
-  - "credential view"
-  - "dashboard display"
-  - "exact permission-result relation or finding"
+  - "credential"
+  - "dashboard"
+  - "exact attempted use"
   - "generated explanation"
-  - "project-side claim/effect reference"
+  - "governing pattern and direct object"
+  - "independent required-position rows"
+  - "orientation and source-finding"
+  - "project-side reference"
   - "publication face"
-  - "reliance appearance"
-  - "required claim before use"
-  - "required instituted effect before use"
-  - "work or reliance use"
 ---
 
 ### A.15.4:3.1 - Archetypal Grounding - Worked Dashboard And Approval Examples
@@ -74,7 +70,7 @@ An approval memo may carry an approval claim when it exposes the `A.2.9` `Speech
 
 Credential-status and role-state green-tile case:
 
-A credential, credential-status, or role-state response may carry holder reliance, credential-status reliance, role-state reliance, or currentness reliance only inside the issuer, governing credential-status register, governing role-state register, holder binding or subject binding, verifier context, relying context, proof result or credential-status result, revocation relation or revocation record, freshness field, and effective window that it exposes. It does not by itself carry release, work occurrence, gate passage, engineering justification, evidence for underlying operational facts, contextual deontic permission, or authorization; those uses require their own governing patterns and project-side references.
+A credential, credential-status, or role-state response is a publication of a claim-bearing register entry, not the status or relation itself. It may serve as authoritative source only when the named register rule identifies the exact entry, issuer, subject/holder binding, relying context, freshness/window, authorized entry-producing Work, and exact direct effect for which that Work is constitutive. The selected direct owner still decides whether that relation obtains or finding is warranted, and `A.10` carries the evidence/currentness use. The response never supplies release, Work occurrence, gate passage, permission/authority, or evaluation result merely by being present.
 
 Situation viewpoint prompts:
 
@@ -83,7 +79,7 @@ Situation viewpoint prompts:
 | Acting practitioner | What can I safely do next without turning the encountered episteme or episteme publication into unsupported work or reliance justification? |
 | Release engineer | Which `A.21` gate decision, decision log, release scope, work target, and `A.15.1` work occurrence are separate here? |
 | Issuer, gate, evidence, or role-assignment steward | Which source-currentness value, role-state value, credential-status value, decision ref, or evidence relation needs exposure or repair? |
-| Audit or peer-review viewpoint | Which evidence relation, decision ref, speech-act ref, commitment, work occurrence, or assurance claim needs recoverability? |
+| Audit or peer-review viewpoint | Which direct owner and object in the governing-position lookup must be recoverable? If permission or authority is current, which one row in that branch answers the live question? |
 | Boundary claimant | Which words need typed claim IDs before they can guide work or reliance? |
 | Manager | Is repeated ambiguity governing-position repair work rather than another manual check for the acting practitioner? |
 | LLM user or tool user | Which governing pattern position or source relation does the explanation help find, and which operative claims still need an `A.10` claim-bound source relation? |
@@ -112,12 +108,12 @@ Lintable overread cues:
 
 | Lint signal | Governing relation named by value |
 | --- | --- |
-| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B` into `L-*`, `A-*`, `D-*`, and `E-*`; use `A.6.C`, `A.2.8`, `A.2.8.PER`, and `A.2.9` for agreement-like wording when commitment, permission, or speech-act claims are being made. |
+| `approved`, `authorized`, `allowed`, `recommended`, or `guaranteed` in boundary, API, schema, or policy wording | Split through `A.6` or `A.6.B`; when permission or authority is the live claim, use the single branch above instead of routing from the word. |
 | Dashboard tile, credential-status color, role-state color, or release tile used as release evidence or gate passage | Require `A.21` `GateDecision` or `DecisionLogRef` plus `A.10` evidence relation and currentness relation. |
-| Credential screenshot or badge used as deontic permission, authorization, role-assignment relation, role-state relation, or credential-status relation | Require `A.10` issuer, holder, verifier, credential-status, currentness, and relying-context fields, then the exact `A.2.8.PER`, `A.2.8`, `A.2.9`, `A.2.1`, `A.6.B`, or `A.21` governing record or relation named by value for the required permission, commitment, authorization act, role assignment, role state, credential status, gate claim, or gate effect. |
-| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for the explanation relation and source-finding relation and `A.10` for the claim-bound source relation; an issuing or approval act still needs `A.2.9`, a permission result `A.2.8.PER`, a commitment `A.2.8`, and a gate effect `A.21`. |
+| Register screenshot, badge, or entry used as permission, authority, role/state, or gate evidence | Require five separate recoveries: register-entry episteme and its publication relation; constitutive rule; authorized entry-producing Work, actual exercised Work, or evaluation Work as the selected owner requires; direct relation/finding under that owner; and `A.10` evidence/currentness. The entry may be authoritative source for the rule's exact claim or effect, but inscription creates neither actual exercise nor a non-violation finding. |
+| Generated explanation uses `authorized`, `approved`, or similar wording | Use `E.17.EFP` for explanation/source-finding and `A.10` for the claim-bound source relation; if permission or authority is current, choose one row in the single branch above. |
 | Model card, datasheet, label, or note cited as readiness, safety, compliance, or release confidence | Require a typed `B.3` assurance claim, intended-use match, evaluation condition, limitations, and `A.10` evidence relation. Use `A.15.5` instead when the current claim is full-kit or work-entry readiness. |
-| Provenance or attestation label cited as truth, safety, release, deontic permission, or authorization | Require `A.10` bounded provenance claim or process-trace claim plus the separate direct owner and evidence for truth, safety, release, authorization act, assurance, or the exact `A.2.8.PER` permission result. |
+| Provenance or attestation label cited as truth, safety, release, permission, or authority | Require the bounded `A.10` provenance/process-trace claim plus the direct owner of the relied-on truth, safety, release, permission, or authority claim. For the last two, use the single branch above; the label is not its result. |
 | Evidence, assurance, gate, or work-occurrence words without the governing pattern value that carries that claim or effect | Recover the `A.10` evidence relation, `B.3` assurance claim, `A.21` gate decision, or `A.15.1` work-occurrence record respectively before the work claim or reliance claim is used. |
 
 Stress cases for practice:
@@ -125,10 +121,11 @@ Stress cases for practice:
 | Case | Expected A.15.4 disposition |
 | --- | --- |
 | Green release dashboard tile with no `GateDecisionRef`. | Source-finding only; recover `A.21` decision or decision log plus `A.10` evidence before gate-passage reliance. |
-| Copied approval from last month. | Recover the original `A.2.9 SpeechActRef`, currentness, freshness, and the exact `A.2.8.PER` permission result, `A.2.8` commitment, or `A.21` gate decision record needed for the claim. |
-| Credential badge screenshot after revocation. | Treat as contested credential-currentness; use `A.10` issuer, holder, verifier, credential-status, and revocation relation and do not infer deontic permission or authorization. |
-| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation and source-finding and `A.10` for the claim-bound source relation; issuing, permission, commitment, and gate claims still need the relevant `A.2.9` issuing act, `A.2.8.PER` permission result, `A.2.8` commitment relation, or `A.21` gate decision named by value. |
-| Boundary wording says `guaranteed approved for production`. | Split through `A.6` or `A.6.B`; if agreement-like or promise-bearing, unpack through `A.6.C`, `A.2.8`, `A.2.8.PER`, and `A.2.9`. |
+| Copied approval from last month. | Treat the copy as a source-finding cue; use the permission/authority branch above to choose the one live question, then recover currentness and evidence for that selected object. |
+| Credential badge screenshot after revocation. | Recover the register-entry episteme, its publication relation, named status rule, authorized entry-producing Work, direct status relation, and evidence/currentness/revocation relation separately. The revoked direct relation blocks reliance even when the entry remains visible. |
+| Register entry says `grant exercised; no violation`, but no dated matching Work or evaluation Work is recoverable. | Keep both claims blocked. For exercise, recover dated Work and show that its action and performer satisfy the obtaining grant. For non-violation, recover the evaluation Work and current sufficiently complete frame. Inscription establishes neither result. |
+| Generated explanation says `authorized by policy`. | Use `E.17.EFP` for explanation/source-finding and `A.10` for the claim-bound source relation; if permission or authority is current, choose and verify one row in the single branch above. |
+| Boundary wording says `guaranteed approved for production`. | Split the sentence through `A.6` or `A.6.B`; use `A.6.C` for agreement-like or promise-bearing content and the single permission/authority branch above only for the permission or authority claim that remains. |
 | Dashboard says green while decision log says blocked. | Treat as conflicting source relations; name source-relation order, governing decision record, freshness policy, and supersession rule before the work claim or reliance claim is used. |
 | CRISPR lab dashboard says the guide edit is ready. | Treat the dashboard as orientation or source-finding until the protocol publication or protocol record, approval record or gate record, role-assignment record, evidence relation, current lab context record, and `U.WorkPlan` for the intended edit are recoverable. If the question is full-kit or work-entry readiness for the intended edit, use `A.15.5`; the readiness tile still does not create biological-intervention authorization, deontic permission, safety, or performed work. |
 

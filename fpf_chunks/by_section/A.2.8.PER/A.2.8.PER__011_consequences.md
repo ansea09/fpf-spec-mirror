@@ -6,24 +6,27 @@ section_id: "A.2.8.PER:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__011_consequences.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:9 — Consequences"
-line_start: 6017
-line_end: 6020
+line_start: 6052
+line_end: 6055
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.5"
   - "A.2.8"
   - "A.2.9"
+  - "A.6"
   - "A.6.B"
   - "A.6.C"
+  - "F.6"
   - "U.Work"
 keywords:
-  - "actual non-violation finding"
-  - "permission exercise"
+  - "checked non-violation"
+  - "exact policy rule or decision result"
+  - "matching dated-work exercise"
   - "permission or prohibition conflict"
   - "policy-valid strong grant"
   - "weak non-prohibition finding"

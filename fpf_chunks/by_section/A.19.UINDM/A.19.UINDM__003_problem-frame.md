@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__003_problem-frame.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:1 — Problem frame"
-line_start: 31168
-line_end: 31177
+line_start: 31545
+line_end: 31554
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

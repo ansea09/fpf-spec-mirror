@@ -6,12 +6,12 @@ section_id: "C.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__001_intro.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:intro — Intro"
-line_start: 43670
-line_end: 43675
+line_start: 44069
+line_end: 44074
 dependencies:
   - "A.1"
   - "A.11"
@@ -24,20 +24,22 @@ dependencies:
   - "C.29"
   - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
   - "F.18"
   - "F.8"
+  - "F.9"
 keywords:
-  - "classification"
-  - "extension"
-  - "intension"
-  - "kind"
-  - "subkind"
-  - "type"
-  - "typed reasoning"
-  - "vocabulary"
+  - "KindBridge"
+  - "SubkindOf"
+  - "bounded-context local kind"
+  - "effective ReferenceScheme"
+  - "intent-bearing KindSignature"
+  - "optional slice-indexed extension"
+  - "three-valued candidate judgment"
 ---
 
 ## C.3 - Kinds, Intent and Extent, and Typed Reasoning

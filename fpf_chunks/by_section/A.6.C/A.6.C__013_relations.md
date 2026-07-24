@@ -6,12 +6,12 @@ section_id: "A.6.C:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__013_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:12 — Relations"
-line_start: 10428
-line_end: 10443
+line_start: 10591
+line_end: 10607
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,30 +35,28 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "(RFC 2119 + RFC 8174)"
-  - "A as predicates (“is admissible iff…”)"
-  - "Boundary Norm Square (L/A/D/E)"
-  - "MVPK faces “no new semantics”"
-  - "RECOMMENDED"
-  - "REQUIRED"
-  - "SLA/guarantee claim classification"
-  - "accountable commitment vs exact permission result"
-  - "and E as observable/evidenced properties. If a BCP‑14 keyword or synonym appears in an L/A/E claim"
-  - "and OPTIONAL"
-  - "as a disciplined modality family"
-  - "contract bundle unpacking"
-  - "exercise"
-  - "finding"
-  - "in L/A/E claims"
-  - "including common synonyms such as SHALL"
-  - "non-violation"
-  - "permission projections cite the corresponding D- and exact A.2.8.PER grant"
-  - "phrase L as definitions or invariants (“is defined as…”"
-  - "promise content ≠ work"
-  - "promise-act/utterance separation"
-  - "the face is non-conformant until rewritten without the BCP‑14 keyword or moved out of the face"
-  - "the sentence MUST be rewritten to remove the keyword or moved out of the face"
-  - "“holds iff…”)"
+  - "MUST NOT"
+  - "MVPK no-new-semantics"
+  - "OPTIONAL"
+  - "SHOULD"
+  - "a mechanism entry predicate enters A"
+  - "and SHOULD NOT enter D only for an accountable duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "are statement operators"
+  - "atomic L/A/D/E rows"
+  - "commitment or grant"
+  - "dated Work"
+  - "description and publication"
+  - "four-question contract lens"
+  - "gate"
+  - "not ontology or quadrant selectors. MUST"
+  - "obtaining versus representation"
+  - "or prohibition. MAY"
+  - "promise content"
+  - "recommendation-as-duty"
+  - "rewrite it or mark it informative"
+  - "separate result and evidence"
+  - "speech-act Work"
 ---
 
 ### A.6.C:12 — Relations
@@ -73,7 +71,8 @@ keywords:
 * **Coordinates with**
 
   * **A.7** (EntityOfConcern, Description episteme, and carrier) for correct placement of evidence claims.
+  * **A.15.1** for the exact dated Work occurrence and its §4.6 dispatch to application/result, production, change, evaluation, evidence, delivery/transfer, and acceptance owners.
   * **F.12** (service acceptance) for structuring how promise-level commitments connect to evidence and acceptance windows.
   * **E.17** MVPK “no new semantics” rule to prevent publication faces from becoming new contracts.
-  * **A.2.8.PER** for strong/weak permission, exercise, non-violation, and conflict results kept outside `U.Commitment`.
+  * **A.2.8.PER** for the exact permission-side direct objects; A.6 `A6-AW-*` and A.6.B classify each atomic claim without treating owner membership as its quadrant.
 

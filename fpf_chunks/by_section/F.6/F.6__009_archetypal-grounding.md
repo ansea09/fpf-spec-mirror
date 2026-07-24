@@ -6,91 +6,78 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 88160
-line_end: 88216
+line_start: 88747
+line_end: 88784
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:7 - Archetypal Grounding
 
 #### F.6:7.1 - Robot Inspection
 
-A maintenance line has a role-description episteme for `InspectorRole`. A shift note says Robot-7 inspected Pump-12.
-
-F.6 recovers:
-
 ```text
-CandidateHolderRef: Robot_7
-CandidateRoleValueRef: InspectorRole
-BoundedContextRef: MaintenanceLine_A
-AssignmentWindowDisposition: filled by shift window
-WorkOccurrenceRef: InspectionWork_2026-06-15-09
-PerformedByRelation: InspectionWork_2026-06-15-09 performedBy Robot_7#InspectorRole:MaintenanceLine_A@shift
-Result: workAttributionAdmitted, if A.2.1 and A.15.1 checks pass
+RoleAssignmentAssertion@RoleAssignment17:
+  participantDesignations:
+    HolderSystemSlot: Robot-7
+    RoleValueSlot: InspectorRole
+    RoleTaxonomyEpistemeSlot: MaintenanceRoles-2026
+    EffectiveReferenceSchemeSlot: Maintenance-Scheme-A
+  assignmentInterval: [2026-07-13T09:00, 2026-07-13T17:00]
+
+performedUnderAssignment:
+  WorkOccurrenceSlot: InspectionWork-17
+  RoleAssignmentSlot: RoleAssignment-17
 ```
 
-This does not prove the robot's sensor capability, the inspection method's adequacy, or the quality of the result. Those claims use capability, method, evidence, and assurance patterns.
+The assertion interval describes the known extent of `RoleAssignment-17`; the direct assignment predicate must actually obtain throughout `InspectionWork-17` before `performedUnderAssignment` obtains. The relation attributes the inspection occurrence to Robot-7 under that assignment. Sensor capability, calibration state, inspection-method adequacy, report quality, and acceptance remain separate claims.
 
-#### F.6:7.2 - Review Report and Reviewer
+#### F.6:7.2 - Reviewer and Review Report
 
-A review report is an episteme. The reviewer is a person, service, or team modeled as an acting holon.
+Engineer Alice is identified as the exact holder and satisfies the A.1 `U.System` criterion. `ReviewAssignment-82` assigns her `ReviewerRole` under `ReviewRoles-v5` and `Review-Scheme-A` for one uninterrupted review assignment episode. `ReviewWork-82 performedUnderAssignment ReviewAssignment-82` attributes the dated work.
 
-The sentence "Report R has reviewer role" is repaired by asking two questions:
+`ReviewReport-82` is a separately identified `U.Episteme`. When `ReviewWork-82` first constitutes that exact episteme and the inception claim matters, A.15.PROD recovers the local work/change/identity claim. A later evidence relation may use the report for a decision. The report never fills `HolderSystemSlot` and never becomes the attribution relation.
 
-- Who or what performed the review work under `ReviewerRole`?
-- How is report R being used now: as evidence, source, publication, or result?
+#### F.6:7.3 - Standard Used During Safety Work
 
-The reviewer holder may be assigned a `U.RoleAssignment`. The report does not hold the role. Evidence use of the report goes to the evidence-use pattern.
+A safety method description cites a standard, and source prose says that the standard has a "normative role". F.6 does not create a work-facing assignment for the standard. The standard is an episteme used through the exact external-rule, source-use, specification-use, or evidence relation selected by the claim.
 
-#### F.6:7.3 - Standard Used in Safety Work
+A safety engineer or tool system may separately hold `SafetyAnalystRole` and perform dated safety work. That attribution names the engineer's or tool system's assignment; it does not use the standard as performer.
 
-A safety method description cites ISO 26262. The source phrase says that the standard has the "normative role" in the safety case.
+#### F.6:7.4 - Access Label and Approval Work
 
-F.6 result:
+An access directory says Alice has `DB-Admin`. That entry describes an access or policy relation under its own scheme. It is not automatically a work-facing `ApproverRole` assignment.
 
-```text
-Result: claimGovernedOutsideF6
-NotCarried: no HolderSlot, no U.RoleAssignment, no performed work
-```
-
-The standard is an episteme used through standard-use, source-use, requirement-use, or specification-use relations. A safety engineer or tool service may separately hold `SafetyAnalystRole` when performing work with that standard.
-
-#### F.6:7.4 - Access Label and Actual Approval Work
-
-An RBAC directory says Alice has `DB-Admin`. That directory state is an access or policy status in its own bounded context. It is not automatically a work-facing `ApproverRole`.
-
-If Alice approves a database migration, F.6 can check a separate assignment and work attribution:
-
-```text
-Alice#ApproverRole:MigrationApprovalContext@approval-window
-ApprovalWork_481 performedBy Alice#ApproverRole:MigrationApprovalContext@approval-window
-```
-
-The RBAC status may justify or constrain the approval only through the direct access, policy, evidence, source, or gate pattern that admits that use.
+If Alice performs `ApprovalWork-481`, recover a separate `U.RoleAssignment` under the role taxonomy used by the approval method and relate the work through `performedUnderAssignment`. The directory entry may support authorization or gate reasoning through its direct pattern; it does not substitute for the work assignment.
 

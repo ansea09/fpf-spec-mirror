@@ -6,12 +6,12 @@ section_id: "A.15.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__002_problem-frame.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:1 — Problem Frame"
-line_start: 24270
-line_end: 24275
+line_start: 24537
+line_end: 24542
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,6 +37,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
+  - "F.6"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
@@ -47,19 +48,15 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "U.Work admitted kind"
-  - "actual binding"
-  - "affected referent"
-  - "enactsMethod"
-  - "episode"
-  - "no automatic transformation"
-  - "occurrence assertion and record separation"
-  - "overlap"
-  - "performed resource-use fact"
-  - "performedBy"
-  - "retry"
-  - "work continuity"
-  - "work part"
+  - "actual performer U.System"
+  - "admitted U.Work kind"
+  - "containing system"
+  - "covering U.RoleAssignment"
+  - "enacted method"
+  - "optional direct bindings and resource use"
+  - "performedUnderAssignment"
+  - "separate result or consequence"
+  - "temporal extent"
   - "world-side dated occurrence"
 ---
 
@@ -67,5 +64,5 @@ keywords:
 
 After we have separated **who is assigned** (via `U.RoleAssignment`), **what capability is being relied on** (via `U.Capability`), **how in principle** the work is done (the exact `U.Method`), and which claim-bearing episteme describes that method when current (`U.MethodDescription`), we still need a precise concept for **what happened as performed work** in real time and space.
 
-A Work individual stands in actual performer, method, temporal, containing-system, affected-referent, binding, and resource-use relations only when those relations obtain world-side; they are not fields stored in the occurrence. A separate assertion or description may designate that individual and state the relations, but the episteme neither creates the relations nor becomes the Work occurrence.
+Every Work individual has actual performer-system, covering-assignment, enacted-method, temporal, and containing-system facts. It stands in a direct work-to-referent, binding, or resource-use relation only when that relation obtains world-side; none is a field stored in the occurrence. A separate assertion or description may designate that individual and state the relations, but the episteme neither creates the relations nor becomes the Work occurrence.
 

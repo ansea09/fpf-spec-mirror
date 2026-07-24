@@ -6,22 +6,19 @@ section_id: "A.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__003_problem.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:2 — Problem"
-line_start: 8563
-line_end: 8577
+line_start: 8662
+line_end: 8676
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2.3"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
-  - "A.20"
-  - "A.21"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -32,13 +29,11 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.26"
-  - "C.26.1"
   - "C.28"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.19"
   - "E.8"
   - "F.18"
@@ -46,23 +41,21 @@ dependencies:
   - "U.Mechanism"
   - "U.Signature"
   - "U.View"
-  - "U.Work"
 keywords:
-  - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
-  - "MUST"
   - "Rewrite as declarative predicate"
-  - "SHOULD"
-  - "and MAY)"
-  - "authority-wording split"
-  - "boundary"
-  - "boundary claim-classification fields"
+  - "Work versus non-Work effect"
+  - "acceptance"
+  - "actual occurrence"
+  - "and evidence"
+  - "atomic L/A/D/E claims"
+  - "delivery"
   - "in invariants"
-  - "probe/order/frame/export/state-reading claims"
-  - "promise/commitment/API/policy wording"
+  - "publication face"
   - "reference predicate IDs from CC when needed"
-  - "register-backed status boundary"
-  - "signature stack"
+  - "separate result"
+  - "signature and mechanism declarations"
+  - "six-way authority-word branch"
   - "undermines auditability"
   - "“MUST” appears inside Definition: blocks"
 ---
@@ -72,13 +65,13 @@ keywords:
 When boundaries are described without an L/A/D/E claim-classification discipline, four confusions dominate:
 
 1. **Laws vs admissibility.** Authors encode runtime gate predicates as “laws”, or write invariants using RFC‑style deontic verbs, blurring “what is true or defined” with “what is allowed to be applied”. FPF explicitly separates these: operational guard predicates belong to mechanisms (A.6.1), not signatures (A.6.0).
-   *Common mistake #0 — Applicability ≠ Admissibility (informative):* Signature `Applicability` scopes declared admissible use and bounded context; it is not a runtime entry gate. Runtime entry checks and admissibility predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. An `A-*` predicate may consume a current `A.2.8.PER` permission result as one condition, but it is not that result and does not institute a grant. If an accountable role assignment or admitted acting system is obligated to satisfy or enforce such a gate, express that as a `D-*` duty that references the `A-*` claim ID (per A.6.B), not by rewriting the gate as "X MUST …".
+   *Common mistake #0 — Applicability ≠ Admissibility (informative):* Signature `Applicability` scopes declared admissible use and bounded context; it is not a runtime entry gate. Runtime entry checks belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. Such a predicate may consume the direct object selected by one `A6-AW-*` row as input, but it neither creates that object nor proves gate passage. An accountable duty to enforce the gate is a separate `D-*` claim referencing the `A-*` ID.
 
-2. **Admissibility vs deontics.** RFC keywords such as `MUST`, `SHOULD`, and `MAY` can mask three distinct semantic destinations: an accountable duty, recommendation-as-duty, or prohibition commitment under `A.2.8`; an exact strong/weak permission result under `A.2.8.PER`; or a world-state entry/admissibility predicate under A.6.1. The keyword alone selects none. E.8 already requires deontics to remain distinct from admissibility and definitions and recommends predicate-style constraints for admissibility rather than RFC keywords.
+2. **Admissibility vs deontics.** `MUST`, `SHOULD`, `MAY`, and authority-looking words do not reveal whether a statement is a duty, one `A6-AW-*` permission branch, or an entry predicate. Classify the claim by its job; the word and owner family decide nothing.
 
-3. **Contract talk category errors.** “The interface promises…” is a metaphor. Promise content, speech act, commitment, permission result, and delivered work are different FPF objects: A.2.3 owns promise content, A.2.9 the communicative work, A.2.8 accountable duty/recommendation/prohibition, A.2.8.PER strong/weak permission and exercise/conflict, and A.15.1 delivered work with its evidence relations. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
+3. **Contract talk category errors.** “The interface promises…” is a metaphor. A.2.3 owns promise content; A.2.9 owns the instituting speech-act Work; A.2.8 and A.2.8.PER own the commitment or grant; A.15.1 owns only the dated Work occurrence. An application result, production, delivery/transfer, acceptance, and evidence use each follows its own row in `A.15.1:4.6` and is omitted when that claim is absent. A.6.C unpacks the boundary case; F.18 only names recovered terms when durable naming is current.
 
-4. **Effects without evidence or carriers.** Effects happen only in work; therefore, “effect claims” must be anchored to observation and carriers. Without A.7’s EntityOfConcern and Description-episteme / publication-carrier discipline, writers conflate the published description with runtime traces or treat a file as the system itself.
+4. **Effect claims without an actual occurrence.** A description, diagram, log, or metric can state or support an effect claim, but none creates the effect. Ground the exact actual occurrence first: use `U.Work` only when role-method-work facts obtain; use A.3/A.3.4 or the exact interaction or causal owner for natural, spontaneous, formal, or other non-Work change. Then name the observation and A.10 evidence path needed for reliance.
 
 These confusions destroy evolvability: you cannot swap implementations behind a stable signature if the signature already smuggles mechanism‑gates, audit logistics, or role-assignment commitments into “laws”.
 

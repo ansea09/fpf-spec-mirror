@@ -6,12 +6,12 @@ section_id: "C.22.PFR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__002_problem-frame.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:1 — Problem frame"
-line_start: 50356
-line_end: 50369
+line_start: 50761
+line_end: 50774
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,11 +26,12 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual condition"
-  - "actual problematic-for relation"
-  - "applicability predicate"
-  - "problem-for entity"
-  - "relation occurrence"
+  - "actual adverse condition"
+  - "actual adverse episode"
+  - "assessment and evidence separation"
+  - "condition-to-predicate input rule"
+  - "exact problem-for entity and use"
+  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:1 - Problem frame
@@ -39,7 +40,7 @@ keywords:
 
 **First useful move.** Name the actual-condition relation. Then name the exact predicate, entity, scope, and interval for which that predicate applies. If the condition falls on the adverse side of that applicable predicate, say plainly: "This condition is a problem for this entity in this scope." Expose a PFR occurrence only when another claim needs that Problem identity.
 
-**What goes wrong if missed.** A card or evaluation result is allowed to create a Problem; the same criterion is applied to the wrong entity or scope; a new description edition creates a false new Problem; or one continuously adverse episode is split every time evidence is sampled. Conversely, two adverse episodes separated by demonstrated non-adverse behavior collapse into one occurrence.
+**What goes wrong if missed.** A card or evaluation result is allowed to create a Problem; the same criterion is applied to the wrong entity or scope; a new description edition creates a false new Problem; or one continuously adverse episode is split every time evidence is sampled. Conversely, two adverse episodes separated by actual non-adverse behavior collapse into one occurrence.
 
 **What this buys.** Actual Problems can exist before discovery, can be referenced while still ongoing, and can be distinguished across repeated adverse episodes. One exact applicability relation supplies the predicate, problem-for entity, claim scope, and declared criterion-applicability window used by PFR; its actual occurrence extent is separately derived from uninterrupted obtaining. Measurements, evaluations, evidence, claims, cards, and method search remain available without becoming Problem identity.
 

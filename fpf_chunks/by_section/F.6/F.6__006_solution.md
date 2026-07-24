@@ -6,161 +6,143 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 87995
-line_end: 88121
+line_start: 88610
+line_end: 88712
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:4 - Solution
 
-Use F.6 as a local check over candidate assignment and optional work attribution.
+Govern performed-work attribution as one direct relation species under `U.Relation`.
+
+#### F.6:4.1 - Direct Relation Declaration
 
 ```text
-RoleAssignmentAttributionCheck:
-  CandidateRoleDescriptionRef:
-  CandidateHolderRef:
-  CandidateRoleValueRef:
-  BoundedContextRef:
-  AssignmentWindowDisposition:
-  HolderAdmissionDisposition:
-  RoleStateAdmissionRef:
-  CapabilityRequirementRef:
-  MethodOrMethodDescriptionRef:
-  WorkOccurrenceRef:
-  PerformedByRelation:
-  AssignmentJustificationRef:
-  EvidenceOrSourceUseRefs:
-  BridgeRef:
-  NotCarried:
-  Result:
+performedUnderAssignment : U.Relation
+  WorkOccurrenceSlot: U.Work, U.EntityRef
+  RoleAssignmentSlot: U.RoleAssignment, U.EntityRef
+
+when performedUnderAssignment(W, RA) obtains:
+  actualPerformerSystem(W, RA) := RA.HolderSystemSlot
 ```
 
-This check is not a new root kind. It is an application relation over values governed elsewhere. `A.2.1` governs `U.RoleAssignment`; `A.15.1` governs the `U.Work` occurrence; `F.10`, `A.10`, `B.3`, `E.17`, `E.10.D2`, and direct governing patterns govern status, evidence, assurance, publication, and source-use relations.
+`WorkOccurrenceSlot` names the dated performed occurrence governed by `A.15.1`. `RoleAssignmentSlot` names the obtaining assignment occurrence governed by `A.2.1`.
 
-#### F.6:4.1 - Slot Meanings
+For an obtaining attribution, the readable actual-performer cue is `S = actualPerformerSystem(W, RA) = RA.HolderSystemSlot`: `S` is the admitted `U.System` that acts, while `RA` is the assignment under which that action is attributed. The projection exposes the actor already carried by the assignment participant; it does not assert attribution when the relation fails to obtain and is not another relation kind or occurrence.
 
-| Slot | Admitted value | Meaning |
-| --- | --- | --- |
-| `CandidateRoleDescriptionRef` | `F.4` role-description episteme or local role gloss | The description that makes the role recognizable. It is not the role value and not the assignment. |
-| `CandidateHolderRef` | `U.System` or acting holon admitted by `A.2.1` | The candidate holder that may bear the role. Epistemes are not admitted here merely because they are used as evidence, source, standard, requirement, publication, or status bearer. |
-| `CandidateRoleValueRef` | `U.Role` governed by `A.2` | The work-facing role value being assigned. |
-| `BoundedContextRef` | `U.BoundedContext` | The local context that gives the role value meaning. |
-| `AssignmentWindowDisposition` | filled, inherited, unknown, not asserted, or not current for this claim | Whether assignment currentness is recovered well enough for the claim being made. |
-| `HolderAdmissionDisposition` | admitted, not admitted, lowered, or blocked with reason | Whether the holder kind and local predicates admit the assignment. |
-| `RoleStateAdmissionRef` | `A.2.5` state assertion or absence disposition when current | Whether role state or enactable-state admission matters for current work. |
-| `CapabilityRequirementRef` | `A.2.2` capability relation when current | Required ability or operating envelope; not proved by role name. |
-| `MethodOrMethodDescriptionRef` | `A.3.1`, `A.3.2`, or `A.15` reference when current | The method or method-description claim that the role assignment may serve. |
-| `WorkOccurrenceRef` | `U.Work` governed by `A.15.1` when current | The performed work occurrence being attributed. Missing work means no performed-work attribution claim is made. |
-| `PerformedByRelation` | `Work.performedBy = RoleAssignment` or `RoleEnactmentFact` | The direct relation or named fact that links work to the assignment. |
-| `AssignmentJustificationRef` | source, speech act, gate, decision, policy, evidence, or provenance relation governed by its direct pattern | Why the assignment claim is admitted or relied upon, when current. |
-| `EvidenceOrSourceUseRefs` | direct evidence, source, status, publication, assurance, or requirement-use relation refs | Direct non-F.6 uses that may justify, challenge, or qualify the assignment or work claim. They do not become role assignments. |
-| `BridgeRef` | `F.9` bridge when cross-context reuse is current | Cross-context explanation or substitution claim; not local assignment identity. |
-| `NotCarried` | stronger claim not made by this check | Examples: status truth, gate passage, method validity, capability proof, work occurrence, evidence sufficiency, cross-context substitution. |
-| `Result` | `assignmentAdmitted`, `assignmentBlocked`, `workAttributionAdmitted`, `workAttributionBlocked`, `claimGovernedOutsideF6`, or `claimLowered` | The local check result. |
+`performedBy(W, RA)` is a deprecated compatibility spelling of `performedUnderAssignment(W, RA)`. Existing claims or records may be read through that alias only after resolving `S = RA.HolderSystemSlot`. New practitioner-facing claims, examples, and conformance statements MUST use `S performed W under RA` or `performedUnderAssignment(W, RA)`, never wording that makes `RA` the performer.
 
-#### F.6:4.2 - The Check Sequence
+No evidence, log, status, method description, result, publication, context record, or role-state assertion is a generic participant in this relation.
 
-Use these questions in order. They are judgement questions, not a `U.WorkPlan`, registry procedure, or tool protocol.
+#### F.6:4.2 - Obtaining and Occurrence Identity
 
-1. **Role meaning recovered?** Does the role label point to a `U.Role` in one bounded context, usually through `F.4` and `A.2`?
-2. **Holder admitted?** Is the candidate holder a system or acting holon admitted by `A.2.1` and by the local role description?
-3. **Context and window adequate?** Is the bounded context explicit, and is the assignment window filled, inherited, unknown, not asserted, or not current for the claim?
-4. **Related prerequisites current?** Does this use need role state, capability, method, method description, work plan, evidence, gate, decision, or source-currentness?
-5. **Work occurrence current?** Is there a `U.Work` occurrence to attribute? If not, stop at assignment admission or blocker.
-6. **Performed-by relation admissible?** Can the work occurrence cite the assignment by `Work.performedBy = RoleAssignment` or `RoleEnactmentFact`?
-7. **Claim governed outside F.6?** If the current claim is status, evidence, source, publication, requirement, assurance, bridge, method, capability, or gate use, apply the direct governing pattern and do not encode that claim as role assignment.
+The relation `performedUnderAssignment(W, RA)` obtains when:
 
-#### F.6:4.3 - Assignment Result vs Work-Attribution Result
+1. `W` is one exact dated `U.Work` occurrence governed by `A.15.1`;
+2. `RA` is one obtaining `U.RoleAssignment` occurrence;
+3. the holder system in `RA.HolderSystemSlot` actually performed `W` under `RA.RoleValueSlot`;
+4. the assignment predicate for `RA` obtains throughout the temporal extent of `W`.
 
-Keep two local results separate.
+If the performer attribution concerns only a temporal, episode, or operational part of a larger work whole, first identify that part as the `U.Work` occurrence under `A.15.1` and use it in `WorkOccurrenceSlot`. Do not hide an unidentified work portion inside the attribution relation.
+
+When a receiving use needs an explicit relation-occurrence reference, use:
 
 ```text
-AssignmentAdmission:
-  CandidateHolderRef bears CandidateRoleValueRef in BoundedContextRef
-  with AssignmentWindowDisposition and HolderAdmissionDisposition.
+PerformedUnderAssignmentOccurrenceKey = <WorkOccurrenceSlot, RoleAssignmentSlot>
 ```
+
+The temporal extent is inherited from `WorkOccurrenceSlot`. Extending an open work interval or later recording its end does not create another attribution occurrence while both participants remain the same. A separately identified work occurrence, including a separately identified work part, or a different assignment episode yields a different relation occurrence.
+
+An evidence gap leaves a relied-on attribution assertion unresolved. It does not demonstrate that `performedUnderAssignment` failed to obtain. A demonstrated different performer or non-covering assignment episode can support the stronger negative claim.
+
+#### F.6:4.3 - Recover the Exact Assignment
+
+Before relying on the attribution, recover the four direct participants of the referenced generic assignment:
 
 ```text
-PerformedWorkAttribution:
-  WorkOccurrenceRef performedBy RoleAssignmentRef
-  with RoleEnactmentFact only when a named fact is useful.
+RoleAssignmentRelationSignature:
+  HolderSystemSlot: U.System, U.EntityRef
+  RoleValueSlot: U.Role, ByValue
+  RoleTaxonomyEpistemeSlot: U.Episteme, U.EpistemeRef
+  EffectiveReferenceSchemeSlot: U.ReferenceScheme, ByValue
 ```
 
-An assignment admission does not prove that work happened. A performed-work attribution does not prove that the method was valid, the capability was sufficient, the evidence is adequate, or the gate passed. Those claims use their governing patterns.
+One assignment occurrence is the maximal continuous period during which the assignment predicate obtains for those fixed four participants. A supporting assertion or occurrence description may state `assignmentInterval`, including an open end, but that field is not a participant and does not establish temporal coverage. Verify coverage for `performedUnderAssignment` from the actual obtaining history of the exact assignment occurrence and the exact work extent.
 
-#### F.6:4.4 - `RoleEnactmentFact`
+Do not replace these participants with one `Context` value. If source notation contains `Context`, recover what that token denotes and send it to its direct pattern. It may denote an actual system or work locus, a claim scope, or an independently selected `BoundedModelUseStructure`; those objects have different kinds and relations. A selected model-use structure can qualify the receiving attribution assertion, but it is not an optional participant of generic `U.RoleAssignment`.
 
-Use `RoleEnactmentFact` only as a name for the derived fact that a work occurrence was performed under a role assignment.
+#### F.6:4.4 - Attribution Check Sequence
+
+Use this short sequence for the current attribution claim:
+
+1. Name the exact `U.Work` occurrence whose performer is being asserted.
+2. Name or recover the exact `U.RoleAssignment` occurrence through its four fixed participants and uninterrupted obtaining extent.
+3. Check that the holder system named by the assignment is the system claimed to have performed the work.
+4. Check that the assignment episode covers the attributed work interval.
+5. State the direct `performedUnderAssignment(WorkOccurrenceSlot, RoleAssignmentSlot)` relation, or keep the attribution assertion unresolved when support is insufficient.
+6. Send role state, capability, method fit, evidence, source use, result, acceptance, publication, and bridge questions to their direct governing patterns.
+
+The sequence is application guidance, not a new check record, work plan, or workflow object. Its useful result is the repaired direct relation or an explicit stop at the missing relation participant or support claim.
+
+#### F.6:4.5 - Direct Neighboring Relations
+
+| Current question | Direct exit | Why it stays separate |
+|---|---|---|
+| Does the assignment obtain? | `A.2.1` | Assignment identity and occurrence precede work attribution. |
+| Does the assignment satisfy a current state predicate? | `A.2.5` | Role state has its own predicate, window, assertion, and evidence use. |
+| Can the holder perform the work? | `A.2.2` capability and capability-fit relation | Ability is not actual performance. |
+| Which method was enacted? | `A.3.1`, `A.3.2`, and `A.15.1` | Method, method description, and work occurrence have different identities. |
+| What supports the attribution assertion? | `A.10` or the direct evidence relation | Support concerns knowledge or use of obtaining. |
+| Which encountered material is being relied upon? | `A.15.4` | Reliance on a visible item is not the attribution relation. |
+| What changed, first existed, was measured or evaluated, was delivered, or was accepted in connection with the work? | `A.15.1` for the work, then the exact change, A.6.1 operation-result, A.15.PROD inception, measurement, evaluation, delivery, or acceptance governor | None of these entities, values, or relations is a participant in performer attribution. |
+| Does another vocabulary denote a corresponding role? | `F.9` | A bridge does not mutate either local assignment. |
+| Does a model-use organization change this attribution interpretation? | `A.1.1` plus the receiving attribution assertion or use | The receiving episteme or use may designate the selected structure; generic assignment and attribution signatures gain no optional participant. |
+
+#### F.6:4.6 - Source Shorthand and `RoleEnactment`
+
+`Holder#Role:Context@Window` is readable source notation only. Before reliance-bearing use, recover the assignment's holder system, role value, role-taxonomy episteme, effective reference scheme, and assignment window. Recover the object denoted by `Context` separately.
+
+When source wording says `RoleEnactment` or `RoleEnactmentFact`, recover the dated `U.Work` occurrence and the direct `performedUnderAssignment` relation. Do not retain a second enactment kind, fact object, or relation occurrence.
+
+#### F.6:4.7 - Lightweight Use
+
+Ordinary use can stop at a readable assertion:
 
 ```text
-RoleEnactmentFact:
-  workOccurrence: U.Work
-  performedBy: U.RoleAssignment
-  methodTrace?: U.Method or U.MethodDescription reference when current
-  window?: inherited from work occurrence or role assignment when current
+InspectionWork-17 was performed by Robot-7 under RoleAssignment-17.
 ```
 
-Do not write `U.RoleEnactment` as a durable root kind. If a log, table, database row, or publication stores a role-enactment entry, treat it as a record of this fact unless a direct governing pattern admits record-as-value for that use.
-
-#### F.6:4.5 - Status and Evidence Claims Governed Outside F.6
-
-Status and evidence claims often sit next to role assignment. They do not become role assignment.
-
-| Source sentence | F.6 result | Direct governing pattern |
-| --- | --- | --- |
-| "The standard plays the normative role for this method." | `claimGovernedOutsideF6`; no role assignment holder recovered. | standard-use, requirement-use, source-use, or `E.10.D2` |
-| "The report has evidence role for claim C." | `claimGovernedOutsideF6`; evidence-use relation around an episteme. | `A.10`, `B.3`, or direct evidence-use pattern |
-| "The dashboard says the service is ready." | `claimGovernedOutsideF6`; status-use, display, or source question. | `F.10`, `E.17`, gate or assurance pattern when current |
-| "Alice reviewed report R as ReviewerRole." | candidate assignment plus work attribution may be current. | `A.2.1`, `A.15.1`, and F.6 check |
-| "RBAC admin role allows access." | access or policy term first; work-facing role assignment only if actual work attribution is also current. | direct access, policy, status, or source-use pattern |
-
-#### F.6:4.6 - Compact Notation and Shortcut Boundary
-
-`Holder#Role:Context@Window` is allowed as a compact reading aid after the typed relation is recoverable.
-
-Baseline relation:
-
-```text
-RoleAssignment:
-  HolderSlot:
-  RoleValueSlot:
-  BoundedContextSlot:
-  AssignmentWindowSlot:
-```
-
-Compact notation:
-
-```text
-Holder#Role:Context@Window
-```
-
-The compact notation saves reader effort in examples, tables, and short work records. It weakens the representation by hiding SlotSpec names and any current assignment justification, role state, capability, method, evidence, source, or provenance relation. Therefore it is admitted only for local reading, examples, and compact citations after the typed slots are either filled, inherited, or explicitly not current for the claim.
-
-Do not use the compact notation as proof of assignment, proof of performed work, proof of capability, proof of method validity, proof of status, or proof of gate passage. If reliance-bearing use depends on any hidden slot, unfold the notation to the typed relation or lower the claim.
+Expose the relation declaration and occurrence key only when a receiving use must distinguish attribution occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered, lower the claim to "Robot-7 is named as performer in record R" and route that reliance through `A.15.4` or the direct source and evidence patterns.
 

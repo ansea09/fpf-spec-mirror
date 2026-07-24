@@ -6,24 +6,27 @@ section_id: "A.2.8.PER:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__009_conformance-checklist.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:7 — Conformance Checklist"
-line_start: 5992
-line_end: 6004
+line_start: 6025
+line_end: 6037
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.5"
   - "A.2.8"
   - "A.2.9"
+  - "A.6"
   - "A.6.B"
   - "A.6.C"
+  - "F.6"
   - "U.Work"
 keywords:
-  - "actual non-violation finding"
-  - "permission exercise"
+  - "checked non-violation"
+  - "exact policy rule or decision result"
+  - "matching dated-work exercise"
   - "permission or prohibition conflict"
   - "policy-valid strong grant"
   - "weak non-prohibition finding"
@@ -35,10 +38,10 @@ keywords:
 |---|---|
 | `CC-A2.8.PER-1` | The current result is exactly `NonProhibitionFinding@Context`, `GrantedPermissionRelation@Context`, `PermissionExerciseRelation@Context`, `NonViolationFinding@Context`, or `PermissionNormConflictFinding@Context`. |
 | `CC-A2.8.PER-2` | Beneficiary uses only `RoleRef | RoleAssignmentRef | PartyRef`, with its exact eligibility branch. |
-| `CC-A2.8.PER-3` | A strong grant names participants, instituting act, grantor assignment, policy/context, scope/window, currentness, and occurrence identity. |
+| `CC-A2.8.PER-3` | A strong grant names the admitted holder `U.System` that performs the instituting act, the exact grantor assignment whose `HolderSystemSlot` resolves to that system, participants, policy/context, scope/window, currentness, and occurrence identity; the assignment is authority ground and never the actor. |
 | `CC-A2.8.PER-4` | Weak findings require a current frame explicitly complete enough for the intended use; incompleteness returns `unresolved`. |
-| `CC-A2.8.PER-5` | Exercise names dated work, one current grant occurrence, action match, beneficiary eligibility, scope, and interval. |
+| `CC-A2.8.PER-5` | Exercise names dated work, the admitted `U.System` that performed it, the one current grant occurrence, scope, and interval; it answers action match and beneficiary eligibility from those objects and the exact covering assignment or on-behalf-of relation. It does not require generic match, eligibility, or beneficiary-binding findings, and the assignment never performs the work. |
 | `CC-A2.8.PER-6` | Neither exercise nor non-exercise establishes `NonViolationFinding@Context`; non-exercise is not violation, and exercise is not obligation satisfaction and does not consume a grant without an explicit policy. |
-| `CC-A2.8.PER-7` | A same-scope conflict names its direct policy/precedence owner and blocks only the unresolved work or reliance use. |
+| `CC-A2.8.PER-7` | A same-scope conflict is settled only by an applicable policy rule that selects the outcome or by a current resolution result produced by dated work of an admitted system under a covering assignment and independently obtaining decision-authority relation. Naming a policy, office, role, assignment, or “owner” alone leaves only the affected work or reliance use `unresolved`. |
 | `CC-A2.8.PER-8` | Permit episteme, carrier, evidence, admissibility, readiness, gate, capability, work, and result retain their direct owners. |
 

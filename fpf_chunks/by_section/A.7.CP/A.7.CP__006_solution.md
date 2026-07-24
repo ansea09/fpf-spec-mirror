@@ -6,21 +6,23 @@ section_id: "A.7.CP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__006_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:4 — Solution"
-line_start: 22107
-line_end: 22175
+line_start: 22359
+line_end: 22440
 dependencies:
   - "A.7"
   - "A.7.1"
   - "A.7.2"
 keywords:
   - "ClaimUsedAsReasoningBasisRelation@Context"
-  - "claim content"
-  - "constructive-premise compact"
-  - "reasoning-basis use"
+  - "adopted premise or conditional assumption"
+  - "constructive-premise claim"
+  - "dated reasoning Work"
+  - "exact receiving claim or result"
+  - "selective reopen"
 ---
 
 ### A.7.CP:4 - Solution
@@ -60,35 +62,48 @@ RelationSignature:
     SlotKind: ReasoningWorkSlot
     ValueKind: U.Work
     refMode: WorkRef
+  ReceivingReasoningResultSlot:
+    SlotKind: ReceivingReasoningResultSlot
+    ValueKind: U.Episteme
+    refMode: U.EpistemeRef
 
-semanticDirection: BasisClaimSlot -> ReasoningWorkSlot
+semanticDirection: BasisClaimSlot -> ReceivingReasoningResultSlot
+  through the named ReasoningWorkSlot
 ReasoningBasisPostureValue ::= adoptedPremise | conditionalAssumption
 
 RelationOccurrenceQualifiers:
   basisClaimIdRef: ClaimIdRef
-  boundedContextRef: U.BoundedContextRef
-  declaredReasoningUseRef: U.EntityRef
   posture: ReasoningBasisPostureValue
-  relianceInterval: QualificationWindowPolicy
+  reasoningUseScope?: U.ClaimScope
+  modelUseStructureRef?: U.StructureRef
+
+OccurrenceIdentity:
+  <exact basis-claim edition and claim ID,
+   exact reasoning-work occurrence,
+   exact receiving-result edition,
+   posture,
+   reasoningUseScope when present,
+   maximalContinuousRelianceInterval>
 ```
 
-`BasisClaimSlot` is the exact claim-bearing episteme and exact compact claim ID used. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation work that relies on it. `WorkRef` resolves to `U.Work`; the work's `performedBy` role assignment supplies the admitted system. The words “premise” and “assumption” are not relation participants.
+`BasisClaimSlot` is the exact claim-bearing episteme and exact compact claim ID used. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation `U.Work` that relies on it. `ReceivingReasoningResultSlot` is the exact claim, comparison, decision, or other claim-bearing result episteme whose content that work forms or revises using the basis claim. If the practical result is world-side, use the exact governed result claim that bears on it; the world-side object retains its direct owner. The already admitted holder `U.System` performs the work under an exact current `U.RoleAssignment`; when F.6 `performedBy(W, RA)` attribution is cited, `RA.HolderSystemSlot` must resolve to that same system. The assignment neither supplies the system nor performs the work. Claim episteme, work occurrence, use posture, receiving result, and any world-side result remain distinct; the words “premise” and “assumption” are not relation participants.
 
-The relation obtains during the maximal interval in which the named work actually relies on the exact claim in an inference, comparison, or choice for the declared context and use. Access, citation, publication, or co-location alone is insufficient. It applies only to reasoning-basis use; source currentness, evidence, publication, and work method remain with their owners.
+The relation obtains during the maximal continuous interval in which the named work actually relies on the exact basis claim to form or revise the exact receiving result. Access, citation, publication, co-location, or use of the claim elsewhere in the same work is insufficient. `reasoningUseScope` appears only when this premise use is narrower than or otherwise differs from the receiving result's declared claim scope; `modelUseStructureRef` appears only when an independently selected `BoundedModelUseStructure` changes interpretation. Source currentness, evidence, publication, work method, and the receiving result's own governance remain with their owners.
 
-One occurrence is identified by exact claim episteme and claim ID, exact work occurrence, bounded context and declared use, posture, and maximal continuous reliance interval. A change to claim edition, work occurrence, context/use, posture, or interval ends or splits the occurrence.
+One occurrence is identified by the exact basis-claim edition and ID, reasoning-work occurrence, receiving-result edition, posture, optional narrower use scope, and maximal continuous reliance interval. If one work uses the same basis claim for two independent results, record two relation occurrences that share the work participant but name different receiving results; do not duplicate the work. A change to any identity value ends or splits only the affected result-specific occurrence.
 
 #### A.7.CP:4.3 - Keep posture and transition explicit
 
-`adoptedPremise` means the work presently proceeds on the claim as accepted basis in its declared scope. `conditionalAssumption` means the work uses the claim in a narrower model, scenario, proof, or branch with an explicit test, defeater, or reopen condition. Every conditional assumption actually used can function as a premise inside that bounded subargument; not every adopted premise is conditional. Neither posture changes the claim episteme's intrinsic kind.
+`adoptedPremise` means the named work presently uses the basis claim as accepted support for the exact receiving result. `conditionalAssumption` means the work uses it for that result only in a narrower model, scenario, proof, or branch with an explicit test, defeater, or reopen condition. Every conditional assumption actually used can function as a premise inside that bounded subargument; not every adopted premise is conditional. Neither posture changes the basis-claim episteme's intrinsic kind.
 
-The same claim can be adopted in one work and conditional in another. It can also change posture within one work through two relation occurrences. Such a transition reopens only results that depended on the changed use; it does not trigger corpus-wide synonym or claim rewriting.
+The same claim can have different postures in different work or for different receiving results of one work. A posture transition creates a later occurrence only for the exact receiving result on that relation edge. Reopen that result and its dependents; another result of the same work remains closed when its separate premise-use occurrence and posture did not change.
 
 #### A.7.CP:4.4 - Use the cheapest truthful path
 
-1. Name the exact reasoning work and declared use.
-2. Cite only the compact IDs that are load-bearing.
-3. Record one relation occurrence per exact claim/posture/continuous-use identity.
-4. Keep evidence, currentness, source use, kind admission, subject construction, and work method with their direct owners.
-5. Stop when the result and its premise uses are recoverable. Do not inspect unused compact entries.
+1. Name the exact reasoning work and each exact receiving claim, decision, comparison, or other claim-bearing result it is forming.
+2. For each receiving result, cite only the compact IDs that are load-bearing.
+3. Record one relation occurrence per exact basis claim, receiving result, posture, and continuous reliance interval; reuse the same work reference across independent results.
+4. Name a narrower `U.ClaimScope` or selected `BoundedModelUseStructure` only when it changes this premise use.
+5. Keep evidence, currentness, source use, kind admission, subject construction, work method, and result governance with their direct owners.
+6. Stop when every load-bearing receiving result points to its exact premise-use occurrences. Do not inspect unused compact entries.
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__013_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:12 — Relations"
-line_start: 18484
-line_end: 18499
+line_start: 18730
+line_end: 18745
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -32,7 +32,7 @@ keywords:
 - `A.6.REL` governs explicit relation-occurrence individuation and the progressive threshold for stable reference.
 - `A.6.P` and `A.6.RSIR` recover the direct relation and its participants before slot typing begins.
 - `A.2.1` governs role-assignment predicate, identity, and participant meanings; A.6.5 governs their exact SlotSpec reading.
-- `C.2.1` governs episteme identity, assertion and description content, and their explicit fields. A field corresponds to a relation SlotSpec only when a compatible `RelationSignature` contains that SlotSpec for a participant meaning stated by the direct relation pattern.
+- `C.2.1` governs episteme identity, assertion and description content, and their semantic fields. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
 - `C.3` and `C.3.1` govern local participant kinds only when typed quantification or kind order is current.
 - `A.15.3` may cite an exact RelationSignature SlotSpec for a planned participant designation; A.15.2/A.15.3 govern the planned claim, the direct relation pattern owns the participant meaning and later actual-participation predicate, and A.6.5 supplies only SlotSpec declaration discipline. Operation arguments and results remain A.6.1 declarations.
 - `A.15.1` and `A.3.1` govern the constructive holonhood and identity of work and methods; `A.3.4` governs the actual-bounded-change identity of transformations; `E.18` governs selected transformation-flow structures over those independently governed transformations and adjacent loci.

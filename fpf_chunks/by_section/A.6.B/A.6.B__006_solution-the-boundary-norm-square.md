@@ -6,12 +6,12 @@ section_id: "A.6.B:4"
 section_title: "Solution — the Boundary Norm Square"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__006_solution-the-boundary-norm-square.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:4 — Solution — the Boundary Norm Square"
-line_start: 9502
-line_end: 9539
+line_start: 9614
+line_end: 9652
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -22,16 +22,15 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
-  - "A.6.P"
+  - "A.6.B"
+  - "A.6.C"
   - "A.7"
   - "B.3"
-  - "C.26.1"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "F.18"
   - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
@@ -41,9 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "(they are not obligations"
-  - "Keeps modalities separated and audit-ready"
-  - "L/A/D/E claim classification"
+  - "Keeps claim text"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -52,30 +49,36 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "accountable commitments"
-  - "admissible use"
-  - "alone select neither branch"
+  - "a duty or commitment D- claim MUST name its accountable subject"
+  - "accountable norms and grants"
+  - "actual exercise"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
-  - "atomic claims"
-  - "boundary norm square"
-  - "claim IDs"
-  - "laws vs entry predicates vs deontic results vs evidence"
+  - "atomic L/A/D/E claims"
+  - "conflict claims"
+  - "direct obtaining conditions"
+  - "entry predicates"
+  - "evaluated findings"
+  - "evaluation"
+  - "institutional obtaining"
+  - "laws"
   - "may"
-  - "non-admissible use"
+  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
+  - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
-  - "strong or weak permission results"
-  - "they describe adjudicable effects and evidence)"
-  - "triangle decomposition"
+  - "or observation that settles it and any evidence used for reliance"
+  - "they report adjudicable results rather than obligations"
+  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -100,10 +103,11 @@ The square yields four quadrants that are *mutually exclusive for atomic claims*
 | **In-description or in-theory** | **L — Laws & Definitions**                       | **D — Deontics & Commitments**             |
 | **In-work or in-execution**     | **E — Work‑Effects & Evidence**                  | **A — Admissibility & Gates**              |
 
-**Clarification (do not conflate).** The Governance column includes two different “normative” roles:
-* **D** is **role-assignment, `U.Role`, or admitted acting-system governance**. Duties, recommendations-as-duty, and prohibitions use `A.2.8 U.Commitment`; strong or weak permission claims use the exact `A.2.8.PER` grant, finding, exercise, or conflict object warranted by the statement.
-* **A** is **mechanism governance** (admissibility predicates: what the mechanism admits at application time).
-`A-*` is not an obligation on an actor; obligations belong in `D-*` and may reference `A-*`.
+**Clarification (classify the claim, not its owner family).**
+
+* Classify the exact atomic claim by what its sentence states and by the conditions that let a reader decide it.
+* The pattern that owns a referenced object supplies its predicate and obtaining conditions; it does not choose the claim's quadrant.
+* When permission wording is present, use the single permission-word branch in §8.4.1. It separates the possible jobs of that wording without inventing a common “permission result” kind.
 
 **Normative rule (single quadrant).** Each **atomic** claim **MUST** be classifiable under exactly one quadrant **L/A/D/E**.
 
@@ -115,8 +119,8 @@ The quadrants have canonical placements in the boundary stack:
 
 * **L → Signature layer:** `U.Signature.Laws` (and mechanism‑local semantic laws if present).
 * **A → Mechanism layer:** `U.Mechanism.AdmissibilityConditions` (entry gates / runtime admissibility predicates).
-* **D → Norms & deontic-results layer:** accountable duty/recommendation/prohibition commitments under `A.2.8`, or exact permission grant/finding/exercise/conflict results under `A.2.8.PER`; publication and accountability duties remain in the commitment branch (often rendered inside MVPK `TechCard`).
-* **E → Evidence bindings layer:** work‑adjudicated effects tied to carriers and measurement conditions (authored canonically in an Evidence-and-carriers section; commonly rendered inside MVPK `AssuranceLane` as a projection).
+* **D → Deontics & Commitments layer:** atomic governance claims that state an accountable duty, recommendation-as-duty, prohibition, or commitment. When permission wording is live, §8.4.1 decides whether its claim also belongs here.
+* **E → Work-Effects & Evidence layer:** truth-conditional claims whose satisfaction requires actual work, evaluation, observation, or produced carriers.
 
 A published view **MUST NOT** introduce new semantic claims outside this L/A/D/E-classified claim set. **E.17 (MVPK)** is a specialization that enforces this rule for a fixed set of publication face kinds.
 

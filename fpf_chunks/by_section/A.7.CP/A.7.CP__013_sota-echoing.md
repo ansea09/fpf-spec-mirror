@@ -6,21 +6,23 @@ section_id: "A.7.CP:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__013_sota-echoing.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:11 — SoTA-Echoing"
-line_start: 22224
-line_end: 22234
+line_start: 22491
+line_end: 22501
 dependencies:
   - "A.7"
   - "A.7.1"
   - "A.7.2"
 keywords:
   - "ClaimUsedAsReasoningBasisRelation@Context"
-  - "claim content"
-  - "constructive-premise compact"
-  - "reasoning-basis use"
+  - "adopted premise or conditional assumption"
+  - "constructive-premise claim"
+  - "dated reasoning Work"
+  - "exact receiving claim or result"
+  - "selective reopen"
 ---
 
 ### A.7.CP:11 - SoTA-Echoing

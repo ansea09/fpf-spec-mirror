@@ -6,18 +6,19 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 85715
-line_end: 85924
+line_start: 86289
+line_end: 86509
 dependencies:
   - "A.11"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "A.8"
   - "C.2.1"
@@ -39,11 +40,11 @@ keywords:
 
 ### E.24.UK:4 - Solution
 
-Treat durable U-kind admission as an ontology decision about one candidate classificatory distinction, not as a relation between a public name and a settlement. Recover the governed individuals, identity or membership rule, intended extent, non-member boundary, and action-facing claims first. Record the decision in a DRR or another claim-bearing episteme under `E.9`; the decision creates no project-side `U.Relation` occurrence.
+Treat durable U-kind admission as a claim-bearing decision about one identified entity, not as a relation between a public name and a settlement and not as a bundle of future members, rules, boundaries, and uses. Select the decision's EntityOfConcern by the entry rule above; keep the proposed kind criterion, extent, spelling, and use-enabling claims in its ClaimGraph. Record the decision in a DRR or another claim-bearing episteme under `E.9`; the decision creates no project-side `U.Relation` occurrence.
 
-The compact block below is a publication form for that decision episteme. Its labels prompt decision claims; they are not kind participants, SlotSpecs, or a project-side relation. Treat a filled block as the decision episteme only when its ClaimGraph, exact candidate classificatory distinction as EntityOfConcern, and effective ReferenceScheme are recoverable under C.2.1. Otherwise it remains only a form prompt and no `AdmissionDisposition` may be relied on from it.
+The compact block below is a publication form for that decision episteme. Its labels prompt decision claims; they are not kind participants, SlotSpecs, or a project-side relation. Treat a filled block as the decision episteme only when its ClaimGraph, one exact EntityOfConcern selected by the entry rule, and effective ReferenceScheme are recoverable under C.2.1. A list of candidate members, rules, or names does not fill the EntityOfConcern field. Otherwise the block remains only a form prompt and no `AdmissionDisposition` may be relied on from it.
 
-Every admitted durable U-kind has one primary E.24-compatible settlement. For a newly admitted durable kind, that settlement establishes exactly one of these forms:
+Every admitted durable U-kind points to one accepted `E24FamilySettlementDecision` result governed by `E.24:4.0a`; E.24.UK does not define a second compatibility test. For a newly admitted durable kind, that shared result establishes exactly one of these forms:
 
 - a root U-kind for a governed subject whose identity and extent are carried by its direct pattern;
 - a same-individual dependent U-kind whose direct pattern adds a stable membership condition to individuals already admitted under one root U-kind;
@@ -59,30 +60,38 @@ Use this compact decision episteme when the admission is contested or load-beari
 UKindAdmissionDecision:
   DecisionEpistemeIdentity:
     ClaimGraph:
-    EntityOfConcern: exact candidate classificatory distinction under decision.
+      CandidateGovernedIndividuals:
+      CandidateIdentityOrMembershipRule:
+      IntendedExtentAndNonMemberBoundary:
+      ActionFacingClaimsEnabled:
+      ExistingKindAndRelationCoverage:
+      E24SettlementRef: exact accepted `OnticSettlementResult` governed by `E.24:4.0a` when one is reused | provisional `OnticSettlementResultRef` output of this same decision when both outputs are new.
+      AtomicCoDecisionRefIfBothNew?: one decision whose two outputs remain provisional together.
+      DirectGoverningPatternRef:
+      DurableMembershipRuleRef:
+      DurableMembershipReferenceSchemeRef:
+      AdmissionDisposition: root | same-individual-dependent | identity-dependent | reuse | local-kind | reject
+      DependentRootUKindRef?:
+      SameIndividualMembershipRuleRef?:
+      RootInclusionImplicationRef?:
+      IdentityDependenceRelationAndDiscriminators?:
+      ReusedUKindRef?:
+      LocalKindDeclarationRef?:
+      RejectedCandidateRecoveryRef?:
+      CandidateSpelling?:
+      NamingPatternIfAdmitted?:
+      ReopenCondition:
+    EntityOfConcern: one identified C.3 `U.Kind`, proposal episteme, or source-construct entity selected before judgment.
     EffectiveReferenceScheme:
-  CandidateGovernedIndividuals:
-  CandidateIdentityOrMembershipRule:
-  IntendedExtentAndNonMemberBoundary:
-  ActionFacingClaimsEnabled:
-  ExistingKindAndRelationCoverage:
-  E24SettlementRef:
-  DirectGoverningPatternRef:
-  AdmissionDisposition: root | same-individual-dependent | identity-dependent | reuse | local-kind | reject
-  DependentRootUKindRef?:
-  SameIndividualMembershipRuleRef?:
-  IdentityDependenceRelationAndDiscriminators?:
-  ReusedUKindRef?:
-  LocalKindDeclarationRef?:
-  RejectedCandidateRecoveryRef?:
-  CandidateSpelling?:
-  NamingPatternIfAdmitted?:
-  ReopenCondition:
 ```
 
-`AdmissionDisposition` is the only disposition field. Supply only the detail required by its value: `DependentRootUKindRef` plus `SameIndividualMembershipRuleRef` for `same-individual-dependent`; `DependentRootUKindRef` plus `IdentityDependenceRelationAndDiscriminators` for `identity-dependent`; `ReusedUKindRef` for `reuse`; `LocalKindDeclarationRef` for `local-kind`; and `RejectedCandidateRecoveryRef` for `reject`. The root case is already completed by `E24SettlementRef` and `DirectGoverningPatternRef`.
+`AdmissionDisposition` is the only disposition field.
 
-The decision episteme describes the selected ontology settlement. It is neither the candidate kind nor any individual classified by that kind. `CandidateSpelling` and `NamingPatternIfAdmitted` remain optional because admission can be settled before the final public name.
+- `E24SettlementRef` names an accepted settlement when one is reused. In an atomic co-decision it names the provisional settlement output of that same decision; neither output is accepted until both branches pass.
+- Every positive admission cites the durable-membership rule and reference scheme. `same-individual-dependent` also cites its root, membership rule, and root-inclusion implication. `identity-dependent` instead cites one already governed dependence relation and all identity discriminators; if that relation is missing, stop.
+- `reuse`, `local-kind`, and `reject` cite `ReusedUKindRef`, `LocalKindDeclarationRef`, or `RejectedCandidateRecoveryRef` respectively. A root closes only with the shared settlement, direct governing pattern, and durable-membership rule.
+
+The decision episteme is a claim-bearing object about the selected EntityOfConcern; its ClaimGraph describes the proposed and selected ontology settlement. It is not identical to that local kind, proposal episteme, or source construct, and it is not any individual classified by the proposed kind. `CandidateSpelling` and `NamingPatternIfAdmitted` remain optional claims because admission can be settled before the final public name.
 
 #### E.24.UK:4.1 - Positive Test For A Durable U-kind
 
@@ -90,53 +99,86 @@ Test a proposed new durable U-kind against these eight conditions. It may receiv
 
 1. **Governed individuals.** The candidate classifies identifiable governed individuals, not source expressions, declaration fields, table columns, reference suffixes, publication forms, or mathematical representation elements.
 2. **Stable identity or membership.** The direct pattern supplies an identity, grounding, recognition, or membership rule that reidentifies individuals and determines whether they enter the intended extent.
-3. **Reviewable witness.** The settlement cites the exact operational witness. For a relation kind, this is the direct relation pattern that governs relation-participant meanings, obtaining, and occurrence identity. For another candidate, use its direct constructive, classificatory, or typed-membership witness. A signature, Concept-Set row, formal declaration, or mathematical trace counts only when its governing pattern states the correspondence to the governed individuals.
+3. **Reviewable witness.** Cite the direct operational test. A relation-kind candidate cites its direct pattern's participant meanings, obtaining, applicability, and occurrence identity. If no current direct relation closes the claim, `A.6.RCD` may return a derived or primitive candidate with a proposed direct subject settlement; its local-claim and predicate-definition exits are not kind witnesses. Every other candidate cites its direct constructive, classificatory, or membership test. A signature, row, declaration, or mathematical trace counts only when its owner states the correspondence to the governed individuals.
 4. **Action-facing need.** FPF users need to state, compare, constrain, transform, or otherwise reason about those individuals under this kind; a wording preference alone does not qualify.
 5. **Non-duplication.** Existing U-kinds, direct relations, declaration SlotKinds, local C.3 kinds, and selected structures cannot preserve the needed distinction without this durable kind.
 6. **Direct governing locus.** One primary governing pattern or accepted governed source set states the kind's identity or membership, intended extent, admissible use, and non-use boundary.
-7. **E.24-compatible settlement.** The proposed durable kind has a root, same-individual-dependent, or identity-dependent settlement; the decision names the primary governed subject kind, identity or membership rule, direct governing pattern, named dependent-pattern reliance, and non-use boundary.
+7. **Shared E.24-family settlement.** Fill `E.24:4.0a` with the subject kind and identity rule, the smallest governed relation set needed by the named use, any owner-selected identity-bearing relation, declarations actually reused, direct governors, receiving use, and non-use and reopen boundaries. Also cite the durable-membership rule and scheme, the same-individual inclusion law or identity-dependence relation when applicable, and the exact result references. If both ontic and public kind are new, one atomic co-decision returns separate provisional outputs without circular premises.
 8. **By-value dependence.** Current or selected dependent patterns actually rely on the kind by value rather than only repeating its label.
 
 If any positive-admission condition fails, do not force the candidate into a durable root or dependent form. Select `reuse` when an admitted durable kind already covers the distinction, `local-kind` when bounded C.3.2 classification is sufficient, or `reject` when no classificatory distinction remains. Recover the exact direct relation, declaration component, selected structure, episteme, publication form, representation element, or source wording that carries the current claim. Only after disposition is settled may `F.18`, `F.17`, `F.8`, or `F.5` select and expose a public name.
 
-#### E.24.UK:4.2 - Six Admission Dispositions And Current Examples
+#### E.24.UK:4.2 - Six Admission Dispositions
 
 The typed `AdmissionDisposition` has exactly six values:
 
 1. **`root`.** The candidate classifies individuals whose identity, extent, and recognition are governed by its primary direct pattern.
-2. **`same-individual-dependent`.** The candidate classifies individuals already admitted under one root U-kind. The root pattern keeps individual identity; the dependent pattern adds a stable membership condition and an action-facing use.
-3. **`identity-dependent`.** The candidate classifies a distinct individual whose identity cannot be stated without one exact dependence on a named root-kind individual. The dependent pattern states that dependence and every additional identity discriminator.
+2. **`same-individual-dependent`.** The candidate classifies individuals already admitted under one root U-kind. The root pattern keeps individual identity; the dependent pattern adds a stable membership condition and an action-facing use. The accepted settlement also states the implication: if that same individual satisfies the dependent condition, it is a member of the named root kind.
+3. **`identity-dependent`.** The candidate classifies a distinct individual whose identity cannot be stated without one named root-kind individual. The dependent pattern must already govern the exact dependence relation between those two individuals and every additional discriminator. A holder or root reference without that relation does not close admission.
 4. **`reuse`.** The needed individuals and distinction are already covered by one admitted durable U-kind. Reuse that exact kind and its direct governing pattern; do not admit a duplicate root or dependent kind.
 5. **`local-kind`.** Record this non-admission exit only with one exact current C.3.2 declaration through `LocalKindDeclarationRef`. The distinction remains local under the C.3 family and does not become a root or dependent durable U-kind; E.24.UK does not restate the declaration's internal mechanics.
 6. **`reject`.** No durable or local classificatory distinction survives recovery. Keep the exact relation, declaration component, selected structure, episteme, publication object, representation element, or source wording that carries the claim. A contingent qualification whose membership is only temporary participation in a relation belongs here; use Plain relation-defined wording when useful.
 
 Only `root`, `same-individual-dependent`, and `identity-dependent` admit the candidate as a durable U-kind. `reuse`, `local-kind`, and `reject` are distinct exits, not weakened dependent admissions.
 
-The following table is the authoritative disposition for every candidate used as an admission example in this pattern:
+Read kind, individual, dependence, and part separately:
 
-| Candidate | `AdmissionDisposition` and constructive form | Governing identity or membership rule | Boundary that preserves the disposition |
+- `U.WorkPlan` is a kind name. `MaintenancePlan_Q3` is one individual that may be classified by that kind. The name is not the plan individual, and neither is a declaration slot or record field.
+- Same-individual dependence adds membership, not another object. C.2.1 first identifies `MaintenancePlan_Q3` as one `U.Episteme`; when A.15.2's plan-membership predicate holds, that same episteme is also a `U.WorkPlan`. No second plan individual and no parthood claim follow.
+- Identity dependence concerns two distinct individuals joined by a governed relation that contributes to one individual's identity. A capability and its holder system would need that relation. Current A.2.2 supplies a holder-indexed identity tuple but not the required capability-to-holder relation, so `U.Capability` remains blocked; a holder field or reference is not the missing relation.
+- Dependence does not imply parthood. Even if a capability-to-holder dependence relation is governed later, that fact alone does not make the capability a part or characteristic of the holder system. A parthood conclusion needs its own direct part relation under A.1 and that relation's obtaining rule.
+
+None of a kind name, membership, identity dependence, or parthood follows from another. When the contrast is kind versus instance, say **kind**, **individual**, **instance**, or **concrete governed object**, not bare **value**. Reserve slot-filler wording for actual declaration slots and record-field wording for records.
+
+#### E.24.UK:4.2a - Durable Membership and C.3 Projection
+
+Durable U-kind membership is separate from C.3 local-kind reasoning. For an independently identified candidate `x`, `x : K` holds exactly when the direct predicate `M_K` holds under the reference scheme in the accepted settlement; the extent of `K` is all such candidates. A row, spelling, record, or unresolved evaluation changes neither that predicate nor the world-side extent.
+
+For `same-individual-dependent`, the settlement states `M_Kd(x) -> M_Kr(x)` and the same individual keeps root identity. For `identity-dependent`, the direct pattern governs a two-place dependence relation from the distinct dependent individual to one exact root-kind individual, states when it obtains, and supplies every additional discriminator. A root reference alone closes neither form.
+
+The current capability and structure candidates stop at the exact missing-governor results in section 4.2c; do not invent a dependence relation to make an example pass. A project that also needs bounded quantification may declare a C.3.2 local kind whose criterion cites the already governed durable predicate. That projection neither admits the durable kind nor creates an automatic `U.SubkindOf` edge.
+
+#### E.24.UK:4.2b - Accepted Admission-Result Registry
+
+Each `E24UK-AR-*` reference identifies one accepted C.2.1 decision episteme; the row is only its compact projection. The result's EntityOfConcern is the direct-owner source construct, its ClaimGraph carries the disposition, criterion, reliance, and boundary, and its effective scheme is `FPFCoreReferenceScheme`. For a non-bootstrap row, `<AdmissionResultRef>#settlement` identifies the distinct accepted `OnticSettlementResult` in that decision. The bootstrap instead uses companion result `E24-OS-UONTIC-BOOT-01`.
+
+`RG` means reconstructed and grandfathered. The exact result reference, not the row wording, is the reliance point. Every row reopens if its direct membership or identity predicate, intended extent or named reliance, nearest non-use boundary, or shared E.24 settlement law changes; carrier, layout, and spelling changes alone do not reopen it.
+
+`E24-CO-UONTIC-BOOT-01` takes the E.24 source construct, shared settlement rule, receiving use, and non-use boundary without presupposing `U.Ontic`. It returns `E24-OS-UONTIC-BOOT-01` and `E24UK-AR-UONTIC-BOOT-01`; neither the schema, pattern, decision, nor kind thereby becomes an ontology-unit individual.
+
+| Result | U-kind and disposition | Direct owner and decisive test | Named reliance; nearest non-member |
 | --- | --- | --- | --- |
-| `U.System` | `root`; retained root U-kind | `A.1` remains the direct owner of system identity and recognition | role assignment, capability, method enactment, performed work, transformation participation, and evidence remain neighboring relations; none makes an otherwise failing candidate a system |
-| `U.Episteme` | `root`; retained root U-kind | `C.2.1` identifies one episteme by exact claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` through `EpistemeConstitutionRelation` | carrier, viewpoint, publication, and dependent-kind membership add no second episteme identity |
-| `U.Method` | `root`; retained root U-kind | `A.3.1` governs one semantic way of doing and its method-holarchy identity and composition rules | method description, mechanism, work plan, and dated work remain different governed objects |
-| `U.Work` | `root`; retained root U-kind | `A.15.1` is the sole direct owner of the dated performed occurrence and of the judgment that records resolve to it under the declared work-identity tolerances and continuity-policy description | actual change, A.6.1 result-position bindings, domain results, delivery, acceptance, evaluation, and downstream effects retain separate direct owners; none is a work-identity discriminator or a generic work-result relation |
-| `U.Transformation` | `root`; retained root U-kind | `A.3.4` identifies one independently grounded actual bounded change through the exact changed referent, temporal extent or formal ordering, boundary conditions, actual pre-boundary, during-boundary, and post-boundary subject facts, and continuity or reidentification rule | a desired, planned, modeled, or asserted change, method, mechanism, work, flow structure, representation, evidence, publication, result, or receiving-use relation remains separately governed; none by itself makes the transformation actual |
-| `U.Role` | `root`; retained root U-kind, not an admitted holon kind | `A.2` governs one enactment-facing role value interpreted through one named role-taxonomy episteme and its effective `U.ReferenceScheme` | the holder `U.System`, obtaining `U.RoleAssignment`, taxonomy episteme, reference scheme, selected model-use structure, capability, role state, method admission, work, responsibility, and evidence remain separately governed; a proposed role decomposition returns to A.2.7 and the direct owner of the recovered object or relation |
-| `U.Relation` | `root`; retained root U-kind | `A.6.REL` supplies common occurrence discipline and each direct relation pattern supplies participant meanings, obtaining, and occurrence identity | an assertion, description, designator, reference, tuple, or graph edge is not the obtaining occurrence |
-| `U.WorkPlan` | `same-individual-dependent` under `U.Episteme`; retained | `A.15.2` recognizes an episteme whose content declares intended `U.Work` over a horizon through plan items and their organization; C.2.1 keeps identity | planned methods, role conditions, windows, budgets, and acceptance targets are plan content or neighboring relations and do not make the intended work occur |
-| `U.RoleAssignment` | `same-individual-dependent` under `U.Relation`; retained | `A.2.1` governs an obtaining relation occurrence among holder system, role value, role-taxonomy episteme, and effective reference scheme, continuing while the predicate obtains without interruption for those participants | an interval belongs to an assertion or occurrence description; a model-use structure qualifies only a narrower receiving use unless a direct species makes it required |
-| `U.Capability` | `identity-dependent` under the named holder `U.System`; retained | `A.2.2` identifies the holder's ability through holder identity, work family or result class, envelope, measure set, qualification window, and currentness condition | evidence, evaluation, assignment, and actual work remain neighboring relations and do not constitute the capability by record presence |
-| `U.MethodDescription` | `same-individual-dependent` under `U.Episteme`; retained | `A.3.2` admits an already identified episteme whose exact EntityOfConcern is one admitted `U.Method` and whose claims, interpreted under the effective `U.ReferenceScheme`, make at least one substantive claim about that method as a way of doing: its transformation or enactment concern, applicability, precondition, effect, bound, or internal method composition; C.2.1 keeps identity | naming the method, giving bibliographic metadata, or stating approval alone does not establish membership; claims about the internal organization of one composite method retain that composite `U.Method` as EntityOfConcern, while claims about an independent relation structure among several methods have the selected `U.Structure` as EntityOfConcern and do not meet this membership rule; adequacy for a receiving use and changes of C.29 representation, publication occurrence, publication form, `U.PresentationCarrier`, approval claim, or work occurrence remain separate |
-| `U.Viewpoint` | `same-individual-dependent` under `U.Episteme`; retained | C.2.1 identifies exact episteme P whose EntityOfConcern is one A.22-selected viewpoint-convention `U.Structure`; E.17.0 recognizes membership of that same P only when its fixed claims state the target-kind criterion, exact concerns and stakeholder or audience referents when current, independently admitted episteme kinds, semantic-form and coverage rules, completeness or omission rules, and the describing-use frame; under the effective reference scheme, `ViewpointId i` designates exact P and resolving `U.ViewpointRef r` that uses i yields P, while i, r, and P remain distinct | neither designation nor reference resolution grants `U.Viewpoint` or `U.View` membership; E.17.0 owns membership; `DescriptionContext` is a separate one-viewpoint use qualification whose `viewpointRef` resolves P, selects no view, and establishes no conformance |
-| `U.View` | `same-individual-dependent` under `U.Episteme`; retained | E.17.0 recognizes membership of the same episteme E when `EpistemeViewpointConformanceRelation(E,P)` obtains for at least one exact admitted `U.Viewpoint` episteme P; C.2.1 keeps E identity | direct authoring and A.6.3 viewing are construction routes only; selection, rendering, carrier, query execution, publication occurrence, or graphical appearance establishes no view membership |
-| `RoleRelationStructure` | `reuse` of admitted `U.Structure`; no new durable U-kind | A.2.7 selects one A.22-governed dependent structure over declared `U.Role` values and exact obtaining role-relation occurrences under the named role taxonomy and effective reference scheme | the selected organization is not a root kind, role holon, role taxonomy, assignment configuration, acting system, or work; participant values and direct relations keep their own governors, and a graph or table remains a representation |
-| `MethodRelationStructure@BoundedContext` | `reuse` of admitted `U.Structure`; no new durable U-kind | B.1.5 governs this below-whole-method exit; A.3.1 and A.22 govern the method-side values and the selected context-local structure over their exact direct relations | when actual submethods constitute one composite method, the governed whole is `U.Method` under A.3.1 and the B.1.5 composition rule; description, lens, plan, work, and mechanism remain separate |
-| candidate already covered by one admitted durable U-kind | `reuse`; no new durable U-kind | the exact `ReusedUKindRef`, its accepted E.24 settlement, and its current direct governing pattern remain authoritative | reuse creates no rival identity, extent, or public kind; naming work may expose an already admitted name but does not admit another kind |
-| classificatory distinction with one exact current C.3.2 declaration reference | `local-kind`; no durable U-kind | `LocalKindDeclarationRef` points to that exact declaration; the C.3 family remains the direct owner | the distinction remains local under the C.3 family and does not become a root or dependent durable U-kind; without the exact reference, `local-kind` does not close by label |
-| `U.ActionInvitationPrecisionRestoration` | `reject`; no durable U-kind | A.6.A explicitly governs action-invitation precision restoration as a pattern move and admits no kind with this spelling; recover the exact `actionInvitation(...)` relation and whichever sense, normal form, candidate action, site, would-be enactor, or neighboring governed value is current | rename the public title to the pattern object; relation participants and neighboring method, work, capability, commitment, evidence, gate, and publication values keep their direct owners |
-| `U.EpistemePublication` | `reject`; no durable U-kind | an episteme keeps its C.2.1 identity before, during, and after contingent participation as the selected edition in `EpistemePublicationRelation` | use Plain `published episteme` only in a claim that states obtaining participation and identifies or permits recovery of the exact E.24.PUB publication occurrence; Plain wording is neither a reference nor a designator and does not resolve |
+| `E24UK-AR-UENTITY-RG-01` | `U.Entity`; `root`, RG | `A.1:4.1`; individuable and referenceable | all direct-owner references; a label or row is not thereby an entity |
+| `E24UK-AR-UHOLON-RG-01` | `U.Holon`; `root`, RG | `A.1:4.2`; six-part constructive holon criterion | recognition of the four root holon kinds; a collection or part list is not a holon by form |
+| `E24UK-AR-UONTIC-BOOT-01` | `U.Ontic`; `root`, bootstrap | `E.24:4` plus `E24-OS-UONTIC-BOOT-01`; connected action-facing ontology unit | E.24-family and dependent ontology reuse; a topic cluster, form, or registry row is not the unit |
+| `E24UK-AR-USYSTEM-RG-01` | `U.System`; `root`, RG | `A.1:4.4`; constructively recognized acting holon | A.2 and A.15; a role, assignment, method, capability record, or work record is not a system |
+| `E24UK-AR-UEPISTEME-RG-01` | `U.Episteme`; `root`, RG | `C.2.1:4.1`; ClaimGraph, EntityOfConcern, and scheme constitute one episteme | A.3.2, A.15.2, E.17.0, and this registry; carrier, publication, or view use adds no second identity |
+| `E24UK-AR-UMETHOD-RG-01` | `U.Method`; `root`, RG | `A.3.1:4`; one semantic way of doing | method-description and enactment uses; a description, plan, or dated work occurrence is not the method |
+| `E24UK-AR-UWORK-RG-01` | `U.Work`; `root`, RG | `A.15.1:4`; one dated performed occurrence | A.15 and P2W; a plan, log, result, delivery, or effect is not the Work occurrence |
+| `E24UK-AR-UTRANSFORMATION-RG-01` | `U.Transformation`; `root`, RG | `A.3.4:4`; one grounded actual bounded change | transformation and production uses; a planned, modeled, asserted, or represented change is not actual change |
+| `E24UK-AR-UROLE-RG-01` | `U.Role`; `root`, RG | `A.2:4`; one role value under its taxonomy and scheme | assignment and Work uses; holder, assignment, capability, method, or work is not the role value |
+| `E24UK-AR-URELATION-R11-01` | `U.Relation`; `root`, reconstructed | `A.6.REL:4` plus the direct relation pattern; obtaining occurrence with identity rule | occurrence-bearing epistemes and relations; predicate, assertion, designator, tuple, or edge is not the occurrence |
+| `E24UK-AR-UWORKPLAN-RG-01` | `U.WorkPlan`; `same-individual-dependent` under `U.Episteme`, RG | `A.15.2:4`; intended-work membership plus root inclusion | planning and readiness; a calendar image, possible work, method description, or performed Work is not a WorkPlan |
+| `E24UK-AR-UROLEASSIGNMENT-RG-01` | `U.RoleAssignment`; `same-individual-dependent` under `U.Relation`, RG | `A.2.1:4`; obtaining assignment occurrence plus root inclusion | attribution and responsibility; a holder-role pair, window, or assertion record is not the occurrence |
+| `E24UK-AR-UMETHODDESCRIPTION-RG-01` | `U.MethodDescription`; `same-individual-dependent` under `U.Episteme`, RG | `A.3.2:4`; substantive claims about one admitted method | method use and planning; mention, metadata, approval, publication, or representation is not membership |
+| `E24UK-AR-UVIEWPOINT-RG-01` | `U.Viewpoint`; `same-individual-dependent` under `U.Episteme`, RG | `E.17.0:4`; fixed viewpoint-convention membership claims | E.17.0; an identifier, reference, DescriptionContext, carrier, or structure does not grant membership |
+| `E24UK-AR-UVIEW-RG-01` | `U.View`; `same-individual-dependent` under `U.Episteme`, RG | `E.17.0:4`; `EpistemeViewpointConformanceRelation(E,P)` obtains | E.17.0 and A.6.3; authoring, rendering, query execution, or publication does not grant membership |
 
-Each row carries exactly one of the six dispositions. The retained same-individual kinds do not gain another constitution relation or identity discriminator; their direct patterns judge membership of the already identified root individual. The identity-dependent case identifies a different individual through its declared dependence. The `reuse`, `local-kind`, and `reject` rows remain non-admission exits.
+#### E.24.UK:4.2c - Open Prerequisites, Blocked Candidates, and Non-admission Results
+
+The admission form also consumes public kind names that do not yet have a resolvable accepted admission result. They remain explicit prerequisites rather than being smuggled into the accepted registry. Existing by-value use of an exact current value may continue under its direct owner, but no new admission may cite the unsettled kind itself as already accepted.
+
+| Exact result or blocker reference | Current disposition | Exact missing or closing basis |
+| --- | --- | --- |
+| `E24UK-OPEN-UKIND-01` | `U.Kind` prerequisite unsettled | C.3/C.3.1 govern local kind use, but the pending C.3 repair must first settle kind identity versus signature, reference scheme, and local-use boundaries; the admission card may use an exact already identified C.3 kind as EntityOfConcern, but this row does not assert a separate accepted durable result |
+| `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | F.18 identifies the current `FPFCoreReferenceScheme` value and C.2.1 consumes an effective scheme, but no current direct owner and accepted result state the kind's identity, extent, and non-use boundary |
+| `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 consumes exact claim content and distinguishes it from graph representations, but no current accepted admission result and direct kind owner are resolvable from this host set |
+| `E24UK-OPEN-USTRUCTURE-01` | `U.Structure` identity-dependent candidate unsettled | A.22 identifies selected organization over a declared substrate, but no exact governed two-place identity-dependence relation from that structure individual to the substrate closes the current F02 rule; therefore `RoleRelationStructure` and `MethodRelationStructure@BoundedContext` remain orientation examples and cannot close as `reuse` yet |
+| `E24UK-BLK-U-CAPABILITY-01` | `U.Capability` identity-dependent candidate blocked | A.2.2 supplies the holder-indexed identity tuple but not the exact governed capability-to-holder identity-dependence relation, its obtaining condition, and its identity effect |
+| `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a pattern move and the exact `actionInvitation(...)` relation; the title does not admit another kind |
+| `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | an episteme keeps C.2.1 identity while an exact `EpistemePublicationRelation` may obtain; Plain `published episteme` names that participation and not another kind |
+
+Generic `reuse` and `local-kind` are decision exits, not accepted example results. Close `reuse` only with an exact `ReusedUKindRef` that resolves to this registry; close `local-kind` only with one exact current C.3.2 `LocalKindDeclarationRef`. If either reference is absent, keep the candidate unsettled.
 
 Consumer repair follows the disposition, not one replacement word. Method-description claims retain `U.MethodDescription`; exact viewpoint and view claims retain `U.Viewpoint` and `U.View` only under E.17.0 membership. Every lexical or source use of the rejected spelling `U.EpistemePublication` is recovered by its claim as the selected `U.Episteme`, exact `EpistemePublicationRelation` occurrence, publication form, or `U.PresentationCarrier`; the rejected kind has no occurrences to retype.
 
@@ -154,41 +196,25 @@ FPF has already admitted `U.Relation`; project users do not repeat this ontology
 | action-facing need | comparisons, qualifications, change claims, nested relations, and receiving direct relations can depend on one occurrence being distinguishable from another |
 | non-duplication | relation-kind-specific assertions do not provide one common kind for a relation occurrence used as the EntityOfConcern of an episteme or as a participant of another direct relation |
 | direct governing locus | `A.6.REL` governs the root occurrence distinction and progressive individuation; each direct relation pattern governs whether its relation obtains and how its occurrences are identified |
-| E.24-compatible settlement | the primary governed subject kind is `U.Relation`; its stable identity criterion is the individuable obtaining relation occurrence under the common `A.6.REL` discipline and the obtaining and occurrence-identity rules of each direct relation pattern; A.6.0, A.6.5, C.2.1, F.18, and C.29 remain neighboring declaration, claim, naming, reference, and representation governors rather than components or extent criteria of this root |
+| shared E.24-family settlement | `E24UK-AR-URELATION-R11-01#settlement` uses the `E.24:4.0a` schema: primary governed subject kind `U.Relation`; A.6.REL common occurrence discipline plus each needed direct relation pattern's obtaining and occurrence-identity rule as the minimal governed relation set; named receiving reliance; and the non-use boundary below. `IdentityBearingDirectRelationIfSelected = none`: no relation whose participants include the `U.Relation` kind, a relation kind, or another relation occurrence is invented merely to admit the root |
 | by-value dependence | A.1 part-relation admission, relation-occurrence descriptions, and direct relations whose participant kind admits `U.Relation` rely on this root by value |
 
 The admission does not force explicit materialization of every obtaining relation. Ordinary engineering prose can stop at the direct relation sentence. A system performs explicit-individuation work only when a named receiving episteme, direct relation, or operation-application assertion depends on occurrence identity. The accepted Tech label `U.Relation` is governed separately through its F.18 NameCard; the label does not establish the extent.
 
-Apply that positive extent rule before classifying a nearby object. A semantic predicate is rule content in the direct relation pattern; participant satisfaction states the criterion for relation obtaining. A relational assertion or relation-occurrence description is a `U.Episteme` under `C.2.1`; its content can claim that the relation obtains or designate one occurrence as its EntityOfConcern. A designator or reference is governed by `F.18` and stands in its exact designation or reference relation to an already individuable occurrence. A filled claim-bearing project record is a `U.Episteme`, while the reusable form of that record remains under `E.24.PUB`. A data-model or diagram element is a `C.29` representation element. Each is connected to the relation occurrence only by its explicit description, publication, designation, reference, or representation relation.
+Apply the positive extent rule before classifying a nearby object. Predicate content is a rule; an assertion or occurrence description is a C.2.1 episteme; a designator or reference stays under F.18; a reusable form stays under E.24.PUB; and a row, graph edge, or diagram element stays under C.29. None is the obtaining occurrence. Connect it to the occurrence only through its explicit assertion, description, designation, reference, publication, or representation relation.
 
 The rule is not lexical. An individuable publication-relation occurrence is itself a `U.Relation` because its own direct publication pattern supplies obtaining and identity. A row that represents that occurrence remains a representation element. Reidentify the current object under its direct pattern instead of inferring membership from words such as relation, edge, link, record, or reference.
 
-#### E.24.UK:4.3 - Combined Admission Order
+#### E.24.UK:4.3 - Practitioner-first Admission Tree
 
-Use existing rules in this order:
+1. **Recover the candidates and criterion.** Identify the decision subject, candidate individuals, stable membership or identity rule, intended extent, nearest non-member, and named action-facing use. For a relation kind, use its direct subject pattern; `A.6.RCD` may return a derived or primitive candidate only with a proposed direct subject settlement. If no subject or criterion is recoverable, keep the inquiry open.
+2. **Try an admitted durable kind.** If one accepted result already preserves those individuals, the criterion, extent, boundary, and use, record `reuse` through that exact result and stop.
+3. **Try bounded classification.** If one project or context needs only typed membership or quantification, record `local-kind` through one exact C.3.2 declaration and stop.
+4. **Test the need for a new durable kind.** Continue only when repeated cross-pattern use needs one stable membership law that existing durable kinds and direct relations cannot preserve. Run the eight tests and name the receiving patterns that rely on the result by value.
+5. **Choose the positive form.** Use `root` for independently identified individuals, `same-individual-dependent` when one root individual gains an additional stable membership predicate and inclusion law, or `identity-dependent` when a distinct individual has an already governed dependence relation to one root individual plus all discriminators. Fill the shared E.24-family settlement; use one atomic co-decision if ontic and kind are both new. Apply A.11 and A.8 when kernel status is claimed.
+6. **Close or reject, then name.** A missing branch law or positive-test condition blocks admission. Otherwise record `reject` and recover the non-kind object under its direct owner. Only after one disposition and governed object are stable may F.8, F.5, F.18, or F.17 expose a public name.
 
-1. Recover the source use and governed EntityOfConcern.
-2. If the current question is typed claim quantification, apply C.3, C.3.1, and C.3.2 as needed. When the admission decision under E.24.UK records `local-kind`, `LocalKindDeclarationRef` points to one exact current C.3.2 declaration; the C.3 family remains the direct owner of the local distinction.
-3. Recover the identity, grounding, or recognition rule for the candidate: direct governing pattern, C.3 membership and extent rule, Concept-Set witnesses, an A.6 `U.Signature` identified by `<content, EntityOfConcernRef, effectiveReferenceScheme>` and carrying direct `SubjectKind` and `RangedValueKind` declarations plus `ResultKind`, `SliceSet`, or `ExtentRule` when those distinctions are current, an imported symbol bound by that signature, CT2R/Compose-CAL constructive grounding when the claim is structural, formal-substrate/principle-frame declaration, or another accepted operational identity test. For a relation-kind candidate, recover the direct governing relation pattern and its obtaining and occurrence-identity rules as part of the same witness.
-4. Test exact existing-kind coverage before proposing a new durable kind. When one admitted durable U-kind and its direct governing pattern already preserve the governed individuals, identity or membership, intended extent, non-member boundary, and action-facing claim, record `reuse` through one exact `ReusedUKindRef` and do not create a rival settlement.
-5. If a new durable FPF kind is still claimed, run all eight conditions in section 4.1, including an E.24-compatible candidate settlement. Only when all eight hold, select exactly one of `root`, `same-individual-dependent`, or `identity-dependent`; apply A.11 parsimony and A.8 universal-core testing when kernel-level status is claimed.
-6. When durable admission fails, close exactly one remaining exit. Record `local-kind` only when one exact current C.3.2 declaration can be referenced through `LocalKindDeclarationRef`. Otherwise record `reject` and recover the actual object under section 4.6: keep a direct-relation participant's independently governed kind and the direct relation; keep a reusable declaration component as one A.6.5 SlotSpec; keep an assertion or description field inside the receiving `U.Episteme`; and apply `A.22`, `E.24.PUB`, or `C.29` to a selected structure, reusable form, or representation element respectively.
-7. Only after the governed object and exactly one admission disposition are stable, use F.8 for mint-or-reuse and F.5, F.18, or F.17 for naming and publication.
-
-The following table summarizes principal cross-pattern contributions; it is not an exhaustive dependency list, and the exact direct owner recovered in steps 1-7 remains authoritative.
-
-| Source | Contribution |
-| --- | --- |
-| C.3 | Typed claim quantification, intent, extent, membership, kind bridge, and typed guards. |
-| C.3.1 | `U.SubkindOf` partial order over `U.Kind`, not dependent-U-kind relation. |
-| C.3.2 | Exact current declaration referenced through `LocalKindDeclarationRef`; the C.3 family remains its direct owner. |
-| E.14, B.3.5, and C.13 | Working-Model first, CT2R alias-plus-grounding, and Compose-CAL `Γ_m` traces for structural identity claims. |
-| A.6.0 and A.6.1 | Construction-facing declaration shape: `SubjectKind`, `RangedValueKind`, `SliceSet`, `ExtentRule`, vocabulary, laws, applicability, realization, and argument-slot discipline. |
-| A.8 | Universal-core test for kernel-level U-kind claims. |
-| A.11 | Composition and parsimony before adding a new core concept. |
-| E.24 | Ontic settlement and distinction among ontic, description episteme, publication, and form. |
-| F.8 | Mint-or-reuse decision after recovered kind and use. |
-| F.5 | Naming after recovered meaning; naming does not do ontology. |
+The direct owner remains authoritative: C.3 owns local kinds; A.6.REL and each direct relation pattern own relation occurrence semantics; A.6.0/A.6.5 own reusable declarations; E.24 owns ontic settlement; and F.8/F.5/F.18/F.17 govern names after ontology is settled.
 
 #### E.24.UK:4.4 - Source Ontology Conversion Guide
 
@@ -206,8 +232,8 @@ Then select the FPF object:
 | Source construct use | FPF recovery |
 | --- | --- |
 | claim quantification, membership, extent, subkind, kind bridge, or bounded local classification | C.3 `U.Kind`, C.3.1 `U.SubkindOf`, and typed-reasoning rules; record `local-kind` only through one exact current C.3.2 declaration referenced by `LocalKindDeclarationRef` |
-| public durable FPF kind needed across patterns | use the E.24.UK admission decision, testing exact existing-kind coverage and recording `reuse` before proposing a new durable kind; only a new admission proceeds to an E.24-compatible settlement |
-| a reusable coordination of one primary governed subject kind, its identity rule, core direct relation, named neighboring direct relations, and dependent-pattern reliance | E.24 ontic settlement with explicit reuse of every already governed kind and relation |
+| public durable FPF kind needed across patterns | use E.24.UK with the shared `E.24:4.0a` settlement; reuse an accepted ontic settlement when present, and use one atomic co-decision with separate settlement and admission outputs when both ontic and kind are new |
+| a reusable coordination of one primary governed subject kind, its identity rule, minimal independently governed relation set, optional identity-bearing direct relation selected by the subject owner, declarations actually reused, and dependent-pattern reliance | use the `E.24:4.0a` ontic settlement; do not invent a universal core relation or a relation whose participants are kinds, patterns, declarations, or the ontic |
 | imported formal symbol or declared range in a signature or mechanism | A.6 `U.Signature` identified by `<content, EntityOfConcernRef, effectiveReferenceScheme>` with direct `SubjectKind` and `RangedValueKind` declarations, a symbol bound by that signature, a Concept-Set row, or an admitted durable U-kind |
 | source-name alignment across contexts | F.9 bridge, F.17 term row, F.18 naming, and explicit loss notes |
 | quoted source construct with no current FPF classificatory, ontic, naming-alignment, or implementation use | retain source wording with its exact local sense and quote-only or reduced-use boundary under E.10 and E.10.ARCH |
@@ -231,19 +257,5 @@ Do not keep a false `U.*` structural name for memory or search convenience. Use 
 
 #### E.24.UK:4.6 - Failed U-kind Admission Dispatch
 
-When a candidate distinction fails the positive test, select one exact non-admission exit. The first two rows below close as `reuse` or `local-kind`; every remaining row closes as `reject` and keeps the actual object under its existing kind and direct governing pattern:
-
-| Candidate actually names | Recovery under its direct owner |
-| --- | --- |
-| governed individuals and distinction already covered by one admitted durable U-kind | record `reuse` with one exact `ReusedUKindRef`; that kind's accepted E.24 settlement and current direct governing pattern remain authoritative |
-| a bounded classificatory distinction with one exact current C.3.2 declaration | record `local-kind` with `LocalKindDeclarationRef`; the C.3 family remains the direct owner and no durable U-kind is admitted |
-| an entity participating in one direct relation | keep the entity's independently governed kind; let the direct relation pattern state its participant meaning, obtaining condition, and occurrence identity |
-| a reusable relation-declaration component | use `SlotSpec = <SlotKind, ValueKind, refMode>` under `A.6.5`; the SlotKind is local to that declaration |
-| a participant designation or another assertion or description field | keep the by-value designation or reference value inside the receiving `U.Episteme`; the field does not become the world-side participant or a U-kind |
-| a selected organization of direct relations | classify the selected organization as one `U.Structure` under `A.22`; the relation-specific structure name is not thereby another U-kind |
-| a filled record or card presented as claim-bearing | classify the filled object as `U.Episteme` only when its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme are recoverable under `C.2.1`; otherwise recover its actual form, carrier, record-field, or representation use under the direct owner. Classify a reusable arrangement as the publication-form participant only when `PublicationFormExpressionRelation` obtains; use the exact E.24.PUB publication occurrence and `U.PresentationCarrier` when availability is current |
-| a graph, tuple, algebraic, or other formal representation element | use the exact `C.29` mathematical or representation lens and state its correspondence to the represented object when that correspondence matters |
-| a measure, metric, or indicator | recover the measured characteristic, scale, evaluation operation, and reading through `C.16.P`, `A.19`, or the direct evaluation pattern |
-| a quoted source label or discipline term | retain it as source wording with its local sense and direct FPF recovery under `E.10` and `E.10.ARCH` |
-| a desire for a public name | finish object recovery first, then apply `F.8` and the applicable `F.5`, `F.17`, or `F.18` naming pattern |
+When positive admission fails, take the first truthful exit: `reuse` with one accepted result, `local-kind` with one C.3.2 declaration, or `reject` with the actual object returned to its direct owner. A participating entity keeps its intrinsic kind; a declaration component stays an A.6.5 SlotSpec; a designation or claim field stays in its episteme; a structure, publication form, or representation stays under A.22, E.24.PUB, or C.29; and a measure or source expression stays with its measurement or wording owner. Public naming waits until that recovery is complete.
 

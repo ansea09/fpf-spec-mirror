@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 40259
-line_end: 40288
+line_start: 40636
+line_end: 40673
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -33,6 +33,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.2.P"
   - "C.29"
   - "C.3.2"
@@ -63,7 +64,11 @@ keywords:
 
 **One-line summary.** A `U.Episteme` is a knowledge holon identified by exact claim content, one exact EntityOfConcern, and the effective `U.ReferenceScheme` that makes those claims interpretable as claims about that entity. `EpistemeConstitutionRelation` is the core direct relation of the episteme ontic. Empirical grounding, viewpoint, view, scope, model use, edition succession, description, publication, carrier, and mathematical representation remain neighboring objects and relations.
 
-**Use this pattern when.** Use C.2.1 when a theory, model, specification, standard, proof, algorithm description, diagnosis, lesson, diagram, dashboard, or other claim-bearing object needs to remain identifiable while its subject, interpretation, empirical grounding, view, edition, or publication changes.
+**Use this pattern when.** Use C.2.1 when one body of claims about one exact subject, interpreted under one effective reference scheme, must be identified or compared. In ordinary words, identify what this body of knowledge says, what it says about, and which shared rules make that saying interpretable.
+
+Changed claims, a changed subject, or a changed interpretation identify another episteme. Changed empirical grounding, viewpoint or view use, publication, form, carrier, or representation can leave the episteme unchanged; update the neighboring object or relation that actually changed.
+
+A theory, model, specification, proof, or diagnosis can therefore be an episteme when the selected object is that claim-bearing whole. A diagram or dashboard has two branches: use C.2.1 when the selected claim-bearing whole satisfies the constitution test above; when the current object is instead its layout, file, display, or correspondence to something else, treat it as a publication form, carrier, or C.29 representation rather than as the episteme.
 
 **Primary working reader.** An engineer or researcher who needs to identify a knowledge object and use it without mistaking its subject, file, view, evidence, or publication for that knowledge object.
 
@@ -71,9 +76,13 @@ keywords:
 
 **Primary viewpoint.** The practitioner using, comparing, revising, or publishing that knowledge object while keeping its identity and neighboring relations distinct.
 
-**Primary EntityOfConcern.** The `U.Episteme` ontic: the knowledge holon, its identity-bearing constitution relation, and the neighboring relations needed for empirical grounding, use, change, description, and publication.
+**Primary governed object.** One `U.Episteme`: the claim-bearing knowledge holon being identified or compared.
 
-**First useful move.** Name the exact work or decision that will rely on the episteme and the uncertainty or choice the episteme is expected to resolve. Then name the claim content, the identified entity those claims concern, and the effective reference scheme that makes the claims interpretable as claims about that entity. If the named work or decision also depends on empirical grounding, classification, viewpoint, view, claim scope, bounded model use, edition succession, description, or publication, add only the neighboring object or direct relation on which it depends, then apply the pattern governing that object or relation.
+**Architecture in scope.** C.2.1 also governs that episteme's `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`; it coordinates with the direct owners of viewpoint, view, scope, model use, description, publication, form, carrier, and representation.
+
+**Terminology guard.** The EntityOfConcern **of an episteme** is the exact entity its claims concern. It is not the same field as the primary governed object **of this pattern**.
+
+**First useful move.** Ask three ordinary questions: what is claimed, what exact entity are the claims about, and what designation and interpretation rules make those claims readable about that entity? Where the claims use measurement, comparison, or evaluation rules, name those applicable rules too. Those answers identify the episteme. If identity is all the task needs, stop there. Otherwise name the concrete receiving use—such as comparison, preservation, teaching, publication, inquiry, or decision—and add only the neighboring object or direct relation needed for its next visible sentence or action. Name an unresolved uncertainty or choice only when a real inquiry or decision has one.
 
 **What goes wrong if missed.** A file or diagram becomes "the model"; a subject label drifts while the same episteme name is retained; the holon through which claims are empirically inspected, or the viewpoint from which claims are selected, is copied into episteme identity without justification; or a revised publication is mistaken for a changed knowledge object.
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 18213
-line_end: 18372
+line_start: 18442
+line_end: 18608
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -34,7 +34,7 @@ Apply relation-declaration slot discipline only after the direct relation and it
 
 Relation-declaration slot discipline is a rule set, not a durable U-kind. This pattern reuses `RelationSignature`, `SlotSpec`, `SlotKind`, `ValueKind`, and `RefKind` from the existing signature and relation vocabulary; it introduces no U-kind. The notation `U.RelationSlotDiscipline` is not admitted: it has no separate instances, identity rule, grounding rule, constructive assembly, or ontic settlement. The governed object in this pattern is one `SlotSpec` declaration belonging to one exact `RelationSignature`. Operation argument and result declarations remain under `A.6.1`; mathematical operands and their order remain representation elements under `C.29`.
 
-A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. No method-description, plan, work, evaluation, card, schema, or record field becomes a SlotSpec. A receiving episteme field may designate a participant under A.6.5 only through an explicit correspondence to one exact SlotSpec in one independently governed `RelationSignature`.
+A.15.3 may cite one exact SlotSpec as the target of a planned participant designation inside a `U.WorkPlan`. That citation does not fill the SlotSpec, extend SlotSpec to another description family, make the planned designation an actual participant, or make the direct relation obtain. Planned operation arguments and results instead cite their exact A.6.1 declarations. No method-description, plan, work, evaluation, card, schema, or record field becomes a SlotSpec. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
 
 #### A.6.5:4.1 - Keep pattern scope exact
 
@@ -58,13 +58,15 @@ SlotSpec := <SlotKind, ValueKind, refMode>
 refMode := ByValue | RefKind
 ```
 
-**SlotKind** is the declaration-local kind by which one exact `RelationSignature` distinguishes one relation-participant meaning. `HolderSystemSlot` in the `U.RoleAssignment` RelationSignature and `PartHolonSlot` in a part-whole RelationSignature are different SlotKinds even when receiving assertions designate both actual participants through entity references. A representation field corresponds to a SlotKind only through an explicit declaration or correspondence. A mathematical operand or numbered argument belongs to its mathematical representation, not to the relation declaration; use C.29 to state the correspondence when a relation claim consumes it.
+**SlotKind** is the declaration-local kind by which one exact `RelationSignature` distinguishes one relation-participant meaning. `HolderSystemSlot` and `RoleTaxonomyEpistemeSlot` are different SlotKinds inside the `U.RoleAssignment` declaration even when receiving assertions carry both designations by reference. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. A mathematical operand or numbered argument belongs to its mathematical representation, not to the relation declaration.
 
 **ValueKind** is the exact world-side kind admitted for the actual participant corresponding to the declared participant meaning. Recover it from an accepted kind declaration under its governing pattern. That declaration may settle a durable U-kind, a current C.3 kind, a Concept-Set entry, or an imported sort whose bridge states the corresponding FPF kind. If one proposed ValueKind hides several kinds for which the predicate has different meaning, recover their real common kind or split the relation kind. A prose list of alternatives does neither.
 
 **RefKind** is the kind of reference used when a receiving assertion or relation-occurrence description episteme carries a relation-participant designation by reference. A system applying the governed resolution method obtains a participant of the declared ValueKind as referent. `U.EntityRef`, `U.HolonRef`, `U.EpistemeRef`, and `U.StructureRef` are examples only where their direct patterns admit them. The shorthand `byRef` is usable in a compact local sketch only when the exact RefKind is declared next to that sketch; it is not a complete `refMode` by itself.
 
 **ByValue** means that an assertion or relation-occurrence description episteme carries a value as its relation-participant designation. **By reference** means that it carries a reference value of the declared RefKind as that designation. In both cases, the designation denotes the world-side actual participant. The reference value retains its RefKind, its referent retains the declared ValueKind, the SlotSpec remains declaration content, and the relation occurrence retains its direct identity.
+
+**Naming and source-token repair.** Use `...Slot` only for one declaration-local SlotKind inside one exact `RelationSignature`. Use `...Ref` only for an admitted RefKind or for a governed reference value or designator of that kind; never use it for the actual participant or the SlotKind. Keep the participant's ValueKind name free of both suffixes. Thus `HolderSystemSlot` is the SlotKind, `U.System` is the participant ValueKind, and `Robot_7_Ref : U.EntityRef` is a reference designation whose referent is `Robot_7 : U.System`. If a source token such as `holder` conflates those objects, split them rather than cosmetically renaming the token. A concrete source field keeps its source name and is related to `HolderSystemSlot` only through an explicit declaration or C.29 correspondence.
 
 #### A.6.5:4.3 - Apply the well-formedness constraints
 
@@ -103,7 +105,7 @@ A6.5-S7 RepresentationBoundary:
   world-side participant or relation occurrence by form.
 ```
 
-A system performing typed substitution keeps the SlotSpec fixed and checks a proposed relation-participant designation against the exact ValueKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither operation changes a world-side participant or establishes that the direct relation obtaining predicate is satisfied. The system separately evaluates that predicate by the direct method and records affirmative or negative assertion polarity under the exact direct claim family. Only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility alone establishes neither obtaining nor affirmative polarity.
+A system performing typed substitution keeps the SlotSpec fixed and checks a proposed relation-participant designation against the exact ValueKind. A system performing retargeting changes a reference value in an assertion or description while preserving SlotKind, ValueKind, and RefKind. Neither operation changes a world-side participant or makes the direct predicate true. The direct owner defines that predicate and identity rule; the current case must supply the relevant facts or constituting history. A system evaluates those facts by the direct method, and a claim-bearing episteme records affirmative or negative polarity. Only when an explicit reliance judgment is current does `A.10` or the receiving evaluation separately record supported, refuted, or unresolved reliance. Type compatibility, assertion polarity, evidence, and reliance establish neither obtaining nor occurrence identity.
 
 #### A.6.5:4.4 - Distinguish predicate grammar from holonhood and agency
 
@@ -133,7 +135,7 @@ readable assertion of the recovered direct relation
   +-- local C.3 kind with an extent rule, when typed quantification over corresponding participants is current
 ```
 
-The branch marks are representation edges under `C.29`, not transitions in a drafting process, world-side relations, or work occurrences. They show only which additional object the named use consumes. The diagram does not make a `RelationSignature` prerequisite for explicit occurrence individuation, and it neither makes the direct relation obtain nor supplies occurrence identity. Whether the relation obtains is governed by the direct obtaining predicate; the direct occurrence-identity rule governs which occurrence is being distinguished once obtaining is established.
+The branch marks are representation edges under `C.29`, not transitions in a drafting process, world-side relations, or work occurrences. They show only which additional object the named use consumes. The diagram does not make a `RelationSignature` prerequisite for explicit occurrence individuation, and it neither makes the direct relation obtain nor supplies occurrence identity. The direct owner defines the obtaining predicate; current case facts or constituting history must satisfy it. The direct occurrence-identity rule governs which occurrence is being distinguished only after that factual condition is met.
 
 The local-kind branch does not turn every participant qualification into a kind. It is justified only when membership, substitution, quantification, or `U.SubkindOf` reasoning will be performed.
 
@@ -141,8 +143,8 @@ The local-kind branch does not turn every participant qualification into a kind.
 
 | Current reading | Governed object | Next pattern |
 |---|---|---|
-| The direct relation obtains for these participants, which satisfy its obtaining predicate | one world-side relation occurrence whose participants retain their own kinds | direct relation pattern, with `A.6.REL` only when occurrence identity is consumed |
-| An assertion designates the participants under declared SlotSpecs and states affirmative or negative polarity for the direct predicate; only when an explicit reliance judgment is current for the declared use does `A.10` or the receiving evaluation separately state supported, refuted, or unresolved reliance | an assertion episteme about the direct relation; an affirmative assertion may designate only an occurrence whose obtaining the direct owner already established; forecasts, scenarios, counterfactuals, permissions, and other claim families retain their exact governors | `C.2.1`, A.6.5, and the direct claim pattern; add `A.10` or the receiving evaluation only when a reliance judgment is current |
+| Relevant current-case facts or constituting history satisfy the direct obtaining predicate for these participants | one world-side relation occurrence whose participants retain their own kinds | direct relation pattern for the test and identity rule; the current case for its factual basis; `A.6.REL` only when occurrence identity is consumed |
+| A claim-bearing episteme designates the participants under declared SlotSpecs and records affirmative or negative polarity for the direct predicate; evidence and reliance remain separate when used | an assertion episteme about the direct relation; an affirmative assertion may designate an occurrence only after current-case facts or constituting history satisfy the direct predicate and the identity rule has been applied; the assertion states but does not warrant or constitute that result; forecasts, scenarios, counterfactuals, permissions, and other claim families retain their exact governors | `C.2.1`, A.6.5, and the direct claim pattern; add `A.10` or the receiving evaluation only when a reliance judgment is current |
 | A typed claim ranges over all actual participants corresponding to one declared participant meaning | local C.3 kind whose extent rule selects those participants | `C.3` and `C.3.1` |
 
 These readings do not leave a fourth object called `RelationDefinedQualification`. Do not introduce that name or `E.24.RC`.
@@ -169,9 +171,14 @@ The four required SlotSpecs declare all participant meanings of generic `U.RoleA
 
 #### A.6.5:4.8 - Recover interface and port relations before declaring slots
 
-Only then let the `RelationSignature` declare SlotSpecs for the participant meanings needed by the receiving typed use.
+Keep recognizable source words such as **interface**, **port**, **endpoint**, **API**, and **signature** in the recognition sentence; do not erase them and do not promote them into a generic `U.Interface`. Then use this sequence:
 
-For a refrigerant transfer relation, the participant meanings may be upstream transformation, downstream transformation, transferred medium, and boundary condition. For a software service relation, they may instead be providing system, receiving system, request episteme, and protocol description. Their different predicates require different relation kinds; the shared word **interface** does not justify one union-like participant kind or a generic `U.Interface`.
+1. Repeat the source sentence so the practitioner can still recognize the situation.
+2. Say in ordinary language what connects, crosses, or is transferred between which exact entities.
+3. Recover the exact direct relation and its owner. If no current owner supplies the needed participant meanings, predicate, applicability, and identity rule, return to `A.6.RSIR` or record one missing-governor result naming the proposed participants, required predicate, and receiving use.
+4. Only after that relation closes, let its `RelationSignature` declare the SlotSpecs for participant meanings actually reused by the receiving typed claim.
+
+**Compact contrast.** In “the evaporator outlet interfaces with the compressor inlet,” keep **interfaces** for recognition. If the intended claim is that refrigerant crosses from one named outlet to one named inlet, name that medium and those two endpoints and recover the exact transfer-relation owner before declaring any slots. If **interface** instead names a diagram boundary, API description, protocol, or publication form, keep that object under its own governor. A catalogue of possible participants closes neither branch; without a direct relation owner, stop before a `RelationSignature`.
 
 #### A.6.5:4.9 - Name the operation by the object that changes
 

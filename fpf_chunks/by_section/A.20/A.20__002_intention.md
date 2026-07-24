@@ -6,12 +6,12 @@ section_id: "A.20:0"
 section_title: "Intention"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__002_intention.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:0 — Intention"
-line_start: 32764
-line_end: 32812
+line_start: 33141
+line_end: 33189
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

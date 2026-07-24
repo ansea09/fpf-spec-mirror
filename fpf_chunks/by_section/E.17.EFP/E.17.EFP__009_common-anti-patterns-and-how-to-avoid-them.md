@@ -6,12 +6,12 @@ section_id: "E.17.EFP:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 78881
-line_end: 78893
+line_start: 79323
+line_end: 79335
 dependencies:
   - "A.10"
   - "A.15"

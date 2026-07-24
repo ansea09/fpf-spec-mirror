@@ -6,51 +6,53 @@ section_id: "F.6:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_conformance-checklist.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:9 — Conformance Checklist"
-line_start: 88227
-line_end: 88243
+line_start: 88796
+line_end: 88808
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:9 - Conformance Checklist
 
-Use this checklist when applying F.6.
-
-1. The candidate role is a `U.Role` in one bounded context, not only a source label.
-2. The candidate holder is a system or acting holon admitted by `A.2.1`.
-3. The assignment window is filled, inherited, unknown, not asserted, or not current for this claim.
-4. If role state matters, an `A.2.5` role-state admission or blocker is named.
-5. If capability matters, an `A.2.2` capability relation or blocker is named.
-6. If method or method description matters, `A.3.1`, `A.3.2`, or `A.15` is named.
-7. If actual work is claimed, the `U.Work` occurrence is named under `A.15.1`.
-8. Performed work uses `Work.performedBy = RoleAssignment` or `RoleEnactmentFact`, not `U.RoleEnactment`.
-9. Status, evidence, source, standard, requirement, publication, assurance, gate, and decision uses are not encoded as role assignment.
-10. Cross-context role-like reuse is represented by `F.9` and does not mutate the local assignment.
-11. Compact notation is unfolded to typed assignment slots before reliance-bearing use.
-12. `NotCarried` names the strongest tempting overclaim that this F.6 check does not make.
+1. `WorkOccurrenceSlot` names one admitted dated `U.Work` occurrence.
+2. `RoleAssignmentSlot` names one obtaining `U.RoleAssignment` occurrence.
+3. The assignment exposes holder system, role value, role-taxonomy episteme, and effective reference scheme as participants; its maximal continuous assignment extent is checked separately.
+4. The assignment holder is the system claimed to have performed the work.
+5. The assignment episode covers the selected work occurrence's interval; attribution to only one part first selects that part as `U.Work`.
+6. The attribution uses direct `performedUnderAssignment` wording and introduces no `RoleEnactmentFact`.
+7. Role state, capability, method, result, evidence, source reliance, publication, gate, and decision claims use their direct patterns.
+8. Any selected model-use structure is designated by the receiving attribution assertion or use, not by an optional slot in generic `U.RoleAssignment`.
+9. Missing evidence leaves the relied-on assertion unresolved rather than proving non-attribution.
+10. Compact source notation is unfolded before a receiving use depends on hidden assignment positions.
 

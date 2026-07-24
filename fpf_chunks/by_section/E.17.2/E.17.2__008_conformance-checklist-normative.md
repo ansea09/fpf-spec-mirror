@@ -6,12 +6,12 @@ section_id: "E.17.2:6"
 section_title: "Conformance checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__008_conformance-checklist-normative.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
   - "E.17.2:6 — Conformance checklist  (normative)"
-line_start: 77727
-line_end: 77767
+line_start: 78169
+line_end: 78209
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,47 +6,53 @@ section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 88122
-line_end: 88134
+line_start: 88713
+line_end: 88725
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:5 - Invariants
 
-1. **Role assignment is local.** Every assignment check names one `U.Role`, one admitted holder, and one `U.BoundedContext`.
-2. **Role description is not assignment.** A role-description episteme may identify the role value; it does not assign a holder.
-3. **Assignment is not work.** A `U.RoleAssignment` can be admitted without any `U.Work` occurrence.
-4. **Work attribution is direct.** Performed work cites the role assignment through `Work.performedBy = RoleAssignment`; `RoleEnactmentFact` is only a named fact over that relation.
-5. **No durable `U.RoleEnactment`.** Source `U.RoleEnactment` wording is repaired to direct performed-by wording or `RoleEnactmentFact`.
-6. **Status is not a role branch.** Status-use statements are governed by `F.10` or the direct status pattern, not by F.6.
-7. **Epistemes are not role holders by use.** Evidence, source, standard, requirement, definition, explanation, publication, assurance, and gate uses of epistemes go to their direct relations.
-8. **Window honesty.** If a stronger claim depends on assignment currentness, role state, or work time, missing window content lowers or blocks that claim.
-9. **Bridge restraint.** Cross-context role-like labels need `F.9`; a bridge does not mutate a local assignment.
-10. **Notation restraint.** `Holder#Role:Context@Window` is source or shorthand notation for a typed assignment relation, not the relation's ontology.
+1. Every performed-work attribution relates one exact `U.Work` occurrence to one exact `U.RoleAssignment` occurrence.
+2. The referenced assignment keeps exactly four fixed participants and one maximal continuous obtaining extent; no mandatory `U.BoundedContext`, generic context slot, or optional model-use participant is added.
+3. The actual maximal continuous extent of the assignment occurrence covers the attributed portion of the work interval; a declared or recorded window alone does not establish coverage.
+4. Assignment does not prove performance, and performance attribution does not prove capability, state, method validity, result quality, or acceptance.
+5. `RoleEnactment` wording is repaired to dated work plus direct `performedUnderAssignment`; no duplicate enactment object is retained.
+6. Assertions, logs, rosters, evidence, identifiers, and publications remain epistemic or representational objects distinct from world-side relation obtaining.
+7. An evidence gap yields unresolved reliance, not an inferred non-attribution interval.
+8. An episteme does not fill `HolderSystemSlot` merely because it describes, constrains, or supports the work claim.
+9. Cross-scheme role correspondence uses a direct bridge relation and does not change either assignment identity.
+10. Reduced prose remains admissible until a receiving use needs explicit relation-occurrence identity.
 

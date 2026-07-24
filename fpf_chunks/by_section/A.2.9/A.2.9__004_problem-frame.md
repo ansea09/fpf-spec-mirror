@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__004_problem-frame.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:1 — Problem frame"
-line_start: 6087
-line_end: 6103
+line_start: 6122
+line_end: 6138
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,14 +23,15 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:1 — Problem frame
@@ -41,12 +42,12 @@ FPF repeatedly needs to reference “someone said/did the approving/authorizing/
 * Governance patterns and boundary writing (A.6 stack) need **provenance**: “this obligation or commitment, or this separately represented granted permission, was instituted by *that* act”.
 * Operational patterns need auditable **notices** (“depletion notice”, “override invoked”) whose existence and timing matter.
 
-Without a **first‑class kernel object** for such communicative events, authors tend to:
+Without a first-class kind for such communicative Work and a separate way to describe each occurrence, authors tend to:
 
 * attribute agency to descriptions (“the spec approves…”, “the interface guarantees…”),
 * collapse “utterance text” and “speech act event”,
 * leave provenance dangling as “if modeled”,
 * encode gates as prose obligations, or treat obligations as gates.
 
-This pattern makes “speech act” an explicit, queryable **Work‑kind** with clear boundaries to `U.Commitment`, utterance descriptions, and carriers.
+This pattern admits `U.SpeechAct` as an explicit Work kind, identifies actual speech-act occurrences under it, and keeps their optional records separate from `U.Commitment`, utterance descriptions, and carriers.
 

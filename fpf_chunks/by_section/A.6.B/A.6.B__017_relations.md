@@ -6,12 +6,12 @@ section_id: "A.6.B:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__017_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15 — Relations"
-line_start: 10070
-line_end: 10077
+line_start: 10221
+line_end: 10228
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -22,16 +22,15 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
-  - "A.6.P"
+  - "A.6.B"
+  - "A.6.C"
   - "A.7"
   - "B.3"
-  - "C.26.1"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "F.18"
   - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
@@ -41,9 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "(they are not obligations"
-  - "Keeps modalities separated and audit-ready"
-  - "L/A/D/E claim classification"
+  - "Keeps claim text"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -52,30 +49,36 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "accountable commitments"
-  - "admissible use"
-  - "alone select neither branch"
+  - "a duty or commitment D- claim MUST name its accountable subject"
+  - "accountable norms and grants"
+  - "actual exercise"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
-  - "atomic claims"
-  - "boundary norm square"
-  - "claim IDs"
-  - "laws vs entry predicates vs deontic results vs evidence"
+  - "atomic L/A/D/E claims"
+  - "conflict claims"
+  - "direct obtaining conditions"
+  - "entry predicates"
+  - "evaluated findings"
+  - "evaluation"
+  - "institutional obtaining"
+  - "laws"
   - "may"
-  - "non-admissible use"
+  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
+  - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
-  - "strong or weak permission results"
-  - "they describe adjudicable effects and evidence)"
-  - "triangle decomposition"
+  - "or observation that settles it and any evidence used for reliance"
+  - "they report adjudicable results rather than obligations"
+  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -84,9 +87,9 @@ keywords:
 
 ### A.6.B:15 — Relations
 
-* **Used by A.6:** supplies the canonical matrix and cross‑quadrant link discipline that A.6 references as “Boundary Discipline Matrix”.
+* **Used by A.6 and A.6.C:** supplies the canonical matrix and cross-quadrant link discipline. Both consumers classify each exact atomic claim by predicate and adjudication, keep the claim episteme separate from its EntityOfConcern, and use the §8.4.1 branch only when permission wording is live.
 * **Constrains A.6.0 (`U.Signature`):** enforces that `L-*` laws are truth‑conditional and do not include admissibility predicates.
 * **Constrains A.6.1 (`U.Mechanism`):** enforces that admissibility lives in `AdmissibilityConditions` (`A-*`) and that evidence semantics are classified as `E-*` with carrier references.
 * **Requires A.7:** binds quadrants to `EntityOfConcern`, Description episteme, or publication carrier so agency and evidence are not misattributed.
-* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims; faces must not mint new semantic commitments or permissions. **A.2.8** owns accountable duty/recommendation/prohibition commitments; **A.2.8.PER** owns strong/weak permission, exercise, non-violation, and conflict results.
+* **Interacts with MVPK/E.17:** faces are projections that cite L/A/D/E-classified claims and mint no new semantics. When the permission-word branch is selected, its row names the direct owner and obtaining or failure test; A.6.B only classifies the statement, and neither wording nor a carrier makes the referenced object obtain.
 

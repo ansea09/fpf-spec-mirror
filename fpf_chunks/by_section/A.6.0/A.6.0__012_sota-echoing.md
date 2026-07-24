@@ -6,12 +6,12 @@ section_id: "A.6.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__012_sota-echoing.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:11 — SoTA-Echoing"
-line_start: 11175
-line_end: 11194
+line_start: 11375
+line_end: 11395
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -24,6 +24,7 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "A.7"
   - "C.16"
@@ -31,6 +32,7 @@ dependencies:
   - "C.22"
   - "C.29"
   - "C.3"
+  - "E.10"
   - "E.18.1"
   - "E.24.PUB"
   - "E.24.UK"
@@ -42,11 +44,12 @@ keywords:
 
 | Current source | What it contributes | FPF disposition and practical implication |
 |---|---|---|
-| The current Modelica 3.8 development specification, Chapter 9, separates connector declarations, concrete connect equations, generated connection sets, and optional graphics. | A reusable declaration can specify named connector variables and laws without becoming the connection occurrence or its diagram. | **Adopt and generalize.** A physical-modeling engineer can compare declarations independently from actual assemblies and generated equations. The source is the current primary language-specification basis, not FPF ontology authority. This disciplines case 5.1. |
-| The current Lean Language Reference, covering Lean `4.33.0-rc1`, describes structures through named fields whose types may depend on earlier fields, while the kernel checks formal terms independently from presentation convenience. | Named formal fields and dependent types make the operation dependency inspectable and reduce reliance on numeric argument convention. | **Adapt as a current dependent-type representation precedent.** A formal-methods engineer can inspect dependent argument and result declarations under A.6.1 while C.29 keeps Lean fields and operand order representation-side; an explicit correspondence is required when a relation claim consumes those operands. Lean remains one representation, not FPF ontology. This disciplines case 5.4. |
-| TypeDB 3.x declares relation types through explicit related role types and can specialize those declarations. | Reusable relation declarations benefit from stable local names for participant meanings. | **Adapt with a stricter boundary.** A schema author can reuse stable participant names through `RelationSignature` SlotSpecs without treating database role types as system roles or world-side participants; relation obtaining remains independent from schema declaration. This disciplines sections 4.3 and 4.4. |
-| For the RDF-validation branch, SHACL 1.2 Core gives the current standards-track answer by separating shapes graphs, evaluated data graphs, validation work, and validation reports; its Working Draft status and 30 June 2026 date are not by themselves the basis for use. | Declared constraints, evaluated entities, and evaluation results remain different objects. | **Adapt as a work-in-progress representation precedent beyond RDF.** A protocol or curriculum author can keep signature laws, governed subjects, evaluation work, evaluation-result epistemes, and later evidence-use relations separate across domains without importing draft SHACL terms as ontology. This disciplines the clinical and learning cases. |
-| For the semantic-web foundational-ontology branch, the March 2026 gUFO preprint gives a current branch answer by using reification patterns for relational aspects; its recency is not by itself the basis for use. | Relation representation makes arity and participant dependence explicit. | **Reject as FPF ontology; retain only as a current stress comparator.** A practitioner can start with a direct relation assertion and introduce a `RelationSignature` or explicit occurrence identity only when a named receiving use needs it, rather than importing gUFO taxonomy. This disciplines sections 4.3 and 4.8. |
+| The current Modelica 3.8 development specification, Chapter 9, separates connector declarations, concrete connect equations, generated connection sets, and optional graphics. | It supports the case 5.1 choice to keep the connector-equation calculus declaration separate from a modeled connection assertion, generated equations, and a diagram. | **Adopt and generalize only that separation.** Modelica does not admit an FPF modeled-connection relation kind or supply its participant meanings, direct predicate, Applicability, or occurrence-identity rule. Those claims still require an FPF direct governor. |
+| The current Lean Language Reference, covering Lean `4.33.0-rc1`, describes structures through named fields whose types may depend on earlier fields, while the kernel checks formal terms independently from presentation convenience. | It supports the case 5.4 representation of the indexed result as `Vector Real n` and makes the dependence of result length on argument `n` inspectable. | **Adapt as a dependent-type representation precedent.** Lean does not define the A.6.1 argument or result meanings, make every notation change a C.29 lens use, or create a relation signature. The concrete Lean-to-proof-carrying-record comparison stays under A.6.3.RT unless a named lens changes the next comparison action. |
+| TypeDB 3.x declares relation types through explicit related role types and can specialize those declarations. | It supports stable schema-local names as a representation precedent for declared participant positions. | **Adapt with a stricter boundary.** A TypeDB role type does not admit an FPF durable kind, identify a world-side participant, supply a direct relation predicate, or make a relation occurrence obtain. A.6.5 SlotSpecs are used only after the FPF relation kind and direct governor are independently settled. |
+| For the RDF-validation branch, SHACL 1.2 Core gives the current standards-track answer by separating shapes graphs, evaluated data graphs, validation work, and validation reports; its Working Draft status and 30 June 2026 date are not by themselves the basis for use. | It supports keeping a reusable constraint declaration, evaluated data, evaluation work, and an evaluation-report episteme as different objects. | **Adapt only as a work-in-progress representation and validation precedent.** SHACL does not supply a clinical dose-response predicate, a learning competence criterion, their participant meanings, or an FPF direct governor. The clinical local claim and the learning A.2.4/A.10 evidence-use relation therefore remain governed by their current FPF owners. |
+| For the semantic-web foundational-ontology branch, the March 2026 gUFO preprint gives a current branch answer by using reification patterns for relational aspects; its recency is not by itself the basis for use. | It supplies a stress question about when arity, participant dependence, and relation-occurrence reification matter. | **Reject as FPF ontology; retain only as a stress comparator.** gUFO does not admit an FPF relation kind, supply its direct predicate or occurrence-identity rule, or decide when the FPF author should open a declaration or occurrence identity. The three local receiving-use questions and the FPF direct governor make those decisions. |
+
 
 Sources:
 

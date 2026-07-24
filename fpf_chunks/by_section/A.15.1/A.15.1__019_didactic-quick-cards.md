@@ -6,12 +6,12 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__019_didactic-quick-cards.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 24716
-line_end: 24724
+line_start: 25012
+line_end: 25020
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,6 +37,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
+  - "F.6"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
@@ -47,28 +48,24 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "U.Work admitted kind"
-  - "actual binding"
-  - "affected referent"
-  - "enactsMethod"
-  - "episode"
-  - "no automatic transformation"
-  - "occurrence assertion and record separation"
-  - "overlap"
-  - "performed resource-use fact"
-  - "performedBy"
-  - "retry"
-  - "work continuity"
-  - "work part"
+  - "actual performer U.System"
+  - "admitted U.Work kind"
+  - "containing system"
+  - "covering U.RoleAssignment"
+  - "enacted method"
+  - "optional direct bindings and resource use"
+  - "performedUnderAssignment"
+  - "separate result or consequence"
+  - "temporal extent"
   - "world-side dated occurrence"
 ---
 
 ### A.15.1:15 - Didactic quick cards
 
 * **What is Work?** *How it went this time* → dated, resourced, accountable.
-* **Separation aid:** Who? **RoleAssignment**. Can? **Capability**. How? **Method**. Which account of the method? **MethodDescription**. Did it happen? **Work**.
-* **Interpretation checks:** exact method-description edition and scheme; covering `U.RoleAssignment`; separately governed criterion, evaluation work, result episteme, and acceptance relation.
+* **Separation aid:** Who performs? **System**. Under which held role? **RoleAssignment**. Can? **Capability**. How? **Method**. Which account of the method? **MethodDescription**. Did it happen? **Work**.
+* **Three-question result check:** Did the work occur? What separate result or consequence is claimed? Who judged or accepted what, by which criterion and evidence? Use §4.6 and stop after the last question the receiving use actually asks.
 * **Roll-ups:** A.15.1 supplies exact Work refs, intervals, parts, and performed resource-use facts; cite `B.1.4` for temporal aggregates and `B.1.6` for resource ledgers, each with its declared policy.
-* **Episodes vs retries:** same occurrence split vs new occurrence; write the policy.
-* **Resource honesty:** performed resource use is related to exact Work individuals through separately obtaining resource-use relations; participants, operation values, changes, results, delivery, acceptance, and outcomes retain their direct relations and owners.
+* **Episodes vs retries:** record end, interruption, resumption, and later work-entry facts first; add a continuity policy only when a named use still has more than one defensible grouping.
+* **Resource honesty:** relate performed resource use to exact Work individuals through separately obtaining resource-use relations; route any result or consequence through the one matching §4.6 row.
 

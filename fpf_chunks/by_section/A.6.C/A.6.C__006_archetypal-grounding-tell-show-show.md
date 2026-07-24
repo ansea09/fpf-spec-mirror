@@ -6,12 +6,12 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 10266
-line_end: 10348
+line_start: 10425
+line_end: 10511
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,30 +35,28 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "(RFC 2119 + RFC 8174)"
-  - "A as predicates (“is admissible iff…”)"
-  - "Boundary Norm Square (L/A/D/E)"
-  - "MVPK faces “no new semantics”"
-  - "RECOMMENDED"
-  - "REQUIRED"
-  - "SLA/guarantee claim classification"
-  - "accountable commitment vs exact permission result"
-  - "and E as observable/evidenced properties. If a BCP‑14 keyword or synonym appears in an L/A/E claim"
-  - "and OPTIONAL"
-  - "as a disciplined modality family"
-  - "contract bundle unpacking"
-  - "exercise"
-  - "finding"
-  - "in L/A/E claims"
-  - "including common synonyms such as SHALL"
-  - "non-violation"
-  - "permission projections cite the corresponding D- and exact A.2.8.PER grant"
-  - "phrase L as definitions or invariants (“is defined as…”"
-  - "promise content ≠ work"
-  - "promise-act/utterance separation"
-  - "the face is non-conformant until rewritten without the BCP‑14 keyword or moved out of the face"
-  - "the sentence MUST be rewritten to remove the keyword or moved out of the face"
-  - "“holds iff…”)"
+  - "MUST NOT"
+  - "MVPK no-new-semantics"
+  - "OPTIONAL"
+  - "SHOULD"
+  - "a mechanism entry predicate enters A"
+  - "and SHOULD NOT enter D only for an accountable duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "are statement operators"
+  - "atomic L/A/D/E rows"
+  - "commitment or grant"
+  - "dated Work"
+  - "description and publication"
+  - "four-question contract lens"
+  - "gate"
+  - "not ontology or quadrant selectors. MUST"
+  - "obtaining versus representation"
+  - "or prohibition. MAY"
+  - "promise content"
+  - "recommendation-as-duty"
+  - "rewrite it or mark it informative"
+  - "separate result and evidence"
+  - "speech-act Work"
 ---
 
 ### A.6.C:5 — Archetypal Grounding (Tell–Show–Show)
@@ -67,11 +65,12 @@ keywords:
 
 If you use contract-language for a boundary, do not treat “the interface or specification” as an acting system. Instead:
 
-1. Identify the **promise content** (promise content) being promised,
-2. Identify the accountable **Commitment** holder(s) for a duty/recommendation/prohibition branch; when permission is current, identify the exact `A.2.8.PER` grant, finding, exercise, non-violation, or conflict result and preserve that object's own participants and references,
-3. Identify the **Utterance** surfaces that publish the boundary (signature or mechanism descriptions plus MVPK views),
-4. Identify the **Performed work and evidence** carriers that could adjudicate whether commitments were met or whether actual work exercised a grant or was non-violating in the checked frame,
-5. Classify each claim through **L/A/D/E** and reference across quadrants rather than paraphrasing.
+1. **What was promised?** Record the exact promise-content claim if one exists.
+2. **What was said, published, or instituted?** Give the speech-act Work, each description/publication object, and each institutional effect its own row and direct owner.
+3. **What governance or permission-looking claim exists?** Record the accountable commitment or selected `A6-AW-*` claim with its own participants, source, and quadrant.
+4. **What happened, what followed, and what supports reliance?** Record dated Work, each current result/change/delivery/acceptance claim, and each A.10 evidence claim separately; omit absent rows.
+
+Write those answers in the one A.6.B Claim Register: one atomic statement, direct object, owner, and quadrant per row. Faces cite the claim IDs; they do not create another bundle record.
 
 #### A.6.C:5.2 — Show (System archetypes)
 
@@ -82,7 +81,7 @@ If you use contract-language for a boundary, do not treat “the interface or sp
 
 **Unpack + classify:**
 
-* **Utterance:** signature or mechanism publication for `PaymentsAPI` (MVPK faces: TechCard, InteropCard).
+* **Description/publication:** signature or mechanism publication for `PaymentsAPI` (MVPK faces: TechCard, InteropCard).
 * **L:** define idempotency and the uniqueness semantics of `Idempotency-Key`.
   (“Idempotent” is a semantic property, not a duty.)
 * **A:** admissibility predicate: request is admissible iff `Idempotency-Key` is present and valid.
@@ -98,7 +97,7 @@ If you use contract-language for a boundary, do not treat “the interface or sp
 
 **Unpack + classify:**
 
-* **Utterance:** published interface spec (pinout, electrical ranges, handshake procedure).
+* **Description/publication:** published interface spec (pinout, electrical ranges, handshake procedure).
 * **L:** electrical invariants and allowable ranges are definitions and invariants (truth-conditional).
 * **A:** admissibility predicate: power delivery is admissible only after handshake state reaches an agreed mode.
 * **D:** manufacturer or integrator obligations: implement handshake; enforce voltage constraints.
@@ -106,15 +105,18 @@ If you use contract-language for a boundary, do not treat “the interface or sp
 
 **(B-PER) Compact permission replay (only when the permission branch is live)**
 
-*Situation:* “ReleaseAuthority approved Operator-A to deploy Release-4711; deployment is allowed after preflight.”
+*Situation:* “`ReleaseAuthoritySystem`, acting as release grantor under assignment `ReleaseGrantor-A`, approved `DeploymentAgent-A`, acting under assignment `Operator-A`, to deploy `Release-4711` after preflight.”
 
 **Unpack + classify:**
 
-* **Utterance and institution:** the dated `Approve` speech-act occurrence `SA-4711`, performed by the exact grantor assignment under current `ReleaseGrantPolicy`, institutes—not merely publishes—the separately represented grant occurrence `PER-4711`. Approval text without that policy and act does not create the grant.
-* **D — permission result:** `GrantedPermissionRelation@Context` names beneficiary `RoleAssignmentRef(Operator-A)` and `permittedActionSpecificationRef = U.EpistemeRef(Deploy-Release-4711)`; `SA-4711`, the grantor assignment, policy, context, scope, and window remain ground or qualifiers. If the available basis establishes only current absence of prohibition, record `NonProhibitionFinding@Context` instead and do not promote it to a strong grant.
-* **A — independent entry predicate:** “deployment is admissible iff `PER-4711` currently obtains and preflight is green” is an `A-*` predicate. It may consume the grant as one condition but is neither the grant nor proof of gate passage.
-* **Work and exercise:** only after later dated actual `U.Work` occurrence `DeployRun-4711` exists, instantiates the action specification, matches the beneficiary branch, and stays inside the grant's scope and window may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.EntityRef(PER-4711)`. Planned work, the approval wording, and preflight alone are not exercise.
-* **E:** speech-act, policy-edition, grant-occurrence, preflight, work, and observation carriers support the classified claims without replacing their direct objects.
+* **Promise content (optional):** `SVC-RELEASE-4711` states which release artifact eligible consumers are promised; that content establishes no speech act, commitment, grant, deployment Work, result, or delivery.
+* **Speech-act Work:** `ReleaseAuthoritySystem`, an admitted `U.System`, performs dated `Approve` occurrence `SA-4711` under exact obtaining grantor assignment `RoleAssignmentRef(ReleaseGrantor-A)`. That assignment's `HolderSystemSlot` names `ReleaseAuthoritySystem`; the assignment supplies role and authority but does not perform the act. Under current `ReleaseGrantPolicy`, `SA-4711` institutes—not merely publishes—grant occurrence `PER-4711` only if the A.2.8.PER obtaining conditions hold. Approval text and a register row that names `PER-4711` do not establish that fact.
+* **D — current grant (`A6-AW-NORM-GRANT`):** the grant's beneficiary participant is `RoleAssignmentRef(Operator-A)`, held for this window by admitted operator `U.System` `DeploymentAgent-A`; its permitted-action participant is `U.EpistemeRef(Deploy-Release-4711)`. `SA-4711`, `RoleAssignmentRef(ReleaseGrantor-A)`, policy, context, scope, and window remain ground or qualifiers. The model may use this D claim only while those A.2.8.PER conditions make `PER-4711` obtain and the row cites that exact occurrence, act, and policy; the row itself does not make the grant current.
+* **E — weak evaluation alternative (`A6-AW-WEAK`):** if the basis establishes only current absence of prohibition in a sufficiently complete frame, record `NonProhibitionFinding@Context`; do not promote it to a strong grant or place it in D.
+* **A — independent entry predicate (`A6-AW-GATE`):** “deployment is admissible iff `PER-4711` currently obtains and preflight is green” is an `A-*` predicate. It may consume the grant as one condition but is neither the grant nor proof of gate passage.
+* **E — actual Work and exercise (`A6-AW-EXERCISE`):** admitted operator `U.System` `DeploymentAgent-A` must first perform dated `U.Work` occurrence `DeployRun-4711` under `RoleAssignmentRef(Operator-A)`. That assignment must cover the Work, and the Work must instantiate the action specification inside the grant's scope and window. Only then may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.EntityRef(PER-4711)`. The assignment grounds the performance and beneficiary match; it does not perform the Work. Planned work, the approval wording, and preflight alone are not exercise.
+* **E — optional result or delivery:** if `DeployRun-4711` returns `ReleaseArtifact-4711`, cite the exact A.6.1 result binding or an already governed subject-specific `WorkResultRelation`; if that artifact is transferred, cite the independently obtaining subject-owned delivery/transfer relation. Work, result, and delivery do not imply one another.
+* **E — evidence (optional):** an A.10 path may link the exact grant, Work, exercise, result, or delivery claim to its current carriers for one bounded reliance use. The carriers create none of those objects.
 
 #### A.6.C:5.3 — Show (Episteme archetypes)
 
@@ -125,7 +127,7 @@ If you use contract-language for a boundary, do not treat “the interface or sp
 
 **Unpack + classify:**
 
-* **Utterance:** protocol description (could be a type spec or protocol spec plus explanatory views).
+* **Description/publication:** protocol description (could be a type spec or protocol spec plus explanatory views).
 * **L:** safety and progress properties as laws over the protocol model (truth-conditional, within the theory).
 * **A:** admissibility: when an interaction trace is considered valid or admissible (e.g., runtime checks; compilation checks; gating conditions for entering a session).
 * **D:** obligations on implementers or operators: implement the protocol; do not send messages outside the allowed state machine; publish conformance records if required.
@@ -139,7 +141,7 @@ If you use contract-language for a boundary, do not treat “the interface or sp
 **Unpack + classify:**
 
 * **Promise content (service promise clause):** responsiveness promise for a defined incident class and window.
-* **Utterance:** SLA publication (and its views for different audiences).
+* **Description/publication:** SLA publication (and its views for different audiences).
 * **A:** admissibility predicate for the promise: ticket qualifies iff severity classification meets stated conditions.
 * **D:** provider commitment to meet the target; client duties (e.g., provide required info); auditor duties if applicable.
 * **E:** evidence: ticket carriers, timestamps, classification records, and the measurement procedure binding “4 hours” to a time window and clock source.

@@ -6,28 +6,30 @@ section_id: "A.7.CP:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__002_use-this-when.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:0 — Use this when"
-line_start: 22071
-line_end: 22080
+line_start: 22323
+line_end: 22332
 dependencies:
   - "A.7"
   - "A.7.1"
   - "A.7.2"
 keywords:
   - "ClaimUsedAsReasoningBasisRelation@Context"
-  - "claim content"
-  - "constructive-premise compact"
-  - "reasoning-basis use"
+  - "adopted premise or conditional assumption"
+  - "constructive-premise claim"
+  - "dated reasoning Work"
+  - "exact receiving claim or result"
+  - "selective reopen"
 ---
 
 ### A.7.CP:0 - Use this when
 
-Use this pattern when reasoning, ontology analysis, choice, or reconciliation actually relies on a broad constructive claim and another person must be able to recover which claim, posture, context, work occurrence, and interval carried that reliance.
+Use this pattern when reasoning, ontology analysis, choice, or reconciliation actually relies on a broad constructive claim and another person must be able to recover which claim, exact receiving claim or result, posture, scope, work occurrence, and interval carried that reliance.
 
-The first useful move is to name the dated reasoning work, its declared use, the exact `A7CP-*` claim IDs it relies on, and whether each use is an `adoptedPremise` or `conditionalAssumption`. Leave the other compact claims latent.
+The first useful move is to name the dated reasoning work, each exact claim-bearing result or receiving decision it is forming, the exact `A7CP-*` claim IDs used for that result, and whether each use is an `adoptedPremise` or `conditionalAssumption`. Leave the other compact claims latent.
 
 **Not this pattern when.** Citation, publication, shared vocabulary, ordinary `A.7` category-error repair, source currentness, or a domain/evidence problem that uses no compact claim in reasoning creates no relation occurrence. This support pattern is not a method, performer, work plan, catalogue-reading episode, or problem-facing result.
 

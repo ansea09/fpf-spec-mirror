@@ -6,12 +6,12 @@ section_id: "A.15.1:15a"
 section_title: "P2W Performed-Work Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__020_p2w-performed-work-use-relation.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15a — P2W Performed-Work Use Relation"
-line_start: 24725
-line_end: 24730
+line_start: 25021
+line_end: 25026
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,6 +37,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
+  - "F.6"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
@@ -47,25 +48,21 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "U.Work admitted kind"
-  - "actual binding"
-  - "affected referent"
-  - "enactsMethod"
-  - "episode"
-  - "no automatic transformation"
-  - "occurrence assertion and record separation"
-  - "overlap"
-  - "performed resource-use fact"
-  - "performedBy"
-  - "retry"
-  - "work continuity"
-  - "work part"
+  - "actual performer U.System"
+  - "admitted U.Work kind"
+  - "containing system"
+  - "covering U.RoleAssignment"
+  - "enacted method"
+  - "optional direct bindings and resource use"
+  - "performedUnderAssignment"
+  - "separate result or consequence"
+  - "temporal extent"
   - "world-side dated occurrence"
 ---
 
 ### A.15.1:15a - P2W Performed-Work Use Relation
 
-When `E.18.1` reaches performed work, identify one Work individual admitted under `U.Work`, then recover the separately obtaining performer-assignment, enacted-method, binding, resource-use, temporal, affected-referent, and containing-system relations required by the receiving use. Carry actual change, production, evaluation-result, evidence, delivery, acceptance, transfer, or receiving-use claims as separately governed continuation objects.
+When `E.18.1` reaches performed work, identify one Work individual admitted under `U.Work`, then recover each actual performer `U.System`, the exact obtaining `U.RoleAssignment` under which it performed and any explicit F.6 attribution, plus the separately obtaining enacted-method, temporal, and containing-system relations. Add binding, resource-use, or work-to-referent relations only when the receiving use needs them. When P2W continues into a result or consequence claim, select the exact §4.6 row and carry that object under its own governor.
 
-A Work occurrence may be designated by an episteme that also cites a `U.WorkPlan`, exact A.15.3 planned-filling claim, or prior readiness claim as a baseline. State every actual participant, parameter, premise, operation argument or result, resource use, and affected referent only through its obtaining direct relation or exact A.6.1 application binding. Keep plan, comparison, transfer, evidence, assurance, gate, readiness, transformation, production, evaluation, result episteme, delivery, acceptance, and downstream effect under their direct governors.
+A Work occurrence may be designated by an episteme that also cites a `U.WorkPlan`, exact A.15.3 planned-filling claim, or prior readiness claim as a baseline. State every actual participant, parameter, premise, operation argument or result, resource use, and work-to-referent fact only through its obtaining direct relation or exact A.6.1 application binding. Do not copy a result or consequence into Work; follow the concrete §4.6 route.
 

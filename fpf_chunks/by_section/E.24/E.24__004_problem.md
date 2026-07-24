@@ -6,17 +6,18 @@ section_id: "E.24:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__004_problem.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:2 — Problem"
-line_start: 84609
-line_end: 84618
+line_start: 85067
+line_end: 85076
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.3.5"
   - "C.13"
@@ -27,6 +28,7 @@ dependencies:
   - "E.14"
   - "E.17.0"
   - "E.21"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.24.UK"
@@ -44,7 +46,7 @@ Without this discipline:
 
 1. **Local epistemes become pseudo-ontics.** A repeated claim-bearing episteme or reusable publication form starts to be cited as a new ontology unit even though its claims or layout only refer to existing governed values.
 2. **Draft ToC rows become false authorities.** A planned ToC row is cited as if it already supplied current governing text.
-3. **Pattern placement is mistaken for ontology.** A numbering or placement label becomes the proposed ontic even though no primary governed subject kind, core direct relation, or governing pattern is named.
+3. **Pattern placement is mistaken for ontology.** A numbering or placement label becomes the proposed ontic even though no primary governed subject kind, exact identity or constitution rule, minimal governed relation set, or governing pattern is named.
 4. **Reusable SlotSpecs are copied without a direct relation.** Several patterns list similar SlotSpecs, but no direct pattern states the relation kind, participant meanings, obtaining condition, or occurrence identity.
 5. **Existing typed values are duplicated.** A new head repeats `U.Method`, `U.Mechanism`, `U.WorkPlan`, `U.Work`, evidence, gate, source, or result relations under a new name.
 

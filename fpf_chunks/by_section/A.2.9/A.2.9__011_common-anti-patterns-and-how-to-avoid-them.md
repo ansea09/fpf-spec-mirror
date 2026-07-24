@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 6311
-line_end: 6321
+line_start: 6393
+line_end: 6407
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,22 +23,27 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:8 — Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern                                                              | Why it fails                         | Repair                                                                                   |
 | ------------------------------------------------------------------------- | ------------------------------------ | ---------------------------------------------------------------------------------------- |
-| **Episteme-as-actor** (“the spec approves/declares”)                      | assigns agency to descriptions       | represent the publishing/approving act as `U.SpeechAct(performedBy=RoleAssignment)`      |
-| **Carrier-as-act** (“the signed PDF is the approval”)                     | conflates carrier with act           | model `U.SpeechAct` and point to the PDF as a carrier reference and, when needed, to a separate utterance-description reference                     |
+| **Episteme- or assignment-as-actor** (“the spec/assignment approves”)     | assigns agency to a description or relation | represent the act with `performedBy` naming the admitted system and `performedUnderAssignment` naming its covering role/authority relation |
+| **Kind/occurrence/record collapse** (`U.SpeechAct` used for all three)     | a complete record is mistaken for actual Work | reserve `U.SpeechAct` for the kind, identify `SA : U.SpeechAct` as the occurrence, and use `SpeechActRecord` only for claims about it |
+| **Carrier-as-act** (“the signed PDF is the approval”)                     | conflates carrier with act           | identify the actual speech-act occurrence; let its separate `SpeechActRecord` cite the PDF carrier and any utterance-description episteme |
+| **Placeholder method as Work anchor**                                     | a fabricated description hides an unknown world-side relation | leave `enactsMethodRef` unresolved with source-gap provenance and `observationOnly`; recover the actual method relation before reliance |
+| **`affected` as aboutness, target, and effect**                            | one field makes mention look like world-side change | state the utterance subject and intended institutional target separately; cite an exact obtaining change/effect relation only when one exists |
+| **Status claim listed as instituted effect**                              | a claim ID is mistaken for the status it describes | cite the exact status or publication relation occurrence; keep the C.2.1 claim and A.10 evidence separate |
 | **Free-text type** (“type=‘approved-ish’”)                                | not lintable; drifts across faces    | register `SpeechActTypeRef` in the context and use it                                    |
 | **Act carries obligations** (obligations embedded as prose in speech act) | collapses act and deontic binding    | model obligations as `U.Commitment` objects instituted by the act                        |
 | **Gating without window**                                                 | cannot evaluate freshness            | add explicit `window` and reference it in the guard/checklist                            |

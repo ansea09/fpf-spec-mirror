@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4`
+Commit SHA: `f2fdd062c1518c9b1a1be1b6ad795627cffad2f1`
 
 Chunking method: `pattern-aware`
 
@@ -23,7 +23,7 @@ Patterns: `290`
 - [A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary](by_pattern/A.2.7.md)
 - [A.2.8 — U.Commitment (Deontic Commitment Object)](by_pattern/A.2.8.md)
 - [A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition](by_pattern/A.2.8.PER.md)
-- [A.2.9 — U.SpeechAct (Communicative Work Object)](by_pattern/A.2.9.md)
+- [A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)](by_pattern/A.2.9.md)
 - [A.3 — Transformer Constitution (Quartet)](by_pattern/A.3.md)
 - [A.3.1 — U.Method: Context-Defined Way of Doing](by_pattern/A.3.1.md)
 - [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)

@@ -6,12 +6,12 @@ section_id: "A.6.REL:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__007_bias-annotation.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:6 — Bias-Annotation"
-line_start: 10739
-line_end: 10746
+line_start: 10907
+line_end: 10914
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -27,7 +27,7 @@ keywords:
 
 This pattern has an individuation bias because it serves receiving uses that need relation identity. The lightweight stop rule prevents that bias from turning every direct relation into an explicit relation-occurrence description episteme.
 
-The physical and role-assignment cases can over-emphasize participant identities. A direct relation pattern may instead use constituting work or another exact world-side discriminator. The repeated-episode cases can also over-emphasize temporal extent. Time enters an occurrence-identity rule only when the direct pattern states that contribution.
+The admitted role-assignment case can over-emphasize participant identities and temporal continuity. Another direct relation may instead use constituting work or another world-side discriminator, but only when its own accepted pattern states that contribution. The hypothetical installed-part boundary demonstrates why A.6.REL must not invent that rule.
 
 Engineers can easily picture relation instances through data-model examples. The prescribed move therefore begins with direct relation obtaining, predicate satisfaction, and the direct identity rule. A system introduces database rows, graph edges, reifiers, tuples, and data-model objects only afterwards as representations for a declared use.
 

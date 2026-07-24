@@ -6,44 +6,48 @@ section_id: "F.6:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__016_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:14 — Relations"
-line_start: 88275
-line_end: 88284
+line_start: 88845
+line_end: 88852
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:14 - Relations
 
-**Builds on:** `A.2` for `U.Role`, `A.2.1` for `U.RoleAssignment`, `F.4` for role-description epistemes, and `F.5` for role and type naming.
+**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for `U.Role`; `A.2.1` for `U.RoleAssignment`; and `A.15.1` for dated `U.Work`.
 
-**Uses when current:** `A.2.5` for role-state and enactable-state admission; `A.2.2` for capability; `A.15`, `A.15.1`, `A.3.1`, and `A.3.2` for method, method description, work plan, and performed work; `A.6.5` when role-like words are relation positions.
+**Uses when current:** `A.2.5` for role state; `A.2.2` for capability; `A.3.1`, `A.3.2`, and `A.15` for method and work alignment; `A.10` for evidence; `A.15.4` for reliance on encountered project material; `F.9` for cross-scheme correspondence; and `A.1.1` only when an independently selected model-use structure changes assignment interpretation.
 
-**Direct governing patterns:** `F.10`, `A.10`, `B.3`, `C.28`, `E.17`, `E.17.0`, `E.17.2`, `E.10.D2`, gate, decision, publication-use, source-use, standard-use, requirement-use, and assurance patterns when the current claim is not work-facing role assignment or performed-work attribution.
-
-**Coordinates with:** `F.9` for cross-context bridge claims; `F.18` for durable public names; `E.10` and `E.10.ARCH` for wording-use recovery when source language hides the current kind.
+**Coordinates with:** `F.4` for role-description epistemes; `F.5` and `F.18` for durable names; `E.17` for publication; and `E.10` for source-word precision repair.
 

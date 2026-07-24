@@ -6,16 +6,17 @@ section_id: "A.6.RCD:12"
 section_title: "Reopen Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__014_reopen-conditions.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:12 — Reopen Conditions"
-line_start: 16432
-line_end: 16444
+line_start: 16661
+line_end: 16673
 dependencies:
   - "A.11"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.P"
   - "A.6.REL"
   - "B.3"
   - "C.2.1"
@@ -25,6 +26,7 @@ dependencies:
   - "F.18"
   - "F.9"
   - "G.11"
+  - "U.Signature"
 keywords:
 ---
 

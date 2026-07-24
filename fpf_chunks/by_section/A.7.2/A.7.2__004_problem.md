@@ -6,12 +6,12 @@ section_id: "A.7.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__004_problem.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:2 — Problem"
-line_start: 21881
-line_end: 21886
+line_start: 22127
+line_end: 22132
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -22,16 +22,18 @@ dependencies:
   - "E.17"
   - "G.11"
 keywords:
-  - "incompatible FPF consequences"
+  - "actual source-use relations"
+  - "context split"
+  - "dated FPF applications"
+  - "exact used clauses and premises"
   - "optional convergence"
-  - "premise reconciliation"
-  - "same receiving claim and scope"
-  - "source-use conflict"
+  - "result claims or decisions"
+  - "same receiving claim or consequence"
 ---
 
 ### A.7.2:2 - Problem
 
-A premise catalogue does not repair methods that produce incompatible results. Prestige ranking of sources can hide the receiving claim, while broad foundation rewriting can damage unrelated pattern decisions. Conversely, treating different source functions as automatically incomparable can leave a real same-claim contradiction unresolved.
+A premise catalogue does not repair dated applications whose result claims conflict. Prestige ranking of sources can hide the receiving claim, while broad foundation rewriting can damage unrelated pattern decisions. Conversely, treating different source functions as automatically incomparable can leave a real same-claim contradiction unresolved.
 
 Reconciliation must recover what each work occurrence actually used, what source content bore on the receiving claim, which direct owners decide evidence and currentness, and which smallest FPF decision must reopen.
 

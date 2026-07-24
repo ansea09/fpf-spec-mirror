@@ -6,17 +6,18 @@ section_id: "E.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__005_forces.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:3 — Forces"
-line_start: 84619
-line_end: 84628
+line_start: 85077
+line_end: 85086
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.3.5"
   - "C.13"
@@ -27,6 +28,7 @@ dependencies:
   - "E.14"
   - "E.17.0"
   - "E.21"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.24.UK"
@@ -44,7 +46,7 @@ keywords:
 | --- | --- |
 | Ontic stability vs bounded local explanation | A durable FPF ontic needs stable identity plus named direct relation kinds and their governing rules; a bounded local episteme keeps its C.2.1 identity and needs only the claims and references required for one application family. |
 | Reuse vs overgrowth | Dependent patterns may need one stable direct relation and a reusable declaration; premature `U.*` growth creates another ontology. |
-| Ontology governance vs pattern placement | The primary governed subject kind, core direct relation, and governing patterns determine the ontic-introduction decision; a pattern nest is only publication and specialization placement under E.8. |
+| Ontology governance vs pattern placement | The primary governed subject kind, exact identity or constitution rule, minimal governed relation set, and their governing patterns determine the ontic-introduction decision; a pattern nest is only publication and specialization placement under E.8. |
 | Draft citeability vs current governance | Draft ToC rows can guide investigation, and an accepted DRR can carry the authoring decision, but only current governing-pattern text carries governing meaning for current FPF use. |
 | Naming vs ontology | F.18 can improve a name, but naming cannot decide identity, direct relations, declarations, species, or the reliance basis of dependent patterns. |
 

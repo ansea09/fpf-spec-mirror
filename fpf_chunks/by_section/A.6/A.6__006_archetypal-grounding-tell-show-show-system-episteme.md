@@ -6,22 +6,19 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 8819
-line_end: 8883
+line_start: 8927
+line_end: 8993
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2.3"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
-  - "A.20"
-  - "A.21"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -32,13 +29,11 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.26"
-  - "C.26.1"
   - "C.28"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.19"
   - "E.8"
   - "F.18"
@@ -46,23 +41,21 @@ dependencies:
   - "U.Mechanism"
   - "U.Signature"
   - "U.View"
-  - "U.Work"
 keywords:
-  - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
-  - "MUST"
   - "Rewrite as declarative predicate"
-  - "SHOULD"
-  - "and MAY)"
-  - "authority-wording split"
-  - "boundary"
-  - "boundary claim-classification fields"
+  - "Work versus non-Work effect"
+  - "acceptance"
+  - "actual occurrence"
+  - "and evidence"
+  - "atomic L/A/D/E claims"
+  - "delivery"
   - "in invariants"
-  - "probe/order/frame/export/state-reading claims"
-  - "promise/commitment/API/policy wording"
+  - "publication face"
   - "reference predicate IDs from CC when needed"
-  - "register-backed status boundary"
-  - "signature stack"
+  - "separate result"
+  - "signature and mechanism declarations"
+  - "six-way authority-word branch"
   - "undermines auditability"
   - "“MUST” appears inside Definition: blocks"
 ---
@@ -73,7 +66,7 @@ keywords:
 
 #### Tell (universal rule)
 
-A boundary description is evolvable iff its claims are separated across the signature stack and each statement is classified by the boundary discipline matrix to its proper layer (Laws, Admissibility, Deontic results—commitments or permission results, Effects and evidence), while preserving EntityOfConcern and Description-episteme / publication-carrier separation.
+A boundary description is evolvable iff its claims are separated across the signature stack and each statement is classified as Law, Admissibility, Deontic duty/commitment/grant, or the boundary's observable-effect/evidence family. An E claim names the exact actual occurrence under its direct owner: dated Work only when A.15.1 grounds it, or A.3/A.3.4 and the exact interaction/causal owner for non-Work change. EntityOfConcern, description, and publication carrier remain separate.
 
 #### Show #1 (`U.System`): effectful API boundary (algebraic effects intuition)
 
@@ -91,11 +84,11 @@ A boundary description is evolvable iff its claims are separated across the sign
   * Transport: HTTP headers, idempotency key transport, canonical currency conversions.
   * Audit and observability: specifies required evidence carriers (e.g., `AuthorizationRecord` event, log entry) and their semantics (fields, correlation IDs, retention class).
 
-* **Realization and work layer.**
+* **Actual occurrence and work layer.**
 
-  * Actual side effects: reservation entry in ledger, emission of event, timers, retries.
-  * Evidence: traces, logs, metrics.
-
+  * The payment-handling occurrence is `U.Work` only when its admitted performer system, covering assignment, enacted method, time, and containing system are grounded through A.15.1.
+  * The ledger reservation change, event emission, timer transition, or retry effect is a separate actual-occurrence claim under A.3/A.3.4 or its exact interaction/causal owner. Check each effect separately: knowing that the payment Work occurred does not show that the ledger changed, an event was emitted, or a retry happened.
+  * Traces, logs, and metrics enter an A.10 evidence path for the exact effect being relied on; carrier presence creates neither Work nor change.
 * **Publication faces (MVPK).**
 
   * PlainView: narrative for stakeholders (what the service promise is, in plain terms).
@@ -121,7 +114,9 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 * **Deontics and commitments:** reviewers MUST use dataset vX.Y; authors SHALL publish MVPK faces and cite the measurement environment; an organisation commits to a review SLA (explicitly a role-assignment or acting-system commitment).
 
-* **Effects and evidence:** the produced report file, logs of evaluation runs, cryptographic hashes, and trace IDs are carriers. A.7 discipline prevents calling the report “the evaluation” (object) and prevents treating the file as the model.
+* **Effects and evidence:** the dated evaluation run is a Work occurrence only when A.15.1 grounds it; its result episteme, any model or dataset change, and the report publication remain separate. Report files, logs, hashes, and trace IDs support the selected claims through A.10 but create none of those occurrences or results.
+
+**Non-Work E contrast.** A seedling's spontaneous first-leaf unfolding can be an actual A.3.4 transformation with no performer, assignment, method, or Work occurrence. Measurements may support that exact change claim through A.10; neither the observation work nor its carrier becomes the change.
 
 * **Multi‑view (MVPK canonical face kinds only):**
 

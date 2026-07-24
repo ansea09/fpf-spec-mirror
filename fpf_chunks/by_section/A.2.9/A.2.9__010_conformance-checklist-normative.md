@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__010_conformance-checklist-normative.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:7 — Conformance Checklist (normative)"
-line_start: 6302
-line_end: 6310
+line_start: 6382
+line_end: 6392
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,22 +23,25 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:7 — Conformance Checklist (normative)
 
-1. **CC‑A.2.9‑1 (Accountable performer).** A normative `U.SpeechAct` record **MUST** identify `performedBy` as an accountable `RoleAssignmentRef` and **MUST NOT** use a specification episteme, interface-description episteme, or document-carried episteme as performer.
-2. **CC‑A.2.9‑2 (ActTypes declared).** A `U.SpeechAct` record **MUST** include at least one `SpeechActTypeRef` recognized in its judgement context.
-3. **CC‑A.2.9‑3 (Window explicit).** A `U.SpeechAct` record **MUST** have an explicit `window` (or inherit a window from its parent work record) so freshness and gating can be evaluated.
-4. **CC‑A.2.9‑4 (Observable when used for gate checks or provenance).** If a speech act is cited by a checklist/guard, by `U.Commitment.source.speechActRef`, or by `GrantedPermissionRelation@Context.institutingSpeechActRef`, it **SHALL** have at least one `utteranceRef` or `carrierRef` that allows observation and audit in the given context; evidence-critical uses **SHOULD** cite at least one carrier via SCR/RSCR per A.10.
-5. **CC‑A.2.9‑5 (Effects by reference).** If the act is intended to institute or update commitments, granted permissions, roles, or statuses, those effects **SHOULD** be referenced in the exact `institutes.*` field by stable object or relation-occurrence IDs.
-6. **CC‑A.2.9‑6 (Bridge-only cross-context use).** If a `SpeechActRef` is interpreted for gate checks or provenance in a different bounded context than the act’s judgement context, the referencing object **MUST** cite the Bridge/policy that licenses that cross-context interpretation (no “same label implies same force”).
+1. **CC‑A.2.9‑1 (Occurrence, performer, and assignment).** One actual Work individual is admitted as `SA : U.SpeechAct`; its performer is an admitted accountable `U.System`, and the exact covering `U.RoleAssignment` has that system as holder. Any `SpeechActRecord` states those as claims and **MUST NOT** make the assignment, role value, organizational label, episteme, or carrier the performer.
+2. **CC‑A.2.9‑2 (Act-type predicate).** The actual occurrence satisfies at least one context-local `SpeechActTypeRef`; merely writing a token into `SpeechActRecord.actTypes` is insufficient.
+3. **CC‑A.2.9‑3 (Actual extent versus timestamp claim).** The occurrence has an actual temporal extent. A record's `window` must truthfully state that extent at the required precision; it does not create it.
+4. **CC‑A.2.9‑4 (Observable relied-on occurrence).** If a checklist, guard, commitment, or grant cites the occurrence, one `SpeechActRecord` identifies it and cites an applicable utterance, carrier, or direct evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10.
+5. **CC‑A.2.9‑5 (Typed world-side effects, separate claims).** A record's `institutes.*` branch references only an exact commitment or obtaining relation occurrence through its declared RefKind. A grant uses `GrantedPermissionRelationRef@Context`; publication uses `EpistemePublicationRelationRef`; a subject-specific status uses its direct relation type. A status claim and its evidence stay separate, and no record field makes any effect obtain.
+6. **CC‑A.2.9‑6 (Bridge-only cross-context use).** A receiving claim that interprets a `SpeechActRef` or `SpeechActRecord` in another bounded context cites the Bridge/policy that licenses that interpretation.
+7. **CC‑A.2.9‑7 (No fabricated method anchor).** If the occurrence's actual `enactsMethod -> U.Method` relation cannot be recovered, the record names the unresolved claim and source-gap provenance, remains `observationOnly`, and is not used for gate or deontic provenance. A placeholder `U.MethodDescription` never closes the gap.
+8. **CC‑A.2.9‑8 (Subject, target, and effect stay distinct).** A record uses `utteranceSubjectRefs` for aboutness and `institutionalTargetRefs` only for a policy-selected target. It claims actual change or institutional effect only through the exact direct relation; an informative act needs no changed target.
 

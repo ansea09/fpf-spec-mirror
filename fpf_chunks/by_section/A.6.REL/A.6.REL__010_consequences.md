@@ -6,12 +6,12 @@ section_id: "A.6.REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__010_consequences.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:9 — Consequences"
-line_start: 10776
-line_end: 10783
+line_start: 10944
+line_end: 10951
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -25,7 +25,7 @@ keywords:
 
 ### A.6.REL:9 - Consequences
 
-**Benefits.** The content of receiving epistemes can designate repeated relation occurrences stably; receiving relations can have those occurrences as typed participants. The discipline applies to physical composition, role assignment, exact production, delivery, acceptance and evaluation relations, formal relation assertions, and dependent evaluative relations without making their obtaining conditions or identity rules identical. Ordinary prose remains readable because explicit individuation is demand-driven.
+**Benefits.** One common discipline travels without flattening unlike objects: A.6.REL supplies no universal truth-maker, occurrence-identity discriminator, or representation form; every direct relation and representation owner supplies its own. In `U.RoleAssignment`, A.2.1 uses uninterrupted obtaining and a demonstrated gap to distinguish repeated episodes for history or work attribution. In the formal reduced case, `3 < 5` remains assertion content and needs no explicitly individuated relation occurrence. In `C.22.PFR`, the actual-condition and criterion-applicability relation occurrences are already individuated under their own direct rules before PFR uses them as participants. Each assertion remains a claim-bearing episteme; none is placed in a list of world-side relation kinds.
 
 **Costs.** A direct relation pattern needs a stated occurrence-identity rule, not only participants, when a receiving assertion, description, direct relation, or declared operation application depends on distinguishing one occurrence from another. A system performing relation-identification work establishes whether participants, temporal extent, constituting work, or another domain discriminator distinguishes repetition. Data schemas that used row identity as ontology may need to expose the domain identity they hid.
 

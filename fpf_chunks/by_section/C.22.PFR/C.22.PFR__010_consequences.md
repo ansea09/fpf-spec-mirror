@@ -6,12 +6,12 @@ section_id: "C.22.PFR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__010_consequences.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:9 — Consequences"
-line_start: 50589
-line_end: 50596
+line_start: 51031
+line_end: 51038
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,18 +26,19 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual condition"
-  - "actual problematic-for relation"
-  - "applicability predicate"
-  - "problem-for entity"
-  - "relation occurrence"
+  - "actual adverse condition"
+  - "actual adverse episode"
+  - "assessment and evidence separation"
+  - "condition-to-predicate input rule"
+  - "exact problem-for entity and use"
+  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:9 - Consequences
 
 **Benefits.** PFR gives actual Problems stable identity without turning cards or evaluations into world-side constituents. Two entities or scopes can use one predicate without collision, repeated adverse episodes remain distinguishable, and ongoing episodes can be referenced before closure. Unknown evidence remains epistemically honest.
 
-**Costs.** A load-bearing use must recover a by-value predicate and exact applicability relation. Direct consumer patterns must state how adverse truth is evaluated, including comparator and polarity semantics. Temporal identity requires a real recovery boundary rather than assessment timestamps.
+**Costs.** A load-bearing use must recover a by-value predicate, its exact condition-to-input rule and problem-for link, and one exact applicability relation. Direct consumer patterns must state how the selected point is obtained and how adverse truth is evaluated, including comparator and polarity semantics. Temporal identity requires a real recovery boundary rather than assessment timestamps.
 
 **Limits.** C.22.PFR does not define domain criteria, measurement methods, comparator semantics, acceptance policy, evidence sufficiency, method search, repair work, or problem-card publication. It governs only actual Problem obtaining, dependence, projection, and occurrence identity.
 

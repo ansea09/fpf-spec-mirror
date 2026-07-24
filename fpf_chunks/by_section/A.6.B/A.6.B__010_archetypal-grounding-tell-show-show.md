@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 9737
-line_end: 10008
+line_start: 9853
+line_end: 10159
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -22,16 +22,15 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
-  - "A.6.P"
+  - "A.6.B"
+  - "A.6.C"
   - "A.7"
   - "B.3"
-  - "C.26.1"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "F.18"
   - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
@@ -41,9 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "(they are not obligations"
-  - "Keeps modalities separated and audit-ready"
-  - "L/A/D/E claim classification"
+  - "Keeps claim text"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -52,30 +49,36 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "accountable commitments"
-  - "admissible use"
-  - "alone select neither branch"
+  - "a duty or commitment D- claim MUST name its accountable subject"
+  - "accountable norms and grants"
+  - "actual exercise"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
-  - "atomic claims"
-  - "boundary norm square"
-  - "claim IDs"
-  - "laws vs entry predicates vs deontic results vs evidence"
+  - "atomic L/A/D/E claims"
+  - "conflict claims"
+  - "direct obtaining conditions"
+  - "entry predicates"
+  - "evaluated findings"
+  - "evaluation"
+  - "institutional obtaining"
+  - "laws"
   - "may"
-  - "non-admissible use"
+  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
+  - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
-  - "strong or weak permission results"
-  - "they describe adjudicable effects and evidence)"
-  - "triangle decomposition"
+  - "or observation that settles it and any evidence used for reliance"
+  - "they report adjudicable results rather than obligations"
+  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -136,10 +139,10 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 * **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
-* **D** if it either assigns an accountable duty/recommendation/prohibition commitment under `A.2.8`, or asserts the exact strong/weak permission, exercise, non-violation, or conflict result governed by `A.2.8.PER`. RFC keywords alone select neither branch.
-  **Guardrails:** a commitment-branch `D-*` claim MUST name its accountable subject; a permission-branch `D-*` claim MUST cite the exact `A.2.8.PER` object with its direct participants/references. Either branch SHOULD reference `L-*`/`A-*`/`E-*` by ID rather than restating them in new words.
-* **E** if it is an *in‑work* truth‑conditional claim about adjudicable effects and evidence: what carriers exist, under what observation conditions, or both.
-  **Minimum fields (recommended):** (1) observation and measurement conditions, (2) carrier-class and carrier-schema reference, and (3) viewpoint and consumer.
+* **D** if the exact atomic statement assigns an accountable duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
+  **Guardrails:** a duty or commitment claim names its accountable subject; a grant claim instead follows the participant and ground test in the **Grant or norm** row. Writing either claim does not make its object obtain.
+* **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
+  **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
   *(If the sentence is “Role SHALL measure, retain, or expose …”, classify that obligation to **D**, even if it is about evidence.)*
 
@@ -149,9 +152,18 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 * **D → A**: who is responsible for keeping or ensuring the predicate,
 * **E → A**: what evidence or traces are used to adjudicate the predicate.
 
-A permission-branch `D-*` claim instead cites its exact `A.2.8.PER` relation or finding. An `A-*` predicate may consume that result as one condition without becoming it, instituting a grant, or resolving a conflict.
+**Permission-word branch (use only when the sentence sounds permissive).** Choose the row by the job the sentence performs, not by the word *may*, *approved*, *authorized*, or *permitted*.
 
-**Note (claim-classification sanity).** `D-*` claims are authored in the description even when their compliance is audited via `E-*` claims. Auditing via evidence does not move `D-*` into quadrant E.
+| Branch | Ask this plain question | Square result | Direct owner and what closes the row |
+|---|---|---|---|
+| **Grant or norm** | Does the sentence tell a named subject what it must or must not do, or tell a named beneficiary which action it is permitted to perform and under what conditions? | **D** | Use `A.2.8` for the duty/prohibition/commitment. For a grant use `A.2.8.PER`: name the exact grant occurrence, beneficiary, action, scope/window, and the policy-valid `A.2.9` act with its performer and assignment; confirm that the policy conditions still hold, and that no valid revocation or supersession ended the grant; cite the evidence needed before reliance. |
+| **Gate** | Is a mechanism deciding whether this application may enter by checking the grant, finding, or conflict named by another row? | **A** | Use the mechanism or gate owner and name its entry predicate. The named object is an input; the gate neither creates nor resolves it. |
+| **Actual exercise** | Did this dated Work match the named grant's action and beneficiary while that grant was in force? | **E** | Use `A.2.8.PER PermissionExerciseRelation@Context`: name the exact Work, grant occurrence, performer/assignment or on-behalf-of ground, scope, and interval. A failed match means that exercise relation does not obtain. |
+| **Weak evaluation or non-violation** | Did an evaluation of a current, sufficiently complete normative frame find no applicable prohibition before action, or no violation in the actual Work? | **E** | Use the exact `NonProhibitionFinding@Context` or `NonViolationFinding@Context`, its evaluation Work, frame, subject/action or Work, scope, and window. A stale or incomplete frame returns `unresolved`. |
+| **Conflict** | Do a current grant and norm cover the same case, and has a rule or authorized decision actually selected the outcome? | **E** | Use `A.2.8.PER PermissionNormConflictFinding@Context`. Cite the applicable selecting rule or the admitted system's authorized dated decision Work and current resolution result; otherwise keep the finding `unresolved`. |
+| **Source or display only** | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or evidences something? | **E** for an observed carrier/evidence claim; **L** for its definition | Use A.10/G.6 for evidence and the applicable publication or carrier owner. A visible or published item is not itself a grant, exercise, finding, or resolution. |
+
+Choose one row. If one sentence answers two questions, split it before classification. If the sentence is not permission-like, do not use this branch. The branch classifies claims and selects existing owners; it creates no `permission result` umbrella. Use the filled case in §8.4.5.4 when a concrete model is needed; point back to that case rather than adding another owner list.
 
 **Guideline.** Keep gate semantics independent of specific evidence carriers: write the gate predicate in `A-*`, then bind observability in `E-*` that references the gate (`E → A`). `A-*` claims MUST NOT reference `E-*` (no upward dependencies), even though `E-*` is used to adjudicate gate satisfaction.
 
@@ -168,7 +180,7 @@ A permission-branch `D-*` claim instead cites its exact `A.2.8.PER` relation or 
 
 * Place **L** claims in `Signature.Laws` (and mechanism-local semantic laws if present), and **A** claims in `Mechanism.AdmissibilityConditions`.
 * Bind **D** claims to accountable role assignments or admitted acting systems and prefer ID references (no restatement of `L-*` / `A-*` content in new words).
-* Bind **E** claims to carriers and observation conditions and **SHOULD** include viewpoint and consumer (minimum: conditions + carrier class and schema + consumer and viewpoint).
+* Bind each **E** claim first to its exact predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
 
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID without paraphrase.
 
@@ -318,7 +330,7 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 
 **A-PRJ-01 (Gate predicate: stage entry).**
 For starting execution work, `ExecutionAdmissible(project)` holds iff required approvals are present *and* required prerequisites are satisfied (e.g., risk review completed, budget line exists, key roles staffed).
-*(This is the real “may start work” entry predicate; references L-PRJ-01 for what counts as approvals. It does not assert a `GrantedPermissionRelation@Context` unless a separate D-side grant claim and its `A.2.8.PER` ground are present.)*
+*(This is the real “may start work” entry predicate; it references L-PRJ-01 for what counts as approvals. If “approved” is meant as permission rather than gate evidence, use the permission-word branch in §8.4.1. An approval registry entry or evidence carrier alone remains source/display evidence and is not a grant.)*
 
 **D-PRJ-01 (Duty).**
 `ProjectOwner` SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain or expose the evidence carriers referenced in `E-PRJ-01`.
@@ -343,6 +355,32 @@ As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateCheckl
 
 **Plain paragraph:**
 “Instead of a generic ‘approved’, we select an explicit approval kind as defined in **L-PRJ-01** and treat ‘may start execution’ as an admissibility gate (**A-PRJ-01**). The project owner is accountable for not starting execution unless that gate holds and for keeping the approval registry current (**D-PRJ-01**). Gate status is adjudicated using the pinned carriers listed in **E-PRJ-01**; as of snapshot `t`, the evidence indicates the gate holds (**E-PRJ-02**).”
+
+###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
+
+**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder, covers the act, and supplies the authority ground. The act satisfies `CalibrationGrantPolicy-v4` in `PlantCalibrationContext` and is the actual instituting Work, not a document or assignment acting in its place.
+
+**D-CAL-01 (Grant position).** `MaintenanceCalibrationGrant-17 : GrantedPermissionRelation@Context`, instituted by `CalibrationGrantAct-17`—the actual speech act stated in `E-CAL-01`—permits beneficiary `MaintenanceTechnicianRole` to run `CalibrationProcedure-v3` in Zone 8 during `ServiceWindow-17`. `CalibrationGrantPolicy-v4` remains current, the grant still covers that role, procedure, zone, and window, and no valid revocation or supersession has ended this occurrence; this `D-*` claim records the grant but does not institute it.
+
+**A-CAL-01 (Gate).** `CalibrationEntryAdmissible(plan, checkTime)` holds only if `MaintenanceCalibrationGrant-17` is current for the plan's beneficiary, action, zone, and time and no applicable permission/norm conflict finding is `unresolved`. The gate consumes those inputs; it creates neither the grant nor a conflict result.
+
+**E-CAL-02 (Actual Work and actor).** During the early part of `ServiceWindow-17`, admitted system `Tech-17` performed dated `CalibrationWork-17B : U.Work` under obtaining assignment `Tech-17@Shift-B`, whose holder is `Tech-17` and whose extent covers the Work. `Tech-17` performed the Work; the assignment only grounds the role attribution.
+
+**E-CAL-03 (Optional exercise claim).** Because this case asks whether the grant was used, `CalibrationExercise-17B : PermissionExerciseRelation@Context` connects `CalibrationWork-17B` to `MaintenanceCalibrationGrant-17`: the Work instantiates `CalibrationProcedure-v3`, `Tech-17@Shift-B` instantiates the beneficiary role, and the Work occurs in Zone 8 within `ServiceWindow-17` while the grant is current. If the action or beneficiary test failed, this exercise relation would not obtain.
+
+**D-CAL-02 (Exercise non-use boundary).** The boundary author **SHOULD** add `E-CAL-03` only when the reader needs to know whether the grant was exercised; otherwise the author stops with the separately named grant and Work rather than asserting an exercise relation by habit.
+
+**E-CAL-04 (Later non-violation finding).** Admitted system `ComplianceEvaluator-4` performed dated `CalibrationComplianceEvaluation-17B : U.Work` under covering assignment `ComplianceEvaluator-4@QualityShift`; that Work checked `CalibrationWork-17B` against current `PlantCalibrationNormativeFrame-17`, explicitly complete enough for this technician, procedure, zone, and evaluation window, and returned `CalibrationNonViolation-17B : NonViolationFinding@Context(result=nonViolating)`. A stale or insufficient frame would return `unresolved`, even though the grant and exercise remain separately inspectable.
+
+**E-CAL-05 (Evidence for reliance).** An A.10 evidence-provenance path links the exact `CalibrationNonViolation-17B` finding to `CalibrationComplianceEvaluation-17B`, `ComplianceEvaluator-4@QualityShift`, `CalibrationRunLog-17B`, the log's source and currentness relations, and the bounded audit context. The path supports reliance on the finding; the log, assignment, and path do not perform the evaluation or create its result.
+
+**E-CAL-06 (Unresolved conflict).** After `CalibrationWork-17B` and its evaluation, `Zone8EntryProhibition-17` becomes current for the same beneficiary, action, zone, and the remaining service window, including the calibration action specified by `CalibrationWorkPlan-17C`; no applicable rule selects an outcome and no authorized dated decision Work with a current resolution result exists. `CalibrationConflict-17 : PermissionNormConflictFinding@Context` therefore remains `unresolved`.
+
+**A-CAL-02 (Gate outcome).** At the later entry check for `CalibrationWorkPlan-17C`, `A-CAL-01` is false because `CalibrationConflict-17` is `unresolved`. That result blocks entry for the planned Work; it neither resolves the conflict nor revokes `MaintenanceCalibrationGrant-17`.
+
+**E-CAL-07 (Source/display fact).** `SignedGrantRecord-17` and `GreenPermitTile-17` are visible carriers in this case; their presence is an observed source/display claim only.
+
+**L-CAL-01 (Tempting wrong classification, rejected).** “The visible permit is D, so the grant exists, the Work exercised it, and the Work was non-violating” is not one atomic claim and is false as a classification shortcut. The carrier observation is `E-CAL-07`; the grant, exercise, evaluation finding, and gate outcome remain the separately classified claims above.
 
 ##### A.6.B:8.4.6 - A compact “recomposition pattern” you can reuse verbatim
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:12 — Relations"
-line_start: 6352
-line_end: 6365
+line_start: 6438
+line_end: 6451
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,22 +23,23 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:12 — Relations
 
 **Uses / builds on**
 
-* Uses **A.15.1 (`U.Work`)** for the event/work backbone (performedBy + window + stance).
-* Uses **A.7** for the strict act≠description≠carrier split.
+* Uses **A.15.1 (`U.Work`)** for the event/work backbone (actual performer system, covering assignment, window, and stance).
+* Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 
 **Used by**

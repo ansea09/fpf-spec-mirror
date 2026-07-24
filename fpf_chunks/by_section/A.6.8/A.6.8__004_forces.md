@@ -6,12 +6,12 @@ section_id: "A.6.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.8/A.6.8__004_forces.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.8 — Service Polysemy Unpacking (RPR‑SERV)"
   - "A.6.8:3 — Forces"
-line_start: 19579
-line_end: 19588
+line_start: 19825
+line_end: 19834
 dependencies:
   - "A.15"
   - "A.2.3"

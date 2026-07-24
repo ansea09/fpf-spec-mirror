@@ -6,12 +6,12 @@ section_id: "A.7.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__014_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:12 — Relations"
-line_start: 21848
-line_end: 21856
+line_start: 22094
+line_end: 22102
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -20,15 +20,17 @@ dependencies:
   - "E.24"
   - "E.24.UK"
 keywords:
+  - "actual system performing under an assignment"
   - "bounded unresolved result"
-  - "direct-owner return"
-  - "ontology repair"
+  - "exact subject and direct owner"
+  - "one selected analysis apparatus"
+  - "smallest defeated claim"
   - "wrong engineering consequence"
 ---
 
 ### A.7.1:12 - Relations
 
-- **Specializes:** the method described by `C.19.2`. The specialization always inherits declared use/result/guarantee/horizon, useful threshold, reader/performer/work/result separation, stop, and reopen. It inherits `C.18`/`C.11` candidate and choice behavior only when those questions are current. This is a method-description relation, not `U.SubkindOf` and not a world relation.
+- **Specializes:** the method described by `C.19.2`. On the ordinary one-apparatus path, the already selected A.7.1 analysis method is the direct-kind apparatus; the engineering subject and its direct owner remain inputs and constraints. The specialization always inherits declared use/result/guarantee/horizon, useful threshold, reader/performer/work/result separation, stop, and reopen. It inherits `C.18`/`C.11` candidate and choice behavior only for alternative analysis methods, models, formalisms, or other applicable apparatuses eligible for the same use and guarantee. This is a method-description relation, not `U.SubkindOf` and not a world relation.
 - **Consumes:** exact `A.7.CP` claim epistemes through `ClaimUsedAsReasoningBasisRelation@Context` only when the ontology-analysis work relies on them.
 - **Coordinates with:** `A.7.2` when a material cross-pattern premise conflict is current; neither method is the other's parent or premise owner.
 - **Returns to:** direct relation, role, holon, state, capability, method, work, evidence, temporal, structural, and domain owners for the claim being repaired.

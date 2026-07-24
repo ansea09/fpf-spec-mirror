@@ -6,12 +6,12 @@ section_id: "C.22.PFR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__007_bias-annotation.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:6 — Bias-Annotation"
-line_start: 50552
-line_end: 50559
+line_start: 50992
+line_end: 50999
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,11 +26,12 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual condition"
-  - "actual problematic-for relation"
-  - "applicability predicate"
-  - "problem-for entity"
-  - "relation occurrence"
+  - "actual adverse condition"
+  - "actual adverse episode"
+  - "assessment and evidence separation"
+  - "condition-to-predicate input rule"
+  - "exact problem-for entity and use"
+  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:6 - Bias-Annotation
@@ -39,5 +40,5 @@ This pattern has an actuality bias: Plain **problem** names an obtaining depende
 
 It has a predicate-centered bias because adverse truth is load-bearing. The applicability relation prevents a criterion from becoming globally adverse by label; exact entity, scope, and interval stay explicit.
 
-It also has a continuous-time bias for occurrence identity. Discrete-state and event-based domains can supply equivalent maximal continuous episode boundaries under their temporal reference. Evidence gaps remain unknown in either representation.
+It also has a continuous-time bias for occurrence identity. Discrete-state and event-based domains can supply equivalent actual episode boundaries under their temporal reference. Evidence gaps leave the continuity assertion unresolved in either representation; they do not decide the world-side boundary.
 

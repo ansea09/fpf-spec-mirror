@@ -6,12 +6,12 @@ section_id: "A.6.C:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__011_rationale.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:10 — Rationale"
-line_start: 10413
-line_end: 10418
+line_start: 10576
+line_end: 10581
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,35 +35,33 @@ dependencies:
   - "U.SpeechAct"
   - "U.Work"
 keywords:
-  - "(RFC 2119 + RFC 8174)"
-  - "A as predicates (“is admissible iff…”)"
-  - "Boundary Norm Square (L/A/D/E)"
-  - "MVPK faces “no new semantics”"
-  - "RECOMMENDED"
-  - "REQUIRED"
-  - "SLA/guarantee claim classification"
-  - "accountable commitment vs exact permission result"
-  - "and E as observable/evidenced properties. If a BCP‑14 keyword or synonym appears in an L/A/E claim"
-  - "and OPTIONAL"
-  - "as a disciplined modality family"
-  - "contract bundle unpacking"
-  - "exercise"
-  - "finding"
-  - "in L/A/E claims"
-  - "including common synonyms such as SHALL"
-  - "non-violation"
-  - "permission projections cite the corresponding D- and exact A.2.8.PER grant"
-  - "phrase L as definitions or invariants (“is defined as…”"
-  - "promise content ≠ work"
-  - "promise-act/utterance separation"
-  - "the face is non-conformant until rewritten without the BCP‑14 keyword or moved out of the face"
-  - "the sentence MUST be rewritten to remove the keyword or moved out of the face"
-  - "“holds iff…”)"
+  - "MUST NOT"
+  - "MVPK no-new-semantics"
+  - "OPTIONAL"
+  - "SHOULD"
+  - "a mechanism entry predicate enters A"
+  - "and SHOULD NOT enter D only for an accountable duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "are statement operators"
+  - "atomic L/A/D/E rows"
+  - "commitment or grant"
+  - "dated Work"
+  - "description and publication"
+  - "four-question contract lens"
+  - "gate"
+  - "not ontology or quadrant selectors. MUST"
+  - "obtaining versus representation"
+  - "or prohibition. MAY"
+  - "promise content"
+  - "recommendation-as-duty"
+  - "rewrite it or mark it informative"
+  - "separate result and evidence"
+  - "speech-act Work"
 ---
 
 ### A.6.C:10 — Rationale
 
-FPF already distinguishes signatures, mechanisms, and work and evidence layers. Contract-language is a high-frequency linguistic entry point that collapses these layers unless a disciplined unpacking is applied.
+FPF already distinguishes signatures, mechanisms, dated Work, separately governed results or consequences, and evidence use. Contract-language collapses them unless the author asks what happened, what separate result or delivery is claimed, and what evidence supports the exact reliance use.
 
-F.18 may supply durable names for recovered terms when naming is current, but it does not provide the ontology. A.6.C makes the boundary split operational: promise content, speech act or utterance package, deontic commitment or separately governed permission result, performed work, and carrier-referenced evidence as the adjudication basis. This keeps “contract” language classifiable under A.6.B and compatible with MVPK multi-view discipline without relocating ontology into the naming chapter.
+F.18 may supply durable names for recovered terms, but it does not provide the ontology. A.6.C keeps promise content, speech act, commitment or grant, dated Work, application/result binding, production, change, delivery/transfer, evidence, and acceptance distinct and independently optional. This keeps contract language classifiable under A.6.B without turning A.15.1 into a result or delivery owner.
 

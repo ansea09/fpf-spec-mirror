@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:intro — Intro"
-line_start: 25305
-line_end: 25353
+line_start: 25601
+line_end: 25650
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,23 +33,19 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
-  - "U.Work"
 keywords:
-  - "allowed use now"
-  - "appearance overread blocked"
+  - "allowed or blocked use"
   - "appearance-based reliance"
-  - "claim/effect position"
   - "copied approval"
-  - "credential view"
-  - "dashboard display"
-  - "exact permission-result relation or finding"
+  - "credential"
+  - "dashboard"
+  - "exact attempted use"
   - "generated explanation"
-  - "project-side claim/effect reference"
+  - "governing pattern and direct object"
+  - "independent required-position rows"
+  - "orientation and source-finding"
+  - "project-side reference"
   - "publication face"
-  - "reliance appearance"
-  - "required claim before use"
-  - "required instituted effect before use"
-  - "work or reliance use"
 ---
 
 ## A.15.4 - Work-Relevant Appearance-Based Reliance Repair
@@ -58,9 +54,9 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `A.15.4` when work or reliance is about to proceed from a dashboard tile, credential-status view, copied approval, generated explanation, provenance mark, API response, publication face, source-finding pointer, or weak indication, but the FPF position that would actually carry the required claim has not yet been named. That position is not another generic item: it is a governing pattern position such as a slot, relation record, exact permission-result relation or finding ref, gate decision, evidence or currentness relation, speech-act ref, commitment ref, role-state or credential-status relation, `U.WorkPlan`, or dated `U.Work` occurrence. First decide which working moment is live: preserve an early cue, plan intended work, rely on a claim that work or a decision already happened, or use an operative relation now. Then write the local repair record with the reliance appearance, its actual kind, the work or reliance use being justified, the required claim or instituted effect before use, the FPF pattern and concrete claim/effect-carrying position, the project-side claim/effect reference, the allowed use now, and the appearance overread being blocked. The record does not make dashboards, copied approvals, generated explanations, credentials, publications, pointers, or weak indications one kind.
+**At a glance.** Use `A.15.4` when a dashboard tile, credential view, copied approval, generated explanation, publication face, API response, source pointer, or weak indication is about to justify one exact work or reliance use, but that use's governing prerequisite is not yet recoverable. Name the attempted use first. Then add one `RequiredPositionEntries` row for each independently required direct object; a one-position repair has one row, while a use with several prerequisites keeps them in separate rows. Each row names its direct owner, direct-object kind, native project-side reference, required posture or currentness, and dependency on the attempted use. The repair record does not turn appearances or prerequisite rows into a new umbrella kind.
 
-**Use this when.** Use this pattern when the acting user is ready to plan, start, continue, stop, or rely because a dashboard, credential view, copied text, generated explanation, publication face, API response, or similar publication/display/credential/source-finding case looks approved, current, safe, evidenced, delegated, released, or ready, but the work still needs a concrete governing position and project-side reference named by value. Typical recovered positions are exact permission-result relation or finding refs, gate decisions, evidence or currentness relations, role-assignment refs, role-state or credential-status records, speech-act refs, commitment refs, `U.WorkPlan`, and dated work occurrences; the local fields `ClaimOrEffectPositionKind`, `ClaimOrEffectPositionRef`, `ClaimOrEffectPatternRef`, and `ProjectSideClaimOrEffectRef` state which FPF position is current.
+**Use this when.** Use this pattern when an acting user is ready to plan, start, continue, stop, or rely because a visible or copied appearance looks approved, current, safe, evidenced, delegated, released, or ready, but one exact attempted use still lacks one or more governing positions. Record every independently required position as its own `RequiredPositionEntries` row; do not place several patterns, kinds, or project refs into one field.
 
 **First output.** One compact `A.15.4` local repair record:
 
@@ -70,34 +66,35 @@ A.15.4 local repair record:
   RelianceAppearanceKind:
   WorkOrRelianceUseKind:
   WorkOrRelianceUseRef:
-  RequiredClaimBeforeUseRef:
-  RequiredInstitutedEffectBeforeUseRef:
-  ClaimOrEffectPatternRef:
-  ClaimOrEffectPositionKind:
-  ClaimOrEffectPositionRef:
-  ProjectSideClaimOrEffectRef:
+  RequiredPositionEntries:
+    - EntryId:
+      DirectOwnerPatternRef:
+      DirectObjectKind:
+      ProjectSideObjectRef:
+      RequiredPostureOrCurrentness:
+      DependencyOnAttemptedUse:
   AllowedUseNow:
   AppearanceOverreadBlocked:
   RecoveryOrStopCondition:
 ```
 
-**First repair use in practice.** Name what the encountered display, publication face, copied text, credential view, API response, pointer, or indication may safely do now: keep attention oriented, help find the concrete governing record or relation—exact permission-result relation/finding ref, gate, evidence/currentness, speech act, commitment, role state, credential status, plan, or dated work occurrence—preserve a weak indication through `A.16.1`, support planning only through a `U.WorkPlan`, proceed inside a recovered relation, or block only the unsupported work or reliance claim.
+`RequiredPositionEntries` is a local row set, not a new record kind, prerequisite U-kind, or generic `U.EntityRef` list. Every `ProjectSideObjectRef` uses the native reference form of its `DirectOwnerPatternRef`; heterogeneous prerequisites remain separate rows.
+
+**First repair use in practice.** Name what the encountered display, publication face, copied text, credential view, API response, pointer, or indication may safely do now: keep attention oriented, help find the direct owner in the §3 governing-position lookup (including its permission and authority branch when that is the live claim), preserve a weak indication through `A.16.1`, support planning only through a `U.WorkPlan`, proceed inside a recovered relation, or block only the unsupported work or reliance claim.
 
 **What goes wrong if missed.** The reliance appearance starts acting as if it already proves approval, gate passage, evidence, assurance, performed work, currentness, or release authorization. Work then proceeds or stops while the governing pattern position that should carry the claim is missing, stale, revoked, or contradicted.
 
-**Primary EntityOfConcern in plain terms.** One local repair relation for one claim that is being used to guide intended work or reliance. This field names the current branch of the repair problem, not one new umbrella kind. The relation connects the reliance appearance, the work or reliance use being justified, the concrete FPF position that must carry the required claim or instituted effect before use, the project-side claim or effect reference, the safe current use, and the blocked appearance overread.
+**Primary EntityOfConcern in plain terms.** One local repair relation for one exact attempted work or reliance use. It connects the reliance appearance and that attempted use to the smallest set of independently governed prerequisite entries, plus the safe current use and blocked appearance overread. The entries point to existing direct objects; they are not one new umbrella object.
 
 **First repair checks.**
 1. Name the reliance appearance's actual kind and publication position without treating its appearance as the governing pattern position or source relation itself.
 2. Decide the live working moment: early attention to preserve, intended work to plan, reliance on already-performed work or a decision, or another operative relation for action now.
 3. Fill `WorkOrRelianceUseKind` and `WorkOrRelianceUseRef`: the use being justified can be intended work, reliance on a claim, reliance on a performed-work occurrence, a work-relevant P2W claim, or a P2W chain position.
-4. Name `RequiredClaimBeforeUseRef` when the governing pattern must carry a claim before the work or reliance use is admissible.
-5. Name `RequiredInstitutedEffectBeforeUseRef` when the governing pattern must carry an instituted effect, such as gate passage, role-state change, commitment, speech-act effect, or a strong grant validly instituted by an exact policy-recognized act. Leave it empty when no instituted effect is being relied on.
-6. Fill `ClaimOrEffectPatternRef`, `ClaimOrEffectPositionKind`, and `ClaimOrEffectPositionRef`: the position kind is one of the already-governed positions such as slot, exact permission-result relation or finding ref, project reference, source-currentness relation, gate decision, evidence relation, speech-act ref, commitment ref, or work-occurrence ref. All five permission-side objects route by value to `A.2.8.PER`; only a strong grant may be an instituted effect under exact policy, while non-prohibition/non-violation findings, an exercise relation, and a conflict finding are not thereby instituted effects. For those, `RequiredClaimBeforeUseRef` names the claim required before use and the position fields cite the exact relation or finding.
-7. Fill `ProjectSideClaimOrEffectRef` with the project-side reference that must be named by value for the work or reliance use.
-8. Choose the lightest relation-governed disposition now: proceed inside the recovered relation, narrow the recovered use, preserve a cue pack, run a bounded reversible probe under `U.WorkPlan`, return to the source-currentness or governing pattern when freshness is the live claim, ask the holder, work-performing system, or project role holder identified by the relevant `RoleAssignmentRef` to expose or repair the missing position, or block only the unsupported claim or effect.
+4. Create one `RequiredPositionEntries` row for each independently required direct object. This typed row set is the sole prerequisite set: a claim, instituted effect, gate decision, role assignment, evidence/currentness relation, plan, or other prerequisite each receives its own row. If permission or authority is current, first choose its exact object in the §3 branch, then fill the row's direct owner, direct-object kind, native project-side ref, required posture/currentness, and dependency on the attempted use. Never put comma-separated patterns, kinds, or refs into one field.
+5. Follow dependencies through those direct objects. For permission or authority, use the dependency stated by the selected §3 row. An instituting act, enduring grant, conflict finding, gate decision, and work plan remain separate prerequisites; none substitutes for another row or inherits another row's posture.
+6. Before allowing the attempted work or reliance, open every prerequisite through its typed reference. Check that the referenced relation actually obtains or the referenced result has the posture its owner requires; that it is current and covers this beneficiary, action, target, scope, and time window; and that any evidence or source relation required for this reliance is present. When a relevant permission/norm conflict exists, give its exact `PermissionNormConflictFinding@Context` a separate row: an `unresolved` or norm-selecting disposition blocks this use but does not make the grant cease to obtain. When policy separately requires an A.21 gate or A.15.5 work-entry-readiness relation, give each its own row and require a current passing or ready result. Naming a record is only the first recovery step. If any check fails, keep `AllowedUseNow` at the safe narrowed use.
 
-**Not this pattern when.** Stay in A.15 when the question under repair is only `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation. Stay in `A.15.2` for WorkPlan construction, `A.15.3` for planned slot-filling baselines, and `A.15.5` when the question is full-kit condition or work-entry readiness rather than a reliance appearance being used as a reason for work or reliance. Stay in `A.16.1` and `C.2.4` when the honest current value is pre-articulation cue preservation and articulation level. Stay in `C.16.Q` when dynamic-quality or evaluative wording is the current claim. Stay in `A.6.A` when the current claim is action invitation. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. Stay in A.10, B.3, A.20, A.21, A.2.8, A.2.8.PER, A.2.9, A.6, or A.15.1 when evidence, currentness, engineering justification, gate-passage claim, `ConstraintValidity` status, commitment, exact permission result, speech act, boundary claim, or work occurrence already governs the current use directly.
+**Not this pattern when.** Stay in A.15 when the question under repair is only `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation. Stay in `A.15.2` for WorkPlan construction, `A.15.3` for planned slot-filling baselines, and `A.15.5` when the question is full-kit condition or work-entry readiness rather than a reliance appearance being used as a reason for work or reliance. Stay in `A.16.1` and `C.2.4` when the honest current value is pre-articulation cue preservation and articulation level. Stay in `C.16.Q` when dynamic-quality or evaluative wording is the current claim. Stay in `A.6.A` when the current claim is action invitation. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. When the direct evidence, gate, constraint, boundary, permission/authority, work, or other claim is already known, use the owner selected by the §3 lookup instead of A.15.4.
 
 **What this buys.** The acting engineer-manager can keep work moving without trusting appearances: use the reliance appearance for orientation or source-finding when that is all it can carry, proceed only inside the recovered relation when that relation exists, and turn repeated ambiguity into source-relation repair work rather than repeated manual reconstruction.
 

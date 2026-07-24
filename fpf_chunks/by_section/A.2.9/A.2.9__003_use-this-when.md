@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__003_use-this-when.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:0 — Use This When"
-line_start: 6055
-line_end: 6086
+line_start: 6090
+line_end: 6121
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,14 +23,15 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:0 - Use This When
@@ -39,7 +40,7 @@ Use this pattern when a communicative event must be modeled as performed work: a
 
 **What goes wrong if missed.** A document, interface, ticket, message, or log is treated as if it performed the act; approval, utterance content, evidence carrier, commitment, and performed work collapse into one governance phrase.
 
-**What this buys.** Communicative acts become inspectable `U.Work` occurrences with performer, context, time window, affected referents, and evidence links while utterance descriptions and carriers stay separate.
+**What this buys.** Actual communicative Work occurrences become inspectable without collapsing them into a claim-bearing `SpeechActRecord`, an utterance description, or an evidence carrier.
 
 Typical moments:
 
@@ -48,9 +49,9 @@ Typical moments:
 - a commitment must cite the act that instituted it, rather than only pointing at a document;
 - a message, ticket, signed record, or API call log is being mistaken for the act itself.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.SpeechAct`: a communicative work occurrence performed by an accountable role-assignment in a bounded context. The utterance content is a description episteme; the file, message, ticket, or log is a carrier or evidence record.
+**Primary EntityOfConcern.** The EntityOfConcern is one actual speech-act occurrence admitted under the kind `U.SpeechAct`: a communicative Work individual performed by an admitted accountable `U.System` under an exact obtaining `U.RoleAssignment` in a bounded context. The system performs the act; the assignment supplies the role and authority ground. A `SpeechActRecord`, the utterance-description episteme, and the file, message, ticket, or log carrier are separate objects.
 
-**First useful move.** Name the performer, judgement context, time window, act type, affected referents, and any instituted effects by reference. Add utterance or carrier references only when they are needed for observation, audit, or source return.
+**First useful move.** Name the actual occurrence, performer system, and assignment under which it acts, then name the judgement context, time window, act type, what the utterance is about, and—only when current—the intended institutional target and independently established effect. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about that occurrence; add utterance or carrier references only when observation, audit, or source return needs them.
 
 **Not this pattern when.** If the question is only what a document says, use A.7/C.2/E.17. If the question is who is accountable under a deontic relation, use A.2.8. If the question is evidence, use A.10/G.6. If the work has no communicative effect, use A.15.1 directly.
 
@@ -59,9 +60,9 @@ Typical moments:
 > **Placement:** Part A → **A.2 Roles & Agency Kernel**
 > **Refines:** A.2 (Role Taxonomy)
 > **Builds on:** A.2.1 (RoleAssignment), A.2.6 (`Γ_time` and windows), A.7 (EntityOfConcern, Description episteme, and carrier), A.10 (SCR/RSCR carrier discipline), A.15.1 (`U.Work`)
-> **Purpose (one line):** Provide a minimal, lintable kernel object for **communicative enactments** (approvals, authorizations, revocations, notices, declarations, publications) as **`U.Work`**, explicitly separating the **act** from its **utterance descriptions** and **evidence carriers**, so governance and gate checks can cite `SpeechActRef` without deontic ambiguity or episteme-as-agent mistakes.
+> **Purpose (one line):** Admit communicative enactments under the `U.SpeechAct` kind, identify each actual Work occurrence, and provide a minimal optional `SpeechActRecord` for claims about it while keeping the act, record, utterance description, and evidence carrier separate.
 
-> FPF already treats communicative acts as observable events used in role-state checklists and grounding (“presence of act: AuthorizationSpeechAct exists…”, and `U.SpeechAct` is listed as observable evidence for state assertions).
+> FPF already treats communicative acts as observable events used in role-state checklists and grounding (“presence of act: AuthorizationSpeechAct exists…”); those checks cite actual occurrences admitted under `U.SpeechAct`, not the kind itself.
 > The spec’s micro-examples and conformance gates distinguish **communicative Work** (“performed a SpeechAct”) from **operational Work** (“executed Work”) while keeping both inside `U.Work` (cf. CC‑A15‑10 GateSplit).
 > F.18 can name `U.SpeechAct` in the promise/utterance/commitment triad; A.2.9 keeps the ontology and conformance discipline in Part A where communicative work, utterance description, and evidence carrier can be kept distinct.
 

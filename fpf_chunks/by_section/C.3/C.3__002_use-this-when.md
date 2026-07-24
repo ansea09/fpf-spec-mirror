@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 43676
-line_end: 43689
+line_start: 44075
+line_end: 44088
 dependencies:
   - "A.1"
   - "A.11"
@@ -24,20 +24,22 @@ dependencies:
   - "C.29"
   - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
   - "F.18"
   - "F.8"
+  - "F.9"
 keywords:
-  - "classification"
-  - "extension"
-  - "intension"
-  - "kind"
-  - "subkind"
-  - "type"
-  - "typed reasoning"
-  - "vocabulary"
+  - "KindBridge"
+  - "SubkindOf"
+  - "bounded-context local kind"
+  - "effective ReferenceScheme"
+  - "intent-bearing KindSignature"
+  - "optional slice-indexed extension"
+  - "three-valued candidate judgment"
 ---
 
 ### C.3:0 - Use This When
@@ -48,7 +50,7 @@ Use this pattern when a claim needs a context-local kind, a subkind order, a jud
 
 **What this buys.** Typed reasoning stays usable without premature ontology growth. A practitioner can recover the local kind, the declaration used to classify, one three-valued judgment, and any optional extension representation while leaving direct world-side features, evidence, scope, work, and durable U-kind admission with their own governors.
 
-**Primary EntityOfConcern.** One typed-reasoning use under an effective `U.ReferenceScheme`: the exact local `U.Kind` and any `U.SubkindOf` order needed by the claim, together with the C.3.2 classification question that the use actually asks.
+**Primary EntityOfConcern.** One typed-reasoning question: the exact context-local `U.Kind`, any `U.SubkindOf` order needed by the claim, and the C.3.2 classification question the use actually asks. The exact `KindSignature` edition used for that question carries the effective `U.ReferenceScheme` in its claim content; the scheme is not stored on the kind.
 
 **First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump criterion.` Add a reusable declaration, explicit judgment details, evidence reference, or extension representation only when a named receiving use needs it.
 

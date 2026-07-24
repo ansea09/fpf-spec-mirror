@@ -6,12 +6,12 @@ section_id: "A.15.4:5"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:5 — Common Anti-Patterns and How to Avoid Them"
-line_start: 25635
-line_end: 25638
+line_start: 26012
+line_end: 26015
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,23 +33,19 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
-  - "U.Work"
 keywords:
-  - "allowed use now"
-  - "appearance overread blocked"
+  - "allowed or blocked use"
   - "appearance-based reliance"
-  - "claim/effect position"
   - "copied approval"
-  - "credential view"
-  - "dashboard display"
-  - "exact permission-result relation or finding"
+  - "credential"
+  - "dashboard"
+  - "exact attempted use"
   - "generated explanation"
-  - "project-side claim/effect reference"
+  - "governing pattern and direct object"
+  - "independent required-position rows"
+  - "orientation and source-finding"
+  - "project-side reference"
   - "publication face"
-  - "reliance appearance"
-  - "required claim before use"
-  - "required instituted effect before use"
-  - "work or reliance use"
 ---
 
 ### A.15.4:5 - Common Anti-Patterns and How to Avoid Them

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__004_forces.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:3 — Forces"
-line_start: 50376
-line_end: 50388
+line_start: 50781
+line_end: 50793
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,11 +26,12 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual condition"
-  - "actual problematic-for relation"
-  - "applicability predicate"
-  - "problem-for entity"
-  - "relation occurrence"
+  - "actual adverse condition"
+  - "actual adverse episode"
+  - "assessment and evidence separation"
+  - "condition-to-predicate input rule"
+  - "exact problem-for entity and use"
+  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:3 - Forces

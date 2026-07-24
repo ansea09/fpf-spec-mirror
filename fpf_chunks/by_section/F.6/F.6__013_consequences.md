@@ -6,40 +6,48 @@ section_id: "F.6:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__013_consequences.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:11 — Consequences"
-line_start: 88257
-line_end: 88262
+line_start: 88820
+line_end: 88827
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:11 - Consequences
 
-Using F.6 makes role-assignment reasoning narrower and more reliable. A project can still use compact assignment strings and familiar role words, but reliance-bearing claims must expose the holder, role, bounded context, assignment-currentness disposition, and performed-by relation when actual work is claimed.
+**Benefits.** Assignment and performed work remain independently identifiable, while attribution becomes a direct relation that can be cited, compared, supported, corrected, or left unresolved. The pattern works for people, organizations, machines, and software systems because the holder is always an admitted `U.System`, not a domain-specific performer category.
 
-The cost is one extra split. A source sentence that says "role enacted" may become two or three typed statements: assignment admitted, work performed by that assignment, and evidence or status relation used for downstream reliance. That split is intentional. It prevents duplicate role ontologies and makes audit, bridge, capability, method, and status checks local.
+**Costs.** Reliance-bearing use must recover the exact assignment episode rather than stopping at a familiar role label. A compact source sentence may split into an assignment assertion, a work occurrence, the direct attribution relation, an exact change or production claim, an operation-result binding or result episteme, and any evidence relation current for the use.
+
+**Limits.** F.6 does not determine capability, readiness, method validity, work success, result acceptance, authorization, or evidence sufficiency. It only governs the relation by which one performed work occurrence is attributed to one role assignment.
 

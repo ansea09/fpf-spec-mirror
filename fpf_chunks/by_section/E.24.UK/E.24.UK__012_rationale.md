@@ -6,18 +6,19 @@ section_id: "E.24.UK:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__012_rationale.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:10 — Rationale"
-line_start: 86010
-line_end: 86015
+line_start: 86615
+line_end: 86620
 dependencies:
   - "A.11"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "A.8"
   - "C.2.1"
@@ -41,5 +42,5 @@ keywords:
 
 FPF needs U-kind names to stay rare and load-bearing because they orient many patterns at once. Without a separate U-kind governance rule, ordinary type words, source-ontology classes, slot labels, filenames, and memorable headings create a second ontology beside E.24 ontic settlement and C.3 typed reasoning.
 
-The admission rule keeps the architecture compact. A durable U-kind has an E.24-compatible root settlement or a dependent settlement tied to one named root U-kind. A dependent pattern states either a same-individual membership rule or an exact identity-dependence relation; it does not turn every nearby participant, description field, evidence relation, or qualifier into one generic dependency. Non-U objects keep their direct governing patterns. The public name follows that decision and cannot substitute for identity, membership, or extent.
+The admission rule keeps durable classification connected to direct ontology without making every local class public. E.24 and E.24.UK share one settlement; C.3 handles bounded classification. A same-individual dependent kind adds one membership predicate and root-inclusion law to an existing individual. An identity-dependent kind instead requires a governed relation to a distinct root-kind individual plus all discriminators. Missing branch evidence blocks admission, and no public name, reference field, or owner label substitutes for it.
 

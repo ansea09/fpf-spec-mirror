@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 51164
-line_end: 51201
+line_start: 51606
+line_end: 51643
 dependencies:
   - "A.10"
   - "A.15"

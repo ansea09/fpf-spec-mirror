@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__010_archetypal-grounding.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Archetypal Grounding"
-line_start: 74298
-line_end: 74303
+line_start: 74740
+line_end: 74745
 dependencies:
   - "A.7"
   - "C.2.1"

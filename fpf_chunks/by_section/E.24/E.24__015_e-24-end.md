@@ -6,17 +6,18 @@ section_id: "E.24:End"
 section_title: "E.24:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__015_e-24-end.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:End — E.24:End"
-line_start: 85095
-line_end: 85096
+line_start: 85669
+line_end: 85670
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.3.5"
   - "C.13"
@@ -27,6 +28,7 @@ dependencies:
   - "E.14"
   - "E.17.0"
   - "E.21"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.24.UK"

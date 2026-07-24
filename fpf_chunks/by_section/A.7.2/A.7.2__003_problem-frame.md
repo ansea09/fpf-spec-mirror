@@ -6,12 +6,12 @@ section_id: "A.7.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__003_problem-frame.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:1 — Problem frame"
-line_start: 21875
-line_end: 21880
+line_start: 22121
+line_end: 22126
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -22,16 +22,18 @@ dependencies:
   - "E.17"
   - "G.11"
 keywords:
-  - "incompatible FPF consequences"
+  - "actual source-use relations"
+  - "context split"
+  - "dated FPF applications"
+  - "exact used clauses and premises"
   - "optional convergence"
-  - "premise reconciliation"
-  - "same receiving claim and scope"
-  - "source-use conflict"
+  - "result claims or decisions"
+  - "same receiving claim or consequence"
 ---
 
 ### A.7.2:1 - Problem frame
 
-Neighboring FPF patterns can use different premises about existence, constitution, identity, dependence, obtaining, representation, agency, or formal projection. A role pattern may require assignment work before responsibility obtains while a relation pattern treats a signed chart as constituting the same assignment. Both texts may be internally clear, yet their methods select different responsible systems for one maintenance action.
+Neighboring FPF pattern and method epistemes can state different premises about existence, constitution, identity, dependence, obtaining, representation, agency, or formal projection. A dated application of a role-method clause may yield a decision claim that assignment work or a policy-valid instituting act must occur before responsibility obtains, while an application of a relation-method clause may yield a claim that a signed chart constitutes that same assignment. Both texts may be internally clear, yet the application results select different responsible systems for one maintenance action.
 
 The governed concern is one bounded reconciliation of exact FPF receiving claims and their practical consequences. The ordinary result can be compatibility, separation, non-composition, no-conflict stop, or unresolved escalation. Convergence is not mandatory.
 

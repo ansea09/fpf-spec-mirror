@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.9"
-pattern_title: "U.SpeechAct (Communicative Work Object)"
+pattern_title: "U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
 section_id: "A.2.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__007_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
-  - "A.2.9 — U.SpeechAct (Communicative Work Object)"
+  - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:4 — Solution"
-line_start: 6126
-line_end: 6226
+line_start: 6161
+line_end: 6286
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -23,23 +23,24 @@ dependencies:
   - "A.7"
   - "U.Work"
 keywords:
-  - "act≠utterance≠carrier"
-  - "approval/authorization/publication/revocation"
-  - "communicative work"
-  - "institutes"
-  - "judgement context"
-  - "provenance"
-  - "speech act"
-  - "window/freshness"
+  - "actual communicative occurrence"
+  - "admitted speech-act Work kind"
+  - "authority-grounding assignment"
+  - "evidence carrier"
+  - "institutional target and effect"
+  - "optional SpeechActRecord"
+  - "performing U.System"
+  - "publication relation"
+  - "utterance description"
 ---
 
 ### A.2.9:4 — Solution
 
-`U.SpeechAct` is a **kernel Work object**: a recorded communicative enactment performed by an accountable role-enactor within a bounded context, optionally addressed to others, that is **recognized** (in that context) as updating an information state, governance state, or both. The act is **not** the utterance text; it points to utterance descriptions and evidence carriers.
+`U.SpeechAct` is the admitted kernel kind for communicative Work. An individual `SA : U.SpeechAct` is the actual enactment performed by an admitted accountable `U.System` under an exact obtaining role assignment within a bounded context. A `SpeechActRecord` may describe that occurrence and point to utterance descriptions or evidence carriers; none of those epistemic or representational objects is the act.
 
 #### A.2.9:4.1 — Normative definition
 
-A **`U.SpeechAct`** is a **`U.Work`** occurrence whose primary (intended) effect is **communicative**: it places an utterance into a context in a way that is recognized by that context’s institutional semantics (policies, procedures, protocol rules) as potentially:
+`U.SpeechAct <: U.Work` is a kind declaration. An actual Work individual is admitted as `SA : U.SpeechAct` when its primary effect is **communicative**: it places an utterance into a context in a way that is recognized by that context’s institutional semantics (policies, procedures, protocol rules) as potentially:
 
 * asserting/informing,
 * requesting/directing,
@@ -47,22 +48,37 @@ A **`U.SpeechAct`** is a **`U.Work`** occurrence whose primary (intended) effect
 * declaring/authorizing/revoking (status-changing acts),
 * notifying (event announcement relevant for downstream work).
 
-Per A.7 and A.15.1, `U.SpeechAct` is a **communicative-work value under `U.Work`**; its **utterance descriptions** are descriptions (epistemes, spec clauses, or messages-as-content), and its **carriers** are utterance carriers, publication carriers, or traces that allow observation and audit. *(Note: “Surface” is reserved for MVPK publication/interoperability surfaces; do not use it here.)*
+Per A.7 and A.15.1, the actual speech-act occurrence is a Work individual; its `SpeechActRecord` and **utterance descriptions** are epistemes, while its **carriers** are utterance carriers, publication carriers, or traces that allow observation and audit. *(Note: “Surface” is reserved for MVPK publication/interoperability surfaces; do not use it here.)*
 
-Whether a given `actType` institutes commitments/permissions/status changes is **entirely context‑policy dependent**. Absent an explicit policy, treat a `U.SpeechAct` as a communicative Work occurrence with observable provenance only; do not infer deontic bindings from the act by default.
+Whether a given act type institutes commitments, permissions, or status changes is entirely context-policy dependent. Absent an explicit policy, treat `SA : U.SpeechAct` only as an actual communicative Work occurrence; neither its kind membership nor a complete-looking record licenses a deontic inference.
 
-#### A.2.9:4.2 — Minimal structure (normative)
+#### A.2.9:4.2 — Minimal occurrence-description record (normative)
 
-A conforming `U.SpeechAct` **SHALL** be representable by the following minimal record (field names are illustrative; the constraints are normative):
+Use the following declaration schema only when a receiving use needs a persistent claim about an actual or candidate speech-act occurrence. The record fields state claims about the referenced occurrence; they are not fields stored in the Work individual and do not make it occur.
 
 ```
 U.SpeechAct <: U.Work
 
-Invariant: U.Work.kind = Communicative
+SpeechActRef ::= U.EntityRef
+  // resolves to one actual Work individual admitted as SA : U.SpeechAct
 
-U.SpeechAct ::=
-  U.Work
-  & {
+SpeechActRecord <: U.Episteme
+
+SpeechActRecord ::=
+    {
+      speechActOccurrenceRef: SpeechActRef,
+      performedBy: U.EntityRef,                     // resolves to the admitted U.System that acts
+      performedUnderAssignment: RoleAssignmentRef,  // exact covering role/authority ground
+      enactsMethodRef: optional<U.EntityRef>,        // resolves to the exact U.Method when recovered
+      methodDescriptionRef: optional<U.EpistemeRef>, // separate description, only when the use needs it
+      unresolvedEnactsMethodClaimRef: optional<ClaimIdRef>,
+      methodRelationGapProvenanceRef: optional<U.EpistemeRef>,
+      reliancePosture: observationOnly | relianceReady,
+      executedWithin: U.EntityRef,                   // claim about the containing U.System
+      window: [start, end | open],                   // claim about the occurrence's actual extent
+      judgementContextRef: U.BoundedContextRef,
+      utteranceSubjectRefs: optional<set<U.EntityRef>>,
+      institutionalTargetRefs: optional<set<U.EntityRef>>,
       actTypes: set<SpeechActTypeRef>,               // ≥1 act types (supports multi-function)
       addressedTo: optional<set<AddresseeRef>>,      // optional: who is addressed / audience
       utteranceRefs: optional<set<DescriptionRef>>,  // where the utterance description is stated or recorded (A.7: Description)
@@ -82,54 +98,64 @@ SpeechActTypeRef ::=
 AddresseeRef ::=
   PartyRef | RoleRef | RoleAssignmentRef
 
+GrantedPermissionRelationRef@Context ::= U.EntityRef
+  // resolves only to one exact GrantedPermissionRelation@Context occurrence
+
+EpistemePublicationRelationRef ::= U.EntityRef
+  // resolves only to one exact E.24.PUB EpistemePublicationRelation occurrence
+
 InstitutedEffects ::=
   {
     commitments: optional<set<CommitmentIdRef>>,
-    permissions: optional<set<U.EntityRef>>,       // resolves to GrantedPermissionRelation@Context occurrences (A.2.8.PER)
+    permissions: optional<set<GrantedPermissionRelationRef@Context>>,
     roleAssignments: optional<set<RoleAssignmentRef>>,
-    statusClaims: optional<set<ClaimIdRef>>,         // e.g., “StandardStatus=Approved” if modeled as claims
-    other: optional<set<ObjectIdRef>>
+    publicationRelations: optional<set<EpistemePublicationRelationRef>>
   }
 ```
 
-**Normative constraints:**
+**Occurrence-side constraints:**
 
-* **(SA‑C0) Work conformance applies.** Because `U.SpeechAct <: U.Work`, a speech‑act record **MUST** satisfy `U.Work` conformance (A.15.1), including the required anchors (`isExecutionOf`, `performedBy`, `executedWithin`, `window`, and state‑plane / judgement‑context anchoring). A speech act **MUST** have at least one `affected` referent (the thing it is *about/updates*), even if it is purely governance‑state.
-* **(SA‑C1) PerformedBy must be an accountable actor.** `performedBy` **MUST** resolve to a `RoleAssignmentRef` whose holder is an accountable system or party in the named scope. It **MUST NOT** resolve to a specification episteme, interface-description episteme, or document-carried episteme.
-* **(SA‑C2) ActTypes are required and context-local.** `actTypes` **MUST** contain at least one `SpeechActTypeRef` recognized in the Work’s judgement context (local meaning). Free‑text verbs are nonconformant unless registered as a context token.
-* **(SA‑C3) Time honesty.** `window` **MUST** be explicit (or inherited from the parent `U.Work` record) so freshness rules can be evaluated.
-* **(SA‑C4) If used for gate checks or audit, it must be observable.** If a speech act is used as a checklist criterion, guard condition, or provenance or constructive-ground hook for a `U.Commitment` or `GrantedPermissionRelation@Context`, the model **SHALL** include at least one observable handle: `utteranceRefs`, `carrierRefs`, or both. When the act is used as evidence, at least one carrier reference **SHOULD** be SCR/RSCR‑resolvable per A.10.
-* **(SA‑C5) Institutional effects are references, not paraphrases.** When the act is intended to institute or update commitments, granted permissions, role assignments, or statuses, the exact `institutes.*` field **SHOULD** reference the corresponding object, relation-occurrence, or claim IDs rather than restating content.
-* **(SA‑C6) Cross-context use is Bridge-only.** If a `SpeechActRef` is used for checking, gate evidence, or provenance in a **different bounded context** than the act’s judgement context, the referencing object **MUST** satisfy the spec’s cross-context discipline by citing an explicit Bridge/policy that licenses the interpretation (and surfacing congruence vs loss where applicable), rather than assuming equivalence by label.
+* **(SA‑C0) Actual Work conformance.** The individual referenced by `speechActOccurrenceRef` **MUST** independently satisfy `U.Work` conformance (A.15.1), including the actual performer system, covering assignment, enacted method, containing system, temporal extent, and judgement-context anchoring. A complete record neither creates those facts nor substitutes for them.
+* **(SA‑C1) The accountable system performs; the assignment grounds.** The occurrence's actual performer **MUST** be an admitted `U.System`. The exact obtaining `U.RoleAssignment` under which it acts **MUST** have that system in `HolderSystemSlot` and cover the act. The assignment supplies role, authority, and attribution ground; it does not perform the act.
+* **(SA‑C2) Act types are occurrence classifications and context-local.** The occurrence **MUST** instantiate at least one `SpeechActTypeRef` recognized in its judgement context. A token written into a record does not establish that classification unless the context's predicate is satisfied.
+* **(SA‑C3) Time honesty.** The occurrence **MUST** have an actual temporal extent so freshness can be evaluated; a recorded timestamp is a claim about that extent, not the extent itself.
+
+Keep three questions separate. `utteranceSubjectRefs` answers **what the utterance or claim is about**. `institutionalTargetRefs` answers **which object or relation the act is intended to institute or update under the named policy**. Actual change or institutional effect is a third world-side fact and is stated only through its exact direct change/effect relation and the matching typed `institutes.*` reference when the record needs it. An informative notice or assertion may have a subject without any institutional target or changed entity. Shared reference values do not collapse these relation meanings.
+
+**Record- and reliance-side constraints:**
+
+* **(SA‑C4) A relied-on occurrence must be observable.** When a gate, checklist, commitment, or grant relies on a `SpeechActRef`, the `SpeechActRecord` **SHALL** identify that same occurrence and cite at least one applicable `utteranceRef`, `carrierRef`, or separately governed evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10. Record completeness alone does not prove occurrence or institutional force.
+* **(SA‑C5) Institutional-effect claims are typed references to world-side effects.** `institutes.*` may reference only the exact commitment or relation occurrence through its declared RefKind. Each `institutes.permissions` value **MUST** be a `GrantedPermissionRelationRef@Context` whose context matches the speech-act occurrence's judgement context or is connected by the explicit Bridge used by the receiving claim. Each `institutes.publicationRelations` value **MUST** resolve to an obtaining `EpistemePublicationRelation` under E.24.PUB. A status claim is an episteme about an effect, not an instituted effect; keep it and its A.10 evidence relation outside `institutes.*`. The cited policy and direct world-side obtaining conditions still decide whether any effect exists.
+* **(SA‑C6) Cross-context use is Bridge-only.** If a `SpeechActRef` or `SpeechActRecord` is interpreted for checking, gate evidence, or provenance in a different bounded context than the occurrence's judgement context, the receiving claim **MUST** cite the Bridge/policy that licenses that interpretation rather than assuming equivalent force from the same label.
 
 #### A.2.9:4.3 — `SpeechActRef` discipline (normative)
 
-A **`SpeechActRef`** is a reference to `U.SpeechAct.id`.
+A **`SpeechActRef`** resolves to one actual Work individual admitted as `SA : U.SpeechAct`. It never denotes the kind itself or a `SpeechActRecord`.
 
-* If another object (e.g., `U.Commitment.source.speechActRef`) cites a `SpeechActRef`, the referenced `U.SpeechAct` **MUST** satisfy **SA‑C0…SA‑C4** (and SA‑C6 when used cross‑context).
-* A `SpeechActRef` **MUST NOT** be replaced by an `EpistemeRef` (“see the document”) when provenance is needed; the episteme is an utterance description, not the act.
-* If a system cannot record a full `U.SpeechAct`, it may record a **stub** that still satisfies **SA‑C0…SA‑C4** (minimal `actTypes`, performer, judgement context, window, `affected`, plus at least one observable handle). When a required `U.Work` anchor is unknown, the stub **MUST** use an explicit placeholder (e.g., an “AdHocCommunication” MethodDescription) rather than omitting the field.
+* If another object (for example, `U.Commitment.source.speechActRef`) cites a `SpeechActRef`, the referenced occurrence **MUST** satisfy occurrence-side **SA‑C0…SA‑C3**. A gate, audit, or provenance use additionally needs the record/evidence basis in **SA‑C4** and **SA‑C6** when cross-context.
+* A `SpeechActRef` **MUST NOT** be replaced by an `EpistemeRef` (“see the document”) when occurrence provenance is needed. A `SpeechActRecord` or utterance-description episteme may make claims about the occurrence but is not the act.
+* If a source cannot complete a `SpeechActRecord`, it may create an observation stub with the candidate `speechActOccurrenceRef`, known claims, provenance for those claims, and explicit unknowns. When the actual `enactsMethod` relation is not recoverable, leave `enactsMethodRef` absent, cite the exact unresolved claim and source-gap provenance, and set `reliancePosture=observationOnly`. The stub does not make the candidate actual, satisfy occurrence-side conformance, or support gate/deontic provenance. It becomes reliance-ready only after the exact `enactsMethod -> U.Method` relation is recovered, or after the governing Work architecture explicitly establishes that this occurrence needs no such relation. Never mint an `AdHocCommunication` or other `U.MethodDescription` solely to fill the gap; a description neither is the method nor enacts itself.
 
 #### A.2.9:4.4 — Separation rules with `U.Commitment`, `GrantedPermissionRelation@Context`, and `U.PromiseContent` (normative)
 
 1. **Speech act is not the enduring deontic relation.**
-   A speech act may **institute** a `U.Commitment` for an obligation, recommendation-as-duty, or prohibition, or a `GrantedPermissionRelation@Context` for strong permission. The enduring relation is the separately governed object, not the act. Do not encode obligations or permissions inside `U.SpeechAct` as prose: cite commitments in `institutes.commitments` and grants in `institutes.permissions`, each under the exact instituting policy (`A.2.8`, `A.2.8.PER`).
+   A speech-act occurrence may **institute** a `U.Commitment` for an obligation, recommendation-as-duty, or prohibition, or a `GrantedPermissionRelation@Context` for strong permission. The enduring relation is the separately governed object, not the act. Do not encode obligations or permissions as prose inside its `SpeechActRecord`: cite commitments in `institutes.commitments` and grants in `institutes.permissions`, each under the exact instituting policy (`A.2.8`, `A.2.8.PER`).
 
 2. **Speech act is not the service promise clause.**
    `U.PromiseContent` is the promised-outcome statement; a speech act may be the act of offering or issuing that promise, but the promise content lives in the promise-content object and is referenced from the resulting commitments.
 
 3. **Speech act is not the carrier.**
-   A “signed approval PDF”, “ticket record”, “Slack message”, or “API call log” is a carrier (and may carry an episteme as utterance content); the speech act is the Work occurrence that produced/issued it.
+   A “signed approval PDF”, ticket, message, or API log is a carrier; it may carry an utterance-description episteme or a `SpeechActRecord`. The speech act is the Work occurrence described or evidenced, not either episteme and not the carrier.
 
 4. **Publishing a spec is not a commitment by default.**
-   **Default interpretation rule (normative).** A conformant model/interpreter **MUST NOT** infer `U.Commitment` or `GrantedPermissionRelation@Context` occurrences solely from `Publish`/`Approve` speech acts. Publication MAY institute publication/status claims (e.g., “Published”, “Approved”, “Deprecated”), but obligations, recommendations-as-duty, or prohibitions **MUST** be explicit `U.Commitment` objects and strong permission **MUST** be an explicit `A.2.8.PER` grant occurrence. Any context policy that maps a publication act to one of those effects **MUST** be named and cited where the implication is used.
+   **Default interpretation rule (normative).** A conformant model/interpreter **MUST NOT** infer a `U.Commitment`, `GrantedPermissionRelation@Context`, publication occurrence, or subject-specific status relation solely from a `Publish`/`Approve` speech-act occurrence or its record. Publication work may establish an `EpistemePublicationRelation` only when E.24.PUB's selected edition, audience, bounded use, form, carrier, and availability conditions obtain. A constitutive policy may let an act institute a subject-specific `Approved`, `Published`, or similar status relation; then cite that exact relation occurrence through the subject pattern and separately cite any C.2.1 status claim and A.10 evidence. The claim represents the status; neither its ID nor its publication makes the status obtain.
 
 #### A.2.9:4.5 — Multi-function and multi-party support (normative)
 
 * **Multi-function:** `actTypes` is a **set**. If one utterance performs multiple recognizable acts (e.g., “approve + instruct + warn”), the model may either:
 
-   * represent one `U.SpeechAct` with multiple `actTypes` entries, or
-   * represent multiple `U.SpeechAct` records that share the same `carrierRefs/utteranceRefs`.
+   * identify one speech-act occurrence and let its `SpeechActRecord` state multiple satisfied `actTypes`, or
+   * identify multiple actual speech-act occurrences and give each its own `SpeechActRef`; their records may share the same `carrierRefs/utteranceRefs`.
    In either case, institutional effects must remain referenceable (SA‑C5).
 
 * **Multi-party:** `addressedTo` is a set and may include roles/parties/assignments. If addressees matter for validity (e.g., “approval by CAB chair to deployment bot”), they should be explicit.

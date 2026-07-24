@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 9540
-line_end: 9644
+line_start: 9653
+line_end: 9760
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -22,16 +22,15 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
-  - "A.6.P"
+  - "A.6.B"
+  - "A.6.C"
   - "A.7"
   - "B.3"
-  - "C.26.1"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "F.18"
   - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
@@ -41,9 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "(they are not obligations"
-  - "Keeps modalities separated and audit-ready"
-  - "L/A/D/E claim classification"
+  - "Keeps claim text"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -52,30 +49,36 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "accountable commitments"
-  - "admissible use"
-  - "alone select neither branch"
+  - "a duty or commitment D- claim MUST name its accountable subject"
+  - "accountable norms and grants"
+  - "actual exercise"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
-  - "atomic claims"
-  - "boundary norm square"
-  - "claim IDs"
-  - "laws vs entry predicates vs deontic results vs evidence"
+  - "atomic L/A/D/E claims"
+  - "conflict claims"
+  - "direct obtaining conditions"
+  - "entry predicates"
+  - "evaluated findings"
+  - "evaluation"
+  - "institutional obtaining"
+  - "laws"
   - "may"
-  - "non-admissible use"
+  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
+  - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
-  - "strong or weak permission results"
-  - "they describe adjudicable effects and evidence)"
-  - "triangle decomposition"
+  - "or observation that settles it and any evidence used for reliance"
+  - "they report adjudicable results rather than obligations"
+  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -106,7 +109,7 @@ This section is the normative “API” of the square: what each quadrant is for
 
 #### A.6.B:5.2 — Quadrant A: Admissibility & Gates
 
-**Intent.** Specify when a mechanism application is admissible: runtime entry predicates, validity gates, and applicability checks that require context or execution environment. An `A-*` predicate may test a current grant or conflict result as one condition, but it does not institute permission, resolve conflict, or become a grant.
+**Intent.** Specify when a mechanism application is admissible: runtime entry predicates, validity gates, and applicability checks that require context or execution environment. An `A-*` predicate may consume a result from another owner as one input, but it does not create or settle that result. If the sentence uses permission wording, choose its job with the branch in §8.4.1.
 
 **Common mistake #0 — Applicability ≠ Admissibility (informative).** Signature `Applicability` scopes *intended use and bounded context*; it is not a runtime entry gate. Runtime entry checks and admissibility predicates belong in `U.Mechanism.AdmissibilityConditions` as `A-*`. If your prose reads like “clients must satisfy the applicability”, you almost certainly want a `D-*` duty + an `A-*` gate (linked by ID) instead.
 
@@ -129,17 +132,17 @@ This section is the normative “API” of the square: what each quadrant is for
 
 #### A.6.B:5.3 — Quadrant D: Deontics & Commitments
 
-**Intent.** State governance through one of two D branches: accountable obligations, recommendations-as-duty, prohibitions, commitments, publication duties, operational duties, or contractual commitments under `A.2.8`; or the exact strong/weak permission, exercise, non-violation, or conflict result under `A.2.8.PER`. Only the commitment branch requires an accountable role assignment, role value, or admitted acting system as its subject.
+**Intent.** State one atomic governance claim: an accountable obligation, recommendation-as-duty, prohibition, commitment, publication or operational duty, or contractual commitment. When a sentence sounds permissive, use §8.4.1; only its **Grant or norm** row enters D. Writing the `D-*` sentence states the claim; it neither institutes the named duty, commitment, or grant nor establishes that it obtains or is met.
 
-**Adjudication.** In‑description (governance is stated in the spec); compliance may be audited via `E-*`.
+**Adjudication.** In-description for claim classification: the text fixes the governance content. To decide whether the named duty, commitment, or grant exists or whether actors complied, use its direct owner and inspect the required actual ground and evidence. The wording itself cannot decide either question.
 
-**Canonical form.** In the `U.Commitment` branch, a `D-*` statement **MUST** have an accountable subject (role assignment, `U.Role`, or admitted acting system). In the permission branch, it **MUST** cite the exact `A.2.8.PER` object and preserve that object's own participant/reference contract: beneficiary/action for a grant or weak finding, actual work plus grant occurrence for exercise, checked actual work for non-violation, or the exact grant and conflicting norm for conflict. Commitment-branch examples:
+**Canonical form.** For an obligation, recommendation-as-duty, prohibition, or commitment, name the accountable subject and use `A.2.8`. A permissive-looking word does not by itself select D; use the permission-word branch in §8.4.1, whose **Grant or norm** row supplies the different participant and ground test for a grant. Commitment examples:
 
 * “Client implementers **MUST** satisfy `A-…`.”
 * “Operators **SHALL** retain carriers …”
 * “Provider **SHALL** meet `E-…` under exclusions …”
 
-**Canonical payload (recommended; lintable).** When a `D-*` claim states an accountable obligation, recommendation-as-duty, or prohibition and is intended to be lintable and reusable, it **SHOULD** be representable as a `U.Commitment` record (A.2.8). A `D-*` statement that instead asserts strong permission, weak non-prohibition/non-violation, actual permission exercise, or permission conflict cites the exact `A.2.8.PER` result and does not force it through `U.Commitment.modality`. Default commitment fields to make explicit:
+**Canonical payload (recommended; lintable).** When the claim is intended to be reusable and lintable, it **SHOULD** be representable as a `U.Commitment` record (A.2.8). Default fields to make explicit:
 
 * `id` (often the `D-*` claim ID),
 * `subject` (accountable role assignment or party; never an episteme),
@@ -151,11 +154,11 @@ This section is the normative “API” of the square: what each quadrant is for
 
 **Prohibitions.**
 
-* A commitment-branch `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as the grammatical subject unless the accountable role assignment or admitted acting system is explicitly named. A permission-branch `D-*` statement **MUST NOT** acquire a commitment subject; it **MUST** preserve the exact selected `A.2.8.PER` object's participants and references. Use `A.6.C` when contract, promise, utterance, or agreement-like boundary language is live.
+* A `D-*` statement **MUST NOT** use “the system, service, interface, or specification” as the grammatical subject unless the accountable role assignment or admitted acting system is explicitly named; use `A.6.C` when contract, promise, utterance, or agreement-like boundary language is live.
 * A `D-*` statement **MUST NOT** restate `L-*` or `A-*` predicates in new words when an ID exists; it **SHOULD** reference the ID.
-* A `D-*` statement **MUST NOT** pretend that deontic results are laws. A commitment is an accountable-agent relation, and a permission result retains its direct `A.2.8.PER` relation/finding kind; neither is a truth-conditional invariant.
+* A `D-*` statement **MUST NOT** pretend that a duty, commitment, or grant is a law or that writing the claim makes it obtain.
 
-**A.7 EntityOfConcern binding.** A commitment-branch `D-*` claim is about the accountable role assignment or admitted acting system and its duty, or about a carrier-retention/exposure duty. A permission-branch `D-*` claim is about the exact `A.2.8.PER` relation or finding with its direct participants and references. Both remain written as **Descriptions**.
+**A.7 EntityOfConcern binding.** A `D-*` claim episteme concerns the exact duty, commitment, or grant named by its content; it does not substitute for that object. When permission wording is live, the branch in §8.4.1 names the direct owner and the obtaining or non-obtaining test.
 
 **Required references (explicit).**
 
@@ -164,26 +167,29 @@ This section is the normative “API” of the square: what each quadrant is for
 
 #### A.6.B:5.4 — Quadrant E: Work‑Effects & Evidence
 
-**Intent.** State what happens in work and how it can be evidenced: observed effects, emitted events, traces, logs, and metrics, produced reports, measurement outcomes.
+**Intent.** State a truth-conditional result that can be settled only from actual work, evaluation, observation, or produced carriers.
 
-**Adjudication.** In‑work: checked by running or operating and inspecting carriers produced in work.
+**Adjudication.** In-work or by an exact evaluation of work and its conditions. Reading an owner pattern or seeing a record is not enough.
 
-**Canonical form.** An `E-*` statement **SHOULD** include the minimum fields needed for adjudication:
+**Canonical form.** Write the ordinary result first, then make recoverable only what settles it:
 
-1. **Observation and measurement conditions** (when, where, and how observed; workload, window, and triggers)
-2. **Evidence carrier or record reference** under `A.7`, `A.10`, or `G.6` as applicable for the evidence relation or source basis
-3. **Viewpoint and consumer** (who uses this evidence and why; ties to `viewpointRef` discipline)
+1. the exact predicate and object that the claim concerns;
+2. the participants, work or evaluation occurrence, scope/window, comparison frame, and other conditions required by that predicate; and
+3. the evidence or source-use relation and its carrier only when a gate, plan, audit, or assurance decision relies on that support. A carrier may support the claim but does not create the work, effect, or finding.
+
+When permission wording is current, use the branch in §8.4.1 for the exact occurrence or finding, its failure test, and its direct owner; do not repeat that owner catalogue here.
 
 **Prohibitions.**
 
-* `E-*` statements **SHOULD NOT** use RFC deontic keywords (they are not obligations; they describe adjudicable effects and evidence).
+* `E-*` statements **SHOULD NOT** use RFC deontic keywords; they report adjudicable results rather than obligations.
 * An `E-*` statement **MUST NOT** hide a gate predicate; gate predicates are `A-*`.
-* An `E-*` statement **MUST NOT** assign agency (“the interface guarantees …”); if enforceability or commitment is intended, express it as `D-*` referencing the `E-*`.
+* An `E-*` statement **MUST NOT** assign agency to an interface, record, or publication. Name the admitted system that performed any cited Work and keep its covering assignment separate; if enforceability or commitment is intended, express a separate `D-*` claim.
 
-**A.7 EntityOfConcern binding.** `E-*` claims are primarily **carrier-referenced**: they assert what carriers exist and how they relate to observed work.
+**A.7 EntityOfConcern binding.** An `E-*` claim episteme concerns the exact work effect, evaluated finding, evidence relation, or carrier condition named by its predicate. A record or carrier is a separate object and becomes the concern only when its existence or condition is itself the claim.
 
 **Required references (explicit).**
 
-* If the effect or evidence claim is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s).
-* If the evidence is interpreted using metric definitions or invariants, the `E-*` statement **SHOULD** reference relevant `L-*` ID(s).
+* If the result is conditioned on a gate decision, the `E-*` statement **SHOULD** reference the relevant `A-*` ID(s).
+* If another object is needed to settle the predicate, reference that object's direct owner without importing its quadrant.
+* If evidence is used for reliance, cite the exact A.10 or G.6 evidence-use relation rather than treating carrier presence as truth.
 

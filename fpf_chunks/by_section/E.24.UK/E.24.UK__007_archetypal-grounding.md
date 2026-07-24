@@ -6,18 +6,19 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 85925
-line_end: 85956
+line_start: 86510
+line_end: 86557
 dependencies:
   - "A.11"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "A.8"
   - "C.2.1"
@@ -39,27 +40,43 @@ keywords:
 
 ### E.24.UK:5 - Archetypal Grounding
 
-#### E.24.UK:5.1 - False Structural U-kind Title
+#### E.24.UK:5.0 - Four Replays Through One Decision Sequence
 
-A structural title that names an action-invitation precision-restoration move as `U.ActionInvitationPrecisionRestoration` looks like it names a durable U-kind. A.6.A already settles the case: its governed object is the action-invitation precision-restoration move, and no durable kind with this spelling is admitted. Record `reject`, recover the exact `actionInvitation(...)` relation and whichever related governed value is current, and rename the public title to the actual pattern object.
+Use the same five steps in every replay: (1) identify the decision's EntityOfConcern and named use; (2) test an existing durable kind, direct relation, and bounded C.3 classification; (3) state governed individuals, membership or identity, intended extent, and the nearest non-member; (4) run all eight conditions, the shared E.24-family settlement, and the A.11/A.8 branch when current; (5) record one result reference, naming result, non-use boundary, and reopen condition. A future genuinely new candidate must complete this sequence before its public name is admitted.
 
-#### E.24.UK:5.2 - Retained Root U-kind
+In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1 decision episteme, the five steps summarize its ClaimGraph, and its effective reference scheme is `FPFCoreReferenceScheme`. A stopped replay names the exact blocker instead of pretending that an admission result exists.
 
-`U.Relation` remains a root U-kind because `A.6.REL` governs individuable obtaining relation occurrences and requires each direct relation pattern to supply obtaining and occurrence identity. The practical need appears when an episteme describes one exact occurrence or another direct relation has that occurrence as a participant. The root admission does not require an occurrence-description episteme for every readable relation assertion.
+**Reconstructed root — `U.Relation`.**
 
-`U.Work` can remain a root U-kind because A.15.1 is the sole direct owner of the dated performed occurrence and of the judgment that records resolve to it under the declared work-identity tolerances and continuity-policy description. E.24.UK supplies no rival descriptor list as an identity rule. Actual change, A.6.1 result-position bindings, domain results, delivery, acceptance, evaluation, and downstream effects retain their separate direct owners; none is a work-identity discriminator or licenses one generic work-result relation. A heading or title may reference `U.Work` only when that governed occurrence is current.
+1. **Subject and use.** The EntityOfConcern is the A.6.REL source construct for the common kind of individuable obtaining relation occurrences. C.2.1 and receiving direct relations need to refer to one exact occurrence without turning an assertion, row, or graph edge into that occurrence.
+2. **Coverage.** No other admitted durable kind covers all and only those occurrences. A bounded C.3 kind would not supply the cross-pattern root used by direct relation owners.
+3. **Membership.** An individual enters the extent only when its direct relation pattern establishes obtaining and supplies an occurrence-identity rule under A.6.REL. Predicate content, an assertion, description, designator, reference, tuple, or edge is the nearest non-member.
+4. **Eight tests and settlement.** Governed individuals, stable occurrence identity, direct-pattern witness, action-facing occurrence use, non-duplication, A.6.REL plus the direct relation pattern, `E24UK-AR-URELATION-R11-01#settlement`, and by-value reliance are all present. A.11 retains one common root rather than duplicating it for every direct relation; A.8 does not promote relation-specific names into additional universal roots.
+5. **Result and flip.** `E24UK-AR-URELATION-R11-01` records `root`; `NC-U-RELATION` retains the Tech label `U.Relation`. Reopen when the common occurrence criterion, direct identity discipline, dependent use, or settlement law changes. If an already admitted kind is found with the same governed extent and use, the disposition changes to `reuse`.
 
-#### E.24.UK:5.3 - Dependent Durable And Rejected Candidate Cases
+**Same-individual dependent — `U.WorkPlan`.**
 
-**Work plan.** One `U.WorkPlan` is one `U.Episteme` whose content declares intended `U.Work` over a horizon. Its identity follows C.2.1; `A.15.2` adds the stable plan-membership condition and planning use. Changing only a carrier or publication occurrence does not change the plan episteme. Changing its claim content can identify another plan episteme edition.
+1. **Subject and use.** The EntityOfConcern is A.15.2's WorkPlan kind-source construct; `MaintenancePlan_Q3` is a member witness, not the decision subject. Planning and readiness patterns need one durable way to recognize substantive intended-work epistemes.
+2. **Coverage.** `U.Episteme` already supplies individual identity, but it does not by itself distinguish epistemes that substantively coordinate intended work. A one-project classification would be tested under C.3 before durable admission.
+3. **Membership.** C.2.1 identifies `MaintenancePlan_Q3`; A.15.2's plan-membership predicate classifies that same individual as `U.WorkPlan` and implies its root `U.Episteme` membership. A calendar image or ticket title without substantive intended-work claims is the nearest non-member.
+4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, `E24UK-AR-UWORKPLAN-RG-01#settlement`, and by-value A.15 reliance are present. A.11 selects a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed.
+5. **Result and flip.** `E24UK-AR-UWORKPLAN-RG-01` records `same-individual-dependent`; the existing Tech label `U.WorkPlan` is retained and this replay mints no new name. Reopen when C.2.1 identity, A.15.2 membership, the planning use, or settlement law changes. If only one bounded project needs the distinction and one exact C.3.2 declaration suffices, the disposition changes to `local-kind`.
 
-**Method description.** A pump-maintenance procedure episteme has one exact pump-maintenance `U.Method` as its EntityOfConcern. `A.3.2` recognizes the same episteme individual as `U.MethodDescription` when its claims say something substantive about that method as a way of doing, for example its preconditions, effects, bounds, or internal method composition. An index entry that only names the method and its author fails this positive threshold. A later planning or enactment use evaluates adequacy separately; printing, approving, or enacting neither grants nor removes membership. If the claims describe exact submethods that construct one composite pump-maintenance method, that composite `U.Method` remains the EntityOfConcern. If they instead describe substitution or fallback relations among several independent maintenance methods, the selected `U.Structure` is the EntityOfConcern of an ordinary C.2.1 episteme and the present membership rule does not apply. If claim content, EntityOfConcern, or effective reference scheme changes, C.2.1 identifies the resulting episteme; the dependent kind supplies no second identity.
+**Identity-dependent candidate — stopped at the current owner.**
 
-**Viewpoint.** Maintainability viewpoint episteme P has one exact A.22-selected viewpoint-convention structure as its EntityOfConcern. E.17.0 recognizes the same P as `U.Viewpoint` only when its fixed claim content supplies all positive viewpoint-specification and conformance conditions. Under the effective reference scheme, `ViewpointId i` designates exact P; resolving `U.ViewpointRef r` that uses i yields P. The designator i, reference r, and episteme P remain distinct. Neither designation nor resolution grants `U.Viewpoint` or `U.View` membership; E.17.0 alone owns those membership predicates. `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>` is a separate one-viewpoint use qualification: its `viewpointRef` may resolve to P, but it selects no view and establishes no conformance or membership. A library entry, bundle reference, publication, selected use, or structure label likewise does not establish membership. Revising P's identity-bearing claims identifies another episteme edition even when the convention structure is unchanged.
+1. **Subject and use.** The EntityOfConcern is A.2.2's capability kind-source construct; `Pump37MaintenanceCapability_2026` would be one capability individual distinct from holder system `Pump37`. The intended use is reidentifying the capability through its holder while evidence, assignment, and work change.
+2. **Coverage.** `U.System` cannot classify the distinct capability individual, and a local kind would not replace a missing identity rule.
+3. **Membership and missing relation.** A.2.2 supplies a holder-indexed tuple, but no governed two-place capability-to-holder identity-dependence relation, obtaining condition, or identity effect. A holder field or reference is not that relation.
+4. **Failed tests.** Stable identity, reviewable witness, and shared-settlement condition 7 fail at the same missing governor. A.11, A.8, and naming are not reached.
+5. **Result and flip.** `E24UK-BLK-U-CAPABILITY-01` is the resolvable result; there is no accepted identity-dependent admission to reconstruct. Reopen only when A.2.2 governs the exact dependence relation and its identity effect. If recovery shows only a capability assertion, evidence item, fit assessment, or record field rather than a distinct governed individual, the disposition changes to `reject`.
 
-**View.** Architecture episteme E is recognized as `U.View` when `EpistemeViewpointConformanceRelation(E,P)` obtains for exact maintainability viewpoint P. E may be directly authored or may be the receiving episteme of an A.6.3 viewing relation; neither route grants membership. A diagram layout, screen, query execution, current selection, or publication does not establish conformance. If work changes a C.2.1 discriminator, the resulting episteme is identified by that changed discriminator and its view membership is judged anew.
+**Rejected near-miss — `U.EpistemePublication`.**
 
-**Published episteme.** The same architecture-view episteme can become available to one audience and use through an E.24.PUB publication occurrence and later cease to be available while keeping its C.2.1 identity and `U.View` membership. Therefore `U.EpistemePublication` is not admitted. Plain `published episteme` is relation-defined wording: the carrying claim states the episteme's obtaining participation as the selected edition and identifies or permits recovery of the exact publication occurrence. The Plain wording is neither a reference nor a designator and does not resolve.
+1. **Subject and use.** The EntityOfConcern is the proposed kind source construct for an episteme made available to an audience; the use is to speak plainly about that availability.
+2. **Coverage.** `U.Episteme` already identifies the episteme, while E.24.PUB governs the exact publication occurrence, selected edition, audience, and use.
+3. **Failed membership.** Publication participation can begin and end without reidentifying the episteme and supplies neither a stable dependent-membership predicate nor a distinct individual. An unpublished edition of the same episteme is the discriminating near-miss.
+4. **Failed tests and settlement.** Stable membership and non-duplication fail; `E24-OS-EPISTEME-ONTIC-01` and E.24.PUB already govern the needed objects and relation. A.11 rejects the duplicate kind; no A.8 or naming branch opens.
+5. **Result.** `E24UK-NAR-EPUB-01` records `reject`. Use Plain **published episteme** only in a claim that identifies or permits recovery of the obtaining `EpistemePublicationRelation`; admit no `U.EpistemePublication` name. Reopen only if a direct owner later supplies a stable classificatory distinction not reducible to publication participation.
 
 #### E.24.UK:5.4 - Type And Kind Governance Passage
 

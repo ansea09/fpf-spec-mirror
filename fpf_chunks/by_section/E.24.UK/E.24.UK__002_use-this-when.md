@@ -6,18 +6,19 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 85655
-line_end: 85685
+line_start: 86229
+line_end: 86259
 dependencies:
   - "A.11"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "A.8"
   - "C.2.1"
@@ -39,7 +40,7 @@ keywords:
 
 ### E.24.UK:0 - Use This When
 
-Use this pattern when an FPF text, heading, title, filename, ToC row, table, or source passage presents a candidate `U.*`, type, kind, or subkind distinction and the author must decide whether FPF admits that classificatory distinction as a durable U-kind or instead reuses an already admitted durable U-kind, declares a C.3.2 local kind, or recovers a declaration SlotKind, selected `U.Structure`, episteme or publication form, representation element, or source wording governed elsewhere.
+Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must choose among four outcomes: reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a genuinely needed durable kind, or recover a non-kind object under its direct owner. A title, filename, ToC row, table, or source spelling opens the question but never answers it.
 
 Typical moments:
 
@@ -50,11 +51,11 @@ Typical moments:
 - a `RelationSignature` SlotKind, an assertion or description field, a `C.29` representation element, or an `E.24.PUB` reusable form has acquired a `U.*` spelling;
 - a single E.24 ontic settlement appears to govern one root U-kind plus several dependent durable U-kinds.
 
-**Primary EntityOfConcern.** The EntityOfConcern is the candidate classificatory distinction: the governed individuals it would classify, their identity or membership rule, the intended extent and non-member boundary, and the claims that would depend on that kind. The admission decision is a claim-bearing episteme recorded through `E.9`; it is not a project-side relation occurrence. A candidate spelling is only a naming input and does not identify or admit the kind.
+**Primary EntityOfConcern.** Identify the exact object the admission decision is about before filling the card: an already recoverable C.3 `U.Kind`, the proposal episteme for an unadmitted distinction, or the source-construct entity being translated. Put the proposed criterion, candidate individuals, intended extent and non-member boundary, spelling, and dependent claims in the ClaimGraph. If no decision subject is identifiable, keep the inquiry open. An extension, member list, rule bundle, title, or spelling cannot fill this position.
 
 **Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether a public FPF name should remain `U.*`. The downstream reader is the practitioner who uses public pattern titles, headings, ToC rows, and names as orientation cues and needs those cues to point to the real governed object.
 
-**First useful move.** Recover the governed individuals, their identity or membership rule, the intended extent and non-member boundary, and the action-facing claim that needs the candidate kind. Then test whether existing U-kinds, direct relations, declaration SlotKinds, C.3 local kinds, or selected structures already preserve that distinction. Judge the public spelling only after the admission disposition is stable.
+**First useful move.** First name the exact local kind, proposal episteme, or source-construct entity that the decision is about; if no such object is identifiable, retain the inquiry and stop. Then recover the proposed governed individuals, identity or membership rule, intended extent and non-member boundary, and the action-facing claim that needs the kind. Test whether existing U-kinds, direct relations, declaration SlotKinds, C.3 local kinds, or selected structures already preserve that distinction. Judge the public spelling only after the admission disposition is stable.
 
 **What goes wrong if missed.** FPF grows a shadow ontology by punctuation. A slot label becomes a kind, a publication form becomes an ontic, type and kind wording becomes active beside ontic settlement, and a useful title survives because it is searchable rather than because it names the governed object.
 

@@ -6,12 +6,12 @@ section_id: "C.2.1:8"
 section_title: "Multi-view description and publication  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_multi-view-description-and-publication-normative.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:8 — Multi-view description and publication  (normative)"
-line_start: 40626
-line_end: 40637
+line_start: 41025
+line_end: 41036
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -33,6 +33,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.2.P"
   - "C.29"
   - "C.3.2"
@@ -57,7 +58,7 @@ C.2.1 identifies every candidate episteme and every viewpoint episteme separatel
 
 Several conforming views remain a plurality. Recover an exact C.13 collection only when a receiving use depends on that plurality as a collection. Recover an exact A.22 `U.Structure` only when the use additionally depends on organization among those views, and state the exact direct organizing relations. A shared EntityOfConcern, package, table, heading set, diagram, or carrier creates neither a view family, a collection, nor that structure.
 
-`A.6.3` governs only an obtaining source-to-receiving viewing construction when that history is current; direct authoring and query generation require no such relation. A system performs any viewing, authoring, query, comparison, or repair work. When exact work and change facts first constitute an episteme and that claim matters, use a current direct entity-identity-inception governor only if one actually exists; otherwise return the exact missing-governor blocker. Neither work route nor inception grants `U.View` membership.
+`A.6.3` governs only an obtaining source-to-receiving viewing construction when that history is current; direct authoring and query generation require no such relation. A system performs any viewing, authoring, query, comparison, or repair work. Neither that work route nor an A.6.1 result position grants `U.View` membership or identifies a multi-view family.
 
 `E.17` governs multi-view publication forms and uses, while `E.24.PUB` governs publication occurrences, forms, and carriers. The same recognized view can participate as the selected episteme in several publication occurrences without changing identity or conformance. Publication establishes no view membership and no cross-view subject relation.
 

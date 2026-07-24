@@ -6,47 +6,51 @@ section_id: "F.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__004_problem.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:2 — Problem"
-line_start: 87971
-line_end: 87983
+line_start: 88589
+line_end: 88599
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:2 - Problem
 
-Without this pattern:
+Without the direct attribution relation, recurring engineering failures appear:
 
-1. **Role-description proof.** A role-description episteme or role label is treated as proof that a holder bears the role.
-2. **Assignment and work collapse.** A work occurrence is treated as if it were the assignment, or an assignment is treated as if work already happened.
-3. **RoleEnactment reification.** `RoleEnactment` becomes a second durable U-kind beside `U.Work` and `U.RoleAssignment`.
-4. **Status branch returns.** Status assertions are processed as if they were the same kind of result as role assignment.
-5. **Episteme-role drift.** Standards, reports, datasets, requirements, model cards, dashboards, and publications become "role holders" because they are useful in project reasoning.
-6. **Window and state loss.** A holder-role-context statement is used for current work without saying whether assignment currentness or role-state admission matters.
-7. **Cross-context overreach.** A familiar role-like label from another canon is used to justify local assignment without a bridge.
-8. **Notation replaces relation.** `Holder#Role:Context@Window` is copied as if the string were the assignment value.
+1. **Assignment-as-work.** Current role holding is treated as evidence that the assigned system performed a particular occurrence.
+2. **Performer by label.** A name such as `Reviewer` or `Operator` is used without the assignment episode that fixes holder, role interpretation, and time.
+3. **Assignment-episode mismatch.** The assignment interval does not cover the work interval, yet attribution is accepted.
+4. **Support-as-constitution.** A log, report, standard, dashboard, or decision is treated as what makes the attribution obtain rather than as an assertion or support relation.
+5. **Duplicate enactment ontology.** `RoleEnactment` or `RoleEnactmentFact` becomes a second object beside the dated work and its direct `performedUnderAssignment` relation.
+6. **Hidden locality.** A generic context field replaces the role-taxonomy episteme, effective reference scheme, assignment window, or an independently selected model-use structure.
 

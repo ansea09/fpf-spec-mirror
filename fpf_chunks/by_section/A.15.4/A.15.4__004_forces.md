@@ -6,12 +6,12 @@ section_id: "A.15.4:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_forces.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2.1 — Forces"
-line_start: 25378
-line_end: 25387
+line_start: 25673
+line_end: 25682
 dependencies:
   - "A.10"
   - "A.15"
@@ -33,23 +33,19 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
-  - "U.Work"
 keywords:
-  - "allowed use now"
-  - "appearance overread blocked"
+  - "allowed or blocked use"
   - "appearance-based reliance"
-  - "claim/effect position"
   - "copied approval"
-  - "credential view"
-  - "dashboard display"
-  - "exact permission-result relation or finding"
+  - "credential"
+  - "dashboard"
+  - "exact attempted use"
   - "generated explanation"
-  - "project-side claim/effect reference"
+  - "governing pattern and direct object"
+  - "independent required-position rows"
+  - "orientation and source-finding"
+  - "project-side reference"
   - "publication face"
-  - "reliance appearance"
-  - "required claim before use"
-  - "required instituted effect before use"
-  - "work or reliance use"
 ---
 
 ### A.15.4:2.1 - Forces
@@ -59,6 +55,6 @@ keywords:
 | Work momentum vs. governing-position recoverability | Teams need to keep work moving, but a reliance appearance can make the wrong claim look like work authorization when the governing pattern position is still unnamed. |
 | Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, role-assignment, credential-status, role-state, and gate cases need more fields. |
 | Publication face vs. governing pattern value | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side FPF kind and reference named by value. |
-| Neighboring governed claims vs. local repair | A.15.4 can recover the missing governing pattern position for the attempted work or reliance use, but evidence, gate, assurance, speech-act, commitment, exact permission-result, boundary, credential-status, role-state, and work-occurrence claims must return to their governing patterns. |
+| Neighboring governed claims vs. local repair | A.15.4 can recover the missing governing pattern position for the attempted work or reliance use, but evidence, gate, assurance, boundary, work-occurrence, and the permission/authority object selected by the §3 branch return to their direct owners. |
 | Repeated ambiguity vs. individual burden | Repeated ambiguity about the required claim, instituted effect, or governing position should become governing-position or source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
 

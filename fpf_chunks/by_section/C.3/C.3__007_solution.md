@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_solution.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:5 — Solution"
-line_start: 43723
-line_end: 43736
+line_start: 44124
+line_end: 44137
 dependencies:
   - "A.1"
   - "A.11"
@@ -24,29 +24,31 @@ dependencies:
   - "C.29"
   - "C.3"
   - "C.3.1"
+  - "C.3.2"
+  - "C.3.3"
   - "C.3.5"
   - "C.3.A"
   - "E.24.UK"
   - "F.18"
   - "F.8"
+  - "F.9"
 keywords:
-  - "classification"
-  - "extension"
-  - "intension"
-  - "kind"
-  - "subkind"
-  - "type"
-  - "typed reasoning"
-  - "vocabulary"
+  - "KindBridge"
+  - "SubkindOf"
+  - "bounded-context local kind"
+  - "effective ReferenceScheme"
+  - "intent-bearing KindSignature"
+  - "optional slice-indexed extension"
+  - "three-valued candidate judgment"
 ---
 
 ### C.3:5 - Solution
 
 Use the lightest object that answers the current typed-reasoning question.
 
-1. **Recover the local kind.** State the effective `U.ReferenceScheme` and the typed-reasoning use. A local `U.Kind` is not automatically a durable FPF U-kind.
+1. **Recover the local kind.** Name its bounded context and the local identity basis by which later claims can refer to the same kind. Do not store the current use, claim scope, or effective `U.ReferenceScheme` on the kind. A local `U.Kind` is not automatically a durable FPF U-kind.
 2. **Use C.3.1 for order and continuity.** `U.SubkindOf` is a partial order over local kinds. C.3.1 also decides whether the same local kind continues when a declaration edition changes.
-3. **Use C.3.2 for declaration and judgment.** A repeated criterion may justify a `KindSignature`; one application judges an exact candidate against one exact edition in one exact slice.
+3. **Use C.3.2 for declaration and judgment.** A repeated criterion may justify a `KindSignature` whose claim content pins the effective `U.ReferenceScheme`; one application judges an exact candidate against one exact edition in one exact slice.
 4. **Let direct features decide.** Direct qualities, relations, constructive grounding, or other governed candidate features make the criterion hold or fail. Measurements, observations, schemas, sources, and evidence support claims about those features; they do not constitute membership.
 5. **Keep three results.** A satisfied criterion gives `true`; a known failed criterion gives `false`; missing evidence, an unavailable declared dependency, or an out-of-domain candidate gives `unknown`. A guard may decline use on `unknown` without changing that judgment to `false`.
 6. **Materialize an extension only for use.** A query, quantification, comparison, or review may need `KindExtension(k, slice)`. The representation contains the true candidates for the fixed signature edition and slice; notation, rows, or set membership do not create an ontic collection or classification relation.

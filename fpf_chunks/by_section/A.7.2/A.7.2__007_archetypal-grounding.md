@@ -6,12 +6,12 @@ section_id: "A.7.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__007_archetypal-grounding.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:5 — Archetypal Grounding"
-line_start: 21994
-line_end: 22001
+line_start: 22246
+line_end: 22253
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -22,18 +22,20 @@ dependencies:
   - "E.17"
   - "G.11"
 keywords:
-  - "incompatible FPF consequences"
+  - "actual source-use relations"
+  - "context split"
+  - "dated FPF applications"
+  - "exact used clauses and premises"
   - "optional convergence"
-  - "premise reconciliation"
-  - "same receiving claim and scope"
-  - "source-use conflict"
+  - "result claims or decisions"
+  - "same receiving claim or consequence"
 ---
 
 ### A.7.2:5 - Archetypal Grounding
 
-**Compatible repair.** A role pattern says assignment work or a policy-valid instituting act constitutes a responsibility-bearing `U.RoleAssignment`. A neighboring relation pattern treats a signed organization chart as sufficient to make the same assignment occurrence obtain. Their methods select different responsible systems for one maintenance action. Reconciliation work recovers both claims, source uses, and reasoning-basis uses of `A7CP-01`, `A7CP-03`, `A7CP-05`, and `A7CP-06`. It repairs the relation clause so the chart is evidence for an assignment assertion rather than constitution of the assignment. The result is `reconciledCompatibility`; unrelated evidence and publication law stays unchanged.
+**Compatible repair.** One dated application of a role-method clause yields a decision claim that assignment work or a policy-valid instituting act constitutes a responsibility-bearing `U.RoleAssignment`. Another dated application of a neighboring relation-method clause yields a claim that a signed organization chart is sufficient to make the same assignment occurrence obtain. The two result claims select different responsible systems for one maintenance action. Reconciliation work recovers both result claims, their method clauses, source uses, and reasoning-basis uses of `A7CP-01`, `A7CP-03`, `A7CP-05`, and `A7CP-06`. It repairs the relation clause so the chart is evidence for an assignment assertion rather than constitution of the assignment, then checks the affected application result. The result is `reconciledCompatibility`; unrelated evidence and publication law stays unchanged.
 
-**Context split.** One pattern uses `ComponentOf` for a pump assembly while another uses `MemberOf` for a maintenance-candidate set. Both sources say “part”, but their receiving claims, constructions, and consequences differ. The result is `contextSplit`; neither source defeats the other.
+**Context split.** One dated application uses a pattern's `ComponentOf` clause to classify a pump assembly; another uses a `MemberOf` clause to classify a maintenance-candidate set. Both result claims say “part”, but their subjects, receiving claims, constructions, and consequences differ. The result is `contextSplit`; neither source clause nor application result defeats the other.
 
-**Non-convergence.** Two current methods make incompatible same-scope dependence claims, but available evidence and formal consequences warrant neither correction. The result is `doNotCompose` for the affected assurance use or `unresolvedEscalation` with exact claims, missing evidence/decision owner, and reopen condition. Familiarity or institutional status cannot manufacture convergence.
+**Non-convergence.** Two dated method applications yield incompatible same-scope dependence claims, but available evidence and formal consequences warrant neither correction. The result is `doNotCompose` for the affected assurance use or `unresolvedEscalation` with exact result claims, missing evidence or decision owner, and reopen condition. Familiarity or institutional status cannot manufacture convergence.
 

@@ -6,17 +6,18 @@ section_id: "E.24:5.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__008_bias-annotation.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.6 — Bias-Annotation"
-line_start: 84981
-line_end: 84995
+line_start: 85551
+line_end: 85565
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.3.5"
   - "C.13"
@@ -27,6 +28,7 @@ dependencies:
   - "E.14"
   - "E.17.0"
   - "E.21"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.24.UK"
@@ -41,7 +43,7 @@ keywords:
 ### E.24:5.6 - Bias-Annotation
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**.
-Scope: the authoring decision about one candidate ontology unit: introduce a durable `U.Ontic`, rely directly on existing governing patterns, retain only the claims needed for one bounded use in a local `U.Episteme` under C.2.1, or keep source wording at quote-only or reduced use. The scope does not include the subject matter governed by the resulting pattern.
+Scope: the authoring decision about one candidate ontology unit. It selects durable `U.Ontic`, direct governing-pattern use, bounded local `U.Episteme`, or unresolved stop as the ontology disposition; it separately records source wording as not current, quote-only, reduced use, or selected stronger source use. The scope does not include the subject matter governed by the resulting pattern.
 
 This pattern intentionally biases toward explicit identity, direct relation rules, reusable declarations where needed, and governing-pattern reuse. It resists five recurring distortions:
 
@@ -51,5 +53,5 @@ This pattern intentionally biases toward explicit identity, direct relation rule
 - **semio-bias:** discussion of description epistemes, publication occurrences, forms, carriers, or review evidence displaces the ontic or subject matter being introduced;
 - **process-bias:** development-state, publication-state, evaluation-state, or process evidence status is copied into ontic or subject-matter content.
 
-The mitigation is the same in each case: recover the primary governed subject kind, stable identity, core direct relation, any required RelationSignature, named neighboring direct relations, and governing-pattern reuse before naming, placement, dependent-pattern reliance, or publication form starts governing the decision.
+The mitigation is the same in each case: recover the primary governed subject kind, exact identity or constitution rule, minimal governed relation set, any identity-bearing direct relation actually selected, any required RelationSignature, and governing-pattern reuse before naming, placement, dependent-pattern reliance, or publication form starts governing the decision.
 

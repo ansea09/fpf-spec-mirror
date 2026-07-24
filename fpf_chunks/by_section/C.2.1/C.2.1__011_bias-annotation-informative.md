@@ -6,12 +6,12 @@ section_id: "C.2.1:10"
 section_title: "Bias-Annotation  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__011_bias-annotation-informative.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:10 — Bias-Annotation  (informative)"
-line_start: 40684
-line_end: 40691
+line_start: 41083
+line_end: 41090
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -33,6 +33,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.13"
+  - "C.2.1"
   - "C.2.P"
   - "C.29"
   - "C.3.2"
@@ -53,7 +54,7 @@ keywords:
 
 ### C.2.1:10 - Bias-Annotation  *(informative)*
 
-C.2.1 deliberately favors explicit aboutness and interpretation because claims without an exact EntityOfConcern and effective reference scheme are difficult to compare or test. The mitigation is the `A.6.REL` minimum-current-object rule: ordinary use adds another object only when the receiving use depends on it and states that object's direct relation to an already recoverable object.
+C.2.1 deliberately favors explicit aboutness and interpretation because claims without an exact EntityOfConcern and effective reference scheme are difficult to compare or test. The mitigation is the `A.6.REL` minimum-current-object rule: ordinary use adds another object only when the reader's next sentence or action requires it, and states that object's direct relation to an already recoverable object.
 
 The pattern also resists representation bias. Formal calculi, diagrams, learned representations, and interactive tools can materially change available reasoning operations, but their convenience or geometry cannot establish subject identity. C.29 and the selected transition pattern govern those differences.
 

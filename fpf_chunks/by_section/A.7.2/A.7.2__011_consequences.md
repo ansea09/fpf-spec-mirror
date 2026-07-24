@@ -6,12 +6,12 @@ section_id: "A.7.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__011_consequences.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:9 — Consequences"
-line_start: 22033
-line_end: 22036
+line_start: 22285
+line_end: 22288
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -22,11 +22,13 @@ dependencies:
   - "E.17"
   - "G.11"
 keywords:
-  - "incompatible FPF consequences"
+  - "actual source-use relations"
+  - "context split"
+  - "dated FPF applications"
+  - "exact used clauses and premises"
   - "optional convergence"
-  - "premise reconciliation"
-  - "same receiving claim and scope"
-  - "source-use conflict"
+  - "result claims or decisions"
+  - "same receiving claim or consequence"
 ---
 
 ### A.7.2:9 - Consequences

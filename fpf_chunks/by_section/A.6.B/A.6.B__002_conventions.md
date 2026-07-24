@@ -6,12 +6,12 @@ section_id: "A.6.B:0"
 section_title: "Conventions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__002_conventions.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:0 — Conventions"
-line_start: 9442
-line_end: 9472
+line_start: 9554
+line_end: 9584
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -22,16 +22,15 @@ dependencies:
   - "A.6.0"
   - "A.6.1"
   - "A.6.3"
-  - "A.6.P"
+  - "A.6.B"
+  - "A.6.C"
   - "A.7"
   - "B.3"
-  - "C.26.1"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.8"
-  - "F.18"
   - "U.Commitment"
   - "U.EpistemicViewing"
   - "U.Mechanism"
@@ -41,9 +40,7 @@ keywords:
   - "(MUST"
   - "(ii) claim that evidence carriers exist (that is E-)"
   - "(ii) encode runtime entry predicates (those are A-)"
-  - "(they are not obligations"
-  - "Keeps modalities separated and audit-ready"
-  - "L/A/D/E claim classification"
+  - "Keeps claim text"
   - "MAY"
   - "MUST"
   - "MUST NOT"
@@ -52,30 +49,36 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "accountable commitments"
-  - "admissible use"
-  - "alone select neither branch"
+  - "a duty or commitment D- claim MUST name its accountable subject"
+  - "accountable norms and grants"
+  - "actual exercise"
   - "and MAY"
   - "and MUST NOT cite D-*"
   - "and SHALL are to be interpreted as in RFC 2119/8174. Lower-case must"
+  - "and evaluated results distinct"
   - "and should in explanatory prose is descriptive"
   - "as if it were an agent obligation"
   - "as if it were an agent obligation. (It is a gate predicate"
   - "as operators"
-  - "atomic claims"
-  - "boundary norm square"
-  - "claim IDs"
-  - "laws vs entry predicates vs deontic results vs evidence"
+  - "atomic L/A/D/E claims"
+  - "conflict claims"
+  - "direct obtaining conditions"
+  - "entry predicates"
+  - "evaluated findings"
+  - "evaluation"
+  - "institutional obtaining"
+  - "laws"
   - "may"
-  - "non-admissible use"
+  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
+  - "observable effects and evidence"
   - "or (iii) assert evidence existence or measurement outcomes (those are E-*)"
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
-  - "strong or weak permission results"
-  - "they describe adjudicable effects and evidence)"
-  - "triangle decomposition"
+  - "or observation that settles it and any evidence used for reliance"
+  - "they report adjudicable results rather than obligations"
+  - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
   - "“is admissible”"
   - "“is blocked”"
@@ -101,12 +104,12 @@ These labels are **claim-classification labels for statements**, not MVPK face k
 
 **Atomic claim.** An **atomic claim** is a sentence (or bullet) that performs exactly one logical role and is classifiable under exactly one quadrant. If a sentence mixes roles, it is **not atomic** and **MUST** be split before it can be classified.
 
-**Adjudication substrate (for classification).** For the purposes of this square, an atomic claim is classified by the primary substrate that decides its satisfaction:
+**Adjudication substrate (for classification).** For the purposes of this square, an atomic claim is classified by where its own truth condition or governance content is settled. This tells you how to classify the sentence; it does not make a commitment, grant, or finding exist.
 
-* **In-description or in-theory**: satisfaction is decided from the description alone (e.g., proof or type validation), or the claim is itself a governance utterance whose content is fully determined by the text.
+* **In-description or in-theory**: an `L-*` truth condition is settled by inspecting, proving, or type-validating the description; for a `D-*` claim, the description fixes the normative content and names the duty, commitment, or grant that the claim concerns.
 * **In-work or in-execution**: deciding satisfaction requires observing executed work, inspecting carriers produced in work, or both.
 
-**Note (important).** `D-*` claims are authored and interpreted in the description; whether they are met is typically established indirectly via referenced `E-*` claims (or other governance procedures). This does not move `D-*` into quadrant E; it clarifies the classification distinction.
+**Note (important).** Writing a `D-*` claim records what the boundary says; it does not make the named duty, commitment, or grant exist or establish compliance. When the wording is about permission, use the permission-word branch in §8.4.1 to recover the exact object, what makes it obtain, and the evidence needed before reliance.
 
 **Modality family.** A claim is either:
 

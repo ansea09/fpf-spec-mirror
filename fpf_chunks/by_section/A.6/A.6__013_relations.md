@@ -6,22 +6,19 @@ section_id: "A.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__013_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12 — Relations"
-line_start: 8962
-line_end: 8973
+line_start: 9072
+line_end: 9085
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2.3"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
-  - "A.20"
-  - "A.21"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -32,13 +29,11 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.26"
-  - "C.26.1"
   - "C.28"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.19"
   - "E.8"
   - "F.18"
@@ -46,23 +41,21 @@ dependencies:
   - "U.Mechanism"
   - "U.Signature"
   - "U.View"
-  - "U.Work"
 keywords:
-  - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
-  - "MUST"
   - "Rewrite as declarative predicate"
-  - "SHOULD"
-  - "and MAY)"
-  - "authority-wording split"
-  - "boundary"
-  - "boundary claim-classification fields"
+  - "Work versus non-Work effect"
+  - "acceptance"
+  - "actual occurrence"
+  - "and evidence"
+  - "atomic L/A/D/E claims"
+  - "delivery"
   - "in invariants"
-  - "probe/order/frame/export/state-reading claims"
-  - "promise/commitment/API/policy wording"
+  - "publication face"
   - "reference predicate IDs from CC when needed"
-  - "register-backed status boundary"
-  - "signature stack"
+  - "separate result"
+  - "signature and mechanism declarations"
+  - "six-way authority-word branch"
   - "undermines auditability"
   - "“MUST” appears inside Definition: blocks"
 ---
@@ -70,12 +63,14 @@ keywords:
 ### A.6:12 - Relations
 
 * **Implements authoring discipline:** Follows canonical section order and style expectations from E.8.
+* **Uses A.6.B as the classification authority:** `A.6.B:8.4.1` selects the job of permission wording. A.6 maps the resulting atomic claim to the stack; it does not put every `A.2.8.PER` object in D. The filled case in `A.6.B:8.4.5.4` is the concrete handshake.
+* **Coordinates actual effects with their direct owners:** A.15.1 owns only a grounded dated Work occurrence; A.3/A.3.4 owns an independently identified actual transformation, including spontaneous or formal change with no Work; exact interaction, causal, production, speech-act, evaluation, evidence, and result owners carry their own claims. A description or carrier creates none of them.
 * **Constrains signature writing:** Reinforces A.6.0 separation of Laws vs operational gates (AdmissibilityConditions live in mechanisms).
 * **Constrains mechanism writing:** Aligns with A.6.1 structure (Signature block plus mechanism‑only blocks such as AdmissibilityConditions, Transport, Audit).
 * **Requires EntityOfConcern and Description-episteme / publication-carrier discipline:** Uses A.7 to prevent category mistakes; ties evidence to evidence carriers and publication faces to descriptions.
 * **Coordinates `U.View`, `U.Viewpoint`, and publication use:** E.17.0 governs viewpoint and view membership; MVPK selects exact epistemes, viewpoints, face uses, and publication forms; A.6.3 governs only optional source-to-receiving construction.
-* **Unpacks “contract” talk:** Uses A.6.C, A.2.3, A.2.8, A.2.8.PER, and A.2.9 to keep promise content, utterance or speech act, accountable commitment, positive permission result, and work and evidence adjudication explicit.
+* **Unpacks “contract” talk:** A.6.C, A.2.3, A.2.8, A.2.8.PER, and A.2.9 keep promise content, speech act, commitment or grant explicit; A.15.1 owns only dated Work, and its §4.6 dispatch returns each application result, production, change, delivery/transfer, evidence, or acceptance claim to its direct owner.
 * **Connects to signature engineering patterns:** A.6.5 (slot discipline) and A.6.6 (anchor and base discipline) can be read as “constructor and enabling” operations that help *build* well‑formed signatures by disciplined unpacking and grounding (they belong in the same stack discipline because they govern boundary construction).
 * **Coordinates with `C.28 CausalUse-CAL`:** When boundary prose uses causal-use evidence or a causal-use verdict to justify deployment, release, duty, commitment, or admissibility, A.6 splits the boundary sentence while `C.28` carries the causal-use question, `CausalityLadderRung`, estimand, support basis, support verdict, and supported causal use and unsupported causal use.
-* **Coordinates with `A.15`, `A.10`, `B.3`, `A.21`, `A.20`, and `A.15.1`:** When classified boundary wording is then used for work, reliance, evidence, currentness, provenance, assurance, gate decision, constraint-validity witness, release work occurrence, or deployment work occurrence, the required claim or effect is carried by the governing source named by value: `A.21` for `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`; `A.20` for `ConstraintValidity` status or witness; `A.15.1` for dated `U.Work` occurrence.
+* **Coordinates work and consequences:** `A.15.1` supplies only a dated `U.Work` occurrence. Its §4.6 table routes an application/result binding, production, change, evaluation result, evidence use, delivery/transfer, and acceptance to separate direct owners. `A.15`, `A.10`, `B.3`, `A.21`, and `A.20` govern the exact work-use, evidence, assurance, gate, or constraint claim when current.
 

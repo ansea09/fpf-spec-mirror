@@ -6,22 +6,19 @@ section_id: "A.6:4"
 section_title: "Solution — A stack + a classification matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__005_solution-a-stack-a-classification-matrix.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:4 — Solution — A stack + a classification matrix"
-line_start: 8590
-line_end: 8818
+line_start: 8689
+line_end: 8926
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2.3"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
-  - "A.20"
-  - "A.21"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -32,13 +29,11 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.26"
-  - "C.26.1"
   - "C.28"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.19"
   - "E.8"
   - "F.18"
@@ -46,23 +41,21 @@ dependencies:
   - "U.Mechanism"
   - "U.Signature"
   - "U.View"
-  - "U.Work"
 keywords:
-  - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
-  - "MUST"
   - "Rewrite as declarative predicate"
-  - "SHOULD"
-  - "and MAY)"
-  - "authority-wording split"
-  - "boundary"
-  - "boundary claim-classification fields"
+  - "Work versus non-Work effect"
+  - "acceptance"
+  - "actual occurrence"
+  - "and evidence"
+  - "atomic L/A/D/E claims"
+  - "delivery"
   - "in invariants"
-  - "probe/order/frame/export/state-reading claims"
-  - "promise/commitment/API/policy wording"
+  - "publication face"
   - "reference predicate IDs from CC when needed"
-  - "register-backed status boundary"
-  - "signature stack"
+  - "separate result"
+  - "signature and mechanism declarations"
+  - "six-way authority-word branch"
   - "undermines auditability"
   - "“MUST” appears inside Definition: blocks"
 ---
@@ -86,11 +79,11 @@ The **Signature Stack** (as used in this cluster) is the ordered family of **can
 
    *Audit vs AssuranceLane (avoid duplication):* the Mechanism’s **Audit and observability** block defines the required semantics of an observability and evidence interface (carrier classes and required fields, correlation keys, exposure interface). **Retention, access, and enforcement are D‑claims** (role-assignment or acting-system duties) that reference the same carrier classes by ID. An MVPK **AssuranceLane** is a projection for auditors that explains how to adjudicate the evidence interface. This is a special case of CC‑A.6.6: the `AssuranceLane` face references the Mechanism section and the relevant claim IDs rather than restating semantics.
 
-3. **Deontic layer (D: commitments and permission results).** Duty, recommendation-as-duty, and prohibition statements are bound to accountable role assignments, role values, or admitted acting systems and use `A.2.8 U.Commitment`; strong/weak permission, exercise, non-violation, and conflict statements use their exact `A.2.8.PER` result and beneficiary. Canonical placement is a deontic section in the boundary package (typically rendered inside `TechCard`), and those statements reference `L-*`/`A-*`/`E-*` by ID rather than duplicating predicates.
+3. **Deontic layer (D: duties, commitments, and grants).** Put here an accountable duty, recommendation-as-duty, prohibition, commitment, or `A6-AW-NORM-GRANT` claim. Cite the exact A.2.8 or A.2.8.PER object selected by that row; other `A6-AW-*` claims keep their own placement. Reference related `L-*`, `A-*`, or `E-*` IDs rather than duplicating them.
 
-4. **Evidence bindings layer (E: effects and evidence).** `E-*` claims bind observed behaviour to **carrier classes** and measurement conditions. Canonical placement is an Evidence-and-carriers section in the boundary package (typically rendered in `AssuranceLane`), and adjudication happens against carriers produced in work.
+4. **Observable-effects and evidence layer (E: Work-Effects & Evidence).** `E-*` is the boundary's observable-effect/evidence claim family. Each claim names the exact actual occurrence or evaluated finding under its direct owner and, when reliance is current, the observation conditions and A.10 evidence path. `U.Work` is named only when role-method-work grounding obtains; a natural, spontaneous, or formal transformation may instead use A.3/A.3.4. Canonical placement is an Evidence-and-carriers section, typically rendered in `AssuranceLane`.
 
-5. **Work & realizations (outside the description stack).** Realizations (substitutable implementations) are exercised by doing work; actual executions produce state changes, traces, and measurements. Effects exist only in work. A.6.0 already frames realizations as substitutable behind signatures and warns against smuggling bridge mechanics into the signature layer.
+5. **Actual occurrences and realizations (outside the description stack).** Substitutable realizations are exercised through dated Work when A.15.1's performer, assignment, method, time, and containing-system facts obtain. A Work occurrence may participate in change, production, speech-act effect, evaluation, or evidence production, but each of those remains a separately governed relation or claim. A.3/A.3.4 also admits natural, spontaneous, and formal transformations without a performer, assignment, method, or Work occurrence.
 
 6. **Publication faces.** MVPK selects exact epistemes and publication forms for audience-specific face uses. A selected episteme has `U.View` membership only when E.17.0 conformance to the exact viewpoint episteme obtains; any A.6.3 source-to-receiving construction remains separate. The face class, publication occurrence, form, rendering, and carrier are not the `U.View`.
 
@@ -107,7 +100,7 @@ Minimal content (suggested):
 - **Operational policies:** references to relevant `D-*` duties (retention, access control, exposure), without redefining them.
 - **Limitations:** sampling, redaction, missing signals, expected false negatives and false positives.
 
-**No new semantics reminder.** The `AssuranceLane` face may include *procedural* adjudication guidance (queries, joins, dashboards) as informative text. Any normative thresholds or criteria that would change the boundary’s commitments or permission results **MUST** be authored as `E-*` claims in the canonical Evidence-and-carriers section, while any changed `U.Commitment` or `A.2.8.PER` object is repaired at its direct owner; both are cited by ID rather than introduced only inside `AssuranceLane` face text.
+**No new semantics reminder.** An `AssuranceLane` may explain adjudication informatively, but every new normative sentence first enters the canonical claim set. A changed permission-looking claim cites its selected `A6-AW-*` row and direct owner rather than being introduced inside the face.
 
 Example (conceptual, no tools):
 
@@ -134,8 +127,8 @@ Default placements (quadrant → stack layer / section):
 
 * **L →** Signature.Laws (and, where appropriate, mechanism‑local semantic laws; never runtime gates)
 * **A →** Mechanism.AdmissibilityConditions
-* **D →** Deontic claims: accountable duty/recommendation/prohibition commitments under `A.2.8`, including publication and accountability duties, or the exact strong/weak permission, exercise, non-violation, or conflict result under `A.2.8.PER`
-* **E →** Evidence-and-carriers (claims adjudicated against work via carriers; the publication face for these is typically `AssuranceLane`)
+* **D →** accountable duties, recommendations-as-duty, prohibitions, commitments, and `A6-AW-NORM-GRANT` claims at their exact A.2.8 or A.2.8.PER owner
+* **E →** actual occurrences, evaluated findings, and evidence claims, including `A6-AW-EXERCISE`, `A6-AW-WEAK`, `A6-AW-CONFLICT`, and `A6-AW-SOURCE` when those claims are current
 
 **Integration stitches (informative; this cluster is a classification hub, not a standalone philosophy):**
 * **A.6.1 ↔ A‑quadrant:** `U.Mechanism.AdmissibilityConditions` is the canonical claim layer for `A-*` gate and admissibility claims.
@@ -153,14 +146,14 @@ Default placements (quadrant → stack layer / section):
 
 A “four‑part list” is insufficient, because real sentences reuse the same visible words (“must”, “guarantees”, “valid”) across different logical roles. A **2×2 matrix** is better fit because it arises from crossing **two independent distinctions**:
 
-* **Modality family:** truth-conditional vs governance; governance still separates `U.Commitment` duty/recommendation/prohibition from `A.2.8.PER` permission results.
+* **Modality family:** truth-conditional versus governance content. For permission-looking wording, the selected `A6-AW-*` row states which side applies; A.2.8.PER membership alone does not.
 * **Adjudication substrate:** in‑description vs in‑work (whether satisfaction is decided from the description alone or requires observing executed work and carriers).
 
 Operational summary (quadrant → canonical claim layer in the stack):
 * **L** (Laws & Definitions) → `Signature.Laws` (truth‑conditional semantics, in‑description)
-* **A** (Admissibility & Gates) → `Mechanism.AdmissibilityConditions` (runtime entry predicates; a predicate may check a current permission result but is not that permission)
-* **D** (Deontics) → duty/recommendation/prohibition claims cite `A.2.8 U.Commitment`; strong/weak permission, exercise, non-violation, and conflict claims cite the exact `A.2.8.PER` result; either may reference `E-*` without becoming evidence
-* **E** (Work‑Effects & Evidence) → Evidence-and-carriers (work‑adjudicated effects tied to carriers and measurement conditions)
+* **A** (Admissibility & Gates) → `Mechanism.AdmissibilityConditions` (runtime entry predicates; a predicate may consume an exact grant or finding selected by `A.6.B:8.4.1`, but it neither creates nor resolves that object)
+* **D** (Deontics) → accountable A.2.8 claims and `A6-AW-NORM-GRANT`
+* **E** (Work-Effects & Evidence) → actual-occurrence, evaluated-finding, and evidence claims, including the applicable E-side `A6-AW-*` row
 
 Atomicity rule:
 
@@ -171,16 +164,16 @@ Micro‑template: **Atomize → Classify → Place → Bind to EntityOfConcern, 
 1. **Split** the sentence into atomic claims (one logical role each).
 2. **Assign** each claim to exactly one quadrant (L/A/D/E) using the matrix.
 3. **Place** each claim into its correct section or publication form (stack layer + section).
-4. **Anchor A.7:** for each claim, name the primary A.7 side it is *about* (`EntityOfConcern`, Description episteme, or publication carrier) and make the binding branch-specific: an `A.2.8 U.Commitment` `D-*` claim names its accountable role assignment, role value, or admitted acting system; an `A.2.8.PER` `D-*` claim cites the exact selected permission object and preserves its own participants and references; an `E-*` claim names its carriers.
+4. **Anchor A.7:** name what each claim is about. For permission-looking wording, bind the direct object and participants required by the selected `A6-AW-*` row; the owner family never supplies the quadrant.
 5. **Register:** add the atomic claim to the Claim Register (if used) and ensure every downstream face references the claim by ID rather than paraphrasing.
 
 Action outputs after classification:
 
 - implement or repair an admissibility predicate when the claim being made is `A-*`;
-- assign, remove, or clarify an accountable role assignment, `U.Commitment`, or exact `A.2.8.PER` permission result when the claim being made is `D-*`;
-- add, repair, or expose evidence-carrier instrumentation when the claim being made is `E-*`;
+- repair the accountable subject or direct object named by a D claim; for permission-looking wording, perform only the action required by the selected `A6-AW-*` row;
+- recover the exact actual occurrence, evaluated finding, or evidence path named by an E claim; use the selected E-side `A6-AW-*` row when permission wording is current;
 - publish or update an MVPK face that cites L/A/D/E claim IDs rather than paraphrasing them;
-- reopen an `A.21` gate decision, `A.20` constraint-validity witness, `A.2.9` speech act, `A.2.8` commitment, `A.2.8.PER` grant/finding/exercise/conflict result, `A.10` evidence relation, or `B.3` assurance claim when the L/A/D/E-classified statement is being used beyond boundary wording;
+- reopen the exact direct owner when the classified statement is used beyond boundary wording; the selected `A6-AW-*` row names the permission-side owner;
 - downgrade the visible wording to cue use or source-finding only when the exact source is missing;
 - keep the work claim or reliance claim local, reversible, or blocked only for the unsupported work claim or reliance claim while the source is repaired.
 
@@ -218,17 +211,21 @@ These examples are informative. They show how to keep mixed authority prose from
 * `D-API-1` (Quadrant D): the accountable provider or operator commits to maintain or enforce `A-API-1` under the named window and exclusions.
 * `E-API-1` (Quadrant E): rollback success is evidenced only by the named work traces, audit records, or metrics; a gate decision carrier can support gate passage, but not rollback execution by itself.
 
+Here “approved” creates no extra claim: `A-API-1` applies `A6-AW-GATE`, while any approval badge remains `A6-AW-SOURCE` unless another row's closing facts are present.
+
+For a filled grant/exercise/evidence case and its near-misses, use `A.6.B:8.4.5.4`. It applies `A6-AW-NORM-GRANT`, `A6-AW-EXERCISE`, and the separate A.10 evidence claim by value; do not reproduce the owner model here.
+
 Then:
 - if a user is deciding whether the wording may guide action, enter `A.15`;
 - if evidence, currentness, or provenance is live, attach the `A.10` evidence relation;
 - if trust, readiness, compliance, or release confidence is being raised, build the `B.3` assurance tuple;
 - if an actual gate decision or gate passage is asserted, cite `A.21` `OperationalGate(profile)`, `GateDecision`, and `DecisionLogRef`;
 - if a flow witness or constraint witness is asserted, cite `A.20` `ConstraintValidity` status or witness;
-- if an exact strong/weak permission, exercise, non-violation, or conflict result is asserted, cite the selected `A.2.8.PER` object and its governing references; an `A-*` predicate or gate decision does not substitute for it;
-- if release, deployment, rollback, or execution work is asserted, cite `A.15.1` dated `U.Work` occurrence plus its `A.10` evidence carrier relation;
+- if a permission-looking claim is asserted, use the selected `A6-AW-*` row and its direct owner; an entry predicate or gate decision does not substitute for another row;
+- if release, deployment, rollback, or execution Work is asserted, cite the exact A.15.1 dated occurrence; then use only the applicable `A.15.1:4.6` row for an application result, A.15.PROD production branch, delivery/transfer relation, evaluation/acceptance relation, or A.10 evidence path. None is an intrinsic Work field;
 - if the phrase is only an action invitation or cue, keep it in `A.6.A`, `A.16`, or `A.16.1` according to the current kind.
 
-Policy-as-code, dynamic authorization, credential, register-backed status, provenance, attestation, and assurance practices support complementary parts of this split: policy engines support bounded authorization decisions; credentials support issuer, holder, verifier, and status claims; governing registers or status-source entries may carry role effects, status effects, permission, duty, or gate-state effects only when the bounded context gives that source such force; provenance and attestation support bounded origin or process claims; assurance practice supports claim-argument-evidence confidence claims. None of them lets wording, a displayed credential, a register excerpt, a provenance label, or a schema cue stand in for the subject named by value, requested policy operation or work class, affected resource or work target, context, policy or gate version, evidence refs, validity or revocation window, gate decision, or work occurrence needed for work use or reliance use.
+Policy engines, credentials, registers, provenance, and attestations can supply policy decisions, source claims, currentness, or evidence. Start a visible permit, badge, or registry value at `A6-AW-SOURCE`; move to another branch only when its named direct object and participants are independently established.
 
 #### A.6:4.3 - View membership needs exact viewpoint conformance
 
@@ -238,26 +235,30 @@ A disciplined stack therefore requires:
 
 * Every published face use identifies the exact selected episteme, the exact viewpoint episteme through `U.ViewpointRef`, the publication occurrence, the form, and the carrier. The face class is not any of those objects.
 * Calling the selected episteme a `U.View` requires E.17.0 conformance; a face label, viewpoint reference, projection history, or publication does not establish it.
-* Per **E.17** (“no new semantics”), a face **MUST NOT** introduce new semantic commitments or permission results beyond the boundary’s **canonical L/A/D/E-classified claim set** (the authoritative `L-*`, `A-*`, `D-*`, and `E-*` statements at their canonical locations). A face **MAY** add informative explanation, examples, and cross‑references, provided they are clearly marked as informative. Any **normative** sentence on a face **MUST** cite the L/A/D/E claim ID(s) and direct object it depends on (or be moved into the canonical claim set); paraphrase is allowed only as explicitly informative text.
+* Per **E.17** (“no new semantics”), a face **MUST NOT** introduce a new semantic commitment or any new object or claim selected through `A6-AW-*`. A face **MAY** add informative explanation, examples, and cross-references. Every normative sentence cites the canonical L/A/D/E claim ID and direct object or moves into the canonical claim set.
 * Per **E.17** and **publication-face and publication-form discipline** (face‑kind closure), a publication package that claims MVPK alignment **MUST NOT** mint additional MVPK face kinds (e.g., “EvidenceCard”, “NormsCard”) as if they were first‑class kinds; if you need local headings, keep them as sections within the canonical face kinds.
 
 #### A.6:4.4 - “Contract” unpacking: avoid assigning agency to epistemes
 
-When practitioners say “the API contract”, they usually compress multiple distinct things into one word. The governing split is the **A.6.C Contract Bundle**: promise content, utterance package or speech act, a deontic position whose commitment and permission branches stay separate, and work plus evidence. Boundary engineering keeps that split inside the L/A/D/E claim set:
+When practitioners say “the API contract”, they usually compress several independently optional objects into one word. Use **A.6.C** to ask the four plain questions—what was promised, what was said or instituted, what governance position obtains, and what actually happened—then use `A.15.1:4.6` to separate the dated Work from any result, production, delivery/transfer, evidence, or acceptance claim.
 
 * **Promise content (promise content; `U.PromiseContent`, A.2.3):** what is promised to be made available to eligible consumers — **a promise, not execution** (`U.Work`).
 * **Utterance package (published descriptions + instituting act):** what is said and published and versioned (signature or mechanism descriptions plus MVPK faces), plus the `U.SpeechAct <: U.Work` that published or approved it when provenance matters (A.2.9).
 * **Commitment (deontic commitment relation; `U.Commitment`, A.2.8):** what an accountable role assignment, `U.Role`, or admitted acting system is obligated, recommended-as-duty, or prohibited to do (often: to satisfy a promise content).
-* **Permission (`A.2.8.PER`):** an exact strong grant, weak non-prohibition/non-violation finding, actual exercise relation, or conflict finding. It is neither a commitment modality nor an entry predicate.
-* **Work + Evidence (adjudication substrate; `U.Work` + carriers):** what actually happens and what carriers and traces can adjudicate commitments, permission exercise or non-violation findings when current, and operational guarantees.
+* **Permission-looking claim:** do not make `Permission` a bundle part or quadrant. Select one `A6-AW-*` row for each atomic claim and cite its direct object.
+* **Performed Work (`A.15.1`):** whether one exact dated Work occurrence happened, with its performer system, covering assignment, enacted method, extent, and containing system. This claim supplies no result, delivery, or acceptance by itself.
+* **Result or consequence (`A.15.1:4.6` dispatch):** only when current, name the exact A.6.1 application/result binding or subject-specific `WorkResultRelation`, A.15.PROD production branch, A.3.4 change, evaluation result, delivery/transfer relation, or acceptance relation.
+* **Evidence (`A.10`):** only when a receiving use relies on one of those claims, name the claim-bound evidence path and carrier. Evidence supports that claim; it creates neither Work nor its result.
 
 In A.6 terms:
 
 * The **signature** is the *utterance substrate* for the boundary; it is not itself a promiser or obligor (A.7).
-* Deontic claims belong to accountable role assignments, role values, admitted acting systems, or exact permission beneficiaries. Duty/recommendation/prohibition uses `D-*` plus `U.Commitment`; strong/weak permission, exercise, non-violation, and conflict use `D-*` plus the exact `A.2.8.PER` result. Both reference `L-*`, `A-*`, or `E-*` by ID without collapsing into them.
-* Operational “guarantees” are empty rhetoric unless they are classified as either **L** (truth-conditional law), **D** (accountable commitment or exact permission result), or **E** (measured property with evidence).
+* Deontic claims use A.2.8 for accountable duties or commitments and `A6-AW-NORM-GRANT` for the current norm/grant branch. Other permission-looking claims keep the placement and object named by their selected row.
+* Operational “guarantees” are empty rhetoric unless each atomic claim is classified as **L** (truth-conditional law), **A** (entry predicate), **D** (accountable commitment or current grant), or **E** (actual exercise, evaluated result, work effect, or measured property with evidence).
 
-This paragraph is a compact reminder; the reusable expansion (including “Service ≠ Work” discipline, claim‑ID link hygiene, and MVPK face projection rules) is **A.6.C — Contract Unpacking for Boundaries**.
+**Compact optional-object replay.** `SVC-DEPLOY-1` states promise content. Admitted system `ReleaseManager-4` performs `SA-4711 : U.SpeechAct` under `ReleaseManager-4@ReleaseShift`; the exact policy may institute `COM-4711 : U.Commitment` or `PER-4711 : GrantedPermissionRelation@Context`. Later admitted system `Operator-7` performs `DeployRun-4711 : U.Work` under its covering assignment. If the application returns `ReleaseArtifact-4711`, cite the exact A.6.1 result binding or an already governed `WorkResultRelation`; if that artifact is delivered, cite a separately obtaining subject-owned transfer relation; if acceptance is claimed, cite the criterion, evaluation Work/result, and acceptance relation. An A.10 path may support whichever one of those claims is relied on. Omit every absent object: the Work can occur without a result, delivery, acceptance, or evidence-use claim.
+
+This paragraph is a compact reminder; the reusable expansion and the same `A.15.1:4.6` dispatch belong in **A.6.C — Contract Unpacking for Boundaries**.
 
 #### A.6:4.5 - Where statements go (classification examples)
 
@@ -276,7 +277,8 @@ The table below intentionally uses near‑everyday spec phrases. The same visibl
 | `D-3` | “Operators **SHOULD** rotate keys every 90 days.” | D | Norms (role-assignment obligation; link to role and method claim IDs where applicable) | Object |
 | `D-4` | “Implementers **MUST** expose audit‑log carriers via endpoint `/audit`.” | D | Norms-and-commitments (exposure duty) *about carriers* | Carrier |
 | `D-5` | “The vendor commits to `99.9%` availability over window `T` (SLA).” | D | Commitments and SLA (identify committing role assignment or admitted acting system, window, exclusions) | Object |
-| `E-1` | “When a state change occurs, an `AuditRecord` carrier is produced and can be observed in the audit stream.” | E | Evidence and observability: expected trace semantics; bind to carriers + conditions | Carrier |
+| `E-1` | “`LedgerBalance-L17` changed from 80 to 65 across interval `T` under the stated account-continuity rule.” | E | A.3/A.3.4 actual transformation claim; no Work is inferred from the delta alone | Object |
+| `E-1-EVID` | “`AuditRecord-L17` evidences `E-1` for audit use under the stated source, window, and A.10 path.” | E | Evidence relation and carrier for the already named change | Carrier |
 | `D-6` | “Operators **MUST** retain audit‑log carriers for 30 days.” | D | Retention policy (deontic) *about carriers* | Carrier |
 | `E-2` | “`latency_p95 ≤ 200ms` under workload `W` as measured by carrier `LatencyMetricSeries` from collector `C`.” | E | Evidence claim with measurement conditions | Carrier |
 
@@ -291,8 +293,8 @@ Notes:
 These are *writing diagnostics*, not tool requirements. They exist to keep the mental model crisp.
 
 - **RFC keyword inside Definition, invariant, or admissibility predicate** → classification error (rephrase as predicate; move obligation to `D-*`).
-- **`E-*` without (carrier + measurement conditions + viewpointRef)** → incomplete evidence claim (cannot be adjudicated).
+- **`E-*` with no exact actual occurrence or evaluated predicate, or with a carrier but no evidence relation for the claimed use** → incomplete effect/evidence claim. Ground Work through A.15.1 only when it actually obtains; otherwise use A.3/A.3.4 or the exact interaction/causal owner. A carrier supports the claim but does not create the effect.
 - **`D-*` that re-states an `A-*`/`L-*` predicate instead of referencing its ID** → drift risk (prefer “MUST satisfy `A-…`”).
-- **A face introduces new L/A/D/E content not present in underlying Signature and mechanism** → view-fork (make it informative only, or move the deontic result—`U.Commitment` or exact `A.2.8.PER` result—to its direct owner and cite it from the underlying signature or mechanism publication).
+- **A face introduces new L/A/D/E content not present in the canonical claim set** → view-fork (make it informative only, or repair the exact direct object and classify its claim: duty/commitment/grant in D; exercise/evaluated finding/evidence in E; gate in A).
 - **“The system or service SHALL …” where no accountable role assignment or admitted acting system is named** → likely misclassified deontic (rewrite as `E-*` behavior + `D-*` duty on implementers and operators).
 

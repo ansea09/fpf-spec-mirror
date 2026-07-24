@@ -6,17 +6,18 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 84561
-line_end: 84602
+line_start: 85017
+line_end: 85060
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.3.5"
   - "C.13"
@@ -27,6 +28,7 @@ dependencies:
   - "E.14"
   - "E.17.0"
   - "E.21"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.24.UK"
@@ -42,7 +44,9 @@ keywords:
 
 Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their relation-participant meanings and admitted actual-participant kinds, reusable declarations, and neighboring governing patterns coherent.
 
-On first reading, distinguish four outcomes. A durable ontic is a reusable ontology unit whose governing pattern states its identity and core relations for dependent FPF use. A bounded local episteme is a claim-bearing `U.Episteme` that coordinates already governed entities and relations for one named use. Direct governing-pattern use means relying on those existing patterns without adding another ontology unit. Quote-only or reduced use keeps a source expression available without giving it FPF kind or governing force.
+On first reading, expect two outputs rather than guessing a branch. First characterize the current candidate or source claim and run the existing-governor, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already governed claims in a bounded local episteme, rely directly on current governing patterns, or stop unresolved. Record the **source-use status** independently: not current, quote-only, reduced use, or a selected stronger source use with its exact provenance. Source-use status can accompany any resolved ontology disposition; it is not a fourth ontology branch. Use source-only as a stop only when no governed payload has been selected.
+
+A durable ontic is a reusable ontology unit whose governing pattern states its identity rule and minimal governed relation set for dependent FPF use. A bounded local episteme is a claim-bearing `U.Episteme` that coordinates already governed entities and relations for one named use. Direct governing-pattern use relies on those existing patterns without adding another ontology unit. An unresolved stop retains the inquiry without pretending that one of those three payload dispositions has been selected.
 
 Typical, non-exhaustive working situations include:
 
@@ -50,15 +54,15 @@ Typical, non-exhaustive working situations include:
 - a source expression or project-side expression keeps pointing to several FPF values at once;
 - a draft ToC row names a calculus or object family, but no current pattern carries its governing meaning;
 - a subject pattern begins to carry local slot-relation doctrine that other patterns also need;
-- a proposed subject needs one core direct relation kind and several governing patterns to remain coherent for use.
+- a proposed subject needs one stable identity, constitution, or recognition rule plus the smallest set of governed relations that dependent use must keep coherent.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.Ontic`, the durable action-facing ontology unit. The work governed here is the ontic-introduction decision about whether a candidate subject needs such an ontic, remains claims in a bounded local episteme under C.2.1, is already handled by existing governing patterns, or stays quote-only or reduced-use source wording. The decision episteme describes and justifies that choice; it is not part of `U.Ontic`.
+**Primary EntityOfConcern.** The pattern governs `U.Ontic`, the durable action-facing ontology unit. Each particular ontic-introduction decision episteme still needs one exact EntityOfConcern selected by its ontology disposition: the selected ontic, the exact object handled by direct governing patterns, one independently governed object that every bounded-episteme claim concerns, or—at an unresolved stop—the exact source episteme or expression entity whose inquiry remains open. The source-use status does not change that EntityOfConcern. The decision episteme describes and justifies the choices; it is not part of `U.Ontic`, and an unresolved phrase or topic list cannot be its EntityOfConcern.
 
 **Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether several nearby patterns are describing one ontic, several existing governed values, or only a compressed source expression. The downstream reader is the practitioner who needs the resulting subject pattern to say what can be done, claimed, relied on, repaired, compared, or stopped.
 
 **Working concern and viewpoint.** From the FPF-authoring viewpoint, preserve the subject's governing relations without duplicating kinds or promoting a claim-bearing episteme for one named use into durable ontology.
 
-**First useful move.** Decide whether the candidate subject needs a durable ontic, is already governed by existing patterns, needs only a bounded local episteme whose ClaimGraph states the claims required by one named work or decision, or remains a quote-only or reduced-use source expression.
+**First useful move.** State the working expression or current claim, recover its exact EntityOfConcern and named receiving use, and record source provenance when current. Then run Checks 1–4: reuse existing governors, test exact identity, recover the needed direct relations or constitution, and test dependent reuse without duplicate ontology. Fill the ontology disposition only from those results. If neither a governed payload nor an exact source episteme or expression entity is identifiable, keep only inquiry material and do not fabricate a decision episteme.
 
 **What goes wrong if missed.** FPF grows shadow ontology. The same project concern becomes a method in one place, a mechanism in another, a record in a third, and a local checklist in a fourth. Later uses then repair visible symptoms instead of settling the underlying kind, slot, and governing-pattern question.
 
@@ -69,8 +73,8 @@ Main gains:
 - it prevents duplicate ontology by recovering the direct entities and relations first, then reusing their governing patterns;
 - it replaces negative catalogues with positive relation discipline: state the direct relation kind, relation-participant meanings, admitted actual-participant kinds, obtaining condition, and occurrence-identity rule; add `RelationSignature` and `SlotSpec` declarations only when a receiving use needs reusable typing;
 - it gives dependent patterns one stable durable ontic and one governing pattern to cite without copying direct relation rules or reusable SlotSpecs;
-- it separates durable ontic introduction from bounded local epistemes, direct governing-pattern use, other claim-bearing assertion and description epistemes, publication occurrences, publication forms, presentation carriers, views, representations, and quote-only source expressions;
-- it makes wording follow ontology: each local term names the identified entity, named direct relation kind, declaration episteme, claim-bearing episteme, publication occurrence, selected publication form, identified presentation carrier, governed view, or C.29 representation under its governing pattern.
+- it keeps each current world-side participant, relation occurrence, reusable declaration, claim-bearing episteme, publication object, view or representation, and source expression under its direct owner; `E.24:4.3a` is the single typed object map;
+- it makes wording follow the one mapped object selected by the current claim instead of repeating the surrounding inventory.
 
 **Not this pattern when.**
 

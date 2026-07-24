@@ -6,12 +6,12 @@ section_id: "A.6.REL:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__004_forces.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:3 — Forces"
-line_start: 10487
-line_end: 10499
+line_start: 10651
+line_end: 10663
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -31,8 +31,8 @@ keywords:
 | Relation obtaining vs predicate satisfaction | The world-side relation obtains; the actual relation participants, considered under their participant meanings, satisfy the truth-valued condition stated by the semantic predicate. Conflating these substitutes a formal expression for the obtaining relation. |
 | Relation kind vs semantic predicate | A relation kind classifies occurrences under an identity rule; a predicate states a satisfaction condition for the jointly considered participants. One is not a synonym for the other. |
 | Occurrence vs assertion or representation | An occurrence can exist before anyone asserts, describes, explicitly individuates, names, references, or represents it. |
-| Participant identity vs repeated occurrences | Participant identities may suffice for some relation kinds, while repeated assignments, assembly episodes, and exact production, delivery, acceptance, or evaluation relations may need an additional domain discriminator supplied by their own patterns. |
+| Participant identity vs repeated occurrences | In `U.RoleAssignment`, the same four participants can recur after a demonstrated non-assignment gap; another direct relation may use a different discriminator only when its own pattern declares one. |
 | Construction vs description | A system can create a relation occurrence while performing constitutive work when the direct construction rule says so; that work occurrence may contribute to identity. Producing a row or description episteme is not constitutive by form. |
-| Cross-domain reuse vs universal reification | Formal, physical, social, and engineering relations do not share one universal truth-maker or representation form. |
+| Direct-owner variation vs universal reification | A.6.REL supplies no universal truth-maker, occurrence-identity discriminator, or representation form. Each direct relation owner supplies its own obtaining and identity settlement; each concrete representation remains under its direct representation owner and explicit correspondences. |
 | Stable reference vs false creation | Identifiers enable later reference, but identifier assignment neither creates the occurrence nor makes the direct relation obtain. |
 

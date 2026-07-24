@@ -6,12 +6,12 @@ section_id: "C.22.PFR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__011_rationale.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:10 — Rationale"
-line_start: 50597
-line_end: 50602
+line_start: 51039
+line_end: 51044
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,16 +26,17 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual condition"
-  - "actual problematic-for relation"
-  - "applicability predicate"
-  - "problem-for entity"
-  - "relation occurrence"
+  - "actual adverse condition"
+  - "actual adverse episode"
+  - "assessment and evidence separation"
+  - "condition-to-predicate input rule"
+  - "exact problem-for entity and use"
+  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:10 - Rationale
 
 Applicability is independently useful: it states which predicate applies to which entity and use under which declared criterion-applicability window even when no adverse condition currently exists. Keeping those four participants canonical there prevents disagreements between duplicated fields, while maximal continuous actual obtaining distinguishes repeated applicability occurrences without adding a fifth participant. PFR adds the exact missing fact: the named actual condition is adverse for that applicability occurrence.
 
-The maximal continuous adverse interval resolves a genuine identity collision. Participant references alone cannot distinguish adverse A from adverse C after demonstrated recovery B. Assessment identity cannot solve the problem because several assessments can support one episode and an unnoticed episode can exist before assessment. A derived temporal extent distinguishes occurrences without importing epistemic support into world-side identity.
+The maximal continuous adverse episode resolves a genuine identity collision, but its completed interval value is not a stable reference key. Participant references plus actual adverse inception retain one occurrence reference before and after closure; the derived end completes its extent. Actual non-adverse behavior ends the occurrence and later renewed adverse truth starts another. Assessments can support, refute, or leave those boundary claims unresolved, but they neither supply the world-side boundary nor create the occurrence.
 

@@ -6,24 +6,27 @@ section_id: "A.2.8.PER:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 6005
-line_end: 6016
+line_start: 6038
+line_end: 6051
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.5"
   - "A.2.8"
   - "A.2.9"
+  - "A.6"
   - "A.6.B"
   - "A.6.C"
+  - "F.6"
   - "U.Work"
 keywords:
-  - "actual non-violation finding"
-  - "permission exercise"
+  - "checked non-violation"
+  - "exact policy rule or decision result"
+  - "matching dated-work exercise"
   - "permission or prohibition conflict"
   - "policy-valid strong grant"
   - "weak non-prohibition finding"
@@ -39,5 +42,7 @@ keywords:
 | Gate pass as authorization | Keep `GateDecision` in `A.21`; cite a separate grant/conflict result when the gate actually consumes one. |
 | Permission as readiness or capability | Keep readiness in `A.15.5` and capability in `A.2.2`; permission supplies neither. |
 | Work “violates permission” | Test exercise coverage and any separately governed prohibition; uncovered work is not a permission violation by default. |
+| Generic findings for action match or beneficiary binding | Test the Work against the action specification and the performer against the beneficiary branch; cite the already obtaining assignment or on-behalf-of relation and add separate evaluation evidence only when a receiving use needs it. |
+| Precedence “owner” as resolution | Apply a policy rule that itself selects the outcome, or name the authorized system's dated decision work and current conflict-resolution result; a role, office, assignment, or policy title alone decides nothing. |
 | Hidden generic beneficiary kind | Keep the closed reference union and branch-specific eligibility checks. |
 

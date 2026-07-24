@@ -6,22 +6,19 @@ section_id: "A.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8905
-line_end: 8918
+line_start: 9015
+line_end: 9028
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2.3"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
-  - "A.20"
-  - "A.21"
   - "A.6"
   - "A.6.0"
   - "A.6.1"
@@ -32,13 +29,11 @@ dependencies:
   - "A.7"
   - "B.3"
   - "C.26"
-  - "C.26.1"
   - "C.28"
   - "E.10"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
-  - "E.17.EFP"
   - "E.19"
   - "E.8"
   - "F.18"
@@ -46,23 +41,21 @@ dependencies:
   - "U.Mechanism"
   - "U.Signature"
   - "U.View"
-  - "U.Work"
 keywords:
-  - "A.6.B L/A/D/E claims"
   - "Confuses deontics with mathematical admissibility"
-  - "MUST"
   - "Rewrite as declarative predicate"
-  - "SHOULD"
-  - "and MAY)"
-  - "authority-wording split"
-  - "boundary"
-  - "boundary claim-classification fields"
+  - "Work versus non-Work effect"
+  - "acceptance"
+  - "actual occurrence"
+  - "and evidence"
+  - "atomic L/A/D/E claims"
+  - "delivery"
   - "in invariants"
-  - "probe/order/frame/export/state-reading claims"
-  - "promise/commitment/API/policy wording"
+  - "publication face"
   - "reference predicate IDs from CC when needed"
-  - "register-backed status boundary"
-  - "signature stack"
+  - "separate result"
+  - "signature and mechanism declarations"
+  - "six-way authority-word branch"
   - "undermines auditability"
   - "“MUST” appears inside Definition: blocks"
 ---
@@ -74,10 +67,10 @@ keywords:
 | **Gate‑as‑law**                | Preconditions written as “laws” in the signature                | Breaks substitution; violates A.6.0’s separation of signature vs mechanism gates | Move predicates to Mechanism.AdmissibilityConditions; keep signature laws truth‑conditional. |
 | **RFC‑keywords in invariants** | “MUST” appears inside `Definition:` blocks                      | Confuses deontics with mathematical admissibility; undermines auditability       | Rewrite as declarative predicate; reference predicate IDs from CC when needed.               |
 | **Paraphrase drift**           | Same constraint restated in multiple faces with new wording      | Creates hidden divergence; breaks L/A/D/E claim-classification discipline and evidence accountability | Use `…-*` IDs + Claim Register; faces reference IDs rather than restating text.              |
-| **Interface‑as‑promiser**      | “The interface promises…” without identifying an accountable role assignment or admitted acting system | Ontological category error; interface descriptions do not commit | Apply **A.6.C**: recover promise content, speech act or utterance package, explicit `U.Commitment`, accountable subject, and work and evidence adjudication; use F.18 only if the recovered terms need durable names. |
-| **Evidence‑free guarantees**   | “Guaranteed latency” without measurement and evidence account       | Effects exist only in work; without carriers it’s non‑testable                   | Bind to carriers (metrics and traces) and specify the evidence carriers and logged records.       |
+| **Interface-as-promiser and Work-result bundle** | “The interface promises delivery” or “A.15.1 delivered the result” | A description is made an agent, while Work, result, transfer, evidence, and acceptance lose their own identity conditions | Use A.6.C for promise/utterance/governance; A.15.1 for dated Work; then exactly one applicable `A.15.1:4.6` row for each separate result, delivery, evidence, or acceptance claim. |
+| **Carrier-as-effect guarantee** | “Guaranteed latency” or “the log proves the change” with no exact actual occurrence and evidence relation | A description or carrier is treated as creating Work, change, or another effect; natural or formal change may also be forced into Work | Name the actual occurrence first: A.15.1 for grounded Work, A.3/A.3.4 or the exact interaction/causal owner for non-Work change; then add the minimum A.10 path needed for reliance. |
 | **Face called a view by form** | A face, diagram, query result, or publication form is called `U.View` without exact E.17.0 conformance | Appearance or construction history replaces the dependent-kind condition | Recover the exact candidate and viewpoint epistemes, test E.17.0 conformance, and keep optional A.6.3 construction and publication relations separate. |
 | **System‑as‑accountable-subject deontics** | “The system or service SHALL …” used where no accountable role assignment or admitted acting system is named | Blurs behavior semantics with enforcement; hides responsibility                   | Rewrite as (`E-*`) behavior and evidence semantics + (`D-*`) duty on implementers and operators.     |
 | **One‑doc monoculture**        | Same document mixes laws, gates, duties, and evidence           | Evolvability collapses; updates become all‑or‑nothing                            | Use the stack: separate Signature, Mechanism, Norms, and Evidence faces; classify by matrix.           |
-| **Deontic claim laundering or admissibility or gate overread** | "Allowed", "authorized", "approved", "certified", or "guaranteed" used as work permission, reliance permission, evidence, assurance, gate passage, or work occurrence | One word silently carries several claim families and hides missing source support | Split through `L-*`, `A-*`, `D-*`, and `E-*`; use `A.2.8.PER` for the exact permission result, `A.2.8` for commitment, and `A.15`, `A.10`, `B.3`, `A.20`, or `A.21` only when that exact work, reliance, evidence, assurance, constraint, or gate claim is live. |
+| **Authority-word overread** | “Allowed”, “approved”, or a visible permit is treated as a complete authorization result | The word hides which claim exists and which source grounds it | Select one `A6-AW-*` row; if no row's closure condition is met, keep only `A6-AW-SOURCE` or stop the unsupported use. |
 

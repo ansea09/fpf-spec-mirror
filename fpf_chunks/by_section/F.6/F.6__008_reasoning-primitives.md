@@ -6,59 +6,61 @@ section_id: "F.6:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__008_reasoning-primitives.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:6 — Reasoning Primitives"
-line_start: 88135
-line_end: 88159
+line_start: 88726
+line_end: 88746
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.15"
   - "A.15.1"
+  - "A.15.4"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.3.1"
   - "A.3.2"
-  - "A.6.5"
+  - "A.6.REL"
   - "E.10"
-  - "E.10.ARCH"
+  - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
   - "U.Role"
   - "U.RoleAssignment"
+  - "U.Work"
 keywords:
-  - "asserting status"
-  - "conceptual moves"
-  - "enactment"
-  - "role assignment"
+  - "actual performing U.System"
+  - "assignment coverage"
+  - "exact U.RoleAssignment"
+  - "performedUnderAssignment"
+  - "separate assertion and evidence"
+  - "world-side attribution"
 ---
 
 ### F.6:6 - Reasoning Primitives
 
 ```text
-RoleDescription RD describes Role R in Context C
-  and Holder H is admitted for R in C
-  -> candidate RoleAssignment(H, R, C).
+RoleAssignment RA obtains
+  and U.Work W obtains
+  and RA.HolderSystemSlot actually performs W under RA.RoleValueSlot
+  and the assignment predicate for RA obtains throughout the attributed work interval
+  -> performedUnderAssignment(W, RA) obtains.
 ```
 
 ```text
-RoleAssignment RA is admitted
-  and Work W is a current U.Work occurrence
-  and W performedBy RA is admitted
-  -> RoleEnactmentFact(W, RA) may be named.
+An attribution assertion lacks adequate current support
+  -> reliance on the assertion is unresolved;
+  -> do not infer that performedUnderAssignment(W, RA) is false.
 ```
 
 ```text
-Source episteme E is used as evidence, standard, requirement, source, publication, or status bearer
-  -> no RoleAssignment holder is recovered from that use alone.
-```
-
-```text
-Role-like label L comes from another bounded context
-  -> no assignment substitution without F.9 bridge and local A.2.1 check.
+A source episteme names a performer or role
+  -> do not claim that performedUnderAssignment obtains until exact W and RA are recovered.
 ```
 

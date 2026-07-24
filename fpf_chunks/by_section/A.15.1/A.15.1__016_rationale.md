@@ -6,12 +6,12 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13.0 — Rationale"
-line_start: 24694
-line_end: 24697
+line_start: 24990
+line_end: 24993
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -37,6 +37,7 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
+  - "F.6"
   - "U.Capability"
   - "U.Method"
   - "U.MethodDescription"
@@ -47,23 +48,19 @@ dependencies:
   - "U.Work"
   - "U.WorkPlan"
 keywords:
-  - "U.Work admitted kind"
-  - "actual binding"
-  - "affected referent"
-  - "enactsMethod"
-  - "episode"
-  - "no automatic transformation"
-  - "occurrence assertion and record separation"
-  - "overlap"
-  - "performed resource-use fact"
-  - "performedBy"
-  - "retry"
-  - "work continuity"
-  - "work part"
+  - "actual performer U.System"
+  - "admitted U.Work kind"
+  - "containing system"
+  - "covering U.RoleAssignment"
+  - "enacted method"
+  - "optional direct bindings and resource use"
+  - "performedUnderAssignment"
+  - "separate result or consequence"
+  - "temporal extent"
   - "world-side dated occurrence"
 ---
 
 ### A.15.1:13.0 - Rationale
 
-`U.Work` is retained as the admitted kind for dated Work occurrences because method, method description, work plan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence; an assertion or description about it is a separate episteme. The same wording in a source episteme, publication occurrence, method description, or work plan can point to several of these objects, but performed-work claims need occurrence grounding, temporal bounds, role assignment, enacted method, and affected referent rather than a convenient method or plan label. This keeps work mereology, resource aggregation, and P2W carry-through grounded in what happened.
+`U.Work` is retained as the admitted kind for dated Work occurrences because performer system, role assignment, method, method description, work plan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence; each actual performer is an admitted `U.System` acting under an exact obtaining `U.RoleAssignment`, and an assertion or description about the work is a separate episteme. The same wording in a source episteme, publication occurrence, method description, or work plan can point to several of these objects, but performed-work claims need occurrence grounding, temporal bounds, actual performer system, covering assignment, enacted method, and containing system rather than a convenient method, assignment, plan, affected-object, or delta label. Add direct work-to-referent, binding, resource-use, or change facts only when their own relations obtain. This keeps work mereology, resource aggregation, and P2W carry-through grounded in what happened.
 

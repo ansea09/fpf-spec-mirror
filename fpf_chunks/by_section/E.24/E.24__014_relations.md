@@ -6,17 +6,18 @@ section_id: "E.24:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__014_relations.md"
-commit_sha: "0990ff1d1ccee4587b8f7e16e7a725a8edbe66b4"
+commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:8 — Relations"
-line_start: 85086
-line_end: 85094
+line_start: 85660
+line_end: 85668
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
   - "A.6.3"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
   - "B.3.5"
   - "C.13"
@@ -27,6 +28,7 @@ dependencies:
   - "E.14"
   - "E.17.0"
   - "E.21"
+  - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.24.UK"
@@ -40,9 +42,9 @@ keywords:
 
 ### E.24:8 - Relations
 
-- **Builds on:** `A.6.REL` for direct relation occurrence identity; `A.6.0` and `A.6.5` for reusable `RelationSignature` and `SlotSpec` declarations; and `C.2.1` for decision, assertion, and description epistemes.
+- **Builds on:** `A.6.REL` for direct relation occurrence identity, each direct relation pattern for relation-participant meanings, obtaining, applicability, and occurrence identity, and `A.6.RCD` for a residual needed claim or a derived-or-primitive candidate with its proposed direct subject settlement; `A.6.0` and `A.6.5` govern reusable `RelationSignature` and `SlotSpec` declarations, and `C.2.1` governs decision, assertion, predicate-definition, and description epistemes.
 - **Coordinates with:** `E.8` for pattern publication placement, `E.10` and `E.10.ARCH` for wording-use restoration, and `F.18` for durable naming after ontology is settled.
-- **Coordinates with:** `E.24.CD` for candidate detection before the ontic-introduction decision, `E.24.UK` for U-kind admission, and `E.24.PUB` for ontic-description and publication distinctions.
+- **Coordinates with:** `E.24.CD` for candidate detection before the ontic-introduction decision, `E.24.UK` for the `UKindAdmissionResult` output of the one shared `E24FamilySettlementDecision`, and `E.24.PUB` for ontic-description and publication distinctions. When both a new ontic and a new public U-kind are needed, E.24 and E.24.UK consume the same atomic decision inputs and neither treats the other's output as prior evidence.
 - **Coordinates with:** `E.17.0` for `U.View` membership, A.6.3 for optional viewing construction, `C.29` for mathematical representation, and the `E.14 -> B.3.5 -> C.13` chain for structural constructive grounding. Each ontic-introduction decision names any additional subject-specific governing patterns instead of treating this relation list as a registry.
 - **Coordinates with:** `A.19.ECS` for contested comparison of candidate dispositions, `E.9` and `E.9.DA` for recording and evaluating the authoring decision, and `E.21` for evaluating the resulting pattern. Those evaluation results do not become part of the selected ontic.
 - **Used by:** FPF authors when repeated relation and declaration material may need one durable ontic rather than direct governing-pattern use or claims coordinated only inside a bounded local episteme.
