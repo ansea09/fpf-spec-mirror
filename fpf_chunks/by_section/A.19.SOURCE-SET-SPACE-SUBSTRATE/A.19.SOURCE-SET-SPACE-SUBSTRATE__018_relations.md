@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__018_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:12 — Relations"
-line_start: 29204
-line_end: 29210
+line_start: 29247
+line_end: 29253
 dependencies:
   - "A.0"
   - "A.17"

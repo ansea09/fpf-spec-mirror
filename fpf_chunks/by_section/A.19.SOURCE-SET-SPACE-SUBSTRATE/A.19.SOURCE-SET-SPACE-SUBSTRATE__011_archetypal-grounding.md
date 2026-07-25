@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__011_archetypal-grounding.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:5 — Archetypal Grounding"
-line_start: 29061
-line_end: 29128
+line_start: 29104
+line_end: 29171
 dependencies:
   - "A.0"
   - "A.17"

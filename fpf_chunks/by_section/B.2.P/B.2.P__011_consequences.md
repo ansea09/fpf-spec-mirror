@@ -6,13 +6,14 @@ section_id: "B.2.P:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__011_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:8 — Consequences"
-line_start: 36762
-line_end: 36775
+line_start: 36902
+line_end: 36915
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.2.2"
@@ -23,6 +24,7 @@ dependencies:
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
@@ -38,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
@@ -53,5 +56,5 @@ Costs:
 
 - Ambiguous emergence-family phrases take one recovery step before use.
 - Some attractive umbrella claims become narrower direct-owner claims.
-- Old mnemonic labels may survive only as quoted source wording or reduced-use cues unless their current governed object is recovered.
+- Old mnemonic labels may survive only as quoted source wording or reduced-use cues unless the concrete thing or claim and its direct pattern are identified.
 

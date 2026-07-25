@@ -6,12 +6,12 @@ section_id: "E.10.D2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__004_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:3 — Forces"
-line_start: 74337
-line_end: 74345
+line_start: 74422
+line_end: 74430
 dependencies:
   - "A.7"
   - "C.2.1"

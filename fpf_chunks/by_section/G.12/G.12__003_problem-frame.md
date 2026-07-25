@@ -6,12 +6,12 @@ section_id: "G.12:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__003_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:2 — Problem frame"
-line_start: 99467
-line_end: 99479
+line_start: 99576
+line_end: 99588
 dependencies:
   - "A.19"
   - "C.18"

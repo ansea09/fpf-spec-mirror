@@ -6,12 +6,12 @@ section_id: "E.23:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__009_common-anti-patterns-and-repairs.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:8 — Common anti-patterns and repairs"
-line_start: 84683
-line_end: 84696
+line_start: 84768
+line_end: 84781
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

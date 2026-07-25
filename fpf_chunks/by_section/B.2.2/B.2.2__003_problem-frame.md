@@ -6,12 +6,12 @@ section_id: "B.2.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__003_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:1 — Problem Frame"
-line_start: 36833
-line_end: 36840
+line_start: 36966
+line_end: 36973
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,9 +40,9 @@ keywords:
 
 ### B.2.2:1 - Problem Frame
 
-`B.2` is holon-general. `B.2.2` is its system-result specialization.
+`B.2` is holon-general. `B.2.2` is its `U.System` specialization.
 
-A system-result MHT occurs when the result of whole reidentification is an acting physical or operational holon. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but the current claim now needs a result system with its own selected delimitation, objective, supervision or coordination, capability envelope, functioning relation, architecture claims, transformation participation, work occurrences, evidence, assurance, and temporal claims.
+A system-result MHT is current when B.2's exact candidate new whole is an acting physical or operational holon and the case needs that same whole to carry one or more separately governed system-level claims, such as delimitation, objective, coordination, capability, functioning, architecture, transformation, work, assurance, or time. The old constituent systems may remain parts, participants, resources, or interacting neighbors, but their claims do not automatically become claims about the candidate system.
 
-The pattern does not say that every collection of systems is a system MHT. It says how to carry the system ontic when B.2 has already left a whole-reidentification question and the result-kind admission is `U.System`.
+A collection of systems is not thereby a system MHT. B.2.2 carries B.2's existing-whole/new-whole comparison through complete A.1 recognition and the direct `U.System` criterion; it does not create a system-specific result object or record schema.
 

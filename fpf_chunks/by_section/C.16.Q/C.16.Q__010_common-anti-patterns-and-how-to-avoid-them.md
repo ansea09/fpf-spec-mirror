@@ -6,12 +6,12 @@ section_id: "C.16.Q:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 47623
-line_end: 47635
+line_start: 47708
+line_end: 47720
 dependencies:
   - "A.10"
   - "A.16"

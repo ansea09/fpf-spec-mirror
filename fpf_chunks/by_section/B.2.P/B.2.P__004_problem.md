@@ -6,13 +6,14 @@ section_id: "B.2.P:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__004_problem.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:2 — Problem"
-line_start: 36583
-line_end: 36593
+line_start: 36724
+line_end: 36734
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.2.2"
@@ -23,6 +24,7 @@ dependencies:
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
@@ -38,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
@@ -49,6 +52,6 @@ Without B.2.P:
 2. **Collections become systems by poetry.** A fleet, community, pool, or base is treated as an acting system because the phrase sounds collective.
 3. **Capability becomes MHT.** A new capability envelope or functioning relation is treated as a new whole without checking existing-whole explanations.
 4. **Mathematics becomes declaration.** A graph, scaling law, RG-like expression, benchmark jump, or MSPD score is treated as whole reidentification.
-5. **Old mnemonic titles become current owners.** Source labels such as `MET` or `MFT` hide whether the result is an episteme whole, capability and functioning evidence, or something else.
+5. **Old mnemonic titles become current owners.** Source labels such as `MET` or `MFT` hide whether the claim concerns an episteme whole, capability or functioning facts, evidence for those facts, or something else.
 6. **Semio-bias returns.** Publication, dashboard, model, or source interpretation claims displace the in-life holon or characteristic under concern.
 

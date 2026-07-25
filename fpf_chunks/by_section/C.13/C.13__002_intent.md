@@ -6,18 +6,20 @@ section_id: "C.13:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__002_intent.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:1 — Intent"
-line_start: 46069
-line_end: 46080
+line_start: 46132
+line_end: 46143
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,13 +29,13 @@ keywords:
 
 ### C.13:1 - Intent
 
-Provide a single, generative calculus for part–whole structure so that **all** structural relations in FPF are *constructed* (not merely declared) from three primitives and thereby inherit extensional identity by design. The calculus is hidden from day‑to‑day users behind relation aliases; its artefacts are traces that witness how a whole arises from its parts.
+Provide one minimal calculus for narrating three kinds of construction: how constituents assemble an integrated whole, how members form a collection, and how a bearer is distinguished under one facet as an aspect. The calculus records how already identified entities and obtaining relations support that named whole, collection, or aspect. It is not a second source of part-relation obtaining and does not make any of them exist by notation.
 
-Also known as *“Γₘ mereology”*, *“constructor‑based composition”*.
+Also known as *“Γₘ mereology”* and *“constructor-based composition”*.
 
 **Layer.** *calculus.*
-**Depends on.** Kernel only (no upward imports).
-**Consumed by.** CT2R‑LOG (B.3.5) Working‑Model alias logic and any FPF pattern that needs part–whole semantics. Compose‑CAL does **not** import alias definitions; it merely emits traces that others may reference.
+**Depends on.** A.14 and the direct part-relation patterns for participant meanings, obtaining, and occurrence identity; the direct kind pattern for the candidate whole and its identity or reidentification rule.
+**Consumed by.** A.1 when candidate holon recognition needs constructive assembly, B.3.5 when a named assurance use needs a structural grounding account, and subject patterns that need a compact construction narrative.
 
-Compose‑CAL introduces a **single construction operator Γₘ** with exactly three constructors—**sum**, **set**, **slice**—sufficient to build structural wholes, collections‑as‑wholes, and aspects **without** extending the Kernel’s type set. No “parallel” or “temporal slice” constructor is added. Every construction yields a **trace** that serves as the witness for structure. Human‑facing relations such as *ComponentOf*, *MemberOf*, *AspectOf* are defined elsewhere as **Working‑Model aliases** and are *grounded* in these traces; Compose‑CAL itself remains purely generative and extensional.
+Compose-CAL keeps exactly three narrative forms—`sum`, `set`, and `slice`. A materialized construction trace is a C.2.1 episteme about the construction facts. Its claims can designate exact entities, relation occurrences, rules, and identity conditions; the trace is neither the whole, collection, or aspect it describes nor a participant in the world-side part relations.
 

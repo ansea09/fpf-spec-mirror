@@ -6,12 +6,12 @@ section_id: "C.24:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__015_rationale.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:10 — Rationale"
-line_start: 51959
-line_end: 51967
+line_start: 52044
+line_end: 52052
 dependencies:
   - "A.1"
   - "A.15"

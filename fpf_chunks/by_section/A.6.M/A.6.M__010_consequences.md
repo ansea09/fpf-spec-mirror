@@ -6,12 +6,12 @@ section_id: "A.6.M:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__010_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:9 — Consequences"
-line_start: 17997
-line_end: 18011
+line_start: 18038
+line_end: 18052
 dependencies:
   - "A.10"
   - "A.20"

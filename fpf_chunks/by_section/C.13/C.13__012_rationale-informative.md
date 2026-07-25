@@ -6,18 +6,20 @@ section_id: "C.13:9"
 section_title: "Rationale (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__012_rationale-informative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9 — Rationale (informative)"
-line_start: 46231
-line_end: 46249
+line_start: 46312
+line_end: 46327
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,20 +29,17 @@ keywords:
 
 ### C.13:9 - Rationale (informative)
 
-**Why exactly three moves?**
-`sum`, `set`, and `slice` are jointly sufficient and minimally overlapping:
+**Why exactly three forms?**
 
-* **`sum`** creates an **integrated whole** from parts and thereby establishes **component** structure (assembly identity).
-* **`set`** creates a **collection‑as‑whole**; members are **parts of the collection** under member‑as‑part semantics, but **no component integration** is implied.
-* **`slice`** returns an **aspect as part** of its bearer (facet‑constrained, e.g., spatial/material); temporal facets are excluded here.
+`sum`, `set`, and `slice` keep three recurring practitioner questions apart:
 
-All three moves create new entities; **sum** is the only move that establishes **component** identity. Neither `set` nor `slice` changes the identity of their inputs, and `set` never upgrades membership to component status. Temporal coverage and method order are handled in their own planes.
+- `sum` asks how exact constituents and constructive relations assemble an integrated whole;
+- `set` asks which exact members form a collection under one collection identity rule;
+- `slice` asks which exact aspect is distinguished from one bearer under a governed facet.
 
-This separation mirrors long‑standing distinctions between composition, collection, and aspect, while enforcing **parsimony**: no additional constructors are introduced into the Kernel (C‑5). The calculus remains **notation‑agnostic**: its meanings are given in prose and mathematics; any diagrams are illustrative only, in line with the Notational‑Independence guard‑rail (E.5).
+The forms are intentionally small, but their inputs do not determine ontology by themselves. An assembly is more than a set of part names; a collection is not automatically a holon or agent; and a facet label is not an aspect occurrence. The direct patterns provide relation obtaining and occurrence identity, while the candidate's direct pattern decides whether the existing whole continues or a new whole must be identified.
 
-**Why constructive grounding lives outside the public relation layer.**
-FPF privileges **Working‑Model** relations as the canonical form for communication and design. Compose‑CAL supplies the **constructive shoulder** of the **Assurance Layer**: when authors choose `validationMode = axiomatic`, they narrate the whole as a `sum` of parts (with optional `set` and `slice` scaffolding) and point to that narrative via `tv:groundedBy`. This keeps the text readable while preserving a path to an assurance record with additional constructive evidence (B.3 family, Authoring Template).
+**Why traces remain epistemic.** A construction can obtain before anyone writes its account. A materialized trace is claim-bearing content used to inspect, communicate, or support that account. Evidence and assurance may warrant the claim, G.11 may govern the selected edition's currentness, and receiving work may rely or decline. None of those epistemic results changes the world-side assembly by itself.
 
-**Why order/time are out of scope.**
-Correctness‑by‑sequence and temporal coverage are orthogonal to **parthood**. Encoding them as parts breeds contradictions (e.g., “phase‑as‑component”). Compose‑CAL deliberately refuses any “serial/parallel/temporal constructor,” delegating such concerns to `Γ_method` and `Γ_time` and aligning with B.1’s flavour separation.
+**Why order, time, selected structure, and transformation composition are outside.** Method order and temporal extent answer different questions from parthood. A selected `U.Structure` is an organization of relations for a use, not automatically another holon. Entity construction also supplies no law by which several actual changes compose into one transformation. Keeping these stops explicit prevents an economical notation from becoming an ungoverned ontology.
 

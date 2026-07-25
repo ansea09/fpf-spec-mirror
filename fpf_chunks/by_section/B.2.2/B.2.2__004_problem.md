@@ -6,12 +6,12 @@ section_id: "B.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__004_problem.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:2 — Problem"
-line_start: 36841
-line_end: 36850
+line_start: 36974
+line_end: 36983
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,8 +43,8 @@ keywords:
 Without this specialization:
 
 1. **System identity stays on old parts.** The project keeps component assurance, component responsibilities, and component interfaces after the operating whole has changed.
-2. **System claims become rhetoric.** A group gets a collective name, but no result-system delimitation, objective, coordination, or capability evidence is named.
-3. **Supervision is overread.** A coordination mechanism is treated as a super-holon, safety evidence, or a complete system admission.
+2. **System claims become rhetoric.** A group gets a collective name, but no candidate-system delimitation, objective, obtaining coordination relation, or capability envelope is established.
+3. **Supervision is overread.** A coordination mechanism is treated as a super-holon, safety warrant, or complete system recognition.
 4. **Transformation is confused with containment.** One system changing another holon is treated as part-whole construction instead of transformation and work.
 5. **Architecture description replaces architecture.** Dashboards, diagrams, simulations, bills, and digital twins are treated as the operating system rather than descriptions of it.
 

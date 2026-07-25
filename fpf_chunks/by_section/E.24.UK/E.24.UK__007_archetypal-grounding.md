@@ -6,14 +6,17 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 86271
-line_end: 86318
+line_start: 86366
+line_end: 86422
 dependencies:
+  - "A.1.1"
   - "A.11"
+  - "A.2.6"
+  - "A.22"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
@@ -33,6 +36,7 @@ dependencies:
   - "E.24.PUB"
   - "F.18"
   - "U.MethodDescription"
+  - "U.Structure"
   - "U.View"
   - "U.Viewpoint"
 keywords:
@@ -40,7 +44,7 @@ keywords:
 
 ### E.24.UK:5 - Archetypal Grounding
 
-#### E.24.UK:5.0 - Four Replays Through One Decision Sequence
+#### E.24.UK:5.0 - Five Replays Through One Decision Sequence
 
 Use the same five steps in every replay: (1) identify the decision's EntityOfConcern and named use; (2) test an existing durable kind, direct relation, and bounded C.3 classification; (3) state governed individuals, membership or identity, intended extent, and the nearest non-member; (4) run all eight conditions, the shared E.24-family settlement, and the A.11/A.8 branch when current; (5) record one result reference, naming result, non-use boundary, and reopen condition. A future genuinely new candidate must complete this sequence before its public name is admitted.
 
@@ -62,7 +66,16 @@ In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1
 4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, `E24UK-AR-UWORKPLAN-RG-01#settlement`, and by-value A.15 reliance are present. A.11 selects a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed.
 5. **Result and flip.** `E24UK-AR-UWORKPLAN-RG-01` records `same-individual-dependent`; the existing Tech label `U.WorkPlan` is retained and this replay mints no new name. Reopen when C.2.1 identity, A.15.2 membership, the planning use, or settlement law changes. If only one bounded project needs the distinction and one exact C.3.2 declaration suffices, the disposition changes to `local-kind`.
 
+**Same-individual structure specializations — `BoundedModelUseStructure` and `CrossContextRelationStructure`.**
+
+1. **Subject and use.** The decision subjects are the A.22 source constructs for base `U.Structure` and its two model-use specializations. A.1.1 and crossing-analysis consumers need durable membership without turning a context, team, subsystem, description, or view into another structure individual.
+2. **Coverage.** `U.Structure` supplies the one base identity. The two specialization conditions add stable action-facing membership to that same individual; neither needs an independent root or an identity-dependence relation to a context-like bearer.
+3. **Membership and near-misses.** A.22 first identifies `PressControlUse_S` from exact constituents `PressControlModel-5`, `Press-3`, and `PressControllerCode-17`; selected obtaining `ModelApplicabilityRelation`, `ModelUseRelation`, and `ModelExpressionCoherenceRelation` occurrences; an applied safety-control scope constraint; and the named use “decide whether operating use and controller-code maintenance belong to one bounded model-use organization.” Only then may the same `PressControlUse_S` satisfy `BoundedModelUseStructure`. A.22 separately identifies `SupplierBillingCrossing_S` from exact constituent structures `SupplierUse_S` and `BillingUse_S`, selected obtaining crossing occurrence `SupplierToBillingTranslation_R`, an applied translation-loss constraint, and the named use “choose translation checks before release”; only then may that same individual satisfy `CrossContextRelationStructure`. `PressControlTeam`, a `BillingContext` label, `ContextMap_v3` as a `U.View`, its diagram, and its publication occurrence identify none of those structures and grant no specialization membership.
+4. **Eight tests and settlement.** Governed structure individuals, A.22 identity, A.22:4.1c membership witnesses, action-facing model-use and crossing-analysis needs, non-duplication, A.22 as direct locus, `E24UK-AR-USTRUCTURE-R12-01#settlement`, `E24UK-AR-BMUS-R12-01#settlement`, `E24UK-AR-CCRS-R12-01#settlement`, and by-value reliance are present. A.2.6 contributes only when an applied constraint refers to an exact claim scope. That constraint, not the bare scope, membership outcome, or its representation, occupies the third discriminator.
+5. **Result and flip.** `E24UK-AR-USTRUCTURE-R12-01` records `root`; `E24UK-AR-BMUS-R12-01` and `E24UK-AR-CCRS-R12-01` record `same-individual-dependent` and each implies membership in `U.Structure` for the same individual. If the four base discriminators cannot be recovered, stop at the exact description or representation. If base identity is established but one specialization condition fails, retain only the base `U.Structure`; do not repair the failure with a context label, another structure identity, holonhood, or view typing. Reopen only when the A.22 identity or specialization condition, the A.2.6 applied-scope interface, the named reliance, or the shared settlement law changes.
+
 **Identity-dependent candidate — stopped at the current owner.**
+
 
 1. **Subject and use.** The EntityOfConcern is A.2.2's capability kind-source construct; `Pump37MaintenanceCapability_2026` would be one capability individual distinct from holder system `Pump37`. The intended use is reidentifying the capability through its holder while evidence, assignment, and work change.
 2. **Coverage.** `U.System` cannot classify the distinct capability individual, and a local kind would not replace a missing identity rule.

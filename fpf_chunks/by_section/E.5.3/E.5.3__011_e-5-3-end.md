@@ -6,12 +6,12 @@ section_id: "E.5.3:End"
 section_title: "E.5.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__011_e-5-3-end.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:End — E.5.3:End"
-line_start: 69816
-line_end: 69817
+line_start: 69901
+line_end: 69902
 dependencies:
   - "E.4"
   - "E.5"

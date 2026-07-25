@@ -6,24 +6,29 @@ section_id: "A.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__001_intro.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:intro — Intro"
-line_start: 4139
-line_end: 4143
+line_start: 4152
+line_end: 4156
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ## A.2.6 - Unified Scope Mechanism (USM): Context Slices & Scopes

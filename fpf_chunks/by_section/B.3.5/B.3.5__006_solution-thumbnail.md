@@ -6,12 +6,12 @@ section_id: "B.3.5:4"
 section_title: "Solution (thumbnail)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__006_solution-thumbnail.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:4 — Solution (thumbnail)"
-line_start: 38576
-line_end: 38624
+line_start: 38637
+line_end: 38685
 dependencies:
   - "B.3"
   - "C.13"
@@ -30,24 +30,24 @@ keywords:
 CT2R‑LOG introduces a **two‑link discipline** around each canonical edge:
 
 1. **Alias link (concept‑level).**
-   **Working‑Model relations** (e.g., `ut:ComponentOf`) are **alias patterns** over a general constructional principle. Denote by **`tv:AliasOf`**.
+   **Working-Model relations** (e.g., `ut:ComponentOf`) are the public names for their exact direct relation principles. **`tv:AliasOf`** may point from the public relation kind to that principle for comparison and reuse; the alias defines neither an occurrence nor a whole.
 
 2. **Grounding link (evidence‑level).**
    Each **edge instance** carries **`tv:groundedBy`**:
 
-   * **MANDATORY** for **all structural edges** (sub-properties of `ut:StructPartOf`): the target is a valid **`Γ_m` trace** from **Compose-CAL** (one of `sum`, `set`, `slice`). **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for structural edges**.
+   * **MANDATORY** for **all published structural edges** (sub-properties of `ut:StructPartOf`): the target is one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form. It names the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions already grounded under their direct patterns. **Set** `validationMode=axiomatic`; **`postulate` SHALL NOT be used for structural edges**. Neither the link nor the mode makes those facts obtain.
    * **Optional** for **epistemic edges** (e.g., `ConstituentOf`, `RepresentationOf`): if no `Γ_m` trace is appropriate, attach an **evidence object** whose admissibility is governed by the declared **`validationMode ∈ {inferential, postulate}`** (assurance rules).
 
 2. **Validation flag (author intent).**
    Every declared edge or aggregation rule carries **`tv:validationMode`** with one of:
    * **`postulate`** — pragmatic working claim backed by observations;
    * **`inferential`** — reasoned consequence (proof outline);
-   * **`axiomatic`** — constructive grounding via a `Γ_m.*` composition.
+   * **`axiomatic`** — the author declares that one inspectable construction account is the assurance basis for the assertion. This is an assurance posture, not a species of world-side relation and not an identity or timelessness guarantee.
 
 > **F–G–R alignment.**
-> **F** (the published *Fact*): `:PumpA ut:ComponentOf :Skid12`.
-> **G** (its *Grounding*): `:e123 tv:groundedBy :trace_Γm_sum_456`.
-> **R** (declared *Reliability mode*): `tv:validationMode=axiomatic` → inputs B.3.3’s **AssuranceLevel** assessment.
+> **F** (the published relation claim): `:PumpA ut:ComponentOf :Skid12`.
+> **G** (its inspectable grounding account): the assertion links to `:trace_Γm_sum_456`, a C.2.1 episteme about the exact direct construction facts.
+> **R** (the author's declared assurance posture): `tv:validationMode=axiomatic` → one input to B.3.3's **AssuranceLevel** assessment; it does not alter F.
 
 #### B.3.5:4.1 - Structural CT2R Typing-Grounding Unfolding Structure Block
 

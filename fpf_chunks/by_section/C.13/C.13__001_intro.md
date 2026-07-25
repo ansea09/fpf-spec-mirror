@@ -6,18 +6,20 @@ section_id: "C.13:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__001_intro.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:intro — Intro"
-line_start: 46055
-line_end: 46068
+line_start: 46116
+line_end: 46131
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -29,13 +31,15 @@ keywords:
 > **Status:** Stable
 > **Type:** Pattern
 
-**At a glance.** Use C.13 when a structural identity claim needs a constructive trace showing how a whole, collection-as-whole, or aspect is obtained from parts.
+**At a glance.** Use C.13 when a practitioner must show how exact constituents and obtaining part relations assemble one whole, collection, or aspect. The construction account explains the structural claim; writing a `sum`, `set`, or `slice` expression does not create the entities or relations.
 
-**Use this when.** Use this pattern when `sum`, `set`, or `slice` construction can witness the structural claim that a Working-Model relation will publish through A.14/B.3.5.
+**Use this when.** Use this pattern after the direct part-relation patterns have identified the exact participants and obtaining occurrences, when you need a compact, inspectable account of how they assemble a whole, form a collection, or distinguish an aspect.
 
-**What goes wrong if missed.** Structural relation names become declarations without constructive identity: a component, member, or aspect edge may be readable but not reconstructible when challenged.
+**First useful move.** Name the whole, collection, or aspect whose construction you must explain; then name its inputs, the part or membership relations that obtain, and the rule by which those facts form it. Choose `sum`, `set`, or `slice` as the shortest truthful construction narrative.
 
-**What this buys.** A compact constructive trace discipline, `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice`, that grounds structural claims while leaving public relation names to the Working-Model layer.
+**What goes wrong if missed.** A readable component, member, or aspect edge may lack an assembly account; or the opposite mistake occurs and a diagram, list, or `Γ_m` expression is treated as if it created a whole, a part relation, or a holon.
 
-**Not this pattern when.** Not this pattern when the claim is epistemic representation, evidence, assurance without structural composition, a method or work occurrence, temporal phase without a structural slice claim, or a U-kind admission decision outside structural grounding.
+**What this buys.** A compact three-form construction discipline that keeps integrated assembly, collection, and aspect distinct while leaving relation obtaining, whole identity, evidence, and public relation names with their direct governors.
+
+**Not this pattern when.** Not this pattern when the current question is only relation vocabulary, evidence or assurance without a structural claim, epistemic representation, a selected dependent `U.Structure`, temporal phase without an aspect claim, public-kind admission, or transformation composition without a direct transformation-composition governor.
 

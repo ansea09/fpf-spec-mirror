@@ -6,27 +6,36 @@ section_id: "A.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__013_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:12 — Relations"
-line_start: 33964
-line_end: 33973
+line_start: 34075
+line_end: 34084
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.2.6"
   - "A.20"
   - "A.21"
   - "A.22.CGUS"
+  - "A.3.1"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
+  - "A.6.REL"
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.13"
   - "C.16"
   - "C.2.1"
   - "C.2.P"
@@ -34,7 +43,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
-  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -46,7 +54,6 @@ dependencies:
   - "C.35"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.18"
@@ -57,20 +64,13 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description boundary"
-  - "preserved and lost structure"
-  - "selected structure"
-  - "source return"
-  - "structural description"
-  - "structural view"
-  - "structure"
 ---
 
 ### A.22:12 - Relations
 
-Builds on: `C.2.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, `E.24`, `E.24.PUB`, and `F.18`.
+Builds on: `A.1`, `C.13`, `C.2.1`, `A.6.REL`, `A.6.0`, `A.6.5`, `A.3.1`, `A.6.1`, `A.15.1`, `A.6.P`, `A.7`, `A.6.2`, `A.6.3`, `A.14`, `C.16`, `C.29`, `E.10.D2`, `E.10`, `C.2.P`, `E.17.0`, `E.17.1`, `E.24`, `E.24.PUB`, and `F.18`.
 
-Coordinates with: `A.22.CGUS`, `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `E.18.3`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, `C.33`, `C.34`, and `C.35` when architecture-specific structure-capture, preservation, or discovery adequacy claim kinds are being made.
+Coordinates with: `A.1.1`, `A.2.6`, `A.22.CGUS`, `C.30.P`, `C.30.STRAT`, `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, `A.6.F`, `E.18`, `E.18.3`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.28`, `A.15`, `C.11`, `C.16`, `C.25`, `G.5`, `C.33`, `C.34`, and `C.35` when architecture-specific structure-capture, preservation, or discovery adequacy claim kinds are being made.
 
 Queue `7b` relation note: `C.33`, `C.34`, and `C.35` govern architecture-specific capture, preservation, and discovery adequacy over selected structures. A.22 keeps the general selected-structure portion; it does not decide architecture use, candidate admission, measurement, evidence, assurance, or decision authority for those adequacy claims.
 

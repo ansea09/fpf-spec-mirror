@@ -6,12 +6,12 @@ section_id: "E.4.DPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__008_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:7 — Conformance Checklist"
-line_start: 68949
-line_end: 68968
+line_start: 69034
+line_end: 69053
 dependencies:
   - "C.33"
   - "C.33-C.35"

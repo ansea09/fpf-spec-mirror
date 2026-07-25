@@ -6,12 +6,12 @@ section_id: "B.3:11a"
 section_title: "Assurance relation for quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_assurance-relation-for-quantum-like-claims.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:11a — Assurance relation for quantum-like claims"
-line_start: 38293
-line_end: 38319
+line_start: 38354
+line_end: 38380
 dependencies:
   - "A.10"
   - "A.14"

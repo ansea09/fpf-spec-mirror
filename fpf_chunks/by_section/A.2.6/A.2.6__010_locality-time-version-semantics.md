@@ -6,43 +6,50 @@ section_id: "A.2.6:8"
 section_title: "Locality, Time & Version Semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__010_locality-time-version-semantics.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:8 — Locality, Time & Version Semantics"
-line_start: 4501
-line_end: 4522
+line_start: 4566
+line_end: 4589
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ### A.2.6:8 - Locality, Time & Version Semantics
 
-#### A.2.6:8.1 - context‑locality
+#### A.2.6:8.1 - Local interpretation without a context owner
 
-Scopes are **owned and evaluated** within a `U.BoundedContext`. State assertions (ESG/RSG) and Method–Work gates MUST NOT assume that a scope declared in another Context applies verbatim; see §7.4.
+A scope is not owned by a `U.BoundedContext`. Interpret its predicate under the effective reference scheme and exact local senses named by the claim or scope declaration. Evaluate it against exact `U.ContextSlice` values.
+
+Do not assume that a similarly named selector elsewhere has the same sense. Use ordinary designation resolution when it suffices. Use `translate` only when exact local senses must be related through an obtaining F.9 Bridge occurrence.
 
 #### A.2.6:8.2 - Time selector `Γ_time`
 
-Every scope declaration and every guard MUST specify a **`Γ_time` selector** (point, window, or policy such as “rolling 180 days”) whenever time‑dependent assumptions exist. Implicit “latest” is forbidden. When `Γ_time` differs between contributors, serial intersection resolves the overlap.
+When membership depends on time, the scope predicate and target slice name an exact `gammaTime` point, interval, or policy and state which boundary changes a slice from member to non-member or back. Implicit “latest” is forbidden. When time does not change membership, omit the selector. Evidence freshness remains a separate R-lane predicate.
 
 #### A.2.6:8.3 - Standards, versions & notations
 
-Scope predicates SHALL name Standards, interfaces, or schemas **by version**. Changing symbols or notations with a faithful mapping does not change **G** (it may change **CL** for the mapping and thus affect **R**).
+When a standard, interface, or schema edition affects membership, name the exact edition. A notation change with faithful designation resolution does not change G. If exact local senses instead require an F.9 Bridge occurrence, its congruence and loss may affect R without redefining membership truth.
 
 #### A.2.6:8.4 - Determinism of evaluation
 
-Given fixed inputs (slice tuple, declared scope), the membership judgement MUST be deterministic. Guards SHALL fail closed (no membership ⇒ no use).
+For a fixed exact scope, exact slice, and available evaluation inputs, the evaluation method returns one reproducible result. `false` stops the attempted use. `unknown` also blocks admission but does not assert non-membership.
 
 #### A.2.6:8.5 - Interaction with R (freshness & decay)
 

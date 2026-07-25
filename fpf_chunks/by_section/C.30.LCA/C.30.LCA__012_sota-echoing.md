@@ -6,12 +6,12 @@ section_id: "C.30.LCA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__012_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:11 — SoTA-Echoing"
-line_start: 61108
-line_end: 61117
+line_start: 61193
+line_end: 61202
 dependencies:
   - "A.10"
   - "A.20"

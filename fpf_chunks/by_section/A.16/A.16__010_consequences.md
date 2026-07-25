@@ -6,12 +6,12 @@ section_id: "A.16:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__010_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:9 — Consequences"
-line_start: 26478
-line_end: 26480
+line_start: 26521
+line_end: 26523
 dependencies:
   - "A.16"
   - "A.16.0"

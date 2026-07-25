@@ -6,12 +6,12 @@ section_id: "F.9.1:17"
 section_title: "Interaction with CL, Direction, and Loss"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__018_interaction-with-cl-direction-and-loss.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:17 — Interaction with CL, Direction, and Loss"
-line_start: 90022
-line_end: 90032
+line_start: 90131
+line_end: 90141
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

@@ -6,12 +6,12 @@ section_id: "B.2.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__005_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:3 — Forces"
-line_start: 36851
-line_end: 36860
+line_start: 36984
+line_end: 36993
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ keywords:
 | --- | --- |
 | Component assurance vs result-system assurance | Old component claims may still matter, but they do not automatically cover the new operating whole. |
 | Delimitation vs external participation | The result system needs an admitted delimitation while external acting systems, resources, and environments remain outside it. |
-| Coordination vs whole identity | Coordination can be evidence for system MHT, but coordination alone does not admit a new system whole. |
+| Coordination vs whole identity | An obtaining coordination relation can make the system question live, but coordination alone does not satisfy A.1 or the direct `U.System` criterion. |
 | Capability gain vs identity change | A new capability envelope can reveal a result system, but some gains remain ordinary capability or functioning claims. |
 | System architecture vs system description | Architecture claims concern the operating whole; diagrams and records are description epistemes or publication forms. |
 

@@ -6,12 +6,12 @@ section_id: "A.8:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__005_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:2.1 — Forces"
-line_start: 22232
-line_end: 22240
+line_start: 22273
+line_end: 22281
 dependencies:
   - "A.11"
   - "C.3"

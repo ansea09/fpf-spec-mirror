@@ -6,12 +6,12 @@ section_id: "E.14:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__016_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:13 — Relations"
-line_start: 76360
-line_end: 76381
+line_start: 76445
+line_end: 76466
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -38,7 +38,7 @@ keywords:
 **Coordinates with.**
 
 * **CT2R‑LOG — Working‑Model Relations & Grounding** — label-meaning rules and `tv:groundedBy` Standard for edges grounded in Γₘ.
-* **Compose‑CAL (Constructional Mereology)** — provides the constructive shoulder (Γₘ: **sum | set | slice**) used to ground structural edges.
+* **Compose-CAL (Constructional Mereology)** — supplies the `sum`, `set`, and `slice` forms for a C.2.1 construction-trace episteme about independently grounded structural facts; the trace does not define the Working-Model relation or its identity.
 * **E.10 Lexical Discipline & Stratification** — ensures naming discipline and register hygiene when the human layer is published.
 
 **Constrains:**

@@ -6,14 +6,17 @@ section_id: "E.24.UK:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__006_solution.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:4 — Solution"
-line_start: 86050
-line_end: 86270
+line_start: 86135
+line_end: 86365
 dependencies:
+  - "A.1.1"
   - "A.11"
+  - "A.2.6"
+  - "A.22"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
@@ -33,6 +36,7 @@ dependencies:
   - "E.24.PUB"
   - "F.18"
   - "U.MethodDescription"
+  - "U.Structure"
   - "U.View"
   - "U.Viewpoint"
 keywords:
@@ -136,7 +140,14 @@ Durable U-kind membership is separate from C.3 local-kind reasoning. For an inde
 
 For `same-individual-dependent`, the settlement states `M_Kd(x) -> M_Kr(x)` and the same individual keeps root identity. For `identity-dependent`, the direct pattern governs a two-place dependence relation from the distinct dependent individual to one exact root-kind individual, states when it obtains, and supplies every additional discriminator. A root reference alone closes neither form.
 
-The current capability and structure candidates stop at the exact missing-governor results in section 4.2c; do not invent a dependence relation to make an example pass. A project that also needs bounded quantification may declare a C.3.2 local kind whose criterion cites the already governed durable predicate. That projection neither admits the durable kind nor creates an automatic `U.SubkindOf` edge.
+The current capability candidate still stops at the exact missing-governor result in section 4.2c; do not invent a dependence relation to make that example pass.
+
+`U.Structure` follows the accepted A.22 architecture instead. A.22 identifies one context-independent selected organization from four and only four discriminators: exact independently identified constituents, exact selected obtaining relation occurrences, exact constraints as applied, and one named selection-use frame. `E24UK-AR-USTRUCTURE-R12-01` records the root admission. A bounded-context label, system, team, subsystem, model, method, work occurrence, result episteme, description, view, graph, table, representation, publication, or use does not supply that identity.
+
+`BoundedModelUseStructure` and `CrossContextRelationStructure` are same-individual dependent specializations of an already identified `U.Structure`. The same structure individual keeps its A.22 identity; satisfying the A.22:4.1c bounded-model-use or crossing-analysis membership condition adds the corresponding specialization and implies `U.Structure` membership. It adds no second structure individual, root identity, ambient-context discriminator, holonhood, agency, description identity, or view identity. An A.2.6 claim-scope value or membership fact affects the selection only when an exact applied constraint refers to it; that applied constraint, not the bare scope or membership outcome, occupies the third discriminator. A scope, context, label, view, publication, representation, or selected use alone creates neither the base structure nor specialization membership.
+
+A project that also needs bounded quantification may declare a C.3.2 local kind whose criterion cites the already governed durable predicate. That projection neither admits the durable kind nor creates an automatic `U.SubkindOf` edge.
+
 
 #### E.24.UK:4.2b - Accepted Admission-Result Registry
 
@@ -158,6 +169,10 @@ Each `E24UK-AR-*` reference identifies one accepted C.2.1 decision episteme; the
 | `E24UK-AR-UTRANSFORMATION-RG-01` | `U.Transformation`; `root`, RG | `A.3.4:4`; one grounded actual bounded change | transformation and production uses; a planned, modeled, asserted, or represented change is not actual change |
 | `E24UK-AR-UROLE-RG-01` | `U.Role`; `root`, RG | `A.2:4`; one role value under its taxonomy and scheme | assignment and Work uses; holder, assignment, capability, method, or work is not the role value |
 | `E24UK-AR-URELATION-R11-01` | `U.Relation`; `root`, reconstructed | `A.6.REL:4` plus the direct relation pattern; obtaining occurrence with identity rule | occurrence-bearing epistemes and relations; predicate, assertion, designator, tuple, or edge is not the occurrence |
+| `E24UK-AR-USTRUCTURE-R12-01` | `U.Structure`; `root`, R1.2 | `A.22:4.1`; one selected organization identified only by exact constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame | selected-structure and specialization uses; context, label, system, team, subsystem, method, work, result, description, view, representation, publication, or use alone is not the structure |
+| `E24UK-AR-BMUS-R12-01` | `BoundedModelUseStructure`; `same-individual-dependent` under `U.Structure`, R1.2 | `A.22:4.1c` with `A.1.1` and `A.2.6`; the same already identified structure is selected over one exact model episteme, exact admitted model-use holons, and the required obtaining A.1.1 relation occurrences under applied constraints for the named bounded-model-use frame | bounded model-use reasoning; a bounded-context or model-use label, model episteme, team, subsystem, scope, description, view, graph, table, or publication alone grants no membership |
+| `E24UK-AR-CCRS-R12-01` | `CrossContextRelationStructure`; `same-individual-dependent` under `U.Structure`, R1.2 | `A.22:4.1c`; the same already identified structure has several bounded model-use structures as exact constituents and the exact selected obtaining crossing occurrences among them under applied constraints for one named crossing-analysis use | crossing analysis and context-mapping views; a context-map label, mapping method or work, view, diagram, publication, shared participant, or selected use alone grants no membership or merger |
+
 | `E24UK-AR-UWORKPLAN-RG-01` | `U.WorkPlan`; `same-individual-dependent` under `U.Episteme`, RG | `A.15.2:4`; intended-work membership plus root inclusion | planning and readiness; a calendar image, possible work, method description, or performed Work is not a WorkPlan |
 | `E24UK-AR-UROLEASSIGNMENT-RG-01` | `U.RoleAssignment`; `same-individual-dependent` under `U.Relation`, RG | `A.2.1:4`; obtaining assignment occurrence plus root inclusion | attribution and responsibility; a holder-role pair, window, or assertion record is not the occurrence |
 | `E24UK-AR-UMETHODDESCRIPTION-RG-01` | `U.MethodDescription`; `same-individual-dependent` under `U.Episteme`, RG | `A.3.2:4`; substantive claims about one admitted method | method use and planning; mention, metadata, approval, publication, or representation is not membership |
@@ -173,7 +188,6 @@ The admission form also consumes public kind names that do not yet have a resolv
 | `E24UK-OPEN-UKIND-01` | `U.Kind` prerequisite unsettled | C.3/C.3.1 govern local kind use, but the pending C.3 repair must first settle kind identity versus signature, reference scheme, and local-use boundaries; the admission card may use an exact already identified C.3 kind as EntityOfConcern, but this row does not assert a separate accepted durable result |
 | `E24UK-OPEN-UREFERENCESCHEME-01` | `U.ReferenceScheme` prerequisite unsettled | F.18 identifies the current `FPFCoreReferenceScheme` value and C.2.1 consumes an effective scheme, but no current direct owner and accepted result state the kind's identity, extent, and non-use boundary |
 | `E24UK-OPEN-UCLAIMGRAPH-01` | `U.ClaimGraph` prerequisite unsettled | C.2.1 consumes exact claim content and distinguishes it from graph representations, but no current accepted admission result and direct kind owner are resolvable from this host set |
-| `E24UK-OPEN-USTRUCTURE-01` | `U.Structure` identity-dependent candidate unsettled | A.22 identifies selected organization over a declared substrate, but no exact governed two-place identity-dependence relation from that structure individual to the substrate closes the current F02 rule; therefore `RoleRelationStructure` and `MethodRelationStructure@BoundedContext` remain orientation examples and cannot close as `reuse` yet |
 | `E24UK-BLK-U-CAPABILITY-01` | `U.Capability` identity-dependent candidate blocked | A.2.2 supplies the holder-indexed identity tuple but not the exact governed capability-to-holder identity-dependence relation, its obtaining condition, and its identity effect |
 | `E24UK-NAR-AIPR-01` | `U.ActionInvitationPrecisionRestoration`; `reject` | A.6.A governs a pattern move and the exact `actionInvitation(...)` relation; the title does not admit another kind |
 | `E24UK-NAR-EPUB-01` | `U.EpistemePublication`; `reject` | an episteme keeps C.2.1 identity while an exact `EpistemePublicationRelation` may obtain; Plain `published episteme` names that participation and not another kind |

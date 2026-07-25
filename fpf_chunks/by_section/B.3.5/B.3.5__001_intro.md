@@ -6,12 +6,12 @@ section_id: "B.3.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__001_intro.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:intro — Intro"
-line_start: 38528
-line_end: 38544
+line_start: 38589
+line_end: 38605
 dependencies:
   - "B.3"
   - "C.13"
@@ -31,7 +31,7 @@ keywords:
 
 **At a glance.** Use B.3.5 when a human-facing Working-Model relation such as `ut:ComponentOf`, `ut:MemberOf`, `ut:PortionOf`, or `ut:AspectOf` needs an assurance grounding relation without exposing constructive machinery as the public vocabulary.
 
-**Use this when.** Use this pattern when a structural edge must remain readable to engineers and managers while still carrying `validationMode` and, for structural claims, a `tv:groundedBy` link to a reconstructible Compose-CAL trace.
+**Use this when.** Use this pattern when a structural edge must remain readable to engineers and managers while its publication claim also carries an author-declared `validationMode` and a `tv:groundedBy` link to a current C.2.1 construction-trace episteme. The trace reports independently grounded construction facts for inspection; it creates neither the relation occurrence nor the identity of the whole.
 
 **What goes wrong if missed.** The readable relation layer and the constructive proof layer collapse into each other: either authors lose usable relation names, or reviewers cannot reconstruct why a structural edge should be trusted.
 
@@ -40,5 +40,5 @@ keywords:
 **Not this pattern when.** Not this pattern when the current question is how to construct the trace (`C.13`), which mereology relation kind is intended (`A.14`), whether a new holon exists (`B.2`), or whether a candidate name deserves durable U-kindhood (`E.24.UK`).
 
 > **One‑line summary.**
-> CT2R-LOG treats the everyday **Working-Model relations**— **ut:ComponentOf**, **ut:MemberOf**, **ut:PortionOf**, **ut:AspectOf** —as the **public relation layer** for structure, while binding each published edge to a **grounding trace** and a **declared `tv:validationMode`**. Authors keep using a short list of relations; reviewers get reconstructible provenance.
+> CT2R-LOG treats the everyday **Working-Model relations**— **ut:ComponentOf**, **ut:MemberOf**, **ut:PortionOf**, **ut:AspectOf** —as the **public relation layer** for structure, while linking each published structural claim to a **construction-trace episteme** and a declared `tv:validationMode`. Authors keep using a short list of relations; reviewers can inspect the direct facts, construction rule, and identity conditions reported by the trace without treating that account as their cause.
 

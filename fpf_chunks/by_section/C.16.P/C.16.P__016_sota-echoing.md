@@ -6,12 +6,12 @@ section_id: "C.16.P:12.2"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__016_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:12.2 — SoTA-Echoing"
-line_start: 46958
-line_end: 46971
+line_start: 47043
+line_end: 47056
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,13 +6,14 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 36697
-line_end: 36729
+line_start: 36818
+line_end: 36862
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.2.2"
@@ -23,6 +24,7 @@ dependencies:
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
@@ -38,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
@@ -47,11 +50,11 @@ keywords:
 
 Recover:
 
-- Is "fleet" a membership set, collection-as-whole, acting collective system, or MHT-result system?
+- Is "fleet" a membership set, collection-as-whole, acting collective system, or the candidate new system named by an MHT claim?
 - Does the agency wording name a system in role, an agency-threshold claim, or only ordinary prose?
-- Is there result-system delimitation, objective, coordination, capability envelope, evidence, and assurance?
+- Does the candidate new system have its own delimitation, objective, coordination, and capability envelope, and is the reidentification claim separately supported by evidence and assurance?
 
-If the result is an acting system whole, use B.2 and B.2.2. If it is only a managed collection with a whole-level metric, use A.14, C.13, B.3.5, and C.16.
+If the candidate new whole is an acting system, use B.2 and B.2.2. If the case is only a managed collection with a whole-level metric, use A.14, C.13, B.3.5, and C.16.
 
 #### B.2.P:5.2 - "The Model Shows Emergent Robustness"
 
@@ -69,8 +72,20 @@ Most cases use `C.29`, `C.16`, `A.10`, and source-use owners. Use B.2 only if th
 Recover:
 
 - Is there capability or functioning evidence?
-- Does the evidence create or reveal a whole-reidentification question?
-- Is the current object a function-like wording issue, a functional-structure view, a method and work relation, or a result holon?
+- Do separately governed capability or functioning facts make a whole-reidentification question live, with evidence only supporting the claim about those facts?
+- Is the concern function-like wording, a functional-structure view, a method-and-work relation, or a candidate new holon?
 
 Use B.2.4 only for the B.2-facing whole-reidentification case. Otherwise use `A.6.F`, `A.2.2`, `C.16`, `A.3.4`, `C.30.TFS-REL`, `A.15`, or architecture owners.
+
+#### B.2.P:5.4 - "The Selected Context Became A Meta-System"
+
+Recover the exact selected relation organization. If it is `BoundedModelUseStructure`, keep it as dependent `U.Structure` under A.1.1 and A.22. A context label, Context Map, diagram, or selection decision supplies no constituents, part relations, agency, holonhood, or MHT. If the source instead concerns an actual system whole, identify that system and its construction independently before B.2.
+
+#### B.2.P:5.5 - "The Evidence For Emergence Was Lost"
+
+Recover the exact whole-reidentification assertion, its evidence or assurance relation, the selected assertion edition, and the receiving work. Missing evidence can make a governed evaluation return `unknown`; a stale edition can fail G.11 currentness; receiving work can decline, defer, or reopen. None of those results reverses an actual construction or changes the direct rule that decides whether the existing whole continues or a new whole must be identified. Do not rewrite evidence loss as absence of the whole or as a new MHT.
+
+#### B.2.P:5.6 - "The Assembly Changes Form One Higher-Level Change"
+
+Identify each actual change independently under A.3.4. A shared work occurrence, flow, changed referent, time window, method decomposition, or C.13 construction trace does not make those changes parts of one transformation. If the use requires a composite transformation and no direct governor supplies constituent contribution, compatibility, boundary, interfaces, whole identity, and reidentification, return that exact blocker. Do not infer either composition or atomism.
 

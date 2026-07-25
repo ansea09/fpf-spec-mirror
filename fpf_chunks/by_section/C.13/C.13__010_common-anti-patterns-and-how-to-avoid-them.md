@@ -6,18 +6,20 @@ section_id: "C.13:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46205
-line_end: 46211
+line_start: 46283
+line_end: 46292
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,8 +29,11 @@ keywords:
 
 ### C.13:7.1 - Common Anti-Patterns and How to Avoid Them
 
-* **Constructor as public relation.** A `Gamma_m` trace is shown as the relation the working reader should use. Keep `ComponentOf`, `MemberOf`, and `AspectOf` in the Working-Model layer and attach the trace only as grounding.
-* **Member as component.** A `set` construction is used to infer integrated assembly structure. Use `sum` for component identity and keep `set` as collection-as-whole grounding.
+* **Constructor as public relation.** A `Γ_m` trace is shown as the relation the working reader should use. Keep the exact direct relation in ordinary prose and use the trace only for the construction account.
+* **Trace as cause.** A diagram, formula, parts list, or trace publication is said to create the assembly. Recover the actual inputs, obtaining relations, assembly, and identity rule.
+* **Member as component.** A `set` construction is used to infer integrated assembly structure. Keep collection membership distinct; use `sum` only after exact constructive part relations obtain.
+* **Same parts, same whole.** Two assemblies with the same component names are treated as one whole. Compare their obtaining relations, assembly rules, boundaries, and identity conditions.
 * **Temporal constructor drift.** A phase, schedule, or assembly order is modeled as a Compose-CAL constructor. Keep temporal and method claims in their own planes.
-* **New constructor inflation.** A special case gets a new constructor before `sum`, `set`, or `slice` has failed across several domains. Try the triad first and reopen parsimony only when the triad cannot narrate the case.
+* **Method or work shortcut.** Recipe steps, plan items, or WBS rows are called parts of an actual method or work occurrence. Use the direct method- or work-composition owner first.
+* **Transformation shortcut.** Changes of constituents are called parts of one transformation because the entity was assembled. Return the exact missing transformation-composition governor and retain the separately identified changes.
 

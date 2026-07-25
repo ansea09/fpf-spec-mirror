@@ -6,12 +6,12 @@ section_id: "F.3:12"
 section_title: "Worked examples (all intra‑Context)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__013_worked-examples-all-intra-context.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:12 — Worked examples (all intra‑Context)"
-line_start: 87506
-line_end: 87591
+line_start: 87615
+line_end: 87700
 dependencies:
   - "A.11"
   - "A.7"

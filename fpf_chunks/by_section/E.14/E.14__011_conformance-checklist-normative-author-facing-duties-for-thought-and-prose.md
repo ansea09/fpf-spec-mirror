@@ -6,12 +6,12 @@ section_id: "E.14:8"
 section_title: "Conformance Checklist (normative; author‑facing duties for thought and prose)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-facing-duties-for-thought-and-prose.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:8 — Conformance Checklist (normative; author‑facing duties for thought and prose)"
-line_start: 76261
-line_end: 76319
+line_start: 76346
+line_end: 76404
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -35,12 +35,12 @@ keywords:
 |**CC-E14-2 (Downward grounding).** | When assurance is attached, grounding **SHALL** flow **downwards** from the Working-Model to the appropriate assurance shoulder (**Mapping, Logical, Constructive, or Empirical**) and **SHALL NOT** impose vocabulary back onto the Working-Model. | Maintain relation-family separation and cognitive economy. |
 | **CC‑E14‑3 (Stance declaration).**         | For any claim where assurance matters, the author **SHALL** declare `validationMode` (*postulate / inferential / axiomatic*).                                                    | Make assurance intent explicit and readable.                  |
 | **CC-E14-4 (No order/time in structure).** | Authors **SHALL NOT** encode execution order, parallelism, or temporal coverage as part-whole; keep them adjacent in their own relation families.                                           | Prevent layer leakage and category errors.                    |
-| **CC‑E14‑5 (Collection ≠ Composition).**   | Authors **SHALL** keep **membership** claims distinct from **component** claims; no implicit upgrade from collection to assembly.                                                | Guard extensional identity and reader expectations.           |
+| **CC‑E14‑5 (Collection differs from composition).** | Authors **SHALL** keep exact membership occurrences and collection identity distinct from component relations and integrated assembly. A gathering description or `set` trace creates neither membership nor component status. | Preserve the direct relation and identity boundaries. |
 | **CC‑E14‑6 (Notational independence).**    | Core meaning **MUST NOT** hinge on a specific diagram or syntax; any rendering present **SHALL** be marked informative.                                                          | Ensure longevity and cross‑discipline portability.            |
 | **CC‑E14‑7 (Layer direction).**            | Authors **SHALL** avoid back-defining Working-Model terms by their assurance publications or records; dependence is one‑way (Working‑Model → Assurance).                                       | Preserve unidirectional dependence of layers.                 |
 | **CC‑E14‑8 (Template compliance).**        | Sections **SHALL** follow the canonical pattern order; *Archetypal Grounding* is mandatory for architectural patterns.                                                                            | Keep patterns comparable and auditable by reading.            |
 | **CC‑E14‑9 (Progressive formality).**      | Authors **SHOULD** escalate assurance deliberately (from working claim to reasoned to constructive), and use **Empirical Validation** where observation is the right currency.    | Support staged formality without overloading early drafts.  |
-|**CC-E14-10 (Structural grounding handshake).** | For **structural** edges on the Working-Model, authors **SHALL** set `validationMode=axiomatic` and provide **Constructive** grounding with `tv:groundedBy → Γₘ.sum|set|slice` (see **Compose-CAL** and **CT2R-LOG**). Exactly **one** Γₘ trace is permitted per edge (CI rule alignment). | Aligns E.14 with CT2R-LOG and Compose-CAL; ensures extensional identity. |
+| **CC-E14-10 (Structural grounding handshake).** | A published structural assertion **SHALL** declare the author's `validationMode=axiomatic` posture and link through `tv:groundedBy` to exactly one current C.2.1 construction-trace episteme in a C.13 `sum`, `set`, or `slice` form. The direct relation pattern and the candidate's identity or reidentification rule decide occurrence and continuity; the trace and mode create neither and guarantee no timelessness. | Makes the assertion's construction basis inspectable while keeping ontology, identity, assurance, and currentness separate. |
 | **CC‑E14‑11 (Empirical bindings).**        | When `validationMode=postulate` (or when adding real-world confirmation), authors **SHALL** bind evidence through an evidence-use relation in a declared `U.BoundedContext`, with an explicit target claim, scope, **timespan**, and provenance anchors. | Aligns with Evidence Graph Referring and empirical ageing policies. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model publications **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable publications). Assurance publications or records **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids obsolete “tiers/modes”. |
 | **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
@@ -50,39 +50,39 @@ keywords:
 
 **E — Conceptual Examples (no notation, no data handling)**
 
-1. **Assembly from parts → “Component Of”**
-   A pump skid is agreed to be nothing over and above its pump, frame, reservoir, and valve set considered together. Because the whole is conceptually *constructed* from those parts, the team may safely speak of each part as *Component Of* the skid. The justification is the construction itself: if any listed part were removed, the very same skid would no longer exist as that whole. This keeps identity extensional and makes the engineer-facing label (“Component Of”) truthful rather than conventional.
+1. **Exact skid assembly -> “Component Of”**
+   For PumpSkid 7, recover the exact pump, frame, reservoir, valve set, and other constituents; the direct fastening, coupling, enclosure, terminal, flange, and seal occurrences that obtain; the applicable skid assembly rule; and the skid reidentification rule. The team may then publish each truthful **Component Of** claim and, when assurance is current, link it to one C.2.1 `sum` trace that reports that basis. The same parts unconnected or assembled differently do not thereby form PumpSkid 7. A permitted pump replacement may preserve PumpSkid 7. The direct relations and reidentification rule decide; the trace and `axiomatic` posture do not.
 
-2. **Parallel elements gathered → “Member Of”**
-   A test rig has four identical cartridges used in parallel. The rig treats them as a conceptual *gathering*; membership is fixed by inclusion in that gathering, not by sequence or timing. Speaking of each cartridge as *Member Of* the rig’s cartridge bank is then licensed by the same gathering act. Engineers can keep saying “member,” while architects know the warrant is the underlying construction of the bank as a collection, not an accidental tagging.
+2. **Exact collection memberships -> “Member Of”**
+   For a four-cartridge bank, identify the exact collection, its collection-identity rule, and each direct membership occurrence. A C.13 `set` trace can then report that construction for assurance. Parallel use, physical proximity, a list, or an author's gathering act does not license **Member Of**, does not imply **Component Of**, and does not make the bank an acting system.
 
-3. **Focused facet carved → “Aspect Of”**
-   When the team talks about the *thermal envelope* of a reactor, they are not multiplying entities; they are taking the already‑agreed reactor and conceptually *carving out* its thermal facet for focused reasoning. Calling that carve‑out an *Aspect Of* the reactor is justified because the aspect owes its identity to the parent and the chosen facet, and nothing else. This licenses disciplined talk about “boundary,” “interface,” or “envelope” without mistaking them for independent systems.
+3. **Exact bearer, facet, and aspect -> “Aspect Of”**
+   For the thermal envelope of one reactor, identify the exact reactor bearer, the exact thermal-envelope aspect, the governed thermal facet, the direct **Aspect Of** occurrence, and the aspect's identity rule. A C.13 `slice` trace can report those facts. Selecting a view, naming a facet, carving a diagram, or choosing a time window creates no aspect occurrence and no independent system.
 
 > **Notes across the examples**
-> • Everyday labels (*Component Of, Member Of, Aspect Of*) remain the only labels engineers need to see; their truth is grounded by prior constructional choices.
-> • Structural links draw on **Constructive** grounding; **epistemic links**—like “Representation Of” or “Usage Of”—may instead rely on **Empirical Validation** (evidence-use relations) or **Logical** grounding appropriate to the claim.
+> • Everyday labels (*Component Of, Member Of, Aspect Of*) remain the only labels engineers need to see; direct relation facts make them true or false, and the linked construction account makes their basis inspectable.
+> • Structural assertions use Constructive assurance under this pattern; epistemic assertions such as “Representation Of” or “Usage Of” use the direct logical or evidence relation appropriate to the claim.
 
 **F — Resulting Context (after you apply the pattern)**
 
 **What improves**
 
-* **Single dial for containment.** Teams can ask one plain question, “what is inside what?”, and trust that all structural talk reduces to shared constructional choices rather than ad-hoc relation lists. Ontologists keep rigorous warrants without overloading day-to-day readers.
-* **Extensional identity by default.** Wholes are the wholes they are because of the parts gathered; collections are the collections they are because of their members; aspects inherit identity from their parent and facet. This prevents silent drift when labels change.
-* **Layer harmony.** Engineer-facing labels live at the same level as other relation names, while their warrants live one step below, keeping human language clean and the generative basis auditable.
+* **One readable structural vocabulary.** Teams can ask which exact relation obtains—component, member, aspect, or another direct kind—without exposing assurance machinery in ordinary work. Assurance readers can still recover the participants, direct relation facts, construction rule, and identity conditions behind a published assertion.
+* **Explicit identity tests.** Input lists and traces do not decide identity. Different assembly relations can make the same listed inputs another whole; an admitted replacement can preserve one whole. Collections use their own identity rule and exact memberships; aspects use the exact bearer, facet, direct relation, and aspect identity.
+* **Layer harmony.** Engineer-facing labels live at the same level as other relation names, while their warrants and construction accounts live one step below, keeping human language clean and the claim basis auditable.
 
 **What to watch**
 
-* **Discipline for structural relation kinds.** A structural link that lacks a constructional warrant is conceptually unsafe. Conversely, forcing epistemic links to pretend they are structural over-physicalises knowledge claims; for those, evidence or argument is the right currency.
-* **Author workload moves, not grows.** Day-to-day model authors stay with working labels; specification authors carry the responsibility for ensuring every structural statement really follows from a sum, a gathering, or a carve-out. This is a conscious shift of complexity away from operations and into the pattern's foundation.
+* **Discipline for structural relation kinds.** A published structural assertion is unsafe when its direct relation basis or identity test is missing, even if a trace or `axiomatic` flag exists. Conversely, forcing epistemic links to pretend they are structural over-physicalises knowledge claims; for those, a direct logical or evidence relation is the right currency.
+* **Author workload moves, not grows.** Day-to-day model authors stay with working labels; specification authors must recover the direct relation occurrence and identity test and keep one current construction account when this publication policy requires it. The account supports review; it does not repair missing world-side facts.
 
 **Invariants you must preserve**
 
-* **Parsimony of constructors.** Build wholes by summing parts; build banks by gathering elements; focus facets by carving aspects. Do not invent extra generative acts for parallelism or time‑slicing; those concerns belong to other conceptual services.
-* **Two-relation-kind justification.** Structural talk rides on construction; epistemic talk rides on evidence or proof. Keep the boundary sharp so that downstream reasoning (about reliability, compliance, or policy) remains clear.
+* **Parsimony of construction accounts.** Use `sum` to report integrated assembly, `set` to report a governed collection, and `slice` to report an exact aspect. Do not treat them as generative acts or add forms for parallelism or time-slicing; order and time remain with their direct conceptual services.
+* **Relation-kind-specific justification.** Structural claims require independently grounded direct relations plus an inspectable construction account under this policy; epistemic claims require their direct logical or evidence relations. Neither assurance route changes the governed relation kind.
 
 **Known consequences**
 
-* **Stable queries, fewer surprises.** Because working labels are backed by shared constructions, teams from different disciplines can interoperate without renegotiating meanings at hand-off.
-* **Audit trail without jargon.** Reviewers can trace every structural claim to a prior constructional choice, while everyday collaborators keep using familiar relation names.
+* **Stable queries, fewer surprises.** Working labels retain one direct meaning across disciplines, while each published structural assertion can be followed to the facts and identity conditions reported in its construction account.
+* **Audit trail without jargon.** Reviewers can follow a structural claim to its exact participants, direct relation occurrences, construction rule, identity conditions, and current trace edition while everyday collaborators keep using familiar relation names.
 

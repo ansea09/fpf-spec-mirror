@@ -6,18 +6,20 @@ section_id: "C.13:6"
 section_title: "Bias-Annotation (cognitive anti-patterns and counter-moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__008_bias-annotation-cognitive-anti-patterns-and-counter-moves.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:6 — Bias-Annotation (cognitive anti-patterns and counter-moves)"
-line_start: 46174
-line_end: 46184
+line_start: 46251
+line_end: 46262
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,12 +29,13 @@ keywords:
 
 ### C.13:6 - Bias-Annotation *(cognitive anti-patterns and counter-moves)*
 
-| Bias (name)                       | Symptom                                                                                                         | Counter‑move (conceptual)                                                                                                    | Where to look                               |
-| --------------------------------- | --------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
-| **Constructor‑centrism**          | Treating the trace as “the real part-whole structure” and the Working‑Model edge (e.g., **ComponentOf**) as merely decorative. | Re‑affirm **Working‑Model first** (publish in `ut:*Of`), then attach constructive narratives only when assurance demands it. | B.3.5 (Working‑Model relations & grounding) |
-| **Collection ↔ Composition swap** | Using **MemberOf** to stand in for **PartOf**, then inferring structural identity.                              | Keep **set** outputs as *collections*; use **sum** for wholes with extensional identity.                                     | A.14 (Advanced Mereology)                   |
-| **Temporal leakage**              | Smuggling sequence/phase into part‑trees.                                                                       | Assign order/time to their governing planes; **no** “temporal slice” constructor in Compose‑CAL.                                        | B.1.\* (Γ\_method and Γ\_time)                |
-| **Over‑slicing**                  | Multiplying aspects until identity becomes opaque.                                                              | Declare the **facet** explicitly; stop when aspects no longer aid recognition of the same whole.                             | A.14 (Aspect/Phase distinction)             |
-| **Feature creep**                 | Proposing a new constructor for a special case.                                                                 | Reduce to **sum / set / slice**; if reduction fails across ≥ 3 domains, reconsider the modelling plane before adding power.  | C‑5 (Parsimony)                             |
-| **Axiomatic inflation**           | Demanding constructive traces for epistemic links by default.                                                   | Use *inferential* / *postulate* where appropriate; reserve *axiomatic* for structural identity.                              | B.3.5 (validation modes)                    |
+| Bias | Symptom | Counter-move |
+| --- | --- | --- |
+| **Constructor-centrism** | The trace is treated as the real structure and the direct relation as decorative. | Recover exact entities and obtaining direct relations first; use the trace only as their construction account. |
+| **Declaration-centrism** | A readable part edge is accepted without identifying the assembly, collection rule, facet, or identity conditions. | Name the whole, collection, or aspect and its construction facts, then add the shortest truthful trace. |
+| **Collection mistaken for composition** | `MemberOf` or `set` is used to infer an integrated assembly or acting system. | Keep collection identity and membership separate; use `sum` only with exact constructive part relations and assembly. |
+| **Snapshot extensionalism** | Any constituent replacement is taken to end the whole, or the same input set is taken to guarantee the same whole. | Apply the candidate's direct identity and reidentification rule; include assembly relations and conditions. |
+| **Temporal leakage** | Sequence, phase, or work order is encoded as structural construction. | Keep order and time with their direct method and temporal patterns. |
+| **Evidence-created structure** | A current drawing, trace, or evidence record is taken to make the assembly obtain. | Keep construction facts, trace claims, evidence, currentness, and receiving reliance separate. |
+| **Subject-owner bypass** | Method steps, work items, a selected structure, or several changes are declared parts by generic C.13 notation. | Require their direct composition owner; stop before structure holonhood or transformation composition when that governor is missing. |
 

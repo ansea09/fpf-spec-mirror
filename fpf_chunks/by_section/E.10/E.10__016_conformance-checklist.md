@@ -6,12 +6,12 @@ section_id: "E.10:14"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:14 — Conformance Checklist"
-line_start: 73287
-line_end: 73302
+line_start: 73372
+line_end: 73387
 dependencies:
   - "A.10"
   - "A.15"

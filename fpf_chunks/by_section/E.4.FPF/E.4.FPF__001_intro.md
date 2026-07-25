@@ -6,12 +6,12 @@ section_id: "E.4.FPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__001_intro.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:intro — Intro"
-line_start: 68236
-line_end: 68241
+line_start: 68321
+line_end: 68326
 dependencies:
   - "C.33"
   - "C.34"

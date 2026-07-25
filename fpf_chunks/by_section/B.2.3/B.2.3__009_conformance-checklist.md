@@ -6,12 +6,12 @@ section_id: "B.2.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__009_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:6 — Conformance Checklist"
-line_start: 37225
-line_end: 37236
+line_start: 37312
+line_end: 37323
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -40,8 +39,8 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.3-1` | B.2 has left a whole-reidentification question before B.2.3 is used. |
-| `CC-B2.3-2` | The result kind is admitted as `U.Episteme` and recorded as `mhtResultEpistemeRef`. |
-| `CC-B2.3-3` | `EpistemeResultMHTSlice@Context` names `U.EpistemeSlotRelation` and does not create a second episteme ontic. |
+| `CC-B2.3-2` | B.2's one exact candidate new whole passes the complete A.1 criterion and is independently recognized under the already admitted `U.Episteme` kind through current C.2.1 constitution. |
+| `CC-B2.3-3` | No episteme-specific result reference, context-shaped slice, second result schema, or extra episteme identity positions are introduced. |
 | `CC-B2.3-4` | Publication, source-use, view, viewpoint, claim-bearing, and representation questions return to C.2.1, E.17, C.2.P, C.2.P.DR, and direct episteme-family owners. |
 | `CC-B2.3-5` | The episteme is non-agentive; acting systems, synthesis work, and enforcement work use A.12, A.2, A.15, A.15.1, or work owners. |
 | `CC-B2.3-6` | Assurance for the result episteme is not silently inherited from constituent epistemes or publications. |

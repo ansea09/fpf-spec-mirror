@@ -6,12 +6,12 @@ section_id: "A.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__002_use-this-when.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:0 — Use This When"
-line_start: 2015
-line_end: 2049
+line_start: 2028
+line_end: 2062
 dependencies:
   - "A.1"
   - "A.1.1"

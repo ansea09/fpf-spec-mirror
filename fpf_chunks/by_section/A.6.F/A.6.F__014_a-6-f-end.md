@@ -6,12 +6,12 @@ section_id: "A.6.F:End"
 section_title: "A.6.F:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__014_a-6-f-end.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:End — A.6.F:End"
-line_start: 17710
-line_end: 17711
+line_start: 17751
+line_end: 17752
 dependencies:
   - "A.10"
   - "A.15"

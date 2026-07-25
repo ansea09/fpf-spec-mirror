@@ -6,12 +6,12 @@ section_id: "E.24.PUB:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__008_bias-annotation.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:6 — Bias-Annotation"
-line_start: 85907
-line_end: 85917
+line_start: 85992
+line_end: 86002
 dependencies:
   - "A.19"
   - "A.19.ECS"

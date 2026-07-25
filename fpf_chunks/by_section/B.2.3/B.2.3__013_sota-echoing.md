@@ -6,12 +6,12 @@ section_id: "B.2.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__013_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:10 — SoTA-Echoing"
-line_start: 37267
-line_end: 37275
+line_start: 37354
+line_end: 37362
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -39,8 +38,8 @@ keywords:
 
 | Source family | Lesson for B.2.3 | FPF decision |
 | --- | --- | --- |
-| Evidence synthesis and living-review practice | Synthesis claims need explicit scope, evidence relation, currentness, and maintenance rather than narrative authority. | B.2.3 requires result-episteme slots, assurance relations, and source-use relations. |
-| Knowledge-graph and claim-network practice | A knowledge body can be represented as related claims, evidence, and sources. | `ClaimGraphSlot` remains C.2.1 material; graph representation does not declare MHT by itself. |
-| Science-of-science and paradigm-change studies | Fields and theories can consolidate into named bodies with new scope and organizing principles. | B.2.3 treats consolidation as possible evidence for episteme-result MHT, not as automatic admission. |
+| Evidence synthesis and living-review practice | Synthesis claims need explicit scope, evidence relation, currentness, and maintenance rather than narrative authority. | B.2.3 requires current C.2.1 constitution and keeps assurance and source use in neighboring relations. |
+| Knowledge-graph and claim-network practice | A knowledge body can be represented as related claims, evidence, and sources. | The actual ClaimGraph is a C.2.1 constitution participant; its graph representation, evidence, and sources do not declare MHT or add episteme identity positions. |
+| Science-of-science and paradigm-change studies | Fields and theories can consolidate into named bodies with new scope and organizing principles. | B.2.3 treats consolidation as a cue to inspect; it neither constitutes the candidate episteme nor selects B.2. |
 | Publication and standards practice | Standards, reports, models, and dashboards are carriers and publication forms. | E.17 and source-use owners remain separate from the episteme whole. |
 

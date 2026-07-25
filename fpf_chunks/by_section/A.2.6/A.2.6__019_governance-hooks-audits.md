@@ -2,60 +2,68 @@
 chunk_kind: "child"
 pattern_id: "A.2.6"
 pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
-section_id: "A.2.6:14"
+section_id: "A.2.6:17"
 section_title: "Governance Hooks & Audits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_governance-hooks-audits.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
-  - "A.2.6:14 — Governance Hooks & Audits"
-line_start: 4803
-line_end: 4835
+  - "A.2.6:17 — Governance Hooks & Audits"
+line_start: 4834
+line_end: 4869
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
-### A.2.6:14 - Governance Hooks & Audits
+### A.2.6:17 - Governance Hooks & Audits
 
-#### A.2.6:14.1 - Governance metadata (normative)
+#### A.2.6:17.1 - Durable audit evidence, when needed
 
-Contexts that adopt USM SHALL record, per scope‑aware decision:
+When a scope-aware decision needs durable audit evidence, its C.2.1 result episteme may name:
 
-* **Owner.** Episteme (for Claim scope) or Capability (for Work scope).
-* **TargetSlice tuple.** Context, vocabulary and role-set ids when current, versioned Standards, environment selectors, **`Γ_time`**.
-* **Guard outcomes.** Membership result, Bound measures (for Work scope), Freshness predicates (R).
-* **Bridge info (if any).** Mapping summary, **CL**, loss notes, applied R penalty.
-* **ΔG log.** Widen/narrow/refit; edition policy outcome.
+* **Using object and exact scope.** The claim-bearing episteme, capability, or publication object designates or uses the exact scope; it does not own the scope as a hidden context field.
+* **Exact target slice.** Designate the independently identified slice with its complete declared selector schema and values. An evaluation may bind only the projection its scope predicate inspects; that projection does not replace slice identity. Include `gammaTime` in the schema only when that temporal selector is part of the exact slice being evaluated.
+* **Evaluation outcome.** Record `true`, `false`, or `unknown`, plus the evaluation method or work occurrence when replay needs it.
+* **Separate guard outcomes.** Record work measures, qualification windows, formality, or freshness only when the receiving use checks them; none is membership.
+* **Translation evidence, only when triggered.** If exact local senses required translation, name the exact obtaining F.9 Bridge occurrence, congruence, loss, and any separate reliance effect.
+* **Scope change.** Say whether the declared set widened, narrowed, or remained identical under refit.
 
-#### A.2.6:14.2 - USM compliance levels (informative)
+Recording these facts does not make membership true, identify the scope, or create a membership-relation occurrence.
 
-* **USM‑Ready.** Context declares adoption; editors trained; lexicon updated.
-* **USM‑Guarded.** All ESG and Method–Work guards use Claim scope or Work scope and `Γ_time`.
-* **USM‑Auditable.** Decision records include TargetSlice tuples and Bridge and CL details.
+#### A.2.6:17.2 - USM compliance levels (informative)
+
+* **USM-Ready.** Exact scope and slice values are declared; editors can distinguish membership from evaluation, evidence, representation, and structure.
+* **USM-Guarded.** Guards evaluate exact Claim scope or Work scope membership and keep measures, qualification, freshness, and `gammaTime` when material as separate checks.
+* **USM-Auditable.** Durable result epistemes identify the exact scope, slice, and evaluation result, plus the exact F.9 Bridge occurrence details only when translation was triggered.
 * **USM‑Composed.** Serial intersection and SpanUnion are implemented in composition tooling.
 
-#### A.2.6:14.3 - Audit checklist (informative)
+#### A.2.6:17.3 - Audit checklist (informative)
 
 * Does each guard **name** a concrete **TargetSlice**?
-* Is **membership** deterministically recomputable from published predicates?
+* Is **membership** reproducibly evaluable from the exact declared predicate and required inputs?
 * Are **freshness** and **coverage** separate predicates?
-* For Cross‑context use: is there a **Bridge** with **CL** and loss notes?
+* When exact local-sense translation was required, is the exact obtaining F.9 Bridge occurrence named with congruence and loss?
 * For parallel support: is **independence** justified?
 
-#### A.2.6:14.4 - Risk controls (informative)
+#### A.2.6:17.4 - Risk controls (informative)
 
-* **Silent widening.** Require ΔG+ review; flag any scope increase without new support or Bridge.
+* **Silent widening.** Require ΔG+ review; flag any scope increase without new direct support. A Bridge may translate supported conditions but does not supply support.
 * **Opaque slices.** Disallow “domain” placeholders; enforce addressable selectors.
-* **Time drift.** Require `Γ_time` policies (rolling windows) for time‑sensitive scopes.
+* **Time drift.** Require an exact `gammaTime` boundary only when the scope predicate itself changes membership across time; keep qualification, calibration, recertification, data-age, and evidence-freshness windows under their direct guards.
 

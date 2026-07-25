@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 76162
-line_end: 76227
+line_start: 76247
+line_end: 76312
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -62,19 +62,19 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 
 **Guarantee.** A Working‑Model edge such as *Component‑of* or *Aspect‑of* **carries one intended reading** (transitivity/antisymmetry expectations, scope notes), sufficient for auditors to assess whether the **use is legitimate** in a given context.
 
-**Deliverable.** A short set of label-meaning rules: “When an edge is labeled *Component‑of* in the Working-Model text, it intends the structural reading that construction can verify when assurance is live.” The Logical layer is **the Standard** that ties human labels to accepted meanings (CT2R label rules); it primarily contributes **Verification Assurance (VA)**. Calculus-level symbols are not used in E-patterns.
+**Deliverable.** A short set of label-meaning rules: “When an edge is labeled *Component-of* in the Working-Model text, it intends the direct structural reading whose exact participants, relation occurrence, construction rule, and identity conditions must be recovered before the assertion is accepted.” The Logical layer ties human labels to accepted meanings; it does not make the relation obtain. Calculus-level symbols are not used in E-patterns.
 
 *(Rationale: logical label alignment protects the small Working-Model text from relation proliferation while keeping meanings crisp.)*
 
-#### E.14:5.4 - Assurance‑3: Constructive (from meanings to generative traces)
+#### E.14:5.4 - Assurance-3: Constructive (from a structural claim to its inspectable construction account)
 
-**Purpose.** Provide **extensional guarantees** by **constructing** the wholes, collections, and slices that Working-Model relations speak about.
+**Purpose.** Make the construction basis of a published structural claim inspectable without turning the assurance account into the relation or the whole.
 
-**Guarantee.** For structural edges, **there exists a constructional narrative** (e.g., *sum*, *set*, *slice*) that, if told, would recreate the whole from its parts or the aspect from its bearer; this makes identity and containment **trackable and testable** across scales.
+**Guarantee.** One truthful construction trace names the exact whole, collection, or aspect; its participants; the direct relation occurrences that obtain; the applicable assembly, collection, or facet rule; and the direct identity or reidentification conditions. The same inputs under another assembly may form another whole, while a permitted constituent replacement may preserve the same whole. The trace decides neither case.
 
-**Deliverable.** A **single generative story** per structural link (axiomatic justification). For non-structural ties in the Working-Model text (e.g., epistemic links), Constructive may be absent; Logical/Empirical take the lead. Constructive contributes **VA** (extensional identity via Γₘ); for **structural** edges, `tv:groundedBy` **MUST** reference exactly one Γₘ trace.
+**Deliverable.** For a published structural assertion, link through `tv:groundedBy` to one current C.2.1 construction-trace episteme in the C.13 `sum`, `set`, or `slice` form and declare the author's `validationMode=axiomatic` posture. Creating, revising, publishing, or losing that trace changes the account or its availability, not the relation occurrence or whole identity. The trace edition, its warrants and evidence, and the temporal status of the described direct facts retain their own currentness.
 
-*(Rationale: constructional grounding turns everyday part‑whole talk into statements whose identity conditions are not left to taste.)*
+*(Rationale: constructive assurance makes the facts and identity tests behind ordinary part-whole talk inspectable; it does not substitute an author narrative for those facts.)*
 
 #### E.14:5.5 - Assurance‑4: Empirical Validation (from claims to observed world)
 
@@ -88,7 +88,7 @@ Consider a Working‑Model arrow **A –Component‑of→ B**:
 
 1. **Mapping** shows that the words *A* and *B* are the chosen labels for their kinds; it records background source labels without making them displayed Working-Model names.
 2. **Logical** confirms that **Component‑of** in the Working-Model text means the **structural reading** with its ordinary mereological expectations; if the Working-Model text used *Member‑of* instead, Logical would similarly certify the intended reading and its boundaries.
-3. **Constructive** exhibits the **constructional narrative** (e.g., a _sum_ of parts resulting in **B** with **A** among them), which yields **axiomatic justification** for the structural edge, sets `validationMode=axiomatic`, and binds the edge via **`tv:groundedBy → Γₘ.sum|set|slice`**.
+3. **Constructive** links the published assertion to one current C.2.1 trace episteme that reports the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions in a `sum`, `set`, or `slice` form. The author declares `validationMode=axiomatic` as the assurance posture. The direct relation and identity tests remain decisive; the trace and mode create neither.
 4. **Empirical Validation** records the **evidence pointer** and scope that make the claim auditable within its `U.BoundedContext` (required for *postulate*; optional reinforcement for other stances).
 
 Together, these assurance shoulders and empirical evidence-use relation **ground the human arrow without leaking their machinery upward**. The Working‑Model remains simple; the Assurance stack carries the proof.

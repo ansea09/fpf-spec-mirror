@@ -6,12 +6,12 @@ section_id: "B.2.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__012_rationale.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:9 — Rationale"
-line_start: 37486
-line_end: 37491
+line_start: 37547
+line_end: 37552
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,7 +37,7 @@ keywords:
 
 ### B.2.4:9 - Rationale
 
-Capabilities and functioning relations are often where new wholes first become visible. But the evidence is mixed: it may belong to capability measurement, function-like wording, architecture structure, transformation flow, method relation, work occurrence, module allocation, or whole reidentification.
+Capabilities and functioning relations are often where a new-whole question first becomes visible. Their direct facts, not the availability of supporting evidence, determine whether the existing-whole explanation still works.
 
-B.2.4 exists to keep that mixed evidence disciplined. It does not rename all of it as "meta-function". It asks whether the evidence defeats the existing whole explanation and, only then, returns to B.2.
+B.2.4 keeps this mixed situation disciplined. It does not rename the capability, functioning, transformation flow, method, work, allocation, measurement, or support as "meta-function". It asks whether the exact direct facts defeat the existing-whole explanation and, only then, returns the residual question to B.2.
 

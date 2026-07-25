@@ -6,12 +6,12 @@ section_id: "E.21:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__012_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:10 — SoTA-Echoing"
-line_start: 84035
-line_end: 84044
+line_start: 84120
+line_end: 84129
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

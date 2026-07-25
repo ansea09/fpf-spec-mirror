@@ -6,12 +6,12 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 62117
-line_end: 62149
+line_start: 62202
+line_end: 62234
 dependencies:
   - "A.10"
   - "A.19"

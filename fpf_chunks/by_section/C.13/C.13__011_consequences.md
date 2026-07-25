@@ -6,18 +6,20 @@ section_id: "C.13:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__011_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:8 — Consequences"
-line_start: 46212
-line_end: 46230
+line_start: 46293
+line_end: 46311
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -29,18 +31,18 @@ keywords:
 
 **Benefits**
 
- * **Extensional clarity.** Every structural claim is reconstructed from `Γ_m.sum | Γ_m.set | Γ_m.slice`: **sum** establishes component‑assembly identity; **set** establishes collection identity; **slice** yields aspects as parts—without expanding the Kernel.
-* **Human–first publication, formal–on‑demand.** Teams keep publishing **Working‑Model** relations (e.g., `ut:ComponentOf`), while **assurance** is attached as needed via a constructive grounding narrative and `tv:groundedBy` (see B.3.5).
-* **Separation of planes preserved.** Order/parallelism and temporal coverage remain in `Γ_method` / `Γ_time`; structure is never overloaded to carry them, avoiding recurrent category errors.
-* **Uniformity across domains.** The same triad models mechanical assemblies, socio‑technical memberships, and informational wholes without domain‑specific constructors or ad‑hoc exceptions.
-* **Didactic economy.** Authors learn one compact calculus; assurance readers gain a predictable place to look for constructive justification when `validationMode = axiomatic` (B.3.5 alignment).
-* **Compositional reuse.** Traces are reusable fragments of reasoning; complex wholes are narratable as sums of sub‑traces, with sets for concurrency and slices for aspect selection.
+- **Inspectable construction.** A practitioner can recover which exact inputs, relations, and rule support one assembly, collection, or aspect.
+- **Identity clarity.** The account distinguishes the input list from the assembly and keeps whole reidentification with the direct identity rule.
+- **Human-first use.** Ordinary ComponentOf, MemberOf, and AspectOf claims remain readable; notation is optional shorthand for a named construction use.
+- **Plane separation.** Order, time, evidence, representation, kind admission, and receiving reliance keep their direct owners.
+- **Cross-domain reuse.** The same three forms can describe system, episteme, method, work, discipline, collection, and aspect cases without claiming one universal part relation.
+- **Truthful stops.** Missing direct part or transformation-composition governors remain visible instead of being hidden by a trace.
 
-**Trade‑offs / Mitigations**
+**Costs and mitigations**
 
-* **Discipline cost at higher assurance.** Writing a concise grounding narrative for axiomatic claims takes effort. *Mitigation:* reuse the micro‑templates in this pattern’s Grounding section and keep narratives notation‑free.
-* **Over‑use risk.** Temptation to treat collections as integrated assemblies. *Mitigation:* keep **MemberOf** distinct from **ComponentOf**; both `set` and `sum` yield wholes, but only **`sum`** establishes **component** structure and assembly identity.
-* **Temporal leakage risk.** Authors may try to smuggle time into structure via “temporal slices.” *Mitigation:* use `Γ_time` for temporal statements and `slice` only for intensional aspects, not for time windows.
+- A truthful trace needs more than a parts list: exact relations, assembly, and identity conditions must be named. Reuse a direct pattern's existing facts rather than duplicating them.
+- A world-side construction can obtain before anyone writes a trace. When a structural Working-Model edge is published, however, B.3.5 requires the trace link and validation mode; materialize the account without treating publication as the cause of construction.
+- The same inputs can support different assemblies, and one whole can survive permitted replacements. Always carry the direct reidentification rule.
 
-> **One-line takeaway.** Compose-CAL gives a minimal, universal *how-it-was-built* story for any structural edge, without disturbing the human-first relation layer defined in B.3.5.
+> **One-line takeaway.** `sum`, `set`, and `slice` explain an already grounded construction; they do not create its entities, relations, identity, evidence, or holonhood.
 

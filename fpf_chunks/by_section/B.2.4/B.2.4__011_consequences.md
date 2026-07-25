@@ -6,12 +6,12 @@ section_id: "B.2.4:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__011_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:8 — Consequences"
-line_start: 37472
-line_end: 37485
+line_start: 37533
+line_end: 37546
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 Positive consequences:
 
-- Capability and functioning evidence can bear on real whole reidentification without becoming a generic emergence owner.
+- Exact capability and functioning facts can make real whole reidentification current, while evidence bears only on the associated claims.
 - Direct owners remain visible, so local improvements are not overclaimed.
 - Method, work, function, module, and architecture distinctions survive high-pressure capability language; each claim remains with its governing pattern.
 

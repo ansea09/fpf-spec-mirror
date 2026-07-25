@@ -6,12 +6,12 @@ section_id: "B.2.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__012_rationale.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:9 — Rationale"
-line_start: 37261
-line_end: 37266
+line_start: 37348
+line_end: 37353
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -39,5 +38,5 @@ keywords:
 
 Knowledge synthesis can create a new holon, but only when the result is a reidentified claim-bearing episteme. B.2.3 keeps that useful case and removes the drift toward episteme agency, publication authority, generic emergence, and duplicate episteme ontology.
 
-This pattern is deliberately thin. B.2 owns whole reidentification; C.2.1 owns episteme slot relation; E.17 and source-use patterns own publications; A.6 episteme-morphism patterns own morphing and retargeting; A.15 and A.12 own synthesis work and acting systems.
+This pattern is deliberately thin. B.2 owns whole reidentification; C.2.1 owns the ClaimGraph/EntityOfConcern/ReferenceScheme constitution relation and episteme identity; publication and source-use patterns own their relations; A.6 episteme-morphism patterns own morphing and retargeting; A.15 and A.12 own synthesis work and acting systems.
 

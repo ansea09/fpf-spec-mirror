@@ -6,12 +6,12 @@ section_id: "B.3.5:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__004_problem.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:3 — Problem"
-line_start: 38564
-line_end: 38569
+line_start: 38625
+line_end: 38630
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.3.5:3 - Problem
 
-Declared sub‑relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self‑justifying**: nothing in their declaration shows *why* a given edge should be trusted, or how to **re‑derive** it if challenged. Conversely, exposing constructor traces everywhere makes the graph unreadable to non‑specialists.
+Declared sub-relations of `ut:PartOf` (e.g., **ComponentOf**, **MemberOf**) are easy to use but **not self-justifying**: their declaration alone does not show which exact participants and direct relation occurrences obtain, which construction rule applies, or which identity or reidentification rule governs the whole. Conversely, exposing construction traces everywhere makes the graph unreadable to non-specialists.
 
 **We need**: a stable **public relation layer** for relations *and* a mandatory, **reconstructible** **grounding channel**—plus a visible **validation intent** that downstream assurance can reason about.
 

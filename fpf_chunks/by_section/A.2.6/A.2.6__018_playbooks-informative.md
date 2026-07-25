@@ -2,54 +2,59 @@
 chunk_kind: "child"
 pattern_id: "A.2.6"
 pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
-section_id: "A.2.6:13"
+section_id: "A.2.6:16"
 section_title: "Playbooks (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__018_playbooks-informative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
-  - "A.2.6:13 — Playbooks (Informative)"
-line_start: 4753
-line_end: 4802
+  - "A.2.6:16 — Playbooks (Informative)"
+line_start: 4781
+line_end: 4833
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
-### A.2.6:13 - Playbooks (Informative)
+### A.2.6:16 - Playbooks (Informative)
 
-#### A.2.6:13.1 - Manager’s 6‑step adoption checklist
+#### A.2.6:16.1 - Manager’s six-step use
 
-1. **Name the TargetSlice.** Write the tuple (Context, versions, environment params, `Γ_time`).
-2. **Check scope coverage.** “Claim scope or Work scope covers TargetSlice?” If **no**, either **ΔG+** (publish wider scope with support) or **decline**.
-3. **Check rigor if gated.** If ESG requires it, ensure `Formality >= F_k`.
-4. **Check evidence freshness (R).** Validate windows and decay policies; do not conflate with coverage.
-5. **Bridge if Cross‑context.** Require declared Bridge, CL, and loss notes; accept **R** penalties.
-6. **Record the decision.** Keep the slice and guard outcomes with the StateAssertion (auditability).
+1. **Name the claim and exact scope.** Do not start from a context label or table.
+2. **Name the target slice.** Designate the independently identified slice; bind only the declared selector projection that this membership evaluation needs.
+3. **Evaluate membership.** True admits the scope condition; false stops it; unknown requires abstention, a missing input, or a narrower attempted use.
+4. **Keep other checks separate.** Formality, evidence freshness, capability measures, qualification, gate, and decision have their own predicates.
+5. **Translate only when needed.** Use an exact F.9 Bridge occurrence only for exact local-sense translation; record congruence and loss separately.
+6. **Persist only what the use needs.** A C.2.1 result episteme may record the judgment when a named receiving use needs it to persist; a C.29 table may display it. Neither changes membership. Use A.15.PROD only when the current claim is that the work first constituted that episteme.
 
-#### A.2.6:13.2 - Architect’s design rubric for scopes
+#### A.2.6:16.2 - Architect’s design rubric for scopes
 
-* **Prefer predicates over prose.** Name parameters, ranges, Standards by **version**, and `Γ_time`.
+* **Prefer predicates over prose.** Name the parameters, ranges, and standard editions that affect membership; name `gammaTime` only when time affects membership.
 * **Factor common conditions.** Use Refit to normalize units and factor shared predicates; do not widen by stealth.
 * **Partition support lines.** If you plan a **SpanUnion**, document independence up front.
 * **Keep scope thin & honest.** Publish what you can support; add slices as support appears (ΔG+).
 * **Design Bridges early.** When interop is planned, sketch mapping characteristics and **expected CL**; plan **R** penalties.
 
-#### A.2.6:13.4 - Minimal DSL snippet for scope blocks (illustrative)
+#### A.2.6:16.3 - Minimal DSL snippet for scope blocks (illustrative)
 
 ```
 claimScope:
-  Context: MaterialsLab@2026
+  effectiveReferenceScheme: MaterialsLabScheme@2026
   Standards:
     - rig: Calib-v3
     - api: v2.3
@@ -57,22 +62,25 @@ claimScope:
     substrate: Al6061
     temp: [120, 150] # °C
     dwell: { max: "2h" }
-  gamma_time: { window_days: 365 }
+receivingGuards:
+  evidenceProvenanceUse:
+    relevance_window_days: 365 # A.10/R guard, not Claim scope
 ```
 
 *(Illustrative only; the specification does not mandate a particular syntax.)*
 
-#### A.2.6:13.5 - Profiles as Scope configurations (informative)
+#### A.2.6:16.4 - Profiles as Scope configurations (informative)
 **Idea.** A **Scope profile** is a **named, editioned configuration** that expands to a concrete `U.Scope` predicate block (over `U.ContextSlice`), used to avoid repetition and to keep declarations consistent across carriers.
 
 **Rules.**
 * **P1 (Expansion).** Profiles are macros: guards **MUST** expand them to explicit predicates before evaluating `Scope covers TargetSlice`.
-* **P2 (Edition).** Profiles are editioned; changing a profile’s predicates is a content change for any carrier that references it.
+* **P2 (Edition).** Profiles are editioned. A changed predicate expression is a content change for a carrier that references the profile even when the exact scope extension is preserved; a changed extension additionally identifies another scope value.
 * **P3 (No stealth widen).** A profile update MUST NOT implicitly widen a carrier’s published scope; ΔG+ must be explicit in that carrier.
-* **P4 (Bridge awareness).** If a profile implies Cross‑context use, it MUST name the Bridge and CL policy; CL penalties apply to **R** only.
-* **P5 (Locality).** Profiles are context‑local conveniences; they do not introduce new scope types.
+* **P4 (Translation awareness).** If a profile uses exact local senses that require translation, name the obtaining F.9 Bridge occurrence and its congruence and loss; a different label or scheme alone is insufficient.
+* **P5 (No hidden owner).** A profile expands to predicates; it is not a context object, scope owner, or additional scope kind.
 
 **Examples (illustrative).**
-— An engineering context defines `Ops‑Lab‑v3` as a profile pinning Standards, environment selectors, and a rolling `Γ_time` policy; claims, capabilities, and publications may reference it as a shorthand.
+— An engineering team defines `Ops-Lab-v3` as a profile pinning standard editions and environment selectors. It leaves `LabEvidenceRelevanceWindow365d` to the receiving A.10/R guard and contains no `gammaTime`, because evidence age does not change scope membership.
+— A field team defines `WinterCampaign-v1` with `gammaTime in [2026-11-01, 2027-03-31]` because the exact scope predicate admits only slices during the declared winter campaign; a slice before or after those boundaries is a non-member.
 — A publication stack defines `TechCard‑Lite@Σ` as a profile that **narrows** `U.PublicationScope` to slices where required pins are available.
 

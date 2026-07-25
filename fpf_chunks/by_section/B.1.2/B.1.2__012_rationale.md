@@ -6,12 +6,12 @@ section_id: "B.1.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__012_rationale.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:9 — Rationale"
-line_start: 35214
-line_end: 35219
+line_start: 35325
+line_end: 35330
 dependencies:
   - "A.1"
   - "A.12"

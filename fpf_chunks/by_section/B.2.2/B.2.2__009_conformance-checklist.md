@@ -6,12 +6,12 @@ section_id: "B.2.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__009_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:6 — Conformance Checklist"
-line_start: 36991
-line_end: 37003
+line_start: 37103
+line_end: 37115
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,10 +43,10 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.2-1` | B.2 has already left a whole-reidentification question before B.2.2 is used. |
-| `CC-B2.2-2` | The result kind is admitted as `U.System` and recorded as `mhtResultSystemRef`. |
-| `CC-B2.2-3` | `SystemMHTSlice@Context` does not act; it carries refs to direct owners. |
+| `CC-B2.2-2` | B.2's one exact candidate new whole passes the complete A.1 criterion and is independently recognized under the already admitted `U.System` kind. |
+| `CC-B2.2-3` | No system-specific result reference, context-shaped slice, or second reidentification record is introduced; any optional durable account remains B.2's C.2.1 episteme. |
 | `CC-B2.2-4` | Result-system delimitation and crossing relations are named without creating `U.Boundary` or `U.Interaction`. |
-| `CC-B2.2-5` | Supervision or coordination evidence is not treated as automatic system admission or safety evidence. |
+| `CC-B2.2-5` | An obtaining supervision or coordination relation is not treated as automatic system recognition, and evidence for it is not treated as safety warrant. |
 | `CC-B2.2-6` | Acting-system participation, transformation, and work are separated from parthood. |
 | `CC-B2.2-7` | Component assurance is not silently transferred to the result system. |
 | `CC-B2.2-8` | Descriptions, dashboards, simulations, and digital twins remain epistemes or publications unless the operating system itself is the EoC. |

@@ -6,12 +6,12 @@ section_id: "B.2.3:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37237
-line_end: 37246
+line_start: 37324
+line_end: 37333
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -39,8 +38,8 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Library as theory | A repository or reading list is treated as one episteme. | Fill C.2.1 slots; use B.2.3 only if one result episteme whole is recovered. |
-| PDF as episteme | A publication form is used as the theory itself. | Use E.17 and publication owners; keep `mhtResultEpistemeRef` for the episteme. |
+| Library as theory | A repository or reading list is treated as one episteme. | Recover one exact candidate and test A.1 plus the C.2.1 constitution relation; keep the collection if either test fails. |
+| PDF as episteme | A publication form is used as the theory itself. | Use publication owners for the PDF and keep B.2's `resultHolonRef` for the independently constituted episteme. |
 | Doctrine receives agency | "The standard enforces..." or "the theory decides..." | Recover the acting system, role, method, work, evidence, or decision claim. |
 | Morphism as MHT | A view, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6.2, A.6.3, A.6.4, or A.6.3.CSC unless B.2 whole reidentification is current. |
 | Synthesis as high trust | A new theory inherits trust because its sources were reliable. | Rebuild assurance for the result episteme through A.10, B.3, B.3.5, C.2.1, and source-use owners. |

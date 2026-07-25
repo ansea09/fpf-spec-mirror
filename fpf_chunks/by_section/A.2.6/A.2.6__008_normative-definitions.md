@@ -6,163 +6,218 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_normative-definitions.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 4245
-line_end: 4403
+line_start: 4263
+line_end: 4470
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ### A.2.6:6 - Normative Definitions
 
-#### A.2.6:6.0 - USM as a `U.Mechanism.Intension` (normalization for A.6.1/A.6.5)
+#### A.2.6:6.0 - Predicate semantics, mathematical algebra, and A.6.1 operations
 
-**Intent.** This subsection makes the **USM** definition in A.2.6 explicitly conform to the
-`U.Mechanism` *intension* requirements (A.6.1) and the `…Slot` / `…Ref` lexical discipline (A.6.5),
-without changing USM’s meaning.
+Keep three layers explicit:
 
-**USM Mechanism.Intension (normative; A.6.1 decomposition).**
+1. **Scope semantics.** `member(x,S)` is a bivalent predicate over one exact `U.ContextSlice` and one exact `U.Scope`.
+2. **Mathematical representation.** The formulae below represent membership and set operations under C.29. Operand order and notation do not declare an operation application or create a scope.
+3. **Reusable actual operations.** When a receiving use needs one identified calculation or evaluation application and its bound result, use one of the exact A.6.1 `OperationDeclaration`s below. These are argument and result declarations, never A.6.5 SlotSpecs.
 
-* **Imports (USM).** `U.ContextSlice`, `ContextSliceSet`, Part B **Bridge and CL** (`U.Bridge`, `U.CongruenceLevel`), and `GammaTimePolicy`.
-* **RangedValueKind (USM).** `ContextSliceSet` (set-valued scope objects range over sets of addressable `U.ContextSlice`).
-* **SliceSet (USM).** `ContextSliceSet` (addressable `U.ContextSlice`s; see §6.1).
-* **SubjectKind (USM).** `U.Scope` with kind specialisations:
-  `U.ClaimScope ⊑ U.Scope`, `U.WorkScope ⊑ U.Scope`, `U.PublicationScope ⊑ U.Scope`.
-* **ExtentRule (USM).** The quantifier domain is the set of **well‑formed scope objects** over the SliceSet: `Extension(U.Scope, slice) = { S | S subsetOf ContextSliceSet }`.
-* **ResultKind? (USM).** `U.Scope` (for operators that return scopes, e.g., `∩`, `SpanUnion`, `translate`).
+**Mathematical semantics.**
 
-**SlotIndex (USM) for operators/guards (normative; A.6.0:4.1.1 + A.6.5).**
-These SlotKinds are stable names for signatures, substitution laws, and guard templates; they are **not** additional data slots on carriers.
+```text
+member(x, S)                  : Bool
+scopeSubset(S1, S2)           := for every x, member(x,S1) implies member(x,S2)
+coversSet(S, T)               := for every x in T, member(x,S)
+extension(intersect(F))       := intersection of extension(S) for S in F
+extension(SpanUnion(F))       := union of extension(S) for S in F
+extension(translate(B,S,RS))  := the target-slice image of extension(S) admitted by Bridge occurrence B under RS
+widen(S0,S1)                  := extension(S0) proper-subset extension(S1)
+narrow(S0,S1)                 := extension(S1) proper-subset extension(S0)
+refit(E0,E1,S)                := expressions E0 and E1 both designate exact scope S
+```
 
-| SlotKind             | ValueKind              | refMode  | Meaning |
-|----------------------|------------------------|----------|---------|
-| `ScopeSlot`          | `U.Scope`              | byRef    | A scope object (set of slices) owned by a carrier |
-| `LeftScopeSlot`      | `U.Scope`              | byRef    | Left scope operand (binary ops/relations) |
-| `RightScopeSlot`     | `U.Scope`              | byRef    | Right scope operand (binary ops/relations) |
-| `ScopeFamilySlot`    | `Set[U.Scope]`          | byRef    | Finite family of scopes (for `SpanUnion`) |
-| `SliceSlot`          | `U.ContextSlice`       | byValue  | A single addressable slice (membership target) |
-| `SliceSetSlot`       | `ContextSliceSet`      | byRef    | A finite target set of slices (coverage target) |
-| `BridgeRef`          | `U.Bridge`             | byRef    | Bridge used for `translate` / Cross‑context guards |
-| `CLSlot`             | `U.CongruenceLevel`    | byValue  | Congruence Level bound in Cross‑context guards |
-| `GammaTimeSlot`      | `GammaTimePolicy`      | byValue  | Explicit `Γ_time` selector/policy bound in guards |
+Here `T : ContextSliceSet` is a finite target set, `F : Set[U.Scope]` is a finite scope family, `B` is an exact obtaining F.9 Bridge occurrence, and `RS` is the exact target reference scheme. `scopeSubset`, `coversSet`, `widen`, `narrow`, and `refit` are mathematical predicates or comparison classifications, not actual A.6.1 operations in this edition. Work that authors or compares scope declarations remains separately governed.
 
-**OperationAlgebra (USM) with SlotSpecs (normative).**
+**A.6.1 declaration A — `ScopeMembershipEvaluationMechanism`.**
 
-* `member(SliceSlot, ScopeSlot)` — notation form: `SliceSlot ∈ ScopeSlot`.
-* `subset(LeftScopeSlot, RightScopeSlot)` — notation form: `LeftScopeSlot ⊆ RightScopeSlot`.
-* `intersect(LeftScopeSlot, RightScopeSlot) → U.Scope` — notation form: `LeftScopeSlot ∩ RightScopeSlot`.
-* `spanUnion(ScopeFamilySlot) → U.Scope` — notation form: `SpanUnion(ScopeFamilySlot)`.
-* `translate(BridgeRef, ScopeSlot) → U.Scope` — Cross‑context mapping via Bridge.
-* `widen(LeftScopeSlot, RightScopeSlot)` — Δ‑move, requires `LeftScopeSlot ⊂ RightScopeSlot`.
-* `narrow(LeftScopeSlot, RightScopeSlot)` — Δ‑move, requires `RightScopeSlot ⊂ LeftScopeSlot`.
-* `refit(LeftScopeSlot, RightScopeSlot)` — normalization, requires `LeftScopeSlot = RightScopeSlot`.
+- `EntityOfConcernRef`: exact operation family `ScopeMembershipEvaluationOperationFamily = {evaluateMembership}`.
+- effective `U.ReferenceScheme`: the scheme under which this mechanism's argument, result, and application meanings are interpreted.
+- `SubjectKind`: `U.Scope`.
+- `RangedValueKind`: `U.ContextSlice`.
+- `ResultKind`: declaration-local finite `U.Kind` `MembershipEvaluationValue = {true, false, unknown}` under C.3. Its membership rule admits exactly those three values. It is not a world-side third truth value, public U-kind, gate decision, or result episteme.
+- `SliceSet` and `ExtentRule`: absent; membership of the kind `U.Scope` is not slice-dependent in the A.6.0 sense.
 
-**Derived guard predicates (USM).**
+`OperationDeclaration evaluateMembership`:
 
-* `coversSlice(ScopeSlot, SliceSlot) := (SliceSlot ∈ ScopeSlot)`.
-* `coversSet(ScopeSlot, SliceSetSlot) := (SliceSetSlot ⊆ ScopeSlot)`.
+| Declaration-local item | Meaning | ValueKind | Binding designation rule | Binding predicate | Cardinality |
+| --- | --- | --- | --- | --- | --- |
+| argument `targetSlice` | exact independently identified slice being tested | `U.ContextSlice` | `ByValue` | the exact application actually evaluates this slice | exactly 1 |
+| argument `scope` | exact extensional scope against which membership is tested | `U.Scope` | `ByValue` | the exact application actually evaluates against this scope | exactly 1 |
+| argument `interpretationBasis` | exact separately identified episteme containing the scope expression, available selector resolutions, and any translation input used by this application | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact basis actually used; citation or availability alone is insufficient | exactly 1 |
+| result `membershipJudgment` | what the application could determine about the bivalent predicate | `MembershipEvaluationValue` | `ByValue` | the exact application actually returns this value | exactly 1 |
 
-**LawSet (USM).** Serial composition uses **intersection**; parallel publication uses **SpanUnion** only with an explicit independence justification (§7.3).
+`ApplicationPredicate`: with those bindings, evaluate `member(targetSlice, scope)` under the bound interpretation basis; return `true` or `false` when the basis determines the predicate and `unknown` when a required selector resolution or translation input is unavailable. The application neither makes membership true nor changes either argument.
 
-**AdmissibilityConditions (USM).** Scope coverage predicates MUST be **tri‑state** under unknowns: unknown inputs yield **unknown**, and guards MUST either (a) **abstain** (fail closed) or (b) **degrade** trust in the admitting decision via **R**; unknown MUST NOT be implicitly coerced to `false`/`0`. (See also §7.1 and §10.1.)
+`ApplicationIdentityRule`: one application is one independently bounded evaluation invocation selected by the current calculation or evaluation-work locus. Repeating the evaluation with the same arguments is another application when another invocation occurs; argument equality alone does not merge them.
 
-**Applicability (USM).** USM governs **Claim, Work, and Publication** scope objects inside a `U.BoundedContext`; coverage judgments are evaluated on explicit `U.ContextSlice` tuples (§6.1) and are not comparable or scorable as CHR values.
+`ApplicationExtentRule`: the application begins when its exact argument bindings and interpretation basis are fixed for the invocation and ends when `membershipJudgment` is returned or the invocation stops without a result. A result binding cannot begin before the value is returned.
 
-**Audit (USM).** Record scope‑aware decisions with the `TargetSlice` tuple, guard outcomes, and any Bridge+CL used (see §14.1).
+**`ScopeMembershipEvaluationMechanism` LawSet.** With the same exact argument bindings, interpretation basis, and effective reference scheme, evaluation is deterministic. `true` reports that the basis determines `member(targetSlice, scope)`; `false` reports that it determines non-membership; `unknown` reports only that it cannot determine either result. No returned value changes the bivalent predicate.
 
-**Transport (USM).** Cross‑context usage is **Bridge‑only** with explicit **CL**; CL penalties apply to `R_eff = R · Φ(CL)` and MUST NOT rewrite **F** or **G** (§7.4/§7.5).
+**`ScopeMembershipEvaluationMechanism` AdmissibilityConditions.** Admit an application only after the exact slice, exact scope, and exact interpretation basis are bound. `unknown` is admitted when that basis records an unavailable required selector resolution or translation input. A missing exact scope, slice, or basis blocks the application rather than creating a guessed binding.
 
-**Γ_timePolicy (USM).** `Γ_time` is mandatory in slices and guards (§8.2); implicit “latest” is forbidden.
+**`ScopeMembershipEvaluationMechanism` Applicability.** Use this declaration only for evaluating exact `U.ContextSlice` and `U.Scope` values under its effective reference scheme. The receiving use names its exact `U.ClaimScope`, selected evaluation time when current, selected `CHR:ReferencePlane` only when the use is plane-dependent, and any mechanism-specific condition; it does not replace them with generic context wording.
 
-**PlaneRegime (USM).** Not applicable to set‑valued scope objects (no `CL^plane` effect on scopes).
+**`ScopeMembershipEvaluationMechanism` SignatureManifest (optional).** When dependency replay needs it, name the actual imported or provided declarations for `U.ContextSlice`, `U.Scope`, and the local `MembershipEvaluationValue`. A list of nearby policies or operands is not a second operation signature.
 
-**Mechanism specialisation (USM; A.6.1:4.2.1).** A bounded context MAY publish a specialisation of USM as either a refinement `USM′ ⊑ USM` (tighten LawSet and AdmissibilityConditions) or an extension `USM ⊑⁺ USM′` (add new operators and slots). Any such specialisation SHALL (i) name its parent (`USM`), (ii) declare the morphism kind (`⊑` vs `⊑⁺`), (iii) preserve the same RangedValueKind and SlotKinds for inherited operators (no renaming), (iv) avoid adding new mandatory inputs to inherited signatures. It MAY narrow ValueKinds or refModes monotonically and add admissibility constraints, but MUST remain substitutable for the inherited USM operators.
+**`ScopeMembershipEvaluationMechanism` neighboring objects.** An evaluation application can occur within dated work governed by A.15.1. A separately persisted result episteme remains optional under C.2.1; A.15.PROD enters only for a current claim that work first constituted that episteme. Evidence-use and gate occurrences stay under A.10 and A.21. None of those objects, nor another evaluation invocation, reidentifies this mechanism unless it reveals changed declaration content.
 
-#### A.2.6:6.1 - `U.ContextSlice` — where scope is evaluated
+**`ScopeMembershipEvaluationMechanism` refinement or conservative extension.** A refinement preserves `evaluateMembership`, its argument and result meanings, binding rules, application predicate, identity and extent, and the bivalent-truth boundary while stating every strengthened law or admission condition. A conservative extension adds exact optional arguments, results, or operations without changing those inherited meanings or admitted uses.
 
-**Definition.** `U.ContextSlice` is an addressable, context‑local selection of a bounded context comprising:
+**A.6.1 declaration B — `ScopeDerivationMechanism`.**
 
-* **Vocabulary & roles.** The active terminology, role bindings, and local dictionaries.
-* **Standards & versions.** Concrete versioned interfaces, schemas, notations, or service Standards in force.
-* **Environment selectors.** Named parameters/ranges (e.g., temp, humidity, platform, jurisdiction, dataset cohort).
-* **Time selector `Γ_time`.** A **mandatory** selector for the temporal frame of reference (point, window, or policy), disallowing implicit “latest”.
+- `EntityOfConcernRef`: exact operation family `ScopeDerivationOperationFamily = {deriveIntersectionScope, deriveSpanUnionScope, deriveTranslatedScope}`.
+- effective `U.ReferenceScheme`: the scheme under which this mechanism's operation meanings and returned scopes are interpreted.
+- `SubjectKind`: `U.Scope`.
+- `RangedValueKind`: `U.Scope`; each derivation operation still returns a `U.Scope`, so no distinct mechanism-level `ResultKind` is current.
+- `SliceSet` and `ExtentRule`: absent for the same A.6.0 reason stated above.
 
-**Semantics.** All scope checks, guards, and compositions are evaluated **inside** an explicitly named `U.ContextSlice`. Cross‑context or cross‑slice usage MUST be mediated by a Bridge (Part B) with an explicit CL rating; see §7.4.
+| Operation | Declaration-local item | Meaning | ValueKind | Binding designation rule | Binding predicate | Cardinality |
+| --- | --- | --- | --- | --- | --- | --- |
+| `deriveIntersectionScope` | argument `scopeFamily` | exact finite family whose scope extensions are intersected | `Set[U.Scope]` | `ByValue` | the application actually uses this exact set value, containing at least two exact scopes | exactly 1 set value |
+|  | result `derivedScope` | exact extensional scope returned for the intersection | `U.Scope` | `ByValue` | the application actually returns this independently identifiable scope value | exactly 1 |
+| `deriveSpanUnionScope` | argument `scopeFamily` | exact finite family whose independently supported extensions are united by the established `SpanUnion` operation | `Set[U.Scope]` | `ByValue` | the application actually uses this exact set value, containing at least two exact scopes | exactly 1 set value |
+|  | argument `independenceBasis` | exact episteme stating the support lines and their required independence | `U.Episteme` | `ByGovernedReference` | the reference resolves to the exact basis actually used by this application | exactly 1 |
+|  | result `derivedScope` | exact extensional scope returned for `SpanUnion(scopeFamily)` | `U.Scope` | `ByValue` | the application actually returns this independently identifiable scope value | exactly 1 |
+| `deriveTranslatedScope` | argument `sourceScope` | exact source scope whose extension is mapped | `U.Scope` | `ByValue` | the application actually maps this exact scope value | exactly 1 |
+|  | argument `bridgeOccurrence` | exact obtaining F.9 Bridge occurrence whose mapping is used | `U.Relation` | `ByGovernedReference` | the reference resolves to the exact obtaining occurrence actually used by this application | exactly 1 |
+|  | argument `targetReferenceScheme` | exact scheme under which target slices and their local senses are interpreted | `U.ReferenceScheme` | `ByValue` | the application actually interprets the returned target-slice extension under this scheme | exactly 1 |
+|  | result `derivedScope` | exact extensional scope returned for the supported target-slice image | `U.Scope` | `ByValue` | the application actually returns this independently identifiable scope value | exactly 1 |
 
-**Addressability.** A slice MUST be identifiable via a canonical tuple (Context, vocab‑id, Standard/version ids, env selector(s), `Γ_time`). A slice MAY be a singleton or a finite set if a guard tests multiple coherent sub‑conditions.
+**ApplicationPredicate rules.** `deriveIntersectionScope` returns the scope represented under C.29 by `intersection of extension(S) for S in scopeFamily`. `deriveSpanUnionScope` implements the already established `SpanUnion`: it is admitted only when `independenceBasis` establishes the section 7.3 independence condition and returns the scope represented by `SpanUnion(scopeFamily)`. `deriveTranslatedScope` is admitted only when the bound Bridge occurrence obtains and returns the scope represented by `translate(bridgeOccurrence, sourceScope, targetReferenceScheme)`. The formulae alone declare no application or binding.
 
-**Slice key (minimal).** A `U.ContextSlice` **SHALL** be addressable by a tuple containing at least: `(Context, Standard and version ids when current, environment selectors, Γ_time)`. Contexts MAY extend this tuple, for example with vocabulary ids or role-set ids.
+For every governed-reference argument, record presence, citation, or a compatible token is insufficient: the reference must resolve to the exact value actually used. For every result row, the result binding obtains only when that exact application returns the independently identifiable extensional scope. The application and formula do not constitute that scope or make any membership predicate true.
 
-#### A.2.6:6.2 - `U.Scope` — the abstract set‑valued scope property (USM kind; **not** a CSLC measurement)
+`ApplicationIdentityRule`: each derivation application is one independently bounded calculation invocation identified through its exact invocation boundary, mechanism edition, and operation designator rather than the argument tuple alone. Repeated calculations with equal arguments remain distinct applications.
 
-**Definition.** `U.Scope ⊆ ContextSliceSet` is a **set‑valued USM property** whose values are sets of `U.ContextSlice` where a given statement, behavior, or capability is **fit‑for‑use**. It is **not** numeric; its internal order is the subset relation `⊆`. There is no “unit”. The primitive judgement is **membership**: `slice ∈ Scope`.
+`ApplicationExtentRule`: the application begins after every required argument is bound for that invocation and ends when the derived-scope value is returned or the invocation stops without a result. A result-binding extent cannot begin before that scope value is returned.
 
-**Guard (normative).** `U.Scope`, `U.ClaimScope (G)`, `U.WorkScope`, and `U.PublicationScope` are **not** `U.Characteristic`s in the A.17/CSLC sense; do **not** include them as slots in any `U.CharacteristicSpace`, and do **not** attach normalizations/scores to them. They are **USM scope objects**.
+**`ScopeDerivationMechanism` LawSet.** Serial composition uses intersection. Parallel publication uses the one established `SpanUnion` and preserves only slices supplied by independently supported lines. Translation returns only the exact target-slice image admitted by the bound obtaining F.9 Bridge occurrence. No derivation operation widens support by itself.
 
-**Operations.** USM admits:
+**`ScopeDerivationMechanism` AdmissibilityConditions.** Intersection and `SpanUnion` require at least two exact scopes. `deriveSpanUnionScope` additionally requires the bound independence basis to meet section 7.3. `deriveTranslatedScope` requires an exact obtaining Bridge occurrence whose mapping covers the claimed target image. A missing condition blocks that derivation application rather than creating a guessed scope.
 
-* **Intersection `∩`** (serial composition).
-* **SpanUnion** (parallel, independently supported coverage) **only when an explicit named independence assumption is declared** (features or characteristics named, validity window stated, evidence class cited). See **A.6.1/USM LawSet** for the normative template.
-* **Translate** (Cross‑context mapping via Bridge).
-* **Widen / Narrow** (monotone changes to the set).
-* **Refit** (content‑preserving re‑expression; set equality).
+**`ScopeDerivationMechanism` Applicability.** Name the exact source scopes and reference schemes required by the selected derivation. The receiving use names its exact `U.ClaimScope`, selected time when current, selected `CHR:ReferencePlane` only when plane-dependent, and derivation-specific conditions. `GammaTimePolicy` enters only when time changes membership; `ReferencePlane` is absent from ordinary set algebra.
 
-**Locality.** `U.Scope` values are defined and reasoned about **context‑locally**. Translation between Contexts never occurs implicitly; see §7.4.
+**`ScopeDerivationMechanism` SignatureManifest (optional).** When dependency replay needs it, name the actual imported or provided declarations for `U.Scope` and, for translation, the exact F.9 Bridge declaration. The independence basis and particular Bridge occurrence are application arguments, not declaration-manifest entries by adjacency.
 
-#### A.2.6:6.3 - `U.ClaimScope` (nick **G**) — scope of a claim (episteme)
+**`ScopeDerivationMechanism` neighboring objects.** A derivation can occur within dated calculation work governed by A.15.1. Its bound independence-basis episteme and Bridge occurrence retain their own identities and direct governors. The returned `U.Scope` is independently identified by its extension; neither the application nor its C.29 formula constitutes it. Evidence, publication, gate, and assurance claims remain with their direct owners. None of those objects, nor another derivation invocation, reidentifies this mechanism unless it reveals changed declaration content.
 
-**Carrier.** `U.Episteme` (claims, specifications, theories, policies).
+**`ScopeDerivationMechanism` refinement or conservative extension.** A refinement preserves the inherited derivation operations, argument and result meanings, binding rules, application predicates, identity and extent, and the intersection, `SpanUnion`, and translation semantics while stating every strengthened law or admission condition. A conservative extension adds exact optional arguments, results, or operations without changing those inherited meanings or admitted uses.
 
-**Meaning.** The set of `U.ContextSlice` where the **claim holds** as stated. This is **G** in the F–G–R triple. **G is not “abstraction level”**; it is the applicability area of the claim.
+**Relation between the declarations.** These are two independently identified `U.Mechanism` epistemes, not sections of an undeclared common parent. They coordinate by value: a later `evaluateMembership` application may bind a scope returned by one derivation application. That reuse does not merge the mechanism identities. If a receiving claim needs a refinement, extension, equivalence, or other direct relation between exact mechanism editions, state its endpoints, predicate, scope, and preserved and changed content under A.6.1; adjacency supplies no relation.
 
-**Expression.** Authors SHALL declare Claim scope as explicit predicates or condition blocks (assumptions, parameter ranges, cohorts, platform/Standard versions, `Γ_time` windows).
+#### A.2.6:6.1 - `U.ContextSlice` - exact membership target
 
-**Path composition (serial).** Along any essential dependency path supporting the claim, the effective scope is the **intersection** of contributors’ Claim scopes (see §7.2). Empty intersection makes the path inapplicable.
+`U.ContextSlice` is an addressable durable value formed from one exact declared selector schema and one value for every selector present in that schema. A scope predicate may inspect a declared projection of the slice, but it does not determine the slice's identity. A minimal slice declaration contains:
 
-**Parallel support.** Where **independent** lines of support justify disjoint areas, the episteme MAY publish a **SpanUnion** (see §7.3) limited strictly to the covered slices.
+```text
+ContextSlice:
+  effectiveReferenceScheme:
+  declaredSelectorSchema:
+  exactLocalSenseRefs?, when included by that schema:
+  standardOrInterfaceEditionRefs?, when included by that schema:
+  environmentOrPlatformSelectors?:
+  cohortOrJurisdictionSelectors?:
+  gammaTime?, when included by that schema:
+  otherDeclaredSelectors?:
+```
 
-**Δ‑moves.**
+The slice is one value, not a finite set and not a `U.BoundedContext`, selected structure, project, system part, or description. A finite target is one value of mathematical ValueKind `ContextSliceSet`. Two slice designators resolve to the same `U.ContextSlice` exactly when their declared selector schemas match and every declared selector resolves to the same value under the effective reference scheme. A predicate's current argument projection, missing evaluation input, or receiving action cannot merge or split slice identity.
 
-* **ΔG+ (widen).** Replace scope S with S′ such that S ⊂ S′.
-* **ΔG− (narrow).** Replace scope S with S′ such that S′ ⊂ S.
-* **Refit.** Replace S with S′ where S′ = S (normalization, re‑parametrization).
-* **Translate.** Map S across Contexts via a declared Bridge; CL penalties apply to **R**, not to **F/G**.
+For example, `slice_A` and `slice_B` may share substrate `Al6061`, temperature `140 °C`, and rig edition `Calib-v3` while carrying different declared cohort selectors. A temperature-only scope predicate can return the same result for both slices, but the slices remain distinct; a cohort-sensitive predicate can distinguish them without reidentifying either one.
 
-**Orthogonality.** Changes in **F** (form of expression) or **D/AT** (detail/abstraction tiers) do not change **G** unless the declared area of validity changes.
+Do not write an implicit “current” or “latest” selector. If time changes membership, name the exact point, interval, or policy. If time does not change membership, do not add a fictitious temporal field merely to complete the tuple.
+
+#### A.2.6:6.2 - `U.Scope` - set-valued scope
+
+`U.Scope` is a durable value with one exact extension of mathematical ValueKind `ContextSliceSet`. `U.ClaimScope`, `U.WorkScope`, and `U.PublicationScope` are its C.3 specializations for receiving uses; the specialization does not copy the extension or add another identity discriminator. A scope is not its predicate expression, a `U.Characteristic`, `U.Structure`, collection holon, context, description, representation, or direct relation occurrence.
+
+For exact scope `S` and exact slice `x`, the primitive delimitation semantics is:
+
+```text
+member(x, S)
+```
+
+The predicate has the exact slice and exact scope as arguments. It is not by itself an explicitly individuated `U.Relation` occurrence. Included slices satisfy it; excluded slices do not. The excluded area is not materialized as an unbounded complement entity.
+
+For effective reference scheme `RS`, define `extension_RS(S) := { x : U.ContextSlice | member(x, S) }`. Two scope designators resolve to the same extensional `U.Scope` value when their extensions contain exactly the same independently identified slices under the same or explicitly reconciled reference scheme. An equivalent predicate expression, unit conversion, factoring, or publication change can preserve that value; a boundary change that adds or removes even one slice identifies another scope value.
+
+A set or predicate expression, table, diagram, or query result can represent or designate a scope or a set of evaluated slices under C.29 and C.2.1. Its form does not make membership true, identify the scope by syntax, or create a membership occurrence.
+
+USM admits `subset`, `intersect`, `spanUnion`, `translate`, `widen`, and `narrow` over exact scope extensions. `refit` is a same-extension normalization: it changes a predicate expression, units, or factoring while preserving `member(x,S)` for every exact slice under the effective reference scheme. A changed expression may require another declaration or claim-bearing episteme edition under its direct governor; it identifies another `U.Scope` only when the extension changes.
+
+If a future receiving use genuinely requires stable identity for membership occurrences, A.2.6 must first declare a direct relation kind with exact participant meanings, obtaining condition, recurrence rule, and non-optional occurrence-identity rule under A.6.REL. Until then, do not use `ScopeDelimitationRelation`, `ScopeDelimitationMode`, or `ScopeDelimitationInterval`.
+
+#### A.2.6:6.3 - `U.ClaimScope` (G) and membership evaluation
+
+`U.ClaimScope` is the exact set-valued scope used to say where one claim holds. The claim-bearing `U.Episteme` and the scope value are distinct; the episteme designates the exact scope current for that claim.
+
+An evaluation of `member(x, S)` is also separate:
+
+* the predicate semantics determine membership;
+* an exact system performs dated evaluation work by an exact method, using a direct evaluation relation or A.6.1 operation binding;
+* a separately current C.2.1 result episteme may state `true`, `false`, or `unknown`;
+* evidence and freshness claims remain under A.10 and their direct governors.
+
+`unknown` reports that the evaluation cannot currently decide because a required selector, designation resolution, or translation input is unavailable. It does not mean `false`, does not exclude the slice, and does not create a third world-side membership state. A receiving guard abstains, narrows the attempted use, or follows an explicitly governed reliance policy; it does not rewrite the predicate.
+
+One exact `U.ClaimScope` participates in `ModelApplicabilityRelation` when model applicability is current. A declared `ModelApplicabilityInterval` belongs to an assertion or occurrence description. The actual applicability occurrence uses the maximal continuous extent over which its predicate obtains, as governed by A.1.1; the interval is not another direct participant.
+
+A `BoundedModelUseStructure` may be selected over exact model-applicability and other governed relation occurrences under applied constraints that refer to exact claim-scope values. Keep three routes distinct. A bare scope, slice, membership outcome, or displayed boundary never enters A.22 identity. One exact `U.ClaimScope` remains a participant of an independently governed `ModelApplicabilityRelation`; when that exact obtaining occurrence is selected into the structure, the occurrence contributes through A.22's relation-occurrence discriminator. Separately, one exact applied constraint claim may refer to that scope and contribute through A.22's applied-constraint discriminator. Neither route turns the scope into a structure constituent, a membership-relation occurrence, or a second delimiter. The same scope may participate in differently selected relation occurrences or be referenced by differently identified structures, and a changed structure does not by itself reidentify the scope.
+
+**Expression.** State a Claim scope as an exact predicate or condition block over slice selectors: assumptions, parameter ranges, cohorts, platform or standard editions, exact local senses when current, and time conditions only when they change membership.
+
+**Algebra.** Serial dependencies use intersection. Independently supported areas may use `spanUnion` with the independence basis stated. `widen` and `narrow` change the declared set; `refit` preserves it. `translate` uses the exact F.9 branch below.
 
 #### A.2.6:6.4 - `U.WorkScope` — scope of doing Work (capability)
 
 **Carrier.** `U.Capability` (a system’s ability to deliver specified `U.Work`).
 
-**Meaning.** The set of `U.ContextSlice` (conditions, Standards, platforms, operating parameters, `Γ_time`) under which the capability can **deliver the intended Work** at the declared **measures**, within declared **qualification windows**.
+**Meaning.** `U.WorkScope` is the set of `U.ContextSlice` values under which a capability's deliverability claim may be evaluated. Work-measure targets and qualification windows are checked separately at use time; they are not members or identity fields of the scope.
 
-**Expression.** Capability owners SHALL declare **`U.WorkScope`** as explicit **conditions/constraints over `U.ContextSlice` only** (environment, platforms, Standards by version, resource regimes, `Γ_time`). Quantitative deliverables and operation windows are **not** part of the scope value:
+**Expression.** The capability declaration designates an exact `U.WorkScope` expressed only as conditions over `U.ContextSlice`: environment, versioned standards or platforms, resource regimes, exact local senses when current, and `gammaTime` only when time changes membership. Quantitative deliverables and qualification windows are not part of the scope value:
 * Declare targets as **work-measure target sets** (e.g., latency <= L, throughput >= T, tolerance <= epsilon) bound in guards (WG‑2).
 * Declare inspection/recertification policies as **qualification-window policies** bound in guards (WG‑3).
-The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `QualificationWindow holds`.
+The use‑time admission requires **all** of: `WorkScope covers JobSlice` **AND** `WorkMeasures satisfied` **AND** `qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime)`.
 
 **Method–Work gating.** A Work step’s guard MUST check that the target slice is **covered** by the capability’s Work scope **and** that required measures and qualification windows are satisfied.
 
-**Composition and Δ‑moves.** Work scope uses the **same algebra** as Claim scope (∩ / SpanUnion / translate / widen / narrow / refit). Translation across Contexts follows §7.4.
+**Composition and Delta-moves.** Work scope uses the same algebra as Claim scope (intersection / `spanUnion` / `translate` / `widen` / `narrow` / `refit`). Section 7.5 selects `translate` only for exact local-sense translation through an obtaining F.9 Bridge occurrence.
 
-**Separation from knowledge.** Work scope does **not** assert a proposition about the world; it asserts **deliverability** of Work under conditions. Evidence for deliverability feeds **R** (Reliability) via measurements and monitoring.
+**Separation from knowledge.** A Work scope is a set-valued scope, not an assertion. The capability declaration uses it to delimit where a deliverability claim is evaluated. Measurements and monitoring may support that claim through separately governed evidence and reliance judgments; they do not make a slice a member.
 
 **Required guard facets (capabilities).**
 * **Work-measure target set (mandatory).** A set of measurable targets with units and tolerated ranges, evaluated on the JobSlice.
-* **Qualification-window policy (mandatory for operational use).** A time policy (point/window/rolling) stating when the capability is considered qualified; evaluated at `Γ_time`.
+* **Qualification-window policy (mandatory for operational use).** A time policy stating when the capability is considered qualified; evaluated at the exact evaluation time selected by the receiving guard, not copied into `U.WorkScope`.
 These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (assurance). They MUST be referenced in Method–Work guards (see §10.3 WG‑2/WG‑3).
 
 #### A.2.6:6.5 - `U.PublicationScope` — scope of a publication view or publication form
@@ -174,12 +229,11 @@ These facets are **separate** from `U.WorkScope` and live in the **R‑lane** (a
   `PublicationScope(view_E) ⊆ ClaimScope(E)`.
 * If the publication is **about a capability `C`**:
   `PublicationScope(view_C) ⊆ WorkScope(C)`.
-* If the publication is **about a composition, crosses Contexts, or both**:
-  `PublicationScope(view) ⊆ translate(Bridge, ⋂ scopes of contributors)`; CL penalties apply to **R** only (scope set membership is unaffected).
+* If the publication is **about a composition**, its scope is a subset of the intersection of the exact contributing scopes. When exact local senses require translation, translate each affected source scope through its exact obtaining F.9 Bridge occurrence before intersection; congruence and loss qualify R only.
 
-**Expression.** Authors SHALL declare `U.PublicationScope` as explicit predicates over `U.ContextSlice` (Context, Standard/version ids, environment selectors, `Γ_time`). It MAY be **narrower** than the underlying scope (e.g., due to pin availability, labeling, or audience constraints) but MUST NOT be wider.
+**Expression.** Declare `U.PublicationScope` as an exact predicate over only the `U.ContextSlice` selectors that restrict publication use: for example versioned standards, environment, audience, interface availability, exact local senses, or `gammaTime` when time changes membership. It may be narrower than the underlying scope but must not be wider.
 
-**Algebra & Δ‑moves.** Inherits the USM algebra (∩ / SpanUnion / translate / widen / narrow / refit). **Widen** is permitted only when the underlying `U.ClaimScope`/`U.WorkScope` widens accordingly; otherwise the publication MAY refit or narrow.
+**Algebra and Delta-moves.** Publication scope uses the USM algebra. A widened publication scope is admissible only when the resulting set remains a subset of every relevant underlying Claim scope or Work scope and the publication conditions support each added slice; the underlying scope need not change when it was already broader.
 
 **Orthogonality to measurement.** `U.PublicationScope` is a **USM scope object** (set‑valued), not a CHR Characteristic and MUST NOT appear as a slot in a `U.CharacteristicSpace`.
 

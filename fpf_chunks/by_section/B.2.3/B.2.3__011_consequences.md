@@ -6,12 +6,12 @@ section_id: "B.2.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__011_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:8 — Consequences"
-line_start: 37247
-line_end: 37260
+line_start: 37334
+line_end: 37347
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -45,7 +44,7 @@ Positive consequences:
 
 Costs:
 
-- A claimed synthesis must fill episteme slots, not only cite a portfolio.
+- A claimed synthesis must identify and test the current C.2.1 constitution, not only cite a portfolio.
 - Result-episteme assurance requires fresh relation work.
 - Some "new theory" claims return to publication, source-use, morphism, benchmark, or evidence owners.
 

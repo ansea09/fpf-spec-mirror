@@ -2,34 +2,39 @@
 chunk_kind: "child"
 pattern_id: "A.2.6"
 pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
-section_id: "A.2.6:16"
+section_id: "A.2.6:18"
 section_title: "Extended FAQ (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__020_extended-faq-informative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
-  - "A.2.6:16 — Extended FAQ (informative)"
-line_start: 4836
-line_end: 4867
+  - "A.2.6:18 — Extended FAQ (informative)"
+line_start: 4870
+line_end: 4900
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
-### A.2.6:16 - Extended FAQ (informative)
+### A.2.6:18 - Extended FAQ (informative)
 
 **Q1. Is “Claim scope” the same as “domain”?**
-**No.** “Domain” is descriptive and often fuzzy. **Claim scope** is **addressable**: it names concrete `U.ContextSlice` conditions and a **`Γ_time`** policy. Guards MUST reference slices, not generic “domains”.
+**No.** “Domain” is descriptive and often fuzzy. Claim scope is addressable: it supplies an exact predicate over the `U.ContextSlice` selectors that determine membership, including `gammaTime` only when the predicate changes membership across time. Guards reference the exact slice, not a generic domain.
 
 **Q2. How do we express partial coverage across different cohorts or platforms?**
 Declare each supported serial scope (`S₁, S₂, …`) and publish **SpanUnion({Sᵢ})** with independence justification. Do **not** include unsupported slices.
@@ -44,11 +49,10 @@ Only if the formalization **explicitly changes** the scope predicates (ΔG+). Fo
 Not normatively. G is set‑valued. You MAY attach an **informative**, explicitly declared **`CoverageMetric(G)`** (e.g., a proportion under a pinned policy) to aid **R** assessment, but guards use set membership and **`CoverageMetric(G)` MUST NOT replace `G`**.
 
 **Q6. How do we handle “latest data” scopes?**
-You don’t. Declare a **`Γ_time`** policy (e.g., rolling 90 days). “Latest” is forbidden to ensure reproducible evaluation.
+First decide what “latest” is doing. If it means that evidence or data must be no older than 90 days, do not put it in Claim scope: require the A.10 evidence-provenance path to satisfy its exact 90-day relevance or currentness window at the receiving use time. Put `gammaTime` in the scope only when claim applicability itself changes with the slice time, and state the membership boundary—for example, slices whose observation time falls outside the declared interval are non-members. The word “latest” alone supplies neither boundary.
 
-**Q7. How do we move a scope to another Context?**
-Declare a **Bridge** with **CL** and loss notes; compute `translate(Bridge, Scope)`; apply CL penalty to **R**; consider narrowing the mapped set.
-
+**Q7. How do we use a scope with differently named slice selectors?**
+First resolve whether the designations refer to the same values under the effective reference scheme. If exact local senses differ and membership must be expressed across them, use an obtaining F.9 Bridge occurrence, declare congruence and loss, and evaluate the explicitly translated scope. A different project, place, label, or reference scheme alone does not move or translate the scope.
 **Q8. What about abstraction level or detail?**
 Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, optional annotations. They never substitute for **Claim scope** or **Work scope**.
 
@@ -56,5 +60,5 @@ Keep **AT (AbstractionTier)** and **D (Detail and Resolution)** as orthogonal, o
 They are on different carriers. In a serial dependency, the **effective** scope is the **intersection**; the broader one does not dominate.
 
 **Q10. When does an empty scope make sense?**
-It indicates “not usable anywhere (here, now)”. Guards MUST fail. This is common during early drafting or after a refutation.
+No slice satisfies the declared predicate, so the receiving guard stops. This may occur during early drafting or after a refutation; it does not create a special context, time, or complement entity.
 

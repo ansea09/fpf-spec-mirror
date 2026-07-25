@@ -6,12 +6,12 @@ section_id: "B.2.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__002_use-this-when.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:0 — Use This When"
-line_start: 36806
-line_end: 36832
+line_start: 36946
+line_end: 36965
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,18 +40,11 @@ keywords:
 
 ### B.2.2:0 - Use This When
 
-Use this pattern when a Meta-Holon Transition result is an acting physical or operational holon admitted as `U.System`: a swarm, production cell, cloud platform, regulated control system, organizational unit, or another operating whole that now has system participation slots of its own.
+Use this pattern when B.2 has identified one exact candidate new whole and that same individual must be recognized under the already admitted `U.System` kind: a swarm, production cell, cloud platform, regulated control system, organizational unit, or another physical or operational whole that can act in work or transformation while remaining itself.
 
-The first useful question is not "is there emergence?" but:
+The first useful question is not "is there emergence?" First test the exact candidate against A.1's six common components. Then test whether its physical or operational organization makes it eligible to act in work or transformation while preserving its identity—the direct `U.System` criterion. After those two tests, recover only the additional facts used by the concrete case, such as delimitation, an objective or commitment, coordination, capability, role, method, work, transformation, functioning, architecture, evidence, assurance, or time, and state each such fact or claim under its direct owner. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
 
-```text
-Is the MHT-result whole a U.System whose delimitation, objective,
-supervision or coordination, capability envelope, role assignments,
-methods, work occurrences, transformations, functioning, evidence,
-assurance, and temporal claims must be re-declared for the result whole?
-```
-
-Use `B.2` first to decide whether whole reidentification is needed. Use `B.2.2` only after the result-kind question points to `mhtResultSystemRef`.
+Use `B.2` first to decide whether whole reidentification is needed and to identify the one candidate new whole. Use `B.2.2` only when that candidate's already admitted kind is `U.System`.
 
 **What goes wrong if missed.** A real operating whole is still managed through old component claims, or a mere collection is declared a new system without system participation evidence.
 

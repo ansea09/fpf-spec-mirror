@@ -6,14 +6,17 @@ section_id: "E.24.UK:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__014_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:12 — Relations"
-line_start: 86416
-line_end: 86423
+line_start: 86525
+line_end: 86532
 dependencies:
+  - "A.1.1"
   - "A.11"
+  - "A.2.6"
+  - "A.22"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
@@ -33,6 +36,7 @@ dependencies:
   - "E.24.PUB"
   - "F.18"
   - "U.MethodDescription"
+  - "U.Structure"
   - "U.View"
   - "U.Viewpoint"
 keywords:
@@ -43,6 +47,6 @@ keywords:
 - **Shares settlement with:** `E.24` through the one `E24FamilySettlementDecision` schema in `E.24:4.0a`. E.24.UK owns the `UKindAdmissionResult`; E.24 owns the `OnticSettlementResult`. An existing result may be reused, while a case needing both new outputs is one atomic co-decision with neither output used as prior evidence.
 - **Uses for relation admission:** `A.6.REL` supplies the common occurrence discipline; each direct relation pattern supplies participant meanings, obtaining, applicability, and occurrence identity; and `A.6.RCD` may return a residual claim or a derived-or-primitive candidate with its proposed direct subject settlement. Local-claim and predicate-definition results remain claim content and do not admit a relation kind.
 - **Uses for neighboring objects:** `A.6.0` and `A.6.5` govern reusable declarations; `C.2.1` governs admission-decision, assertion, and description epistemes; `F.18` governs the selected Tech label and designators; `C.29` governs mathematical and data-model representations.
-- **Coordinates with:** `C.3`, `C.3.1`, and `C.3.2` for local typed reasoning and membership judgments; `E.24.CD` for candidate detection before an E.24 ontic decision, with any resulting U-kind spelling or admission pressure returning here without either pattern selecting the other's disposition; `E.24.PUB` for `EpistemePublicationRelation`, publication form, and carrier distinctions; `A.3.2` for `U.MethodDescription` membership; `E.17.0` for `U.Viewpoint`, `EpistemeViewpointConformanceRelation`, and `U.View` membership; `A.6.3` only for an optional viewing construction; `A.8` and `A.11` for kernel parsimony; and `E.10` for source wording that still hides the governed object.
+- **Coordinates with:** `A.22` for context-independent base `U.Structure` identity and the `BoundedModelUseStructure` and `CrossContextRelationStructure` membership conditions; `A.1.1` for the bounded model-use participants and exact obtaining relations; `A.2.6` for claim-scope membership used by exact applied constraints; `C.3`, `C.3.1`, and `C.3.2` for local typed reasoning and membership judgments; `E.24.CD` for candidate detection before an E.24 ontic decision, with any resulting U-kind spelling or admission pressure returning here without either pattern selecting the other's disposition; `E.24.PUB` for `EpistemePublicationRelation`, publication form, and carrier distinctions; `A.3.2` for `U.MethodDescription` membership; `E.17.0` for `U.Viewpoint`, `EpistemeViewpointConformanceRelation`, and `U.View` membership; `A.6.3` only for an optional viewing construction; `A.8` and `A.11` for kernel parsimony; and `E.10` for source wording that still hides the governed object.
 - **Does not replace:** the direct pattern that governs the classified individuals, their identity or membership, their intended extent, and their action-facing use.
 

@@ -6,12 +6,12 @@ section_id: "E.13:End"
 section_title: "E.13:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__015_e-13-end.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:End — E.13:End"
-line_start: 76049
-line_end: 76050
+line_start: 76134
+line_end: 76135
 dependencies:
   - "A.10"
   - "A.21"

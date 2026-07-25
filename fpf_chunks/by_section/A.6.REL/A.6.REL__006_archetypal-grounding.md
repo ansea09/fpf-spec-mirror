@@ -6,12 +6,12 @@ section_id: "A.6.REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__006_archetypal-grounding.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:5 — Archetypal Grounding"
-line_start: 10826
-line_end: 10864
+line_start: 10867
+line_end: 10905
 dependencies:
   - "A.6.0"
   - "A.6.5"

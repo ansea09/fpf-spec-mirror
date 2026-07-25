@@ -6,18 +6,20 @@ section_id: "C.13:9.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__013_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:9.1 — SoTA-Echoing"
-line_start: 46250
-line_end: 46253
+line_start: 46328
+line_end: 46333
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,5 +29,7 @@ keywords:
 
 ### C.13:9.1 - SoTA-Echoing
 
-Constructional mereology, formal ontology, and model-based engineering all separate the readable structural claim from the construction or justification that supports it. Compose-CAL echoes that line by keeping `sum`, `set`, and `slice` as constructive witnesses for structural identity, while `A.14` and `B.3.5` govern the human-facing relation kind and grounding relation.
+Constructional ontology and applied mereology both require explicit choices about constructors, dependence, identity, and the relation between a construction account and the object constructed. C.13 adopts that pressure by requiring exact inputs, obtaining direct relations, assembly, and reidentification. It rejects the stronger shortcut that a term, graph, extensional input set, or written constructor expression alone settles the existence or identity of the whole.
+
+Model-based engineering likewise separates a readable structural model from the physical, operational, informational, method, or work organization it describes. C.13 keeps that model useful while routing representation, evidence, assurance, and currentness to their direct patterns.
 

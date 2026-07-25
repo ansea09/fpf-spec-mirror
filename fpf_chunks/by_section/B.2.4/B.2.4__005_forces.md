@@ -6,12 +6,12 @@ section_id: "B.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__005_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:3 — Forces"
-line_start: 37338
-line_end: 37347
+line_start: 37416
+line_end: 37425
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,9 +39,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Capability evidence vs whole identity | Capability evidence can reveal a new whole, but most capability claims stay with A.2.2 and C.16. |
+| Capability facts vs whole identity | Exact capability facts can make a new-whole question live, but most capability claims stay with A.2.2 and C.16; their evidence remains separate. |
 | Functioning relation vs part-whole relation | Functioning often crosses parts and bearers; it is not parthood by wording. |
 | Transformation-flow structure vs mathematical description | Flow structure may enter architecture claims; graphs and diagrams remain lenses or publications unless selected as objects. |
-| Method composition vs performed work | A method relation can describe possible doing, while work occurrence evidence concerns dated performance. |
+| Method composition vs performed work | A method relation can describe possible doing, while a dated work occurrence is an in-life fact and evidence only supports claims about that occurrence. |
 | New whole vs local improvement | The pattern must preserve real novelty without turning every improvement into MHT. |
 

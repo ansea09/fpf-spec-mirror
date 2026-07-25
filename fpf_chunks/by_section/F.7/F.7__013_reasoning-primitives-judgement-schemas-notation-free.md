@@ -6,12 +6,12 @@ section_id: "F.7:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 88806
-line_end: 88851
+line_start: 88915
+line_end: 88960
 dependencies:
   - "A.6.9"
   - "E.10.D1"

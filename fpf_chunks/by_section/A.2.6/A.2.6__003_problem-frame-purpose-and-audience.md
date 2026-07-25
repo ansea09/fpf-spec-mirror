@@ -6,38 +6,44 @@ section_id: "A.2.6:1"
 section_title: "Problem frame - Purpose and Audience"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__003_problem-frame-purpose-and-audience.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:1 — Problem frame - Purpose and Audience"
-line_start: 4171
-line_end: 4185
+line_start: 4186
+line_end: 4201
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ### A.2.6:1 - Problem frame - Purpose and Audience
 
-This pattern gives **engineering managers and assurance architects** one vocabulary, one model, and one set of operations to talk about **where** a claim holds and **under which conditions** a system can deliver a piece of **Work**. It removes the need to remember whether a document said “applicability,” a model said “envelope,” or a safety plan said “capability envelope.” **Scope is scope.** The only distinction that matters is **what carries it**:
+This pattern gives practitioners one exact question: *does this slice belong to the scope needed by this use?* It applies first to claim scope and reuses the same value algebra for work and publication scopes.
 
-* **Knowledge and episteme claims** → **Claim scope** (G).
-* **System capability claims** → **Work scope** (conditions under which Work at the promised measures is deliverable).
+The claim-bearing episteme, capability, or publication object is not the scope. It designates or uses an exact `U.ClaimScope`, `U.WorkScope`, or `U.PublicationScope`. The membership predicate, evaluation work, result episteme, gate, and evidence claim also remain separate.
 
-With USM, teams can:
+With USM, a practitioner can:
 
-* specify, compare, and compose scope **without translation games**;
-* gate ESG and Method–Work steps with **observable, context‑local scope checks**;
-* cross Contexts safely using Bridges and **explicit CL penalties** applied to **R**.
+* declare exact slice selectors and an exact scope predicate;
+* evaluate membership as true, false, or currently unknown;
+* combine exact scopes by intersection or independently supported union;
+* translate only when exact local senses require an obtaining F.9 Bridge occurrence; and
+* stop without inventing a relation occurrence, context object, or selected structure.
 
-This pattern **defines** the **scope mechanism** (Context slices, set‑valued scopes, algebra, and guard usage) and the canonical **lexicon** (Claim scope (G), Work scope). It does **not** prescribe which Contexts must widen or narrow scope, nor which assurance levels are required; those are set by context‑local ESG and Method–Work policies, which SHALL reference the mechanisms defined here.
+A.2.6 defines the scope values, membership predicate, mathematical scope algebra, exact reusable A.6.1 operation declarations, and use boundaries. It does not decide a gate, perform evaluation work, establish evidence, identify an A.22 structure, or prescribe which claim should widen.
 

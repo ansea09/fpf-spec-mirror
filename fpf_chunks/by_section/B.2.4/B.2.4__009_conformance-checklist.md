@@ -6,12 +6,12 @@ section_id: "B.2.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__009_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:6 — Conformance Checklist"
-line_start: 37451
-line_end: 37461
+line_start: 37512
+line_end: 37522
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,10 +39,10 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-B2.4-1` | B.2.4 is used only when capability, functioning, or transformation-flow evidence creates or reveals a B.2 whole-reidentification question. |
+| `CC-B2.4-1` | B.2.4 is used only when exact capability, functioning, or selected in-life transformation-flow facts leave a B.2 whole-reidentification question after direct-owner explanations are tested. |
 | `CC-B2.4-2` | Ordinary capability, function, functioning, transformation, method, work, module, characteristic, evidence, and architecture claims return to direct owners. |
 | `CC-B2.4-3` | No generic `U.Emergence`, `U.Function`, `U.MetaMethod`, or capability-root kind is created. |
 | `CC-B2.4-4` | Method, method description, work plan, and work occurrence remain separate. |
 | `CC-B2.4-5` | Mathematical or publication descriptions of transformation-flow structure do not replace the in-life structure. |
-| `CC-B2.4-6` | If B.2 remains current, B.2 owns the MHT record and result-kind admission. |
+| `CC-B2.4-6` | If B.2 remains current, it owns the one exact candidate new whole, complete recognition, whole comparison, and any optional record; B.2.4 introduces no result species. |
 

@@ -6,12 +6,12 @@ section_id: "C.16:3.2"
 section_title: "Context and prior art"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_context-and-prior-art.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:3.2 — Context and prior art"
-line_start: 46339
-line_end: 46344
+line_start: 46424
+line_end: 46429
 dependencies:
   - "A.10"
   - "A.17"

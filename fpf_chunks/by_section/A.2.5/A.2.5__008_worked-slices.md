@@ -6,12 +6,12 @@ section_id: "A.2.5:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__008_worked-slices.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:5 — Worked Slices"
-line_start: 3991
-line_end: 4035
+line_start: 4004
+line_end: 4048
 dependencies:
   - "A.15"
   - "A.2.1"

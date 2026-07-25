@@ -6,12 +6,12 @@ section_id: "B.3.5:11"
 section_title: "Conformance Checklist (normative, author-facing)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__013_conformance-checklist-normative-author-facing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:11 — Conformance Checklist (normative, author-facing)"
-line_start: 38787
-line_end: 38802
+line_start: 38848
+line_end: 38863
 dependencies:
   - "B.3"
   - "C.13"
@@ -33,7 +33,7 @@ The following obligations regulate **how to think and write** CT2R content. They
 | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | **CC-CT2R-1 (Canonical-first).**                | A relation published for readers **SHALL** be stated in Working-Model terms (`ut:*Of`) as the canonical form; any constructive or logical justification is recorded as **grounding** (not as the definition).                                         | Preserve human-first canon and didactic primacy.                          |
 | **CC‑CT2R‑2 (Mode declaration).**               | For every declarative relation or rule, the author **SHALL** declare `tv:validationMode ∈ {postulate, inferential, axiomatic}` in prose (no silent defaults).                                                                                | Make assurance intent explicit and auditable by reading.                  |
-| **CC‑CT2R‑3 (Structural axiomatic grounding).** | If the relation is **structural** (a subtype of `ut:StructPartOf`) **and** the author chooses `axiomatic`, they **SHALL** provide a **grounding narrative** that can be reconstructed as one of the Γ\_m aggregators (*sum*, *set*, *slice*). | Tie high‑assurance claims to constructive identity without tool mandates. |
+| **CC‑CT2R‑3 (Structural axiomatic grounding).** | A published structural assertion **SHALL** link to one current C.2.1 construction-trace episteme in a `sum`, `set`, or `slice` form. The account names independently grounded participants, direct relation occurrences, construction rule, and identity or reidentification conditions; it creates none of them. | Tie the declared axiomatic assurance posture to an inspectable account without making assurance apparatus a truth-maker. |
 | **CC‑CT2R‑4 (No order/time in parts).**         | Authors **SHALL NOT** encode order (`Serial/Parallel`) or phase/time as part‑whole relations; handle them via `Γ_method` / `Γ_time` when relevant to the claim.                                                                               | Maintain the structure/order/time firewall.                               |
 | **CC‑CT2R‑5 (Collection vs part).**             | Authors **SHALL** keep **MemberOf** (collections) distinct from **PartOf** (structure) and refrain from carrying reliability as if membership implied structural composition.                                                                 | Prevent category errors flagged in B.3 anti‑patterns.                     |
 | **CC‑CT2R‑6 (Fit is explicit).**                | Where mappings or alignments matter, the author **SHALL** reason about **fit** explicitly (Congruence Level, conceptually) and acknowledge that weak fit reduces the effective reliability of any composed claim.                             | Keep integration quality first‑class.                                     |

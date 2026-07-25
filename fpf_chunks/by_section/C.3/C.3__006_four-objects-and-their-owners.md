@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Four Objects and Their Owners"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_four-objects-and-their-owners.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Four Objects and Their Owners"
-line_start: 43812
-line_end: 43824
+line_start: 43873
+line_end: 43885
 dependencies:
   - "A.1"
   - "A.11"

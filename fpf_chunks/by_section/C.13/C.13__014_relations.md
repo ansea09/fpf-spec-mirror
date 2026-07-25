@@ -6,18 +6,20 @@ section_id: "C.13:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__014_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:10 — Relations"
-line_start: 46254
-line_end: 46279
+line_start: 46334
+line_end: 46364
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -29,25 +31,30 @@ keywords:
 
 **Builds on**
 
-* **A.14 Advanced Mereology.** Uses its structural catalogue (Component/Portion/Aspect vs Member) as the *target* of constructive narratives; never collapses Member into Part.
-* **E.5 Guard‑Rails (Notational Independence).** Meanings are given in prose; diagrams are illustrative only.
-* **E.5 Guard‑Rails (Unidirectional Dependency).** Compose‑CAL depends **downward** only; it never imports alias layers or higher planes.
-* **E.8 Authoring Conventions.** Conforms to the canonical pattern template (Grounding section for architectural patterns; CC placement).
+- **A.14 and direct part-relation patterns.** They govern participant meanings, obtaining, recurrence, and occurrence identity for component, member, aspect, portion, constituent, and other part relations.
+- **C.2.1.** It governs the identity of a materialized construction-trace episteme.
 
 **Coordinates with**
-* **B.3.5 CT2R-LOG.** `tv:groundedBy` refers (conceptually) to Compose-CAL traces when `validationMode = axiomatic`; **Working-Model** relations remain the public relation layer.
-* **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock.** Use this coordination only when a constructive trace and working-model relation are loci inside a structural construction-to-typed/logical projection to a target kind or logical representation. General diagnostic return to revise an inadequate working ontology remains with `A.7.1`.
-* **B.1 flavours.** Keeps order (`Γ_method`) and time (`Γ_time`) outside structure; may co‑appear in narratives when relevant but never as constructors.
-* **Kind-CAL / Lang‑CHR.** Provide the Mapping shoulder of assurance (labels, type alignment) that complements constructive narratives in this pattern.
-* **KD‑CAL.** Provides the Logical shoulder when authors justify relations inferentially instead of constructively.
-* **C.16 (Measurement substrate).** Supplies quantitative hooks when a constructive narrative benefits from explicit counts/ratios (e.g., cardinalities, coverage), while keeping metrics distinct from mereology.
+
+- **B.3.5.** Governs the required trace link and validation mode for a published structural Working-Model edge. Its publication and assurance apparatus does not create the construction or decide whole identity.
+- **A.1 and B.2.** A.1 consumes constructive assembly as one component of holon recognition; B.2 consumes exact construction and direct reidentification facts when the question is whether the existing whole continues or a new whole must be identified. C.13 decides neither public-kind recognition nor whole reidentification.
+- **B.1.5 and direct method-composition patterns.** Supply exact submethods, whole-forming relations, constraints, and whole-method reidentification before a method construction is narrated.
+- **A.15 and direct work-mereology patterns.** Supply exact work parts and whole-forming relations before a dated work construction is narrated.
+- **C.20 and direct discipline-composition relations.** Supply exact discipline constituents, whole-forming relations, and identity conditions before a discipline construction is narrated.
+- **A.22 and A.1.1.** Keep selected relation organization and bounded model use distinct from construction of the underlying holon.
+- **A.3.4.** Identifies each actual bounded change independently; C.13 supplies no transformation-composition law.
+- **C.29.** Keeps formulas, graphs, diagrams, and traces as representations of independently recovered objects when representation is current.
+- **A.7.1 and A.22.CGUS.** Handle diagnostic return and the wider structural projection from construction to a target kind or logical representation when those uses are current.
 
 **Constrains**
-* Any pattern that **creates** or **reasons about** structural wholes SHOULD narrate them using only `sum | set | slice`.
-* Structural publication MUST NOT encode order/time; such claims belong to their dedicated flavours.
-* Introducing new structural constructors requires a separate parsimony argument and is discouraged unless the triad cannot narrate the case without ambiguity.
+
+- A pattern that relies on a constructive whole states that whole, its constituents, the part relations that obtain, the assembly rule, and the identity rule rather than relying on a list or diagram.
+- Collection, aspect, method, work, discipline, selected-structure, and transformation cases keep their direct owners and stop at missing governors.
+- New construction forms require a separate parsimony and use argument; ordinary time, order, evidence, representation, and domain labels do not justify one.
 
 **Provides**
-* A minimal generative calculus (`Γ_m.sum | Γ_m.set | Γ_m.slice`) and the corresponding reading discipline for constructive narratives.
-* A stable CT2R-LOG relation for `tv:groundedBy` links under `validationMode = axiomatic`.
+
+- the three construction narratives `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice`;
+- a plain-language discipline for connecting those narratives to exact direct facts without making the trace their cause;
+- explicit unassembled-collection, selected-structure, existing-whole continuity or new-whole identification, and transformation-composition stop conditions.
 

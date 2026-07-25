@@ -6,18 +6,20 @@ section_id: "C.13:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__004_problem.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:2.1 — Problem"
-line_start: 46085
-line_end: 46088
+line_start: 46148
+line_end: 46151
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,5 +29,5 @@ keywords:
 
 ### C.13:2.1 - Problem
 
-Declared lists of part‑of sub‑relations **scale poorly** and **lack identity guarantees**. Engineers ask for a *single dial* (“is x part of y?”), while ontologists need a principled foundation that (a) avoids Kernel bloat and (b) proves that wholes are nothing over and above their parts. Adding yet another bespoke relation (e.g., *PortionOf*) should not entail schema surgery or ad‑hoc rules.
+A bare list of `ComponentOf`, `MemberOf`, or `AspectOf` claims does not say which assembly, collection rule, or facet makes them one construction. But a bare `sum`, `set`, or `slice` expression is no better: the same constituents can participate in different assemblies, a collection need not be an integrated holon, and an arbitrary facet label does not establish an aspect. The construction account must therefore name exact world-side facts and preserve the candidate's direct identity or reidentification rule.
 

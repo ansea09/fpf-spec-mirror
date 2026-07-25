@@ -6,13 +6,14 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:0 — Use This When"
-line_start: 36548
-line_end: 36576
+line_start: 36689
+line_end: 36717
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.2.2"
@@ -23,6 +24,7 @@ dependencies:
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
@@ -38,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
@@ -54,7 +57,7 @@ Recover the claim kind before choosing replacement wording.
 B.2.P is selected only when the source wording hides one of these recurring questions:
 
 - Is this a B.2 whole-reidentification claim?
-- Is this a system-result, episteme-result, or capability and functioning specialization of B.2?
+- Is the candidate new whole a system or episteme, or do capability and functioning facts make whole reidentification necessary?
 - Is this only a characteristic, capability, functioning, architecture, evidence, measurement, or mathematical-lens claim?
 - Is a collection, fleet, community, pool, or base being admitted as a whole, acting collective, whole-level characteristic bearer, or merely a membership set?
 - Is a metric jump or benchmark result being overread as a new whole?

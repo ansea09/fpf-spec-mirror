@@ -6,12 +6,12 @@ section_id: "A.16.2:21"
 section_title: "Comparative Retreat Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__022_comparative-retreat-rule.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:21 — Comparative Retreat Rule"
-line_start: 27465
-line_end: 27475
+line_start: 27508
+line_end: 27518
 dependencies:
   - "A.16"
   - "A.16.0"

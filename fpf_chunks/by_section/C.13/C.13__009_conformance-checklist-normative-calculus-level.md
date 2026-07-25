@@ -6,18 +6,20 @@ section_id: "C.13:7"
 section_title: "Conformance Checklist (normative, calculus‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__009_conformance-checklist-normative-calculus-level.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:7 — Conformance Checklist (normative, calculus‑level)"
-line_start: 46185
-line_end: 46204
+line_start: 46263
+line_end: 46282
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,21 +29,21 @@ keywords:
 
 ### C.13:7 - Conformance Checklist *(normative, calculus‑level)*
 
-The following regulate **how to think and write** when invoking Compose‑CAL. They are notation‑agnostic and conceptual.
+The following regulate a C.13 use.
 
-| ID                                         | Requirement                                                                                                                                                                                    | Purpose                                                                 |
-| ------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| **CC‑C13‑1 (Three moves only).**           | Authors **SHALL** construct structural narratives using exactly **`Γ_m.sum`**, **`Γ_m.set`**, and **`Γ_m.slice`**. No additional constructors are introduced in this calculus.                 | Preserve **parsimony** and cross‑domain comparability.                  |
-| **CC‑C13‑2 (Kernel invariants).**          | Constructive narratives **SHALL** respect **KernelPartOf** invariants (transitivity, antisymmetry, acyclicity) and yield extensional identity for wholes.                                      | Keep structural identity intelligible and replayable.                   |
-| **CC‑C13‑3 (Algebraic laws).**        | `sum`/`set` are commutative & idempotent; `slice` composes only with facet‑compatible refinement. | Make traces **peer‑reconstructible** and easy to replay in thought. |
-| **CC‑C13‑4 (No order/time in mereology).** | Authors **SHALL NOT** encode execution order, parallelism, or temporal coverage via constructors; such concerns belong to method/time planes and are stated adjacent to structure.             | Maintain the plane firewall.                                            |
-| **CC‑C13‑5 (Narratability).**              | Each constructive trace **SHALL** be narratable in plain language **without introducing new primitives**.                                                                                      | Enforce human‑first clarity; uphold C‑5.                                |
-| **CC‑C13‑6 (Alias alignment).**            | When Publishing Working‑Model relations for structural content, authors **SHOULD** align “sum→ComponentOf”, “set→MemberOf (or pattern‑specific)”, “slice→AspectOf” in their explanatory prose. | Keep alias semantics stable across Contexts.                               |
-| **CC-C13-7 (CT2R-LOG handshake).**     | For every **structural** edge on the Working-Model, authors **SHALL** set `validationMode=axiomatic` and point **`tv:groundedBy`** to exactly **one** Γₘ trace (`sum|set|slice`). Express formality via **F** per C.2.3. | Clean bridge to the Working-Model alias layer; decouples relation kind from formality scoring. |
-| **CC‑C13‑8 (Member ≠ Component).**         | A **set** output remains a *collection*; authors **SHALL NOT** infer **ComponentOf** from **MemberOf**. When an integrated assembly is intended, provide a separate **`Γ_m.sum`** narrative.   | Prevent membership→component conflation.                                 |
-| **CC‑C13‑9 (Facet explicitness).**         | **Slice** narratives **SHALL** name the **facet** used; temporal facets are excluded (handled elsewhere).                                                                                      | Keep aspects precise and non‑temporal.                                  |
-| **CC‑C13‑10 (No roles in mereology).** | Do not apply Γₘ to `U.Role`, `U.Method`, or `U.Work`; these are outside mereology (A.12/A.15). | Preserve the plane firewall. |
-| **CC-C13-11 (Member non-transitive).** | When publishing `MemberOf`, do not rely on transitive closure across collection-of-collections; published relation semantics remain non-transitive per A.14. | Prevent Member→Component drift. |
-
-> **Author’s note.** Compose‑CAL is a calculus for **constructive** reasoning about structure. Publishing remains in the **Working‑Model** layer (see B.3.5); constructive narratives are attached when the team seeks an assurance record with additional constructive evidence, never as a substitute for clear human‑facing relations.
+| ID | Requirement | Purpose |
+| --- | --- | --- |
+| **CC-C13-1 — Three forms.** | Use only `sum`, `set`, or `slice` for the C.13 construction narrative. | Preserve a small cross-domain calculus. |
+| **CC-C13-2 — Exact direct basis.** | Name the whole, collection, or aspect; its inputs; the direct relation occurrences that obtain; its construction rule; and its identity or reidentification rule. | Prevent notation-created entities and relations. |
+| **CC-C13-3 — Assembly-sensitive identity.** | Do not infer the identity of a whole, collection, or aspect from the input list alone; preserve assembly relations, rule conditions, and the direct reidentification law. | Distinguish the same inputs under different assemblies, and one whole surviving a permitted constituent change. |
+| **CC-C13-4 — No order or time by constructor.** | Keep execution order, parallelism, temporal coverage, and phase with their direct patterns. | Preserve the boundary among structural construction, temporal extent, and method order. |
+| **CC-C13-5 — Narratability.** | State the construction in ordinary language before or beside the shorthand. | Keep the construction usable without notation. |
+| **CC-C13-6 — Alias discipline.** | Use ComponentOf, MemberOf, AspectOf, PortionOf, or ConstituentOf only under the exact direct relation meaning; the trace does not define the alias. | Keep public relation semantics direct. |
+| **CC-C13-7 — Trace separation.** | Treat a materialized trace as a C.2.1 episteme about construction; creating, publishing, losing, or revising it does not create or end the whole, collection, or aspect it describes. | Keep ontology and epistemics separate. |
+| **CC-C13-8 — Member is not component.** | A `set` construction establishes no integrated assembly, acting eligibility, or holonhood. | Prevent collection-to-system drift. |
+| **CC-C13-9 — Facet explicitness.** | A `slice` use names the exact aspect, bearer, governed facet, direct relation, and identity rule; a temporal window is not a structural facet here. | Prevent arbitrary slicing. |
+| **CC-C13-10 — Subject owner.** | Apply C.13 to method, work, or discipline holons only after their direct patterns identify exact parts and whole-forming relations. | Permit accepted holon construction without generic decomposition. |
+| **CC-C13-11 — Published-edge boundary.** | A published structural Working-Model edge follows B.3.5 for its required trace link and validation mode; C.13 does not treat that publication apparatus as the world-side relation, assembly, or identity rule. | Keep construction and publication assurance distinct. |
+| **CC-C13-12 — Dependent structure stop.** | A selected `U.Structure` is not a holon, agent, or a new whole named by an MHT claim merely by selection, label, or diagram. | Preserve the dependent-structure boundary. |
+| **CC-C13-13 — Transformation stop.** | Do not infer transformation composition, parthood, holonhood, or atomism from entity construction, method or work decomposition, timing, or missing part facts. | Preserve the missing-governor boundary. |
 

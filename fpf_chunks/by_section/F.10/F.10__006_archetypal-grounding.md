@@ -6,12 +6,12 @@ section_id: "F.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:5 — Archetypal Grounding"
-line_start: 90207
-line_end: 90226
+line_start: 90316
+line_end: 90335
 dependencies:
   - "A.2.4"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "B.2.4:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__013_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:10 — SoTA-Echoing"
-line_start: 37492
-line_end: 37500
+line_start: 37553
+line_end: 37561
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,8 +39,8 @@ keywords:
 
 | Source line | Practical implication for this pattern |
 | --- | --- |
-| Capability and functioning approaches | A capability envelope is evidence about what a holon can do under conditions; it is not automatically a new whole. |
-| Functional architecture and transformation-flow practice | Functioning and flow structures can expose a result whole, but descriptions and diagrams remain distinct from selected in-life structures. |
+| Capability and functioning approaches | A capability envelope states what a holon can do under conditions; it is not automatically a new whole. Evidence supports or challenges the claim about the envelope but does not create it. |
+| Functional architecture and transformation-flow practice | Obtaining functioning relations and selected in-life flow structures can make a new-whole question live; descriptions and diagrams remain distinct from those facts. |
 | Method and work ontology in FPF | Method, method description, work plan, and performed work occurrence must stay separate when capability evidence is interpreted. |
 | TAME and agency-as-characteristic-space work | Agency-like evidence is multi-characteristic and thresholded by concern; B.2.4 does not create a binary agency kind. |
 

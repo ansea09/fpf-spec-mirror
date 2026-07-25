@@ -6,12 +6,12 @@ section_id: "B.5:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__007_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:6 — Consequences"
-line_start: 39328
-line_end: 39336
+line_start: 39389
+line_end: 39397
 dependencies:
   - "A.10"
   - "B.4"

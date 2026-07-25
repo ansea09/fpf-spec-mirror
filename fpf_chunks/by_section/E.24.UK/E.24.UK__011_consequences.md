@@ -6,14 +6,17 @@ section_id: "E.24.UK:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__011_consequences.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:9 — Consequences"
-line_start: 86361
-line_end: 86375
+line_start: 86469
+line_end: 86484
 dependencies:
+  - "A.1.1"
   - "A.11"
+  - "A.2.6"
+  - "A.22"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
@@ -33,6 +36,7 @@ dependencies:
   - "E.24.PUB"
   - "F.18"
   - "U.MethodDescription"
+  - "U.Structure"
   - "U.View"
   - "U.Viewpoint"
 keywords:
@@ -44,6 +48,7 @@ Positive consequences:
 
 - public `U.*` names become reliable orientation signals;
 - dependent durable U-kinds can be named without pretending to be independent roots;
+- model-use structure specializations can be named without duplicating A.22 base identity or collapsing contexts, systems, views, representations, publications, or uses into structures;
 - type and kind wording is governed by C.3, E.24.UK, A.8, A.11, F.8, and F.5 rather than preserved as overlapping ontology;
 - structural names are settled before they become misleading public names.
 

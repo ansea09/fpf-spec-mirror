@@ -6,14 +6,17 @@ section_id: "E.24.UK:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__008_bias-annotation.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:6 — Bias-Annotation"
-line_start: 86319
-line_end: 86322
+line_start: 86423
+line_end: 86426
 dependencies:
+  - "A.1.1"
   - "A.11"
+  - "A.2.6"
+  - "A.22"
   - "A.3.2"
   - "A.6.0"
   - "A.6.3"
@@ -33,6 +36,7 @@ dependencies:
   - "E.24.PUB"
   - "F.18"
   - "U.MethodDescription"
+  - "U.Structure"
   - "U.View"
   - "U.Viewpoint"
 keywords:
@@ -40,5 +44,5 @@ keywords:
 
 ### E.24.UK:6 - Bias-Annotation
 
-This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title, filename, table row, or imported type word is not enough to create a durable FPF kind. Recover the governed individuals, their direct governing pattern, and their identity or membership rule first. When the candidate instead names participation in a relation, a SlotSpec, an assertion or description field, a selected `U.Structure`, an `E.24.PUB` form, or a `C.29` representation element, retain that exact object and its governing pattern. Only then decide whether any durable U-kind distinction remains.
+This pattern blocks punctuation-bias and taxonomy-bias. A `U.*` spelling, title, filename, table row, or imported type word is not enough to create a durable FPF kind. Recover the governed individuals, their direct governing pattern, and their identity or membership rule first. When the candidate instead names participation in a relation, a SlotSpec, an assertion or description field, a selected `U.Structure`, an `E.24.PUB` form, or a `C.29` representation element, retain that exact object and its governing pattern. For a structure specialization, first recover the same base individual through A.22's four discriminators; a context, system, team, subsystem, label, scope, method, work, result, view, representation, publication, or use creates neither that base identity nor dependent membership. Only then decide whether any durable U-kind distinction remains.
 

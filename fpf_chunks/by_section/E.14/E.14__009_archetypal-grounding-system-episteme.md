@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-episteme.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:6 — Archetypal Grounding (System / Episteme)"
-line_start: 76228
-line_end: 76246
+line_start: 76313
+line_end: 76331
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -34,7 +34,7 @@ keywords:
 #### E.14:6.1 - `U.System` — Working‑Model first, Constructive grounding available
 
 * **Publication (Working‑Model).** Authors state structure using familiar relations (e.g., *Impeller* **ut\:ComponentOf** *Pump*; *Pump* **ut\:ComponentOf** *Skid*). Nothing else is required for readers to follow the design.
-* **Assurance (downward grounding).** When a higher-assurance claim is sought, the same author **narrates** the constructive story of the whole as a composition of parts and, where appropriate, attaches a downward grounding to that narrative (sum, set, or slice). The narrative remains concept-level and notation-neutral; order and time stay out of structure and are expressed in their own relation families.
+* **Assurance (downward grounding).** When higher assurance is sought, first recover the exact skid, parts, direct fastening, coupling, enclosure, terminal, flange, and seal occurrences, the applicable skid assembly rule, and the skid reidentification rule. Then link the published claim to one current C.2.1 `sum` trace that reports those facts and declare the assurance posture. The account remains below the Working-Model; order and time stay in their own relation families.
 * **Canonization move.** Readers continue to see Working‑Model relations as the primary Working-Model text; the constructive story is *supporting*, not *defining*.
 
 #### E.14:6.2 - `U.Episteme` - Working-Model first; Logical and Mapping preferred; Empirical evidence as appropriate

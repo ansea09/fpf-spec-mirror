@@ -6,12 +6,12 @@ section_id: "B.5.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__004_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:3 — Forces"
-line_start: 40112
-line_end: 40120
+line_start: 40173
+line_end: 40181
 dependencies:
   - "A.13"
   - "A.15"

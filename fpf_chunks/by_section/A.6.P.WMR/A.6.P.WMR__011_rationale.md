@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__011_rationale.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:10 — Rationale"
-line_start: 15876
-line_end: 15883
+line_start: 15917
+line_end: 15924
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"

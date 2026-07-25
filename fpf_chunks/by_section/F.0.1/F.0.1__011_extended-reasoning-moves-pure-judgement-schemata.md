@@ -6,12 +6,12 @@ section_id: "F.0.1:10"
 section_title: "Extended reasoning moves (pure judgement schemata)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__011_extended-reasoning-moves-pure-judgement-schemata.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:10 — Extended reasoning moves (pure judgement schemata)"
-line_start: 86653
-line_end: 86704
+line_start: 86762
+line_end: 86813
 dependencies:
   - "A.1.1"
   - "A.11"

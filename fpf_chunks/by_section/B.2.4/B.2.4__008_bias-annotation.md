@@ -6,12 +6,12 @@ section_id: "B.2.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__008_bias-annotation.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:5.1 — Bias-Annotation"
-line_start: 37441
-line_end: 37450
+line_start: 37502
+line_end: 37511
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Capability as emergence | A new capability label declares a new whole. | Test direct capability, characteristic, evidence, and existing-whole explanations first. |
+| Capability as emergence | A new capability label or supporting report declares a new whole. | Recover the exact capability facts and direct owner, separate their evidence, and apply B.2's existing-whole check. |
 | Function as part | A function block or functioning relation becomes physical or organizational parthood. | Separate functioning relation, bearer allocation, selected structure, and part-whole claims. |
 | Method chain as whole | A sequence of methods or work stages is called a new holon. | Keep method, method description, work plan, and work occurrence with direct owners. |
 | Diagram as flow structure | A diagram or graph is treated as the in-life transformation-flow structure. | Use mathematical, description, publication, and selected-structure owners before B.2. |

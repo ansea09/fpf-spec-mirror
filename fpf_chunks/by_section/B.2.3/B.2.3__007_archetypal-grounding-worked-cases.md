@@ -6,12 +6,12 @@ section_id: "B.2.3:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__007_archetypal-grounding-worked-cases.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37182
-line_end: 37214
+line_start: 37275
+line_end: 37301
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -41,24 +40,18 @@ keywords:
 
 Before MHT, teams have local runbooks, incident reports, dashboards, and reliability definitions. They may be useful, but they are not yet one episteme.
 
-After MHT, the result may be a reliability doctrine if it has one EntityOfConcern, one reference scheme for service harm and reliability claims, a claim graph with principles and definitions, grounding relations to operating services, publication relations, and source-use relations for its standards and training materials.
+After MHT, the exact candidate may be a reliability doctrine when it passes A.1 and its ClaimGraph, EntityOfConcern, and effective ReferenceScheme stand in an obtaining C.2.1 constitution relation. Add empirical grounding to operating services, handbook publication, and source-use relations for standards or training materials only when the receiving use needs them.
 
-```text
-EpistemeResultMHTSlice@Reliability:
-  mhtResultEpistemeRef: reliability doctrine
-  epistemeSlotRelationRef: U.EpistemeSlotRelation
-  entityOfConcernSlotRef: user-visible service harm and reliability
-  groundingHolonSlotRef: operating service systems
-  claimGraphSlotRef: doctrine claims and invariants
-  referenceSchemeSlotRef: shared reliability vocabulary
-  publicationOrSourceUseRefs: handbook and standard publication forms
-```
+- **Candidate new whole:** the reliability doctrine named by B.2.
+- **A.1 basis:** exact constituents and obtaining constructive relations supplied by an exact direct episteme-part or claim-composition owner, a governed assembly and reidentification rule, a composition-grounded claim-bearing characteristic, and compatibility with an applicable larger knowledge-body construction rule.
+- **C.2.1 constitution:** the doctrine's exact ClaimGraph states its principles and definitions; its EntityOfConcern is user-visible service harm and reliability; its effective ReferenceScheme supplies the reliability designations and interpretation rules.
+- **Neighboring relations:** empirical grounding to operating services, handbook publication, source use for standards and training materials, and evidence or assurance are added only for the receiving use and do not identify the doctrine.
 
 The doctrine does not enforce anything by itself. Systems in role use it, cite it, train with it, and work according to it.
 
 #### B.2.3:5.2 - Model Family Becomes Theory
 
-A model family can remain a toolbox. It becomes an episteme-result MHT only if the result has a unified claim graph, reference scheme, grounding holons, and admissible explanatory or predictive use that the collection did not carry as one whole.
+A model family can remain a toolbox. It becomes an episteme-result MHT only if B.2's candidate passes A.1 and one exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme stand in an obtaining C.2.1 constitution relation. Empirical grounding and explanatory or predictive use are checked through neighboring direct relations when the receiving use needs them; they are not extra identity constituents.
 
 If the change is only a new model publication or benchmark score, use publication, source-use, measurement, evidence, and mathematical-lens owners instead.
 

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__014_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:12 — Relations"
-line_start: 39835
-line_end: 39838
+line_start: 39896
+line_end: 39899
 dependencies:
   - "A.16"
   - "A.16.0"

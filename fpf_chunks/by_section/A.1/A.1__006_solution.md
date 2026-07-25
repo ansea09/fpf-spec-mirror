@@ -6,12 +6,12 @@ section_id: "A.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__006_solution.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:4 — Solution"
 line_start: 1466
-line_end: 1590
+line_end: 1592
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ Do not apply holon aggregation, part-whole grounding, acting-system roles, or ar
 
 `U.Holon` is the broad part-whole EntityOfConcern: an exact `U.Entity` whose actual construction supports treatment as a whole with parts and as a possible part of a larger whole.
 
-Keep ontology admission and candidate recognition separate. `E.24.UK` owns the one-time FPF decision that admits `U.Holon` and every other public holon kind. A.1 owns the constructive criterion by which an exact candidate is recognized under an already admitted kind. Candidate classification is a judgment about that exact entity; it is not a direct relation to a pattern edition, criterion episteme, evaluator, evidence set, or status value.
+Keep ontology admission and candidate recognition separate. `E.24.UK` owns the one-time FPF decision that admits `U.Holon` and every other public holon kind. A.1 owns the constructive criterion by which an exact candidate is recognized under an already admitted kind. `C.3.2` supplies three-valued discipline only for project-local kind membership; it does not own recognition under an admitted public holon kind. Candidate classification is a judgment about that exact entity; it is not a direct relation to a pattern edition, criterion episteme, evaluator, evidence set, or status value.
 
 For one exact candidate, recover six distinct constructive components. Do not let one component stand in for another:
 
@@ -81,7 +81,7 @@ When another use must inspect or cite the judgment, identify an optional C.2.1 c
 
 Exact evidence and assurance relations support or warrant assertion claim content. `G.11` separately governs whether the selected assertion edition is current. Receiving work separately decides whether to rely, decline to rely, defer, or reopen. `B.2` owns the different question whether the existing whole is no longer the right EntityOfConcern for a receiving use. A.1 satisfaction, failure, or evaluation uncertainty supplies neither warrant for a B.2 claim nor grounds for selecting B.2.
 
-In ordinary use, stop after naming the candidate, six constructive components, admitted kind, kind-specific condition, and resulting judgment needed by the current work. Materialize a classification assertion only when a named receiving use depends on that episteme.
+In ordinary use, stop after naming the candidate, six constructive components, admitted kind, kind-specific condition, and resulting judgment needed by the work. Materialize a classification assertion only when a specific downstream task must inspect or cite that judgment.
 
 #### A.1:4.3 - Admitted Holon Kinds
 
@@ -146,11 +146,13 @@ An acting collective `U.System` has a boundary, coordination, role assignments, 
 
 #### A.1:4.8 - Constructional Grounding
 
-A.1 governs constructive holon recognition. It does not replace part-whole grounding or E.24.UK public-kind admission.
+A.1 governs constructive holon recognition. It does not replace exact part-relation patterns, C.13 constructional grounding, or E.24.UK public-kind admission.
 
-Use A.14 for relation vocabulary such as component, portion, aspect, phase, member, and part-whole relation; C.13 for constructive grounding such as `Gamma_m.sum`, `Gamma_m.set`, or slice treatment; and B.3.5 for Working-Model assurance grounding when the part-whole claim supports assurance or evidence.
+Use A.14 and the direct part-relation patterns to identify the exact obtaining component, portion, aspect, phase, member, or other part relations. Use C.13 to show how those independently grounded constituents and relations assemble the candidate. If a C.13 trace is materialized, it is a C.2.1 episteme about that construction; writing or publishing the trace creates neither the constituents, the obtaining part relations, the assembly, nor the whole. Use B.3.5 only when a named assurance use needs grounding or warrant for a structural assertion.
 
-FPF avoids unrestricted composition. A set of nearby objects, graph, diagram, role bundle, method algebra, or source table does not become a holon merely because it can be described as a whole.
+Systems, epistemes, methods, dated work occurrences, and disciplines are admitted holon kinds under their direct patterns. C.13 may describe their construction only after those patterns supply exact parts and whole-forming relations for the candidate. A selected `U.Structure`, including `BoundedModelUseStructure`, organizes already identified relations for a use; selection or a diagram gives it no constituents, parthood, agency, holonhood, or B.2 transition.
+
+FPF avoids unrestricted composition. A set of nearby objects, graph, diagram, role bundle, method algebra, work breakdown, or source table does not become a holon merely because it can be listed or represented as a whole. Several independently identified transformations likewise do not become parts of one composite transformation from shared timing, a changed referent, a method or work decomposition, or a C.13 trace. When the work requires positive transformation composition or transformation holonhood and no direct composition governor supplies the candidate whole, constituents, contribution, compatibility, and reidentification rule, retain the exact blocker and stop before A.1 classification.
 
 #### A.1:4.9 - Slot Filling Does Not Create A Kind
 

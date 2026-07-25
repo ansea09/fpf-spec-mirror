@@ -6,12 +6,12 @@ section_id: "A.19.SPR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__003_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:1 — Problem frame"
-line_start: 28513
-line_end: 28522
+line_start: 28556
+line_end: 28565
 dependencies:
   - "A.10"
   - "A.16"

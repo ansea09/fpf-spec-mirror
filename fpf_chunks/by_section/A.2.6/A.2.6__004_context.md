@@ -6,24 +6,29 @@ section_id: "A.2.6:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__004_context.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:2 — Context"
-line_start: 4186
-line_end: 4210
+line_start: 4202
+line_end: 4228
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ### A.2.6:2 - Context
@@ -37,9 +42,11 @@ Modern projects couple **formal specs**, **data‑driven models**, **safety case
 * Safety and performance documents speak about *capability envelope*.
 * Knowledge patterns have used *generality* (G) as if it were “more abstract,” when we actually need “**where the statement holds**.”
 
-#### A.2.6:2.2 - context‑local reasoning
+#### A.2.6:2.2 - Slice-bounded reasoning
 
-FPF is context‑local: decisions, checks, and state assertions are **valid inside a bounded context**. Every practical question—*Is this claim usable here? Can this capability deliver that Work now?*—must be answered **on a concrete slice of context** (terminology, versions, environmental parameters, time selector **Γ\_time**). USM provides a first‑class object for such slices and a single scope calculus atop them.
+`U.ContextSlice` is not a bounded-context object or a part of one. It is an addressable value identified by its exact declared selector schema and selector values under the effective reference scheme: for example local senses, named standard editions, environmental values, platform or cohort selectors, and a time selector when that selector belongs to the declared schema. One scope predicate may inspect only a projection of those selectors, but that projection does not reidentify the slice.
+
+The practical question is therefore concrete: *does this exact slice belong to this exact scope?* A phrase such as “inside the current context,” a project label, or a selected `U.Structure` does not answer it.
 
 #### A.2.6:2.3 - Minimal, composable trust math
 

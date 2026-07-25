@@ -6,12 +6,12 @@ section_id: "A.6.M:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__008_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:7 — Conformance Checklist"
-line_start: 17968
-line_end: 17982
+line_start: 18009
+line_end: 18023
 dependencies:
   - "A.10"
   - "A.20"

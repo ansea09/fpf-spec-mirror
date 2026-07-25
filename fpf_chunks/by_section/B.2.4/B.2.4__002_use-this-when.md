@@ -6,12 +6,12 @@ section_id: "B.2.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__002_use-this-when.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:0 — Use This When"
-line_start: 37292
-line_end: 37320
+line_start: 37379
+line_end: 37398
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,22 +37,13 @@ keywords:
 
 ### B.2.4:0 - Use This When
 
-Use this pattern when capability-envelope evidence, functioning-relation evidence, or transformation-flow-structure evidence creates or reveals a B.2 whole-reidentification question.
+Use this pattern when exact capability, functioning, or transformation-flow facts, already established under their direct owners, make a B.2 whole-reidentification question live.
 
-The first useful question is:
-
-```text
-Does this capability or functioning evidence show that the existing whole
-is no longer the right EntityOfConcern, or is this only a direct capability,
-functioning, transformation, method, work, module, characteristic, or
-architecture claim?
-```
-
-Use `B.2.4` only for the first case. Use direct owners for the second.
+The first useful question is whether those facts can still be explained by the existing whole. If they can, keep that whole and use the direct capability, functioning, transformation, method, work, module, characteristic, or architecture owner. If they cannot, return the residual question to B.2. Evidence and measurement separately support, challenge, or leave unresolved the claims about those facts; they create neither the facts nor B.2 selection.
 
 **What goes wrong if missed.** A genuine new whole is hidden under ordinary capability improvement; or every impressive capability, function, method chain, module allocation, or metric gain is overclaimed as emergence.
 
-**What this buys.** The pattern keeps capability and functioning evidence available for B.2 while preventing B.2.4 from becoming a generic capability, function, method, work, module, or emergence pattern.
+**What this buys.** The pattern keeps capability and functioning facts available to B.2 while preserving the separate evidence relation and preventing B.2.4 from becoming a generic capability, function, method, work, module, or emergence pattern.
 
 **Not this pattern when.**
 

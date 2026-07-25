@@ -6,12 +6,12 @@ section_id: "B.2.3:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__008_bias-annotation.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:5.1 — Bias-Annotation"
-line_start: 37215
-line_end: 37224
+line_start: 37302
+line_end: 37311
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -39,7 +38,7 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Library as theory | A repository, dashboard, or reading list is treated as one claim-bearing episteme. | Fill C.2.1 slots and use B.2.3 only when whole reidentification remains current. |
+| Library as theory | A repository, dashboard, or reading list is treated as one claim-bearing episteme. | Identify B.2's exact candidate, execute A.1, and test its C.2.1 ClaimGraph/EntityOfConcern/ReferenceScheme constitution. |
 | Publication as episteme | A PDF, report, standard document, model card, or dashboard is treated as the episteme itself. | Keep publication forms with E.17 and source-use owners. |
 | Episteme agency | A theory, standard, or doctrine is described as performing work or enforcement. | Recover acting systems, role assignments, methods, work, and evidence separately. |
 | Morphing as MHT | View, translation, coarsening, or retargeting is called a new episteme whole. | Use A.6 episteme-morphism owners unless B.2 whole reidentification remains current. |

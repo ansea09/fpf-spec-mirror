@@ -6,12 +6,12 @@ section_id: "E.14:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__003_intent.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:1 — Intent"
-line_start: 76063
-line_end: 76069
+line_start: 76148
+line_end: 76154
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -30,7 +30,7 @@ keywords:
 ### E.14:1 - Intent
 
 Establish a **single, human‑centric Working‑Model** that practitioners can read, discuss, and evolve **without exposure to formal machinery**.
-Each statement **declares a justification stance** (`validationMode`) and, when assurance is sought, attaches **appropriate grounding** via one or more assurance shoulders — **Mapping**, **Logical**, **Constructive** — and **may additionally attach Empirical Validation** (evidence) as defined by the Trust & Assurance calculus. Empirical Validation can accompany any stance; it is **required** when the stance is *postulate*. Assurance shoulders sit **beneath** the Working‑Model and **never define its vocabulary**.
+Each statement **declares an author's assurance posture** (`validationMode`) and, when assurance is sought, attaches **appropriate grounding** through one or more assurance shoulders — **Mapping**, **Logical**, **Constructive** — and may additionally attach **Empirical Validation** as defined by the Trust & Assurance calculus. The posture and its supports justify or challenge the published claim; they create neither the governed value nor a world-side relation occurrence. Empirical Validation can accompany any posture and is **required** when the posture is *postulate*. Assurance shoulders sit **beneath** the Working-Model and **never define its vocabulary**.
 
 Put bluntly: *one model people work in; three assurance shoulders — plus empirical checks when the world is the judge.*
 

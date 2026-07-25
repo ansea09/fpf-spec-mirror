@@ -2,33 +2,38 @@
 chunk_kind: "child"
 pattern_id: "A.2.6"
 pattern_title: "Unified Scope Mechanism (USM): Context Slices & Scopes"
-section_id: "A.2.6:17"
+section_id: "A.2.6:19"
 section_title: "Annexes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__021_annexes-informative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
-  - "A.2.6:17 — Annexes (informative)"
-line_start: 4868
-line_end: 4905
+  - "A.2.6:19 — Annexes (informative)"
+line_start: 4901
+line_end: 4946
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
-### A.2.6:17 - Annexes (informative)
+### A.2.6:19 - Annexes (informative)
 
-#### A.2.6:17.1 - Source wording -> USM dictionary
+#### A.2.6:19.1 - Source wording -> USM dictionary
 
 | Source wording                      | USM term                                                 |
 | ----------------------------------- | -------------------------------------------------------- |
@@ -42,25 +47,33 @@ keywords:
 
 *(Use these source terms only in explanatory notes; not in guards or conformance text.)*
 
-#### A.2.6:17.2 - Minimal data model hints
+#### A.2.6:19.2 - Minimal data model hints
 
 **ContextSlice tuple (suggested keys):**
-`Context`, `vocabId`, `rolesetId?`, `Standards: [{name, version}]`, `env: {param: range/value}`, `gamma_time: {point|window|policy}`.
+`effectiveReferenceScheme`, one exact `declaredSelectorSchema`, the values of every selector in that schema, and optional selector families such as `exactLocalSenseRefs`, `standardOrInterfaceEditions`, `environmentOrPlatformSelectors`, `cohortOrJurisdictionSelectors`, and `gammaTime` only when that selector belongs to the declared schema because membership changes across time. A scope predicate declares which projection it inspects; it does not define the tuple's identity.
 
-**Claim scope block:**
-`assumptions`, `cohorts`, `platforms/Standards`, `env`, `gamma_time`.
+**Claim-scope predicate block:**
+`assumptions`, `cohorts`, `platformOrStandardEditions`, `environmentSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
 
-**Work scope block:**
-`conditions (env/platform/Standards)`, `measures (targets & units)`, `validity_windows`, `gamma_time`.
+**Work-scope predicate block:**
+`environmentSelectors`, `platformOrStandardEditions`, `resourceRegimeSelectors`, `exactLocalSenseRefs?`, and `gammaTime?` when time changes membership.
 
+**Publication-scope predicate block:**
+the exact audience, interface, availability, and other selectors that restrict publication use, always as a subset of the underlying claim or work scopes.
+
+**Separate use-time guard:**
+work-measure targets, qualification windows, evidence freshness, and any decision threshold. These are not fields of the scope value.
 *(These are informative; the spec does not mandate a concrete serialization.)*
 
-#### A.2.6:18.3 - Pseudocode membership (illustrative)
+#### A.2.6:19.3 - Pseudocode membership evaluation (illustrative)
 
 ```python
-def covers(scope: Set[Slice], target: Union[Slice, Set[Slice]]) -> bool:
-    if isinstance(target, Slice):
-        return target in scope
-    return target.issubset(scope)
+def evaluate_membership(scope, target_slice, available_inputs):
+    required = scope.required_selectors(target_slice)
+    if not required.issubset(available_inputs):
+        return UNKNOWN
+    return TRUE if scope.predicate(target_slice) else FALSE
 ```
+
+`required_selectors` returns the projection needed by this scope predicate; it neither creates nor reidentifies `target_slice`. `UNKNOWN` belongs to the evaluation result because a required input is unavailable. The underlying membership predicate remains bivalent for an exact, fully interpreted scope and slice.
 

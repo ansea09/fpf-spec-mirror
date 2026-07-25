@@ -6,12 +6,12 @@ section_id: "B.3.5:13"
 section_title: "Consequences (benefits, trade-offs, mitigations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__015_consequences-benefits-trade-offs-mitigations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:13 — Consequences (benefits, trade-offs, mitigations)"
-line_start: 38812
-line_end: 38829
+line_start: 38873
+line_end: 38890
 dependencies:
   - "B.3"
   - "C.13"
@@ -29,7 +29,7 @@ keywords:
 
 **Benefits**
 
-* **Cognitive clarity for authors and readers.** By making Working‑Model relations canonical and keeping formal bases as optional groundings, CT2R reduces the barrier to disciplined reasoning while preserving a path to higher assurance when necessary.  This honours the B.3 family's “few characteristics, conservative aggregation” ethos and keeps order/time outside of structure.
+* **Cognitive clarity for authors and readers.** Working-Model relations remain canonical while assurance accounts stay beneath them; published structural assertions carry the required account without exposing it as the working vocabulary. CT2R preserves a path to higher assurance while keeping order and time outside structure.
 * **Progressive assurance without tooling commitments.** The *postulate → inferential → axiomatic* assurance-posture progression lets teams raise assurance deliberately, matching their context and risk, in line with B.3.3’s maturity logic.
 * **Explicit fit management.** Treating edge‑fit (CL) as a first‑class concern prevents silent over‑confidence: weak mappings visibly cap reliability of composed claims.
 * **Cleaner separation of concerns.** Distinguishing collections from compositions and keeping sequence/time in Γ\_method and Γ\_time prevents recurrent category errors and preserves Γ‑algebra reviewability.

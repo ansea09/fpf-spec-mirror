@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 37034
-line_end: 37042
+line_start: 37146
+line_end: 37154
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,8 +42,8 @@ keywords:
 
 | Source family | Lesson for B.2.2 | FPF decision |
 | --- | --- | --- |
-| Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | B.2 owns whole reidentification; B.2.2 specializes it for `mhtResultSystemRef`. |
-| Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the result-system level. | B.2.2 requires result-system slot re-basing rather than component evidence transfer. |
+| Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | B.2 owns whole reidentification; B.2.2 applies complete A.1 and `U.System` recognition to the same exact candidate. |
+| Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the candidate-system level. | B.2.2 keeps the direct facts with their owners and tests each assurance claim against the exact candidate instead of transferring component support. |
 | Constructional and part-whole ontology | Acting on an object and being part of it are different relations. | A.12, A.3.4, A.15.1, A.14, and C.13 remain separate owners. |
 | Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Dashboards, models, twins, and publications use episteme and description owners unless the operating system is recovered as EoC. |
 

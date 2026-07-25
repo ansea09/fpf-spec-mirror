@@ -6,27 +6,36 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 33663
-line_end: 33886
+line_start: 33718
+line_end: 33993
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.2.6"
   - "A.20"
   - "A.21"
   - "A.22.CGUS"
+  - "A.3.1"
+  - "A.6.0"
+  - "A.6.1"
   - "A.6.2"
   - "A.6.3"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
+  - "A.6.REL"
   - "A.7"
   - "B.3"
   - "C.11"
+  - "C.13"
   - "C.16"
   - "C.2.1"
   - "C.2.P"
@@ -34,7 +43,6 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
-  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.ILC"
   - "C.30.LCA"
@@ -46,7 +54,6 @@ dependencies:
   - "C.35"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.18"
@@ -57,66 +64,68 @@ dependencies:
   - "G.5"
   - "G.6"
 keywords:
-  - "architecture-description boundary"
-  - "preserved and lost structure"
-  - "selected structure"
-  - "source return"
-  - "structural description"
-  - "structural view"
-  - "structure"
 ---
 
 ### A.22:4 - Solution
 
-Select `U.Structure` as the A.22 ontic head: a dependent, non-agentive `EntityOfConcern` used when selected organization changes a next engineering or reasoning action.
+Select `U.Structure` as the A.22 ontic head: a dependent, non-agentive organization selected from independently identified constituents and exact obtaining relation occurrences under applied constraints for one named use frame.
 
-> `U.Structure` is the organization of typed relations, constraints, invariants, variation classes, and admissible references to operation or dynamics descriptions over a declared substrate, or declared A.6.6 base declaration when base-dependence is being claimed, inside a bounded context and admissible-use frame.
+The constituents keep their own identities and kinds. Every selected relation occurrence must already obtain and retain identity under its direct governing pattern. A.22 neither creates those participants nor makes their relations obtain. An exact system or practitioner selects their organization; A.22 supplies the identity and boundary rule for that selected organization.
 
-The A.22 ontic head is intentionally narrow. `U.Structure` is the selected organization under concern: typed relations, constraints, invariants, variation classes, operation or dynamics references, preserved organization, and lost organization over a declared substrate in a bounded context. The grounding object may be a `U.Holon`, `U.System`, `U.Episteme`, declared substrate, or another declared substrate, EntityOfConcern type, relation kind, or record kind named by the direct governing pattern; the selected structure remains the structure of or over that object.
+The applied constraints are the exact constraint claims used in the selection judgment, not the identity of the document, table, rule card, or constraint episteme that carries them. The named use frame states the question being answered, the admissible action, and the non-admissible overread. A generic phrase such as “current use” or “appropriate structure” is not a use frame.
 
-The first useful A.22 use is about the selected structure itself: name the bounded context, selected structure, relation, constraint, invariant, variation class, operation or dynamics reference that matters, preserved or lost organization, and the structure-use return condition or governing-pattern application needed for work. Description records, views, publications, diagrams, publication forms, and renderings are aids that make that selected-structure use inspectable, reusable, comparable, or safe to rely on; they do not share the center of the Solution.
+A system may perform dated structure-selection work by an exact method and may create a result episteme about the selected structure. The system acts; the pattern, constraints, graph, result, and structure do not. The method, work, A.6.1 binding or direct participation relation, decision, and C.2.1 result episteme are neighboring objects. None constitutes or reidentifies the structure.
 
-`U.Structure` may fill `EntityOfConcern` for a structure description, view, or structure-claim relation. When a structure description or view is being used, `DescriptionContext.EntityOfConcernRef` names the selected structure, structure claim, or relation governed by the governing pattern for that use; publication forms, publication units, and renderings only make the episteme or view available.
+A diagram, graph, table, model, description, view, or publication may designate, represent, or describe the selected organization and its already identified constituents. Its form does not establish a constituent's identity, make a relation obtain, or select a structure. Use C.29, C.2.1, E.17.0, and the exact publication or source-use patterns for those neighboring claims.
 
-A.22 governs `U.Structure` as a dependent, non-agentive ontic head. It works first over selected-structure EntityOfConcern records and structure-claim reliance relations. Structural descriptions, structural views, extracted structural views, structural-aspect descriptions, structural-coarsening descriptions, and structure-use return conditions are subordinate record forms used only when they preserve the selected-structure use, expose loss, enable comparison, or state a reliance boundary. A.22 does not govern architecture descriptions directly; `C.30` and its subpatterns govern architecture as a use of selected structure over a described holon.
+#### A.22:4.1 - Base `U.Structure` Identity and Selection
 
-#### A.22:4.1 - Selected Structure Object
+For a selected structure `S`, recover four identity discriminators:
 
 ```text
-U.Structure ::= {
-  structureId,
-  declaredStructureSubstrateRef:
-    U.EntityRef | U.HolonRef | U.EpistemeRef | DeclaredSubstrateRef,
-  boundedContextRef,
-  relationSignatureRefs?,
-  operationOrDynamicsDescriptionRefs?,
-  constraintRefs?,
-  invariantRefs?,
-  symmetryRefs?,
-  topologyOrGeometryRefs?,
-  stateSpaceRefs?,
-  causalOrPredictiveDescriptionRefs?,
-  informationRegularityRefs?,
-  coarseGrainingRefs?,
-  generalStructureAspectKindRefs:
-    functional | mereological | modular | transformationFlow |
-    control | workMethod | roleEnactor | evidenceAssurance |
-    semantic | informational | causalPredictive | dynamical |
-    algebraic | topological | geometric | scaleCoarseGrained |
-    otherDeclared,
-  granularityOrScaleRef?,
-  equivalenceOrIsomorphismCriterion?,
-  variationClassRefs?,
-  preservedUnder?,
-  brokenBy?,
-  admissibleUse,
-  nonAdmissibleUse
-}
+StructureIdentity(S) = <
+  exact independently identified constituents,
+  exact selected obtaining relation occurrences,
+  exact constraints as applied,
+  one named selection-use frame
+>
 ```
 
-The field list is a recovery aid, not a demand to fill every field. The ordinary record names only the fields that carry the next admissible use. When state, dynamics, causality, measurement, bridge, evidence, assurance, gate, work, decision, or mathematical-lens claims are being made, the record names the governing pattern instead of absorbing that claim kind into A.22.
+Base `U.Structure` identity has no ambient context field. A bounded-context label, `U.ContextSlice`, `U.ClaimScope`, project record, description, view, graph, table, or publication is not automatically an additional discriminator. If an exact scope is referenced by an applied constraint, that constraint contributes through the third discriminator. If a model-use structure is independently selected as a constituent of another structure, it contributes through the first discriminator.
 
-A.22 `generalStructureAspectKindRefs` are general structure-aspect cues. C.30.ASV `ArchitectureStructureKindRef` values are architecture-local structure-kind classifiers for structures selected by `ArchitectureOf@Context`. A matching label does not imply identity. Use a declared mapping when an A.22 aspect is used as an architecture structure kind.
+The first discriminator is an exact plurality, not a graph node set created by notation. A separately useful C.13 collection may designate the same constituents, but collection membership neither proves parthood nor replaces their direct identities. The second discriminator contains the exact relation occurrences chosen for this organization; a relation name, edge label, tuple position, or adjacency row is insufficient. The third contains the semantic constraints actually applied; changing only the rationale, formatting, or publication of an unchanged constraint claim does not change this discriminator. The fourth names the use question and its admissible action or stop.
+
+Two references resolve to the same `U.Structure` when all four discriminators resolve to the same values. A changed designator, selecting system, method, work occurrence, result episteme, description, graph, representation scheme, view, or publication leaves the structure unchanged when the four discriminators remain unchanged. Replacing a constituent, a selected relation occurrence, an applied constraint, or the named use frame can identify another structure. If a relation occurrence itself may have been reidentified, apply its direct relation pattern before reapplying A.22.
+
+If the constituents or obtaining relations cannot be recovered, stop at the exact description or representation and return the missing-governor or missing-grounding question. If the constraints or named use frame are absent, the material may show an arrangement, but it does not yet support the claimed selected `U.Structure`.
+
+The following two compact records are recovery aids, not new ontic kinds. In `SelectedStructureBasis`, the selected structure, constituents, selected obtaining relations, applied constraints, and use frame state identity; the preserved/lost and action/stop rows state the use-return boundary rather than adding identity fields.
+
+```text
+SelectedStructureBasis:
+  selectedStructureRef:
+  constituentRefs:
+  selectedObtainingRelationOccurrenceRefs:
+  appliedConstraintClaimRefs:
+  namedSelectionUseFrame:
+  preservedStructure:
+  lostHiddenOrExcludedStructure:
+  admissibleAction:
+  stopOrNonAdmissibleUse:
+
+StructureSelectionUse:
+  selectingSystemRef:
+  selectionMethodRef:
+  selectionWorkRef:
+  directParticipationOrOperationBindingRefs:
+  selectedStructureRef:
+  selectionResultEpistemeRef?, when the judgment must persist:
+  selectionDecisionRef?, when an accountable choice is current:
+```
+
+`StructureSelectionUse` records how a system performed the selection and reached the judgment. `SelectedStructureBasis` records the four identity discriminators plus the use-return boundary. Do not copy the system, work, method, result episteme, or decision into the structure basis. A `U.ClaimScope`, effective `U.ReferenceScheme`, or model-use structure that merely qualifies a claim about either record does not enter base identity. A scope referenced by an applied constraint or a model-use structure selected as a constituent enters only through that already declared discriminator.
+
+A.22 structure-aspect names such as functional, mereological, modular, transformation-flow, control, semantic, causal, dynamical, algebraic, topological, geometric, or coarse-grained remain cues for which relations and constraints to recover. They do not identify a structure without the four discriminators. C.30.ASV `ArchitectureStructureKindRef` values remain architecture-local classifiers; a matching label does not imply identity.
 
 #### A.22:4.1a - Compact auxiliary boundary
 
@@ -128,6 +137,33 @@ Use `A.22.CGUS` when the current A.22 structure is an organization among several
 
 Open `A.22.CGUS` only when the candidate has several loci and cross-locus constraints. A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
 
+#### A.22:4.1c - Bounded And Cross-Context Model-Use Structure Specializations
+
+`BoundedModelUseStructure` is a `U.Structure` selected over one exact model episteme, exact admitted model-use holons, and obtaining model-applicability, actual model-use, model-expression-coherence, and boundary-crossing relation occurrences governed by `A.1.1`. Participating claim-scope values and their `A.2.6` membership semantics constrain that organization without creating a duplicate scope-delimitation relation. Its A.22 identity uses those exact constituents, selected occurrences, applied constraints, and the named bounded-model-use frame; continuity across model editions additionally requires the exact `C.2.1` episteme-edition relation and the declared `A.1.1` continuity rule. It is not a holon, description, or view.
+
+`CrossContextRelationStructure` is a different `U.Structure`, identified from exact crossing relation occurrences selected among several bounded model-use structures under applied constraints for one named crossing-analysis use. The selecting system and its work remain separate. Sharing a participant does not merge the structures, and overlap does not prove parthood.
+
+**Public name settlement.** The following F.18 NameCard names this selected cross-structure organization. It does not create the structures, crossing relations, mapping method, or view.
+
+```text
+NameCard:
+  NameCardId: NC-CROSS-CONTEXT-RELATION-STRUCTURE
+  GovernedValueRef: U.Structure selected over several BoundedModelUseStructure values and their exact crossing relations
+  GoverningPatternRef: A.22
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseRef: selected relations among several bounded model-use structures, used as the EntityOfConcern of a DDD context-mapping U.View
+  TechLabel: CrossContextRelationStructure
+  PlainLabel: relations among bounded contexts
+  CandidateSet: CrossContextRelationStructure; BoundedContextRelationStructure; ContextRelationStructure; ContextMapStructure
+  RejectedCandidates: BoundedContextRelationStructure hides plurality; ContextRelationStructure leaves the endpoint kind unresolved; ContextMapStructure confuses the structure with the DDD view and FPF Map
+  SelectionRationale: name the selected cross-structure organization without retyping its view, diagram, or publication as that structure
+  PublicRowStatus: pending
+  LineageEntries: replaces broad context-map and bounded-context-relation wording
+  RefreshCondition: reopen if the selected EntityOfConcern is one model-use structure or if the view no longer concerns crossings among several structures
+```
+
+DDD `Context Mapping` names a repeatable `U.Method`. Intended mapping work and performed mapping work remain with the A.15 family. The product called a `Context Map` is a `U.View` whose EntityOfConcern is `CrossContextRelationStructure`; its rendering and publication carrier remain with E.17. Thus method, work, selected structures, view, and publication stay distinct while the external source terms remain retrievable.
+
 #### A.22:4.2 - Structure claim reliance relation selection
 
 
@@ -137,7 +173,7 @@ A.22 does not mint a local generic reliance record. When a structure claim relie
 | --- | --- | --- |
 | Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source-basis pins or structure-use return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
 | Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
-| EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when grounding-holon grounding is being claimed, bounded context, viewpoint, reference plane, observation or witness condition if observation or witness use is being claimed | `C.2.1`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
+| EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when grounding-holon grounding is being claimed, effective reference scheme, claim scope, optional model-use structure, viewpoint, reference plane, and observation or witness condition when current | `C.2.1`, `A.2.6`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
 | Evidence or witness reliance | evidence-use relation, evidence-provenance relation, claim ref, witness publication or observation record, timespan and freshness; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.10`, `A.2.4`, `G.6` |
 | Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseAdmissibilityValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
 | Simulation, generated representation, model, or extracted trace | source publication or representation publication, extraction method, validation boundary, preserved structure, lost structure, structure-use return condition | source-description and Description-context patterns plus `C.29`, `A.10`, or governing pattern when a claim of that kind is being made |
@@ -148,12 +184,12 @@ If no reliance relation kind can be selected, keep the wording as a source-findi
 
 #### A.22:4.3 - Structural descriptions and views
 
-Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, publication forms, or source-pin sets. Every record whose name ends in `Description@Context` here is a specialization of existing `U.Episteme` governed by `C.2.1` and `E.10.D2`. Every record whose name ends in `View@Context` here is a specialization of existing `U.View` or `U.EpistemicViewing` governed by `A.6.3` and `E.17.0`. `DescriptionContext` is imported, not locally redefined.
+Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, publication forms, or source-pin sets. Every record whose name ends in `Description@Context` here is an existing `U.Episteme` governed by `C.2.1` and qualified for describing use under `E.10.D2`. Every record whose name ends in `View@Context` here remains that same episteme and has `U.View` membership only when E.17.0 conformance to an exact viewpoint episteme obtains. A.6.3 governs only an optional source-to-receiving construction. `DescriptionContext` is imported, not locally redefined.
 
 ```text
 StructuralDescription@Context ::= {
   descriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
   structureRefs: FinSet(U.StructureRef),
   structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | StructureUseReturnConditionRef | NamedClaimGoverningPatternRef),
   describingEpistemeRef,
@@ -163,7 +199,7 @@ StructuralDescription@Context ::= {
 
 StructuralView@Context ::= {
   viewId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
   structureRefs: FinSet(U.StructureRef),
   structuralAspectDescriptionRefs?,
   selectedRelationsOrOperations,
@@ -182,7 +218,7 @@ Use extracted or transformed structure records when a corpus, trace, model, lens
 ```text
 ExtractedStructuralView@Context ::= {
   extractedViewId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
   sourceCorpusOrTraceRefs,
   structureRefs: FinSet(U.StructureRef),
   extractionDescriptionRef,
@@ -196,7 +232,7 @@ ExtractedStructuralView@Context ::= {
 
 StructureExtractionDescription@Context ::= {
   extractionDescriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
   sourceInputKind,
   lensOrMethodRef,
   budgetOrObserverBoundary?,
@@ -210,7 +246,7 @@ StructureExtractionDescription@Context ::= {
 
 StructuralAspectDescription@Context ::= {
   aspectDescriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
   aspectKindRef,
   structureRefs: FinSet(U.StructureRef),
   structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | StructureUseReturnConditionRef | NamedClaimGoverningPatternRef),
@@ -220,7 +256,7 @@ StructuralAspectDescription@Context ::= {
 
 StructuralCoarseningDescription@Context ::= {
   coarseningDescriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, BoundedContextRef, ViewpointRef),
+  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
   sourceStructureRefs: FinSet(U.StructureRef),
   resultStructureRefs: FinSet(U.StructureRef),
   preservedUnder,
@@ -251,7 +287,7 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 
 | Tempting collapse | A.22 repair |
 | --- | --- |
-| The reliance relation is treated as the structure. | Name `declaredStructureSubstrateRef` and, when source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is being claimed, name the reliance relation record by value and name the governing FPF pattern; keep structure as selected organization over the declared substrate and do not turn that reliance relation into structure. |
+| The reliance relation is treated as the structure. | Recover the exact constituents, selected obtaining relation occurrences, applied constraints, and named use frame. When a neighboring source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance claim is current, name that exact relation and governor separately. |
 | The diagram, graph, table, dashboard, or publication form is the structure. | Treat it as publication, description, view, publication form, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
 | A transformation-flow graph expression is the structure in every sense. | Use `E.18` for graph, path, crossing, and flow valuation; use A.22 only for the selected structure claim; use `C.30.TFS-REL` when an architecture-to-transformation-flow relation claim is being made. |
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
@@ -261,6 +297,22 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 | Function, module, interface, platform, layer, stack, block, expert, cache, router, or gate becomes a root kind by appearing in structure prose. | Use `C.30.STRAT` for source-label recovery, then `A.6.F`, `A.6.M` module-relation repair when a module-interface claim is being made, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `E.18`, `C.30.ASV`, and governing patterns as triggered. |
 
 #### A.22:4.8 - Worked slices
+
+**Maintenance-isolation structure selection.** A planner needs to choose which relations matter when isolating a pump skid for maintenance.
+
+```text
+named selection use: choose isolation points before Pump_37 maintenance
+constituents: independently identified Pump_37, Motor_12, Valve_In_4, Valve_Out_4, and Bus_7
+selected obtaining relations: exact installed-with, connected-to, supplied-by, and upstream-of occurrences that currently obtain under their direct patterns
+applied constraints: isolate every live energy and material path to Pump_37; retain only relations relevant to this isolation use
+selecting system: MaintenancePlanner_A
+method and work: IsolationStructureSelectionMethod enacted in SelectionWork_2026-07-25
+selected structure: Pump37_MaintenanceIsolationStructure
+admissible action: prepare the isolation sequence from the selected paths
+stop: reopen selection when a constituent, selected occurrence, or isolation constraint changes
+```
+
+`Pump37_MaintenanceIsolationStructure` is identified by the exact constituents, exact selected obtaining occurrences, applied isolation constraints, and maintenance-isolation use frame. `SelectionWork_2026-07-25`, the enacted method, and any C.2.1 episteme that records the judgment remain separate. A graph can represent the same organization under C.29; an edge in that graph neither makes its relation obtain nor replaces the exact relation occurrence. A near miss is a visually identical graph assembled from labels when one connection has not been established: it is a representation candidate, not the selected structure claimed above.
 
 **Architecture kernel slice.** A team says, "the architecture is the graph." A.22 does not accept that sentence as a root-kind claim. The repair is:
 

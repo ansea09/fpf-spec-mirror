@@ -6,18 +6,20 @@ section_id: "C.13:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__003_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:2 — Problem Frame"
-line_start: 46081
-line_end: 46084
+line_start: 46144
+line_end: 46147
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,5 +29,5 @@ keywords:
 
 ### C.13:2 - Problem Frame
 
-FPF presents a unified structural backbone used across disciplines. If sub-relations like *ComponentOf* or *MemberOf* are only **declared** directly, they may stay usable but lack a generative guarantee that a new subtype is extensionally well-behaved or reducible to common mereology.
+FPF needs both readable structural relations and a recoverable account of how constituents assemble a whole, members form a collection, or a facet distinguishes an aspect. A part-relation name alone may leave the construction opaque. A constructor expression alone can commit the opposite error by treating syntax as the source of entities, relation obtaining, or whole identity.
 

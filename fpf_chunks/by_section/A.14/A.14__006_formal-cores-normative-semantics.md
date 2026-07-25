@@ -6,12 +6,12 @@ section_id: "A.14:5"
 section_title: "Formal cores (normative semantics)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__006_formal-cores-normative-semantics.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:5 — Formal cores (normative semantics)"
-line_start: 23489
-line_end: 23541
+line_start: 23530
+line_end: 23584
 dependencies:
   - "A.1"
   - "A.15"
@@ -83,7 +83,9 @@ keywords:
 
 #### A.14:5.3 - CT2R‑LOG & Compose‑CAL handshake *(normative link)*
 
-* **Structural claims** published in the Working-Model relation layer **SHALL** be justified, when assurance is required, by a **Constructive** grounding narrative using **Γ_m.sum | Γ_m.set | Γ_m.slice** and **linked with `tv:groundedBy`** (see **B.3.5**; **C.13**).
-* **PhaseOf** is **temporal parthood**; it **SHALL NOT** be grounded via Γ\_m. Its assurance follows identity‑through‑time criteria (CC‑PHA‑1..3) and Γ\_time ordering (B.1.4).
-* **MemberOf** remains **non-mereological** (CC-MEM-2). When modelling a collection-as-whole for assurance purposes, constructive grounding uses **Γ_m.set**; no **ComponentOf** inferences follow from **MemberOf**.
+* A **structural relation claim** published in the Working-Model layer **SHALL**, when assurance is required, link through `tv:groundedBy` to one current C.2.1 construction-trace episteme in the `Γ_m.sum | Γ_m.set | Γ_m.slice` form (see **B.3.5** and **C.13**). The direct relation pattern decides whether the occurrence obtains and how it is identified; the candidate's direct identity or reidentification rule decides continuity. The trace only reports that basis.
+* **PhaseOf** is **temporal parthood**; it **SHALL NOT** be grounded through `Γ_m`. Its assurance follows identity-through-time criteria (CC-PHA-1..3) and `Γ_time` ordering (B.1.4).
+* **MemberOf** remains **non-mereological** (CC-MEM-2). A `set` trace is truthful only after one exact collection, its identity rule, and the exact direct membership occurrences are grounded; no **ComponentOf** inference follows.
+
+Two quick identity tests apply before relying on a trace. The same listed constituents can form a different whole when their direct assembly relations or rule differ. Conversely, a permitted constituent replacement can preserve the same whole. An equal input list, a repeated trace, or `validationMode=axiomatic` decides neither case.
 

@@ -6,12 +6,12 @@ section_id: "C.2.2a:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__004_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:3 — Forces"
-line_start: 41909
-line_end: 41917
+line_start: 41970
+line_end: 41978
 dependencies:
   - "A.16"
   - "A.16.0"

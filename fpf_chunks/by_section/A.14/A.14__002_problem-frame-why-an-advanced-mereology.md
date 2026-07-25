@@ -6,12 +6,12 @@ section_id: "A.14:1"
 section_title: "Problem frame - why an advanced mereology?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__002_problem-frame-why-an-advanced-mereology.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:1 — Problem frame - why an advanced mereology?"
-line_start: 23440
-line_end: 23456
+line_start: 23481
+line_end: 23497
 dependencies:
   - "A.1"
   - "A.15"
@@ -49,5 +49,5 @@ This section introduces two **normative** sub‑relations of `partOf` that close
 
 It also restates guard‑rails that keep **role values** outside holon mereology and keep **method values** outside A.14 structural component mereology, while allowing method holarchy through method owners such as `A.3.1` and `B.1.5`. Describing epistemes such as `U.MethodDescription` and `U.WorkPlan` use ordinary episteme parthood and versioning like any other `U.Episteme`. It also clarifies how **MemberOf** fits: membership and collection-as-whole grounding start with A.14, C.13, and B.3.5 as appropriate; acting collective systems require `U.System` admission plus role, method, work, and evidence owners; whole reidentification uses B.2 only when existing-whole explanations fail.
 
-**Publication note (Working-Model first).** Read A.14 together with **E.14 Human-Centric Working-Model** and **B.3.5 CT2R-LOG**: publish relations in the **Working-Model** relation layer; when assurance is sought, **ground downward**. For structural claims that require extensional identity, use the **Constructive** shoulder via **Compose-CAL Γ_m (sum | set | slice)**; order/time stay outside mereology (Γ_time / Γ_method).
+**Publication note (Working-Model first).** Read A.14 together with **E.14 Human-Centric Working-Model** and **B.3.5 CT2R-LOG**: publish the direct relation claim in the **Working-Model** layer and, when assurance is sought for a structural claim, link that assertion downward to one current C.2.1 construction-trace episteme in the **Compose-CAL Γ_m** `sum`, `set`, or `slice` form. The trace reports exact participants, direct relation occurrences, the applicable construction rule, and identity or reidentification conditions. It creates none of them; order and time remain outside mereology.
 

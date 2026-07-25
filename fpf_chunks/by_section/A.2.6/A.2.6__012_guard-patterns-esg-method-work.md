@@ -6,89 +6,62 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_guard-patterns-esg-method-work.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 4535
-line_end: 4660
+line_start: 4602
+line_end: 4681
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ### A.2.6:10 - Guard Patterns (ESG & Method–Work)
 
 #### A.2.6:10.1 - Common guard shape
 
-A scope‑aware guard has the form:
+A claim-scope guard starts with one exact judgment:
 
-```
-Guard := ScopeCoverage AND TimePolicy AND (EvidenceFreshness?) AND (BridgePolicy?)
-```
-
-**Admissibility note (normative; A.6.1 alignment).** If `ScopeCoverage` is **unknown** (due to unknown slice keys, unmappable translation, missing `Γ_time`, etc.), the guard MUST NOT silently treat this as `false`. It MUST either abstain (fail closed) or apply an explicit R‑lane degradation policy.
-
-Where:
-
-* **ScopeCoverage**: `Scope covers TargetSlice` (singleton or finite set), see §7.1.
-* **TimePolicy**: explicit `Γ_time` selector(s); implicit “latest” is forbidden (§8.2).
-* **EvidenceFreshness**: optional R‑lane freshness/decay predicates; **separate** from ScopeCoverage (§8.5).
-* **BridgePolicy**: required if the Scope and TargetSlice are in **different Contexts**; declares Bridge, CL, loss notes (§7.4).
-
-The guard **fails closed** (no membership ⇒ denial), and evaluation is **deterministic** given the slice tuple (§8.4).
-
-#### A.2.6:10.2 - ESG guard families (epistemes)
-
-**EG‑1 - ClaimScopeCoverage (mandatory).**
-The state transition MUST include a predicate:
-
-```
-U.ClaimScope(episteme) covers TargetSlice
+```text
+membershipResult := evaluateMembership(TargetSlice, ClaimScope, InterpretationBasis)
 ```
 
-* **Singleton**: `TargetSlice ∈ ClaimScope`.
-* **Finite set**: `TargetSet ⊆ ClaimScope`.
+Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evidence freshness, formality, time currentness, decision, and assurance remain separate predicates.
 
-**EG‑2 - Formality threshold (if required by ESG).**
-When rigor is gated, the guard MUST reference C.2.3:
+Add a Bridge branch only when the membership predicate uses exact local senses that require translation. A different reference scheme or location label alone is not such a trigger.
 
-```
-Formality(episteme) >= F_k
-```
+#### A.2.6:10.2 - Claim-scope guard family
 
-**EG‑3 - Evidence freshness (R‑lane).**
-If the state implies trust, a separate predicate MUST assert freshness windows for bound evidence:
+**EG-1 - Exact membership.**
 
-```
-Fresh(evidence, window)  AND  (NoExpiredBindings)
+```text
+member(TargetSlice, ClaimScope) = true
 ```
 
-**EG‑4 - Cross‑context usage.**
-If `TargetSlice.Context ≠ episteme.Context`, the guard MUST require a declared Bridge and CL:
+Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target slice. The episteme, scope, and slice remain different values.
 
-```
-Bridge(source=episteme.Context, target=TargetSlice.Context)  AND  CL ≥ c
-```
+**EG-2 - Formality or evidence, only when current.** A receiving state may separately require a C.2.3 formality threshold or an A.10 freshness judgment. Neither changes membership.
 
-> **Effect:** CL penalties apply to **R**, not to **F/G** (§7.4). The ESG guard MAY also **narrow** the mapped Claim scope when mapping losses are known.
+**EG-3 - Unknown evaluation.** When a required selector, designation resolution, or translation input is unavailable, return `unknown` as the result binding of the exact `evaluateMembership` application, or as the result of the directly governed evaluation when no reusable application is current. Abstain or follow the exact receiving reliance policy; do not assert `member = false`. Add a C.2.1 result episteme only when a named receiving use needs the conclusion to persist. Use A.15.PROD only when the current claim is that dated work first constituted that episteme.
 
-**EG‑5 - ΔG triggers.**
-If the transition publishes a **wider** Claim scope (ΔG+), the guard MUST capture the new support or the new Bridge and, if Context policy so dictates, mint a new edition (PhaseOf).
+**EG-4 - Translation.** When exact local senses differ and an obtaining F.9 Bridge occurrence relates them, derive the translated scope with `deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, TargetReferenceScheme)`, then use that returned scope in `evaluateMembership`. Name congruence and loss separately. Scheme difference alone does not select this branch.
 
-**EG‑6 - Independence for SpanUnion (when claiming parallel scope).**
-When the episteme declares a **SpanUnion** across independent lines, the guard MUST include an **independence justification** (pointer to the support partition). No independence ⇒ no union.
-
-*(Informative note.)* Managers often combine EG‑1 (coverage) + EG‑2 (F threshold) + EG‑3 (freshness) for “Effective” or “Approved” states, and EG‑4 when adopting claims across Contexts.
+**EG-5 - Scope-value versus declaration change.** Widen or narrow only when the extension gains or loses at least one independently identified slice; that extension change identifies another `U.ClaimScope`. A changed predicate expression with the same exact extension is a refit: it preserves the exact scope value and may require another scope declaration or claim-bearing episteme edition under its direct governor. A result-record, table, or selected-structure change alone changes neither the scope value nor its declaration.
 
 #### A.2.6:10.3 - Method–Work guard families (capabilities)
 
@@ -107,48 +80,34 @@ SLO and target measures satisfied (latency ≤ L, throughput ≥ T, tolerance �
 ```
 
 **WG‑3 - qualification-window policy holds** (mandatory for operational use).
-Operational guards MUST assert that qualification windows (qualification/inspection/recert intervals) hold **at `Γ_time`**:
+Operational guards MUST assert that the exact qualification-window predicate (qualification, inspection, or recertification) holds at the receiving guard's exact evaluation time:
 
 ```
-ValidityWindow(capability) holds at Γ_time
+qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime) = true
 ```
 
-**WG‑4 - Cross‑context use of capability.**
-If the JobSlice is in another Context:
+**WG-4 - Translation branch for capability use.**
 
-```
-Bridge(source=capability.Context, target=JobSlice.Context)  AND  CL ≥ c
-```
+Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice and an obtaining F.9 Bridge occurrence relates those senses. Name the exact bridge, congruence, and loss. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
 
-CL penalties affect **R** (confidence in deliverability), **not** Work scope; however, the guard SHOULD narrow the mapped Work scope to account for known mapping losses.
-
+Known mapping loss may require an explicitly narrower translated Work scope. Any confidence penalty belongs to the separately governed reliance or evidence assessment, not to membership truth.
 **WG‑5 - Δ(WorkScope).**
 When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
 
-#### A.2.6:10.4 - Bridge‑aware guard macro (reusable)
+#### A.2.6:10.4 - Translation guard
 
-A reusable macro for Cross‑context guards:
+Use this branch only after an exact local-sense translation need and exact F.9 Bridge occurrence are current:
 
-```
-Guard_XContext(Scope, TargetSlice) :=
-    exists Bridge b: (b.source = owner(Scope).Context AND b.target = TargetSlice.Context)
-AND CL(b) ≥ c
-AND Scope’ = translate(b, Scope)
-AND Scope’ covers TargetSlice
-AND (Apply CL penalty to R)
+```text
+translatedScope := deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, TargetReferenceScheme)
+membershipResult := evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)
 ```
 
-* **Owner(Scope).** The carrier that declares the scope: an **Episteme** (for `U.ClaimScope`), a **Capability** (for `U.WorkScope`), or a **Publication carrier** (for `U.PublicationScope`).
-* **Translate(b, Scope).** The partial mapping of a set of source slices to target slices induced by Bridge **b**. If a source slice is unmappable, it is dropped. The result is a set of target slices; **CL penalties apply to R only**.
-* **Penalty to R**: applied per trust calculus; F and G remain as declared.
+The source claim-bearing episteme designates `SourceScope`; it does not own that value as a hidden context field. The bridge occurrence relates exact local senses under F.9. Its congruence and loss qualify the receiving reliance claim. An unmapped slice yields `unknown` for the attempted evaluation unless the translated scope explicitly excludes it; it is not silently dropped and reported as false.
 
-#### A.2.6:10.5 - Selector policy (Γ\_time)
+#### A.2.6:10.5 - Time selector
 
-All ESG and Method–Work guards MUST spell out **`Γ_time`**:
+Name `gammaTime` in the context slice only when the applicable membership predicate varies with time. State the boundary that changes membership. If a work qualification or evidence-freshness condition varies with time, name its exact evaluation time and interval or policy under that condition's direct governor rather than copying it into scope. For example, `qualificationWindowHolds(controller, Recertification90d, evaluationTime)` is a separate guard; it is not a scope selector.
 
-* **Point** (“as of 2026‑03‑31T00:00Z”).
-* **Window** (“rolling 180 days”).
-* **Policy** (“last lab calibration within 90 days”).
-
-Implicit “latest” is not allowed. If multiple contributors declare different policies, **serial intersection** computes the overlap (§8.2).
+Do not write implicit “latest.” When time does not affect membership, omit the selector instead of inventing a nominal current value.
 

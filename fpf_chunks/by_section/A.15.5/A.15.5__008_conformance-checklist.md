@@ -6,12 +6,12 @@ section_id: "A.15.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__008_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:7 — Conformance Checklist"
-line_start: 25916
-line_end: 25928
+line_start: 25959
+line_end: 25971
 dependencies:
   - "A.10"
   - "A.15"

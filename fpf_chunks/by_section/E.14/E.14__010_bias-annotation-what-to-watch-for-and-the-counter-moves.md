@@ -6,12 +6,12 @@ section_id: "E.14:7"
 section_title: "Bias-Annotation (what to watch for, and the counter-moves)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__010_bias-annotation-what-to-watch-for-and-the-counter-moves.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:7 — Bias-Annotation (what to watch for, and the counter-moves)"
-line_start: 76247
-line_end: 76260
+line_start: 76332
+line_end: 76345
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -34,7 +34,7 @@ keywords:
 | **Formalism capture**             | Treating a constructive narrative as “the real thing,” with **ut:\*Of** reduced to a label. | Re‑assert Working‑Model primacy: publish in **ut:\*Of**; attach assurance **downwards** only when needed.                                      | E.8 template; Notational‑Independence guard‑rail.                    |
 | **Canonical inversion**           | Demanding constructive grounding for epistemic links by default.                            | Keep the **progressive** stance: prefer Logical/Mapping assurance for knowledge claims; raise to Constructive only when structure is at issue. | Authoring template; Working‑Model pattern family.                    |
 | **Layer leakage (order/time)**    | Encoding sequence or phase as part-whole to "strengthen" claims.                            | Keep **order** and **time** in their governing relation families; do not smuggle them into structure.                                                                   | Style/structure guidance in Part E; flavour separation in Γ-family.  |
-| **Collection ↔ Composition swap** | Using **MemberOf** as if it implied **ComponentOf** identity.                               | Keep collections (*set*) distinct from assemblies (*sum*); do not upgrade membership to component status.                                      | Working‑Model mereology guidance (Part B/C linkage).                 |
+| **Collection and composition swap** | Using **MemberOf** as if it implied **ComponentOf**, or treating a `set` narrative as the source of membership. | Keep direct collection identity and membership occurrences separate from integrated assembly; a C.13 account reports those facts and creates none of them. | Working-Model mereology guidance (Part B/C linkage). |
 | **Notation lock‑in**              | Letting a diagram or syntax define meaning.                                                 | Apply **Notational Independence**: define semantics in prose (maths if needed); treat renderings as informative.                               | Notational‑Independence guard‑rail.                                  |
 | **Backwards dependency**          | Letting an assurance publication or record redefine public terms.                                        | Preserve **unidirectional dependence**: Working-Model terms do not derive their meaning from assurance publications or records.                              | Part E guard‑rails (dependency discipline).                          |
 | **Silent stance**                 | Publishing claims with no declared assurance stance.                                        | Declare the stance explicitly (e.g., working claim vs reasoned vs constructive).                                                               | Style/authoring discipline in Part E.                                |

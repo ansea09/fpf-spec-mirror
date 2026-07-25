@@ -6,13 +6,14 @@ section_id: "B.2.P:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__009_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:6 — Conformance Checklist"
-line_start: 36740
-line_end: 36751
+line_start: 36873
+line_end: 36888
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.2.2"
@@ -23,6 +24,7 @@ dependencies:
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
@@ -38,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
@@ -52,4 +55,8 @@ keywords:
 | `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, math-lens, publication, and source-use claims keep their direct owners. |
 | `CC-B2P-6` | Source mnemonics and result-field spellings do not become pattern owners or U-kinds. |
 | `CC-B2P-7` | Replacement wording is scanned again for E.10 triggers before it is admitted as live FPF wording. |
+| `CC-B2P-8` | Whole-reidentification recovery names the exact existing whole, changed direct facts, exact candidate new whole, every condition of the complete A.1 criterion including governed larger-assembly compatibility, and whether the existing whole continues or the new whole must be identified, without a generic recovery record or bounded-context field. |
+| `CC-B2P-9` | Evidence, evaluation, assertion or record identity, G.11 currentness, and receiving reliance remain separate from world-side construction and reidentification. |
+| `CC-B2P-10` | Selected dependent structures and collections do not become holons by name; several changes do not become a composite transformation, and a missing composition governor does not establish atomism. |
+
 

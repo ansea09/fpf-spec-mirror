@@ -6,12 +6,12 @@ section_id: "A.6.RCD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16232
-line_end: 16246
+line_start: 16273
+line_end: 16287
 dependencies:
   - "A.11"
   - "A.6.0"

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:11"
 section_title: "SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__012_sota-alignment-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:11 — SoTA Alignment: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 79802
-line_end: 79826
+line_start: 79887
+line_end: 79911
 dependencies:
   - "A.15"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "E.11.PUR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__008_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:7 — Conformance Checklist"
-line_start: 75710
-line_end: 75722
+line_start: 75795
+line_end: 75807
 dependencies:
   - "A.15"
   - "A.19"

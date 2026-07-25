@@ -6,12 +6,12 @@ section_id: "A.2.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__013_rationale.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:10 — Rationale"
-line_start: 6379
-line_end: 6387
+line_start: 6420
+line_end: 6428
 dependencies:
   - "A.10"
   - "A.15.1"

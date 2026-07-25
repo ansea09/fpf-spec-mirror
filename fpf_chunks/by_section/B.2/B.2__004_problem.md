@@ -6,12 +6,12 @@ section_id: "B.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__004_problem.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:2 — Problem"
-line_start: 36304
-line_end: 36314
+line_start: 36415
+line_end: 36425
 dependencies:
   - "A.1"
   - "A.10"
@@ -27,12 +27,15 @@ dependencies:
   - "B.2.3"
   - "B.2.4"
   - "B.2.P"
+  - "B.3"
   - "C.13"
   - "C.16"
+  - "C.2.1"
   - "C.29"
   - "C.30.ILC"
   - "C.32.P2S"
   - "E.24.UK"
+  - "G.11"
   - "U.Episteme"
 keywords:
 ---
@@ -41,7 +44,7 @@ keywords:
 
 Without B.2:
 
-1. **New whole is missed.** A coordinated closure or context reframe changes the object, but evidence and architecture still point to old parts.
+1. **New whole is missed.** A constructive assembly or coordinated closure changes the object, but evidence and architecture still point to old parts.
 2. **Ordinary improvement is overclaimed.** A better component, stronger measurement, or corrected method is called emergence.
 3. **Record fields become ontology.** A result field, trigger mnemonic, profile, or checklist is treated as a U-kind or actor.
 4. **Agency becomes binary.** A threshold crossing is read as "agent or not agent" instead of a characteristic-space threshold for a system in role.

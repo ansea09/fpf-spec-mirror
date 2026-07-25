@@ -6,12 +6,12 @@ section_id: "A.15.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__002_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:1 — Problem Frame"
-line_start: 24211
-line_end: 24216
+line_start: 24254
+line_end: 24259
 dependencies:
   - "A.1"
   - "A.1.1"

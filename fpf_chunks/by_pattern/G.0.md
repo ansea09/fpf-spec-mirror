@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.0.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
-line_start: 94064
-line_end: 94408
+line_start: 94173
+line_end: 94517
 dependencies:
   - "A.10"
   - "A.17"

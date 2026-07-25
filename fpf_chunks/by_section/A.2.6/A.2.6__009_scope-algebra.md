@@ -6,41 +6,44 @@ section_id: "A.2.6:7"
 section_title: "Scope Algebra"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__009_scope-algebra.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:7 — Scope Algebra"
-line_start: 4404
-line_end: 4500
+line_start: 4471
+line_end: 4565
 dependencies:
   - "A.1.1"
+  - "A.15.1"
   - "A.2.2"
-  - "A.2.3"
-  - "B.3"
+  - "A.22"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.7"
+  - "C.2.1"
+  - "C.2.2"
+  - "C.2.3"
+  - "C.29"
+  - "C.3"
+  - "E.24.UK"
+  - "F.9"
 keywords:
   - "& guard style)"
-  - "ClaimScope (G)"
-  - "WorkScope"
-  - "applicability"
-  - "scope"
-  - "set-valued"
 ---
 
 ### A.2.6:7 - Scope Algebra
 
-#### A.2.6:7.1 - Membership & Coverage
+#### A.2.6:7.1 - Membership and coverage
 
-* **Membership judgement.** `slice ∈ Scope` is the primitive check.
-* **Coverage guard.** A guard “Scope **covers** TargetSlice” means either:
+For exact slice `x` and scope `S`, evaluate `member(x, S)`.
 
-  * **singleton:** `TargetSlice ∈ Scope`, or
-  * **set:** `TargetSet ⊆ Scope`.
-* **No implicit expansion.** Absent an explicit declaration, guards MUST NOT treat “close” slices as covered; widening requires a ΔG+ change.
+* `true`: the slice is included and the scope condition for the attempted use passes;
+* `false`: the slice is excluded and that use stops or selects another scope;
+* `unknown`: the available evaluation cannot decide; the guard abstains or follows an explicitly governed reliance policy without asserting exclusion.
 
-**Tri‑state admissibility under unknowns (normative; aligns A.6.1).**
+For a finite target set `T : ContextSliceSet`, `coversSet(S,T)` abbreviates `for every x in T, member(x,S)`. Scope-to-scope `scopeSubset(S1,S2)` instead means `for every x, member(x,S1) implies member(x,S2)`. A target set is neither a scope nor a substitute for one. There is no “close enough” membership and no implicit widening.
 
-* If any required input to a membership/coverage check is **unknown** (missing slice selector, unknown Standard version, unmappable Bridge leg, unspecified `Γ_time`, etc.), the check result is **unknown**, not `false`.
-* Guards MUST either **abstain** (fail closed) or handle the outcome under an explicit **R‑lane degradation** policy; unknown MUST NOT be coerced to `false/0`.
+Membership evaluation work, its inputs and A.6.1 bindings, an optional C.2.1 result episteme, and a C.29 table remain neighboring objects. None changes predicate truth by being performed, recorded, or displayed.
 
 #### A.2.6:7.2 - Serial Composition (Intersection)
 
@@ -81,37 +84,37 @@ USM already fixes composition: along a **dependent path** use **intersection**; 
 Early “G ladders” effectively encoded **abstraction/typing** (instances -> patterns -> formal classes/types -> up-to-iso). That is valuable **didactics**, but **not applicability**. We have already separated these concerns: **abstraction** is captured, if needed, by **`AbstractionTier (AT)`** as an optional facet; **applicability** is **`U.ClaimScope (G)`**.
 
 **4) A G ladder breaks locality and Bridge semantics.**
-Cross‑context transfer maps a **set** `Scope` via a **Bridge** and penalizes **R** by **CL**. There is no canonical way to “translate” an **ordinal G level** between Contexts: the mapped area may be **strictly narrower** or differently factored. Level numbers would become non‑portable, causing hidden loss or inflation of trust. With USM, we **translate sets** and keep the CL penalty where it belongs—**in R**, not in G.
+When exact local senses require translation, an obtaining F.9 Bridge occurrence maps a scope set and its congruence or loss qualifies the receiving reliance assessment. There is no canonical way to translate an ordinal G level: the mapped area may be narrower or differently factored. USM translates exact sets only in that branch and keeps the reliance penalty in R rather than rewriting G.
 
 **5) A G ladder duplicates ESG guards without adding decision power.**
-What teams often want to “compress into a G number” is actually (a) the **quality of expression** and (b) the **completeness** of the declared scope. The first is an **F threshold** (e.g., require **`Formality >= F4`** so the scope is predicate-like and addressable); the second is handled by explicit **ESG guards**: “**Scope covers TargetSlice**,” “**`Γ_time` is specified**,” and “**freshness window holds**” (R-lane). A ladder for G adds confusion but no additional control.
+What teams often want to “compress into a G number” is actually (a) the quality of expression and (b) the completeness of the declared scope. The first is an F threshold; the second is handled by explicit guards: `Scope covers TargetSlice`, `gammaTime is explicit` only when membership varies with time, and a separate freshness-window check when current. A ladder for G adds confusion but no decision power.
 
 **Normative directive.**
 `U.ClaimScope (G)` **SHALL** remain a **set‑valued USM scope object**; **no ordinal or numeric ladder SHALL be defined** for G. If a profile needs scalar reporting, it MAY publish an explicit **report‑only** proxy **`CoverageMetric(G)`**, but **`CoverageMetric(G)` MUST NOT substitute for `G`** in norms, gates, bridge semantics, or CL routing. Authoring and gating **SHOULD** use **F thresholds** (C.2.3) and **explicit guard predicates** (A.2.6) rather than pseudo‑levels of G.
 
-#### A.2.6:7.5 - Translation across Contexts (Bridge & CL)
+#### A.2.6:7.5 - Translation across exact local senses
 
-**Rule T‑BRIDGE.** To use a scope in a different bounded context (room), an explicit **Bridge** MUST be declared with:
+Use the mathematical representation `translate(bridgeOccurrence, sourceScope, targetReferenceScheme)` only when the target membership predicate must express source conditions through exact local senses and an exact obtaining F.9 Bridge occurrence relates those senses. When a receiving use needs the actual calculation and its returned scope, use `deriveTranslatedScope` with those exact three arguments.
 
-* **Mapping.** A documented mapping from source to target `U.ContextSlice` vocabulary/characteristics.
-* **Congruence Level (CL).** A rating of mapping congruence.
-* **Loss notes.** Any known losses, assumptions, or non‑isomorphisms.
+Name the exact bridge participants, obtaining occurrence, congruence level, and loss. The translated value is another scope over target slices. A reference-scheme difference, different project label, or different slice designator alone establishes neither translation nor Bridge use.
 
-**Effect.** The mapped scope is `T(Scope)` in the target Context. **CL penalties apply to R** (the trust in support and evidence), **not to F or G**. If mapping is coarse, the publisher SHOULD also narrow the mapped scope to the area where losses are negligible (best practice, not a requirement).
+Any congruence penalty changes the separately governed reliance or evidence assessment. It does not make an included slice excluded, rewrite F or G, or become a scope member. Where known mapping loss changes the supported area, declare the narrower translated scope explicitly.
 
 #### A.2.6:7.6 - Δ‑Operations (Widen, Narrow, Refit)
 
-* **ΔG+ (widen).** Monotone expansion: `S ⊂ S′`. Requires new support or Bridges with sufficient declared `CL`.
+* **Delta-G+ (widen).** Monotone expansion: `S subsetOf S-prime`. Every added slice requires direct support under the receiving use; a Bridge occurrence by itself supplies translation, not support.
 * **ΔG− (narrow).** Monotone restriction: `S′ ⊂ S`. Often used to remove areas invalidated by new findings.
-* **Refit.** `S′ = S` after normalization (e.g., re‑parameterization, changing units, factoring common predicates). Refit MUST NOT alter membership.
+* **Refit.** A different expression or parameterization designates the same extensional scope after normalization (for example, changing units or factoring common predicates). Refit MUST NOT alter membership and does not create another scope value.
 
-**Refit (normalization).** A refit **MUST preserve membership** exactly (S′ = S). Any change that alters boundary inclusion (due to rounding, unit conversion, discretization) is a ΔG± change, not a refit.
+**Refit (normalization).** A refit **MUST preserve membership** exactly: `extension_RS(S_after) = extension_RS(S_before)`, so both expressions designate the same scope value. Any change that alters boundary inclusion through rounding, unit conversion, or discretization is a ΔG± change, not a refit.
 
-**Edition triggers.** Any change that alters the published set (ΔG±) is a content change and MAY trigger a new edition per Context policy (see A.2.x on editions). Refit is not a content change.
+**Edition triggers.** A changed extension identifies a different scope value. A changed predicate expression with the same exact extension preserves the scope value but is a content change in the declaration or claim-bearing episteme that carries the expression; its direct governor decides whether another episteme edition is needed.
+
+**Discriminating cases.** Under one effective reference scheme, `20 °C <= temperature <= 30 °C` and the exactly converted `293.15 K <= temperature <= 303.15 K` have the same extension and can be related as a refit while designating the same scope. Replacing the inclusive upper boundary with `temperature < 30 °C` removes every slice exactly at `30 °C`; that one membership-boundary change identifies another scope rather than a refit.
 
 #### A.2.6:7.7 - Invariants
 
-* **I‑LOCAL.** All scope evaluation is **context‑local**. Cross‑context usage MUST follow §7.4.
+* **I-LOCAL.** Interpret membership under the effective reference scheme and exact local senses current to the declaration. Translate only through an obtaining F.9 Bridge occurrence when those senses differ.
 * **I‑SERIAL.** Serial scope is an **intersection**; it cannot grow by adding dependencies.
 * **I‑PARALLEL.** Parallel scope MAY grow by union, but only where **independently supported**.
 * **I‑WLNK.** Weakest‑link applies to **F** and **R** on dependency paths; **G** follows set rules (∩ / ⋃).
@@ -120,6 +123,6 @@ What teams often want to “compress into a G number” is actually (a) the **qu
 
 #### A.2.6:7.8 - Empty & Partial Scopes
 
-* **Empty scope (`∅`).** The claim/capability is **currently not usable anywhere** in the Context; guards MUST fail.
+* **Empty scope (`∅`).** No slice satisfies the declared predicate. A receiving guard stops; this does not identify a context, structure, or complement entity.
 * **Partial scope.** Publishers SHOULD avoid “global” language when actual scope is thin; instead, publish explicit slices and (informatively) coverage hints to guide R assessment.
 

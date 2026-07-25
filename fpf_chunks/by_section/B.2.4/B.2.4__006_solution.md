@@ -6,12 +6,12 @@ section_id: "B.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__006_solution.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:4 — Solution"
-line_start: 37348
-line_end: 37422
+line_start: 37426
+line_end: 37483
 dependencies:
   - "A.10"
   - "A.15"
@@ -37,76 +37,59 @@ keywords:
 
 ### B.2.4:4 - Solution
 
-Use B.2.4 as a decision bridge from capability and functioning evidence to B.2 whole reidentification.
+Use B.2.4 as a decision bridge from direct capability and functioning facts to B.2 whole reidentification. Add no generic slice, context placeholder, candidate-bearer list, or second B.2 record.
 
-#### B.2.4:4.1 - Capability-Functioning Whole-Reidentification Slice
+#### B.2.4:4.1 - Start From Exact Facts, Claims, And Support
 
-Use this slice only when B.2 remains current after direct-owner explanations are checked.
+1. Name the exact existing whole and its direct identity or reidentification rule.
+2. Identify each exact capability envelope, obtaining functioning relation, or selected in-life transformation-flow structure under its direct owner. Keep method, method description, work plan, work occurrence, module allocation, characteristic, and architecture facts separate when they are current.
+3. State the exact claim made about those facts. Name evidence or measurement only as a separate relation that supports, challenges, or leaves that claim unresolved.
+4. Apply B.2's `ExistingWholeExplanationCheck`. Better measurement, component improvement, method or work repair, allocation repair, or architecture-view repair can leave the same whole in place.
+5. If a residual whole-reidentification question remains, return it to B.2. B.2 then identifies one exact candidate new whole, applies the complete A.1 and kind-specific criteria, and compares that candidate with the existing whole.
 
-```text
-CapabilityFunctioningWholeReidentificationSlice@Context:
-  existingWholeRef: U.Holon
-  boundedContextRef:
-  capabilityEnvelopeRef?
-  functioningRelationRef?
-  transformationFlowStructureRef?
-  functionalStructureViewRef?
-  candidateBearerRefs?
-  methodRelationRefs?
-  methodDescriptionRefs?
-  workPlanRefs?
-  workOccurrenceRefs?
-  moduleAllocationRefs?
-  characteristicOrThresholdRefs?
-  evidenceOrMeasurementRefs:
-  existingWholeExplanationCheckRef: ExistingWholeExplanationCheck@Context
-  candidateB2RecordRef:
-  blockedDirectOwnerOverreads:
-```
-
-This slice is not a U-kind and not a capability object. It carries the evidence needed to decide whether B.2 whole reidentification is current.
+B.2.4 adds no result species. If a receiving use needs a durable account, use B.2's optional C.2.1 epistemes; their content neither creates the direct facts nor selects the new whole.
 
 #### B.2.4:4.2 - Direct-Owner Test
 
-Before using B.2.4 for whole reidentification, test whether a direct owner explains the evidence:
+Before returning to B.2, test whether the exact facts are already explained under a direct owner:
 
-| Evidence under concern | Direct owner if sufficient | B.2.4 becomes current only when |
+| Exact fact or claim under concern | Direct owner if sufficient | B.2.4 remains current only when |
 | --- | --- | --- |
-| Capability envelope | `A.2.2`, `C.16`, `A.10` | the envelope belongs to a result whole that cannot be explained by the existing whole |
-| Function or functioning relation | `A.6.F`, `A.3.4`, `C.16` | the relation creates or reveals a new whole-level EntityOfConcern |
-| Transformation-flow structure | `C.30.TFS-REL`, `E.18`, `A.3.4`, `C.29` when mathematical lens is current | the flow structure changes the identity of the whole under B.2 |
-| Method relation or method family | `A.15`, `A.3.1`, `G.5`, `C.29` when lens is current | method evidence changes the whole, not merely the way of doing |
-| Method description or procedure text | `A.3.2` and `C.2.1`; use publication-use or source-use owners when publication or source reliance is current | description is not enough; in-life whole reidentification must be recovered |
-| Work plan or work occurrence | `A.15.2`, `A.15.1` | performed or planned work is evidence for a result whole, not the whole by label |
-| Module, component, or bearer allocation | `A.6.M`, `C.30`, `A.22`, `C.30.ASV` | allocation evidence changes the whole under concern |
-| Metric, score, threshold, robustness, quality | `C.16`, `A.19`, `A.10` | the characteristic shift defeats existing-whole explanation |
+| Capability envelope | `A.2.2`, `C.16`; `A.10` only for evidence use | the exact envelope belongs to a candidate whole that the existing whole cannot explain |
+| Function or functioning relation | `A.6.F`, `A.3.4`, `C.16` | the obtaining relation and whole-level facts leave a residual new-whole question |
+| Transformation-flow structure | `C.30.TFS-REL`, `E.18`, `A.3.4`; `C.29` only for a mathematical representation use | the selected in-life structure changes which whole can carry the current claim |
+| Method relation or method family | `A.15`, `A.3.1`, `G.5`; `C.29` only when a lens is used | the exact method facts change the whole, not merely the way of doing |
+| Method description or procedure text | `A.3.2` and `C.2.1`; publication or source-use owners when current | an in-life whole-reidentification question remains after the description is separated |
+| Work plan or work occurrence | `A.15.2`, `A.15.1` | exact planned or performed work facts leave a new-whole question; the plan or occurrence is not the whole by label |
+| Module, component, or bearer allocation | `A.6.M`, `C.30`, `A.22`, `C.30.ASV` | exact allocation and architecture facts defeat the existing-whole explanation |
+| Metric, score, threshold, robustness, or quality claim | `C.16`, `A.19`; `A.10` only for evidence use | the underlying characteristic facts, not the score or support record alone, defeat that explanation |
 
 #### B.2.4:4.3 - Existing-Whole Explanation
 
-Use `ExistingWholeExplanationCheck@Context` before claiming whole reidentification.
+Use B.2's `ExistingWholeExplanationCheck` before claiming whole reidentification.
 
-Direct-owner explanations that often stop B.2.4:
+Direct-owner explanations that often stop B.2.4 include:
 
 - better measurement or benchmark normalization;
 - improved component capability;
 - corrected function-like wording;
 - a clearer method relation or method family selection;
-- a new method description without performed capability evidence;
+- a new method description without corresponding in-life capability or work facts;
 - better work coordination inside the same whole;
 - module allocation repair;
 - architecture-view or transformation-flow-structure repair;
-- evidence or source-currentness improvement.
+- better evidence, measurement, or source currentness for an unchanged world-side claim.
 
 If one of these explanations is sufficient, do not use B.2.4. Use the direct owner.
 
 #### B.2.4:4.4 - When B.2.4 Returns To B.2
 
-Return to B.2 when the evidence shows that the current object must be reidentified as a result holon. Examples:
+Return to B.2 when the exact direct facts show that the existing whole cannot carry the current subject claim and an exact candidate new whole must be tested. Examples:
 
-- a production cell now has a capability envelope, coordination relation, transformation-flow structure, and assurance claim that cannot be explained by individual machines;
-- a service platform now has a functioning relation and external commitments that cannot be assigned to one service or module;
-- a team, toolchain, and method family now operate as one result system with new capability and work evidence;
-- an episteme or standard now has a capability for explanation, prediction, or specification use that requires result-episteme reidentification.
+- a production cell has an exact capability envelope, obtaining coordination and functioning relations, a selected in-life transformation-flow structure, and external commitments that cannot be explained by individual machines or the old aggregate;
+- a service platform has an obtaining functioning relation and external commitments that cannot be assigned to one service or module;
+- a team, toolchain, and method family participate in exact coordination and work facts that make a result-system candidate live; or
+- a candidate episteme has exact constitution and explanatory-use facts that leave an episteme whole-reidentification question.
 
-After the return, B.2 owns the MHT record and result-kind admission. B.2.4 carries only the capability and functioning evidence slice.
+After the return, B.2 owns the existing-whole/new-whole comparison, its one exact candidate, and any optional record. B.2.4 adds no result record or evidence slice. The direct facts keep their owners, and evidence or measurement remains support for the associated claims.
 

@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_bridge-kinds.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:6 — Bridge kinds"
-line_start: 89372
-line_end: 89415
+line_start: 89481
+line_end: 89524
 dependencies:
   - "A.15.1"
   - "A.2"

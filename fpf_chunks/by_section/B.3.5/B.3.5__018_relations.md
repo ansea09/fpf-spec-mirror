@@ -6,12 +6,12 @@ section_id: "B.3.5:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__018_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:15 — Relations"
-line_start: 38854
-line_end: 38876
+line_start: 38915
+line_end: 38937
 dependencies:
   - "B.3"
   - "C.13"
@@ -34,7 +34,7 @@ keywords:
 • **Part E authoring rules** — canonical pattern template and notational independence, which CT2R‑LOG explicitly follows.
 
 **Coordinates with**
-• **Compose-CAL (Γ_m)** — provides the **constructive** shoulder of the Assurance layer for **structural** relations; CT2R-LOG’s `tv:groundedBy` points *conceptually* to traces narratable as **sum/set/slice**.
+• **Compose-CAL (Γ_m)** — supplies the three-form construction account for **structural** relation assertions; CT2R-LOG's `tv:groundedBy` points to a current C.2.1 trace episteme in the `sum`, `set`, or `slice` form without making that trace the relation or its identity rule.
 • **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock** — provides the local structural CT2R unfolding block when a constructive trace, working-model relation, target kind or logical representation, bridge, preserved structure, and loss must be inspected together; `A.7.1` owns general diagnostic return to a subject construction.
 • **KD‑CAL** — provides the **logical** shoulder (inferential justification) when authors pick `validationMode = inferential`.
 • **Kind-CAL / Lang-CHR** — provide the **mapping** shoulder (kind and relation-label alignment) governing alias policies without altering Working-Model relations.

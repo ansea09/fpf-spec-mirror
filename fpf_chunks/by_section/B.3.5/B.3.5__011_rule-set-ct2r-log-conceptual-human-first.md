@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 38681
-line_end: 38770
+line_start: 38742
+line_end: 38831
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.3.5:9 - Rule‑set — CT2R‑LOG (conceptual, human‑first)
 
-**Intent (one line).** Make **Working-Model** relations the canonical relation vocabulary for authors, while providing a **clean, optional bridge** to formal assurance by way of *aliasing* and *grounding* semantics.
+**Intent (one line).** Make **Working-Model** relations the canonical relation vocabulary for authors, while providing a clean, purpose-selected bridge to assurance through aliasing and grounding semantics; the bridge is required for published structural assertions under this pattern.
 
 #### B.3.5:9.1 - Vocabulary & Roles (what the words mean in this pattern)
 
@@ -35,7 +35,7 @@ keywords:
 
 * **Assurance Layer.** Three complementary assurance modes an author MAY attach:
 
-  * **Constructive** grounding: a *generative* narrative that reconstructs the relation via the three mereological aggregators (`Γ_m.sum | Γ_m.set | Γ_m.slice`) from **Compose‑CAL**. (No formal notation is required in this pattern—only a reconstructible *story of construction*.)
+  * **Constructive** grounding: an inspectable account in one of the three C.13 forms (`Γ_m.sum | Γ_m.set | Γ_m.slice`). It names independently grounded participants, direct relation occurrences, the applicable construction rule, and identity or reidentification conditions. No formal notation is required, and the account does not create the relation it reports.
   * **Logical** grounding: a *reasoned* chain (think KD‑CAL style arguments) that shows why the relation follows from stated premises.
   * **Mapping** grounding: a *relation-label alignment* that shows the domain label truly denotes the intended Working-Model relation (Kind-CAL / Lang-CHR stance).
     These three assurance modes are *complementary*, not exclusive.
@@ -45,20 +45,20 @@ keywords:
 * **Grounding vocabulary (`tv:`).**
 
   * `tv:AliasOf` — declares that a Working‑Model relation is the **canonical projection** of a more general pattern (its “principle of use”).
-  * `tv:groundedBy` — points to the **author’s grounding narrative** (Constructive, Logical, or Mapping, as applicable).
+  * `tv:groundedBy` — points to the **author's grounding account** (Constructive, Logical, or Mapping, as applicable). When a construction trace is recorded, it is a C.2.1 episteme with its own edition and currentness.
     The `tv:` namespace is part of the Core conceptual lexicon; it is **notation‑agnostic** and **tool‑agnostic**.
 
 * **`tv:validationMode ∈ {postulate, inferential, axiomatic}`.** A **declaration by the author** of the *confidence stance* for a relation instance:
   *postulate* — a pragmatic working claim;
   *inferential* — a reasoned consequence;
-  *axiomatic* — a constructively grounded identity (mereological extensionality is exhibited). (Modes align with the B.3 cluster’s trust model.)
+  *axiomatic* — the author declares that a constructive account is the assurance basis for this assertion. The mode does not classify the world-side relation and guarantees neither identity nor timelessness.
 
 > **Authoring note.** This pattern defines *meanings*, not formats. The words above SHALL be used consistently and without reference to any specific notations or execution environments (Guard‑Rails: Notational Independence).
 
 #### B.3.5:9.2 - Normative rules (MUST/SHALL clauses for thinking‑and‑writing)
 
 **S‑1 (Working-Model first).**
-Authors **SHALL** publish structural claims in the **Working-Model** form (`ut:*Of` relations). This is the canonical relation vocabulary for human readers and cross-disciplinary teams. Formal reconstructions are **optional** and live in the Assurance Layer.
+Authors **SHALL** publish structural claims in the **Working-Model** form (`ut:*Of` relations). This is the canonical relation vocabulary for human readers and cross-disciplinary teams. Assurance accounts remain below that public layer; this pattern separately requires a trace link for published structural assertions.
 
 **S‑2 (Alias declaration).**
 If a Working‑Model relation follows a known general principle, the author **SHOULD** declare `tv:AliasOf <Principle>`, thereby making the intended *use‑pattern* explicit for reviewers and future readers. (This improves comparability without introducing extra formality.)
@@ -70,12 +70,12 @@ For every relation instance the author **MUST** set `validationMode` and follow 
 
 * **S‑3.b `inferential`.** The author **SHALL** outline a *reasoned chain* (plain‑language steps) that makes the relation a consequence of previously admitted statements. No formal calculus is required in this pattern; the outline must be sufficient for a peer to follow. (Think KD‑CAL stance, conceptually.)
 
-* **S‑3.c `axiomatic`.** The author **SHALL** provide a *constructive grounding narrative* that reconstructs the relation as a `Γ_m.sum | Γ_m.set | Γ_m.slice` composition and **SHALL** link it with `tv:groundedBy`. The narrative **MUST** be reconstructible by a competent peer *without introducing new primitives* (parsimony). (Compose‑CAL’s three aggregators are the only constructive moves assumed here.)
+* **S‑3.c `axiomatic`.** The author **SHALL** provide a constructive grounding account in one of the `Γ_m.sum | Γ_m.set | Γ_m.slice` forms and **SHALL** link the published assertion to its current C.2.1 trace episteme with `tv:groundedBy`. A competent peer must be able to recover the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions without introducing new primitives. The account supports inspection; it creates none of those facts.
 
-* **S-3.d Structural constraint.** For **structural** edges, `tv:groundedBy → Γ_m.*` is **REQUIRED regardless of `validationMode`**; the `postulate` mode **MUST NOT** be used for structural mereology.
+* **S-3.d Structural constraint.** For **published structural assertions**, `tv:groundedBy → Γ_m.*` is **REQUIRED** and `postulate` **MUST NOT** be used. This is an assurance-publication requirement, not a rule that the trace or mode makes the direct relation obtain.
 
 **S-4 (Relation-kind sense-making).**
-* For **structural** subtypes of `ut:StructPartOf` (Component/Portion/Aspect), constructive grounding (`tv:groundedBy → Γ_m.*`) is **REQUIRED** in all modes; **`postulate` MUST NOT be used** for structural mereology (see S-3.d).
+* For **structural** subtypes of `ut:StructPartOf` (Component/Portion/Aspect), a published assertion requires one linked construction account and cannot use `postulate` (see S-3.d). The direct relation pattern still governs whether the occurrence obtains and how it is identified.
 
 * For **epistemic/constitutive** links (e.g., representation, usage), constructive grounding is **OPTIONAL** in all stances; authors prefer *inferential* or *postulate* with empirical cues.
 
@@ -107,11 +107,11 @@ Core prose **MUST NOT** introduce CI/CD terms, file formats, APIs, or machine‑
 **M‑1.** State the relation in **Working‑Model** form (e.g., “Impeller `ComponentOf` Pump”).
 **M‑2.** Pick `validationMode`:
 
-* If you’re sketching and exploring → choose **postulate**; add one‑sentence scope.
+* For a **non-structural** claim that is still exploratory → choose **postulate**; add one-sentence scope and the empirical cues that would challenge it.
 * If you’re justifying from known statements → choose **inferential**; list the 2–4 steps in plain language.
-* If you require extensional identity → choose **axiomatic**; narrate the `Γ_m.*` reconstruction in a short paragraph.
+* If a published structural assertion requires the **axiomatic** assurance posture → link one short C.2.1 construction account and state the direct identity or reidentification rule it reports.
 
-**M‑3.** Add `tv:AliasOf` to the principle you intend readers to recognise (e.g., “Component = sum of parts”).
+**M‑3.** Add `tv:AliasOf` only when a named direct relation principle helps reviewers recognize the intended reading (for example, `ComponentOf` points to the structural-component principle); do not alias the relation to the result of a constructor expression.
 **M‑4.** Keep *order/time* adjacent, not embedded: if you need “assembled in two parallel lines”, write that as a **method/time** statement next to the structure, not as a part‑of edge.
 **M‑5.** Stop when the *reader can follow without guessing*. This is the stopping rule for Quarter 2: clarity before formality. (Didactic primacy.)
 

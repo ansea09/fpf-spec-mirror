@@ -6,12 +6,12 @@ section_id: "B.2.4:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__007_archetypal-grounding-worked-cases.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37423
-line_end: 37440
+line_start: 37484
+line_end: 37501
 dependencies:
   - "A.10"
   - "A.15"
@@ -39,7 +39,7 @@ keywords:
 
 #### B.2.4:5.1 - Production Cell Capability
 
-A milling machine, robot arm, fixture, inspection station, and scheduling rule can remain a collection of assets. A new production-cell whole becomes current only when capability and functioning evidence shows one bounded result whole: cell-level cycle time, tolerance, transformation-flow structure, coordination, and assurance cannot be explained by any single component or old aggregate.
+A milling machine, robot arm, fixture, inspection station, and scheduling rule can remain a collection of assets. A new production-cell candidate becomes current only when exact capability, functioning, coordination, and transformation-flow facts cannot be explained by any single component or the old aggregate. Cell-level cycle time and tolerance measurements may support the claim; they do not create the candidate or those facts.
 
 Use A.6.F for function-like wording, A.3.4 for transformations, C.30.TFS-REL for transformation-flow structure, A.15.1 for performed work, C.16 for cycle-time and tolerance characteristics, and B.2 only when the cell whole must be reidentified.
 
@@ -47,9 +47,9 @@ Use A.6.F for function-like wording, A.3.4 for transformations, C.30.TFS-REL for
 
 A team may have methods for coding, testing, and releasing. That does not by itself create a new whole. Use method and work owners for the method relations and performed release work.
 
-B.2.4 becomes current only if the capability evidence points to a result holon: a platform, team-system, or work occurrence whole with new delimitation, coordination, external commitments, evidence, and assurance. An automated delivery sequence label does not decide the ontology.
+B.2.4 becomes current only if exact capability, coordination, commitment, and work facts leave a result-holon question that the existing team or platform cannot explain. Evidence may support that claim; an automated delivery label or score does not decide the ontology.
 
 #### B.2.4:5.3 - Theory Explains New Phenomena
 
-A new theory may explain phenomena that the source portfolio did not explain. B.2.4 can carry the explanatory-capability evidence, but B.2.3 owns the episteme-result MHT if the result is `U.Episteme`; C.2.1 owns the episteme slot relation; C.29 owns mathematical-lens use when the lens is relied on for the current claim.
+A new theory may explain phenomena that the source portfolio did not explain. B.2.4 can route the exact explanatory-capability fact into the existing-whole check, while evidence separately supports or challenges its claim. B.2.3 owns the episteme-result specialization if the exact candidate is `U.Episteme`; C.2.1 owns its constitution; C.29 owns any mathematical-lens use.
 

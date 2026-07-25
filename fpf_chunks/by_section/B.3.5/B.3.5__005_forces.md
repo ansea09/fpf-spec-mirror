@@ -6,12 +6,12 @@ section_id: "B.3.5:3.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__005_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:3.1 — Forces"
-line_start: 38570
-line_end: 38575
+line_start: 38631
+line_end: 38636
 dependencies:
   - "B.3"
   - "C.13"
@@ -27,7 +27,7 @@ keywords:
 
 ### B.3.5:3.1 - Forces
 
-* **Two audiences, one dial.** Project managers want **one relation family** and stable views; ontologists want **generative completeness** and extensional identity.
+* **Two audiences, one dial.** Project managers want **one relation family** and stable views; assurance readers want an inspectable construction account with explicit direct facts and identity conditions.
 * **Parsimony constraint.** The Kernel stays minimal; construction is **outside** the Kernel.
-* **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so *every* pattern that needs mereology rides on **one generative calculus** and **one alias façade**.
+* **Unification inside FPF.** We already unify external vocabularies; the same discipline is applied **internally** so patterns that publish structural claims can reuse one three-form construction-account discipline and one readable relation façade without making that account a second ontology.
 

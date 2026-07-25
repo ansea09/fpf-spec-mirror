@@ -6,12 +6,12 @@ section_id: "B.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__002_use-this-when.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:0 — Use This When"
-line_start: 37059
-line_end: 37078
+line_start: 37171
+line_end: 37190
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,17 +31,16 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
 ### B.2.3:0 - Use This When
 
-Use this pattern when a Meta-Holon Transition result is admitted as `U.Episteme`: a theory, model family, standard, doctrine, specification body, research programme, field-level knowledge body, or other claim-bearing non-agentive holon.
+Use this pattern when B.2 has identified one exact candidate new whole and that same individual must be recognized under the already admitted `U.Episteme` kind: a theory, model family, standard, doctrine, specification body, research programme, field-level knowledge body, or other claim-bearing non-agentive holon.
 
-Use `B.2` first to decide whether whole reidentification is current. Use `B.2.3` only when the result-kind question points to `mhtResultEpistemeRef`.
+Use `B.2` first to decide whether whole reidentification is current and to identify the one candidate new whole. Use `B.2.3` only when its `resultHolonKindRef` resolves to `U.Episteme`.
 
-**First useful move.** Recover the episteme result as a `U.Episteme` holon with its C.2.1 slot relation: EntityOfConcern, grounding holon, claim graph, reference scheme, viewpoint, view, and publication or source-use relations when current.
+**First useful move.** For B.2's exact candidate, identify one `U.ClaimGraph`, one exact EntityOfConcern, and one effective `U.ReferenceScheme`, then test whether their `EpistemeConstitutionRelation` obtains under C.2.1. Keep grounding, viewpoint, view, publication, source use, representation, evidence, and assurance in their neighboring direct relations.
 
 **What goes wrong if missed.** A catalogue, literature review, dashboard, model repository, or vocabulary is called a new theory without claim-graph reidentification; or a real new episteme whole is treated as a pile of publications.
 
@@ -50,7 +49,7 @@ Use `B.2` first to decide whether whole reidentification is current. Use `B.2.3`
 **Not this pattern when.**
 
 - If the result whole is an acting physical or operational holon, use `B.2.2`.
-- If the question is episteme slot relation, publication, source use, view, viewpoint, claim graph, reference scheme, or description use without MHT, use `C.2.1`, `C.2.P`, `C.2.P.DR`, `E.17`, and the episteme family directly.
+- If the question is episteme constitution, empirical grounding, publication, source use, view, viewpoint, ClaimGraph, reference scheme, or description use without MHT, use `C.2.1`, `C.2.P`, `C.2.P.DR`, `E.17`, and the direct episteme-family owner.
 - If the question is effect-free episteme morphing, viewing, retargeting, or controlled semantic coarsening, use `A.6.2`, `A.6.3`, `A.6.4`, or `A.6.3.CSC`.
 - If the question is synthesis work, use `A.15.1` for performed work and `A.12` or `A.3.4` for acting-side and transformation claims.
 - If the wording is ambiguous emergence-family language, use `B.2.P` before selecting B.2.3.

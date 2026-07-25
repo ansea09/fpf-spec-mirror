@@ -6,12 +6,12 @@ section_id: "A.2.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__006_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:3 — Forces"
-line_start: 3868
-line_end: 3878
+line_start: 3881
+line_end: 3891
 dependencies:
   - "A.15"
   - "A.2.1"

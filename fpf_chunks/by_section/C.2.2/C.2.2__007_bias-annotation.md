@@ -6,12 +6,12 @@ section_id: "C.2.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__007_bias-annotation.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:6 — Bias-Annotation"
-line_start: 41785
-line_end: 41795
+line_start: 41846
+line_end: 41856
 dependencies:
   - "A.2.6"
   - "A.21"

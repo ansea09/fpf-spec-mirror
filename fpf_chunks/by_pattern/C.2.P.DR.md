@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.DR.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
-line_start: 43426
-line_end: 43769
+line_start: 43487
+line_end: 43830
 dependencies:
   - "A.10"
   - "A.15.1"

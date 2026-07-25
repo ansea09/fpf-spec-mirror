@@ -6,12 +6,12 @@ section_id: "A.7:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_conformance-checklist-normative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:7 — Conformance Checklist (normative)"
-line_start: 21484
-line_end: 21507
+line_start: 21525
+line_end: 21548
 dependencies:
   - "A.1"
   - "A.10"

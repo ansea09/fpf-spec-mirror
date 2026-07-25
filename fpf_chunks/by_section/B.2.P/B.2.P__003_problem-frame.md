@@ -6,13 +6,14 @@ section_id: "B.2.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__003_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:1 — Problem Frame"
-line_start: 36577
-line_end: 36582
+line_start: 36718
+line_end: 36723
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.2.2"
@@ -23,6 +24,7 @@ dependencies:
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
@@ -38,6 +40,7 @@ dependencies:
   - "E.17"
   - "E.24"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
@@ -45,5 +48,5 @@ keywords:
 
 Emergence-family wording is overloaded. It can point to a new system whole, an episteme whole, a capability envelope, a characteristic crossing, an architecture residual, a mathematical scale expression, a benchmark artifact, a publication claim, or a collection-as-whole question.
 
-The pattern therefore does not ask "what word should replace emergence?" It asks which EntityOfConcern, claim kind, slot relation, and direct governing pattern are current.
+It asks which exact EntityOfConcern, world-side or claim-side fact, and direct governing pattern are current, and whether the same whole still carries the claim.
 

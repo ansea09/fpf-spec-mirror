@@ -6,12 +6,12 @@ section_id: "B.3.5:5"
 section_title: "Vocabulary & notation (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__007_vocabulary-notation-normative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:5 — Vocabulary & notation (normative)"
-line_start: 38625
-line_end: 38641
+line_start: 38686
+line_end: 38702
 dependencies:
   - "B.3"
   - "C.13"
@@ -31,13 +31,13 @@ keywords:
  `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf` are **publication-grade** sub-properties of `ut:StructPartOf` **(structural)**; `ut:MemberOf` is a sub-property of `ut:EpiPartOf` **(epistemic)**.
 
 * **Alias principle (lexical).**
-  `tv:AliasOf` links a **relation type** to its **generative rule schema** (e.g., “`ComponentOf` aliases the result of a `Γ_m.sum` with role=component”).
+  `tv:AliasOf` links a **public relation type** to the exact direct relation principle whose reading it carries (for example, `ComponentOf` points to the direct structural-component principle). The alias supports comparison; it neither defines an occurrence nor says that a `sum` expression produced the relation.
 
 * **Grounding (per‑edge).**
- `tv:groundedBy` on an *edge instance* **MUST** point to a **Γₘ trace** (`sum|set|slice`) for **structural** edges (**set** `validationMode=axiomatic`); for **epistemic** edges it **MAY** point to an **evidence object** or a logical proof per declared `validationMode ∈ {inferential, postulate}`.
+ `tv:groundedBy` on a published structural relation assertion **MUST** point to one current C.2.1 construction-trace episteme in the `sum`, `set`, or `slice` form (**set** `validationMode=axiomatic`). For epistemic assertions it **MAY** point to an evidence object or a logical proof under `validationMode ∈ {inferential, postulate}`. The target supports replay of the assertion's basis; it creates neither the direct relation occurrence nor whole identity.
 
 * **Trace family.**
-  `Γ_m.sum`, `Γ_m.set`, `Γ_m.slice` are the only normative constructors for structural grounding; no temporal or workflow constructor is added here (time slices live in Sys‑CAL; parallelism via `set`).
+  `Γ_m.sum`, `Γ_m.set`, and `Γ_m.slice` are the only C.13 narrative forms used for structural grounding accounts here. Their claim content reports assembly, collection, or aspect facts already governed elsewhere; no temporal or workflow form is added.
 
 * **Validation flag.**
  `tv:validationMode ∈ {postulate, inferential, axiomatic}` is **required** on every declared edge or aggregation rule; **for structural edges `postulate` is disallowed**.

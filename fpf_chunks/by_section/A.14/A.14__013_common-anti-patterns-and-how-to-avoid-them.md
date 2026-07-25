@@ -6,12 +6,12 @@ section_id: "A.14:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23663
-line_end: 23671
+line_start: 23706
+line_end: 23714
 dependencies:
   - "A.1"
   - "A.15"
@@ -41,5 +41,5 @@ keywords:
 * **Method as part.** A method value, recipe, or algorithm is treated as a component instead of using method, method-description, work, or transformation owners.
 * **Portion without measure.** Some amount of fuel, data, time, or text is named as a portion without a measure kind, unit, and additivity condition.
 * **Phase as replacement.** A version or time slice is treated as a new component when the carrier identity continues, or as the same phase when the identity criteria fail.
-* **Diagram as relation.** A visual breakdown, graph, table, or view is used as proof of parthood without the relation record, grounding relation, and admissible relation kind.
+* **Diagram or trace as relation.** A visual breakdown, graph, table, construction trace, or `validationMode` is used as proof that parthood obtains or that the whole has one fixed identity. Recover the direct relation occurrence and the candidate's identity or reidentification rule first; use the publication and trace only as inspectable accounts.
 

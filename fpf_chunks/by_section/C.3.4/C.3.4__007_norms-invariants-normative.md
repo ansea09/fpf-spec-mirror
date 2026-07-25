@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__007_norms-invariants-normative.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:6 — Norms & Invariants (normative)"
-line_start: 44597
-line_end: 44628
+line_start: 44658
+line_end: 44689
 dependencies:
   - "C.2.1"
   - "C.3.1"

@@ -6,12 +6,12 @@ section_id: "A.2.7:3"
 section_title: "Role-Relation Expressions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__007_role-relation-expressions.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:3 — Role-Relation Expressions"
-line_start: 5145
-line_end: 5195
+line_start: 5186
+line_end: 5236
 dependencies:
   - "A.15"
   - "A.2"

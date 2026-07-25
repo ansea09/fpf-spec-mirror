@@ -6,12 +6,12 @@ section_id: "F.15:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__023_relations.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:16 — Relations"
-line_start: 92015
-line_end: 92026
+line_start: 92124
+line_end: 92135
 dependencies:
   - "A.10"
   - "A.15.1"

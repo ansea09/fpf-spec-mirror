@@ -6,12 +6,12 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 56966
-line_end: 56982
+line_start: 57051
+line_end: 57067
 dependencies:
   - "A.10"
   - "A.15"

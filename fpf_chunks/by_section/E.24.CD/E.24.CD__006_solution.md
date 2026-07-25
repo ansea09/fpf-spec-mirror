@@ -6,12 +6,12 @@ section_id: "E.24.CD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__006_solution.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:4 — Solution"
-line_start: 85473
-line_end: 85545
+line_start: 85558
+line_end: 85630
 dependencies:
   - "A.1"
   - "A.14"
@@ -20,6 +20,7 @@ dependencies:
   - "A.19.ECS"
   - "A.3.4"
   - "A.6.0"
+  - "A.6.5"
   - "A.6.F"
   - "A.6.P"
   - "A.6.RCD"
@@ -92,7 +93,7 @@ For a project card, row, schema, or diagram, inspect only what the current work 
 5. Does the work need local classification of a candidate, or only a claim about an already governed feature?
 6. What stronger reading must be blocked—for example, record existence creates performed work, a row creates membership, or a field name admits a kind?
 
-A field label is not a `SlotSpec`. A reusable `SlotSpec` appears only inside a `RelationSignature` for an already recovered direct relation and only when a named later use needs that declaration. A row value is not an actual relation participant merely because it occupies a column.
+A field label is not a `SlotSpec`. `A.6.5` governs the declaration: a reusable `SlotSpec` appears only inside a `RelationSignature` for an already recovered direct relation and only when a named later use needs that declaration. A row value is not an actual relation participant merely because it occupies a column.
 
 #### E.24.CD:4.3 - Apply E.24 only when several patterns need the same subject rules
 

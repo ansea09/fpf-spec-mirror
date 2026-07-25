@@ -6,18 +6,20 @@ section_id: "C.13:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__005_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:3 — Forces"
-line_start: 46089
-line_end: 46096
+line_start: 46152
+line_end: 46160
 dependencies:
+  - "A.1"
   - "A.14"
   - "B.3.5"
+  - "C.2.1"
 keywords:
   - "composition"
-  - "extensional identity"
+  - "construction account"
   - "mereology"
   - "part-whole"
   - "set"
@@ -27,9 +29,10 @@ keywords:
 
 ### C.13:3 - Forces
 
-* **Parsimony (C‑5).** Add no core types if composition suffices; keep the constructor set minimal.
-* **Minimal Kernel (P‑1).** Generativity must live in a calculus pattern, not in Kernel axioms and postulates.
-* **Cognitive asymmetry.** Everyday users want “one part‑of query”; specialists accept complexity backstage.
-* **Trans-disciplinary unification.** Every pattern that needs mereology should reuse one *generative* calculus.
-* **Constructive strictness.** New structural edges can require grounding because the constructive trace is part of the structural claim, not an after-the-fact decoration.
+* **Parsimony vs truth.** Three construction forms are easier to reuse than an open constructor catalogue, but no form may replace a missing direct relation or assembly rule.
+* **Readable edge vs constructive account.** Practitioners need ordinary component, member, and aspect claims; reviewers may also need to inspect how those relations support the named whole, collection, or aspect.
+* **Input set vs assembly.** The same entities can be assembled through different obtaining relations and can therefore yield different wholes.
+* **Continuity vs extensional snapshots.** Constituents and part-relation occurrences can change while the same whole continues when its direct reidentification rule permits the phase change.
+* **Construction vs evidence.** A trace states the construction account; evidence and assurance separately support or warrant the claim content.
+* **Cross-domain reuse vs owner bypass.** Systems, epistemes, methods, and work occurrences can all need constructive grounding, but their direct patterns retain kind, part, and identity authority.
 

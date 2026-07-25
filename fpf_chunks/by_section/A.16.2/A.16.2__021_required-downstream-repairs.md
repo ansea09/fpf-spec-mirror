@@ -6,12 +6,12 @@ section_id: "A.16.2:20"
 section_title: "Required Downstream Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__021_required-downstream-repairs.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:20 — Required Downstream Repairs"
-line_start: 27454
-line_end: 27464
+line_start: 27497
+line_end: 27507
 dependencies:
   - "A.16"
   - "A.16.0"

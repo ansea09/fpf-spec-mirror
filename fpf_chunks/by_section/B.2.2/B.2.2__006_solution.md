@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:4 — Solution"
-line_start: 36861
-line_end: 36950
+line_start: 36994
+line_end: 37067
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,41 +40,25 @@ keywords:
 
 ### B.2.2:4 - Solution
 
-After `B.2` leaves an MHT question open, admit the system-result case with a system-focused slice of the `HolonReidentificationRecord@Context`.
+After B.2 leaves a whole-reidentification question open, continue with the same exact candidate new whole and direct facts. Add no system-specific result species or context-shaped slice.
 
-#### B.2.2:4.1 - System-Result MHT Slice
+#### B.2.2:4.1 - Reuse The B.2 Candidate And Complete System Recognition
 
-Use this slice when `mhtResultSystemRef` is selected.
+Keep B.2's one `resultHolonRef` for the exact candidate new whole and its one `resultHolonKindRef`, which here resolves to the already admitted `U.System` kind. The references may appear in B.2's optional `HolonReidentificationRecord` when a receiving use needs a durable account; B.2.2 adds no second record.
 
-```text
-SystemMHTSlice@Context:
-  existingWholeRef: U.Holon
-  mhtResultSystemRef: U.System
-  boundedContextRef:
-  selectedTriggerProfileRef: MHTTriggerProfile@Context
-  existingWholeExplanationCheckRef: ExistingWholeExplanationCheck@Context
-  systemKindAdmissionRef: A.1 or B.1.2 admission
-  resultDelimitationRelationRef:
-  resultBoundaryCrossingRelationRefs:
-  objectiveOrEvaluationRelationRef?
-  supervisionOrCoordinationRelationRef?
-  capabilityEnvelopeRef?
-  roleAssignmentRefs?
-  methodOrMechanismRefs?
-  transformationParticipationRefs?
-  workOccurrenceRefs?
-  functioningRelationRefs?
-  architectureClaimRefs?
-  evidenceOrAssuranceRefs?
-  temporalOrDynamicsRefs?
-  blockedOverreads:
-```
+Before calling the candidate a system result:
 
-This slice is not a U-kind. It is the system-result part of the B.2 record, written so that every system-dependent claim can return to its direct owner.
+1. execute the complete A.1 criterion over the candidate's exact constituents, obtaining constructive relations, governed assembly, reidentification rule, and composition-grounded whole characteristic;
+2. show that its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent;
+3. apply the direct `U.System` criterion to that same individual: its actual physical or operational organization must make it eligible to act causally in work or transformation while preserving its identity;
+4. recover only the additional system facts used by the concrete case—including any delimitation, objective, commitments, coordination, capability, role, method, work, transformation, functioning, architecture, evidence, assurance, or temporal claim—and keep each with its direct owner; and
+5. keep the classification judgment, evidence or assurance, currentness, and receiving reliance separate from those world-side facts.
 
-#### B.2.2:4.2 - System Participation Re-Basing
+If a required A.1 component or the acting-eligibility criterion fails, do not identify the candidate as the system result. If an additional system fact needed for another claim is absent, withhold that claim rather than treating its absence as failure of the `U.System` criterion. If missing evidence or an unavailable dependency prevents a determination, report `unknown`; neither a filled reference nor an optional record changes that result.
 
-When the result is `U.System`, re-base system participation slots for the result system:
+#### B.2.2:4.2 - Carry Result-System Claims Through Direct Owners
+
+When the candidate is recognized as `U.System`, state every changed result-system fact or claim under its direct owner:
 
 - role assignments through `A.2.1` and role-relation owners;
 - capabilities through `A.2.2` and `C.16`;
@@ -86,23 +70,23 @@ When the result is `U.System`, re-base system participation slots for the result
 - evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
 - temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal owners.
 
-Do not reuse old component evidence as if it automatically covered the result system. Carry continuities by explicit relation; re-declare changed slots for the result system.
+Do not reuse old component evidence as if it automatically covered the candidate system. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its direct owner and support the associated claim through a separate evidence or assurance relation.
 
 #### B.2.2:4.3 - System Trigger Interpretation
 
-The B.2 trigger profile can be interpreted for systems as follows:
+When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read its cues for a system case as follows:
 
-| Trigger family in `MHTTriggerProfile@Context` | System-result reading | Direct owner kept visible |
+| Cue recorded in `MHTTriggerProfile` | System-case reading | Direct owner kept visible |
 | --- | --- | --- |
 | Delimitation change | The operating whole now has an external delimitation and crossing relations that differ from the old aggregate. | `A.1`, `B.1.2`, `A.14`, `C.13` |
 | Objective or evaluation change | The whole is now evaluated by a system-level objective, mission, SLO, safety case, or viability claim. | `C.16`, `E.13`, `A.10`, decision or assurance owners |
 | Supervision or coordination change | A controller, protocol, governance relation, or distributed coordination relation regulates constituent behavior for the result whole. | `B.2.5`, `A.12`, `A.3.4`, `A.15.1` |
-| Capability or closure evidence | The capability envelope belongs to the result system, not to any one constituent alone. | `A.2.2`, `C.16`, `B.2.4` when whole reidentification is current |
+| Capability or closure claim | Recover the exact capability envelope and closure relations of the candidate system; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
 | Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal owners |
 | Context reframe | The relevant bounded context changes the operating whole under concern. | `A.1`, bounded-context owners, architecture owners |
 
-No single row is enough by itself. The row names evidence to inspect. B.2 decides whether the whole must be reidentified.
+No cue is enough by itself. Each row points to facts and claims to inspect; B.2's direct existing-whole/new-whole comparison, complete A.1 recognition, and the system-kind criterion decide the result.
 
 #### B.2.2:4.4 - Delimitation and External Acting Systems
 
@@ -117,7 +101,7 @@ A lathe making a workpiece, a controller steering a plant, or a teacher changing
 
 #### B.2.2:4.5 - Assurance Re-Basing
 
-When `mhtResultSystemRef` is admitted, old assurance must be tested against the result system.
+When the exact candidate new whole is recognized as `U.System`, test old assurance against that system rather than transferring it by name.
 
 Ask:
 
@@ -126,5 +110,5 @@ Ask:
 - Which assurance claims must be rewritten for the result system?
 - Which architecture, capability, functioning, work, temporal, or evidence claims now have different owners?
 
-The result system can inherit evidence only through named relations. It does not inherit safety, reliability, responsibility, or performance claims by label.
+A claim about the candidate system may reuse component evidence only through an exact correspondence or source-use relation and a fresh evaluation of applicability. The candidate does not inherit safety, reliability, responsibility, or performance claims by label.
 

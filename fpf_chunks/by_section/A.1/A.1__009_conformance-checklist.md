@@ -6,12 +6,12 @@ section_id: "A.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__009_conformance-checklist.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:7 — Conformance Checklist"
-line_start: 1651
-line_end: 1666
+line_start: 1661
+line_end: 1679
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,6 +46,9 @@ keywords:
 | `CC-A1-7` | Collection membership, collection-as-whole, acting collective system, whole-level characteristic, and B.2 whole reidentification are kept distinct. |
 | `CC-A1-8` | Boundary wording recovers an exact delimitation relation, criterion, or selected structure from its direct pattern; crossing wording preserves the exact crossing relation occurrence and uses F.9 without minting universal delimitation or crossing relation kinds. |
 | `CC-A1-9` | A system changing another holon is not treated as that holon's super-holon unless a separate grounded part-whole relation obtains. |
-| `CC-A1-10` | A.14, C.13, and B.3.5 remain the direct governing patterns for relation vocabulary, constructive grounding, and Working-Model assurance grounding. |
-| `CC-A1-11` | Publication forms and descriptions of holons are kept distinct from the holons they describe. |
+| `CC-A1-10` | A.14 and the direct part-relation patterns identify exact obtaining parthood; C.13 may ground an assembly only from those facts and does not create them; B.3.5 is opened only for a named assurance use. |
+| `CC-A1-11` | Publication forms, construction traces, and descriptions of holons remain distinct from the holons and world-side construction facts they describe. |
+| `CC-A1-12` | A candidate `U.System`, `U.Episteme`, `U.Method`, `U.Work`, or `U.Discipline` may use constructive grounding only after its direct patterns identify exact parts and whole-forming relations; a selected dependent `U.Structure` is not a holon by selection or name. |
+| `CC-A1-13` | Several actual changes are not classified as one composite transformation or holon without a direct transformation-composition governor; a missing governor neither proves composition nor proves atomism. |
+
 

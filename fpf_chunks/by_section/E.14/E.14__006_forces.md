@@ -6,12 +6,12 @@ section_id: "E.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__006_forces.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:3 — Forces"
-line_start: 76092
-line_end: 76111
+line_start: 76177
+line_end: 76196
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -30,7 +30,7 @@ keywords:
 ### E.14:3 - Forces
 
 1. **Cognitive economy vs. semantic precision.**
-   Managers and engineers must navigate with a handful of names and relations; assurance authors must still certify that those names and relations **are unambiguous and extensional**.
+   Managers and engineers must navigate with a handful of names and relations; assurance authors must still check that each name has one intended governed value, each relation claim has the required direct basis, and identity conditions are explicit.
 
 2. **Speed of change vs. guarantees.**
    The Working‑Model must accommodate rapid iteration; the Assurance stack must **lag just enough** to check, without blocking practical progress.

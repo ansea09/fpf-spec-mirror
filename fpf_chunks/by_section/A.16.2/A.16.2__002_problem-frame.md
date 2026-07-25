@@ -6,12 +6,12 @@ section_id: "A.16.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__002_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:1 — Problem frame"
-line_start: 27270
-line_end: 27272
+line_start: 27313
+line_end: 27315
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.3.4.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
-line_start: 7671
-line_end: 8068
+line_start: 7712
+line_end: 8109
 dependencies:
   - "A.1"
   - "A.10"
@@ -180,7 +180,7 @@ Use `componentTransformation` and `compositeTransformation` only as participant 
 
 Identify every proposed component transformation and the proposed whole-configuration transformation independently through A.3.4:4.1. A sampled point, arbitrary subinterval, method step, work part, flow node, graph edge, trace segment, formula term, before-and-after image, shared changed referent, or temporal inclusion establishes neither transformation parthood nor that the selected transformation has no parts.
 
-The neighboring general patterns do not silently supply the missing bridge. `A.22` can identify a selected structure whose relation organization changes; `C.27.TA` can identify temporal aspects; `A.14` and `C.13` govern structural mereology and a `Γ_m` construction trace. None of those results by itself states that one actual change contributes to another actual change, that several changed referents constitute the changed referent of another transformation, or that several transformations compose one transformation. A `Γ_m.sum` of entity parts establishes structural extensional identity under C.13; it does not make the resulting whole an actual bounded change or make changes of its inputs parts of that change.
+The neighboring general patterns do not silently supply the missing bridge. `A.22` can identify a selected structure whose relation organization changes; `C.27.TA` can identify temporal aspects; `A.14` and `C.13` govern structural mereology and a `Γ_m` construction trace. None of those results by itself states that one actual change contributes to another actual change, that several changed referents constitute the changed referent of another transformation, or that several transformations compose one transformation. A materialized `Γ_m.sum` trace is a C.2.1 episteme about independently grounded entity-part relations, assembly, and the entity's direct identity or reidentification conditions. It establishes neither those facts nor the resulting whole's identity, and it does not make the whole an actual bounded change or make changes of its inputs parts of that change.
 
 Accordingly, one independently grounded change of an exact selected configuration may be retained as a configuration transformation under A.3.4:4.1. It is not thereby a composite transformation, and separately grounded mounting, wiring, or connection transformations are not thereby its components. Ground a composite transformation only after exact direct contribution and transformed-referent relations, their temporal and boundary compatibility governors, and one applicable subject composition and reidentification rule are all recoverable. If any of that basis is missing, retain the independently identified transformations and stop before composition or parthood.
 

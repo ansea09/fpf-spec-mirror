@@ -6,12 +6,12 @@ section_id: "B.2.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__003_problem-frame.md"
-commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:1 — Problem Frame"
-line_start: 37079
-line_end: 37086
+line_start: 37191
+line_end: 37198
 dependencies:
   - "A.1"
   - "A.10"
@@ -31,7 +31,6 @@ dependencies:
   - "E.24.UK"
   - "F.18"
   - "F.19"
-  - "U.EpistemeSlotRelation"
 keywords:
 ---
 
@@ -39,7 +38,7 @@ keywords:
 
 A library is not a theory, and a theory is not its publication.
 
-A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. It becomes an MHT-result episteme only when the current claim needs one reidentified claim-bearing holon whose C.2.1 slot relation can be filled and governed as one episteme.
+A group of papers, models, datasets, design notes, forecasts, standards, or local doctrines may remain a collection. B.2.3 becomes current only when B.2's exact candidate new whole can be constructively recognized under A.1 and the current C.2.1 constitution criterion identifies that same individual as one claim-bearing episteme.
 
-B.2.3 does not introduce a special episteme ontology. It uses `mhtResultEpistemeRef` in the B.2 record and then returns episteme structure to C.2.1.
+B.2.3 introduces no special episteme result object. It retains B.2's one `resultHolonRef` and `resultHolonKindRef`, then returns episteme constitution and every neighboring relation to C.2.1 and its direct owners.
 
