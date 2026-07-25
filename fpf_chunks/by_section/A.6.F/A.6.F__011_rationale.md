@@ -6,20 +6,25 @@ section_id: "A.6.F:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__011_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:10 — Rationale"
-line_start: 18009
-line_end: 18016
+line_start: 17683
+line_end: 17690
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.2"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.5"
   - "A.6.8"
@@ -28,12 +33,14 @@ dependencies:
   - "A.6.C"
   - "A.6.M"
   - "A.6.P"
+  - "A.6.REL"
   - "A.6.RSIR"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -43,26 +50,29 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.18"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "G.6"
-  - "U.Function"
 keywords:
   - "FunctionalStructure"
-  - "capability/effect"
+  - "actual transformation"
+  - "capability"
+  - "episteme/publication boundary"
   - "function wording"
-  - "function-use repair"
   - "functional architecture"
   - "mathematical function"
+  - "method-description membership"
   - "module allocation"
-  - "work/method boundary"
+  - "required behavior or effect"
+  - "work"
 ---
 
 ### A.6.F:10 - Rationale
 
-Function-like wording is too useful to ban and too overloaded to leave ungoverned. The smallest useful repair is not a new ontology. It is recovery of the value kind, relation record, slot reference, claim record, view record, or governing-pattern application: say what the phrase is about, what it is not about, and what use remains admissible.
+Function-like wording is too useful to ban and too overloaded to leave ungoverned. The smallest useful repair is not a new ontology or a generic record. Name the exact governed entity, value, claim, or claim-bearing episteme, apply its direct owner, say what the phrase is not about, and state the remaining use.
 
-This design follows A.6.P: trigger phrase, value-kind recovery, relation-record recovery, slot-reference recovery, explicit relation fields, governingPatternRef fields, and lexical guardrails. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture, not a selected transformation-flow structure by default, and not a mathematical graph description by itself.
+This design follows A.6.P: recover the direct relation and actual participants when one obtains; add a reusable `RelationSignature` and declaration-local `SlotSpec`s only for typed reuse; keep assertion, specification, or view epistemes separate; and keep representation elements under C.29 with explicit correspondence. It also follows C.30: functional architecture is selected structure for a described holon, not a peer of architecture, not a selected transformation-flow structure by default, and not a mathematical graph description by itself.
 
-The pattern keeps ordinary language usable. A phrase can remain Plain when it carries no FPF claim being made. When it carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind, the FPF kind named by value, relation, claim record, view, or governing-pattern application is recoverable.
+The pattern keeps ordinary language usable. A phrase can remain Plain when it carries no FPF claim. When it carries an ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim, the exact object or claim and direct owner are recoverable. No generic relation, claim, slot, or view record stands in for that result.
 

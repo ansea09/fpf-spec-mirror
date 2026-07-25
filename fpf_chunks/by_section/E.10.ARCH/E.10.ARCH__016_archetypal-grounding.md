@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.1"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__016_archetypal-grounding.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9.1 — Archetypal Grounding"
-line_start: 74234
-line_end: 74241
+line_start: 73972
+line_end: 73979
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,8 +35,7 @@ dependencies:
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.16"
-  - "C.16.P"
-  - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.25"
@@ -70,6 +69,6 @@ keywords:
 | Situation | E.10.ARCH move | Boundary |
 | --- | --- | --- |
 | Architecture text repeatedly says diagrams, ADRs, dashboards, and views are not architecture. | Use the architecture and structure row, then apply `C.30.P` or `C.30.AD` according to the recovered architecture field. | C.30 remains about architecture and selected structures, not a generic diagram-warning pattern. |
-| Method text uses algorithm, workflow, solver, proof, and program as one family. | Use the method, work, and P2W constellation row and recover method, method description, formal substrate, mechanism, work plan, dated work, or evidence relation separately. | Do not assign one typed value to several kinds because one source label was shared. |
+| Method text uses algorithm, workflow, solver, proof, and program as one family. | Use the method, work, and P2W constellation row and recover one exact method, `MethodRelationStructure@BoundedContext`, one-method description episteme, formal substrate, mechanism, work plan, dated Work, result, or representation separately. | Do not assign one typed value to several kinds because one source label was shared. |
 | A dashboard or evidence-path wording is treated as permission or release. | Use the declarative-representation row or the direct evidence, gate, authority, or release pattern. | Graph and provenance relations remain legitimate when they are not overread as routes, calls, permissions, or releases. |
 

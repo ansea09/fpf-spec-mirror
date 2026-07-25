@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.14.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
-line_start: 91492
-line_end: 91811
+line_start: 91253
+line_end: 91572
 dependencies:
   - "A.10"
   - "A.15.1"

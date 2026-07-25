@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:11"
 section_title: "Known uses (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__013_known-uses-didactic-informative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:11 — Known uses (didactic, informative)"
-line_start: 32385
-line_end: 32391
+line_start: 32059
+line_end: 32065
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

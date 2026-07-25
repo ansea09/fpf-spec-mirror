@@ -6,12 +6,12 @@ section_id: "G.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__012_bias-annotation.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:6 — Bias-Annotation"
-line_start: 96998
-line_end: 97007
+line_start: 96791
+line_end: 96800
 dependencies:
   - "C.11"
   - "C.18"

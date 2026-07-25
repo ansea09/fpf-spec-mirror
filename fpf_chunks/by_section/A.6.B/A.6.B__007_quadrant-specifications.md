@@ -6,12 +6,12 @@ section_id: "A.6.B:5"
 section_title: "Quadrant specifications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__007_quadrant-specifications.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:5 — Quadrant specifications"
-line_start: 9653
-line_end: 9760
+line_start: 9611
+line_end: 9718
 dependencies:
   - "A.10"
   - "A.2.3"

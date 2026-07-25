@@ -1,60 +1,80 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.CD"
-pattern_title: "Ontic Candidate Detection"
+pattern_title: "Ontic Candidate Detection and First-Use Disposition"
 section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
-  - "E.24.CD — Ontic Candidate Detection"
+  - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 85677
-line_end: 85703
+line_start: 85418
+line_end: 85446
 dependencies:
+  - "A.1"
+  - "A.14"
+  - "A.15.1"
   - "A.19"
   - "A.19.ECS"
-  - "A.6.5"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.F"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "A.6.RSIR"
+  - "B.1"
+  - "B.2"
+  - "C.13"
   - "C.2.1"
+  - "C.2.P.DR"
+  - "C.22.2"
+  - "C.22.PFR"
+  - "C.28"
+  - "C.29"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
   - "E.10"
   - "E.10.ARCH"
-  - "E.2.DA"
-  - "E.21"
+  - "E.17.0"
+  - "E.18.1"
+  - "E.23"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
-  - "E.9.DA"
   - "F.18"
-  - "F.19"
   - "U.CharacteristicSpace"
 keywords:
 ---
 
 ### E.24.CD:0 - Use This When
 
-Use this pattern when a recurring FPF construct is an ontic candidate, but the current source material is still a tangle of names, fields, cards, records, tables, schemas, diagrams, views, examples, or nearby pattern fragments.
+Use this pattern when a recurring word, card, table, schema, diagram, record, draft pattern row, or field bundle looks like a new FPF subject and the author must decide what to do next.
 
 Typical moments:
 
-- one word such as "process", "source", "quality", "architecture", "problem", "view", "role", "function", "mechanism", or "method" keeps pointing to several FPF values at once;
-- several patterns repeat a similar slot list, field list, boundary formula, or generic semio warning;
-- a project data structure looks concept-shaped, but it may only be a publication form or local record;
-- a draft ToC row or older source label names a family that no current pattern yet governs;
-- a proposed new `U.*` kind feels useful, but it might duplicate existing governing patterns.
+- one word such as "process", "source", "quality", "architecture", "problem", "view", "role", "function", "mechanism", or "method" points to several FPF objects or claims at once;
+- several patterns repeat a similar declaration, participant list, or relation rule;
+- a project data structure looks concept-shaped, although it may be only a claim-bearing episteme, publication form, representation, or local record;
+- a draft ToC row names a family that no current pattern yet governs;
+- a proposed `U.*` kind feels useful, but it may duplicate a current kind or direct relation.
 
-**First useful move.** Recover the recognizable project concern first, then list the typed FPF values and relation positions that the source material compresses. Only then classify the case as durable ontic candidate, local use frame, direct governing-pattern use, publication-form-only case, or source wording to keep quote-only or reduced-use.
+**Primary EntityOfConcern.** When the author records this choice in a C.2.1 episteme, its EntityOfConcern is the subject already identified under a direct pattern. If that subject cannot yet be identified, use the source episteme or expression entity whose inquiry remains open. The visible form and the note recording the disposition are not substitutes.
 
-**What goes wrong if missed.** FPF grows a hidden ontology. A table becomes a kind, a card becomes a subject, a draft label becomes authority, and a convenient word creates a second ontology over values that already have governing patterns.
+**First useful move.** Write one plain sentence: “For this work or decision, we need to know or do `<action>` about `<subject>`.” Then ignore the wrapper long enough to recover the subject, the needed claim, and the current pattern that governs it. Apply the first truthful disposition in section 4.
 
-**What this buys.** The author gets a compact candidate cluster and a sufficiency rationale before opening `E.24`. This keeps E.24 small and keeps candidate discovery from becoming a registry, score form, or warning catalogue.
+**What goes wrong if missed.** FPF grows shadow ontology. A table becomes a kind; a field label is mistaken for a relation-participant meaning; a filled field is treated as an actual relation participant merely because it occupies a column; a card becomes the subject; or a convenient word creates a second ontology over values and relations that already have governing patterns.
+
+**What this buys.** The author identifies one usable governing pattern without filling a candidate record or maintaining a registry. A genuine durable ontic must still pass E.24's full identity and relation test; simpler cases stop with their direct governing pattern, local classification, description or publication handling, wording repair, or a precise unresolved question.
 
 **Not this pattern when.**
 
-- If the durable ontic is already selected and its identity and slot relation must be governed, use `E.24`.
-- If the current question is whether a `U.*` spelling in a heading, title, filename, ToC row, table, or source passage should be retained, demoted, or repaired, recover the concern and use `E.24.UK`.
-- If the current problem is only confusion between an ontic, its description, and publication forms, use `E.24.PUB`.
-- If an existing subject pattern already governs the claim, use that pattern directly.
-- If the issue is one wording-use repair, use `E.10`, `E.10.ARCH`, or the relevant precision-restoration pattern.
-- If the contested question is how to compare pattern-set architecture alternatives, construct the evaluation `CharacteristicSpace` through `A.19.ECS`.
+- If one existing governing pattern already states the needed claim, use it directly.
+- If a local kind, criterion, candidate judgment, or extension is already the question, use `C.3`, `C.3.1`, and `C.3.2`.
+- If the current question is a description episteme, use `C.2.1` for its identity and the subject-specific description pattern when one applies. For view membership, publication form or occurrence, representation, or carrier, use `E.17.0`, `E.24.PUB`, or `C.29`.
+- If the subject and governing claim are clear and only the wording hides them, use `E.10`, `E.10.ARCH`, or the applicable precision-restoration pattern.
+- If a durable ontic has already been selected, use `E.24`; if a durable public `U.*` kind is separately at issue, use `E.24.UK`.
+- If the work is comparing architecture alternatives, construct the evaluation through `A.19.ECS`.
 

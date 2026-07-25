@@ -6,12 +6,12 @@ section_id: "G.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__012_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:11 — Rationale"
-line_start: 98272
-line_end: 98275
+line_start: 98065
+line_end: 98068
 dependencies:
   - "A.10"
   - "A.21"

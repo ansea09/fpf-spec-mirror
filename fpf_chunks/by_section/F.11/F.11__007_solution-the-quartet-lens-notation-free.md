@@ -6,12 +6,12 @@ section_id: "F.11:6"
 section_title: "Solution — the quartet lens (notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__007_solution-the-quartet-lens-notation-free.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:6 — Solution — the quartet lens (notation‑free)"
-line_start: 90616
-line_end: 90642
+line_start: 90377
+line_end: 90403
 dependencies:
   - "A.15"
   - "A.15.1"

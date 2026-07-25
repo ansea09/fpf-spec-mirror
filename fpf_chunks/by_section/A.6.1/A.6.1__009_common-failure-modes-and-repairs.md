@@ -6,12 +6,12 @@ section_id: "A.6.1:8"
 section_title: "Common Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__009_common-failure-modes-and-repairs.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:8 — Common Failure Modes and Repairs"
-line_start: 11782
-line_end: 11800
+line_start: 11740
+line_end: 11758
 dependencies:
   - "A.1"
   - "A.1.1"

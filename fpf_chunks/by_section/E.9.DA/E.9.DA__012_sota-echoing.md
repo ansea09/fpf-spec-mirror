@@ -6,12 +6,12 @@ section_id: "E.9.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__012_sota-echoing.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:11 — SoTA-Echoing"
-line_start: 71844
-line_end: 71854
+line_start: 71547
+line_end: 71557
 dependencies:
   - "A.19.ECS"
   - "E.10"

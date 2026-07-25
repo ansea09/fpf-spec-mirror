@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__019_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 74271
-line_end: 74285
+line_start: 74008
+line_end: 74026
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,8 +35,7 @@ dependencies:
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.16"
-  - "C.16.P"
-  - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.25"
@@ -69,7 +68,11 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Classification or actual-slot fallback without repair | The text says "this belongs under `A.6.P`/`C.2.P`/`A.6.P.WMR`", calls the answer a generic result relation, or treats a method-description field, planned filling, compatible type, or actual-slot-looking reference as the participant relation, but leaves no recovered wording, governed object, direct relation use, claim-bearing episteme, source-relation disposition, truthful WMR exit, direct governing-pattern application, or blocker. | Apply the selected pattern to one truthful repair result or fail closed; do not infer actuality from description or slot appearance. |
+| Generic container recovery | A record, row, field, or slot-shaped placeholder is presented as the recovered ontology although the current object could be a direct relation, assertion episteme, declaration, participant designation, publication form, or representation. | Name the exact governed object and its direct owner; add declaration, assertion, reference, publication, or representation apparatus only for a named receiving use. |
+| Representation becomes obtaining | A graph edge, tuple component, diagram element, or table cell is treated as the world-side relation or its occurrence identity. | Keep the element under C.29 or its publication owner, state the represented object and explicit correspondence, and apply the direct relation pattern separately. |
+| Method description becomes a project constellation | One `U.MethodDescription` is made to contain a method family, mechanism, plan, Work occurrence, transformation, result, architecture, and representation as if they were one object. | Let one `U.MethodDescription` describe one exact `U.Method`; enumerate every other current object and direct relation under its own governing pattern. |
+| Authoring row becomes a practitioner form | Engineers are required to complete an applicability row before using a clear direct pattern. | Keep the row inside E.10.ARCH authoring and publication architecture; give practitioners the shortest exact object-and-relation sentence and bypass restoration when the owner is clear. |
+| Classification or type-correct-designation fallback without repair | The text names a restoration pattern, generic result label, method-description field, planned use, compatible type, or designation but leaves no exact governed object, direct relation, claim-bearing episteme, direct owner, truthful WMR exit, or blocker. | Apply the selected direct pattern to one truthful result or fail closed; type correctness and designation do not establish actuality. |
 | Trigger registry copying | `E.19`, `C.30.P`, `C.16.P`, `C.16.Q`, or a subject pattern copies the full `E.10` trigger list. | Keep one thin cue in the subject pattern of concern and cite `E.10` and `E.10.ARCH` through ordinary references or `Relations`. |
 | Umbrella-to-umbrella replacement | `support` becomes `basis`, `display` becomes `view`, `reading` becomes `evaluation`, or `function` becomes `role` without a recovered governed object and exact use. | Recover the governed object, any direct relation use, admissible use, and remaining reader use; otherwise demote or block. |
 | Source-ontology smuggling | `interface`, `schema`, `record`, `profile`, `path`, or another familiar source-domain word is used because it sounds precise, but the recovered governed object or direct relation use is different. | Recover the source ontology, governed object, exact direct relation use, any declaration-local SlotSpec or assertion-side designation, and governing pattern; keep the source word only when that pattern makes the meaning current. |

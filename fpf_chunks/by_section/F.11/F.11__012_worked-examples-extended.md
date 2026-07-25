@@ -6,12 +6,12 @@ section_id: "F.11:11"
 section_title: "Worked examples (extended)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__012_worked-examples-extended.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:11 — Worked examples (extended)"
-line_start: 90707
-line_end: 90766
+line_start: 90468
+line_end: 90527
 dependencies:
   - "A.15"
   - "A.15.1"

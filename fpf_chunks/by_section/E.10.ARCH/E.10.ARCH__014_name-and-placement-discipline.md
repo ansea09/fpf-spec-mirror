@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:8"
 section_title: "Name and placement discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__014_name-and-placement-discipline.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:8 — Name and placement discipline"
-line_start: 74206
-line_end: 74215
+line_start: 73939
+line_end: 73948
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,8 +35,7 @@ dependencies:
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.16"
-  - "C.16.P"
-  - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.25"

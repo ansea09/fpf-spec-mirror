@@ -6,12 +6,12 @@ section_id: "F.19:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:8 — Common anti-patterns and how to avoid them"
-line_start: 93769
-line_end: 93784
+line_start: 93562
+line_end: 93577
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

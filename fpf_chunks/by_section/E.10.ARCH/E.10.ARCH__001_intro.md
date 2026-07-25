@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 73919
-line_end: 73947
+line_start: 73667
+line_end: 73694
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,8 +35,7 @@ dependencies:
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.16"
-  - "C.16.P"
-  - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.25"
@@ -78,8 +77,7 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 `E.10.ARCH` is not a generic language-cleanup pattern. Its mechanism is ontological reconstruction: recover the current governed object, the exact use that made the wording consequential, and the pattern governing that object or use. Recover a claim-bearing episteme, publication object, source-relation disposition, state-family value, or mathematical lens only when that object is current. The output returns to wording after those objects and their direct relations are recoverable. When the kind is recoverable but phrase-level apparatus still hides it, use `F.19` for ontology-first plain technical rewriting.
 
-**Relation-use recovery rule.** When wording hides a positive or governed-negative direct relation claim, first name the direct relation kind, its actual participants under their relation-participant meanings, and the direct pattern governing predicate obtaining and occurrence identity. Add a `RelationSignature` and `SlotSpec` only when reusable typed declaration is current. Add an assertion or description episteme and its relation-participant designations only when a current claim needs them. Individuate one relation occurrence only when a named receiving use needs to distinguish it. If recovery instead returns an exact `A.6.1` operation-application binding, a local `A.15.PROD` or `A.6.RCD` claim, or reason-specific non-assertability, keep that result under its direct owner and do not coerce it into a relation kind or occurrence. `E.10.ARCH` introduces no generic relation record, relation position, ontic slot, or filler.
-
+**Relation-use recovery rule.** When wording hides a positive or governed-negative direct relation claim, first name the obtaining direct relation and the actual governed participants under the participant meanings stated by its direct pattern. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants. A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless its direct owner establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that exact direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`. `E.10.ARCH` owns none of those objects; it only routes the authoring repair to their direct owners.
 **Use this pattern when** a recurring wording-use problem hides stable ontological recovery work that should be shared instead of copied into each subject pattern.
 
 **What goes wrong if missed.** Subject patterns accumulate local wording-repair catalogues and stop foregrounding their own governed object, invariant, and first useful move.

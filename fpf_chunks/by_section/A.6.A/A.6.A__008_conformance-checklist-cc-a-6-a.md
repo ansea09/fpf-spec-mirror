@@ -6,12 +6,12 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 17502
-line_end: 17567
+line_start: 17141
+line_end: 17206
 dependencies:
   - "A.15"
   - "A.16"

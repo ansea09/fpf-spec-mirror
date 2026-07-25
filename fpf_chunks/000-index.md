@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `f2fdd062c1518c9b1a1be1b6ad795627cffad2f1`
+Commit SHA: `3bc659a6f866071f629bf41fc2dd41f2518e579a`
 
 Chunking method: `pattern-aware`
 
@@ -14,7 +14,7 @@ Patterns: `290`
 - [A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)](by_pattern/A.1.md)
 - [A.1.1 — U.BoundedContext Semantic Frame](by_pattern/A.1.1.md)
 - [A.2 — Role Taxonomy](by_pattern/A.2.md)
-- [A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment](by_pattern/A.2.1.md)
+- [A.2.1 — U.RoleAssignment - System Role Assignment](by_pattern/A.2.1.md)
 - [A.2.2 — U.Capability - System Ability Envelope and Measures](by_pattern/A.2.2.md)
 - [A.2.3 — U.PromiseContent (Promise Content)](by_pattern/A.2.3.md)
 - [A.2.4 — Episteme Evidence-Use and Status-Use Relations](by_pattern/A.2.4.md)
@@ -46,7 +46,7 @@ Patterns: `290`
 - [A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
 - [A.6.3.NAR — Structure-to-Narrative Rendering](by_pattern/A.6.3.NAR.md)
 - [A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism](by_pattern/A.6.4.md)
-- [A.6.P — Relational Precision Restoration (RPR) — Kind‑Explicit Qualified Relation Discipline](by_pattern/A.6.P.md)
+- [A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims](by_pattern/A.6.P.md)
 - [A.6.P.WMR — Exact Relation Recovery for Method and Work Claims](by_pattern/A.6.P.WMR.md)
 - [A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission](by_pattern/A.6.RCD.md)
 - [A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration](by_pattern/A.6.RSIR.md)
@@ -260,7 +260,7 @@ Patterns: `290`
 - [E.22 — Improvement-Oriented Quality Evaluation Question Framing](by_pattern/E.22.md)
 - [E.23 — Quality Improvement Loop Method](by_pattern/E.23.md)
 - [E.24 — U.Ontic and Ontic Introduction Discipline](by_pattern/E.24.md)
-- [E.24.CD — Ontic Candidate Detection](by_pattern/E.24.CD.md)
+- [E.24.CD — Ontic Candidate Detection and First-Use Disposition](by_pattern/E.24.CD.md)
 - [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)
 - [E.24.UK — U-kind Admission and Ontic Settlement](by_pattern/E.24.UK.md)
 - [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)

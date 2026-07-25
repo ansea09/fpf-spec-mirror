@@ -6,26 +6,30 @@ section_id: "C.2.P.DR:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__002_use-this-when.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:0 — Use this when"
-line_start: 43758
-line_end: 43787
+line_start: 43432
+line_end: 43461
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.4"
+  - "A.19"
   - "A.19.SPR"
   - "A.20"
   - "A.21"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.1"
   - "A.7"
   - "B.3"
+  - "C.16"
+  - "C.2.1"
   - "C.2.P"
   - "C.29"
   - "E.10"
@@ -43,7 +47,7 @@ keywords:
 
 Use this pattern when a declarative representation is about to guide action, reliance, gate, release, evidence, method, mechanism, work, or pattern-application claims by its shape alone.
 
-**First useful move.** Fill one compact `DeclarativeRepresentationRepair` note: encountered representation; representation kind; represented EntityOfConcern or claim; current source or publication relation; tempting imperative overread; recovered governing pattern; retained use; blocked overread; and stop or reopen condition.
+**First useful move.** Fill one compact `DeclarativeRepresentationRepair` note: visible expression or artifact; exact current direct object or relation; exact representation or correspondence use, or `none`; current source or publication relation; tempting stronger action claim; recovered governing pattern; retained use; blocked stronger action claim; and stop or reopen condition.
 
 **Quick example.** A heat-flow graph in a reactor-cooling review can show preserved and lost flow relations. It does not authorize a valve change by graph shape. The repair keeps the graph path as graph structure, returns release or gate reliance to the gate, source, and evidence patterns, and blocks the hidden work-permission claim.
 
@@ -57,7 +61,7 @@ Use this pattern especially when:
 
 **What goes wrong if missed.** The representation appears to do work it cannot do. A path "routes" a decision, a query "calls" a pattern, a dashboard "authorizes" release, a checklist predicate "runs" a process, an evidence path "permits" action, or a program-looking text becomes "the method" without recovering method semantics, method description, formal substrate, mechanism, work plan, work, evidence, or source-use relation.
 
-**What this buys.** The working reader keeps the representation useful without making it magical. Graph paths remain graph paths, evidence paths remain evidence paths or provenance paths, queries remain representations, pattern relations remain declarative relations, and method-like wording is assigned to the current ontic slot, relation position, use relation, claim kind, or governing pattern named by value before it guides work, evidence, gate, release, assurance, or method claims.
+**What this buys.** The working reader keeps a visible expression useful without making it magical or hiding its direct owner. Graph paths and structures, evidence or provenance relations, queries and formal objects, publication faces, and pattern relations keep their own kinds. When a graph, file, tile, table, or face represents one of them, the exact representation or correspondence use is stated separately. For method-like wording, the reader identifies the direct object or relation, any represented object or claim, and the exact relation that gives the expression its current use before selecting method, method description, formal substrate, mechanism, plan, work, evidence, source, gate, or release guidance.
 
 **Not this pattern when.**
 

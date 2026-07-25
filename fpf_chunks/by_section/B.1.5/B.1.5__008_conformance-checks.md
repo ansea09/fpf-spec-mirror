@@ -6,12 +6,12 @@ section_id: "B.1.5:6"
 section_title: "Conformance Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__008_conformance-checks.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:6 — Conformance Checks"
-line_start: 36312
-line_end: 36330
+line_start: 35986
+line_end: 36004
 dependencies:
   - "A.1"
   - "A.14"

@@ -1,0 +1,66 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.P"
+pattern_title: "Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+section_id: "A.6.P:2"
+section_title: "Problem"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.P/A.6.P__003_problem.md"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+heading_path:
+  - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+  - "A.6.P:2 — Problem"
+line_start: 14973
+line_end: 14986
+dependencies:
+  - "A.10"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.6"
+  - "A.6.8"
+  - "A.6.9"
+  - "A.6.B"
+  - "A.6.H"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
+  - "A.6.RSIR"
+  - "C.2.1"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "F.18"
+  - "F.9"
+keywords:
+  - "RelationSignature"
+  - "SlotSpec"
+  - "actual participants"
+  - "changed-object routing"
+  - "designation"
+  - "direct relation"
+  - "missing-governor"
+  - "obtaining condition"
+  - "occurrence identity"
+  - "participant meanings"
+  - "receiving-use gate"
+  - "representation"
+  - "under-specified relation-bearing claim"
+---
+
+### A.6.P:2 - Problem
+
+An under-specified relation claim blocks a later claim or operation because several ontological questions remain hidden inside one phrase:
+
+1. What kinds of objects are being related?
+2. Which direct relation predicate is asserted to obtain?
+3. Which relation-participant meanings are current, and are all actual participants named?
+4. Does the current text state world-side participation, make an episteme claim about the direct relation, or define a local kind of entities participating under one meaning?
+5. Does reusable typed use require a compatible `RelationSignature` and declaration-local `SlotSpec`s?
+6. Does a later claim or operation need one obtaining occurrence to have explicit identity?
+7. If something changes, is the changed object the occurrence, a declaration edition, assertion content or reliance posture, an evidence relation, a designation, a receiving-episteme reference, a description, a publication relation, a Bridge, or a representation edition?
+
+Without answers, readers cannot tell whether two statements disagree, whether one participant may replace another, whether an inverse sentence preserves meaning, or whether a later claim refers to an obtaining occurrence rather than to an assertion or representation of it.
+

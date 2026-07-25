@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 7627
-line_end: 7654
+line_start: 7585
+line_end: 7612
 dependencies:
   - "A.1.1"
   - "A.10"

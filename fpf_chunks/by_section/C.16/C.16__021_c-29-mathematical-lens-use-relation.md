@@ -6,12 +6,12 @@ section_id: "C.16:15b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__021_c-29-mathematical-lens-use-relation.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:15b — C.29 mathematical-lens use relation"
-line_start: 47029
-line_end: 47032
+line_start: 46730
+line_end: 46733
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "A.2.7:5"
 section_title: "Archetypal Grounding - Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__009_archetypal-grounding-worked-cases.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:5 — Archetypal Grounding - Worked Cases"
-line_start: 5282
-line_end: 5340
+line_start: 5240
+line_end: 5298
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9"
 section_title: "Examples and near misses"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__015_examples-and-near-misses.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9 — Examples and near misses"
-line_start: 74216
-line_end: 74233
+line_start: 73949
+line_end: 73971
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,8 +35,7 @@ dependencies:
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.16"
-  - "C.16.P"
-  - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.25"
@@ -69,12 +68,17 @@ keywords:
 
 | Wording | Applicable result | Blocked overread |
 | --- | --- | --- |
+| `MaintenanceReport_42` says “Bearing_B is installed in Pump_P.” | The direct mereology pattern is already clear, so bypass E.10.ARCH. State `Bearing_B isPartOf Pump_P`; keep `MaintenanceReport_42` as the claim-bearing episteme that asserts that exact predicate. If a named later use needs occurrence identity, identify the obtaining parthood occurrence or its temporal extent under the direct relation owner. If it instead needs the installation act that established the condition, recover a separate dated Work occurrence under A.15.1 and/or an actual transformation under A.3.4 plus their exact direct relations; neither the act nor the transformation is the parthood occurrence. | report-as-relation; assertion-as-obtaining; report fields as world-side participants; parthood occurrence as installation Work or transformation. |
+| Graph edge `Edge_17(Bearing_B, Pump_P)` presents that assertion. | The representation use is already clear, so bypass E.10.ARCH to C.29. Keep `Edge_17` as a representation element with an explicit correspondence to the represented assertion or direct-relation claim; the edge does not make `Bearing_B isPartOf Pump_P` obtain or identify its occurrence. | edge-as-world-relation; adjacency-as-obtaining; graph identity as relation-occurrence identity. |
+| A reusable `RelationSignature` declares `ParticipantSlot`, and a row shows `Bearing_B_Ref`. | The declaration use is already clear, so bypass E.10.ARCH to A.6.5. `ParticipantSlot` is a `SlotSpec`; `Bearing_B` is the actual governed participant; `Bearing_B_Ref` is a participant designation only inside the current assertion or occurrence-description episteme. | SlotSpec-as-participant; designation-as-participant; type-correct filling as obtaining. |
+| `MethodDescription_NormalizeCustomer`, which describes one exact `U.Method` `NormalizeCustomer`, says “input x is CustomerRow_17” beside the worked formula `normalize(x)`. | The current use is the worked formula's argument representation, so bypass E.10.ARCH to C.29. Keep `Arg_x` as the representation element and state the explicit correspondence from `Arg_x` to the described value `CustomerRow_17`. The repaired practitioner sentence is: “In the worked formula `normalize(x)`, argument `x` represents `CustomerRow_17`.” That correspondence neither asserts a universal input relation nor establishes participation in dated Work or an actual transformation. | universal input ontology; argument place as world-side participant; method description as actual Work or transformation; representation correspondence as obtaining. |
+| Another source calls something `input`, but its exact object or use remains hidden. | Bound the exact sentence, then use the wider dispatch only until its owner is clear: A.3.2 for a declared or represented value inside a `U.MethodDescription` about one exact method; A.15.2 for intended planned use; A.15.1 plus the exact participation or resource owner for dated Work; A.3.4.P plus the direct transformation owner for an actual transformation participant; the exact production, measurement, evaluation, delivery, or acceptance owner for a result claim; or C.29 for an argument, tuple component, edge, or other representation place. The repaired sentence states the exact direct relation or representation correspondence returned by that owner; naming only the pattern is incomplete. Use A.6.P.WMR only while that relation remains hidden. | routing list as repair; universal input ontology; one generic result relation; premature Work or transformation actuality. |
 | "The architecture is the diagram." | `C.30.P` recovers whether the diagram is publication form, structure view, architecture description, source relation, or ordinary source-finding cue; then `C.30` or `C.30.ASV` applies only after the selected architecture or structural-view use is recovered. | diagram-as-architecture; diagram-as-proof; diagram-as-gate. |
 | "`ArchitectureOf@PlantOps` is defined over structures S1 and S2 under context C." | Direct `C.30`; no `C.30.P` unless selected structure, architecture-description use, structural-view use, source relation, model relation, diagram relation, graph relation, dashboard relation, or ordinary prose remains hidden. | unnecessary restoration detour. |
 | "The model has three layers." | `C.30.STRAT` treats `layers` as a source label until the recovered FPF kind, relation, claim-use, or source-relation disposition is recovered: control-layer relation, neural-network block sequence, publication relation set, mathematical scale or coarse-graining relation, or ordinary source wording. Then the governing pattern applies to the recovered result. | layer-as-universal-kind; source label as proof of structure. |
-| "The query plan calls the next pattern." | `C.2.P.DR` recovers whether the query plan is a representation, method description, formal substrate, evidence or provenance relation, or ordinary source wording; if a pattern relation is current, the relation is stated declaratively rather than as a call. | query-as-work sequence; pattern relation as invocation. |
+| "The query plan calls the next pattern." | `C.2.P.DR` recovers whether the query plan is a representation, a one-method description episteme, formal substrate, evidence or provenance relation, or ordinary source wording; if a pattern relation is current, state it declaratively rather than as a call. | query-as-work sequence; pattern relation as invocation. |
 | "The evidence path authorizes release." | If a provenance relation for a claim is current, use `A.10`; if authorization or release is current, use the authority, gate, or release pattern. `C.2.P.DR` applies only when `path` wording turns the relation into an action route or permission. | evidence path as permission; graph relation as release. |
-| "The solver algorithm is the mechanism." | `A.3.1` first recovers whether the current slot is method, method description, formal substrate, mathematical-lens use, mechanism declaration or realization, work, evidence, or quote-only wording. Use `A.6.1` and `E.20` only when operation algebra, admissibility rules, transport, audit, or governing-definition assignment is current. | algorithm-as-default-method; method-as-mechanism by vocabulary. |
+| "The solver algorithm is the mechanism." | `A.3.1` first recovers whether the wording denotes one exact method or a direct method-side relation. `A.3.2` applies only when a current episteme describes that one method. Formal substrate, C.29 representation, mechanism declaration or realization, Work, result, and quote-only wording remain separate direct-owner exits. | algorithm-as-default-method; method-as-mechanism by vocabulary. |
 | "This record is admissible." | Recover bearer, claim kind, source relation, value frame, admissible use, and governing pattern. Use `A.19.SPR` only if hidden state-family wording remains; otherwise use the direct evidence, gate, mechanism, temporal, authority, release, or source-relation pattern. | admissible-as-generic status; pass-looking word as gate. |
 | "This score proves readiness." | `C.16.P` recovers characteristic, scale, value, score, threshold, comparison reference set, and gate, evidence, and decision pattern applications. | score-as-proof; score-as-release permission. |
 | "This source supports the claim." | `C.2.P` is used if source-currentness relation or publication relation set is current; relation slice applies `A.6.P`; final use states recovered relation or non-use disposition. | source-as-proof; support-as-generic relation. |

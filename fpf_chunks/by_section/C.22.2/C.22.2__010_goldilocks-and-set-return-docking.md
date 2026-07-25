@@ -6,12 +6,12 @@ section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 51401
-line_end: 51425
+line_start: 51102
+line_end: 51126
 dependencies:
   - "A.10"
   - "A.15"

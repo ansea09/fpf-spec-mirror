@@ -6,12 +6,12 @@ section_id: "B.4.1:20"
 section_title: "Route Evidence and Discrimination Package"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__017_route-evidence-and-discrimination-package.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:20 — Route Evidence and Discrimination Package"
-line_start: 39560
-line_end: 39575
+line_start: 39234
+line_end: 39249
 dependencies:
   - "A.15"
   - "A.16"

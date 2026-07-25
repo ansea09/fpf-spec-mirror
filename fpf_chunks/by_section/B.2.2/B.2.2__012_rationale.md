@@ -6,12 +6,12 @@ section_id: "B.2.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__012_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:9 — Rationale"
-line_start: 37354
-line_end: 37359
+line_start: 37028
+line_end: 37033
 dependencies:
   - "A.1"
   - "A.10"

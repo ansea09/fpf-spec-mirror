@@ -1,38 +1,52 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - Contextual Work-Role Assignment"
+pattern_title: "U.RoleAssignment - System Role Assignment"
 section_id: "A.2.1:6"
-section_title: "Bias-Annotation"
+section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__008_bias-annotation.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
-  - "A.2.1:6 — Bias-Annotation"
-line_start: 2615
-line_end: 2624
+  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1:6 — Bias Annotation"
+line_start: 2575
+line_end: 2585
 dependencies:
+  - "A.1.1"
   - "A.15"
+  - "A.15.1"
   - "A.2"
-  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.5"
+  - "A.6.9"
+  - "A.6.REL"
+  - "C.2.1"
+  - "F.6"
+  - "F.9"
+  - "U.Role"
 keywords:
-  - "RCS/RSG"
-  - "RoleEnactmentFact"
-  - "Standard"
-  - "context"
-  - "holder"
-  - "performedBy"
-  - "role"
+  - "AssignmentInterval"
+  - "assignment occurrence"
+  - "effective ReferenceScheme"
+  - "holder System"
+  - "performedUnderAssignment"
+  - "role value"
+  - "role-taxonomy episteme"
 ---
 
-### A.2.1:6 - Bias-Annotation
+### A.2.1:6 - Bias Annotation
 
-| Bias risk | Failure | Mitigation |
+| Bias risk | Failure | Repair |
 | --- | --- | --- |
-| Semio-bias | The pattern starts talking mainly about reports, standards, records, cards, and publication forms. | Keep `U.RoleAssignment` as the primary EntityOfConcern. Treat descriptions and publications as neighboring epistemes. |
-| Episteme-as-agent drift | A standard, report, dataset, proof, or model card is treated as if it performed work. | Use direct evidence-use, source-use, status-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, gate-use, or decision-use relations. |
-| Slot-role drift | Holder, role value, context, window, justification, or provenance words become untyped fields. | Use `A.6.5` SlotSpec discipline and keep the filled values under their governing patterns. |
-| Work-admission shortcut | A role assignment is treated as permission, gate passage, capability, or completed work. | Recover the direct work-admission, gate, capability, method, plan, or work claim before acting. |
-| Notation bias | `Holder#Role:Context@Window` is treated as the ontology. | Use the notation only after the assignment relation and core slots are recoverable. |
+| Record-first bias | A roster row or database identifier is treated as the assignment occurrence. | State the assignment predicate and apply the direct occurrence-identity rule; keep the row as an assertion or publication. |
+| Universal-context bias | Every assignment receives a `U.BoundedContext` or optional model-use participant. | Use the four exact generic participants; place any selected model-use structure in the receiving assertion or use. |
+| Assignment-as-work drift | Current assignment is treated as evidence that work happened. | Name exact dated `U.Work` `W`, exact assignment `RA`, and the admitted holder System `S = RA.HolderSystemSlot`; state that `S` performed `W` under `RA` through `F.6` `performedUnderAssignment(W, RA)`. |
+| Assignment-as-capability drift | Holding a role is treated as proof of ability. | Use `A.2.2` and a capability-fit relation. |
+| Episteme-as-holder drift | A standard, report, model, or dataset fills `HolderSystemSlot`. | Keep the episteme in its direct evidence, reliance, external-rule, or publication relation. |
+| Structure-qualification drift | A selected model-use structure is appended to the generic signature without changing its obtaining law. | Keep the designation in the receiving assertion or use; admit a dependent species only through its own direct pattern and stronger identity law. |
 

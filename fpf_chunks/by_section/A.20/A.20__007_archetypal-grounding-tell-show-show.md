@@ -6,12 +6,12 @@ section_id: "A.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)  ✱"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:5 — Archetypal Grounding (Tell–Show–Show)  ✱"
-line_start: 33365
-line_end: 33381
+line_start: 33039
+line_end: 33055
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

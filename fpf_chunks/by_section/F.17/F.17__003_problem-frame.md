@@ -6,12 +6,12 @@ section_id: "F.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__003_problem-frame.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2 — Problem frame"
-line_start: 92588
-line_end: 92601
+line_start: 92349
+line_end: 92362
 dependencies:
   - "A.10"
   - "A.15.1"

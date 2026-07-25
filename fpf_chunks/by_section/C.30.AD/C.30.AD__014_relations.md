@@ -6,12 +6,12 @@ section_id: "C.30.AD:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__014_relations.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:11 — Relations"
-line_start: 59710
-line_end: 59725
+line_start: 59413
+line_end: 59428
 dependencies:
   - "A.1"
   - "A.10"

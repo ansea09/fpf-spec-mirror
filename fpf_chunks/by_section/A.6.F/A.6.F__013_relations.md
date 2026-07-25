@@ -6,20 +6,25 @@ section_id: "A.6.F:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__013_relations.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:12 — Relations"
-line_start: 18028
-line_end: 18035
+line_start: 17702
+line_end: 17709
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.2"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.5"
   - "A.6.8"
@@ -28,12 +33,14 @@ dependencies:
   - "A.6.C"
   - "A.6.M"
   - "A.6.P"
+  - "A.6.REL"
   - "A.6.RSIR"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -43,26 +50,29 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.18"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "G.6"
-  - "U.Function"
 keywords:
   - "FunctionalStructure"
-  - "capability/effect"
+  - "actual transformation"
+  - "capability"
+  - "episteme/publication boundary"
   - "function wording"
-  - "function-use repair"
   - "functional architecture"
   - "mathematical function"
+  - "method-description membership"
   - "module allocation"
-  - "work/method boundary"
+  - "required behavior or effect"
+  - "work"
 ---
 
 ### A.6.F:12 - Relations
 
 Builds on: `A.6.P`, `A.6.RSIR`, `A.6.0`, `A.6.5`, `A.6.B`, `A.6.C`, `A.6.8`, `A.6.9`, `A.7`, `E.10`, `E.10.ARCH`, `C.2.P`, `F.18`, and `E.8`.
 
-Coordinates with: `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, `A.6.RSIR`, and `A.6.M` when a module or interface claim is being made.
+Coordinates with: `C.2.1` when the task must preserve an assertion about the direct predicate; `A.6.REL` only when the task must distinguish one obtaining occurrence; `C.30`, `C.30.ASV`, `C.30.TFS-REL`, `E.18`, `A.15`, `A.2`, `C.29`, `C.25`, `C.16`, `C.16.Q`, `A.17`, `A.18`, `A.10`, `G.6`, `B.3`, `A.20`, `A.21`, `C.11`, `A.6.RSIR`, and `A.6.M` when a module or interface claim is being made.
 
 Does not replace: C.30 grounded architecture and selected-structure adequacy, C.30.ASV architecture structural-view adequacy, E.18 selected transformation-flow structure, E.18.2 mathematical descriptions, C.29 mathematical-lens use, C.25 Q-Bundles, C.16 characterization, A.15 work and method discipline, A.10 or G.6 evidence, B.3 assurance, A.20 or A.21 gate or release records, or C.11 decisions.
 

@@ -6,12 +6,12 @@ section_id: "G.0:11"
 section_title: "SoTA‑Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__012_sota-echoing.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:11 — SoTA‑Echoing"
-line_start: 94598
-line_end: 94607
+line_start: 94391
+line_end: 94400
 dependencies:
   - "A.10"
   - "A.17"

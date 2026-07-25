@@ -1,0 +1,311 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.P"
+pattern_title: "Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+section_id: "A.6.P:4"
+section_title: "Solution"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.P/A.6.P__005_solution.md"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+heading_path:
+  - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+  - "A.6.P:4 — Solution"
+line_start: 14999
+line_end: 15257
+dependencies:
+  - "A.10"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.6"
+  - "A.6.8"
+  - "A.6.9"
+  - "A.6.B"
+  - "A.6.H"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
+  - "A.6.RSIR"
+  - "C.2.1"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "F.18"
+  - "F.9"
+keywords:
+  - "RelationSignature"
+  - "SlotSpec"
+  - "actual participants"
+  - "changed-object routing"
+  - "designation"
+  - "direct relation"
+  - "missing-governor"
+  - "obtaining condition"
+  - "occurrence identity"
+  - "participant meanings"
+  - "receiving-use gate"
+  - "representation"
+  - "under-specified relation-bearing claim"
+---
+
+### A.6.P:4 - Solution
+
+Begin with the objects named by the claim. Recover exact actual participants and one direct relation first. Then add only the declaration, assertion detail, occurrence identity, designation, reference, or representation demanded by the exact later claim or operation.
+
+**Local RPR mantra — five moves.** *Name the referents. State the direct relation or comparison with its actual participants, then follow its governing pattern. For the next named reader or task, add a declaration only to reuse typed rules, occurrence identity only to distinguish occurrences, a designation only to refer back to one object, or a representation only to show it in another form; otherwise add none. If a later sentence says something changed, name which object changed—the relation occurrence, claim-bearing episteme, designation relation, or representation—and follow that object's pattern. Then shorten without hiding the relation or its participants.*
+
+`Referents` means the objects recovered in 4.1; it is not a shared kind. `Comparison` means the direct comparison relation governed by `A.19.CPM`. `Actual participants` means the independently governed entities that participate under the relation's participant meanings. The mantra does not ask the reader to fill slots or positions or to create a record.
+
+The mantra keeps the repair order and stop in attention. Sections 4.1-4.12 remain the governing Solution for hidden arity, world-side and epistemic separation, demand-driven declaration and individuation, relation-dependent wording, polarity, unresolved candidates, exact changed objects, Plain relaxation, and direct-pattern exit. The mantra is Plain didactic wording, not a second method, work plan, or performed work.
+
+#### A.6.P:4.1 - Recover the objects before choosing relation notation
+
+Start from the claim as written and ground each load-bearing head:
+
+1. Identify the exact referent intended by each participant expression.
+2. State the independently admitted kind of each referent under its direct governing pattern.
+3. Separate a world-side object from an episteme about it and from a publication or representation of that episteme.
+4. Recover metonymy explicitly. The phrase `at the table` may state physical location or participation in a negotiation meeting. Evidence from the current case selects the direct relation; neither reading by itself establishes a role assignment.
+5. Leave the claim unresolved when the current evidence does not select one referent. A more technical synonym is not a repair.
+
+The result of this step is an ordinary sentence containing identifiable objects. It is not a newly minted object kind. When several candidates remain live, use the small working note in A.6.P:4.9.
+
+If the material is still a cue and no relation-bearing claim can yet be stated, stay with `A.16.1` or `B.4.1` instead of forcing relation publication. If the cue has stabilized into an open explanatory question but still has no selected relation answer, continue through `B.5.2.0`.
+
+If counter-evidence or a failed use shows that a published relation statement overstates its articulation, closure, or framing, use `A.16.2` to reopen, back off, or respecify that publication. `A.16.2` records the retreat; A.6.P repairs the relation again only after the engineer can name a grounded candidate relation, its participants, and a discriminating check. Use `A.16.0` only when readers must see lineage, branching, loss, or responsibility-transfer history; a local return needs no trajectory account.
+
+A.6.P begins when the available observations or claims let the engineer name at least one grounded candidate relation, its participants, and a discriminating check.
+
+#### A.6.P:4.2 - State the direct relation, participant meanings, and obtaining condition
+
+Write the smallest readable direct-relation sentence that answers the current question:
+
+```text
+<actual participant 1> <direct relation predicate> <actual participant 2> ...
+```
+
+Then name the direct governing pattern and recover from it:
+
+- the admitted direct relation kind and its explicit governed `RelationKind` token;
+- the relation-participant meanings and actual participants, each retaining its independently governed kind;
+- the condition under which the relation obtains and its semantic predicate is satisfied by those participants considered under the participant meanings;
+- applicability, direction, symmetry, inverse law, polarity, and temporal qualification when they change the predicate;
+- the occurrence-identity rule, whether or not the current use needs explicit individuation;
+- when the direct ontology says that a new occurrence is constructed or constituted, the constructor, inputs, construction work or process, and their contribution to occurrence identity.
+
+Every in-scope direct subject-relation claim that exits A.6.P as positive or governed negative names an explicit admitted `RelationKind` token. When no suitable token exists, first settle the governed relation value and any required relation-kind admission under its direct pattern, `A.6.RCD`, and `E.24`; then apply `F.8` and, for durable naming, `F.18` and `F.17`. Naming does not admit a kind or occurrence. An exact `A.6.1` operation-application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result keeps its direct owner's semantics and is not coerced into this relation-kind family.
+
+An ordinary assertion may name the actual participants directly. When reusable typed use is current, a compatible `RelationSignature` declaration can restate the participant meanings, obtaining predicate, applicability, and identity rule and contain only the declaration-local `SlotSpec`s needed by the receiving typed uses. The declaration remains an episteme; it neither makes the relation obtain nor supplies occurrence identity.
+
+Assertion polarity remains claim-side. An affirmative assertion claims that the direct predicate is satisfied; a negative assertion denies it. Refutation or unresolved reliance belongs to `A.10` or the receiving evaluation. Denial, refutation, or unresolved reliance creates no negative world-side occurrence.
+
+Do not select ontology from grammar. A verb-shaped phrase supplies neither constructive identity nor agency. Use the exact direct pattern for the relation, object, work, method, change, role, or acting system named by the current claim.
+
+#### A.6.P:4.3 - Recover actual participants, hidden arity, qualifiers, and typed declaration only when needed
+
+Ask which actual participation belongs to the direct relation's obtaining condition. Add a participant or qualifier only when it changes one of these:
+
+- predicate satisfaction or relation obtaining;
+- applicability or admissible use;
+- occurrence identity;
+- whether one participant can replace another without changing the claim;
+- interpretation under an effective reference scheme;
+- scope, `Γ_time`, viewpoint, view, or another exact qualification owned by the direct relation or receiving claim;
+- witness or evidence expectations for a named decision or publication use;
+- the exact later claim or operation.
+
+For `Sample_S wasMeasuredBy Instrument_I`, a later evidence claim may separately refer to the measurement work occurrence, its interval, the applied measurement method, a measurement-result episteme, and a calibration episteme. The measured-by relation includes only the actual participants selected by its direct obtaining condition; the other objects remain participants or content of their own work, evidence, temporal, method-use, measurement, assertion, or description relations.
+
+When reusable typed use is current, declare each participant meaning needed by that use through A.6.5:
+
+```text
+SlotSpec := <SlotKind, ValueKind, refMode>
+```
+
+One `SlotKind` names one participant meaning locally inside one exact `RelationSignature`. `ValueKind` states the independently governed kind of the corresponding actual participant. `refMode` states how a receiving assertion or occurrence-description episteme designates that participant. The `SlotSpec` is declaration content; the participant does not become or occupy that declaration component. If one proposed `ValueKind` hides objects for which the predicate has different meaning, recover a real common kind or split the direct relation kind instead of preserving a hidden union as a prose list.
+
+#### A.6.P:4.4 - Keep world-side, declaration, assertion, designation, and representation objects distinct
+
+| Object | Engineering question | Governing pattern |
+|---|---|---|
+| direct relation kind | Which obtaining occurrences fall under this classificatory distinction? | direct relation pattern, with `A.6.RCD` and `E.24` when admission is current |
+| relation-participant meaning | How does one actual participant contribute to the obtaining predicate while retaining its own kind? | direct relation pattern |
+| actual participant | Which exact independently governed entity participates under that meaning? | participant's direct pattern and the direct relation pattern |
+| semantic predicate and applicability | Under which condition and qualifications does the direct relation obtain for those participants? | direct relation pattern |
+| `RelationSignature` declaration | Which relation semantics and typed participant declarations are reusable? | `A.6.0` |
+| declaration-local `SlotSpec` | Which participant meaning, participant `ValueKind`, and receiving-episteme designation mode are declared for typed reuse? | `A.6.5` |
+| relation-participant designation | Which value or governed reference in a receiving episteme denotes one actual participant? | `C.2.1`, with `A.6.5` only when a compatible `SlotSpec` is current |
+| relational assertion | Which episteme affirms or denies the direct predicate, or carries another exact claim-family modality? | `C.2.1` plus the direct claim pattern |
+| relation-occurrence description episteme | Which episteme describes one already individuated occurrence? | `C.2.1` |
+| individuated relation occurrence | Which obtaining occurrence does a later claim or direct relation compare, qualify, nest, or reference? | direct relation pattern with `A.6.REL` |
+| designator and reference use | Which governed name denotes an already recoverable object, and which receiving episteme uses that reference? | `F.18` and the receiving claim pattern |
+| publication relation | Which episteme edition is made available, to whom, and for which use? | `E.17` and `E.24.PUB` |
+| representation element | Which table field, row, tuple component, graph edge, formula position, functional expression, or arrow corresponds to an independently governed object or claim content? | `C.29` for the explicit correspondence; the representation object's own pattern for its identity and change |
+
+A representation can correspond to a direct relation, assertion content, declaration, participant designation, or already recoverable occurrence. State the exact source element, represented FPF object or claim content, and explicit `C.29` correspondence. Representation form neither makes the relation obtain nor supplies participant or occurrence identity.
+
+Functional and arrow forms are therefore assertion or representation notation, not world-side relation objects:
+
+```text
+installedPartOf(Bearing_B, Pump_P, during=Interval_T)
+Bearing_B --installedPartOf{during=Interval_T}--> Pump_P
+```
+
+The first can represent the content of a relational assertion; the second is a binary projection in a selected representation. A use that relies on either notation declares how its argument or endpoint elements correspond to the actual participants, direct predicate, qualifications, and any designated occurrence. The ordinary readable sentence remains sufficient when no representation-dependent use is current.
+
+#### A.6.P:4.5 - Increase explicitness only for a named receiving use
+
+Here **receiving use** is Plain shorthand for the exact later claim or operation that needs an additional object. It is not a shared FPF kind. Name that claim or operation and its direct governing pattern before using it to justify more apparatus.
+
+Use progressive elaboration from one recovered direct relation:
+
+```text
+readable direct-relation sentence with actual participants
+  +-- compatible RelationSignature and SlotSpecs, when reusable typed declaration is current
+  +-- explicit occurrence individuation, when a named receiver needs occurrence identity
+      +-- occurrence-description episteme or stable designation, only when that receiver needs it
+  +-- relational assertion detail, when polarity, modality, or reliance is current
+  +-- C.29 representation and correspondence, when a representation-dependent use is current
+```
+
+This diagram is itself a `C.29` representation of independent elaboration branches, not a world-side structure or mandatory process. A `RelationSignature` is not a prerequisite for explicit occurrence identity. An assertion may name actual participants without a reusable declaration. A relation can obtain under its direct rule even when no local episteme exposes an occurrence designator. Conversely, a stored row, graph edge, tuple, or identifier does not establish obtaining.
+
+Apply the `A.6.REL` receiving-use test before explicit individuation. Comparison, occurrence history, nesting, and participation of an occurrence in another direct relation normally need identity. A direct relation assertion can stop without explicit occurrence identity when no later claim or operation distinguishes that occurrence. Repeated occurrences may have the same participants; the direct identity rule, not participant equality or row identity, supplies the discriminator.
+
+#### A.6.P:4.6 - Resolve relation-dependent wording by the actual object
+
+| Current reading | Actual object | Next move |
+|---|---|---|
+| world-side participation | one exact entity participates directly in an obtaining relation under one relation-participant meaning and retains its independently governed kind | use the direct relation pattern; add no `SlotSpec` unless reusable typed declaration is separately current |
+| assertion- or description-side designation | a claim-bearing assertion or occurrence-description episteme designates an actual participant, or an already recoverable occurrence when identity is current | use `C.2.1` plus the direct claim or description pattern; use A.6.5 only when a compatible `RelationSignature` actually supplies typed reuse |
+| context-local derived kind | a later typed claim quantifies over entities participating under one designated participant meaning and a declared extent rule | use `C.3` and `C.3.1` only for typed membership, quantification, substitution, or kind-order reasoning |
+
+These readings leave no fourth qualification object. A readable word such as `result`, `input`, `problem bearer`, or `next continuation` can remain in Plain prose when the direct relation or claim is recoverable. Naming that reading creates neither a kind nor an occurrence. The world-side participant never becomes a declaration-local `SlotSpec`; the receiving episteme's designation denotes the participant without replacing it.
+
+#### A.6.P:4.7 - Name change by the object that actually changes
+
+There is no universal relation-edit operation. First point to the object that the sentence says changed. If the sentence says that the same object continued, use that object's identity rule to test that claim. If identity-bearing episteme content changed, name the result as another episteme rather than an in-place edit:
+
+| Object named as changed | What the reader does | Owner and stop |
+|---|---|---|
+| obtaining relation occurrence | Ask whether the later event is the same occurrence. Apply the direct relation's identity rule. For a temporally extended occurrence, record that it began, continued, ceased, or split. If the rule says it is not the same occurrence, name a second occurrence; do not say that the first occurrence became it. | direct relation pattern with `A.6.REL` |
+| `RelationSignature` declaration content | If vocabulary, participant meanings, `SlotSpec`s, laws, applicability, identity-rule content, EntityOfConcern, or effective reference scheme differs, name the revision Work and its output as another episteme. Test that output anew as a `U.Signature`. Call the two epistemes editions, refinements, or successors only after the complete direct predicate for that relation is satisfied; otherwise stop at two distinct epistemes. | `C.2.1` and `A.6.0`; `A.15.1` for revision Work |
+| relational assertion content | If claim content, EntityOfConcern, or effective reference scheme differs, name another assertion episteme. Keep the revision Work, later episteme, retraction or currentness claim, publication, reliance posture, and continuity relation separate. Then test the world-side predicate again; edited text is not evidence that the world-side relation changed. | `C.2.1`, the direct claim pattern, and `A.15.1` for revision Work |
+| reliance posture for one declared use | Record reliance as supported, refuted, or unresolved for that use. Do not change assertion polarity or create an occurrence. | `A.10` or the receiving evaluation |
+| evidence or witness relation | State which evidence-bearing episteme or carrier bears on which claim, then test whether that relation begins, ceases, or is superseded. Record time and freshness under that owner. | `A.10`, `B.3`, or the direct evidence pattern |
+| participant designation in a receiving episteme | If an author substitutes another by-value designation inside the receiving claim, the resulting claim content identifies another episteme. If only a reference interpretation or retargeting relation changes, state that relation separately. Recheck the world-side predicate; use `A.6.5` only when the receiving claim reuses a compatible declared `SlotSpec`. | `C.2.1` and `F.18`; `A.6.5` for the declared reuse |
+| occurrence designator | Assign, replace, retire, or interpret a designator only for an already recoverable occurrence. The name does not create or change the occurrence. | `F.18` and the effective reference scheme |
+| description episteme | If claim graph, EntityOfConcern, or effective reference scheme differs, name another description episteme and the revision Work separately. Assert an edition, refinement, or supersession relation only after its own predicate is satisfied; otherwise stop at two descriptions. | `C.2.1`; `A.15.1` for revision Work |
+| publication relation | State that one selected episteme was made available, that its availability ceased, or that another episteme was published. Do not infer a content or world-side change from publication alone. | `E.17` and `E.24.PUB` |
+| representation-bearing episteme | If its claim content, EntityOfConcern, or effective reference scheme differs, name another episteme and keep the revision Work separate. Do not infer a represented-world change from that new episteme. | `C.2.1`; `A.15.1` for revision Work |
+| representation form or element | First ask: did one mark or form change, or is the same EntityOfConcern represented first by a source episteme under one scheme and then by a receiving episteme under another? For a mark or form change, name the resulting representation object under that object's identity rule; do not call it a scheme transition. State a changed `C.29` correspondence or lens-use claim separately as another claim-bearing episteme. Use `A.6.3.RT` for a true scheme transition only if its entry accepts the named source episteme, receiving episteme, common EntityOfConcern, both schemes, and the transition sentence the task needs. Its result must state the predicate, participants, applicability, and rule for telling occurrences apart; a slot/ref record is not enough. If either test fails, do not use `A.6.3.RT`: name the missing pattern for identifying the changed representation object, or return `missing-governor` through `A.6.RCD` when the blocked next sentence needs the direct transition relation. None of these changes by itself changes the represented world-side object. | the pattern that identifies the changed representation object or transition; `C.2.1` and `C.29` for the separate claim; guarded `A.6.3.RT` or `A.6.RCD` for a direct transition claim |
+| actual correspondence occurrence, separate from a `C.29` claim or representation | A `C.29` correspondence claim, Card, edge, or representation does not prove that an occurrence exists. Name the representation element and what it represents, then write the plain correspondence sentence the next task needs. If a current pattern states that predicate and its applicability, test whether it holds. If the task only needs to know whether the correspondence holds, stop there. If it must distinguish two occurrences, use that pattern's identity rule with `A.6.REL`. If no current pattern supplies the predicate and identity rule, return `missing-governor` through `A.6.RCD` while keeping the element, represented object or claim content, and needed sentence visible. A changed representation form, lens-use account, or preservation or loss claim does not by itself change an actual correspondence occurrence. | the pattern that supplies the correspondence predicate and identity rule, with `A.6.REL` only when occurrence distinction is required; otherwise `A.6.RCD`; `C.29` governs only the separate representation/correspondence claim |
+| claim-bearing lens-use, preservation, or loss-account episteme | If the selected representation, represented object or claim content, `LensMappingMode`, `PreservedStructure`, `LostStructure`, declared lens use, blocked overread, stop condition, EntityOfConcern, or effective reference scheme changes the claim content, name another episteme. Recheck the correspondence occurrence and any world-side claim separately. A changed display form alone does not establish a changed lens-use or loss claim. | `C.2.1` and `C.29` |
+| direct Bridge occurrence | Name the local-sense endpoints and write the Bridge sentence the next task needs. Use only a pattern that states that direct predicate. If the task only needs to know whether the Bridge holds, stop after testing the predicate. If it must distinguish occurrences, use that pattern's identity rule and say whether one occurrence began, continued, or ceased, or whether another occurrence exists. A new Card, direction statement, `CL`, loss note, licence, evidence item, or publication does not by itself change the occurrence. | the pattern that states the direct Bridge predicate and identity rule; if none exists, `A.6.RCD` |
+| Bridge description or Bridge Card episteme | If Bridge kind, direction, `CL`, loss, admitted use, substitution licence, or EntityOfConcern content differs, name another episteme. Keep revision Work, the later episteme, any edition or refinement relation, evidence, and publication separate. Do not report a changed Bridge occurrence unless its predicate or identity rule says so. | `C.2.1`; `F.9` for Bridge-description content |
+
+The object in the first column controls the operation and continuity test. `Revision` may name an activity family; one actual revision is one exact dated `W : U.Work` occurrence under `A.15.1`. If `S : U.System` performed it, recover the exact obtaining `RA : U.RoleAssignment`, check that `S = RA.HolderSystemSlot`, and state `S performed W under RA` or `performedUnderAssignment(W, RA)` under `F.6`. The revised episteme output is a separate object; performing the revision does not let an identity-bearing episteme change in place. A shared title, sequence, identifier, or authoring intention does not establish an edition, refinement, or supersession relation. If none of the identifying facts for the selected row changed, do not invent a change claim.
+
+#### A.6.P:4.8 - Preserve polarity and inverse meaning
+
+Participant order is part of many relation predicates. `Bearing_B isPartOf Pump_P` and `Pump_P hasPart Bearing_B` can be paired as inverse readings only when that inverse law is declared under the direct parthood pattern. A symmetric relation is symmetric under its direct law, not because a sentence sounds reciprocal.
+
+When two viewpoints use different readable directions:
+
+1. keep the same participant referents and their exact kinds;
+2. name the forward predicate selected by the direct pattern;
+3. use an explicit inverse predicate or inverse reading when one is available under that pattern;
+4. keep scope, time, viewpoint, and reference scheme fixed while checking equivalence;
+5. treat a change of participant kind or predicate as a semantic change rather than a stylistic rewrite.
+
+#### A.6.P:4.9 - Use an actionable guide and keep a small candidate note when grounding is unresolved
+
+For each ambiguity cluster, guide the reader through this order:
+
+> trigger expression -> candidate grounded objects and direct relations -> discriminating observations or tests -> readable direct-relation rewrite -> only the additional declaration, assertion, occurrence, designation, or representation needed by the named receiver -> exact governing exit
+
+Do not organize the guide as a synonym list or make a table field the ontology. A qualifier such as `comparative`, `safe`, `interactive`, or `reliable` narrows wording but does not restore the head kind by itself.
+
+When grounding remains unresolved, use this informative temporary episteme. The prompts are not a reusable schema or tuple kind.
+
+| Question | What to write |
+|---|---|
+| Which wording is unresolved? | quote the phrase whose head, participant, predicate, or qualifier is unresolved |
+| Which distinction is unresolved? | name the exact question about head kind, participant referent, direct relation kind, direction, or qualification |
+| Which grounded alternatives remain? | name candidate objects, kinds, or direct relations, not synonyms |
+| What separates the alternatives? | name the observation, claim, identity test, or direct-pattern condition |
+| What reading is selected now? | write the selected objects and direct relation, or state that the distinction remains unresolved |
+| What changes after selection? | write the readable sentence, optional declaration need, occurrence-identity need, assertion or representation need, or neighboring-pattern exit |
+
+For `Alice is at the table`, the physically present place and participation in a meeting are both plausible only while local evidence leaves them open. A location observation selects a located-at relation. A meeting roster and role assignment may instead select participation in meeting work. The note does not combine those relations and does not infer a role from a place expression.
+
+When alternatives remain unresolved, the note may support explanation only. It cannot justify a decision, mechanism gate, publication claim, assurance, reliance, or cross-context reuse. Before stopping, name the reader, decision, or work that is blocked and name the observation, test, or direct-pattern condition that would separate the alternatives. Continue only after that discriminator selects one grounded reading; otherwise keep the alternatives explicit and keep the named use blocked.
+
+#### A.6.P:4.10 - Classify boundary claims and keep engineered rewriting epistemic
+
+Use `A.6.B` only when a sentence at the boundary does at least one of four things: defines a truth-conditional relation or signature rule (**L**); decides whether one identified mechanism application may start or continue (**A**); assigns a duty to an accountable actor (**D**); or states which execution effect or evidence can be observed and under which conditions (**E**). A sentence about claim scope or use, when to start or stop A.6.P, how to correct an endpoint kind, or whether a Bridge is needed does not qualify merely because it limits the repair.
+
+Before giving a sentence an **A** label, answer two questions: Which mechanism application is about to start or continue? What predicate is checked at that point to admit or reject it? If either answer is missing, do not label the sentence **A**. Keep its scope or use, A.6.P start or stop decision, endpoint-kind correction, and Bridge need with the patterns that govern those questions. Split any mixed sentence before classifying its claims:
+
+- **L** states the direct relation semantics, declaration invariants, polarity, participant meanings, and any reusable `SlotSpec` typing;
+- **A** states one predicate checked when an identified mechanism application starts or runs. Its result says whether that application is admitted, may continue, or is rejected. A condition does not become **A** merely because it limits a claim, tells an author when to enter or stop this pattern, asks for an endpoint-kind correction, or requires a Bridge;
+- **D** states duties of accountable systems or role assignments and does not turn a declaration into an actor;
+- **E** states work and evidence expectations, witness carriers, observation conditions, and freshness under their direct owners.
+
+Scope, `Γ_time`, viewpoint, reference scheme, witnesses, admissible use, and non-admissible overread stay with the direct relation or claim that actually needs them. They are not a universal qualifier kit, and an `admissible use` sentence is not an **A** claim unless the reader can point to both the mechanism application and its runtime entry predicate.
+
+If a later task must describe an engineered episteme operation, first identify input `X` and output `Y` independently under `C.2.1`. A difference in claim content, EntityOfConcern, or effective reference scheme identifies another episteme; no component is rewritten in place. Keep the operation separate from `X` and `Y`. Use `A.6.3` only for an exact compatible viewing or construction case: its entry must accept independently identified `X` and `Y` about the same exact EntityOfConcern, and its result must state the construction, preservation and loss, and applicability without substituting a slot/ref record for the operation. This edition does not route to `A.6.2` or `A.6.4`: their current bodies still describe component-slot rewriting and retargeting by replacing `EntityOfConcernSlot`. When the needed operation is morphing or retargeting, stop with `X`, `Y`, the changed EntityOfConcern if any, and the sentence the next task needs; name `A.6.2` or `A.6.4` as the future owner that still requires a compatible repair. Call `X` and `Y` editions, refinements, or successors only when that direct continuity relation independently obtains; a shared title, sequence, or authoring intention is not enough.
+
+If a system authors, materialises, checks, or publishes the output, that dated activity is `U.Work` under `A.15.1`; it is not the effect-free operation. Neither the operation nor that Work by itself makes the repaired world-side relation begin or cease, changes its actual participants, or supplies occurrence identity. Ordinary A.6.P repair stops before this step unless the reader's later task actually needs the operation described.
+
+#### A.6.P:4.11 - Relax wording, then exit to the exact governor
+
+After the relation has been recovered, Plain wording may be shorter than the Tech explanation. The shorter wording remains usable when a reader can still recover the exact participants, direct relation and governing pattern, every qualification that changes the declared use, and the point at which reusable declaration, occurrence identity, assertion detail, or representation becomes necessary.
+
+A.6.P ends when the direct relation and participants are selected. The selected direct pattern governs that relation. Separate assertion, occurrence-identity, evidence, work, Bridge, description, publication, designation, and representation questions leave through their own patterns.
+
+When generic relation recovery identifies one current claim at a method, intended-work, actual-work, production, evaluation, delivery, acceptance, transfer, or receiving-use boundary, apply `A.6.P.WMR`. It returns exactly one of four families:
+
+1. an exact direct subject-relation claim, positive or governed negative;
+2. an exact `A.6.1` operation-application binding;
+3. a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2;
+4. an exact non-assertability result independently reasoned as `factually unsupported`, `missing-information`, or `missing-governor`.
+
+Only `missing-governor` is an ontology blocker, and it names the affected receiving use and future owner. When participant referents and the named receiving claim are exact but no current direct relation closes that claim outside A.6.P.WMR, exit to `A.6.RCD` rather than improvising a relation or kind.
+
+| Recovered question | What the reader does | Governing exit |
+|---|---|---|
+| interface, port, signature, participant, field, parameter, or representation-position wording | Name the actual interface-side object and the direct claim needed next; keep any schema field or representation position separate from that object. | `A.6.RSIR`, then the exact direct owner |
+| basedness or dependence on an explicit base | Name the dependent, base, direct base relation, scope, applicable time, witnesses, allowed use, and blocked stronger use. | `A.6.6` |
+| service, server, provider, delivery, or access wording — first question | Do not choose from a closed service-facet list. Ask what concrete object the sentence is about and what the next reader must decide or do. The common branches immediately below are examples, not a `Service` kind or complete taxonomy; an unlisted but already recoverable object goes straight to its direct owner. If the referent is still unclear, return to 4.1. | `E.10` for the wording trigger, then the exact direct owner |
+| service promise | Ask what outcome the consumer may rely on. Write that promise clause and its acceptance content without assigning an accountable duty or claiming that delivery work occurred. | `A.2.3`; use `A.6.C` when contract, SLA, or guarantee wording must be unpacked |
+| service commitment or instituting act | Ask who is accountable for what, under which modality, scope, and time. If the question is instead whether an approval, notice, declaration, or revocation instituted or ended the commitment, identify that performed communicative act separately. A document or interface performs neither act. | `A.2.8`; `A.2.9` for the distinct speech act; `A.6.C` when contract language carries both |
+| service access point or interface | Point to the endpoint, port, interface, providing system, and receiving participant needed by the sentence, then write the direct access or interface claim. Use `A.6.RSIR` only to recover which of those objects the wording names; the exact interface or access owner must supply the predicate. An API description is not the interface or access relation. | `A.6.RSIR`, then the exact direct interface or access owner; otherwise `A.6.RCD` after the objects and needed predicate are exact |
+| service or API description and publication | Ask which claim-bearing episteme describes which promise, method, interface, or access object. If a selected edition was made available, state publication separately. Description or publication neither promises the outcome nor provides access by itself. | `C.2.1`; `E.17` and `E.24.PUB` when publication is current |
+| other recovered service facet | Name the providing or receiving system, role assignment, method, planned or performed Work, production, delivery, acceptance, or evidence claim actually meant. Neither `service`, a `serviceSituation`, nor a bundle closes that claim. | `A.1`, `A.2`/`A.2.1`, `A.3.1`, `A.15.1`, `A.6.P.WMR`, or `A.10` as selected by the sentence; `A.6.RCD` only after an exact missing predicate is shown |
+| sameness, correspondence, export, alignment, mapping, or substitution across contexts | Name what each endpoint means in its own context and write the Bridge sentence the next task needs. Shared spelling, a mapping artefact, or a Card is not evidence that the Bridge obtains. | the direct Bridge pattern for predicate and occurrence identity; `C.2.1` and `F.9` only for a separate description or Card; otherwise `A.6.RCD` after both endpoints and the needed sentence are exact |
+| `integrity` wording — first question | Ask what the sentence lets the next reader do. Does it make a whole, part, structure, or coverage claim; characterize or measure something; or use evidence to support an assurance claim? The word `integrity` selects none of these branches by itself. | choose one of the three direct branches below; if evidence does not discriminate them, keep the alternatives explicit and block the named use |
+| `integrity` as a characteristic or measurement | Identify the bearer and integrity characteristic. If a value is reported, also name the scale, coordinate or level, unit when needed, measurement method, result, and evidence pointer. For example, `structural integrity is measured at X` takes this branch without inventing a candidate whole or parthood claim. | `C.16.P` until characteristic and scale construction are clear, then `C.16` and the exact measurement owner |
+| `integrity` as evidence or assurance | Name the exact claim, the evidence that bears on it, and the reliance or assurance use under consideration. A report called an integrity report is neither a whole nor assurance by title. | `A.10`; `B.3` only when an assurance claim is current |
+| actual whole, part, structural-whole, complete, turnkey, or end-to-end claim | Only after the sentence makes a whole, part, structure, or coverage claim, point to the candidate whole and boundary, list the relevant parts or constituents, and state the direct claim. Common examples are parthood, membership, portion, phase, composition, selected structure, holon recognition, whole reidentification, work coverage, and completion; this is not a closed taxonomy. In `the assembled pump remains an integral whole`, recover that pump, its boundary, parts, selected structure, and direct owner. A `wholenessSituation`, bundle, or adjective proves none of those claims. | `A.14`, `C.13`, `A.22`, `A.1`, `B.2`, `A.15.1`, or `A.15.PROD` as selected by the claim; otherwise `A.6.RCD` after the exact missing predicate is shown |
+| evidence bearing on a named claim | Name the evidence-bearing episteme or carrier, the claim it bears on, and the exact reliance or assurance use. | `A.10`, with `B.3` only when an assurance claim is current |
+| method/work/result/production/delivery/acceptance wording whose exact governor is hidden | Name the exact objects and the sentence needed at the method, work, result, production, delivery, acceptance, transfer, or receiving-use boundary. | `A.6.P.WMR`, then one of its four truthful exits |
+| exact participants but no current direct relation for the named receiving claim | Preserve the exact participants and sentence needed next; do not improvise a relation or kind. | `A.6.RCD` |
+| one work occurrence enabling, preparing, or producing for another exact use | Name both work-side objects and the exact enabling, preparing, or producing claim; do not substitute a plan, method, or package. | `A.15.1`, `A.15.4`, `A.15.PROD`, or the direct work relation |
+| an episteme assertion or description | Identify the claim-bearing episteme, its EntityOfConcern, and its effective reference scheme; keep publication separate. | `C.2.1`, then `E.17` when publication is current |
+| architecture wording | Name the architecture object, scope, and claim the sentence actually makes. | `C.30.P` |
+| characteristic, measurement, comparison, or quality wording | Name the bearer, characteristic, scale or comparison basis, result, and use that are current. | `C.16`, `C.16.P`, `A.17`-`A.19`, or `C.25` as selected by the actual claim |
+| palette, front, archive, shortlist, or selected-set wording | Name the selected-set object and the exact selection, comparison, currentness, archive, or use claim. | `G.2`, `A.19`, `C.18`, `C.19`, or `G.5` as selected by the actual object and use |
+| quantum-like relation or probe wording | First recover the ordinary direct relation; only then state the remaining probe, frame, order, export, or state-representation claim. | the ordinary direct owner first; `C.26` only for the residual quantum-like claim |
+| mathematical tuple, graph, arrow, function, or other representation | Name the representation elements, represented objects or claim content, explicit correspondences, declared use, and blocked overread; keep any Bridge separate. | `C.29`; `F.9` separately for a Bridge description or Card |
+| designation after ontology is settled | Recover the object and relation first, then state why one durable designation is needed. | `F.18` |
+The word that triggered the repair does not govern the result. The exact direct pattern does.
+
+#### A.6.P:4.12 - Lexical guardrails
+
+Overloaded words are diagnostic entry points, not relation kinds. In Tech or normative prose, `same`, `synced`, `linked`, `connected`, `anchored`, `grounded`, `supported`, and similar words cannot substitute for an unnamed direct relation or claim family. `Bind` and `rebind` remain name-binding or direct-owner vocabulary and are not generic relation-change verbs. A Plain gloss is admissible when its direct reading and governing exit remain recoverable.
+
+`E.10` owns the trigger scan and `E.10.ARCH` the shared wording-use recovery architecture. `F.18` owns durable name selection after the governed object is known. A.6.P does not maintain a second trigger registry or mint one specialization for every repeated word.
+

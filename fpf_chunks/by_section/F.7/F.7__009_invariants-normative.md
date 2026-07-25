@@ -6,12 +6,12 @@ section_id: "F.7:8"
 section_title: "Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__009_invariants-normative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:8 — Invariants (normative)"
-line_start: 88954
-line_end: 88965
+line_start: 88715
+line_end: 88726
 dependencies:
   - "A.6.9"
   - "E.10.D1"

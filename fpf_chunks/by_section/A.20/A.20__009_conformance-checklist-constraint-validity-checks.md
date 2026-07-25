@@ -6,12 +6,12 @@ section_id: "A.20:7"
 section_title: "Conformance Checklist - Constraint-validity checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__009_conformance-checklist-constraint-validity-checks.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:7 — Conformance Checklist - Constraint-validity checks"
-line_start: 33386
-line_end: 33418
+line_start: 33060
+line_end: 33092
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

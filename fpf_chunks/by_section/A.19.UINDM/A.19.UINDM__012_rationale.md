@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__012_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:10 — Rationale"
-line_start: 31761
-line_end: 31769
+line_start: 31435
+line_end: 31443
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

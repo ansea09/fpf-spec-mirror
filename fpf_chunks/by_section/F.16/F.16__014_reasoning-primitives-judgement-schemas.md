@@ -6,12 +6,12 @@ section_id: "F.16:13"
 section_title: "Reasoning primitives (judgement schemas)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__014_reasoning-primitives-judgement-schemas.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:13 — Reasoning primitives (judgement schemas)"
-line_start: 92464
-line_end: 92502
+line_start: 92225
+line_end: 92263
 dependencies:
   - "A.15"
   - "A.3"

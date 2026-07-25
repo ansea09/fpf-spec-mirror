@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 39007
-line_end: 39096
+line_start: 38681
+line_end: 38770
 dependencies:
   - "B.3"
   - "C.13"

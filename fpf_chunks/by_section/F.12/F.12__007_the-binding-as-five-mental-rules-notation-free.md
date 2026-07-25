@@ -6,12 +6,12 @@ section_id: "F.12:6"
 section_title: "The binding, as five mental rules (notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__007_the-binding-as-five-mental-rules-notation-free.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:6 — The binding, as five mental rules (notation‑free)"
-line_start: 90925
-line_end: 90951
+line_start: 90686
+line_end: 90712
 dependencies:
   - "A.2.3"
   - "F.1"

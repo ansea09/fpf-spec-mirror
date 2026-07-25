@@ -6,12 +6,12 @@ section_id: "F.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:1 — Problem Frame"
-line_start: 87966
-line_end: 87973
+line_start: 87727
+line_end: 87734
 dependencies:
   - "A.15"
   - "A.15.1"

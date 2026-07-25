@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.1.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
-line_start: 94616
-line_end: 95048
+line_start: 94409
+line_end: 94841
 dependencies:
   - "A.10"
   - "A.15.3"

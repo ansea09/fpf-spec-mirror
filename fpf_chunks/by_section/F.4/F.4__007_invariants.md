@@ -6,12 +6,12 @@ section_id: "F.4:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__007_invariants.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:5 — Invariants"
-line_start: 88069
-line_end: 88081
+line_start: 87830
+line_end: 87842
 dependencies:
   - "A.15"
   - "A.15.1"

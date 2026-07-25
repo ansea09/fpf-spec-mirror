@@ -2,16 +2,16 @@
 chunk_kind: "child"
 pattern_id: "E.10.ARCH"
 pattern_title: "Wording-Use Ontological Precision Restoration Architecture"
-section_id: "E.10.ARCH:9.3"
+section_id: "E.10.ARCH:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__020_consequences.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
-  - "E.10.ARCH:9.3 — Consequences"
-line_start: 74286
-line_end: 74293
+  - "E.10.ARCH:12 — Consequences"
+line_start: 74027
+line_end: 74034
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -35,8 +35,7 @@ dependencies:
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "C.16"
-  - "C.16.P"
-  - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
   - "C.25"
@@ -65,7 +64,7 @@ dependencies:
 keywords:
 ---
 
-### E.10.ARCH:9.3 - Consequences
+### E.10.ARCH:12 - Consequences
 
 **Benefits.** Wording-use restoration stays distributed but coherent; subject patterns stay object-centered; recurring hidden-field families get one recovery architecture instead of many local catalogues.
 

@@ -6,26 +6,30 @@ section_id: "C.2.P.DR:7"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__009_common-anti-patterns.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:7 — Common anti-patterns"
-line_start: 44026
-line_end: 44037
+line_start: 43727
+line_end: 43738
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.4"
+  - "A.19"
   - "A.19.SPR"
   - "A.20"
   - "A.21"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.1"
   - "A.7"
   - "B.3"
+  - "C.16"
+  - "C.2.1"
   - "C.2.P"
   - "C.29"
   - "E.10"
@@ -44,8 +48,8 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Path word deletion | Every `path` is replaced or avoided. | Preserve legitimate `A.10`, `E.18`, carrier, mathematical, URL, and quoted-source path uses; repair only hidden stronger claims. |
-| Imperative metaphor as ontology | Representations "route", "call", "dispatch", "receive", "invoke", or "flow" by prose habit. | Recover representation kind and governing pattern, then write the relation declaratively. |
-| Algorithm as method by default | Code, solver model, proof script, or workflow is called the method without slot recovery. | Use `A.3.1` only for semantic way of doing; use `A.3.2`, `A.6.0`, `C.29`, `A.6.1`, `E.20`, `A.15.2`, `A.15.1`, or `A.10` when those claims are current. |
+| Imperative metaphor as ontology | Representations "route", "call", "dispatch", "receive", "invoke", or "flow" by prose habit. | Separate the visible expression, direct object or relation, exact representation use or `none`, and blocked stronger action claim; then write the direct relation declaratively. |
+| Algorithm as method or description by form | Code, solver model, proof script, workflow, SOP, recipe, protocol, or diagram form is treated as proof of `U.Method` or `U.MethodDescription`. | Use A.3.1 only for the recovered reusable way of doing. Use A.3.2 only for an already identified claim-bearing episteme with one admitted `U.Method` as exact `EntityOfConcern` and a substantive way-of-doing claim; otherwise keep the representation or other claim with its direct owner. |
 | Mechanism by prestige | `mechanism` is used because the word sounds more rigorous than method or algorithm. | Require operation algebra, laws, admissibility predicates, transport, audit, realization, or governing-definition assignment. |
 | Dashboard as gate | Green status, dashboard tile, score, or status label becomes permission or release. | Recover source relation or publication relation, state-family value, evidence relation, and gate or release pattern when current. |
 | Pattern dispatcher | Pattern relations are written as routes, exits, receivers, calls, owners, or homes. | Write declarative neighboring-pattern boundary or application relation; use `E.8` and `F.19` together when both publication-form and phrase-apparatus claims are live, or use the one governing pattern when only one claim is live. |

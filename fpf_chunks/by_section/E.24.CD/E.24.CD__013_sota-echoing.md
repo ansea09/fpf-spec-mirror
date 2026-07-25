@@ -1,32 +1,50 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.CD"
-pattern_title: "Ontic Candidate Detection"
+pattern_title: "Ontic Candidate Detection and First-Use Disposition"
 section_id: "E.24.CD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__013_sota-echoing.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
-  - "E.24.CD — Ontic Candidate Detection"
+  - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:11 — SoTA-Echoing"
-line_start: 85957
-line_end: 85968
+line_start: 85718
+line_end: 85729
 dependencies:
+  - "A.1"
+  - "A.14"
+  - "A.15.1"
   - "A.19"
   - "A.19.ECS"
-  - "A.6.5"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.F"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "A.6.RSIR"
+  - "B.1"
+  - "B.2"
+  - "C.13"
   - "C.2.1"
+  - "C.2.P.DR"
+  - "C.22.2"
+  - "C.22.PFR"
+  - "C.28"
+  - "C.29"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
   - "E.10"
   - "E.10.ARCH"
-  - "E.2.DA"
-  - "E.21"
+  - "E.17.0"
+  - "E.18.1"
+  - "E.23"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
-  - "E.9.DA"
   - "F.18"
-  - "F.19"
   - "U.CharacteristicSpace"
 keywords:
 ---
@@ -35,11 +53,11 @@ keywords:
 
 | Source family | Current lesson for E.24.CD | FPF decision |
 | --- | --- | --- |
-| Shimizu and Hitzler 2024, and Eells, Dave, Hitzler, and Shimizu 2024. | Current modular-ontology and micropattern support: useful ontology units are understandable, extensible, aligned, reusable, and small enough to be assembled. | Detect coherent ontology modules, repeated relation shape, slot-relation density, and dependent-pattern copying; do not treat word frequency, common nouns, or every record field as an ontic decision. |
-| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ontology ODP extraction support: process-like and workflow-like forms can hide implicit design patterns that need explicit publication for domain experts. | Inspect process-like, record-like, card-like, and field-list forms for hidden slot relations; do not reopen the transformation-flow settlement and do not import imperative motion metaphors. |
-| Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG support: schemas, documentation, relations, domain ontologies, extraction, hierarchy structuring, provenance, and validation can expose ontology candidates while also producing overreads. | Treat project databases, tables, schemas, and enterprise data models as ontology-signal sources requiring bounded scope, semantic alignment, slot-relation discipline, expert validation, and a blocked-overread row. |
+| Shimizu and Hitzler 2024, and Eells, Dave, Hitzler, and Shimizu 2024. | Current modular-ontology and micropattern work favors ontology units that are understandable, extensible, aligned, reusable, and small enough to assemble. | Inspect repeated subject identity and direct-relation rules across named dependent uses; do not treat word frequency, common nouns, or record fields as admission evidence. |
+| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ontology ODP extraction work shows that process-like and workflow-like forms can expose implicit design patterns that domain experts need to examine. | Recover the objects and predicates hidden by process, record, card, and field-list forms and check them against their governing patterns; do not reopen transformation-flow decisions or import imperative motion metaphors. |
+| Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG work shows that schemas, documentation, relations, provenance, and validation can reveal ontology candidates while also encouraging schema-shaped overreads. | Treat project databases, tables, schemas, and enterprise data models as source material and detection cues for selecting the applicable governing pattern, not as ontology decisions; require bounded scope, agreement with each current governing pattern, and expert validation. |
 | CYC microtheory line. | Lineage-only caution: context-bounded knowledge modules are a useful analogy for contradiction locality and scope-bounded ontology fragments. | Do not cite CYC as current decisive support for FPF ontic design and do not import CYC architecture as FPF law. |
 | OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: these lines carry ontology descriptions, vocabulary links, queries, and serialization forms. | Use them as expression and publication caution only; they do not substitute for `U.Ontic`, do not show that labels are ontology, and do not answer FPF ontic modularization by themselves. |
 
-Smallest source-currentness reopen trigger: reopen this SoTA slice when a newer ontology-engineering or data-model-to-ontology source changes the selected detection criteria for coherent modules, hidden slot relations, bounded scope, validation, or source-form overread; do not reopen it merely because a new vocabulary, serialization, or KG tooling paper appears.
+Smallest source-currentness reopen trigger: reopen this SoTA slice when a newer ontology-engineering or data-model-to-ontology source changes the selected criteria for reusable subject identity, minimal relation sets, bounded scope, validation, or source-form overread; do not reopen it merely because a new vocabulary, serialization, or KG tool appears.
 

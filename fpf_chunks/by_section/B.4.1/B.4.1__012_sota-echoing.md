@@ -6,12 +6,12 @@ section_id: "B.4.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__012_sota-echoing.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:11 — SoTA-Echoing"
-line_start: 39467
-line_end: 39469
+line_start: 39141
+line_end: 39143
 dependencies:
   - "A.15"
   - "A.16"

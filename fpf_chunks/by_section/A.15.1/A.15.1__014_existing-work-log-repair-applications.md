@@ -6,12 +6,12 @@ section_id: "A.15.1:12"
 section_title: "Existing work-log repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__014_existing-work-log-repair-applications.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:12 — Existing work-log repair applications"
-line_start: 24969
-line_end: 24980
+line_start: 24643
+line_end: 24654
 dependencies:
   - "A.1"
   - "A.1.1"

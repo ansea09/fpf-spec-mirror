@@ -1,41 +1,57 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.24.CD"
-pattern_title: "Ontic Candidate Detection"
+pattern_title: "Ontic Candidate Detection and First-Use Disposition"
 section_id: "E.24.CD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__003_problem-frame.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
-  - "E.24.CD — Ontic Candidate Detection"
+  - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:1 — Problem Frame"
-line_start: 85704
-line_end: 85711
+line_start: 85447
+line_end: 85452
 dependencies:
+  - "A.1"
+  - "A.14"
+  - "A.15.1"
   - "A.19"
   - "A.19.ECS"
-  - "A.6.5"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.F"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "A.6.RSIR"
+  - "B.1"
+  - "B.2"
+  - "C.13"
   - "C.2.1"
+  - "C.2.P.DR"
+  - "C.22.2"
+  - "C.22.PFR"
+  - "C.28"
+  - "C.29"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
   - "E.10"
   - "E.10.ARCH"
-  - "E.2.DA"
-  - "E.21"
+  - "E.17.0"
+  - "E.18.1"
+  - "E.23"
   - "E.24"
   - "E.24.PUB"
   - "E.24.UK"
-  - "E.9.DA"
   - "F.18"
-  - "F.19"
   - "U.CharacteristicSpace"
 keywords:
 ---
 
 ### E.24.CD:1 - Problem Frame
 
-`E.24` introduces or rejects a durable `U.Ontic`. Before that decision, FPF often needs a smaller move: detect whether an apparent subject is actually a candidate ontic or merely a record, local frame, source label, draft locus, or direct use of existing patterns.
+An apparent ontology candidate usually arrives inside something visible: a label, form, record, diagram, source passage, or repeated field list. That visible thing may point to a real durable subject, but it may instead carry claims about several already governed objects, publish or represent them, classify them for one context, or merely use an imprecise word.
 
-Ontic candidates are easy to overread because they appear through publications. A form, card, schema, table, field list, diagram, source row, review packet, or data model can carry a real subject matter, but it is not automatically the subject matter. Detection must therefore start from the `EntityOfConcern` and the typed values involved, not from the publication form that made the subject visible.
-
-E.24.CD governs that detection move. It prepares an E.24 decision; it does not make the durable ontic decision by itself.
+E.24.CD governs this first-use choice before E.24 opens. It neither admits a durable ontic nor creates a candidate object of its own.
 

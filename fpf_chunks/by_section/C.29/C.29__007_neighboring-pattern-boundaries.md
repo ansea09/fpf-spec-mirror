@@ -6,12 +6,12 @@ section_id: "C.29:5"
 section_title: "Neighboring-pattern boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_neighboring-pattern-boundaries.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:5 — Neighboring-pattern boundaries"
-line_start: 58181
-line_end: 58198
+line_start: 57884
+line_end: 57901
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.16"

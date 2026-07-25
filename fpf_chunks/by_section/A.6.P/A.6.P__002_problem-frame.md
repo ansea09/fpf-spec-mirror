@@ -1,0 +1,74 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.P"
+pattern_title: "Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+section_id: "A.6.P:1"
+section_title: "Problem frame"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.P/A.6.P__002_problem-frame.md"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+heading_path:
+  - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+  - "A.6.P:1 — Problem frame"
+line_start: 14951
+line_end: 14972
+dependencies:
+  - "A.10"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.6"
+  - "A.6.8"
+  - "A.6.9"
+  - "A.6.B"
+  - "A.6.H"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
+  - "A.6.RSIR"
+  - "C.2.1"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "F.18"
+  - "F.9"
+keywords:
+  - "RelationSignature"
+  - "SlotSpec"
+  - "actual participants"
+  - "changed-object routing"
+  - "designation"
+  - "direct relation"
+  - "missing-governor"
+  - "obtaining condition"
+  - "occurrence identity"
+  - "participant meanings"
+  - "receiving-use gate"
+  - "representation"
+  - "under-specified relation-bearing claim"
+---
+
+### A.6.P:1 - Problem frame
+
+**Use this when.** Use this pattern when a claim contains a relation-bearing phrase, but the phrase does not yet determine the direct relation, exact participants, direction, or detail needed by a later engineering claim or operation. Common recognition moments include a broad predicate such as "linked", "aligned", or "supports"; a participant named by metonymy; a qualifier that sounds precise while leaving the head kind unknown; service, server, provider, delivery, or access wording that leaves the promise, interface, system, role, method, work, or evidence object unclear; whole, part, complete, turnkey, or end-to-end wording that leaves a candidate whole, boundary, parthood, composition, coverage, or work claim unresolved; and `integrity` wording that still leaves open whether the sentence is about a structural whole, a characteristic or measurement, or evidence or assurance.
+
+Quoted, external, or ordinary source prose may remain as written. Open A.6.P only when an FPF statement will use the phrase to guide action, justify a decision or gate, support assurance or reliance, publish a claim, or reuse it across contexts. Repair that receiving FPF statement; preserve the source wording as a quotation or source expression instead of rewriting it as though the source had made the repaired claim.
+
+**Primary working reader, viewpoint, and concern.** The working reader is an engineer viewing the sentence as input to a later claim or operation. The concern is that another person can find the same world-side or episteme-side objects, select the same direct governing pattern, and know which additional declaration, assertion, occurrence, designation, or representation detail that later use actually needs.
+
+**Primary EntityOfConcern.** One relation-bearing claim in an episteme whose current expression leaves the direct relation kind or one or more actual participants unresolved, or leaves unclear whether a later claim or operation needs reusable declaration, explicit occurrence identity, designation, or representation.
+
+**First useful move.** Replace the broad phrase with one readable sentence that names the exact participants and the direct relation believed to obtain. Name the governing pattern for that relation. If either the participants or the relation remain genuinely ambiguous, keep a small working candidate note and resolve that ambiguity before adding a reusable declaration, assigning a designator, or choosing a representation.
+
+**First-minute result.** The draft `Bearing_B is linked to Pump_P` becomes `Bearing_B isInstalledPartOf Pump_P during Interval_T` after inspection identifies the physical part relation governed by `A.14` and its current interval. If no later maintenance claim or operation distinguishes this installation episode from another, the repair stops there. A `RelationSignature`, explicit occurrence reference, or graph representation is added only when a named later claim or operation needs it.
+
+**What goes wrong if missed.** A lexical replacement can make the sentence sound technical while preserving the same ambiguity. At the opposite extreme, an engineer can turn every relation phrase into a record-shaped episteme and then confuse that episteme, a declaration, or an identifier with the relation that obtains. Both failures obscure what is true, which object changes, and which pattern governs the needed claim or operation.
+
+**What this buys.** The repaired claim remains readable. Load-bearing uses gain exact relation kinds, participant meanings, reusable typed declarations, occurrence identity, designations, and representations only where those distinctions change the later claim or operation.
+
+**Not this pattern when.** Use the direct relation pattern when the relation and participants are already clear. Use `A.6.5` when only reusable `SlotSpec`s are needed, `A.6.REL` when one obtaining occurrence needs explicit identity, `C.2.1` when the issue is assertion or description identity, and `F.18` when the object and relation are known and only designation remains unresolved.
+
+FPF treats relation realism and epistemic access separately. A relation can obtain among its participants before anyone states, stores, diagrams, or names that fact. An assertion can affirm or deny the direct obtaining predicate. A declaration episteme carries reusable vocabulary and laws. A designator denotes an already recoverable object under an effective reference scheme. An episteme becomes available through a publication relation. A representation corresponds to an independently governed object or claim content. Relation precision restoration keeps these objects connected without collapsing them.
+

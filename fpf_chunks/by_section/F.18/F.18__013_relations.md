@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_relations.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:11 — Relations"
-line_start: 93571
-line_end: 93588
+line_start: 93361
+line_end: 93381
 dependencies:
   - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -23,13 +23,13 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
   - "F.13"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -43,19 +43,22 @@ keywords:
 
 ### F.18:11 - Relations
 
-Builds on `F.0.1`, `F.1`, `F.2`, `F.3`, `F.5`, `F.8`, `F.9`, `F.13`, `F.14`, `F.15`, and `F.17`.
+Builds on `F.0.1`, `F.1`, `F.2`, `F.3`, `F.5`, `F.8`, `F.9`, `F.13`, `F.14`, `F.15`, `C.2.1`, and `E.24.PUB`.
 
 Coordinates with:
 
-- `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, and `A.15.1` for role value, role assignment, role state, role relation structure, role-algebra lens use, role-method-work alignment, and exact performed-work occurrence grounding;
-- `A.3.1` and `A.3.2` for method and method-family names;
+- `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, and `A.15.1` for role value, role assignment, role state, exact role relation occurrences and selected `RoleRelationStructure`, role-algebra lens use, role-method-work alignment, and exact performed-work occurrence grounding;
+- `A.3.1` for method and method-family names; `A.3.2` for a separately identified `U.MethodDescription` episteme whose exact `EntityOfConcern` is that Method, and for the description episteme's separate name;
 - `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.REL`, `A.6.5`, `A.6.RSIR`, `A.6.0`, `A.6.M`, `A.6.F`, and `A.6.C` for relation-claim settlement, work/method-boundary relation recovery, relation-kind and occurrence boundaries, slot, signature, interface, port, and protocol names;
-- `A.10`, `B.3`, `F.10`, `E.10.D2`, `E.17`, and `C.2.1` for evidence-use, assurance-use, status-use, source-use, publication-use, and description-use names;
+- `A.10`, `B.3`, `F.10`, `E.10.D2`, and `C.2.1` for evidence-use, assurance-use, status-use, source-use, and description-episteme names;
+- `E.17` for multi-view publication-face and publication-form use;
+- `F.17` only after its current entry accepts the exact F.18 value/kind/card/sense/Bridge result and its result supplies the required public row; otherwise the local NameCard remains sufficient and the public row stays pending;
+- `E.24.PUB` for the separate occurrence, form, carrier, audience, bounded-use, and currentness objects needed when an exact row-episteme edition is actually made available;
 - `C.16`, `C.18`, and Part G search patterns when candidate comparison uses Pareto or quality-diversity vocabulary.
 
 Constrained non-use:
 
-- `F.18` does not create `U.Role`, `U.RoleAssignment`, `U.Status`, `U.Method`, `U.Work`, `U.Episteme`, `U.Relation`, `U.Signature`, generic interface kinds or values, `U.SlotKind`, or any other governed value.
+- `F.18` admits no new U-kind and creates none of the governed role, assignment, status, method, work, relation, signature, slot, interface, or other subject values it names. A `NameCard` is a separately constituted `U.Episteme` under `C.2.1`, not a kind minted by F.18.
 - `F.18` does not decide whether two values are the same across contexts; it requires the bridge or direct pattern that decides that claim.
 - `F.18` does not turn a publication row, card, table, or glossary entry into the thing being named.
 

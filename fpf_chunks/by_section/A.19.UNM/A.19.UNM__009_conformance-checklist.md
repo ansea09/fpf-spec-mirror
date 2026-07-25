@@ -6,12 +6,12 @@ section_id: "A.19.UNM:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__009_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:7 — Conformance Checklist"
-line_start: 31419
-line_end: 31434
+line_start: 31093
+line_end: 31108
 dependencies:
 keywords:
   - "CV→NCV"

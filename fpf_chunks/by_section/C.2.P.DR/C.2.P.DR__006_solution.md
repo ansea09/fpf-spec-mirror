@@ -6,26 +6,30 @@ section_id: "C.2.P.DR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__006_solution.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:4 — Solution"
-line_start: 43817
-line_end: 43921
+line_start: 43491
+line_end: 43616
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.15.4"
+  - "A.19"
   - "A.19.SPR"
   - "A.20"
   - "A.21"
   - "A.3.1"
   - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.1"
   - "A.7"
   - "B.3"
+  - "C.16"
+  - "C.2.1"
   - "C.2.P"
   - "C.29"
   - "E.10"
@@ -41,19 +45,19 @@ keywords:
 
 ### C.2.P.DR:4 - Solution
 
-Repair declarative-representation overread by recovering representation use, then naming the direct governing pattern for the current claim.
+Repair declarative-representation overread by separating the visible expression, the direct object or relation, and any representation use before naming the direct governing pattern for the current claim.
 
 The repair order is:
 
-1. **Name the encountered representation.** Quote or identify the graph, path, query, predicate, dashboard, table, publication face, evidence path, source-chain relation, carrier path, mathematical representation, method-description representation, or pattern relation.
-2. **Name the representation kind.** State whether it is graph structure, flow valuation, evidence relation, provenance relation, state predicate, query, table, publication face, formal substrate, method description, source relation, carrier syntax, or another representation kind named by value.
-3. **Name the represented EntityOfConcern or claim.** State what the representation is about: claim, effect, method, work occurrence, work plan, graph object, state, EntityOfConcern, publication, evidence relation, gate, source relation, or pattern relation.
-4. **Recover source or publication relation when current.** If the representation is a face, source chain, generated explanation, copied text, dashboard, file path, or publication unit, use the publication pattern or source-use pattern governing that relation.
-5. **Name the tempting imperative overread.** Say what the representation is being asked to do by resemblance: route, call, dispatch, invoke, run, flow, send, receive, authorize, release, prove, prescribe, execute, select, pass a gate, or record work.
-6. **Select the governing pattern.** Use the direct pattern when the kind is already recovered; otherwise use this pattern only long enough to recover the representation use and blocked overread.
-7. **State retained use.** Keep the weaker useful use: graph structure, evidence relation, source-finding, state predicate, publication face, method-description representation, formal-substrate input, method slot candidate, or pattern relation.
-8. **State blocked overread.** Block only the stronger claim that is not recoverable.
-9. **Stop or reopen.** Stop when the governing pattern can carry the next claim. Before stopping, ask what claim, evidence relation, gate relation, safety relation, method relation, work relation, or source relation would become less reviewable if the visible representation were accepted as the stronger claim. Reopen if a later source changes representation kind, represented EntityOfConcern, source currentness, governing pattern, or the intended use.
+1. **Name the visible expression or artifact.** Quote or identify the graph highlight, file, query text, predicate display, dashboard tile, table, publication face, path diagram, carrier path, mathematical expression, method-description expression, or pattern sentence that prompted the overread.
+2. **Recover the exact current direct object or relation.** Name the graph structure, `PathSlice`, flow valuation, evidence or provenance relation, state predicate or value, query or formal object, publication face or occurrence, formal substrate, claim-bearing episteme, source relation, carrier-side object, pattern relation, or other direct outcome under its own governor. This is a list of alternative recovery outcomes, not representation kinds in one ontology.
+3. **State the representation or correspondence use, or write `none`.** When the visible expression represents a separately identified object or claim, name the exact relation and target. When the direct object or relation itself is current and no separate representation claim is needed, write `none`; do not relabel the direct object as a representation kind.
+4. **Recover source or publication relation when current.** If a face, source chain, generated explanation, copied text, dashboard, file path, or publication unit is current, use the publication pattern or source-use pattern governing that relation.
+5. **Name the tempting stronger action claim.** Say what the visible expression is being asked to do by resemblance: route, call, dispatch, invoke, run, flow, send, receive, authorize, release, prove, prescribe, execute, select, pass a gate, or record work.
+6. **Select the governing pattern.** Use the direct pattern when the object or relation is already recovered; otherwise use this pattern only long enough to recover the direct outcome, any representation use, and the blocked stronger claim.
+7. **State retained use.** Keep the weaker useful use: graph structure, evidence relation, source-finding, state predicate, publication face, exact representation use, formal-substrate input, candidate method reading, or pattern relation.
+8. **State the blocked stronger action claim.** Block only the stronger claim that is not recoverable.
+9. **Stop or reopen.** Stop when the governing pattern can carry the next claim. Before stopping, ask what claim, evidence relation, gate relation, safety relation, method relation, work relation, or source relation would become less reviewable if the visible expression were accepted as the stronger claim. Reopen if a later source changes the visible expression, direct object or relation, representation relation or target, source currentness, governing pattern, or intended use.
 
 #### C.2.P.DR:4.1 - DeclarativeRepresentationRepair note
 
@@ -61,18 +65,28 @@ Use this compact note when the wording has FPF-governed use:
 
 ```text
 DeclarativeRepresentationRepair:
-  EncounteredRepresentation:
-  RepresentationKind:
-  RepresentedEntityOfConcernOrClaim:
+  VisibleExpressionOrArtifact:
+  CurrentDirectObjectOrRelation:
+  RepresentationOrCorrespondenceUse: <exact relation and represented target> | none
   SourceOrPublicationRelation:
-  TemptingImperativeOverread:
+  TemptingStrongerActionClaim:
   RecoveredGoverningPattern:
   RetainedUse:
-  BlockedOverread:
+  BlockedStrongerActionClaim:
   StopOrReopenCondition:
 ```
 
-The note records the local repair long enough to make the next governing pattern selectable. If the direct governing pattern already supplies a better record, use that record and keep only the repaired wording, retained use, blocked overread, and stop or reopen condition here.
+The note records the local repair long enough to make the next governing pattern selectable. If the direct governing pattern already supplies a better record, use that record and keep only the repaired wording, exact direct outcome, any representation use, retained use, blocked stronger claim, and stop or reopen condition here.
+
+Use four plain questions before the owner table: What visible thing am I looking at? What direct object or relation is current? What, if anything, does it represent? What stronger action claim must remain blocked?
+
+| Visible expression or artifact | Exact current direct object or relation | Representation or correspondence use | Stronger action claim blocked |
+| --- | --- | --- | --- |
+| highlighted graph path | exact E.18 graph path or `PathSlice`, with any flow valuation kept separate | the graphic rendering corresponds to that path when the relation is current; otherwise `none` when the `PathSlice` itself is under inspection | no prescribed route, valve work, or release by the highlight |
+| dashboard tile | exact status or state value with its bearer and value frame, plus any current source or publication relation | the tile represents that value only through an exact current relation; otherwise `none` when the publication face itself is the direct object | no gate passage or release permission from green appearance |
+| evidence-path expression | exact A.10 evidence or provenance relation for the named claim or effect | a diagram may represent that relation; otherwise `none` when the relation itself is current | no approval, permission, assurance, or release from path shape |
+| solver file | exact publication form or carrier-side object, and whichever formal substrate, claim-bearing episteme, method, mechanism declaration, plan, run, or evidence relation is independently current | the solver expression corresponds to separately identified claims or a formal object when that relation is stated; otherwise `none` | no method, mechanism, performed work, result, or evidence by file form or executability |
+| publication table | exact publication face or form and source relation, with table values or claims kept under their direct owners | the table corresponds to a separately identified object or claim only when the exact relation is current; otherwise `none` | no evidence, approval, gate passage, or action authority from table layout |
 
 #### C.2.P.DR:4.2 - Direct governing-pattern selection
 
@@ -84,10 +98,14 @@ The note records the local repair long enough to make the next governing pattern
 | publication face, source expression, generated explanation, dashboard face, publication unit, or source-chain relation | `E.17`, `E.17.EFP`, `C.2.P`, `A.15.4`, or source-use pattern named by value | Publication and source visibility do not create work, evidence, authority, release, or gate passage. |
 | mathematical representation, formal object, formal substrate, invariant, or mathematical-lens output | `A.6.0`, `C.29`, or direct mathematical pattern | Mathematical representation is not method, mechanism, proof of project result, or work execution until that claim is separately recovered. |
 | context-local semantic way of doing | `A.3.1 U.Method` | A method claim is not closed by code, diagram, proof script, plan, run, or mechanism declaration; use `E.10.ARCH:3.1` only to recover the project concern and then recover each linked typed value under its own governing pattern. |
-| episteme describing a method: code, SOP, proof script, solver model, process model, protocol, recipe, or diagram | `A.3.2 U.MethodDescription` | Description is not the method itself and not dated work. |
+| already identified `U.Episteme` with one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive claim about that method as a way of doing | `A.3.2 U.MethodDescription` | Code, SOP, proof-script, solver-model, process-model, protocol, recipe, and diagram forms are clues only. A name, citation, approval, runnable form, or representation correspondence does not establish membership. |
 | law-governed operation algebra, laws, admissibility predicates, transport, audit, realization, or governing-definition assignment | `A.6.1` and `E.20` | Mechanism meaning is not selected by saying "algorithm" or "method"; it needs mechanism fields. |
 | planned work, intended window, role requirements, resource budget, or acceptance criterion | `A.15.2 U.WorkPlan` | Plan is not method, method description, evidence, gate passage, or performed work. |
-| dated work occurrence, run trace, concrete parameter binding, result, resource use, or performed-work record | `A.15.1 U.Work` | Work occurrence is not a diagram, plan, method description, source cue, or evidence path by appearance. |
+| exact dated work occurrence | `A.15.1 U.Work` for one exact `W : U.Work`; when performer attribution is current, `F.6` additionally requires one exact obtaining `RA : U.RoleAssignment`, admitted holder `S : U.System = RA.HolderSystemSlot`, and `performedUnderAssignment(W, RA)` or `S performed W under RA` | The Work occurrence is not its trace, record, binding, resource use, result, diagram, plan, method description, source cue, or evidence path. |
+| run trace or performed-work record | `C.2.1` for the exact trace or record episteme, plus its direct description, publication, source, or evidence-use owner only when that claim is current | The episteme may designate exact `W`, `RA`, holder `S`, and `performedUnderAssignment(W, RA)` when it makes that attribution; it neither is the Work occurrence nor makes the relation obtain. |
+| concrete parameter or participant binding | the exact direct subject-relation owner, or `A.6.1` for one independently identified operation application and its actual argument or result binding | A declaration, call position, trace field, or type-compatible token establishes no actual binding. |
+| performed resource use | the exact direct resource-use relation involving the already identified Work occurrence; use `B.1.6` only when aggregation is current | Resource use is a separately obtaining relation, not a Work field, record field, or result. |
+| result or output | identify the exact result entity or episteme first; use `A.15.PROD` when production, entity inception, or production completion is current, and `A.6.RCD` only when the needed direct result relation has no current governor | A binding, record field, Work occurrence, or nearby output label does not identify the result or establish production. |
 | FPF pattern application, pattern relation, neighboring-pattern relation, or placement cue | `E.8`, `F.19`, `E.10.ARCH`, or the direct pattern relation named by value | Pattern relations are declarative references or applications, not exits, receivers, routes, calls, owners, homes, or dispatches. |
 | quoted source wording or ordinary navigation | quote-only or ordinary prose | Do not repair ordinary words into FPF terms when no FPF-governed claim is being made. |
 
@@ -97,7 +115,7 @@ The note records the local repair long enough to make the next governing pattern
 
 `A.10 evidence path for <claim, effect, or use>` is legitimate when the evidence relation or provenance relation for the named claim, effect, or reliance use is current. `E.18` graph path and `PathSlice` are legitimate when the graph object, path, slice, crossing, or flow valuation is current. Carrier file paths, URLs, mathematical paths, and quoted source paths are legitimate when their notation, source-use function, or use relation is current.
 
-The defect is not the word. The defect is hidden ontology: the sentence treats a representation as if something literally ran, flowed, executed, authorized, released, proved, selected, or prescribed action without the governing kind named by value.
+The defect is not the word. The defect is hidden ontology: the sentence treats a representation as if something literally ran, flowed, executed, authorized, released, proved, selected, or prescribed action without first naming the exact direct object or relation and its governing pattern.
 
 When the representation is route-shaped, loop-shaped, graph-shaped, diffusion-like, or workflow-like, ask first which object is current:
 
@@ -106,22 +124,27 @@ When the representation is route-shaped, loop-shaped, graph-shaped, diffusion-li
 | constraint-governed `U.Structure` across several constrained loci | `A.22.CGUS` |
 | transformation-flow structure, path, path slice, crossing, guard, or valuation | `E.18` and `E.18.3` when unfolding use is current |
 | description, diagram, table, graph, route card, slide, README line, or narrative that renders the structure | `ConstraintGovernedUnfoldingStructureDescription@Context`, `DemonstrativeUnfoldingSlice@Context`, `A.6.3.NAR`, `E.17`, or the direct description governing pattern |
-| method or method description | `A.3.1` or `A.3.2` |
+| reusable semantic way of doing, or a claim-bearing episteme that passes the A.3.2 MethodDescription membership test | `A.3.1` for the method; `A.3.2` for the qualifying episteme |
 | work plan, work readiness, or performed work | A.15 family |
 | evidence, assurance, gate, decision, architecture, publication, or currentness-refresh claim | the direct governing pattern for that claim |
 
-Do not repair route-shaped wording by replacing it with another route-shaped word. The repair succeeds only when the representation, represented EntityOfConcern or claim, preserved and lost structure, admissible use, blocked overread, and direct governing pattern are recoverable.
+Do not repair route-shaped wording by replacing it with another route-shaped word. Always recover the visible expression, exact direct object or relation, representation or correspondence use or `none`, retained use, blocked stronger action claim, direct governing pattern, and stop or reopen condition. When the representation use is `none`, that is enough to close the repair; do not require a represented target, preserved and lost structure, or a mathematical-lens admissible-use account. When an exact representation, mathematical-lens, or selected-structure use is current, also name its target, the preserved and lost structure, and the admitted and blocked uses required by C.29 or that structure's direct owner.
 
-#### C.2.P.DR:4.4 - Method, algorithm, mechanism, and work-slot settlement
+#### C.2.P.DR:4.4 - Method, algorithm, mechanism, plan, and work settlement
 
 Do not repair `algorithm`, `program`, `solver`, `proof`, `recipe`, `method`, `workflow`, `process`, `procedure`, `access path`, `query plan`, or `control strategy` by choosing one fashionable replacement.
 
-Recover the current ontic slot, relation position, use relation, or claim kind:
+**Method-description membership guard.** A code file, SOP, proof script, solver model, process model, protocol, recipe, diagram, or query plan is only a representation clue. First identify the claim-bearing episteme under C.2.1. Apply A.3.2 only when that same episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one claim says how that method is done, such as its transformation or enactment concern, applicability, precondition, intended effect or preserved condition, bound, generic participant meaning, or internal method composition. A name, author, citation, approval, file form, runnable configuration, or representation correspondence alone is a near-miss. If the test fails, do not assign `U.MethodDescription`; keep the representation, publication, plan, dated work, result, formal substrate, mechanism declaration, evidence, or source use with its direct owner. A representation or publication change does not decide membership. If claim content, exact method, or effective reference scheme changes, C.2.1 first identifies the resulting episteme; then apply A.3.2 to that individual.
+
+Recover what the source is actually about and what it asserts:
 
 | Current claim | Governing pattern |
 | --- | --- |
-| context-local semantic way of doing, transformation kind, or enactment kind | `A.3.1 U.Method` |
-| episteme describing that way | `A.3.2 U.MethodDescription` |
+| context-local semantic way of doing a transformation or enactment | `A.3.1 U.Method` |
+| transformation or enactment kind stated inside a current method claim | keep it as one method-identity field or claim content under A.3.1; it is not a peer `U.Method` |
+| independently grounded actual bounded change | `A.3.4 U.Transformation` |
+| possible, required, desired, intended, planned, predicted, modeled, or asserted change | keep it as claim content under the exact requirement, architecture, capability-gap, functional-view, method, work-plan, dynamics-model, publication, or other direct owner; wording alone admits no `U.Transformation` |
+| already identified episteme whose exact `EntityOfConcern` is one admitted `U.Method` and whose claims include at least one substantive way-of-doing claim | `A.3.2 U.MethodDescription` |
 | formal substrate, signature, postulates, laws, or mathematical declaration | `A.6.0`; use `C.29` when mathematical-lens use is current |
 | operation algebra, admissibility predicates, transport, audit, realization, or mechanism-governing-definition assignment | `A.6.1` and `E.20` |
 | planned work | `A.15.2 U.WorkPlan` |
@@ -129,11 +152,13 @@ Recover the current ontic slot, relation position, use relation, or claim kind:
 | evidence relation or provenance relation for a claim | `A.10` |
 | wording quoted from source with no FPF-governed use | quote-only source wording |
 
-When the source label hides method, mechanism, formal-substrate, work, evidence, gate, result, or temporal assignments, use `E.10.ARCH:3.1` to recover the project concern and the current relation position. For this host, recover only the representation overread and the direct governing pattern for the current claim; linked typed values remain under their own governing patterns rather than becoming one representation-repair claim.
+**Cooling contrast.** A reusable cooling procedure can be `U.Method` only after the context-local way of doing, its transformation or enactment kind, transformed referent or structure, preconditions, and intended effects are recovered. “Required cooling effect” alone is claim content, not a method. If a later cooling episode actually changes the governed loop state, that occurrence remains a separate A.3.4 `U.Transformation` and needs its own changed referent, boundary, conditions, actual facts, and continuity or reidentification basis.
+
+When the source label hides method, mechanism, formal-substrate, work, evidence, gate, result, or temporal claims, use `E.10.ARCH:3.1` to state the project concern in ordinary words, then identify each exact object and claim separately. For this host, repair only the representation overread and name the direct governing pattern for the current claim; linked values remain under their own governing patterns rather than becoming one representation-repair claim.
 
 #### C.2.P.DR:4.5 - Programming-paradigm and process-model settlement
 
-Imperative, functional, logical, constraint, object-centric event, effect-handler, pipeline, orchestration, Declare-style, SQL-like, e-graph, hypergraph, or process-mining wording is a cue to recover representation kind and FPF slot. It is not a decision procedure by itself.
+Imperative, functional, logical, constraint, object-centric event, effect-handler, pipeline, orchestration, Declare-style, SQL-like, e-graph, hypergraph, or process-mining wording is a clue to identify the visible expression, direct object or relation, any representation use, and current claim. It is not a decision procedure by itself.
 
 Current practice makes the old contrast between imperative and declarative labels too weak as a final ontology:
 
@@ -142,5 +167,5 @@ Current practice makes the old contrast between imperative and declarative label
 - Declare-style process models and object-centric event logs distinguish constraints, events, objects, relations, ingestion, transformation, storage, and analysis;
 - e-graph and monoidal-rewriting work shows that computation or process representation may be equivalence or composition structure rather than instruction order.
 
-Use those lines as guardrails: recover the FPF kind and slot instead of replacing one programming-paradigm label with another.
+Use those lines as guardrails: recover the exact FPF-governed object, relation, claim, or representation use and its direct owner instead of replacing one programming-paradigm label with another.
 

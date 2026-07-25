@@ -6,12 +6,12 @@ section_id: "E.2.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__008_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:7 — Conformance checklist"
-line_start: 68097
-line_end: 68114
+line_start: 67800
+line_end: 67817
 dependencies:
   - "A.19.ECS"
   - "E.10"

@@ -6,12 +6,12 @@ section_id: "A.6.S:5"
 section_title: "Archetypal Grounding — Tell–Show–Show"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:5 — Archetypal Grounding — Tell–Show–Show"
-line_start: 20970
-line_end: 21037
+line_start: 20644
+line_end: 20711
 dependencies:
   - "A.12"
   - "A.3"

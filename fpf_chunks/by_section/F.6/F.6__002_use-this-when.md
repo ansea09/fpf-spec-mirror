@@ -6,12 +6,12 @@ section_id: "F.6:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_use-this-when.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:0 — Use This When"
-line_start: 88555
-line_end: 88580
+line_start: 88316
+line_end: 88341
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,7 +47,7 @@ keywords:
 
 **Plain name.** Check who performed this work under which role assignment.
 
-Use this pattern when one dated `U.Work` occurrence is being attributed to a performer and the attribution must refer to the exact `U.RoleAssignment` under which the performer acted.
+Use this pattern when deciding whether one exact dated Work individual `W : U.Work` was performed under one exact obtaining assignment occurrence `RA : U.RoleAssignment`. When it was, the direct world-side relation `performedUnderAssignment(W, RA)` obtains. A separate attribution assertion or record may designate `W` and `RA` and state that the relation obtains.
 
 Typical moments include:
 
@@ -61,7 +61,7 @@ Typical moments include:
 
 **Primary working reader.** An engineer, operator, method author, manager, or FPF author deciding whether a performed-work attribution is grounded strongly enough for the next use.
 
-**First useful move.** Name the work occurrence and the referenced assignment occurrence. Recover the assignment's holder system, role value, role-taxonomy episteme, effective reference scheme, and assignment window before judging the attribution.
+**First useful move.** Name the Work occurrence and the assignment occurrence that may participate in the attribution relation. Recover the assignment's holder system, role value, role-taxonomy episteme, effective reference scheme, and assignment window before deciding whether `performedUnderAssignment(W, RA)` obtains.
 
 **What goes wrong if missed.** Assignment is treated as proof that work happened; a work log names a person but not the assignment episode; a context-like word hides the role taxonomy and interpretation scheme; or an episteme is made the performer because it described, constrained, or evidenced the work.
 

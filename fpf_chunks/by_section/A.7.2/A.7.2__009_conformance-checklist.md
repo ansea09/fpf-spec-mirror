@@ -6,12 +6,12 @@ section_id: "A.7.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__009_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:7 — Conformance Checklist"
-line_start: 22260
-line_end: 22273
+line_start: 21934
+line_end: 21947
 dependencies:
   - "A.10"
   - "A.7.1"

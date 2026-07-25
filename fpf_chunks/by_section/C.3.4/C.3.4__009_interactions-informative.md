@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__009_interactions-informative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:8 — Interactions (informative)"
-line_start: 44934
-line_end: 44954
+line_start: 44635
+line_end: 44655
 dependencies:
   - "C.2.1"
   - "C.3.1"

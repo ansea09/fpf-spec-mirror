@@ -6,12 +6,12 @@ section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 88713
-line_end: 88725
+line_start: 88474
+line_end: 88486
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 ### F.6:5 - Invariants
 
 1. Every performed-work attribution relates one exact `U.Work` occurrence to one exact `U.RoleAssignment` occurrence.
-2. The referenced assignment keeps exactly four fixed participants and one maximal continuous obtaining extent; no mandatory `U.BoundedContext`, generic context slot, or optional model-use participant is added.
+2. The assignment occurrence `RA` in `RoleAssignmentSlot` keeps exactly four fixed participants and one maximal continuous obtaining extent; no mandatory `U.BoundedContext`, generic context slot, or optional model-use participant is added.
 3. The actual maximal continuous extent of the assignment occurrence covers the attributed portion of the work interval; a declared or recorded window alone does not establish coverage.
 4. Assignment does not prove performance, and performance attribution does not prove capability, state, method validity, result quality, or acceptance.
 5. `RoleEnactment` wording is repaired to dated work plus direct `performedUnderAssignment`; no duplicate enactment object is retained.

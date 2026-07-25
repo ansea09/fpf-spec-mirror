@@ -6,25 +6,30 @@ section_id: "A.6.RSIR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__012_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:10 — Rationale"
-line_start: 16884
-line_end: 16891
+line_start: 16523
+line_end: 16530
 dependencies:
   - "A.10"
   - "A.15"
   - "A.2"
   - "A.2.1"
+  - "A.3.4.P"
   - "A.6.0"
+  - "A.6.1"
   - "A.6.5"
   - "A.6.A"
   - "A.6.F"
   - "A.6.M"
   - "A.6.P"
+  - "A.6.REL"
+  - "C.2.1"
   - "C.2.P"
   - "C.2.P.DR"
+  - "C.29"
   - "E.10"
   - "E.10.ARCH"
   - "E.17"
@@ -34,29 +39,29 @@ dependencies:
   - "G.6"
 keywords:
   - "API"
-  - "affordance"
-  - "capability"
-  - "concern"
-  - "endpoint"
-  - "field"
-  - "function"
-  - "interest"
-  - "interface wording"
-  - "method"
-  - "parameter"
+  - "RelationSignature"
+  - "SlotSpec"
+  - "actual participant"
+  - "assertion or description designation"
+  - "direct relation participant"
+  - "exact operation application and binding"
+  - "interface"
+  - "operation argument or result declaration"
+  - "participant meaning"
   - "port"
-  - "protocol"
+  - "reduced-use source label"
   - "relation-signature-interface-role-slot recovery"
-  - "role wording"
+  - "representation position and correspondence"
+  - "role"
+  - "role assignment"
   - "shadow ontology"
-  - "slot wording"
 ---
 
 ### A.6.RSIR:10 - Rationale
 
 The RSIR cluster needs a first-level pattern because `E.10` should remain a trigger and lexical-governance pattern, while `A.6.P`, `A.6.5`, `A.6.M`, `A.6.F`, `A.2`, `A.15`, and publication, evidence, and status patterns each govern only their respective objects.
 
-The main ontological principle is slot discipline without slot overgeneralization. A slot position can admit a role, method, episteme, claim, holon, characteristic, or interface description as filler. That does not turn the filler into a new kind and does not turn the slot label into the filler.
+The main ontological principle is participant, declaration, application and binding, assertion and designation, and representation separation. An actual direct-relation participant retains its direct kind under one participant meaning. A corresponding `SlotSpec`, when reusable typed relation declaration is current, states a declaration-local `SlotKind`, exact `ValueKind`, and `refMode`. In an assertion or description, `C.2.1` governs the episteme's identity and content, the direct claim family governs predicate, polarity, or use, and `A.6.5` governs participant-designation typing only against a compatible current `SlotSpec`; an ordinary assertion can name actual participants without one. An A.6.1 `ArgumentDeclaration` or `ResultDeclaration` states reusable operation meaning, while one exact application and obtaining binding relate that independently identified occurrence to an actual bound value. A C.29 representation position may correspond to any of those meanings without becoming the participant, declaration, application, or binding.
 
 The second principle is direct governance. Once the current object is recovered, the pattern that governs that object governs the repair. RSIR only identifies the direct governing pattern.
 

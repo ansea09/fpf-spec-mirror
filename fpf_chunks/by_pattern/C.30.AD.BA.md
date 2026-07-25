@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.AD.BA.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
-line_start: 59728
-line_end: 59924
+line_start: 59431
+line_end: 59627
 dependencies:
   - "A.1"
   - "A.10"

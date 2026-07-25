@@ -6,12 +6,12 @@ section_id: "C.29:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__001_intro.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:intro — Intro"
-line_start: 57372
-line_end: 57395
+line_start: 57073
+line_end: 57098
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -77,7 +78,9 @@ keywords:
 
 **Primary EntityOfConcern.** C.29 concerns a declared mathematical-lens use for a stated phenomenon, EntityOfConcern, relation, claim, or structure-bearing situation. The use names the mathematical object, formalism, learned representation, simulation object, local formal role, or mathematical family; the mapping mode; the preserved structure; the lost structure; the visible payoff or obstruction; the declared lens use; the blocked overread; and the stop condition. FPF-governed wording, pattern examples, method notes, review records, `PublicationUnit`s, decision-facing text, comparison-facing text, bridge-facing text, and assurance-input text can contain or cite that use, but they are not the primary EntityOfConcern of C.29.
 
-**Slot discipline.** C.29 uses `CandidateMathObject` for the mathematical object, formalism, learned representation, simulation object, local formal role, or family in a declared mathematical-lens-use relation. `U.Signature(profile=FormalSubstrate)` in `A.6.0` is a different relation position: it declares vocabulary, laws, imports, and applicability for a formal-deductive profile. `A.6.1` governs mechanism import or realization when that `U.Signature(profile=FormalSubstrate)` declaration is used in a mechanism; `E.18.1` governs P2W carry-through when accepted problem-side material needs that formal declaration for later work. The same mathematical object may appear in several of these positions, but the governing pattern is selected by relation position and claim being made, not by a source-local head word.
+**Object designation, declaration, and representation discipline.** `CandidateMathObject` is the C.29-local field or designation for the mathematical object selected in one declared mathematical-lens-use claim or note; that object retains its direct kind. The field identifies the selected object for the mathematical representation, explicit correspondence, and preserved/lost-structure account; it does not assert a world-side participant meaning, participation, or use relation. `U.Signature(profile=FormalSubstrate)` in `A.6.0` is a separate formal-declaration episteme use: it declares vocabulary, laws, imports, and applicability and is neither the `CandidateMathObject` designation nor a position in the selected representation. A direct use relation may be asserted only after a separate direct relation settlement supplies its participant meanings, obtaining predicate, applicability, and identity rule. `A.6.1` governs mechanism import or realization when that exact declaration is used in a mechanism; `E.18.1` governs P2W carry-through when accepted problem-side material needs the declaration for later work. The same mathematical object may be designated in several epistemes or uses, but the governing pattern is selected by the exact governed object and claim, not by a source-local head word.
+
+**Relation-ontology boundary.** A formula, query, path, graph, diagram, name, assertion, or definition can represent or state a claim or derivation; it does not make a relation obtain, admit a relation kind, or supply occurrence identity. `A.6.P`, `A.6.RCD`, and the direct subject settlement decide those questions first. C.29 owns only the selected representation, its explicit correspondence, and the preserved and lost structure.
 
 **Output boundary.** C.29 outputs are lens-use notes, one-line entries, mini-cards, full cards, and neighboring-pattern notes. They state which declared mathematical-lens use is bounded as usable, what remains blocked, and which neighboring FPF pattern governs any non-lens claim being made. Project approval, work, evidence, assurance, decision, or release use must be recorded through the governing pattern for that use.
 

@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution"
-line_start: 36412
-line_end: 36462
+line_start: 36086
+line_end: 36136
 dependencies:
   - "A.1"
   - "A.10"

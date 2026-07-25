@@ -6,12 +6,12 @@ section_id: "B.2.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__005_forces.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:3 — Forces"
-line_start: 37177
-line_end: 37186
+line_start: 36851
+line_end: 36860
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.17:20"
 section_title: "Conformance Checklist (pattern‑level, normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__023_conformance-checklist-pattern-level-normative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:20 — Conformance Checklist (pattern‑level, normative)"
-line_start: 48638
-line_end: 48677
+line_start: 48339
+line_end: 48378
 dependencies:
   - "A.1"
   - "A.10"

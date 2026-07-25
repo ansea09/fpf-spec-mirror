@@ -6,12 +6,12 @@ section_id: "F.13:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 91468
-line_end: 91485
+line_start: 91229
+line_end: 91246
 dependencies:
   - "F.1"
   - "F.10"

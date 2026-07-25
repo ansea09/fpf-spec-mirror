@@ -6,20 +6,25 @@ section_id: "A.6.F:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__004_forces.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:3 — Forces"
-line_start: 17710
-line_end: 17720
+line_start: 17351
+line_end: 17361
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.2"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.5"
   - "A.6.8"
@@ -28,12 +33,14 @@ dependencies:
   - "A.6.C"
   - "A.6.M"
   - "A.6.P"
+  - "A.6.REL"
   - "A.6.RSIR"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -43,29 +50,32 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.18"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "G.6"
-  - "U.Function"
 keywords:
   - "FunctionalStructure"
-  - "capability/effect"
+  - "actual transformation"
+  - "capability"
+  - "episteme/publication boundary"
   - "function wording"
-  - "function-use repair"
   - "functional architecture"
   - "mathematical function"
+  - "method-description membership"
   - "module allocation"
-  - "work/method boundary"
+  - "required behavior or effect"
+  - "work"
 ---
 
 ### A.6.F:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Familiar engineering speech vs kind precision | Engineers naturally say "function", "functional", and "functionality"; FPF needs the FPF kind named by value, relation, claim record, view, or governing-pattern application recoverable when the phrase carries an FPF claim being made. |
+| Familiar engineering speech vs object and claim precision | Engineers naturally say "function", "functional", and "functionality"; when the phrase carries an FPF claim, the exact governed entity, value, claim, or claim-bearing episteme and its direct owner must be recoverable. |
 | Functional architecture vs peer ontology | Functional architecture is useful, but it is the `FunctionalStructure` case of `ArchitectureOf@Context`, not a separate root architecture kind. |
-| Capability or effect vs work or method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are different FPF kinds named by value, relations, and claim records. |
+| Capability or effect vs work or method | A function-like phrase may describe what a holon can do, what a method prescribes, or what work has done; those are separately governed values, claims, epistemes, and, where applicable, direct relations. |
 | Mathematical function vs design relation | Mathematical functions and relations can be used for reasoning, but C.29 governs their lens use and stop condition. |
 | Module allocation vs functional relation | Functional dependencies may be allocated to modules, but function and module-interface structure do not become one FPF kind. |
-| Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need recovery of value kind, relation record, slot reference, view record, or governing pattern plus a stop condition, not a full architecture, evidence, quality, or decision claim apparatus. |
+| Small repair vs unneeded evidence, quality, decision, or assurance apparatus | Most cases need the exact governed object or claim, its direct owner, and a stop condition. Add direct-relation participants, reusable declaration, selected claim-bearing episteme, or representation correspondence only when the current use needs that object. |
 

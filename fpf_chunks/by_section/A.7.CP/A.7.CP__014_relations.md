@@ -6,12 +6,12 @@ section_id: "A.7.CP:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__014_relations.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:12 — Relations"
-line_start: 22502
-line_end: 22509
+line_start: 22176
+line_end: 22183
 dependencies:
   - "A.7"
   - "A.7.1"

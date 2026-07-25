@@ -6,12 +6,12 @@ section_id: "C.22:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__001_intro.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:intro — Intro"
-line_start: 50231
-line_end: 50244
+line_start: 49932
+line_end: 49945
 dependencies:
   - "A.6.0"
   - "C.16"

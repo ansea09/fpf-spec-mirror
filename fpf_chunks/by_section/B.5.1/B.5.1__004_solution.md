@@ -6,12 +6,12 @@ section_id: "B.5.1:3"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__004_solution.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:3 — Solution"
-line_start: 39688
-line_end: 39711
+line_start: 39362
+line_end: 39385
 dependencies:
   - "B.5"
 keywords:

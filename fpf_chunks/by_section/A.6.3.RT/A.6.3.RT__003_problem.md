@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__003_problem.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:2 — Problem"
-line_start: 13565
-line_end: 13573
+line_start: 13523
+line_end: 13531
 dependencies:
   - "A.10"
   - "A.15"

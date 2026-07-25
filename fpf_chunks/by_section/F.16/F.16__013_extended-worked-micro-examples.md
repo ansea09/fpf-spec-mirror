@@ -6,12 +6,12 @@ section_id: "F.16:12"
 section_title: "Extended worked micro‑examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__013_extended-worked-micro-examples.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:12 — Extended worked micro‑examples"
-line_start: 92422
-line_end: 92463
+line_start: 92183
+line_end: 92224
 dependencies:
   - "A.15"
   - "A.3"

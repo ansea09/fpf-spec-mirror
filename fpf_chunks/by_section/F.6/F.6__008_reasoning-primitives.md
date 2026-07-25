@@ -6,12 +6,12 @@ section_id: "F.6:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__008_reasoning-primitives.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:6 — Reasoning Primitives"
-line_start: 88726
-line_end: 88746
+line_start: 88487
+line_end: 88507
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,8 +46,8 @@ keywords:
 ### F.6:6 - Reasoning Primitives
 
 ```text
-RoleAssignment RA obtains
-  and U.Work W obtains
+RA : U.RoleAssignment is one exact obtaining assignment-relation occurrence
+  and W : U.Work is one exact dated Work occurrence
   and RA.HolderSystemSlot actually performs W under RA.RoleValueSlot
   and the assignment predicate for RA obtains throughout the attributed work interval
   -> performedUnderAssignment(W, RA) obtains.

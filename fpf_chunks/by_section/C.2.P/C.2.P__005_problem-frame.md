@@ -6,12 +6,12 @@ section_id: "C.2.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__005_problem-frame.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:1 — Problem frame"
-line_start: 41233
-line_end: 41251
+line_start: 40907
+line_end: 40925
 dependencies:
   - "A.10"
   - "A.15"

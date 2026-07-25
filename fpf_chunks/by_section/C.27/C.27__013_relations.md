@@ -6,12 +6,12 @@ section_id: "C.27:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__013_relations.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:12 — Relations"
-line_start: 56113
-line_end: 56230
+line_start: 55814
+line_end: 55931
 dependencies:
   - "A.10"
   - "A.3.3"

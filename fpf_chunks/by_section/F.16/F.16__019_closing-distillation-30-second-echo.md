@@ -6,12 +6,12 @@ section_id: "F.16:18"
 section_title: "Closing distillation (30‑second echo)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__019_closing-distillation-30-second-echo.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:18 — Closing distillation (30‑second echo)"
-line_start: 92551
-line_end: 92554
+line_start: 92312
+line_end: 92315
 dependencies:
   - "A.15"
   - "A.3"

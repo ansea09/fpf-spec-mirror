@@ -6,12 +6,12 @@ section_id: "B.5.2.1:6"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__008_conformance-checklist-normative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:6 — Conformance Checklist (normative)"
-line_start: 40345
-line_end: 40360
+line_start: 40019
+line_end: 40034
 dependencies:
   - "A.17"
   - "A.18"

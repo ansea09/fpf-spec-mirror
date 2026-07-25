@@ -6,12 +6,12 @@ section_id: "E.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__004_forces.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:3 — Forces"
-line_start: 76660
-line_end: 76668
+line_start: 76401
+line_end: 76409
 dependencies:
   - "A.10"
   - "B.3"

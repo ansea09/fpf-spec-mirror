@@ -6,12 +6,12 @@ section_id: "A.19.USCM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__012_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:10 — Rationale"
-line_start: 32078
-line_end: 32088
+line_start: 31752
+line_end: 31762
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

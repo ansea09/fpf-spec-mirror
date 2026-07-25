@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__006_solution-the-clarity-lattice-normative-distinctions-safe-vocabulary.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
-line_start: 21565
-line_end: 21768
+line_start: 21239
+line_end: 21442
 dependencies:
   - "A.1"
   - "A.10"

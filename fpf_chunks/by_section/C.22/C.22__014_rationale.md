@@ -6,12 +6,12 @@ section_id: "C.22:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__014_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:12 — Rationale"
-line_start: 50573
-line_end: 50576
+line_start: 50274
+line_end: 50277
 dependencies:
   - "A.6.0"
   - "C.16"

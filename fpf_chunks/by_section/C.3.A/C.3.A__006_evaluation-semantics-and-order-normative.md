@@ -6,12 +6,12 @@ section_id: "C.3.A:5"
 section_title: "Evaluation semantics and order (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__006_evaluation-semantics-and-order-normative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:5 — Evaluation semantics and order (normative)"
-line_start: 45328
-line_end: 45341
+line_start: 45029
+line_end: 45042
 dependencies:
   - "A.15"
   - "A.15.1"

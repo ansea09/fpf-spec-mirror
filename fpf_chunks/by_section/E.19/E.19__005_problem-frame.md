@@ -6,12 +6,12 @@ section_id: "E.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__005_problem-frame.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:1 — Problem frame"
-line_start: 82809
-line_end: 82818
+line_start: 82550
+line_end: 82559
 dependencies:
   - "A.15.1"
   - "A.6.P"

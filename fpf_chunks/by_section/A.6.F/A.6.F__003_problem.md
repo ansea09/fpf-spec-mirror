@@ -6,20 +6,25 @@ section_id: "A.6.F:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__003_problem.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:2 — Problem"
-line_start: 17694
-line_end: 17709
+line_start: 17335
+line_end: 17350
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.17"
   - "A.18"
   - "A.2"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.5"
   - "A.6.8"
@@ -28,12 +33,14 @@ dependencies:
   - "A.6.C"
   - "A.6.M"
   - "A.6.P"
+  - "A.6.REL"
   - "A.6.RSIR"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
   - "C.16.Q"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.29"
@@ -43,19 +50,22 @@ dependencies:
   - "E.10"
   - "E.10.ARCH"
   - "E.18"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "G.6"
-  - "U.Function"
 keywords:
   - "FunctionalStructure"
-  - "capability/effect"
+  - "actual transformation"
+  - "capability"
+  - "episteme/publication boundary"
   - "function wording"
-  - "function-use repair"
   - "functional architecture"
   - "mathematical function"
+  - "method-description membership"
   - "module allocation"
-  - "work/method boundary"
+  - "required behavior or effect"
+  - "work"
 ---
 
 ### A.6.F:2 - Problem
@@ -72,5 +82,5 @@ FPF texts repeatedly use function-like wording for different FPF kinds and relat
 - module allocation or interface relation;
 - functional architecture shorthand.
 
-These uses are all legitimate in ordinary engineering speech. They are not the same FPF kind. If the text does not recover the FPF value kind, relation record, slot reference, view record, or governing pattern named by value, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision claim.
+These uses are all legitimate in ordinary engineering speech. They are not the same FPF object or claim. If the text does not name the exact governed entity, value, claim, or claim-bearing episteme and its direct owner, subsequent reasoning cannot tell whether the sentence is about architecture, behavior, work, role, mathematics, module structure, quality, evidence, or decision. When a separate direct relation, reusable declaration, assertion or specification, selected view, or representation is current, identify it as that separate object.
 

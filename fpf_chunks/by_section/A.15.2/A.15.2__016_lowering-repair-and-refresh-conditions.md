@@ -6,12 +6,12 @@ section_id: "A.15.2:10"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__016_lowering-repair-and-refresh-conditions.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:10 — Lowering, repair, and refresh conditions"
-line_start: 25306
-line_end: 25315
+line_start: 24980
+line_end: 24989
 dependencies:
   - "A.10"
   - "A.15"

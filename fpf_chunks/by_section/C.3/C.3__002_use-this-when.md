@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 44075
-line_end: 44088
+line_start: 43776
+line_end: 43789
 dependencies:
   - "A.1"
   - "A.11"

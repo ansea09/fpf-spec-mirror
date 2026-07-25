@@ -6,12 +6,12 @@ section_id: "A.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__001_intro.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:intro — Intro"
-line_start: 3847
-line_end: 3852
+line_start: 3805
+line_end: 3810
 dependencies:
   - "A.15"
   - "A.2.1"

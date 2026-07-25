@@ -6,12 +6,12 @@ section_id: "C.29:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__011_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:9 — Conformance Checklist"
-line_start: 58287
-line_end: 58324
+line_start: 57990
+line_end: 58027
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -25,6 +25,7 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.P"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -77,7 +78,7 @@ keywords:
 | `CC-C29-1 Output class selected before full card` | Select no-C.29-output-needed, one-line, mini-card, full-card, or `NeighborGoverningPatternNote` output before presenting full-card fields. | Prevents card-before-problem bureaucracy. |
 | `CC-C29-2 Named mathematical object` | A mathematical phrase affecting explanation, decision, prediction, publication, comparison, assurance input, bridge, or reusable transfer names a concrete `CandidateMathObject`, not a prestige family label. | Blocks prestige vocabulary. |
 | `CC-C29-2a Intervention preservation` | If `LensMappingMode` is abstraction, quotient, coarse-graining, macro-model, or simulation and causal use is being claimed, state whether intervention and counterfactual structure is preserved, approximated, or not claimed, then apply `C.28` for causal-use question and verdict. | Prevents causal abstraction laundering. |
-| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` `RelationKind`, or domain ontology. If bridge semantics are being claimed, apply `F.9`. | Prevents hidden bridge, relation-kind, or ontology conversions. |
+| `CC-C29-3 Lens mapping mode` | State the `C.29`-local lens mapping mode and do not use it as `F.9` BridgeKind, `A.6.P` relation kind, or `A.6.RCD` derivation/admission result. Formula, query, path, graph, diagram, assertion, and definition remain representation or claim-side objects; if bridge semantics are claimed, apply `F.9`. | Prevents hidden bridge, relation-kind, occurrence-identity, or ontology conversions. |
 | `CC-C29-4 Preserved structure` | State what structure the lens preserves. | Makes transfer testable. |
 | `CC-C29-5 Lost structure` | State what does not transfer; if nothing is lost, justify an equivalence or isomorphism claim through the governing pattern. | Prevents map-territory collapse. |
 | `CC-C29-6 Invariants exposed` | Name invariants, obstructions, fixed points, symmetries, conservation laws, dualities, distinctions, or diagnostic boundaries. | Makes the lens usefulness visible. |
@@ -103,5 +104,5 @@ keywords:
 | `CC-C29-18 Plain and Tech balance` | A Plain sentence can remain when it aids recognition; if it makes ontology, evidence, causal, assurance, bridge, gate, work, decision, or use-boundary commitment, that commitment is recovered through the Tech fields or neighboring pattern. | Preserves didactic usefulness without shadow semantics. |
 | `CC-C29-19 Non-use and false-positive bank` | The pattern includes non-use examples for ordinary local domain equations, local graph data structures, A.19 overlays, local category proofs, and one-off metaphors. | Prevents C.29-everywhere. |
 | `CC-C29-20 Repair matrix` | Failed checks map to repair outputs: downgrade, narrow, add loss, add evidence, choose rival lens, apply neighbor, or block overread. | Keeps C.29 as a repair pattern. |
-| `CC-C29-21 Validation harness` | Stable-pattern review requires the small harness cases in §8.1 or an accepted equivalent validation record. | Makes repeated validation visible without turning the harness into a benchmark mandate. |
+| `CC-C29-21 Validation harness` | Stable-pattern review requires the small harness cases in §11a or an accepted equivalent validation record. | Makes repeated validation visible without turning the harness into a benchmark mandate. |
 

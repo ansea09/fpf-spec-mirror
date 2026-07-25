@@ -6,23 +6,26 @@ section_id: "E.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__005_forces.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:3 — Forces"
-line_start: 72806
-line_end: 72814
+line_start: 72527
+line_end: 72535
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.2"
   - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
+  - "A.3.2"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.6"
   - "A.6.P"
   - "A.6.P.WMR"
   - "A.6.RCD"
@@ -31,6 +34,7 @@ dependencies:
   - "B.3"
   - "C.2.1"
   - "C.2.P"
+  - "C.29"
   - "E.10.ARCH"
   - "E.10.MOVE"
   - "E.17"
@@ -49,7 +53,7 @@ keywords:
 | Force                          | Tension to resolve                                                                         |
 | ------------------------------ | ------------------------------------------------------------------------------------------ |
 | **Universality and local fit** | Kernel stays universal while allowing domain nuance in a Context of meaning.              |
-| **Brevity and clarity**        | Short names help, but only if morphology signals the right kernel slot.                    |
+| **Brevity and clarity**        | Short names help, but only if morphology signals the right governed kind.                 |
 | **Stability and evolution**    | Names should survive refactors while accommodating new roles and kinds without explosion. |
 | **Pedagogy and precision**     | Plain words aid learners; Tech labels anchor formal checks.                                |
 

@@ -6,12 +6,12 @@ section_id: "E.6:4"
 section_title: "Solution — “On‑Ramp to Archetypes first, Authoring last” sequence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__005_solution-on-ramp-to-archetypes-first-authoring-last-sequence.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:4 — Solution — “On‑Ramp to Archetypes first, Authoring last” sequence"
-line_start: 70225
-line_end: 70260
+line_start: 69928
+line_end: 69963
 dependencies:
   - "E.2"
 keywords:

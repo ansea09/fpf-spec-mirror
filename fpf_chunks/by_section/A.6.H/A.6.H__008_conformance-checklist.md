@@ -6,12 +6,12 @@ section_id: "A.6.H:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__008_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:7 — Conformance Checklist"
-line_start: 21441
-line_end: 21457
+line_start: 21115
+line_end: 21131
 dependencies:
   - "A.14"
   - "A.15"

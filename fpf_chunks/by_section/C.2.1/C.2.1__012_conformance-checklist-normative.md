@@ -6,12 +6,12 @@ section_id: "C.2.1:11"
 section_title: "Conformance Checklist  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__012_conformance-checklist-normative.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:11 — Conformance Checklist  (normative)"
-line_start: 41091
-line_end: 41108
+line_start: 40765
+line_end: 40782
 dependencies:
   - "A.1"
   - "A.1.1"

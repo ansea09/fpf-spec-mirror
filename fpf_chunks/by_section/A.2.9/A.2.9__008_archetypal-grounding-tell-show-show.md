@@ -6,12 +6,12 @@ section_id: "A.2.9:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 6287
-line_end: 6371
+line_start: 6245
+line_end: 6329
 dependencies:
   - "A.10"
   - "A.15.1"

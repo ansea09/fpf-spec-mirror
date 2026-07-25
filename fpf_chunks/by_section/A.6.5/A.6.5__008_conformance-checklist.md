@@ -6,12 +6,12 @@ section_id: "A.6.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__008_conformance-checklist.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:7 — Conformance Checklist"
-line_start: 18665
-line_end: 18687
+line_start: 18339
+line_end: 18361
 dependencies:
   - "A.15.3"
   - "A.6.0"

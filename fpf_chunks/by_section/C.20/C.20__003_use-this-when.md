@@ -6,12 +6,12 @@ section_id: "C.20:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__003_use-this-when.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:0 — Use This When"
-line_start: 49865
-line_end: 49878
+line_start: 49566
+line_end: 49579
 dependencies:
   - "A.19"
   - "C.2"

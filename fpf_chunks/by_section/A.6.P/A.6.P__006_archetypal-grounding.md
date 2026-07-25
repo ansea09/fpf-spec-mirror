@@ -1,0 +1,108 @@
+---
+chunk_kind: "child"
+pattern_id: "A.6.P"
+pattern_title: "Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+section_id: "A.6.P:5"
+section_title: "Archetypal Grounding"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
+heading_path:
+  - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
+  - "A.6.P:5 — Archetypal Grounding"
+line_start: 15258
+line_end: 15313
+dependencies:
+  - "A.10"
+  - "A.3.4"
+  - "A.6.0"
+  - "A.6.5"
+  - "A.6.6"
+  - "A.6.8"
+  - "A.6.9"
+  - "A.6.B"
+  - "A.6.H"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
+  - "A.6.RSIR"
+  - "C.2.1"
+  - "C.29"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "F.18"
+  - "F.9"
+keywords:
+  - "RelationSignature"
+  - "SlotSpec"
+  - "actual participants"
+  - "changed-object routing"
+  - "designation"
+  - "direct relation"
+  - "missing-governor"
+  - "obtaining condition"
+  - "occurrence identity"
+  - "participant meanings"
+  - "receiving-use gate"
+  - "representation"
+  - "under-specified relation-bearing claim"
+---
+
+### A.6.P:5 - Archetypal Grounding
+
+#### A.6.P:5.1 - Physical assembly and repeated occurrences
+
+**Tell.** A maintenance note says `replacement bearing is linked to Pump_P`.
+
+**Show.** Inspection finds that `Bearing_B` participates as the installed part and `Pump_P` as the assembly whole in the direct installed-part relation during `Interval_T`. Both remain physical holons of their independently governed kinds. `A.14` governs the parthood predicate and obtaining condition. The maintenance assertion names them directly. If no later claim distinguishes installation episodes, the repair stops at the readable sentence.
+
+**Show the identity-dependent use.** A reliability analysis compares the installed-part relation before removal with the relation after reinstallation. The same bearing and pump can participate in two occurrences. The analysis applies the direct identity rule and `A.6.REL`, exposes the two already obtaining occurrences, and designates them separately in its assertion. Maintenance database rows and diagram edges may represent the assertion or occurrence descriptions through explicit `C.29` correspondences; row or edge identity is not physical relation identity.
+
+When repeated maintenance assertions need one typed declaration, an `InstalledPartRelationSignature` may contain declaration-local `InstalledPartSlot` and `AssemblyWholeSlot` `SlotSpec`s corresponding to the two participant meanings. Those declaration components type the assertions' participant designations. They are not world-side places occupied by the bearing and pump.
+
+Installation work constitutes the beginning of another installed-part occurrence only when the direct parthood identity rule says that it does. Creating or updating the maintenance row is representation work and is not an ontological constructor. The material character of the installed-part relation also does not by itself introduce a separate relator; the direct parthood ontology would have to identify and justify any constitutive truth-maker.
+
+#### A.6.P:5.2 - Clinical evidence use and negative reliance
+
+**Tell.** A care note says `the measurement supports the dose change`.
+
+**Show.** The repair distinguishes the measurement work occurrence, its measurement-result episteme, the work-plan claim, the measured characteristic, the applicable range, and the exact evidence relation. `C.16` governs measurement construction and applicability; `A.10` governs whether that episteme bears on the named dose-change claim for this use. The broad predicate is not replaced by a universal support relation.
+
+**Show the boundary.** If current evidence refutes the dose-change assertion or leaves reliance unresolved, the receiving evaluation records that posture. It does not create a negative world-side measurement, treatment, or evidence occurrence. A fresh publication of the same measurement-result episteme changes availability, not the measured condition or evidence relation by itself.
+
+#### A.6.P:5.3 - Episteme correspondence and representation
+
+**Tell.** Two teams say `the models are aligned`, and one tool draws an edge between their model nodes.
+
+**Show — models.** Model epistemes `DesignModel_E` and `MaintenanceModel_E` have `EntityOfConcern` `PumpAssembly_P204` and effective reference schemes `CAD-Part-Scheme-v7` and `Asset-Register-Scheme-2026Q2`, respectively. `AlignmentEdge_17` joins nodes labelled `BRG-6204` and `bearing-4471`.
+
+**Structure decision.** No established model-use structure changes either label's reading or whether replacement approval may use the pairing. Add no `BoundedModelUseStructure`; a diagram boundary is not evidence.
+
+**Needed sentence.** `For bearing-replacement planning on PumpAssembly_P204, CAD-Part-Scheme-v7 label BRG-6204 and Asset-Register-Scheme-2026Q2 label bearing-4471 denote the same installed bearing.` This is a candidate claim, not yet a fact.
+
+**Edge boundary.** Under `C.29`, `AlignmentEdge_17` represents that sentence. It does not make the sentence true, prove one referent, or identify a Bridge occurrence.
+
+**Adjacent reading.** Record `ninety-seven percent of endpoint pairs passed the mapping test` with `C.16`. If approval relies on that measurement, `A.10` governs the evidence relation. The percentage does not establish the needed sentence.
+
+**Result.** `A.6.RCD missing-governor`: bearing-replacement approval is blocked; participants are `BRG-6204` and `bearing-4471`; the needed sentence is above; the edge remains a representation. No current direct correspondence or Bridge pattern states when the cross-scheme claim holds. A future direct pattern must state its predicate, conditions, and, if occurrences must be distinguished, identity rule. Until then, do not assert `the models are aligned` or mint a Bridge from the edge or a Card.
+
+**Show the boundary.** The graph edge and its endpoint positions remain representation elements. An explicit `C.29` correspondence states which assertion content, participants, and direct relation the edge represents. The edge does not make the correspondence obtain, prove same EntityOfConcern, or individuate a relation occurrence. Shared labels likewise establish neither same world-side referent nor substitutability.
+
+When the claim is that both model epistemes concern the same world-side holon, recover each episteme's exact EntityOfConcern or grounding designation plus the observations, trajectory, or identity evidence governed for that holon. A Bridge preserves stated correspondences and losses; it does not prove the common world-side referent.
+
+**Show the viewpoint-conformance use.** A review must decide whether model episteme `E` conforms to maintenance viewpoint episteme `P`. Identify `E` from its claim content, EntityOfConcern, and effective reference scheme, and resolve `P` as one claim-bearing viewpoint edition before reading a diagram, field, or reference as ontology. Then apply the direct predicate governed by `E.17.0`: `EpistemeViewpointConformanceRelation(E,P)`. Plainly, `E` conforms to this exact viewpoint.
+
+For unchanged `E` and `P`, the pair `<E,P>` determines one positive occurrence. Selecting `P` for this review is a separate use qualification: selection neither makes conformance obtain nor enters occurrence identity. If another review selects `P2`, test `<E,P2>` instead of retagging `E`. A `viewpointRef` or diagram label does not identify either participant by itself. A query, transformation, or projection may supply construction history for `E`, but neither that history nor an assertion, evaluation, representation, or publication makes conformance obtain.
+
+Add an occurrence designator only if the next decision must distinguish two conformance occurrences. Add an evaluation result or evidence path only if the reader must rely on the conformance verdict. Add construction history only if the task asks how `E` was produced; add a representation or publication only if another reader must inspect or receive it; add associated Work only if the task asks who performed which activity. Otherwise add none of these objects. A.6.P stops after recovering `E`, `P`, and the direct relation; `E.17.0` governs the predicate and, if the use separately asks whether an episteme is a `U.View`, that recognition.
+
+#### A.6.P:5.4 - Method, work, role, and agency
+
+The sentence `the inspection method checks Pump_P` uses active grammar. The repaired ontology says: one exact `RA : U.RoleAssignment` obtains under `A.2.1` with four actual participants—admitted `System_S` as holder, `InspectorRole`, `InspectorRoles_2026 : U.Episteme` as the role-taxonomy episteme, and `InspectionReferenceScheme : U.ReferenceScheme` as the effective scheme. `F.6` then states that `System_S` performed `InspectionWork_W` under `RA` (`performedUnderAssignment(InspectionWork_W, RA)`); `InspectionWork_W` applies `InspectionMethod_M`; and the direct examination relation connects the work occurrence to `Pump_P`. The example names the assignment participants but does not duplicate its interval or full assignment card. Each object keeps the identity and relations of its direct pattern. Only the holder system acts; the assignment does not.
+
+#### A.6.P:5.5 - Formal reduced case
+
+`3 < 5` is assertion content in mathematical notation. The numeral occurrences, comparison sign, and operand places are representation elements under `C.29`. An explicit correspondence can relate them to the values, direct less-than predicate, and any compatible declaration used for typed reuse. No receiving use here distinguishes one obtaining occurrence from another, so the engineer stops at the assertion. A graph edge, tuple, or statement reifier introduced by a tool represents the proposition or assertion; it does not constitute the direct relation.
+

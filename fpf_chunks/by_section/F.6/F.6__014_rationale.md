@@ -6,12 +6,12 @@ section_id: "F.6:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__014_rationale.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:12 — Rationale"
-line_start: 88828
-line_end: 88833
+line_start: 88589
+line_end: 88594
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -45,7 +45,7 @@ keywords:
 
 ### F.6:12 - Rationale
 
-The direct relation is needed because `U.RoleAssignment` and `U.Work` answer different questions. The assignment says who holds which role under which interpretation and during which episode. The work occurrence says what happened. `performedUnderAssignment` says that this work was performed under that assignment.
+The direct relation is needed because `U.RoleAssignment` and `U.Work` admit different kinds of world-side occurrence. One obtaining assignment occurrence `RA` relates its holder System to a role value under one interpretation and throughout one episode; one Work individual `W : U.Work` is the dated Work occurrence. `performedUnderAssignment(W, RA)` either obtains or does not obtain as the additional world-side attribution between them. A distinct assertion or record may designate `RA` and `W`, state that `RA` obtains, state that `W` occurred, or state that the attribution relation obtains.
 
 Making a log, status, decision, or evidence item a relation participant would confuse world-side attribution with knowledge of attribution. Creating `RoleEnactmentFact` would duplicate the same pair under a second identity. The two-participant relation preserves realism and keeps correction local: changing an evidence use does not rewrite work or assignment; discovering a different performer changes the attribution assertion and, when demonstrated, the selected relation occurrence.
 

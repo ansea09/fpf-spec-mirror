@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 88610
-line_end: 88712
+line_start: 88371
+line_end: 88473
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -89,7 +89,7 @@ An evidence gap leaves a relied-on attribution assertion unresolved. It does not
 
 #### F.6:4.3 - Recover the Exact Assignment
 
-Before relying on the attribution, recover the four direct participants of the referenced generic assignment:
+Before relying on the attribution, recover the four direct participants of the exact assignment occurrence `RA` that fills `RoleAssignmentSlot`:
 
 ```text
 RoleAssignmentRelationSignature:

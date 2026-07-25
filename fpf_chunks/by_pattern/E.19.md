@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.19.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
-line_start: 82779
-line_end: 83523
+line_start: 82520
+line_end: 83264
 dependencies:
   - "A.15.1"
   - "A.6.P"

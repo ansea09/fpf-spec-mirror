@@ -1,62 +1,75 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - Contextual Work-Role Assignment"
+pattern_title: "U.RoleAssignment - System Role Assignment"
 section_id: "A.2.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__002_use-this-when.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
+  - "A.2.1 — U.RoleAssignment - System Role Assignment"
   - "A.2.1:0 — Use This When"
 line_start: 2352
 line_end: 2385
 dependencies:
+  - "A.1.1"
   - "A.15"
+  - "A.15.1"
   - "A.2"
-  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.5"
+  - "A.6.9"
+  - "A.6.REL"
+  - "C.2.1"
+  - "F.6"
+  - "F.9"
+  - "U.Role"
 keywords:
-  - "RCS/RSG"
-  - "RoleEnactmentFact"
-  - "Standard"
-  - "context"
-  - "holder"
-  - "performedBy"
-  - "role"
+  - "AssignmentInterval"
+  - "assignment occurrence"
+  - "effective ReferenceScheme"
+  - "holder System"
+  - "performedUnderAssignment"
+  - "role value"
+  - "role-taxonomy episteme"
 ---
 
 ### A.2.1:0 - Use This When
 
-**Plain name.** Work-role assignment.
+**Plain name.** System role assignment.
 
-Use this pattern when a project must say which admitted `U.System` holder, such as a system, organization-as-system, person, team, service, agent, device, motor, pump, or component, holds which enactment-facing `U.Role` in which bounded context, and when that assignment is current enough to satisfy a method role-admission condition, check role state, plan or attribute work, transformation participation, or functioning.
+Use this pattern when another claim must rely on which admitted `U.System` holds which enactment-facing `U.Role`, under which role vocabulary and interpretation scheme, during which assignment window.
 
 Typical moments:
 
-- a work record says that "Alice reviewed", "Robot-7 inspected", "CI bot deployed", "Motor-M1 drove Pump-A", or "the operations team approved" and the role, holder, bounded context, or assignment window is missing;
-- a method or method description names role-admission conditions, but the project has not linked those roles to concrete performers;
-- a role state, capability-fit condition, separation-of-duties rule, or work gate depends on who holds the role now;
-- a source phrase gives an episteme an "evidence role", "standard role", "status role", or "requirement role" and the text must be normalized without making epistemes into work performers;
-- a local notation such as `Holder#Role:Context@Window` is useful, but the notation must not replace the typed relation it abbreviates.
+- a method description names `InspectorRole`, but the current holder and assignment window are still unstated;
+- a performed-work attribution is needed: one exact dated Work occurrence `W` and one exact assignment `RA` participate in `performedUnderAssignment(W, RA)`, the direct relation governed by `F.6`; the actual performer is the admitted holder System `S = RA.HolderSystemSlot`, and a separate assertion may designate `W` and `RA`;
+- the same system receives the same role during two separate assignment episodes;
+- a DDD-style model-use organization changes the interpretation of an otherwise identical role assignment;
+- a constituting decision or installation relation may establish a specialized assignment occurrence;
+- a roster entry, configuration line, observation, or evidence relation may support an assignment claim without becoming an assignment slot.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.RoleAssignment`: a typed assignment relation value for enactment-facing roles. It links an admitted system holder, a `U.Role`, a `U.BoundedContext`, and any assignment-currentness window or assignment source that is current for the claim. The holder may be a person, team, organization, service, device, motor, pump, component, organism, or other `U.System`; role holding does not imply human agency or responsibility unless a neighboring pattern makes that stronger claim current.
+**Primary EntityOfConcern.** The EntityOfConcern is one obtaining `U.RoleAssignment` relation occurrence. Its four required actual participants are an admitted `U.System` holder, one `U.Role` value, the role-taxonomy episteme, and the effective `U.ReferenceScheme` under which that value is interpreted. The occurrence has a maximal continuous temporal extent determined by uninterrupted obtaining; an assignment assertion or occurrence description may state the currently known extent as an `AssignmentInterval`.
 
-**Primary working reader.** The first reader is an engineer-manager, analyst, or FPF author who needs work attribution, role admission, role-state checks, method role-admission conditions, or responsibility language to remain inspectable across contexts and editions.
+**Primary working reader.** The first reader is an engineer-manager, analyst, method author, or FPF author who must make role admission or work attribution inspectable without turning role, capability, method, performed work, evidence, or publication into one assignment relation occurrence.
 
-**First useful move.** Recover the four core slots of the assignment relation: holder, role value, bounded context, and assignment window when current. Then recover any direct work-role qualifier, role-state admission, capability-fit condition, method role-admission condition, work-plan relation, or work occurrence through its governing pattern.
+**First useful move.** Write a readable assignment assertion naming the four required participants and the assignment episode being claimed. State the currently known temporal extent separately. Explicitly individuate the relation occurrence only when a receiving claim must distinguish this assignment episode from another rather than merely recognize that the direct relation obtains.
 
-**What goes wrong if missed.** Role labels float without holders or contexts. A method appears to have been enacted by a document. A work record names a person but not the role under which the work was admitted. A report or standard is treated as if it held a role because it is used as evidence or requirement source. The corpus then grows one role ontology for work and a second role ontology for epistemes.
+**What goes wrong if missed.** A role label is mistaken for an assignment, repeated episodes collapse into one timeless relation, or a database row is treated as what makes the assignment obtain. Work may then be attributed to the wrong holder or assignment episode, while evidence, capability, and method claims become hidden fields of the assignment.
 
-**What this buys.** `U.RoleAssignment` gives one narrow relation for holder-in-role admission. It keeps role values reusable, method role-admission conditions checkable, work attribution replayable, and episteme evidence or status uses outside the role-assignment relation.
+**What this buys.** Assignment identity becomes stable enough for method admission, role-state checking, and work attribution while ordinary prose remains lightweight. The assignment relation has one exact identity rule; all support, decision, capability, method, work, evidence, and publication claims keep their direct governing patterns.
 
 **Not this pattern when.**
 
-- If the current claim is the role value itself, role taxonomy, or role relation-neighborhood, use `A.2`.
-- If the current claim is ability or operating envelope, use `A.2.2`.
-- If the current claim is role state, role-state predicate, or enactable-state admission, use `A.2.5`.
-- If the current claim is role-admission substitution, incompatibility, qualification, or role bundle, use `A.2.7`.
-- If the current claim is method, method description, work plan, performed work, or role-method-work alignment, use `A.15` and the direct A.15 subpattern.
-- If the current claim is evidence, source, standard, requirement, definition, explanation, publication, status, assurance, gate, or decision use of an episteme, use the direct pattern for that relation. Do not make the episteme a `U.RoleAssignment` holder.
-- If "role" means a relation position, use `A.6.5` SlotSpec discipline.
+- Use `A.2` for role-value interpretation and the role taxonomy itself.
+- Use `A.2.2` for holder capability, `A.2.5` for role state, and `A.2.7` for selected relations among role values.
+- Use `A.3.1`, `A.3.2`, and `A.15` for method and role-admission conditions.
+- Use `A.15.1` and `F.6` for performed work and its attribution through an assignment.
+- Use the direct decision, responsibility, commitment, evidence, reliance, provenance, publication, external-rule, or currentness pattern when that relation is current.
+- Use `A.6.5` when an external relation notation labels a participant `role` and the current task is to recover its exact SlotKind and ValueKind.
 

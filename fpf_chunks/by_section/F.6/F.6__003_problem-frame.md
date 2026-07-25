@@ -6,12 +6,12 @@ section_id: "F.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__003_problem-frame.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:1 — Problem Frame"
-line_start: 88581
-line_end: 88588
+line_start: 88342
+line_end: 88349
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -45,7 +45,7 @@ keywords:
 
 ### F.6:1 - Problem Frame
 
-`U.RoleAssignment` says that one admitted `U.System` holds one `U.Role`, interpreted through one role-taxonomy episteme and effective reference scheme, during one assignment episode. `U.Work` says that a dated occurrence happened. Neither statement alone says that this work was performed under this assignment.
+`U.RoleAssignment` admits assignment-relation occurrences; `U.Work` admits Work individuals. One exact `RA : U.RoleAssignment` is a world-side assignment-relation occurrence that relates an admitted holder System to one role value, one role-taxonomy episteme, and one effective reference scheme and obtains throughout one assignment episode. One exact `W : U.Work` is a dated world-side Work occurrence. The existence of `RA` and `W` does not by itself establish the additional world-side attribution between them: `performedUnderAssignment(W, RA)` must separately obtain. A distinct assertion or record may designate `RA` and `W`, state that `RA` obtains, state that `W` occurred, or state that the attribution relation obtains.
 
 F.6 governs the missing direct relation. The assignment is one participant and the work occurrence is the other. A roster row may assert the assignment; a work log may assert the work and attribution; evidence may support either assertion. Those epistemes help a system know or use the relation, but they do not become relation participants and do not make the world-side relation obtain merely by being recorded.
 

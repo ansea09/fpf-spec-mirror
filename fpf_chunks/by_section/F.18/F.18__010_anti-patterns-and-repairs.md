@@ -6,12 +6,12 @@ section_id: "F.18:8"
 section_title: "Anti-Patterns And Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__010_anti-patterns-and-repairs.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:8 — Anti-Patterns And Repairs"
-line_start: 93520
-line_end: 93533
+line_start: 93309
+line_end: 93322
 dependencies:
   - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -23,13 +23,13 @@ dependencies:
   - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.1"
   - "F.1-F.17"
   - "F.13"
   - "F.14"
   - "F.15"
-  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -49,9 +49,9 @@ keywords:
 | "Evidence role" for a report, source, or standard. | Turns an episteme or source-use relation into a work-facing role. | Recover evidence-use, source-use, status-use, publication-use, or assurance-use relation. |
 | "Night operator role" when only schedule differs. | Bakes temporal admission into role identity. | Keep role value; put time window in assignment, status, or work plan. |
 | "Certified engineer role" when certification is evidence or admission. | Bakes capability evidence or admission into role name. | Keep `EngineerRole`; record capability evidence, admission, or status relation separately. |
-| "Role-derived method" treated as a role-relation result. | Confuses role expression with method identity. | Name method or method family under `A.3.1` and `A.3.2`; cite role requirement separately. |
+| "Role-derived method" treated as a role-relation result. | Confuses role expression with method identity. | Name the method or method family under `A.3.1`. If a separately identified `U.MethodDescription` episteme is current, name it separately under `A.3.2` only when its exact `EntityOfConcern` is that Method; cite the role requirement separately. |
 | "Method algebra" treated as the method or plan. | Confuses mathematical or representation lens with method relation structure, method description, work plan, or performed work. | Recover `MethodRelationStructure@BoundedContext`, method description, `C.29` lens use, work plan, or work occurrence by direct governing pattern before naming. |
 | Action nominal, WBS element, or Work Package treated as performed work. | Function/method morphology or intended-work content is mistaken for one dated occurrence; a nearby result is folded into the work name. | Recover the exact `A.15.1` occurrence basis, apply `A.6.P.WMR` if the relation is still hidden, and name neighboring production claims, measurement results, evaluation results, delivery occurrences, and acceptance verdicts separately. |
 | Role-looking interface wording for API, port, or boundary. | Uses role morphology to avoid recovering port, signature, boundary, or interface-specific relation. | Use `A.6.RSIR` and the direct governing pattern; name the recovered relation, signature, port, or bounded interface value only when that pattern admits it. |
-| "Unscoped glossary." | Publishes words without governed value, by-value reference scheme, local sense, and bridge. | Use `NameCard`; use `F.17` term row when publication is current. |
+| "Unscoped glossary." | A glossary episteme carries or lists words without an exact governed value and kind, by-value reference scheme, local sense, and any actually needed Bridge. | Use a `NameCard` for a durable local settlement. Open a public row only through the section 4.4 gate. When availability is current, use an `E.24.PUB` publication occurrence to make the selected row or glossary edition available through a distinct form and carrier. |
 

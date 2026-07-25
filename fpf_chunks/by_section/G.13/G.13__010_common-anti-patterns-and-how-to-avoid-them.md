@@ -6,12 +6,12 @@ section_id: "G.13:9"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:9 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 100345
-line_end: 100361
+line_start: 100138
+line_end: 100154
 dependencies:
   - "A.18"
   - "A.19"

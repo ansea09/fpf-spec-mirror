@@ -1,180 +1,141 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - Contextual Work-Role Assignment"
+pattern_title: "U.RoleAssignment - System Role Assignment"
 section_id: "A.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__006_solution.md"
-commit_sha: "f2fdd062c1518c9b1a1be1b6ad795627cffad2f1"
+commit_sha: "3bc659a6f866071f629bf41fc2dd41f2518e579a"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - Contextual Work-Role Assignment"
+  - "A.2.1 — U.RoleAssignment - System Role Assignment"
   - "A.2.1:4 — Solution"
 line_start: 2417
-line_end: 2568
+line_end: 2516
 dependencies:
+  - "A.1.1"
   - "A.15"
+  - "A.15.1"
   - "A.2"
-  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.5"
+  - "A.6.9"
+  - "A.6.REL"
+  - "C.2.1"
+  - "F.6"
+  - "F.9"
+  - "U.Role"
 keywords:
-  - "RCS/RSG"
-  - "RoleEnactmentFact"
-  - "Standard"
-  - "context"
-  - "holder"
-  - "performedBy"
-  - "role"
+  - "AssignmentInterval"
+  - "assignment occurrence"
+  - "effective ReferenceScheme"
+  - "holder System"
+  - "performedUnderAssignment"
+  - "role value"
+  - "role-taxonomy episteme"
 ---
 
 ### A.2.1:4 - Solution
 
-Use `U.RoleAssignment` for the typed relation that assigns an enactment-facing `U.Role` to an admitted system holder in one bounded context.
+State the direct assignment in readable prose first. When another claim needs reusable participant typing or occurrence identity, use the `RelationSignature` for `U.RoleAssignment` governed here and declared through `A.6.0` and `A.6.5`. The signature is an episteme about the relation kind; it is not the world-side assignment occurrence. Its SlotSpecs are:
 
-```text
-RoleAssignmentCoreSlotSpec:
-  HolderSlot:
-  RoleValueSlot:
-  BoundedContextSlot:
-  AssignmentWindowSlot:
-  AssignmentJustificationSlot:
-  AssignmentProvenanceSlot:
-```
-
-This is a relation value. A record, registry row, publication, diagram, or file may describe, cite, or store the relation value. It is not the assignment itself by default.
-
-#### A.2.1:4.1 - Core SlotSpecs
-
-| SlotKind | ValueKind | Slot-use disposition | Meaning |
+| SlotKind | ValueKind | refMode | Meaning in `U.RoleAssignment` |
 | --- | --- | --- | --- |
-| `HolderSlot` | admitted `U.System` selected as system-like performer by the governing work, transformation, functioning, or method pattern | identity slot | The holder that bears the role in the bounded context. `U.Episteme` is not admitted here merely because it is used as evidence, source, standard, requirement, explanation, status bearer, publication, or assurance input. |
-| `RoleValueSlot` | `U.Role` | identity slot | The context-bound role value governed by `A.2`. It is not a SlotKind and not a capability. |
-| `BoundedContextSlot` | `U.BoundedContext` | identity slot | The context that gives the role value its local meaning. |
-| `AssignmentWindowSlot` | assignment-currentness window, role-state window, or temporal-validity value governed by the temporal pattern current in the project | optional-in-use; currentness-required when the claim depends on current assignment validity | Missing window means not recovered or not current for the claim, not that no window exists. |
-| `AssignmentJustificationSlot` | source, speech act, policy, gate, decision, rule, or evidence relation governed by its direct pattern | currentness-required when the assignment admission is challenged or relied upon | This slot points to why the assignment claim is admitted; it does not replace the governing speech-act, gate, policy, or evidence pattern. |
-| `AssignmentProvenanceSlot` | provenance relation for issuing, recording, or refreshing the assignment claim | consideration slot; currentness-required when auditability or source order is current | This slot is not a bucket for target claim, evidence polarity, status value, evidence window, or publication form. |
+| `HolderSystemSlot` | `U.System` | `U.EntityRef` | A reference resolving to the admitted system that holds the role. |
+| `RoleValueSlot` | `U.Role` | `ByValue` | The enactment-facing role value. |
+| `RoleTaxonomyEpistemeSlot` | `U.Episteme` | `U.EpistemeRef` | A reference resolving to the exact role-taxonomy episteme used for interpretation. |
+| `EffectiveReferenceSchemeSlot` | `U.ReferenceScheme` | `ByValue` | The reference-scheme value effective for this assignment. |
 
-Direct work-role patterns may declare additional work-role qualifier SlotSpecs. Evidence-use and status-use relation slots are not assignment qualifiers unless a direct work-role pattern explicitly makes that work-role claim.
 
-#### A.2.1:4.2 - Well-Formedness Constraints
+The four SlotSpecs declare all participant meanings of generic `U.RoleAssignment`. No SlotSpec is declared for the occurrence's temporal extent or for a selected model-use structure used only to qualify a receiving interpretation.
 
-Use these constraints as predicates over a filled assignment relation.
+`AssignmentInterval` is a local content ValueKind for an assignment assertion or relation-occurrence description, not a U-kind and not the ValueKind of a relation-participant SlotSpec. An `assignmentInterval` field states the currently known temporal extent through a temporal reference, a start boundary, an end boundary or explicit open end, and the continuity claim used to recognize one uninterrupted assignment episode. The world-side occurrence has that temporal extent under its direct identity rule. The field describes the extent and does not make the relation obtain. A shift label is sufficient only when those temporal facts can be resolved. `C.27.TA` governs fuller temporal-aspect description when the temporal reference or interval itself becomes a relied-on object.
 
-```text
-Invariant RA-S1 (Local role):
-  RoleValueSlot content is a U.Role admitted in the BoundedContextSlot content.
+`U.RoleAssignment` obtains when the admitted system holds the role value, interpreted by the named role-taxonomy episteme under the effective reference scheme, throughout one continuous assignment episode. An assignment assertion is a `U.Episteme` claiming that this relation obtains. A roster entry or configuration line may express that assertion, and a publication may expose it; evidence may support relying on it. None of those epistemic or representation-side objects makes the world-side relation obtain merely by existing.
 
-Invariant RA-S2 (Holder admission):
-  HolderSlot content is an admitted U.System selected as system-like performer by the governing work, transformation, functioning, or method pattern.
+#### A.2.1:4.1 - Relation-Occurrence Identity
 
-Invariant RA-S3 (No role-as-holder):
-  HolderSlot content is not U.Role and not U.RoleAssignment.
+Do not replace the identity rule with a tuple key. One generic `U.RoleAssignment` occurrence begins when the assignment predicate starts obtaining for one fixed holder system, role value, role-taxonomy episteme, and effective reference scheme. It continues while that predicate obtains without interruption for those same four actual participants. It ends when the predicate ceases to obtain or one of those participants changes. A later resumption starts another occurrence.
 
-Invariant RA-S4 (No episteme holder by use):
-  U.Episteme is not admitted as HolderSlot content merely because the episteme is used as evidence, source, standard, requirement, definition, explanation, publication, status bearer, or assurance input.
+An assignment assertion or occurrence description may carry an `AssignmentInterval` stating the currently known temporal extent of that occurrence. `[start, open]` can designate the current episode before its end is known. Recording the end boundary later refines the description of the same occurrence when obtaining was continuous. A gap in available evidence remains `unknown` and does not by itself split the occurrence. A demonstrated period of non-assignment ends the occurrence; a later resumption begins another. Two descriptions refer to the same occurrence only when they resolve to the same four participants and to temporal information belonging to that one uninterrupted period.
 
-Invariant RA-S5 (Context locality):
-  Cross-context assignment reuse requires a named bridge or direct context relation; shared labels do not create sameness.
+A selected model-use structure does not enter generic assignment identity. A genuinely structure-dependent relation species requires its own direct pattern, a required identity-bearing structure participant, a stronger predicate, and an explicit occurrence-identity rule.
 
-Invariant RA-S6 (Window honesty):
-  A claim that depends on current assignment validity names AssignmentWindowSlot content, inherits a declared bounded-context default, or states that the window is unknown, not recovered, not asserted, or blocking for the stronger claim.
-```
+#### A.2.1:4.2 - Filling the Declared Slots
 
-Do not express these predicates with RFC-style deontics unless the sentence is imposing a duty on an author, validator, or published record.
+Resolve `HolderSystemSlot` through `U.EntityRef` and check that its referent is an admitted `U.System`. Embed `RoleValueSlot` and `EffectiveReferenceSchemeSlot` by value. Resolve `RoleTaxonomyEpistemeSlot` through `U.EpistemeRef` to the exact episteme edition used for interpretation. If a receiving assertion or work use depends on a selected `BoundedModelUseStructure`, designate that structure in the receiving episteme or use relation under its direct governor.
 
-#### A.2.1:4.3 - Open-World Slot Disposition
+Those four required designations correspond to the actual participants under the declared participant meanings. State the currently known temporal extent separately as `assignmentInterval` in the assertion or occurrence description. Assignment decision, responsibility, evidence, provenance, installation work, role state, capability, performed work, selected model-use structure, and publication remain separate objects or relation occurrences under their own governing patterns.
 
-The SlotSpecs are a thinking discipline, not a demand to fill a form for every casual use.
-
-Use these dispositions:
-
-- **filled:** the relation instance names the slot filler or reference;
-- **inherited:** the role definition or bounded-context rule fixes the value for the current claim;
-- **unknown or not recovered:** the slot is relevant, but the project has not recovered it;
-- **not asserted:** the text deliberately makes no claim about this slot;
-- **not current for this claim:** the slot exists in the model, but the present claim does not depend on it;
-- **claim lowering or blocker:** a stronger claim depends on the slot, so missing content lowers or blocks that claim.
-
-For example, a quick staffing note may only need holder, role, and context. A safety-critical work attribution claim needs the assignment window, role-state admission, and method or work relation that the note omitted.
-
-#### A.2.1:4.4 - Role State and Role-Description Characterization Hooks
-
-`U.RoleAssignment` does not contain a role-state relation or a role-state description. The `U.Role` and its role description may be linked to:
-
-- RoleCharacteristicSpace, the characteristic space used to describe role variants or role-admission conditions in one bounded context;
-- Role State Relation, the state-family relation used to decide whether a role assignment is in an enactable state;
-- state assertions or evaluations governed by `A.2.5` and the relevant evidence or evaluation pattern.
-
-A work attribution claim may depend on those neighboring values. The assignment relation names the holder, role, context, and window; `A.2.5` governs whether the assignment is in an enactable state for the current work.
-
-#### A.2.1:4.5 - Role Assignment and Work
-
-Work is not performed by the role value. Work is performed by the holder under a role assignment. For machines and components, this includes physical or operational work such as driving, pumping, regulating, heating, cooling, sensing, stabilizing, or transforming a state under the governing functional or transformation context.
-
-Use the direct relation:
+#### A.2.1:4.3 - Well-Formedness Predicates
 
 ```text
-Work.performedBy = RoleAssignment
+RA-1 HolderAdmission:
+  the U.EntityRef filling HolderSystemSlot resolves to an admitted U.System.
+
+RA-2 RoleInterpretation:
+  the U.Role filling RoleValueSlot is interpreted through the exact
+  taxonomy episteme and effective reference-scheme fillings.
+
+RA-3 AssignmentEpisode:
+  the assignment predicate obtains without interruption for the four required
+  actual participants; any assignmentInterval states the currently known
+  temporal extent in an assertion or occurrence description.
+RA-4 NoAssignmentOverread:
+  the assignment occurrence alone does not establish capability,
+  role state, method admission, performed work, responsibility,
+  authorization, evidence sufficiency, or publication currentness.
+
+RA-5 InterpretationQualification:
+  any selected model-use structure is designated by the receiving assertion
+  or work use, not as a participant of generic U.RoleAssignment.
 ```
 
-Then check neighboring claims:
+An evidence gap makes the assignment claim unknown or unrecovered; it does not demonstrate that the assignment predicate failed. A demonstrated non-assignment interval, by contrast, ends the current occurrence.
 
-- the work occurrence is governed by `A.15.1`;
-- the bounded transformation is governed by `A.3.4` when the work is claimed as transformation participation;
-- functional wording is restored through `A.6.F` when the role is named by what the holder does functionally;
-- the selected method is governed by `A.3.1`;
-- the method description or role-admission declaration is governed by `A.3.2` and `A.15`;
-- the work plan is governed by `A.15.2`;
-- role-state admission is governed by `A.2.5`;
-- capability is governed by `A.2.2`.
+#### A.2.1:4.4 - Demand-Driven Materialization
 
-A `U.Work` record may cite `performedBy = some U.RoleAssignment`. That citation does not make the work record the assignment and does not make the assignment a work occurrence.
-
-#### A.2.1:4.6 - RoleEnactmentFact
-
-Source text may name `U.RoleEnactment` or `RoleEnactment`. In FPF, role enactment is a derived relation or fact over `U.Work` and `U.RoleAssignment`, not a durable U-kind.
-
-Use this named fact only when a named relation is clearer than direct `performedBy` wording:
+Ordinary use can stop at a readable direct assertion:
 
 ```text
-RoleEnactmentFact:
-  workOccurrence: U.Work
-  performedBy: U.RoleAssignment
-  methodTrace?: U.Method or U.MethodDescription reference when current
-  window?: inherited from work occurrence or role assignment when current
+During Shift-17, Robot-7 holds InspectorRole as interpreted by
+MaintenanceRoles-2026 under Maintenance-Scheme-A.
 ```
 
-If a database, log, table, or publication stores a role-enactment entry, it stores a record of the fact unless a direct governing pattern admits record-as-value for that use.
+Expose the relation occurrence explicitly only when a receiving claim needs to refer to it, distinguish it from another episode, or use it as a participant. If any required participant filling or the continuity of the assignment episode cannot be recovered, keep the assertion reduced or lower the receiving claim. Do not insert a dummy filling or put a value of another kind into a declared slot.
 
-#### A.2.1:4.7 - Episteme Evidence, Status, Source, and Publication Uses
+#### A.2.1:4.5 - Direct Neighboring Relations
 
-Do not use `U.RoleAssignment` for an episteme merely because the episteme is useful in a project relation.
+| Current question | Direct exit | Why it stays separate |
+| --- | --- | --- |
+| Is the holder able to do the work? | `A.2.2` capability and capability-fit relation | Assignment does not create ability. |
+| Is the assignment in an enactable state now? | `A.2.5` role-state relation | State predicate, evidence, and state window differ from assignment identity. |
+| Which method admits this role? | `A.3.1`, `A.3.2`, `A.15` | Method and method-description claims do not assign a holder. |
+| Was work performed under the assignment? | `A.15.1`, `F.6` | `U.Work` is a dated occurrence and has its own identity. |
+| What helps constitute a specialized assignment? | direct decision, installation, responsibility, or commitment relation | It is constitutive only when the specialized assignment ontology says so. |
+| What supports knowledge or use of the assignment claim? | direct evidence, reliance, or provenance relation | It refers to the assignment occurrence or assertion without making the world-side relation obtain. |
+| Does a DDD organization change this receiving interpretation? | `A.1.1` plus the receiving assertion or work-use pattern | The receiving episteme or use may designate the selected structure; generic `U.RoleAssignment` gains no optional participant. |
 
-| Source phrase | Recover as |
-| --- | --- |
-| "this report has evidence role for Claim A" | evidence-use relation with evidence episteme, target claim, claim scope, polarity, and relevance window when current. |
-| "the standard has normative role" | standard-use, requirement-use, source-use, publication-use, or status-use relation under the direct pattern. |
-| "the dataset plays the role of benchmark" | dataset-use, evidence-use, measurement, benchmark, or source-use relation under the direct pattern. |
-| "the model card is the approver" | publication, evidence, assurance, or source relation for the model card; any approving work is performed by a system or acting holon through a role assignment. |
-| "the dashboard role is monitoring" | publication or interface description use for the dashboard; observing work belongs to an observer holder under a role assignment. |
+A constituting decision, installation relation, or another assignment-establishing occurrence can help make a specialized assignment relation obtain only when that direct ontology says so. Evidence, reliance, and provenance relations instead support knowledge or use of the assignment claim. Do not use epistemic support as the world-side constituting condition by default.
 
-The repair is not to find a nicer role word. The repair is to recover the current relation and its slot fillers.
+#### A.2.1:4.6 - Performed-Work Attribution
 
-#### A.2.1:4.8 - Shorthand Notation
-
-The compact notation is:
+When dated work is performed under role holding, name the admitted holder System, exact Work, and exact assignment directly:
 
 ```text
-Holder#Role:Context@Window
+Robot-7 performed InspectionWork-17 under RoleAssignment-17.
+performedUnderAssignment(InspectionWork-17, RoleAssignment-17)
 ```
 
-Use it only as a readable notation for the typed assignment relation.
+`Robot-7` is the admitted System in `RoleAssignment-17.HolderSystemSlot`. `A.15.1` governs `InspectionWork-17`; `A.2.1` governs `RoleAssignment-17`; `F.6` owns the attribution relation. The assignment does not prove that work occurred, and the work occurrence does not alter assignment identity.
 
-Examples:
+If source wording says `RoleEnactment`, recover the dated `U.Work` occurrence, exact `U.RoleAssignment`, admitted holder System, and direct `performedUnderAssignment(W, RA)` relation. Do not introduce a second run-time U-kind or relation occurrence beside work and assignment.
 
-- `Robot_7#InspectorRole:MaintenanceLine_A@2026-06-15T09:00..2026-06-15T11:00`
-- `Motor_M1#DriveMotorRole:WaterPumpAssembly_A@installed-window`
-- `OpsTeam#IncidentCommanderRole:PlantIncident_2026@open`
-- `CI_Service#DeployerRole:ReleaseTrain_2026@2026-Q2`
+#### A.2.1:4.7 - Legacy Context Shorthand
 
-If the notation is missing the window, the current text must still say whether the window is inherited, unknown, not asserted, or not current for this claim when the claim depends on assignment currentness.
+`Holder#Role:Context@Window` is source notation, not the assignment ontology. `Context` is an untyped source label here. Recover the exact referent, its kind, and the direct relation that makes it relevant. If it denotes an independently selected `BoundedModelUseStructure` that changes a receiving interpretation, designate that structure in the receiving assertion or work use. Otherwise keep the recovered referent in its own direct relation; never invent a generic context or model-use participant for `U.RoleAssignment`.
 
