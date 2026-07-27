@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 50308
-line_end: 50332
+line_start: 50477
+line_end: 50501
 dependencies:
   - "A.6.0"
   - "C.16"

@@ -6,13 +6,14 @@ section_id: "F.17:14.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__019_consequences.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.1 — Consequences"
-line_start: 92941
-line_end: 92948
+line_start: 93322
+line_end: 93329
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.SPR"
@@ -23,14 +24,13 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "F.1"
-  - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,14 +45,15 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
+  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:14.1 - Consequences
 
-**Benefits.** A UTS row gives readers a stable place to recover a term decision without treating a table as an ontology. It supports public reuse, examples, training material, interface labels, and cross-context comparison while preserving local senses and direct pattern authority.
+**Benefits.** A UTS row gives readers a stable place to recover a term decision without treating a table as an ontology. It supports public reuse, examples, training material, interface labels, and comparison across different semantic-context projections while preserving exact local-sense claims and direct-pattern authority.
 
-**Costs.** A tempting public label may wait until local sense, bridge, naming, admissible use, and currentness conditions are settled.
+**Costs.** A tempting public label may wait until the governed value, effective scheme, exact local-sense claim, any needed Bridge, separate bounded-use claim and reliance basis, naming settlement, and currentness condition are settled.
 
 **Failure avoided.** F.17 prevents global glossary drift, row-shaped ontology claims, block-as-subtype mistakes, label-based sameness, and evidence or role authority smuggled through a public term.
 

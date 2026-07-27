@@ -6,13 +6,14 @@ section_id: "F.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__012_sota-echoing.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:10 — SoTA-Echoing"
-line_start: 93457
-line_end: 93469
+line_start: 93933
+line_end: 93945
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -20,16 +21,17 @@ dependencies:
   - "A.6.RCD"
   - "A.6.REL"
   - "A.6.RSIR"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
   - "E.24.PUB"
   - "F.0.1"
   - "F.1"
-  - "F.1-F.17"
   - "F.13"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -52,5 +54,5 @@ Source use was checked on 2026-07-23. F.18 uses only the following decision-gove
 | Zhu, Reinecke, and Mitra, [*Language Scent: Exploring Cross-Language Information Navigation*](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Adapt contextual cues and in-situ recognizability as evidence for reader ergonomics; reject any inference from recognizability to cross-context equivalence. | Changes the reader-ergonomics probe in 4.3 and supports the conditional local labels in 7.2 and 7.5 while leaving exact value, local sense, and Bridge recovery mandatory. | The study is small, cross-language, and navigation-focused. Reopen only those probes and examples if stronger reader evidence reverses the observed value of contextual cues or exposes a new loss. |
 | Current FPF `C.18` front and archive discipline | Keep non-dominated candidates, archive members, and selection reasons distinct; expose dimensions and dominance when those methods are actually used. | Governs the optional ordinal-comparison sentence in 4.3; it does not require QD apparatus for an ordinary four-candidate naming decision. | This is comparison discipline, not proof that a label is ontologically correct. Reopen only 4.3 if the FPF front, dominance, or protected-dimension rule changes. |
 
-Currentness rule: when a direct value owner, `C.2.1`, `F.9`, or `E.24.PUB` changes the value/card/sense/Bridge/publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their admitted public use or object references change.
+Currentness rule: when a direct value owner, `C.2.1`, `F.9`, `A.10`, `B.3`, or `E.24.PUB` changes the value, card, sense, Bridge, bounded-use claim, reliance, or publication boundary, reopen only the affected invariant, field, case, or check. A future F.17 edition is consumed only through section 4.4; its change does not reopen local NameCards unless their supported public citation use or object references change.
 

@@ -6,13 +6,14 @@ section_id: "F.17:6"
 section_title: "When to create or update a UTS row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_when-to-create-or-update-a-uts-row.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:6 — When to create or update a UTS row"
-line_start: 92595
-line_end: 92607
+line_start: 92753
+line_end: 92765
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.SPR"
@@ -23,14 +24,13 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "F.1"
-  - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,6 +45,7 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
+  - "U.BoundedContext"
 keywords:
 ---
 
@@ -52,10 +53,10 @@ keywords:
 
 Create or update a UTS row when at least one condition is present:
 
-- the name will be public, Core-facing, or reused across bounded contexts;
+- the name will be public, Core-facing, or reused under more than one effective reference scheme;
 - a row id is needed for later examples, checks, dashboards, training material, or tool interface labels;
 - a role name, status-family name, slot name, relation name, or local concept name is being reused outside the immediate local repair;
-- a bridge claim is being used for cross-context term reuse;
+- an obtaining F.9 Bridge and a separately warranted affirmative C.2.1 claim are being used for one exact term-row use between different semantic-context projections;
 - a name-card decision from `F.18` needs a compact reader-facing term row;
 - a direct pattern changes the governed object in a way that changes the name, local sense, bridge, or admissible use.
 

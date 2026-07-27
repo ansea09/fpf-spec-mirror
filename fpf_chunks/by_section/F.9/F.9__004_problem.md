@@ -6,13 +6,14 @@ section_id: "F.9:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__004_problem.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:2.1 — Problem"
-line_start: 89440
-line_end: 89443
+line_start: 89613
+line_end: 89616
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -20,37 +21,36 @@ dependencies:
   - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.26"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
-  - "E.10.D1"
   - "E.17.ID.CR"
   - "F.0.1"
-  - "F.1"
   - "F.10"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
   - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
-  - "U.BoundedContext"
 keywords:
-  - "Bridge-supported use"
-  - "CL"
-  - "bridge"
-  - "bridge reading"
-  - "cross-context alignment"
-  - "direction"
-  - "loss notes"
-  - "state export"
-  - "weakest-link scope"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "different <ReferenceScheme"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "inverse/composition checks"
+  - "obtaining Bridge"
+  - "optional CL evidence-strength shorthand"
+  - "optional card"
+  - "quantum/coarsening exit"
+  - "relation-semantic profile"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### F.9:2.1 - Problem
 
-A shared label across contexts can look like identity, substitution permission, status transfer, evidence authority, role assignment, work attribution, or structural equivalence before any bridge relation is declared. The problem is to preserve useful cross-context comparison while stating the local senses, bridge kind, direction, confidence level, losses, and admitted use so the bridge does not silently become another governed claim.
+A shared label across contexts can look like identity or permission before any semantic relation is tested. Even after a Bridge obtains, its truth does not answer whether one particular comparison or substitution is suitable. The problem is to preserve useful cross-context work while keeping the relation, the proposed use, its evidence, and the downstream act individually testable.
 

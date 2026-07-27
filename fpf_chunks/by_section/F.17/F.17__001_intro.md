@@ -6,13 +6,14 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:intro — Intro"
-line_start: 92427
-line_end: 92442
+line_start: 92581
+line_end: 92596
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.SPR"
@@ -23,14 +24,13 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "F.1"
-  - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,6 +45,7 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
+  - "U.BoundedContext"
 keywords:
 ---
 
@@ -54,7 +55,7 @@ keywords:
 
 Use this when a term decision is to become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and publication as one reviewed term row is current.
 
-First useful move: identify the governed term decision, not the wording alone. Name the bounded context, the governed value and its kind, the local senses, the bridge claim if cross-context use is present, and the current direct pattern that owns the underlying value. Then publish only the term-row facts that are already governed there.
+First useful move: identify the governed term decision, not the wording alone. Name the governed value and its kind, the effective `U.ReferenceScheme` carried by value, the exact local-sense coordinate, and the current direct pattern that owns the underlying value. When the row will compare local senses, compare their semantic-context projections: the `<ReferenceScheme, LocalSenseClaim>` pairs recovered from the exact cells. If those pairs differ, test an F.9 Bridge and, for a proposed row use, state the separate C.2.1 claim and its A.10 or B.3 reliance. A cross-scheme case is only the subset in which the `ReferenceScheme` values differ. Then publish only the term-row facts already governed there. A locality label or selected model-use structure enters only when it changes the naming use; neither is a mandatory sense coordinate.
 
 Primary EntityOfConcern: one durable reader-facing term decision published by one `UnifiedTermRow` in one bounded unification thread. The role, status value, relation, slot kind, local concept, demonstrated row, or other underlying governed value remains the EntityOfConcern of its direct pattern; F.17 publishes its term decision and does not reconstitute that value.
 

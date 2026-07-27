@@ -1,39 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext Semantic Frame"
+pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
 section_id: "A.1.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__012_rationale.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
-  - "A.1.1 — U.BoundedContext Semantic Frame"
+  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:10 — Rationale"
-line_start: 1993
-line_end: 2000
+line_start: 2133
+line_end: 2138
 dependencies:
   - "A.1"
-  - "A.15"
+  - "A.14"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.0"
   - "A.6.5"
+  - "A.6.REL"
   - "C.2.1"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.24"
+  - "C.2.P"
+  - "C.29"
+  - "E.17.0"
   - "E.24.PUB"
-  - "F.0.1"
+  - "F.17"
   - "F.18"
   - "F.9"
-  - "U.Holon"
 keywords:
 ---
 
 ### A.1.1:10 - Rationale
 
-`U.BoundedContext` is the semantic companion to `U.Holon`. A holon boundary says what counts as inside or outside the whole for a claim. A bounded-context boundary says where vocabulary, invariant, role taxonomy, episteme-use/status relation set, and inference rule are locally coherent when those claims are current.
+The selected object must survive two decisive tests. One subsystem under two models needs two bounded contexts without duplicating the subsystem. One model coherently used across several loci may need one bounded context without pretending those loci are parts of another whole. A dependent `U.Structure` over exact relations passes both tests.
 
-The pattern is generalized from domain-driven design but is not software-only. Scientific theories, legal standards, hospital procedures, manufacturing cells, model cards, research programs, and FPF evaluation contexts all need local meaning. FPF makes that locality an ontic rather than leaving it as "it depends."
-
-This also protects role and episteme ontology. A `U.Role` is not global; it is valid inside a bounded context. A `U.Episteme` is meaningful only when its EntityOfConcern, viewpoint, reference scheme, and bounded context are known. Bridges then make cross-context correspondence explicit instead of letting spelling decide.
+The practical DDD lesson retained here is that boundaries matter because model applicability, actual use, expression consistency, and relationships can change engineering decisions. FPF does not copy that sentence as one ontology: it separates participant-determined fixed-content coherence from maintenance Work, identifies each bounded model-use structure without crossings, and routes any independently governed crossing into a distinct A.22 structure over already identified endpoints.
 

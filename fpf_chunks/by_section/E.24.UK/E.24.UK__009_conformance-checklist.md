@@ -6,12 +6,12 @@ section_id: "E.24.UK:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:7 — Conformance Checklist"
-line_start: 86427
-line_end: 86455
+line_start: 86599
+line_end: 86627
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -61,7 +61,7 @@ keywords:
 | `CC-E24UK-4c` | Every retained public example resolves through one exact `E24UK-AR-*` admission-result reference whose row names the disposition, direct owner, named reliance, non-use boundary, and reopen condition. The row is a projection of the decision episteme, not the decision, kind, or evidence. |
 | `CC-E24UK-4d` | Under the effective reference scheme, `ViewpointId i` designates exact viewpoint episteme P and resolving `U.ViewpointRef r` that uses i yields P; i, r, and P remain distinct, neither designation nor resolution grants membership, E.17.0 owns membership, and `DescriptionContext` remains a separate one-viewpoint use qualification. |
 | `CC-E24UK-4e` | Bootstrap co-decision `E24-CO-UONTIC-BOOT-01` returns distinct outputs `E24-OS-UONTIC-BOOT-01` and `E24UK-AR-UONTIC-BOOT-01` without presupposing an admitted `U.Ontic` or making the schema, pattern, decision episteme, or kind an ontology-unit instance. Any prerequisite kind without a resolvable accepted result remains in the open table. |
-| `CC-E24UK-4f` | Base `U.Structure` identity is context-independent and comes only from the four A.22 discriminators. `BoundedModelUseStructure` and `CrossContextRelationStructure` are same-individual dependent specializations of an already identified structure and add no second root identity. An A.2.6 scope or membership outcome affects identity only through an exact applied constraint that refers to it; the bare value or outcome is not a discriminator. A context, system, team, subsystem, label, scope, method, work, result, description, view, representation, publication, or use alone creates neither the base structure nor specialization membership. |
+| `CC-E24UK-4f` | Base `U.Structure` identity is context-independent and comes only from the four A.22 discriminators. `BoundedModelUseStructure` and A.22's conditional crossing-analysis specialization are same-individual dependent predicates over an already identified structure and add no second root identity. Only the bounded-model-use name currently has an F.17 public row. An A.2.6 scope or membership outcome affects identity only through an exact applied constraint that refers to it; the bare value or outcome is not a discriminator. A context, system, team, subsystem, label, scope, method, work, result, description, view, representation, publication, or use alone creates neither the base structure nor specialization membership. |
 
 | `CC-E24UK-5` | Structural locations retain `U.*` only with settlement evidence or direct reference to an already admitted U-kind. |
 | `CC-E24UK-6` | A world-side relation participant retains its independently governed kind, while the direct relation pattern states its participant meaning. |

@@ -1,72 +1,98 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext Semantic Frame"
+pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
 section_id: "A.1.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__007_archetypal-grounding.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
-  - "A.1.1 — U.BoundedContext Semantic Frame"
+  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:5 — Archetypal Grounding"
-line_start: 1902
-line_end: 1942
+line_start: 2033
+line_end: 2091
 dependencies:
   - "A.1"
-  - "A.15"
+  - "A.14"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.0"
   - "A.6.5"
+  - "A.6.REL"
   - "C.2.1"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.24"
+  - "C.2.P"
+  - "C.29"
+  - "E.17.0"
   - "E.24.PUB"
-  - "F.0.1"
+  - "F.17"
   - "F.18"
   - "F.9"
-  - "U.Holon"
 keywords:
 ---
 
 ### A.1.1:5 - Archetypal Grounding
 
-#### A.1.1:5.1 - Hospital Operating Room Context
+#### A.1.1:5.1 - Full control-model assurance replay
 
-`Hospital.OR_2025` is a bounded context for operating-room work in a named hospital edition.
+The first-minute case in section 0 is enough for ordinary entry. This longer replay checks the ontology and stop conditions without turning them into the first-use path.
 
-```text
-BoundedContextSlotRelation:
-  contextIdentity: Hospital.OR_2025
-  contextBoundary: operating-room policy and procedure edition for 2025
-  localVocabulary: case, sterile field, time-out, circulating nurse, independent auditor
-  localInvariantSet: time-out required before incision; surgeon and independent auditor roles incompatible for one case
-  localRoleTaxonomy: SurgeonRole, ScrubNurseRole, CirculatingNurseRole, IndependentAuditorRole
-  bridgeRelationSet: billing-code bridge, hospital-wide staffing bridge
-```
+1. **Applicability decision.** `ModelApplicabilityRelation` obtains among model episteme `PressControlModel-5`, system `Press-3`, and claim scope `SafetyControlClaimScope`. C.2.1 fixes `PlantControlReferenceScheme` as the model episteme's effective scheme, so it supplies the interpretation basis without becoming a fourth participant. The derived `ModelApplicabilityInterval` remains open while the model's declared applicability conditions hold for `Press-3` over the exact `U.ContextSlice` values admitted by `member(slice, SafetyControlClaimScope)` under that scheme.
+2. **Actual-use decision.** Exact F.6 `performedUnderAssignment(PressOperationWork-91, OperatorAssignment-8)` obtains. The assignment holder is `Operator-12 : U.System`; that system actually uses `PressControlModel-5` concerning `Press-3` during the same `PressOperationWork-91 : U.Work`. Those four relation participants plus the derived maximal continuous `ModelUseInterval` reidentify one `ModelUseRelation` occurrence.
+3. **Scope boundary.** Under the A.2.6 membership predicate, `EmergencyStopContextSlice` belongs to `SafetyControlClaimScope`. This membership claim explains part of the applicability boundary; it is not another relation occurrence selected into the structure.
+4. **Fixed-content coherence decision.** `ControllerImplementsControlModelPredicate` is an admitted local predicate value. Its ordered inputs are the fixed claim contents of `PressControlModel-5` and `PressControllerCode-17`; it returns true exactly when the code expresses every controller-command and feedback distinction required by the model, and false when a required distinction is missing. Both epistemes have `PlantControlReferenceScheme` as their C.2.1 effective scheme, so the relation-side comparison scheme is that same value and no Bridge is inferred. The predicate returns true for these participants, so their participant-determined `ModelExpressionCoherenceRelation` occurrence obtains before any selected maintenance episode.
+5. **Maintenance and change stay separate.**
+   - **Work:** `Engineer-4 : U.System` performs `ControllerCoherenceWork-22 : U.Work` under exact obtaining `ControllerEngineerAssignment-7 : U.RoleAssignment`; exact `performedUnderAssignment(ControllerCoherenceWork-22, ControllerEngineerAssignment-7)` and `enactsMethod(ControllerCoherenceWork-22, ControllerAlignmentMethod-2)` obtain.
+   - **Transformation and later episteme:** A.3.4 independently identifies `PressControllerCodeCarrierChange-24 : U.Transformation` as the bounded change of continuing `PressControllerCodeCarrier-6 : U.PresentationCarrier`, using the exact edit boundary, before-and-after code-expression facts, and the carrier-continuity rule. Changed claim content identifies later episteme `PressControllerCode-18` under C.2.1.
+   - **Stop:** No current FPF relation says that `ControllerCoherenceWork-22` caused or realized `PressControllerCodeCarrierChange-24`, so return `missing work-to-change governor`; temporal overlap and a shared code referent do not supply it. A.15.PROD remains closed for a claim that the Work first constituted `PressControllerCode-18` until its exact entity-inception basis, including that missing link, is governed.
+6. **Evaluation and result stay separate.**
+   - **Evaluation Work:** `Evaluator-2 : U.System` performs `CoherenceEvaluationWork-23 : U.Work` under exact obtaining `CoherenceEvaluatorAssignment-5 : U.RoleAssignment`; exact `performedUnderAssignment(CoherenceEvaluationWork-23, CoherenceEvaluatorAssignment-5)` and `enactsMethod(CoherenceEvaluationWork-23, CoherenceEvaluationMethod-4)` obtain. State any needed operation application through its exact A.6.1 binding.
+   - **Result:** C.2.1 separately identifies result episteme `CoherenceEvaluation-23`, which asserts whether the coherence predicate holds; only an exact A.15.PROD inception basis may relate that episteme's first existence to the evaluation Work. The result's assertion, evidence-use relation, and provenance remain distinct.
+   - **Next tuple:** Because `PressControllerCode-18` has different claim content, it forms another participant tuple with `PressControlModel-5`; predicate truth for that tuple decides whether another coherence occurrence obtains. Maintenance, method enactment, changed referent, evaluation, result, evidence, and provenance neither substitute for that truth nor enter the relation's participant set or identity.
+7. **Crossing stop.** If a diagnostics crossing matters, first retain the independently identified source and target structures, then record direction, required fit, permitted loss, and claim scope. Current F.9 cannot turn that record into a relation over those structures. Omit it from any positive cross-structure member and return `missing CROSS-LOCALITY-BRIDGE governor`. The already governed endpoint relations remain available for their own selections.
 
-The context does not perform surgery. Systems in roles perform work. The context defines the local meanings and constraints under which those role assignments and work claims are interpreted.
+**Filled A.22 basis for the press-control structure.** Its exact constituents are model episteme `PressControlModel-5`, use-locus system `Press-3`, and expression episteme `PressControllerCode-17`. Its selected occurrences are `ModelApplicabilityRelation(PressControlModel-5, Press-3, SafetyControlClaimScope)`, `ModelUseRelation(OperatorAssignment-8, PressControlModel-5, PressOperationWork-91, Press-3)`, and `ModelExpressionCoherenceRelation(PressControlModel-5, PressControllerCode-17, ControllerImplementsControlModelPredicate, PlantControlReferenceScheme)` as established in steps 1–4. `OperatorAssignment-8` and `PressOperationWork-91` remain actual participants used to establish the selected `ModelUseRelation`; they are not copied into the constituent plurality. Its exact applied constraint claims are `PressSafetyScopeUseConstraintClaim`, whose proposition says that every target slice used in the release judgment satisfies `member(targetSlice, SafetyControlClaimScope)`; `PressCommandFeedbackConstraintClaim`, whose proposition says that the change preserves the model's command-versus-feedback distinction; and `PlantJointReviewConstraintClaim`, whose proposition says that, under independently governed `PlantReleaseRule-3`, all three selected occurrences are required inputs to the release review when each is material. `SafetyControlClaimScope`, any membership outcome, boundary rendering, and the claim carriers enter no discriminator by themselves. Its fourth discriminator is `PressControlReleaseFrame` from section 0: ask whether the change is code-only or jointly model/use/coherence-relevant; provide that joint subject matter to the release review; do not infer review or release authority from the structure. Missing any discriminator leaves the direct relations in place but blocks this structure selection.
 
-#### A.1.1:5.2 - Special Relativity Context
+The relation sentences above assert direct world-side occurrences; the scope sentence states an A.2.6 membership claim. Publishing either episteme does not create an occurrence or change scope membership. If the question is only whether the model applies to the press, stop at `ModelApplicabilityRelation`. Select `BoundedModelUseStructure` only when the selected applicability, operating-use, and expression-coherence occurrences plus the exact applied constraint claims and frame change the decision or Work plan.
 
-`Theory.SpecialRelativity.SelectedEdition` is a bounded context for a selected episteme tradition.
+**One subsystem, one model.** The press-control replay above is the filled case. The machine keeps its `U.System` identity; the selected structure uses the exact constituents, three obtaining relations, applied constraints, and `PressControlReleaseFrame`. Without that complete basis, stop at the direct relations. A diagram or later crossing is unnecessary for the positive selection.
 
-```text
-BoundedContextSlotRelation:
-  contextIdentity: Theory.SpecialRelativity.SelectedEdition
-  contextBoundary: selected postulates, vocabulary, reference schemes, and admissible derivations
-  localVocabulary: inertial frame, proper time, Lorentz transformation
-  localInvariantSet: constant light speed postulate; covariance constraints
-  localRoleTaxonomy: not current for theory claims
-  localEpistemeUseAndStatusRelationSet: postulate-status relation; evidence-use relation; derived-claim status relation
-  bridgeRelationSet: bridge to Newtonian mechanics under low-speed approximation; bridge to general relativity under selected assumptions
-```
+**One subsystem, two competing models.** `DeviceSubsystem-2` remains one system. Two structures are available only because each organization is independently complete:
 
-The context frames meaning. It does not make the theory true by itself and does not act. Systems in roles publish, teach, test, or revise epistemes that use this context.
+| Selected structure | Exact constituents, relation occurrences, and applied constraints | Named selection-use frame |
+|---|---|---|
+| `DeviceMaintenanceModelUseStructure` | constituents `DeviceStateModel-4`, `DeviceSubsystem-2`, and `MaintenanceProcedureEpisteme-9`; applicability of `DeviceStateModel-4` to `DeviceSubsystem-2` within `MaintenanceClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DeviceMaintenanceWork-31, MaintenanceAssignment-12)` plus actual use during that Work; coherence of `DeviceStateModel-4` and `MaintenanceProcedureEpisteme-9` under `DeviceStateMaintenanceCoherencePredicate` and `DeviceStateReferenceScheme`; applied claim `MaintenanceScopeUseConstraintClaim` says every equipment-state slice used in the maintenance diagnosis satisfies `member(slice, MaintenanceClaimScope)`, and `MaintenanceStateDistinctionConstraintClaim` says the diagnosis preserves the model's available/degraded/failed distinctions | `MaintenanceDiagnosisFrame`: ask which current device-state distinctions govern diagnosis; use this organization for the maintenance diagnosis; do not use it to decide redesign capability or infer authority over redesign Work. |
+| `DeviceCapabilityModelUseStructure` | constituents `CapabilityModel-6`, `DeviceSubsystem-2`, and `CapabilityDesignExpression-12`; applicability of `CapabilityModel-6` to `DeviceSubsystem-2` within `RedesignClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(CapabilityRedesignWork-44, RedesignAssignment-15)` plus actual use during that Work; coherence of `CapabilityModel-6` and `CapabilityDesignExpression-12` under `CapabilityDesignCoherencePredicate` and `CapabilityDesignReferenceScheme`; applied claim `RedesignScopeUseConstraintClaim` says every design slice used in the redesign analysis satisfies `member(slice, RedesignClaimScope)`, and `CapabilityDistinctionConstraintClaim` says the analysis preserves current-versus-proposed capability distinctions | `CapabilityRedesignFrame`: ask which capability distinctions govern the proposed redesign; use this organization for redesign analysis; do not replace the maintenance diagnosis or infer that the two models are editions of one another. |
 
-#### A.1.1:5.3 - FPF Pattern Quality Context
+An exact C.2.1 `EpistemeEditionRelation` may separately establish historical continuation; it does not merge simultaneous organizations. Near miss: if either side lacks its coherence occurrence, an applied constraint, or its complete frame, that side has useful applicability and use facts but no selected `BoundedModelUseStructure` yet.
 
-`FPF.PatternQuality.E21` is a bounded context for evaluating FPF pattern quality. Terms such as "recognition text", "assurance text", "semio-bias resistance", and "first-use affordability" have local meanings. A different context may use "quality" for product reliability, manufacturing yield, safety assurance, or service satisfaction.
+**One model, two use loci.** `ClinicalTerminologyModel-7` participates in two independently complete non-software structures:
 
-Cross-context reuse of a quality term requires a bridge relation. Spelling alone does not carry the meaning.
+| Selected structure | Exact constituents, relation occurrences, and applied constraints | Named selection-use frame |
+|---|---|---|
+| `DiagnosisTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7`, `PatientEncounter-42`, and `DiagnosisExpression-11`; applicability within `DiagnosisClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(DiagnosisWork-7, DiagnosticianAssignment-4)` plus actual use concerning `PatientEncounter-42`; coherence of the model and `DiagnosisExpression-11` under `DiagnosisTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `DiagnosisScopeUseConstraintClaim` says every encounter slice used in the diagnosis claim satisfies `member(slice, DiagnosisClaimScope)`, and `ClinicalMeaningConstraintClaim` says a clinical finding is not inferred from a billing code | `DiagnosisUseFrame`: ask which terminology distinctions govern this diagnosis; use the selected organization for the diagnosis claim; do not carry billing meaning or billing authority into that claim. |
+| `BillingTerminologyModelUseStructure` | constituents `ClinicalTerminologyModel-7`, `ReimbursementClaim-42`, and `BillingExpression-14`; applicability within `BillingClaimScope`; selected `ModelUseRelation` established by exact F.6 `performedUnderAssignment(BillingWork-9, BillingAssignment-9)` plus actual use concerning `ReimbursementClaim-42`; coherence of the model and `BillingExpression-14` under `BillingTerminologyCoherencePredicate` and `ClinicalTerminologyReferenceScheme`; applied claim `BillingScopeUseConstraintClaim` says every reimbursement slice used in the coding claim satisfies `member(slice, BillingClaimScope)`, and `CodingMeaningConstraintClaim` says the selected reimbursement code does not assert a clinical diagnosis | `BillingUseFrame`: ask which terminology distinctions govern this coding claim; use the selected organization for the coding claim; do not carry clinical inference or diagnosis authority into that claim. |
+
+Across these five filled structures, each assignment occurrence and dated Work stays only in its selected `ModelUseRelation` and in the evidence establishing that occurrence. Changing either one reopens that relation and therefore the selected-occurrence discriminator; it is not also an independent constituent replacement. One spanning structure is available only when one exact constituent plurality, relation-occurrence organization, applied-constraint set, and selection-use frame genuinely spans both uses. Shared model identity alone neither merges nor splits them. Near miss: exact diagnosis and billing Work plus a shared model, without one side's coherence occurrence or filled frame, supports only the direct facts on that side.
+
+**Published classification model.** A NAICS publication remains an episteme. Exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)` and actual use of that model content concerning an organization supply the use branch. A positive `NAICSClassificationModelUseStructure` additionally needs exact applicability with `ClassificationClaimScope` as that relation's scope participant, fixed-content coherence with the classification expression, exact applied constraint claims stating which edition and classification distinctions the judgment must preserve, and `NAICSClassificationFrame`: ask which NAICS edition and distinctions govern this classification; use the complete organization for the classification claim; do not infer that publication makes the model used, that a *Conformist* label creates a crossing, or that NAICS is a system part. The bare scope or one membership result is not an applied constraint. Without the complete basis, stop at publication availability or the direct relation that actually obtains.
+
+When a proposed directional dependency is called *Conformist*, retain its source, target, direction, required fit, permitted loss, and claim scope. Return `missing CROSS-LOCALITY-BRIDGE governor` until a compatible direct relation exists; the label does not create or identify the crossing.
+**Stale description.** An already recognized Context Map view is six months old while the same already governed applicability, actual-use, and model-expression-coherence relations continue. Its currentness claim can become obsolete; revising the `U.View` episteme or publishing another rendering changes those epistemic and publication objects only. The structures remain until their direct relation organization changes.
+
+**Context-mapping assurance case.** This case tests the heavier method, product, view, and publication boundaries after the ordinary entry path has succeeded.
+
+1. **Method and Work.** Exact F.6 `performedUnderAssignment(ContextMappingWork-14, ArchitectureAssignment-6)` obtains, and the assignment holder is `Architect-9 : U.System`. Exact `enactsMethod(ContextMappingWork-14, ContextMappingMethod-3)` obtains for `ContextMappingMethod-3 : U.Method`. The repeatable method and this dated `ContextMappingWork-14 : U.Work` remain different objects.
+2. **Candidate product.** C.2.1 independently identifies episteme `ContextRelationsAnalysis-8`. Its EntityOfConcern is the six-part proposed crossing organization: source, target, direction, required fit, permitted loss, and claim scope. The episteme is not the proposed organization.
+3. **Current stop.** No independent direct governor currently makes the proposed crossing obtain. A.22 therefore lacks the relation-occurrence discriminator needed for base identity, and the candidate episteme does not designate an exact member of the conditional crossing-analysis specialization. Stop at the proposed organization.
+4. **Later positive route.** Only if a future direct governor admits that exact crossing and all four A.22 discriminators are recovered may a corresponding C.2.1 episteme designate the resulting exact structure. Changing the EntityOfConcern remains subject to C.2.1 episteme identity.
+5. **Source use and inception.** If a current claim says `ContextRelationsAnalysis-8` first existed through the mapping Work, A.15.PROD governs only that exact local inception claim. If source episteme `ContextNotes-7` participates, C.2.P recovers its exact source expression and routes the source-use relation to its direct governor.
+6. **View evaluation.** `Reviewer-6 : U.System` separately performs `ContextViewConformanceEvaluationWork-15 : U.Work` under exact obtaining `ContextViewReviewerAssignment-10 : U.RoleAssignment`; exact `performedUnderAssignment(ContextViewConformanceEvaluationWork-15, ContextViewReviewerAssignment-10)` and `enactsMethod(ContextViewConformanceEvaluationWork-15, ContextViewConformanceEvaluationMethod-5)` obtain. Any result episteme and any A.15.PROD inception claim about that result remain separate. `ContextRelationsAnalysis-8` becomes a `U.View` only when exact `EpistemeViewpointConformanceRelation(ContextRelationsAnalysis-8, ContextMappingViewpoint-4)` obtains under E.17.0.
+7. **Representation and publication stop.** The product name, mapping method, performed Work, source use, evaluation result, representation, rendering, publication occurrence, form, and carrier grant neither crossing-structure identity nor `U.View` membership and remain under their direct patterns.
 

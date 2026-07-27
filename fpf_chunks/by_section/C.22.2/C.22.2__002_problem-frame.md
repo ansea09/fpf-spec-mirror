@@ -6,12 +6,12 @@ section_id: "C.22.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__002_problem-frame.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:1 — Problem Frame"
-line_start: 50881
-line_end: 50892
+line_start: 51050
+line_end: 51061
 dependencies:
   - "A.10"
   - "A.15"

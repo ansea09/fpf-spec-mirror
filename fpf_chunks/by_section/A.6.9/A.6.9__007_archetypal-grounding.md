@@ -6,106 +6,73 @@ section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_archetypal-grounding.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 20263
-line_end: 20330
+line_start: 20384
+line_end: 20410
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.6.3.RT"
   - "A.6.6"
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3.3"
-  - "E.10"
-  - "E.10.D1"
-  - "E.10.U9"
   - "E.17"
   - "E.19"
   - "F.0.1"
+  - "F.17"
+  - "F.18"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "CL"
-  - "SenseCells"
-  - "alignment"
-  - "bridge"
-  - "cross-context sameness"
-  - "direction"
-  - "loss notes"
-  - "mapping"
-  - "substitution licence"
-  - "weakest-link"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "actual receiving object"
+  - "ambiguous sameness"
+  - "different <ReferenceScheme"
+  - "direct-owner dispatch"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "explicit stop"
+  - "relation-only F.9 Bridge"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### A.6.9:5 - Archetypal Grounding
 
-#### A.6.9:5.1 - System archetype: identity “sameness” across products
+#### A.6.9:5.1 - System archetype: IAM User and CRM Customer
 
-**Tell (ambiguous):**
-“An IAM *User* is the same as a CRM *Customer*.”
+The ambiguous sentence is: “An IAM User is the same as a CRM Customer.”
 
-**Show A (Bridge Card repair):**
+Resolve exact endpoints:
 
-```
-BridgeId: β-IAM→CRM-UserCustomer (edition-pinned)
-Cells: “User”@IAM ↔ “Customer”@CRM
-senseFamily: Role
-kind: ⋂
-dir: IAM↔CRM
-CL: 2 (Translatable) — high overlap; service accounts and leads/prospects are counterexamples
-Loss:
-  - CRM “Customer” includes leads/prospects with no IAM account
-  - IAM “User” includes service accounts and disabled identities not treated as customers
-Counter-example: “svc-billing@” is a User@IAM but not a Customer@CRM
-scope: Naming-only
-Didactic hook: “Overlap only: share labels; do not substitute without guards/refinement.”
-```
+- `SenseCell(IAMRoleReferenceScheme-v3, User-human-or-service-account-role)`;
+- `SenseCell(CRMRoleReferenceScheme-v5, Customer-commercial-party-role)`.
 
-**Effect:** dashboards and prose may share labels (Naming‑only). Workflow substitution is *not* implied globally; it is gated by scope and guards.
+Current meanings share some human participants, while service accounts and prospects provide counterexamples. Profile `P-IAM-CRM-OVERLAP-v2` states only the symmetric `Partial-overlap` relation, exact endpoint readings, overlap and difference conditions, edition basis, truth condition, and required membership evidence. Those facts make Bridge `b-iam-crm` obtain.
 
-**Show B (change narration, later evidence):**
-After hard constraints are added (e.g., “human‑verified email”, “not a service account”), a team wants higher-licence reuse in the ticketing integration.
+Now state the use separately. Dashboard team proposes `u-actor-label`: render IAM users as “actors” in a CRM-oriented comparison. Direction `d-iam-crm` is IAM-to-CRM dashboard reading. Rule `r-actor` keeps account eligibility and customer eligibility visible as separate columns. Tolerance `t-actor` allows the shared label but no eligibility, assignment, workflow, or Work inference. A C.2.1 claim about `b-iam-crm` is affirmative for `<u-actor-label,d-iam-crm,r-actor,t-actor>`.
 
-*Do not write:* “Now they are equivalent” or “now the mapping is fixed.”
-*Write:*
+The exact A.10 evidence-provenance relation and `RelianceDisposition=pass` support that claim only for the named dashboard comparison. They do not authorize data processing, assign a role, or prove that a dashboard publication occurred. Reverse label reuse is another bounded-use claim even though the Bridge relation is symmetric.
 
-0. Keep the broad Bridge **as‑is** (Naming‑only, overlap): it remains the correct “shared label” relation for the unguarded endpoints.
-1. `refreshWitnesses(β-IAM→CRM-UserCustomer, witnessRefs→witnessRefs ∪ {TicketingIntegrationTestSuite_v3})`
-2. `declareBridge(β-IAM→CRM-HumanVerifiedUser→VerifiedCustomer, HumanVerifiedUser@IAM, VerifiedCustomer@CRM, …slots…)` (new Bridge id or new edition family)
-3. In that new Bridge: state `kind=⊑` (if inclusion is now true for the refined endpoints), `dir=IAM→CRM`, keep `CL=2`, restate Loss (remaining exclusions), and provide a crisp counter‑example for where substitution would still break.
-4. `rescope(β-IAM→CRM-HumanVerifiedUser→VerifiedCustomer, Naming‑only → Role Assignment & Enactment‑eligible)` with DRR explaining why `CL=2` suffices for the refined endpoints.
+An optional actual card may package the Bridge claim, this bounded-use claim, observed counterexamples, the A.10 path and disposition, currentness, and nearest non-use. Its EntityOfConcern is `b-iam-crm`; the card neither creates the relation nor performs the dashboard work.
 
-Direction remains IAM→CRM; if the inverse is required, declare a separate Bridge with its own loss/counterexamples.
+If a later workflow isolates `HumanVerifiedUser` and `VerifiedCustomer`, refine both cells and test another Bridge. A stronger use claim over the broad cells cannot repair a false or unsuitable predicate.
 
-#### A.6.9:5.2 - Episteme archetype: schema/ontology alignment between knowledge graphs (class-level)
+#### A.6.9:5.2 - Episteme archetype: Person in two knowledge-graph schemes
 
-**Tell (ambiguous):**
-“`Person` in KG‑A is equivalent to `Person` in KG‑B.”
+The sentence is: “Person in KG-A is equivalent to Person in KG-B.” The exact cells are `Person-including-fictional` under KG-A v4 and `Person-real-with-external-id` under KG-B v7. Sherlock Holmes and the external-id rule show `Partial-overlap`, not equivalence. The exact overlap Bridge obtains under the least-committing profile.
 
-**Show A (Bridge Card repair):**
-
-```
-BridgeId: β-KGA↔KGB-Person (edition-pinned)
-Cells: Person@KG-A ↔ Person@KG-B
-senseFamily: Type-structure
-kind: ⋂
-dir: A↔B
-CL: 2 (Translatable) — overlap is high but invariants differ
-Loss:
-  - KG-A “Person” includes fictional characters; KG-B excludes them
-  - KG-B requires a stable external identifier; KG-A does not
-Counter-example: “Sherlock Holmes” ∈ Person@KG-A but ∉ Person@KG-B
-scope: Naming-only
-Didactic hook: “Shared label does not grant type-structure or substitution; the sets only overlap until invariants and membership rules are aligned.”
-```
-
-**Show B (strengthening attempt and rejection):**
-A reviewer proposes Type‑structure reuse (“treat them as the same class across graphs”). Under A.6.9, this triggers a required invariant check:
-
-* Since Type‑structure reuse requires CL=3 and matched invariants, the proposal is rejected unless the invariants are aligned and the counterexample class is eliminated (e.g., by refining `Person@KG-A` into `FictionalPerson` vs `RealPerson`).
-* The correct change narrative is: `changeBridgeKind` (if kind changes), `adjustCL` only if the counterexample disappears and invariants are shown, else keep CL=2 and Naming‑only scope.
+Two proposed uses then receive separate claims. A glossary comparison that labels both rows “Person” while displaying the fiction and external-id differences can receive affirmative polarity with a warranted A.10 path. A type-structure merge receives negative polarity because its correspondence rule cannot preserve membership and its tolerance permits no such loss. Both claims concern the same Bridge; neither changes its identity. Refining KG-A into `RealPerson` and `FictionalPerson` changes an endpoint and opens a new Bridge test.
 

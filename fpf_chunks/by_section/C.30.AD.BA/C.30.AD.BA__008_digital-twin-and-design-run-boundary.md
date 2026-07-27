@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:5"
 section_title: "Digital Twin and Design-Run Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__008_digital-twin-and-design-run-boundary.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:5 — Digital Twin and Design-Run Boundary"
-line_start: 59638
-line_end: 59645
+line_start: 59807
+line_end: 59814
 dependencies:
   - "A.1"
   - "A.10"

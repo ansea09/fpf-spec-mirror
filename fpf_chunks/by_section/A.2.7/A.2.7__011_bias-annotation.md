@@ -6,12 +6,12 @@ section_id: "A.2.7:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__011_bias-annotation.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:6.1 — Bias-Annotation"
-line_start: 5346
-line_end: 5349
+line_start: 5523
+line_end: 5526
 dependencies:
   - "A.15"
   - "A.2"

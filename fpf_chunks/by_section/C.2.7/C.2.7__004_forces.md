@@ -6,12 +6,12 @@ section_id: "C.2.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__004_forces.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:3 — Forces"
-line_start: 43332
-line_end: 43338
+line_start: 43501
+line_end: 43507
 dependencies:
   - "A.16"
   - "A.16.0"

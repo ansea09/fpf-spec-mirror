@@ -6,12 +6,12 @@ section_id: "A.2.6:17"
 section_title: "Governance Hooks & Audits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_governance-hooks-audits.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:17 — Governance Hooks & Audits"
-line_start: 4834
-line_end: 4869
+line_start: 5011
+line_end: 5046
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -41,7 +41,7 @@ When a scope-aware decision needs durable audit evidence, its C.2.1 result epist
 * **Exact target slice.** Designate the independently identified slice with its complete declared selector schema and values. An evaluation may bind only the projection its scope predicate inspects; that projection does not replace slice identity. Include `gammaTime` in the schema only when that temporal selector is part of the exact slice being evaluated.
 * **Evaluation outcome.** Record `true`, `false`, or `unknown`, plus the evaluation method or work occurrence when replay needs it.
 * **Separate guard outcomes.** Record work measures, qualification windows, formality, or freshness only when the receiving use checks them; none is membership.
-* **Translation evidence, only when triggered.** If exact local senses required translation, name the exact obtaining F.9 Bridge occurrence, congruence, loss, and any separate reliance effect.
+* **Translation evidence, only when triggered.** Name the exact obtaining F.9 Bridge, the separate C.2.1 claim with its polarity, use, direction, rule, and tolerance, and the exact A.10 or B.3 reliance branch. Record any observed loss as evidence rather than a Bridge identity field.
 * **Scope change.** Say whether the declared set widened, narrowed, or remained identical under refit.
 
 Recording these facts does not make membership true, identify the scope, or create a membership-relation occurrence.
@@ -50,7 +50,7 @@ Recording these facts does not make membership true, identify the scope, or crea
 
 * **USM-Ready.** Exact scope and slice values are declared; editors can distinguish membership from evaluation, evidence, representation, and structure.
 * **USM-Guarded.** Guards evaluate exact Claim scope or Work scope membership and keep measures, qualification, freshness, and `gammaTime` when material as separate checks.
-* **USM-Auditable.** Durable result epistemes identify the exact scope, slice, and evaluation result, plus the exact F.9 Bridge occurrence details only when translation was triggered.
+* **USM-Auditable.** Durable result epistemes identify the exact scope, slice, and evaluation result. When translation was triggered, they cite the obtaining F.9 Bridge, separate bounded-use claim, and current A.10 or B.3 reliance without treating those citations as membership truth.
 * **USM‑Composed.** Serial intersection and SpanUnion are implemented in composition tooling.
 
 #### A.2.6:17.3 - Audit checklist (informative)
@@ -58,7 +58,7 @@ Recording these facts does not make membership true, identify the scope, or crea
 * Does each guard **name** a concrete **TargetSlice**?
 * Is **membership** reproducibly evaluable from the exact declared predicate and required inputs?
 * Are **freshness** and **coverage** separate predicates?
-* When exact local-sense translation was required, is the exact obtaining F.9 Bridge occurrence named with congruence and loss?
+* When exact local-sense translation was required, are the obtaining F.9 Bridge, separate C.2.1 use claim, direction, rule, tolerance, polarity, and current A.10 or B.3 reliance branch named?
 * For parallel support: is **independence** justified?
 
 #### A.2.6:17.4 - Risk controls (informative)

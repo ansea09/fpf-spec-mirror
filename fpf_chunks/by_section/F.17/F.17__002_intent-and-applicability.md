@@ -6,13 +6,14 @@ section_id: "F.17:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__002_intent-and-applicability.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:1 — Intent and applicability"
-line_start: 92443
-line_end: 92457
+line_start: 92597
+line_end: 92611
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.SPR"
@@ -23,14 +24,13 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "F.1"
-  - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,19 +45,20 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
+  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:1 - Intent and applicability
 
-`UnifiedTermSheet` is a reader-facing term publication for one bounded unification thread. It gives a careful reader one compact table of reviewed term rows: the chosen Tech and Plain names, the governed value and its kind, the local senses, the bridge relation when cross-context use is claimed, and the small rationale that makes the naming decision reviewable.
+`UnifiedTermSheet` is a reader-facing term publication for one bounded unification thread. It gives a careful reader one compact table of reviewed term rows: the chosen Tech and Plain names, the governed value and its kind, the local senses, the Bridge relation when the exact local-sense projections differ and a correspondence use is current, and the small rationale that makes the naming decision reviewable.
 
 The pattern is useful when a team has already done enough local sense work that a name can be reused without redoing the whole unification argument each time. It is especially useful for:
 
-- public or cross-context role names;
+- public role names and role names reused under more than one interpretation scheme;
 - status-family names and status-window labels;
 - durable relation, slot, interface, or signature names;
-- FPF kind names and local concept names that appear in more than one bounded context;
+- FPF kind names and local concept names that appear under more than one effective reference scheme or reader-facing use;
 - term rows cited by examples, training material, project standards, or tool interfaces;
 - Part G, architecture, transformation, and evaluation vocabulary whose row ids remain stable across editions.
 

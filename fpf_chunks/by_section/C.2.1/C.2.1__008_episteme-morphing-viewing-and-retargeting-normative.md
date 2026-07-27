@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 40731
-line_end: 40759
+line_start: 40899
+line_end: 40927
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -77,7 +77,7 @@ Empirical grounding continues only while every mapped direct relation required b
 
 #### C.2.1:7.3 - Epistemic retargeting
 
-`U.EpistemicRetargeting` is an effect-free morphism relating epistemes with different exact EntitiesOfConcern. `A.6.4` governs the exact correspondence, reinterpretation, or retargeting relation that states what is preserved across the change. When the move also crosses context-local senses, `F.9` supplies the Bridge direction, congruence level, loss notes, and admitted use; it does not replace the subject-side relation. A system may perform exact retargeting work; identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted entity, and actual change facts separately. The retargeting morphism itself performs no work, and no bare A.6.1 `result`, generic work result, or universal production relation is inferred.
+`U.EpistemicRetargeting` is an effect-free morphism relating epistemes with different exact EntitiesOfConcern. `A.6.4` governs the exact correspondence, reinterpretation, or retargeting relation that states what is preserved across the change. When the move also crosses context-local senses, `F.9` governs the exact Bridge occurrence and does not replace the subject-side retargeting relation. A separate C.2.1 assertion says whether that Bridge is suitable for the retargeting use in direction `d`, under rule `r`, within tolerance `t`, with explicit polarity; A.10 or B.3 separately governs reliance. A system may perform exact retargeting work; identify its enacted method, any exact A.6.1 operation application and binding, affected or newly constituted entity, and actual change facts separately. The retargeting morphism itself performs no work, and no bare A.6.1 `result`, generic work result, or universal production relation is inferred.
 
 Examples include retargeting from a module to a function it realizes, from observations to a learned model, or from one holon to a meta-holon or subholon with a different EntityOfConcern. A Fourier representation change is not automatically retargeting: use C.29 first to decide whether the signal remains the EntityOfConcern and only its representation changes. This test prevents mathematical notation from deciding ontology.
 

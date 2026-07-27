@@ -1,37 +1,53 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext Semantic Frame"
+pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
 section_id: "A.1.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__014_relations.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
-  - "A.1.1 — U.BoundedContext Semantic Frame"
+  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:12 — Relations"
-line_start: 2012
-line_end: 2017
+line_start: 2161
+line_end: 2174
 dependencies:
   - "A.1"
-  - "A.15"
+  - "A.14"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.0"
   - "A.6.5"
+  - "A.6.REL"
   - "C.2.1"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.24"
+  - "C.2.P"
+  - "C.29"
+  - "E.17.0"
   - "E.24.PUB"
-  - "F.0.1"
+  - "F.17"
   - "F.18"
   - "F.9"
-  - "U.Holon"
 keywords:
 ---
 
 ### A.1.1:12 - Relations
 
-- **Builds on:** `A.1` for `U.Holon`, `E.24` for ontic discipline, and `A.6.5` for slot relation discipline.
-- **Coordinates with:** `A.15` for role-method-work alignment, `C.2.1` for episteme slot relations, `F.9` for bridge relations, `E.10` and `E.10.ARCH` for context-word repair, and `E.24.PUB` for bounded-context description and publication boundary.
-- **Used by:** role assignments, episteme descriptions, characteristic spaces, architecture descriptions, method descriptions, source interpretations, and any FPF claim whose terms depend on local meaning.
+- `A.1` governs constructive recognition of exact candidates under already admitted holon kinds and its locally declared `U.System`/`U.Episteme` distinctions. Direct identity patterns govern candidate identity; `E.24.UK` governs public-kind admission; A.14 and direct part-relation patterns govern parthood; C.13 governs constructive assembly. A.1 does not supply those decisions by itself.
+- `A.22` governs base `U.Structure` identity through exact constituents, selected obtaining relations, applied constraints, and one named selection-use frame. It also governs the conditional cross-structure question after a direct crossing governor exists.
+- `C.2.1` governs model, expression, rule, inference, and description episteme identity, effective reference schemes, exact EntityOfConcern and ClaimGraph content, `EpistemeEditionRelation`, and empirical grounding. It also identifies the separate bounded-use claim about an F.9 Bridge.
+- `A.2.6` governs `U.ClaimScope`, `U.ContextSlice`, and membership. `C.16` governs measurement bases, readings, scales, units, and direct comparability. `A.2.4` and A.10 govern evidence use; F.10 governs status family and status use; B.3 governs assurance.
+- `A.2`, `A.2.1`, and `A.2.7` govern role taxonomy, role assignment, and role-relation structure in model-use loci.
+- `A.3.1`, `A.15.1`, and `E.18` govern Context Mapping method, performed mapping Work, and transformation-flow structures. A.15.PROD enters only for a separately needed local entity-inception claim.
+- `F.17` and `F.18` govern sense cells, durable public labels, candidate-name history, public rows, lineage, and name refresh. A.1.1 consumes the settled names without copying their dossiers.
+- `F.9` governs an obtaining Bridge between exact F.17 `SchemeSenseCell` values. A Bridge carries relation semantics, not a receiving-use decision or a structure-to-structure crossing. A separate C.2.1 claim states bounded suitability; A.10 or B.3 governs reliance.
+- `E.17.0`, `E.24.PUB`, and `C.29` separately govern view conformance, publication occurrence and availability, representation, rendering, form, and carrier.
+- `C.2.P` recovers an exact source expression and routes any source-use relation to its direct governor.
+- `A.6.0` and `A.6.5` govern the `RelationSignature` and SlotSpecs declared here; `A.6.REL` governs progressive explicit individuation after the direct relation kind, obtaining condition, and occurrence-identity rule exist.
 

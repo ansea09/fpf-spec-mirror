@@ -6,58 +6,65 @@ section_id: "A.6.9:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__009_conformance-checklist.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:7 — Conformance Checklist"
-line_start: 20342
-line_end: 20361
+line_start: 20422
+line_end: 20440
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.6.3.RT"
   - "A.6.6"
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3.3"
-  - "E.10"
-  - "E.10.D1"
-  - "E.10.U9"
   - "E.17"
   - "E.19"
   - "F.0.1"
+  - "F.17"
+  - "F.18"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "CL"
-  - "SenseCells"
-  - "alignment"
-  - "bridge"
-  - "cross-context sameness"
-  - "direction"
-  - "loss notes"
-  - "mapping"
-  - "substitution licence"
-  - "weakest-link"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "actual receiving object"
+  - "ambiguous sameness"
+  - "different <ReferenceScheme"
+  - "direct-owner dispatch"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "explicit stop"
+  - "relation-only F.9 Bridge"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### A.6.9:7 - Conformance Checklist
 
-A document or boundary statement conforms to A.6.9 iff:
+A repaired sentence or boundary statement conforms iff:
 
-* **CC‑A.6.9‑0 (UTS/LEX trigger coverage).** The local lexicon treats umbrella‑sameness tokens as RPR triggers and points authors to Bridge‑explicit rewrites.
-* **CC‑A.6.9‑1 (No standalone umbrella predicate).** Cross‑Context umbrella tokens SHALL NOT be used as standalone cross‑Context predicates unless either:
-  * (a) the paragraph includes an explicit Bridge reference (BridgeId or inline Bridge Card), or
-  * (b) the statement is explicitly marked as non‑licensing explanatory prose (“no Bridge licence; do not substitute; do not justify rows”).
-* **CC‑A.6.9‑2 (SenseCell endpoints).** Every such claim names endpoints as `σ@Context` (edition‑pinned where relevant), not as strings or system names.
-* **CC‑A.6.9‑3 (Direction explicitness).** `dir` is stated on every Bridge. If `kind` is non‑symmetric, any inverse use without redeclaration is non‑conformant.
-* **CC‑A.6.9‑4 (Licence separation).** If the intent is explanation only, authors SHALL either (a) declare `scope = Explanation‑only` on a Bridge, or (b) use explicit non‑licensing prose (no Bridge licence). If the intent is naming compatibility, authors SHALL declare a Bridge with `scope = Naming‑only`. In all cases, the text SHALL NOT invite substitution unless a substitution‑eligible Bridge exists.
-* **CC‑A.6.9‑5 (Substitution thresholds).** Any statement that implies substitution MUST be backed by a substitution‑eligible Bridge (`kind∈{≈,⊑,⊒}`, `CL≥2`, same `senseFamily`, stance‑compatible), with Loss notes and a counter‑example discipline.
-* **CC‑A.6.9‑6 (Weakest‑link respect).** Any Concept‑Set row or composed claim that depends on multiple Bridges MUST bound its scope and `CL` by the weakest participating Bridge.
-* **CC‑A.6.9‑7 (Loss visibility).** Loss notes are present and **non‑empty**. `Loss: none` is permitted only for `CL=3` with cited invariants; `Loss: n/a` is permitted for `kind=⊥`. Loss must be consistent with the allowed scope.
-* **CC‑A.6.9‑8 (Change narration).** Changes to cross‑Context fit are narrated using the change‑class lexicon (`declare`, `withdraw`, `adjustCL`, `rescope`, and related verbs) rather than umbrella verbs.
-* **CC‑A.6.9‑9 (Kind and scope admissibility).** Any Bridge used to justify cross‑Context sameness satisfies the admissibility constraints INV‑XCTX‑KS‑1 … INV‑XCTX‑KS‑5: no overlap-to-substitution, no disjoint or interpretation rows, substitution is directional, and Type-structure only under `≈` + `CL=3` + invariants.
-* **CC‑A.6.9‑10 (Registry reference hygiene).** If a BridgeId or policy or edition id is cited, it is treated as a **registry reference** (existence and edition pinning), not as a semantic symbol exported by signatures.
-* **CC‑A.6.9‑11 (Edition basis).** In decision or publication lanes, any Bridge used to justify Naming-only, substitution, or Type-structure SHALL state `Γ_time` (edition pins or “as-of” basis). If `Γ_time` cannot be stated, the claim MUST remain Explanation-only and MUST NOT justify rows or substitution.
-* **CC‑A.6.9‑12 (Facet honesty).** If the correspondence holds only on a subset of facets, the author SHALL either (a) refine endpoints into the facet SenseCells (preferred) or (b) declare `facetSpan` explicitly, with `Loss` consistent with that facet span. Whole‑cell Bridges MUST NOT be used to smuggle facet‑only correspondences.
+1. **Concrete action.** The reader can say what object, comparison, substitution, translation, publication, or other action is at issue.
+2. **Dispatch before Bridge.** Designation, lane, id, scope, representation, structure, role, and Work claims go to their direct owners first.
+3. **Exact endpoints.** Every Bridge candidate uses two F.17 cell addresses resolving exact values.
+4. **No context object.** Semantic context is derived from endpoint content and introduces no extra participant.
+5. **Direct Bridge truth.** A positive occurrence appears only after the exact profile applies, its predicate is true, and dependencies are present.
+6. **Profile boundary.** Profile identity contains relation semantics only, with no use, tolerance, polarity, reliance, authorization, or receiving object.
+7. **Separate use claim.** Every proposed use names `u`, `d`, `r`, `t`, polarity, and effective scheme in a C.2.1 claim about the exact Bridge.
+8. **Evidence honesty.** Observed loss and mapping witnesses stay in evidence; permitted loss stays in the bounded-use claim; `CL` grants nothing.
+9. **Reliance branch.** Current reliance follows A.10 or B.3 for the same use and does not become authorization.
+10. **Receiving-object boundary.** Any claim that the use happened recovers the actual object under its direct owner.
+11. **Card boundary.** Actual, candidate, and negative cards use the correct EntityOfConcern and never create a Bridge or receiving occurrence.
+12. **Change honesty.** Endpoint, profile, use claim, reliance, card, publication, and receiving-object changes remain distinct.
+13. **No inverse or composition.** An asymmetric inverse, opposite use direction, or direct A-to-C Bridge gets its own exact judgement.
+14. **Practical result.** The final sentence tells the reader what to do, what not to infer, and what condition would stop or reopen the result.
 

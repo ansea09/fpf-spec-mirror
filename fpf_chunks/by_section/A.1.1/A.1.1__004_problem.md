@@ -1,41 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext Semantic Frame"
+pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
 section_id: "A.1.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__004_problem.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
-  - "A.1.1 — U.BoundedContext Semantic Frame"
+  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:2 — Problem"
-line_start: 1780
-line_end: 1789
+line_start: 1799
+line_end: 1804
 dependencies:
   - "A.1"
-  - "A.15"
+  - "A.14"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.0"
   - "A.6.5"
+  - "A.6.REL"
   - "C.2.1"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.24"
+  - "C.2.P"
+  - "C.29"
+  - "E.17.0"
   - "E.24.PUB"
-  - "F.0.1"
+  - "F.17"
   - "F.18"
   - "F.9"
-  - "U.Holon"
 keywords:
 ---
 
 ### A.1.1:2 - Problem
 
-Without `U.BoundedContext`:
+DDD bounded-context practice couples several real concerns: a model is defined and applicable within a boundary; actual systems in assigned roles use it; code and descriptions contain expressions of it; integration and maintenance work aims to keep those expressions consistent; and maps describe relationships among model uses. These are practical prompts to recover exact FPF claims, not evidence that maintenance caused coherence or that a described crossing obtains. Their objects are related, but they are not parts of one additional whole by that fact.
 
-1. **Semantic drift hides in shared words.** Teams keep the same label while changing the object, role, rule, or allowed inference.
-2. **Local rules leak globally.** A policy, status, role, or invariant valid in one context is applied in another without a bridge relation.
-3. **Pluralism looks like contradiction.** Two contexts can each be coherent, but absent context they look mutually inconsistent.
-4. **Role assignments lose their footing.** A `U.Role` is used as a global label rather than a value defined in a local role taxonomy.
-5. **Domain labels pretend to govern.** "Healthcare", "AI", "architecture", or "physics" is used where a specific semantic frame is required.
+FPF needs this joint model-use relation organization selectable as `U.Structure` so it can serve as EntityOfConcern for comparison and maintenance work without becoming a heterogeneous holon, a description, or one universal semantic-locality reference.
 

@@ -6,13 +6,14 @@ section_id: "F.17:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_problem.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2.1 — Problem"
-line_start: 92472
-line_end: 92475
+line_start: 92626
+line_end: 92629
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.SPR"
@@ -23,14 +24,13 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "F.1"
-  - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,10 +45,11 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
+  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:2.1 - Problem
 
-A public term row can make a local word look reusable while hiding the governed object, bounded context, bridge, direct pattern, admissible use, currentness condition, or blocked overread. The problem is to publish a compact term decision that travels across examples, training material, interfaces, and projects without turning the sheet itself into an ontology or authority source.
+A public term row can make a local word look reusable while hiding the governed object, effective scheme, exact local-sense claim, obtaining Bridge, separate claim about the row's use, reliance basis, direct pattern, currentness condition, or blocked overread. The problem is to publish a compact term decision that travels across examples, training material, interfaces, and projects without turning the sheet itself into an ontology, evidence source, permission, or proof that the named use occurred.
 

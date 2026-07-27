@@ -6,13 +6,14 @@ section_id: "F.9:10"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__012_invariants.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:10 — Invariants"
-line_start: 89594
-line_end: 89607
+line_start: 89789
+line_end: 89803
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -20,47 +21,47 @@ dependencies:
   - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.26"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
-  - "E.10.D1"
   - "E.17.ID.CR"
   - "F.0.1"
-  - "F.1"
   - "F.10"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
   - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
-  - "U.BoundedContext"
 keywords:
-  - "Bridge-supported use"
-  - "CL"
-  - "bridge"
-  - "bridge reading"
-  - "cross-context alignment"
-  - "direction"
-  - "loss notes"
-  - "state export"
-  - "weakest-link scope"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "different <ReferenceScheme"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "inverse/composition checks"
+  - "obtaining Bridge"
+  - "optional CL evidence-strength shorthand"
+  - "optional card"
+  - "quantum/coarsening exit"
+  - "relation-semantic profile"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### F.9:10 - Invariants
 
-1. **Locality first.** A Bridge relates `SenseCells`, never contexts as wholes and never strings alone.
-2. **senseFamily discipline.** Substitution Bridges preserve `senseFamily`. Interpretation Bridges may cross `senseFamily` boundaries but remain Explanation-only.
-3. **Direction clarity.** Directional kinds state direction explicitly.
-4. **CL honesty.** `CL <= 2` needs at least one counter-example or boundary case. `CL = 3` needs invariant evidence.
-5. **Loss visibility.** Every Bridge carries Loss Notes, even when the note is "none" at `CL = 3`.
-6. **Weakest-link row discipline.** A Concept-Set row's admitted use is bounded by the weakest participating Bridge.
-7. **No role-assignment by bridge.** A Bridge may inform RoleDescription naming or comparison; `U.RoleAssignment`, required-role satisfaction, and performed-work attribution remain with A.2.1, F.6, and A.15.1.
-8. **No interpretation bridge substitution.** Interpretation Bridges cannot justify substitution rows.
-9. **Design-run honesty.** If a context fixes a design-run distinction, the Bridge respects it or explicitly uses a design-spec-to-run-occurrence interpretation bridge.
-10. **Kernel restraint.** Bridges do not promote ad hoc sameness into a durable U-kind; E.24.UK, A.11, and F.8 govern that decision.
-11. **Non-inheritance of contexts.** Bridges do not imply is-a relations between contexts.
+1. **Exact endpoints first.** A Bridge has exactly two F.17 `SchemeSenseCell` participants.
+2. **No context object.** Semantic context is recovered from endpoint content and is not a relation participant.
+3. **Different context is not enough.** Different projections trigger the question but do not establish the relation.
+4. **Profile contains relation semantics only.** Receiving use, direction, use rule, loss tolerance, polarity, reliance, authorization, and receiving objects are absent from profile identity.
+5. **Obtaining before occurrence reference.** A positive Bridge reference appears only after the fixed predicate is true and its dependencies are present.
+6. **Use claim is separate.** Every proposed use names `u`, `d`, `r`, `t`, and polarity in a C.2.1 claim about the exact Bridge.
+7. **Reliance is separate.** A.10 or B.3, not F.9 or the card, says whether current evidence or assurance supports relying on that claim.
+8. **Role is not occurrence.** The named receiving-use role is ClaimGraph content; any actual Work, assertion, publication, relation, or operation application keeps its own identity and owner.
+9. **Card separation.** Card identity, completion, approval, registration, and publication neither make the relation obtain nor make the use happen.
+10. **Loss separation.** Observed semantic loss is evidence; permitted loss is tolerance inside the bounded-use claim.
+11. **No authorization by implication.** Semantic suitability, evidence reliance, and assurance are not legal, policy, or deontic permission.
+12. **No silent inverse or composition.** An inverse asymmetric relation and any direct A-to-C relation are tested independently.
 

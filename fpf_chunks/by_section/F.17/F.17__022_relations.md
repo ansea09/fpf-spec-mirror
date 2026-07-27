@@ -6,13 +6,14 @@ section_id: "F.17:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__022_relations.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:15 — Relations"
-line_start: 92965
-line_end: 92972
+line_start: 93346
+line_end: 93353
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.19.SPR"
@@ -23,14 +24,13 @@ dependencies:
   - "A.6.5"
   - "A.6.P"
   - "B.3"
+  - "C.2.1"
   - "C.2.P"
   - "E.10"
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
-  - "F.1"
-  - "F.1-F.12"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,12 +45,13 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
+  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:15 - Relations
 
-Builds on: `F.1`, `F.2`, `F.3`, `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18`.
+Builds on: `F.2` and `F.3` for local-sense discovery probes; `C.2.1` for the exact episteme and effective by-value reference scheme; and `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18` for naming, Bridge, and conformance decisions. F.17 does not inherit F.3's retired `U.BoundedContext` reading.
 
 Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17`, `F.4`, `F.6`, `F.10`, `F.14`, and `G.11`. Row-local review after a changed value, name, sense, Bridge, or edition remains with the direct pattern, F.18, F.9, F.15, and these F.17 regression rules. Use G.11 only when an actual refresh plan, edition orchestration, telemetry, freshness, or decay claim is current.
 

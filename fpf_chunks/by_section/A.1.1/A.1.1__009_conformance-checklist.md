@@ -1,44 +1,53 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext Semantic Frame"
+pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
 section_id: "A.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__009_conformance-checklist.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
-  - "A.1.1 — U.BoundedContext Semantic Frame"
+  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:7 — Conformance Checklist"
-line_start: 1955
-line_end: 1967
+line_start: 2100
+line_end: 2113
 dependencies:
   - "A.1"
-  - "A.15"
+  - "A.14"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.0"
   - "A.6.5"
+  - "A.6.REL"
   - "C.2.1"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.24"
+  - "C.2.P"
+  - "C.29"
+  - "E.17.0"
   - "E.24.PUB"
-  - "F.0.1"
+  - "F.17"
   - "F.18"
   - "F.9"
-  - "U.Holon"
 keywords:
 ---
 
 ### A.1.1:7 - Conformance Checklist
 
-| Check | Requirement |
-| --- | --- |
-| `CC-A1.1-1` | A bounded-context claim names the `U.BoundedContext` by value; broad domain-family labels do not govern local meaning. |
-| `CC-A1.1-2` | The context has a boundary, local vocabulary, local invariant set, local role taxonomy when role-assignment claims are current, and local episteme-use/status relation set when epistemic-use/status claims are current. |
-| `CC-A1.1-3` | Role assignments name exactly one bounded context for interpretation. |
-| `CC-A1.1-4` | Cross-context use is expressed through bridge relations with direction, relation kind, fit, loss, and scope. |
-| `CC-A1.1-5` | No context-to-context containment or inheritance is inferred without an explicit bridge or governing relation. |
-| `CC-A1.1-6` | Publication forms that describe a context are not treated as the context itself. |
-| `CC-A1.1-7` | Time, edition, and currentness qualifiers refine the context boundary or publication, but they do not create a new context unless local meaning changes. |
-| `CC-A1.1-8` | Objects interpreted inside a context are not automatically parts of the context holon. |
+1. A positive `BoundedModelUseStructure` exposes all four A.22 discriminators: exact constituents, exact selected obtaining applicability/use/coherence occurrences, exact applied constraints, and one named question/action/overread selection-use frame.
+2. The three direct relation declarations satisfy `WF-A1.1-APP`, `WF-A1.1-USE`, and `WF-A1.1-COH`; any imported-sense receiving use additionally satisfies `WF-A1.1-APP-USE` or `WF-A1.1-COH-USE`. Missing conditions return the named stop rather than a positive assertion.
+3. Every `ModelExpressionCoherencePredicate` **value** satisfies the local five-part membership and value-identity rule. Every `ModelExpressionCoherenceRelation` **occurrence** is participant-determined by `<model episteme, expression episteme, predicate value, comparison scheme>` and has no interval discriminator.
+4. `BoundedModelUseStructure` is governed as `U.Structure`; no context holon, context parthood, meta-holon transition, crossing, description, or publication enters its identity.
+5. Reidentification compares all four discriminators and then applies A.1.1:4.3. A changed applied constraint or changed question/action/overread frame reopens identity even when constituents and relation occurrences are unchanged; a changed page, graph, rendering, or publication does not.
+6. Semantic locality follows the direct-value triage in A.1.1:4.4. A local rule, inference, unit, evidence use, or status use remains at its exact direct owner; a broad label or unrepaired generic-context field cannot manufacture the missing participant.
+7. A description episteme designates its exact EntityOfConcern under C.2.1. Empirical grounding requires one exact `EpistemeEmpiricalGroundingRelation`; a reference field, structure, view, or publication does not make it obtain.
+8. DDD Context Mapping is recovered as method, dated Work, claim-bearing product, proposed or obtaining crossing organization, view conformance, representation, and publication under their separate owners. `WF-A1.1-CROSS` blocks a positive cross-structure member while the direct crossing governor or an A.22 discriminator is missing.
+9. A code/schema cue is classified from the exact claim as claim-bearing episteme content, repository/file/form/carrier, or deployed system/structure; the cue itself supplies no common kind.
+10. Two model uses over one subsystem yield two structures only when each independently supplies all three obtaining relation families, applied constraints, and its exact selection-use frame. Missing coherence or another discriminator leaves that side at its direct relations.
+11. The structure is omitted when its joint organization changes no receiving decision. The reader can name both the admissible action and the nearest overread; otherwise the reader stops at the direct relation or direct owner.
 

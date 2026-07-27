@@ -6,12 +6,12 @@ section_id: "A.3.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__005_forces.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:3 — Forces"
-line_start: 7793
-line_end: 7802
+line_start: 7970
+line_end: 7979
 dependencies:
   - "A.1"
   - "A.10"

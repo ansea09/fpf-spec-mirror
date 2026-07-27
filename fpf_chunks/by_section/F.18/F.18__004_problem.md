@@ -6,13 +6,14 @@ section_id: "F.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__004_problem.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:2 — Problem"
-line_start: 93016
-line_end: 93028
+line_start: 93397
+line_end: 93409
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -20,16 +21,17 @@ dependencies:
   - "A.6.RCD"
   - "A.6.REL"
   - "A.6.RSIR"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
   - "E.24.PUB"
   - "F.0.1"
   - "F.1"
-  - "F.1-F.17"
   - "F.13"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -45,7 +47,7 @@ keywords:
 
 FPF texts fail when names are treated as if they carried ontology by themselves.
 
-1. A short label appears in another context and gets treated as the same value, although no bridge says what survives.
+1. A short label appears in another context and gets treated as the same value although no obtaining Bridge establishes the exact sense relation, no separate claim says that Bridge suits this reuse, and no current reliance supports that claim.
 2. A role-looking name quietly bundles role value, holder assignment, capability, method fit, work evidence, or authorization.
 3. A status-like or evidence-like phrase becomes a fake role or fake type because the row says "evidence role", "status role", or similar wording.
 4. A relation, declaration-local slot, interface, port, or signature name hides the exact governed object, relation-participant meaning, or direct pattern that should own the claim.

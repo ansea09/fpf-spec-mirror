@@ -6,48 +6,56 @@ section_id: "A.6.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__001_intro.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:intro — Intro"
-line_start: 19999
-line_end: 20008
+line_start: 20176
+line_end: 20185
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.6.3.RT"
   - "A.6.6"
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3.3"
-  - "E.10"
-  - "E.10.D1"
-  - "E.10.U9"
   - "E.17"
   - "E.19"
   - "F.0.1"
+  - "F.17"
+  - "F.18"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "CL"
-  - "SenseCells"
-  - "alignment"
-  - "bridge"
-  - "cross-context sameness"
-  - "direction"
-  - "loss notes"
-  - "mapping"
-  - "substitution licence"
-  - "weakest-link"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "actual receiving object"
+  - "ambiguous sameness"
+  - "different <ReferenceScheme"
+  - "direct-owner dispatch"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "explicit stop"
+  - "relation-only F.9 Bridge"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ## A.6.9 - Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)
 > **Type:** Relational precision-restoration pattern
 > **Status:** Stable
 
-**Use this pattern when** a document, table row, boundary statement, or publication claim says “same”, “equivalent”, “aligned”, “mapped”, or “corresponding” across contexts, reference planes, A.7 lanes, or SenseCells.
+**Use this pattern when** a document, table row, boundary statement, or publication claim uses *same*, *equivalent*, *aligned*, *mapped*, or *corresponding* in a way that may hide ordinary designation, a non-semantic lane or id claim, or a real relation between exact local senses.
 
-**What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or substitution license; direction, loss, scope, edition, and admissible use disappear.
+**What goes wrong if missed.** A label match, explanation, ID mapping, or partial correspondence becomes global identity or a licence for an unspecified use. Direction, use rule, tolerated loss, evidence, and the actual downstream act disappear inside one umbrella word.
 
-**What this buys.** The sameness claim becomes an explicit Bridge claim with direction, BridgeKind, CL, loss, scope, time basis, witness refs, and a boundary between interpretation and substitution.
+**What this buys.** The sentence becomes one concrete result: a same-context designation, a claim routed to its direct owner, an obtaining F.9 Bridge plus a separately stated bounded use, or an explicit stop. A card is added only when the claims must travel.
 

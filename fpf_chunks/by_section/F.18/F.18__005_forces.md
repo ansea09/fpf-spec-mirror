@@ -6,13 +6,14 @@ section_id: "F.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__005_forces.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:3 — Forces"
-line_start: 93029
-line_end: 93038
+line_start: 93410
+line_end: 93419
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -20,16 +21,17 @@ dependencies:
   - "A.6.RCD"
   - "A.6.REL"
   - "A.6.RSIR"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
   - "E.24.PUB"
   - "F.0.1"
   - "F.1"
-  - "F.1-F.17"
   - "F.13"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -45,7 +47,7 @@ keywords:
 
 | Force | Naming tension |
 | --- | --- |
-| Local sense and cross-scheme reuse | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable under another without spelling-based identity. |
+| Local sense and reuse across different semantic-context projections | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable to a different `<ReferenceScheme, LocalSenseClaim>` projection without spelling-based identity. The projections can differ under one scheme. |
 | Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep governed kind, effective reference scheme, local sense, governing pattern, and intended use recoverable. |
 | Continuity and correction | Readers need stable public names, while authors must be able to rename, split, merge, or retire names without erasing earlier uses. |
 | Familiarity and precision | Familiar words are easier to adopt, but some familiar words import wrong prototypes from another discipline. |

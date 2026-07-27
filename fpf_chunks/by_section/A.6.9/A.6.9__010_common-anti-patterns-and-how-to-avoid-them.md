@@ -6,58 +6,65 @@ section_id: "A.6.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 20362
-line_end: 20381
+line_start: 20441
+line_end: 20459
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.6.3.RT"
   - "A.6.6"
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3.3"
-  - "E.10"
-  - "E.10.D1"
-  - "E.10.U9"
   - "E.17"
   - "E.19"
   - "F.0.1"
+  - "F.17"
+  - "F.18"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "CL"
-  - "SenseCells"
-  - "alignment"
-  - "bridge"
-  - "cross-context sameness"
-  - "direction"
-  - "loss notes"
-  - "mapping"
-  - "substitution licence"
-  - "weakest-link"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "actual receiving object"
+  - "ambiguous sameness"
+  - "different <ReferenceScheme"
+  - "direct-owner dispatch"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "explicit stop"
+  - "relation-only F.9 Bridge"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### A.6.9:8 - Common Anti-Patterns and How to Avoid Them
 
-| ID            | Anti‑pattern           | Example                                              | Why it breaks                                           | Remedy                                                               |
-| ------------- | ---------------------- | ---------------------------------------------------- | ------------------------------------------------------- | -------------------------------------------------------------------- |
-| **AP‑XCTX‑1** | Bridge‑by‑adjective    | “A is the same as B (across contexts).”              | Smuggles scope + direction + loss as implicit defaults. | Replace with Bridge Card + explicit `scope`.                         |
-| **AP‑XCTX‑3** | Stealth substitution   | “We’ll just treat A like B for now.”                 | Introduces implicit licence without CL and Loss gates.      | Publish Bridge Card; if CL<2, keep `Naming-only`.                    |
-| **AP‑XCTX‑2** | Symmetry hallucination | Treating `⊑/⊒` as symmetric “equivalence”.           | Causes unsafe inverse substitution.                     | Record `kind` and `dir`. Only symmetric kinds (`≈`, `⋂`, `⊥`, `⇄ᴅʀ`) may be written as `A↔B`; inclusion kinds require direction; substitution is always directional. |
-| **AP‑XCTX‑4** | Lossless fantasy       | “Equivalent” with no loss note.                      | Loss is almost always present; hiding it misleads decisions.       | State Loss notes (even if “none”), add a counter-example (CL≤2) or invariants (CL=3); adjust CL and scope accordingly. |
-| **AP‑XCTX‑5** | Silent inversion       | Later prose uses B→A without redeclaration.          | Violates direction guard; breaks auditability.          | Declare inverse Bridge (new id) or withdraw+replace.                 |
-| **AP‑XCTX‑6** | Confidence laundering  | Raising CL or scope without new invariants or evidence. | Inflates trust; expands row scopes illegitimately.      | Use `adjustCL` or `rescope` with witnessRefs and DRR.                     |
-| **AP‑XCTX‑7** | Chain upgrade          | Treating A↠B and B↠C as “therefore A≈C”.             | Violates weakest‑link and loss accumulation.            | Use min‑CL and accumulated Loss; avoid chaining unless justified.    |
-| **AP‑XCTX‑8** | Conditional scope smuggling | “Naming‑only generally; substitution in workflow X.” | Encodes two licences in one record; leaks into row scope and downstream reasoning. | Refine endpoints (SenseCell split) and declare a separate Bridge for the guarded subset; keep broad Bridge Naming‑only. |
-| **AP‑XCTX‑9** | Artefact⇒equivalence fallacy | “There is a mapping table, so they are the same.” | Confuses operational transformation with semantic licence; hides Loss and direction. | Record the witness in `witnessRefs`, keep Bridge `kind`, `dir`, and `Loss` explicit, and keep scope capped until CL plus counterexamples justify promotion. |
-| **AP‑XCTX‑10** | Two-way substitution by symmetry | “The Bridge is A↔B, so we can substitute both ways.” | `A↔B` expresses correspondence symmetry, not two substitution licences; substitution is directional and must be stated (F.9:13.2). | Declare both substitution directions explicitly, as two licences, two Bridges, or two editions, each with Loss plus counter-examples. |
-| **AP‑XCTX‑11** | Kind and direction mismatch | `kind=⊒` but `dir=A→B` is used as if it licensed substitution. | Inverts narrower and broader; encourages unsafe “narrowing substitution” and silent information loss. | Swap endpoints (so the intended safe direction is written as `A→B` with `kind=⊑`), or declare an explicit inverse Bridge; keep scope ≤ Naming-only until the direction is justified. |
-| **AP‑XCTX‑12** | Kernel promotion by Bridge | “Since A≈B, we can admit a unified global kind and treat both as instances.” | Bridges translate local senses; they do not admit new U-kinds. | If you need a new shared kind, follow E.24.UK and A.11; keep Bridges as translators between Context-local senses. |
-| **AP‑XCTX‑13** | Edition drift or timeless equivalence | “A is equivalent to B” with no edition or as-of basis. | Makes the claim temporally incoherent as canons evolve; readers silently compare different revisions. | Pin editions via `Γ_time`; publish Bridge edits as new editions; fail-closed to Explanation-only when `Γ_time` cannot be stated. |
-| **AP‑XCTX‑14** | Facet‑only alignment masquerading as whole‑cell sameness | “Customer corresponds to User” (but only `email` or an external ID aligns). | Collapses a partial lens into global sameness; invites unsafe substitution and row scope creep. | Refine endpoints to the facet SenseCells, or declare `facetSpan` explicitly and keep `scope` capped (usually Naming‑only). |
-| **AP‑XCTX‑15** | Lexical translation ⇒ semantic identity | “Term A is the same as term B” as a translation or synonym. | Confuses labels with referents; erases loss and context. | Use `scope=Naming-only` with explicit `Loss`, including language and canon notes, and a counter-example; do not imply substitution. |
+| ID | Anti-pattern | Failure | Repair |
+| --- | --- | --- | --- |
+| `AP-XCTX-1` | Bridge by adjective | *Same* or *aligned* hides relation and action. | Name the action; dispatch it; test F.9 only if semantic correspondence remains. |
+| `AP-XCTX-2` | Scheme difference becomes relation | Two schemes differ, so a Bridge is presumed. | Treat difference as a trigger only; establish the direct predicate. |
+| `AP-XCTX-3` | Profile as use licence | Direction, rule, or tolerated loss is embedded in profile identity. | Move it to the separate C.2.1 bounded-use claim. |
+| `AP-XCTX-4` | Bridge-alone substitution | An obtaining Bridge is cited as sufficient for a use. | Require the affirmative bounded-use claim and current A.10 or B.3 reliance. |
+| `AP-XCTX-5` | Mapping witness becomes semantics | A lookup, score, or ETL path proves the relation or use. | Keep it as evidence and test both propositions explicitly. |
+| `AP-XCTX-6` | String or id becomes endpoint | A word, file, id, or system fills a SenseCell slot. | Resolve the exact F.17 cell; route ids to A.6.6. |
+| `AP-XCTX-7` | Symmetry grants two use directions | One symmetric occurrence is read as two licences. | State each direction in its own use claim. |
+| `AP-XCTX-8` | Loss note becomes tolerance | An observed difference is assumed acceptable. | Keep it in evidence and name accepted loss as `t`. |
+| `AP-XCTX-9` | Confidence laundering | Higher `CL` or reviewer approval grants a use. | Treat `CL` as evidence shorthand and recover claim polarity plus reliance. |
+| `AP-XCTX-10` | Suitability becomes permission | An affirmative semantic claim is read as authorization. | Open the exact policy or deontic governor, or state no authorization. |
+| `AP-XCTX-11` | Named use becomes occurrence | “Publication use” is treated as a publication. | Recover the exact receiving object under E.17 or its actual owner. |
+| `AP-XCTX-12` | Chain upgrade | A-to-B and B-to-C become direct A-to-C equivalence. | Test a direct A-to-C Bridge and composite use independently. |
+| `AP-XCTX-13` | Timeless or facetless claim | Edition or compared facet stays hidden. | State applicability and refine endpoint readings. |
+| `AP-XCTX-14` | Kernel promotion | A strong Bridge is used to admit one global U-kind. | Apply E.24.UK and A.11 independently. |
 

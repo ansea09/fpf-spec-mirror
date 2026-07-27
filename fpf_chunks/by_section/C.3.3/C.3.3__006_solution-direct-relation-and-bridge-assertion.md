@@ -6,12 +6,12 @@ section_id: "C.3.3:5"
 section_title: "Solution — Direct relation and bridge assertion"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__006_solution-direct-relation-and-bridge-assertion.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:5 — Solution — Direct relation and bridge assertion"
-line_start: 44423
-line_end: 44438
+line_start: 44592
+line_end: 44607
 dependencies:
   - "A.2.6"
   - "A.6.REL"

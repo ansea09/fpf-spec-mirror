@@ -6,13 +6,14 @@ section_id: "F.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__001_intro.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:intro — Intro"
-line_start: 89391
-line_end: 89405
+line_start: 89563
+line_end: 89577
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -20,34 +21,33 @@ dependencies:
   - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.26"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
-  - "E.10.D1"
   - "E.17.ID.CR"
   - "F.0.1"
-  - "F.1"
   - "F.10"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
   - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
-  - "U.BoundedContext"
 keywords:
-  - "Bridge-supported use"
-  - "CL"
-  - "bridge"
-  - "bridge reading"
-  - "cross-context alignment"
-  - "direction"
-  - "loss notes"
-  - "state export"
-  - "weakest-link scope"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "different <ReferenceScheme"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "inverse/composition checks"
+  - "obtaining Bridge"
+  - "optional CL evidence-strength shorthand"
+  - "optional card"
+  - "quantum/coarsening exit"
+  - "relation-semantic profile"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ## F.9 - Alignment and Bridge across Contexts
@@ -59,9 +59,9 @@ keywords:
 **Type:** Architectural pattern.
 **Status:** Stable.
 **Normativity:** Normative.
-**Builds on:** E.10.D1 (context discipline: Context = `U.BoundedContext`); F.0.1 (`senseFamily` and status-modality guard; bridge-only crossing); F.1 (contexts fixed); F.2 and F.3 (SenseCells exist); F.7 (Concept-Set rows depend on bridges); F.8 (mint-or-reuse decision consumes bridge results without strengthening them).
+**Builds on:** F.17 for exact scheme-based `SchemeSenseCell` identity and `SenseCellAddressRef`; F.18 for designation selection; C.2.1 for assertion and description-episteme identity; F.0.1 for `senseFamily` and bridge-only crossing discipline; F.7 and F.8 for downstream naming and reuse decisions.
 
-**Coordinates with:** A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role, role-description, role-assignment, and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; B.3 for assurance penalties; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
+**Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance claims and minimum assurance records; A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
 
 **Plain entry cues (informative).** Context-to-context translator; sense bridge.
 

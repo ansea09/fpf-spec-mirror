@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `504747d26299e3963dc0457bf48d4e2a791d926a`
+Commit SHA: `60caecb4751fb2a3623a1faaca757d29a19acff9`
 
 Chunking method: `pattern-aware`
 
@@ -12,7 +12,7 @@ Patterns: `290`
 
 - [A.0 — Onboarding Glossary (NQD & E/E‑LOG)](by_pattern/A.0.md)
 - [A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)](by_pattern/A.1.md)
-- [A.1.1 — U.BoundedContext Semantic Frame](by_pattern/A.1.1.md)
+- [A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery](by_pattern/A.1.1.md)
 - [A.2 — Role Taxonomy](by_pattern/A.2.md)
 - [A.2.1 — U.RoleAssignment - System Role Assignment](by_pattern/A.2.1.md)
 - [A.2.2 — U.Capability - System Ability Envelope and Measures](by_pattern/A.2.2.md)

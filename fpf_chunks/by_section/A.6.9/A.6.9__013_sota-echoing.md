@@ -6,51 +6,59 @@ section_id: "A.6.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__013_sota-echoing.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:11 — SoTA-Echoing"
-line_start: 20412
-line_end: 20424
+line_start: 20485
+line_end: 20497
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.6.3.RT"
   - "A.6.6"
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.2.1"
+  - "C.29"
   - "C.3.3"
-  - "E.10"
-  - "E.10.D1"
-  - "E.10.U9"
   - "E.17"
   - "E.19"
   - "F.0.1"
+  - "F.17"
+  - "F.18"
   - "F.5"
+  - "F.6"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "CL"
-  - "SenseCells"
-  - "alignment"
-  - "bridge"
-  - "cross-context sameness"
-  - "direction"
-  - "loss notes"
-  - "mapping"
-  - "substitution licence"
-  - "weakest-link"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "actual receiving object"
+  - "ambiguous sameness"
+  - "different <ReferenceScheme"
+  - "direct-owner dispatch"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "explicit stop"
+  - "relation-only F.9 Bridge"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### A.6.9:11 - SoTA-Echoing
 
-(informative; post‑2015 alignment)
+(informative; post-2015 alignment)
 
-| SoTA practice                                                            | Primary source (post‑2015)                                              | What A.6.9 echoes                                                   | What A.6.9 adds                                                                                               | Stance                   |
-| ------------------------------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------- | ------------------------ |
-| Correspondences between viewpoints in architecture descriptions          | ISO/IEC/IEEE 42010:2022                                                 | Correspondences are not identity; they have intent and constraints. | Forces direction/degree/loss to be explicit via Bridge Card slots.                                            | **Adopt + specialise**   |
-| Declarative constraint systems and validation shapes                     | W3C SHACL (Recommendation, 2017)                                        | Make implicit semantics checkable by explicit structure.            | Uses Bridge Cards as “shape of correspondence”: explicit slots + counterexample discipline.                   | **Adapt**                |
-| Entity alignment as scored correspondences with errors (embedding‑based) | BootEA (Sun et al., 2018) and related post‑2015 KG alignment literature | Alignment is graded, not binary; error analysis matters.            | Replaces raw scores with a coarse, auditable ordinal (`CL`) + explicit Loss notes and scope licences.         | **Adapt**                |
-| Entity alignment using textual encoders (transformer‑based)              | BERT‑INT (Tang et al., IJCAI 2020); Ditto (Li et al., PVLDB 2021)        | Modern matchers output scored/conditional correspondences.          | Turns “score” into an auditable licence (`CL/scope`) plus explicit error modes (`Loss` + counterexamples).    | **Adopt (conceptually)** |
-| Deep learning for schema matching as a family of match types             | SMAT (Zhang et al., 2021) and post‑2020 neural/LLM schema matching lines | “Matches” are heterogeneous and directional in practice.            | Makes match type explicit as Bridge kind + direction + licence scope (separating semantics from implementation witnesses).   | **Adapt**                |
-| Human‑in‑the‑loop entity matching (thresholding + error analysis)        | “Deep Learning for Entity Matching: A Design Space Exploration” (Mudgal et al., SIGMOD 2018) and follow‑on work | Scores are not licences; practice needs thresholds, abstention, and curated error cases. | Mirrors the “explain vs name vs substitute” split: scores stay in `witnessRefs`; promotion requires Loss + counter‑examples and an explicit scope upgrade. | **Adapt** |
+| SoTA practice | Primary source | What A.6.9 echoes | What A.6.9 adds | Stance |
+| --- | --- | --- | --- | --- |
+| Correspondences between viewpoints | ISO/IEC/IEEE 42010:2022 | Correspondence is not identity and retains intent and constraints. | Separates the direct semantic relation from each proposed use and actual publication or view object. | **Adopt + specialise** |
+| Declarative validation shapes | W3C SHACL (2017) | Make implicit conditions testable. | Uses a profile for relation truth, a claim for bounded-use suitability, and a card only for packaging. | **Adapt** |
+| Scored entity alignment with error analysis | BootEA (Sun et al., 2018) and later KG-alignment literature | Alignment evidence is graded and fallible. | Keeps scores and counterexamples as evidence rather than relation identity or a use licence. | **Adapt** |
+| Textual entity matching | BERT-INT (Tang et al., 2020); Ditto (Li et al., 2021) | Matchers yield conditional, error-prone correspondences. | Requires exact endpoint readings, a falsifiable Bridge predicate, and a separate action-specific claim. | **Adopt conceptually** |
+| Heterogeneous schema matching | SMAT (Zhang et al., 2021) and later neural or LLM matching work | “Match” covers several relation types. | Distinguishes relation kind, relation orientation, proposed-use direction, rule, and tolerance. | **Adapt** |
+| Human-in-the-loop matching | Mudgal et al. (SIGMOD 2018) and follow-on work | Scores require abstention and curated error cases. | Routes evidence through A.10 or B.3 and preserves explicit negative or blocked outcomes. | **Adapt** |
 

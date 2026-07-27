@@ -6,13 +6,14 @@ section_id: "F.9:6"
 section_title: "Bridge kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_bridge-kinds.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:6 — Bridge kinds"
-line_start: 89481
-line_end: 89524
+line_start: 89710
+line_end: 89732
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -20,77 +21,55 @@ dependencies:
   - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.26"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
-  - "E.10.D1"
   - "E.17.ID.CR"
   - "F.0.1"
-  - "F.1"
   - "F.10"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
   - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
-  - "U.BoundedContext"
 keywords:
-  - "Bridge-supported use"
-  - "CL"
-  - "bridge"
-  - "bridge reading"
-  - "cross-context alignment"
-  - "direction"
-  - "loss notes"
-  - "state export"
-  - "weakest-link scope"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "different <ReferenceScheme"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "inverse/composition checks"
+  - "obtaining Bridge"
+  - "optional CL evidence-strength shorthand"
+  - "optional card"
+  - "quantum/coarsening exit"
+  - "relation-semantic profile"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### F.9:6 - Bridge kinds
 
-F.9 distinguishes substitution bridges from interpretation bridges.
+A Bridge kind classifies the direct semantic relation tested by a profile. It says what correspondence or difference obtains; it does not settle any proposed use.
 
-#### F.9:6.1 - Substitution bridges
+#### F.9:6.1 - Same-family relation kinds
 
-These relate `SenseCells` in the same `senseFamily` and may admit bounded substitution of sense.
+1. **Equivalence** - the endpoint senses have the same extension and relevant intension under the stated relation condition. The relation is symmetric and should be rare. A later use still names its direction, rule, and tolerance.
+2. **Narrower-than** - the source sense is properly included in the receiving sense. The relation is asymmetric.
+3. **Broader-than** - the source sense properly includes the receiving sense. The relation is asymmetric.
+4. **Partial-overlap** - the senses have a non-empty intersection, while each has cases excluded by the other. The relation is symmetric.
+5. **Disjoint** - the senses have no common admissible case under the stated readings. The relation is symmetric.
 
-1. **Equivalence** - near-identity of sense. Symmetric and rare.
-   Use: may admit Type-structure rows only when `CL = 3` and invariants match.
-   Loss Notes: none or profile-level differences, with the invariant evidence stated.
+For inclusion, a narrower-to-broader proposed use is usually easier to justify than the reverse, but neither direction follows from the relation alone. A broader-to-narrower proposal normally needs refined endpoint cells and a separately tested Bridge plus a separately warranted bounded-use claim.
 
-2. **Narrower-than and Broader-than** - proper inclusion of sense. Directional.
-   Use: narrower-to-broader may admit Naming-only and, at `CL >= 2`, role-description naming or other same-family name reuse. Broader-to-narrower is not admitted unless a separate Bridge states it.
-   Loss Notes: special cases, enforcement conditions, or local constraints that fail to carry.
+#### F.9:6.2 - Cross-family relation kinds
 
-3. **Partial-overlap** - non-empty intersection where neither sense includes the other.
-   Use: Naming-only at best. It never admits role assignment, performed-work attribution, or Type-structure inference.
-   Loss Notes: A-only sense and B-only sense.
+These kinds state semantic correspondence across different `senseFamily` readings. They explain a connection; they do not create substitution, evidence authority, policy force, or a receiving occurrence.
 
-4. **Disjoint** - explicit contrast.
-   Use: contrastive explanation only.
-   Loss Notes: not applicable; the claim is incompatibility.
-
-#### F.9:6.2 - Interpretation bridges
-
-These explain connections across `senseFamily` boundaries. They do not admit substitution or Concept-Set rows beyond local explanation.
-
-5. **Design-spec-to-run-occurrence** - a design sense relates to a run-time occurrence sense.
-   Example: `BPMN:Process` to `PROV:Activity`.
-   Use: explain design-to-run correspondence.
-   Loss Notes: process model versus occurrence, control structure versus temporal extent.
-
-6. **Measurement-evidence-for** - a measurement sense evidences or quantifies another sense.
-   Example: `SOSA:Observation` to `ITIL:SLO fulfilment`.
-   Use: explain evaluation; direct evidence-use remains with A.10, B.3, E.17, F.10, or the local status pattern.
-
-7. **Policy-constraint-on** - a policy or deontic sense constrains another sense.
-   Example: `ODRL:Duty` to service behavior.
-   Use: explain a constraint relation; direct policy, gate, or authority claims remain with the governing pattern.
-
-8. **Viewpoint-correspondence** - one view, report, model, dashboard, or viewpoint-bound episteme corresponds to another view over an EntityOfConcern.
-   Use: explain cross-view comparison; direct architecture-description, episteme, publication, or source-use claims remain with their governing patterns.
+6. **Design-spec-to-run-occurrence** - a design sense corresponds to a run-time occurrence sense while remaining different in temporal and realization status.
+7. **Measurement-evidence-for** - a measurement sense corresponds to the measured aspect of another sense. The kind is semantic; actual evidential support remains with A.10 or B.3.
+8. **Policy-constraint-on** - a policy or deontic sense corresponds to a constrained behavioral sense. Actual obligation, permission, or authority remains with the policy or deontic governor.
+9. **Viewpoint-correspondence** - a sense used in one view corresponds to a sense used in another view over an EntityOfConcern. View, description, publication, and source-use claims keep their direct owners.
 

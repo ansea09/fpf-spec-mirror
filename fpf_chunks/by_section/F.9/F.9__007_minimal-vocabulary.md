@@ -6,13 +6,14 @@ section_id: "F.9:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__007_minimal-vocabulary.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:5 — Minimal vocabulary"
-line_start: 89468
-line_end: 89480
+line_start: 89694
+line_end: 89709
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -20,46 +21,48 @@ dependencies:
   - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.26"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
-  - "E.10.D1"
   - "E.17.ID.CR"
   - "F.0.1"
-  - "F.1"
   - "F.10"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
   - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
-  - "U.BoundedContext"
 keywords:
-  - "Bridge-supported use"
-  - "CL"
-  - "bridge"
-  - "bridge reading"
-  - "cross-context alignment"
-  - "direction"
-  - "loss notes"
-  - "state export"
-  - "weakest-link scope"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "different <ReferenceScheme"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "inverse/composition checks"
+  - "obtaining Bridge"
+  - "optional CL evidence-strength shorthand"
+  - "optional card"
+  - "quantum/coarsening exit"
+  - "relation-semantic profile"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### F.9:5 - Minimal vocabulary
 
-* **Context** - shorthand for `U.BoundedContext` per E.10.D1.
-* **SenseCell** - the pair `(Context, Local-Sense)` from F.3.
-* **Bridge** - a declared relation between two `SenseCells` with kind, direction, `CL`, Loss Notes, and admitted use.
-* **CL (Congruence Level)** - ordinal congruence class `0..3` for one Bridge.
-* **Admitted use** - what the Bridge lets a downstream claim do without overclaim.
-* **Naming-only** - cross-context prose label or Concept-Set row label only.
-* **Role-description naming** - a row or label may inform a `RoleDescription` name for one local `U.Role`; it does not assign that role and does not attribute performed work.
-* **Type-structure** - structural inference across contexts; admissible only at `CL = 3` with named invariants.
-* **Explanation-only** - interpretation relation across sense families; no row substitution and no direct role, status, work, evidence, gate, or decision effect.
-* **senseFamily** - the local meaning family used by Part F, such as Role, Status, Measurement, Type-structure, Method, Work occurrence, Evidence-use, or Policy-use. A `senseFamily` label is not a durable U-kind by itself.
+* **Semantic context** - Plain shorthand for the interpretation basis `<ReferenceScheme, LocalSenseClaim>` recovered from an exact F.17 cell; it is not a separate entity or participant.
+* **SchemeSenseCell** - the exact F.17 local composite value `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`.
+* **SenseCellAddressRef** - an address that resolves one exact `SchemeSenseCell`; the address is not the cell.
+* **Bridge** - an obtaining direct semantic relation between two exact `SchemeSenseCell` values from different semantic contexts under one exact profile.
+* **BridgePredicateProfile** - the F.9-local by-value declaration of the direct relation's kind, symmetry or orientation, endpoint readings, correspondence or difference condition, applicability and as-of basis, Boolean truth condition, and stop dependencies.
+* **Bounded-use claim** - an ordinary C.2.1 claim that says whether one exact obtaining Bridge is suitable for one named use, direction, use-specific rule, and loss tolerance. This phrase is descriptive, not a new public kind name.
+* **Relation orientation** - how the Bridge kind orders or symmetrically relates its endpoint slots; it is not a use licence.
+* **Use direction** - the ordered `<UseSourceSenseCell, UseReceivingSenseCell>` designated inside one bounded-use claim.
+* **Observed semantic loss** - a difference or counterexample found in evidence. It can bear on a bounded-use claim but is not the use's permitted-loss tolerance.
+* **Permitted-loss tolerance** - the maximum named loss accepted by one proposed use; it is content of that use's C.2.1 claim.
+* **Bridge Card** - an optional C.2.1 claim-bearing episteme about an actual Bridge or a proposed relation candidate; it is not the relation.
+* **CL (Congruence Level)** - optional F.9-local shorthand for the strength of evidence about a stated correspondence. It is neither a participant nor a use threshold and never grants a use.
+* **senseFamily** - the local meaning family used by Part F. A `senseFamily` label is not a durable U-kind.
 

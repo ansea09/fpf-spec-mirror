@@ -1,43 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.1.1"
-pattern_title: "U.BoundedContext Semantic Frame"
+pattern_title: "Bounded Model-Use Structure and DDD Bounded-Context Recovery"
 section_id: "A.1.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__008_bias-annotation.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
-  - "A.1.1 — U.BoundedContext Semantic Frame"
+  - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:6 — Bias-Annotation"
-line_start: 1943
-line_end: 1954
+line_start: 2092
+line_end: 2099
 dependencies:
   - "A.1"
-  - "A.15"
+  - "A.14"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.0"
   - "A.6.5"
+  - "A.6.REL"
   - "C.2.1"
-  - "E.10"
-  - "E.10.ARCH"
-  - "E.10.D1"
-  - "E.24"
+  - "C.2.P"
+  - "C.29"
+  - "E.17.0"
   - "E.24.PUB"
-  - "F.0.1"
+  - "F.17"
   - "F.18"
   - "F.9"
-  - "U.Holon"
 keywords:
 ---
 
 ### A.1.1:6 - Bias-Annotation
 
-Lenses tested: **Onto**, **Epist**, **Prag**, **Gov**, **Arch**, **Did**.
+This pattern has a DDD lineage bias because bounded context is the source term. Outside software, use A.1.1 only when the domain has one claim-bearing model edition, explicit applicability, actual use in assigned Work, fixed-content expression coherence, and a present decision changed by their joint organization. Industrial control, clinical or billing terminology, and published classifications can meet that test through different direct governors; a familiar context label cannot.
 
-This pattern intentionally resists:
+It has a structure-selection bias. The lightweight stop rule prevents mere local terminology, model mention, or implementation and organizational partition from becoming a structure without the required model-use relation organization.
 
-- **global-language bias:** one spelling is treated as one meaning everywhere;
-- **domain-family bias:** a broad field label is treated as if it governed local meaning;
-- **enclosing-object bias:** the context is treated as a storage place or enclosing object for all related work;
-- **role-globalization bias:** a role name is used without the context that defines it;
-- **bridge-erasure bias:** cross-context fit and loss are hidden behind "same", "equivalent", or "mapped" language.
+It also has a model-coherence bias. Actual systems, work, methods, transformations, epistemes, and role assignments keep their own identities and can remain the referents designated by receiving epistemes when the joint relation organization is not the subject of the receiving use.
 

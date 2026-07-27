@@ -6,12 +6,12 @@ section_id: "F.9.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__005_solution.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:4 — Solution"
-line_start: 90001
-line_end: 90024
+line_start: 90155
+line_end: 90178
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

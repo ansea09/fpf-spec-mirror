@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 33718
-line_end: 33993
+line_start: 33791
+line_end: 34068
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -139,11 +139,11 @@ Open `A.22.CGUS` only when the candidate has several loci and cross-locus constr
 
 #### A.22:4.1c - Bounded And Cross-Context Model-Use Structure Specializations
 
-`BoundedModelUseStructure` is a `U.Structure` selected over one exact model episteme, exact admitted model-use holons, and obtaining model-applicability, actual model-use, model-expression-coherence, and boundary-crossing relation occurrences governed by `A.1.1`. Participating claim-scope values and their `A.2.6` membership semantics constrain that organization without creating a duplicate scope-delimitation relation. Its A.22 identity uses those exact constituents, selected occurrences, applied constraints, and the named bounded-model-use frame; continuity across model editions additionally requires the exact `C.2.1` episteme-edition relation and the declared `A.1.1` continuity rule. It is not a holon, description, or view.
+`BoundedModelUseStructure` is a `U.Structure` selected over one exact model episteme, exact admitted model-use holons, the obtaining model-applicability, actual model-use, and model-expression-coherence occurrences governed by A.1.1, exact applied constraint claims used by the selection judgment, and one named bounded-model-use frame. Its A.22 identity uses exactly those constituents, selected occurrences, exact constraint claims, and frame. A claim scope, membership outcome, boundary display, or carrier is not an applied constraint by itself; a constraint claim may instead state a proposition about that scope or its A.2.6 membership predicate. No boundary crossing participates in that identity. Continuity across model editions additionally requires the exact C.2.1 episteme-edition relation and declared A.1.1 continuity rule. It is not a holon, description, view, or endpoint manufactured by a later crossing.
 
-`CrossContextRelationStructure` is a different `U.Structure`, identified from exact crossing relation occurrences selected among several bounded model-use structures under applied constraints for one named crossing-analysis use. The selecting system and its work remain separate. Sharing a participant does not merge the structures, and overlap does not prove parthood.
+`CrossContextRelationStructure` is a conditional specialization of a different already identified `U.Structure`. Membership requires exact independently governed obtaining crossing occurrences selected among several bounded model-use structures, applied constraints, and one named crossing-analysis use, with all four A.22 base discriminators established. Until a compatible direct crossing governor supplies those occurrences, a Context Map can describe only a proposed crossing organization and no positive `CrossContextRelationStructure` member is asserted. The selecting system and its work remain separate. Sharing a participant does not merge structures, and overlap does not prove parthood.
 
-**Public name settlement.** The following F.18 NameCard names this selected cross-structure organization. It does not create the structures, crossing relations, mapping method, or view.
+**Pending local name settlement.** The following F.18 NameCard is local to A.22 while the positive crossing-occurrence basis is unavailable. It does not create the structures, crossing relations, mapping method, or view.
 
 ```text
 NameCard:
@@ -151,18 +151,20 @@ NameCard:
   GovernedValueRef: U.Structure selected over several BoundedModelUseStructure values and their exact crossing relations
   GoverningPatternRef: A.22
   ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseRef: selected relations among several bounded model-use structures, used as the EntityOfConcern of a DDD context-mapping U.View
+  LocalSenseRef: conditional selected organization of independently governed obtaining crossings among several bounded model-use structures under all four A.22 base discriminators; a Context Map may describe only a proposed organization until that exact positive basis exists
   TechLabel: CrossContextRelationStructure
   PlainLabel: relations among bounded contexts
   CandidateSet: CrossContextRelationStructure; BoundedContextRelationStructure; ContextRelationStructure; ContextMapStructure
   RejectedCandidates: BoundedContextRelationStructure hides plurality; ContextRelationStructure leaves the endpoint kind unresolved; ContextMapStructure confuses the structure with the DDD view and FPF Map
-  SelectionRationale: name the selected cross-structure organization without retyping its view, diagram, or publication as that structure
+  SelectionRationale: reserve one local retrieval label for the conditional cross-structure rule without retyping its proposed description, view, diagram, or publication as an admitted structure
   PublicRowStatus: pending
   LineageEntries: replaces broad context-map and bounded-context-relation wording
-  RefreshCondition: reopen if the selected EntityOfConcern is one model-use structure or if the view no longer concerns crossings among several structures
+  RefreshCondition: reopen when an independent direct governor supplies an exact obtaining crossing and one positive A.22 membership witness; only then rerun F.18/F.17 for public reuse
 ```
 
-DDD `Context Mapping` names a repeatable `U.Method`. Intended mapping work and performed mapping work remain with the A.15 family. The product called a `Context Map` is a `U.View` whose EntityOfConcern is `CrossContextRelationStructure`; its rendering and publication carrier remain with E.17. Thus method, work, selected structures, view, and publication stay distinct while the external source terms remain retrievable.
+This pending card has no `UnifiedTermRowRef`. Until its refresh condition is met, `CrossContextRelationStructure` is an A.22-local provisional designator only; other Core hosts must cite the descriptive A.22 conditional cross-structure rule rather than consume that label as public vocabulary.
+
+DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 governs intended mapping work; A.15.1 identifies each exact dated mapping Work individual admitted under `U.Work`, the performer system and obtaining role assignment, and the exact `enactsMethod` relation. C.2.1 independently identifies the candidate episteme called a `Context Map`. While exact independently governed crossing occurrences or the four A.22 base discriminators are missing, its EntityOfConcern is the proposed or described crossing organization, not an exact `CrossContextRelationStructure`. Only after both conditions are met may a corresponding C.2.1 episteme designate the exact structure. Either episteme is additionally a `U.View` only when exact `EpistemeViewpointConformanceRelation(E, P)` obtains under E.17.0. Any C.29 representation, rendering, publication occurrence, form, and carrier remain separate under their direct patterns. Thus method, work, proposal, selected structure, candidate episteme, dependent view membership, representation, and publication stay distinct while the external source terms remain retrievable.
 
 #### A.22:4.2 - Structure claim reliance relation selection
 

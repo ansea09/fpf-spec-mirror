@@ -6,12 +6,12 @@ section_id: "A.2.6:10"
 section_title: "Guard Patterns (ESG & Method–Work)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__012_guard-patterns-esg-method-work.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:10 — Guard Patterns (ESG & Method–Work)"
-line_start: 4602
-line_end: 4681
+line_start: 4765
+line_end: 4845
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -43,7 +43,7 @@ membershipResult := evaluateMembership(TargetSlice, ClaimScope, InterpretationBa
 
 Admit the scope condition only when the result is `true`. Stop on `false`. On `unknown`, abstain, obtain the missing input, narrow the attempted use, or apply a separately governed reliance policy. Evidence freshness, formality, time currentness, decision, and assurance remain separate predicates.
 
-Add a Bridge branch only when the membership predicate uses exact local senses that require translation. A different reference scheme or location label alone is not such a trigger.
+Add a translation branch only when the membership predicate uses exact local senses that ordinary designation resolution cannot align. Require the obtaining F.9 Bridge and the separate affirmative C.2.1 claim for this translation before deriving a scope, then require the current A.10 or B.3 reliance branch before the receiving guard relies on it. A different reference scheme or location label alone is not such a trigger.
 
 #### A.2.6:10.2 - Claim-scope guard family
 
@@ -59,7 +59,7 @@ Name the exact claim-bearing episteme, exact `U.ClaimScope`, and exact target sl
 
 **EG-3 - Unknown evaluation.** When a required selector, designation resolution, or translation input is unavailable, return `unknown` as the result binding of the exact `evaluateMembership` application, or as the result of the directly governed evaluation when no reusable application is current. Abstain or follow the exact receiving reliance policy; do not assert `member = false`. Add a C.2.1 result episteme only when a named receiving use needs the conclusion to persist. Use A.15.PROD only when the current claim is that dated work first constituted that episteme.
 
-**EG-4 - Translation.** When exact local senses differ and an obtaining F.9 Bridge occurrence relates them, derive the translated scope with `deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, TargetReferenceScheme)`, then use that returned scope in `evaluateMembership`. Name congruence and loss separately. Scheme difference alone does not select this branch.
+**EG-4 - Translation.** When exact local senses differ, require the obtaining F.9 Bridge and the separate affirmative C.2.1 claim naming this scope translation's direction, rule, and tolerance. After the exact A.10 or B.3 branch supports reliance for that use, derive the scope with `deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, ExactUseClaim, TargetReferenceScheme)`, then use that returned scope in `evaluateMembership`. Scheme difference alone does not select this branch.
 
 **EG-5 - Scope-value versus declaration change.** Widen or narrow only when the extension gains or loses at least one independently identified slice; that extension change identifies another `U.ClaimScope`. A changed predicate expression with the same exact extension is a refit: it preserves the exact scope value and may require another scope declaration or claim-bearing episteme edition under its direct governor. A result-record, table, or selected-structure change alone changes neither the scope value nor its declaration.
 
@@ -88,22 +88,23 @@ qualificationWindowHolds(capability, qualificationWindowPolicy, evaluationTime) 
 
 **WG-4 - Translation branch for capability use.**
 
-Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice and an obtaining F.9 Bridge occurrence relates those senses. Name the exact bridge, congruence, and loss. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
+Translate `U.WorkScope` only when its condition predicates use exact local senses that differ from those needed by the job slice. Require the obtaining F.9 Bridge and a separate affirmative C.2.1 claim naming this Work-scope translation's direction, rule, and tolerance; establish the exact A.10 or B.3 reliance branch before the capability guard uses the result. A capability object and job slice carry no hidden `.Context` field that automatically selects this branch.
 
-Known mapping loss may require an explicitly narrower translated Work scope. Any confidence penalty belongs to the separately governed reliance or evidence assessment, not to membership truth.
+Observed mapping loss is evidence about the use claim, and permitted loss is its tolerance. When the claim's rule and tolerance support only a subset, return an explicitly narrower Work scope. Neither fact changes membership truth by itself.
+
 **WG‑5 - Δ(WorkScope).**
 When widening Work scope (new operating ranges/platforms), the guard MUST require evidence at the new slices (measures + qualification windows). Refit (e.g., new units/parametrization) requires no new evidence.
 
 #### A.2.6:10.4 - Translation guard
 
-Use this branch only after an exact local-sense translation need and exact F.9 Bridge occurrence are current:
+Use this branch only after the exact local-sense translation need, the obtaining F.9 Bridge, and the separate affirmative C.2.1 claim for this translation are current. The claim names the source-to-receiving direction, scope-correspondence rule, and tolerated loss. Before the receiving guard relies on it, require the exact passing A.10 branch or a current positive B.3 assurance claim that carries this use with its sufficient required record.
 
 ```text
-translatedScope := deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, TargetReferenceScheme)
+translatedScope := deriveTranslatedScope(SourceScope, ExactBridgeOccurrence, ExactUseClaim, TargetReferenceScheme)
 membershipResult := evaluateMembership(TargetSlice, translatedScope, InterpretationBasis)
 ```
 
-The source claim-bearing episteme designates `SourceScope`; it does not own that value as a hidden context field. The bridge occurrence relates exact local senses under F.9. Its congruence and loss qualify the receiving reliance claim. An unmapped slice yields `unknown` for the attempted evaluation unless the translated scope explicitly excludes it; it is not silently dropped and reported as false.
+The source claim-bearing episteme designates `SourceScope`; it does not own that value as a hidden context field. The Bridge relates exact local senses under F.9. The C.2.1 claim supplies this translation's rule and tolerance, and A.10 or B.3 supplies the separate reliance basis. None of them makes the A.6.1 operation application occur. An unmapped slice yields `unknown` for the attempted evaluation unless the returned scope explicitly excludes it; it is not silently dropped and reported as false.
 
 #### A.2.6:10.5 - Time selector
 

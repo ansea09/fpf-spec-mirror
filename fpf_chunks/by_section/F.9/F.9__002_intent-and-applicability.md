@@ -6,13 +6,14 @@ section_id: "F.9:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__002_intent-and-applicability.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:1 — Intent and applicability"
-line_start: 89406
-line_end: 89427
+line_start: 89578
+line_end: 89599
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -20,55 +21,54 @@ dependencies:
   - "A.6.5"
   - "A.6.9"
   - "B.3"
-  - "C.26"
+  - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
-  - "E.10.D1"
   - "E.17.ID.CR"
   - "F.0.1"
-  - "F.1"
   - "F.10"
-  - "F.2"
-  - "F.3"
+  - "F.17"
+  - "F.18"
   - "F.4"
   - "F.5"
   - "F.6"
   - "F.7"
   - "F.8"
   - "F.9.1"
-  - "U.BoundedContext"
 keywords:
-  - "Bridge-supported use"
-  - "CL"
-  - "bridge"
-  - "bridge reading"
-  - "cross-context alignment"
-  - "direction"
-  - "loss notes"
-  - "state export"
-  - "weakest-link scope"
+  - "A.10/B.3 reliance"
+  - "LocalSenseClaim> projections"
+  - "different <ReferenceScheme"
+  - "exact F.17 SchemeSenseCell endpoints"
+  - "inverse/composition checks"
+  - "obtaining Bridge"
+  - "optional CL evidence-strength shorthand"
+  - "optional card"
+  - "quantum/coarsening exit"
+  - "relation-semantic profile"
+  - "separate C.2.1 bounded-use claim"
 ---
 
 ### F.9:1 - Intent and applicability
 
-**Intent.** Provide a conceptual discipline for relating `SenseCells` from different `U.BoundedContext`s. A Bridge states what relation holds, which direction matters, how much congruence is admitted by `CL`, what is lost, and which cross-context use remains admissible.
+**Intent.** Govern one actual semantic `Bridge` relation between two exact F.17 `SchemeSenseCell` values from different semantic contexts. Keep that relation separate from a claim that it suits a proposed use, the evidence or assurance on which a reader relies, an optional Bridge Card, and any object created when the proposed use is actually performed.
 
-**Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a row in the Concept-Set table.
+**Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a cross-context row. A shared word or available mapping is only a reason to ask whether a Bridge obtains.
 
-**Primary EntityOfConcern in plain terms.** One Bridge Card relating two `SenseCells` across different `U.BoundedContext`s. The EoC is not a transport chain, not a work process, not a role assignment, and not one global meaning layer.
+**Primary EntityOfConcern in plain terms.** One actual correspondence or difference between two exact local senses. The governed object is the direct `Bridge` occurrence, not a card, context, transport chain, work process, role assignment, evidence item, or global meaning layer.
 
-**Admissible move in plain terms.** Declare bridge kind, direction, `CL`, loss, and admitted use so cross-context sense use stays inspectable without collapsing local meanings into silent equivalence.
+**Admissible move in plain terms.** First resolve the two local senses. Then state what semantic correspondence or difference holds between them and test that relation. If it obtains, identify the Bridge. Only after that, state the proposed use separately: what the reader will do, in which direction, by which correspondence rule, and how much semantic loss that use tolerates. A current affirmative C.2.1 claim answers whether this Bridge is suitable for that bounded use. Check the evidence for relying on that claim under A.10, or use B.3 when an assurance claim is made or its material-reliance threshold is met. If the use actually happened, recover the resulting Work, assertion, publication, relation, operation application, or other object under its direct owner. Add a Bridge Card only when a reusable package is worth maintaining.
 
-**Primary working reader.** An author, checker, or practitioner preparing one bridge card, comparative bridge note, or concept-set row that depends on cross-context sense use.
+**Primary working reader.** An author, checker, or practitioner deciding first whether a cross-local semantic relation actually obtains and then whether it supports one named use.
 
-**Use this when.** Use F.9 when the same term, role name, quality label, status label, measurement label, method label, or structural label appears in more than one context and the team is about to treat that overlap as if it were already equivalence or safe substitution.
+**Use this when.** Use F.9 when a receiving claim needs an exact semantic relation between two local senses whose `<ReferenceScheme, LocalSenseClaim>` interpretation bases differ. Different schemes, identical spelling, a mapping implementation, or a request for comparison does not establish that relation.
 
-**What goes wrong if missed.** Teams fall back to shared labels, string-equals shortcuts, or informal analogies, then quietly smuggle equivalence, substitution, structural inference, or role assignment across contexts without stating kind, direction, `CL`, or loss.
+**What goes wrong if missed.** Teams turn shared labels and convenient mappings into silent equivalence, substitution, structural inference, status transfer, or role assignment. They also mistake evidence about a proposed use, or a polished card, for the relation itself.
 
-**What this buys.** One explicit bridge discipline that lets a team compare contexts and reuse names while keeping direction, loss, and the limits of admissible substitution visible.
+**What this buys.** A reader can see which relation is true, which proposed use is being judged, what evidence supports reliance on that judgement, and whether any downstream act actually happened. Those facts can change independently without silently merging local meanings.
 
-**Not this pattern when.** Not F.9 when the case is still only one local context, when the needed claim is a role assignment, performed-work attribution, evidence use, status use, source use, publication use, assurance claim, gate claim, decision claim, or mathematical-lens use. Use the direct governing pattern first; cite F.9 only when cross-context sense alignment itself is live.
+**Not this pattern when.** Not F.9 when the case is still inside one semantic context, or when the live question is role assignment, performed-work attribution, evidence use, status use, source use, publication, assurance, authorization, a gate, a decision, or a mathematical-lens operation. Use the direct governing pattern for that object; cite F.9 only when cross-context semantic correspondence is also needed.
 
-**Recognition versus assurance note.** Intent, applicability, this boundary, and the first worked case are the recognition block. Bridge kinds, `CL`, conformance, and relation sections are assurance blocks; they tighten the same Bridge Card claim instead of widening F.9 into role assignment, work execution, governance, or one global meaning layer.
+**Recognition versus assurance note.** Resolving the endpoint senses and testing the direct Bridge predicate recognizes the semantic relation. A separate C.2.1 claim judges one bounded use. A.10 or B.3 governs whether a reader may rely on that claim for the named use. None of those steps supplies legal, policy, or deontic authorization.
 

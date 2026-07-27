@@ -6,13 +6,14 @@ section_id: "F.18:5"
 section_title: "Role, Assignment, Slot, and Status Naming Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__007_role-assignment-slot-and-status-naming-settlement.md"
-commit_sha: "504747d26299e3963dc0457bf48d4e2a791d926a"
+commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:5 — Role, Assignment, Slot, and Status Naming Settlement"
-line_start: 93144
-line_end: 93254
+line_start: 93619
+line_end: 93729
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.6.P"
@@ -20,16 +21,17 @@ dependencies:
   - "A.6.RCD"
   - "A.6.REL"
   - "A.6.RSIR"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
   - "E.24.PUB"
   - "F.0.1"
   - "F.1"
-  - "F.1-F.17"
   - "F.13"
   - "F.14"
   - "F.15"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -108,7 +110,7 @@ First recover what the name is for:
 | method-like phrase derived from a role label | method, method family, method description, work plan, or work occurrence | Name under `A.3.1`, `A.3.2`, or `A.15`; cite the role relation separately when it constrains who may use or perform the method. |
 | algebraic, graph, matrix, embedding, distributed, or neural representation of roles | mathematical or representation description of selected role relation structure | Name the lens only when the representation itself is the governed value; otherwise name the recovered role relation, role expression, method, or work. |
 | method algebra, method graph, method matrix, process calculus, selector calculus, or method embedding | mathematical or representation description of selected `MethodRelationStructure@BoundedContext` | Name the lens only when the representation itself is the governed value; otherwise name the selected method relation structure, method family, method description, work plan, work occurrence, or neighboring relation. |
-Ordinary speech can omit `Role` and `Method` suffixes when the governed kind, named role-taxonomy episteme where a role is current, effective reference scheme, exact local sense, and direct claim keep the distinction recoverable. Formal suffixes are useful when the name becomes cross-scheme, public, or easy to confuse with a method, capability, work occurrence, status, publication, or policy term.
+Ordinary speech can omit `Role` and `Method` suffixes when the governed kind, named role-taxonomy episteme where a role is current, effective reference scheme, exact local sense, and direct claim keep the distinction recoverable. Formal suffixes are useful when the name is reused across different semantic-context projections, becomes public, or is easy to confuse with a method, capability, work occurrence, status, publication, or policy term.
 
 #### F.18:5.5 - Status, Evidence, Source, and Publication Names
 
