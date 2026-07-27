@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.8.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
-line_start: 70479
-line_end: 71131
+line_start: 70483
+line_end: 71135
 dependencies:
   - "E.10"
   - "E.10.MOVE"

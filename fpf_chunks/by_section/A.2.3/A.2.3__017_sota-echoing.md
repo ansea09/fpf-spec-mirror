@@ -6,35 +6,41 @@ section_id: "A.2.3:10.3"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__017_sota-echoing.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10.3 — SoTA-Echoing"
-line_start: 3632
-line_end: 3637
+line_start: 3635
+line_end: 3640
 dependencies:
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.3.1"
   - "A.3.2"
+  - "A.6.1"
   - "A.6.8"
   - "A.6.C"
+  - "A.7"
+  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "U.BoundedContext"
+  - "F.9"
   - "U.Capability"
   - "U.ClaimScope"
+  - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Role"
   - "U.RoleAssignment"
-  - "U.Scope"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -53,5 +59,5 @@ keywords:
 
 Service-management, product, utility, platform, and public-service practice all distinguish offers, providers, access channels, service levels, work execution, and evidence of fulfilment, even when everyday language calls all of them "the service". A.2.3 keeps that practical distinction in FPF by giving the consumer-facing promise clause its own episteme value and by returning provider, access, commitment, work, and evidence claims to their governing patterns.
 
-Contract and SLA practice also distinguishes the promised content from the obligation-bearing act or agreement and from later performance evidence. FPF adapts that separation without importing a domain-specific service taxonomy: the promise content is reusable across IT, utilities, healthcare, public services, manufacturing support, and other bounded contexts.
+Contract and SLA practice distinguishes promised content from obligation-bearing acts or agreements and from later performance evidence. FPF keeps that separation without importing a domain-specific service taxonomy; the promise-content episteme remains usable across IT, utilities, healthcare, public services, manufacturing support, and other project domains.
 

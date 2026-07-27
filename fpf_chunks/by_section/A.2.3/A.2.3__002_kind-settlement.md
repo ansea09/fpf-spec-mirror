@@ -6,7 +6,7 @@ section_id: "A.2.3:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__002_kind-settlement.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:0.1 — Kind Settlement"
@@ -14,27 +14,33 @@ line_start: 3186
 line_end: 3189
 dependencies:
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.3.1"
   - "A.3.2"
+  - "A.6.1"
   - "A.6.8"
   - "A.6.C"
+  - "A.7"
+  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "U.BoundedContext"
+  - "F.9"
   - "U.Capability"
   - "U.ClaimScope"
+  - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Role"
   - "U.RoleAssignment"
-  - "U.Scope"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -51,5 +57,5 @@ keywords:
 
 ### A.2.3:0.1 - Kind Settlement
 
-`U.PromiseContent` is a dependent durable promised-outcome episteme under the episteme settlement. It is not a root beside `U.Episteme`, not a commitment, not work, and not a carrier.
+`U.PromiseContent` is a dependent durable promised-outcome episteme under the episteme settlement. It is not a root beside `U.Episteme`, not a commitment, not work, and not a `U.PresentationCarrier`.
 

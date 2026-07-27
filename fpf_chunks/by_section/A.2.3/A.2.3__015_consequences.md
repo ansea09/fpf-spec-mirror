@@ -6,35 +6,41 @@ section_id: "A.2.3:10.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__015_consequences.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10.1 — Consequences"
-line_start: 3618
-line_end: 3625
+line_start: 3621
+line_end: 3628
 dependencies:
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.3.1"
   - "A.3.2"
+  - "A.6.1"
   - "A.6.8"
   - "A.6.C"
+  - "A.7"
+  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "U.BoundedContext"
+  - "F.9"
   - "U.Capability"
   - "U.ClaimScope"
+  - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Role"
   - "U.RoleAssignment"
-  - "U.Scope"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -53,7 +59,7 @@ keywords:
 
 | Consequence | Benefit | Cost or boundary |
 | --- | --- | --- |
-| Promise content becomes explicit | Work can be judged against the promised outcome, access or eligibility, and acceptance criteria instead of against a vague service label. | Teams must separate promise content from provider, access point, method, ticket, and work occurrence. |
-| Commitments stay distinct | A promise-content clause can be reused as payload for `U.Commitment` without becoming the deontic commitment relation itself. | Accountability still needs `A.2.8`, role assignment, and source relations when those claims are current. |
-| Work evidence has a target | `claimsPromiseContent`, `deliversPromisedOutcome`, and `fulfilsPromiseContent` can cite the promise and outcome spec. | The promise content does not prove delivery; delivery remains work plus evidence. |
+| Promise content becomes explicit | Evaluation work can apply declared acceptance criteria to exact delivery-work facts, affected or delivered entities, post-work states, and any direct delivery or acceptance relation required by the criterion. | The promise-content declaration and its direct relations must keep provider, access point, method, ticket or case-description episteme, work occurrence, operation-result binding, evidence episteme, evidence relation, and evaluation-result episteme distinct. |
+| Commitments stay distinct | A promise-content clause can be referred to from `U.Commitment` without becoming the deontic commitment relation itself. | Accountability still needs an A.2.8 commitment occurrence whose accountable-subject position is filled, plus any current A.2.9 speech-act relation. |
+| Promise use and evaluation become replayable | `PromiseContentUse` obtains between the work occurrence and promise-content edition during the promise-use interval; delivery and fulfilment remain separate derived relations. | A downstream fulfilment assertion retains the exact work, affected-subject and delivery facts, selected Delta expression when used, evaluation-operation result binding, named evidence epistemes and A.10 evidence relations, evaluation method description, and any evaluation-result episteme instead of treating the work occurrence or a dashboard as sufficient support. |
 

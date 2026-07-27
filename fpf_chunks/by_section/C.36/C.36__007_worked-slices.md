@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_worked-slices.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Worked Slices"
-line_start: 66817
-line_end: 66870
+line_start: 66821
+line_end: 66874
 dependencies:
   - "A.1"
   - "A.10"

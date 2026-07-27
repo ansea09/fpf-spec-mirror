@@ -6,12 +6,12 @@ section_id: "A.6.4:7.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__012_sota-echoing.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:7.1 — SoTA-Echoing"
-line_start: 15184
-line_end: 15199
+line_start: 15188
+line_end: 15203
 dependencies:
   - "A.6.2"
   - "A.6.3"

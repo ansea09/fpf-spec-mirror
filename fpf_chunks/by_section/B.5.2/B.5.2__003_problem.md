@@ -6,12 +6,12 @@ section_id: "B.5.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__003_problem.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:2 — Problem"
-line_start: 39793
-line_end: 39807
+line_start: 39797
+line_end: 39811
 dependencies:
   - "A.10"
   - "A.16"

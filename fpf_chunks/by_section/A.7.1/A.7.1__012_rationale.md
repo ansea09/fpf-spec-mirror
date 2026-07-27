@@ -6,12 +6,12 @@ section_id: "A.7.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__012_rationale.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:10 — Rationale"
-line_start: 21909
-line_end: 21914
+line_start: 21913
+line_end: 21918
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -30,7 +30,7 @@ keywords:
 
 ### A.7.1:10 - Rationale
 
-Ontology effort should scale with changed consequence, not with available vocabulary. A direct-owner invariant or grounded counterexample provides a better start than a universal checklist because it exposes why the current account fails. Four loci preserve the common places where repair occurs without forcing an order. Specializing `C.19.2` carries the economics, work separation, and truthful one-apparatus path instead of duplicating them loosely.
+Ontology effort should scale with changed consequence, not with available vocabulary. A direct-owner invariant or grounded counterexample provides a better start than a universal checklist because it exposes why the current account fails. Four loci preserve the common places where repair occurs without forcing an order. The description-level narrowing of `C.19.2` carries the economics, work separation, and truthful one-apparatus path instead of duplicating them loosely.
 
 **Repair only the ontology that changes the engineering move.**
 

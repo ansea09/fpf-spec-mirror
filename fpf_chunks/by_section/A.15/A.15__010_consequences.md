@@ -6,12 +6,12 @@ section_id: "A.15:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__010_consequences.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:9 — Consequences"
-line_start: 24217
-line_end: 24225
+line_start: 24221
+line_end: 24229
 dependencies:
   - "A.10"
   - "A.12"

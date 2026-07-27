@@ -6,12 +6,12 @@ section_id: "A.2.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_consequences.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:9 — Consequences"
-line_start: 5908
-line_end: 5920
+line_start: 5912
+line_end: 5924
 dependencies:
   - "A.15.1"
   - "A.2"

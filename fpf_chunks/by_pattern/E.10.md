@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.10.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
-line_start: 71969
-line_end: 73791
+line_start: 71973
+line_end: 73795
 dependencies:
   - "A.10"
   - "A.15"

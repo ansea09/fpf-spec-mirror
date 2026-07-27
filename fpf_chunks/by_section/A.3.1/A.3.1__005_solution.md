@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
-line_start: 6898
-line_end: 7119
+line_start: 6902
+line_end: 7123
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,7 +56,7 @@ Do not begin by replacing *method* or *practice* with a preferred technical word
 | If the text is really about... | Govern it as... |
 | --- | --- |
 | semantic way of doing | `A.3.1 U.Method` |
-| relation or composition among methods, method families, or local method expressions | `A.3.2` for description relations; `G.5` and `A.19` for family selection; `A.15.1` for `enactsMethod`; `B.1.5` for order-sensitive method composition; `C.29` or `A.3.2` for graph or algebraic notation |
+| relation or composition among methods, method families, method-description epistemes, or local method expressions | `C.2.1` or the exact comparison/direct-relation owner for an actual relation among description epistemes; `A.22` only for a selected structure whose constituent relations already obtain; `G.5` and `A.19` for family selection; `A.15.1` for `enactsMethod`; `B.1.5` for order-sensitive method composition; `C.29` for graph or algebraic representation |
 | description of that way of doing: SOP, program, proof script, solver model, protocol, diagram, process model, recipe text | `A.3.2 U.MethodDescription` |
 | source phrase such as *practice*, *technique*, *school*, *tradition*, or a local method label whose claim is unclear | leave it unresolved until the sentence identifies a reusable way, description, discipline or tradition, or model-use boundary; use `A.1.1` for the bounded-context or model-use claim and `C.36.P` for the cultural-evolution, tradition, style, canon, recognition, selection, or mediation claim |
 | selected formal declaration or mathematical lens | `A.6.0` for the declaration; `C.29` when a stated use applies the mathematical lens |
@@ -169,7 +169,7 @@ A useful `U.Method` statement can usually answer these questions in ordinary pro
 | Generic participant and boundary meanings | the kinds of entities, resources, conditions, interfaces, and method-side role-kind or capability-fit conditions that a future enactment may involve, without declaring `RelationSignature` SlotSpecs, `OperationAlgebra` positions, planned fillers, or actual participants |
 | Capability acceptance conditions | thresholds or envelopes evaluated against a holder's capability, not baked into the method identity |
 | Failure and stop conditions | when the method cannot be used, when a description no longer states it accurately, and when planned Work must not enter its gate |
-| Description relation | which `U.MethodDescription` epistemes describe it for the comparison or plan being made |
+| Method-description membership | which epistemes, if any, meet A.3.2 membership for this exact Method; any comparison or plan must separately name the edition and claims it uses |
 | Work relation | what Work occurrences admitted under `U.Work` may enact the method and how their separate records cite the description used |
 
 This table is a recognition checklist, not a data schema. Start with the ordinary method sentence. Use A.6.1 for a reusable operation declaration, A.6.5 for a reusable direct-relation declaration, A.15.2 for planned use, and the exact direct relation or A.6.1 application binding for actual participation.
@@ -234,7 +234,7 @@ First decide whether the question is about one reusable way, a composite way, or
 * submethods assembled into a whole remain a `U.Method`, with B.1.5 used when order-sensitive composition is claimed;
 * relations among methods, descriptions, selectors, or Work occurrences remain those exact relations; select a `U.Structure` under A.22 only when their organization changes the next question or action.
 
-`MethodRelationStructure` is only a local designator for such an already selected A.22 `U.Structure`. It is not a durable U-kind, method holon, or relation type, and the label contributes nothing to identity. Candidate relation families—composition such as serial, parallel, choice, or iteration; method change such as refinement, substitution, decomposition, or parameterization; and selection or use such as family membership, fallback, description, or enactment—are recognition cues. Every selected occurrence must already obtain under its direct pattern.
+`MethodRelationStructure` is only a local designator for such an already selected A.22 `U.Structure`. It is not a durable U-kind, method holon, or relation type, and the label contributes nothing to identity. Candidate relation families—composition such as serial, parallel, choice, or iteration; method change such as refinement, substitution, decomposition, or parameterization; and selection or use such as family membership, fallback, or enactment—are recognition cues. Method-description membership is not one of those relations: A.3.2 judges the episteme itself. Every selected relation occurrence must already obtain under its direct pattern.
 
 **Filled A.22 basis — enacted-method review.** For this one-off review, a practitioner selects only two A.15.1 `enactsMethod` occurrences. No durable selection judgment is asserted, and no composition, fallback, selector, or work-to-pump relation is created.
 

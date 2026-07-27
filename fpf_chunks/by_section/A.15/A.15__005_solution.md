@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:4 — Solution"
-line_start: 23973
-line_end: 24122
+line_start: 23977
+line_end: 24126
 dependencies:
   - "A.10"
   - "A.12"
@@ -82,7 +82,7 @@ FPF mandates the use of the following distinct, non-overlapping entities to mode
 
 **Work individual and description boundary**
 
-`U.Work` is the admitted kind for dated work-occurrence holons. One Work individual is a world-side occurrence that stands in actual `performedBy`, `enactsMethod`, temporal, `executedWithin`, affected-referent, binding, and resource-use relations when those relations obtain. An assertion, description, log, ticket, or other record about that occurrence is a separate `U.Episteme`: it may designate the Work individual and state those relations, but it is neither the occurrence nor a Work individual.
+`U.Work` is the admitted kind for dated work-occurrence holons. One Work individual is a world-side occurrence that stands in actual `performedUnderAssignment`, `enactsMethod`, temporal, `executedWithin`, affected-referent, binding, and resource-use relations when those relations obtain. The actual performer is the admitted `U.System` that fills the covering assignment's `HolderSystemSlot`; the assignment is the ground under which that system performed the Work. An assertion, description, log, ticket, or other record about that occurrence is a separate `U.Episteme`: it may designate the Work individual and state those relations, but it is neither the occurrence nor a Work individual.
 
 Do not add a universal `primaryTarget` field, a local `kind` field, or an Operational/Communicative/Epistemic enumeration to the occurrence. Recover the exact affected-referent, transformation, speech-act or commitment effect, episteme-handling, production, delivery, acceptance, or other relation through its direct governing pattern. The words operational, communicative, and epistemic may remain use cues; they do not define local Work subkinds by enumeration.
 
@@ -100,7 +100,7 @@ Confusing these is like mistaking the cookbook for the souffle. FPF's framework 
 
 #### A.15:4.2 - The Canonical Relations: Connecting the Layers
 
-The entities are connected by precise relations that form a traceable alignment. The diagram keeps the four generic `U.RoleAssignment` participants visible and keeps method description, capability fit, and work occurrence outside that assignment signature.
+The alignment uses precise relations only where they obtain. The diagram keeps the four generic `U.RoleAssignment` participants visible, keeps method description, capability fit, and work occurrence outside that assignment signature, and shows the derived actual-performer cue from `F.6` on the single performed-work attribution edge rather than as a second relation. It presents method-description status as A.3.2 membership of the episteme, not as another edge.
 
 ```mermaid
 graph TD
@@ -112,15 +112,15 @@ graph TD
     end
 
     subgraph Method and Capability
-        M["method M : U.Method"] -- isDescribedBy --> D["description D : U.MethodDescription"]
+        M["method M : U.Method"]
+        D["episteme D<br/>A.3.2 membership: U.MethodDescription<br/>EntityOfConcern = M"]
         Cap["capability C : U.Capability"] -- ability for method family --> M
         Fit[CapabilityFitCondition] -- tests declared measures of --> Cap
         Fit -- may cite --> Q[U.Characteristic value, Q-Bundle slot, or architecture-characteristic row]
     end
 
-    W["Work occurrence W : U.Work"] -- performedBy --> RA
+    W["Work occurrence W : U.Work"] -- "performedUnderAssignment<br/>(F.6 derives actualPerformerSystem(W, RA) = H)" --> RA
     W -- enactsMethod --> M
-
     style R fill:#fff2cc,stroke:#d6b656,stroke-width:2px
     style RT fill:#f8cecc,stroke:#b85450,stroke-width:2px
     style RS fill:#f8cecc,stroke:#b85450,stroke-width:2px
@@ -135,13 +135,13 @@ graph TD
 ```
 
 *   **Capability-fit condition:** A method description, work plan, or separately governed work-admission assertion may state that the holder under a `U.RoleAssignment` must satisfy a capability threshold or envelope for a method or work claim. The fit condition tests the holder's `U.Capability` instance and may cite declared capability measures, `U.Characteristic` values, Q-Bundle slots, or architecture-characteristic criteria rows. The role value does not own the capability, the support record does not become the capability, and the fit condition is not a second capability kind.
-*   **`isDescribedBy(Method, MethodDescription)`:** A `U.Method` is described by one or more `U.MethodDescription` epistemes. This keeps the run-independent way of doing distinct from the description and any publication that exposes it.
-*   **`enactsMethod(W : U.Work, M : U.Method)`:** One exact Work occurrence `W` admitted under `U.Work` stands in `enactsMethod` to method `M` admitted under `U.Method`. A separate `performedBy` relation connects `W` to its role-assignment occurrence when that attribution obtains. Capability-fit checks are evaluated against the holder for that occurrence; the `U.MethodDescription` remains a separate episteme, and any admitted source remains under its separate source-use relation.
-*   **`performedBy(W : U.Work, RA : U.RoleAssignment)`:** One Work occurrence `W` admitted under `U.Work` stands in `performedBy` to one exact assignment occurrence `RA` admitted under `U.RoleAssignment`. The assignment's four participants make holder, role meaning, role taxonomy, and effective interpretation scheme recoverable. A record may state this fact but does not carry the relation as a field that constitutes Work.
+*   **A.3.2 membership for a method-description episteme:** One already identified `U.Episteme D` is a `U.MethodDescription` when its exact `EntityOfConcern` resolves to `M : U.Method` and at least one substantive claim says how `M` is done. Saying that `D` describes `M` is shorthand for that constitution-and-membership result, not another binary description relation. This keeps the run-independent way of doing distinct from the description and any publication that exposes it.
+*   **`enactsMethod(W : U.Work, M : U.Method)`:** One exact Work occurrence `W` admitted under `U.Work` stands in `enactsMethod` to method `M` admitted under `U.Method`. A separate `performedUnderAssignment` relation connects `W` to its role-assignment occurrence when that attribution obtains; the admitted system in the assignment's `HolderSystemSlot` is the actual performer. Capability-fit checks are evaluated against that holder for the occurrence; the `U.MethodDescription` remains a separate episteme, and any admitted source remains under its separate source-use relation.
+*   **`performedUnderAssignment(W : U.Work, RA : U.RoleAssignment)`:** `F.6` owns this direct attribution relation, its obtaining and occurrence-identity rule, the derived actual-performer projection, and the deprecated-alias boundary; A.15 consumes that owner here. For one exact Work occurrence `W` and covering assignment occurrence `RA`, read the actual performer as admitted system `H = actualPerformerSystem(W, RA) = RA.HolderSystemSlot`, and use the relation only when `H` performed `W` under `RA`. The assignment is the ground, not the actor; its four fixed participants keep the holder system, role value, role-taxonomy episteme, and effective reference scheme recoverable. A performed-work record may state this attribution but constitutes neither occurrence nor the relation. Existing `performedBy(W, RA)` claims may be read only through the F.6 compatibility boundary after resolving `H`; do not author new claims with that spelling.
 
 The assignment occurrence has the maximal continuous extent over which its four-participant relation obtains. A planned or asserted interval does not create that actual extent. A selected `BoundedModelUseStructure`, when it changes interpretation, is named in the receiving assertion or use. Only a genuinely structure-dependent relation species may require that structure as an identity-bearing participant, under its own direct pattern and stronger obtaining and identity law.
 
-For a performed occurrence, this alignment lets the reader trace one Work individual admitted under `U.Work` through exact `enactsMethod` and `performedBy` relations to the `U.Method` it enacts and the exact `U.RoleAssignment`; a separate assertion may cite the `U.MethodDescription` used to identify or constrain that method. It does not turn the role taxonomy, reference scheme, method description, capability fit, plan, or evidence into the work itself.
+For a performed occurrence, this alignment lets the reader trace one Work individual admitted under `U.Work` through exact `enactsMethod` and `performedUnderAssignment` relations to the `U.Method` it enacts and the exact `U.RoleAssignment` under which its admitted holder system performed it; a separate assertion may cite the `U.MethodDescription` used to identify or constrain that method. It does not turn the assignment, role taxonomy, reference scheme, method description, capability fit, plan, or evidence into the performer or the work itself.
 
 #### A.15:4.3 - Bounded specialization scouting and `CheckpointReturn`
 

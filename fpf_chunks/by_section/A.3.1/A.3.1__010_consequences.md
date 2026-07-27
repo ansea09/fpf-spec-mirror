@@ -6,12 +6,12 @@ section_id: "A.3.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_consequences.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:9 — Consequences"
-line_start: 7234
-line_end: 7254
+line_start: 7238
+line_end: 7258
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -50,7 +50,7 @@ Repair locally:
 
 * If the reusable way is recoverable, rewrite its identification with the missing applicability, participant meaning, condition, result, or stop.
 * If a description, plan, Work occurrence, mechanism, representation, evidence claim, or result has occupied the method position, move that claim to its owner. State a relation back to the method only if that owner admits it; otherwise keep the two objects separate.
-* If one relied-on description relation, acceptance relation, semantic basis, or variant condition changed, review that relation and the comparisons that used it; do not invalidate every use of the method.
+* If a relied-on episteme no longer meets A.3.2 membership, or its cited edition, claim set, acceptance relation, semantic basis, or variant condition changed, review that changed basis and the comparisons that used it; do not invalidate every use of the method.
 
 A new method-description edition changes the method only when it changes a method basis that the comparison relied on. A changed Work fact, measurement, evaluation, production, delivery, acceptance, or evidence result repairs that neighboring claim, not the reusable method by default. Return to G.5 or the direct method-family owner only when the available family or selector no longer separates the needed methods and variants. Poor explanation is a didactic defect to repair; it is not evidence that the method itself changed.
 

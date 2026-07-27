@@ -6,12 +6,12 @@ section_id: "C.3.2:4"
 section_title: "Four Objects, Not One"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__006_four-objects-not-one.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:4 — Four Objects, Not One"
-line_start: 44496
-line_end: 44506
+line_start: 44500
+line_end: 44510
 dependencies:
   - "A.14"
   - "A.2.6"

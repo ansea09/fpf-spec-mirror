@@ -6,12 +6,12 @@ section_id: "A.15.4:8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__013_sota-echoing.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:8 — SoTA-Echoing"
-line_start: 25931
-line_end: 25945
+line_start: 25935
+line_end: 25949
 dependencies:
   - "A.10"
   - "A.15"

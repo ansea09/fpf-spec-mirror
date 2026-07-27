@@ -6,12 +6,12 @@ section_id: "A.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__001_intro.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:intro — Intro"
-line_start: 23876
-line_end: 23936
+line_start: 23880
+line_end: 23940
 dependencies:
   - "A.10"
   - "A.12"
@@ -93,7 +93,7 @@ keywords:
 | --- | --- | --- |
 | A maintenance team names `PumpInspectorRole`, the inspection method description, and the current `U.WorkPlan`. After the inspection actually occurs, it identifies the dated Work occurrence admitted under `U.Work` and creates a separate inspection record that designates it. The plan, occurrence, and record remain distinct. | A short briefing says the inspection is ready, but the method description or work plan is missing; use the briefing only to find or repair the missing source before planned work proceeds. | A dashboard tile, copied approval, generated explanation, or briefing is used as the source for a work or reliance claim by appearance. Use `A.15.4` for appearance-based reliance repair. |
 
-**Alignment frame in plain terms.** One alignment frame that keeps `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, one actual Work individual admitted under it, and any episteme about that occurrence distinct, while exact `performedBy` and `enactsMethod` relations connect the occurrence to its `U.RoleAssignment` and `U.Method`; not a single work occurrence, not a checklist, not a language-style repair pattern, and not a mere cue note.
+**Alignment frame in plain terms.** One alignment frame that keeps `U.Role`, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, one actual Work individual admitted under it, and any episteme about that occurrence distinct, while exact `performedUnderAssignment` and `enactsMethod` relations connect the occurrence to its `U.RoleAssignment` and `U.Method`; the admitted holder system is the actual performer under the assignment. This is not a single work occurrence, checklist, language-style repair pattern, or mere cue note.
 
 **First admissible work-family use in plain terms.** Keep role value, holder assignment, semantic method, method-description reference, intended work plan, and dated performed work distinct while making the chain between them inspectable enough for enactment, audit, and source-relation recovery.
 

@@ -6,12 +6,12 @@ section_id: "A.20:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__008_bias-annotation.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:6 — Bias-Annotation"
-line_start: 33311
-line_end: 33314
+line_start: 33315
+line_end: 33318
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

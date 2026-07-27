@@ -6,12 +6,12 @@ section_id: "D.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 67310
-line_end: 67318
+line_start: 67314
+line_end: 67322
 dependencies:
   - "A.1"
   - "A.15"

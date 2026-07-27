@@ -1,0 +1,67 @@
+---
+chunk_kind: "child"
+pattern_id: "A.2.3"
+pattern_title: "U.PromiseContent (Promise Content)"
+section_id: "A.2.3:9"
+section_title: "Common misclassification repairs"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.2.3/A.2.3__013_common-misclassification-repairs.md"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
+heading_path:
+  - "A.2.3 — U.PromiseContent (Promise Content)"
+  - "A.2.3:9 — Common misclassification repairs"
+line_start: 3602
+line_end: 3611
+dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.6"
+  - "A.2.8"
+  - "A.2.9"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.8"
+  - "A.6.C"
+  - "A.7"
+  - "C.2.1"
+  - "E.10"
+  - "F.12"
+  - "F.9"
+  - "U.Capability"
+  - "U.ClaimScope"
+  - "U.Episteme"
+  - "U.Method"
+  - "U.MethodDescription"
+  - "U.Role"
+  - "U.RoleAssignment"
+  - "U.Work"
+  - "U.WorkPlan"
+  - "U.WorkScope"
+keywords:
+  - "SLA"
+  - "SLO"
+  - "Work evidence"
+  - "acceptanceSpec"
+  - "accessSpec"
+  - "claim scope (G)"
+  - "promise content"
+  - "provider/consumer roles"
+---
+
+### A.2.3:9 - Common misclassification repairs
+
+* **A microservice label is being used for the whole service claim.** Ground the current referent. The deployed software is normally a delivery-system or access-point `U.System`; the consumer-facing outcome and acceptance claims remain in `U.PromiseContent`.
+* **An API label is being used for the whole service claim.** When the referent is the interface specification, use `U.MethodDescription`; when it is the addressable endpoint, use `U.System`. Neither referent is the promise-content episteme.
+* **A process or procedure label is being used for the whole service claim.** Recover the semantic way of doing as `U.Method`, its description as `U.MethodDescription`, planned work as `U.WorkPlan`, and performed occurrences as `U.Work`. Keep the promised outcome and acceptance claims in `U.PromiseContent`.
+* **A ticket or case record is being used for the whole service claim.** Recover its claim-bearing content as a ticket or case-description `U.Episteme`; keep the publication form and `U.PresentationCarrier` separate. Relate that episteme to the named `U.WorkPlan` or `U.Work` occurrence it describes.
+* **Cost or elapsed time is attached to the promise content.** Keep resource and time actuals on the performed `U.Work` occurrence. Derive a measure over work occurrences participating in `PromiseContentUse` only through its declared characteristic, C.16 measurement template, named A.10 evidence relations, aggregation rule, and `Gamma_time` policy; cite a `U.MethodDescription` when a particular measurement method affects the reading.
+* **Promise content is placed in a product or system breakdown.** Keep the promise content as an episteme. The access and delivery systems may have parts and selected structures under A.22 and C.30; the promise-content episteme is not one of those parts.
+* **A person or organization name is stored as the provider role.** State the `U.Role` value and role-taxonomy scheme in the promise content, then use a named `U.RoleAssignment` occurrence for the provider holder system and assignment window.
+

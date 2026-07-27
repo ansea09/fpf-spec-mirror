@@ -6,12 +6,12 @@ section_id: "A.7.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__006_solution.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:4 — Solution"
-line_start: 21814
-line_end: 21864
+line_start: 21818
+line_end: 21868
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -32,7 +32,7 @@ keywords:
 
 #### A.7.1:4.1 - Inherit the complete application contract
 
-The method described here specializes the method described by `C.19.2`. It always inherits the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, method/reader/performer/work/result separation, positive stop, and reopen rule.
+This A.7.1 description narrows the method claims stated by `C.19.2` for consequence-guided ontology analysis. When applying A.7.1, retain the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among method, reader, performer, Work, and result, positive stop, and reopen rule. This is description-level claim reuse; it adds no relation occurrence between the described Methods.
 
 The normal short path uses the already selected A.7.1 analysis method as its one current apparatus. It begins from one exact engineering subject and that subject's current direct owner; subject and owner are inputs and constraints, not apparatus candidates. Use `C.18` only when the team must generate or reframe alternative analysis methods, models, formalisms, or other direct-kind apparatuses for the same declared use. Use `C.11` only when two or more already-available apparatuses are eligible for that same use and guarantee, making a real local-choice question current. After selection, `A.15.2` owns planning and `A.15.1` owns dated work; `C.24` enters only for tool-call enactment planning.
 

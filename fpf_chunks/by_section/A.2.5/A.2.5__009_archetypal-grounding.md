@@ -6,12 +6,12 @@ section_id: "A.2.5:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__009_archetypal-grounding.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:6 — Archetypal Grounding"
-line_start: 4204
-line_end: 4209
+line_start: 4208
+line_end: 4213
 dependencies:
   - "A.15"
   - "A.2.1"

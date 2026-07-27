@@ -6,12 +6,12 @@ section_id: "F.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__002_use-this-when.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:0 — Use This When"
-line_start: 88072
-line_end: 88107
+line_start: 88076
+line_end: 88111
 dependencies:
   - "A.15"
   - "A.15.1"

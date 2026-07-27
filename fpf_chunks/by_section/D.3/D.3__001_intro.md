@@ -6,12 +6,12 @@ section_id: "D.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__001_intro.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:intro — Intro"
-line_start: 67348
-line_end: 67361
+line_start: 67352
+line_end: 67365
 dependencies:
   - "A.1"
   - "A.10"

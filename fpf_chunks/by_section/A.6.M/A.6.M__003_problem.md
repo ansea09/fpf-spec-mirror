@@ -6,12 +6,12 @@ section_id: "A.6.M:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__003_problem.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:2 — Problem"
-line_start: 18013
-line_end: 18029
+line_start: 18017
+line_end: 18033
 dependencies:
   - "A.10"
   - "A.20"

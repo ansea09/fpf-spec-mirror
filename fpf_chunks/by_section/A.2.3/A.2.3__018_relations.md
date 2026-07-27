@@ -6,35 +6,41 @@ section_id: "A.2.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__018_relations.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:11 — Relations"
-line_start: 3638
-line_end: 3644
+line_start: 3641
+line_end: 3647
 dependencies:
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
+  - "A.15.PROD"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.6"
   - "A.2.8"
+  - "A.2.9"
   - "A.3.1"
   - "A.3.2"
+  - "A.6.1"
   - "A.6.8"
   - "A.6.C"
+  - "A.7"
+  - "C.2.1"
   - "E.10"
   - "F.12"
-  - "U.BoundedContext"
+  - "F.9"
   - "U.Capability"
   - "U.ClaimScope"
+  - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Role"
   - "U.RoleAssignment"
-  - "U.Scope"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -51,8 +57,8 @@ keywords:
 
 ### A.2.3:11 - Relations
 
-* **Builds on:** A.1.1 `U.BoundedContext`; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; **A.2.6 `U.Scope` / `U.ClaimScope (G)` / `U.WorkScope`**.
-* **Coordinates with:** A.3.1 `U.Method`; A.3.2 `U.MethodDescription`; A.15.1 `U.Work`; A.15.2 `U.WorkPlan`; **A.6.8 (RPR‑SERV)** for normative prose unpacking of the service cluster; **B-line Bridges & CL (CL→R; may recommend ΔG narrowing)**.
+* **Builds on:** C.2.1 `U.Episteme` identity and reference scheme; A.2 `U.Role`; A.2.1 `U.RoleAssignment`; A.2.2 `U.Capability`; and A.2.6 `U.ClaimScope` and `U.WorkScope`. A.1.1 is used only when an independently selected `BoundedModelUseStructure` changes interpretation.
+* **Coordinates with:** A.3.1 `U.Method`; A.3.2 `U.MethodDescription`; A.15.1 `U.Work`; A.6.1 for actual operation application and result binding; A.15.PROD for current entity-identity-inception claims; A.15.2 `U.WorkPlan`; direct affected-subject, delivery, acceptance, and evaluation patterns; A.10 for evidence relations; A.2.8 for commitment; A.2.9 for speech act; A.6.8 for service-wording restoration; F.9 for cross-scheme or cross-scope bridges; and A.7 plus the direct publication pattern when specification use or publication is current.
 * **Constrained by lexical rules:** **E.10 L‑SERV** (service disambiguation); also **L‑FUNC**, **L‑PROC**, **L‑SCHED**, **L‑ACT**.
-* **Informs:** Reporting and assurance patterns (service KPIs, SLA dashboards); catalog and exposure patterns in domain contexts.
+* **Informs:** reporting and assurance patterns for measures over work occurrences participating in `PromiseContentUse`, plus directly governed catalog entries, exposure relations, charging relations, and entitlement relations when those claims are current.
 

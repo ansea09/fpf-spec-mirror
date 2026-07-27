@@ -6,12 +6,12 @@ section_id: "E.24.UK:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__013_sota-echoing.md"
-commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
+commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:11 — SoTA-Echoing"
-line_start: 86763
-line_end: 86796
+line_start: 86767
+line_end: 86800
 dependencies:
   - "A.1.1"
   - "A.11"
