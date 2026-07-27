@@ -6,12 +6,12 @@ section_id: "E.10.D1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:3 — Forces"
-line_start: 74386
-line_end: 74394
+line_start: 74525
+line_end: 74533
 dependencies:
   - "A.4"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "C.2.3:16"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__017_worked-examples.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:16 — Worked Examples"
-line_start: 42614
-line_end: 42639
+line_start: 42753
+line_end: 42778
 dependencies:
   - "A.16"
   - "A.18"

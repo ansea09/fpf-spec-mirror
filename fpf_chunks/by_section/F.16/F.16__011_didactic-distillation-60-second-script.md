@@ -6,12 +6,12 @@ section_id: "F.16:10"
 section_title: "Didactic distillation (60‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__011_didactic-distillation-60-second-script.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:10 — Didactic distillation (60‑second script)"
-line_start: 92427
-line_end: 92430
+line_start: 92527
+line_end: 92530
 dependencies:
   - "A.15"
   - "A.3"

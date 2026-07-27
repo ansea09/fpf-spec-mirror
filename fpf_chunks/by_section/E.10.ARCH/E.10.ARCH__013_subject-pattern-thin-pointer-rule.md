@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:7"
 section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_subject-pattern-thin-pointer-rule.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 74168
-line_end: 74192
+line_start: 74307
+line_end: 74331
 dependencies:
   - "A.10"
   - "A.15.1"

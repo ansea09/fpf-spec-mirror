@@ -6,12 +6,12 @@ section_id: "E.11.PUR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75977
-line_end: 75986
+line_start: 76116
+line_end: 76125
 dependencies:
   - "A.15"
   - "A.19"

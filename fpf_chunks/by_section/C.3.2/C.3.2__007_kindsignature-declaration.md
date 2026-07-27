@@ -6,12 +6,12 @@ section_id: "C.3.2:5"
 section_title: "KindSignature Declaration"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__007_kindsignature-declaration.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:5 — KindSignature Declaration"
-line_start: 44368
-line_end: 44386
+line_start: 44507
+line_end: 44525
 dependencies:
   - "A.14"
   - "A.2.6"

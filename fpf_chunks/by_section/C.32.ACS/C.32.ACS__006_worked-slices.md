@@ -6,12 +6,12 @@ section_id: "C.32.ACS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__006_worked-slices.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:5 — Worked slices"
-line_start: 64047
-line_end: 64056
+line_start: 64186
+line_end: 64195
 dependencies:
   - "A.10"
   - "A.17"

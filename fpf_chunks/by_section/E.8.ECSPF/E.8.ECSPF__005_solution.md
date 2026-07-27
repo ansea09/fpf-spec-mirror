@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__005_solution.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:4 — Solution"
-line_start: 71045
-line_end: 71088
+line_start: 71184
+line_end: 71227
 dependencies:
   - "A.19.ECS"
   - "C.25"

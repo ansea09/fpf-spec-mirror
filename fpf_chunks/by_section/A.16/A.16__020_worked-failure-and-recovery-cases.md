@@ -6,12 +6,12 @@ section_id: "A.16:19"
 section_title: "Worked Failure and Recovery Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__020_worked-failure-and-recovery-cases.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:19 — Worked Failure and Recovery Cases"
-line_start: 26769
-line_end: 26785
+line_start: 26908
+line_end: 26924
 dependencies:
   - "A.16"
   - "A.16.0"

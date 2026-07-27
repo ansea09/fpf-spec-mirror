@@ -6,12 +6,12 @@ section_id: "C.3.2:13"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__015_conformance-checklist.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:13 — Conformance Checklist"
-line_start: 44489
-line_end: 44505
+line_start: 44628
+line_end: 44644
 dependencies:
   - "A.14"
   - "A.2.6"

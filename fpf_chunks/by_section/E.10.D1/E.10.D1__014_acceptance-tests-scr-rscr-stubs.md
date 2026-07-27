@@ -6,12 +6,12 @@ section_id: "E.10.D1:13"
 section_title: "Acceptance Tests (SCR/RSCR stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__014_acceptance-tests-scr-rscr-stubs.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:13 — Acceptance Tests (SCR/RSCR stubs)"
-line_start: 74522
-line_end: 74538
+line_start: 74661
+line_end: 74677
 dependencies:
   - "A.4"
   - "A.7"

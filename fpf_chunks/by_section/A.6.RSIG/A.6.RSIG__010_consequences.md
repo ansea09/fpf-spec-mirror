@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__010_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:9 — Consequences"
-line_start: 9669
-line_end: 9681
+line_start: 9695
+line_end: 9707
 dependencies:
   - "A.6"
   - "A.6.P"

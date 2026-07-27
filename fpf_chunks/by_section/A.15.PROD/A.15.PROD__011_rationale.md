@@ -6,12 +6,12 @@ section_id: "A.15.PROD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:10 — Rationale"
-line_start: 26431
-line_end: 26438
+line_start: 26570
+line_end: 26577
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -30,9 +30,9 @@ keywords:
 
 ### A.15.PROD:10 - Rationale
 
-In the selected cases and declared receiving uses, no need for a universal production relation kind has been demonstrated. Each current question closes through exact governed direct facts and one branch-local claim or exact blocker. This is a bounded current parsimony result, not proof that every production relation is reducible or that no irreducible production-relation fact can occur in another subject practice. The bases vary across manufacturing, construction, biology, software, formal work, and epistemic production; local compound claims preserve those subject differences and make a missing governor visible instead of hiding it behind a broad relation name.
+In the selected cases and declared receiving uses, no need for a universal production relation kind has been demonstrated. Each current question closes through declared predicates, the case facts that make them obtain, and one branch-local claim or exact blocker. This is a bounded current parsimony result, not proof that every production relation is reducible or that no irreducible production-relation fact can occur in another subject practice. The bases vary across manufacturing, construction, biology, software, formal work, and epistemic production; local compound claims preserve those subject differences and expose a missing predicate instead of hiding it behind a broad relation name.
 
-A later subject practice reopens A.6.RCD continuation when repeated uses need reusable predicate semantics or stable occurrence semantics. A derived-kind candidate needs a named receiver for occurrence identity and a direct settlement of obtaining, applicability, base dependencies, recurrence, and stable relation-occurrence identity. A primitive candidate additionally needs failed lossless derivation, one exact action-facing distinction that every accepted derivation loses, and independent receiving uses. Repeated predicate use without a need for occurrence semantics stops at reusable predicate semantics. A.15.PROD therefore records the present no-mint disposition but neither forbids nor pre-admits a later subject-specific derived or primitive relation kind.
+A later subject practice reopens A.6.RCD when several named claims reuse the same participant meanings or when a named later action must refer again to the same obtaining relation occurrence. Repeated predicate use alone stops at a reusable predicate-definition episteme. A derived-kind candidate additionally states obtaining, applicability, base dependencies, recurrence, and stable relation-occurrence identity. A primitive candidate additionally requires failed lossless derivation, one action-facing distinction lost by every accepted derivation, and independent receiving uses. A.15.PROD records the present no-mint disposition but neither forbids nor pre-admits a later subject-specific derived or primitive relation kind.
 
 The three-question split also preserves time correctly. Work may begin before an entity exists and continue after it first exists. Completion may occur at inception or later. Delivery, acceptance, release, publication, and availability may occur later still. Keeping each boundary and criterion separate gives practitioners useful historical claims without treating every neighboring event as part of production identity.
 

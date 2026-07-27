@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:10 — Rationale"
-line_start: 71142
-line_end: 71145
+line_start: 71281
+line_end: 71284
 dependencies:
   - "A.19.ECS"
   - "C.25"

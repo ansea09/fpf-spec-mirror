@@ -6,12 +6,12 @@ section_id: "E.9.DA:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__009_common-anti-patterns-and-repairs.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:8 — Common anti-patterns and repairs"
-line_start: 71774
-line_end: 71788
+line_start: 71913
+line_end: 71927
 dependencies:
   - "A.19.ECS"
   - "E.10"

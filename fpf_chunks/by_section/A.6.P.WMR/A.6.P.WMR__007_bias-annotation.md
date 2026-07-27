@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:6 — Bias-Annotation"
-line_start: 16040
-line_end: 16054
+line_start: 16084
+line_end: 16098
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,9 +34,9 @@ keywords:
 
 ### A.6.P.WMR:6 - Bias-Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Limited to recovering one method/work-boundary relation-bearing claim after A.6.P has isolated it; not Universal governance for all relation ambiguity, work identity, production, evidence, publication, transfer, or receiving use.**
+Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Limited to recovering one method-or-work boundary claim after A.6.P has isolated it; not Universal governance for all relation ambiguity, work identity, production, evidence, publication, transfer, or receiving use.**
 
-The pattern deliberately weights **Onto/Epist** toward exact entities, relation kinds, claim dimensions, and non-invention, and **Prag** toward the shortest usable result from the four-family contract. **Did** favors ordinary wording and heterogeneous worked cases before heavier assurance. The **Arch** cost is coordination with several direct owners rather than one convenient input/output/result architecture. The **Gov** boundary is that the accountable subject owner supplies, rejects, or reframes a missing governor; WMR cannot admit it. Mitigation is the thin five-question core, one of four truthful exit families, and independent `factually unsupported`, `missing-information`, and `missing-governor` reasons, with future-owner routing only for the last, plus owner-local handoff only when the receiving use needs it and the scope limits below. The following domain-bias rows are informative risk cues; they add no duties beyond the checklist.
+The pattern deliberately weights **Onto/Epist** toward exact entities, relation kinds, claim distinctions, and non-invention, and **Prag** toward the shortest usable result from the four-exit architecture. **Did** puts ordinary wording and heterogeneous cases before heavier assurance. The **Arch** cost is coordination with several direct owners rather than one convenient input, output, or result architecture. The **Gov** boundary is that the accountable subject owner supplies, rejects, or reframes a missing governor; WMR cannot admit it. Mitigation is the three-question ordinary core, two conditional assurance questions, four truthful exits, and independent `factually unsupported`, `missing-information`, and `missing-governor` reasons, with future-owner routing only for the last. The following domain-bias rows are informative risk cues; they add no duties beyond the checklist.
 
 | Bias | Countermeasure |
 | --- | --- |

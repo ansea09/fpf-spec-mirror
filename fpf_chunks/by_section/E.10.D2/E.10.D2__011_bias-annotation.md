@@ -6,12 +6,12 @@ section_id: "E.10.D2:9"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__011_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:9 — Bias-Annotation"
-line_start: 74741
-line_end: 74744
+line_start: 74880
+line_end: 74883
 dependencies:
   - "A.7"
   - "C.2.1"

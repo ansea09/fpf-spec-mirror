@@ -6,12 +6,12 @@ section_id: "A.19.USCM:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__014_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:12 — Relations"
-line_start: 31901
-line_end: 31923
+line_start: 32040
+line_end: 32062
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

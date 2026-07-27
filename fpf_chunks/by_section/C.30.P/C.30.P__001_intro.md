@@ -6,12 +6,12 @@ section_id: "C.30.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:intro — Intro"
-line_start: 59882
-line_end: 59900
+line_start: 60021
+line_end: 60039
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:0 — Use This When"
-line_start: 85998
-line_end: 86023
+line_start: 86098
+line_end: 86123
 dependencies:
   - "A.19"
   - "A.19.ECS"

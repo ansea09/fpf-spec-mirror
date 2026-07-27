@@ -6,12 +6,12 @@ section_id: "A.17:End"
 section_title: "A.17:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__012_a-17-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:End — A.17:End"
-line_start: 27737
-line_end: 27738
+line_start: 27876
+line_end: 27877
 dependencies:
   - "A.17"
   - "A.18"

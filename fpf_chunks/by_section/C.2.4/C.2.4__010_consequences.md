@@ -6,12 +6,12 @@ section_id: "C.2.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__010_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:9 — Consequences"
-line_start: 43015
-line_end: 43017
+line_start: 43154
+line_end: 43156
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "A.6.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.7/A.6.7__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms"
   - "A.6.7:10 — Rationale"
-line_start: 19629
-line_end: 19639
+line_start: 19673
+line_end: 19683
 dependencies:
   - "A.21"
   - "A.6.1"

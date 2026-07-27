@@ -6,12 +6,12 @@ section_id: "F.12:12"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__013_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:12 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 91117
-line_end: 91162
+line_start: 91217
+line_end: 91262
 dependencies:
   - "A.2.3"
   - "F.1"

@@ -6,12 +6,12 @@ section_id: "A.3.4.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:intro — Intro"
-line_start: 8287
-line_end: 8312
+line_start: 8313
+line_end: 8338
 dependencies:
   - "A.10"
   - "A.15.1"

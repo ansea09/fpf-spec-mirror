@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.A.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
-line_start: 16779
-line_end: 17513
+line_start: 16823
+line_end: 17557
 dependencies:
   - "A.15"
   - "A.16"

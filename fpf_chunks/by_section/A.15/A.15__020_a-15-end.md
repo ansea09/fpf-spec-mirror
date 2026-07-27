@@ -6,12 +6,12 @@ section_id: "A.15:End"
 section_title: "A.15:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__020_a-15-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:End — A.15:End"
-line_start: 24294
-line_end: 24295
+line_start: 24338
+line_end: 24339
 dependencies:
   - "A.10"
   - "A.12"

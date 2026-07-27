@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:End"
 section_title: "A.22.CGUS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__015_a-22-cgus-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:End — A.22.CGUS:End"
-line_start: 34837
-line_end: 34840
+line_start: 34976
+line_end: 34979
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

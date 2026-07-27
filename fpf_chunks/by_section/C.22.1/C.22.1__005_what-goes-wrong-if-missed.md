@@ -6,12 +6,12 @@ section_id: "C.22.1:4"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__005_what-goes-wrong-if-missed.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:4 — What goes wrong if missed"
-line_start: 50584
-line_end: 50589
+line_start: 50723
+line_end: 50728
 dependencies:
   - "A.15"
   - "C.19.1"

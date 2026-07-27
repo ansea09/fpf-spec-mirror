@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Work-to-aggregation interface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_work-to-aggregation-interface.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:9 — Work-to-aggregation interface"
-line_start: 24704
-line_end: 24733
+line_start: 24758
+line_end: 24791
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ keywords:
 
 ### A.15.1:9 - Work-to-aggregation interface
 
-`A.15.1` makes the occurrence-side inputs recoverable without storing them in the occurrence: a separate assertion or description episteme designates exact Work individuals or work parts and states their temporal extents and the separately obtaining resource-use relations selected for aggregation. Aggregation remains a neighboring claim with its own EntityOfConcern and direct owner.
+`A.15.1` makes the occurrence-side inputs recoverable without storing them in the occurrence: a separate assertion or description episteme designates exact Work individuals or work parts and states their temporal extents and the separately obtaining resource-use relations selected for aggregation. `B.1.4` identifies the temporal-aggregation claim and result; `B.1.6` identifies the resource-aggregation claim, ledger, and result. Neither becomes a Work field.
 
 #### A.15.1:9.1 - Temporal aggregation return
 
@@ -74,19 +74,23 @@ When the exact `B.1.4` result selects the Work-interval profile, retain these us
 * **Convex hull** `[min t_start, max t_end]` for lead time or cycle time: preserve elapsed span from first start to last end, including gaps.
 * **Declared algebraic behavior:** for either exact set-based policy, duplicate input is idempotent, input order is irrelevant, and adding intervals cannot shrink the union or hull. If another policy lacks those properties, name it rather than borrowing the union/hull result.
 
-Never switch union and hull silently between KPIs. The formulas above profile a recovered B.1.4 aggregation over Work intervals; they do not make A.15.1 the temporal-aggregation owner.
+Never switch union and hull silently between KPIs. The formulas above profile a recovered B.1.4 aggregation over Work intervals; the selected B.1.4 claim, not A.15.1, states the temporal result.
 
 #### A.15.1:9.2 - Resource aggregation return
 
 For a total or ledger over performed resource-use facts, use `B.1.6`. Name the exact work refs, typed resource-accounting basis, units, measurement or evidence refs, holon delimitation, time window, overlap or deduplication policy, aggregation rule, and admissible use there. Additivity, allocation, traceability, the aggregate ledger, and optional `Gamma_work` notation belong to that recovered resource-aggregation claim, not to Work-occurrence identity.
 
+**Filled heterogeneous BuildOps route.** Published case-local specification `BuildOpsResourceUseRelations-v12` declares `BuildWorkUsesResource@BuildOps-v12(work, resource, amount, unit, extent)` with participant order `<work, resource, amount, unit, extent>`. Its test requires the named Work actually to occupy or consume the named resource during that extent, with the amount measured in the named unit. Separate case facts state that `ReleaseBinary12_BuildWork_2026-07-21T0900_0912` occupied `BuildPoolCPU_A` for `24` `runner-core-minute` during `09:00-09:12`, and consumed `0.84` `kWh` of `GridElectricity_BuildZone3` within `BuildService_A_Delimitation-v12` during the same extent. Those facts make relation occurrences `BuildRunUsedCPU_12` and `BuildRunUsedElectricity_12` obtain with those exact participant tuples. `BuildRunnerAllocationEvidence_12` and `BuildZone3EnergyMeasurement_12` support the facts; neither record is the resource use, and neither relation is a field of the Work.
+
+B.1.6 result `BuildResourceAggregation_12 : WorkResourceAggregation@Context` names concern `Build12MeasuredResourceUse`, bounded context `BuildOps-v12`, that exact Work, and the two relation occurrences. It uses typed basis `BuildComputeAndElectricityBasis-v12`, measures `BuildRunnerCoreMinuteMeasure_12` and `BuildZone3KWhMeasure_12`, evidence refs `BuildRunnerAllocationEvidence_12` and `BuildZone3EnergyMeasurement_12`, holon delimitation `BuildService_A_Delimitation-v12`, and window `09:00-09:12`. Policy `BuildResourceRelationDedup-v12` counts each exact relation occurrence once across repeated evidence or a parent/child view. Rule `BuildTypedResourceVectorSum-v12` adds only entries of the same resource type and unit. Ledger `BuildResourceLedger_12` contributes `<BuildRunUsedCPU_12, 24 runner-core-minute>` and `<BuildRunUsedElectricity_12, 0.84 kWh>` and returns `Build12MeasuredResourceVector = <24 runner-core-minute, 0.84 kWh>` without summing or converting its unlike components. Its admissible use is the measured resource-disclosure input for Build 12; it proves no Work identity, production result, efficiency, cost, sustainability verdict, or acceptance.
+
 When an exact `B.1.6` aggregation must allocate shared or overlapping resource use, retain these non-default policy examples:
 
 * **Parent attribution:** book a declared shared fixed value once at the parent and independently measured variable values at children.
 * **Pro rata by wall time:** divide a declared shared value by relative durations only when that driver is admissible for the resource basis.
-* **Driver based:** allocate by an exact measured or governed driver such as CPU share, weight, or priority.
+* **Driver based:** allocate by a measured driver such as CPU share, weight, or priority and state the exact allocation rule that uses it.
 
 Whichever policy is selected, add only disjoint or explicitly deduplicated values and keep every aggregate figure traceable to its contributing Work refs and evidence. A policy label alone establishes neither allocation nor ledger value.
 
-A Work publication or KPI may cite either result under its publication-use governor. It may not recreate an unselected operator, infer an aggregate from parthood, or turn an aggregation record into a Work occurrence.
+A Work publication or KPI may cite either result through the exact E.17 publication-use relation that projects it. It may not recreate an unselected operator, infer an aggregate from parthood, or turn an aggregation record into a Work occurrence.
 

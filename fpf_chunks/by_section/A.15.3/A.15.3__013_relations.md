@@ -6,12 +6,12 @@ section_id: "A.15.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__013_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12 — Relations"
-line_start: 25369
-line_end: 25374
+line_start: 25480
+line_end: 25485
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.15.3:12 - Relations
 
-- **Builds upon:** C.2.1 and A.15.2 for WorkPlan identity, present EntityOfConcern, intended-performance designators, and intended-work content; A.6.5 for SlotSpecs inside exact RelationSignatures; A.6.1 for operation argument and result declarations; and the direct pattern governing any other admissible target declaration.
-- **Coordinates with:** A.15.1 for dated Work; direct relation patterns for actual participation; A.6.1 for actual operation applications and bindings; A.6.RCD for later local fulfilment or variance claims when no current direct comparison relation closes the use; A.15.5 for work-entry readiness; and exact evidence, gate, evaluation, result, production, delivery, acceptance, publication, and currentness patterns only when those claims become current.
+- **Builds upon:** C.2.1 and A.15.2 for WorkPlan identity, present EntityOfConcern, intended-performance designators, and intended-work content; A.6.5 for SlotSpecs inside `RelationSignature` editions; A.6.1 for operation argument and result declarations; and the pattern that defines any other admissible declaration member.
+- **Coordinates with:** A.15.1 for dated Work; relation patterns for actual participants; A.6.1 for applications and bindings; A.6.RCD for local fulfilment or variance claims when no comparison relation is already defined; A.15.5 for work-entry readiness; and the evidence, gate, evaluation, result, production, delivery, acceptance, publication, and currentness patterns when those claims are made.
 - **Does not replace:** a declaration, method or method description, WorkPlan, dated Work, actual participant or binding, constraint or negative plan claim, comparison result, result episteme, evidence, gate, production, or publication object.
 

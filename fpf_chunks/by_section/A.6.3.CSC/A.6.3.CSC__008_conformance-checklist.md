@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-checklist.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:7 — Conformance Checklist"
-line_start: 13237
-line_end: 13266
+line_start: 13322
+line_end: 13351
 dependencies:
   - "A.15"
   - "A.20"

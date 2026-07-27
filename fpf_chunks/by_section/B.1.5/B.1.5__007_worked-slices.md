@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__007_worked-slices.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Worked Slices"
-line_start: 36234
-line_end: 36259
+line_start: 36373
+line_end: 36398
 dependencies:
   - "A.1"
   - "A.14"

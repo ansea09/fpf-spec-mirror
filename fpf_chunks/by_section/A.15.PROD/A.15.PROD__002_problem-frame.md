@@ -6,12 +6,12 @@ section_id: "A.15.PROD:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:1 — Problem Frame"
-line_start: 26101
-line_end: 26136
+line_start: 26212
+line_end: 26247
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -38,11 +38,11 @@ keywords:
 
 **Primary viewpoint.** The practitioner **SHOULD** recover the smallest receiver-relevant claim: select one branch, identify its exact `EntityOfConcern`, and stop when that branch is decided or its exact blocker is known. This pattern is not a form to fill in.
 
-**First useful move.** The practitioner **SHOULD** first ask which answer the receiving work needs now:
+**First useful move.** The practitioner **SHOULD** first ask which answer the receiving action or decision needs now:
 
-1. Is this exact work the whole production occurrence or a declared proper part of it?
-2. Under which exact applicable identity-specification edition did exact work make this exact entity satisfy its identity rule for the first time?
-3. At which boundary did the subject state satisfy the production-completion criterion edition applicable to this occurrence?
+1. Is this dated Work the whole production Work for this use, or a declared proper part of it?
+2. Which identity rule applies to the candidate, and at what boundary did changes attributed to this Work first make that rule true so this entity began to exist?
+3. Which completion criterion applies to this production Work, and at what boundary did the actual state satisfy it?
 
 The practitioner **MUST NOT** answer one question with evidence for another.
 
@@ -62,5 +62,5 @@ The practitioner **MUST NOT** answer one question with evidence for another.
 
 **Not this pattern when.** Practitioners **SHOULD** use `A.15.1` directly when the only question is what work occurred; `A.3.4` when the only question is what actually changed; `A.3.1` when the only question is the reusable way of doing; the direct identity pattern when only entity identity is current; or the direct evaluation, delivery, acceptance, release, publication, availability, evidence, or assurance pattern when only that neighboring claim is current. This pattern coordinates those objects only for a selected production-recovery question.
 
-**No-mint disposition.** Authors and modelers **MUST NOT** introduce `U.ProductionWork` as a U-kind. They **MUST NOT** introduce `WorkProducesEntityRelation`, `EntityIdentityInceptionByWorkRelation`, `ProductionWorkRelation`, or `ProductionCompletionRelation` as universal relation kinds. The default result is one local C.2.1 claim episteme per selected question under A.6.RCD disposition 2. Repeated subject use may justify one subject-owned reusable predicate-definition episteme. Only the additional need of a named receiver for stable relation-occurrence identity opens a derived relation-kind candidate through A.6.RCD and later admission.
+**No-mint disposition.** Authors and modelers **MUST NOT** introduce `U.ProductionWork` as a U-kind. They **MUST NOT** introduce `WorkProducesEntityRelation`, `EntityIdentityInceptionByWorkRelation`, `ProductionWorkRelation`, or `ProductionCompletionRelation` as universal relation kinds. The default result is one local C.2.1 claim episteme per selected question under A.6.RCD disposition 2. Repeated use of the same predicate with the same participant meanings in one subject practice may justify one reusable predicate-definition episteme in that practice's owning pattern. Consider a derived relation-kind candidate only when a named later action must refer again to the same obtaining relation occurrence rather than merely reuse the predicate; A.6.RCD and later admission govern that continuation.
 

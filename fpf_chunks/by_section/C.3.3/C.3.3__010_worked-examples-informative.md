@@ -6,12 +6,12 @@ section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 44703
-line_end: 44716
+line_start: 44842
+line_end: 44855
 dependencies:
   - "A.2.6"
   - "A.6.REL"

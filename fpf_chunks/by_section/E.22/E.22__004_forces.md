@@ -6,12 +6,12 @@ section_id: "E.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:3 — Forces"
-line_start: 84345
-line_end: 84354
+line_start: 84445
+line_end: 84454
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

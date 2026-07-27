@@ -6,12 +6,12 @@ section_id: "C.28:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__007_archetypal-grounding.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:5 — Archetypal Grounding"
-line_start: 57188
-line_end: 57205
+line_start: 57327
+line_end: 57344
 dependencies:
   - "A.10"
   - "A.15"

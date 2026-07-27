@@ -6,12 +6,12 @@ section_id: "A.15.1:10"
 section_title: "Work-claim interpretation checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__012_work-claim-interpretation-checks.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:10 — Work-claim interpretation checks"
-line_start: 24734
-line_end: 24743
+line_start: 24792
+line_end: 24801
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -64,9 +64,9 @@ keywords:
 
 When another decision relies on a work occurrence, perform three quick checks:
 
-1. **Method-description interpretation.** Does `methodDescriptionRef`, when current, resolve to the exact `U.MethodDescription` edition under the effective `U.ReferenceScheme` used by the receiving claim? If not, repair the reference or relate the exact local senses through F.9 when a real cross-locality claim is current.
+1. **Method-description interpretation.** Does `methodDescriptionRef` resolve to the selected `U.MethodDescription` episteme under the effective `U.ReferenceScheme` used by the receiving claim? If the claim also says this is an edition of an earlier description, does the exact C.2.1 `EpistemeEditionRelation` obtain? If two local senses must be related, test an F.9 Bridge and state the bounded use separately rather than treating the reference change as a Bridge.
 2. **Performer and assignment coverage.** Is the exact admitted `U.System` named as performer the holder of every `U.RoleAssignment` cited by an obtaining F.6 `performedUnderAssignment(W, RA)` attribution, and does each assignment's obtaining extent cover the occurrence or exact performed part attributed to that system? If not, keep the Work occurrence, performer claim, and defective assignment or attribution claim separate until A.2.1 and F.6 admit or repair them.
-3. **Evaluation boundary.** Has separately performed evaluation or acceptance work applied the current criterion edition to the exact independently obtaining relations involving the Work occurrence, changed subject, measurement results, or delivered entity required by that criterion? If not, no acceptance verdict follows. If yes, keep the evaluation work, result episteme, verdict content, evidence, and acceptance relation separately governed.
+3. **Evaluation boundary.** Has separately performed evaluation or acceptance work applied the selected criterion episteme to the independently obtaining relations involving the Work occurrence, changed subject, measurement results, or delivered entity that the criterion actually requires? If not, no acceptance verdict follows. If yes, keep the evaluation work, result episteme, verdict content, evidence, and acceptance relation separate. Claim edition continuity only when the exact C.2.1 relation obtains.
 
-These checks recover exact governing objects. They neither create one judgment-context object nor make acceptance part of work identity.
+These checks tell the reader which description, assignment, criterion, evaluation, and relation to cite. They neither create one judgment-context object nor make acceptance part of work identity.
 

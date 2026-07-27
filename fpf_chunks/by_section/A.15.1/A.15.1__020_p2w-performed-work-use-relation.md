@@ -6,12 +6,12 @@ section_id: "A.15.1:15a"
 section_title: "P2W Performed-Work Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__020_p2w-performed-work-use-relation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15a — P2W Performed-Work Use Relation"
-line_start: 24811
-line_end: 24816
+line_start: 24869
+line_end: 24874
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ keywords:
 
 ### A.15.1:15a - P2W Performed-Work Use Relation
 
-When `E.18.1` reaches performed work, identify one Work individual admitted under `U.Work`, then recover each actual performer `U.System`, the exact obtaining `U.RoleAssignment` under which it performed and any explicit F.6 attribution, plus the separately obtaining enacted-method, temporal, and containing-system relations. Add binding, resource-use, or work-to-referent relations only when the receiving use needs them. When P2W continues into a result or consequence claim, select the exact §4.6 row and carry that object under its own governor.
+When `E.18.1` reaches performed work, identify one Work individual admitted under `U.Work`, then recover each actual performer `U.System`, the exact obtaining `U.RoleAssignment` under which it performed and any explicit F.6 attribution, plus the separately obtaining enacted-method, temporal, and containing-system relations. Add only the actual operation binding, resource use, or work-to-referent relation on which the receiving sentence relies. When P2W continues into a result or consequence claim, select the matching §4.6 row, name the object and facts that row requires, and stop at its stated non-inference or missing-governor result.
 
-A Work occurrence may be designated by an episteme that also cites a `U.WorkPlan`, exact A.15.3 planned-filling claim, or prior readiness claim as a baseline. State every actual participant, parameter, premise, operation argument or result, resource use, and work-to-referent fact only through its obtaining direct relation or exact A.6.1 application binding. Do not copy a result or consequence into Work; follow the concrete §4.6 route.
+A Work occurrence may be designated by an episteme that also cites a `U.WorkPlan`, exact A.15.3 planned-filling claim, or prior readiness claim as a baseline. For an operation argument or result, cite one identified A.6.1 application and its exact binding. For another participant, premise, resource use, or work-to-referent claim, name the declared predicate, participant order, and actual values; if that predicate is absent, return the corresponding `missing-governor` result. Do not copy a result or consequence into Work; follow the concrete §4.6 route.
 

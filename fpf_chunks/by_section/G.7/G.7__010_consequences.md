@@ -6,12 +6,12 @@ section_id: "G.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__010_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:9 — Consequences"
-line_start: 98191
-line_end: 98196
+line_start: 98291
+line_end: 98296
 dependencies:
   - "A.21"
   - "B.3"

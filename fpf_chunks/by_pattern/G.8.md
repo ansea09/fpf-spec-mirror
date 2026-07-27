@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/G.8.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
-line_start: 98220
-line_end: 98688
+line_start: 98320
+line_end: 98788
 dependencies:
   - "A.10"
   - "A.21"

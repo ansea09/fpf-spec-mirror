@@ -6,12 +6,12 @@ section_id: "A.6.S:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__013_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:11 — SoTA-Echoing"
-line_start: 20890
-line_end: 20903
+line_start: 20934
+line_end: 20947
 dependencies:
   - "A.12"
   - "A.3"

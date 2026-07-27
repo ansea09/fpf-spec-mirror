@@ -6,12 +6,12 @@ section_id: "E.6:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__010_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:9 — Relations"
-line_start: 70249
-line_end: 70253
+line_start: 70388
+line_end: 70392
 dependencies:
   - "E.2"
 keywords:

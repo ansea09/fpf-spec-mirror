@@ -6,12 +6,12 @@ section_id: "A.15.PROD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:3 — Forces"
-line_start: 26143
-line_end: 26155
+line_start: 26254
+line_end: 26266
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -34,7 +34,7 @@ keywords:
 | --- | --- |
 | Familiar production language vs exact claim identity | One sentence often carries work participation, entity inception, completion, and later acceptance at once. |
 | Narrow work vs containing work | A finishing occurrence may itself be production work for one bounded use and a proper part of a larger production occurrence for another. |
-| Product-class identity before the entity exists | Entity-inception recovery remains blocked unless the exact identity-specification edition and its direct subject-governed applicability to the candidate basis, subject context, and inception boundary are available before inception; no surrogate future entity is introduced. |
+| Product-class identity before the entity exists | Entity-inception recovery remains blocked unless the exact identity-specification episteme and either a named applicability predicate or a filled local claim apply it to the candidate basis, subject context, and inception boundary before inception; no surrogate future entity is introduced. |
 | Actual work effects vs observation | Logs, deltas, pictures, and first observation can support a claim but do not create work-to-change or change-to-identity links. |
 | Work composition vs transformation composition | A.15.1 may ground composite work while no accepted transformation-composition governor exists. |
 | First existence vs completion | Identity and completion may coincide, but neither criterion entails the other. |

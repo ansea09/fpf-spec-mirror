@@ -6,12 +6,12 @@ section_id: "C.20:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__015_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:10 — Relations"
-line_start: 49924
-line_end: 49928
+line_start: 50063
+line_end: 50067
 dependencies:
   - "A.19"
   - "C.2"

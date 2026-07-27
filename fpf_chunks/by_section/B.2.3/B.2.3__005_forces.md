@@ -6,12 +6,12 @@ section_id: "B.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__005_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:3 — Forces"
-line_start: 37373
-line_end: 37382
+line_start: 37512
+line_end: 37521
 dependencies:
   - "A.1"
   - "A.10"

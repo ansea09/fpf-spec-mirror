@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:End"
 section_title: "E.17.AUD.OOTD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__014_e-17-aud-ootd-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:End — E.17.AUD.OOTD:End"
-line_start: 81074
-line_end: 81075
+line_start: 81213
+line_end: 81214
 dependencies:
   - "A.10"
   - "A.15"

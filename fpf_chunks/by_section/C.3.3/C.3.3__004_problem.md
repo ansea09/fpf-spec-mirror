@@ -6,12 +6,12 @@ section_id: "C.3.3:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__004_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:3 — Problem"
-line_start: 44576
-line_end: 44582
+line_start: 44715
+line_end: 44721
 dependencies:
   - "A.2.6"
   - "A.6.REL"

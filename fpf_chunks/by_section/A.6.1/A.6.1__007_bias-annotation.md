@@ -6,15 +6,16 @@ section_id: "A.6.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:6 — Bias-Annotation"
-line_start: 11924
-line_end: 11933
+line_start: 12009
+line_end: 12018
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
@@ -25,7 +26,9 @@ dependencies:
   - "A.3.2"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
+  - "B.3"
   - "C.2.1"
   - "C.29"
   - "C.3"
@@ -52,8 +55,8 @@ keywords:
 **Scope declaration:** Universal across FPF-governed domains.
 
 - **Gov.** Favors one direct governing declaration for operation meaning. Counter-risk: every operation becomes a mechanism card. Mitigation: use the progressive-explicitness threshold.
-- **Arch.** Favors separate declaration, realization, method, work, and publication relations. Counter-risk: too many linked objects. Mitigation: materialize only the objects needed by a named receiving claim.
+- **Arch.** Favors separate declaration, realization, method, work, and publication relations. Counter-risk: too many linked objects. Mitigation: materialize only objects whose identity or obtaining is asserted or used as a premise.
 - **Onto-Epist.** Favors `U.Mechanism` as declaration episteme and preserves the direct kind of its subject and realizer. Counter-risk: the familiar word mechanism is overread as a machine part. Mitigation: the early object-and-relation guide and heterogeneous cases expose the distinction.
-- **Prag.** Favors explicit argument and result declarations, application rules, laws, admission conditions, and applicability. Counter-risk: formal apparatus outruns value. Mitigation: ordinary direct statements remain admissible, and actual bindings open only for a named receiving use.
+- **Prag.** Favors explicit argument and result declarations, application rules, laws, admission conditions, and applicability. Counter-risk: formal apparatus outruns value. Mitigation: ordinary direct statements remain admissible, and an actual binding opens only when a downstream claim asserts which value participated or was returned.
 - **Did.** Favors a short mantra and concrete cases. Counter-risk: readers treat imperative recall as execution order. Mitigation: A.22.CGUS alone governs condition-governed executable continuation.
 

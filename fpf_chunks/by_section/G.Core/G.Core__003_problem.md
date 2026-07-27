@@ -6,12 +6,12 @@ section_id: "G.Core:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__003_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:2 — Problem"
-line_start: 94234
-line_end: 94246
+line_start: 94334
+line_end: 94346
 dependencies:
   - "A.15.3"
   - "A.19"

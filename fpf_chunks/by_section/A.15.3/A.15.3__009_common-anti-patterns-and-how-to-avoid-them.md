@@ -6,12 +6,12 @@ section_id: "A.15.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 25329
-line_end: 25345
+line_start: 25440
+line_end: 25456
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -43,16 +43,16 @@ keywords:
 
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
-| Generic slot-bearing description | Any description with fields becomes a reusable declaration. | Resolve one exact RelationSignature SlotSpec, A.6.1 argument/result declaration, or other directly governed declaration member. |
+| Generic slot-bearing description | Any description with fields is treated as a reusable declaration. | Point to a declared `RelationSignature` SlotSpec, A.6.1 argument or result, or another member whose pattern defines its meaning and actual use. |
 | Dependent PlanItem U-kind | A ClaimGraph component receives a rival identity and ontic settlement. | Keep `SlotFillingsPlanItem` as declaration-local WorkPlan content. |
 | Planned SlotRelation | The plan claim is reified as an obtaining world-side relation. | Keep planned filling as positive claim content; open an actual relation only under its direct predicate. |
-| Planned-meaning owner blur | The target's direct pattern is said to own the planning intention. | Let the target owner govern reusable member meaning and corresponding actual-use predicate; let A.15.2/A.15.3 govern intended-use content. |
-| Method-description slot | Generic method semantics are mistaken for declaration members. | Cite the method description as ordinary plan content or return a missing declaration governor for typed reuse. |
+| Declaration/plan responsibility blur | The declaration pattern is said to make the planning intention, or A.15.3 is said to define actual use. | Let the declaration pattern define member meaning and actual-use predicate; let A.15.2 and A.15.3 state the intention. |
+| Method-description slot | Generic method wording is mistaken for a declaration member. | Keep it as ordinary plan content or return `missing-governor` when typed reuse is required. |
 | Relation/operation collapse | A.6.1 arguments and results are written as A.6.5 SlotSpecs. | Dispatch by target family and keep each declaration vocabulary local. |
-| Row-count cardinality | Repeated rows or their order silently define multiplicity, alternatives, or sequence. | Apply the target declaration's semantic cardinality and an exact policy whose conditions and resolution rule determine the effective planned value. |
-| Empty filler as prohibition | Omission, null, or a negated reference is treated as “must not use.” | State prohibition, exclusion, required absence, or completeness as a separate governed plan claim. |
+| Row-count cardinality | Row count or order silently defines multiplicity, alternatives, or sequence. | Use the declaration's cardinality; for alternatives, state conditions and a resolution rule. |
+| Empty filler as prohibition | Omission, null, or a negated reference is read as *must not use*. | State prohibition, exclusion, required absence, or completeness as a separate plan claim. |
 | Plan-as-actual | A planned value is treated as actual participation or a returned result. | Identify work and actual relation or application bindings independently. |
-| Generic reference or policy | `Ref`, `SpecRef`, `PolicyRef`, or a shared label is treated as sufficient. | Use the concrete governed RefKind and exact policy kind, owner, edition, applicability, and reference scheme. |
-| Latest-as-baseline | A mutable label stands for the declaration or value edition. | Pin the exact edition when the receiving use depends on it. |
+| Generic reference or policy | `Ref`, `SpecRef`, `PolicyRef`, or a shared label is treated as sufficient. | Use the concrete RefKind and identify the policy's kind, defining pattern, edition, applicability, and reference scheme. |
+| Latest-as-baseline | A mutable label stands for a declaration or value edition. | Pin the edition when choosing another one could change the planned or comparison result. |
 | Backfilled plan | Actual values replace planned rows after work. | Preserve the cited plan edition and state a neighboring substitution or variance claim. |
 

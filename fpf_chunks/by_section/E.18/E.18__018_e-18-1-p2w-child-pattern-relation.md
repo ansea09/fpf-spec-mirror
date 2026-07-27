@@ -6,12 +6,12 @@ section_id: "E.18:15a"
 section_title: "E.18.1 P2W Child-Pattern Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__018_e-18-1-p2w-child-pattern-relation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15a — E.18.1 P2W Child-Pattern Relation"
-line_start: 81644
-line_end: 81647
+line_start: 81783
+line_end: 81786
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

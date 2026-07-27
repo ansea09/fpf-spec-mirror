@@ -6,12 +6,12 @@ section_id: "C.25:15"
 section_title: "Worked Quality Families"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__016_worked-quality-families.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:15 — Worked Quality Families"
-line_start: 52452
-line_end: 52497
+line_start: 52591
+line_end: 52636
 dependencies:
   - "A.15"
   - "A.16.0"

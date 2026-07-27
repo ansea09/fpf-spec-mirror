@@ -6,12 +6,12 @@ section_id: "A.3.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__012_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:10 — Rationale"
-line_start: 8257
-line_end: 8266
+line_start: 8283
+line_end: 8292
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,11 +54,11 @@ keywords:
 
 ### A.3.4:10 - Rationale
 
-`U.Transformation` gives FPF one governed object for actual bounded change. Its identity basis is subject-side: exact changed referent, extent or ordering boundary, boundary conditions, actual change facts, and continuity or reidentification. Task, method, plan, work, operation family, relation occurrence, predicate, representation, assertion, evidence, evaluation, publication, and receiving-use relations remain inspectable because none is hidden as a field of the transformation.
+`U.Transformation` gives FPF one object for an actual bounded change. Identify it from the continuing subject, boundary, before/during/after facts, boundary conditions, and continuity or reidentification rule. Keep task, method, plan, work, operation family, predicate, representation, assertion, evidence, evaluation, publication, and later-use claims visible as separate objects rather than fields of the transformation.
 
-An independently identified configuration transformation is not a composite merely because separately identified changes occur within the same episode or concern referents selected into that configuration. Composite identity opens only when exact direct contribution and transformed-referent relations, temporal and boundary compatibility predicates, and one applicable composition and reidentification rule are governed. The proposed `TransformationPartOfRelation` candidate would classify constructive parthood only after its exact reusable definition, base relations, derivation substrate, dependencies, occurrence-consuming use, identity law, and admission are settled. Until then, the truthful result is the exact blocker and the independently identified transformations, not a positive local compound claim or candidate-kind occurrence.
+An independently identified configuration transformation is not made into a whole with transformation parts merely because separately identified changes occur in the same episode or concern referents selected into that configuration. A.3.4 deliberately stops before choosing the missing architecture. It does not prescribe constituent identity, contribution, compatibility, substrate, reidentification, or whether the eventual answer is a generic relation, subject-specific relations, bounded local compound claims, or continued non-admission. The truthful current result is the independently identified changes plus the parked blocker, not a provisional kind or future definition law.
 
-A.1 remains an independent second test. An exact composite can exist without satisfying the whole-level-characteristic or modal larger-assembly components. Conversely, the word composite and the candidate parthood name supply no holonhood; positive classification requires exact admitted part-relation occurrences and all remaining A.1 facts.
+A.1 remains an independent second test. If future accepted work supplies one exact whole transformation and all six A.1 construction facts, A.1 can judge that same entity. Until then, a whole or composite label, a trace, and the parked blocker supply no holonhood.
 
-This architecture also keeps production and result claims honest. Work can cause or participate in change without every work-caused change being production. A post-boundary entity can be the same continuing entity rather than a newly constituted entity. Production-work participation, entity-identity inception, production completion, delivery, acceptance, and downstream effect each require their own exact governed claim.
+This separation also keeps production and result claims honest. `U.Work` can cause or participate in change only through one of the three `4.2.4` outcomes, and even a positive work-to-change claim does not make every such change production. A post-boundary entity may be the same continuing entity rather than a newly constituted one. Production-work participation, first existence, production completion, delivery, acceptance, and downstream effect each need their own participants, relation, and criterion.
 

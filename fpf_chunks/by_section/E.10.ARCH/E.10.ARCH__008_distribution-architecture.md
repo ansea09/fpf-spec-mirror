@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:2"
 section_title: "Distribution architecture"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__008_distribution-architecture.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:2 — Distribution architecture"
-line_start: 74037
-line_end: 74094
+line_start: 74176
+line_end: 74233
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "G.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:1 — Problem frame"
-line_start: 95939
-line_end: 95948
+line_start: 96039
+line_end: 96048
 dependencies:
   - "A.10"
   - "A.15.3"

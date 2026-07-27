@@ -6,15 +6,16 @@ section_id: "A.6.1:8"
 section_title: "Common Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__009_common-failure-modes-and-repairs.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:8 — Common Failure Modes and Repairs"
-line_start: 11958
-line_end: 11976
+line_start: 12043
+line_end: 12061
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
@@ -25,7 +26,9 @@ dependencies:
   - "A.3.2"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
+  - "B.3"
   - "C.2.1"
   - "C.29"
   - "C.3"
@@ -60,9 +63,9 @@ keywords:
 | Evidence bound as an argument makes the criterion true. | Actual evidence use is confused with world-side satisfaction and warrant. | Keep the binding as an application-use fact; evaluate the direct criterion from governed candidate facts and state evidence or assurance relations separately. |
 | A returned value is called the entity produced by work. | Operation result binding is confused with production or entity-identity inception. | State only the returned-value binding; use A.15.PROD and the subject identity rule when production or inception is separately current. |
 | Applicability says only "in this context." | Reference scheme, claim scope, time, selected `CHR:ReferencePlane`, and conditions are hidden. | Recover each current value under its direct owner and add a model-use structure only when its relations matter. |
-| F.9 is used for every reference-scheme, `CHR:ReferencePlane`, or model-use change. | Cross-context sense correspondence is collapsed with episteme identity and independently governed applicability or structure changes. | Use F.9 only for exact cross-context `SenseCell` correspondence and admitted use; return reference-scheme identity, selected `CHR:ReferencePlane`, and model-use organization to C.2.1, CHR, A.1.1/A.22, and the exact relation owner. |
+| F.9 is used for every reference-scheme, `CHR:ReferencePlane`, or model-use change. | Cross-context sense correspondence is collapsed with episteme identity and independently governed applicability or structure changes. | Apply the three-step split in 4.3: F.9 supplies only the exact `SchemeSenseCell` correspondence; a separate C.2.1 claim states whether that Bridge suits the named bounded use; then apply the ordinary A.10 or assurance-bearing B.3 branch selected there. Return reference-scheme identity to C.2.1, the selected plane to CHR, and model-use organization to A.1.1/A.22. If an actual transition or use relation is asserted, name its predicate and participants or stop that claim. |
 | A graph or imperative list is called the executable mechanism. | Representation order is overread as condition-governed continuation. | Keep the representation claim here; use A.22.CGUS for actual entries, branches, returns, and stops. |
 | An evaluation result changes mechanism identity. | Support for a claim is confused with declaration content. | Repair evaluation, binding, or evidence; revise the mechanism only when semantic content changed. |
 | A comparison returns one score from incomparable values. | Scalarization has replaced the declared order and scale relations. | Return the admissible set or cite the exact scorer and comparison pattern that governs reduction. |
-| A declaration materializes every optional component and neighboring relation before a receiving use needs them. | Apparatus completeness is substituting for use-value and blurring the mechanism boundary. | Add only the declaration content, particular application, binding, dependency, bridge, evaluation, evidence-use, or realization relation needed by an exact receiving claim. |
+| A declaration materializes every optional component and neighboring relation before a receiving use needs them. | Apparatus completeness is substituting for use-value and blurring the mechanism boundary. | Add only the content needed to define the reusable operation family. Add a neighboring application, binding, dependency, Bridge, evaluation, evidence-use, or realization claim only when that exact occurrence or dependency is asserted and its own rule passes. |
 

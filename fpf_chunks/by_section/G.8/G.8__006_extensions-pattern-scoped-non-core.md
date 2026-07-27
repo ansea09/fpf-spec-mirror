@@ -6,12 +6,12 @@ section_id: "G.8:5"
 section_title: "Extensions (pattern‑scoped; non‑core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__006_extensions-pattern-scoped-non-core.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:5 — Extensions (pattern‑scoped; non‑core)"
-line_start: 98450
-line_end: 98564
+line_start: 98550
+line_end: 98664
 dependencies:
   - "A.10"
   - "A.21"

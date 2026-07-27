@@ -6,12 +6,12 @@ section_id: "E.11.PUA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75703
-line_end: 75712
+line_start: 75842
+line_end: 75851
 dependencies:
   - "A.15"
   - "A.6.5"

@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 14284
-line_end: 14318
+line_start: 14369
+line_end: 14403
 dependencies:
   - "A.16.1"
   - "A.22"

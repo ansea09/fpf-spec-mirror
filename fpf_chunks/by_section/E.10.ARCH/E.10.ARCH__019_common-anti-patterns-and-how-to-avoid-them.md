@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__019_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 74262
-line_end: 74280
+line_start: 74401
+line_end: 74419
 dependencies:
   - "A.10"
   - "A.15.1"

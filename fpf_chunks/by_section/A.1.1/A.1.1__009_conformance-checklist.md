@@ -6,7 +6,7 @@ section_id: "A.1.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__009_conformance-checklist.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:7 — Conformance Checklist"

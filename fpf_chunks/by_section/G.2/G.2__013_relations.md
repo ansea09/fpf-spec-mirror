@@ -6,12 +6,12 @@ section_id: "G.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__013_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:12 — Relations"
-line_start: 95896
-line_end: 95926
+line_start: 95996
+line_end: 96026
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

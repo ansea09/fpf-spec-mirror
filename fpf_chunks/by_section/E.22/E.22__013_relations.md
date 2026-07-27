@@ -6,12 +6,12 @@ section_id: "E.22:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__013_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:12 — Relations"
-line_start: 84618
-line_end: 84633
+line_start: 84718
+line_end: 84733
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__011_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:9 — Consequences"
-line_start: 60363
-line_end: 60370
+line_start: 60502
+line_end: 60509
 dependencies:
   - "A.10"
   - "A.15"

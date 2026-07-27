@@ -1,51 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.1"
-pattern_title: "U.Method: Context-Defined Way of Doing"
+pattern_title: "U.Method: Reusable Way of Doing with Explicit Applicability"
 section_id: "A.3.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
-  - "A.3.1 — U.Method: Context-Defined Way of Doing"
+  - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:1 — Problem frame"
 line_start: 6856
 line_end: 6877
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
-  - "A.2"
-  - "A.2.1"
-  - "A.2.2"
-  - "A.2.7"
   - "A.22"
   - "A.3"
   - "A.3.2"
-  - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
   - "A.6.5"
   - "A.6.REL"
   - "B.1.5"
   - "C.2.1"
   - "C.2.P.DR"
-  - "C.20"
-  - "C.29"
-  - "C.36"
-  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
   - "F.9"
-  - "G.11"
-  - "G.5"
-  - "U.BoundedContext"
-  - "U.Capability"
-  - "U.RoleAssignment"
 keywords:
 ---
 
@@ -61,13 +45,13 @@ Typical moments:
 * a graph, query, table, dashboard, checklist predicate, or mathematical representation is being interpreted as if it were an instruction sequence;
 * work planning, dated work, method description, formal substrate, mechanism, role assignment, cultural-evolution, discipline, and evidence are starting to collapse into one vague "method" or "practice" word.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: the context-local semantic way of doing a kind of transformation or enactment. `U.Method` is a non-agentive holon kind: methods can have submethods, compose into whole methods, and participate as submethods of larger methods. This does not make a method an actor, a method description, a work plan, or a dated work occurrence. A step label or step description is not a method part unless the recovered object is itself a `U.Method`.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the `U.Method`: one reusable semantic way of doing under stated participant meanings, applicability, preconditions, intended effects or preserved conditions, and bounds. Cite an exact effective reference scheme and local senses only when their variation changes that method meaning. `U.Method` is a non-agentive holon kind: methods can have submethods, compose into whole methods, and participate as submethods of larger methods. This does not make a method an actor, a method description, a work plan, or a dated work occurrence. A step label or step description is not a method part unless the recovered object is itself a `U.Method`.
 
-**First useful move.** Name the context-local way of doing, the transformation or enactment it is about, and the kind of governed object or structure whose selected state or condition a future enactment is intended to change or preserve. The method remains this pattern's primary `EntityOfConcern`; this semantic statement establishes no planned assignment, actual participant, actual transformation, or result.
+**First useful move.** Name the reusable way of doing, its generic participant meanings, applicability, preconditions, intended effect or preserved condition, and the concern it addresses—for example changing, observing, comparing, classifying, evaluating, communicating, selecting, proving, or preserving. If local terminology changes that answer, cite the exact effective reference scheme and local senses. The method remains this pattern's primary `EntityOfConcern`; this semantic statement establishes no planned assignment, actual participant, actual transformation, or result.
 
 **What goes wrong if missed.** A diagram starts authorizing work, a query plan starts looking like performed work, a program starts looking like proof of operational success, or a graph path starts looking like a route that something followed.
 
 **What this buys.** The project can reuse, compare, describe, plan, enact, and audit a way of doing without confusing the method with its descriptions, runs, mechanisms, mathematical substrates, evidence relations, gates, or authority claims.
 
-**Not this pattern when.** If the current claim is a method description, work plan, dated work occurrence, evidence relation, source relation, mechanism declaration, mathematical-lens use, gate decision, authority claim, or publication-use relation, use the pattern that governs that claim and link it back to the `U.Method` only when the relation is current.
+**Not this pattern when.** If the sentence is about a document or representation that describes a method, schedules work, reports dated Work, declares a mechanism, presents a mathematical lens, cites evidence, decides a gate, asserts authority, or publishes a view, use that claim's owner. Link it to the `U.Method` only by the concrete description, planning, enactment, realization, evidence, gate, authority, or publication relation that actually obtains.
 

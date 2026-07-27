@@ -6,12 +6,12 @@ section_id: "C.2.7:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__015_authoring-and-review-guidance.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:14 — Authoring and Review Guidance"
-line_start: 43587
-line_end: 43602
+line_start: 43726
+line_end: 43741
 dependencies:
   - "A.16"
   - "A.16.0"

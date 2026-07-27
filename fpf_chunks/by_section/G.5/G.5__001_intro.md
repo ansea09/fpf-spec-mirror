@@ -6,12 +6,12 @@ section_id: "G.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:intro — Intro"
-line_start: 96840
-line_end: 96849
+line_start: 96940
+line_end: 96949
 dependencies:
   - "C.11"
   - "C.18"

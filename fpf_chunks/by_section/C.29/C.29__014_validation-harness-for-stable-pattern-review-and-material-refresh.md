@@ -6,12 +6,12 @@ section_id: "C.29:11a"
 section_title: "Validation harness for stable-pattern review and material refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__014_validation-harness-for-stable-pattern-review-and-material-refresh.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:11a — Validation harness for stable-pattern review and material refresh"
-line_start: 58321
-line_end: 58406
+line_start: 58460
+line_end: 58545
 dependencies:
   - "A.1.1"
   - "A.10"

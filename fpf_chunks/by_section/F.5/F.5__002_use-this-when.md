@@ -6,12 +6,12 @@ section_id: "F.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__002_use-this-when.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:0 — Use This When"
-line_start: 88306
-line_end: 88343
+line_start: 88406
+line_end: 88443
 dependencies:
   - "A.15"
   - "A.2"

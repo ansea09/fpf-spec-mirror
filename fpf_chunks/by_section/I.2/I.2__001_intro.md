@@ -6,12 +6,12 @@ section_id: "I.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/I.2/I.2__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "I.2 — Expanded Entry Disambiguation Cases"
   - "I.2:intro — Intro"
-line_start: 100791
-line_end: 100822
+line_start: 100891
+line_end: 100922
 dependencies:
 keywords:
 ---

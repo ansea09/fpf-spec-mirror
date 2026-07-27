@@ -6,12 +6,12 @@ section_id: "G.13:4"
 section_title: "Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__005_solution-conceptual-interop-kit-registered-sources-alignment-cards-feature-derivations-and-rscr-wired-telemetry.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:4 — Solution — Conceptual interop kit: registered sources, alignment cards, feature derivations, and RSCR‑wired telemetry"
-line_start: 100481
-line_end: 100606
+line_start: 100581
+line_end: 100706
 dependencies:
   - "A.18"
   - "A.19"

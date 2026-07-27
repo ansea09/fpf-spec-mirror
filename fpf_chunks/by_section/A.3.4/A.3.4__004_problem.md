@@ -6,12 +6,12 @@ section_id: "A.3.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__004_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:2 — Problem"
-line_start: 7956
-line_end: 7969
+line_start: 7989
+line_end: 8002
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 Without `U.Transformation`, projects repeatedly make category errors:
 
 1. **Method as transformation.** A way of doing is treated as if the change already happened or must happen.
-2. **Mechanism as transformation.** A law-governed operation algebra is treated as the actual or intended change, rather than as one governing value for a transformation.
+2. **Mechanism as transformation.** A law-governed operation algebra is mistaken for the actual or intended change, although it only states how a transformation may proceed.
 3. **Work as transformation law.** A dated work occurrence or trace is treated as if it defined the reusable transformation.
 4. **Dynamics as permission.** A state-space or transition-law episteme is used as if it authorized action, gate passage, or result acceptance.
 5. **Temporal claim as transformation.** A claim about rate, rhythm, recovery, delay, effort, inertia, freshness, or validity window is used as if it specified the whole change and its conditions.

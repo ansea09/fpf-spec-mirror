@@ -6,12 +6,12 @@ section_id: "E.9:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__015_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:11 — SoTA-Echoing"
-line_start: 71521
-line_end: 71535
+line_start: 71660
+line_end: 71674
 dependencies:
   - "E.10"
   - "E.19"

@@ -6,12 +6,12 @@ section_id: "B.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 35027
-line_end: 35036
+line_start: 35166
+line_end: 35175
 dependencies:
   - "A.1"
   - "A.14"

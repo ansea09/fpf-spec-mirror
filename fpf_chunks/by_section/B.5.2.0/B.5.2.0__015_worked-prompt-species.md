@@ -6,12 +6,12 @@ section_id: "B.5.2.0:13"
 section_title: "Worked Prompt Species"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__015_worked-prompt-species.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:13 — Worked Prompt Species"
-line_start: 40063
-line_end: 40076
+line_start: 40202
+line_end: 40215
 dependencies:
   - "A.16"
   - "A.16.0"

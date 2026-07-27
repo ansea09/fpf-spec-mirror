@@ -6,15 +6,16 @@ section_id: "A.6.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:1 — Problem frame"
-line_start: 11594
-line_end: 11613
+line_start: 11620
+line_end: 11639
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
@@ -25,7 +26,9 @@ dependencies:
   - "A.3.2"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
+  - "B.3"
   - "C.2.1"
   - "C.29"
   - "C.3"
@@ -55,11 +58,11 @@ Use this pattern when the working question is:
 
 > What operation family is being declared, which laws govern it, and under which claim scope, time, selected `CHR:ReferencePlane`, and mechanism conditions may its operations be used?
 
-The primary `EntityOfConcern` of this pattern is one `U.Mechanism` episteme. `U.Mechanism` is a dependent durable U-kind governed through the `U.Signature` identity and content settlement; it adds operation and admission semantics to the reusable declaration. The declared operation family remains the episteme's exact `EntityOfConcernRef` rather than becoming the episteme itself.
+**Primary governed object.** One claim-bearing episteme being identified as `U.Mechanism`. Inside that episteme's C.2.1 identity, its exact `EntityOfConcernRef` identifies the declared operation family. `U.Mechanism` is a dependent durable U-kind governed through the `U.Signature` identity and content settlement; it adds operation and admission semantics to the reusable declaration. The operation family does not become the episteme, and the episteme does not become its operation family.
 
 **Primary working reader and concern.** The reader is an engineer who needs to reuse or compare an operation declaration without confusing it with the method that uses it, the entity that realizes it, the work that evaluates it, or a publication that presents it.
 
-The first useful move is to name the declared operation family and its subject, then state its `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and exact Applicability. Inside each reused operation, declare the exact argument and result meanings, kinds, application predicate, extent rule, and identity rule. Open an actual operation-application binding only after one particular application has been independently identified and its actual bound value matters to a receiving claim. Add a dependency manifest only when names are reused across declarations.
+The first useful move is to name the declared operation family, its `SubjectKind`, and its family-level `RangedValueKind`, then state its `OperationAlgebra`, `LawSet`, `AdmissibilityConditions`, and exact Applicability. Add a family-level `ResultKind` only when one distinct result kind is current. For each reused operation, point to the argument or result meaning that carries those family-level roles, then declare every additional argument and result meaning and exact ValueKind. Also state the operation's `ApplicationPredicate`, `ApplicationExtentRule`, and `ApplicationIdentityRule`. `ApplicationExtentRule` maps the facts at one independently grounded application locus to the semantically relevant boundary or interval over which that operation's predicate obtains; it is not the signature-level `ExtentRule` that determines kind membership at a selected context slice. Open an actual operation-application binding only when one particular application has been independently identified and a downstream claim says which value that application used or returned. Add a dependency manifest only when removing one named provider term or law would make this declaration uninterpretable or prevent law replay; shared wording or a background citation is not a dependency.
 
 What goes wrong if this pattern is missed: implementation behavior, method instructions, evaluation outcomes, and publication metadata enter the declaration as if they were operation laws. A later user cannot tell whether the declaration changed, one realization failed, or only the evidence became stale.
 

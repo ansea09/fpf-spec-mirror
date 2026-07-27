@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "SoTA-Echoing and source-use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_sota-echoing-and-source-use.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:14 — SoTA-Echoing and source-use"
-line_start: 74815
-line_end: 74826
+line_start: 74954
+line_end: 74965
 dependencies:
   - "A.7"
   - "C.2.1"

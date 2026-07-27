@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__013_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:12 — Relations"
-line_start: 73913
-line_end: 73918
+line_start: 74052
+line_end: 74057
 dependencies:
   - "A.10"
   - "A.15"

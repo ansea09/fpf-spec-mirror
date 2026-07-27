@@ -6,12 +6,12 @@ section_id: "D.5:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__015_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:10 — SoTA-Echoing"
-line_start: 67650
-line_end: 67658
+line_start: 67789
+line_end: 67797
 dependencies:
   - "A.10"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.6.B:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__005_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:3 — Forces"
-line_start: 9781
-line_end: 9789
+line_start: 9807
+line_end: 9815
 dependencies:
   - "A.10"
   - "A.2.3"

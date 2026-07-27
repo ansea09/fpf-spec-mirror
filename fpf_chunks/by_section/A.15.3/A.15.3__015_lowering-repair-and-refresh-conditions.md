@@ -6,12 +6,12 @@ section_id: "A.15.3:12b"
 section_title: "Lowering, repair, and refresh conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__015_lowering-repair-and-refresh-conditions.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:12b — Lowering, repair, and refresh conditions"
-line_start: 25381
-line_end: 25388
+line_start: 25492
+line_end: 25499
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,9 +41,9 @@ keywords:
 
 ### A.15.3:12b - Lowering, repair, and refresh conditions
 
-Lower the claim to ordinary A.15.2 plan content when no reusable declaration member is needed. Block the typed planned filling when the intended-performance designator, participant, argument, result, declaration edition, member designator, effective designation rule, semantic cardinality, corresponding later actual-use predicate, or direct pattern owning the reusable member meaning and predicate cannot be recovered. The acceptable return names the missing governor and intended future use; it is not a generic slot-bearing description.
+Use ordinary A.15.2 plan content when no reusable declaration member is needed. When typed use is needed, return `missing-governor` if the intended-performance designator, declaration edition, member designator, designation rule, cardinality, actual-use predicate, or defining pattern is missing; an operation argument or result also requires its operation designator. Do not replace that blocker with a generic slot-bearing description.
 
-Route a prohibition, exclusion, required absence, or completeness claim to its exact plan-constraint or negative-claim owner rather than encoding it as omission or an empty filler. Route any later missing-filler, substitution, or variance result to an exact comparison policy and require its applicable closure or negative criterion plus case facts.
+State prohibitions, exclusions, required absence, and completeness under their plan-constraint or negative-claim patterns instead of using omission or an empty filler. A later missing-filler, substitution, or variance result needs a comparison policy whose closure or negative criterion applies to the case facts.
 
-Repair the exact WorkPlan ClaimGraph when a planned target member, positive planned value or designation, intended-performance designator, planning condition, or relied-on edition changes. Preserve any edition already cited by performed work or another actual use. Refresh only the exact declaration, reference resolution, policy, or plan edition on which the receiving use relies, and route any actual-use change to its direct relation or A.6.1 owner.
+Revise the WorkPlan ClaimGraph when the target member, planned value, intended-performance designator, condition, or relied-on declaration edition changes. If a C.2.1 identity discriminator changes, identify another WorkPlan episteme and relate it to the earlier one only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use. Refresh only a declaration, reference resolution, policy, or WorkPlan episteme whose changed resolution would alter the later decision; re-evaluate an actual-use change under its relation predicate or A.6.1 application predicate.
 

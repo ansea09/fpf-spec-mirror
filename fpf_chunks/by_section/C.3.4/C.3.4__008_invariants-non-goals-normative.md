@@ -6,12 +6,12 @@ section_id: "C.3.4:7"
 section_title: "Invariants & Non‑goals (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_invariants-non-goals-normative.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:7 — Invariants & Non‑goals (normative)"
-line_start: 44859
-line_end: 44864
+line_start: 44998
+line_end: 45003
 dependencies:
   - "C.2.1"
   - "C.3.1"

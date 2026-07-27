@@ -6,12 +6,12 @@ section_id: "A.15.1:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 24744
-line_end: 24758
+line_start: 24802
+line_end: 24816
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,10 +62,10 @@ keywords:
 
 ### A.15.1:11 - Common Anti-Patterns and How to Avoid Them
 
-* **"The log is the performed occurrence."** Dumping telemetry without occurrence references (actual performer system, covering assignment, enacted method, time window, and containing system, plus any method-description edition, work-to-referent relation, binding, resource-use fact, or evidence-use relation on which the claim relies) -> **Not Work**. Recover the Work occurrence and relate the log as evidence.
-* **Record-handling-as-transformation.** ETL, copying, formatting, evaluation, or publication work is treated as proof that a record or dataset changed -> Keep the grounded Work occurrence, but assert actual change only after A.3.4 identifies the transformation and an exact work-to-change fact obtains.
-* **Silent cross-locality acceptance.** "Ops accepted it, so audit accepts it." -> Name each receiving criterion, evaluation work, result episteme, and acceptance relation; add F.9 only when exact local senses must be bridged.
-* **Description-change-as-occurrence-change.** A MethodDescription edition swap is treated as automatically splitting or preserving Work -> State the description-selection change separately. Only when an accompanying actual history change creates an identity question for a named use should its exact continuity-policy criterion be applied; the policy revises the judgment, not the occurrence.
+* **"The log is the performed occurrence."** Dumping telemetry without occurrence references (actual performer system, covering assignment, enacted method, time window, and containing system, plus any selected method-description episteme, work-to-referent relation, binding, resource-use fact, or evidence-use relation on which the claim relies) -> **Not Work**. Recover the Work occurrence and relate the log as evidence.
+* **Record-handling-as-transformation.** ETL, copying, formatting, evaluation, or publication work is treated as proof that a record or dataset changed -> Keep the grounded Work occurrence, but assert actual change only after A.3.4 identifies the transformation and a declared domain predicate with the exact Work and transformation participants obtains; otherwise return `missing-governor[work-to-change]`.
+* **Silent cross-locality acceptance.** "Ops accepted it, so audit accepts it." -> Name each receiving criterion, evaluation work, and result episteme. Assert acceptance only through that use's declared predicate and actual participants; otherwise return `missing-governor[acceptance]`. If the criteria use different local senses, test the F.9 Bridge, state the proposed cross-local comparison or substitution in a separate bounded-use claim, and check reliance; the Bridge itself transfers no acceptance.
+* **Description-change-as-occurrence-change.** Selecting another MethodDescription episteme is treated as automatically splitting or preserving Work -> State the description-selection change separately. Only when an accompanying actual history change creates an identity question for a named use should its continuity-policy criterion be applied; the policy revises the judgment, not the occurrence. Call the descriptions editions only when their exact C.2.1 relation obtains.
 * **Budget on the method.** Charging costs to Method or Role -> Attribute performed resource use only through exact relations involving Work individuals; keep estimates in method descriptions or plans.
 * **Part ambiguity.** Mixing retries, episodes, and operational parts with no declared relation → Choose and declare the part relation.
 * **Slice-as-episode.** A monitoring interval, telemetry window, crank-angle segment, or one-second reception trace is called an episode only because it has timestamps -> Use `TemporalPartOf_work`, an evidence relation, or a telemetry relation unless actual boundary events and the direct episode predicate establish an event-bounded fragment for a named use; add a continuity policy only if those facts leave its grouping ambiguous.

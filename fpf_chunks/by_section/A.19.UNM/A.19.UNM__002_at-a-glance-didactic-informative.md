@@ -6,12 +6,12 @@ section_id: "A.19.UNM:0"
 section_title: "At a glance — didactic, informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__002_at-a-glance-didactic-informative.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:0 — At a glance — didactic, informative"
-line_start: 30904
-line_end: 30933
+line_start: 31043
+line_end: 31072
 dependencies:
 keywords:
   - "CV→NCV"

@@ -6,12 +6,12 @@ section_id: "B.5.2.1:11"
 section_title: "Related Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__014_related-patterns.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:11 — Related Patterns"
-line_start: 40313
-line_end: 40319
+line_start: 40452
+line_end: 40458
 dependencies:
   - "A.17"
   - "A.18"

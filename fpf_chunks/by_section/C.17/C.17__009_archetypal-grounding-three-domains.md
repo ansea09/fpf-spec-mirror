@@ -6,12 +6,12 @@ section_id: "C.17:8"
 section_title: "Archetypal Grounding (three domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__009_archetypal-grounding-three-domains.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:8 — Archetypal Grounding (three domains)"
-line_start: 48256
-line_end: 48284
+line_start: 48395
+line_end: 48423
 dependencies:
   - "A.1"
   - "A.10"

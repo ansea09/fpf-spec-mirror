@@ -6,12 +6,12 @@ section_id: "A.19.CN:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__002_context.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:1 — Context"
-line_start: 29838
-line_end: 29852
+line_start: 29977
+line_end: 29991
 dependencies:
   - "A.19"
   - "A.6.1"

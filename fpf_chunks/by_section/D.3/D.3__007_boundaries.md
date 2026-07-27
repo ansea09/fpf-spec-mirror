@@ -6,12 +6,12 @@ section_id: "D.3:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__007_boundaries.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:4 — Boundaries"
-line_start: 67279
-line_end: 67288
+line_start: 67418
+line_end: 67427
 dependencies:
   - "A.1"
   - "A.10"

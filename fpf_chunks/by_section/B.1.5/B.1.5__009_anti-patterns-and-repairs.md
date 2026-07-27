@@ -6,12 +6,12 @@ section_id: "B.1.5:7"
 section_title: "Anti-Patterns And Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__009_anti-patterns-and-repairs.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:7 — Anti-Patterns And Repairs"
-line_start: 36279
-line_end: 36299
+line_start: 36418
+line_end: 36438
 dependencies:
   - "A.1"
   - "A.14"

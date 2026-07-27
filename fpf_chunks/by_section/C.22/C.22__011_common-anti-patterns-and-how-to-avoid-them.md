@@ -6,12 +6,12 @@ section_id: "C.22:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50502
-line_end: 50514
+line_start: 50641
+line_end: 50653
 dependencies:
   - "A.6.0"
   - "C.16"

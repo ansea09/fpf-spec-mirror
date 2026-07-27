@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__012_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:11 — SoTA-Echoing"
-line_start: 68828
-line_end: 68836
+line_start: 68967
+line_end: 68975
 dependencies:
   - "C.32.ADR"
   - "C.32.PAD"

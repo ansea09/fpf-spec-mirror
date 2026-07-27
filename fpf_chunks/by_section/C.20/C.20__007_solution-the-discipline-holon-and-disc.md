@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution — the Discipline holon and Γ_disc"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_solution-the-discipline-holon-and-disc.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:4 — Solution — the Discipline holon and Γ_disc"
-line_start: 49851
-line_end: 49882
+line_start: 49990
+line_end: 50021
 dependencies:
   - "A.19"
   - "C.2"

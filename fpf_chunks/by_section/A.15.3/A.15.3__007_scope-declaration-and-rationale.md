@@ -6,12 +6,12 @@ section_id: "A.15.3:6"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__007_scope-declaration-and-rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:6 — Scope Declaration and Rationale"
-line_start: 25304
-line_end: 25309
+line_start: 25415
+line_end: 25420
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.15.3:6 - Scope Declaration and Rationale
 
-**Scope.** A.15.3 governs only positive planned designation against exact declaration members inside one WorkPlan. It does not govern declaration admission, prohibitions or negative constraints, work identity, actual participation, operation application, later comparison, evidence, readiness, gates, results, production, delivery, acceptance, publication, or downstream effects.
+**Scope.** A.15.3 records only positive planned designations against declared members inside one WorkPlan. It does not define declarations, prohibitions, negative constraints, work identity, actual participation, applications, comparison results, evidence, readiness, gates, production, delivery, acceptance, publication, or downstream effects.
 
-**Rationale.** The pattern gives practitioners a reusable planned-baseline move without admitting another U-kind or universal slot relation. Dispatching each row to its declaration family preserves both practical replay and ontological locality.
+**Rationale.** The practitioner gets a reusable planned baseline without another U-kind or universal slot relation. Each declaration family keeps its own member meanings and actual-use rules; A.15.3 adds only the planned choice.
 

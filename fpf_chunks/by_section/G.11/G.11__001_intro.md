@@ -6,12 +6,12 @@ section_id: "G.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:intro — Intro"
-line_start: 99604
-line_end: 99619
+line_start: 99704
+line_end: 99719
 dependencies:
   - "B.3.4"
   - "C.18"

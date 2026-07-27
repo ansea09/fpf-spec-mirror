@@ -6,12 +6,12 @@ section_id: "C.2.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:1 — Problem frame"
-line_start: 43127
-line_end: 43129
+line_start: 43266
+line_end: 43268
 dependencies:
   - "A.16"
   - "A.16.0"

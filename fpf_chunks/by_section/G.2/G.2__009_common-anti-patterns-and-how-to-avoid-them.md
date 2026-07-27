@@ -6,12 +6,12 @@ section_id: "G.2:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 95839
-line_end: 95860
+line_start: 95939
+line_end: 95960
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

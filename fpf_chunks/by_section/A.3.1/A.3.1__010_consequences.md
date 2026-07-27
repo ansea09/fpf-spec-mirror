@@ -1,51 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.1"
-pattern_title: "U.Method: Context-Defined Way of Doing"
+pattern_title: "U.Method: Reusable Way of Doing with Explicit Applicability"
 section_id: "A.3.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__010_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
-  - "A.3.1 — U.Method: Context-Defined Way of Doing"
+  - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:9 — Consequences"
-line_start: 7221
-line_end: 7242
+line_start: 7234
+line_end: 7254
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
-  - "A.2"
-  - "A.2.1"
-  - "A.2.2"
-  - "A.2.7"
   - "A.22"
   - "A.3"
   - "A.3.2"
-  - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
   - "A.6.5"
   - "A.6.REL"
   - "B.1.5"
   - "C.2.1"
   - "C.2.P.DR"
-  - "C.20"
-  - "C.29"
-  - "C.36"
-  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
   - "F.9"
-  - "G.11"
-  - "G.5"
-  - "U.BoundedContext"
-  - "U.Capability"
-  - "U.RoleAssignment"
 keywords:
 ---
 
@@ -54,20 +38,19 @@ keywords:
 * Method-like language becomes reusable across physical, informational, organizational, and mathematical work without privileging software code or ordered instructions.
 * Teams can compare descriptions, variants, and implementations without confusing them with dated work.
 * Work planning and evidence become more reliable because a method no longer smuggles in authority, proof, schedule, or performed-work claims.
-* The cost is explicit recovery of the governed object and claim position: reliance on wording such as "method", "practice", "algorithm", "workflow", "process", "procedure", "program", "recipe", "proof", or "solver" begins only after the current FPF object or claim is recovered.
+* The cost is one explicit choice: before relying on words such as *method*, *practice*, *algorithm*, *workflow*, *process*, *procedure*, *program*, *recipe*, *proof*, or *solver*, say whether the source means a reusable way, its description, planned or performed Work, a mechanism, a representation, or another concrete claim.
 
 #### A.3.1:9.1 - Lowering and local repair conditions
 
-Lower or withdraw the current `U.Method` identification when:
+Withdraw a `U.Method` identification when the text cannot answer the ordinary method question: what reusable action is meant, for which participant kinds and conditions, with what intended result or preserved condition, and where it stops. Also withdraw it when the supposed method is only a document, repository, diagram, model, run log, team, supplier label, or authorization; when one value is called both method and mechanism without a governing dual-typing rule; or when a graph or table is being read as an execution order without C.2.P.DR recovery.
 
-* the text cannot state transformation or enactment kind, `A.3.4 transformedEntityOrStructure`, preconditions, and intended effects;
-* the method name is only a document, repository, diagram, model, run log, team name, supplier label, or authorization claim;
-* the same typed value is assigned as both `U.Method` and `U.Mechanism` without a governing pattern admitting the dual typing;
-* source wording such as `practice` has not been recovered to one current claim position before method reliance begins;
-* graph, path, query, table, or predicate wording is treated as ordered execution without `C.2.P.DR` recovery;
-* a later `U.MethodDescription`, `U.WorkPlan`, Work occurrence admitted under `U.Work`, `U.Mechanism`, `C.29`, `E.18`, or evidence pattern changes an exact relation or semantic condition on which the method statement relied.
+Keep a source word such as *practice* unresolved when the sentence does not reveal whether it means a reusable way, a description, planned or performed Work, an assignment, a discipline or tradition, evidence, or a quoted label. Do not force one of those meanings merely to complete the form.
 
-If the semantic way of doing cannot be recovered, withdraw the `U.Method` typing and keep the wording as an unresolved cue. If a neighboring description, plan, work, mechanism, representation, or evidence value has taken the method position, split that value into its direct governing relation. If only one relied-on identity-basis relation changed, review that relation and the affected method identity rather than invalidating every use of the method.
+Repair locally:
 
-The smallest useful repair is usually local: revise the method identification, split the neighboring value into its governing pattern, or add one `ClaimBoundary` line. A new method-description edition repairs the description relation unless it changes a relied-on method-identity field. A changed work fact repairs the work claim; a changed measurement, evaluation, production, delivery, acceptance, or evidence result repairs that separately governed claim. Neither changes the method unless it changes the accepted participant meanings, preconditions, intended effects, bounds, or transformed-entity relation on which method identity depends. Return to `G.5` or the direct method-family pattern only when repeated project material shows that the current family or selector relation no longer separates methods, descriptions, plans, work, mechanisms, or neighboring claims adequately. A verbose or poorly ordered explanation is a didactic defect to repair in the description; it does not by itself lower the identified method.
+* If the reusable way is recoverable, rewrite its identification with the missing applicability, participant meaning, condition, result, or stop.
+* If a description, plan, Work occurrence, mechanism, representation, evidence claim, or result has occupied the method position, move that claim to its owner. State a relation back to the method only if that owner admits it; otherwise keep the two objects separate.
+* If one relied-on description relation, acceptance relation, semantic basis, or variant condition changed, review that relation and the comparisons that used it; do not invalidate every use of the method.
+
+A new method-description edition changes the method only when it changes a method basis that the comparison relied on. A changed Work fact, measurement, evaluation, production, delivery, acceptance, or evidence result repairs that neighboring claim, not the reusable method by default. Return to G.5 or the direct method-family owner only when the available family or selector no longer separates the needed methods and variants. Poor explanation is a didactic defect to repair; it is not evidence that the method itself changed.
 

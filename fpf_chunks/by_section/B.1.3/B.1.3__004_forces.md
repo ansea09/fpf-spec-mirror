@@ -6,12 +6,12 @@ section_id: "B.1.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:3 — Forces"
-line_start: 35540
-line_end: 35549
+line_start: 35679
+line_end: 35688
 dependencies:
   - "A.1"
   - "A.12"

@@ -6,12 +6,12 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13.0 — Rationale"
-line_start: 24780
-line_end: 24783
+line_start: 24838
+line_end: 24841
 dependencies:
   - "A.1"
   - "A.1.1"

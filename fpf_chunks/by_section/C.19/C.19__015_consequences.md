@@ -6,12 +6,12 @@ section_id: "C.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__015_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:9 — Consequences"
-line_start: 49455
-line_end: 49460
+line_start: 49594
+line_end: 49599
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

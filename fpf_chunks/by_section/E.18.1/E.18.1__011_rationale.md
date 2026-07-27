@@ -6,12 +6,12 @@ section_id: "E.18.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:10 — Rationale"
-line_start: 82246
-line_end: 82251
+line_start: 82345
+line_end: 82350
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -50,7 +50,7 @@ keywords:
 
 ### E.18.1:10 - Rationale
 
-`E.18.1` is a child of `E.18` because a P2W use can rely on transformation-flow structure as its setting when the carried claim spans several transformation-flow slices, typed positions, or returns. It does not define graph semantics or prescribe performed-work order. It helps a practitioner preserve an accepted problem-side claim while selecting and applying the next direct pattern; that pattern, not P2W, produces or amends the governed value.
+`E.18.1` is a child of `E.18` because a P2W use may need transformation-flow structure when the accepted claim spans several slices, typed positions, or returns. It does not define graph semantics or prescribe performed-work order. It helps a practitioner keep the accepted claim visible while selecting and applying the next direct pattern; that pattern, not P2W, produces or amends the result.
 
-The PCP-MOD cut keeps one smallest stable practice: preserve the accepted claim for a named receiving use, recover and apply the direct governor, accept its value or honest stop, split independently governed claims, and return only to the smallest affected continuation. Reliance notes, E.18.3 structure, development catalogues, and naming/publication open only for their named uses and do not mutate that core. Relation occurrence, declaration, admission, production, evidence, gate, decision, and other neighbouring doctrine remain owner-side. This cut preserves the predecessor's problem, declaration, method, plan, work, result, evidence, currentness, and return value as separate continuations without reviving its mega-record or burying the first action under apparatus.
+**Stable core and optional apparatus.** Preserve the accepted claim for one receiving decision or use, ask a concrete relation question, apply the direct pattern, keep its result or honest stop, split independent claims, and return only to the smallest affected continuation. Reliance notes, E.18.3 structure, development examples, and naming or publication open only for their stated uses and do not change that core. Relation occurrence, declaration, admission, production, evidence, gates, decisions, and other neighbouring rules remain in their direct patterns. This separation preserves the predecessor's problem, declaration, method, plan, work, result, evidence, currentness, and return functions without reviving its mega-record or putting apparatus before the first action.
 

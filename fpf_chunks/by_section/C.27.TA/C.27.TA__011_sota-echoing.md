@@ -6,12 +6,12 @@ section_id: "C.27.TA:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__011_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:9 — SoTA-Echoing"
-line_start: 56434
-line_end: 56443
+line_start: 56573
+line_end: 56582
 dependencies:
   - "A.10"
   - "A.15.1"

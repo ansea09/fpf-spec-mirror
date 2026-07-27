@@ -6,12 +6,12 @@ section_id: "A.3.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__013_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:12 — Relations"
-line_start: 7572
-line_end: 7578
+line_start: 7603
+line_end: 7609
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 ### A.3.2:12 - Relations
 
 * **Builds on:** `C.2.1` for the identity, grounding, and edition relations of the same claim-bearing episteme; `A.3.1` for the exact `U.Method`; and `E.24.UK` for admission of the dependent U-kind.
-* **Coordinates with:** `A.3.1` and `B.1.5` for actual method parts, method identity, and composite-method organization; `A.22` for an independently selected structure among several methods; `A.1.1` only when an independently selected `BoundedModelUseStructure` changes the current use; `F.9` only for exact cross-context `SenseCell` correspondence and admitted use; `C.29` for representation correspondence; `E.24.PUB` for publication occurrence and form; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.2` and `A.2.1` for role and role-assignment claims; `A.2.2` for capability thresholds; `A.10` and `B.3` for evidence and assurance; `C.28` for causal-use claims.
+* **Coordinates with:** `A.3.1` and `B.1.5` for actual method parts, method identity, and composite-method organization; `A.22` for an independently selected structure among several methods; `A.1.1` only when an independently selected `BoundedModelUseStructure` changes the proposed use; `F.9` only for cross-context `SchemeSenseCell` correspondence; `C.2.1` for the separate claim that one obtaining Bridge suits one bounded use; `A.10` for ordinary evidence reliance on that claim and `B.3` only for the assurance or material-threshold branch; `C.29` for representation correspondence; `E.24.PUB` for publication occurrence and form; `A.15.2 U.WorkPlan`; `A.15.1 U.Work`; `A.2` and `A.2.1` for role and role-assignment claims; `A.2.2` for capability thresholds; `C.28` for causal-use claims.
 * **Separates from:** `A.6.0` formal-substrate declarations; `C.29` mathematical-lens use; `A.6.1 U.Mechanism`; `E.20` mechanism-meaning introduction and revision.
-* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when method-like or representation-like wording hides the current claim, governed object, or direct governing pattern.
+* **Uses for precision restoration:** `E.10`, `E.10.ARCH`, `F.18`, and `C.2.P.DR` when source wording leaves unclear what claim is made, what object it concerns, or whether a visible route is merely representational.
 

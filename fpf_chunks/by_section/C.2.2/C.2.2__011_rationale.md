@@ -6,12 +6,12 @@ section_id: "C.2.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:10 — Rationale"
-line_start: 42067
-line_end: 42078
+line_start: 42206
+line_end: 42217
 dependencies:
   - "A.2.6"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_conformance-checklist.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:8 — Conformance Checklist"
-line_start: 89473
-line_end: 89488
+line_start: 89573
+line_end: 89588
 dependencies:
   - "A.11"
   - "A.15"

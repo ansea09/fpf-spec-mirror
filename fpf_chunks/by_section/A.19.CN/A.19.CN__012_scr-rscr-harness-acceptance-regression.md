@@ -6,12 +6,12 @@ section_id: "A.19.CN:11"
 section_title: "SCR / RSCR Harness (acceptance & regression)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__012_scr-rscr-harness-acceptance-regression.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:11 — SCR / RSCR Harness (acceptance & regression)"
-line_start: 30128
-line_end: 30149
+line_start: 30267
+line_end: 30288
 dependencies:
   - "A.19"
   - "A.6.1"

@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `60caecb4751fb2a3623a1faaca757d29a19acff9`
+Commit SHA: `66e732dfef7a4a93ff23eec43b3f759a6664652d`
 
 Chunking method: `pattern-aware`
 
@@ -25,7 +25,7 @@ Patterns: `290`
 - [A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition](by_pattern/A.2.8.PER.md)
 - [A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)](by_pattern/A.2.9.md)
 - [A.3 — Transformer Constitution (Quartet)](by_pattern/A.3.md)
-- [A.3.1 — U.Method: Context-Defined Way of Doing](by_pattern/A.3.1.md)
+- [A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability](by_pattern/A.3.1.md)
 - [A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing](by_pattern/A.3.2.md)
 - [A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme](by_pattern/A.3.3.md)
 - [A.3.4 — U.Transformation: Bounded Change Under Conditions](by_pattern/A.3.4.md)

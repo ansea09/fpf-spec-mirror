@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:4 — Solution"
-line_start: 74937
-line_end: 75159
+line_start: 75076
+line_end: 75298
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

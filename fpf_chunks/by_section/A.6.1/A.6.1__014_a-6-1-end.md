@@ -6,15 +6,16 @@ section_id: "A.6.1:End"
 section_title: "A.6.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__014_a-6-1-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:End — A.6.1:End"
-line_start: 12046
-line_end: 12047
+line_start: 12131
+line_end: 12132
 dependencies:
   - "A.1"
   - "A.1.1"
+  - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
@@ -25,7 +26,9 @@ dependencies:
   - "A.3.2"
   - "A.6.0"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.6.REL"
+  - "B.3"
   - "C.2.1"
   - "C.29"
   - "C.3"

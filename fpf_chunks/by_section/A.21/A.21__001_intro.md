@@ -6,12 +6,12 @@ section_id: "A.21:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:intro — Intro"
-line_start: 33283
-line_end: 33337
+line_start: 33422
+line_end: 33476
 dependencies:
   - "A.19"
   - "A.2.6"

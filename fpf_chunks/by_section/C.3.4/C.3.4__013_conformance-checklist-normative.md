@@ -6,12 +6,12 @@ section_id: "C.3.4:12"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__013_conformance-checklist-normative.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:12 — Conformance Checklist (normative)"
-line_start: 44932
-line_end: 44946
+line_start: 45071
+line_end: 45085
 dependencies:
   - "C.2.1"
   - "C.3.1"

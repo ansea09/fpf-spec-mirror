@@ -6,12 +6,12 @@ section_id: "A.19.CN:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:3 — Forces"
-line_start: 29862
-line_end: 29870
+line_start: 30001
+line_end: 30009
 dependencies:
   - "A.19"
   - "A.6.1"

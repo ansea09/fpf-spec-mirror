@@ -6,12 +6,12 @@ section_id: "C.22:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__003_intent.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
   - "C.22:1 — Intent"
-line_start: 50210
-line_end: 50245
+line_start: 50349
+line_end: 50384
 dependencies:
   - "A.6.0"
   - "C.16"

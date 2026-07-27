@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__006_solution.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:4 — Solution"
-line_start: 60193
-line_end: 60325
+line_start: 60332
+line_end: 60464
 dependencies:
   - "A.10"
   - "A.15"

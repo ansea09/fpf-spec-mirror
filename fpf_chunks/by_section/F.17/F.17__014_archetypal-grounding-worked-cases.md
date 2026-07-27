@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 92858
-line_end: 93279
+line_start: 92958
+line_end: 93379
 dependencies:
   - "A.1.1"
   - "A.10"

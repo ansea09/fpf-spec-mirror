@@ -6,12 +6,12 @@ section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:1 — Problem frame"
-line_start: 63890
-line_end: 63968
+line_start: 64029
+line_end: 64107
 dependencies:
   - "A.10"
   - "A.17"

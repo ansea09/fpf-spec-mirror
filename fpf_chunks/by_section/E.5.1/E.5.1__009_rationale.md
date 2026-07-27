@@ -6,12 +6,12 @@ section_id: "E.5.1:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.1/E.5.1__009_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.5.1 — DevOps Lexical Firewall"
   - "E.5.1:8 — Rationale"
-line_start: 69899
-line_end: 69905
+line_start: 70038
+line_end: 70044
 dependencies:
   - "E.5"
 keywords:

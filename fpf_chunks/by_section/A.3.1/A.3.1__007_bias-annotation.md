@@ -1,51 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.3.1"
-pattern_title: "U.Method: Context-Defined Way of Doing"
+pattern_title: "U.Method: Reusable Way of Doing with Explicit Applicability"
 section_id: "A.3.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
-  - "A.3.1 — U.Method: Context-Defined Way of Doing"
+  - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:6 — Bias-Annotation"
-line_start: 7168
-line_end: 7181
+line_start: 7181
+line_end: 7194
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.10"
   - "A.15.1"
   - "A.15.2"
-  - "A.2"
-  - "A.2.1"
-  - "A.2.2"
-  - "A.2.7"
   - "A.22"
   - "A.3"
   - "A.3.2"
-  - "A.3.3"
-  - "A.6.0"
   - "A.6.1"
   - "A.6.5"
   - "A.6.REL"
   - "B.1.5"
   - "C.2.1"
   - "C.2.P.DR"
-  - "C.20"
-  - "C.29"
-  - "C.36"
-  - "C.36.P"
   - "E.18"
   - "E.18.1"
   - "E.20"
   - "F.9"
-  - "G.11"
-  - "G.5"
-  - "U.BoundedContext"
-  - "U.Capability"
-  - "U.RoleAssignment"
 keywords:
 ---
 
@@ -59,7 +43,7 @@ This pattern mainly blocks seven recurring biases:
 * **software-notation bias**: code, algorithm, workflow, or programming-paradigm language becomes the default ontology for every method;
 * **mechanism-overread bias**: law-governed mechanism or formal-substrate material is treated as if it already selected the project method;
 * **holder-as-method bias**: a team, system, supplier, or capability holder becomes the method name;
-* **semio-bias**: the discussion shifts from the way of doing to the description, publication, evidence face, or wording repair before the exact method claim is recovered.
+* **semio-bias**: the discussion shifts to wording, a document, publication, or evidence face before the reusable action and its boundary have been stated.
 
-The repair is the same in each case: recover `U.Method` when the semantic way of doing is current, and then link neighboring governed objects through their own direct relations.
+Use one concrete test in every case: can the reader state the reusable action, its participants, applicability, intended result, and stop? If yes, identify the `U.Method` and then state only the description, planning, enactment, evidence, or other relation that actually obtains. If not, keep the source phrase unresolved or route the claim to the owner shown in §4.
 

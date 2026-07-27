@@ -6,12 +6,12 @@ section_id: "A.3.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__008_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:6 — Bias-Annotation"
-line_start: 8206
-line_end: 8211
+line_start: 8232
+line_end: 8237
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,5 +56,5 @@ keywords:
 
 Lenses tested: **Onto**, **Arch**, **Prag**, **Epist**, **Gov**.
 
-This pattern keeps actual change, transformation composition, conditional holon classification, direct subject facts, method, work, flow structure, representation, assertion, evidence, evaluation, publication, production, and receiving use distinct. It resists software narrowing, method-as-effect, model-as-authority, trace-as-law, formal-as-project-work, relation-verb-as-change, sampled-slice composition, blanket transformation holonhood, work-caused-change-as-production, and result-word-as-kind errors.
+This pattern keeps the actual change separate from a composition question, holon classification, facts about the changed subject, method, work, flow structure, representation, assertion, evidence, evaluation, publication, production, and later use. It resists software narrowing, method-as-effect, model-as-authority, trace-as-law, formal-as-project-work, relation-verb-as-change, sampled-slice composition, blanket transformation holonhood, work-caused-change-as-production, and result-word-as-kind errors.
 

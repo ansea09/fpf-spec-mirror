@@ -6,12 +6,12 @@ section_id: "C.32:6"
 section_title: "Architecture Trade-Off Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__007_architecture-trade-off-failure-modes.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:6 — Architecture Trade-Off Failure Modes"
-line_start: 63265
-line_end: 63279
+line_start: 63404
+line_end: 63418
 dependencies:
   - "A.10"
   - "A.15"

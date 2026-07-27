@@ -6,12 +6,12 @@ section_id: "C.28:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__012_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:10 — Rationale"
-line_start: 57270
-line_end: 57283
+line_start: 57409
+line_end: 57422
 dependencies:
   - "A.10"
   - "A.15"

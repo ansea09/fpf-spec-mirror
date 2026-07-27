@@ -6,7 +6,7 @@ section_id: "A.2.8:End"
 section_title: "A.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__017_a-2-8-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:End — A.2.8:End"

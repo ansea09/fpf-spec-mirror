@@ -6,12 +6,12 @@ section_id: "C.17:15"
 section_title: "Worked mini‑cases (engineer‑manager focus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__016_worked-mini-cases-engineer-manager-focus.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:15 — Worked mini‑cases (engineer‑manager focus)"
-line_start: 48471
-line_end: 48518
+line_start: 48610
+line_end: 48657
 dependencies:
   - "A.1"
   - "A.10"

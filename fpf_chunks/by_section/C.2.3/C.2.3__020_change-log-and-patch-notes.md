@@ -6,12 +6,12 @@ section_id: "C.2.3:19"
 section_title: "Change Log and Patch Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__020_change-log-and-patch-notes.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:19 — Change Log and Patch Notes"
-line_start: 42663
-line_end: 42676
+line_start: 42802
+line_end: 42815
 dependencies:
   - "A.16"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "C.22.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__003_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:2 — Problem"
-line_start: 50574
-line_end: 50577
+line_start: 50713
+line_end: 50716
 dependencies:
   - "A.15"
   - "C.19.1"

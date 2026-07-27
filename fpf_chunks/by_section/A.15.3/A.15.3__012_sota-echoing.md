@@ -6,12 +6,12 @@ section_id: "A.15.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__012_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:11 — SoTA-Echoing"
-line_start: 25361
-line_end: 25368
+line_start: 25472
+line_end: 25479
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -43,7 +43,7 @@ keywords:
 
 | Current practice line | Adoption in A.15.3 | Rejected shortcut |
 | --- | --- | --- |
-| ISO/IEC/IEEE 12207:2017 and ISO/IEC/IEEE 15288:2023 distinguish process descriptions, planning, execution, and information items while allowing local life-cycle adaptation. | Preserve the declaration, intended-use plan content, and performed work as separate governed objects. | Treating a process-tooling layout or checklist field as an FPF declaration. |
-| SLSA v1.2 provenance and in-toto Statement v1 separate build definition, run details, subjects, predicates, and resolved dependencies. | Use exact planned declaration and edition references when replay depends on them; keep run, provenance, result, and evidence claims separate. | Importing a supply-chain record schema as a universal slot or result ontology. |
-| Nix flake-lock practice makes selected dependency revisions explicit for reproducibility. | Pin declaration or value editions only when a mutable resolution would change the relied-on planned meaning. | Saying “latest” when later comparison needs one exact edition. |
+| ISO/IEC/IEEE 12207:2017 and ISO/IEC/IEEE 15288:2023 distinguish process descriptions, planning, execution, and information items while allowing local life-cycle adaptation. | Keep the declaration, intended plan content, and performed work separate. | Treating a process-tooling layout or checklist field as an FPF declaration. |
+| SLSA v1.2 provenance and in-toto Statement v1 separate build definition, run details, subjects, predicates, and resolved dependencies. | Cite declaration and edition only when replay depends on them; keep run, provenance, result, and evidence claims separate. | Importing a supply-chain record schema as a universal slot or result ontology. |
+| Nix flake-lock practice makes selected dependency revisions explicit for reproducibility. | Pin a declaration or value edition only when resolving another edition could change the planned meaning. | Saying *latest* when a later comparison needs one edition. |
 

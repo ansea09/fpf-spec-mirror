@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.21.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
-line_start: 33283
-line_end: 33707
+line_start: 33422
+line_end: 33846
 dependencies:
   - "A.19"
   - "A.2.6"

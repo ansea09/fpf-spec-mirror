@@ -6,12 +6,12 @@ section_id: "E.18:9"
 section_title: "E.18 LEX Discipline (registration)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__012_e-18-lex-discipline-registration.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:9 — E.18 LEX Discipline (registration)"
-line_start: 81549
-line_end: 81552
+line_start: 81688
+line_end: 81691
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

@@ -6,12 +6,12 @@ section_id: "C.22.PFR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:6 — Bias-Annotation"
-line_start: 50947
-line_end: 50954
+line_start: 51086
+line_end: 51093
 dependencies:
   - "A.10"
   - "A.15.1"

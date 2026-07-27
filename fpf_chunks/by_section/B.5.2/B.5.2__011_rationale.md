@@ -6,12 +6,12 @@ section_id: "B.5.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:10 — Rationale"
-line_start: 39775
-line_end: 39778
+line_start: 39914
+line_end: 39917
 dependencies:
   - "A.10"
   - "A.16"

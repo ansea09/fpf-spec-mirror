@@ -6,12 +6,12 @@ section_id: "A.15.2:9"
 section_title: "Launch-value and actual-use boundary for P2W"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__015_launch-value-and-actual-use-boundary-for-p2w.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:9 — Launch-value and actual-use boundary for P2W"
-line_start: 25090
-line_end: 25095
+line_start: 25165
+line_end: 25170
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ keywords:
 
 ### A.15.2:9 - Launch-value and actual-use boundary for P2W
 
-For P2W use, `U.WorkPlan` may state intended holder and role claims, planned values, exact A.15.3 fillings, constraints, reservations, commitments, and evidence-reference notes. A gate or readiness decision may authorize entry or select values for a proposed occurrence, but neither decision nor the plan makes those values actual.
+For P2W use, `U.WorkPlan` may state intended holder and role claims, planned values, exact A.15.3 fillings, constraints, reservations, commitments, and evidence-reference notes. A.15.5 `WorkEntryReadiness@Context` reports whether its stated entry conditions hold. An A.21 `GateDecision` selects, narrows, blocks, or passes its declared crossing under the exact `GateProfile`. Neither result institutes permission. If entry also requires permission, name the exact current A.2.8.PER `GrantedPermissionRelation@Context` for its beneficiary, action, scope, and window; without that grant, make no authorization claim. The plan, readiness result, gate decision, and permission grant make no planned value actual and create no Work occurrence.
 
-At performed-work entry, identify one exact Work occurrence as an individual admitted under `U.Work` by A.15.1. Establish each actual participant, parameter, premise, operation argument or result, resource use, affected referent, and other value only through its obtaining direct subject relation or exact A.6.1 operation-application binding. Keep the gate decision, plan claim, Work occurrence, actual-use relation, provenance, change, result episteme, production, delivery, acceptance, and downstream effect separately governed.
+At performed-work entry, identify one exact Work occurrence as an individual admitted under `U.Work` by A.15.1. For an actual relation participant or another world-side value, name the direct relation and its obtaining predicate. For an operation argument or returned result, use A.6.1 only after the exact application and its declaration-local binding predicate obtain. Keep the gate decision, plan claim, Work occurrence, actual-use relation, provenance, change, result episteme, production, delivery, acceptance, and downstream effect separate.
 

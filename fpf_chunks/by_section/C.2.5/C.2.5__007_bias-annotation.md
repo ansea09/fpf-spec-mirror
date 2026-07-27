@@ -6,12 +6,12 @@ section_id: "C.2.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:6 — Bias-Annotation"
-line_start: 43184
-line_end: 43186
+line_start: 43323
+line_end: 43325
 dependencies:
   - "A.16"
   - "A.16.0"

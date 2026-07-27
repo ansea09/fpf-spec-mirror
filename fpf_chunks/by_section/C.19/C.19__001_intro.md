@@ -6,12 +6,12 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 49097
-line_end: 49112
+line_start: 49236
+line_end: 49251
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

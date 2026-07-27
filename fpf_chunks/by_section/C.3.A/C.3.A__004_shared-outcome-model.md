@@ -6,12 +6,12 @@ section_id: "C.3.A:3"
 section_title: "Shared outcome model"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__004_shared-outcome-model.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:3 — Shared outcome model"
-line_start: 45149
-line_end: 45160
+line_start: 45288
+line_end: 45299
 dependencies:
   - "A.15"
   - "A.15.1"

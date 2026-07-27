@@ -6,12 +6,12 @@ section_id: "A.15.PROD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:intro — Intro"
-line_start: 26089
-line_end: 26100
+line_start: 26200
+line_end: 26211
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -36,7 +36,7 @@ keywords:
 
 **Plain name.** Separate production work, when this exact entity first exists, and when production was completed.
 
-**At a glance.** Production wording often compresses three different questions. This pattern recovers them as separate local compound relation-bearing claims: whether exact current work is the whole production work or a proper work part of it; whether, under an exact applicable identity-specification edition, governed effects of exact work made one exact entity satisfy its identity rule for the first time; and whether the subject state satisfied the applicable production-completion criterion at an exact boundary. It introduces no universal production relation or production-work kind.
+**At a glance.** Production wording often compresses three questions: is this dated Work the whole production Work or only a declared part; when did changes attributed to that Work first make the applicable identity rule true so this entity began to exist; and when did the actual state satisfy the applicable production-completion criterion? This pattern answers each question with a separate local compound relation-bearing claim. It introduces no universal production relation or production-work kind. Call one specification or criterion an edition of another only when their exact C.2.1 `EpistemeEditionRelation` obtains.
 
 **Plain claim-record gloss.** A local compound relation-bearing claim is one checkable statement for one selected question, built from already governed facts. It is neither an omnibus production record nor a new relation kind. Whole production work, first existence, and completion therefore remain three separate claims even when they cite overlapping facts.
 

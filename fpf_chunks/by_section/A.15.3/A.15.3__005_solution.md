@@ -6,12 +6,12 @@ section_id: "A.15.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__005_solution.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:4 — Solution"
-line_start: 25173
-line_end: 25277
+line_start: 25248
+line_end: 25353
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,52 +41,53 @@ keywords:
 
 ### A.15.3:4 - Solution
 
-#### A.15.3:4.0 - The governed object and ontic boundary
+#### A.15.3:4.0 - What the plan item is—and is not
 
-`SlotFillingsPlanItem` names a declaration-local `PlanItem` content form inside one exact `U.WorkPlan` ClaimGraph. It is not a U-kind, a dependent durable kind, a `U.Relation` occurrence, an ontic `SlotRelation`, an independent record, or a second slot ontology. Its item and row designators are interpreted only within that WorkPlan edition.
+`SlotFillingsPlanItem` is a content form inside one `U.WorkPlan` ClaimGraph. It is not a U-kind, dependent durable kind, `U.Relation` occurrence, ontic `SlotRelation`, independent record, or second slot ontology. Its item and row designators have meaning only within that WorkPlan episteme.
 
-C.2.1 and A.15.2 keep the WorkPlan episteme identity. Changing an identity-bearing planned-filling row changes the WorkPlan ClaimGraph and lets C.2.1 identify the resulting episteme edition. A separate reference may resolve the WorkPlan and the designated content component, but the reference does not give the PlanItem an independent identity rule.
+C.2.1 and A.15.2 identify the WorkPlan episteme. Changing an identity-bearing row creates different WorkPlan claim content and therefore another WorkPlan episteme. The two are historical editions only if an `EpistemeEditionRelation` predicate obtains between them; a shared file, label, carrier, or revision order does not supply that continuity. A reference may point to the WorkPlan and this content component, but it gives the PlanItem no separate identity or edition rule.
 
-Here a **planned-filling claim** is WorkPlan claim content saying that, for one intended-performance designator and under exact planning conditions, a future use of one exact declaration member is intended to carry or designate one exact value or target-declared collection of values. A.15.2 and A.15.3 govern that positive intended-use claim. The declaration member's direct pattern separately owns its reusable participant, argument, or result meaning and the corresponding later actual-use predicate. Neither owner substitutes for the other.
+A **planned-filling claim** says: for this intended future performance and under these conditions, use this value or designation for this declared member. A.15.2 and A.15.3 state that intention. The member's own pattern still defines what the participant, argument, or result means and what must hold for its later actual use.
 
-The phrase **planned filling** does not mean that a declaration is filled, a relation obtains, an operation application occurs, or a value is actually bound. The row itself needs no relation kind or relation occurrence: A.15.3 is the direct pattern for this plan-content form. A later fulfilment, substitution, missing-filler, or variance claim remains a neighboring claim under A.15.2, A.6.RCD, or another exact comparison owner.
+The phrase **planned filling** does not mean that a declaration is filled, a relation obtains, an application occurs, or a value is actually bound. The row is plan content and needs no relation kind of its own. A later claim that the plan was fulfilled, missed, or changed belongs to A.15.2, A.6.RCD, or the applicable comparison pattern.
 
-A planned-filling row is positive intention content. A prohibition, excluded value, required absence, or closed-world completeness claim needs its own exact constraint or negative-claim governor and cannot be encoded by omission, an empty filler, or a negated reference.
+A planned-filling row states a positive intention. To prohibit or exclude a value, require its absence, or claim the list is complete, write a separate constraint or negative plan claim with its own applicability and polarity rule. Omission, an empty filler, and a negated reference do not express those claims.
 
-#### A.15.3:4.1 - Admit only exact governed declaration targets
+#### A.15.3:4.1 - Use only members that a declaration already defines
 
-Each planned-filling row targets exactly one member of one exact applicable declaration edition:
+Each row points to one member in one declaration edition selected for the intended future use. First choose what is being planned; then open the pattern that defines that member and the rule for its actual use:
 
-| Planned meaning | Exact target | Direct owner and boundary |
+| Planned choice | Existing declaration member | What remains defined elsewhere |
 | --- | --- | --- |
-| participant designation for a future direct-relation claim | one `SlotSpec` in one exact `RelationSignature` edition | the direct relation pattern owns the reusable participant meaning and obtaining predicate; A.6.5 owns the declaration-local `SlotKind`, `ValueKind`, and `refMode`; A.15.3 owns only the intended designation |
-| argument value or designation for a future operation application | one `ArgumentDeclaration` in one exact A.6.1 `OperationDeclaration` | A.6.1 and the exact mechanism declaration own argument meaning, ValueKind, binding designation rule, binding predicate, and cardinality; A.15.3 owns only the intended value or designation |
-| expected result value or designation for a future operation application | one `ResultDeclaration` in one exact A.6.1 `OperationDeclaration` | A.6.1 and the exact mechanism declaration own result meaning and the actual result-binding predicate; an expected value is not a returned value |
-| another explicitly declared planned filling | one exact declaration member whose direct pattern owns its reusable participant, argument, result, or analogous member meaning and corresponding later actual-use predicate | cite that pattern and declaration by value; if either the reusable meaning or corresponding predicate lacks that owner, stop with the exact missing-governor blocker |
+| participant in a future direct-relation claim | one `SlotSpec` in one `RelationSignature` edition | the relation pattern defines participant meaning and the obtaining predicate; A.6.5 defines the local `SlotKind`, `ValueKind`, and `refMode`; A.15.3 records only the planned designation |
+| argument in a future operation application | one `ArgumentDeclaration` in one A.6.1 `OperationDeclaration` | A.6.1 and the cited mechanism define the argument meaning, ValueKind, designation rule, binding predicate, and cardinality; A.15.3 records only the planned value |
+| expected result of a future operation application | one `ResultDeclaration` in one A.6.1 `OperationDeclaration` | A.6.1 and the cited mechanism define result meaning and the result-binding predicate; an expected value is not a returned value |
+| another declared future use | one declaration member whose own pattern defines both the member meaning and its actual-use predicate | cite that pattern and declaration; if either definition is absent, return `missing-governor` instead of inventing a target |
 
-`U.MethodDescription` is not an admissible target merely because its claims describe generic inputs, effects, parameters, bounds, or acceptance conditions. A suite description, kit description, table, schema, card, checklist, interface form, or database field likewise exposes no A.6.5 SlotSpec unless one exact `RelationSignature` contains that SlotSpec. Operation arguments and results remain A.6.1 declaration content and never become A.6.5 SlotSpecs by being planned.
+A `U.MethodDescription` is not a target merely because it mentions inputs, effects, parameters, bounds, or acceptance conditions. Nor does a suite description, kit description, table, schema, card, checklist, interface form, or database field expose an A.6.5 SlotSpec unless a cited `RelationSignature` actually contains that SlotSpec. Operation arguments and results stay in A.6.1 declarations; planning them does not turn them into A.6.5 SlotSpecs.
 
-One `SlotFillingsPlanItem` may contain several rows when they serve the same intended-performance designator, baseline policy, and revision route inside one WorkPlan. Every row still resolves independently to its exact declaration member. Split the item when rows concern different intended performances, baseline policies, or revision routes. The WorkPlan's present EntityOfConcern remains a WorkPlan-level C.2.1 discriminator and is not replaced by the merely possible performance designator.
+One item may contain several rows when they serve the same intended performance, baseline policy, and rule for revising the plan. Each row still resolves to its own declared member. Split the item when those three controls differ. The WorkPlan's present EntityOfConcern remains its C.2.1 identity discriminator; a merely possible future performance does not replace it.
 
 #### A.15.3:4.2 - State one planned-filling row
 
-A conforming item makes these values recoverable:
+A conforming item contains or resolves these values:
 
 ```text
 SlotFillingsPlanItem:
   planItemDesignator
-  exactWorkPlanRef
+  workPlanRef
   intendedPerformanceDesignator
   plannedFillingRows:
     - rowDesignator
       targetDeclarationRef
+      targetOperationDesignator?
       targetMemberDesignator
       targetMemberFamily:
         RelationSignatureSlotSpec |
         OperationArgumentDeclaration |
         OperationResultDeclaration |
-        OtherDirectlyGovernedDeclaration
-      directOwnerPattern
+        OtherDeclaredMember
+      memberDefinitionPattern
       plannedValueOrDesignation
       planningConditions?
       declarationEditionPin?
@@ -95,52 +96,52 @@ SlotFillingsPlanItem:
   laterComparisonPolicyRef?
 ```
 
-The block is a representation of WorkPlan claim content, not an ontic record schema or a second row authority. `targetMemberFamily` is an open local dispatch vocabulary, not a public kind or a closed inventory. `directOwnerPattern` names by value the subject pattern that owns the target member's reusable meaning and corresponding actual-use predicate; it is not a generic reference kind. A.15.3 remains the owner of the planned intention.
+This block represents WorkPlan claim content; it is not an ontic record schema or a second authority for rows. `targetMemberFamily` is an open local dispatch vocabulary, not a public kind or closed inventory. For an operation argument or result, `targetOperationDesignator` is required so the member resolves inside the cited mechanism edition; it stays absent for relation SlotSpecs. The `memberDefinitionPattern` field points to the pattern that defines the member and its actual-use predicate. A.15.3 still states only the plan's intention.
 
-The effective designation rule is resolved from the exact target member rather than copied into a competing plan-side declaration. For an A.6.5 target this is its `refMode`; for an A.6.1 target it is the `bindingDesignationRule`. A ByRef designation uses the concrete governed reference kind required there and resolves to a referent of the declared ValueKind; a generic `Ref`, `SpecRef`, stored token, or compatible value does not suffice.
+Read the designation rule from the selected member instead of copying it into the plan. An A.6.5 member uses its `refMode`; an A.6.1 member uses its `bindingDesignationRule`. A ByRef value must use the concrete reference kind required there and resolve to the declared ValueKind. A generic `Ref`, `SpecRef`, stored token, or merely compatible value does not pass.
 
-The target member's semantic cardinality governs the planned choice. For a single-valued target, the exact baseline or selection policy must make at most one planned value or designation effective for any one intended use. Several alternatives require exact conditions and an exact resolution rule; layout supplies neither exclusivity nor priority. A multivalued member follows the target-declared set, sequence, multiset, repetition, and ordering semantics; row count or row order supplies none of them. If the target declaration and applicable policy do not settle the cardinality needed by the planned use, return the missing declaration or policy governor instead of inferring it from layout.
+Use the selected member's semantic cardinality. For a single-valued member, conditions and a resolution rule must make at most one planned value effective for one intended use. Alternatives need conditions and a rule that selects among them; row order supplies neither priority nor exclusivity. A multivalued member keeps the declaration's set, sequence, multiset, repetition, and ordering semantics. If the declaration and cited policy do not decide the needed cardinality, return `missing-governor` for the member cardinality or selection policy.
 
-Omitting a possible row is not a negative claim that no such value, designation, or later participant exists. It means only that the current WorkPlan ClaimGraph does not rely on that filling. A prohibited or excluded value and any closed-world completeness claim remain separate governed plan claims with their own applicability and polarity basis.
+Omitting a row says only that this WorkPlan does not rely on that filling. It does not say the value or later participant is absent. Prohibition, exclusion, required absence, and closed-world completeness remain separate plan claims with their own applicability and polarity rules.
 
-`intendedPerformanceDesignator` is plan content, not a reference that makes a future Work occurrence or another future entity exist. The already identified present EntityOfConcern stays on the enclosing WorkPlan under C.2.1 and A.15.2.
+`intendedPerformanceDesignator` names the future use being planned; it does not make a future Work occurrence or entity exist. The enclosing WorkPlan keeps its already identified present EntityOfConcern under C.2.1 and A.15.2.
 
-Time, location, capability, readiness, gate, evidence, source-currentness, bridge, publication, or other conditions enter only through exact separately governed plan claims when the receiving use depends on them. This is an open recognition palette of neighboring claim families, not an unnamed kind or a generic field bundle. `planningConditions` cites those claims; it does not create them.
+Add time, location, capability, readiness, gate, evidence, source-currentness, bridge, or publication conditions only when changing one would change whether the planned value applies or which value is selected. Cite the separate claims that establish those conditions. `planningConditions` points to them; it creates none of them and is not a generic condition bundle.
 
-Any baseline or later-comparison policy reference states its concrete governed kind, direct owner, effective edition, applicability, and reference scheme when relied upon. A generic `PolicyRef` or shared label supplies no policy semantics. Pin a declaration edition or edition-bearing planned value only when another resolution could change the meaning relied on by the receiving use; the exact target reference and any explicit pin must agree.
+When a baseline or comparison policy selects a planned value or judges a later match, identify its concrete kind, defining pattern, edition, applicability, and reference scheme. A generic `PolicyRef` or shared label supplies no policy. Pin a declaration or edition-bearing value only when another resolution would change the planned meaning, and make the target reference and pin agree.
 
-#### A.15.3:4.3 - Read relation-declaration rows
+#### A.15.3:4.3 - Plan a future relation participant
 
 For a RelationSignature row:
 
-1. resolve the exact direct relation pattern and its corresponding obtaining predicate;
-2. resolve the exact `RelationSignature` edition;
-3. resolve the exact SlotSpec and its declaration-local `SlotKind`;
-4. check the planned value or designation against the SlotSpec's `ValueKind` and `refMode`;
-5. apply the exact semantic cardinality and participant constraints supplied by the direct relation pattern and declaration; and
-6. retain the row as positive plan content.
+1. open the relation pattern and its obtaining predicate;
+2. choose the `RelationSignature` edition the plan will use;
+3. choose its declaration-local SlotSpec and `SlotKind`;
+4. check the planned designation against the SlotSpec's `ValueKind` and `refMode`;
+5. apply the declaration's semantic cardinality and participant constraints; and
+6. record the row as a positive intended designation.
 
 The row does not fill the SlotSpec. The SlotSpec remains reusable declaration content. The planned designation does not become the actual participant, and the direct relation does not obtain until its direct predicate is satisfied for independently identified participants.
 
-#### A.15.3:4.4 - Read operation-declaration rows
+#### A.15.3:4.4 - Plan a future operation argument or result
 
-For an A.6.1 row, resolve the exact mechanism edition, `operationDesignator`, and `argumentDesignator` or `resultDesignator`. Apply that declaration's ValueKind, `bindingDesignationRule`, binding predicate, semantic cardinality, and planned conditions.
+Open the cited A.6.1 mechanism edition, choose its `operationDesignator`, then choose the `argumentDesignator` or `resultDesignator`. Apply that declaration's ValueKind, `bindingDesignationRule`, binding predicate, semantic cardinality, and the plan's stated conditions.
 
-The row is not an operation application or operation-application binding. An actual argument binding requires one exact application occurrence and satisfaction of the declared argument binding predicate. An actual result binding requires that application to return the exact value under the declared result meaning. Type compatibility, an expected result, a method-description phrase, a ticket value, or a matching token establishes neither binding.
+The row plans a value; it is not an application or binding. An actual argument binding needs an identified application whose argument-binding predicate holds. An actual result binding additionally needs that application to return the value under the declared result meaning. Type compatibility, an expected result, a method phrase, a ticket value, or a matching token establishes neither binding.
 
-#### A.15.3:4.5 - Keep plan, work, and actual use separate
+#### A.15.3:4.5 - Compare later use without changing the plan
 
-At later use, identify exact `W : U.Work` under A.15.1 only when dated performed work is actually current. Whether or not Work is part of the case, establish every actual relation participant through its obtaining direct predicate and every operation argument or result through the exact A.6.1 application-binding predicate. Work, WorkPlan, PlanItem, matching label, declaration compatibility, and shared value establish none of those actual facts by themselves.
+When work actually occurs, identify `W : U.Work` under A.15.1. Independently establish each relation participant through its obtaining predicate and each operation argument or result through the A.6.1 application-binding predicate. A matching plan row, label, type, or value establishes none of those facts.
 
-A neighboring comparison claim may compare the planned row with the independently governed actual participant or binding under an exact comparison policy. One case may stop at A.6.RCD disposition 2's local compound assertion over the cited plan edition, exact actual-use facts, and substrate-admitted policy. Repeated parameterized semantics may stop at disposition 3's predicate-definition episteme. Only a named occurrence-facing need can open relation-kind admission; the comparison never enters the WorkPlan's identity-bearing content or creates a universal planned-to-actual relation.
+If the team must state whether actual use matched the plan, name the comparison policy and the independently established actual facts. A one-off comparison may use A.6.RCD disposition 2 for a local compound assertion. Repeated parameterized comparisons may use disposition 3 for a predicate-definition episteme. Do not admit a comparison relation kind unless a later calculation or decision must refer to repeated comparison occurrences as such; then name that use and follow relation-kind admission. None of these comparisons changes the WorkPlan or creates a universal planned-to-actual relation.
 
-Unplanned actual participation remains actual when its own predicate obtains. Conversely, a claim that a planned value was missing, excluded, or substituted needs the comparison policy's applicable closure or negative criterion plus exact case facts. An absent log, unresolved reference, or unavailable fact is `missing-information`, not a negative actual-use or variance result; absent authority is `missing-governor`.
+An unplanned participant is still actual when its own predicate holds. To say that a planned value was missing, excluded, or substituted, apply the comparison policy's closure or negative criterion to the case facts. An absent log, unresolved reference, or unavailable fact yields `missing-information`, not a negative use or variance result; absent authority yields `missing-governor`.
 
-#### A.15.3:4.6 - Revision and replay
+#### A.15.3:4.6 - Preserve revisions and replay
 
-Pin a declaration edition or edition-bearing planned value only when a different resolution could change the meaning relied on by the receiving use. “Latest,” a mutable alias, a publication face, or an untyped policy label is not a reproducible declaration, value, or policy reference.
+Pin a declaration edition or edition-bearing planned value only when choosing another one could change the planned meaning. *Latest*, a mutable alias, a publication face, or an untyped policy label is not a reproducible reference.
 
-If a declaration member changes before the planned use, revise the WorkPlan claim content and let C.2.1 identify the resulting edition. If work or another actual use has already relied on the prior plan edition, preserve that cited edition and state any substitution or variance in a neighboring governed claim. A changed representation or carrier alone does not revise the plan when the C.2.1 discriminators remain fixed.
+If the selected declaration member changes before use, revise the WorkPlan claim content. An identity-bearing change creates another WorkPlan episteme; assert historical continuity only when `EpistemeEditionRelation` obtains. Preserve the earlier WorkPlan reference already cited by work or another actual use, and state substitution or variance separately. A carrier or representation change alone does not reidentify the plan while the C.2.1 discriminators stay fixed.
 
-A card, table, view, index, or generated summary may project selected WorkPlan claim content under its publication-use governor. It is not a second row authority and may not add planned fillings, defaults, declaration meanings, cardinality, conditions, or baseline semantics.
+A card, table, view, index, or generated summary may show selected WorkPlan content under its publication-use pattern. It is read-only: it may not add planned rows, defaults, declaration meanings, cardinality, conditions, or baseline rules.
 

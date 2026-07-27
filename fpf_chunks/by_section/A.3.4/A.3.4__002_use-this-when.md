@@ -6,12 +6,12 @@ section_id: "A.3.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__002_use-this-when.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:0 — Use This When"
-line_start: 7895
-line_end: 7929
+line_start: 7926
+line_end: 7962
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,26 +54,28 @@ keywords:
 
 ### A.3.4:0 - Use This When
 
-Use this pattern when a project needs to identify an **actual bounded change** itself: which exact governed referent changed, over which extent or ordered boundary, under which boundary conditions, and which actual subject facts make the before-to-after difference one occurrence of change.
+Use this pattern when a project must decide whether an actual change occurred and identify that one change. Ask: what continuing subject changed, where the change begins and ends, which facts differ before, during, and after it, and what rule makes this one occurrence rather than unrelated observations.
 
 Use it when the working question is:
 
-- what exact entity, structure, episteme, characteristic-bearing referent, or formal object changed;
+- what continuing subject changed: an entity, selected structure, presentation carrier, constituent organization, characteristic-bearing referent, or formal object;
+- when a specification's claim content changes, which two C.2.1 epistemes exist, whether their `EpistemeEditionRelation` obtains, whether a continuing carrier or constituent organization changed, and whether revision `U.Work` first constituted the later episteme under `A.15.PROD`;
 - which actual characteristic-state and direct-relation facts differ across the boundary;
 - what temporal extent, formal ordering, or continuity rule identifies this occurrence;
-- whether method, planned work, performed work, mechanism, flow structure, representation, evidence, publication, or a later receiving use is also current and therefore needs its own direct relation.
+- which additional claim, if any, is actually being made about method, planned work, performed work, mechanism, flow structure, representation, evidence, publication, or a later use, and which pattern answers that claim.
 
-**Primary EntityOfConcern.** One exact `U.Transformation`: an independently identified actual bounded change. A task, method, plan, desired state, work occurrence, operation family, morphism, predicate, delta formula, trace, assertion, obtaining relation occurrence, before-and-after picture, or result record establishes neither that change nor its identity. Such objects can describe, plan, enact, constrain, represent, support, or use a transformation only through their own governed relations.
+**Primary EntityOfConcern.** One actual `U.Transformation`: the bounded occurrence, not the sentence, plan, trace, formula, or record about it. A task, method, plan, desired state, work occurrence, operation family, morphism, predicate, delta formula, assertion, before-and-after picture, or result record neither proves that the change occurred nor identifies it. Use those objects only in their separate claims about planning, enactment, representation, evidence, or later use.
 
-**Primary working reader.** A practitioner or modeler who must identify one actual change for a current engineering, scientific, formal, documentary, or architectural use before relating it to method, work, flow, evidence, or production. The heavier composition and admission branch additionally addresses an FPF author or reviewer only when that practitioner use needs positive transformation-part or holon claims.
+**Primary working reader.** A practitioner or modeler who must identify one actual change for a current engineering, scientific, formal, documentary, or architectural use before relating it to method, work, flow, evidence, or production. The informative parked-composition branch additionally addresses an FPF author or reviewer only when that use asks whether several changes compose one change or whether that whole could satisfy A.1.
 
-**First useful move.** Name the exact changed referent and the actual boundary across which it changed. Recover the actual pre-boundary, during-boundary, and post-boundary subject facts under their direct patterns. State the temporal extent or formal ordering and the boundary conditions that delimit the occurrence. If the available material is only a desired state, method, plan, model, trace, or assertion, stop: the actual `U.Transformation` has not yet been grounded.
+**First useful move.** Name the continuing subject and where the change begins and ends. Write the subject facts that hold before, during, and after that boundary, then state the boundary conditions and the continuity or reidentification rule that make this one occurrence. If the material supplies only a desired state, method, plan, model, trace, or assertion, stop: it has not yet grounded an actual `U.Transformation`.
 
-**Open-world guard.** Failure to recover a method, work occurrence, evidence item, publication, delivery, acceptance, or receiving-use relation proves none of those absent. It only blocks or lowers the claim that depends on that exact relation. Conversely, their presence does not establish that an actual transformation occurred.
+**Open-world guard.** Not finding a method, work occurrence, evidence item, publication, delivery, acceptance, or later-use relation does not prove that it is absent. It prevents only the particular claim that needs it. Finding one of those objects likewise does not prove that an actual transformation occurred.
 
 **What goes wrong if missed.** Method names become change proof, work traces become laws, process diagrams become execution, dynamics models become permission, temporal trends become intervention claims, mathematical constructions become project-world work, and publications or result records are treated as the change itself.
 
-**What this buys.** A practitioner can identify one actual bounded change at the resolution needed by the current use without settling whether finer parts obtain; that identification establishes neither parthood nor partlessness. Exact transformation composition is grounded only when needed, and only a grounded composite is tested against A.1. Method, work, flow, representation, evidence, publication, production, and receiving-use claims remain with their direct governors.
+**What this buys.** The practitioner gets one usable actual-change result without first deciding whether finer changes are its parts. If no composition or holon claim is needed, continue with the ordinary neighboring-object guidance at `4.3`. If such a claim is needed, keep the identified changes and return the parked composition blocker; this pattern does not guess the future architecture. Apply `A.1` only after an accepted architecture supplies the proposed whole and its construction facts. Method, work, flow, representation, evidence, publication, production, and later-use claims stay separate.
+
 **Not this pattern when.**
 
 - If the issue is only a semantic way of doing, use `A.3.1`.

@@ -6,12 +6,12 @@ section_id: "A.3.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__014_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:12 — Relations"
-line_start: 8280
-line_end: 8284
+line_start: 8306
+line_end: 8310
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,6 +54,6 @@ keywords:
 
 ### A.3.4:12 - Relations
 
-- **Builds on:** `A.1` for the independent holon criterion, `A.6.RCD` for the missing-governor or missing-substrate stop and any future derived-kind route, `C.2.1` for blocker, definition, and assertion epistemes, and `A.7` for category separation.
-- **Coordinates with:** `A.3` for acting-side transformer constitution only when an acting-system claim is current; `A.6.REL` for occurrence identity; `E.24` / `E.24.UK` for any future exact admission result; `F.18` for durable naming only after that settlement; `A.11` for parsimony when current; `A.14` and `C.13` for structural mereology without transformation-composition overread; `A.22` for a selected changed structure; `A.3.1`, `A.3.2`, `A.3.3`, `A.6.1`, `A.15.1`, `A.15.2`, and `A.15.PROD` for production-work participation, entity-identity inception, and production-completion recovery; `E.18`, `E.18.1`, `C.32.P2S`, `C.27.TA`, `C.27`, `C.29`, `A.10`, `B.3`, `G.11`, `B.2`, and the direct work-to-change, evidence, evaluation, gate, decision, source-use, production, delivery, acceptance, transfer, assurance, and publication patterns.
+- **Builds on:** `A.1` for the independent holon criterion, `A.6.RCD` for `missing-governor` or `missing-substrate`, `C.2.1` for blocker and assertion epistemes, and `A.7` for category separation.
+- **Coordinates with:** `A.3` when the use makes an acting-system claim; `A.6.RCD` if future work selects a bounded compound-claim route; `A.6.REL` if a future accepted relation architecture needs occurrence identity; `E.24` and `E.24.UK` if that work proposes a public relation kind; `F.18` if durable naming then becomes necessary; `A.11` for parsimony; `A.14` and `C.13` for structural mereology without transformation-composition overread; `A.22` for a selected changed structure; `A.3.1`, `A.3.2`, `A.3.3`, `A.6.1`, `A.15.1`, `A.15.2`, and `A.15.PROD` for method, dynamics, operation, work, and production questions; `E.18`, `E.18.1`, `C.32.P2S`, `C.27.TA`, `C.27`, `C.29`, `A.10`, `B.3`, `G.11`, and `B.2`; and the work-to-change, evidence, evaluation, gate, decision, source-use, production, delivery, acceptance, transfer, assurance, and publication patterns for those claims.
 

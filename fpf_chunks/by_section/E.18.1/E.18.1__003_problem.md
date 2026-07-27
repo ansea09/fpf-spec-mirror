@@ -6,12 +6,12 @@ section_id: "E.18.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__003_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:2 — Problem"
-line_start: 81710
-line_end: 81715
+line_start: 81849
+line_end: 81854
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -52,5 +52,5 @@ keywords:
 
 An accepted problem-side distinction becomes useful when it is ready to guide downstream work or work-planning use. The accepted problem card may expose an invariant, mathematical lens, functional role, mechanism-position candidate, method candidate family, planning constraint, result cue, or changed measurement assumption. Without P2W, that useful distinction is either overcompressed into "we have a solution" or scattered across several related FPF patterns before the working distinction is preserved.
 
-P2W solves a carry-through problem. A practitioner starts from an accepted problem-side claim, states the receiving use, recovers and applies the direct pattern for the next relation, and checks that the resulting governed value still carries that claim. Conversational use may close there. A compact note is added only when a named reliance needs replay. The pattern succeeds when the current use or reliance-conditioned note keeps the accepted problem-side claim, named receiving use, direct governor, and owner-returned value inspectable without treating their use-specific connection as a relation kind or occurrence, and without treating the note, diagram, plan, trace, or publication as the subject entity or as proof that downstream work occurred.
+P2W solves a carry-through problem. First say which accepted claim must affect which decision or use. Then write one ordinary relation-specific question, name its participants, apply the pattern that answers it, and keep that pattern's result or stop. Add a compact note only when another person or later action must replay the path. P2W succeeds when the accepted claim, receiving use, concrete question, direct pattern, and result remain inspectable without turning their use-specific connection into a relation kind or treating a note, diagram, plan, trace, or publication as the subject entity or as proof that work occurred.
 

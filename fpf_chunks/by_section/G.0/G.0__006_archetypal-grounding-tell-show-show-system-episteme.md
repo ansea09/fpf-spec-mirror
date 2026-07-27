@@ -6,12 +6,12 @@ section_id: "G.0:5"
 section_title: "Archetypal Grounding — Tell–Show–Show; System / Episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:5 — Archetypal Grounding — Tell–Show–Show; System / Episteme"
-line_start: 94892
-line_end: 94920
+line_start: 94992
+line_end: 95020
 dependencies:
   - "A.10"
   - "A.17"

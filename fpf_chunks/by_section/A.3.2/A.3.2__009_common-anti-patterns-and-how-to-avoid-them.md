@@ -6,12 +6,12 @@ section_id: "A.3.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7523
-line_end: 7535
+line_start: 7554
+line_end: 7566
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,12 +52,12 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| "The code is the method." | Recover the claim-bearing episteme and exact `U.Method`. The episteme is `U.MethodDescription` only when it meets the positive claim threshold. Identify separately whether a code expression is used as a `C.29` representation, whether a publication form expresses the selected edition, and which carrier bears that form; a run is a Work individual admitted under `U.Work` only on the A.15.1 occurrence basis. |
-| "Yesterday's log is our procedure." | The log is an episteme that may describe or evidence exact work through its governing relation; it is not the work or method description by being recorded. Recover the dated occurrence and cite or write the method description separately. |
+| "The code is the method." | Identify the claim-bearing episteme and the Method it concerns. Membership needs one substantive method claim; C.29 owns representation correspondence, E.24.PUB owns publication, and A.15.1 owns a run that actually happened. |
+| "Yesterday's log is our procedure." | The log is an episteme about dated Work, not the Work or a method description by being recorded. Identify the occurrence under A.15.1; cite or write a separate method description only when its claims pass the membership rule. |
 | "The approved protocol proves safe use." | Separate method description, approval or gate claim, safety evidence, work plan, and work occurrence. |
-| "The optimization model is the process." | Recover whether the current claim is method description, formal substrate, method, mechanism, work plan, work, or evidence. |
-| "The query plan calls the next step." | Check whether this is a database plan, method description, formal representation, or metaphorical overread; use `C.2.P.DR` when needed. |
-| "The diagram's route is the workflow." | Recover whether the route is graph path, method sequence, work plan, event trace, or diagram convention. |
-| "The new version refines the old one." | Distinguish a C.2.1 episteme edition, an equivalence or adequacy judgment over description claims, and a refinement relation between methods. State the preserved or strengthened content and use the direct owner; a file version establishes none of the three. |
-| "SOPs are notes, code is the real spec." | Neither notation establishes membership. Compare the claim-bearing epistemes by their exact methods, substantive method claims, and adequacy for the current work or decision; govern each representation separately. |
+| "The optimization model is the process." | Ask whether the episteme says how a scheduling Method works or instead states variables, constraints, and an objective for a formal model. Keep the solver run as Work and any selector mechanism under A.6.1/E.20. |
+| "The query plan calls the next step." | A database plan or graph may represent ordering without commanding project Work. Use `C.2.P.DR` when layout is being read as dispatch; write a WorkPlan or ordered Method only when its own claim states that sequence. |
+| "The diagram's route is the workflow." | Check whether the method claim states the sequence. If the route is only a graph path, event trace, or drawing convention, keep it in the representation; do not turn it into a WorkPlan or performed Work. |
+| "The new version refines the old one." | Separate the C.2.1 edition relation, a comparison of description claims, and any refinement relation between Methods. A file version establishes none of them. |
+| "SOPs are notes, code is the real spec." | Neither notation establishes membership. Compare what each episteme claims about the Method. Ask adequacy only for a concrete proposed use; comparison, publication revision, and teaching-content review require no fabricated Work or decision. |
 

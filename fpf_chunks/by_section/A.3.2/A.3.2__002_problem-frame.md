@@ -6,12 +6,12 @@ section_id: "A.3.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:1 — Problem frame"
-line_start: 7276
-line_end: 7311
+line_start: 7291
+line_end: 7326
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,23 +64,23 @@ Use it when the working question is:
 
 * which admitted `U.Method` is the exact `EntityOfConcern`;
 * which claim states the method's transformation or enactment concern, applicability, precondition, effect, bound, or internal composition;
-* which work or decision should rely on those claims, and whether the claims are adequate for that receiving use;
-* which `C.29` representation corresponds to the claims, which publication occurrence makes the selected edition available, which publication form expresses that edition, and which `U.PresentationCarrier` bears the form, when those distinctions affect the work;
-* whether the exact EntityOfConcern references resolve to the same A.3.1-reidentified method, and, as a separate question, whether the claim contents are equivalent for the receiving use; when effective `U.ReferenceScheme` values differ, an exact F.9 Bridge can establish only the current `SenseCell` correspondence and admitted use, not method identity or claim equivalence.
+* whether anyone is proposing a use beyond membership; if so, what that use is, where it belongs, and which method claims it needs;
+* which `C.29` representation corresponds to the claims, which publication occurrence makes the selected edition available, which publication form expresses it, and which `U.PresentationCarrier` bears that form—but only when the proposed use needs those distinctions;
+* whether two epistemes describe the same A.3.1-reidentified Method and, separately, whether their claims are equivalent for the proposed use. If their effective reference schemes differ, first establish the F.9 `Bridge` between the two `SchemeSenseCell` values. That Bridge establishes correspondence only. Positive reliance on the proposed reuse also needs a separate C.2.1 claim for that bounded use. For ordinary below-threshold evidence reliance with no assurance claim, require `RelianceDisposition=pass` from A.10. If an assurance claim is current or the B.3 material-reliance threshold is met, enter B.3; positive assurance requires a current positive claim with its sufficient record, while no claim or an insufficient record blocks or narrows the assurance use. A negative or absent use claim, a non-passing A.10 disposition, or a non-positive B.3 outcome blocks or narrows reuse while the Bridge remains true.
 
-**Primary EntityOfConcern.** The exact `EntityOfConcern` is the admitted `U.Method` being described. `U.MethodDescription` is the same `U.Episteme` individual already identified through `C.2.1`; the dependent kind adds a membership judgment, not another described entity or another identity rule.
+**Primary governed object.** A.3.2 examines one already identified claim-bearing `U.Episteme` candidate and judges whether that same individual belongs to the dependent kind `U.MethodDescription`. For positive membership, the candidate episteme's exact C.2.1 `EntityOfConcern` must resolve to one admitted `U.Method`, and at least one of its claims must concern that Method as a way of doing. The Method is the internal subject of the episteme's claims, not a second candidate and not the primary object of this membership judgment. A.3.2 adds neither another episteme identity nor a binary description relation.
 
-**Primary working reader.** An engineer or researcher who must rely on reusable claims about a method before planning, enactment, comparison, audit, or revision.
+**Primary working reader.** An engineer, researcher, publisher, teacher, planner, or auditor who must identify or rely on reusable claims about a method before planning, enactment, comparison, audit, revision, publication, or teaching.
 
-**Primary working concern.** Identify the claim-bearing episteme and exact method first, then judge separately whether the claims are adequate for the current work or decision.
+**Primary working concern.** Identify the claim-bearing episteme and its Method first. When someone proposes a further use, name that use and its owner, then ask which claims the use needs and whether this edition contains them. With no proposed use, stop at membership.
 
 **Primary viewpoint.** The practitioner selecting, comparing, or revising method descriptions while method identity and the surrounding representation and publication relations remain explicit.
 
-**First useful move.** Name the exact `U.Method`, then point to at least one claim that says how that method is done. Name the work or decision that will use the claim. Evaluate adequacy for that receiving use separately from membership.
+**First useful move.** Name the candidate `U.Episteme`. Check two things: its C.2.1 `EntityOfConcern` is one admitted `U.Method`, and at least one claim says how that Method is done. If both hold, the same episteme is a `U.MethodDescription`; if either fails, it is not. Only then, if someone proposes a concrete further use, write that use's criterion and result under the pattern that owns it. Otherwise stop at membership; do not invent Work, a decision, or an adequacy result.
 
 **What goes wrong if missed.** A visible file or diagram is classified by its form, a mere mention is mistaken for a description, or an episteme about a relation structure among several methods is treated as if it described one composite method. Planning, enactment, audit, and review then rely on the wrong governed object.
 
 **What this buys.** The project can identify, compare, revise, and reuse method descriptions while keeping the described `U.Method`, `RelationSignature`, `OperationAlgebra`, C.29 representations, publication occurrences and forms, presentation carriers, work plans, work occurrences, and evidence under their own governing patterns.
 
-**Not this pattern when.** Do not infer membership from words such as `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. Recover the current claim and exact governed object. If no admitted `U.Method` is the exact `EntityOfConcern`, or the episteme makes no substantive claim about its way of doing, this membership rule does not apply. Use the governing pattern for the actual method, selected structure, formal substrate, `RelationSignature`, `OperationAlgebra`, work plan, work occurrence, evidence use, or publication use.
+**Not this pattern when.** Do not infer membership from words such as `algorithm`, `program`, `proof`, `workflow`, `process`, `procedure`, `recipe`, or `model`. Ask what the sentence actually asserts. If its `EntityOfConcern` is not an admitted `U.Method`, or it says nothing substantive about that Method as a way of doing, A.3.2 does not apply. Use the owner of the actual method, selected structure, formal declaration, work plan, dated Work, evidence use, or publication use instead.
 

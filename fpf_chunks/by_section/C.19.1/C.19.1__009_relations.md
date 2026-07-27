@@ -6,12 +6,12 @@ section_id: "C.19.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__009_relations.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:7 — Relations"
-line_start: 49609
-line_end: 49628
+line_start: 49748
+line_end: 49767
 dependencies:
   - "A.0"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.15.4:9.3"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__017_lowering-repair-and-refresh-conditions.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9.3 — Lowering, Repair, and Refresh Conditions"
-line_start: 25852
-line_end: 25859
+line_start: 25963
+line_end: 25970
 dependencies:
   - "A.10"
   - "A.15"

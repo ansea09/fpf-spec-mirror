@@ -6,12 +6,12 @@ section_id: "E.23:End"
 section_title: "E.23:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__014_e-23-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:End — E.23:End"
-line_start: 85004
-line_end: 85005
+line_start: 85104
+line_end: 85105
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

@@ -6,12 +6,12 @@ section_id: "C.16.P:End"
 section_title: "C.16.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__018_c-16-p-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:End — C.16.P:End"
-line_start: 47238
-line_end: 47239
+line_start: 47377
+line_end: 47378
 dependencies:
   - "A.10"
   - "A.15"

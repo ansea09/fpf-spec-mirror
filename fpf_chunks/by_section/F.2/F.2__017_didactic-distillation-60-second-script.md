@@ -6,12 +6,12 @@ section_id: "F.2:16"
 section_title: "Didactic distillation (60‑second script)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__017_didactic-distillation-60-second-script.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:16 — Didactic distillation (60‑second script)"
-line_start: 87641
-line_end: 87644
+line_start: 87741
+line_end: 87744
 dependencies:
   - "A.11"
   - "A.7"

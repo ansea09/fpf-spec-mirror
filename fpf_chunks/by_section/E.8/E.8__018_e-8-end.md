@@ -6,12 +6,12 @@ section_id: "E.8:End"
 section_title: "E.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__018_e-8-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:End — E.8:End"
-line_start: 70991
-line_end: 70992
+line_start: 71130
+line_end: 71131
 dependencies:
   - "E.10"
   - "E.10.MOVE"

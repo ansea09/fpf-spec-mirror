@@ -6,12 +6,12 @@ section_id: "C.19.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__012_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:10 — Rationale"
-line_start: 49769
-line_end: 49774
+line_start: 49908
+line_end: 49913
 dependencies:
   - "A.15.1"
   - "A.15.2"

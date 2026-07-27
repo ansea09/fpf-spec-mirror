@@ -6,12 +6,12 @@ section_id: "E.6:End"
 section_title: "E.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.6/E.6__011_e-6-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
   - "E.6:End — E.6:End"
-line_start: 70254
-line_end: 70255
+line_start: 70393
+line_end: 70394
 dependencies:
   - "E.2"
 keywords:

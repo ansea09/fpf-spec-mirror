@@ -6,12 +6,12 @@ section_id: "A.15.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__011_rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:10 — Rationale"
-line_start: 25355
-line_end: 25360
+line_start: 25466
+line_end: 25471
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.15.3:10 - Rationale
 
-Planning needs a way to preserve intended values without turning every planning field into ontology. RelationSignature SlotSpecs, A.6.1 operation declarations, and other direct declarations already supply reusable member meanings and corresponding later actual-use predicates. A.15.3 contributes only the positive intended use of those members in one WorkPlan.
+Planning needs a way to preserve intended values without turning every planning field into ontology. Existing `RelationSignature` SlotSpecs, A.6.1 operation declarations, and other declarations already define reusable member meanings and actual-use predicates. A.15.3 records only the intended use of those members inside one WorkPlan.
 
-This split preserves four authorities and identities: the target direct pattern owns the reusable member meaning and actual-use predicate; A.6.5 or A.6.1 owns the relevant declaration discipline; the WorkPlan remains one C.2.1 episteme whose A.15.2/A.15.3 claim content states the intention; and any later Work, application binding, relation occurrence, result, or comparison is independently identified. A row reference connects those objects for planning but constitutes none of them.
+The split is concrete: the declaration pattern defines the member and actual-use rule; A.6.5 or A.6.1 defines its declaration form; the WorkPlan remains one C.2.1 episteme whose A.15.2/A.15.3 content records the intention; and later Work, applications, relation occurrences, results, and comparisons are identified separately. A row cites these objects for planning but constitutes none of them.
 

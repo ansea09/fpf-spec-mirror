@@ -6,12 +6,12 @@ section_id: "B.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__011_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:9 — Consequences"
-line_start: 36806
-line_end: 36820
+line_start: 36945
+line_end: 36959
 dependencies:
   - "A.1"
   - "A.10"

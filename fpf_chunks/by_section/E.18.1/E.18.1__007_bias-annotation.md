@@ -6,12 +6,12 @@ section_id: "E.18.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:6 — Bias-Annotation"
-line_start: 82189
-line_end: 82198
+line_start: 82288
+line_end: 82297
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -52,8 +52,8 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Ontological and epistemic**, **Prag**, **Did**. Scope: **accepted problem-side record plus carried distinction moving toward FPF applications**.
 
-- **Governance bias (Gov):** authorization, gate, release, assurance, and decision cues are preserved only as local cues until the relevant FPF relation is recovered.
-- **Architectural bias (Arch):** diagrams, selected structures, and module-interface language help classify the next P2W application; they do not displace the accepted claim, receiving-use viewpoint, direct governor, or owner-returned value.
+- **Governance bias (Gov):** permission, gate, release, assurance, and decision cues remain local cues until the relation and participants are stated: an `A.2.8.PER` permission result, `A.21 GateDecision`, `A.15.1` release `U.Work` occurrence plus any required named subject release predicate, `B.3` assurance result, or direct decision result. The word `authorization` supplies none of them.
+- **Architectural bias (Arch):** diagrams, selected structures, and module-interface language help formulate the next relation question; they do not replace the accepted claim, receiving use, separately governed viewpoint or model-use participant, direct pattern, or returned result.
 - **Ontological and epistemic bias:** a source publication, diagram, compact note, or formal declaration remains separate from the subject EntityOfConcern and from the relation or result claimed through its direct pattern.
 - **Pragmatic bias (Prag):** the carry-through structure is useful for action without becoming a prescribed project procedure.
 - **Didactic bias (Did):** the local P2W mantra and positive carry-through structure come before the heavier relation aids, so precision does not bury the working P2W application.

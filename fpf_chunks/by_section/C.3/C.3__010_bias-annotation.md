@@ -6,12 +6,12 @@ section_id: "C.3:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__010_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:8 — Bias-Annotation"
-line_start: 44099
-line_end: 44102
+line_start: 44238
+line_end: 44241
 dependencies:
   - "A.1"
   - "A.11"

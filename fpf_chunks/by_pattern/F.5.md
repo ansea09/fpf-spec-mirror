@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.5.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
-line_start: 88300
-line_end: 88590
+line_start: 88400
+line_end: 88690
 dependencies:
   - "A.15"
   - "A.2"

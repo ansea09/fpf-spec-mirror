@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 92156
-line_end: 92214
+line_start: 92256
+line_end: 92314
 dependencies:
   - "A.10"
   - "A.15.1"

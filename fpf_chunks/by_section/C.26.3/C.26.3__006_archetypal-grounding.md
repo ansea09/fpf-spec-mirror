@@ -6,12 +6,12 @@ section_id: "C.26.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__006_archetypal-grounding.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:5 — Archetypal Grounding"
-line_start: 54131
-line_end: 54138
+line_start: 54270
+line_end: 54277
 dependencies:
   - "A.10"
   - "A.15"

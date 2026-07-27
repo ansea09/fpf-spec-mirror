@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:1 — Problem Frame"
-line_start: 15668
-line_end: 15693
+line_start: 15753
+line_end: 15780
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,23 +34,25 @@ keywords:
 
 ### A.6.P.WMR:1 - Problem Frame
 
-**Use this when.** Practitioners **SHOULD** use this pattern after `A.6.P` generic relation recovery has isolated one current method/work-boundary claim and the exact entity is already in view, but words such as `input`, `raw material`, `source data`, `source material`, `output`, `result`, `outcome`, `deliverable`, or `handoff` still do not reveal the direct relation that makes the sentence true. They **SHOULD** also use it when method, intended-work, actual-work, production, evaluation, delivery, acceptance, transfer, or receiving-use wording leaves that claim's participant meaning or orthogonal claim dimensions unclear.
+**Use this when.** Practitioners **SHOULD** use this pattern after `A.6.P` generic relation recovery has isolated one current method-or-work boundary claim and the exact entity is already in view, but words such as `input`, `raw material`, `source data`, `source material`, `output`, `result`, `outcome`, `deliverable`, or `handoff` still do not reveal the direct relation that makes the sentence true. They **SHOULD** also use it when method, intended-work, actual-work, production, evaluation, delivery, acceptance, transfer, or receiving-use wording leaves that claim's participant meaning or orthogonal claim dimensions unclear.
 
 The primary EntityOfConcern is one relation-bearing claim in an episteme. The trigger word helps a practitioner notice the problem; it is not the governed object, a participant kind, a relation kind, or a universal family of inputs and results.
 
 **Primary working reader, concern, and viewpoint.** The primary reader is a practitioner or engineer whose current task is to make one boundary-word claim safe for a named receiving use. Their concern is which exact relation and claim dimensions can be stated safely for that use now; the viewpoint is the receiving use, while the direct subject-pattern owner supplies or rejects any missing governor.
 
-**First useful result.** The first useful result is the shortest ordinary sentence that names:
+**First useful result.** Start at the boundary-word sentence and answer three ordinary questions: what exact thing is being named, relative to what exact method, plan, work, operation application, transformation, delivery, or receiving use, and what direct verb can safely be said now—or why can it not yet be said.
 
-1. the exact entity under its admitted kind;
-2. the exact object relative to which it is being named;
-3. the direct relation claim under its selected modality and polarity, or the exact proposed claim still not assertable;
-4. the orthogonal claim dimensions; and
-5. the direct governor: for a direct relation, the exact `RelationKind` token and its resolving direct pattern or relation-specification edition; for an operation binding or local claim, the exact declaration-local or admitted predicate and owner.
+For example, a note says, `inspection report R-17 is the result of inspection`. `R-17` is an exact report episteme. If the current related object is independently identified inspection application `P-17` and its declaration-local result-binding predicate actually holds, write: `Inspection application P-17 returned report R-17.` Then stop unless the receiver separately asks about report inception, inspection Work, evidence, publication, delivery, or acceptance.
 
-A positive result is available only after two independent premises are present. First, suppose published project relation-specification edition `MFG-WORK-REL-2026` already admits `RelationKind` token `MachiningWorkConsumesResource`, with participant meanings `consumingWork = exact Work individual admitted under U.Work` and `consumedResourceQuantity = exact physical quantity`, required qualifier `Γ_time`, an obtaining predicate requiring actual consumption by that work, applicability to Plant-7 machining work, and accountable owner `MachiningWorkRelations@Plant-7`. Second, separately stipulate the didactic world-side fact that exact quantity `CF-17` was actually consumed by exact work `W-204` during `I-204` and therefore satisfies that obtaining predicate. Neither the specification, the work identity, nor assertion episteme `MFG-RU-CF17-W204` supplies that fact. The useful result can then be as short as: `Cutting-fluid quantity CF-17 was consumed as a resource by machining work W-204 during interval I-204 under RelationKind MachiningWorkConsumesResource from MFG-WORK-REL-2026.` If the governor is known but the separately required fact fails, return `factually unsupported`; if that fact is unavailable, return `missing-information`. If the conforming settlement itself is absent, return instead: `Whether CF-17 participated in W-204 as a consumed resource is unresolved because the direct resource-use governor for that work and material is absent; the machining-work owner is the named future owner for supply, rejection, or reframing of that relation.`
+The nearest three failures keep the same thing and related object while changing only the deciding deficit:
 
-**What changes in practice.** The engineer stops asking which broad word is correct and asks which exact entity, related object, relation, claim subject, modality and temporal extent, polarity, recovery/support state, and governor the receiving work needs. Planning, actual participation, production, evaluation, delivery, acceptance, and transfer no longer inherit one another through vocabulary.
+- if the binding governor is known and the case facts fail its positive predicate, the proposed positive binding is `factually unsupported`;
+- if the governor is known but the fact needed to decide whether P-17 returned R-17 is unavailable, return `missing-information`;
+- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the inspection-application or report-forming owner that must supply, reject, or reframe it.
+
+Only when another reading could change the answer should the practitioner make the formal distinctions explicit: reusable declaration versus intended, committed, current, or historical subject relation; exact extent; polarity; and whether the claim is assertable. A direct relation additionally names its exact `RelationKind` and resolving direct pattern or relation-declaration episteme. An operation binding or local claim instead names its declaration-local or admitted predicate and owner. These assurance details check the ordinary answer; they are not prerequisites for understanding a simple positive past-tense sentence.
+
+**What changes in practice.** The engineer stops debating which broad word is correct. They name the thing, the exact object it is relative to, and the direct verb they can safely say now; if no verb is yet justified, they state the exact failed fact, unavailable fact, or absent governor. Formal claim dimensions and assurance apparatus appear only when they can change or check that answer. Planning, actual participation, production, evaluation, delivery, acceptance, and transfer no longer inherit one another through vocabulary.
 
 **Adoption test.** Given one compressed sentence, the reader can replace it with either the shortest direct sentence under its exact governor or an exact factually-unsupported, missing-information, or missing-governor result, without turning a plan, description, binding, record, or label into actuality.
 

@@ -6,12 +6,12 @@ section_id: "A.16:End"
 section_title: "A.16:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__024_a-16-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:End — A.16:End"
-line_start: 26823
-line_end: 26824
+line_start: 26962
+line_end: 26963
 dependencies:
   - "A.16"
   - "A.16.0"

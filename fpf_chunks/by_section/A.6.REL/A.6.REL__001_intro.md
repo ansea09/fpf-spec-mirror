@@ -6,12 +6,12 @@ section_id: "A.6.REL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:intro — Intro"
-line_start: 10786
-line_end: 10792
+line_start: 10812
+line_end: 10818
 dependencies:
   - "A.6.0"
   - "A.6.5"

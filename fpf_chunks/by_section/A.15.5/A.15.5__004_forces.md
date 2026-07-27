@@ -6,12 +6,12 @@ section_id: "A.15.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:3 — Forces"
-line_start: 25894
-line_end: 25903
+line_start: 26005
+line_end: 26014
 dependencies:
   - "A.10"
   - "A.15"

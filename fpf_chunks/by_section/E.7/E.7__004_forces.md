@@ -6,12 +6,12 @@ section_id: "E.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.7/E.7__004_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.7 — Archetypal Grounding Principle"
   - "E.7:3 — Forces"
-line_start: 70273
-line_end: 70280
+line_start: 70412
+line_end: 70419
 dependencies:
   - "E.5.4"
   - "E.6"

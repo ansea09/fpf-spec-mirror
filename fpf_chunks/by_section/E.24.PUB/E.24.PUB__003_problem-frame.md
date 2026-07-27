@@ -6,12 +6,12 @@ section_id: "E.24.PUB:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__003_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:1 — Problem Frame"
-line_start: 86024
-line_end: 86036
+line_start: 86124
+line_end: 86136
 dependencies:
   - "A.19"
   - "A.19.ECS"

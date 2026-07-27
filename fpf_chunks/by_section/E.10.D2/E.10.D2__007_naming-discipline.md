@@ -6,12 +6,12 @@ section_id: "E.10.D2:5"
 section_title: "Naming discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_naming-discipline.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:5 — Naming discipline"
-line_start: 74663
-line_end: 74672
+line_start: 74802
+line_end: 74811
 dependencies:
   - "A.7"
   - "C.2.1"

@@ -6,12 +6,12 @@ section_id: "C.19:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__012_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:6 — Bias-Annotation"
-line_start: 49426
-line_end: 49429
+line_start: 49565
+line_end: 49568
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

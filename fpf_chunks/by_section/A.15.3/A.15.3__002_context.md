@@ -6,12 +6,12 @@ section_id: "A.15.3:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__002_context.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:1 — Context"
-line_start: 25147
-line_end: 25152
+line_start: 25222
+line_end: 25227
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.15.3:1 - Context
 
-A work plan may need more precision than “use this method” or “perform this task.” It may need to preserve that a particular future relation use is intended to designate `Bearing_C` under `PartHolonSlot`, or that a particular future operation application is intended to bind `Pump_37` under `candidateArgument`.
+A work plan may need more precision than *use this method* or *perform this task*. An inspection plan may need to remember that `Robot_8_Ref` is intended for `HolderSystemSlot` in a cited `RoleAssignmentRelationSignature` edition. A recognition plan may need to remember that `Pump_37_Ref` is intended for the declaration-local `candidate` argument.
 
 The declaration already owns the participant, argument, or result meaning. The WorkPlan owns the intention. A.15.3 joins them only as plan content. It neither changes the declaration nor makes the planned value participate.
 

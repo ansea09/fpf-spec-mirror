@@ -6,12 +6,12 @@ section_id: "A.15.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__002_problem-frame.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:1 — Problem Frame"
-line_start: 24327
-line_end: 24332
+line_start: 24378
+line_end: 24383
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -62,7 +62,7 @@ keywords:
 
 ### A.15.1:1 - Problem Frame
 
-After we have separated **who is assigned** (via `U.RoleAssignment`), **what capability is being relied on** (via `U.Capability`), **how in principle** the work is done (the exact `U.Method`), and which claim-bearing episteme describes that method when current (`U.MethodDescription`), we still need a precise concept for **what happened as performed work** in real time and space.
+After we have separated **who is assigned** (via `U.RoleAssignment`), **what capability is being relied on** (via `U.Capability`), **how in principle** the work is done (the exact `U.Method`), and which claim-bearing episteme, if one is selected, describes that method (`U.MethodDescription`), we still need a precise concept for **what happened as performed work** in real time and space.
 
 Every Work individual has actual performer-system, covering-assignment, enacted-method, temporal, and containing-system facts. It stands in a direct work-to-referent, binding, or resource-use relation only when that relation obtains world-side; none is a field stored in the occurrence. A separate assertion or description may designate that individual and state the relations, but the episteme neither creates the relations nor becomes the Work occurrence.
 

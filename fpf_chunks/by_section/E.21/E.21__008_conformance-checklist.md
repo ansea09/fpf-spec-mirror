@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 84233
-line_end: 84255
+line_start: 84333
+line_end: 84355
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

@@ -6,12 +6,12 @@ section_id: "A.16.0:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__010_consequences.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:9 — Consequences"
-line_start: 27014
-line_end: 27016
+line_start: 27153
+line_end: 27155
 dependencies:
   - "A.16"
   - "A.16.1"

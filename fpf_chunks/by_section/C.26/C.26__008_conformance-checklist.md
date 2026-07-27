@@ -6,12 +6,12 @@ section_id: "C.26:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__008_conformance-checklist.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:7 — Conformance Checklist"
-line_start: 53081
-line_end: 53097
+line_start: 53220
+line_end: 53236
 dependencies:
   - "A.10"
   - "A.15"

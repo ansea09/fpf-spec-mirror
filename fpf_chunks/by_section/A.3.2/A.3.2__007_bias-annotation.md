@@ -6,12 +6,12 @@ section_id: "A.3.2:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__007_bias-annotation.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:6 — Bias-Annotation"
-line_start: 7478
-line_end: 7490
+line_start: 7509
+line_end: 7521
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,12 +52,12 @@ keywords:
 
 This pattern mainly blocks six recurring biases:
 
-* **carrier-as-description bias**: a PDF file, repository, screen, or presentation carrier is treated as the method description instead of recovering the claim-bearing episteme and its exact representation or publication relations;
+* **carrier-as-description bias**: a PDF file, repository, screen, or presentation carrier is treated as the method description. Identify the episteme whose ClaimGraph is being read, then record its C.29 representation and publication relations separately;
 * **description-as-method bias**: the representation is treated as the way of doing itself;
 * **description-as-work bias**: executable or operational-looking representation is treated as dated work;
 * **approval-as-proof bias**: accepted, approved, or regulated descriptions are treated as evidence, gate passage, or safe execution;
-* **notation-prestige bias**: code, formal notation, or solver files are treated as more authoritative than procedures, diagrams, or guidelines without recovering the claim-bearing epistemes and their governed objects;
+* **notation-prestige bias**: code, formal notation, or solver files are treated as more authoritative than procedures, diagrams, or guidelines. Compare the actual method claims; representation form supplies no priority;
 * **imperative-metaphor bias**: graph, query, predicate, or process-model representation is treated as an ordered work-control claim.
 
-The repair is to recover the current claim, its exact governed object, and the claim-bearing episteme first. Then distinguish any C.29 representation correspondence, publication occurrence, publication form, and presentation carrier, and keep method, work, plan, evidence, gate, authority, mechanism, formal-substrate, and mathematical-lens claims in their governing patterns.
+First identify the claim-bearing episteme, the claim it makes, and the Method it concerns. Then keep its C.29 representation, publication occurrence, publication form, and presentation carrier separate, and send each plan, Work, evidence, gate, authority, mechanism, formal, or mathematical claim to its own pattern.
 

@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.1"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__016_archetypal-grounding.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9.1 — Archetypal Grounding"
-line_start: 74226
-line_end: 74233
+line_start: 74365
+line_end: 74372
 dependencies:
   - "A.10"
   - "A.15.1"

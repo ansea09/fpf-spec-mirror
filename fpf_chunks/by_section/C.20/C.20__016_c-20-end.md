@@ -6,12 +6,12 @@ section_id: "C.20:End"
 section_title: "C.20:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__016_c-20-end.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:End — C.20:End"
-line_start: 49929
-line_end: 49930
+line_start: 50068
+line_end: 50069
 dependencies:
   - "A.19"
   - "C.2"

@@ -6,12 +6,12 @@ section_id: "C.3.3:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__005_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:4 — Forces"
-line_start: 44583
-line_end: 44591
+line_start: 44722
+line_end: 44730
 dependencies:
   - "A.2.6"
   - "A.6.REL"

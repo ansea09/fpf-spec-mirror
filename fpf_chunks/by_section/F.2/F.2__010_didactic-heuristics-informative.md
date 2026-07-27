@@ -6,12 +6,12 @@ section_id: "F.2:9"
 section_title: "Didactic heuristics (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__010_didactic-heuristics-informative.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:9 — Didactic heuristics (informative)"
-line_start: 87469
-line_end: 87475
+line_start: 87569
+line_end: 87575
 dependencies:
   - "A.11"
   - "A.7"

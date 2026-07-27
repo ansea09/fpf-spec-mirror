@@ -6,12 +6,12 @@ section_id: "A.15.1:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__009_scope-declaration-and-rationale.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:7 — Scope Declaration and Rationale"
-line_start: 24610
-line_end: 24615
+line_start: 24664
+line_end: 24669
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -63,6 +63,6 @@ keywords:
 ### A.15.1:7 - Scope Declaration and Rationale
 
 * **Applicability:** Use the same occurrence test for pragmatic costing, architectural accountability, teaching examples, and source or evidence questions; when the current claim is only about a description, publication, source, or evidence relation, apply the governing pattern for that claim.
-* **Scope declaration:** The occurrence head is universal. Temporal semantics use the declared temporal reference. A simple uninterrupted occurrence needs no continuity-policy episteme; identity, episode, retry, resumption, or aggregation claims cite `workContinuityPolicyRef` and its effective `U.ReferenceScheme` only when the named use must resolve an ambiguous boundary. Claim scope, qualification windows, model-use structure, evidence, and source currentness remain separate when current.
+* **Scope declaration:** The occurrence head is universal. Temporal semantics use the declared temporal reference. A simple uninterrupted occurrence needs no continuity-policy episteme; identity, episode, retry, resumption, or aggregation claims cite `workContinuityPolicyRef` and its effective `U.ReferenceScheme` only when the named use must resolve an ambiguous boundary. Add claim scope, a qualification window, model-use structure, evidence use, or source-currentness assessment only when changing that neighboring fact would change the receiving assertion or reliance; otherwise omit it.
 * **Rationale:** Gives FPF a clean, actionable notion of **occurrence** with admitted performer `U.System`s acting under exact obtaining `U.RoleAssignment`s and with actual `enactsMethod` relations, so that costing, quality, and audit rest on independently identified work occurrences rather than plans, recipes, assignments made to act, or a generic role-enactment fact.
 

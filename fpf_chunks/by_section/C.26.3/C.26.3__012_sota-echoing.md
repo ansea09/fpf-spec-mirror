@@ -6,12 +6,12 @@ section_id: "C.26.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__012_sota-echoing.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:11 — SoTA-Echoing"
-line_start: 54189
-line_end: 54207
+line_start: 54328
+line_end: 54346
 dependencies:
   - "A.10"
   - "A.15"

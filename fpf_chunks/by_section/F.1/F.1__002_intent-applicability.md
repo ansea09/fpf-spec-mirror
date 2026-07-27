@@ -6,12 +6,12 @@ section_id: "F.1:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__002_intent-applicability.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:1 — Intent & applicability"
-line_start: 87035
-line_end: 87042
+line_start: 87135
+line_end: 87142
 dependencies:
   - "A.11"
   - "A.7"

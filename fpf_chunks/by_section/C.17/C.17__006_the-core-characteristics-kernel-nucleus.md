@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "The Core Characteristics (kernel nucleus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_the-core-characteristics-kernel-nucleus.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:5 — The Core Characteristics (kernel nucleus)"
-line_start: 48122
-line_end: 48231
+line_start: 48261
+line_end: 48370
 dependencies:
   - "A.1"
   - "A.10"

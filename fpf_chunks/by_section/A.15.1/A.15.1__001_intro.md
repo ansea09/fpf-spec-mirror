@@ -6,12 +6,12 @@ section_id: "A.15.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__001_intro.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:intro — Intro"
-line_start: 24296
-line_end: 24326
+line_start: 24340
+line_end: 24377
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -70,7 +70,7 @@ keywords:
 
 **Use this when.** Use this pattern when a plan, method description, schedule, log, telemetry stream, dashboard, approval-looking cue, publication face, result statement, or evidence-provenance relation is being treated as if it were performed work. `U.Work` is the admitted kind; one Work individual is the world-side occurrence. A separate assertion or description episteme may designate that occurrence and its obtaining relations, while surrounding records may constrain, evidence, schedule, publish, or judge it; none becomes the occurrence by being published.
 
-**First useful object.** One independently identified world-side dated Work occurrence admitted under `U.Work`. When the receiving use needs an assertion or description, keep that object as a separate `U.Episteme`: let it designate the occurrence and state the admitted holder `U.System` that actually performed it, the exact obtaining `U.RoleAssignment` under which that system performed it, and, when explicit attribution identity is consumed, the F.6 attribution relation linking the Work occurrence to that assignment. State actual `enactsMethod -> U.Method`, temporal extent, and `executedWithin -> U.System`. Add a direct work-to-referent relation, binding, or resource-use relation only when it actually obtains and the receiving claim uses it. If the next sentence reports a result, change, production, delivery, or judgment, select its exact object and owner from §4.6; do not make it a Work field.
+**First useful object.** One independently identified world-side dated Work occurrence admitted under `U.Work`. When the receiving use needs an assertion or description, keep that object as a separate `U.Episteme`: let it designate the occurrence and state the admitted holder `U.System` that actually performed it, the exact obtaining `U.RoleAssignment` under which that system performed it, and, when explicit attribution identity is consumed, the F.6 attribution relation linking the Work occurrence to that assignment. State actual `enactsMethod -> U.Method`, temporal extent, and `executedWithin -> U.System`. Add a direct work-to-referent relation, binding, or resource-use relation only when it actually obtains and the receiving claim uses it. If the next sentence reports a result, change, production, delivery, or judgment, use the matching §4.6 row; do not make it a Work field.
 
 **First-use checks.**
 1. Name the candidate occurrence and the work-facing claim that depends on it.
@@ -80,6 +80,13 @@ keywords:
 5. If the required occurrence references cannot be recovered, lower the claim to a missing-source-relation note, work-evidence note, plan note, publication-use note, declarative-representation note, or `A.15.4` repair request; do not backdate work.
 
 **Ordinary use.** For a simple occurrence, one readable assertion naming the actual performer system, the covering assignment under which it performed, enacted method, temporal extent, and containing system is enough. Add a binding, used resource, or work-to-referent fact only when the assertion relies on that obtaining relation.
+
+**Work-versus-transformation probe.** Use the coarsest branch that the current facts support.
+
+- **Change without Work:** `LunarTideRise-2026-07-27` may be identified under A.3.4 as a transformation of the exact water body over the stated interval. Without an independently admitted performer `U.System`, its covering `U.RoleAssignment`, an enacted `U.Method`, and F.6 work attribution, it is not a Work occurrence. A causal explanation of the tide supplies none of those agency facts.
+- **Self-directed Work:** in the rehabilitation case, the current model admits `MotorControlRightArmSystem-7 : U.System` and `Person-7 : U.System`; A.14 `ComponentOf(MotorControlRightArmSystem-7, Person-7)` and `ComponentOf(LeftArm-7, Person-7)` obtain, so the mover and the affected limb are distinct parts of one person. `MotorControlRightArmSystem-7` performs `LeftArmStretchWork-7` from `2026-07-27T07:30:00+03:00` to `2026-07-27T07:35:00+03:00` under `SelfCarePerformerAssignment-7`; F.6 `performedUnderAssignment` obtains, the Work enacts `AssistedLeftArmStretchMethod-E1`, and `executedWithin -> Person-7` obtains. Clinic relation specification `ClinicRehabRelations@Clinic-E1` declares `RehabWorkStretchesLimb@Clinic-E1(work, limb, interval)`, and the case facts make it obtain for that Work, `LeftArm-7`, and the five-minute interval. Separately, A.6.1 application `AssistedStretchApplication-7` binds its declared `AffectedLimbArgument` to `LeftArm-7`. The first fact relates the Work to the limb; the second fills an operation argument. Neither is a primitive self-relation, and this case-specific decomposition is not a required anatomy for every self-directed action.
+
+These branches test admitted facts, not human resemblance. A non-human or molecular-scale system can perform Work when its own system admission, covering assignment, enacted method, extent, containing system, and attribution obtain; unfamiliar agency is not a reason to reject it.
 
 **Reliance-bearing use.** Add only the exact neighboring claims on which cost, quality, audit, evidence, conformance, gate, release, measurement, model use, or aggregation currently depends; do not turn them into fields of the work occurrence.
 

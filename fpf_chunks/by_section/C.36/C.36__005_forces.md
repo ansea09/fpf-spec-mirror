@@ -6,12 +6,12 @@ section_id: "C.36:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__005_forces.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:3 — Forces"
-line_start: 66582
-line_end: 66592
+line_start: 66721
+line_end: 66731
 dependencies:
   - "A.1"
   - "A.10"

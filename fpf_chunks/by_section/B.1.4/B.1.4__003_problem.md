@@ -6,12 +6,12 @@ section_id: "B.1.4:1.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__003_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:1.1 — Problem"
-line_start: 35818
-line_end: 35823
+line_start: 35957
+line_end: 35962
 dependencies:
   - "A.1.1"
   - "A.14"

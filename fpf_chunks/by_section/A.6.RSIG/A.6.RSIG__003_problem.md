@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__003_problem.md"
-commit_sha: "60caecb4751fb2a3623a1faaca757d29a19acff9"
+commit_sha: "66e732dfef7a4a93ff23eec43b3f759a6664652d"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:2 — Problem"
-line_start: 9354
-line_end: 9366
+line_start: 9380
+line_end: 9392
 dependencies:
   - "A.6"
   - "A.6.P"
