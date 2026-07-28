@@ -6,12 +6,12 @@ section_id: "E.2:6"
 section_title: "Policy — Bitter‑Lesson Preference (BLP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__007_policy-bitter-lesson-preference-blp.md"
-commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
+commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:6 — Policy — Bitter‑Lesson Preference (BLP)"
-line_start: 67927
-line_end: 67949
+line_start: 68006
+line_end: 68028
 dependencies:
   - "C.18"
   - "C.19"

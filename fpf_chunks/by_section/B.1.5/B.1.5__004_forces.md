@@ -5,8 +5,8 @@ pattern_title: "Gamma_method - Order-Sensitive Method Composition and Work Enact
 section_id: "B.1.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
-output_path: "by_section/B.1.5/B.1.5__005_forces.md"
-commit_sha: "1f413fcd23f4ea26956a45d67dde57bb233f6ad9"
+output_path: "by_section/B.1.5/B.1.5__004_forces.md"
+commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:3 — Forces"
@@ -14,34 +14,45 @@ line_start: 36214
 line_end: 36223
 dependencies:
   - "A.1"
-  - "A.14"
   - "A.15"
   - "A.15.1"
   - "A.15.2"
+  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.6.0"
   - "A.6.1"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "B.1"
   - "B.1.4"
+  - "B.1.5"
   - "B.1.6"
   - "B.2"
   - "B.3"
-  - "B.3.5"
   - "C.13"
+  - "C.2.1"
   - "C.29"
   - "E.10"
   - "E.20"
+  - "E.24"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "G.5"
-  - "U.Method"
   - "U.MethodDescription"
+  - "U.PresentationCarrier"
+  - "U.Signature"
+  - "U.Structure"
+  - "U.Work"
 keywords:
-  - "MIC"
+  - "A.6.RCD claim disposition"
   - "assurance hooks"
   - "capability continuity"
+  - "composite-Method boundary account"
   - "method composition"
   - "method relation structure"
   - "method/work granularity"
+  - "methodPartOf"
   - "order-sensitive method"
   - "submethod"
   - "typed join"
@@ -56,5 +67,5 @@ keywords:
 | Order fidelity vs compact modeling | Important sequences and joins must remain explicit without turning every diagram edge into ontology. |
 | Whole-method identity vs relation usefulness | Some method-side relations are useful without asserting one composite method whole. |
 | Interface exposure vs encapsulation | A composite method must state which interactions callers may rely on and which remain internal. |
-| Assurance vs execution | Assurance needs joins, adapters, cutsets, and failure conditions; execution evidence belongs to work and evidence patterns. |
+| Assurance vs execution | Assurance needs joins, adapters, cutsets, and failure conditions; dated enactment, result, and evidence-use claims stay with their direct owners. |
 

@@ -1,0 +1,65 @@
+---
+chunk_kind: "child"
+pattern_id: "B.1.5"
+pattern_title: "Gamma_method - Order-Sensitive Method Composition and Work Enactment"
+section_id: "B.1.5:10"
+section_title: "Rationale"
+source_path: "FPF-Spec.md"
+output_path: "by_section/B.1.5/B.1.5__011_rationale.md"
+commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+heading_path:
+  - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
+  - "B.1.5:10 — Rationale"
+line_start: 36508
+line_end: 36511
+dependencies:
+  - "A.1"
+  - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.0"
+  - "A.6.1"
+  - "A.6.RCD"
+  - "A.6.REL"
+  - "B.1"
+  - "B.1.4"
+  - "B.1.5"
+  - "B.1.6"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.2.1"
+  - "C.29"
+  - "E.10"
+  - "E.20"
+  - "E.24"
+  - "E.24.PUB"
+  - "E.24.UK"
+  - "G.5"
+  - "U.MethodDescription"
+  - "U.PresentationCarrier"
+  - "U.Signature"
+  - "U.Structure"
+  - "U.Work"
+keywords:
+  - "A.6.RCD claim disposition"
+  - "assurance hooks"
+  - "capability continuity"
+  - "composite-Method boundary account"
+  - "method composition"
+  - "method relation structure"
+  - "method/work granularity"
+  - "methodPartOf"
+  - "order-sensitive method"
+  - "submethod"
+  - "typed join"
+  - "work enactment"
+---
+
+### B.1.5:10 - Rationale
+
+The rationale is a strict object separation. Paying this explicitness cost exposes brittle joins and accidental external dependencies at Method boundaries before someone relies on the composite claim. Order is semantic but not structural parthood. A method can be a non-agentive holon, but a step label, graph node, phase, source section, description constituent, plan item, or work part is not a method part until the `U.Method` and `methodPartOf` occurrence are recovered. `Gamma_method` concerns ways of doing; `Gamma_work` supports occurrence-side resource analysis; B.3 evaluates assurance; A.22 selects useful relation organizations; B.2 handles a separately current higher-level reidentification claim. None of those neighboring objects replaces the direct B.1.5 construction facts.
+

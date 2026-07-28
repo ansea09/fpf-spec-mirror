@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `1f413fcd23f4ea26956a45d67dde57bb233f6ad9`
+Commit SHA: `4b75b56c13f5d61be5238fdbc7c20af5c6f89df7`
 
 Chunking method: `pattern-aware`
 
