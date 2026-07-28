@@ -1,51 +1,50 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.CONWAY"
-pattern_title: "Transformer and Transformed Architecture Correspondence"
+pattern_title: "Architecture-Influence and Transformed-Architecture Correspondence"
 section_id: "C.32.CONWAY:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__003_problem.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
-  - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
+  - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:2 — Problem"
-line_start: 64670
-line_end: 64679
+line_start: 64839
+line_end: 64846
 dependencies:
   - "A.10"
-  - "A.15"
+  - "A.12"
+  - "A.15.1"
   - "A.19.CPM"
+  - "A.22"
   - "A.3.4"
   - "A.3.4.P"
-  - "A.6.M"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "B.3"
   - "C.11"
+  - "C.25"
   - "C.29"
   - "C.30"
+  - "C.30.TFS-REL"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
   - "C.32.PAD"
   - "E.18"
+  - "E.18.NET"
   - "G.5"
 keywords:
-  - "Conway correspondence"
-  - "changing relation"
-  - "coordination cost"
-  - "inverse Conway maneuver"
-  - "selected-structure correspondence"
-  - "transformed holon"
-  - "transformer holon"
 ---
 
 ### C.32.CONWAY:2 - Problem
 
-Architecture synthesis often crosses a changing relation. A manufacturing system changes a product. A design organization changes a system design. A method family changes documents and work products. An AI-agent toolchain changes project work. A school changes student capabilities. A hospital triage organization changes patient-flow states. In each case, the architecture of the changing holon can make some transformed-holon architectures cheap, slow, brittle, feasible, infeasible, evolvable, or hard to certify.
+Architecture influence and action often occur in the same story but are not the same fact. A manufacturing architecture can constrain a product candidate while a manufacturing system performs production Work. A communication structure can influence service boundaries while people or teams perform change Work only through their admitted exact `U.System` identities. A method description can influence a work-product architecture without being a worker. A toolchain architecture can constrain project-task candidates while an admitted execution system acts.
 
-Conway's law and the mirroring hypothesis make this pressure visible, but they do not replace architecture synthesis. The recurring engineering failure is that a desired transformed-holon architecture is synthesized without recovering whether the changing holon's work, communication, toolchain, manufacturing, certification, operational, or evidence structures can produce and evolve it. The result is predictable: the candidate looks architecturally clean, then independent change, deployability, testability, certification, or maintenance collapses into cross-team and cross-structure coordination work.
+The old transformer/transformed wording hid these differences. It could leave the changed referent implicit, treat an architecture bearer as the performer, omit role assignment and dated Work, or call a source influential without a direct relation. It could also stretch one local architecture pair into a whole recursive transformation-flow network.
 
-The inverse Conway maneuver is also an architecture candidate change, not a slogan. It means deliberately changing selected structures of the changing holon so that the desired changed-holon architecture becomes feasible and maintainable. Sometimes the stronger candidate changes the transformed-holon architecture instead. Often the honest candidate changes both and records the new burden.
-
-C.32.CONWAY makes the correspondence explicit enough to prepare comparison inputs without collapsing the two sides.
+C.32.CONWAY repairs the problem by keeping the changed referent, actor and performance facts, influence-source facts, and one exact architecture pair separately recoverable. Conway and inverse-Conway practice then supplies candidate pressure, not a universal relation and not evidence that any source acted.
 

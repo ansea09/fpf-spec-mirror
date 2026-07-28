@@ -6,12 +6,12 @@ section_id: "A.12:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__003_problem-frame.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:1 — Problem Frame"
-line_start: 23195
-line_end: 23200
+line_start: 23205
+line_end: 23210
 dependencies:
   - "A.1"
   - "A.10"

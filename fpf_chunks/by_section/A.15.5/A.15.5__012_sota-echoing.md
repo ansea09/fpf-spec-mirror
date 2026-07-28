@@ -6,12 +6,12 @@ section_id: "A.15.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__012_sota-echoing.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:11 — SoTA-Echoing"
-line_start: 26188
-line_end: 26195
+line_start: 26198
+line_end: 26205
 dependencies:
   - "A.10"
   - "A.15"

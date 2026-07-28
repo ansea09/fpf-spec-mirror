@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__001_intro.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:intro — Intro"
-line_start: 59907
-line_end: 59924
+line_start: 59951
+line_end: 59968
 dependencies:
   - "A.1"
   - "A.10"

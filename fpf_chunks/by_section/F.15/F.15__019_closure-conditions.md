@@ -6,12 +6,12 @@ section_id: "F.15:15"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__019_closure-conditions.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15 — Closure conditions"
-line_start: 92426
-line_end: 92437
+line_start: 93119
+line_end: 93130
 dependencies:
   - "A.10"
   - "A.15.1"

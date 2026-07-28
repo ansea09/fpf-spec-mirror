@@ -6,12 +6,12 @@ section_id: "E.18.2:End"
 section_title: "E.18.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__014_e-18-2-end.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:End — E.18.2:End"
-line_start: 82695
-line_end: 82696
+line_start: 82978
+line_end: 82979
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,16 +28,12 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:End

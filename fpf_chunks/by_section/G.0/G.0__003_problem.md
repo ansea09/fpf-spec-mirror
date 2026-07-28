@@ -6,12 +6,12 @@ section_id: "G.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__003_problem.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:2 — Problem"
-line_start: 94853
-line_end: 94861
+line_start: 95546
+line_end: 95554
 dependencies:
   - "A.10"
   - "A.17"

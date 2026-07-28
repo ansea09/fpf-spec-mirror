@@ -6,12 +6,12 @@ section_id: "E.18:14"
 section_title: "Relations (explicit pattern-to-pattern relations)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__016_relations-explicit-pattern-to-pattern-relations.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:14 — Relations (explicit pattern-to-pattern relations)"
-line_start: 81818
-line_end: 81852
+line_start: 82090
+line_end: 82125
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -27,6 +27,7 @@ dependencies:
   - "E.17"
   - "E.18.1"
   - "E.18.2"
+  - "E.18.NET"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -34,14 +35,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "P2W support"
-  - "U.Transfer"
-  - "adjacent governed loci"
-  - "crossings"
-  - "flow valuation"
-  - "independently grounded actual transformations"
-  - "no-automatic-composition boundary"
-  - "selected transformation-flow structure"
 ---
 
 ### E.18:14 - Relations (explicit pattern-to-pattern relations)
@@ -76,6 +69,7 @@ keywords:
 
 **Structure and reuse**
 * **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. The current ontology is: `A.3.4` governs each independently identified actual bounded `U.Transformation`; E.18 governs the selected compound structure over transformations and adjacent governed loci without asserting transformation composition; and the named governing patterns govern method, work, mechanism, work-to-change, production, evidence, publication, gate, decision, and refresh claims when those claims are current.
+* **E.18 -> coordinates with -> E.18.NET Network of Transformation-Flow Structures.** E.18 owns one exact TFS, its `FlowPositionRef`, parent-relative `SubflowRef`, valuations, paths, slices, local state, and internal `U.Transfer`. E.18.NET starts only when independently identified TFS or nested-network members are selected with exact cross-member relation occurrences; it does not replace a detailed internal portion or several valuations of one TFS.
 * **E.18 -> coordinates with -> architecture transformation-flow relation patterns.** When a selected transformation-flow structure is used in an architecture-flow relation, the architecture transformation-flow relation pattern records the relation between `TransformationFlowStructure` and `ArchitectureOf@Context`; E.18 keeps selected structure, crossing, and flow-valuation discipline.
 * **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every transfer or locus where publication occurs; Lean mode applies only as per profile.
 

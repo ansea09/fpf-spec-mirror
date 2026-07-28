@@ -1,55 +1,56 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.CONWAY"
-pattern_title: "Transformer and Transformed Architecture Correspondence"
+pattern_title: "Architecture-Influence and Transformed-Architecture Correspondence"
 section_id: "C.32.CONWAY:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__012_sota-echoing.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
-  - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
+  - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:11 — SoTA-Echoing"
-line_start: 64796
-line_end: 64809
+line_start: 65023
+line_end: 65036
 dependencies:
   - "A.10"
-  - "A.15"
+  - "A.12"
+  - "A.15.1"
   - "A.19.CPM"
+  - "A.22"
   - "A.3.4"
   - "A.3.4.P"
-  - "A.6.M"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "B.3"
   - "C.11"
+  - "C.25"
   - "C.29"
   - "C.30"
+  - "C.30.TFS-REL"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
   - "C.32.PAD"
   - "E.18"
+  - "E.18.NET"
   - "G.5"
 keywords:
-  - "Conway correspondence"
-  - "changing relation"
-  - "coordination cost"
-  - "inverse Conway maneuver"
-  - "selected-structure correspondence"
-  - "transformed holon"
-  - "transformer holon"
 ---
 
 ### C.32.CONWAY:11 - SoTA-Echoing
 
-These rows document transfers from source practice into C.32.CONWAY. Each row states which field, repair row, or boundary the draft sets or revises from the source. The source family is used as architecture practice support, not as an ontology import.
+These rows document transfers from source practice into C.32.CONWAY. Each row states which field, repair row, or boundary the draft sets or revises from the source. The source family supports architecture practice; it does not decide actor identity or make a relation obtain.
 
 | Source to inspect | Why this source is load-bearing here | Transfer into C.32.CONWAY | Concrete C.32.CONWAY mutation | Blocked overread |
 |---|---|---|---|---|
-| Melvin Conway, `How Do Committees Invent?` (`https://www.melconway.com/Home/Committees_Paper.html`) | Original mature source for the relation between a design organization and the structure of the designed system. It also states the graph-like correspondence idea that later practice uses as Conway's law. | Treat communication and design organization as pressure on architecture candidates. | The frame requires `transformerHolonRef`, `transformedHolonRef`, selected structures on both sides, architecture characteristics under pressure, and `correspondenceClaims`. | The correspondence claim must say which transformer structures constrain which transformed structures, and what candidate change or bounded exception follows. |
-| MacCormack, Rusnak, and Baldwin 2012 mirroring hypothesis (`https://doi.org/10.1016/j.respol.2012.04.011`) and Colfer and Baldwin 2016 exceptions survey (`https://www.hbs.edu/ris/Publication%20Files/16-124_7ae90679-0ce6-4d72-9e9d-828872c7af49.pdf`) | Empirical and theory line for product and organization architecture mirroring, including exceptions. It keeps the pattern from treating mirroring as adequacy. | Use correspondence as a hypothesis evaluated across selected structures and exceptions. | Failure-mode rows add mirror-as-adequacy and static-correspondence guards; conformance requires source-return and C.29 use for structural similarity claims. | A mirrored structure must still be evaluated against architecture characteristics, exception cost, and a receiving claim pattern before it can guide a candidate. |
-| DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`) | Current practitioner line tying architecture, team independence, testing, deployment, coordination load, and inverse Conway. It is load-bearing because it gives observable architecture characteristics, not only terminology. | Treat independent change, testability, deployability, and coordination load as architecture characteristics under pressure when transformer-side structures constrain transformed-holon change. | Solution and checklist require affected architecture characteristics; repair cue `TransformedArchitectureNoTransformerFit` opens inverse-Conway or transformed-architecture retargeting as the candidate-change question. | Evidence about microservices, team autonomy, or work-transfer count must be mapped to selected structures and architecture characteristics before it guides a candidate. |
-| Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Current organization-design pattern family for fast flow, team interaction modes, cognitive load, platform teams, and evolving team boundaries toward a desired transformed architecture. | Team types and interaction modes are transformer-side selected structures or candidate-change inputs when they shape architecture synthesis. | Row `inverseConwayRetargeting` and worked cases require migration cost, interaction burden, and evolution window. | Team-topology vocabulary must be converted into selected transformer structures, interaction burden, and candidate-change cost before module-interface, work-authorization, or decision claims are handled by their receiving patterns. |
-| Current FPF `A.3.4`, `A.3.4.P`, `E.18`, `A.15`, `A.6.M`, `C.29`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing local ontology for bounded transformation, transformation-flow structure, work and role claims, module-interface repair, mathematical-lens use, candidate synthesis, residual reduction, and failure repair. | Recover the changing relation and selected structures before using Conway wording. | Relations and conformance rows assign stronger claims to exact receiving patterns and keep C.32.CONWAY inside candidate synthesis. | No new `U.Conway`, no new `U.Correspondence`, no local adequacy kind, and no bypass around architecture-decision work. |
+| Melvin Conway, `How Do Committees Invent?` (`https://www.melconway.com/Home/Committees_Paper.html`) | Original source for pressure between communication arrangements and the structure of designed systems. | Treat communication and organization architecture as influence on candidates. | `influenceSourceRows[]` and the exact pair row name the source architecture, transformed architecture, selected structures, relation occurrence, and changed referent. | The organization or its architecture is not inferred to be the acting system; candidate pressure is not a universal Conway relation. |
+| MacCormack, Rusnak, and Baldwin 2012 mirroring hypothesis (`https://doi.org/10.1016/j.respol.2012.04.011`) and Colfer and Baldwin 2016 exceptions survey (`https://www.hbs.edu/ris/Publication%20Files/16-124_7ae90679-0ce6-4d72-9e9d-828872c7af49.pdf`) | Empirical and theory line for product-architecture and organization-architecture mirroring and exceptions. | Use mirroring as a correspondence hypothesis over selected structures and an evolution window. | Failure and conformance rows require affected characteristics, exceptions, source return, and C.29 for structural-similarity claims. | Mirroring does not establish adequacy, actor equality, relation occurrence, or an entire network. |
+| DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`) | Practitioner line tying architecture, team independence, testing, deployment, and coordination load. | Treat those arrangements as typed influence sources when they constrain a service architecture candidate. | Candidate forms expose source-side retargeting, transformed-side retargeting, joint change, and bounded mismatch. | Team autonomy or work-transfer counts do not identify actors, Work, or an architecture-influence occurrence without their direct facts. |
+| Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Organization-design family for fast flow, interaction modes, cognitive load, platform teams, and evolving boundaries. | Use team types and interaction modes as candidate influence sources, not acting kinds. | Influence-source rows retain exact source kind and relation; candidate rows retain migration cost, burden, and evolution window. | Team-topology vocabulary does not create role assignment, Work, module relation, authority, or decision claims. |
+| Current FPF `A.12`, `A.15.1`, `A.3.4`, `A.3.4.P`, `E.18`, `E.18.NET`, `A.6.M`, `C.29`, `C.30`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing ontology for acting systems, role assignment, Work, bounded change, flow structures and networks, module repair, lens use, architecture claims, candidate synthesis, residual reduction, and failure repair. | Recover participants and direct relations before using Conway wording. | Performer rows, influence rows, exact pair assertion, network-qualified reading, and receiving-pattern exits are separately checkable. | No root Conway kind, universal correspondence relation, acting architecture, or bypass around decision, Work, evidence, or network selection. |
 
-**Source-currentness boundary.** Use each source row only for the C.32.CONWAY field, repair row, or boundary named in that row. Recheck the row when the project's transformer structures, transformed structures, evolution window, source practice, or named receiving FPF pattern changes. If the source row no longer supports the local selected-structure correspondence, lower it to background lineage and keep the candidate frame only when the local architecture-characteristic pressure remains recoverable.
+**Source-currentness boundary.** Recheck a row when the changed referent, acting and performance facts, influence source or relation, architecture pair, selected structures, evolution window, source practice, or receiving pattern changes. If the source no longer supports the selected local pressure, lower it to background lineage; do not preserve a technical claim by name alone.
 

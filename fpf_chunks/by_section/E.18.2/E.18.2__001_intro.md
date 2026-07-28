@@ -6,12 +6,12 @@ section_id: "E.18.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__001_intro.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:intro — Intro"
-line_start: 82482
-line_end: 82492
+line_start: 82755
+line_end: 82765
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,16 +28,12 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ## E.18.2 - Transformation Flow Mathematical Description
@@ -48,6 +44,6 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part E -> E.18 child pattern
-> **Builds on:** `E.18` Transformation Flow Structure, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
-> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes a selected `TransformationFlowStructure`: what it represents, what it preserves, what it loses, which declared use it serves, and which governing relation carries any stronger project claim.
+> **Builds on:** `E.18` Transformation Flow Structure, `E.18.NET` Network of Transformation-Flow Structures, `C.29` Mathematical Lens Use, `C.2.1` `U.Episteme`, `E.17` publication machinery, `A.3.4` `U.Transformation`, `A.6.0` `U.Signature`, `A.6.5` slot discipline, `A.15` work family, `A.20`, `A.21`, and `C.30` architecture family.
+> **Purpose:** record how a graph, algebraic, categorical, tuple, path, slice, morphism, quotient, fold, refinement, factorization, wiring, or related mathematical expression describes exactly one selected `TransformationFlowStructure` or `TransformationFlowStructureNetwork@Context`: what it represents, what it preserves, what it loses, which declared use it serves, and which governing relation carries any stronger project claim.
 

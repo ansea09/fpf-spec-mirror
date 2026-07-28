@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__011_rationale.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:10 — Rationale"
-line_start: 62192
-line_end: 62197
+line_start: 62278
+line_end: 62283
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,20 +42,16 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ### C.30.TFS-REL:10 - Rationale
 
-E.18 is the governing FPF pattern for selected transformation-flow structures, paths, crossings, flow valuations, and related pins. Architecture needs to use that work without letting it become generic architecture ontology. The smallest stable relation is therefore a C.30-side record that points to E.18 objects and states admissible and non-admissible architecture use.
+E.18 governs one selected TFS, its paths, crossings, valuations, and pins; E.18.NET governs one selected network and its exact cross-member relations. Architecture needs to use either object without taking over its ontology or inventing an unnamed architecture bearer. The smallest stable result is therefore one C.30-side relation record that points to those objects and states the containing-holon or inter-holon architecture use when a network is selected.
 
 This pattern also protects functional architecture. A functional structure view may correspond to a transformation-flow structure, and in some cases both may refer to the same selected `U.StructureRef`; that identity is not automatic. The relation is useful precisely because it preserves the difference while allowing correspondence or positive co-reference.
 

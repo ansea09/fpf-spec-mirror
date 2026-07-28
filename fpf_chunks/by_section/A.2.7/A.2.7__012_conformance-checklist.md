@@ -6,12 +6,12 @@ section_id: "A.2.7:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__012_conformance-checklist.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:7 — Conformance Checklist"
-line_start: 5531
-line_end: 5546
+line_start: 5541
+line_end: 5556
 dependencies:
   - "A.15"
   - "A.2"

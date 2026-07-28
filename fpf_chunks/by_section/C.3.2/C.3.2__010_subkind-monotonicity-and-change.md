@@ -6,12 +6,12 @@ section_id: "C.3.2:8"
 section_title: "Subkind Monotonicity and Change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__010_subkind-monotonicity-and-change.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:8 — Subkind Monotonicity and Change"
-line_start: 44640
-line_end: 44657
+line_start: 44684
+line_end: 44701
 dependencies:
   - "A.14"
   - "A.2.6"

@@ -6,12 +6,12 @@ section_id: "B.2.4:End"
 section_title: "B.2.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__015_b-2-4-end.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:End — B.2.4:End"
-line_start: 37954
-line_end: 37955
+line_start: 37998
+line_end: 37999
 dependencies:
   - "A.10"
   - "A.15"

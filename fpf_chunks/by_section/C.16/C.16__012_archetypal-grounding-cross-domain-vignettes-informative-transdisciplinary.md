@@ -6,12 +6,12 @@ section_id: "C.16:8.3"
 section_title: "Archetypal Grounding - Cross-Domain Vignettes (Informative, transdisciplinary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__012_archetypal-grounding-cross-domain-vignettes-informative-transdisciplinary.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:8.3 — Archetypal Grounding - Cross-Domain Vignettes (Informative, transdisciplinary)"
-line_start: 47032
-line_end: 47051
+line_start: 47076
+line_end: 47095
 dependencies:
   - "A.10"
   - "A.17"

@@ -6,12 +6,12 @@ section_id: "C.22.2:15"
 section_title: "SoTA Decision-Use Source Material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__016_sota-decision-use-source-material.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:15 — SoTA Decision-Use Source Material"
-line_start: 51716
-line_end: 51743
+line_start: 51760
+line_end: 51787
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.18.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__003_problem.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:2 — Problem"
-line_start: 82531
-line_end: 82538
+line_start: 82807
+line_end: 82814
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,16 +28,12 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:2 - Problem
@@ -46,5 +42,5 @@ Transformation-flow structures are often easiest to inspect through mathematics.
 
 Those expressions are useful because they preserve selected structure while ignoring other structure. That same usefulness creates risk. If the expression is treated as the structure itself, the project may believe that a path in a graph proves a possible performed-work order, that a commutative square proves a real bridge, that a fold proves safe aggregation, or that a wiring diagram proves integration readiness.
 
-E.18.2 solves the description problem: it records a mathematical expression over a selected E.18 structure and says what that expression may be used for. It does not decide the world-side structure, the atomic transformation, the work occurrence, the gate, the evidence case, or the architecture claim.
+E.18.2 solves the description problem: it records a mathematical expression over one already selected E.18 TFS or E.18.NET network and says what that expression may be used for. It does not select or reidentify that world-side subject, decide an atomic transformation, establish a work occurrence, pass a gate, settle an evidence case, or establish an architecture claim.
 

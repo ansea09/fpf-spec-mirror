@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__002_problem-frame.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:1 — Problem frame"
-line_start: 61868
-line_end: 61915
+line_start: 61912
+line_end: 61965
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,22 +42,18 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ### C.30.TFS-REL:1 - Problem frame
 
-Use this pattern when an architecture discussion depends on a selected `TransformationFlowStructure`, its path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description.
+Use this pattern when an architecture discussion depends on a selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, path slice, crossing, flow valuation, edition pin, plane pin, context pin, no-hidden-scalarization claim, or mathematical description of the selected flow structure.
 
-The first useful move is small. `ArchitectureTransformationFlowStructureRelation@Context` is a C.30-side relation record for a relation being used between `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context` use and the E.18 selected transformation-flow structure being used for architecture work. It names the architecture locus, selected structure or view reference when used in the relation, conditional description reference when durable description use is being made, any functional structure view, view-local functional element record, functional behavior, transformer-side filler, candidate bearer, input condition, output condition, functional port, E.18 selected structure, mathematical description, math-lens use, correspondence, publication or edition used by an extracted or generated graph when current, extraction or probe locus, relation observation class, unexplored region, hidden relation-structure return condition, and admissible architecture use that changes the relation.
+The first useful move is small. `ArchitectureTransformationFlowStructureRelation@Context` relates one named architecture locus to the selected E.18 TFS or E.18.NET network used in the architecture question. It names the architecture claim, selected structure or view, conditional description use, relevant functional and flow refs, mathematical or publication source when current, correspondence, hidden-structure return, admissible use, and—when a network is selected—whether one named containing holon or several explicitly named holons supply the architecture side.
 
 ```text
 ArchitectureTransformationFlowStructureRelation@Context:
@@ -74,6 +71,12 @@ outputConditionRefs?:
 functionalPortRefs?:
 transformationFlowStructureViewRef?:
 transformationFlowStructureRef?:
+transformationFlowStructureNetworkRef?:
+networkCrossFlowRelationRowRefs[]?: E.18.NET NetworkCrossFlowRelationRowRef
+networkArchitectureUseBranch?: namedContainingHolon | explicitInterHolon
+containingArchitectureClaimRef?:
+participatingArchitectureClaimRefs[]?:
+noArchitectureOfNetworkBearerAsserted?:
 transformationFlowUnfoldingStructureRef?:
 selectedPathOrSliceRefs?:
 crossingBundleRefs?:
@@ -90,13 +93,13 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-Ordinary minimum: name at least one architecture-side reference (`architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, or `architectureDescriptionRef` when durable description use is being made), at least one E.18-side reference (`transformationFlowStructureRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and stop or governing-pattern application. Use functional-structure, functional-element, functional-behavior, transformer-side filler, candidate-bearer, input-condition, output-condition, functional-port, transformation-flow-structure, transformation-flow unfolding structure, mathematical-description, math-lens-use, crossing, flow-valuation, correspondence, publication-or-edition, extraction-or-probe, observation-class, unexplored-region, and hidden-relation return fields only when they change the next architecture move. All other fields are conditional and may be `not used`.
+Ordinary minimum: name at least one architecture-side reference (`architectureClaimRef`, `selectedArchitectureStructureRefs`, `architectureStructuralViewRef`, `architectureDescriptionRef` when durable description use is being made, `containingArchitectureClaimRef`, or `participatingArchitectureClaimRefs[]`), at least one flow-structure reference (`transformationFlowStructureRef`, `transformationFlowStructureNetworkRef`, `transformationFlowUnfoldingStructureRef`, `selectedPathOrSliceRefs`, `crossingBundleRefs`, or `flowValuationRefs`), one blocked overread, and stop or governing-pattern application. A network use also selects exactly one network architecture-use branch and supplies its required architecture claim refs. Use the remaining conditional fields only when they change the next architecture move; otherwise mark them `not used`.
 
-Use this relation only when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, functional-architecture view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 selected structure, path, crossing, or valuation relation. Stop when the architecture-to-transformation-flow relation and non-admissible uses are clear. If another claim is being made, that claim is governed by its governing pattern and this relation remains only the architecture-to-transformation-flow relation.
+Use this relation only when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, functional-architecture view, transformation-flow-structure claim, or conditional architecture-description use depends on an E.18 TFS, an E.18.NET network, or one of the selected TFS's paths, crossings, or valuations. Stop when that architecture-to-flow-structure relation and its non-admissible uses are clear. If another claim is being made, apply its governing pattern and keep this record to the architecture relation.
 
 What goes wrong if this pattern is missed: a transformation-flow diagram, graph-shaped mathematical description, path slice, or flow valuation becomes functional architecture, whole architecture ontology, performed-work occurrence, work-result record, evidence, gate passage, or project decision by appearance.
 
-What this buys in practice: the practitioner can use E.18 for selected transformation-flow structure while C.30 remains the grounded architecture and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
+What this buys in practice: the practitioner can use E.18 for one TFS or E.18.NET for one network while C.30 remains the grounded architecture and selected-structure adequacy locus and C.30.ASV remains the architecture-structural-view locus.
 
-Not this pattern when the question under repair is a selected transformation-flow structure, mathematical description, path, crossing, or flow valuation without a relation being used for grounded architecture adequacy, conditional architecture-description use, or an architecture structural view. Use E.18 directly for the selected structure. Use E.18.2 when the mathematical-description claim is current and C.29 when the math-lens-use claim is current. If the question under repair is an architecture claim or durable architecture description without a transformation-flow-structure relation, use C.30. If it is a functional view without transformation-flow relation, use C.30.ASV and A.6.F. If another claim being made is present, use the governing pattern and keep C.30.TFS-REL only to the architecture-to-transformation-flow relation.
+Not this pattern when the question is only the TFS or network, a mathematical description, path, crossing, or flow valuation and no architecture relation is being claimed. Use E.18 for one TFS, E.18.NET for one network, E.18.2 for its mathematical description, and C.29 when mathematical-lens use is current. Use C.30 for an architecture claim or durable architecture description without this flow-structure relation; use C.30.ASV and A.6.F for a functional view without it. Apply any other claim's governing pattern and keep C.30.TFS-REL only to the architecture relation.
 

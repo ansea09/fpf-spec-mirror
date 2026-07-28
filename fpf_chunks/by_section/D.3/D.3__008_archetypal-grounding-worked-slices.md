@@ -6,12 +6,12 @@ section_id: "D.3:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__008_archetypal-grounding-worked-slices.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:5 — Archetypal Grounding (Worked Slices)"
-line_start: 67511
-line_end: 67518
+line_start: 67739
+line_end: 67746
 dependencies:
   - "A.1"
   - "A.10"

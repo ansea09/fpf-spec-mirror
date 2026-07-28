@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__013_relations.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:12 — Relations"
-line_start: 13405
-line_end: 13412
+line_start: 13415
+line_end: 13422
 dependencies:
   - "A.15"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "B.1.4:End"
 section_title: "B.1.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__016_b-1-4-end.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:End — B.1.4:End"
-line_start: 36149
-line_end: 36150
+line_start: 36193
+line_end: 36194
 dependencies:
   - "A.1.1"
   - "A.14"

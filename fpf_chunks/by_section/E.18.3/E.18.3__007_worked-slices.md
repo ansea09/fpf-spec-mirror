@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_worked-slices.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Worked Slices"
-line_start: 82852
-line_end: 82891
+line_start: 83154
+line_end: 83195
 dependencies:
   - "A.10"
   - "A.15"
@@ -29,6 +29,8 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "E.23"
   - "G.11"
   - "G.5"
@@ -40,6 +42,8 @@ keywords:
 **Minimal first use.** In the candidate-set repair situation, name `CandidateSetComparisonBasis@Review-2026-07` and its kind, then describe candidate `ReferenceEditionChangePosition`, `ComparisonRecalculationPosition`, and the proposed dependency `ComparisonDependsOnAdmittedEdition`. Keep the result as a `ProvisionalUnfoldingDemonstrationDescription@Context` with return descriptions pointing to G.11 and A.19. This already prevents a stale-edition comparison from looking current without asserting typed positions or a relation instance prematurely. Admit the full E.18.3 structure only when the exact dependency and every required admission coordinate are recoverable.
 
 **P2W carry-through.** Accepted problem-side records may name distinctions, constraints, and unresolved relation positions that jointly guide later method selection, planning, work, interpretation, and return. `E.18.3` can relate those positions to candidate governing-pattern positions through exact connection kinds and supporting relations. It does not authorize launch or performed work, and it does not replace E.18.1 carry-through.
+
+**Recursive build-the-builder demonstration.** After a four-level network is selected and verified under E.18.NET and its relevant E.18.3 positions and relation-reference epistemes are admitted, a demonstrative slice follows one finite member path to an already admitted leaf position. The network mapping points to the same included position, and every cross-member row cites an already admitted relation-reference episteme with matching participant positions and bindings. The leaf path slice and tag stay in its member-local row. Before those admissions, the same graph remains a provisional description rather than a network-aware slice.
 
 **Transformation-flow mini-example.** A team has a flow card "admitted reference-publication edition changes -> recalculate comparison -> update candidate set -> decide whether to repair." E.18.3 admits only the transformation-flow slice:
 

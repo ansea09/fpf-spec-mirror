@@ -6,12 +6,12 @@ section_id: "C.30.ASV:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 61286
-line_end: 61299
+line_start: 61330
+line_end: 61343
 dependencies:
   - "A.1"
   - "A.10"

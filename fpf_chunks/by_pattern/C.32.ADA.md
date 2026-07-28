@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADA.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
-line_start: 65855
-line_end: 66119
+line_start: 66083
+line_end: 66347
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 ## C.32.ADA - Architecture Decision Adequacy Scales
 
 > **Type:** Architecture evaluation pattern under C.32
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
 ### C.32.ADA:1 - Problem frame

@@ -6,12 +6,12 @@ section_id: "E.18.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__002_problem-frame.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:1 — Problem frame"
-line_start: 82493
-line_end: 82530
+line_start: 82766
+line_end: 82806
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,38 +28,36 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:1 - Problem frame
 
-Use this pattern when the current EntityOfConcern is a mathematical description of a selected transformation-flow structure, path, path slice, flow valuation, crossing, or compound transformation arrangement. The description may be a graph, hypergraph, category-theory object, algebra, tuple, matrix, network expression, wiring diagram, morphism family, quotient, fold, refinement, factorization, path relation, slice relation, or another formal expression.
+Use this pattern when the current EntityOfConcern is a mathematical description of exactly one selected transformation-flow structure, one selected network of such structures, or a governed part of that subject. The description may be a graph, hypergraph, category-theory object, algebra, tuple, matrix, network expression, wiring diagram, morphism family, quotient, fold, refinement, factorization, path relation, slice relation, or another formal expression.
 
-The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Context`: a `C.2.1 U.Episteme` specialization whose described entity is a selected `TransformationFlowStructure` or one selected part of it. E.18.2 does not invent a second local description format. In C.2.1 slot terms, `DescribedTransformationFlowStructureRef` fills the entity-of-concern slot, `CandidateMathObject`, `ExpressionKind`, `MappingMode`, `PreservedStructure`, `LostStructure`, and `DeclaredUse` fill the claim or description-content slots, and `PublicationFaceRef?` stays a publication relation through `E.17`. E.18.2 keeps three values distinct:
+The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Context`: a `C.2.1 U.Episteme` specialization whose described ontic subject is exactly one selected `TransformationFlowStructure` under E.18 or one selected `TransformationFlowStructureNetwork@Context` under E.18.NET. E.18.2 does not invent a second local description format. The one-TFS and network reference branches are mutually exclusive; `CandidateMathObject`, `ExpressionKind`, `MappingMode`, `PreservedStructure`, `LostStructure`, and `DeclaredUse` fill claim or description-content slots, while `PublicationFaceRef?` remains a separate publication relation through E.17. E.18.2 keeps five values distinct:
 
 | Value under concern | Governing pattern | Boundary |
 |---|---|---|
-| selected compound structure of transformations and adjacent loci | `E.18` | not a mathematical expression merely because it can be described by a graph or algebra |
-| mathematical description of that selected structure | `E.18.2` | records represented structure, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
-| declared mathematical-lens use and its adequacy | `C.29` | not a local E.18.2 invention; use C.29 fields when adequacy, preserved/lost structure, payoff, or stop condition is claim-bearing |
+| one selected compound structure of transformations and adjacent loci | `E.18` | not a mathematical expression merely because a graph or algebra describes it |
+| one selected network of independently identified TFS or nested-network members and exact cross-member relations | `E.18.NET` | not a graph, record, view, or publication, and not several valuations or one internal subflow |
+| mathematical description of exactly one selected TFS or network | `E.18.2` | records represented subject, expression kind, mapping mode, preserved/lost structure, declared use, and the boundary to stronger project claims |
+| declared mathematical-lens use and its adequacy | `C.29` | not a local E.18.2 invention; use C.29 when adequacy, payoff, preserved/lost structure, or stop condition is claim-bearing |
+| rendered graph, table, equation, diagram, or other publication face | `E.17` and the governing view or architecture-description pattern | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
 
 When the described selected structure is an `E.18.3` transformation-flow unfolding structure, E.18.2 still governs only the mathematical description. A graph, path expression, category object, algebra, tuple, or matrix may describe transformation loci, guards, crossings, preserved structure, lost structure, and direct exits, but the expression remains `TransformationFlowMathematicalDescription@Context` or a C.29 lens-use claim. It does not become the constraint-governed unfolding structure and does not carry method, work, evidence, architecture, publication, or refresh authority.
 
 #### E.18.2:1.1 - Use this when
 
-- a selected `TransformationFlowStructure`, path, slice, crossing, or flow valuation needs a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, or network expression;
-- a diagram or equation set helps compare composition, decomposition, coarser/finer partitioning, transfer, crossing, refresh, or coupled-flow relations, but the mathematical expression itself must not authorize work;
-- a source says "graph", "network", "path", "morphism", "algebra", "category", "workflow", "pipeline", "dataflow", or "functional diagram" and the claim being made is the mathematical description of a selected transformation-flow structure;
-- a reader needs to know whether the mathematical expression is only a publication face, a C.29 lens-use claim, an E.18 selected structure claim, or an E.18.2 description claim.
+- one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork@Context`, or a governed part of that subject needs a graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, or network expression;
+- a diagram or equation set helps compare composition, decomposition, coarser/finer partitioning, internal transfer, crossing, or refresh inside one TFS, or exact cross-member relations in one selected network, but the mathematical expression itself must not authorize work;
+- a source says "graph", "network", "path", "morphism", "algebra", "category", "workflow", "pipeline", "dataflow", or "functional diagram" and the claim being made is the mathematical description of one already selected TFS or TFS network;
+- a reader needs to decide whether the visible object is one E.18 TFS, one E.18.NET network, an E.18.2 mathematical description, a C.29 lens-use claim, or only an E.17 publication face.
 
 #### E.18.2:1.2 - What goes wrong if missed
 
@@ -67,11 +65,12 @@ A project source expression, source publication, or diagram can make a graph-sha
 
 #### E.18.2:1.3 - What this buys
 
-The practitioner can use mathematical structure without overclaiming it. The record names the represented `TransformationFlowStructure`, the expression used, what the expression preserves, what it loses, the declared use, and the governing relation for any stronger claim.
+The practitioner can use mathematical structure without overclaiming it. The record names exactly one represented E.18 TFS or E.18.NET network, the expression used, what the expression preserves, what it loses, the declared use, and the governing relation for any stronger claim.
 
 #### E.18.2:1.4 - Not this pattern when
 
-- the selected compound structure itself is the EntityOfConcern; use `E.18`;
+- one selected transformation-flow structure itself is the EntityOfConcern; use `E.18`;
+- one selected network of independently identified TFS or nested-network members is the EntityOfConcern; use `E.18.NET`;
 - the selected transformation-flow unfolding structure itself is the EntityOfConcern; use `E.18.3`;
 - one bounded transformation is the EntityOfConcern; use `A.3.4`;
 - the claim is general mathematical-lens adequacy outside transformation-flow structures; use `C.29`;

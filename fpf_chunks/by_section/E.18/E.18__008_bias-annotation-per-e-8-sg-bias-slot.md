@@ -6,12 +6,12 @@ section_id: "E.18:13"
 section_title: "Bias-Annotation (per E.8 SG-bias slot)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__008_bias-annotation-per-e-8-sg-bias-slot.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:13 — Bias-Annotation (per E.8 SG-bias slot)"
-line_start: 81670
-line_end: 81679
+line_start: 81941
+line_end: 81950
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -27,6 +27,7 @@ dependencies:
   - "E.17"
   - "E.18.1"
   - "E.18.2"
+  - "E.18.NET"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -34,14 +35,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "P2W support"
-  - "U.Transfer"
-  - "adjacent governed loci"
-  - "crossings"
-  - "flow valuation"
-  - "independently grounded actual transformations"
-  - "no-automatic-composition boundary"
-  - "selected transformation-flow structure"
 ---
 
 ### E.18:13 - Bias-Annotation (per E.8 SG-bias slot)

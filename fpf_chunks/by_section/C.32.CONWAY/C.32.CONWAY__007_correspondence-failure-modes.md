@@ -1,53 +1,61 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.CONWAY"
-pattern_title: "Transformer and Transformed Architecture Correspondence"
+pattern_title: "Architecture-Influence and Transformed-Architecture Correspondence"
 section_id: "C.32.CONWAY:6"
 section_title: "Correspondence Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__007_correspondence-failure-modes.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
-  - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
+  - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:6 — Correspondence Failure Modes"
-line_start: 64744
-line_end: 64755
+line_start: 64951
+line_end: 64969
 dependencies:
   - "A.10"
-  - "A.15"
+  - "A.12"
+  - "A.15.1"
   - "A.19.CPM"
+  - "A.22"
   - "A.3.4"
   - "A.3.4.P"
-  - "A.6.M"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "B.3"
   - "C.11"
+  - "C.25"
   - "C.29"
   - "C.30"
+  - "C.30.TFS-REL"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
   - "C.32.PAD"
   - "E.18"
+  - "E.18.NET"
   - "G.5"
 keywords:
-  - "Conway correspondence"
-  - "changing relation"
-  - "coordination cost"
-  - "inverse Conway maneuver"
-  - "selected-structure correspondence"
-  - "transformed holon"
-  - "transformer holon"
 ---
 
 ### C.32.CONWAY:6 - Correspondence Failure Modes
 
 | Failure mode | C.32.CONWAY repair action |
 |---|---|
-| **Transformer architecture omitted** | The transformed-holon architecture assumes independent change, testing, deployment, certification, or maintenance, but the changing holon's existing structures force shared queues, shared approval, shared evidence, or shared rework. Add transformer-side candidates before the transformed-holon architecture enters comparison, selection, local choice, or decision work. |
-| **Transformed-only inverse Conway** | The text asks for inverse Conway while changing only the changed-holon modules, services, product variants, or evidence scopes. Name the transformer-side structure to change and record expected gain, loss, migration burden, and stop condition. |
-| **Transformer-only reorganization** | The organization, method, toolchain, line, or platform is changed without a transformed-holon architecture characteristic under pressure. Return to work or organization design unless a selected transformed structure and architecture characteristic are named. |
-| **Mirroring treated as adequacy** | A mirroring claim is used without asking what is preserved, what is lost, and where exceptions are acceptable. Keep it as correspondence pressure, or use `C.29` when a structural-similarity lens is being claimed. |
-| **One-sided optimization** | Changing only the transformer or only the transformed holon creates a new residual in another scope. Prepare transformer-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
-| **Software delivery overfit** | DORA or Team Topologies gives the source pattern, but the transformed side is a product family, manufacturing system, school, hospital, or other non-software admitted holon, or the pressure concerns a method-side structure around an admitted holon rather than a software service. Transfer the selected-structure correspondence and architecture characteristics, not the software ontology, and do not admit a method family as a holon by label. |
-| **Static correspondence** | A good correspondence is treated as durable after the evolution window changes. Add source-return and reopen conditions. |
+| **Architecture-as-actor** | Replace the acting architecture with the exact `U.System`, role assignment, dated Work, and actor-side or work-to-change relation; keep architecture as a separately related influence source. |
+| **Influence-as-performance** | Remove role, Work, performer, or transformation-participation inferences that came only from influence. Establish those facts independently or leave them absent. |
+| **Changed referent omitted** | Identify the exact referent and changing relation before deciding which architecture is transformed. |
+| **Performer without Work basis** | When performance is claimed, add exact dated Work, `performedUnderAssignment(W, RA)`, holder-system equality, and required direct relations; use A.15.1 multiple-performer forms when needed. |
+| **Influence source without governor** | Apply the direct relation owner. With no kind/predicate, keep the correspondence synthesis-local and return `missing-governor`; with unresolved facts, name the grounding boundary; with a false predicate, remove the influence occurrence. |
+| **Architecture-bearer equality with an actor inferred** | Keep the influence-source holon and acting system unequal unless independent actor and architecture-bearer facts establish equality. |
+| **Transformed-side-only inverse Conway** | If the text says inverse Conway but changes only the transformed architecture, name the exact influence-source selected structure that must change or stop using the inverse-Conway claim. |
+| **Source-side change without transformed pressure** | If an organization, method, line, or toolchain is reorganized without one transformed architecture and characteristic under pressure, return to the direct Work or organization-design use. |
+| **One-sided optimization** | Prepare source-side change, transformed-side change, joint change, and bounded mismatch candidates before claiming the correspondence has been constructively handled. |
+| **Pair treated as network** | Keep the exact pair row as one qualified reading; use E.18.NET for network identity, members, and exact cross-flow relations. |
+| **Network citation treated as relation admission** | Ground the exact relation participants in member-flow positions and make the E.18.NET composite locator name that same citing current record and exactly one cross-flow row; otherwise remove `networkCrossFlowRelationRowRef`. A locator for one record does not qualify another record's citation. |
+| **Mirroring treated as adequacy** | Keep the statement as candidate pressure or use C.29 when structural similarity or preservation is claimed. |
+| **Software-practice overfit** | When the changed referent is a product family, manufacturing system, school, hospital, or another admitted non-software holon, transfer only the selected-structure correspondence and affected characteristics; do not import software-service or team ontology. A method-family or method-description label alone does not make the named object a `U.Holon`; if the case uses a method-related holon, identify that exact holon and admit it independently under its direct kind owner. |
+| **Static correspondence** | Reopen when either architecture, selected structure, relation occurrence, changed referent, or evolution window changes. |
 

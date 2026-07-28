@@ -1,51 +1,55 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.CONWAY"
-pattern_title: "Transformer and Transformed Architecture Correspondence"
+pattern_title: "Architecture-Influence and Transformed-Architecture Correspondence"
 section_id: "C.32.CONWAY:5"
 section_title: "Worked Correspondence Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__006_worked-correspondence-cases.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
-  - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
+  - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:5 — Worked Correspondence Cases"
-line_start: 64734
-line_end: 64743
+line_start: 64938
+line_end: 64950
 dependencies:
   - "A.10"
-  - "A.15"
+  - "A.12"
+  - "A.15.1"
   - "A.19.CPM"
+  - "A.22"
   - "A.3.4"
   - "A.3.4.P"
-  - "A.6.M"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "B.3"
   - "C.11"
+  - "C.25"
   - "C.29"
   - "C.30"
+  - "C.30.TFS-REL"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
   - "C.32.PAD"
   - "E.18"
+  - "E.18.NET"
   - "G.5"
 keywords:
-  - "Conway correspondence"
-  - "changing relation"
-  - "coordination cost"
-  - "inverse Conway maneuver"
-  - "selected-structure correspondence"
-  - "transformed holon"
-  - "transformer holon"
 ---
 
 ### C.32.CONWAY:5 - Worked Correspondence Cases
 
-| Grounded working case | Correspondence question | Candidate work | Stop condition |
-|---|---|---|---|
-| Product family and manufacturing system | Which manufacturing, evidence, and station structures must correspond to product module and evidence-scope structures? | Prepare manufacturing-cell change, product-split change, and bounded mismatch as candidate alternatives or comparison inputs. | Stop before product decision, factory work authorization, or certification assurance unless those claims are being made. |
-| Organization that designs and operates a service platform | Which work, communication, deployment, and service-interface structures must be co-synthesized for independent change? | Prepare inverse Conway team-boundary change, service-boundary change, and platform mediation as candidate alternatives or comparison inputs. | Stop before organization-redesign decision, organization-redesign authority relation, G.5 publication of a selected set, or architecture decision. |
-| Method family that changes authored work products | Which method, role, and evidence structures must fit the authored-section architecture being created? | Prepare method-step split, role retargeting, evidence-scope change, and bounded exception as candidate alternatives or comparison inputs. | Stop before method governance or publication-face use unless that claim is being made. |
-| School or training system changing a declared learner-capability structure | Which teaching role, curriculum, feedback, and evidence structures must fit that declared learner-capability structure? | Prepare curriculum architecture, feedback-role change, evidence scope, and bounded cohort exception as candidate alternatives or comparison inputs. | Stop before educational policy, evidence sufficiency, or ethical mediation claims. |
-| AI-agent toolchain changing project work | Which toolchain, control, evidence, and work-method structures must fit the transformed work-product architecture? | Prepare supervisor relation, task decomposition, evidence-refresh boundary, and bounded autonomy as candidate alternatives or comparison inputs. | Stop before safety, release, or assurance claims unless those claims are being made. |
+| Grounded working case | Acting and performance facts | Influence-source and architecture-pair facts | Candidate work | Stop or return |
+|---|---|---|---|---|
+| Product family and manufacturing system | The product referent and bounded change are identified independently. The admitted manufacturing system performs exact dated production Work under its role assignment; production and work-to-change relations state its participation without creating the referent or change. | `ArchitectureOf@ManufacturingAndCertification` and its batch/evidence structures influence `ArchitectureOf@ProductFamily` through one direct project predicate satisfied by current facts and its exact obtaining occurrence. The architecture bearer is not inferred to be the performer. | Prepare manufacturing-cell change, product-module split, joint change, and bounded batch exception. | Stop at candidate preparation. Route product choice or architecture decision to `C.11` or `C.32.PAD`; factory Work authorization to its direct Work/governance owner or an `A.20`/`A.21` gate; and certification evidence or assurance to `A.10` or `B.3`. |
+| Organization designing and operating a service platform | Each acting team or organization is used only through its admitted exact `U.System` identity; dated design or operations Work and role assignments are named only for the actions claimed. | Communication, deployment, test, and approval structures influence one service-platform architecture pair through their direct relations. | Prepare team-responsibility change, test-responsibility change, service-boundary change, platform mediation, or bounded coordination cost. | Stop before an organization-redesign decision or authority claim; return it to the direct organization-governance owner. Route selected-set publication to `G.5` and an architecture decision to `C.32.PAD`. |
+| Review method influencing authored work products | The method description does not act. When review is performed, name the reviewer system, role assignment, dated Work, and exact work-to-change relation. | The review-method or evidence structure influences the authored-section architecture through its exact method-use, evidence-scope, or project influence relation. | Add an exception role and evidence scope, change the method step, change the work-product structure, or reject the automation candidate. | Stop before method governance or publication-face use; return to the direct method-governance pattern and to `E.17` or `G.5` when publication is current. |
+| Instructional system changing learner capability | Each instructor or instructional organization is used as an actor only through an admitted exact `U.System` identity; dated teaching Work and role assignment are named when performance is claimed. | Curriculum, feedback, and evidence structures influence the architecture claim about the changed learner-capability referent; they do not become the learner or the performer by influence. | Prepare curriculum, feedback-role, evidence-scope, or bounded-cohort candidates. | Stop before educational policy, evidence-sufficiency, or ethical-mediation claims; return them to the direct policy owner, `A.10`, or `D.4` respectively. |
+| AI-agent toolchain changing project work products | An admitted execution system and exact tool-call or authoring Work carry any action claim. | Toolchain control and evidence-refresh structures influence the transformed work-product architecture through exact relations; the toolchain architecture itself does not act. | Add supervision and refresh, change task decomposition, or keep bounded autonomy with source return. | Stop before safety, gate or release, or assurance claims; return them to the direct safety owner, `A.20`/`A.21`, or `B.3` respectively. |
+**Network-qualified reading.** A product-development TFS and a production-system-change TFS participate in one selected E.18.NET-conforming network. A current architecture pair row about manufacturing-architecture influence may be cited by the network record alongside a separately grounded obtaining production or project occurrence. If the pair row also carries `networkCrossFlowRelationRowRef`, that locator names this same exact current record edition and resolves exactly one matching row; it qualifies no citation from another record. The pair row remains one reading of one exact architecture pair. It is neither the network nor proof that the architecture-influence occurrence is the cross-flow occurrence.
+
+**Near miss.** A diagram places a factory architecture beside a product architecture and labels the arrow “shapes”. No direct relation kind and predicate govern that pair and use. The frame may retain the pair as synthesis-local pressure, but the exact row and network cross-flow mapping remain absent with `missing-governor`; the diagram does not create an occurrence.
 

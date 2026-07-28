@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `4b75b56c13f5d61be5238fdbc7c20af5c6f89df7`
+Commit SHA: `17edd955485f60cafb16159c7d90e20f4ad21844`
 
 Chunking method: `pattern-aware`
 
-Patterns: `290`
+Patterns: `291`
 
 ## Patterns
 
@@ -190,7 +190,7 @@ Patterns: `290`
 - [C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs](by_pattern/C.32.HCS.md)
 - [C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles](by_pattern/C.32.ACS.md)
 - [C.32.ACE — Architecture Characteristic Eval Programs](by_pattern/C.32.ACE.md)
-- [C.32.CONWAY — Transformer and Transformed Architecture Correspondence](by_pattern/C.32.CONWAY.md)
+- [C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence](by_pattern/C.32.CONWAY.md)
 - [C.32.MLAO — Multilevel Architecture Residual Optimization](by_pattern/C.32.MLAO.md)
 - [C.32.FAIL — Architecture Failure Recognition and Repair](by_pattern/C.32.FAIL.md)
 - [C.32.PAD — Project Architecture Decision After Candidate Synthesis](by_pattern/C.32.PAD.md)
@@ -254,6 +254,7 @@ Patterns: `290`
 - [E.18.1 — P2W Problem-to-Work Carry-Through](by_pattern/E.18.1.md)
 - [E.18.2 — Transformation Flow Mathematical Description](by_pattern/E.18.2.md)
 - [E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure](by_pattern/E.18.3.md)
+- [E.18.NET — Network of Transformation-Flow Structures](by_pattern/E.18.NET.md)
 - [E.19 — Pattern Quality Gates: Review and Refresh Profiles](by_pattern/E.19.md)
 - [E.20 — Mechanism Introduction Protocol](by_pattern/E.20.md)
 - [E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace](by_pattern/E.21.md)

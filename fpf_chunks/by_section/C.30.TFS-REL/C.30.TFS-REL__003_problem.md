@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__003_problem.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:2 — Problem"
-line_start: 61916
-line_end: 61921
+line_start: 61966
+line_end: 61971
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,20 +42,16 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ### C.30.TFS-REL:2 - Problem
 
-Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 objects when they discuss transformation-flow structure, functional dependencies, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
+Grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions often need E.18 TFS objects or one E.18.NET network when they discuss transformation-flow structure, functional dependencies, data movement, control paths, evidence-flow descriptions, neural-network dataflow, or code-agent relation graphs.
 
-C.30.TFS-REL prevents collapse by requiring the selected architecture-side reference, such as `ArchitectureOf@Context`, structure ref, structural view, or conditional description use, before any E.18-governed selected transformation-flow structure, path, slice, crossing, or valuation gets architecture use.
+C.30.TFS-REL prevents collapse by requiring the selected architecture-side reference before any E.18 TFS, E.18.NET network, path, slice, crossing, or valuation receives architecture use. A network additionally needs the containing-holon or explicit inter-holon branch; its graph or record cannot supply that branch.
 

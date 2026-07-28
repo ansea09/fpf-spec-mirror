@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.4.1.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
-line_start: 39469
-line_end: 39697
+line_start: 39513
+line_end: 39741
 dependencies:
   - "A.15"
   - "A.16"
@@ -41,7 +41,7 @@ keywords:
 ## B.4.1 - Observe -> Notice -> Stabilize -> Route
 
 > **Type:** Architectural (A)
-> **Status:** Draft
+> **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
 **Plain-name.** Observe-to-route seam.

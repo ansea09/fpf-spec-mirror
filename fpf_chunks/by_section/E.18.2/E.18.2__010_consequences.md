@@ -6,12 +6,12 @@ section_id: "E.18.2:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__010_consequences.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:7 — Consequences"
-line_start: 82661
-line_end: 82669
+line_start: 82943
+line_end: 82951
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,16 +28,12 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:7 - Consequences
@@ -45,7 +41,7 @@ keywords:
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
 | Mathematical descriptions get their own local record. | Graphs, paths, slices, quotients, and wiring can be used without becoming hidden ontology. | One source expression or publication face may need several records. |
-| E.18 stays about selected structure. | Compound transformation organization remains inspectable in the project world. | Readers must choose E.18 or E.18.2 by current EoC. |
+| E.18 and E.18.NET stay about selected ontic structures. | One TFS and one network of independently identified TFS members remain inspectable without becoming their mathematical descriptions. | Readers must choose E.18, E.18.NET, or E.18.2 by the current EntityOfConcern. |
 | C.29 remains general. | E.18.2 does not duplicate the whole mathematical-lens pattern. | Claim-bearing adequacy needs a C.29 reference. |
 | Boundary to work, gates, evidence, and architecture is explicit. | Mathematical prestige does not replace project checks. | Stronger claims require the direct governing pattern. |
 

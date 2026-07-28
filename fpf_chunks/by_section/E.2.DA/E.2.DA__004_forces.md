@@ -6,12 +6,12 @@ section_id: "E.2.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__004_forces.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:3 — Forces"
-line_start: 68111
-line_end: 68121
+line_start: 68339
+line_end: 68349
 dependencies:
   - "A.19.ECS"
   - "E.10"

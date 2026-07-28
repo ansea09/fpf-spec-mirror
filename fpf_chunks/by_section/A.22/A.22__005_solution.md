@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 33934
-line_end: 34211
+line_start: 33944
+line_end: 34227
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,6 +58,7 @@ dependencies:
   - "E.17.1"
   - "E.18"
   - "E.18.3"
+  - "E.18.NET"
   - "E.24"
   - "E.24.PUB"
   - "F.18"
@@ -165,6 +166,12 @@ NameCard:
 This pending card has no `UnifiedTermRowRef`. Until its refresh condition is met, `CrossContextRelationStructure` is an A.22-local provisional designator only; other Core hosts must cite the descriptive A.22 conditional cross-structure rule rather than consume that label as public vocabulary.
 
 DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 governs intended mapping work; A.15.1 identifies each exact dated mapping Work individual admitted under `U.Work`, the performer system and obtaining role assignment, and the exact `enactsMethod` relation. C.2.1 independently identifies the candidate episteme called a `Context Map`. While exact independently governed crossing occurrences or the four A.22 base discriminators are missing, its EntityOfConcern is the proposed or described crossing organization, not an exact `CrossContextRelationStructure`. Only after both conditions are met may a corresponding C.2.1 episteme designate the exact structure. Either episteme is additionally a `U.View` only when exact `EpistemeViewpointConformanceRelation(E, P)` obtains under E.17.0. Any C.29 representation, rendering, publication occurrence, form, and carrier remain separate under their direct patterns. Thus method, work, proposal, selected structure, candidate episteme, dependent view membership, representation, and publication stay distinct while the external source terms remain retrievable.
+
+#### A.22:4.1d - Transformation-flow structure network profile
+
+Use `E.18.NET` when one engineering use selects two or more independently identified transformation-flow structures, or nested networks of them, together with exact obtaining relations across their boundaries. Apply the four A.22 discriminators directly: the exact TFS or nested-network members are the constituents; the exact cross-member relation occurrences retain their direct governors; the exact applied endpoint, boundary-exposure, and acyclic direct-member constraints are selected under E.18.NET; and the named network-use frame states the practical question or action and the forbidden overread. Record the return condition separately; it reopens selection when a member, relation, constraint, or use-frame value changes and is not a fifth identity discriminator. The result is one dependent, non-agentive `U.Structure` specialization. E.18.NET owns the network's detailed identity, reference, recursion, local-state, and conformance rules; A.22 does not copy those fields.
+
+Selecting a constituent in the first discriminator does not create a separately re-identifiable membership occurrence. A member row, graph edge, containment picture, or shared label proves neither membership nor another relation. If a receiving use genuinely needs a world-side membership relation, recover its participants, obtaining and identity under a direct relation governor; otherwise use the exact constituent discriminator and do not mint a generic membership edge.
 
 #### A.22:4.2 - Structure claim reliance relation selection
 
@@ -291,7 +298,7 @@ Architecture-related records that belong to C.30 or its subpatterns include `Arc
 | --- | --- |
 | The reliance relation is treated as the structure. | Recover the exact constituents, selected obtaining relation occurrences, applied constraints, and named use frame. When a neighboring source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance claim is current, name that exact relation and governor separately. |
 | The diagram, graph, table, dashboard, or publication form is the structure. | Treat it as publication, description, view, publication form, source-description relation, base-dependence relation, grounding relation, evidence relation, lens relation, simulation relation, extraction relation, or representation relation only when its relation is explicit. |
-| A transformation-flow graph expression is the structure in every sense. | Use `E.18` for graph, path, crossing, and flow valuation; use A.22 only for the selected structure claim; use `C.30.TFS-REL` when an architecture-to-transformation-flow relation claim is being made. |
+| A transformation-flow graph expression is the structure in every sense. | Use `E.18` for one selected TFS and its internal paths, crossings, and valuations; use `E.18.NET` for a selected network of independently identified TFS members and exact cross-member relations; use `E.18.2` and `C.29` for the graph expression. A.22 supplies only the selected-structure identity, and `C.30.TFS-REL` governs an architecture-to-transformation-flow relation claim. |
 | A mathematical lens output is the structure. | Use `C.29` for lens-use result and admissibility, and cite `MathLensUseOutputRef` only through C.29 lens-use result, preserved structure, lost structure, and stop-condition discipline. |
 | A structure proves evidence, assurance, safety, causality, or gate passage. | Assign those claims to `A.10`, `G.6`, `B.3`, `C.28`, `A.20`, or `A.21`. |
 | A structure is a decision or work record. | Use `C.11`, `A.20`, `A.21`, `A.15`, or the project-side decision pattern that governs the claim being made. |

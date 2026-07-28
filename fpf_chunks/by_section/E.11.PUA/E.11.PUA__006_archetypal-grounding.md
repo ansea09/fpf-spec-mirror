@@ -6,21 +6,24 @@ section_id: "E.11.PUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__006_archetypal-grounding.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:5 — Archetypal Grounding"
-line_start: 75844
-line_end: 75903
+line_start: 76080
+line_end: 76141
 dependencies:
   - "A.15"
   - "A.6.5"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
   - "C.2.1"
   - "E.11"
   - "E.11.PUR"
   - "E.18"
   - "E.18.1"
   - "E.18.3"
+  - "E.18.NET"
   - "E.22"
   - "E.23"
   - "E.8"
@@ -42,7 +45,9 @@ An architecture team already has a bounded comparison question but no accepted `
 
 #### E.11.PUA:5.1b - A selection result can support later planning
 
-Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. E.18 may relate the recommendation to the later use through an explicit crossing, but neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. If the recommendation participates in the later TFS, name its exact source position, exact receiving position, and directly governed use-relation occurrence. If that occurrence cannot be established, keep the recommendation and later use separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+
+**Build-the-builder recognition case.** An executable compiler edition occupies one exact result position (`FlowPositionRef`) in a compiler-build TFS and is used at one exact compiler-use position (`FlowPositionRef`) in a separately identified program-compilation TFS through a directly governed compiler-use relation occurrence. The compiler edition keeps its kind. Return to E.18 when either TFS-local position is unresolved; return to E.18.NET when the question is how the separately identified build and compilation TFS values form a network, including a recursive one. With no compiler-use kind or predicate, return `missing-governor`; with undecided case facts, keep the relation open; with a false predicate, assert no compiler-use occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. None of these branches permits calling the compiler edition the second flow's input by label alone.
 
 #### E.11.PUA:5.1c - AI-assisted ordinary use returns the subject result
 

@@ -6,12 +6,12 @@ section_id: "B.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__001_intro.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:intro — Intro"
-line_start: 39325
-line_end: 39336
+line_start: 39369
+line_end: 39380
 dependencies:
   - "A.12"
   - "A.4"

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-line_start: 81298
-line_end: 81883
+line_start: 81536
+line_end: 82156
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -26,6 +26,7 @@ dependencies:
   - "E.17"
   - "E.18.1"
   - "E.18.2"
+  - "E.18.NET"
   - "E.8"
   - "F.17"
   - "F.9"
@@ -33,14 +34,6 @@ dependencies:
   - "G.5"
   - "G.9"
 keywords:
-  - "P2W support"
-  - "U.Transfer"
-  - "adjacent governed loci"
-  - "crossings"
-  - "flow valuation"
-  - "independently grounded actual transformations"
-  - "no-automatic-composition boundary"
-  - "selected transformation-flow structure"
 ---
 
 ## E.18 - Transformation Flow Structure
@@ -56,7 +49,7 @@ keywords:
 
 Provide a notation-independent pattern for `TransformationFlowStructure`: a selected compound structure whose loci may bind independently identified actual `U.Transformation` values and transformation-adjacent governed values. The EntityOfConcern is the selected structure itself: loci for those transformations and adjacent governed values, one typed `U.Transfer` relation, and Eulerian or declarative valuations over paths or path slices inside the same selected structure. A locus may designate or bind an actual `U.Transformation` only after `A.3.4` independently grounds the exact occurrence from its changed referent, temporal extent or formal ordering boundary, boundary conditions, actual change facts, and continuity or reidentification rule; neither the locus nor the use admits that occurrence. A locus may express, constrain, or locate that bounded transformation, or it may bind a signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, result, or refresh value that participates in or constrains transformations without becoming the transformation. The selected structure, a flow arrow, adjacency, shared work, a selected or desired structure, a method, `MethodDescription`, `WorkPlan`, model, description, evaluation result, publication, transfer, or common affected referent establishes neither an actual transformation nor transformation composition. Crossings appear at gates; publication faces appear through MVPK; comparable claims pin editions, reference planes, Bridge and CL notes, and refresh scope. Mathematical descriptions of this selected structure, including graph, algebra, category, tuple, path, slice, morphism, quotient, fold, refinement, factorization, or wiring expressions, are governed by `E.18.2` and `C.29` when lens adequacy matters.
 
-**Use this when.** Use E.18 when project work needs one selected transformation-flow structure, path, path slice, crossing, gate, flow valuation, or refresh locus over `U.Transfer`; use the named governing pattern when the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure.
+**Use this when.** Use E.18 when project work needs one exact selected transformation-flow structure, an internal position or portion of it, a path or path slice, a crossing or gate, a flow valuation, or a refresh locus over its internal `U.Transfer` occurrences. Several valuations belong here only when they resolve to that same TFS; a detailed portion belongs here as a `SubflowRef` only while all of its positions and transfers resolve inside one exact parent TFS. If the case needs two independently identified TFS values, or nested networks of them, plus an exact relation across their boundaries, use `E.18.NET`. Use the named governing pattern when the current EntityOfConcern is a work plan, performed work, method semantics, publication face, mathematical description, or wording-use cue rather than the selected structure.
 
 **First useful structure use.** Name the selected transformation-flow structure, the locus kinds, the single `U.Transfer` relation, and the crossing, path, or path slice whose pins are required. For the ordinary case, this is enough: `TransformationFlowStructure`, current `PathId` or `PathSliceId` when a path or slice is the EntityOfConcern, locus kinds, one `U.Transfer`, and only the crossings or pins required by that application.
 
@@ -86,7 +79,9 @@ This slice names the selected structure and its governed loci first. If dated `L
 | transformation locus | an E.18 locus, path, path slice, substructure, or valuation used to express, constrain, or locate one independently identified actual bounded `U.Transformation` | actual only after the `A.3.4` occurrence basis is grounded; placement, adjacency, shared work, or a common affected referent establishes neither actuality nor composition |
 | functional behavior in a flow | a required-behavior claim positioned in the selected structure, or an actual functioning claim whose bounded change is independently grounded as one `U.Transformation`, with any selected flow position, path, slice, crossing, or valuation named by value | required behavior is not actual change; neither claim is identical with `FunctionalElement@Context`, the transformer system, a module allocation, a method occurrence, or a work occurrence |
 | slot-filler locus | a structure-positioned signature, mechanism, work plan, performed work, check, structural reinterpretation, publication, evidence, result, refresh, or other governed value | not a transformation merely by structure membership |
-| flow valuation | an Eulerian or declarative valuation over a path, path slice, state, guard, comparator, or budget over the selected structure | not a flowing object, imperative action sequence, second structure kind, or performed work |
+| flow valuation | an Eulerian or declarative valuation over a path, path slice, state, guard, comparator, or budget over one exact selected structure | not a flowing object, imperative action sequence, second structure kind, performed work, or evidence that two named flows share one TFS identity |
+| `FlowPositionRef` | the pair `<transformationFlowStructureRef, localFlowPositionId>` locating one structural position in one exact TFS | a valuation, path, slice, filling, `DesignRunTag`, value kind, or reference mode may bind a use of the position but does not enter its identity |
+| `SubflowRef` | one parent-relative internal portion selected by exact parent-TFS, included-position, included-parent-transfer, and boundary-position refs | not a new U-kind, standalone structure, second TFS, valuation, graph, view, or generic containment relation |
 | crossing or gate | a context, plane, edition, launch, or work-boundary change | not internal step validity or gate-decision publication by itself |
 | MVPK face | publication of selected structure, path, or crossing material | not the structure semantics and not evidence by itself |
 | refresh locus | the smallest path slice, crossing, edition pin, or publication face affected by change | not a whole-flow rewrite unless the whole flow is the changed locus |
@@ -189,8 +184,9 @@ with:
 **Term separation.** **Transfer** denotes the sole relation kind `U.Transfer` in the selected structure. **Transport** denotes Phi-governed conversion **policies and registries** (**`TransportRegistry^Phi`** under UNM). Wording "reuse via Transport" refers to registries and policies, not to an additional transfer relation.
 
 #### E.18:5.2 - S2 - Flows as valuations (paths, state, and guards)
-* A **Flow** is a **valuation** `nu` over `U.Transfer` relations and cut-sets, paired with an **admissible path** `p = v0 -> ... -> vk` in the selected structure. The valuation maps transfer relations or cut-sets to token and state values under `CtxState` and links publication-event records to a declared `PublicationScopeId`; it is not itself the performed work. The concrete pins and identifiers (`PathId`, `PathSliceId`, Gamma_time on compare and launch faces) are governed here as path and slice publication obligations and by `A.20` when CV witnesses are current; use `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. This reflects the "selected structure != flow" norm (flow = valuation), with gates placed exactly on GateCrossings.
-* **Multiple coupled flows.** One `TransformationFlowStructure` may contain several coupled flow valuations: a development-flow valuation over work that creates or repairs a specification, pattern, process description, mechanism description, method set, tool, or work plan; an application-flow valuation over use of that product for another `EntityOfConcern`; and an evaluation or refresh-flow valuation over evidence that identifies a problem and a repair return to the smallest affected development or application locus. The selected structure relates those flow valuations through `U.Transfer`, `PathSlice`, edition-change, refresh, return, or feedback relations, but it does not merge their governed objects, records, launch values, evidence, gates, or performed work. The same product may be a run result of one flow and a design-side input, tool, or contextual object for another flow; that flow-local relation-position change is recorded by the current flow relation and any current `DesignRunTag` crossing, not by silently changing the object kind.
+* A **Flow** is a **valuation** `nu` over internal `U.Transfer` occurrences and cut-sets of one exact selected TFS, paired with an **admissible path** `p = v0 -> ... -> vk` in that structure. The valuation maps transfer occurrences or cut-sets to token and state values under `CtxState` and links publication-event records to a declared `PublicationScopeId`; it is not itself the performed work. The concrete pins and identifiers (`PathId`, `PathSliceId`, Gamma_time on compare and launch faces) are governed here as path and slice publication obligations and by `A.20` when CV witnesses are current; use `G.6` for evidence-provenance path visibility and `G.11` for refresh wiring. This reflects the "selected structure != flow" norm (flow = valuation), with gates placed exactly on GateCrossings.
+* **Several valuations of one TFS.** One `TransformationFlowStructure` may carry several flow valuations only after the use identifies the same exact TFS and its structural boundary for every valuation. For example, nominal-load and emergency-load valuations may differ in state values, paths, slices, or local `DesignRunTag` bindings while still using the same cooling-loop structure and the same internal transfer occurrences. Labels such as development, application, evaluation, refresh, or feedback do not establish that shared identity.
+* **Leave E.18 at a member boundary.** `U.Transfer` relates positions only inside that one selected TFS. When candidate flows have independently identified TFS boundaries, separate governed objects or Work occurrences, and a relation across their positions, keep each TFS and its valuations local and use `E.18.NET` with the exact direct relation governor. Do not turn `U.Transfer`, adjacency, a carried product, or a feedback arrow into a universal cross-flow relation.
 * **Admissible path (definition).** A path `p` is **admissible** iff:
   (a) locus kinds and transfer relation kinds match the declared `tau_L, tau_Transfer`;
   (b) any write or update to any member of `⟨L,P,E⃗,D⟩` (or kind‑retargeting under `StructuralReinterpretation`) appears at **exactly one** `OperationalGate(profile)`;
@@ -216,6 +212,36 @@ Use split and join only as selected-structure relations inside one `Transformati
 Minimum split-and-join use names the selected `TransformationFlowStructure`, the split or join predicate or policy when membership changes, the set-return kind when a set is returned, the publication relation when a result is published, and the smallest refresh scope when currentness changes. Comparator, selector, archive, pool, publication, gate, and refresh authority remains with `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.21`, and `G.11` when those relations are current.
 
 For evolutionary-engineering work, the same selected structure may contain loci for variant generation, retention, archive or front treatment, comparison, selected-set publication, architecture-candidate movement, planning, performed work, effect measurement, residual triage, and refresh. E.18 governs only the structure, loci, `U.Transfer`, crossings, valuations, pins, and slice-local refresh. `C.18`, `C.19`, `G.5`, `C.11`, `C.30`, the A.15 family, and `G.11` govern the corresponding claims when they are current.
+
+#### E.18:5.2b - Position and parent-relative subflow references
+
+Use a `FlowPositionRef` to point to one structural position inside one exact TFS:
+
+```text
+FlowPositionRef := <
+  transformationFlowStructureRef,
+  localFlowPositionId
+>
+```
+
+The pair is the complete position-reference identity. If the TFS is reidentified, the same local id resolves to a different position. A `FlowValuation`, `PathId`, `PathSliceId`, actual filling, `DesignRunTag`, value kind, and reference mode may qualify or bind a use of that position; none of them enters its identity.
+
+Use a `SubflowRef` when the practitioner needs to select and revisit a detailed internal portion of one exact parent TFS without pretending that the portion is another structure:
+
+```text
+SubflowRef := <
+  parentTransformationFlowStructureRef,
+  exactIncludedFlowPositionRefs[],
+  exactIncludedInternalTransferOccurrenceRefs[],
+  exactBoundaryFlowPositionRefs[]
+>
+```
+
+Every included and boundary position must resolve through `FlowPositionRef` to the same exact parent. Every included transfer must already obtain as an internal `U.Transfer` occurrence in that parent. A boundary position remains a position of the parent; an internal transfer crossing from an included to an excluded parent position marks the return to the parent. This resolution supplies the parent/subflow connection. It does not introduce parthood, containment, embedding, or membership as another world-side relation.
+
+The tuple is the complete `SubflowRef` identity. Replacing the parent, an included position, an included internal transfer occurrence, or a boundary position gives another reference; reidentifying the parent invalidates the old resolution. Changing only a valuation, path or slice, tag, actual filling, graph, mathematical description, publication, or demonstrative view leaves the reference unchanged while the tuple still resolves. Branching, joining, or cycling inside the portion does not make it a network.
+
+**Quick discriminator.** Grinding, dosing, and wetting may be shown as a coffee-preparation subflow while their positions, internal transfers, entry, and exit all remain in one coffee-brewing TFS. If heating instead has its own TFS identity and boundary and an exact relation connects it to preparation, stop using `SubflowRef` and apply `E.18.NET`.
 
 #### E.18:5.3 - S3 - Publication discipline (faces)
 
@@ -407,13 +433,13 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 
 *Show-B (Neural-net functional).* Loci: `U.Signature(profile=FormalSubstrate)` declaration (typed tensor-operation declaration) -> mechanism (combinator algebra) -> UNM (dataset normalization; **TransportRegistry^Phi**) -> selection (architecture and hyperparameter set; Pareto set over accuracy@ratio and FLOPs@ratio) <-> planning (compute budget horizon) -> Work (exact training-run occurrences admitted under `U.Work`; any Delta is stated in a separate record) -> refresh (parity inserts; slice-scoped). Faces pin **DescriptorMapRef.edition** and **DistanceDefRef.edition** when QD telemetry values are shown; illumination remains **report-only telemetry** by default.
 
-*Show-C (Developed product, then application).* One flow valuation represents development work that produces a specification, pattern, process description, mechanism description, method set, or tool through drafting, checks, projection, build, or publication. A later flow valuation represents use of that product in project work or analysis. A further flow valuation may represent another use of the result: a tool is made, then used to make a chair, then a person sits on the chair while writing a text. The selected structure can relate all these valuations through transfers and feedback, while each flow keeps its own governed object, `DesignRunTag`, flow-local relation position for the carried object, work occurrence, evidence, and reopened slice.
+*Show-C (Developed product, then application - network case).* Development, later application, and further use keep separately identified TFS values when they have their own governed objects, Work occurrences, local position bindings, `DesignRunTag` boundaries, and change boundaries. A tool may be made, then used to make a chair, then the chair may be used while a person writes a text. Apply `E.18.NET` to select those TFS members and cite each exact production, use, participation, or other cross-member relation under its direct governor. Do not join them with `U.Transfer`; if a required relation has no governor, return `missing-governor`.
 
-*Show-D (FPF pattern development and use).* A development-flow valuation represents pattern development work: creation, evaluation, projection, publication, and later repair of a pattern. A use-flow valuation represents application of that pattern to its own `EntityOfConcern`. An evaluation or use-found defect can select the smallest development slice for repair. E.18 keeps the common selected structure visible while separating the developed pattern, the use of the pattern, the evidence found during use, and the edition or slice that is reopened.
+*Show-D (FPF pattern development and use - network case).* Pattern development, application to an `EntityOfConcern`, and use-found evaluation keep separately identified TFS values when each has its own governed object, Work, positions, and local state. Apply `E.18.NET` and cite the exact use, evaluation, evidence-return, or repair-trigger relation that connects their positions under its direct owner; if that relation has no governor, return `missing-governor`. E.18 still governs each member's internal structure and smallest reopened `PathSlice`; a role label or feedback arrow alone neither makes the members one TFS nor supplies the cross-member relation.
 
 **Cross-pattern boundary slice (QD archive).** A QD selector returns an archive. Under `E.18`, this is one `PathSlice` in one `TransformationFlowStructure`; selection returns a set or archive, not a hidden scalar. Under `A.20`, the archive insertion or update step has a current CV class, `CV.Status`, and witness or refusal; no acceptance is inferred. Under `A.21`, a comparability gate or `LaunchGate` can publish a `GateDecision` only when that gate relation is current and consumes the relevant CV result. Under `E.20`, if a new selector mechanism-governing definition is introduced, the mechanism-governing definition is the locus for the meaning while suites and wiring only cite or bind it. These are four governed loci, not one prescribed work order.
 
-> *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites and QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator and archive, coupled development and application flows, and refresh specializations stay outside this selected-structure core unless a current pattern explicitly selects them.
+> *Post-2015 SoTA echoes (illustrative):* **TAMP and MPC**, **MAP-Elites and QD (incl. CMA-ME)**, **refinement-typed stacks**, **profunctor optics**. Worked examples and Tell-Show-Show vignettes for P2W, comparator and archive, network cases over separately identified development and application TFS members, and one-TFS refresh specializations stay outside this selected-structure core unless a current pattern explicitly selects them.
 
 ### E.18:13 - Bias-Annotation (per E.8 SG-bias slot)
 
@@ -452,7 +478,8 @@ Publish a UTS block named `ViewpointMap` only when an engineering or publication
 | **CC-E18‑16 — Guard aggregation assignment and semantics** | `USM.CompareGuard` and `USM.LaunchGuard` publish the gate assigned to aggregate guard failures; guards are **events**, not GateChecks; failures are aggregated by that gate per profile. | Guard pins show the assigned gate; GuardFail recorded in that gate's DecisionLog. |
 | **CC-E18‑17 — Assurance ops on Transfer** | On `U.Transfer` only `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo`; none write or update `⟨L,P,E⃗,D⟩`. | Edge audit shows ops; CtxState unchanged across the edge. |
 | **CC-E18-17a — Assurance operation specifications (normative)** | **ConstrainTo(region or policy)**: tightens declared region or policy; **pre**: region subset current; **post**: `CtxState` unchanged; **idem.** and **monotone** under composition. **CalibrateTo(calibrationReference)**: attaches an **editioned** calibration reference, such as a map or standard, with Phi-policy id; admissible per cited `CG-Spec`; **post**: `CtxState` unchanged; **idem.** on same edition; penalties appear **in R only**. **CiteEvidence(evidenceRef)**: binds evidence references via **SCR and RSCR**; adds no numeric claims; **idem.**; missing carriers => **abstain**. **AttributeTo(provenanceReference)**: provenance only; decision algebra unaffected; **idem.** Hidden GateChecks, plane or unit changes, or edition writes on transfer relations are **forbidden**. | Operation specifications visible on transfer-relation audit; violations fail lint. |
-| **CC-E18-18 — Flow = valuation, coupled-flow unity and separation, and slice-local refresh** | Each flow declares valuation `nu` over `U.Transfer` plus `PublicationScopeId` and `PathSliceId`; when several flows are coupled in one selected structure, development, application, evaluation, refresh, and repair flow valuations are related by transfer, feedback, return, or edition-change relations while keeping separate governed objects, records, evidence, gates, work occurrences, flow-local relation positions for carried objects, and `DesignRunTag` boundaries; refresh is bounded to the addressed slice; affected faces are re-emitted on edition change or selected refresh rule. | Flow publication shows `nu`; a coupled-flow case names which flow is being valued, which flow-local relation position the carried object fills, and which slice is reopened; refresh trigger causes slice-local recompute. |
+| **CC-E18-18 - Flow = valuation, one-TFS unity, and slice-local refresh** | Each flow declares valuation `nu` over internal `U.Transfer` occurrences plus `PublicationScopeId` and `PathSliceId`. Several valuations may share this E.18 structure only when they resolve to the same exact TFS and its structural boundary; valuation, path, slice, state, role label, or `DesignRunTag` differences do not reidentify it. Refresh stays bounded to the addressed slice and affected faces are re-emitted on edition change or the selected refresh rule. Independently identified TFS values and their cross-boundary relation leave this case for `E.18.NET`. | Confirm that every valuation names the same exact TFS and only its internal transfer occurrences. If member identities or a cross-boundary relation are required, preserve the member TFS values and cite the direct relation governor through `E.18.NET`; do not use `U.Transfer` as the edge. |
+| **CC-E18-18a - Position and subflow reference identity** | Every `FlowPositionRef` is `<TFS ref, local position id>`. Every `SubflowRef` names one exact parent, included positions, already obtaining parent-internal transfer occurrences, and boundary positions, all resolving in that parent. Valuation, slice, tag, filling, graph, description, publication, and view stay outside both reference identities; the tuple introduces no generic containment or membership relation. | Resolve each ref back to one parent TFS. A coffee-preparation portion remains a subflow while all positions and transfers resolve there; a separately identified heating TFS plus an exact relation must route to `E.18.NET`. |
 | **CC-E18‑19 — Γ_time on compare and launch** | All compare and launch faces pin `Γ_time`; no implicit *latest*. | Face audit shows Γ pins; LaunchGate blocks on stale. |
 | **CC-E18‑19a — Γ_time pin shape (normative)** | The `Γ_time` pin is one of: `snapshot(t)`, `interval[t1,t2]` (closed), or `policy(Γ_timeRuleId)` that resolves to either; CV computations record the **resolved time reference** in `DecisionLog` and do not widen Γ at publication time. | DecisionLog shows the resolved reference; linter rejects missing or implicit Γ. |
 | **CC-E18‑20 — Lean publish‑mode ≠ weaken** | `AssuranceLane‑Lite` changes publication faces only; required GateChecks for the active profile remain intact. | Gate in Lean or Core shows minimal pins; GateChecks list unchanged. |
@@ -517,7 +544,7 @@ This table is a selected-structure coverage table for E.18 crossings and path sl
 **Recommended defaults (non-normative, tie-in to `A.21` and `G.11`).** Profiles inherit along a `PathSlice`; local overrides only **add** GateChecks; weakening uses a new `PathSlice` and refresh wiring through the current `G.11` locus when refresh wiring is current.
 
 ### E.18:9 - E.18 LEX Discipline (registration)
-Register Tech tokens (ASCII) used by this pattern with twin-labels: `TransformationFlowStructure`, `TransformationFlowValuation`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Register ASCII spelling **`CLKind`** for Plain display `CL^k` (cf. `CLPlane` for `CL^plane`). Reference MVPK E.17 naming for faces.
+Register Tech tokens (ASCII) used by this pattern with twin-labels: `TransformationFlowStructure`, `TransformationFlowValuation`, `StructuralReinterpretation`, `OperationalGate`, `GateProfile`, `GateCheckRef`, **`GateCheckKind`**, `DecisionLog`, `USM.CompareGuard`, `USM.LaunchGuard`, `KindBridge`, `FlowPositionRef`, `SubflowRef`, `FlowEmbed`, `SentinelId`, `PathSliceId`, `SliceRefresh`, `FinalizeLaunchValues`, `VALATA`. Register ASCII spelling **`CLKind`** for Plain display `CL^k` (cf. `CLPlane` for `CL^plane`). Reference MVPK E.17 naming for faces.
 **CtxState Extension Registry.** Register any extra CtxState slot beyond ⟨L,P,E⃗,D⟩ with: slot id, informal intent, partial‑order rule (with neutral or absorbing), SquareLaw compatibility note, and the Gate profile or profiles allowed to change it. Absence of registration ⇒ **non‑conformant**.
 
 ### E.18:10 - Consequences
@@ -595,6 +622,7 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 
 **Structure and reuse**
 * **E.18 -> provides selected-structure base for transformation-flow families.** Flow patterns such as P2W and EvaluatingAndRefreshing use E.18 for selected structure, valuation, crossings, guards, MVPK faces, and slice-local refresh. The current ontology is: `A.3.4` governs each independently identified actual bounded `U.Transformation`; E.18 governs the selected compound structure over transformations and adjacent governed loci without asserting transformation composition; and the named governing patterns govern method, work, mechanism, work-to-change, production, evidence, publication, gate, decision, and refresh claims when those claims are current.
+* **E.18 -> coordinates with -> E.18.NET Network of Transformation-Flow Structures.** E.18 owns one exact TFS, its `FlowPositionRef`, parent-relative `SubflowRef`, valuations, paths, slices, local state, and internal `U.Transfer`. E.18.NET starts only when independently identified TFS or nested-network members are selected with exact cross-member relation occurrences; it does not replace a detailed internal portion or several valuations of one TFS.
 * **E.18 -> coordinates with -> architecture transformation-flow relation patterns.** When a selected transformation-flow structure is used in an architecture-flow relation, the architecture transformation-flow relation pattern records the relation between `TransformationFlowStructure` and `ArchitectureOf@Context`; E.18 keeps selected structure, crossing, and flow-valuation discipline.
 * **E.18 -> publishes_on -> E.17 MVPK views** (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) for every transfer or locus where publication occurs; Lean mode applies only as per profile.
 

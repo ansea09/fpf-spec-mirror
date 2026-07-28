@@ -6,12 +6,12 @@ section_id: "A.16:16"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__017_migration-and-boundary-notes.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:16 — Migration and Boundary Notes"
-line_start: 26831
-line_end: 26838
+line_start: 26841
+line_end: 26848
 dependencies:
   - "A.16"
   - "A.16.0"

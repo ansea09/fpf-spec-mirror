@@ -6,12 +6,12 @@ section_id: "E.18.2:4.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__007_bias-annotation.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4.6 — Bias-Annotation"
-line_start: 82628
-line_end: 82637
+line_start: 82910
+line_end: 82919
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,23 +28,19 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:4.6 - Bias-Annotation
 
 | Bias | How E.18.2 prevents it |
 | --- | --- |
-| Graph-as-world bias | The selected structure stays with `E.18`; a graph or algebraic object is only the mathematical description unless another governing pattern says otherwise. |
+| Graph-as-world bias | One selected TFS stays with `E.18`, one selected network stays with `E.18.NET`, and a graph or algebraic object remains the E.18.2 mathematical description unless another governing pattern makes a different claim current. |
 | Path-as-procedure bias | A mathematical path or path slice can express reachability or locality; method and work-plan claims stay with method and work-plan patterns. |
 | Diagram-as-architecture bias | Architecture adequacy stays with `C.30`, `C.30.ASV`, and related architecture patterns; E.18.2 records only the mathematical-description relation. |
 | Math-as-authority bias | No mathematical expression authorizes work, passes a gate, settles evidence, grants release, or proves assurance by itself. |

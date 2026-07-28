@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:End"
 section_title: "C.30.TFS-REL:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__014_c-30-tfs-rel-end.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:End — C.30.TFS-REL:End"
-line_start: 62218
-line_end: 62219
+line_start: 62304
+line_end: 62305
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,15 +42,11 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ### C.30.TFS-REL:End

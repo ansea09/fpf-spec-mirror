@@ -6,12 +6,12 @@ section_id: "E.18.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__013_relations.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:10 — Relations"
-line_start: 82685
-line_end: 82694
+line_start: 82967
+line_end: 82977
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,21 +28,18 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:10 - Relations
 
-- `E.18` governs selected `TransformationFlowStructure`, flow valuation, path, slice, crossing, transfer annotations, and refresh locality.
+- `E.18` governs one selected `TransformationFlowStructure`, flow valuation, path, slice, crossing, transfer annotations, and refresh locality.
+- `E.18.NET` governs one selected network of independently identified TFS or nested-network members and exact cross-member relation occurrences.
 - `A.3.4` governs atomic `U.Transformation` identity and slots.
 - `C.29` governs mathematical-lens use adequacy, preserved/lost structure, payoff, obstruction, and stop condition when these claims are current.
 - `C.2.1` and `E.17` govern description episteme and publication faces.

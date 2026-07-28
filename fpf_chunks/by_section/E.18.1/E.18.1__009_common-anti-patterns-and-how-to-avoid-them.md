@@ -6,12 +6,12 @@ section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82405
-line_end: 82417
+line_start: 82678
+line_end: 82690
 dependencies:
   - "A.15"
   - "A.15.PROD"

@@ -6,12 +6,12 @@ section_id: "E.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__004_forces.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:3 — Forces"
-line_start: 67965
-line_end: 67973
+line_start: 68193
+line_end: 68201
 dependencies:
   - "C.18"
   - "C.19"

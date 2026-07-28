@@ -1,53 +1,58 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.32.CONWAY"
-pattern_title: "Transformer and Transformed Architecture Correspondence"
+pattern_title: "Architecture-Influence and Transformed-Architecture Correspondence"
 section_id: "C.32.CONWAY:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__009_common-repair-cues.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
-  - "C.32.CONWAY — Transformer and Transformed Architecture Correspondence"
+  - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:8 — Common Repair Cues"
-line_start: 64768
-line_end: 64779
+line_start: 64987
+line_end: 65002
 dependencies:
   - "A.10"
-  - "A.15"
+  - "A.12"
+  - "A.15.1"
   - "A.19.CPM"
+  - "A.22"
   - "A.3.4"
   - "A.3.4.P"
-  - "A.6.M"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "B.3"
   - "C.11"
+  - "C.25"
   - "C.29"
   - "C.30"
+  - "C.30.TFS-REL"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.FAIL"
   - "C.32.MLAO"
   - "C.32.PAD"
   - "E.18"
+  - "E.18.NET"
   - "G.5"
 keywords:
-  - "Conway correspondence"
-  - "changing relation"
-  - "coordination cost"
-  - "inverse Conway maneuver"
-  - "selected-structure correspondence"
-  - "transformed holon"
-  - "transformer holon"
 ---
 
 ### C.32.CONWAY:8 - Common Repair Cues
 
 | Repair cue | Symptom | First repair |
 |---|---|---|
-| `TransformerArchitectureOmitted` | The transformed-holon candidate requires independent change, testing, deployment, certification, or maintenance that the declared changing holon cannot support. | Add transformer-side candidates, transformed-side retargeting candidates, joint candidates, and bounded-mismatch candidates before the palette enters comparison, selection, local choice, or decision work. |
-| `TransformedArchitectureNoTransformerFit` | The desired transformed-holon architecture cannot be produced or sustained by the declared changing holon. | Open inverse Conway retargeting or transformed architecture retargeting as candidate alternatives. |
-| `InverseConwayNoTransformerChange` | The text says inverse Conway but names no transformer-side selected structure change. | Name the transformer-side selected structure changed, affected architecture characteristic, loss, migration burden, and receiving pattern. |
-| `CoordinationCostHidden` | A candidate reduces visible coupling in the changed holon while shifting coordination cost into shared work, test, approval, evidence, manufacturing, or operational structures. | Name the transformer-side structure carrying the cost and prepare candidate alternatives that change it, change the transformed architecture, or keep a bounded mismatch. |
-| `MirroringNoExceptionTest` | A mirroring claim is used without stating preserved structure, lost structure, exception condition, or evolution window. | Keep it as diagnostic pressure, or use `C.29` for a declared structural-similarity lens. |
-| `TransformerTransformedCollapse` | The changing holon architecture and changed holon architecture are written as one architecture. | Name the two architecture refs, selected structures on each side, and the changing relation between them. |
-| `BoundedMismatchHidden` | A known mismatch is kept without cost or trigger. | Record exception cost, bounded-use limit, source-return condition, and reopen trigger. |
+| `ArchitectureActs` | An architecture, method, toolchain, organization chart, or episteme builds, decides, repairs, or performs. | Start with the domain action; name the exact system and Work when current, then state architecture influence separately. |
+| `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the direct owner: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
+| `ChangedReferentHidden` | The pair is named but the object of change is not. | Identify the changed referent and changing relation independently. |
+| `PerformerBasisMissing` | A performer is named without assignment or dated Work. | Apply A.12 and A.15.1 and restore the exact performer basis. |
+| `TransformedArchitectureNoSourceFit` | The desired architecture cannot be sustained by the current influence-side structures. | Open source-side retargeting, transformed-architecture retargeting, joint change, and bounded mismatch as alternatives. |
+| `InverseConwayNoSourceChange` | The text says inverse Conway but names no selected influence-source structure change. | Name that exact structure, affected characteristic, migration burden, loss, and receiving pattern or drop the inverse-Conway claim. |
+| `SourceChangeNoTransformedPressure` | A source-side organization, method, line, or toolchain change has no transformed architecture characteristic under pressure. | Route the change to its direct Work or organization-governance pattern until the architecture pair is current. |
+| `CoordinationCostHidden` | Visible coupling falls while Work, evidence, approval, manufacturing, or operational coordination rises elsewhere. | Name the exact influence source and relation carrying that pressure; add candidates that expose the shifted cost. |
+| `MirroringNoExceptionTest` | Mirroring is used without preserved or lost structure, an exception, or an evolution window. | Keep it as diagnostic pressure or use C.29 for the declared lens. |
+| `PairFlattenedIntoNetwork` | One architecture pair is called the entire transformation-flow network. | Restore E.18.NET identity and keep the pair as one optional qualified reading. |
+| `BoundedMismatchHidden` | A known mismatch is kept without cost or trigger. | Record bounded use, exception cost, source return, and reopen trigger. |
 

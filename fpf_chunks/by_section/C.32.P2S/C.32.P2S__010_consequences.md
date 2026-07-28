@@ -6,12 +6,12 @@ section_id: "C.32.P2S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__010_consequences.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:9 — Consequences"
-line_start: 63857
-line_end: 63866
+line_start: 63943
+line_end: 63952
 dependencies:
   - "A.15"
   - "A.15.1"

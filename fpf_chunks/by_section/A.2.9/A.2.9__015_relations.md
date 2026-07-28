@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:12 — Relations"
-line_start: 6618
-line_end: 6631
+line_start: 6628
+line_end: 6641
 dependencies:
   - "A.10"
   - "A.15.1"

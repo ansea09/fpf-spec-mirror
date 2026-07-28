@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 62171
-line_end: 62182
+line_start: 62256
+line_end: 62268
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,15 +42,11 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ### C.30.TFS-REL:8 - Common Anti-Patterns and How to Avoid Them
@@ -57,6 +54,7 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | **Structure-as-architecture** | The E.18 selected transformation-flow structure is called the whole architecture. | Use C.30 for the grounded architecture claim, selected architecture-relevant structure, or conditional architecture description, and keep this relation only for the transformation-flow relation. |
+| **Unnamed network as architecture bearer** | A connected network or its graph is assigned maintainability, capability, responsibility, agency, or production without one containing holon or explicit participating architecture claims. | Select the named-containing-holon branch or the explicit inter-holon branch, restore every characteristic to a named bearer, and keep the graph or record outside architecture identity. |
 | **Graph-description-as-functional-architecture** | A graph-shaped mathematical description or diagram is treated as the functional architecture itself. | Split functional structure, selected transformation-flow structure, mathematical description, and publication face; add correspondence when needed. |
 | **Flow-as-work-log** | Path or slice wording is treated as work occurrence. | Assign occurrence or result claims to A.15 or P2W and keep E.18 to selected structure, path, slice, or valuation. |
 | **Crossing-as-gate-result** | A crossing relation is treated as gate passage. | Assign gate-decision claims to A.21 and keep crossing relation under E.18. |

@@ -6,12 +6,12 @@ section_id: "A.22:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__008_conformance-checklist.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:7 — Conformance Checklist"
-line_start: 34234
-line_end: 34252
+line_start: 34250
+line_end: 34269
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -58,6 +58,7 @@ dependencies:
   - "E.17.1"
   - "E.18"
   - "E.18.3"
+  - "E.18.NET"
   - "E.24"
   - "E.24.PUB"
   - "F.18"
@@ -74,6 +75,7 @@ keywords:
 | **CC-A22-1a Independent grounding.** | Every constituent and selected relation occurrence keeps its direct identity; a collection, constraint episteme, graph, table, description, view, or publication neither creates them nor makes a relation obtain. | Apply the constituent and direct relation patterns first; treat the visible artifact as a C.29 representation or C.2.1 episteme only when that is what is present. |
 | **CC-A22-1b Selection work and result separation.** | When a load-bearing selection claim is current, an exact system performs method-governed dated work through exact participation relations or A.6.1 bindings. Any durable result is a separate C.2.1 episteme, and any accountable choice remains under its decision governor. | Name the acting system, method, work, bindings, and result or decision separately; remove them from structure identity. |
 | **CC-A22-1c Reidentification.** | A changed designator, method, work, result episteme, graph, description, or publication leaves the structure unchanged when all four identity discriminators remain unchanged; a changed discriminator reopens identity. | Compare the four discriminators and apply each selected relation occurrence's direct identity rule before reapplying A.22. |
+| **CC-A22-1d Transformation-flow network profile.** | An E.18.NET value applies all four A.22 discriminators to exact TFS or nested-network constituents, exact governed cross-member relation occurrences, the E.18.NET constraints as applied, and one named network-use frame. A constituent row supplies no generic membership occurrence, and A.22 carries no duplicate network fields. | Recover any missing member or direct relation governor, then apply E.18.NET. If a separate membership relation is actually needed, route it to its direct relation owner rather than inferring it from the constituent list or graph. |
 | **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure, pattern, constraint, graph, or result act, select, optimize, prove, decide, warrant, sense, plan, or adapt. | Name the exact acting system and its work or apply the governing proof, decision, or work pattern; keep A.22 to selected organization. |
 | **CC-A22-3 Structure-claim reliance relation boundary.** | When source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is claimed, the governing A.6.6 relation ontology, source-description ontology, evidence ontology, lens ontology, assurance ontology, causal ontology, gate ontology, decision ontology, or publication ontology is named. | Add the governing pattern, relation kind where the relation is being claimed, validation boundary, admissible use, and non-admissible use, or mark the reliance phrase as carrying no admissible reliance. |
 | **CC-A22-4 Description and view separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Treat the visible form as description, view, source-description relation, A.6.6 base declaration, publication form, or publication and name the selected structure separately only if selected organization is being claimed. |

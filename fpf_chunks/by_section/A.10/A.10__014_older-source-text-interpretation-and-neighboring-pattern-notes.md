@@ -6,12 +6,12 @@ section_id: "A.10:10"
 section_title: "Older source text interpretation and neighboring-pattern notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_older-source-text-interpretation-and-neighboring-pattern-notes.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10 — Older source text interpretation and neighboring-pattern notes"
-line_start: 22962
-line_end: 22975
+line_start: 22972
+line_end: 22985
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__001_intro.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:intro — Intro"
-line_start: 61859
-line_end: 61867
+line_start: 61903
+line_end: 61911
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,15 +42,11 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ## C.30.TFS-REL - Architecture Transformation-Flow Structure Relation
@@ -59,5 +56,5 @@ keywords:
 > **Normativity:** Normative unless explicitly marked informative
 > **Tech-name:** `ArchitectureTransformationFlowStructureRelation` (relation record)
 > **Plain-name:** architecture transformation-flow structure relation
-> **Governed object:** the architecture-side relation from `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional architecture-description use to one selected `TransformationFlowStructure` under `E.18`.
+> **Governed object:** the architecture-side relation from `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional architecture-description use to one selected `TransformationFlowStructure` under `E.18` or one selected `TransformationFlowStructureNetwork` under `E.18.NET`.
 

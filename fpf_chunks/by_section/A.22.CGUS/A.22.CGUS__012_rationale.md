@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__012_rationale.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:10 — Rationale"
-line_start: 34947
-line_end: 34954
+line_start: 34991
+line_end: 34998
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -28,8 +28,11 @@ dependencies:
   - "E.10.MOVE"
   - "E.11"
   - "E.17"
+  - "E.18"
   - "E.18.1"
   - "E.18.3"
+  - "E.18.NET"
+  - "E.18.NET-conforming"
   - "E.23"
   - "F.17"
   - "G.11"

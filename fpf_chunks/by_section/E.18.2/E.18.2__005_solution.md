@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 82549
-line_end: 82617
+line_start: 82825
+line_end: 82897
 dependencies:
   - "A.10"
   - "A.15"
@@ -28,21 +28,17 @@ dependencies:
   - "E.17"
   - "E.18"
   - "E.18.1"
+  - "E.18.3"
+  - "E.18.NET"
   - "U.Episteme"
   - "U.Signature"
   - "U.Transformation"
 keywords:
-  - "C.29 boundary"
-  - "algebraic description"
-  - "graph expression"
-  - "mathematical description"
-  - "path expression"
-  - "transformation-flow math"
 ---
 
 ### E.18.2:4 - Solution
 
-Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Keep the selected structure reference and the expression relation separate. Then decide whether the C.29 lens-use card is needed for adequacy, payoff, preserved/lost structure, or boundary.
+Write a `TransformationFlowMathematicalDescription@Context` only when the mathematical expression changes the current transformation-flow description move. Name exactly one described ontic subject: one E.18 TFS or one E.18.NET network. Keep that subject reference, the mathematical description, any C.29 lens-use judgment, and any E.17 publication face separate. Then decide whether the C.29 lens-use card is needed for adequacy, payoff, preserved/lost structure, or boundary.
 
 #### E.18.2:4.1 - First-use record
 
@@ -50,7 +46,9 @@ Use this compact record for ordinary cases:
 
 ```text
 TransformationFlowMathematicalDescription@Context:
-  DescribedTransformationFlowStructureRef:
+  # exactly one described ontic subject branch is present:
+  DescribedTransformationFlowStructureRef?:
+  DescribedTransformationFlowStructureNetworkRef?:
   DescribedSliceOrLocusRef?:
   CandidateMathObject:
   ExpressionKind:
@@ -64,13 +62,13 @@ TransformationFlowMathematicalDescription@Context:
   RelatedGovernedClaimRef?:
 ```
 
-`DescribedTransformationFlowStructureRef` points to the selected E.18 structure. `DescribedSliceOrLocusRef?` names a path, slice, crossing, flow valuation, transformation locus, signature locus, mechanism locus, work-plan locus, work locus, evidence locus, result locus, or refresh locus when the expression describes only part of the structure. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `RelatedGovernedClaimRef?` points to the separate relation record only when a stronger claim is being made; it is not a local authority slot.
+Exactly one of `DescribedTransformationFlowStructureRef?` and `DescribedTransformationFlowStructureNetworkRef?` is present. The first points to one E.18 TFS; the second points to one already selected E.18.NET network. `DescribedSliceOrLocusRef?` may cite an existing path, slice, `FlowPositionRef`, `ExposedFlowPositionRef`, member path, E.18.NET `NetworkCrossFlowRelationRowRef`, or other governed part without copying its owner's fields. `CandidateMathObject` and `ExpressionKind` name the graph, algebra, category, tuple, morphism, quotient, fold, refinement, factorization, wiring, matrix, network expression, or related mathematical object. `PreservedStructure`, `LostStructure`, `DeclaredUse`, and `BoundaryStop` follow the C.29 discipline when the expression is claim-bearing. `PublicationFaceRef?` points to a separate E.17 publication; `RelatedGovernedClaimRef?` points to a separate relation record only when a stronger claim is current. Neither is a local authority slot.
 
 #### E.18.2:4.2 - Expression families
 
 | Expression family | Use when it describes | Required boundary |
 |---|---|---|
-| graph, hypergraph, network, DSM, DMM, MDM, or matrix | dependency, transfer, adjacency, interface placement, clustering, or change propagation inside a selected transformation-flow structure | not the selected structure unless E.18 says so; not work occurrence, gate passage, or evidence |
+| graph, hypergraph, network expression, DSM, DMM, MDM, or matrix | dependency, internal transfer, exact cross-member relation, adjacency, interface placement, clustering, or change propagation inside one selected TFS or across one selected TFS network | not the selected TFS or network; E.18 and E.18.NET own those ontic subjects, while E.18.2 owns this description; not work occurrence, gate passage, or evidence |
 | mathematical path or path slice | reachability, carried relation, currentness slice, refresh locality, or crossing-local replay | not a project procedure or performed sequence |
 | tuple, record, slot relation, or typed relation expression | slot positions, relation arity, locus typing, and value placement | not a new U-kind and not a replacement for A.6.5 slot discipline |
 | morphism, composition, category, operad, optic, or wiring expression | composition, interface, substitution, transfer law, or decomposition of selected transformations | not proof that the represented work can be performed or that interfaces are semantically compatible |
@@ -78,20 +76,21 @@ TransformationFlowMathematicalDescription@Context:
 | algebra, semiring, equation system, or constraint system | operation law, conservation, admissible composition, or constraint propagation over the selected structure | not a mechanism, formal substrate, or empirical law unless `A.6.0` governs the formal substrate, `A.6.1` governs the postulate or principle frame, and the relevant evidence pattern is current |
 | learned representation, embedding, simulation object, or differentiable surrogate | approximate structure, optimization, similarity, or predictive proxy over transformation-flow structure | not architecture adequacy, OOD guarantee, causal proof, or release readiness by itself |
 
-These families are prompts for recovery, not a taxonomy of new FPF kinds. A local expression may combine several families; the record still names one selected structure, one current described slice or locus when relevant, and the declared use.
+These families are prompts for recovery, not a taxonomy of new FPF kinds. A local expression may combine several families; the record still names exactly one selected TFS or network subject, one current described part when relevant, and the declared use.
 
-#### E.18.2:4.3 - Four-way discriminator
+#### E.18.2:4.3 - Five-way subject, description, lens, and publication discriminator
 
 Use this discriminator before writing or accepting a mathematical description:
 
 ```text
-If the claim selects or audits the compound structure in the project, use E.18.
-If the claim describes that selected structure with mathematics, use E.18.2.
-If the claim evaluates the mathematical lens use, use C.29 with an E.18.2 reference.
-If the claim publishes a view, diagram, card, table, or equation face, use E.17 and the governing view or architecture-description pattern.
+If the claim selects one TFS or its internal flow structure, use E.18.
+If the claim selects independently identified TFS or nested-network members plus exact cross-member relations, use E.18.NET.
+If the claim describes exactly one selected TFS or network with mathematics, use E.18.2.
+If the claim evaluates that mathematical lens use, use C.29 with the E.18.2 description reference.
+If the claim publishes a graph, table, equation, diagram, card, or other face, use E.17 and the governing view or architecture-description pattern.
 ```
 
-The same source expression or publication may require several records. A refrigerator principle scheme may include a publication face, a functional-architecture view, a selected `TransformationFlowStructure`, a thermodynamic mechanism claim, and a mathematical graph or equation description. E.18.2 writes only the mathematical-description relation. If the same expression is also used as a mathematical lens for world-side adequacy, C.29 governs the lens-use adequacy; if it is only a published face, E.17 governs publication use.
+The same visible source may require several records, but each E.18.2 description chooses one described ontic subject branch. A refrigerator principle scheme may include an E.17 publication face, a functional-architecture view, one selected E.18 TFS, a thermodynamic mechanism claim, and an E.18.2 graph or equation description. A network diagram may similarly publish an E.18.2 description of one already selected E.18.NET network. If the expression is evaluated as a lens, C.29 governs adequacy; if it is rendered or published, E.17 governs that publication. Neither record reidentifies the TFS or network.
 
 
 #### E.18.2:4.4 - Related governed claims
@@ -101,7 +100,8 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 | Current claim | Use |
 |---|---|
 | one bounded change under conditions | `A.3.4` |
-| selected compound structure, flow valuation, path, slice, crossing, or refresh locus | `E.18` |
+| one selected transformation-flow structure, flow valuation, path, slice, crossing, or refresh locus | `E.18` |
+| one selected network of independently identified TFS or nested-network members and exact cross-member relations | `E.18.NET` |
 | selected transformation-flow unfolding structure with constraints, guards, preserved/lost structure, and direct exits | `E.18.3` |
 | mathematical-lens adequacy, preserved/lost structure, payoff, or stop condition | `C.29` |
 | method, method description, mechanism, signature, work plan, or performed work | `A.3.1`, `A.3.2`, `A.6.1`, `A.6.0`, `A.15.2`, or `A.15.1` |

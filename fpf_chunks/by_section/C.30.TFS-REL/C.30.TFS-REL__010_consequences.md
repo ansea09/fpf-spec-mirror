@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__010_consequences.md"
-commit_sha: "4b75b56c13f5d61be5238fdbc7c20af5c6f89df7"
+commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:9 — Consequences"
-line_start: 62183
-line_end: 62191
+line_start: 62269
+line_end: 62277
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "C.33"
   - "C.34"
@@ -41,22 +42,18 @@ dependencies:
   - "E.17.0"
   - "E.18"
   - "E.18.2"
+  - "E.18.3"
+  - "E.18.NET"
   - "F.18"
   - "G.6"
 keywords:
-  - "architecture structural view"
-  - "architecture-to-transformation-flow relation"
-  - "candidate architecture input"
-  - "functional behavior"
-  - "selected structure"
-  - "transformation-flow structure"
 ---
 
 ### C.30.TFS-REL:9 - Consequences
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 selected structure, path, crossing, and flow-valuation discipline becomes usable for grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions. | A conforming use names the C.30 architecture record, selected structure ref, C.30.ASV structural-view reference, or conditional architecture-description ref that uses the transformation-flow relation. |
+| E.18 TFS paths, crossings, and valuations and E.18.NET network structure become usable across grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions without merging their owners. | Every use names the exact C.30 architecture claim or relation record, selected architecture-relevant structure, C.30.ASV structural-view ref, or conditional architecture-description ref. A network use also names either one containing architecture claim or all participating architecture claims and keeps every characteristic on a named bearer. |
 | Functional structure and transformation-flow structure stay separable unless positive co-reference is declared. | Concise "the diagram is the architecture" prose is repaired before it is used for an FPF claim kind or admissible-use boundary. |
 | Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
 | The E.18 selected-structure boundary statement stays narrow. | Generic architecture adequacy remains outside E.18. |
