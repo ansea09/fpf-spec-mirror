@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__008_conformance-checklist.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:7 — Conformance Checklist"
-line_start: 65483
-line_end: 65494
+line_start: 65501
+line_end: 65512
 dependencies:
   - "A.10"
   - "A.15"

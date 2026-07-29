@@ -6,12 +6,12 @@ section_id: "B.5.2:13"
 section_title: "Prompt, Candidate, and Hypothesis Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__014_prompt-candidate-and-hypothesis-package-discipline.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:13 — Prompt, Candidate, and Hypothesis Package Discipline"
-line_start: 40062
-line_end: 40102
+line_start: 40080
+line_end: 40120
 dependencies:
   - "A.10"
   - "A.16"

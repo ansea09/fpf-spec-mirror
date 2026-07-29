@@ -6,12 +6,12 @@ section_id: "E.11.PUA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:10 — Rationale"
-line_start: 76179
-line_end: 76186
+line_start: 76281
+line_end: 76288
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,9 +33,9 @@ keywords:
 
 ### E.11.PUA:10 - Rationale
 
-FPF patterns are action-guiding method descriptions, but readers meet them in concrete situations. The missing middle is neither discovery nor recommendation: it is the disciplined application of one selected `Solution` to obtain the first result that the situation can use.
+FPF patterns are action-guiding method descriptions, but readers meet them in concrete situations. The missing middle is neither discovery nor recommendation: follow one selected conditional `Solution` to identify the first independently governed result that answers the current question; if the direct basis for treating it as this use's result is absent, stop and name the missing basis.
 
-Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. A transfer, audit, automated use, or expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
+Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. Another person's later use, an audit, an automated use, or an expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
 
-The first result boundary prevents proxy completion. A plan, note, simulation, or assessment may be valuable and may be the exact result of the current pattern application. It cannot stand for a later physical, clinical, organizational, or learned change. Stop where the current pattern actually produced value, then continue under the pattern that governs the next work.
+The first-result boundary prevents proxy completion. A plan, note, simulation, or assessment may be valuable and may be the independently governed entity at the current pattern-use position. It cannot stand for a later physical, clinical, organizational, or learned change. Stop where the current direct basis supports value, then continue under the pattern that governs the next Work or relation.
 

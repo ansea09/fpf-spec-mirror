@@ -6,12 +6,12 @@ section_id: "E.24.PUB:End"
 section_title: "E.24.PUB:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__015_e-24-pub-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:End — E.24.PUB:End"
-line_start: 87112
-line_end: 87113
+line_start: 87226
+line_end: 87227
 dependencies:
   - "A.19"
   - "A.19.ECS"

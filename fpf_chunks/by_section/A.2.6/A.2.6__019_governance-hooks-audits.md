@@ -6,12 +6,12 @@ section_id: "A.2.6:17"
 section_title: "Governance Hooks & Audits"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__019_governance-hooks-audits.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:17 — Governance Hooks & Audits"
-line_start: 5025
-line_end: 5060
+line_start: 5043
+line_end: 5078
 dependencies:
   - "A.1.1"
   - "A.15.1"

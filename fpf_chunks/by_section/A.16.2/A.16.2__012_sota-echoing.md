@@ -6,12 +6,12 @@ section_id: "A.16.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__012_sota-echoing.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:11 — SoTA-Echoing"
-line_start: 27610
-line_end: 27612
+line_start: 27628
+line_end: 27630
 dependencies:
   - "A.16"
   - "A.16.0"

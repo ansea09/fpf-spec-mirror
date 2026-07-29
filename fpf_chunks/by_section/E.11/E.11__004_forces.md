@@ -6,12 +6,12 @@ section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:3 — Forces"
-line_start: 75374
-line_end: 75386
+line_start: 75394
+line_end: 75406
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -31,11 +31,11 @@ keywords:
 | Force | Pressure on the solution |
 | --- | --- |
 | Recognition | Public wording starts from situations engineers recognize, not internal pattern topology. |
-| Exactness | Every candidate points to a direct `Solution` and an exact first-result kind. |
+| Exactness | Every candidate names the admitted kind of a potential result, the local identification question, its direct owner and identity-or-obtaining basis template, the kind of governed object relative to which the result phrase would be true, and one category-correct relative-basis template. |
 | No fictitious context | Public guidance has no reader-project identity and cannot contain `@Context` instances. |
 | Bounded search | Several cards can remain plausible, so comparison needs stop and return conditions rather than one perfect first guess. |
 | Light ordinary use | Card comparison should normally remain in conversation. |
-| Durable reliance | A named transfer, replay, audit, or automation use can rely on addressable comparison history. |
+| Durable reliance | A named later review, replay, audit, or automation use can rely on addressable comparison history. |
 | Didactic continuity | Every card needs a readable walkthrough, not only a list of PatternIDs. |
 | One source of guidance | README carries the public card set; Preface, ToC, retrieval, and pattern bodies answer different questions. |
 

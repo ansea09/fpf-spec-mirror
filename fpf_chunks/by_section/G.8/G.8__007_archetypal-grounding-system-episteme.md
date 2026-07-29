@@ -6,12 +6,12 @@ section_id: "G.8:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__007_archetypal-grounding-system-episteme.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:6 — Archetypal Grounding (System / Episteme)"
-line_start: 99441
-line_end: 99453
+line_start: 99555
+line_end: 99567
 dependencies:
   - "A.10"
   - "A.21"

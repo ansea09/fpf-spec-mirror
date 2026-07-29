@@ -6,12 +6,12 @@ section_id: "A.6.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__005_solution.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:4 — Solution"
-line_start: 18392
-line_end: 18558
+line_start: 18410
+line_end: 18576
 dependencies:
   - "A.15.3"
   - "A.6.0"

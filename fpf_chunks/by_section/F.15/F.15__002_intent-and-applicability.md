@@ -6,12 +6,12 @@ section_id: "F.15:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__002_intent-and-applicability.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:1 — Intent and applicability"
-line_start: 92727
-line_end: 92754
+line_start: 92841
+line_end: 92868
 dependencies:
   - "A.10"
   - "A.15.1"

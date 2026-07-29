@@ -6,12 +6,12 @@ section_id: "E.18:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__013_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:10 — Consequences"
-line_start: 82047
-line_end: 82061
+line_start: 82161
+line_end: 82175
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -48,7 +48,7 @@ keywords:
 5. **Assurance visibility:** MVPK makes GateProfile and DecisionLog records locally checkable and cacheable for the same `{PathSlice, GateChecks, Editions}`.
 
 **Trade‑offs.**
-a) **Higher upfront modeling cost:** explicit Bridge and UTS pins and GateProfiles demand care; mitigated by Lean profile and templates.
+a) **Higher upfront modeling cost:** exact crossing positions, changed-binding governors, gate refs, and optional durable crossing bundles demand care; mitigated by keeping ordinary local crossings unbundled when no downstream reliance needs replay.
 b) **Longer transfer face sets:** MVPK faces are verbose by design; lean face sets can be used for low-risk segments.
 c) **Tooling alignment:** some incumbent DAG-only orchestrators conflict with budgeted cycles and set-return semantics; adapters project E.18 semantics to their interop boundary, while `E.18.2` carries the mathematical graph-description relation when that projection matters.
 

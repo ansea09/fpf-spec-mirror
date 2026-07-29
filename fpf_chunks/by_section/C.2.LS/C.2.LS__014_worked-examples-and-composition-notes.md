@@ -6,12 +6,12 @@ section_id: "C.2.LS:13"
 section_title: "Worked Examples and Composition Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__014_worked-examples-and-composition-notes.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:13 — Worked Examples and Composition Notes"
-line_start: 43080
-line_end: 43108
+line_start: 43098
+line_end: 43126
 dependencies:
   - "A.16"
   - "A.16.0"

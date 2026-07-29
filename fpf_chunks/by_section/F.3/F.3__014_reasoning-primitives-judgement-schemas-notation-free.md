@@ -6,12 +6,12 @@ section_id: "F.3:13"
 section_title: "Reasoning primitives (judgement schemas, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__014_reasoning-primitives-judgement-schemas-notation-free.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:13 — Reasoning primitives (judgement schemas, notation‑free)"
-line_start: 88749
-line_end: 88792
+line_start: 88863
+line_end: 88906
 dependencies:
   - "A.11"
   - "A.7"

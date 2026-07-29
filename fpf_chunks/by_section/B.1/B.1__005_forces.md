@@ -6,12 +6,12 @@ section_id: "B.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__005_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:3 — Forces"
-line_start: 35077
-line_end: 35086
+line_start: 35095
+line_end: 35104
 dependencies:
   - "A.1"
   - "A.14"

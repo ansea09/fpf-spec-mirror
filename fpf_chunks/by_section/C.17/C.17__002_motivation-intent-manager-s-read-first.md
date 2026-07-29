@@ -6,12 +6,12 @@ section_id: "C.17:1"
 section_title: "Motivation & Intent (manager’s read‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__002_motivation-intent-manager-s-read-first.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:1 — Motivation & Intent (manager’s read‑first)"
-line_start: 48322
-line_end: 48335
+line_start: 48340
+line_end: 48353
 dependencies:
   - "A.1"
   - "A.10"

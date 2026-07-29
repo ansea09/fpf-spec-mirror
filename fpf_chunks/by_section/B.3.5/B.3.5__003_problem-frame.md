@@ -6,12 +6,12 @@ section_id: "B.3.5:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__003_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:2 — Problem Frame"
-line_start: 39050
-line_end: 39053
+line_start: 39068
+line_end: 39071
 dependencies:
   - "B.3"
   - "C.13"

@@ -6,12 +6,12 @@ section_id: "A.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__004_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:3 — Forces"
-line_start: 22516
-line_end: 22524
+line_start: 22534
+line_end: 22542
 dependencies:
   - "A.1"
   - "A.8"

@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution — U.MultiViewDescribing as the universal multi‑view scaffold  (normative core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution-u-multiviewdescribing-as-the-universal-multi-view-scaffold-normative-core.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
   - "E.17.0:4 — Solution — U.MultiViewDescribing as the universal multi‑view scaffold  (normative core)"
-line_start: 77567
-line_end: 77774
+line_start: 77669
+line_end: 77876
 dependencies:
   - "A.15"
   - "A.2"

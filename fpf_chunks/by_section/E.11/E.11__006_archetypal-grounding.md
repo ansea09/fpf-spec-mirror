@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:5 — Archetypal Grounding"
-line_start: 75610
-line_end: 75641
+line_start: 75657
+line_end: 75688
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -34,7 +34,7 @@ A team says, "Our diagram no longer explains the system." `ARCHITECTURE` and `DE
 
 The team compares the first-result difference, opens `C.30` and `E.17.0`, and discovers that the selected structure is unsettled. It starts with `ARCHITECTURE`. No shortlist record is needed because the comparison is local and reversible.
 
-#### E.11:5.2 - Transfer needs comparison history
+#### E.11:5.2 - A later safety review needs comparison history
 
 The receiving safety review relies on an addressable rationale for why two teams considered `TIME`, `COSTLY-ACTION`, `CAUSAL-USE`, and `SYSTEM-IN-CONTEXT` before a hazardous test, because it will replay the selection after new measurements arrive. The fourth card remains plausible while the test-object boundary, participation, or functioning relation is unsettled.
 
@@ -42,13 +42,13 @@ That named reliance admits a `PracticalUseCardShortlist@Context` with four compa
 
 #### E.11:5.3 - A card leads to a physical result without promising it
 
-`WORKING-DOCUMENTS` can lead to a usable machining work instruction. The card's direct result is a method description or WorkPlan, not the machined component. The public expansion names the exact first result and points to A.15 for later work.
+`WORKING-DOCUMENTS` can lead to a usable machining work instruction. Its public template first names the admitted `U.MethodDescription` or `U.WorkPlan` kind and asks how a later project use would identify the episteme under A.3.2 or A.15.2. It then asks separately which exact relation occurrence, A.6.1 binding, or category-correct local claim would make that episteme the result relative to the later document-use or machining-planning object. Any conditional receiving pattern appears only when that continuation is part of the branch. The card does not promise a machined component.
 
-The reader can therefore imagine useful progress without inferring that publication or planning performed the machining.
+The reader can therefore imagine useful progress without inferring that publication or planning performed the machining. When actual machining or other dated work later becomes current, use A.15.1 to identify the exact performed Work occurrence; use A.15 as well only when role–method–work alignment is itself current. The instruction or plan is neither that dated `U.Work` nor proof that it occurred.
 
 #### E.11:5.4 - Repair the smallest card slice after a direct result changes
 
-Suppose a new `A.6.3.RT` edition makes `RepresentationSchemeTransitionRelation@Context` the exact first result for one `DESCRIPTION-USE` condition. Repair that candidate-use template, its exact result kind and conditional relation signature, its readable coarsening row, and any boundary whose condition changed. Recheck the linked walkthrough against the repaired result.
+Suppose a new `A.6.3.RT` edition makes one exact `RepresentationSchemeTransitionRelation@Context` kind the potential first-result kind for one `DESCRIPTION-USE` condition. Repair that candidate-use template so it names the relation kind, its source and target participant kinds, A.6.3.RT predicate and obtaining test, occurrence-identification question, the governed-object kind relative to which a later PUA use would call it a result, its readable coarsening row, and any boundary whose condition changed. Recheck the linked walkthrough against that context-free basis template; only PUA later names a project occurrence.
 
 The public card heading and question remain unchanged when readers still recognize the same situation. Preface and ToC remain unchanged when framework rationale and retrieval location did not move. The `A.6.3.RT` pattern body remains the authority for the relation; E.11 repairs only the public guidance that points to it.
 

@@ -6,12 +6,12 @@ section_id: "G.7:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:10 — Rationale"
-line_start: 99073
-line_end: 99078
+line_start: 99187
+line_end: 99192
 dependencies:
   - "A.21"
   - "B.3"

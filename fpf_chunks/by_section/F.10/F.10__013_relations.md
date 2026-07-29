@@ -6,12 +6,12 @@ section_id: "F.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__013_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:12 — Relations"
-line_start: 91430
-line_end: 91445
+line_start: 91544
+line_end: 91559
 dependencies:
   - "A.2.4"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "E.18:15a"
 section_title: "E.18.1 P2W Child-Pattern Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__018_e-18-1-p2w-child-pattern-relation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15a — E.18.1 P2W Child-Pattern Relation"
-line_start: 82139
-line_end: 82142
+line_start: 82253
+line_end: 82256
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,5 +39,5 @@ keywords:
 
 ### E.18:15a - E.18.1 P2W Child-Pattern Relation
 
-`E.18.1` is a child pattern for problem-to-work carry-through. It governs the local P2W relation from an accepted `ProblemCard@Context` and carried ClaimGraph content to one next directly governed value or relation. A P2W use consumes this pattern's selected-structure discipline only when a named receiving use relies on an explicit `TransformationFlowStructure`, path, flow valuation, transfer, crossing, or gate position; when branches, joins, guards, or governing-pattern positions must be recoverable, `E.18.3` governs that fuller structure. In this split, `E.18.1` carries the accepted problem-side claim and local continuation, while `E.18` carries selected transformation-flow structure without making it mandatory for ordinary P2W use.
+`E.18.1` is a child pattern for problem-to-work carry-through. It governs the practitioner carry-through practice and, when durable replay is needed, its optional C.2.1 note or stop-description claim content. It introduces no local P2W relation kind or occurrence. Each next method, plan, dated Work, transformation, evaluation, decision, entity, or relation occurrence remains with its direct owner. A P2W application consumes this pattern's selected-structure discipline only when a named receiving decision or use relies on an explicit `TransformationFlowStructure`, path, flow valuation, transfer, crossing, or gate position; when branches, joins, guards, or governing-pattern positions must be recoverable, `E.18.3` governs that fuller structure. In this split, `E.18.1` carries the accepted problem-side claim and local continuation, while `E.18` carries selected transformation-flow structure without making it mandatory for ordinary P2W use.
 

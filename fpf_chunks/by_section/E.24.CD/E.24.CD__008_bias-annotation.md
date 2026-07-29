@@ -6,12 +6,12 @@ section_id: "E.24.CD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__008_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:6 — Bias-Annotation"
-line_start: 86773
-line_end: 86786
+line_start: 86887
+line_end: 86900
 dependencies:
   - "A.1"
   - "A.14"

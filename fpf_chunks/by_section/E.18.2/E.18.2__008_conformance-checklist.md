@@ -6,12 +6,12 @@ section_id: "E.18.2:5"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__008_conformance-checklist.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:5 — Conformance checklist"
-line_start: 82920
-line_end: 82932
+line_start: 83034
+line_end: 83046
 dependencies:
   - "A.10"
   - "A.15"

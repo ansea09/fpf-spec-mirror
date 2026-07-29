@@ -6,12 +6,12 @@ section_id: "B.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__012_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:10 — Rationale"
-line_start: 38754
-line_end: 38757
+line_start: 38772
+line_end: 38775
 dependencies:
   - "A.10"
   - "A.14"

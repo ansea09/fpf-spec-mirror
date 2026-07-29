@@ -6,12 +6,12 @@ section_id: "E.11.PUA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__012_sota-echoing.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:11 — SoTA-Echoing"
-line_start: 76187
-line_end: 76201
+line_start: 76289
+line_end: 76303
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -35,10 +35,10 @@ keywords:
 
 | Source or practice line | Problem-solving move taken here | Adoption and boundary |
 | --- | --- | --- |
-| Pattern-language practice: situation recognition, conditional solution, consequences, and neighboring-pattern composition | Begin with direct inspection of the full pattern rather than title matching, then apply one conditional Solution to a bounded result. | Adopt the conditional-use logic. Reject recipe following and pattern-ID matching as sufficient application. |
+| Pattern-language practice: situation recognition, conditional solution, consequences, and neighboring-pattern composition | Begin with direct inspection of the full pattern rather than title matching, then use one conditional `Solution` to identify the first independently governed result and its direct basis, or stop when that basis is missing. | Adopt the conditional result-or-stop logic. Reject recipe following, pattern-ID matching, and generic application-to-result inference as sufficient use. |
 | Jin, Bai, and Oulasvirta, *Modeling Trial-and-Error Navigation With a Sequential Decision Model of Information Scent*, arXiv:2603.11759 (2026) | Make bounded inspection, wrong-turn recognition, and explicit return part of the ordinary use rather than assuming one perfect first selection. | Adapt the navigation result to pattern use. The preprint does not decide FPF ontology, shortlist size, or whether records are needed. |
-| Current FPF `A.10`, `B.3`, `E.18`, `E.18.NET`, `C.2.1`, and `G.11` evidence, assurance, TFS-local position, network, support-episteme, and currentness practices | Keep basis, result kind, receiving use, exact local positions, direct relation, and any current network reading addressable when another participant or system will rely on them later. | Adapt conditionally through `relianceBearing`; reject universal trace production and universal cross-flow edges, and keep evidence, assurance, direct-relation, network, and currentness claims with their governing patterns. |
-| Current FPF `E.11`, `E.11.PUR`, and A.15 | Separate public discovery, one selected-pattern use, recommendation or coordination, intended work, and performed work. | Adopt as the governing ontology for those boundaries. PUA adds only the user-side use method and its dependent relations. |
+| Current FPF `A.10`, `B.3`, `E.18`, `E.18.NET`, `C.2.1`, and `G.11` evidence, assurance, TFS-local position, network, support-episteme, and currentness practices | Keep the result, its direct owner, governed relative object, category-correct direct basis, exact local positions, any separate receiving-use relation, and any current network reading addressable when another participant or system will rely on them later. | Adapt conditionally through `relianceBearing`; reject universal trace production and universal cross-flow edges, and keep evidence, assurance, direct-relation, local-claim, network, and currentness claims with their governing patterns. |
+| Current FPF `E.11`, `E.11.PUR`, and A.15 | Separate public discovery, one selected-pattern use, recommendation or coordination, intended work, performed work, and entity inception. | Adopt as the governing ontology for those boundaries. PUA adds the user-side use method and C.2.1 findings that cite, but do not replace, direct subject relations. |
 
 The practical implication is direct: inspect enough to detect a wrong turn, record only what a named later use needs, and never infer a subject result from the existence of its trace.
 

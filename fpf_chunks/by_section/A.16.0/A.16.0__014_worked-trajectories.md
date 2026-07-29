@@ -6,12 +6,12 @@ section_id: "A.16.0:13"
 section_title: "Worked trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__014_worked-trajectories.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:13 — Worked trajectories"
-line_start: 27181
-line_end: 27203
+line_start: 27199
+line_end: 27221
 dependencies:
   - "A.16"
   - "A.16.1"

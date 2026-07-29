@@ -6,12 +6,12 @@ section_id: "C.17:7"
 section_title: "Manager’s Quick‑Start (apply in 5 steps)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__008_manager-s-quick-start-apply-in-5-steps.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:7 — Manager’s Quick‑Start (apply in 5 steps)"
-line_start: 48511
-line_end: 48521
+line_start: 48529
+line_end: 48539
 dependencies:
   - "A.1"
   - "A.10"

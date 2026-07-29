@@ -6,12 +6,12 @@ section_id: "E.20:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__010_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:9 — Consequences"
-line_start: 84751
-line_end: 84763
+line_start: 84865
+line_end: 84877
 dependencies:
   - "A.15.3"
   - "A.6.1"

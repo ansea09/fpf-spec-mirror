@@ -6,12 +6,12 @@ section_id: "C.27:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:6 — Bias-Annotation"
-line_start: 55974
-line_end: 56001
+line_start: 55992
+line_end: 56019
 dependencies:
   - "A.10"
   - "A.3.3"

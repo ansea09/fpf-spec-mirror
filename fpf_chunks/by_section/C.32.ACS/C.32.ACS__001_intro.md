@@ -6,12 +6,12 @@ section_id: "C.32.ACS:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__001_intro.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:intro — Intro"
-line_start: 64192
-line_end: 64197
+line_start: 64210
+line_end: 64215
 dependencies:
   - "A.10"
   - "A.17"

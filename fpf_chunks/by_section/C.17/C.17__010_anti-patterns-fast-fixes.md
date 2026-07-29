@@ -6,12 +6,12 @@ section_id: "C.17:9"
 section_title: "Anti‑Patterns (fast fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__010_anti-patterns-fast-fixes.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:9 — Anti‑Patterns (fast fixes)"
-line_start: 48551
-line_end: 48560
+line_start: 48569
+line_end: 48578
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:1 — Problem frame"
-line_start: 91202
-line_end: 91217
+line_start: 91316
+line_end: 91331
 dependencies:
   - "A.2.4"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "A.3.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:10 — Rationale"
-line_start: 7600
-line_end: 7605
+line_start: 7618
+line_end: 7623
 dependencies:
   - "A.1.1"
   - "A.10"

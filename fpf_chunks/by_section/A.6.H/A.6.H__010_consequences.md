@@ -6,12 +6,12 @@ section_id: "A.6.H:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__010_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:9 — Consequences"
-line_start: 21317
-line_end: 21327
+line_start: 21335
+line_end: 21345
 dependencies:
   - "A.14"
   - "A.15"

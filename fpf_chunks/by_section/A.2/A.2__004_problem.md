@@ -6,12 +6,12 @@ section_id: "A.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__004_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:2 — Problem"
-line_start: 2236
-line_end: 2248
+line_start: 2254
+line_end: 2266
 dependencies:
   - "A.1"
   - "A.1.1"

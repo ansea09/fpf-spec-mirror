@@ -6,12 +6,12 @@ section_id: "A.7:12"
 section_title: "Rationale (informal)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__013_rationale-informal.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:12 — Rationale (informal)"
-line_start: 21754
-line_end: 21760
+line_start: 21772
+line_end: 21778
 dependencies:
   - "A.1"
   - "A.10"

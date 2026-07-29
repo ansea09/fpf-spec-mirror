@@ -6,12 +6,12 @@ section_id: "A.4:4"
 section_title: "Solution - Temporal Duality Model"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__005_solution-temporal-duality-model.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:4 — Solution - Temporal Duality Model"
-line_start: 8621
-line_end: 8653
+line_start: 8639
+line_end: 8671
 dependencies:
   - "B.4"
 keywords:

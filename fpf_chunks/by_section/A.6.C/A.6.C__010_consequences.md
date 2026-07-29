@@ -6,12 +6,12 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 10779
-line_end: 10791
+line_start: 10797
+line_end: 10809
 dependencies:
   - "A.10"
   - "A.15.1"

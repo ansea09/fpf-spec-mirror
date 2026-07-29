@@ -6,12 +6,12 @@ section_id: "C.18.1:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__008_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:7 — Bias-Annotation"
-line_start: 49298
-line_end: 49305
+line_start: 49316
+line_end: 49323
 dependencies:
   - "C.16"
   - "C.17"

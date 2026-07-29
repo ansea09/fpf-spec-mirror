@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
-line_start: 38214
-line_end: 38815
+line_start: 38232
+line_end: 38833
 dependencies:
   - "A.10"
   - "A.14"

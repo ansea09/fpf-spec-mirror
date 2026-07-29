@@ -6,12 +6,12 @@ section_id: "C.16.Q:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__006_solution.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:4 — Solution"
-line_start: 47614
-line_end: 47968
+line_start: 47632
+line_end: 47986
 dependencies:
   - "A.10"
   - "A.16"

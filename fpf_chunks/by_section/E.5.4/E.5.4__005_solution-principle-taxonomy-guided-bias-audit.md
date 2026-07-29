@@ -6,12 +6,12 @@ section_id: "E.5.4:4"
 section_title: "Solution — Principle‑Taxonomy‑Guided Bias Audit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.4/E.5.4__005_solution-principle-taxonomy-guided-bias-audit.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.5.4 — Cross‑Disciplinary Bias Audit"
   - "E.5.4:4 — Solution — Principle‑Taxonomy‑Guided Bias Audit"
-line_start: 70544
-line_end: 70568
+line_start: 70562
+line_end: 70586
 dependencies:
   - "E.3"
   - "E.5"

@@ -6,12 +6,12 @@ section_id: "E.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__014_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:10 — Rationale"
-line_start: 84345
-line_end: 84350
+line_start: 84459
+line_end: 84464
 dependencies:
   - "A.15.1"
   - "A.6.P"

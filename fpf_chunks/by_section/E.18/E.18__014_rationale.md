@@ -6,12 +6,12 @@ section_id: "E.18:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__014_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:11 — Rationale"
-line_start: 82062
-line_end: 82072
+line_start: 82176
+line_end: 82186
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -42,7 +42,7 @@ keywords:
 E.18 states **strict separation of concerns** (selected-structure scope only); **specialized semantics are governed by the patterns named below for those current relations**:
 
 * **What the selected structure is:** structure-positioned transformation and slot-filler loci plus the single relation kind `U.Transfer`; graph, morphism, tuple, category, or algebra language is used only when a current mathematical description or lens expresses the relation.
-* **Where and when it crosses contexts:** **only** at `OperationalGate(profile)`, with Bridge and UTS, CL and CL^plane, and Φ published in R-lane.
+* **Where and when structural state changes:** only at one `OperationalGate(profile)`, with exact source and receiving positions, changed `CtxState` bindings, their direct governors, and `CrossingRef`. An F.9 Bridge, bounded-use claim, reliance, optional card, and optional `CL` appear only for a separately established cross-semantic use.
 * **How comparability works:** UNM is the single governing locus for unit, plane, and transport declarations, and selectors operate **only** on normalized, edition-pinned comparators, returning sets or archives rather than totals. Edition-aware pins and archive semantics are checked through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` for current selector or archive cases.
 * **How change propagates:** sentinel-bounded `PathSlice` refresh; editions are monotone; LaunchGate is the sole pre-run decision locus for the selected `workEntryClaimRef`, while actual launch values are established only through independently obtaining direct relations or A.6.1 bindings involving the later Work occurrence and may be cited by a separate finalization witness.
 

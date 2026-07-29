@@ -6,12 +6,12 @@ section_id: "C.25:16"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__017_authoring-and-review-guidance.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:16 — Authoring and Review Guidance"
-line_start: 52764
-line_end: 52803
+line_start: 52782
+line_end: 52821
 dependencies:
   - "A.15"
   - "A.16.0"

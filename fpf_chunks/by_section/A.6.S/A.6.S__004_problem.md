@@ -6,12 +6,12 @@ section_id: "A.6.S:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__004_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:2 — Problem"
-line_start: 20610
-line_end: 20618
+line_start: 20628
+line_end: 20636
 dependencies:
   - "A.12"
   - "A.3"

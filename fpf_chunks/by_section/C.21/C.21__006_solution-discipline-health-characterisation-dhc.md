@@ -6,12 +6,12 @@ section_id: "C.21:4"
 section_title: "Solution — Discipline Health Characterisation (DHC)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__006_solution-discipline-health-characterisation-dhc.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:4 — Solution — Discipline Health Characterisation (DHC)"
-line_start: 50238
-line_end: 50314
+line_start: 50256
+line_end: 50332
 dependencies:
   - "A.17"
   - "A.18"

@@ -6,12 +6,12 @@ section_id: "A.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__004_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:3 — Forces"
-line_start: 27918
-line_end: 27929
+line_start: 27936
+line_end: 27947
 dependencies:
   - "A.17"
   - "A.18"

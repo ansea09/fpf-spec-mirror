@@ -6,12 +6,12 @@ section_id: "E.14:End"
 section_title: "E.14:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__017_e-14-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:End — E.14:End"
-line_start: 77096
-line_end: 77097
+line_start: 77198
+line_end: 77199
 dependencies:
   - "B.3.5"
   - "C.13"

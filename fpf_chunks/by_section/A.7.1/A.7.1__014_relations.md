@@ -6,12 +6,12 @@ section_id: "A.7.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__014_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:12 — Relations"
-line_start: 21940
-line_end: 21948
+line_start: 21958
+line_end: 21966
 dependencies:
   - "A.7"
   - "A.7.2"

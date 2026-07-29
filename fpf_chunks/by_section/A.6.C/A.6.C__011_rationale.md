@@ -6,12 +6,12 @@ section_id: "A.6.C:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:10 — Rationale"
-line_start: 10792
-line_end: 10797
+line_start: 10810
+line_end: 10815
 dependencies:
   - "A.10"
   - "A.15.1"

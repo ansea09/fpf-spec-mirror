@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Evidence Semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__010_evidence-semantics-normative.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Evidence Semantics (Normative)"
-line_start: 47051
-line_end: 47063
+line_start: 47069
+line_end: 47081
 dependencies:
   - "A.10"
   - "A.17"

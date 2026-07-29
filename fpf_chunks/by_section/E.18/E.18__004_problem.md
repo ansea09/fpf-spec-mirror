@@ -6,12 +6,12 @@ section_id: "E.18:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__004_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:3 — Problem"
-line_start: 81608
-line_end: 81614
+line_start: 81716
+line_end: 81722
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -41,6 +41,6 @@ keywords:
 
 1. **Mathematical lens != selected structure.** A catalog of morphism-scoped, transformation-scoped, mechanism-scoped, work-scoped, or refresh-scoped patterns does not, by itself, explain **how the whole selected structure is built, constrained, and audited**.
 2. **Flow proliferation.** Multiple “reference flows” can be declared; practitioners need **one structure discipline** that keeps their flow relations typed and comparable **without privileging any single flow**.
-3. **Unsafe publication.** Faces re‑list inputs and outputs, hide scalarization, or omit edition and plane pins; cross‑Context reuse lacks **Bridge and CL** citation; **plane penalties** appear in F-lane or G-lane instead of R-lane.
-4. **Cycles without norms.** Selection↔Planning loops run without explicit **budget (Γ_time)**, **FreshnessRequest**, or **slice-scoped** refresh; a pre-run gate decision is mistaken for actual launch bindings, or a `FinalizeLaunchValues` record is written before an exact Work occurrence and its independently obtaining bindings exist.
+3. **Unsafe publication.** Faces re-list inputs and outputs, hide scalarization, omit edition and plane pins, or present a Bridge Card, `CL` value, UTS row, or policy id as if it made a GateCrossing or gate decision current.
+4. **Cycles without norms.** Selection↔Planning loops run without an explicit **budget (Γ_time)**, an exact stale-measurement finding and any separately governed refresh plan it triggers, or **slice-scoped** refresh; a pre-run gate decision is mistaken for actual launch bindings, or a `FinalizeLaunchValues` record is written before an exact Work occurrence and its independently obtaining bindings exist.
 

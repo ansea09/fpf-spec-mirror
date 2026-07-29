@@ -6,12 +6,12 @@ section_id: "C.35:End"
 section_title: "C.35:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__014_c-35-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:End — C.35:End"
-line_start: 66935
-line_end: 66936
+line_start: 66953
+line_end: 66954
 dependencies:
   - "A.22"
   - "A.6.M"

@@ -6,12 +6,12 @@ section_id: "E.20:End"
 section_title: "E.20:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__014_e-20-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:End — E.20:End"
-line_start: 84800
-line_end: 84801
+line_start: 84914
+line_end: 84915
 dependencies:
   - "A.15.3"
   - "A.6.1"

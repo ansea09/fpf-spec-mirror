@@ -6,12 +6,12 @@ section_id: "C.17:17.2"
 section_title: "Use-Value is not the whole Q-set by default"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__020_use-value-is-not-the-whole-q-set-by-default.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:17.2 — Use-Value is not the whole Q-set by default"
-line_start: 48841
-line_end: 48846
+line_start: 48859
+line_end: 48864
 dependencies:
   - "A.1"
   - "A.10"

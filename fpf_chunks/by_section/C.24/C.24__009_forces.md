@@ -6,12 +6,12 @@ section_id: "C.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__009_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:3 — Forces"
-line_start: 52224
-line_end: 52232
+line_start: 52242
+line_end: 52250
 dependencies:
   - "A.1"
   - "A.15"

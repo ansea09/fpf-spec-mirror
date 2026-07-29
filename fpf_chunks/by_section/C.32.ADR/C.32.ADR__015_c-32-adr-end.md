@@ -6,12 +6,12 @@ section_id: "C.32.ADR:End"
 section_title: "C.32.ADR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__015_c-32-adr-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:End — C.32.ADR:End"
-line_start: 66081
-line_end: 66082
+line_start: 66099
+line_end: 66100
 dependencies:
   - "A.10"
   - "A.15"

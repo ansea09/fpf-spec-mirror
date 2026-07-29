@@ -6,12 +6,12 @@ section_id: "C.18:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:9 — Rationale"
-line_start: 49202
-line_end: 49205
+line_start: 49220
+line_end: 49223
 dependencies:
   - "A.15"
   - "A.17-A.19"

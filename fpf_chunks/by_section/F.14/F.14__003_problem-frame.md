@@ -6,12 +6,12 @@ section_id: "F.14:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__003_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:2 — Problem frame"
-line_start: 92432
-line_end: 92444
+line_start: 92546
+line_end: 92558
 dependencies:
   - "A.10"
   - "A.15.1"

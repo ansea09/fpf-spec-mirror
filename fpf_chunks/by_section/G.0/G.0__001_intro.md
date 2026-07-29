@@ -6,12 +6,12 @@ section_id: "G.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__001_intro.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:intro — Intro"
-line_start: 95525
-line_end: 95532
+line_start: 95639
+line_end: 95646
 dependencies:
   - "A.10"
   - "A.17"

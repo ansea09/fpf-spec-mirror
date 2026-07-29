@@ -6,12 +6,12 @@ section_id: "B.3.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__005_solution.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:4 — Solution"
-line_start: 38925
-line_end: 38981
+line_start: 38943
+line_end: 38999
 dependencies:
   - "A.10"
   - "B.3"

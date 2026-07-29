@@ -6,12 +6,12 @@ section_id: "C.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__005_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:3 — Forces"
-line_start: 49043
-line_end: 49053
+line_start: 49061
+line_end: 49071
 dependencies:
   - "A.15"
   - "A.17-A.19"

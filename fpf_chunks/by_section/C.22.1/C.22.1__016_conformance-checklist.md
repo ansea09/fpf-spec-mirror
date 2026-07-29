@@ -6,12 +6,12 @@ section_id: "C.22.1:15"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__016_conformance-checklist.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:15 — Conformance checklist"
-line_start: 50964
-line_end: 50971
+line_start: 50982
+line_end: 50989
 dependencies:
   - "A.15"
   - "C.19.1"

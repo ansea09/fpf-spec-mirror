@@ -6,12 +6,12 @@ section_id: "A.6.S:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__001_intro.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:intro — Intro"
-line_start: 20565
-line_end: 20579
+line_start: 20583
+line_end: 20597
 dependencies:
   - "A.12"
   - "A.3"

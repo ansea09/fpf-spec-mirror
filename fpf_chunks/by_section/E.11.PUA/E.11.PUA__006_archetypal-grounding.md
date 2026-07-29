@@ -6,12 +6,12 @@ section_id: "E.11.PUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__006_archetypal-grounding.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:5 — Archetypal Grounding"
-line_start: 76080
-line_end: 76141
+line_start: 76178
+line_end: 76243
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -35,61 +35,65 @@ keywords:
 
 #### E.11.PUA:5.1 - Episteme result: a usable problem card
 
-A team has a vague recurring pump-failure concern and asks whether it can be articulated well enough to guide later method selection. In ordinary conversation the team says: "Use C.22.2 to make the pump-failure concern into a usable problem card." It inspects C.22.2, applies the Solution, obtains the card, and stops once the current question is answered.
+A team has a vague recurring pump-failure concern and asks whether it can be articulated well enough to guide later method selection. In cheap ordinary use it can say, "Use C.22.2 to make a usable problem card," then state the bounded concern, affected entity, obstacle, stakes, evidence state, and honest next use. Those contents can leave the exact `ProblemCard@Context` kind and `selectedPatternApplicationFlowResult` position recoverable without stating or recording either one. Name them explicitly only when a nearby kind confusion or named reliance requires replay; C.22.2 and C.2.1 still govern the episteme.
 
-The card's `ProblemCard@Context` kind and application-flow position remain recoverable from C.22.2 when a later distinction needs them; the team need not state or record those fields during this cheap use. A durable closure or receiving-use relation is created only when the later P2W use or another named receiving use relies on replay.
+If the card did not exist before this exercise and the team claims that the drafting episode first constituted it, identify the dated drafting `U.Work`, the card's C.2.1 identity rule, the actual changes, and the local A.15.PROD entity-identity-inception claim. That claim establishes the card's Work-attributed inception, not by itself that the card is this PUA use's result. A reliance-bearing closure separately names the category-correct basis that makes the card the result relative to the current application or governed object. Without the inception basis, do not say that pattern application produced the card; state only the card content and leave its inception provenance open. Any later P2W participation uses its exact direct relation or local claim. The team need not materialize PUA closure records during a cheap conversational use.
 
 #### E.11.PUA:5.1a - Evaluation specification without a ProblemCard
 
-An architecture team already has a bounded comparison question but no accepted `ProblemCard@Context` is needed for this use. It applies `A.19.ECS` and produces an `EvaluationCharacteristicSpaceSpec` with declared coordinates, scales, comparators, and evidence rules. The optional `problemCardRef` remains absent. The exact episteme is the `selectedPatternApplicationFlowResult`; when the later comparison actually uses it, the receiving-use relation records that realized use without opening P2W.
+An architecture team already has a bounded comparison question and needs no accepted `ProblemCard@Context`. It applies `A.19.ECS` and states one exact `EvaluationCharacteristicSpaceSpec` with declared coordinates, scales, comparators, and evidence rules; `A.19.ECS` and C.2.1 govern that specification episteme. The optional `problemCardRef` remains absent.
+
+The application-flow label is only a readable PUA position. If the team claims that exact planning or specification Work first constituted the episteme, cite its local A.15.PROD inception claim for that subject fact. A reliance-bearing PUA closure separately identifies the category-correct basis that makes the specification a result relative to the current application or governed object. If a later comparison actually uses the specification, cite the exact direct relation, A.6.1 binding, or local relation-bearing claim governed by that comparison pattern. Without the corresponding basis, keep the specification, its PUA closure, and the later comparison separate.
 
 #### E.11.PUA:5.1b - A selection result can support later planning
 
-Pattern-selection work under E.11.PUR produces a `PatternUseRecommendation@Context`. That recommendation is a `patternSelectionFlowResult`. A later PUA use applies the recommended planning pattern and produces a `U.WorkPlan` as a separate `selectedPatternApplicationFlowResult`. If the recommendation participates in the later TFS, name its exact source position, exact receiving position, and directly governed use-relation occurrence. If that occurrence cannot be established, keep the recommendation and later use separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+E.11.PUR governs the identity and content of one `PatternUseRecommendation@Context`; A.15.2 separately governs one `U.WorkPlan`. `patternSelectionFlowResult` and `selectedPatternApplicationFlowResult` are descriptive positions that keep these two entities apart. If either episteme is claimed to have been first constituted by dated Work, cite its own local A.15.PROD inception claim rather than saying that selection or application generically produced it.
 
-**Build-the-builder recognition case.** An executable compiler edition occupies one exact result position (`FlowPositionRef`) in a compiler-build TFS and is used at one exact compiler-use position (`FlowPositionRef`) in a separately identified program-compilation TFS through a directly governed compiler-use relation occurrence. The compiler edition keeps its kind. Return to E.18 when either TFS-local position is unresolved; return to E.18.NET when the question is how the separately identified build and compilation TFS values form a network, including a recursive one. With no compiler-use kind or predicate, return `missing-governor`; with undecided case facts, keep the relation open; with a false predicate, assert no compiler-use occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. None of these branches permits calling the compiler edition the second flow's input by label alone.
+If the recommendation participates in later planning, name its exact source position, exact receiving position, and directly governed relation occurrence or A.6.1 binding. If that basis cannot be established, keep the recommendation and plan separate and state the exact `missing-governor`, unresolved-grounding, false-predicate, or missing-endpoint-binding boundary. Neither the recommendation nor the plan becomes the machined component expected from downstream subject work.
+
+**Build-the-builder recognition case.** An executable compiler edition occupies one exact result-bearing position (`FlowPositionRef`) in a compiler-build TFS and participates at one exact compiler-use position (`FlowPositionRef`) in a separately identified program-compilation TFS through a directly governed compiler-use relation occurrence. The compiler edition keeps its kind. Return to E.18 when either TFS-local position is unresolved; return to E.18.NET when the question is how the separately identified build and compilation TFS values form a network, including a recursive one. With no compiler-use kind or predicate, return `missing-governor`; with undecided case facts, keep the relation open; with a false predicate, assert no compiler-use occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. None of these branches permits calling the compiler edition the second flow's input by label alone.
 
 #### E.11.PUA:5.1c - AI-assisted ordinary use returns the subject result
 
-An engineer asks an AI assistant to apply an already selected `A.19.ECS` pattern to a pump-comparison question. The needed result is an `EvaluationCharacteristicSpaceSpec` with admitted coordinates, scales, comparators, and evidence rules. No later use asks for a durable pattern-selection trace.
+An engineer asks an AI assistant to apply an already selected `A.19.ECS` pattern to a pump-comparison question. The needed result is one exact `EvaluationCharacteristicSpaceSpec` with admitted coordinates, scales, comparators, and evidence rules. No later use asks for a durable pattern-selection trace.
 
-The assistant returns that specification as the `selectedPatternApplicationFlowResult` and keeps the concern, pattern fit, and stop condition recoverable in the conversation. It does not add candidate, fit, applicability, rationale, or closure records merely because an AI assisted the use. If the available basis cannot support the specification, it names the unresolved coordinate, scale, comparator, or evidence-rule position, returns the use to `A.19.ECS`, and leaves the completed-specification expectation open. Materialize that return as `PatternUseBoundaryCondition@Context` only when a named reliance needs an addressable boundary; do not emit a complete meta-record stack.
+The assistant returns the specification content in ordinary language and keeps the concern, direct pattern, and stop condition recoverable in the conversation. The text is the required specification only when it satisfies the A.19.ECS and C.2.1 identity rules. Successful ordinary use creates no candidate, fit, applicability, rationale, expectation, or closure record merely because AI helped. If the use also claims first constitution, identify the actual responsible Work and local A.15.PROD inception claim. If the available basis cannot support the specification, name the unresolved coordinate, scale, comparator, or evidence-rule position, return to `A.19.ECS`, and leave the completed-specification expectation open. Materialize that return as `PatternUseBoundaryCondition@Context` only when a named reliance needs an addressable boundary; do not emit a complete meta-record stack.
 
 #### E.11.PUA:5.2 - Physical result: work is still future
 
-A machining team inspects a planning pattern for a dimensionally accepted component. Applying the selected pattern produces a `U.WorkPlan`. The metal blank remains unchanged.
+A machining team applies a planning pattern for a dimensionally accepted component and states one exact `U.WorkPlan` under A.15.2. If it claims that planning Work first constituted that plan episteme, cite the local A.15.PROD inception claim. The metal blank remains unchanged.
 
-The plan is an honest `selectedPatternApplicationFlowResult`. The component remains an expected `downstreamSubjectWorkFlowResult` until dated machining work occurs. The team may continue with the A.15 work patterns; it cannot fill the component result position with the plan, simulation, inspection checklist, or generated prose.
+The plan is the independently governed entity at the `selectedPatternApplicationFlowResult` position. The component remains an open `downstreamSubjectWorkFlowResult` expectation until dated machining Work occurs. The team may continue with the A.15 work patterns; it cannot fill the component position with the plan, simulation, inspection checklist, or generated prose.
 
-After the dated machining `U.Work` occurs, the actual-result relation names the dimensionally accepted physical component or changed physical state in `downstreamSubjectWorkFlowResult` position and cites only work occurrences that produced or changed it. An inspection record may support evidence or description use; it does not replace the physical result.
+After machining Work occurs, identify the exact A.3.4 transformation and the direct work-to-change predicate or admitted local claim. If the Work first makes a new component satisfy its identity rule, cite the separate A.15.PROD inception claim; if a completion criterion is satisfied, cite the separate completion claim. Evaluation, dimensional evidence, and acceptance remain separately governed. A reliance-bearing PUA closure must additionally name the category-correct basis that makes the component or changed state the result relative to the exact machining Work or other governed object; neither the flow position nor result wording supplies it.
 
 #### E.11.PUA:5.3 - Clinical result: a state and its note stay separate
 
-A clinician uses a direct pattern to structure a treatment decision. The application produces a treatment-plan episteme and an intended receiving use. The patient's changed clinical state does not yet exist merely because the plan is accepted.
+A clinician uses a direct decision pattern to state one treatment-plan episteme. The decision pattern and C.2.1 govern the plan; a claim that dated decision Work first constituted it requires its local A.15.PROD inception basis. The plan may describe an intended receiving use, but it does not establish that treatment occurred or that the patient's state changed.
 
-After treatment work occurs, the clinical state and the case-note episteme can both be current, but they keep different kinds and governing relations. The note may support grounding and later reliance; it does not become the patient's state.
+After treatment Work occurs, identify the clinical change through A.3.4 and its exact direct treatment-work-to-change governor. The clinical state and the case-note episteme can both be current, but they keep different identities and relations. The note may support grounding and later reliance; it does not become the patient's state.
 
-If the clinically relevant state existed before the current pattern use, record `preExistingWithGrounding` and produce a `PreExistingResultGroundingFinding@Context` from the current examination or accepted evidence. The examination grounds use of the state for the present question; it does not produce that state or supply an unknown earlier treatment history.
+If the clinically relevant state existed before the current pattern use, return a `PreExistingResultGroundingFinding@Context` whose claim graph cites the exact examination, measurement, diagnostic, or evidence-use relation that grounds it for the present question. The examination does not produce that state or supply an unknown earlier treatment history. Missing direct grounding returns its exact blocker.
 
 #### E.11.PUA:5.3a - Learned capability and assessment remain separate
 
-Teaching work is performed under its direct educational and A.15 patterns. A later assessment may support a claim that the learner has demonstrated a bounded capability or skill. The capability result and the assessment episteme keep different kinds and governing relations: a completed lesson, assessment plan, or filled assessment record cannot occupy the learned-capability result position by itself.
+Teaching is dated Work under its direct educational and A.15 patterns. A later assessment episteme may support a claim that the learner demonstrated a bounded capability or skill only through the exact educational, assessment, evidence-use, or subject predicate governing that claim. The capability and the assessment episteme remain distinct. A completed lesson, assessment plan, or filled record cannot occupy the learned-capability position by itself; a missing capability governor returns `missing-governor` rather than a generic learning result.
 
 #### E.11.PUA:5.4 - Pre-existing result: inspection does not reproduce it
 
-A maintenance engineer inspects an installed pump that predates the current pattern use. Current measurements adequately ground the pump for a compatibility question, but the historical production relation is outside the evidence basis.
+A maintenance engineer inspects an installed pump that predates the current pattern use. Current measurements may ground the pump for a compatibility question only through the exact measurement, observation, diagnostic, or evidence-use relations owned by the applicable patterns; the historical production claim lies outside the basis.
 
-Use `PreExistingResultGroundingFinding@Context` for the present grounding. Keep producing-work provenance absent. The current inspection neither manufactures the pump nor proves how it was manufactured.
+Use `PreExistingResultGroundingFinding@Context` for the present grounding and cite its exact `GroundingBasisPair` values. An inspection note or record may describe the pump and support evidence use, but it cannot replace the physical pump or occupy the expected subject-result position. Keep producing-work provenance absent. The current inspection neither manufactures the pump nor proves how it was manufactured. If the direct grounding relation cannot be recovered, return that blocker instead of treating inspection proximity as grounding.
 
 #### E.11.PUA:5.5 - Repair a plan-as-component closure locally
 
-A machining rehearsal selected the correct planning pattern and produced a valid `U.WorkPlan`, but its closure named the plan as `downstreamSubjectWorkFlowResult` and treated the component expectation as satisfied. The concern, candidate basis, direct pattern, and WorkPlan remain sound.
+A machining rehearsal selected the correct planning pattern and stated a valid `U.WorkPlan`, but its closure named the plan as a `downstreamSubjectWorkFlowResult` and treated the component expectation as satisfied. The concern, candidate basis, direct pattern, and WorkPlan remain sound.
 
-Repair the expectation and actual-result closure: name `U.WorkPlan` as the `selectedPatternApplicationFlowResult`, remove the claimed component actual result and any realized receiving-use relation that depended on it, and keep the component as an open downstream expectation. The next current use enters the A.15 work family. No new candidate selection or reconstruction of the WorkPlan is needed.
+Repair the expectation and closure finding: place the `U.WorkPlan` in the descriptive `selectedPatternApplicationFlowResult` position, cite its exact A.15.2 identity and any current A.15.PROD inception claim for Work-attributed first constitution, and separately cite the category-correct basis that makes this plan the result relative to the current pattern use. Remove the unsupported component closure and any realized receiving-use finding that depended on it, and keep the component as an open downstream expectation. The next current use enters the A.15 work family. No new candidate selection or reconstruction of the WorkPlan is needed.
 
 #### E.11.PUA:5.6 - Complete trace, absent result
 
-An automated report raises pattern-use trace completeness to 100 percent by filling every candidate, rationale, expectation, and boundary position. Operators begin treating the green report as completion, while actual-result grounding and the intended receiving use remain absent more often.
+An automated report raises pattern-use trace completeness to 100 percent by filling every candidate, rationale, expectation, and boundary position. Operators begin treating the green report as completion, while the direct basis for the claimed result and the intended receiving use remain absent more often.
 
-The trace measure improved while subject progress worsened. Keep completeness as a trace-quality measure, apply `E.13` to the substitution, and evaluate PUA success from the exact grounded result or honest interim result, its flow position, and its receiving-use disposition. Empty actual-result positions are not repaired by adding more support records.
+The trace measure improved while subject progress worsened. Keep completeness as a trace-quality measure, apply `E.13` to the substitution, and evaluate PUA success from the exact result or honest interim entity, its direct owner, the exact method, plan, Work, transformation, evaluation, decision, or receiving-use object relative to which the phrase is true, its category-correct direct basis, and any separately current receiving-use disposition. Empty result-basis positions are not repaired by adding more support records.
 

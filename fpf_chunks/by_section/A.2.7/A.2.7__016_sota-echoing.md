@@ -6,12 +6,12 @@ section_id: "A.2.7:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__016_sota-echoing.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:10.1 — SoTA-Echoing"
-line_start: 5589
-line_end: 5599
+line_start: 5607
+line_end: 5617
 dependencies:
   - "A.15"
   - "A.2"

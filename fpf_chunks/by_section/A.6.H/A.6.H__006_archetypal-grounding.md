@@ -6,12 +6,12 @@ section_id: "A.6.H:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__006_archetypal-grounding.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:5 — Archetypal Grounding"
-line_start: 21256
-line_end: 21276
+line_start: 21274
+line_end: 21294
 dependencies:
   - "A.14"
   - "A.15"

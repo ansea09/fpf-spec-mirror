@@ -6,12 +6,12 @@ section_id: "D.5:6"
 section_title: "Archetypal Grounding (Worked Slice)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__009_archetypal-grounding-worked-slice.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:6 — Archetypal Grounding (Worked Slice)"
-line_start: 68060
-line_end: 68063
+line_start: 68078
+line_end: 68081
 dependencies:
   - "A.10"
   - "B.3"

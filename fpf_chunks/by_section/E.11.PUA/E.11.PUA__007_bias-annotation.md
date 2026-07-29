@@ -6,12 +6,12 @@ section_id: "E.11.PUA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__007_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:6 — Bias-Annotation"
-line_start: 76142
-line_end: 76149
+line_start: 76244
+line_end: 76251
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,9 +33,9 @@ keywords:
 
 ### E.11.PUA:6 - Bias-Annotation
 
-- **Recognition-only bias.** A matching title or trigger word is treated as application. Repair by inspecting the direct pattern's full problem and solution conditions and naming the expected result.
-- **Record-as-result bias.** A candidate form, trace, note, dashboard, or assessment record replaces the subject result. Repair by restoring the exact result kind and its direct governing pattern.
+- **Recognition-only bias.** A matching title or trigger word is treated as application. Repair by inspecting the direct pattern's full problem and solution conditions and naming the expected result, its direct owner, governed relative-object kind, and category-correct basis.
+- **Record-as-result bias.** A candidate form, trace, note, dashboard, or assessment record replaces the subject result. Repair by restoring the exact entity or relation occurrence, its direct owner, and the separate category-correct basis that makes it the result relative to the current governed object.
 - **Plan-as-work bias.** Intended work or a generated plan is reported as performed work. Return to A.15 and ground the dated occurrence before asserting `U.Work`.
-- **Flow-collapse bias.** A selection result, application result, and downstream-work result are merged because each is called "result". Restore the flow-local result position and any current E.18 crossing.
+- **Flow-collapse bias.** A selection result, application result, and downstream-work result are merged because each is called "result". Restore the three descriptive positions, each independently governed entity and basis, and any current E.18 crossing.
 - **Maximum-trace bias.** Every use emits every schema. Return to the named reliance and materialize only distinctions that it will use.
 

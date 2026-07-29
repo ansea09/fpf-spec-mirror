@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__002_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:1 — Problem frame"
-line_start: 69744
-line_end: 69753
+line_start: 69762
+line_end: 69771
 dependencies:
   - "A.19.ECS"
   - "C.33"

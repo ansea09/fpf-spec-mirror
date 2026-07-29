@@ -6,12 +6,12 @@ section_id: "G.9:11"
 section_title: "Working reading checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__015_working-reading-checks.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:11 — Working reading checks"
-line_start: 100068
-line_end: 100073
+line_start: 100182
+line_end: 100187
 dependencies:
   - "A.19"
   - "A.21"

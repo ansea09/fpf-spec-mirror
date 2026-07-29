@@ -6,12 +6,12 @@ section_id: "A.0:QF.2"
 section_title: "First public wording for shortlisted results"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__015_first-public-wording-for-shortlisted-results.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:QF.2 — First public wording for shortlisted results"
-line_start: 1334
-line_end: 1341
+line_start: 1352
+line_end: 1359
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

@@ -6,12 +6,12 @@ section_id: "A.19:13"
 section_title: "Relations - Ontic Relations and Consumer Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__017_relations-ontic-relations-and-consumer-boundary.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:13 — Relations - Ontic Relations and Consumer Boundary"
-line_start: 28479
-line_end: 28484
+line_start: 28497
+line_end: 28502
 dependencies:
   - "A.17"
   - "A.18"

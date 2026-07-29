@@ -6,12 +6,12 @@ section_id: "E.2.DA:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__010_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:9 — Relations"
-line_start: 68535
-line_end: 68553
+line_start: 68553
+line_end: 68571
 dependencies:
   - "A.19.ECS"
   - "E.10"

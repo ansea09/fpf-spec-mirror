@@ -6,12 +6,12 @@ section_id: "A.16:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__003_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:2 — Problem"
-line_start: 26650
-line_end: 26652
+line_start: 26668
+line_end: 26670
 dependencies:
   - "A.16"
   - "A.16.0"

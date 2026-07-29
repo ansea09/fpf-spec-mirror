@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__009_conformance-checklist.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:7 — Conformance Checklist"
-line_start: 89385
-line_end: 89401
+line_start: 89499
+line_end: 89515
 dependencies:
   - "A.15"
   - "A.2"

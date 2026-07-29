@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
-line_start: 16944
-line_end: 17314
+line_start: 16962
+line_end: 17332
 dependencies:
   - "A.15"
   - "A.16"

@@ -6,12 +6,12 @@ section_id: "C.19.1:End"
 section_title: "C.19.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__010_c-19-1-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:End — C.19.1:End"
-line_start: 49895
-line_end: 49896
+line_start: 49913
+line_end: 49914
 dependencies:
   - "A.0"
   - "B.3"

@@ -6,12 +6,12 @@ section_id: "C.2.6:13"
 section_title: "Worked Examples and Bridge-Loss Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__014_worked-examples-and-bridge-loss-cases.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:13 — Worked Examples and Bridge-Loss Cases"
-line_start: 43662
-line_end: 43672
+line_start: 43680
+line_end: 43690
 dependencies:
   - "A.16"
   - "A.16.0"

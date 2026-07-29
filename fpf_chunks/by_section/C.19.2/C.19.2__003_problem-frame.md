@@ -6,12 +6,12 @@ section_id: "C.19.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__003_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:1 — Problem frame"
-line_start: 49913
-line_end: 49918
+line_start: 49931
+line_end: 49936
 dependencies:
   - "A.15.1"
   - "A.15.2"

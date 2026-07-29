@@ -6,12 +6,12 @@ section_id: "A.19.ECS:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__012_sota-echoing.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:10 — SoTA-Echoing"
-line_start: 28710
-line_end: 28718
+line_start: 28728
+line_end: 28736
 dependencies:
   - "A.17-A.19"
   - "C.16"

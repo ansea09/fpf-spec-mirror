@@ -6,12 +6,12 @@ section_id: "C.32.ACE:7"
 section_title: "Conformance requirements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__008_conformance-requirements.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:7 — Conformance requirements"
-line_start: 64587
-line_end: 64599
+line_start: 64605
+line_end: 64617
 dependencies:
   - "A.10"
   - "A.19.CPM"

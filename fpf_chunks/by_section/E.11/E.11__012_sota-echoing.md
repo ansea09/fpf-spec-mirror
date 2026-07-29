@@ -6,12 +6,12 @@ section_id: "E.11:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__012_sota-echoing.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:11 — SoTA-Echoing"
-line_start: 75689
-line_end: 75703
+line_start: 75736
+line_end: 75750
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -35,7 +35,7 @@ keywords:
 | Zhu, Reinecke, and Mitra, *Language Scent: Exploring Cross-Language Information Navigation*, arXiv:2604.03604 (2026) | Keep contextual cues near the governed value while preserving the exact target behind a reader-facing expression. | Adapt to public cue and expansion design. The small study does not establish universal label equivalence or decide FPF ontology. |
 | Current FPF E.8, E.17, F.17, F.18, and E.11.PUA | Separate public recognition, publication, naming, and project pattern use. | Adopt as the governing patterns for their stated relations. E.11 defines only the public guidance and reliance-conditioned comparison layer. |
 
-The practitioner implication is concrete: inspect a small plausible set, compare the results each would produce, and keep a durable history only when someone will use it later.
+The practitioner implication is concrete: inspect a small plausible set, compare the potential-result kind or exact blocker each direct pattern can truthfully expose and the local identification and basis questions each requires, then keep durable history only when someone will use it later.
 
 Information-foraging is the lineage anchor, not by itself the current competitive claim. Familiar-title lookup and popularity ranking are the common comparator: they are cheap cues, but E.11 rejects either as the sole selection basis because neither exposes first-result differences or a recoverable return.
 

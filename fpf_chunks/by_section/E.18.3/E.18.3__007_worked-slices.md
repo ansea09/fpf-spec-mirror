@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_worked-slices.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Worked Slices"
-line_start: 83154
-line_end: 83195
+line_start: 83268
+line_end: 83309
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.16:4"
 section_title: "Solution — Rule‑of‑Constraints (RoC) for Autonomy"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__005_solution-rule-of-constraints-roc-for-autonomy.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:4 — Solution — Rule‑of‑Constraints (RoC) for Autonomy"
-line_start: 77322
-line_end: 77407
+line_start: 77424
+line_end: 77509
 dependencies:
   - "A.13"
   - "A.15"

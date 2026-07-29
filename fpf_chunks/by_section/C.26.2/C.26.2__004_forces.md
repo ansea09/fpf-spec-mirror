@@ -6,12 +6,12 @@ section_id: "C.26.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__004_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:3 — Forces"
-line_start: 53851
-line_end: 53860
+line_start: 53869
+line_end: 53878
 dependencies:
   - "A.10"
   - "A.15"

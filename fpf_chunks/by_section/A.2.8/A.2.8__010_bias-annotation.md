@@ -6,12 +6,12 @@ section_id: "A.2.8:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__010_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:6 — Bias-Annotation"
-line_start: 5889
-line_end: 5898
+line_start: 5907
+line_end: 5916
 dependencies:
   - "A.15.1"
   - "A.2"

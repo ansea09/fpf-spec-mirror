@@ -6,12 +6,12 @@ section_id: "B.2.4:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__012_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:9 — Rationale"
-line_start: 37976
-line_end: 37981
+line_start: 37994
+line_end: 37999
 dependencies:
   - "A.10"
   - "A.15"

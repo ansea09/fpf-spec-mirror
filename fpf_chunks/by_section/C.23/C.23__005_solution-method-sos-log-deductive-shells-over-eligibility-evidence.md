@@ -6,12 +6,12 @@ section_id: "C.23:4"
 section_title: "Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__005_solution-method-sos-log-deductive-shells-over-eligibility-evidence.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:4 — Solution — Method‑SoS‑LOG: deductive shells over Eligibility & Evidence"
-line_start: 51979
-line_end: 52066
+line_start: 51997
+line_end: 52084
 dependencies:
   - "A.10"
   - "B.3"

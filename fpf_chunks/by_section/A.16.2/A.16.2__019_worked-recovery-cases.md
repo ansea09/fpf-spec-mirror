@@ -6,12 +6,12 @@ section_id: "A.16.2:18"
 section_title: "Worked Recovery Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__019_worked-recovery-cases.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:18 — Worked Recovery Cases"
-line_start: 27697
-line_end: 27710
+line_start: 27715
+line_end: 27728
 dependencies:
   - "A.16"
   - "A.16.0"

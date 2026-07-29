@@ -6,12 +6,12 @@ section_id: "C.21:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50394
-line_end: 50401
+line_start: 50412
+line_end: 50419
 dependencies:
   - "A.17"
   - "A.18"

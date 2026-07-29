@@ -6,12 +6,12 @@ section_id: "A.2.5:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__011_conformance-checklist.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:8 — Conformance Checklist"
-line_start: 4233
-line_end: 4247
+line_start: 4251
+line_end: 4265
 dependencies:
   - "A.15"
   - "A.2.1"

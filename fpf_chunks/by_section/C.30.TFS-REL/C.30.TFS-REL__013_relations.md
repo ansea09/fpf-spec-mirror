@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__013_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:12 — Relations"
-line_start: 62296
-line_end: 62303
+line_start: 62314
+line_end: 62321
 dependencies:
   - "A.10"
   - "A.15"

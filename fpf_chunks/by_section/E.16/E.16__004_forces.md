@@ -6,12 +6,12 @@ section_id: "E.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__004_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:3 — Forces"
-line_start: 77303
-line_end: 77321
+line_start: 77405
+line_end: 77423
 dependencies:
   - "A.13"
   - "A.15"

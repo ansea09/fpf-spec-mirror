@@ -6,12 +6,12 @@ section_id: "E.18:15"
 section_title: "Conformance Use Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__017_conformance-use-checks.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15 — Conformance Use Checks"
-line_start: 82126
-line_end: 82138
+line_start: 82240
+line_end: 82252
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -42,7 +42,7 @@ keywords:
 1. **Model lint:** run static checks for CC-E18-01...25 (transfer relation kind, gates on crossings, CV=>GF, guard aggregation assignment, UNM declaration locus, SquareLaw).
 2. **Publication audit:** sample a commuting square and a sentinel‑bounded subflow; verify pins and DecisionLog behavior on *block* or *degrade*.
 3. **Replay test:** hold editions fixed; re‑run selection on a PathSlice; observe identical return‑sets; apply a bump; see only affected `PathSlice`s refresh.
-4. **StructuralReinterpretation probe:** construct a minimal reinterpretation step; confirm `CL^k` with `bridgeChannel=Kind` on UTS, a SquareLaw‑retargeting witness on UTS, `PathSliceId` pinned, **CV.ReinterpretationEquivalence=pass**, and absence of hidden scalarization.
+4. **StructuralReinterpretation probe:** construct one exact A.6.4 retargeting candidate; confirm source and receiving subjects, invariant, direct applicability, witness, unchanged `CtxState`, and `PathSliceId` locality. If cross-semantic correspondence is also claimed, test an independent F.9 Bridge and bounded-use claim. If the use depends on the parked legacy `KindBridge`/`CL` interface, return `missing-governor`.
 
 [20]: https://webstore.ansi.org/preview-pages/ISO/preview_ISO%2B23247-1-2021.pdf?srsltid=AfmBOooAUXpg38IpkTlUFtcCpaMVOjivkewJWDIUd1VemIJO91abNEkG "INTERNATIONAL STANDARD ISO 23247-1"
 

@@ -6,12 +6,12 @@ section_id: "C.34:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__007_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:6 — Bias-Annotation"
-line_start: 66663
-line_end: 66672
+line_start: 66681
+line_end: 66690
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

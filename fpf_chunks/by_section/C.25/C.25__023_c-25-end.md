@@ -6,12 +6,12 @@ section_id: "C.25:End"
 section_title: "C.25:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__023_c-25-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:End — C.25:End"
-line_start: 52917
-line_end: 52918
+line_start: 52935
+line_end: 52936
 dependencies:
   - "A.15"
   - "A.16.0"

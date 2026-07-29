@@ -6,12 +6,12 @@ section_id: "F.8:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__017_didactic-memory.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:14 — Didactic Memory"
-line_start: 90433
-line_end: 90436
+line_start: 90547
+line_end: 90550
 dependencies:
   - "A.11"
   - "A.15"

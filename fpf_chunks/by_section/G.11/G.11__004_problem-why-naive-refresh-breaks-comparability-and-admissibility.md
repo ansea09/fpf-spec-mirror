@@ -6,12 +6,12 @@ section_id: "G.11:2"
 section_title: "Problem — Why naive refresh breaks comparability and admissibility"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__004_problem-why-naive-refresh-breaks-comparability-and-admissibility.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:2 — Problem — Why naive refresh breaks comparability and admissibility"
-line_start: 100531
-line_end: 100540
+line_start: 100645
+line_end: 100654
 dependencies:
   - "B.3.4"
   - "C.18"

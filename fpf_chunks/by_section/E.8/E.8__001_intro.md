@@ -6,12 +6,12 @@ section_id: "E.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__001_intro.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:intro — Intro"
-line_start: 70790
-line_end: 70795
+line_start: 70808
+line_end: 70813
 dependencies:
   - "E.10"
   - "E.10.MOVE"

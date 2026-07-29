@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__011_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:9 — Consequences"
-line_start: 44242
-line_end: 44248
+line_start: 44260
+line_end: 44266
 dependencies:
   - "A.10"
   - "A.15.1"

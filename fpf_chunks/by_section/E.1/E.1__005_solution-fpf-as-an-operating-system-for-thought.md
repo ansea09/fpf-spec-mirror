@@ -6,12 +6,12 @@ section_id: "E.1:4"
 section_title: "Solution — FPF as an Operating System for Thought"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__005_solution-fpf-as-an-operating-system-for-thought.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:4 — Solution — FPF as an Operating System for Thought"
-line_start: 68149
-line_end: 68161
+line_start: 68167
+line_end: 68179
 dependencies:
   - "E.2"
 keywords:

@@ -6,12 +6,12 @@ section_id: "C.23:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__010_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:9 — Rationale"
-line_start: 52139
-line_end: 52142
+line_start: 52157
+line_end: 52160
 dependencies:
   - "A.10"
   - "B.3"

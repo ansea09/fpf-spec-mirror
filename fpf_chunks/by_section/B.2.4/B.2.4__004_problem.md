@@ -6,12 +6,12 @@ section_id: "B.2.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__004_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:2 — Problem"
-line_start: 37834
-line_end: 37844
+line_start: 37852
+line_end: 37862
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "A.13:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__008_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:7 — Consequences"
-line_start: 23564
-line_end: 23572
+line_start: 23582
+line_end: 23590
 dependencies:
   - "A.12"
   - "A.2"

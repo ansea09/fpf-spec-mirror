@@ -6,12 +6,12 @@ section_id: "F.4:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__016_didactic-memory.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:14 — Didactic Memory"
-line_start: 89170
-line_end: 89173
+line_start: 89284
+line_end: 89287
 dependencies:
   - "A.15"
   - "A.15.1"

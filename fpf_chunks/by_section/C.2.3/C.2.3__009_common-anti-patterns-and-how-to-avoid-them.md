@@ -6,12 +6,12 @@ section_id: "C.2.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 42743
-line_end: 42752
+line_start: 42761
+line_end: 42770
 dependencies:
   - "A.16"
   - "A.18"

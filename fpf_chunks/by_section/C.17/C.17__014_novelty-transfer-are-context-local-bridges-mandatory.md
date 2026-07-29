@@ -6,12 +6,12 @@ section_id: "C.17:13"
 section_title: "Novelty & transfer are context‑local (Bridges mandatory)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__014_novelty-transfer-are-context-local-bridges-mandatory.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:13 — Novelty & transfer are context‑local (Bridges mandatory)"
-line_start: 48705
-line_end: 48714
+line_start: 48723
+line_end: 48732
 dependencies:
   - "A.1"
   - "A.10"

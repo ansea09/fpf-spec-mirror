@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution-part-1-the-assurance-tuple-and-the-universal-aggregation-skeleton.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:4 — Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
-line_start: 38275
-line_end: 38587
+line_start: 38293
+line_end: 38605
 dependencies:
   - "A.10"
   - "A.14"

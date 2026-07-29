@@ -6,12 +6,12 @@ section_id: "G.0:End"
 section_title: "G.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__014_g-0-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:End — G.0:End"
-line_start: 95868
-line_end: 95869
+line_start: 95982
+line_end: 95983
 dependencies:
   - "A.10"
   - "A.17"

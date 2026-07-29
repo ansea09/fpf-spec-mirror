@@ -6,12 +6,12 @@ section_id: "D.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__001_intro.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:intro — Intro"
-line_start: 67522
-line_end: 67535
+line_start: 67540
+line_end: 67553
 dependencies:
   - "A.1"
   - "A.15"

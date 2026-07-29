@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__002_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
   - "E.17.AUD.OOTD:1 — Problem frame"
-line_start: 81253
-line_end: 81268
+line_start: 81355
+line_end: 81370
 dependencies:
   - "A.10"
   - "A.15"

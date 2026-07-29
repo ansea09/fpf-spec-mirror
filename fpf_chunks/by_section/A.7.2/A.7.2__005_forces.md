@@ -6,12 +6,12 @@ section_id: "A.7.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__005_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:3 — Forces"
-line_start: 21979
-line_end: 21988
+line_start: 21997
+line_end: 22006
 dependencies:
   - "A.10"
   - "A.7.1"

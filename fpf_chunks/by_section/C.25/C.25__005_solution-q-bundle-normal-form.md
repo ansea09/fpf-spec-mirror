@@ -6,12 +6,12 @@ section_id: "C.25:4"
 section_title: "Solution - Q-Bundle normal form"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__005_solution-q-bundle-normal-form.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:4 — Solution - Q-Bundle normal form"
-line_start: 52544
-line_end: 52586
+line_start: 52562
+line_end: 52604
 dependencies:
   - "A.15"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "F.7:13"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__014_relations-with-other-patterns.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:13 — Relations (with other patterns)"
-line_start: 90009
-line_end: 90020
+line_start: 90123
+line_end: 90134
 dependencies:
   - "A.6.9"
   - "E.10.D1"

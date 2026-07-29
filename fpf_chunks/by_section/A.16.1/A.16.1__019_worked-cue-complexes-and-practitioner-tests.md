@@ -6,12 +6,12 @@ section_id: "A.16.1:18"
 section_title: "Worked Cue Complexes and Practitioner Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__019_worked-cue-complexes-and-practitioner-tests.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:18 — Worked Cue Complexes and Practitioner Tests"
-line_start: 27486
-line_end: 27496
+line_start: 27504
+line_end: 27514
 dependencies:
   - "A.16"
   - "A.16.0"

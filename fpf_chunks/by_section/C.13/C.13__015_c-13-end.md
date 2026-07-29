@@ -6,12 +6,12 @@ section_id: "C.13:End"
 section_title: "C.13:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__015_c-13-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:End — C.13:End"
-line_start: 46800
-line_end: 46801
+line_start: 46818
+line_end: 46819
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "C.30:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__007_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:6 — Bias-Annotation"
-line_start: 59463
-line_end: 59476
+line_start: 59481
+line_end: 59494
 dependencies:
   - "A.1"
   - "A.10"

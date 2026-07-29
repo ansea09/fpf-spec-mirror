@@ -6,12 +6,12 @@ section_id: "E.18:15b"
 section_title: "E.23 Improvement-Loop Boundary Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__019_e-23-improvement-loop-boundary-relation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:15b — E.23 Improvement-Loop Boundary Relation"
-line_start: 82143
-line_end: 82148
+line_start: 82257
+line_end: 82262
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

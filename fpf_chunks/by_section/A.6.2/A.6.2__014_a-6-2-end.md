@@ -6,12 +6,12 @@ section_id: "A.6.2:End"
 section_title: "A.6.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__014_a-6-2-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:End — A.6.2:End"
-line_start: 12592
-line_end: 12593
+line_start: 12610
+line_end: 12611
 dependencies:
   - "A.1"
   - "A.6.0"

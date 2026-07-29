@@ -6,12 +6,12 @@ section_id: "C.24:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__016_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:12 — Relations"
-line_start: 52488
-line_end: 52499
+line_start: 52506
+line_end: 52517
 dependencies:
   - "A.1"
   - "A.15"

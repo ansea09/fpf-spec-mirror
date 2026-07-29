@@ -6,12 +6,12 @@ section_id: "E.10.D1:4"
 section_title: "Solution — Name one thing “Context” can mean"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__005_solution-name-one-thing-context-can-mean.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:4 — Solution — Name one thing “Context” can mean"
-line_start: 74845
-line_end: 74869
+line_start: 74863
+line_end: 74887
 dependencies:
   - "A.4"
   - "A.7"

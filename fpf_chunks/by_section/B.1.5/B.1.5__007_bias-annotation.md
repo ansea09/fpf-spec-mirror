@@ -6,12 +6,12 @@ section_id: "B.1.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__007_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:6 — Bias-Annotation"
-line_start: 36498
-line_end: 36509
+line_start: 36516
+line_end: 36527
 dependencies:
   - "A.1"
   - "A.15"

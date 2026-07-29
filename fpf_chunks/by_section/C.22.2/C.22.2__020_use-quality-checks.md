@@ -6,12 +6,12 @@ section_id: "C.22.2:19"
 section_title: "Use-Quality Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__020_use-quality-checks.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.22.2 — ProblemCard@Context"
   - "C.22.2:19 — Use-Quality Checks"
-line_start: 51815
-line_end: 51826
+line_start: 51833
+line_end: 51844
 dependencies:
   - "A.10"
   - "A.15"

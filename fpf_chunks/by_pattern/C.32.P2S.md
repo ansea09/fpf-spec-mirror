@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.P2S.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
-line_start: 63673
-line_end: 63990
+line_start: 63691
+line_end: 64008
 dependencies:
   - "A.15"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "A.2.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__003_use-this-when.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:0 — Use This When"
-line_start: 5641
-line_end: 5667
+line_start: 5659
+line_end: 5685
 dependencies:
   - "A.15.1"
   - "A.2"

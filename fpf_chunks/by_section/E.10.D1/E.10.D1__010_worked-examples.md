@@ -6,12 +6,12 @@ section_id: "E.10.D1:9"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__010_worked-examples.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:9 — Worked Examples"
-line_start: 74910
-line_end: 74928
+line_start: 74928
+line_end: 74946
 dependencies:
   - "A.4"
   - "A.7"

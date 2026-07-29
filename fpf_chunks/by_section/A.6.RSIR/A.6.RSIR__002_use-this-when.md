@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__002_use-this-when.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:0 — Use This When"
-line_start: 16578
-line_end: 16595
+line_start: 16596
+line_end: 16613
 dependencies:
   - "A.10"
   - "A.15"

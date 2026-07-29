@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__004_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:2 — Problem"
-line_start: 5998
-line_end: 6003
+line_start: 6016
+line_end: 6021
 dependencies:
   - "A.10"
   - "A.15.1"

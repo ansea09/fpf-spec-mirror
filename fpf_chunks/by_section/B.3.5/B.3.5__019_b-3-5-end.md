@@ -6,12 +6,12 @@ section_id: "B.3.5:End"
 section_title: "B.3.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__019_b-3-5-end.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:End — B.3.5:End"
-line_start: 39367
-line_end: 39368
+line_start: 39385
+line_end: 39386
 dependencies:
   - "B.3"
   - "C.13"

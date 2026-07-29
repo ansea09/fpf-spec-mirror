@@ -6,12 +6,12 @@ section_id: "G.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__008_solution.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:4 — Solution"
-line_start: 99620
-line_end: 99944
+line_start: 99734
+line_end: 100058
 dependencies:
   - "A.19"
   - "A.21"

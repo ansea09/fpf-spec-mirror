@@ -6,12 +6,12 @@ section_id: "E.8:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__017_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:12 — Relations"
-line_start: 71428
-line_end: 71440
+line_start: 71446
+line_end: 71458
 dependencies:
   - "E.10"
   - "E.10.MOVE"

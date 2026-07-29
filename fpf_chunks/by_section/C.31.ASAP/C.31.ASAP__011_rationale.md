@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:10 — Rationale"
-line_start: 63329
-line_end: 63334
+line_start: 63347
+line_end: 63352
 dependencies:
   - "A.10"
   - "A.17"

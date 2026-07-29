@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.P.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
-line_start: 37112
-line_end: 37368
+line_start: 37130
+line_end: 37386
 dependencies:
   - "A.1.1"
   - "A.10"

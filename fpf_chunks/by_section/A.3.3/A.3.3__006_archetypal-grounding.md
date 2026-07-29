@@ -6,12 +6,12 @@ section_id: "A.3.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__006_archetypal-grounding.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:5 — Archetypal Grounding"
-line_start: 7806
-line_end: 7836
+line_start: 7824
+line_end: 7854
 dependencies:
   - "A.1.1"
   - "A.10"

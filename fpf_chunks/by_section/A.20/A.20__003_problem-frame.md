@@ -6,12 +6,12 @@ section_id: "A.20:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__003_problem-frame.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:1 — Problem frame"
-line_start: 33133
-line_end: 33136
+line_start: 33151
+line_end: 33154
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

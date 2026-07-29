@@ -6,12 +6,12 @@ section_id: "E.24.UK:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__012_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:10 — Rationale"
-line_start: 87533
-line_end: 87538
+line_start: 87647
+line_end: 87652
 dependencies:
   - "A.1.1"
   - "A.11"

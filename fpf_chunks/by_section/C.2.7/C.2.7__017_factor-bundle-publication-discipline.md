@@ -6,12 +6,12 @@ section_id: "C.2.7:16"
 section_title: "Factor-Bundle Publication Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__017_factor-bundle-publication-discipline.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:16 — Factor-Bundle Publication Discipline"
-line_start: 43879
-line_end: 43889
+line_start: 43897
+line_end: 43907
 dependencies:
   - "A.16"
   - "A.16.0"

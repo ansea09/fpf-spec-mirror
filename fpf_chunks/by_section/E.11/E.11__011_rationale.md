@@ -6,12 +6,12 @@ section_id: "E.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__011_rationale.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:10 — Rationale"
-line_start: 75683
-line_end: 75688
+line_start: 75730
+line_end: 75735
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -30,5 +30,5 @@ keywords:
 
 Discovery is a bounded decision under limited attention, not a one-time lookup. A semantic card makes the practical question and first-result difference visible before the reader commits to a pattern. A recoverable return is more useful than pretending the first cue is always right.
 
-Public guidance remains trustworthy only when it is weaker than the direct pattern. It helps a reader decide what to inspect; it does not decide applicability, authorize work, or create the promised result. This division also keeps public explanation teachable: simple phrases can remain visible because expansions restore exact kinds and relations.
+Public guidance remains trustworthy only when it is weaker than the direct pattern. It helps a reader decide what to inspect; it does not decide applicability, authorize Work, identify a project result, or make a relation obtain. This division also keeps public explanation teachable: simple phrases can remain visible because expansions restore the admitted potential-result kind, local identification question, direct owner, governed relative-object kind, category-correct basis template, minimum usable result, and exact blocker when the promise cannot be made.
 

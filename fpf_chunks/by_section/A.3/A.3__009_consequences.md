@@ -6,12 +6,12 @@ section_id: "A.3:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__009_consequences.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:8 — Consequences"
-line_start: 6793
-line_end: 6806
+line_start: 6811
+line_end: 6824
 dependencies:
   - "A.10"
   - "A.12-A.15"

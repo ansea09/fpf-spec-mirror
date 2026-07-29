@@ -6,12 +6,12 @@ section_id: "A.2.3:12"
 section_title: "Didactic quick distinctions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__019_didactic-quick-distinctions.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:12 — Didactic quick distinctions"
-line_start: 3658
-line_end: 3667
+line_start: 3676
+line_end: 3685
 dependencies:
   - "A.1.1"
   - "A.10"

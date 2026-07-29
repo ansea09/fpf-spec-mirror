@@ -6,12 +6,12 @@ section_id: "A.3.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__007_bias-annotation.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:6 — Bias-Annotation"
-line_start: 7837
-line_end: 7847
+line_start: 7855
+line_end: 7865
 dependencies:
   - "A.1.1"
   - "A.10"

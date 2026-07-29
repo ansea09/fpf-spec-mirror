@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:4 — Solution"
-line_start: 88915
-line_end: 88986
+line_start: 89029
+line_end: 89100
 dependencies:
   - "A.15"
   - "A.15.1"

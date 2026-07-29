@@ -6,12 +6,12 @@ section_id: "G.10:6"
 section_title: "Bias‑Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__007_bias-annotation-informative.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:6 — Bias‑Annotation (informative)"
-line_start: 100414
-line_end: 100426
+line_start: 100528
+line_end: 100540
 dependencies:
   - "A.10"
   - "A.15.3"

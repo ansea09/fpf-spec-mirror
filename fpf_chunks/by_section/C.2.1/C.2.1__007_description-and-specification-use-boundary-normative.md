@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Description and specification-use boundary  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_description-and-specification-use-boundary-normative.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:6 — Description and specification-use boundary  (normative)"
-line_start: 41145
-line_end: 41164
+line_start: 41163
+line_end: 41182
 dependencies:
   - "A.1"
   - "A.1.1"

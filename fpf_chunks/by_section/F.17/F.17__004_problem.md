@@ -6,12 +6,12 @@ section_id: "F.17:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2.1 — Problem"
-line_start: 93502
-line_end: 93505
+line_start: 93616
+line_end: 93619
 dependencies:
   - "A.1.1"
   - "A.10"

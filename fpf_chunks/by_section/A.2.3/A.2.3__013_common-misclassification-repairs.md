@@ -6,12 +6,12 @@ section_id: "A.2.3:9"
 section_title: "Common misclassification repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__013_common-misclassification-repairs.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:9 — Common misclassification repairs"
-line_start: 3612
-line_end: 3621
+line_start: 3630
+line_end: 3639
 dependencies:
   - "A.1.1"
   - "A.10"

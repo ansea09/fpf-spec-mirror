@@ -6,12 +6,12 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:0 — Use This When"
-line_start: 1407
-line_end: 1438
+line_start: 1425
+line_end: 1456
 dependencies:
   - "A.1.1"
   - "A.10"

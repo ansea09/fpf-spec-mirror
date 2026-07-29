@@ -6,12 +6,12 @@ section_id: "F.15:14.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__017_conformance-checklist.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:14.5 — Conformance Checklist"
-line_start: 93095
-line_end: 93104
+line_start: 93209
+line_end: 93218
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "E.11.PUA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__003_problem.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:2 — Problem"
-line_start: 75732
-line_end: 75737
+line_start: 75779
+line_end: 75784
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -35,5 +35,5 @@ keywords:
 
 Reading a pattern does not by itself apply it. Without an explicit use method, users often stop at recognition, create a meta-card instead of the subject result, or report a plan, note, generated answer, or support record as if the intended physical, clinical, organizational, learned, or epistemic result already existed.
 
-The opposite failure is also common: every bounded use is burdened with a shortlist, candidate form, five fit records, provenance graph, and closure dossier. The paperwork then becomes the apparent result and obscures the direct `Solution` that should guide the work. FPF adds no generic `U.Result`, `U.WorkProduct`, or `U.PatternApplication`: the direct pattern supplies the exact result kind and the relation by which that result enters its receiving use.
+The opposite failure is also common: every bounded use is burdened with a shortlist, candidate form, five fit records, provenance graph, and closure dossier. The paperwork then becomes the apparent result and obscures the direct `Solution` that should guide the work. FPF adds no generic `U.Result`, `U.WorkProduct`, `U.PatternApplication`, or generic `Use` kind. First identify the exact result entity or relation occurrence and the pattern that governs its identity or obtaining. Then identify the method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object relative to which the result phrase is true, plus one category-correct direct basis: an obtaining relation occurrence, an A.6.1 operation-application binding, or an A.6.RCD local C.2.1 claim. The local claim has polarity and base-predicate owners; it does not obtain, and its derivation governor replaces none of those owners. A downstream receiver is separate and conditional.
 

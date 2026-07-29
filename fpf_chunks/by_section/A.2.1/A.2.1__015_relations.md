@@ -6,12 +6,12 @@ section_id: "A.2.1:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__015_relations.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.1 — U.RoleAssignment - System Role Assignment"
   - "A.2.1:13 — Relations"
-line_start: 2828
-line_end: 2837
+line_start: 2846
+line_end: 2855
 dependencies:
   - "A.1.1"
   - "A.15"

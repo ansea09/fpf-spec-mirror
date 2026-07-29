@@ -6,12 +6,12 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 35861
-line_end: 35905
+line_start: 35879
+line_end: 35923
 dependencies:
   - "A.1"
   - "A.12"

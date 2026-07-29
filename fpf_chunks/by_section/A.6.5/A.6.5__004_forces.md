@@ -6,12 +6,12 @@ section_id: "A.6.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__004_forces.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:3 — Forces"
-line_start: 18381
-line_end: 18391
+line_start: 18399
+line_end: 18409
 dependencies:
   - "A.15.3"
   - "A.6.0"

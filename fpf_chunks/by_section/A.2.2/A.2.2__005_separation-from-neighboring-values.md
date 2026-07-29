@@ -6,12 +6,12 @@ section_id: "A.2.2:4"
 section_title: "Separation From Neighboring Values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__005_separation-from-neighboring-values.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:4 — Separation From Neighboring Values"
-line_start: 2984
-line_end: 2995
+line_start: 3002
+line_end: 3013
 dependencies:
   - "A.15"
   - "A.2"

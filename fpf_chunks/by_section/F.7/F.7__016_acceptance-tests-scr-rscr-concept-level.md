@@ -6,12 +6,12 @@ section_id: "F.7:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "17edd955485f60cafb16159c7d90e20f4ad21844"
+commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
 heading_path:
   - "F.7 — Concept‑Set Table"
   - "F.7:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 90030
-line_end: 90047
+line_start: 90144
+line_end: 90161
 dependencies:
   - "A.6.9"
   - "E.10.D1"
