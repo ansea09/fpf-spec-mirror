@@ -6,12 +6,12 @@ section_id: "A.2.5:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__014_rationale.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
   - "A.2.5:11 — Rationale"
-line_start: 4308
-line_end: 4313
+line_start: 4309
+line_end: 4314
 dependencies:
   - "A.15"
   - "A.2.1"

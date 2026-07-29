@@ -6,12 +6,12 @@ section_id: "B.4.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__004_forces.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:3 — Forces"
-line_start: 39547
-line_end: 39554
+line_start: 39861
+line_end: 39868
 dependencies:
   - "A.15"
   - "A.16"

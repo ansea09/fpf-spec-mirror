@@ -6,12 +6,12 @@ section_id: "A.7.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__013_sota-echoing.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:11 — SoTA-Echoing"
-line_start: 22159
-line_end: 22169
+line_start: 22160
+line_end: 22170
 dependencies:
   - "A.10"
   - "A.7.1"

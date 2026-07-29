@@ -6,12 +6,12 @@ section_id: "E.17.1:4"
 section_title: "Solution - U.ViewpointBundleLibrary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__005_solution-u-viewpointbundlelibrary.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:4 — Solution - U.ViewpointBundleLibrary"
-line_start: 78030
-line_end: 78090
+line_start: 78344
+line_end: 78404
 dependencies:
   - "A.16.0"
   - "A.6.2-A.6.4"

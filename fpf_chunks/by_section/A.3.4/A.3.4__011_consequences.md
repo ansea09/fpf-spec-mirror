@@ -6,12 +6,12 @@ section_id: "A.3.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__011_consequences.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:9 — Consequences"
-line_start: 8303
-line_end: 8314
+line_start: 8304
+line_end: 8315
 dependencies:
   - "A.1"
   - "A.10"

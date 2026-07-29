@@ -6,12 +6,12 @@ section_id: "A.2.8:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__011_conformance-checklist-normative.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.2.8 — U.Commitment (Deontic Commitment Object)"
   - "A.2.8:7 — Conformance Checklist (normative)"
-line_start: 5917
-line_end: 5929
+line_start: 5918
+line_end: 5930
 dependencies:
   - "A.15.1"
   - "A.2"

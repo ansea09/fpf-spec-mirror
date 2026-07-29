@@ -6,12 +6,12 @@ section_id: "A.16.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__004_forces.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:3 — Forces"
-line_start: 27284
-line_end: 27291
+line_start: 27598
+line_end: 27605
 dependencies:
   - "A.16"
   - "A.16.0"

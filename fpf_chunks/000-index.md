@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `bcbdb7fd94b80006d23a673827f4f660453b2501`
+Commit SHA: `2ada413629b846ef308222d16489a82cb5b40a71`
 
 Chunking method: `pattern-aware`
 
-Patterns: `291`
+Patterns: `292`
 
 ## Patterns
 
@@ -77,6 +77,7 @@ Patterns: `291`
 - [A.15.3 — SlotFillingsPlanItem](by_pattern/A.15.3.md)
 - [A.15.4 — Work-Relevant Appearance-Based Reliance Repair](by_pattern/A.15.4.md)
 - [A.15.5 — Work-Entry Readiness and Full-Kit Preparation](by_pattern/A.15.5.md)
+- [A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation](by_pattern/A.15.6.md)
 - [A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery](by_pattern/A.15.PROD.md)
 - [A.16 — Language-State Move Coordination](by_pattern/A.16.md)
 - [A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace](by_pattern/A.16.0.md)

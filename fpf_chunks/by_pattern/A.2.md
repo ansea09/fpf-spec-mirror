@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.2 — Role Taxonomy"
-line_start: 2205
-line_end: 2541
+line_start: 2206
+line_end: 2542
 dependencies:
   - "A.1"
   - "A.1.1"

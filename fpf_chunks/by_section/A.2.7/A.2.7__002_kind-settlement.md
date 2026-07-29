@@ -6,12 +6,12 @@ section_id: "A.2.7:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__002_kind-settlement.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:0.1 — Kind Settlement"
-line_start: 5283
-line_end: 5317
+line_start: 5284
+line_end: 5318
 dependencies:
   - "A.15"
   - "A.2"

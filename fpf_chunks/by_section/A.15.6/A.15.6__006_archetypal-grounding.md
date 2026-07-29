@@ -1,0 +1,93 @@
+---
+chunk_kind: "child"
+pattern_id: "A.15.6"
+pattern_title: "Project, Process, and Case Recovery through Work, Method, and Transformation"
+section_id: "A.15.6:5"
+section_title: "Archetypal Grounding"
+source_path: "FPF-Spec.md"
+output_path: "by_section/A.15.6/A.15.6__006_archetypal-grounding.md"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+heading_path:
+  - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
+  - "A.15.6:5 — Archetypal Grounding"
+line_start: 26403
+line_end: 26447
+dependencies:
+  - "A.12"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.2"
+  - "A.2.1"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.4"
+  - "A.6.1"
+  - "A.6.P.WMR"
+  - "A.6.RCD"
+  - "C.2.1"
+  - "E.17"
+  - "E.18"
+  - "E.18.NET"
+  - "E.24.PUB"
+keywords:
+  - "A.22-selected U.Structure"
+  - "SystemOfInterestRole"
+  - "TransformationFlowStructure"
+  - "U.RoleAssignment"
+  - "actual composite project U.Work"
+  - "actual versus intended system"
+  - "affected case referent and change history"
+  - "evaluation non-claim"
+  - "missing constructor substrate"
+  - "project designation and selection claim"
+  - "project/process/case wording"
+  - "result U.Episteme"
+  - "reusable U.Method"
+---
+
+### A.15.6:5 - Archetypal Grounding
+
+**Integrated pump-modernization case: one project, several subjects.** A plant approves work to modernize `PumpUnit-3`. Before any technician starts, `PumpUpgradePlan-7 : U.WorkPlan` names the already existing pump as the system whose vibration and reliability the intended work is meant to change. The plan also describes a proposed replacement controller and the expected later pumping use. At this point there is no actual project Work, no actual replacement-controller `U.System`, and no achieved vibration reduction. Those are intended claims, not accomplished facts.
+
+The actual project begins only after `PumpUpgradeWork-7` independently passes `A.15.1`. `Plant-A-Maintenance-System : U.System` is the containing system and `executedWithin(PumpUpgradeWork-7, Plant-A-Maintenance-System)` obtains. `PlantMaintenanceRoles-2026` under `Plant-A-Maintenance-Scheme` interprets `PumpUpgradePerformerRole` as performing pump diagnosis, replacement, installation, and qualification through the named methods; `PlantFabricationRoles-2026` under `Plant-A-Fabrication-Scheme` interprets `ControllerUpgradeFabricatorRole` as performing controller fabrication for that work. `PumpUpgradeExecutionAssignment-7` assigns the interpreted `PumpUpgradePerformerRole` to `MaintenanceTeam-4 : U.System`, and `ControllerUpgradeExecutionAssignment-7` assigns the interpreted `ControllerUpgradeFabricatorRole` to `ControllerAssemblyCell-2 : U.System`; both assignments obtain over and cover the full `2026-07-01T08:00:00+03:00` to `2026-07-06T10:00:00+03:00` composite extent. Both systems actually perform the composite Work, so `performedUnderAssignment(PumpUpgradeWork-7, PumpUpgradeExecutionAssignment-7)` and `performedUnderAssignment(PumpUpgradeWork-7, ControllerUpgradeExecutionAssignment-7)` obtain. `enactsMethod(PumpUpgradeWork-7, PumpUpgradeMethod-7)` also obtains for independently admitted `PumpUpgradeMethod-7 : U.Method`.
+
+Each included Work is independently admitted; the table states its performer and covering assignment, enacted method, closed extent, and containing system. In every row, the corresponding `performedUnderAssignment`, `enactsMethod`, and `executedWithin(..., Plant-A-Maintenance-System)` relations obtain.
+
+| Included Work | Actual performer and covering assignment | Enacted `U.Method` | Closed extent |
+|---|---|---|---|
+| `PumpDiagnosisWork-7` | `MaintenanceTeam-4` under `PumpUpgradeExecutionAssignment-7` | `BearingDiagnosisMethod-4` | `2026-07-01T08:00:00+03:00` to `2026-07-01T10:00:00+03:00` |
+| `BearingReplacementWork-7` | `MaintenanceTeam-4` under `PumpUpgradeExecutionAssignment-7` | `BearingReplacementMethod-7` | `2026-07-02T08:00:00+03:00` to `2026-07-02T12:00:00+03:00` |
+| `ControllerProductionAndInstallationWork-7` | `ControllerAssemblyCell-2` under `ControllerUpgradeExecutionAssignment-7` and `MaintenanceTeam-4` under `PumpUpgradeExecutionAssignment-7` | `ControllerProductionAndInstallationMethod-7` | `2026-07-03T08:00:00+03:00` to `2026-07-05T16:00:00+03:00` |
+| `PostUpgradeQualificationWork-7` | `MaintenanceTeam-4` under `PumpUpgradeExecutionAssignment-7` | `PostUpgradeQualificationMethod-7` | `2026-07-06T08:00:00+03:00` to `2026-07-06T10:00:00+03:00` |
+
+Four exact relations make these occurrences parts of the composite: `OperationalPartOf_work(PumpDiagnosisWork-7, PumpUpgradeWork-7)`, `OperationalPartOf_work(BearingReplacementWork-7, PumpUpgradeWork-7)`, `OperationalPartOf_work(ControllerProductionAndInstallationWork-7, PumpUpgradeWork-7)`, and `OperationalPartOf_work(PostUpgradeQualificationWork-7, PumpUpgradeWork-7)`. Their timestamps do not make those relations obtain. The declared continuity policy decides interruption, resumption, split, or merge only where those facts leave more than one grouping for a named use. After this admission, the plan, temporary boundary, continuity rule, exact parts, and direct claim routes pass the five project-specific tests. `MaintenanceTeam-4` and `ControllerAssemblyCell-2` remain neighboring systems, not the project. For the relied-on bearing-replacement and pump-installation changes, `MaintenanceTeam-4` fills `A.12`'s acting-system position while `PumpUnit-3` fills the changed-holon position; the project Work and `PumpUpgradeFlow-2` fill neither position. A termination after failed testing would still leave actual project Work, although the intended result was not achieved.
+
+The plan and upgrade decision directly designate `PumpUnit-3` as the system of interest, and exact work-to-referent and work-to-change facts separately connect performed Work to the pump's condition. Those facts make the ordinary project sentence usable, but do not assert one compound project-selection claim while the required constructor substrate is missing. Keep **system of interest** Plain when it only records project attention. During `PostUpgradeQualificationWork-7`, however, `PumpUnit-3` operates as the system whose behavior is evaluated. A technical role is available only when `PlantMaintenanceRoles-2026`, effective `Plant-A-Maintenance-Scheme`, and role value `SystemOfInterestRole` together interpret that exact functioning and Work participation; project selection or passive affected-system status would not pass A.2. If plant practice also needs assignment identity, `PumpUnit-3-QualificationSystemOfInterestAssignment-7 : U.RoleAssignment` has `PumpUnit-3` as holder and the already named role value, taxonomy episteme, and scheme as its other three participants; its assignment predicate obtains throughout the uninterrupted qualification interval. That A.2.1 assignment adds holder-and-window identity; it neither creates the role interpretation nor proves project selection. Conversely, selection creates no assignment.
+
+Two local cases remain separate. The pump case follows `PumpUnit-3` through its vibration, bearing-condition, repair, and test history. The calibration case follows `TestRig-2` through its calibration-state changes and test-use history. For the actual calibration change used by the project, `CalibrationService-2 : U.System` fills the acting-system position and `TestRig-2` the changed-holon position. The proposed controller has no case history as an actual system before identity inception. If a controller-production change is used to support inception, `ControllerAssemblyCell-2 : U.System` fills the acting-system position and independently admitted `ControllerSubassembly-7` the changed-holon position; a local `A.15.PROD` claim separately states when the resulting controller first satisfies its identity rule. Only then can a controller case or role assignment begin.
+
+The process question also splits. `BearingDiagnosisMethod-4 : U.Method` is the reusable way of diagnosing. For one method-enactment review, the independently admitted constituents are `PumpDiagnosisWork-7`, `BearingReplacementWork-7`, `BearingDiagnosisMethod-4`, and `BearingReplacementMethod-7`; the selected obtaining relations are `enactsMethod(PumpDiagnosisWork-7, BearingDiagnosisMethod-4)` and `enactsMethod(BearingReplacementWork-7, BearingReplacementMethod-7)`. `PumpMethodReviewWindowConstraint-7` selects only those two occurrences whose exact `OperationalPartOf_work` relations to the admitted composite Work obtain, while `NoMethodCompositionFromWorkOrderConstraint-7` forbids inferring serial composition, fallback, quality, or causal success from their timestamps or order. `PumpMethodEnactmentReviewFrame-7` asks which methods those two Works enacted; it permits listing the two exact relations for that review and prohibits treating their organization as method composition, additional project parthood, or proof of pump change. Those four A.22 discriminators identify `PumpMethodEnactmentStructure-7 : U.Structure`, locally designated `MethodRelationStructure` for this use. Without any one discriminator, the two `enactsMethod` relations remain unbundled. Separately, `PumpUpgradeFlow-2 : TransformationFlowStructure` may organize change, test, and evaluation loci.
+
+The same reusable subject is not project-local. Suppose independently admitted `DiagnosisWork-9` is connected to independent `PumpUpgradeWork-9` by its own exact obtaining `OperationalPartOf_work` relation and concerns `PumpUnit-8`. If it enacts `BearingDiagnosisMethod-4`, name that Work's own `enactsMethod` relation and its separate work-to-pump fact. A second use of `PumpUpgradeFlow-2` likewise needs its own selection facts. Sharing the method or flow structure creates neither work parthood between the two projects nor case identity between the two pumps.
+
+Expected and actual results remain apart. The plan's reduced-vibration target and intended controller use are expected claims. After Work, identify an actual pump transformation only when `A.3.4`'s occurrence basis is present and keep `MaintenanceTeam-4` in the acting-system position. If the account calls that change a project result, keep the transformation and changed pump as separate subjects and say what the change is a result of or for. Then choose exactly one WMR outcome: assert an obtaining direct relation; name an exact `A.6.1` application binding; state a local claim under `A.15.PROD` or `A.6.RCD`; or return one non-assertability result. In that fourth outcome, use `factually unsupported` when the needed relation or claim kind exists but the case facts make the assertion false, `missing-information` when that kind exists but a required fact cannot be recovered, and `missing-governor` only when no pattern admits the needed relation or claim. Any controller inception or production completion uses the selected `A.15.PROD` branch. Keep `VibrationEvaluation-12 : U.Episteme` as a separate result episteme; A.15.6 makes no evaluation claim from it until an exact evaluation governor is selected. None becomes a generic project result. A whole-project roll-up is permitted only for one declared relation and measure with the required work-part and aggregation policy.
+
+After `PumpUpgradeWork-7` completes, `PumpUnit-3` performs separate `PumpingRunWork-8` by enacting `NormalPumpingMethod-3`. During that actual operation it holds `CoolingCirculatorRole` through `PumpUnit-3-CoolingCirculatorAssignment-8 : U.RoleAssignment`. `PlantOperationsRoles-2026` under effective `Plant-A-Operations-Scheme` interprets the role value as circulating coolant by enacting that pumping method in the run; the assignment adds the holder and uninterrupted run interval. The exact `performedUnderAssignment` relation connects this Work to that assignment. The assignment alone would not prove the Work. The later Work and assignment do not follow from project selection, and neither proves that selection. `PumpingRunWork-8` remains outside the project unless an exact `A.15.1` work-part relation says otherwise.
+
+Finally, the controller-production flow and the pump-test flow remain two independent transformation-flow structures when they have separate members, boundaries, state, and change cadence. Select an E.18.NET network only if the engineering decision needs both and an exact obtaining cross-flow relation connects their positions. That network helps answer the declared coordination question; it is not the project, does not perform Work, and does not make Work positioned in either flow a part of `PumpUpgradeWork-7`.
+
+**Construction case: bricks become a wall.** Vasya performs one bounded wall-building occurrence. Project management selects the unique composite `U.Work`: its independently admitted performer, assignment, enacted method, extent, containing system, exact work parts, intended wall description, resources, completion condition, and any actual-change, identity-inception, or completion claim the project decision needs. Process management selects the repeatable bricklaying `U.Method`, an exact A.22 `U.Structure` when all four discriminators make method-side organization change the next question or action, or `TransformationFlowStructure` when the question concerns transformation-flow organization; it uses Vasya's Work as a method-enactment observation only after recovering exact `enactsMethod`. If instead the observation concerns one declared operation application, name the exact A.6.1 declaration and binding. Case management selects the wall or construction state and follows its transformation history. These are three direct subject selections around related changes, not three kinds of the same object.
+
+**Medicine case: a patient episode.** A hospital improvement initiative can be the composite Work that introduces and evaluates a new care arrangement after its complete A.15.1 basis and exact work parts obtain. The clinical-pathway concern selects `U.Method`, an exact A.22 `U.Structure` only when its four discriminators make care-method organization change the next action, or `TransformationFlowStructure` when the question concerns care-flow organization. Evaluation across Work occurrences uses only occurrences whose exact `enactsMethod` relation or exact A.6.1 declaration and application binding is recovered for the observed fact. One patient's changing condition is the case concern only when that is what the claim asserts; diagnostic claims, treatment Work, evidence, and decisions remain separate subjects and relations. The improvement plan, care team, patient record, and performed clinical Work likewise retain their own identities.
+
+**Learning case: a course redesign.** The finite redesign effort is composite project Work only after its complete A.15.1 basis and exact work parts obtain. The teaching `U.Method`, an exact A.22 `U.Structure` selected only when its four discriminators make teaching-method organization change the next action, and `TransformationFlowStructure` for learning-flow organization are distinct possible process subjects tested across cohorts. One learner's changing mastery is a case concern only for claims actually about that learner or condition. A syllabus, progress card, and course dashboard are epistemes or publications; none is the performed redesign, teaching method, structure, or learner.
+
+**Research case: an experimental materials campaign.** The finite campaign that prepares alloy specimens, performs load tests, and analyzes measurements is composite project `U.Work` only after its actual performers, covering assignments, enacted method, extent, containing system, and exact obtaining relations to independently admitted preparation, testing, and analysis Work parts pass A.15.1. The experimental protocol is a reusable `U.Method`, and the selected preparation-test-analysis organization is a transformation-flow structure only when that organization changes the research decision. Each specimen remains the affected referent followed through preparation and testing. The hypothesis, preregistration, measurement-result episteme, and article are separately identified epistemes; publishing the article does not perform the experiment, and a surprising measurement does not become an actual Problem until the C.22.PFR condition and applicability relations obtain. Thus project progress, protocol improvement, specimen history, result interpretation, and publication can change independently.
+
+**Situation-wording contrast.** The Plain word *situation* does not select one common kind. An operating pump configuration is the exact `U.System`, its parts, and state relations, plus Work or transformation only when the account actually asserts those facts. A proof gap is carried by the proof episteme and the exact unresolved-consequence and proof-acceptance applicability relations needed for the proof decision. A multi-party emergency comprises the participating systems, actual transformations, response work, and exact temporal or causal relations; an emergency description is a separate episteme. A future scenario is normally a `U.MethodDescription` when it describes a way of proceeding, or a possible-state description when it does not. Recover those direct subjects and relations; do not put all four under root `U.Situation`.
+
+**Incident-wording contrast.** Do not mint `U.IncidentSituation`. Recover only what the decision or action at hand needs: the actual event or bounded change, responsive `U.Work`, participating systems, exact obtaining relations, and the incident-description episteme or publication. An incident record describes or publishes claims about those subjects; it is not the incident by form.
+
+**Planning-only boundary.** A funded proposal with objective, schedule, assigned team, and charter can establish intended project work and a `U.WorkPlan`. Before a candidate composite Work has actual performer systems, covering assignments, exact `enactsMethod`, governed extent, `executedWithin`, and exact obtaining relations to independently admitted Work parts, there is no actual project-work occurrence to which cost, result, or completion claims can attach. The first performed task or its timestamp alone does not close that gate.
+

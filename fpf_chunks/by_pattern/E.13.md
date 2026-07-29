@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.13.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
-line_start: 76672
-line_end: 76866
+line_start: 76986
+line_end: 77180
 dependencies:
   - "A.10"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "A.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_solution.md"
-commit_sha: "bcbdb7fd94b80006d23a673827f4f660453b2501"
+commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:4 — Solution"
-line_start: 2278
-line_end: 2417
+line_start: 2279
+line_end: 2418
 dependencies:
   - "A.1"
   - "A.1.1"
