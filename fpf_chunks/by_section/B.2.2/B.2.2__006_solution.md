@@ -6,12 +6,12 @@ section_id: "B.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__006_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:4 — Solution"
-line_start: 37755
-line_end: 37828
+line_start: 37840
+line_end: 37913
 dependencies:
   - "A.1"
   - "A.10"
@@ -19,7 +19,6 @@ dependencies:
   - "A.14"
   - "A.15"
   - "A.15.1"
-  - "A.19"
   - "A.2.1"
   - "A.2.2"
   - "A.22"
@@ -27,14 +26,17 @@ dependencies:
   - "A.6.F"
   - "B.1.2"
   - "B.2"
+  - "B.2.4"
   - "B.2.5"
   - "B.3"
   - "B.3.5"
   - "C.13"
   - "C.16"
+  - "C.27"
   - "C.30"
   - "C.30.ASV"
   - "C.30.TFS-REL"
+  - "E.24.UK"
 keywords:
 ---
 
@@ -70,7 +72,7 @@ When the candidate is recognized as `U.System`, state every changed result-syste
 - evidence and assurance through `A.10`, `B.3`, and `B.3.5`;
 - temporal and dynamics claims through `C.27`, `A.19`, and the direct temporal owners.
 
-Do not reuse old component evidence as if it automatically covered the candidate system. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its direct owner and support the associated claim through a separate evidence or assurance relation.
+Do not reuse old component evidence as if it automatically covered the proposed new whole after recognition under `U.System`. Carry an unchanged component claim only through its exact continuing relation; establish each changed result-system fact under its direct owner and support the associated claim through a separate evidence or assurance relation.
 
 #### B.2.2:4.3 - System Trigger Interpretation
 
@@ -81,7 +83,7 @@ When a receiving use has materialized B.2's optional `MHTTriggerProfile`, read i
 | Delimitation change | The operating whole now has an external delimitation and crossing relations that differ from the old aggregate. | `A.1`, `B.1.2`, `A.14`, `C.13` |
 | Objective or evaluation change | The whole is now evaluated by a system-level objective, mission, SLO, safety case, or viability claim. | `C.16`, `E.13`, `A.10`, decision or assurance owners |
 | Supervision or coordination change | A controller, protocol, governance relation, or distributed coordination relation regulates constituent behavior for the result whole. | `B.2.5`, `A.12`, `A.3.4`, `A.15.1` |
-| Capability or closure claim | Recover the exact capability envelope and closure relations of the candidate system; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
+| Capability or closure claim | Recover the exact capability envelope and closure relations of the proposed new whole after recognition under `U.System`; keep supporting evidence separate. | `A.2.2`, `C.16`, `A.10` for evidence use, and `B.2.4` when whole reidentification is current |
 | Agency threshold | The result whole crosses a concern-specific agency threshold in characteristic space. | `A.13`, `A.19`, `C.16` |
 | Temporal consolidation | A commissioning, phase, release, or operating-time consolidation changes the current system identity claim. | `C.27`, `A.15.1`, temporal owners |
 | Context reframe | The relevant bounded context changes the operating whole under concern. | `A.1`, bounded-context owners, architecture owners |
@@ -97,7 +99,7 @@ For system-result MHT, distinguish:
 - an environment or resource that participates in work;
 - a description, dashboard, twin, model, diagram, or publication about the result system.
 
-A lathe making a workpiece, a controller steering a plant, or a teacher changing a learner does not become a super-holon merely because it changes another holon. Use `A.12`, `A.3.4`, and `A.15.1` for acting side, transformation, and work. Use part-whole owners only when parthood itself is admitted.
+A lathe making a workpiece, a controller steering a plant, or a teacher changing a learner does not thereby become a part of the changed holon or the larger whole containing it. Use `A.12`, `A.3.4`, and `A.15.1` for acting side, transformation, and work. Use part-whole owners only when parthood itself is admitted.
 
 #### B.2.2:4.5 - Assurance Re-Basing
 
@@ -110,5 +112,5 @@ Ask:
 - Which assurance claims must be rewritten for the result system?
 - Which architecture, capability, functioning, work, temporal, or evidence claims now have different owners?
 
-A claim about the candidate system may reuse component evidence only through an exact correspondence or source-use relation and a fresh evaluation of applicability. The candidate does not inherit safety, reliability, responsibility, or performance claims by label.
+A claim about the recognized result system may reuse component evidence only through an exact correspondence or source-use relation and a fresh evaluation of applicability. That system does not inherit safety, reliability, responsibility, or performance claims by label.
 

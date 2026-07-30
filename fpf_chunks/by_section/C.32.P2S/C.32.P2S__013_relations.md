@@ -6,29 +6,21 @@ section_id: "C.32.P2S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__013_relations.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:12 — Relations"
-line_start: 64310
-line_end: 64316
+line_start: 64397
+line_end: 64403
 dependencies:
-  - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.5"
-  - "A.15.PROD"
-  - "A.19.CPM"
-  - "A.19.SelectorMechanism"
+  - "A.1"
+  - "A.1.SCR"
+  - "A.1.STM"
+  - "A.15.6"
   - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
-  - "A.6.RCD"
   - "B.2"
-  - "C.11"
-  - "C.16"
-  - "C.18"
-  - "C.19"
   - "C.22.2"
   - "C.25"
   - "C.29"
@@ -41,42 +33,23 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
-  - "C.32.ADA"
-  - "C.32.ADR"
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
-  - "C.32.PAD"
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.17"
   - "E.18"
   - "E.18.3"
-  - "E.23"
   - "E.24.PUB"
-  - "G.11"
-  - "G.5"
 keywords:
-  - "ArchitectureUnfoldingStructureUse@Project"
-  - "ProblemToStructureArchitecturingFlowCard@Project"
-  - "actual-structure feedback"
-  - "candidate structures"
-  - "exact domain work"
-  - "expected structures"
-  - "governing-pattern-specific return"
-  - "independently grounded actual changes"
-  - "no-automatic-composition"
-  - "problem-to-structure architecturing unfolding"
-  - "selected structures"
-  - "structural uncertainty"
-  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:12 - Relations
 
-- **Builds on:** `C.22.2` for problem-side recovery, `C.30`, `C.30.AD`, and `C.30.ASV` for grounded architecture, architecture-description adequacy, and structural-view adequacy, `C.33`, `C.34`, and `C.35` for structural-information capture, preservation, and generated or discovered carrier adequacy inside the flow, `C.32` for candidate architecture synthesis, `C.32.HCS`, `C.32.ACS`, and `C.32.ACE` for characteristic starter heads, project criteria rows, and eval programs, `C.25` for Q-bundles, `C.31` family patterns for modularity, reusable structure, and scale preference, `C.29` for mathematical-lens use when claimed, and `E.17` and `E.24.PUB` for publication-face and publication-use claims.
+- **Builds on:** `A.1` and `A.1.SCR` for an existing system boundary, `A.15.6` for project system-of-interest designation and intended-system separation, `A.1.STM` when the missing outside-to-inside dependency must be located, `C.22.2` for problem-side recovery, `C.30`, `C.30.AD`, and `C.30.ASV` for grounded architecture, architecture-description adequacy, and structural-view adequacy, `C.33`, `C.34`, and `C.35` for structural-information capture, preservation, and generated or discovered carrier adequacy inside the flow, `C.32` for candidate architecture synthesis, `C.32.HCS`, `C.32.ACS`, and `C.32.ACE` for characteristic starter heads, project criteria rows, and eval programs, `C.25` for Q-bundles, `C.31` family patterns for modularity, reusable structure, and scale preference, `C.29` for mathematical-lens use when claimed, and `E.17` and `E.24.PUB` for publication-face and publication-use claims.
 - **Uses:** `A.22.CGUS` for the P2S unfolding-structure block when problem pressure, structure uncertainty, candidate synthesis, decision linkage, work linkage, and actual-structure feedback must remain inspectable as one constraint-governed unfolding structure; `E.18.3`, `C.30.TFS-REL`, `E.18`, and `A.3.4` when architecture pressure concerns transformation-flow or bounded change; `C.30.ILC`, `C.32.MLAO`, and `B.2` family patterns when cross-scope, interlevel, interlayer, meta-holon, emergence, or reidentification pressure changes the candidate frame; `C.32.CONWAY` when co-synthesis of transformer and transformed architectures is current; `C.32.FAIL` when a recognizable architecture-synthesis failure becomes a repair action.
 - **Receiving patterns:** `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, and `C.11` for comparison, selection, archive, front, pool policy, publication of a selected set, and local choice; `C.32.PAD`, `C.32.ADR`, and `C.32.ADA` for project architecture decision, ADR-like projection, and decision adequacy; `C.30.AD`, `A.6.3.NAR`, `E.17`, and `E.24.PUB` for architecture descriptions, architecture-mediated narrative renderings, publication faces, and publication-use claims; `A.15`, `A.15.1`, `A.15.2`, and `A.15.5` for method, performed work, work plan, and readiness; `A.3.4` for each actual bounded change; direct subject patterns or `A.6.RCD` for exact work-to-change governors and blockers; `A.15.PROD` for separate local production-work, entity-identity-inception, and production-completion claims; `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, and `E.18` for measurement, Q-bundle, mathematical lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh.
 - **Boundary:** C.32.P2S governs the connected architecturing flow from architecture-relevant pressure to subject-side actual structures recovered under `A.22` from directly governed obtaining facts and to feedback. `C.33`, `C.34`, and `C.35` deepen the structural-information slot group already present in P2S; they do not move the whole architecturing spine out of P2S. C.32.P2S does not replace any governing pattern for architecture claim, architecture description, structural view, candidate palette, comparison, selected-set publication, decision, ADR-like publication, publication form, publication-use claim, method, work, measurement, eval, evidence, assurance, gate, release, improvement, `G.11` currentness refresh, or formal structural-information theory.

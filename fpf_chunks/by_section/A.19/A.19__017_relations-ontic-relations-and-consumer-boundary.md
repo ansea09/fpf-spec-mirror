@@ -6,31 +6,36 @@ section_id: "A.19:13"
 section_title: "Relations - Ontic Relations and Consumer Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__017_relations-ontic-relations-and-consumer-boundary.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:13 — Relations - Ontic Relations and Consumer Boundary"
-line_start: 28811
-line_end: 28816
+line_start: 28802
+line_end: 28807
 dependencies:
+  - "A.10"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
+  - "A.19.CPM"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
+  - "A.19.SelectorMechanism"
   - "A.2.5"
+  - "A.2.6"
   - "A.3.3"
   - "A.6.5"
   - "C.16"
+  - "C.2.1"
   - "E.18"
-  - "E.2.DA"
-  - "E.21"
   - "E.24"
-  - "E.24.PUB"
-  - "E.9.DA"
+  - "F.9"
   - "G.0"
+  - "G.11"
+  - "G.4"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
   - "U.Dynamics.stateSpace"
@@ -46,7 +51,7 @@ keywords:
 
 ### A.19:13 - Relations - Ontic Relations and Consumer Boundary
 
-- **Builds on:** `E.24` for ontic-head discipline, `A.6.5` for slot relation discipline, `A.17` and `A.18` for characteristic and scale discipline, and `C.16` for measurement and coordinate evidence.
-- **Coordinates with:** `A.19.ECS` for constructing evaluation characteristic spaces for object kinds under improvement; `E.21`, `E.9.DA`, and `E.2.DA` for pattern, DRR, and FPF-level evaluation use; `E.24.PUB` when a score table, dashboard, report, or publication form is confused with the characteristic space itself.
-- **Does not replace:** CHR mechanism-governing patterns, consumer patterns that use a declared space, source-set relations, publication-form patterns, or mathematical-lens use under `C.29`.
+- **Builds on:** `E.24` for ontic-head discipline, `A.6.5` for declaration SlotSpecs, `A.17` and `A.18` for characteristic and scale discipline, `A.2.6` for `U.ClaimScope` membership over exact `U.ContextSlice` values, and `C.16` for measurement and coordinate claims.
+- **Coordinates with:** `A.19.CPM` for comparator and comparison scope; `A.19.SelectorMechanism` for explicit selection conditions; `G.4` and other direct consumers for typed predicate evaluation; `F.9` for cross-scheme and cross-plane Bridges; `A.10` and G.11 for provenance and currentness; and `C.2.1` when a predicate description or evaluation assertion is itself an episteme.
+- **Does not replace:** dated evaluation work, actual operation applications and typed results, evidence-use relations, consumer applicability, comparison or selection mechanisms, publication forms, source-set relations, or C.29 mathematical-lens use.
 

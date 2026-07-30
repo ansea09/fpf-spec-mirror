@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 73853
-line_end: 74092
+line_start: 73940
+line_end: 74179
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,7 @@ IDs and instances: **flat with delimiters** (context‑defined) but never collid
 | **`...Spec`**             | **Testable specification** (acceptance-bound) | Description episteme admitted for specification use                              | KernelToken or ContextToken        | `MethodSpec`, `TransformationFlowStructureSpec`, `SystemSpec`            | Using “Spec” without acceptance tests or harness; treating formal notation alone as specification; putting runtime actuals here. |
 | **`Work`** | **Work occurrence kind or an occurrence classified under it** | `U.Work` is the admitted world-side kind; one Work individual is a dated occurrence. A run log, ticket, assertion, description, or record about it is a separate `U.Episteme`. | KernelToken for the kind; ContextToken for an individual or record with an explicit distinguishing head | `U.Work`; `W#Seam134WorkOccurrence`; `W#Seam134WorkRecord` | Plans and schedules; design-time recipes; using a run record as the occurrence; defining a Work subkind by an act label; storing actual relations as occurrence fields. |
 | **`WorkPlan`** | **Claim-bearing episteme coordinating possible future performed work** | Same-individual dependent kind of `U.Episteme` only when A.15.2 recovers one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims | ContextToken after membership | `MaintenanceWorkPlan_Q3` only after the A.15.2 gate | Admission by schedule, window, planned item, ticket, calendar, or plan-record form alone; logging actuals; claiming execution. |
-| **`Service`** (service-facet trigger) | **Service promise, access, acceptance, delivery-work, or publication or API-description facet named by the direct governing pattern** | Recover promise content, commitment, service-access point, delivery system, delivery work, acceptance claim, or publication or API description before naming. | Trigger wording or ContextToken after recovery | object-storage service promise; passport-issuance service-access claim | Using `Service` as a final durable head-kind beside Role, Method, Work, Capability, or another unrecovered facet; naming teams or APIs as "Service". |
+| **`Service`** (recovery trigger only) | **No kind is named by this suffix before recovery; afterward use the exact head supplied by the direct owner** | Apply L-SERV and A.6.P:4.11a to recover the exact promise content, commitment, bearer, Method, Work, acceptance, publication or API description, or direct relation actually used; preserve the EntityOfConcern/Description-episteme boundary and specification-use gate under that owner. | Trigger wording only; any retained ContextToken must already name the recovered object or relation and its owner-specific use | object-storage service promise; passport-issuance service-access claim | Using `Service` as a final durable head-kind; naming teams or APIs as "Service"; treating the possible readings as one bundle. |
 | **`Capability`**        | **System ability**                         | EntityOfConcern side                              | KernelToken or ContextToken        | `ScheduleGenerationCapability`                    | Mislabeling roles or methods as capabilities.                         |
 | **`Dynamics`**          | **Law or model of change**                    | EntityOfConcern side                              | KernelToken or ContextToken        | `LotkaVolterraDynamics`                           | Using for abilities (`Capability`) or recipes (`Method`).             |
 | **`Observation`**       | **Observation record or kind**                | (run record; not EntityOfConcern and Description-episteme or specification use)            | ContextToken or DiscriminatorToken | `VibrationObservation`                            | Mixing with `MethodDescription` or `Evaluation`.                      |

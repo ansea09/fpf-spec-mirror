@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.14.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
-line_start: 23617
-line_end: 23908
+line_start: 23621
+line_end: 23912
 dependencies:
   - "A.1"
   - "A.15"

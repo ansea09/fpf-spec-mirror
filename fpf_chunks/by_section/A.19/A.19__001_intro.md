@@ -6,31 +6,36 @@ section_id: "A.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__001_intro.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:intro — Intro"
-line_start: 28376
-line_end: 28386
+line_start: 28391
+line_end: 28401
 dependencies:
+  - "A.10"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
+  - "A.19.CPM"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
+  - "A.19.SelectorMechanism"
   - "A.2.5"
+  - "A.2.6"
   - "A.3.3"
   - "A.6.5"
   - "C.16"
+  - "C.2.1"
   - "E.18"
-  - "E.2.DA"
-  - "E.21"
   - "E.24"
-  - "E.24.PUB"
-  - "E.9.DA"
+  - "F.9"
   - "G.0"
+  - "G.11"
+  - "G.4"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
   - "U.Dynamics.stateSpace"
@@ -49,9 +54,9 @@ keywords:
 > **Type:** Kernel characteristic-space and dynamics-typing pattern
 > **Status:** Stable
 
-**Use this when.** Use this pattern when the current object is the declared `CharacteristicSpace` itself: characteristics, scales, value sets, coordinate slots, optional overlays, comparability boundaries, normalization boundaries, missingness, and the `U.Dynamics.stateSpace` hook.
+**Use this when.** Use this pattern when the current object is either a declared `CharacteristicSpace` or a reusable by-value `CharacteristicSpacePredicate` over that space: characteristics, scales, value sets, coordinate bindings, optional overlays, predicate operators and cuts, comparability boundaries, normalization boundaries, missingness, and the `U.Dynamics.stateSpace` hook.
 
-**What goes wrong if missed.** Teams compare raw numbers from different scales, treat dashboards or scores as the space, hide thresholds inside state labels, smuggle method sequences into checklists, or give consumer patterns their own private space kinds.
+**What goes wrong if missed.** Teams compare raw numbers from different scales, treat dashboards or scores as the space, hide thresholds inside state labels, silently change a predicate use's scope or evaluation window, smuggle method sequences into checklists, or give consumer patterns private space and predicate kinds.
 
-**What this buys.** One declared space that makes state, threshold, comparability, normalization, and dynamics-typing claims inspectable without turning A.19 into a scoring, dashboard, evidence, gate, or evaluation pattern.
+**What this buys.** One declared space and one recoverable predicate form that make state, threshold, comparability, normalization, and dynamics-typing claims inspectable while leaving each evaluation, result, evidence use, gate, and selection occurrence with its direct owner.
 

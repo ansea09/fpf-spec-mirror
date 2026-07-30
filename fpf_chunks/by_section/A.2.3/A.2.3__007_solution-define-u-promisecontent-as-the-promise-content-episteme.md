@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 3273
-line_end: 3468
+line_start: 3725
+line_end: 3920
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -27,8 +27,8 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
-  - "A.6.8"
   - "A.6.C"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "E.10"
@@ -62,7 +62,7 @@ A **`U.PromiseContent`** is an externally oriented promise-content episteme. Its
 
 `U.PromiseContent` is not a deontic commitment relation. One or more explicit `U.Commitment` occurrences under A.2.8 may have the promise content in their referents position; the promise-content episteme does not obligate an actor by itself.
 
-In normative prose, the head phrase is **promise content**. **Service offering clause** and **service promise clause** are admissible Plain twins under A.6.8; bare *service* does not identify a promise-content episteme.
+In normative prose, the head phrase is **promise content**. **Service offering clause** and **service promise clause** are admissible Plain twins for that promise-content use; bare *service* does not identify a promise-content episteme.
 
 Species-level identity follows C.2.1:
 
@@ -194,7 +194,7 @@ This mini-schema is a recommendation only: it does not admit another U-kind. An 
 
 * **Not a provider:** use a named provider `U.RoleAssignment` occurrence whose holder is the provider `U.System`.
 * **Not a deontic commitment:** that is `U.Commitment` (A.2.8) whose `referents` include the promise content when that accountable relation is current.
-* **Not an access point:** addressable "services", servers, desks, or endpoints are `U.System` (see A.6.8: *service access point* and *service delivery system*).
+* **Not an access point or bearer:** addressable *service*, server, desk, endpoint, process, component, application, host, or cluster wording first goes to A.6.P:4.11a. Recover whether it denotes code or another episteme, a Method, Work/run, an exact bearer or access-providing arrangement, or another directly governed object; apply A.1/A.1.SCR only when a separate repaired claim depends on an exact recovered entity being a system.
 * **Not a method or method description:** the semantic way of doing is `U.Method`; a recipe or other episteme describing that way is `U.MethodDescription`.
 * **Not delivery work or its description:** performed delivery is `U.Work`; a ticket, case description, or incident description is a separately governed episteme about planned or performed work.
 * **Not a schedule:** that is `U.WorkPlan`.
@@ -245,9 +245,9 @@ flowchart LR
 * The **promise content** is the consumer-facing outcome and acceptance statement.
 * In the A.2.8 **commitment relation**, the accountable-subject position is filled directly and the referents position contains the promise-content clause.
 * The **provider role assignment** identifies the holder system, provider role, role-taxonomy episteme, effective reference scheme, and assignment window. The holder system acts under that assignment.
-* A.6.8 recovers the selected facet denoted by "service" wording. It adds no service-situation participant: provider assignment, access description, access-point system, delivery system, delivery method, promise content, and work occurrence retain their direct kinds and governing patterns; A.10 separately governs the evidence relations.
+* A.6.P:4.11a recovers the concrete referent or relation denoted by *service* wording. It adds no service-situation participant: provider assignment, access description, access-point system, delivery system, delivery method, promise content, and work occurrence retain their direct kinds and governing patterns; A.10 separately governs the evidence relations.
 * **Delivery work** is what happened. Evidence relations support claims about selected facts concerning that occurrence and any post-work state expressed by its selected effect Delta. A system performing evaluation work enacts the declared evaluation method over those facts and states; the actual evaluation operation has its own result binding, and a separately constituted evaluation-result episteme may carry the verdict assertion.
 
 **Litmus rule (addressability).**
-If the current claim is about invocation, connection, visitation, restart, or scaling, its EntityOfConcern is an actual `U.System`, not the promised-outcome statement. Use a **service access point** when the interaction boundary is current and a **service delivery system** when the realization system is current.
+If the current claim is about invocation, connection, visitation, restart, or scaling, first use A.6.P:4.11a to recover the exact process, deployed component, endpoint, application, host, cluster, desk, or other bearer. That cue establishes neither `U.System` nor a whole delivery-system boundary. Apply A.1/A.1.SCR only when the repaired claim depends on systemhood; after recognition, call the entity a **service access point** or **service delivery system** only when that exact boundary claim is current. Otherwise keep the exact bearer and keep promise content separate.
 

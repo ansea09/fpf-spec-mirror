@@ -6,12 +6,12 @@ section_id: "A.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__013_rationale.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:11 — Rationale"
-line_start: 2510
-line_end: 2521
+line_start: 2962
+line_end: 2973
 dependencies:
   - "A.1"
   - "A.1.1"

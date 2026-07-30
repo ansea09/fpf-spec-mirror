@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__011_consequences.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:9 — Consequences"
-line_start: 33328
-line_end: 33344
+line_start: 33407
+line_end: 33423
 dependencies:
 keywords:
   - "SelectEligibility"
@@ -27,7 +27,7 @@ keywords:
 
 * Preserves correctness under partial orders by making set‑valued outcomes first‑class.
 * Eliminates a major source of decision drift: hidden thresholds, hidden weights, and silent scalarization.
-* Improves auditability and teachability: one governing pattern location for selection semantics and its guards.
+* Improves replayability and teachability: one governing pattern states selection semantics and guards, while dated work and direct relations preserve each realized use.
 * Supports evolvability: new method families and selection styles can be wired without changing the kernel signature.
 
 **Costs and trade-offs**

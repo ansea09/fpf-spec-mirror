@@ -6,31 +6,36 @@ section_id: "A.19:2"
 section_title: "Context (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__004_context-informative.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:2 — Context (Informative)"
-line_start: 28439
-line_end: 28442
+line_start: 28447
+line_end: 28450
 dependencies:
+  - "A.10"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
+  - "A.19.CPM"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
+  - "A.19.SelectorMechanism"
   - "A.2.5"
+  - "A.2.6"
   - "A.3.3"
   - "A.6.5"
   - "C.16"
+  - "C.2.1"
   - "E.18"
-  - "E.2.DA"
-  - "E.21"
   - "E.24"
-  - "E.24.PUB"
-  - "E.9.DA"
+  - "F.9"
   - "G.0"
+  - "G.11"
+  - "G.4"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
   - "U.Dynamics.stateSpace"
@@ -46,5 +51,5 @@ keywords:
 
 ### A.19:2 - Context (Informative)
 
-FPF’s kernel already standardizes **what** is measured (a **Characteristic**, per A.17) and **how** it is measured (a **Scale** with units, via the **CSLC** Standard in A.18). We also have a measurement substrate (`U.DHCMethodRef`, `U.Measure`) to handle individual observations. What has been missing for modeling **dynamics** is a canonical “Context” in which **multiple Characteristics** can co-exist so that complex **states** (with many aspects) and their **trajectories** are well-typed and comparable. Without a formal CharacteristicSpace, teams either hard-code ad-hoc vectors (often with inconsistent assumptions) or fall back to informal lifecycle stories (“phases” or stages) that contradict the kernel’s open-ended, non-linear evolution paradigm. The Architectural patterns (A-cluster) expect that `U.Dynamics.stateSpace` will be a set of **declared Characteristics each with a declared Scale**. Pattern A.19 delivers exactly this capability, leveraging the CSLC measurement discipline without reinventing any arithmetic or unit-handling logic.
+FPF already standardizes what is characterized through A.17 and how one characteristic is scaled through A.18. Dynamics, evaluation, and comparison additionally need a declared common value space in which several characteristics coexist without losing scale, arity, or meaning. They also need reusable predicates whose semantic components remain recoverable independently of a criterion description, one evaluation occurrence, or one result. A.19 supplies those two values without inventing a generic semantic-locality container or duplicating consumer scope, time, evidence, and result relations.
 

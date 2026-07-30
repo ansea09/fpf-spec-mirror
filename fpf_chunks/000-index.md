@@ -2,17 +2,19 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `2ada413629b846ef308222d16489a82cb5b40a71`
+Commit SHA: `308edacfa2bdb2c60d07e4e10c0deb1f260a6a31`
 
 Chunking method: `pattern-aware`
 
-Patterns: `292`
+Patterns: `293`
 
 ## Patterns
 
 - [A.0 — Onboarding Glossary (NQD & E/E‑LOG)](by_pattern/A.0.md)
 - [A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)](by_pattern/A.1.md)
 - [A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery](by_pattern/A.1.1.md)
+- [A.1.SCR — Finding the Acting or Changed System](by_pattern/A.1.SCR.md)
+- [A.1.STM — Using the System-Thinking Long Mantra](by_pattern/A.1.STM.md)
 - [A.2 — Role Taxonomy](by_pattern/A.2.md)
 - [A.2.1 — U.RoleAssignment - System Role Assignment](by_pattern/A.2.1.md)
 - [A.2.2 — U.Capability - System Ability Envelope and Measures](by_pattern/A.2.2.md)
@@ -56,7 +58,6 @@ Patterns: `292`
 - [A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline](by_pattern/A.6.5.md)
 - [A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)](by_pattern/A.6.6.md)
 - [A.6.7 — MechSuiteDescription — Description of a set of distinct mechanisms](by_pattern/A.6.7.md)
-- [A.6.8 — Service Polysemy Unpacking (RPR‑SERV)](by_pattern/A.6.8.md)
 - [A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context "same", "equivalent", and "align" via explicit Bridges (RPR-XCTX)](by_pattern/A.6.9.md)
 - [A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature](by_pattern/A.6.S.md)
 - [A.6.H — Wholeness Language Unpacking — RPR-WHOLE](by_pattern/A.6.H.md)

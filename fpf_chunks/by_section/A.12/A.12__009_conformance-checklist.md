@@ -6,27 +6,31 @@ section_id: "A.12:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__009_conformance-checklist.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:6 — Conformance Checklist"
-line_start: 23403
-line_end: 23415
+line_start: 23407
+line_end: 23419
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.15"
   - "A.15.1"
   - "A.2.1"
+  - "A.2.6"
   - "A.2.7"
   - "A.3.4"
-  - "B.2"
+  - "A.6.RCD"
+  - "A.7"
   - "B.2.5"
   - "C.13"
   - "C.2.1"
-  - "C.30"
   - "E.17"
+  - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -34,12 +38,12 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-A12-1` | A self-action or passive change claim names the changed holon and the acting system or candidate acting system separately. |
-| `CC-A12-2` | A reflexive case uses distinct acting and changed positions inside a containing holon for the current claim. |
+| `CC-A12-1` | A self-action or passive change claim names one exact continuing changed subject under its direct identity owner and one exact proposed acting entity separately. `ActingSideExternalization@Context` requires `actingEntityRef`; before A.1 recognition it keeps the exact disposition or blocker and leaves `actingSystemRef` unfilled, and after recognition that optional position identifies the same entity under `U.System`. A filled `transformationRef` identifies an A.3.4 bounded change of that same `changedSubjectRef`. `ReflexiveSplit@Context` carries only acting and changed part positions; a companion acting-side frame carries this recognition boundary when needed. |
+| `CC-A12-2` | A reflexive case identifies distinct exact entity parts or subsystems inside one containing holon, and each position has its independently obtaining direct part relation. Phases, assignments, relation occurrences, and generic structures stay with their direct owners. |
 | `CC-A12-3` | A.12 does not create `U.Transformer`, `U.Boundary`, or `U.Interaction`. |
 | `CC-A12-4` | Bounded transformation claims return to `A.3.4`; method and work claims return to `A.15` and `A.15.1`. |
-| `CC-A12-5` | Role assignment and role-relation claims return to `A.2.1` and `A.2.7`. |
+| `CC-A12-5` | A role-assignment field is filled only by one exact obtaining work-facing `U.RoleAssignment`; any claim that exact Work was performed under it uses `F.6`. Role-relation claims return to `A.2.7`. |
 | `CC-A12-6` | Evidence and assurance claims return to `A.10` or the direct evidence or assurance owner. |
 | `CC-A12-7` | Episteme and publication cases do not assign agency to the episteme or publication form. |
-| `CC-A12-8` | A system changing another holon is not treated as that holon's super-holon unless a separate part-whole relation is admitted. |
+| `CC-A12-8` | Changing another holon does not make it a part of the acting system. A filled singular crossing reference resolves one exact obtaining relation and its direct governor. If that governor is absent, the field stays unfilled and the account returns an exact `A.6.RCD missing-governor` naming the participants, needed sentence, and receiving use. Any containing-whole claim requires a separately admitted exact part-whole relation. |
 

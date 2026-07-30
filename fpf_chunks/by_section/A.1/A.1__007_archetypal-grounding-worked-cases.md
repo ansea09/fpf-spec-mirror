@@ -6,14 +6,15 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 1622
-line_end: 1675
+line_start: 1646
+line_end: 1699
 dependencies:
   - "A.1.1"
+  - "A.1.STM"
   - "A.10"
   - "A.14"
   - "A.15.1"
@@ -58,14 +59,14 @@ Newtonian gravitation in one exact selected edition is first a C.2.1 `U.Episteme
 
 - exact law, definition, derivation, diagram, exercise, and evidence-relation epistemes are the candidate constituents;
 - exact claim-composition and episteme part relations organize those constituents as one governed claim-bearing whole;
-- the selected-edition reidentification rule distinguishes the theory episteme and states which revisions preserve or end that identity;
+- the selected-edition identity rule distinguishes this theory episteme; different claim content identifies another episteme, and any historical continuity is stated through the applicable C.2.1 edition relation;
 - inferential and explanatory characteristics arise from the organized claim-bearing whole rather than from one constituent;
 - its actual inferential interfaces, effective reference scheme, applicability conditions, and identity-preservation conditions satisfy the applicability and compatibility conditions of at least one governed method for composing it as a constituent of a larger explanatory or educational episteme;
 - `E.24.UK` already admits `U.Episteme`, while C.2.1 supplies the kind-specific constitution condition.
 
 A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
 
-The theory does not teach itself, revise itself, or authorize laboratory work. A system under an exact role assignment may explain, revise, publish, compare, or use the episteme through separately governed work and relation occurrences.
+The theory does not teach itself, revise itself, or authorize laboratory work. A system under an exact role assignment may explain, publish, compare, or use this episteme through separately governed Work and relation occurrences; revision Work yields another episteme, with any edition relation tested separately.
 
 #### A.1:5.3 - Fleet As Collection Or Acting Collective
 
@@ -75,7 +76,7 @@ If a source says "the fleet responded", recover the actual claim: individual veh
 
 #### A.1:5.4 - Lathe Changing A Workpiece
 
-A lathe can change a workpiece during manufacturing without becoming the workpiece's super-holon.
+A lathe can change a workpiece during manufacturing without thereby becoming a part of the workpiece or the larger whole containing it.
 
 Use `A.3.4` to identify the bounded transformation from the exact changed referent, extent, boundary conditions, actual change facts, and continuity rule. Use the direct subject patterns for the lathe's participation, method, dated work, work-to-change facts, and evidence. Use A.14 or C.13 for part-whole only when an exact grounded part relation independently obtains.
 

@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__003_use-this-when.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:0 — Use This When"
-line_start: 3219
-line_end: 3238
+line_start: 3671
+line_end: 3690
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -27,8 +27,8 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
-  - "A.6.8"
   - "A.6.C"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "E.10"
@@ -73,5 +73,5 @@ Typical moments:
 
 **What this buys.** One consumer-facing promise-content episteme with direct exits to commitment, role assignment, access, `PromiseContentUse`, performed delivery work, affected entities and states, evaluation-operation results, optional verdict epistemes, evidence, acceptance, and publication patterns. Each neighboring claim keeps its named `EntityOfConcern` and direct relation instead of being collapsed into one undifferentiated service referent.
 
-**Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is the performed delivery work, use `A.15.1`; if it is the access point or delivery system, use system and architecture patterns plus A.6.8 service wording repair; if the current move is Contract Bundle unpacking, use `A.6.C`.
+**Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is performed delivery Work, use `A.15.1`; if service/access wording hides its concrete subject or direct relation, start with A.6.P:4.11a. An exact bearer or access-providing arrangement is only one possible recovered reading; code or another episteme, Method, Work/run, participation, promise, permission, status, and direct relations keep their own readings. Use A.1/A.1.SCR only when a separate repaired claim depends on that exact entity being a system. If the current move is Contract Bundle unpacking, use `A.6.C`.
 

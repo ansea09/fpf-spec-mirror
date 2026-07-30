@@ -6,13 +6,15 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:4 — Solution"
-line_start: 26282
-line_end: 26402
+line_start: 26286
+line_end: 26417
 dependencies:
+  - "A.1"
+  - "A.1.STM"
   - "A.12"
   - "A.15.1"
   - "A.15.2"
@@ -31,19 +33,6 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
 keywords:
-  - "A.22-selected U.Structure"
-  - "SystemOfInterestRole"
-  - "TransformationFlowStructure"
-  - "U.RoleAssignment"
-  - "actual composite project U.Work"
-  - "actual versus intended system"
-  - "affected case referent and change history"
-  - "evaluation non-claim"
-  - "missing constructor substrate"
-  - "project designation and selection claim"
-  - "project/process/case wording"
-  - "result U.Episteme"
-  - "reusable U.Method"
 ---
 
 ### A.15.6:4 - Solution
@@ -70,26 +59,27 @@ The project occurrence uses the identity, temporal extent, parts, episodes, cont
 
 Whole-project roll-up requires exact work-parthood plus an aggregation policy defined for the one relation and measure being aggregated. Outputs, effects, verdicts, epistemes, deliveries, and uses do not become one result merely because they share the project label.
 
-#### A.15.6:4.1a - Connect project work to its system of interest
+#### A.15.6:4.1a - Connect project work to its project system-of-interest and network question
 
-Start with an ordinary sentence: **this project work is intended to change, produce, restore, evaluate, or prepare the use of this system**. Then separate the facts that make the sentence usable. Name the composite project `U.Work`, the system, the plan or decision that selected it, the concrete change or use being pursued, and the next decision that needs the selection.
+Start with an ordinary sentence: **this project work is intended to change, produce, restore, evaluate, or prepare the use of this system**. Then name the composite project `U.Work`, the system or intended-system designator, the plan or decision that selected it, the concrete change or use being pursued, and the next decision that needs the designation.
 
-When the selected system already exists, identify that same entity under its admitted `U.System` kind. The plan or decision may directly designate it and explain why it matters to the project, but that designation does not put the system inside a project container. The actual links still come from the relations that obtain in the case: for example, an exact work-to-referent relation, one independently identified transformation of the system, a branch-local `A.15.PROD` production or inception claim, an evaluation, or a later use relation. Include only the links needed for the named decision; if that decision also needs one compound project-selection claim, use the stop in section 4.1a.
+The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may be used as a historical Plain synonym. Neither expression admits a system, role, relation, or project kind.
 
-When the system is only intended, keep its designator and expected change or use inside the `U.WorkPlan`, decision, system description, or other claim episteme. Before the applicable identity rule first holds, there is no admitted future `U.System`, no holder for `U.RoleAssignment`, and no world-side selection relation to backdate. After the applicable identity facts make an actual system first satisfy that rule, a local A.15.PROD claim can state the inception boundary. Relate the new actual system to the earlier description through the applicable direct reference or identity claim, then test project selection and any role assignment at their own times.
+When the designated system already exists, identify that same entity under its admitted `U.System` kind. The plan or decision may say why it matters to the project, but that designation does not put the system inside a project container. Actual links still come from relations that obtain: an exact work-to-referent or work-to-change relation, one independently identified transformation, a branch-local A.15.PROD production or inception claim, an evaluation, a participation or use relation, or another direct owner. Include only links used by the named decision.
 
-The Plain phrase **system of interest** needs no technical role when it only helps a team say which system the project is about. Materialize `SystemOfInterestRole` only after the complete A.2 interpretation test passes: name the role value, its named role-taxonomy episteme, the effective `U.ReferenceScheme`, and what an admitted `U.System` is being in one concrete method enactment, actual transformation or functioning participation, or performed-Work participation. Being selected by the project or passively affected is not enough. Only when assignment identity or its window matters does A.2.1 add the admitted holder, one actually obtaining `U.RoleAssignment`, and its uninterrupted extent. The assignment says which system holds the already interpreted role during that participation; it does not say why the project selected the system.
+When the system is only intended, keep its designator and expected change or use inside the `U.WorkPlan`, decision, system description, or other claim episteme. Before its identity rule first holds, there is no future `U.System`, role-assignment holder, or transformation of that not-yet-existing system. A.15.PROD may later state the identity-inception boundary. After inception, relate the actual system to the earlier description through the applicable reference or identity claim, then test project designation, participation, and any role assignment at their own times.
 
-Project selection and role assignment do not entail one another. A plan and decision can select `PumpUnit-3` as the system the project will change without any `SystemOfInterestRole` interpretation or assignment. Conversely, a test role value interpreted through a named taxonomy episteme and effective scheme, and assigned to a pump for one qualification episode under A.2.1, does not make that pump the system selected by a modernization project. A patient record, damage claim, measurement result, or other non-system case referent cannot hold the role, even though it can be central to project work.
+Project designation and role assignment do not entail one another. Materialize `SystemOfInterestRole` only after A.2 names the role value, taxonomy episteme, effective scheme, and one concrete enactment-facing participation. Only when assignment identity or its window matters does A.2.1 add the admitted holder, obtaining assignment, and uninterrupted extent. Designation, passive affectedness, or a familiar label supplies none of these facts; an obtaining role assignment does not prove project designation. A patient record, damage claim, measurement result, or other non-system case subject can remain central to project Work but cannot hold that role.
 
-**Stop before asserting a compound project-selection claim.** The four facts below are useful for the bounded selection question, but no constructor substrate and edition has been selected to define their inputs, output claim, applicability, and truth semantics. Do not treat the conjunction probe in `A.6.RCD:4.2` or the effective reference scheme as that substrate. A plan or decision may still designate the system directly, and every Work, change, production, evaluation, delivery, acceptance, and use fact remains an independent relation or claim. When the named decision needs one compound project-selection truth, return `missing-substrate[project-selection-conjunction]`; do not assert that compound claim until an exact constructor substrate and edition have been selected.
+When one project question spans operation or use of the project system-of-interest together with production, identity inception, later change, verification, feedback, or recursive builder questions, E.18.NET may select the relevant independently identified TFS or nested-network members. The selection must pass its four A.22 discriminators: direct members, obtaining cross-member relation occurrences, applied constraints, and one `networkUseFrame`; all endpoint bindings must resolve. If a member or relation is ungrounded, keep a Plain proposed network explanation and name the missing member, governor, false or unresolved predicate, occurrence, or binding. The selected network is a non-agentive `U.Structure`, not the project, performed Work, a case, or evidence of work parthood.
 
-1. the composite Work first passes the A.15.1 admission gate and then the five project-specific qualification tests in section 4.1;
-2. one identified plan or decision episteme designates the actual system and states the intended change, production, evaluation, or later use;
-3. every actual work-to-referent, work-to-change, transformation, production, evaluation, delivery, acceptance, or use fact cited by the claim has its own admitted relation or claim and obtains independently; and
-4. the claim names the concrete decision or action for which this system is being selected.
+If the network-selection judgment must persist, use one ordinary C.2.1 result episteme whose exact EntityOfConcern is that selected network and whose claim says only why it answers the named project question for the stated basis and qualification window. Project Work, transformations, case closure, production, evidence, and decisions remain separate subjects and claims. A record creates none of them and creates no `projectHasNetwork` relation.
 
-For `PumpUnit-3`, the independently admitted A.15.1 composite Work and parts, the five project-specific qualifications, the plan, upgrade decision, and independently obtaining pump-change facts together supply all four facts above. Do not assert a compound project-selection claim while the constructor substrate and edition are missing. If the upgrade decision does not designate `PumpUnit-3`, the selection test fails even though the Work and pump change may still exist. The satisfied facts and the failed-designation contrast create neither a predicate nor a relation occurrence. Continue independent project, process, and case recovery and admit no `ProjectSelectionRelation`. Reopen `A.6.RCD` when an exact substrate is selected for this compound claim, repeated use needs one stable predicate rule, or a named downstream decision must re-identify the same selection occurrence.
+**Stop before asserting a compound project-selection claim.** A plan or decision designation and every independently obtaining Work, change, production, evaluation, delivery, acceptance, or use fact remain usable. When a named decision also needs one compound truth that this project selected this system, return `missing-substrate[project-selection-conjunction]` until one selected constructor substrate and edition define its inputs, output claim, applicability, and truth semantics. The A.6.RCD conjunction probe and reference scheme are not that substrate.
+
+Keep the four inputs to that bounded question visible without turning their conjunction into a predicate: (1) the composite Work has passed A.15.1 admission and the five project-specific tests in section 4.1; (2) one identified plan or decision designates the actual system and states the intended change, production, evaluation, or later use; (3) every cited work-to-referent, work-to-change, transformation, production, evaluation, delivery, acceptance, or use fact has its own direct governor and obtains independently; and (4) the account names the concrete decision or action for which the designation matters.
+
+For `PumpUnit-3`, the independently admitted composite Work and parts, five project-specific qualifications, plan, upgrade decision, and pump-change facts remain useful. The designation fails if the plan or decision does not designate `PumpUnit-3`, even when Work and pump change exist. The satisfied facts and this contrast create neither a predicate nor a relation occurrence. Reopen A.6.RCD only when an exact substrate is selected, repeated use needs one stable predicate rule, or a downstream decision must reidentify the same selection occurrence.
 
 #### A.15.6:4.2 - Recover a process concern through `U.Method`, an exact selected `U.Structure`, or `TransformationFlowStructure`
 
@@ -105,13 +95,22 @@ A dated `U.Work` occurrence may support a process claim only after you recover t
 
 Process remains useful Plain management wording. It does not introduce `U.Process`, an `@Process` suffix family, or a parallel work identity.
 
-#### A.15.6:4.3 - Recover a case concern through the affected referent
+#### A.15.6:4.3 - Recover a case concern through one exact subject or claim
 
-When case-management work follows the changing conditions of one exact `U.Entity`, select that entity as the affected referent for claims actually about its condition or history. A case-description episteme takes its exact EntityOfConcern from its claim content: the affected referent for those claims, or the exact condition, transformation-history relation, Work, decision, result, or other subject actually asserted. Keep every selected subject's independently admitted kind: a patient or maintained machine may be `U.System`; a claim may be `U.Episteme`; a material batch may remain `U.Entity` until a direct governing pattern admits a stronger kind. Name condition and transformation-history relations separately.
+A case is Plain subject- or claim-centred working language, not `U.Case` and not automatically a network member or slice. Start with the closure question, then return one minimal result:
 
-Methods, Work occurrences, decisions, plans, evidence, and publications can enter as the case unfolds. They remain related objects. When the affected referent is the selected subject, it is not replaced by its work history, case file, dashboard, identifier, or management procedure.
+1. name the exact subject or claim and its direct identity and reference owner;
+2. keep only the TFS, `SubflowRef`, `PathSliceId`, exposed position, selected network, Method, Work, transformation, evidence, decision, or neighboring direct claim needed to answer the closure question;
+3. state the separately governed fact, evidence, or decision on which closure depends; and
+4. name one downstream receiving use or position and say explicitly that this later use is outside the closed case.
 
-Case remains useful Plain management wording. It does not introduce `U.Case` or an `@Case` suffix family. If a durable case record is needed, it is an episteme whose exact EntityOfConcern is the subject selected by its actual claim content, whether the affected referent or one exact relation, Work, decision, result, or condition. The corresponding SlotSpec belongs to the C.2.1 constitution-relation signature, not to the record.
+The subject is not restricted to one continuing changed entity. A maintained system, patient, material batch, or other continuing referent may be followed through conditions and independently grounded A.3.4 transformations. An episteme case instead follows exact episteme identities: changed claim content identifies another episteme and historical continuity uses `EpistemeEditionRelation`, not transformation of one unchanged episteme. A characteristic inquiry distinguishes the bearer, value or assignment, measurement occurrence, and result episteme; an immutable value neither changes nor acts. One exact relation occurrence, decision, result, or independently selected edition-lineage structure may be the case subject when that is what the closure claim concerns.
+
+Methods, Work, performers, assignments, plans, transformations, production claims, evidence, decisions, and publications enter only when the closure question needs them, and each keeps its direct owner. Plain “Method for transforming the case subject” is retrieval shorthand: Work enacts a Method, while change, production, inception, readiness, result, and closure each need separate grounds. A Method or completed Work alone closes no case and proves no transformation.
+
+If a case claim must persist, use one or more ordinary C.2.1 epistemes. A persistent case record remains an ordinary episteme and has no slots; any typed participant `SlotSpec` belongs to the `RelationSignature` of the exact governing relation, not to that record. Each episteme takes its truthful EntityOfConcern from its own claim content; split closure, relation, evidence, and network-selection claims when they concern different subjects. Usually keep the needed facts separate. Use A.22 only when one named later task must reuse their organization as one thing and all four identity discriminators pass. Otherwise keep a direct plurality or the exact E.18/E.18.NET references that answer the question. A case file, dashboard, identifier, or filled record creates none of the subject, organization, closure, or downstream relation.
+
+You may describe this working boundary without asserting a new relation. If a later task must assert and reidentify a relation from the case to its downstream use, first open that relation's direct owner. If no current pattern supplies the predicate, return its participants and `missing-governor`; prose and an episteme cannot make the relation obtain.
 
 #### A.15.6:4.4 - Do not force the three readings into one view family
 
@@ -121,7 +120,7 @@ Project, process, and case wording is only a cue to inspect the claim. Under `C.
 |---|---|
 | project cost, completion, or result | Select the composite project `U.Work` only when cost, completion, or another predicate is actually asserted of that Work. If the claim is about a measure, transformation, produced entity, value, condition, verdict, decision, relation occurrence, or result episteme, select that exact subject instead. |
 | process repeatability, variation, throughput, or improvement | Select `U.Method` only when the claim concerns the reusable way; select an exact A.22 `U.Structure` or `TransformationFlowStructure` only when it concerns that admitted organization. Otherwise select the exact measure, evaluation result, obtaining relation, relation-bearing claim, or admitted collection-as-whole of occurrences actually asserted. |
-| case condition, trajectory, or next intervention | Select the affected referent only when the claim is about that entity and its condition or history. Otherwise select the exact condition, transformation, relation-bearing claim, Work occurrence, or decision actually asserted. |
+| case condition, trajectory, closure, or next downstream use | Select the exact subject or claim named by the closure question: a continuing referent and its conditions, an episteme edition thread, characteristic bearer or assignment, measurement or result episteme, relation occurrence, Work, decision, or another directly identified subject. Name the downstream receiving use but keep it outside the closed case. |
 
 One description keeps one truthful EntityOfConcern. When independent claims have different direct subjects, keep separate epistemes rather than inventing a union concern. An exact E.17.0 viewpoint episteme states the concern and conformance rules for a description; it does not turn different direct subjects into views of one entity. When accounts with different EntityOfConcern values must be related, keep each episteme and its own viewpoint-conformance judgment explicit, then state the exact correspondence relations required by the Work that uses those accounts; source-event proximity creates neither conformance nor a new multi-view family.
 
@@ -158,12 +157,13 @@ The organization performing or coordinating project work is a neighboring `U.Sys
 
 #### A.15.6:4.7 - Run the direct-subject recovery sequence
 
-1. Say the management claim in ordinary language without treating *project*, *process*, *case*, or *system of interest* as a kind.
-2. Ask what the next decision is about: one performed work whole, a reusable method, the organization of exact method-side objects and relations, a transformation-flow structure, or one affected referent and its history.
-3. Admit or select the subject through its governing pattern: use `A.15.1` for Work, `A.3.1` for `U.Method`, `A.22` for an exact method-side `U.Structure`, `E.18` for one `TransformationFlowStructure`, `A.3.4` for an actual transformation, or the applicable affected-referent pattern. Do not let a management label, interval, or local structure designator substitute for those admission facts.
-4. If a project names a system of interest, decide whether the system already exists. Keep an intended future system inside plan or description content. For an actual system, keep the plan or decision designation and each obtaining work, change, or use fact separate. If the named decision needs one compound project-selection truth, apply section 4.1a and stop at its missing-substrate result until an exact substrate and edition are selected. Test any `SystemOfInterestRole` interpretation and any later assignment separately.
-5. Keep the plan, performers, role assignments, transformations, results, decisions, evidence, descriptions, and publications distinct. For a result claim, ask what the result is and what it is a result of or for. Then choose one WMR outcome: an obtaining direct relation; an exact `A.6.1` application binding; a local claim under `A.15.PROD` or `A.6.RCD`; or one non-assertability result. Mark the last as `factually unsupported`, `missing-information`, or `missing-governor`; only `missing-governor` reopens ontology.
-6. If a description is needed, recover its actual claim content, exact `C.2.1` EntityOfConcern, and effective reference scheme after the direct subject is known; do not assign its subject from the project, process, or case label. Designate one independently selected `BoundedModelUseStructure` only when it changes how the next assertion is read or how the described Work will be used; otherwise omit it. Add grounding, viewpoint, scope, edition, or publication only when that assertion or Work use needs it.
-7. If a local record refers to the selected subject, name the relation and use a typed reference; do not rely on a suffix.
-8. Use E.18.NET only when the decision needs two or more independently identified transformation-flow structures plus at least one exact obtaining cross-boundary relation. The selected network is neither the project, the process, performed Work, nor a source of work parthood.
+1. Say the management claim in ordinary language without treating *project*, *process*, *case*, or *project system-of-interest* as a kind.
+2. Ask what the next decision is about: one performed Work whole; a reusable Method; one selected method-side or transformation-flow structure; one project-level network question; or one case subject or claim and its closure.
+3. Admit or select that subject through its owner: A.15.1 for Work, A.3.1 for `U.Method`, A.22 for a selected `U.Structure`, E.18 for one TFS, E.18.NET for a grounded network, A.3.4 for an actual change of one continuing referent, C.2.1 for an episteme, or the direct owner of the case subject. A label, interval, record, or local designator substitutes for none of these facts.
+4. If a project names a project system-of-interest, decide whether the system already exists. Keep an intended future referent in plan or description content. For an actual system, keep recognition, plan or decision designation, each Work/change/use fact, any `SystemOfInterestRole` interpretation, and any assignment separate. Use section 4.1a for a project-network question or the exact compound-selection stop.
+5. For a case, name the exact subject or claim, only the bounded references and direct claims needed for closure, the separately governed closure basis, and one named downstream use that remains outside the closed case. Persist only truthful C.2.1 claims; use A.22 only when one named later task must reuse the organization as one thing and all four identity discriminators pass.
+6. Keep plans, performers, role assignments, transformations, results, decisions, evidence, descriptions, and publications distinct. For a result claim, ask what the result is and what it is a result of or for. Then use an obtaining direct relation, an exact A.6.1 application binding, a local A.15.PROD or A.6.RCD claim, or a non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`. Only the last reopens ontology.
+7. If a description is needed, recover its claim content, one truthful C.2.1 EntityOfConcern, and effective reference scheme after the direct subject is known. Select a `BoundedModelUseStructure` only when it changes how the next assertion is read or used; otherwise omit it.
+8. If a local record refers to the selected subject, name the relation and use a typed reference. A suffix, record row, or case label adds no identity, locality, organization, or closure.
+9. When these recovered results must re-enter the long dependency from outside use through architecture, Work, change, and recursive builders, continue through A.1.STM. Otherwise stop at the direct result that answers the decision.
 

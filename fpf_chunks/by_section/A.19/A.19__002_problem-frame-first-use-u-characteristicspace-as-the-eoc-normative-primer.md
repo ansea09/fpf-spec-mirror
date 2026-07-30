@@ -6,31 +6,36 @@ section_id: "A.19:0"
 section_title: "Problem frame - First use: U.CharacteristicSpace as the EoC (normative primer)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__002_problem-frame-first-use-u-characteristicspace-as-the-eoc-normative-primer.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:0 — Problem frame - First use: U.CharacteristicSpace as the EoC (normative primer)"
-line_start: 28387
-line_end: 28407
+line_start: 28402
+line_end: 28422
 dependencies:
+  - "A.10"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
   - "A.19.CN"
+  - "A.19.CPM"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.ECS"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
+  - "A.19.SelectorMechanism"
   - "A.2.5"
+  - "A.2.6"
   - "A.3.3"
   - "A.6.5"
   - "C.16"
+  - "C.2.1"
   - "E.18"
-  - "E.2.DA"
-  - "E.21"
   - "E.24"
-  - "E.24.PUB"
-  - "E.9.DA"
+  - "F.9"
   - "G.0"
+  - "G.11"
+  - "G.4"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
 keywords:
   - "CharacteristicSpace"
   - "U.Dynamics.stateSpace"
@@ -50,7 +55,7 @@ Use `A.19` when the current question is the space of characteristics itself: whi
 
 First move: name the `CharacteristicSpace`, then write its basis as slot declarations. Each slot binds one `U.Characteristic` to one scale and value set under `A.17` and `A.18`; optional overlays and comparability boundaries attach to the space only when declared. `U.Dynamics.stateSpace` points to a declared `CharacteristicSpace`; A.19 does not supply the dynamic law, time base, evaluation use, dashboard, score, or portfolio that consumes the space.
 
-Core boundary: the `CharacteristicSpace` is the EoC here. Consumer patterns may refer to it through `...SpaceRef` fields, use it for evaluation or CHR mechanisms, or publish views over it, but those consumer references, mechanism steps, publication forms, and source-set relations are not second space kinds.
+Core boundary: A.19 governs the `CharacteristicSpace` and the reusable by-value `CharacteristicSpacePredicate`. Consumer patterns may refer to the space, bind the predicate to an exact use, evaluate it, or publish views over either value, but those references, applications, results, descriptions, publication forms, and source-set relations are not second space or predicate kinds.
 
 Informative CHR pointer: when the question moves from the space to normalization, indicatorization, scoring, aggregation, comparison, or selection mechanisms, use the corresponding `A.19.<MechId>` pattern (`A.19.UNM`, `A.19.UINDM`, `A.19.USCM`, `A.19.ULSAM`, `A.19.CPM`, `A.19.SelectorMechanism`) and `A.19.CHR`. `C.16` carries measurement and evidence backing; `G.0` carries admissibility gates for numeric operations. A.19 may cite those patterns, but it does not govern their mechanism vocabulary.
 

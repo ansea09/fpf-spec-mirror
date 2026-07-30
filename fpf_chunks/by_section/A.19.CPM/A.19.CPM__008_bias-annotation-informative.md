@@ -6,12 +6,12 @@ section_id: "A.19.CPM:6"
 section_title: "Bias-Annotation — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__008_bias-annotation-informative.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:6 — Bias-Annotation — informative"
-line_start: 32918
-line_end: 32928
+line_start: 32934
+line_end: 32944
 dependencies:
 keywords:
   - "ComparatorSet"
@@ -31,6 +31,6 @@ Typical bias risks and mitigations:
 
 * **Comparator choice encodes value judgments.** Weights, priority orders, thresholds, and “tie‑break” conventions can encode organizational bias. CPM forces these to live in explicit, edition‑pinned `ComparatorSpec` records or policy records rather than in invisible code or informal reasoning.
 * **Missing evidence is rarely random.** If evidence is systematically missing for certain contexts or groups, naive “unknown → worse” is a bias amplifier. CPM’s tri‑state guard avoids coercion; but teams must still define policy‑bound failure behavior and be explicit when abstention is acceptable.
-* **Cross‑context comparisons can embed structural unfairness.** CPM enforces bridge‑only transport and penalty assignment (`R_eff` only), making “comparisons across worlds” explicit instead of silently assuming commensurability.
+* **Cross-scheme comparisons can embed structural unfairness.** CPM requires an explicit F.9 Bridge when reference schemes or planes differ. The Bridge exposes preserved and lost meaning; it cannot silently replace comparison scope, predicate, comparator, or time.
 * **Overconfidence via scalarization.** Collapsing partial orders into scalars often overstates certainty and hides tradeoffs. CPM makes set‑valued outcomes first‑class, so the human or managerial decision can remain honest about tradeoffs.
 

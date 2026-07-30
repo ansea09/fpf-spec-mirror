@@ -6,13 +6,15 @@ section_id: "A.15.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__003_problem.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:2 — Problem"
-line_start: 26261
-line_end: 26266
+line_start: 26265
+line_end: 26270
 dependencies:
+  - "A.1"
+  - "A.1.STM"
   - "A.12"
   - "A.15.1"
   - "A.15.2"
@@ -31,24 +33,11 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
 keywords:
-  - "A.22-selected U.Structure"
-  - "SystemOfInterestRole"
-  - "TransformationFlowStructure"
-  - "U.RoleAssignment"
-  - "actual composite project U.Work"
-  - "actual versus intended system"
-  - "affected case referent and change history"
-  - "evaluation non-claim"
-  - "missing constructor substrate"
-  - "project designation and selection claim"
-  - "project/process/case wording"
-  - "result U.Episteme"
-  - "reusable U.Method"
 ---
 
 ### A.15.6:2 - Problem
 
-The same happening can be approached through three legitimate concerns. A project manager may need the identity, cost, completion, or result of one unique work whole, but a result or measure remains its own subject when that is what the claim asserts. A process engineer may need one reusable `U.Method`, one exact A.22 `U.Structure` whose organization changes the next question or action, or a `TransformationFlowStructure`. A case worker may need the changing condition and history of the affected referent.
+The same happening can be approached through three legitimate concerns. A project manager may need the identity, cost, completion, or result of one unique Work whole, but a result or measure remains its own subject when that is what the claim asserts. A process engineer may need one reusable `U.Method`, one exact A.22 `U.Structure` whose organization changes the next question or action, or a `TransformationFlowStructure`. A case worker may need to follow one exact subject or claim to a bounded closure while keeping the named downstream use outside that closure.
 
-Treating these concerns as three views of one unspecified "project situation" loses the direct subjects. Treating them as three sibling kinds duplicates ontics already supplied by `U.Work`, `U.Method`, `U.Transformation`, selected structures, and the affected referent. The engineering problem is to recover the exact subject and relation selected by the claim while keeping familiar Plain wording available for retrieval.
+Treating these concerns as three views of one unspecified "project situation" loses the direct subjects. Treating them as three sibling kinds duplicates ontics already supplied by `U.Work`, `U.Method`, `U.Transformation`, selected structures, epistemes, characteristic bearers and assignments, relation occurrences, and continuing referents. The engineering problem is to recover the exact subject or claim and its direct relations while keeping familiar Plain wording available for retrieval.
 

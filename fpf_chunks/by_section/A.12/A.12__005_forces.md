@@ -6,27 +6,31 @@ section_id: "A.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__005_forces.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:3 — Forces"
-line_start: 23241
-line_end: 23250
+line_start: 23226
+line_end: 23235
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.15"
   - "A.15.1"
   - "A.2.1"
+  - "A.2.6"
   - "A.2.7"
   - "A.3.4"
-  - "B.2"
+  - "A.6.RCD"
+  - "A.7"
   - "B.2.5"
   - "C.13"
   - "C.2.1"
-  - "C.30"
   - "E.17"
+  - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 
@@ -37,6 +41,6 @@ keywords:
 | Causal clarity vs convenient speech | Everyday speech compresses "self-repair" and "automatic update"; engineering use needs the acting side and changed object. |
 | Internal regulation vs object collapse | A larger holon may contain both regulator and regulated parts; that does not make the regulator and regulated position identical for the current claim. |
 | Automation vs accountability | Automated work still needs a system in role, method or work claim, and evidence relation when those claims matter. |
-| Episteme use vs episteme agency | Epistemes can be changed, published, cited, or used, but acting belongs to systems in role. |
-| Boundary crossing vs parthood | A system can act on another holon across a boundary-crossing relation without becoming its super-holon. |
+| Episteme use vs episteme agency | Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme. A different carrier, publication, grounding, or use belongs to its own object or relation. No episteme thereby acts. A causal or interaction claim gets its participants from its direct owner; a Work performer or `U.RoleAssignment` holder must be an admitted `U.System`. |
+| Boundary crossing vs parthood | When an exact boundary-crossing relation independently obtains under its direct owner, it does not thereby make the acting system a part of the changed holon or the larger whole containing it. Without that governor, keep the crossing claim open rather than inferring either crossing or parthood. |
 

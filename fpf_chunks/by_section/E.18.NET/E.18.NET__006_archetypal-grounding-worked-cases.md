@@ -6,15 +6,17 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 83907
-line_end: 83976
+line_start: 83999
+line_end: 84078
 dependencies:
+  - "A.1.STM"
   - "A.12"
   - "A.15"
+  - "A.15.6"
   - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
@@ -64,19 +66,25 @@ returnCondition: either member, the supply occurrence, an endpoint or exposure, 
 
 This filled basis is enough for the immediate selection; it is not a `TransformationFlowStructureNetworkRecord@Context`. Create that separate descriptive record only when the result must survive the current work. With no direct supply kind or predicate, the same diagram remains a proposed description with `missing-governor`. With an applicable governor but undecided facts, it remains proposed with the missing grounding or information-sufficiency boundary. With a false predicate, no supply occurrence fills the network. With a satisfied predicate but a missing endpoint binding, it remains proposed with that binding named.
 
-#### E.18.NET:5.2 - Recursive build-the-builder
+#### E.18.NET:5.2 - Project system-of-interest and recursive build-the-builder
 
-A project distinguishes five independently identified flow structures:
+For one project question, practitioners ask which independently identified flow structures must be considered together to connect production and later operation of the project system-of-interest, and which builder branches must also be visible. The actual project remains composite `U.Work`; the selected network is a non-agentive `U.Structure`. Project designation, U.System identity, a role interpretation, and any assignment remain separate.
 
-1. a compiler-source-change TFS;
-2. a bootstrap-compiler build TFS;
-3. an application-build TFS using the admitted compiler artifact through a directly governed project relation;
-4. a release-assurance TFS that evaluates the built application through its own direct relation; and
-5. a deployment-and-operation TFS whose exact software-use relation is governed separately.
+For a compiler-and-application use, practitioners independently identify five TFS values by the questions they answer:
 
-It then selects four nested networks. `CompilerBuildNetwork` has members 1 and 2. `ApplicationCompilerUseNetwork` has that independently identified network and member 3. `ReleaseAssuranceNetwork` has `ApplicationCompilerUseNetwork` and member 4. `DeliveryOperationNetwork` has `ReleaseAssuranceNetwork` and member 5. Every selection has at least two direct members and its own exact obtaining cross-member relation occurrence and endpoint bindings.
+1. a TFS whose loci bind the compiler-edition preparation and directly governed source-use facts needed by the build;
+2. a TFS whose loci bind Work and changes of pre-existing build substrates plus production and identity-inception claims for one bootstrap compiler;
+3. a TFS whose loci bind application-production Work and the exact use of that admitted compiler;
+4. a TFS selected for release-assurance questions; and
+5. a TFS selected for deployment and operation after the application system exists.
 
-The bootstrap compiler result is exposed from the outer delivery network through this exact finite path:
+These descriptions are not TFS kinds or lifecycle phases. No transformation of a not-yet-existing compiler or application is asserted. Each TFS, Work occurrence, change of a continuing referent, production claim, identity-inception claim, completion claim, role assignment, and later operation/use fact keeps its direct owner.
+
+In this worked use, `CompilerArchitectureTeam-1 : U.System` performs dated `CompilerNetworkSelectionWork-5 : U.Work` under obtaining `CompilerNetworkSelectionAssignment-5`; the separately identified result episteme records the accountable selection decision. During that Work the team selects nested networks only after exact cross-member relations obtain and every endpoint is bound. `CompilerRealizationNetwork` selects members 1 and 2 through the exact source/use, production, or other admitted occurrences needed by that use. `ApplicationCompilerUseNetwork` selects that network and member 3 through the exact compiler-input or operation-application occurrence supplied by its direct owner. `ReleaseAssuranceNetwork` adds member 4 through its exact evaluation or assurance occurrence. `DeliveryOperationNetwork` adds member 5 through its exact deployment, participation, application, or use occurrence. The names are local designators; every selection still needs direct members, obtaining relation occurrences, applied constraints, and its own `networkUseFrame`. The project Work, network, result episteme, team, assignment, and selection Work remain different objects.
+
+A compiler-production case can close on separately grounded identity inception, production completion or readiness, evidence, and decision while naming the application-build position as the downstream use outside that closed case. Project-level reasoning continues into the member where the compiler later participates. The same joint-selection question recurs for a builder system: select the TFS in which that admitted builder performs exact Work together with the independently identified TFS or nested network concerning production and identity inception of the builder, or its later change after it exists. Shared identity creates no edge; use exact production, inception, participation, application, use, or other directly governed occurrences and endpoint bindings.
+
+The bootstrap compiler result is exposed from the outer network through one finite member path:
 
 ```text
 ExposedFlowPositionRef:
@@ -84,24 +92,28 @@ ExposedFlowPositionRef:
   memberPath[]:
     - ReleaseAssuranceNetwork
     - ApplicationCompilerUseNetwork
-    - CompilerBuildNetwork
+    - CompilerRealizationNetwork
     - BootstrapCompilerBuildTFS
   leafFlowPositionRef:
     transformationFlowStructureRef: BootstrapCompilerBuildTFS
     localFlowPositionId: ExecutableCompilerResult
 ```
 
-Each path entry is a direct member of the preceding network, the final entry is the TFS named by `leafFlowPositionRef`, and no network repeats. This is one four-entry member path, not four numbered network kinds. “Builds”, “uses”, “evaluates”, and “delivers” remain ordinary cues until every selected cross-member link resolves to its exact direct relation kind, participants, obtaining occurrence, and endpoint bindings.
+Each path entry is a direct member of the preceding network, the final entry is the TFS named by `leafFlowPositionRef`, and no network repeats. `FlowValuation`, path slices, and `DesignRunTag` remain leaf-local. “Builds”, “uses”, “evaluates”, and “delivers” are ordinary cues until each link resolves to an admitted relation kind, complete participant signature, obtaining occurrence, and endpoint bindings.
+
+Before these identities and relations are grounded, A.1.STM may show the dependency only as a Plain provisional long-mantra map and must name the missing member, governor, false or unresolved predicate, occurrence, or binding. It is not yet an E.18.NET selection. Once the network is admitted, a separate A.22.CGUS demonstrative slice may traverse admitted positions and relation-reference epistemes; it remains a demonstration, not the project, network, case, or Work order.
 
 #### E.18.NET:5.3 - N-ary relation and feedback cycle
 
-A manufacturing release relation has three participants under one direct domain pattern: one product-definition position in a development TFS, one equipment-readiness position in a production-system-change TFS, and one release-condition position in an assurance TFS. Its network row keeps the three participants and their order. It is not replaced by three unlabeled arrows.
+A manufacturing release relation has three participants under one direct domain pattern: one product-definition position in a TFS selected to answer the development question, one equipment-readiness position in a TFS selected to follow the changes that establish equipment readiness, and one release-condition position in a TFS selected for assurance. Its network row keeps the three participants and their order. It is not replaced by three unlabeled arrows.
 
-Later, an exact use-observation relation connects an operating TFS position back to a development TFS position. The relation occurrences form a feedback cycle, while the selected direct-member nesting remains acyclic. The feedback does not make the operating TFS a member of itself and does not turn observation into development Work.
+Later, an exact use-observation relation connects a position in a TFS selected for operation or use back to a position in a TFS selected to answer the development question. The relation occurrences form a feedback cycle, while the selected direct-member nesting remains acyclic. The feedback does not make the operation-or-use TFS a member of itself and does not turn observation into development Work.
 
-#### E.18.NET:5.4 - Architecture and demonstrative reading
+#### E.18.NET:5.4 - Architecture and two demonstrative boundaries
 
-For one containing product-development holon, a current `ArchitectureOf@Context` claim may select the network among its structures. If the selected members belong to separately named holons and no containing bearer is grounded, record the use as inter-holon and name the participating architecture claims. Do not invent one system that contains them merely to fill the architecture field.
+For one containing holon, a current `ArchitectureOf@Context` claim may select the network among its structures. If the selected members belong to separately named holons and no containing bearer is grounded, record the use as inter-holon and name the participating architecture claims. Do not invent one system merely to fill the architecture field.
 
-A teaching mantra may show a finite admitted dependency slice through the network. The slice uses only the network locator family, cites admitted positions and exact relation-reference epistemes, and keeps omissions and return visible. It does not prescribe project work order and does not make the displayed path the whole network.
+A Plain A.1.STM long-mantra map may display proposed members and a missing cross-member link before network admission. It names the intended final result and the absent member, governor, predicate result, occurrence, or endpoint binding; it asserts neither an E.18.NET structure nor a CGUS.
+
+After the network is admitted, a separate teaching mantra may show one finite admitted dependency slice. The slice uses the network locator family, cites admitted positions and exact relation-reference epistemes, and keeps omissions and return visible. It does not prescribe project Work order, make the path the whole network, or turn a leaf-local `DesignRunTag` into a project phase.
 

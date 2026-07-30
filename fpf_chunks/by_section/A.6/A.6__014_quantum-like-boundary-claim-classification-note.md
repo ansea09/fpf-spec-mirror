@@ -6,12 +6,12 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-claim classification note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-claim-classification-note.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12a — Quantum-like boundary-claim classification note"
-line_start: 9321
-line_end: 9353
+line_start: 9775
+line_end: 9807
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,7 +78,7 @@ Minimum boundary discipline before a quantum-like boundary reading:
 
 | Field | What the author names |
 | --- | --- |
-| Boundary | Which interface, protocol, context crossing, publication face, service situation, or evidence boundary is being described |
+| Boundary | Which interface, protocol, context crossing, publication face, evidence boundary, or exact service/access relation is being described; when service/access wording hides the subject or relation, recover it through A.6.P:4.11a before using this table |
 | Endpoints | Which systems, epistemes, roles, carriers, contexts, or faces stand on each side |
 | Channel or interaction | Message, meeting, metric, dashboard, API read, bridge or export, split or merge, orchestration, or other boundary act |
 | Claimed state reading | What represented state is claimed before and after the act, and whether the act is treated as passive read, action, export, or probe |

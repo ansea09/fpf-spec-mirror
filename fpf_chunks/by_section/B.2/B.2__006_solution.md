@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 37197
-line_end: 37303
+line_start: 37282
+line_end: 37388
 dependencies:
   - "A.1"
   - "A.10"
@@ -22,10 +22,12 @@ dependencies:
   - "A.19"
   - "A.3.4"
   - "B.1"
+  - "B.1.2"
   - "B.2"
   - "B.2.2"
   - "B.2.3"
   - "B.2.4"
+  - "B.2.5"
   - "B.2.P"
   - "B.3"
   - "C.13"
@@ -127,7 +129,7 @@ Use `A.13`, `A.19`, and `C.16` for the characteristic-space and threshold claim.
 
 When a source describes a system changing another holon, recover acting-system participation and transformation separately.
 
-Use `A.12` for acting-side externalization, `A.3.4` for bounded transformation, and `A.15.1` for work occurrence. A system changing another holon does not become that holon's super-holon, and no `U.Transformer` kind is created.
+Use `A.12` for acting-side externalization, `A.3.4` for bounded transformation, and `A.15.1` for work occurrence. A system changing another holon does not thereby become its part or the larger whole containing it, and no `U.Transformer` kind is created.
 
 #### B.2:4.7 - Mathematical-Lens Separation
 

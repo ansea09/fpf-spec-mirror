@@ -6,22 +6,20 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__013_relations.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12 — Relations"
-line_start: 15754
-line_end: 15769
+line_start: 16259
+line_end: 16274
 dependencies:
+  - "A.1.SCR"
+  - "A.1.STM"
   - "A.10"
   - "A.3.4"
   - "A.6.0"
   - "A.6.5"
-  - "A.6.6"
-  - "A.6.8"
-  - "A.6.9"
   - "A.6.B"
-  - "A.6.H"
   - "A.6.P.WMR"
   - "A.6.RCD"
   - "A.6.REL"
@@ -35,19 +33,6 @@ dependencies:
   - "F.18"
   - "F.9"
 keywords:
-  - "RelationSignature"
-  - "SlotSpec"
-  - "actual participants"
-  - "changed-object routing"
-  - "designation"
-  - "direct relation"
-  - "missing-governor"
-  - "obtaining condition"
-  - "occurrence identity"
-  - "participant meanings"
-  - "receiving-use gate"
-  - "representation"
-  - "under-specified relation-bearing claim"
 ---
 
 ### A.6.P:12 - Relations
@@ -56,7 +41,7 @@ keywords:
 - `A.6.0` governs `U.Signature` and compatible `RelationSignature` declarations; `A.6.5` governs declaration-local `SlotSpec`, `SlotKind`, participant `ValueKind`, and receiving-episteme designation mode.
 - `A.6.RSIR` selects among direct participation, declaration, operation, assertion or description, and representation when interface, role, slot, field, parameter, or endpoint wording is the entry cue.
 - `A.6.B` separates L, A, D, and E claims after the direct relation is recovered. When the next task explicitly needs an operation on an episteme or representation, identify its input and output independently under `C.2.1`; use `A.6.3` only for an exact compatible viewing or construction result, and `A.15.1` for actual authoring, materialisation, checking, or publication Work. Current `A.6.2` and `A.6.4` are not exits from this edition because their slot/write profiles fail that compatibility test; keep them as named future owners for the explicit morphing or retargeting stop. Assert an edition or successor relation only after its own predicate is satisfied. Ordinary A.6.P repair stops before these objects.
-- `A.6.6` provides specialized recovery for basedness. Service, cross-context, and whole-part wording use the object tests and owner exits in 4.11. Before routing to `A.6.8`, `A.6.9`, or `A.6.H`, check that its entry accepts the objects named in 4.11 and that its result returns the direct predicate and participants or an explicit blocker. If either check fails, do not use that specialization; stay with the 4.11 exit and its current direct owner. A situation record, Card, or bundle does not replace the direct relation, claim-bearing episteme, or representation.
+- `A.6.6` provides specialized recovery for basedness. Service/access wording stays in A.6.P:4.11a and exits to its exact direct owner. It reaches A.1.SCR only after one exact bearer or arrangement claim has been recovered and the decision depends on systemhood; it reaches A.1.STM only after recovery when the separate question is contribution to use of a named project system-of-interest. Cross-context and whole-part wording may use `A.6.9` or `A.6.H` only when that pattern's entry accepts the objects named in 4.11 and its result returns the direct predicate and participants or an explicit blocker. If either check fails, stay with the 4.11 exit and its direct owner. A situation record, Card, or bundle does not replace the direct relation, claim-bearing episteme, or representation.
 - `A.6.P.WMR` governs its method, work, result, production, delivery, acceptance, transfer, and receiving-use boundary and returns one of the four results listed in 4.11.
 - Use `A.6.RCD` after the reader can name the participants and the sentence the next task needs, but no current pattern supplies its predicate. Broad wording alone is not a `missing-governor` result.
 - `C.2.1` governs assertions and descriptions. A.6.P identifies one candidate episteme `E`, one viewpoint episteme `P`, and the conformance question; `E.17.0` tests `EpistemeViewpointConformanceRelation(E,P)`. If the next task also asks whether `E` is a `U.View`, `E.17.0` handles that recognition separately. Viewpoint selection, evaluation, construction, representation, and publication do not establish conformance; `A.10` governs reliance, while `E.17` and `E.24.PUB` govern publication.

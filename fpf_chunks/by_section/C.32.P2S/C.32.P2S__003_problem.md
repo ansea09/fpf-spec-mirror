@@ -6,29 +6,21 @@ section_id: "C.32.P2S:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__003_problem.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:2 — Problem"
-line_start: 64101
-line_end: 64110
+line_start: 64186
+line_end: 64195
 dependencies:
-  - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.5"
-  - "A.15.PROD"
-  - "A.19.CPM"
-  - "A.19.SelectorMechanism"
+  - "A.1"
+  - "A.1.SCR"
+  - "A.1.STM"
+  - "A.15.6"
   - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
-  - "A.6.RCD"
   - "B.2"
-  - "C.11"
-  - "C.16"
-  - "C.18"
-  - "C.19"
   - "C.22.2"
   - "C.25"
   - "C.29"
@@ -41,37 +33,18 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
-  - "C.32.ADA"
-  - "C.32.ADR"
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
-  - "C.32.PAD"
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.17"
   - "E.18"
   - "E.18.3"
-  - "E.23"
   - "E.24.PUB"
-  - "G.11"
-  - "G.5"
 keywords:
-  - "ArchitectureUnfoldingStructureUse@Project"
-  - "ProblemToStructureArchitecturingFlowCard@Project"
-  - "actual-structure feedback"
-  - "candidate structures"
-  - "exact domain work"
-  - "expected structures"
-  - "governing-pattern-specific return"
-  - "independently grounded actual changes"
-  - "no-automatic-composition"
-  - "problem-to-structure architecturing unfolding"
-  - "selected structures"
-  - "structural uncertainty"
-  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:2 - Problem
@@ -82,5 +55,5 @@ Without C.32.P2S, architecture work can fail in two opposite ways.
 
 First, the flow collapses into a description or decision artifact: a diagram, view set, ADR, memo, dashboard, score, or publication record is treated as if it carried the architecture, the decision, and the realized structure. The project then loses the distinction between selected structure, description, decision, method expectation, performed work, and actual structure.
 
-Second, the flow disappears into relation rows: every local governing pattern is correct, but no pattern tells the architect how to move from pressure and structural uncertainty to candidate structures, selection, realization, feedback, and the next governed action. The user can name patterns but cannot carry the architecture problem through work.
+Second, the flow starts inside the boundary or disappears into relation rows. An architect selects modules, interfaces, or an attractive configuration before stating the external change, relying use, project system-of-interest, and functioning hypothesis that would justify them; or every local pattern is correct but no readable flow carries the pressure through Work and feedback. In either branch, the user can name patterns but cannot explain why this internal structure serves the outside use.
 

@@ -6,14 +6,15 @@ section_id: "A.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__011_consequences.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:9 — Consequences"
-line_start: 1721
-line_end: 1736
+line_start: 1745
+line_end: 1760
 dependencies:
   - "A.1.1"
+  - "A.1.STM"
   - "A.10"
   - "A.14"
   - "A.15.1"
@@ -39,7 +40,7 @@ Positive consequences:
 
 - FPF can talk about physical systems, organizations, documents, theories, models, work occurrences, disciplines, research programs, and selected structures without making them all systems or holons.
 - Acting work stays attached to systems in roles.
-- Epistemes can be changed, described, compared, published, and relied on without becoming agents.
+- Epistemes can be described, compared, published, and relied on without becoming agents; revision Work yields another episteme when claim content changes.
 - Architecture and selected-structure claims gain a grounding holon.
 - Collection-as-whole and acting collective claims become inspectable instead of lexical.
 

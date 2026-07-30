@@ -6,12 +6,12 @@ section_id: "E.10:7"
 section_title: "Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__009_minimal-generality-and-domain-anchoring-mg-da-names-neither-parochial-nor-vacuous.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:7 — Minimal Generality and Domain Anchoring (MG-DA) — names neither parochial nor vacuous"
-line_start: 73784
-line_end: 73852
+line_start: 73871
+line_end: 73939
 dependencies:
   - "A.10"
   - "A.15"
@@ -103,7 +103,7 @@ Prefer **object‑anchored heads** to metaphors. If a metaphor is unavoidable, e
 
 #### E.10:7.8 - Examples (illustrative, canonical)
 Prefer **`U.PromiseContent`** (promise) over *BusinessService*; **`U.Capability`** over *Function*; **`U.Dynamics`** over *NaturalProcess*. Replace *ScheduleProcess* with `U.WorkPlan` only when one exact episteme passes A.15.2: one present EntityOfConcern, one horizon, at least one `PlanItem`, and substantive coordination claims about possible future performed work. Otherwise retain the exact schedule representation, planning cue, or other direct-owner construction.
-Do **not** mint *ETLService* at kernel level. Recover ETL first: the way of doing may be one exact `U.Method`; a separately identified claim-bearing episteme may be `U.MethodDescription` only when that method is its exact EntityOfConcern and the A.3.2 substantive-description threshold is met. An ETL label, pipeline diagram, code expression, mechanism, work plan, dated Work occurrence, or API publication establishes neither membership. Recover the service-side claim separately as promise content, access relation, acceptance condition, delivery work, or publication or API-description use before naming it.
+Do **not** mint *ETLService* at kernel level. Recover the ETL claim first: the way of doing may be one exact `U.Method`; a separately identified claim-bearing episteme may be `U.MethodDescription` only when that method is its exact EntityOfConcern and the A.3.2 substantive-description threshold is met. An ETL label, pipeline diagram, code expression, mechanism, work plan, dated Work occurrence, or API publication establishes neither membership. If a relied-on *service* use still hides another subject or relation, apply L-SERV and A.6.P:4.11a and let its direct owner name it; the suffix alone requires no promise, access, acceptance, Work, or publication branch.
 
 #### E.10:7.9 - Acceptance and regression checks (LEX and USM)
 **SCR‑LEX‑S01 (TokenClass declaration).** Every normative token has a declared `LEX.TokenClass`.

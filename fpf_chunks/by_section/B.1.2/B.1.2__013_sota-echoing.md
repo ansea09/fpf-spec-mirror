@@ -6,30 +6,35 @@ section_id: "B.1.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__013_sota-echoing.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:10 — SoTA-Echoing"
-line_start: 36013
-line_end: 36021
+line_start: 36098
+line_end: 36106
 dependencies:
   - "A.1"
+  - "A.10"
   - "A.12"
   - "A.14"
-  - "A.15.1"
   - "A.19"
   - "A.22"
   - "A.3.4"
-  - "A.6.5"
   - "A.6.F"
   - "A.6.M"
   - "B.1"
+  - "B.2"
+  - "B.3"
+  - "C.11"
   - "C.13"
   - "C.16"
+  - "C.2.1"
   - "C.29"
   - "C.30"
   - "C.30.AD"
   - "C.30.AD.BA"
+  - "C.32.PAD"
+  - "E.17"
 keywords:
 ---
 
@@ -37,8 +42,8 @@ keywords:
 
 | Source family | Current lesson for B.1.2 | FPF decision |
 | --- | --- | --- |
-| Systems engineering and digital engineering practice | System breakdowns, interfaces, allocations, views, and digital twins must be coordinated but not identified with one another. | B.1.2 separates system aggregation, functional view, bearer allocation, description, and publication claims. |
+| Systems engineering and digital engineering practice | System breakdowns, interfaces, allocations, views, and digital twins must be coordinated but not identified with one another. | B.1.2 coordinates their exact direct-owner results and uses A.22 only when one selected organization changes the decision. |
 | Reliability and safety engineering | System-level claims need conservative relation and scale discipline. | Whole-level characteristic roll-up returns to C.16, A.19, and C.29 when those claims are relied on for the current use. |
-| Applied ontology and constructional mereology | External dependence and part-whole construction are different relations. | Boundary-crossing relations do not become parthood without A.14 and C.13 admission. |
+| Applied ontology and constructional mereology | External dependence and part-whole construction are different relations. | Crossing relations do not become parthood; A.14 and its direct specializations govern exact part relations, while C.13 may ground the assembly they support. |
 | Holonic and cyber-physical systems practice | Coordination and closure can create useful whole-level objects. | B.2 owns whole reidentification when existing system aggregation is insufficient. |
 

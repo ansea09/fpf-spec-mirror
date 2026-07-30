@@ -6,12 +6,12 @@ section_id: "A.2.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__001_intro.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:intro — Intro"
-line_start: 3211
-line_end: 3214
+line_start: 3663
+line_end: 3666
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -27,8 +27,8 @@ dependencies:
   - "A.3.1"
   - "A.3.2"
   - "A.6.1"
-  - "A.6.8"
   - "A.6.C"
+  - "A.6.P"
   - "A.7"
   - "C.2.1"
   - "E.10"

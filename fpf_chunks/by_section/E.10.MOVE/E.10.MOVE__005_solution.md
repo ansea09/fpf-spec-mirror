@@ -6,13 +6,14 @@ section_id: "E.10.MOVE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__005_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:4 — Solution"
-line_start: 74477
-line_end: 74561
+line_start: 74564
+line_end: 74648
 dependencies:
+  - "A.1.STM"
   - "A.10"
   - "A.15"
   - "A.15.5"
@@ -43,7 +44,7 @@ Restore the governed target before choosing replacement wording:
 
 1. Name the exact `GovernedTextSpan`, the `ClaimBeingMade`, and the `ObjectUnderWordingRepair`.
 2. Decide whether the wording is ordinary prose, a quotation, or wording relied on for an FPF-governed claim. Ordinary and quotation uses can close without inventing a technical target.
-3. When the phrase is `mantra move`, first determine whether the local mantra has been admitted by `A.22.CGUS` as a `DemonstrativeUnfoldingSlice@Context`. If so, recover one `DemonstratedPatternUseRow@Context` and keep the phrase only when the enclosing slice, EntityOfConcern, practical-use question, public template or project candidate, direct pattern, Solution, expected result, and current condition are recoverable. If not, keep the local mantra as a compact rendering of its pattern's Solution and repair the move-like wording through that direct pattern rather than inventing a demonstrated row.
+3. When the phrase is `mantra move`, first ask which use is present. For an A.22.CGUS-admitted `DemonstrativeUnfoldingSlice@Context`, recover one complete `DemonstratedPatternUseRow@Context`; keep the phrase only when its enclosing slice, question, direct pattern, expected result, and continuation condition are recoverable. For a Plain local mantra, name the bounded result and restore the move-like wording through that result's direct pattern. For a Plain long mantra, name the intended final result and the particular map location whose answer or stop is current, then restore the direct pattern that owns that answer. Do not invent a demonstrated row, collapse the long map into one pattern's Solution, or treat any branch as Work order.
 4. When `move`, `movement`, `direction`, or similar wording predicts a later evaluation result, recover `ExpectedEvaluationResultChange@Context` under `E.23`. That value is a coordinate-and-scale-qualified prediction episteme, not an operation, transition, movement, work occurrence, or proof of improvement.
 5. For every other governed use, name the exact recovered value or relation, its kind, relation signature when the kind admits a relation, and its direct governing pattern. If that governed value is already clear, use its pattern directly.
 6. Split the text when one phrase carries more than one governed value. A recommendation, method, transformation, readiness relation, gate decision, publication relation, and performed work do not become one value because the same word was used for them.

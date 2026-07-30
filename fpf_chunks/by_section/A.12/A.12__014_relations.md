@@ -6,27 +6,31 @@ section_id: "A.12:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__014_relations.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:11 — Relations"
-line_start: 23458
-line_end: 23463
+line_start: 23462
+line_end: 23467
 dependencies:
   - "A.1"
+  - "A.1.1"
   - "A.10"
   - "A.14"
   - "A.15"
   - "A.15.1"
   - "A.2.1"
+  - "A.2.6"
   - "A.2.7"
   - "A.3.4"
-  - "B.2"
+  - "A.6.RCD"
+  - "A.7"
   - "B.2.5"
   - "C.13"
   - "C.2.1"
-  - "C.30"
   - "E.17"
+  - "E.24.PUB"
+  - "F.6"
 keywords:
 ---
 

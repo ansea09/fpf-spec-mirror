@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 73602
-line_end: 73783
+line_start: 73689
+line_end: 73870
 dependencies:
   - "A.10"
   - "A.15"
@@ -165,7 +165,7 @@ If an EntityOfConcern-side item is currently named `… Standard`, rename it to 
 
 | **Tech (authoritative)** | **Plain (didactic)**                        | **Notes and guards**                                                                           |
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`; treat it as an **always‑unpack** token (L‑SERV, A.6.8). Avoid “service‑instance”; prefer “system instance”, “service access point”, or “service offering” depending on facet. |
+| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`. Apply L-SERV only when a relied-on use hides the concrete subject or next route, then use `A.6.P:4.11a`; quoted, historical, illustrative, and harmless ordinary wording stays outside. Avoid “service-instance”; after recovery use “system instance”, “service access point”, “service offering”, or another exact head phrase owned by the governing pattern. |
 | `U.Episteme`             | body of knowledge, document, dataset, model | The pair preserves the **Carrier and Content** distinction (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
 | `U.MethodDescription`    | account of how one identified method is done | `recipe`, `SOP`, `playbook`, `code`, and `spec-text` are recognition cues, not automatic twins. Use this pair only after the claim-bearing episteme has one admitted `U.Method` as its exact EntityOfConcern and passes A.3.2's substantive-description threshold; call out **Spec** separately only after the E.10.D2 gate. |
@@ -198,10 +198,10 @@ A plain twin binds to the **same SenseCell** as its Tech name in that Context (F
 **CC‑TWIN‑3 - Head‑term discipline (HND).**
 The plain twin preserves the **head term** of the Tech name or appends an explicit bracketed head on **first use**:
 
-* Roles keep **"(role)"**, service-facet labels keep **"(service promise or access)"** after the direct FPF target is recovered, Methods keep **"(method)"**, `U.Work` as a kind keeps **"(work kind)"**, one Work individual keeps **"(work occurrence)"**, a separate episteme about it keeps **"(work record)"** only when its Tech name denotes that record, and Capability keeps **"(capability)"**.
+* Roles keep **"(role)"**. When a relied-on use of *service* or *access* still hides its direct object or relation, follow L-SERV and A.6.P:4.11a; after recovery, keep that object's or relation's head—for example **"(promise content)"** or **"(access relation)"**—rather than a shared service head. Methods keep **"(method)"**, `U.Work` as a kind keeps **"(work kind)"**, one Work individual keeps **"(work occurrence)"**, a separate episteme about it keeps **"(work record)"** only when its Tech name denotes that record, and Capability keeps **"(capability)"**.
   *Examples:*
   `TransformerRole` → “**Transformer (role)**”,
-  `U.PromiseContent` → “**post-op monitoring service promise**”; service-access publication or access relation → “**service access**”,
+  `U.PromiseContent` → “**post-op monitoring service promise (promise content)**”; an exact access relation → “**service access (access relation)**”,
   `U.Work` -> **work (work kind)**; `PumpInspection_2026-07-22T0900` -> **inspection work occurrence**; `PumpInspectionRecord_2026-07-22` -> **inspection work record** only when that Tech name denotes a separate episteme.
 
 **CC‑TWIN‑4 - Kind‑consistent.**

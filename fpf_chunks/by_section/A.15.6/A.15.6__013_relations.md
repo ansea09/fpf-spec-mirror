@@ -6,13 +6,15 @@ section_id: "A.15.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__013_relations.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:12 — Relations"
-line_start: 26526
-line_end: 26543
+line_start: 26541
+line_end: 26558
 dependencies:
+  - "A.1"
+  - "A.1.STM"
   - "A.12"
   - "A.15.1"
   - "A.15.2"
@@ -31,36 +33,23 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
 keywords:
-  - "A.22-selected U.Structure"
-  - "SystemOfInterestRole"
-  - "TransformationFlowStructure"
-  - "U.RoleAssignment"
-  - "actual composite project U.Work"
-  - "actual versus intended system"
-  - "affected case referent and change history"
-  - "evaluation non-claim"
-  - "missing constructor substrate"
-  - "project designation and selection claim"
-  - "project/process/case wording"
-  - "result U.Episteme"
-  - "reusable U.Method"
 ---
 
 ### A.15.6:12 - Relations
 
 - `A.1` governs the identities of participating systems, affected holons, and description-grounding holons.
 - `A.3.1` governs reusable `U.Method` identity and composition. Apply `A.22` to select an exact method-side `U.Structure`: identify its constituents, exact selected obtaining relations, applied constraints, selection question, permitted action, and prohibited overread. Use `MethodRelationStructure` only as a local designator after that selection.
-- `A.3.4` governs bounded transformations of the affected referent.
+- `A.3.4` governs one actual bounded change of one continuing referent. A direct dynamics, interaction, participation, or causality owner separately decides any actor-side participants; Work-facing performer, assignment, Work, and work-to-change claims remain separate.
 - `A.15.1` governs admission and identity of performed `U.Work`: actual performer systems, covering assignments and any explicit `performedUnderAssignment`, exact `enactsMethod`, governed extent, `executedWithin`, exact work parts, episodes, continuity, and relation-specific aggregation. Project qualifications add no second Work identity or container-made parthood.
 - `A.15.2` governs intended work and `U.WorkPlan` before and during performance; a merely intended future system remains plan content rather than an actual holder.
-- `A.2` governs one enactment-facing role value interpreted through a named role-taxonomy episteme and effective reference scheme. `A.2.1` conditionally adds its admitted holder, obtaining assignment occurrence, and uninterrupted extent; neither role interpretation nor assignment grounds project selection.
+- `A.2` governs one enactment-facing role value interpreted through a named role-taxonomy episteme and effective reference scheme. `A.2.1` conditionally adds its admitted holder, obtaining assignment occurrence, and uninterrupted extent; neither role interpretation nor assignment grounds project designation.
 - `A.15.PROD` governs only the selected production-work, entity-identity-inception, or production-completion question and supplies no universal project-result relation.
 - `A.6.RCD` governs the local-claim, reusable-predicate, and relation-kind economy. For the project-selection question in section 4.1a, keep the plan designation and independently admitted facts usable, but stop at `missing-substrate[project-selection-conjunction]`; neither the conjunction probe nor the reference scheme supplies constructor semantics.
 - Apply `A.6.P.WMR` when result wording hides the relation. Choose one of four outcomes: obtaining direct relation, exact A.6.1 binding, local claim under `A.15.PROD` or `A.6.RCD`, or one non-assertability result. Its reasons are `factually unsupported`, `missing-information`, and `missing-governor`; only the last reopens ontology. WMR admits no `ProjectResultRelation` or `WorkResultRelation`.
 - `A.7` restores the EntityOfConcern, description-episteme, and publication boundary before a project card, charter, repository, dashboard, or other record is related to the composite work occurrence.
 - `C.2.1` governs description and record episteme identity through actual claim content, one exact EntityOfConcern, and the effective reference scheme. Management topics assign no subject; empirical grounding, viewpoint membership, scope, edition, and publication remain separately governed relations.
 - `E.17` and `E.24.PUB` govern publication of project, process, and case accounts without replacing their direct subjects.
-- `E.18` governs one selected transformation-flow structure used by process-oriented work. `E.18.NET` governs a non-agentive network only when independently identified structures and exact obtaining cross-boundary relations are selected; neither structure is the project or a source of work parthood.
+- `E.18` governs one selected transformation-flow structure. `E.18.NET` governs a non-agentive network only when independently identified structures and exact obtaining cross-boundary relations are selected; its use frame can answer one named project question without making the network the project, a case, an actor, performed Work, or a source of work parthood.
 - `A.6.REL` governs explicit individuation when a work, method, transformation, result, or correspondence relation occurrence becomes a participant of another relation.
-- `E.10` governs project, process, case, and situation wording recovery when source expressions remain ambiguous.
+- `A.1.STM` receives a recovered project system-of-interest, network question, or case result only when the practitioner must restore the system-thinking long dependency; it changes none of these direct identities or relations. `E.10` governs project, process, case, and situation wording recovery when source expressions remain ambiguous.
 

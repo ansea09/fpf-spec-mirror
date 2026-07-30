@@ -6,29 +6,21 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 64011
-line_end: 64100
+line_start: 64096
+line_end: 64185
 dependencies:
-  - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.5"
-  - "A.15.PROD"
-  - "A.19.CPM"
-  - "A.19.SelectorMechanism"
+  - "A.1"
+  - "A.1.SCR"
+  - "A.1.STM"
+  - "A.15.6"
   - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
-  - "A.6.RCD"
   - "B.2"
-  - "C.11"
-  - "C.16"
-  - "C.18"
-  - "C.19"
   - "C.22.2"
   - "C.25"
   - "C.29"
@@ -41,42 +33,23 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
-  - "C.32.ADA"
-  - "C.32.ADR"
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
-  - "C.32.PAD"
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.17"
   - "E.18"
   - "E.18.3"
-  - "E.23"
   - "E.24.PUB"
-  - "G.11"
-  - "G.5"
 keywords:
-  - "ArchitectureUnfoldingStructureUse@Project"
-  - "ProblemToStructureArchitecturingFlowCard@Project"
-  - "actual-structure feedback"
-  - "candidate structures"
-  - "exact domain work"
-  - "expected structures"
-  - "governing-pattern-specific return"
-  - "independently grounded actual changes"
-  - "no-automatic-composition"
-  - "problem-to-structure architecturing unfolding"
-  - "selected structures"
-  - "structural uncertainty"
-  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:1 - Problem frame
 
-Use this pattern when an architect or architecture-responsible practitioner starts from architecture-relevant problem pressure that needs to stay connected through selected structures, candidate synthesis, project architecture decision, realization work, actual-structure feedback, and the next governed action.
+Use this pattern when an architect or architecture-responsible practitioner has a stated external-use hypothesis for one project system-of-interest and must carry the resulting architecture pressure through selected structures, candidate synthesis, project architecture decision, realization Work, actual-structure feedback, and the next governed action. If the expected change outside the system, beneficiary or relying use, project designation, boundary hypothesis, or required functioning is not yet intelligible, stop before internal architecture and recover that missing basis through its direct owner.
 
 The common first moment is practical: a required function has no recoverable bearer; an architecture characteristic is failing; a cross-scope residual survives local repair; a modularity, reuse, interface, scale, or description-loss problem blocks action; a transformer holon cannot yet produce the desired transformed holon; or operation shows that expected structures and actual structures diverge.
 

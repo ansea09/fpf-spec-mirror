@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:4 — Solution"
-line_start: 75721
-line_end: 75970
+line_start: 75808
+line_end: 76060
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -28,7 +28,7 @@ keywords:
 
 ### E.11:4 - Solution
 
-An FPF author or maintainer publishes or refreshes fifteen semantic practical-use cards. Each card starts from a recognizable situation and question, states a readable first result or exact public blocker, points to direct candidate-use templates, and links to an expansion with boundaries and one walkthrough.
+An FPF author or maintainer publishes or refreshes sixteen semantic practical-use cards. Each card starts from a recognizable situation and question, states a readable first result or exact public blocker, points to direct candidate-use templates, and links to an expansion with boundaries and one walkthrough.
 
 A practitioner, manager, or assisting agent uses the already published set: compare the cards that fit the working situation, inspect their different first results or blockers, and open the direct pattern from the card that best fits the work. Ordinary card use does not make that reader a framework publisher.
 
@@ -195,7 +195,7 @@ Exactly one walkthrough reference is present. A demonstrative slice passes A.22.
 
 Each candidate-use template passes one of two disjoint branches. A result-promise branch names one direct pattern and Solution, the admitted kind of a potential result, the local identification question, direct owner and identity-or-obtaining basis, full governed relative-object kind, category-correct relative-basis template, minimum usable result, every candidate-basis completeness condition, and a conditional receiver only when one is actually current. A blocker branch names the exact missing governor or missing information and carries no expected-result template. Reject omitted values presented as a weak promise, a public project instance, a broad family in place of the result kind, a generic result relation, or a PatternID list without selection conditions. The principal blocked overread states the most consequential false project claim that a reader could otherwise infer from the card.
 
-#### E.11:4.5 - Fifteen stable practical-use keys
+#### E.11:4.5 - Sixteen stable practical-use keys
 
 
 | Key | Public situation heading |
@@ -214,7 +214,10 @@ Each candidate-use template passes one of two disjoint branches. A result-promis
 | `MATHEMATICAL-MODELING` | Choose and bound a mathematical lens |
 | `SOTA-PORTFOLIO` | Build a current state-of-the-art synthesis pack |
 | `DPF-AUTHORING` | Build a domain or local FPF-grounded framework |
-| `SYSTEM-IN-CONTEXT` | Delimit a system and its environment before architecture synthesis |
+| `SYSTEM-RECOGNITION` | Decide whether the exact entity in the claim is a system |
+| `SYSTEM-DELIMITATION` | Decide which entities are parts of the system and which relations only cross its boundary |
+
+E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current card use names only the four successor keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth successor key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
 README owns the current public cards and their expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families. Full patterns carry methods, conditions, costs, consequences, and exact result semantics. None is a second card store.
 

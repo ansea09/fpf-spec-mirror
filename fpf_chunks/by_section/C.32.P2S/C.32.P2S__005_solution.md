@@ -6,29 +6,21 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 64124
-line_end: 64216
+line_start: 64209
+line_end: 64303
 dependencies:
-  - "A.15"
-  - "A.15.1"
-  - "A.15.2"
-  - "A.15.5"
-  - "A.15.PROD"
-  - "A.19.CPM"
-  - "A.19.SelectorMechanism"
+  - "A.1"
+  - "A.1.SCR"
+  - "A.1.STM"
+  - "A.15.6"
   - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
-  - "A.6.RCD"
   - "B.2"
-  - "C.11"
-  - "C.16"
-  - "C.18"
-  - "C.19"
   - "C.22.2"
   - "C.25"
   - "C.29"
@@ -41,47 +33,30 @@ dependencies:
   - "C.32"
   - "C.32.ACE"
   - "C.32.ACS"
-  - "C.32.ADA"
-  - "C.32.ADR"
   - "C.32.CONWAY"
   - "C.32.FAIL"
   - "C.32.HCS"
   - "C.32.MLAO"
-  - "C.32.PAD"
   - "C.33"
   - "C.34"
   - "C.35"
   - "E.17"
   - "E.18"
   - "E.18.3"
-  - "E.23"
   - "E.24.PUB"
-  - "G.11"
-  - "G.5"
 keywords:
-  - "ArchitectureUnfoldingStructureUse@Project"
-  - "ProblemToStructureArchitecturingFlowCard@Project"
-  - "actual-structure feedback"
-  - "candidate structures"
-  - "exact domain work"
-  - "expected structures"
-  - "governing-pattern-specific return"
-  - "independently grounded actual changes"
-  - "no-automatic-composition"
-  - "problem-to-structure architecturing unfolding"
-  - "selected structures"
-  - "structural uncertainty"
-  - "subject-side actual structures"
 ---
 
 ### C.32.P2S:4 - Solution
 
-Create or update one `ProblemToStructureArchitecturingFlowCard@Project` and move through the smallest useful spine below. Stop at the first pattern that fully governs the current claim; continue the P2S card only while the connected architecture flow remains the current object needing review.
+Create or update one `ProblemToStructureArchitecturingFlowCard@Project` and move through the smallest useful spine below. Stop at the first pattern that fully governs the claim; continue the P2S card only while the connected architecture flow remains the object being reviewed.
+
+Before selecting internal structure, state four things in ordinary language: the expected change outside the system, the beneficiary or relying use, the actual or intended project system-of-interest and its boundary, and the functioning hypothesis by which that system could support the use. A merely intended system stays in plan or description content. A.1/A.1.SCR owns actual-system recognition; A.15.6 owns project designation; A.1.STM can locate the first unsupported long-map answer. If one of the four statements is missing or contested, return there and do not justify architecture from the inside alone.
 
 Use the analogy with `E.18.1` P2W narrowly. P2W carries an accepted problem-side record or accepted `ProblemCard@Context` plus the carried distinction into a next governed FPF use. C.32.P2S carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, actual-structure feedback, and governing-pattern-specific next actions. The analogy ends when the current claim is method, work, telemetry, publication, or improvement-loop governance; then use the receiving governing pattern rather than stretching P2S into generic process management.
 
-1. Recover the problem pressure or architecture concern. Name the pressure kind, problem-pressure signals, any source-use records, affected holon, and the first governing pattern. If the pressure is still only a problem-side signal, use `C.22.2` before P2S continues.
-2. Recover the described holon, bounded context, candidate or selected structure kinds, selected structures when available, and architecture characteristics. Use `C.30` for the grounded architecture claim, `C.32.HCS` for starter characteristic heads, `C.32.ACS` for project criteria rows, and `C.25` when a composite quality family is current.
+1. Recover the problem pressure or architecture concern together with its outside-use basis. Name the expected environmental or relying-use change, beneficiary or user, project system-of-interest designation and boundary hypothesis, required functioning, pressure signals, source-use records, affected holon, and first governing pattern. If the pressure is still only a cue, use C.22.2; if the outside-use or system basis is absent, return to its owner before P2S continues.
+2. Recover the described holon and bounded context only after the outside-use and boundary hypotheses are visible. Then recover candidate or selected structure kinds, selected structures when available, and architecture characteristics. Use C.30 for the grounded architecture claim, C.32.HCS for starter characteristic heads, C.32.ACS for project criteria rows, and C.25 when a composite quality family is current.
 3. Represent future-structure uncertainty. State unknown structure kinds, unknown internal composition, candidate bearers, interfaces, allocations, variation points, constraints, expected structures, and the condition that returns the work to stronger inspection of the selected or expected structure. Record what is captured, handed off, latent, hidden, or lost.
 4. Generate architecture ideas, principles, constraints, and candidate structure changes. Use an admitted problem-side record, source-pack cue, architecture pressure note, or candidate-generation input only after the affected selected structure, architecture characteristic, expected gain, accepted loss, and receiving governing pattern are recoverable.
 5. Synthesize candidate architecture configurations and candidate sets through `C.32`. Keep function-bearing feasibility, constructive modules, placement, control, transformation-flow, work, role, information, evidence, scale, and other selected structures visible when they change the candidate.

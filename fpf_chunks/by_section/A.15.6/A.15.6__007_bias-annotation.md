@@ -6,13 +6,15 @@ section_id: "A.15.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__007_bias-annotation.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:6 — Bias-Annotation"
-line_start: 26448
-line_end: 26455
+line_start: 26463
+line_end: 26470
 dependencies:
+  - "A.1"
+  - "A.1.STM"
   - "A.12"
   - "A.15.1"
   - "A.15.2"
@@ -31,19 +33,6 @@ dependencies:
   - "E.18.NET"
   - "E.24.PUB"
 keywords:
-  - "A.22-selected U.Structure"
-  - "SystemOfInterestRole"
-  - "TransformationFlowStructure"
-  - "U.RoleAssignment"
-  - "actual composite project U.Work"
-  - "actual versus intended system"
-  - "affected case referent and change history"
-  - "evaluation non-claim"
-  - "missing constructor substrate"
-  - "project designation and selection claim"
-  - "project/process/case wording"
-  - "result U.Episteme"
-  - "reusable U.Method"
 ---
 
 ### A.15.6:6 - Bias-Annotation

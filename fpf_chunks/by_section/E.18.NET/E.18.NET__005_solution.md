@@ -6,15 +6,17 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "2ada413629b846ef308222d16489a82cb5b40a71"
+commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 83767
-line_end: 83906
+line_start: 83859
+line_end: 83998
 dependencies:
+  - "A.1.STM"
   - "A.12"
   - "A.15"
+  - "A.15.6"
   - "A.22"
   - "A.22.CGUS"
   - "A.3.4"
@@ -93,7 +95,7 @@ The parent network may compose the finite path and use the exposed boundary. It 
 
 Each `positionBindingRef` cites an already governed E.18 position/valuation binding or a declaration-local binding whose direct pattern supplies participant meanings, value kind, and reference mode. A network introduces no universal cross-flow value kind.
 
-`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no network-level `FlowValuation`, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills a run-side position in a development TFS and a design-side position in a target-system-change TFS, record two local bindings and the exact relation between them.
+`DesignRunTag` belongs to one exact position binding inside one exact leaf TFS. A network has no network-level `FlowValuation`, global design/run ladder, or automatic crossing that changes the carried entity's kind. If the same episteme fills local positions in different members—for example one position concerned with design work and another with production, verification, or later operation—record each leaf-local binding and the exact directly governed relation between them. Those ordinary member descriptions create no fixed TFS taxonomy or lifecycle phase.
 
 #### E.18.NET:4.5 - Preserve the direct cross-flow relations
 
