@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 51771
-line_end: 51788
+line_start: 51735
+line_end: 51752
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,24 +54,11 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:6 - Characterization, Indicators, and Comparability
 
-`ProblemCard@Context` states either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
+`ProblemCard` states either a recoverable `characterization relation` and `comparability or parity relation`, or an explicit current reason why the problem can proceed without one.
 
 The heavy content stays with existing FPF patterns:
 

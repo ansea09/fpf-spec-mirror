@@ -6,12 +6,12 @@ section_id: "A.12:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__014_relations.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:11 — Relations"
-line_start: 23389
-line_end: 23394
+line_start: 23349
+line_end: 23354
 dependencies:
   - "A.1"
   - "A.1.1"

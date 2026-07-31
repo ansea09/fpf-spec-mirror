@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 62857
-line_end: 62876
+line_start: 62835
+line_end: 62854
 dependencies:
   - "A.10"
   - "A.17"

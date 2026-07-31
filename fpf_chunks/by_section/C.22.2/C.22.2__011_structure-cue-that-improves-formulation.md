@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:10"
 section_title: "Structure Cue That Improves Formulation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__011_structure-cue-that-improves-formulation.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:10 — Structure Cue That Improves Formulation"
-line_start: 51853
-line_end: 51874
+line_start: 51817
+line_end: 51838
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,24 +54,11 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:10 - Structure Cue That Improves Formulation
 
-`C.29` carries mathematical-lens use for first-principles or mathematical structure cues used by `ProblemCard@Context`.
+`C.29` carries mathematical-lens use for first-principles or mathematical structure cues used by `ProblemCard`.
 
 `firstPrinciplesCue` is a local cue label for a formulation-changing structure and a cue to apply `C.29`; it is not a local mathematical-lens kind or a substitute for a `C.29` lens-use result.
 

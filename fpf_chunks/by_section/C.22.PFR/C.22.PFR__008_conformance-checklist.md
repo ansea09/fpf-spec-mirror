@@ -6,12 +6,12 @@ section_id: "C.22.PFR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__008_conformance-checklist.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:7 — Conformance Checklist"
-line_start: 51427
-line_end: 51442
+line_start: 51411
+line_end: 51427
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,4 +49,5 @@ keywords:
 11. Method availability and solvability claims remain separate from PFR actuality and identity.
 12. Possible conditions remain exact forecast, scenario, counterfactual, or anticipated-condition claims under their direct governors until both participant relations and adverse predicate truth obtain; assertion polarity and reliance posture do not substitute for those obtaining conditions.
 13. Ordinary readable use can stop before explicit PFR materialization when no receiving claim needs Problem identity.
+14. Battery-voltage, proof-gap, clinical-condition, missed-transfer, and hot-surface cases remain explicitly non-conforming until their named direct condition and, where applicable, problem-for/applicability governors exist; a phrase, measurement, diagnosis, record, card, or structural transfer does not mint them.
 

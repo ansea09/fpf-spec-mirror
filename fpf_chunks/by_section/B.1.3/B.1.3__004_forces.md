@@ -6,23 +6,25 @@ section_id: "B.1.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__004_forces.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:3 — Forces"
-line_start: 36071
-line_end: 36080
+line_start: 36039
+line_end: 36048
 dependencies:
   - "A.1"
   - "A.12"
   - "A.14"
   - "A.15"
+  - "A.15.1"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
   - "B.3"
   - "C.2"
+  - "C.2.1"
 keywords:
   - "KD-CAL"
   - "epistemic"
@@ -38,6 +40,6 @@ keywords:
 | **Conservatism vs. Synthesis**             | Keep **reliability** bounded by the weakest supported link ↔ allow genuine explanatory integration when it actually emerges. |
 | **Universality vs. Domain nuance**         | One operator across math, science, engineering specs ↔ domain‑specific semantics and evidence patterns differ.               |
 | **Provenance fidelity vs. Cognitive load** | Keep the **full trail** of sources and methods ↔ avoid overwhelming authors with bookkeeping.                                |
-| **Order/time discipline vs. Flow**         | Respect argument **order** and version **time** ↔ keep composition usable for day‑to‑day synthesis.                          |
+| **Order/time discipline vs. Flow** | Respect argument **order**, exact episteme identity and edition relations, and any proper temporal restriction ↔ keep composition usable for day-to-day synthesis. |
 | **Parsimony vs. Fit**                      | Small rule set (A.11) ↔ explicit **congruence** penalties and **context** rebasing when needed.                              |
 

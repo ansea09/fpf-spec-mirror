@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:9"
 section_title: "Goldilocks and Set-Return Docking"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__010_goldilocks-and-set-return-docking.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:9 — Goldilocks and Set-Return Docking"
-line_start: 51828
-line_end: 51852
+line_start: 51792
+line_end: 51816
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,28 +54,15 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:9 - Goldilocks and Set-Return Docking
 
 Goldilocks problem selection is the problem-side adaptation of the current NQD, OEE, and set-return family. It is not direct QD or OEE vocabulary import, not a new scalar readiness doctrine, not a local QD or OEE vocabulary, and not a single score. `C.22.2` does not mint `GoldilocksProblem`, `GoldilocksScore`, `GoldilocksReadiness`, or any equivalent local kind; Goldilocks remains a readiness and selection interpretation carried by current governing patterns.
 
-A Goldilocks, stepping-stone, or archive-derived problem is represented as source context or set context, selection or retention criterion, and current next use, not as problem difficulty, priority, or readiness score.
+A Goldilocks, stepping-stone, or archive-derived problem is represented by its source-set reference, selection or retention criterion, and current next use, not by one difficulty, priority, or readiness score.
 
-`ProblemCard@Context` carries only the problem-side readiness fields and relation references:
+`ProblemCard` carries only the problem-side readiness fields and relation references:
 
 - source set kind when archive, pool, front, shortlist, selected set, or portfolio language is current;
 - solvability band;
@@ -88,9 +75,9 @@ A Goldilocks, stepping-stone, or archive-derived problem is represented as sourc
 - expiry or refresh condition;
 - selected-set, archive, pool, front, or parity relation when that relation is being made.
 
-The local `solvability band` label means a context-bound, non-scalar interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. It is not a universal difficulty claim, not a hidden readiness scale, and not a single-score ranking.
+The local `solvability band` label means a scheme-and-scope-qualified, non-scalar interpretation of feasible-but-not-trivial fit under current capability, constraints, validation boundary, and optional set-return relation. It is not a universal difficulty claim, hidden readiness scale, or single-score ranking.
 
-If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability-context cue, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to the governing FPF pattern for that claim.
+If the band cannot be tied to a characteristic, Q-bundle, comparison, retention, or capability relation and its qualification, treat Goldilocks wording as informal recognition only and bind any selection, set-return, or parity claim to its direct governor.
 
 The current governing family is `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. The relation to `C.22:14` is a role and timing relation inside the same family: `C.22.2` uses the family before P2W, while `C.22:14` uses it downstream when candidate solutions for a `TaskKind` make `TaskSignature` informative.
 

@@ -6,12 +6,12 @@ section_id: "C.32.ACS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__005_solution.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:4 — Solution"
-line_start: 64506
-line_end: 64562
+line_start: 64484
+line_end: 64540
 dependencies:
   - "A.10"
   - "A.17"

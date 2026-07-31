@@ -6,12 +6,12 @@ section_id: "A.20:10"
 section_title: "SoTA-Echoing (post-2015)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__013_sota-echoing-post-2015.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:10 — SoTA-Echoing (post-2015)"
-line_start: 33738
-line_end: 33748
+line_start: 33698
+line_end: 33708
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

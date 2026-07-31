@@ -6,12 +6,12 @@ section_id: "E.11.PUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__006_archetypal-grounding.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:5 — Archetypal Grounding"
-line_start: 76373
-line_end: 76438
+line_start: 76351
+line_end: 76416
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -35,13 +35,13 @@ keywords:
 
 #### E.11.PUA:5.1 - Episteme result: a usable problem card
 
-A team has a vague recurring pump-failure concern and asks whether it can be articulated well enough to guide later method selection. In cheap ordinary use it can say, "Use C.22.2 to make a usable problem card," then state the bounded concern, affected entity, obstacle, stakes, evidence state, and honest next use. Those contents can leave the exact `ProblemCard@Context` kind and `selectedPatternApplicationFlowResult` position recoverable without stating or recording either one. Name them explicitly only when a nearby kind confusion or named reliance requires replay; C.22.2 and C.2.1 still govern the episteme.
+A team has a vague recurring pump-failure concern and asks whether it can be articulated well enough to guide later method selection. In cheap ordinary use it can say, "Use C.22.2 to make a usable problem card," then state the bounded concern, affected entity, obstacle, stakes, evidence state, and honest next use. Those contents can leave the exact C.22.2 `ProblemCard` episteme and `selectedPatternApplicationFlowResult` position recoverable without stating or recording either one. Name them explicitly only when a nearby kind confusion or named reliance requires replay; C.22.2 and C.2.1 still govern the episteme.
 
 If the card did not exist before this exercise and the team claims that the drafting episode first constituted it, identify the dated drafting `U.Work`, the card's C.2.1 identity rule, the actual changes, and the local A.15.PROD entity-identity-inception claim. That claim establishes the card's Work-attributed inception, not by itself that the card is this PUA use's result. A reliance-bearing closure separately names the category-correct basis that makes the card the result relative to the current application or governed object. Without the inception basis, do not say that pattern application produced the card; state only the card content and leave its inception provenance open. Any later P2W participation uses its exact direct relation or local claim. The team need not materialize PUA closure records during a cheap conversational use.
 
 #### E.11.PUA:5.1a - Evaluation specification without a ProblemCard
 
-An architecture team already has a bounded comparison question and needs no accepted `ProblemCard@Context`. It applies `A.19.ECS` and states one exact `EvaluationCharacteristicSpaceSpec` with declared coordinates, scales, comparators, and evidence rules; `A.19.ECS` and C.2.1 govern that specification episteme. The optional `problemCardRef` remains absent.
+An architecture team already has a bounded comparison question and needs no accepted C.22.2 `ProblemCard` episteme. It applies `A.19.ECS` and states one exact `EvaluationCharacteristicSpaceSpec` with declared coordinates, scales, comparators, and evidence rules; `A.19.ECS` and C.2.1 govern that specification episteme. The optional `problemCardRef` remains absent.
 
 The application-flow label is only a readable PUA position. If the team claims that exact planning or specification Work first constituted the episteme, cite its local A.15.PROD inception claim for that subject fact. A reliance-bearing PUA closure separately identifies the category-correct basis that makes the specification a result relative to the current application or governed object. If a later comparison actually uses the specification, cite the exact direct relation, A.6.1 binding, or local relation-bearing claim governed by that comparison pattern. Without the corresponding basis, keep the specification, its PUA closure, and the later comparison separate.
 

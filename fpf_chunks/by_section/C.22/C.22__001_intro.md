@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__001_intro.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:intro — Intro"
-line_start: 50658
-line_end: 50671
+line_start: 50630
+line_end: 50643
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -29,17 +29,17 @@ dependencies:
 keywords:
 ---
 
-## C.22 - Problem Typing & TaskSignature Assignment (Problem-CHR)
+## C.22 - Task Typing and TaskSignature Assignment (Problem-CHR)
 > **Status:** Stable
 > **Type:** Calculus (C)
 
-**Purpose.** Give FPF an admissible, minimal, and portable `TaskSignature@Context` declaration for selector-facing use after the problem-side representation is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. `C.22` constructs one CHR-grounded `U.Signature` species and, when a receiving use is current, relates the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation@Context`. The signature is Context-local, evidence-relation-traceable, tri-state-aware, and bridge-visible.
+**Purpose.** Give FPF an admissible, minimal, and portable `TaskSignature` declaration for selector-facing use after the problem-side episteme is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. C.22 constitutes one CHR-grounded `U.Signature` and, when a receiving use is current, relates the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation`. Typed characteristics, unknowns, evidence-use relations, scope, currentness, and any scheme or plane crossings stay visible without adding a generic setting, carrier, or organization as a participant.
 
-**Body-level kind boundary.** `TaskSignature@Context` is a Context-local species of existing `U.Signature`, governed here and conformant to the A.6.0 four-row declaration; it is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation@Context` is the local `U.Relation` that assigns one such signature to one exact problem-side episteme for one receiving use. `ProblemCard@Context` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain local signature vocabulary or projection fields unless a direct governing pattern admits another kind.
+**Body-level kind boundary.** `TaskSignature` is a C.2.1 episteme and a species of existing `U.Signature`, conformant to A.6.0 direct declaration fields, Vocabulary, Laws, and Applicability. It is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation` is a separate obtaining relation among one exact problem-side episteme, one exact TaskSignature episteme, and one exact receiving-use episteme. `ProblemCard` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain signature vocabulary or projections unless a direct governing pattern admits another kind.
 
-**Primary EntityOfConcern.** The governed value in C.22 is one `TaskSignature@Context`, a Context-local `U.Signature` declaration that makes a typed task or work target usable by later eligibility, acceptance, and selector relations. `TaskSignatureAssignmentRelation@Context` is a separate dependent relation to the upstream problem-side episteme and receiving use. `TaskKind`, optional `TaskFamilyRef`, `KindSet`, characteristic bindings, and scope slices are content of the signature's four-row declaration. A later `SelectorOutcome` is a downstream result. A project-entity reference inside a scope relation identifies the entity addressed by the task; it is not the TaskSignature or its publication.
+**Primary EntityOfConcern.** This pattern governs one `TaskSignature` episteme. Inside it, `EntityOfConcernRef` identifies the exact task or work target declared for the receiving use; it does not identify the signature, `TaskKind`, carrier, organization, or publication. `TaskKind`, optional `TaskFamilyRef`, `KindSet`, characteristic bindings, and scope relations are declaration content. A later `SelectorOutcome` remains a downstream result.
 
 **Placement.** Part C (Kernel Extensions Specifications) -> Cluster C.I (Core CHRs and CALs).
 **Depends on:** **C.16 MM-CHR** (measurement admissibility), **G.5** (selector S2 and S3), **G.0** (CG-Spec invariants).
-**Coordinates with:** **G.4** (Acceptance and Evidence profiles), **C.23** (MethodFamily admissibility and maturity), **C.18 NQD‑CAL** (QD and illumination), **C.19 E/E‑LOG** (emitters and policies), **E.10** (LEX).
+**Coordinates with:** **G.4** (Acceptance and Evidence profiles), **C.23** (MethodFamily admissibility and maturity), **C.18 NQD-CAL** (QD and illumination), **C.19 E/E-LOG** (emitters and policies), **E.10** (LEX).
 

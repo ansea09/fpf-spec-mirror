@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:11"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__013_consequences-informative.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:11 — Consequences (informative)"
-line_start: 50993
-line_end: 50999
+line_start: 50968
+line_end: 50974
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -32,7 +32,7 @@ keywords:
 ### C.22:11 - Consequences (informative)
 
 * **Admissible selection.** Selection is **explainable** and **inspectable**; every admission or rejection reason cites TaskSignature fields, CG-Spec rows, and Gamma-fold contributors.
-* **Local first, Bridge-portable.** Context-local semantics are primary; Bridges make portability **deliberate and costed** (penalties to **R** only).
+* **Use-bounded first, Bridge-portable.** The exact EntityOfConcern, effective ReferenceScheme, ClaimScope, and receiving use are primary; Bridges make cross-scheme or cross-plane portability **deliberate and costed** (penalties to **R** only).
 * **Frictionless downstream.** G.1-G.5 use one **single, typed** TaskSignature; thresholds are cleanly separated into **Acceptance**; unknowns are not guessed.
 * **QD and OEE-ready.** Typed QD and GeneratorIntent fields make **declared returned-set structure** and **open-ended** generation contexts **explicit**, with admissible dominance, editioned distances, and policy-aware illumination.
 

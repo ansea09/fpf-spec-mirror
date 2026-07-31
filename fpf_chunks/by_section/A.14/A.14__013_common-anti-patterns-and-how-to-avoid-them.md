@@ -6,12 +6,12 @@ section_id: "A.14:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23787
-line_end: 23795
+line_start: 23747
+line_end: 23755
 dependencies:
   - "A.1"
   - "A.15"
@@ -40,6 +40,6 @@ keywords:
 * **Role as part.** A system plays a role, and the role label is placed inside a part tree.
 * **Method as part.** A method value, recipe, or algorithm is treated as a component instead of using method, method-description, work, or transformation owners.
 * **Portion without measure.** Some amount of fuel, data, time, or text is named as a portion without a measure kind, unit, and additivity condition.
-* **Phase as replacement.** A version or time slice is treated as a new component when the carrier identity continues, or as the same phase when the identity criteria fail.
+* **Phase as replacement or lineage.** A proper restriction of one enduring carrier is treated as another component, or a changed episteme, version label, or Work segment is treated as `PhaseOf` without applying C.2.1 or A.15.1 first.
 * **Diagram or trace as relation.** A visual breakdown, graph, table, construction trace, or `validationMode` is used as proof that parthood obtains or that the whole has one fixed identity. Recover the direct relation occurrence and the candidate's identity or reidentification rule first; use the publication and trace only as inspectable accounts.
 

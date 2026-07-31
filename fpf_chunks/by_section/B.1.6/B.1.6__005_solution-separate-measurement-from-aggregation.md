@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 36970
-line_end: 37028
+line_start: 36939
+line_end: 36998
 dependencies:
   - "A.1"
   - "A.10"
@@ -102,7 +102,8 @@ A ledger, dashboard, policy, profile, clause, citation, or graph edge may repres
 | --- | --- |
 | Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` plus A.15.1/A.6.1 for work and bindings |
 | Dated aggregation work, performer, method enactment, and actual inputs | `A.15.1` and `A.6.1` |
-| Work parthood, phase, partition, or temporal coverage | `A.14`, `B.1.4`, and the exact work/phase relation owner |
+| Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation owner; use `B.1.4` only to aggregate already recovered temporal relations |
+| Proper temporal restriction of another enduring carrier | that carrier's direct identity owner plus `A.14` `PhaseOf`; never a substitute for Work relations |
 | Overlap, shared-stock, boundary, and deduplication facts | exact stock, resource-use, boundary, work-overlap, or accounting relation owner |
 | Aggregation policy and typed aggregation result | `B.1.6` |
 | Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |

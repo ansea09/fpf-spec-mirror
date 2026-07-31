@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__017_rationale.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:16 — Rationale"
-line_start: 51994
-line_end: 52001
+line_start: 51958
+line_end: 51965
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,26 +54,13 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:16 - Rationale
 
-`ProblemCard@Context` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and specific enough to show when comparison, characterization, evidence, selection, mathematical-lens use, method, work, gate, autonomy, bridge, representation transition, or refresh requires another FPF pattern.
+`ProblemCard` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and specific enough to show when comparison, characterization, evidence, selection, mathematical-lens use, method, work, gate, autonomy, bridge, representation transition, or refresh requires another FPF pattern.
 
 The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. Claims beyond the problem-side record stay with their governing patterns.
 
-The archive and portfolio distinctions remain current when they matter because the card preserves `setContextRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
+The archive and portfolio distinctions remain current when they matter because the card preserves `sourceSetRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
 

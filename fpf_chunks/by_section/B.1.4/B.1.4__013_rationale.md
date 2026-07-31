@@ -6,12 +6,12 @@ section_id: "B.1.4:8.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__013_rationale.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:8.1 — Rationale"
-line_start: 36514
-line_end: 36519
+line_start: 36483
+line_end: 36488
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -25,6 +25,7 @@ dependencies:
   - "B.2-family"
   - "B.2.P"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
@@ -35,7 +36,7 @@ keywords:
 
 ### B.1.4:8.1 - Rationale
 
-`B.1.4` exists because contextual order and temporal phase aggregation are neither ordinary part-whole construction nor generic process talk. The same carrier can be considered through phases; a selected relation set can be order-sensitive; and both cases need admissible aggregation without inventing a new holon kind. The pattern therefore keeps relation discipline explicit: `PhaseOf` and carrier identity for phase aggregation; ordered relation refs and `OrderSpec` for contextual aggregation; direct-owner return for method, work, resource, transformation, evidence, and whole reidentification.
+`B.1.4` exists because contextual order and temporal phase aggregation are neither ordinary part-whole construction nor generic process talk. One directly governed enduring carrier can be considered through proper temporal restrictions; a selected relation set can be order-sensitive; and both cases need admissible aggregation without inventing a new holon kind. The pattern therefore keeps relation discipline explicit: `PhaseOf` and the carrier's direct identity rule for legitimate phase aggregation; C.2.1 identity and independently obtaining edition relations for distinct episteme history; A.15.1 relations for Work; ordered relation refs and `OrderSpec` for contextual aggregation; and direct-owner return for resource, transformation, evidence, and whole reidentification.
 
 The old `DesignRunTag` warning is preserved as a rule rather than a label: do not fold design-time possible order and run-time history into one aggregate. If both are needed, make two records and relate them by value.
 

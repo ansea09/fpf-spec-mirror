@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:5"
 section_title: "Relation to C.22"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__006_relation-to-c-22.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:5 — Relation to C.22"
-line_start: 51763
-line_end: 51770
+line_start: 51727
+line_end: 51734
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,26 +54,13 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:5 - Relation to C.22
 
-`C.22` remains the foundation for `ProblemProfile`, `TaskKind`, `TaskFamilyRef`, and `TaskSignature`. `ProblemCard@Context` is earlier and more explicit: it explains why this problem, under this context, is usable for P2W, search, comparison, characterization, refresh, retirement, or governing-pattern application.
+C.22 governs TaskSignature constitution and `TaskSignatureAssignmentRelation`. ProblemCard is earlier and explicit: it states which problem-side claims are ready for P2W, search, comparison, characterization, refresh, retirement, or another direct pattern.
 
-A `ProblemCard@Context` may prepare a candidate `ProblemProfile`, bind an existing `ProblemProfile`, emit a candidate `TaskSignature`, or bind a `TaskSignature` only when P2W or selector readiness is declared. If several downstream signatures remain plausible, keep them as candidate signatures instead of binding one chosen `TaskSignature`.
+A card may prepare TaskKind, characteristic bindings, scope, and candidate TaskSignatures. C.22 assigns one only when the exact problem-side episteme, TaskSignature, and receiving-use episteme satisfy its obtaining rule. Several plausible signatures remain candidates.
 
-This relation does not move problem-card field detail into `TaskSignature`. `TaskSignature` stays minimal for eligibility, acceptance, and selection. Downstream method, work, result, evidence, gate, autonomy, archive, portfolio, and selected-set claims remain with their governing patterns.
+No card detail is copied wholesale into TaskSignature. Downstream method, Work, result, evidence, gate, autonomy, archive, portfolio, and selected-set claims remain with their direct patterns.
 

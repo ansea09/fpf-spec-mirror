@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:End"
 section_title: "C.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__019_c-22-end.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:End — C.22:End"
-line_start: 51029
-line_end: 51030
+line_start: 51004
+line_end: 51005
 dependencies:
   - "A.6.0"
   - "C.16"

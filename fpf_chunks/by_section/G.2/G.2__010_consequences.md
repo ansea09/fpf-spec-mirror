@@ -6,12 +6,12 @@ section_id: "G.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__010_consequences.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:9 — Consequences"
-line_start: 97056
-line_end: 97063
+line_start: 97034
+line_end: 97041
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

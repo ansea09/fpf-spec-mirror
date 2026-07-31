@@ -6,12 +6,12 @@ section_id: "A.19.CHR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__007_conformance-checklist.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:7 — Conformance Checklist"
-line_start: 31090
-line_end: 31208
+line_start: 31050
+line_end: 31168
 dependencies:
   - "A.15.3"
   - "A.19"

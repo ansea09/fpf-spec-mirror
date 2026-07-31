@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:15"
 section_title: "SoTA Decision-Use Source Material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__016_sota-decision-use-source-material.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:15 — SoTA Decision-Use Source Material"
-line_start: 51966
-line_end: 51993
+line_start: 51930
+line_end: 51957
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,19 +54,6 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:15 - SoTA Decision-Use Source Material
@@ -89,9 +76,9 @@ Local SoTA-to-action tests:
 
 | Source or relation cue | Popular shortcut rejected | Required local result | Reopen condition |
 |---|---|---|---|
-| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover problem signal, framed problem representation, context and scope, viewpoint or role concern, improvement check, and rival frame when current. | Reopen when context, scope, viewpoint, rival frame, evidence need, or improvement or acceptance probe changes. |
-| P2W uses only a reviewable problem-side record. | `P2W-ready` is treated as work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State problem-formulation follow-up reason, validation boundary, readiness disposition, P2W use retained here, blocked attempted use, and governing-pattern cue when a claim outside `C.22.2` is current. | Reopen when the signal, context, scope, acceptance probe, problem-formulation follow-up reason, validation boundary, freshness, or named claim outside `C.22.2` changes. |
-| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set claim. | Preserve `setContextRef`, source set kind, selection or retention criterion, and a non-scalar next use; apply the governing set, parity, archive, pool, or refresh pattern when current. | Reopen when the source set, retention criterion, parity relation, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
+| Problem framing is ambiguous and abstraction shifts matter. | Symptom, root-cause story, request, or ticket is treated as the problem. | Recover signal, framed problem representation, EntityOfConcern, effective ReferenceScheme, ClaimScope, viewpoint qualification, improvement check, and rival formulation when current. | Reopen when scheme, scope, viewpoint, rival formulation, evidence need, or improvement or acceptance probe changes. |
+| P2W uses only a reviewable problem-side record. | `P2W-ready` is treated as Work authorization, gate passage, method selection, evidence proof, assurance, or selected solution. | State problem-formulation follow-up reason, validation boundary, readiness disposition, retained P2W use, blocked attempted use, and governing-pattern cue when an outside claim is current. | Reopen when the signal, EntityOfConcern, ReferenceScheme, ClaimScope, acceptance probe, follow-up reason, validation boundary, freshness, or named outside claim changes. |
+| QD, OEE, and set-return work produce archives, fronts, pools, and selected sets. | Priority score, single winner, local problem portfolio, or local selected-set claim. | Preserve `sourceSetRef`, source set kind, selection or retention criterion, and a non-scalar next use; apply the governing set, parity, archive, pool, or refresh pattern when current. | Reopen when the source set, retention criterion, parity relation, archive, pool, front, selected set, budget, window, or freshness disposition changes. |
 | Open-ended agents, problem variants, evaluator feedback, and stepping stones change signal interpretation. | Agent output, evaluator trace, or generated variant is treated as enough to act. | Record generator, evaluator, variant, or stepping-stone reason source only as a problem-side cue; name validation, freshness, and pattern reference named by value before probe or action. | Reopen when generator, evaluator, variant, stepping-stone reason source, safety condition, probe condition, or pattern reference named by value changes. |
 | First-principles or mathematical structure can improve formulation. | A named formalism or mathematical or ontological prestige is treated as adequacy or rigor. | Record the candidate structure, either its relation to the problem-side EntityOfConcern or the `C.29` mathematical-lens-use relation, preserved and lost structure when current, practical formulation payoff, problem-formulation follow-up reason, and stop condition. | Reopen when candidate structure, preserved or lost structure, problem-formulation follow-up reason, stop condition, or `C.29` result changes. |
 | Early class or kind taxonomy looks available. | A class list or ontology-first taxonomy is treated as the problem formulation. | Keep the formulation question current; record candidate structure, preserved and lost structure when current, and representation or retargeting relations before freezing kind structure. | Reopen when formulation question, kind structure, relation, representation-transition relation, or retargeting relation changes. |

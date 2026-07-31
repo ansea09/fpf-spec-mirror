@@ -6,12 +6,12 @@ section_id: "C.22.PFR:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__012_sota-echoing.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:11 — SoTA-Echoing"
-line_start: 51472
-line_end: 51484
+line_start: 51457
+line_end: 51471
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,6 +44,8 @@ keywords:
 | Operator seminar practice on development work, selected slides (2026) | Practical explanation separates problematization, characteristics and criteria, method search, performed work, working results, and repeated improvement while keeping them in one understandable progression. | **Adapt as a use-pressure test.** Keep actual PFR identity with the adverse condition and criterion applicability; route method search, work, results, and repetition through their direct patterns and `E.18.1`/`E.23` instead of making them PFR participants. |
 | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint | Current relation and situation comparisons provide stress pressure for dependent relations, reification, and occurrence identity. | **Use as a comparator.** Retain a dependent relation with explicit participants and identity while avoiding a universal situation object or imported category hierarchy. |
 | [TypeDB relation instances](https://typedb.com/docs/core-concepts/typeql/entities-relations-attributes/) | Relation instances can participate in other relation instances in an implementable model. | **Adapt as implementation evidence.** Permit actual-condition and applicability occurrences as PFR participants without treating the database model as the source of PFR truth. |
+
+**External-source qualification and reopen.** The three non-FPF rows are qualified to the cited 2026 material and the current FPF direct relation and temporal interfaces used here. The selected seminar material is only a practice-pressure comparator for separating problematization, criteria, method search, performed work, and results; it supplies no ontology or occurrence law. The cited 2026 gUFO preprint is only a current research comparator for dependent relations, reification, and occurrence identity; its category hierarchy is not imported. The TypeDB Core Concepts documentation is only implementation evidence that relation instances can participate in relations; database semantics do not establish FPF truth or identity. Reopen only the affected row if later seminar material changes the separation being tested, a later gUFO edition changes the relevant relation or occurrence treatment, TypeDB changes the cited relation-participation semantics, or a current FPF direct owner changes so that the comparison no longer tests this Solution. A carrier, hyperlink, or layout change with unchanged source content does not reopen the decision.
 
 These lines change the Solution by keeping evaluation outside PFR, admitting relation occurrences as participants, identifying repeated episodes from actual adverse inception and cessation, and separating a stable world-side occurrence reference from revisable boundary claims.
 

@@ -6,12 +6,12 @@ section_id: "E.2.DA:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__013_consequences.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:12 — Consequences"
-line_start: 68780
-line_end: 68787
+line_start: 68758
+line_end: 68765
 dependencies:
   - "A.19.ECS"
   - "E.10"

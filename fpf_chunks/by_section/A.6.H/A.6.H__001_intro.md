@@ -6,12 +6,12 @@ section_id: "A.6.H:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__001_intro.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:intro — Intro"
 line_start: 20974
-line_end: 20987
+line_end: 20991
 dependencies:
   - "A.14"
   - "A.15"
@@ -20,7 +20,6 @@ dependencies:
   - "A.7"
   - "B.1.1"
   - "B.1.4"
-  - "F.18"
 keywords:
   - "boundary"
   - "completeness"
@@ -36,15 +35,19 @@ keywords:
 
 ## A.6.H - Wholeness Language Unpacking — RPR-WHOLE
 
-**Plain-name.** Wholeness / integrity / part / boundary disambiguation
-**One-liner.** Treat “whole/part/complete/holistic” as *trigger words* that force an explicit choice among **reference level (referent vs description vs work)**, **boundary**, **parthood kind**, **aggregation (Γ)**, **order/time**, and **completeness (capability/spec/evidence)**.
-
-> **Type:** Architectural (A)
+> **Type:** Relational-precision specialization
 > **Status:** Stable
-> **Normativity:** Normative
+> **Normativity:** Normative unless explicitly marked informative
 
-**Placement.** A.6 precision-restoration cluster; a lexical front-end to mereology and Γ selection.
-**Specialises.** A.6.P Relational Precision Restoration (RPR).
-**Works alongside.** A.14 (mereology extension), B.1.1 (edge selection), B.1.4 (Γ_ctx/Γ_time), A.15 (role–method–work).
-**Template discipline.** Canonical section order and headings follow E.8.
+**At a glance.** Use A.6.H when words such as *whole*, *part*, *integrity*, *complete*, *turnkey*, or *end-to-end* hide the exact object or relation on which a decision depends.
+
+**Use this when.** Enter after A.6.P:4.11 has recovered the concrete candidate objects and the sentence needed by the receiving use, and that sentence genuinely asks about a whole, part, structure, integrity, coverage, or completion. A.6.H helps the practitioner expose the candidate whole or other bearer, its boundary when relevant, the independently identified parts or constituents, and the exact direct claim that must leave to its owner.
+
+**Not this pattern when.** Do not enter merely because a source contains a trigger word. A characteristic or measurement claim goes to `C.16.P`/`C.16`; an evidence or assurance claim goes to `A.10`/`B.3`; an episteme identity or edition claim goes to `C.2.1`; a publication claim goes to `E.17`/`E.24.PUB`; a Method, WorkPlan, or Work claim goes to its direct A.3/A.15 owner. Stay in A.6.P when the candidate objects or the receiving sentence are still unknown.
+
+**What goes wrong if missed.** A situation record, diagram, bundle, adjective, phase label, or coverage slogan becomes the supposed whole or relation. Parts, members, portions, phases, method factors, Work parts, evidence, and measured characteristics are then silently treated as one generic “part of” claim.
+
+**What this buys.** A short identity-first route from overloaded prose to one or more direct claims with exact participants and owners, or to an explicit blocker when a needed predicate is absent.
+
+**What changes in practice.** The practitioner stops annotating a wholeness bundle and instead writes the few direct sentences the next decision consumes: which entity, which relation and participants, which owner, and which stronger inference remains blocked.
 

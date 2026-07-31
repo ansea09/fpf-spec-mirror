@@ -6,12 +6,12 @@ section_id: "C.36:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__011_rationale.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:9 — Rationale"
-line_start: 67435
-line_end: 67438
+line_start: 67413
+line_end: 67416
 dependencies:
   - "A.1"
   - "A.10"

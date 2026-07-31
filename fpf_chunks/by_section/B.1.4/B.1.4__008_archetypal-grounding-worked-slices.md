@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_archetypal-grounding-worked-slices.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:5 — Archetypal Grounding (Worked Slices)"
-line_start: 36470
-line_end: 36477
+line_start: 36439
+line_end: 36446
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -25,6 +25,7 @@ dependencies:
   - "B.2-family"
   - "B.2.P"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
@@ -37,7 +38,7 @@ keywords:
 
 **Manufacturing sequence.** A frame is prepared, welded, inspected, painted, and packed. `B.1.4` records the contextual order claim: selected steps, order specification, join conditions, and admissible use for planning or comparison. The actual shop-floor work occurrences use `A.15.1`; energy and material roll-ups use `B.1.6`; a changed frame state uses `A.3.4`.
 
-**Paper revision history.** A paper has draft, reviewed, and camera-ready phases. `B.1.4` records the same episteme carrier across phases and the time or version window being claimed. Source-currentness and publication-use claims use `A.10` and `E.17`; the phase relation does not make the publication authoritative by itself.
+**Paper edition history.** When draft, reviewed, and camera-ready texts change claim content, EntityOfConcern, or effective ReferenceScheme, C.2.1 identifies distinct epistemes and tests each claimed `EpistemeEditionRelation` independently. `B.1.4` may record a bounded chronology over those already recovered identities, relations, applicability windows, or publication windows; it does not turn the editions into phases of one episteme. If one unchanged episteme is genuinely needed over a proper interval, A.14 `PhaseOf` may state only that restriction. Source-currentness and publication-use claims use `A.10`, `G.11`, and `E.17`; chronology establishes none of them.
 
 **Cross-context evidence window.** A dashboard aggregates observations from two operating contexts. `B.1.4` records the bounded contexts and the admissible aggregation window. If one context has a different measurement basis, use `C.16` or `C.29` for comparability before relying on the aggregate.
 

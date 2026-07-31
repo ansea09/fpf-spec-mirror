@@ -6,12 +6,12 @@ section_id: "A.16.2:15"
 section_title: "Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__016_migration-notes.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:15 — Migration Notes"
-line_start: 27927
-line_end: 27934
+line_start: 27887
+line_end: 27894
 dependencies:
   - "A.16"
   - "A.16.0"

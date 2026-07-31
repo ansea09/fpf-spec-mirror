@@ -6,23 +6,25 @@ section_id: "B.1.3:5"
 section_title: "Archetypal grounding (worked, didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__006_archetypal-grounding-worked-didactic.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:5 — Archetypal grounding (worked, didactic)"
-line_start: 36205
-line_end: 36249
+line_start: 36173
+line_end: 36217
 dependencies:
   - "A.1"
   - "A.12"
   - "A.14"
   - "A.15"
+  - "A.15.1"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
   - "B.3"
   - "C.2"
+  - "C.2.1"
 keywords:
   - "KD-CAL"
   - "epistemic"
@@ -73,6 +75,6 @@ keywords:
 | What is folded? | Claims, models, datasets, arguments                              | Components, materials, assemblies            |
 | Conservatism    | **Pathwise min** of R + penalty **Φ(CL)**                        | WLNK via **weakest part** (strength, rating) |
 | Fit             | **Mappings** with declared **CL**                                | **Interfaces/BIC** compatibility             |
-| Order/time      | Optional **Γ\_ctx** for argument order; **Γ\_time** for versions | Γ\_ctx for workflows; Γ\_time for phases     |
+| Order/time | Optional **Γ\_ctx** for argument order; C.2.1 for distinct episteme identities and edition relations; A.14 for a proper restriction of one unchanged episteme; B.1.4/**Γ\_time** for bounded aggregation of recovered temporal relations | Γ\_ctx for workflows; Γ\_time for phases of directly governed enduring carriers |
 | Work/cost       | External in **Γ\_work** (compute, curation)                      | External in **Γ\_work** (energy, labour)     |
 

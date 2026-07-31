@@ -6,12 +6,12 @@ section_id: "C.22.PFR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__002_problem-frame.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:1 — Problem frame"
-line_start: 51188
-line_end: 51201
+line_start: 51163
+line_end: 51176
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -44,7 +44,7 @@ keywords:
 
 **What this buys.** Actual Problems can exist before discovery, can be referenced while still ongoing, and can be distinguished across repeated adverse episodes. One exact applicability relation supplies the predicate, problem-for entity, claim scope, and declared criterion-applicability window used by PFR; its actual occurrence extent is separately derived from uninterrupted obtaining. Measurements, evaluations, evidence, claims, cards, and method search remain available without becoming Problem identity.
 
-**Early battery contrast.** A battery-voltage condition below the applicable vehicle-start bound can already participate in an actual PFR before anyone notices it. A later maintenance card is an episteme describing that condition and Problem; writing or accepting the card creates neither. Discovering a supported charging or replacement method changes present solvability, not the still-adverse condition. Only actual change of the condition, loss of criterion applicability, or cessation of adverse predicate truth ends that PFR.
+**Early battery stop.** A low terminal-voltage reading can be a useful signal and can justify a `ProblemCard`, but it is not itself the actual-condition participant. Until a direct voltage-state pattern supplies the exact relation kind, participant meanings, obtaining rule, temporal extent, recurrence, and occurrence identity, the battery case remains explicitly non-conforming: the reading, alarm, report, assertion, and card establish none of that world-side relation. Once such a governor exists, the applicability relation can connect its selected voltage predicate to the exact vehicle, intended-start `U.ClaimScope`, and declared criterion-applicability window; discovering a method still changes solvability rather than PFR actuality.
 
 **Not this pattern when.** Use `C.22.2` when the current object is a problem-side card, signal, hypothesis, forecast, scenario, anticipated-condition claim, or reviewable formulation rather than an actual PFR. Use `C.27`, `C.28`, or the exact direct forecast, scenario, counterfactual, or anticipated-condition governor when that claim is current. Use the selected A.19 comparison, `G.4` acceptance, state, gate, or measurement pattern when the current question is how to evaluate or support the adverse predicate. Use `E.18.1`, `E.23`, and the direct NQD or OEE patterns for repeated problematization, search, work, evaluation, and continuation.
 

@@ -6,23 +6,25 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 36081
-line_end: 36204
+line_start: 36049
+line_end: 36172
 dependencies:
   - "A.1"
   - "A.12"
   - "A.14"
   - "A.15"
+  - "A.15.1"
   - "B.1"
   - "B.1.1"
   - "B.1.4"
   - "B.1.6"
   - "B.3"
   - "C.2"
+  - "C.2.1"
 keywords:
   - "KD-CAL"
   - "epistemic"
@@ -35,7 +37,7 @@ keywords:
 
 #### B.1.3:4.1 - Terms (didactic recap)
 
-* **U.Episteme** — a knowledge holon. Internally read it as an `EpistemeSlotRelation`: `EntityOfConcernSlot` for what it is about, `ClaimGraphSlot` or theory/model structure for what it claims, `GroundingHolonSlot` where grounding is live, and SCR/RSCR carrier references for text, code, figures, or datasets.
+* **U.Episteme** — a claim-bearing knowledge holon. C.2.1 identifies it through the participant-determined `EpistemeConstitutionRelation` over `<claim content, exact EntityOfConcern, effective ReferenceScheme>`. `ClaimGraphSlot`, `EntityOfConcernSlot`, and `ReferenceSchemeSlot` name participant meanings only inside that relation's reusable declaration; they are not internal slots of the episteme. Empirical grounding uses the separate `EpistemeEmpiricalGroundingRelation`, while text, code, figures, datasets, SCR/RSCR references, publication forms, and presentation carriers remain separately governed provenance, representation, publication, or carrier material.
 * **Evidence/Provenance Graph** — edges like **evidences**, **derivesFrom**, **usesMethod**, **isMeasuredBy** with anchors (A.10).
 * **Mapping edge** — a typed relation between conceptual vocabularies (e.g., ontology alignment, unit conversion) with a **CL** score (0…3/4 per A.15/B.3 convention).
 * **SCR** — a `U.SCR` that lists all symbol carriers included in the aggregate; **never dropped**.
@@ -44,7 +46,7 @@ keywords:
 > **Didactic reminders.**
 > • Knowledge does **not** “act.” Transformers (A.12) **use** knowledge.
 > • **MemberOf** creates **collections**; it is not a semantic argument link. Use **ConstituentOf** for logical/evidential composition.
-> • **PhaseOf** is for **versions** of the same episteme; if identity, boundary, or context re‑anchor, declare **MHT**.
+> • `PhaseOf` is only a proper temporal restriction of one unchanged episteme. Changed C.2.1 discriminators identify another episteme; test `EpistemeEditionRelation` separately. Use MHT only for a remaining whole-reidentification question, not as a substitute for C.2.1 identity.
 
 #### B.1.3:4.2 - The operator family (companion flavours)
 
@@ -72,7 +74,7 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 * **Result.** A **context‑anchored** episteme (e.g., published paper/spec) whose **mappings to the context vocabulary** are explicit and carry **CL**; assurance will reference this context baseline (B.3).
 
 **Relationship to Γ\_ctx / Γ\_time.**
-If the knowledge fold explicitly depends on **argument order** (e.g., derivation), the internal fold uses **Γ\_ctx** for the sequence. If a **temporal storyline** (updates, retractions) is important, use **Γ\_time** to slice versions; **Γ\_epist** then composes the **current slice**. If composition yields **new explanatory closure** beyond WLNK/CL, declare **MHT** (B.2).
+If the knowledge fold explicitly depends on **argument order** (e.g., derivation), the internal fold uses **Γ\_ctx** for the sequence. If a **temporal storyline** (updates, retractions) is important, first identify each exact episteme and any obtaining C.2.1 edition relation; then use B.1.4/**Γ\_time** to aggregate the already recovered temporal restrictions, relation order, or applicability windows required by the use. **Γ\_epist** composes the exact selected episteme inputs, not a label-defined “current slice”. If composition yields **new explanatory closure** beyond WLNK/CL, declare **MHT** (B.2).
 
 #### B.1.3:4.3 - Invariant Standard (how the Quintet applies; **math by level**)
 
@@ -153,5 +155,5 @@ When computing **Γ\_epist^compile(E\_synth, Ctx, T)**:
  Produce RSCR with carrier hashes; at **L2** require independent re‑hash verification.  # [M‑1/L2]
 
 4. **Order/time hooks.**
-   If the compiled artifact includes an internal derivation, carry the **OrderSpec**; if it codifies a specific **time slice** of evolving knowledge, link back to the **Γ\_time** slice used.
+   If the compiled artifact includes an internal derivation, carry the **OrderSpec**. If it selects knowledge for a time-bounded use, name the exact C.2.1 episteme identity and link to the already recovered proper temporal restriction, edition relation order, applicability window, or B.1.4/**Γ\_time** aggregation actually used.
 

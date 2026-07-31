@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:21"
 section_title: "Machine-Assisted Drafting Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__022_machine-assisted-drafting-boundary.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:21 — Machine-Assisted Drafting Boundary"
-line_start: 52071
-line_end: 52083
+line_start: 52048
+line_end: 52060
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,24 +54,11 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:21 - Machine-Assisted Drafting Boundary
 
-Machine-assisted `ProblemCard@Context` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any governing-pattern cues for claims outside `C.22.2`.
+Machine-assisted `ProblemCard` drafting is only a drafting aid. Before the draft is used for P2W or selector-facing work, a practitioner checks the card's local fields and any governing-pattern cues for claims outside `C.22.2`.
 
 Required practitioner checks for a machine-assisted draft:
 

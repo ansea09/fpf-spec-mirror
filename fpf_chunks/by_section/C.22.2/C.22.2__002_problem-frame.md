@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__002_problem-frame.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:1 — Problem Frame"
-line_start: 51522
-line_end: 51533
+line_start: 51512
+line_end: 51523
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,30 +54,17 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:1 - Problem Frame
 
-A working team can reach the beginning of development with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, and opportunity-like cues. Opportunity-like signals still need context, scope cut, not-wish reason, improvement or acceptance probe, and honest next use; they do not turn this pattern into an ideation pattern. If FPF only says "type the task" or "choose a method", P2W can start from a slogan, a ticket-shaped wish, or a solution-shaped task before the problem itself is reviewable.
+A working team can begin with symptoms, anomalies, stakeholder signals, constraints, risks, old solution evidence, comparison ideas, solution temptations, underused capabilities, new environments, opportunity-like cues, or members of a retained set. Opportunity-like signals still need an exact EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish reason, improvement or acceptance probe, and honest next use; they do not turn this pattern into an ideation pattern.
 
-Problematization becomes useful for FPF use when it makes the problem side explicit. A reviewable problem-side record includes symptom detection, improvement check, acceptance probe or candidate acceptance criterion, mandatory constraints, risk condition, problem-formulation follow-up reason, validation boundary, freshness or expiry, and a relation to candidate solution search. Many problems also arrive from a retained set: candidates, anomalies, hypotheses, non-dominated fronts, shortlists, selected sets, `LivePool` records, and retained stepping stones.
+Problematization becomes useful here when it produces claim content a practitioner can inspect. The card distinguishes the observed signal from the claim family being considered; the one joint EntityOfConcern from nearby affected entities; the effective scheme and scope from generic setting words; actual-PFR assertions from forecasts and solvability claims; and problem-side readiness from method, Work, gate, or evidence conclusions.
 
-Current FPF already has patterns for archive, pool, front, selected set, parity, refresh, method selection, evidence, autonomy, gate, representation transition, bridge, and mathematical-lens use. The missing piece is a compact problem-side output that lets a practitioner see what is present before P2W use starts from the problem-side output and which current FPF pattern carries each heavier question.
+Current FPF already governs archive, pool, front, selected set, parity, refresh, method selection, evidence, autonomy, gate, representation transition, Bridge, mathematical-lens use, TaskSignature, and actual PFR obtaining. ProblemCard carries only the signal, problem-side claims, exact references, and next-use cues needed to reach those patterns without duplicating their objects.
 
-The first-minute working question is:
+The first-minute question is:
 
-> Can I write or review a problem-side record that is specific enough to guide P2W, selection, acceptance, evidence, and first-principles or mathematical-lens use, while keeping archives, fronts, pools, selected sets, parity, evidence, autonomy, and work planning in their existing FPF patterns?
+> Can I state one exact concern, claim family, scheme, scope, improvement or acceptance probe, and honest next use without turning a signal, card field, setting label, evidence result, or proposed method into the actual Problem?
 

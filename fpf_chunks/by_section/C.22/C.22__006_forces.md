@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__006_forces.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:4 — Forces"
-line_start: 50730
-line_end: 50738
+line_start: 50702
+line_end: 50710
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -36,5 +36,5 @@ keywords:
 | **Parsimony vs sufficiency** | Fewer fields to avoid ceremony **vs** enough to drive admissible gating.                                                              |
 | **Unknowns**                 | Many traits are **unknown** in the initial problem record → tri-state semantics propagate to Acceptance without silent coercions.                |
 | **CHR admissibility**             | **No mean on ordinals; no unit mixing**; aggregation is admissible only after polarity and scale type are declared.                             |
-| **Locality vs portability**  | The problem is **in-room**; cross-context reuse proceeds **through Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
+| **Locality vs portability**  | The declaration is use-bounded; cross-scheme or cross-plane reuse proceeds **through Bridges**, with **CL** and (if planes differ) **CL^plane** penalties → **R** only. |
 

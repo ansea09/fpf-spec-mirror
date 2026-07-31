@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:24 — Consequences"
-line_start: 52129
-line_end: 52147
+line_start: 52107
+line_end: 52125
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,19 +54,6 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:24 - Consequences
@@ -75,7 +62,7 @@ keywords:
 
 - FPF gains a clear problem-side output for problematization as the input P2W can use.
 - P2W uses a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
-- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `setContextRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
+- `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `sourceSetRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
 - The positive role of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
 - Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.
@@ -83,8 +70,8 @@ keywords:
 
 #### C.22.2:24.2 - Costs of Use
 
-- A `ProblemCard@Context` adds a small writing step before P2W. The cost is justified only when the signal is not yet reviewable before downstream use.
+- A `ProblemCard` adds a small writing step before P2W. The cost is justified only when the signal is not yet reviewable before downstream use.
 - The practitioner keeps the card small: preserve the split between problem, task, method, work, and result; keep `TaskSignature` minimal; and add conditional fields only when their relation is current.
-- For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner preserves `setContextRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning carrier.
+- For problems emitted from archives, pools, fronts, selected sets, or portfolios, the practitioner preserves `sourceSetRef` or the set-source relation without turning the card into a portfolio, archive, selected-set, or work-planning carrier.
 - External or source-local terms may guide recognition only when they change a concrete boundary, field, relation, or validation requirement. Otherwise they remain examples or local cues.
 

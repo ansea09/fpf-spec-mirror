@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 75992
-line_end: 76372
+line_start: 75970
+line_end: 76350
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -202,7 +202,7 @@ CandidatePatternUseBasisRelation@Context <: U.Relation:
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
-  problemCardRef?: U.EpistemeRef, referencing one ProblemCard@Context
+  problemCardRef?: U.EpistemeRef, referencing one C.22.2 ProblemCard episteme
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
   additionalBasisRelationRefs[]?: U.EntityRef, each referencing one CandidatePatternUseAdditionalBasisRelation@Context
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
@@ -233,7 +233,7 @@ CandidatePatternUse@Context <: U.Episteme:
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
-  problemCardRef?: U.EpistemeRef, referencing one ProblemCard@Context
+  problemCardRef?: U.EpistemeRef, referencing one C.22.2 ProblemCard episteme
   publicTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
   directPatternRef: U.EntityRef, referencing one U.MethodDescription
   directSolutionSectionRef: U.EntityRef, referencing the E.17 PublicationUnit containing the direct pattern's Solution

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:23"
 section_title: "Downstream Cue Export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__024_downstream-cue-export.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:23 — Downstream Cue Export"
-line_start: 52114
-line_end: 52128
+line_start: 52091
+line_end: 52106
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,33 +54,21 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:23 - Downstream Cue Export
 
-`ProblemCard@Context` exports problem-side material, not a claim over downstream use.
+`ProblemCard` exports problem-side claim content, not authority over downstream use.
 
-The compact export fields are:
+The compact export contains:
 
-- problem signal and context grounding;
-- EntityOfConcern and scope cut when they change the move;
+- problem signal and exact signal reference;
+- one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and current qualification window when needed;
+- exact claim family and polarity: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another named direct claim;
 - improvement check or acceptance probe;
-- readiness disposition: reviewable-only, `P2W-ready`, no-work or `abstainOrNoChange`, refresh, retire, archive, or governing-pattern application cue;
-- source-set or representation relation reference when current;
-- problem-formulation follow-up reason and validation boundary when P2W relies on the card.
+- readiness disposition: reviewable-only, `P2W-ready`, `abstainOrNoChange`, refresh, retire, archive, or governing-pattern cue;
+- exact PFR, source-set, A.15.6 composite or component Work, or representation reference only when current and independently governed; and
+- problem-formulation follow-up reason, validation boundary, freshness condition, and stop when the receiving use relies on them.
 
-For P2W carry-through, use `E.18.1` with the accepted problem-side material and the current relation named by the card. For selector-facing readiness and candidate `TaskSignature` relation, use `C.22`. For selected-set or search cues, use `G.5` only when that relation is current. For work need, use the A.15 family only after work planning, work-entry readiness, performed work, or work-relevant appearance-based reliance repair is current; `A.15.5` carries `WorkEntryReadiness@Context` when the downstream question is whether intended work is ready enough to enter the work boundary. For any other claim being made, apply the pattern that governs it; do not treat the whole card as carrying that claim.
+For P2W carry-through, use E.18.1 with the accepted problem-side distinctions. For TaskSignature constitution and assignment, use C.22. For selected-set or search use, apply G.5 only when that relation is current. For intended or performed Work, use A.15 only after its exact object is current; when the question is whether intended Work may enter its boundary, A.15.5 governs `WorkEntryReadiness@Context`. For evidence, gate, autonomy, or any other claim, apply the direct pattern; the whole card never carries that claim by itself.
 

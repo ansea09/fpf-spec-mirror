@@ -6,12 +6,12 @@ section_id: "B.1.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 36875
-line_end: 36889
+line_start: 36844
+line_end: 36858
 dependencies:
   - "A.1"
   - "A.15"
@@ -68,7 +68,7 @@ keywords:
 | "Parallel branches can join because the picture rejoins." | State the independence, downstream precondition, exact join, any adapter or correspondence, and failure route in ordinary language; use A.6.RCD's lightest sufficient disposition and open a relation kind only for an independently accepted occurrence-semantics need. |
 | "The selector table is the Method." | Use `G.5` for the selector. Use A.22 only when an actual selection basis and all four structure discriminators are present; otherwise keep a one-off comparison without asserting a selected `U.Structure`. A composite Method still needs its own exact construction and whole-level commitments. |
 | "The run proved the method structure." | Record the run as `U.Work`; relate it to the method through `enactsMethod` and use evidence only through its governing relation. A successful run neither creates method parts nor settles reidentification. |
-| "The phase is a method step." | Use the direct phase or temporal relation for carrier phases and use B.2 only when the boundary changes whole identity, supervision, or closure. |
+| "The phase is a method step." | Recover the subject: use the carrier's direct identity rule plus proper A.14 `PhaseOf` for one unchanged non-Work individual, C.2.1 for distinct MethodDescription epistemes and any obtaining edition relation, or A.15.1 for Work temporal parts and occurrences. None is a Method part unless an exact `U.Method` and `methodPartOf` independently obtain; use B.2 only for a separately current whole-reidentification, supervision, or closure claim. |
 | "The join improves throughput, so the method has emergence." | Name the measured characteristic, critical path, cutsets, typed joins, and assurance relation; open B.2 only when a separate whole-level reidentification claim remains. |
 | "The boundary-account prompts define the Method." | Identify the exact claim-bearing `U.MethodDescription` edition first. A boundary-account form is a reusable form only when `PublicationFormExpressionRelation` obtains; its prompts create neither the Method nor the form, carrier, declaration epistemes, publication Work, five-participant publication occurrence, or composition facts. |
 | "The boundary account is a nice diagram." | For a load-bearing publication, identify the MethodDescription edition, bounded-use- and audience-declaration epistemes, boundary-account form, and carrier independently; then distinguish the system's publication Work from the five-participant occurrence that makes the edition available. Keep designation content separate. Otherwise state the few boundary decisions directly. |

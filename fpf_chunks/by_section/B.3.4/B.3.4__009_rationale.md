@@ -6,12 +6,12 @@ section_id: "B.3.4:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__009_rationale.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:8 — Rationale"
-line_start: 39370
-line_end: 39373
+line_start: 39342
+line_end: 39345
 dependencies:
   - "A.10"
   - "B.3"

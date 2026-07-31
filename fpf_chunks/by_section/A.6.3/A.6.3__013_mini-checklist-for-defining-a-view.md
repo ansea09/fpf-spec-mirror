@@ -6,7 +6,7 @@ section_id: "A.6.3:9"
 section_title: "Mini-checklist (for defining a view)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__013_mini-checklist-for-defining-a-view.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:9 — Mini-checklist (for defining a view)"

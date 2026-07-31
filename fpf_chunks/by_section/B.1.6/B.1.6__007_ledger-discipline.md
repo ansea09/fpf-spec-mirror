@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Ledger Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__007_ledger-discipline.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:4 — Ledger Discipline"
-line_start: 37040
-line_end: 37057
+line_start: 37010
+line_end: 37027
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ The ledger is a replay surface, not the aggregation's ontic owner. For every res
 - resource Characteristic, Scale, Unit, polarity when relevant, and accounting boundary;
 - exact measured or estimated subject, time window, and work occurrence to which the value applies;
 - C.16 measurement work and measurement-result episteme, including model, calibration, uncertainty, and provenance refs when current;
-- work-parthood, phase, partition, or overlap relations independently established by their direct owners;
+- exact A.15.1 Work-temporal, episode, operational-part, partition, or overlap relations—and any separately current non-Work carrier `PhaseOf`—independently established by their direct owners;
 - shared resource, meter, person, tool, stock, data, port, or time-window overlap and the exact deduplication rule;
 - conversions, normalizations, imputations, and their declared method/policy refs;
 - the aggregation policy edition and actual aggregation work occurrence;
@@ -68,5 +68,5 @@ The ledger is a replay surface, not the aggregation's ontic owner. For every res
 
 Measured, estimated, normalized, converted, allocated, and planned values remain visibly different. A planned value does not become a measurement result or performed-work resource use. A citation to a meter or invoice does not establish the measurement work; a ledger row does not establish work parthood or overlap.
 
-Use `PortionOf` only for an exact resource portion, `PhaseOf` only for an exact temporal/work phase, and the direct work-parthood or work-overlap relation for work occurrences. `MemberOf`, common timestamps, shared identifiers, or co-listing in the ledger do not establish any of those relations.
+Use `PortionOf` only for an exact resource portion with its A.14 measure and additivity basis. Use `PhaseOf` only for a proper temporal restriction of one unchanged non-Work carrier after its direct identity rule and interval conditions hold. For Work, use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, another admitted Work-part relation, overlap, retry, resumption, or a separately identified occurrence according to its exact predicate. `MemberOf`, common timestamps, shared identifiers, a phase label, or co-listing in the ledger establishes none of those relations.
 

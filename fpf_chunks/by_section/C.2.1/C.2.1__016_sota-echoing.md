@@ -6,12 +6,12 @@ section_id: "C.2.1:14.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__016_sota-echoing.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:14.1 — SoTA-Echoing"
-line_start: 41673
-line_end: 41690
+line_start: 41645
+line_end: 41662
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "B.1.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__002_problem-frame.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:1 — Problem Frame"
-line_start: 36343
-line_end: 36348
+line_start: 36311
+line_end: 36316
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -25,6 +25,7 @@ dependencies:
   - "B.2-family"
   - "B.2.P"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
@@ -35,7 +36,7 @@ keywords:
 
 ### B.1.4:1 - Problem Frame
 
-Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine, paper, or dataset may be considered as the same carrier across phases. In these cases the aggregation is about contextual order or temporal coverage, not about a new level, a generic boundary, or a hidden interaction kind.
+Many useful aggregates are not simple unordered wholes. A manufacturing sequence changes meaning when steps are swapped. An argument chain depends on which premise is used before which lemma. A turbine or another directly governed enduring individual may be considered across proper temporal restrictions. An unchanged paper or dataset episteme may also be restricted to a proper interval only while its complete C.2.1 identity triple remains fixed; changed claim content, EntityOfConcern, or effective ReferenceScheme identifies another episteme, with edition continuity tested separately. In these cases the aggregation is about contextual order or temporal coverage over already recovered relations, not about a new level, a generic boundary, or a hidden interaction kind.
 
 `B.1.4` governs the aggregation claim. It asks which EntityOfConcern is being aggregated, which context or time window bounds the claim, which ordered or phase relation is being used, what the aggregate may be used for, and which neighboring owner must carry stronger claims.
 

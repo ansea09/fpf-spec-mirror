@@ -6,12 +6,12 @@ section_id: "B.1.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__005_solution.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:2 — Solution"
-line_start: 36365
-line_end: 36421
+line_start: 36333
+line_end: 36390
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -25,6 +25,7 @@ dependencies:
   - "B.2-family"
   - "B.2.P"
   - "C.13"
+  - "C.2.1"
   - "C.27"
   - "C.27.TA"
   - "C.29"
@@ -70,9 +71,9 @@ Use the record as a small typed relation, not as a new durable `U.Level`, `U.Bou
 | Mode | Current object | Required relation discipline | Typical use |
 | --- | --- | --- | --- |
 | Contextual order aggregation | A bounded set of relation positions whose order, partial order, or join structure changes meaning. | `OrderSpec`, ordered relation refs, join or independence conditions, and a bounded context. | Ordered method relation, order-bound argument chain, staged construction description, controlled sequence. |
-| Temporal phase aggregation | One carrier considered through phases or time slices. | Carrier identity, `PhaseOf` or phase relation refs, `TimeWindow`, coverage, and non-overlap conditions. | Asset history, revision history, experimental run phases, dated evidence window. |
+| Temporal phase aggregation | One directly governed enduring carrier considered through proper phases or time slices. | Carrier identity, `PhaseOf` or another direct phase relation, `TimeWindow`, coverage, and non-overlap conditions. For an unchanged episteme, the complete C.2.1 identity triple stays fixed. | Asset history, proper restriction of one unchanged episteme, experimental-carrier phases, dated evidence window. Distinct episteme editions first require C.2.1 identities and an independently obtaining edition relation. |
 
-If one source phrase mixes both modes, split the record. A method may have an ordered relation structure, and the work that enacts it may also have dated phases, but those are different claims.
+If one source phrase mixes both modes, split the record. A method may have an ordered relation structure; the Work that enacts it may have exact A.15.1 temporal parts, episodes, operational parts, overlaps, or separate occurrences whose already recovered relations a receiving use aggregates. Those are different claims, and generic `PhaseOf` does not replace the Work relations.
 
 #### B.1.4:2.2 - Direct Owner Map
 
@@ -83,7 +84,8 @@ If one source phrase mixes both modes, split the record. A method may have an or
 | Work plan | `A.15.2` |
 | Dated work occurrence, performed episode, or evidence that work happened | `A.15.1` |
 | Work-resource roll-up, spent resource, cost, effort, energy, material, or comparable ledger | `B.1.6` |
-| Phase relation, portion relation, membership, or parthood | `A.14`, `B.1`, and `C.13` as appropriate |
+| Episteme identity and historical continuity between distinct epistemes | `C.2.1`; aggregate only exact identities and an already obtaining `EpistemeEditionRelation` when the bounded use needs their chronology |
+| Proper `PhaseOf`, portion, membership, or other parthood relation for a non-Work carrier | `A.14`, `B.1`, and `C.13` as appropriate; Work temporal and part relations remain with `A.15.1` |
 | Holon delimitation or boundary-crossing relation | `A.1`, `B.1`, `A.12`, `A.3.4`, or the direct relation owner named by value |
 | Bounded change under conditions | `A.3.4` |
 | Whole reidentification, emergence-family wording, MHT, MET, MFT, synergy, or metric-mirage wording | Use `B.2.P` to test whether a whole-reidentification problem is current. If it remains current, use `B.2`, `B.2.2`, `B.2.3`, `B.2.4`, or `B.2.5` according to the recovered whole, emergence, autonomy, capability, or supervisor relation claim. |

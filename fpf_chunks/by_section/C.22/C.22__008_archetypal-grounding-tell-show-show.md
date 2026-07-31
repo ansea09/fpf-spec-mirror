@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 50913
-line_end: 50942
+line_start: 50886
+line_end: 50917
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -52,10 +52,12 @@ keywords:
 *Selection result.* Selector outputs **{environment, method}** pairs that pass Eligibility; **TransferRules** govern cross‑environment policy reuse; telemetry reports **coverage and regret** and **IlluminationSummary** with **edition and policy‑id** when improved.
 
 **E. Physical manufacturing method-family eligibility.**
-*Problem-side record.* A shop must finish a declared alloy-part family inside one machine and inspection context. The receiving question is which available finishing-method families can be compared without presuming one of them.
-*TaskSignature.* `TaskKind=surface-finishing work`, `ProblemSideRecordRef=accepted part-family problem card`, `ScopeSlice(G)=declared part family and production window`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material-hardness condition as a live `unknown` with an explicit measurement relation and unknown-handling policy. The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
+*Problem-side episteme.* `PartFamilyFinishingProblemCard-E2 : U.Episteme` is the exact C.22.2 ProblemCard for a shop that must finish `AlloyPartFamily-17` on one machine under `ShopInspectionScheme-E4` and a production-window ClaimScope. The receiving question is which available finishing-method families can be compared without presuming one of them.
+*TaskSignature.* `SurfaceFinishingEligibilitySignature-E1` declares `EntityOfConcernRef=AlloyPartFamilyFinishingTarget-17`, `effectiveReferenceScheme=ShopFinishing-Scheme-A`, `TaskKind=surface-finishing work`, `ScopeSlice(G)=AlloyPartFamily-17 during [2026-09-01T00:00Z, 2026-10-01T00:00Z)`, `ObjectiveProfile={surface roughness Ra@ratio in micrometres with downward polarity, throughput@ratio}`, `ConstraintRefs={geometric-tolerance relation, heat-distortion relation, resource-envelope relation}`, and material-hardness condition as a live `unknown` with an explicit measurement relation and unknown-handling policy. The TaskSignature makes eligibility reviewable; it does not select grinding, honing, polishing, or another method and does not establish that any part was finished.
+*Assignment.* `FinishingMethodEligibilityUse-E1 : U.Episteme` states the exact receiving eligibility-comparison use. `TaskSignatureAssignmentRelation(PartFamilyFinishingProblemCard-E2, SurfaceFinishingEligibilitySignature-E1, FinishingMethodEligibilityUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature as the task-typing declaration for that exact card under `ShopFinishing-Scheme-A`, the declared part-family scope, `ShopInspectionScheme-E4`, and the production window above. Withdrawal of that adoption or change of a participant or qualification ends this assignment occurrence; a shared row, carrier, or publication does not make it obtain.
 
 **F. Clinical rehabilitation method-family eligibility.**
-*Problem-side record.* A rehabilitation service has a bounded patient cohort and must compare admissible intervention families for a stated capability-change question under clinical safety constraints.
-*TaskSignature.* `TaskKind=rehabilitation-method-family comparison`, `ProblemSideRecordRef=accepted cohort problem record`, `ScopeSlice(G)=declared cohort and care setting`, outcome characteristics with their actual scale kinds and follow-up windows, contraindication and resource constraints, current evidence relations, and unknown tolerance or comorbidity values preserved as unknown. C.22 makes the comparison inputs explicit. It does not diagnose a person, recommend treatment, authorize care, prove benefit, or record performed clinical work; those claims remain with their clinical, evidence, gate, role, and work patterns.
+*Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
+*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`, outcome characteristics with their actual scale kinds and follow-up windows, contraindication and resource constraints, current evidence relations, and unknown tolerance or comorbidity values preserved as unknown. C.22 makes the comparison inputs explicit. It does not diagnose a person, recommend treatment, authorize care, prove benefit, or record performed clinical work; those claims remain with their clinical, evidence, gate, role, and work patterns.
+*Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature for that exact card under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 

@@ -6,12 +6,12 @@ section_id: "F.12:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:5 — Minimal vocabulary (this pattern only)"
-line_start: 92133
-line_end: 92143
+line_start: 92111
+line_end: 92121
 dependencies:
   - "A.2.3"
   - "F.1"

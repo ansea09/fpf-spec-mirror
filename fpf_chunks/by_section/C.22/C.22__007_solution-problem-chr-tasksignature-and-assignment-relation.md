@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:5"
-section_title: "Solution — Problem CHR, TaskSignature@Context, and assignment relation"
+section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-context-and-assignment-relation.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
-  - "C.22:5 — Solution — Problem CHR, TaskSignature@Context, and assignment relation"
-line_start: 50739
-line_end: 50912
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
+  - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
+line_start: 50711
+line_end: 50885
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -29,7 +29,7 @@ dependencies:
 keywords:
 ---
 
-### C.22:5 - Solution — Problem CHR, `TaskSignature@Context`, and assignment relation
+### C.22:5 - Solution — Problem CHR, `TaskSignature`, and assignment relation
 
 **Local TaskSignature mantra.** *Stabilize the problem; name the receiving selection question and task kind; keep only traits that can change eligibility, acceptance, or selection; type each live trait; preserve unknowns, evidence relations, scope, and currentness; declare the TaskSignature, assign it to the problem-side episteme for that use, and stop before selecting a method.* This is a short repeatable rendering of the C.22 Solution. It is not a selector algorithm, method recommendation, work plan, dated selection occurrence, or `DemonstrativeUnfoldingSlice@Context`.
 
@@ -44,11 +44,11 @@ Apply that formula as follows:
 
 #### C.22:5.0a - Positive closure, bounded non-use, and local return
 
-Close the C.22 use positively when the four-row TaskSignature declaration is complete and `TaskSignatureAssignmentRelation@Context` recovers the stabilized problem-side episteme, bounded Context, exact signature edition, and receiving use. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, edition, or crossing relation is named. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, work plan, or dated work is claimed.
+Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, Laws, and Applicability are complete and `TaskSignatureAssignmentRelation` recovers the exact problem-side episteme, TaskSignature, receiving-use episteme, effective ReferenceScheme, ClaimScope, and current qualification conditions. Each live characteristic has its scale, unit, polarity, reference plane, admitted comparison relation, and value or explicit `unknown`; every relied-on evidence, freshness, edition, or crossing relation is named. A downstream selector can now consume the assigned signature without guessing, but no eligibility verdict, acceptance result, method recommendation, selector outcome, WorkPlan, or dated Work is claimed.
 
 Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. If several signatures or assignment relations remain plausible, preserve them as candidates under the governing problem or selection pattern rather than asserting one assignment.
 
-Return to the smallest affected TaskSignature position when its receiving question, Context, `TaskKind`, task-family or work-target reference, project subject or scope, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence relation, freshness condition, edition, or crossing relation changes. Keep the upstream `ProblemCard@Context` and downstream selection history unchanged unless the changed relation actually invalidates them under their own governing patterns.
+Return to the smallest affected TaskSignature position when its receiving question, exact target, effective ReferenceScheme, ClaimScope, `TaskKind`, task-family reference, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence-use relation, freshness condition, edition, or crossing relation changes. Keep the upstream `ProblemCard` and downstream selection history unchanged unless that exact change invalidates them under their own governing patterns.
 
 **Worked local repair.** A machining TaskSignature originally records surface finish as an ordinal visual grade. The receiving use later adopts measured roughness `Ra` on a ratio scale in micrometres with a named measurement and evidence relation. Repair the affected characteristic head, scale, unit, admitted comparisons, and evidence relation. Keep the machining `TaskKind`, unaffected constraints, scope, and prior work history. Reopen eligibility, acceptance, or method-family selection only when its earlier result relied on the replaced finish head; the direct downstream pattern decides the new result.
 
@@ -63,7 +63,7 @@ Use the lightest signature declaration and assignment relation that the named re
 More fields, publication packaging, name cards, or telemetry do not make the problem better formulated, the TaskSignature more true, or a method more suitable. If no selector-facing receiving use needs a TaskSignature, close by bounded non-use rather than publishing a thin declaration for its own sake.
 
 #### C.22:5.1 - Minimal CHR fields (tri‑state aware).
-**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, method-family, or policy-governed choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard@Context` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` when its direct pattern admits that value; the cited downstream policy governs what follows. This aligns G.4 and G.6 without making their results C.22 values.
+**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, method-family, or policy-governed choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` when its direct pattern admits that value; the cited downstream policy governs what follows. This aligns G.4 and G.6 without making their results C.22 values.
 
 **Optional extension absence rule.** If QD, OEE, archive, generator, parity, specialization, or another optional relation is not live for the current case, the corresponding optional fields are absent, not `unknown`. Use `unknown` only for a live field whose value is currently unknown. An absent non-live extension triggers no downstream disposition.
 
@@ -97,97 +97,98 @@ Use this extension block only when QD, illumination archive, set-return, or OEE 
 
 **Admissibility.** Before any numeric comparison or aggregation, establish CSLC admissibility for Scale, Unit, and Polarity and cite **CG-Spec.Characteristics**; record **ReferencePlane**. Preserve `unknown` for the downstream policy; do not coerce it to `0` or `false`, and do not invent a C.22-local disposition.
 
-#### C.22:5.2 - `TaskSignature@Context` declaration and assignment
+#### C.22:5.2 - `TaskSignature` declaration and assignment
 
-`TaskSignature@Context` is a Context-local species of A.6.0 `U.Signature`. It uses the canonical four-row block rather than a flat record schema. Because eligibility, acceptance, and selector patterns import or cite it, its A.6.0 `SignatureManifest` supplies a stable `SignatureId`, edition, imports, and provided names without adding a fifth semantic row.
+`TaskSignature` is a C.2.1 episteme and a species of A.6.0 `U.Signature`. It uses A.6.0 identity and declaration content directly rather than a flat record schema. Add an optional `SignatureManifest` only when dependency replay requires actual imports and provided names; `SignatureId` and edition are designators and currentness handles, not substitutes for identity.
 
 ```text
-TaskSignature@Context <: U.Signature
+TaskSignature <: U.Signature
 
-SubjectBlock:
-  SubjectKind = TaskKind, one exact C.3 U.Kind value
-  RangedValueKind = U.Entity
-  SliceSet = declared A.2.6 subject-scope slices
-  ExtentRule = entities admitted by KindSet inside those scope slices
-  ResultKind = absent; selector outcomes are not TaskSignature values
+EntityOfConcernRef = exact task or work target declared for the named receiving use
+effectiveReferenceScheme = exact scheme in which TaskKind, TaskFamilyRef?, KindSet, and characteristic values are interpreted
+SubjectKind = TaskKind, one exact C.3 U.Kind value
+RangedValueKind = U.Entity
+SliceSet = declared A.2.6 claim-scope slices
+ExtentRule = entities admitted by KindSet inside those slices
+ResultKind = absent; selector outcomes are not TaskSignature values
 
 Vocabulary:
   TaskFamilyRef?
   KindSet
   characteristic bindings with Scale, Unit, Polarity, ReferencePlane, admitted comparison relation, and value or admitted unknown
   constraint relation references
-  evidence-relation references
+  evidence-use relation references
   optional QD, OEE, archive, generator, parity, budget, telemetry, and specialization vocabulary only when current
 
 Laws:
   include only positions that can change eligibility, acceptance, or selection for the declared use
   preserve admitted unknown and distinguish it from absent non-current vocabulary
   apply CHR scale, unit, polarity, ReferencePlane, and comparison legality before aggregation
-  keep acceptance verdicts, selector outcomes, selected methods, plans, work, and performed results outside the signature
+  keep acceptance verdicts, selector outcomes, selected methods, plans, Work, and performed results outside the signature
   keep each reliance-bearing field connected to its exact basis relation and direct governing pattern
 
 Applicability:
-  bounded Context and declared subject scope
+  exact U.ClaimScope and any required A.2.6 membership
+  declared qualification or use window when current
   qualification, freshness, edition, and evidence-use conditions on which use relies
-  named Bridge and crossing conditions for cross-context or cross-plane use
+  named F.9 Bridge and plane conditions when meanings or ReferencePlanes differ
 ```
 
-The field families in C.22:5.1 are projections of the `Vocabulary` and `Applicability` rows. They are not extra conceptual rows and do not redefine A.6.0.
+The field families in C.22:5.1 are projections of Vocabulary and Applicability. They are not extra conceptual rows and do not redefine A.6.0.
 
-The assignment to one problem-side episteme and receiving use is a separate relation:
+The assignment is a separate relation with exactly three direct participants:
 
 ```text
-TaskSignatureAssignmentRelation@Context <: U.Relation:
-  BoundedContextSlot = <TaskSignatureAssignmentContextSlot, U.BoundedContext, U.BoundedContextRef>
-  ProblemSideRecordSlot = <ProblemSideRecordSlot, U.Episteme, U.EpistemeRef>
-  TaskSignatureSlot = <TaskSignatureSlot, U.Signature, U.EntityRef constrained to TaskSignature@Context>
-  ReceivingUseDescriptionSlot = <ReceivingUseDescriptionSlot, U.Episteme, U.EpistemeRef>
-  direction = ProblemSideRecordSlot -> TaskSignatureSlot for ReceivingUseDescriptionSlot
+TaskSignatureAssignmentRelation <: U.Relation
+  ProblemSideEpistemeSlot = <ProblemSideEpistemeSlot, U.Episteme, U.EpistemeRef>
+  TaskSignatureSlot = <TaskSignatureSlot, U.Signature, U.EntityRef constrained to TaskSignature>
+  ReceivingUseEpistemeSlot = <ReceivingUseEpistemeSlot, U.Episteme, U.EpistemeRef>
 ```
 
-These SlotSpecs and direction are the exact RelationSignature. Relation identity is determined by bounded context, problem-side episteme edition, TaskSignature identity and edition, and receiving-use description. Changing only a publication carrier or serialization changes neither the TaskSignature nor its assignment relation.
+The relation obtains while the exact receiving use actually adopts that exact TaskSignature as the task-typing declaration for the exact problem-side episteme under the stated scheme, scope, and qualification conditions. Co-publication, a card field, a shared label, or one record row does not make it obtain. One occurrence is identified by the three participants plus its maximal continuous actual assignment extent. A participant change yields another occurrence; actual withdrawal and later readoption yield distinct occurrences even when the same three participants return.
 
-**TaskSignature identity and publication.** The signature's `SignatureId`, edition, and four-row semantic content determine its identity. A semantic change to SubjectBlock, Vocabulary, Laws, or Applicability creates a revised signature edition. Two E.17 publications, database records, cards, or files may serialize the same TaskSignature edition when they resolve to that same identity and introduce no new claim. `ProblemProfile` may reference the signature and assignment relation, but it does not contain or become either one.
+**TaskSignature identity and publication.** The tuple `<declaration content, EntityOfConcernRef, effectiveReferenceScheme>` determines TaskSignature episteme identity under A.6.0 and C.2.1. `SignatureId` and edition designate and track that episteme. A semantic change to direct declaration fields, Vocabulary, Laws, Applicability, the exact target, or the effective scheme creates a revised signature edition. Two E.17 publications, database rows, cards, or files may present the same edition when they resolve to the same tuple and add no new claim. `ProblemProfile` may reference the signature and assignment relation but contains or becomes neither.
 
-**Minimality rule.** The signature contains only the declaration positions needed to determine eligibility, acceptance, or admissible selection for the named use. Additional traits remain outside its Vocabulary unless a later use makes them current. Their mere availability does not expand the signature.
+**Minimality rule.** Include only declaration positions needed to determine eligibility, acceptance, or admissible selection for the named use. Additional traits remain outside Vocabulary until a later use makes them current.
 
-Values are CHR-typed and tied to the exact measurement, evidence-use, source-use, representation, or scope relation that justifies their use when such a relation is current. Each reliance-bearing field basis names that relation and its direct governing pattern; generic provenance or support wording is not a replay basis. Traits may be inferred from admitted CHR, CAL, and A.2.6 scope relations. Unknowns preserve their direct Missingness semantics.
+Values are CHR-typed and tied to the exact measurement, evidence-use, source-use, representation, or scope relation that justifies their use when such a relation is current. Each reliance-bearing field basis names that relation and its direct governing pattern; generic provenance or support wording is not a replay basis. Unknowns preserve their direct missingness semantics.
 
 **TaskSignature invariants.** A positive assignment satisfies all six conditions:
 
-1. The TaskSignature exposes conformant SubjectBlock, Vocabulary, Laws, and Applicability rows.
-2. The assignment relation recovers its Context, exact problem-side episteme edition, exact TaskSignature edition, and receiving-use description.
+1. The TaskSignature exposes its exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct declaration fields, Vocabulary, Laws, and Applicability.
+2. The assignment relation recovers its exact problem-side episteme, exact TaskSignature, exact receiving-use episteme, obtaining conditions, and occurrence extent.
 3. Every live field has an admitted filler kind or scale discipline and, under reliance, an exact basis relation with a direct governing pattern.
-4. A live but unrecovered value is `unknown` only where the field's direct pattern admits it and a downstream policy ref states how the receiving use handles it.
+4. A live but unrecovered value is `unknown` only where the field's direct pattern admits it and a downstream policy states how the receiving use handles it.
 5. A non-current optional extension is absent; absence and unknown are not interchangeable.
-6. Eligibility verdicts, acceptance results, selected methods, selector outcomes, work plans, and work occurrences are absent from the TaskSignature and remain with their direct patterns.
+6. Eligibility verdicts, acceptance results, selected methods, selector outcomes, WorkPlans, and Work occurrences are absent from the TaskSignature and remain with their direct patterns.
 
 #### C.22:5.2a - Lowering and withdrawal conditions
 
-Withdraw `TaskSignatureAssignmentRelation@Context` for the current receiving use when its problem-side episteme, Context, TaskSignature edition, or receiving-use description cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Return to `C.22.2` only when the problem-side representation itself is no longer stable enough.
+Withdraw the assignment for the current receiving use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope, or qualification conditions cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Return to C.22.2 only when the problem-side representation itself is no longer stable enough.
 
-Revise the TaskSignature edition when one of its SubjectBlock, Vocabulary, Laws, or Applicability claims changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or governing pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. If a selected method, selector outcome, acceptance result, plan, or work occurrence appears inside the signature, split that value into its direct governing pattern.
+Revise the TaskSignature edition when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or governing pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its direct governing pattern.
 
-A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the problem disappeared or that prior work did not occur.
+A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the actual Problem disappeared or that prior Work did not occur.
 
 #### C.22:5.2b - Evolution and currentness boundaries
 
-C.22 revises the smallest affected four-row position and issues a new TaskSignature edition when semantic content changes. A changed problem formulation returns to `C.22.2` before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated work without an explicit dependency.
+C.22 revises the smallest affected identity or declaration-content component and issues a new TaskSignature edition when semantic content changes. A changed problem formulation returns to C.22.2 before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated Work without an explicit dependency.
 
-`TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in the Vocabulary when specialization, transfer, or parity is live. `KindSet` and the A.2.6 scope slices determine the ranged extent. None is a record-format field, selected method, or selector result.
+`TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in Vocabulary when specialization, transfer, or parity is live. `KindSet` and A.2.6 scope slices determine the ranged extent. None is a record-format field, selected method, or selector result.
 
-**DesignRunTag hygiene.** Do not mix DesignRunTag in one signature edition; record GateCrossings as CrossingBundles under their direct patterns when design-time claims are reused in run-time work.
+**DesignRunTag hygiene.** Do not mix DesignRunTag in one signature edition; record GateCrossings as CrossingBundles under their direct patterns when design-time claims are reused in run-time Work.
 
 ##### C.22:5.2.1 - Specialization-claim reference discipline (normative)
-A claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization is complete only when it states one declared `TaskFamilyRef` or `TaskSignature@Context`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but the method is not the bearer of the specialization claim. The TaskSignature declaration and assignment relation stay rich enough for the same task family and work target to remain admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
+A claim that one holder, dyad, team, or explicitly scoped specialist portfolio acquired usable specialization is complete only when it states one declared `TaskFamilyRef` or `TaskSignature`, one named work-measure threshold target, an adaptation budget, and the freshness or provenance basis for reuse. A method may be selected, refined, or retired as part of that story, but it is not the subject of the specialization claim. The TaskSignature declaration and assignment remain rich enough for the same task family and work target to stay admissible in `C.22.1` adaptation signatures, `G.5` specialization profiles, and `G.9` adaptation parity without reconstructing the claim from narrative prose.
 
 Low-human-overlap or newly discovered task families remain admissible when those task-family or signature references are explicit by value.
-#### C.22:5.3 - Provenance & planes.
-Record **Context** and **ReferencePlane** for each value; on any cross-Context or cross-plane reuse, attach BridgeDescription plus UTS row and apply **CL** and, when planes differ, **CL^plane** penalties to **R_eff only**. The governing policy admits **Φ(CL)** and **Φ_plane** only when they are **monotone, bounded, and table-backed**. Do not use “distance” language; penalties never mutate F and G. Record policy ids in SCR and cite Bridge ids on crossings.
+#### C.22:5.3 - Provenance, schemes, and planes
+
+Record the effective `U.ReferenceScheme`, `U.ClaimScope`, and `ReferencePlane` for every relied-on value. When meanings or planes differ, cite the exact F.9 Bridge, endpoint senses, admitted use, and loss; apply CL and, when planes differ, CL^plane penalties to `R_eff` only under the governing policy. The assignment receives no generic setting participant, and a domain, organization, location label, or shared carrier supplies none of these relations. Record policy ids in SCR and cite Bridge ids on actual crossings.
 
 #### C.22:5.4 - Attachment & use.
 
-The bullets below state the contract expected by downstream uses of the assigned TaskSignature. C.22 does not execute eligibility, acceptance, selection, archive treatment, or generator-family choice. Their verdicts and returned sets remain results of the named direct patterns.
+The bullets below state which TaskSignature fields and relations each downstream use reads. C.22 does not execute eligibility, acceptance, selection, archive treatment, or generator-family choice. Their verdicts and returned sets remain results of the named direct patterns.
 
 * **Eligibility** gates read TaskSignature against each **MethodFamily.Eligibility** (C.23) and **CG‑Spec.MinimalEvidence** for referenced characteristics.
 * **Acceptance** clauses (G.4) use these fields for **acceptance-gate threshold predicates** (acceptance-gate thresholds live in Acceptance only).

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 51942
-line_end: 51965
+line_start: 51906
+line_end: 51929
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,19 +54,6 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:14 - Source and P2W Carry-Forward
@@ -75,13 +62,13 @@ The source presentation is not compressed into a generic problem-card summary. T
 
 | Source detail | Current FPF recovery | `C.22.2` carry-forward relation |
 |---|---|---|
-| Source examples: person, team, organization, system, community, episteme, and work project | Source-local recognition examples for the domain or practice locus when that locus helps identify problem-card use, and for the EntityOfConcern or project-side FPF kind or reference named by value when it changes the problem-side use; not a new FPF kind taxonomy | `ProblemCard@Context` may state the domain or practice locus when it affects time horizon, indicators, cost of error, role concern, or governed comparison, but it also states the context grounding that carries local meaning. The listed examples are not minted here as a new taxonomy of FPF kinds. |
+| Source examples: person, team, organization, system, community, episteme, and exact Work | Recognition material for the EntityOfConcern or exact A.15.6 Work when it changes problem-card use; not a new FPF kind taxonomy | A domain or practice locus may qualify the effective ReferenceScheme, ClaimScope, horizon, indicators, cost of error, role concern, or comparison, but it neither constitutes the card nor identifies an actual Problem. |
 | Engineering language for reproducibility and management language for coordination, rights, resources, and responsibility | Verification and reproducibility, coordination, right, resource, and responsibility claims are different FPF relations | `C.22.2` may name reproducibility, role, budget, right, or responsibility cue only as a field or relation reference; claims outside the problem-side record stay with their governing patterns. |
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W relations use `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
-| Characterization protocol: context or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` governing patterns | `ProblemCard@Context` cites characterization and comparability relation when that relation is being made; it does not treat available measurement as an accepted indicator-use relation. |
+| Characterization protocol: ReferenceScheme, ClaimScope or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` governing patterns | `ProblemCard` cites characterization and comparability relations when current; available measurement alone is not an accepted indicator-use relation. |
 | Indicator roles: mandatory constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` preserves whether an indicator is a mandatory constraint, an optimization objective, or a monitored risk signal when that distinction affects acceptance. |
-| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard@Context` preserves source set or reference, selection or retention criterion, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is current. |
-| Goldilocks as zone-of-growth selection calibrated to current capability and context | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` does not turn Goldilocks into one global difficulty scale or scalar readiness score. |
+| Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard` preserves source set or reference, selection or retention criterion, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is current. |
+| Goldilocks as zone-of-growth selection calibrated to current capability, effective ReferenceScheme, and ClaimScope | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` does not turn Goldilocks into one global difficulty scale or scalar readiness score. |
 | Stepping stones as option value: new actions, tools, data, interfaces, environments, or experiment modes that may expand downstream search | Retained archive, front, or pool member, or selected-set reason | `C.22.2` may record stepping-stone value only with a governing set-return, archive, or pool pattern and a retention or tie-break criterion. |
 | P2W chain: signatures and principles help select formalism, ontology, characterization, and method-family material | `A.6.0`, `A.6.1`, `C.16`, `A.19`, `C.29`, `G.5`, and `E.18` | `C.22.2` supplies problem-side cues and relation references; it does not select the formalism, ontology, mechanism, or method family by itself. |
 | P2W chain: condition measurement and comparison help select a concrete method | `C.16`, `A.19`, `C.25`, `G.9`, `G.5`, and `A.15` | State the comparison-and-acceptance cue or acceptance-criterion reference and parity and characterization relations needed by downstream method selection. |
@@ -91,5 +78,5 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Runbook, rollback plan, canary, SafeStop, error budget, and override protocol | Work, gate, autonomy, evidence, and control records | These source forms are not `C.22.2` subobjects; apply `A.15`, `A.21`, `E.16`, `A.10`, `G.6`, or `B.3` when the corresponding claim is current. |
 | Trust debt after reliance-window expiry | Freshness and decay indicator and bounded-risk continuation question | Treat trust debt as an indicator or problem-formulation follow-up reason, not as punishment, proof failure, or gate passage by itself. |
 
-This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough problem-side cues and project-side references to select method families, plans, performed work, and result measurement without making the problem card a P2W pattern.
+This carry-forward preserves detail, not broader scope. `C.22.2` remains the problem-side output; P2W uses it with enough problem-side cues and exact receiving-use and Work references to select method families, plans, performed Work, and result measurement without making the card a P2W pattern.
 

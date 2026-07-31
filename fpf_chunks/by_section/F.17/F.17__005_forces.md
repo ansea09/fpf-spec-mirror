@@ -6,12 +6,12 @@ section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__005_forces.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:3 — Forces"
-line_start: 93825
-line_end: 93835
+line_start: 93803
+line_end: 93813
 dependencies:
   - "A.1.1"
   - "A.10"

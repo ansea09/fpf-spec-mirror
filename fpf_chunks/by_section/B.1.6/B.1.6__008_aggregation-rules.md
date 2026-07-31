@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Aggregation Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_aggregation-rules.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:5 — Aggregation Rules"
-line_start: 37058
-line_end: 37089
+line_start: 37028
+line_end: 37059
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 
 **Measurement before aggregation.** Each measured input points to exact C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
-**Exact work set.** Name every dated work occurrence included. Parent/child, phase, partition, and overlap relations must already obtain under their direct owners. A method, plan, epoch label, invoice period, or dashboard grouping does not establish the work set.
+**Exact Work set.** Name every dated Work occurrence included. Parent/child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, other admitted Work-part, partition, and overlap relations must already obtain under A.15.1 or their exact direct owners. A method, plan, epoch or phase label, invoice period, or dashboard grouping does not establish the Work set.
 
 **Exact policy.** The aggregation policy states inclusion/exclusion, conversion, normalization, weighting, missing-value treatment, boundary allocation, uncertainty treatment, overlap/deduplication, and output kind. A policy declaration is not aggregation work or a result.
 
@@ -77,7 +77,7 @@ keywords:
 | Obligation | What must be named |
 | --- | --- |
 | Resource input | Resource Characteristic, Scale/Unit, subject, C.16 measurement work/result episteme, uncertainty, time, and provenance |
-| Work set | Dated occurrences and exact part/phase/partition/overlap relations |
+| Work set | Dated Work occurrences and exact A.15.1 temporal-part, episode, operational-part, other admitted Work-part, partition, and overlap relations; any non-Work carrier phase remains separately governed |
 | Policy | Edition, inclusion, conversions, weights, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind |
 | Aggregation execution | Dated `U.Work`, performer, method, resources, and actual direct/A.6.1 bindings |
 | Aggregation result | Typed result, work set, policy, boundary, window, qualifications, and distinct C.2.1 episteme |

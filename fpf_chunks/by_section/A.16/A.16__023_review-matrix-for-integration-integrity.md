@@ -6,12 +6,12 @@ section_id: "A.16:22"
 section_title: "Review Matrix for Integration Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__023_review-matrix-for-integration-integrity.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:22 — Review Matrix for Integration Integrity"
-line_start: 27238
-line_end: 27249
+line_start: 27198
+line_end: 27209
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "A.8:4.2"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__011_consequences.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4.2 — Consequences"
-line_start: 22448
-line_end: 22451
+line_start: 22408
+line_end: 22411
 dependencies:
   - "A.11"
   - "C.3"

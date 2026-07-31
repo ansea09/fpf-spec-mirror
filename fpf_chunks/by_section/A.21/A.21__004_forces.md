@@ -6,12 +6,12 @@ section_id: "A.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__004_forces.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:3 — Forces"
-line_start: 33892
-line_end: 33900
+line_start: 33852
+line_end: 33860
 dependencies:
   - "A.19"
   - "A.2.6"

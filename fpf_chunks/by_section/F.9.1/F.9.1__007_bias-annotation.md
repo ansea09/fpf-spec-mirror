@@ -6,12 +6,12 @@ section_id: "F.9.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__007_bias-annotation.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:6 — Bias-Annotation"
-line_start: 91381
-line_end: 91384
+line_start: 91359
+line_end: 91362
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

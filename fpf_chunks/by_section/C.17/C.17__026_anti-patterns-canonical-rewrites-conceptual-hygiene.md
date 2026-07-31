@@ -6,12 +6,12 @@ section_id: "C.17:23"
 section_title: "Anti‑patterns & canonical rewrites (conceptual hygiene)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__026_anti-patterns-canonical-rewrites-conceptual-hygiene.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:23 — Anti‑patterns & canonical rewrites (conceptual hygiene)"
-line_start: 49147
-line_end: 49156
+line_start: 49119
+line_end: 49128
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "A.16.2:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__015_authoring-and-review-guidance.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:14 — Authoring and Review Guidance"
-line_start: 27910
-line_end: 27926
+line_start: 27870
+line_end: 27886
 dependencies:
   - "A.16"
   - "A.16.0"

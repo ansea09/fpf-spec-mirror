@@ -6,12 +6,12 @@ section_id: "C.17:4"
 section_title: "Vocabulary (CHR terms & D‑stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__005_vocabulary-chr-terms-d-stubs.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:4 — Vocabulary (CHR terms & D‑stubs)"
-line_start: 48573
-line_end: 48593
+line_start: 48545
+line_end: 48565
 dependencies:
   - "A.1"
   - "A.10"

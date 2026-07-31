@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 51221
-line_end: 51390
+line_start: 51196
+line_end: 51372
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -144,6 +144,9 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection produces work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
+When evaluation is actually performed, name the exact `U.System`, its current `U.RoleAssignment`, the dated evaluation `U.Work`, and the selected `U.Method` or declared A.6.1 operation application. That work may return the separately governed evaluation result `true`, `false`, or `unknown`; a C.2.1 assertion may state the result, A.10/B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
+
+
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
 
 The direct occurrence rule is ontic. With the two participant occurrences fixed, one PFR occurrence is the maximal continuous episode during which both participants obtain and the selected condition point is actually on the adverse side. Actual cessation of either participant or actual movement to the non-adverse side ends that occurrence. Later renewed adverse truth starts a later PFR occurrence. Measurement, evaluation, demonstration, assessment, and evidence availability neither start nor end either occurrence.
@@ -180,13 +183,17 @@ Use the A-B-C regression while holding one continuously obtaining applicability 
 
 Evidence that supports A, B, and C warrants the corresponding two-occurrence assertion. A missing assessment, unavailable measurement, stale evidence item, or support gap warrants `continuity unresolved`; it neither proves recovery nor licenses continuity. Adjacent or overlapping assessment windows likewise do not split or join world-side episodes by themselves.
 
-#### C.22.PFR:4.6 - Keep anticipated-condition claims, solvability, and cards separate
+#### C.22.PFR:4.6 - Keep assertions, reliance, anticipated conditions, solvability, and cards separate
 
-A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard@Context` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern governs assumptions, horizon, and non-actual semantics; `A.10` or the receiving evaluation separately governs supported, refuted, or unresolved reliance. None of those claim-side facts establishes a current PFR. A card may describe zero, one, or several independently obtaining PFR occurrences; several cards may describe one PFR under different viewpoints.
+An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. A.10/B.3 separately governs whether one receiving use treats that assertion as supported, refuted, or unresolved. Assertion polarity, support, and reliance therefore answer different questions.
 
-A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and acceptance use. Selecting or discovering a method changes current solvability. It does not end PFR while the actual condition remains adverse. Performed repair work can end or change the actual-condition occurrence and thereby end PFR.
+A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern governs assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
 
-Repeated problematization, method search, work, evaluation, and continuation occur in work and transformation flows governed by `E.18.1` and `E.23`. A claim or plan may carry a reference to the same PFR while work and transformation occurrences participate in a selected transformation-flow structure. Neither that PFR reference use nor any flow-structure relation enters PFR identity. A later PFR is a later occurrence because a participant changes or because actual adverse truth begins again after an actual cessation; the stable reference therefore carries a different participant reference or actual adverse inception, not a different assessment or flow visit.
+A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective `U.ReferenceScheme`. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-RoleAssignment-17` reference.
+
+A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and intended use. Selecting or discovering a method changes current solvability; it does not end PFR while the actual condition remains adverse. Performed repair work can end PFR only when an independently recovered actual change makes a participant cease or moves the selected condition point to the non-adverse side.
+
+Repeated problematization, method search, work, evaluation, and continuation occur in work and transformation flows governed by `E.18.1` and `E.23`. A claim or plan may carry a reference to the same PFR while work and transformation occurrences participate in a selected transformation-flow structure. Neither that reference use nor any flow-structure relation enters PFR identity. A later PFR is a later occurrence because a participant changes or because actual adverse truth begins again after actual cessation, not because another card, assessment, or flow visit exists.
 
 #### C.22.PFR:4.7 - Preserve the lightweight path
 

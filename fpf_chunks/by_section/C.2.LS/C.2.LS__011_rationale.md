@@ -6,12 +6,12 @@ section_id: "C.2.LS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__011_rationale.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:10 — Rationale"
-line_start: 43419
-line_end: 43421
+line_start: 43391
+line_end: 43393
 dependencies:
   - "A.16"
   - "A.16.0"

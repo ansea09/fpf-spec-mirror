@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.11.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
-line_start: 75554
-line_end: 75953
+line_start: 75532
+line_end: 75931
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

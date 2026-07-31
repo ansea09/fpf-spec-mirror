@@ -6,12 +6,12 @@ section_id: "A.6.H:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__002_problem-frame.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:1 — Problem frame"
-line_start: 20988
-line_end: 20995
+line_start: 20992
+line_end: 21008
 dependencies:
   - "A.14"
   - "A.15"
@@ -20,7 +20,6 @@ dependencies:
   - "A.7"
   - "B.1.1"
   - "B.1.4"
-  - "F.18"
 keywords:
   - "boundary"
   - "completeness"
@@ -36,9 +35,18 @@ keywords:
 
 ### A.6.H:1 - Problem frame
 
-Teams routinely use compact natural-language tokens like *whole*, *part*, *integrity*, *holistic*, and *complete* to gesture at multiple different things at once: a boundary, a bill-of-materials, a collective, a workflow, a lifecycle, or “end-to-end” capability. The same sentence then gets interpreted as **structure**, **procedure**, **history**, or **competence**, and the disagreement is not resolvable because the referent is under-specified.
+Natural language compresses several different engineering questions into the same small vocabulary:
 
-This matters because FPF’s core moves are boundary-grounded wholes (holons) and explicit composition operators (Γ). A holon is individuated by a **boundary that separates inside from environment**, with interactions crossing that boundary.  When language collapses “whole” into a rhetorical flourish, the modeler is tempted to smuggle order, time, membership, or capability into part–whole edges, causing the classic category errors that later break Γ composition and audits.
+- What individual is being treated as one whole?
+- Where is its boundary, and what lies outside it?
+- Which independently identified objects are parts, constituents, members, portions, or proper temporal restrictions?
+- Which relations among those objects actually obtain?
+- Does a named use need a construction trace or a selected structure?
+- Is the same whole being recognized again, or must it be reidentified?
+- Is “complete” about performed Work, capability, specification, evidence, or another exact coverage claim?
+- Is “integrity” a measured characteristic, an assurance claim, or a claim that an assembled entity remains one whole?
 
-This pattern is a practical repair protocol: it does not fight natural language; it **treats its vague words as triggers** that force an explicit unpacking into the minimal, typed vocabulary for wholeness claims.
+Those questions have different participants, predicates, and owners. A.6.H does not answer them by creating a common wholeness object. It keeps the source wording readable while making the load-bearing claims exact.
+
+A word is load-bearing here when a requirement, invariant, interface statement, architecture choice, model relation, decision, test oracle, assurance use, or downstream action depends on its interpretation. `E.10` owns shared wording-use discovery. A.6.H begins only after the current wholeness-family claim has been selected by value.
 

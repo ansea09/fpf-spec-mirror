@@ -6,12 +6,12 @@ section_id: "E.4.DPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__010_consequences.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:9 — Consequences"
-line_start: 69912
-line_end: 69917
+line_start: 69890
+line_end: 69895
 dependencies:
   - "C.33"
   - "C.33-C.35"

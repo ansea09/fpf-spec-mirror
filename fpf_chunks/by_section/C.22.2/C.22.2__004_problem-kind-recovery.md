@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:3"
 section_title: "Problem-Kind Recovery"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__004_problem-kind-recovery.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:3 — Problem-Kind Recovery"
-line_start: 51723
-line_end: 51740
+line_start: 51688
+line_end: 51707
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,36 +54,25 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:3 - Problem-Kind Recovery
 
-For this decision, `problem` remains an ordinary word in non-FPF-governed prose. Recovery is required only when the wording changes a governed use, FPF kind, FPF relation kind, downstream selector reference, evidence claim, causal-use claim, bridge claim, assurance claim, decision claim, use-boundary claim, or another governed claim named by value. The preferred center is the framed problem representation: a problem-side representation of a selected EntityOfConcern under context, scope, viewpoint or role concern, constraints, and improvement or acceptance probe. When `problem` carries FPF work, selection, evidence, causal, bridge, assurance, decision, or use-boundary claim, the claim is recoverable through this table:
+`Problem` remains an ordinary word when no FPF-governed claim is being made. Recover it only when wording changes a governed kind, relation, selector use, evidence claim, causal-use claim, assurance claim, decision, or use boundary.
 
-| FPF-governed use | Current FPF recovery | `C.22.2` disposition |
+| FPF-governed use | Current recovery | C.22.2 disposition |
 |---|---|---|
-| Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or problem signal reference | May trigger a `ProblemCard@Context`, but is not yet a problem-side representation by itself. |
-| Problematic situation | Plain cue for an exact condition, entity, work, transformation, relation, or combination already governed by their direct patterns | The card states claims about the exact recovered objects; the phrase does not introduce `U.Situation`. An actual Problem requires an obtaining `ProblematicForRelation` under `C.22.PFR`. |
-| Framed problem representation | Problem-side representation of a selected EntityOfConcern under context and acceptance constraints | Center of `ProblemCard@Context`; representation-change claims apply `A.6.3.RT`, `A.6.4`, `E.17`, `F.9`, or `E.18` when current. |
-| Candidate problem in archive or retained candidate pool | Member of a retained candidate set, pool, archive, or front | Must preserve source set or reference, declared set relation when that FPF relation is being made and named by value, retention criterion, budget or window, and review cadence when the retention rule requires it. |
-| Selected problem from a set-return treatment | Selected set member or emitted problem-side record under a selection criterion | `ProblemCard@Context` may carry the selected problem, but selected-set semantics remain with `G.5`, `C.18`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q`. |
-| Problem ready for selector-facing use | Problem-side record sufficient to emit or bind `TaskSignature` or `TaskKind` | `C.22` uses the typed selector reference; `C.22.2` does not expand `TaskSignature` into a problem-card dump. |
-| Downstream task or performed-work cue | Method known enough for task typing, method-family selection, planning, or performed work | Use the selector, work-family, transformation-flow, evidence, provenance, assurance, gate, or decision pattern named by value for that claim. |
-| E.8 pattern `Problem frame` | Practitioner-recognition section inside a pattern | Not the C.22 problem-side representation. |
-| E.9 DRR `Problem frame` | Decision-rationale section in a design-rationale record | Not the C.22 problem-side representation. |
+| Symptom, anomaly, deviation, risk signal, or stakeholder signal | Problem signal or exact signal reference | May trigger a card but is not an actual Problem or complete problem-side claim by itself. |
+| Problematic situation | Plain cue for an exact condition, entity, Work, transformation, or relation under its direct pattern | The phrase introduces no `U.Situation`; an actual Problem still requires one obtaining C.22.PFR relation. |
+| Actual Problem | One obtaining `ProblematicForRelation` with exact condition and applicability participants | C.22.PFR governs actuality and identity; the card can assert or designate it only after that settlement. |
+| Forecast, scenario, counterfactual, or anticipated condition | Exact non-actual claim with assumptions, horizon, and direct governor | Preserve the claim family; do not turn affirmative wording into current PFR obtaining. |
+| Method availability or solvability | Claim over admitted methods, evidence, constraints, and one intended use | Selecting a method revises this claim but does not end an actual PFR. |
+| Framed problem-side representation | ClaimGraph about one joint EntityOfConcern under one effective ReferenceScheme and ClaimScope | Center of ProblemCard; representation change uses its direct transition, retargeting, Bridge, or wording-use governor. |
+| Candidate from archive or retained pool | Member of an exact source set under a retention relation | Preserve `sourceSetRef`, set kind, criterion, budget/window, and non-scalar next use; set semantics remain outside the card. |
+| Selected problem from a set-return treatment | Exact selected member under a direct selection relation | The card may carry the member, but selection, parity, archive, and set-return claims remain with G.5, C.18, C.19, G.9, G.11, A.6.P:7a, or C.16.Q as applicable. |
+| Problem ready for selector-facing use | Card sufficient to prepare or assign TaskSignature | C.22 constitutes and assigns TaskSignature; C.22.2 does not dump card content into it. |
+| Downstream task, method, plan, or performed-Work cue | Exact value or relation under C.22, G.5, A.15, or another direct pattern | Keep only the problem-side cue and stop before claiming the downstream result. |
+| E.8 or E.9 `Problem frame` | Authoring or decision-rationale section | Not a ProblemCard and not an actual Problem by heading alone. |
 
-Local interpretation rule: `ProblemCard@Context` is the problem-side record shape before downstream typing or work. It may name candidate `ProblemProfile`, candidate `TaskSignature`, `setContextRef`, problem-side cue, governing-pattern cue, or first-principles cue material only when those references change the problem-card use. It does not promote those references into local kinds or claims outside `C.22.2`.
+The card may reference candidate `ProblemProfile`, TaskSignature, source set, PFR, forecast, solvability claim, or first-principles cue only when that reference changes its use. No reference is promoted into a local kind or card constitution component.
 

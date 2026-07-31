@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__001_intro.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:intro — Intro"
-line_start: 60602
-line_end: 60617
+line_start: 60580
+line_end: 60595
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Authoring Aids (didactic cards)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__012_authoring-aids-didactic-cards.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:11 — Authoring Aids (didactic cards)"
-line_start: 48775
-line_end: 48784
+line_start: 48747
+line_end: 48756
 dependencies:
   - "A.1"
   - "A.10"

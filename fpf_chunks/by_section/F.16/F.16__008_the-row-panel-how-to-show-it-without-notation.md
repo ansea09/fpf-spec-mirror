@@ -6,12 +6,12 @@ section_id: "F.16:7"
 section_title: "The row panel (how to show it without notation)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__008_the-row-panel-how-to-show-it-without-notation.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:7 — The row panel (how to show it without notation)"
-line_start: 93589
-line_end: 93599
+line_start: 93567
+line_end: 93577
 dependencies:
   - "A.15"
   - "A.3"

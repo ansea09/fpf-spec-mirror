@@ -6,12 +6,12 @@ section_id: "B.3:6"
 section_title: "Archetypal grounding (worked examples)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__007_archetypal-grounding-worked-examples.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:6 — Archetypal grounding (worked examples)"
-line_start: 39006
-line_end: 39069
+line_start: 38976
+line_end: 39041
 dependencies:
   - "A.10"
   - "A.14"
@@ -109,14 +109,16 @@ keywords:
   * Penalty from poor join soundness `CL_min`.
   * Improvement via faster but **verified** inspection (increase `R_step`) or tighter join spec (increase `CL`).
 
-#### B.3:6.4 - Temporal archetype — **Versioned model credibility**
+#### B.3:6.4 - Temporal archetype — **Model credibility across exact episteme identities**
 
-* **Claim `C`:** *Model M predicts within ±δ over τ.*
-* **Context `K`:** Data regime and drift tolerance; `S = run`.
-* **Γ\_time records:** `PhaseOf` slices v1, v2, v3 covering `τ`.
+* **Claims `C_i`:** each exact model episteme `M_i` carries its own prediction claim and declared applicability window; a receiving assurance use may additionally ask whether the selected claims jointly support prediction within ±δ over τ.
+* **Context `K`:** data regime and drift tolerance; `S = run`.
+* **C.2.1 identity and continuity:** compare the exact claim content, EntityOfConcern, and effective ReferenceScheme for the items labelled v1, v2, and v3. A changed discriminator identifies another episteme. Assert `EpistemeEditionRelation(M_v1,M_v2)` or `EpistemeEditionRelation(M_v2,M_v3)` only when each ordered pair satisfies C.2.1's independent historical-continuation predicate; labels, revision Work, provenance, publication order, and common lineage establish neither occurrence.
+* **Temporal aggregation:** a B.1.4/Γ\_time record may order those already recovered edition relations, applicability windows, or publication windows for the bounded assurance use. It does not turn the distinct epistemes into `PhaseOf` slices. If one exact episteme instead remains unchanged and the use needs proper interval restrictions, A.14 `PhaseOf(M@τ_i,M)` remains available and B.3 `TIME-COV` applies to that same phased entity.
 * **Assurance:**
 
-  * `R_raw = min(R_v1, R_v2, R_v3)`;
-  * penalty if v2–v3 interface had low calibration congruence;
-  * improvement via re‑calibration (↑CL) or new validation campaign (↑R\_v3).
+  * compute `R_raw = min(R_C1, R_C2, R_C3)` only when the named assurance use actually consumes all three exact edition-specific claims and their evidence relations;
+  * apply the declared penalty when the mapping or calibration congruence between the edition-specific prediction/evidence bases is low;
+  * re-calibration or a new validation campaign may improve the exact supported claim, mapping, or evidence relation, but creates neither episteme identity, edition continuity, currentness, nor publication availability; and
+  * a non-continuing replacement receives an independent assurance assessment and inherits no `F`, `G`, `R`, `CL`, evidence, or reliance result by label.
 

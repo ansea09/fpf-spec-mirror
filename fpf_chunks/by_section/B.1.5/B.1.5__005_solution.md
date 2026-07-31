@@ -6,12 +6,12 @@ section_id: "B.1.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__005_solution.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:4 — Solution"
-line_start: 36612
-line_end: 36801
+line_start: 36581
+line_end: 36770
 dependencies:
   - "A.1"
   - "A.15"
@@ -157,7 +157,7 @@ Use A.14, C.13, and B.3.5 when the claim is about structural parts of a holon. U
 
 Use B.1.4 when a receiving use needs an inspectable order aggregation, partial-order test, or join/independence account. Its `OrderSpec` and optional notation describe already recovered order occurrences; B.1.5 still decides whether those methods and relations construct one composite `U.Method`.
 
-When the current claim is temporal phasing of the same carrier or method-description edition history, use the pattern that governs the phase or temporal claim rather than B.1.5. A phase boundary becomes a B.2-family question only when the boundary also introduces whole reidentification, closure, or supervision. Order, phase, structural parthood, method composition, and whole reidentification remain different claims even when one source diagram uses one line for all of them.
+When the current claim is a proper temporal restriction of one unchanged non-Work carrier, apply that subject's direct identity rule and A.14/B.1.4 rather than B.1.5. For MethodDescription history, compare the C.2.1 identity triples and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. For Work intervals, episodes, performed parts, retries, resumptions, or later occurrences, apply A.15.1's exact relations; generic `PhaseOf` is not their substitute. A temporal boundary becomes a B.2-family question only when a separate whole-reidentification, closure, or supervision claim remains. Order, temporal restriction, episteme edition, Work segmentation, structural parthood, method composition, and whole reidentification remain different claims even when one source diagram uses one line for all of them.
 
 #### B.1.5:4.4 - Expose The Composite Method Interface
 
@@ -208,7 +208,7 @@ One dated occurrence `W : U.Work` enacts the exact method `M : U.Method` only wh
 
 Parameter bindings, affected referents, resource use, telemetry, retries, results, actual transformations, production, evidence, evaluation, delivery, and acceptance remain separate objects and direct relations under their own governors. They do not become method parts, method identity fields, or generic Work outcomes merely because a report places them beside the Work.
 
-The composition link is not one-to-one. A Work occurrence may enact the whole method without exposing every submethod as a separate work part. A temporal work slice may enact the same whole method during a selected interval. An episode may span several method factors, repeat one factor, or be split by evidence policy without changing the method identity. Conversely, a work part does not establish a submethod. A work part enacts a submethod only when that submethod is already an independently identified `U.Method` and a separate `enactsMethod(workPart, submethod)` occurrence obtains.
+The composition link is not one-to-one. A Work occurrence may enact the whole method without exposing every submethod as a separate work part. An exact A.15.1 `TemporalPartOf_work` may enact the same whole method during its selected interval. An A.15.1 episode may span several method factors, repeat one factor, or be split by evidence policy without changing the method identity. Conversely, a work part does not establish a submethod. A work part enacts a submethod only when that submethod is already an independently identified `U.Method` and a separate `enactsMethod(workPart, submethod)` occurrence obtains.
 
 **Reader check.** Before saying that a work part enacts a submethod, name both sides:
 

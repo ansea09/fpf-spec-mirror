@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22.2"
-pattern_title: "ProblemCard@Context"
+pattern_title: "ProblemCard"
 section_id: "C.22.2:18"
 section_title: "Misuse Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__019_misuse-modes-and-repairs.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22.2 — ProblemCard@Context"
+  - "C.22.2 — ProblemCard"
   - "C.22.2:18 — Misuse Modes and Repairs"
-line_start: 52011
-line_end: 52020
+line_start: 51978
+line_end: 51987
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,26 +54,13 @@ dependencies:
   - "G.6"
   - "G.9"
 keywords:
-  - "P2W-ready"
-  - "Thin problem card"
-  - "actual PFR versus non-actual or solvability claim"
-  - "assertion polarity"
-  - "current reliance"
-  - "first-principles cue"
-  - "freshness and unknown disposition"
-  - "problem card episteme"
-  - "problem signal"
-  - "problem-side record"
-  - "safe-probe-needed"
-  - "setContextRef"
-  - "validation boundary"
 ---
 
 ### C.22.2:18 - Misuse Modes and Repairs
 
 | Misuse mode | Symptom | Repair |
 |---|---|---|
-| Card-as-executable-work request | A solution-shaped task or implementation request is treated as a problem-side record. | Recover signal, context, scope, improvement check or acceptance probe, and next use before any work pattern is applied. |
+| Card-as-executable-work request | A solution-shaped task or implementation request is treated as a problem-side record. | Recover signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check or acceptance probe, and next use before applying a Work pattern. |
 | Content creep | The card starts carrying claims outside the problem-side record. | Keep only the cue or reference needed by the problem-side record and apply the pattern that governs the claim being made. |
 | Hidden scalarization | Goldilocks, readiness, priority, OEE, QD, or indicator wording becomes one local score. | Preserve source-set kind, selection or retention criterion, characteristic or Q-bundle relation, and non-scalar next use. |
 | Silent retargeting | A changed EntityOfConcern, representation scheme, diagram, functional description, or transformation-flow path interpretation inherits old readiness by wording continuity. | Name the representation-transition, retargeting, bridge, structural-reinterpretation, or wording-use relation before reuse. |

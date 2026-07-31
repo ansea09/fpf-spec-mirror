@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.22"
-pattern_title: "Problem Typing & TaskSignature Assignment (Problem-CHR)"
+pattern_title: "Task Typing and TaskSignature Assignment (Problem-CHR)"
 section_id: "C.22:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
-  - "C.22 — Problem Typing & TaskSignature Assignment (Problem-CHR)"
+  - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50974
-line_end: 50986
+line_start: 50949
+line_end: 50961
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -37,8 +37,8 @@ keywords:
 | A live unknown is encoded as `false`, `0`, or an empty value. | Restore `unknown`, name the direct basis relation and receiving-use policy, and let the downstream pattern produce the result governed by that policy. |
 | Ordinal values or values with unlike units are averaged into one score. | Recover scale, unit, polarity, reference plane, and admitted order for every head; use only a directly governed admissible comparison or leave the candidate set partially ordered. |
 | One TaskSignature mixes design-time traits, later run observations, and incompatible DesignRunTag positions. | Split the claims by their actual work and relation positions; retain only the traits current in this signature edition and use E.18 crossing relations when the receiving use relies on the crossing. |
-| A new file, card, or database row is treated as a new TaskSignature. | Resolve SignatureId and edition and compare the four-row semantic content. Reuse the same identity when only the publication or serialization changed; issue a new edition only for a semantic row change. |
-| A broad domain label is used as if it supplied scope, measurement, evidence, or selection rules. | Recover the exact bounded context, A.2.6 scope relation, `U.Discipline`, characteristic rules, and direct selector or policy relations that the use actually needs. |
+| A new file, card, or database row is treated as a new TaskSignature. | Compare the declaration content, exact task or work target, and effective reference scheme. Reuse the same identity when only publication, carrier, serialization, or designator changed; issue a new edition when an identity component changed. |
+| A broad domain, organization, or location label is used as if it supplied scope, measurement, evidence, or selection rules. | Recover the exact EntityOfConcern, effective ReferenceScheme, A.2.6 ClaimScope relation, `U.Discipline` when current, characteristic rules, and direct selector or policy relations that the use actually needs. |
 | Data shift is assumed away because the old profile used `iid`. | State the current `ShiftClass` or `unknown`, cite its evidence and currentness relation, and let the acceptance or selector pattern decide the changed use. |
 | A vendor, tool, or fashionable method label is treated as a normative selector input. | Keep it only as a Plain example or recover the exact method-description, capability, evidence, and selector relations on which comparison relies. |
 

@@ -6,12 +6,12 @@ section_id: "B.1.6:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__009_archetypal-grounding.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6 — Archetypal Grounding"
-line_start: 37090
-line_end: 37097
+line_start: 37060
+line_end: 37067
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 ### B.1.6:6 - Archetypal Grounding
 
-**Engine test programme.** C.16 measurement work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run and phase relations define the included work set; shared warm-up energy is recorded as overlap. Dated aggregation work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation work and result.
+**Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run occurrences and A.15.1 `TemporalPartOf_work`, episode, operational-part, or overlap relations define the included Work set; a test-cell or engine phase enters only through its separately governed carrier identity and proper relation. Shared warm-up energy is recorded as overlap. Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation Work and result.
 
 **Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts; it does not create the work, parts, overlap, measurements, aggregation, or frame transformation.
 

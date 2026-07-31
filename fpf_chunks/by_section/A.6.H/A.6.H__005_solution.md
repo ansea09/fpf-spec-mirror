@@ -6,12 +6,12 @@ section_id: "A.6.H:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__005_solution.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:4 — Solution"
-line_start: 21021
-line_end: 21225
+line_start: 21036
+line_end: 21149
 dependencies:
   - "A.14"
   - "A.15"
@@ -20,7 +20,6 @@ dependencies:
   - "A.7"
   - "B.1.1"
   - "B.1.4"
-  - "F.18"
 keywords:
   - "boundary"
   - "completeness"
@@ -36,206 +35,115 @@ keywords:
 
 ### A.6.H:4 - Solution
 
-This pattern applies the A.6.P repair recipe to the **wholeness polysemy cluster** by introducing a stable lens, a trigger list, a facet vocabulary, and an always-unpack rewrite discipline.
+#### A.6.H:4.1 - Entry and result contract
 
-#### A.6.H:4.0 - A.6.P crosswalk (what this pattern adds)
+Enter with:
 
-This is a wholeness-specific binding of the generic A.6.P repair sequence:
+- one exact sentence or decision that depends on wholeness-family wording;
+- the concrete candidate objects recovered under A.6.P:4.11;
+- the receiving use that would change if the wording were read differently; and
+- any already known direct owner.
 
-1. **Detect.** WHOL triggers mark a sentence as semantically overloaded.
-2. **Expand.** Enumerate candidate meanings along the facets (boundary, parthood, fold/Γ, order/time, completeness).
-3. **Discriminate.** Apply the table tests (level-of-reference, transitivity, swap-test, carrier-identity test, coverage test) to eliminate candidates.
-4. **Rewrite.** Replace the trigger token with facet headphrases + typed relations.
-5. **Lock-in.** Record the choice (optionally via a wholenessSituation record) so the document stops re-litigating the same ambiguity.
+Return one of:
 
-#### A.6.H:4.1 - Lens: Boundary–Parthood–Fold–Order/Time–Completeness
+1. one or more readable direct claims, each naming the predicate or claim family, ordered participants, material qualification, and governing pattern;
+2. an explicit owner-return when a measurement, evidence, episteme, publication, method, plan, Work, production, or completion owner already governs the question; or
+3. an A.6.RCD `missing-governor[...]` result after the exact participants and needed sentence are known but no current direct predicate closes the use.
 
-When any of the trigger words below appear on a **load-bearing surface**, interpret the sentence through this ordered checklist and rewrite until the claim is decidable *for the current purpose* (i.e., the remaining ambiguity would not change the model edge(s), Γ choice, or review decision). Multiple facets may legitimately apply; “stop” only when the residual facets are irrelevant to the claim being made.
+When evidence cannot yet select among several readings, keep the candidate objects, discriminating questions, and blocked receiving use explicit in ordinary prose. Do not turn that temporary uncertainty into a `wholenessSituation`, card, bundle, lifecycle record, or new U-kind.
 
-```text
-Definition WHOL-LBS-1 (load-bearing surface).
-A sentence is on a load-bearing surface if it functions as a requirement ("SHALL"/"MUST"),
-an invariant, an interface/boundary claim, a model edge/label, a decision record, a test oracle,
-or any statement that downstream reasoning or audits depend on.
-```
+#### A.6.H:4.2 - Apply the exact-object sequence
 
-0. **Term-of-art override.** Is the trigger part of a defined term-of-art (glossary entry, standard term, contract term)? If yes, cite that definition and do not force WHOL facet unpacking unless the definition itself contains unresolved WHOL triggers.
-   *Clarification:* this override applies to the *term itself*. Still unpack any separate wholeness claim the sentence makes *about* the term (e.g., boundary, composition, or coverage).
-0.5 **Reference level.** Is the sentence about (i) a holon-level referent, (ii) a description episteme such as a specification or model, (iii) a publication unit or carrier that presents that episteme, or (iv) an executed work occurrence or evidence carrier? State the level explicitly when it affects relation choice (e.g., ConstituentOf for publication-unit structure, StepOf for procedure membership, and SerialStepOf for procedure order).
-1. **Boundary.** If the claim is holon-level: what is the *inside* and what is the *environment* (boundary-based individuation)? Name at least one cross-boundary interaction, interface, dependency, or external constraint relevant to the claim. If there are multiple plausible boundaries (levels/resolutions), list candidates and state which boundary this claim is about.
-2. **Parthood kind.** If “part-of” is intended, which kind is meant: **ComponentOf, ConstituentOf, PortionOf**, or **MemberOf** (collection membership)? If the claim is about a description episteme or its publication-unit structure, use **ConstituentOf** only for content or publication-unit inclusion and keep the described referent explicit (model-of vs modeled).
-3. **Fold.** If the sentence asserts a whole-level property that depends on how parts are “glued” (not merely listed), what composition operator (Γ flavour) is implied: structure, episteme, context, time/history, method, or work/cost?
-4. **Order/time routing.** Is the claim about a procedure graph (**StepOf** + order/concurrency constraints such as **SerialStepOf / ParallelFactorOf**), or about **temporal continuity/coverage** (**PhaseOf** aggregated via Γ_time), rather than structural containment? If the claim is about *observed* concurrency in a specific run, route it to work/evidence (A.15) rather than treating it as ParallelFactorOf.
-5. **Completeness.** Is “whole/complete/end-to-end” actually about **completeness in a scope**: capability coverage, specification coverage, and/or evidence coverage (A.15 layer), rather than “has all parts”?
+Use the following sequence only as far as the current sentence requires:
 
-A “wholeness” statement is considered precise only after the sentence has been rewritten to answer the subset of these questions that actually matters.
+1. **Recover the working question.** State what a reader must decide, do, accept, measure, rely on, start, continue, or stop. The cue word selects no branch.
+2. **Name the subject and reference level.** Distinguish the referent entity, claim-bearing episteme, publication occurrence, publication form, presentation carrier, Method, MethodDescription, WorkPlan, performed Work, and evidence carrier. Keep only the subjects current in this case.
+3. **Recover a candidate whole only for an actual whole claim.** Identify the candidate individual, its direct identity owner, relevant boundary or delimitation, environment, and at least one interaction, dependency, or constraint across that boundary when the use needs it.
+4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object under its own owner.
+5. **State every direct relation occurrence separately.** Name exact participants and test the direct predicate. A relation obtains neither because the whole was recognized nor because a trace, view, or record lists it.
+6. **Add construction or selected structure only when the receiving use consumes it.** `C.13` may report already recovered parts, relations, constraints, and a construction rule. `A.22` may identify one selected structure when its selection basis and identity discriminators are current. Neither creates the direct facts.
+7. **Recognize or reidentify the whole only when that question is current.** Use `A.1` for holon recognition and `B.2` for a remaining whole-reidentification question after direct existing-whole explanations have been tested. A changed adjective or part list alone decides neither.
+8. **Separate coverage, completion, and performed Work.** Name what is covered, under which scope and criterion, by which exact relation, and whether the claim concerns a MethodDescription, capability, plan, Work occurrence, production result, evidence set, or another subject. Use A.15.1/A.15.PROD or the exact direct owner; do not treat a plan as performed Work.
+9. **Stop at the direct owner.** A.6.H owns the unpacking move, not the recovered whole, relation, characteristic, Work, evidence, or verdict.
 
-#### A.6.H:4.2 - Trigger words and phrases
+#### A.6.H:4.3 - Classify `integrity` by the claim it carries
 
-Treat the following as **WHOL triggers** on normative surfaces and in Working-Model claims.
+The word `integrity` never chooses mereology by itself.
 
-**Hard triggers (always unpack on load-bearing surfaces):**
+| Current sentence | First exact objects | Governing exit | Blocked overread |
+| --- | --- | --- | --- |
+| “Structural integrity is measured at X.” | bearer, integrity Characteristic, Scale or coordinate, Unit when needed, measurement method, result, evidence pointer, and time stance | `C.16.P`, then `C.16` and the exact measurement owner | Do not invent a candidate whole, boundary, parts, or `PhaseOf` merely because the Characteristic is named *integrity*. |
+| “This report supports the integrity claim.” | exact claim, evidence-bearing episteme or carrier, evidence-use relation, relying use, limitations, and currentness when required | `A.10`; `B.3` only when an assurance claim is current | A report title, provenance link, or measured value is neither assurance nor a whole. |
+| “The assembled pump remains an integral whole.” | exact pump, direct identity rule, boundary, independently identified parts, direct assembly or parthood relations, any current selected structure, and the whole-recognition or reidentification question | `A.14`, `C.13`, `A.22`, `A.1`, or `B.2` as selected by the actual claim | The adjective *integral*, a BoM, or an assembly record does not establish the whole or relations. |
+| “Data integrity” or another defined term of art | exact bearer, defined Characteristic or constraint, threat/assumption or qualification basis, and receiving use | the characteristic, constraint, security, measurement, or evaluation owner | Do not reinterpret the term as structural wholeness unless the sentence separately makes that claim. |
 
-* **Whole / entire / as a whole / integrated / unified / coherent**
-* **Part / piece / component / module / element / subsystem**
-* **Includes / consists of / composed of / contains / comprises**
-* **Complete / end-to-end / turnkey / fully specified / self-contained**
-* **Integrity** (always classify first; see CC-A6H-10)
+If the source leaves these readings genuinely open, preserve the alternatives and block the named use until evidence discriminates them.
 
-**Conditional triggers (unpack when coupled to a wholeness frame such as “as a whole”, “part of”, “composed of”, “end-to-end”, “integrated”, or “complete”):**
+#### A.6.H:4.4 - Select the direct relation, not a generic part edge
 
-* **Pipeline, workflow, process, step, or stage**
-* **Phase, version, revision, or lifecycle**
-* **Collection, group, team, or set of**
+| Intended claim | Required test and owner | Typical non-inference |
+| --- | --- | --- |
+| Physical or structural component | Identify both entities, the direct `ComponentOf` predicate, boundary relevance, and obtaining facts under `A.14`/the structural owner. | Diagram containment or removal from a list does not establish component parthood. |
+| Conceptual or content constituent | Identify the exact episteme or publication-unit whole and the exact constituent under `A.14`. Keep the described referent separate. | A section in a file is not therefore a component of the described system. |
+| Measured portion | Name the whole, portion, extensive measure μ, compatible unit, additivity/non-overlap rule, and boundary under `A.14`. | A percentage, share, or smaller numeral does not make a structural component. |
+| Collection membership | Name the collection, its identity rule, member, and direct `MemberOf` occurrence. | Membership is not transitive parthood and does not make an acting collective system. |
+| Proper temporal restriction of an enduring individual | Apply the subject's direct identity rule, then use `PhaseOf(x,y)` only when `x` is the same exact `y` restricted to a proper interval and coverage/overlap conditions hold. | A timestamp, state label, or changed property alone does not create a phase object. |
+| Distinct episteme history | Compare C.2.1 claim content, EntityOfConcern, and effective ReferenceScheme. When a discriminator changes, identify another episteme; assert `EpistemeEditionRelation` only when its independent historical-continuation predicate obtains. | `v2`, filename, shared title, provenance, publication order, revision Work, or source use establishes neither identity nor continuity. |
+| Performed Work interval, episode, part, retry, resumption, or later occurrence | Use A.15.1 `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, another admitted Work-part relation, or a separately identified Work occurrence according to its exact predicate. | A shift, phase, step, log row, or MethodDescription section never routes Work through generic `PhaseOf`. |
+| Method factor, order, branch, or join | Identify exact Methods and method-composition claims under `A.3.1`/`B.1.5`; use B.1.4 only for a bounded aggregation of already recovered order relations. | A box, sequence position, description constituent, plan item, or Work part is not a Method part by appearance. |
 
-**Soft triggers (unpack only when used as a wholeness predicate, not as a term-of-art):**
+#### A.6.H:4.5 - Unpack `complete`, `turnkey`, and `end-to-end`
 
-* **Holistic / holonic**
-* **Context / environment** (when asserted “as a whole” or treated as a bounded entity)
+Ask what the next reader may do because the claim is supposedly complete.
 
-**Term-of-art override.** If a trigger occurs inside a defined term-of-art (e.g., “data integrity”, “integrity constraint”, “referential integrity”), cite the glossary definition and do not force WHOL unpacking unless that definition itself contains unresolved WHOL triggers.
+| Candidate reading | What must be named | Direct return |
+| --- | --- | --- |
+| Complete whole or assembly | candidate whole, identity, boundary, required parts, direct relations, construction rule when current, and completion predicate | `A.1`, `A.14`, `C.13`, `A.22`, or the exact construction/completion owner |
+| Specification coverage | exact claim-bearing episteme, described EntityOfConcern, effective ReferenceScheme, required content or criterion set, coverage predicate, scope, and gaps | `C.2.1`, `A.3.2`, and the exact coverage/evaluation owner |
+| Capability coverage | exact holder, capabilities, required actions or conditions, scope, and direct coverage criterion | `A.2.2` and the exact capability/coverage owner |
+| Work coverage or completion | exact Work occurrence(s), temporal extent, performed parts or episodes when needed, completion or production predicate, acceptance boundary, and evidence | `A.15.1`, `A.15.PROD`, or the exact completion/acceptance owner |
+| Evidence coverage | exact claim set, evidence-bearing objects, evidence-use relations, scope, limitations, and relying use | `A.10`; `B.3` only for an assurance claim |
+| End-to-end method or workflow | exact Methods, method parts and joins, exposed interactions, failure and stop conditions; performed runs remain separate | `A.3.1` and `B.1.5`, with A.15.1 for actual Work |
 
-In running prose you can still say “whole” informally, but on load-bearing surfaces these words are treated as a lintable signal: “this sentence needs a facet rewrite.”
+A sentence may require several rows. Write several direct claims; do not bundle them back into one “wholeness” record.
 
-#### A.6.H:4.3 - Canonical facet headphrases
+#### A.6.H:4.6 - Use wording as a cue, not as ontology
 
-Use these headphrases to replace the ambiguous word with the intended semantics:
+The following recurring expressions are useful review cues, not a second trigger registry:
 
-**A) Boundary & environment**
+- *whole*, *entire*, *integrated*, *coherent*, *holistic* — ask whether there is an actual candidate whole, a measured or assurance claim, or only rhetoric;
+- *part*, *piece*, *component*, *module*, *element*, *subsystem*, *includes*, *contains*, *comprises* — recover the object and direct relation rather than accepting the noun;
+- *phase*, *version*, *revision*, *edition*, *lifecycle* — apply the direct identity owner before any history label;
+- *complete*, *turnkey*, *end-to-end*, *fully specified* — recover the exact coverage or completion claim;
+- *pipeline*, *workflow*, *process*, *step*, *stage* — distinguish Method, MethodDescription, WorkPlan, performed Work, order relation, and publication representation;
+- *collection*, *group*, *team*, *set* — distinguish membership, acting system, role assignments, and selected collection structure;
+- *context*, *environment*, *discipline as a whole* — name the actual bounded context, episteme family, community, organization, or other subject before making a boundary or nesting claim.
 
-* “the holon boundary of X is …”
-* “the environment of X includes …”
-* “interaction across X’s boundary is …” (not parthood)
+When a cue occurs inside a defined term of art, retain the definition and direct owner. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
 
-**B) Parthood kinds**
+#### A.6.H:4.7 - Describe change through the object that changed
 
-* “A is ComponentOf B” for physical assembly
-* “A is ConstituentOf B” for conceptual/content inclusion
-* “A is PortionOf B with μ=…” for a quantitative fraction
-* “A is MemberOf C” for membership in a collective (not a part–whole chain)
+When a wholeness-looking story changes, name the exact object and direct relation:
 
-**C) Order/time**
+- a different boundary or interaction claim returns to the boundary/delimitation owner;
+- an added, removed, or differently related part returns to the direct parthood, membership, portion, or structure owner;
+- changed episteme content, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1, with edition continuity tested separately;
+- a different publication form, occurrence, or carrier stays with publication and carrier owners;
+- a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim stays with its own owner;
+- a changed coverage scope, criterion, evidence set, or assurance use repairs that direct claim rather than a generic completeness status.
 
-* “A is PhaseOf carrier B over window τ” for a lifecycle slice of the same carrier (temporal continuity/coverage; not inside/outside containment)
-* “Step s is StepOf procedure P” for step membership in a procedure graph (not a part–whole claim)
-* “Step i is SerialStepOf Step j” for precedence constraints in order-sensitive procedures (directed; read as “i precedes j”, not as containment; use an adjacency variant if you need “immediately before”)
-* “Step u is ParallelFactorOf Step v” for parallelizability/concurrency potential (often symmetric; state synchronization/independence/resource constraints)
-* “In run r, Step u ExecutedConcurrentlyWith Step v” for observed concurrency in a specific work/evidence instance (A.15); do not infer this from ParallelFactorOf alone
-
-**Semantics cues (review-time, minimal invariants).**
-
-* **ComponentOf**: typically transitive within a bill-of-materials; removing A changes the assembled carrier; do not use for sequences or memberships.
-* **ConstituentOf**: transitive within one episteme content structure or one publication-unit structure; supports “section/chapter/lemma is part of paper/proof” without implying physical assembly.
-* **PortionOf**: requires an explicit extensive measure μ and an additivity story (non-overlap + sum); avoid if you cannot state μ.
-* **MemberOf**: not transitive; does not imply the collective is an assembly; membership can change without “recomposition”.
-* **PhaseOf**: same carrier across time; requires an explicit window τ and a coverage/overlap story; aggregate with Γ_time when composing the history narrative.
-* **StepOf**: membership of a step node in a procedure graph; does not imply physical assembly or conceptual containment. Pair with precedence/concurrency constraints rather than “part-of”.
-* **SerialStepOf**: directed precedence constraint on step nodes (read as “i precedes j”). For a single execution trace/iteration, the precedence constraint set should be acyclic (strict partial order). If the procedure includes iteration/loops, model the loop explicitly (e.g., as a loop/control-flow construct or by time-indexing step instances) rather than introducing cycles into SerialStepOf. If you mean “adjacent in sequence”, use an explicit adjacency form.
-* **ParallelFactorOf**: parallelizability constraint between step nodes under stated assumptions (resources, independence, synchronization). Treat it as *potential* parallelism (a property of the procedure design), not as evidence that two steps were executed concurrently. If you need to record observed concurrency, use a run-anchored work/evidence relation (e.g., ExecutedConcurrentlyWith in run r). ParallelFactorOf is typically symmetric and not transitive; say so if you rely on those properties.
-
-**D) Fold / aggregation**
-
-* “Γ_sys, Γ_epist, Γ_ctx, Γ_time, Γ_method, and Γ_work” as the explicit “gluing rule” (the operator that produces the composite)
-
-**E) Completeness**
-
-* “capability coverage is …”
-* “specification coverage is …”
-* “evidence coverage is …”
-  with explicit scope (G) if relevant.
-
-#### A.6.H:4.4 - Optional bundling record: wholenessSituation
-
-This is a didactic bundling device for prose and review; it adds no new kernel semantics (the semantics remain in boundary + relation kinds + Γ choices).
-
-```text
-Definition WHOL-REC-1 (wholenessSituation record).
-wholenessSituation ::= ⟨
-  wholeRef,
-  referenceLevel ∈ {referent, description, work},
-  boundaryRefs (0..*),
-  environmentRefs (0..*),
-  carrierRef (0..1),       // required if PhaseOf is asserted
-  parthoodKinds ⊆ {ComponentOf, ConstituentOf, PortionOf, MemberOf},
-  measureRef (0..1),       // μ if PortionOf is asserted
-  foldRef (0..1),          // Γ_* if a fold is asserted
-  orderTimeKinds ⊆ {StepOf, SerialStepOf, ParallelFactorOf, PhaseOf},
-  orderTimeRef (0..1),     // the step graph / timeline segment being referenced
-  completenessKinds ⊆ {capability, spec, evidence},
-  scopeRef (0..1)          // ClaimScope (G) if relevant
-⟩
-
-Note: if the trigger token is “integrity” and the intent is security/data integrity (CIA integrity, constraint satisfaction), do not treat it as a WHOL situation; route it as an integrity-as-quality statement instead of forcing boundary/parthood semantics.
-```
-
-Use it when a document keeps repeating “the whole X”; a single record makes the intended wholeness facets stable across pages.
-
-#### A.6.H:4.5 - Always-unpack rule for normative surfaces
-
-**D-WHOL-UNPACK.** In any normative or Working-Model sentence, if a WHOL trigger appears, the author SHALL rewrite the sentence using facet headphrases and typed relations, or attach a Candidate-Set Note while the choice remains open.
-
-This keeps “whole/part” as natural-language scaffolding while preventing it from becoming a typed relation definition.
-
-```text
-Definition WHOL-CSN-1 (Candidate-Set Note).
-CandidateSetNote ::= ⟨
-  triggerToken,
-  excerptRef,
-  candidates,              // explicit candidate meanings (facet combinations)
-  discriminatorsPending,   // questions/tests to run before committing
-  noSmugglingConstraints   // what must NOT be asserted while open (e.g., “do not encode as generic PartOf”)
-⟩
-```
-
-A Candidate-Set Note is conformant only if it explicitly blocks semantic smuggling (e.g., forbids encoding an unresolved “part-of” as a generic inclusion edge).
-
-#### A.6.H:4.6 - Disambiguation guide
-
-Use the following format when reviewing or rewriting: trigger → candidates → discriminating questions/tests → canonical rewrite → L/A/D/E hooks.
-
-**Minimal discriminator kit (lintable tests).**
-
-* **Level-of-reference test:** Is the sentence about the referent holon, a description episteme, a publication unit or carrier, a work occurrence, or an evidence carrier? If the level changes the edge type, make it explicit before choosing relations.
-* **Boundary test:** Can you point to an inside/outside cut and name at least one cross-boundary interaction, interface, dependency, or external constraint that matters for this claim? If not, either “whole” is rhetorical, or the boundary is intentionally out of scope (say so), or you are not making a holon-level claim (see level-of-reference).
-* **Transitivity test (parthood):** Would “A part-of B” and “B part-of C” normally license “A part-of C” under the intended meaning? If yes, you likely mean a typed parthood (ComponentOf/ConstituentOf). If no, suspect MemberOf, PortionOf, or an order/time relation.
-* **Swap test (order):** If you swap A and B, does the meaning change? If yes, encode precedence/concurrency, not containment.
-* **Carrier-identity test (history):** Is it the *same carrier* across time with windows/coverage constraints? If yes, PhaseOf + Γ_time. If not, model a transformation that yields a new holon identity.
-* **Coverage test (completeness):** “Complete” with respect to what scope (G), and is it capability/spec/evidence coverage (A.15) rather than “has all parts”?
-
-| Trigger in prose                                           | Candidate meanings                                                               | Discriminating questions/tests                                                                                                      | Canonical rewrite                                                                                                                         | Routing hooks                                                           |
-| ---------------------------------------------------------- | -------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------- |
-| “X is a whole / integrated / coherent”                     | (a) boundary individuation, (b) a Γ fold exists, (c) completeness claim          | What is the boundary? What is outside? What is the “glue” (Γ) if parts exist? Is this about capability coverage instead?            | “The holon boundary of X is …; X interacts with … across boundary; X is produced by Γ_* over …” OR “capability coverage for X is …”       | A.1 boundary; B.1 Γ; A.15 completeness                                  |
-| “X has integrity / data integrity / integrity constraint”  | (a) wholeness/coherence claim, (b) security/data integrity quality, (c) term-of-art | Is integrity about CIA/security, tamper-resistance, or constraint satisfaction? If yes, it is a quality claim, not wholeness. If not, what boundary/fold is implied? | “Integrity-of(X) w.r.t. constraints/threat model is …” OR (if wholeness) apply boundary + Γ + typed relations as above                     | Quality-attribute routing; A.1 boundary if applicable                   |
-| “A is part of B / B contains A”                            | ComponentOf vs ConstituentOf vs PortionOf vs PhaseOf vs MemberOf                 | Is A a physical assembly element, a content section, a quantity slice, a time slice, or a team member? Would transitivity be valid? | Replace “part of” with the chosen typed relation and, if needed, declare μ or τ                                                           | A.14 / B.1.1 selection guide                                            |
-| “Step A is part of the process/pipeline”                   | (a) StepOf plus SerialStepOf or ParallelFactorOf for the procedure graph, (b) PhaseOf for a temporal slice, (c) ConstituentOf for a publication-unit or episteme-content structure, (d) mereology incorrectly used | Level-of-reference: procedure vs description episteme vs publication unit vs run? If swapping steps changes meaning, it is order. If it is a temporal slice of the same carrier, it is PhaseOf. If it is “step text is in the document”, it is ConstituentOf on the publication unit. | “Step A StepOf procedure P; constraints: Step A SerialStepOf Step B, or Step A ParallelFactorOf Step B …” aggregated via Γ_method or Γ_ctx. Or, at publication-unit level, “StepDescription(A) ConstituentOf MethodDoc D”. Do not express procedure order as ComponentOf. | B.1.4 anti-pattern fix; A.15 (description, publication, work)                      |
-| “v2 is part of v1” or “the new version is inside the old one” | (a) PhaseOf timeline, (b) new holon, episteme, or publication identity, (c) conceptual inclusion           | Is it the same carrier across time with coverage and no-overlap? Or did identity change and produce a new thing?                         | “v2 PhaseOf carrier over τ2” aggregated via Γ_time, or model a Transformer producing the new holon, episteme, or publication                                          | A.14 PhaseOf + Γ_time; B.2 if identity changes                          |
-| “The team/system is composed of people”                    | (a) MemberOf collective, (b) ComponentOf physical assembly, (c) role assignments | Do the people form a collective that can act? If so, treat membership separately from structure; roles are not parts.               | “Person p MemberOf Team T” and, if T acts, model it as a bounded system with its own `U.Method` and `U.Work` occurrences                                          | MemberOf note + A.15 role-as-part warning                               |
-| “The method is complete / turnkey / end-to-end”            | capability coverage vs spec coverage vs evidence coverage                        | Complete with respect to which scope (G)? Is the claim about a description, an ability, or an executed run?                         | “MethodDescription coverage is …” or “System capability covers required steps …” or “Work evidence covers …”                              | A.15 role–method–work alignment; L-PROC/L-FUNC/L-SCHED family if needed |
-| “The discipline/context as a whole”                        | (a) method family, (b) community/institution, (c) bounded context of norms       | Are we talking about knowledge epistemes or publications, acting organizations, or contextual rules that constrain roles/methods?                   | Rewrite as “episteme family …” OR “collective system …” OR “bounded context …” and then apply boundary/parthood/order rules appropriately | A.7 strict distinction; boundary + membership + A.15                    |
-
-**Candidate-Set Note.** If you cannot yet decide which candidate meaning is intended, record a Candidate-Set Note and proceed without silently collapsing meanings.
-
-#### A.6.H:4.7 - Change lexicon for wholeness narratives
-
-When “the whole” evolves, narrate the change as an explicit change-class, not as “it’s still the same whole” rhetoric:
-
-* **reboundary**: boundary/interface changed (inside/outside changed)
-* **recompose**: a parthood edge was added/removed or its kind changed (ComponentOf ↔ ConstituentOf, etc.)
-* **repartition**: PortionOf distribution changed (with explicit μ)
-* **rephase**: PhaseOf windows changed (coverage/overlap story)
-* **reorder / reparallelize**: SerialStepOf / ParallelFactorOf graph changed
-* **redescribe**: the claim’s reference level shifted (system ↔ description ↔ work/evidence) while retaining the same noun phrase (“the whole X”)
-* **recomplete**: capability/spec/evidence coverage changed (scope pin updated)
-
-If the identity criterion fails (it is no longer “the same carrier”), escalate: do not hide it behind “whole/integrity” language.
+Do not substitute a generic change lexicon for those objects and predicates. A readable verb is welcome when the exact direct claim remains recoverable.
 
 #### A.6.H:4.8 - Guardrails
 
-1. **No “part-of” as a universal relation.** “Part of” is a prompt to choose a typed relation, not a final answer.
-2. **No order/time smuggling.** Steps and histories must not be encoded as structural inclusion.
-3. **No membership upgrade.** A set of members is not automatically a composed whole; keep MemberOf distinct from ComponentOf.
-4. **No role-as-part.** Role boundaries are scope and authorization boundaries, not BoM structure.
-5. **Cross-boundary influence is interaction.** If something crosses a boundary, it is an interaction/interface story, not a parthood story.
-6. **No integrity-as-wholeness by default.** If “integrity” appears, first classify it as (a) wholeness/coherence, or (b) security/data integrity quality (CIA/constraints). Route accordingly before invoking parthood or Γ.
-7. **No description-publication and referent drift.** Do not slide between a system, the description episteme, the publication unit or carrier that presents it, and observed runs under the same “whole X” phrase; state the reference level and use the appropriate relations (ConstituentOf, ComponentOf, work predicates, or evidence-carrier references).
+1. No situation record, card, bundle, adjective, table, graph, or trace is the whole or direct relation by presence.
+2. No generic `partOf` closes a load-bearing claim when a direct relation kind or owner is required.
+3. No order, plan, or Work history is structural parthood by position.
+4. No membership is upgraded to component assembly or acting-system identity.
+5. No cross-boundary flow or influence is treated as a part merely because it crosses the boundary.
+6. No `integrity` reading is selected before the bearer, claim, and receiving use are known.
+7. No plan, description, or publication is treated as performed Work.
+8. No version, revision, edition, phase, filename, or provenance label decides identity or continuity.
+9. No construction trace or selected structure creates its listed parts or relations.
+10. No coverage statement becomes assurance, acceptance, readiness, or completion beyond its exact predicate and evidence.
 

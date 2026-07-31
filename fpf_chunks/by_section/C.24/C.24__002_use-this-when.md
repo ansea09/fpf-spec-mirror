@@ -6,12 +6,12 @@ section_id: "C.24:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__002_use-this-when.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0 — Use this when"
-line_start: 52374
-line_end: 52379
+line_start: 52352
+line_end: 52357
 dependencies:
   - "A.1"
   - "A.15"

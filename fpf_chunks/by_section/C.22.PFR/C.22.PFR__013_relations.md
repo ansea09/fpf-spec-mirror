@@ -6,12 +6,12 @@ section_id: "C.22.PFR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__013_relations.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:12 — Relations"
-line_start: 51485
-line_end: 51497
+line_start: 51472
+line_end: 51485
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,6 +37,7 @@ keywords:
 ### C.22.PFR:12 - Relations
 
 - `A.6.REL` governs explicit individuation of both PFR participants and PFR itself when a receiving use needs identity.
+- `A.6.RCD` governs each missing direct-condition or applicability relation decision; C.22.PFR keeps the affected case non-conforming until an existing direct predicate closes it or a separately admitted direct subject pattern supplies obtaining, recurrence, and occurrence identity.
 - `A.6.5` governs the two PFR participant SlotSpecs and the four applicability SlotSpecs.
 - `A.19` governs the characteristic space used by `CharacteristicSpacePredicate`; the selected direct consumer governs its condition-to-input rule and comparator semantics, `A.19.CPM` governs comparison when that is the consumer, and `G.4` governs typed acceptance clauses when acceptance is the consumer.
 - `C.16`, `A.18`, and direct condition or measurement patterns govern characteristics, scales, actual characteristic assignments or state relations, and measurements. F.9 governs any cross-reference-scheme bridge named by the input rule; none of these adds a PFR participant.

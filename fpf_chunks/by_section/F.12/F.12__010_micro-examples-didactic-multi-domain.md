@@ -6,12 +6,12 @@ section_id: "F.12:9"
 section_title: "Micro‑examples (didactic, multi‑domain)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__010_micro-examples-didactic-multi-domain.md"
-commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
+commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:9 — Micro‑examples (didactic, multi‑domain)"
-line_start: 92219
-line_end: 92250
+line_start: 92197
+line_end: 92228
 dependencies:
   - "A.2.3"
   - "F.1"
