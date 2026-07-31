@@ -6,12 +6,12 @@ section_id: "G.7:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__002_problem-frame.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:1 — Problem frame"
-line_start: 99248
-line_end: 99258
+line_start: 98987
+line_end: 98997
 dependencies:
   - "A.21"
   - "B.3"

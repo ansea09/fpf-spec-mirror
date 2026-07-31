@@ -6,12 +6,12 @@ section_id: "F.1:End"
 section_title: "F.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__020_f-1-end.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:End — F.1:End"
-line_start: 88754
-line_end: 88755
+line_start: 88543
+line_end: 88544
 dependencies:
   - "A.11"
   - "A.7"

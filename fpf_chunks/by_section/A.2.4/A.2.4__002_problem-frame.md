@@ -6,7 +6,7 @@ section_id: "A.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__002_problem-frame.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:1 — Problem Frame"
@@ -16,17 +16,14 @@ dependencies:
   - "A.10"
   - "A.2"
   - "A.2.1"
-  - "A.2.4"
   - "A.6.5"
   - "B.3"
   - "C.2.1"
   - "C.28"
   - "E.10.D2"
   - "E.17"
-  - "E.17.0"
-  - "E.17.2"
-  - "E.17.EFP"
   - "F.10"
+  - "G.11"
   - "G.6"
   - "U.Role"
   - "U.RoleAssignment"
@@ -53,11 +50,11 @@ Use it when the working question is:
 
 **Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme. It is not `U.Role`, not `U.RoleAssignment`, and not a system performing work.
 
-**First useful move.** Name the episteme, the bounded context, the claim or status being addressed, and the direct governing pattern that owns the use: usually `A.10`, `B.3`, `C.2.1`, `C.28`, `F.10`, `G.6`, `E.17`, `E.10.D2`, or a direct gate, source, requirement, definition, explanation, or publication-use pattern.
+**First useful move.** Name the exact episteme and the claim or governed status for which it is being used. Then point outward, when current, to the dated producing/evaluating work and actual bindings, domain-local result and direct governor, C.2.1 result episteme, A.10/G.6 provenance, G.11 currentness, receiving work and direct use relation, local `RelianceDisposition`, and B.3 assurance boundary.
 
 **What goes wrong if missed.** A document starts acting like an agent, a dataset is treated as if it held a work-facing role, a dashboard status becomes permission, a proof becomes global evidence without a theory fence, or a simulation-only counterfactual output is relabelled as realized causal evidence.
 
-**What this buys.** The project can use epistemes as evidence, status bearers, sources, standards, requirements, definitions, explanations, publications, or assurance inputs without creating a second role ontology for epistemes and without losing claim scope, polarity, freshness, provenance, or assurance-use distinctions.
+**What this buys.** A cheap first-use classification that keeps evidence-use and status-use available without turning the episteme into a role holder or letting the classification absorb performed work, a domain result, provenance, currentness, assurance, or receiving reliance.
 
-**Not this pattern when.** If the current claim is a system or acting holon holding a work-facing role, use `A.2` and `A.2.1`. If the current claim is performed work, use `A.15.1`. If the current claim is the full evidence-provenance graph relation, use `A.10`. If the current claim is assurance, use `B.3`. If the current claim is causal use, use `C.28`. If the current claim is a status family or status mapping, use `F.10`. If the current claim is publication-use or source-use, use `E.17` and `E.10.D2` as needed.
+**Not this pattern when.** Use A.15.1/A.6.1 for performed work and actual bindings; the exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, role, or decision pattern for its local result; C.2.1 for the result episteme; A.10/G.6 for provenance and bounded reliance; G.11 for currentness; B.3 for assurance; F.10 or another direct status pattern for status; and E.17 for publication. A.2.4 classifies only the episteme's first evidence-use or status-use.
 

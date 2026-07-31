@@ -6,44 +6,59 @@ section_id: "B.1.6:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__016_relations.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:10 — Relations"
-line_start: 37210
-line_end: 37219
+line_start: 37157
+line_end: 37166
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "A.6.1"
   - "B.1"
   - "B.1.4"
   - "B.1.6"
-  - "B.2"
   - "B.2-family"
   - "B.2.P"
   - "C.13"
   - "C.16"
+  - "C.2.1"
   - "C.27"
   - "C.29"
   - "E.17"
+  - "G.11"
+  - "G.6"
 keywords:
+  - "C.16 measurement work/result episteme"
+  - "Scale/Unit"
+  - "aggregation work"
+  - "allocation/deduplication"
+  - "dated work set"
+  - "edition-pinned aggregation policy"
+  - "provenance"
+  - "resource Characteristic"
+  - "typed aggregation result"
+  - "typed input"
+  - "uncertainty"
+  - "work parthood/phase/overlap"
+  - "work-resource aggregation"
 ---
 
 ### B.1.6:10 - Relations
 
-- Builds on `A.15.1` for dated work occurrence and on `A.15` for role-method-work alignment.
+- Builds on `A.15.1` and `A.6.1` for dated measurement/aggregation work, role assignment, declarations, and actual bindings; C.2.1 for measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `B.1.4` and `C.27` for phase and temporal-claim adequacy.
 - Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, phase, and constructive grounding.
 - Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.
-- Coordinates with `C.16`, `C.29`, and `A.10` for measurement, mathematical lens, and evidence relations; source-use and publication-use relations remain with `E.17` or the direct source owner.
+- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.14/B.1.4 for part/phase structure; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision owner when those uses are current.
 

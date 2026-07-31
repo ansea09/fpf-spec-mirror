@@ -6,20 +6,24 @@ section_id: "G.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__004_forces.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:3 — Forces"
-line_start: 97817
-line_end: 97824
+line_start: 97602
+line_end: 97609
 dependencies:
   - "A.10"
+  - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.21"
+  - "A.6.1"
   - "B.3"
+  - "C.11"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.23"
   - "E.17"
   - "E.18"
@@ -39,16 +43,12 @@ dependencies:
   - "G.9"
   - "G.Core"
 keywords:
-  - "CAL authoring"
-  - "RSCRTriggerKindId"
-  - "acceptance clauses"
-  - "admissibility gates"
-  - "edition pins"
-  - "evidence profiles"
-  - "operators"
-  - "tri-state admissibility"
-  - "Γ-fold hooks"
-  - "Φ/Ψ/Φ_plane policy pins"
+  - "CAL Pack@CG-Frame"
+  - "Context charter"
+  - "acceptance clause"
+  - "legal flow"
+  - "pass \\"
+  - "typed operator card"
 ---
 
 ### G.4:3 - Forces

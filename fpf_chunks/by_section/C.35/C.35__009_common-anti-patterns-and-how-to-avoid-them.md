@@ -6,12 +6,12 @@ section_id: "C.35:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 67297
-line_end: 67307
+line_start: 67086
+line_end: 67096
 dependencies:
   - "A.22"
   - "A.6.M"

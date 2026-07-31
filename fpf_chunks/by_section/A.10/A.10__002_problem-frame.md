@@ -6,76 +6,60 @@ section_id: "A.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_problem-frame.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:1 — Problem frame"
-line_start: 22622
-line_end: 22644
+line_start: 22588
+line_end: 22605
 dependencies:
-  - "A.1"
   - "A.10"
-  - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.19"
   - "A.2.4"
-  - "A.2.8"
-  - "A.2.8.PER"
-  - "A.2.9"
-  - "A.20"
   - "A.21"
-  - "A.3.4"
-  - "A.6"
-  - "B.1.1"
+  - "A.6.1"
   - "B.3"
-  - "B.4"
+  - "C.11"
   - "C.16"
   - "C.2.1"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
+  - "C.29"
   - "E.17"
-  - "E.17.EFP"
-  - "F.9"
+  - "G.11"
+  - "G.4"
 keywords:
-  - "SCR/RSCR"
-  - "authority-reliance evidence path"
-  - "claim support"
-  - "evidence"
-  - "evidence carrier"
-  - "evidence for permission result versus commitment or issuing act"
-  - "exact authority reference"
-  - "generated-explanation source support"
-  - "probe/distributed/export/causal evidence"
-  - "provenance"
-  - "register excerpt"
-  - "status register"
-  - "traceability"
+  - "RelianceDisposition"
+  - "actual-use relation"
+  - "bounded use"
+  - "carrier"
+  - "claim/result episteme"
+  - "currentness"
+  - "dated work"
+  - "direct relation"
+  - "evidence-provenance path"
+  - "relied-on claim"
+  - "rival explanation"
+  - "source publication"
+  - "unsupported overread"
 ---
 
 ### A.10:1 - Problem frame
 
-Use this pattern when a claim, metric, model result, dashboard tile, confidence badge, review note, credential, provenance label, quantum-like statement, causal-use statement, or generated explanation starts acting as evidence while the evidence carrier, evidence-producing work, method trace, time window, source-currentness relation, or rival explanation is still implicit.
+Use this pattern when a source, carrier, result episteme, credential, dashboard, provenance label, generated explanation, model card, or review note is being relied on for a named claim or bounded action and the source-to-use account is still implicit.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the claim-bound evidence-provenance graph relation: the path in the evidence-provenance graph that links one named claim or effect to concrete carriers, evidence-producing or evidence-interpreting work occurrences, role assignment when current, method trace or work trace, time stance, and admissible evidence use.
+**Primary EntityOfConcern.** The live object is the exact relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the already governed sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
 
-**First useful move.** Write the smallest because-graph that can answer: which claim or effect, which carriers, which evidence-producing or evidence-interpreting work occurrence and role assignment when current, which method or work trace, which time window, which evidence relation, and which bounded use?
+**First useful move.** Write: “Work `W_use` relies on claim episteme `E` as a premise for use `U`; `E` states local result `R`; the cited source publications, carriers, work, and direct relations are `S`; currentness is `T`; the bounded A.10 disposition is `D`.” If a field lacks a direct governor, mark that exact gap.
 
-**What goes wrong if missed.** Claims become weightless, dashboards become authority, provenance becomes truth, credentials become permission, generated explanations become evidence, method descriptions get mixed with work traces, and part-whole structure is mistaken for evidence.
+**What goes wrong if missed.** Carrier presence becomes truth, provenance becomes approval, a result record becomes performed work, MethodDescription becomes a run trace, a graph edge becomes an obtaining relation, and a currentness or assurance decision is inferred from display styling.
 
-**What this buys.** One bounded evidence relation that can be replayed, contested, refreshed, narrowed, or used by a neighboring governing pattern without making evidence pretend to be approval, permission, gate passage, performed work, assurance, causal authority, or part-whole structure.
+**What this buys.** A source-to-use account that can be replayed, contested, refreshed, narrowed, or handed to a neighboring governor while keeping the claim, carrier, performed work, local result, result episteme, provenance, currentness, reliance, assurance, and action distinct.
 
-**Ordinary use.** For routine source-finding, orientation, bounded reversible probes, and low-stakes evidence use, keep the evidence relation small: claim, carrier, producer or source-maintenance role assignment, method trace or work trace when relevant, time window, bounded evidence use, unsupported attempted use, and reopen trigger.
+**Not this pattern when.** A.10 does not own measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, work, or decision results. It does not establish representation correspondences. Use each direct pattern for its result, A.15.1/A.6.1 for performed work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, C.29 for representation, and B.3 when an assurance claim or material-reliance threshold is current.
 
-**Reliance-facing use.** Expand the evidence relation only when consequence severity, reuse, contestability, cross-context movement, source-currentness risk, credential reliance, provenance reliance, gate use, release use, assurance use, work use, causal-use claim, or privacy boundary makes the extra field decide the current claim.
+Use A.2.4 first when only the first evidence-use or status-use classification of an episteme is at issue. Enter A.10 when carrier identity, source recovery, provenance, currentness, rival explanations, or bounded reliance must remain replayable.
 
-**Not this pattern when.** Not this pattern when the current claim is authorization, commitment, performed work, gate decision, assurance, causal identification, measurement construction, representation-scheme transition, explanation faithfulness, or source publication use itself. In those cases, use the neighboring governing pattern and let A.10 supply only the evidence-provenance graph relation it needs.
-
-Use `A.2.4` first when the immediate question is only whether an episteme is being used as evidence or status for a claim, before a full evidence-provenance graph relation is needed. A.2.4 keeps episteme evidence-use and status-use relation slots distinct from `U.RoleAssignment`; A.10 then owns the full claim-bound evidence-provenance graph relation when the carrier, producer, method trace, work trace, time window, and provenance relation must be replayable.
-
-Here `path` means a path in the evidence-provenance graph, not a route for actions to follow.
-
+Here `path` means a path in a descriptive evidence/provenance graph, never a route of action or a universal evidence relation.
 

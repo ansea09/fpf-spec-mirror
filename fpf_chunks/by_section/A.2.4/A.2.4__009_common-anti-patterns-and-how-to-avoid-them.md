@@ -6,27 +6,24 @@ section_id: "A.2.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 4409
-line_end: 4419
+line_start: 4373
+line_end: 4383
 dependencies:
   - "A.10"
   - "A.2"
   - "A.2.1"
-  - "A.2.4"
   - "A.6.5"
   - "B.3"
   - "C.2.1"
   - "C.28"
   - "E.10.D2"
   - "E.17"
-  - "E.17.0"
-  - "E.17.2"
-  - "E.17.EFP"
   - "F.10"
+  - "G.11"
   - "G.6"
   - "U.Role"
   - "U.RoleAssignment"
@@ -48,5 +45,5 @@ keywords:
 | "The standard has normative role." | Role word hides standard-use, requirement-use, source-use, or publication-use. | Recover the relation governed by the current claim and apply `E.10.D2`, `E.17`, `F.10`, or the direct requirement pattern. |
 | "The badge is current, so release is allowed." | Status display becomes gate passage or permission. | Use status-use relation plus gate or release governing pattern; dashboard display alone is not a decision. |
 | "Simulation output is counterfactual evidence." | Simulation-only output is promoted to realized or interventional causal evidence. | Use `C.28`; keep `simulationOnlyCounterfactualOutputBasis` distinct unless the causal-use pattern admits another value. |
-| "The work run is the evidence role." | Work occurrence and evidence-use relation are collapsed. | Use `A.15.1` for the work occurrence, `C.2.1` for the produced episteme, and `A.10` plus A.2.4 slots for later evidence use. |
+| "The work run is the evidence role." | Work occurrence, local result, result episteme, and later evidence-use are collapsed. | Use A.15.1/A.6.1 for dated work and bindings, the domain pattern for the local result, C.2.1 for its episteme, A.10/G.6 for provenance, and A.2.4 only for first-use classification. |
 

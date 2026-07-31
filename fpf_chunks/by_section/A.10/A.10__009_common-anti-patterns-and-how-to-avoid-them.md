@@ -6,62 +6,52 @@ section_id: "A.10:6.2"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6.2 — Common Anti-Patterns and How to Avoid Them"
-line_start: 22932
-line_end: 22940
+line_start: 22891
+line_end: 22900
 dependencies:
-  - "A.1"
   - "A.10"
-  - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.19"
   - "A.2.4"
-  - "A.2.8"
-  - "A.2.8.PER"
-  - "A.2.9"
-  - "A.20"
   - "A.21"
-  - "A.3.4"
-  - "A.6"
-  - "B.1.1"
+  - "A.6.1"
   - "B.3"
-  - "B.4"
+  - "C.11"
   - "C.16"
   - "C.2.1"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
+  - "C.29"
   - "E.17"
-  - "E.17.EFP"
-  - "F.9"
+  - "G.11"
+  - "G.4"
 keywords:
-  - "SCR/RSCR"
-  - "authority-reliance evidence path"
-  - "claim support"
-  - "evidence"
-  - "evidence carrier"
-  - "evidence for permission result versus commitment or issuing act"
-  - "exact authority reference"
-  - "generated-explanation source support"
-  - "probe/distributed/export/causal evidence"
-  - "provenance"
-  - "register excerpt"
-  - "status register"
-  - "traceability"
+  - "RelianceDisposition"
+  - "actual-use relation"
+  - "bounded use"
+  - "carrier"
+  - "claim/result episteme"
+  - "currentness"
+  - "dated work"
+  - "direct relation"
+  - "evidence-provenance path"
+  - "relied-on claim"
+  - "rival explanation"
+  - "source publication"
+  - "unsupported overread"
 ---
 
 ### A.10:6.2 - Common Anti-Patterns and How to Avoid Them
 
-* **Carrier as truth.** A cited document, dashboard cell, credential display, generated answer, or provenance label is treated as the claim being true without the evidence relation and currentness window.
-* **Evidence as permission.** A strong evidence-provenance path is overread as authorization, gate passage, commitment, release, or performed work.
-* **Provenance as part-whole.** Provenance edges are used to build holarchies, or part-whole edges are used as evidence.
-* **Method description as work trace.** The method episteme says what would count as good work, but the actual work occurrence, carrier relation, or source relation is absent.
-* **Self-evidence.** The target claim, its display, or its producing work is allowed to evidence itself without a separated evidence-producing or evidence-interpreting work occurrence and relying context.
-* **Full dossier by default.** A source-finding or low-stakes reliance case is expanded into every possible evidence field instead of the minimum field set that decides the current bounded use.
+- **Carrier as truth.** Recover the claim and direct source relation; authenticity or availability is not truth.
+- **MethodDescription as intent or trace.** Recover generic method claims separately from the dated work and actual bindings.
+- **Generic result field.** Name the domain result, direct governor, and distinct C.2.1 episteme.
+- **Edge as fact.** Establish the direct relation first; then let the graph represent or cite it.
+- **Provenance as assurance or permission.** Enter B.3, A.2.8.PER, A.21, or another exact governor only when that claim is live.
+- **Citation as actual use.** Ground the later work and exact premise/reference/argument relation.
+- **Full dossier by default.** Collect only fields that decide the bounded use, consequence, contestability, and reopen condition.
 

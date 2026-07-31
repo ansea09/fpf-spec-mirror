@@ -6,62 +6,58 @@ section_id: "G.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__011_rationale.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:10 — Rationale"
-line_start: 99209
-line_end: 99216
+line_start: 98946
+line_end: 98953
 dependencies:
   - "A.10"
   - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.2.4"
-  - "A.21"
-  - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.1"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.2.1"
   - "C.28"
-  - "E.10"
-  - "E.10.D2"
+  - "C.29"
   - "E.17"
-  - "E.17.0"
-  - "E.17.2"
-  - "E.17.EFP"
   - "E.18"
   - "E.18.2"
-  - "E.24"
-  - "E.5.2"
   - "F.10"
-  - "F.15"
-  - "F.17"
   - "F.9"
-  - "G.10"
   - "G.11"
   - "G.4"
   - "G.5"
-  - "G.8"
   - "G.9"
-  - "G.Core"
 keywords:
-  - "CrossingBundle"
   - "EvidenceGraph"
-  - "GateCrossing"
+  - "NotCarried"
+  - "PathCitationRecord"
   - "PathId"
   - "PathSliceId"
-  - "SCR/RSCR"
-  - "TriggerAliasMap"
-  - "UTS PathCard"
-  - "lane tags (TA/VA/LA)"
-  - "provenance"
-  - "Γ-fold pinning"
+  - "actual-use relation"
+  - "direct governors"
+  - "downstream work"
+  - "exact direct relations"
+  - "exact represented objects"
+  - "local refresh"
+  - "obtaining claims"
+  - "provenance ledger"
+  - "representation correspondence"
+  - "source/currentness"
+  - "unresolved gaps"
 ---
 
 ### G.6:10 - Rationale
 
-`A.10` already gives the evidence-provenance graph relation for claims. `G.6` adds the Part-G need that local A.10 records do not fully satisfy: stable citation and path-local refresh for selectors, benchmarks, maturity transitions, assurance records, and release packages.
+A.10 recovers one relied-on claim, its source/provenance account, and bounded reliance. G.6 adds stable graph-path identity, slicing, shared citation, and path-local refresh when several downstream consumers need the same dependency-closed representation.
 
-The pattern uses a graph mathematical lens because the useful mathematical object is a path through typed nodes and edges. It does not use graph language to claim that work "flows" through the path. When actual transformation structure matters, `E.18` governs it. When actual work matters, `A.15.1` governs it.
+That representational gain does not justify a second ontology of evidence edges. Work, participants, products, subject results, result epistemes, outcomes, sources, provenance, currentness, and later uses already have direct governors. G.6 therefore projects their exact refs and direct relations, and C.29 governs the representation correspondence when current. This makes a complex chain readable without allowing graph topology to create facts.
 
-The pattern uses ledger language only for a provenance record. It does not invite process logs into pattern prose.
+The ledger is likewise an index over established provenance, not a result store or process log. Missing relation evidence remains a visible gap; it is never repaired by drawing a more persuasive path.
 

@@ -6,20 +6,24 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 98125
-line_end: 98145
+line_start: 97842
+line_end: 97866
 dependencies:
   - "A.10"
+  - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.21"
+  - "A.6.1"
   - "B.3"
+  - "C.11"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.23"
   - "E.17"
   - "E.18"
@@ -39,21 +43,17 @@ dependencies:
   - "G.9"
   - "G.Core"
 keywords:
-  - "CAL authoring"
-  - "RSCRTriggerKindId"
-  - "acceptance clauses"
-  - "admissibility gates"
-  - "edition pins"
-  - "evidence profiles"
-  - "operators"
-  - "tri-state admissibility"
-  - "Γ-fold hooks"
-  - "Φ/Ψ/Φ_plane policy pins"
+  - "CAL Pack@CG-Frame"
+  - "Context charter"
+  - "acceptance clause"
+  - "legal flow"
+  - "pass \\"
+  - "typed operator card"
 ---
 
 ### G.4:5 - Archetypal Grounding
 
-**Tell.** A CG‑Frame must choose and justify a set of candidate methods (possibly a selected set or archive) under explicit legality, evidence, and scope constraints. CHR provides the typed measurement basis; CAL turns it into executable, auditable predicates and flows.
+**Tell.** A CG‑Frame must choose and justify a set of candidate methods (possibly a selected set or archive) under explicit legality, evidence, and scope constraints. CHR provides the typed measurement basis; CAL declares auditable predicates and flows that separately grounded runtime work may apply.
 
 **Show 1 (in‑context CAL pack skeleton).**
 Context: R&D selected-set choice. CHR defines `SafetyClass(ord↑)`, `CostUSD_2026(ratio↓)`, `Readiness(nominal)`.
@@ -71,4 +71,8 @@ Downstream, `G.5` consumes only the handoff manifest: clause ids, operator ids, 
 
 **Show 2 (explicit cross‑context import).**
 A `SafetyClass` value is imported from a different Context or plane. CAL may still author an acceptance clause using that value, but only after the reuse is made explicit as a published crossing bundle and the CAL artifacts cite the relevant ids/pins. The CAL pack remains Context‑local; portability is achieved through explicit crossings and citations, not by silently widening scope.
+
+**Show 3 (one performed acceptance evaluation).**
+
+A dated work occurrence `EvalWork-2026-07-30-17` has a performer through `U.RoleAssignment`, enacts `SafetyAcceptanceMethod`, and binds candidate `C-17` plus the current C.16 measurement-result episteme to `AC_SafetyGate` through the declared `A.6.1` operation application. The C.16 episteme states the measured safety characteristic, scale, attributed value, uncertainty, model, calibration, and measurement work; it is neither the raw detector output nor the acceptance verdict. The clause application obtains `unknown` because the uncertainty interval crosses the threshold. A separate C.2.1 episteme asserts that exact verdict and cites its A.10/G.6 provenance; G.11 supplies currentness. Later C.11 decision work binds that episteme as a premise and records defer. The clause card, proof-ledger row, evidence edge, and decision record do not retroactively establish the measurement work or the evaluation occurrence.
 

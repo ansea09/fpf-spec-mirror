@@ -6,12 +6,12 @@ section_id: "F.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__005_forces.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:3 — Forces"
-line_start: 91023
-line_end: 91033
+line_start: 90812
+line_end: 90822
 dependencies:
   - "A.10"
   - "A.15.1"

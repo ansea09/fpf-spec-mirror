@@ -6,12 +6,12 @@ section_id: "B.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__004_forces.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:3 — Forces"
-line_start: 40175
-line_end: 40183
+line_start: 40122
+line_end: 40130
 dependencies:
   - "A.10"
   - "B.4"

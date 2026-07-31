@@ -6,20 +6,24 @@ section_id: "G.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 98177
-line_end: 98198
+line_start: 97900
+line_end: 97925
 dependencies:
   - "A.10"
+  - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.21"
+  - "A.6.1"
   - "B.3"
+  - "C.11"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.23"
   - "E.17"
   - "E.18"
@@ -39,16 +43,12 @@ dependencies:
   - "G.9"
   - "G.Core"
 keywords:
-  - "CAL authoring"
-  - "RSCRTriggerKindId"
-  - "acceptance clauses"
-  - "admissibility gates"
-  - "edition pins"
-  - "evidence profiles"
-  - "operators"
-  - "tri-state admissibility"
-  - "Γ-fold hooks"
-  - "Φ/Ψ/Φ_plane policy pins"
+  - "CAL Pack@CG-Frame"
+  - "Context charter"
+  - "acceptance clause"
+  - "legal flow"
+  - "pass \\"
+  - "typed operator card"
 ---
 
 ### G.4:8 - Common Anti-Patterns and How to Avoid Them
@@ -72,4 +72,8 @@ keywords:
 * **Exploratory telemetry treated as dominance.**
   Avoid: letting probe/illumination telemetry quietly become a dispatch criterion.
   Prefer: keep it report‑only unless an explicit policy‑bound acceptance clause authorizes promotion.
+
+* **Declaration mistaken for execution.**
+  Avoid: treating a CAL card, `TaskMap`, proof-ledger row, worked example, or evidence edge as proof that an operator ran or a verdict obtained.
+  Prefer: ground dated work, role assignment, method enactment, actual direct bindings, the domain-local result, and any result episteme separately.
 

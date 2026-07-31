@@ -6,67 +6,54 @@ section_id: "A.10:10"
 section_title: "Older source text interpretation and neighboring-pattern notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_older-source-text-interpretation-and-neighboring-pattern-notes.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10 — Older source text interpretation and neighboring-pattern notes"
-line_start: 22976
-line_end: 22989
+line_start: 22933
+line_end: 22944
 dependencies:
-  - "A.1"
   - "A.10"
-  - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.19"
   - "A.2.4"
-  - "A.2.8"
-  - "A.2.8.PER"
-  - "A.2.9"
-  - "A.20"
   - "A.21"
-  - "A.3.4"
-  - "A.6"
-  - "B.1.1"
+  - "A.6.1"
   - "B.3"
-  - "B.4"
+  - "C.11"
   - "C.16"
   - "C.2.1"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
+  - "C.29"
   - "E.17"
-  - "E.17.EFP"
-  - "F.9"
+  - "G.11"
+  - "G.4"
 keywords:
-  - "SCR/RSCR"
-  - "authority-reliance evidence path"
-  - "claim support"
-  - "evidence"
-  - "evidence carrier"
-  - "evidence for permission result versus commitment or issuing act"
-  - "exact authority reference"
-  - "generated-explanation source support"
-  - "probe/distributed/export/causal evidence"
-  - "provenance"
-  - "register excerpt"
-  - "status register"
-  - "traceability"
+  - "RelianceDisposition"
+  - "actual-use relation"
+  - "bounded use"
+  - "carrier"
+  - "claim/result episteme"
+  - "currentness"
+  - "dated work"
+  - "direct relation"
+  - "evidence-provenance path"
+  - "relied-on claim"
+  - "rival explanation"
+  - "source publication"
+  - "unsupported overread"
 ---
 
 ### A.10:10 - Older source text interpretation and neighboring-pattern notes
 
-Older source texts may use names such as `manifest`, `release manifest`, `creator`, `observer`, `symbol register`, `SCR`, `RSCR`, `MIC`, or evidence `path` without the current FPF distinctions. Treat those names as recovery prompts, not as live vocabulary to copy unchanged.
+Treat legacy names such as `manifest`, `creator`, `observer`, `symbol register`, `SCR`, `RSCR`, `MIC`, `verifiedBy`, `validatedBy`, or evidence `path` as recovery prompts, not current relation names.
 
-Use these recoveries:
+- A manifest or source register is a carrier/publication or provenance description; recover the exact source, edition, claim, and direct relations it represents.
+- A `creator`, `observer`, producer, verifier, or maintainer participates only through dated work, `U.RoleAssignment`, and exact direct/A.6.1 bindings.
+- A method-instantiation note is not work. Recover the exact `U.Method`, generic MethodDescription claims, dated occurrence, enactment, ordering, participants, and result separately.
+- A `work result`, `measurement result`, `validation result`, or `verification result` label routes to the exact domain result and C.2.1 episteme; the legacy field name establishes neither.
+- Resource rosters remain separate from carriers and provenance records.
 
-- a source register used for evidence carriers becomes an evidence-provenance entry with carrier identity and source-currentness fields;
-- a release-context source register becomes a context-adapted evidence-provenance entry when the bounded context, identifiers, and hashes matter for publication or release use;
-- an internal `creator` or `observer` used as evidencer becomes evidence-producing work, evidence-interpreting work, source-maintenance role assignment, verifier assignment, or quote-only source wording according to the claim being made;
-- a method instantiation note is a method relation or work relation only when it states the `U.Method`, the `U.MethodDescription` ref or method-description source publication ref, ordering relation when relevant, and work-trace relation;
-- resource rosters in `Γ_work` remain separate from evidence-carrier registers; cite meter, log, or observation carriers through the evidence-provenance graph.
-
-When an older source text also claims approval, permission, gate passage, assurance, causal authority, measured comparability, representation shift, or publication-face effect, keep A.10 to the evidence-provenance graph relation and apply the neighboring governing pattern for that extra claim.
+When older text also claims approval, permission, gate passage, assurance, causality, comparability, representation, publication effect, or decision, apply the neighboring direct governor and let A.10 retain only source recovery, provenance, bounded reliance, and contestability.
 

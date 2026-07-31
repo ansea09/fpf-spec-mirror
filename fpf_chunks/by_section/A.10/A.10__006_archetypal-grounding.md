@@ -6,63 +6,50 @@ section_id: "A.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__006_archetypal-grounding.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:5 — Archetypal Grounding"
-line_start: 22894
-line_end: 22903
+line_start: 22866
+line_end: 22873
 dependencies:
-  - "A.1"
   - "A.10"
-  - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.19"
   - "A.2.4"
-  - "A.2.8"
-  - "A.2.8.PER"
-  - "A.2.9"
-  - "A.20"
   - "A.21"
-  - "A.3.4"
-  - "A.6"
-  - "B.1.1"
+  - "A.6.1"
   - "B.3"
-  - "B.4"
+  - "C.11"
   - "C.16"
   - "C.2.1"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
+  - "C.29"
   - "E.17"
-  - "E.17.EFP"
-  - "F.9"
+  - "G.11"
+  - "G.4"
 keywords:
-  - "SCR/RSCR"
-  - "authority-reliance evidence path"
-  - "claim support"
-  - "evidence"
-  - "evidence carrier"
-  - "evidence for permission result versus commitment or issuing act"
-  - "exact authority reference"
-  - "generated-explanation source support"
-  - "probe/distributed/export/causal evidence"
-  - "provenance"
-  - "register excerpt"
-  - "status register"
-  - "traceability"
+  - "RelianceDisposition"
+  - "actual-use relation"
+  - "bounded use"
+  - "carrier"
+  - "claim/result episteme"
+  - "currentness"
+  - "dated work"
+  - "direct relation"
+  - "evidence-provenance path"
+  - "relied-on claim"
+  - "rival explanation"
+  - "source publication"
+  - "unsupported overread"
 ---
 
 ### A.10:5 - Archetypal Grounding
 
-| Aspect | System claim — Autonomous Brake | Episteme claim — Meta-analysis |
-| --- | --- | --- |
-| **Claim**                    | “Stop within 50 m from 100 km/h.”                                                                   | “Drug A outperforms control on endpoint E.”                                                                              |
-| **Evidence relation**                   | `verifiedBy`: static‑analysis proof of no overflow; `validatedBy`: instrumented track tests.        | `verifiedBy`: power‑analysis proof of sample size; `validatedBy`: pooled effect sizes with bias checks.                  |
-| **Carrier and source-currentness records** | Scale logs, calibration certificates, test track telemetry; context reuse adds unit, identifier, hash, and relevance-window discipline. | PDFs of studies, data tables, analysis code; context reuse adapts vocabularies and units while preserving carrier identity and carrier integrity. |
-| **Evidence-producing or interpreting work** | Independent test run, calibration work, or interpretation work by a metrology team under a named role assignment. | Synthesis work or statistical interpretation work by a named team or statistician under a named role assignment. |
-| **Temporal**                 | Dated runs; `happenedBefore` between setup → test → teardown.                                       | Publication dates; dataset versions; monotone coverage of included studies.                                              |
+**Runtime acceptance from a measurement result.** C.16 dated measurement work obtains a pressure measurement result with uncertainty under a named model and calibration; a distinct C.2.1 episteme states it. If inception of that episteme through work is current, A.15.PROD governs the exact production relation. Separate evaluation work applies the declared G.4 pressure clause through A.6.1 bindings and obtains `unknown`; another C.2.1 episteme states that verdict. A.10 records the source publications, calibration and measurement work, result episteme, evaluation work, clause declaration, exact bindings, provenance, currentness, and rival explanation. Later C.11 decision work uses the verdict episteme as a premise and defers. No ledger edge establishes measurement, verdict, decision, or use.
+
+**Meta-analysis.** Source study publications, datasets, analysis code, inclusion work, statistical method, and synthesis work are recovered by their direct relations. The pooled estimate and uncertainty remain with their statistical governor; its C.2.1 episteme is the relied-on claim. A.10 records source identity, transformations, coverage, provenance, currentness, and the bounded clinical or policy use, not a generic `validatedBy` relation.
+
+**Credential display.** The current pre-existing case repair remains decisive: a credential view can support credential-currentness only under its issuer/trust root, holder binding, verifier, status source, revocation and window. Permission, commitment, role assignment, status assertion, entry predicate, and gate passage remain with A.2.8.PER, A.2.8, A.2.9, A.2.1, A.6.B, and A.21 as applicable. Display presence creates none of them.
 

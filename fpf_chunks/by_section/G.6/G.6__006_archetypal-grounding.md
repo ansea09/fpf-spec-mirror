@@ -6,72 +6,74 @@ section_id: "G.6:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__006_archetypal-grounding.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:5 — Archetypal Grounding"
-line_start: 99137
-line_end: 99154
+line_start: 98867
+line_end: 98890
 dependencies:
   - "A.10"
   - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.2.4"
-  - "A.21"
-  - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.1"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.2.1"
   - "C.28"
-  - "E.10"
-  - "E.10.D2"
+  - "C.29"
   - "E.17"
-  - "E.17.0"
-  - "E.17.2"
-  - "E.17.EFP"
   - "E.18"
   - "E.18.2"
-  - "E.24"
-  - "E.5.2"
   - "F.10"
-  - "F.15"
-  - "F.17"
   - "F.9"
-  - "G.10"
   - "G.11"
   - "G.4"
   - "G.5"
-  - "G.8"
   - "G.9"
-  - "G.Core"
 keywords:
-  - "CrossingBundle"
   - "EvidenceGraph"
-  - "GateCrossing"
+  - "NotCarried"
+  - "PathCitationRecord"
   - "PathId"
   - "PathSliceId"
-  - "SCR/RSCR"
-  - "TriggerAliasMap"
-  - "UTS PathCard"
-  - "lane tags (TA/VA/LA)"
-  - "provenance"
-  - "Γ-fold pinning"
+  - "actual-use relation"
+  - "direct governors"
+  - "downstream work"
+  - "exact direct relations"
+  - "exact represented objects"
+  - "local refresh"
+  - "obtaining claims"
+  - "provenance ledger"
+  - "representation correspondence"
+  - "source/currentness"
+  - "unresolved gaps"
 ---
 
 ### G.6:5 - Archetypal Grounding
 
-#### G.6:5.1 - Brake Envelope Claim
+#### G.6:5.1 - Measurement, acceptance, and decision
 
-A braking-system claim says the vehicle stops within a declared distance under declared conditions. `A.10` identifies telemetry files, calibration certificates, test runs, and external lab work. `G.6` mints a `PathId` that cites the graph path from the claim to proof checks, instrumented tests, calibration records, work occurrences, and time windows. `NotCarried` names stronger downstream uses; `B.3` and gate patterns govern assurance and release uses.
+C.16 dated measurement work binds the pressure measurand, detector, calibration, model, input quantities, and uncertainty propagation and obtains a pressure measurement result. A distinct C.2.1 episteme states that result. Later G.4 `EvaluationWork` applies one declared acceptance clause through exact A.6.1 bindings and obtains `unknown`; another C.2.1 episteme states that verdict. Later C.11 decision work uses the verdict episteme through an exact premise relation and defers.
 
-#### G.6:5.2 - Benchmark Parity Claim
+G.6 may give this chain one `PathId` only after the measurement, work, binding, result, episteme, clause-application, premise, and decision relations are independently established. Its nodes keep raw detector output, indication, actual pressure, measurement result, verdict, and decision distinct. Its edges cite the exact relations; none produces the work, verdict, or decision.
 
-A model-family report says a method reaches parity on a benchmark. `G.6` cites the path through dataset version, evaluation protocol, result record, source publication, method description, and replication work. If the dataset edition, metric policy, or source-currentness relation changes, the affected `PathSliceId` reopens without rerunning unrelated evidence-provenance paths.
+#### G.6:5.2 - Resource aggregation
 
-#### G.6:5.3 - Dashboard Status Cue
+An engine programme has several C.16 resource measurements, dated test-run work occurrences, exact phase and overlap relations, and a shared warm-up allocation rule. B.1.6 dated aggregation work applies `ProgrammeResourcePolicy-v3` and obtains a typed resource vector with propagated uncertainty; a distinct C.2.1 episteme states it.
 
-A dashboard cell shows `Ready`. `F.10` governs status-family mapping and status-use. `A.10` governs the evidence relation to the governing register or source. `G.6` is used only when a downstream release package, selector, assurance record, or audit needs a stable evidence-provenance path from the visible cue to source, status-use relation, query time, window, issuer, and currentness policy.
+The G.6 path cites every measurement result and episteme, the work-set and overlap relations, the edition-pinned policy, aggregation work, aggregation result, sources, and representation refs. The ledger does not make epoch labels into work parts, allocate the warm-up energy, perform uncertainty propagation, or turn the aggregate into an emissions verdict.
 
-#### G.6:5.4 - Causal Policy Result
+#### G.6:5.3 - Produced model and benchmark use
 
-A policy report says an intervention caused improvement. `C.28` governs causal-use support basis, identification, and realizability. `A.10` records evidence relation. `G.6` only gives a citable evidence-provenance path from the policy claim to the causal-use refs, data sources, assumptions, work occurrences, time window, and bridge refs needed for later audit.
+Dated training work has exact actual bindings and, when the production claim is current, an A.15.PROD-governed relation to one produced model edition. Separate benchmark-evaluation work applies its declared method and dataset edition and obtains a result under the benchmark's direct governor; a C.2.1 episteme states that result. A source publication and model card expose selected claims under E.17/C.29 relations. G.11 supplies currentness when later use depends on edition or freshness.
+
+A G.6 `PathSliceId` may cite that dependency chain for replication. The graph does not infer training from the model's presence, participation from a roster, evaluation from the protocol, superiority from the score, or deployment permission from the model card.
+
+#### G.6:5.4 - Dashboard status cue
+
+A dashboard cell shows `Ready`. F.10 governs the status-use classification; A.10 recovers the source, query work, provenance, currentness, bounded reliance, and rival explanation. G.6 is entered only when a downstream audit or release package needs a stable path through those already established relations. The visible cue, graph path, and ledger row establish neither gate passage nor release.
 

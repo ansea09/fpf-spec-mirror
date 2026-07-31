@@ -6,12 +6,12 @@ section_id: "F.9.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__011_rationale.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:10 — Rationale"
-line_start: 91612
-line_end: 91616
+line_start: 91401
+line_end: 91405
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

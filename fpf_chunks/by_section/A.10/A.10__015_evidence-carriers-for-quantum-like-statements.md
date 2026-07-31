@@ -6,87 +6,48 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like statements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__015_evidence-carriers-for-quantum-like-statements.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10a — Evidence carriers for quantum-like statements"
-line_start: 22990
-line_end: 23023
+line_start: 22945
+line_end: 22950
 dependencies:
-  - "A.1"
   - "A.10"
-  - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.19"
   - "A.2.4"
-  - "A.2.8"
-  - "A.2.8.PER"
-  - "A.2.9"
-  - "A.20"
   - "A.21"
-  - "A.3.4"
-  - "A.6"
-  - "B.1.1"
+  - "A.6.1"
   - "B.3"
-  - "B.4"
+  - "C.11"
   - "C.16"
   - "C.2.1"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
+  - "C.29"
   - "E.17"
-  - "E.17.EFP"
-  - "F.9"
+  - "G.11"
+  - "G.4"
 keywords:
-  - "SCR/RSCR"
-  - "authority-reliance evidence path"
-  - "claim support"
-  - "evidence"
-  - "evidence carrier"
-  - "evidence for permission result versus commitment or issuing act"
-  - "exact authority reference"
-  - "generated-explanation source support"
-  - "probe/distributed/export/causal evidence"
-  - "provenance"
-  - "register excerpt"
-  - "status register"
-  - "traceability"
+  - "RelianceDisposition"
+  - "actual-use relation"
+  - "bounded use"
+  - "carrier"
+  - "claim/result episteme"
+  - "currentness"
+  - "dated work"
+  - "direct relation"
+  - "evidence-provenance path"
+  - "relied-on claim"
+  - "rival explanation"
+  - "source publication"
+  - "unsupported overread"
 ---
 
 ### A.10:10a - Evidence carriers for quantum-like statements
 
-Use A.10 when a quantum-like statement needs evidence rather than only a local modeling note. The practical question is not "is this quantum-like source impressive?" but "which carrier evidences which minimal claim, under which time window and method?"
+Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, source episteme/publication, carrier, producing or interpreting dated work, method, actual bindings, time/currentness, rival explanation, bounded use, unsupported attempted use, and `RelianceDisposition`. Route ordinary measurement to C.16, probe/frame effects to the relevant C.26 pattern, Bridge loss to F.9, representation to C.29, and material assurance to B.3.
 
-Evidence-relation checks:
-
-1. State the minimal state, probe, export, or viability claim being evidenced.
-2. Pin the concrete carriers: source, trace, dashboard export, report, observation, metric, work result, model output, interview, survey, or incident record.
-3. State the evidence-producing role and method: who or what produced the carrier, by which method, probe, measurement, or work act.
-4. State the time window, decay condition, and reopen condition.
-5. State what the carrier does not show, including the most relevant rival explanation that remains plausible.
-6. Choose the next pattern: stay in A.10 for carrier evidence relation, apply `B.3` for assurance claims, apply `C.16` for measurement admissibility, apply `F.9` for bridge or export loss, or apply a `C.26.*` pattern for the remaining probe, state, or envelope question.
-
-For probe-coupled, distributed-state, bridge-loss, measurement-frame, or viability-envelope statements, include at least:
-
-| Field | Required content |
-| --- | --- |
-| Claim | The minimal state, probe, export, or viability claim being evidenced |
-| Evidence carrier | The concrete evidence carrier or carrier class |
-| Evidence source or carrier kind | Source publication, witness statement, measurement result, report publication, trace record, dashboard display, work-result record, or human-statement carrier |
-| Method or probe | The measurement, work act, survey, dashboard query, API query, workshop, model, or trace query that produced the carrier |
-| Time window | When the evidence was produced and how long it remains fit for the intended inference |
-| Confidence bounds and limits | What the carrier does not show, and what rival explanation remains plausible |
-| Reopen trigger | When decision, assurance, audit, work use, or reliance use requires additional evidence |
-
-Useful outputs:
-
-- a local evidence note when the claim only guides discussion;
-- an evidence-provenance entry or context-adapted evidence-provenance entry when the claim enters a published assertion;
-- a B.3 assurance tuple when the claim will feed readiness, audit, release, compliance, or comparative assurance;
-- a neighboring-pattern note when the carrier shows only ordinary measurement, bridge loss, or work enactment.
-
-Do not let the label `quantum-like` carry evidence weight by itself. The evidence graph carries the claim; the math lens only explains what representational mistake the evidence is being used to avoid.
+The `quantum-like` label has no evidence weight. A descriptive graph may represent the exact source and use relations only after their direct governors establish them.
 

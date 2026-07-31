@@ -6,20 +6,24 @@ section_id: "G.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__013_relations.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:12 — Relations"
-line_start: 98231
-line_end: 98243
+line_start: 97962
+line_end: 97974
 dependencies:
   - "A.10"
+  - "A.15.1"
   - "A.18"
   - "A.19"
   - "A.21"
+  - "A.6.1"
   - "B.3"
+  - "C.11"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.23"
   - "E.17"
   - "E.18"
@@ -39,23 +43,19 @@ dependencies:
   - "G.9"
   - "G.Core"
 keywords:
-  - "CAL authoring"
-  - "RSCRTriggerKindId"
-  - "acceptance clauses"
-  - "admissibility gates"
-  - "edition pins"
-  - "evidence profiles"
-  - "operators"
-  - "tri-state admissibility"
-  - "Γ-fold hooks"
-  - "Φ/Ψ/Φ_plane policy pins"
+  - "CAL Pack@CG-Frame"
+  - "Context charter"
+  - "acceptance clause"
+  - "legal flow"
+  - "pass \\"
+  - "typed operator card"
 ---
 
 ### G.4:12 - Relations
 
 **Builds on:** `G.Core` (and the pattern template discipline in `E.8`).
 
-**Uses:** `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec), `A.18` (CSLC), `A.10` (provenance anchors), `B.3` (trust/freshness/decay), `E.18` + `A.21` + `F.9`/`F.17`/`E.17` (GateCrossing harness).
+**Uses:** `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec plus direct comparison/selection owners), `A.18` (CSLC), `A.6.1` (declarations and actual bindings), `A.15.1` (dated work and roles), `C.2.1` (result epistemes), `C.11` (decision results), `A.10` (provenance and bounded reliance), `B.3` (assurance), `G.11` (currentness), `E.18` + `A.21` + `F.9`/`F.17`/`E.17` (GateCrossing harness).
 
 **Uses (via Extensions):** `G.6` (EvidenceGraph/Path citation; when `G.4:Ext.EvidenceGraphWiring` is present), `C.18` (NQD), `C.19` (E/E‑LOG), `C.23` (SoS‑LOG).
 

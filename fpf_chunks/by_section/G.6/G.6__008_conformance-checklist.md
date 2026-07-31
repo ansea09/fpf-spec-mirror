@@ -6,69 +6,65 @@ section_id: "G.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__008_conformance-checklist.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:7 — Conformance Checklist"
-line_start: 99168
-line_end: 99182
+line_start: 98903
+line_end: 98917
 dependencies:
   - "A.10"
   - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.2.4"
-  - "A.21"
-  - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.1"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.2.1"
   - "C.28"
-  - "E.10"
-  - "E.10.D2"
+  - "C.29"
   - "E.17"
-  - "E.17.0"
-  - "E.17.2"
-  - "E.17.EFP"
   - "E.18"
   - "E.18.2"
-  - "E.24"
-  - "E.5.2"
   - "F.10"
-  - "F.15"
-  - "F.17"
   - "F.9"
-  - "G.10"
   - "G.11"
   - "G.4"
   - "G.5"
-  - "G.8"
   - "G.9"
-  - "G.Core"
 keywords:
-  - "CrossingBundle"
   - "EvidenceGraph"
-  - "GateCrossing"
+  - "NotCarried"
+  - "PathCitationRecord"
   - "PathId"
   - "PathSliceId"
-  - "SCR/RSCR"
-  - "TriggerAliasMap"
-  - "UTS PathCard"
-  - "lane tags (TA/VA/LA)"
-  - "provenance"
-  - "Γ-fold pinning"
+  - "actual-use relation"
+  - "direct governors"
+  - "downstream work"
+  - "exact direct relations"
+  - "exact represented objects"
+  - "local refresh"
+  - "obtaining claims"
+  - "provenance ledger"
+  - "representation correspondence"
+  - "source/currentness"
+  - "unresolved gaps"
 ---
 
 ### G.6:7 - Conformance Checklist
 
 | ID | Check | Repair if missing |
 | --- | --- | --- |
-| `CC-G6-01` Primary EoC | Is the current evidence-provenance concern an `EvidenceGraph`, `PathId`, `PathSliceId`, or provenance ledger entry, with any role, work, or assurance claim kept under its own governing pattern? | Return to `A.2.4`, `A.10`, `B.3`, `C.28`, `F.10`, `A.15.1`, or `E.17` as appropriate. |
-| `CC-G6-02` Graph path identity | Does each `PathId` resolve to a graph path in a named `EvidenceGraph`? | Mint or repair `EvidenceGraphRef`, node refs, edge refs, and path addressing rule. |
-| `CC-G6-03` Node typing | Are node kinds explicit and governed by neighboring patterns? | Replace role-shaped or label-shaped nodes with evidence-use, status-use, source, work, method-description, carrier, or causal-use refs. |
-| `CC-G6-04` Edge typing | Are provenance edges typed and minimal? | Replace narrative "because" text with verified, validated, produced-by-work, uses-method-description, source, bridge, time, status, or causal-use edges. |
-| `CC-G6-05` Context and time | Are bounded context, reference plane, time window, freshness, currentness, edition, or policy refs stated when they decide use? | Add the missing refs or lower the path to source-finding or local evidence orientation. |
-| `CC-G6-06` Bridge visibility | Are cross-context, cross-plane, cross-edition, or source-order crossings explicit? | Add bridge, loss, currentness, or source-order refs; otherwise block downstream reuse. |
-| `CC-G6-07` Not carried | Does the path say what stronger downstream use it does not carry? | Add `NotCarried` for the stronger use and cite the governing pattern. |
-| `CC-G6-08` Downstream use | Is the downstream citation use named? | Name selector, assurance, benchmark, release, maturity, refresh, audit, or local claim use, or stay in `A.10`. |
-| `CC-G6-09` Refresh locality | Does a changed source, bridge, policy, edition, status, causal-use, or time relation reopen the smallest path slice? | Add `PathSliceId` and reopen trigger; avoid broad rerun language. |
-| `CC-G6-10` No process leakage | Is the provenance ledger free of work-progress notes, review comments, release proof, or quality proof? | Move process evidence to the current process carrier; keep G.6 to evidence-provenance facts. |
+| `CC-G6-01` Exact use | Is one relied-on claim or bounded downstream use named? | Name it, or stay in local A.10 source recovery. |
+| `CC-G6-02` Object projection | Does every node cite an exact independently governed object, kind, governor, qualification, and representation ref? | Recover the object or record an unresolved gap; do not mint a graph-only world object. |
+| `CC-G6-03` Relation prerequisite | Does every asserted edge cite one exact direct relation, its actual participants, governor, obtaining claim, and context? | Establish the direct relation first or remove the edge from the relied-on path. |
+| `CC-G6-04` No fallback edge | Are legacy or display labels prevented from acting as universal relations? | Replace each with the exact formal, measurement, work, production, publication, representation, provenance, temporal, status-use, or later-use relation. |
+| `CC-G6-05` Work boundary | Are reusable Method/MethodDescription, dated work, role assignment, resources, and actual direct/A.6.1 bindings distinct? | Return the occurrence account to A.15.1/A.6.1 and the exact participant owners. |
+| `CC-G6-06` Result boundary | Are produced entity, subject result, result episteme, carrier, outcome, assurance, and later action distinct and directly governed? | Route each to A.15.PROD, the domain result pattern, C.2.1, E.17/C.29, B.3, or the exact later-action owner. |
+| `CC-G6-07` Source and representation | Are source publication, carrier, copy/transform chain, and C.29 correspondence explicit when current? | Recover those relations before treating the graph rendering as source truth. |
+| `CC-G6-08` Time and crossing | Are bounded context, plane, window, bridge/loss, edition, policy, source order, and G.11 currentness visible where they limit use? | Add the exact refs or narrow/block the path slice. |
+| `CC-G6-09` Provenance and use | Are A.2.4/A.10 evidence/status use, A.10 provenance/reliance, downstream work, and exact use relation separate? | Recover the direct use; path citation or membership is not actual reliance. |
+| `CC-G6-10` Ledger boundary | Does the ledger merely index already established objects and relations, with `NotCarried`, gaps, and local reopen triggers? | Remove process status, generic result fields, and fact-creating language. |
 

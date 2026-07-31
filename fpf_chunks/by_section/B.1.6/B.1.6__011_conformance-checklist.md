@@ -6,46 +6,63 @@ section_id: "B.1.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__011_conformance-checklist.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:7 — Conformance Checklist"
-line_start: 37167
-line_end: 37178
+line_start: 37108
+line_end: 37121
 dependencies:
   - "A.1"
   - "A.10"
   - "A.14"
-  - "A.15"
   - "A.15.1"
   - "A.15.2"
   - "A.15.5"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
+  - "A.6.1"
   - "B.1"
   - "B.1.4"
   - "B.1.6"
-  - "B.2"
   - "B.2-family"
   - "B.2.P"
   - "C.13"
   - "C.16"
+  - "C.2.1"
   - "C.27"
   - "C.29"
   - "E.17"
+  - "G.11"
+  - "G.6"
 keywords:
+  - "C.16 measurement work/result episteme"
+  - "Scale/Unit"
+  - "aggregation work"
+  - "allocation/deduplication"
+  - "dated work set"
+  - "edition-pinned aggregation policy"
+  - "provenance"
+  - "resource Characteristic"
+  - "typed aggregation result"
+  - "typed input"
+  - "uncertainty"
+  - "work parthood/phase/overlap"
+  - "work-resource aggregation"
 ---
 
 ### B.1.6:7 - Conformance Checklist
 
-| ID | Requirement | Purpose |
-| --- | --- | --- |
-| CC-B1.6-1 | The aggregation names dated work occurrence refs or explicitly narrows use to planned estimates. | Prevents plans and method descriptions from masquerading as performed work. |
-| CC-B1.6-2 | Resource-accounting basis, units, measurement refs, evidence refs, and source refs are named. | Keeps resource values comparable and reviewable. |
-| CC-B1.6-3 | Holon delimitation and any boundary-crossing relation used for accounting are named by value. | Prevents an unexplained boundary word from carrying the claim. |
-| CC-B1.6-4 | Time windows, phase refs, and overlap and deduplication policy are present when slices or shared resources are aggregated. | Prevents double counting and missing epochs. |
-| CC-B1.6-5 | Method, method-description, work-plan, transformation, and whole-reidentification claims use their direct owners. | Keeps work-resource aggregation from absorbing neighboring objects. |
-| CC-B1.6-5a | Work-entry readiness, full-kit condition, and resource readiness before work entry use `A.15.5`; B.1.6 cites such refs only as neighboring inputs when a resource aggregation claim also exists. | Keeps planned or reserved resource availability from becoming measured performed-work aggregation. |
-| CC-B1.6-6 | `Gamma_work` is used only as notation over a recovered aggregation record. | Keeps algebraic notation from becoming ontology by spelling. |
+| ID | Requirement |
+| --- | --- |
+| CC-B1.6-1 | Every resource component names its Characteristic, Scale/Unit, subject, time stance, C.16 measurement work/result episteme, and uncertainty/provenance when current. |
+| CC-B1.6-2 | The included dated work occurrences and every work-part, phase, partition, overlap, or shared-stock relation are independently grounded. |
+| CC-B1.6-3 | The aggregation policy names inclusion, conversion, weighting, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind. |
+| CC-B1.6-4 | Dated aggregation work has a performer, method, actual direct/A.6.1 bindings, resources, and temporal extent. |
+| CC-B1.6-5 | The B.1.6 aggregation result and the distinct C.2.1 result episteme are recoverable; neither is a ledger row or generic result field. |
+| CC-B1.6-6 | A.10/G.6 provenance and G.11 currentness remain separate from measurement and aggregation results. |
+| CC-B1.6-7 | Planned values and A.15.5 resource readiness are not presented as measured performed-work aggregation. |
+| CC-B1.6-8 | A ledger, policy, profile, clause, citation, dashboard, or graph edge establishes none of work, participation, measurement, part/overlap, aggregation, or result identity. |
+| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification, or decision claim names its exact direct owner. |
 

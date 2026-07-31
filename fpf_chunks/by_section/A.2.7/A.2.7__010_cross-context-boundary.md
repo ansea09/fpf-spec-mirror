@@ -6,12 +6,12 @@ section_id: "A.2.7:6"
 section_title: "Cross-Context Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__010_cross-context-boundary.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
   - "A.2.7:6 — Cross-Context Boundary"
-line_start: 6004
-line_end: 6009
+line_start: 5970
+line_end: 5975
 dependencies:
   - "A.15"
   - "A.2"

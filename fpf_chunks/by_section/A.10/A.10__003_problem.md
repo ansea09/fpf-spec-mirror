@@ -6,65 +6,55 @@ section_id: "A.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__003_problem.md"
-commit_sha: "308edacfa2bdb2c60d07e4e10c0deb1f260a6a31"
+commit_sha: "373c87917e92123cfa039e24c42a1f122b54fb66"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:2 — Problem"
-line_start: 22645
-line_end: 22656
+line_start: 22606
+line_end: 22618
 dependencies:
-  - "A.1"
   - "A.10"
-  - "A.14"
-  - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.19"
   - "A.2.4"
-  - "A.2.8"
-  - "A.2.8.PER"
-  - "A.2.9"
-  - "A.20"
   - "A.21"
-  - "A.3.4"
-  - "A.6"
-  - "B.1.1"
+  - "A.6.1"
   - "B.3"
-  - "B.4"
+  - "C.11"
   - "C.16"
   - "C.2.1"
-  - "C.26.1"
-  - "C.26.2"
-  - "C.26.3"
   - "C.28"
+  - "C.29"
   - "E.17"
-  - "E.17.EFP"
-  - "F.9"
+  - "G.11"
+  - "G.4"
 keywords:
-  - "SCR/RSCR"
-  - "authority-reliance evidence path"
-  - "claim support"
-  - "evidence"
-  - "evidence carrier"
-  - "evidence for permission result versus commitment or issuing act"
-  - "exact authority reference"
-  - "generated-explanation source support"
-  - "probe/distributed/export/causal evidence"
-  - "provenance"
-  - "register excerpt"
-  - "status register"
-  - "traceability"
+  - "RelianceDisposition"
+  - "actual-use relation"
+  - "bounded use"
+  - "carrier"
+  - "claim/result episteme"
+  - "currentness"
+  - "dated work"
+  - "direct relation"
+  - "evidence-provenance path"
+  - "relied-on claim"
+  - "rival explanation"
+  - "source publication"
+  - "unsupported overread"
 ---
 
 ### A.10:2 - Problem
 
-Without a uniform evidence-provenance path, models drift into five failure modes:
+Source-backed reasoning fails in recurring ways:
 
-1. **Weightless claims.** Metrics or arguments appear in the model with no link to their **symbol carriers** (files, datasets, lab notebooks, figures).
-2. **Collapsed scopes.** Design-time method specs are silently mixed with run-time traces; results cannot be reproduced because "what was planned" and "what work occurred" are conflated.
-3. **Self-justifying loops.** A claim is used as evidence for itself, or the same work occurrence both produces the target claim and supplies its evidence without a separated evidence-producing or interpreting work occurrence, provenance relation, source-maintenance role assignment, or relying context.
-4. **Source loss during aggregation.** As `Γ` combines parts, some sources fall out; subsequent audit cannot reconstruct why a compound claim was accepted.
-5. **Temporal ambiguity.** Time-series are aggregated without interval coverage or dating source; gaps and overlaps invalidate comparisons and trend claims.
+1. the relied-on claim is not named;
+2. a carrier or publication face is substituted for the claim it represents;
+3. a method description, plan, signature, or stored reference is substituted for actual work and bindings;
+4. a local domain result is replaced by a generic evidence or result field;
+5. provenance, currentness, reliance, assurance, and authorization are collapsed; or
+6. a graph edge is asserted before the direct source, work, production, representation, participation, or use relation is known to obtain.
 
-The business effect is predictable: confidence badges cannot be defended, cross‑scale consistency (A.9) is broken, and iteration slows because every review re‑litigates “where did this come from?”.
+The practical effect is false authority and unreplayable decisions: a badge looks like permission, a dashboard looks like a gate decision, or a model output looks like an accepted conclusion.
 
