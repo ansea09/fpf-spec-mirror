@@ -6,15 +6,22 @@ section_id: "C.32.ACE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:1 — Problem frame"
-line_start: 64649
-line_end: 64716
+line_start: 65074
+line_end: 65154
 dependencies:
   - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.19"
   - "A.19.CPM"
+  - "A.2.6"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -53,18 +60,26 @@ Typical entry phrases:
 "Two methods, roles, system variants, or AI workflows need fair comparison against the same architecture characteristics."
 ```
 
-**First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. Using C.32.ACE, the practitioner defines one eval program with the same parity frame, evaluates both candidates against the declared rows, records latency readings, evidence-scope findings, and protected safety loss, and records the result as input for `A.19.CPM` comparison or the next C.32 synthesis pass. The eval result informs the architecture work; it cannot define the criterion or decide the architecture.
+**First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. The practitioner writes one ACE program record with the same claim scope, selected context slices, reference scheme and plane, evaluation window, parity frame, and input projections for both candidates. `EvalService-7`, the admitted System holding `EvaluatorAssignment-3`, separately performs dated `CandidateEvalWork-42` over both candidates under that assignment; its exact Method enactment or operation application is separately governed. `CandidateLatencyReading-42` and `CandidateEvidenceScopeFinding-42` are separately governed typed results, and any observed protected-safety loss remains explicit rather than being absorbed into one score. Those results can become inputs for `A.19.CPM` comparison or the next C.32 synthesis pass; neither the program record, Work, nor a result defines the criterion or decides the architecture.
 
-The primary `EntityOfConcern` is one architecture-characteristic eval program over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. Measurement validity, comparison policy, selection results, G.5 publications, and architecture decisions remain with their receiving patterns.
+The primary governed object is one architecture-characteristic eval-program record over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. It is a C.32.ACE-local record form, not a new `U.*` kind and not, by its `program` label, a `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, or evaluation result. Measurement validity, comparison policy, selection results, G.5 publications, and architecture decisions remain with their receiving patterns.
 
-Ordinary working move: choose the declared criteria rows to read, hold one parity frame for the variants being evaluated, run the eval operation, and return readings or front information as feedback for comparison or the next synthesis pass.
+Ordinary working move: choose the declared criteria rows, bind the exact claim scope, relevant context slices, reference scheme and plane, evaluation window, and input projections, and hold one parity frame for all variants. When evaluation actually occurs, identify the admitted System and role assignment performing the dated Work plus any exact Method enactment or operation application, then return the separately governed typed results as feedback for comparison or the next synthesis pass.
 
-The first useful output is an `ArchitectureCharacteristicEvalProgram@Project`. The eval program is the project working record for evaluation over declared criteria. It reads characteristics through rows, slots, candidates, or structures; it is not the characteristic itself, the scale row, the measurement-validity claim, the comparison policy, or the decision:
+The first useful output is an `ArchitectureCharacteristicEvalProgram@Project`. This C.32.ACE-local working record states how one bounded architecture evaluation is to be framed over declared criteria. When a reusable way of evaluating is current, identify that separate `U.Method` under A.3.1; when a claim-bearing episteme describes that exact Method, test the same episteme for `U.MethodDescription` under A.3.2. A planned evaluation belongs to A.15.2, an actual dated evaluation to A.15.1, and each result to its direct measurement, comparison, evaluation, or assertion owner. The record reads characteristics through rows, slots, candidates, or structures; it is not any of those neighboring objects:
 
-For a first pass, fill only the evaluated rows or Q-Bundle slots, evaluated candidates or structures, parity frame, eval purpose, eval operation, result form, receiving use, and refresh or retire condition. Add trigger modes, method references, uncertainty policy, and comparison policy only when the current receiving use needs them.
+For a first pass, fill the exact claim scope and selected context slices, reference scheme and plane, evaluation window and input projections, evaluated rows or Q-Bundle slots, evaluated candidates or structures, parity frame, eval purpose, intended eval operation, result form, receiving use, and refresh or retire condition. Add project-use refs only for a claimed project-local program; add Method, MethodDescription, actual evaluation Work, operation-application, and typed-result refs only when those separate objects are current.
 
 ```text
 ArchitectureCharacteristicEvalProgram@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureEvalProgramProjectUseRelationRef?: U.RelationRef governed by the exact eval-program-use or work-use pattern
+  claimScopeRef: U.EntityRef referencing one U.ClaimScope
+  selectedContextSliceRefs:
+  effectiveReferenceScheme:
+  referencePlane?:
+  evaluationWindow:
+  inputProjectionRefs:
   evaluatedCriteriaSetRef:
   evaluatedCriteriaRowRefs:
   evaluatedQBundleSlotRefs?:
@@ -79,7 +94,10 @@ ArchitectureCharacteristicEvalProgram@Project:
   resultForm: reading | band | rank | dominanceRelation | tradeoffFront | qualitativeState | evidenceFinding
   runContext: designTime | laboratory | pipeline | production | workReview | decisionPrep
   measurementOrObservationMethodRefs:
-  resultRef?:
+  methodDescriptionRefs?:
+  evaluationWorkOccurrenceRefs?: U.EntityRef constrained to U.Work
+  evaluationOperationApplicationRefs?: direct-owner relation or A.6.1 application references
+  evaluationResultRefs?: typed result references governed by the selected direct owner
   uncertaintyAndMissingDataPolicy:
   proxyRisk:
   protectedCounterCharacteristicRefs:
@@ -87,6 +105,8 @@ ArchitectureCharacteristicEvalProgram@Project:
   receivingUseRef:
   refreshOrRetireCondition:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It supplies no project entity, composite-work identity, context, authority, viewpoint, or parthood. A program local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct program-use relation in `architectureEvalProgramProjectUseRelationRef`; either field alone is insufficient. `evalOperation` states the intended operation family in the program record, not an actual run or application. Each value in `evaluationWorkOccurrenceRefs` denotes a separate dated `U.Work`; its admitted performer System, exact `U.RoleAssignment`, F.6 attribution, any enacted Method or actual direct-owner/A.6.1 application binding, and each typed result remain under their direct owners. A program, Method, MethodDescription, Work occurrence, operation application, and result never substitute for one another.
 
 What goes wrong if C.32.ACE is missed: a project has architecture-characteristic rows but treats a test, monitor, dashboard, or source-side "fitness function" as the criterion or as the decision. The team may then reject useful losing variants as errors, optimize one indicator, or choose a candidate without fair comparison.
 

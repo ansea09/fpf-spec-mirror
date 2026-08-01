@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:5"
 section_title: "Worked Repair Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__006_worked-repair-cases.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:5 — Worked Repair Cases"
-line_start: 65637
-line_end: 65652
+line_start: 66107
+line_end: 66122
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.18.NET"
   - "E.24.PUB"
   - "G.5"
 keywords:
@@ -62,7 +63,7 @@ keywords:
 
 **Show-B - Product-family platform with exception growth.** A platform promise reduces local delivery effort but grows evidence exceptions at the product-family scope. The repair cue names variation structure, substitution policy, and evidence scope as the architecture objects under stress. The first repair action is not to declare the platform adequate; it is to repair variation slots and bounded-exception rules, then open `C.32.MLAO` residual comparison if cross-scope burden is current.
 
-**Show-C - Responsibility change shifts coordination cost.** A stream-aligned team improves local delivery flow, but release testing and evidence responsibility remain shared. The repair cue names the shifted coordination cost, keeps role-enactor and work structures distinct from module-interface and evidence structures, and asks whether the candidate should change transformer-side work, transformed-side module interfaces, evidence scope, or all three.
+**Show-C - Responsibility change shifts coordination cost.** A stream-aligned team improves local delivery flow, but release testing and evidence responsibility remain shared. The repair cue names the shifted coordination cost, keeps role-enactor and Work structures distinct from module-interface and evidence structures, and asks whether the candidate should change the influence-source role, Work, organization, or toolchain structures; the transformed-side module interfaces; the evidence scope; or a governed joint combination. C.32.CONWAY supplies only the architecture-influence synthesis frame or exact qualified pair row; exact performers, assignments, Work, and change relations remain separately governed.
 
 **Show-D - Generated architecture candidate.** An agent system produces a high-scoring blueprint. The repair cue treats the blueprint as a source cue, recovers the selected-structure changes encoded in it, names preserved and lost structure, and rebuilds the candidate palette before G.5 publication of a selected set or decision.
 

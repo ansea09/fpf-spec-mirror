@@ -6,12 +6,12 @@ section_id: "C.30.AD:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__009_conformance-checklist.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:6 — Conformance checklist"
-line_start: 60062
-line_end: 60074
+line_start: 60234
+line_end: 60246
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,14 +76,14 @@ keywords:
 
 ### C.30.AD:6 - Conformance checklist
 
-| Check | Requirement | Repair if failed |
+| Check | Condition to establish | Repair if failed |
 | --- | --- | --- |
-| **CC-C30AD-1 EntityOfConcern.** | The architecture description's `DescriptionContext.EntityOfConcernRef` points to one `ArchitectureOf@Context` claim record. | Add `architectureClaimRef` or use `C.30` until the architecture claim is recoverable. |
-| **CC-C30AD-2 Described holon recovery.** | The described holon is recovered through `ArchitectureOf@Context.describedHolonRef`, not by replacing the description EntityOfConcern with the holon. | Restore the strict description boundary and copy only the recoverable holon ref. |
-| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers the chain from working concern or A.15 allocation-responsibility family being used through viewpoint, selected structure or structure kind, architecture claim, ASV view, architecture description, source or publication use when source or publication use is being made, correspondence when used or source return when needed, and remaining admissible architecture move. | Add the missing reference, reduce the admissible use, or apply the governing pattern that can recover the missing relation. |
-| **CC-C30AD-3 Viewpoint and structure kind.** | Every architecture structural view names viewpoint and selected structure or structure kind. | Use `C.30.ASV` before relying on the view. |
-| **CC-C30AD-4 Correspondence and source return.** | Cross-view, generated-view, source-derived, reused, regulated, or comparison use names correspondence or source-return condition. | Add correspondence and source-return fields or reduce the admissible use. |
-| **CC-C30AD-5 Publication boundary.** | Publication face, publication form, diagram, dashboard, card, file, or rendering is not treated as architecture, decision claim, evidence, assurance, gate passage, performed work, work authorization, or release authorization. | Assign publication or source use to `C.2.P` or `E.17` and the non-architecture claim to the direct pattern governing that claim. |
-| **CC-C30AD-6 Specification-use boundary.** | Specification use is declared as use over a Description episteme or publication, with direct governing-pattern applications when it carries a non-description claim. | Add `ArchitectureDescriptionSpecificationUse@Project` or demote to ordinary description. |
-| **CC-C30AD-7 Remaining architecture candidate use.** | The bounded description still tells the practitioner what architecture move, view normalization, source return, or governing-pattern application remains. | Add the remaining architecture candidate use or reduce the text to source or publication use. |
+| **CC-C30AD-1 Episteme identity.** | Every architecture description has one exact claim graph, one exact EntityOfConcern—holon, obtaining `ArchitectureRelation` occurrence, or selected structure—and an effective `U.ReferenceScheme`. | Add the missing C.2.1 identity component or use `C.30`/`A.22` until the subject-side object is recoverable. |
+| **CC-C30AD-2 Subject and holon recovery.** | The one EntityOfConcern is supplied directly. If it is an architecture-relation occurrence or selected structure, its participant trace recovers the exact holon without copying that holon into description identity; architecture-claim refs remain optional content or trace. | Restore the exact EntityOfConcern and participant trace; remove derived identity from an optional architecture-claim field. |
+| **CC-C30AD-2a Traceable multi-view chain.** | The description use recovers working concern, exact viewpoint episteme, obtaining conformance relation, same episteme as `U.View`, one EntityOfConcern, selected structure, optional actual architecture relation, description-set use, and remaining admissible architecture move. When allocation responsibility, source use, representation, publication, cross-view correspondence, project use, or a source-return condition activated by stronger use is current, its direct object or relation is added separately. | Add the missing exact object or direct relation, reduce admissible use, or apply the governing pattern that can recover it. |
+| **CC-C30AD-3 Viewpoint and structure kind.** | Every asserted architecture structural view identifies the candidate episteme, exact viewpoint episteme, independently obtaining five-part E.17.0 conformance relation, selected structure, and structure kind. | Use `E.17.0` and `C.30.ASV` before relying on the view; a label, query, bundle, diagram, or publication is insufficient. |
+| **CC-C30AD-4 Correspondence and source use.** | Cross-view use names a correspondence claim or independently governed obtaining relation; source-derived or reused use names its source-to-use path; a source-return condition is present only when stronger use opens return to the named source or governing pattern. | Add the missing claim or direct relation, or narrow the admissible use. |
+| **CC-C30AD-5 Representation and publication boundary.** | Diagram, rendering, publication occurrence, publication form, dashboard, card, file, or carrier is not treated as architecture, selected structure, `U.View`, description truth, decision claim, evidence, assurance, gate passage, performed work, work authorization, or release authorization. | Assign representation, publication, or source use to `C.2.P`, `E.17`, `E.24.PUB`, or its direct owner and assign every non-description claim to its governing pattern. |
+| **CC-C30AD-6 Specification-use boundary.** | Specification use identifies the exact description episteme or publication. Actual project locality additionally names one composite `U.Work` and a separately obtaining project-use relation; direct governing-pattern applications remain explicit for non-description claims. | Add the exact description, Work, and direct use relation as applicable, or demote to ordinary description use. |
+| **CC-C30AD-7 Remaining architecture candidate use.** | The description under its declared use boundary still identifies the next architecture move, view normalization, source-to-use repair, applicable source-return condition, or governing-pattern application. | Add the remaining architecture candidate use or reduce the record to source, representation, or publication use. |
 

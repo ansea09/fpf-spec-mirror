@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 59748
-line_end: 59797
+line_start: 59859
+line_end: 59924
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,51 +76,67 @@ keywords:
 
 ### C.30.AD:0 - Use this when
 
-Use this pattern when an architecture description is the current EntityOfConcern: a durable description, multi-view description set, architecture documentation set, model set, generated architecture relation graph, view set, or specification-use record over one `ArchitectureOf@Context`.
+Use this pattern when current work must create, inspect, compare, reuse, or rely on a durable architecture-description episteme, a multi-view description set, a generated architecture-relation view, or a specification-use record. Open it only after the practitioner can name the exact described object: one holon, one obtaining `ArchitectureRelation` occurrence, or one exact selected `U.Structure`.
 
 Use `C.30.AD` when the practitioner needs to know:
 
-- which `ArchitectureOf@Context` claim the description is about;
+- which exact holon, architecture-relation occurrence, or selected structure each description episteme is about;
+- which architecture claim is being carried or inspected, without substituting that claim for the description's EntityOfConcern;
 - which selected structures or architecture structure kinds are described;
-- which views are used under which viewpoints;
-- which correspondences, source returns, freshness boundaries, or specification-use boundaries make the description usable;
+- which descriptions qualify as `U.View` under which exact `U.Viewpoint` epistemes and independently obtaining `EpistemeViewpointConformanceRelation` occurrences;
+- which cross-view correspondence claims, source-to-use paths, source-return conditions for stronger use, freshness boundaries, and specification-use boundaries make the description usable;
 - what the description can guide and which uses are non-admissible.
 
-**What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, or architecture model starts acting as architecture, proof, gate, assurance, decision, work authorization, or release authorization by presentation alone.
+**What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, file, or architecture model starts acting as architecture, selected structure, `U.View`, proof, gate, assurance, decision, work authorization, or release authorization by presentation alone.
 
-**What this buys.** The practitioner can keep one architecture description inspectable across views, viewpoints, selected structures, correspondences, publications, source returns, and direct governing-pattern applications.
+**What this buys.** The practitioner can keep architecture descriptions inspectable across exact subjects, views, viewpoints, selected structures, cross-view correspondence claims or separately governed relations, source-to-use paths, applicable source-return conditions, representations, publications, and direct governing-pattern applications.
 
 **First useful description-use output.** Write one `ArchitectureDescriptionUseCard@Project`:
 
 ```text
 ArchitectureDescriptionUseCard@Project:
-  architectureClaimRef:
-  describedHolonRef:
-  boundedContextRef:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureDescriptionProjectUseRelationRef?: U.RelationRef governed by the exact description-use or work-use pattern
+  architectureDescriptionRef?: U.EpistemeRef constrained to ArchitectureDescription
+  entityOfConcernRef: exactly one of (
+    describedHolonRef | architectureRelationOccurrenceRef | selectedStructureRef
+  )
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  architectureClaimRefs?: FinSet(U.EpistemeRef constrained to ArchitectureClaim)
+  claimScope?: U.ClaimScope, byValue
+  concernRefs?: FinSet(U.EntityRef)
+  modelUseStructureRef?: U.StructureRef
+  empiricalGroundingRelationRefs?: FinSet(U.RelationRef)
   descriptionPurpose:
-  selectedStructureRefs:
-  structureKindRefs:
-  viewpointRefs:
-  architectureStructuralViewRefs:
-  correspondenceRefs:
+  selectedStructureRefs: FinSet(U.StructureRef)
+  structureKindRefs: FinSet(ArchitectureStructureKindRef)
+  viewpointRefs?: FinSet(U.EpistemeRef constrained to U.Viewpoint)
+  architectureStructuralViewRefs?: FinSet(U.EpistemeRef constrained to ArchitectureStructuralView)
+  viewpointConformanceRelationRefs?: FinSet(EpistemeViewpointConformanceRelationRef)
+  correspondenceClaimOrRelationRefs?: FinSet(U.EpistemeRef | U.RelationRef)
+  sourceToUsePathRefs?: FinSet(U.RelationRef)
   sourceReturnCondition?:
+  representationRefs?: FinSet(U.EntityRef)
+  publicationOccurrenceRefs?: FinSet(EpistemePublicationRelationRef)
+  publicationFormRefs?: FinSet(U.EntityRef)
+  carrierRefs?: FinSet(U.EntityRef constrained to U.PresentationCarrier)
   specificationUseBoundary?:
   admissibleUse:
   nonAdmissibleUse:
   firstGoverningPatternApplication?:
 ```
 
-`@Project` guard: in this card name, `@Project` marks a project-side use card for first-pass triage or specification-use control. It is not `U.Project`, not a bounded context, not project authority, and not a part-whole relation. If one of those claims is current, use the governing project, context, authority, or part-whole pattern named by value.
+`@Project` is a compatibility and retrieval cue for a project-side use card. The suffix supplies no project identity, authority, context, viewpoint, parthood, or work occurrence. When one actual project matters, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`, and `architectureDescriptionProjectUseRelationRef` identifies the exact obtaining relation by which this description use concerns that work. Name that relation's direct governing pattern; the reference to work alone does not establish project locality.
 
-The use card is a controlled first-pass slice. It can close ordinary use only when it names one architecture claim, one usable description purpose, the selected structures or structure kinds being described, viewpoint refs being used, admissible use, non-admissible use, and one remaining architecture candidate use or direct governing-pattern application. Expand to the fuller `ArchitectureDescription@Context` record when cross-view correspondence, reuse, source return, freshness, specification use, regulated use, comparison, or project-side authority use is being made.
+The card is a controlled first-pass slice, not an identity constructor. It can close ordinary use only when it names one exact EntityOfConcern, the effective `U.ReferenceScheme`, one usable description purpose, the selected structures and their structure-kind classifications, admissible use, non-admissible use, and one remaining architecture candidate use or direct governing-pattern application. If it calls the description a `U.View`, it also names the exact viewpoint episteme and the separately obtaining conformance relation. Expand to the fuller `ArchitectureDescription` record when cross-view correspondence, source use, a stronger-use source-return condition, freshness, specification use, regulated use, comparison, publication, representation, or project-side authority use is current.
 
 **Not this pattern when.**
 
-- If the current use is a grounded architecture claim or one first architecture question, use `C.30`.
+- If the current use is a grounded architecture claim, an obtaining `ArchitectureRelation`, or one first architecture question, use `C.30`.
 - If the current use is a selected structure or structural description outside architecture, use `A.22`.
-- If the current use is one architecture structural view, use `C.30.ASV`.
+- If the current use is one architecture structural view and its viewpoint-conformance test, use `C.30.ASV`.
 - If the current use is built-asset architecture-description, BIM, IFC, asset-information, digital-twin, or reference-designation specialization, use `C.30.AD.BA`.
 - If architecture or structure wording is still ambiguous, use `C.30.P`.
-- If the current use is only a publication face, publication form, report, dashboard, file, or source-current relation, use `C.2.P`, `E.17`, or the publication or source pattern governing the claim.
+- If the current use is only a representation, publication occurrence, publication face, publication form, report, dashboard, file, carrier, source-expression relation, or publication-currentness relation, use `C.2.P`, `E.17`, `E.24.PUB`, or the direct representation, publication, or source-use pattern governing the claim.
 - If the description is being used as pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, decision, work authorization, causal-use claim, release authorization, deontic permission, or mathematical-lens use, keep `C.30.AD` only for the description boundary and apply the direct pattern governing that claim to the claim being made.
 

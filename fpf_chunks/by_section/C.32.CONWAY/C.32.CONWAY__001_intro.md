@@ -6,17 +6,18 @@ section_id: "C.32.CONWAY:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__001_intro.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:intro — Intro"
-line_start: 64844
-line_end: 64852
+line_start: 65286
+line_end: 65294
 dependencies:
   - "A.10"
   - "A.12"
   - "A.15.1"
   - "A.19.CPM"
+  - "A.2.1"
   - "A.22"
   - "A.3.4"
   - "A.3.4.P"
@@ -36,7 +37,9 @@ dependencies:
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
+  - "F.6"
   - "G.5"
+  - "U.Structure"
 keywords:
 ---
 

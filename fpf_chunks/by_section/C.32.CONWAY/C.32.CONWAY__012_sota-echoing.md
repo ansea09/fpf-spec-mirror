@@ -6,17 +6,18 @@ section_id: "C.32.CONWAY:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__012_sota-echoing.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:11 — SoTA-Echoing"
-line_start: 65209
-line_end: 65222
+line_start: 65671
+line_end: 65684
 dependencies:
   - "A.10"
   - "A.12"
   - "A.15.1"
   - "A.19.CPM"
+  - "A.2.1"
   - "A.22"
   - "A.3.4"
   - "A.3.4.P"
@@ -36,7 +37,9 @@ dependencies:
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
+  - "F.6"
   - "G.5"
+  - "U.Structure"
 keywords:
 ---
 
@@ -50,7 +53,7 @@ These rows document transfers from source practice into C.32.CONWAY. Each row st
 | MacCormack, Rusnak, and Baldwin 2012 mirroring hypothesis (`https://doi.org/10.1016/j.respol.2012.04.011`) and Colfer and Baldwin 2016 exceptions survey (`https://www.hbs.edu/ris/Publication%20Files/16-124_7ae90679-0ce6-4d72-9e9d-828872c7af49.pdf`) | Empirical and theory line for product-architecture and organization-architecture mirroring and exceptions. | Use mirroring as a correspondence hypothesis over selected structures and an evolution window. | Failure and conformance rows require affected characteristics, exceptions, source return, and C.29 for structural-similarity claims. | Mirroring does not establish adequacy, actor equality, relation occurrence, or an entire network. |
 | DORA loosely coupled teams, last updated 2025-10-20 (`https://dora.dev/capabilities/loosely-coupled-teams/`) | Practitioner line tying architecture, team independence, testing, deployment, and coordination load. | Treat those arrangements as typed influence sources when they constrain a service architecture candidate. | Candidate forms expose source-side retargeting, transformed-side retargeting, joint change, and bounded mismatch. | Team autonomy or work-transfer counts do not identify actors, Work, or an architecture-influence occurrence without their direct facts. |
 | Team Topologies key concepts (`https://teamtopologies.com/key-concepts`) | Organization-design family for fast flow, interaction modes, cognitive load, platform teams, and evolving boundaries. | Use team types and interaction modes as candidate influence sources, not acting kinds. | Influence-source rows retain exact source kind and relation; candidate rows retain migration cost, burden, and evolution window. | Team-topology vocabulary does not create role assignment, Work, module relation, authority, or decision claims. |
-| Current FPF `A.12`, `A.15.1`, `A.3.4`, `A.3.4.P`, `E.18`, `E.18.NET`, `A.6.M`, `C.29`, `C.30`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing ontology for acting systems, role assignment, Work, bounded change, flow structures and networks, module repair, lens use, architecture claims, candidate synthesis, residual reduction, and failure repair. | Recover participants and direct relations before using Conway wording. | Performer rows, influence rows, exact pair assertion, network-qualified reading, and receiving-pattern exits are separately checkable. | No root Conway kind, universal correspondence relation, acting architecture, or bypass around decision, Work, evidence, or network selection. |
+| Current FPF `A.12`, `A.2.1`, `A.15.1`, `F.6`, `A.3.4`, `A.3.4.P`, `E.18`, `E.18.NET`, `A.6.M`, `C.29`, `C.30`, `C.32`, `C.32.MLAO`, and `C.32.FAIL` | Governing ontology for acting systems, role-assignment occurrences, Work, performed-under-assignment attribution, bounded transformation, flow structures and networks, module repair, lens use, exact architecture relations and claims, candidate synthesis, residual reduction, and failure repair. | Recover participants and direct relations before using Conway wording. | Performer rows, influence rows, exact C.30 pair assertion, network-qualified reading, and receiving-pattern exits are separately checkable. | No root Conway kind, universal correspondence relation, acting architecture, modal architecture promoted to actuality, or bypass around decision, Work, evidence, or network selection. |
 
 **Source-currentness boundary.** Recheck a row when the changed referent, acting and performance facts, influence source or relation, architecture pair, selected structures, evolution window, source practice, or receiving pattern changes. If the source no longer supports the selected local pressure, lower it to background lineage; do not preserve a technical claim by name alone.
 

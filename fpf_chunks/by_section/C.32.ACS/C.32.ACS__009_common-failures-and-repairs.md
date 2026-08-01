@@ -6,17 +6,20 @@ section_id: "C.32.ACS:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__009_common-failures-and-repairs.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:8 — Common failures and repairs"
-line_start: 64579
-line_end: 64591
+line_start: 65002
+line_end: 65015
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
+  - "A.19"
   - "A.19.CPM"
+  - "A.2.6"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -56,4 +59,5 @@ keywords:
 | `HolonLevelCarryoverWithoutRebinding` | An engineered-system row is copied to a method, role, or culture without changing bearer, scale, or admissible use. | Return to HCS and ACS; rebind the row to the new holon family and selected structures. |
 | `LocalGainHidesCounterLoss` | A candidate improves one row while worsening evidence burden, control burden, source-return cost, or functional adequacy. | Add monitored guardrail rows and open `E.13` when proxy-to-value drift appears before comparison or next synthesis. |
 | `ReadingAsDecision` | A better reading is treated as the selected architecture. | Keep the reading as feedback; explicit comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and project architecture decision to `C.32.PAD`. |
+| `ContextLabelAsRowScope` | A domain, team, project, or bounded-context label is used as if it delimited every criterion row. | Bind each row's exact `U.ClaimScope`, selected A.2.6 context slices, scheme and plane, and window; add a selected model-use structure only when it changes interpretation. |
 

@@ -6,15 +6,20 @@ section_id: "C.35:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__003_problem.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:2 — Problem"
-line_start: 66987
-line_end: 66994
+line_start: 67527
+line_end: 67534
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.22"
+  - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -35,7 +40,9 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
+  - "C.36"
   - "E.18"
+  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -56,5 +63,5 @@ Modern architecture work receives outputs that carry or describe selected struct
 
 These outputs can be extremely useful. They can expose candidate decompositions, relation gaps, hidden invariants, feasible search regions, trade-off points, source labels, or overlooked structure. But they are not automatically architecture, selected candidate structures, realized holon structures, eval results, evidence sufficiency, or decision authority.
 
-C.35 handles the gap between produced carrier and architecture use. It asks which selected source structures and production or discovery method produced the output, which described structure is recoverable, what is preserved and lost, what validation or comparison is available, what bearer or realization boundary is open, and what condition must be met before the output can feed C.32 or another governing pattern.
+C.35 handles the gap between produced carrier and architecture use. It asks which exact generation or discovery Method was used; whether one independently admitted Work occurrence actually enacted it; which exact production, discovery-use, or work-to-change claim connects that Work to the carrier or change, if any; which independently selected source and described structures are recoverable; what is preserved and lost; what validation or comparison is available; what bearer or realization boundary is open; and what condition must be met before the output can feed C.32 or another governing pattern.
 

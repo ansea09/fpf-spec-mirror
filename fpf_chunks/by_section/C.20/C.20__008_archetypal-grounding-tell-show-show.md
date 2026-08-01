@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
   - "C.20:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 50327
-line_end: 50336
+line_start: 50349
+line_end: 50358
 dependencies:
   - "A.19"
   - "C.2"

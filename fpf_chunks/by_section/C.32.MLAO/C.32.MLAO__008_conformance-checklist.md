@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__008_conformance-checklist.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:7 — Conformance Checklist"
-line_start: 65429
-line_end: 65441
+line_start: 65895
+line_end: 65907
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -62,5 +62,5 @@ keywords:
 | `CC-C32.MLAO-5` | Lens-backed claims use C.29 when mathematical-lens use is being claimed. | Keeps mathematical adequacy outside this pattern. |
 | `CC-C32.MLAO-6` | Source-return condition is present when compression hides distinctions. | Keeps later source-use or decision-use claims tied to recoverable sources. |
 | `CC-C32.MLAO-7` | Evolution window, dynamic front or archive relation, and any NQD or OEE support are typed as retention or generation support only. | Blocks static-optimum and selector overread. |
-| `CC-C32.MLAO-8` | Transformer and transformed holon architectures stay distinct when the residual crosses a changing relation, and `C.32.CONWAY` is used when correspondence candidates are being prepared. | Preserves kind distinction between architecture, work, transformation, and structural similarity. |
+| `CC-C32.MLAO-8` | Influence-source and transformed-side architecture content stay distinct through exact C.30 holon, obtaining-`ArchitectureRelation`, selected-structure, or modal-`ArchitectureClaim` refs; the changed referent and any actual A.3.4 transformation stay separate; `C.32.CONWAY` is used when correspondence candidates are being prepared. | Preserves kind distinction among architecture content, influence, Work, actual transformation, and structural similarity. |
 

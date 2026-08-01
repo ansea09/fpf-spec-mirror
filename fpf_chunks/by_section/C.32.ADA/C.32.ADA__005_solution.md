@@ -6,18 +6,24 @@ section_id: "C.32.ADA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:4 — Solution"
-line_start: 66349
-line_end: 66442
+line_start: 66864
+line_end: 66967
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.19"
+  - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "B.3"
   - "C.16"
+  - "C.2.1"
   - "C.25"
   - "C.29"
   - "C.30.AD"
@@ -81,7 +87,7 @@ Evaluate every coordinate. If a coordinate is not live, mark it `notTriggered` o
 
 | Coordinate | What is evaluated | Repair when weak |
 |---|---|---|
-| `BoundedDecisionQuestionRecoverability` | Decision subject, described holon, bounded context, status, and decision question can be recovered. | Return to `C.32.PAD` decision subject fields. |
+| `BoundedDecisionQuestionRecoverability` | Decision subject, described holon, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, status, and decision question can be recovered; a selected `BoundedModelUseStructure` is named only when it independently changes interpretation. | Return to `C.32.PAD`, A.2.6, or A.1.1 for the exact missing decision-subject, scope, slice, or model-use-structure content. |
 | `CandidateBasisAndSelectionTraceability` | Candidate palette, residual frame, comparison, selection, selected set, or reason no candidate-set question is live is recoverable. | Return to `C.32`, `C.32.MLAO`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, or `C.11`. |
 | `AffectedStructureAndDescriptionAdequacy` | Affected selected structures, views, architecture descriptions, correspondence, structural-information lens uses, and source-return are recoverable. | Return to `C.30`, `C.30.ASV`, `C.30.AD`, `A.6.F`, `A.6.M`, or `C.29`. |
 | `ArchitectureCharacteristicTradeoffAdequacy` | Architecture characteristics, criteria rows, Q-Bundles, eval readings, accepted losses, and guardrails are explicit. | Return to `C.32.ACS`, `C.32.HCS`, `C.25`, `C.32.ACE`, `C.16`, `C.31`, or `C.31.ASAP`. |
@@ -113,6 +119,16 @@ Use these as ordinary defaults. A project can declare stricter stop conditions. 
 ```text
 ArchitectureDecisionAdequacyEvaluation@OrderFlow:
   declaredUse: readyForDeveloperWork
+  claimScopeRef: OrderFlow developer-work readiness for the named decision and release slice
+  selectedContextSliceRefs: OrderFlow service, named product-family release, and current developer-work window slices
+  effectiveReferenceScheme: OrderFlow architecture decision scheme edition 4
+  referencePlane: selected architecture and developer-work commitment
+  evaluationWindow: review session 2026-07-31
+  decisionQuestionInputProjectionRef: PAD decision relation plus its declared-use and source-return fields
+  evaluatorSystemRef: ArchitectureReviewService-4
+  evaluatorRoleAssignmentRef: ArchitectureReviewerAssignment-6
+  evaluationWorkOccurrenceRef: DecisionAdequacyEvaluationWork-12
+  adequacyResultEpistemeRef: DecisionAdequacyResult-12
   architectureDecisionRelationRef: PAD:order-flow-event-integration
   architectureDecisionRecordProjectionRef: ADR:order-flow-event-integration
   noAveragePolicy: true
@@ -125,7 +141,7 @@ ArchitectureDecisionAdequacyEvaluation@OrderFlow:
 
 | Coordinate | Value | Label | Short rationale and repair |
 |---|---:|---|---|
-| `BoundedDecisionQuestionRecoverability` | `4` | `wellExpressedForDeclaredUse` | Subject, holon, context, status, and question are clear; `5` would need transfer evidence across another product-family slice. |
+| `BoundedDecisionQuestionRecoverability` | `4` | `wellExpressedForDeclaredUse` | Subject, holon, exact claim scope and selected slices, scheme and plane, window, status, and question are clear; `5` would need transfer evidence across another product-family slice. |
 | `CandidateBasisAndSelectionTraceability` | `4` | `wellExpressedForDeclaredUse` | Candidate palette and selected option are cited; `5` would need another team to replay the selection without local recovery. |
 | `AffectedStructureAndDescriptionAdequacy` | `4` | `wellExpressedForDeclaredUse` | Module and information structures plus C.30.ASV refs are usable; `5` would need a worked cross-team source-return case. |
 | `ArchitectureCharacteristicTradeoffAdequacy` | `3` | `sufficientlyExpressedForDeclaredUse` | Substitutability gain and latency loss are named, but guardrail eval rows are incomplete; repair through `C.32.ACS`, `C.32.ACE`, `C.25`, and `C.16`. |

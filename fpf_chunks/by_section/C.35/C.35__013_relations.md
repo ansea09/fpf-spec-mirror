@@ -6,15 +6,20 @@ section_id: "C.35:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__013_relations.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:12 — Relations"
-line_start: 67114
-line_end: 67120
+line_start: 67654
+line_end: 67660
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.22"
+  - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -35,7 +40,9 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
+  - "C.36"
   - "E.18"
+  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -54,6 +61,6 @@ keywords:
 
 - **Builds on:** `C.30`, `C.30.AD`, `C.30.ASV`, `A.22`, `C.32.P2S`, and `C.32`.
 - **Uses:** `C.34` when generated or transformed output must preserve selected source structure; `C.33` when capture and loss in the output are the current issue; `C.29` when a formal search, graph, entropy, category, or learned representation is being used as a mathematical lens.
-- **Coordinates with:** `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.31.ASAP`, `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25`, `G.5`, `C.18`, `C.19`, `E.18`, `C.32.PAD`, and `C.32.ADR`.
+- **Coordinates with:** `A.3.4` for each actual bounded change; `A.15.1`, `A.2.1`, and `F.6` for performed generation or discovery Work; `A.15.PROD` and `A.6.RCD` for exact production or Work-to-change claims; `C.36` when a cultural-evolution case supplies the generated or discovered carrier while retaining governance of that case; `C.30.STRAT`, `C.30.TFS-REL`, `A.6.M`, `C.31`, `C.31.ASAP`, `C.32.ACS`, `C.32.ACE`, `C.16`, `C.25`, `G.5`, `C.18`, `C.19`, `E.18`, `C.32.PAD`, and `C.32.ADR`.
 - **Boundary:** C.35 governs generated or discovered carrier adequacy before or around C.32 candidate admission. It does not build the candidate palette, select from alternatives, govern reusable generators, define eval programs, measure values, decide projects, supply evidence or assurance, authorize work, or prove realization.
 

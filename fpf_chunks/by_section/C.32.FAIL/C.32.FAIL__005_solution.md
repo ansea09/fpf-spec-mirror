@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:4 — Solution"
-line_start: 65600
-line_end: 65636
+line_start: 66070
+line_end: 66106
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.18.NET"
   - "E.24.PUB"
   - "G.5"
 keywords:
@@ -83,7 +84,7 @@ Core repair families for first-draft use:
 | Static optimum | A front member or local winner is treated as durable optimum. | Evolution window, receiving pattern result, front or archive relation, and reopen trigger. | Add evolution window, source-return condition, and receiving pattern; keep C.18 and C.19 as retention or pool policy only. | Comparison belongs to `A.19.CPM`, set-returning selection to `A.19.SelectorMechanism`, local choice to `C.11`, publication of a selected set to `G.5`, and architecture decision to `C.32.PAD` when the decision claim is being made. |
 | Ideality shortcut | Fewer bearers or fewer modules is treated as architecture improvement by itself. | Function-bearing allocation, selected structure count, and architecture characteristic bundle. | Recover the function-bearing transfer; name the removed or generalized bearer, the functions still carried, the new burden, and lost structure. | Return to `C.32`; use `C.31`, `A.6.F`, `A.6.M`, and `C.19.1` when their claims are current. |
 | Universal bearer as adequacy shortcut | A universal module or general substrate is treated as architecture adequacy or scale adequacy by itself. | Scale-amenability claim, module-interface relation, evidence burden, control burden, and safety or admissibility boundary. | Treat universality as a candidate; require BLP scale window or waiver when scale advantage is claimed and record coupling, evidence, control, and source-return effects. | Stop before G.5 publication, assurance, release, or decision claims unless receiving patterns are current. |
-| Transformer and transformed architecture mismatch | The architecture of a holon that changes another holon is collapsed with the changed holon's architecture, or the changed architecture is desired without a feasible changing holon. | Transformer-side selected structures, transformed-side selected structures, and the changing relation. | Open `C.32.CONWAY`; recover the changing relation through `A.3.4`, `E.18`, work, or method patterns; generate candidate repairs that change the transformer side, the transformed side, both sides, or a bounded mismatch. | Use `A.6.M` only for module-interface repair and `C.29` only when structural similarity is claimed. |
+| Architecture-influence/transformed-side mismatch | An influence-source architecture is collapsed with transformed-side architecture content, a desired transformed-side structure is paired with no compatible influence-source arrangement, or an architecture or selected structure is treated as the changing actor. | The exact changed referent; each influence-source-side and transformed-side obtaining C.30 `ArchitectureRelation` or modal `ArchitectureClaim`; and the direct architecture-influence or correspondence occurrence only when independently governed and obtaining. | Open `C.32.CONWAY`; recover the two exact architecture sides, the direct influence kind and predicate or `missing-governor`, and then prepare influence-source-side, transformed-side, joint, or bounded-mismatch candidates. Add acting systems, assignments, Work, and actual transformation only through their direct owners when those claims are current. | Use `A.6.M` only for module-interface repair, `C.29` only when structural similarity is claimed, and E.18.NET only for an independently selected network; a C.32.CONWAY frame or exact pair row is neither an actor, network, nor cross-flow occurrence. |
 
 Admit a new repair family only when its row tells the practitioner what to repair first. A suspicious name alone is not enough; the row must name the architecture object under stress, the first repair action, and the stop or receiving pattern.
 

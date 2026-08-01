@@ -6,17 +6,20 @@ section_id: "C.32.PAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__003_problem.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:2 — Problem"
-line_start: 65832
-line_end: 65844
+line_start: 66313
+line_end: 66325
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.6"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.21"
   - "B.2"
   - "B.2.P"
@@ -28,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.TFS-REL"
   - "C.31"
   - "C.31.ASAP"
   - "C.32"
@@ -41,6 +45,7 @@ dependencies:
   - "C.32.P2S"
   - "E.11.PUR"
   - "E.17"
+  - "E.18.NET"
   - "E.24.PUB"
   - "E.8"
   - "G.5"
@@ -59,13 +64,13 @@ keywords:
 ### C.32.PAD:2 - Problem
 
 
-Architecture synthesis produces candidates; project work still needs a decision. The decision is not the candidate palette, not the selected set publication, not the architecture description, and not the ADR file. It is the project relation that says which architecture option is now pursued and what follows from that selection.
+Architecture synthesis produces candidates; the systems and roles performing project work still need a decision. The decision is not the candidate palette, not the selected set publication, not the architecture description, and not the ADR file. It is the architecture decision relation that identifies the exact composite project work, says which architecture option is now pursued for it, and records what follows from that selection.
 
-The problem is difficult because architecture decisions sit between structures and methods. Architecture descriptions describe selected structures of the target holon. A project architecture decision can also tell developer roles which method description, architectural style, pattern use, or work boundary they must follow so that later work produces or preserves the intended structures. For example, "use the client-server style here" is a method-use instruction whose intended result is a module and interaction structure of the target system. The decision relation must keep both sides visible: intended structure of the transformed holon and method expectations for the transformer holon.
+The problem is difficult because architecture decisions sit between structures and methods. C.30 keeps an obtaining `ArchitectureRelation` with its exact holon and selected `U.Structure` separate from an `ArchitectureClaim` carrying candidate, required, desired, or expected content. A project architecture decision can also tell developer roles which method description, architectural style, pattern use, or work boundary they must follow so that later work aims to produce or preserve the intended structures. For example, "use the client-server style here" is a method-use instruction whose intended result is a module and interaction structure of the described system. The decision relation must keep both sides visible: actual or modal structure content for the described or transformed-side holon, and method and Work expectations for exact systems, roles, assignments, and Work. When C.32.CONWAY supplies an influence-source architecture or selected structure, that source remains non-agentive and does not become the performer.
 
 The problem is also multilevel. The architect may decide selected structures at one holon level while developers later refine lower-level structures. A decision must therefore say where the architect-owned architecture claim stops, where developer-owned refinement starts, which source detail must remain recoverable, and which result can reopen the decision. If that boundary is missing, architecture governance becomes either empty advice or uncontrolled micro-management.
 
-Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or transformer-transformed mismatch appears.
+Finally, architecture decisions are evolutionary. They are made under current candidate knowledge, current characteristic criteria, current eval readings, and current organization or tool constraints. They should be explicit enough for present work and cheap enough to supersede when a better candidate, changed characteristic pressure, or architecture-influence/transformed-side fit changes.
 
 C.32.PAD solves the post-synthesis decision problem by making the decision relation explicit before any ADR-like publication projection is written.
 

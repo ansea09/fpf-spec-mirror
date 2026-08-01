@@ -6,12 +6,12 @@ section_id: "C.2.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__004_forces.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:3 — Forces"
-line_start: 43553
-line_end: 43559
+line_start: 43575
+line_end: 43581
 dependencies:
   - "A.16"
   - "A.16.0"

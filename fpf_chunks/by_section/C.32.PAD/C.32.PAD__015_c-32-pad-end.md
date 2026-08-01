@@ -6,17 +6,20 @@ section_id: "C.32.PAD:End"
 section_title: "C.32.PAD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__015_c-32-pad-end.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:End — C.32.PAD:End"
-line_start: 66043
-line_end: 66044
+line_start: 66540
+line_end: 66541
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.6"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.21"
   - "B.2"
   - "B.2.P"
@@ -28,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.TFS-REL"
   - "C.31"
   - "C.31.ASAP"
   - "C.32"
@@ -41,6 +45,7 @@ dependencies:
   - "C.32.P2S"
   - "E.11.PUR"
   - "E.17"
+  - "E.18.NET"
   - "E.24.PUB"
   - "E.8"
   - "G.5"

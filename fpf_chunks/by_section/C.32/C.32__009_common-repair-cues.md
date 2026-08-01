@@ -6,12 +6,12 @@ section_id: "C.32:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__009_common-repair-cues.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:8 — Common Repair Cues"
-line_start: 63785
-line_end: 63799
+line_start: 64163
+line_end: 64177
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,6 +53,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "G.5"
+  - "U.Structure"
 keywords:
   - "CandidateArchitecturePalette@Project"
   - "architecture candidate synthesis"
@@ -74,7 +75,7 @@ keywords:
 | `DescriptionFormAsArchitecture` | An architecture-description artifact is treated as the architecture because it is the most visible representation. | Keep the visible work product under `C.30.AD`, `C.30.ASV`, `E.17`, `E.24.PUB`, `C.29`, or source-use governance as applicable; recover described holon, selected structures, candidate architecture change, and characteristic bundle before admitting any C.32 candidate. |
 | `BenchmarkWinnerAsArchitecture` | A comparison result is treated as architecture selection. | Treat the result as comparison input or as source material for an A.10 evidence relation when that claim is current; admit a C.32 candidate only after selected structure, architecture-change kind, gain, loss, and receiving pattern are recovered. |
 | `MethodDimensionSemanticsLost` | A BIM, digital-twin, or architecture-view method supplies dimensions, but C.32 use keeps only the dimension name or dimension count and loses the method's structure, constraint, schedule, cost, use-phase, or maintenance semantics. | Preserve the source method semantics, then map each method-declared dimension to selected structures, constraints, preserved and lost structure, architecture characteristics, and source-return condition. |
-| `TransformerTransformedMismatch` | The architecture of the holon doing the changing cannot produce, test, maintain, evolve, or certify the architecture desired for the changed holon. | Open `C.32.CONWAY`; recover the changing relation through `A.3.4`, `E.18`, work, or method patterns; generate candidates that change the transformer side, the transformed side, both sides, or a bounded mismatch. Use `C.29` only if structural similarity is claimed. |
+| `ArchitectureInfluenceMismatch` | One independently typed source is incompatible with transformed-side architecture content needed for the changed referent, or the source's influence status is still provisional. | Open `C.32.CONWAY`; recover the changed referent, each source's exact kind and obtaining relation or precise provisional disposition, both exact C.30 architecture sides or modal claims, and any separately grounded acting, Work, method-side or direct method-use relation, A.3.4 transformation, or E.18 flow facts through their governing patterns; generate candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch. Use `C.29` only if structural similarity is claimed. |
 | `ShortlistByName` | A set is called shortlist before the fields required by `G.5` publication exist. | Keep it as a local palette or open `G.5`. |
 | `UniversalBearerAsArchitecture` | A universal module, general substrate, or existing resource is treated as better architecture by name. | Create a C.32 candidate that names functions transferred to the bearer, bearer count change, coupling change, evidence burden, control burden, safety and admissibility boundary, and BLP scale window or waiver if scale advantage is claimed. |
 | `SourceCompressionNoReturn` | A candidate hides source distinctions. | Add a source-return condition or demote the item to a source cue. |

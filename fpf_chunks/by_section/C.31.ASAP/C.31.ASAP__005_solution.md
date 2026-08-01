@@ -6,17 +6,20 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 63291
-line_end: 63428
+line_start: 63640
+line_end: 63790
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CPM"
+  - "A.2.6"
   - "A.6.M"
   - "B.3"
   - "C.11"
@@ -31,6 +34,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.P2S"
   - "C.32.PAD"
   - "C.33"
@@ -61,7 +65,7 @@ C.31.ASAP specializes scale-amenability preference for architecture alternatives
 
 C.31.ASAP applies only when all of the following are present:
 
-1. a declared architecture alternative set;
+1. a declared architecture alternative set, described holon, exact `U.ClaimScope`, and relevant A.2.6 `U.ContextSlice` membership;
 2. a declared scale variable or scale window;
 3. a claimed preference under scale;
 4. slope evidence, scale-probe evidence, or a no-probe reason;
@@ -77,7 +81,9 @@ Use `ScaleClaimTriage` before any heavier scale audit:
 ScaleClaimTriage:
   architectureAlternativeSetRef:
   describedHolonRef:
-  boundedContextRef:
+  claimScopeRef:
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
   architectureClaimRef?:
   scaleVariableRef:
   scaleWindowRef:
@@ -96,13 +102,17 @@ ScaleClaimTriage:
 
 The triage is complete enough when it states the next admissible architecture move and the nearest blocked overread. It may stop at local guidance when no comparison, publication, assurance, selected-set, or decision use is being made.
 
+`claimScopeRef` designates one exact `U.ClaimScope`; `selectedContextSliceRefs` records the A.2.6 membership relevant to this use. A scale window is the range of the scale variable for which the preference is claimed, not a substitute for either scope object. `modelUseStructureRef` is optional and is filled only when an independently selected A.1.1 `BoundedModelUseStructure` changes the interpretation of this exact preference use. A generic bounded-context label creates none of those values or relations.
+
 #### C.31.ASAP:4.3 - Architecture scale-preference rule
 
 When architecture alternatives satisfy the same safety boundary, law-domain boundary, and assurance boundary, prefer the alternative whose reusable functional-structure, flow-structure, control-structure, module-interface, work-template, and evidence-package structure and learning-transfer slopes remain stable or improve over the declared scale window, unless an `ArchitectureScaleAuditRecord@Project` records a bounded exception.
 
 This is not a selector result. If an alternative set, shortlist, selected set, local choice, gate, or decision is being claimed, use `G.5`, `G.9`, `C.11`, `A.21`, or the governing pattern. C.31.ASAP governs only the scale-preference claim and its boundary.
 
-A scale-preference claim may inform `C.32` candidate generation or comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. It does not select, publish, authorize, or prove an architecture. `C.32` carries the candidate architecture palette; `G.5` governs selected-set publication, `C.11` governs final local choice, `C.32.PAD` governs project architecture decision, and evidence, assurance, gate, and release patterns govern those claims when current.
+A scale-preference claim may inform `C.32` candidate generation or supply one input to an `A.19.CPM` comparison by naming the scale variable, scale window, expected stable or improving structure, exception-growth risk, and source-return condition for candidate alternatives. It does not itself compare, select, publish, authorize, or prove an architecture. `C.32` carries the candidate architecture palette; `A.19.CPM` governs explicit comparison, `G.5` governs selected-set publication, `C.11` governs final local choice, `C.32.PAD` governs project architecture decision, and evidence, assurance, gate, and release patterns govern those claims when current.
+
+When the same scale-sensitive pressure must also become a project criterion, `C.32.ACS` creates a separate row for the exact characteristic or Q-Bundle slot, bearer, scale form, and use class. That row may supply declared input to an ASAP preference, but it does not assert that one alternative is preferable under the scale window; conversely, an ASAP preference record is not an ACS row and does not classify the row as an optimization indicator, guardrail, or context-only row.
 
 #### C.31.ASAP:4.4 - Scale variables
 
@@ -130,7 +140,12 @@ Use the heavier audit only when the scale preference changes comparison, publica
 
 ```text
 ArchitectureScaleAuditRecord@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureScaleAuditProjectUseRelationRef?: U.RelationRef governed by the exact audit-use or work-use pattern
   architectureAlternativeSetRef:
+  claimScopeRef:
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
   scaleVariableRefs:
   scaleWindowRef:
   ArchitectureSlopeVector:
@@ -144,6 +159,8 @@ ArchitectureScaleAuditRecord@Project:
   relatedClaimGovernanceIfClaimed:
   stopCondition:
 ```
+
+For `ArchitectureScaleAuditRecord@Project` and `BespokeResidueRegister@Project`, `@Project` is a compatibility and retrieval cue only; it establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. An audit local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct audit-use relation in `architectureScaleAuditProjectUseRelationRef`; either field alone is insufficient. `BespokeResidueRegister@Project` remains retrieval-only in this edition: `BespokeResidueRegisterRef` may cite the register episteme, but neither that reference nor the audit-use relation asserts the register's own project locality. Assert such locality only after a direct register-to-work relation is governed and cite that exact occurrence; do not borrow the audit relation. Otherwise no audit or residue-register project locality is asserted.
 
 | Output | Meaning |
 | --- | --- |

@@ -6,12 +6,12 @@ section_id: "A.16:18"
 section_title: "Authority, Route Plurality, and Fork Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__019_authority-route-plurality-and-fork-rules.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:18 — Authority, Route Plurality, and Fork Rules"
-line_start: 27106
-line_end: 27155
+line_start: 27128
+line_end: 27177
 dependencies:
   - "A.16"
   - "A.16.0"

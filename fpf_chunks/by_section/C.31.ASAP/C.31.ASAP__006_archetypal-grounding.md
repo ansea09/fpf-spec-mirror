@@ -6,17 +6,20 @@ section_id: "C.31.ASAP:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__006_archetypal-grounding.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:5 — Archetypal Grounding"
-line_start: 63429
-line_end: 63468
+line_start: 63791
+line_end: 63834
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CPM"
+  - "A.2.6"
   - "A.6.M"
   - "B.3"
   - "C.11"
@@ -31,6 +34,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.P2S"
   - "C.32.PAD"
   - "C.33"
@@ -67,6 +71,10 @@ keywords:
 ```text
 ScaleClaimTriage:
   architectureAlternativeSetRef: product-line platform alternative vs bespoke customer-specific variants
+  describedHolonRef: the regulated deployment platform and its site-specific variants
+  claimScopeRef: preference claim for 5 to 40 named regulated deployment sites inside the current qualification boundary
+  selectedContextSliceRefs: the named site, jurisdiction, and qualification-window slices admitted by that claim scope
+  modelUseStructureRef?: absent; no independently selected bounded-model-use structure changes this use
   scaleVariableRef: N_sites
   scaleWindowRef: 5 to 40 regulated deployment sites inside the current qualification window
   claimedPreferenceUnderScale: platform alternative is preferred if interface variants and approval exceptions grow slower than bespoke variants

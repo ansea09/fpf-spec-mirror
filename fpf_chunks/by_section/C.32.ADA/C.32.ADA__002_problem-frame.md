@@ -6,18 +6,24 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 66275
-line_end: 66329
+line_start: 66776
+line_end: 66844
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.19"
+  - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "B.3"
   - "C.16"
+  - "C.2.1"
   - "C.25"
   - "C.29"
   - "C.30.AD"
@@ -64,11 +70,11 @@ Typical entry phrases:
 "Do not average the decision; tell us what must be repaired."
 ```
 
-**First-minute use slice.** A reviewer receives a PAD decision relation and ADR projection for a modularization decision. Using C.32.ADA, the reviewer declares the use: "ready for developer work and ADR publication." The reviewer scores each coordinate with a short rationale. Candidate traceability is `4 wellExpressedForDeclaredUse`, architecture-characteristic trade-off is `3 sufficientlyExpressedForDeclaredUse`, method docking is `2 partiallyExpressedForDeclaredUse`, and publication projection is `4 wellExpressedForDeclaredUse`. The result does not approve the decision. It directs repair to the method-use instruction, responsible roles, readiness exit, and expected structure effect before the decision can guide developer work.
+**First-minute use slice.** `ArchitectureReviewService-4`, the admitted System holding `ArchitectureReviewerAssignment-6`, performs dated `DecisionAdequacyEvaluationWork-12` over one PAD decision relation and ADR projection for a modularization decision. One separate result episteme states the declared use, `ready for developer work and ADR publication`, and the coordinate outcomes: candidate traceability `4 wellExpressedForDeclaredUse`, architecture-characteristic trade-off `3 sufficientlyExpressedForDeclaredUse`, method docking `2 partiallyExpressedForDeclaredUse`, and publication projection `4 wellExpressedForDeclaredUse`. The result does not approve the decision. It directs repair to the method-use instruction, responsible assignments, readiness exit, and expected structure effect before the decision can guide developer work.
 
-The primary `EntityOfConcern` is `ArchitectureDecisionAdequacyEvaluation@Project`: an evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use.
+The primary governed object is `ArchitectureDecisionAdequacyEvaluation@Project`: a C.32.ADA-local evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use. It is not the evaluated decision, evaluation Work, or result episteme.
 
-`ArchitectureDecisionAdequacyEvaluation@Project` is not a new `U.*` kind, not a gate, not evidence, not assurance, not pattern-quality evaluation, and not a replacement for `C.32.PAD`. It is a typed adequacy evaluation that sends weak coordinates back to their governing repair patterns.
+`ArchitectureDecisionAdequacyEvaluation@Project` is a local record form, not a new `U.*` kind, gate, evidence, assurance, pattern-quality evaluation, or replacement for `C.32.PAD`. Its coordinate table expresses the ADA result content; when that result must be a durable claim, one separately identified C.2.1 episteme states it. The dated evaluation remains separate `U.Work`, and any actual evaluation operation application remains with its direct owner.
 
 What goes wrong if C.32.ADA is missed: a decision can appear complete because it has a record, rationale, or diagram, while it is unusable for the declared work. Weak candidate basis, hidden trade-offs, missing method instructions, absent source-return, and vague supersession conditions remain invisible until implementation or review fails.
 
@@ -84,11 +90,23 @@ The first useful output is `ArchitectureDecisionAdequacyEvaluation@Project`:
 
 ```text
 ArchitectureDecisionAdequacyEvaluation@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureDecisionEvaluationProjectUseRelationRef?: U.RelationRef governed by the exact evaluation-use or work-use pattern
   evaluationId:
+  claimScopeRef: U.EntityRef referencing one U.ClaimScope
+  selectedContextSliceRefs:
+  effectiveReferenceScheme:
+  referencePlane?:
+  evaluationWindow:
+  decisionQuestionInputProjectionRef:
+  evaluatorSystemRef?: U.EntityRef constrained to U.System
+  evaluatorRoleAssignmentRef?: U.RelationRef constrained to U.RoleAssignment
+  evaluationWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  evaluationOperationApplicationRefs?: direct-owner relation or A.6.1 application references
+  adequacyResultEpistemeRef?: U.EpistemeRef
   declaredUse:
   architectureDecisionRelationRef:
-  architectureDecisionRecordProjectionRef?
-  evaluatorRoleRef:
+  architectureDecisionRecordProjectionRef?:
   coordinateValues:
     - coordinateRef:
       value: 0|1|2|3|4|5
@@ -102,4 +120,6 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   stopCondition:
   reevaluationTrigger:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. When actual evaluation is claimed, name the admitted evaluator System, exact `U.RoleAssignment`, dated evaluation `U.Work`, F.6 `performedUnderAssignment(W, RA)`, and any enacted Method or direct-owner/A.6.1 operation application separately. The result episteme is a separately identified C.2.1 claim-bearing object; the record, Work, operation application, and result do not substitute for one another, and no generic work-to-result relation is inferred.
 

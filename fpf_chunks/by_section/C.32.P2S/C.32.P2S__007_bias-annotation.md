@@ -6,12 +6,12 @@ section_id: "C.32.P2S:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__007_bias-annotation.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:6 — Bias-Annotation"
-line_start: 64087
-line_end: 64098
+line_start: 64489
+line_end: 64500
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -56,6 +56,6 @@ Use these rows as repair cues for problem pressure, source-practice transfer, or
 | Description-first pressure cue | A view, model, diagram, ADR-like record, dashboard, or memo starts to carry architecture, decision, and work authority at once. | Recover selected structures and current use. Send description adequacy to `C.30.AD` or `C.30.ASV`, decision to `C.32.PAD`, projection to `C.32.ADR`, and work claims to A.15-family patterns. |
 | Single-winner pressure cue | A score, workshop favorite, generated candidate, or apparent best alternative hides structurally different candidates. | Restore candidate plurality through `C.32`; keep archive, front, pool, selected-set, comparison, local-choice, or decision use with its governing pattern. |
 | Eval-shaped practice row or signal | A metric, benchmark, source-practice fitness-function term, eval result, or telemetry event is treated as the characteristic or the decision. | Recover characteristic, bearer, scale, eval program, measurement, and receiving use. Use `C.32.ACE`, `C.16`, `C.25`, and then the comparison, selected-set, local-choice, or decision governing pattern. |
-| Transformer-hidden pressure cue | Desired transformed-holon architecture is stated without asking whether the changing holon can produce it. | Open `C.32.CONWAY`; name changing relation, transformer, transformed holon, selected structures on both sides, affected characteristics, candidate changes, and bounded mismatch condition. |
+| Architecture-influence basis hidden | Desired transformed-side architecture content is stated without asking which typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source constrains it. | Open `C.32.CONWAY`; keep the changed referent and any actual transformation separate, recover both exact C.30 architecture sides or their modal claims, name every influence source by kind and either its exact obtaining direct relation or precise provisional disposition, and prepare influence-source-side, transformed-side, joint, and bounded-mismatch candidates. |
 | Work-shaped pressure cue | A schedule, task list, method recipe, performed-work record, shared assembly occurrence, or completion label is treated as the architecturing flow, an actual transformation, a composite transformation, or proof that selected structure is actual. | Keep work governing patterns intact. P2S cites exact Work occurrences, independently grounded changes, direct work-to-change governors, separate local `A.15.PROD` claims, and actual-structure facts only when they obtain; common work or chronology supplies none of the stronger claims. |
 

@@ -6,17 +6,20 @@ section_id: "C.32.PAD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__010_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:9 — Consequences"
-line_start: 65993
-line_end: 66001
+line_start: 66487
+line_end: 66495
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.6"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.21"
   - "B.2"
   - "B.2.P"
@@ -28,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.TFS-REL"
   - "C.31"
   - "C.31.ASAP"
   - "C.32"
@@ -41,6 +45,7 @@ dependencies:
   - "C.32.P2S"
   - "E.11.PUR"
   - "E.17"
+  - "E.18.NET"
   - "E.24.PUB"
   - "E.8"
   - "G.5"
@@ -60,7 +65,7 @@ keywords:
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| The project decision relation is explicit before publication. | ADRs, design memos, and governance files can describe a recoverable decision rather than inventing one. | The architect must do decision work before documentation work. |
+| The architecture decision relation to exact composite project work is explicit before publication. | ADRs, design memos, and governance files can describe a recoverable decision rather than inventing one. | The architect performs decision work before publication work. |
 | Structure and method are coupled without collapsing. | Developers can see both intended architecture structures and required methods. | The decision record needs enough detail to avoid empty method instructions. |
 | Trade-offs and accepted losses are recorded. | Later teams can reopen the decision under changed characteristics instead of guessing the original rationale. | Decisions may look less tidy because loss is visible. |
 | Architect-developer split is stated. | Team refinement can proceed without losing source return. | Architecture governance must maintain split and reopen conditions. |

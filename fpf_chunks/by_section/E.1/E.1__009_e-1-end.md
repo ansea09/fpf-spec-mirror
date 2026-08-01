@@ -6,12 +6,12 @@ section_id: "E.1:End"
 section_title: "E.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__009_e-1-end.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:End — E.1:End"
-line_start: 68367
-line_end: 68368
+line_start: 68923
+line_end: 68924
 dependencies:
   - "E.2"
 keywords:

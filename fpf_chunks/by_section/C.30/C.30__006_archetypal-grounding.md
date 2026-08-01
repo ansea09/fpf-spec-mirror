@@ -6,12 +6,12 @@ section_id: "C.30:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__006_archetypal-grounding.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:5 — Archetypal Grounding"
-line_start: 59639
-line_end: 59646
+line_start: 59750
+line_end: 59757
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ keywords:
 
 | Tell-Show-Show row | Grounding |
 | --- | --- |
-| Tell | A project team says "architecture" while looking at a diagram, model, generated relation graph, ADR, or module list. C.30 asks what holon is being described, what structure is selected, what source, description, view, or publication role the source material has, and what architecture move remains admissible. |
-| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has selected structures: function, flow, control, module structure, interface relation, information structure, placement structure, scale structure, work structure, evidence relation, or declared logical structure. The architecture claim is over selected structures of that holon; the publication is not the holon and not the architecture claim. |
-| Show: `U.Episteme` | An architecture description, model, view, generated relation graph, ADR-like note, safety-case view, or dashboard is an episteme or view publication. It can describe an architecture claim or serve as a source relation for it, but it does not become the architecture, evidence sufficiency, gate result, assurance case, or project decision. |
+| Tell | A project team says "architecture" while looking at a diagram, model, generated relation graph, ADR, or module list. C.30 asks which subject relations actually obtain, which A.22 structure is selected, whether the direct architecture relation obtains or the content is candidate/expected only, what role the inspected material has, and what architecture move remains admissible. |
+| Show: `U.System` | A payment system, plant, vehicle, product platform, AI-agent system, or neural-network model has actual subject relations from which functional, flow, control, module-interface, information, placement, scale, work, evidence, or declared logical structures can be selected. When the C.30 predicate is satisfied, the exact selected structure stands in an `ArchitectureRelation` to that holon; a claim or publication about it is not the relation. |
+| Show: `U.Episteme` | An `ArchitectureClaim`, architecture description, model, view, generated relation graph, ADR-like note, safety-case view, or dashboard is an episteme or publication-side object. It can state or describe actual, negative, unresolved, candidate, or expected content and can participate in source or grounding relations, but it does not create the selected structure, `ArchitectureRelation`, evidence sufficiency, gate result, assurance case, or project decision. |
 

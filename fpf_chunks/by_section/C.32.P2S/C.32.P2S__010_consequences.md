@@ -6,12 +6,12 @@ section_id: "C.32.P2S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__010_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:9 — Consequences"
-line_start: 64129
-line_end: 64138
+line_start: 64531
+line_end: 64540
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -53,7 +53,7 @@ The project gains one replayable architecturing flow from pressure to actual-str
 
 The cost is disciplined record work: the card preserves structural uncertainty, candidate plurality, accepted losses, handoffs, and stronger-structure inspection return. If that cost is not justified because the question is already governed by one narrower pattern, use that pattern directly and do not open P2S.
 
-The pattern improves cross-holon and adjacent-governed-structure reuse. The same spine works for admitted holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases. When architecture pressure concerns roles, methods, practices, cultures, traditions, or styles, the described holon and bounded context are named separately, while role values, role relation structures, method values, method relation structures, method descriptions, work claims, canon or memory epistemes, recognition and selection regimes, and mediation-system claims stay with their direct governing patterns.
+The pattern improves cross-holon and adjacent-governed-structure reuse. Distinct project-local P2S architecturing transformation flows may use the same P2S method and Plain action sequence for admitted holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases; sharing that guidance does not give those flows one cross-holon identity or turn the displayed list into performed-work order. When architecture pressure concerns roles, methods, practices, cultures, traditions, or styles, the described holon and bounded context are named separately, while role values, role relation structures, method values, method relation structures, method descriptions, work claims, canon or memory epistemes, recognition and selection regimes, and mediation-system claims stay with their direct governing patterns.
 
 The pattern does not guarantee adequacy. It makes the architecturing flow inspectable. Candidate quality, decision adequacy, evidence, assurance, gate passage, release, measurement validity, and `G.11` currentness refresh still require their governing patterns.
 

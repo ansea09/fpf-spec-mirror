@@ -5,27 +5,37 @@ pattern_title: "Built-Asset Architecture Description and Reference Designation"
 section_id: "C.30.AD.BA:End"
 section_title: "C.30.AD.BA:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.AD.BA/C.30.AD.BA__017_c-30-ad-ba-end.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+output_path: "by_section/C.30.AD.BA/C.30.AD.BA__012_c-30-ad-ba-end.md"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:End — C.30.AD.BA:End"
-line_start: 60330
-line_end: 60331
+line_start: 60569
+line_end: 60570
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.5"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.3.4"
   - "A.6.F"
   - "A.6.M"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.1"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "C.29"
   - "C.30"
@@ -36,10 +46,9 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.17"
   - "E.17.0"
-  - "E.17.1"
-  - "E.17.2"
   - "E.24.PUB"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 

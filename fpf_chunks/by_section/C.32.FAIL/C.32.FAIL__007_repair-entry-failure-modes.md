@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:6"
 section_title: "Repair-Entry Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__007_repair-entry-failure-modes.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:6 — Repair-Entry Failure Modes"
-line_start: 65653
-line_end: 65668
+line_start: 66123
+line_end: 66138
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.18.NET"
   - "E.24.PUB"
   - "G.5"
 keywords:
@@ -68,5 +69,5 @@ keywords:
 | **Function without bearer** | A functional architecture is only a candidate when admissible bearers are recoverable under current constraints. |
 | **Ideality used as deletion admissibility** | Ideal final result wording is a generation pressure; deleting a bearer is admissible only after function bearing, lost structure, new burden, and architecture characteristics are named. |
 | **Universal bearer admitted by name** | A universal module or general substrate must be treated as a candidate bearer under BLP scale-window discipline and declared architecture-characteristic criteria rows. |
-| **Conway wording without correspondence repair** | Conway, mirroring, or inverse-Conway wording is useful only when it opens `C.32.CONWAY` and names the changing relation, selected structures on both sides, affected architecture characteristics, gains, losses, and receiving pattern. |
+| **Conway wording without correspondence repair** | Conway, mirroring, or inverse-Conway wording is useful only when it opens `C.32.CONWAY` and names the changed referent, each exact obtaining C.30 architecture relation or modal claim, the direct influence relation and its truthful disposition, affected architecture characteristics, candidate form, gain, loss, and receiving pattern. Architecture influence supplies no actor, assignment, Work, actual transformation, network membership, or cross-flow relation. |
 

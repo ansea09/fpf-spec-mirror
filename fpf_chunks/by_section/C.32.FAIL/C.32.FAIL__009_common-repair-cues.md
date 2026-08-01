@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:8"
 section_title: "Common repair cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__009_common-repair-cues.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:8 — Common repair cues"
-line_start: 65681
-line_end: 65696
+line_start: 66151
+line_end: 66166
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.18.NET"
   - "E.24.PUB"
   - "G.5"
 keywords:
@@ -68,5 +69,5 @@ keywords:
 | `FunctionalGraphNoBearer` | A functional graph, workflow, or method structure names a required function that no admitted bearer can perform under the module, placement, resource, control, or evidence constraints declared for the case. | Return to C.32; add or change bearer, split function, change placement or resource access, change control responsibility, reduce demand, or reject the candidate. |
 | `IdealityAsAdequacyShortcut` | The phrase ideal architecture, no modules, or fewer parts is used as architecture adequacy by itself. | Convert it into a C.32 candidate and name function bearing, lost structure, new burden, architecture characteristics, and receiving pattern. |
 | `UniversalBearerAsAdequacyClaim` | A universal module, general substrate, or existing resource is used as better architecture because it can carry more functions. | Use `C.19.1` only when scale advantage is claimed; otherwise recover module-interface, coupling, evidence, control, safety, admissibility, and source-return effects before explicit comparison belongs to `A.19.CPM`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, or publication of a selected set to `G.5`. |
-| `ConwayNameAsRepair` | A warning row says Conway, mirroring, or inverse Conway but gives no architecture repair. | Open `C.32.CONWAY`; name the transformer and transformed holons, selected structures on both sides, changing relation, affected characteristics, candidate repair, loss, and stop condition. |
+| `ConwayNameAsRepair` | A warning row says Conway, mirroring, or inverse Conway but gives no architecture repair. | Open `C.32.CONWAY`; name the changed referent, the exact influence-source-side and transformed-side C.30 architecture relations or modal claims, the direct influence kind/predicate/occurrence or truthful stop, affected characteristics, candidate form, gain, loss, and receiving pattern. Keep actors, assignments, Work, actual transformation, and any E.18.NET network or cross-flow occurrence with their direct owners. |
 

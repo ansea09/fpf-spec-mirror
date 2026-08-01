@@ -6,17 +6,20 @@ section_id: "C.32.PAD:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__014_footer-marker.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:13 — Footer marker"
-line_start: 66039
-line_end: 66042
+line_start: 66536
+line_end: 66539
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.6"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.21"
   - "B.2"
   - "B.2.P"
@@ -28,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.TFS-REL"
   - "C.31"
   - "C.31.ASAP"
   - "C.32"
@@ -41,6 +45,7 @@ dependencies:
   - "C.32.P2S"
   - "E.11.PUR"
   - "E.17"
+  - "E.18.NET"
   - "E.24.PUB"
   - "E.8"
   - "G.5"
@@ -58,5 +63,5 @@ keywords:
 
 ### C.32.PAD:13 - Footer marker
 
-C.32.PAD closes when `ArchitectureDecisionRelation@Project` names the decision subject, candidate basis, selected architecture option or bounded exception, affected structures, architecture-characteristic trade-offs, accepted losses, rationale, consequences, architecture-description refs, method-use and work-split expectations, source-return condition, triggered holon-transition or BOSC refs, triggered structural-information lens uses, publication projection exit, and reopen or supersession conditions.
+C.32.PAD closes when `ArchitectureDecisionRelation@Project` names the exact composite project `U.Work`, decision subject, candidate basis, selected architecture option or bounded exception, affected structures, architecture-characteristic trade-offs, accepted losses, rationale, consequences, architecture-description refs, method-use and work-split expectations, source-return condition, triggered holon-transition or BOSC refs, triggered structural-information lens uses, publication projection exit, and reopen or supersession conditions. When the decision also cites a project system-of-interest, role assignment, architecture-influence correspondence, or transformation-flow network, each ref resolves to its exact separately governed object, every actual world-side relation is independently established, and the applicable A.15.6 project-selection stop and E.18.NET/C.30.TFS-REL non-duplication boundaries remain explicit.
 

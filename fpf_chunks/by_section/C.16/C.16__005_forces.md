@@ -6,12 +6,12 @@ section_id: "C.16:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__005_forces.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:4 — Forces"
-line_start: 47182
-line_end: 47189
+line_start: 47204
+line_end: 47211
 dependencies:
   - "A.10"
   - "A.15.1"

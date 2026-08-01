@@ -6,17 +6,20 @@ section_id: "C.31.ASAP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:1 — Problem frame"
-line_start: 63244
-line_end: 63271
+line_start: 63589
+line_end: 63620
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CPM"
+  - "A.2.6"
   - "A.6.M"
   - "B.3"
   - "C.11"
@@ -31,6 +34,7 @@ dependencies:
   - "C.31"
   - "C.31.RSA"
   - "C.32"
+  - "C.32.ACS"
   - "C.32.P2S"
   - "C.32.PAD"
   - "C.33"
@@ -62,6 +66,10 @@ The first useful move is `ScaleClaimTriage`:
 ```text
 ScaleClaimTriage:
   architectureAlternativeSetRef:
+  describedHolonRef:
+  claimScopeRef:
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
   scaleVariableRef:
   scaleWindowRef:
   claimedPreferenceUnderScale:
@@ -73,7 +81,7 @@ ScaleClaimTriage:
   stopCondition:
 ```
 
-Ordinary use starts by naming the alternatives, the scale variable, the scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception growth risk. Use `ArchitectureScaleAuditRecord@Project` only when the scale preference is being used to affect a comparison, selected set, publication, assurance input, or architecture decision.
+Ordinary use starts by naming the alternatives and described holon, the exact `U.ClaimScope` and relevant A.2.6 `U.ContextSlice` membership, the scale variable and scale window, the claimed preference under scale, the available slope or scale-probe evidence or no-probe reason, the expected stable or improving structure, and the exception-growth risk. Name `modelUseStructureRef` only when one independently selected `BoundedModelUseStructure` changes this receiving interpretation; it never replaces the claim scope. Use `ArchitectureScaleAuditRecord@Project` only when the scale preference is being used to affect a comparison, selected set, publication, assurance input, or architecture decision.
 
 What goes wrong if C.31.ASAP is missed: "modular", "platform", "product line", "reusable", "general", "open", "coarse-grained", or "RG-like" becomes a shortcut for a scale-preference claim; a locally hand-engineered solution is called debt even when safety, law-domain, or mission constraints justify it; exception growth is hidden until the architecture is already expensive to change; and coarse descriptions keep losing lower-scope safety or semantic distinctions without a source-return condition.
 

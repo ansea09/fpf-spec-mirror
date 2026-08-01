@@ -6,26 +6,36 @@ section_id: "C.30.AD.BA:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__003_problem.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1.0 — Problem"
-line_start: 60159
-line_end: 60162
+line_start: 60333
+line_end: 60336
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.5"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.3.4"
   - "A.6.F"
   - "A.6.M"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.1"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "C.29"
   - "C.30"
@@ -36,14 +46,13 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.17"
   - "E.17.0"
-  - "E.17.1"
-  - "E.17.2"
   - "E.24.PUB"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
 ### C.30.AD.BA:1.0 - Problem
 
-Built-asset descriptions often carry enough structure to look like the built asset, enough designation discipline to look like identity, enough current data to look like evidence, and enough lifecycle coverage to look like authority. The problem is to admit BIM, IFC, asset-information, reference-designation, digital-twin, telemetry, maintenance, and handover material only after the described holon, architecture claim, selected structures, views, sources, publications, and admissible uses are explicit.
+How can an engineer assemble a usable built-asset architecture description from model exchanges, designation systems, and operational information without making the exchange schema, designation code, dashboard, or digital-twin system stand in for the built asset, an obtaining architecture relation, a selected structure, or a conforming view?
 

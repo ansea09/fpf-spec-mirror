@@ -6,20 +6,26 @@ section_id: "C.36:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_worked-slices.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Worked Slices"
-line_start: 67314
-line_end: 67367
+line_start: 67867
+line_end: 67921
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.6"
+  - "A.15.PROD"
   - "A.2.1"
+  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.3.4"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -32,6 +38,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.32"
+  - "C.35"
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
@@ -39,6 +47,7 @@ dependencies:
   - "E.18.1"
   - "F.17"
   - "F.18"
+  - "F.6"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -51,7 +60,7 @@ keywords:
 
 An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, role assignments, architecture-candidate generation, selection regimes, and refresh rhythm.
 
-If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next governed use.
+If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next governed use. When that work yields a generated or discovered carrier that carries or describes selected structure and may enter architecturing, use `C.35` for carrier admission before `C.32`; the cultural-evolution case remains governed here.
 
 #### C.36:5.2 - Music And Dance Style Engineering
 
@@ -75,7 +84,8 @@ CulturalEvolutionCaseCard@Context:
   CaseRef: festival-contemporary-2026
   BoundedContext: festival choreography lab and its short-video circulation context
   CollectiveHolonRefs: choreographer collective, dancers, teachers, judges, platform-mediated audience
-  RoleValueOrAssignmentRefs: dancer, choreographer, teacher, judge, recommender-mediated viewer
+  RoleValueRefs: dancer, choreographer, teacher, judge, recommender-mediated viewer
+  RoleAssignmentRefs: omitted in this family-level card; add only exact obtaining assignments when a performed-Work attribution is current
   WorkFamilyRefs: performance, rehearsal, teaching, judging, remixing, platform publication
   MethodFamilyRefs: floorwork method family, improvisation method family, duet-lift method family
   CanonOrMemoryEpistemeRefs: festival archive, teaching syllabus, exemplar video set
@@ -91,7 +101,7 @@ CulturalEvolutionCaseCard@Context:
   RefreshRefs: refresh when platform mediation, judging, canon, or teaching adoption changes
 ```
 
-The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set publication, or an intervention card that changes recognition, pedagogy, canon, or platform mediation.
+The next project move may be `C.18` archive generation, `C.19` current-pool treatment, `G.5` selected-set publication, or an intervention card that targets recognition, pedagogy, canon, or platform mediation. The card alone does not prove that the targeted change occurred.
 
 If this case also claims a new level, new holon, context reframe, feedback-down relation, whole reidentification, cross-scope frustration residual, or interlevel ethical conflict, keep the C.36 case card as cultural-evolution context and apply the direct governing pattern for that claim. For example, use `B.2` or `B.2.P` for MHT and whole-reidentification wording, `A.1` or the direct system or holon pattern for holon-kind and boundary claims, `B.2.5` for supervisor-subholon feedback when that relation is current, `C.30.ILC` and `C.29` for cross-scope architecture residual or mathematical-lens use, and `D.2`, `D.3`, or `D.4` when value, harm, responsibility, or admissible sacrifice across levels is current.
 

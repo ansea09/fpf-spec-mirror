@@ -6,26 +6,36 @@ section_id: "C.30.AD.BA:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:1 — Problem Frame"
-line_start: 60153
-line_end: 60158
+line_start: 60327
+line_end: 60332
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.5"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.3.4"
   - "A.6.F"
   - "A.6.M"
+  - "A.6.P"
+  - "A.6.RCD"
+  - "A.6.REL"
   - "A.7"
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.1"
   - "C.27"
+  - "C.27.TA"
   - "C.28"
   - "C.29"
   - "C.30"
@@ -36,16 +46,15 @@ dependencies:
   - "C.30.TFS-REL"
   - "E.17"
   - "E.17.0"
-  - "E.17.1"
-  - "E.17.2"
   - "E.24.PUB"
   - "F.18"
+  - "G.11"
 keywords:
 ---
 
 ### C.30.AD.BA:1 - Problem Frame
 
-Built-asset practice uses many useful descriptions: BIM models, IFC exchanges, asset-information models, COBie-like handover tables, reference-designation systems, dashboards, digital-twin views, maintenance records, energy views, cost views, and sensor feeds. These descriptions help engineers operate across design, construction, operation, maintenance, repair, refurbishment, and end-of-life use.
+Built-asset work joins descriptions made for design, fabrication, construction, commissioning, operation, maintenance, adaptation, and decommissioning. A hospital, bridge, plant, railway corridor, or campus can therefore have a geometry model, spatial decomposition, functional and flow descriptions, product and equipment structures, cost and schedule descriptions, operation and maintenance records, sustainability and energy views, asset registers, live telemetry, inspection histories, and several reference-designation schemes.
 
-The danger is semio-bias. The description starts acting like the built asset, the architecture, the evidence, the assurance, the gate record, the work, or the decision because it is detailed, current, standardized, or tool-readable. `C.30.AD.BA` keeps the built asset, its architecture claim, its architecture description, its views, its reference designations, its publications, and its source relations separate.
+These are not interchangeable descriptions of one undifferentiated object. They select different structures of the same built asset, or sometimes describe different entities related to that asset. The architect needs to recover which exact EntityOfConcern each description has, which A.22 structure each claimed view describes, how the views correspond, which designation or reference relation makes an entity retrievable, and what currentness boundary permits the description to guide the next architecture move.
 

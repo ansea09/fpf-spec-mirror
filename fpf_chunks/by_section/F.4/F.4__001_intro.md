@@ -6,12 +6,12 @@ section_id: "F.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__001_intro.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:intro — Intro"
-line_start: 89139
-line_end: 89144
+line_start: 89695
+line_end: 89700
 dependencies:
   - "A.15"
   - "A.15.1"

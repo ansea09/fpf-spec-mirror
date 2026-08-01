@@ -6,12 +6,12 @@ section_id: "C.30.AD:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__008_bias-annotation.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5.1 — Bias-Annotation"
-line_start: 60052
-line_end: 60061
+line_start: 60224
+line_end: 60233
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,9 +78,9 @@ keywords:
 
 | Bias | How C.30.AD prevents it |
 | --- | --- |
-| Description-as-architecture bias | `ArchitectureDescription@Context` points to one `ArchitectureOf@Context`; the description does not become the architecture, selected structure, or described holon. |
-| View-as-structure bias | Every architecture structural view remains bound to `C.30.ASV` or another structure-governing pattern; C.30.AD records membership, correspondence, source return, and use boundary. |
-| Publication-as-authority bias | Publication form, dashboard polish, model-card form, or report label does not establish evidence, assurance, gate, decision, work-authorization, or release-authorization claims. |
-| Freshness-as-evidence bias | A freshness cue bounds admissible use; it does not make the description evidence-sufficient. |
-| Semio-bias in architecture work | C.30 remains centered on architecture as EntityOfConcern; C.30.AD opens only when the architecture description itself is the current EntityOfConcern. |
+| Description-as-architecture bias | `ArchitectureDescription` is a C.2.1 episteme about one exact holon, architecture-relation occurrence, or selected structure; it does not become that object or create it. |
+| View-as-structure bias | The same description episteme is a `U.View` only through an independently obtaining E.17.0 conformance relation to one exact viewpoint. `C.30.ASV` governs selected-structure adequacy; C.30.AD records description-set use and correspondence without minting membership. |
+| Publication-as-authority bias | Representation, publication occurrence, publication form, carrier, dashboard polish, model-card form, or report label does not establish description truth, empirical grounding, evidence, assurance, gate, decision, work authorization, or release authorization. |
+| Freshness-as-evidence bias | A freshness claim bounds admissible use; it does not make the description evidence-sufficient or publication-current. |
+| Semio-bias in architecture work | `C.30` governs obtaining architecture relations, exact selected structures, and architecture claims. `C.30.AD` opens when work must create, inspect, or rely on an exact description episteme with its own ClaimGraph, one EntityOfConcern, and effective `U.ReferenceScheme`. |
 

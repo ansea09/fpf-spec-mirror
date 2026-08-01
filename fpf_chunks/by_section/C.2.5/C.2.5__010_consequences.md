@@ -6,12 +6,12 @@ section_id: "C.2.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__010_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:9 — Consequences"
-line_start: 43800
-line_end: 43802
+line_start: 43822
+line_end: 43824
 dependencies:
   - "A.16"
   - "A.16.0"

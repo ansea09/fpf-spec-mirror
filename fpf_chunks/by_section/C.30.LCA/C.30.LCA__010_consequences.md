@@ -6,12 +6,12 @@ section_id: "C.30.LCA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__010_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:9 — Consequences"
-line_start: 61800
-line_end: 61805
+line_start: 62128
+line_end: 62133
 dependencies:
   - "A.10"
   - "A.20"
@@ -24,10 +24,11 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
-  - "C.30.LCA"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "E.17.0"
   - "E.18"
   - "G.6"
 keywords:
@@ -42,7 +43,7 @@ keywords:
 
 ### C.30.LCA:9 - Consequences
 
-The gain is a small, usable control-structure output that preserves common architecture language while blocking proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows what those words carry; generic stratification labels use `C.30.STRAT` before they are allowed to enter this pattern.
+The gain is a small, usable control-structure output that preserves common architecture language while blocking structure, view, and proof overread. Practitioners can still say `controller`, `plant`, `supervisor`, `feedback`, and `control layer`, but the record shows the exact selected structure, description/view boundary, and direct relations those words carry; generic stratification labels use `C.30.STRAT` first.
 
-The cost is an extra relation note before downstream reliance. When the claim being made is only recognition, that cost is small. When the claim being made is safety, stability, evidence, assurance, or gate passage, the cost is appropriate because those claims were never carried by the diagram alone.
+The cost is an extra relation or conformance note before downstream reliance. When the claim is only recognition, that cost is small. When it is view membership, safety, stability, evidence, assurance, or gate passage, the cost is appropriate because none was carried by the diagram alone.
 

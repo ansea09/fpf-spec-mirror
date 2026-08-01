@@ -6,12 +6,12 @@ section_id: "C.32:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__008_conformance-checklist.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:7 — Conformance Checklist"
-line_start: 63772
-line_end: 63784
+line_start: 64150
+line_end: 64162
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,6 +53,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "G.5"
+  - "U.Structure"
 keywords:
   - "CandidateArchitecturePalette@Project"
   - "architecture candidate synthesis"
@@ -75,5 +76,5 @@ keywords:
 | `CC-C32-5` | Compressed, generated, or view-derived candidates carry a source-return condition. | Keeps later source-use or decision-use claims tied to recoverable sources. |
 | `CC-C32-6` | Archive, front, pool-treatment, G.5 publication, local choice, and decision uses have named receiving patterns. | Keeps synthesis separate from downstream receiving claims. |
 | `CC-C32-7` | Worked slices show what changes in practice across multiple selected structures. | Keeps the pattern constructive. |
-| `CC-C32-8` | If a changing holon constrains the changed holon's architecture, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance. | Keeps transformer-side and transformed-side architectures distinct while making correspondence synthesis constructive. |
+| `CC-C32-8` | If an independently typed source constrains transformed-side architecture content for a changed referent, `C.32.CONWAY` is opened before Conway, mirroring, or inverse-Conway language is used as guidance; the source kind, its exact obtaining direct relation or precise provisional disposition, and both exact C.30 architecture sides or modal claims are named without inferring acting, Work, or transformation facts. | Keeps influence-source and transformed-side content distinct while making correspondence synthesis constructive. |
 

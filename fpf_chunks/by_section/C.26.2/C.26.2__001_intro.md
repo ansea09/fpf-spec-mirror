@@ -6,12 +6,12 @@ section_id: "C.26.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__001_intro.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:intro — Intro"
-line_start: 54000
-line_end: 54005
+line_start: 54022
+line_end: 54027
 dependencies:
   - "A.10"
   - "A.15"

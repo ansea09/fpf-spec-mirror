@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 63657
-line_end: 63746
+line_start: 64033
+line_end: 64124
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,6 +53,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "G.5"
+  - "U.Structure"
 keywords:
   - "CandidateArchitecturePalette@Project"
   - "architecture candidate synthesis"
@@ -95,6 +96,8 @@ An eval result that cohesion improved, evidence reuse decayed, coupling changed,
 
 ```text
 ArchitectureCharacteristicImprovementLoop@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureSynthesisProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-feedback or work-use pattern
   describedHolonRef:
   currentArchitectureCharacteristicPressureRefs:
   architectureCharacteristicCriteriaSetRef?:
@@ -126,7 +129,7 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | `functionBearerConsolidation` | Transfer a required function onto an existing selected structure, remove a support bearer, or propose one more general bearer for several functions. | State the functions transferred, the bearer removed or generalized, the affected architecture characteristics, the lost options, and the BLP scale window or waiver when scale advantage is claimed. |
 | `structuralSubstitution` | Replace one selected structure with another candidate structure. | State what is preserved and what is lost. |
 | `relationRetargeting` | Change an affected relation endpoint, responsibility relation, role relation, dependency relation, admissible-use boundary, or source-return relation. | Name the relation kind or boundary before using the change in a candidate. |
-| `transformerTransformedCorrespondenceSynthesis` | Coordinate candidate structures when a holon that changes another holon constrains the changed holon's architecture. | Open `C.32.CONWAY`; name the changing relation, transformer-side selected structure, transformed-side selected structure, affected architecture characteristics, expected gain, known loss, and receiving pattern. |
+| `architectureInfluenceCorrespondenceSynthesis` | Coordinate candidate structures when an independently typed architecture or other source constrains transformed-side architecture content for a changed referent. | Open `C.32.CONWAY`; name the changed referent and any independently grounded A.3.4 transformation separately; name each typed influence source by kind and its exact direct relation when an influence occurrence is asserted, otherwise keep the pressure synthesis-local with its `missing-governor`, unresolved-grounding, or false-predicate disposition; for each actual architecture side keep the exact C.30 holon, obtaining `ArchitectureRelation`, and selected `U.Structure` visible, and keep modal content in `ArchitectureClaim`; then prepare influence-source-side, transformed-side, joint, or bounded-mismatch candidates with affected architecture characteristics, expected gain, known loss, source-return condition, and receiving pattern. |
 | `decompositionOrAllocationChange` | Reallocate module, role, work, evidence responsibility, data custody, control responsibility, or variation slot across structures. | State the new boundary and migration burden. |
 | `placementOrDeploymentChange` | Change locality, deployment, material placement, installation, or maintenance access. | Name the affected structure and the latency, access, source-return, or environment burden. |
 | `flowOrControlVariant` | Change transformation flow, control depth, rate band, feedback boundary, or mediator relation. | State the timing, control, observability, or accountability burden created by the change. |
@@ -142,9 +145,9 @@ Candidate architecture changes are local C.32 entries for candidate configuratio
 | An ML functional graph includes retrieval, planning, and action, but no module-interface relation or role relation carries evidence-refresh responsibility or admissible-use control. | Treat the graph as functional structure and recover module-interface, evidence, and control structures. | Add a retrieval service with explicit evidence-refresh responsibility, add a supervisor relation, narrow model-interface behavior, or reject the candidate. |
 | A method family says the review function is automated, but no role assignment names which role-holding system carries exception responsibility. | Recover method structure, role-assignment structure, role-enactor structure, and evidence structure separately. | Add an exception role assignment, split the method step, change evidence scope, or keep the automation as source cue only. |
 
-When the architecture being synthesized belongs to a holon that changes another holon, use `C.32.CONWAY` before using Conway, mirroring, or inverse-Conway language in candidate synthesis. The practitioner names the changing relation, the transformer holon, the transformed holon, selected structures on both sides, architecture characteristics under pressure, candidate changes, expected gains, known losses, and source-return conditions.
+When one independently typed architecture-side or other source constrains transformed-side architecture content for a changed referent, use `C.32.CONWAY` before using Conway, mirroring, or inverse-Conway language in candidate synthesis. The practitioner names the changed referent and any actual A.3.4 transformation separately, each influence source by exact kind and its direct relation only when that occurrence is asserted, and, for each actual architecture side, the exact C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure`; modal architecture content stays in an exact `ArchitectureClaim`. Without an admitted and satisfied direct influence predicate, the pressure stays synthesis-local in the C.32.CONWAY frame with its `missing-governor`, unresolved-grounding, or false-predicate disposition and no exact pair row. Candidate work then names influence-source-side, transformed-side, joint, or bounded-mismatch changes, architecture characteristics under pressure, expected gains, known losses, and source-return conditions.
 
-The C.32 side keeps the candidate palette. `C.32.CONWAY` carries the correspondence frame. Transformation, work, transformation-flow, and module-interface claims belong to `A.3.4`, `E.18`, `A.15`, `C.30.TFS-REL`, or `A.6.M` when current. Structural-similarity or preservation claims belong to `C.29` when they are current.
+The C.32 side keeps the candidate palette. `C.32.CONWAY` carries the architecture-influence correspondence frame or one exact reusable pair-row episteme. Influence alone supplies no acting System, role, Work, changed-referent identity, or transformation participation. Transformation, acting and Work attribution, exact influence, transformation-flow, and module-interface claims belong to `A.3.4`, `A.12`, `A.2.1`, `A.15.1`, `F.6`, the direct influence owner, `E.18`, `C.30.TFS-REL`, or `A.6.M` when current. Structural-similarity or preservation claims belong to `C.29` when they are current.
 
 A richer dossier is optional. Open it only when one candidate must carry source views, relation notes, measurements, C.29 lens outputs, evidence notes, or failure repairs that affect the next architecture use. Ordinary C.32 use should remain one row per candidate configuration.
 

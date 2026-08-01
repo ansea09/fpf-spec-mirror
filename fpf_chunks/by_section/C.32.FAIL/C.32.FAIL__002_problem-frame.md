@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:1 — Problem frame"
-line_start: 65513
-line_end: 65569
+line_start: 65979
+line_end: 66039
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.18.NET"
   - "E.24.PUB"
   - "G.5"
 keywords:
@@ -93,10 +94,12 @@ Common exits by claim kind:
 - `C.30.AD` for architecture description and `E.17` or `E.24.PUB` for publication faces.
 - `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
 
-The first useful output is `ArchitectureRepairCue@Project`. It is the project working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
+The first useful output is `ArchitectureRepairCue@Project`. It is a working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
 
 ```text
 ArchitectureRepairCue@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureRepairCueProjectUseRelationRef?: U.RelationRef governed by the exact repair-use or work-use pattern
   symptom:
   describedHolonRef:
   boundedContextRef:
@@ -110,4 +113,6 @@ ArchitectureRepairCue@Project:
   stopCondition:
   escalationIfCurrent:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the repair cue is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `architectureRepairCueProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the cue. Any separately claimed repair Work and its own cue-use or work-to-change relation remain under their direct governors. The cue, the actual repair Work, the architecture object under stress, and the composite project Work remain distinct.
 

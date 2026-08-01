@@ -6,18 +6,24 @@ section_id: "C.32.ADA:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__014_footer-marker.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:13 — Footer marker"
-line_start: 66528
-line_end: 66531
+line_start: 67058
+line_end: 67061
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.19"
+  - "A.2.1"
+  - "A.2.6"
   - "A.21"
   - "B.3"
   - "C.16"
+  - "C.2.1"
   - "C.25"
   - "C.29"
   - "C.30.AD"
@@ -50,5 +56,5 @@ keywords:
 
 ### C.32.ADA:13 - Footer marker
 
-C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition, cites the evaluated decision relation and optional projection, evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status, names weakest blocking coordinates, assigns repair patterns and repair instructions, and avoids average-score replacement.
+C.32.ADA closes when `ArchitectureDecisionAdequacyEvaluation@Project` declares the use and stop condition; binds the exact claim scope and selected context slices, reference scheme and plane, evaluation window, and decision-question input projection; cites the evaluated decision relation and optional projection; evaluates every coordinate with an E.21 value label and rationale or grounded not-triggered status; names weakest blocking coordinates, repair patterns, and repair instructions; avoids average-score replacement; and, when actual evaluation is claimed, keeps the evaluator assignment, dated Work, operation application, and result episteme separately identified.
 

@@ -6,17 +6,20 @@ section_id: "C.32.PAD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__004_forces.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:3 — Forces"
-line_start: 65845
-line_end: 65855
+line_start: 66326
+line_end: 66336
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.6"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.21"
   - "B.2"
   - "B.2.P"
@@ -28,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.TFS-REL"
   - "C.31"
   - "C.31.ASAP"
   - "C.32"
@@ -41,6 +45,7 @@ dependencies:
   - "C.32.P2S"
   - "E.11.PUR"
   - "E.17"
+  - "E.18.NET"
   - "E.24.PUB"
   - "E.8"
   - "G.5"
@@ -62,7 +67,7 @@ keywords:
 |---|---|
 | Candidate plurality | Several candidate configurations can be valid under different trade-offs, while project work needs one current direction or a bounded exception. |
 | Trade-off visibility | Architecture characteristics compete; a decision that hides accepted losses cannot be responsibly executed or reopened. |
-| Structure and method coupling | The decision must govern intended structures of the target holon and may also prescribe developer methods that produce those structures. |
+| Structure and method coupling | The decision must govern actual or modal structure content for the described or transformed-side holon and may also prescribe developer methods intended to produce or preserve those structures. |
 | Work split | Architect-owned structure and developer-owned refinement must be separated without severing source return. |
 | Evolution | A decision must close enough work for now while staying reopenable when context, eval readings, or candidates change. |
 | Publication pressure | Teams often want an ADR file before the decision relation is recoverable. |

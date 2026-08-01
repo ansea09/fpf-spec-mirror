@@ -6,20 +6,26 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 67229
-line_end: 67313
+line_start: 67770
+line_end: 67866
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.6"
+  - "A.15.PROD"
   - "A.2.1"
+  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.3.4"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -32,6 +38,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.32"
+  - "C.35"
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
@@ -39,6 +47,7 @@ dependencies:
   - "E.18.1"
   - "F.17"
   - "F.18"
+  - "F.6"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -49,9 +58,9 @@ keywords:
 
 Recover the cultural-evolution case first, then identify the governing FPF pattern for each current value.
 
-A cultural-evolution case is a collective-holon and discipline-facing situation in which systems in roles perform related work families by related method families, while memory or canon epistemes, recognition and selection regimes, mediation systems or architectures, measurement or visibility relations, and publication forms preserve, transmit, select, suppress, or refresh variants.
+A cultural-evolution case is a collective-holon and discipline-facing situation in which admitted Systems may perform exact dated Work under exact obtaining role assignments, those Work occurrences may enact exact Methods, and separately identified work and method families may organize comparison, while memory or canon epistemes, recognition and selection regimes, mediation systems or architectures, measurement or visibility relations, and publication forms preserve, transmit, select, suppress, or refresh variants. The case card records the constellation without making a family, assignment, Method, episteme, or selected structure act.
 
-Cultural-evolution engineering is deliberate intervention into one or more of those relations. The intervention may change generation, transmission, selection, recognition, memory, method-family, work-family, role-assignment, mediation, architecture, work-plan, performed-work, measurement, or refresh relations.
+Cultural-evolution engineering proposes or performs deliberate intervention concerning one or more of those relations. The intended intervention may target generation, transmission, selection, recognition, memory, method-family, work-family, role-assignment, mediation, architecture, work-plan, performed-work, measurement, or refresh relations. A card or intention establishes none of the performed Work, actual transformation, effect, measurement, or selected structure; each positive claim needs its direct governor.
 
 Keep three record forms available:
 
@@ -84,10 +93,12 @@ For music and dance, a label such as `prog`, `post-prog`, `contemporary`, `hip-h
 
 #### C.36:4.2 - Intervention Card
 
-Use an intervention card when the project deliberately changes part of the cultural-evolution case.
+Use an intervention card when one project proposes or performs a deliberate intervention concerning part of the cultural-evolution case. If actual performance or effect is claimed, name the exact performer System, obtaining role assignment, dated Work, F.6 attribution, actual change, and direct Work-to-change or effect claim that make that branch true.
 
 ```text
 CulturalEvolutionInterventionCard@Project:
+  ProjectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  InterventionCardProjectUseRelationRef?: U.RelationRef governed by the exact intervention-use or work-use pattern
   InterventionRef:
   CulturalEvolutionCaseRef:
   ProblemCardRef?:
@@ -99,15 +110,25 @@ CulturalEvolutionInterventionCard@Project:
   AffectedSelectionOrRecognitionRegimeRefs?:
   AffectedMediationSystemOrArchitectureRefs?:
   VariantSetOrPortfolioRefs?:
-  TransformationFlowStructureRef?:
+  TransformationFlowStructureRef?: exact independently selected E.18 TransformationFlowStructure
   P2WCarryThroughRef?:
   WorkPlanRef?:
-  WorkOccurrenceRef?:
-  MeasurementOrEffectRef?:
+  InterventionPerformerSystemRef?:
+  InterventionRoleAssignmentRef?:
+  PerformedInterventionWorkOccurrenceRef?: U.EntityRef constrained to one independently admitted U.Work
+  InterventionWorkAttributionRef?: U.RelationRef constrained to the exact F.6 performedUnderAssignment occurrence
+  ActualTransformationRefs?:
+  WorkToTransformationOrEffectClaimRefs?:
+  MeasurementRefs?:
+  EffectClaimOrRelationRefs?:
   RefreshRef?:
 ```
 
-The intervention card does not authorize work. It names the relation being changed and the next governing pattern: `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` for performed work, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.30` for architecture, or `G.11` for refresh.
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the intervention card is genuinely used in one actual project, `ProjectWorkOccurrenceRef` identifies the exact composite `U.Work` and `InterventionCardProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the card. The suffix or either reference alone establishes no project locality. The intended intervention, card, and composite project Work remain separately identifiable.
+
+When performed intervention Work is current, `PerformedInterventionWorkOccurrenceRef` identifies one independently admitted dated `U.Work`; the performer System, exact obtaining assignment, F.6 attribution, enacted Method, extent, and containing System remain governed by A.15.1, A.2.1, and F.6. `ActualTransformationRefs` may cite only exact A.3.4 bounded changes. `TransformationFlowStructureRef` instead cites one independently selected E.18/A.22 structure; adjacency or membership in it proves neither actual change nor Work-to-change. Any positive link from intervention Work to an actual transformation or other effect must cite its exact direct predicate, an admitted A.6.RCD local claim, or the relevant A.15.PROD branch; otherwise return the exact `missing-governor`. Measurement refs and effect claims remain separate: observing a value neither creates nor proves the effect.
+
+The intervention card does not authorize Work and its targeted relation is not an obtaining-effect claim. It names the proposed intervention, the relation being targeted, and the next governing pattern: `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` and `F.6` for performed Work, `A.3.4` for actual change, `A.15.PROD` or an exact direct/local claim for production or Work-to-change, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.35` when a generated or discovered structure-bearing carrier needs admission before architecture use, `C.30` for direct architecture questions, or `G.11` for refresh.
 
 #### C.36:4.3 - Evolution Sense Split
 

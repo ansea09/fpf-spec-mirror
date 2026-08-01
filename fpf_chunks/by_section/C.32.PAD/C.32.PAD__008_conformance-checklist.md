@@ -6,17 +6,20 @@ section_id: "C.32.PAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__008_conformance-checklist.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:7 — Conformance Checklist"
-line_start: 65967
-line_end: 65980
+line_start: 66457
+line_end: 66472
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.6"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.21"
   - "B.2"
   - "B.2.P"
@@ -28,6 +31,7 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.30.TFS-REL"
   - "C.31"
   - "C.31.ASAP"
   - "C.32"
@@ -41,6 +45,7 @@ dependencies:
   - "C.32.P2S"
   - "E.11.PUR"
   - "E.17"
+  - "E.18.NET"
   - "E.24.PUB"
   - "E.8"
   - "G.5"
@@ -60,7 +65,7 @@ keywords:
 
 | Requirement | Required result |
 |---|---|
-| `CC-PAD-1` | The decision subject, described holon, bounded context, and decision question are explicit. |
+| `CC-PAD-1` | The exact composite project `U.Work` participant, decision subject, described holon, bounded context, and decision question are explicit. |
 | `CC-PAD-2` | The decision cites candidate basis from `C.32` or a named receiving candidate pattern, or states why no candidate-set question is live. |
 | `CC-PAD-3` | The selected architecture option or bounded exception is named. |
 | `CC-PAD-4` | Affected selected structures are named with governing pattern refs. |
@@ -69,4 +74,6 @@ keywords:
 | `CC-PAD-7` | The architect-developer split, source-return condition, and reopen conditions are recorded. |
 | `CC-PAD-8` | Triggered holon-transition or BOSC boundary pressure cites `B.2.P` or `B.2`, and structural-information loss or compression cites `C.29`. |
 | `CC-PAD-9` | ADR-like publication, evidence, assurance, gate, comparison, selection, selected-set publication, local choice, and work claims exit to their receiving patterns. |
+| `CC-PAD-10` | Any project system-of-interest ref denotes one independently admitted existing `U.System`; a pre-inception intended referent stays in claim content; `SystemOfInterestRole` use cites its named A.2 taxonomy interpretation and a separately obtaining A.2.1 assignment. Decision designation, role, assignment, and direct facts neither entail one another nor establish the missing compound project-selection truth. |
+| `CC-PAD-11` | Any network ref resolves to one independently selected E.18.NET structure, its project-question judgment stays in a separate C.2.1 episteme, and architecture use docks through C.30.TFS-REL. A PAD decision, network record, C.32.CONWAY frame, or exact pair row creates no member, cross-flow occurrence, influence occurrence, architecture relation, or actual structure effect. |
 

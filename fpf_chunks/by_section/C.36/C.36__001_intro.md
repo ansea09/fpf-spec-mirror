@@ -6,20 +6,26 @@ section_id: "C.36:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__001_intro.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:intro — Intro"
-line_start: 67123
-line_end: 67133
+line_start: 67663
+line_end: 67673
 dependencies:
   - "A.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.6"
+  - "A.15.PROD"
   - "A.2.1"
+  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.3"
+  - "A.3.4"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -32,6 +38,8 @@ dependencies:
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
+  - "C.32"
+  - "C.35"
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
@@ -39,6 +47,7 @@ dependencies:
   - "E.18.1"
   - "F.17"
   - "F.18"
+  - "F.6"
   - "F.9"
   - "G.11"
   - "G.5"
@@ -53,6 +62,6 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part C
-> **Builds on:** `A.1`, `A.2.1`, `A.3.1`, `A.15`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18.1`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
+> **Builds on:** `A.1`, `A.2.1`, `A.3.1`, `A.3.4`, `A.15`, `A.15.1`, `A.15.6`, `A.15.PROD`, `A.22`, `C.18`, `C.19`, `C.20`, `C.23`, `E.18`, `E.18.1`, `F.6`, `F.9`, `F.17`, `F.18`, `G.5`, and `G.11`.
 > **Purpose:** make cultural-evolution and cultural-evolution-engineering cases usable in FPF without minting parallel root kinds for culture, style, tradition, genre, practice, platform, regime, or technique.
 

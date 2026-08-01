@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:4 — Solution"
-line_start: 65345
-line_end: 65400
+line_start: 65811
+line_end: 65866
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -78,7 +78,7 @@ Admit a residual-reducing candidate only when it answers the working questions: 
 | `repairFunctionBearerGap` | A residual-reducing functional change has no feasible bearer at the affected declared holon-level ref or declared scope ref. | Adds or changes bearer, splits function, changes placement or resource access, changes control responsibility, or rejects the candidate. |
 | `addEvidenceScope` | Reusable candidate bearer lacks reusable evidence scope. | Makes evidence maintenance part of the candidate; A.10 evidence-relation validity or sufficiency claims belong to `A.10` when they are current. |
 | `addWorkMethodScope` | Repeated work remains bespoke because method structure is missing. | Transfers repeated work into method structure and names review or training burden. |
-| `repairTransformerTransformedCorrespondence` | The residual is carried by mismatch between a changing holon's architecture and the architecture of the holon being changed. | Opens `C.32.CONWAY`; prepares candidate alternatives that change the transformer side, change the transformed side, change both, or keep a bounded mismatch. |
+| `repairArchitectureInfluenceCorrespondence` | The residual is carried by mismatch between one exact typed influence-side architecture source and transformed-side architecture content for the changed referent. | Open `C.32.CONWAY`; keep the changed referent and any actual A.3.4 `U.Transformation` separate, then prepare candidate alternatives that change the influence-source side, change the transformed side, change both, or keep a bounded mismatch. |
 | `acceptBoundedException` | Eliminating the residual costs too much now. | Records exception, source-return condition, and reopen trigger. |
 
 **Comparison-input boundary.** C.32.MLAO prepares comparison inputs; it does not run the comparison or choose a candidate. Its output rows are candidate records with residual reduced, new burden, selected structures, preserved structure, lost structure, source-return condition, and optional C.29 lens-output references.
@@ -99,7 +99,7 @@ If the current claim is explicit comparison, use `A.19.CPM` with admitted profil
 
 **Functional-bearer feasibility discipline.** A residual-reducing functional change is not admissible until the function has a bearer under the module, placement, resource, control, information, and evidence constraints declared for the case. If no bearer exists, the residual-reducing candidate must add a bearer, split the function, change placement or resource access, change control responsibility, reduce the demand, or return to C.32 as an unfit candidate.
 
-**Transformer and transformed holon discipline.** When the residual is created by a holon that changes another holon, use `C.32.CONWAY`. Keep the transformer architecture and transformed-holon architecture distinct; then prepare residual-reducing candidates that change the transformer side, the transformed side, both sides, or a bounded mismatch as comparison inputs or downstream candidate alternatives. Transformation, flow, work, and module-interface claims belong to `A.3.4`, `E.18`, `A.15`, or `A.6.M` when current. Structural-similarity claims belong to `C.29` only when they are current.
+**Architecture-influence and transformed-side discipline.** When a residual is carried by one independently typed architecture-side source constraining architecture content for a changed referent, use `C.32.CONWAY`. For each actual side, keep the exact C.30 described holon, obtaining `ArchitectureRelation`, and selected `U.Structure` together; keep candidate, required, desired, or expected content in an exact C.30 `ArchitectureClaim`. Keep the changed referent and any actual A.3.4 `U.Transformation` separate. Then prepare residual-reducing candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch as comparison inputs or downstream candidate alternatives. Influence, transformation, flow, Work, and module-interface claims belong to their exact relation owner, `A.3.4`, `E.18`, `A.15`, or `A.6.M` when current. Structural-similarity claims belong to `C.29` only when they are current.
 
 **Level, stratification-term, and whole-reidentification discipline.** If the case uses `level`, `system level`, `holon level`, `layer`, `tier`, or another stratification term, first use `E.10.ARCH` and `C.30.STRAT` unless the direct governing pattern and recovered neighborhood are already named by value. If the case uses `BOSC`, `MHT`, `MET`, `MFT`, emergence-family, boundary-crossing, or promotion-like wording, first use `E.10` and `B.2.P` to recover the claim kind. Use `B.2` only when a whole-reidentification question remains after the existing-whole explanation check; otherwise use the direct governing pattern for architecture, boundary, capability, function, measurement, publication, work, or lens claims.
 

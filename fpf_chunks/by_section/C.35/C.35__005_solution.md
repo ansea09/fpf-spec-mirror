@@ -6,15 +6,20 @@ section_id: "C.35:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:4 — Solution"
-line_start: 67006
-line_end: 67028
+line_start: 67546
+line_end: 67568
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.22"
+  - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -35,7 +40,9 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
+  - "C.36"
   - "E.18"
+  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -61,9 +68,9 @@ Read the note as an admission check between generation and architecture work. Th
 Work in this order:
 
 1. Name the grounded architecture question and selected source structure refs. If no grounded architecture question exists, return to `C.30`, `C.32.P2S`, or `C.32`.
-2. Name the generation or discovery method and search or query space: DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method.
-3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace.
-4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present.
+2. Name the generation or discovery Method and search or query space: DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method. When actual performed generation or discovery is part of the claim, separately name the dated `U.Work`, its exact A.15.1/F.6 basis, and the direct production, discovery-use, or work-to-change claim on which this note relies.
+3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace. Naming it as produced does not by itself establish which Work produced it, entity-identity inception, production completion, or a relation to an actual transformation; cite the exact direct or local claim when any of those assertions is current.
+4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present. If an actual change is claimed, also cite the independently identified A.3.4 `U.Transformation`; the trace and the selected A.22 structures remain separate from that occurrence.
 5. State candidate-admission condition. Route to `C.32` only when the described structure can be used as a candidate configuration or candidate-generation input under selected structures, architecture characteristics, constraints, gains, losses, and carrier-admission return.
 6. State bearer or realization boundary. Use `bearerFeasibilityQuestionRef?` only when the direct governing pattern has opened a separate software, physical, organizational, method, role, or epistemic bearer-feasibility question.
 7. Route selected-set publication, archive, front, and pool policy to `G.5`, `C.18`, or `C.19`.

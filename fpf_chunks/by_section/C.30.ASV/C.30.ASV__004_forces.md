@@ -6,12 +6,12 @@ section_id: "C.30.ASV:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__004_forces.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:3 — Forces"
-line_start: 60901
-line_end: 60911
+line_start: 61150
+line_end: 61160
 dependencies:
   - "A.1"
   - "A.10"
@@ -26,6 +26,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.28"
@@ -68,10 +69,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| View usefulness vs view overread | Views make architecture discussable, but a useful publication form or source material can be mistaken for the architecture claim, selected structure, publication, proof, or decision. |
-| Structure kind vs viewpoint | A structure kind classifies selected structure; a viewpoint names a way of viewing. They often appear together but are not the same kind. |
-| TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core by implication. |
-| Small triage vs full view record | Many cases need only the structure kind under consideration and next architecture use; full view records are justified only when they change action. |
+| View usefulness vs view overread | Views make architecture discussable, but a useful description episteme, diagram, or publication form can be mistaken for architecture, selected structure, view membership, proof, or decision. |
+| Structure kind vs viewpoint | A structure kind classifies selected structure; one exact viewpoint episteme states the rules under which the same candidate episteme is a view. They often appear together but are not the same object. |
+| TEVB reuse vs TEVB mutation | TEVB gives useful engineering viewpoints over holons; architecture needs more structure kinds without expanding the TEVB core or deriving view membership from bundle inclusion. |
+| Small triage vs full view record | Many cases need only the structure kind under consideration and next architecture use; the full description-plus-conformance record is justified only when it changes action. |
 | Multi-view correspondence vs single-view shortcut | Architecture work often needs relations among functional, flow, control, module, information, work, evidence, scale, and placement views; one favored diagram cannot carry all claims. |
 | Hidden structure vs practical compression | A useful view omits something; omitted structure becomes a problem only when subsequent action relies on it. |
 

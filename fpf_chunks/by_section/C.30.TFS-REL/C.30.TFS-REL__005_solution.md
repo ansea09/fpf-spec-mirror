@@ -6,18 +6,19 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 62167
-line_end: 62398
+line_start: 62516
+line_end: 62743
 dependencies:
   - "A.10"
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.5"
   - "A.6.F"
@@ -29,6 +30,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
@@ -38,12 +40,12 @@ dependencies:
   - "C.34"
   - "C.35"
   - "E.10"
-  - "E.17"
   - "E.17.0"
   - "E.18"
   - "E.18.2"
   - "E.18.3"
   - "E.18.NET"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -51,54 +53,29 @@ keywords:
 
 ### C.30.TFS-REL:4 - Solution
 
-C.30.TFS-REL is the C.30 entry relation to E.18 and E.18.NET when a grounded architecture claim, selected architecture-relevant structure, architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation as an architecture-relevant transformation-flow relation.
+C.30.TFS-REL is the C.30 entry record to E.18 and E.18.NET when an actual architecture relation, selected architecture-relevant structure, exact architecture structural view, or conditional architecture description uses one selected `TransformationFlowStructure`, one selected `TransformationFlowStructureNetwork`, or a current path, crossing, or flow valuation.
 
-It supplies only the architecture-to-transformation-flow relation:
+It supplies only the architecture-to-transformation-flow use boundary. Use the full field set shown in section 1; no filled field makes a direct relation obtain.
 
 ```text
-ArchitectureTransformationFlowStructureRelation@Context ::= {
-  architectureClaimRef?,
-  selectedArchitectureStructureRefs?,
-  architectureStructuralViewRef?,
-  architectureDescriptionRef?,
-  functionalStructureViewRef?,
-  functionalElementRefs?,
-  functionalBehaviorRefs?,
-  transformerSideFillerRefs?,
-  candidateBearerRefs?,
-  inputConditionRefs?,
-  outputConditionRefs?,
-  functionalPortRefs?,
-  transformationFlowStructureViewRef?,
-  transformationFlowStructureRef?,
-  transformationFlowStructureNetworkRef?,
-  networkCrossFlowRelationRowRefs[]?: E.18.NET NetworkCrossFlowRelationRowRef,
-  networkArchitectureUseBranch?,
-  containingArchitectureClaimRef?,
-  participatingArchitectureClaimRefs[]?,
-  noArchitectureOfNetworkBearerAsserted?,
-  transformationFlowUnfoldingStructureRef?,
-  selectedPathOrSliceRefs?,
-  crossingBundleRefs?,
-  flowValuationRefs?,
-  mathematicalDescriptionRefs?,
-  mathLensUseRefs?,
-  correspondenceRefs?,
-  sourcePublicationOrEditionRef?,
-  extractionOrProbeLocusRef?,
-  relationObservationClassRef?,
-  unexploredRegionRefs?,
-  hiddenRelationStructureReturnCondition?,
-  admissibleUse,
-  nonAdmissibleUse
-}
+ArchitectureTransformationFlowStructureRelation minimum:
+  architectureLocusRef: exactly one actual ArchitectureRelation,
+    selected architecture U.Structure, exact description/view episteme,
+    or bounded ArchitectureClaim used by this question
+  flowLocusRef: exactly one E.18 TFS, E.18.NET network,
+    unfolding, member-local path/slice/crossing, or valuation
+  requiredOrDesiredEffectClaimRefs?: claim content only
+  actualTransformationRefs?: only with complete A.3.4 basis
+  networkArchitectureUseBranch?: one complete branch from section 4.4a
+  admissibleUse:
+  nonAdmissibleUse:
 ```
 
 At least one architecture-side field and at least one E.18 or E.18.NET field must be named by value. Network branch fields obey `C.30.TFS-REL:4.4a`; other optional fields stay `not used` unless they change inspection, correspondence, hidden relation-structure return, governing-pattern application, or stop.
 
 #### C.30.TFS-REL:4.1 - Use trigger
 
-Use this pattern only when an `ArchitectureOf@Context` claim being made, selected architecture-relevant structure, architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription@Context` use depends on one or more E.18 or E.18.NET objects:
+Use this pattern only when an actual `ArchitectureRelation` occurrence, selected architecture-relevant structure, exact architecture structural view, functional-structure view, transformation-flow-structure claim, or conditional `ArchitectureDescription` use depends on one or more E.18 or E.18.NET objects:
 
 - `TransformationFlowStructureRef`;
 - `TransformationFlowStructureNetworkRef`, when architecture use selects an E.18.NET-conforming network;
@@ -107,34 +84,43 @@ Use this pattern only when an `ArchitectureOf@Context` claim being made, selecte
 - flow valuation over the `U.Transfer` relation;
 - edition, plane, or context pin;
 - no-hidden-scalarization or set-return discipline;
-- correspondence between functional structure and transformation-flow structure;
-- generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow relation.
+- a correspondence claim or independently governed relation between functional structure and transformation-flow structure;
+- a generated or extracted relation graph used as candidate input for the architecture-to-transformation-flow use.
 
-If the sentence only says that Work occurred, use A.15 or the governing Work pattern. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
+If the sentence only says that Work occurred, use A.15 or the governing Work pattern. If it says that an actual referent changed, use A.3.4 before citing a `U.Transformation`. If it only says that one selected TFS exists, use E.18; if it only says that one independently identified E.18.NET-conforming TFS network is selected, use E.18.NET. If the sentence uses a graph-shaped expression as mathematical description, use E.18.2. If it relies on a mathematical lens, use C.29.
 
-Use `transformationFlowUnfoldingStructureRef?` only when the architecture relation depends on an `E.18.3` transformation-flow unfolding structure: the selected E.18 structure is being unfolded toward next architecture, decision, work, feedback, narrative, or refresh uses under constraints and direct exits. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow relation.
+Use `transformationFlowUnfoldingStructureRef?` only when the architecture use depends on an `E.18.3` transformation-flow unfolding structure: the selected E.18 structure is being unfolded toward next architecture, decision, work, feedback, narrative, or refresh uses under constraints and direct exits. Generic architecture use of a constraint-governed unfolding structure belongs in `C.32.P2S` or the direct C.30 architecture governing pattern; this pattern keeps only the architecture-to-transformation-flow trace.
 
 #### C.30.TFS-REL:4.2 - Relation to functional structure
 
-`FunctionalStructureView@Context` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation@Context` when a transformation-flow relation is being used. That relation does not make the selected E.18 structure a functional element and does not make a functional element identical with the system, module, method, or flow. It says that a functional structure view, functional behavior, or selected functional element corresponds to, is declared relative to, or positively co-refers with one E.18 selected structure, path, crossing, or valuation relation under a named context.
+A `FunctionalStructureView` under C.30.ASV may cite `ArchitectureTransformationFlowStructureRelation` when a transformation-flow use is current. That record does not make the selected E.18 structure a functional element or actual transformation, and does not make a functional-element claim identical with the system, module, method, bearer, or flow. It states a bounded claim or trace that exact functional-view content corresponds to, is declared relative to, or positively co-refers with one exact E.18 selected structure, member-local path, crossing, or valuation.
 
-`FunctionalElement@Context` is a view-local functional-structure record governed by C.30.ASV, not a new root kind. It is current only when C.30.ASV has a selected functional structure view, bounded context, functional behavior, and bearer or candidate-bearer locus. Its functional behavior may be a bounded `U.Transformation` or a compound `TransformationFlowStructure`; its transformer-side filler is recovered through A.3.4 when a transformer claim is current; its module relation is allocation or correspondence through A.6.M. A graph-shaped expression, path, valuation, or flow packet is therefore not the functional element by default.
+Keep the same three branches used by C.30.ASV:
+
+- `functionalBehaviorClaimRefs` and `requiredOrDesiredEffectClaimRefs` remain C.2.1 claim content under their requirement, architecture, capability, method, functional-view, or other direct owner;
+- `actualTransformationRefs` cite only independently identified A.3.4 occurrences with exact changed referent, boundary or extent, boundary conditions, actual before/during/after facts, and continuity or reidentification basis;
+- `selectedTransformationFlowStructureRefs` cite exact E.18 structures, which may organize several independently identified transformations and transfers but are not themselves required effects or actual transformations.
+
+A `FunctionalElementClaim` is a bounded C.2.1 claim about one exact selected functional structure. Its bearer or candidate-bearer locus, capability, port, allocation, transformation, and correspondence refs retain their direct owners. A graph-shaped expression, path, valuation, required-effect statement, or flow packet is therefore not the functional element by default.
 
 ```text
 FunctionTransformationFlowRelationNote:
 functionalStructureViewRef:
-functionalElementRef?:
-functionalBehaviorRef?: U.Transformation | TransformationFlowStructure
+functionalElementClaimRef?:
+functionalBehaviorClaimRefs?:
+requiredOrDesiredEffectClaimRefs?:
+actualTransformationRefs?:
+selectedTransformationFlowStructureRefs?:
 transformerSideFillerRef?:
 candidateBearerRef?:
 inputConditionRefs?:
 outputConditionRefs?:
 functionalPortRefs?:
-transformationFlowStructureViewRef:
+transformationFlowStructureViewRef?:
 architectureTransformationFlowStructureRelationRef:
-pathOrSliceRef:
-crossingBundleRef:
-correspondenceOrCoReferenceClaim:
+pathOrSliceRef?:
+crossingBundleRef?:
+correspondenceClaimOrRelationRefs?:
 preservedStructure:
 lostOrHiddenStructure:
 sourcePublicationOrEditionRef?:
@@ -146,11 +132,13 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, claim-governance assignment named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for bounded transformation and transformer slots, A.6.M for module-allocation claims and module-correspondence claims, and E.18 for selected transformation-flow structure.
+**Required-cooling-effect / later-actual-cooling countercase.** `RequiredCoolingEffect-1` can require exact Rack 7 to be below 30 °C and can correspond to a selected cooling-flow structure before any change occurs. In that first use, fill `requiredOrDesiredEffectClaimRefs` and the selected TFS fields; leave `actualTransformationRefs` empty. A later `Rack7CoolingTransformation-42` is actual only when A.3.4 fixes Rack 7 as the changed referent, its thermal boundary and operating/ambient conditions, actual 38 °C before facts, actual heat-removal during facts, actual 27 °C after facts, and continuity or reidentification of Rack 7. Even then, a separate satisfaction or realization predicate is needed before claiming that the actual transformation satisfies the earlier requirement.
 
-`FunctionTransformationFlowRelationNote` is the one-TFS form. When architecture use selects a network, use the top-level `ArchitectureTransformationFlowStructureRelation@Context` and the branch in `C.30.TFS-REL:4.4a`. Name a member TFS in this note only when the function correspondence is actually to that member; membership in the selected network alone does not create a function correspondence.
+Use this note when the practitioner needs to see whether the function-to-transformation-flow relation changes inspection, split, relation-making, downgrade, claim-governance assignment named by value, candidate generation, or stop. Use C.30.ASV for the functional structure view, A.6.F for function-like wording recovery, A.3.4 for an actual transformation, A.6.M for module-claim repair and the direct allocation/interface owner, and E.18 for selected transformation-flow structure.
 
-When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this relation. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description does not become architecture adequacy, evidence, assurance, gate passage, selected-set publication, or decision by serving as a candidate input.
+`FunctionTransformationFlowRelationNote` is the one-TFS form. When architecture use selects a network, use the top-level `ArchitectureTransformationFlowStructureRelation` and the branch in `C.30.TFS-REL:4.4a`. Name a member TFS in this note only when the function correspondence is actually to that member; membership in the selected network alone does not create a function correspondence.
+
+When several transformation-flow variants are kept or compared as candidate architecture inputs, keep each selected transformation-flow structure, path, crossing, valuation, graph-shaped expression, or mathematical description under `E.18`, `E.18.2`, and this record. Apply `C.32` only to the architecture candidate palette that uses those selected structures. The graph, path, and flow description does not become architecture adequacy, evidence, assurance, gate passage, selected-set publication, or decision by serving as a candidate input.
 
 #### C.30.TFS-REL:4.3 - Claim-kind applications named by value
 
@@ -171,99 +159,109 @@ This table is the single boundary for generic non-flow claims. Elsewhere in this
 
 #### C.30.TFS-REL:4.4 - E.18 selected-structure boundary statement
 
-For an E.18-governed selected `TransformationFlowStructure` used by `ArchitectureOf@Context`, selected architecture-relevant structure, architecture structural view, or conditional `ArchitectureDescription@Context`, an architecture-to-transformation-flow relation may cite the selected E.18 structure over the described holon plus MVPK faces and correspondences.
+For an E.18-governed selected `TransformationFlowStructure` used by an actual `ArchitectureRelation` occurrence, exact selected architecture structure, `ArchitectureStructuralView` episteme, or conditional `ArchitectureDescription` episteme, the architecture-use record may cite that exact E.18 structure plus MVPK faces and correspondence claims or independently governed relations.
 
-Grounded architecture adequacy and conditional architecture-description use are governed by C.30. E.18 supplies selected transformation-flow structure objects and relations; it does not define all architecture structure kinds.
+Grounded architecture adequacy and bounded architecture claims are governed by C.30; description identity by C.30.AD; view conformance by E.17.0 and C.30.ASV. E.18 supplies selected transformation-flow structures and relations; it does not define all architecture structure kinds, create an architecture relation, or turn required flow content into actual change.
 
-This is the named E.18 selected-structure boundary statement for this relation. It is not a second E.18 source of truth and does not depend on a section number staying stable.
+This is the named E.18 selected-structure boundary statement for this pattern. It is not a second E.18 source of truth and does not depend on a section number staying stable.
 
 #### C.30.TFS-REL:4.4a - Architecture use of a transformation-flow structure network
 
-First ask whether one exact `ArchitectureOf@Context` claim for a named holon includes the selected network in `structureRefs`. If it does not, ask whether the architecture question relies on claims for several named holons while no containing holon has been grounded. Select exactly one branch; a connected diagram does not answer either question.
+First ask whether one exact named containing holon has an independently obtaining `ArchitectureRelation` whose exact selected structure is the same `transformationFlowStructureNetworkRef`. If not, ask whether the architecture question instead spans several exact named holons while no containing holon has been grounded. Select exactly one branch; a connected diagram, network record, list, or common claim label does not answer either question.
 
-1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingArchitectureClaimRef: ArchitectureOf@Context` whose `describedHolonRef` identifies the containing holon and whose `structureRefs` include the same exact `transformationFlowStructureNetworkRef`; keep `participatingArchitectureClaimRefs[]` and `noArchitectureOfNetworkBearerAsserted` absent. Member TFS values and their Work, valuations, boundaries, and direct relations remain independently governed.
-2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two exact `ArchitectureOf@Context` claims with distinct `describedHolonRef` values in `participatingArchitectureClaimRefs[]`. Include exactly the claims whose selected structures or architecture characteristics this inter-holon question relies on; a network member whose architecture is not used by the question stays outside this array. Keep `containingArchitectureClaimRef` absent and set `noArchitectureOfNetworkBearerAsserted=true`. This states an architecture relation question spanning the named holons; it does not invent a holon or an `ArchitectureOf@Context` claim whose bearer is the network.
+1. **Named containing-holon use.** Set `networkArchitectureUseBranch=namedContainingHolon`. Name exactly one `containingHolonRef` and one actual `containingArchitectureRelationRef` whose selected structure is the same exact network. `containingArchitectureClaimRef` is optional claim/trace content. Keep all participating arrays and `noNetworkBearerHolonAsserted` absent. Member TFS values and their Work, valuations, boundaries, actual transformations, and direct relations remain independently governed.
+2. **Explicit inter-holon use.** Set `networkArchitectureUseBranch=explicitInterHolon`. Put at least two exact distinct holons in `participatingHolonRefs[]`. Add exactly the actual `participatingArchitectureRelationRefs[]` and bounded `participatingArchitectureClaimRefs[]` on which this question relies; a network member whose architecture is not used by the question stays outside those arrays. Keep all containing fields absent and set `noNetworkBearerHolonAsserted=true`. This states one architecture-use question spanning named holons; it does not invent a containing holon, architecture relation, or characteristic bearer whose identity is the network.
 
-Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, `architectureClaimRef` when present equals `containingArchitectureClaimRef`, each value in `selectedArchitectureStructureRefs` is selected by that claim, and each architecture structural view, architecture description, or functional structure view used by this relation points through that claim. In `explicitInterHolon`, each such reference points through one named participating claim; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another architecture claim, add that claim as a participant only when the current question actually relies on it, or use a separate relation record.
+Every other populated architecture-side reference must agree with the selected branch. In `namedContainingHolon`, each value in `selectedArchitectureStructureRefs` belongs to the containing architecture relation's selected structure route, and each structural view, architecture description, functional structure view, or architecture claim used by this record traces to the same exact containing holon and relation. In `explicitInterHolon`, each such reference traces to one named participating holon and, when actual, its exact architecture relation; a singular reference names only that participant and does not imply a containing architecture. If a reference depends on another holon or architecture relation, add it only when the current question actually relies on it, or use a separate record.
 
-The branches are mutually exclusive. When `transformationFlowStructureNetworkRef` is absent, `networkCrossFlowRelationRowRefs[]` and all network branch fields are absent. A network ref without one complete branch is not ready for architecture use. When the record also names a path, slice, crossing, or valuation, bind it to the exact member TFS and the local positions or bindings that own it. When it names a network-aware unfolding, that E.18.3 locator must select the same exact network and preserve its admitted position mappings. The network ref does not lift member-local values into network-global state.
+The branches are mutually exclusive. When `transformationFlowStructureNetworkRef` is absent, `networkCrossFlowRelationRowRefs[]` and all network branch fields are absent. A network ref without one complete branch is not ready for architecture use. When the record also names a path, slice, crossing, valuation, required effect, or actual transformation, bind it to the exact member TFS and the local positions, participants, or bindings that own it. When it names a network-aware unfolding, that E.18.3 locator must select the same exact network and preserve its admitted position mappings. The network ref does not lift member-local values into network-global state.
 
-Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locators. Each locator's current containing record must describe the same exact selected network, and the occurrence plus complete ordered endpoint-binding identity must resolve exactly one nested row. Zero matches, several matches, or a record for a different network stop this architecture use. The locator identifies the row; it neither creates the relation occurrence nor changes its direct governor.
+Use `networkCrossFlowRelationRowRefs[]` only for E.18.NET-owned composite locators. Each locator's current containing record must describe the same exact selected network, and the direct occurrence plus complete ordered endpoint-binding identity must resolve exactly one nested row. Zero matches, several matches, or a record for a different network stop this architecture use. The locator identifies the row; it neither creates the relation occurrence nor changes its direct governor.
 
-For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this relation, name the exact holon, `ArchitectureOf@Context` claim, selected structure, view, relation, or other bearer governed by C.30. A network may have selected structural facts, such as its members, relations, recursion, or exposed positions; those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, or production.
+For every maintainability, capability, responsibility, production, safety, or other architecture-characteristic claim made or used by this record, name the exact holon, actual architecture relation, selected structure, description/view episteme, bounded claim, or other bearer governed by C.30 or the characteristic's direct owner. A network may have selected structural facts—members, relations, recursion, or exposed positions—but those facts do not make an unnamed network the bearer of holon characteristics, agency, Work, production, required effects, or actual transformations.
 
-A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord@Context` is neither branch and does not enter architecture identity. It may describe the selected network only under its description or publication pattern.
+A network diagram, member graph, mathematical description, publication, or `TransformationFlowStructureNetworkRecord` is neither branch and does not enter architecture identity. It may represent, describe, or publish the selected network only under its direct representation, description, or publication pattern.
 
-**Named containing-holon case.** `ArchitectureOf@ManufacturingPlatform` names the manufacturing platform as `describedHolonRef` and includes one product-development/production-system-change network in `structureRefs`. C.30.TFS-REL may use that network to localize an architecture change while each member TFS and production relation keeps its own owner.
+**Named containing-holon case.** Exact holon `ManufacturingPlatform-7` has one obtaining architecture relation whose selected structure includes the product-development/production-system-change network. C.30.TFS-REL may use that network to localize an architecture change while each member TFS, production relation, Work occurrence, and actual transformation keeps its own owner.
 
-**Explicit inter-holon case.** A supplier architecture claim and a plant architecture claim use one selected E.18.NET-conforming supply-linked TFS network to inspect a cross-company dependency. Both claims appear in `participatingArchitectureClaimRefs[]`; no containing supply-chain holon has been grounded, so `noArchitectureOfNetworkBearerAsserted=true`. The network is not called the architecture of an unnamed enterprise.
+**Explicit inter-holon case.** Exact supplier holon and exact plant holon use one selected E.18.NET-conforming supply-linked TFS network to inspect a cross-company dependency. Both appear in `participatingHolonRefs[]`, with only the actual architecture relations and claims the question uses in their corresponding arrays. No containing supply-chain holon has been grounded, so `noNetworkBearerHolonAsserted=true`. The network is not called the architecture of an unnamed enterprise.
 
 #### C.30.TFS-REL:4.5 - Worked slices
 
 **Functional architecture with a transformation-flow relation being claimed.** A team says, "The functional architecture is this flow diagram." The repair is:
 
 ```text
-functionalStructureViewRef: required effects and dependencies
-functionalElementRefs?: not used; no selected `FunctionalElement@Context` is being claimed
-functionalBehaviorRefs?: required effect `authorize payment`
+functionalStructureViewRef: exact view episteme about required effects and dependencies
+functionalElementClaimRefs?: not used; no filled functional-element claim is current
+functionalBehaviorClaimRefs?: required-effect claim `authorize payment`
+requiredOrDesiredEffectClaimRefs?: required-effect claim `authorize payment`
+actualTransformationRefs?: not used; no A.3.4 actual change is claimed
+selectedTransformationFlowStructureRefs: exact selected payment-authorization TFS
 transformerSideFillerRefs?: not used
 candidateBearerRefs?: not used
 inputConditionRefs?: not used
 outputConditionRefs?: not used
 functionalPortRefs?: not used
-transformationFlowStructureViewRef: selected E.18 transformation-flow structure, path structure, crossing structure, or flow-valuation structure
+transformationFlowStructureViewRef: exact description/view episteme about the selected E.18 structure, path, crossing, or flow valuation
 transformationFlowStructureRef: TransformationFlowStructure@PaymentAuthorization
 selectedPathOrSliceRefs: path slices used for the architecture claim
-correspondenceRefs: functional effect to flow path relation
+correspondenceClaimOrRelationRefs: bounded claim that the required effect corresponds to the flow path
 nonAdmissibleUse:
+  required effect as actual U.Transformation,
   flow diagram as functional architecture itself,
-  selected transformation-flow structure as work occurrence,
+  selected transformation-flow structure as Work occurrence,
   mathematical graph description as evidence sufficiency,
   crossing as gate result,
   flow relation as project decision
 ```
 
-Filled relation record:
+Filled use record:
 
 ```text
-ArchitectureTransformationFlowStructureRelation@Context:
-architectureClaimRef: ArchitectureOf@CheckoutServiceContext
-selectedArchitectureStructureRefs: selected request-handling and payment-authorization flow structure
-architectureStructuralViewRef: ArchitectureStructuralView@CheckoutRuntimeFlow
-architectureDescriptionRef: not used; the durable architecture description is not being evaluated here
-functionalStructureViewRef: FunctionalStructureView@CheckoutRequiredEffects
-functionalElementRefs: not used
-functionalBehaviorRefs: required effect `authorize payment`
+ArchitectureTransformationFlowStructureRelation:
+architectureRelationOccurrenceRefs: exact obtaining CheckoutService architecture relation
+architectureClaimRefs: bounded CheckoutService architecture claim when current
+selectedArchitectureStructureRefs: exact selected request-handling and payment-authorization structure
+architectureStructuralViewRefs: exact CheckoutRuntimeFlow view episteme
+architectureDescriptionRefs: not used; durable description adequacy is not being evaluated here
+functionalStructureViewRefs: exact CheckoutRequiredEffects view episteme
+functionalElementClaimRefs: not used
+functionalBehaviorClaimRefs: required-effect claim `authorize payment`
+requiredOrDesiredEffectClaimRefs: required-effect claim `authorize payment`
+actualTransformationRefs: not used
+selectedTransformationFlowStructureRefs: TransformationFlowStructure@Checkout-v3
 transformerSideFillerRefs: not used
 candidateBearerRefs: not used
 inputConditionRefs: not used
 outputConditionRefs: not used
 functionalPortRefs: not used
-transformationFlowStructureViewRef: TransformationFlowStructureView@PaymentAuthorizationPath
+transformationFlowStructureViewRefs: exact PaymentAuthorizationPath description/view episteme
 transformationFlowStructureRef: TransformationFlowStructure@Checkout-v3
 selectedPathOrSliceRefs: PathSlice@request-to-payment-authorization
 crossingBundleRefs: not used
 flowValuationRefs: not used
 mathematicalDescriptionRefs: not used
-correspondenceRefs: required effect `authorize payment` corresponds to the E.18 path slice; this is correspondence, not identity
-sourcePublicationOrEditionRef: model or generated graph edition when the flow relation was extracted from one
+correspondenceClaimOrRelationRefs: claim that required effect `authorize payment` corresponds to the E.18 path slice; this is correspondence, not identity or actual change
+sourcePublicationOrEditionRef: model or generated-graph edition when the flow relation was extracted from one
 extractionOrProbeLocusRef: path-slice extraction or code-agent probe locus when current
 relationObservationClassRef: observed, inferred, or unknown relation class when current
 unexploredRegionRefs: not used
 hiddenRelationStructureReturnCondition: reopen if mathematical-description edition, path slice, relation observation class, or required-effect declaration changes
-admissibleUse: inspect whether the functional structure view depends on the E.18 path slice being used and whether an architecture split or correspondence note is needed
-nonAdmissibleUse: flow diagram as functional architecture itself; selected transformation-flow structure as work occurrence; mathematical graph description as evidence sufficiency; crossing as gate result; flow relation as project decision
+admissibleUse: inspect whether the functional structure view depends on the E.18 path slice and whether an architecture split or correspondence claim is needed
+nonAdmissibleUse: required effect as actual transformation; flow diagram as functional architecture itself; selected transformation-flow structure as Work occurrence; mathematical graph description as evidence sufficiency; crossing as gate result; flow relation as project decision
 ```
 
-Near miss: if the selected transformation-flow structure has no C.30-side architecture reference named by value, the case stays in `E.18`. If the same sentence is a mathematical description, use `E.18.2`; if it is a math-lens-use claim, use `C.29`. If it is a work log, evidence claim, gate decision, or benchmark result, that non-flow claim is governed by its governing pattern and this relation keeps only the architecture-to-transformation-flow relation.
+Cooling countercase: a selected cooling-flow TFS and `RequiredCoolingEffect-1` may fill the required-effect and correspondence fields while `actualTransformationRefs` stays empty. Only a later A.3.4 occurrence with Rack 7 as exact changed referent, fixed thermal boundary and conditions, actual 38 °C before / heat-removal during / 27 °C after facts, and Rack 7 continuity can fill that field. A separate realization predicate is still needed to relate the actual cooling to the requirement.
 
-**Pump-station flow relation.** A plant team says, "the safety architecture is the bypass flow." C.30.TFS-REL applies only if the plant `ArchitectureOf@Context`, selected control or material-flow structure, and E.18 selected bypass-flow structure are named. The bypass path may be architecture-relevant, but it is not safety proof, performed maintenance work, gate passage, or release permission. The relation record names the plant architecture locus, selected E.18 path or crossing, hidden relation-structure return condition, and the one architecture move changed by the bypass relation.
+Near miss: if the selected transformation-flow structure has no exact C.30-side architecture reference named by value, the case stays in `E.18`. If the same sentence is a mathematical description, use `E.18.2`; if it is a math-lens-use claim, use `C.29`. If it is a Work log, evidence claim, gate decision, or benchmark result, that non-flow claim is governed by its governing pattern and this record keeps only the architecture-to-transformation-flow use.
 
-**Supply-chain transformation-flow relation.** A logistics architecture view may use an E.18 selected flow structure for supplier handoff, transport crossing, freshness window, and valuation. The architecture claim remains about selected supply-chain structure; work occurrences, contractual commitments, evidence, and gate decisions stay with their governing patterns.
+**Pump-station flow relation.** A plant team says, "the safety architecture is the bypass flow." C.30.TFS-REL applies only if the exact plant holon, its actual architecture relation or bounded architecture claim as current, selected control or material-flow structure, and E.18 selected bypass-flow structure are named. The bypass path may be architecture-relevant, but it is not an actual cooling/pumping transformation, safety proof, performed maintenance Work, gate passage, or release permission. The record names the plant architecture locus, selected E.18 path or crossing, hidden relation-structure return condition, and the one architecture move changed by the bypass relation.
 
-**Neural-network dataflow change.** Source labels such as attention block, SSM block, convolution block, memory mechanism, cache mechanism, and MoE expert-selection go through `C.30.STRAT` unless the changed value is already recovered. C.30.TFS-REL applies only when the changed structure kind and transformation-flow relation are named. A benchmark, ablation, or pruning result may bear on a non-architecture claim named by value, but it does not make the flow relation an architecture decision or evidence sufficiency by itself.
+**Supply-chain transformation-flow relation.** A logistics architecture view may use an E.18 selected flow structure for supplier handoff, transport crossing, freshness window, and valuation. The exact subject holons, actual architecture relations when claimed, and selected supply-chain structures remain named; Work occurrences, contractual commitments, evidence, and gate decisions stay with their governing patterns.
 
-**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can be used for an architecture-to-transformation-flow relation only with the source publication or codebase edition, extraction or probe locus, relation observation class selected from {observed, inferred, unknown}, typed relation semantics, unexplored regions, and hidden relation-structure return condition when subsequent action relies on hidden distinctions.
+**Neural-network dataflow change.** Source labels such as attention block, SSM block, convolution block, memory mechanism, cache mechanism, and MoE expert-selection go through `C.30.STRAT` unless the changed value is already recovered. C.30.TFS-REL applies only when the exact changed structure kind and transformation-flow relation are named. A benchmark, ablation, or pruning result may bear on a non-architecture claim named by value, but it does not make the flow relation an architecture decision, actual transformation, or evidence sufficiency by itself.
+
+**Code-agent relation graph.** A code-agent relation graph with `IMPORTS`, `CALLS_API`, `REGISTRY_WIRES`, or `DATA_FLOWS_TO` edges can be used for an architecture-to-transformation-flow relation only with the source publication or codebase edition, extraction or probe locus, relation observation class selected from {observed, inferred, unknown}, typed relation semantics, unexplored regions, and hidden relation-structure return condition when subsequent action relies on hidden distinctions. The graph, representation, file, and publication occurrence remain distinct from both the selected TFS and every direct relation occurrence.
 
 #### C.30.TFS-REL:4.6 - Lowering and currentness conditions
 

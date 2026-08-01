@@ -6,12 +6,12 @@ section_id: "C.30.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__013_relations.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:12 — Relations"
-line_start: 61822
-line_end: 61832
+line_start: 62150
+line_end: 62160
 dependencies:
   - "A.10"
   - "A.20"
@@ -24,10 +24,11 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
-  - "C.30.LCA"
   - "C.30.STRAT"
   - "C.30.TFS-REL"
+  - "E.17.0"
   - "E.18"
   - "G.6"
 keywords:
@@ -42,12 +43,12 @@ keywords:
 
 ### C.30.LCA:12 - Relations
 
-* Builds on `C.30` for grounded architecture and selected-structure adequacy and `C.30.ASV` for structural-view adequacy.
-* Uses `A.22` for structure and structural-view kind discipline.
-* Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before any control-specific use enters C.30.LCA.
+* Builds on `C.30` for direct architecture relation and selected-structure adequacy, `C.30.AD` for description identity/use, `E.17.0` for direct viewpoint conformance, and `C.30.ASV` for structural-view adequacy.
+* Uses `A.22` for exact structure identity and structure-kind discipline.
+* Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
-* Coordinates with `E.18` and `C.30.TFS-REL` when transformation-flow path slices supply structure input to the control view.
-* Applies `A.3.3` for dynamics and stability claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal-use claims, `A.10` or `G.6` for evidence claim, `B.3` for assurance, `A.20` or `A.21` for constraint validity and gate decisions, `A.15` for work authority, and `C.29` when LCA is used as a transferable mathematical lens.
+* Coordinates with E.18 and C.30.TFS-REL when transformation-flow path slices supply structure input to the control view.
+* Applies `A.3.3` for dynamics/stability, `C.27.TA` for temporal-aspect/rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10/G.6 for evidence, B.3 for assurance, A.20/A.21 for constraint validity/gates, A.15 for Work/project use, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
 
-Neighboring claims stay with their governing patterns: `C.30.STRAT` for stratification and source-label precision restoration, `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for architecture structural-view adequacy, `B.2.5` for supervisor-subholon feedback relation, `E.18` for graph, path, and crossing discipline, `A.3.3` for dynamics claims, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, `A.10` or `G.6` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate and constraint-validity records, `A.15` for work, and `C.29` for mathematical-lens use. `C.30.LCA` governs only the control-structure view relation being claimed.
+Neighboring claims stay with their governing patterns: C.30.STRAT for stratification/source-label repair; C.30 for actual architecture relations and selected structures; C.30.AD for description; E.17.0/C.30.ASV for view conformance and adequacy; B.2.5 for supervisor-subholon feedback; E.18 for graph/path/crossing structure; A.3.3 for dynamics; C.27.TA/C.27 for temporal claims; C.28 for causal use; A.10/G.6 for evidence; B.3 for assurance; A.20/A.21 for gate and constraint-validity records; A.15 for Work; E.24.PUB for publication; and C.29 for representation/lens use. C.30.LCA governs only the exact control-structure description/view adequacy at issue.
 

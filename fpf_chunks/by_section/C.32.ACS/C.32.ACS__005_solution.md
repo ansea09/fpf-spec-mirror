@@ -6,17 +6,20 @@ section_id: "C.32.ACS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__005_solution.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:4 — Solution"
-line_start: 64484
-line_end: 64540
+line_start: 64895
+line_end: 64959
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
+  - "A.19"
   - "A.19.CPM"
+  - "A.2.6"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -50,15 +53,15 @@ Build an `ArchitectureCharacteristicCriteriaSet@Project` from starter heads, sou
 
 #### C.32.ACS:4.1 - Kind settlement
 
-`ArchitectureCharacteristicCriteriaSet@Project` is a project working record: it holds criteria rows for improvement work. It does not create a new `U.*` kind and does not replace a Q-Bundle, measurement result, eval program, comparison rule, or decision record.
+`ArchitectureCharacteristicCriteriaSet@Project` is a C.32.ACS-local project working record: it holds criteria-row references and use classifications for improvement work. Each `draftProjectCriteriaRows` entry is another local record form, not the referenced `U.Characteristic`, Q-Bundle slot, scale, predicate, measurement result, eval program, or eval result. The set and rows create no new `U.*` kind and replace none of those direct objects.
 
-An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. An architecture-characteristic eval program belongs to `C.32.ACE`; it evaluates one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes.
+An architecture characteristic is the property or quality-like head under discussion. A C.25 Q-Bundle is the structured form for a composite quality family. A scale row binds one characteristic or Q-Bundle slot to a bearer, scale form, use class, and receiving use. A row whose scale form exposes exception growth, interface variation, or another scale-sensitive characteristic remains a criterion row; a preference between architecture alternatives over a declared scale window is a separate `C.31.ASAP` claim. An architecture-characteristic eval program belongs to `C.32.ACE`; it frames evaluation of one declared row, coupled rows, Q-Bundle slots, or C.32 candidate palettes while each actual typed result remains with its direct owner.
 
 #### C.32.ACS:4.2 - Criteria-set construction
 
 Work in this order:
 
-1. Name the described holon, bounded context, architecture use, and improvement cycle or one-pass eval use.
+1. Name the described holon, architecture use, and improvement cycle or one-pass eval use. For every proposed row, bind the exact claim scope and selected context slices, effective reference scheme and plane, and qualification or evaluation window. Designate a selected A.1.1 `BoundedModelUseStructure` only when it independently changes that row's interpretation.
 2. Start from a `C.32.HCS` starter pack when the project has no draft criteria rows yet. Use source catalogues only as input, not as the criteria set.
 3. Build draft project criteria rows. There may be dozens of draft rows when broad scanning is needed, but each row must have a possible bearer, use reason, and receiving pattern.
 4. For each source or starter head, decide whether it is one architecture characteristic, one C.25 Q-Bundle, one Q-Bundle slot, or only source vocabulary.
@@ -86,7 +89,15 @@ When a row is used inside an improvement cycle, add:
 
 ```text
 ArchitectureCharacteristicImprovementRow@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureCriteriaProjectUseRelationRef?: U.RelationRef governed by the exact improvement-row-use or work-use pattern
   criteriaRowRef:
+  rowClaimScopeRef: U.EntityRef referencing one U.ClaimScope
+  selectedContextSliceRefs:
+  modelUseStructureRef?:
+  effectiveReferenceScheme:
+  referencePlane?:
+  qualificationOrEvaluationWindow:
   useClass:
   currentArchitectureReadingRefOrQualitativeState:
   evalResultRefs?:

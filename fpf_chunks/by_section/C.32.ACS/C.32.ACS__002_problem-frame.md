@@ -6,17 +6,20 @@ section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:1 — Problem frame"
-line_start: 64384
-line_end: 64462
+line_start: 64786
+line_end: 64873
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.17"
   - "A.18"
+  - "A.19"
   - "A.19.CPM"
+  - "A.2.6"
   - "B.3"
   - "C.11"
   - "C.16"
@@ -58,20 +61,21 @@ Typical entry phrases:
 "A method, role, AI workflow, or built asset has trustworthiness or teachability pressure; which Q-Bundle slot or ACS row is current?"
 ```
 
-**First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows, marks maintainability, substitutability, and evidence reuse as optimization indicators, keeps safety and availability as monitored guardrails, and records bearers, scale form, proxy risk, protected losses, and source-return condition. C.32 can now synthesize candidates against declared criteria instead of against a loose list of quality words.
+**First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows and gives each row its bearer, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, qualification or evaluation window, scale form, proxy risk, protected losses, and source-return condition. Maintainability, substitutability, and evidence reuse become optimization indicators; safety and availability remain monitored guardrails. The source phrase "scale amenability" remains only a starter cue until ACS admits a concrete characteristic row, such as exception growth or interface-grammar variation, with its bearer and scale form; a claim that one alternative is preferable under a declared scale window remains a separate `C.31.ASAP` object. C.32 can now synthesize candidates against declared criteria instead of a loose list of quality words.
 
-The primary `EntityOfConcern` is one project architecture-characteristic criteria set for improvement cycles. It prepares rows for C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later receiving patterns. Starter packs, Q-Bundles, measurement methods, eval programs, candidate palettes, comparison rules, selection results, G.5 publications, local choices, and architecture decisions remain separate objects.
+The primary governed object is one project architecture-characteristic criteria-set record for improvement cycles. It prepares rows for C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later receiving patterns. The set and its rows are C.32.ACS-local record forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 publications, local choices, and architecture decisions remain separate objects.
 
 Ordinary working move: make one row per project architecture characteristic, bind its bearer and scale, mark whether it drives optimization, guards against loss, or only gives context, and record what eval reading can reopen synthesis.
 
 The first useful output is `ArchitectureCharacteristicCriteriaSet@Project`:
 
-For a first pass, fill only the described holon, bounded context, architecture use, three to five draft row names, bearer or selected structure, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them.
+For a first pass, fill the described holon, architecture use, three to five draft row names, and for every row the bearer or selected structure, exact claim scope and selected context slices, reference scheme and plane, qualification or evaluation window, scale form, use class, protected losses, receiving use, and reopen condition. Add readings, target bands, and eval-program references only when the current receiving use needs them; add a selected `BoundedModelUseStructure` only when it independently changes interpretation of the row use.
 
 ```text
 ArchitectureCharacteristicCriteriaSet@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureCriteriaProjectUseRelationRef?: U.RelationRef governed by the exact criteria-use or work-use pattern
   describedHolonRef:
-  boundedContextRef:
   architectureUseRef:
   holonFamilyStarterPackRef?:
   sourceCatalogueRefs?:
@@ -79,6 +83,12 @@ ArchitectureCharacteristicCriteriaSet@Project:
     - architectureCharacteristicRef:
       sourceHeadOrStarterPackRef?:
       bearerOrSelectedStructureRefs:
+      rowClaimScopeRef: U.EntityRef referencing one U.ClaimScope
+      selectedContextSliceRefs:
+      modelUseStructureRef?:
+      effectiveReferenceScheme:
+      referencePlane?:
+      qualificationOrEvaluationWindow:
       endpointShape: singleCharacteristic | qBundle | qBundleSlot | sourceVocabularyOnly
       qBundleRef?:
       architectureQuestion:
@@ -100,6 +110,8 @@ ArchitectureCharacteristicCriteriaSet@Project:
   reopenCondition:
 ```
 
+For `ArchitectureCharacteristicCriteriaSet@Project` and `ArchitectureCharacteristicImprovementRow@Project`, `@Project` is a compatibility and retrieval cue only; it establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. A criteria set or improvement row local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct use relation for that exact record in `architectureCriteriaProjectUseRelationRef`; either field alone is insufficient, and a relation occurrence about the set is not silently reused for a distinct row. Otherwise the record remains retrieval-only and no project locality is asserted.
+
 `draftProjectCriteriaRows` are draft project criteria rows. They are not candidate architectures, selected architectures, or a selected set returned by `A.19.SelectorMechanism`.
 
 What goes wrong if C.32.ACS is missed: the team says that the architecture should be more maintainable, scalable, modular, safe, or evolvable, but no one can say which selected structures carry the characteristic, which few rows are criteria for the next optimization, which rows only guard against loss, which C.25 Q-Bundle is involved, or which eval result can reopen synthesis.
@@ -115,7 +127,7 @@ Common exits by claim kind:
 - `C.32.HCS` for holon-family starter packs.
 - `C.25` for Q-Bundles and composite quality families.
 - `C.16` for measurement templates, readings, units, thresholds, or comparability claims.
-- `C.32.ACE` for eval programs and eval results over declared rows.
+- `C.32.ACE` for eval-program framing and typed-result dispatch over declared rows; the selected direct owner governs each actual result.
 - `E.13` when an indicator, score, or dashboard starts replacing the declared architecture concern.
 - `E.22` and `E.23` for improvement-question framing and repeated improvement method.
 - `C.32` for candidate synthesis and `C.32.MLAO` for residual-reducing candidates.

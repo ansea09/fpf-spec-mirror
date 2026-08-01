@@ -6,12 +6,12 @@ section_id: "C.30.ASV:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__007_bias-annotation.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:6 — Bias-Annotation"
-line_start: 61482
-line_end: 61495
+line_start: 61779
+line_end: 61792
 dependencies:
   - "A.1"
   - "A.10"
@@ -26,6 +26,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.28"
@@ -71,10 +72,10 @@ Lenses tested: **Arch**, **Onto**, **Epist**, **Prag**, **Did**, **Gov**. Scope:
 | Bias risk | Mitigation |
 | --- | --- |
 | Module-view bias | Make module-interface one structure kind, not the default meaning of architecture. |
-| Viewpoint-kind conflation | Keep structure kind, viewpoint, view record, and viewpoint bundle separate. |
-| TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` by implication. |
+| Viewpoint-kind conflation | Keep selected structure kind, exact viewpoint episteme, candidate description episteme, conformance relation, and viewpoint bundle separate. |
+| TEVB mutation bias | Import TEVB where useful; do not expand `VF.TEVB.ENG` or infer view membership by implication. |
 | Check-only bias | Every failed conformance check gives a repair action or governing-pattern application. |
 | Didactic-thinning risk | The pattern starts with triage and action, not taxonomy alone. |
 
-This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
+This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, description, direct conformance relation, or repair guidance above.
 

@@ -6,12 +6,12 @@ section_id: "A.6.H:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__013_sota-echoing.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:11 — SoTA-Echoing"
-line_start: 21273
-line_end: 21285
+line_start: 21295
+line_end: 21307
 dependencies:
   - "A.14"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 59798
-line_end: 59812
+line_start: 59925
+line_end: 59940
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,14 +78,15 @@ keywords:
 
 Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 allocation-responsibility semantics apply only when a project role relation itself is being governed.
 
-The difficulty is that the description is not the architecture. The same architecture can have several descriptions. The same description set can contain several views. Each view is written from one viewpoint or concern-framed practice and can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
+The difficulty is that a description is not the architecture, an obtaining architecture relation, or its selected structure. The same holon and architecture-relation occurrence can have several descriptions. A description set can contain several separately identified epistemes. One such episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` obtains between that same episteme and one exact viewpoint episteme. Each view can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
 
 The first-minute practitioner can ask:
 
-- What `ArchitectureOf@Context` is this description about?
-- Which selected structures or structure kinds does this view describe?
-- Which viewpoint makes this view useful?
-- What correspondence connects this view to the architecture claim and other views?
-- When does source return to a source episteme, source view, or direct governing pattern for that claim become necessary?
+- What exact holon, obtaining `ArchitectureRelation` occurrence, or selected structure is this description episteme about?
+- What exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme` keep that episteme identifiable?
+- Which selected structures or structure kinds does this description carry?
+- Which exact viewpoint episteme and conformance relation, if any, make this same episteme a `U.View`?
+- What correspondence connects this description to architecture claims and other view epistemes without inventing a subject relation?
+- Which source episteme, source view, representation, or publication enters this use through which source-to-use path, and what stronger use would activate a source-return condition?
 - What admissible architecture move remains after the description has been used?
 

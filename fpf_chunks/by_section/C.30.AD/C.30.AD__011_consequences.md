@@ -6,12 +6,12 @@ section_id: "C.30.AD:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:8 — Consequences"
-line_start: 60086
-line_end: 60100
+line_start: 60258
+line_end: 60273
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,14 +78,15 @@ keywords:
 
 Positive consequences:
 
-- Architecture descriptions become reusable without pretending to be the architecture itself.
-- Multi-view work can keep viewpoints, views, selected structures, correspondences, source return, freshness, and specification use inspectable.
-- Description, publication, evidence, assurance, gate, decision, work, release, and mathematical-lens claims stay with separate governing patterns.
+- Architecture descriptions become reusable without pretending to be the architecture, an obtaining relation, or selected structure.
+- Multi-view work can keep each episteme identity, exact viewpoint conformance, selected structures, cross-view correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication, and specification use inspectable.
+- Description, view membership, representation, publication, empirical grounding, evidence, assurance, gate, decision, Work, project use, release, and mathematical-lens claims stay distinct and return to their governing patterns.
 - C.30 can stay focused on architecture while C.30.AD carries the heavier description machinery.
 
 Costs:
 
-- A useful architecture document needs explicit links to `ArchitectureOf@Context`, selected structures, viewpoints, and admissible use.
-- Reused or regulated descriptions may need correspondence, source-return, and freshness fields before they can be relied on.
-- Familiar document forms lose implicit authority; evidence, assurance, gate, decision, and release claims must be established by their own patterns.
+- A useful architecture document needs explicit links to exact description epistemes, EntitiesOfConcern, effective schemes, selected structures, and admissible use.
+- A claimed view additionally needs the exact viewpoint episteme and independently obtaining E.17.0 conformance relation.
+- Reused or regulated descriptions may need correspondence refs, source-to-use paths, source and structure editions, applicable source-return conditions, and freshness claims before they can be relied on.
+- Familiar diagrams, files, and publication forms lose implicit authority; grounding, evidence, assurance, gate, decision, and release claims must be established by their own patterns.
 

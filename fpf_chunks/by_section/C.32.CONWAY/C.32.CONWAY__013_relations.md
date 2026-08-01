@@ -6,17 +6,18 @@ section_id: "C.32.CONWAY:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__013_relations.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:12 — Relations"
-line_start: 65223
-line_end: 65231
+line_start: 65685
+line_end: 65693
 dependencies:
   - "A.10"
   - "A.12"
   - "A.15.1"
   - "A.19.CPM"
+  - "A.2.1"
   - "A.22"
   - "A.3.4"
   - "A.3.4.P"
@@ -36,13 +37,15 @@ dependencies:
   - "C.32.PAD"
   - "E.18"
   - "E.18.NET"
+  - "F.6"
   - "G.5"
+  - "U.Structure"
 keywords:
 ---
 
 ### C.32.CONWAY:12 - Relations
 
-- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for `ArchitectureOf@Context`; `A.3.4` and `A.3.4.P` for the changed referent and bounded change; `A.12` and `A.15.1` for acting system, role assignment, dated Work, performed-under-assignment, and multiple-performer forms; direct subject relation owners for acting, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations.
+- **Builds on:** `C.32` for candidate architecture synthesis; `C.30` for exact described holons, obtaining `ArchitectureRelation` occurrences, selected `U.Structure` participants, and modal `ArchitectureClaim` content; `A.3.4` and `A.3.4.P` for the continuing changed referent and actual bounded transformation; `A.12` for acting-side externalization; `A.2.1` for assignment occurrence identity; `A.15.1` for dated Work and distributed-performer forms; `F.6` for `performedUnderAssignment(W, RA)` and actual-performer projection; direct subject relation owners for actor-side, Work-to-change, and influence occurrences; `A.6.REL` when this episteme consumes occurrence identity; `E.18` for one TFS; and `E.18.NET` for network identity and exact cross-member relations.
 - **Uses:** `C.32.ACS` for current architecture-characteristic criteria rows; `C.25` for composite Q-Bundles and their declared slots; `C.32.MLAO` for a cross-scope residual; `C.32.FAIL` for a correspondence repair failure; `C.29` when structural similarity, preservation, mapping, or equivalence is claimed; and `A.6.P.WMR` and `A.6.RCD` when a required direct relation cannot be recovered.
 - **Receiving patterns:** `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set publication, `C.18` and `C.19` for archive, front, or pool treatment, `C.11` for fixed local choice, `C.32.PAD` for architecture decisions, `A.10` for evidence, `B.3` for assurance, `A.20` or `A.21` for gate or release claims, and direct method, Work, or organization-governance patterns when those claims are current.
 - **Network boundary:** an `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` may be cited as one qualified reading in `architectureCorrespondenceRowRefs[]`; it is not the network and does not satisfy an E.18.NET cross-flow relation without the separately grounded obtaining occurrence and endpoint bindings. Its optional singular row locator qualifies only the exact current citing record it names.

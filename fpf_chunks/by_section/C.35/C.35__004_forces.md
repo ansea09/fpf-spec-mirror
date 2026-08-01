@@ -6,15 +6,20 @@ section_id: "C.35:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__004_forces.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:3 — Forces"
-line_start: 66995
-line_end: 67005
+line_start: 67535
+line_end: 67545
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.22"
+  - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -35,7 +40,9 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
+  - "C.36"
   - "E.18"
+  - "F.6"
   - "G.5"
 keywords:
   - "DSM"

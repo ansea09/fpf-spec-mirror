@@ -6,12 +6,12 @@ section_id: "C.30.AD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__004_problem.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:2 — Problem"
-line_start: 59813
-line_end: 59823
+line_start: 59941
+line_end: 59952
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,10 +78,11 @@ keywords:
 
 How can FPF govern architecture descriptions without:
 
-- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication, publication form, or rendering as the architecture itself;
-- treating all architecture documentation as one generic description with no selected-structure recovery;
-- losing the link between a viewpoint and the architecture structure kind being described;
+- treating a description, model, view, diagram, graph, card, table, dashboard, file, publication occurrence, publication form, carrier, or rendering as the architecture, an obtaining relation, or a selected structure;
+- treating all architecture documentation as one generic description with no exact EntityOfConcern or selected-structure recovery;
+- granting `U.View` membership because an episteme was authored, constructed, queried, selected, bundled, diagrammed, or published;
+- losing the link between one exact viewpoint episteme, the five-part conformance predicate, and the architecture structure kind being described;
 - letting one attractive view hide lost structure, stale source, or missing correspondence;
-- letting publication quality become evidence sufficiency, assurance, gate passage, decision claim, work completion, or release authorization;
+- letting publication quality become empirical grounding, evidence sufficiency, assurance, gate passage, decision claim, work completion, or release authorization;
 - making ordinary architecture triage too heavy for a first useful architecture move.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:8"
 section_title: "Common repair cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__009_common-repair-cues.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:8 — Common repair cues"
-line_start: 65442
-line_end: 65455
+line_start: 65908
+line_end: 65921
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -59,7 +59,7 @@ keywords:
 | `ProxyResultAsPreferenceRule` | A residual vector, score, graph, front, dashboard reading, or lens output is used to prefer a candidate before the selected structures and lost structure are recovered. | Recover the selected structures and lost structure, interpret the result as a diagnostic signal or lens output; comparison belongs to `A.19.CPM`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and publication of a selected set to `G.5`. |
 | `ParetoFrontAsDecision` | A front is treated as selected architecture. | Publication of a selected set belongs to `G.5`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, and project architecture decision to `C.32.PAD`. |
 | `StaticOptimumClaim` | A current residual-reducing candidate is called optimal without an evolution window. | Add evolution window, source-return condition, reopen trigger, and the receiving pattern result that actually produced the preference. |
-| `TransformerTransformedCollapse` | The architecture of the changing holon and the changed holon are treated as one structure. | Open `C.32.CONWAY`; recover the changing relation, selected structures on both sides, residual-bearing locus, candidate alternatives, and any C.29 structural-similarity claim before residual framing. |
+| `ArchitectureInfluencePairCollapse` | The influence-source and transformed-side architecture content, changed referent, or actual transformation are treated as one object. | Open `C.32.CONWAY`; recover each exact C.30 architecture side, the typed influence relation, the changed referent, any actual A.3.4 transformation, the residual-bearing locus, candidate alternatives, and any C.29 structural-similarity claim before residual framing. |
 | `LevelWordsNoLevels` | Text says level or scope without declared refs. | Use `C.30.STRAT` for stratification-term recovery or `B.2.P` for whole-reidentification wording, then return to residual triage before candidate framing. |
 | `OptimizationNoLoss` | Candidates show only gains. | Add new burden, known loss, or bounded exception. |
 | `IdealityNoBurden` | A candidate removes a bearer or support function but does not name lost function, coupling, evidence, control, or source-return burden. | Return to C.32 and C.31; name function-bearing transfer, characteristic changes, and BLP scale window or waiver if scale advantage is claimed. |

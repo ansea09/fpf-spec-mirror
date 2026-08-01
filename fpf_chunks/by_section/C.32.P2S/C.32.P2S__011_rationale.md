@@ -6,12 +6,12 @@ section_id: "C.32.P2S:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__011_rationale.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:10 — Rationale"
-line_start: 64139
-line_end: 64146
+line_start: 64541
+line_end: 64548
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -53,5 +53,5 @@ C.32.P2S belongs under C.32 because its central architecturing concern is archit
 
 It cannot be only a C.22 pattern because a problem card does not carry architecture synthesis, decision, realization, and feedback. It cannot be only a C.30 pattern because grounded architecture and structural-view adequacy do not themselves construct candidate palettes or govern downstream work. It cannot be only a C.32 pattern because the palette is only one stage of the larger architecturing flow. It cannot be only C.32.PAD or C.32.ADR because decisions and records do not create the candidate space and do not realize structures. It cannot be only A.15 or E.18.1 because method and work carry-through and P2W do not govern architecture candidate synthesis or selected-structure decision content.
 
-The P2S structural-information slots are selected now because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures, while descriptions, decisions, methods, Work occurrences, separate records about them, and eval reports capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, references to Work occurrences, separate work-record epistemes, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
+The P2S structural-information slots are necessary because otherwise P2S cannot explain what changes. Architecturing refines uncertainty about future structures into candidate, selected, expected, and actual structures, while descriptions, decisions, methods, Work occurrences, separate records about them, and eval reports capture only part of that content. The practitioner records which structural content is captured by descriptions, decisions, method handoffs, references to Work occurrences, separate work-record epistemes, evals, and measurements; which structure remains latent, hidden, or lost; and which stronger-structure inspection return condition returns the work to stronger structure inspection, description or view loss repair, decision repair, or a `C.29` lens use such as epiplexity, DSM, graph, coarse-graining, equivalence, or morphism.
 

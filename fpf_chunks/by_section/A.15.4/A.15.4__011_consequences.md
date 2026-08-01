@@ -6,12 +6,12 @@ section_id: "A.15.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__011_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:6 — Consequences"
-line_start: 25841
-line_end: 25848
+line_start: 25863
+line_end: 25870
 dependencies:
   - "A.10"
   - "A.15"

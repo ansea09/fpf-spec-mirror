@@ -6,12 +6,12 @@ section_id: "A.6.M:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:1 — Problem frame"
 line_start: 18484
-line_end: 18516
+line_end: 18520
 dependencies:
   - "A.10"
   - "A.20"
@@ -53,32 +53,36 @@ keywords:
 
 ### A.6.M:1 - Problem frame
 
-Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a stratification or architecture-operation source label covered by `C.30.STRAT` is doing the work, apply `C.30.STRAT` first; use A.6.M only when that repair recovers a module-interface relation. Use A.6.M when the question under repair is whether one holon is being treated as a replaceable, reusable, or separately changed structural unit of a larger holon under a declared module-interface viewpoint.
+Use this pattern when an architecture or engineering text says "module", "component", "interface", "port", "platform", or "open architecture", and the phrase is doing more than ordinary orientation. If a stratification or architecture-operation source label covered by `C.30.STRAT` is doing the work, apply `C.30.STRAT` first; use A.6.M only when that repair recovers module-interface claim content. Use A.6.M when the question under repair is whether one holon is being claimed as a replaceable, reusable, or separately changed structural unit of a larger holon under the exact `VP.ModuleInterface` viewpoint episteme. The note or claim does not make a direct module relation obtain.
 
-The first useful output is `ModuleRelationRepairNote`:
+The first useful output is `ModuleRelationRepairNote`, a claim-repair note rather than a relation occurrence:
 
 ```text
 ModuleRelationRepairNote:
   wholeHolonRef:
   candidateModuleHolonRef:
-  boundedContextRef:
-  moduleInterfaceViewpointRef: VP.ModuleInterface
+  effectiveReferenceScheme: U.ReferenceScheme, byValue
+  claimScope?: U.ClaimScope, byValue
+  modelUseStructureRef?: only when one selected model-use structure changes module meaning
+  moduleInterfaceViewpointRef?: VP.ModuleInterface
+  selectedDependencyStructureRef?: U.StructureRef
   boundaryRef:
   interfaceSpecificationRef or interfaceSpecificationGap:
   admissibilityConditions:
   substitutabilityPolicyRef?:
   changePolicyRef?:
+  directModuleRelationDisposition:
+    claimOnly | admittedDirectOwnerAndOccurrenceRef | directOwnerStillNeeded
   claimBoundary:
   notAModuleBecause:
   governedNonModuleClaimPatternRefs:
   stopCondition:
 ```
-
-Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitutability policy, change policy, blocked false interpretation, and neighboring work, procedural, role, or enactor governing pattern choice are clear enough to choose the next architecture move. Use the fuller `moduleIn(...)` relation record only when the claim being made involves substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination.
+Ordinary use stops when the whole, candidate module, boundary, interface specification, admissibility conditions, substitutability policy, change policy, blocked false interpretation, relation disposition, and neighboring work, procedural, role, or enactor governing-pattern choice are clear enough to choose the next architecture move. Use the fuller `moduleIn(...)` claim record only when substitutability, conformance, publication, evidence, assurance, change policy, repeated reuse, or cross-team coordination requires durable claim content.
 
 What goes wrong if A.6.M is missed: a functional link becomes a module interface; a signature becomes an implemented interface; a port label becomes proof of integration; "open" becomes a decoration; a platform label hides the actual extension rules; a stratification or architecture-operation source label bypasses `C.30.STRAT` and mints a false local kind; autonomy-like wording is confused with separate module change policy; and a module diagram starts being used for claims governed elsewhere.
 
-What A.6.M buys in practice: the practitioner can repair one module or interface phrase into a module-relation record, see which FPF pattern governs any remaining non-module claim, and stop before full measurement, evidence, or mechanism-suite records are needed.
+What A.6.M buys in practice: the practitioner can repair one module or interface phrase into usable claim content, distinguish it from an independently admitted direct relation occurrence, see which FPF pattern governs any remaining non-module claim, and stop before full measurement, evidence, or mechanism-suite records are needed.
 
 Not this pattern when the question under repair is the general architecture claim, selected architecture structure kind, structural view, stratification wording or source-label recovery, function wording, procedural or work-package wording, role or enactor wording, autonomous operation, independent acting, unsupervised decision or action, measurement, modularity characterization, or reusable-structure residue. Use `C.30`, `C.30.ASV`, `C.30.STRAT`, `A.6.F`, `A.15`, `A.2`, `E.16`, `C.31`, `C.16`, or `C.31.RSA` as appropriate. For any other claim being made, apply the governing FPF pattern and keep A.6.M only for the module-relation and interface-specification portion.
 

@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__002_problem-frame.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:1 — Problem frame"
-line_start: 65244
-line_end: 65328
+line_start: 65706
+line_end: 65794
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -92,12 +92,14 @@ Common exits by claim kind:
 - `C.30.AD`, `E.17`, and `E.24.PUB` for architecture-description or publication-face work.
 - `C.32.PAD` for project decision.
 
-The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is the project working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
+The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is a working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
 
-For a first pass, fill only the described holon, bounded context, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, evolution window, residual-reducing candidates with residual reduced and new burden, receiving pattern, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and transformer-transformed refs only when that support is current for the candidate being framed.
+For a first pass, fill only the described holon, bounded context, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, evolution window, residual-reducing candidates with residual reduced and new burden, receiving pattern, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and architecture-influence-correspondence refs only when that support is current for the candidate being framed.
 
 ```text
 MultilevelArchitectureResidualOptimizationFrame@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  residualOptimizationFrameProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-use or work-use pattern
   describedHolonRef:
   boundedContextRef:
   residualTriageRef:
@@ -116,7 +118,7 @@ MultilevelArchitectureResidualOptimizationFrame@Project:
   architectureIdealityPressureRef?:
   scaleAmenabilityPolicyRef?:
   functionBearerFeasibilityRef?:
-  transformerTransformedCorrespondenceRef?:
+  architectureInfluenceCorrespondenceRef?: C.32.CONWAY frame or exact pair-row ref
   residualReducingCandidates:
     - candidateRef:
       selectedStructureChanged:
@@ -135,4 +137,6 @@ MultilevelArchitectureResidualOptimizationFrame@Project:
   metaHolonTransitionRef?:
   stopCondition:
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the frame is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `residualOptimizationFrameProjectUseRelationRef` identifies the direct relation by which that work uses the frame. The frame, the residual-reducing synthesis work, the candidate architectures, and the project work remain distinct.
 

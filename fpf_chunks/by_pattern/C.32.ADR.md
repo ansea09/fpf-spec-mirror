@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.ADR.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
-line_start: 66045
-line_end: 66268
+line_start: 66542
+line_end: 66769
 dependencies:
   - "A.10"
   - "A.15"
@@ -83,6 +83,8 @@ The first useful output is `ArchitectureDecisionRecordProjection@Project`:
 
 ```text
 ArchitectureDecisionRecordProjection@Project:
+  projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
+  architectureDecisionRecordProjectUseRelationRef?: U.RelationRef governed by the exact record-use, publication-use, or work-use pattern
   projectionId:
   architectureDecisionRelationRef:
   architectureDecisionDescriptionRef:
@@ -105,6 +107,8 @@ ArchitectureDecisionRecordProjection@Project:
   updateOrReopenCondition:
   publicationUseRefs?
 ```
+
+Here `@Project` is a compatibility and retrieval cue only. It does not make the projection a project, project work, or the architecture decision relation. When this record projection is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work`, while `architectureDecisionRecordProjectUseRelationRef` identifies the direct relation by which the record is published for, relied on by, or otherwise used in that work under the corresponding governing pattern. The decision relation, its description, the publication projection, any publication occurrence, and the composite project work remain separately identifiable.
 
 ### C.32.ADR:2 - Problem
 

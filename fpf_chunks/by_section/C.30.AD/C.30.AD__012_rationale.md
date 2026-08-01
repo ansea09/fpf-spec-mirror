@@ -6,12 +6,12 @@ section_id: "C.30.AD:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__012_rationale.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:9 — Rationale"
-line_start: 60101
-line_end: 60106
+line_start: 60274
+line_end: 60279
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,7 +76,7 @@ keywords:
 
 ### C.30.AD:9 - Rationale
 
-Architecture work needs descriptions, but architecture-description adequacy is not architecture adequacy. A description can guide architecture work only when its relation to the described architecture claim, selected structures, viewpoints, views, source material, publication form, and admissible use is recoverable.
+Architecture work needs descriptions, but architecture-description adequacy is not architecture adequacy. A description can guide architecture work only when its own C.2.1 identity and its relation to exact subject-side objects, selected structures, architecture claims, exact viewpoint conformance, other descriptions, source epistemes or views actually used, source-to-use paths, representation, publication, and admissible use are recoverable.
 
-The pattern therefore specializes generic Description and publication machinery for architecture use. It does not mint a new architecture kind, does not replace `C.30`, and does not let diagrams or documentation formats establish non-description claims by presentation alone.
+The pattern therefore specializes generic Description and publication machinery for architecture use. It does not mint a new architecture kind, direct subject relation, local view-membership relation, or second meaning of `U.View`; it does not replace `C.30`; and it does not let diagrams or documentation formats establish non-description claims by presentation alone.
 

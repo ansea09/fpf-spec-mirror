@@ -6,15 +6,20 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:7 — Conformance checklist"
-line_start: 67052
-line_end: 67063
+line_start: 67592
+line_end: 67603
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.22"
+  - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -35,7 +40,9 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
+  - "C.36"
   - "E.18"
+  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -54,9 +61,9 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C35-1` | Grounded architecture question, selected source structures, generation method or discovery method, and produced carrier or description are named. |
-| `CC-C35-2` | Produced carrier or description is separated from described structure, selected candidate structure, realized holon structure, measurement return, eval return, and decision authority. |
-| `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, and comparison refs are present when they affect use. |
+| `CC-C35-1` | Grounded architecture question, independently selected source structures, generation or discovery Method, and produced carrier or description are named. When performed generation or discovery matters, one exact dated Work occurrence and its A.15.1/F.6 basis are named separately. |
+| `CC-C35-2` | Note, Method, dated generation or discovery Work, any actual transformation, production or work-to-change claim, produced carrier or description, described structure, selected candidate structure, realized holon structure, measurement return, eval return, decision authority, and composite project Work remain distinct. |
+| `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, comparison refs, and transformation trace are present when they affect use; none substitutes for the A.3.4 basis of an actual transformation or the four A.22 structure discriminators. |
 | `CC-C35-4` | Candidate admission condition names what must be true before C.32 can use the result. |
 | `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question is routed to the direct governing pattern. |
 | `CC-C35-6` | Archive, front, pool, publication, eval, measurement, mathematical lens, decision, evidence, assurance, gate, release, method, and work claims are routed to their governing patterns. |

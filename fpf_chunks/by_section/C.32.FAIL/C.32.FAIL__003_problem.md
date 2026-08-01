@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__003_problem.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:2 — Problem"
-line_start: 65570
-line_end: 65589
+line_start: 66040
+line_end: 66059
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,6 +42,7 @@ dependencies:
   - "E.10"
   - "E.17"
   - "E.18"
+  - "E.18.NET"
   - "E.24.PUB"
   - "G.5"
 keywords:
@@ -64,7 +65,7 @@ Most first-contact failures cluster into a few repair-entry families:
 * a proxy result, generated artifact, architecture description, graph, dashboard, front member, or workshop favorite is used before the selected structures, losses, and receiving pattern are named;
 * one structure, function, role, responsibility, control relation, evidence relation, or method step is improved while the synthesis frame loses the architecture characteristics and other structures that made the trade-off real;
 * a current candidate is treated as a durable optimum, or ideality pressure deletes a bearer without naming the function still carried, the lost structure, and the new burden;
-* a changing holon's architecture and the changed holon's architecture collapse into one claim instead of opening transformer and transformed architecture correspondence repair.
+* an influence-source architecture and the transformed-side architecture content collapse into one claim instead of opening C.32.CONWAY and separating the changed referent, each obtaining C.30 architecture relation or modal `ArchitectureClaim`, any asserted direct influence occurrence, and any separately current actor, assignment, Work, or actual transformation facts.
 
 These cues are useful only when each one is converted into a repair shape: symptom, architecture object under stress, first repair action, and stop or receiving pattern.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 60886
-line_end: 60900
+line_start: 61134
+line_end: 61149
 dependencies:
   - "A.1"
   - "A.10"
@@ -26,6 +26,7 @@ dependencies:
   - "B.3"
   - "C.11"
   - "C.16"
+  - "C.2.1"
   - "C.2.P"
   - "C.25"
   - "C.28"
@@ -66,16 +67,17 @@ keywords:
 
 ### C.30.ASV:2 - Problem
 
-An architecture structural view is selected-structure triage for an `ArchitectureOf@Context` claim: which architecture-relevant structure is being viewed, which structure kind is under consideration, what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source or reliance relation, and source-return condition changes the next architecture move. The view is represented as a Description episteme, including an episteme-lane `U.View` when the view claim is being made, only to record that selected-structure move. Publication faces, forms, units, and renderings may publish the view; they are not the view and do not become the selected structure.
+Architecture structural-view work is selected-structure triage: which architecture-relevant structure is described, which structure kind is under consideration, which exact viewpoint's fixed rules the description satisfies, and what relation, constraint, invariant, operation, dynamics description, hidden or lost structure, correspondence, source-to-use path or work-reliance relation, and source-return condition changes the next architecture move. The candidate is first one C.2.1 description episteme. That same episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` to an independently identified `U.Viewpoint` episteme obtains. Diagram, representation, publication occurrence, form, carrier, and rendering remain separate.
 
 Without this pattern:
 
 - a module-interface view is treated as all architecture;
 - a selected transformation-flow structure, mathematical graph description, or control diagram is treated as proof;
 - a structure kind is treated as a `U.Viewpoint`;
+- a viewpoint label, query, authoring route, bundle membership, diagram, or publication is treated as enough for `U.View`;
 - a TEVB viewpoint bundle is mutated to carry architecture-specific structure kinds;
-- a diagram, table, dashboard, generated relation graph, or ADR is treated as the view itself;
+- a diagram, table, dashboard, generated relation graph, or ADR is treated as the view episteme itself;
 - functional architecture is treated as a peer ontology rather than a structure-kind interpretation under C.30;
-- cross-view consistency is asserted by prose instead of correspondence records;
+- cross-view consistency is asserted by prose instead of correspondence claims or governed direct relations;
 - omitted structure is relied on in subsequent work without a source-return condition.
 

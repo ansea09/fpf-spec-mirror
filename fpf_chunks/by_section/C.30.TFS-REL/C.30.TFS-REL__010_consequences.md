@@ -6,18 +6,19 @@ section_id: "C.30.TFS-REL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__010_consequences.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:9 — Consequences"
-line_start: 62453
-line_end: 62461
+line_start: 62798
+line_end: 62806
 dependencies:
   - "A.10"
   - "A.15"
   - "A.20"
   - "A.21"
   - "A.22"
+  - "A.3.4"
   - "A.6.0"
   - "A.6.5"
   - "A.6.F"
@@ -29,6 +30,7 @@ dependencies:
   - "C.28"
   - "C.29"
   - "C.30"
+  - "C.30.AD"
   - "C.30.ASV"
   - "C.30.STRAT"
   - "C.32"
@@ -38,12 +40,12 @@ dependencies:
   - "C.34"
   - "C.35"
   - "E.10"
-  - "E.17"
   - "E.17.0"
   - "E.18"
   - "E.18.2"
   - "E.18.3"
   - "E.18.NET"
+  - "E.24.PUB"
   - "F.18"
   - "G.6"
 keywords:
@@ -53,8 +55,8 @@ keywords:
 
 | Benefit | Cost or trade-off |
 | --- | --- |
-| E.18 TFS paths, crossings, and valuations and E.18.NET network structure become usable across grounded architecture claims, selected architecture-relevant structures, architecture structural views, and conditional architecture descriptions without merging their owners. | Every use names the exact C.30 architecture claim or relation record, selected architecture-relevant structure, C.30.ASV structural-view ref, or conditional architecture-description ref. A network use also names either one containing architecture claim or all participating architecture claims and keeps every characteristic on a named bearer. |
-| Functional structure and transformation-flow structure stay separable unless positive co-reference is declared. | Concise "the diagram is the architecture" prose is repaired before it is used for an FPF claim kind or admissible-use boundary. |
+| E.18 TFS paths, crossings, valuations, and E.18.NET network structure become usable across actual architecture relations, selected architecture structures, exact structural views, and conditional descriptions without merging owners. | Every use names the exact architecture locus. A network use also names either one containing holon/relation or all exact participating holons and needed relations/claims, and keeps every characteristic on a named bearer. |
+| Required functional content, transformation-flow structure, and actual transformation stay separable. | Concise "the diagram is the architecture/change" prose is repaired before it carries an FPF claim. |
 | Non-flow claim kinds are assigned to their governing patterns. | More governing patterns are named when practitioners try to overuse the diagram, mathematical expression, or selected structure. |
-| The E.18 selected-structure boundary statement stays narrow. | Generic architecture adequacy remains outside E.18. |
+| The E.18 selected-structure boundary stays narrow. | Generic architecture adequacy remains outside E.18. |
 

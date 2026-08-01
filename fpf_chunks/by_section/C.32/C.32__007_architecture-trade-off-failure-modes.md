@@ -6,12 +6,12 @@ section_id: "C.32:6"
 section_title: "Architecture Trade-Off Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__007_architecture-trade-off-failure-modes.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:6 — Architecture Trade-Off Failure Modes"
-line_start: 63757
-line_end: 63771
+line_start: 64135
+line_end: 64149
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,6 +53,7 @@ dependencies:
   - "E.22"
   - "E.23"
   - "G.5"
+  - "U.Structure"
 keywords:
   - "CandidateArchitecturePalette@Project"
   - "architecture candidate synthesis"
@@ -75,7 +76,7 @@ keywords:
 | **Description artifact stands in for candidate content** | A diagram, ADR, view, dashboard, benchmark output, or digital-twin view is the visible work product, but the selected structures and architecture-characteristic trade-off are still missing. Keep the visible work product under description-use, C.29 mathematical-lens use, benchmark, publication, or source-use governance and recover candidate content before C.32 use. |
 | **Front member treated as durable optimum** | A front member, local winner, or benchmark leader is used as if the evolution window will stay fixed. Record evolution window, source-return condition, and retained alternatives through C.18 or C.19; use G.5 only when publishing a selected set after the receiving pattern has made that set available. |
 | **Software-source overfit** | A software architecture source supplies a useful architecture-change idea, but the described holon is not a software system. Translate only the change over selected structures and characteristics; do not import the software ontology. |
-| **Transformer-side architecture omitted** | The candidate architecture for a changed holon cannot be built, tested, deployed, certified, or evolved by the declared changing holon. Open `C.32.CONWAY` and prepare transformer-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
+| **Architecture-influence source omitted** | The candidate architecture for a changed referent cannot be built, tested, deployed, certified, or evolved under the current architecture, Work, communication, method, tool, deployment, evidence, selected-structure, or other source, but that source's exact kind and influence status are hidden. | Open `C.32.CONWAY`; recover the source kind and either its exact obtaining direct relation or the precise provisional disposition, keep acting System, role, Work, changed referent, and any actual transformation separately governed, and prepare influence-source-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
 | **Method-defined dimensions lose their semantics** | A BIM, digital-twin, or view-method dimension already carries method-defined structure, constraint, cost, schedule, use-phase, or maintenance semantics, but the synthesis text keeps only the dimension name or dimension count. Preserve the method semantics and map them to selected structures, constraints, characteristics, and source-return conditions. |
 | **Ideality shortcut** | Fewer bearers, fewer modules, or one universal module is only a candidate direction until functions, architecture characteristics, scale window, safety, admissibility, and losses are named. |
 

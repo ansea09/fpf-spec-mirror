@@ -6,15 +6,20 @@ section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:5 — Archetypal Grounding"
-line_start: 67029
-line_end: 67040
+line_start: 67569
+line_end: 67580
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.1"
   - "A.22"
+  - "A.3.4"
   - "A.6.M"
+  - "A.6.RCD"
   - "C.16"
   - "C.18"
   - "C.19"
@@ -35,7 +40,9 @@ dependencies:
   - "C.32.PAD"
   - "C.33"
   - "C.34"
+  - "C.36"
   - "E.18"
+  - "F.6"
   - "G.5"
 keywords:
   - "DSM"
@@ -60,5 +67,5 @@ Show - DSM and MDM clustering. A DSM modularization clusters components by co-ch
 
 Show - NAS result. A multi-objective NAS run returns a neural architecture graph and Pareto point. C.35 records search space, constraints, performance and resource criteria refs, generated carrier, described functional architecture structure, preserved dataflow, lost deployment and evidence structure, bearer boundary, and eval return. `C.32` owns candidate-palette admission; `C.32.ACE` owns eval results.
 
-Show - graph grammar or model transformation. A graph grammar transforms a product-line model into a candidate structure. C.35 records transformation rules, selected source structures, target structures, preserved interfaces, lost manufacturing constraints, and transformation trace. C.34 may check preservation; C.32 admits only after selected-structure and characteristic effects are recoverable.
+Show - graph grammar or model transformation. A graph-grammar Method is applied in dated generation Work and returns a candidate-structure carrier for a product-line model. C.35 names the Method, exact Work when performed-work reliance is current, produced carrier, independently selected source and described structures, rules, preserved interfaces, lost manufacturing constraints, and transformation trace. If the use additionally asserts an actual formal or world-side change, it cites the exact A.3.4 occurrence and the separately governed Work-to-change or A.15.PROD claim; otherwise `model transformation` remains the Method or operation-family label and no `U.Transformation` is inferred. C.34 may check preservation; C.32 admits only after selected-structure and characteristic effects are recoverable.
 

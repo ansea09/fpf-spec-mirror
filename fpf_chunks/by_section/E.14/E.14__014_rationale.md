@@ -6,12 +6,12 @@ section_id: "E.14:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__014_rationale.md"
-commit_sha: "d1f696e7c7767705206a8cacd9f6ed48e4dc5b02"
+commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:11 — Rationale"
-line_start: 77330
-line_end: 77339
+line_start: 77886
+line_end: 77895
 dependencies:
   - "B.3.5"
   - "C.13"
