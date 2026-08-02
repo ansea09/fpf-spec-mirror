@@ -6,12 +6,12 @@ section_id: "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW/A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW__007_problem-frame.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW — Declared-Substrate Interpretive View"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW:1 — Problem frame"
-line_start: 29807
-line_end: 29824
+line_start: 29867
+line_end: 29884
 dependencies:
   - "A.0"
   - "A.19"

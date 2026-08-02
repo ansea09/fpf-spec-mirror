@@ -6,12 +6,12 @@ section_id: "A.15.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__002_problem-frame.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:1 — Problem Frame"
-line_start: 25935
-line_end: 25940
+line_start: 26012
+line_end: 26017
 dependencies:
   - "A.10"
   - "A.15"
@@ -49,5 +49,5 @@ keywords:
 
 Teams often say that work is "ready", "full-kitted", "committed", "green", "released", or "good to start." Those words can point to different FPF values: an intended WorkPlan, a PlanItem baseline, a performed preparation activity, a gate decision, a source-currentness relation, resource availability, or resulting performed work.
 
-`A.15.5` gives the readiness relation one place without importing a management framework object as an FPF kind. Readiness is pre-work-entry unless a recheck after launch or post-launch variance claim is explicitly current. A readiness relation may cite preparation work, but it is not that preparation work and not the target performed work.
+`A.15.5` gives the readiness question and its local result one place without importing a management framework object as an FPF kind. Readiness is pre-work-entry unless a recheck after launch or post-launch variance claim is explicitly current. A readiness claim may cite preparation or checking Work, but it is neither that Work nor the target performed Work.
 

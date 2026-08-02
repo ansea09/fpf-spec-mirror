@@ -6,13 +6,14 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 49635
-line_end: 49879
+line_start: 49500
+line_end: 49722
 dependencies:
+  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -20,26 +21,24 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.22.PFR"
   - "C.24"
   - "C.28"
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
-  - "DecisionSubject clarification"
-  - "EmitterPolicy"
-  - "InsertionPolicy"
-  - "dominance default routing"
+  - "already-live candidate pool"
+  - "change trigger"
   - "explore-exploit"
+  - "governing lens"
   - "keep frontier"
-  - "lens id"
-  - "live candidate pool"
   - "narrow to subset"
   - "pool-policy result"
-  - "reroute"
   - "sunset line"
   - "widen"
 ---
@@ -79,9 +78,10 @@ Define EmitterPolicy (regime key, params, ε, K, insertion policy, and deduplica
 **Decision-subject clarification.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. **Contexts publish** measurement spaces and admissible policies as **semantic frames**; LOG profiles lenses and policies but does **not** enact choices.
 **Depends on.** **C.18** for archive and front stewardship, **C.16** for characteristic and measurement claims, **A.19.CPM** and **A.19.SelectorMechanism** for comparison and selection kernels, **B.3** for assurance-sensitive confidence claims, and **G.5** and **G.11** for selected-set publication and refresh.
 
-**EmitterPolicy (named profile).** A context‑local, versioned policy with fields:
-`{ name, regimeKey ∈ {UCB, Thompson, BO‑EI, GP‑UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, **insertion_policy**, **dedup_threshold** }`.
-Policies are referenced by C.18 generation and archive records and are conceptual lenses, not staffing or budget instructions.
+**EmitterPolicy (named profile).** A context-local, versioned policy with canonical fields:
+`{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
+`emitterPolicyId` is cited from a consuming record as `emitterPolicyRef`; `insertionPolicyRef` is a reference to the governed insertion policy; `dedupThreshold` is a declared scalar on the basis and unit named by `deduplicationBasisRef` and `deduplicationUnit`. Casing does not create a second field family.
+`EmitterPolicy` is a context-local named policy profile, not a U-kind or a generation operator. A C.18 generation or archive record cites it only when that profile actually governs the current pool treatment or its insertion and deduplication policy; C.18 retains generation, archive, and front ownership. The profile is not a staffing or budget instruction.
 Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains their pool-policy consequences but does not become one rival default authority.
 
 **Decision-theory bridge.** `C.11` governs theory-side choice among already-available options and the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. `C.19` may consume such outputs only as criteria for pool policy, graduation, keep-frontier, or sunset treatment; it does not re-govern local choice doctrine.
@@ -91,23 +91,27 @@ Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains t
 • **Tie‑breakers:** `Novelty@context`, `ΔDiversity_P`, `Surprise`; `Illumination` (telemetry over Diversity_P, including coverage and QD‑score) MAY be used as a tie‑breaker but is **not** in the dominance set.
 • **Archive:** `K=1`, `ε=0`, deduplication in `CharacteristicSpace`.
 • **Policy family:** one uncertainty-aware explore policy family with one declared regime key and explicit change triggers; `UCB`-class with moderate temperature and `explore_share ≈ 0.3–0.5` is one didactic starter profile, not the semantic default family.
-• **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `DHCMethodRef.edition`, `EmitterPolicyRef`, `InsertionPolicyRef`, `dedup_threshold?`, `TimeWindow`, `Seeds`.
+• **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `DHCMethodRef.edition`, `emitterPolicyRef`, `insertionPolicyRef`, scalar `dedupThreshold`, `deduplicationBasisRef`, `deduplicationUnit`, `timeWindow`, and `seeds`.
+
+**Use-value and declared-Q boundary.** `C.16.Q` owns the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A named C.19 lens may consume either declared position but cannot silently promote use-value into `Q` or construct the Q model.
 
 **Scalarization lenses (policy‑level).** A lens `J_ℓ` declares: (a) hard eligibility conditions (e.g., ConstraintFit=pass), (b) soft aggregation (weights or curves), (c) trust policy (how assurance and CL discounts enter).
 **Conformance.** A Context MUST name the lens used to pick from a frontier; scalarized rankings MUST NOT be presented as “the frontier”; the **`lens id MUST be recorded in provenance of each selection`**.
 
 **Promotion rules (policy).**
 - **Tie‑breaks.**  `Surprise` and `Illumination` MAY act as tie‑breakers; **promotion into the dominance set MUST be declared by lens or policy id** and captured in provenance.
-- **Graduation.** Profiles graduate from Explore→Exploit when **backstop_confidence** (B.3 level) and eligibility conditions are met.
+- **Graduation.** Profiles graduate from Explore→Exploit only when eligibility holds and `assuranceResultRef` cites the exact B.3 assurance result whose bounded use supports the profile's declared `backstop_confidence` threshold for the current scope.
 - **Sunset or pivot.** Profiles failing VOI or backstop thresholds are sunset or pivoted at `rebalance_period`.
 
-**Explore and exploit loop (per rebalance_period).**
-1) Recompute frontier with trust discounts.
-2) Enforce `explore_share` (minimum attention on high‑Novelty, not‑yet‑proven profiles).
-3) Update generator `temperature τ` and emitter mix.
-4) Apply `backstop_confidence` to graduate; sunset stale probes.
-5) Satisfy `wild_bet_quota` by seeding fresh high‑Novelty candidates.
-6) HET‑FIRST — apply group‑fairness quotas by domain family when the fairness constraint is current; apply a DPP sampler policy or Max-min repulsion policy when diversity sampling is current; when both constraints are current, record both policy ids before exploit lenses.
+**Policy logic is not generation or work.** One C.19 pass computes and records a treatment over an already identified live pool. It does not recompute a C.18 front or archive, update a generator, seed a candidate, constitute dated `U.Work`, assign a role, approve a budget, or authorize enactment.
+
+**Pool-policy pass (per `rebalance_period`).**
+1) Read the current C.18 archive/front reference and its replay boundary; do not recompute either object inside C.19.
+2) Record the governing lens and desired policy values, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint. These are policy values, not generation actions.
+3) Apply eligibility and `backstop_confidence` to the pool-policy question: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. C.19 owns this graduation and treatment judgement.
+4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextGoverningPatternRef = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. C.18 decides and records the generation, archive, and front operations.
+5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
+6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any next-owner inputs. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next owner's operation.
 
 **Named lenses (heuristics; policy‑level, not norms)**
 The following **lens profiles** are **illustrative heuristics**. Contexts MAY reuse or modify them; they are **not** normative.
@@ -116,19 +120,21 @@ The following **lens profiles** are **illustrative heuristics**. Contexts MAY re
 • **Spike‑first** — pick highest **Use‑Value** subject to `ConstraintFit=pass` and a small **Cost‑to‑Probe** cap.
 • **Safety‑first** — minimize **SafetyRisk** subject to `Use‑Value ≥ θ` and `ConstraintFit=pass`.
 • **Platform‑option** — maximize **Option‑Value** under probe cost bounds.
-• **Pilot‑then‑scale** — optimize **Use‑Value** on pilot scope with `BackstopConfidence ≥ L1`; widen `G` once **R** holds.
-• **Heterogeneity‑first (policy id).** Eligibility → Dominance → Tie‑breakers; Hard gate: FamilyCoverage ≥ k, MinInterFamilyDistance ≥ δ_family; Fairness quotas: ≤1 candidate per sub‑family at pre‑front sampling; a DPP sampler policy or Max-min repulsion policy may be used only when its sampler policy id is recorded.
-**Conformance (lens recording).** A decision that uses any lens **MUST** record its **lens id** alongside `EmitterPolicyRef`. (This restates and localizes C19-3.)
+• **Pilot-then-scale** — optimize **Use-Value** on the declared pilot scope. Set `currentTreatment = widen` only when `assuranceResultRef` cites the exact B.3 assurance result whose supported scope includes the proposed wider pool, and `changeTrigger` names the satisfied assurance condition and that newly supported scope; otherwise keep the pilot scope.
+• **Heterogeneity-first (illustrative profile).** Use only when the current Context already admits a heterogeneity constraint or sampler policy. The profile may apply a declared `FamilyCoverage` or `MinInterFamilyDistance` gate, a declared family or subfamily quota, or a diversity-promoting sampler; C.19 supplies no universal `k`, `δ_family`, quota vector, sampler class, DPP rule, or max-min rule. Record only the admitted policy values and ids actually used.
+**Conformance (lens recording).** A pool-policy record that uses a lens **MUST** record its **lens id** alongside `emitterPolicyRef`. (This restates and localizes C19-3.)
 
 #### C.19:4.1 - Explicit pool-policy result
 
-A finished `C.19` pass should publish one explicit pool-policy result rather than one atmospheric statement that exploration will continue somehow.
+**Canonical record vocabulary.** A serialized `PoolPolicyResult` uses the field `governingLens` and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`. Reader prose may say *widen*, *keep the frontier*, *narrow to a subset*, or *sunset a line*, but those phrases are labels, not alternate serialized values. Do not use `lens` as a second field name.
+
+A finished `C.19` pass should write one explicit pool-policy record rather than one atmospheric statement that exploration will continue somehow.
 
 That result should state:
 
 - the still-live pool, frontier, or family scope under governance now;
 - the governing lens id or policy state;
-- the current treatment, chosen from `widen`, `keep frontier`, `narrow to subset`, or `sunset line`;
+- `currentTreatment`, chosen from `widen | keep_frontier | narrow_to_subset | sunset_line`;
 - the event or threshold that would justify changing that treatment next.
 
 A compact result may therefore state, for example:
@@ -152,9 +158,9 @@ Those fields define the result: live pool, governing lens, current treatment, an
 A `C.19` pass may close only when one explicit pool and one explicit next treatment are both visible.
 
 - Close as `widen` when the current frontier is too narrow for the declared exploration policy or when the evidence basis is too thin to justify current narrowing.
-- Close as `keep frontier` when several lines must remain live under the current lens and no narrower admissible subset is yet justified.
-- Close as `narrow to subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
-- Close as `sunset line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
+- Close as `keep_frontier` when several lines must remain live under the current lens and no narrower admissible subset is yet justified.
+- Close as `narrow_to_subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
+- Close as `sunset_line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
 
 When the question has stopped being pool policy, C.19 closes by naming the next governing pattern outside `currentTreatment`: `C.11` for local choice, `C.24` for enactment planning, `G.5` for selector-facing publication, `G.11` for refresh, or another direct governing pattern when the recovered relation is different.
 
@@ -168,20 +174,21 @@ The smallest useful `C.19` record usually states:
 
 - `livePool = ...`
 - `governingLens = ...`
-- `currentTreatment = widen | keep frontier | narrow to subset | sunset line`
+- `currentTreatment = widen | keep_frontier | narrow_to_subset | sunset_line`
 - `changeTrigger = ...`
 - `nextGoverningPatternRef? = ...` only when the question is no longer pool policy
 - `learningProgressSignal? = ...` when an autotelic or capability-discovery reason materially supports widening, keeping the frontier live, or probing one goal region further
 - `competenceModelRef? = ...` when the pool policy depends on a model of what the system or method family can learn next
 - `goalSpaceExpansionCue? = ...` when the admissible next treatment widens the goal and task palette rather than merely re-ranking current candidates
 - `goalSpaceExpansionPolicyRef? = ...` when goal and task space growth is itself governed by one declared archive or curriculum expansion policy
+- `assuranceResultRef? = ...` when graduation, scaling, or widening relies on one exact B.3 assurance result and its bounded supported scope
 - `whyNotLocalChoice = ...` when the result might otherwise be mistaken for `C.11`
 
 An admissible short record may therefore read:
 
 ```text
 livePool = frontier_F
-lens = barbell_policy_v2
+governingLens = barbell_policy_v2
 currentTreatment = keep_frontier
 changeTrigger = backstop_confidence reaches L1 for one retained line
 whyNotLocalChoice = several family regions remain live
@@ -189,7 +196,7 @@ whyNotLocalChoice = several family regions remain live
 
 When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing publication is now required, the admissible `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextGoverningPatternRef = G.5`, with the reason that publication rather than pool policy is now current.
 
-Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite one `GoalSpaceExpansionPolicyRef` together with the supporting `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue`; that doctrine may justify `widen`, `keep frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without `G.5`.
+Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` together with the supporting `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue`; that doctrine may justify `widen`, `keep_frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without `G.5`.
 
 If the record does not already state which pool remains live, what governs it, and what would change that policy treatment next, it is still one unfinished `C.19` result.
 
@@ -202,7 +209,7 @@ When the point is to keep several lines active under one declared lens, `C.19` s
 
 ```text
 livePool = frontier_F
-lens = frontier_sweeper_v3
+governingLens = frontier_sweeper_v3
 currentTreatment = keep_frontier
 changeTrigger = one retained line reaches backstop_confidence L1
 whyNotLocalChoice = three family regions remain live
@@ -213,7 +220,7 @@ When one region no longer clears the active novelty floor or backstop, `C.19` sh
 
 ```text
 livePool = family_region_beta
-lens = barbell_policy_v2
+governingLens = barbell_policy_v2
 currentTreatment = sunset_line
 changeTrigger = reopen only if new evidence or quota deficit reactivates the region
 whyNotLocalChoice = other regions still remain live under the same pool policy
@@ -224,7 +231,7 @@ When one internal retained subset is already explicit and the next question is t
 
 ```text
 livePool = retained_subset_{option_B, option_C}
-lens = pool_policy_completed
+governingLens = pool_policy_completed
 currentTreatment = narrow_to_subset
 changeTrigger = retained subset is explicit; pool policy is complete
 nextGoverningPatternRef = G.5 because selector-facing publication is now current
@@ -249,43 +256,13 @@ CulturalLivePoolPolicyResult@Context:
 
 The record governs pool treatment only. If the label itself is unstable across communities, use `F.17`, `F.18`, and `F.9`. If the question is the cultural-evolution case, use `C.36`. If the internal retained subset must become public, use `G.5`. If the issue is source or edition currentness, use `G.11`.
 
-#### C.19:4.4 - Bounded shortlist from declared source sets
+#### C.19:4.4 - Exit From Pool Treatment To Publication Or Choice
 
+An internal subset retained by `narrow_to_subset` is still the live pool named by one C.19 policy record. It is not a public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artefact, and C.19 does not emit any of those objects. `Front` and `Archive` retain their C.18 meanings; a scalarized pick does not rename either one.
 
+When the retained set must be published for downstream comparison, registry use, or selector-facing consumption, close C.19 and pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. `G.5` governs the selected-set publication and any public shortlist identity. C.19 supplies only the preceding pool treatment and the reason publication is now current.
 
-- Treat `Shortlist` as the set emitted by one named lens from one declared source set, not as a synonym for `Front`.
-- If the mathematical set object must be named, treat it as the choice set underlying that shortlist rather than as one second public head.
-- When the current Context consumes the ordinary default `DefaultId.DominanceRegime`, keep `DominanceSet` equal to the declared current `Q` tuple and cite that consumed default rather than re-governing it here.
-- `Novelty@context`, `DeltaDiversity_P`, `Surprise`, and `IlluminationSummary` stay outside default dominance unless one declared `PromotionPolicy` promotes them.
-- If `Use-Value` belongs in `Q`, declare it there; do not let it drift between core objective and side note.
-- `ExplorationArchive` is the exploration-specific specialization of `Archive`; use `Archive` as the wider family head only when that exploration-specific subtype does not matter.
-- Resource bounds govern how much probing, comparison, or retention is warranted, but they do not by themselves redefine the front.
-- Decision under budget may draw from the front, from the archive, or from both, but the source set and the decision lens must be explicit.
-- The selected-set kernel floor here is:
-  - one set-return comes first
-  - one named lens acts over that declared return
-  - one `Shortlist` is emitted from that lens-declared source set
-  - one `ShortlistId` may later name that shortlist when it must be carried as one stable public token
-  - one `RankedShortlist` may appear later when the shortlist is explicitly ordered
-- `PortfolioMode` may state how the selector operated, but it does not rename the emitted set result.
-- When the comparison question becomes load-bearing, the minimum mathematical substrate should stay visible:
-  - the compared candidates live in one declared outcome or characteristic space
-  - the archive may depend on one declared search, niche, or reachability space
-  - the shortlisted result is emitted from one explicit selected-set return rather than from one hidden scalar winner
-- When a context-local creativity or novelty characteristic remains outside the declared `Q` tuple, keep that distinction visible rather than treating it as one silent override of the current dominance basis.
+When the live question becomes which option to choose, close C.19 and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may explain a pool treatment, but they do not authorize a budget, role, plan, or work occurrence. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
 
-#### C.19:4.4.1 - First public wording for shortlisted outputs
-
-- Prefer wording like `shortlist from the declared Q-Front under LensId=...` over wording that makes the shortlisted result sound like one second front.
-- When one stable emitted object must be cited across documents or tools, say `ShortlistId for that shortlist` rather than letting the token name replace the shortlist result itself.
-- If the shortlist later acquires order, say `RankedShortlist` and keep the prior shortlist result recoverable.
-- Reserve `choice set underlying that shortlist` for mathematical discussion, proofs, or object-level set operations.
-
-#### C.19:4.4.2 - Choice doctrine stays source-set explicit
-
-- State the declared source set and the declared decision lens in the same place as the shortlisted-choice rule.
-- `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may appear here when they justify choice from one declared source set.
-- Those terms explain why another probe, defer, or stop decision is warranted; they do not rename `Front`, `Archive`, or `Shortlist`.
-- When teams need a fuller account of budgeted probing or sequencing, add that as one separate resource-aware choice explanation rather than overloading the shortlist doctrine itself.
-- Selector-facing publications should keep speaking about the emitted set and its source set rather than trying to explain the whole budgeted-choice rationale there.
+The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next owner. Do not duplicate publication, choice, work, or refresh semantics inside C.19.
 

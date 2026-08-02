@@ -1,51 +1,73 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.20"
-pattern_title: "Composition of U.Discipline (Discipline‑CAL)"
+pattern_title: "Composition of U.Discipline (Discipline-CAL)"
 section_id: "C.20:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__003_use-this-when.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
-  - "C.20 — Composition of U.Discipline (Discipline‑CAL)"
+  - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:0 — Use This When"
-line_start: 50286
-line_end: 50299
+line_start: 50121
+line_end: 50142
 dependencies:
-  - "A.19"
-  - "C.2"
+  - "A.1"
+  - "A.14"
+  - "A.15.1"
+  - "A.17"
+  - "A.18"
+  - "A.19.CPM"
+  - "A.22"
+  - "A.3.1"
+  - "A.6.REL"
+  - "B.1.5"
+  - "B.2"
+  - "C.13"
+  - "C.16"
+  - "C.2.1"
+  - "C.20"
   - "C.21"
   - "C.22"
   - "C.23"
+  - "C.3"
   - "E.10"
-  - "F.17-F.18"
+  - "E.24.UK"
+  - "F.17"
+  - "F.18"
   - "F.9"
-  - "G.0"
-  - "G.2"
   - "G.5"
-  - "U.BoundedContext"
 keywords:
-  - "U.AppliedDiscipline"
-  - "U.Transdiscipline"
-  - "discipline"
-  - "episteme corpus"
-  - "institutions"
-  - "standards"
-  - "Γ_disc"
+  - "DisciplinePartOfRelation"
+  - "assembly"
+  - "composition-grounded characteristic"
+  - "discipline construction"
+  - "exact constituents"
+  - "practice-and-knowledge whole"
+  - "reidentification"
+  - "whole-forming claims"
 ---
 
 ### C.20:0 - Use This When
 
-Use this pattern when a project must treat a discipline as a durable field-level object, not as a loose domain label or a list of documents. Typical cases include comparing safety engineering traditions, moving a practice across bounded contexts, judging whether a method family belongs to a field, or keeping a discipline edition stable while its canon and standards change.
+Use this pattern when a team needs to decide whether an apparent field is one durable practice-and-knowledge whole rather than a convenient label or collection. Typical moments include:
 
-**What goes wrong if missed.** A field name starts doing the work of canon, practice, institutional carrier, bridge, and comparison governance at once; cross-context reuse then looks valid while meanings, evidence lanes, and comparison rules have already drifted.
+- comparing rival traditions within or across apparent disciplines without letting a shared label, Bridge, or comparison table merge them;
+- moving one practice across semantic localities while preserving the exact local meanings, direction, tolerated loss, and discipline boundaries;
+- judging whether an exact Method or method family actually belongs to a field assembly rather than being merely registered, used, cited, published, compared, or taught there;
+- keeping discipline continuity inspectable while its canon, standards, or accepted practices change, and identifying another whole when the reidentification rule fails;
+- deciding whether a research or engineering field has exact parts and a continuing identity;
+- deciding whether a theory, school, standard, or subdiscipline is actually a part;
+- using an applied, multidisciplinary, or transdisciplinary label without letting breadth wording create a kind or whole.
 
-**What this buys.** The discipline name becomes a reviewable holon with named composition positions, bridges, and comparison rules, so users can compare, transport, steward, or edition a field without turning it into a document list or a domain label.
+**Primary EntityOfConcern.** One exact `U.Entity` candidate being tested for recognition as `U.Discipline`. The candidate is recoverable before the classification result; calling it a candidate discipline does not make the result true.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.Discipline`: a field-level practice-and-knowledge holon composed by canon epistemes, accepted practices and standards, organizational carriers, bridges, and comparison governance.
+**First useful move.** Name the exact candidate and two independently identified candidate parts: at least one making a knowledge-bearing contribution and at least one making a reusable-practice contribution. Then state why each direct part relation obtains and one whole-forming fact that couples the two contributions. Do this before letting the discipline name support a comparison, selector or dispatcher, health or maturity claim, transport, or edition decision. If those facts are unavailable, stop at the separately governed objects or collection.
 
-**First useful move.** State the five composition positions and the bridge/loss notes before using the discipline name in comparisons, selectors, or maturity claims.
+**What goes wrong if missed.** A field name starts doing the work of a canon, method repertoire, institution, bridge, comparison policy, and maturity score at once. A card or graph can then manufacture parts, and changes to a journal, standard, method list, or dashboard can silently manufacture a new discipline. Cross-locality reuse can also look valid after local meanings, evidence lanes, or comparison rules have drifted.
 
-**Not this pattern when.** A subject label alone belongs to domain/catalog work; local meaning belongs to bounded context; one theory or standard belongs to episteme/publication work; a school, edition, or lineage remains an auxiliary value unless a direct governing pattern admits it.
+**What this buys.** A practitioner can say what the discipline is made of, how the exact parts form one practice-and-knowledge whole, what remains the same through change, and which surrounding objects are merely used by discipline work. That makes comparison, transport, stewardship, and edition work inspectable without reducing the field to a document list or domain label.
+
+**Not this pattern when.** Use domain or catalogue work for a subject-area label; the effective ReferenceScheme, ClaimScope, F.17 local-sense row, and F.9 only when applicable for one local meaning or crossing; C.2.1 and its publication or source owners for one theory, standard, canon item, or their exact episteme edition; C.3, C.2.1, and direct historical or provenance relations for a school, variant, lineage, or classification; A.3.1 and B.1.5 for a Method or composite Method; A.15.1 for dated Work; A.22 for a selected relation organization; A.19.CPM for an actual comparison; C.21 for field-health characteristics; and E.24.PUB for publication. Return to C.20 only if the exact field-level whole and its construction are current.
 

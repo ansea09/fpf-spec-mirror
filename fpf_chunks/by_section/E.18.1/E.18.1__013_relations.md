@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 83567
-line_end: 83595
+line_start: 83642
+line_end: 83670
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -19,6 +19,8 @@ dependencies:
   - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.0"
   - "A.6.1"
@@ -44,13 +46,15 @@ dependencies:
   - "G.5"
   - "G.9"
   - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
   - "U.Signature"
 keywords:
 ---
 
 ### E.18.1:12 - Relations
 - `A.22.CGUS` supplies the general constraint-governed unfolding structure when P2W exposes typed structure positions, constraints, admissible next forms, and stop or return conditions.
-- `E.18.3` supplies the complete `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` specialization when explicit transformation-flow structure is current; its underlying generic structure, accepted-starting-record references, positions, next-form kinds, and boundary relations remain under `A.22.CGUS`. P2W references those owner records and adds no subset or hybrid structure schema.
+- `E.18.3` recognizes the exact selected A.22.CGUS structure under its additional transformation-flow unfolding condition and reuses exact E.18 positions and directly governed relation references. E.18 owns one TFS, its valuations and internal `SubflowRef`; E.18.NET owns independently selected TFS or nested-network members plus exact obtaining cross-member relations. P2W references these owners and adds no subset, reciprocal record or hybrid structure schema.
 - `G.2` governs source-use records, source-pack return, evidence anchors for admitted source publications, and source-currentness payloads before DPF hardening can rely on a seed drawn from those admitted sources.
 - `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` govern DPF authoring, framework architecture decisions, and framework relation records when a generated or cheap seed is carried toward hardening.
 - `E.23` governs repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
@@ -58,7 +62,7 @@ keywords:
 
 - `E.18` governs selected `TransformationFlowStructure`, transfer annotations, flow valuation, `ConstraintValidity`, `GateFit`, gate profile, design tags, and run tags.
 - `C.22.2` governs the accepted problem-side record and problem-side claims related to the carried distinction.
-- `A.6.P` governs recovery and readable statement of each direct relation. `A.6.REL` governs direct obtaining, occurrence individuation, and receiver-conditioned use of any reusable `RelationSignature`; P2W cites the occurrence, assertion, or description returned there and copies none of that doctrine into note fields. `A.6.RCD`, `E.24`, and `E.24.UK` govern any later P2W relation-kind candidate and admission, while `A.6.0` declares a `RelationSignature` only after that settlement. `F.8` selects the public practice-name decision and local-only note-form and field-label results; `F.18` governs the practice NameCard and `F.17` publishes only its public term row. This edition introduces no P2W relation species, signature, occurrence, or relation NameCard.
+- `A.6.P` governs recovery and readable statement of each direct relation. `A.6.REL` governs direct obtaining, occurrence individuation, and receiver-conditioned use of any reusable `RelationSignature`; P2W cites the occurrence, assertion or description returned there and copies none of that doctrine into ClaimContent. `A.6.RCD`, `E.24`, and `E.24.UK` govern any later P2W relation-kind candidate and admission, while `A.6.0` declares a `RelationSignature` only after that settlement. F.8/F.18/F.17 open only when an external naming or publication use is current; the header's Tech/Plain pattern label and local note-field phrases create no NameCard, term row, U-kind, relation or MethodDescription.
 **Canonical object-to-owner map.** Read each arrow independently; the row order is not a declaration or work sequence.
 
 | Current object or question | Direct pattern and P2W boundary |
@@ -71,7 +75,7 @@ keywords:
 | Role-method-work alignment; performed work; planning; planned filling; appearance-based work reliance; work-entry readiness; work-to-change | Alignment -> `A.15`; dated work -> `A.15.1`; planning -> `A.15.2`; planned filling/baseline -> `A.15.3`; appearance-based reliance repair -> `A.15.4`; work-entry readiness -> `A.15.5`. A work-to-change claim -> its named subject predicate with `U.Work` and `U.Transformation` participants, or one local compound claim under `A.6.RCD` disposition 2; absent either basis -> exact `missing-governor`. Production-work, entity-inception, and completion questions -> `A.15.PROD`; unresolved result/input/handoff wording -> `A.6.P.WMR`. |
 | Generator-autonomy declaration or boundary; evidence; assurance; provenance | Generator-autonomy declaration or bounded-autonomy question -> `E.16`; evidence -> `A.10`; assurance -> `B.3`; provenance -> `G.6`. An autonomy declaration states the limits and stop conditions it governs; it supplies none of evidence, assurance, permission, or performed Work. Each claim keeps its own subject, predicate, and use. |
 | Acceptance record, label, or claimed acceptance | First name the exact acceptance predicate, its participants, and the receiving use, then apply that predicate's direct governor and carry only the result it returns. If no such predicate or governor is current, return exact `A.6.RCD missing-governor` for those participants and that use. A record or label alone does not establish acceptance; `C.25` is not a universal acceptance owner. |
-| Step constraint validity; exact subject or regulatory conformance; FPF pattern-quality review | E.18 step constraint validity -> `A.20`. Another conformance claim -> the direct subject or regulatory owner recovered for that rule and subject. FPF pattern-quality review -> `E.19`. Neither `A.20` nor `E.19` is a universal conformance owner. |
+| Step constraint validity; exact subject or regulatory conformance; FPF pattern-quality evaluation or review | E.18 step constraint validity -> `A.20`. Another conformance claim -> the direct subject or regulatory owner recovered for that rule and subject. FPF pattern-quality evaluation or review -> `E.21`. `E.19` consumes that result for pattern admission, refresh, or return-for-repair. None of `A.20`, `E.21`, or `E.19` is a universal conformance owner. |
 | Gate decision; permission; release; work-entry readiness; local choice; accountable commitment | Gate-decision relation and publication -> `A.21`. Non-prohibition, granted permission, permission exercise, non-violation, or permission conflict -> `A.2.8.PER`; instituting or revoking grant act -> `A.2.9`; obligation or prohibition -> `A.2.8`. Release action -> exact `A.15.1` `U.Work` occurrence; a claim that a subject was released -> its named subject predicate and participants or `A.6.RCD missing-governor`. Work-entry readiness -> `A.15.5`. Local choice -> `C.11`. Gate, permission, readiness, release work occurrence, release relation, choice, and commitment do not entail one another. |
 | Architecture; architecture description; structural view; problem-to-structure architecturing; reusable structure; cross-scope or interlevel residual | Architecture -> `C.30`; architecture description -> `C.30.AD`; structural view -> `C.30.ASV`; problem-to-structure architecturing -> `C.32.P2S`; reusable structure -> `C.31`; cross-scope or interlevel residual -> `C.30.ILC`. |
 | Module interface; function; wording use | Module-interface relation -> `A.6.M`; hidden function-like claim -> `A.6.F`; wording-use repair -> `E.10`. |

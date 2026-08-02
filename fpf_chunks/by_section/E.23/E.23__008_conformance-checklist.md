@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance checklist"
-line_start: 86647
-line_end: 86665
+line_start: 86845
+line_end: 86866
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -32,10 +32,10 @@ keywords:
 
 | Check | Passing condition |
 |---|---|
-| `CC-E23-1` | Name object version and object-under-improvement named by value evaluation before claiming a changed evaluation result. |
-| `CC-E23-2` | Use `E.22` or an equivalent frame when the evaluation purpose is not already explicit. |
-| `CC-E23-3` | Represent returned work as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified `ExpectedEvaluationResultChange@Context` values. A grouped memory summary does not discharge skipped rows. |
-| `CC-E23-4` | Re-evaluate the changed object version before claiming coordinate, status, or `Q` change, or a changed front relation. |
+| `CC-E23-1` | Name the exact object version, exact object-under-improvement evaluation, one current `QualityEvaluationQuestionFrame`, and one `QualityEvaluationUseDeclaration` before claiming a changed evaluation result. |
+| `CC-E23-2` | Reuse an E.22 or equivalent exact frame only when it binds the current object version, selected characteristic space, predicate or comparator, ClaimScope, result-consuming work or decision, purpose, qualification window, and non-use boundary; otherwise open a new frame. |
+| `CC-E23-3` | Represent returned repair possibilities as row-atomic E.22 findings or proposal rows with closure tests; pair proposals selected for the next pass with scale-qualified `ExpectedEvaluationResultChange@Context` values. A grouped memory summary does not discharge skipped rows, and proposal selection does not establish performance. |
+| `CC-E23-4` | Identify each evaluation pass as one dated A.15.1 Work occurrence and name its exact evaluation application/result binding or direct evaluation-result relation plus any separate result episteme. Re-evaluate the changed object version before claiming coordinate, status, `Q`, or front-relation change. |
 | `CC-E23-5` | Record what became worse and protected trade-offs. |
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
@@ -46,4 +46,7 @@ keywords:
 | `CC-E23-10` | Preserve the named evaluation's evidence basis, result-row shape, short-rationale rule, attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
 | `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring governing pattern and stop the `E.23` overread. |
 | `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work under its own governing pattern, not implicit `E.23` scope. |
+| `CC-E23-13` | Keep a selected next-action proposal, independently dated improvement Work, exact A.6.1 binding or direct Work-to-result/change relation, changed object or Transformation, later evaluation Work, and result episteme distinct. When a required direct governor is missing, retain the separately identified objects and the exact blocker; do not mint a generic Work-result relation. |
+| `CC-E23-14` | Represent current alternatives, exact guards, selected obtaining relations, selected continuation, stop, and governing-pattern returns in one admitted A.22 unfolding structure. When transformation-flow membership is current, E.18/E.18.3 recognizes that same selected `U.Structure`; do not mint a parallel loop object. A visible cycle, record, structure, decision value, or branch is not enduring Work, context, authorization, or performance. |
+| `CC-E23-15` | A low value, finding, floor miss, or improvement aim does not establish an actual Problem. Any actual Problem used by the loop resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

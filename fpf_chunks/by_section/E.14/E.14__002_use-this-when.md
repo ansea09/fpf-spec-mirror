@@ -6,12 +6,12 @@ section_id: "E.14:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__002_use-this-when.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:0 — Use This When"
-line_start: 77600
-line_end: 77607
+line_start: 77702
+line_end: 77713
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -34,4 +34,8 @@ Use this pattern when FPF text needs to stay readable as one human working model
 **What goes wrong if missed.** The working text either drifts into local jargon and slash labels or calcifies into proof machinery that practitioners cannot use in ordinary design, review, or management work.
 
 **What this buys.** A working reader sees one small model first, while assurance readers can still recover mapping, logical, constructive, and empirical grounding without forcing that machinery back into the Working-Model vocabulary.
+
+**Ordinary route.** Write the shortest practitioner sentence that names the governed object, the bounded claim, and the use it supports. If no assurance-bearing reliance question is current, let the reader stop there. When such a question is current, place only the needed Mapping, Logical, Constructive, or Empirical support underneath that same sentence and keep every cited value under its direct owner.
+
+**Not this pattern when.** Do not use E.14 to decide whether a relation obtains, Work occurred, a result was constituted, evidence or assurance passes, a method applies, work is ready, a gate passed, or permission is current. Use the pattern that owns that exact claim. E.14 governs the human-first publication order and the recoverability of support; it supplies none of those domain results.
 

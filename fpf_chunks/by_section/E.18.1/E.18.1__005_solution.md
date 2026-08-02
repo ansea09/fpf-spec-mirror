@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 83065
-line_end: 83389
+line_start: 83186
+line_end: 83456
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -19,6 +19,8 @@ dependencies:
   - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.0"
   - "A.6.1"
@@ -44,13 +46,29 @@ dependencies:
   - "G.5"
   - "G.9"
   - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
   - "U.Signature"
 keywords:
 ---
 
 ### E.18.1:4 - Solution
 
-**Local P2W mantra.** The five actions below form the local P2W `mantra`: a short repeatable formulation that keeps this pattern's Solution in attention. The Plain names add memorability, not a new kind or a project-work order.
+**Local P2W mantra.** Use this Plain recall formula for one working decision: *which exact P2W continuation, if any, is justified now?*
+
+> **Carry the accepted distinction — ask one relation question — apply its direct owner — keep its result or stop — reopen only the dependent continuation.**
+
+| Formula term | Governed value |
+| --- | --- |
+| Carry the accepted distinction | one exact accepted ProblemCard claim and the receiving decision or use that would change if the claim changed |
+| ask one relation question | one ordinary question with its exact participants; several independent claims are split |
+| apply its direct owner | the exact governing pattern for that relation or object, not a P2W-created relation or a presumed `U.MethodDescription` |
+| keep its result or stop | the exact result, reduced-use cue or blocker returned by that owner; no generic result token |
+| reopen only the dependent continuation | the smallest continuation that relied on a changed problem claim, measurement, source-use/currentness relation or other returned value |
+
+**Filled cooling use.** `ProblemCard@Context PC-FAB-042` says that method comparison must preserve the conserved heat-flow structure. The current decision is whether a mathematical-lens continuation is justified. Ask which structure the proposed lens preserves, which it loses, and where its use stops; apply `C.29`; keep the returned lens-use result. If the lens subject, declared use, preservation/loss account or stop is unresolved, stop this continuation and return to `C.29`. Do not advance by wording to method selection, planning or Work.
+
+The formula is neither `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, actual `U.Transformation`, CGUS nor a P2W relation. Imperative grammar and repetition establish none of those objects. The five rows below are a readable display of conditional continuations, not the mantra itself and not a project-work order.
 
 | Shown continuation | Direct pattern | Solution use | Expected result | Current condition |
 |---|---|---|---|---|
@@ -60,17 +78,19 @@ keywords:
 | Continue, branch, or stop. | `E.18.1` | Keep one returned result, split results that answer different relation questions, or retain the cue and stop. | One continuation per answered question, or one explicit stop. | One question, several independent questions, or no answerable relation remains. |
 | Return locally after change. | The pattern governing the changed assumption, coordinated through `E.18.1`. | Return only to the smallest earlier P2W continuation affected by the changed assumption, then apply the direct pattern governing that continuation. | A local return with what still carries and what no longer carries stated. | Measurement, source currentness, problem-side content, or another relied-on assumption changed. |
 
-For conformance or pattern-authoring use, the same conditional continuations can also be admitted by `A.22.CGUS` as a `DemonstrativeUnfoldingSlice@Context`; each table row is then one mantra move restored to `DemonstratedPatternUseRow@Context`. This heavier reading is not required for ordinary P2W use, and the local CGUS need not be registered as a separate corpus object.
+If a selected CGUS already exists, an A.22 demonstrative slice may include this display in its ClaimContent for a declared use. The table itself admits no structure, continuation-row kind, relation occurrence, MethodDescription, plan or Work.
 
-The decision aid below helps the practitioner choose the one relation question to answer now. Fill a compact carry-through or replay note only when another person or later action must recover the path. The aid shows the accepted claim, concrete question, relation and participants, direct pattern, returned result or stop, and the smallest continuation to reopen after a relied-on result changes.
+Here and elsewhere in this pattern, *move* is Plain wording for the exact current use action or continuation: stating a question, applying a direct pattern, keeping its returned result, stopping, splitting or reopening. In another current case it may instead refer to an independently governed recommendation, PlanItem, admitted CGUS continuation, dated Work or actual Transformation. No universal Move object or shared identity connects proposed, chosen and performed work, and wording performs nothing.
+
+The decision aid below helps the practitioner choose the one relation question to answer now. Fill a compact carry-through or replay episteme only when another person or later action must recover the path. The aid shows the accepted claim, concrete question, relation and participants, direct pattern, returned result or stop, and the smallest continuation to reopen after a relied-on result changes.
 
 Choose the first of these three levels that lets the current reader act and any later reader replay the path truthfully:
 
 1. **Ordinary conversational use.** Repeat the local P2W mantra, state one concrete relation question and its participants, apply the direct pattern, use its result or stop, and finish. Write no P2W note when feedback is fast, the use is local, and nobody later needs to replay the path.
-2. **Reliance-bearing use.** Add the compact note in `4.1` when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse depends on recovering the accepted claim and direct continuation.
-3. **Structure-bearing use.** Add the exact `E.18.3` structure in `4.0b` only when branches, joins, guards, preserved structure, omitted-structure notes, path slices, or neighboring governed positions matter to the receiving use.
+2. **Reliance-bearing use.** Add the compact episteme in `4.1` when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse depends on recovering the accepted claim and direct continuation.
+3. **Structure-bearing use.** Add the exact selected structure governed by `E.18.3`, A.22.CGUS and, for independent members, E.18.NET in `4.0b` only when branches, joins, guards, preserved structure, omitted-structure notes, path slices, or neighboring governed positions matter to the receiving use.
 
-Move upward only when the transfer, audit, delayed-feedback, costly-reversal, automation, durable-reuse, or explicit-structure need in the corresponding row is present. More fields do not improve the subject result and do not substitute for applying the direct pattern.
+Choose a higher level only when its transfer, audit, delayed-feedback, costly-reversal, automation, durable-reuse or explicit-structure need is present. More fields do not improve the subject result and do not substitute for applying the direct pattern.
 
 **What is always needed, and what is optional.** The stable P2W core is only: one accepted problem-side claim; one receiving decision or use; one concrete relation-specific question; one direct pattern per independent claim; the result or honest stop returned by that pattern; a split when several claims are current; and the smallest local return when a relied-on result changes.
 
@@ -78,21 +98,20 @@ Move upward only when the transfer, audit, delayed-feedback, costly-reversal, au
 |---|---|---|
 | Accepted claim -> receiving use -> concrete question -> direct pattern -> result or stop -> split/local return | **Stable P2W core** | Sections `4.0`, `4.0a`, and `4.2`-`4.7` state this interface without copying the direct pattern's procedure. |
 | Compact positive, stop, or replay episteme | **Conditional reliance extension** | Open only for transfer, audit, delayed feedback, costly reversal, automation, or durable reuse; it records the core result and adds no prerequisite to conversational use. |
-| Explicit transformation-flow unfolding structure | **Conditional structure extension owned by `A.22.CGUS` / `E.18.3`** | Open only when branches, joins, guards, paths, preserved structure, or stop/return positions matter; P2W supplies no hybrid or shortened structure schema. |
+| Explicit transformation-flow unfolding structure | **Conditional structure extension owned by `A.22.CGUS`, `E.18.3` and, when applicable, `E.18.NET`** | Open only when branches, joins, guards, paths, preserved structure or stop/return positions matter; P2W supplies no hybrid or shortened structure schema. |
 | Development-loop and DPF didactic branches | **Conditional didactic extension** | Open only when cheap generation or a fast DPF seed raises one of the concrete questions in `4.1a` or `4.1b`. Apply the unchanged core to that question and use the Relations map once for an exceptional object; this extension is not a lifecycle, workflow, authority record, or second owner catalogue. |
-| Practice naming and publication | **Conditional publication extension owned by `F.8`, `F.18`, and `F.17`** | Open only when a public document, training material, or tool interface must cite the settled E.18.1 practice. Naming adds no core field or result. |
+| Practice naming and publication | **Conditional publication extension owned by `F.8`, `F.18`, and `F.17`** | Open only when a public document, training material, or tool interface must cite the settled E.18.1 practice. Naming adds no core field or result and does not admit MethodDescription membership. |
 | Relation obtaining, occurrence identity, reusable signatures, admission, production, evidence, gates, decisions, and other neighbouring doctrine | **Handled by the direct pattern, not a P2W extension** | The direct pattern defines the applicable result, assertion, or blocker. P2W cites that result and never copies the pattern's occurrence, derivation, admission, or assurance method. |
 
 No conditional extension may add a mandatory input to ordinary P2W use, change the kind or identity of a result returned by the direct pattern, or mutate the stable core. When an extension is not needed, omit it rather than filling its fields with generic placeholders.
 
-
-**Assurance scope by use.** For a materialized positive note, check the accepted ProblemCard edition, carried ClaimGraph slice, decision or use that relies on the result, effective ReferenceScheme, returned result kind and ref, direct pattern, and carry-through rationale. Check a separate `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the note's claim designates one. For a stop description, check that no result was fabricated and that the cue and stop are stated. The note is a `C.2.1` episteme about the accepted ProblemCard, not a P2W relation occurrence or `RelationSignature`. For practitioner guidance or conformance, verify that the mantra reaches one result or honest stop without making the note, structure, reader, or checklist perform work. Pattern authoring or review additionally replays the cases, owner boundaries, checklist, and no-new-kind and non-procedural boundaries. None of these checks adds Work, transformation, evidence, gate, or downstream subject facts.
+**Assurance scope by use.** For a materialized positive episteme, check the accepted ProblemCard edition, carried ClaimGraph slice, decision or use that relies on the result, effective ReferenceScheme, returned result kind and ref, direct pattern, and carry-through rationale. Check a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim designates that object and its organization changes how the receiving claim is interpreted. For a stop use, check that no result was fabricated and that the cue and stop are stated. The episteme is about the accepted ProblemCard under C.2.1, not a P2W relation occurrence or `RelationSignature`. For practitioner guidance or conformance, verify that the mantra reaches one result or honest stop without making the episteme, structure, reader or checklist perform work. Pattern authoring or review additionally replays the cases, owner boundaries, checklist, and no-new-kind and non-procedural boundaries. None of these checks adds Work, transformation, evidence, gate, MethodDescription membership or downstream subject facts.
 
 #### E.18.1:4.0 - P2W result without a new relation species
 
 An ordinary P2W application is a practitioner move: preserve one accepted problem-side claim, name the receiving decision or use, ask one concrete question per independent relation, and keep only the result or stop returned by the pattern that governs that relation. This move introduces no `ProblemToWorkCarryThroughRelation@Context`, reusable predicate definition, `RelationSignature`, or P2W relation occurrence.
 
-When transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires another person or later action to replay the claim, use the `C.2.1` episteme in `4.1`. Its identity is its ClaimGraph, the accepted `ProblemCard@Context` as EntityOfConcern, and the effective `U.ReferenceScheme`. The ClaimGraph records the accepted card edition and carried claim slice, decision or use relying on the result, concrete question, direct pattern, returned result kind and ref or exact stop, and why the carried content remains relevant. It designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when that object participates in the claim; neither becomes another identity discriminator. These are use-specific claim contents, not SlotSpecs of another relation species; the returned result retains its own kind, relation semantics when applicable, identity, and direct pattern.
+When transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires another person or later action to replay the claim, use the `C.2.1` episteme in `4.1`. Its identity is its ClaimGraph, the accepted `ProblemCard@Context` as EntityOfConcern, and the effective `U.ReferenceScheme`. The ClaimGraph records the accepted card edition and carried claim slice, decision or use relying on the result, concrete question, direct pattern, returned result kind and ref or exact stop, and why the carried content remains relevant. It designates a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` only when the claim uses that object and its organization changes how the receiving claim is interpreted; neither becomes another identity discriminator. These are use-specific claim contents, not SlotSpecs of another relation species; the returned result retains its own kind, relation semantics when applicable, identity, and direct pattern.
 
 The conversational, transfer, audit, delayed-feedback, automation, and durable-reuse cases in this pattern need a truthful, replayable claim; none asks whether repeated P2W relation occurrences are the same individual. The conversational move, optional positive note, and stop description therefore close those uses without a relation-kind candidate. `A.6.RCD`, `E.24`, `E.24.UK`, `A.6.0`, and relation-species naming do not open. If a later use asks whether a P2W relation occurrence persists, recurs, ceases, or participates in another relation, reopen `A.6.RCD` and obtain the direct subject settlement and admission before declaring or instantiating such a kind.
 
@@ -113,73 +132,64 @@ The table below is the complete P2W-local decision aid. It asks only what result
 | Which continuations remain current? | One or more separate results from their direct patterns, or no continuation. | Keep one continuation per answered question; display order and chronology add no relation. |
 | What changed later? | The changed relied-on relation and the smallest dependent continuation. | Reapply its direct pattern and reopen only that continuation. |
 
-When the conditional structure extension opens, `A.22.CGUS` and `E.18.3` supply the admitted structure, typed positions, SlotSpecs, relation references, and stop or return boundaries. P2W adds only its accepted claim, receiving use, one returned result or honest stop, split, and local return; it adds no structure field. Plain actions such as `carry`, `recover`, `write`, `split`, `stop`, and `return` guide use of the method. They are not P2W relation kinds, commitments, permissions, gates, or substitutes for the direct pattern's rules.
+When the conditional structure extension opens, `A.22.CGUS` and `E.18.3` supply the admitted structure, typed positions, SlotSpecs, relation references, and stop or return boundaries. P2W adds only its accepted claim, receiving use, one returned result or honest stop, split, and local return; it adds no structure field. Plain actions such as `carry`, `recover`, `write`, `split`, `stop`, and `return` guide this P2W use. They are not P2W relation kinds, commitments, permissions, gates, or substitutes for the direct pattern's rules.
 
 
 #### E.18.1:4.0b - Conditional structure extension through E.18.3
 
-Open this extension only when the reader must show explicit branches, joins, guards, paths, preserved structures, omitted-structure notes, or distinct stop and return positions. `E.18.3` supplies the complete `ConstraintGovernedTransformationFlowUnfoldingStructure@Context` specialization, while `A.22.CGUS` supplies its generic `ConstraintGovernedUnfoldingStructure@Context`, reference relations, typed positions, admissible next forms, and use-boundary relations. E.18.1 declares no P2W subset schema and no hybrid record that mixes fields from those two patterns.
+Open this extension only when the reader must show explicit branches, joins, guards, paths, preserved structures, omitted-structure notes, or distinct stop and return positions. A.22.CGUS selects one exact `U.Structure` by its independently identified constituents, selected obtaining relation occurrences, applied constraints and named selection-use frame. `E.18.3` recognizes that same selected structure under its additional transformation-flow unfolding condition and reuses exact E.18 positions and directly governed relation references. E.18.1 declares no P2W subset schema, wrapper relation or hybrid record.
 
-| P2W need in the structure-bearing use | Representation supplied by the direct pattern | P2W boundary |
+| P2W need in the structure-bearing use | Representation supplied by the direct owner | P2W boundary |
 |---|---|---|
-| Cite the accepted starting `ProblemCard@Context` | The underlying A.22.CGUS `acceptedStartingRecordReferenceRefs[]` cites one `UnfoldingStructureReferencedValueRelation@Context` with `referenceKind=acceptedStartingRecord`, exact ProblemCard kind/ref, and `C.22.2` as direct owner. | The accepted card remains a record; it does not become the transformation-flow structure or one of its positions. |
-| Expose transformation-flow topology or positions defined by neighbouring patterns | The E.18.3 `transformationPositionRefs[]`, `governingPatternPositionRelationRefs[]`, path or slice refs, and relation-reference epistemes needed by the stated decision or use. | E.18.3 and the direct neighbouring patterns define those values; P2W neither shortens their schemas nor turns display order into project-work order. |
-| Preserve the carried claim and why the decision or use needs it | Conversational P2W content or the compact note in `4.1`; if the structure relies on that episteme, cite it through the reference relation supplied by `A.22.CGUS` or `E.18.3`. | No `carriedProblemCardClaimGraph` or receiving-use field is added to the E.18.3 structure. |
-| State a stop or the smallest return | E.18.3 `stopBoundaryRef` and `governingPatternReturnBoundaryRefs[]`, backed by the corresponding A.22.CGUS boundary relations. | Stop and return remain distinct boundaries defined by A.22.CGUS and E.18.3; P2W contributes only the local continuation that stops or reopens. |
+| Cite the accepted starting `ProblemCard@Context` | Select that already identified C.22.2 episteme as one constituent only when the admitted A.22/E.18.3 structure and receiving use actually include it. | The accepted card remains a record; selection, a field or adjacency does not make it the structure, a position, a relation occurrence, MethodDescription or Work. |
+| Expose transformation-flow topology or positions | Use the exact E.18.3 positions, E.18 bindings and separately admitted relation-reference epistemes or obtaining occurrence refs needed by the stated decision or use. | E.18.3 and the direct neighbouring patterns own those values; P2W neither shortens their interfaces nor turns display order into project-work order. |
+| Preserve the carried claim and why the decision or use needs it | Use conversational P2W content or the compact C.2.1 episteme in `4.1`; cite an exact source, derivation or receiving-use relation only when its direct owner admits it. | P2W adds no carried-claim field to structure identity, and file history or shared wording creates no source-use relation. |
+| State a stop or the smallest return | Use the admitted structure's named selection-use frame, exact guard or constraint claim, ordinary stop, return condition and exact neighboring governor. | P2W contributes only the local continuation that stops or reopens; a boundary sentence creates no relation, gate, permission or Work. |
 
-If explicit structure is not required, use the stable conversational core. If transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires replay but not structure, use the compact positive note or stop description in `4.1`. If the next question is work-facing, apply the A.15 family before claiming a plan, readiness, launch, or performed `U.Work`. `G.11` handles source currentness; `E.18` handles transformation-flow refresh; P2W reopens only the smallest affected application.
+Before choosing the structure branch, distinguish three cases. Several `FlowValuation` values that resolve to one exact `TransformationFlowStructure` remain valuations of that one TFS. A detailed internal portion that resolves only through the same TFS positions and internal `U.Transfer` occurrences remains one parent-relative `SubflowRef`. Two or more independently identified TFS or nested-network values connected across their boundaries by exact already-obtaining relations require one E.18.NET `TransformationFlowStructureNetwork`; do not flatten them into one giant TFS. Every network member retains its own boundary, Work, actual transformations, valuations and leaf-local position binding or `DesignRunTag`. Each nested boundary reference resolves through one finite acyclic `memberPath[]` to an exact `ExposedFlowPositionRef`; each selected cross-boundary claim cites its exact obtaining occurrence and complete ordered endpoint bindings through one resolvable `NetworkCrossFlowRelationRowRef`. Membership is acyclic, while directly governed feedback relations may cycle.
 
-#### E.18.1:4.1 - Compact carry-through note (conditional reliance extension)
+If explicit structure is not required, use the stable conversational core. If replay but not structure is required, use `4.1`. If the next question is work-facing, apply the A.15 family before claiming a plan, readiness, launch or dated `U.Work`. `A.3.4` owns each actual transformation and `A.15.PROD` owns only the exact production-work, identity-inception or completion claim currently made. `G.11` handles source currentness; `E.18` handles one-TFS slice-local refresh; E.18.NET handles independent members and exact cross-member occurrences. P2W reopens only the smallest affected application.
 
-Open this extension only when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse requires someone to replay the stable P2W core. It records a result already returned by a direct pattern or an honest stop; it is not a prerequisite for conversational use and does not widen the core.
+#### E.18.1:4.1 - Compact carry-through episteme (conditional reliance extension)
+
+Open this extension only when transfer, audit, delayed feedback, expensive reversal, automation, or durable reuse requires someone to replay the stable P2W core. Materialize one ordinary C.2.1 episteme whose exact EntityOfConcern is the accepted `ProblemCard@Context`, whose ClaimContent is the current positive or stopped carry-through account, and whose effective ReferenceScheme governs its designations. *Carry-through note* and *stop description* are Plain use labels for those two ClaimContent shapes, not local U-kinds or relation species.
+
 ```text
-ProblemToWorkCarryThroughNote@Context <: U.Episteme:
-  claimGraph: U.ClaimGraph by value
-  entityOfConcernRef: U.EpistemeRef, referencing one accepted ProblemCard@Context
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  carriedProblemCardClaimGraph: U.ClaimGraph by value
-  nextPracticalQuestionDescriptionRef: U.EpistemeRef
-  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  governedValueKindRef: U.KindRef
-  governedValueRef: U.EntityRef
-  carryThroughRationaleDescriptionRef: U.EpistemeRef
-  localNonOverreadDescriptionRef?: U.EpistemeRef
-  precedingCarryThroughNoteRef?: U.EpistemeRef, referencing one ProblemToWorkCarryThroughNote@Context
-  continuationDescriptionRefs[1..*]: U.EpistemeRef
-  returnConditionDescriptionRef?: U.EpistemeRef
-
-ProblemToWorkStopDescription@Context <: U.Episteme:
-  claimGraph: U.ClaimGraph by value
-  entityOfConcernRef: U.EpistemeRef, referencing one accepted ProblemCard@Context
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  reducedUseCueDescriptionRef: U.EpistemeRef
-  nextPracticalQuestionDescriptionRef: U.EpistemeRef
-  stopConditionDescriptionRef: U.EpistemeRef
-  returnConditionDescriptionRef?: U.EpistemeRef
+carryThroughClaimContent:
+  acceptedProblemCardEditionRef
+  carriedProblemCardClaimSlice
+  receivingDecisionOrUse
+  nextPracticalQuestion
+  directGoverningPatternRef: exact governing-pattern identifier or reference
+  returnedResultKindRef?: exact kind returned by that pattern
+  returnedResultRef?: exact positive result, relation occurrence, assertion or description
+  honestStop?: exact blocker or reduced-use cue returned by that pattern
+  carryThroughRationale
+  localNonOverread?
+  precedingCarryThroughEpistemeRef?: replay/source pointer only, with an exact relation when continuity or derivation is claimed
+  continuationDescriptions[]: one direct pattern and one question or use per continuation
+  returnCondition?
 ```
-Use `ProblemToWorkCarryThroughNote@Context` only after the selected direct pattern has returned a positive result for the stated question. Under `C.2.1`, the note is identified by `<claimGraph, entityOfConcernRef, effectiveReferenceSchemeRef>`: its claim content, the accepted ProblemCard as EntityOfConcern, and the effective ReferenceScheme. The ClaimGraph states the decision or use relying on the result, carry-through claim, and rationale. When a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` participates in the claim, the ClaimGraph designates it; otherwise no surrogate field is filled. The note, its claim, and its optional predecessor reference are neither a reusable predicate definition nor a P2W relation kind or occurrence. Use `ProblemToWorkStopDescription@Context` when the direct pattern instead returns a blocker or only a reduced-use cue; record that returned reason and stop without fabricating a positive relation. `U.EpistemeRef` is the admissible reference kind for citing either episteme.
 
-A positive note is well formed only when the named result kind is one that the direct pattern actually returns for the stated question, the carried ClaimGraph content remains relevant to the receiving use, and every continuation stays separate. When the result is a relation occurrence, assertion, or description, the note cites that exact object; the direct pattern retains its obtaining or claim basis, occurrence-identity rule, and any receiver-conditioned reusable declaration or typed SlotSpecs. P2W adds no relation-specific field or sufficiency rule. A predecessor note supports replay only and does not establish identity or continuity of another occurrence.
+A positive use fills the exact returned result and leaves `honestStop` absent. A stopped use fills the returned blocker or reduced-use cue and fabricates no positive result. When the claim uses a separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` and that object's organization changes how the receiving claim is interpreted, the ClaimContent designates it; otherwise no surrogate field is filled. A governing-pattern ref is not thereby a `U.MethodDescription`. The episteme, its claim and its predecessor pointer are neither a reusable predicate definition nor a P2W relation kind or occurrence.
 
-For first-minute use, state the question, apply the direct pattern, and continue with its result or stop. Materialize a `ProblemToWorkCarryThroughNote@Context` only when transfer, audit, delayed feedback, automation, or durable reuse requires replay; materialize a `ProblemToWorkStopDescription@Context` when that replay must preserve a bounded stop. The positive note names the accepted problem card, decision or use relying on the result, next practical question, and direct continuation. The stop description names the accepted problem card, cue, next question, and stop condition. Neither episteme becomes a relation or substitutes for the result produced by the direct pattern.
+A positive use is well formed only when the named result kind is one that the direct pattern actually returns for the stated question, the carried ClaimGraph content remains relevant to the receiving use, and every independent continuation stays separate. When the result is a relation occurrence, assertion or description, cite that exact object; the direct pattern retains its obtaining or claim basis, occurrence-identity rule and any receiver-conditioned reusable declaration or typed SlotSpecs. A predecessor pointer supports replay only and establishes neither episteme continuity nor another occurrence.
 
-Each continuation names one direct pattern and one question or use that its result answers. If several continuations are current, write one row for each; do not combine value kind and relation signature, method and mechanism, evidence and assurance, plan and `U.Work`, or refresh and residual triage in one field.
+For first-minute use, state the question, apply the direct pattern, and continue with its result or stop without materializing this episteme. Materialize it only when replay is required. Each continuation names one direct pattern and one question or use that its result answers. Do not combine value kind and relation signature, method and mechanism, evidence and assurance, plan and dated Work, actual Transformation and production, or refresh and residual triage in one field.
 
-| Compact note field | Filled cooling-fixture example |
+| Compact ClaimContent field | Filled cooling-fixture example |
 |---|---|
 | Accepted problem card reference | `ProblemCard@Context PC-FAB-042`, accepted for a cooling-fixture deformation problem. |
 | Carried problem-card claim | The deformation is not one more tuning defect; the downstream comparison use relies on preserving the conserved heat-flow structure identified by the problem card. |
 | Receiving use | Decide which mathematical-lens result is needed before formal-substrate declaration and method comparison. |
 | Next practical question | Which structure is preserved, which is lost, and where does the heat-flow lens stop? |
 | Direct governing pattern | `C.29` Mathematical Lens Use. |
-| Result written and use it answers | Apply the `C.29` Solution and write its local lens-use result: target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
-| Local non-overread | This continuation selects no method, WorkPlan, work occurrence, evidence verdict, or gate result. |
-| Stop condition | Stop before method comparison until the comparator, measurement relation, and candidate-set relation are named by value. |
-| Return condition | A changed measurement, reference plane, or source-currentness relation returns first to its direct governing pattern and then reopens only the dependent P2W continuation. |
+| Result written and use it answers | The C.29 local lens-use result: target phenomenon, candidate mathematical object, preserved structure, lost structure, payoff, declared use, and stop condition. |
+| Local non-overread | This continuation selects no Method, MethodDescription, WorkPlan, dated Work, evidence verdict or gate result. |
+| Honest stop | Stop before method comparison until the comparator, measurement relation, and candidate-set relation are named by value. |
+| Return condition | A changed measurement, reference plane, or source-currentness relation returns first to its direct owner and then reopens only the dependent P2W continuation. |
 
-The note closes positively when the direct pattern has returned its positive result and the carried problem-card claim remains visible in that result or its stated basis. It closes by bounded stop when the direct pattern returns a blocker or reduced-use cue and no positive continuation can be stated.
+The use closes positively when the direct pattern has returned its positive result and the carried problem-card claim remains visible in that result or its stated basis. It closes by bounded stop when the direct pattern returns a blocker or reduced-use cue and no positive continuation can be stated.
 
 #### E.18.1:4.1a - Conditional development-loop relation-selection extension
 
@@ -206,69 +216,11 @@ The current next relation in this example is the `C.18` front record. Architectu
 
 #### E.18.1:4.1c - Conditional naming and publication extension
 
-Ordinary P2W use skips this extension. Open it only when a pattern author, publisher, trainer, or tool builder must decide whether a P2W expression may be cited outside its local use. Naming and publication apply only to results already established under their direct patterns; they neither admit a relation kind nor create an episteme instance. The F.8, F.18, and F.17 results refer to the stable practice and add no core field, continuation, or closure condition.
+Ordinary P2W use skips this extension. Open it only when a pattern author, publisher, trainer, or tool builder must cite the already governed practice outside its local use. The header's Tech/Plain pair identifies this pattern for readers: `ProblemToWorkCarryThrough` / *problem-to-work carry-through*. It does not classify a `U.Method`, `U.MethodDescription`, relation, Work or result. The selected name keeps the work-facing receiving use visible without implying a generic governed-value endpoint, a linear continuation or path, unchanged preservation, or a principle-only source; it is the widened successor to *Principles-to-Work Carry-Through*. If MethodDescription membership is actually needed, first identify one C.2.1 episteme, require one independently admitted `U.Method` as its exact EntityOfConcern, and apply the A.3.2 substantive way-of-doing claim threshold.
 
-**F.8 decisions.**
+The compact positive, stop and replay shapes in `4.1` and `4.8` are local ClaimContent uses of ordinary C.2.1 epistemes. Their field labels are local phrases, not reusable U-kinds, NameCards or term rows. Before any external citation or tool-interface reuse, F.8 decides whether a name is needed; F.18 settles the name only for that exact governed value and use; F.17 publishes the exact scheme-local sense and source basis. F.9 opens only if two independently identified scheme-sense cells require an exact Bridge. No Bridge is current merely because two readers use similar P2W wording.
 
-| Candidate expression | What is being named and for which use | F.8 result and naming route | Blocked use and reopen condition |
-|---|---|---|---|
-| `ProblemToWorkCarryThrough` | E.18.1 as one `U.MethodDescription`: the public practice that carries an accepted ProblemCard claim to one result or honest stop returned by a direct pattern | `nameDirectPatternValue`; E.18.1 owns the practice, F.18 owns the NameCard, and F.17 publishes the public row under `FPFCoreReferenceScheme` | Not a relation kind, occurrence, workflow, work, or result; reopen when the practice boundary or public reader use changes |
-| `ProblemToWorkCarryThroughNote@Context` | E.18.1-local `U.Kind` label for reliance-conditioned `U.Episteme` instances governed by `4.1` and identified under `C.2.1` | `reuseLocalSenseLabel`; the declared use is pattern-local and names no external receiver, so no NameCard or F.17 row is current | Not a relation kind, occurrence, evidence result, or work record; reopen before any external citation, cross-context reuse, training label, or tool-interface use |
-| `ProblemToWorkStopDescription@Context` | E.18.1-local `U.Kind` label for `U.Episteme` instances that state a reduced-use cue and exact stop | `reuseLocalSenseLabel`; keep it inside E.18.1 without a NameCard or term row | Not a blocker kind, failure state, empty relation, or rejection record; reopen before any external or durable reuse |
-| `ProblemToWorkReplayNote@Context` | E.18.1-local `U.Kind` label for `U.Episteme` instances that state retained content and the smallest reopen after change | `reuseLocalSenseLabel`; keep it inside E.18.1 without a NameCard or term row | Not a refresh process, change log, relation occurrence, or authority record; reopen before any external or durable reuse |
-
-The remaining field labels in `4.0a`, `4.1`, and `4.8` are one-off schema-position phrases under their containing forms. Their F.8 result is `localPhraseOnly`; they receive no NameCards or term rows. A later receiver that needs any local form or field label outside E.18.1 must reopen this decision before reuse.
-
-**F.18 NameCard for the public practice name.**
-
-```text
-NameCard:
-  NameCardId: NameCard.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  GovernedValueRef: E.18.1
-  GoverningPatternRef: E.18.1
-  ReferenceScheme: FPFCoreReferenceScheme
-  LocalSenseRef: SenseCell.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21
-  TechLabel: ProblemToWorkCarryThrough
-  PlainLabel: problem-to-work carry-through
-  CandidateSet: [Problem-to-Work Carry-Through, Problem-to-Governed-Value Carry-Through, Accepted-Claim Continuation, Work-Facing Claim Preservation, Problem-to-Work Path, Principles-to-Work Carry-Through]
-  RejectedCandidates: governed-value hides the work-facing receiving use; continuation suggests order; preservation suggests unchanged content; path suggests workflow; principles excludes non-principle ProblemCard claims
-  SelectionRationale: the selected pair keeps the established P2W mnemonic while the no-relation head fits a practitioner discipline that may continue, split, stop, or return
-  BridgeRefs: none
-  UnifiedTermRowRef: UTS.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  LineageEntries: Principles-to-Work Carry-Through -> Problem-to-Work Carry-Through when the accepted source widened from principle cues to any accepted ProblemCard claim
-  RefreshCondition: reopen when the governed practice, reference scheme, public reader use, or repeated workflow/relation overread changes
-```
-
-**F.17 public term row and local-sense basis.**
-
-```text
-UnifiedTermRow:
-  UTSRowId: UTS.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  UnificationThreadId: E18.1.P2W.Terminology.2026-07-21
-  Block: P2W practice
-  GovernedValueRef: E.18.1
-  GovernedValueKindRef: U.MethodDescription
-  DirectGoverningPatternRef: E.18.1
-  UnifiedTechName: ProblemToWorkCarryThrough
-  UnifiedPlainName: problem-to-work carry-through
-  NameCardRef: NameCard.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  SenseCellRefs: [SenseCell.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21]
-  BridgeRefs: none
-  RowRationale: publish the no-relation practice name for stable reader reference
-  AdmissibleUse: identify and cite the E.18.1 practitioner discipline
-  BlockedUse: infer a relation kind, occurrence, workflow, work, transformation, evidence, or result
-  RowEdition: 2026-07-21
-  CurrentnessCondition: review when E.18.1, its NameCard, reference scheme, or public reader use changes
-
-SenseCell.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21:
-  Context: FPF English public publication, edition 2026-07-21
-  LocalExpression: problem-to-work carry-through
-  LocalSense: the E.18.1 practice that carries one accepted ProblemCard claim to one result or honest stop returned by a direct pattern for a stated receiving use
-  NameCardRef: NameCard.E18.1.ProblemToWorkCarryThrough.FPFPublic
-  LocalSenseBasisRelationRefs: [LocalSenseBasisRelation.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21]
-```
-
-`LocalSenseBasisRelation.E18.1.ProblemToWorkCarryThrough.FPFPublic.2026-07-21` relates that SenseCell to basis episteme `E.18.1` as a `U.MethodDescription`, narrowed to units `1-4`, in the same public context. Its description supports the stated practice sense and admits naming-only citation; it admits no relation, workflow, work, result, evidence, authority, or external reuse of the three local note-form labels. No Bridge is current.
+Keep the practice, pattern episteme, any admitted Method, any qualifying MethodDescription episteme, local carry-through episteme, publication occurrence, publication form and presentation carrier separate. Naming or publication admits none of them and adds no stable-core field. Reopen only the smallest direct owner: a changed practice or practitioner use reopens E.18.1; changed wording or public reader use reopens F.18/F.17; changed source basis reopens its exact source-use relation; changed publication occurrence, form or carrier stays with E.17/E.24.PUB. A source phrase or remembered title supplies no source-to-use relation, authority, evidence, result or performed Work.
 
 #### E.18.1:4.2 - Positive carry-through: one executable first use
 
@@ -346,30 +298,28 @@ Lower only the claim that cannot be made. Keep any independently grounded value 
 | A direct pattern returns `missing-governor`, `missing-information`, a reduced-use result, or another exact blocker. | Carry that result unchanged and stop only the dependent claim. | An honest blocker with its affected participants or use; independently grounded values remain. |
 | A relied-on value changed after a prior positive use. | Apply `4.5`. | Reopen only the smallest dependent continuation. |
 
-#### E.18.1:4.8 - Conditional reliance replay after a value from a direct pattern changes
+#### E.18.1:4.8 - Conditional reliance replay after a direct-pattern value changes
 
-Open this extension only when transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires a durable account of what still follows after `G.11` source-currentness repair, appearance-based reliance repair, changed measurement, changed problem-side record, FPF pattern change, or a use-found defect. An ordinary local return uses the stable core in `4.5` and creates no replay note.
+Open this extension only when transfer, audit, delayed feedback, costly reversal, automation, or durable reuse requires a durable account of what still follows after source-currentness repair, appearance-based reliance repair, changed measurement, changed problem-side record, FPF pattern change, or a use-found defect. An ordinary local return uses `4.5` and creates no replay episteme.
+
+Materialize one ordinary C.2.1 episteme whose EntityOfConcern is the accepted ProblemCard carried by the original carry-through episteme, whose ClaimContent is the replay account below, and whose effective ReferenceScheme governs its designations. *Replay note* is Plain wording for this use, not a local U-kind, refresh process, change log or authority record.
 
 ```text
-ProblemToWorkReplayNote@Context <: U.Episteme:
-  entityOfConcernRef: U.EpistemeRef, referencing the accepted ProblemCard carried by the original ProblemToWorkCarryThroughNote@Context
-  claimGraph: U.ClaimGraph by value
-  effectiveReferenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  originalCarryThroughNoteRef: U.EpistemeRef, referencing one ProblemToWorkCarryThroughNote@Context
-  changedValueRef: U.EntityRef
-  changedValueKindRef: U.KindRef
-  changedValueDirectGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  stillCarriedClaimGraph: U.ClaimGraph by value
-  noLongerCarriedClaimGraph?: U.ClaimGraph by value
-  smallestReopenedContinuationDescriptionRef: U.EpistemeRef
-  refreshCurrentnessLineRef?: U.EpistemeRef, referencing one RefreshCurrentnessLine@Context
-  nextDirectGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+replayClaimContent:
+  originalCarryThroughEpistemeRef
+  changedValueRef
+  changedValueKindRef
+  changedValueDirectGoverningPatternRef: exact pattern identifier or reference
+  stillCarriedClaimSlice
+  noLongerCarriedClaimSlice?
+  smallestReopenedContinuation
+  refreshCurrentnessLineRef?: exact current G.11 episteme or relation
+  nextDirectGoverningPatternRef: exact pattern identifier or reference
 ```
 
-`changedValueRef` points to the exact value, occurrence, assertion, or description that changed; `changedValueKindRef` and `changedValueDirectGoverningPatternRef` identify its kind and direct pattern. Reapply that pattern before filling the replay note. If the changed object is a relation, recheck it under that direct pattern and `A.6.REL`. The direct result keeps its participants, obtaining or claim basis, occurrence-identity rule, and any reusable `RelationSignature` or typed SlotSpecs. The replay note records only what still follows, what no longer follows, and which P2W continuation reopens.
+Reapply the changed value's direct owner before filling the replay episteme. If the changed object is a relation, recheck it under that owner and `A.6.REL`. The direct result keeps its participants, obtaining or claim basis, occurrence-identity rule and any reusable `RelationSignature` or typed SlotSpecs. The replay account records only what still follows, what no longer follows and which P2W continuation reopens. A governing-pattern reference is not a MethodDescription.
 
-P2W may cite a readable relation assertion, an explicitly individuated occurrence, or a typed assertion or description, but it cites the exact object returned by the direct pattern. Citation by P2W does not make relation use signature-dependent; a receiving episteme carries a signature reference only when its own direct pattern requires one.
+P2W may cite a readable relation assertion, an explicitly individuated occurrence, or a typed assertion or description, but it cites the exact object returned by the direct pattern. Citation does not make relation use signature-dependent; a receiving episteme carries a signature reference only when its own direct pattern requires one.
 
-The changed object may instead be a source edition, measurement, unit, reference plane, method set, comparator, module-interface relation, publication-use relation, problem record, or FPF pattern publication. Whatever changed keeps its own kind and direct pattern. The replay note states which problem-card claims still constrain the downstream use, which no longer do, and the smallest continuation to reopen. Add a `G.11` currentness line only when one exists. The next direct pattern then decides whether to continue, stop, split, retain a reduced-use cue, or return to the problem-side pattern.
+The changed object may instead be a source edition, measurement, unit, reference plane, Method set, comparator, module-interface relation, publication-use relation, problem record or FPF pattern publication. Whatever changed keeps its own kind and owner. Add a `G.11` line only when one exists. The next direct pattern decides whether to continue, stop, split, retain a reduced-use cue or return upstream.
 

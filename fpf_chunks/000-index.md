@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `1eb56cd0cfd6dccad65143e03d28509373bd8dd5`
+Commit SHA: `9a9a42e4d154021ca3f7415e0009a4214832f65f`
 
 Chunking method: `pattern-aware`
 
@@ -158,7 +158,7 @@ Patterns: `293`
 - [C.19 — Explore-Exploit Live-Pool Governor](by_pattern/C.19.md)
 - [C.19.1 — Bitter‑Lesson Preference (BLP)](by_pattern/C.19.1.md)
 - [C.19.2 — Use-Bounded Apparatus Application](by_pattern/C.19.2.md)
-- [C.20 — Composition of U.Discipline (Discipline‑CAL)](by_pattern/C.20.md)
+- [C.20 — Composition of U.Discipline (Discipline-CAL)](by_pattern/C.20.md)
 - [C.21 — Field Health & Structure (Discipline-CHR)](by_pattern/C.21.md)
 - [C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)](by_pattern/C.22.md)
 - [C.22.1 — Task-family adaptation signature](by_pattern/C.22.1.md)

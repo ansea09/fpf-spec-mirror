@@ -6,12 +6,12 @@ section_id: "C.24:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__008_problem.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:2 — Problem"
-line_start: 52427
-line_end: 52429
+line_start: 52503
+line_end: 52505
 dependencies:
   - "A.1"
   - "A.15"
@@ -37,5 +37,5 @@ keywords:
 ---
 
 ### C.24:2 - Problem
-We need a **tool-agnostic** way to (i) identify **admissible route descriptions**, (ii) compose one **call work plan** that cites them, (iii) allocate an **explore/exploit** share, (iv) enforce **budget & harm** gates, and (v) **replan** on signals—**without** baking domain-specific heuristics into the core and **without** collapsing `U.MethodDescription`, `U.WorkPlan`, and `U.Work` into one object.
+We need a **tool-agnostic** way to (i) identify exact admissible `U.Method` values and any auxiliary route descriptions, (ii) compose one **call work plan** whose steps select those Methods, (iii) allocate an **explore/exploit** share, (iv) enforce **budget & harm** gates, and (v) **replan** on signals—**without** baking domain-specific heuristics into the core and **without** collapsing `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` into one object.
 

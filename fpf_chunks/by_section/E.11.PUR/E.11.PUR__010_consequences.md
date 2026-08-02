@@ -6,18 +6,20 @@ section_id: "E.11.PUR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__010_consequences.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:9 — Consequences"
-line_start: 77278
-line_end: 77283
+line_start: 77380
+line_end: 77385
 dependencies:
   - "A.15"
   - "A.19"
+  - "A.19.CPM"
   - "A.19.ECS"
   - "A.21"
   - "A.6.5"
+  - "C.22.PFR"
   - "C.24"
   - "C.30"
   - "E.10.MOVE"
@@ -31,7 +33,7 @@ keywords:
 
 ### E.11.PUR:9 - Consequences
 
-**Benefits.** A team can explain why a pattern fits, why it is recommended, and how several uses relate without creating a false workflow. Reliance-bearing decisions remain replayable. Result-based precedence stays synchronized with the candidate expectation.
+**Benefits.** A team can explain why a pattern fits, why it is recommended, and how several uses relate without creating a false workflow. Reliance-bearing decisions remain replayable. Result-based precedence stays synchronized with both the candidate expectation and the exact directly grounded result closure.
 
 **Costs.** Consequential recommendations need explicit rationales and sometimes five addressable findings. Partial orders need pairwise relations. Ranking candidates that solve different questions produces an inadmissible comparison rather than a useful shortcut.
 

@@ -6,12 +6,12 @@ section_id: "A.15.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__011_rationale.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:10 — Rationale"
-line_start: 26124
-line_end: 26129
+line_start: 26184
+line_end: 26189
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### A.15.5:10 - Rationale
 
-The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer that question, but without a small readiness relation the same words pull in too many objects at once.
+The readiness question is practical and recurrent: should this intended work enter the work boundary now? FPF already has the kinds needed to answer it. One local criterion and result claim keep the answer inspectable without collapsing the plan, its inputs, the checking Work, gate, permission, or target Work into one object.
 
-`WorkEntryReadiness@Context` is deliberately dependent. It preserves `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, A.21 gate decisions, B.1.6 resource relations, and A.15.4 appearance-based reliance repair while giving the practitioner one inspectable pre-work-entry record. A readiness record may cite an `A.15.4` repair result; it does not turn every missing input into a source problem.
+The local result is deliberately dependent on exact direct-owned inputs. It preserves `U.WorkPlan`, `SlotFillingsPlanItem`, `U.Work`, A.21 gate decisions, resource claims, and A.15.4 appearance-based reliance repair as distinct values while giving the practitioner one inspectable answer. It may cite an A.15.4 repair result when that result is current; it does not turn every missing input into a source problem or package cited inputs into its own identity.
 

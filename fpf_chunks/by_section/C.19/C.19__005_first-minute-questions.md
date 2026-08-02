@@ -6,13 +6,14 @@ section_id: "C.19:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__005_first-minute-questions.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.3 — First-minute questions"
-line_start: 49598
-line_end: 49605
+line_start: 49462
+line_end: 49469
 dependencies:
+  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -20,26 +21,24 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.22.PFR"
   - "C.24"
   - "C.28"
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
-  - "DecisionSubject clarification"
-  - "EmitterPolicy"
-  - "InsertionPolicy"
-  - "dominance default routing"
+  - "already-live candidate pool"
+  - "change trigger"
   - "explore-exploit"
+  - "governing lens"
   - "keep frontier"
-  - "lens id"
-  - "live candidate pool"
   - "narrow to subset"
   - "pool-policy result"
-  - "reroute"
   - "sunset line"
   - "widen"
 ---
@@ -48,7 +47,7 @@ keywords:
 
 - Which still-live pool, frontier segment, or family region is actually under governance now?
 - Which lens or policy state is governing it?
-- Is the next admissible pool treatment `widen`, `keep frontier`, `narrow to subset`, or `sunset line`?
+- Is the next admissible pool treatment to widen, keep the frontier, narrow to a subset, or sunset a line?
 - If none of those treatments is current, which governing pattern now applies, and why is the question no longer pool policy?
 - What event or threshold would justify changing that treatment next?
 

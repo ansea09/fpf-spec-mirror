@@ -6,12 +6,12 @@ section_id: "C.24:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 52671
-line_end: 52678
+line_start: 52760
+line_end: 52769
 dependencies:
   - "A.1"
   - "A.15"
@@ -38,7 +38,9 @@ keywords:
 
 ### C.24:8 - Common Anti-Patterns and How to Avoid Them
 
-- **Treating route description as plan.** Avoid by keeping callable logic in `ATC.CallRouteDescription` and keeping `ATC.CallPlan` as one `U.WorkPlan` that cites it.
+- **Treating route description as plan.** Avoid by keeping callable logic in `ATC.CallRouteDescription` and keeping `ATC.CallPlan` as one `U.WorkPlan` whose steps select exact Methods and cite descriptions separately.
+- **Treating MethodDescription as enacted Method.** A route document, schema or endpoint description is an episteme, not the world-side way of doing and not what a call enacts. Recover the exact `methodRef`; otherwise keep the candidate in probe state or exit with a missing Method relation.
+- **Treating CallGraph or service response as Work.** A graph row and response carrier may evidence a call but do not establish its occurrence, performer, assignment, interval or `enactsMethod`; recover those A.15.1 facts independently.
 - **Treating planning as execution.** Avoid by publishing actual burn only through `CheckpointReturn`, `Work`, and `CallGraph`, not inside the `CallPlan` field set.
 - **Burning enactment budget while the question under repair is still upstream choice or pool policy.** Avoid by rerouting unresolved fixed-option choice to `C.11` and unresolved live-pool governance to `C.19` before building one call plan.
 - **Counting a successful probe as committed rollout.** Avoid by publishing one `CheckpointReturn` with a visible commit trigger instead of smuggling rollout through a positive scout result.

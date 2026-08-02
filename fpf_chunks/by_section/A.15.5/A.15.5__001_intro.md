@@ -6,12 +6,12 @@ section_id: "A.15.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__001_intro.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:intro — Intro"
-line_start: 25919
-line_end: 25934
+line_start: 25992
+line_end: 26011
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,13 +51,17 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** `A.15.5` governs `WorkEntryReadiness@Context`: the planning and gate-facing relation that says whether intended work is ready enough to enter a work boundary. It uses full-kit preparation, commitment, resource readiness, flow policy, planned slot-filling baselines, and gate refs without treating readiness as performed work.
+**At a glance.** Use A.15.5 to judge whether one exact intended performance named in a `U.WorkPlan` and `PlanItem` satisfies one exact work-entry readiness criterion at a stated evaluation time. Separately performed preparation or checking Work applies that criterion to exact current plan, filling, resource, assignment, commitment, permission, source, and gate inputs. Persist the local result as a C.2.1 episteme only when another use must rely on it; readiness makes neither the target Work nor any input fact obtain.
 
 **Use this when.** Use this pattern when a team is about to commit, release, launch, or admit intended work and needs to know whether the needed inputs, currentness refs, publication refs, resources, planned fillers, constraints, and gate conditions are ready enough for that work entry.
 
-**Primary EntityOfConcern.** One `WorkEntryReadiness@Context` relation for one intended work item, target work plan, PlanItem, or work-boundary concern in one bounded context.
+**Primary EntityOfConcern.** One exact intended performance designated inside one exact `U.WorkPlan` and `PlanItem`, together with the work-entry readiness claim currently being made about it. Preserve the plan's exact intended-work kind or work-family classification when that distinction is current; it remains plan content and does not instantiate a dated `U.Work`. The plan names the target `U.Method`; cite a separately constituted `U.MethodDescription` episteme only when the readiness criterion or planned use relies on that exact description edition. The intended-performance designator, intended-work kind, plan, method, and description are not a dated target `U.Work` occurrence.
 
-**First output.** One `WorkEntryReadiness@Context` record with its `FullKitCondition`, commitment disposition, prospective direct permission inputs (a current grant occurrence, non-prohibition finding, or permission-conflict finding), and any retrospective exercise/non-violation ref only through `PriorWorkEvidenceRefs` for a different exact already-dated work occurrence or an explicitly post-launch recheck whose target work is already actual; plus resource-readiness, WIP or flow-policy, planned-baseline, gate, and stop or degraded-use refs when current.
+**First output.** One readable work-entry readiness result naming the exact WorkPlan, PlanItem and intended performance; criterion; checking Work; local readiness value; every input proposition and qualification interval used; reliance window; and stop or recheck condition. Planned fillings, resources, assignments, commitments, current permission facts, gate decisions, provenance, and assurance remain separately governed inputs or neighboring claims; they are not bundled into the readiness result's identity.
+
+**Ordinary route.** Name the exact WorkPlan, PlanItem, intended performance, any current intended-work kind, criterion, and evaluation time. Perform and identify the checking Work when the check actually occurs; apply the criterion only to its named current inputs; return `ready`, `readyWithKnownGaps`, `notReady`, or `unknown` with the reliance window and stop or recheck condition. Stop there unless a separate receiver actually needs a persisted result episteme, gate decision, permission result, performed target Work, provenance path, or assurance claim.
+
+**What this buys.** A team can decide the next bounded move—start no work yet, prepare an exact missing input, recheck, or submit declared checks to a gate—without turning a plan, green label, commitment, reservation, permission fact, or preparation activity into target Work or into one all-purpose readiness object.
 
 **Not this pattern when.** Use `A.15.2` for the work plan itself, `A.15.3` for planned slot fillers, `A.15.1` for dated performed work, `A.21` for gate decisions, `A.15.4` only when a reliance appearance is already being used as a reason for work or reliance before the governing pattern slot, relation, or project-side reference is named, `B.1.6` for resource aggregation after work, `E.18` for transformation-flow structure, and `E.18.1` for P2W carry-through from accepted problem-side material.
 

@@ -6,18 +6,20 @@ section_id: "E.11.PUR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__011_rationale.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:10 — Rationale"
-line_start: 77284
-line_end: 77289
+line_start: 77386
+line_end: 77391
 dependencies:
   - "A.15"
   - "A.19"
+  - "A.19.CPM"
   - "A.19.ECS"
   - "A.21"
   - "A.6.5"
+  - "C.22.PFR"
   - "C.24"
   - "C.30"
   - "E.10.MOVE"
@@ -33,5 +35,5 @@ keywords:
 
 Applicability, recommendation, and coordination answer different questions. Applicability asks whether a candidate's conditions hold. Recommendation asks which applicable use best serves the current concern. Coordination asks how several candidate uses belong together. Keeping the questions separate prevents a familiar label or score from becoming an unexamined decision.
 
-Pairwise precedence is intentionally narrow. A graph of pattern uses can be unordered, partially ordered, or totally ordered. Only a current dependency justifies an edge, and only a prerequisite result justifies a result-expectation reference. This preserves graph structure without turning every explanation into a chain.
+Pairwise precedence is intentionally narrow. A graph of pattern uses can be unordered, partially ordered, or totally ordered. Only a current dependency justifies an edge. A prerequisite-result edge needs both the exact expectation and an E.11.PUA closure whose directly governed result and category-correct basis satisfy the stated condition; neither a result label nor an expectation can do so. This preserves graph structure without turning every explanation into a chain or minting a generic result relation.
 

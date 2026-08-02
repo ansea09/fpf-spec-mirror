@@ -6,12 +6,12 @@ section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
-line_start: 17434
-line_end: 17804
+line_start: 17457
+line_end: 17831
 dependencies:
   - "A.15"
   - "A.16"
@@ -32,6 +32,7 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "E.17"
+  - "E.17.0"
   - "E.18"
   - "F.9"
 keywords:
@@ -76,7 +77,7 @@ When the trigger fires, authors SHOULD follow the A.6.P repair sequence:
    Pick one `ActionInvitationSense` token and state why rivals were rejected in this local context.
 
 4. **Emit a slot-explicit rewrite.**
-   Rewrite the sentence into one explicit `actionInvitation(...)` record with site, would-be enactor, candidate action, coupling frame, detector and viewpoint when live, normal form, and qualifiers.
+   Rewrite the sentence into one explicit `actionInvitation(...)` record with site, would-be enactor, candidate action, coupling frame, detector, `viewpointRef` and independent `view` when live, normal form, and qualifiers. Resolve any viewpoint reference under the effective reference scheme; record inclusion establishes no dependent-kind membership.
 
 5. **Classify boundary-bearing consequences.**
    If the repaired statement is used for admissibility, commitments, publication, automation, or evidence-bearing decisions, classify the downstream claim uses with **A.6.B** and, where enactment is implied, through **A.15**, instead of letting the vague action-first phrase carry evidence, admissibility, gate, or decision consequences by itself.
@@ -100,7 +101,7 @@ Its relation specification publication SHALL declare, at minimum:
 * **(L)** site-centred polarity: the relation is about a **site or situation** inviting a candidate action **for** an enactor; it SHALL NOT be silently rewritten as a monadic property of a site participant alone;
 * **(L)** participant SlotSpecs for site, invited enactor, candidate action, sense, coupling frame, and normal-form positions;
 * **(A)** repair options for site-kind and enactor-kind mismatches: explicit narrowing, `KindBridge`, `retargetSite(...)`, `retargetInvitedEnactor(...)`, or a stated combination of these repairs when several mismatch conditions are live;
-* **(L)** qualifier expectations for `scope`, `Γ_time`, `viewpoint`, `view`, `representationSubstrate`, `bridgeRef`, and (when relevant) `articulationHint`;
+* **(L)** qualifier expectations for `scope`, `Γ_time`, `viewpointRef`, `effectiveReferenceScheme`, independent `view`, `representationSubstrate`, `bridgeRef`, and (when relevant) `articulationHint`;
 * **(D)** detector and invited-enactor separation discipline: the perceiver or detector SHALL NOT be silently collapsed into the invited enactor when they differ;
 * **(D)** obligation barrier: invitation language SHALL NOT be silently rewritten as duty language;
 * **(A/E)** witness discipline for decision use, publication use, and automation use;
@@ -120,7 +121,8 @@ Each in-scope occurrence SHALL be representable as a pattern-specific **Qualifie
 `  actionInvitationSense    : ActionInvitationSense,`
 `  couplingFrame            : …,`
 `  detector?                : …,`
-`  viewpoint?               : U.Viewpoint,`
+`  viewpointRef?            : U.ViewpointRef,`
+`  effectiveReferenceScheme?: U.ReferenceScheme,`
 `  view?                    : U.View,`
 `  normalForm               : CuePack | ActionOption | OptionSet | PolicyHook,`
 `  articulationHint?        : open-cue | sketched | option-explicit | hook-explicit,`
@@ -131,6 +133,9 @@ Each in-scope occurrence SHALL be representable as a pattern-specific **Qualifie
 `  witnesses?               : EvidenceRefSet`
 `⟩`
 
+**Viewpoint and view discipline.**
+When `viewpointRef` is present, `effectiveReferenceScheme` is also explicit and the reference resolves under that scheme to one exact independently admitted `U.Viewpoint` episteme. `view` is a separate optional value: it names one independently identified C.2.1 episteme that already has `U.View` membership only because exact E.17.0 `EpistemeViewpointConformanceRelation(view, viewpoint)` obtains for at least one admitted viewpoint. The selected `viewpointRef` need not be the viewpoint to which an optional view conforms unless the record explicitly claims that relation. Including `viewpointRef` or `view` in `ActionInvitationRecord` establishes neither `U.Viewpoint` nor `U.View` dependent-kind membership; it only cites already established objects. Detector, viewpoint selection, view membership, viewing construction and publication remain separate.
+
 So the sentence “X affords Y” is never accepted as a terminal form.
 Within the scope of A.6.A it must be rewritten into an explicit `actionInvitation(...)` instance with declared downstream governing pattern or publication; earlier pre-threshold cue content may instead remain as cue-pack content, a `RoutedCueSet`, or another typed cue-preserving upstream publication before A.6.A application.
 
@@ -139,7 +144,7 @@ Within the scope of A.6.A it must be rewritten into an explicit `actionInvitatio
 The stable intermediate lens is the `actionInvitation(...)` relation; the sense token refines **what kind of invitation** is being published.
 
 **P2W relation note.**
-`candidateActionTuple` names the invited move as relation content. It is not an actual `U.Work` occurrence, not a `U.WorkPlan`, not a `U.MethodDescription`, and not a selected method. When the publication needs intended work, planned work, actual work, method selection, work result, or result measurement, use `A.15`, `A.15.1`, or `A.15.2` instead of stretching `actionInvitation(...)`.
+`candidateActionTuple` names the invited move as relation content. It is not an actual `U.Work` occurrence and not a `U.WorkPlan`. When that move is invited enactment, the tuple SHALL select one exact independently admitted Method as `methodRef -> U.Method`; an optional `methodDescriptionRef` cites a separate C.2.1 episteme used only to identify, constrain or justify that Method or intended Work. Selecting the Method makes the invited action inspectable but does not schedule or perform it. When the publication needs intended Work, actual Work, work result or result measurement, use `A.15`, `A.15.1`, or `A.15.2` instead of stretching `actionInvitation(...)`; actual Work enacts the Method, never the description.
 
 **A.7 boundary note.**
 `siteClassification` uses the EntityOfConcern and Description-episteme boundary: the site member is either an EntityOfConcern-side participant, a Description episteme participant, or a non-claim-bearing site kind named directly.
@@ -230,7 +235,7 @@ A conforming `actionInvitation` SHALL make explicit:
    Which `U.System`, collective system, or role assignment whose holder is a `U.System` is invited to act.
 
 3. **Candidate action tuple.**
-   What action is being invited.
+   What action is being invited. If it is enactment, the tuple names exact `methodRef -> U.Method`; any `methodDescriptionRef` remains a separate auxiliary episteme and neither field asserts a WorkPlan or actual Work.
 
 4. **`ActionInvitationSense`.**
    Which action-oriented family is intended.
@@ -239,8 +244,8 @@ A conforming `actionInvitation` SHALL make explicit:
    The live coupling relation and admissible-use boundary under which the invitation is published.
    Examples: reach envelope, interface state, incident horizon, control horizon, probe pack, open issue set.
 
-6. **Detector, viewpoint, or both.**
-   Who or what detected the cue, and under which viewpoint it is published.
+6. **Detector, viewpoint reference, and independent view.**
+   Who or what detected the cue; which exact viewpoint episteme `viewpointRef` resolves to under the effective reference scheme when a viewpoint is selected; and, independently, which already-conforming `view : U.View` is cited when a view itself participates. None follows from another.
 
 7. **Normal form and `articulationHint`.**
    How the invitation is published and how far it has been articulated.
@@ -259,7 +264,7 @@ A conforming `actionInvitation` SHALL make explicit:
 An `ActionInvitationSense` SHALL declare one admissible default normal form and MAY declare additional admissible normal forms explicitly.
 
 **Docking note.**
-Where a published invitation already points to executable method descriptions, work plans, work occurrences, or their identifiers, the record SHOULD reuse existing `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` identifiers or refs. `PolicyHook` SHALL always be a hook over pre-existing gate, method, or protocol publications; it does not mint a new execution, admissibility, or deontic ontology.
+Where a published invitation already points toward enactment, the candidate action SHOULD select the existing exact `U.Method` ref. A current `U.MethodDescription` ref remains a separate C.2.1 source for identifying, constraining or justifying that Method or intended Work; existing `U.WorkPlan` and `U.Work` refs remain separate when those objects already exist. `PolicyHook` SHALL always be a hook over pre-existing gate, method, or protocol publications; it does not mint a new Method, execution, admissibility, or deontic ontology.
 
 **ANF-1 — `CuePack`.**
 Use for early or low-articulation action invitations, especially `AIS.PhysicalAffordance`, `AIS.SocialAffordance`, and many cases of `AIS.LatentPolicyCue`.
@@ -283,7 +288,7 @@ A conforming `ActionOption` publishes:
 * invited enactor and role assignment when live,
 * local guard sketch,
 * expected near-field effect,
-* optional `U.Method`, `U.MethodDescription`, or `U.WorkPlan` refs when those already exist in-context,
+* an exact `U.Method` ref when the option is invited enactment, plus a separate optional `U.MethodDescription` ref or `U.WorkPlan` ref only when that independently existing object is current,
 * explicit note that the option is **not yet selected**, **not yet obligatory**, and **not yet executed**.
 
 **ANF-3 — `OptionSet`.**
@@ -314,8 +319,8 @@ A.6.A SHALL prevent the collapse of action invitation language into neighbouring
 * A statement about **better, worse, fit, or merit** belongs to **C.16.Q**.
 * A statement about **what a system can do in general** belongs to capability wording, method wording, or method-description wording under **A.6.F** and the governing pattern for the asserted capability, method, or method-description claim.
 * A statement about **what must be done** belongs to **A.6.B** when the wording asserts an A-classified admissibility claim or a D-classified commitment claim.
-* A statement about **what was actually done** belongs to **A.15** and `U.Work`.
-* If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts.
+* A statement about **what was actually done** belongs to **A.15** and exact dated `U.Work`, whose `enactsMethod` relation points to the exact `U.Method`.
+* An invited enactment selects its exact Method without becoming a plan or occurrence; any `methodDescriptionRef` remains auxiliary. If an invitation points to a Description episteme, any later enactment still occurs through symbol carriers, acted-on systems, or both; the description itself never acts and is never what Work enacts.
 * Mixed sentences that carry both evaluative and invitational content SHALL be split into `evaluativeAscription(...)` and `actionInvitation(...)` records, with explicit cross-references when the co-occurrence matters.
 
 Mixed sentences SHALL be split.
@@ -361,7 +366,7 @@ A conforming pattern SHALL narrate changes with a stable change lexicon aligned 
 * **`reFrame(...)`** — change coupling frame.
 * **`reGuard(...)`** — change guard sketch or hook condition.
 * **`rePolicyHook(...)`** — change policy, gate, or method hook details.
-* **`reView(...)`** — change detector publication, viewpoint publication, or view publication.
+* **`reView(...)`** — change detector publication, ref-backed viewpoint selection, or independent view inclusion under the declared ref-vs-value discipline. Changing `viewpointRef` does not mutate the viewpoint episteme; adding or replacing `view` does not establish E.17.0 conformance.
 * **`rescope(...)`** — change `U.Scope`.
 * **`retime(...)`** — change `Γ_time`.
 * **`refreshWitnesses(...)`** — refresh witness bindings.
@@ -402,7 +407,7 @@ In **Tech prose and normative prose**:
 A.6.A allows monotone elaboration:
 
 1. Start by selecting an `ActionInvitationSense` and recording rival candidates when ambiguity is live.
-2. Declare site, would-be enactor, action, frame, and site-facet relation binding.
+2. Declare site, would-be enactor, action, frame, and site-facet relation binding; if the action is enactment, select the exact Method and keep any description ref auxiliary.
 3. Choose an admissible normal form and a local `articulationHint` when omission would hide articulation state.
 4. Add guards, method hooks, policy hooks, and witness bindings.
 5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or connected to **C.16.Q**, **A.6.B**, or the relevant **A.15** pattern family, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
@@ -412,5 +417,5 @@ A.6.A allows monotone elaboration:
 
 #### A.6.A:4.10a - Endpoint-first downstream discipline
 
-If a repaired phrase already names an admissible downstream `authoritySourceRef`, `governingPatternRef`, or P2W method-to-work reference such as a gate hook, method reference, `U.WorkPlan`, `U.WorkPlanning` plan record, or `U.Work` occurrence, authors SHOULD publish that downstream reference directly and keep `actionInvitation(...)` only as the preceding repair record when the invitation semantics themselves still matter. `actionInvitation(...)` is therefore a post-threshold invitation record, not a shadow substitute for `A.6.B`, `A.15`, or gate-governing patterns.
+If a repaired phrase already names an admissible downstream `authoritySourceRef`, `governingPatternRef`, or P2W method-to-work reference such as a gate hook, exact Method ref, separate MethodDescription ref, `U.WorkPlan`, `U.WorkPlanning` plan record, or `U.Work` occurrence, authors SHOULD publish that downstream reference directly and keep `actionInvitation(...)` only as the preceding repair record when the invitation semantics themselves still matter. `actionInvitation(...)` is therefore a post-threshold invitation record, not a shadow substitute for `A.6.B`, `A.15`, or gate-governing patterns.
 

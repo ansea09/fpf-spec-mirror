@@ -6,15 +6,16 @@ section_id: "E.18.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__003_problem-frame.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:1 — Problem Frame"
-line_start: 83839
-line_end: 83842
+line_start: 83916
+line_end: 83919
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -25,6 +26,7 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.30.TFS-REL"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
@@ -34,6 +36,7 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
+  - "U.Transfer"
 keywords:
 ---
 

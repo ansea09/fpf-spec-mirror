@@ -6,25 +6,30 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 8287
-line_end: 8314
+line_start: 8304
+line_end: 8333
 dependencies:
   - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.15.2"
   - "A.19"
+  - "A.2.6"
   - "A.20"
   - "A.21"
+  - "A.22"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
   - "A.6.1"
+  - "B.1.5"
   - "B.3"
+  - "C.16"
+  - "C.2.1"
   - "C.2.P.DR"
   - "C.27"
   - "C.27.TA"
@@ -33,7 +38,7 @@ dependencies:
   - "E.10.ARCH"
   - "E.20"
   - "F.18"
-  - "U.BoundedContext"
+  - "U.ClaimScope"
   - "U.Mechanism"
   - "U.Method"
   - "U.MethodDescription"
@@ -52,9 +57,9 @@ keywords:
 
 ### A.3.3:7 - Conformance Checklist
 
-**CC-A3.3-1 (Type).** `U.Dynamics` is an `U.Episteme` for a state-space and transition-law claim. It is not `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work`, `U.Mechanism`, evidence, assurance, or gate authority.
+**CC-A3.3-1 (Membership and identity).** A.3.3 judges one already identified `U.Episteme`. That same individual is `U.Dynamics` only when its exact C.2.1 `EntityOfConcern` is the changing subject and its ClaimGraph, under its effective `U.ReferenceScheme`, declares both a state space and a transition law. A.3.3 adds no second identity. It is not thereby `U.Method`, `U.MethodDescription`, `U.Structure`, `U.WorkPlan`, `U.Work`, `U.Transformation`, `U.Mechanism`, result, publication, evidence, assurance, gate, or authority.
 
-**CC-A3.3-2 (Bounded context).** Every `U.Dynamics` is declared inside a `U.BoundedContext`. Units, characteristic names, operating region, time base, approximation regime, and source-currentness condition are local to that context.
+**CC-A3.3-2 (Semantic locality without a container).** Local meanings and characteristic names are interpreted under the effective `U.ReferenceScheme`; units, operating region, time base, approximation regime, claim scope when needed, qualification window and source-currentness condition remain explicit claim content or separately governed values. No `U.BoundedContext`, generic context field, selected structure, description, carrier, or intrinsic-grounding slot identifies or contains the dynamics episteme.
 
 **CC-A3.3-3 (EntityOfConcern).** The changing EntityOfConcern is named. It may be a physical holon, service, organization, episteme, claim portfolio, architecture, resource bundle, or other holon with modeled state.
 
@@ -62,13 +67,13 @@ keywords:
 
 **CC-A3.3-5 (Transition law).** The transition law states a relation, map, kernel, equation, rule, learned predictor, or simulation rule suitable for the declared time base and stochasticity.
 
-**CC-A3.3-6 (Observation relation).** Evidence use states how work records, telemetry, measurements, or source records become observed coordinates. Direct observation is declared rather than assumed.
+**CC-A3.3-6 (Observation relation).** Evidence use states how exact Work-side facts when present and separately identified work records, telemetry, measurements, observation records, or source records become observed coordinates. A record is not the Work it describes, and direct observation is declared rather than assumed.
 
 **CC-A3.3-7 (Constraints and applicability).** Constraints, invariants, operating region, approximation regime, parameter range, horizon, and scale window are stated before prediction or gate use.
 
-**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. Planning or control methods that use dynamics belong to `U.Method` and `U.MethodDescription`.
+**CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. A reusable planning or control way that uses dynamics is `U.Method`; only a separately identified claim-bearing episteme that passes A.3.2 is its `U.MethodDescription`.
 
-**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, work logs, and telemetry attach to work, evidence, or source values. Calibration creates a new or revised dynamics episteme.
+**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, Work occurrences, work logs, and telemetry attach to their exact Work, record, evidence, measurement, or source owners. Calibration Work and its domain result may support a later dynamics episteme with its own C.2.1 identity; a continuing edition relation obtains only when C.2.1's separate predicate does.
 
 **CC-A3.3-10 (Prediction use).** Predicted coordinates used for comparison or gating require fresh observation or a declared non-expansive, invariant-commuting transition map over the domain of use.
 
@@ -77,4 +82,6 @@ keywords:
 **CC-A3.3-12 (C.29 boundary).** Contested, cross-domain, learned, speculative, scale-changing, or transferable mathematical-lens use is assigned to `C.29`; `A.3.3` keeps the dynamics semantics.
 
 **CC-A3.3-13 (Source-label repair).** `Process`, `workflow`, `algorithm`, `model`, `controller`, `simulator`, and `dynamics` wording must not be repaired to `U.Dynamics` until the current slot is recovered: method, method description, work plan, dated work, selected transformation-flow structure, transition-law claim graph, evidence relation, or another governed value.
+
+**CC-A3.3-14 (Actual-transformation boundary).** Possible, predicted, simulated, or probable change remains claim content. An actual `U.Transformation` requires the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification; dynamics and prediction supply no dated work, transformation participation, gate passage, release, permission, or other authority.
 

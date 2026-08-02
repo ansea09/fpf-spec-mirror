@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:5"
 section_title: "Direct known governing-pattern rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__011_direct-known-governing-pattern-rule.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:5 — Direct known governing-pattern rule"
-line_start: 75337
-line_end: 75342
+line_start: 75428
+line_end: 75433
 dependencies:
   - "A.10"
   - "A.15.1"

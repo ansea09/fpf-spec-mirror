@@ -6,12 +6,12 @@ section_id: "A.2.9:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__010_conformance-checklist-normative.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:7 — Conformance Checklist (normative)"
-line_start: 7011
-line_end: 7021
+line_start: 7006
+line_end: 7018
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,6 +21,7 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "U.Method"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -36,12 +37,14 @@ keywords:
 
 ### A.2.9:7 — Conformance Checklist (normative)
 
-1. **CC‑A.2.9‑1 (Occurrence, performer, and assignment).** One actual Work individual is admitted as `SA : U.SpeechAct`; its performer is an admitted accountable `U.System`, and the exact covering `U.RoleAssignment` has that system as holder. Any `SpeechActRecord` states those as claims and **MUST NOT** make the assignment, role value, organizational label, episteme, or carrier the performer.
-2. **CC‑A.2.9‑2 (Act-type predicate).** The actual occurrence satisfies at least one context-local `SpeechActTypeRef`; merely writing a token into `SpeechActRecord.actTypes` is insufficient.
-3. **CC‑A.2.9‑3 (Actual extent versus timestamp claim).** The occurrence has an actual temporal extent. A record's `window` must truthfully state that extent at the required precision; it does not create it.
-4. **CC‑A.2.9‑4 (Observable relied-on occurrence).** If a checklist, guard, commitment, or grant cites the occurrence, one `SpeechActRecord` identifies it and cites an applicable utterance, carrier, or direct evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10.
-5. **CC‑A.2.9‑5 (Typed world-side effects, separate claims).** A record's `institutes.*` branch references only an exact commitment or obtaining relation occurrence through its declared RefKind. A grant uses `GrantedPermissionRelationRef@Context`; publication uses `EpistemePublicationRelationRef`; a subject-specific status uses its direct relation type. A status claim and its evidence stay separate, and no record field makes any effect obtain.
-6. **CC‑A.2.9‑6 (Bridge-only cross-context use).** A receiving claim that interprets a `SpeechActRef` or `SpeechActRecord` in another bounded context cites the Bridge/policy that licenses that interpretation.
-7. **CC‑A.2.9‑7 (No fabricated method anchor).** If the occurrence's actual `enactsMethod -> U.Method` relation cannot be recovered, the record names the unresolved claim and source-gap provenance, remains `observationOnly`, and is not used for gate or deontic provenance. A placeholder `U.MethodDescription` never closes the gap.
-8. **CC‑A.2.9‑8 (Subject, target, and effect stay distinct).** A record uses `utteranceSubjectRefs` for aboutness and `institutionalTargetRefs` only for a policy-selected target. It claims actual change or institutional effect only through the exact direct relation; an informative act needs no changed target.
+1. **CC‑A.2.9‑1 (Occurrence, performer, and assignment).** One actual Work individual is admitted as `SA : U.SpeechAct`; its performer is an admitted accountable `U.System`, and the exact obtaining `U.RoleAssignment` has that system as holder and exposes its own role value, role-taxonomy episteme, effective reference scheme, and covering extent. Any `SpeechActRecord` states those as claims and **MUST NOT** make the assignment, role value, organizational label, episteme, or carrier the performer.
+2. **CC‑A.2.9‑2 (Exact Method and auxiliary description).** The actual occurrence independently satisfies `enactsMethod -> U.Method`. A current `methodDescriptionRef` resolves to a separate C.2.1 episteme used to identify, constrain, or justify that Method or intended Work; neither the reference nor the description is enacted.
+3. **CC‑A.2.9‑3 (Recognition taxonomy and scheme).** The actual occurrence satisfies at least one `SpeechActTypeRef` defined by the exact recognition-taxonomy episteme under the stated effective reference scheme. Merely writing a token into `SpeechActRecord.actTypes` is insufficient.
+4. **CC‑A.2.9‑4 (Actual extent versus effect interval).** The occurrence has an actual temporal extent, and a record's `window` truthfully states it at the required precision. Every instituted relation keeps its own occurrence or validity interval; neither interval creates or absorbs the other.
+5. **CC‑A.2.9‑5 (Observable relied-on occurrence).** If a checklist, guard, commitment, or grant cites the occurrence, one `SpeechActRecord` identifies it and cites an applicable utterance, carrier, or direct evidence relation. Evidence-critical uses **SHOULD** cite at least one carrier through A.10.
+6. **CC‑A.2.9‑6 (Current policy and typed world-side effects).** A record's `institutes.*` branch references only an exact commitment or obtaining relation occurrence through its declared RefKind. The exact current policy or procedure and direct owner establish any institutional effect; a status claim and its evidence stay separate, and no record field makes an effect obtain.
+7. **CC‑A.2.9‑7 (F.9 only for actual cross-locality dependence).** A receiving claim cites an F.9 Bridge only when it really compares, substitutes, or transfers speech-act or policy meaning across different local taxonomies, schemes, or policies. A new consumer or locality label alone neither requires a Bridge nor transfers force.
+8. **CC‑A.2.9‑8 (No fabricated method anchor).** If the occurrence's actual `enactsMethod -> U.Method` relation cannot be recovered, the record names the unresolved claim and source-gap provenance, remains `observationOnly`, and is not used for gate or deontic provenance. A placeholder `U.MethodDescription` never closes the gap.
+9. **CC‑A.2.9‑9 (Subject, target, and effect stay distinct).** A record uses `utteranceSubjectRefs` for aboutness and `institutionalTargetRefs` only for a policy-selected target. It claims actual change or institutional effect only through the exact direct relation; an informative act needs no changed target.
+10. **CC‑A.2.9‑10 (Optional channel stays separate).** A `channelRef`, utterance description, carrier, or trace may support identification or observation but is not the speech act, Method, performer, assignment, or instituted effect.
 

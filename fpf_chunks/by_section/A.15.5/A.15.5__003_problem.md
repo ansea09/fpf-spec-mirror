@@ -6,12 +6,12 @@ section_id: "A.15.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__003_problem.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:2 — Problem"
-line_start: 25941
-line_end: 25950
+line_start: 26018
+line_end: 26027
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,7 +47,7 @@ keywords:
 
 ### A.15.5:2 - Problem
 
-Without a separate work-entry readiness relation:
+Without one explicit local work-entry readiness claim and result semantics:
 
 1. Full-kit preparation becomes an attractive umbrella for planning, source relations, gate passage, and performed work.
 2. A green tile or ready label is treated as a `GateDecision`.

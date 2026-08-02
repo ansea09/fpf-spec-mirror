@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:4 — Solution"
-line_start: 77657
-line_end: 77706
+line_start: 77763
+line_end: 77814
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -52,8 +52,10 @@ Where episteme-publication-heavy or transform-heavy patterns need a compact onto
 
 This is a reading-order rule rather than a demand that every reader consume the assurance text first.
 The point is to keep the human-facing Working-Model text primary while preserving a recoverable, auditable assurance text beneath it.
+
+When empirical evaluation is current, keep the same reading order. The recognition text states the ordinary subject claim first. The assurance text keeps an intended evaluation in its exact `U.WorkPlan`, names the selected `U.Method`, and cites a separately constituted `U.MethodDescription` episteme only when the current plan, execution claim, or evaluation interpretation actually relies on that edition. It then identifies the exact dated evaluation `U.Work`, every admitted `U.System` that performed it, each exact obtaining `U.RoleAssignment` under which that system performed it for the attributed extent, and the actual `enactsMethod` relation. The system acts; a Working-Model, pattern, plan, method, method description, record, result, evidence path, provenance value, or assurance claim does not. Intended evaluation is not dated evaluation Work merely because the plan, criterion, method, description, or evidence is available.
 > **E.14‑P.1 – Working‑Model first, stance explicit.**  **
-> Operate one **Working-Model** for all human-facing discussion. For **each** assertion, the author **SHALL declare** an assurance posture (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** (term-to-kind alignment through Lang-CHR or D-Projection), **Logical** (label-meaning rules, scope, and constraints), **Constructive** (a C.2.1 construction-trace episteme about independently grounded facts), and **Empirical Validation** (an evidence-use relation for the claim, with scope, timespan, provenance, and declared `U.BoundedContext`). None of these shoulders creates the governed value, relation occurrence, or identity it supports.
+> Operate one **Working-Model** for all human-facing discussion. For **each** assertion, the author **SHALL declare** an assurance posture (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** for term-to-governed-value alignment through the current Kind-CAL/Lang-CHR route; **Logical** for exact label meaning, scope, constraints, and limits; **Constructive** for an inspectable C.2.1 construction-trace account of independently grounded facts; and **Empirical Validation** for an exact domain-local result and its A.10 evidence-provenance or reliance relation plus any separately current B.3 assurance claim when observation is current. Each shoulder names its direct objects, scope, and qualification window. None creates the governed value, subject relation, work occurrence, or result it supports.
 
 > **E.14‑P.2 – Downward‑only dependency.**
 > Information **may** flow from the Working‑Model down into any Assurance layer; **no Assurance layer may impose vocabulary or shape back upward** into the Working‑Model.
@@ -72,7 +74,7 @@ The point is to keep the human-facing Working-Model text primary while preservin
 > No new Working‑Model relation types are introduced if the existing Logical label-meaning rules plus Constructive grounding suffice to capture the intended meaning.
 
 > **E.14‑P.7 – Evidence is first-class claim grounding.**
-> When *postulate* is chosen, authors **SHALL** attach an **evidence pointer** (Empirical Validation) appropriate to the claim and context, governed as an evidence-use relation within a declared `U.BoundedContext`.
+> When *postulate* is chosen, authors **SHALL** name the exact target claim, `U.ClaimScope`, qualification window, direct domain result and result episteme when current, and the A.10 evidence-provenance relation used for this bounded reliance. If an assurance claim is made or B.3's material-reliance threshold is met, the current B.3 assurance claim is separate and required for that assurance-bearing use. A pointer, stored record, provenance value, or assurance tuple alone supplies none of these facts.
 
 > **E.14‑P.8 – Working-model-first is not explanation-thin.**
 > Human-facing parsimony does **not** license under-explained pattern prose. When a pattern claims a Working‑Model benefit, it **SHALL** still provide enough problem framing, rationale, and worked slices that readers can tell what the model clarifies, what remains on the assurance shoulders, and when a heavier review path is required.

@@ -6,12 +6,12 @@ section_id: "C.24:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__005_first-minute-questions.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.3 — First-minute questions"
-line_start: 52392
-line_end: 52398
+line_start: 52468
+line_end: 52474
 dependencies:
   - "A.1"
   - "A.15"
@@ -38,7 +38,7 @@ keywords:
 
 ### C.24:0.3 - First-minute questions
 
-- Has one choice result already been fixed, with the accepted decision material named, so that planning may begin now?
+- Has one choice result already been fixed with the accepted decision material named, and does every planned call resolve to an exact independently admitted Method rather than only a route-description label?
 - Which budget is being burned now: enactment budget, tool-call budget, or still one upstream probe budget?
 - What event stops or replans the route?
 - Is the next admissible output one `CallPlan`, one `CheckpointReturn`, or a neighbouring-pattern exit?

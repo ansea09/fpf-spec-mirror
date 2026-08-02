@@ -6,12 +6,12 @@ section_id: "A.15.5:5"
 section_title: "Archetypal Grounding - Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:5 — Archetypal Grounding - Worked Slices"
-line_start: 26045
-line_end: 26082
+line_start: 26112
+line_end: 26141
 dependencies:
   - "A.10"
   - "A.15"
@@ -47,39 +47,31 @@ keywords:
 
 ### A.15.5:5 - Archetypal Grounding - Worked Slices
 
-#### A.15.5:5.1 - Fixture Deformation Work
+#### A.15.5:5.1 - Fixture deformation test
 
-Situation: a cooling-fixture team plans a deformation test. The ProblemCard is accepted, P2W has carried a heat-flow distinction into a work-planning question, and the team asks whether the test is ready to start.
+**Situation.** An accepted cooling-fixture ProblemCard has been carried through E.18.1 into `WorkPlan-LAB-043 : U.WorkPlan`; that P2W carry-through creates neither readiness nor target Work. Its `PlanItem-TEST-043` designates possible future performance `planned-fixture-deformation-test-043`, classifies the intended work as fixture-deformation testing under the plan's current scheme, selects `FixtureDeformationTestMethod-E2 : U.Method`, and relies on `FixtureDeformationTestProcedure-E5 : U.MethodDescription` only for the setup limits stated in that edition. The plan also carries specimen and instrument choices through `SlotFillingsPlanItem-SFI-043`, planned resource reservation `FixtureBayReservation-043`, and intended technician-role conditions. None is target test Work.
 
-```text
-WorkEntryReadiness@Context:
-  WorkEntryConcernRef: cooling-fixture deformation test
-  BoundedContextRef: lab test before comparator run
-  TargetWorkPlanRef: WorkPlan-LAB-043
-  TargetPlanItemRef: PlanItem-TEST-043
-  FullKitCondition:
-    NeededInputRefs: specimen id, heat-flow invariant note, boundary-condition plan, sensor calibration record or certificate, fixture drawing edition
-    KnownInputRefs: specimen id, heat-flow invariant note
-    MissingInputRefs: sensor calibration record or certificate, fixture drawing edition
-    GoverningPatternForEachMissingValue: A.15.3 for planned calibration-record filler, A.10 when calibration evidence or currentness is claimed, E.17 for drawing publication edition
-    PlannedBaselineRef: SlotFillingsPlanItem-SFI-043
-    StopOrDegradedUseRule: no launch until calibration and drawing edition are pinned
-  CommitmentDisposition: blocked
-  LaunchGateRef: LaunchGate-LAB-043
-  StopCondition: do not start target test work
-```
+`FixtureTestEntryCriterion-E2` requires, for the proposed start window, a resolved specimen identity, current heat-flow invariant claim, current boundary-condition plan, current sensor-calibration result, selected fixture-drawing edition, resource-availability claim, and an obtaining technician assignment that will cover the intended window. The A.15.3 rows preserve only the planned specimen and instrument choices; the calibration result, its A.10 evidence-provenance path and separate currentness result, and the E.17 drawing-edition publication use remain separately governed inputs. The criterion returns `notReady` when an explicitly required input is determined expired or unresolved; unavailable facts return `unknown`. Any input revision, assignment gap, resource loss, or start-window change ends reliance and requires recheck.
 
-The readiness result blocks target work entry. It does not say the lab test occurred.
+`CalibrationCurrentnessCheck-043 : U.Work` was performed by `LabMetrologySystem-2 : U.System` under obtaining `RA-LabMetrology-2-E7`, enacted `CalibrationCurrentnessCheckMethod-E1`, and determined that the cited sensor-calibration result expired before the proposed start. Separately, `FixtureEntryReadinessCheck-043 : U.Work` was performed by `LabOperationsCoordinatorSystem-1 : U.System` under obtaining `RA-LabOperationsCoordinator-1-E4`, enacted `FixtureEntryReadinessEvaluationMethod-E2`, and applied the criterion to the exact plan inputs.
+
+The C.2.1 episteme `FixtureTestEntryReadinessResult-E1`, whose exact EntityOfConcern is `WorkPlan-LAB-043`, states `notReady` for `PlanItem-TEST-043`: the calibration result is expired and the fixture-drawing edition remains unresolved. Its stop is `do not start planned-fixture-deformation-test-043`; its return condition is `obtain a current calibration result, select the drawing edition, and rerun the readiness check`. The preparation and checking Work occurred; the target test did not. No A.21 gate decision or A.2.8.PER permission result follows from this readiness result.
+
+**What changes in practice.** The team stops the target test, assigns the two named preparation moves, and reruns the exact criterion after their inputs are current; it neither turns the existing plan into performed Work nor asks a gate or permission label to stand in for the missing facts.
 
 #### A.15.5:5.2 - Documentation Repair Probe
 
 Situation: an assisting agent can run a reversible documentation probe to find source-currentness gaps.
 
-Use `WorkEntryReadiness@Context` only for the readiness of the probe or repair work. If the probe is actually run, record the probe as `U.Work` under `A.15.1` and then recheck readiness for the target repair.
+For the probe itself, apply one exact readiness criterion to its WorkPlan and PlanItem and return the local readiness value with its relied-on inputs, window, and recheck condition. If the probe is actually run, identify that dated occurrence as `U.Work` under `A.15.1`, with its performer system, obtaining role assignment, enacted method, extent, and actual bindings; then run a separate readiness check for the target repair. The probe plan, probe readiness result, performed probe, and target-repair readiness result are four distinct claims.
 
-#### A.15.5:5.3 - Release Screen
+#### A.15.5:5.3 - Release screen with separate readiness, gate, and permission windows
 
-Situation: a release dashboard shows a green readiness badge.
+At `10:00`, `ReleaseReadinessCheck-12 : U.Work` evaluates `ReleasePlan-E7`, `PlanItem-Deploy-12`, and `ReleaseEntryCriterion-E3`. The persisted result says `ready` for reliance only in `[10:00, 10:30)` and requires recheck after any source, resource, assignment, permission, or gate-input change.
 
-If the current claim is "the release gate passed", use A.21 and recover `OperationalGate(profile)`, declared checks, aggregate, `GateDecision`, `DecisionLogRef`, scope, currentness, and window. If those fields are not recoverable, the display may be a reliance appearance for `A.15.4`, an evidence question, or a readiness indication. It is not gate passage by appearance.
+At `10:05`, exact A.21 `OperationalGate(Release-Core-E4)` consumes that readiness result as one declared `GateCheckRef` among its current check set and publishes `GateDecision=pass` with `DecisionLogRef=ReleaseGateLog-12` for `[10:05, 10:20)`. That gate result is not the readiness result and does not institute permission.
+
+Separately, exact A.2.8.PER `GrantedPermissionRelation@Context` occurrence `DeployGrant-12` covers the named beneficiary and deployment action for `[09:00, 11:00)`. `DeployNonProhibitionFinding-E2` reports `nonProhibited` from its named current frame, explicitly complete for this use, in evaluation window `[10:00, 10:15)`; it is not the grant. A `PermissionNormConflictFinding@Context`, if an incompatible current norm is established over the same content and window, would be a third permission-side input and an unresolved disposition would stop the use. A policy that requires readiness, gate passage, a current grant, and the frame-relative non-prohibition result may rely on those distinct inputs at `10:10`; it must re-evaluate the relevant branch when any window ends or a conflict appears. None of them proves that deployment Work occurred. A.15.1 identifies that Work only after its dated occurrence basis obtains.
+
+If a dashboard shows green but the exact readiness result or its reliance window, the current `OperationalGate(profile)` and `DecisionLogRef`, or the required permission value and qualification window cannot be recovered, the display remains a cue, an appearance-based reliance question, or a prompt to open the exact A.10 evidence-provenance and applicable currentness question for the claim being relied on. It is not readiness, evidence sufficiency, gate passage, authorization, or performed work by appearance.
 

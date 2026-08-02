@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 83390
-line_end: 83486
+line_start: 83457
+line_end: 83555
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -19,6 +19,8 @@ dependencies:
   - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.0"
   - "A.6.1"
@@ -44,6 +46,8 @@ dependencies:
   - "G.5"
   - "G.9"
   - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
   - "U.Signature"
 keywords:
 ---
@@ -101,20 +105,22 @@ E.11.PUA may help the team inspect and apply one diagnostic-pattern candidate in
 | Formal claim loses payoff | A `U.Signature(profile=FormalSubstrate)` declaration preserves a neat invariant, but no practical payoff or downstream stop condition can be stated for the accepted problem-side record. | The mathematical phrase lowers to a reduced-use cue; P2W does not justify method selection, evidence, gate, or `A.15.2` planning from mathematical prestige alone. |
 | Result source-use relation becomes stale | A result-looking source-use relation or publication cue is later replaced by a fresher source-use relation with a different artifact reference and measurement reference. | The practitioner applies `A.15.4` appearance-based reliance repair before continuing P2W; stale result wording cannot continue as evidence, acceptance, or quality evaluation. |
 
-#### E.18.1:5.3 - Pilot examples for coupled transformation-flow slices
+#### E.18.1:5.3 - Pilot examples for transformation-flow structures and networks
 
-These pilots are grounding checks, not source terminology to import. They exercise the same common shape: one current `TransformationFlowStructure` can relate several transformation-flow valuations or slices, one slice may develop or select a usable product, another slice may apply it, and an evaluation or refresh slice may return to the smallest affected development or application slice. The transformation-flow structure does not merge the slice-local objects, `DesignRunTag` boundaries, evidence, gates, work occurrences, or the relation position that the carried object fills inside each slice. Use each pilot to check whether the P2W use being made can name the joined transformation-flow slices, the carried object's slice-local relation position, the `DesignRunTag` boundary, and the smallest reopened slice.
+These pilots are grounding checks, not source terminology to import. Before using one, decide which of three ontic cases is current: several valuations or path slices of one exact TFS; one parent-relative internal `SubflowRef`; or an E.18.NET network of independently identified TFS or nested-network members connected by exact already-obtaining cross-boundary relations. A diagram, common product, display order, shared Work or source wording decides none of them.
+
+For one TFS, every valuation resolves to the same structure boundary and internal `U.Transfer` occurrences. For a network, every member retains its own boundary, Work, actual transformations, valuations and leaf-local position binding or `DesignRunTag`; exact cross-flow occurrences retain their direct governors, signatures, participant order and endpoint bindings. Membership is acyclic; directly governed feedback may cycle. Use a pilot to check the carried object's exact member-local position, the direct relation that crosses a boundary when one exists, and the smallest reopened member or continuation.
 
 | Pilot | P2W use being made | What it tests |
 |---|---|---|
-| Coffee service STF | Accepted `ProblemCard@Context PC-COFFEE-SERVICE-17` keeps the service-temperature and throughput problem visible while each next claim opens separately: `C.29` returns `CoffeeHeatMassBalanceLensUse-17`; `A.6.0` returns `CoffeeFormalSubstrateSignature-v3` only for its declared subject and ranged value; `A.6.1` returns the `CoffeeBrewHeatTransferMechanism-v2` declaration and any exact application bindings; `A.19.UNM` returns `CoffeeTemperatureNormalization-v4`; `A.3.1` returns `CoffeeBrewMethod-v5`; `A.15.2` returns `CoffeeShiftPlan-17`; `A.15.1` returns dated `CoffeeBrewWork-17-0815`; `C.16` returns the temperature and throughput measurement results; and `G.11` reopens only the continuation that relies on a changed source, normalization, method, or measurement. | The reader can take any current continuation or stop without treating display order as a declaration stack or project sequence. A signature supplies no mechanism or method; a plan supplies no Work; telemetry supplies no measurement result until `C.16` applies it; refresh changes only the relation that relied on the changed value. |
-| Compiler design and run | Toolchain construction, compiler use, and product execution are separate applications; design and run changes pass through the gate and work relations being used. | `DesignRunTag`, launch gate, reproducible build currentness, `G.11` source-currentness relation, and no collapse of build, run, and product work. |
-| TAMP and MPC robotics | Method selection and `A.15.2` planning records may be revised under a declared progress or budget condition before performed work. | Branching and cycle use without imposing one fixed work procedure, and no launch decision or performed-work claim before dated work occurs. |
-| AutoML and QD | Method selection returns a Pareto, QD, front, or archive set under comparator and descriptor editions, not a hidden scalar winner. | Set-return discipline, comparator currentness, no hidden scalarization, and retained-set refresh. |
-| Freshness or physical-transport case | Work planning and performed work depend on freshness windows, transport relations, units, reference planes, and source-currentness. | No implicit `latest`, no unbridged unit or plane comparison, and smallest affected refresh. |
-| Integration under module-interface constraints | After assembly, a result phrase may mean role-enactability under module-interface constraints, evidence, gate, architecture, function, or work relation. | Result carry-through is not artifact-only or telemetry-only; module-interface and integration wording is accepted only after recovering the relation being claimed. |
-| Tool-product-use chain | A design-tagged transformation-flow slice makes a tool; a later run or use slice uses the tool to make a chair; another slice uses the chair as context for writing a text. | One selected `TransformationFlowStructure` can relate all slices, but the same carried object may fill a run-result position in one slice and a design-side input, tool, context, or constraint position in another. The relation-position shift is explicit, tied to the `E.18` transformation-flow relation and any `DesignRunTag` being used, and does not change the object's kind by wording. |
-| FPF pattern development and self-evolving specification | A development transformation-flow slice creates or repairs a pattern, specification, or process description through drafting, quality evaluation, publication projection, and admitted publication; a later use slice applies that product to its own `EntityOfConcern`; a defect found in use returns to the smallest development slice for repair. | Development, application, and evaluation slices are joined by transfer and return relations inside one selected `TransformationFlowStructure` while keeping objects and `DesignRunTag` boundaries separate; evaluation records or use-found evidence change the product through edits to the smallest development slice, not by entering the used publication's practitioner-facing prose. |
+| Coffee service TFS | Accepted `ProblemCard@Context PC-COFFEE-SERVICE-17` keeps the service-temperature and throughput problem visible while each next claim opens separately: `C.29` returns `CoffeeHeatMassBalanceLensUse-17`; `A.6.0` returns `CoffeeFormalSubstrateSignature-v3` only for its declared subject and ranged value; `A.6.1` returns `CoffeeBrewHeatTransferMechanism-v2` and exact application bindings; `A.19.UNM` returns `CoffeeTemperatureNormalization-v4`; `A.3.1` returns `CoffeeBrewMethod-v5`; `A.15.2` returns `CoffeeShiftPlan-17`; `A.15.1` returns dated `CoffeeBrewWork-17-0815`; `C.16` returns the temperature and throughput measurements; and `G.11` reopens only a continuation relying on the changed source, normalization, Method or measurement. Treat them as positions or continuations of one TFS only while every use resolves to that same exact selected structure and internal transfers. | A signature supplies no mechanism or Method; a plan supplies no Work; telemetry supplies no measurement result until `C.16` applies it; another valuation or slice does not mint another TFS; refresh changes only the relation that relied on the changed value. |
+| Compiler design and run | Compiler preparation/build, later compiler use, release assurance and product operation retain independently identified TFS values when their boundaries, Work or change cadence differ. Release-assurance use, launch-gate use, reproducible-build currentness and `G.11` source-currentness remain separate claims. Select an E.18.NET network only after the exact source-use, production/inception, operation-application, evaluation or other cross-member occurrences and endpoint bindings independently obtain. | No collapse of build, run and product Work; no giant flow; no universal `produces`/`uses` edge; local `DesignRunTag`; and no transformation, production, gate or currentness result from a build arrow or intended realization. |
+| TAMP and MPC robotics | Method selection and `A.15.2` planning may be revised under a declared progress or budget condition before performed Work. That planning/replanning cycle may be one TFS valuation or path-slice family when the exact structure identity is shared; separately selected development, controller-execution and evaluation flows require E.18.NET and exact cross-member relations. | Branching and cycles without a fixed work procedure; no launch decision or performed Work before dated Work occurs; and feedback cycles do not make membership cyclic. |
+| AutoML and QD | Method selection returns a Pareto, QD, front or archive set under comparator and descriptor editions. If generation, evaluation and deployment are independently selected flows, relate them only through exact direct occurrences in E.18.NET. A changed descriptor, comparator or retained-set relation reopens only the dependent selection or publication continuation. | Set-return discipline, comparator currentness, no hidden scalarization, retained-set refresh, and no evaluation label used as a universal edge. |
+| Freshness or physical-transport case | Work planning and performed Work depend on freshness windows, transport relations, units, reference planes and source-currentness. A detailed internal route remains a `SubflowRef`; independent transport and use flows require a network. | No implicit `latest`, no unbridged unit or plane comparison, exact member boundary, and smallest affected refresh. |
+| Integration under module-interface constraints | After assembly, a result phrase may mean role-enactability under module-interface constraints, evidence, gate, architecture, function or Work relation. | Result carry-through is not artifact-only or telemetry-only; module-interface and integration wording is accepted only after recovering the exact direct relation. |
+| Tool-product-use network | One member contains exact dated tool-building Work, actual substrate changes and only the A.15.PROD production/inception/completion claims that are current; another member uses the admitted tool through an exact operation-application or subject-use occurrence. In the concrete chain, a later member may use that tool to make a chair and another may use the chair as context for writing a text, but every production, use and context relation must obtain under its direct owner. | The same carried object may occupy a run-result, design-side input, tool, context or constraint position in different members without changing kind. Exact source/use/production relations connect members; a design tag, result label or adjacency does not. |
+| FPF pattern development and use network | One member carries exact drafting or repair Work and episteme-edition changes; quality evaluation, publication projection, admitted publication, later application to another EntityOfConcern and use-found evaluation remain separately governed values or members when independently selected. An evaluation member may return a defect through exact source-use, evaluation and change relations to the smallest affected development continuation. | Development, publication, application and evaluation remain separate; evidence stays outside practitioner prose; repair changes the exact development object through its direct owner, not by treating the publication as acting or every edit as production. |
 
 #### E.18.1:5.4 - Filled P2W carry-through notes
 

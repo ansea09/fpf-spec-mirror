@@ -6,12 +6,12 @@ section_id: "B.1.1:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:6 — Conformance Checklist"
-line_start: 35746
-line_end: 35756
+line_start: 35559
+line_end: 35569
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.15:5"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__006_conformance-checklist-normative.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:5 — Conformance Checklist (normative)"
-line_start: 78049
-line_end: 78077
+line_start: 78170
+line_end: 78198
 dependencies:
   - "A.10"
   - "B.3"

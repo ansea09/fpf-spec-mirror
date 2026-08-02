@@ -6,12 +6,12 @@ section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 83521
-line_end: 83533
+line_start: 83593
+line_end: 83608
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -19,6 +19,8 @@ dependencies:
   - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.0"
   - "A.6.1"
@@ -44,6 +46,8 @@ dependencies:
   - "G.5"
   - "G.9"
   - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
   - "U.Signature"
 keywords:
 ---
@@ -59,5 +63,8 @@ keywords:
 | **Generic result token.** The word *result* is treated as one kind, or P2W repeats the whole recovery method. | Ask what can actually be asserted. Apply `A.6.P.WMR`, then carry only the direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or bounded non-assertability result it returns. Keep `factually unsupported`, `missing-information`, and `missing-governor` distinct; only `missing-governor` says that the required predicate for the stated participants and use has no current governor. |
 | **Choice-as-commitment.** A `C.11` choice result is treated as an accountable obligation, recommendation-as-duty, or prohibition. | Keep the option set, comparison basis, choice rule, and choice result under `C.11`; open a separate `A.2.8 U.Commitment` only when its accountable subject, modality, referents, scope, and window are independently recoverable. |
 | **Plan, path, or proximity as actual change.** A desired state, model, method, plan, flow arrow, adjacent work occurrence, or common affected referent is treated as an actual or composite transformation. | Apply `A.3.4` to the change and the direct work-to-change or `A.15.PROD` pattern to its separate claim. Carry only the results or blockers they return; shared timing or proximity opens no composition or production claim. |
+| **Intended realization as MethodDescription.** A selected continuation, recommendation, plan seed, imperative sentence or pattern ref is said to describe the Method it may realize. | First identify one C.2.1 episteme and one admitted `U.Method`; apply A.3.2 only when that Method is the episteme's exact EntityOfConcern and the ClaimContent contains a substantive way-of-doing claim. |
+| **One giant transformation flow.** Independently selected development, production, use or evaluation flows are flattened because a diagram or common product connects them. | Keep same-TFS valuations and internal `SubflowRef` cases in E.18; select E.18.NET only from independently identified members and exact cross-boundary occurrences. |
+| **Displayed mantra as execution.** The five-row display, repeated formula or word *move* is treated as a method, plan or performed step. | Keep the formula as Plain recall wording for one decision, the table as display content, and each current action/object under its direct owner. |
 | **Interface shortcut.** Interface, port, protocol, connection, resource, or integration wording selects function, method, work, evidence, gate, or architecture by itself. | Recover the module-interface, signature-slot, function, architecture, work, evidence, or gate relation before continuing. |
 

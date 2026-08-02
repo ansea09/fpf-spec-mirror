@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__007_worked-slices.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:5 — Worked Slices"
-line_start: 35237
-line_end: 35280
+line_start: 35028
+line_end: 35089
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -42,7 +42,7 @@ keywords:
 
 ### A.22.CGUS:5 - Worked Slices
 
-**Architecture P2S slice.** A team starts with architecture-relevant problem pressure. The unfolding structure may relate problem pressure, unknown structures, candidate structures, architecture characteristics, one `ProjectArchitectureDecision@Context` governed by `C.32.PAD`, realization-work linkage, actual-structure feedback, and return conditions. The P2S flow card can describe those relations, but the decision relation remains governed by `C.32.PAD`, architecture descriptions by `C.30.AD`, and planned or performed work by the A.15 family.
+**Architecture P2S slice.** A team starts with architecture-relevant problem pressure. The selected unfolding structure may include independently identified problem-side epistemes, unknown-structure and candidate-structure claims, selected structures, architecture characteristics, one exact `ArchitectureDecisionRelation@Project` occurrence governed by `C.32.PAD`, one exact `ArchitectureUnfoldingStructureUse@Project` occurrence governed by `C.32.P2S`, actual-structure feedback relations, and return conditions. The P2S card can describe those objects and relations, but it creates none of them. Unknown, candidate, selected, or expected structures remain epistemic claim content until their world-side obtaining basis is independently recovered; planned or performed realization Work remains with the A.15 family, and actual structure remains under A.22 and its subject-side relation owners.
 
 **Abductive search slice.** An inquiry starts from an abductive prompt and a cue set selected for the search. The unfolding structure may relate rival hypotheses, plausibility constraints, hypothesis-generation positions, evidence-return relations, and downstream tests. The structure is not evidence; evidence appears only when an evidence pattern governs the claim.
 
@@ -50,27 +50,45 @@ keywords:
 
 **First-entry seed slice.** A README entry says "develop or review architecture." That line may seed an entry unfolding among problem-side records, candidate first governed records, likely governing-pattern returns, and next readable outputs. The README line is a seed description, not the project's unfolding structure and not a universal FPF route.
 
-**Field-filled scaffold slice.** A team has a visible card sequence "problem pressure -> candidate options -> eval -> repair." At first this is a `ProvisionalUnfoldingDemonstrationDescription@Context` about the cooling-design question and proposed continuations. After every admission coordinate below is recoverable, the team may admit the wider CGUS and create a separate demonstrative slice over it:
+**Field-filled scaffold slice.** A team has a visible card sequence `problem pressure -> candidate options -> evaluate -> repair`. At first this is an ordinary C.2.1 episteme whose EntityOfConcern is the cooling-design question and whose ClaimContent states proposed positions and continuations plus the unresolved A.22 coordinates. After the exact basis below is recoverable, the team may select one CGUS and separately create a demonstrative slice over it:
 
 ```text
-acceptedStartingRecordReferenceRefs[]: ProblemCard@Cooling-v2 through one acceptedStartingRecord reference; EvaluationResult@thermal-margin-v1 through one acceptedStartingRecord reference
-acceptedStartingStructureRefs[]: CurrentModulePlacementStructure@Cooling-v2
-declaredStructureSubstrateRef: ArchitectureCandidateSynthesisAndImprovementStructure@Cooling-v2
-structurePositionRefs[]: PressurePosition; CandidateSetPosition; EvaluationResultPosition; RepairProposalPosition; ReturnPosition, each with one SlotSpec and direct governing pattern
-relationSignatureRefs[]: CandidateEvaluatedByResult; ProposalChangesCandidate; ResultConstrainsDecision; ReturnTargetsGoverningPattern
-constraintReferenceRefs[]: ThermalMarginConstraint; ServiceAccessConstraint; AcceptedLossBoundary, each through an exact constraint reference relation
-invariantReferenceRefs[]: MaintainableCoolingPathInvariant through one invariant reference relation
-guardedTransitionReferenceRefs[]: RepairAdmissionGuard through one guarded-transition reference relation; the guard admits repair only after the evaluation-result relation is current
+selectedCGUSRef: ArchitectureCandidateSynthesisAndImprovementStructure@Cooling-v2
+selectedConstituentRefs[]:
+  - ProblemCard@Cooling-v2, independently identified as a C.2.1 episteme
+  - EvaluationResult@thermal-margin-v1, independently identified under its evaluation owner
+  - CurrentModulePlacementStructure@Cooling-v2, independently selected under A.22
+  - RepairProposalEpisteme@Cooling-v2, independently identified under C.2.1 as the current proposal claim
+  - ReturnConditionEpisteme@Cooling-v2, independently identified under C.2.1 as the current return-condition claim
+selectedObtainingRelationOccurrenceRefs[]:
+  - CandidateEvaluatedByResult@Cooling-v2, only after its direct owner admits the kind and current facts satisfy its predicate
+  - ProposalChangesCandidate@Cooling-v2, only after its direct owner admits that exact occurrence
+  - ResultConstrainsDecision@Cooling-v2, only after its direct owner admits that exact occurrence
+relationSignatureRefs[]: CandidateEvaluatedByResult; ProposalChangesCandidate; ResultConstrainsDecision; ReturnTargetsGoverningPattern, each resolved to an exact direct declaration before use
+appliedConstraintClaimRefs[]:
+  - ThermalMarginConstraint
+  - ServiceAccessConstraint
+  - AcceptedLossBoundary
+  - MaintainableCoolingPathInvariant
+guardedContinuationRows[]:
+  - RepairAdmissionGuard with its exact condition claim, required selected relation occurrences, and repair-candidate continuation
+namedSelectionUseFrame:
+  questionOrAction: decide whether accept-candidate and repair-candidate continuations remain admissible
+  forbiddenOverread: no displayed order, authorization, performed Work, or architecture decision follows from the card
+positionLocatorRows[]:
+  - <selectedCGUSRef, PressurePositionSlotSpec, ProblemCard@Cooling-v2>
+  - <selectedCGUSRef, EvaluationResultPositionSlotSpec, EvaluationResult@thermal-margin-v1>
+  - <selectedCGUSRef, CandidateStructurePositionSlotSpec, CurrentModulePlacementStructure@Cooling-v2>
+  - <selectedCGUSRef, RepairProposalPositionSlotSpec, RepairProposalEpisteme@Cooling-v2>
+  - <selectedCGUSRef, ReturnPositionSlotSpec, ReturnConditionEpisteme@Cooling-v2>
 preservedStructureRefs[]: CandidateAlternativeStructure; RepairLocalityStructure
 structureInformationAdequacyNoteRefs[]: TeachingSliceAdequacyNote@Cooling-v2 under C.33, recording omitted rejected-candidate detail and its declared-use effect
-admissibleNextFormKindRefs[]: U.Structure for a C.32 candidate-palette update; U.Episteme for an E.22 candidate-improvement proposal row; U.Relation for an ArchitectureDecisionRelation@Project under C.32.PAD
-admissibleUseRef: use for planning and demonstrating relations among current positions
-nonAdmissibleUseRef: do not infer performed-work order, authorization, or architecture decision from the slice
-structureUseReturnBoundaryRefs[]: return to C.32 when a new candidate structure appears; return to E.23 when the changed object version is evaluated
-stopBoundaryRef: stop stronger candidate-set or evaluation use when the candidate-set or evaluation relations are no longer recoverable
+admissibleNextFormKindRefs[]: U.Structure for a C.32 candidate-palette update; U.Episteme for an E.22 proposal; exact decision-relation kind only under C.32.PAD
+stopCondition: stop stronger candidate-set or evaluation use when the selected relation occurrences or constraints are no longer recoverable
+governingPatternReturnConditions[]: return to C.32 when a new candidate structure appears; return to E.23 when the changed object version requires re-evaluation
 ```
 
-The same visible chain helps planning because each position asks for a slot. It does not make the project follow that order and does not authorize work.
+The visible chain helps planning because each filled locator makes the current subject recoverable. It neither makes the project follow that order nor creates a WorkPlan, Work occurrence, relation, decision, or CGUS by table completion. The block becomes an admitted CGUS basis only after every listed relation declaration resolves, every selected occurrence independently obtains, and the A.22 constraints and use frame are current; otherwise the completely filled display remains a provisional episteme and returns the exact missing governor or occurrence.
 
 **Local relation repair slice.** Later `EvaluationResult@thermal-margin-v2` becomes the current result for the same cooling candidate. Keep the candidate set, structure positions, service-access constraint, maintainable-cooling-path invariant, and return boundaries. Replace only the referenced `CandidateEvaluatedByResult` relation instance, then re-evaluate `RepairAdmissionGuard` under its direct governing pattern. If the new result does not satisfy the guard, remove `repair candidate` from the admissible next forms and update the demonstrative slice that showed that branch; the unrelated `accept candidate` continuation remains live. A changed result therefore repairs one relation and its dependent guard before it changes a wider graph.
 
@@ -82,5 +100,5 @@ The same visible chain helps planning because each position asks for a slot. It 
 
 **Formal-expression boundary slice.** A team expresses part of the cooling CGUS as a DCR graph or constraint-solver model to check whether the `repair candidate` branch is reachable under `RepairAdmissionGuard`. The expression preserves selected positions, dependency relations, and the guard. It loses direct governing-pattern exits, C.33 adequacy notes, and any relation not encoded in the chosen formalism. Record that preservation and loss under `C.29`, use the output only for the declared reachability question, and return to CGUS before selecting the next form. Satisfiability or reachability does not establish that the expression is the CGUS, prescribe performed-work order, prove architecture adequacy, or authorize work.
 
-**Method-to-work linkage slice.** A method description is admitted because it may realize a governed structure change or change set. CGUS may organize the method relation, work-plan seed, readiness condition, expected structure effect, evidence or gate linkage, and stop condition. It does not authorize work. The method, plan, work-entry readiness, performed work, evidence, assurance, and gate claims remain with A.3, A.15, A.10, B.3, A.20, and A.21.
+**Method-to-work boundary slice.** A selected CGUS may include exact already-obtaining relations among one admitted `U.Method`, an independently identified C.2.1 episteme, `U.WorkPlan`, readiness claim, dated `U.Work`, actual `U.Transformation`, production or inception claim, evidence, assurance, and gate result. Intended realization, a plan seed, display order, imperative grammar, or a relation to expected structure does not make the episteme a `U.MethodDescription`: A.3.2 membership requires that the episteme's exact EntityOfConcern be one admitted Method and that its ClaimContent contain at least one substantive way-of-doing claim. The structure selects only relations already governed by A.3, A.15, A.3.4, A.15.PROD, A.10, B.3, A.20, or A.21 as applicable; it authorizes and performs nothing.
 

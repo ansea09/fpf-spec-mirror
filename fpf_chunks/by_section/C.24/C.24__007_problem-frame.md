@@ -6,12 +6,12 @@ section_id: "C.24:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__007_problem-frame.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:1 — Problem frame"
-line_start: 52407
-line_end: 52426
+line_start: 52483
+line_end: 52502
 dependencies:
   - "A.1"
   - "A.15"
@@ -50,7 +50,7 @@ This CAL provides the **conceptual API for thought** that lets any implementatio
 Immediate failure indicators for this pattern:
 
 * the current planning result cannot say whether one choice result already exists,
-* the current text cannot distinguish route description, call plan, and executed call work,
+* the current text cannot distinguish exact Method, route-description episteme, call plan, and executed call Work,
 * the budget being burned is still only probing-before-choice budget rather than enactment or tool-call budget, or
 * the next admissible output is still undefined as one enactment-facing plan, one `CheckpointReturn`, or one neighbouring-pattern exit.
 

@@ -6,18 +6,20 @@ section_id: "E.11.PUR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__004_forces.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:3 — Forces"
-line_start: 77065
-line_end: 77076
+line_start: 77160
+line_end: 77171
 dependencies:
   - "A.15"
   - "A.19"
+  - "A.19.CPM"
   - "A.19.ECS"
   - "A.21"
   - "A.6.5"
+  - "C.22.PFR"
   - "C.24"
   - "C.30"
   - "E.10.MOVE"
@@ -37,7 +39,7 @@ keywords:
 | Addressable reliance | Transfer, audit, automation, delayed feedback, or costly reversal can rely on separate fit findings. |
 | Applicability versus recommendation | A fit finding does not select a candidate for current use. |
 | Plural coordination | Several candidates may be alternatives, complements, or partially ordered. |
-| Exact precedence | Result-based precedence reuses the prerequisite candidate's exact expectation. |
+| Exact precedence | Result-based precedence reuses the prerequisite candidate's exact expectation and current directly grounded closure. |
 | No work overread | Pattern-use coordination does not plan, authorize, or perform project work. |
 | Proxy resistance | Pattern familiarity, score, and publication order are not evidence of expected practical gain. |
 

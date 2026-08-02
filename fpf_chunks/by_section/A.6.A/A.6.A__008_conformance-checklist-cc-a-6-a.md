@@ -6,12 +6,12 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
-line_start: 17907
-line_end: 17972
+line_start: 17940
+line_end: 18008
 dependencies:
   - "A.15"
   - "A.16"
@@ -32,6 +32,7 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "E.17"
+  - "E.17.0"
   - "E.18"
   - "F.9"
 keywords:
@@ -58,14 +59,14 @@ A text or pattern conforms to A.6.A iff:
 4. **CC-A.6.A-4 — Enactor discipline.**
    When the invited enactor is meant as the actual would-be enactor, it resolves to a `U.System` or role assignment with system holder.
 
-5. **CC-A.6.A-5 — Explicit candidate action.**
-   The candidate action tuple is explicit and reviewable.
+5. **CC-A.6.A-5 — Explicit candidate action and Method when enactment is invited.**
+   The candidate action tuple is explicit and reviewable. If it is enactment, it selects exact `methodRef -> U.Method`; any `methodDescriptionRef` remains a separate C.2.1 episteme and neither selection establishes intended or actual Work.
 
 6. **CC-A.6.A-6 — Explicit coupling frame.**
    The coupling frame is explicit.
 
-7. **CC-A.6.A-7 — Detector and viewpoint separation.**
-   When both matter, `detector` and `viewpoint` are not silently collapsed.
+7. **CC-A.6.A-7 — Detector, viewpoint reference, and view separation.**
+   When current, `detector`, ref-backed `viewpointRef`, its effective reference scheme, and independent optional `view` are not silently collapsed. The reference resolves to an exact admitted viewpoint episteme; a cited view already passes E.17.0 independently.
 
 8. **CC-A.6.A-8 — Lawful normal form.**
    The invitation is published as `CuePack`, `ActionOption`, `OptionSet`, or `PolicyHook`, with corresponding discipline observed.
@@ -108,4 +109,7 @@ A text or pattern conforms to A.6.A iff:
 
 21. **CC-A.6.A-21 — Candidate-Set Note is used when ambiguity is live.**
     If the site classification, publication or carrier participation, enactor classification, relation family, or sense selection is non-obvious, the text records a short Candidate-Set Note before decision-bearing use.
+
+22. **CC-A.6.A-22 — Record inclusion grants no dependent-kind membership.**
+    `viewpointRef` resolves under the effective reference scheme to an independently admitted `U.Viewpoint`; optional `view` names an independently identified episteme whose `U.View` membership follows only from exact E.17.0 conformance. Neither field nor the invitation record establishes either membership.
 

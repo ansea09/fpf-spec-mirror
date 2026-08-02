@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__009_conformance-checklist.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:7 — Conformance Checklist"
-line_start: 35291
-line_end: 35305
+line_start: 35100
+line_end: 35115
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -44,12 +44,13 @@ keywords:
 
 | ID | Passing condition | Failed-check repair |
 | --- | --- | --- |
-| **CC-CGUS-1 Structure kind.** | The object is `ConstraintGovernedUnfoldingStructure@Context <: U.Structure` or a named narrower `U.Structure` specialization. | Lower to note, seed, description, route card, method description, or governing-pattern record. |
-| **CC-CGUS-2 Typed positions and cross-position constraints.** | More than one SlotSpec-grounded position is named, and exact relations or constraints among those positions affect admissible continuations. | Add typed positions and their exact relation references, or stop using CGUS. |
-| **CC-CGUS-3 Description separation.** | A pre-admission presentation remains a `ProvisionalUnfoldingDemonstrationDescription@Context`; after admission, a whole-structure account is a `ConstraintGovernedUnfoldingStructureDescription@Context`, while one selected traversal is a `DemonstrativeUnfoldingSlice@Context` whose EntityOfConcern is the admitted CGUS. | Keep the presentation provisional until CGUS admission. After admission, choose the description species by whether the episteme describes the admitted topology or selects one traversal through it. |
+| **CC-CGUS-1 A.22 identity.** | The current object is one selected `U.Structure` with exact independently identified constituents, exact selected obtaining relation occurrences, exact applied constraints, and one named selection-use frame; the `ConstraintGovernedUnfoldingStructure` profile adds no ambient context discriminator. | Recover the missing A.22 discriminator, or lower to the current note, record, graph, table, or description. |
+| **CC-CGUS-2 Typed positions and cross-position constraints.** | More than one filled `CGUSPositionLocator` resolves an independently governed selected constituent, and exact already-obtaining relations or applied constraints among those constituents change admissible continuations. | Recover the missing constituent, SlotSpec, relation occurrence, or constraint; an empty row remains provisional. |
+| **CC-CGUS-3 Episteme separation.** | A pre-admission presentation is a C.2.1 episteme about the actual question or proposed continuation set; a whole-structure description and one demonstrative slice are distinct C.2.1 epistemes whose exact EntityOfConcern is the admitted CGUS. None is the selected structure. | Keep the presentation provisional until admission, then identify each needed episteme by its own ClaimContent, EntityOfConcern, and effective ReferenceScheme. |
 | **CC-CGUS-3a Transformation-flow locator exclusivity.** | A one-TFS slice has the complete top-level E.18 triple and no network locator; a network slice has one network locator and none of the three top-level E.18 fields; a generic slice may have neither family. No partial or mixed family is present. | Restore one complete family, or remove transformation-flow provenance and keep the slice generic. |
-| **CC-CGUS-3b Network locator admission reuse.** | Every position ref agrees with the locator's exact network, member path, and leaf position and maps to the same exact position already included in the slice and admitted E.18.3 structure. Every selected cross-flow row comes from a current record of that same network and cites an exact relation-reference episteme already admitted by E.18.3. Member-local TFS triples remain nested, with no duplicate raw-position list or network-global valuation, path slice, or tag. | Return the mismatched network, path, leaf, record, admitted position, or relation reference. Remove copied position lists and global state; keep leaf-local bindings inside member-local rows. |
-| **CC-CGUS-4 Direct governing patterns.** | Method, work, evidence, gate, decision, architecture, publication, refresh, and mathematical claims point to direct governing patterns. | Add governing-pattern exits or narrow the claim. |
+| **CC-CGUS-3b Network locator admission reuse.** | Every position ref agrees with the exact network, recursive member path, and leaf position and resolves the same admitted `CGUSPositionLocator` already used by the slice and E.18.3 structure. Every selected cross-flow row resolves exactly one row in the current record and cites an exact already-admitted relation-reference episteme. Member-local TFS locators retain boundaries, Work, transformations, valuations, path slices, and tags; the network has no global copy. | Return the mismatched network, path, leaf, record, position, relation, or binding. Remove copied position lists and global state. |
+| **CC-CGUS-3c Flow/subflow/network discriminator.** | Several valuations retain one TFS identity; one internal portion remains one parent-relative `SubflowRef`; independent flows or nested networks plus exact cross-boundary occurrences use E.18.NET. Membership is acyclic while directly governed feedback may cycle. | Return to E.18 or E.18.NET; remove the valuation-created flow, detail-created member, giant flattened flow, or cyclic membership. |
+| **CC-CGUS-4 Direct governing patterns and method-description threshold.** | Method, MethodDescription, plan, Work, transformation, production, evidence, gate, decision, architecture, publication, source-use, currentness, and mathematical claims retain direct owners; a governing-pattern ref, intended realization, ordering claim, recommendation, or imperative grammar admits no `U.MethodDescription` or Work. | Add the exact governing exit, apply A.3.2 only to an already identified episteme about one admitted Method, or narrow the claim. |
 | **CC-CGUS-5 Non-workflow boundary.** | The structure does not prescribe performed-work order by itself. | Move work-order claims to a work plan or method description if justified. |
 | **CC-CGUS-6 Admissible next form.** | At least one admissible next-form kind is named for the admitted structure. | Keep the artifact as a provisional description until a next use and next-form kind are recoverable. |
 | **CC-CGUS-7 Stop, return, and currentness reference.** | Stop and return boundaries are recoverable; any currentness claim is an exact referenced relation governed by `G.11`. | Add the boundary or referenced currentness relation, or lower the structure to a one-use explanation. |

@@ -6,18 +6,20 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 77207
-line_end: 77246
+line_start: 77306
+line_end: 77345
 dependencies:
   - "A.15"
   - "A.19"
+  - "A.19.CPM"
   - "A.19.ECS"
   - "A.21"
   - "A.6.5"
+  - "C.22.PFR"
   - "C.24"
   - "C.30"
   - "E.10.MOVE"
@@ -33,7 +35,7 @@ keywords:
 
 #### E.11.PUR:5.1 - Applicable but not recommended
 
-A team considering a high-cost pump test has candidate uses of `C.28` causal triage and `A.21` gate discipline. Both may be applicable. The immediate uncertainty is whether a causal model output may support intervention, so `C.28` offers the more useful first result.
+A team considering a high-cost pump test has candidate uses of `C.28` causal triage and `A.21` gate discipline. Both may be applicable. The immediate uncertainty is whether a causal model output may support intervention, so `C.28` offers the more useful first result. That uncertainty and the recommendation are epistemic; neither asserts an actual C.22.PFR Problem.
 
 Recommend `C.28` without claiming that the test is authorized. The later gate use remains a separate candidate whose applicability can be reconsidered after the causal-use result exists.
 
@@ -49,19 +51,19 @@ Use one coordination relation with `orderingMode=unordered`. The team may perfor
 
 A design team's architecture-candidate comparison begins only after its evaluation coordinates are defined. One candidate use of `A.19.ECS` expects an `EvaluationCharacteristicSpaceSpec`; the dependent comparison use consumes that exact result.
 
-Use `precedenceBasis=prerequisiteResult` and point to the ECS candidate's existing expectation. Do not copy `EvaluationCharacteristicSpaceSpec` and its signature into new ordering fields. After the result is grounded, the dependent use can begin under its own Solution.
+Use `precedenceBasis=prerequisiteResult`, point to the ECS candidate's existing expectation, and cite its current E.11.PUA result-closure finding. The closure must identify the exact `EvaluationCharacteristicSpaceSpec`, its direct owner, the governed evaluation or application relative to which it is this result, and the direct relation, A.6.1 binding, or local-claim basis and governor. Do not copy the spec or its signature into ordering fields. Until that basis is current, no precedence occurrence is established and the dependent use stays at its return boundary.
 
 #### E.11.PUR:5.4 - Method precondition is not a result dependency
 
-A machining pattern assumes an admitted material-kind classification. The classification is a method precondition already current in the bounded context, not the result of another candidate pattern use.
+A machining pattern assumes an admitted material-kind classification. The classification is a method precondition already current for that exact machining use, not the result of another candidate pattern use.
 
-If coordination is still useful, use `methodPrecondition` and leave the result-expectation position absent. Do not invent a prerequisite result merely to make the relation look uniform.
+If coordination is still useful, use `methodPrecondition` and leave both result-reference positions absent. Do not invent a prerequisite result merely to make the relation look uniform.
 
 #### E.11.PUR:5.5 - Repair a stale copied prerequisite locally
 
 An older architecture coordination copied `EvaluationCharacteristicSpaceSpec` and its signature into an ordering record. The ECS candidate's current expectation later changed, leaving the copy stale while both candidates, their applicability findings, the coordination question, and `partialOrder` mode remained sound.
 
-Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation. The dependent use returns until that expected result is grounded. Candidate inspection, applicability, coordination membership, and direct Solutions do not restart.
+Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation and current E.11.PUA result-closure finding. If the exact result, governed relative object, direct basis, or governor cannot be recovered, keep the precedence relation non-obtaining and the dependent use at its return boundary. Candidate inspection, applicability, coordination membership, and direct Solutions do not restart.
 
 #### E.11.PUR:5.6 - A higher recommendation score can reduce useful fit
 

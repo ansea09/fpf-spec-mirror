@@ -6,12 +6,12 @@ section_id: "C.24:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__014_consequences.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:9 — Consequences"
-line_start: 52679
-line_end: 52684
+line_start: 52770
+line_end: 52775
 dependencies:
   - "A.1"
   - "A.15"
@@ -39,6 +39,6 @@ keywords:
 ### C.24:9 - Consequences
 
 - tool use under systems in agential roles becomes inspectable as one admissible plan, not one opaque sequence of calls
-- downstream work receives one explicit enactment record with objective, route refs, budget envelope, stop conditions, and `nextPlannedAction`
-- the cost is stricter discipline around route-description versus plan versus work separation, explicit budgets, and visible policy state before execution begins
+- downstream work receives one explicit enactment-facing plan with objective, exact Method refs, separate route-description refs when current, budget envelope, stop conditions, and `nextPlannedAction`; actual Work is recorded only after it occurs
+- the cost is stricter discipline around exact Method versus route-description versus plan versus work separation, explicit budgets, and visible policy state before execution begins
 

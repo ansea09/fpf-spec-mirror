@@ -6,12 +6,12 @@ section_id: "C.24:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__004_what-this-buys.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.2 — What this buys"
-line_start: 52386
-line_end: 52391
+line_start: 52456
+line_end: 52467
 dependencies:
   - "A.1"
   - "A.15"
@@ -39,6 +39,12 @@ keywords:
 ### C.24:0.2 - What this buys
 
 - one tool-agnostic planning record for admissible calls, budgets, stop conditions, and replan triggers
-- one explicit enactment record with objective, budget, stop conditions, and next planned action
+- one explicit enactment-facing plan or bounded checkpoint with objective, budget, stop conditions, and next planned action, without presenting intent as actual Work
 - one replayable call graph and assurance record instead of one opaque chain of tool invocations
+
+**Primary working object.** One `ATC.CallPlan : U.WorkPlan` for intended calls. Each planned call selects an exact independently admitted `U.Method`; a current route description is a separate C.2.1 `U.MethodDescription` episteme that describes and may help identify, constrain or justify that Method or intended Work. Actual tool-call Work, its performer System, obtaining assignment, interval, containing system and `enactsMethod` relation remain downstream A.15.1 facts.
+
+**First useful move.** For each planned call, name the exact `methodRef` first, then cite an edition-pinned `methodDescriptionRef` only if its route description is needed. State order, budget, stop/replan condition and next action without claiming that Work occurred.
+
+**Not this pattern when.** If the surviving option or pool policy is unresolved, use C.11 or C.19; if selector-facing publication is current, use G.5. If the question is only what a callable MethodDescription says, use A.3.2/C.2.1. If the question is whether a call actually occurred or what Method it enacted, use A.15.1; if work-entry readiness is the question, use A.15.5.
 

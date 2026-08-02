@@ -6,12 +6,12 @@ section_id: "A.6.A:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__006_archetypal-grounding.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:5 — Archetypal Grounding"
-line_start: 17805
-line_end: 17891
+line_start: 17832
+line_end: 17924
 dependencies:
   - "A.15"
   - "A.16"
@@ -32,6 +32,7 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "E.17"
+  - "E.17.0"
   - "E.18"
   - "F.9"
 keywords:
@@ -62,17 +63,23 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 `  siteClassification = { AlarmBundle_AB9: non-claim-bearing carrier site, ServiceState_S7: EntityOfConcern },`
 `  publicationOrCarrierParticipation = { AlarmBundle_AB9: carrier exposing cue },`
 `  invitedEnactor = OpsTeam_Phoenix,`
-`  candidateAction = Enact(MethodDescriptionRef = RollbackRunbook_R41, actedOn = Release_R41),`
+`  candidateAction = Enact(methodRef = RollbackMethod_R41, methodDescriptionRef = RollbackRunbook_R41, actedOn = Release_R41),`
 `  actionInvitationSense = AIS.ControlOpportunity,`
 `  couplingFrame = IncidentPolicy_IP2 × Horizon_H15m,`
 `  detector = AnomalyPolicy_AP7,`
-`  viewpoint = VP.OperationsControl,`
+`  viewpointRef = U.ViewpointRef(VP.OperationsControl),`
+`  effectiveReferenceScheme = OperationsControlScheme_2026,`
+`  view = OperationsRollbackView_9,`
 `  normalForm = PolicyHook,`
 `  articulationHint = hook-explicit,`
 `  scope = U.WorkScope(ProdCluster_EU_1),`
 `  Γ_time = RunWindow_RW,`
 `  witnesses = {AlertTrace_91, ErrorBudgetSeries_4}`
 `)`
+
+`VP.OperationsControl` is independently admitted as a `U.Viewpoint` episteme and is resolved by `viewpointRef` under `OperationsControlScheme_2026`. `OperationsRollbackView_9` is independently identified under C.2.1 and is a `U.View` only because `EpistemeViewpointConformanceRelation(OperationsRollbackView_9, VP.OperationsControl)` independently obtains under E.17.0. Their inclusion in the invitation record establishes neither membership. The invitation selects `RollbackMethod_R41` for its candidate enactment but does not create a WorkPlan or assert that rollback Work occurred; `RollbackRunbook_R41` remains an auxiliary MethodDescription.
+
+**Recognizable near misses.** `Enact(methodDescriptionRef = RollbackRunbook_R41)` with no exact Method is unresolved invited enactment, not a usable action option. `viewpoint = VP.OperationsControl` stores a dependent-kind value by name and hides reference resolution. A `viewpointRef` alone does not make a diagram or dashboard a `U.View`; a `view` field alone does not make its episteme conform. An alarm, invitation record or PolicyHook alone does not prove duty, gate passage or performed rollback Work.
 
 **Repair B — ecological and robot line**
 
@@ -102,7 +109,7 @@ A conforming post-threshold rewrite publishes one explicit `actionInvitation(...
 `  site = ProblemFramingEpisode_PF3,`
 `  siteClassification = { ProblemFramingEpisode_PF3: Description episteme },`
 `  invitedEnactor = ResearchTeam_A,`
-`  candidateAction = Enact(MethodDescriptionRef = ContrastiveQuestioning_Q2),`
+`  candidateAction = Enact(methodRef = ContrastiveQuestioningMethod_Q2, methodDescriptionRef = ContrastiveQuestioning_Q2),`
 `  actionInvitationSense = AIS.EpistemicProbe,`
 `  couplingFrame = ExemplarPack_EP3 × OpenIssueSet_O2,`
 `  detector = Reviewer_A1,`

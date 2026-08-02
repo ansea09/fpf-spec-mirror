@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__012_rationale.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:10 — Rationale"
-line_start: 35324
-line_end: 35331
+line_start: 35137
+line_end: 35144
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -46,5 +46,5 @@ The selected design is a thin A.22 specialization of `U.Structure` because the r
 
 Physical modeling makes the same distinction concrete. In acausal modeling, component relations, quantities conserved across connections, and mode conditions can be declared before the model is compiled and solved in one chosen direction. The FPF import is only the general architecture of the move: structure and constraints first; derived calculation, demonstration, calibration, publication, or work use later under direct governing patterns.
 
-CGUS is deliberately close to A.22. It is a `U.Structure` over a declared substrate in a bounded context. Descriptions, views, graph renderings, route cards, README entries, and examples help humans use it; they do not become it.
+CGUS is deliberately close to A.22. It is one selected `U.Structure` with the four A.22 identity discriminators and a constraint-governed unfolding use. It has no ambient context field. Descriptions, views, graph renderings, route cards, README entries, demonstrations, and examples help humans use it; they do not become it.
 

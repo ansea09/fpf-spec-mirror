@@ -6,15 +6,16 @@ section_id: "E.18.3:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__012_rationale.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:10 — Rationale"
-line_start: 84077
-line_end: 84080
+line_start: 84209
+line_end: 84214
 dependencies:
   - "A.10"
   - "A.15"
+  - "A.15.PROD"
   - "A.20"
   - "A.21"
   - "A.22"
@@ -25,6 +26,7 @@ dependencies:
   - "C.18"
   - "C.19"
   - "C.30.TFS-REL"
+  - "C.32.CONWAY"
   - "C.32.P2S"
   - "E.17"
   - "E.18"
@@ -34,10 +36,13 @@ dependencies:
   - "E.23"
   - "G.11"
   - "G.5"
+  - "U.Transfer"
 keywords:
 ---
 
 ### E.18.3:10 - Rationale
 
-The selected design follows the same principle as E.18: transformation-flow structure is structure, not the whole work process. Constraint-governed unfolding adds a next-use concern. It asks how a transformation-flow structure can unfold toward a next FPF use while protecting the differences among structure, description, method, plan, work, evidence, gate, decision, architecture, publication, E.18 slice-local refresh, and G.11 currentness.
+The design follows the same principle as E.18: transformation-flow structure is structure, not the whole work process. Constraint-governed unfolding adds a next-use concern—how one selected structure exposes admissible continuations while protecting the differences among structure, description, Method, MethodDescription, plan, Work, transformation, production, evidence, gate, decision, architecture, publication, E.18 slice-local refresh and G.11 currentness.
+
+E.18.3 stays deliberately thin. It does not create a reciprocal specialization object or universal connection relation. It recognizes one A.22-selected `U.Structure` when exact E.18 positions, direct relation occurrences and transformation-flow constraints support the current unfolding use, and it uses ordinary C.2.1 epistemes only to make that qualification and its demonstrations replayable.
 

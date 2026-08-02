@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__014_relations.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:12 — Relations"
-line_start: 35347
-line_end: 35356
+line_start: 35160
+line_end: 35169
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -42,9 +42,9 @@ keywords:
 
 ### A.22.CGUS:12 - Relations
 
-Specializes: the `A.22` use of `U.Structure` when the selected structure is `ConstraintGovernedUnfoldingStructure@Context` and its typed positions, exact referenced relations, cross-position constraints, preserved structures, C.33 adequacy notes, admissible next-form kinds, and direct governing-pattern exits are current.
+Specializes: the A.22 use of one selected `U.Structure` when exact constituents, selected obtaining relation occurrences, applied constraints, and a named selection-use frame support constraint-governed unfolding through typed position locators, preserved and lost structure, admissible next-form kinds, and direct governing-pattern exits.
 
-Specialized by: `E.18.3` for transformation-flow unfolding structures, including admitted positions and relation-reference epistemes cited by a network demonstration locator; and by local blocks in `E.18.1`, `C.32.P2S`, `B.5.2`, `A.6.3.NAR`, `E.23`, `C.13`, `B.3.5`, and `C.3` when their admission tests pass.
+Specialized by: `E.18.3` when the same selected structure satisfies its transformation-flow unfolding membership condition and reuses exact E.18 positions and relation references; and by local A.22 applications in `E.18.1`, `C.32.P2S`, `B.5.2`, `A.6.3.NAR`, `E.23`, `C.13`, `B.3.5`, and `C.3` only when their own selected constituents, obtaining relations, constraints, and use frames are recoverable.
 
 Coordinates with: `E.18` for the complete one-TFS locator triple, `E.18.NET` for one selected E.18.NET-conforming TFS network and member paths, `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, `G.11` for currentness and refresh claims, and `E.17` for publication of provisional descriptions or admitted demonstrative slices.
 

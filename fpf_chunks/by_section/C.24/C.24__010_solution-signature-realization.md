@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 52439
-line_end: 52650
+line_start: 52515
+line_end: 52739
 dependencies:
   - "A.1"
   - "A.15"
@@ -39,13 +39,13 @@ keywords:
 ### C.24:4 - Solution — Signature & Realization
 
 **Local value names.**
-*`ATC.CallRouteDescription`* is a `U.MethodDescription` with `accessSpec` for one tool service or callable route;
-*`ATC.CallPlan`* is a `U.WorkPlan` specialised for intended tool-call work; it cites one or more `ATC.CallRouteDescription` editions plus planned order, budget ceilings, stop or replan triggers, and `nextPlannedAction`;
-*`ATC.CallGraph`* is an evidence or provenance graph over a `U.Work` ledger;
+*`ATC.CallRouteDescription`* is a `U.MethodDescription` with `accessSpec` for one tool service or callable route. Its exact C.2.1 EntityOfConcern is an independently admitted `U.Method`; the description describes and may help identify, constrain or justify that Method or intended Work for one receiving use but is neither the Method nor anything executed;
+*`ATC.CallPlan`* is a `U.WorkPlan` specialised for intended tool-call work. Each planned call step selects one exact `U.Method` by `methodRef` and may separately cite a current `ATC.CallRouteDescription` by `methodDescriptionRef`, plus planned order, budget ceilings, stop or replan triggers, and `nextPlannedAction`;
+*`ATC.CallGraph`* is an evidence or provenance graph over a ledger of exact actual `U.Work` call occurrences. A graph entry cites the Work occurrence and exact Method; an optional route-description edition helps interpretation but creates neither occurrence nor `enactsMethod`;
 *`ATC.Policy`* references `U.EmitterPolicyRef` (E/E-LOG) and local call gates **including BLP tolerances (alpha, delta)**.
 
 **Roles.**
-A **System in AgentialRole** prepares or revises one **CallPlan** that cites one or more **CallRouteDescription** editions. Upon enactment, a **Performer** executes **Work** (calls), and **Observers** record **Observations** with acceptance checks. Route descriptions stay design-time; the call plan stays schedule-of-intent; actual call work stays run-time. (A.15 strict distinction.)
+A **System in AgentialRole** prepares or revises one **CallPlan** whose planned steps select exact Methods and may cite separate **CallRouteDescription** editions. Upon enactment, an admitted performer `U.System` performs each actual call as a dated `U.Work` occurrence under an exact obtaining `U.RoleAssignment`; A.15.1 owns the actual `enactsMethod` relation. **Observers** record observations with acceptance checks. Route descriptions stay design-time epistemes; the call plan stays schedule-of-intent; actual call Work stays run-time; service promise content remains a separate acceptance object. None establishes another by record inclusion.
 
 **Operators (Gamma_agential; CAL, conceptual):**
 
@@ -53,16 +53,16 @@ A **System in AgentialRole** prepares or revises one **CallPlan** that cites one
    *Eligibility gate* based on capability fit, policy allow-list or deny-list, and context K (including safety constraints).
 
 2. `Gamma_agential.enumerate(TaskSignature, K_ctx) -> CandidateSet<ATC.CallRouteDescription>`
-   Returns admissible callable route descriptions. It **MAY** delegate to **NQD-CAL** for heterogeneous route families and **MUST** apply the current **E/E-LOG lens** (objectives & telemetry) to tag candidates.
+   Returns admissible callable route descriptions. It **MAY** delegate to **NQD-CAL** for heterogeneous route families and **MUST** apply the current **E/E-LOG lens** (objectives & telemetry) to tag candidates. Before a candidate enters an enactment-facing plan, its C.2.1 episteme must resolve under the effective reference scheme and identify the exact independently admitted Method; an unresolved route label remains probe material, not a planned enactment.
 
 3. `Gamma_agential.plan(Objective, CandidateSet, Budget, ATC.Policy) -> ATC.CallPlan`
-   Produces one **call plan** that cites the selected route descriptions, declares one planned budget envelope (compute, cost, time, risk), one intended call order, and one stop or replan policy. Internal route logic remains in the cited method descriptions; the plan is a `U.WorkPlan` that cites method descriptions, not a method description and not yet work.
+   Produces one **call plan** whose ordered planned-call steps select exact `U.Method` refs and may separately cite selected route-description epistemes. It declares one planned budget envelope (compute, cost, time, risk), one intended call order, and one stop or replan policy. Internal route logic may remain in the cited descriptions; the plan is a `U.WorkPlan`, not a Method, not a MethodDescription, and not yet Work.
 
 4. `Gamma_agential.execute(ATC.CallPlan) -> {ATC.CallGraph, Observations}`
-   Executes with **hard gates** (budget, risk, constraint-fit) and logs provenance suitable for B.3 assurance reporting (design-time and run-time separated).
+   Executes with **hard gates** (budget, risk, constraint-fit). Each actual call is independently identified as dated `U.Work`, performed by an admitted System under an exact obtaining assignment and related by actual `enactsMethod` to the planned exact Method under A.15.1. The operator logs provenance suitable for B.3 assurance reporting while keeping plan, description, Work, Method and service promise separate.
 
 5. `Gamma_agential.replan(Signals, ATC.CallPlan, BudgetPrime) -> ATC.CallPlanPrime`
-   Triggered by sentinel breaches, assurance drops, or policy events; preserves editioned policy, cited route descriptions, and context.
+   Triggered by sentinel breaches, assurance drops, or policy events; preserves or explicitly revises the ordered exact Method refs, separately cited route descriptions, editioned policy, effective planning context, and other plan content. Changing a description reference does not silently change either the Method or any actual Work history.
 
 6. `Gamma_agential.score(Route or PlanAlternative) -> <ValueProxies, Cost, Risk, FGR_floor>`
    Computes selection signals **without** illegal scalarisation across mixed scales; **uses Pareto comparison under the C.19 E/E-LOG lens** and leaves final dominance to declared policies.
@@ -79,17 +79,17 @@ A successful probe does not by itself justify a larger burn or a committed rollo
 
 **Bridge to neighboring patterns.** `ProbeBudget` belongs to `C.11` while it means epistemic budget for further probing before choice. `C.24` carries budgets once they are enactment, tool-call, or rollout budgets. If the question is still which option survives now, apply `C.11`; if it is now pool policy over several still-live candidate lines, apply `C.19`; if it is selector-facing publication of the selected result, apply `G.5`.
 
-**Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, the cited route descriptions or planned call order, the planned budget envelope, the stop or replan condition, and the next planned action, or one `CheckpointReturn` that states the current objective or task family, the burned and residual actual budget, the evidence locus, the commit trigger, and the recommended next action.
+**Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, each planned exact Method ref and any separate route-description ref, planned call order, planned budget envelope, stop or replan condition, and next planned action, or one `CheckpointReturn` that states the current objective or task family, tested Methods and descriptions when recovered, burned and residual actual budget, evidence locus, commit trigger, and recommended next action.
 
-**Unfinished-state rule.** A `C.24` result remains unfinished when it cannot say whether execution should continue now, pause at one checkpoint, or reroute, when it confuses route description with plan or plan with executed work, or when it does not state which budget is planned versus already burned and what event would stop or replan the current route.
+**Unfinished-state rule.** A `C.24` result remains unfinished when a planned call has only a route label and no recovered exact Method, when it cannot say whether execution should continue now, pause at one checkpoint, or reroute, when it confuses Method with description, description with plan, or plan with executed Work, or when it does not state which budget is planned versus already burned and what event would stop or replan the current route.
 
 **Normative Laws (ATC-Laws).**
 
-* **ATC-1 (Model-the-Call, not the App).** A tool call is one **Work** instance that enacts a referenced **MethodDescription** promised by a **Service**; plans schedule intended calls and cite route descriptions but are neither the route descriptions themselves nor the calls. (A.15.)
+* **ATC-1 (Model-the-Call, not the App).** One actual tool call is a dated **Work** occurrence that enacts one exact independently admitted **Method** under A.15.1. A current route description is a separate C.2.1 MethodDescription episteme that describes and may help identify, constrain or justify that Method or intended Work; a Service's `U.PromiseContent` is a separate acceptance object. Plans schedule intended calls but are neither Methods, descriptions, service promises, nor actual calls.
 * **ATC-2 (Bitter-Lesson Preference).** When two admissible choices are within **delta (assurance)** and **alpha (budget)**, **prefer the more general, scale-benefiting method** whose **slope vector Pareto-dominates** under the declared E/E-LOG objectives; any override **MUST** record a **BLP-waiver** with expiry. (E.2; precedence governed by E.3.)
 * **ATC-3 (Budget & Harm Gates).** Plans **SHALL** declare ceilings on compute, cost, wall-time, and risk; execution **MUST** abort or replan on breach. Actual burned or residual budget belongs in `CheckpointReturn`, `CallGraph`, or other work-side reporting, not inside the `CallPlan` field set.
 * **ATC-4 (Explore-Share Discipline).** Plans **MUST** declare `explore_share`; defaults **inherit from E/E-LOG profiles**. **Informative defaults**: `0` for safety-critical or deterministic tasks; `approx 0.2-0.4` for ambiguous tasks with heterogeneous tool families. Promotion of illumination telemetry into dominance **requires explicit policy**.
-* **ATC-5 (Provenance & Replay).** Every call **MUST** emit a **CallGraph** with: Service id, cited MethodDescription edition, inputs and outputs (redacted per privacy), `CallPlan` ref, **EmitterPolicyRef**, and budget deltas. (NQD/E/E provenance fields apply when used.)
+* **ATC-5 (Provenance & Replay).** Every actual call **MUST** emit a **CallGraph** row with its exact Work ref, exact enacted Method ref, performer System, obtaining assignment, Service id, optional cited MethodDescription edition, inputs and outputs (redacted per privacy), `CallPlan` ref, **EmitterPolicyRef**, actual interval, and budget deltas. The graph records these facts; it creates none of them. (NQD/E/E provenance fields apply when used.)
 * **ATC-6 (Assurance-First Decisions).** Selection **MUST** respect B.3: WLNK minima on F/R (weakest-link floors), CL penalties on integration, and **no** chimera scores across design-time and run-time scopes. Publish **<F,G,R>** for the typed claim `this plan is admissible under K,S`.
 * **ATC-7 (Notation/Vendor Independence).** Core pattern text **MUST NOT** encode vendor-specific tokens; bindings occur in Context via Bridges/Profiles. (Lexical guard-rails.)
 
@@ -143,7 +143,7 @@ What this does not establish: `C.24` does not estimate effects, prove identifica
 #### C.24:4.3 - Didactic quick card
 
 **Agentic Call Plan (public field set).**
-`Objective - Context(K) - RouteRefsInOrder[edition-pinned] - BudgetEnvelope{time_budget, compute_budget, cost_budget, risk_limit} - PolicyRef - Explore-share - StopConditions - ReplanConditions - BLP tolerances - BLP waiver (if any) - Assurance<F,G,R|K,S> - Provenance ids`
+`Objective - Context(K) - PlannedCallsInOrder[{MethodRef, MethodDescriptionRef?[edition-pinned]}] - BudgetEnvelope{time_budget, compute_budget, cost_budget, risk_limit} - PolicyRef - Explore-share - StopConditions - ReplanConditions - BLP tolerances - BLP waiver (if any) - Assurance<F,G,R|K,S> - Provenance ids`
 
 #### C.24:4.4 - Explicit enactment outputs and closure rule
 
@@ -157,7 +157,7 @@ Two output shapes are admissible here:
 A `CallPlan` should state at least these fields:
 
 - current objective;
-- cited route descriptions or planned call order;
+- ordered planned-call steps, each with an exact `methodRef` and a separate edition-pinned `methodDescriptionRef` only when the route description is current;
 - active policy or planning state;
 - planned budget envelope or reserved budget;
 - stop or replan condition;
@@ -166,7 +166,7 @@ A `CallPlan` should state at least these fields:
 A `CheckpointReturn` should state at least these fields:
 
 - current task family or objective;
-- candidate routes tested so far;
+- candidate exact Methods and their separate route-description epistemes tested so far, when recovered;
 - evidence on those routes;
 - burned and residual actual budget;
 - recommended next action;
@@ -178,7 +178,12 @@ A compact result may therefore look like:
 CallPlan(
   objective = answer_question_Q,
   policyRef = ee_policy_v1,
-  routeRefsInOrder = [search_route_v3, retrieve_route_v1, synthesize_route_v2, code_check_route_v1],
+  plannedCallsInOrder = [
+    {methodRef = SearchMethod_3, methodDescriptionRef = search_route_v3},
+    {methodRef = RetrievalMethod_1, methodDescriptionRef = retrieve_route_v1},
+    {methodRef = SynthesisMethod_2, methodDescriptionRef = synthesize_route_v2},
+    {methodRef = CodeCheckMethod_1, methodDescriptionRef = code_check_route_v1}
+  ],
   plannedBudgetEnvelope = {time<=60_minutes, compute<=x1, cost<=y1, risk<=r1},
   stopOrReplan = low_R_or_cost_ceiling,
   nextPlannedAction = enact_now
@@ -212,12 +217,20 @@ When the objective and route are already fixed enough, `C.24` should close as on
 ```text
 CallPlan(
   objective = produce_patch_and_verify,
-  routeRefsInOrder = [inspect_repo_route, edit_candidate_route, run_targeted_tests_route],
+  plannedCallsInOrder = [
+    {methodRef = InspectRepositoryMethod_4, methodDescriptionRef = inspect_repo_route_v3},
+    {methodRef = EditCandidateMethod_2, methodDescriptionRef = edit_candidate_route_v2},
+    {methodRef = TargetedTestMethod_7, methodDescriptionRef = run_targeted_tests_route_v5}
+  ],
   plannedBudgetEnvelope = {time<=45_minutes, compute<=x2, cost<=y2, risk<=r2},
   stopOrReplan = targeted_tests_fail_twice,
   nextPlannedAction = enact_now
 )
 ```
+
+The plan does not claim that any call happened. If the first call is then performed, identify `ToolCallWork-903 : U.Work`, admitted performer System `RepoAutomationSystem-2`, obtaining assignment `RepoAutomationInspectorAssignment-2`, actual interval `[10:02Z, 10:04Z]`, containing system `RepairRun-81`, and independently obtaining `enactsMethod(ToolCallWork-903, InspectRepositoryMethod_4)`. Its CallGraph row may cite `inspect_repo_route_v3` as `methodDescriptionRef`; neither that description nor the row is the Work occurrence or the enacted Method. The service's `U.PromiseContent` and any acceptance result remain separate.
+
+**Recognizable near misses.** `inspect_repo_route_v3` with no recovered exact `InspectRepositoryMethod_4` cannot support an enactment-facing plan. A `CallPlan` with no actual Work occurrence is still only intent. A tool log row with no independently grounded Work, performer, assignment and Method is evidence material, not execution. A successful response does not by itself prove the service promise was accepted.
 
 **Unfamiliar route, one bounded scout pass still admissible.**
 When the route is still uncertain inside enactment planning, `C.24` should close as one `CheckpointReturn`:
@@ -237,12 +250,12 @@ The practical distinction is simple: if route order and budgeted execution are a
 
 1. **Research-assistance system in agential role.**
    Task: answer a novel technical question. Candidate tools: retrieval, structured web search, code runner, table or plot generator.
-   **Plan:** cite route descriptions for `search`, `retrieve`, `synthesize`, and `code_check`; declare `explore_share approx 0.4`; replan on sentinel `low_R`.
+   **Plan:** select exact `SearchMethod`, `RetrievalMethod`, `SynthesisMethod`, and `CodeCheckMethod` refs in order; separately cite current route descriptions for `search`, `retrieve`, `synthesize`, and `code_check`; declare `explore_share approx 0.4`; replan on sentinel `low_R`.
    The admissible structure here is one declared budget envelope, one explicit route order, and one visible replan trigger.
 
 2. **Program-repair system in agential role.**
    Task: propose a patch against a failing test suite. Candidate tools: repo introspection, static analyzer, unit runner.
-   **Plan:** keep repo-introspection, patch-application, and targeted-test route descriptions distinct; use scout quota across patch families before committed rollout.
+   **Plan:** select exact repo-introspection, patch-application, and targeted-test Methods; keep their optional route-description epistemes distinct; use scout quota across patch families before committed rollout.
 
 3. **Lab-automation system in agential role.**
    Task: adjust a wet-lab protocol under drift. Candidate tools: planner, pipetting controller, spectrometer, Bayesian optimizer.

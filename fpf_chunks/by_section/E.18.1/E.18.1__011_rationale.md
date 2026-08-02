@@ -6,12 +6,12 @@ section_id: "E.18.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__011_rationale.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:10 — Rationale"
-line_start: 83544
-line_end: 83549
+line_start: 83619
+line_end: 83624
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -19,6 +19,8 @@ dependencies:
   - "A.19.SelectorMechanism"
   - "A.20"
   - "A.21"
+  - "A.3.1"
+  - "A.3.2"
   - "A.3.4"
   - "A.6.0"
   - "A.6.1"
@@ -44,6 +46,8 @@ dependencies:
   - "G.5"
   - "G.9"
   - "U.Mechanism"
+  - "U.Method"
+  - "U.MethodDescription"
   - "U.Signature"
 keywords:
 ---

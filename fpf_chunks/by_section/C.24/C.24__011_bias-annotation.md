@@ -6,12 +6,12 @@ section_id: "C.24:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__011_bias-annotation.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:6 — Bias-Annotation"
-line_start: 52651
-line_end: 52654
+line_start: 52740
+line_end: 52743
 dependencies:
   - "A.1"
   - "A.15"
@@ -38,5 +38,5 @@ keywords:
 
 ### C.24:6 - Bias-Annotation
 
-Lexical firewall and notation independence apply; no vendor tokens; mixed-scale characteristics are never averaged; route descriptions remain distinct from `U.WorkPlan`, and both remain distinct from executed `U.Work`; a successful probe remains distinct from committed rollout until the commit trigger is satisfied.
+Lexical firewall and notation independence apply; no vendor tokens; mixed-scale characteristics are never averaged; exact `U.Method`, route-description `U.MethodDescription`, `U.WorkPlan`, actual `U.Work`, CallGraph evidence, and service promise remain distinct; a successful probe remains distinct from committed rollout until the commit trigger is satisfied.
 

@@ -6,12 +6,12 @@ section_id: "A.15.2:7a"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_conformance-checklist.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7a — Conformance Checklist"
-line_start: 25048
-line_end: 25064
+line_start: 25119
+line_end: 25135
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,6 +69,6 @@ keywords:
 | CC-A15.2-8 | A one-case fulfilment answer is A.6.RCD disposition 2: a separate assertion about exact plan episteme P, item I, Work W, and policy F. F names the independently obtaining Work facts and the positive or negative criterion used. | Shared labels or links cannot close the claim. Negative polarity needs an applicable explicit criterion and case facts; unavailable facts return `missing-information`, absent predicate or policy authority returns `missing-governor`. Repeated semantics may use a predicate-definition episteme; only an occurrence-facing receiver can open relation-kind admission. |
 | CC-A15.2-9 | A variance question compares exact planned and actual values through one local comparison assertion or the measurement, temporal, resource, evaluation, or acceptance pattern that defines the comparison. | Comparison method, scale, qualification window, and result are explicit; no universal variance relation or intrinsic Work field is inferred. |
 | CC-A15.2-10 | Cross-context planning pins each effective reference scheme and applies the separate Bridge/use/reliance branch in checklist item 7. | F.9 is cited only for an exact `SchemeSenseCell` Bridge; the separate C.2.1 use claim and A.10 or B.3 reliance result decide whether the attempted use proceeds, narrows, or stops. Run target conversion, commitment, acceptance, and verdict reuse under the pattern that defines each claim; the Bridge establishes none of them. |
-| CC-A15.2-11 | Evidence, assurance, gate, launch-value, and result-measurement claims stay in the patterns that govern those relations. | Evidence-reference notes or requests do not become evidence, assurance, gate passage, or result measurement. `WorkEntryReadiness@Context` and `GateDecision=pass` alone establish neither an A.2.8.PER permission relation nor a Work occurrence. |
-| CC-A15.2-12 | Planned preparation tasks may appear in the WorkPlan, but `WorkEntryReadiness@Context` remains governed by A.15.5. | The plan says what should be prepared; it does not decide readiness for work entry by itself. |
+| CC-A15.2-11 | Evidence, assurance, gate, launch-value, and result-measurement claims stay in the patterns that govern those relations. | Evidence-reference notes or requests do not become evidence, assurance, gate passage, or result measurement. An A.15.5 readiness result and `GateDecision=pass` alone establish neither an A.2.8.PER permission relation nor a Work occurrence. |
+| CC-A15.2-12 | Planned preparation tasks may appear in the WorkPlan, but A.15.5 governs the local readiness criterion and result. | The plan says what should be prepared; it neither performs the preparation nor decides readiness for work entry by itself. |
 

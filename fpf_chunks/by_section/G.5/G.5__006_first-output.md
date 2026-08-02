@@ -6,12 +6,12 @@ section_id: "G.5:0.4"
 section_title: "First output"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__006_first-output.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.4 — First output"
-line_start: 98551
-line_end: 98564
+line_start: 98778
+line_end: 98798
 dependencies:
   - "C.11"
   - "C.18"
@@ -52,6 +52,13 @@ keywords:
 ### G.5:0.4 - First output
 
 The first useful output from this dispatcher and registry question is one published selector outcome: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff plan, or one abstain or escalation result, with the outcome kind, any public selected-set label, retained members or handoff content, ordering status when relevant, and basis pins stated in one place.
+
+For an ordinary run over already grounded rows, that selector-facing result content is enough. The basis pins may be direct references to the declared grouping, eligibility, and comparison basis, and the same compact record may carry the DRR/SCR-addressable audit refs required by S3. Do not require a fresh registry build, `CrossingAllowance`, evidence graph, assurance claim, stable public id, separate audit package, or E.24.PUB occurrence unless the current use actually needs that stronger object or claim.
+
+
+
+Here “published selector outcome” first means complete selector-facing result content and, when needed, a stable public designator. It is not evidence that selection Work or an actual `Select` application occurred, and it is not an E.24.PUB availability occurrence. Claim actual publication only through the exact selected C.2.1 episteme edition, audience declaration, bounded-use declaration, publication form, presentation carrier, and obtaining `EpistemePublicationRelation`; rendering or uploading Work remains another occurrence.
+
 
 If that first output still cannot be written honestly, the current publication result is not finished `G.5` publication yet.
 

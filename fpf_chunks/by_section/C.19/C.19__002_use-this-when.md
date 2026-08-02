@@ -6,13 +6,14 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0 — Use this when"
-line_start: 49579
-line_end: 49585
+line_start: 49443
+line_end: 49449
 dependencies:
+  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -20,26 +21,24 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.22.PFR"
   - "C.24"
   - "C.28"
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
-  - "DecisionSubject clarification"
-  - "EmitterPolicy"
-  - "InsertionPolicy"
-  - "dominance default routing"
+  - "already-live candidate pool"
+  - "change trigger"
   - "explore-exploit"
+  - "governing lens"
   - "keep frontier"
-  - "lens id"
-  - "live candidate pool"
   - "narrow to subset"
   - "pool-policy result"
-  - "reroute"
   - "sunset line"
   - "widen"
 ---
@@ -47,7 +46,7 @@ keywords:
 ### C.19:0 - Use this when
 
 - several candidate lines, family regions, or frontier segments remain live under one declared exploration and exploitation policy and the question is now policy over that pool rather than one more local choice result
-- the next result should say how the pool will be treated next: `widen`, `keep frontier`, `narrow to subset`, or `sunset line`
+- the next result should say whether to widen, keep the frontier, narrow to a subset, or sunset a line
 - if the question is no longer pool policy, the C.19 use closes by naming the next governing pattern and the reason that pattern now applies
 - the governing lens or policy state must be explicit rather than inferred from vague exploration language
 

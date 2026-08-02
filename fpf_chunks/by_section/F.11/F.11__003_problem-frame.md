@@ -6,12 +6,12 @@ section_id: "F.11:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__003_problem-frame.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:2 — Problem frame"
-line_start: 92325
-line_end: 92333
+line_start: 92531
+line_end: 92539
 dependencies:
   - "A.15"
   - "A.15.1"

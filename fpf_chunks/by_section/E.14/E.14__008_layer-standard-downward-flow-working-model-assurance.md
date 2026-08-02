@@ -6,12 +6,12 @@ section_id: "E.14:5"
 section_title: "Layer Standard & Downward Flow (Working‑Model → Assurance)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__008_layer-standard-downward-flow-working-model-assurance.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:5 — Layer Standard & Downward Flow (Working‑Model → Assurance)"
-line_start: 77707
-line_end: 77772
+line_start: 77815
+line_end: 77882
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -76,11 +76,13 @@ This section defines **what each layer is for**, **what it guarantees**, and **h
 
 *(Rationale: constructive assurance makes the facts and identity tests behind ordinary part-whole talk inspectable; it does not substitute an author narrative for those facts.)*
 
-#### E.14:5.5 - Assurance‑4: Empirical Validation (from claims to observed world)
+#### E.14:5.5 - Assurance-4: Empirical Validation (from claims to observed world)
 
-**Purpose.** Record when and where a Working-Model claim meets reality.
-**Guarantee.** Every empirical binding names a **`U.BoundedContext`**, a **target claim/scope**, and a **timespan**; **staleness/refresh** are managed per context policy.
-**Deliverable.** An evidence-use relation or provenance/evidence pointer anchored into the Evidence-Provenance chain; it names the target claim, scope, bounded context, timespan, and provenance anchors. Empirical Validation contributes **LA** (raises empirical **R** and constrains **G** to its validated envelope).
+**Purpose.** Make the empirical basis and bounded admissible use of one Working-Model claim inspectable without turning evidence, provenance, or an assurance record into the subject result.
+
+**Guarantee.** Every empirical assurance use names the exact target claim, `U.ClaimScope`, qualification window, and direct result owner. When the claim depends on evaluation or measurement, it also names the exact dated Work, performer `U.System`, obtaining `U.RoleAssignment`, selected `U.Method`, any separately relied-on `U.MethodDescription`, actual direct participants or A.6.1 bindings, and the domain-local result plus its C.2.1 result episteme. A.10 supplies the exact evidence-provenance path and bounded reliance disposition; B.3 supplies any assurance claim. Those objects can support or qualify the Working-Model claim but create neither the subject fact nor one another.
+
+**Deliverable.** Keep the ordinary Working-Model sentence first. Beneath it, expose only the exact result, work, provenance, currentness, and assurance relations that the current use consumes. Intended evaluation remains in `U.WorkPlan` until dated Work occurs. If a claim that evaluation Work first constituted the result episteme is separately current, A.15.PROD alone recovers that local entity-identity inception claim; no universal work-result, evidence-result, or production relation is implied. Expiry, evidence ageing, or changed source, method, calibration, result, qualification window, provenance, or assurance basis ends only the reliance that consumes that support and requires its direct owner to be re-evaluated. In B.3 terms Empirical Validation contributes on the LA shoulder; B.3 alone computes any effect on reliability R or claim scope G, and G cannot extend beyond the exact supported scope and qualification window.
 
 #### E.14:5.6 - The downward grounding for a single Working-Model statement
 
@@ -89,7 +91,7 @@ Consider a Working‑Model arrow **A –Component‑of→ B**:
 1. **Mapping** shows that the words *A* and *B* are the chosen labels for their kinds; it records background source labels without making them displayed Working-Model names.
 2. **Logical** confirms that **Component‑of** in the Working-Model text means the **structural reading** with its ordinary mereological expectations; if the Working-Model text used *Member‑of* instead, Logical would similarly certify the intended reading and its boundaries.
 3. **Constructive** links the published assertion to one current C.2.1 trace episteme that reports the exact participants, direct relation occurrences, applicable construction rule, and identity or reidentification conditions in a `sum`, `set`, or `slice` form. The author declares `validationMode=axiomatic` as the assurance posture. The direct relation and identity tests remain decisive; the trace and mode create neither.
-4. **Empirical Validation** records the **evidence pointer** and scope that make the claim auditable within its `U.BoundedContext` (required for *postulate*; optional reinforcement for other stances).
+4. **Empirical Validation** names the exact empirical claim and scope, the domain-local result and result episteme when current, the dated evaluation or measurement Work and actual bindings required by that result's direct owner, its qualification window, the A.10 evidence-provenance path, and any separately current B.3 assurance claim. Those objects support this bounded use; they do not create the result or make the structural relation obtain.
 
 Together, these assurance shoulders and empirical evidence-use relation **ground the human arrow without leaking their machinery upward**. The Working‑Model remains simple; the Assurance stack carries the proof.
 

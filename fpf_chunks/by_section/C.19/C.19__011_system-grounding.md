@@ -6,13 +6,14 @@ section_id: "C.19:5.1"
 section_title: "System grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__011_system-grounding.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:5.1 — System grounding"
-line_start: 49880
-line_end: 49891
+line_start: 49723
+line_end: 49734
 dependencies:
+  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -20,26 +21,24 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.22.PFR"
   - "C.24"
   - "C.28"
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
-  - "DecisionSubject clarification"
-  - "EmitterPolicy"
-  - "InsertionPolicy"
-  - "dominance default routing"
+  - "already-live candidate pool"
+  - "change trigger"
   - "explore-exploit"
+  - "governing lens"
   - "keep frontier"
-  - "lens id"
-  - "live candidate pool"
   - "narrow to subset"
   - "pool-policy result"
-  - "reroute"
   - "sunset line"
   - "widen"
 ---
@@ -50,7 +49,7 @@ A product-search or architecture-search team often keeps several family regions 
 
 #### C.19:5.2 - Episteme grounding
 
-A SoTA pack often compares traditions that stay non-dominated for different reasons: one clears current evidence quality, one keeps broader transfer value, one preserves family coverage. The admissible `C.19` result is then often `keep frontier` or `narrow to subset`, not one fake scalar champion.
+A SoTA pack often compares traditions that stay non-dominated for different reasons: one clears current evidence quality, one keeps broader transfer value, one preserves family coverage. The admissible `C.19` result is then often `keep_frontier` or `narrow_to_subset`, not one fake scalar champion.
 
 #### C.19:5.3 - Collective and contextual grounding
 

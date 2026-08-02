@@ -6,12 +6,12 @@ section_id: "E.4.PFR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:5 — Archetypal Grounding"
-line_start: 70827
-line_end: 70864
+line_start: 70918
+line_end: 70955
 dependencies:
   - "A.10"
   - "C.33"

@@ -6,7 +6,7 @@ section_id: "A.2.9:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__003_use-this-when.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:0 — Use This When"
@@ -21,6 +21,7 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "U.Method"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -45,13 +46,13 @@ Use this pattern when a communicative event must be modeled as performed work: a
 Typical moments:
 
 - a release, gate, or work step depends on whether a named approval or authorization was performed;
-- a publication, notice, or revocation changes status in a bounded context;
+- a publication, notice, or revocation may have an institutional effect only under an exact current policy or procedure, while the communicative act and any resulting effect retain distinct intervals;
 - a commitment must cite the act that instituted it, rather than only pointing at a document;
 - a message, ticket, signed record, or API call log is being mistaken for the act itself.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one actual speech-act occurrence admitted under the kind `U.SpeechAct`: a communicative Work individual performed by an admitted accountable `U.System` under an exact obtaining `U.RoleAssignment` in a bounded context. The system performs the act; the assignment supplies the role and authority ground. A `SpeechActRecord`, the utterance-description episteme, and the file, message, ticket, or log carrier are separate objects.
+**Primary EntityOfConcern.** The EntityOfConcern is one actual speech-act occurrence admitted under the kind `U.SpeechAct`: communicative Work performed by an admitted accountable `U.System` under an exact obtaining `U.RoleAssignment` and enacting an exact `U.Method`. The assignment independently supplies the role, role-taxonomy episteme, effective reference scheme, authority ground, and covering extent; it does not act. Speech-act recognition separately uses an exact recognition-taxonomy episteme and effective reference scheme, plus a current policy or procedure only when classification or institutional force depends on it. A `SpeechActRecord`, MethodDescription, utterance-description episteme, channel, and file, message, ticket, or log carrier are separate objects.
 
-**First useful move.** Name the actual occurrence, performer system, and assignment under which it acts, then name the judgement context, time window, act type, what the utterance is about, and—only when current—the intended institutional target and independently established effect. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about that occurrence; add utterance or carrier references only when observation, audit, or source return needs them.
+**First useful move.** Name the actual occurrence, performer system, exact obtaining assignment, and exact enacted Method. Recover the assignment's role taxonomy and scheme; then name the act's time window, recognition-taxonomy episteme and effective scheme, satisfied act type, optional channel, and any current policy or procedure. Keep the optional MethodDescription, utterance subject, policy-selected institutional target, and independently established effect separate. Create a `SpeechActRecord` only when a receiving use needs a persistent claim about that occurrence; add utterance or carrier references only when observation, audit, or source return needs them.
 
 **Not this pattern when.** If the question is only what a document says, use A.7/C.2/E.17. If the question is who is accountable under a deontic relation, use A.2.8. If the question is evidence, use A.10/G.6. If the work has no communicative effect, use A.15.1 directly.
 

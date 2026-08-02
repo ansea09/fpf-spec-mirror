@@ -6,13 +6,14 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 49896
-line_end: 49913
+line_start: 49739
+line_end: 49758
 dependencies:
+  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -20,45 +21,45 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.22.PFR"
   - "C.24"
   - "C.28"
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.23"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
-  - "DecisionSubject clarification"
-  - "EmitterPolicy"
-  - "InsertionPolicy"
-  - "dominance default routing"
+  - "already-live candidate pool"
+  - "change trigger"
   - "explore-exploit"
+  - "governing lens"
   - "keep frontier"
-  - "lens id"
-  - "live candidate pool"
   - "narrow to subset"
   - "pool-policy result"
-  - "reroute"
   - "sunset line"
   - "widen"
 ---
 
 ### C.19:7 - Conformance Checklist
-- **C19-1** Each C.18 generation or archive-use record **SHALL** cite `U.EmitterPolicyRef` (policy id + params) **and the active `InsertionPolicyRef` and `dedup_threshold` when not inherited**.
-- **C19-2** The characteristic set and indicators used for dominance **MUST** be declared; eligibility conditions applied first. *(References to C.18 generator operators are descriptive only; LOG exports no Γ.)*
+- **C19-1** When a C.18 generation or archive record relies on a named C.19 `EmitterPolicy`, it **SHALL** cite that profile in `emitterPolicyRef?`. If the active insertion policy is not inherited, record it in `insertionPolicyRef?`. If the deduplication threshold is not inherited, record scalar `dedupThreshold?` together with its `deduplicationBasisRef?` and `deduplicationUnit?`; never encode that scalar as a reference. A record with no such policy dependence need not fabricate these fields.
+- **C19-2** The characteristic set and indicators used for dominance **MUST** be declared and eligibility conditions applied first. If use-value participates in current `Q`, the record cites the C.16.Q `QS.UseValue` objective head in that Q; otherwise it states that the criterion remains outside Q. *(References to C.18 generator operators are descriptive only; LOG exports no Γ.)*
 - **C19-3** If a lens is used, its id MUST be recorded; do not label scalarized top-1 as "frontier".
 - **C19-4** Promotion of `Surprise` or `Illumination` into dominance MUST be explicit in policy.
-- **C19-5** USM and role-state-relation gates apply: policy actions SHALL operate within the Context's scope and enactable `RoleStateRelation@BoundedContext` states.
-- **C19-6** Each selection lens **MUST** implement and document the pipeline: `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. Any **promotion** of `Surprise` or `Illumination` into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
-- **C19-7 (LEX-AUTH trigger).** Any change to `EmitterPolicy` defaults that affects domain-family quotas or samplers (HET-FIRST), or any change to `DescriptorMap` family coordinates, `DistanceDef`, or the `δ_family` threshold MUST be authored via **E.15 LEX-AUTH**. Any resulting **LAT** lives in the relevant LAT and evidence authority; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy and card ids in SCR.
+- **C19-5** A pool-policy record creates no role state, assignment, permission, plan, budget, or work occurrence. When implementation follows, cite the independently obtaining context/scope and role or assignment gates plus the direct planning or Work governor; C.19 establishes none of them.
+- **C19-6** Each pool-treatment lens **MUST** document the pipeline `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. Any promotion of `Surprise` or `Illumination` into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
+- **C19-7 (LEX-AUTH trigger).** When a context adopts or changes an `EmitterPolicy` profile that includes domain-family quotas or a sampler, or changes `DescriptorMap` family coordinates, `DistanceDef`, or a `δ_family` threshold, author that context-local change via **E.15 LEX-AUTH**. C.19 establishes no default heterogeneity quota or sampler. Any resulting **LAT** lives in the relevant LAT and evidence authority; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy and card ids in SCR.
 
-- **C19-8**  When the Heterogeneity-first lens is used, provenance MUST include: (i) the family-quota vector (including the default triad quota k), (ii) the subFamilyDef id (from F1-Card) if sub-family quotas apply, (iii) the sampler class, seed, and policy id.
-- **C19-9** When `C.19` returns one pool-policy result, that result **MUST** identify the still-live pool or family scope, the governing lens or policy id, and the current treatment (`widen`, `keep frontier`, `narrow to subset`, or `sunset line`).
+- **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.
+- **C19-9** A `PoolPolicyResult` **MUST** identify `livePool`, `governingLens`, `changeTrigger`, and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`; `lens` and space-separated treatment spellings are not alternate record fields or values.
 - **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** name the governing pattern rather than restate `C.11`, `C.24`, or `G.5`.
-- **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name the `GoalSpaceExpansionPolicyRef` when one governs widening and the `LearningProgressSignal`, `CompetenceModelRef`, or `GoalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
+- **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name `goalSpaceExpansionPolicyRef` when one governs widening and the `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If an exploration and exploitation policy collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior data or logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
-- **C19-13** If a pool-policy result concerns loop, agent-harness, workflow, or DPF-seed candidates, the result names the still-live pool, governing lens, current treatment, and change trigger, and names `E.23`, `G.5`, the `A.15` family, or `G.11` as the next owner when improvement, publication, work, or refresh becomes current.
+- **C19-13** If a pool-policy record concerns loop, agent-harness, workflow, or DPF-seed candidates, it names the still-live pool, governing lens, current treatment, and change trigger. A need for candidate generation, archive update, or front recomputation exits to `C.18` with desired policy values and a reason only; improvement, publication, choice, work, or refresh exits to `E.23`, `G.5`, `C.11`, the A.15 family, or `G.11`.
+- **C19-14** A pool-policy record, its evidence, and its treatment constitute neither an actual Problem nor `ProblematicForRelation`, improvement result, work result, project Work or parthood, `ChoiceResult`, public selected set, work permission, nor refreshed edition.
+- **C19-15** If graduation, scaling, or widening relies on assurance, `assuranceResultRef?` **MUST** cite the exact B.3 assurance result, and `changeTrigger` **MUST** name the satisfied condition and the bounded scope that result supports. A C.19 policy threshold or label does not create that assurance result.
 
 
 

@@ -6,12 +6,12 @@ section_id: "A.6.A:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__013_relations.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:12 — Relations"
-line_start: 18037
-line_end: 18059
+line_start: 18075
+line_end: 18097
 dependencies:
   - "A.15"
   - "A.16"
@@ -32,6 +32,7 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "E.17"
+  - "E.17.0"
   - "E.18"
   - "F.9"
 keywords:
@@ -46,7 +47,7 @@ keywords:
 ### A.6.A:12 - Relations
 
 * **Specialises:** **A.6.P** as an RPR pattern for overloaded affordance-like and action-first language.
-* **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17** and **E.18** for viewpoint publication.
+* **Builds on:** **A.3** and **A.7** for enactor discipline and EntityOfConcern and Description-episteme plus publication and carrier separation; **A.15** for keeping invitation distinct from enactment; **A.6.B** for boundary claim classification; **E.17.0**, **E.17**, and **E.18** for viewpoint reference resolution, independent view conformance, and viewpoint publication.
 * **Works alongside:** **C.16.Q** for evaluative language; the two are siblings, not substitutes.
 * **Coordinates with:** **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves before post-threshold repair, and retreat when a published invitation must be reopened; use **A.16.0** only when lineage, branch, loss, or responsibility-transfer history itself must be published as an explicit trajectory account; **B.5.2.0** for probe-question cases that are still prompt-shaped; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance.
 * **Must not replace:** **C.2.3** as the single governing pattern for **F**.

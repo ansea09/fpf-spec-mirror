@@ -6,12 +6,12 @@ section_id: "C.3.2:6"
 section_title: "One Candidate Judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__008_one-candidate-judgment.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:6 — One Candidate Judgment"
-line_start: 45011
-line_end: 45029
+line_start: 44824
+line_end: 44842
 dependencies:
   - "A.14"
   - "A.2.6"

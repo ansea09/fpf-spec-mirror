@@ -6,12 +6,12 @@ section_id: "E.23:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__010_consequences.md"
-commit_sha: "1eb56cd0cfd6dccad65143e03d28509373bd8dd5"
+commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:9 — Consequences"
-line_start: 86680
-line_end: 86688
+line_start: 86884
+line_end: 86892
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -32,8 +32,8 @@ keywords:
 
 | Consequence | Benefit | Cost |
 |---|---|---|
-| Repeated improvement is governed by one explicit improvement method. | FPF no longer relies on hidden authoring habits. | A complete loop record names its object and evaluation. |
-| Row discharge is separated from evaluated quality change. | Improvement claims become replayable. | The claim remains inadmissible until the changed object is re-evaluated. |
+| Repeated improvement is governed by one explicit improvement method and one current unfolding structure, while every performed pass retains its own dated Work identity. | FPF no longer relies on hidden authoring habits or one fictitious enduring loop occurrence. | A complete loop record names its object, evaluation, structure, independently identified Work and result routes, and boundaries. |
+| Row discharge is separated from evaluated quality change. | Improvement claims become replayable. | The claim remains inadmissible until the changed object is re-evaluated through a separately identified Work and result. |
 | General and specialized loops are comparable. | BLP can be applied without craft folklore. | Comparison is admitted with explicit cost, risk, and characteristic-space fit. |
 | Exceptional stop remains local. | All-`5` or front-reaching closure no longer freezes future development. | The closure record includes its reopen conditions. |
 
