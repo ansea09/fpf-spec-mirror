@@ -6,12 +6,12 @@ section_id: "F.17:10"
 section_title: "Static conformance rules for a UTS"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__012_static-conformance-rules-for-a-uts.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:10 — Static conformance rules for a UTS"
-line_start: 94761
-line_end: 94779
+line_start: 95454
+line_end: 95475
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,26 +47,28 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:10 - Static conformance rules for a UTS
 
-Use these checks before citing a UTS row outside its local sheet.
+Use these checks before citing a row outside its immediate sheet.
 
 | Rule | Check |
 | --- | --- |
-| UTS-SCR-01 | Every row has row id, unification-thread id, block, governed value, governed value kind, direct pattern, Tech name, Plain name, scheme-based sense-cell refs, row rationale, admissible use, blocked use, row edition, and currentness condition. |
-| UTS-SCR-02 | A row names one governed term decision. If the wording hides multiple typed values, split the row or cite the direct pattern that keeps them distinct. |
-| UTS-SCR-03 | Every local sense resolves to one exact by-value reference scheme, local expression, and local-sense claim; no context holon is required or inferred. |
-| UTS-SCR-04 | A row that proposes use between different semantic-context projections cites an obtaining F.9 Bridge for the exact endpoint cells and editions, then separately cites an affirmative C.2.1 claim for the row's exact use, direction, correspondence rule, and loss tolerance; current reliance follows the exact A.10 or B.3 branch. Apply four probes: same scheme plus same `LocalSenseClaim` plus a different expression routes to designation and no Bridge; same scheme plus a different `LocalSenseClaim` opens the F.9 question and, for a named row use, the separate claim-and-reliance branch; a different scheme opens only the Bridge question and never establishes one; no current correspondence use creates no Bridge or use claim regardless of scheme count. A negative bounded-use claim rejects the exact named row use; a non-passing reliance result stops or narrows the current use according to its exact A.10 or B.3 disposition; neither changes whether the Bridge obtains or how it is identified. |
-| UTS-SCR-05 | The Tech and Plain names satisfy F.5 and F.18; spelling or a familiar context label supplies neither local-sense identity nor a Bridge. |
-| UTS-SCR-06 | A role row names `U.Role` or a governed role value; it does not treat RoleDescription, RoleAssignment, capability, method, or work as the same value. |
-| UTS-SCR-07 | A status row names the status-family or status-window value governed by F.10 or A.19.SPR; it does not create a role. |
-| UTS-SCR-08 | Evidence, assurance, source, publication, and description-use rows cite their direct patterns and do not become generic evidence roles. |
-| UTS-SCR-09 | Blocks remain didactic. No subtype, part-of, role, status, or priority claim follows from block placement. |
-| UTS-SCR-10 | The sheet states the scheme and reader breadth actually tested. A narrow row does not claim universal or corpus-wide reuse. |
+| UTS-SCR-01 | The row resolves to one C.2.1 row episteme whose EntityOfConcern is one exact governed value; it points separately to that value's kind, direct pattern, and exact F.18 naming-settlement episteme. |
+| UTS-SCR-02 | One row carries one naming decision and one governed value/use branch; mixed values or independently different uses are split. |
+| UTS-SCR-03 | Every local sense resolves to one exact by-value ReferenceScheme, local expression, and local-sense claim; id, description, source publication, card, or basis relation replaces none of them. |
+| UTS-SCR-04 | F.14 was applied before the current card, cell, and row; the light dispositions—no durable name, existing designation, alias, local expression, direct-pattern name, and admitted row reuse—were tested first. |
+| UTS-SCR-05 | The Tech and Plain designation expressions agree with the exact current F.18 NameCard without becoming the governed value; aliases and rejected candidates remain separate. |
+| UTS-SCR-06 | Any cited `LocalSenseBasisRelation` has only its exact cell and basis episteme as participants; source-unit and publication facts remain qualifiers or neighboring objects. |
+| UTS-SCR-07 | Apply all four Bridge probes: same scheme plus same `LocalSenseClaim` plus another expression is a designation question and adds no Bridge; same scheme plus a different claim opens F.9 and, only for a named row use, the separate use-claim/reliance branch; a different scheme opens only the Bridge question and establishes none; no current correspondence use creates no Bridge or use claim regardless of scheme count. |
+| UTS-SCR-08 | Any cited F.9 Bridge has exact endpoint cells and editions, an applicable relation-semantic profile, a true kind-defined predicate, and every required dependency. The separate affirmative C.2.1 use claim states direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance. A negative use claim rejects that exact row use; non-passing reliance stops or narrows it; neither negates or reidentifies an otherwise obtaining Bridge. |
+| UTS-SCR-09 | A role row does not identify RoleDescription, RoleAssignment, capability, method, or Work with the governed role value; a status row does not turn a status family, value, or window into a role. |
+| UTS-SCR-10 | Evidence, assurance, source, publication, description, relation, slot, interface, authority, and equivalence claims remain under their direct owners rather than becoming row truth. |
+| UTS-SCR-11 | Row id, block, table position, source title, file, carrier, suffix, and filled-cell count create neither value identity nor row adequacy. |
+| UTS-SCR-12 | The row states the exact scheme, receiving use, and reader breadth actually checked; a narrow row claims neither universal nor corpus-wide reuse. |
+| UTS-SCR-13 | C.2.1 row succession and E.24.PUB availability are independently recovered; row, edition relation, publication occurrence, form, carrier, rendering Work, and upload Work stay distinct. |
 
-Passing the row schema is not the value criterion. A row succeeds only when its intended readers can recover the correct governed value and direct pattern for the declared use and avoid the blocked use. Row count, filled-cell count, label uniformity, block neatness, and stable identifiers are maintenance aids, not evidence that the term decision is useful or semantically adequate.
+Passing the schema is not the value criterion. A row succeeds only when intended readers can recover the correct naming decision, governed value, and direct pattern for the declared use while avoiding the blocked use. Row count, filled-cell count, label uniformity, block neatness, and stable identifiers are maintenance aids only.
 

@@ -6,12 +6,12 @@ section_id: "C.3.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.A/C.3.A__011_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.A — Typed Guard Macros for Kinds + USM (Annex)"
   - "C.3.A:10 — Rationale"
-line_start: 45784
-line_end: 46003
+line_start: 45941
+line_end: 46160
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -203,7 +203,7 @@ ESG MUST NOT widen G to hide incompatibility, treat a label as a candidate judgm
 
 ##### C.3.A:C.2 Method–Work obligations (normative)
 
-This Method–Work slice is conditional; it is not a definition that makes every actual change agentic, capability-held, planned, method-mediated, or Work. Open its capability/method/WorkPlan entry checks only when those objects and an A.15.1 Work use are current. A natural, spontaneous, formal, jointly caused, or non-separable `U.Transformation` remains under A.3/A.3.4 and does not acquire a fictive performer, role assignment, method, capability, plan, or Work to satisfy this guard. A broader scale-free-agency or Work decision remains with A.13, C.9, and A.15.1; this annex neither settles nor forbids it. Reflexive cases require separately grounded acting and affected positions, while joint or non-separable cases keep their direct dynamics, interaction, or causality governors rather than forcing one arbitrary actor-target split.
+This Method–Work slice is conditional; it is not a definition that makes every actual change agentic, capability-held, planned, method-mediated, or Work. Open its capability/method/WorkPlan entry checks only when those objects and an A.15.1 Work use are current. A natural, spontaneous, formal, jointly caused, or non-separable `U.Transformation` remains under A.3/A.3.4 and does not acquire a fictive performer, role assignment, method, capability, plan, or Work to satisfy this guard. A broader scale-free-agency or Work decision remains with A.13 and A.15.1; planned C.9 may later consolidate an agency-characteristic profile but supplies no current governing force. This annex neither settles nor forbids that decision. Reflexive cases require separately grounded acting and affected positions, while joint or non-separable cases keep their direct dynamics, interaction, or causality governors rather than forcing one arbitrary actor-target split.
 
 When the Method–Work use is current, it has two different boundaries.
 

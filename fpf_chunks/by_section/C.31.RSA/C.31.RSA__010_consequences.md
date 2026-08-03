@@ -6,12 +6,12 @@ section_id: "C.31.RSA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__010_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:9 — Consequences"
-line_start: 63613
-line_end: 63627
+line_start: 63856
+line_end: 63870
 dependencies:
   - "A.10"
   - "A.19"

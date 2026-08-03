@@ -6,13 +6,18 @@ section_id: "E.2:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2/E.2__009_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.2 — The Eleven Pillars"
   - "E.2:8 — Relations"
-line_start: 69102
-line_end: 69106
+line_start: 69345
+line_end: 69349
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "B.1.6"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.5"
@@ -36,6 +41,6 @@ keywords:
 
 ### E.2:8 - Relations
 * **Instantiates pillars:** P‑10, P‑11, P‑7, P‑1.
-* **Depends on:** **G.5/G.9** (admission/comparator/selector & parity harness), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E/E‑LOG), **F.7/F.9** (Bridges, CL/Φ/Ψ).
+* **Depends on:** **G.5/G.9** (admission/comparator/selector and parity harness), **G.11** (refresh telemetry), **A.15.1**, **A.15.2**, **B.1.6**, **C.16**, and **A.10** for dated work, resource aggregation, measurement, cost, and provenance, **C.18** (NQD-CAL), **C.19** (E/E-LOG), and **F.7/F.9** (Bridges, CL/Φ/Ψ). Planned **C.5** (Resrc-CAL) may later consolidate resource-use and work-cost guidance but supplies no current governing semantics.
 * **Constrained by:** **E.5** Guard‑Rails (DevOps Lexical Firewall; Notational Independence; Cross‑Disciplinary Bias Audit) and **E.3** precedence.
 

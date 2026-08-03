@@ -6,21 +6,19 @@ section_id: "E.24.PUB:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__011_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:9 — Consequences"
-line_start: 88132
-line_end: 88146
+line_start: 88710
+line_end: 88715
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,21 +28,15 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
 ### E.24.PUB:9 - Consequences
 
-Positive consequences:
+The main gain is local repair. A stale carrier can be replaced without pretending that the claims changed. A revised claim can create another episteme edition without pretending that the audience or form changed. A narrower audience or use can create another publication occurrence while preserving the edition.
 
-- Subject patterns can stay centered on their EoC while still guarding against publication-form overread.
-- Ontic descriptions become clearer because their claims are about identity, slot relation, values, invariants, and use boundaries.
-- Publication variants can multiply without multiplying ontology.
-- `E.24` stays compact because publication discipline sits beside it, not inside it.
-
-Costs:
-
-- Authors must name the ontic, ontic-description episteme, publication, publication form, and bounded use explicitly when publication and ontology are easy to confuse.
-- Some familiar phrases such as "the diagram shows the architecture" need a more careful interpretation: the diagram publishes an architecture description, and the description concerns an `ArchitectureOf@Context` claim or selected `U.Structure` refs for the described holon in context.
-- Generic semio warnings must be moved out of subject spines.
+The cost is that load-bearing publication claims need five identified participants and two supporting relations. Progressive explicitness contains that cost: ordinary users state one sentence; only disputed availability, expression, or bearing opens the complete relation detail.
 

@@ -6,21 +6,19 @@ section_id: "E.24.PUB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:2 — Problem"
-line_start: 87972
-line_end: 87981
+line_start: 88500
+line_end: 88511
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,16 +28,21 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
 ### E.24.PUB:2 - Problem
 
-Without this discipline:
+The practical problem is change localization. When a reader sees only “the diagram was updated” or “the model was published”, five materially different changes are hidden:
 
-1. **Publication form displaces the subject.** Users start reasoning about a card or diagram when the real EoC is an ontic such as `U.Episteme`, `U.Structure`, `U.CharacteristicSpace`, or `U.BoundedContext`.
-2. **Subject patterns become semio-heavy.** A pattern about a subject begins with long warnings about what descriptions are not, while identity, slots, invariants, and first-use moves come late.
-3. **Descriptions become authority by appearance.** A source row, standard, table, or pattern section is treated as governing because it looks formal.
-4. **Publication variants become duplicate ontology.** Several views or forms of one ontic description are treated as several different ontics.
-5. **Generic semio guards repeat everywhere.** Each subject pattern copies the same catalogue of blocked neighboring EoCs instead of using the governing semio patterns.
+1. the selected episteme edition may have changed because its claim content, EntityOfConcern, or effective reference scheme changed;
+2. another episteme edition may have been constructed, or the exact episteme may conform to a different viewpoint edition;
+3. the publication form or C.29 representation may have changed while the claims stayed the same;
+4. the presentation carrier or its availability may have changed;
+5. the declared audience or bounded use may have changed while the same edition, form, and carrier remained.
+
+Without the distinction, a receiving work occurrence cannot identify the smallest object or relation to inspect, revise, republish, or stop relying on.
 

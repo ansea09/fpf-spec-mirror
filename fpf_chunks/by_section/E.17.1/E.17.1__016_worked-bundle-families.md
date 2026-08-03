@@ -6,27 +6,30 @@ section_id: "E.17.1:15"
 section_title: "Worked Bundle Families"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__016_worked-bundle-families.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:15 — Worked Bundle Families"
-line_start: 79075
-line_end: 79114
+line_start: 79728
+line_end: 79767
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -40,37 +43,37 @@ keywords:
 
 #### E.17.1:15.1 - TEVB engineering family
 
-A TEVB engineering bundle for holons may include viewpoints such as:
+A TEVB engineering bundle for holons may include exact `U.ViewpointRef` members such as:
 
-- `VP.Functional`,
-- `VP.Procedural`,
-- `VP.AllocationResponsibility`,
-- `VP.ModuleInterface`.
+- `ref(VP.Functional)`,
+- `ref(VP.Procedural)`,
+- `ref(VP.AllocationResponsibility)`,
+- `ref(VP.ModuleInterface)`.
 
-The important point is not the vocabulary alone. The bundle states that these viewpoints are intended to recur together for one engineering family of concerns. A later description family then imports that engineering bundle rather than re-inventing a local list of "roughly similar" viewpoints.
+Each listed reference resolves the exact viewpoint episteme P designated by the `VP.*` token inside `ref(...)`. The important point is not the vocabulary alone. The bundle states that these viewpoints are intended to recur together for one engineering family of concerns. A later description family then imports that exact engineering bundle edition and its needed references rather than re-inventing a local list of "roughly similar" viewpoints.
 
 #### E.17.1:15.2 - Governance and risk family
 
-A governance bundle may group viewpoints such as:
+A governance bundle may group exact `U.ViewpointRef` members such as:
 
-- `VP.Risk`,
-- `VP.Control`,
-- `VP.Compliance`,
-- `VP.Operations`.
+- `ref(VP.Risk)`,
+- `ref(VP.Control)`,
+- `ref(VP.Compliance)`,
+- `ref(VP.Operations)`.
 
-This bundle is valuable precisely because the four viewpoints recur together but are not interchangeable. Keeping them as one family id makes the reuse visible while still preserving the distinct member meanings.
+Each listed reference resolves the exact viewpoint episteme P designated by the `VP.*` token inside `ref(...)`. This bundle is valuable precisely because the four viewpoints recur together but are not interchangeable. Keeping their exact references in one family edition makes the reuse visible while preserving each member's distinct meaning.
 
 #### E.17.1:15.3 - Research-method family
 
-A research-method bundle may include viewpoints such as:
+A research-method bundle may include exact `U.ViewpointRef` members such as:
 
-- `VP.Theory`,
-- `VP.Experiment`,
-- `VP.Inference`,
-- `VP.Limitations`,
-- and, where appropriate, `VP.Reproducibility`.
+- `ref(VP.Theory)`,
+- `ref(VP.Experiment)`,
+- `ref(VP.Inference)`,
+- `ref(VP.Limitations)`,
+- and, where appropriate, `ref(VP.Reproducibility)`.
 
-A local inquiry note might import only three of these viewpoints, but the import remains legible because the omitted ones still belong to a reviewed family rather than disappearing into ad hoc prose.
+Each listed reference resolves the exact viewpoint episteme P designated by the `VP.*` token inside `ref(...)`. A local inquiry note might import only three exact references, but the import remains legible because the omitted members still belong to one reviewed source bundle edition rather than disappearing into ad hoc prose.
 
 #### E.17.1:15.4 - Cross-family description relation positions
 

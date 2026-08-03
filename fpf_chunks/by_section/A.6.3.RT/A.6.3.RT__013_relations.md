@@ -6,15 +6,17 @@ section_id: "A.6.3.RT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:12 — Relations"
-line_start: 14794
-line_end: 14799
+line_start: 14828
+line_end: 14833
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.3.3"
@@ -27,6 +29,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
@@ -44,7 +47,7 @@ keywords:
 
 ### A.6.3.RT:12 - Relations
 
-- **Builds on:** `A.6.3`, `A.6.2`, `A.7`, `E.10.D2`, `C.2.7`, `E.17.0`, `E.17`, `F.9`, `F.18`
+- **Builds on:** `C.2.1` for exact endpoint and description-episteme identity; `A.6.3` and `A.6.2` for effect-free source-to-receiving construction; `A.1.1` for the exact `BoundedModelUseStructure` used only by the later-specific `...@Context` occurrence; `A.15.1` for actual representation-transformation Work; and `A.7`, `E.10.D2`, `C.2.7`, `E.17.0`, `E.17`, `F.9`, and `F.18` at their own triggers.
 - **Coordinates with:** `ConservativeRetextualization`, `A.6.3.NAR Structure-to-Narrative Rendering`, `A.6.3.CSC Controlled Semantic Coarsening`, `ExplanationFaithfulnessProfile`, `E.17.ID.CR ComparativeReviewUnit`, `A.6.4`, `F.9`, `F.9.1`, `E.18`, `A.15`, `A.10`, `B.3`, `B.5.2`, `A.20`, `A.21`, `C.27`, `A.3.3`, explicit decoding-access review
-- **Boundary notes:** textual same-regime rewrites stay with `ConservativeRetextualization`; source-structure-to-sequence narrative renderings apply `A.6.3.NAR`; explanation-facing renderings stay with `ExplanationFaithfulnessProfile`; bounded comparative review cases apply `E.17.ID.CR ComparativeReviewUnit`; EntityOfConcern changes apply `A.6.4`; coarsened source renderings apply `A.6.3.CSC`; bridge, work, evidence, assurance, gate, abductive, temporal, dynamics, and transformation-flow consequences remain bounded by explicit evidence and by the downstream governing pattern for the claim being made.
+- **Boundary notes:** textual same-regime rewrites stay with `ConservativeRetextualization`; source-structure-to-sequence constructions apply `A.6.3.NAR`; narrower-use coarsened constructions apply `A.6.3.CSC`; EntityOfConcern changes apply `A.6.4`; E.17.0 alone establishes `U.View`; E.24.PUB alone governs a publication occurrence, form, carrier, audience, and bounded use; C.29 enters only for a current mathematical representation; bridge, work, grounding, evidence, assurance, gate, temporal, dynamics, and transformation-flow consequences remain with their direct governors.
 

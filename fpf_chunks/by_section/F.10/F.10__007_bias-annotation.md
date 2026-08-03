@@ -6,19 +6,28 @@ section_id: "F.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_bias-annotation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:6 — Bias-Annotation"
-line_start: 92425
-line_end: 92432
+line_start: 93124
+line_end: 93135
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,9 +39,13 @@ keywords:
 
 ### F.10:6 - Bias-Annotation
 
-F.10 is vulnerable to three recurring biases.
+F.10 blocks five recurring biases:
 
-* **Label authority bias.** A familiar status word is treated as source authority. Repair by recovering status target, source, window, and intended use.
-* **Semio-bias.** A visible display, publication face, badge, or label becomes the center of the pattern. Repair by making the status-use relation the `EntityOfConcern`; display and publication questions go to `E.17`, `A.10`, or `E.10.D2`.
-* **Role drift.** A standard, report, dashboard, or requirement is described as having a role. Repair by using status-use, standard-use, requirement-use, evidence-use, or source-use relations; reserve `U.Role` and `U.RoleAssignment` for work-facing holders.
+* **label-authority bias:** familiar wording is treated as source authority;
+* **target-by-status bias:** assigning a value is treated as defining or creating its target;
+* **display/list bias:** visibility, row membership, or dashboard aggregation is treated as application or actual use;
+* **family/bridge explanation bias:** a family edge, shared spelling, row, Card, or Bridge replaces the exact interpretation relation and rule; and
+* **role drift:** an episteme is made a work-facing role holder because it is used as evidence, standard, requirement, or status source.
+
+The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use.
 

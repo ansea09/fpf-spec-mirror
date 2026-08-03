@@ -6,12 +6,12 @@ section_id: "F.14:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__015_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:14 — Relations"
-line_start: 93742
-line_end: 93754
+line_start: 94436
+line_end: 94444
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,14 +45,10 @@ keywords:
 
 ### F.14:14 - Relations
 
-* **A.2.** Governs the work-facing role value; F.14 only prevents unnecessary role-name growth.
-* **A.2.1 and F.6.** Govern assignment and performed-work attribution; F.14 blocks names that hide those relations.
-* **A.2.5.** Governs role state and enactable-state admission; F.14 blocks role-state qualifiers from becoming unexamined new roles.
-* **A.2.7.** Governs role-requirement substitution, incompatibility, qualification, and bundle expressions; F.14 chooses that expression before hybrid-role minting.
-* **F.4 and F.5.** Govern RoleDescription and local naming; F.14 supplies pressure to keep names few.
-* **F.8.** Governs one candidate mint-or-reuse decision; F.14 uses F.8 when a family-level pass leaves a candidate unresolved.
-* **F.9 and F.17.** Govern bridge and public term-sheet reuse; F.14 does not admit cross-context durable names by label alone.
-* **F.10.** Governs status families, status values, windows, and status-use relations; F.14 prevents status-name sprawl.
-* **F.18.** Governs durable naming after value recovery.
-* **A.10, B.3, E.17, and E.10.D2.** Govern evidence, assurance, publication, source, description, and specification-use cases that often arrive with role-like suffixes.
+* **A.2, A.2.1, A.2.5, A.2.7, F.6, and A.15.1** govern roles, assignments, role state, exact role relations, Work attribution, and Work. F.14 only blocks names that hide them.
+* **F.8** owns one candidate's smallest mint-or-reuse disposition after the F.14 stop test.
+* **F.9** owns only an actual relation between exact local senses. Shared spelling and cell presence establish none.
+* **F.17** owns a public term-row episteme after its entry threshold; **F.18** owns a durable naming-settlement NameCard; neither owns the governed value.
+* **C.2.1** owns every persisted NameCard, row, or control-record episteme and `EpistemeEditionRelation`; **E.24.PUB** owns row publication occurrence, expression form, and carrier bearing.
+* **F.10, A.10, B.3, E.10.D2, and direct policy/access/source patterns** own the status, evidence, assurance, description, policy, access, and source claims that often arrive with role-like suffixes.
 

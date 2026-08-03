@@ -6,14 +6,25 @@ section_id: "E.4.DPF.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:12 — Relations"
-line_start: 70812
-line_end: 70821
+line_start: 71175
+line_end: 71185
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
   - "A.19.ECS"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
   - "E.4.PFAD"
@@ -31,16 +43,18 @@ dependencies:
   - "F.18"
   - "G.11"
   - "G.2"
+  - "U.Method"
 keywords:
 ---
 
 ### E.4.DPF.DA:12 - Relations
 
+
 - **Builds on:** `A.19.ECS` for evaluation characteristic-space construction.
 - **Specializes by object:** `E.2.DA` supplies the adjacent form for complete multi-coordinate adequacy evaluation, but this pattern changes the evaluated object from FPF-level object to DPF package edition.
-- **Coordinates with:** `E.4`, `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` for framework family, authoring spine, architecture decisions, relation records, edition dependencies, and package architecture.
-- **Coordinates with:** `G.2` and `G.11` for source packs, source currentness, and refresh.
+- **Coordinates with:** `E.4` for framework family; the exact E.4.DPF authoring `U.Method` and `MethodDescription`; `E.4.PFAD` for architecture decisions; `E.4.PFR` for relation records and edition dependencies; and the separately governed package architecture. Their coordination list and document order identify neither the authoring Method nor the evaluation Method.
+- **Coordinates with:** `C.2.1` for exact framework/result episteme identity and effective ReferenceScheme; `A.2.6` for ClaimScope; `A.1.1`/`A.22` only for an interpretation-changing selected model-use structure; `A.3.1`/`A.3.2` for semantic evaluation Method/description; `A.15.1`, `A.6.1`, `A.2`, and `A.2.1` for evaluator, role assignment, dated assessment Work and application/bindings; `A.10` for evidence use; and `G.2`/`G.11` for source packs, source currentness, and refresh.
 - **Coordinates with:** `E.21`, `E.19`, `E.22`, and `E.23` for individual pattern quality, admission review, evaluation framing, and repeated improvement.
-- **Coordinates with:** `E.11`, `E.17`, `F.18`, `C.33`, `C.34`, and `C.35` for first entry, publication, naming, preservation, correspondence, and produced-carrier admission.
+- **Coordinates with:** `E.24.PUB` for publication occurrence, form, and presentation carrier; and `E.11`, `E.17`, `F.18`, `C.33`, `C.34`, and `C.35` for first entry, publication/access use, naming, preservation, correspondence, and produced-carrier admission.
 - **Exits to:** `E.2.DA` when a DPF package change claims FPF-level Pillar adequacy or proposes Core amendment effects.
 

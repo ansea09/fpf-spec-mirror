@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.36.P.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
-line_start: 68072
-line_end: 68219
+line_start: 68315
+line_end: 68462
 dependencies:
   - "A.1"
   - "A.15"
@@ -196,5 +196,5 @@ Coordinates with: `A.1`, `B.2`, `B.2.P`, `B.2.2`, `B.2.3`, `B.2.4`, `B.2.5`, `A.
 
 ### C.36.P:End
 
-# **Part D - Multi-scale Ethics and Conflict Optimization**
+# Part D - Multi-scale Ethics and Conflict Optimization
 

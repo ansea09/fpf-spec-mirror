@@ -6,13 +6,24 @@ section_id: "E.4.DPF:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:12 — Relations"
-line_start: 70559
-line_end: 70568
+line_start: 70835
+line_end: 70845
 dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.22.CGUS"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.30.AD"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
@@ -37,10 +49,11 @@ keywords:
 
 ### E.4.DPF:12 - Relations
 
+
 - **Uses:** `G.2` for source pack and SoTA synthesis.
-- **Uses:** `E.8`, `E.10`, and `F.18` for pattern drafting, kind discipline, and names.
+- **Uses:** `A.3.1` and `A.3.2` for the exact framework-authoring Method and this MethodDescription; `A.15.1`, `A.15.PROD`, and `A.6.1` for dated authoring Work, any local inception/result claim, and actual application/bindings; and `E.8`, `E.10`, and `F.18` for pattern drafting, kind discipline, and names.
 - **Coordinates with:** `E.4` for family membership and `E.4.PFAD` for architecture decisions.
-- **Coordinates with:** `E.4.PFR` for relation, dependency, edition, compatibility, deprecation, and supersession records.
+- **Coordinates with:** `C.2.1` and `A.2.6` for framework/result episteme identity, effective ReferenceScheme, empirical-grounding relations, and ClaimScope; `A.1.1`/`A.22` only for an independently selected model-use structure; `A.22.CGUS` only for a genuinely admitted conditional unfolding; `E.4.PFR` for separately governed relation records, dependency, edition, compatibility, deprecation, and supersession effects; `C.30.AD` for post-existence architecture-description use and its retrieval-only project card name; and `E.24.PUB` for publication occurrence, form, and carrier.
 - **Coordinates with:** `C.33`, `C.34`, and `C.35` for carrier preservation and admission.
 - **Coordinates with:** `E.22` for quality-evaluation framing when needed, `E.4.DPF.DA` for DPF package adequacy, `E.21` for pattern-quality evaluation, `E.23` for repeated improvement, `E.19` for admission or profile gating when claimed, and `G.11` for currentness.
 - **Exits to:** `E.11` and `E.17` when the live problem is practical-use or publication discoverability rather than framework authoring.

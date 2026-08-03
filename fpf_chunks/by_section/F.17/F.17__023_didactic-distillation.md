@@ -6,12 +6,12 @@ section_id: "F.17:17"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__023_didactic-distillation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:17 — Didactic distillation"
-line_start: 95289
-line_end: 95292
+line_start: 96205
+line_end: 96208
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,11 +47,10 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:17 - Didactic distillation
 
-A Unified Term Sheet is not the ontology and not the object. It lets people reuse a naming decision without guessing. Each row says what is named, which pattern governs it, which local senses were used, whether an exact Bridge obtains between different semantic-context projections, which separate claim supports that row use, which names were selected, and what the row may and may not be cited for. The row, card, and reliance record neither authorize the use nor prove that it happened.
+A row is a signpost, not the place it points to. Recover the value first, use the lightest sufficient name, and create a row only when a reader-facing durable route is needed. Keep card, cell, basis, Bridge, row, edition, publication, form, and carrier separate. The row may help a reader find the governed value; it cannot make that value, relation, use, authority, Work, or publication true.
 

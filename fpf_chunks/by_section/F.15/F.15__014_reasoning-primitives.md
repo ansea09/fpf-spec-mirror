@@ -6,41 +6,40 @@ section_id: "F.15:12"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_reasoning-primitives.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:12 — Reasoning primitives"
-line_start: 94061
-line_end: 94090
+line_start: 94747
+line_end: 94777
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -52,30 +51,31 @@ keywords:
 ### F.15:12 - Reasoning primitives
 
 ```text
-staticSliceOK(slice)
-  only if all triggered SCR rows hold for the current moving parts.
+triggeredStaticResults(scopeVersion, receivingUse)
+  = exact C.2.1 result-claim refs for every SCR triggered by that finite scope.
 ```
 
-Interpretation: F.15 checks only triggered rows. It does not require every possible object slot to be present.
+`staticSliceOK(...)` may be asserted only as a C.2.1 summary claim over those exact positive results. Scope membership, a filled record, or an absent failure row does not establish it.
 
 ```text
-changedSliceOK(slice@t0, slice@t1)
-  only if every changed moving part has an RSCR result.
+changedMemberResult(priorRef, laterRef, rscrRef, continuityOrChangeClaim, losses, receivingUse)
+  = one exact C.2.1 result claim after the rule application and its evidence are recoverable.
 ```
 
-Interpretation: a change that matters to context, sense, row, RoleDescription, Bridge, status window, alias, or name must be stated.
+`changedSliceOK(...)` may summarize only the exact changed-member results. Unchanged members reuse prior results after a direct contradiction check; one changed member does not trigger a full-slice rerun unless its dependencies invalidate the other results.
 
 ```text
-failedRule(rule, claim)
-  -> direct governing pattern must govern the claim before reuse.
+failedRule(ruleRef, subjectClaimRef)
+  -> return subjectClaimRef to its direct governing pattern before the receiving use.
 ```
 
-Interpretation: a failed Bridge rule is governed by F.9; a failed RoleDescription rule is governed by F.4; a failed status-window rule is governed by F.10; a failed naming rule is governed by F.8, F.17, or F.18.
+F.15 may report the failed check. It does not repair or decide the subject claim merely by writing another record field.
 
 ```text
-bridgeAdmitsUse(beta, use)
-  -> downstream claim may use beta only at that admitted use.
+bridgeSuitableForUse(bridgeOccurrenceRef, useClaimRef)
+  only if the Bridge obtains, the separate C.2.1 claim is affirmative for exact <use,direction,rule,tolerance>,
+  and current A.10 or B.3 reliance supports that claim for the same use.
 ```
 
-Interpretation: a Bridge may admit naming, explanation, or type-structure use. It does not admit role assignment, work attribution, or evidence use by itself.
+The Bridge, use claim, evidence/reliance, authorization, and any receiving occurrence remain separate. `CL`, a Card, or record membership is not a use result.
 

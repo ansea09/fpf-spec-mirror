@@ -6,20 +6,24 @@ section_id: "F.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:2 — Problem"
-line_start: 90291
-line_end: 90303
+line_start: 90842
+line_end: 90854
 dependencies:
+  - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "B.3"
+  - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
   - "E.24.UK"
@@ -33,6 +37,7 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
+  - "G.6"
 keywords:
   - "U-kind naming"
   - "lexical rules"
@@ -52,6 +57,6 @@ Without this pattern:
 4. **Role names become methods.** A noun label hides a method or method family.
 5. **Status names become roles.** `Approved`, `AccessRole`, `ModelFitEvidenceRole`, or `RequirementRole` becomes a role-name family instead of a status-use, evidence-use, access-policy, requirement-use, or source-use relation.
 6. **Relation positions become roles.** Signature, relation, or argument-position names borrow role morphology and collide with `U.Role`; interface wording is used only when a governing boundary or interface pattern makes that meaning current.
-7. **Names carry editions or contexts.** Labels such as `Task-IEC61131` or `Participant-BPMN` fossilize provenance inside the label instead of using Context, SenseCell, or Concept-Set evidence.
+7. **Names carry interpretation metadata.** Labels such as `Task-IEC61131` or `Participant-BPMN` fossilize an edition, source vocabulary, taxonomy, or scheme inside the label instead of keeping those facts in the governing admission, Concept-Set, role description, reference scheme, or Name Card.
 8. **Aliases become silent renames.** Several labels circulate for one meaning without lineage or bridge discipline.
 

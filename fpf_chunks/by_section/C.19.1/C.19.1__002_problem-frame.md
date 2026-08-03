@@ -6,15 +6,20 @@ section_id: "C.19.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:1 — Problem frame"
-line_start: 49833
-line_end: 49836
+line_start: 50061
+line_end: 50064
 dependencies:
   - "A.0"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.24"

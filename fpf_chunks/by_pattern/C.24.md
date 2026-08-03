@@ -6,17 +6,22 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.24.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
-line_start: 52428
-line_end: 52798
+line_start: 52656
+line_end: 53026
 dependencies:
   - "A.1"
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.15.5"
+  - "B.1.6"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.24"
@@ -47,7 +52,7 @@ keywords:
 
 **Instantiates and refines Pillars.** `E.2` `P-3` Scalable Formality, `P-7` Pragmatic Utility, `P-10` Open-Ended Evolution, `P-11` SoTA Alignment, and the Bitter-Lesson Preference: prefer scalable, general methods that benefit from more data or compute over fragile hand-tuned heuristics when assurance and cost stay comparable.
 
-**Depends on.** A-kernel (`A.1–A.15`) for holonic basics and Role-Method-Work separation; `B.3` Trust & Assurance (`F–G–R` with CL penalties); `E.3/E.5` (precedence and Guard-Rails); `C.5` `Resrc-CAL`; `C.18` `NQD-CAL` (candidate generation and declared set results); `C.19` `E/E-LOG` (explore-exploit policies); optional `Compose-CAL` and `KD-CAL` where available.
+**Depends on.** A-kernel (`A.1–A.15`) for holonic basics and Role-Method-Work separation; `B.3` Trust & Assurance (`F–G–R` with CL penalties); `E.3/E.5` (precedence and Guard-Rails); `A.15.1`, `A.15.2`, `B.1.6`, `C.16`, and `A.10` for dated work, resource aggregation, measurement, cost, and provenance; planned `C.5` `Resrc-CAL` only as a future consolidation; `C.18` `NQD-CAL` (candidate generation and declared set results); `C.19` `E/E-LOG` (explore-exploit policies); optional `Compose-CAL` and `KD-CAL` where available.
 
 **Coordinates with.** `U.WorkPlan` and `U.PromiseContent` bindings (acceptance gates), Working-Model publication discipline per `B.3`, and evidence or provenance (`G.6`).
 
@@ -402,7 +407,7 @@ Source-use relation and source-currentness for this rationale: these rows are cu
 
 - Exit: a speed-up claim names task outcome, evaluation harness, repair-success evidence locus when claimed, cost or budget condition, validity window, stop or replan condition, and non-admissible use as a benchmark claim; C.24 remains the tool-use pattern.
 
-Builds on: `A.15` Role-Method-Work alignment (planning vs execution vs service), `B.3` Trust and Assurance (`F-G-R` with `CL`), `C.5 Resrc-CAL`, `C.18 NQD-CAL` (candidate generation and declared set results), and `C.19 E/E-LOG` (policies). Coordinates with `C.28` when a call plan is used to observe, intervene, collect counterfactual-rung evidence, condition a counterfactual policy, or evaluate a policy for causal-use support. Coordinates with `E.23` when a repeated quality-improvement loop is enacted through tool-using agents: `C.24` carries call plans, checkpoint returns, tool-call budgets, stop or replan conditions, and the separation among exact Method, `CallRouteDescription`, call plan, executed work, CallGraph evidence, and service promise; it does not restate the `E.23` loop method, BLP comparison and cost discipline, or other object-under-improvement evaluations governed by their direct patterns. Coordinates with `E.10.MOVE`, `E.11.PUR`, and `A.15.5` when source wording about a move is not plan-local `nextPlannedAction` or `recommendedNextAction`. Constrains: any `U.PromiseContent` used as a tool MUST expose acceptance conditions and observation hooks sufficient for `B.3` reporting. Enables: human-facing Working-Model publication forms with policy and assurance disclosures while keeping design-time and run-time separated.
+Builds on: `A.15` Role-Method-Work alignment (planning vs execution vs service), `B.3` Trust and Assurance (`F-G-R` with `CL`), and `A.15.1`, `A.15.2`, `B.1.6`, `C.16`, and `A.10` for dated work, resource aggregation, measurement, cost, and provenance; planned `C.5 Resrc-CAL` is a future consolidation only. It also builds on `C.18 NQD-CAL` (candidate generation and declared set results) and `C.19 E/E-LOG` (policies). Coordinates with `C.28` when a call plan is used to observe, intervene, collect counterfactual-rung evidence, condition a counterfactual policy, or evaluate a policy for causal-use support. Coordinates with `E.23` when a repeated quality-improvement loop is enacted through tool-using agents: `C.24` carries call plans, checkpoint returns, tool-call budgets, stop or replan conditions, and the separation among exact Method, `CallRouteDescription`, call plan, executed work, CallGraph evidence, and service promise; it does not restate the `E.23` loop method, BLP comparison and cost discipline, or other object-under-improvement evaluations governed by their direct patterns. Coordinates with `E.10.MOVE`, `E.11.PUR`, and `A.15.5` when source wording about a move is not plan-local `nextPlannedAction` or `recommendedNextAction`. Constrains: any `U.PromiseContent` used as a tool MUST expose acceptance conditions and observation hooks sufficient for `B.3` reporting. Enables: human-facing Working-Model publication forms with policy and assurance disclosures while keeping design-time and run-time separated.
 
 ### C.24:End
 

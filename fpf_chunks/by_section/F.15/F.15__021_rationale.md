@@ -6,41 +6,40 @@ section_id: "F.15:15.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__021_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15.2 — Rationale"
-line_start: 94198
-line_end: 94201
+line_start: 94897
+line_end: 94900
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -51,5 +50,5 @@ keywords:
 
 ### F.15:15.2 - Rationale
 
-Unification needs a harness because cross-context reuse is useful only after locality, parsimony, bridge strength, and regression continuity are preserved. F.15 therefore checks the joint slice without becoming a new ontology for contexts, roles, statuses, bridges, evidence, publications, or names.
+Cross-local reuse is useful only after exact locality and relation truth are preserved; regression is useful only when it compares real earlier/later objects for a named use. F.15 therefore checks a finite joint slice without becoming another ontology, naming protocol, assessment-work owner, evidence relation, publication mechanism, or global status system.
 

@@ -6,21 +6,19 @@ section_id: "E.24.PUB:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:3 — Forces"
-line_start: 87982
-line_end: 87991
+line_start: 88512
+line_end: 88521
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,6 +28,9 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
@@ -37,9 +38,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Ontic focus vs publication practicality | Users need forms they can read and use, but the form must not become the subject. |
-| Description adequacy vs semio overgrowth | Ontic descriptions need boundary statements; copied generic semio doctrine can bury the subject. |
-| Multiple publications vs one subject | One ontic may have several publications, views, or forms; those variants must not create several ontics. |
-| Formal appearance vs governing authority | A schema, standard, or source row may look authoritative, but authority comes from the governing pattern or accepted source relation, not appearance. |
-| Local clarity vs generic duplication | A short local boundary helps; a repeated negative catalogue belongs in neighboring semio patterns. |
+| Readable first use vs exact relation identity | Most users need one sentence; contested availability needs exact participants, obtaining, and occurrence identity. |
+| One encountered thing vs several governed uses | A card or diagram can participate in several relations, but visible shape decides none of their kinds. |
+| Stable episteme vs changing publication | The same episteme edition may be republished through another form or carrier, while a changed claim discriminator identifies another episteme. |
+| Audience reach vs actual use | Making an edition available does not prove that any system read it, relied on it, or performed work from it. |
+| Subject-first explanation vs semio-bias | Publication distinctions protect reasoning about the subject; they should not displace the subject from its governing pattern. |
 

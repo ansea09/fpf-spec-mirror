@@ -6,12 +6,12 @@ section_id: "A.2.2:9"
 section_title: "Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__010_checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:9 — Checklist"
-line_start: 3561
-line_end: 3575
+line_start: 3542
+line_end: 3557
 dependencies:
   - "A.15"
   - "A.2"
@@ -40,4 +40,5 @@ keywords:
 | `CC-A2.2-08` | For work admission, are role, capability instance, and capability-fit predicate all visible when all are current? |
 | `CC-A2.2-09` | For composite holders, is the capability stated at the whole whose ability is being claimed? |
 | `CC-A2.2-10` | Are lowering and reopen conditions local enough to change only the affected capability instance, statement, evidence relation, currentness assessment, or fit predicate? |
+| `CC-A2.2-11` | When wording says that a holder possesses an algorithm, did the use dispatch separately to capability, exact Method, deployed-software or possession relation, or candidate episteme, and apply A.3.2's exact-Method `EntityOfConcern` plus substantive-claim threshold before admitting `U.MethodDescription`? Does only the admitted holder system perform dated Work under exact assignment while the Work separately enacts the Method? |
 

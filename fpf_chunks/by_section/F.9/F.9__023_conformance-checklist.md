@@ -6,12 +6,12 @@ section_id: "F.9:21"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:21 — Conformance Checklist"
-line_start: 91981
-line_end: 91997
+line_start: 92627
+line_end: 92646
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -64,6 +66,9 @@ An F.9 use conforms iff:
 8. current reliance uses the exact A.10 or B.3 branch for the same bounded use;
 9. no reliance or assurance statement is read as authorization;
 10. any actual receiving object is recovered under its direct owner;
-11. card, registry, publication, form, and carrier remain distinct from Bridge occurrence and use occurrence; and
-12. inverse and composed relations are tested independently.
+11. description episteme, Card, registry record, E.24.PUB publication occurrence, form, and carrier remain distinct from Bridge occurrence and receiving-use occurrence;
+12. inverse and composed relations are tested independently;
+13. the reusable RelationSignature declares only two endpoint SlotSpecs, while every `CL`, Loss Note, scope/admitted-use, evidence, counterexample, policy, time, model-use, description, publication, or registry value remains a qualifier or neighbor;
+14. the non-optional occurrence identity and non-recurrence rule is stated and applied before a Bridge occurrence is referenced; and
+15. same-context designation remains outside F.9, while every role, Work, evidence-authority, status, U-kind, publication, structure-crossing, or other subject claim returns to its direct governor.
 

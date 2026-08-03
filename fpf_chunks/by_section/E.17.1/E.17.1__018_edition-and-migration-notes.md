@@ -6,27 +6,30 @@ section_id: "E.17.1:17"
 section_title: "Edition and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__018_edition-and-migration-notes.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:17 — Edition and Migration Notes"
-line_start: 79147
-line_end: 79169
+line_start: 79800
+line_end: 79822
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -44,7 +47,7 @@ A lexical rename that leaves viewpoint meaning and membership unchanged may be t
 
 #### E.17.1:17.2 - Migration from local `Sigma` lists
 
-Legacy `U.MultiViewDescribing` families often publish only one local list of viewpoints. Migration should proceed by:
+Legacy `MultiViewDescribing` uses often publish only one local list of viewpoints. Migration should proceed by:
 
 1. identifying recurring families across several such local lists,
 2. publishing those families as explicit bundles,
@@ -54,7 +57,7 @@ This sequence preserves provenance and avoids pretending that the reusable famil
 
 #### E.17.1:17.3 - Migration from publication-face/form-bound naming
 
-If a legacy practice uses one label interchangeably for a viewpoint family, a report section, and a publication face, migration should separate those positions explicitly. `ViewFamilyId` remains at the bundle layer; `U.Viewpoint` ids remain at the viewpoint layer; publication-face names remain publication-layer vocabulary.
+If a legacy practice uses one label interchangeably for a viewpoint family, a viewpoint, a report section, and a publication face, migration separates those positions explicitly. `ViewFamilyId` remains at the bundle layer; exact `U.ViewpointRef` values resolve P while any `ViewpointId` is only P's designator; publication-face names remain publication-layer vocabulary.
 
 #### E.17.1:17.4 - Boundary to annex growth
 

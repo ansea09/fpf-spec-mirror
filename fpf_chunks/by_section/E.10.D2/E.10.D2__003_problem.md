@@ -6,28 +6,33 @@ section_id: "E.10.D2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__003_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:2 — Problem"
-line_start: 75865
-line_end: 75873
+line_start: 76308
+line_end: 76316
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,10 +44,10 @@ keywords:
 
 ### E.10.D2:2 - Problem
 
-
-1. **Entity-description collapse.** A text treats the `EntityOfConcern` as if it were identical to the Description episteme, the diagram, the card, the file, or the work record.
-2. **Specification inflation.** A text calls any detailed write-up a `...Spec` although no checkability, acceptance condition, or harness relation is present.
-3. **Publication or carrier substitution.** A publication face, document, dashboard, schema file, or generated view is treated as the described entity or as the authority for work.
-4. **Context and viewpoint loss.** A Description episteme is read as global even though FPF descriptions are bounded by `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>`.
-5. **Status and state leakage.** Epistemic or deontic statuses over epistemes are used as if they were role states, system states, or runtime facts about the EntityOfConcern.
+1. **Entity-description collapse.** The EntityOfConcern is identified with the episteme, diagram, card, file, dashboard, or work record that says something about it.
+2. **Record-shaped constitution.** A local tuple, filled card, context record, or field list is treated as what makes the episteme exist.
+3. **Specification inflation.** Detailed or official-looking prose is called a `...Spec` although no checkable claims and no exact harness or validation relation are present.
+4. **Neighbor collapse.** Viewpoint, view, claim scope, model-use structure, grounding, evidence, edition, publication, carrier, and representation become fields of one omnibus description object.
+5. **Use-free qualification.** Context, scope, structure, currentness, or publication machinery is required without naming the receiving use that needs it.
+6. **Agency and authority leakage.** A description, standard, card, approval label, or publication is said to perform work, authorize action, or establish a world-side fact without its direct relation.
 

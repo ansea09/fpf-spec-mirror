@@ -6,27 +6,30 @@ section_id: "E.17.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:5 — Archetypal Grounding"
-line_start: 78941
-line_end: 78948
+line_start: 79588
+line_end: 79596
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -38,9 +41,10 @@ keywords:
 
 ### E.17.1:5 - Archetypal Grounding
 
+
 **Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces that later realize it.
 
-**Show (System).** A TEVB engineering bundle can define a reusable family such as `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, and `VP.ModuleInterface` for holon descriptions. Later `U.MultiViewDescribing` families import that bundle rather than redefining the same engineering viewpoints each time.
+**Show (System).** A TEVB engineering bundle can package exact `U.ViewpointRef` members `ref(VP.Functional)`, `ref(VP.Procedural)`, `ref(VP.AllocationResponsibility)`, and `ref(VP.ModuleInterface)` for holon descriptions. Each reference resolves the exact viewpoint episteme P designated by its corresponding `VP.*` token. Later `MultiViewDescribing` uses import that exact bundle edition and the needed reference subset rather than redefining the same engineering viewpoints each time.
 
-**Show (Episteme).** A governance-oriented bundle can package `VP.Risk`, `VP.Control`, `VP.Compliance`, and `VP.Operations` as one reusable family for service or program descriptions. Publication faces/forms may later expose that family, but the bundle itself remains a value inside a viewpoint-family catalogue `U.Episteme`, not the report publication face.
+**Show (Episteme).** A governance-oriented bundle can package exact `U.ViewpointRef` members `ref(VP.Risk)`, `ref(VP.Control)`, `ref(VP.Compliance)`, and `ref(VP.Operations)` as one reusable family for service or program descriptions. Each reference resolves the exact viewpoint episteme P designated by its corresponding `VP.*` token. Publication faces/forms may later expose that family, but the bundle itself remains a value inside a viewpoint-family catalogue `U.Episteme`, not the report publication face.
 

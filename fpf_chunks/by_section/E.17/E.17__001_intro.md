@@ -6,34 +6,35 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 79676
-line_end: 79716
+line_start: 80137
+line_end: 80177
 dependencies:
   - "A.15.4"
+  - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "C.2.1"
   - "C.2.P"
+  - "C.29"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
   - "E.17.AUD"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "E.8"
   - "F.9"
   - "F.9.1"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicViewing"
-  - "U.MultiViewDescribing"
+  - "U.View"
 keywords:
 ---
 
@@ -72,9 +73,9 @@ Here in the first-screen interpretation, keep only the MVPK publication move: on
 
 **Not this pattern when.** Not this pattern when the issue under repair is performed `U.Work`, a work plan, work claim, evidence path, provenance path, assurance claim, engineering justification, gate decision, authority relation, control architecture, carrier work, OCR work, release decision, or a narrower-use rendering that needs its own source-bearing return. Use the FPF pattern that governs that issue.
 
-> **Tech-name:** `U.MultiViewPublicationKit` (**MVPK**)
+> **Tech-name:** `MultiViewPublicationKit` (**MVPK**)
 
-> **General publication-face form:** one MVPK face is a `U.View` emitted over one source `U.Episteme` or episteme-side `U.View`, under one publication `U.Viewpoint`, one `U.PublicationScope`, declared pins where needed, one face kind, and one bounded publication use. The face adds no claim by readable form. Evidence use, authority use, gate use, work use, assurance use, release use, and engineering-justification use require the neighboring FPF pattern governing that claim and typed project-side FPF kind and reference that carries that downstream use, such as a `GateDecision`, evidence path, work occurrence, assurance claim, status source, or authority-reference relation.
+> **General publication-face form:** Plain `MVPK face` names the publication-form use of one selected `U.Episteme` edition under one exact publication `U.ViewpointRef`, one `U.PublicationScope`, declared pins where needed, and one bounded publication use. It is not a U-kind. The selected episteme is a `U.View` only when the E.17.0 conformance relation obtains; readable form alone adds no claim and grants no view membership. Evidence use, authority use, gate use, work use, assurance use, release use, and engineering-justification use require the neighboring FPF pattern governing that exact claim.
 > **USM binding (overview):** `PublicationScope` is a **USM‑class** object that parameterizes MVPK; see §5.0.
-> **Episteme-side view position.** MVPK treats each face as a `U.View` in the sense of C.2.1 and E.17.0 (species `U.EpistemeView`). For any MVPK face, the source is a named `U.Episteme` or episteme-side `U.View`; the face declares a publication `U.Viewpoint` (`PublicationVPId`) drawn from a `U.ViewpointBundle` (E.17.1 and E.17.2). In the morphism profile, every `Emit_s(f)` has `EntityOfConcernSlot` and `DescriptionContext` target `f : EpMorphism` governed by A.6.2. In a non-morphism publication, the face names the source episteme named by value, episteme-side view, EntityOfConcern, or claim relation that the face publishes, and no functorial composition claim is present unless the corresponding FPF pattern supplies it. Slot discipline (`ViewSlot` and `ViewRef`) is inherited from C.2.1 and A.6.5 and is not redefined in MVPK.
+> **Episteme-side view position.** MVPK can publish an already recognized `U.View`, or A.6.3 construction can yield a separately identified candidate episteme for a face. E.17.0 then tests that episteme independently against the exact viewpoint episteme resolved from `publicationViewpointRef : U.ViewpointRef`; `PublicationVPId` is that episteme's designator, not the reference. In the morphism profile, the selected episteme's exact EntityOfConcern is the governed morphism value `f : EpMorphism`; neither a face field nor a publication form substitutes for that C.2.1 identity. Publication occurrence, form, carrier, optional viewing construction, and `U.View` membership remain separate.
 

@@ -3,24 +3,22 @@ chunk_kind: "child"
 pattern_id: "E.24.PUB"
 pattern_title: "Ontic Description and Publication Discipline"
 section_id: "E.24.PUB:6"
-section_title: "Bias-Annotation"
+section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__008_bias-annotation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
-  - "E.24.PUB:6 — Bias-Annotation"
-line_start: 88096
-line_end: 88106
+  - "E.24.PUB:6 — Bias Annotation"
+line_start: 88672
+line_end: 88682
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,17 +28,20 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
-### E.24.PUB:6 - Bias-Annotation
+### E.24.PUB:6 - Bias Annotation
 
 Lenses tested: **Onto**, **Epist**, **Semio**, **Arch**, **Prag**, **Did**.
 
-This pattern intentionally resists semio-bias inside subject patterns. It does not deny that descriptions and publications matter. It says they must stay in the right slot:
-
-- the ontic remains the subject when the pattern is about the ontic;
-- the description episteme becomes the subject only when the pattern is about that description;
-- the publication becomes the subject only when publication, currentness, source return, multi-view handling, or reader-facing use is current;
-- the publication form never receives ontology authority by appearance.
+- **Onto:** direct relation occurrences and their actual participants remain primary; visible forms do not decide kinds.
+- **Epist:** the selected edition, audience declaration, and bounded-use declaration retain C.2.1 identities.
+- **Semio:** designation, expression, representation, bearing, and publication availability use different predicates.
+- **Arch:** subject patterns keep their subject; E.24.PUB owns only the neighboring publication architecture.
+- **Prag:** progressive explicitness stops at the first statement sufficient for the named receiving `U.Work`.
+- **Did:** one readable sentence and heterogeneous cases precede the RelationSignature detail.
 

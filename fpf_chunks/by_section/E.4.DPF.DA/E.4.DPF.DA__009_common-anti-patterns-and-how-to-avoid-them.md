@@ -6,14 +6,25 @@ section_id: "E.4.DPF.DA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70772
-line_end: 70789
+line_start: 71124
+line_end: 71142
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
   - "A.19.ECS"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
   - "E.4.PFAD"
@@ -31,6 +43,7 @@ dependencies:
   - "F.18"
   - "G.11"
   - "G.2"
+  - "U.Method"
 keywords:
 ---
 
@@ -51,4 +64,5 @@ keywords:
 | Process-state leakage | The package carrier includes `draft`, `DRR`, handoff, ledger, review, admission, or helper-state residue as package content. | Remove process state from package carriers and keep only durable user-facing package content, relation records, source-use boundaries, and refresh routes. |
 | Seed promotion | A fast prompt result is treated as public DPF. | Mark `seedOnly`, name missing coordinates, and run `E.23` hardening. |
 | Citation-driven `5` | Values rise because more sources, review proof, or maps were added. | Raise values only when action, source grounding, owner routing, adoption, or refresh improves. |
+| Evaluation table as Method, Work, result, or admission | Coordinate order or a filled table is treated as the evaluation Method, performed assessment, aggregate result episteme, favorable status use, or admission. | Recover the exact semantic Method, evaluator assignment, dated Work and A.6.1 application, coordinate claims, aggregate C.2.1 result, and any separate F.10/E.19 receiving use. |
 

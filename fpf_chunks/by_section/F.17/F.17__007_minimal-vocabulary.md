@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:5 — Minimal vocabulary"
-line_start: 94615
-line_end: 94687
+line_start: 95290
+line_end: 95377
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,80 +47,94 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:5 - Minimal vocabulary
 
-#### F.17:5.1 - Scheme-based local-sense coordinate and basis relation
+#### F.17:5.1 - Scheme-based local-sense coordinate, basis relation, and row episteme
 
-A local sense is not grounded merely because its expression has an accepted name. F.17 therefore separates the scheme-based local-sense coordinate, the naming settlement, and any episteme used as the basis for the sense claim.
+A selected expression, an exact local sense, the episteme supporting that sense, the naming decision, and the reader-facing row answer different questions. Keep them independently recoverable.
 
 ```text
 SchemeSenseCell:
   ValueKind: F.17-local composite coordinate; not a root U-kind
-  ReferenceScheme: U.ReferenceScheme carried by value
+  ReferenceScheme: effective U.ReferenceScheme carried by value
   LocalSenseId: address designator only
-  LocalExpression
-  LocalSenseClaim
+  LocalExpression: selected expression in this local use
+  LocalSenseClaim: exact local meaning under the scheme
   Identity: <ReferenceScheme by value, LocalExpression, LocalSenseClaim>
 
-LocalSenseBasisRelation@Context <: U.Relation
+LocalSenseBasisRelation <: U.Relation
 SlotSpecs:
   LocalSenseCellSlot:
     ValueKind: F.17 SchemeSenseCell coordinate
-    RefKind: SenseCellAddressRef, resolving SenseCell(ReferenceSchemeId, LocalSenseId) to the exact scheme, expression, and local-sense claim
+    RefKind: SenseCellAddressRef resolving the exact scheme, expression, and sense claim
     Field: localSenseCellRef
   BasisEpistemeSlot:
     ValueKind: U.Episteme
-    RefKind: U.EpistemeRef
+    RefKind: U.EpistemeRef resolving one exact basis-episteme edition
     Field: basisEpistemeRef
-    Constraint: the reference resolves to the exact basis-episteme kind; that kind is derived, not copied as another participant
-  BasisPublicationUnitSlot?:
-    ValueKind: PublicationUnit under E.17.AUD
-    RefKind: PublicationUnitRef
-    Field: basisPublicationUnitRef
-RelationRefKind: U.EntityRef constrained to LocalSenseBasisRelation@Context
 Direction: basisEpistemeRef -> localSenseCellRef
-Obtaining: the exact current basis-episteme edition, at the cited PublicationUnit when present, supports the coordinate's exact LocalSenseClaim under the coordinate's by-value ReferenceScheme for the stated admitted use
-NonObtaining: shared spelling, a NameCard, a file or carrier, publication availability, or an uncited source title does not make this relation obtain
-Identity: <localSenseCellRef, basisEpistemeRef, basisPublicationUnitRef if present>; the scheme, expression, and sense claim are already identity-bearing inside localSenseCellRef, and the episteme edition is already identity-bearing inside basisEpistemeRef
-OccurrenceIdentity: participant-determined; changed coordinate, basis-episteme edition, or cited publication unit identifies another occurrence
+Obtaining: the exact basis episteme supports the cell's exact LocalSenseClaim under its by-value ReferenceScheme for the stated admitted use
+NonObtaining: shared spelling, accepted name, card, source title, file, carrier, publication availability, or completed fields
+Identity: <localSenseCellRef, basisEpistemeRef>
+OccurrenceIdentity: participant-determined; another exact cell or basis-episteme edition identifies another occurrence
 
-LocalSenseBasisRelationDescription@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing one LocalSenseBasisRelation@Context
-  entityOfConcernKindRef: U.KindRef, referencing LocalSenseBasisRelation@Context
+LocalSenseBasisRelationDescription <: U.Episteme:
+  entityOfConcernRef: U.EntityRef resolving one exact LocalSenseBasisRelation occurrence
+  entityOfConcernKindRef: U.KindRef resolving LocalSenseBasisRelation
   viewpointRef?: U.ViewpointRef
-  subjectRef?: U.SubjectRef, only when independently governed and without adding a context participant
-  claimGraph: U.ClaimGraph by value, carrying the supported-sense claim, admitted-use claim, and non-admitted-use claim
+  subjectRef?: U.SubjectRef, only when independently governed
+  basisPublicationUnitRef?: U.EntityRef resolving one exact source unit as description/provenance content, never as relation participant or identity discriminator
+  claimGraph: U.ClaimGraph carrying supported-sense, admitted-use, blocked-use, and any exact source-unit qualifier claims
   referenceScheme: U.ReferenceScheme by value; exactly the scheme in localSenseCellRef
-  editionId
+  editionId: designator only
+
+UnifiedTermRow <: U.Episteme:
+  UTSRowId: stable designator only
+  UnificationThreadId: sheet-local navigation designator
+  Block?: optional didactic navigation label
+  GovernedValueRef: U.EntityRef; the same exact referent fills the C.2.1 EntityOfConcern position
+  ClaimContent: complete U.ClaimGraph constituted by the identity-bearing row claims designated below
+  ReferenceScheme: effective U.ReferenceScheme carried by value
+  GovernedValueKindRef: U.KindRef
+  DirectGoverningPatternRef: U.EntityRef resolving the exact direct pattern
+  UnifiedTechName: selected Tech designation expression
+  UnifiedPlainName: selected Plain designation expression
+  NameCardRef: U.EpistemeRef resolving the separate exact F.18 naming-settlement episteme
+  SenseCellRefs[]: exact SenseCellAddressRefs
+  BridgeRefs[]?: actual F.9 Bridge occurrences only
+  RowRationale
+  AdmissibleUse
+  BlockedUse
+  RowEditionId: designator only
+  EpistemeEditionRelationRef?: exact C.2.1 occurrence only when historical continuation obtains
+  CurrentnessCondition
+  Notes?
 ```
 
-`SenseCellAddressRef` is the F.17 reference form for `SchemeSenseCell`. Its readable `SenseCell(...)` spelling is an address, not a claim that a SenseCell is a U-kind or that a context holon exists. A legacy F.3 address of the form `SenseCell(ContextId, LocalSenseId)` may be consumed only when an explicit adapter resolves `ContextId` to one exact effective reference scheme and the same local expression and sense claim. If that resolution is absent or lossy, stop the row; do not reconstruct `U.BoundedContext`.
+`SenseCellAddressRef` designates one `SchemeSenseCell`; it does not create that cell or a universal context object. A legacy address is usable only through an explicit lossless adapter to the exact effective scheme, expression, and local-sense claim. Otherwise stop the row.
 
-The retained `@Context` suffix on `LocalSenseBasisRelation@Context` is lineage-compatible vocabulary for bounded local use, not a participant declaration. New occurrences have no `U.BoundedContext` slot. A legacy record may retain `boundedContextRef` only as non-participant address metadata when it resolves to the same exact scheme-based coordinate; otherwise that record is not current for an F.17 row.
+The basis relation has exactly two participants. `basisEpistemeRef` resolves the exact current basis-episteme edition; its exact kind is derived from that referent and is not copied as another participant. A relation reference resolves the exact `LocalSenseBasisRelation` occurrence rather than its description or designator. `basisPublicationUnitRef`, when present, is a provenance qualifier that narrows the supporting episteme; it neither participates in nor identifies the relation. A source publication occurrence, its form, and its carrier remain separate E.24.PUB objects.
 
-`basisPublicationUnitRef` narrows a relied-on pattern or publication episteme to the exact bounded unit when that precision matters. It does not turn a file, slide carrier, rendering, or publication occurrence into the supporting episteme.
+The relation says only that this basis episteme supports this cell's exact sense claim for the admitted use. Its description states the supported and blocked uses and any exact source-unit qualifier. A changed NameCard reopens the selected expression. A changed scheme, expression, sense claim, or basis-episteme edition identifies another cell or basis-relation participant pair. A changed source-unit or supported-use claim creates another relation-description episteme without silently changing the basis relation.
 
-The basis relation says only that the named episteme supports the named local-sense claim for the stated use. Its description says which claim is supported and which uses are admitted or blocked. A changed NameCard reopens the selected expression. A changed scheme, local expression, local-sense claim, basis-episteme edition, or cited publication unit identifies or selects another basis occurrence. A changed supported-use boundary creates another relation-description edition without silently changing the basis relation.
+Any description of a `SchemeSenseCell` is a separate C.2.1 episteme whose EntityOfConcern is that exact cell. The cell's identifier, description, source publication, NameCard, and basis relation neither replace nor identify the cell.
 
-`UnifiedTermSheet` is the whole reader-facing term table for one bounded unification thread.
+`UnifiedTermRow` is another C.2.1 episteme, not a root U-kind, value container, or publication occurrence. Its EntityOfConcern is the exact governed value. Its displayed identity-bearing row claims jointly constitute the complete ClaimContent; a scalar graph-ref line need not be repeated in the readable fixture when that graph is recoverable from them. The claim graph cites the separate NameCard, exact kind and direct owner, and projects the selected designation expressions. The row, card, designations, governed value, external row reference, and `UTSRowId` designator remain distinct; `UnificationThreadId`, `Block`, and `RowEditionId` are navigation or edition designators rather than additional identity discriminators.
 
-`UnifiedTermRow` is one local F.17 publication-row form in that sheet. It publishes one reviewed term decision and is not a root U-kind or the underlying governed value.
+If a later row episteme revises, refines, or supersedes an earlier one, an independently obtaining C.2.1 `EpistemeEditionRelation(earlierRowEpisteme, laterRowEpisteme)` carries historical continuation. Stable row spelling, id, table position, shared carrier, or later publication establishes no such relation. A `CurrentnessCondition` is row claim content; it is not the edition relation and does not make itself true.
 
-`UnificationThreadId` identifies the bounded naming thread that groups this row with related term decisions. It is a sheet-local identifier, not an ontological locality bearer; `RowEdition` identifies the row edition.
+When a selected row edition must be made available, E.24.PUB supplies three separate relations: `PublicationFormExpressionRelation(selectedRowEdition, publicationForm, boundedUseDeclaration)`, `PublicationFormBearingRelation(carrier, publicationForm)`, and `EpistemePublicationRelation(selectedRowEdition, audience, boundedUse, publicationForm, carrier)`. The row does not publish itself; the form is not the row; the carrier bears the form rather than the episteme; rendering or uploading is dated Work when current and is not the publication occurrence.
 
-`GovernedValueRef` references the exact value being named. `GovernedValueKindRef` separately references its kind. When the term names a kind token, such as `DemonstrativeUnfoldingSlice@Context`, the governed value is that token and its kind is `U.Kind`; the direct subject pattern states which kinds of instances the token admits. When the term names a role value, relation value, status value, slot kind, or local concept, the two positions reference that value and its exact governed kind. No union field or generic kind container substitutes for this pair.
+`GovernedValueRef` and `GovernedValueKindRef` are separate. A kind token has kind `U.Kind`; an obtaining relation occurrence, role value, status value, slot kind, or local concept retains its own exact kind and direct owner. A row or card cannot admit a U-kind or make a direct relation obtain.
 
-`DirectGoverningPatternRef` names the pattern that owns the underlying value or claim. `F.17` owns the term-row publication, not that value.
+`NameCardRef` resolves the F.18 C.2.1 naming-decision episteme consumed by the current public-row gate. `UnifiedTechName` and `UnifiedPlainName` are designation expressions selected by that decision, not values or references. Aliases and rejected candidates stay in the NameCard or local lexicon rather than becoming rival selected names in the row.
 
-`SchemeSenseCell` is the exact F.17 local-sense coordinate. It binds one local expression and sense claim to one effective `U.ReferenceScheme` carried by value. A `NameCardRef` may accompany it when F.18 selected the expression. A separate `LocalSenseBasisRelationRef` relates the coordinate to a supporting episteme; the relation description carries the supported-sense and use-boundary claims, and the NameCard fills neither position.
+`BridgeRefs` cites only actual F.9 occurrences between exact cells. Direction, use-specific rule, loss tolerance, polarity, evidence, reliance, permission, and receiving action remain in their own claims and relations. Local senses do not globalize; same spelling or a different scheme provides neither governed-value identity nor Bridge obtaining.
 
-`BridgeRef` cites an actual F.9 Bridge only when it obtains for the exact scheme-based endpoints under a relation-semantic profile that applies, has a true Boolean predicate, and has every required dependency present. The reference carries no row-use direction, rule, tolerance, polarity, reliance, or permission. An `AdmissibleUse` between different `<ReferenceScheme, LocalSenseClaim>` projections separately cites the exact affirmative C.2.1 claim about that Bridge and names its current A.10 or B.3 reliance basis. A scheme difference alone supplies neither premise.
+The quoted tokens `DemonstrativeUnfoldingSlice@Context` and `DemonstratedPatternUseRow@Context` in F.17:12.4c retain the exact frozen A.22.CGUS direct-owner spelling. Their suffix is lineage in those governed tokens, not an F.17 identity constructor or permission to mint another `...@Context` value. New F.17 relation and row identities use the exact objects above.
 
-`UnifiedTechName` and `UnifiedPlainName` are the selected names governed by F.5 and F.18. Extra aliases belong in the NameCard or local lexicon material, not as rival unified names in the row.
-
-`BlockPlan` is the didactic grouping of rows. A block is a memory and teaching device, not an ontological parent.
+`UnifiedTermSheet` is the reader-facing collection or layout through which rows are found. A selected table layout, optional block plan, or carrier is not the row episteme and does not prove that every needed decision is present.
 

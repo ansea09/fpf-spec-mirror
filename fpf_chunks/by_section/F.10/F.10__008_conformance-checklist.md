@@ -3,22 +3,31 @@ chunk_kind: "child"
 pattern_id: "F.10"
 pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
 section_id: "F.10:7"
-section_title: "Conformance Checklist"
+section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
-  - "F.10:7 — Conformance Checklist"
-line_start: 92433
-line_end: 92447
+  - "F.10:7 — Conformance checklist"
+line_start: 93136
+line_end: 93154
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -28,18 +37,22 @@ keywords:
   - "status"
 ---
 
-### F.10:7 - Conformance Checklist
+### F.10:7 - Conformance checklist
 
-| Check | Question |
+| Check | Pass question |
 | --- | --- |
-| `CC-F10-01` Status family | Is the status value mapped to `EvidenceStatus`, `StandardStatus`, `RequirementStatus`, or another direct status pattern named by value? |
-| `CC-F10-02` Context | Is the bounded context or edition that gives the status value meaning named? |
-| `CC-F10-03` Target kind | Does the statement name the exact target kind: claim, quantity, method description, standard-governed entity, requirement clause, gate record, role assignment, work result, publication, or another direct-pattern target? |
-| `CC-F10-04` Window | Does every positive or negative status name the window, edition, condition, freshness policy, or source-currentness relation that bounds it when current? |
-| `CC-F10-05` Source and provenance | Is the status source, governing register, publication source, proof, measurement, verification, or provenance constraint recoverable when the use depends on it? |
-| `CC-F10-06` Modality | Is epistemic status kept distinct from deontic standard or requirement status? |
-| `CC-F10-07` Bridge | Does any cross-context comparison, explanation, or substitution cite an `F.9` bridge with kind, direction, congruence level, and loss? |
-| `CC-F10-08` Substitution | If one status is substituted for another, do bridge kind, congruence level, window alignment, target kind, and local evaluation rule admit that substitution? |
-| `CC-F10-09` No role ontology drift | Is there no claim that an episteme holds an evidence role, status role, standard role, or requirement role merely because it is used? |
-| `CC-F10-10` Direct-pattern boundary | Are evidence provenance, assurance, causal use, source use, publication use, gate passage, permission, performed work, and work-role assignment governed by their direct patterns when those claims are current? |
+| `CC-F10-01` Target and direct result | Are the exact target, target identity, direct governor, and any consumed domain result/result episteme recovered before status is applied? |
+| `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status owner? |
+| `CC-F10-03` Use occurrence | Are bearer, target, value, scheme, scope, window, intended use, and direct obtaining basis explicit? |
+| `CC-F10-04` Source | Are source assertion/register, edition/order rule, provenance path, and G.11 currentness result recovered when they decide use? |
+| `CC-F10-05` Assessment | If a rule is applied, are dated evaluation work, enacted method, exact application/bindings, and evaluation-result claim separate? |
+| `CC-F10-06` Assertion/display | Is the C.2.1 status-assertion episteme distinct from publication occurrence, form, rendering, carrier, row, and dashboard cell? |
+| `CC-F10-07` Modality | Are evidence status, standard approval, requirement status, and every direct result kept distinct? |
+| `CC-F10-08` Bridge | Does cross-scheme vocabulary use cite an actual F.9 occurrence between exact cells, while Card/description remains separate? |
+| `CC-F10-09` Interpretation | Does cross-family or cross-modality explanation name the exact `StatusInterpretationRelation`, direction, rule, scope/window, and use? |
+| `CC-F10-10` Design-run | Are standard approval, runtime evidence, requirement evaluation, and runtime satisfaction separate? |
+| `CC-F10-11` Receiving use | Is any actual premise/gate/assurance/permission/release/decision use grounded in dated work and its direct relation rather than intended use or display? |
+| `CC-F10-12` No creation | Does status neither define/create its target nor turn evidence absence into target falsity? |
+| `CC-F10-13` No role drift | Is no episteme assigned a work-facing evidence/status/standard/requirement role merely because it is used? |
+| `CC-F10-14` Direct-owner boundary | Do evidence provenance, assurance, causal use, publication, gate, permission, commitment, work, requirement evaluation, approval act, and decision remain with direct governors? |
 

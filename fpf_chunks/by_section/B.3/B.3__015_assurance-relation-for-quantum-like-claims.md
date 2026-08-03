@@ -6,41 +6,47 @@ section_id: "B.3:11a"
 section_title: "Assurance relation for quantum-like claims"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__015_assurance-relation-for-quantum-like-claims.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:11a — Assurance relation for quantum-like claims"
-line_start: 38954
-line_end: 38980
+line_start: 39104
+line_end: 39130
 dependencies:
   - "A.10"
-  - "A.14"
   - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.2.4"
+  - "A.2.6"
   - "A.20"
   - "A.21"
-  - "A.3.4"
   - "A.6"
-  - "A.7"
+  - "A.6.1"
   - "B.1"
   - "B.1.1"
   - "B.3"
   - "B.3.5"
-  - "B.3.x"
   - "B.4"
   - "C.13"
   - "C.16"
+  - "C.16.Q"
+  - "C.2.1"
   - "C.26"
   - "C.26.1"
   - "C.26.2"
   - "C.26.3"
   - "C.28"
+  - "C.29"
   - "D.4"
   - "E.14"
+  - "E.17"
   - "E.17.EFP"
+  - "E.24.PUB"
+  - "F.10"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "F-G-R"
   - "assurance"
@@ -64,8 +70,8 @@ Assurance-relation checks:
 
 1. Decide the claim-assurance requirement before building assurance machinery.
 2. If the QL note only prevents a local misinterpretation, keep it as QL-lite with ordinary evidence.
-3. If the claim will be reused, state the governing FPF pattern, local stop condition, and evidence relation or evidence-provenance condition.
-4. If the claim is used for release, readiness, audit, compliance, assurance, or threshold-bearing work or reliance, build the B.3 assurance claim over named evidence refs and scope.
+3. If the claim will be reused, state the exact target-claim episteme, governing pattern, named use, local stop condition, and A.2.4 evidence-use plus A.10/G.6 provenance refs.
+4. If the claim is used for release, readiness, audit, compliance, assurance, or threshold-bearing reliance, perform the exact B.3 assessment and constitute its assurance-result claim over named input-result/evidence-use refs and scope.
 5. If the claim says QL is better, faster, more accurate, or uniquely necessary, compare rival models, baseline, claimed mechanism, scope, and loss.
 6. State decay conditions and reopen conditions so an old QL-evidenced assurance claim does not silently stay current after new validation observations, changed source records, changed evidence refs, or scope change.
 
@@ -73,13 +79,13 @@ Assurance-relation checks:
 | --- | --- | --- |
 | Local modeling note | No assurance tuple beyond the ordinary pattern and evidence note | QL-lite note with local stop |
 | Reusable example or pattern-facing note | Name the governing FPF pattern, local stop condition, and evidence relation or evidence-provenance condition | Reusable example with source relation |
-| Decision, release, audit, readiness, or compliance use | Provide `F`, `G`, `R`, congruence relation, evidence refs, confidence, rival explanations, and decay or reopen conditions | Assurance tuple and evidence-provenance path |
+| Decision, release, audit, readiness, or compliance use | Provide exact target/use, assessment, `F/G/R`, congruence-occurrence refs, evidence-use/provenance refs, rival explanations, decay, and reopen condition | Assurance-result claim plus optional citing record |
 | Comparative superiority claim | Add rival-model comparison, baseline, claimed mechanism, and scope limits | Bounded superiority claim or apply the FPF pattern that governs the comparison being claimed |
 
 Useful outputs:
 
 - no B.3 assurance use when QL is only a local representational lens;
 - a compact bounded assurance claim statement when reuse is modest;
-- a full assurance tuple only when consequence severity demands it;
+- a full assurance-result claim only when consequence severity or explicit F/G/R/CL reuse demands it;
 - a rejected, narrowed, or withdrawn claim when evidence does not carry the claimed assurance use or relying context.
 

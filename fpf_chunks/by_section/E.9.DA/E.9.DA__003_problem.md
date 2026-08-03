@@ -6,12 +6,12 @@ section_id: "E.9.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__003_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:2 — Problem"
-line_start: 72846
-line_end: 72861
+line_start: 73227
+line_end: 73242
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,7 +27,7 @@ keywords:
 
 ### E.9.DA:2 - Problem
 
-`E.9` defines the `DRR` kind and minimum decision-rationale form. It does not by itself say whether one concrete `DRR` is decision-bearing enough for downstream FPF authoring. Without `E.9.DA`, reviewers tend to approve headings, source volume, or clean prose while the pattern author still has to invent missing decisions.
+`E.9` defines `DRRMethod`, the decision-work/selected-answer boundary, and the minimum C.2.1 DRR episteme form. It does not by itself establish whether one exact DRR episteme is decision-bearing enough for a declared downstream use. Without `E.9.DA`, assessors tend to approve headings, source volume, or clean prose while the pattern author still has to invent missing decisions.
 
 Recurring failures:
 

@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution — recover one complete measurement chain (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-recover-one-complete-measurement-chain-normative.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution — recover one complete measurement chain (Normative)"
-line_start: 47025
-line_end: 47096
+line_start: 47182
+line_end: 47253
 dependencies:
   - "A.10"
   - "A.15.1"

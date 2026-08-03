@@ -6,12 +6,12 @@ section_id: "A.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__008_conformance-checklist-normative.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:7 — Conformance Checklist (normative)"
-line_start: 7197
-line_end: 7231
+line_start: 7269
+line_end: 7303
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -53,7 +53,7 @@ Every performed resource-use fact relied on for a claim about Work MUST state it
 Authority, justification, and provenance are not optional-looking required fields of a RoleAssignment occurrence or Work occurrence. When a receiving use relies on one of them, identify the exact episteme and direct authority, justification, source, evidence, or provenance relation and connect it to the exact assignment occurrence, Work individual, assertion, or description. None of those neighboring claims makes the assignment obtain or the Work occur.
 
 **CC‑A3‑8 - Agentic policy, planning, Work, and outcome separation.**
-An agentic case does not license a generic `D.Policy → U.PlannedAction → U.Action` pipeline. Recover each exact policy, objective, selection or decision, WorkPlan, RoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.
+An agentic case does not license a generic pipeline from policy, through a planned action, to an action. Recover each exact policy, objective, selection or decision, WorkPlan, RoleAssignment, dated Work, actual change, and outcome claim under its direct owner when that claim is current. A policy does not create a plan or Work; a plan does not prove Work; and Work does not prove an outcome. Do not mint `U.PlannedAction` or `U.Action` from ordinary action wording.
 
 **CC‑A3‑9 - Local interpretation and exact crossings.**
 Interpret each RoleAssignment occurrence through its exact role-taxonomy episteme and effective ReferenceScheme, and test compatibility through the exact rule current for that assignment use. Similar labels across localities establish neither equivalence nor conflict. When a receiving use needs exact local-sense correspondence, use F.9 only for the exact `SenseCell` correspondence and its admitted use; role-value, policy, criterion, verdict, or other mappings retain their direct owners.

@@ -6,12 +6,12 @@ section_id: "A.2.3:10"
 section_title: "Existing promise-description repair applications"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__014_existing-promise-description-repair-applications.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10 — Existing promise-description repair applications"
-line_start: 4095
-line_end: 4103
+line_start: 4078
+line_end: 4086
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "F.12"
@@ -61,6 +62,6 @@ keywords:
 2. **Separate provider from promise content.** Recover each exact provider, access-point, or delivery bearer through A.6.P:4.11a. Apply A.1/A.1.SCR only where a current provider-assignment, access-point, delivery-system, performer, or other claim depends on systemhood. Then connect a recognized provider holder through a named A.2.1 role assignment only when that participation fact is current.
 3. **Relate promise content to delivery and evidence.** Add `PromiseContentUse` for every delivery-work occurrence evaluated under the promise. Establish `PromisedOutcomeDeliveryRelation` only after exact work facts, affected or delivered entities, post-work states, and any direct delivery relation required by the resolved `OutcomeSpec` satisfy it; establish `PromiseContentFulfilmentRelation` only after those facts and states satisfy the declared acceptance criteria. Record the actual evaluation-operation result binding, any evaluation-result episteme, the evidence epistemes it cites, and the A.10 evidence relations separately.
 4. **Define evaluation characteristics.** As an informative first pass, select roughly 2–4 characteristics for each promise content; the range is a prompt, not a conformance limit. Use a recognizable §8.2 formula family—availability over a named window, lead time as a declared delta plus aggregation, rejection rate `1 − |W✓| / |W|`, or cost-to-serve as summed Work resource use—or state an exact declared alternative. For each characteristic, name its scale, unit when applicable, C.16 measurement template, `Gamma_time` policy, direct evidence relations, and exact formula; cite a `U.MethodDescription` when a particular measurement method affects the reading. Do not let a KPI label stand in for this declaration.
-5. **Bridge domain schemes.** If a domain ontology distinguishes business, technical, or internal service kinds and relations, retain its reference scheme and name the F.9 bridge occurrence for each selected domain referent and FPF counterpart; source classes confer no FPF systemhood.
+5. **Bridge domain schemes.** If a domain ontology distinguishes business, technical, or internal service kinds and relations, retain its reference scheme and name the exact obtaining F.9 Bridge occurrence for each selected domain sense and FPF counterpart. For the named promise-content use, add the separate current C.2.1 claim that the Bridge is suitable in the required direction under the use-specific rule and loss tolerance. Then follow F.9's exact reliance branch: ordinary below-threshold use with no assurance claim requires the exact A.10 evidence-provenance graph relation and `RelianceDisposition=pass` for that use; assurance-bearing or threshold use enters B.3's first-claim decision and requires either a positive current assurance claim carrying the same bounded assurance use with its sufficient minimum reliance safety assurance record or an explicit non-positive disposition that stops or narrows the use. Recover `PromiseContentUse`, work, delivery, fulfilment, result, evidence, assurance, and publication separately under their direct owners; source classes, a profile, or a Bridge Card confer no FPF systemhood and establish none of those objects.
 6. **Tidy relied-on language.** Apply **L-SERV** and **A.6.P:4.11a** only when *service* or access-like wording hides a concrete subject, participant, predicate, kind, permission, Work occurrence, or next route in the current relied-on use. Name that exact choice and its direct owner, or stop the use; use A.1/A.1.SCR only when a recovered bearer claim depends on systemhood. Reserve `U.PromiseContent` for the consumer-facing promise content, and leave clear, quoted, historical, illustrative, and harmless ordinary wording outside this step.
 

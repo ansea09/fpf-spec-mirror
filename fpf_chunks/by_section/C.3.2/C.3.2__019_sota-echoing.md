@@ -6,12 +6,12 @@ section_id: "C.3.2:17"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__019_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:17 — SoTA-Echoing"
-line_start: 44968
-line_end: 44971
+line_start: 45125
+line_end: 45128
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -27,11 +27,6 @@ dependencies:
   - "C.3.A"
   - "E.24.UK"
 keywords:
-  - "KindExtension representation"
-  - "KindSignature declaration episteme"
-  - "candidate classification"
-  - "local kind"
-  - "true/false/unknown"
 ---
 
 ### C.3.2:17 - SoTA-Echoing

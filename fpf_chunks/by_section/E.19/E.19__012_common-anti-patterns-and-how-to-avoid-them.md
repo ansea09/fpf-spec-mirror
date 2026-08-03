@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 85293
-line_end: 85322
+line_start: 85759
+line_end: 85789
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -46,6 +46,7 @@ keywords:
 | **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the primary `EntityOfConcern`, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition text, make the narrowed branch and primary `EntityOfConcern` answerable to the relevant domain or practice, and require FPF-governed `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
 | **Type-correct but inert epistemic precision cleanup** | An `E.10`-triggered epistemic precision restoration removes the overread and restores kind language, but the recognition text no longer tells the reader why the distinction matters, what reader use remains, which FPF pattern application now carries the claim, or how a Plain recognition line maps back to the recovered Tech reading when both registers are used. | The review accepts typed wording while losing action guidance. | Return the draft to same-boundary repair: restore a remaining admissible reader use, name the FPF pattern application and governing ontology, repair the Tech-to-Plain mapping, or demote the phrase to reduced-use cue, quote-only wording, blocked transfer, or rewrite incomplete. |
 | **Expressive overread rebound after epistemic precision cleanup** | The pass makes the text more engaging after cleanup, but the added Plain or didactic wording carries ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim kind or admissible-use boundary not recoverable from the Tech reading or named FPF pattern application. | The review mistakes readability for recovered semantic work. | Rewrite the expressive line as ordinary recognition aid, recover its claim kind or admissible-use boundary through the Tech fields under `E.10:6.2`, name the FPF pattern application and governing ontology that carries the claim, or demote the phrase to reduced-use cue, quote-only wording, blocked transfer, or rewrite incomplete. |
+| **Profile or record as reviewer.** | A selected PCP, checklist, filled findings form, result episteme, or published review record is said to have performed the review, repaired the pattern, admitted it, supplied assurance, or authorized downstream use. | Method, assignment, review/repair/verification work, applications, claims, evidence use, and decision authority collapse. | Recover each exact object and direct relation; let profiles declare checks and records package refs only. |
 | **Verdict-only review** | Independent review ends with pass/fail or prose complaints but no complete actionable finding set, or repair-mode review reports defects without repairing and rechecking them. | Leaves later work to rediscover diagnosis or mistakes an intention to repair for a completed repair. | In independent review, record every actionable in-scope defect and blocker with precise direction; in inspect-repair-verify, repair and verify them. Questions with no defect get no durable pass recital. |
 | **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus risk-selected profiles; use `E.21` only when a pattern-version quality value is being evaluated. |
 | **Template-only compliance** | All headings exist, but requirements are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |

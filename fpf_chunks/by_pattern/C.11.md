@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.11.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
-line_start: 46006
-line_end: 46721
+line_start: 46163
+line_end: 46878
 dependencies:
   - "A.13"
   - "A.18"
@@ -74,7 +74,7 @@ If that first output still cannot be written honestly, the current comparison st
 - What next probe could still change the choice, if any?
 - Is this still local choice, or has the question already moved to search, pool policy, publication, or enactment?
 
-**Typical reroutes.** `C.18` when the real question is still inventing or reframing options; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13 / C.9` when the hard question is agenthood rather than choice; `A.18 / A.19` when the mathematical support question itself becomes primary.
+**Typical reroutes.** `C.18` when the real question is still inventing or reframing options; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice (planned `C.9` is future characteristic-profile consolidation only); `A.18 / A.19` when the mathematical support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat selected-set publication or shortlist semantics as if they were the same question as deciding.
 
@@ -148,7 +148,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 1. **Fix the chooser and the choice-bearing level.**
    State one `DecisionSubject` and one `DecisionSubjectGranularity`.
-   If the real dispute is still about who or what counts as the chooser, coordinate with `A.13 / C.9` instead of hiding that dispute inside one local choice.
+   If the real dispute is still about who or what counts as the chooser, coordinate with `A.13` instead of hiding that dispute inside one local choice; planned `C.9` may later consolidate an agency-characteristic profile but supplies no current governing force.
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
@@ -414,7 +414,7 @@ Typical practical cash-outs are:
 - `choose now` because delay itself now worsens the state being managed, closes the window in which the preferred option remains feasible, or leaves no lawful time for one more socially mediated check;
 - `reroute` because the question has already become enactment sequencing or agent-characterization work rather than local choice.
 
-`C.11` keeps the choice question visible there, but `A.13` and `C.9` still govern the narrower question of what kind of agent or agential system is in play, and `C.24` still governs later sequencing and enactment once a choice result has already been fixed.
+`C.11` keeps the choice question visible there, but `A.13` still governs the narrower question of what kind of agent or agential system is in play; the A.17/A.18/A.19/C.16/A.10 stack governs measured characteristic and evidence claims, while planned `C.9` may only consolidate that profile later. `C.24` still governs sequencing and enactment once a choice result has already been fixed.
 
 Do not invoke this line only because one agent is acting in the world. Invoke it when embodied coupling, online updating, or explicit social-expectation pressure actually changes what the chooser should do now from the current `OptionSet`.
 
@@ -620,7 +620,7 @@ The family map also remains plural: causal, success-first, active-inference, and
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than candidate generation. | Keeps `C.18` outside and prevents search takeover. |
-| `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13` or `C.9`. | Prevents unwanted narrowing of the chooser. |
+| `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13`; measured characteristic and evidence claims use the A.17/A.18/A.19/C.16/A.10 stack, and planned `C.9` supplies no current governing force. | Prevents unwanted narrowing of the chooser. |
 | `CC-C11.3` | The pattern **SHALL** state the `C.11 / C.18 / C.19 / C.24 / G.5` split explicitly in the body. | Prevents collapse of choice doctrine, candidate generation, candidate-pool policy, planning, and selected-set publication. |
 | `CC-C11.4` | `Solution` **SHALL** state one inspectable decision procedure from `DecisionSubject` and `OptionSet` through comparison basis, dependence layer, probe-worthiness test, one explicit `ChoiceRule`, and one emitted `ChoiceResult`. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
 | `CC-C11.5` | The pattern **SHALL** name one minimal decision inventory including `DecisionSubject`, `DecisionSubjectGranularity`, `OptionSet`, `PreferenceOrder`, `EvaluativeMeasure`, `BeliefState`, `OutcomeModel`, `ChoiceRule`, `ChoiceResult`, `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`. | Keeps the calculus objectual rather than slogan-like. |
@@ -713,7 +713,7 @@ Worked-slice discipline from these rows:
 
 ### C.11:12 - Relations
 
-- **Builds on:** `A.6.P`, `A.6.5`, `A.13`, `C.9`, `A.18`, `A.19`
+- **Builds on:** `A.6.P`, `A.6.5`, `A.13`, `A.18`, `A.19`; **coordinates with:** planned `C.9` only as a future agency-characteristic-profile consolidation
 - **Read next when this question leaves local choice:** `C.18` for candidate generation and open-ended search, `C.19` for one explicit pool-policy result over exploration or exploitation governance, `C.24` for one enactment-facing call plan or `CheckpointReturn`, `G.5` for shortlist-family public selected-set label and emitted selected-set semantics, `C.28` when the choice result depends on causal-use support
 - **Keeps outside:** candidate generation, pool-wide exploration or exploitation policy, selected-set publication semantics, and execution sequencing
 - **Aligns with:** classical evidential decision theory, causal decision theory, success-first or subjunctive repair, bounded-resource metareasoning and probe-cost doctrine, `C.28` causal-use question/rung/support vocabulary, active-inference-adjacent decision work, quantum-like contextual repair where context or order effects are real, and multilevel mathematical-lens pressure at the minimal-floor level only

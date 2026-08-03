@@ -6,14 +6,25 @@ section_id: "E.4.DPF.DA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:5 — Archetypal Grounding"
-line_start: 70734
-line_end: 70745
+line_start: 71083
+line_end: 71094
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
   - "A.19.ECS"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
   - "E.4.PFAD"
@@ -31,12 +43,13 @@ dependencies:
   - "F.18"
   - "G.11"
   - "G.2"
+  - "U.Method"
 keywords:
 ---
 
 ### E.4.DPF.DA:5 - Archetypal Grounding
 
-Tell: A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. `E.4.DPF.DA` can mark it `seedOnly` with high values for first-entry utility and low values for source-currentness, heterogeneous probes, relation records, or refresh. That is not failure; it is an honest package status and a next repair route.
+Tell: A personal-development DPF is generated in one short run. It may have useful principles and pattern seeds. Dated evaluation Work applies the package-adequacy Method and the aggregate C.2.1 result can state local status `seedOnly`, with high coordinate claims for first-entry utility and low claims for source currentness, heterogeneous probes, relation records, or refresh. The prompt output, table, Work, result episteme, and local status remain distinct. That status is not failure or admission; it is an honest package-use result and next repair route.
 
 Show: A domain DPF all-in-one publication carrier contains domain patterns, a source-use map, a Core-bridge map, relation records, and heterogeneous acceptance cases for several user situations. `E.4.DPF.DA` asks whether those cases actually force the pattern set to solve different domain problems, whether source rows changed pattern obligations, whether maps are reachable during work, and whether the package's local evaluation pattern can feed `E.22`/`E.23` without becoming a hidden Core dependency.
 

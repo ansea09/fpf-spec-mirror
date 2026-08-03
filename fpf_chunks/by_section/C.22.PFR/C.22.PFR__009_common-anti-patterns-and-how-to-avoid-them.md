@@ -6,12 +6,12 @@ section_id: "C.22.PFR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51520
-line_end: 51534
+line_start: 51748
+line_end: 51762
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,12 +26,6 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual adverse condition"
-  - "actual adverse episode"
-  - "assessment and evidence separation"
-  - "condition-to-predicate input rule"
-  - "exact problem-for entity and use"
-  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:8 - Common Anti-Patterns and How to Avoid Them

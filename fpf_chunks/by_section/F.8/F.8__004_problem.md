@@ -6,12 +6,12 @@ section_id: "F.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:2 — Problem"
-line_start: 91160
-line_end: 91172
+line_start: 91701
+line_end: 91715
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -56,12 +57,14 @@ keywords:
 
 Without this pattern:
 
-1. **Local phrases become durable names.** A temporary phrase outlives its context and looks like FPF vocabulary.
-2. **Source names capture FPF.** One tradition's word becomes the selected FPF name before cross-context fit is shown.
+1. **Local phrases become durable names.** A temporary phrase outlives its use and looks like FPF vocabulary.
+2. **Source names capture FPF.** One tradition's word becomes the selected FPF name before its local sense and cross-local fit are shown.
 3. **Role expressions become role ontology.** `EvidenceRole`, `RequirementRole`, `AccessRole`, or `ProviderRole` is promoted without checking whether a work-facing `U.Role` exists.
 4. **Role names hide assignments.** A RoleDescription label is treated as if a holder already has the role.
-5. **Concept-Set rows overreach.** A row admitted for naming is reused for assignment, measurement, or structural inference.
-6. **Aliases change meaning.** A prettier label is introduced but silently changes kind, scope, or use.
+5. **Public rows overreach.** A row admitted for naming is reused for assignment, measurement, equivalence, or structural inference.
+6. **Aliases change meaning.** A prettier label is introduced but silently changes kind, scope, occurrence identity, or use.
 7. **Kernel inflation follows comfort.** A new U-kind is proposed because existing names feel awkward.
-8. **Policy ids appear as strings.** A policy identifier is reused or introduced without a resolvable policy specification and decision trace.
+8. **Policy identifiers appear as strings.** A policy identifier is reused or introduced without a separately resolvable policy specification and mint decision.
+9. **Decision records act by proxy.** A filled card or record is treated as if it performed the decision or created its governed value.
+10. **Locality labels become objects.** A review, team, project, or date label is made into a generic context and then used to manufacture work, roles, evidence, status, or authority.
 

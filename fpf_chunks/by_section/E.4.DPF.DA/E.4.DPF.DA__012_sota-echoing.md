@@ -6,14 +6,25 @@ section_id: "E.4.DPF.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__012_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:11 — SoTA-Echoing"
-line_start: 70802
-line_end: 70811
+line_start: 71155
+line_end: 71174
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.15.1"
   - "A.19.ECS"
+  - "A.2"
+  - "A.2.1"
+  - "A.2.6"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
   - "C.33"
   - "C.34"
   - "C.35"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF"
   - "E.4.PFAD"
@@ -31,6 +43,7 @@ dependencies:
   - "F.18"
   - "G.11"
   - "G.2"
+  - "U.Method"
 keywords:
 ---
 
@@ -43,4 +56,14 @@ keywords:
 | Pattern-language validation needs worked cases and near misses, not only section presence. | Riehle, Harutyunyan, Barcomb, `Pattern Discovery and Validation Using Scientific Research Methods`, arXiv:2107.06065, 2021 current validation-practice source; Iba, `Pattern Languages as Media for the Creative Society`, arXiv:1308.1178, lineage for pattern-language use. | Coordinate `D8`, `Archetypal Grounding`, and anti-patterns require heterogeneous probes and transfer checks. | Adopt validation pressure; route detailed pattern-body quality to `E.21`. |
 | Architecture descriptions and publication carriers do not equal the architecture or package adequacy. | `ISO/IEC/IEEE 42010:2022`, current architecture-description standard ref. | Coordinates `D5` and `D9`, publication-carrier anti-pattern, and map-hoarding near miss separate publication carriers from package structures. | Adopt description-boundary discipline; adapt through `C.33`, `C.34`, `E.11`, and `E.17`. |
 | Quality measures can become targets and make the object worse. | Goodhart, Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines already carried through `E.2.DA`, `E.13`, `E.21`, `E.22`, and `E.23`. | `Solution`, `Conformance Checklist`, and anti-patterns forbid all-`5`, source-count, map-count, or review-proof targeting. | Adopt proxy-risk discipline; values rise only through package-use improvement. |
+
+**Source-currentness front.** Apply the five decisions above only within the source role and qualification basis below. When the named smallest change occurs, use `G.11` to reopen only the affected coordinates, case, boundary, or proxy rule and return the changed source role to `G.2`; a newer date alone does not reopen the package.
+
+| Decision source | Currentness role and qualification basis | Smallest material reopen condition |
+| --- | --- | --- |
+| Xtext empirical study | `current empirical input` for the adopted co-evolution pressure, qualified through the cited 2025 study edition and only for terminology/example/usability/evaluation co-evolution rather than DPF ontology. | A later comparable empirical study contradicts that co-evolution pressure or identifies a different adoption/currentness failure that would change `D1`, `D2`, `D6`, `D9`, or `D10`. |
+| SPLE survey | `current survey input`, qualified through the cited 2026 arXiv edition for reusable-core dependency, adoption, tooling, and evolution practice; software feature-model semantics remain rejected as default DPF ontology. | A superseding survey or systematic review materially changes the reusable-core, reverse-dependency, adoption, tooling, or evolution discipline used by `D4`, `D5`, `D9`, `D10`, `PFM4`, or `PFM7`. |
+| Pattern validation and Iba | Riehle et al. 2021 is `current validation-practice input` through the cited edition; Iba 2013 is `lineage` for pattern-language use, not current validation evidence. | New validation evidence changes the need for heterogeneous worked cases, near misses, or transfer probes, or a replacement lineage source changes the pattern-language-use rationale that supports `D8`, Archetypal Grounding, or its anti-pattern boundary. |
+| ISO/IEC/IEEE 42010 | `current normative reference`, pinned to the exact 2022 edition for the architecture-versus-architecture-description boundary. | A superseding edition or amendment materially changes that boundary or the governed use of architecture descriptions, requiring revision of `D5`, `D9`, the publication-carrier anti-pattern, or the map-hoarding near miss. |
+| Proxy-risk line | Goodhart and Campbell are `lineage`; current applicability is supplied through the named current neighboring FPF sources `E.2.DA`, `E.13`, `E.21`, `E.22`, and `E.23`, qualified to their current editions and their content-evaluation use. | One of those direct FPF sources changes the proxy-risk or substantive-improvement rule, or later evidence materially changes when score, source, map, or review-proof targeting harms the evaluated package; reopen the affected Solution, checklist, or anti-pattern rule only. |
 

@@ -6,12 +6,12 @@ section_id: "F.17:13.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__016_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:13.5 — Conformance Checklist"
-line_start: 95221
-line_end: 95231
+line_start: 96126
+line_end: 96139
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,7 +47,6 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
@@ -53,10 +54,13 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| `CC-F17-1` | The row names the governed value, its exact kind, and the direct governing pattern before naming choices are published. |
-| `CC-F17-2` | Every local sense resolves to one exact by-value reference scheme, one local expression, and one local-sense claim. When the endpoint `<ReferenceScheme, LocalSenseClaim>` projections differ, the row cites an obtaining F.9 Bridge first, then an affirmative C.2.1 claim for the exact row use, direction, rule, and tolerance, plus its current A.10 or B.3 reliance basis. Same projection plus another expression stays a designation question; scheme difference alone proves no Bridge; no current correspondence use creates no Bridge or use claim. A negative bounded-use claim rejects the exact named row use; a non-passing reliance result stops or narrows the current use according to its exact A.10 or B.3 disposition; neither changes whether the Bridge obtains or how it is identified. |
-| `CC-F17-3` | Tech and Plain names are selected under naming patterns after the governed value is stable. |
-| `CC-F17-4` | Admissible use, blocked use, row edition, and currentness condition are present. |
-| `CC-F17-5` | Role, status, evidence, source, publication, description, method, work, relation, slot, interface, and characteristic claims remain under direct patterns. |
-| `CC-F17-6` | A scheme-based SenseCell uses `NameCardRef` only for its naming settlement and separately cites every relied-on local-sense basis through `LocalSenseBasisRelation@Context` with exact value-kind and ref-kind pairs; the suffix adds no context participant. |
+| `CC-F17-1` | One exact governed value, its exact kind, direct owner, and proposed row use were recovered before the row. |
+| `CC-F17-2` | F.14 was applied at every current card, cell, and row gate, and the lightest sufficient naming disposition was tried first. |
+| `CC-F17-3` | Row episteme, NameCard, designation expressions, governed value, reference, exact SenseCell, basis relation, and any F.9 Bridge remain distinct. |
+| `CC-F17-4` | Every cell resolves to an effective by-value ReferenceScheme, exact expression, and local-sense claim; no generic context field or selected structure substitutes for them. |
+| `CC-F17-5` | Every actual `LocalSenseBasisRelation` has exactly the cell and basis episteme as participants; descriptions, source units, publication occurrences, forms, and carriers stay separate. |
+| `CC-F17-6` | Any F.9 Bridge actually obtains between exact cells; the separate use claim and A.10/B.3 reliance are visible only when that row use is current. |
+| `CC-F17-7` | Admissible use, blocked use, row edition id, currentness condition, and any exact C.2.1 edition relation are recoverable without treating designators as identity. |
+| `CC-F17-8` | If availability is claimed, exact E.24.PUB expression, bearing, and publication occurrences are recoverable independently from the row and from rendering or upload Work. |
+| `CC-F17-9` | Multi-view naming uses three separate rows: `U.Viewpoint` names same-individual P only under E.17.0's fixed-content/selected-S predicate; `U.View` names same-individual E only after exact E/P conformance obtains; and `EpistemeViewpointConformanceRelation` names the two-participant pair-determined direct kind. References, designators, NameCards, RelationSignature, occurrences, construction, and publication grant none of those results. |
 

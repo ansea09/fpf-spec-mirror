@@ -6,12 +6,12 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 90724
-line_end: 90761
+line_start: 91264
+line_end: 91301
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,7 +61,7 @@ performedUnderAssignment:
   RoleAssignmentSlot: RoleAssignment-17
 ```
 
-The assertion interval describes the known extent of `RoleAssignment-17`; the direct assignment predicate must actually obtain throughout `InspectionWork-17` before `performedUnderAssignment` obtains. The relation attributes the inspection occurrence to Robot-7 under that assignment. Sensor capability, calibration state, inspection-method adequacy, report quality, and acceptance remain separate claims.
+The assertion interval describes the known extent of `RoleAssignment-17`; the direct assignment predicate must actually obtain throughout `InspectionWork-17` before `performedUnderAssignment` obtains. The relation attributes the inspection occurrence to Robot-7 under that assignment. Separately, `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)` names the exact enacted method, while `TurbineInspectionProcedure-v3` may be cited as a distinct description episteme only if the receiving use needs it. Robot-7 is the actor; `InspectorRole`, a sensor capability or statement that Robot-7 possesses an inspection algorithm, the method, and the procedure do not perform the inspection. Algorithm-possession wording alone establishes neither the work attribution nor `TurbineInspectionProcedure-v3 : U.MethodDescription`. Calibration state, inspection-method adequacy, report quality, and acceptance remain separate claims.
 
 #### F.6:7.2 - Reviewer and Review Report
 

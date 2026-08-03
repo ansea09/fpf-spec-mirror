@@ -6,13 +6,24 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 70414
-line_end: 70478
+line_start: 70679
+line_end: 70743
 dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.22.CGUS"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.30.AD"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
@@ -64,7 +76,7 @@ Replayable authoring slice:
 
 | Authoring output | Filled slice |
 | --- | --- |
-| Context declaration | `GreenhouseCropDomain`, intended reader: crop-system architect and senior grower; first use: decide first pattern set for cucumber production guidance |
+| Domain or local use-frame declaration | `GreenhouseCropDomain`; effective scheme and ClaimScope named; intended reader: crop-system architect and senior grower; first use: decide first pattern set for cucumber production guidance; non-use and qualification window explicit |
 | `G.2` source pack | greenhouse climate-control sources, crop nutrition sources, local production logs; rejected source: generic gardening advice without controlled-environment evidence |
 | Architecture decision | `PFAD-HC-001` selects four first patterns, a publication or access carrier, and a one-way dependency on FPF Core; the domain framework is not incorporated into FPF Core |
 | Naming route | provisional `HydroponicCucumberPrincipleFramework`; the public abbreviation remains provisional until an `F.18` NameCard is current |
@@ -82,15 +94,15 @@ If a seminar instead needs to show alternative continuations for invalid measure
 
 #### Pre-PFAD proposal slice
 
-A team intends a new clinical-method DPF but has not decided its framework architecture. It creates one current `U.WorkPlan` for DPF authoring, then one `IntendedFrameworkResultDescription@Context` grounded in the exact admitted team holon. `FrameworkOrganizationDesignProposal@Context` uses that description as its EntityOfConcern and proposes candidate pattern-family, dependency, publication, and access relations in one ClaimGraph. The proposal is the current result. No future framework entity, actual architecture, or architecture description is asserted.
+A team intends a new clinical-method DPF but has not decided its framework architecture. It creates one current `U.WorkPlan` for possible future DPF-authoring Work, then one C.2.1 `IntendedFrameworkResultDescription` whose identity is its exact intended-result ClaimGraph, that WorkPlan as EntityOfConcern, and its effective ReferenceScheme; ClaimScope remains separate. `FrameworkOrganizationDesignProposal` uses that description as its EntityOfConcern and proposes candidate pattern-family, dependency, publication, and access relations in one ClaimGraph. The proposal is the current result. No future framework entity, actual architecture, architecture description, dated Work, or production relation is asserted.
 
 #### Coverage and acceptance slice
 
 The proposal's medication-review coverage criterion names the pattern families whose representation is necessary for that declared use. One constraint claim node names the covered relation-family refs with exact kinds, that admitted use, and the coverage criterion. The authoring WorkPlan separately cites an acceptance target for review completion. C.33 uses the coverage node as comparator when evaluating proposal coverage; the WorkPlan target does not replace the criterion.
 
-#### Grounding stress slice
+#### Empirical-grounding and use-frame stress slice
 
-The intended-result description is grounded in `MedicationReviewTeam@Hospital-A`, an A.1-admitted holon. The proposal uses the same grounding ref. A request to ground the proposal in a different consortium stops E.4.DPF and returns first to C.2.1 and A.6.2. The pattern does not create a local bridge merely to keep drafting moving.
+The intended-result description has a separately obtaining `EpistemeEmpiricalGroundingRelation` to `MedicationReviewTeam@Hospital-A`, an A.1-admitted holon, covering the exact supported claim subgraph. The holon is not an episteme identity slot. A request to rely instead on a consortium first rechecks the empirical-grounding relation and evidence, effective ReferenceScheme, ClaimScope, and any independently selected BoundedModelUseStructure. Changing only the empirical ground changes that relation; changing the ClaimGraph, EntityOfConcern, or effective scheme identifies another episteme. F.9 opens only if an exact cross-context local-sense translation is actually current, not merely because the maintaining organization changed.
 
 #### Post-PFAD dependency slice
 

@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_invariants.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:5 — Invariants"
-line_start: 91274
-line_end: 91286
+line_start: 91841
+line_end: 91857
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -54,14 +55,18 @@ keywords:
 
 ### F.8:5 - Invariants
 
-1. **Kind before name.** The candidate's recovered kind or relation comes before the label decision.
-2. **One decision, one current use.** Mixed uses are split into separate decisions.
-3. **Local before cross-context.** Reuse local sense labels before proposing cross-context rows or new U-kinds.
-4. **Aliases are meaning-preserving.** An alias cannot change kind, scope, use, or authority.
-5. **Role names are work-facing.** A role name or RoleDescription label must point to a work-facing `U.Role`; status, evidence, access, source, publication, requirement, assurance, gate, decision, and relation-position uses are direct-pattern names.
-6. **Role assignment is not naming.** A name does not assign a holder and does not show that work was performed.
-7. **Rows do not exceed their admitted use.** F.8 may reuse a row only at the use declared by `F.7` and admitted by `F.9`.
-8. **New U-kind candidates are rare.** Cross-family recurrence, irreducibility, `E.24.UK` admission, and accepted decision basis are necessary.
-9. **Policy ids are resolvable.** A policy id needs a policy specification reference and, when introduced, a mint decision reference.
-10. **Source labels are not semantic authority.** A source term can be evidence for a local sense or alias, not automatic FPF vocabulary.
+1. **Governed value before disposition.** The candidate expression, exact governed value or relation, direct pattern, and one proposed use are named before any F.8 result.
+2. **One decision, one exact use.** Mixed expressions are split by governed value and use before deciding.
+3. **Lightest sufficient result.** Local phrase, existing designation, alias, direct-pattern name, and admitted row reuse are tried before a cell, NameCard, new row, policy identifier, or U-kind candidate.
+4. **Reuse preserves identity.** Reuse cannot change kind, scope, occurrence identity, local-sense claim, admitted use, or authority.
+5. **Local senses do not globalize.** Reusing a designation under one effective ReferenceScheme establishes neither sameness with another cell nor an F.9 Bridge.
+6. **Role names are work-facing.** A role name or RoleDescription label points to an independently recovered work-facing `U.Role`; status, evidence, access, source, publication, requirement, assurance, gate, decision, policy, and relation-position uses remain direct-pattern values.
+7. **Role assignment and Work are not naming.** A name, decision result, NameCard, cell, row, or identifier neither assigns a holder nor demonstrates performed Work.
+8. **Rows stay within admitted use.** F.8 may reuse an F.17 row only at its declared use and gains no equivalence from the row.
+9. **Decision occurrence and description stay distinct.** A C.2.1 result episteme or displayed record can describe a separately identified decision occurrence but cannot perform it.
+10. **Naming objects stay distinct.** Governed value, designation, alias, cell, basis relation, NameCard, row, identifier, publication occurrence, form, carrier, and currentness relation imply none of the others.
+11. **Selected structure is conditional.** A bounded-model-use Structure is cited only when independently selected organization changes interpretation for this exact use; it is not a generic locality or identity slot.
+12. **New U-kind candidates are rare.** Cross-family recurrence, irreducibility, `E.24.UK` admission, and accepted decision basis are necessary; F.8 itself admits no U-kind.
+13. **Policy identifiers are resolvable.** A policy identifier remains distinct from its policy specification, mint decision occurrence, and decision-result episteme or record.
+14. **Labels grant no authority.** Source titles, review labels, suffixes, rows, records, and identifiers create no ontology, evidence, status, equivalence, permission, or publication authority.
 

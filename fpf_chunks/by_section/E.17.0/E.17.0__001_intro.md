@@ -1,61 +1,50 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.0"
-pattern_title: "U.MultiViewDescribing - Viewpoints, Views & Correspondences"
+pattern_title: "Viewpoint and View Recognition for Multi-View Describing"
 section_id: "E.17.0:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences"
+  - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:intro — Intro"
-line_start: 78443
-line_end: 78465
+line_start: 78960
+line_end: 78975
 dependencies:
-  - "A.15"
-  - "A.2"
-  - "A.2.1"
+  - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.4"
+  - "A.6.5"
   - "A.7"
+  - "C.13"
   - "C.2.1"
-  - "E.10"
+  - "C.29"
   - "E.10.D1"
   - "E.10.D2"
   - "E.17"
   - "E.17.1"
   - "E.17.2"
   - "E.18"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemeSlotRelation"
-  - "U.EpistemicRetargeting"
-  - "U.EpistemicViewing"
-  - "U.ViewpointBundleLibrary"
+  - "E.24.PUB"
 keywords:
 ---
 
-## E.17.0 - `U.MultiViewDescribing` - Viewpoints, Views & Correspondences
+## E.17.0 - Viewpoint and View Recognition for Multi-View Describing
 > **Status:** Stable
-**Use this when.** A team has several descriptions or specification-use descriptions of the same entity of concern and needs to say which viewpoint each description uses, which view it yields, and which correspondences keep those views comparable without turning a diagram, document, or publication face into the described entity itself.
 
-**First output.** One `DescriptionContext` with `EntityOfConcernRef`, `BoundedContextRef`, `ViewpointRef`, the resulting view or view family, and any correspondence relation needed for the current comparison.
+**Use this when.** One or more epistemes are being read, compared, constructed, or published under explicit concerns, and the work must distinguish the described entity, the viewpoint, the view, any viewing construction, cross-view correspondence, and publication.
 
-> **Tech‑name:** `U.MultiViewDescribing`
-> **Plain‑name:** multi‑view describing (viewpoints, views, correspondence for families of Description epistemes and specification-use Description epistemes)
+**First useful result.** A readable judgment of the form `episteme E conforms to viewpoint edition P`, with the exact two epistemes recoverable. Add a designated relation occurrence, evaluation result, source-viewing relation, correspondence claim, or publication objects only when the next work or decision depends on them.
 
-**Status & placement.** Stable; Part E (Describing & Publication). Normative architectural pattern.
-**Builds on:** C.2.1 `U.EpistemeSlotRelation` (EntityOfConcern, Viewpoint, and View slots), A.6.2 `U.EffectFreeEpistemicMorphing`, A.6.3 `U.EpistemicViewing`, A.6.4 `U.EpistemicRetargeting`, A.7 (Strict Distinction; EntityOfConcern and Description-episteme boundary and specification-use gate versus publication-form and carrier relation positions), E.10.D1 (Context), E.10.D2 (EntityOfConcern and Description-episteme boundary and specification-use refinement discipline).
-**Used by:** E.17 (MVPK — publication as a specialisation of multi‑view describing for morphisms), E.17.1 `U.ViewpointBundleLibrary`, E.17.2 `TEVB`, E.18:5.12 (transformation-flow viewpoint-family map), domain‑specific description schemes (architecture, safety cases, governance, research).
+> **Tech-name:** `MultiViewDescribing`
+> **Plain-name:** recognizing viewpoints and views in multi-view describing
 
-**Kind, relation, and use guard.**
+`MultiViewDescribing` names this pattern's method. It is not a public U-kind, a family record, or an extra entity beside the epistemes and relations recovered below.
 
-**Family indexing rule.** `U.MultiViewDescribing` indexes families by `EntityOfConcernClass`, `EntityOfConcernRef`, bounded context, and viewpoint. `EoIClass*` and `DescribedEntity*` wording does not create a second view-family ontology; use the EntityOfConcern family.
+**Builds on:** C.2.1 for episteme identity; C.13 for collections; A.22 for selected structures; A.6.5 for relation-signature participant SlotSpecs; A.6.3 for an optional source-to-view construction relation; E.10.D2 for Description epistemes and specification use; E.24.PUB for publication; C.29 for representations.
 
-**C.2.1 relation-position binding.** `U.MultiViewDescribing` does not mint a generic semio kind. When the family describes or views knowledge claims, the claim-bearing value is `U.Episteme`; when that episteme is made available as a published episteme, use `U.EpistemePublication` or governed `U.Episteme` publication. Publication forms, episteme-side `U.View` values, MVPK faces, source-finding cues, SCR and RSCR carriers remain separate relation positions. If a family crosses into another FPF pattern or a non-pattern `authoritySourceRef` destination, name `governingPatternRef` or `authoritySourceRef` rather than a container label.
-
-* `U.Viewpoint` is the ValueKind of `ViewpointSlot` and denotes **viewpoint specifications**, not `publication-face kind` values or carriers.
-* `U.View` is the selected short form for `U.EpistemeView`, i.e. an **episteme-side view**, not a document or file. Views are epistemes; literal `publication face/form` and `interop publication form` are accepted `publication-face kind` values under publication-face-kind discipline; concrete renderings and carriers remain A.7, SCR, and RSCR concerns.
-* `ViewFamilyId` is a lexical tag for **families of viewpoints** (e.g. TEVB), never for view kinds, MVPK `U.View` values, `U.ViewFamily(-)` bundles, or `publication-face kind` values. MVPK face kinds remain `{PlainView, TechCard, InteropCard, AssuranceLane}`.
+**Used by:** E.17 publication, E.17.1 viewpoint bundles, E.17.2 TEVB, E.18 transformation-flow descriptions, and domain patterns that compare several views.
 

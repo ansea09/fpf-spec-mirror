@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
 section_id: "A.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__007_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
   - "A.2.5:4 — Solution"
-line_start: 4500
-line_end: 4611
+line_start: 4483
+line_end: 4584
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -25,113 +25,103 @@ keywords:
 
 ### A.2.5:4 - Solution
 
-Use `RoleStateRelation@BoundedContext` for the state-space relation of one `U.Role` in one `U.BoundedContext`.
+Start from a readable assertion:
 
-```text
-RoleStateRelation:
-  RoleValueRef:
-  BoundedContextRef:
-  RoleStateSet:
-  EnactableStateSet:
-  StatePredicateSet:
-  StateChangePredicateSet:
-  StateAssertionRelation:
-  RoleRelationStructureHooks:
-  UKindDisposition: non-U selected relation structure
-```
+> `Robot-7`'s current `InspectorRole` assignment satisfies `InspectionReady` throughout the inspection window.
 
-This is a relation value. A role description, policy, register, diagram, checklist, or publication may describe or store the relation value. The description or register is not the role-state relation itself by default.
+When a receiving use needs reusable participant typing, use the declared `RelationSignature`. When it needs occurrence identity, apply the world-side identity rule in section 4.3.
 
-Do not promote this object to a separate `U.*` kind. `RoleStateRelation@BoundedContext` has action-facing use because it controls role-state admission, but the identity is reducible to slot and relation combinatorics over existing governed values: `U.Role`, `U.BoundedContext`, role-state values, state predicates, state assertions, and the work-admission relation through `U.RoleAssignment`. The durable U-kind remains `U.Role`; A.2.5 supplies the selected state relation inside the role `ontologicalNeighborhood`.
+#### A.2.5:4.1 - Direct Relation Declaration
 
-#### A.2.5:4.1 - Core SlotSpecs
+This pattern directly governs the `RelationSignature` for `RoleStateRelation`:
 
-| SlotKind | ValueKind | Slot-use disposition | Meaning |
-| --- | --- | --- | --- |
-| `RoleValueRef` | `U.Role` | identity slot | The role value whose states are being described. |
-| `BoundedContextRef` | `U.BoundedContext` | identity slot | The context that gives state names and predicates their meaning. |
-| `RoleStateSet` | finite set of context-local state values | identity slot | The named states relevant to this role in this context. |
-| `EnactableStateSet` | subset of `RoleStateSet` | admission slot | The states that admit a work or method-step claim when a valid state assertion exists. Empty set is allowed when the role is never work-admitting in that context. |
-| `StatePredicateSet` | predicates over role characteristics, observations, evaluations, work records, speech acts, source relations, or context values | recognition slot | The predicates used to assert that a holder is in a state for a window. |
-| `StateChangePredicateSet` | predicates for entering, maintaining, or leaving states | consideration slot | Used when state change matters. It does not define method order. |
-| `StateAssertionRelation` | relation from role assignment, state, window, and evidence values to an assertion verdict | currentness-required when role-state admission is claimed | The relation that justifies "this role assignment is in this state for this window." |
-| `RoleRelationStructureHooks` | references to `A.2.7` role-requirement substitution, incompatibility, or bundle expressions | current when role relation structure affects admission | State-aware checks for role-requirement substitution, incompatibility, and bundles. |
+| SlotKind | ValueKind | refMode | Meaning |
+|---|---|---|---|
+| `RoleAssignmentSlot` | `U.RoleAssignment` | `U.EntityRef` | A reference resolving to the exact obtaining assignment occurrence whose holder-in-role state is current. |
+| `StatePredicateSlot` | `RoleStatePredicate` | `ByValue` | The exact predicate interpreted through that assignment's role-taxonomy episteme and effective reference scheme. |
 
-The SlotSpecs are open-world. A casual role-state note may only name role, context, and a state. A safety-critical work claim may require state predicates, evidence, assignment window, role-state window, capability checks, and method-step relation. Missing relevant content lowers or blocks the stronger claim; it does not assert that the value cannot exist.
+These are the only two generic participants. `RoleStateRelation` obtains exactly while the referenced assignment obtains and the by-value predicate is true under its declared temporal reading. Its actual extent is the maximal continuous interval of that obtaining. An affirmative assertion or occurrence description may state the known extent as `roleStateExtent` only for an independently established occurrence; a receiving evaluation may state a separate `declaredRoleStateEvaluationWindow`. Neither temporal value, assertion polarity, nor reliance posture is a relation participant or makes the relation obtain.
 
-#### A.2.5:4.2 - State and State Assertion
+When a selected `BoundedModelUseStructure` changes interpretation, designate it in the receiving assertion or work use. It is not an optional participant of generic `RoleStateRelation`. A genuinely structure-dependent relation species requires its own direct pattern, required structure participant, stronger predicate, and occurrence-identity rule.
 
-**Role state.** A role state is a context-local value in the `RoleStateSet` for one `U.Role` and one bounded context. Names such as `Ready`, `Calibrated`, `Suspended`, `Authorized`, `Stale`, or `Blocked` are local labels until their predicates are named.
+Evidence is not a participant that makes every role-state relation obtain. A relied-on assertion about the relation uses a direct evidence-use relation. Another world-side occurrence affects predicate truth only when the exact truth condition cites that occurrence under its direct governing pattern.
 
-**Enactable state.** An enactable state is a role state admitted by `EnactableStateSet`. A method-step claim or work-attribution claim that requires the role can use that state only with a current `StateAssertion`.
+#### A.2.5:4.2 - Predicate Meaning and Role-Taxonomy Locality
 
-**State assertion.** A `StateAssertion` says that one `U.RoleAssignment` is in one role state for one window, with named evidence or source relations.
+A `RoleStatePredicate` states one exact truth condition for one exact `U.RoleAssignment` under its declared temporal reading. Its by-value content names:
 
-```text
-StateAssertion:
-  RoleAssignmentRef:
-  RoleStateRef:
-  AssertionWindow:
-  PredicateEvaluation:
-  EvidenceOrSourceUseRefs:
-  AssertionStatus:
-```
+- the role-state designator under the effective reference scheme;
+- the exact truth-condition clauses, each naming its world-side object or relation and direct governing pattern;
+- the temporal reading, such as truth at an instant, throughout a receiving-use window, or for a declared tolerated portion of that window.
 
-`PredicateEvaluation` is governed by the evaluation or evidence pattern that owns the claim. The assertion does not make the evidence episteme a role holder.
+This list defines one predicate value; it is not a union kind. The direct claims keep their own kinds and governing patterns.
 
-#### A.2.5:4.3 - Enactable-State Admission
+The role-taxonomy episteme may state several predicates for one role. The direct consumer separately declares which predicate or conjunction its own admission rule uses. Predicates need not be mutually exclusive. `Calibrated`, `Synchronized`, and `InRange` can obtain simultaneously; `InspectionReady` may be a conjunction over them. Use an exclusive state configuration only when the subject-domain model actually needs one.
 
-Use this admission predicate when a method or work claim depends on role state:
+A shared label does not establish shared meaning. Reuse across role taxonomies needs either the same by-value predicate under a common effective scheme or an explicit comparison or bridge relation showing which truth and admission effects are preserved.
 
-```text
-EnactableStateAdmission:
-  requiredRole: U.Role
-  roleAssignment: U.RoleAssignment
-  requiredContext: U.BoundedContext
-  workOrMethodClaim:
-  window:
-  admitted iff StateAssertion(roleAssignment, state, window)
-              and state is in EnactableStateSet(requiredRole, requiredContext)
-```
+#### A.2.5:4.3 - Occurrence Identity and Repeated Episodes
 
-This predicate admits or blocks the work or method-step claim. It does not create work, select a method, grant capability, or prove that work occurred.
+Do not replace the identity rule with a tuple key. One `RoleStateRelation` occurrence begins when one fixed `U.RoleAssignment` starts satisfying one fixed `RoleStatePredicate` under that predicate's temporal reading. It continues while the assignment obtains and the predicate remains true without interruption. It ends when the assignment ceases, the predicate ceases to hold, or either participant changes. A later return to truth starts another occurrence.
 
-#### A.2.5:4.4 - State Predicates and State-Change Predicates
+An affirmative assertion or occurrence description may state the currently known `roleStateExtent` for an occurrence whose obtaining A.2.5 independently establishes. Recording an end boundary for a previously open extent refines the description of the same occurrence when assignment obtaining and predicate truth were uninterrupted. A demonstrated predicate gap separates occurrences. Two descriptions refer to the same occurrence only when they resolve to the same assignment, the same predicate value, and temporal information belonging to that one uninterrupted period.
 
-State predicates answer: **is this assignment in this state for this window?**
+A changed evidence relation, assertion edition, dashboard display, selected model-use structure in a receiving use, or publication does not create a new world-side occurrence while the same predicate continues to hold. A genuinely structure-dependent relation species can have another identity law only under its own direct pattern.
 
-Examples:
+An evidence gap gives the receiving use unresolved reliance on the assertion. It does not demonstrate a gap in predicate obtaining or add a third assertion polarity. A direct observation or constituting occurrence may demonstrate such a gap only when its governing pattern supports that stronger world-side claim.
 
-- `CalibrationAge <= 30 days`;
-- `AuthorizationDecision exists within the stated window`;
-- `FatigueScore below threshold`;
-- `IndependenceFrom(holder, conflictingAssignment) is true`;
-- `ObservationProcedureActive and calibration trace is current`;
-- `NoOpenIncident above declared severity`.
+#### A.2.5:4.4 - Assertion and Evidence Use
 
-State-change predicates answer: **what evidence or event changes the state relation?** They may reuse the same observations or decisions, but their use is different. A predicate that says calibration expired can justify a `Stale` state assertion; it still does not prescribe the method order for recalibration work.
+For a relied-on role-state claim, keep this order:
 
-#### A.2.5:4.5 - Role Relation Structure Hooks
+1. name the exact `U.RoleAssignment`, by-value `RoleStatePredicate`, exact direct role-state claim family, and affirmative or negative assertion polarity;
+2. when A.2.5 independently establishes that the relation obtains and a receiving use needs occurrence identity, individuate it under section 4.3; neither negative polarity nor unresolved reliance invents an occurrence;
+3. state a `RoleStateAssertion : U.Episteme` whose ClaimGraph carries the predicate, exact direct claim-family reference, affirmative or negative `assertionPolarity`, the known `roleStateExtent` only for an affirmative claim about an independently established occurrence, and any separately current `declaredRoleStateEvaluationWindow`; leave compact first evidence-use or status-use classification to `A.2.4`, and keep supported, refuted, or unresolved reliance with `A.10` or the separately constituted receiving-evaluation result or reliance assertion;
+4. if a selected model-use structure changes this interpretation, designate it in that assertion or receiving use rather than in the generic relation;
+5. use `A.2.4` for compact evidence use, expanding through `A.10` only when fuller evidence-basis detail changes the relied-on use;
+6. let the direct consumer use the supported assertion under its own governing pattern.
 
-When `A.2.7` declares role-requirement substitution, incompatibility, or bundle expressions, A.2.5 adds state-sensitive admission.
+When role-state evaluation itself is current, name the exact evaluation work `W_eval : U.Work`, the admitted system that performed it, and the exact evaluator assignment through `F.6` `performedUnderAssignment(W_eval, RA_eval)`. Any separately constituted evaluation result is a `C.2.1` episteme whose ClaimGraph states the role-state judgment about the subject assignment or independently established occurrence. That work, its performer and assignment, the result episteme, its provenance under exact direct relations, and the receiving reliance evaluation remain neighboring governed objects; none becomes a `RoleStateRelation` participant or identity discriminator.
 
-| Role relation | State-sensitive reading |
-| --- | --- |
-| `AcceptedRoleForRequirement <= RequiredRole` | A state assertion for the accepted role can satisfy the required-role requirement only when the context declares a state refinement relation and enactability is preserved. |
-| `RoleA incompatibleWith RoleB` | The conflict is usually about overlapping enactable states for one holder in one window, not about labels alone. |
-| `RoleA plus RoleB` bundle | A work claim requiring both roles needs state assertions for both role assignments in the same window, unless the bounded context declares a composite role with its own `RoleStateRelation@BoundedContext`. |
+The actual role-state extent, target evaluation window, and evidence-relevance interval answer different questions. The first is derived from uninterrupted world-side obtaining. The second asks whether the predicate holds over a window selected by the receiving use. The third states when a particular episteme remains relevant enough to support the assertion. A calibration report can remain the same episteme while its relevance expires; that expiration lowers reliance without retroactively rewriting an earlier role-state occurrence.
 
-Do not construct product state spaces by default. Product states are admitted only when the bounded context actually maintains a composite role value and gives it its own `RoleStateRelation@BoundedContext`. A graph or state-machine diagram may describe that relation; it is not the relation in life.
+For the declared use, supported, refuted, or unresolved reliance belongs to the separately constituted receiving-evaluation result or reliance assertion. This posture is neither a third assertion polarity nor a world-side role-state value and does not enter relation identity.
 
-#### A.2.5:4.6 - Separation From Capability, Method, Work, Evidence, and Status
+#### A.2.5:4.5 - Work-Admission Use
 
-| Temptation | Recover as |
-| --- | --- |
-| "Assigned, therefore able" | Role assignment in `A.2.1` plus capability claim in `A.2.2`. |
-| "Ready, therefore work happened" | State assertion here plus performed-work claim in `A.15.1` only if a `U.Work` occurrence is named. |
-| "Authorized, therefore method selected" | Role-state or decision claim here; selected method remains governed by `A.3.1`, `A.3.2`, and `A.15`. |
-| "Report has evidence role" | Evidence-use relation around an episteme, not a role state. |
-| "Standard has normative role" | Requirement-use, standard-use, status-use, source-use, or publication-use relation around an episteme. |
-| "Dashboard is monitoring role" | Publication, interface, source, or evidence relation for the dashboard; observing work belongs to a holder under `U.RoleAssignment`. |
-| "`RoleEnactment` occurred" | Use `U.Work` with `performedBy = U.RoleAssignment`; use `RoleEnactmentFact` from `A.2.1` only as a derived fact when naming the fact helps. |
+A.2.5 supplies the current state relation and the exact `RoleStateAssertion` form with affirmative or negative assertion polarity. `A.10` or the separately constituted receiving-evaluation result or reliance assertion owns any supported, refuted, or unresolved reliance posture for the declared use. A.2.5 does not itself select a method, create a gate decision, or assert that work occurred.
+
+For a consequence-bearing admission use, the system performing the consumer's exact evaluation or decision work applies that consumer's direct governor and checks these conditions:
+
+1. the exact `U.RoleAssignment` obtains throughout the receiving decision or work window;
+2. the direct consumer declares one exact `RoleStatePredicate`; its truth condition may contain an explicit conjunction;
+3. each relevant assignment has an obtaining `RoleStateRelation` whose actual extent covers the receiving-use window under the same effective reference scheme or an explicit bridge relation;
+4. the assertion relied upon has the evidence relation and currentness needed by that consumer;
+5. every other admission condition used by that consumer is separately established under its direct governing pattern.
+
+The consumer's direct governor, not A.2.5, defines any admit, deny, defer, or unresolved outcome; exact system-performed decision work and its result remain separately governed. A.2.5 contributes no generic admission outcome; it contributes the exact state relation on which that decision work relies.
+
+#### A.2.5:4.6 - Role-Relation Structure Use
+
+When `A.2.7` selects role-substitution, incompatibility, or role-bundle relations, state sensitivity is expressed over exact assignments, predicates, and windows.
+
+- Substitution is preserved only when the candidate role's current predicate entails the selected admission predicate under the declared scheme or bridge.
+- Incompatibility is stated over the overlapping windows and predicate conditions in which the conflict actually appears.
+- A work claim needing several roles uses the relevant role-state occurrences for each assignment. It does not require a Cartesian product of every possible state label.
+
+If a role taxonomy declares a genuinely distinct composite `U.Role`, that role may have its own predicates and assignments. Mere conjunction for one work claim does not create a composite role value.
+
+#### A.2.5:4.7 - State-Machine and Change Lenses
+
+Use statecharts or state machines when mutually exclusive configurations, orthogonal regions, guarded changes, or event handling improve the subject-domain model. The notation describes possible configurations and changes; it does not replace the direct relation occurrence.
+
+A change arrow represents a proposed or observed change in predicate truth; it is not the world-side change by form. Recover the exact changed object or relation, then use the direct pattern governing the exact claim that establishes the change. The statechart neither supplies a common world-side kind nor prescribes method order by itself.
+
+When the model needs continuous coordinates rather than discrete labels, use `A.19` for the characteristic space and let the by-value state predicate select a region, band, ordering condition, or other exact condition over those coordinates. Measurement and evaluation stay with `C.16` and their direct patterns.
+
+#### A.2.5:4.8 - Interpretation Qualification in the Receiving Use
+
+Most role-state claims need no bounded-model-use structure. The assignment's role-taxonomy episteme and effective reference scheme already supply generic semantic locality.
+
+When an independently selected `BoundedModelUseStructure` changes how a receiving assertion or work use interprets the state predicate, designate that structure in that assertion or use. Do not add an optional participant to generic `RoleStateRelation`. The structure organizes model-use relations; it does not hold the role, evaluate the predicate, make the relation obtain, or admit the work.
 

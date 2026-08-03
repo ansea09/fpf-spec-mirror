@@ -6,41 +6,40 @@ section_id: "F.15:14"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__018_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:14 — Common Anti-Patterns and How to Avoid Them"
-line_start: 94164
-line_end: 94177
+line_start: 94856
+line_end: 94873
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -53,13 +52,17 @@ keywords:
 
 | Code | Anti-pattern | Symptom | Why it breaks | Harness catch and repair |
 | --- | --- | --- | --- | --- |
-| H1 | Row of one | A Concept-Set row spans one context | Fake unification | SCR-F15-S9 fails; drop the row or add the second SenseCell |
-| H2 | Bridge by label | Same name is assumed across contexts | Imports meaning and hides loss | SCR-F15-S12 fails; write a Bridge Card or withdraw the claim |
-| H3 | Silent edition swap | A new edition keeps the old context without a recency decision | Retcons earlier claims | RSCR-F15-E1 fails; declare new context or explicit recency |
-| H4 | Locality blur | A Local-Sense mixes contexts | Cross-context clustering | SCR-F15-S3 fails; split back by context |
-| H5 | Window as type | A time or scale variant becomes a new status type | Status-family inflation | SCR-F15-S14 or RSCR-F15-E11 fails; use F.10 value or window |
-| H6 | Role fusion by convenience | A bundle or incompatibility becomes one RoleDescription | Hides role relation structure and assignment checks | SCR-F15-S15 fails; use A.2.7, A.2.1, F.6, and A.15.1 |
-| H7 | Alias as merge | Alias hides meaning change | Loses history | RSCR-F15-E8 fails; mint new RoleDescription or row |
-| H8 | CL optimism | Bridges quietly strengthen over time | Over-trusts reuse | RSCR-F15-E9 or E10 fails; recheck witnesses and admitted use |
-| H9 | Plain label drift | Plain label suggests another kind | Reader imports wrong prototype | SCR-F15-T2 or T3 fails; repair label or add kind head and gloss |
+| H1 | Row by table shape | A local note or one-cell display is accepted or rejected solely by cell count | F.17 row truth depends on its episteme and gate, not shape; one-cell rows can be valid | SCR-F15-S9 checks the exact row and admitted use |
+| H2 | Bridge by label or Card | Same spelling or a filled Card is treated as relation truth | Imports meaning and hides occurrence/predicate boundaries | SCR-F15-S12/S13 require exact cells, profile, truth, dependencies, use claim, and reliance |
+| H3 | Silent edition swap | An edition or stable id is cited as continuity | Retcons exact earlier claims | RSCR-F15-E1 names exact refs and the direct continuity/change claim |
+| H4 | Locality blur | A local-sense label hides scheme, expression, or claim | Globalizes meaning | SCR-F15-S2/S3 recover the exact basis and SchemeSenseCell triple |
+| H5 | Window as type | A time, scale, phase, or confidence variant becomes a new status family | Status inflation | SCR-F15-S14 and RSCR-F15-E11 return to the direct status owner |
+| H6 | Role fusion by convenience | Description, bundle, incompatibility, or name becomes one role | Hides value, relation, assignment, and work | SCR-F15-S7/S15 return to F.4 and exact role-relation owners |
+| H7 | Alias as merge | Expression lineage hides value, scheme, or sense change | Loses history and identity | RSCR-F15-E7/E8 require exact continuity before alias treatment |
+| H8 | `CL` or witness optimism | Evidence shorthand silently strengthens relation or use authority | Confuses evidence, relation truth, and bounded use | RSCR-F15-E9/E10 re-test the exact occurrence and separate use claim |
+| H9 | Plain label drift | Plain expression suggests another kind or claim | Reader imports a wrong prototype | SCR-F15-T1-T4 return to the current F.18 settlement |
+| H10 | Scope membership as evidence | A member is considered supported because it is listed | Selection has no evidential force | CC-F15-3/9 require exact result and evidence refs |
+| H11 | Record performs check | Filling `StaticRuleResults` is treated as an application or Work | Erases occurrence and result identity | Cite A.6.1 application/A.15.1 Work and C.2.1 result separately |
+| H12 | Witness is result | A trace, example, or report is labelled `pass` | Carrier presence establishes no claim | Cite the result episteme and A.10 path separately |
+| H13 | Description replaces occurrence | Bridge, Structure, status, or row description is checked as the subject itself | Confuses description truth with world-side or governed object | Resolve the exact occurrence/value and keep its description as a neighbor |
 

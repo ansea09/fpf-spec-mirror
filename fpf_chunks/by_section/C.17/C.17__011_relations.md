@@ -6,15 +6,16 @@ section_id: "C.17:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__011_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:10 — Relations"
-line_start: 48574
-line_end: 48581
+line_start: 48802
+line_end: 48809
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.13"
   - "A.15"
   - "A.17"
   - "A.18"
@@ -53,7 +54,7 @@ keywords:
 
 * **A.2 Role & A.15 Run‑alignment.** Creative **Work** is performed by **systems in roles**; outcomes are **epistemes**. Creativity is **measured by `U.Evaluation`**, not “done by a document.”
 * **B.3 Trust/Assurance.** Coordinates carry **confidence bands**; Bridges lower **R** by **CL**. A.2.4 evidence-use relations bind datasets and benchmarks used in measurements.
-* **C.9 Agency Characteristic Profile.** Agency measures **capacity to originate**; a high‑agency system may still output low‑creativity outcomes (and vice versa with strong scaffolding).
+* **Agency characterization.** A.13 identifies agential participation and the domain profile; A.17/A.18/A.19/C.16/A.10 govern measured characteristics and evidence. Planned C.9 may later consolidate the profile but supplies no current governing force. A high-agency system may still output low-creativity outcomes (and vice versa with strong scaffolding).
 * **A.2.6 USM (Scope).** All measurements sit on **ContextSlices**; `G‑ladder` is explicitly **not** used (C.17 follows A.2.6’s set‑valued scopes).
 * **D‑cluster ethics.** **ConstraintFit** is where **must** constraints, ethics, and safety bind the evaluation; waivers are explicit **SpeechActs**.
 

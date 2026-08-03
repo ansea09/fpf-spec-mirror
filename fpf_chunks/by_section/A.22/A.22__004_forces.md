@@ -6,12 +6,12 @@ section_id: "A.22:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:3 — Forces"
-line_start: 34326
-line_end: 34336
+line_start: 34423
+line_end: 34433
 dependencies:
   - "A.1"
   - "A.1.1"

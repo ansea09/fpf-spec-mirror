@@ -6,12 +6,12 @@ section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:3 — Forces"
-line_start: 94565
-line_end: 94575
+line_start: 95264
+line_end: 95274
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,7 +47,6 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
@@ -53,10 +54,10 @@ keywords:
 
 | Force | F.17 settlement |
 | --- | --- |
-| Reader memory vs full provenance | Keep one compact row for use, with enough references to reopen the sense, bridge, and name decision. |
-| Local meaning vs reuse across different semantic-context projections | Local senses are exact coordinates under by-value reference schemes; every correspondence or substitution claim is explicit and governed by F.9. A changed scheme is only one way the projections can differ; a changed `LocalSenseClaim` under the same scheme also opens the F.9 question. |
-| Naming neutrality vs recognizability | `F.18` and `F.5` choose names that readers can use without smuggling one context's commitments into the row. |
-| Didactic grouping vs ontology | Blocks help memory; blocks do not create subtypes, roles, statuses, or families. |
-| Row stability vs edition change | Row ids survive reblocking and wording updates; edition-sensitive fields show what changed. |
-| Compact table vs semio-bias | The table publishes term decisions without replacing the direct pattern that governs the object. |
+| Reader memory vs full provenance | Keep one compact row while retaining exact reopening references. |
+| Local expression vs durable reuse | Prefer the light local disposition; open F.17 only at the public/Core/durable/cross-local threshold. |
+| Local sense vs globalized wording | Identify every cell under one exact by-value scheme and sense claim; spelling establishes neither sameness nor Bridge. |
+| Naming settlement vs governed value | The NameCard describes the naming decision; the direct pattern still owns the value and kind. |
+| Didactic grouping vs ontology | Optional blocks help navigation and create no subtype, part, role, or priority. |
+| Row stability vs revision and availability | Row id, row episteme, edition relation, publication occurrence, form, and carrier remain distinct. |
 

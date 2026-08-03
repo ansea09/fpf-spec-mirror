@@ -6,15 +6,17 @@ section_id: "A.6.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__014_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:12 — Relations"
-line_start: 20586
-line_end: 20592
+line_start: 20680
+line_end: 20686
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
+  - "A.15.6"
   - "A.2.1"
   - "A.2.6"
   - "A.22"
@@ -27,7 +29,9 @@ dependencies:
   - "C.29"
   - "C.3.3"
   - "E.17"
+  - "E.17.0"
   - "E.19"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.17"
   - "F.18"
@@ -53,6 +57,6 @@ keywords:
 
 * **Specialises:** A.6.P by restoring the concrete object and action hidden by cross-context sameness wording.
 * **Uses:** F.17 exact `SchemeSenseCell` identity; F.9 Bridge participants, relation-only profile, obtaining, occurrence identity, bounded-use boundary, and card boundary; C.2.1 claim identity and polarity; A.10 or B.3 for reliance.
-* **Coordinates with:** F.18 and F.5 for designation; A.7 and A.6.6 for lane and id repair; A.2.6 for scope operations; E.17, C.29, and A.6.3.RT for view, mathematical representation, publication, and transition; C.3.3 for classification transfer; A.22 for structures; direct policy or deontic patterns for authorization.
+* **Coordinates with:** F.18 and F.5 for designators; A.6.6 for identifiers; C.2.1 for effective reference scheme, episteme edition, and empirical grounding; A.2.6 for scope operations; A.15.6/A.15.1 for exact composite project Work; temporal and direct subject patterns for qualification windows; E.17.0 for viewpoint conformance and View membership; E.24.PUB for publication occurrence, form, and carrier; C.29 for mathematical representation; A.6.3.RT for same-EntityOfConcern representation transition with actual Work; C.3.3 for classification transfer; A.1.1/A.22 and the direct crossing governor for selected structures; direct policy or deontic patterns for authorization.
 * **Constrains:** every dependent use to cite an obtaining Bridge, state a separate C.2.1 claim for its exact direction, rule, tolerance, and polarity, recover current reliance, and keep any actual receiving object under its direct owner.
 

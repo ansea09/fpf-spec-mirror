@@ -6,12 +6,12 @@ section_id: "A.9:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__008_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:7 — Consequences"
-line_start: 22590
-line_end: 22598
+line_start: 22684
+line_end: 22692
 dependencies:
   - "A.1"
   - "A.8"

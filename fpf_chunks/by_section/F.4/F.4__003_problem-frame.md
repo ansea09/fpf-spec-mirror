@@ -6,12 +6,12 @@ section_id: "F.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:1 — Problem Frame"
-line_start: 89943
-line_end: 89950
+line_start: 90513
+line_end: 90520
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,7 +44,7 @@ keywords:
 
 ### F.4:1 - Problem Frame
 
-Role descriptions are useful because a role value needs a recognizable description before people can assign it, name it, compare it, or use it in a method requirement. A role such as `InspectorRole` is not self-explanatory. The project needs to know which bounded context gives it meaning, what kind of holder can bear it, which role invariants matter, and which neighboring checks may become current.
+Role descriptions are useful because a role value needs a recognizable description before people can assign it, name it, compare it, or use it in a method condition. A role such as `InspectorRole` is not self-explanatory. The project needs the exact role-taxonomy episteme and effective reference scheme that give the value its current meaning, the admitted holder kind, the role invariants that matter, and the neighboring checks that may become current.
 
 The recurring failure is to make the role description carry too much. A compact card is tempting: put role, status, permission, evidence, capability, method, assignment, work, and publication cues into one "assignable" template. That looks convenient but creates duplicate ontology. A standard used as a requirement source becomes a "standard role"; a report used as evidence becomes an "evidence role"; an access-control label becomes a behavioral role; a role name becomes proof of capability or proof that work occurred.
 

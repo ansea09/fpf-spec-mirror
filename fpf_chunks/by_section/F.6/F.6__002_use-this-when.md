@@ -6,12 +6,12 @@ section_id: "F.6:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_use-this-when.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:0 — Use This When"
-line_start: 90532
-line_end: 90557
+line_start: 91069
+line_end: 91094
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ Typical moments include:
 
 **What goes wrong if missed.** Assignment is treated as proof that work happened; a work log names a person but not the assignment episode; a context-like word hides the role taxonomy and interpretation scheme; or an episteme is made the performer because it described, constrained, or evidenced the work.
 
-**What this buys.** Work attribution becomes a direct, inspectable relation while role state, capability, method fit, evidence, source use, result, publication, and cross-scheme correspondence remain with their own governing patterns.
+**What this buys.** Work attribution becomes a direct, inspectable relation: the admitted holder system remains the actor, the dated Work separately enacts one exact `U.Method`, and role value, assignment, capability, method, method description, evidence, source use, result, publication, and cross-scheme correspondence remain with their own governing patterns.
 
 **Not this pattern when.** Use `A.2` for the role value, `A.2.1` for the assignment occurrence, `A.2.5` for a current role-state predicate, `A.2.2` for capability, and `A.15.1` for the work occurrence. Use `A.10`, `A.15.4`, `E.17`, or another direct pattern when the current claim is evidence use, source reliance, publication, status, gate, or decision. Use `A.6.5` when "role" means a relation position rather than a work-facing `U.Role`.
 

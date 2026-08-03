@@ -6,12 +6,12 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 85830
-line_end: 86072
+line_start: 86301
+line_end: 86602
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -35,16 +35,31 @@ keywords:
 
 ### E.21:4 - Solution
 
-`E.21` is the FPF pattern-quality specialization of `A.19.ECS`. It evaluates one pattern of concern under one declared quality claim.
+`E.21` declares the FPF pattern-quality `U.CharacteristicSpace`, its object-specific `A.19.ECS` evaluation specification, ordinal scale, complete result-shape rules, the local non-arithmetic `PatternQualityQBundle` result payload, and local result-status meanings. It does not itself inspect a pattern, perform assessment work, assign coordinate values, create evidence use, issue assurance, admit a pattern, or repair it.
 
-There is one evaluation shape:
+For one actual pattern-quality evaluation, keep independently recoverable:
 
-1. frame the object and use;
-2. apply the ordinal scale to every required coordinate;
-3. justify each value with `ShortRationale`;
-4. assign `PatternQualityStatus`;
-5. state stop, repair, architecture hold, or refresh condition;
-6. when improvement is requested, return proposal rows without changing the coordinate result into a work plan.
+1. one exact authored FPF pattern edition or bounded version as the checked object;
+2. the declared `ClaimScope`, working reader, intended receiving use, qualification window, evidence basis, and evaluation configuration;
+3. the selected `U.CharacteristicSpace`, this E.21 evaluation-specification episteme, every coordinate/scale binding, and the local result-form and status-value rules;
+4. one separately identified semantic evaluation `U.Method`;
+5. the evaluator `U.System`, obtaining `U.RoleAssignment`, dated assessment `U.Work`, enacted method, and exact A.6.1 evaluation application/bindings;
+6. every coordinate-result claim, their same-bearer non-arithmetic `PatternQualityQBundle` ClaimGraph payload, and one C.2.1 aggregate pattern-quality-result episteme when a durable result is needed;
+7. witnesses, comparator/source/case refs, exact A.10 evidence-use/provenance relations, and any B.3 assurance or reliance result;
+8. an optional evaluation-record episteme that packages those refs without performing assessment or creating the result;
+9. the local `PatternQualityStatus` value and any separate F.10 status use/interpretation, E.19 admission or refresh decision, project gate or authority decision, publication, and currentness relation; and
+10. later E.23 improvement or other repair work and its changed pattern edition.
+
+Each coordinate-result claim is one quality ascription about the exact checked pattern edition. It keeps recoverable the bearer, effective ReferenceScheme, characteristic, scale value, evaluation rule or probe, comparison/calibration frame when used, `U.ClaimScope`, intended use, qualification window, assessment application, short rationale, and evidence locus. The complete same-bearer coordinate set forms the non-arithmetic `PatternQualityQBundle` payload carried by the aggregate result episteme; it is not an average, score, characteristic space, or second result. The evaluator system, evaluator viewpoint episteme if any, witness set, optional record, and receiving status or admission use remain separate.
+
+One conforming assessment/result shape applies:
+
+1. configure the checked pattern edition, scope, use, reader, window, characteristic space/specification, semantic evaluation method, and evidence basis;
+2. let dated evaluator work enact that method through the exact A.6.1 application/bindings and apply the ordinal scale to every required coordinate;
+3. constitute every coordinate-result claim with `ShortRationale` and the aggregate result episteme;
+4. assert the local `PatternQualityStatus` in that result;
+5. state its stop, repair, architecture-hold, or refresh condition; and
+6. when improvement is requested, return distinct finding or proposal claims without changing the coordinate result into a work plan or making the evaluation specification perform repair.
 
 There is no separate pre-check result. If a pattern lacks frame, first move, source basis, mature comparison, or naming clarity, the relevant coordinates fall.
 
@@ -52,37 +67,81 @@ There is no separate pre-check result. If a pattern lacks frame, first move, sou
 
 | Local name | Kind and function |
 |---|---|
-| `PatternQualityEvaluation` | Authored quality evaluation record over one pattern of concern. |
-| `PatternOfConcernRef` | FPF pattern named by value that this `E.21` evaluation makes the pattern of concern: host, monolith section, edition, or pinned version. `PatternOfConcern` is relation-relative: the same pattern can also be the pattern of concern in another use, review, or evaluation flow, for example when a reader selects, applies, or reviews that pattern. This row names the concern of the quality-evaluation flow, not a special kind of pattern and not a second text. The evaluated pattern also has its own primary `EntityOfConcern`: the subject that its Problem, Solution, or guidance is about. FPF patterns are applied to situations, claims, texts, or work objects. Use `governing pattern` only in the typed form `governing pattern for <claim, relation, or boundary>` when the pattern actually governs that specific item; use `related pattern` for a looser pattern relation; use `relation` only for the relation itself. |
+| `PatternQualityEvaluation` | Compatibility compound label for the configured evaluation package. Any use resolves to the exact characteristic space/specification, configuration, assessment application/work, result episteme, witnesses/evidence-use relations, and optional record rather than treating this label as one kind or actor. |
+| `PatternQualityCharacteristicSpaceRef` | Reference to the exact A.19 `U.CharacteristicSpace` whose slots are the required E.21 coordinates and whose bindings use the E.21 ordinal scale; not an assessment, result, or record. |
+| `PatternQualityEvaluationSpecRef` | Reference to this object-specific A.19.ECS evaluation-specification episteme: applicability, coordinate and scale meanings, evidence/missingness rules, calibration, result shape, local status meanings, and reopen conditions. |
+| `PatternOfConcernRef` | Exact authored FPF pattern edition or bounded version named by value as the checked object, with its host path or monolith section and edition, commit, hash, or other pinned version basis recoverable. `PatternOfConcern` is relation-relative: the same pattern can also be the concern in another use, review, or evaluation flow. This row does not create a special kind of pattern or a second text. The evaluated pattern also has its own primary `EntityOfConcern`: the subject that its Problem, Solution, or guidance is about. FPF patterns are applied to situations, claims, texts, or work objects. Use `governing pattern` only in the typed form `governing pattern for <claim, relation, or boundary>` when the pattern actually governs that specific item; use `related pattern` for a looser pattern relation; use `relation` only for the relation itself. |
 | `ClaimScope` | Quality claim boundary recovered from the governing frame: ordinary use, authoring input, landing input, release input, external-review input, high-assurance reuse input, canonization input, or another explicitly requested pattern-quality use. It is not chosen by the evaluator to make a failing request pass. |
 | `WorkingReaderScope` | Working-reader family, viewpoint, and first-use situation the pattern must serve. |
 | `IntendedUse` | Action that may use the result: continue drafting, admit for declared use, repair, refresh, or compare candidates. |
 | `QualificationWindow` | Edition, SoTA, related-pattern, release, time, or comparison window in which the evaluation is current. |
-| `EvaluationEvidenceBasis` | Evidence loci named by value for the evaluation: pattern body version, host or monolith section, README scenario, ToC row, `E.11` entry-distribution locus, `I.2` expanded entry-disambiguation case when corpus-facing, card or retrieval cue when claimed, source-currentness locus when SoTA/currentness is valued, mature comparator set when maturity is valued, and worked case or absence of worked case when case coverage is valued. |
+| `EvaluationEvidenceBasis` | Checked evidence loci named by value for the evaluation: pattern body version, host or monolith section, README scenario, ToC row, `E.11` entry-distribution locus, `I.2` expanded entry-disambiguation case when corpus-facing, card or retrieval cue when claimed, source-currentness locus when SoTA/currentness is valued, mature comparator set when maturity is valued, and worked case or absence of worked case when case coverage is valued. Inclusion here is neither a witness claim nor an evidence-use relation. |
 | `QualityEvaluationQuestionFrameRef` | `E.22` frame when purpose, floor, trade-offs, absorption, or proposal expectation needs to be declared. |
-| `CoordinateValueRationales` | One row for every required coordinate: `Coordinate`, `Value`, `ShortRationale`. |
-| `CoordinateEvidenceRefs` | Per-coordinate text, case, relation, SoTA, mature comparator, projection, or review refs where the short rationale depends on evidence outside the pattern body row being discussed. |
-| `PrecisionRestorationProfile` | Compact profile over six precision-restoration layers: word, head, and use precision; phrase-level apparatus; repeated or distributed material; ontic and slot-relation clarity; description, publication, and source boundary separation; and pattern-application ontology. It collapses those layers into one scalar effect for the `E.21` result, not one coordinate per defect. The profile names present or bounded issues, checked absence scope when clean, affected coordinates, and the selected restoration or governing pattern such as `E.10`, `E.10.ARCH`, `F.18`, `F.19`, `E.24.CD`, `E.24.PUB`, or an object-specific pattern. |
+| `PatternQualityEvaluationConfiguration` | Local input tuple binding the exact checked pattern, scope/use/reader/window, characteristic space/specification, semantic evaluation method, question frame when used, and evidence basis. It is neither a new U-kind nor performed work. |
+| `SemanticPatternQualityEvaluationMethodRef` | Reference to the exact semantic `U.Method` enacted by assessment work; the E.21 specification and coordinate table do not become that method merely by being consulted. |
+| `PatternQualityAssessmentWorkRef` | Exact dated A.15.1 `U.Work` performed by the evaluator system under an obtaining role assignment and enacted semantic evaluation method. |
+| `PatternQualityEvaluationApplicationRef` | Exact A.6.1 application and actual bindings connecting assessment work, checked pattern, evaluation configuration, and returned coordinate/result refs. |
+| `CoordinateValueRationales` | One result claim for every required coordinate: `Coordinate`, `Value`, `ShortRationale`. |
+| `CoordinateEvidenceRefs` | Per-coordinate text, case, relation, SoTA, mature comparator, projection, or review refs where the short rationale depends on evidence outside the pattern body row being discussed. Reference presence does not itself establish a coordinate value. |
+| `PrecisionRestorationProfile` | Compact result profile over six precision-restoration layers: word, head, and use precision; phrase-level apparatus; repeated or distributed material; ontic and slot-relation clarity; description, publication, and source boundary separation; and pattern-application ontology. It collapses those layers into one scalar effect for the E.21 result, not one coordinate per defect. The profile names present or bounded issues, checked absence scope when clean, affected coordinates, and the selected restoration or governing pattern such as `E.10`, `E.10.ARCH`, `F.18`, `F.19`, `E.24.CD`, `E.24.PUB`, or an object-specific pattern. |
+| `PatternQualityQBundle` | E.21-local non-arithmetic bundle-shaped ClaimGraph payload for one exact pattern edition, effective ReferenceScheme, `ClaimScope`, intended use, and qualification window. It contains the complete coordinate-result claims/rationales, `PrecisionRestorationProfile`, local `PatternQualityStatus`, stop condition, and bounded non-use. The aggregate C.2.1 result episteme carries this payload; it is not a general C.25 engineering `Q-Bundle`, characteristic space, evaluation specification, method, work/application, evidence use, assurance, admission decision, or second record. |
 | `DominanceSet` | Coordinates used to compare already evaluated candidate versions. It never changes the required coordinate set. |
-| `PatternQualityStatus` | Scoped pattern-quality result assigned by `E.21`; it is not an `E.19` admission or refresh decision by itself. |
+| `PatternQualityResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked pattern edition and whose ClaimGraph carries the same-bearer `PatternQualityQBundle`: declared use/window, every coordinate-result claim, `PrecisionRestorationProfile`, local status value, stop/repair condition, and bounded overread. It is not the bundle payload alone, assessment work, witness set, record, admission, or authority. |
+| `PatternQualityWitnessRefs` | Exact pattern loci, cases, comparators, sources, traces, or projection loci cited by result claims; witness presence is neither a value nor evidence use. |
+| `PatternQualityEvidenceUseRefs` | Exact A.10 evidence-use/provenance relations supporting reliance on result claims; they do not create those claims or the checked pattern. |
+| `PatternQualityEvaluationRecordRef` | Optional C.2.1 record episteme packaging configuration, work/application, result, witness/evidence, non-use, and reopen refs. It performs no assessment and grants no status, admission, assurance, or authority. |
+| `PatternQualityStatus` | Local admissible-use value asserted by the aggregate E.21 result episteme. It is not an E.19 admission or refresh decision; any F.10 status use or interpretation by a receiver is a separate relation. |
 | `StopCondition` | Why improvement may stop, continue, refresh, or hold. |
-Names are local to pattern-quality evaluation unless `F.18` promotes a durable name. They are not project evidence, release state, review state, or assurance.
 
-#### E.21:4.2 - Evaluation record
+Names are local to pattern-quality evaluation unless `F.18` promotes a durable name. They are not project evidence, release state, review state, assurance, work, publication, or gate authority.
+
+#### E.21:4.2 - Evaluation configuration, application, result, and optional record
 
 ```text
-PatternQualityEvaluation:
-  PatternOfConcernRef: <governing pattern of concern>
+PatternQualityEvaluationConfiguration:
+  PatternOfConcernRef: <exact authored FPF pattern edition or bounded version>
   ClaimScope: <declared quality claim>
   WorkingReaderScope: <reader and first-use situation>
   IntendedUse: <what may consume the result>
   QualificationWindow: <edition, source, neighbour, release, or comparison window>
+  PatternQualityCharacteristicSpaceRef: <exact A.19 characteristic space>
+  PatternQualityEvaluationSpecRef: <this E.21 specification edition>
+  SemanticPatternQualityEvaluationMethodRef: <exact U.Method used by assessment work>
+  QualityEvaluationQuestionFrameRef: <E.22 frame when used>
   EvaluationEvidenceBasis: <checked pattern, corpus, source, comparator, case, and projection loci; missing or unchecked loci named explicitly when they affect values>
-  PrecisionRestorationProfile: <collapsed profile: word, head, and use; phrase-apparatus; repetition-and-distribution; ontic-slot clarity; description-publication-source boundary; pattern-application; scalar effect, affected coordinates, and selected restoration or governing pattern>
-  CoordinateValueRationales: <all required coordinates, values, short rationales>
-  PatternQualityStatus: <status>
-  StopCondition: <local stop, first repair, hold, or refresh>
+
+PatternQualityAssessmentApplication:
+  AssessmentWorkRef: <dated U.Work>
+  EvaluatorSystemRef: <exact U.System>
+  EvaluatorRoleAssignmentRef: <exact obtaining U.RoleAssignment>
+  EnactedMethodRef: <same SemanticPatternQualityEvaluationMethodRef>
+  A6_1ApplicationAndBindingRefs: <exact application, checked-object/configuration inputs, and returned-result bindings>
+  EvaluationConfigurationRef:
+  ReturnedCoordinateResultRefs:
+  AggregateResultRef:
+
+PatternQualityResultEpisteme:
+  EntityOfConcern: <same exact PatternOfConcernRef>
+  EffectiveReferenceScheme:
+  ClaimGraph:
+    PatternQualityQBundle:
+      ClaimScope:
+      WorkingReaderScope:
+      IntendedUse:
+      QualificationWindow:
+      PrecisionRestorationProfile: <collapsed profile: word, head, and use; phrase-apparatus; repetition-and-distribution; ontic-slot clarity; description-publication-source boundary; pattern-application; scalar effect, affected coordinates, and selected restoration or governing pattern>
+      CoordinateValueRationales: <all required coordinates, values, short rationales>
+      CoordinateEvidenceRefs:
+      PatternQualityStatus: <local result value>
+      StopCondition: <local stop, first repair, hold, or refresh>
+      BoundedNonUse:
+  AssessmentApplicationRef:
+  PatternQualityWitnessRefs:
+  PatternQualityEvidenceUseRefs:
+PatternQualityEvaluationRecord: <optional packaging of configuration, application/work, result, witness/evidence, non-use, and reopen refs only>
 ```
+
+An unfinished table, prose summary, or record with missing coordinate claims remains assessment material, not an E.21 result. The evaluation specification, characteristic space, method description, checklist, evidence-basis list, favorable local status, and optional record perform no work, constitute no coordinate value by themselves, and grant no admission, assurance, gate crossing, publication truth, or authority.
 
 #### E.21:4.3 - Ordinal scale, result row, and adjacent-value rationale
 
@@ -139,14 +198,14 @@ PrecisionRestorationProfile:
 
 This profile deliberately collapses several small diagnostic checks into one scalar effect. The scalar is the strongest quality effect that any layer requires: clean, bounded local repair, coordinate lowering, or repair-before-use. The layers are diagnostic, not extra coordinates, checklists, or proposal quotas. A new precision-restoration symptom is classified into one of these layers or assigned to the selected restoration or governing pattern; it does not mint a new `E.21` coordinate. Details belong in the patterns that govern those objects: word, head, and name problems apply `E.10`, `E.10.ARCH`, or `F.18`; phrase-level boilerplate and plain-technical rewriting apply `F.19`; hidden candidate ontics and ontic-vs-description-vs-publication boundaries apply `E.24.CD`, `E.24.PUB`, or the direct subject pattern when the governed object is already clear; claim, relation, evidence, work, decision, assurance, publication, or pattern-application problems apply the pattern that governs that object. `E.21` consumes only the result: which coordinates fall, which stay protected, and what repair would make the quality claim true. The `mgdaColdReaderRecoverability` layer asks whether a reader without the `DRR`, campaign notes, or evaluator memory can recover the object, kind or ordinary status, relation or claim position, admissible use, and next governing pattern. If a repair replaces a specific phrase with `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, or unqualified `specialization` and the reader cannot recover what specializes what, which relation is live, or which governing pattern receives the claim, this layer is not clean.
 
-When this layer finds a hidden candidate ontic or publication-form confusion, `E.21` records the quality effect and affected coordinates only. Candidate detection, ontic placement, slot-relation design, and publication-boundary repair remain with `E.24.CD`, `E.24.PUB`, or the direct governing pattern. A quality evaluation does not become an ontic-discovery pattern by noticing that defect.
+When this layer finds a hidden candidate ontic or publication-form confusion, the E.21 result records only the quality effect and affected coordinates. Candidate detection, ontic placement, slot-relation design, and publication-boundary repair remain with `E.24.CD`, `E.24.PUB`, or the direct governing pattern. The evaluation specification does not become an ontic-discovery pattern, and assessment work does not acquire ontic-authoring authority by noticing that defect.
 The `kindRestorationCheck` is required whenever a precision-restoration finding or repair proposal changes wording. It records the meaning-bearing object, kind, relation, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope before and after the proposed repair, then names the governing pattern when another pattern governs the affected kind, relation, claim, or position (`A.6.0`, `A.6.5`, `A.6.P`, `C.29`, `A.15`, `E.24.CD`, `E.24.PUB`, `E.10.ARCH`, or another governing pattern). `E.21` does not restate slot discipline, ontic architecture, publication-form discipline, or mathematical-lens ontology; it only checks that the repair preserved or deliberately changed them by value. The check is a bounded complete preservation proof, not a blanket demand to formalize every sentence and not a license to do the least visible work. Complete means every field whose value can drift because of the changed wording receives one explicit disposition: `not triggered`, `ordinary prose`, or `no FPF-governed phrase changed` with checked loci, `preserved`, `split`, `intentionally changed by accepted decision`, or `blocker`. A no-repair result is valid only as one of those dispositions with loci; "nothing to do" without that discharge is a missing repair. Expand the row only when a kind, relation, claim, current ontic slot, relation position, use relation, or claim kind, or admissible use can drift. A lexical replacement is not a repair when it only removes a trigger word, substitutes one umbrella for another, narrows a graph or method into a work sequence, widens a work occurrence into a method, turns a publication form or evidence source into the object itself, or otherwise changes kind or current ontic slot, relation position, use relation, or claim kind without an accepted decision. If the kind or current ontic slot, relation position, use relation, or claim kind cannot be recovered, the profile is at least `lowersCoordinates`; if the proposed repair would change kind or current ontic slot, relation position, use relation, or claim kind and no accepted DRR or governing pattern justifies that change, the result is `repairBeforeUse` or `holdForArchitectureDecision`.
 
-When the profile is not clean, lower every affected coordinate named by the profile. Do not hide a present precision-restoration issue only in `EntityOfConcernPrimacyAndSemioBiasResistance`, and do not raise the result through related-pattern-boundary praise, projection evidence, or "correct but true" guards when the profile shows that those materials compete with the positive subject-and-action spine.
+When the profile is not clean, lower every affected coordinate named by the profile. Do not hide a present precision-restoration issue only in `EntityOfConcernPrimacyAndSemioBiasResistance`, and do not raise the result through related-pattern-boundary praise, projection evidence, or "correct but true" guards when those materials compete with the pattern's own `EntityOfConcern`, first useful move, practitioner action, practical delta, and bounded non-use.
 
 #### E.21:4.4 - RequiredPatternQualityCoordinates
 
-Every `E.21` evaluation of an FPF pattern of concern evaluates every coordinate below.
+For every conforming E.21 result, dated assessment work applies the evaluation specification to every coordinate below, and the result episteme states every coordinate value and rationale.
 
 | Coordinate | What it evaluates |
 |---|---|
@@ -156,11 +215,11 @@ Every `E.21` evaluation of an FPF pattern of concern evaluates every coordinate 
 | `ClosureAndBoundedNonUseRecoverability` | Whether stop conditions, repair conditions, bounded non-use, and any `governing pattern for <claim, relation, or boundary>` statements are recoverable. |
 | `SemanticKindAndNameRecoverability` | Whether names, kinds, relations, qualifiers, and claim boundaries recover the same FPF interpretation. |
 | `NeighborAuthorityAndBoundedUseFit` | Whether evidence, assurance, measurement, naming, work, gate, decision, publication, release, and project claims stay with the pattern that governs each claim, relation, or boundary. |
-| `EntityOfConcernPrimacyAndSemioBiasResistance` | Whether the pattern leads with its own `EntityOfConcern` and action guidance instead of letting description, publication, source, evidence, review talk, standard non-use warnings, precision-repair material, quality or projection evidence, package rationale, or cross-pattern reference boilerplate take over. The `PrecisionRestorationProfile` supplies the collapsed diagnosis across word, head, and use precision; phrase apparatus; repetition-and-distribution; ontic-slot clarity; description-publication-source boundary separation; and pattern-application ontology. This coordinate consumes that profile by lowering the value when those materials compete with the positive subject-and-action spine. Semio-bias is one special case when the displaced content concerns descriptions, sources, publications, notes, records, diagrams, or evidence-like publications. |
+| `EntityOfConcernPrimacyAndSemioBiasResistance` | Whether the pattern leads with its own `EntityOfConcern`, first useful move, practitioner action, practical delta, and bounded non-use instead of letting description, publication, source, evidence, review talk, standard non-use warnings, precision-repair material, quality or projection evidence, package rationale, or cross-pattern reference boilerplate take over. The `PrecisionRestorationProfile` supplies the collapsed diagnosis across word, head, and use precision; phrase apparatus; repetition-and-distribution; ontic-slot clarity; description-publication-source boundary separation; and pattern-application ontology. This coordinate consumes that profile by lowering the value when those auxiliary materials compete with the pattern's positive subject and action guidance or ordered first-use actions. Semio-bias is one special case when the displaced content concerns descriptions, sources, publications, notes, records, diagrams, or evidence-like publications. |
 | `PracticalUseDeltaAndHarmPrevention` | Whether the pattern changes a real reader use, prevents a named misuse, reduces a named cost, or preserves a named boundary. |
 | `UseAffordabilityAndApparatusProportionality` | Whether ordinary first use stays affordable and heavier apparatus appears only when it buys admissible use. |
 | `RepairLocalityAndChangeImpactPredictability` | Whether repairs have the smallest locus and predictable downstream impact. |
-| `ProxyForValueSubstitutionResistance` | Whether the evaluation asks what became worse when visible quality coordinates improved, and applies `E.13` when a visible quality value, metric, review result, or release cue is being used as the practical value itself. |
+| `ProxyForValueSubstitutionResistance` | Whether the assessment question and coordinate-result rationale state what became worse when visible quality coordinates improved, and keep any use of a visible quality value, metric, review result, or release cue as practical value under an exact `E.13` application/result. |
 | `ClaimJustificationTraceabilityCurrentnessAndReplayability` | Whether the claim is replayable from pinned text, scope, evidence, currentness basis, limitations, status, and stop reason. |
 | `CaseCountercaseAndTransferCoverage` | Whether positive cases, near-misses, anti-cases, and transfer cases match the breadth claimed. |
 | `MaturePatternParityAndSelectedContentSufficiency` | Whether selected mature-pattern ingredients are present in the body or related patterns for this `EntityOfConcern` and use. |
@@ -172,7 +231,7 @@ Every `E.21` evaluation of an FPF pattern of concern evaluates every coordinate 
 
 Constraint, harm, safety, security, compliance, deontic, self-application, recursion, and high-assurance questions do not add a second coordinate family. Evaluate them through the coordinate that owns the content: related-pattern authority, traceability, formal-claim admissibility, falsifiability, affordability, corpus ecology, evolution, or refresh.
 
-**Coupled-flow unity and separation for pattern quality.** An `E.21` run evaluates a `PatternOfConcernRef` inside a development, refresh, or admission flow. Another flow may make the same pattern a pattern of concern for a different use relation, for example a practitioner selecting and using it, a reviewer applying it to another text, or a subsequent evaluator reopening it. One `TransformationFlowStructure` may join pattern development, pattern use, use-found evaluation, and repair or refresh flows through transfer, feedback, return, edition-change, or projection relations. Keep three positions distinct in each sentence: the pattern as concern of the current flow, the intended reader addressed by the pattern, and the pattern's own primary `EntityOfConcern` inside its Problem, Solution, or guidance. `E.21`, `E.19`, handoffs, ledgers, README, ToC, `E.11`, `I.2`, retrieval checks, and landing evidence are checking operations or evidence loci in the development or evaluation flow. They can cause edits to the pattern, but they are not automatically user-facing content for the reader addressed by the pattern. `DesignRunTag` stays on the subject-context, claim, work, trace, publication-form relation, or source relation inside the transformation-flow structure; it does not decide whether a pattern is current, obsolete, under development, or being used. Treat FPF pattern development as the local pilot case: quality-loop proof changes the pattern through edits, not by being copied into the pattern.
+**Coupled-flow unity and separation for pattern quality.** Dated E.21 assessment work evaluates one exact `PatternOfConcernRef` inside a development, refresh, or admission flow. Another flow may make the same pattern a pattern of concern for a different use relation, for example a practitioner selecting and using it, a reviewer applying it to another text, or subsequent assessment work reopening it. One `TransformationFlowStructure` may join pattern development, pattern use, use-found evaluation, and repair or refresh flows through transfer, feedback, return, edition-change, or projection relations. Keep three positions distinct in each sentence: the pattern as concern of the current flow, the intended reader addressed by the pattern, and the pattern's own primary `EntityOfConcern` inside its Problem, Solution, or guidance. E.21 and E.19 are specifications; dated assessment and review work are the checking operations; handoffs, ledgers, README, ToC, `E.11`, `I.2`, retrieval outputs, and landing evidence are distinct records, publications, or evidence loci in the development/evaluation flow. Those objects may support edits to the pattern, but they are not automatically user-facing content for the reader addressed by it. `DesignRunTag` stays on the subject-context, claim, work, trace, publication-form relation, or source relation inside the transformation-flow structure; it does not decide whether a pattern is current, obsolete, under development, or being used. Treat FPF pattern development as the local pilot case: quality-loop proof supports separately performed edits; copying that proof into the pattern does not change the pattern by itself.
 
 #### E.21:4.4a - Frequent value-3, value-4, and value-5 calibration points
 
@@ -200,7 +259,7 @@ These rows calibrate common disagreements. They do not replace the coordinate de
 | `EvolutionFrontAndRefreshDiscipline` | Reopen is delegated to related patterns or implied by source-return. | The smallest reopen locus, source or currentness trigger, or variant or front condition is explicit. | Variant, front, archive, or ongoing refresh discipline is replayable for the declared use. |
 
 For `EntityOfConcernPrimacyAndSemioBiasResistance`, do not compensate a bad `PrecisionRestorationProfile` with `NeighborAuthorityAndBoundedUseFit` or `CorpusEntryProjectionAndEcologyFit`. This is a pattern-text-use evaluation, not a lexical search: ask which governed object, claim, relation, and reader use the sentence serves. Material about developing, reviewing, projecting, landing, evaluating, or proving this pattern's quality belongs in the evaluation, projection, release, or publication locus that owns that work, not in the pattern. Related-pattern statements named by value can be true and still damage the pattern of concern when they appear before the pattern's own `EntityOfConcern` and application guidance are recoverable. If the opening Problem frame or Solution starts with precision-restoration material before the pattern's own subject and move, this coordinate is at most `2`; if a positive action exists but the reader must traverse that material across sections to find it, it is at most `3`. Compact related-pattern statements belong in `Relations` or short late boundary rows and must preserve kind. Local boundary prose is admissible only when it states a documented local confusion and local stop condition not already carried by the owning pattern for that specific distinction or claim boundary. Also lower `PatternApplicationGuidance`, `WorkingSituationAndUseBoundaryRecognizability`, `PracticalUseDeltaAndHarmPrevention`, and `UseAffordabilityAndApparatusProportionality` when the profile shows that precision-restoration issues displace first-use content.
-If the declared use is `Stable`, landing-input, release-input, external-review-ready, or another corpus-facing use, the evaluation must use evidence for corpus entry and projection coordinates. A host-only body evaluation can still evaluate the pattern body, but it cannot silently turn missing README, ToC, `E.11`, `I.2`, card, retrieval, monolith, or projection evidence into a high `CorpusEntryProjectionAndEcologyFit` value.
+If the declared use is `Stable`, landing-input, release-input, external-review-ready, or another corpus-facing use, assessment work must inspect the applicable corpus-entry and projection evidence and the result's `EvaluationEvidenceBasis` must name it. A host-only body assessment can still produce values about the pattern body, but it cannot silently turn missing README, ToC, `E.11`, `I.2`, card, retrieval, monolith, or projection evidence into a high `CorpusEntryProjectionAndEcologyFit` value.
 
 #### E.21:4.5 - Status and stop condition
 
@@ -217,7 +276,7 @@ An all-`5` result is a local exceptional result under the declared scope and qua
 
 #### E.21:4.5.1 - Consume Pattern-Edition Use-Value Evidence Noncompensatorily
 
-When an `E.19:4.3.3` replay is current, carry every probe separately by its branch, exact basis, working use or relying work, expected first useful result, boundary, necessity, disposition or outcome, checked loci, and evidence basis into the complete E.21 evaluation. Do not regroup the probes or reclassify either branch. Evaluate every existing coordinate required by the declared scope. Do not replace the coordinate set with one use-value score, average replay results, or copy an E.19 outcome into a coordinate value or `PatternQualityStatus`. Put the replay loci in the existing `EvaluationEvidenceBasis` and justify each affected coordinate in its ordinary rationale.
+When an `E.19:4.3.3` replay is current, the E.21 assessment application carries every probe separately by its branch, exact basis, working use or relying work, expected first useful result, boundary, necessity, disposition or outcome, checked loci, and evidence basis into the complete E.21 result. Dated assessment work applies every existing coordinate required by the declared scope. The result does not replace the coordinate set with one use-value score, average replay results, or copy an E.19 outcome into a coordinate value or `PatternQualityStatus`. Put the replay loci in `EvaluationEvidenceBasis` and justify each affected coordinate in its ordinary rationale.
 
 Apply these consequences:
 
@@ -227,11 +286,11 @@ Apply these consequences:
 | A required new intended-use check is **absent or insufficient for the candidate-only use** | Set status to `repairBeforeUse`. Every affected coordinate is at most `2`. Include at least `PatternApplicationGuidance` and `PracticalUseDeltaAndHarmPrevention`. Additionally cap each of `EntityOfConcernPrimacyAndSemioBiasResistance`, `ClosureAndBoundedNonUseRecoverability`, `NeighborAuthorityAndBoundedUseFit`, `UseAffordabilityAndApparatusProportionality`, `CaseCountercaseAndTransferCoverage`, and `ClaimJustificationTraceabilityCurrentnessAndReplayability` only when the missing evidence affects that coordinate's claim. |
 | An optional new intended-use check is **absent or insufficient for the candidate-only use** | Do not create a status blocker merely from absent optional breadth. The missing case cannot support a breadth, transfer, or value-`5` claim. Reflect the absence in `CaseCountercaseAndTransferCoverage` and every coordinate whose declared scope actually includes that use. |
 | A new intended-use check is **adequate for the candidate-only use** | No blocker follows from that check. Its evidence may support affected existing coordinates but establishes neither their values nor status by itself. |
-| The positive subject-problem-move-result spine is absent or unusable | Set status to `repairBeforeUse`. `PatternApplicationGuidance`, `EntityOfConcernPrimacyAndSemioBiasResistance`, `PracticalUseDeltaAndHarmPrevention`, and `UseAffordabilityAndApparatusProportionality` are each at most `2`. |
+| The pattern's positive subject, problem, action, and result guidance is absent or unusable: its own `EntityOfConcern`, first useful move, practitioner action, practical delta, or bounded non-use cannot be recovered | Set status to `repairBeforeUse`. `PatternApplicationGuidance`, `EntityOfConcernPrimacyAndSemioBiasResistance`, `PracticalUseDeltaAndHarmPrevention`, and `UseAffordabilityAndApparatusProportionality` are each at most `2`. |
 | A required enumeration has an unresolved hidden kind, alien member, hidden proposition, or false closure claim | Set status to `repairBeforeUse`. `SemanticKindAndNameRecoverability` is at most `2`; each of `EntityOfConcernAndClaimScopeStability`, `NeighborAuthorityAndBoundedUseFit`, `FormalClaimAdmissibilityAndLensFit`, and `PatternApplicationGuidance` is also at most `2` when the unresolved member affects that coordinate's claim. |
 | A required prior-edition use is discoverably `transferred` | No regression blocker follows. The handoff evidence may support `NeighborAuthorityAndBoundedUseFit`, `PatternApplicationGuidance`, and `ClosureAndBoundedNonUseRecoverability` but establishes none of their values by itself. |
 | A harmful or false prior-edition use is `intentionally retired` with a positive corrected action or boundary | No regression blocker follows. Evaluate the corrected use and harm prevention on their own evidence. |
-| The material-change trigger is false | Apply no new use-review cap. The ordinary complete E.21 evaluation still applies whenever an E.21 claim is requested. |
+| The material-change trigger is false | Apply no new use-review cap. The ordinary complete coordinate, rationale, and result requirements still apply whenever an E.21 result claim is requested. |
 
 The cap is `2`, not `3`, because `3 sufficientlyExpressedForDeclaredUse` already means usable for the declared scope while the required action or semantic member here is unusable. Unrelated strengths, source count, formal cleanliness, or corpus projection cannot compensate for the failed required use. Conversely, `preserved`, `improved`, `transferred`, `intentionally retired`, or adequate candidate-only evidence can support only the existing coordinates whose claims it actually tests; it cannot raise unrelated coordinates or determine status by label.
 
@@ -260,7 +319,7 @@ First repair or stop: <repair | hold | local stop>
 Reopen if: <smallest changed locus or condition>
 ```
 
-Status is not assigned from a two-column table, a prose summary, a checklist count, an `E.19` pass or fail row, a table missing `ShortRationale`, a result missing the required `PrecisionRestorationProfile`, or a result missing the evidence basis needed for the values it claims. Such material can support a subsequent evaluation, but it is not the `E.21` result. Conversely, an `E.21` status is a pattern-quality status, not a release crossing: `E.19` or the release or admission process named by value still checks gate-specific carry-through, projection, monolith, packaging, authority, and non-overread conditions.
+Status is not assigned from a two-column table, a prose summary, a checklist count, an E.19 pass or fail row, a table missing `ShortRationale`, a result missing the required `PrecisionRestorationProfile`, or a result missing the evidence basis needed for its values. Such material can support later assessment work, but it is not the E.21 result episteme. Conversely, the local `PatternQualityStatus` asserted by that result is not a release crossing: separate E.19 review work and result, plus the authority-bearing release or admission work/decision named by value, govern gate-specific carry-through, projection, monolith, packaging, authority, and non-overread conditions.
 
 #### E.21:4.7 - Finding and proposal rows
 

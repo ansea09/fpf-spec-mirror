@@ -6,13 +6,24 @@ section_id: "E.4.DPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:1 — Problem frame"
-line_start: 70137
-line_end: 70161
+line_start: 70380
+line_end: 70387
 dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.22.CGUS"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.30.AD"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
@@ -39,24 +51,7 @@ keywords:
 
 Use this pattern when a group needs to create a domain principle framework or local practice framework grounded in FPF: for example a hydroponic-cucumber framework, a neural-network architecture framework, or a Codex-process framework.
 
-Primary `EntityOfConcern`: the authoring method for a bounded FPF-grounded framework edition. The first useful output is whichever current relation closes the immediate authoring question: a pre-PFAD organization-design proposal, a settled PFAD architecture decision, a post-existence architecture-description use card, or a post-PFAD dependency description. The later authoring spine remains context, source basis, selected architecture, names, pattern drafts, relation and edition records, publication or access, quality, improvement, and currentness returns.
+This pattern describes the reusable way of authoring or revising an FPF-grounded framework, not the files that happen to carry it. Start by writing one paragraph that names the intended reader, first use, ordinary non-use boundary, and the domain or local situation. That paragraph is the first useful move: it is enough to enter the first-hour route before the framework architecture, durable names, or publication package are settled.
 
-Default artifact contract for a request such as "make a DPF about this topic" separates developer and user carriers. In a campaign or repository setting, create a developer decision carrier such as `SUBSTANTIVE-DRR.md` or `DPF-DRR.md` governed by `E.9` and checked by `E.9.DA`; it carries the source basis, selected architecture, PFAD decision, candidate pattern split, relation plan, quality plan, and rejected alternatives. Create a user-facing framework publication or access carrier named by the individual framework, such as `<DomainOrPractice>-PRINCIPLES-FRAMEWORK.md`, `<PublicFrameworkName>.md`, a split readme, pattern, and appendix set, a skill pack, or an MCP-backed access service; it is the access route through which readers or agents use the DPF edition. Optional source-pack, PFR, quality-run, package-evaluation, skill-manifest, or access-service files may be separate when they need independent maintenance; process state remains outside the user carrier.
-
-Use this pattern when the work creates a framework. Use `E.11` or `E.17` when the work only changes how existing material is exposed to readers.
-
-Plain vocabulary for adoption:
-
-| Public phrase | Use it for |
-| --- | --- |
-| `principle framework` | The general public phrase for an FPF-grounded framework of patterns, decisions, relation records, source basis, publication, quality, and refresh. |
-| `Domain Principle Framework` | A principle framework for a domain such as greenhouse cucumbers, neural-network architecture, or safety certification practice. |
-| `Local Practice Framework` | A principle framework for one organization, project, team, role context, or local operating practice. |
-| `bounded context` | The domain or local situation where this framework's meanings hold. |
-| `framework edition` | One versioned state of the framework with dependency, compatibility, publication, quality, and refresh records. |
-| `framework publication carrier` | A reader-facing carrier for a framework edition: readme, preface, table of contents, pattern bodies, support maps, relation records, and refresh route as needed. |
-| `framework access carrier` | A user-facing or agent-facing access carrier for a framework edition: all-in-one publication carrier, split document set, card set, skill pack, MCP-backed access service, retrieval route, or assistant integration. It exposes the selected framework edition; it does not define the framework architecture, source pack, quality result, runtime dependency, or work authority by itself. |
-| `local monolith` | Workspace and editorial shorthand for one all-in-one framework publication carrier. Do not use it as the public framework name, and do not treat it as the framework architecture itself. |
-
-Old intake labels such as `SPF`, `TPF`, or broad `xPF` remain source aliases until `F.18` settles a durable public name and any admissible short form. For the current FPF term set, `F.18` selects Tech name `FoundationalPrinciplePatternSet` with Plain name "foundational principle pattern set"; `ZPF` remains only its mnemonic alias, not a public "zero principles" framework name. If the alias suggests a different framework identity, return to the `F.18` naming settlement and use the full public name.
+Use this pattern when the work creates or revises the framework itself. Use `E.11` or `E.17` when an existing framework remains unchanged and the work only changes how readers or agents find or access it.
 

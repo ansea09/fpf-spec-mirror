@@ -6,12 +6,12 @@ section_id: "A.4:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__007_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:6 — Conformance Checklist"
-line_start: 9123
-line_end: 9132
+line_start: 9195
+line_end: 9204
 dependencies:
   - "B.4"
 keywords:

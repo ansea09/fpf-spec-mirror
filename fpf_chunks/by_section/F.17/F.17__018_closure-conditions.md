@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14 — Closure conditions"
-line_start: 95243
-line_end: 95256
+line_start: 96156
+line_end: 96172
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,21 +47,23 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:14 - Closure conditions
 
-A UTS row is ready for ordinary reuse only when:
+One row is ready for its declared citation use only when:
 
-- the governed value and its exact kind are explicit;
-- the direct pattern is named;
-- Tech and Plain names are selected under `F.5` and `F.18`;
-- every local sense resolves to one exact by-value reference scheme, local expression, and local-sense claim;
-- each relied-on local-sense basis is separate from its naming settlement and is cited through `LocalSenseBasisRelation@Context`; the retained suffix adds no context participant;
-- every row that claims use between different `<ReferenceScheme, LocalSenseClaim>` projections cites an obtaining F.9 Bridge for the exact endpoint cells, then separately cites an affirmative C.2.1 claim for the row's action, direction, rule, and tolerance with current A.10 or B.3 reliance; same-projection designation and no-current-correspondence-use cases add no Bridge or use claim, while scheme difference alone opens only the Bridge question;
-- the row names admissible use and blocked use;
-- currentness conditions are stated;
-- any role, status, evidence, source, publication, description, method, work, relation, slot, interface, or characteristic claim remains under its direct pattern.
+- the governed value, exact kind, direct pattern, and proposed use are explicit;
+- F.14 has rejected every lighter sufficient disposition before the current card, cell, and row;
+- the exact F.18 NameCard and selected Tech/Plain designations are current for this public-row gate;
+- every `SchemeSenseCell` resolves to one by-value ReferenceScheme, local expression, and local-sense claim;
+- every relied-on local-sense basis is an actual two-participant `LocalSenseBasisRelation` and every description/source/publication object remains separate;
+- any cross-local use cites an obtaining F.9 Bridge for the exact endpoints, then a separate affirmative use claim and current A.10 or B.3 reliance;
+- the row has one decision, admitted and blocked citation uses, edition designator, and reopen condition;
+- any historical continuation is an exact C.2.1 `EpistemeEditionRelation` rather than shared id or title;
+- any availability is an exact E.24.PUB publication package rather than row, form, carrier, rendering, or upload alone; and
+- every ontology, obtaining, equivalence, authority, role, status, evidence, Work, and other subject-use claim remains under its direct owner.
+
+No other row needs to be filled before this one can close. A sheet's row count or optional block plan says nothing about whether another naming decision is substantively needed.
 

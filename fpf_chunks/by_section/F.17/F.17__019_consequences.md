@@ -6,12 +6,12 @@ section_id: "F.17:14.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__019_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.1 — Consequences"
-line_start: 95257
-line_end: 95264
+line_start: 96173
+line_end: 96180
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,15 +47,14 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:14.1 - Consequences
 
-**Benefits.** A UTS row gives readers a stable place to recover a term decision without treating a table as an ontology. It supports public reuse, examples, training material, interface labels, and comparison across different semantic-context projections while preserving exact local-sense claims and direct-pattern authority.
+**Benefits.** Readers gain a stable route from one designation pair to the exact naming decision, governed value, direct owner, local sense, and admitted use without treating the table as ontology or publication proof.
 
-**Costs.** A tempting public label may wait until the governed value, effective scheme, exact local-sense claim, any needed Bridge, separate bounded-use claim and reliance basis, naming settlement, and currentness condition are settled.
+**Costs.** A tempting row waits until the independently governed value, F.14 disposition, naming settlement, exact cell, and any actual Bridge are current. Publication availability adds its own E.24.PUB objects only when needed.
 
-**Failure avoided.** F.17 prevents global glossary drift, row-shaped ontology claims, block-as-subtype mistakes, label-based sameness, and evidence or role authority smuggled through a public term.
+**Failure avoided.** F.17 prevents global glossary drift, card-cell-row cascades, label-based sameness, row-shaped ontology, optional-layout completeness claims, and authority or publication smuggled through a table.
 

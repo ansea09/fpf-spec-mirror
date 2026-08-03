@@ -6,20 +6,22 @@ section_id: "A.2:9"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__011_common-anti-patterns.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:9 — Common Anti-Patterns"
-line_start: 2940
-line_end: 2951
+line_start: 2918
+line_end: 2927
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -35,11 +37,9 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
-| `TransformerSystem` as a system subtype | It fuses system identity with a contextual role. | Use `U.RoleAssignment(holderRef=<system>, roleRef=TransformerRole@Context, boundedContextRef=<context>)` when a holder role assignment is current. |
-| `AssistantReviewerRole partOf ReviewerRole` | It treats a role boundary as role mereology, but no role-part constructive assembly has been recovered. | Use `A.2.7`: decide whether the current object is role-admission fit, factor or qualification, bundle expression, separate role value, role-state refinement, capability-fit condition, responsibility, permission, commitment, or obligation relation, or method/work decomposition. |
-| "The PDF enforced the rule" | The episteme did not perform work. | Name the admitted `U.System` that performed enforcement work, and name the PDF's source, requirement, or evidence use separately. |
-| "The report has EvidenceRole" | It treats evidence use as a role held by an episteme. | Use an evidence-use relation around the report, target claim, grounding holon when current, claim scope, polarity, relevance window, and provenance constraints. |
-| "The role grants capability" | A role name does not create ability. | Name capability under `A.2.2` and link it through the current capability-fit or checking relation when current. |
-| "The role contains the method" | A role value is not a method. | Name method and method description through `A.15`, `A.3.1`, and `A.3.2`. |
-| "Argument role equals U.Role" | A relation position is not an enactment-facing role value. | Use `A.6.5` SlotKind and relation signature discipline. |
+| `PumpAsCoolingCirculator` as a system subtype | It turns one assignment into system identity. | Keep the pump kind stable and state `CoolingCirculatorRole` through `U.RoleAssignment`. |
+| `PumpUnit-3#CoolingCirculatorRole:Plant-A@Window` | The compact token hides taxonomy, scheme, and the kind of `Plant-A`, while suggesting a mandatory context participant. | Use the `U.RoleAssignment` SlotSpecs governed by `A.2.1`; keep Plant A as the actual plant system or work locus. |
+| `AssistantReviewerRole partOf ReviewerRole` | No constructive role whole or role-part relation has been established. | Determine whether the exact claim is an A.2.7 qualification, substitution, incompatibility, or bundle relation, or another role value under A.2; send responsibility, capability, method, and work claims to their direct governing patterns. |
+| `The PDF enforced the rule` | An episteme is substituted for the system that performed enforcement work. | Name the holder system and work occurrence; state the PDF's direct external-rule, evidence, or reliance relation separately. |
+| `Same role label, therefore same role` | Labels establish neither semantic identity, an obtaining Bridge, nor suitability for a proposed use. | Compare the role claims and exact sense cells. If a cross-scheme action is proposed, establish the F.9 Bridge, separate bounded-use assertion, and current A.10 or B.3 reliance; otherwise stop without identity or permission inference. |
 

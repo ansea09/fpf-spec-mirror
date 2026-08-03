@@ -6,12 +6,12 @@ section_id: "G.Core:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:3 — Forces"
-line_start: 96182
-line_end: 96191
+line_start: 97098
+line_end: 97107
 dependencies:
   - "A.15.3"
   - "A.19"

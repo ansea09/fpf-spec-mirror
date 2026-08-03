@@ -6,12 +6,12 @@ section_id: "A.19.ECS:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__007_bias-annotation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:5.1 — Bias-Annotation"
-line_start: 28947
-line_end: 28952
+line_start: 29044
+line_end: 29049
 dependencies:
   - "A.17-A.19"
   - "C.16"

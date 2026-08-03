@@ -6,12 +6,12 @@ section_id: "A.2.4:End"
 section_title: "A.2.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__015_a-2-4-end.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:End — A.2.4:End"
-line_start: 4424
-line_end: 4425
+line_start: 4407
+line_end: 4408
 dependencies:
   - "A.10"
   - "A.2"

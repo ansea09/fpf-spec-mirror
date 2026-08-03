@@ -6,27 +6,30 @@ section_id: "E.17.1:14"
 section_title: "Import, Subset, and Multi-Bundle Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__015_import-subset-and-multi-bundle-coordination.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:14 — Import, Subset, and Multi-Bundle Coordination"
-line_start: 79036
-line_end: 79074
+line_start: 79689
+line_end: 79727
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -42,7 +45,7 @@ The value of viewpoint bundles appears most clearly when they are imported, subs
 
 #### E.17.1:14.1 - Subset selection
 
-A `U.MultiViewDescribing` family may legitimately import only a subset of a bundle's viewpoints. When it does so, it should declare:
+A `MultiViewDescribing` use may legitimately import only a subset of a bundle's viewpoint references. When it does so, it should declare:
 
 - which `ViewFamilyId` is the source,
 - which viewpoint members are actually in local use,
@@ -56,7 +59,7 @@ A local project often wants a small adaptation: one extra concern note, one narr
 
 A practical rule is:
 
-- if the local project is merely selecting a subset or adding local didactic publications, keep the original bundle id and declare the overlay clearly;
+- if the local project selects a subset or adds only didactic/publication material, keep the exact imported bundle edition unchanged and declare the local subset or annex; do not treat the overlay as bundle content;
 - if the local project changes viewpoint membership or meaning, publish a new local bundle or a new edition.
 
 This is how bundle reuse remains trustworthy across organizations.
@@ -69,7 +72,7 @@ Many real description families need more than one bundle, for example:
 - one safety or assurance family,
 - and one governance or publication-oriented family.
 
-In such cases, `E.17.1` expects the family to preserve the provenance of each member viewpoint rather than flattening everything into one unnamed `Sigma`. Cross-family correspondence should then cite both the participating viewpoint ids and their `ViewFamilyId` origins.
+In such cases, `E.17.1` expects the family to preserve the provenance of each exact member reference and resolved viewpoint episteme P rather than flattening everything into one unnamed `Sigma`. Cross-family correspondence names each participating exact `U.ViewpointRef` or resolved P together with its exact source bundle edition and `ViewFamilyId` provenance; the corresponding `VP.*` token may remain only as a readable designator.
 
 #### E.17.1:14.4 - Engineering vs publication families
 

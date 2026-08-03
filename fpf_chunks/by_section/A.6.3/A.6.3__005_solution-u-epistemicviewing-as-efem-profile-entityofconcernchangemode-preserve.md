@@ -6,12 +6,12 @@ section_id: "A.6.3:4"
 section_title: "Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__005_solution-u-epistemicviewing-as-efem-profile-entityofconcernchangemode-preserve.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:4 — Solution — U.EpistemicViewing as EFEM profile (entityOfConcernChangeMode = preserve)"
-line_start: 13140
-line_end: 13343
+line_start: 13212
+line_end: 13415
 dependencies:
   - "A.6.0"
   - "A.6.2"

@@ -6,12 +6,12 @@ section_id: "F.4:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__016_didactic-memory.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:14 — Didactic Memory"
-line_start: 90229
-line_end: 90232
+line_start: 90778
+line_end: 90781
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,5 +44,5 @@ keywords:
 
 ### F.4:14 - Didactic Memory
 
-A role description is the readable episteme that tells people what a role value means in a bounded context. It helps someone assign, check, name, or compare the role. It does not assign the role, prove capability, define the method, perform the work, grant permission, carry evidence, publish itself, or turn every useful episteme into a role holder.
+A role description is the readable episteme that tells people what a role value means under one named role-taxonomy episteme and effective reference scheme. It helps someone assign, check, name, or compare the role. It does not assign the role, prove capability, define the method, perform the work, grant permission, carry evidence, publish itself, or turn every useful episteme into a role holder.
 

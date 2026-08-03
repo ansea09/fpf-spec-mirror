@@ -6,15 +6,20 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative; synchronized with Core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__003_policy-clauses-normative-synchronized-with-core.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative; synchronized with Core)"
-line_start: 49837
-line_end: 49877
+line_start: 50065
+line_end: 50105
 dependencies:
   - "A.0"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.24"
@@ -45,7 +50,7 @@ Any DRR that selects a **narrower hand‑engineered** method, module, platform, 
 (a) **Parity harness**: equal **FreshnessWindows**, a common **ComparatorSet**, replicate counts, seed records, and **set-returning** evaluation; **Dominance = ParetoOnly** unless a CAL policy says otherwise (policy‑id cited).
 (b) **Budget sweeps**: vary **compute**, **data**, and **FoA** within a fixed safety envelope; **pin** any unsweepable knob and record the invariant.
 (c) **Slopes and uncertainty**: report ∂quality over ∂compute, ∂quality over ∂data, and, where applicable, ∂coverage over ∂FoA, with **confidence intervals, error bars, edition pins, and policy pins** in telemetry. Use **bootstrapped confidence intervals** or repeated‑seed estimates; disclose heteroscedasticity handling.
-(d) **Resources**: publish **Resrc‑CAL** accounts for time, energy, FLOPs, and assurance deltas under B.3.
+(d) **Resources**: publish resource accounts for time, energy, and FLOPs through **A.15.1**, **B.1.6**, **C.16**, and **A.10** as applicable, and publish assurance deltas under **B.3**.
 (e) **Objective vector**: list quality, risk, cost, and only policy-promoted illumination or coverage telemetry metrics.
 (f) **DoE recipe**: for ≥2 active knobs, apply a **fractional factorial** or **Latin‑hypercube** with ≥ 3 levels per knob to avoid aliasing; justify any lower design.
 (g) **Knee & regret tests**: if claiming a heuristic wins, show either (i) a **knee** inside the audited window for the general method (per SLL‑5 policy thresholds) or (ii) **budget‑constrained regret** over the sweep where the heuristic dominates within CI.

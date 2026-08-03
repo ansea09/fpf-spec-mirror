@@ -6,41 +6,47 @@ section_id: "B.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:1 — Problem frame"
-line_start: 38406
-line_end: 38425
+line_start: 38503
+line_end: 38522
 dependencies:
   - "A.10"
-  - "A.14"
   - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.2.4"
+  - "A.2.6"
   - "A.20"
   - "A.21"
-  - "A.3.4"
   - "A.6"
-  - "A.7"
+  - "A.6.1"
   - "B.1"
   - "B.1.1"
   - "B.3"
   - "B.3.5"
-  - "B.3.x"
   - "B.4"
   - "C.13"
   - "C.16"
+  - "C.16.Q"
+  - "C.2.1"
   - "C.26"
   - "C.26.1"
   - "C.26.2"
   - "C.26.3"
   - "C.28"
+  - "C.29"
   - "D.4"
   - "E.14"
+  - "E.17"
   - "E.17.EFP"
+  - "E.24.PUB"
+  - "F.10"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "F-G-R"
   - "assurance"
@@ -58,10 +64,10 @@ keywords:
 
 ### B.3:1 - Problem frame
 
-Every non‑trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is a **claim** that rests on **composed evidence**.
+When a non-trivial result in FPF—*a composed system is safe*, *a model is credible*, *a conclusion holds*—is reused for a consequential assurance purpose, the assurance-result claim must expose the exact result claim and the basis on which that use is warranted.
 
-* For **U.System** holons, assurance is about *capabilities and constraints* under stated conditions.
-* For **U.Episteme** holons, assurance is about the *quality of evidence relation* for a statement or model.
+* For a claim whose EntityOfConcern is a **U.System** holon, assurance evaluates the exact capability, constraint, safety, or reliability claim under stated conditions; it is not a new system state.
+* For a claim whose EntityOfConcern is a **U.Episteme** holon, assurance evaluates the exact content or model claim and its warrant for `U_A`; it is not an intrinsic quality conferred on the episteme by a citation or evidence item.
 
 To make such claims comparable and auditable across domains, B.3 introduces a **Trust and Assurance Calculus** that:
 

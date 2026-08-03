@@ -6,12 +6,12 @@ section_id: "F.9:28"
 section_title: "Review matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__030_review-matrix.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:28 — Review matrix"
-line_start: 92045
-line_end: 92059
+line_start: 92694
+line_end: 92708
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"

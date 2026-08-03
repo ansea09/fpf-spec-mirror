@@ -6,12 +6,12 @@ section_id: "A.6.RCD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__012_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:10 — Rationale"
-line_start: 17040
-line_end: 17045
+line_start: 17104
+line_end: 17109
 dependencies:
   - "A.11"
   - "A.6.0"

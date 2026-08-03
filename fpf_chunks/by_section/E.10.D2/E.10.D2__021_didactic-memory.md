@@ -6,28 +6,33 @@ section_id: "E.10.D2:19"
 section_title: "Didactic memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__021_didactic-memory.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:19 — Didactic memory"
-line_start: 76167
-line_end: 76176
+line_start: 76668
+line_end: 76680
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,11 +44,14 @@ keywords:
 
 ### E.10.D2:19 - Didactic memory
 
-Use the short memory **entity, description, and admitted specification use**:
+Use the short memory **use, claims, entity, scheme, one needed neighbor**:
 
-1. **Entity.** What item is under concern?
-2. **Description.** Which episteme describes it, in which bounded context and viewpoint?
-3. **Admitted specification use.** What makes a `...Spec` checkable here?
-4. **Publication and carrier.** What only exposes, renders, stores, or transports the episteme?
-5. **Neighboring claims.** Which evidence, assurance, gate, decision, commitment, work, bridge, view, or retargeting pattern carries any additional claim being made?
+1. **Use.** What exact work, decision, inquiry, comparison, preservation, teaching, or publication use needs the description?
+2. **Claims.** What exact ClaimGraph is being used?
+3. **Entity.** What exact independently identified EntityOfConcern are those claims about?
+4. **Scheme.** What effective ReferenceScheme makes the claims readable about that entity?
+5. **One needed neighbor.** Does the next action actually need DescriptionContext, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
+6. **Stop.** Add only that direct relation, or stop after constitution if none is needed.
+
+The older memory “entity, description, admitted specification use” remains a useful three-word reminder, but it is not a three-kind ontology. Entity names the independently governed concern; description names the C.2.1 claim-bearing episteme used descriptively; specification names a checkable use admitted for one receiving purpose.
 

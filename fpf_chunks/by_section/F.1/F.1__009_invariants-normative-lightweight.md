@@ -6,12 +6,12 @@ section_id: "F.1:8"
 section_title: "Invariants (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__009_invariants-normative-lightweight.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:8 — Invariants (normative, lightweight)"
-line_start: 89063
-line_end: 89076
+line_start: 89633
+line_end: 89646
 dependencies:
   - "A.11"
   - "A.7"

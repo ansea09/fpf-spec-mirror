@@ -6,28 +6,33 @@ section_id: "E.10.D2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:intro — Intro"
-line_start: 75824
-line_end: 75835
+line_start: 76270
+line_end: 76281
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -42,10 +47,10 @@ keywords:
 
 *Definitional pattern - normative, notation-agnostic*
 
-> **One-sentence summary.** For any `EntityOfConcern` in FPF, keep the entity under concern distinct from the `Description` episteme that describes it in a bounded context and viewpoint, and admit `...Spec` wording only for a Description episteme whose specification use is made checkable by explicit conditions. Specification is not a third peer ontology class beside the entity and its Description episteme.
+> **One-sentence summary.** Start from the exact work, decision, or other receiving use; recover the description episteme through C.2.1's exact `<ClaimGraph, EntityOfConcern, effective ReferenceScheme>` constitution; and add specification, viewpoint, view, model-use, evidence, publication, carrier, or representation machinery only when that receiving use depends on its separately governed relation.
 
 **Status.** Definitional pattern.
-**Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; E.10.D1 **D.CTX (Context is U.BoundedContext)**; C.2.1 **U.EpistemeSlotRelation**; C.2.3 **Unified Formality Characteristic (F)**; F.15 **conformance and regression harness discipline**.
-**Coordinates with.** F.4 **Role Description**; F.5 **Naming Discipline**; F.12 **Service Acceptance Binding**; F.9 **Alignment & Bridge across Contexts**; F.9.1 **Bridge Stance Overlay**; F.10 **Status Families Mapping**.
-**Non-goals.** This pattern does not define editors, work-process descriptions, registries, storage formats, or publication carriers. It gives the boundary discipline that other FPF patterns use when they name an entity, its Description episteme, and any specification-use admission.
+**Builds on:** A.7 **Strict Distinction (Clarity Lattice)**; C.2.1 **Episteme Identity, Constitution, Grounding, and Edition**; A.2.6 **Claim Scope**; A.1.1 **Bounded Model-Use Structure**; C.29 **Mathematical Representation**.
+**Coordinates with.** E.10 **Ontological Precision Restoration**; E.17.0 **Viewpoint and View Membership**; E.17 and E.24.PUB **Publication**; A.10 and B.3 **Evidence and Assurance**; G.11 **Currentness**; A.3.2 **Method Description**; F.9 **Bridge**; F.4 **Role Description**; F.5 **Naming Discipline**.
+**Non-goals.** This pattern introduces no description kind, slot relation, context tuple, card schema, publication kind, or representation kind. It does not decide whether claims are true, current, sufficient, authoritative, or permitted. It routes each live question to the direct owner while keeping the described object and the claim-bearing episteme recoverable.
 

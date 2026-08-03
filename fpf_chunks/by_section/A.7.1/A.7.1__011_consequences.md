@@ -6,12 +6,12 @@ section_id: "A.7.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__011_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:9 — Consequences"
-line_start: 21942
-line_end: 21945
+line_start: 22036
+line_end: 22039
 dependencies:
   - "A.7"
   - "A.7.2"

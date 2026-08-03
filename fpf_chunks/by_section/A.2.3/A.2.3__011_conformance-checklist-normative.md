@@ -6,12 +6,12 @@ section_id: "A.2.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__011_conformance-checklist-normative.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:7 — Conformance Checklist (normative)"
-line_start: 3956
-line_end: 4027
+line_start: 3939
+line_end: 4010
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "F.12"
@@ -64,7 +65,7 @@ In normative prose, an instance of `U.PromiseContent` SHALL be referred to as a 
 `U.PromiseContent` **IS** a consumer-facing promise-content `U.Episteme`. One or more `U.EpistemePublication` values may be related to `U.PresentationCarrier` values through `isCarriedBy` without changing the promise-content episteme identity; no presentation carrier is the promise content. `U.PromiseContent` is not a `U.System`, `U.Method`, `U.MethodDescription`, `U.Work`, or `U.WorkPlan`.
 
 **CC-A2.3-2 (Semantic locality).**
-Every promise content names its effective `U.ReferenceScheme`, `promisedOutcomeSpecRef`, and `U.ClaimScope` when claim extent matters. Cross-scheme or cross-scope reuse uses the identified F.9 bridge occurrence and A.2.6 scope relations. `modelUseStructureRef` appears only when an independently selected `BoundedModelUseStructure` changes interpretation.
+Every promise content names its effective `U.ReferenceScheme`, `promisedOutcomeSpecRef`, and exact `U.ClaimScope`. A selected `BoundedModelUseStructure` may be designated only by the receiving assertion or use when it changes one actually model-local interpretation; it is neither a promise-content field nor an optional participant or identity discriminator of `PromiseContentUse`.
 **CC-A2.3-3 (Role values stay distinct from holders and assignments).**
 `providerRole` and, when present, `consumerRole` are `U.Role` values interpreted through a named role-taxonomy episteme and effective reference scheme. Actual provider and consumer systems enter through named `U.RoleAssignment` occurrences; a role label alone does not identify a performer.
 
@@ -97,10 +98,10 @@ Do **not** place a promise content clause in PBS or SBS, or treat it as a part o
 Windows and calendars belong to `U.WorkPlan` (A.15.2). Performed delivery belongs to `U.Work` (A.15.1). Evidence epistemes and evidence relations support claims about selected facts concerning that work and any post-work state expressed by its selected effect Delta; they are not slots or parts of the work occurrence.
 
 **CC-A2.3-13 (Claim scope, work scope, and promise-use interval).**
-The promise-content episteme names `U.ClaimScope` when its claims are bounded. A provider capability instance names `U.WorkScope`. `PromiseUseIntervalSlot` is the temporal qualifier of each `PromiseContentUse` occurrence. The `ScopeCoverage` predicate is satisfied only when the selected context slice is covered under an explicit `Gamma_time` selector; neither temporal extent nor capability scope replaces claim scope.
+The promise-content episteme names one exact `U.ClaimScope`; an intended maximal extent is stated as that scope rather than represented by omission. A provider capability instance separately names `U.WorkScope`. `PromiseUseIntervalSlot` is the temporal qualifier of each `PromiseContentUse` occurrence. The `ScopeCoverage` predicate is satisfied only when the selected context slice is covered under an explicit `Gamma_time` selector; neither temporal extent nor capability scope replaces claim scope.
 
 **CC-A2.3-14 (Scheme and scope bridges).**
-Cross-scheme or cross-scope reuse names the identified F.9 bridge occurrence, direction, loss, and congruence level. A bridge may support a narrower mapped `U.ClaimScope`; it does not mutate the original promise content or create a universal context.
+Cross-scheme reuse first names the exact obtaining F.9 Bridge occurrence. A separate current C.2.1 claim with affirmative polarity must say that this Bridge is suitable for the named bounded promise-content use, in the stated direction, under the use-specific correspondence rule, and within the permitted-loss tolerance. Positive reliance then branches by use. Ordinary below-threshold use with no assurance claim requires the exact A.10 evidence-provenance graph relation with `RelianceDisposition=pass` for that same use. When an assurance claim is made or B.3's material-reliance threshold is met, enter B.3 and first decide whether a current assurance claim exists. Positive B.3 reliance is available only when a positive current assurance claim carries the same bounded assurance use together with its sufficient minimum reliance safety assurance record; otherwise state the exact `no-assurance-claim`, `insufficient-record`, `narrowed`, `rejected`, `withdrawn`, `abstaining`, or `blocked` disposition and stop or narrow that use. Cross-scope reuse separately names the mapped `U.ClaimScope` and its A.2.6 scope relations. A Bridge, its profile, a Bridge Card, a label, or a publication establishes none of `PromiseContentUse`, delivery, fulfilment, evidence, assurance, work, result, or publication occurrence; a missing premise stops positive reuse without mutating the original promise content.
 **CC-A2.3-15 (OutcomeSpec typing).**
 `promisedOutcomeSpecRef` MUST be a `U.EpistemeRef` resolving to an A.7 `OutcomeSpec` specification-use episteme. It MUST NOT point at a concrete `U.Work` occurrence, affected or delivered entity, actual operation-result binding, verdict episteme, or downstream effect, and `OutcomeSpec` MUST NOT be written as an independently admitted `U.OutcomeSpec`.
 

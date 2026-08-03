@@ -6,12 +6,12 @@ section_id: "F.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:3 — Forces"
-line_start: 89964
-line_end: 89973
+line_start: 90534
+line_end: 90543
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Recognition vs ontology | A role description must be easy to read, but it cannot replace the role value, assignment relation, capability, method, or work occurrence. |
-| Local meaning vs reuse | Role descriptions are context-bound, while role names may need subsequent durable naming or cross-context comparison. |
+| Local meaning vs reuse | Role descriptions are interpreted through one role-taxonomy episteme and effective scheme, while labels may later need a bridge across taxonomies or schemes. |
 | Compactness vs completeness | A useful card is small, but the current claim may require neighboring checks for state, capability, method, assignment, evidence, or status. |
 | Open-world use vs form burden | Some uses need only a role gloss; stronger uses need slot dispositions and neighboring references without pretending every slot is always filled. |
 | Work-facing role ontology vs episteme-use ontology | Acting holons can hold work-facing roles. Epistemes are used through evidence, status, source, publication, requirement, explanation, assurance, or gate relations. |

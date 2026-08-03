@@ -6,12 +6,12 @@ section_id: "F.4:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__007_invariants.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:5 — Invariants"
-line_start: 90046
-line_end: 90058
+line_start: 90615
+line_end: 90627
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -45,13 +45,13 @@ keywords:
 ### F.4:5 - Invariants
 
 1. **One described role.** A role description describes exactly one `U.Role` value in the current application.
-2. **One bounded context.** The role description is local to one `U.BoundedContext`; cross-context reuse needs `F.9`.
+2. **One interpreted role meaning.** Name one role-taxonomy episteme and effective reference scheme; correspondence to another taxonomy or scheme needs `F.9`.
 3. **Description boundary.** The role description is a `U.Episteme`; it is not the role value, assignment relation, holder, capability, method, work, or status-use relation.
-4. **Work-facing holder boundary.** The holder admitted by a role assignment is a system or acting holon admitted by the governing work or method pattern. An episteme is not a role holder because it is used as evidence, source, standard, requirement, definition, explanation, status bearer, publication, or assurance input.
+4. **Work-facing holder boundary.** The holder participating in an obtaining role assignment is an independently admitted `U.System`; the assignment does not perform that admission. An episteme is not a role holder because it is used as evidence, source, standard, specification, definition, explanation, status bearer, publication, or assurance basis.
 5. **No hidden capability.** Capability requirements may be referenced, but the role description does not prove capability.
 6. **No hidden method.** Method requirements may be referenced, but the role description is not a method description.
 7. **No hidden work.** A role description may enable work attribution checks, but it is not evidence that work occurred.
 8. **No status-template fusion.** Status-use and evidence-use relations are direct relations, not a second branch of role description.
 9. **Slot discipline.** If a source says "role" for a relation position, recover `SlotKind`, `ValueKind`, and `RefKind` through `A.6.5`.
-10. **Name after meaning.** Durable naming follows `F.18` only after role value, context, and local sense are recovered.
+10. **Name after meaning.** Durable naming follows `F.18` only after the role value, role-taxonomy episteme, effective scheme, and local sense are recovered.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.UK.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
-line_start: 88173
-line_end: 88643
+line_start: 88743
+line_end: 89213
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -510,5 +510,5 @@ Reopen this source basis when a cited edition changes, a stronger current source
 
 ### E.24.UK:End
 
-# **Part F — The Unification Suite (U-Suite): Concept-Sets, SenseCells & Contextual Role Assignment**
+# Part F - The Unification Suite (U-Suite): Concept-Sets, SenseCells & Contextual Role Assignment
 

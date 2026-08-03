@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__011_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:10 — Rationale"
-line_start: 15152
-line_end: 15157
+line_start: 15216
+line_end: 15221
 dependencies:
   - "A.16.1"
   - "A.22"
@@ -45,5 +45,5 @@ keywords:
 
 Narrative is a powerful way to make structure usable by humans. It can order events, mechanisms, evidence, options, architecture decisions, and learning paths. That strength is also the risk: a well-formed narrative can make a source look simpler, more certain, more complete, or more ethically acceptable than it is.
 
-The chosen Core pattern is therefore narrow. It does not make FPF a narratology, storycraft, teaching, or NLG framework. It adds one reusable relation under `A.6.3`: selected source structure is ordered into a sequential narrative rendering for declared use, while preservation, loss, admissibility, and source-basis return remain visible.
+The chosen Core pattern is therefore narrow. It does not make FPF a narratology, storycraft, teaching, or NLG framework. It governs one exact A.6.3 construction `n : X -> Y`: exact claims in independently constituted source episteme `X` are ordered into exact receiving narrative episteme `Y` about the same EntityOfConcern for declared use, while ordering, preservation, loss, applicability, and source return remain visible.
 

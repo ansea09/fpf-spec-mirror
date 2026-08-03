@@ -6,14 +6,19 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.19.1.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
-line_start: 49803
-line_end: 49943
+line_start: 50031
+line_end: 50171
 dependencies:
   - "A.0"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.24"
@@ -78,7 +83,7 @@ Any DRR that selects a **narrower hand‑engineered** method, module, platform, 
 (a) **Parity harness**: equal **FreshnessWindows**, a common **ComparatorSet**, replicate counts, seed records, and **set-returning** evaluation; **Dominance = ParetoOnly** unless a CAL policy says otherwise (policy‑id cited).
 (b) **Budget sweeps**: vary **compute**, **data**, and **FoA** within a fixed safety envelope; **pin** any unsweepable knob and record the invariant.
 (c) **Slopes and uncertainty**: report ∂quality over ∂compute, ∂quality over ∂data, and, where applicable, ∂coverage over ∂FoA, with **confidence intervals, error bars, edition pins, and policy pins** in telemetry. Use **bootstrapped confidence intervals** or repeated‑seed estimates; disclose heteroscedasticity handling.
-(d) **Resources**: publish **Resrc‑CAL** accounts for time, energy, FLOPs, and assurance deltas under B.3.
+(d) **Resources**: publish resource accounts for time, energy, and FLOPs through **A.15.1**, **B.1.6**, **C.16**, and **A.10** as applicable, and publish assurance deltas under **B.3**.
 (e) **Objective vector**: list quality, risk, cost, and only policy-promoted illumination or coverage telemetry metrics.
 (f) **DoE recipe**: for ≥2 active knobs, apply a **fractional factorial** or **Latin‑hypercube** with ≥ 3 levels per knob to avoid aliasing; justify any lower design.
 (g) **Knee & regret tests**: if claiming a heuristic wins, show either (i) a **knee** inside the audited window for the general method (per SLL‑5 policy thresholds) or (ii) **budget‑constrained regret** over the sweep where the heuristic dominates within CI.
@@ -115,11 +120,11 @@ Scale‑Audit artefacts **SHALL** be exported to **G.11** with edition pins, CI 
 ### C.19.1:3 - Conformance Checklist (CC‑BLP)
 
 1. **Alpha and delta tolerances** declared in DRR or via policy profile, with CI level stated.
-2. DRR includes a **Scale‑Audit** (BLP‑1a through BLP‑1g) with slopes, confidence intervals, edition pins, policy pins, and Resrc‑CAL.
+2. DRR includes a **Scale‑Audit** (BLP‑1a through BLP‑1g) with slopes, confidence intervals, edition pins, policy pins, planned-budget basis under **A.15.2**, and dated resource-account basis under **A.15.1**, **B.1.6**, **C.16**, and **A.10**.
 3. Selection cites **BLP‑2** and precedence checks.
 4. Any heuristic that meets the BLP‑4 trigger is recorded as a `BLP.HeuristicDebtEntry` with scope, responsible role, expiry or review window, and de‑hardening plan; ordinary local bounded tactics do not create a debt entry.
 5. Authoring defaults to **rules‑as‑prohibitions**; deviations are DRR‑justified and safety-bounded.
-6. **Resrc‑CAL** accounts and assurance deltas reported.
+6. Planned budget values under **A.15.2**, dated resource accounts under **A.15.1**, **B.1.6**, **C.16**, and **A.10**, and assurance deltas under **B.3** are reported.
 7. **Replicate counts, seed records, and confidence intervals** recorded for slope estimates; heteroscedasticity handling disclosed.
 8. Audit artefacts exported to **G.11** with **BLP.Policy@Context** id.
 
@@ -158,7 +163,7 @@ Source-use relation and source-currentness: this section is informative groundin
 
 ### C.19.1:7 - Relations
 
-**Depends on:** **G.5** and **G.9** (selector and parity), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E and E‑LOG), **F.7** and **F.9** (bridges, CL, Φ, and Ψ). **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
+**Depends on:** **G.5** and **G.9** (selector and parity), **G.11** (refresh telemetry), **A.15.1**, **A.15.2**, **B.1.6**, **C.16**, and **A.10** for dated work, resource aggregation, measurement, cost, and provenance, **C.18** (NQD‑CAL), **C.19** (E and E‑LOG), **F.7** and **F.9** (bridges, CL, Φ, and Ψ). Planned **C.5** (Resrc-CAL) may later consolidate resource-use and work-cost guidance but supplies no current governing semantics. **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
 
 #### C.19.1:7.1 - C.32 architecture-synthesis use relation
 

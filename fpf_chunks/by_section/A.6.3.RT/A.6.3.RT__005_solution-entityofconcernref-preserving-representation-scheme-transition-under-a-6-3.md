@@ -6,15 +6,17 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-entityofconcernref-preserving-representation-scheme-transition-under-a-6-3.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — entityOfConcernRef-preserving representation-scheme transition under A.6.3"
-line_start: 14315
-line_end: 14595
+line_start: 14397
+line_end: 14657
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.3.3"
@@ -27,6 +29,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
@@ -52,83 +55,70 @@ keywords:
 >
 > It may move between prose, table, diagram, structured notation, or another declared representation regime. It may not silently change the EntityOfConcern, silently import bridge semantics, or treat decode-mediated structure as if it were directly given.
 
-#### A.6.3.RT:4.1.a - Pattern, case, and published rendering distinction
+#### A.6.3.RT:4.1.a - Pattern, construction, occurrence, Work, and description
 
-`RepresentationSchemeTransition` is a **pattern description** and a named specialization under `A.6.3`. Concrete entityOfConcernRef-preserving representation changes are passive episteme cases or published renderings reviewed under this pattern; the pattern itself does not act, decide, or publish.
+`RepresentationSchemeTransition` is a pattern description specialized under `A.6.3`. One ordinary case first identifies exact source episteme `X`, exact receiving episteme `Y`, and exact viewing declaration `v : X -> Y`. The declaration is a mathematical and claim-bearing construction; it performs no Work and is not a relation occurrence merely because a table, diagram, or file was produced.
 
-This distinction matters because the pattern governs **how** a representation change is recognised, justified, and checked. It does **not** turn every table, diagram, or structured notation into a giant standalone review artifact, and it does not reduce review to a mechanical reformatting step.
+Keep four objects distinct:
 
-#### A.6.3.RT:4.1.a.1 - Concrete transition relation
+1. the A.6.3 construction `v : X -> Y`;
+2. an optional positive `RepresentationSchemeTransitionRelation@Context` occurrence satisfying the rule below;
+3. exact dated representation-transformation Work performed by a system under A.15.1; and
+4. an optional C.2.1 episteme that describes the occurrence, preservation, loss, use, and return.
 
-`RepresentationSchemeTransition` names the method pattern. `RepresentationSchemeTransitionRelation@Context` is a context-dependent local species of `U.Relation` between a source representation episteme and a receiving representation episteme about the same EntityOfConcern. The relation is not the pattern, the dated work that produced a rendering, or the episteme that describes the transition. No new root U-kind is introduced.
+#### A.6.3.RT:4.1.a.1 - Six-participant transition relation and non-hybrid entry
+
+`RepresentationSchemeTransitionRelation@Context` is the later-specific, bounded-model-use species of `U.Relation`. The suffix `@Context` is a retrieval label for one exact A.1.1 Plain **bounded context**, technically an independently selected `BoundedModelUseStructure : U.Structure`; it admits no discarded generic context kind or reference and no description-context field.
 
 ```text
 RepresentationSchemeTransitionRelation@Context <: U.Relation:
-  BoundedContextSlot = <TransitionBoundedContextSlot, U.BoundedContext, U.BoundedContextRef>
+  TransitionModelUseStructureSlot = <TransitionModelUseStructureSlot, U.Structure, U.StructureRef constrained to one exact BoundedModelUseStructure>
   PreservedEntityOfConcernSlot = <PreservedEntityOfConcernSlot, U.Entity, U.EntityRef>
-  SourceRepresentationSlot = <SourceRepresentationSlot, U.Episteme, U.EpistemeRef>
-  ReceivingRepresentationSlot = <ReceivingRepresentationSlot, U.Episteme, U.EpistemeRef>
+  SourceRepresentationEpistemeSlot = <SourceRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
+  ReceivingRepresentationEpistemeSlot = <ReceivingRepresentationEpistemeSlot, U.Episteme, U.EpistemeRef>
   SourceRepresentationSchemeDescriptionSlot = <SourceRepresentationSchemeDescriptionSlot, U.Episteme, U.EpistemeRef>
   ReceivingRepresentationSchemeDescriptionSlot = <ReceivingRepresentationSchemeDescriptionSlot, U.Episteme, U.EpistemeRef>
-  direction = SourceRepresentationSlot -> ReceivingRepresentationSlot
+  direction = SourceRepresentationEpistemeSlot -> ReceivingRepresentationEpistemeSlot
 ```
 
-These six SlotSpecs plus the stated direction are the exact `RelationSignature` for this local relation species. The relation depends on the bounded context and on both representation epistemes. Its identity is the tuple of bounded context, preserved EntityOfConcern, source representation edition, receiving representation edition, and declared pair of source and receiving schemes. A new carrier, layout, loss explanation, or publication edition does not by itself create a new relation. A changed endpoint edition, EntityOfConcern, context, or scheme pair does. A relation instance is referenced through a `U.EntityRef` constrained to `RepresentationSchemeTransitionRelation@Context`.
+These six SlotSpecs and the direction are the exact `RelationSignature`. The two endpoint epistemes are independently constituted under C.2.1: each has exact claim content, the same exact EntityOfConcern bound in `PreservedEntityOfConcernSlot`, and its own effective `U.ReferenceScheme`. Each scheme-description episteme is also independently constituted; its claim content describes one exact source or receiving scheme, its EntityOfConcern is that scheme, and its own effective reference scheme makes the description interpretable. Neither a scheme label nor a visible notation fills that position.
 
-A separate episteme describes the relation and its use boundaries:
+**Obtaining rule.** A positive occurrence obtains only when all of the following hold together:
 
-```text
-RepresentationSchemeTransitionDescription@Context <: U.Episteme:
-  boundedContextRef: U.BoundedContextRef
-  entityOfConcernRef: U.EntityRef, referencing one RepresentationSchemeTransitionRelation@Context
-  viewpointRef: U.ViewpointRef
-  subjectRef: U.SubjectRef, decoding to <entityOfConcernRef, boundedContextRef, viewpointRef>
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  sourceRelationReferenceEpistemeRefs[1..*]: U.EpistemeRef, each referencing one RepresentationTransitionSourceRelationReference@Context
-  preservedClaimRefs[]: U.EpistemeRef
-  preservedCommitmentRefs[]?: U.EntityRef, each referencing one U.Commitment
-  representationSchemeDeltaDescriptionRef: U.EpistemeRef
-  reasoningMediumDeltaDescriptionRef?: U.EpistemeRef
-  representationLossDescriptionRef?: U.EpistemeRef
-  recoverabilityDescriptionRef?: U.EpistemeRef
-  admissibleUseDescriptionRef: U.EpistemeRef
-  nonAdmissibleDownstreamUseDescriptionRef: U.EpistemeRef
-  returnConditionDescriptionRef: U.EpistemeRef
-  changedClaimGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription
+1. all six participants resolve exactly and the `BoundedModelUseStructure` is already selected under A.1.1 because its model-use organization changes this transition use;
+2. one system under an exact role assignment performs exact dated representation-transformation Work whose governed input, result, reference, or A.6.1 bindings use all six participant values for this transition;
+3. the exact A.6.3 declaration `v : X -> Y` states the claim-content construction, the relation between the endpoint effective reference schemes, the same-EntityOfConcern condition, preserved content, explicit loss or recoverability, prohibited strengthening, and applicability for the receiving use; and
+4. every correspondence on which the construction depends is an exact separately governed relation or claim, not a graph edge, similar content, scheme difference, or a generic correspondence record.
 
-RepresentationTransitionSourceRelationReference@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing one exact source relation instance
-  entityOfConcernKindRef: U.KindRef
-  boundedContextRef: U.BoundedContextRef
-  claimGraph: U.ClaimGraph by value
-  referenceSchemeRef: U.ReferenceSchemeRef
-  editionId
-  transitionRelationRef: U.EntityRef, referencing one RepresentationSchemeTransitionRelation@Context
-  relationSignatureRef: U.EntityRef, referencing one U.Signature
-  directGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-```
+The Work, performer, role assignment, method, operation application, source-use relations, and any A.15.PROD inception claim remain under their direct owners and are not seventh relation participants or identity discriminators. Performed Work alone does not prove the A.6.3 construction or make the relation obtain. Conversely, an inspectable `v : X -> Y` without exact Work and an independently selected `BoundedModelUseStructure` remains an ordinary RT construction; do not assert `RepresentationSchemeTransitionRelation@Context`.
 
-`RepresentationTransitionSourceRelationReference@Context` is a reference-bearing episteme whose EntityOfConcern is one exact source relation instance. It is not that relation. It can itself be cited through `U.EpistemeRef`. Its EntityOfConcern ref, exact kind ref, signature ref, transition-relation ref, and governing-pattern ref are all required and mutually consistent.
+**Occurrence identity.** The occurrence is participant-determined by the complete six-participant tuple, including the exact source/receiving scheme-description pair. A change to any participant identifies another occurrence. A repeat Work episode, evidence change, publication occurrence, form, carrier, layout, transition-description edition, or C.29 output does not reidentify an unchanged participant tuple. Changing `X` or `Y` claim content, EntityOfConcern, or effective reference scheme first identifies another episteme and therefore another tuple.
 
-The source and receiving relation endpoints are description epistemes or episteme publications about the same named EntityOfConcern. The transition-description episteme keeps each actual source relation, exact kind, signature, and direct governing pattern recoverable instead of replacing them with provenance prose.
+#### A.6.3.RT:4.1.a.2 - Transition-description and source-relation epistemes
 
-`representationSchemeDeltaDescriptionRef` is always present. `reasoningMediumDeltaDescriptionRef` is present only when the receiving representation changes what can be inspected, compared, or replayed. At least one of `representationLossDescriptionRef` and `recoverabilityDescriptionRef` is present; both are present when the transition loses distinctions and also claims a recovery route.
+When the occurrence must be described for reuse or review, identify one ordinary C.2.1 transition-description episteme by:
 
-`admissibleUseDescriptionRef` says what the receiving representation supports now. `nonAdmissibleDownstreamUseDescriptionRef` says which stronger use has not been established. `returnConditionDescriptionRef` identifies when the user returns to the source representation or exact source relations. If the attempted downstream claim changes, `changedClaimGoverningPatternRef` identifies the method pattern that governs that claim.
+- exact claim content that designates the six-participant occurrence and states the relied-on Work and viewing declaration, source-relation or correspondence dependencies, preserved and lost content, scheme and reasoning-medium delta, admissible use, non-admissible use, and return condition;
+- that exact relation occurrence as its EntityOfConcern; and
+- the effective `U.ReferenceScheme` under which those claims designate the occurrence and its participants.
 
-A changed EntityOfConcern exits to A.6.4. A narrower receiving result that needs its own loss and return account exits to A.6.3.CSC. Narrative ordering exits to A.6.3.NAR. Evidence, assurance, gate, commitment, bridge, work, and architecture uses each use their own governing relation.
+This is an ordinary C.2.1 episteme, not a context-selection record, another relation, a work record, or a filled-card ontology. A changed description claim graph identifies another description episteme without changing the occurrence.
+
+If the declared use needs a reference-bearing episteme for one exact source relation, identify it independently by its own C.2.1 triple: claim content designating the exact relation occurrence and stating its exact relation kind, signature, direct governor, and use in `v`; that source relation as EntityOfConcern; and its effective reference scheme. The episteme is not the source relation and citation does not make the relation obtain.
+
+The endpoints of the transition are exact epistemes `X` and `Y`. A selected publication occurrence may make either edition available, a publication form may express it, a `U.PresentationCarrier` may bear that form, and a C.29 representation may correspond to it for an explicit modeling or reasoning use. None of those neighbors substitutes for an endpoint or enters the six-participant identity.
+
+At least one explicit loss or recoverability claim is present. The description also states the receiving use and the condition for return to exact `X` or to an exact governed source relation. Changed EntityOfConcern exits to A.6.4; a receiving episteme that is useful only under a narrower-use card exits to A.6.3.CSC; narrative ordering exits to A.6.3.NAR. Viewpoint, `U.View` membership, grounding, publication, evidence, assurance, bridge, gate, and receiving Work remain independently governed.
 
 #### A.6.3.RT:4.1.b - Local working vocabulary
 
 Use this vocabulary only after the ordinary use field set leaves ambiguity or a claim-bearing relation-change question. Ordinary text-to-table, table-to-diagram, or diagram-to-notation cases do not need every term below; use only the term that changes the next representation decision or blocks a concrete overclaim.
-- **Representation scheme** = the published form in which the same entity is rendered (for example prose, table, diagram, or structured notation).
+- **Representation scheme** = the declared regime under which exact episteme claim content is represented and interpreted for the current use; a publication form or carrier may express that content but is not the scheme, episteme, or transition.
 - **Reasoning medium** = the form-specific inspection possibilities users actually use when inspecting the published rendering.
 - **Semiotic mode** = which meaning-bearing relation is doing the main work in the rendering, such as structural likeness, trace relation, index relation, conventional code, model-mediated correspondence, or decode-mediated recoverability.
 - **Factor delta** = the explicit change in representation factors that matters for review.
-- **Source-relation chain** = the visible source relation back to pinned or otherwise reviewable source `U.Episteme` claim graph that keeps same-EntityOfConcern continuity honest.
-- **Decode-mediated case** = a case where explicit access to the receiving representation depends on a declared decoding relation rather than direct interpretation from an already published source episteme or source publication.
+- **Source-relation chain** = exact governed relations and C.2.1 source epistemes on which `v : X -> Y` depends; pointers, graph edges, publication availability, and provenance prose do not make those relations obtain.
+- **Decode-mediated case** = a case where interpreting exact receiving episteme `Y` depends on a declared decoding or access relation. A published source form, latent state, decoded output, or carrier may provide access but cannot substitute for exact source episteme `X`, exact `Y`, or the relation.
 - **actionabilityShift** = a changed user action-possibility interpretation or apparent readiness created by the rendering. It is not execution authority, gate status, action invitation, work authority, or proof that work may proceed.
 - **recoverabilityEvidenceClass** = a local review field naming the recoverability evidence needed for decode-mediated or latent cases. It is not an `EvidenceKind`; it remains absent for an ordinary non-latent representation shift unless recoverability is part of the question under repair.
 - **representationAdmissibilityValue** = a local admissibility value used only when the representation shift is disputed, assurance-facing, gate-adjacent, externally relied on, decode-mediated, or likely to invite gate, evidence, work, or authority use beyond declared admissible use. It says which use the shifted representation makes admissible now; it is not a score, ordered rank, improvement scale, ontology class, evidence class, or `authoritySourceRef` destination.
@@ -161,11 +151,11 @@ These terms are local review aids. They inherit the `E.17:5.1e` local-field rule
 - explanation-facing renderings whose main purpose is didactic or explanatory rendering work (`ExplanationFaithfulnessProfile`);
 - purely textual rewrites that stay inside one representation regime (`ConservativeRetextualization`);
 - carrier work such as rendering, export, upload, serialization, OCR-style extraction, or parsing-style extraction;
-- latent-representation use or distributed-representation use without pinned source claim or publication, decoding relation or access relation, recoverability evidence, admissible-use value, and remaining user action.
+- latent- or distributed-representation use without exact source episteme `X`, exact receiving episteme `Y`, construction `v`, decoding/access relation, recoverability evidence, admissible use, and remaining user action; a source publication occurrence is only an access neighbor;
 
 #### A.6.3.RT:4.2.a - User guidance
 
-Use this pattern when the EntityOfConcern stays fixed but the published result changes representation scheme or reasoning medium.
+Use this pattern when exact `X` and exact `Y` keep the same EntityOfConcern while their effective representation schemes or reasoning media differ. A published form may expose `Y`; publication is not the construction.
 - If only wording changes, stay in `ConservativeRetextualization`.
 - If the receiving rendering mainly teaches, narrates, or explains, apply ExplanationFaithfulnessProfile.
 - If same-EntityOfConcern continuity fails, apply A.6.4.
@@ -177,48 +167,47 @@ Use this pattern when the EntityOfConcern stays fixed but the published result c
 A user usually starts with five questions:
 1. Is the EntityOfConcern still the same, or has the EntityOfConcern shifted?
 2. What changed in representation scheme and reasoning medium?
-3. Can the receiving rendering still state a source-relation chain back to a pinned source episteme or source publication with enough specificity for the declared admissible use?
+3. Can exact receiving episteme `Y` still cite the governed source relations needed by `v` and return to exact source episteme `X`; if access is through publication, are the occurrence, form, and carrier separately identified?
 4. Has the case quietly become explanation, bridge-bearing comparison, retargeting, or carrier work?
 5. If decoding is involved, is the evidence class adequate for the declared admissible use rather than only for readable review?
 
 If the representation shift is no longer the main review problem, and the receiving rendering instead stays honest only by carrying a narrower-use card with non-admissible downstream use and reopen duty, the case has crossed out of ordinary representation-scheme transition even if the new form still looks like a neat table, diagram, or notation. Use `A.6.3.CSC Controlled Semantic Coarsening` for that source-to-rendering relation.
 
-Here, **return to source relations** means returning to the exact source representation or source relations, while **changed governing-pattern claim** means that the now-attempted explanation, retargeting, bridge, work, evidence, gate, assurance, temporal, dynamics, carrier, or transformation-flow claim is governed by a named pattern. A coarsened representation may need both.
+Here, **return to source** means returning to exact source episteme `X` or to the exact governed source relations on which `v` depends. A changed explanation, retargeting, bridge, work, evidence, gate, assurance, temporal, dynamics, carrier, or transformation-flow claim opens its named direct governor; controlled coarsening may require both source return and another governor.
 
 Only after these questions are answered clearly does a fuller claim-bearing continuity-review field set normally become necessary.
 
-#### A.6.3.RT:4.3 - Working-model first; explicit continuity-review field set only when the case is claim-bearing
+#### A.6.3.RT:4.3 - Ordinary construction statement; occurrence description only after occurrence obtains
 
-Most entityOfConcernRef-preserving representation shifts stay human-usable and reviewable without turning every table, diagram, or structured rendering into a giant metadata block. This pattern therefore follows **E.14's working-model-first discipline**: ordinary non-latent cases need enough explicitness to show what stayed the same, what changed in representation and reasoning medium, what was lost or foregrounded, and when another governing pattern governs the case.
+Most representation-scheme changes do not need a giant record. They do always need exact epistemic endpoints. For an ordinary non-latent case, state:
 
-**Ordinary case (default).** For everyday entityOfConcernRef-preserving representation shifts, it is usually enough that the rendering or its surrounding publication keeps explicit:
-- the source representation or source episteme publication, the receiving representation or rendering, and the statement that one `entityOfConcernRef` is preserved;
-- the source `U.Episteme` claim or commitment preserved for the intended use;
-- the representation scheme, reasoning medium, or expression-form delta;
-- the remaining admissible user action and the downstream use not made admissible by this representation shift.
+- exact source episteme `X` and receiving episteme `Y`, with each C.2.1 identity triple recoverable;
+- exact A.6.3 construction `v : X -> Y`, including how source claims construct receiving claims and how the two effective reference schemes relate;
+- same exact EntityOfConcern, preserved content, admitted omission or loss, and prohibited strengthening;
+- the representation-scheme or reasoning-medium delta;
+- admissible use, non-admissible downstream use, and return to exact `X` or its governed source relations.
 
-That ordinary field set is the default. It is admissible for inspection, source-finding, comparison, technical review, or reversible planning preparation. It does not by itself license work authority, evidence force, gate passage, assurance force, bridge substitution, abductive selection, temporal currentness, dynamics currentness, or transformation-flow currentness.
+That ordinary statement is admissible for inspection, source-finding, comparison, technical review, or reversible planning preparation. When dispute, reliance, correspondence, decode-mediated access, assurance, a gate-adjacent use, or justification requires more detail but the six-participant `...@Context` occurrence does not obtain, expand this same `v` statement with the exact source-relation or correspondence dependencies, scheme and reasoning-medium delta, loss or recoverability detail, admissible and non-admissible use, and return. Stronger reliance does not by itself require separately constituted scheme-description epistemes, an exact selected bounded model-use structure, the representation-transformation Work used by the §4.1.a.1 obtaining test, a transition-occurrence reference, or an occurrence-description episteme. Recover any independently current Work, publication, viewpoint, grounding, evidence, assurance, or receiving-use fact under its direct owner without converting the ordinary construction into the stronger occurrence.
 
-**Fuller continuity-review field set (only for claim-bearing cases).** A fuller field set is warranted when the case is disputed, externally relied on, cross-context, correspondence-heavy, decode-mediated, assurance-facing, gate-adjacent, used to justify work preparation, used in abductive return to source hypotheses, or relied on for temporal, dynamics, or transformation-flow currentness. It may inherit pattern ids and already-pinned metadata instead of restating them inline. When published, it makes these fields recoverable:
+**Occurrence-description content.** Only after an exact `RepresentationSchemeTransitionRelation@Context` occurrence obtains under §4.1.a.1 may a durable C.2.1 transition-description episteme describe it. That episteme has the exact six-participant occurrence as its EntityOfConcern, claim content that designates the occurrence and states the relied-on construction, Work, preservation, loss, use, and return, and its own effective `U.ReferenceScheme`. Dispute, reliance, correspondence, decode, assurance, gate adjacency, or justification may make this description useful, but none makes the occurrence obtain. Its claim content may make the following values recoverable; they are content about the already obtaining occurrence, not additional episteme identity fields or relation participants:
 
-| Field | Interpretation in this pattern |
+| Content needed for this occurrence-description use | Interpretation |
 | --- | --- |
-| `entityOfConcernRef` | The exact `RepresentationSchemeTransitionRelation@Context` described by this episteme. Resolving it recovers the bounded context, preserved EntityOfConcern, source and receiving representation epistemes, and source and receiving scheme descriptions from the relation signature. |
-| `sourceRelationReferenceEpistemeRefs[]` | Episteme references for every actual source relation needed for the declared use, including grounding, viewpoint, view, provenance, or publication relations when they are load-bearing; each referenced episteme keeps the relation value, exact kind, relation signature, and direct governing pattern. |
-| `preservedClaimRefs[]` | Source claims that the receiving representation still carries for the declared use. |
-| `preservedCommitmentRefs[]?` | Source commitments that remain preserved when a commitment is actually current; otherwise this position is absent. |
-| `representationSchemeDeltaDescriptionRef` | What changed between the source and receiving representation schemes. |
-| `reasoningMediumDeltaDescriptionRef?` | What changed in inspection, comparison, inference, or replay affordance when reasoning medium changed; absent when no such change is claimed. |
-| `representationLossDescriptionRef?` | Lost, narrowed, foregrounded, or rearranged distinctions and any counter-witness that weakens continuity. |
-| `recoverabilityDescriptionRef?` | Why continuity remains reviewable, which source relations recover omitted content, and what evidence supports recovery for the declared use. |
-| `admissibleUseDescriptionRef` | What the receiving representation supports now. |
-| `nonAdmissibleDownstreamUseDescriptionRef` | Which stronger downstream use has not been established. |
-| `returnConditionDescriptionRef` | The condition under which the user returns to the exact source representation or source relations. |
-| `changedClaimGoverningPatternRef?` | The direct method pattern for a changed claim when the current use no longer remains a representation-scheme-transition claim. |
+| `transitionRelationRef` | Required exact six-participant occurrence; its signature resolves the selected `BoundedModelUseStructure`, preserved EntityOfConcern, `X`, `Y`, and the exact source- and receiving-scheme-description epistemes. |
+| `viewingConstructionRefOrStatement` | Exact `v : X -> Y` with claim construction, endpoint effective-scheme relation, applicability, preservation, loss, and prohibited strengthening. |
+| `representationTransformationWorkRef` | Exact A.15.1 Work already used in the occurrence obtaining test; its performer, role assignment, method, bindings, and any inception claim remain separate. |
+| `sourceRelationReferenceEpistemeRefs[]` | C.2.1 epistemes about exact governed source relations actually used; each relation still needs its own obtaining basis. |
+| `preservedClaimRefs[]` | Exact source claims carried into `Y` for the declared use. |
+| `preservedCommitmentRefs[]?` | Exact commitments preserved when a commitment is current; otherwise absent. |
+| `representationSchemeDeltaDescriptionRef` | What differs between the exact source and receiving scheme-description epistemes already participating in the occurrence. |
+| `reasoningMediumDeltaDescriptionRef?` | Changed inspection, comparison, inference, or replay affordance when material. |
+| `representationLossDescriptionRef?` | Lost, narrowed, foregrounded, or rearranged distinctions. |
+| `recoverabilityDescriptionRef?` | How omitted content is recovered from exact `X` or exact source relations for the declared use. |
+| `admissibleUseDescriptionRef` | What the receiving episteme supports now. |
+| `nonAdmissibleDownstreamUseDescriptionRef` | Which stronger use has not been established. |
+| `returnConditionDescriptionRef` | When the user returns to exact `X`, its source relations, or another direct governor. |
 
-At least one of `representationLossDescriptionRef` and `recoverabilityDescriptionRef` is present. When a reader-facing next action is useful, state it after the block in plain language rather than inventing another field.
-
-The fuller field set belongs to `RepresentationSchemeTransitionDescription@Context`; it is not a second relation, profile, or hidden admissibility object. The description refers to the existing relation and states its preserved claims, source-relation basis, deltas, loss or recoverability, use boundary, and return condition.
+At least one of loss and recoverability is explicit; both are explicit when distinctions are lost and a recovery route is claimed. A publication may expose the occurrence description, but publication does not constitute `X`, `Y`, `v`, the transition occurrence, the Work, or the description episteme.
 
 #### A.6.3.RT:4.3.a - Working admissibility defaults
 
@@ -229,19 +218,13 @@ By default in this pattern:
 - `AssuranceLane` or gate-bearing use is admitted only under a governing publication-face policy and source-pinned same-EntityOfConcern continuity;
 - latent-representation variants and distributed-representation variants remain bounded until explicit recoverability evidence and decoding-relation discipline are published.
 
-#### A.6.3.RT:4.4 - Direct and correspondence-mediated profiles
+#### A.6.3.RT:4.4 - Direct and correspondence-mediated constructions
 
-**Direct RepresentationSchemeTransition**
-- source representation and receiving representation are representation-scheme variants over one entityOfConcernRef-preserving source line;
-- `CorrespondenceModelRef` is absent;
-- admission uses explicit factor delta, reasoning-medium delta, and recoverability discipline.
+**Direct representation-scheme construction.** Exact receiving episteme `Y` is constructed from exact source episteme `X` and fixed declared configuration. The construction names the exact claim-content rule, the source and receiving effective reference schemes, preserved content, loss, and applicability. No generic correspondence object is required.
 
-**CorrespondenceRepresentationSchemeTransition**
-- the receiving representation is derived through a declared correspondence between epistemes or views of the same EntityOfConcern;
-- `CorrespondenceModelRef` is present;
-- the result remains under `A.6.3` only if same-entity conservativity is still reviewable by continuity witness and the correspondence does not silently import extra claims.
+**Correspondence-mediated representation-scheme construction.** `Y` depends on additional exact source epistemes or exact governed relations among their claim-bearing contents. Recover each needed direct relation and, when the construction cites a claim about it, the exact C.2.1 assertion episteme. The viewing declaration names those exact dependencies. A correspondence table, model, graph edge, scheme difference, or similar content is neither the relation nor proof that it obtains.
 
-Correspondence-mediated representation work does **not** by itself grant bridge licence, substitution licence, or comparative-review licence. If the declared use needs those admissibility records, declare them separately rather than hiding them inside representation language.
+Both profiles retain the same exact EntityOfConcern for `X` and `Y`. Correspondence does not repair retargeting and does not grant bridge, substitution, comparative-review, evidence, or publication licence. A C.29 mathematical representation is added only when a current mathematical modeling or reasoning use needs it; its output stays local and does not become the transition occurrence.
 
 #### A.6.3.RT:4.4.a - Recurring same-entity representation moves
 
@@ -261,7 +244,7 @@ When the case is more demanding, that paragraph also names whether salience, top
 #### A.6.3.RT:4.5 - Shared representation rule bundle
 
 ##### A.6.3.RT:4.5.a. Preservation rule
-`RepresentationSchemeTransition` preserves the same EntityOfConcern line, bounded context, and declared claim-bearing source while changing the representation scheme and, often, the reasoning medium. The transition record is complete when it states what remains preserved about the ontic scaffold, claim scope, publication scope, pins, provenance, and grounding, and whether the case remains direct or correspondence-mediated.
+`RepresentationSchemeTransition` preserves the same exact EntityOfConcern across independently constituted `X` and `Y` while changing the declared representation scheme and, often, reasoning medium. An exact `BoundedModelUseStructure` participates only in the stronger `...@Context` occurrence; it is not an episteme identity discriminator. The transition account is complete only when it identifies `X`, `Y`, their effective schemes, exact construction, preserved and lost content, admissible use, and return; publication scope, pins, provenance, grounding, and selected model-use structure enter only through their independently governed relations when current.
 
 ##### A.6.3.RT:4.5.a.1. Local conservativity witness
 For this pattern, a new EntityOfConcern-side claim is introduced when the receiving rendering:
@@ -277,27 +260,27 @@ Conservativity is approximated here by checking, together, `entityOfConcernPolic
 A reviewed case under this pattern makes explicit which distinctions, inspection possibilities, or local cues are lost, foregrounded, or rearranged by the shift in representation regime. Reliability transport may remain source-bounded or be explicitly downgraded; a clearer, more structured, or more formal receiving form does not widen the reliability claim.
 
 ##### A.6.3.RT:4.5.c. Governing-pattern boundary rule
-A case reviewed under this pattern stays same-entity and representation-shift facing when the positive field spine remains visible: preserved `entityOfConcernRef`, source-relation chain, representation-scheme or reasoning-medium delta, loss or recoverability note, admissible use, and non-admissible downstream use.
+A case stays here when the **required field set** remains visible: exact `X`, exact `Y`, `v : X -> Y`, preserved EntityOfConcern, governed source-relation chain, scheme/medium delta, loss or recoverability, admissible use, non-admissible use, and return. This is Plain completeness guidance, not a new structure or identity record.
 
 When the current claim is no longer that representation shift, state the claim being made and apply the governing pattern for that claim. Typical crossed claims are retargeting, bridge stance, explanation governance, carrier work, gate authority, evidence force, assurance force, work enactment, abductive selection, temporal currentness, dynamics currentness, and transformation-flow currentness. Until that governing source relation is supplied, the shifted representation remains limited to source-finding, inspection, comparison, technical review, reversible planning preparation, report-only use, or exploratory use.
 
 ##### A.6.3.RT:4.5.c.1. Decode-mediated entry condition
 A decode-mediated case, latent-representation case, or distributed-representation case may stay here only when the receiving rendering carries this entry set:
-- pinned source claim or source publication for the same EntityOfConcern;
+- exact source episteme `X` for the same EntityOfConcern, with any publication occurrence, form, or carrier identified separately when used for access;
 - source-relation chain back to the pinned source `U.Episteme` claim graph;
 - decoding relation or access relation;
 - recoverability evidence for the intended use;
 - admissible-use value;
 - remaining user action.
 
-Readable decoded output is useful only inside that entry set. The source expression, latent region, distributed activation pattern, embedding, probe result, or decoded rendering may point to the representation-transition case as a whole or to one relation position inside it; recover the same `entityOfConcernRef`, source claim or publication, decoding or access relation, recoverability evidence, admissible use, and remaining user action separately. If the entry set is missing, keep the use report-only, exploratory, or blocked and return to the exact source representation or source relations when their content is needed; if another claim is being made, state the governing pattern for that claim.
+A source expression, latent region, distributed activation pattern, embedding, probe result, decoded rendering, publication form, or carrier may help locate the case but cannot fill `X` or `Y`. Recover both exact epistemes, the same EntityOfConcern, the construction, decoding or access relation, recoverability evidence, admissible use, and remaining user action separately. If this entry set is missing, keep the use report-only, exploratory, or blocked and return to exact `X` or its governed source relations; if another claim is being made, apply its direct governor.
 
 
 ##### A.6.3.RT:4.5.d. Composition and reopen rule
 Repeated same-regime normalization may be idempotent, but heterogeneous regime shifts are generally order-sensitive. Multi-publication chains are checked pairwise, and the final use carries accumulated loss rather than restarting as if each pair erased earlier losses.
 
 Each step in a chain keeps recoverable:
-- preserved `entityOfConcernRef` plus source and receiving representations;
+- exact source and receiving epistemes with their C.2.1 identity triples and preserved EntityOfConcern;
 - claim or commitment under test;
 - representation-scheme delta;
 - preserved and withdrawn commitments;
@@ -308,7 +291,7 @@ The case reopens whenever recoverability assumptions, pins, provenance, correspo
 
 #### A.6.3.RT:4.6 - Boundary trigger table
 
-Use this table after the positive field spine. It is not a second catalogue of everything RT cannot do; it names the local trigger that changes the next FPF move.
+Use this table after the required field set. It is not a second catalogue of everything RT cannot do; it names the local trigger that changes the next FPF move.
 
 | Boundary trigger | Governing result |
 | --- | --- |
@@ -319,7 +302,7 @@ Use this table after the positive field spine. It is not a second catalogue of e
 | The work is rendering, export, upload, serialization, OCR-style extraction, parsing-style extraction, or other carrier work | Keep carrier work outside RT; start with the pattern governing carrier or extraction use, such as `A.7` when source extraction is the current question. |
 | Geometry, notation, embedding space, feature clustering, decoded output, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is being used as ontology, continuity proof, gate, work, evidence, assurance, or transformation-flow currentness claim | Keep RT only for the representation shift and apply the governing pattern for the stronger claim. |
 | Problem formulation, temporal claim, dynamics claim, control claim, or transformation-flow claim becomes primary | Apply `B.5.2`, `C.27`, `A.3.3`, `E.18`, or the governing pattern for that claim. |
-| The receiving representation remains useful but the ordinary field spine cannot honestly hold | State controlled coarsening, explicit return to the exact source representation or source relations, bridge-bounded use, report-only use, exploratory use, or the named governing pattern for the changed claim. |
+| Exact receiving episteme `Y` remains useful but the construction, loss, or return account cannot honestly hold | Lower or block the use; apply controlled coarsening when a narrower-use `Y` exists, otherwise return to exact `X` or its governed source relations. A readable form or carrier alone is not `Y`. |
 
 If recoverability depends on decoding, probing, or intervention, the evidence class bounds the admissible use. Low-evidence decode-mediated results remain bounded exploratory or report-only renderings; non-latent cases remain the default entry case until decode-mediated recoverability is made explicit.
 

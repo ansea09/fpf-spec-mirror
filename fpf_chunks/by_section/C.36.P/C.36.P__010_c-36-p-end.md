@@ -6,12 +6,12 @@ section_id: "C.36.P:End"
 section_title: "C.36.P:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__010_c-36-p-end.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:End — C.36.P:End"
-line_start: 68216
-line_end: 68219
+line_start: 68459
+line_end: 68462
 dependencies:
   - "A.1"
   - "A.15"
@@ -53,5 +53,5 @@ keywords:
 
 ### C.36.P:End
 
-# **Part D - Multi-scale Ethics and Conflict Optimization**
+# Part D - Multi-scale Ethics and Conflict Optimization
 

@@ -6,21 +6,19 @@ section_id: "E.24.PUB:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__013_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:11 — SoTA-Echoing"
-line_start: 88153
-line_end: 88164
+line_start: 88722
+line_end: 88733
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,18 +28,21 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
 ### E.24.PUB:11 - SoTA-Echoing
 
-| Source family | Current lesson for E.24.PUB | FPF decision |
-| --- | --- | --- |
-| Shimizu and Hitzler 2024, Eells, Dave, Hitzler, and Shimizu 2024, plus modular ODP practice. | Current modular-ontology source alignment: reusable ontology structure and its documentation or publication form are different objects. | Separate ontic, ontic-description episteme, publication, and publication form; do not let reusable form or documentation style become the ontology decision. |
-| Norouzi, Hertling, Waitelonis, and Sack 2025. | Current process-ODP source alignment: implicit ontology may be carried by process-like publications and needs explicit representation for domain experts. | Distinguish the implicit ontology from the card, table, workflow notation, diagram, or process document that happened to carry it. |
-| Nayyeri et al. 2025, and Oyewale and Soru 2026. | Current data-model-to-ontology and enterprise-KG source alignment: schemas, extraction, entailment or hierarchy structuring, provenance, validation, and RDF serialization can reveal ontology candidates but can also hide publication-form overread. | Keep schema, data structure, ontology description, serialization, publication form, and ontic distinct; require bounded scope and validation before a publication form influences ontic selection. |
-| OWL, SKOS, RDF, and triple-store practice. | Infrastructure and expression lineage: labels, concept schemes, axioms, published documents, serializations, and queries play different roles. | Use them as expression and publication caution only; they do not substitute for `U.Ontic` and do not show that labels, tables, or pattern sections decide ontology by appearance. |
-| FPF episteme and publication machinery. | `C.2.1` and `E.17` already govern epistemes and publication kits. | E.24.PUB specializes that machinery only for ontic descriptions and avoids duplicating generic semio doctrine. |
+| Source family | Decision-changing lesson | Adoption in this pattern | Practical implication |
+| --- | --- | --- | --- |
+| Modular ontology design patterns, including [Shimizu and Hitzler 2024](https://arxiv.org/abs/2411.09601) and [Eells, Dave, Hitzler, and Shimizu 2024](https://arxiv.org/abs/2402.18715) | Reusable ontology structure and the documentation or form through which it is encountered are different governed objects. | Separate the subject ontic, its description episteme, and the publication relations instead of making a reusable form the ontology. | In the inspection-card case, a layout repair does not force a pump-ontology repair. |
+| [Norouzi, Hertling, Waitelonis, and Sack 2025](https://arxiv.org/abs/2509.23776) | Process-like forms can carry implicit ontology that domain experts need to recover explicitly. | Classify the claims and relations carried by a card or workflow-shaped expression before assigning publication use. | A workflow diagram can reveal an ontic candidate without becoming that ontic by notation. |
+| [Nayyeri et al. 2025](https://arxiv.org/abs/2506.01232), and [Oyewale and Soru 2026](https://arxiv.org/abs/2602.01276) | Schemas and knowledge-graph pipelines help recover structure but also encourage schema or serialization overread. | Keep filled claim objects, reusable forms, C.29 representations, carriers, and publication occurrences distinct. | A table migration can change representation or carrier while preserving the published episteme edition. |
+| OWL, SKOS, RDF, and triple-store practice | Labels, axioms, serializations, documents, and queries have different functions even when one tool exposes them together. | Use this lineage as an expression and implementation stress test, not as authority to identify ontology with serialization. | Tool export does not settle the kind of the exported subject or the truth of its claims. |
+| FPF `C.2.1`, `A.6.REL`, `A.6.3`, `C.29`, `E.17`, and `E.24.UK` | Current FPF already separates episteme identity, direct relation identity, view membership, representation, publication use, and U-kind admission. | `E.24.PUB` coordinates those owners through one publication relation and two supporting relations; it does not duplicate their identity rules. | The architecture diagram case can be repaired at the exact changed relation without reopening architecture ontology. |
 
-Smallest source-currentness reopen trigger: reopen this SoTA slice when newer ontology-publication, data-model-to-ontology, or enterprise-KG work changes the selected distinction among ontology module, ontology-description episteme, serialization, publication form, and source-form overread. Do not reopen it merely because a new serialization format, graph store, or documentation style becomes popular.
+Smallest currentness trigger: reopen this source use when a newer ontology-publication or knowledge-representation line changes the distinction among claim-bearing episteme, view, publication form, representation, carrier, and availability relation. A new file format or storage tool alone does not trigger reopening.
 

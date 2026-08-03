@@ -6,12 +6,12 @@ section_id: "A.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:2 — Problem"
-line_start: 22418
-line_end: 22426
+line_start: 22512
+line_end: 22520
 dependencies:
   - "A.11"
   - "C.3"

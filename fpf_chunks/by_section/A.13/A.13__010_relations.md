@@ -6,16 +6,21 @@ section_id: "A.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__010_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:9 — Relations"
-line_start: 23586
-line_end: 23598
+line_start: 23680
+line_end: 23692
 dependencies:
+  - "A.10"
   - "A.12"
+  - "A.17"
+  - "A.18"
+  - "A.19"
   - "A.2"
   - "A.2.1"
+  - "C.16"
   - "C.9"
   - "E.16"
 keywords:
@@ -36,6 +41,6 @@ keywords:
     *   `B.2 Meta-Holon Transition (MHT)`: A significant jump in the agency-characteristic profile of a collective can trigger an MHT.
     *   `B.3 Trust & Assurance Calculus`: The agency-characteristic profile provides crucial inputs for assessing the reliability and safety of an autonomous system.
     *   `D.2 Multilevel Ethics For System-Holon Work`: The Agency Grade is used to determine the moral-responsibility posture and accountability assigned to a system.
-*   **Instantiates:**
-    *   `C.9 Agency Characteristic Profile`, which provides the formal definitions for the characteristics (BMC, PH, etc.).
+*   **Future consolidation:**
+    *   Planned `C.9 Agency Characteristic Profile` may later consolidate the characteristics (BMC, PH, etc.), but provides no current definitions or governing force; the current profile is defined here and measured under A.17/A.18/A.19/C.16/A.10.
 

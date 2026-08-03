@@ -6,12 +6,12 @@ section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 24140
-line_end: 24182
+line_start: 24235
+line_end: 24279
 dependencies:
   - "A.10"
   - "A.12"
@@ -55,6 +55,8 @@ keywords:
 ### A.15:5 - Archetypal Grounding
 
 The role-method-work alignment applies whenever the question under repair is holder-in-role, method description, intended plan, or performed work. Physical engineering, knowledge work, and socio-technical cases can all use the same distinction without turning A.15 into a universal process ontology.
+
+**Boundary case — possessed algorithm versus enacted method.** `Robot-7 : U.System` holds `InspectorRole` through exact `RoleAssignment-17`. A capability assertion may say that Robot-7 can inspect turbines, and a source phrase may say that it "possesses inspection algorithm A". Neither statement is dated performance, and neither classifies `TurbineInspectionProcedure-v3` as `U.MethodDescription`. If `InspectionWork-17` actually occurs, Robot-7 performs it under `RoleAssignment-17` through F.6 `performedUnderAssignment(InspectionWork-17, RoleAssignment-17)`, while the Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `TurbineInspectionProcedure-v3` is a method description only when its exact `EntityOfConcern` is that Method and at least one substantive claim says how the Method is done. Thus the system acts, the Work enacts the Method, and role, capability, algorithm-possession wording, Method, and description remain non-actors.
 
 | Archetype | **`U.System` Archetype (Manufacturing)** | **`U.Episteme` Archetype (Scientific Peer Review)** |
 | :--- | :--- | :--- |

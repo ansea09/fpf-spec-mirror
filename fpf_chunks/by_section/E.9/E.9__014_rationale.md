@@ -6,31 +6,38 @@ section_id: "E.9:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__014_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:10 — Rationale"
-line_start: 72782
-line_end: 72803
+line_start: 73166
+line_end: 73184
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.2.P"
+  - "C.29"
   - "E.10"
   - "E.19"
   - "E.2"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.5.4"
   - "E.8"
   - "E.9"
   - "E.9.DA"
+  - "F.10"
   - "F.19"
+  - "G.11"
+  - "G.6"
 keywords:
 ---
 
 ### E.9:10 - Rationale
-FPF evolves by **explicit, reviewable deltas** rather than silent edits.
-The DRR is the *minimum structured argument*—and, when several patterns or selected non-pattern FPF kind-reference pairs must move together, an allowed temporary convergence record that keeps **P‑10 Open‑Ended Evolution** compatible with **P‑1
-Cognitive Elegance** and **P‑2 Didactic Primacy**.
-
+FPF evolves through explicit decision work and reviewable result epistemes rather than silent edits. `DRRMethod` is the minimum reusable method for producing the structured selected-answer result; the DRR episteme makes that result inspectable. For coordinated changes it may serve as temporary convergence support, preserving P-10 Open-Ended Evolution alongside P-1 Cognitive Elegance and P-2 Didactic Primacy without becoming decision work, adequacy evaluation, authority, or shadow Core.
 E.9 sets a **floor, not a ceiling**: every conforming DRR must make
 Problem‑frame / Decision / Rationale / Consequences recoverable, but it
 may carry richer substantive coordination content when that prevents

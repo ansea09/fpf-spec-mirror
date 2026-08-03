@@ -6,12 +6,12 @@ section_id: "F.19:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__013_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:11 — SoTA-Echoing"
-line_start: 96114
-line_end: 96122
+line_start: 97030
+line_end: 97038
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

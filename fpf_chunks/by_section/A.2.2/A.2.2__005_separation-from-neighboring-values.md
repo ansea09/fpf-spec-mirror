@@ -6,12 +6,12 @@ section_id: "A.2.2:4"
 section_title: "Separation From Neighboring Values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__005_separation-from-neighboring-values.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:4 — Separation From Neighboring Values"
-line_start: 3455
-line_end: 3466
+line_start: 3432
+line_end: 3443
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,9 +30,9 @@ keywords:
 
 | Source wording | Recovered FPF values |
 |---|---|
-| "Engineer role can approve the design." | `U.Role` and `U.RoleAssignment` for who may act; `U.Capability` only if the holder's ability to approve is being measured or qualified. |
+| "Engineer role can approve the design." | `U.Role` for the role value and exact `U.RoleAssignment` for the admitted holder, role value, role-taxonomy episteme, effective reference scheme, and obtaining extent. Do not infer permission, capability, action, or approval Work from that wording; add `U.Capability` only for a measured and qualified ability of the holder system, and use the direct authorization and performed-work relations when those claims are current. |
 | "The robot is assigned as welder." | `U.RoleAssignment`; add `U.Capability` only if the claim also says the robot can meet a welding envelope and measures. |
-| "The solver has the scheduling algorithm." | `U.MethodDescription` or deployed software-system relation; `U.Capability` only for the deployed system's ability to produce schedules within bounds. |
+| "The solver has the scheduling algorithm." | First identify what the possession phrase claims: a deployed-software relation, a capability statement about the solver system, a reference to exact `U.Method`, or a candidate claim-bearing episteme. Only the last candidate enters `A.3.2`, and it is `U.MethodDescription` only when its exact `EntityOfConcern` is one admitted Method and at least one substantive claim says how that Method is done. The phrase alone establishes none of these. |
 | "The report has evidence capability." | Evidence-use relation around an episteme; no capability holder unless a system can perform evidential work. |
 | "The team did one successful run." | `U.Work` occurrence; capability only after a separate capability instance is established with envelope, measures, and currentness. |
 | "We promise five-day close." | Promise content and commitment; capability is the holder-dependent capability instance that makes the promise credible. |

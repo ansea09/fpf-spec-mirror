@@ -6,41 +6,40 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 93997
-line_end: 94060
+line_start: 94690
+line_end: 94746
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -51,65 +50,58 @@ keywords:
 
 ### F.15:11 - Regression and stability rules
 
-The RSCR family compares an earlier snapshot `@t0` and a later snapshot `@t1`.
+The RSCR family compares exact earlier and later refs for each changed member. Every result names the continuity or change proposition, admitted losses, receiving use, and evidence path. It does not infer identity or difference from spelling, path, stable id, table position, timestamp, or edition label.
 
-#### F.15:11.1 - Contexts and editions
+#### F.15:11.1 - Schemes, versions, and known confusions
 
-**RSCR-F15-E1 (No silent replacement).**
-`Context C@t0 edition e0, Context C@t1 edition e1, e1 != e0 -> new context or explicit recency decision.`
-A new edition becomes a new context when sense changes; otherwise the recency decision is visible.
+**RSCR-F15-E1 (Exact before/after and no silent replacement).**
+For each changed member, resolve exact `@t0` and `@t1` refs and versions. A changed effective ReferenceScheme changes interpretation-bearing content; an unchanged label or shared designator does not prove continuity. State the direct-owner identity, continuity, split, retirement, or replacement claim explicitly.
 
 **RSCR-F15-E2 (Known confusion check).**
-`C@t1 derives from C@t0 -> known confusion cases from C@t0 are rechecked or explicitly retired.`
-Old traps do not disappear merely because an edition changed.
+Recheck or explicitly retire every prior confusion, blocked use, and nearest counterexample affected by the change. A new edition does not erase an old trap.
 
-#### F.15:11.2 - Local-Senses and SenseCells
+#### F.15:11.2 - Local senses and SchemeSenseCells
 
-**RSCR-F15-E3 (Reconstructible Local-Sense).**
-`Local-Sense lambda@t0 changes attestations -> lambda@t1 remains reconstructible from attestations@t1.`
+**RSCR-F15-E3 (Reconstructible local sense).**
+When the basis episteme, source unit, or attestation changes, the `@t1` local-sense claim remains recoverable from exact current basis relations and descriptions. Changed witnesses or source publication do not silently rewrite the sense claim.
 
-**RSCR-F15-E4 (SenseCell context stability).**
-`SenseCell (C, lambda)@t0 -> (C2, lambda2)@t1 -> same cell only if C2 = C and lambda2 preserves local sense.`
-A SenseCell does not migrate across contexts through edits.
+**RSCR-F15-E4 (SchemeSenseCell value identity).**
+The exact F.17 cell value is `<ReferenceScheme by value, LocalExpression, LocalSenseClaim>`. Changing any component yields another coordinate value; keeping a label or id does not preserve it. Same sense under a renamed expression is handled through designation/lineage rather than cell identity by wish.
 
-#### F.15:11.3 - Concept-Set rows
+#### F.15:11.3 - UnifiedTermRows
 
-**RSCR-F15-E5 (Row identity).**
-`Row rho@t0 with cells cell_i -> row rho@t1 is same row only if each cell preserves its local sense.`
-If a cell changes sense, mint a new row and retire the old row.
+**RSCR-F15-E5 (Row episteme identity and edition).**
+Compare the exact C.2.1 row epistemes and their ClaimGraphs, EntityOfConcern values, and effective schemes. Changed governed value, NameCard, selected designation, cell, Bridge ref, admitted use, or rationale creates the corresponding later row claim content; an edition id cannot hide it.
 
-**RSCR-F15-E6 (Add or retire before silent mutation).**
-`Row rho loses or gains a cell because an edition split occurred -> preserve old row and add or retire rows explicitly.`
+**RSCR-F15-E6 (Explicit add, split, merge, or retire).**
+When a changed value, sense, or use alters row support, preserve the exact earlier row and state the later add, split, merge, retirement, admitted losses, and receiving use under F.13/F.17. Do not mutate a shared table cell as continuity proof.
 
-#### F.15:11.4 - RoleDescriptions
+#### F.15:11.4 - RoleDescriptions and names
 
-**RSCR-F15-E7 (Single-cell continuity).**
-`RoleDescription tau@t0 -> tau@t1 -> refersTo(tau@t1, one SenseCell) and same cell or justified switch.`
+**RSCR-F15-E7 (RoleDescription continuity).**
+Compare exact F.4 description epistemes, described `U.Role` values, role-taxonomy epistemes, effective schemes, and claim content. A label-only change cannot prove that the described role or description episteme stayed the same.
 
-**RSCR-F15-E8 (Alias for rename, new RoleDescription for meaning change).**
-`name(tau@t0) -> name(tau@t1) -> alias if only label changed; new RoleDescription if described role or local sense changed.`
+**RSCR-F15-E8 (Alias for expression change; direct recovery for meaning change).**
+If only a selected expression changes while the exact governed value, scheme, sense, and use are preserved, F.13/F.18 may record an alias or rename. Changed described role, taxonomy, scheme, local sense, or description claim requires the corresponding new governed object or episteme and a fresh naming settlement.
 
-#### F.15:11.5 - Bridges
+#### F.15:11.5 - Bridges and bounded uses
 
-**RSCR-F15-E9 (Recheck Bridge on endpoint movement).**
-`Bridge beta@t0 and either endpoint cell changes -> beta is rechecked; CL, loss, admitted use, and witness may change.`
+**RSCR-F15-E9 (Exact Bridge change).**
+Compare exact prior/later endpoint cells and relation-semantic profiles. A changed endpoint or profile concerns another Bridge candidate and obtaining test; changed assertion, description, Card, evidence, reliance, or bounded-use claim does not by itself reidentify or negate a fixed obtaining occurrence.
 
-**RSCR-F15-E10 (No drift to equivalence).**
-`Bridge beta kind is not equivalence at t0 and equivalence is claimed at t1 -> new witness set is required.`
-Equivalence is rare and cannot arrive by gradual wording drift.
+**RSCR-F15-E10 (No drift to equivalence or use authority).**
+A later equivalence claim requires an exact Equivalence profile, true predicate, required dependencies, and a separately identified obtaining occurrence. A new witness set, high `CL`, polished Card, or earlier partial relation is insufficient. Any later substitution still needs its own bounded-use claim and reliance.
 
-#### F.15:11.6 - Status windows and role relation structure
+#### F.15:11.6 - Status and role-relation structure
 
-**RSCR-F15-E11 (Window stability).**
-`Status family windows@t0 -> windows@t1 -> changed only when variance of meaning or use is shown.`
+**RSCR-F15-E11 (Status-window and status-use stability).**
+Compare the exact direct-owner family/value, target, scope, window, source condition, and intended use at `@t0` and `@t1`. Changed time, scale, confidence, or edition does not create a new family or preserve an old result automatically.
 
 **RSCR-F15-E12 (Role-relation stability).**
-`role incompatibility, bundle, qualification, or role-requirement substitution@t0 -> @t1 -> preserved, retired, or restated before assignment or naming use.`
-No later RoleDescription fuses roles that were kept distinct by A.2.7.
+Preserve, retire, or restate each exact role incompatibility, qualification, bundle, requirement, or selected `RoleRelationStructure` before it is consumed by naming, assignment, or work. No later description or fused label substitutes for the relation occurrence.
 
-#### F.15:11.7 - Public naming
+#### F.15:11.7 - Public naming, publication, and currentness
 
 **RSCR-F15-E13 (Public name continuity).**
-`Public or term-sheet-facing name changes -> F.17 or F.18 records lineage, alias, split, merge, or retirement.`
-Local rename is not enough when the name already faces other contexts.
+F.13/F.18 record the exact selected-expression lineage and NameCard change; F.17 separately records the later row episteme and admitted use. E.24.PUB publication occurrence/form/carrier and G.11 currentness are rechecked only when their exact refs or receiving use changed. A local rename, row edition, or upload does not prove public-name continuity or publication.
 

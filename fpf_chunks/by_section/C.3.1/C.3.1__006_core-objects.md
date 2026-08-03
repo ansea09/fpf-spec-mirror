@@ -6,12 +6,12 @@ section_id: "C.3.1:4"
 section_title: "Core Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_core-objects.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:4 — Core Objects"
-line_start: 44642
-line_end: 44661
+line_start: 44795
+line_end: 44814
 dependencies:
   - "A.1"
   - "A.11"
@@ -42,7 +42,7 @@ keywords:
 
 | Object | Meaning | Boundary |
 | --- | --- | --- |
-| `U.Kind` | A context-local kind value used by typed claims under an effective `U.ReferenceScheme`. | It is not automatically a durable public FPF U-kind. |
+| `U.Kind` | A kind value identified within one bounded context by a local identity basis; typed claims use `KindSignature` editions whose content names the effective `U.ReferenceScheme`. | It is not automatically a durable public FPF U-kind, and the scheme is not stored on the kind. |
 | `U.SubkindOf` | The admitted direct relation kind that orders two local `U.Kind` values under one effective reference scheme. Its participants are the narrower kind and the broader kind. | It is not a predicate expression, assertion episteme, dependency, part-whole, slot-filling, construction, role-assignment, or admission relation. |
 | `SubkindOfObtains(k1, k2; RS)` | The relation-obtaining predicate: under exact reference-scheme edition `RS`, the aligned kind interpretations make every defined `true` judgment for `k1` imply `true` for `k2` over the declared candidate domain and applicable slices. | The predicate is rule content; it is not the obtaining occurrence. An unresolved required judgment leaves an assertion about obtaining unresolved rather than making the relation false. |
 | `R_sub : U.SubkindOf` | One obtaining direct relation occurrence between exact narrower kind `k1` and broader kind `k2` under `RS`. | Expose an occurrence designator only when a named receiver needs to distinguish or refer to the occurrence. Participant identities plus the exact effective reference-scheme edition determine its identity. |

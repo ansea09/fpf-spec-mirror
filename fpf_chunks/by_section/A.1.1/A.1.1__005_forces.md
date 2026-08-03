@@ -6,12 +6,12 @@ section_id: "A.1.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:3 — Forces"
-line_start: 1860
-line_end: 1871
+line_start: 1880
+line_end: 1891
 dependencies:
   - "A.1"
   - "A.14"

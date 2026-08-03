@@ -6,12 +6,12 @@ section_id: "E.9.DA:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__006_worked-slices.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:5 — Worked slices"
-line_start: 73023
-line_end: 73030
+line_start: 73462
+line_end: 73469
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,9 +27,9 @@ keywords:
 
 ### E.9.DA:5 - Worked slices
 
-**Weak precision-restoration DRR.** A `DRR` says `E.10`, `A.6.P`, and `C.2.P` are relevant, but does not decide whether a new branch exists, what name it has, which repeated prose moves, or which regression cases test the split. `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability` fall.
+**Weak precision-restoration DRR.** A checked DRR episteme says `E.10`, `A.6.P`, and `C.2.P` are relevant, but does not decide whether a new branch exists, what name it has, which repeated prose moves, or which regression cases test the split. Its aggregate assessment result assigns lower values to `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability`.
 
-**Adequate multi-locus DRR.** The `DRR` selects a new precision-restoration pattern, assigns selected content responsibilities to selected loci, states rejected alternatives, gives first drafting actions, and carries source-use payload into examples and conformance. It can be admissible for host drafting without containing final pattern prose.
+**Adequate multi-locus DRR.** The checked DRR episteme records a selected precision-restoration pattern, responsibilities for selected loci, rejected alternatives, first drafting actions, and source-use payload carried into examples and conformance. Dated assessment work enacts the selected semantic evaluation method; the A.6.1 application returns value bindings, and the separate aggregate result episteme can state `admissibleForDeclaredAuthoringUse` without the DRR containing final pattern prose. A separately governed receiving decision determines whether drafting proceeds.
 
-**Architecture-impact DRR.** A `DRR` uses diagrams, graphs, dashboards, or architecture notes. The evaluation asks whether the `DRR` decided the architecture or structure claim, structural view relation, preserved and lost structure, missing-structure return condition or source-use relation, selected loci, and publication boundary. The description locates material; it is not the FPF decision.
+**Architecture-impact DRR.** A checked DRR episteme cites diagrams, graphs, dashboards, or architecture notes. Assessment work applies the E.9.DA configuration to determine whether its decision claims settle the architecture or structure claim, structural-view relation, preserved and lost structure, missing-structure return condition or source-use relation, selected loci, and publication boundary. A description locates material; it is neither the decision nor the assessment result.
 

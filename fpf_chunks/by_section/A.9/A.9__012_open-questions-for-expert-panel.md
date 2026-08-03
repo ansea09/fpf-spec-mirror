@@ -6,12 +6,12 @@ section_id: "A.9:11"
 section_title: "Open Questions for expert panel"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__012_open-questions-for-expert-panel.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:11 — Open Questions for expert panel"
-line_start: 22626
-line_end: 22632
+line_start: 22720
+line_end: 22726
 dependencies:
   - "A.1"
   - "A.8"

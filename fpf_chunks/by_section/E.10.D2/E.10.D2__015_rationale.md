@@ -6,28 +6,33 @@ section_id: "E.10.D2:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__015_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:13 — Rationale"
-line_start: 76094
-line_end: 76097
+line_start: 76586
+line_end: 76591
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,5 +44,7 @@ keywords:
 
 ### E.10.D2:13 - Rationale
 
-Specification is treated as admitted use of a Description episteme because this preserves the two-way distinction between the EntityOfConcern and the episteme that describes it. Making specification a third peer class would recreate the old I-D-S ontology and make publication appearance, formality, or approval labels look like authority. E.10.D2 therefore keeps the first move small: recover the EntityOfConcern, recover the Description episteme and context, admit `...Spec` only under checkability conditions, and apply the neighboring governing pattern for any other claim.
+The durable core is a two-object distinction: one independently identified EntityOfConcern and one C.2.1 episteme carrying claims about it. Specification is a checkable use of that episteme. Viewpoint selection, view membership, scope, model-use structure, grounding, evidence, assurance, edition, publication, carrier, representation, and work have different reasons to obtain and different identity rules.
+
+Making those neighbors fields of a description tuple would erase those rules and make formality, publication, approval, or a shared context label look constitutive. Requiring all of them for every description would also make ordinary use needlessly heavy. Receiving-use-first routing preserves both reliability and economy: recover the exact constitution, add the one neighbor needed for the next action, then stop.
 

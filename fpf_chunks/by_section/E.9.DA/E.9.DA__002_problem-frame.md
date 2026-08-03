@@ -6,12 +6,12 @@ section_id: "E.9.DA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:1 — Problem frame"
-line_start: 72834
-line_end: 72845
+line_start: 73215
+line_end: 73226
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,13 +27,13 @@ keywords:
 
 ### E.9.DA:1 - Problem frame
 
-Use `E.9.DA` when one `DRR` must be reliable enough for a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision.
+Use `E.9.DA` when one exact C.2.1 `DRR` episteme must be assessed for decision adequacy under a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision. E.9.DA supplies the object-specific evaluation characteristic space and result rules; it does not itself perform that assessment.
 
 Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`, `A.17`, `A.18`, and `A.19` for those objects.
 
-First useful move: name `DRRVersionRef` by value, declared authoring use, selected-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
+First useful move: identify the exact checked `DRR` episteme, declared authoring use, `U.ClaimScope`, selected-locus disposition map, qualification window, and E.9.DA evaluation configuration. When an actual result is required, identify the evaluator system, role assignment, semantic evaluation method, dated assessment work, and A.6.1 application/bindings before constituting coordinate-result claims.
 
 What goes wrong if missed: a formally valid `DRR` may still be too weak for drafting. It may summarize sources instead of deciding, mention neighbours without obligations, hide rejected alternatives, leave trigger words unresolved, or omit the first drafting action.
 
-Primary EntityOfConcern in plain terms: the decision-adequacy claim of one `DRR` version for a declared FPF authoring use.
+Primary EntityOfConcern in plain terms: one exact C.2.1 `DRR` episteme version assessed for one declared FPF authoring use and qualification window. The assessment work, result episteme, witness/evidence set, optional record, status use, assurance, acceptance, and later repair are separate objects.
 

@@ -6,12 +6,12 @@ section_id: "F.9:17"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__019_acceptance-tests.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:17 — Acceptance tests"
-line_start: 91914
-line_end: 91940
+line_start: 92557
+line_end: 92586
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -64,6 +66,9 @@ keywords:
 * **SCR-F9-S08 (Receiving-object boundary).** A named use role is never treated as performed Work, assertion, publication, relation, or operation application.
 * **SCR-F9-S09 (Card truthfulness).** An actual card concerns an already individuated occurrence; a candidate or negative card concerns the admitted relation kind and has no positive occurrence ref.
 * **SCR-F9-S10 (Plain action).** A practitioner can tell what relation to test, what use is proposed, what would stop reliance, and which downstream object still needs its own owner.
+* **SCR-F9-S11 (Non-optional identity and recurrence).** The declaration states `BridgeOccurrenceIdentityRule`, asymmetric ordering or symmetric canonicalization, and the non-recurrence of one fixed endpoint/profile tuple; a later basis changes the profile before another candidate is admitted.
+* **SCR-F9-S12 (Description and publication boundary).** Every actual description/Card concerns an already individuated occurrence under C.2.1; every modal proposal has no positive occurrence ref; E.24.PUB publication, form, carrier, and registry identity establish neither.
+* **SCR-F9-S13 (No adjacent fact by Bridge).** No Bridge creates role assignment, Work, evidence authority, status transfer, U-kind admission, publication, model-use crossing, or another subject relation.
 
 #### F.9:17.2 - Regression checks
 

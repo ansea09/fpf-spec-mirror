@@ -6,12 +6,12 @@ section_id: "C.3.2:13"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__015_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:13 — Conformance Checklist"
-line_start: 44926
-line_end: 44942
+line_start: 45083
+line_end: 45099
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -27,11 +27,6 @@ dependencies:
   - "C.3.A"
   - "E.24.UK"
 keywords:
-  - "KindExtension representation"
-  - "KindSignature declaration episteme"
-  - "candidate classification"
-  - "local kind"
-  - "true/false/unknown"
 ---
 
 ### C.3.2:13 - Conformance Checklist
@@ -46,7 +41,7 @@ keywords:
 | `CC-C32-6` | No A.14 `MemberOf`, `U.EntitySet`, collection holon, or direct classification occurrence is inferred from the judgment or extension. |
 | `CC-C32-7` | Any separate classification assertion is a C.2.1 episteme and creates neither candidate nor kind; a value classification need not fabricate a value-shaped EntityOfConcern. |
 | `CC-C32-8` | Subkind monotonicity is tested over defined judgments for the same candidate and slice; counterexamples repair links, editions, or bridges rather than extension rows. |
-| `CC-C32-9` | Signature-edition change, C.3.1 kind continuity, candidate-state change, slice change, and extension change remain distinct. |
+| `CC-C32-9` | Bounded-context crossing, signature-edition change within one context, C.3.1 kind continuity, candidate-state change, slice change, and extension change remain distinct. |
 | `CC-C32-10` | The kind carries no scope; the context slice is an evaluation input, and declaration/assertion scopes stay on their own epistemes. |
 | `CC-C32-11` | The five required cases and the `U.Work`/W/episteme distinction all close under the same four-object architecture. |
 | `CC-C32-12` | Ordinary use stays readable, and reusable declarations or extensions have named receiving uses. |

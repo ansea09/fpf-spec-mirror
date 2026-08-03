@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Kind and Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_kind-and-boundary.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:2 — Kind and Boundary"
-line_start: 3360
-line_end: 3416
+line_start: 3337
+line_end: 3393
 dependencies:
   - "A.15"
   - "A.2"
@@ -63,7 +63,7 @@ SupportAndUseReferencesAroundCapability:
 
 **CapabilityHolderRef.** The holder is a `U.System`: a physical system, cyber system, socio-technical system, organization, team, composite cell, software service as deployed system, or other acting holon admitted as system for the claim. A role assignment, method, method description, work record, episteme, publication, standard, or dashboard is not the capability holder merely because it appears in the sentence.
 
-**WorkFamilyOrResultClassRef.** The ability is about a class of work results or a method family the holder can enact. It may refer to a `U.Method`, `U.MethodDescription`, method family, result class, or work family, but the reference does not turn the method or description into the holder.
+**WorkFamilyOrResultClassRef.** The ability is about a class of work the holder system can perform or a result class it can produce. The envelope may cite the exact `U.Method` that prospective Work occurrences would enact, or a separately identified `U.MethodDescription` whose claims constrain the capability use. Those references do not turn the Method or description into the holder, do not make the holder enact the Method, and do not establish that any candidate episteme is `U.MethodDescription`.
 
 **CapabilityEnvelope.** The envelope states the bounded conditions under which the ability holds: input range, environment, resources, configuration, system version, calibration state, staffing composition, access constraints, safety limits, or other current conditions.
 

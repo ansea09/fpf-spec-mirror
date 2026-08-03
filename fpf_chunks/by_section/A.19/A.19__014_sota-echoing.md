@@ -6,12 +6,12 @@ section_id: "A.19:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__014_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:10 — SoTA-Echoing"
-line_start: 28755
-line_end: 28760
+line_start: 28852
+line_end: 28857
 dependencies:
   - "A.10"
   - "A.17"

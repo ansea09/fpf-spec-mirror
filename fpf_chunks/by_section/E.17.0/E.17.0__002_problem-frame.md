@@ -1,0 +1,52 @@
+---
+chunk_kind: "child"
+pattern_id: "E.17.0"
+pattern_title: "Viewpoint and View Recognition for Multi-View Describing"
+section_id: "E.17.0:1"
+section_title: "Problem frame"
+source_path: "FPF-Spec.md"
+output_path: "by_section/E.17.0/E.17.0__002_problem-frame.md"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+heading_path:
+  - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
+  - "E.17.0:1 — Problem frame"
+line_start: 78976
+line_end: 78993
+dependencies:
+  - "A.22"
+  - "A.6.2"
+  - "A.6.3"
+  - "A.6.4"
+  - "A.6.5"
+  - "A.7"
+  - "C.13"
+  - "C.2.1"
+  - "C.29"
+  - "E.10.D1"
+  - "E.10.D2"
+  - "E.17"
+  - "E.17.1"
+  - "E.17.2"
+  - "E.18"
+  - "E.24.PUB"
+keywords:
+---
+
+### E.17.0:1 - Problem frame
+
+An engineer may have several claim-bearing epistemes about one system, method, structure, work occurrence, or another exact entity. A functional description, safety description, maintenance description, and allocation description may serve different concerns. One episteme may also be constructed from another by a query or projection, rendered in several forms, published several times, or compared with another view.
+
+Those uses involve different objects and relations:
+
+1. the exact EntityOfConcern of each episteme;
+2. the episteme itself, identified under C.2.1;
+3. an exact `U.Viewpoint` episteme carrying fixed concerns and conformance rules;
+4. an obtaining `EpistemeViewpointConformanceRelation` occurrence;
+5. dependent `U.View` membership of the same episteme individual;
+6. an optional A.6.3 viewing relation recording how one episteme was constructed from another;
+7. a viewpoint selected for one current describing use;
+8. exact correspondence relations and epistemes that assert or describe them;
+9. publication occurrences, forms, carriers, and representations.
+
+The list is an orientation, not a form to fill. Ordinary use often needs only items 1 through 5.
+

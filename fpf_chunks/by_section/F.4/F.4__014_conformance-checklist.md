@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:12 — Conformance Checklist"
-line_start: 90192
-line_end: 90207
+line_start: 90741
+line_end: 90756
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -46,10 +46,10 @@ keywords:
 
 | Check | Question |
 | --- | --- |
-| `CC-F4-01` | Is exactly one described `U.Role` named? |
-| `CC-F4-02` | Is exactly one `U.BoundedContext` named? |
+| `CC-F4-01` | Is the role-description episteme's exact C.2.1 EntityOfConcern exactly one described `U.Role` value? |
+| `CC-F4-02` | Are the exact role-taxonomy episteme and effective `U.ReferenceScheme` named? |
 | `CC-F4-03` | Is the description kept separate from the role value and any publication form? |
-| `CC-F4-04` | Is the admitted holder kind system-like or acting-holon-like under the governing work or method pattern? |
+| `CC-F4-04` | Is every named eligible holder kind an independently admitted `U.System` kind, with any actual holder and assignment recovered separately under A.1 and A.2.1? |
 | `CC-F4-05` | Are assignment claims sent to `A.2.1`? |
 | `CC-F4-06` | Are capability claims sent to `A.2.2`? |
 | `CC-F4-07` | Are method, plan, and work claims sent to `A.15` and neighboring patterns? |

@@ -6,19 +6,28 @@ section_id: "F.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:3 — Forces"
-line_start: 92291
-line_end: 92301
+line_start: 92939
+line_end: 92950
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -32,10 +41,11 @@ keywords:
 
 | Force | Tension this pattern resolves |
 | --- | --- |
-| Local fidelity versus reuse | Every status value belongs to one bounded context, but projects need to compare and reuse statuses across contexts. |
-| Compact label versus typed relation | Status labels must stay quick to read, while the target, scope, window, source, and intended use must remain recoverable when reliance depends on them. |
-| Evidence versus standard versus requirement | Evidence status is epistemic; standard and requirement statuses are deontic in different ways. Treating them as synonyms breaks reasoning. |
-| Design-time stance versus run-time standing | Standards usually govern design or method choice; evidence usually comes from observed or measured work; requirements span both. |
-| Display cue versus source relation | Status displays help humans find a source, but the display is not automatically the source, decision, permission, or assurance. |
-| Ordinary speech versus FPF kind discipline | People say "the role of this status" or "the standard's role"; FPF recovers status-use, standard-use, requirement-use, or evidence-use relations instead of making epistemes role holders. |
+| Local fidelity versus reuse | Status meaning is local to an effective ReferenceScheme, yet projects must explain or compare statuses across schemes. |
+| Compact label versus recoverable relation | A quick display is useful, while target, value, scope, window, source, rule, and use must remain recoverable before reliance. |
+| Evidence versus standard versus requirement | Evidence standing is epistemic; standard and requirement statuses are deontic in different ways. |
+| Direct result versus status | A domain result may justify a status assertion, but the result and status remain different objects. |
+| Design stance versus runtime standing | Approval of a description or profile does not show what happened in one run. |
+| Cue versus actual use | Display and list membership aid retrieval but do not establish source, evaluation, currentness, status use, or downstream reliance. |
+| Ordinary speech versus kind discipline | “The role of this status” is repaired as an exact use relation, not as a work-facing role held by an episteme. |
 

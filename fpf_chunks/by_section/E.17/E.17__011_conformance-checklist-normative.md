@@ -6,34 +6,35 @@ section_id: "E.17:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__011_conformance-checklist-normative.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:9 — Conformance Checklist (normative)"
-line_start: 80182
-line_end: 80221
+line_start: 80628
+line_end: 80668
 dependencies:
   - "A.15.4"
+  - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "C.2.1"
   - "C.2.P"
+  - "C.29"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
   - "E.17.AUD"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "E.8"
   - "F.9"
   - "F.9.1"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicViewing"
-  - "U.MultiViewDescribing"
+  - "U.View"
 keywords:
 ---
 
@@ -47,10 +48,11 @@ A conformance check is kept only if it changes the next bounded use of the publi
 
 | ID | Requirement | Practical test |
 | --- | --- | --- |
-| **CC‑MVPK‑1 (Viewpoint explicit)** | Each view declares its **Viewpoint** (stakeholders, concerns, conformance) as a publication `U.Viewpoint`. | Cards show `PublicationVPId` (or equivalent publication‑viewpoint field) and concerns. |
+| **CC‑MVPK‑1 (Viewpoint explicit)** | Each face use carries `publicationViewpointRef : U.ViewpointRef` resolving to one exact admitted publication viewpoint episteme; any `U.View` claim additionally cites the obtaining E.17.0 conformance relation. | The card exposes the reference and optional `PublicationVPId` designator; generation or selection alone is not accepted as membership. |
+| **CC-MVPK-1a (Publication relations explicit when load-bearing)** | A claimed publication occurrence has one selected episteme edition, audience declaration, bounded-use declaration, exact form, and exact carrier; `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` obtain separately. | The five values and both supporting relations resolve; changed participants or an availability gap produce the E.24.PUB recurrence result rather than reidentifying an unchanged episteme. |
 | **CC‑MVPK‑3 (No content extension)** | `PlainView`, `TechCard`, and `InteropCard` add **no new claims** beyond the underlying Description epistemes, including Description epistemes admitted for specification use. | Red‑line vs Description episteme, including any exact specification-use source, shows only formatting or indexing. |
 | **CC-MVPK-4 (Pins and source references)** | Numbers and thresholds pin {...}. **Lean exception:** at MVPK-Min or MVPK-Lite profiles, EditionId can remain coarse; ordinal claims stay compare-only (no means or z-scores). | Validation shows pins present or compare-only mode engaged. |
-| **CC-MVPK-4j (PublicationScope present)** | Each view **declares `U.PublicationScope`** (USM §6.5). | Field present; presence-bit green. |
+| **CC-MVPK-4j (PublicationScope present)** | Each publication-face use declares `U.PublicationScope` under A.2.6. | Exact scope reference is recoverable. |
 | **CC-MVPK-5 (Carrier reference)** | First mention includes carrier references and any A.10 or G.6 source-currentness or provenance records when carrier work, rendering work, reliance, evidence, or replay is present. | Carrier and provenance references are visible when used. |
 
 #### E.17:9.2 - Conditional checks
@@ -72,8 +74,8 @@ A conformance check is kept only if it changes the next bounded use of the publi
 | **CC‑MVPK‑6 (Γ‑separation)** | No cost, time, or data-spend on publication morphisms. | CI shows proof records or witness records; gate validation passes. |
 | **CC‑MVPK‑7 (Reindexing monotone)** | If `s ⪯ t`, then `Emit_s(x) ⪯ Emit_t(x)`. | `TechCard` ≤ `InteropCard` (more structure, same claims). |
 | **CC‑MVPK‑8 (`publication-face kind` discipline)** | Only literal `publication-face kind` values **publication face/form** or **interop publication form** are used; faces are named **...View** or **...Card**. | Token scan; no “rendering” or “presentation” as `publication-face kind` values. |
-| **CC‑MVPK‑9 (Reindexing naturality)** | Reindexing coercions `PromoteView[s→t]` exist, are total, and commute with composition. | Witness shows `PromoteView[s→t]_Z ∘ Emit_s(g∘f) = (Emit_t(g) ∘ Emit_t(f)) ∘ PromoteView[s→t]_X`. |
+| **CC‑MVPK‑9 (Reindexing naturality)** | Conceptual-form coercions `PromoteFace[s->t]` exist, are total in the selected formal substrate, and commute with composition. | The local witness uses `PromoteFace` and is not overread as a world-side relation. |
 | **CC‑MVPK‑10 (Iso‑preservation)** | Isomorphisms in `U` remain isomorphisms under each viewpoint. | Cards show mapped inverses or an iso‑witness. |
-| **CC‑MVPK‑11 (Typing & totality)** | Ill‑typed composites are rejected at `ViewObj_s` rather than weakening functoriality. | Type‑check fails early; no “best‑effort” composition in cards. |
+| **CC‑MVPK‑11 (Typing & totality)** | Ill-typed composites are rejected at `FaceObj_s` rather than weakening the selected conceptual-form rules. | Type-check fails early; no best-effort composition claim appears on cards. |
 | **CC‑MVPK‑12 (Bridge+CL on crossings)** | Any cross‑Context view or ReferencePlane-crossing view cites **Bridge + CL** policy ids. | IDs present on `TechCard` or `AssuranceLane`. |
 

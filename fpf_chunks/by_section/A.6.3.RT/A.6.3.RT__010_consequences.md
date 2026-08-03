@@ -6,15 +6,17 @@ section_id: "A.6.3.RT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__010_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:9 — Consequences"
-line_start: 14772
-line_end: 14778
+line_start: 14806
+line_end: 14812
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.20"
   - "A.21"
   - "A.3.3"
@@ -27,6 +29,7 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
@@ -44,7 +47,7 @@ keywords:
 
 ### A.6.3.RT:9 - Consequences
 
-- Same-entity representation shifts get an admissible place without inventing a new heavy governing pattern.
+- Same-EntityOfConcern episteme constructions get an admissible place without treating a visible rendering, publication, form, carrier, Work record, or description as an endpoint or occurrence.
 - Representation-factor and reasoning-medium changes become explicit rather than rhetorical.
 - Recoverability and decode dependence become reviewable instead of hidden behind cleaner renderings.
 - The pattern remains safely bounded by `A.6.3`, `A.6.4`, explanation governance, and carrier work.

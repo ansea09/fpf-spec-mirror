@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:8 — Conformance Checklist"
-line_start: 91408
-line_end: 91423
+line_start: 92020
+line_end: 92038
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -56,15 +57,18 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-F8-01` | Candidate expression, bounded context, proposed use, and recovered kind or relation are named. |
-| `CC-F8-02` | Mixed role, status, evidence, source, requirement, method, work, measurement, or structure uses are split. |
-| `CC-F8-03` | A local existing sense is reused before proposing a row or U-kind. |
-| `CC-F8-04` | Role expressions become durable role names only after `U.Role` and RoleDescription ontology are recovered. |
-| `CC-F8-05` | Assignment and performed-work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
-| `CC-F8-06` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names go to direct governing patterns. |
-| `CC-F8-07` | Concept-Set row reuse stays within the row's admitted use. |
-| `CC-F8-08` | Aliases preserve meaning and carry lineage when durable. |
-| `CC-F8-09` | New U-kind candidates cite cross-family recurrence, irreducibility, `E.24.UK` admission, and the accepted A.8, A.11, C.3, E.9, and F.18 decision basis. |
-| `CC-F8-10` | Policy ids carry `PolicyIdRef` discipline when introduced or reused. |
-| `CC-F8-11` | The decision states what overread is not admitted and what condition reopens the decision. |
+| `CC-F8-01` | One candidate expression, one exact independently governed value or relation, its direct pattern, and one proposed use are named before the disposition. |
+| `CC-F8-02` | Mixed role, status, evidence, source, requirement, method, Work, measurement, policy, publication, or structure uses are split by governed value and use. |
+| `CC-F8-03` | Effective naming ReferenceScheme and exact local-sense claim are explicit; a cell, basis relation, or selected Structure appears only when independently current. |
+| `CC-F8-04` | Local phrase, existing designation, alias, direct-pattern name, and admitted F.17 row were tried before any stronger naming object. |
+| `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, and authority boundary. |
+| `CC-F8-06` | Role expressions become durable role names only after the exact `U.Role` and RoleDescription ontology are recovered. |
+| `CC-F8-07` | Assignment and performed-Work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
+| `CC-F8-08` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names return to direct governing patterns. |
+| `CC-F8-09` | F.17 row reuse stays within the row's `AdmissibleUse`; local-sense reuse and equal spelling imply neither F.9 Bridge nor equivalence. |
+| `CC-F8-10` | Decision occurrence, C.2.1 result episteme, displayed record, and any resulting naming objects remain distinct. |
+| `CC-F8-11` | `PatternReview_2026` or another locality label is reclassified as exact Work, plan/edition, decision-use claim content, or effective ReferenceScheme when that object is current; the label creates none of them. |
+| `CC-F8-12` | New U-kind candidates cite cross-family recurrence, irreducibility, `E.24.UK`, and the accepted direct admission basis; F.8 claims no admission. |
+| `CC-F8-13` | Policy identifiers resolve to separate policy specifications and mint decisions; any result record remains a description. |
+| `CC-F8-14` | The result states its non-admissible overread and the smallest condition that reopens it. |
 

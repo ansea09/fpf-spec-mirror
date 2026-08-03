@@ -6,12 +6,12 @@ section_id: "C.3.1:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:5 — Solution"
-line_start: 44662
-line_end: 44673
+line_start: 44815
+line_end: 44826
 dependencies:
   - "A.1"
   - "A.11"
@@ -40,7 +40,7 @@ keywords:
 
 ### C.3.1:5 - Solution
 
-1. **Bound the typed-reasoning use.** Name the local kind values, exact effective `U.ReferenceScheme` edition, and the applicability in which the order is asserted. Do not infer a public `U.*` name.
+1. **Bound the typed-reasoning use.** Name the bounded context, the local identity basis, the local kind values, the exact effective `U.ReferenceScheme` edition in the aligned `KindSignature`s, and the applicability in which the order is asserted. Do not infer a public `U.*` name or store the scheme on either kind.
 2. **State the direct order relation.** Use `U.SubkindOf` only for an obtaining relation whose narrower-kind and broader-kind participants satisfy `SubkindOfObtains` under that scheme. Keep the predicate, any `R_sub` occurrence designator, and any C.2.1 assertion episteme separate.
 3. **Keep a partial order over obtaining facts.** Reflexivity, transitivity, and antisymmetry constrain the obtaining `U.SubkindOf` relations among local kind values; they do not make a diagram edge or affirmative assertion true by form.
 4. **Test the obtaining predicate over judgments.** For the aligned signature editions, if both C.3.2 judgments are defined for the same candidate and context slice and the judgment for `k1` is `true`, then the judgment for `k2` must be `true`. A universal proof or adequate domain basis establishes the implication; `unknown` remains non-settlement.

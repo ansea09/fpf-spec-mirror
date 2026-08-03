@@ -6,41 +6,40 @@ section_id: "F.15:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:intro — Intro"
-line_start: 93771
-line_end: 93785
+line_start: 94461
+line_end: 94475
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -58,9 +57,9 @@ keywords:
 **Type:** Architectural pattern.
 **Status:** Stable.
 **Normativity:** Normative.
-**Builds on:** E.10.D1 for `U.BoundedContext` discipline; F.1 for context selection; F.2 and F.3 for term harvesting, Local-Sense, and SenseCell formation; F.4 for RoleDescription as description episteme for one local `U.Role`; F.5 for local naming discipline; F.7 and F.8 for Concept-Set rows and mint-or-reuse decisions; F.9 for Bridge Cards and `CL`; F.10 for status families, values, and windows; F.13 for aliases; F.14 for anti-explosion control; F.18 for durable naming.
+**Builds on:** F.17 for exact `SchemeSenseCell`, local-sense basis, and row epistemes; F.18 for naming-settlement `NameCard` epistemes and selected designation expressions; F.14 and F.8 for anti-explosion and mint-or-reuse decisions; F.13 for lineage; F.9 for actual cross-local Bridge occurrences and separate bounded-use claims; F.4 for role-description epistemes; F.10 or the direct current status owner for status values and windows; C.2.1 for exact claim and record epistemes; A.2.6 for ClaimScope; A.1.1 and A.22 only when a selected bounded-model-use Structure actually changes the checked use; and E.24.PUB for publication.
 
-**Coordinates with:** A.2, A.2.1, A.2.5, A.2.7, F.6, and A.15.1 for work-facing role, assignment, role state, role relation structure, and performed-work claims; A.10, B.3, E.17, and E.10.D2 for evidence, assurance, publication, source, and description-use claims; A.6.5 for relation-slot discipline.
+**Coordinates with:** A.15.1 and A.6.1 for dated check work and exact check-application bindings; A.10 and B.3 for evidence reliance and assurance; G.11 for currentness; A.2, A.2.1, A.2.5, A.2.7, and F.6 for role, assignment, role state, role-relation structure, and performed-work claims; E.17 and E.10.D2 for view, description, and source-use claims; A.6.5 for relation declaration; and every direct owner of a non-naming object included in the selected slice.
 
-**Plain entry cues (informative).** SCR and RSCR harness; unification slice check; context-bridge regression check.
+**Plain entry cues (informative).** Static or regression check over a finite naming slice; selected-name regression; exact before/after naming continuity check.
 

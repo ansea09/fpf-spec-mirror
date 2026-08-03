@@ -6,12 +6,12 @@ section_id: "C.13:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 46889
-line_end: 46898
+line_start: 47046
+line_end: 47055
 dependencies:
   - "A.1"
   - "A.14"

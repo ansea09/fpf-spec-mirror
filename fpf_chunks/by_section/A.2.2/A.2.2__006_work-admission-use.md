@@ -6,12 +6,12 @@ section_id: "A.2.2:5"
 section_title: "Work-Admission Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__006_work-admission-use.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:5 — Work-Admission Use"
-line_start: 3467
-line_end: 3491
+line_start: 3444
+line_end: 3468
 dependencies:
   - "A.15"
   - "A.2"
@@ -42,12 +42,12 @@ WorkAdmissionCheck:
 
 The checks are separate:
 
-- role assignment says who is acting in which context;
+- role assignment identifies which admitted holder system holds which role value under the exact role-taxonomy episteme and effective reference scheme throughout its obtaining extent; it does not say that the holder is acting;
 - role state says whether that assignment is in a work-admitting state;
-- method or method description says what capability threshold is required;
-- capability names the holder's capability instance within the envelope, measure set, and window;
+- one exact `U.Method` supplies the method-side condition, while an independently admitted `U.MethodDescription` or work-admission episteme may state the capability threshold used by the check;
+- capability names the holder system's ability within the envelope, measure set, and window;
 - capability-fit condition tests whether that instance meets the current threshold or gate need;
-- performed work says what actually happened.
+- after execution, A.15.1 identifies the dated Work occurrence, F.6 `performedUnderAssignment(W, RA)` attributes it to the exact assignment whose holder system actually performed it, and actual `enactsMethod(W, M)` relates the Work to the exact Method.
 
-Do not put the threshold into the role name. Do not treat a role assignment as proof of ability. Do not let a capability instance perform the work. Do not treat a fit predicate, Q-Bundle, architecture-characteristic row, evidence relation, or currentness assessment as the capability instance.
+Do not put the threshold into the role name. Do not treat a role assignment as proof of ability or action. Do not let a role value, capability instance, Method, or MethodDescription perform the work. Do not treat a fit predicate, Q-Bundle, architecture-characteristic row, evidence relation, or currentness assessment as the capability instance. An algorithm-possession phrase is only a dispatch cue; it establishes neither dated performance nor `U.MethodDescription` membership.
 

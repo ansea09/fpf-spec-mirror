@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `9a9a42e4d154021ca3f7415e0009a4214832f65f`
+Commit SHA: `9dd9215969126625d449a40e8ca4d1df9ac903f8`
 
 Chunking method: `pattern-aware`
 
@@ -20,9 +20,9 @@ Patterns: `293`
 - [A.2.2 — U.Capability - System Ability Envelope and Measures](by_pattern/A.2.2.md)
 - [A.2.3 — U.PromiseContent (Promise Content)](by_pattern/A.2.3.md)
 - [A.2.4 — Episteme Evidence-Use and Status-Use Relations](by_pattern/A.2.4.md)
-- [A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission](by_pattern/A.2.5.md)
+- [A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission](by_pattern/A.2.5.md)
 - [A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes](by_pattern/A.2.6.md)
-- [A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary](by_pattern/A.2.7.md)
+- [A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission](by_pattern/A.2.7.md)
 - [A.2.8 — U.Commitment (Deontic Commitment Object)](by_pattern/A.2.8.md)
 - [A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition](by_pattern/A.2.8.PER.md)
 - [A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)](by_pattern/A.2.9.md)
@@ -243,9 +243,9 @@ Patterns: `293`
 - [E.14 — Human‑Centric Working‑Model](by_pattern/E.14.md)
 - [E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)](by_pattern/E.15.md)
 - [E.16 — RoC‑Autonomy Budget & Enforcement](by_pattern/E.16.md)
-- [E.17.0 — U.MultiViewDescribing - Viewpoints, Views & Correspondences](by_pattern/E.17.0.md)
+- [E.17.0 — Viewpoint and View Recognition for Multi-View Describing](by_pattern/E.17.0.md)
 - [E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles](by_pattern/E.17.1.md)
-- [E.17.2 — TEVB - Typical Engineering Viewpoints Bundle](by_pattern/E.17.2.md)
+- [E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons](by_pattern/E.17.2.md)
 - [E.17 — Multi‑View Publication Kit](by_pattern/E.17.md)
 - [E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces](by_pattern/E.17.EFP.md)
 - [E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units](by_pattern/E.17.ID.CR.md)

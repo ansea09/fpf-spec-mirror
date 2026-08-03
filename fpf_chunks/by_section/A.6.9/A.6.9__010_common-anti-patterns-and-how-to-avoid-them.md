@@ -6,15 +6,17 @@ section_id: "A.6.9:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 20529
-line_end: 20547
+line_start: 20623
+line_end: 20641
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
+  - "A.15.6"
   - "A.2.1"
   - "A.2.6"
   - "A.22"
@@ -27,7 +29,9 @@ dependencies:
   - "C.29"
   - "C.3.3"
   - "E.17"
+  - "E.17.0"
   - "E.19"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.17"
   - "F.18"
@@ -63,7 +67,7 @@ keywords:
 | `AP-XCTX-8` | Loss note becomes tolerance | An observed difference is assumed acceptable. | Keep it in evidence and name accepted loss as `t`. |
 | `AP-XCTX-9` | Confidence laundering | Higher `CL` or reviewer approval grants a use. | Treat `CL` as evidence shorthand and recover claim polarity plus reliance. |
 | `AP-XCTX-10` | Suitability becomes permission | An affirmative semantic claim is read as authorization. | Open the exact policy or deontic governor, or state no authorization. |
-| `AP-XCTX-11` | Named use becomes occurrence | “Publication use” is treated as a publication. | Recover the exact receiving object under E.17 or its actual owner. |
+| `AP-XCTX-11` | Named use becomes occurrence | “Publication use” is treated as a publication. | Recover the exact publication occurrence under E.24.PUB or another receiving object under its actual owner. |
 | `AP-XCTX-12` | Chain upgrade | A-to-B and B-to-C become direct A-to-C equivalence. | Test a direct A-to-C Bridge and composite use independently. |
 | `AP-XCTX-13` | Timeless or facetless claim | Edition or compared facet stays hidden. | State applicability and refine endpoint readings. |
 | `AP-XCTX-14` | Kernel promotion | A strong Bridge is used to admit one global U-kind. | Apply E.24.UK and A.11 independently. |

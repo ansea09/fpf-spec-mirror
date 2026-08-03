@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
 section_id: "A.2.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__004_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
   - "A.2.5:1 — Problem Frame"
-line_start: 4469
-line_end: 4476
+line_start: 4451
+line_end: 4460
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -25,9 +25,11 @@ keywords:
 
 ### A.2.5:1 - Problem Frame
 
-Work-facing role assignment is not enough for safe work attribution. "Dana holds IncidentCommanderRole" may be true while Dana is off-duty, conflicted by another role assignment, outside the current assignment window, or missing a fresh authorization source. "Robot-7 holds InspectorRole" may be true while the robot is uncalibrated. "Thermometer T-17 holds ObserverRole" may be true while the calibration evidence is stale.
+`U.RoleAssignment` establishes that one admitted system holds one role under a named role-taxonomy episteme and effective reference scheme for an assignment episode. That does not settle whether the assignment currently satisfies the condition needed by a particular method or work claim.
 
-The project needs a small state space for each important role in each bounded context. That state space says which role states exist, which state predicates justify them, and which states admit work. It is not a method order, not a task list, not a capability, not a work log, and not an episteme status ontology.
+The distinction is easy to see in physical work. `Robot-7` can remain assigned `InspectorRole` through an eight-hour shift while calibration expires at noon. The assignment occurrence continues. The `InspectionReady` role-state occurrence ends when its predicate ceases to hold. A later recalibration can start another role-state occurrence without creating another assignment.
 
-A.2.5 therefore defines `RoleStateRelation@BoundedContext` as a selected relation structure around a `U.Role` and bounded context. It uses state-machine or graph notation only as a selected mathematical or representation lens where helpful. The FPF object is the role-state relation used for work admission and role-state claims.
+The same distinction appears in social and computational work. An on-call person can be assigned while conflicted or fatigued. A service can hold `ApproverRole` while the relations selected in one model-use structure give the role a fulfilment-approval interpretation and the relations selected in another give it a payment-approval interpretation. A tool-using agent can expose a capability while a concrete action is not admitted for the current task and input values.
+
+The engineering problem is therefore to state the exact assignment, predicate, and interval; state affirmative or negative assertion polarity and the separately governed reliance posture; recognize an obtaining occurrence only when the direct predicate is true; and connect the assertion to the evidence needed by the consequence-bearing use. A universal list of state labels solves none of those tasks.
 

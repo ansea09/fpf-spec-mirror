@@ -6,12 +6,12 @@ section_id: "A.15.1:9"
 section_title: "Work-to-aggregation interface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__011_work-to-aggregation-interface.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:9 — Work-to-aggregation interface"
-line_start: 24775
-line_end: 24808
+line_start: 24872
+line_end: 24905
 dependencies:
   - "A.1"
   - "A.1.1"

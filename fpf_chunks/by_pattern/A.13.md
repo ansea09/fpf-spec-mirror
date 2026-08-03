@@ -6,15 +6,20 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.13.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
-line_start: 23450
-line_end: 23600
+line_start: 23544
+line_end: 23694
 dependencies:
+  - "A.10"
   - "A.12"
+  - "A.17"
+  - "A.18"
+  - "A.19"
   - "A.2"
   - "A.2.1"
+  - "C.16"
   - "C.9"
   - "E.16"
 keywords:
@@ -84,7 +89,7 @@ This means the acting holder is a **`U.System`** that currently bears **`Agentia
 
 #### A.13:4.3 - Measuring Agency: The Agency Characteristic Profile and the Spectrum
 
-Agency is not a binary switch; it is a multi-dimensional spectrum of capabilities. FPF models this using **C.9 Agency Characteristic Profile**, a characterization pattern that attaches a set of measurable properties to a `U.RoleAssignment`.
+Agency is not a binary switch; it is a multi-dimensional spectrum of capabilities. A.13 defines the current domain profile and attaches its measurable characteristics to a `U.RoleAssignment`; A.17, A.18, A.19, C.16, and A.10 govern characterization, measurement, and evidence. Planned **C.9 Agency Characteristic Profile** may later consolidate that profile but supplies no current definitions or governing force.
 
 The agency-characteristic profile is grounded in contemporary research (e.g., Active Inference, Basal Cognition) and includes the following key characteristics. Each is measured for a specific holder system in a specific context and must be backed by evidence (A.10).
 
@@ -171,8 +176,8 @@ In essence, this pattern does not *invent* a new theory of agency. It **distills
     *   `B.2 Meta-Holon Transition (MHT)`: A significant jump in the agency-characteristic profile of a collective can trigger an MHT.
     *   `B.3 Trust & Assurance Calculus`: The agency-characteristic profile provides crucial inputs for assessing the reliability and safety of an autonomous system.
     *   `D.2 Multilevel Ethics For System-Holon Work`: The Agency Grade is used to determine the moral-responsibility posture and accountability assigned to a system.
-*   **Instantiates:**
-    *   `C.9 Agency Characteristic Profile`, which provides the formal definitions for the characteristics (BMC, PH, etc.).
+*   **Future consolidation:**
+    *   Planned `C.9 Agency Characteristic Profile` may later consolidate the characteristics (BMC, PH, etc.), but provides no current definitions or governing force; the current profile is defined here and measured under A.17/A.18/A.19/C.16/A.10.
 
 ### A.13:End
 

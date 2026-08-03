@@ -3,22 +3,31 @@ chunk_kind: "child"
 pattern_id: "F.10"
 pattern_title: "Status Families Mapping: Evidence, Standard, and Requirement Status"
 section_id: "F.10:5"
-section_title: "Archetypal Grounding"
+section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
-  - "F.10:5 — Archetypal Grounding"
-line_start: 92405
-line_end: 92424
+  - "F.10:5 — Archetypal grounding"
+line_start: 93102
+line_end: 93123
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -28,23 +37,25 @@ keywords:
   - "status"
 ---
 
-### F.10:5 - Archetypal Grounding
+### F.10:5 - Archetypal grounding
 
-#### F.10:5.1 - Service Acceptance from Run-Time Evidence
+#### F.10:5.1 - Service acceptance from runtime evidence
 
-A service dashboard reports uptime for July. In the monitoring context, the measurement episteme gives `EvidenceStatus = Measured` for the claim "uptime was 99.95 percent in July." In the service-management context, the SLO clause has `RequirementStatus = Satisfied` only if the service pattern's evaluation rule says that the measured uptime meets the clause.
+July uptime is first recovered as an exact C.16 measurement result, stated by a distinct C.2.1 episteme. A.2.4 classifies that episteme for the uptime claim, and F.10 may assert `EvidenceStatus=Measured` for that exact claim, scheme, scope, and July window.
 
-F.10 records two status-use statements and an interpretation bridge. It does not infer requirement satisfaction from the word "measured" alone.
+The SLO clause and service target are independently recovered. Dated evaluation work applies the SLO rule to the measurement result through exact bindings and produces a requirement-evaluation result claim. Only that basis can support a separate `RequirementStatus=Satisfied` occurrence. If monitoring and service-management senses differ, an F.9 Bridge handles the cells and a `StatusInterpretationRelation` handles the admitted explanatory/evaluation use. The measurement, evidence status, bridge, interpretation, evaluation work/result, requirement status, dashboard display, gate, assurance, and release decision remain distinct.
 
-#### F.10:5.2 - Approved Method Description
+#### F.10:5.2 - Approved method description
 
-A safety controller method description is `StandardStatus = Approved` in one standard profile and edition. That approval makes the method description admissible under that profile. It does not prove that a particular controller run met response-time obligations. A run-time log can be assigned `EvidenceStatus = Corroborated` for a response-time claim; a separate requirement-use statement can then evaluate the duty clause.
+One exact safety-controller MethodDescription is `StandardStatus=Approved` only under the named standard/profile edition, source relation, scheme, scope, window, and selection use. That status neither creates the MethodDescription nor proves an approval speech act, permission, method enactment, or response-time satisfaction.
 
-#### F.10:5.3 - Model Card and Fairness Requirement
+A particular controller run is separate `U.Work`. Its response-time measurement result and evidence-use relation can enter direct clause-evaluation work. A separate requirement status may follow from that evaluation; it does not inherit `Approved` by label or family edge.
 
-A model card says a model is "validated" because cross-validation AUC is high. In F.10 this becomes an `EvidenceStatus` statement for a predictive-performance claim inside the validation context. It does not decide the policy requirement "demographic parity delta <= 0.1" unless production-window fairness evidence and the policy evaluation rule are present.
+#### F.10:5.3 - Model card and fairness requirement
 
-#### F.10:5.4 - Status Display Cue
+A model card reports high cross-validation AUC. Recover the exact predictive-performance result and claim episteme first; the card is a publication/display. F.10 may assert an `EvidenceStatus` for that predictive claim under its validation scheme and window. It cannot decide the different policy clause “demographic parity delta ≤ 0.1”. That branch needs production-window fairness measurement, its result episteme/evidence use, the policy clause, dated evaluation work, the exact policy rule application, and its own requirement-status assertion.
 
-A release dashboard cell shows `Ready`. The cell is a cue. A status-use statement is available only when the source, target, value, scope, window, and provenance constraint are recoverable. If the status is consumed for a gate, release, assurance, or admission use, the direct governing pattern for that use must also admit it.
+#### F.10:5.4 - Status display cue
+
+A release dashboard cell shows `Ready`. The cell is only a cue until exact source assertion, target, value cell, scheme, scope, window, provenance/currentness, and intended use are recoverable. Display or list membership does not establish a status-use occurrence or actual reliance. If the status is consumed for a gate, release, assurance, admission, permission, or decision, the direct governing pattern must admit the separate use and result.
 

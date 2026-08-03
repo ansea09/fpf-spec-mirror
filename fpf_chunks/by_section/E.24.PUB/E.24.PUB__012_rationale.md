@@ -6,21 +6,19 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:10 — Rationale"
-line_start: 88147
-line_end: 88152
+line_start: 88716
+line_end: 88721
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,12 +28,15 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
 ### E.24.PUB:10 - Rationale
 
-FPF needs E.24.PUB because ontics are normally encountered through descriptions and publications. Without a separate publication discipline, the same subject pattern is pulled in two directions: it must teach the subject, but it also tries to guard every possible misuse of descriptions. The result is semio-bias.
+Publication does not change an episteme into a nested publication object. It is a real availability relation supported by an expression relation and a bearing relation. That architecture explains why one encountered card, diagram, or file can matter in several ways without admitting one umbrella presentation kind.
 
-The remedy is not to ignore descriptions. The remedy is to type the relation positions. Once the ontic, description episteme, publication, and publication form are separated, subject patterns can carry a short local boundary and then continue the subject treatment. Publication-heavy questions use publication patterns. Wording-use questions use wording-use patterns. Multi-view questions use multi-view patterns.
+The split also preserves agency. A system can perform work that renders, uploads, prints, indexes, withdraws, or replaces a carrier. The resulting publication relation may then obtain for a long interval with no continuing publication work. Conversely, publication work can fail while no publication occurrence begins. Treating enduring availability separately from the work that establishes it makes both claims inspectable.
 

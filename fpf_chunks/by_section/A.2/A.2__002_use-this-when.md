@@ -6,20 +6,22 @@ section_id: "A.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__002_use-this-when.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:0 — Use This When"
-line_start: 2664
-line_end: 2698
+line_start: 2684
+line_end: 2717
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -33,36 +35,35 @@ keywords:
 
 ### A.2:0 - Use This When
 
-**Plain name.** Work-facing role value.
+**Plain name.** Enactment-facing role value.
 
-Use this pattern when a project needs to say what an admitted `U.System` holder, such as a system, organization-as-system, person, team, tool, agent, machine, motor, pump, or component, is being in a bounded context before method, plan, work, transformation, functioning, evidence, responsibility, or naming claims can be made safely.
+Use this pattern when the same admitted `U.System` can participate in different work, transformation, functioning, or method enactments without becoming a different system kind, and a project must state what that system is being in the current participation.
 
 Typical moments:
 
-- a project sentence says "engineer", "reviewer", "operator", "supplier", "model verifier", "agent", "service provider", "drive motor", "cooling circulator", "load-bearing brace", or another role-like name, and it is unclear what holder, context, and work, transformation, or functioning claim are current;
-- a team treats a role name as if it created capability, commitment, obligation, permission, method, work, or evidence;
-- a standard, report, dataset, model card, publication, requirement, or definition is described as having a "role" in evidence, status, assurance, source use, or publication use;
-- a method, plan, work occurrence, or result is attributed to a role without naming the holder and role assignment under which the work is performed;
-- role names must be kept reusable across contexts without making each context-local role into a new system kind;
-- a role boundary is being decomposed into factors, states, responsibilities, or method participation, and the project must recover the current neighboring object instead of treating role as a holon.
+- the same pump is a cooling circulator in plant operation and a test article in qualification work;
+- a relied-on claim names a role but omits the role vocabulary, interpretation scheme, holder, or assignment window;
+- ordinary wording says that an episteme, capability, method, or value filling a relation participant slot "plays a role", while the direct FPF relation is still hidden;
+- a proposed "part of a role" may instead be a separate role value, role relation, role-state predicate, capability-fit condition, responsibility, commitment, or method or work structure.
 
-**Primary EntityOfConcern.** The EntityOfConcern is `U.Role`: a context-bound enactment-facing role value in the role `ontologicalNeighborhood`. A role value names what an admitted `U.System` holder is being for a bounded context when method admission, role-state checking, transformation or functioning participation, or work attribution depends on that role. `U.Role` is a root U-kind, but it is not an admitted holon kind: role decompositions resolve to assignment, state, capability, responsibility, permission, commitment, obligation, method, work, or role-relation owners rather than to role parts.
+**Primary EntityOfConcern.** The EntityOfConcern is `U.Role`: an enactment-facing role value interpreted through one named role-taxonomy episteme and its effective `U.ReferenceScheme`. It says what an admitted `U.System` holder is being for a current participation claim. `U.Role` is a root U-kind but not an admitted holon kind; proposed decompositions are dispatched to the direct patterns governing the recovered objects and relations.
 
-**Primary working reader.** The first reader is an engineer-manager, analyst, or FPF author who must separate role value, holder, role assignment, method, plan, work, evidence, and source-use claims before acting or writing a pattern. The downstream reader is the project participant who needs role language to answer who held what role, in which context, for which claim.
+**Primary working reader.** The first reader is an engineer-manager, analyst, or FPF author who must keep system identity stable while making role meaning and role assignment inspectable. A later reader must be able to recover the role vocabulary and scheme, the holder, the assignment window, and the separate work or method claim that relied on the assignment.
 
-**First useful move.** Name the role value, the bounded context, and whether the current claim is about role identity, a role assignment, role description, role state, role relation structure, capability-fit condition, functional or transformation participation, method role-admission condition, planned work, performed work, or an episteme used as evidence, source, standard, requirement, definition, explanation, status bearer, or publication.
+**First useful move.** Name the role value, the role-taxonomy episteme, and its effective reference scheme. Add `U.RoleAssignment` when holder or assignment-window identity matters. Then state capability, role state, method admission, performed work, responsibility, evidence, or episteme use through its direct governing pattern.
 
-**What goes wrong if missed.** Role words become an ontology shortcut. A document becomes a "verifier role"; a capability becomes a role; a role name is treated as evidence that work happened; a method is treated as a role's hidden behavior; a publication is treated as if it acted. FPF then grows a second role ontology for epistemes, status labels, access labels, relation arguments, and source labels.
+**Concern-word boundary.** *Concern* is Plain reader- or viewpoint-facing wording; it does not admit `U.Concern` or replace the exact EntityOfConcern, viewpoint episteme, role-taxonomy interpretation, assignment, or receiving relation needed by the claim.
 
-**What this buys.** A small role vocabulary can serve many projects without type explosion. The same system can hold different roles in different contexts; work remains performed by a holder under a role assignment; epistemes remain used through their own evidence, status, source, publication, requirement, definition, explanation, and assurance relations.
+**What goes wrong if missed.** One system's different participations become artificial system kinds, or one role label silently absorbs the holder, local meaning, assignment window, capability, method, and work claim. At the opposite extreme, every contribution is called a role even when no system holds one. Both failures make it impossible to tell who participated, under which interpretation, and what actually happened.
+
+**What this buys.** A small role vocabulary can be reused without type explosion or a universal context object. The same system may hold several roles through distinct assignments; identical labels under different role taxonomies or reference schemes do not establish identical role meanings; epistemes remain participants in their own use and evidence relations rather than becoming role holders.
 
 **Not this pattern when.**
 
-- If the current claim is the assignment relation linking holder, role, context, and window, use `A.2.1`.
-- If the current claim is capability, use `A.2.2`.
-- If the current claim is role state, use `A.2.5`.
-- If the current claim is role-admission substitution, incompatibility, qualification, or bundles, use `A.2.7`.
-- If the current claim is method, method description, work plan, or performed work alignment, use `A.15`.
-- If the current claim is an episteme used as evidence, source, standard, definition, requirement, explanation, status bearer, publication, or assurance input, use the direct evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, or assurance pattern. Do not force it through `U.Role`.
-- If the current issue is only a confusing role-like word, first use `A.6.RSIR` to recover the governed object or claim kind.
+- Use `A.2.1` when the current object is the assignment relation and its occurrence identity.
+- Use `A.2.2` for a holder's capability and `A.2.5` for a current role state.
+- Use `A.2.7` for selected substitution, incompatibility, qualification, or bundle relations among role values.
+- Use `A.15` and its method and work neighbors for method admission, planned work, and performed work.
+- When the current participant is an episteme rather than a system holder, recover the direct use, evidence, publication, external-rule, currentness, or reliance relation. `C.2.1`, `A.10`, `E.17`, `F.10`, and `A.15.4` are common exits.
+- If only the word `role` is unclear, use `A.6.RSIR` until the governed object or relation is recovered.
 

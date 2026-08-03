@@ -6,12 +6,12 @@ section_id: "B.4.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:1 — Problem frame"
-line_start: 39692
-line_end: 39696
+line_start: 39842
+line_end: 39846
 dependencies:
   - "A.15"
   - "A.16"

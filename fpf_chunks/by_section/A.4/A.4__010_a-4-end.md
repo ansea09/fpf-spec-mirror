@@ -6,12 +6,12 @@ section_id: "A.4:End"
 section_title: "A.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.4/A.4__010_a-4-end.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.4 — Temporal Duality & Open‑Ended Evolution Principle"
   - "A.4:End — A.4:End"
-line_start: 9173
-line_end: 9174
+line_start: 9245
+line_end: 9246
 dependencies:
   - "B.4"
 keywords:

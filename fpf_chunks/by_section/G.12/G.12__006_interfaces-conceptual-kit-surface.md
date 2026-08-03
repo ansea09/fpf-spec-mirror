@@ -6,12 +6,12 @@ section_id: "G.12:5"
 section_title: "Interfaces (conceptual; kit surface)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__006_interfaces-conceptual-kit-surface.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:5 — Interfaces (conceptual; kit surface)"
-line_start: 102388
-line_end: 102401
+line_start: 103304
+line_end: 103317
 dependencies:
   - "A.19"
   - "C.18"

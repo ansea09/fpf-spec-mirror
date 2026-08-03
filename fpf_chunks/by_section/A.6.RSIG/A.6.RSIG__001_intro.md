@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:intro — Intro"
-line_start: 9795
-line_end: 9800
+line_start: 9867
+line_end: 9872
 dependencies:
   - "A.6"
   - "A.6.P"

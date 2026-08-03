@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.3.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
-line_start: 35837
-line_end: 36131
+line_start: 35934
+line_end: 36228
 dependencies:
   - "A.1"
   - "A.12"

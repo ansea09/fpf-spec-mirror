@@ -6,19 +6,28 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:4 — Solution"
-line_start: 92302
-line_end: 92404
+line_start: 92951
+line_end: 93101
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,104 +39,152 @@ keywords:
 
 ### F.10:4 - Solution
 
-Treat a status claim as a context-local status-use statement, not as a free-floating adjective and not as a role assignment.
+Recover the governed target and direct result before applying a local status. Treat status value, status-use occurrence, status assertion, source, evaluation, display, and receiving use as distinct.
 
-#### F.10:4.1 - Three Status Families
+#### F.10:4.1 - Three status families
 
-F.10 uses three status families as a small spine for common project work:
+F.10 supplies a small set of three status families—`EvidenceStatus`, `StandardStatus`, and `RequirementStatus`—for common project use. A family classifies local status values; it is not a universal result kind and does not create its targets.
 
-| Status family | Status modality | Typical target kind | What it says |
+| Status family | Modality | Typical exact target | What the family permits one status-use assertion to say |
 | --- | --- | --- | --- |
-| `EvidenceStatus` | epistemic | claim, quantity, observation-backed claim, effect claim, model-result claim | What the available evidence says for or against a target claim in the current context and window. |
-| `StandardStatus` | deontic, curatorial | method description, standard text, profile, governed product configuration, standard-governed project entity | What a canon, standard, profile, or governing register sanctions, discourages, or supersedes in the current context and edition. |
-| `RequirementStatus` | deontic, compliance-facing | requirement clause, duty clause, constraint clause, acceptance criterion, obligation claim | Whether a clause applies, is satisfied, is violated, is waived, is pending, or does not bind under stated conditions. |
+| `EvidenceStatus` | epistemic | exact target-claim episteme or claim-bearing result episteme | The asserted evidential standing of that claim for one scope, polarity, window, and use, after exact A.2.4 evidence-use and direct input results are recovered. It is not the measurement/proof/causal result or evidence relation itself. |
+| `StandardStatus` | deontic and curatorial | exact standard/profile edition, method description, governed configuration, or other admitted standard target | What the exact governing source sanctions, discourages, or supersedes for one scheme, edition, scope, window, and use. It is not an approval speech act, permission, runtime result, or requirement satisfaction. |
+| `RequirementStatus` | deontic and compliance-facing | exact requirement, duty, constraint, acceptance, or obligation clause | What is asserted about applicability, satisfaction, violation, waiver, or pending evaluation for that clause under its direct rule, scope, conditions, and window. It is not the clause, evaluation work, result, gate, or assurance. |
 
-A project may add local sublevels or local labels, but the local label must map to one of these families or to another direct status pattern named by value. Do not create a new role kind merely because a status word is local.
+A project may define local sublevels or labels, but each label resolves under one effective ReferenceScheme to one exact local sense and maps to one of these three families—`EvidenceStatus`, `StandardStatus`, or `RequirementStatus`—or another direct status owner. F.10 does not create a role kind or global synonym by adding a family row.
 
-#### F.10:4.2 - StatusCell and StatusUseStatement
+#### F.10:4.2 - Status value, use occurrence, assertion, and display
 
-A `StatusCell` is a context-local sense cell for a status value. It has a status family, status modality, typical target kind, polarity, and window discipline. A `StatusCell` is a meaning cell, not a work performer and not a gate decision.
-
-A `StatusUseStatement` applies one status cell or local status value to a target in a bounded context:
+A local status value is designated through an exact F.17 `SchemeSenseCell`:
 
 ```text
-StatusUseStatement:
-  BoundedContext:
-  StatusFamily:
-  StatusCellOrLocalValue:
-  StatusModality:
-  StatusTarget:
-  StatusTargetKind:
+<EffectiveReferenceScheme, LocalExpression, LocalSenseClaim>
+```
+
+An F.18 NameCard may govern its selected public designation. An F.17 row may collect one or more cells for a named unification use; one-cell rows are valid. Neither the cell, card, row, spelling, nor family membership applies the value to a target.
+
+One `StatusUseRelation` candidate names:
+
+```text
+StatusUseRelation:
+  StatusBearerRef:
+  StatusTargetRef:
+  DirectTargetAndResultGovernor:
+  DirectResultRef:                 # when a domain result is consumed
+  StatusValueCellRef:
+  StatusFamilyRef:
+  EffectiveReferenceScheme:
   StatusScope:
-  StatusPolarity:
   StatusWindow:
-  StatusSourceOrProvenanceConstraint:
-  StatusUse:
-  BridgeRef:
+  IntendedStatusUse:
+  SourceClaimEpistemeRef:
+  SourceRelationOrRegisterRef:
+  EvaluationWorkRef:               # when a rule is applied
+  EvaluationRuleAndApplicationRef: # when a rule is applied
+  EvaluationResultClaimRef:        # when a result is produced
+  ProvenancePathRef:
+  CurrentnessRef:
   NotCarried:
 ```
 
-`StatusTargetKind` decides relation identity. A status that qualifies a method description is not the same status-use statement as a status that qualifies a requirement clause, even when the visible label is the same. `NotCarried` names the stronger use that this status statement does not carry, such as gate passage, release permission, assurance, performed work, causal identification, global truth, or cross-context substitution.
+For an F.10-family status, `StatusUseRelation(B,T,V,G,W,U)` obtains only when: `B` and `T` resolve to admitted governed objects; exact cell `V` has the required F.10 family/local sense under its effective ReferenceScheme; the family-specific source and any direct result/evaluation basis support applying `V` to `T`; `G` and `W` bound that application; and `U` is the named intended use without a stronger inference. Unknown or missing basis yields no positive occurrence and a `Pending`, `Inconclusive`, or explicit unresolved disposition only when that value's own rule is satisfied. Absence of evidence is never target falsity.
 
-#### F.10:4.3 - Relation Slots for Status Use
+One F.10 occurrence is identified by the exact ordered tuple `<B,T,V,G,W,U>`. Repeated evaluations, assertions, displays, rows, records, or citations create no duplicates. A changed bearer, target, value cell, scope, window, or intended use identifies another candidate. A changed source, evidence path, evaluation, or currentness fact can change whether the fixed candidate is warranted or obtains; it is not silently copied into relation identity. A status governed by another direct pattern exits there instead of inheriting this predicate by family resemblance.
 
-Use the A.2.4 status-use slots when a status statement must be precise enough for reliance:
+A distinct C.2.1 status-assertion episteme states affirmative or negative polarity for the exact `StatusUseRelation`. A separate display or publication form may render that assertion. The assertion does not perform evaluation, and the display does not become the assertion, source, or actual receiving use.
 
-| SlotKind | ValueKind | Currentness discipline |
-| --- | --- | --- |
-| `StatusBearerSlot` | episteme, claim, method description, publication, role assignment, work occurrence, clause, gate record, or another bearer admitted by the direct pattern | Names the value whose status is being asserted or read. It does not make the bearer a role holder. |
-| `StatusTargetSlot` | claim, method, episteme, publication, work result, clause, bearer, or another governed target | Required when the status is not simply about the bearer itself. |
-| `StatusScopeSlot` | bounded-context scope, claim scope, admission scope, requirement scope, or use scope | Currentness-required when scope changes the status assertion. |
-| `StatusValueSlot` | status value governed by F.10 or a direct status pattern | Required for any status assertion. |
-| `StatusWindowSlot` | temporal validity window, freshness policy, edition window, status-currentness relation, or source-currentness relation | Currentness-required for time-sensitive or edition-sensitive status. |
-| `StatusUseSlot` | gate use, assurance use, admission use, source-currentness use, work-plan readiness use, requirement evaluation use, standard-use, or another direct use | Required when the status is consumed for that use. |
-| `StatusProvenanceConstraintSlot` | source order, authority source, publication, proof, verification, register, or provenance constraint | Currentness-required when provenance decides status use. |
+#### F.10:4.3 - Recover the target and result first
 
-These SlotKinds are relation positions. They are not `U.Role` names, not work-role qualifier slots, and not a new generic status ontic by themselves.
+Use this order:
 
-#### F.10:4.4 - Family Spines
+1. name the receiving question and exact target;
+2. recover the target's identity and direct governor;
+3. recover any measurement, formal, causal, conformance, diagnostic, comparison, acceptance, requirement-evaluation, gate, assurance, permission, or decision result under its own pattern;
+4. identify the C.2.1 episteme that states that result;
+5. resolve the local status expression to its exact F.17 cell and F.10 family;
+6. recover the source, edition, scheme, scope, conditions, window, provenance, and currentness required by this status use;
+7. when a rule is needed, identify dated evaluation work, enacted method, exact direct/A.6.1 application, and evaluation-result claim;
+8. assert the status-use relation and its C.2.1 status-assertion episteme; then separately recover publication/display and any actual later premise, decision-use, status-use, gate-use, or operation-argument relation.
 
-The following spines are deliberately small. They help contexts map local status words without pretending that every domain has the same status vocabulary.
+Status never defines or constitutes the target. A changed status may change a receiving disposition without changing target identity or the earlier domain result. Conversely, a changed target or direct result requires the status application to be re-evaluated; copying the old value is not continuation proof.
 
-**EvidenceStatus** values:
+#### F.10:4.4 - A.2.4 status-use positions
 
-1. `Observed` - seen or recorded once under declared observation conditions.
-2. `Measured` - quantified under a declared measurement procedure.
-3. `Corroborated` - backed by more than one independent source, procedure, or observation line.
-4. `Replicated` - repeated by others or under varied declared conditions.
-5. `Refuted` - counter-evidence defeats the positive standing inside the same window.
-6. `Inconclusive` - the available evidence is insufficient or mixed for the target claim.
+When an A.2.4 first-use classification is current, retain its positions by value:
 
-**StandardStatus** values:
+| Position | F.10 use |
+| --- | --- |
+| `StatusBearerSlot` | Exact bearer from which the status is asserted or read; not a role holder. |
+| `StatusTargetSlot` | Exact governed target; required when different from the bearer. |
+| `StatusScopeSlot` | Claim, requirement, admission, or use scope; not a generic context object. |
+| `StatusValueSlot` | Exact local status-value cell or value governed here or by another direct status pattern. |
+| `StatusWindowSlot` | Validity, edition, freshness, or source window. |
+| `StatusUseSlot` | Named intended use; actual later use still needs its dated work and direct relation. |
+| `StatusProvenanceConstraintSlot` | Exact source order, authority source, publication, proof, verification, register, or provenance condition. |
 
-1. `Candidate` - proposed and not yet normative in the context.
-2. `Draft` - worked text or profile, not yet the governing edition.
-3. `Approved` - normative in this context and edition.
-4. `Deprecated` - discouraged, allowed only under stated conditions, or being phased out.
-5. `Superseded` - replaced by a newer edition, profile, or governing source.
+These are relation positions, not work-role qualifier slots, a record schema that applies status, or a new generic status ontic.
 
-**RequirementStatus** values:
+#### F.10:4.5 - Family value sets
 
-1. `Applicable` - the clause binds in the stated context and window.
-2. `Inapplicable` - the clause does not bind under stated conditions.
-3. `Satisfied` - met within the stated context and window.
-4. `Violated` - not met within the stated context and window.
-5. `Waived` - binding is suspended or exceptioned by a named source and window.
-6. `Pending` - awaiting evidence, evaluation, decision, or source-currentness repair.
+**EvidenceStatus** local values:
 
-#### F.10:4.5 - Bridge Discipline
+1. `Observed` — seen or recorded once under declared observation conditions.
+2. `Measured` — supported by a declared measurement method, model, calibration basis, value, and uncertainty.
+3. `Corroborated` — supported by more than one independent source, procedure, or observation line.
+4. `Replicated` — repeated by independent work or under varied declared conditions.
+5. `Refuted` — counter-evidence defeats positive evidential standing inside the same scope and window.
+6. `Inconclusive` — available input results and evidence-use relations are insufficient or mixed for the target claim.
 
-Status meanings do not travel by label. A cross-context comparison, explanation, or substitution uses an `F.9` bridge with direction, bridge kind, congruence level, and loss notes.
+These values classify evidential standing; they do not replace the observation, measurement, proof, causal, or other direct result, and `Inconclusive` is not target falsity.
 
-Explanation is the ordinary cross-context use. Substitution is admitted only when the bridge kind, congruence level, window alignment, target kind, and local evaluation rule all admit the substitution. Cross-modality movement, such as evidence status being used to evaluate requirement status, is an interpretation relation; it is not equivalence.
+**StandardStatus** local values:
 
-#### F.10:4.6 - Design-Run Discipline
+1. `Candidate` — proposed and not yet normative for the named scheme/use.
+2. `Draft` — worked text or profile, not yet the governing edition.
+3. `Approved` — sanctioned by the exact governing source for the named scheme, edition, scope, window, and use.
+4. `Deprecated` — discouraged, conditionally allowed, or being phased out.
+5. `Superseded` — replaced by another named edition, profile, or governing source.
+
+`Approved` does not mean that an approval act occurred unless its direct speech-act/decision relation is separately recovered; it grants no permission and proves no runtime satisfaction.
+
+**RequirementStatus** local values:
+
+1. `Applicable` — the exact clause binds under its governed scope, conditions, and window.
+2. `Inapplicable` — the clause does not bind under those conditions.
+3. `Satisfied` — a direct requirement/acceptance evaluation result says the clause is met for the exact target, scope, conditions, and window.
+4. `Violated` — the direct evaluation result says it is not met there.
+5. `Waived` — binding is suspended or excepted by an exact authorized source/relation and window.
+6. `Pending` — the status application awaits a needed source, input result, evaluation, decision, or currentness repair.
+
+`Satisfied`, `Violated`, `Waived`, and `Pending` do not replace the clause, evaluation work/result, waiver act or permission, gate decision, assurance result, or action.
+
+#### F.10:4.6 - Bridge and interpretation discipline
+
+Status meanings do not travel by label. When two local status senses under different ReferenceSchemes must be compared, use the actual F.9 Bridge occurrence between the exact F.17 SchemeSenseCells, with direction, bridge kind, tolerance/loss, and bounded use. Its Card or description is separate and optional; optional F.9 `CL` remains evidence-strength shorthand, not a use threshold. The Bridge makes no status-use occurrence obtain and produces no target result.
+
+When one status-use occurrence is used to explain or evaluate a status question of another family, scheme, or modality, recover an exact `StatusInterpretationRelation`:
+
+```text
+StatusInterpretationRelation:
+  SourceStatusUseOccurrenceRef:
+  TargetStatusQuestionRef:
+  Direction:
+  InterpretationRuleRef:
+  EffectiveReferenceScheme:
+  ClaimScopeAndWindow:
+  BridgeRef:                    # only when local senses cross schemes
+  IntendedUse:
+```
+
+It obtains only when the named interpretation rule admits that source occurrence for the exact target question, direction, scope, window, and use. Its occurrence identity is the exact ordered `<SourceStatusUseOccurrenceRef, TargetStatusQuestionRef, Direction, InterpretationRuleRef, ClaimScopeAndWindow, IntendedUse>` tuple; a Bridge ref is a separate qualifying premise when local senses cross schemes. A family edge, shared word, Bridge, table row, or source order is not this relation. Applying the rule is separate dated evaluation work; its result claim is separate again. Even a positive interpretation relation does not by itself produce `RequirementStatus=Satisfied`, `StandardStatus=Approved`, a gate result, permission, assurance, or actual later reliance.
+
+#### F.10:4.7 - Design-run discipline
 
 Keep three questions separate:
 
-* What does the evidence show about a claim or measured quantity in this window?
-* What does the standard or canon sanction for a method description, profile, or governed project entity in this edition?
-* What is the requirement clause doing in this context and window?
+* What do exact observation, measurement, proof, causal, or other input results warrant as evidence standing for this target claim and window?
+* What does an exact governing source sanction for this method description, profile, standard edition, or configuration and use?
+* What does direct requirement-evaluation work conclude about this exact clause, target, scope, conditions, and runtime/design window?
 
-A standard-approved method description can be a source for method selection or a condition for allowed use. It does not by itself show that a run-time clause is satisfied. Run-time evidence can help evaluate a requirement clause. It does not by itself approve the method or standard profile unless a governing context has a rule for that promotion.
+A standard-approved method description may be admissible for selection under that profile. It does not show that the method was enacted or that a runtime clause was satisfied. Runtime evidence may become an admitted input to requirement evaluation through an exact evidence-use and status-interpretation relation. It does not approve the method, standard, gate, or release.
 

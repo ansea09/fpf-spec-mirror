@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 84643
-line_end: 84650
+line_start: 85091
+line_end: 85098
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -39,9 +39,9 @@ keywords:
 
 ### E.19:0 - Use this when
 
-Use `E.19` when you need to decide whether one new, substantially revised, or aging FPF pattern is ready for admission, refresh, or return for repair. It turns quality review into a repeatable pattern-quality run rather than a matter of reviewer taste.
+Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. E.19 declares profile-based checks and conclusion semantics; actual reviewer systems perform dated review work and separately constitute findings/results and any authority-bearing decision.
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, primary `EntityOfConcern` stability, terminology, SoTA grounding, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 
-**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use `E.9.DA` when the question is whether one concrete `DRR` is adequate for a declared downstream authoring use before drafting or host amendment. Use `E.23` when the aim is repeated quality improvement against an object-under-improvement evaluation rather than one admission or refresh review profile. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate rather than whether an FPF pattern is mature. `E.19` reviews whether an FPF pattern remains useful action guidance; it does not certify the world, the project, the publication, or the release.
+**Not this pattern when.** Use `E.8` to write the pattern body. Use `E.9` to record the content decision that explains why FPF should change. Use `E.9.DA` when the question is whether one concrete DRR episteme is adequate for a declared downstream authoring use before drafting or host amendment. Use `E.21` for ordinal pattern-quality evaluation of one exact pattern version. Use `E.23` when the aim is repeated quality improvement against an object-under-improvement evaluation rather than one admission or refresh review profile. Use local patterns for the domain rule or constraint being reviewed. Use project gate or release patterns when the question is whether a project publication, work-result record, or release candidate passes a delivery gate. E.19 governs review of FPF pattern admission/refresh only; its profiles and results do not certify the world, project, publication, or release.
 

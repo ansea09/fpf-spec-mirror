@@ -6,12 +6,12 @@ section_id: "C.26:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__003_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:2 — Problem"
-line_start: 53297
-line_end: 53304
+line_start: 53527
+line_end: 53534
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,9 @@ dependencies:
   - "C.26.1-C.26.3"
   - "C.26.2"
   - "C.26.3"
+  - "E.17"
+  - "E.17.EFP"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "F.9"
@@ -53,5 +56,5 @@ Without this pattern, teams make five recurring mistakes.
 
 They treat a probe as a neutral read when the probe changes later answers or behavior. They combine two posterior-looking outputs as if both came from one shared sample space. They export a team state, dashboard value, or context-map result as if it were a faithful-enough export for the intended use. They compress a large state representation for speed and then reuse the shortcut outside its admissible-use scope. They let words such as `quantum`, `entanglement`, `collapse`, or `field` import ontology that the model never earned.
 
-The result is not merely loose wording. The team may approve a release from a dashboard whose publication and operational use changed the work it was supposed to report, average incompatible risk estimates, copy a local decision into another bounded context after the bridge lost the live coordination, or claim a speed gain because the representation was low-bit, linear, symbolic, or compressed without naming the loss.
+The result is not merely loose wording. The team may approve a release from a dashboard whose publication and operational use changed the work it was supposed to report, average results produced in incompatible local algebras, reuse a local decision under a different effective reference scheme after the admitted bridge lost load-bearing meaning, or claim a speed gain because the representation was low-bit, linear, symbolic, or compressed without naming the loss.
 

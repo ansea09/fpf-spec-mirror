@@ -6,12 +6,12 @@ section_id: "A.20:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__006_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:4 — Solution"
-line_start: 33549
-line_end: 33700
+line_start: 33646
+line_end: 33797
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -53,7 +53,7 @@ keywords:
 #### A.20:4.2 - Primary EntityOfConcern and CV classes
 
 **Flow-valuation scope.** A.20 leaves step kinds abstract; CV and GateFit separation applies to any declared E.18 transformation-flow valuation instantiation.
-**Species (E.18 transformation-flow family).** E.18 loci bind to `{Transformation, Signature, Mechanism, WorkPlanning, Work, Check, StructuralReinterpretation}`; this set is a **minimum locus baseline** defined in `E.18`. The **species** space (e.g., UNM declaration and use, `SelectionAndTuning`, `WorkPlanning`, `EvaluatingAndRefreshing`, …) is **open-world** and non-exhaustive. `OperationalGate` is the `Check` locus. `StructuralReinterpretation` is **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and may retarget **EntityOfConcernRef** under CC-TFS-06-EX; see `E.18` and `A.6.4`.
+**Species (E.18 transformation-flow family).** E.18 loci bind to `{Transformation, Signature, Mechanism, WorkPlanning, Work, Check, StructuralReinterpretation}`; this set is a **minimum locus baseline** defined in `E.18`. The **species** space (e.g., UNM declaration and use, `SelectionAndTuning`, `WorkPlanning`, `EvaluatingAndRefreshing`, …) is **open-world** and non-exhaustive. `OperationalGate` is the `Check` locus. `StructuralReinterpretation` is **projection-preserving** (no mutation of `⟨L,P,E⃗,D⟩`) and may retarget **EntityOfConcernRef** under CC-E18-06-EX; see `E.18` and `A.6.4`.
 
 **`AdmissibilityConditionsSatisfaction`** — **If** the declared admissibility conditions hold on the step’s inputs and context, **then** the CV explanation **applies**; **otherwise** this explanation **does not apply**.
 **`LipschitzBounds`** — **If** inputs vary within the stated domain \(X\) and perturbations or noise \(≤ ε\), **then** the step’s estimate remains within **δ** of the reference; **otherwise** this explanation **does not apply**.
@@ -107,7 +107,7 @@ CV **SHALL NOT** declare or translate `Units`, `ReferencePlane`, or `ComparatorS
 * **Crossings only at `OperationalGate(profile)`** (plane, unit, or context) with a **strict exception** for **`StructuralReinterpretation`**: a **projection‑only retargeting** MAY occur without a gate **iff** `⟨L,P,E⃗,D⟩` is preserved, **KindBridge (`CL^k`)** and a **SquareLaw‑retargeting witness** are present on MVPK and UTS material, and the retargeting is **PathSlice‑local** (`PathSliceId` pinned).
 * **Projection and EntityOfConcernRef retargeting loci.** For `StructuralReinterpretation`, A.20 may state the CV witness needed for the step, but it does not define a second semantics of projection, published view, EntityOfConcernRef, or retargeting. Interpret those terms through `A.6.4`, `C.2.1`, `C.2.P`, and the relevant UTS `KindBridge (CL^k)` rows under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3` when the retargeting or bridge claim is present.
 * **Projection and EntityOfConcernRef retargeting normalization (CV use only).** In that imported interpretation, projection is a change of published view coordinates only, and `EntityOfConcernRef` is a Kind-channel change under `CL^k`. A “no unit or plane change” test SHALL verify that `ReferencePlane(src)=ReferencePlane(tgt)` and `CL^plane` is absent (or `= ⊤`), otherwise the step is a gated crossing.
-* **Assurance operations on edges.** `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo` reside on `U.Transfer` and do **not** alter `⟨L,P,E⃗,D⟩`; plane or unit changes occur only at gates; Φ and `CL^plane` penalties appear in **R-lane**. EntityOfConcernRef retargeting through the kind channel is recorded as **`KindBridge (CL^k)`** on **UTS** under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3`; under CC-TFS-06-EX this may appear without a gate only when it is projection-preserving and PathSlice-local.
+* **Assurance operations on edges.** `ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo` reside on `U.Transfer` and do **not** alter `⟨L,P,E⃗,D⟩`; plane or unit changes occur only at gates; Φ and `CL^plane` penalties appear in **R-lane**. EntityOfConcernRef retargeting through the kind channel is recorded as **`KindBridge (CL^k)`** on **UTS** under `F.9`, `F.17`, `E.17`, `E.18`, and `C.3.3`; under CC-E18-06-EX this may appear without a gate only when it is projection-preserving and PathSlice-local.
 
 Terminology for this crossing slice is defined in A.20:4.2, and `ReinterpWitness` shape is defined in A.20:4.7; A.20:4.6 only applies those bindings to CtxState and GateCrossing.
 

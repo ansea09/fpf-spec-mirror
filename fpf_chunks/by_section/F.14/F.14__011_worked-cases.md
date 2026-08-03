@@ -6,12 +6,12 @@ section_id: "F.14:10"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__011_worked-cases.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:10 — Worked cases"
-line_start: 93640
-line_end: 93704
+line_start: 94342
+line_end: 94401
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -64,7 +64,7 @@ Result:
 
 * `OperatorRole` is the role value.
 * `night`, `remote`, and `on-call` are recovered as schedule, location, role-state, work-plan, or policy qualifiers.
-* A new role is blocked unless the bounded context shows a distinct role value with different RoleDescription, assignment predicates, and method or work implications.
+* A new role is blocked unless A.2 independently admits a distinct role value with a different RoleDescription, assignment predicates, and method or Work implications for the proposed use; the naming ReferenceScheme does not create that difference.
 
 #### F.14:10.3 - SLO compliance labels
 
@@ -83,18 +83,14 @@ Candidate family: `EvidenceRole`, `RequirementRole`, `StandardRole`, `SourceRole
 Result:
 
 * No work-facing role is recovered from suffix alone.
-* Evidence, requirement, standard, and source uses go to A.10, B.3, E.10.D2, E.17, or the direct requirement or source pattern.
+* Evidence, requirement, standard, source, and publication uses go to A.10, B.3, E.10.D2, E.24.PUB, or the direct requirement or source pattern.
 * A durable name may be admitted for the recovered relation, but not as a role value.
 
-#### F.14:10.5 - Cross-context role labels
+#### F.14:10.5 - Same spelling across two local-sense bases
 
-Two contexts both use `Operator`. One is a plant-control role; the other is an access-control permission grouping.
+A plant team uses `Operator` for one work-facing role value. An access-control team uses `Operator` for one permission grouping. Recover both independently under their direct patterns; neither spelling nor organizational proximity makes them one value.
 
-Result:
-
-* F.9 Bridge Card first.
-* The bridge may admit Naming-only or RoleDescription naming for a local work-facing role when the role value is recovered.
-* The bridge does not import access permission as `U.RoleAssignment`, capability, or performed work.
+For local use, keep the existing expressions and stop. If one named cross-local naming use is later proposed, resolve its exact F.17 `SchemeSenseCell` endpoints and test F.9. Cite a Bridge only when its predicate obtains, then state the use direction, rule, tolerated loss, polarity, and reliance separately. A Bridge, NameCard, cell, or row imports no access permission as `U.RoleAssignment`, capability, authority, or performed Work. Publish an F.17 row only when the public/durable reuse threshold independently holds.
 
 #### F.14:10.6 - Ordinary composite role names
 
@@ -102,9 +98,8 @@ A project says: "Vasya is an engineer, he works on musical robots, and he is als
 
 Result:
 
-* The ordinary phrase may remain "robotics engineer and musician" or "robotics engineer-musician" when the reader can recover it without ambiguity. FPF does not require a `Role` suffix in ordinary prose.
-* Recover at least two work-facing role values when they are current: `EngineerRole@RobotEngineeringContext` and `MusicianRole@MusicPracticeContext`. If the engineering work is specifically robotics engineering, use a role qualifier, RoleDescription, or A.2.7 role-relation expression rather than minting `EngineerRoboticistRole` automatically.
-* If "robotics engineer" is a stable local bundle or qualification relation, record it as `RoleRelationStructure@BoundedContext` under A.2.7. The relation structure may be named for local use, but it is not a new role value by itself.
-* Recover method and work values separately: engineering method, robotics-engineering method family, music teaching method, robot-training work, and performed music work stay under the method and work patterns. They may motivate a role name only after F.8 and F.18 admission.
-* A durable role value is selected only when the bounded context needs different assignment predicates, capability expectations, incompatibilities, method/work implications, or public naming. Otherwise keep the ordinary composite phrase and cite the recovered role relation, method, work, and capability values where they matter.
+* Ordinary prose may remain `robotics engineer and musician` or `engineer-musician` when readers can recover the two exact role values and the sentence's use without ambiguity. FPF does not require a `Role` suffix.
+* Recover engineering and musician role values independently under A.2. If robotics narrows the engineering role for this use, keep the exact qualifier, RoleDescription, or A.2.7 qualification/bundle relation rather than minting `EngineerRoboticistRole` automatically.
+* Method and Work remain separate: engineering methods, music-teaching methods, robot-training Work, and performed music Work stay under their direct patterns. They motivate no role name by themselves.
+* A durable qualified role name is considered only when the already governed role value has different assignment predicates, capability expectations, incompatibilities, method/Work implications, or a real public naming need. Otherwise keep the ordinary phrase and cite the exact relations only where they matter.
 

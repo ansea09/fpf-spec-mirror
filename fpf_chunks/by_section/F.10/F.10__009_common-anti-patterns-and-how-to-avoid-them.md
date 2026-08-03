@@ -6,19 +6,28 @@ section_id: "F.10:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 92448
-line_end: 92460
+line_start: 93155
+line_end: 93170
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -32,12 +41,15 @@ keywords:
 
 | Anti-pattern | Failure | Repair |
 | --- | --- | --- |
-| `Validated -> approved -> compliant` | One label carries evidence, standard, and requirement status at once. | Split into evidence, standard, and requirement status-use statements; add bridge and evaluation rule only where admitted. |
-| Approved method means SLO satisfied | Design-time standard status is used as run-time requirement status. | Keep method-description approval separate from run-time evidence and clause evaluation. |
-| Status badge as gate passage | A display cue is treated as source, decision, and permission. | Recover source relation, target, window, and direct gate or release pattern. |
-| Clause-less compliance | "Compliant" is asserted without a requirement clause. | Name the clause or acceptance criterion and the window. |
-| Bridge-free roll-up | Cross-context dashboard aggregates labels as if meanings were native. | Add F.9 bridges with loss notes or downgrade to local explanation. |
-| Evidence escalation without independence | One repeated lab result is called replicated. | Keep it measured or corroborated unless independent replication conditions are named. |
-| Status role for episteme | A report, standard, or requirement is said to hold a role. | Use A.2.4 status-use or evidence-use relation slots and F.10 status-family mapping. |
-| Tool-state explosion | Every local tool state becomes a new status kind. | Map local labels to the nearest context-local status cell; keep tool labels as local names when no durable family is needed. |
+| `Validated -> approved -> compliant` | One label carries evidence, standard, requirement, and release status. | Split the target/result/status occurrences; add exact Bridge, interpretation relation, evaluation work, and rule only where current. |
+| Approved method means SLO satisfied | Design approval becomes runtime result. | Keep MethodDescription approval, method enactment, runtime result, and clause evaluation separate. |
+| Evidence status as domain result | `Measured`, `Corroborated`, or `Refuted` replaces measurement, proof, causal, or diagnostic result. | Recover the direct result and result episteme first; evidence status only classifies evidential standing for the named use. |
+| Status defines target | A `Ready` or `Approved` row is treated as constituting a service, method, clause, person/team state, or product. | Recover target identity under its direct governor before status application. |
+| Status badge or list membership as use | Display, list, or row membership is treated as source, status application, gate passage, or reliance. | Recover assertion/source and the separate actual receiving-use relation. |
+| Clause-less compliance | *Compliant* is asserted without an exact clause, target, rule, scope, conditions, and window. | Recover the clause and direct evaluation result. |
+| Bridge-free roll-up | A dashboard aggregates local labels as global synonyms. | Use exact cells and F.9 occurrences, or downgrade to local explanation. |
+| Bridge/family edge as explanation | A Bridge or `EvidenceStatus -> RequirementStatus` arrow is treated as direct reason. | Name the `StatusInterpretationRelation`, exact rule, evaluation application, and result. |
+| Evidence escalation without independence | One repeated lab result is called replicated. | Keep it measured/corroborated until independent replication conditions and results are recovered. |
+| Status role for episteme | A report, standard, or requirement is said to hold a role. | Use A.2.4/F.10 use relations; reserve role assignment for acting holons. |
+| Tool-state explosion | Every local tool state becomes a durable status kind. | Keep tool labels local; create a durable cell/family mapping only for a receiving use that needs it. |
 

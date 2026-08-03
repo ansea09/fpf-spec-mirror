@@ -6,12 +6,12 @@ section_id: "F.17:14.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__020_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.2 — Rationale"
-line_start: 95265
-line_end: 95268
+line_start: 96181
+line_end: 96184
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,11 +47,10 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:14.2 - Rationale
 
-Terms travel farther than the reasoning that produced them. F.17 keeps that travel safe by carrying the minimum reopening hooks: governed object, direct pattern, local senses, obtaining Bridge when needed, separate bounded-use claim and reliance basis, names, admitted and blocked row use, and currentness. The row stays compact because F.9, C.2.1, A.10, B.3, and the direct subject patterns still own those objects.
+Terms travel farther than the reasoning that produced them. F.17 carries only the reopening hooks needed for that travel. The direct subject patterns, F.18, F.9, C.2.1, A.10/B.3, and E.24.PUB still own the objects and relations to which those hooks lead.
 

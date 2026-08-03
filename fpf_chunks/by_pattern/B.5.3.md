@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.5.3.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
-line_start: 40761
-line_end: 40861
+line_start: 40911
+line_end: 41014
 dependencies:
   - "A.13"
   - "A.15"
@@ -89,6 +89,9 @@ A thermodynamics team models a heat engine.
 * "Free-energy objective" may name an objective claim, characteristic, or selection criterion. The bridge must say which FPF value the decision uses.
 * If the engine control system is assigned the role of heat-source controller in a work context, that is a separate `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` claim.
 
+Current physical-system claims in this example use `A.1` for system identity, `A.14` and `A.22` for composition and boundary relations, `A.3.4` for state and dynamics, `B.1.6` for work-resource aggregation, and `C.16` for measured characteristics. Planned `C.1` (Sys-CAL) may later consolidate that guidance; it is not a current governor.
+
+
 What this achieves:
 
 * Domain constraints become reviewable without turning every domain word into a root kind.
@@ -134,10 +137,10 @@ The bridge implements open-ended parsimony: FPF can talk with many domains witho
 
 ### B.5.3:End
 
-# **Part C — Kernel Extension Specifications**
+# Part C - Kernel Extension Specifications
 
 | §                                            | Pattern                        | Tag | Scope & Exports                                                      |
 | -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
 | **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL**                        | CAL | Physical holon composition; conservation invariants; resource hooks. |
+| C.1                                          | **Sys‑CAL (planned)**              | CAL | Planned consolidation of physical-system composition, conservation, and resource-flow guidance currently governed by A.1, A.14, A.22, A.3.4, B.1.6, and C.16. |
 

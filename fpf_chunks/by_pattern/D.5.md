@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
-line_start: 68775
-line_end: 68954
+line_start: 69018
+line_end: 69197
 dependencies:
   - "A.10"
   - "B.3"
@@ -204,5 +204,5 @@ Audit record depth is selected by use, reliance, exposure, source currentness, a
 
 ### D.5:End
 
-# **Part E – The FPF Constitution and Authoring Guides**
+# Part E - The FPF Constitution and Authoring Guides
 

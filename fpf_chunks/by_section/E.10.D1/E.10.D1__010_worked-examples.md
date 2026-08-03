@@ -6,23 +6,21 @@ section_id: "E.10.D1:9"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__010_worked-examples.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:9 — Worked Examples"
-line_start: 75743
-line_end: 75761
+line_start: 76189
+line_end: 76207
 dependencies:
+  - "A.2.1"
   - "A.4"
   - "A.7"
-  - "E.10.U1"
-  - "E.10.U2"
-  - "E.10.U4"
-  - "E.10.U7"
-  - "E.10.U9"
   - "F.1"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.6"
   - "F.7"
   - "F.9"
 keywords:
@@ -45,7 +43,7 @@ keywords:
 
 * `BPMN_2_0:participant` vs `NIST_RBAC_2004:role`.
 * Mark `⟂` (incompatible) in the Concept‑Set row to prevent conflation.
-* Any cross‑use requires E.10.U9 with explicit loss policy.
+* Any cross‑use requires F.9 with an explicit bounded-use claim and loss policy.
 
 #### E.10.D1:9.3 Services & evidence.
 

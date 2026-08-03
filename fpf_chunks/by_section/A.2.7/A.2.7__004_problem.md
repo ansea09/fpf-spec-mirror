@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
-section_id: "A.2.7:1.0"
+pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+section_id: "A.2.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
-  - "A.2.7:1.0 — Problem"
-line_start: 5765
-line_end: 5768
+  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7:2 — Problem"
+line_start: 5735
+line_end: 5745
 dependencies:
   - "A.15"
   - "A.2"
@@ -25,7 +25,14 @@ keywords:
   - "specialization (≤)"
 ---
 
-### A.2.7:1.0 - Problem
+### A.2.7:2 - Problem
 
-A combined role expression such as engineer-roboticist, inspector-auditor, or musician-teacher can hide several different claims: a local role-admission substitution, a role bundle, a factor or qualification, an incompatibility, a holder assignment, a capability claim, a responsibility, permission, commitment, or obligation relation, a role-state refinement, or a method/work coupling. The problem is to recover the local role relation structure without minting a new universal role kind, treating role decomposition as mereological parthood, or treating an algebraic, graph, factor, embedding, or neural description as the role structure itself.
+The engineer needs a reusable role relation for a later engineering check, but common shorthand collapses at least four different questions:
+
+1. Can an assignment to one role satisfy an admission condition written for another role?
+2. Are two role assignments incompatible under a stated holder, work, and time condition?
+3. Does one role value narrow the interpreted meaning of another role value?
+4. Which role assignments must be present together, and how may they be allocated among systems?
+
+Calling every answer a role hierarchy loses the predicate that makes the answer true. Calling the answer a role part introduces mereology without constructive assembly or a meta-holon transition. Calling the answer a policy, chart, or taxonomy record confuses the relation with an episteme that describes it. The resulting check cannot show which relation it consumed or what would invalidate its outcome.
 

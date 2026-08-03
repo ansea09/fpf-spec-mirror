@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
-section_id: "A.2.7:1.1"
+pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+section_id: "A.2.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
-  - "A.2.7:1.1 — Forces"
-line_start: 5769
-line_end: 5777
+  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7:3 — Forces"
+line_start: 5746
+line_end: 5757
 dependencies:
   - "A.15"
   - "A.2"
@@ -25,12 +25,15 @@ keywords:
   - "specialization (≤)"
 ---
 
-### A.2.7:1.1 - Forces
+### A.2.7:3 - Forces
 
 | Force | Tension |
 |---|---|
-| Local relation vs universal type | A role-admission substitution is valid inside one bounded context; it must not become kind subsumption or a universal role taxonomy. |
-| Life structure vs representation lens | Algebra, graph, matrix, embedding, or neural representation may describe the selected role relation structure; the lens is not the holder, role assignment, capability, method, or work. |
-| Compact naming vs hidden bundle | Ordinary names such as engineer-roboticist can help when the context declares the relation or bundle; they hide work when they silently combine independent roles or methods. |
-| Role-method coupling vs collapse | Role and method relation structures often appear together, but method, method family, work plan, and performed work keep their direct governing patterns. |
+| Reuse of role vocabularies vs local meaning | The same role label can occur under different role-taxonomy epistemes and reference schemes. |
+| Direct relation realism vs social constitution | Predicate truth is not created by a record, while some specialized social relations genuinely depend on an accepted constituting act. |
+| Readable assertions vs occurrence identity | Ordinary work should remain light, but repeated or time-varying relations need distinguishable occurrences when later claims rely on them. |
+| Role relation vs holder assignment | A relation among role values can guide a check, but it does not assign a role to a system. |
+| Qualification vs admission substitution | Narrower meaning does not automatically license substitution in a consequence-bearing use. |
+| Joint admission vs combined role | A method description may state a condition over several assignments without creating one composite role value or one role holon. |
+| Structure vs representation | Selected organization may be made inspectable through a graph or matrix that remains a description or mathematical lens. |
 

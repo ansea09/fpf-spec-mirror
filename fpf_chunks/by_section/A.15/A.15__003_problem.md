@@ -6,12 +6,12 @@ section_id: "A.15:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__003_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:2 — Problem"
-line_start: 23971
-line_end: 23980
+line_start: 24065
+line_end: 24075
 dependencies:
   - "A.10"
   - "A.12"
@@ -61,4 +61,5 @@ Without this formal framework, models suffer from a cascade of category errors:
 3.  **Capability-as-Work:** A team's *ability* to perform a task (`Capability`) is conflated with the *actual performance* of that task (`Work`). This obscures the reality of resource consumption and actual outcomes.
 4.  **Work-without-Alignment:** An instance of work is logged without a clear link back to the exact role assignment, recovered method, method-description reference, and capability-fit or admission condition that made it admissible, making the work unauditable and its results impossible to reproduce.
 5.  **Ambiguous "process" or "activity" wording:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication. Repair generic doing or activity terms through `E.10` and `E.10.ARCH` to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), one Work individual admitted under `U.Work` (performed occurrence), or another direct governing pattern.
+6.  **Actor and membership by association:** A role value, capability, method, or method description is made to act because it is associated with the holder, or a phrase such as "the system possesses algorithm A" is treated as if it classified some episteme as `U.MethodDescription`. The admitted holder system is the actor; description membership requires A.3.2's exact Method subject and substantive way-of-doing claim.
 

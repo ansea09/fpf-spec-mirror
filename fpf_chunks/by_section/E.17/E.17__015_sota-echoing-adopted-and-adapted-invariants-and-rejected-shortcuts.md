@@ -6,34 +6,35 @@ section_id: "E.17:12"
 section_title: "SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__015_sota-echoing-adopted-and-adapted-invariants-and-rejected-shortcuts.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:12 — SoTA-Echoing: Adopted And Adapted Invariants And Rejected Shortcuts"
-line_start: 80248
-line_end: 80260
+line_start: 80695
+line_end: 80707
 dependencies:
   - "A.15.4"
+  - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "C.2.1"
   - "C.2.P"
+  - "C.29"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
   - "E.17.AUD"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "E.8"
   - "F.9"
   - "F.9.1"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicViewing"
-  - "U.MultiViewDescribing"
+  - "U.View"
 keywords:
 ---
 
@@ -43,7 +44,7 @@ keywords:
 
 | Source idea and current source | Local FPF invariant and practical local test | Adopted, adapted, or rejected shortcut |
 | --- | --- | --- |
-| Joint ISO, IEC, and IEEE 42010:2022 architecture-description practice separates architecture description, stakeholder concern, viewpoint, view, model kind, correspondence, and correspondence rule instead of letting one readable model face stand in for all of them. | MVPK publishes one source-pinned face over an existing source `U.Episteme` or `U.View`; every face used for downstream reliance names its publication `U.Viewpoint` and the `PublicationVPId` reference when that reference is used, names concerns, keeps `U.View`, viewpoint, carrier work, rendering work, correspondence relation, concrete exchange envelope, and evidence envelope separate, and passes the no-new-claim diff before any work, evidence, gate, assurance, carrier, or bridge use is considered. | Adopt explicit source, concern, view, viewpoint, correspondence, and model-kind separation; reject the shortcut where a readable architecture or model face becomes evidence, work occurrence, gate passage, release permission, bridge relation, or concrete exchange authority by presentation alone. |
+| Joint ISO, IEC, and IEEE 42010:2022 architecture-description practice, used as established practice lineage rather than current architecting SoTA, separates architecture description, stakeholder concern, viewpoint, view, model kind, correspondence, and correspondence rule. | MVPK publishes one source-pinned face over an exact selected episteme edition; every face used for downstream reliance resolves its exact viewpoint episteme, keeps independent E.17.0 view membership, publication occurrence, form, carrier work, rendering work, correspondence relation, concrete exchange envelope, and evidence envelope separate, and passes the no-new-claim diff. | Adopt the object distinctions; reject the shortcut where a readable face or standards label becomes a view, evidence, work occurrence, gate passage, release permission, bridge relation, or exchange authority by presentation alone. |
 | Profunctor and optic accounts (2017-2019; source classification = research or theory line, not admissible for downstream reliance without local witness) provide source material for compositional views that compose like arrows. | MVPK adopts only local publication-composition tests: identity, composition witness, no-new-claim diff, monotone promotion, and scope non-widening. | Adopt the five-test publication-composition bundle; reject optics vocabulary as proof by analogy or as a replacement for local witnesses. |
 | Refinement-governed ecosystems (2016+; source classification = widely used technical practice) keep units, scales, and value-kind constraints attached to values. | MVPK publication faces carry pins and CHR and CG references; local test: numbers, thresholds, and characteristic claims on faces have units, scales, reference-plane relation and edition relation when relied on downstream. | Adapt pin discipline; reject readable numbers as self-validating values. |
 | Interoperability and evidence-envelope practice (source classification = stable standard or established practice, depending on the concrete envelope) separates exchange format and carrier evidence from the claim being carried. | MVPK faces can expose evidence carriers or exchange envelopes, but concrete formats belong outside Part E; local test: the face adds no claim and points back to the governing source or evidence path. | Adapt envelope discipline; reject treating envelope presence as semantic authority, evidence sufficiency, work occurrence, or gate passage. |

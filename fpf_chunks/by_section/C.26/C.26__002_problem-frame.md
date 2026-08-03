@@ -6,12 +6,12 @@ section_id: "C.26:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:1 — Problem frame"
-line_start: 53222
-line_end: 53296
+line_start: 53450
+line_end: 53526
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,9 @@ dependencies:
   - "C.26.1-C.26.3"
   - "C.26.2"
   - "C.26.3"
+  - "E.17"
+  - "E.17.EFP"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "F.9"
@@ -51,11 +54,13 @@ keywords:
 
 FPF already has local patterns for decisions, boundaries, bridges, work, measurement, search, and quality bundles. Some real architecture cases still break when those patterns are applied as if every read, question, dashboard, workshop, bridge, or simplified representation were a passive view of a stable state.
 
-Use this pattern when the ordinary FPF pattern remains active but misses one extra representational issue: the act of probing, framing, exporting, comparing, or coarsening changes what can admissibly be inferred from the represented state. The useful move is small. Add a quantum-like mathematical lens only where it tells the user how to avoid a concrete representational mistake.
+Use this pattern only after the ordinary FPF owner has carried its claim and one exact contextual-model obstruction still changes what may be inferred or done. The obstruction may be a no-global-section result, incompatible probe algebra, order-sensitive instrument result, or another named failure of passive read, joint comparison, faithful-enough export, or use-preserving coarsening. A broad word such as *context*, a diagram, different labels, ordinary DDD locality, or mere model plurality does not open C.26.
 
 **What goes wrong if missed.** A dashboard, workshop, metric, bridge, export, or coarsened model is treated as a passive faithful readout even when the probe, frame, publication, or representation shortcut changes what can be inferred.
 
 **What this buys.** The user keeps the ordinary FPF pattern in charge and adds only the minimum quantum-like lens needed to prevent that concrete representational mistake.
+
+**Identity before the lens.** When C.26 carries a quality ascription or model claim, first name the exact quality bearer or exact C.2.1 claim-bearing episteme, its effective `U.ReferenceScheme`, the probe or model frame, the comparison frame, and the governing `U.ClaimScope`. State separately whether one exact `EpistemeEmpiricalGroundingRelation` obtains; a measurement, evidence reference, card, or label does not make it obtain. If a viewpoint matters, record one `U.ViewpointRef` that resolves to the exact `U.Viewpoint` episteme P. The evaluator remains a separately identified system, assignment, or evaluation-relation participant rather than P or its reference. These neighboring values do not become identity fields of one omnibus QL record.
 
 This pattern is not a physics claim. In FPF, `quantum-like` names a detached mathematical and representational lens, comparable in role to probability, calculus, optimization, or state-space modeling. It is cheap as a QL-lite note and expensive only when the claim becomes reusable law, assurance evidence, empirical superiority, formal reconstruction, or ontology.
 
@@ -83,10 +88,10 @@ What this lens buys in practice:
 Plain glosses:
 - `quantum-like`: a detached mathematical or representational lens, not a claim about what the target is made of.
 - `probe`: an operation that both produces an output and may change the represented state or admissible use of the output.
-- `frame`: a probe frame, measurement frame, comparison frame, or model frame. If the text means FPF semantic context, say `U.BoundedContext` or bounded context explicitly.
+- `frame`: the exact probe frame, measurement frame, comparison frame, or model frame selected by its direct owner; it is not a semantic owner, a universal `U.Frame`, or a substitute for an effective `U.ReferenceScheme`.
 - `state`: the represented condition relevant to the current decision, not a generic new `U.State` kind.
 - `state update`: a typed update claim. When load-bearing, say whether the update is a system change, work change, epistemic reading update, carrier update, emitted-output update, formal model update, or update-law change; do not let one phrase carry all of them.
-- `context`: not a shorthand for frame. Use it only in explicit FPF terms such as `U.BoundedContext`, bounded context, or cross-context bridge.
+- `context`: an ordinary-language warning that locality may matter, never a participant or owner by itself. Recover the exact claim scope, reference scheme, local-sense endpoint, selected model-use structure, qualification window, viewpoint relation, or direct subject relation that the sentence actually needs.
 - `export`: a carried representation whose use may lose timing, coordination, role, use conditions, confidence, or relation structure.
 - `coarsening`: an intentionally cheaper state representation with declared loss and reopen conditions.
 
@@ -99,8 +104,8 @@ Phrase hygiene:
 | Organization knows. | Coordinated work traces support a low-recoverability state reading over a declared collective bearer. |
 | Market is entangled with product team. | Ordinary market, feedback, negotiation, and organizational-coupling routes fail; local reads or exports are not admissibly comparable or reusable without declaring the probe, frame, update, or export relation. |
 | Boundary collapsed after workshop. | Workshop work selected or created a local boundary reading for this decision window. |
-| State cannot be copied. | No faithful-enough export supports the intended cross-context use. |
-| Same metric in two contexts. | Same-named result under different measurement or comparison frames. |
+| State cannot be copied. | No faithful-enough export supports the named receiving use under its effective reference scheme and declared loss. |
+| Same metric in two contexts. | Same-named results under independently recovered measurement and comparison frames; compare only through an admitted joint-comparison route. |
 | Quantum-like service health. | Viability-envelope reading affected by probe, export, or coarsening cue. |
 
 Example style:

@@ -6,23 +6,21 @@ section_id: "E.10.D1:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__003_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:2 — Problem Frame"
-line_start: 75662
-line_end: 75668
+line_start: 76108
+line_end: 76114
 dependencies:
+  - "A.2.1"
   - "A.4"
   - "A.7"
-  - "E.10.U1"
-  - "E.10.U2"
-  - "E.10.U4"
-  - "E.10.U7"
-  - "E.10.U9"
   - "F.1"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.6"
   - "F.7"
   - "F.9"
 keywords:

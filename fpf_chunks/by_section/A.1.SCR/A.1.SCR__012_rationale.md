@@ -6,12 +6,12 @@ section_id: "A.1.SCR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__012_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:10 — Rationale"
-line_start: 2455
-line_end: 2460
+line_start: 2475
+line_end: 2480
 dependencies:
   - "A.1"
   - "A.1.STM"

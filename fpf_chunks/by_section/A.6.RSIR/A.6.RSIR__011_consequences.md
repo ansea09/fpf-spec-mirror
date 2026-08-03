@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__011_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:9 — Consequences"
-line_start: 17300
-line_end: 17307
+line_start: 17364
+line_end: 17371
 dependencies:
   - "A.10"
   - "A.15"

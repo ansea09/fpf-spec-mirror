@@ -6,12 +6,12 @@ section_id: "C.16.Q:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__015_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:12 — Relations"
-line_start: 48270
-line_end: 48293
+line_start: 48498
+line_end: 48521
 dependencies:
   - "A.10"
   - "A.16"
@@ -21,6 +21,7 @@ dependencies:
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CPM"
   - "A.2.6"
   - "A.6.A"
   - "A.6.B"
@@ -51,6 +52,9 @@ dependencies:
   - "F.18"
   - "F.9"
   - "F.9.1"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
+  - "U.ViewpointRef"
 keywords:
 ---
 
@@ -58,7 +62,7 @@ keywords:
 
 * **Lives in:** **C.16** characterization pattern nest as the quality-term realization of **E.10.ARCH** and **C.16.P**.
 * **Builds on:** **E.10.ARCH** for shared wording-use restoration architecture; **C.16.P** for characteristic and scale exits; **A.2.6** for explicit scope and `Γ_time`; **A.17, A.18, and C.16** for admissible measurable characteristics; **C.25** for engineering `Q-Bundle` publication.
-* **Coordinates with:** **A.6.P** when the recovered content is relation construction rather than quality-term or evaluative characterization; **A.6.A** or another action-invitation governing pattern when the trigger invites action rather than evaluates a bearer; **C.2.2a, A.16, A.16.1, A.16.2, and B.4.1** for language-state chart positions, admissible moves, early cue handling, responsibility handoff, and admissible retreat or reopen; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account; **B.5.2.0** for prompt-shaped continuations that are not yet stable endpoint publication; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance; **C.17, C.18, and C.19** for `QS.UseValue`, novelty and diversity discipline, and selector policy; **E.17.0** and **E.17.2** for architecture-description and viewpoint bundles; **F.9** and **F.9.1** for Bridges, CL, and bridge-stance annotations; **A.6.B** when repaired ascriptions become boundary-bearing.
+* **Coordinates with:** **A.6.P** when recovered content is relation construction rather than evaluative characterization; **A.6.A** or another action-invitation governor when the trigger invites action; **C.2.2a, A.16, A.16.1, A.16.2, B.4.1, and B.5.2.0** for language-state positions, early cues, responsibility handoff, and retreat or reopen; use **A.16.0** only when lineage, branch, loss, or handoff history itself must be published as an explicit trajectory account; **C.2.LS, C.2.4, C.2.5, C.2.6, and C.2.7** for language-state facet governance; **C.2.1** for effective ReferenceScheme, exact result-episteme identity, and optional `EpistemeEmpiricalGroundingRelation`; **A.2.6** for `U.ClaimScope` and `U.ContextSlice`; **A.19.CPM** for comparison; **A.10** for evidence-provenance and bounded reliance; **C.17, C.18, and C.19** for selector value, novelty, diversity, and policy; **E.17.0** and **E.17.2** for exact viewpoint epistemes, `U.ViewpointRef`, and architecture-description use; **F.9** for exact cross-local Bridge occurrences and bounded-use claims; **F.9.1** only for stance overlays over an existing Bridge Card; and **A.6.B** when repaired ascriptions become boundary-bearing.
 * **Publishes vocabulary through:** **E.10, F.17, and F.18** when the `qualityTermAscription` repair-form skeleton, the `QualitySense` starter set, and the red-flag rewrites become stable shared vocabulary.
 
 #### C.16.Q:12.1 - Language-space refactor note
@@ -76,5 +80,5 @@ Admissible endpoints after repair include:
 Bare `quality` in Tech prose should therefore be banned or rewritten immediately under an explicit endpoint-governing FPF pattern or explicit endpoint source reference. If that endpoint source is already known, `qualityTermAscription(...)` need not remain in the published normal form.
 
 #### C.16.Q:12.3 - Endpoint-governance boundary
-This pattern does not govern articulation-state characteristics, bridge stances, or representation factors. Those remain governed by `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, and `F.9.1`.
+This pattern does not govern articulation-state characteristics, direct Bridge truth, stance-overlay identity, evidence-provenance, empirical grounding, comparison operations, viewpoint resolution, or representation factors. Those remain governed by `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, `C.2.7`, `F.9`, `F.9.1`, `A.10`, `C.2.1`, `A.19.CPM`, `E.17.0`, and the exact representation pattern.
 

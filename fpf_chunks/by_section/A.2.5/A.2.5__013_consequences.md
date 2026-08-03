@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
 section_id: "A.2.5:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__013_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
   - "A.2.5:10 — Consequences"
-line_start: 4698
-line_end: 4728
+line_start: 4697
+line_end: 4715
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -25,32 +25,20 @@ keywords:
 
 ### A.2.5:10 - Consequences
 
-Good consequences:
+Benefits:
 
-- work admission becomes reviewable without making every role assignment a large form;
-- role relation structure can use current state rather than labels alone;
-- role descriptions can publish state predicates without turning descriptions into states;
-- evidence and status around epistemes no longer create shadow role kinds;
-- cross-context role-state comparison becomes explicit rather than label-based.
+- one assignment can support several separately identifiable state episodes;
+- simultaneous predicates remain expressible without pretending every case is a single-state automaton;
+- state truth, state assertion, evidence use, and work admission can change independently and be repaired locally;
+- method and gate patterns receive an exact current relation instead of a status label;
+- physical, social, organizational, and computational role-state cases use the same relation discipline.
 
-Costs:
+Costs and limits:
 
-- high-consequence work needs state predicates and currentness windows;
-- projects need to decide which role states actually admit work;
-- role-state design can become too detailed if authors encode method order instead of admission predicates;
-- cross-context reuse needs explicit mapping or comparison when state predicates differ.
+- load-bearing state predicates must be written by value, including temporal semantics;
+- consequence-bearing use needs evidence currentness and an explicit direct consumer;
+- cross-taxonomy reuse may need a bridge rather than label matching;
+- A.2.5 does not define every subject-domain state predicate, measurement method, authorization relation, or state-change method.
 
-#### A.2.5:10.1 - Lowering and Reopen Conditions
-
-Lower a role-state claim or reopen A.2.5 when any of these changes:
-
-- the role assignment, assignment window, or bounded context changes;
-- the state predicates, state-change predicates, or enactable-state set change;
-- a `StateAssertion` window expires, is contested, or loses the evidence or source relation that made it current;
-- a method description changes its required roles or required role states;
-- a capability claim changes the holder envelope needed by a state predicate;
-- a role-relation structure changes role-requirement substitution, incompatibility, or bundle admission;
-- an episteme previously used as evidence, source, standard, requirement, publication, or status value is reclassified by its direct pattern.
-
-The smallest repair is normally local: update the state predicate, state assertion, window, role-relation-structure hook, or neighboring capability, method, work, evidence, or status relation that changed. Do not rewrite the whole role value or role assignment when only one role-state claim changed.
+Reopen or lower only the affected claim when the assignment episode, by-value predicate, actual role-state extent, receiving-use evaluation window, effective scheme, evidence relevance, direct consumer rule, or interpretation-changing model-use selection changes. Do not rewrite the role value or assignment when only one role-state episode changes.
 

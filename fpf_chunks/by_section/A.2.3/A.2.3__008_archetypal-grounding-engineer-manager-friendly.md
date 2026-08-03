@@ -6,12 +6,12 @@ section_id: "A.2.3:5"
 section_title: "Archetypal grounding (engineer‑manager friendly)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__008_archetypal-grounding-engineer-manager-friendly.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:5 — Archetypal grounding (engineer‑manager friendly)"
-line_start: 3921
-line_end: 3932
+line_start: 3902
+line_end: 3915
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "F.12"
@@ -66,4 +67,6 @@ keywords:
 | Public passport service | Issue an admissible passport within 20 days under declared defect and eligibility criteria—for example, a ≤ 1% defect target; this value is illustrative, not a default. | `IssuingAgencySystem` holds `PassportIssuerRole`; `ApplicantPersonSystem` holds `PassportApplicantRole`. | `PassportApplicationAccessDescription`, a `U.MethodDescription`; portal and service-desk bearers count as access-point `U.System` values only where this worked case independently assumes the A.1 criterion and that boundary claim is current. | Dated application-handling and passport-issuance Work occurrences. | Submission, issuance, elapsed-time, and defect observations support claims; actual evaluation applications bind lead-time or defect results, and separately constituted verdict epistemes state the judgments. |
 
 **Key takeaway.** The same pattern yields one promise-content episteme in each domain without treating the promise as the provider, access point, method, work occurrence, evidence, operation-result binding, or verdict episteme. Direct role-assignment, `PromiseContentUse`, evaluation-operation, evidence, acceptance, and publication relations retain their own participants and governors; evaluation remains separately performed `U.Work`.
+
+**Locality replay.** In the cloud-storage row, identify `CloudStoragePromiseContent-v3`, `CloudStorageOfferScheme-2026`, and `EligibleStorageAccounts-EU-2026Q3` as the exact promise-content edition, its effective scheme, and its `U.ClaimScope`. Then `PromiseContentUse(PUT-2026-07-14-1042, CloudStoragePromiseContent-v3, Interval-PUT-1042)` ties one dated delivery-work occurrence to that edition. Name a selected model-use structure only in a receiving assertion or use that is actually model-local. If another catalog scheme must be consumed, add the exact obtaining F.9 Bridge and the separate current claim that it is suitable for this bounded use, then follow F.9's two reliance branches: ordinary below-threshold use with no assurance claim requires the exact A.10 evidence-provenance graph relation and `RelianceDisposition=pass` for this use; assurance-bearing or threshold use enters B.3, decides first whether a current assurance claim exists, and requires either a positive current assurance claim carrying the same bounded assurance use with its sufficient minimum reliance safety assurance record or an explicit non-positive disposition that stops or narrows the use. None of those objects creates the promise use, delivery work, fulfilment, result, or publication.
 

@@ -6,12 +6,12 @@ section_id: "A.0:7"
 section_title: "Conformance Checklist (SCR/RSCR stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__008_conformance-checklist-scr-rscr-stubs.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:7 — Conformance Checklist (SCR/RSCR stubs)"
-line_start: 1282
-line_end: 1298
+line_start: 1302
+line_end: 1318
 dependencies:
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE"

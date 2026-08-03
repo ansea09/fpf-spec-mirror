@@ -6,12 +6,12 @@ section_id: "F.14:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__006_minimal-vocabulary.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:5 — Minimal vocabulary"
-line_start: 93526
-line_end: 93535
+line_start: 94220
+line_end: 94230
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,11 +45,12 @@ keywords:
 
 ### F.14:5 - Minimal vocabulary
 
-* **Anti-explosion control pass** - one review of a candidate family of related names to prevent unnecessary durable names.
-* **Candidate name family** - a local set of proposed names that appear to cover related work, role, status, evidence, source, capability, method, or policy concerns.
-* **Recovered value** - the typed FPF value or relation that the candidate name is trying to name.
-* **Role-relation expression** - a context-local role-requirement substitution, incompatibility, qualification, or bundle expression governed by A.2.7.
-* **Status-family expression** - a status family, value, window, confidence, or status-use relation governed by F.10 or a direct status pattern.
-* **Qualifier value** - a value governed by a direct pattern that narrows use without becoming part of the role or status kind.
-* **Blocked minting** - a decision that the candidate name remains an alias, local phrase, qualifier, role-relation expression, or direct-pattern name rather than a new durable role or status name.
+* **Anti-explosion control pass** — one bounded review of related candidate expressions before durable naming objects are added.
+* **Candidate name family** — proposed expressions that appear to cover related role, status, work, evidence, source, capability, method, policy, or local-sense concerns.
+* **Recovered governed value** — the exact typed value or relation the expression is trying to designate, under its direct pattern.
+* **Naming use** — the exact reader or practitioner action for which the expression is being considered.
+* **Light disposition** — no durable name, existing designation, alias, local expression, or existing row reuse.
+* **Role-relation expression** — an expression designating an exact A.2.7 substitution, incompatibility, qualification, or bundle relation rather than another role value.
+* **Status-family expression** — an expression for a status family, value, window, confidence claim, or status-use relation governed by F.10 or a direct status pattern.
+* **Blocked minting** — the explained result that the candidate remains a light disposition or direct-pattern expression rather than a new durable name or naming object.
 

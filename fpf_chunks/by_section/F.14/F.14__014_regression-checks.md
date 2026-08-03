@@ -6,12 +6,12 @@ section_id: "F.14:13"
 section_title: "Regression checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__014_regression-checks.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:13 — Regression checks"
-line_start: 93732
-line_end: 93741
+line_start: 94432
+line_end: 94435
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,11 +45,5 @@ keywords:
 
 ### F.14:13 - Regression checks
 
-| Check | Reopen condition |
-| --- | --- |
-| RSCR-F14-01 | Reopen when candidate names grow faster than recovered values. |
-| RSCR-F14-02 | Reopen when a role name starts carrying assignment, capability, method, work, evidence, status, source, or publication claims. |
-| RSCR-F14-03 | Reopen when a status label starts carrying role, holder, assignment, or work claims. |
-| RSCR-F14-04 | Reopen when a public or cross-context name is reused without F.9, F.17, or F.18 admission. |
-| RSCR-F14-05 | Reopen when role-relation expressions become fake holders, fake capabilities, or fake method families. |
+Reopen only the affected naming use when candidate expressions grow faster than recovered values; a name starts carrying assignment, capability, method, Work, evidence, status, source, publication, equivalence, or authority; a row is reused beyond its admitted use; local wording is silently globalized; or one naming object begins to imply the next. A changed spelling alone does not require a new governed value or full family replay.
 

@@ -6,12 +6,12 @@ section_id: "F.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__003_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2 — Problem frame"
-line_start: 94547
-line_end: 94560
+line_start: 95246
+line_end: 95259
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,21 +47,20 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:2 - Problem frame
 
-Unification work often succeeds locally and then fails in reuse. A term looks stable in one section, but another reader cannot see which governed value, effective reference scheme, local-sense claim, Bridge, NameCard decision, or direct governing pattern was used. Teams then invent new labels, import one local interpretation as if it were universal, or treat a teaching block as if it were an ontology.
+Naming work often succeeds locally and then fails in reuse. A term looks stable, but the receiving reader cannot recover which exact value was named, which direct pattern owns it, which naming decision selected the expressions, which effective scheme and local-sense claim are current, or whether a cited Bridge actually obtains.
 
-The damage is practical:
+Five shortcuts follow:
 
-- local meanings become global slogans;
-- one row silently mixes a role, a role description, a status value, a capability claim, and a work assignment;
-- public names drift because no row id, edition, or name-card reference stays stable;
-- sameness across different semantic-context projections is asserted by spelling instead of by two separate premises: an actual F.9 Bridge that obtains under its relation-semantic profile, and an affirmative C.2.1 claim that says the Bridge is suitable for the row's exact direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance;
-- examples in other patterns cite a term but not the term decision that makes the example portable.
+- shared spelling is treated as shared value;
+- a row combines unlike role, status, relation, Work, evidence, or publication concerns;
+- a card, cell, row, id, and publication are minted as one automatic chain;
+- a source title, document, or table layout substitutes for the exact sense and basis relation;
+- the row itself is said to make the term public, current, authoritative, or obtaining.
 
-`F.17` fixes this by making the term row itself reviewable. Each row says what kind of thing is being named, where the local senses came from, what bridge is claimed, which name was selected, and which direct pattern owns the underlying object.
+F.17 repairs those shortcuts by making every row a separately identified claim-bearing episteme whose references lead back to the exact naming settlement and governed value.
 

@@ -6,12 +6,12 @@ section_id: "F.9:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__007_minimal-vocabulary.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:5 — Minimal vocabulary"
-line_start: 91629
-line_end: 91644
+line_start: 92259
+line_end: 92275
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -62,7 +64,8 @@ keywords:
 * **Use direction** - the ordered `<UseSourceSenseCell, UseReceivingSenseCell>` designated inside one bounded-use claim.
 * **Observed semantic loss** - a difference or counterexample found in evidence. It can bear on a bounded-use claim but is not the use's permitted-loss tolerance.
 * **Permitted-loss tolerance** - the maximum named loss accepted by one proposed use; it is content of that use's C.2.1 claim.
-* **Bridge Card** - an optional C.2.1 claim-bearing episteme about an actual Bridge or a proposed relation candidate; it is not the relation.
+* **Bridge occurrence description** - an independently constituted C.2.1 episteme whose exact EntityOfConcern is one already individuated Bridge occurrence. It describes; it neither makes the predicate true nor supplies occurrence identity.
+* **Bridge Card** - optional claim-bearing packaging. A filled Card may itself be a Bridge description episteme when its C.2.1 triple concerns an actual occurrence; a candidate Card instead modally describes the admitted relation kind and proposed endpoints. The reusable Card layout, registry row, publication form, and carrier remain separate.
 * **CL (Congruence Level)** - optional F.9-local shorthand for the strength of evidence about a stated correspondence. It is neither a participant nor a use threshold and never grants a use.
 * **senseFamily** - the local meaning family used by Part F. A `senseFamily` label is not a durable U-kind.
 

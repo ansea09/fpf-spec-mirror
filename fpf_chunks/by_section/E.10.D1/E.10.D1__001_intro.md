@@ -6,23 +6,21 @@ section_id: "E.10.D1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:intro — Intro"
-line_start: 75645
-line_end: 75653
+line_start: 76091
+line_end: 76099
 dependencies:
+  - "A.2.1"
   - "A.4"
   - "A.7"
-  - "E.10.U1"
-  - "E.10.U2"
-  - "E.10.U4"
-  - "E.10.U7"
-  - "E.10.U9"
   - "F.1"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.6"
   - "F.7"
   - "F.9"
 keywords:
@@ -39,6 +37,6 @@ keywords:
 
 **Status.** Discipline definitional pattern.
 **Depends on.** C‑6 *Strict Distinction*; C‑7 *Temporal Duality*; G‑1 *Minimal Generality*; G‑2 *Contextual Specification*.
-**Coordinates with.** E.10.U1 *Domain‑Family Landscape Survey*; E.10.U2 *Term Harvesting & Normalisation*; E.10.U7 *Concept‑Set Table*; E.10.U9 *Alignment/Bridge*; `RoleAssigning` patterns (e.g., E.10.U4).
+**Coordinates with.** F.1 *Domain‑Family Landscape Survey*; F.2 *Term Harvesting & Normalisation*; F.7 *Concept‑Set Table Construction*; F.9 *Alignment and Bridge across Contexts*; role-description and role-assignment patterns (for example, F.4, A.2.1, and F.6).
 **Aliases (informative).** Context Discipline; No‑Anchor Rule.
 

@@ -6,27 +6,30 @@ section_id: "E.17.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:3 — Forces"
-line_start: 78870
-line_end: 78879
+line_start: 79500
+line_end: 79509
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -42,7 +45,7 @@ keywords:
 |---|---|
 | **Reuse vs local fit** | Authors want reusable viewpoint families, but a local project may still need a subset or a context-specific extension. |
 | **Stable identity vs evolution** | Bundles must stay stable enough for long-term reuse while still admitting editioned change. |
-| **EntityOfConcern clarity vs label convenience** | Viewpoint bundles are catalogue descriptions for viewpoint families, yet teams often prefer one reader-facing label across `U.Viewpoint`, `U.View`, publication-face, and folder entities. |
+| **EntityOfConcern clarity vs label convenience** | A bundle library is a catalogue episteme whose members reference exact viewpoint epistemes, yet teams often prefer one reader-facing label across viewpoint, view, publication form, and carrier. |
 | **Engineering vs publication discipline** | Engineering viewpoints and publication viewpoints both matter, but they must not collapse into one id namespace. |
 | **Rich libraries vs cognitive economy** | A library should be rich enough for real reuse without becoming so large that authors cannot choose from it coherently. |
 

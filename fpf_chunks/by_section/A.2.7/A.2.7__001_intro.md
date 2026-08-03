@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
+pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
 section_id: "A.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.7 — RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary"
+  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
   - "A.2.7:intro — Intro"
-line_start: 5699
-line_end: 5703
+line_start: 5694
+line_end: 5699
 dependencies:
   - "A.15"
   - "A.2"
@@ -25,8 +25,9 @@ keywords:
   - "specialization (≤)"
 ---
 
-## A.2.7 - RoleRelationStructure@BoundedContext - Context-Local Role Relations and Representation-Lens Boundary
-> **Status:** Stable
-> **Type:** Ontic relation-structure pattern
+## A.2.7 - Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission
 
+> **Type:** Architectural (A)
+> **Status:** Stable
+> **Normativity:** Normative unless marked informative
 

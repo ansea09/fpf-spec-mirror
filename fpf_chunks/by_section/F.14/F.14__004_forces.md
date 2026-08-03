@@ -6,12 +6,12 @@ section_id: "F.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:3 — Forces"
-line_start: 93504
-line_end: 93514
+line_start: 94196
+line_end: 94206
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -47,10 +47,10 @@ keywords:
 
 | Force | Tension to resolve |
 | --- | --- |
-| Parsimony versus real difference | A small vocabulary is useful only if real distinctions remain recoverable. |
-| Locality versus public reuse | Role and status names start in bounded contexts; some later need public or cross-context reuse. |
+| Parsimony versus real difference | A small vocabulary is useful only if every real governed distinction remains recoverable. |
+| Local expression versus durable reuse | Most wording can remain local; public or repeated reuse may justify one durable settlement. |
 | Recognition versus assignment | A good role name helps recognition; it does not assign a holder or prove work. |
-| Role relation structure versus new role | Role-requirement substitution, incompatibility, qualification, and bundle expressions are useful, but they do not automatically mint a new `U.Role`. |
-| Status family versus status name | Time windows, values, confidence, and presentation labels should not multiply status families. |
-| Qualifier visibility versus kind discipline | A visible qualifier may belong to role state, work plan, capability, method, status window, evidence, source, or publication rather than the role name. |
+| Relation structure versus new role | Role substitution, incompatibility, qualification, and bundle relations may be useful without minting another `U.Role`. |
+| Status family versus status-name growth | Time windows, values, confidence, and presentation labels should not multiply status families. |
+| Discoverability versus naming-object cascades | Cards, cells, rows, identifiers, and publications can help retrieval, but none is justified merely because the previous one exists. |
 

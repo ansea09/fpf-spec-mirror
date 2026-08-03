@@ -6,41 +6,40 @@ section_id: "F.15:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_minimal-vocabulary.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:5 — Minimal vocabulary"
-line_start: 93850
-line_end: 93859
+line_start: 94541
+line_end: 94552
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -51,11 +50,13 @@ keywords:
 
 ### F.15:5 - Minimal vocabulary
 
-* **Unification slice** - the small set of contexts, senses, rows, RoleDescriptions, bridges, windows, aliases, and names being checked together.
-* **Static Conformance Rule (SCR)** - a check that must hold in the current snapshot.
-* **Regression and Stability Conformance Rule (RSCR)** - a check that compares an earlier and later snapshot.
-* **Check claim** - one content assertion such as "this row spans two contexts" or "this RoleDescription refers to one SenseCell".
-* **Witness** - one small example, counterexample, invariant, or edition note that makes the check inspectable.
-* **Moving part** - any context, local sense, row, role-description label, bridge, status window, alias, or public name whose change could affect the slice.
-* **Failed conformance** - a check result that makes the claim governed by the direct pattern before reuse.
+* **Finite harness scope** - an F.15-local by-value selection of exact current refs, versions, triggered rules, and one receiving use; not a U-kind, relation, evidence set, or selected Structure by default.
+* **Static Conformance Rule (SCR)** - an F.15-local declared predicate over exact current inputs.
+* **Regression and Stability Conformance Rule (RSCR)** - an F.15-local declared predicate over exact earlier/later inputs plus the continuity or change claim and receiving use.
+* **Check application** - an actual A.6.1 operation application with exact rule and object bindings, when current.
+* **Assessment work** - dated `U.Work` that enacts the check method, when a performance claim is made.
+* **Result claim** - one C.2.1 episteme asserting `pass`, `fail`, or `undetermined` for one exact rule application, scope version, and use; not a general status value.
+* **Witness** - an exact example, counterexample, invariant, trace, or edition note cited by the result claim; its presence is not the result or an evidence-use relation.
+* **Conformance record** - an optional C.2.1 episteme that packages refs to the scope, applications/work, result claims, witnesses/evidence paths, non-admitted uses, and reopen conditions; it performs no check.
+* **Changed member** - one exact prior/later pair whose governed identity, relation truth, description, designation, status use, or publication availability may affect the receiving use.
 

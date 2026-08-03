@@ -6,12 +6,12 @@ section_id: "A.15:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__005_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:4 — Solution"
-line_start: 23990
-line_end: 24139
+line_start: 24085
+line_end: 24234
 dependencies:
   - "A.10"
   - "A.12"
@@ -67,9 +67,9 @@ FPF mandates the use of the following distinct, non-overlapping entities to mode
 **A) Role, Method, Description, Capability, And Plan Values:**
 
 *   **`U.Role`:** A work-facing role value interpreted through one exact role-taxonomy episteme and effective `U.ReferenceScheme`. Expected contribution, responsibility, permission, commitment, obligation, capability-fit, and admission conditions are neighboring relations governed by their direct patterns; the role value is not the holder, assignment occurrence, method, capability, work plan, or work occurrence.
-*   **`U.Method`:** The run-independent semantic way of doing a kind of transformation or enactment. It is not a dated performance or its description.
-*   **`U.MethodDescription`:** A **`U.Episteme` describing a `U.Method`**; it may be expressed in an SOP, algorithm, proof, recipe, or other method-description publication.
-*   **`U.Capability`:** The `A.2.2` admitted dependent durable U-kind for holder-dependent capability instances. A concrete instance is a `U.System` holder's ability to perform a work family or produce a result class within a declared envelope, measure set, qualification window, and currentness condition. A `CapabilityStatement`, evidence relation, source-use relation, or currentness assessment may support relying on that instance; a capability-fit condition may test it. The capability instance is not the method, method description, support record, fit predicate, work plan, or work occurrence.
+*   **`U.Method`:** The run-independent semantic way of doing a kind of transformation or enactment. It is not a dated performance or its description. The Work occurrence enacts the exact Method through `enactsMethod(W, M)`; the Method does not act or perform the Work.
+*   **`U.MethodDescription`:** One already identified `U.Episteme` whose exact `EntityOfConcern` is an admitted `U.Method` and whose claims say something substantive about that Method as a way of doing, as judged by `A.3.2`. An SOP, algorithm, proof, recipe, or other publication may express it, but wording or form alone establishes no membership. The description neither acts nor is enacted.
+*   **`U.Capability`:** The `A.2.2` admitted dependent durable U-kind for holder-dependent capability instances. A concrete instance is a `U.System` holder's ability to perform a work family or produce a result class within a declared envelope, measure set, qualification window, and currentness condition. A `CapabilityStatement`, evidence relation, source-use relation, or currentness assessment may support relying on that instance; a capability-fit condition may test it. The capability instance is not the actor, method, method description, support record, fit predicate, work plan, or work occurrence, and possessing a capability or an algorithm establishes neither actual performance nor `U.MethodDescription` membership.
 *   **`U.WorkPlan`:** A **`U.Episteme`** declaring designators and constraints for possible future Work occurrences, including windows, dependencies, intended performers by role, and budgets. A future Work occurrence does not yet exist merely because a plan refers to it - see **A.15.2**.
 
 **B) The Assignment Relation:**
@@ -141,7 +141,7 @@ graph TD
 
 The assignment occurrence has the maximal continuous extent over which its four-participant relation obtains. A planned or asserted interval does not create that actual extent. A selected `BoundedModelUseStructure`, when it changes interpretation, is named in the receiving assertion or use. Only a genuinely structure-dependent relation species may require that structure as an identity-bearing participant, under its own direct pattern and stronger obtaining and identity law.
 
-For a performed occurrence, this alignment lets the reader trace one Work individual admitted under `U.Work` through exact `enactsMethod` and `performedUnderAssignment` relations to the `U.Method` it enacts and the exact `U.RoleAssignment` under which its admitted holder system performed it; a separate assertion may cite the `U.MethodDescription` used to identify or constrain that method. It does not turn the assignment, role taxonomy, reference scheme, method description, capability fit, plan, or evidence into the performer or the work itself.
+For a performed occurrence, this alignment lets the reader trace one Work individual admitted under `U.Work` through exact `enactsMethod` and `performedUnderAssignment` relations to the `U.Method` it enacts and the exact `U.RoleAssignment` under which its admitted holder system performed it; a separate assertion may cite the `U.MethodDescription` used to identify or constrain that method. The admitted holder system acts. The role value, assignment, capability instance or fit result, Method, MethodDescription, plan, evidence, role taxonomy, and reference scheme do not thereby act or perform the Work. A capability or algorithm-possession phrase also does not establish that a cited episteme is `U.MethodDescription`; its exact Method `EntityOfConcern` and substantive way-of-doing claim must independently satisfy `A.3.2`.
 
 #### A.15:4.3 - Bounded specialization scouting and `CheckpointReturn`
 

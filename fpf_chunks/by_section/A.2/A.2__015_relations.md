@@ -6,20 +6,22 @@ section_id: "A.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__015_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:13 — Relations"
-line_start: 2983
-line_end: 2992
+line_start: 2960
+line_end: 2969
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -33,11 +35,11 @@ keywords:
 
 ### A.2:13 - Relations
 
-**Builds on:** `A.1` for holon and system grounding; `A.6.5` for SlotSpec discipline; `E.24` for ontic and slot-relation discipline; `A.6.RSIR` for first-level wording-use recovery.
+**Builds on:** `A.1` for system and holon grounding; `C.2.1` for the role-taxonomy episteme and effective reference scheme; `A.6.0`, `A.6.5`, and `A.6.REL` for assignment RelationSignature, participant SlotSpecs, and occurrences; `E.24` for U-kind discipline.
 
-**Governs with:** `A.2.1` for role assignment; `A.2.2` for capability; `A.2.5` for role state; `A.2.7` for role relation structure and role-algebra lens boundary; `A.15` for role-method-work alignment; Part F role-description and naming patterns for durable role names.
+**Governs with:** `A.2.1` for role assignment; `A.2.2` for capability; `A.2.5` for role state; `A.2.7` for selected role relation structure; `A.15` for role-method-work alignment; `F.4` and `F.5` for role description and naming.
 
-**Keeps separate from:** `A.10`, `B.3`, `C.2.1`, `C.28`, `E.17`, `F.10`, and direct evidence-use, status-use, source-use, publication-use, requirement-use, definition-use, explanation-use, assurance-use, and gate patterns for episteme use.
+**Crosses semantic-locality boundaries through:** `F.9` and `A.6.9` for the exact Bridge between scheme-local sense cells; `C.2.1` for the separate bounded-use assertion; and `A.10` or `B.3` for current reliance. `A.1.1` plus the receiving assertion or use pattern governs any selected `BoundedModelUseStructure` that changes interpretation. An actual assignment, comparison, substitution, translation, publication, or work occurrence remains under its direct owner.
 
-**Precision-restoration applications:** If source wording uses "role" for interface, signature, argument, field, parameter, capability, method, function, concern, interest, status, evidence, or publication, apply `A.6.RSIR` only until the governed object or claim kind is recovered, then apply the direct governing pattern.
+**Keeps separate from:** direct episteme-use, evidence, reliance, publication, external-rule, currentness, and assurance patterns. Apply `A.6.RSIR` only until the actual object or relation behind contribution wording is recovered, then continue with that governing pattern.
 

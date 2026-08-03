@@ -6,20 +6,24 @@ section_id: "F.5:End"
 section_title: "F.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__015_f-5-end.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
   - "F.5:End — F.5:End"
-line_start: 90524
-line_end: 90525
+line_start: 91061
+line_end: 91062
 dependencies:
+  - "A.10"
   - "A.15"
+  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "B.3"
+  - "C.2.1"
   - "E.10"
   - "E.10.ARCH"
   - "E.24.UK"
@@ -33,6 +37,7 @@ dependencies:
   - "F.7"
   - "F.8"
   - "F.9"
+  - "G.6"
 keywords:
   - "U-kind naming"
   - "lexical rules"

@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 85351
-line_end: 85379
+line_start: 85818
+line_end: 85850
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -41,27 +41,31 @@ keywords:
 
 * **Builds on:**
 
-  * `E.8` (authoring conventions; canonical section order; SoTA‑Echoing authoring requirements)
+  * `E.8` (authoring conventions; canonical section order; SoTA-Echoing authoring requirements)
   * `E.10` (lexical discipline, trigger detection, and applicability)
   * `E.10.ARCH` (distributed precision-restoration architecture and realization/governing-pattern split)
   * `E.9` (design rationale records for changes that affect semantics)
-  * `E.9.DA` (scoped DRR decision-adequacy evaluations before pattern drafting or host amendment; an `E.19` finding may expose that an upstream `DRR` did not decide enough, but `E.19` keeps the pattern-review finding while `E.9.DA` evaluates only the upstream `DRR` decision-adequacy claim. An `E.19` pass, return, or absence is not `E.9.DA` coordinate evidence.)
-  * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before the `E.19` review result is formed.)
-  * `E.23` (repeated quality-improvement method; an `E.19` profile can supply findings inside such a loop, but `E.23` governs repeated absorption, object-under-improvement evaluation re-evaluation, method-family selection, and stop, continue, switch method, open-new-frame, or hold decisions.)
-
+  * `E.9.DA` (scoped DRR decision-adequacy evaluation specification before pattern drafting or host amendment; an E.19 finding may expose an upstream DRR defect, but dated E.9.DA assessment work and its result episteme remain separate. An E.19 pass, return, or absence is not E.9.DA coordinate evidence.)
+  * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before an E.19 review result is formed.)
+  * `E.23` (repeated quality-improvement method; an E.19 profile can supply questions and findings inside such a loop, but E.23 governs repeated absorption, object-under-improvement re-evaluation, method-family selection, and stop, continue, switch-method, open-new-frame, or hold decisions.)
   * `E.15` (authoring/evolution protocol; harness mindset; refresh planning)
   * `A.6.5` (slot discipline; SlotKind/ValueKind/refMode invariants)
+
 * **Coordinates with:**
 
+  * `A.15.1`, `A.6.1`, `A.2`, and `A.2.1` (dated review/repair/verification work, exact check applications and bindings, reviewer role, and obtaining assignment)
+  * `C.2.1` (finding, focused-verification, aggregate review-result, and optional record epistemes)
+  * `A.10` and `B.3` (evidence use/provenance and any assurance or reliance on an E.19 result)
+  * `F.10` and `E.24.PUB` (status use/interpretation and publication occurrence/form/carrier; neither is review work or admission authority)
   * `F.8` (mint vs reuse decisions)
   * `F.18` (local-first naming protocol)
   * `F.9` (cross-context alignment discipline)
   * `F.15` (conceptual harness and regression framing)
-  * `E.17` (MVPK / `U.View` projection discipline)
+  * `E.17` (MVPK publication and face discipline; an MVPK face, projected publication form, projection/construction, publication occurrence, rendering, and carrier remain distinct)
+  * `E.17.0` (independent conformance required before the selected episteme has `U.View` membership; E.19 profile checks and no-new-claim/no-shadow-default compliance create no membership)
   * `E.11` (pattern-entry discoverability discipline, for `PCP-ENTRY` only as a review hook, not as a semantic prerequisite)
   * `E.13` (pragmatic utility and proxy-to-value alignment when a pattern-quality pass, score, coordinate value, checklist result, benchmark, projection signal, or release posture is being used as value evidence)
-  * `E.21` (scoped pattern-quality characteristic space, coordinate evidence discipline, `PatternQualityStatus`, and stop condition; `E.19` findings may supply evidence for a later `E.21` value only when they identify content defects or strengths in the reviewed pattern version, but final coordinate values and `PatternQualityStatus` are assigned by `E.21`, not by `E.19`)
-
+  * `E.21` (scoped pattern-quality characteristic space, coordinate evidence discipline, `PatternQualityStatus`, and stop condition; E.19 findings may become evidence only through the exact E.21 assessment application. Final coordinate values and `PatternQualityStatus` belong to a separate E.21 result episteme, not the E.19 profile or result.)
   * `A.6.7` (`MechSuiteDescription` suite-level semantics)
   * `A.15.3` (`SlotFillingsPlanItem` P2W planned-baseline seam)
   * `G.11` (refresh/decay orchestration principles, where applicable)

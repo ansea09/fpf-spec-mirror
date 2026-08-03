@@ -6,14 +6,18 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.16.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
-line_start: 78236
-line_end: 78442
+line_start: 78753
+line_end: 78959
 dependencies:
+  - "A.10"
   - "A.13"
   - "A.15"
+  - "A.17"
+  - "A.18"
+  - "A.19"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
@@ -49,7 +53,7 @@ keywords:
 **Rule (summary).** If a Role/Method/Service claims autonomy, authors **MUST**: (i) publish an `AutonomyBudgetDecl` with `AdmissibilityConditionsId` and `OverrideProtocolRef`; (ii) gate Method steps with `requiresAutonomyBudget`; (iii) write a `AutonomyLedgerEntry` on every admitted Work; (iv) block on depletion until a `ResumeAutonomy` SpeechAct passes SoD; (v) surface autonomy fields in UTS rows.
 
 **Builds on:** A.2 / A.2.1 / A.2.5 / A.15 / A.21; B.3; C.16; E.8; E.10; E.18; F.4; F.6; F.8; F.15; F.17.
-**Coordinates with:** A.13 (Agential Role), C.9 (Agency Characteristic Profile), C.24 (Agent‑Tools‑CAL) where applicable; G.4–G.5–G.8–G.9–G.10 (method authoring/selection/shipping).
+**Coordinates with:** A.13 (Agential Role) and A.17/A.18/A.19/C.16/A.10 for current agency characterization, measurement, and evidence; planned C.9 (Agency Characteristic Profile) only as future consolidation; C.24 (Agent‑Tools‑CAL) where applicable; G.4–G.5–G.8–G.9–G.10 (method authoring/selection/shipping).
 
 ### E.16:1 - Problem Frame
 

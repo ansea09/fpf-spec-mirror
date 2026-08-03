@@ -6,12 +6,12 @@ section_id: "F.17:6"
 section_title: "When to create or update a UTS row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_when-to-create-or-update-a-uts-row.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:6 — When to create or update a UTS row"
-line_start: 94688
-line_end: 94700
+line_start: 95378
+line_end: 95389
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,20 +47,18 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:6 - When to create or update a UTS row
 
-Create or update a UTS row when at least one condition is present:
+Create or revise one row only when all entry objects are exact and at least one receiving need is current:
 
-- the name will be public, Core-facing, or reused under more than one effective reference scheme;
-- a row id is needed for later examples, checks, dashboards, training material, or tool interface labels;
-- a role name, status-family name, slot name, relation name, or local concept name is being reused outside the immediate local repair;
-- an obtaining F.9 Bridge and a separately warranted affirmative C.2.1 claim are being used for one exact term-row use between different semantic-context projections;
-- a name-card decision from `F.18` needs a compact reader-facing term row;
-- a direct pattern changes the governed object in a way that changes the name, local sense, bridge, or admissible use.
+- public or Core-facing citation of the selected naming decision;
+- durable reuse outside the immediate local repair;
+- cross-local reuse whose exact cells, any actual Bridge, separate use claim, and reliance are recoverable;
+- stable citation from examples, checks, dashboards, training material, a project standard, or a tool interface;
+- a direct-pattern or F.18 change that alters this exact row's value, name, sense, admitted use, or blocked use.
 
-Do not create a row only because a word was noticed. First recover the kind, relation, slot position, and admissible use under the direct governing pattern.
+Before the row, apply F.14 again. A noticed word, accepted designation, stable local sense, NameCard, Bridge description, source publication, or desire for a tidy table does not by itself meet the gate. A durable local NameCard can remain local; a cell can remain a cell; an existing row can be reused only within its admitted use.
 

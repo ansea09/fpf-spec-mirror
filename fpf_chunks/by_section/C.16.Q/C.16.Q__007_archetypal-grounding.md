@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 47982
-line_end: 48085
+line_start: 48164
+line_end: 48327
 dependencies:
   - "A.10"
   - "A.16"
@@ -21,6 +21,7 @@ dependencies:
   - "A.17"
   - "A.18"
   - "A.19"
+  - "A.19.CPM"
   - "A.2.6"
   - "A.6.A"
   - "A.6.B"
@@ -51,6 +52,9 @@ dependencies:
   - "F.18"
   - "F.9"
   - "F.9.1"
+  - "U.ClaimScope"
+  - "U.ContextSlice"
+  - "U.ViewpointRef"
 keywords:
 ---
 
@@ -59,34 +63,52 @@ keywords:
 #### C.16.Q:5.1 - Tell
 
 If a draft says *quality*, the draft has not yet named the evaluative family.
-A conforming rewrite publishes either one explicit endpoint-pattern-governed evaluative form or one explicit `qualityTermAscription(...)` transitional record with one `QualitySense`, one bearer tuple, one evaluation frame, one evaluator and viewpoint, one admissible normal form, explicit scope, time, and bridge qualifiers when they matter, and declared endpoint-governing pattern or explicit endpoint source relation.
+A conforming rewrite publishes either one explicit endpoint-pattern-governed evaluative form or one explicit `qualityTermAscription(...)` transitional record with exact bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, exact endpoint-governing pattern or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, Card, and stance overlay.
 
 #### C.16.Q:5.2 - Show (System lane)
+
+The identifiers below denote distinct objects. Each `comparisonFrameRef` resolves its exact A.19.CPM configuration; each non-`none` `viewpointRef` resolves one E.17.0 viewpoint episteme. A named result claim is not assessment work, witness refs do not establish an A.10 evidence-provenance path, and neither witnesses nor a result label establish the grounding relation cited beside them.
 
 **Draft:** “The model quality improved.”
 
 **Repair A — latent representation line**
 `qualityTermAscription(
-  bearer = Model_v5,
+  bearerTuple = {Model_v5},
   qualitySense = QS.LatentFit,
-  evaluationFrame = ProbePack_PP2,
-  evaluator = RepLearningReviewBoard,
+  effectiveReferenceScheme = RepLearningScheme_5,
+  probeOrModelFrameRef = ProbePack_PP2,
+  comparisonFrameRef = LatentFitComparison_CF2,
+  evaluatorRef = RepLearningReviewBoard,
+  viewpointRef = none,
   normalForm = SignalPack,
+  claimScope = U.ClaimScope({RepresentationLearningSlice_RL5}),
   Γ_time = Window_W5,
-  witnesses = {ProbeSeparationRun_22, AliasRiskCard_9}
+  qualityResultClaimRef = LatentFitResultClaim_22,
+  witnessRefs = {ProbeSeparationRun_22, AliasRiskCard_9},
+  evidenceProvenancePathRefs = {LatentFitEvidencePath_22},
+  empiricalGroundingRelationRef = EGR_LatentFitResult_22,
+  endpointGoverningPatternRef = C.16
 )`
+
+Here `EGR_LatentFitResult_22` denotes a separately established relation between the exact result episteme and exact grounding holon under the governed probe or measurement relations. The run and card alone would not establish it.
 
 **Repair B — closed-loop control line**
 `qualityTermAscription(
-  bearer = PolicyModelPair_PM5,
+  bearerTuple = {PolicyModelPair_PM5},
   qualitySense = QS.ControlAdequacy,
-  evaluationFrame = Horizon_H × EnvClass_E,
-  evaluator = ControlReviewBoard,
-  viewpoint = ControlView_VP,
+  effectiveReferenceScheme = ClosedLoopControlScheme_5,
+  probeOrModelFrameRef = Horizon_H × EnvClass_E,
+  comparisonFrameRef = ControlBaselineComparison_CF5,
+  evaluatorRef = ControlReviewBoard,
+  viewpointRef = ControlViewpointRef_7,
   normalForm = Bundle,
-  scope = U.WorkScope(ControlDeploymentScope_7),
+  claimScope = U.ClaimScope({ControlDeploymentSlice_7}),
   Γ_time = RunWindow_RW,
-  witnesses = {ClosedLoopTraceSet_41}
+  qualityResultClaimRef = ControlAdequacyResultClaim_41,
+  witnessRefs = {ClosedLoopTraceSet_41},
+  evidenceProvenancePathRefs = {ControlEvidencePath_41},
+  empiricalGroundingRelationRef = EGR_ControlAdequacyResult_41,
+  endpointGoverningPatternRef = C.25
 )`
 
 #### C.16.Q:5.3 - Show (Episteme lane)
@@ -95,24 +117,42 @@ A conforming rewrite publishes either one explicit endpoint-pattern-governed eva
 
 **Repair A — preconceptual or phenomenological line**
 `qualityTermAscription(
-  bearer = ProblemFramingEpisode_PF3,
+  bearerTuple = {ProblemFramingEpisode_PF3},
   qualitySense = QS.PreconceptualFit,
-  evaluationFrame = ExemplarPack_EP3,
-  evaluator = ReviewerGroup_A,
+  effectiveReferenceScheme = FeltFitArticulationScheme_3,
+  probeOrModelFrameRef = ExemplarPack_EP3,
+  comparisonFrameRef = ExemplarContrastFrame_ECF3,
+  evaluatorRef = ReviewerGroup_A,
+  viewpointRef = none,
   normalForm = SignalPack,
+  claimScope = U.ClaimScope({ProblemFramingSlice_PF3}),
   representationSubstrate = embodied-kinesthetic,
-  witnesses = {EpisodeNotes_3}
+  qualityResultClaimRef = PreconceptualFitClaim_PF3,
+  witnessRefs = {EpisodeNotes_3},
+  evidenceProvenancePathRefs = none,
+  empiricalGroundingRelationRef = none,
+  endpointGoverningPatternRef = A.16.1
 )`
+
+The explicit `none` values matter: episode notes are witnesses to articulation, not automatic provenance or empirical grounding.
 
 **Repair B — explanatory line**
 `qualityTermAscription(
-  bearer = Explanation_N5,
+  bearerTuple = {Explanation_N5},
   qualitySense = QS.ExplanatoryMerit,
-  evaluationFrame = CriticismBundle_CB4,
-  evaluator = TheoryReviewPanel,
+  effectiveReferenceScheme = ExplanationCriticismScheme_5,
+  probeOrModelFrameRef = CriticismBundle_CB4,
+  comparisonFrameRef = RivalExplanationComparison_CF4,
+  evaluatorRef = TheoryReviewPanel,
+  viewpointRef = none,
   referencePlane = episteme,
   normalForm = Bundle,
-  witnesses = {CritiqueSheet_14, CounterexampleSet_2}
+  claimScope = U.ClaimScope({ExplanationReviewSlice_N5}),
+  qualityResultClaimRef = ExplanatoryMeritResultClaim_14,
+  witnessRefs = {CritiqueSheet_14, CounterexampleSet_2},
+  evidenceProvenancePathRefs = {ExplanationEvidencePath_14},
+  empiricalGroundingRelationRef = none,
+  endpointGoverningPatternRef = C.25
 )`
 
 #### C.16.Q:5.3a - Show (Architecture description lane)
@@ -121,27 +161,43 @@ A conforming rewrite publishes either one explicit endpoint-pattern-governed eva
 
 **Repair A — quality of the system-side bearer**
 `qualityTermAscription(
-  bearer = PaymentPlatform_v4,
+  bearerTuple = {PaymentPlatform_v4},
   qualitySense = QS.EngineeringQualityFamily,
-  evaluationFrame = Q_Bundle_AvailabilitySecurityEvolvability_3,
-  evaluator = ArchitectureReviewBoard,
-  viewpoint = TEVB_ArchitectureViewpointSet,
+  effectiveReferenceScheme = PlatformEngineeringQualityScheme_4,
+  probeOrModelFrameRef = Q_Bundle_AvailabilitySecurityEvolvability_3,
+  comparisonFrameRef = PlatformVersionComparison_CF4,
+  evaluatorRef = ArchitectureReviewBoard,
+  viewpointRef = TEVB_ArchitectureViewpointRef,
   referencePlane = world,
   normalForm = Bundle,
-  witnesses = {AvailabilityReport_8, CouplingCheck_3, EvolvabilityNote_2}
+  claimScope = U.ClaimScope({PaymentPlatformEngineeringSlice_4}),
+  qualityResultClaimRef = PlatformQualityResultClaim_8,
+  witnessRefs = {AvailabilityReport_8, CouplingCheck_3, EvolvabilityNote_2},
+  evidenceProvenancePathRefs = {PlatformQualityEvidencePath_8},
+  empiricalGroundingRelationRef = EGR_PlatformQualityResult_8,
+  endpointGoverningPatternRef = C.25
 )`
 
 **Repair B — quality of the architecture description**
 `qualityTermAscription(
-  bearer = ArchitectureDescription_AD12,
+  bearerTuple = {ArchitectureDescription_AD12},
   qualitySense = QS.ArchitecturalDescriptionFitness,
-  evaluationFrame = ViewpointBundle_TEVB × DecisionQuestionSet_DQ7,
-  evaluator = ArchitectureReviewBoard,
-  viewpoint = TEVB_ArchitectureViewpointSet,
+  effectiveReferenceScheme = ArchitectureDescriptionFitnessScheme_12,
+  probeOrModelFrameRef = ViewpointBundle_TEVB × DecisionQuestionSet_DQ7,
+  comparisonFrameRef = DescriptionEditionComparison_CF12,
+  evaluatorRef = ArchitectureReviewBoard,
+  viewpointRef = TEVB_ArchitectureViewpointRef,
   referencePlane = episteme,
   normalForm = Bundle,
-  witnesses = {CoverageMatrix_4, CorrespondenceCheck_7, ViewConsistencyNote_2}
+  claimScope = U.ClaimScope({ArchitectureDescriptionReviewSlice_AD12}),
+  qualityResultClaimRef = DescriptionFitnessResultClaim_7,
+  witnessRefs = {CoverageMatrix_4, CorrespondenceCheck_7, ViewConsistencyNote_2},
+  evidenceProvenancePathRefs = {DescriptionFitnessEvidencePath_7},
+  empiricalGroundingRelationRef = none,
+  endpointGoverningPatternRef = E.17.2
 )`
+
+The shared evaluator and viewpoint reference do not collapse the two repairs: their exact bearers, schemes, frames, scopes, result claims, and evidence paths differ.
 
 #### C.16.Q:5.4 - Show (QD or selector lane)
 
@@ -149,12 +205,20 @@ A conforming rewrite publishes either one explicit endpoint-pattern-governed eva
 
 **Repair**
 `qualityTermAscription(
-  bearer = Candidate_7,
+  bearerTuple = {Candidate_7},
   qualitySense = QS.UseValue,
-  evaluationFrame = CG_Frame_9,
-  evaluator = SelectorPolicy_P4,
+  effectiveReferenceScheme = QDUseValueScheme_9,
+  probeOrModelFrameRef = CG_Frame_9,
+  comparisonFrameRef = ArchiveComparatorFrame_9,
+  evaluatorRef = SelectorPolicy_P4,
+  viewpointRef = none,
   normalForm = Objective,
+  claimScope = U.ClaimScope({QDSelectionSlice_9}),
   Γ_time = SelectionWindow_SW,
-  witnesses = {ObjectiveCard_9, AcceptanceSpec_4}
+  qualityResultClaimRef = UseValueResultClaim_9,
+  witnessRefs = {ObjectiveCard_9, AcceptanceSpec_4},
+  evidenceProvenancePathRefs = {QDSelectionEvidencePath_9},
+  empiricalGroundingRelationRef = none,
+  endpointGoverningPatternRef = C.17
 )`
 

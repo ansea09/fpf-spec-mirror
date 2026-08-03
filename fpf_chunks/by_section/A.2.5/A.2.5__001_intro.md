@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
 section_id: "A.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
   - "A.2.5:intro — Intro"
-line_start: 4426
-line_end: 4431
+line_start: 4409
+line_end: 4414
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -23,7 +23,7 @@ keywords:
   - "state machine"
 ---
 
-## A.2.5 - RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission
+## A.2.5 - RoleStateRelation - Windowed Role-State Recognition and Work Admission
 
 > **Type:** Definitional (D)
 > **Status:** Stable

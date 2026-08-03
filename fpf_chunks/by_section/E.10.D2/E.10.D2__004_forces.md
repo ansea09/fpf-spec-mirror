@@ -6,28 +6,33 @@ section_id: "E.10.D2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:3 — Forces"
-line_start: 75874
-line_end: 75882
+line_start: 76317
+line_end: 76326
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -41,8 +46,9 @@ keywords:
 
 | Force | Pressure |
 |---|---|
-| **Useful shorthand vs second ontology** | `Description`, `Spec`, `View`, `Card`, and `Dashboard` names help readers work quickly, but they can accidentally create peer classes beside the EntityOfConcern and Description episteme. |
-| **Checkability vs official appearance** | A document can look formal, approved, or stored in a schema without satisfying specification-use admission. |
-| **Description use vs authority use** | The same publication can help work while not being evidence, assurance, permission, gate result, decision, promise, commitment, or work occurrence. |
-| **Reader affordance vs precision apparatus** | The pattern must give a small first move without duplicating the whole episteme, publication, evidence, gate, assurance, work, bridge, or state-family machinery. |
+| **Short practitioner move vs recoverable ontology** | Readers need a concise first move, while a load-bearing claim must still recover the exact C.2.1 constitution and any live neighboring relation. |
+| **Stable episteme identity vs changing uses** | One episteme can be viewed, checked, published, represented, or used differently without acquiring another identity. |
+| **Checkability vs official appearance** | A document can be detailed, approved, or schema-backed without satisfying specification-use conditions. |
+| **Useful qualification vs mandatory context record** | A receiving use may need viewpoint, scope, model-use, or publication qualification; imposing all of them on every description recreates an omnibus record. |
+| **Recursive description vs a meta-ontology** | An episteme can itself be described, but that case should use ordinary C.2.1 recursion rather than another description layer. |
 

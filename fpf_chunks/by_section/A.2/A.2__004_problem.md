@@ -6,20 +6,22 @@ section_id: "A.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:2 — Problem"
-line_start: 2707
-line_end: 2719
+line_start: 2726
+line_end: 2736
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -35,12 +37,10 @@ keywords:
 
 Without this pattern:
 
-1. **Type explosion returns.** Each contextual use becomes a new system kind such as `PumpAsCoolingCirculator` or `ReviewerReportSystem`.
-2. **Role and assignment collapse.** The role value, the holder, the context, and the time window are treated as one vague label.
-3. **Role and capability collapse.** A role name is treated as if it created ability.
-4. **Role and method collapse.** A role name is treated as if it contained the method by which work is done.
-5. **Role and evidence collapse.** A document, dataset, standard, proof, or model card is treated as a role holder because it is used as evidence or source material.
-6. **Role and work collapse.** A role label is treated as evidence that work was performed.
-7. **Argument-position drift appears.** "Role" is used for relation argument positions or slot positions, competing with `A.6.5` SlotSpec discipline.
-8. **Role-whole overclaim.** A role is decomposed into factors, responsibilities, states, permissions, obligations, or method participation and then treated as a holon, although `U.Role` is not admitted as a holon kind. The recoverable objects are neighboring relations or values, not role parts.
+1. one system's different participations are modeled as different system kinds;
+2. identical role labels are treated as identical meanings even when their role taxonomies or reference schemes differ;
+3. the role value, holder, assignment window, and relied-on work claim are compressed into one label;
+4. capability, method admission, role state, responsibility, evidence, or performed work is treated as a property or part of the role value;
+5. a proposed role decomposition creates false role mereology instead of recovering the direct role relations or neighboring objects;
+6. an episteme or a value filling a relation participant slot is made a role holder merely because ordinary wording says it "plays a role".
 

@@ -6,12 +6,12 @@ section_id: "F.4:13"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__015_phrasebook.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:13 — Phrasebook"
-line_start: 90208
-line_end: 90228
+line_start: 90757
+line_end: 90777
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -46,8 +46,8 @@ keywords:
 
 Prefer:
 
-- "role-description episteme describing `ReviewerRole` in `PatternReview_2026`";
-- "holder admission for `ReviewerRole` is governed by `A.2.1`";
+- `role-description episteme describing ReviewerRole under ReviewRoles-v5 and Review-Scheme-A`;
+- "holder-system admission is established under A.1 and E.24.UK; any actual `ReviewerRole` assignment is governed by A.2.1";
 - "capability requirement referenced by the role description";
 - "method requirement referenced by the role description";
 - "review report used as evidence for the claim";
@@ -59,7 +59,7 @@ Avoid as live vocabulary:
 - "evidence role" for an episteme;
 - "status role" for a badge or status-use relation;
 - "standard role" for a standard used as source;
-- "holder" for a publication, report, standard, dataset, or theorem unless a direct pattern admits an acting holon holder;
+- "holder" for a publication, report, standard, dataset, or theorem unless the exact entity is independently admitted as a `U.System` and a current `U.RoleAssignment` names it as holder;
 - "role" for a SlotKind;
 - "role description" for a method, capability, work record, access policy, or status-use relation.
 

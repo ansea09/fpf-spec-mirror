@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:4 — Solution"
-line_start: 91563
-line_end: 91628
+line_start: 92187
+line_end: 92258
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -58,7 +60,7 @@ Start with the two exact local senses, not with a context object, mapping table,
 <ReferenceScheme by value, LocalExpression, LocalSenseClaim>
 ```
 
-For F.9, **semantic context** is Plain shorthand for the bounded interpretation basis recovered from one cell's `<ReferenceScheme, LocalSenseClaim>` projection. It is not a `U.Entity`, `U.BoundedContext`, selected model-use structure, project, scope, viewpoint, description, designator, or reference. Two expressions under the same projection are a designation question first. Different projections make a Bridge question possible but do not make a Bridge obtain.
+For F.9, **semantic bounded context** is a Plain practice name for the local interpretation basis recovered from one exact cell's `<ReferenceScheme, LocalSenseClaim>` projection. It is not an entity, relation participant, selected model-use structure, project situation, scope, viewpoint, description, designator, or reference. Two expressions under the same projection remain with ordinary designation and scope operations. Different projections make a Bridge question possible but do not make a Bridge obtain.
 
 When the two cells are from different semantic contexts, declare one relation-semantic `BridgePredicateProfile` and test it against their current meanings. Shared spelling, different schemes, a mapping implementation, a card, a registry entry, evidence, an assessment score, or publication establishes none of those facts by itself.
 
@@ -71,13 +73,15 @@ When the two cells are from different semantic contexts, declare one relation-se
 | `SourceSenseCellSlot` | F.17 `SchemeSenseCell` coordinate | `SenseCellAddressRef` | The exact source local sense, resolving its by-value reference scheme, local expression, and local-sense claim. |
 | `ReceivingSenseCellSlot` | F.17 `SchemeSenseCell` coordinate | `SenseCellAddressRef` | The exact receiving local sense used by the claimed semantic relation. |
 
-No context, proposed use, use direction, correspondence rule for that use, permitted-loss tolerance, assertion, evidence item, policy, time value, card, publication, registry id, or carrier is a third participant.
+Only the two endpoint meanings are RelationSignature participants. `CL`, Loss Notes, `U.ClaimScope`, an admitted-use qualifier, evidence, counterexamples, policy, time or as-of values, `BoundedModelUseStructure`, description, Card, publication, registry identifier, form, and carrier are qualifiers or neighboring objects. No proposed-use role, use direction, use-specific rule, permitted-loss tolerance, assertion, or reliance result is a third participant.
 
-An F.9-local `BridgePredicateProfile` is a by-value predicate declaration, not a U-kind, participant, card, claim, or evaluation result. Its identity-bearing content is only:
+The reusable Bridge declaration is one independently constituted C.2.1 episteme whose exact EntityOfConcern is the direct `Bridge` relation kind. The same declaration episteme is used relation-facing as the compatible `RelationSignature`; its two SlotSpecs declare participant meanings but create neither endpoint nor occurrence. The relation kind, declaration episteme, RelationSignature use, SlotSpecs, actual cells, obtaining occurrence, assertion, occurrence-description episteme, Card, and publication remain distinct.
+
+An F.9-local `BridgePredicateProfile` is a by-value predicate declaration, not a U-kind, participant, card, claim, or evaluation result. Direction is stated in the Bridge kind and endpoint orientation when the predicate is asymmetric. Its identity-bearing content is only:
 
 1. the `BridgeKind` and its kind-defined symmetry or endpoint orientation;
 2. the exact source and receiving endpoint-sense readings, including their `senseFamily` readings where material;
-3. the relation-kind-specific correspondence or difference condition;
+3. the relation-kind-specific congruence, difference, or loss condition, distinct from observed Loss Notes and a proposed use's permitted-loss tolerance;
 4. the applicability and as-of basis for testing that condition;
 5. the Boolean truth condition; and
 6. every stop dependency whose absence prevents a truthful result.
@@ -94,7 +98,11 @@ The profile contains no receiving-use role, use direction, use-specific correspo
 
 If an endpoint is unresolved, the projections are the same, a dependency is missing, or the predicate is false or unresolved, assert no positive occurrence and state the exact exit: ordinary designation, `unresolved SenseCell endpoint`, `same semantic context`, `missing Bridge dependency`, `Bridge predicate false`, or `Bridge predicate unresolved`.
 
-The occurrence is identified by the exact endpoint cells together with the exact profile. For an asymmetric kind, the ordered source-to-receiving relation tuple is identity-bearing and an inverse claim requires another profile and occurrence. For a symmetric kind, swapping only the readable presentation of the same canonical endpoint pair does not create another occurrence. A changed endpoint or changed relation-semantic profile identifies another occurrence candidate. A changed proposed use, use direction, rule, tolerance, evidence path, reliance disposition, assurance claim, card, registry entry, publication, form, or carrier does not reidentify the fixed Bridge.
+**Admitted-use qualifier.** The Bridge declaration admits this relation only as the exact semantic-correspondence or semantic-difference premise for a separately governed comparison, explanation, translation, naming, or other bounded-use claim. Its nearest non-use is equally explicit: the Bridge alone licenses no substitution and creates no scope result, model-use crossing, role assignment, Work, evidence authority, status transfer, U-kind admission, publication, or other subject relation. This readable use boundary is a declaration or description qualifier; it is neither a participant nor profile identity and grants no specific use.
+
+**Non-optional occurrence identity and recurrence rule.** `BridgeOccurrenceIdentityRule` identifies the occurrence by the exact endpoint cells together with the exact profile. For an asymmetric kind, the ordered source-to-receiving tuple is identity-bearing and an inverse relation requires another profile and directed occurrence. For a symmetric kind, swapping only the readable presentation of the same canonical endpoint pair does not create another occurrence. A changed endpoint or changed relation-semantic profile identifies another candidate.
+
+A Bridge is non-recurrent for one fixed canonical endpoint tuple and exact profile: at most one occurrence has that identity. Repeated tests, assertions, descriptions, Cards, registry rows, or publications neither split nor repeat it. A later applicability or as-of basis changes the profile and therefore opens another occurrence candidate. If a claimed lapse and resumption cannot be represented by an endpoint or profile change, stop at `missing Bridge recurrence basis` rather than inventing two occurrences with one identity. Changed proposed use, direction, rule, tolerance, evidence path, reliance disposition, assurance claim, Card, registry entry, publication, form, or carrier never reidentifies or recurs the fixed Bridge.
 
 #### F.9:4.2 - Judge a bounded use separately
 

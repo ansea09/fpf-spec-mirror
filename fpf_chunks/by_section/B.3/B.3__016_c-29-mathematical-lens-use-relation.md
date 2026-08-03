@@ -6,41 +6,47 @@ section_id: "B.3:11b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__016_c-29-mathematical-lens-use-relation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:11b — C.29 mathematical-lens use relation"
-line_start: 38981
-line_end: 38984
+line_start: 39131
+line_end: 39134
 dependencies:
   - "A.10"
-  - "A.14"
   - "A.15"
   - "A.15.1"
-  - "A.2"
-  - "A.2.1"
+  - "A.15.PROD"
+  - "A.2.4"
+  - "A.2.6"
   - "A.20"
   - "A.21"
-  - "A.3.4"
   - "A.6"
-  - "A.7"
+  - "A.6.1"
   - "B.1"
   - "B.1.1"
   - "B.3"
   - "B.3.5"
-  - "B.3.x"
   - "B.4"
   - "C.13"
   - "C.16"
+  - "C.16.Q"
+  - "C.2.1"
   - "C.26"
   - "C.26.1"
   - "C.26.2"
   - "C.26.3"
   - "C.28"
+  - "C.29"
   - "D.4"
   - "E.14"
+  - "E.17"
   - "E.17.EFP"
+  - "E.24.PUB"
+  - "F.10"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "F-G-R"
   - "assurance"
@@ -58,5 +64,5 @@ keywords:
 
 ### B.3:11b - C.29 mathematical-lens use relation
 
-> If a mathematical lens is used as input to assurance, readiness, reliability, release confidence, safety, trust, or engineering justification, write the assurance relation in `B.3` with the relevant evidence-provenance path and residual-use limits. A `C.29` output may be cited only as a lens-use result; mathematical elegance, validation regime, or a declared structure-preserving mapping does not raise assurance by itself. Evidence-provenance paths remain `A.10`; measurement construction and comparability remain `C.16`.
+> If a mathematical lens is used as input to assurance, readiness, reliability, release confidence, safety, trust, or engineering justification, B.3 constitutes a separate assurance-result claim for the exact lens-result claim and named use, citing the relevant A.2.4 evidence-use and A.10/G.6 provenance refs plus residual-use limits. A `C.29` output remains a lens-use result; mathematical elegance, validation regime, or a declared structure-preserving mapping does not raise assurance by itself. Measurement construction and comparability remain `C.16`.
 

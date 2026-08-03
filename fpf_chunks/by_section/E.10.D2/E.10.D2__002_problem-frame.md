@@ -6,28 +6,33 @@ section_id: "E.10.D2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:1 — Problem frame"
-line_start: 75836
-line_end: 75864
+line_start: 76282
+line_end: 76307
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,30 +44,27 @@ keywords:
 
 ### E.10.D2:1 - Problem frame
 
-Use this pattern when FPF-governed wording names something under concern and also names a description, view, specification, publication, file, card, diagram, dashboard, work record, evidence item, assurance result, gate result, or decision around it.
+Use this pattern when one passage names an exact entity and also speaks of a description, specification, view, diagram, publication, file, dashboard, model, evidence item, assurance result, gate result, or decision around it. The recognizable failure is that the wording makes one of those neighboring objects stand in for the entity, the episteme, or the authority for the next action.
 
-The first useful move is to ask five questions:
+Begin with the receiving use:
 
-1. What is the `EntityOfConcern`?
-2. Which Description episteme describes it, if describing is live?
-3. Which `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>` bounds that description?
-4. Is specification use admitted by explicit checkability, acceptance, validation, formality, or harness conditions, or is this only a Description episteme?
-5. Which neighboring FPF pattern carries any publication, carrier, evidence, assurance, gate, decision, commitment, promise, work, view, bridge, retargeting, or state-family claim?
+1. What exact work, decision, comparison, inquiry, preservation, teaching, publication, or other use needs the description?
+2. What is the next unresolved question or choice for that use? Do not invent one for a use that has none.
+3. What exact claim content is being used?
+4. What exact `U.Entity` is the `EntityOfConcern` of that claim-bearing whole?
+5. Which effective `U.ReferenceScheme` supplies the designation and interpretation rules that make those claims readable about that entity?
 
-Not this pattern when the question under repair is already an evidence path named by value, assurance claim, gate decision, commitment, work occurrence, bridge, representation transition, source relation, or state-family field. Use the neighboring pattern governing that claim for that claim and use E.10.D2 only to keep the EntityOfConcern, Description episteme, and specification-use boundary readable.
+The last three answers recover the C.2.1 `EpistemeConstitutionRelation`. If identity is all the receiving use needs, stop there. Otherwise open only the neighboring object or relation needed for the next visible sentence or action.
 
-FPF frequently has to say that some item is being described: a role, method, system, work occurrence, promise content, characteristic, architecture, episteme, view, or another FPF entity. The old short memory of "entity, description words, and rules" remains useful, but it becomes harmful when it is taught as three peer kinds.
+Not this pattern when the live question is already an exact evidence path, assurance claim, work occurrence, gate decision, commitment, Bridge, publication occurrence, representation correspondence, or state fact. Use its direct governor. Return here only if the wording also obscures which entity is being described or which episteme carries the claims.
 
-The working distinction is sharper:
+The working distinctions are:
 
-* the **EntityOfConcern** is the item under concern;
-* the **Description episteme** is the claim-bearing episteme that describes that item under one bounded context and viewpoint;
-* **specification use** is an admitted use or refinement of a Description episteme, not a separate peer class;
-* publication faces, publication forms, carriers, renderings, work occurrences, gate decisions, evidence relations, and assurance claims remain outside this boundary unless a neighboring pattern makes one of them the EntityOfConcern.
+* the **EntityOfConcern** is the independently identified entity about which the selected claim-bearing whole makes its claims;
+* a **description episteme** is an ordinary `U.Episteme` used to carry descriptive claims about that EntityOfConcern;
+* **description use** selects a separately governed `DescriptionContext` for one concern-bearing use without changing episteme identity;
+* **specification use** is a checkable use of a description episteme, not a third peer ontology class;
+* viewpoint, view, claim scope, model-use structure, grounding, evidence, edition, publication, carrier, and representation remain neighboring objects and relations.
 
-This matters whenever wording such as `RoleDescription`, `ArchitectureDescription`, `MethodSpec`, `ServiceSpec`, "the diagram is the architecture", "the card authorizes work", or "the file is the method" could make readers confuse the item under concern with a description, a publication, a carrier, a work occurrence, or a granted use.
-
-What goes wrong if E.10.D2 is missed: specification-looking words become authority, a publication becomes the thing described, a file becomes the method, an approval state over an episteme becomes a runtime state, or two descriptions with the same label are treated as the same EntityOfConcern across contexts.
-
-What E.10.D2 buys in practice: the practitioner can name the item under concern, keep the Description episteme inspectable, admit specification use only when checkability exists, and apply the governing FPF pattern for every other claim being made.
+This buys a small practical result: the reader can say what is described, which claim-bearing episteme is being used, what the receiving use needs next, and where any additional claim is governed. A formal-looking file, card, suffix, approval, or diagram gains no ontological or practical authority by appearance.
 

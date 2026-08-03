@@ -6,19 +6,28 @@ section_id: "F.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:1 — Problem frame"
-line_start: 92261
-line_end: 92276
+line_start: 92910
+line_end: 92925
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,17 +39,17 @@ keywords:
 
 ### F.10:1 - Problem frame
 
-Use this pattern when a project uses status words such as "observed", "measured", "validated", "approved", "deprecated", "satisfied", "violated", "waived", "pending", "current", or "ready" and needs to know what kind of status is being claimed, what it qualifies, and whether it can be compared or reused in another bounded context.
+**Use this when.** Use F.10 when a receiving use depends on a word such as *observed*, *measured*, *validated*, *approved*, *deprecated*, *satisfied*, *violated*, *waived*, *pending*, *current*, or *ready*, and the exact status value, governed target, scope, window, source, rule, or use is still implicit.
 
-Use it especially when evidence, standards, and requirements are being mixed: a dashboard says a service is ready, a standard says a method is approved, a measurement says a requirement is satisfied, a model card says a model is validated, or a requirement register says a clause is waived.
+Use it especially when evidence, standards, and requirements are being mixed: a dashboard says a service is ready, a standard says a method is approved, a measurement is cited as requirement satisfaction, a model card says a model is validated, or a requirement register says a clause is waived.
 
-**Primary EntityOfConcern.** The primary `EntityOfConcern` is the status-use statement and the status-family mapping that make one status value usable in one bounded context. The pattern governs the relation among status cell, target, target kind, scope, window, source or provenance constraint, and intended status use. It does not make an episteme hold a role and does not treat a visible status display as gate passage, permission, assurance, evidence, or performed work by itself.
+**Primary EntityOfConcern.** The live object is one exact status-use relation around an already governed bearer or target, one local status value, one ClaimScope/use scope, one validity window, and one intended receiving use. F.10 does not define or create the target and does not turn a display, source, list membership, approval act, evaluation rule, result, or evidence item into the status-use relation.
 
-**First useful move.** Write the smallest status-use statement: status family, bounded context, status value, target, target kind, scope, window when current, source or provenance constraint, intended use, and stronger use not carried by this relation.
+**First useful move.** Recover the exact target and its direct domain result first. Then name the status-value SchemeSenseCell and family under the effective ReferenceScheme, status scope/window, exact source and provenance/currentness constraints, intended use, and stronger use not carried. If a rule must be applied, name the dated evaluation work, rule application, and result separately.
 
-**What goes wrong if missed.** A single word such as "validated" starts doing the work of evidence, standard approval, requirement satisfaction, gate passage, release readiness, and assurance at once. Cross-context dashboards compare labels without bridge loss. A report or standard is treated as if it had a status role. A design-time approval is read as run-time compliance.
+**What goes wrong if missed.** One compact word does the work of domain result, evidence standing, standard approval, requirement satisfaction, gate passage, release readiness, permission, and assurance at once. A dashboard list or traffic-light cell is treated as actual status use. An F.9 Bridge or family edge is treated as the explanation or evaluation rule. Design approval becomes runtime satisfaction.
 
-**What this buys.** Status words stay local, typed, and comparable. Evidence status says what has evidential standing for a claim. Standard status says what a canon or standard-governed context sanctions. Requirement status says what is happening to an obligation or clause. Cross-context movement becomes an explicit bridge claim instead of a synonym guess.
+**What this buys.** Status words remain local, typed, comparable, and usable without hiding the target or the work that justified the status. Evidence status says only what evidential standing is being asserted for a claim; standard status says only what a named governing source sanctions; requirement status says only what is being asserted about an exact clause after its direct evaluation. Cross-local vocabulary and cross-modality interpretation remain explicit and loss-aware.
 
-**Not this pattern when.** If the current claim is full evidence provenance, use `A.10`. If the current claim is only an episteme being used as evidence or status before full status-family mapping is needed, use `A.2.4`. If the current claim is assurance, use `B.3`. If the current claim is causal use, use `C.28`. If the current claim is a source, publication face, view, explanation, or specification-use question, use `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, `E.10.D2`, or the direct publication-use pattern. If the current claim is a system or acting holon holding a work-facing role, use `A.2` and `A.2.1`. If the current claim is performed work, use `A.15.1`.
+**Not this pattern when.** Use the subject's direct pattern for its target and domain result; `A.2.4` for first evidence/status-use classification; `A.10`/`G.6` for source recovery, provenance, and bounded reliance; `G.11` for currentness; `B.3` for assurance; `C.28` for causal use; `A.21` for a gate; the direct permission, commitment, requirement, standard, acceptance, release, or decision pattern for those results; `E.17`/`E.24.PUB` for publication; and `A.15.1`/`A.6.1` for performed evaluation work and actual bindings.
 

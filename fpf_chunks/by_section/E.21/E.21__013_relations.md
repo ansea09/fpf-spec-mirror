@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 86162
-line_end: 86179
+line_start: 86695
+line_end: 86715
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -37,17 +37,20 @@ keywords:
 
 | Neighbour | Relation |
 |---|---|
-| `A.19.ECS` | Constructs or repairs the general evaluation `CharacteristicSpace`; `E.21` is one specialization. |
+| `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, and `C.16.Q` | Govern the characteristic space, object-specific evaluation specification, characteristics, scale/value bindings, measurement boundary, coordinate-result quality ascriptions, and precision of those ascriptions. E.21 supplies the pattern-quality coordinates, calibration, non-arithmetic `PatternQualityQBundle` result payload named by C.16.Q, aggregate result shape, and local status meanings. |
 | `E.8.ECSPF` | Publishes an evaluation `CharacteristicSpace` as an FPF pattern when that form is selected. |
-| `E.8` | Authors the pattern body whose quality `E.21` evaluates. |
-| `E.19` | Runs admission and refresh review profiles; it can consume or request `E.21`, but it does not assign `E.21` coordinate values or replace the required pattern-quality table. |
-| `E.22` | Frames purpose, floor, trade-offs, and proposal expectation before an evaluation. |
-| `E.23` | Runs repeated improvement using `E.21` values and stop meanings for pattern versions. |
+| `E.8` | Governs authoring of the pattern body whose exact edition E.21 assessment work evaluates. |
+| `A.15.1`, `A.6.1`, `A.2`, and `A.2.1` | Govern dated assessment work, actual evaluation application/bindings, evaluator role, and obtaining role assignment. The E.21 specification, characteristic space, profile, result, and optional record perform none of these. |
+| `C.2.1` | Constitutes the checked pattern episteme/version reference, per-coordinate result claims, aggregate pattern-quality-result episteme, and optional evaluation-record episteme independently. |
+| `A.10` and `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
+| `F.10` and `G.11` | Govern downstream status use/interpretation and currentness. The local `PatternQualityStatus` value neither admits a pattern nor authorizes downstream use by itself. |
+| `E.24.PUB` and `C.29` | Govern publication occurrence/form/carrier and representation of a result or record; publication does not perform assessment or strengthen its claims. |
+| `E.19` | Declares admission and refresh review profiles and result boundaries. Dated E.19 review work may request or consume a current E.21 result, but its review work, findings/result, and authority-bearing admission or refresh decision remain separate from E.21 assessment work and coordinate results. |
+| `E.22` | Frames purpose, floor, trade-offs, and proposal expectation before an evaluation; it neither performs assessment nor assigns coordinate values. |
+| `E.23` | Governs repeated improvement and repair work using E.21 values and stop meanings for pattern versions; it does not become the original assessment or result. |
 | `E.13` | Governs pragmatic utility and proxy-to-value alignment when quality values, visible measures, review results, all-`5` result framing, or release cues are used as practical value, target, incentive, gate, or improvement proof. |
-
-| `E.9.DA` | Evaluates upstream `DRR` decision adequacy when pattern-quality defects trace to decisions. |
-| `C.16`, `A.17`, `A.18`, `A.19` | Govern scale, coordinate, and measurement admissibility. |
-| `F.18`, `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, `C.16.Q` | Govern naming and wording-use precision when quality defects are lexical or ontological. |
-| `A.10`, `B.3`, `A.20`, `A.21`, `A.15` | Govern project evidence, assurance, local CV state, gates, and work authority. |
-| `E.11` and `I.2` | Govern entry-distribution and expanded entry-disambiguation cues; `E.21` supplies only the scoped quality result. |
+| `E.9.DA` | Declares the DRR decision-adequacy characteristic space and result rules. Dated E.9.DA assessment work evaluates one exact upstream DRR episteme when pattern-quality defects trace to decisions; its checked object, work, and result are not E.21 objects. |
+| `F.18`, `E.10`, `A.6.P`, `C.2.P`, `C.16.P`, and `C.16.Q` | Govern naming and wording-use precision when quality defects are lexical or ontological. |
+| `A.20`, `A.21`, and `A.15` | Govern project-side local CV state, gates, work, and authority. An E.21 result may be cited only through the exact receiving relation and supplies none of these by itself. |
+| `E.11` and `I.2` | Govern entry-distribution and expanded entry-disambiguation cues; E.21 supplies only the scoped quality result. |
 

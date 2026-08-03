@@ -6,12 +6,12 @@ section_id: "F.8:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__017_didactic-memory.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:14 — Didactic Memory"
-line_start: 91492
-line_end: 91495
+line_start: 92116
+line_end: 92119
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -54,5 +55,5 @@ keywords:
 
 ### F.8:14 - Didactic Memory
 
-Do not ask for a better name first. Ask what the expression is trying to name, whether that value already exists locally, whether any cross-context row admits the intended use, and whether the expression is really a role, status, evidence, policy, source, slot, method, work, or kind case. Mint only after reuse, alias, direct-pattern naming, and row options have failed.
+Do not ask for a better name first. Recover one exact governed value or relation and one use; state the effective naming ReferenceScheme and local-sense claim; then try local phrase, existing designation, alias, direct-pattern name, and admitted F.17 row. Mint only the next object that pays for itself. A label, card, row, identifier, publication, or decision record creates none of the ontology, Work, assignment, evidence, status, equivalence, or authority it mentions.
 

@@ -6,28 +6,33 @@ section_id: "E.10.D2:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__017_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:15 — Relations"
-line_start: 76110
-line_end: 76127
+line_start: 76603
+line_end: 76619
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,19 +44,18 @@ keywords:
 
 ### E.10.D2:15 - Relations
 
-
 **Builds on:**
 
-
-* **A.7 - Strict Distinction (Clarity Lattice).** Supplies the general distinction between an EntityOfConcern and the epistemes, publications, carriers, work, decisions, evidence, and assurance claims around it.
-* **C.2.1 - U.EpistemeSlotRelation.** Supplies `DescriptionContext`, `subjectRef`, and episteme slot discipline.
-* **C.2.3 - Unified Formality Characteristic.** Supplies formality levels used by specification-use admission.
-* **F.15 - conformance and regression harness discipline.** Supplies check and regression-check harness discipline.
+* **A.7 - Strict Distinction.** Supplies the general discipline for keeping an independently governed entity distinct from epistemic and presentation-side objects around it.
+* **C.2.1 - Episteme Identity, Constitution, Grounding, and Edition.** Supplies the exact ClaimGraph, EntityOfConcern, effective ReferenceScheme constitution and the neighboring grounding and edition relations.
+* **E.10 - Ontological Precision Restoration.** Supplies subject-first recovery and the rule that a word, field, position, or representation does not create the governed object.
 
 **Coordinates with:**
 
-* **A.6.2, A.6.3, and A.6.4.** Description epistemes can be transformed, viewed, or retargeted only under their episteme-morphism laws.
-* **E.17 and E.17.0.** Publication, view, face, form, unit, and carrier relations remain separate from the EntityOfConcern and Description episteme.
-* **F.9.** Cross-context relation or near-sameness requires a bridge, not label reuse.
-* **F.4, F.5, F.8, and F.10.** Role, service, naming, acceptance, and evaluation patterns consume this boundary when they name descriptions and specifications.
+* **E.17.0, E.17, and E.24.PUB.** Govern DescriptionContext selection, viewpoint/view membership, publication occurrence, publication form, and carrier bearing without changing C.2.1 identity.
+* **A.2.6 and A.1.1.** Govern claim scope and bounded model-use structure only when the receiving use depends on them.
+* **A.10, B.3, and G.11.** Govern evidence provenance, assurance reliance, and currentness for exact objects and relations.
+* **C.29, A.6.2, A.6.3, A.6.4, and F.9.** Govern representation, episteme morphing, source-to-receiving construction, retargeting, and cross-scheme Bridge semantics without label-only sameness.
+* **A.3.2, F.4, and F.5.** Govern method-description membership, role-description content, and naming after the exact object and local sense are recovered.
+* **A.15.1 and direct receiving-use patterns.** Govern performed work and the exact premise, reference, decision-use, or operation-argument relations through which work actually uses an episteme.
 

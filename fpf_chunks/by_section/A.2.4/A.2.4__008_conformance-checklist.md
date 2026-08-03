@@ -6,12 +6,12 @@ section_id: "A.2.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__008_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:7 — Conformance Checklist"
-line_start: 4356
-line_end: 4372
+line_start: 4339
+line_end: 4355
 dependencies:
   - "A.10"
   - "A.2"

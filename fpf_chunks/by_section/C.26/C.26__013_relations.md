@@ -6,12 +6,12 @@ section_id: "C.26:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:12 — Relations"
-line_start: 53785
-line_end: 53806
+line_start: 54028
+line_end: 54049
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,9 @@ dependencies:
   - "C.26.1-C.26.3"
   - "C.26.2"
   - "C.26.3"
+  - "E.17"
+  - "E.17.EFP"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "F.9"
@@ -63,7 +66,7 @@ keywords:
 - Non-admissible use: discreteness, finite differences, typed states, state-space reduction, tokenization, dashboards, probes, measurement plans, speed words, rhythm words, or Dyn2 words do not activate quantum-like modeling by themselves.
 - Boundary: use C.27 and ordinary FPF patterns first; use C.26 only where residual probe, frame, order, export, or coarsening cue remains after those relations are named.
 
-- Builds on: `E.8`, `E.9`, `C.11`, `C.16`, `C.25`, `A.6`, `A.6.P`, `F.9`, `A.15`, `A.10`, `B.3`, `A.3`, `C.18`, `C.19`, `A.19`.
+- Builds on: `E.8`, `E.9`, `C.11`, `C.16`, `C.25`, `A.6`, `A.6.P`, `F.9`, `E.24.PUB`, `E.17`, `E.17.EFP`, `A.15`, `A.10`, `B.3`, `A.3`, `C.18`, `C.19`, `A.19`.
 - Constrains: QL wording in `C.26.1`, `C.26.2`, and `C.26.3`.
 - Carries: state-representation coarsening as a card inside `C.26:4.5`, not as a separate pattern.
 - Does not cover: physical quantum claims, a generic probe ontology, a generic state ontology, a service/cell pattern, or a field-like synchronization pattern.

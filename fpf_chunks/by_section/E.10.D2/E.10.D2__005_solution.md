@@ -6,28 +6,33 @@ section_id: "E.10.D2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__005_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4 — Solution"
-line_start: 75883
-line_end: 75911
+line_start: 76327
+line_end: 76342
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,30 +44,17 @@ keywords:
 
 ### E.10.D2:4 - Solution
 
+For the current passage or artifact:
 
-For any sentence that names an entity and also names description, specification, view, publication, carrier, evidence, evaluation, or work:
+1. **Name the receiving use.** State the exact work, decision, inquiry, comparison, preservation, teaching, publication, or other use and what it needs next.
+2. **Recover the episteme constitution.** Identify the exact `U.ClaimGraph`, exact EntityOfConcern, and effective `U.ReferenceScheme`; test whether `EpistemeConstitutionRelation` obtains under C.2.1.
+3. **Classify the expression or use.** Decide whether the current object is the claim-bearing description episteme, a specification use of it, an assertion about another object, a publication form, a carrier, or a representation. Do not infer the answer from a suffix or medium.
+4. **Open only a needed neighbor.** Add empirical grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, specification evaluation, publication, form, carrier, currentness, or representation only when the named receiving use depends on its direct relation.
+5. **Stop at the smallest sufficient result.** Do not produce a universal description card. A readable sentence naming the receiving use, the recovered episteme, its EntityOfConcern, and the one needed neighboring relation is normally enough.
 
-1. **Name the EntityOfConcern.** State what item is under concern: for example `U.Role`, `U.Method`, `U.System`, `U.Work`, `U.PromiseContent`, `U.Characteristic`, `U.ArchitectureOf@Context`, or `U.Episteme`.
-2. **Name the Description episteme when describing is live.** A `...Description` is a `U.Episteme` that describes the EntityOfConcern under `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>`.
-3. **Admit specification use only by conditions.** A `...Spec` is a Description episteme admitted for specification use when checkability conditions are present. The conditions must name formal checkability or declared formality, checkable invariants or acceptance criteria, a validation or acceptance harness, and the same DescriptionContext.
-4. **Keep publication and carrier relations separate.** A card, document, dashboard, diagram, file, rendering, API description, or interface declaration may publish, encode, render, or expose a Description episteme; it is not thereby the EntityOfConcern and it does not by itself create permission, evidence, gate, assurance, decision, commitment, or work.
-5. **Apply the neighboring pattern when another claim becomes live.** Evidence is governed by `A.10` or `G.6`; assurance by `B.3`; status-family, standard-use, and requirement-use distinctions by `F.10`; publication and view mechanics by `E.17`, `E.17.0`, `E.17.2`, or their direct subpatterns; commitments and promises by `F.18` and related patterns; work, work plans, and work-facing role assignments by `A.15`, `A.15.1`, `A.2`, or `A.2.1`; retargeting by `A.6.4`.
+The ordinary minimum is prose, not a mandatory record:
 
-When source wording says that a description, source, standard, requirement, evidence item, publication, dashboard, or view "has a role" or "plays a role", recover the typed relation first. It is normally evidence-use, status-use, source-use, publication-use, standard-use, requirement-use, assurance-use, gate-use, or work-relevance wording. Do not create a `U.Role`, `U.RoleAssignment`, or role-state value unless the current claim is about a system or acting holon holding a work-facing role in a bounded work context.
+> For `<receiving use>`, episteme `<E>` carries claims `<G>` about exact EntityOfConcern `<T>` under effective scheme `<R>`. `<One named neighboring relation>` is additionally current because `<the next action depends on it>`.
 
-Ordinary minimum:
- write one line that names the EntityOfConcern, the Description episteme or `not live`, the DescriptionContext or missing-context blocker, the specification-use admission value, and the neighboring FPF pattern governing that claim for any live non-description claim.
-
-```text
-E10D2BoundaryLine:
-  entityOfConcernRef:
-  descriptionEpistemeRef or notLive:
-  descriptionContext or missingContextBlocker:
-  specificationUseAdmission: admitted | notAdmitted | candidateOnly
-  neighboringPatternApplicationRefs for non-description claims:
-  admissibleUse:
-  nonAdmissibleUse:
-```
-
-Stop at the boundary line when it makes the next admissible use clear. Open heavier episteme, publication, source, bridge, evidence, assurance, gate, decision, work, or state-family records only when those claims are being made.
+If no neighboring relation is needed, omit the second sentence. If the C.2.1 triple or the required direct governor cannot be recovered, return that exact blocker instead of filling a generic context field.
 

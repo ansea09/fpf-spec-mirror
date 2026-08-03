@@ -6,12 +6,12 @@ section_id: "F.9:10"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__012_invariants.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:10 — Invariants"
-line_start: 91724
-line_end: 91738
+line_start: 92359
+line_end: 92376
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -64,4 +66,7 @@ keywords:
 10. **Loss separation.** Observed semantic loss is evidence; permitted loss is tolerance inside the bounded-use claim.
 11. **No authorization by implication.** Semantic suitability, evidence reliance, and assurance are not legal, policy, or deontic permission.
 12. **No silent inverse or composition.** An inverse asymmetric relation and any direct A-to-C relation are tested independently.
+13. **Two-SlotSpec declaration.** The reusable RelationSignature declares only source and receiving SenseCell participant meanings; `CL`, Loss Notes, scope/admitted use, evidence, counterexamples, policy, time, model-use structure, description, publication, and registry values remain qualifiers or neighbors.
+14. **Recurrence and identity.** The non-optional identity rule uses the canonical exact endpoints and exact profile; one fixed tuple/profile is non-recurrent, and a changed applicability/as-of basis changes the profile before another candidate is admitted.
+15. **Description and publication separation.** A Bridge description/Card is independently constituted under C.2.1, and E.24.PUB independently governs any selected edition's publication occurrence, form, and carrier. None establishes relation truth or identity.
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:9"
 section_title: "Required Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__011_required-worked-cases.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:9 — Required Worked Cases"
-line_start: 44873
-line_end: 44896
+line_start: 45028
+line_end: 45053
 dependencies:
   - "A.14"
   - "A.2.6"
@@ -27,24 +27,21 @@ dependencies:
   - "C.3.A"
   - "E.24.UK"
 keywords:
-  - "KindExtension representation"
-  - "KindSignature declaration episteme"
-  - "candidate classification"
-  - "local kind"
-  - "true/false/unknown"
 ---
 
 ### C.3.2:9 - Required Worked Cases
 
 #### C.3.2:9.1 - Physical pump
 
-Plant scheme `PS-7` uses local kind `CoolingPumpKind`. Signature edition `CPS-2` declares pump candidates and a criterion in terms of directly governed flow, heat-transfer, and operating-state features for plant slice `S-14`.
+Within bounded context `Plant-7`, `CoolingPumpKind` is the local kind identified by Plant-7's declared cooling-function distinction. Signature edition `CPS-2` names effective scheme `PS-7`, declares pump candidates, and states a criterion in terms of directly governed flow, heat-transfer, and operating-state features for plant slice `S-14`.
 
 Pump #14 is independently identified as the physical candidate. A calibrated measurement-result episteme supports the assertion that its flow and temperature-difference features meet the criterion; the measurement result is not Pump #14 and does not constitute its cooling performance. With those feature facts settled, `J(Pump #14, CoolingPumpKind, CPS-2, S-14) = true`. An extension used by a maintenance query may represent Pump #14, but the query row does not create its classification.
 
 #### C.3.2:9.2 - Episteme and publication form
 
-The exact maintenance-instruction episteme `MI-22` is evaluated against local kind `DiagnosticInstructionKind` using its claim-bearing content and governed subject. Its PDF and HTML manifestations are publication forms or representations. Converting the PDF to HTML does not change the candidate episteme, satisfy the criterion, or create another kind. If the content is unchanged, the same candidate judgment can remain current under the same edition and slice.
+The exact maintenance-instruction episteme `MI-22` is evaluated against local kind `DiagnosticInstructionKind` using its claim-bearing content and governed subject. For one bounded maintenance-reading use, the selected page arrangement and notation `MI-22-PDF-Layout` is the publication form that expresses the chosen `MI-22` edition, while exact digital file `MI-22-PDF-File-7` is the `U.PresentationCarrier` that bears that form. Separately, selected arrangement and notation `MI-22-HTML-Layout` is another publication form that expresses the same chosen edition for that bounded use, while exact digital file `MI-22-HTML-File-8` is the `U.PresentationCarrier` that bears the HTML form. This case asserts no C.29 representation because it selects no elements with an explicit correspondence to independently recovered objects and changes no admitted modeling or reasoning operation.
+
+Changing the arrangement, notation, presentation carrier, or file encoding does not by itself change candidate episteme `MI-22`, satisfy the `DiagnosticInstructionKind` criterion, create another kind, or rewrite the classification judgment. If the claim-bearing content, exact signature edition, context slice, and governed candidate facts remain unchanged, the same judgment remains current.
 
 #### C.3.2:9.3 - Non-entity temperature value
 

@@ -6,12 +6,12 @@ section_id: "B.5.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:5 — Archetypal Grounding"
-line_start: 40800
-line_end: 40834
+line_start: 40950
+line_end: 40987
 dependencies:
   - "A.13"
   - "A.15"
@@ -50,6 +50,9 @@ A thermodynamics team models a heat engine.
 * "Control volume" may name a boundary or region relation. The bridge must say which entity is bounded and which exchanges cross the boundary.
 * "Free-energy objective" may name an objective claim, characteristic, or selection criterion. The bridge must say which FPF value the decision uses.
 * If the engine control system is assigned the role of heat-source controller in a work context, that is a separate `U.RoleAssignment(holderRef, roleRef, boundedContextRef)` claim.
+
+Current physical-system claims in this example use `A.1` for system identity, `A.14` and `A.22` for composition and boundary relations, `A.3.4` for state and dynamics, `B.1.6` for work-resource aggregation, and `C.16` for measured characteristics. Planned `C.1` (Sys-CAL) may later consolidate that guidance; it is not a current governor.
+
 
 What this achieves:
 

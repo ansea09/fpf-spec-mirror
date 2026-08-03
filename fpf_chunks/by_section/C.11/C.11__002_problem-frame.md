@@ -6,12 +6,12 @@ section_id: "C.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__002_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:1 — Problem frame"
-line_start: 46014
-line_end: 46050
+line_start: 46171
+line_end: 46207
 dependencies:
   - "A.13"
   - "A.18"
@@ -67,7 +67,7 @@ If that first output still cannot be written honestly, the current comparison st
 - What next probe could still change the choice, if any?
 - Is this still local choice, or has the question already moved to search, pool policy, publication, or enactment?
 
-**Typical reroutes.** `C.18` when the real question is still inventing or reframing options; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13 / C.9` when the hard question is agenthood rather than choice; `A.18 / A.19` when the mathematical support question itself becomes primary.
+**Typical reroutes.** `C.18` when the real question is still inventing or reframing options; `C.19` when the working question is how broadly to explore or exploit the candidate pool; `C.24` when one option is already chosen and the work has become sequencing or enactment; `A.13` when the hard question is agenthood rather than choice (planned `C.9` is future characteristic-profile consolidation only); `A.18 / A.19` when the mathematical support question itself becomes primary.
 
 **Common neighboring-pattern mistakes.** Do not use `C.11` to hide search work inside "decision", to hide candidate-pool policy inside one local choice, or to hide execution planning inside one generic rationality account. Do not treat selected-set publication or shortlist semantics as if they were the same question as deciding.
 

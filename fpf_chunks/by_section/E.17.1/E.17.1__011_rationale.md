@@ -6,27 +6,30 @@ section_id: "E.17.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__011_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:10 — Rationale"
-line_start: 78981
-line_end: 78984
+line_start: 79632
+line_end: 79635
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -38,5 +41,5 @@ keywords:
 
 ### E.17.1:10 - Rationale
 
-`U.MultiViewDescribing` already assumes that viewpoint plurality exists. `E.17.1` supplies the governing pattern for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or trajectories in `U.LanguageStateMoveTrajectory`. Without it, every domain can only improvise locally, and long-term correspondence between viewpoint families remains fragile.
+`MultiViewDescribing` already assumes that viewpoint plurality exists. `E.17.1` supplies the packaging discipline for that plurality, including cases where viewpoints are used to re-express positions in `U.LanguageStateSpace` or trajectories in `U.LanguageStateMoveTrajectory`. Without it, every domain can only improvise locally, and long-term correspondence between viewpoint families remains fragile.
 

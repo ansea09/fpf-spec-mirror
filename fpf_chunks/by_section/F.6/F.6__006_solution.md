@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 90587
-line_end: 90689
+line_start: 91124
+line_end: 91228
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,6 +65,8 @@ For an obtaining attribution, the readable actual-performer cue is `S = actualPe
 `performedBy(W, RA)` is a deprecated compatibility spelling of `performedUnderAssignment(W, RA)`. Existing claims or records may be read through that alias only after resolving `S = RA.HolderSystemSlot`. New practitioner-facing claims, examples, and conformance statements MUST use `S performed W under RA` or `performedUnderAssignment(W, RA)`, never wording that makes `RA` the performer.
 
 No evidence, log, status, method description, result, publication, context record, or role-state assertion is a generic participant in this relation.
+
+`performedUnderAssignment` also has no method participant. Because `W` is an admitted Work occurrence, an assertion or description about it must separately make recoverable the actual `enactsMethod(W, M)` relation governed by `A.15.1`, for one exact `M : U.Method`. The holder system acts and performs `W`; neither `RA`, its role value, a capability or algorithm-possession phrase, `M`, nor a method-description episteme `D` thereby acts or performs the work. Citing `D` may identify, constrain, or justify `M` for a receiving use, but it neither enacts `D` nor establishes that `D : U.MethodDescription`; apply `A.3.2` to that membership question independently.
 
 #### F.6:4.2 - Obtaining and Occurrence Identity
 
@@ -123,7 +125,7 @@ The sequence is application guidance, not a new check record, work plan, or work
 | Does the assignment obtain? | `A.2.1` | Assignment identity and occurrence precede work attribution. |
 | Does the assignment satisfy a current state predicate? | `A.2.5` | Role state has its own predicate, window, assertion, and evidence use. |
 | Can the holder perform the work? | `A.2.2` capability and capability-fit relation | Ability is not actual performance. |
-| Which method was enacted? | `A.3.1`, `A.3.2`, and `A.15.1` | Method, method description, and work occurrence have different identities. |
+| Which exact method did the Work enact? | `A.15.1` for actual `enactsMethod(W, M)`; `A.3.1` for exact `M : U.Method`; `A.3.2` only when membership of a separate description episteme `D` is current | The holder system performs `W`, and `W` enacts `M`; assignment, role value, capability, method, and description do not become performers, and a cited description is not admitted by label or algorithm-possession wording. |
 | What supports the attribution assertion? | `A.10` or the direct evidence relation | Support concerns knowledge or use of obtaining. |
 | Which encountered material is being relied upon? | `A.15.4` | Reliance on a visible item is not the attribution relation. |
 | What changed, first existed, was measured or evaluated, was delivered, or was accepted in connection with the work? | `A.15.1` for the work, then the exact change, A.6.1 operation-result, A.15.PROD inception, measurement, evaluation, delivery, or acceptance governor | None of these entities, values, or relations is a participant in performer attribution. |

@@ -6,41 +6,40 @@ section_id: "F.15:6"
 section_title: "Objects under check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__008_objects-under-check.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:6 — Objects under check"
-line_start: 93860
-line_end: 93875
+line_start: 94553
+line_end: 94569
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -51,17 +50,18 @@ keywords:
 
 ### F.15:6 - Objects under check
 
-F.15 may check these values together, but does not redefine them:
+F.15 may select these exact objects together but redefines none:
 
-1. `U.BoundedContext` cards from F.1.
-2. Local-Senses from F.2 and F.3.
-3. SenseCells, meaning `(Context, Local-Sense)`.
-4. Concept-Set rows from F.7.
-5. RoleDescriptions from F.4, each describing one local `U.Role` through one SenseCell.
-6. Bridge Cards from F.9.
-7. Status families, values, confidence, and windows from F.10 or the direct status pattern.
-8. Aliases from F.13.
-9. Candidate names and durable names from F.5, F.8, F.14, F.17, and F.18.
+1. effective `U.ReferenceScheme` values and exact prior/later editions;
+2. independently governed local-sense claims and F.17 `SchemeSenseCell` coordinates;
+3. exact governed values and relation occurrences under their direct patterns;
+4. F.4 role-description epistemes and governed `U.Role` values;
+5. F.18 NameCard epistemes, selected Tech/Plain designations, aliases, and lineage;
+6. F.17 UnifiedTermRow epistemes and exact row editions, including admissible one-cell rows;
+7. actual F.9 Bridge occurrences, with Bridge descriptions or Cards referenced separately when current;
+8. direct-owner status-family/value/use/window objects;
+9. selected bounded-model-use Structures and their separate descriptions only when structural organization changes the checked use;
+10. exact source, evidence, currentness, and publication relation occurrences needed by the result's receiving use.
 
-If the slice contains role assignments, performed work, evidence use, source use, publication use, assurance, gate, decision, method, capability, or policy claims, F.15 records that those claims leave the harness for direct governing patterns. It does not absorb them.
+A description, Card, row, label, shared table, stable id, selected scope, or earlier pass makes none of these subject relations obtain and grants no continuity, equivalence, conformance, authority, role, status, or evidence use.
 

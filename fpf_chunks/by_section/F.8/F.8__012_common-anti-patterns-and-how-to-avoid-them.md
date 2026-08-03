@@ -6,12 +6,12 @@ section_id: "F.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 91424
-line_end: 91436
+line_start: 92039
+line_end: 92054
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -56,12 +57,15 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover kind and use first; apply the direct governing pattern. |
-| Evidence role revival | `EvidenceRole` becomes a role-name family. | Recover evidence-use relation; name it only through direct evidence naming. |
-| Status-role fusion | `ReadyReviewerRole` or `ApprovedRole` names a role plus state. | Separate role from state or status-use relation. |
-| Row overuse | Naming row justifies role assignment or structural inference. | Lower use to row scope or repair the row and bridges. |
-| Alias with payload | Alias changes kind, scope, or authority. | Treat as a new decision; use `F.5` and `F.18`. |
-| Source prestige minting | Standard or framework term becomes FPF selected name by source prestige. | Use source term as evidence or alias; select FPF name only after recovered meaning fits. |
-| U-kind comfort minting | New U-kind proposed because existing names feel awkward. | Attempt reduction to local sense, Concept-Set row, role-description label, direct relation, existing U-kind, or direct subject pattern; use `E.24.UK` before minting. |
-| Policy id as magic word | Policy id used without resolvable specification or mint decision. | Add `PolicyIdRef` or lower the claim. |
+| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover the exact governed value or relation, direct owner, and proposed use first. |
+| Evidence role revival | `EvidenceRole` becomes a role-name family. | Recover the exact evidence-use relation; name it only through its direct owner. |
+| Status-role fusion | `ReadyReviewerRole` or `ApprovedRole` names a role plus state. | Separate the work-facing role from the state or status-use relation. |
+| Row overuse | A public naming row justifies equivalence, role assignment, or structural inference. | Lower use to the exact F.17 `AdmissibleUse` or repair the row and any required Bridge. |
+| Alias with payload | An alias changes kind, scope, occurrence identity, use, or authority. | Treat it as a different decision; use `F.5`, `F.13`, and `F.18`. |
+| Source prestige minting | A standard or framework term becomes the selected FPF name by prestige. | Keep it as source wording, evidence for a local sense, or an alias until exact recovery and selection pass. |
+| Review label as context | `PatternReview_2026` is used as context, Work, role assignment, evidence, or authority. | Recover the exact dated Work or plan/edition, decision-use claim, or effective ReferenceScheme needed by the actual assertion. |
+| Decision record as decision | A filled record is treated as performing a mint decision or creating its result. | Identify the decision occurrence through its direct owner; constitute a separate C.2.1 result episteme only when needed. |
+| Naming-object cascade | One expression automatically gets a cell, NameCard, row, identifier, and publication. | Apply F.14 at every gate and create only the next object whose receiving use pays for it. |
+| U-kind comfort minting | A new U-kind is proposed because existing names feel awkward. | Attempt reduction to local phrase, existing designation, alias, direct-pattern name, admitted row, existing relation, or existing U-kind; use `E.24.UK` before admission. |
+| Policy identifier as magic word | An identifier is used without a separately resolvable specification or mint decision. | Supply the exact references or lower the claim. |
 

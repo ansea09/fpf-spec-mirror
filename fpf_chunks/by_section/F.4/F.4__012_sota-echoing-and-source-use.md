@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "SoTA-Echoing and Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-echoing-and-source-use.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:10 — SoTA-Echoing and Source-Use"
-line_start: 90166
-line_end: 90178
+line_start: 90715
+line_end: 90727
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 | Practice line | What FPF takes | Practical implication |
 | --- | --- | --- |
 | Role modeling in organizations, access-control, safety, and method engineering separates role labels, assigned holders, permissions, responsibilities, and performed work. | F.4 keeps only the role-description episteme and sends assignment, permission, capability, method, and work to direct patterns. | A readable role description does not become an access policy, staffing record, or work log. |
-| Modern context and interoperability practice treats local meanings as bounded and compares them by explicit mappings, not by shared labels. | F.4 role descriptions stay local to one bounded context; cross-context reuse goes through `F.9`. | Same label does not make the same role. |
+| Role-taxonomy and interoperability practice keeps local role meanings scheme-relative and compares them by explicit correspondences, not shared labels. | F.4 names the role-taxonomy episteme and effective scheme; cross-taxonomy or cross-scheme comparison goes through `F.9`. | Same label does not make the same role meaning. |
 | FPF episteme and publication ontology separates the described entity, description episteme, and publication form. | A role description is a description episteme about `U.Role`; a card or table may publish it. | Editing the publication is not automatically changing the role value or assignment relation. |
 | FPF slot discipline separates relation positions from fillers. | "Role" in a relation-position phrase is repaired to SlotKind or ValueKind when no work-facing `U.Role` is current. | Slot names do not create role values. |
 

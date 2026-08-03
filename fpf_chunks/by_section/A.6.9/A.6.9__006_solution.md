@@ -6,15 +6,17 @@ section_id: "A.6.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__006_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:4 — Solution"
-line_start: 20334
-line_end: 20471
+line_start: 20398
+line_end: 20550
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
+  - "A.15.6"
   - "A.2.1"
   - "A.2.6"
   - "A.22"
@@ -27,7 +29,9 @@ dependencies:
   - "C.29"
   - "C.3.3"
   - "E.17"
+  - "E.17.0"
   - "E.19"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.17"
   - "F.18"
@@ -53,28 +57,29 @@ keywords:
 
 Treat an umbrella sameness sentence as a **dispatch trigger**, not as an automatic Bridge and not as a demand for a card. Recover the concrete subject and action first. Then choose the smallest truthful branch:
 
-1. **Ordinary designation inside one semantic context.** If both expressions resolve under the same `<ReferenceScheme, LocalSenseClaim>` projection and the current action needs only the governed designation, rewrite with that designation and stop. No F.9 Bridge is current.
+1. **Ordinary designation inside one semantic bounded context.** If both expressions resolve to the same exact `<ReferenceScheme, LocalSenseClaim>` projection, use the ordinary designation owner and stop. When only the admitted extent of that claim changes, apply A.2.6 `widen`, `narrow`, or `refit`. No F.9 Bridge is current.
 2. **Lane or reference-plane repair.** If the sentence confuses Object, Description, Carrier, or `CHR:ReferencePlane`, restore the exact kinds under A.7 or the governing plane rule.
 3. **Identification or indexing.** If the sentence means same id, key, code, or index target, use A.6.6. Identifier equality does not establish meaning correspondence.
-4. **Claim-scope operation.** Use A.2.6 `widen`, `narrow`, or `refit` inside one semantic context. A `translate` operation may consume an independently obtaining Bridge and a separate affirmative claim for that translation.
-5. **Representation transition.** Route an actual source-to-receiving representation change to A.6.3.RT. A Bridge neither performs the Work nor creates the transition.
-6. **Structure comparison or crossing.** Recover each exact A.22 structure and its organizing relations. A sense Bridge between names does not relate the structures by itself.
-7. **Cross-local semantic relation.** Resolve two exact F.17 cells, declare the F.9 relation-semantic profile, and cite a Bridge only when its predicate obtains.
-8. **Proposed use of an obtaining Bridge.** In a second sentence, name action `u`, direction `d`, use-specific rule `r`, tolerated loss `t`, and claim polarity under C.2.1. Recover A.10 or B.3 reliance for that same use.
-9. **Explanation or unresolved proposal.** Say plainly what remains unestablished. A candidate or negative card carries no positive occurrence reference.
-10. **Claim that the use happened.** Name the actual receiving object and open its direct governor; the use role inside the C.2.1 claim is not that object.
+4. **Scope operation.** A.2.6 owns `widen`, `narrow`, `refit`, and `translate` over exact scope values; when the sentence concerns claim extent, recover the exact `U.ClaimScope`. `translate` may consume an independently obtaining F.9 Bridge and a separate affirmative claim for that exact direction, rule, and tolerance; it is neither representation Work nor a structure crossing.
+5. **Other locality hidden by context wording.** Route interpretation to the effective `U.ReferenceScheme`; claim extent to `U.ClaimScope`; empirical grounding to one exact `EpistemeEmpiricalGroundingRelation`; time to the direct owner's qualification window; project wording to an exact composite `U.Work` under A.15.6; viewpoint use to the E.17.0 viewpoint relation and one `U.ViewpointRef` resolving exact P; and any world-side subject claim to its direct relation governor. None is supplied by a bare context word.
+6. **Representation transition.** Route an actual source-to-receiving representation change to A.6.3.RT only after exact source episteme X and receiving episteme Y are independently constituted, `EntityOfConcern(X)=EntityOfConcern(Y)` exactly, and one system under an exact role assignment performs the required exact dated representation-transformation Work (`W : U.Work`). Separately require every A.6.3.RT §4.1.a.1 obtaining condition before asserting `RepresentationSchemeTransitionRelation@Context`; performed Work alone neither proves the construction nor makes that relation obtain. A Bridge neither performs that Work nor creates the transition.
+7. **Structure comparison or crossing.** Recover each exact `BoundedModelUseStructure` independently, then apply the conditional A.22 cross-structure rule in §4.8 only if exact governed subject crossings and a named receiving use remain. A SenseCell Bridge, label, diagram, shared participant, or reference supplies neither structure selection nor crossing; without an exact direct crossing governor, return the A.6.RCD missing-governor stop.
+8. **Cross-local semantic relation.** Resolve two exact F.17 `SchemeSenseCell` values from different semantic bounded contexts, declare the F.9 relation-semantic profile, and cite a Bridge only when its predicate obtains. Scheme difference, same spelling, a mapping witness, or two endpoint references alone establishes no Bridge.
+9. **Proposed use of an obtaining Bridge.** In a second sentence, name action `u`, direction `d`, use-specific rule `r`, tolerated loss `t`, and claim polarity under C.2.1. Recover A.10 or B.3 reliance for that same use.
+10. **Explanation or unresolved proposal.** Say plainly what remains unestablished. A candidate or negative card carries no positive occurrence reference.
+11. **Claim that the use happened.** Name the actual receiving object and open its direct governor; the use role inside the C.2.1 claim is not that object.
 
-For A.6.9, **semantic context** is Plain shorthand for the bounded interpretation basis derived from one exact cell's `<ReferenceScheme, LocalSenseClaim>` projection. It is not a `U.BoundedContext`, entity, ref, project, scope, selected model-use structure, viewpoint, description, designator, or publication.
+For A.6.9, **semantic bounded context** is a Plain practice name for the local interpretation basis recovered from one exact cell's `<ReferenceScheme, LocalSenseClaim>` projection. It is not an entity, reference, identity field, project situation, claim scope, grounding holon, qualification window, composite project Work, viewpoint, selected `BoundedModelUseStructure`, description, designator, or publication. Representation transition, A.2.6 scope translation, F.9 local-sense Bridge, and direct structure crossing therefore remain four independently governed moves.
 
 #### A.6.9:4.0 - Trigger and endpoint recovery
 
 Open the dispatch when **same**, **identical**, **equivalent**, **align**, **map**, **match**, **correspond**, *treat as*, *reuse*, *share*, *unify*, *canonical source*, *synced*, *normalized*, *one-to-one*, *same ID*, or *mirrors* could hide the current object or action. Apply equivalent triggers in any language.
 
-Resolve the actual endpoints before choosing the semantic branch. Each candidate endpoint must be a `SenseCellAddressRef` resolving one exact F.17 `SchemeSenseCell`; a string, system, table, class name, file, context label, card, or id cannot stand in for it. If a token is metonymic — *the system*, *the model*, *the service*, *that table* — enumerate the plausible governed objects and recover the intended local expression and claim. If either endpoint remains unresolved, keep the sentence explanatory and return `unresolved SenseCell endpoint`.
+Resolve the actual endpoints before choosing the semantic branch. Each candidate endpoint reference must be a `SenseCellAddressRef` resolving one exact F.17 `SchemeSenseCell`. Keep that cell, any C.2.1 description episteme about it, its F.18 designator, and the address reference as four distinct objects: a reference resolves the cell, a designator names it, and a description claims something about it; none substitutes for the cell or for one another. A string, system, table, class name, file, context label, card, id, description, designator, or unresolved reference cannot fill the Bridge endpoint. If a token is metonymic — *the system*, *the model*, *the service*, *that table* — enumerate the plausible governed objects and recover the intended local expression and claim. If either endpoint remains unresolved, keep the sentence explanatory and return `unresolved SenseCell endpoint`.
 
 Pin the endpoint reference-scheme and local-sense-claim editions, or an exact as-of basis, when the correspondence can change with a canon or model edition. `Γ_time` may be used as a compact card label for that basis. It is not a participant. It contributes to profile identity only when it states the profile's exact applicability or as-of basis.
 
-Before testing a Bridge, check ontological strata. Kind or classification transfer remains with C.3.3; value normalization with the measurement owner; role assignment with A.2.1; performed-Work attribution with F.6; publication with E.17; representation transition with A.6.3.RT. F.9 can supply a semantic premise needed by one of those claims but cannot make that neighboring object obtain.
+Before testing a Bridge, check ontological strata. Kind or classification transfer remains with C.3.3; value normalization with the measurement owner; role assignment with A.2.1; performed-Work attribution with F.6; publication occurrence, form, and carrier with E.24.PUB; representation transition with A.6.3.RT. F.9 can supply a semantic premise needed by one of those claims but cannot make that neighboring object obtain.
 
 #### A.6.9:4.1 - Stable lens: relation, use claim, reliance, and receiving object
 
@@ -167,7 +172,7 @@ Plain teaching prose may retain *same*, *align*, or *map* only when the local se
 | “Align A and B” | Shared label, comparison, substitution, or structure use? | name the proposed action before selecting a Bridge | mapping score alone establishes neither relation nor use |
 | “Map A to B” | Semantic reading or operational transformation? | keep code or ETL as witness; test semantics separately | code direction is not use suitability |
 | “Same ID/key/one-to-one” | Identifier relation or meaning relation? | A.6.6 first | collision-free ids do not establish sense identity |
-| “B is a view/projection of A” | View membership, representation, or sense reuse? | E.17, C.29, or representation owner first | dropped constraints block stronger use claims |
+| “B is a view/projection of A” | View membership, representation, or sense reuse? | E.17.0, C.29, or representation owner first | dropped constraints block stronger use claims |
 | “Equivalent” | What relation, action, direction, rule, and tolerance? | test overlap or inclusion before equivalence | symmetry alone grants no use |
 
 #### A.6.9:4.6 - Mapping witnesses are not Bridges
@@ -178,12 +183,26 @@ Keep the witness in the A.10 evidence path or optional card. Test the F.9 predic
 
 #### A.6.9:4.7 - Coordination boundaries
 
-- **Naming:** F.18 selects designations; F.17 publishes exact scheme-based cells and rows. Neither creates a Bridge.
+- **Naming and endpoint objects:** F.18 selects designators; F.17 governs exact scheme-based cells and rows. A `SchemeSenseCell`, C.2.1 description episteme, designator, and resolving reference remain distinct; none creates a Bridge.
+- **Reference scheme and scope:** C.2.1 owns the effective `U.ReferenceScheme`; A.2.6 owns `U.ClaimScope`, `widen`, `narrow`, `refit`, and `translate`. A.2.6 translation may consume an exact Bridge plus its affirmative bounded-use claim but is not representation Work or structure crossing.
+- **Grounding:** C.2.1 alone supplies an `EpistemeEmpiricalGroundingRelation`. Its grounding holon is the participant against which covered empirical claims are grounded; it is not assumed identical to the episteme's EntityOfConcern.
+- **Time:** the temporal or direct subject pattern owns the qualification window needed by its predicate. F.9 profile applicability or `Γ_time` does not become a generic context or time participant for another claim.
+- **Project wording:** A.15.6 recovers an actual project as one exact composite `U.Work` after A.15.1 admission and exact work parthood. Project label, plan, situation word, or Bridge supplies no project identity.
+- **Viewpoint:** E.17.0 governs the direct `EpistemeViewpointConformanceRelation`; one `U.ViewpointRef` resolves exact viewpoint episteme P. The viewpoint, its reference, candidate/View episteme, and evaluator remain distinct.
 - **Evidence and assurance:** A.10 owns evidence provenance and local reliance; B.3 owns assurance claims, records, and explicit dispositions.
-- **Scopes:** A.2.6 owns `widen`, `narrow`, `refit`, and `translate`; translation consumes an obtaining Bridge only together with an affirmative claim for its exact direction, rule, and tolerance.
-- **Views, representations, and publications:** E.17, C.29, and A.6.3.RT own their objects and occurrences.
+- **Representations and publications:** E.17.0 owns conformance-dependent View membership, E.24.PUB owns publication occurrence/form/carrier, and C.29 owns mathematical-representation objects. A.6.3.RT separately requires exact independently constituted source and receiving epistemes with the same exact EntityOfConcern and actual representation-transformation Work.
 - **Kinds and classifications:** C.3.3 owns classification transfer; F.9 supplies only local-sense correspondence needed by that use.
-- **Structures:** A.22 and direct relation owners identify structures and crossings. A sense Bridge cannot substitute for that architecture.
-- **Work and roles:** A.2.1, F.6, and A.15.1 own assignments and performed Work; a semantic relation or use claim has no enactment effect.
+- **Structures:** A.1.1/A.22 independently select each exact `BoundedModelUseStructure`; §4.8 applies the descriptive A.22 conditional cross-structure rule only after exact governed crossings and all four structure discriminators are recoverable. A SenseCell Bridge cannot substitute for that architecture.
+- **Direct subject relations, Work, and roles:** the direct subject pattern owns every world-side relation. A.2.1, F.6, A.15.1, and A.15.6 own assignments and exact performed or composite Work; semantic relation, context wording, and use claim have no enactment effect.
 - **Authorization:** the exact policy or deontic governor owns permission. Neither semantic suitability nor assurance grants it.
+
+#### A.6.9:4.8 - Structure comparison and conditional cross-structure selection
+
+Use this branch only when the receiving question depends on the organization of actual subject crossings among several bounded model-use structures. First recover every participating `BoundedModelUseStructure` independently under A.1.1/A.22: one exact model episteme, its admitted model-use holons, the exact obtaining applicability, actual-use, and enduring coherence occurrences, the exact applied constraint claims, and one named bounded-model-use frame. A shared system, model, episteme, scope, or other participant does not merge two selected structures and proves neither overlap nor parthood.
+
+Next enumerate every actually obtaining subject-crossing occurrence selected for the proposed organization. For each one, name its exact participants, relation kind and predicate, direction when asymmetric, applicability, obtaining result, occurrence identity and recurrence rule, all under its direct relation governor. An F.9 Bridge relates exact local senses only; a Bridge, context label, edge label, Card, registry row, reference, view, diagram, or common participant establishes no subject crossing. If any required crossing has no compatible direct governor, stop through A.6.RCD at the exact missing-governor question; do not replace it with a vague edge family.
+
+Only then apply A.22's conditional cross-structure rule for one named receiving or crossing-analysis use. Declare the substrate as the exact independently selected `BoundedModelUseStructure` values; the selected relation organization as the exact obtaining crossing occurrences; the exact applied constraints and invariants; and the use frame as the question, admissible action, and forbidden overread. Those are the four A.22 discriminators. The A.22-local provisional label `CrossContextRelationStructure` is only a retrieval aid for that rule until its own F.18 settlement; A.6.9 does not promote it to public vocabulary. The resulting `U.Structure` is a dependent organization, not a container, holon, collection of contexts, source of its crossings, View, Context Map, diagram, Card, or publication.
+
+When a load-bearing claim says that this organization was selected, separately name the selecting system, exact Method, dated selection `U.Work`, and direct participation relations or A.6.1 bindings. Name the exact selection judgment and its result: when persistence is needed, a C.2.1 result episteme whose exact EntityOfConcern is the selected structure; when an accountable choice is claimed, the exact decision and its direct decision governor. A generic result reference, the selection work by itself, or a visible mapping artifact selects nothing. These neighboring objects may designate or warrant the selection claim but do not enter the structure's four discriminators or make a crossing obtain.
 

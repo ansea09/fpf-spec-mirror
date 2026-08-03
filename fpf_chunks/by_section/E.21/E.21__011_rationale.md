@@ -6,12 +6,12 @@ section_id: "E.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:9 — Rationale"
-line_start: 86146
-line_end: 86151
+line_start: 86679
+line_end: 86684
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -35,7 +35,7 @@ keywords:
 
 ### E.21:9 - Rationale
 
-`E.21` keeps the measuring device simple: one object kind, one ordinal scale, one required coordinate set, one status set, and one stop condition. The evaluation never asks whether a coordinate is active. It asks what value the current pattern and its named evidence basis earn under the declared use.
+`E.21` keeps the declared measurement structure simple: one checked-object class, one ordinal scale, one required coordinate set, one non-arithmetic `PatternQualityQBundle` result payload, one local status set, and one stop-condition form. The specification marks no coordinate inactive; dated assessment work applies them all, and the result episteme states what value the exact checked pattern edition and named evidence basis support under the declared use.
 
 The mature-pattern parity coordinate is deliberately strict because recent short patterns looked formally clean while lacking the worked slices, source carry-through, lowering conditions, and transfer coverage present in mature FPF patterns. The repair is not "make everything long"; it is "carry the selected mature ingredients that the declared use needs."
 

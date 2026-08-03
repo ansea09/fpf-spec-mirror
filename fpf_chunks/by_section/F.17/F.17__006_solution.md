@@ -6,12 +6,12 @@ section_id: "F.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__006_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:4 — Solution"
-line_start: 94576
-line_end: 94614
+line_start: 95275
+line_end: 95289
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,46 +47,21 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:4 - Solution
 
-A Unified Term Sheet is a table of term rows for one bounded unification thread.
+Constitute a row through the smallest path that reaches the named reuse:
 
-Publish one term decision through this sequence:
+1. **Recover the value.** Identify one exact already-governed value or relation, its exact kind, direct pattern, identity or obtaining semantics, and one proposed use. Split a mixed candidate before naming.
+2. **Run the anti-explosion gate.** Apply F.14 before minting a card, cell, row, or family. Try no durable name, an existing designation, an alias, a local expression, and an admitted direct-pattern or existing-row name. Stop at the first sufficient disposition.
+3. **Settle only the durable name that is needed.** If one expression remains unresolved, use F.8. If a durable naming settlement is justified, F.18 constitutes one C.2.1 NameCard and selects Tech and Plain designations. The card creates neither the value nor its kind and does not require a cell or row.
+4. **Address a local sense only when useful.** Create one `SchemeSenseCell` only when the exact local expression and sense claim need a stable address under an effective by-value `U.ReferenceScheme`. Cite a selected bounded-model-use Structure only when its organization changes this exact naming use. The cell does not require a NameCard or row.
+5. **Open the public-row gate independently.** Apply F.14 again when public, Core-facing, durable, or cross-local reuse needs a row. The current F.18 public-row interface supplies the exact NameCard, selected designations, governed value and kind, direct pattern, effective scheme, and exact cell. None of those inputs alone requires the row.
+6. **Add a Bridge only for an actual cross-local relation.** Compare the exact `<ReferenceScheme, LocalSenseClaim>` projections. When the proposed row use relates different projections, cite an obtaining F.9 Bridge between the exact cells and separately cite the affirmative C.2.1 use claim plus its current A.10 or B.3 reliance. Same spelling, scheme difference, or cell presence proves no Bridge.
+7. **Constitute one row episteme.** Its C.2.1 EntityOfConcern is the exact independently governed value; its claim graph cites the separate naming-settlement episteme, selected designations, admitted and blocked citation uses, rationale, and reopen condition. Split unlike governed values or independently different uses into separate rows.
+8. **Keep succession and availability downstream.** Use `EpistemeEditionRelation` only when a later row episteme historically continues an earlier one under C.2.1. When availability is current, use the exact E.24.PUB expression, bearing, and publication relations. A row, row id, form, carrier, upload, or rendering establishes neither succession nor publication by itself.
 
-1. Confirm that the direct pattern already governs the underlying value and its admissible use. If the kind, relation, slot position, or use is unsettled, return there before term publication.
-2. Decide whether the name now needs durable reader-facing reuse: public publication, reuse across different semantic-context projections, stable citation, training use, interface use, or editioned maintenance. Otherwise keep the wording local and stop.
-3. Recover each exact local sense under one effective `U.ReferenceScheme` carried by value. Cite a `SenseCellAddressRef` that resolves to the F.17 scheme-based coordinate `<reference scheme by value, local expression, local-sense claim>`; do not require or infer a `U.BoundedContext`.
-4. Use F.18 and F.5 to select the Tech and Plain names for the governed value, and cite the resulting NameCard. If no NameCard decision is current, the term is not ready for F.17 publication.
-5. When the row proposes correspondence between local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ, cite two premises in order. The projections may differ because the `LocalSenseClaim` differs even when the `ReferenceScheme` is the same; different schemes are only a common subset and do not establish a Bridge. First cite an actual F.9 Bridge for the named endpoint cells and editions and show that its relation-semantic profile applies, its Boolean predicate is true, and its required dependencies are present. Second cite an exact current C.2.1 claim with that Bridge as EntityOfConcern and affirmative polarity for the row's named use, direction, use-specific correspondence rule, and permitted-loss tolerance. Recover current reliance through the exact A.10 evidence-provenance relation plus local `RelianceDisposition=pass`, or the positive B.3 assurance branch when B.3 is triggered. A negative claim or non-passing reliance rejects or weakens the row use without negating or reidentifying an otherwise obtaining Bridge. When the projections are the same, route a different expression to F.18 designation and add no Bridge. When no semantic-correspondence use is current, add no Bridge or Bridge-use claim regardless of how many schemes are present.
-6. Publish one `UnifiedTermRow` with one governed term decision, direct pattern, selected names, scheme-based sense coordinates, row rationale, admissible and blocked use, edition, and currentness condition. Split unlike governed values into separate rows.
-7. Apply the static and regression checks, then stop at term publication. Any later object, evidence, authority, work, or subject-use claim returns to its direct pattern.
-
-Each row has one primary term decision:
-
-```text
-UnifiedTermRow:
-  UTSRowId
-  UnificationThreadId
-  Block
-  GovernedValueRef: U.EntityRef
-  GovernedValueKindRef: U.KindRef
-  DirectGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
-  UnifiedTechName
-  UnifiedPlainName
-  NameCardRef: U.EntityRef, referencing one F.18 NameCard
-  SenseCellRefs[]: SenseCellAddressRef, each resolving one F.17 SchemeSenseCell(ReferenceScheme, LocalExpression, LocalSenseClaim) coordinate
-  BridgeRefs[]: U.EntityRef, referencing actual F.9 Bridges only; any AdmissibleUse between different semantic-context projections separately cites its exact C.2.1 claim and A.10 or B.3 reliance basis in the row rationale or notes
-  RowRationale
-  AdmissibleUse
-  BlockedUse
-  RowEdition
-  CurrentnessCondition
-  Notes?
-```
-
-The row may cite several local senses and several Bridges, but it does not fuse their underlying objects. If a source phrase points toward multiple typed FPF values, split the row or cite the direct pattern that keeps the values distinct.
+Apply the static and regression checks to the affected row, then stop. The result grants no ontology, obtaining, equivalence, authority, role, status, evidence, Work, publication truth, or receiving action.
 

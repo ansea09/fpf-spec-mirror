@@ -6,13 +6,24 @@ section_id: "E.4.DPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__010_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:9 — Consequences"
-line_start: 70537
-line_end: 70542
+line_start: 70805
+line_end: 70810
 dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.22.CGUS"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.30.AD"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
@@ -37,7 +49,7 @@ keywords:
 
 ### E.4.DPF:9 - Consequences
 
-The authoring spine adds overhead before a local framework becomes durable. That overhead prevents hidden source loss, hidden Core change, hidden relation semantics, and hidden currentness debt.
+Using the exact authoring Method and MethodDescription while keeping dated Work, results, receiving uses, editions, relations, package architecture, and publication objects explicit adds overhead before a local framework becomes durable. That overhead prevents hidden source loss, hidden Core change, hidden relation semantics, false production or membership claims, and hidden currentness debt.
 
 The pattern also makes local publication more useful. Readers get a coherent publication or practical-use carrier, while maintainers can still inspect the framework edition, source pack, relation records, decision records, and quality route.
 

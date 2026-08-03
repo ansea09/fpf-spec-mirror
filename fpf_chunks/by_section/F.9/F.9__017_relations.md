@@ -6,12 +6,12 @@ section_id: "F.9:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__017_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:15 — Relations"
-line_start: 91885
-line_end: 91902
+line_start: 92526
+line_end: 92545
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -65,6 +67,8 @@ keywords:
 * **A.6.5.** Relation-position labels and SlotSpec claims remain governed by slot discipline.
 * **C.29.** Mathematical-lens use may cite a Bridge and bounded-use claim; C.29 still governs its mathematical object, preserved and lost structure, and actual lens use.
 * **C.34.** Structural correspondence or morphism adequacy may cite an obtaining Bridge and a bounded-use claim but states its own preserved and lost architecture structure.
-* **E.17.** Owns any actual publication occurrence. Publishing a card or claim does not make a receiving use occur.
+* **A.6.REL.** Applies the F.9 recurrence and occurrence-identity rule only when a receiver must distinguish or reference the occurrence.
+* **C.2.1.** Independently constitutes assertions, modal proposals, occurrence-description epistemes, and filled Cards; none supplies the Bridge predicate or occurrence identity.
+* **E.24.PUB.** Owns any `EpistemePublicationRelation` occurrence, publication form, and presentation carrier for a selected description/Card edition. Publishing creates neither Bridge nor receiving use.
 * **A.6.3.CSC, C.26.1, and C.26.2.** Govern coarsening, probe effects, and no-faithful-enough-report cases when those questions are live.
 

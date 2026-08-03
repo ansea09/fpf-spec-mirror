@@ -6,12 +6,12 @@ section_id: "C.11:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__008_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:7 — Conformance Checklist"
-line_start: 46580
-line_end: 46599
+line_start: 46737
+line_end: 46756
 dependencies:
   - "A.13"
   - "A.18"
@@ -47,7 +47,7 @@ keywords:
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | `CC-C11.1` | The pattern **SHALL** state that `C.11` governs choice among already-available options rather than candidate generation. | Keeps `C.18` outside and prevents search takeover. |
-| `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13` or `C.9`. | Prevents unwanted narrowing of the chooser. |
+| `CC-C11.2` | The pattern **SHALL** keep `DecisionSubject` as the default chooser term, and **SHALL NOT** use `Agent` as the generic chooser term unless one explicit agency claim is governed by `A.13`; measured characteristic and evidence claims use the A.17/A.18/A.19/C.16/A.10 stack, and planned `C.9` supplies no current governing force. | Prevents unwanted narrowing of the chooser. |
 | `CC-C11.3` | The pattern **SHALL** state the `C.11 / C.18 / C.19 / C.24 / G.5` split explicitly in the body. | Prevents collapse of choice doctrine, candidate generation, candidate-pool policy, planning, and selected-set publication. |
 | `CC-C11.4` | `Solution` **SHALL** state one inspectable decision procedure from `DecisionSubject` and `OptionSet` through comparison basis, dependence layer, probe-worthiness test, one explicit `ChoiceRule`, and one emitted `ChoiceResult`. | Keeps `C.11` as one operational answer to the choice question rather than one survey of schools. |
 | `CC-C11.5` | The pattern **SHALL** name one minimal decision inventory including `DecisionSubject`, `DecisionSubjectGranularity`, `OptionSet`, `PreferenceOrder`, `EvaluativeMeasure`, `BeliefState`, `OutcomeModel`, `ChoiceRule`, `ChoiceResult`, `ProbeActionSet`, `ProbeBudget`, `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation`. | Keeps the calculus objectual rather than slogan-like. |

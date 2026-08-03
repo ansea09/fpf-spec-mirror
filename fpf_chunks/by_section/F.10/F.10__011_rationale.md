@@ -6,19 +6,28 @@ section_id: "F.10:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__011_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:10 — Rationale"
-line_start: 92471
-line_end: 92478
+line_start: 93179
+line_end: 93184
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,9 +39,7 @@ keywords:
 
 ### F.10:10 - Rationale
 
-Status words sit at the meeting point of evidence, norms, and action. That makes them tempting shortcuts. A shortcut is safe only when the status target and intended use remain visible.
+Status words sit at the meeting point of evidence, norms, and action, so they are tempting shortcuts. The shortcut remains safe only when target, direct result, local sense, scope/window, source, evaluation rule, and intended/actual use stay visible.
 
-F.10 keeps the shortcut by using a small family spine, but it prevents ontology drift by making the status-use statement explicit. A status value is not a role. A status display is not the status source by itself. A standard approval is not run-time satisfaction. Evidence status can explain requirement status only through an interpretation relation and an evaluation rule.
-
-This keeps Part F naming and bridge machinery useful while letting A.10, B.3, C.28, E.17, A.2, A.15, and gate or requirement patterns govern their own stronger claims.
+The small set of three status families—`EvidenceStatus`, `StandardStatus`, and `RequirementStatus`—supports quick recognition without becoming a common result algebra. F.17/F.18 govern local sense and designation; F.9 governs cross-local sense bridges; F.10 governs the status-use and interpretation questions; direct subject, evidence, work, result, assurance, gate, permission, and decision patterns retain their own objects.
 

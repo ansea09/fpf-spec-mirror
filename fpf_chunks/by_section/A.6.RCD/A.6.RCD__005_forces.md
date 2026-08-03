@@ -6,12 +6,12 @@ section_id: "A.6.RCD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:3 — Forces"
-line_start: 16746
-line_end: 16757
+line_start: 16810
+line_end: 16821
 dependencies:
   - "A.11"
   - "A.6.0"

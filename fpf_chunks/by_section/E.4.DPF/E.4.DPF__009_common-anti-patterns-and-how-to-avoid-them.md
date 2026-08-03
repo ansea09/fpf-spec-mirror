@@ -6,13 +6,24 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70506
-line_end: 70536
+line_start: 70773
+line_end: 70804
 dependencies:
+  - "A.1.1"
+  - "A.15.1"
+  - "A.15.PROD"
+  - "A.2.6"
+  - "A.22"
+  - "A.22.CGUS"
+  - "A.3.1"
+  - "A.3.2"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.30.AD"
   - "C.33"
   - "C.33-C.35"
   - "C.34"
@@ -24,6 +35,7 @@ dependencies:
   - "E.21"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
   - "E.4.DPF.DA"
   - "E.4.PFAD"
@@ -42,7 +54,7 @@ keywords:
 | Checklist promoted to framework | Local tips are published as a principle framework without source, relation, or quality work. | Treat the checklist as local process text until `G.2`, `E.8`, `E.4.PFR`, and `E.21` are satisfied. |
 | Source summary as SoTA | A literature summary replaces adopted and rejected source payload. | Build a `G.2` source pack and carry each load-bearing source into solution, boundary, or example text. |
 | Ontology catalog as framework | The package classifies the domain or defines terms, but it does not tell a practitioner what typical problem is live or what SoTA solution move avoids a known failure. | Keep ontology as support material; draft or repair DPF patterns around problem frames, positive solution moves, worked cases, anti-patterns, and refresh. |
-| Publication carrier as architecture | The publication or access carrier hides relation and dependency records. | Add `E.4.PFAD`, `E.4.PFR`, and source-return records before relying on the carrier as architecture evidence. |
+| Publication carrier as architecture | Publication occurrence, form, presentation carrier, package boundary, or access route is treated as framework episteme, edition continuity, package architecture, relation membership, or truth. | Recover E.4.PFAD architecture decisions, E.4.PFR relations/dependencies, C.2.1 framework identity, and E.24.PUB publication occurrence/form/carrier separately before relying on the exposed content. |
 | Invisible framework story | A DPF carrier reads as a neutral list of principles, but the reader cannot tell what source or domain structures were selected, why this route is for them, what was deliberately coarsened, abstracted, omitted, or left to source return, or whether the carrier is a second-step coarsening after an architecture description or view. | Add a short carrier structure-account in the readme, Preface, or equivalent carrier, then evaluate it through `E.4.DPF.DA` rather than scattering explanation into every pattern body. |
 | Generated candidate authority | Search or LLM output becomes the framework because it is fluent. | Use `C.35` for admission, then decide candidate selection through `E.4.PFAD` or `C.32`. |
 | Skeleton carrier as DPF | A file has a ToC, headings, and very short pattern-shaped sections, but readers still cannot apply the patterns without reconstructing the missing guidance from the DRR or source notes. | Keep it as `seedOnly`; harden each DPF pattern through `E.8`, evaluate through `E.21`, and only then assemble the user publication carrier. |
@@ -52,7 +64,8 @@ keywords:
 | Proposal layout as subject organization | Headings or ClaimGraph organization are treated as the proposed framework organization. | Recover described position kinds, proposed subject relation signatures, constraints, invariants, dependency directions, alternatives, basis, and questions. |
 | Coverage and acceptance union | One field mixes coverage criterion with WorkPlan acceptance target. | Keep the coverage node complete and cite the plan target separately. |
 | Availability as relevance | A missing dependency is assumed blocking, or an available dependency is assumed current for next use. | Fill availability and use relevance independently; only the exact combined state determines the next-use consequence. |
-| Local grounding bridge | Unequal proposal and description grounding is admitted to avoid returning. | Stop and return to C.2.1 and A.6.2; add F.9 only for an actual cross-context bridge. |
+| Grounding or context as identity | A grounding holon, organization, project label, package boundary, or bare context word is inserted into episteme identity or used to force sameness. | Keep C.2.1 identity at ClaimGraph, EntityOfConcern, and effective ReferenceScheme; use separate empirical-grounding, ClaimScope, model-use, project-Work, and exact cross-context translation relations only when their predicates obtain. |
+| Authoring order as Method, Work, result, or CGUS | Numbered guidance, arrows, coordination rows, or document order is used as proof that a Method, Work occurrence, result relation, or conditional structure exists. | Recover the exact authoring Method/MethodDescription, dated Work and application, direct result/use relation, or independently selected A.22.CGUS; otherwise keep the sequence Plain. |
 
 Adoption risk tripwires:
 

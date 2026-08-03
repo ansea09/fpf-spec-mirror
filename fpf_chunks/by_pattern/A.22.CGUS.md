@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.22.CGUS.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
-line_start: 34715
-line_end: 35173
+line_start: 34812
+line_end: 35270
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -496,5 +496,5 @@ Does not replace: `A.3.1`, `A.3.2`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `C.30
 
 ### A.22.CGUS:End
 
-# **Part B — Trans-disciplinary Reasoning Cluster**
+# Part B - Trans-disciplinary Reasoning Cluster
 

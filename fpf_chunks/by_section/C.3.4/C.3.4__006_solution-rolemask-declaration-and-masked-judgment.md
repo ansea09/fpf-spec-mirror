@@ -6,12 +6,12 @@ section_id: "C.3.4:5"
 section_title: "Solution — RoleMask declaration and masked judgment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__006_solution-rolemask-declaration-and-masked-judgment.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:5 — Solution — RoleMask declaration and masked judgment"
-line_start: 45242
-line_end: 45263
+line_start: 45399
+line_end: 45420
 dependencies:
   - "C.2.1"
   - "C.3.1"

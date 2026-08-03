@@ -6,12 +6,12 @@ section_id: "A.19.ECS:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:11 — Relations"
-line_start: 29011
-line_end: 29028
+line_start: 29108
+line_end: 29125
 dependencies:
   - "A.17-A.19"
   - "C.16"

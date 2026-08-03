@@ -6,12 +6,12 @@ section_id: "F.14:12"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__013_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:12 — Conformance checklist"
-line_start: 93719
-line_end: 93731
+line_start: 94417
+line_end: 94431
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -47,12 +47,14 @@ keywords:
 
 | Check | Question |
 | --- | --- |
-| CC-F14-01 | Is each candidate name tied to a recovered value or explicitly left as a local phrase? |
-| CC-F14-02 | Are role values, RoleDescription labels, role-relation expressions, role assignments, and performed work kept separate? |
-| CC-F14-03 | Are status family, status value, status window, status-use relation, and presentation label kept separate? |
-| CC-F14-04 | Are capability, method, work, evidence, source, publication, requirement, policy, and assurance qualifiers handled by direct patterns? |
-| CC-F14-05 | Are role-bundle and incompatibility cases sent to A.2.7 rather than minted as hybrid roles? |
-| CC-F14-06 | Are public and cross-context names backed by F.9, F.17, or F.18 only after value recovery? |
-| CC-F14-07 | Are lineage labels recorded without carrying old fused ontology forward? |
-| CC-F14-08 | Is every durable new role or status name justified by F.8 and F.18 or by the direct status or naming pattern? |
+| CC-F14-01 | Is each candidate tied to one independently recovered governed value/relation and proposed use, or explicitly left local? |
+| CC-F14-02 | Were the light dispositions—no durable name, existing designation, alias, and local expression—tested before minting anything stronger? |
+| CC-F14-03 | Are role value, RoleDescription, direct role relation, assignment, capability, method, and performed Work distinct? |
+| CC-F14-04 | Are status family, value, window, use relation, evidence, and presentation distinct? |
+| CC-F14-05 | Are effective naming ReferenceScheme and exact local-sense basis used instead of a generic context slot? |
+| CC-F14-06 | Is a selected model-use structure absent unless its organization changes this exact naming use? |
+| CC-F14-07 | Does any cited F.9 Bridge actually obtain between exact cells, with proposed use and reliance separate? |
+| CC-F14-08 | Are NameCard, cell, row, id, publication occurrence, form, and carrier independently justified and mutually distinct? |
+| CC-F14-09 | Does every stronger ontology, relation, role, status, Work, evidence, authority, or publication claim return to its direct owner? |
+| CC-F14-10 | Are lineage spellings retained without carrying fused ontology or widening admitted use? |
 

@@ -6,23 +6,21 @@ section_id: "E.10.D1:13"
 section_title: "Acceptance Tests (SCR/RSCR stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__014_acceptance-tests-scr-rscr-stubs.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:13 — Acceptance Tests (SCR/RSCR stubs)"
-line_start: 75805
-line_end: 75821
+line_start: 76251
+line_end: 76267
 dependencies:
+  - "A.2.1"
   - "A.4"
   - "A.7"
-  - "E.10.U1"
-  - "E.10.U2"
-  - "E.10.U4"
-  - "E.10.U7"
-  - "E.10.U9"
   - "F.1"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.6"
   - "F.7"
   - "F.9"
 keywords:
@@ -42,11 +40,11 @@ keywords:
 * **SCR‑DCTX‑S03.** Pattern headers contain **Problem Frame** instead of “Context”.
 * **SCR‑DCTX‑S04.** All semantic references use the forms in Sec. 5.
 * **SCR‑DCTX‑S05.** No “domain context” strings; Domain appears only as family metadata.
-* **SCR‑DCTX‑S06.** No is‑a or containment relations between contexts outside **E.10.U9**.
+* **SCR‑DCTX‑S06.** No is‑a or containment relations between contexts outside **F.9**.
 
 **RSCR — Regression discipline checks**
 
 * **RSCR‑DCTX‑E01.** Adding a new family or edition does not introduce “domain context” or context hierarchies.
-* **RSCR‑DCTX‑E02.** Refactors of E.10.U1/U.2/U.7/U.9 do not re‑introduce “anchor”.
+* **RSCR‑DCTX‑E02.** Refactors of F.1/F.2/F.7/F.9 do not re‑introduce “anchor”.
 * **RSCR‑DCTX‑E03.** Multilingual updates follow D‑CTX‑7 (split/merge rationale recorded informatively).
 

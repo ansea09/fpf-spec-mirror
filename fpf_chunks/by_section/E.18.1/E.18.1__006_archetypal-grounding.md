@@ -6,12 +6,12 @@ section_id: "E.18.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__006_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:5 — Archetypal Grounding"
-line_start: 83457
-line_end: 83555
+line_start: 83905
+line_end: 84003
 dependencies:
   - "A.15"
   - "A.15.PROD"

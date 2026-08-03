@@ -6,41 +6,40 @@ section_id: "F.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:3 — Forces"
-line_start: 93831
-line_end: 93840
+line_start: 94522
+line_end: 94531
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -53,9 +52,9 @@ keywords:
 
 | Force | Tension to resolve |
 | --- | --- |
-| Parsimony versus coverage | Keep vocabularies and rows small while preserving real distinctions. |
-| Locality versus reuse | Local meanings should remain local, yet projects need cross-context comparison and reusable names. |
-| Stability versus change | Editions, names, rows, and bridges evolve, but earlier commitments should remain recoverable. |
-| Clarity versus apparatus | The check must be teachable in minutes and still precise enough to catch kind drift. |
-| Composition versus direct patterns | F.15 checks a combined slice; it must not replace F.4, F.9, F.10, F.17, F.18, A.2.1, F.6, or A.15.1. |
+| Parsimony versus coverage | Keep the finite scope and triggered rules small while preserving every live distinction. |
+| Locality versus reuse | Interpret each local sense under an exact scheme while allowing a separately established Bridge and bounded-use claim when cross-local use is current. |
+| Stability versus change | Recover exact earlier and later objects without treating spelling, ids, table position, or edition labels as continuity evidence. |
+| Clarity versus ontology | Keep the harness teachable without minting universal scope, frame, check, result, evidence, or context kinds. |
+| Composition versus direct owners | Check a combined slice without replacing F.4, F.9, F.10, F.17, F.18, C.2.1, A.10, A.15.1, or E.24.PUB. |
 

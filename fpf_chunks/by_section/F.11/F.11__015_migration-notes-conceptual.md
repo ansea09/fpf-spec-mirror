@@ -6,12 +6,12 @@ section_id: "F.11:14"
 section_title: "Migration notes (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__015_migration-notes-conceptual.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:14 — Migration notes (conceptual)"
-line_start: 92792
-line_end: 92800
+line_start: 93490
+line_end: 93498
 dependencies:
   - "A.15"
   - "A.15.1"

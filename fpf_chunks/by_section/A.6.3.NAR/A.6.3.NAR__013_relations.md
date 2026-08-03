@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:12 — Relations"
-line_start: 15168
-line_end: 15178
+line_start: 15232
+line_end: 15242
 dependencies:
   - "A.16.1"
   - "A.22"
@@ -43,12 +43,12 @@ keywords:
 
 ### A.6.3.NAR:12 - Relations
 
-- **Specializes:** `A.6.3` as a same-EntityOfConcern or declared-correspondence epistemic-viewing relation.
+- **Specializes:** `A.6.3` as exact same-EntityOfConcern construction `n : X -> Y`; any correspondence dependency is exact and separately governed and never relaxes endpoint identity.
 - **Coordinates with:** `A.6.3.CR` for same-regime textual re-expression, `A.6.3.RT` for representation-scheme transition, `A.6.3.CSC` for controlled semantic coarsening, `A.6.4` for changed EntityOfConcern, and `E.17.EFP` for explanation-use adequacy.
 - **Uses:** `C.33` when the narrative rendering is being used as architecture-relevant structural information and its captured and lost structure must be made explicit, the domain evaluation pattern when the same question is non-architecture narrative epiplexity, and `C.34` when selected source structure and narrative structure are treated as same enough for downstream use.
 - **Coordinates with:** `A.22.CGUS` when the structure being rendered is itself a constraint-governed unfolding structure or when a `NarrativeUnfoldingStructureBlock` must keep selected source structure, ordering structure, reader-act sequence hypothesis, narrative rendering, preserved structure, and loss inspectable.
 - **Coordinates with:** `C.35` for generated or discovered carriers that may contain candidate narrative renderings, `G.2` for source-pack claims, `E.6` and `E.11` for learning-order and first-entry publication questions, and `E.17` or `E.17.AUD` for publication-face and audience-unit questions.
 - **Uses:** `G.11` when source-basis return currentness, freshness, telemetry, or source-pack decay is the live reason a NAR case must be refreshed before reuse.
 - **Routes to:** `D.1` through `D.5`, `A.10`, and `B.3` when value frame, multilevel harm, conflict, decision use, bias, impact, evidence, or assurance becomes live.
-- **Boundary:** NAR governs the structure-to-sequence narrative rendering relation. It does not publish the narrative, authorize reliance, prove the source, admit generated output, decide ethics, create a teaching script, or make a domain narrative vocabulary part of FPF Core.
+- **Boundary:** NAR governs the exact episteme-to-episteme structure-to-sequence construction. It does not let a model, graph, set, stream, source pack, publication, form, carrier, or readable rendering substitute for `X` or `Y`; it does not publish `Y`, grant `U.View` membership, authorize reliance, prove source claims, admit generated output, decide ethics, create a teaching script, or make domain narrative vocabulary part of FPF Core.
 

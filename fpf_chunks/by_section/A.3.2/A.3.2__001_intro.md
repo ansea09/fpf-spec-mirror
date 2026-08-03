@@ -6,12 +6,12 @@ section_id: "A.3.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:intro — Intro"
-line_start: 7738
-line_end: 7743
+line_start: 7810
+line_end: 7815
 dependencies:
   - "A.1.1"
   - "A.10"

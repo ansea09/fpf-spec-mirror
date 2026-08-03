@@ -6,12 +6,12 @@ section_id: "F.14:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_invariants.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:8 — Invariants"
-line_start: 93592
-line_end: 93602
+line_start: 94295
+line_end: 94307
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,12 +45,14 @@ keywords:
 
 ### F.14:8 - Invariants
 
-1. **Kind first.** A candidate name is not admitted as a durable role or status name until its recovered value is named.
-2. **No status roles.** Status, evidence, requirement, source, publication, and access uses do not become work-facing roles by suffix.
-3. **No assignment by name.** A RoleDescription label or role-relation expression does not assign a holder and does not prove performed work.
-4. **No hybrid role by convenience.** Role-bundle and incompatibility expressions stay in A.2.7 unless a bounded context deliberately creates a new role value with F.8 and F.18 admission.
-5. **No capability by role label.** Role names do not prove capability, skill, permission, assurance, or method validity.
-6. **Status windows stay status-side.** Time, confidence, grace, or presentation variation stays with F.10 or the direct status pattern unless a new status family is recovered.
-7. **Cross-context reuse needs a bridge.** Shared labels across contexts use F.9 before any Concept-Set row, public name, or durable cross-context reuse.
-8. **Lineage labels do not preserve ontology.** A historical label may be recorded as lineage or source wording, but it does not carry its old fused ontology forward.
+1. **Governed value first.** No durable naming object is added until the exact value or relation, kind, direct owner, and proposed use are recoverable.
+2. **Lightest sufficient disposition.** Prefer the dispositions `no durable name`, existing designation, alias, or local expression whenever one supports the use without hiding a distinction.
+3. **No status roles.** Status, evidence, requirement, source, publication, and access uses do not become work-facing roles by suffix.
+4. **No assignment by name.** A designation, RoleDescription, role-relation expression, card, cell, or row assigns no holder and proves no Work.
+5. **No hybrid role by convenience.** Exact A.2.7 relations remain relations unless the direct role owner independently admits a different role value.
+6. **No capability or authority by label.** Role and status names prove no capability, skill, permission, assurance, evidence use, method validity, or publication authority.
+7. **Local senses do not globalize.** Same spelling and different local-sense projections establish neither governed-value identity nor an F.9 Bridge.
+8. **Naming objects remain optional and distinct.** Expression, designation, alias, cell, NameCard, row, identifier, publication occurrence, form, and carrier neither imply nor replace one another.
+9. **Selected structure is conditional.** A `BoundedModelUseStructure` is cited only when its organization changes the exact naming use and never becomes a locality slot or naming identity field.
+10. **Lineage is not ontology.** Historical spelling may be recorded as lineage without carrying its former fused commitments forward.
 

@@ -6,20 +6,22 @@ section_id: "A.2:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__012_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:10 — Consequences"
-line_start: 2952
-line_end: 2961
+line_start: 2928
+line_end: 2937
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -35,9 +37,9 @@ keywords:
 
 | Gain | Cost or tradeoff |
 | --- | --- |
-| Role names remain reusable without creating system subtypes. | Authors must name bounded context instead of relying on global role meanings. |
-| Work attribution becomes inspectable through holder, role assignment, method, plan, and work. | Simple sentences may need a small role-assignment note when claims become reliance-bearing. |
-| Episteme use remains precise: evidence, status, source, standard, requirement, definition, explanation, publication, and assurance uses stay in direct relation patterns. | Everyday "role of this document" wording must be repaired before it becomes FPF vocabulary. |
-| Slot discipline and role discipline stop competing. | Authors must distinguish role value from SlotKind when reading relation signatures. |
-| Role relation structure remains context-local and bounded. | Cross-context reuse requires explicit alignment rather than silent synonymy. |
+| Systems retain stable identity while their participations change. | Relied-on role use must name a taxonomy episteme and reference scheme. |
+| Assignment identity becomes inspectable through holder, role value, taxonomy, scheme, and window. | A compact role label may need a short typed assignment when attribution matters. |
+| Role decomposition no longer creates unsupported holonhood. | Factorization work must classify each proposed element through `A.2.7` or a neighboring pattern. |
+| Ordinary assignments need no constructed bounded-context object or optional model-use participant. | A DDD receiving assertion or work use designates its selected model-use structure when that structure actually changes interpretation. |
+| Episteme use, capability, method, and work remain independently testable. | Everyday contribution wording must be resolved before it carries a stronger claim. |
 

@@ -6,12 +6,12 @@ section_id: "F.9:25"
 section_title: "Bridge Card publication discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__027_bridge-card-publication-discipline.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:25 — Bridge Card publication discipline"
-line_start: 92021
-line_end: 92034
+line_start: 92670
+line_end: 92683
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -54,7 +56,7 @@ keywords:
 
 #### F.9:25.1 - Minimal truthful card
 
-A reusable card states its mode and exact C.2.1 identity. An actual card names its already obtaining Bridge. A candidate or negative card instead names the admitted direct Bridge relation kind and places proposed endpoints, profile, mode, and polarity in its ClaimGraph. When the card packages a proposed use, it states `u`, `d`, `r`, `t`, polarity, observed loss, evidence, currentness, nearest non-use, and the exact A.10 or B.3 branch. Missing relation facts are never repaired by filling more fields.
+A reusable description/Card states its mode and exact C.2.1 identity. An actual one names its already individuated Bridge; a candidate or negative one names the admitted direct Bridge relation kind and modally designates proposed endpoints, profile, and polarity in its ClaimGraph. When it packages a proposed use, it states `u`, `d`, `r`, `t`, polarity, observed loss, evidence, currentness, nearest non-use, and the exact A.10 or B.3 branch. Missing relation facts are never repaired by filling more fields. If availability matters, E.24.PUB publishes the selected episteme edition for one declared audience and bounded use through its independently governed publication occurrence, form, and carrier.
 
 #### F.9:25.2 - One occurrence, several claims and descriptions
 

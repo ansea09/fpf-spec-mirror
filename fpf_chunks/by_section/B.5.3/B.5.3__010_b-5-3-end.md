@@ -6,12 +6,12 @@ section_id: "B.5.3:End"
 section_title: "B.5.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__010_b-5-3-end.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:End — B.5.3:End"
-line_start: 40853
-line_end: 40861
+line_start: 41006
+line_end: 41014
 dependencies:
   - "A.13"
   - "A.15"
@@ -43,10 +43,10 @@ keywords:
 
 ### B.5.3:End
 
-# **Part C — Kernel Extension Specifications**
+# Part C - Kernel Extension Specifications
 
 | §                                            | Pattern                        | Tag | Scope & Exports                                                      |
 | -------------------------------------------- | ---------------------------------- | --- | -------------------------------------------------------------------- |
 | **Cluster C.I – Core CALs / LOGs / CHRs**    |                                    |     |                                                                      |
-| C.1                                          | **Sys‑CAL**                        | CAL | Physical holon composition; conservation invariants; resource hooks. |
+| C.1                                          | **Sys‑CAL (planned)**              | CAL | Planned consolidation of physical-system composition, conservation, and resource-flow guidance currently governed by A.1, A.14, A.22, A.3.4, B.1.6, and C.16. |
 

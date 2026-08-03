@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Continuity Decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_continuity-decision.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:6 — Continuity Decision"
-line_start: 44674
-line_end: 44686
+line_start: 44827
+line_end: 44840
 dependencies:
   - "A.1"
   - "A.11"
@@ -47,7 +47,8 @@ Ask these questions in order:
 | Is this another edition of the declaration episteme rather than merely a publication form? | Continue to the kind-identity question. | Publication-form change leaves both signature edition and kind untouched. |
 | Does the new edition preserve the locally declared kind identity despite its explicit content change? | Keep the local kind identity; cite the actual edition in every later judgment. | Identify another local kind. |
 | Are judgments under the editions compared in one subkind argument? | Declare the edition alignment and rerun monotonicity. | Do not compare their extensions as if one criterion were current throughout. |
-| Does the use cross a context or reference scheme? | Use C.3.3 and declare preservation or loss. | Remain within this local order. |
+| Does the use cross a `U.BoundedContext` boundary? | Use C.3.3 and declare preservation or loss between the exact source and target local kinds. | Continue within the same local context. |
+| Within that context, did the effective `U.ReferenceScheme` change? | Create another `KindSignature` edition, decide kind continuity here, and rerun monotonicity under an explicit edition alignment when the order remains claimed. | Keep the current scheme alignment; a slice-only change creates no bridge. |
 
 A higher `U.Formality` value alone does not prove kind continuity or discontinuity. It characterizes the declaration episteme. The content and the local identity decision do the work.
 

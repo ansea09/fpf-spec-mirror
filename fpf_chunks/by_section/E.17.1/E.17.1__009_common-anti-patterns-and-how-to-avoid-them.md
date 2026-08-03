@@ -6,27 +6,30 @@ section_id: "E.17.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 78963
-line_end: 78971
+line_start: 79614
+line_end: 79622
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -40,8 +43,8 @@ keywords:
 
 | Anti-pattern | What it looks like | How FPF prevents it |
 |---|---|---|
-| **Publication-face hijack** | A `ViewFamilyId` is reused as a publication-face name or document type. | `CC-VBL-3` keeps family ids lexical and bundle-local. |
-| **Bundle equals view collection** | A folder or report pack is called a viewpoint bundle even though no `U.Viewpoint` family is declared. | `E.17.1` defines the bundle as a declared family of viewpoints, not a file grouping. |
-| **Silent local drift** | A local project keeps the old family id but swaps in different viewpoints. | `CC-VBL-5` requires editioning for semantic or membership change. |
+| **Publication-face hijack** | A `ViewFamilyId` is reused as a publication-face name or document type. | `CC-VBL-5` keeps the family designator distinct from a publication face, form, carrier, viewpoint reference, or exact member. |
+| **Bundle equals view collection** | A folder or report pack is called a viewpoint bundle even though no governed references resolve to admitted `U.Viewpoint` epistemes. | `E.17.1` defines the bundle as a declared family of exact viewpoint references, not a file grouping. |
+| **Silent local drift** | A local project keeps the old family id but swaps in different viewpoints. | `CC-VBL-6` requires another bundle edition when member references, targets, family meaning, or compatibility constraints change. |
 | **Namespace collapse** | Engineering viewpoint ids and publication viewpoint ids are mixed as if they were one namespace. | The solution keeps id spaces distinct and requires explicit attribution. |
 

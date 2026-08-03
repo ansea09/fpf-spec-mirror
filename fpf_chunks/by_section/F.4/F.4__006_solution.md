@@ -6,12 +6,12 @@ section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:4 — Solution"
-line_start: 89974
-line_end: 90045
+line_start: 90544
+line_end: 90614
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -44,44 +44,43 @@ keywords:
 
 ### F.4:4 - Solution
 
-Use a role-description episteme to describe one `U.Role` in one bounded context. The description gives readers enough to recognize and check the role, while sending neighboring claims to their governing patterns.
+Constitute one role-description episteme through `C.2.1`: its exact ClaimGraph describes one `U.Role`, that role is the EntityOfConcern, and one effective `U.ReferenceScheme` governs interpretation. The ClaimGraph names the exact role-taxonomy episteme that supplies the role vocabulary. The description gives readers enough to recognize and check the role while routing neighboring claims to their direct patterns.
 
-```text
-RoleDescriptionCore:
-  DescribedRoleSlot:
-  BoundedContextSlot:
-  HolderAdmissionSlot:
-  RecognitionTextSlot:
-  RoleInvariantSetSlot:
-  RoleStateRequirementRefs:
-  CapabilityRequirementRefs:
-  MethodRequirementRefs:
-  WorkUseBoundarySlot:
-  NamingRefs:
-  BridgeRefs:
-  NonRoleUseBoundarySlot:
-```
+The following is a content checklist, not a relation signature or a mandatory record:
 
-This is a description episteme shape, not a new assignment relation. Its publication may be a card, table row, method appendix, standard clause, or pattern section. The publication form is not the role description by default; it publishes or carries the description episteme.
+**Always make recoverable:**
 
-#### F.4:4.1 - Core Slot Meanings
+- the described `U.Role`;
+- the role-taxonomy episteme and effective reference scheme;
+- a short recognition explanation;
+- the independently admitted `U.System` holder kind and, when needed, a reference to its separately governed admission claim;
+- the smallest role-invariant set needed by the current use;
+- the non-role boundary: what this description does not assert about assignment, capability, method, work, evidence, status, permission, publication, or relation slots.
 
-| Slot | Admitted value | Meaning |
-| --- | --- | --- |
-| `DescribedRoleSlot` | `U.Role` | The role value being described. |
-| `BoundedContextSlot` | `U.BoundedContext` | The context that gives the role value local meaning. |
-| `HolderAdmissionSlot` | Holder kind or admission statement governed by `A.2` and `A.2.1` | What kind of acting holon may fill `RoleHolderSlot` in a role assignment. |
-| `RecognitionTextSlot` | Short description episteme content | The first-minute description that lets a reader recognize the role. |
-| `RoleInvariantSetSlot` | Small set of role invariants | Conditions that remain true of the role value in the bounded context. |
-| `RoleStateRequirementRefs` | `A.2.5` references when current | Role-state or enactable-state requirements. |
-| `CapabilityRequirementRefs` | `A.2.2` references when current | Ability or operating-envelope requirements; not created by the role name. |
-| `MethodRequirementRefs` | `A.15`, `A.3.1`, or `A.3.2` references when current | Method or method-description requirements linked to the role. |
-| `WorkUseBoundarySlot` | Boundary statement | What the role description does and does not say about performed work. |
-| `NamingRefs` | `F.18` or local naming references when current | Durable role-name settlement and aliases. |
-| `BridgeRefs` | `F.9` bridge references when current | Cross-context comparison or reuse of role-like senses. |
-| `NonRoleUseBoundarySlot` | Boundary statement | Directs evidence, status, source, publication, requirement, definition, explanation, assurance, gate, and slot-position uses to their patterns. |
+**Add only when the current use depends on them:**
 
-The slot list is an open-world discipline. A quick local description may fill only the role, context, recognition text, holder admission, and non-role boundary. A safety-critical work-admission use may need role-state, capability, method, assignment-window, and evidence references through neighboring patterns.
+- role-state predicate references under `A.2.5`;
+- capability-condition references under `A.2.2`;
+- method or method-description references under `A.3.1`, `A.3.2`, or `A.15`;
+- durable-name or alias references under `F.18`;
+- bridge references under `F.9`;
+- a selected `BoundedModelUseStructure` designated by the receiving assertion or use when it changes that interpretation.
+
+These are claims and neighboring references in an episteme. They are not `SlotSpec` declarations and do not add participants to `U.RoleAssignment` or another generic role relation. A card, table row, method appendix, or pattern section may publish the description; publication form and carrier remain separate from the episteme.
+
+#### F.4:4.1 - Content Meanings
+
+| Content element | Meaning |
+| --- | --- |
+| Described role | The exact `U.Role` that is the episteme's EntityOfConcern. |
+| Role taxonomy and effective scheme | The exact episteme and by-value interpretation scheme under which the role vocabulary is read. |
+| Eligible holder kind | Which independently admitted `U.System` kind may participate as holder in `U.RoleAssignment`; the description itself admits nobody and creates no assignment. |
+| Recognition explanation | The first-minute explanation that lets a reader distinguish this role from neighboring roles. |
+| Role invariants | Conditions about the role value that remain current under the named taxonomy and scheme. |
+| Conditional neighboring references | Direct exits for role state, capability, method, naming, and bridges only when the receiving use depends on them. |
+| Non-role boundary | The explicit separation from assignment, work, evidence, status, permission, publication, and relation-slot claims. |
+
+A quick local description can stop after the always-recoverable content. A consequence-bearing work-admission use opens only the neighboring relations it actually needs.
 
 #### F.4:4.2 - Role Description vs Neighboring Values
 
@@ -90,13 +89,13 @@ Keep these distinctions:
 | Current claim | Governing pattern |
 | --- | --- |
 | What role value is this? | `A.2` |
-| Which holder bears the role in which context and window? | `A.2.1` |
+| Which admitted system holds the role, and during which assignment occurrence? | `A.2.1` |
 | Is the assignment in an admitted role state? | `A.2.5` |
 | Can the holder do the relevant work? | `A.2.2` |
 | Which method, method description, plan, or work occurrence is current? | `A.15`, `A.15.1`, `A.15.2`, `A.3.1`, `A.3.2` |
-| How do role values satisfy requirements, conflict, qualify, or bundle inside one context? | `A.2.7` |
+| How do role values satisfy admission conditions, conflict, qualify, or bundle under one interpreted taxonomy and scheme? | `A.2.7` |
 | What durable name should this role have? | `F.18` |
-| How do role-like senses compare across contexts? | `F.9` |
+| How do role meanings compare across taxonomies or schemes? | `F.9` |
 | How is an episteme used as evidence, source, standard, requirement, status bearer, publication, or assurance input? | Direct episteme-use, evidence-use, status-use, source-use, publication-use, requirement-use, or assurance pattern |
 | Which relation position admits which filler kind? | `A.6.5` |
 
@@ -106,11 +105,11 @@ F.4 may point to these patterns; it does not copy their ontology.
 
 Write a role description in this order:
 
-1. Name the described `U.Role` and bounded context.
-2. State the admitted holder kind for role assignment.
+1. Name the described `U.Role`, its role-taxonomy episteme, and effective reference scheme.
+2. State the independently admitted holder kind eligible for role assignment.
 3. Give one short recognition paragraph.
 4. List the role invariants that make the role different from neighboring roles.
 5. State the non-role boundary: what this description does not say about assignment, capability, method, work, evidence, status, permission, publication, or slot positions.
 6. Add neighboring references only when the current use depends on them.
-7. If the name is durable, public, cross-context, or Core-facing, settle it through `F.18`; if the sense crosses contexts, use `F.9`.
+7. If the name is durable, public, or Core-facing, settle it through `F.18`; if role meanings must be compared across taxonomies or schemes, use `F.9`.
 

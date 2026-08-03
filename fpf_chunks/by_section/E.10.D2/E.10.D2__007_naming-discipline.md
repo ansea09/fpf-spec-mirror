@@ -6,28 +6,33 @@ section_id: "E.10.D2:5"
 section_title: "Naming discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__007_naming-discipline.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:5 — Naming discipline"
-line_start: 75946
-line_end: 75955
+line_start: 76382
+line_end: 76393
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,11 +44,13 @@ keywords:
 
 ### E.10.D2:5 - Naming discipline
 
-**Default suffix.** Use `...Description` for a Description episteme unless specification-use admission is explicit.
+**Default suffix.** Use `...Description` when naming a description episteme for a practitioner-facing use.
 
-**Reserved suffix.** Use `...Spec` only for a Description episteme admitted for specification use. Do not use `Spec` as a synonym for "detailed", "important", "official-looking", "formal-looking", or "stored in a schema".
+**Reserved suffix.** Use `...Spec` only when the specification-use conditions above obtain. Do not use it as a synonym for detailed, official, approved, formal-looking, or stored in a schema.
 
-**Entity names.** Use the bare FPF kind named by value for the EntityOfConcern: `Role`, `Method`, `System`, `Architecture`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another kind named by value. Do not append `Description`, `Spec`, `Card`, `View`, or `Carrier` unless the episteme, view, publication, or carrier is the actual EntityOfConcern.
+**Entity names.** Name the EntityOfConcern by its independently governed kind and identity: `Role`, `Method`, `System`, `Architecture`, `Characteristic`, `PromiseContent`, `Work`, `Episteme`, or another exact kind. Append `Description`, `Spec`, `View`, `Publication`, `Form`, `Carrier`, or `Representation` only when that neighboring object is what the name actually designates.
 
-**DescriptionContext names.** Use `EntityOfConcernRef`, `BoundedContextRef`, and `ViewpointRef` for Description episteme addressing. Do not revive `DescribedEntityRef`, `EntityOfInterest`, or peer-layer I-D-S wording.
+**Relation language.** Prefer the direct governing verb: a description carries claims about an entity; a publication occurrence makes an edition available; a carrier bears a form; a representation corresponds under a scheme; evidence supports an assertion; an admitted system performs work. Do not turn those verbs into one generic description link.
+
+**Role language.** When source wording says that a description, source, standard, requirement, evidence item, publication, dashboard, or view “has a role,” recover its exact evidence-use, source-use, standard-use, requirement-use, publication-use, assurance-use, or gate-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants. If the claimed use needs another relation and no direct governor supplies its predicate and participants, return the exact `missing-governor` result rather than inferring a universal description-to-Work or episteme-to-Work relation. Open `U.RoleAssignment` only when an independently admitted `U.System` holds a work-facing role in bounded work; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for this claim.
 

@@ -6,12 +6,12 @@ section_id: "E.21:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__008_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:6 — Conformance checklist"
-line_start: 86096
-line_end: 86118
+line_start: 86626
+line_end: 86650
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -37,6 +37,8 @@ keywords:
 
 | Check | Requirement |
 |---|---|
+| `CC-E21-0` | Keep the exact checked pattern edition, characteristic space/specification, evaluation configuration, semantic method, evaluator system and obtaining role assignment, dated assessment work, A.6.1 application/bindings, coordinate-result claims, aggregate result episteme, witnesses/evidence-use relations, optional record, local status value, F.10 status use, E.19 admission/refresh decision, assurance, publication, currentness, and later repair independently recoverable. No declaration, profile, checklist, record, or result performs the assessment or grants authority. |
+| `CC-E21-0a` | Constitute each coordinate value as a quality ascription about the same exact checked pattern edition with recoverable ReferenceScheme, characteristic, scale value, evaluation rule/probe, scope/use/window, assessment application, rationale, and evidence locus. Keep all required coordinate claims in one non-arithmetic `PatternQualityQBundle` payload carried by a separate C.2.1 aggregate result episteme; evaluator identity, viewpoint, witness presence, record placement, or bundle membership supplies neither value nor grounding by itself. |
 | `CC-E21-1` | Recover `ClaimScope` from the governing request, `E.22` frame, campaign seam, landing check, release check, or review assignment; then name `PatternOfConcernRef`, `ClaimScope`, `WorkingReaderScope`, `IntendedUse`, `QualificationWindow`, and `EvaluationEvidenceBasis`. |
 | `CC-E21-2` | Evaluate the full `RequiredPatternQualityCoordinates` set. |
 | `CC-E21-2a` | Before assigning coordinate values, record one `PrecisionRestorationProfile` with word, head, and use; phrase-apparatus; repetition-and-distribution; ontic-slot; description-publication-source; and pattern-application layers. A missing, grouped, or memory-only profile makes the `E.21` result incomplete. |
@@ -53,6 +55,6 @@ keywords:
 | `CC-E21-12` | Keep coordinate rationale separate from improvement proposal rows. |
 | `CC-E21-13` | Keep quality results out of project evidence, assurance, gate, work, safety, compliance, release, and publication truth claims. |
 | `CC-E21-14` | Do not raise a pattern with a bad `PrecisionRestorationProfile` through related-pattern-boundary, projection, or quality-result praise. When the profile shows defects before the pattern of concern's primary subject action is recoverable, or enough volume to compete with the Solution, lower `EntityOfConcernPrimacyAndSemioBiasResistance` and the affected action and usability coordinates; do not offset that loss with generic related-pattern-boundary praise or correct corpus projection evidence. |
-| `CC-E21-15` | Keep ordinal values as measurement results, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the positive subject-and-action spine. A no-proposal disposition must name checked loci and why no substantive content improvement remains. |
+| `CC-E21-15` | Keep ordinal values as ordinal content-evaluation result claims, not repair targets. Below-floor values require findings or repair. Values at or above the floor receive proposal rows only for concrete non-dominated content opportunities when improvement is requested; a non-`5` value is not automatically a defect. No proposal may raise a value by adding quality proof, guards, relation catalogues, or process evidence that worsens use, affordability, locality, ecology, or the pattern's positive subject and action guidance. A no-proposal disposition must name checked loci and why no substantive content improvement remains. |
 | `CC-E21-16` | When `E.19:4.3.3` use-value replay evidence is current, evaluate the full existing coordinate set and carry every probe separately with its branch, exact basis, working use or relying work, expected first useful result, boundary, necessity, disposition or outcome, checked loci, and evidence basis. Apply the required-failure caps and `repairBeforeUse` effects in `E.21:4.5.1`; keep optional absence non-blocking by itself while denying unsupported breadth, transfer, or value-`5` claims. Do not regroup probes, reclassify a branch, average outcomes, substitute an E.19 label for an ordinal value or status, compensate a failed required use with unrelated strengths, or infer values from a successful label alone. |
 

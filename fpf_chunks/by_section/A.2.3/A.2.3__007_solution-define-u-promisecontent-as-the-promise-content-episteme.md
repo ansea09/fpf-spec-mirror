@@ -6,12 +6,12 @@ section_id: "A.2.3:4"
 section_title: "Solution - Define U.PromiseContent as the promise-content episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__007_solution-define-u-promisecontent-as-the-promise-content-episteme.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:4 — Solution - Define U.PromiseContent as the promise-content episteme"
-line_start: 3725
-line_end: 3920
+line_start: 3707
+line_end: 3901
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,6 +30,7 @@ dependencies:
   - "A.6.C"
   - "A.6.P"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "E.10"
   - "F.12"
@@ -74,7 +75,7 @@ PromiseContentIdentity = <
 >
 ```
 
-`promisedOutcomeSpecRef` is the species-level realization of `EntityOfConcernSlot`; it is a `U.EpistemeRef` that resolves to the A.7 `OutcomeSpec` episteme about which the promise claims are made. `OutcomeSpec` is a specification-use episteme form, not a separately admitted U-kind. `claimScope` and optional `modelUseStructureRef` qualify interpretation and applicability of the promise-content claims; they are not generic identity positions. A direct dependent species may strengthen identity only through its own governing pattern.
+`promisedOutcomeSpecRef` is the species-level realization of `EntityOfConcernSlot`; it is a `U.EpistemeRef` that resolves to the A.7 `OutcomeSpec` episteme about which the promise claims are made. `OutcomeSpec` is a specification-use episteme form, not a separately admitted U-kind. The exact `claimScope` qualifies where the promise-content claims hold and remains outside the identity tuple. A selected model-use structure is not an episteme constituent or generic identity qualifier: it may be designated only by a receiving assertion or use whose interpretation actually depends on that structure. A direct dependent species may strengthen identity only through its own governing pattern.
 
 * **FPF kind:** `U.Episteme`.
 * **Time stance:** the promise content can be authored before delivery; later exact delivery-work facts, affected entities, post-work states, and any current delivery or acceptance relations are tested against the declared outcome and acceptance predicates. Evaluation work and the actual operation-result binding remain separate; when a verdict episteme is constituted, C.2.1 and A.15.PROD govern its identity and inception, while A.10 evidence relations support the relied-on assertions.
@@ -90,11 +91,10 @@ U.PromiseContent : U.Episteme {
   effectiveReferenceScheme: U.ReferenceScheme,
   providerRole             : U.Role,
   consumerRole?            : U.Role,
-  claimScope?              : U.ClaimScope,
+  claimScope               : U.ClaimScope,
   accessSpec?              : U.MethodDescription,
   acceptanceSpec           : U.Episteme,
-  unitOfDelivery?          : U.Episteme,
-  modelUseStructureRef?    : U.StructureRef
+  unitOfDelivery?          : U.Episteme
 }
 ```
 
@@ -103,11 +103,11 @@ U.PromiseContent : U.Episteme {
 * `promisedOutcomeSpecRef` resolves to the A.7 `OutcomeSpec` episteme. It is neither a `U.Work` occurrence, an affected or delivered entity, an actual operation-result binding, nor a verdict episteme.
 * `effectiveReferenceScheme` makes the claim graph and its references interpretable.
 * `providerRole` and `consumerRole` are role values; actual providers and consumers enter through named `U.RoleAssignment` occurrences.
-* `claimScope` states the operating conditions, populations, locales, or other slices over which the promise claims hold.
+* `claimScope` is the exact `U.ClaimScope` over which the promise claims hold; it states the applicable operating conditions, populations, locales, and other admitted slices instead of leaving extent implicit.
 * `accessSpec` describes the access method enacted when a holder system under an eligible consumer `U.RoleAssignment` requests access; an access-point system remains separate.
 * `acceptanceSpec` states the acceptance criteria, identifies the evaluation method through its `U.MethodDescription`, and states evidence-admissibility conditions for supported assertions; actual evidence relations remain separate.
 * `unitOfDelivery` states how accepted delivery work is counted when counting is current.
-* `modelUseStructureRef` is present only when an independently selected `BoundedModelUseStructure` changes interpretation for the current `PromiseContentUse` occurrence.
+* There is no generic `modelUseStructureRef` field. When an independently selected `BoundedModelUseStructure` changes one actually model-local receiving interpretation, the receiving assertion or use designates that structure separately; the structure neither identifies the promise content nor becomes an optional participant of `PromiseContentUse`. A genuinely structure-dependent relation species would require its own direct pattern, mandatory structure participant, stronger predicate, and occurrence-identity rule.
 * An internal delivery method remains `U.Method`. An already identified episteme is a `U.MethodDescription` only when its exact `EntityOfConcern` resolves to that Method and at least one claim says how that Method is done. A promise-content or acceptance claim may cite that episteme for one named use; Method-selection work, performed work, and `PromiseContentUse` remain separately governed.
 
 #### A.2.3:4.1.1 - Promised outcome spec (disambiguation: work vs post-work result)

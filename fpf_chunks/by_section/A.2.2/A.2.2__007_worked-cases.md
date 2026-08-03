@@ -6,12 +6,12 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:6 — Worked Cases"
-line_start: 3492
-line_end: 3529
+line_start: 3469
+line_end: 3510
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,7 +30,7 @@ keywords:
 
 #### A.2.2:6.1 - Manufacturing Cell
 
-`RobotArm_A` is assigned as `WelderRole` on `AssemblyLine_2026`. That assignment alone says who is eligible to act in the line context.
+`RobotArm_A` is the admitted holder in one exact assignment occurrence with `WelderRole`, `FactoryProductionRoles-2026`, and `Factory-Line-B-Role-Scheme`; the assignment's actual extent follows uninterrupted obtaining for those four fixed participants. A separate work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains. The assignment says only that the holder system holds that role under the named taxonomy and scheme during its extent; it proves neither permission, ability, action, nor performed work.
 
 The capability instance is separate; a statement or record may describe it:
 
@@ -47,6 +47,10 @@ SupportAndUseReferencesAroundCapability:
 ```
 
 If a method step requires `WelderRole` and bead width tolerance below 0.2 mm, the role assignment and the capability are both checked. The assignment does not supply the tolerance, and the capability does not assign the robot to the shift.
+
+**Shared boundary case — Robot-7 possesses an inspection algorithm.** `RoleAssignment-17` has four exact participants: admitted holder system `Robot-7`, `InspectorRole`, `MaintenanceRoles-2026`, and `Maintenance-Scheme-A`; its separately described extent covers the candidate inspection interval. `Robot7-TurbineInspectionCapability-2026` is the holder-dependent capability instance for turbine-inspection work within its declared sensor, calibration, input, measure, and qualification bounds. A statement that Robot-7 "possesses inspection algorithm A" does not by itself identify that capability instance, an exact Method, a deployed-software relation, or a method-description episteme. Dispatch the phrase by claim: use A.2.2 only for the bounded ability; A.3.1 for exact `TurbineInspection@Maintenance-2026 : U.Method`; a direct deployed-software or possession relation when that is the actual claim; and A.3.2 for candidate episteme `TurbineInspectionProcedure-v3` only after its exact `EntityOfConcern` resolves to that Method and one substantive claim says how it is done.
+
+Assignment and capability still do not prove execution. If `InspectionWork-17` actually occurs, Robot-7 is the actor and performs it under `RoleAssignment-17` through F.6 `performedUnderAssignment(InspectionWork-17, RoleAssignment-17)`; the Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `InspectorRole`, the capability instance, the possession phrase, the Method, and `TurbineInspectionProcedure-v3` do not act or perform the inspection.
 
 #### A.2.2:6.2 - Software Service as Deployed System
 

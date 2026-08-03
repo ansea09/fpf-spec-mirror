@@ -6,12 +6,12 @@ section_id: "A.6.B:13"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__015_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:13 — Rationale"
-line_start: 10873
-line_end: 10881
+line_start: 10945
+line_end: 10953
 dependencies:
   - "A.10"
   - "A.2.3"

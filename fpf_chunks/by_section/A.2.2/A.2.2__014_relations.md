@@ -6,12 +6,12 @@ section_id: "A.2.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__014_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:13 — Relations"
-line_start: 3621
-line_end: 3643
+line_start: 3603
+line_end: 3625
 dependencies:
   - "A.15"
   - "A.2"
@@ -36,7 +36,7 @@ keywords:
 | `A.2.5` | Governs role states and enactable-state admission; role state is not capability. |
 | `A.2.7` | Governs role relation structure; role-admission substitution or incompatibility does not create capability structure. |
 | `A.3.1` | Governs `U.Method`; method may require capability thresholds. |
-| `A.3.2` | Governs `U.MethodDescription`; a method description can describe required capability. |
+| `A.3.2` | Governs membership of one already identified claim-bearing episteme in `U.MethodDescription`; algorithm, procedure, or possession wording is only a cue until the exact admitted Method `EntityOfConcern` and substantive way-of-doing claim are recovered. An admitted method description may separately state required capability. |
 | `A.3.3` | Governs `U.Dynamics`, the state-space and transition-law episteme; dynamics may explain or predict capability but is not the holder-dependent capability instance. |
 | `A.15`, `A.15.1`, `A.15.2` | Govern method, plan, and performed work alignment; capability is one input to work admission, not work itself. |
 | `A.6.5` | Supplies SlotSpec discipline for capability relation fields and capability-use relations. |

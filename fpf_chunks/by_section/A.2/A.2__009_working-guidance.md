@@ -6,20 +6,22 @@ section_id: "A.2:7"
 section_title: "Working Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__009_working-guidance.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:7 — Working Guidance"
-line_start: 2913
-line_end: 2923
+line_start: 2891
+line_end: 2901
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -33,12 +35,12 @@ keywords:
 
 ### A.2:7 - Working Guidance
 
-1. Start with the source phrase and recover the current project concern.
-2. If the phrase names what an admitted `U.System` holder is being in a bounded context, recover a `U.Role` value.
-3. If the phrase names the holder-role-context-window relation, recover `U.RoleAssignment` under `A.2.1`.
-4. If the claim decomposes a role, do not open role mereology. Use `A.2.7` and neighboring owners to recover role-admission fit, factor or qualification, bundle expression, separate role value, role-state refinement, capability-fit condition, responsibility, permission, commitment, or obligation relation, or coupled method/work structure.
-5. If the phrase names ability, recover capability under `A.2.2`.
-6. If the phrase names performed work, intended work, or governing method, use `A.15` and its neighboring method and work patterns.
-7. If the phrase names evidence, source, standard, requirement, definition, explanation, publication, status, assurance, or gate use of an episteme, use the direct episteme-use relation pattern.
-8. If the phrase only names a relation position, field, parameter, or argument, use `A.6.5`.
+1. Identify the candidate holder. `U.Role` applies only when an admitted `U.System` is what the current participation claim classifies.
+2. Name the role value, the role-taxonomy episteme, and the effective reference scheme that interprets it.
+3. When another claim relies on who holds the role or when, state `U.RoleAssignment` under `A.2.1`.
+4. State role state, capability fit, method admission, responsibility, commitment, work, transformation, evidence, and reliance through their direct patterns; do not put them inside the role value.
+5. When a proposed subrole appears, use `A.2.7` only for substitution, incompatibility, qualification, or joint-admission bundle relations among role values. Use A.2 for another role value, and send role state, capability fit, responsibility, commitment, method, or work to its direct owner. Do not assume `partOf`.
+6. When an independently selected `BoundedModelUseStructure` changes a receiving interpretation, designate it in that receiving assertion or use rather than in a generic role relation.
+7. For a cross-scheme role use, establish the exact F.9 Bridge, state the separate C.2.1 bounded-use assertion, and recover current A.10 or B.3 reliance; a matching label, profile, Bridge, or card alone grants no use.
+8. If the source phrase only says that a non-system entity contributes, recover the direct relation with `A.6.RSIR` and stop before creating `U.Role`.
 

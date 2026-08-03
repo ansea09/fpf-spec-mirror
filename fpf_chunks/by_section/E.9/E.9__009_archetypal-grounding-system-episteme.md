@@ -6,23 +6,33 @@ section_id: "E.9:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__009_archetypal-grounding-system-episteme.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:5 — Archetypal Grounding (System / Episteme)"
-line_start: 72713
-line_end: 72719
+line_start: 73094
+line_end: 73100
 dependencies:
+  - "A.10"
+  - "A.15.1"
+  - "A.6.1"
+  - "C.2.1"
+  - "C.2.P"
+  - "C.29"
   - "E.10"
   - "E.19"
   - "E.2"
   - "E.22"
   - "E.23"
+  - "E.24.PUB"
   - "E.5.4"
   - "E.8"
   - "E.9"
   - "E.9.DA"
+  - "F.10"
   - "F.19"
+  - "G.11"
+  - "G.6"
 keywords:
 ---
 
@@ -30,6 +40,6 @@ keywords:
 
 | Holon flavour | DRR analogue | Minimum kernel illustrated |
 |---------------|--------------|-----------------------------|
-| **`U.System`** (physical) | Engineering Change Order for pump motor upgrade. | Context: inefficiency and plant-use problem; Decision: switch to brushless DC and update the selected control/maintenance patterns or selected non-pattern FPF kind-reference pairs; Rationale: energy gain vs cost and authority fit; Consequences: new control schema, supplier change, validation evidence obligation. |
-| **`U.Episteme`** (knowledge) | Foundational theory revision paper. | Context: conflicting data and explanatory problem; Decision: introduce new axiom and distribute its consequences into the selected theory/teaching patterns or selected non-pattern FPF kind-reference pairs; Rationale: explains legacy & new data, Pillar alignment, alternative rejection; Consequences: fresh predictions, update to curricula, downstream review obligation. |
+| **`U.System`** (physical target) | Decision work applies `DRRMethod` to a pump-motor change question; the selected-answer result chooses brushless DC and exact control/maintenance loci. | The C.2.1 DRR episteme records inefficiency/plant-use problem, alternatives, energy-versus-cost/authority rationale, selected loci, control-schema and supplier consequences, and validation obligation. It neither changes the pump nor performs implementation. |
+| **`U.Episteme`** (knowledge target) | Decision work applies `DRRMethod` to a theory-revision question; the selected-answer result chooses a new axiom and exact theory/teaching loci. | The DRR episteme records conflicting data, alternatives, explanatory/Pillar rationale, selected distribution, predictions, curriculum consequences, and downstream validation obligation. It does not revise the theory publication by being written. |
 

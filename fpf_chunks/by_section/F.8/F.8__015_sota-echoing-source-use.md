@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "SoTA-Echoing - Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__015_sota-echoing-source-use.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:12 — SoTA-Echoing - Source-Use"
-line_start: 91464
-line_end: 91475
+line_start: 92087
+line_end: 92098
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -56,11 +57,11 @@ keywords:
 
 | Practice line | What FPF adopts | Practical implication |
 | --- | --- | --- |
-| Controlled-vocabulary and terminology practice | Preferred labels, aliases, definitions, scope notes, and deprecated labels are separate fields. | F.8 decides admission; F.5 and F.18 then name without confusing alias with meaning change. |
-| Ontology engineering and conceptual modeling | New classes or kinds are expensive and should be tested against existing relations, contexts, and constraints. | New U-kind candidates require `E.24.UK` admission, irreducibility, and decision basis, not comfort. |
-| Domain-driven bounded-context practice | Meaning is local before it is shared. | Reuse local sense labels first; cross-context reuse needs bridge and row discipline. |
-| Authorization and policy-reference practice | Policy identifiers must resolve to definitions and governance decisions. | Policy ids use `PolicyIdRef`; the id is not itself permission, gate passage, or evidence. |
-| FPF role and episteme ontology | Work-facing roles, role descriptions, assignments, work, evidence use, and status use are distinct. | Role-like source expressions are split by kind before durable naming. |
+| Controlled-vocabulary and terminology practice | Preferred labels, aliases, definitions, scope notes, and deprecated labels are separate fields and uses. | F.8 decides the smallest disposition; F.5, F.13, and F.18 then name without confusing alias with meaning change. |
+| Ontology engineering and conceptual modeling | New classes or kinds are expensive and should be tested against existing values, relations, and constraints. | New U-kind candidates require `E.24.UK`, irreducibility, and direct admission basis, not comfort. |
+| Domain-driven bounded-model-use practice | Interpretation may depend on an independently selected organization of model use. | Carry the effective naming ReferenceScheme for every naming use; cite a selected bounded-model-use Structure only when its organization changes this use. |
+| Authorization and policy-reference practice | Policy identifiers must resolve to definitions and governance decisions. | Keep identifier, policy specification, mint decision occurrence, and result record separate; the identifier is not permission, gate passage, or evidence. |
+| FPF role, Work, and episteme ontology | Work-facing roles, RoleDescriptions, assignments, dated Work, decision results, evidence use, and status use are distinct. | Split role-like and record-like source expressions by exact kind before durable naming. |
 
-Source-use boundary: a source tradition may supply candidate words and current practice pressure. It does not select the FPF decision kind. The decision kind follows the recovered value or relation and the direct governing pattern.
+Source-use boundary: a source tradition may supply candidate expressions, aliases, and current practice pressure. It does not select the FPF disposition, establish the governed value, make a relation obtain, or confer authority. Those claims follow the direct pattern and independently recovered facts.
 

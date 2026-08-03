@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:intro — Intro"
-line_start: 94516
-line_end: 94531
+line_start: 95216
+line_end: 95231
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,23 +47,22 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ## F.17 - Unified Term Sheet
-> **Type:** Lexical publication pattern (F)
+> **Type:** Lexical row pattern (F)
 > **Status:** Stable
 
-Use this when a term decision is to become reader-facing, durable, public, Core-facing, or cross-context. Use it when a role name, status name, relation name, slot name, FPF kind name, local concept name, or bridgeable term set has outgrown one local repair and publication as one reviewed term row is current.
+**Use this when.** Use F.17 only when one already-governed value already has a selected durable naming settlement and public, Core-facing, durable, or cross-local reuse now needs one reader-facing term row.
 
-First useful move: identify the governed term decision, not the wording alone. Name the governed value and its kind, the effective `U.ReferenceScheme` carried by value, the exact local-sense coordinate, and the current direct pattern that owns the underlying value. When the row will compare local senses, compare their semantic-context projections: the `<ReferenceScheme, LocalSenseClaim>` pairs recovered from the exact cells. If those pairs differ, test an F.9 Bridge and, for a proposed row use, state the separate C.2.1 claim and its A.10 or B.3 reliance. A cross-scheme case is only the subset in which the `ReferenceScheme` values differ. Then publish only the term-row facts already governed there. A locality label or selected model-use structure enters only when it changes the naming use; neither is a mandatory sense coordinate.
+**First useful move.** Point to the exact governed value, its kind, its direct pattern, one proposed row use, and the selected Tech and Plain designations. Then apply F.14 at the row gate. If no durable row is needed, reuse the designation, alias, local expression, or direct-pattern name and stop.
 
-Primary EntityOfConcern: one durable reader-facing term decision published by one `UnifiedTermRow` in one bounded unification thread. The role, status value, relation, slot kind, local concept, demonstrated row, or other underlying governed value remains the EntityOfConcern of its direct pattern; F.17 publishes its term decision and does not reconstitute that value.
+**Primary working object.** One C.2.1 `UnifiedTermRow` episteme whose exact EntityOfConcern is the independently governed value. Its claim graph cites the separate F.18 naming-settlement episteme and selected designation expressions. The value, value kind, direct pattern, designations, effective `U.ReferenceScheme`, `SchemeSenseCell`, NameCard, basis relation, F.9 Bridge, row episteme, edition relation, publication occurrence, publication form, and carrier remain different objects.
 
-What goes wrong if missed: a public term sheet becomes a global glossary, a row turns into an ontology claim, a block name becomes a subtype, or a familiar label smuggles role, status, evidence, publication, or source authority into reuse.
+**What goes wrong if missed.** A table entry becomes an ontology claim; a stable identifier looks like identity evidence; one source title or file stands in for a local sense; a NameCard automatically creates a cell and row; or a row is mistaken for the publication occurrence that makes it available.
 
-What this pattern buys: a compact reader-facing row that preserves the governed object, direct pattern, local senses, bridge, selected names, admissible use, blocked use, and currentness condition without redoing the whole unification argument.
+**What this buys.** A compact, durable navigation row through which readers can recover the exact naming decision and direct owner without letting the row create, merge, prove, or publish the governed value.
 
-Do not use this pattern for one sentence repair, one private glossary note, one local synonym choice, or one attempt to make an object real by putting it into a table. A Plain local mantra that keeps one bounded result in attention and a Plain long mantra that keeps a dependency across direct patterns both need no UTS row; phrase length decides neither scope. Use `E.10`, `A.6.P`, `C.2.P`, `F.18`, or the direct domain pattern first when the kind, relation, slot position, admissible use, or name-card decision is still unsettled.
+**Not this pattern when.** Keep one private wording, local synonym, alias, or direct-pattern designation local. Use F.14 before every naming object, F.8 for one unresolved mint-or-reuse choice, F.18 for the durable naming settlement, F.9 only for an actual relation between exact cells, and E.24.PUB only when a selected row edition must be made available. Return ontology, obtaining, equivalence, authority, role, status, evidence, Work, and subject-use claims to their direct owners.
 

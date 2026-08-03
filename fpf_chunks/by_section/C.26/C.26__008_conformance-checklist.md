@@ -6,12 +6,12 @@ section_id: "C.26:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__008_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:7 — Conformance Checklist"
-line_start: 53644
-line_end: 53660
+line_start: 53883
+line_end: 53903
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,9 @@ dependencies:
   - "C.26.1-C.26.3"
   - "C.26.2"
   - "C.26.3"
+  - "E.17"
+  - "E.17.EFP"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "F.9"
@@ -62,5 +65,9 @@ keywords:
 | CC-C26.9 | If the claim becomes reusable, assurance-bearing, measurement-like, relation-minting, high-stakes, or superiority-claiming, the text escalates beyond QL-lite. |
 | CC-C26.10 | The text does not mint `U.Probe`, generic `U.State`, `U.DistributedState`, `U.Lens`, a new boundary kind, or a social-substance kind. |
 | CC-C26.11 | A cold reader can tell what changes in practice in the first minute. |
+| CC-C26.12 | Every quality ascription or model claim carried by C.26 names the exact bearer or C.2.1 claim-bearing episteme, effective `U.ReferenceScheme`, probe/model frame, comparison frame, `U.ClaimScope`, and the separately obtaining grounding relation or its explicit absence. |
+| CC-C26.13 | Any viewpoint use has one `U.ViewpointRef` resolving to exact P; the evaluator, P, and the reference remain distinct. |
+| CC-C26.14 | C.26 opens only for one named contextual-model obstruction that survives ordinary owners and changes an admissible inference or action; local outputs stay in their own algebras unless an admitted comparison route exists. |
+| CC-C26.15 | A `BoundedModelUseStructure` is selected independently for a named receiving use, and any subject crossing has its own exact direct governor and occurrence; labels, cards, diagrams, references, Bridges, and shared participants create neither. |
 | CC-C26-CAUSAL-EXIT | If the question under repair is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data, the text redirects the claim or question to `C.28` before retaining QL-lite or QL-NQ. |
 

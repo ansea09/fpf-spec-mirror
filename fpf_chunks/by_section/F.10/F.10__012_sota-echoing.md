@@ -6,19 +6,28 @@ section_id: "F.10:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__012_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:11 — SoTA-Echoing"
-line_start: 92479
-line_end: 92488
+line_start: 93185
+line_end: 93194
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,11 +39,11 @@ keywords:
 
 ### F.10:11 - SoTA-Echoing
 
-| Practice pressure | F.10 adoption | Practical implication |
+| Practice pressure | F.10 adoption | Rejected overread |
 | --- | --- | --- |
-| Requirements engineering and compliance practice separates clauses, applicability, satisfaction, waiver, and evidence of satisfaction. | RequirementStatus targets clauses or obligation claims, with window and source discipline. | "Compliant" without a clause and window is not a usable requirement status. |
-| Standards and profile governance separates candidate, draft, approved, deprecated, and superseded editions. | StandardStatus is edition- and context-bound. | An approved method description or standard profile does not by itself prove a run-time claim. |
-| Evidence and provenance practice separates observation, measurement, corroboration, replication, refutation, source, and confidence. | EvidenceStatus qualifies target claims and remains consumable by A.10 and B.3. | A badge, citation, metric, or dashboard tile must expose source relation before stronger reliance. |
-| Cross-context terminology practice uses bridges rather than global synonyms. | F.9 bridge kind, direction, congruence level, and loss govern cross-context status comparison. | Cross-context dashboards can explain status differences without silently equating labels. |
-| Digital credential, register, and dashboard practice separates visible status views from issuer, verifier, subject binding, revocation, currentness, and relying context. | Status display is a cue; status-use statement needs source and provenance constraints when relied on. | A green cell or credential view is not gate passage, role assignment, permission, or assurance by itself. |
+| Requirements engineering separates clauses, applicability, satisfaction, waiver, and evidence of satisfaction. | RequirementStatus targets an exact clause and consumes a direct evaluation result under scope, conditions, and window. | *Compliant* without clause/rule/result is not usable status. |
+| Standards/profile governance separates candidate, draft, approved, deprecated, and superseded editions. | StandardStatus names exact source, target, scheme, edition, window, and use. | Approval does not prove enactment, runtime satisfaction, permission, or compliance. |
+| Evidence/provenance practice separates observation, measurement, corroboration, replication, refutation, source, and confidence. | EvidenceStatus classifies standing of an exact target claim after direct results and evidence-use relations are recovered. | Evidence status is not a domain result, target truth, or assurance. |
+| Cross-local terminology uses explicit mappings rather than global synonyms. | F.9 Bridges exact cells; F.10 separately names interpretation relation and rule. | Bridge/Card/family edge is not explanation, evaluation, or substitution. |
+| Credential, register, and dashboard practice separates visible view, issuer/verifier, subject binding, revocation, currentness, and relying use. | A display is a cue; source/status assertion and actual receiving use stay separate. | A green cell or credential view is not status application, gate passage, role assignment, permission, or assurance. |
 

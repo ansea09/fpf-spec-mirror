@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 84655
-line_end: 84666
+line_start: 85103
+line_end: 85114
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -41,11 +41,11 @@ keywords:
 
 `E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition text visible before the heavier assurance machinery begins.
 
-**First useful move.** Name the pattern-quality review or refresh claim, run baseline triage over the reviewed pattern or subset, and add only the risk-selected profiles needed by the present ontology, usability, SoTA, boundary, naming, or authority risk.
+**First useful move.** Name the exact reviewed pattern edition or subset, admission/refresh question, `U.ClaimScope`, qualification window, PCP-BASE plus each risk-selected profile, and the semantic review method. When actual review is claimed, identify the reviewer system, obtaining role assignment, dated review work, and exact check applications before constituting findings or a review-result episteme.
 
 **Local-repair boundary.** If baseline triage shows that the current review question has no present ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Do not run every profile just because `E.19` exists, and do not claim an `E.21` quality value unless `E.21` has evaluated the pattern version over its required coordinate set.
 
-**Primary EntityOfConcern in plain terms.** The primary `EntityOfConcern` is one FPF pattern-quality review or refresh claim: the reviewed pattern text, the selected profile, the defects found or cleared, and the boundary of the admission or refresh decision.
+**Primary EntityOfConcern in plain terms.** One exact FPF pattern edition or bounded subset under a declared admission or refresh review question. The PCP declarations, review method, reviewer assignment, review/repair/verification work, findings, aggregate result episteme, witnesses/evidence use, and any authority-bearing admission or refresh decision are separate objects.
 
 **Primary working reader.** The first reader is an FPF reviewer, with the pattern author close behind. The review must still be answerable to the eventual practitioner or manager who will rely on the admitted pattern.
 

@@ -6,19 +6,28 @@ section_id: "F.10:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__010_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:9 — Consequences"
-line_start: 92461
-line_end: 92470
+line_start: 93171
+line_end: 93178
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,11 +39,9 @@ keywords:
 
 ### F.10:9 - Consequences
 
-F.10 adds a small amount of relation work before a status claim can be relied on. That cost is intentional: the user names context, target kind, window, source, and use instead of letting one status word decide everything.
+F.10 adds a small amount of relation recovery before status can be relied on. The user names exact target/result, local value, scheme, scope, window, source, rule, and use instead of letting a word decide everything.
 
-The payoff is practical. Teams can compare statuses across disciplines, explain why a status was accepted or rejected, see where bridge loss enters, and stop a status display from becoming permission, assurance, or performed-work evidence by accident.
+The payoff is practical: teams can compare statuses across disciplines, explain why a status was asserted or rejected, locate bridge/interpretation loss, and stop a display from becoming target truth, permission, assurance, gate passage, or work evidence.
 
-The main limitation is that F.10 does not decide the downstream claim. It does not compute assurance, pass a gate, authorize work, prove causal effect, perform source-currentness repair, or evaluate a requirement clause by itself. It supplies the status-family and status-use relation that the direct pattern may consume.
-
-Open the direct governing pattern when the attempted use depends on evidence provenance, assurance level, gate decision, permission, performed work, causal identification, source freshness, publication interpretation, standard authority, requirement evaluation, or contested source order.
+The cost is that F.10 cannot decide neighboring results. It does not perform measurement or evaluation, compute assurance, approve a standard by speech act, satisfy a clause, pass a gate, authorize work, prove causal effect, decide currentness, or establish actual downstream use.
 

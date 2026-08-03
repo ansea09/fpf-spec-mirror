@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 71716
-line_end: 72124
+line_start: 72080
+line_end: 72507
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -138,6 +138,20 @@ When expressing admissibility or validity constraints as predicates (`Definition
 **H-9 (Footer marker sentinel).** Footer marker **SHALL** be a single heading line whose `FullId` is the pattern ID followed by the reserved sentinel token `:End` (no ordinals, no title, no square‑bracket tags):
 `### <PatternId>:End`
 It is the only allowed heading *inside* a pattern whose section token is non‑numeric. It **MUST** be the final line of the pattern and **MUST NOT** carry any prose. Tooling and readers **MUST** treat it as a boundary sentinel, not as a semantic section.
+
+**H-10 (Publication-token classification and addressability).** Before emitting an FPF-governed token as a reference, authors **MUST** classify it under exactly one of these seven E.8-local publication-token classes and use the matching form:
+
+- `PatternRef` names one exact current pattern body. It is addressable only when the assembled publication carries one complete H2 body, one matching `:End`, and a truthful current ToC status for the same PatternID; a structural checker may verify and report that conformance but does not supply the status or normative authority.
+- `PlannedCatalogEntry` names an explicit future catalogue commitment. It has no current pattern semantics, governing force, prerequisite force, or addressable body; a useful prose mention **MUST** say `planned` or `future`, and a current semantic dependency **MUST** use an existing direct owner or state the current gap.
+- `SectionRef` names one exact heading path inside one current pattern. Authors and tooling **MUST** read the complete section identifier before examining any substring.
+- `LocalDeclaredId` names an exact declaration within one pattern, such as a conformance clause, component, interface row, or predicate. Its scope is local unless an explicit stable anchor or a separate promotion decision establishes wider use.
+- `LocalAlias` names an explicitly declared compatibility alias and resolves to its declared canonical local target.
+- `PatternFamilySelector` selects a navigable pattern family using canonical spelling `<base>.*`. It requires a current base pattern and at least one current matching member and **MUST NOT** stand in for one exact governing target.
+- `NonReferenceToken` classifies a schematic example or ordinary local prose/code that neither occupies a reference-bearing position nor declares a local public ID. It explicitly denotes no reference; key-like typography or backticks alone do not change that class.
+
+Resolution and checking are declaration-first and context-sensitive. Authors and tooling **MUST NOT** split complete SectionRefs, strip a local-ID prefix, promote a local symbol by visual resemblance, or replace these classes with an ignore list. An unresolved token in a reference-bearing authoring form is an error; ordinary code or local wording is not silently upgraded to a reference.
+
+**H-11 (Assembled Part boundaries and title agreement).** In the assembled publication, every compact ToC Part label **MUST** be a bold separator with a blank line on both sides, not a duplicate structural Part heading. Its title and ASCII ` - ` separator **MUST** agree exactly with the corresponding `# Part <letter> - <title>` body heading. A reserved body Part that has no compact ToC table, including current Part H, does not require an empty compact label or table.
 
 *Unification note:* historic A‑ and D‑templates differed only by the presence/absence of **Bias‑Annotation** and **Relations**; the unified template keeps the headings everywhere and requires every heading to carry content-bearing grounding, boundary, consequence, rationale, source-use, relation, or reduced-case material rather than an omission placeholder.
 The Alexandrian pattern canon historically calls *Problem frame* “Context”. FPF avoids that label because **Context** is already overloaded in FPF (e.g., `U.BoundedContext` and its Plain‑register label).
@@ -411,6 +425,11 @@ The local recognition signature should make recoverable:
 frame` prose may be used as the first sentence or compact cue of this
 signature.
 It is not one separate required section.
+
+**Entry-cue authoring rule.** When a pattern needs a reader-facing entry cue, begin with one ordinary question about the user's actual current object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, name the direct governing pattern, the smallest exact result kind usable now, the stop or return condition, and one tempting overread that remains non-admissible. The cue is reading guidance, not a section schema, method, plan, work occurrence, structure, or relation; it neither constitutes the result nor makes a routed relation obtain.
+
+Resolve the current head before coarsening it. Keep an actual holon and each direct relation under `A.1` and the relevant relation pattern; an independently selected `U.Structure` under `A.22`; a boundary-description episteme, its effective `ReferenceScheme`, and any separately obtaining empirical-grounding relation under `C.2.1`, with the grounding holon separately admitted under `A.1`; a `U.View` under `E.17.0`; a `U.ClaimScope` under `A.2.6`; a `U.WorkPlan` under `A.15.2`; dated `U.Work` under `A.15.1`; architecture and architecture-description claims under `C.30` and `C.30.AD`; and a publication occurrence under `E.24.PUB`. Keep an FPF `Map` and a decision occurrence under their own direct patterns. Actual, intended, selected, expected, described, viewed, mapped, grounded, published, and performed objects remain distinct. A cue, diagram, description, file, card, suffix, template label, or public coarsening creates none of them and establishes none of their relations.
+
 Compact candidate-pattern comparison belongs in `E.11`-distributed entry material; expanded entry-disambiguation cases belong in `I.2`.
 
 If the prose points to neighbouring patterns or other governing companion roles, it should present them as neighboring FPF patterns, project-side FPF kinds and references named by value, or `E.11` entry-recognition reclassifications rather than as hidden co-authorities of the current pattern.

@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 94793
-line_end: 95214
+line_start: 95489
+line_end: 96119
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,7 +47,6 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
@@ -53,7 +54,7 @@ keywords:
 
 #### F.17:12.1 - Role name becomes public across two project contexts
 
-A project has `ReviewerRole@DesignReview` and `ReviewerRole@ExternalAudit`. The local expressions both say "reviewer", but one concerns a system-in-role performing design review work and the other concerns an assurance actor producing an audit report.
+One project has an exact design-review role value and an independently governed external-audit role value. Both local expressions say `reviewer`, but one concerns a system-in-role performing design-review Work and the other concerns an assurance actor producing an audit report.
 
 The UTS row does not declare one universal reviewer. It either creates two rows or, when one naming use between different semantic-context projections is genuinely needed, cites an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names the use direction, label rule, and tolerated loss. Each row cites the direct role pattern, the RoleDescription when current, and the `F.18` NameCardRef. A.10 or B.3 governs reliance on the use claim; no row or card creates a role assignment or review Work.
 
@@ -83,6 +84,7 @@ These rows publish naming decisions already governed and named in A.22.CGUS. The
 
 ```text
 UTSRowId: UTS.DemonstrativeUnfoldingSlice.FPFPublic
+ReferenceScheme: FPFCoreReferenceScheme
 UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
 Block: Pattern use and teaching
 GovernedValueRef: DemonstrativeUnfoldingSlice@Context
@@ -97,10 +99,11 @@ RowRationale: this row names one readable demonstration of admissible continuati
 AdmissibleUse: public naming of the governed demonstrative episteme under affirmative claim Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
 BlockedUse: actual traversal, method order, work order, performed work, or teaching-medium identity
 Notes: reliance basis is EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11 with RelianceDisposition=pass for this naming use only
-RowEdition: 2026-07-11
+RowEditionId: 2026-07-11
 CurrentnessCondition: review when the governed value, FPFCoreReferenceScheme, NameCard, local-sense basis relation, Bridge endpoint or profile, bounded-use claim, A.10 reliance basis, or reader evidence changes
 
 UTSRowId: UTS.DemonstrativeUnfoldingSlice.SeminarTeaching
+ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
 UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
 Block: Pattern use and teaching
 GovernedValueRef: DemonstrativeUnfoldingSlice@Context
@@ -115,10 +118,11 @@ RowRationale: the bounded teaching alias adds repeated speech and attentional us
 AdmissibleUse: repeated English-language FPF seminar speech that points to the public term under affirmative claim Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
 BlockedUse: ritual authority, slogan, method, plan, work, fixed order, or reverse substitution from every public walkthrough
 Notes: reliance basis is EvidenceUse.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11 with RelianceDisposition=pass for this naming use only
-RowEdition: 2026-07-11
+RowEditionId: 2026-07-11
 CurrentnessCondition: review when FPFSeminarTeachingReferenceScheme-2026-07-11, the governed value, NameCard, local-sense basis relation, Bridge endpoint or profile, bounded-use claim, A.10 reliance basis, dictionary evidence, or reader evidence changes
 
 UTSRowId: UTS.DemonstratedPatternUseRow.SeminarTeaching
+ReferenceScheme: FPFSeminarTeachingReferenceScheme-2026-07-11
 UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
 Block: Pattern use and teaching
 GovernedValueRef: DemonstratedPatternUseRow@Context
@@ -132,7 +136,7 @@ BridgeRefs: none; expression and governed-row use are interpreted under the same
 RowRationale: this row names one shown conditional pattern use with its Solution, expected result, and current condition inside a mantra
 AdmissibleUse: bounded seminar reference to one demonstrated result-bearing continuation
 BlockedUse: root Move, physical movement, operation, fixed serial step, PlanItem, performed Work, or continuation detached from its slice
-RowEdition: 2026-07-11
+RowEditionId: 2026-07-11
 CurrentnessCondition: review when the demonstrated-row schema, NameCard, local-sense basis relation, seminar-teaching scheme, or reader interpretation changes
 ```
 
@@ -169,11 +173,11 @@ SenseCell.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
 LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
   localSenseCellRef: SenseCell(FPFCoreReferenceScheme, DemonstrativeUnfoldingSlice-public)
   basisEpistemeRef: A.22.CGUS
-  basisPublicationUnitRef: A.22.CGUS:4.3.3-Ordinary-bounded-use
 
 LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: A.22.CGUS:4.3.3-Ordinary-bounded-use
   viewpointRef: FPFPublicReaderViewpoint
   claimGraph:
     supportedSenseClaim: one readable demonstration of admissible continuations through a wider constraint-governed unfolding structure
@@ -185,11 +189,11 @@ LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07
 LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
   localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstrativeUnfoldingSlice-mantra)
   basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10
 
 LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10
   viewpointRef: FPF Seminar Participant Viewpoint
   claimGraph:
     supportedSenseClaim: a short repeatable explanatory walkthrough used to hold the whole solution structure in attention
@@ -201,11 +205,11 @@ LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2
 LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
   localSenseCellRef: SenseCell(FPFSeminarTeachingReferenceScheme-2026-07-11, DemonstratedPatternUseRow-mantra-move)
   basisEpistemeRef: SeminarExpression.FPFPracticalUse.2026-07-11
-  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides61-62
 
 LocalSenseBasisRelationDescription.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11:
   entityOfConcernRef: LocalSenseBasisRelation.DemonstratedPatternUseRow.SeminarTeaching.2026-07-11
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: SeminarExpression.FPFPracticalUse.2026-07-11.Slides61-62
   viewpointRef: FPF Seminar Participant Viewpoint
   claimGraph:
     supportedSenseClaim: one shown pattern-use continuation with its Solution, expected result, and current condition inside a mantra
@@ -249,8 +253,8 @@ A.10 evidence reliance for this claim:
   TargetClaimRef: Claim.DemonstrativeUnfoldingSlice.SeminarToPublic.Naming.2026-07-11
   BoundedEvidenceUse: use the seminar word "mantra" to point to the public demonstrative-walkthrough term and the same governed A.22.CGUS value
   EvidencePaths:
-    PublicSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11 --basisEpistemeRef--> A.22.CGUS --basisPublicationUnitRef--> A.22.CGUS:4.3.3-Ordinary-bounded-use --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
-    SeminarSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11 --basisEpistemeRef--> SeminarExpression.FPFPracticalUse.2026-07-11 --basisPublicationUnitRef--> SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10 --carriedBy--> FPF_first_seminar_reworked_slidement.pptx@sha256:325B50C5D062479434ECCABFF0B8B3E316825CAA5E1646A61D25183B90B9CA89 (Git blob e990847d37ddca59d15a9cc434fad15381a2122d) and fpf_first_seminar_slides.content.md@sha256:B38C6F5FBC85CAF9986D2141095C90DAFFAB6F3FEA607ACE7FA6CE60EB18228D (Git blob 34fd989b646aa4dc9f2879cab40d2e6dde989b1b)
+    PublicSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11 --basisEpistemeRef--> A.22.CGUS; LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.FPFPublic.2026-07-11 --basisPublicationUnitRef--> A.22.CGUS:4.3.3-Ordinary-bounded-use; A.22.CGUS --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
+    SeminarSenseBasisRecord: LocalSenseBasisRelation.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11 --basisEpistemeRef--> SeminarExpression.FPFPracticalUse.2026-07-11; LocalSenseBasisRelationDescription.DemonstrativeUnfoldingSlice.SeminarTeaching.2026-07-11 --basisPublicationUnitRef--> SeminarExpression.FPFPracticalUse.2026-07-11.Slides8-10; SeminarExpression.FPFPracticalUse.2026-07-11 --carriedBy--> FPF_first_seminar_reworked_slidement.pptx@sha256:325B50C5D062479434ECCABFF0B8B3E316825CAA5E1646A61D25183B90B9CA89 (Git blob e990847d37ddca59d15a9cc434fad15381a2122d) and fpf_first_seminar_slides.content.md@sha256:B38C6F5FBC85CAF9986D2141095C90DAFFAB6F3FEA607ACE7FA6CE60EB18228D (Git blob 34fd989b646aa4dc9f2879cab40d2e6dde989b1b)
     NameSettlementRecord: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching --carriedBy--> _current-pattern-hosts/A.22.CGUS-Constraint-Governed-Unfolding-Structure.md
     DictionaryEvidenceRecord-MW: Merriam-Webster "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.merriam-webster.com/dictionary/mantra
     DictionaryEvidenceRecord-OALD: Oxford Advanced Learner's Dictionary "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.oxfordlearnersdictionaries.com/definition/english/mantra
@@ -290,6 +294,7 @@ This row publishes the already selected A.1.1/F.18 naming decision for the depen
 
 ```text
 UTSRowId: UTS.BoundedModelUseStructure.FPFCore.2026-07-25
+ReferenceScheme: FPFCoreReferenceScheme
 UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: BoundedModelUseStructure
@@ -302,8 +307,8 @@ SenseCellRefs: SenseCell.BoundedModelUseStructure.FPFCore.2026-07-25
 BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
 RowRationale: the governed value is the A.1.1 kind token; its admitted members are exactly the U.Structure individuals that satisfy the A.1.1/A.22 membership condition, and the selected names designate that organization of one model edition's governed applicability, actual use, and fixed-content expression coherence over exact admitted model-use holons, exact applied constraint claims, and the named frame; a claim scope or membership outcome is not an applied constraint by itself
 AdmissibleUse: Core-facing designation of the A.1.1 dependent structure specialization and retrieval of the DDD plain term
-BlockedUse: no U.BoundedContext holon, no identity for a subsystem, team, claim scope, model episteme, description, or view, no relation occurrence, and no positive crossing-structure membership
-RowEdition: 2026-07-25
+BlockedUse: no generic context holon, no identity for a subsystem, team, claim scope, model episteme, description, or view, no relation occurrence, and no positive crossing-structure membership
+RowEditionId: 2026-07-25
 CurrentnessCondition: reopen when the A.1.1/A.22 membership or continuity rule, one of the three direct relation kinds, FPFCoreReferenceScheme, the NameCard, an exact applied constraint proposition or its use in selection, or the named bounded-model-use frame changes
 
 SenseCell.BoundedModelUseStructure.FPFCore.2026-07-25:
@@ -321,7 +326,7 @@ LocalSenseBasisRelation.BoundedModelUseStructure.FPFCore.2026-07-25:
 
 LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
   entityOfConcernRef: LocalSenseBasisRelation.BoundedModelUseStructure.FPFCore.2026-07-25
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
     supportedSenseClaim: BoundedModelUseStructure names the exact A.1.1/A.22 dependent structure specialization, with bounded context retained only as its Plain retrieval name
@@ -339,6 +344,7 @@ These rows publish the three already governed A.1.1 relation-kind names used by 
 
 ```text
 UTSRowId: UTS.ModelApplicabilityRelation.FPFCore.2026-07-25
+ReferenceScheme: FPFCoreReferenceScheme
 UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: ModelApplicabilityRelation
@@ -352,7 +358,7 @@ BridgeRefs: none; this row makes no semantic-correspondence or substitution clai
 RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 applicability predicate and identity rule, and the selected names expose that relation while keeping A.2.6 scope membership, the derived interval, assertions, and the selected structure separate
 AdmissibleUse: Core-facing designation of the A.1.1 relation kind, including A.2.6 claim-scope coordination and the E.24.UK bounded-model-use membership test
 BlockedUse: no applicability occurrence from a name, model mention, shared label, scope row, assertion, interval, publication, or structure membership
-RowEdition: 2026-07-25
+RowEditionId: 2026-07-25
 CurrentnessCondition: reopen when A.1.1 changes the participant kinds, predicate, scope alignment, model-scheme interpretation, temporal identity, NameCard, or named Core use
 
 SenseCell.ModelApplicabilityRelation.FPFCore.2026-07-25:
@@ -367,11 +373,11 @@ SenseCell.ModelApplicabilityRelation.FPFCore.2026-07-25:
 LocalSenseBasisRelation.ModelApplicabilityRelation.FPFCore.2026-07-25:
   localSenseCellRef: SenseCell(FPFCoreReferenceScheme, ModelApplicabilityRelation-core)
   basisEpistemeRef: A.1.1
-  basisPublicationUnitRef: A.1.1:4.2 ModelApplicabilityRelation
 
 LocalSenseBasisRelationDescription.ModelApplicabilityRelation.FPFCore.2026-07-25:
   entityOfConcernRef: LocalSenseBasisRelation.ModelApplicabilityRelation.FPFCore.2026-07-25
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: A.1.1:4.2 ModelApplicabilityRelation
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
     supportedSenseClaim: ModelApplicabilityRelation names the exact A.1.1 relation kind rather than a scope-membership predicate, claim, record, or interval
@@ -383,6 +389,7 @@ LocalSenseBasisRelationDescription.ModelApplicabilityRelation.FPFCore.2026-07-25
 
 ```text
 UTSRowId: UTS.ModelUseRelation.FPFCore.2026-07-25
+ReferenceScheme: FPFCoreReferenceScheme
 UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: ModelUseRelation
@@ -396,7 +403,7 @@ BridgeRefs: none; this row makes no semantic-correspondence or substitution clai
 RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 actual-use predicate and identity rule, and the selected names expose that relation while keeping applicability, role assignment, performed Work, method application, claims, and records separate
 AdmissibleUse: Core-facing designation of the A.1.1 relation kind and its use in the E.24.UK bounded-model-use membership test
 BlockedUse: no use occurrence from availability, access, mention, assignment alone, Work alone, method application, assertion, publication, or structure membership
-RowEdition: 2026-07-25
+RowEditionId: 2026-07-25
 CurrentnessCondition: reopen when A.1.1 changes the participant kinds, F.6 prerequisite, actual-use predicate, actor derivation, maximal-continuous-use identity, NameCard, or named Core use
 
 SenseCell.ModelUseRelation.FPFCore.2026-07-25:
@@ -411,11 +418,11 @@ SenseCell.ModelUseRelation.FPFCore.2026-07-25:
 LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25:
   localSenseCellRef: SenseCell(FPFCoreReferenceScheme, ModelUseRelation-core)
   basisEpistemeRef: A.1.1
-  basisPublicationUnitRef: A.1.1:4.2 ModelUseRelation
 
 LocalSenseBasisRelationDescription.ModelUseRelation.FPFCore.2026-07-25:
   entityOfConcernRef: LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: A.1.1:4.2 ModelUseRelation
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
     supportedSenseClaim: ModelUseRelation names the exact A.1.1 actual-use relation kind rather than applicability, availability, Work, assignment, method application, claim, or record
@@ -427,6 +434,7 @@ LocalSenseBasisRelationDescription.ModelUseRelation.FPFCore.2026-07-25:
 
 ```text
 UTSRowId: UTS.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
+ReferenceScheme: FPFCoreReferenceScheme
 UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: ModelExpressionCoherenceRelation
@@ -440,7 +448,7 @@ BridgeRefs: none; this designation makes no semantic-correspondence claim, and a
 RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 coherence predicate and participant-determined identity rule, and the selected names expose fixed-content semantic coherence while keeping the local predicate value, maintenance, transformation, evaluation, result, evidence, and assertion separate
 AdmissibleUse: Core-facing designation of the A.1.1 relation kind and its use in the E.24.UK bounded-model-use membership test
 BlockedUse: no coherence occurrence from a label, predicate label, equal spelling, maintenance or evaluation Work, changed carrier, result episteme, evidence, assertion, publication, or structure membership
-RowEdition: 2026-07-25
+RowEditionId: 2026-07-25
 CurrentnessCondition: reopen when A.1.1 changes the participant kinds, five-part predicate-value rule, interpretation branch, permitted loss, participant-determined identity, NameCard, or named Core use
 
 SenseCell.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
@@ -455,11 +463,11 @@ SenseCell.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
 LocalSenseBasisRelation.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
   localSenseCellRef: SenseCell(FPFCoreReferenceScheme, ModelExpressionCoherenceRelation-core)
   basisEpistemeRef: A.1.1
-  basisPublicationUnitRef: A.1.1:4.2 ModelExpressionCoherenceRelation
 
 LocalSenseBasisRelationDescription.ModelExpressionCoherenceRelation.FPFCore.2026-07-25:
   entityOfConcernRef: LocalSenseBasisRelation.ModelExpressionCoherenceRelation.FPFCore.2026-07-25
-  entityOfConcernKindRef: LocalSenseBasisRelation@Context
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: A.1.1:4.2 ModelExpressionCoherenceRelation
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
     supportedSenseClaim: ModelExpressionCoherenceRelation names the exact A.1.1 relation kind rather than its predicate value, maintenance, transformation, evaluation, result, evidence, or assertion
@@ -470,4 +478,206 @@ LocalSenseBasisRelationDescription.ModelExpressionCoherenceRelation.FPFCore.2026
 ```
 
 No public F.17 row is returned for `ModelExpressionCoherencePredicate`: that label remains local to A.1.1 and names the five-part criterion ValueKind rather than any of the three relation kinds.
+
+#### F.17:12.4f - Viewpoint, view, and conformance-relation public rows
+
+These three rows satisfy different receiver needs and therefore cannot be merged. E.24.UK has already admitted `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 owns both positive membership predicates and the direct `EpistemeViewpointConformanceRelation`. F.14 has been applied again: the existing Tech designations are retained, no synonym family is opened, and the public rows are justified by stable Core citation and exact typed-reference use. The rows admit no kind, make no relation obtain, and assert no E.24.PUB publication occurrence, form, carrier, or authority.
+
+The two existing dependent-kind designations use these progressive-minimum F.18 naming-settlement epistemes. They remain distinct from the E.24.UK admission results, the governed kinds, their members, every reference or designator, and the F.17 rows that cite them.
+
+```text
+NameCard:
+  NameCardId: NameCard.U.Viewpoint.FPFPublic.2026-08-02
+  GovernedValueRef: U.Viewpoint
+  GovernedValueKindRef: U.Kind
+  GoverningPatternRef: E.17.0
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NameCard.U.Viewpoint.FPFPublic.2026-08-02.ClaimGraph — complete naming-settlement graph constituted by the claims designated below
+  LocalSenseCellRef: SenseCell.U.Viewpoint.FPFCore.2026-08-02
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
+  TechLabel: U.Viewpoint
+  PlainLabel: viewpoint
+  CandidateSet: U.Viewpoint; ViewpointEpisteme; ViewpointConvention; ViewpointRecord; ViewpointStructure
+  CandidateCoverage: dependent-kind, episteme, convention, record, and structure readings tested
+  RejectedCandidates: ViewpointEpisteme hides the stable public kind name; ViewpointConvention can denote fixed claim content rather than P; ViewpointRecord adds a wrapper; ViewpointStructure names S rather than P; none is an alias
+  SelectionRationale: retain the admitted Core Tech name and ordinary Plain retrieval word while the exact local-sense claim keeps P, S, references, and designators distinct
+  DeclaredUse: Core-facing designation of the E.17.0 same-individual dependent kind and typed reference resolution to exact P
+  NonAdmissibleUse: no P, S, kind membership, selection, Work, conformance, view membership, or publication follows from the card or labels
+  BridgeRefs: none; this settlement makes no cross-local correspondence claim
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.U.Viewpoint.FPFCore.2026-08-02
+  LineageEntries: ViewpointId remains only a designator of exact P; viewpointRef remains U.ViewpointRef and resolution grants no membership
+  RefreshCondition: reopen when E.17.0 changes P's same-individual membership predicate, E.24.UK admission, exact reference typing, FPFCoreReferenceScheme, reader meaning, or public use
+```
+
+```text
+NameCard:
+  NameCardId: NameCard.U.View.FPFPublic.2026-08-02
+  GovernedValueRef: U.View
+  GovernedValueKindRef: U.Kind
+  GoverningPatternRef: E.17.0
+  ReferenceScheme: FPFCoreReferenceScheme
+  ClaimContent: NameCard.U.View.FPFPublic.2026-08-02.ClaimGraph — complete naming-settlement graph constituted by the claims designated below
+  LocalSenseCellRef: SenseCell.U.View.FPFCore.2026-08-02
+  LocalSenseBasisRelationRef: LocalSenseBasisRelation.U.View.FPFCore.2026-08-02
+  TechLabel: U.View
+  PlainLabel: episteme conforming to an exact viewpoint
+  CandidateSet: U.View; ViewEpisteme; ConformingEpisteme; ViewArtifact; PublishedView
+  CandidateCoverage: dependent-kind, episteme, conformance, artifact, and publication readings tested
+  RejectedCandidates: ViewEpisteme can look like a second individual; ConformingEpisteme drops the exact viewpoint relation; ViewArtifact collapses episteme with form or carrier; PublishedView makes availability look constitutive; none is an alias
+  SelectionRationale: retain the admitted Core Tech name while the Plain label exposes that the same E gains membership only through exact E/P conformance
+  DeclaredUse: Core-facing designation of the E.17.0 same-individual dependent kind and typed reference to an already conforming episteme
+  NonAdmissibleUse: no membership from direct authoring, construction, query execution, transformation, selection, rendering, bundle, form, carrier, or publication
+  BridgeRefs: none; this settlement makes no cross-local correspondence claim
+  PublicRowStatus: current
+  UnifiedTermRowRef: UTS.U.View.FPFCore.2026-08-02
+  LineageEntries: viewRef resolves exact E only after membership is independently current; view, diagram, face, form, and carrier readings remain separated
+  RefreshCondition: reopen when E.17.0 changes E/P conformance, same-individual membership, E.24.UK admission, FPFCoreReferenceScheme, reader meaning, or public use
+```
+
+##### F.17:12.4f.1 - `U.Viewpoint`
+
+```text
+UTSRowId: UTS.U.Viewpoint.FPFCore.2026-08-02
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: R1.2-MultiView-Naming
+Block: Multi-view describing
+GovernedValueRef: U.Viewpoint
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: E.17.0
+UnifiedTechName: U.Viewpoint
+UnifiedPlainName: viewpoint
+NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-08-02
+SenseCellRefs: SenseCell.U.Viewpoint.FPFCore.2026-08-02
+BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
+RowRationale: the governed value is the E.17.0/E.24.UK same-individual dependent-kind token, not P, S, a reference, or a designator; an admitted member is the same exact C.2.1 episteme P whose EntityOfConcern is independently selected viewpoint-convention Structure S_viewpoint and whose fixed ClaimGraph under its effective ReferenceScheme satisfies E.17.0's complete positive membership predicate; admission result E24UK-AR-UVIEWPOINT-RG-01 remains a separate decision projection
+AdmissibleUse: Core-facing designation of the dependent kind and exact typing of a reference whose resolution yields an already admitted viewpoint episteme P
+BlockedUse: no viewpoint membership, episteme identity, Structure selection, method, Work, conformance, View membership, authority, or publication from the row, name, ViewpointId, viewpointRef, NameCard, bundle position, selected S, form, or carrier
+RowEditionId: 2026-08-02
+CurrentnessCondition: reopen when E.17.0 changes P's C.2.1 discriminators, exact S EntityOfConcern, fixed target/concern/admitted-kind/conformance claims, effective ReferenceScheme, same-individual predicate, E.24.UK admission, NameCard, or typed-reference use
+Notes: retain the exact field viewpointRef : U.ViewpointRef; under the effective scheme its resolution yields P, while ViewpointId only designates P and neither operation grants membership
+
+SenseCell.U.Viewpoint.FPFCore.2026-08-02:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: U.Viewpoint-core
+  LocalExpression: U.Viewpoint
+  LocalSenseClaim: the same-individual dependent kind of exact C.2.1 epistemes P whose exact EntityOfConcern is independently selected viewpoint-convention Structure S_viewpoint and whose fixed claims identify S, state the exact target-kind criterion, stakeholder or audience referents when current, concerns, admitted episteme kinds, coverage, semantic-form, completeness, consistency, omission and conformance rules without circular View premises, and the describing-use frame and fixed applicability qualifiers
+  senseFamily: MultiViewRecognition
+  NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-08-02
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
+
+LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, U.Viewpoint-core)
+  basisEpistemeRef: E.17.0
+
+LocalSenseBasisRelationDescription.U.Viewpoint.FPFCore.2026-08-02:
+  entityOfConcernRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: E.17.0:4.2-4.2.4
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: U.Viewpoint names the same P identified under C.2.1 only when P's exact S EntityOfConcern and fixed convention claims satisfy E.17.0
+    admittedUseClaim: Core-facing designation, exact U.ViewpointRef typing, and retrieval of the direct membership rule
+    nonAdmittedUseClaim: the basis relation, cell, NameCard, row, identifier, reference, Structure, bundle, or publication grants no membership
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-08-02
+```
+
+##### F.17:12.4f.2 - `U.View`
+
+```text
+UTSRowId: UTS.U.View.FPFCore.2026-08-02
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: R1.2-MultiView-Naming
+Block: Multi-view describing
+GovernedValueRef: U.View
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: E.17.0
+UnifiedTechName: U.View
+UnifiedPlainName: episteme conforming to an exact viewpoint
+NameCardRef: NameCard.U.View.FPFPublic.2026-08-02
+SenseCellRefs: SenseCell.U.View.FPFCore.2026-08-02
+BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
+RowRationale: the governed value is the E.17.0/E.24.UK same-individual dependent-kind token, not candidate episteme E, viewpoint P, conformance occurrence, reference, form, or carrier; an admitted member is the same exact C.2.1 episteme E only when EpistemeViewpointConformanceRelation(E,P) obtains for at least one exact admitted P; one unchanged E may conform to several viewpoint editions through distinct pair-determined occurrences while remaining one episteme; admission result E24UK-AR-UVIEW-RG-01 remains a separate decision projection
+AdmissibleUse: Core-facing designation of the dependent kind and exact typing of U.ViewRef values that resolve already conforming epistemes
+BlockedUse: no View membership, episteme identity, conformance occurrence, adequacy, authority, or publication from the row, name, viewRef, NameCard, direct authoring, A.6.3 construction, query execution, transformation, evaluation, selection, bundling, rendering, audience, form, carrier, or publication
+RowEditionId: 2026-08-02
+CurrentnessCondition: reopen when E.17.0 changes candidate-episteme identity, the exact conformance predicate or pair-determined occurrence rule, same-individual membership, E.24.UK admission, NameCard, FPFCoreReferenceScheme, or typed-reference use
+Notes: construction history and publication availability remain separately governed; neither creates membership, and no second View individual wraps E
+
+SenseCell.U.View.FPFCore.2026-08-02:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: U.View-core
+  LocalExpression: U.View
+  LocalSenseClaim: the same-individual dependent kind of exact C.2.1 epistemes E for which at least one direct EpistemeViewpointConformanceRelation(E,P) occurrence obtains to an exact admitted viewpoint episteme P; E remains the same individual and construction, selection, use, representation, and publication remain non-constitutive
+  senseFamily: MultiViewRecognition
+  NameCardRef: NameCard.U.View.FPFPublic.2026-08-02
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.U.View.FPFCore.2026-08-02
+
+LocalSenseBasisRelation.U.View.FPFCore.2026-08-02:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, U.View-core)
+  basisEpistemeRef: E.17.0
+
+LocalSenseBasisRelationDescription.U.View.FPFCore.2026-08-02:
+  entityOfConcernRef: LocalSenseBasisRelation.U.View.FPFCore.2026-08-02
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: E.17.0:4.4-4.5
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: U.View names the same E only when exact E/P conformance obtains; it never names a generated or published wrapper
+    admittedUseClaim: Core-facing designation, exact U.ViewRef typing, and retrieval of the direct membership rule
+    nonAdmittedUseClaim: the basis relation, cell, NameCard, row, reference, construction, evaluation, form, carrier, or publication grants no membership
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-08-02
+```
+
+##### F.17:12.4f.3 - `EpistemeViewpointConformanceRelation`
+
+```text
+UTSRowId: UTS.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: R1.2-MultiView-Naming
+Block: Multi-view describing
+GovernedValueRef: EpistemeViewpointConformanceRelation
+GovernedValueKindRef: U.Kind
+DirectGoverningPatternRef: E.17.0
+UnifiedTechName: EpistemeViewpointConformanceRelation
+UnifiedPlainName: the episteme conforms to this exact viewpoint
+NameCardRef: NameCard.EpistemeViewpointConformanceRelation.FPFPublic
+SenseCellRefs: SenseCell.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02
+BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
+RowRationale: the governed value is E.17.0's direct relation-kind token, not its RelationSignature, either participant, a reference, occurrence, assertion, evaluation result, NameCard, or row; each positive occurrence has exactly candidate episteme E and admitted viewpoint episteme P as participants and is pair-determined by <E,P>; it obtains only when E's C.2.1 EntityOfConcern satisfies P's exact target-kind criterion, E has an independently admitted episteme kind allowed by P without circular U.View use, and E's fixed content under its effective scheme satisfies P's fixed concern-coverage, semantic-form, completeness, consistency, omission, and loss rules
+AdmissibleUse: Core-facing designation of the direct relation kind, exact RelationSignature lookup, and readable E/P conformance claims under E.17.0
+BlockedUse: no conformance occurrence, U.View membership, adequacy, truth, authority, or publication from the row, name, NameCard, signature, SlotSpecs, viewpointRef, ViewpointId, participant fillers, assertion, evidence, evaluation Work, result, construction, query, rendering, form, carrier, or publication
+RowEditionId: 2026-08-02
+CurrentnessCondition: reopen when E.17.0 changes either participant kind, the target/admitted-kind/content predicate, pair-determined positive occurrence identity, RelationSignature, complete NameCard, FPFCoreReferenceScheme, or named Core use
+Notes: EpistemeViewpointConformanceRelationSignature is a separate C.2.1 RelationSignature episteme with CandidateEpistemeSlot : U.EpistemeRef and ViewpointEpistemeSlot : U.ViewpointRef; retain the exact consumer field viewpointRef : U.ViewpointRef, whose resolution yields P but proves no conformance
+
+SenseCell.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: EpistemeViewpointConformanceRelation-core
+  LocalExpression: EpistemeViewpointConformanceRelation
+  LocalSenseClaim: the direct two-participant relation kind whose exact positive occurrence is pair-determined by one independently identified candidate episteme E and one independently admitted viewpoint episteme P and whose E.17.0 predicate tests E's exact EntityOfConcern kind, independently admitted episteme kind, fixed claim content, effective scheme, and satisfaction of P's fixed coverage, semantic-form, completeness, consistency, omission, and loss rules
+  senseFamily: MultiViewConformance
+  NameCardRef: NameCard.EpistemeViewpointConformanceRelation.FPFPublic
+  LocalSenseBasisRelationRefs: LocalSenseBasisRelation.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02
+
+LocalSenseBasisRelation.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02:
+  localSenseCellRef: SenseCell(FPFCoreReferenceScheme, EpistemeViewpointConformanceRelation-core)
+  basisEpistemeRef: E.17.0
+
+LocalSenseBasisRelationDescription.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02:
+  entityOfConcernRef: LocalSenseBasisRelation.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02
+  entityOfConcernKindRef: LocalSenseBasisRelation
+  basisPublicationUnitRef: E.17.0:4.4-4.4.1
+  viewpointRef: FPFCoreReaderViewpoint
+  claimGraph:
+    supportedSenseClaim: EpistemeViewpointConformanceRelation names the exact E.17.0 direct kind rather than its signature, participant references, assertion, evaluation, result, or dependent View membership
+    admittedUseClaim: Core-facing designation, exact signature lookup, and readable reference to the direct relation kind
+    nonAdmittedUseClaim: the basis relation, cell, NameCard, row, signature, references, evaluation, construction, or publication makes no occurrence obtain and grants no U.View membership
+  referenceScheme: FPFCoreReferenceScheme
+  editionId: 2026-08-02
+```
+
+The three row epistemes, their `UTSRowId` designators, external references, selected designations, governed values, NameCards, cells, basis relations, admission-result refs, conformance RelationSignature, and every obtaining relation occurrence remain independently recoverable. If availability for an audience later becomes current, exact E.24.PUB expression, bearing, and publication occurrences must be added outside these rows; file inclusion or this displayed block is not publication.
 

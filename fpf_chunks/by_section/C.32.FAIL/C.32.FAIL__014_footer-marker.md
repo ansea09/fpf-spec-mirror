@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__014_footer-marker.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:13 — Footer marker"
-line_start: 66298
-line_end: 66301
+line_start: 66541
+line_end: 66544
 dependencies:
   - "A.10"
   - "A.15"

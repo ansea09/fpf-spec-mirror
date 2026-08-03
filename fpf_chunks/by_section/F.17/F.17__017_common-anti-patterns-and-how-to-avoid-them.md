@@ -6,12 +6,12 @@ section_id: "F.17:13"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__017_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:13 — Common Anti-Patterns and How to Avoid Them"
-line_start: 95232
-line_end: 95242
+line_start: 96140
+line_end: 96155
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,7 +47,6 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
@@ -53,10 +54,15 @@ keywords:
 
 | Anti-pattern | Why it fails | Repair |
 | --- | --- | --- |
-| Global glossary row | Removes the exact interpretation basis and local-sense claim. | Add the by-value reference scheme, local expression, and local-sense claim to each scheme-based SenseCell. |
-| One row for role and status | Fuses work-capable role with a state-family value. | Split into role row and status row; cite `F.10` or `A.19.SPR` for status. |
-| Evidence role bucket | Turns evidence use, source use, assurance, and work into one pseudo-kind. | Recover each claim and cite `A.10`, `B.3`, `E.17`, `E.10.D2`, or role-work patterns. |
-| Block as ontology | Treats didactic placement as subtype or part-of claim. | Keep block names as memory aids only. |
-| Borrowed locality label as Tech name | Imports one tradition's commitments into the unified row. | Recover the governed value and scheme-based local sense; use F.18 and an actual Bridge rationale before selecting the unified name. |
-| Row without direct pattern | Lets F.17 govern the object instead of the term-row publication. | Add direct pattern or mark the row not ready for public reuse. |
+| Global glossary row | Removes the exact governed value, scheme, and local-sense claim. | Recover the exact value and one scheme-based cell; keep local wording local when that suffices. |
+| One row for role and status | Fuses a work-facing role with a state-family value. | Split the rows and return each value to its direct owner. |
+| Evidence-role bucket | Turns evidence use, source use, assurance, and Work into one pseudo-kind. | Recover each claim under A.10, B.3, E.10.D2, or the direct source/work pattern. |
+| Automatic card-cell-row chain | Treats the presence of one naming object as need for the next. | Apply F.14 separately at each gate and stop at the lightest sufficient object. |
+| Merged viewpoint/view/conformance row | A dependent kind, another dependent kind, and their direct relation are treated as one naming result. | Keep separate `U.Viewpoint`, `U.View`, and `EpistemeViewpointConformanceRelation` rows and return every membership or obtaining claim to E.17.0. |
+| Spelling or suffix identity | Lets a familiar label, stable id, or `...@Context` form create or merge values. | Resolve the exact direct-owner value and treat only frozen direct-owner tokens as lineage. |
+| Borrowed locality label as Tech name | Imports one tradition's commitments into the row and hides the effective interpretation basis. | Recover the governed value and scheme-based cell; select the designation under F.18 and cite an actual F.9 Bridge only when its separate predicate and use conditions hold. |
+| Basis by source title | Replaces the exact cell and actual basis relation with a file or citation. | Recover the cell and two-participant basis relation; keep source-unit and publication facts separate. |
+| Row as publication | Treats table presence, rendering, upload, form, or carrier as availability. | Use E.24.PUB for the selected row edition, audience, bounded use, form, and carrier. |
+| Block as ontology or completeness proof | Treats navigation as subtype structure or row count as value evidence. | Keep blocks optional and judge the exact row use through reader recovery and blocked-use avoidance. |
+| Row without direct pattern | Lets F.17 govern the named object. | Add the exact direct owner or stop the public-row path. |
 

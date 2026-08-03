@@ -1,503 +1,313 @@
 ---
 chunk_kind: "parent"
 pattern_id: "E.17.2"
-pattern_title: "TEVB - Typical Engineering Viewpoints Bundle"
+pattern_title: "TEVB - Typical Engineering Viewpoint Bundle for Holons"
 section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.2.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "E.17.2 — TEVB - Typical Engineering Viewpoints Bundle"
-line_start: 79205
-line_end: 79675
+  - "E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons"
+line_start: 79858
+line_end: 80136
 dependencies:
   - "A.1"
-  - "A.15"
-  - "A.2"
-  - "A.2.1"
+  - "A.22"
   - "A.6.2-A.6.4"
+  - "A.6.3"
+  - "A.6.6"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.18"
-  - "F.18"
-  - "U.MultiViewDescribing"
-  - "U.ViewpointBundleLibrary"
+  - "E.24.PUB"
+  - "U.View"
+  - "U.Viewpoint"
+  - "U.ViewpointRef"
 keywords:
 ---
 
-## E.17.2 - `TEVB` - Typical Engineering Viewpoints Bundle
-> **Type:** Part E viewpoint-bundle species pattern
+## E.17.2 - TEVB - Typical Engineering Viewpoint Bundle for Holons
 > **Status:** Stable
-**Use this when.** A team needs a small reusable set of engineering viewpoints for a holon so that functional, procedural, allocation-responsibility, and module-interface descriptions stay comparable across diagrams, models, cards, and architecture-description bundles.
 
-**First output.** One TEVB bundle use naming `VF.TEVB.ENG`, the selected holon as `EntityOfConcernRef`, the active `VP.*` viewpoint, and the bounded description or specification-use case being written or checked.
+**Use this when.** A team needs one small reusable family of engineering viewpoints for descriptions of a holon, so that functional, procedural, allocation-responsibility, and module-interface claims remain distinguishable and comparable.
 
-**What goes wrong if missed.** Engineering views, publication faces, diagrams, and architecture-specific views collapse into one label, so functional, procedural, allocation-responsibility, and module-interface material cannot be compared safely.
+**First useful result.** One exact `U.ViewpointBundleLibrary` edition and its exact TEVB bundle edition, whose `ViewFamilyId` is `VF.TEVB.ENG`; one exact holon as the candidate episteme's EntityOfConcern; and one singular exact `U.ViewpointRef` from that bundle edition resolving the exact TEVB viewpoint episteme P used for the current E/P conformance judgment. Add construction, cross-view, evaluation, or publication objects only when the next work depends on them.
 
-**What this buys.** TEVB gives a compact engineering viewpoint bundle for holons while leaving architecture-specific view adequacy, publication form, role assignment, method, work, and module-interface claims with their direct owners.
+> **Tech-name:** `TEVB`
+> **Plain-name:** typical engineering viewpoint bundle for holons
 
-**Not this pattern when.** If the current question is architecture structural-view adequacy, architecture description adequacy, publication-form behavior, role assignment, method or work alignment, or module-interface relation repair, use the governing pattern and keep TEVB only as the viewpoint-bundle reference when current.
+TEVB is one governed `U.ViewpointBundle` packaged by E.17.1. It is not an architecture framework, a method, a set of publication forms, or a second entity beside its four referenced viewpoint epistemes. It fixes a conceptual viewpoint bundle but prescribes no modelling notation, storage format, or tool API.
 
-> **Tech‑name:** `TEVB` (Typical Engineering Viewpoints Bundle, bundle id `VF.TEVB.ENG`)
-> **Plain‑name:** typical engineering viewpoints bundle for holons
-> **Tag:** Archetypal species of `U.ViewpointBundle` for engineering holons
+**Builds on:** E.17.0 for `U.Viewpoint`, `EpistemeViewpointConformanceRelation`, and `U.View`; E.17.1 for bundle packaging by `U.ViewpointRef`; C.2.1 for episteme identity; C.13 for the constituent collections of viewpoint conventions; A.22 for their selected structures; A.6.6 and E.17.0 for exact constituent-dependency relations; A.6.3 for optional view construction; E.24.PUB for publication.
 
-**Status.** Stable; archetypal, notation‑agnostic species of `U.ViewpointBundle` / `U.ViewpointBundleLibrary`.
-It is an engineering‑level bundle over holons; it does not itself constitute an architecture framework or architecture‑specific viewpoint library. Architecture‑focused viewpoint bundles are introduced as separate `U.ViewpointBundle` species that may import TEVB.
+**Used by:** E.18 transformation-flow descriptions, E.17 multi-view publication, architecture-description patterns, and domain patterns that need a reusable engineering concern family for holons.
 
-**Builds on.**
-* **E.17.0 — `U.MultiViewDescribing`.** Supplies the generic notion of `U.Viewpoint`, `U.View`, and `ViewFamily` over an `EntityOfConcernClass ⊑ U.Entity` (here: `EntityOfConcernClass = U.Holon`).
-* **E.17.1 — `U.ViewpointBundleLibrary`.** Provides the generic `U.ViewpointBundle`/`ViewFamilyId` structure; TEVB is a concrete bundle (`VF.TEVB.ENG`) in the core library.
-* **A.1 — Holon.** Holon kinds `U.System` and `U.Episteme` as the typical engineering entities of concern.
-* **A.6.2–A.6.4 — Episteme morphisms.** `U.EffectFreeEpistemicMorphing`, `U.EpistemicViewing`, `U.EpistemicRetargeting` as the generic morphism classes behind engineering views.
-* **A.7 and E.10.D2 - Strict Distinction: EntityOfConcern, Description episteme, and Description episteme admitted for specification use.** TEVB uses DescriptionContext; engineering descriptions and specifications under TEVB are Description epistemes and specification-use cases with explicit `ViewpointRef`.
-* **C.2.1 — `U.EpistemeSlotRelation`.** Provides `EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot` and the slot discipline (A.6.5) used by TEVB-aligned Description epistemes and specification-use Description epistemes.
+### E.17.2:1 - Problem frame
 
-**Used by.**
-* **E.18:5.12 — transformation-flow viewpoint-family map.** As a canonical consumer, `E.18` binds its engineering transformation-flow families (Functional, Procedural, allocation-responsibility or device-structure, Module-Interface) to TEVB viewpoints `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, `VP.ModuleInterface`.
-* **E.17 (MVPK).** Publication of engineering morphisms uses TEVB engineering viewpoints on the Description-episteme and specification-use side and separate publication-side viewpoints over publication faces and forms.
-* **Engineering description and specification-use patterns.** System, method, module-interface, and allocation-responsibility-related Description-episteme and specification-use patterns for holons (`U.System`, `U.Episteme`) refer to TEVB when declaring their `ViewpointRef`.
-* **ISO-aligned architecture-description bundles.** Architecture-specific viewpoint-bundle species reuse TEVB as the canonical engineering view family (Functional vs Structural etc.) over systems and their epistemes.
+Engineering descriptions repeatedly ask four different questions about one holon:
 
-**Guard (lexical & ontological).**
-**Selected-family scope.** TEVB's engineering viewpoints are scoped by `EntityOfConcernClass = U.Holon` with usual `U.System` and `U.Episteme` cases. ISO 42010 concern, viewpoint, and view language is used as architecture-description practice alignment, not as imported FPF ontology.
+1. **Functional:** what transformations, capabilities, and effects characterize what the holon can or is intended to do?
+2. **Procedural:** what methods, orders, states, concurrency, failures, and recovery rules characterize how relevant behavior unfolds?
+3. **Allocation-responsibility:** which exact systems, role assignments, capabilities, and responsibility structures are related to the holon's behavior?
+4. **Module-interface:** what constituent holons, interfaces, dependency structures, substitutability conditions, and change rules characterize its construction?
 
-1. **Engineering scope only.** TEVB applies to `EntityOfConcernClass = U.Holon` with typical cases `U.System` and `U.Episteme`. Using TEVB viewpoints for non‑holonic entities (e.g., pure data structures, abstract theories) requires an explicit species‑level justification; by default it is a conformance violation.
-2. **Viewpoint vs publication faces, forms, and carriers.** `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, `VP.ModuleInterface` are **viewpoints** (`U.Viewpoint` specifications), not publication face, publication form, rendering, or carrier names. A conforming TEVB use keeps `{PlainView, TechCard, NormsCard, InteropCard, AssuranceLane, ...}` as publication faces and publication forms under MVPK and does not use `VP.*` ids as carrier or publication-form ids.
-3. **EngineeringVPId vs publication-side viewpoint id.** `VP.*` in this pattern are **EngineeringVPId** values (E.18:5.12). MVPK publication uses separate publication-side viewpoint ids, linked to TEVB viewpoints only through correspondences.
-4. **No new role coordinates in EntityOfConcern and Description-episteme boundary and specification-use discipline.** TEVB may name stakeholder or audience families, and the `VP.AllocationResponsibility` id may name a viewpoint, but TEVB does not introduce a new allocation-responsibility root kind, `U.Role`, or `U.RoleAssignment` as coordinates in Description episteme or specification-use case signatures (E.10.D2). Work-facing roles, holders, assignments, method alignment, performed work, and role names remain governed by `A.2`, `A.2.1`, `A.15`, and Part F role-description or naming patterns.
-5. **EntityOfConcern retention.** In ordinary TEVB use, `DescriptionContext.EntityOfConcernRef` remains the holon selected by `EntityOfConcernClassSpec`. Capability, Method, procedure terms, control-logic terms, role-assignment and responsibility structure, structural architecture, module, interface, and allocation terms are viewpoint concern and content inside the Description episteme unless the text explicitly opens A.6.4 retargeting with a KindBridge and species-extension rule.
+The questions recur across hardware, software, organizations, and mixed systems. Their answers may appear as prose, models, diagrams, cards, or publications, but those forms do not identify the viewpoints or make an episteme a view.
 
-   When `EntityOfConcernRef` is `U.Episteme`, role-assignment or responsibility statements in a TEVB view govern systems or acting holons around that episteme, such as authors, maintainers, users, assurers, or transformers. They do not make the episteme itself hold a work-facing role. Episteme-side participation is expressed through C.2.1 slots, source-use relations, publication-use relations, or viewpoint concern unless a governing work-facing pattern explicitly introduces a system or acting-holon role assignment.
+### E.17.2:2 - Problem
 
-6. **No extra viewpoints inside TEVB.** TEVB defines a **fixed core set** of four engineering viewpoints. Other labels such as assurance-oriented, interoperability-oriented, information-oriented or data-oriented, operational-oriented or deployment-oriented, and mission-oriented or context-oriented may appear only as **lexical family labels** in E.18:5.12 (for example, as `ViewFamilyId` and `AliasInViewFamilies` values for transformation-flow species). They do not extend `TEVB.EngBundle.viewpoints` and are not additional `U.Viewpoint` kinds in this bundle; when SoTA or local practice demands explicit assurance, information, or mission viewpoints, provide them as **separate `U.ViewpointBundle` species** imported alongside TEVB rather than by mutating `VF.TEVB.ENG`.
-7. **Not an architecture framework.** TEVB is an engineering‑level viewpoint bundle; architecture‑specific viewpoint bundles and architecture frameworks must be introduced as separate `U.ViewpointBundle` species that may import TEVB. They keep `VF.TEVB.ENG` as the engineering viewpoint bundle and put architecture-only viewpoints in separate architecture-specific `U.ViewpointBundle` species.
+How can engineers reuse a compact family of these four concern-bearing viewpoints while keeping all of the following distinct:
 
-### E.17.2:1 - Problem frame  *(informative)*
+- the exact holon described by a candidate episteme;
+- the exact viewpoint episteme and its selected convention structure;
+- the candidate episteme and any dependent `U.View` membership;
+- a viewpoint selected for one describing use;
+- the methods, transformations, structures, roles, modules, and interfaces mentioned in the claims;
+- any viewing construction, evaluation, cross-view relation, publication occurrence, form, representation, or carrier?
 
-Engineering teams almost always talk about systems and their models through a **small set of recurring “views”**:
-* *What capabilities and behaviours does the system enact?* — function‑oriented, transformation‑oriented talk.
-* *What method descriptions, procedure structures, and control-logic descriptions does it realize?* — procedure-, method-, and state-oriented talk.
-* *Which systems or acting holons are assigned which work-facing roles, responsibilities, or allocation expectations?* — role-assignment, organisational and socio-technical talk.
-* *How is the system decomposed into modules and interfaces?* — physical and logical architecture talk.
+Without that separation, a label such as `functional view` can stand indiscriminately for a concern convention, a diagram, a query output, a report section, or a claim about a system. The next engineering action then relies on the wrong object.
 
-In industry, these lenses show up under many names: *functional view, logical view, behavioural view, process view, structural and physical view, deployment view, responsibility view,* and so on. Modern standards and tools (ISO/IEC/IEEE 42010:2022, INCOSE SE Handbook, SysML v2 “views as queries”) all recognise that **viewpoints should be reusable structures**, not ad‑hoc labels.
+### E.17.2:3 - Forces
 
-In FPF, E.17.0 and E.17.1 give the **generic machinery**:
-* `U.Viewpoint` as a viewpoint specification (stakes, concerns, and allowed Description kinds and specification-use gates),
-* `U.View` as an episteme‑level view (epistema under a viewpoint),
-* `U.ViewpointBundle` / `ViewFamilyId` as reusable collections of viewpoints.
+| Force | Tension |
+|---|---|
+| Reuse vs exact edition | Teams need stable families, while conformance depends on exact claim-bearing viewpoint editions. |
+| Small core vs subject breadth | Four viewpoints should remain learnable without pretending that safety, mission, data, deployment, and every domain concern are the same four things. |
+| Holon-centered view vs concern objects | A view can concern one holon while its claims designate methods, transformations, role assignments, capabilities, and structures through exact relations. |
+| Familiar engineering language vs kind precision | `functional view` should remain readable without turning `functional`, `view`, or a diagram label into an intrinsic kind by spelling. |
+| Direct authoring vs generated descriptions | Both can yield conforming views; neither route establishes conformance by itself. |
+| Cross-view comparison vs invented links | Comparable views need exact direct relations, not a universal correspondence record or matching diagram positions. |
+| Viewpoint reuse vs publication reuse | The same viewpoint can govern unpublished epistemes and many publication forms; packaging must not redefine membership. |
 
-`E.18` already uses a **canonical engineering viewpoint-family map** with names like “Functional”, “Procedural”, “allocation-responsibility or device-structure”, “Module-Interface”. Without a formal bundle tying these together, those names drift and the mapping between `E.18`, MVPK, EntityOfConcern, Description-episteme boundary, and specification use becomes fragile.
+### E.17.2:4 - Solution
 
-TEVB addresses this by defining a **single, explicit engineering bundle** with a fixed `ViewFamilyId` and a small set of canonical engineering viewpoints over `U.Holon`.
+**Local mantra.** Select TEVB. Resolve one exact viewpoint episteme. Identify the holon-centered candidate episteme. Test E.17.0 conformance. Keep every mentioned engineering object and every publication object under its direct governor.
 
-### E.17.2:2 - Problem  *(informative)*
+The mantra is a recall aid. The following sections specify the bundle, the four viewpoint witnesses, the conformance use, and the stopping rules.
 
-Without TEVB, several failure modes recur:
-1. **Inconsistent “functional”, “structural”, and “behavioural” vocabularies.** Different teams define “functional view” or “process view” differently, even within one organisation; `E.18:5.12` then has to guess how to map transformation-flow structures onto whichever interpretation is currently in play.
-2. **Architecture frameworks leak into the kernel.** 4+1‑style and similar architectural frameworks get hard‑coded as if they were universal; FPF loses its holonic neutrality and becomes biased to a particular school.
-3. **Viewpoints conflated with publication faces and publication forms and files.** “Functional view” is used both for the underlying viewpoint and for a concrete document or dashboard; MVPK faces and publication forms, `E.18` transformation-flow families, and EntityOfConcern and Description-episteme and specification-use distinctions become entangled.
-4. **Role leakage into EntityOfConcern and Description-episteme boundary and specification-use discipline.** Engineering views that are about holders, role assignments, responsibilities, or device allocation are written directly in terms of `U.Role`, blurring the boundary between work-facing role patterns (`A.2`, `A.2.1`, `A.15`) and description or specification-use lanes, and breaking A.7 and E.10.D2.
-5. **Poor reuse across systems.** Even when organisations want to reuse the same engineering views across products, plants, or models, there is no canonical bundle to import; each programme recreates “its own” functional and structural views.
+#### E.17.2:4.1 - Fix the bundle without embedding viewpoint values
 
-TEVB makes engineering viewpoint families **first‑class reusable bundles** and pins them to an explicit `EntityOfConcernClass` (engineering holons) so that `E.18`, MVPK and discipline-packs can align on the same vocabulary.
+The core TEVB bundle is:
 
-### E.17.2:3 - Forces  *(informative)*
-
-| Force                                       | Tension                                                                                                                                                                       |
-| ------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Universality vs domain idioms**           | We need engineering viewpoints that work for *any* holon (hardware, software, or socio-technical), yet remain recognisable to practitioners steeped in domain-specific frameworks. |
-| **Parsimony vs expressiveness**             | A small, stable **NQD-front** set of engineering view families (Function, Behaviour and Process, Work-Role Holder, Module-Interface) vs the temptation to proliferate specialised views for every stakeholder group or quality attribute. |
-| **Neutral core vs architecture frameworks** | FPF core must stay neutral and not encode a specific framework (4+1, DoDAF, etc.), while still being compatible with them.                                                    |
-| **Consistency vs organisational autonomy**  | Central TEVB definitions must be stable, yet individual organisations need room to refine concerns and episteme kinds within the bundle.                                      |
-| **EntityOfConcern and Description-episteme boundary plus specification-use clarity vs convenient shortcuts**   | Viewpoints must not re-introduce `Role` as a coordinate in EntityOfConcern and Description-episteme boundary or specification-use discipline, nor blur Description-episteme and specification-use distinctions with publication face, form, or carrier distinctions, even though practitioners informally mix these.             |
-
-TEVB resolves these by fixing a **minimal engineering bundle** and leaving customisation to **species patterns and ViewpointBundleLibrary entries** that refine concerns and allowed episteme kinds without changing the core families.
-
-### E.17.2:4 - Solution — TEVB as a core `U.ViewpointBundle` for holons  *(normative)*
-
-#### E.17.2:4.1 - TEVB bundle identity
-
-TEVB is the **core engineering viewpoint bundle** over holons.
-
-* **Bundle object.** There exists a canonical `U.ViewpointBundle` instance:
-
-  ```
-  TEVB.EngBundle : U.ViewpointBundle
-  ```
-
-* **ViewFamilyId.**
-
-  ```
-  TEVB.EngBundle.viewFamilyId = VF.TEVB.ENG
-  ```
-
-  `VF.TEVB.ENG` is reserved for **“Typical Engineering Viewpoints (Engineering)”** in the FPF core ViewpointBundleLibrary.
-
-* **EntityOfConcernClassSpec (holon scope).**
-
-  TEVB is parameterised by
-
-  ```
-  TEVB.EngBundle.EntityOfConcernClassSpec =
-    { h : U.Holon | holonKind(h) ∈ {U.System, U.Episteme} }
-  ```
-
-  That is, TEVB applies to holons that are either `U.System` or `U.Episteme`. Other holon kinds may be added by species patterns but must be justified and documented; the default conformance rule set assumes systems and epistemes.
-
-* **Library placement.**
-
-  TEVB is registered in the core viewpoint library:
-
-  ```
-  TEVB.Library : U.ViewpointBundleLibrary
-  TEVB.Library.libraryId = FPF.Core.Viewpoints
-  TEVB.Library.bundles ⊇ { TEVB.EngBundle }
-  ```
-
-  Additional organisational libraries may import and specialise TEVB, but must not redefine `VF.TEVB.ENG` with incompatible semantics.
-
-* **Viewpoint set.**
-
-  TEVB defines a **finite set of canonical engineering viewpoints**:
-
-  ```
-  TEVB.EngBundle.viewpoints =
-    { VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface }
-  ```
-
-The selection `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}` is the current **NQD-frontier** for engineering holon viewpoints in Part G: it realises a Function-Behaviour-Structure-plus-responsibility (`F-B-S+R`) cut that is non-dominated against candidate families including explicit information or data, assurance or safety, and mission or context viewpoints under the N, U, C, and D characteristics (C.18, G.0). Part G records the SoTA candidate set and rejected alternatives; TEVB only fixes the **core four** where each `VP.* : U.Viewpoint` is defined below. These four are the **only** viewpoints in the core TEVB bundle.
-
-  > **Note.** Other ViewFamilyId values used in the `E.18` transformation-flow viewpoint-family map (for example, assurance-oriented, interoperability-oriented, information-oriented or data-oriented, operational-oriented or deployment-oriented, and mission-oriented or context-oriented labels) remain **lexical families only** for transformation-flow species (E.18:5.12). They do not add viewpoints to TEVB; they are orthogonal to TEVB's `viewpoints` set.
-
-#### E.17.2:4.2 - TEVB engineering viewpoints
-
-Each TEVB viewpoint is a `U.Viewpoint` with:
-* `viewpointId : ViewpointId` (concrete identifier, e.g., `VP.Functional`);
-* `EntityOfConcernClassSpec` **inherited from the bundle** (`U.Holon` with `System`/`Episteme` kinds);
-* `StakeholderFamilies : FinSet(StakeholderFamilyId)` — audience or stakeholder families that are primary readers or concern holders for the viewpoint. These are viewpoint-context values, not work-facing role-assignment values or allocation-responsibility root kinds.
-* `Concerns : FinSet(ConcernId)` — engineering concerns this viewpoint foregrounds;
-* `AllowedEpistemeKinds : FinSet(U.EpistemeKindRef)` — Description-episteme and specification-use kinds admissible under this viewpoint (all obeying EntityOfConcern and Description-episteme boundary, specification use, and C.2.1 slot disciplines);
-* `ConformanceRules : FinSet(RuleId)` — references to checklist items in conformance packs (CV, GF, and engineering checklists).
-
-The subsections below fix the **normative intent and minimal field sets** for each TEVB viewpoint. Species patterns and discipline‑packs may refine `Concerns`, `AllowedEpistemeKinds` and `ConformanceRules`, but must preserve the intent.
-
-##### E.17.2:4.2.1 - `VP.Functional` - functional behavior and capability viewpoint
-
-**Intent.** Look at a holon in terms of what it is required or able to do: capabilities, functional behaviors, and required transformations or effects. If responsibility for those requirements is current, express that responsibility through `VP.AllocationResponsibility` and the work-facing role-assignment patterns rather than making responsibility a functional-viewpoint coordinate. A functional behavior is grounded as `U.Transformation` when the claim is one bounded required change or effect, and as `TransformationFlowStructure` when the behavior is a compound structure of transformations. This viewpoint is not a module view and does not mint `U.Function`.
-
-* **viewpointId.**
-
-  ```
-  VP.Functional : ViewpointId  // EngineeringVPId
-  ```
-
-* **EntityOfConcernClassSpec.**
-  Same as the bundle: `U.Holon` with `System`/`Episteme` kinds.
-
-* **StakeholderFamilies (typical examples).**
-  Actual `StakeholderFamilies : FinSet(StakeholderFamilyId)` values are local audience or stakeholder-family refs; labels below are informal and do not create role assignments.
-  * System engineering leads and architects (e.g. SysEng-lead enactors).
-  * Product owners / capability owners.
-  * Reliability / performance engineers when reading capability envelopes.
-
-* **Concerns (typical).**
-  * Functional behavior: required `U.Transformation` or `TransformationFlowStructure` under conditions.
-  * Capabilities and envelopes provided by the holon (`CapabilityConcerns`).
-  * Functioning status: required, possible, intended, observed, degraded, or blocked behavior.
-  * Input-and-output signatures or functional-port signatures where accepted or produced states, flows, media, signals, information, work products, or formal objects matter.
-  * Compositional semantics of functional behavior in transformation-flow structures.
-
-* **AllowedEpistemeKinds (shape).**
-  `VP.Functional` admits Description epistemes and specification-use Description epistemes whose **EntityOfConcernSlot** remains the holon and whose viewpoint content foregrounds the holon's functional behavior, capability, `FunctionalElement@Context`, or transformation-flow relation, e.g.:
-  * `SystemFunctionalDescription`, `SystemFunctionalSpec` describing system-level capabilities, functional behavior, and interconnection.
-  * `FunctionalElementDescription`, `FunctionalElementSpec` when a `FunctionalElement@Context` locus with behavior, bearer, ports, capability, and allocation is current.
-  * `TransformationBehaviorDescription`, `TransformationBehaviorSpec` when the behavior is a bounded `U.Transformation` or selected `TransformationFlowStructure`.
-  * `ServiceCapabilityDescription`, `ServiceCapabilitySpec` when the functional viewpoint foregrounds service-facing capability, promise content, delivery work, access point, delivery system, or API/publication description; use current `U.RoleAssignment` only if a work-facing role value is actually assigned for service delivery or service operation.
-
-  All such epistemes satisfy these admissibility checks:
-  * obey EntityOfConcern and Description-episteme boundary plus specification-use discipline: `...Description` names a Description episteme about the holon and `...Spec` names specification-use of that Description episteme for declared functional behavior, capability, method, mechanism, port, or promise content;
-  * make their `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>` explicit, with `ViewpointRef = VP.Functional`;
-  * use `A.3.4 FunctioningRef?`, `TransformerRef?`, `InputConditionOrPortRefs?`, and `OutputConditionOrPortRefs?` when the functional-view claim depends on bounded transformation, bearer, input and output boundary, or flow location.
-
-* **ConformanceRules (examples).**
-  * Functional behavior is grounded as `U.Transformation` or `TransformationFlowStructure` before function wording carries a claim.
-  * `FunctionalElement@Context` remains a functional-view locus, not a module and not `U.Function`.
-  * Functional ports and signatures are separated from module interfaces unless an A.6.M module-interface claim is current.
-  * When functional views participate in retargeting patterns, they satisfy the relevant A.6.4 retargeting constraints; concrete consumer patterns such as E.18 may impose additional rules.
-
-* **SoTA echo (informative).** `VP.Functional` corresponds to functional views in ISO-aligned architecture descriptions, domain reference architectures, FBS-style design ontologies, SysML and SysML v2 capability and logical architecture models, and logical view slices in 4+1-style frameworks once recast into holon, capability, functional-behavior, and transformation terms.
-
-##### E.17.2:4.2.2 - `VP.Procedural` — process & control viewpoint
-
-**Intent.** Look at a holon in terms of **how behaviours are sequenced and controlled**: method-description structures, state machines, operational procedures, and control logic.
-
-* **viewpointId.**
-
-  ```
-  VP.Procedural : ViewpointId  // EngineeringVPId
-  ```
-
-* **EntityOfConcernClassSpec.**
-
-  Same as the bundle.
-
-* **StakeholderFamilies (typical).**
-  * Operations and run‑time owners (`OperationsEnactorFamily`).
-  * Control engineers and automation specialists (`ControlEngineerEnactorFamily`).
-  * Safety engineers concerned with procedural correctness (`SafetyEngineerEnactorFamily`).
-
-* **Concerns (typical).**
-  * Control flow and ordering of actions (`OrderConcerns`).
-  * State‑machine behaviour and lifecycle (`StateLifecycleConcerns`).
-  * Concurrency, synchronisation, and error handling (`ConcurrencyConcerns`).
-  * Operational modes and transitions (startup, shutdown, degraded modes) (`OperationalModeConcerns`).
-
-* **AllowedEpistemeKinds (shape).**
-  `VP.Procedural` admits Description epistemes and specification-use Description epistemes where the **EntityOfConcernSlot** remains the holon and the viewpoint content foregrounds the holon's Method, procedure, control behaviour, or work-plan content, e.g.:
-  * `MethodDescription`, `MethodSpec` for operational procedures (A.3.1–A.3.2).
-  * `ControlLogicDescription`, `ControlLogicSpec` (IEC 61131‑3 style step diagrams and statecharts).
-  * `WorkflowDescription`, `WorkflowSpec` (business processes, orchestration logic).
-
-  These epistemes:
-  * respect the **order discipline** (Γ_method, Γ_ctx) and A.15 (Role–Method–Work alignment);
-  * carry E.10.D2-conformant DescriptionContext with `ViewpointRef = VP.Procedural`.
-
-* **ConformanceRules (examples).**
-  * Preconditions and postconditions at step boundaries are explicit and type-checked. Use `A.3.1` for the method as semantic way of doing, `A.3.2` for the method description, and `Gamma_method` only as notation over the recovered method claim.
-  * No embedding of Work or calendars inside procedural descriptions (A.7 and E.10.D2).
-  * Failure modes and recovery actions are declared and traceable to safety analyses (F.15 harnesses where relevant).
-
-* **SoTA echo (informative).** `VP.Procedural` captures the dynamic and process dimension found in SoTA architecture and MBSE practice: process views in 4+1, operational and behavioural views in defence and enterprise frameworks, behaviour diagrams in SysML (activity, sequence, state, interaction), and procedure-oriented and control-logic-oriented models in industrial standards. TEVB abstracts this into a notation‑agnostic “behaviour over time” viewpoint for holons.
-
-##### E.17.2:4.2.3 - `VP.AllocationResponsibility` - allocation, responsibility, and device-structure viewpoint
-
-**Intent.** Look at a holon in terms of which system or acting holon bears work-facing roles, responsibilities, role assignments, capability allocation, or device-side or system-side responsibility for functional behavior. The viewpoint id `VP.AllocationResponsibility` is an engineering viewpoint id, not a new root kind. When a source-local device or transformer cue names the system that performs or sustains a transformation, recover it as `U.System` or candidate system with a work-facing role assignment such as `TransformerRole@Context`, coordinated with `A.3.4 TransformerRef?`.
-
-* **viewpointId.**
-
-  ```
-  VP.AllocationResponsibility : ViewpointId  // EngineeringVPId
-  ```
-
-* **EntityOfConcernClassSpec.**
-
-  Same as the bundle.
-
-* **StakeholderFamilies (typical).**
-  * Organisational designers and operations managers (`OrgDesignEnactorFamily`).
-  * Safety and compliance officers concerned with separation of duties (`SegregationOfDutyEnactorFamily`).
-  * Hardware and system engineers concerned with which devices or systems carry which functional behaviors (`DeviceEngineerEnactorFamily`).
-
-* **Concerns (typical).**
-  * Which systems or acting holons hold which work-facing roles under which contexts (`RoleAssignmentConcerns`).
-  * Which systems or candidate systems fill `TransformerRef?` for transformations or functioning.
-  * Allocation of capabilities to devices, systems, subsystems, organizations, scripts, instruments, or manufacturing cells (`CapabilityAllocationConcerns`).
-  * Organisational constraints: segregation of duties, responsibilities, escalation relations (`GovernanceConcerns`).
-  * Device-view readings of functional transformation-flow descriptions, with source-local device or transformer vocabulary treated as source cue rather than durable FPF kind.
-
-* **AllowedEpistemeKinds (shape).**
-  `VP.AllocationResponsibility` admits Description epistemes and specification-use Description epistemes where the **EntityOfConcernSlot** remains the holon and the viewpoint content foregrounds work-facing role values, role assignments, responsibility structure, holder or allocated-holon locus, transformer relation, or capability allocation associated with that holon, e.g.:
-  * `RoleDescription`, `RoleSpec` for human, organization, system, or device roles.
-  * `RoleAssignmentDescription` for mappings from holder, role value, bounded context, and current window under A.2.1 and A.15.
-  * `TransformerRoleAssignmentDescription` for a holder, role value, bounded context, current window, and A.3.4 transformation connected through current `U.RoleAssignment`, not through compact holder-role shorthand.
-  * `DeviceAllocationDescription` mapping functional behavior to physical, organizational, or software systems.
-
-  As with other TEVB viewpoints, these are Description epistemes and specification-use cases with `DescriptionContext.ViewpointRef = VP.AllocationResponsibility`.
-
-* **ConformanceRules (examples).**
-  * Role vs method vs work vs capability separation is upheld through A.7 and A.15.
-  * A role-assignment or responsibility claim uses `U.RoleAssignment` when role assignment, work, responsibility, or capability is current; it does not infer performed work.
-  * Device-view reinterpretation from functional flows is expressed as `U.EpistemicRetargeting` with an explicit `KindBridge` witness when the `EntityOfConcernRef` changes.
-  * No "role as behavior" conflation: roles and bearer loci stay separate from methods, work, and bounded transformations.
-
-* **SoTA echo (informative).** `VP.AllocationResponsibility` aligns with allocation and responsibility and resource and organizational view clusters in MBSE frameworks, allocation views in UAF/NAF, role-responsibility matrices and RACI-style artefacts, and role-assignment/responsibility slices in usage and operational viewpoints.
-
-##### E.17.2:4.2.4 - `VP.ModuleInterface` - module and interface viewpoint
-
-**Intent.** Look at a holon in terms of modules, interfaces, and structural composition: what parts exist, how they connect, and how interface specifications, substitutability, compatibility, and change policies are stated. This viewpoint is distinct from `VP.Functional`: a module may realize many functional elements, many modules may realize one functional element, a functional element may be abstract before allocation, and a module may have no current functional behavior in the functional view.
-
-* **viewpointId.**
-
-  ```
-  VP.ModuleInterface : ViewpointId  // EngineeringVPId
-  ```
-
-* **EntityOfConcernClassSpec.**
-  Same as the bundle.
-
-* **StakeholderFamilies (typical).**
-  * Hardware and software architects responsible for structure (`StructureArchitectEnactorFamily`).
-  * Integration and test engineers (`IntegrationEngineerEnactorFamily`).
-  * Lifecycle and maintenance planners looking at replaceable units (`MaintenancePlannerEnactorFamily`).
-
-* **Concerns (typical).**
-  * Module decomposition and containment (mereology) (`ModuleMereologyConcerns`).
-  * Interface specifications: protocols, schemas, physical connectors, APIs, version and change policies, conformance expectations (`InterfaceConcerns`).
-  * Dependency structures and allowed couplings (`DependencyConcerns`).
-  * Replaceability and variation points (`VariabilityConcerns`).
-  * Correspondence or allocation between modules and functional elements without identity by default.
-
-* **AllowedEpistemeKinds (shape).**
-  `VP.ModuleInterface` admits Description epistemes and specification-use Description epistemes where the **EntityOfConcernSlot** remains the holon and the viewpoint content foregrounds the holon's structural architecture, modules, interfaces, and connector arrangements, e.g.:
-  * `SystemStructureDescription`, `SystemStructureSpec` for module and connector descriptions.
-  * `ModuleInterfaceDescription`, `ModuleInterfaceSpec` for signature, interface specifications, physical interface definitions, and conformance expectations.
-  * `ModuleFunctionalAllocationDescription` when module-interface structure is being related to `FunctionalElement@Context` or `FunctionalStructureView@Context` through correspondence or allocation.
-
-  These epistemes describe holon structure, module-interface arrangement, ports and connectors, or structural architecture as viewpoint content about the holon rather than replacing the holon as the `EntityOfConcern`. Functional-to-module reinterpretations between `VP.Functional` and `VP.ModuleInterface` use declared correspondence or allocation or `U.EpistemicRetargeting` + `KindBridge` when the `EntityOfConcernRef` changes.
-
-* **ConformanceRules (examples).**
-  * Interfaces are typed and explicitly bound to standards or signature declarations where applicable (`A.6.0`, `A.6.M`, A.6.5).
-  * Functional ports are not treated as module interfaces unless the module-interface or substitutability claim is current.
-  * No inlining of methods, work, or functional behavior into module structure. Use `A.3.4` for transformation claims, `A.6.F` for function-allocation claims, and `A.15` for work and role-method-work alignment claims.
-  * Reinterpretations from functional views into structure respect the applicable `U.EpistemicRetargeting`/Bridge constraints.
-
-* **SoTA echo (informative).** `VP.ModuleInterface` matches structural, implementation, construction, deployment, and interface-focused families in architecture descriptions, IoT and space reference architectures, UAF, NAF, RASDS, SysML-based MBSE, and 4+1 development and physical views, while keeping functional behavior and module-interface claims distinct.
-
-### E.17.2:5 - Archetypal grounding  *(informative)*
-
-A minimal TEVB instantiation looks as follows:
-
-```
-TEVB.EngBundle :
-  U.ViewpointBundle {
-    viewFamilyId   = VF.TEVB.ENG
-    EntityOfConcernClassSpec   = { h : U.Holon | HolonKind(h) ∈ {System, Episteme} }
-    viewpoints     = { VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface }
-    LibraryRef     = FPF.Core.Viewpoints
+```text
+TEVB.EngBundle : U.ViewpointBundle
+  viewFamilyId = VF.TEVB.ENG
+  EntityOfConcernClassSpec = U.Holon
+  viewpointRefs = {
+    ref(VP.Functional),
+    ref(VP.Procedural),
+    ref(VP.AllocationResponsibility),
+    ref(VP.ModuleInterface)
   }
 ```
 
-Each `VP.*` viewpoint is a `U.Viewpoint` as in E.17.0, with:
+Each `VP.*` token is the `ViewpointId` designator of one exact viewpoint episteme edition P. Each bundle member is a `U.ViewpointRef`; resolving it under the effective reference scheme yields exact P. The designator, reference, viewpoint episteme, selected viewpoint-convention structure, and bundle membership remain distinct.
 
-* `viewpointId ∈ {VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`,
-* `EntityOfConcernClassSpec` inherited from `TEVB.EngBundle`,
-* `StakeholderFamilies`, `Concerns`, `AllowedEpistemeKinds`, `ConformanceRules` aligned with the subsections above.
+Bundle membership does not admit P as `U.Viewpoint`, does not make another episteme a `U.View`, and does not establish any publication. E.17.0 owns both dependent-kind membership rules; E.24.PUB owns publication.
 
-**Engineering holon (example).**
+The four-member set is fixed for this TEVB edition. Safety, assurance, information, mission, deployment, business, and publication-oriented viewpoints use another E.17.1 bundle or an explicit later TEVB edition. A recurring label alone does not extend this bundle.
 
-Let `Plant_X : U.System` be a production plant, and `ControlStack_X : U.Episteme` be its control and optimisation stack as a holon.
+#### E.17.2:4.2 - Recover each viewpoint through an exact convention witness
 
-* Under `VP.Functional`, `Plant_X` is viewed as a bundle of capabilities, functional behaviors, and required transformations: material, energy, and product flows, optimisation functions, safety envelopes.
-* Under `VP.Procedural`, `Plant_X` is viewed as sets of procedures and control sequences: startup and shutdown, normal operation, emergency handling.
-* Under `VP.AllocationResponsibility`, `Plant_X` is viewed as role-assignment and responsibility structures: human operators, controllers, and subsystems assigned work-facing roles in SOPs and safety cases.
-* Under `VP.ModuleInterface`, `Plant_X` is viewed as modules and interfaces: equipment units, pipelines, control modules, buses, and their interfaces and specifications.
+Every TEVB viewpoint is the same individual as one C.2.1 episteme P. Its exact EntityOfConcern is one selected viewpoint-convention structure S, not the holon later described by a conforming view.
 
-Each of these is a **family of Description epistemes and specification-use cases** with `DescriptionContext = ⟨EntityOfConcernRef(Plant_X or ControlStack_X), BoundedContextRef, ViewpointRef=VP.*⟩` and TEVB ensures that `E.18` and MVPK can rely on this common structure.
+For each of the four viewpoints:
 
-### E.17.2:5.1 - Bias-Annotation
+1. identify exact convention epistemes under their least-powerful admitted kinds;
+2. construct exact collection C under C.13;
+3. recover every selected direct relation occurrence among those epistemes;
+4. identify ordinary constraint episteme `Q_org` about C;
+5. let a system perform A.22 structure-selection work using C, the exact relation occurrences, the applied constraints from `Q_org`, and the describing-use frame, yielding exact S;
+6. identify ordinary episteme P with `EntityOfConcern(P)=S` and apply the five E.17.0 viewpoint-membership conditions;
+7. only then use the corresponding `VP.*` designator and `U.ViewpointRef`.
 
-| Bias | How E.17.2 prevents it |
-| --- | --- |
-| Viewpoint-as-publication-face bias | `VP.*` ids are engineering viewpoint ids, not publication faces, publication forms, files, cards, or carriers. |
-| Architecture-framework import bias | TEVB is an engineering viewpoint bundle over holons; architecture-specific viewpoint bundles remain separate species that may import TEVB. |
-| Role-coordinate leakage | `VP.AllocationResponsibility` names a viewpoint, not a new `U.Role`, `U.RoleAssignment`, or allocation-responsibility root kind inside Description episteme signatures. |
-| Viewpoint proliferation bias | Assurance, information, mission, deployment, and business labels remain separate bundle species or lexical family labels unless a new `U.ViewpointBundle` species is explicitly introduced. |
-| EntityOfConcern drift | TEVB-aligned descriptions keep the selected holon as `EntityOfConcernRef` unless a governed retargeting pattern changes it. |
+No constituent, `Q_org`, or P becomes a `U.Signature` merely to fit this construction. A constituent is a `U.MethodDescription` only when it describes one independently admitted method under A.3.2. Exact selection work and its result remain separate from C, S, P, and the selected relation occurrences.
 
-### E.17.2:6 - Conformance checklist  *(normative)*
+The concern epistemes have these exact subjects and governors:
 
-**CC‑TEVB‑1 (Bundle identity).**
-Any artefact claiming to be “TEVB engineering viewpoints” must:
+| Viewpoint designator | Exact concern EntityOfConcern and direct governor |
+|---|---|
+| `VP.Functional` | exact `U.Transformation` under A.3.4; exact `U.Capability` under A.2.2; exact transformation-flow `U.Structure` under E.18 and A.22 |
+| `VP.Procedural` | exact `U.Method` under A.3.1; exact transformation-flow `U.Structure` under E.18 and A.22; exact operational-state `U.Structure` under A.19.SPR and A.22 |
+| `VP.AllocationResponsibility` | exact `U.RoleAssignment` under A.2.1; exact role-relation `U.Structure` under A.2.7 and A.22; exact `U.Capability` under A.2.2; exact `U.Transformation` under A.3.4 |
+| `VP.ModuleInterface` | exact dependency `U.Structure` under B.1.1 and A.22; module, interface, boundary, substitutability, and change-policy claims remain governed by their direct patterns |
 
-* refer to `viewFamilyId = VF.TEVB.ENG`,
-* have `EntityOfConcernClassSpec = {h : U.Holon | HolonKind(h) ∈ {System, Episteme}}`,
-* enumerate `viewpoints = {VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}` and no others.
+Keep the owner-specific claim boundaries explicit:
 
-**CC‑TEVB‑2 (Viewpoint definition).**
-Each `VP.*` viewpoint must be a well‑formed `U.Viewpoint` per E.17.0:
+- **Functional:** functioning status, input/output boundary, and functional-port coverage remain claims in `E_rule.functionalCoverage` unless a separately identified EntityOfConcern and direct governor are current. The three concern epistemes stay separately about exact Transformation, exact Capability, and exact transformation-flow Structure; there is no universal function entity or one multi-subject concern episteme.
+- **Procedural:** order, concurrency, failure, and recovery remain coverage claims unless another exact EntityOfConcern is independently identified. Method mention grants no MethodDescription membership, state wording is not a Structure, and procedural content is not performed work.
+- **Allocation-responsibility:** holder, transformer, allocation, segregation, and responsibility remain typed constraint claims unless their exact direct occurrence or selected structure is independently recovered. A role value is not a RoleAssignment, allocation wording is not an obtaining relation, and selected structure performs no work.
+- **Module-interface:** current `moduleIn(...)` remains a claim record. Whole-holon, candidate-module, boundary, interface, substitutability, and change-policy content stays in the coverage-rule episteme until a direct module-relation pattern admits exact participant kinds, predicate, obtaining, and occurrence identity. The claim record is not that relation and a module topic is not an EntityOfConcern.
 
-* `viewpointId` equal to one of the four engineering IDs,
-* `EntityOfConcernClassSpec` equal to the bundle’s,
-* `StakeholderFamilies`, `Concerns`, `AllowedEpistemeKinds`, `ConformanceRules` explicitly declared.
+Split any phrase spanning several exact subjects into separate concern epistemes, or retain it as one constraint claim over candidate content. Assign each stakeholder constituent exactly one governed referent disposition—exact system, role value, C.13 collection-as-whole, or context-local classification. Do not coerce heterogeneous constituents into Signatures merely to make the rows uniform.
 
-**CC‑TEVB‑3 (DescriptionContext completeness).**
-Every Description episteme or specification-use case participating in a TEVB‑managed multi‑view family for a holon must have a `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` with:
 
-* `EntityOfConcernRef` referencing a `U.System` or `U.Episteme`,
-* `ViewpointRef ∈ {VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`,
-* `BoundedContextRef` pointing to the engineering context (E.10.D1).
 
-Capability, Method, procedure terms, control-logic terms, role-structure, structural-architecture, module, interface, and allocation terms in those descriptions are viewpoint concern and content unless the text explicitly declares an A.6.4 retargeting, KindBridge, and species-extension rule that changes `EntityOfConcernRef`.
+The four witnesses are:
 
-**CC‑TEVB‑4 (Separation from PublicationVPs).**
-`VP.*` identifiers from TEVB are engineering-viewpoint ids. They do not serve as MVPK publication-side viewpoint ids. Publication-side viewpoints are governed in MVPK and may **correspond** to TEVB engineering viewpoints through `CorrespondenceModel`, but they are separate symbols.
+| Exact substrate | Applied constraints, selected structure, and viewpoint episteme | Selected direct dependencies | Method and work boundary |
+|---|---|---|---|
+| `C_functional = {E_target.tevbHolon, E_admitted.tevbEpisteme, E_concern.functionalTransformation, E_concern.capability, E_concern.transformationFlowStructure, E_rule.functionalCoverage, E_rule.functionalModuleSeparation, E_rule.functionalRetargeting}` | `Q_org.functional` is an ordinary constraint episteme about C. A.22 selects `S_functional`; `P_functional` has `EntityOfConcern=S_functional`, is designated `VP.Functional`, and passes E.17.0 viewpoint membership. | Each concern episteme depends on `E_target.tevbHolon`; `E_rule.functionalCoverage` depends on all three concern epistemes and `E_admitted.tevbEpisteme`; separation depends on functional-transformation concern; retargeting depends on the target. | No method constituent is required. A method convention enters only as exact `U.MethodDescription` after its method passes A.3.1. |
+| `C_procedural = {E_target.tevbHolon, E_admitted.tevbEpisteme, E_concern.method, E_concern.transformationFlowStructure, E_concern.operationalStateStructure, E_rule.proceduralCoverage, E_rule.proceduralMethodBoundary, E_rule.proceduralNoWorkInference}` | `Q_org.procedural` is about C. A.22 selects `S_procedural`; `P_procedural` has `EntityOfConcern=S_procedural`, is designated `VP.Procedural`, and passes E.17.0 viewpoint membership. | Each concern episteme depends on the target; coverage depends on all concerns and admitted-episteme kind; method boundary depends on method concern; no-work-inference depends on method and transformation-flow concerns. | Operational methods remain subjects of separate method-description epistemes. Concern selection, view construction, evaluation, and use do not form one method or workflow by mention. |
+| `C_allocation = {E_target.tevbHolon, E_admitted.tevbEpisteme, E_concern.roleAssignment, E_concern.roleRelationStructure, E_concern.capability, E_concern.transformation, E_rule.allocationCoverage, E_rule.allocationNoWorkInference, E_rule.allocationRetargeting}` | `Q_org.allocation` is about C. A.22 selects `S_allocation`; `P_allocation` has `EntityOfConcern=S_allocation`, is designated `VP.AllocationResponsibility`, and passes E.17.0 viewpoint membership. | Each concern episteme depends on the target; coverage depends on all four concerns and admitted-episteme kind; no-work-inference depends on role-assignment, role-structure, and transformation concerns; retargeting depends on the target. | Raw role values and raw methods are not collection members. Allocation or analysis method enters only through an exact method-description episteme. The selected structure performs no work. |
+| `C_module = {E_target.tevbHolon, E_admitted.tevbEpisteme, E_concern.dependencyStructure, E_rule.moduleCoverage, E_rule.interfaceTyping, E_rule.functionalModuleSeparation, E_rule.substitutabilityChange, E_rule.moduleRetargeting}` | `Q_org.module` is about C. A.22 selects `S_module`; `P_module` has `EntityOfConcern=S_module`, is designated `VP.ModuleInterface`, and passes E.17.0 viewpoint membership. | Dependency-structure concern depends on the target; coverage depends on target, dependency structure, and admitted-episteme kind; typing, functional separation, and substitutability/change depend on dependency structure; retargeting depends on target and dependency structure. | No method, work, or module relation enters by mention. A direct module or interface relation joins only after its own pattern supplies participants, obtaining law, and occurrence identity. |
 
-**CC‑TEVB‑5 (No Role coordinate in EntityOfConcern and Description-episteme boundary or specification use).**
-TEVB-aligned descriptions and specification-use cases may reference stakeholder or audience families in `StakeholderFamilies`, and may use `VP.AllocationResponsibility` as the viewpoint id, but they must not add `Role`, `RoleAssignment`, or a `AllocationResponsibility` value as a characteristic in Description episteme or specification-use case signatures beyond what A.7, C.2.1, and E.10.D2 already provide. Work-facing role and holder claims stay in `A.2`, `A.2.1`, `A.15`, and Part F; TEVB just selects concerns.
+Each witness remains independently recoverable. Exact constituent editions identify C; every selected dependency occurrence passes the E.17.0 predicate; optional `D_dependencyUse` states obtaining and named-use admissibility as separate claims; and A.22 selects S from exact C, selected occurrences, applied Q constraints, and the use frame. Exact P is then identified by its claim content, S EntityOfConcern, and effective scheme. Changing only the Q edition leaves S unchanged when those selection inputs remain semantically unchanged. No topic list, citation, displayed edge, hidden O, D, or neighboring witness supplies another witness's closure.
 
-**CC‑TEVB‑6 (Alignment with consumer viewpoint maps).**
-When a pattern defines engineering viewpoint families named “Functional”, “Procedural”, “Allocation‑Responsibility (Device‑Structure)”, or “Module‑Interface” over the same `EntityOfConcernClass` and claims TEVB alignment (for example, the `E.18:5.12` transformation-flow viewpoint-family map), it must bind them to TEVB viewpoints as follows:
+The dependency relation in this table is exact `ViewpointConventionDependencyRelation` from E.17.0. It obtains only when interpreting or replaying the fixed claims of the dependent episteme relies on an exact criterion, law, public name, or method claim of the base episteme, and replacing the base edition can change that interpretation or replay. Co-membership, citation, or a visible arrow is insufficient.
 
-* “Functional” → `VP.Functional`,
-* “Procedural” → `VP.Procedural`,
-* “Allocation‑Responsibility (Device‑Structure)” → `VP.AllocationResponsibility`,
-* “Module‑Interface” → `VP.ModuleInterface`.
 
-Any deviation must be explicitly documented as a species‑level extension and must not reuse `VF.TEVB.ENG`.
 
-### E.17.2:6.1 - Common Anti-Patterns and How to Avoid Them
+When an A.22 selection judgment needs an explicit claim that one obtaining dependency occurrence is admissible for that use, identify the separate decision-use episteme described by E.17.0. Do not insert that decision, its evidence, or its evaluation result into the dependency relation or S identity.
 
-| Anti-pattern | Symptom | Correction |
-| --- | --- | --- |
-| Functional view means the diagram | A functional diagram, card, or dashboard is treated as `VP.Functional` itself. | Keep `VP.Functional` as the viewpoint; model the diagram or card through Description, view, publication face, or publication form machinery. |
-| Architecture framework becomes TEVB | A 4+1, UAF, NAF, SysML, or local framework is imported as the FPF viewpoint bundle. | Map it to TEVB or to a separate architecture-specific `U.ViewpointBundle` species. |
-| Responsibility view becomes role assignment | A responsibility-oriented view adds `U.Role` or `U.RoleAssignment` as a Description-episteme coordinate. | Keep responsibility as viewpoint content; use `A.2`, `A.2.1`, and `A.15` when a work-facing role assignment is actually claimed. |
-| Extra viewpoint by label | Information, assurance, mission, or deployment labels are added directly to `TEVB.EngBundle.viewpoints`. | Introduce a separate bundle species or keep the label as a transformation-flow family label where appropriate. |
+#### E.17.2:4.3 - Keep the four concern conventions distinct
 
-### E.17.2:6.2 - Consequences
+**Functional.** A conforming candidate episteme foregrounds exact transformations, capabilities, effects, functional elements, or transformation-flow relations of its holon. It does not identify a module structure by functional vocabulary and does not mint `U.Function`. Responsibility claims route to exact role and allocation governors.
 
-Positive consequences:
+**Procedural.** A conforming candidate episteme foregrounds exact methods, order, state, concurrency, failure, and recovery related to its holon. A procedural view about a holon is not a `U.MethodDescription`; that dependent kind requires one admitted method as the episteme's exact EntityOfConcern.
 
-- Engineering descriptions can reuse one compact viewpoint bundle across systems, epistemes, and architecture-description bundles.
-- Functional, procedural, allocation-responsibility, and module-interface views stay comparable without importing one architecture framework as FPF law.
-- Publication faces, architecture-specific views, role assignments, methods, work, and module-interface claims keep their direct owners.
+**Allocation-responsibility.** A conforming candidate episteme foregrounds exact systems, role values, role assignments, capabilities, transformations, and selected responsibility structures related to its holon. A role label does not prove an assignment, and a responsibility-oriented view does not itself assign a role or perform work.
 
-Costs:
+**Module-interface.** A conforming candidate episteme foregrounds exact constituent holons, dependency structures, boundaries, interfaces, compatibility, substitutability, and change policy. It remains distinct from the functional viewpoint: many modules may support one transformation, one module may support several transformations, and either description may be incomplete without becoming the other.
 
-- Teams must declare when a local framework maps to TEVB and when it needs a separate viewpoint-bundle species.
-- TEVB intentionally does not absorb every useful engineering or stakeholder viewpoint; specialized bundles remain necessary.
+The following are practitioner recognition and claim-shape cues, not embedded `StakeholderFamilies` or `AllowedEpistemeKinds` fields. A reader label creates no role assignment and enters neither viewpoint nor view identity; every example still needs its exact EntityOfConcern, direct governor, and E.17.0 conformance basis.
 
-### E.17.2:7 - Rationale  *(informative)*
+| Viewpoint | Typical readers or concern holders | Distinctive claim-shape and conformance cues |
+|---|---|---|
+| `VP.Functional` | System-engineering and architecture readers, product or capability owners, and reliability or performance readers inspecting capability envelopes | Look for service-capability and promise content, delivery or access and API descriptions, input/output signatures, and functional-port boundaries only as separately governed claims about the holon. Ground bounded behavior in exact transformations, capabilities, or a selected transformation-flow structure; keep service delivery Work, access relations, publications, and module interfaces separate, and do not mint `U.Function`. |
+| `VP.Procedural` | Operations and run-time owners, control and automation engineers, and safety readers | Look for operational methods and procedures, control logic, workflow or orchestration logic, ordering, state, concurrency, failure, and recovery. Where step boundaries are current, make preconditions and postconditions explicit and type-checked; trace failure and recovery claims to their exact safety-analysis basis. Keep the method, method description, work plan, dated Work, calendars, and selected state or flow structures distinct. |
+| `VP.AllocationResponsibility` | Organization and operations designers, safety or compliance readers concerned with segregation of duties, and device or system engineers | Look for exact holder and role-assignment claims, segregation and escalation constraints, responsibility structures, transformer or device loci, and capability allocation to physical, organizational, or software systems. A role value is not an assignment, allocation wording is not an obtaining relation, and no view or selected structure performs the allocated Work. |
+| `VP.ModuleInterface` | Hardware or software architects, integration and test engineers, and lifecycle or maintenance readers concerned with replaceable units | Look for module decomposition, protocols, schemas, physical connectors, APIs, interface and conformance expectations, version and change policies, dependency and allowed-coupling structures, replaceability and variation points, and explicit functional-to-module correspondence or allocation without identity by default. Ports or connector diagrams do not establish module/interface relations; each direct relation and any functional-to-module retargeting keeps its own governor. |
 
-#### E.17.2:7.1 - NQD‑grounded choice of the core four
+#### E.17.2:4.4 - Recognize holon-centered TEVB views by conformance
 
-Part G's NQD discipline treats candidate viewpoint families as points in an N, U, C, and D quality space (Use-Value, Constraint-Fit, Novelty, Diversity_P). Applied to a SoTA-harvested candidate set of engineering viewpoints (Functional, Behavioural, Procedural, Structural-Module, Allocation-Responsibility, Information-Data, Assurance-Safety, Mission-Context, Deployment-Operational, Business-Usage), this yields a small Pareto frontier for *engineering holon* viewpoints. On that frontier, the `F-B-S+R` cut implemented by `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}` is the minimal set that:
-* spans the Function-Behaviour-Structure ontology used in contemporary design theory while adding an explicit allocation and responsibility concern;
-* aligns with the “functional”, “process”, “structural”, and “deployment” clusters recurrent in standards and architecture frameworks;
-* stays neutral with respect to domain‑specific qualities (`‑ilities`) and business and mission framing, which are captured in separate Q‑Bundles and governance-oriented viewpoint bundles rather than in TEVB itself.
+TEVB keeps two subjects explicit:
 
-Other candidates (e.g. dedicated information, assurance, or mission viewpoints) remain important but either duplicate concerns already captured by TEVB (when specialised to engineering holons) or are better modelled as orthogonal quality bundles (C.25) or non-engineering viewpoint bundles (business and governance viewpoint bundles). TEVB therefore pins only the core four and leaves the rest to specialised families.
+| Episteme | Exact EntityOfConcern | Job |
+|---|---|---|
+| viewpoint episteme P | selected viewpoint-convention structure S | states the target-kind criterion, concerns, admitted episteme kinds, semantic-form, coverage, consistency, completeness, omission, and describing-use rules |
+| candidate or view episteme E | one exact holon H admitted by P's target criterion | states claims about H and designates other engineering objects only through exact governed relations |
 
-### E.17.2:7.2 - SoTA-Echoing - Alignment with post-2015 engineering practice
+`EpistemeViewpointConformanceRelation(E,P)` must pass the fixed E.17.0 predicate. Only then is the same episteme E a `U.View`. Direct authoring, query execution, A.6.3 construction, a `VP.*` label, bundle membership, or publication does not establish that membership.
 
-* Modern architecture standards built on ISO/IEC/IEEE 42010 describe viewpoint libraries in which functional, behavioural and process, structural and deployment, and business and usage concerns are the dominant clusters; sector RAs such as IoT RA 30141 and space‑domain RAs provide explicit functional and construction and implementation viewpoints alongside business and usage and trustworthiness viewpoints. TEVB reuses the functional and construction and structural clusters as `VP.Functional` and `VP.ModuleInterface`, while treating business and trustworthiness as separate bundles.
-* Model-based systems engineering practice (INCOSE MBSE guidance, SysML v2 “views-as-queries”, UAF/NAF view grids) converges on a small set of core diagram families: structure, behaviour, allocation and responsibility, requirements and mission. TEVB’s `VP.Procedural` and `VP.AllocationResponsibility` correspond to the behaviour and allocation-and-responsibility concerns, respectively, and are designed to be notation-neutral over SysML-, UAF-, UML-, and Capella-style models.
-* The FBS family of design ontologies (Function–Behaviour–Structure and extensions) provides a widely used conceptual source for separating what a system is for, what it does over time, and what it consists of. TEVB’s four viewpoints intentionally implement a Function-Behaviour-Structure-plus-responsibility split at the holon level: `VP.Functional` ≈ Function, `VP.Procedural` ≈ Behaviour, `VP.ModuleInterface` ≈ Structure, with `VP.AllocationResponsibility` capturing the explicit mapping from functions and behaviours to role-assignment and responsibility structures.
-* Within FPF itself, `E.18` transformation-flow “viewpoint families” (Functional, Procedural, Allocation-Responsibility or Device-Structure, Module-Interface, plus assurance, interoperability, data, operational, and mission labels) are harmonised by letting the **core four** be TEVB viewpoints and treating the rest as lexical or bundle-level overlays, not as new kernel viewpoints.
+For one current describing use, its exact use qualification carries one singular `viewpointRef : U.ViewpointRef` resolving P under the effective reference scheme. Any `ViewpointId` is only P's designator. The use qualification, designator, reference, and P remain distinct; selection identifies neither E nor H, establishes no conformance, and adds no conformance participant or episteme-identity field.
 
-#### E.17.2:7.3 - Why TEVB stays small
+Recover exact H only as `EntityOfConcern(E)` from E's C.2.1 constitution. Do not import a legacy context tuple, generic bounded-context object, or model-use identity field into E, P, S, conformance, or selection. Another use may select another P while E remains unchanged; several selected viewpoints require an exact governed collection rather than one overloaded reference.
+If a user needs a view whose exact subject is a method, role assignment, transformation, or structure rather than H, identify another candidate episteme with that EntityOfConcern and use a viewpoint whose target-kind criterion admits it. Do not silently retarget a holon-centered TEVB view.
 
-TEVB is deliberately *not* a complete architecture framework. It gives FPF a stable, holon‑centred engineering bundle that:
-* is small enough to keep in working memory and to govern via EpistemeSlotRelation discipline;
-* is expressive enough to represent mappings from SoTA architecture frameworks (4+1, domain‑specific RAs, UAF/NAF grids, SysML‑based MBSE method kits);
-* can be safely combined with additional `U.ViewpointBundle` species (safety and assurance packs, business and mission packs, and information and data packs) without mutating the core four;
-* sits conceptually **below** architecture‑specific viewpoint libraries, which are introduced as separate `U.ViewpointBundle` species layering TEVB with mission, quality, and business viewpoints instead of redefining TEVB.
+#### E.17.2:4.5 - Import, subset, and extend without semantic drift
 
-As SoTA evolves, new bundles can be added or TEVB can gain a new edition with a revised NQD‑frontier, but the TEVB‑A edition fixed here remains the archetypal engineering bundle for holons.
+An E.17.0 multi-view use first selects one exact `U.ViewpointBundleLibrary` edition and its exact TEVB bundle edition, whose `ViewFamilyId` is `VF.TEVB.ENG`, and then names the exact imported `U.ViewpointRef` members or subset from that edition. `VF.TEVB.ENG` is only the family designator: it neither identifies the selected editions by itself nor serves as a member reference. Each imported reference resolves exact viewpoint episteme P, while P's `VP.*` token is only its `ViewpointId` designator. A local subset names the retained references, preserves the exact source-edition provenance, and records whether each omission is merely unused coverage or an intentional local exclusion.
 
-### E.17.2:8 - Relations  *(informative)*
+If local work changes only reader-facing aliases or adds examples, keep those as naming or annex content. If it changes a viewpoint's target criterion, concerns, admitted episteme kinds, conformance rules, or bundle membership, identify a new viewpoint or bundle edition. Do not keep the old designator while changing the exact P that it is supposed to designate under the same effective reference scheme.
 
-* **Builds on.** E.17.0 (`U.MultiViewDescribing`), E.17.1 (`U.ViewpointBundleLibrary`), A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary plus specification use), C.2.1 (EpistemeSlotRelation), A.6.2-A.6.4 (episteme morphisms).
-* **Constrains.** E.18:5.12 (transformation-flow viewpoint-family map), engineering description and specification-use patterns, MVPK engineering publication guidance.
-* **Coordinates with.** MVPK publication face, publication form, publication unit, and publication carrier discipline; `A.2`, `A.2.1`, `A.15`, and Part F role-description and role-name patterns; F.18 (naming discipline for ViewFamilyId, ViewpointId, EngineeringVPId, and publication-side viewpoint ids).
-* **Non‑goals.** TEVB does not prescribe modelling notations (SysML, BPMN, IEC 61131‑3, etc.), storage formats, or tool APIs. It only fixes the **conceptual viewpoint bundle** that such tools must respect when claiming FPF alignment.
+Several bundles may be used together, but each member retains its bundle provenance and exact resolved viewpoint edition. Similar labels do not merge members.
+
+A consumer that claims TEVB alignment for engineering families named `Functional`, `Procedural`, `Allocation-Responsibility (Device-Structure)`, and `Module-Interface` binds them respectively to `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, and `VP.ModuleInterface`. A different mapping is another governed bundle or edition and must not silently reuse `VF.TEVB.ENG`.
+
+#### E.17.2:4.6 - Keep cross-view relations and publication separate
+
+TEVB provides four reusable viewpoint references; it does not assert correspondence among any resulting views. When work depends on a relation between a functional claim and a module claim, or between a procedural claim and a role-assignment claim:
+
+1. identify the exact participating entities or epistemes;
+2. state the exact realization, allocation, dependency, consistency, trace, or other direct relation claimed;
+3. use its direct governing pattern and obtaining law;
+4. use A.6.RCD when no existing direct or derived relation is sufficient;
+5. use C.29 only for a representation of the recovered relation.
+
+E.17 and E.24.PUB may publish a selected TEVB view edition through three separately governed relations: `PublicationFormExpressionRelation(selectedEdition,publicationForm,boundedUseDeclaration)`, `PublicationFormBearingRelation(presentationCarrier,publicationForm)`, and the five-participant `EpistemePublicationRelation(selectedEdition,audienceDeclaration,boundedUseDeclaration,publicationForm,presentationCarrier)`. Each retains its own participant set and maximal continuous obtaining interval; changing a participant or restoring availability after a gap yields another occurrence without reidentifying unchanged E or P.
+
+Rendering, printing, upload, or carrier manipulation is separate system-performed `U.Work`. C.29 is used only when a representation corresponds to independently recovered objects or relations. A publication-side viewpoint, when current, is another exact viewpoint episteme selected by reference—not a TEVB `VP.*` token reused as a form or file name. View episteme, viewpoint episteme, construction, conformance, form, carrier, publication, rendering, and representation remain distinct; none of publication or representation makes a world-side subject relation obtain.
+
+### E.17.2:5 - Worked cases
+
+#### E.17.2:5.1 - Four views of a processing plant
+
+Exact plant `Plant_X : U.System` is the EntityOfConcern of four separately identified epistemes.
+
+- E1 states transformations, capabilities, material-flow effects, and functional boundaries. `ref(VP.Functional)` resolves P1; E1 conforms to P1 and is a functional `U.View`.
+- E2 states exact operating methods, states, order, failure, and recovery claims related to the plant. It conforms to P2 designated `VP.Procedural`; it is not a method description because its EntityOfConcern is the plant.
+- E3 states exact role assignments, operator systems, automation systems, capabilities, and responsibility structures. It conforms to P3 designated `VP.AllocationResponsibility`; neither E3 nor P3 performs work or assigns a role.
+- E4 states constituent equipment holons, dependency structure, pipes, interfaces, substitutability, and change policy. It conforms to P4 designated `VP.ModuleInterface`; the diagram rendering E4 is published in remains separate.
+
+The four conformance occurrences make E1-E4 views. Their shared holon and common bundle do not establish any cross-view realization or consistency relation. Those claims are tested separately.
+
+#### E.17.2:5.2 - Query output missing a required concern
+
+A query constructs episteme Y from plant model X, and A.6.3 records that construction. Y is labelled `functional view`, but it omits the output-condition coverage required by exact P1. Construction obtains; conformance does not. Y is not a `U.View` under P1 until another episteme edition with repaired claim content passes the predicate.
+
+#### E.17.2:5.3 - Responsibility diagram and actual assignment
+
+A responsibility diagram episteme E concerns exact system H. Exact `r_allocation = ref(VP.AllocationResponsibility) : U.ViewpointRef` resolves exact viewpoint episteme P designated by the `VP.AllocationResponsibility` token; `EpistemeViewpointConformanceRelation(E,P)` obtains. One box names `MaintainerRole@Plant`. This mention does not establish that system S holds the role. Exact `U.RoleAssignment` occurrence RA must be recovered under A.2.1; E can then assert or describe RA without becoming RA.
+
+#### E.17.2:5.4 - One view, two publications
+
+Module-interface view E is published as an interactive model and as a printed inspection sheet. Both publication occurrences select the same episteme edition. Their forms and carriers differ; E, its conformance occurrence, and its `U.View` membership do not.
+
+#### E.17.2:5.5 - DDD Context Mapping method and product
+
+A team enacts DDD Context Mapping. The way of doing is one independently admitted `U.Method` under A.3.1; an episteme that substantively describes that method may separately be a `U.MethodDescription` with the method as its exact EntityOfConcern. Neither is a TEVB viewpoint or view by its label.
+
+First determine whether the product is a claim-bearing episteme or only a diagram, form, or carrier. A claim-bearing product called a Context Map is separately identified under C.2.1 as candidate episteme E with its own exact claim content, EntityOfConcern, and effective scheme. It becomes a `U.View` only if one exact viewpoint P admits E's subject and `EpistemeViewpointConformanceRelation(E,P)` obtains. Method enactment, product naming, diagram form, bundle position, publication, and visual resemblance grant no membership. If the map represents independently recovered domain regions or relations, C.29 governs that correspondence; a mere carrier remains with E.24.PUB, and the drawing creates no world-side relation.
+
+### E.17.2:6 - Consequences
+
+
+| Gain | Cost or boundary |
+|---|---|
+| Four familiar engineering concern families become reusable across holons and domains. | A new viewpoint edition needs an inspectable convention witness rather than a label alone. |
+| Viewpoint episteme, selected structure, view episteme, and described holon remain distinct. | Authors must recover two different EntityOfConcern values: S for P and H for E. |
+| Directly authored and generated descriptions use one conformance rule. | Query or rendering provenance cannot substitute for conformance. |
+| Cross-view engineering claims keep their direct semantics. | A package or diagram cannot provide realization, allocation, or consistency by appearance. |
+| Publication can evolve independently of the engineering viewpoints. | Publication forms and carriers need their own direct relations when they affect work. |
+
+Reopen TEVB when the four-member bundle no longer gives a non-dominated engineering concern family for holons, when a viewpoint's exact target criterion or conformance rules change, or when a candidate concern cannot be expressed without changing the viewpoint witness. Add another bundle instead when the concern is orthogonal rather than a replacement for the four.
+
+### E.17.2:7 - Rationale and SoTA-Echoing
+
+The core-four choice is inspectable rather than conventional. Treat the SoTA-harvested candidate families—functional, behavioural, procedural, structural/module, allocation/responsibility, information/data, assurance/safety, mission/context, deployment/operational, and business/usage—as alternatives in the N/U/C/D quality space of Novelty, Use-Value, Constraint-Fit, and Diversity_P. Pareto/NQD comparison for engineering holons retains the `F-B-S+R` cut implemented by `VP.Functional`, `VP.Procedural`, `VP.ModuleInterface`, and `VP.AllocationResponsibility` as the minimal non-dominated core: it spans function, behaviour or procedure, structure, and explicit responsibility/allocation while remaining small enough for routine reuse.
+
+Information/data, assurance/safety, mission/context, deployment/operational, and business/usage concerns are not rejected or silently absorbed. They remain orthogonal bundle candidates, quality bundles, or governance-oriented bundles unless a later exact TEVB edition reopens the comparison. A recurring label, an E.18 overlay, or one local omission does not extend `VF.TEVB.ENG`.
+
+| Practice line | Adopted move | Rejected overread | Practical effect |
+|---|---|---|---|
+| Architecture-description viewpoint practice, including ISO 42010 as established vocabulary lineage | Keep concern-bearing viewpoint, view, described entity, correspondence, and publication distinct. | The standard vocabulary does not provide FPF identity, obtaining, construction, or conformance laws. | Engineers can use familiar view language without importing a lifecycle or documentation method. |
+| Function-Behaviour-Structure design traditions | Preserve functional, procedural or behavioral, and module-interface concerns as different readings of one holon. | FBS labels do not identify exact transformations, methods, structures, or relations by themselves. | Functional and structural descriptions can be compared without collapse. |
+| MBSE and views-as-queries practice | Allow queries and projections as construction routes for candidate view epistemes. | Generated output is not a view until E.17.0 conformance obtains. | Tool-generated and directly authored epistemes share one test. |
+| Responsibility and allocation views in engineering practice | Keep allocation and responsibility concerns visible beside function, behavior, and structure. | A responsibility view is not a role assignment, organizational actor, or proof of performed work. | Teams can inspect who or what is claimed to bear work while retaining exact A.2/A.15 governors. |
+| FPF constructive relation architecture | Build each viewpoint from exact convention epistemes, direct relation occurrences, applied constraints, selected structure, and exact P. | A topic list, graph, method label, or signature forest is not the viewpoint. | Viewpoint editions remain replayable while ordinary reuse needs only one resolved reference. |
+
+### E.17.2:8 - Ownership and boundaries
+
+- **E.17.2** owns the four TEVB viewpoint witnesses, their bundle membership, and their engineering concern content.
+- **E.17.0** owns `U.Viewpoint` and `U.View` membership, both direct relations used by the witness and conformance architecture, and ordinary-use stopping rules.
+- **E.17.1** owns library and bundle packaging by references.
+- **C.2.1** owns identity of every constituent episteme, Q, P, candidate E, assertion, and description.
+- **C.13 and A.22** own exact collection construction and structure selection.
+- **A.6.3** owns optional source-to-receiving viewing construction, never view membership.
+- **A.3.1/A.3.2, A.3.4, A.2.1/A.2.2/A.2.7, E.18, B.1.1, and module/interface patterns** retain the exact subjects and direct relations mentioned by each viewpoint.
+- **E.24.PUB and C.29** own publication and representation objects.
+- **A.6.RCD** owns construction or admission of a needed relation when current direct governors are insufficient.
+
+### E.17.2:9 - Conformance checklist
+
+1. The exact TEVB edition contains exactly four `U.ViewpointRef` members, not embedded viewpoint values, views, documents, forms, carriers, or publication occurrences.
+2. Each `VP.*` token is only P's `ViewpointId` designator; the reference resolves exact P, while designator, reference, P, S, and bundle position remain distinct.
+3. Each P has one exact selected convention structure S as EntityOfConcern and passes all five E.17.0 viewpoint-membership conditions.
+4. Each witness names the exact least-powerful constituent editions, every selected obtaining dependency occurrence, ordinary Q_org, exact A.22-selected S, and ordinary P; optional D and evaluation remain named-use neighbors.
+5. Each concern episteme has one independently recoverable EntityOfConcern and direct governor; a multi-subject phrase is split or retained as a constraint claim, never promoted to a hidden group kind.
+6. Candidate E has one exact holon H as EntityOfConcern and becomes `U.View` only through obtaining `EpistemeViewpointConformanceRelation(E,P)`.
+7. A singular describing-use reference selects P without entering E/P identity or conformance; A.6.3 construction, bundle membership, naming, evaluation, rendering, and publication grant no membership.
+8. Procedural views are not MethodDescriptions by topic; allocation-responsibility views are not RoleAssignments or actors; module-interface views are not direct module relations or functional views by shared labels.
+9. DDD Context Mapping remains a `U.Method`; a product called Context Map is a separately identified episteme and becomes a View only through exact E/P conformance.
+10. Every cross-view relation has an exact governor, obtaining test, and participant meanings; a diagram edge, correspondence label, citation, or shared holon is insufficient.
+11. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, C.29 representation, and any publication-side viewpoint remain distinct and make no world-side subject relation obtain.
+12. Ordinary reuse stops after resolving P and making the readable conformance judgment unless a named receiving work needs more structure.
 
 ### E.17.2:End
 

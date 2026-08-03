@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53661
-line_end: 53727
+line_start: 53904
+line_end: 53970
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,9 @@ dependencies:
   - "C.26.1-C.26.3"
   - "C.26.2"
   - "C.26.3"
+  - "E.17"
+  - "E.17.EFP"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "F.9"
@@ -66,10 +69,10 @@ Near-miss taxonomy:
 | --- | --- |
 | Feedback loop | Ordinary dynamics/control unless admissible reading, export, or comparison is affected. |
 | Metric gaming | Ordinary metric/incentive problem unless measurement publication changes the state reading. |
-| Uncertainty | Ordinary epistemic uncertainty unless context, probe, or frame changes variable identity or comparison law. |
+| Uncertainty | Ordinary epistemic uncertainty unless an exact probe/model frame, comparison frame, or effective reference scheme changes variable identity or comparison law and one named contextual-model obstruction remains. |
 | Complexity | Ordinary complexity unless shortcut, export, or probe issue remains. |
 | Compression | `A.6.3.CSC`, `A.6.3.RT`, modeling, or implementation pattern first; QL only for state-representation residue. |
-| DDD bounded context | `A.6` / `F.9` first; QL only if workshop, probe, or export changes state reading. |
+| DDD bounded-context cue | Direct boundary, local-sense, work, and model-use owners first; the label does not identify a universal object or activate QL. Retain C.26 only when a named probe, order, comparison, or export obstruction changes the admissible inference. |
 | Low-bit or quantized implementation | Engineering representation first; not QL because it is "quantized". |
 | Collective behavior | `A.15`, distributed cognition, routines, and evidence patterns first; QL only for low-recoverability state-reading residue. |
 

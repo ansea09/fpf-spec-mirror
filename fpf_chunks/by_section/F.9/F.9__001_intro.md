@@ -6,12 +6,12 @@ section_id: "F.9:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__001_intro.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:intro — Intro"
-line_start: 91498
-line_end: 91512
+line_start: 92122
+line_end: 92136
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -61,7 +63,7 @@ keywords:
 **Normativity:** Normative.
 **Builds on:** F.17 for exact scheme-based `SchemeSenseCell` identity and `SenseCellAddressRef`; F.18 for designation selection; C.2.1 for assertion and description-episteme identity; F.0.1 for `senseFamily` and bridge-only crossing discipline; F.7 and F.8 for downstream naming and reuse decisions.
 
-**Coordinates with:** A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance claims and minimum assurance records; A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
+**Coordinates with:** A.6.REL for demand-driven occurrence individuation; C.2.1 for assertion, occurrence-description, and Card identity; E.24.PUB for publication occurrence, form, and carrier; A.10 for evidence-provenance relations and local reliance dispositions; B.3 for assurance claims and minimum assurance records; A.2, A.2.1, F.4, F.5, F.6, and A.15.1 for work-facing role and performed-work claims; A.6.5 for relation-slot discipline; C.29 for mathematical-lens use; A.6.3.CSC for controlled coarsening; C.26.1 and C.26.2 for quantum-like export boundaries.
 
 **Plain entry cues (informative).** Context-to-context translator; sense bridge.
 

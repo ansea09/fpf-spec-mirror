@@ -6,12 +6,12 @@ section_id: "F.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:3 — Forces"
-line_start: 91173
-line_end: 91183
+line_start: 91716
+line_end: 91727
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -57,9 +58,10 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Parsimony vs coverage | Avoid new durable names while still giving teams enough vocabulary for real recurring work. |
-| Local sense vs cross-context reuse | A name can be obvious inside one bounded context and unsafe across contexts. |
-| Human readability vs ontology | Short names help use; they also hide kind, scope, and relation if admitted too early. |
-| Source familiarity vs FPF neutrality | A familiar source word may be useful as an alias while still being a bad selected FPF name. |
+| Local sense vs cross-local reuse | A name can be obvious under one effective ReferenceScheme and unsafe for another exact local-sense projection. |
+| Human readability vs ontology | Short names help use; they also hide kind, scope, occurrence identity, and relation if admitted too early. |
+| Source familiarity vs FPF neutrality | A familiar source word may be useful as an alias while still being a bad selected FPF designation. |
 | Naming speed vs downstream cost | Quick minting is cheap now and expensive when every subsequent pattern must repair it. |
+| Traceability vs record-first collapse | A result episteme can make a decision inspectable, but it must not replace the decision occurrence or perform the governed action. |
 | Open-world use vs false completeness | A missing durable name may mean "not current", not "new U-kind required". |
 

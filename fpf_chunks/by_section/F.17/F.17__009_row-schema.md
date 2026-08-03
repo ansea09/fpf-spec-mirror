@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Row schema"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_row-schema.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:7 — Row schema"
-line_start: 94701
-line_end: 94726
+line_start: 95390
+line_end: 95419
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,33 +47,36 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:7 - Row schema
 
-Use these columns unless the sheet has a justified specialization.
+Use these positions when they are current. Presence means that the exact referenced object or claim is independently recoverable; it is not a form-completion target.
 
-| Column | Presence condition | Meaning |
+| Position | Presence condition | Meaning |
 | --- | --- | --- |
-| `UTSRowId` | yes | Stable row id. It survives relocation of the row between blocks. |
-| `Unification thread` | yes | Sheet-local identifier of the bounded naming thread; it is not an ontological locality bearer. |
-| `Block` | yes | Didactic block name. It has no subtype force. |
-| `Governed value` | yes | Exact value being named, including a kind token when the name is for that token. |
-| `Governed value kind` | yes | Exact kind of the governed value; use `U.Kind` when the governed value is itself a kind token. |
-| `Direct pattern` | yes | Pattern that governs the underlying object or claim. |
-| `Unified Tech name` | yes | Technical name selected under F.5 and F.18. |
-| `Unified Plain name` | yes | Plain-language twin selected under F.5 and F.18. |
-| `NameCardRef` | yes | Link to the F.18 NameCard that selected or documented the published names. |
-| `SenseCellRefs` | yes | References to exact F.17 scheme-based local-sense coordinates. |
-| `BridgeRefs` | when the row makes a correspondence claim between different semantic-context projections | Refs to actual F.9 Bridge occurrences only, with their kind-defined symmetry or orientation and exact endpoint editions. Use direction, rule, tolerance, polarity, and reliance do not live in this field. |
-| `Row rationale` | yes | One sentence explaining why this row is one term decision. For reuse between different semantic-context projections, name the exact C.2.1 claim and its A.10 or B.3 reliance basis here or in `Notes`. |
-| `Admissible use` | yes | What this row may be cited for. A use between different semantic-context projections states the action, direction, correspondence rule, tolerated loss, and affirmative claim ref; it does not imply authorization or occurrence. |
-| `Not this use` | yes | The most tempting blocked use or misuse that this row does not permit. |
-| `Row edition` | yes | Edition of the row. |
-| `Currentness condition` | yes | Which direct-pattern, scheme, sense, name, Bridge, or source change opens row review. |
-| `Notes` | optional | Short teaching or homonym warning only. |
+| `UTSRowId` | yes | Stable row designator; an external row reference must resolve the exact C.2.1 episteme rather than trust this string. |
+| `Unification thread` | yes | Sheet-local navigation designator with no locality or ontology force. |
+| `Block` | optional | Didactic navigation label only. |
+| `Governed value` / C.2.1 `EntityOfConcern` | yes | Exact independently governed value named by the decision. |
+| `NameCardRef` | yes at the current F.18 public-row gate | Separate C.2.1 naming-settlement episteme whose selected designations this row projects. |
+| `Governed value kind` | yes | Exact kind of that value; `U.Kind` when the value is a kind token. |
+| `Direct pattern` | yes | Pattern owning the value, kind, identity, and any obtaining semantics. |
+| `Reference scheme` | yes | Effective by-value naming `U.ReferenceScheme` used in this row's C.2.1 constitution. |
+| `Unified Tech name` | yes | Selected Tech designation expression. |
+| `Unified Plain name` | yes | Selected Plain designation expression. |
+| `SenseCellRefs` | one or more | Exact scheme-based local-sense coordinates needed by this row. |
+| `BridgeRefs` | only for an actual cross-local relation used by the row | Exact obtaining F.9 occurrences; the separate use claim and reliance stay in rationale or notes. |
+| `Row rationale` | yes | Why these projections form one row decision. |
+| `Admissible use` | yes | Exact citation use supported by the row; it grants no authorization or occurrence. |
+| `Not this use` | yes | Nearest tempting overread that remains blocked. |
+| `Row edition id` | yes | Designator for this exact row episteme edition. |
+| `EpistemeEditionRelationRef` | only when C.2.1 historical continuation obtains | Separate relation from an exact earlier row episteme to this later one. |
+| `Currentness condition` | yes | Claim stating what reopens review; not a self-proving currentness relation. |
+| `Notes` | optional | Short lineage, teaching, homonym, use-claim, or reliance note. |
 
-For `SenseCellRefs`, cite the exact by-value reference scheme, local expression, and local-sense claim. If the local expression relies on a naming settlement, cite its `NameCardRef`. If the local-sense claim relies on a publication or another episteme, cite a `LocalSenseBasisRelation@Context` with an exact `U.EpistemeRef` and, when needed, the exact publication-unit ref. The retained suffix is a lineage-compatible name, not a context participant. Do not let a source title, file name, carrier, context label, selected structure, or NameCard substitute for the coordinate or its basis relation.
+For `SenseCellRefs`, recover the exact by-value scheme, expression, and local-sense claim. Cite `LocalSenseBasisRelation` only when an actual basis relation obtains. A NameCard selects designations; it does not fill the cell or basis positions. A source title, file, carrier, locality label, selected structure, row id, or description substitutes for none of them.
+
+Publication availability is not a row column. When current, maintain the exact E.24.PUB relation occurrences, form, carrier, audience, and bounded use beside the selected row edition. Publication change does not silently change the row episteme or its C.2.1 edition relation.
 

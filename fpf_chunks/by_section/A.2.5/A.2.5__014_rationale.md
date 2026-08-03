@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
 section_id: "A.2.5:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__014_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
   - "A.2.5:11 — Rationale"
-line_start: 4729
-line_end: 4734
+line_start: 4716
+line_end: 4723
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -25,7 +25,9 @@ keywords:
 
 ### A.2.5:11 - Rationale
 
-FPF keeps role state separate because the surrounding values have different kinds and different failure modes. A role assignment can be valid while the role state is not work-admitting. A holder can be capable while the assignment window is stale. A method can require a role while no current holder has an enactable state. A publication can describe or evidence any of these without becoming the holder, the role, or the state.
+The pattern starts from the world-side relation because state claims can matter before a record exists. A robot can cease to satisfy its inspection predicate before a dashboard refreshes. A credential decision can constitute an institutional state before a certificate is published. A supported assertion is therefore necessary for reliance but is not the world-side state's truth-maker by default.
 
-The state-machine lens is useful because finite named states, guarded change, and state assertions are easy to inspect. But the pattern does not make every role claim executable behavior. It uses the state lens only where the project needs role-state recognition, admission, currentness, and state-aware role relation structure.
+Using uninterrupted predicate truth as the identity boundary distinguishes repeated episodes even when assignment and predicate values stay the same. An assertion or occurrence description may state the known actual extent and refine an open end to a closed end without creating another occurrence.
+
+The direct relation also explains why role state is not capability and not work. Capability says what operations a system can perform in an envelope. Role state says whether a current assignment satisfies one predicate over a window. Work says what change actually occurred. A method, gate, or work pattern may depend on all three, but no one of them proves the others.
 

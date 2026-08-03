@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
 section_id: "A.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__005_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
-  - "A.2.5 — RoleStateRelation@BoundedContext - Role State Space and Enactable-State Admission"
+  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
   - "A.2.5:2 — Problem"
-line_start: 4477
-line_end: 4488
+line_start: 4461
+line_end: 4471
 dependencies:
   - "A.15"
   - "A.2.1"
@@ -25,13 +25,12 @@ keywords:
 
 ### A.2.5:2 - Problem
 
-Without this pattern:
+Without a direct role-state relation ontology, six recurring failures appear.
 
-1. **Assignment and state collapse.** A holder assigned to a role is treated as currently ready.
-2. **Role and capability collapse.** A state label such as "ready" is treated as ability instead of a window-bounded state assertion.
-3. **Role state and work collapse.** Being in a state is mistaken for having performed the work.
-4. **State and source collapse.** A certificate, report, standard, model card, dashboard, or publication is treated as the state itself rather than as a source or evidence relation for a state assertion.
-5. **Label-only incompatibility appears.** Incompatibility checks block or admit work by role names rather than by enactable states in a window.
-6. **Context drift returns.** "Approved" or "Ready" travels across contexts without named state predicates or loss.
-7. **Enactment reification survives.** `RoleEnactment` becomes a durable root value even though performed work is governed by `U.Work` and `U.RoleAssignment`.
+1. **Assignment becomes readiness.** Holding the role is treated as satisfying every state precondition of every method that names it.
+2. **State label hides the predicate.** `Ready`, `Approved`, or `Active` travels between role taxonomies even though its truth conditions differ.
+3. **Evidence becomes the state.** An evidence or display episteme is treated as the world-side role-state relation.
+4. **Missing evidence becomes falsehood.** An unrecovered or stale evidence path is taken as proof that the world-side predicate does not obtain.
+5. **Capability becomes admission.** A system's ability to perform an operation is overread as current admission of this concrete method or work claim.
+6. **State notation becomes method order.** A transition arrow is treated as the work that changes the state, even though the method, work, transformation, and state-change claim have different ontics.
 

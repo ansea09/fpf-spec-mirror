@@ -6,18 +6,23 @@ section_id: "C.24:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__012_conformance-checklist.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:7 — Conformance Checklist"
-line_start: 52744
-line_end: 52759
+line_start: 52972
+line_end: 52987
 dependencies:
   - "A.1"
+  - "A.10"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
   - "A.15.5"
+  - "B.1.6"
   - "B.3"
   - "C.11"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.24"

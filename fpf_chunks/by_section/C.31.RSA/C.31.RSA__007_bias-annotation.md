@@ -6,12 +6,12 @@ section_id: "C.31.RSA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__007_bias-annotation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:6 — Bias-Annotation"
-line_start: 63574
-line_end: 63584
+line_start: 63817
+line_end: 63827
 dependencies:
   - "A.10"
   - "A.19"

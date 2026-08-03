@@ -6,12 +6,12 @@ section_id: "F.14:9"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_reasoning-primitives.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:9 — Reasoning primitives"
-line_start: 93603
-line_end: 93639
+line_start: 94308
+line_end: 94341
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -46,37 +46,34 @@ keywords:
 ### F.14:9 - Reasoning primitives
 
 ```text
-candidateName(e) and recoveredValue(e, v)
-  -> name decision must be made for v, not for e as a string.
+candidateExpression(e) and recoveredGovernedValue(e, v) and proposedUse(u)
+  -> choose a naming disposition for <v,u>, not an ontology for string e.
 ```
 
-Interpretation: the expression is a cue. The recovered value governs the naming decision.
+```text
+existingDesignationOrLocalExpression(v, u) is sufficient
+  -> stop; do not mint NameCard, SenseCell, row, or name family.
+```
 
 ```text
-roleBundleExpression(R1, R2, C)
+roleBundleRelation(R1, R2) obtains
   -> not(newRoleValue(R1R2)).
 ```
 
-Interpretation: a bundle expression may be named as an expression, but it does not mint a fused `U.Role`.
-
-```text
-roleIncompatibility(R1, R2, C, W)
-  -> assignment check must consider holder and overlapping window.
-```
-
-Interpretation: separation questions need A.2.1 and F.6 checks, not prestige names.
-
 ```text
 statusVariant(S, windowOrValue)
-  -> keep status family S unless F.10 recovers a new family.
+  -> keep status family S unless its direct owner establishes a different family.
 ```
-
-Interpretation: status values and windows do not multiply status families by default.
 
 ```text
-qualifier(q) governedBy(P)
-  -> q may constrain a name only after P recovers the qualifier value.
+differentLocalSenseProjections(c1, c2)
+  -> test F.9 only for a named correspondence use; not(Bridge(c1,c2)) by difference alone.
 ```
 
-Interpretation: capability, method, work, evidence, source, publication, policy, and assurance qualifiers must not hide inside role or status names.
+```text
+namingObjectPresent(x)
+  -> not(governedValueExists) and not(nextNamingObjectRequired).
+```
+
+These are stopping and dispatch rules. They create no values or relation occurrences.
 

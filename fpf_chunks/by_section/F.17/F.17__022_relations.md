@@ -6,12 +6,12 @@ section_id: "F.17:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__022_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:15 — Relations"
-line_start: 95281
-line_end: 95288
+line_start: 96197
+line_end: 96204
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,15 +47,14 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:15 - Relations
 
-Builds on: `F.2` and `F.3` for local-sense discovery probes; `C.2.1` for the exact episteme and effective by-value reference scheme; and `F.5`, `F.7`, `F.8`, `F.9`, `F.15`, and `F.18` for naming, Bridge, and conformance decisions. F.17 does not inherit F.3's retired `U.BoundedContext` reading.
+Builds on: `F.2` and `F.3` for local-sense discovery probes; `C.2.1` for row and NameCard epistemes plus exact `EpistemeEditionRelation`; `F.14` for the anti-explosion gate; `F.8` and `F.18` for naming disposition and settlement; `F.9` for actual cell-to-cell Bridges; `F.5` for designation form; and `F.7`/`F.15` for neighboring unification and conformance decisions.
 
-Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17`, `F.4`, `F.6`, `F.10`, `F.14`, and `G.11`. Row-local review after a changed value, name, sense, Bridge, or edition remains with the direct pattern, F.18, F.9, F.15, and these F.17 regression rules. Use G.11 only when an actual refresh plan, edition orchestration, telemetry, freshness, or decay claim is current.
+Coordinates with: `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.6.P`, `A.10`, `A.15.1`, `A.19.SPR`, `B.3`, `C.2.P`, `E.10`, `E.10.D2`, `E.17.0`, `E.24.UK`, `E.24.PUB`, `F.4`, `F.6`, and `F.10`, plus every direct owner used by a row. Row-local review after a changed value, membership or obtaining rule, designation, cell, Bridge, reference typing, edition, or availability remains with the direct pattern and the exact neighboring owner. Use G.11 only when an actual refresh plan, edition orchestration, telemetry, freshness, or decay claim is current. F.17 does not inherit a generic context-holon identity reading from earlier terminology practice.
 
-Constrains: any public, Core-facing, durable, or cross-context term sheet row that cites FPF vocabulary, local concepts, relation names, slot names, role names, status names, or bridgeable sense clusters.
+Constrains: every public, Core-facing, durable, or cross-local term row that cites FPF values, local senses, relation names, slot names, role names, status names, or Bridge occurrences.
 

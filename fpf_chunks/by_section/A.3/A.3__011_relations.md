@@ -6,12 +6,12 @@ section_id: "A.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3/A.3__011_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.3 — Transformer Constitution (Quartet)"
   - "A.3:10 — Relations"
-line_start: 7259
-line_end: 7300
+line_start: 7331
+line_end: 7372
 dependencies:
   - "A.10"
   - "A.12-A.15"
@@ -35,7 +35,7 @@ A.3 keeps the target EntityOfConcern, MethodDescription, Method, RoleAssignment 
 A.3's CC-A3-1 uses A.12 only when an actor-side or reflexive-work claim is current. The split keeps grounded acting and changed positions distinct for that claim; it neither invents an actor for non-separable change nor turns ordinary descent to already grounded parts into an MHT.
 
 **A.13 Agential Role.**
-When an agency claim is current, A.13/C.9 governs its characteristic profile while A.3 keeps identity, role assignment, method, plan, work, transformation, and evidence separate. Scale-free or minimal physical agentivity, observerhood, self-evidencing, or causal participation does not by itself establish an obtaining `U.RoleAssignment`, `TransformerRole@Context`, method enactment, or dated Work.
+When an agency claim is current, A.13 governs agenthood and the domain profile, while A.17, A.18, A.19, C.16, and A.10 govern its measurement and evidence as applicable; planned C.9 may later consolidate the profile but supplies no current governing force. A.3 keeps identity, role assignment, method, plan, work, transformation, and evidence separate. Scale-free or minimal physical agentivity, observerhood, self-evidencing, or causal participation does not by itself establish an obtaining `U.RoleAssignment`, `TransformerRole@Context`, method enactment, or dated Work.
 
 **A.3.4 Bounded Change Under Conditions.**
 A.3.4 independently identifies one actual bounded transformation from the changed referent and subject-side occurrence facts. A.3 opens only when an actor-side enactment claim is additionally grounded. Natural, spontaneous, formal, relational, and joint-dynamics changes therefore need no fictive performer.

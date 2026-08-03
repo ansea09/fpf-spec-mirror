@@ -6,21 +6,19 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 88072
-line_end: 88095
+line_start: 88644
+line_end: 88671
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,30 +28,37 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
 ### E.24.PUB:5 - Archetypal Grounding
 
-#### E.24.PUB:5.1 - E.24 Pattern Host and U.Ontic
+#### E.24.PUB:5.1 - Maintenance inspection card
 
-`E.24` is a publication of an ontic-description episteme about `U.Ontic`. The host text is not `U.Ontic`. Its tables, examples, headings, and source rows help publish the description; they do not create the ontic by appearance.
+A completed pump-inspection card states measured clearances and identified defects about Pump #37 under the maintenance reference scheme. The completed card is a claim-bearing `U.Episteme`. Its reusable arrangement is the inspection-card publication form. The PDF file is a `U.PresentationCarrier`. One publication occurrence makes edition 4 of the card episteme available to the maintenance-planning team for planning the next repair.
 
-If the issue is whether `U.Ontic` has stable identity and a slot relation, use `E.24`. If the issue is whether the E.24 host is formatted, sectioned, or published well, use `E.8`, `E.17`, or this pattern as appropriate.
+Changing the PDF filename changes neither the card episteme nor necessarily the carrier identity. Correcting a measured clearance changes the episteme edition. Replacing the card layout changes the form. Making the same edition available to a supplier for quotation creates another publication occurrence because the audience or bounded use changed.
 
-#### E.24.PUB:5.2 - Characteristic Space and Score Table
+#### E.24.PUB:5.2 - Architecture diagram
 
-A score table may publish a filled evaluation over a `U.CharacteristicSpace`. The table is not the characteristic space. The characteristic space is the ontic with characterized object, characteristics, scales, value meanings, coordinate groups, missingness semantics, normalization boundaries, and comparability boundaries.
+An architecture diagram can carry claims about selected structures of one holon and therefore be an architecture-description episteme. When that exact episteme conforms to one exact architectural viewpoint episteme under E.17.0, the same individual is a `U.View`; direct authoring and A.6.3 construction are independent construction routes. Its graphical notation can be the publication form, selected nodes and edges can participate in a C.29 representation, and a screen or sheet can be the presentation carrier.
 
-If the score table is unclear, fix the publication. If the scale meanings are unclear, fix the characteristic-space description through `A.19` or the relevant evaluation pattern. If the question is how to construct the space, use `A.19.ECS`.
+The diagram does not become the architecture by being published. `C.30` governs the `ArchitectureOf@Context` claim and `A.22` governs selected `U.Structure` values. E.24.PUB lets the architect locate a publication defect without replacing the architectural question with a discussion of diagrams.
 
-#### E.24.PUB:5.3 - Architecture Description and ArchitectureOf@Context
+#### E.24.PUB:5.3 - Clinical procedure edition
 
-An architecture description is an episteme about one `ArchitectureOf@Context` claim or about selected `U.Structure` refs for a described `U.Holon` in a `U.BoundedContext`. A diagram, view, document, or pattern section may publish that episteme. The publication form is not the `ArchitectureOf@Context` claim, not the selected `U.Structure`, and not the described holon's structure by itself.
+A hospital procedure description is an episteme about a method. A wall poster expresses a selected edition for quick pre-procedure orientation; the laminated sheet is the carrier. A separate controlled publication makes the same edition available to clinicians for authoritative procedure enactment. The two publication occurrences differ in bounded use even if the words are identical. Neither publication proves that a clinician read the procedure or performed work according to it; those are access, reliance, role-assignment, method, and work claims under their direct patterns.
 
-`C.30` stays centered on the `ArchitectureOf@Context` claim and the selected structures that matter for the current architectural question. `A.22` stays centered on `U.Structure`. `C.30.AD` centers architecture description as its own EoC. E.24.PUB supplies the boundary discipline: know which object is being described before deciding whether the publication, view, or source row is current.
+#### E.24.PUB:5.4 - FPF pattern host
 
-#### E.24.PUB:5.4 - Problem Card
+An E.24 pattern host can be a publication form expressing an ontic-description episteme about `U.Ontic`. The repository file is a presentation carrier. A selected edition becomes a published episteme only while an exact publication occurrence makes it available to the declared FPF audience and use. The host layout does not create `U.Ontic`, and changing the carrier does not by itself change the ontic-description episteme.
 
-A problem card can publish a problematization episteme or a project work record. The card is not automatically `U.Problem`, and the presence of fields does not decide the ontology. If the current question is problem formulation, use the problematization pattern. If it is the card form, use the publication-form pattern. If a reusable problem ontic is proposed, apply `E.24.CD` for candidate detection and `E.24` for the ontic-introduction decision.
+#### E.24.PUB:5.5 - Training availability and later choice work
+
+One instruction edition is available to a training group for studying a method. That `EpistemePublicationRelation` occurrence establishes availability to the declared audience for that bounded use; it establishes neither that anyone read the instruction nor that adjustment, inspection, acceptance, or release work occurred. The same availability alone does not support an acceptance commission's choice about releasing one named lot.
+
+If the commission later performs exact choice `U.Work` under A.15.1 and applies C.11, name that Work and the resulting C.11 `ChoiceResult` separately. When an instruction claim actually participates in that Work, name the exact claim-bearing episteme and its direct route. For a premise, reference, other participant, or work-to-referent use, name the exact declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its exact declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result instead of asserting actual use. The `ChoiceResult` is neither the choice Work, the bounded-use declaration, nor a participant of the publication occurrence.
 

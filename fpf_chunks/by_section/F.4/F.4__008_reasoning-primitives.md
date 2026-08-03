@@ -6,12 +6,12 @@ section_id: "F.4:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__008_reasoning-primitives.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:6 — Reasoning Primitives"
-line_start: 90059
-line_end: 90087
+line_start: 90628
+line_end: 90656
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,13 +47,13 @@ keywords:
 Use these judgement schemas as thinking checks.
 
 ```text
-RoleDescription RD describes Role R in Context C
-  -> RD is a description episteme about R, not R itself.
+RoleDescription RD describes Role R under taxonomy episteme T and scheme S
+  -> RD is a C.2.1 episteme about R, not R, T, or S themselves.
 ```
 
 ```text
-RoleDescription RD admits holder kind HK for Role R
-  -> A RoleAssignment may use a holder of HK only if A.2.1 and neighboring checks admit it.
+RoleDescription RD names independently admitted U.System holder kind HK for Role R
+  -> A RoleAssignment may use a holder of HK only after that exact holder satisfies A.1 and the assignment's exact participants satisfy A.2.1; RD establishes neither.
 ```
 
 ```text

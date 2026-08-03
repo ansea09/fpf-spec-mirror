@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.CSC.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
-line_start: 13565
-line_end: 13929
+line_start: 13637
+line_end: 14005
 dependencies:
   - "A.15"
   - "A.20"
@@ -21,6 +21,7 @@ dependencies:
   - "A.6.3.RT"
   - "A.6.4"
   - "A.6.P"
+  - "C.2.1"
   - "C.26"
   - "C.26.1"
   - "C.33"
@@ -28,6 +29,7 @@ dependencies:
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.19"
+  - "E.24.PUB"
   - "E.8"
   - "F.18"
   - "F.9"
@@ -41,45 +43,45 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Placement.** `Controlled Semantic Coarsening` is a specialization under `A.6.3 U.EpistemicViewing` for same-lineage coarsening from one source-bearing side into one coarsened rendering, whether the coarsening was planned before publication or discovered during review of a coarsened rendering that can be retained only under a narrower-use card. That source-bearing side may be one source episteme that remains governing, source publication, or declared source set with a stable source-set identifier and bounded membership; it is not an open corpus.
+**Placement.** `Controlled Semantic Coarsening` is a specialization under `A.6.3 U.EpistemicViewing` for exact construction `c : X -> Y`, where exact source episteme `X` and exact receiving coarsened episteme `Y` concern the same exact EntityOfConcern and `Y` is admissible only for a narrower use under declared loss and return. A source publication occurrence, source set, model, graph, state representation, evidence set, source pack, text, file, or display can make `X` available, be designated by its claims, or participate through separately governed relations; none is the source endpoint merely by type or adjacency.
 
-**Builds on.** `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `A.6.P`, `E.8`, `E.10`, `E.19`, and `F.18`.
+**Builds on.** `C.2.1`, `A.6.3`, `A.6.3.CR`, `A.6.3.RT`, `E.17.EFP`, `A.6.P`, `E.8`, `E.10`, `E.19`, and `F.18`.
 
-**Coordinates with.** `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21`.
+**Coordinates with.** `E.24.PUB` for publication occurrence, form, carrier, audience, and bounded use; `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21` at their own triggers.
 
 ### A.6.3.CSC:1 - Problem frame
 
-**EntityOfConcern preservation discipline.** Controlled coarsening stays under entityOfConcernRef-preserving viewing only when the C.2.1 `entityOfConcernRef` remains stable. When the source-bearing side is a declared source set, its membership, loss account, and reopen condition must also be bounded; that source-set discipline does not substitute for same-EntityOfConcern preservation. Any `entityOfConcernRef` shift leaves this pattern for `A.6.4`.
+**Endpoint identity first.** Recover exact claim content, exact EntityOfConcern, and effective `U.ReferenceScheme` for both `X` and `Y`. A changed discriminator identifies another episteme. Controlled coarsening stays under A.6.3 only when `EntityOfConcern(X)=EntityOfConcern(Y)` exactly; otherwise use A.6.4. A declared source set or source pack may be an additional input, but it substitutes for `X` only when that selected claim-bearing whole independently satisfies C.2.1.
 
-**Use this when.** A summary, briefing, redaction, dashboard tile, lookup handle, didactic compression, architecture description, architecture view, framework readme, preface, pattern-language carrier, or other readable coarsened rendering coarsens one source-bearing side by dropping or narrowing distinctions, recoverability, reliability transport, structural content, or admissible-use value, or when review discovers that the readable item can be retained only as a coarsened rendering. The source-bearing side may be a text, but it may also be wider source structure, architecture as selected structures in context, a model, a graph, a source pack, or a pattern set.
+**Use this when.** Exact `Y` is a summary, briefing, redacted account, dashboard account, lookup account, didactic compression, architecture-description account, framework introduction, or other claim-bearing coarsened episteme whose narrower use depends on visible loss and return to exact `X`. If the selected item is only a layout, tile, page, file, display, or carrier without recoverable C.2.1 identity, there is no `Y` yet; use the publication, carrier, extraction, or authoring governor and stop.
 
-**Plain recognition line.** A short version is useful only while the reader can still see what it came from, what it leaves out, and when to go back.
+**Plain recognition line.** A short claim-bearing version is useful only while the reader can identify exact `X`, exact `Y`, what `c` leaves out, which use remains admissible, and when to go back.
 
-`Controlled Semantic Coarsening` governs one coarsened rendering that remains useful only because the source-bearing side stays identifiable, the admissible use is narrower, downstream use is non-admissible from the coarsened rendering alone, and escalation reopens that source-bearing side. It is the FPF governing pattern for that source-to-rendering relation. It is not a tag, token, `U.*` kind, publication face, carrier, bridge card, stance overlay, work plan, approval, or gate.
+`Controlled Semantic Coarsening` governs `c : X -> Y`: an exact same-EntityOfConcern A.6.3 construction with explicit claim-content rule, endpoint scheme relation, preservation, controlled loss, prohibited strengthening, narrower use, and return. It is not a tag, token, `U.*` kind, publication face, carrier, source set, bridge card, work plan, approval, or gate.
 
-**Start here when.** Your first honest publication unit is a small controlled-coarsening card: source-bearing side, coarsened rendering, narrower admissible use, declared source-loss mode, non-admissible downstream use, and reopen trigger. Read `orientation use`, `reliance use`, `operative claim`, `non-admissible downstream use`, and `reopen trigger` through the shared `E.17:5.1c` terms; use `E.17:5.1d` when the primary question may be ordinary rewrite, representation change, explanation, comparison, bridge or substitution, work or reliance, gate, evidence, assurance, retargeting, or carrier or front-end work instead of coarsening.
+**Start here when.** Your first honest note is the six-row controlled-coarsening mini-card: exact source episteme `X`, exact receiving coarsened episteme `Y`, narrower admissible use, declared source-loss mode, non-admissible downstream use, and return trigger. The construction statement `c : X -> Y` and both C.2.1 identities are recoverable immediately beside it. Read orientation, reliance, operative claim, non-admissible use, and return through the shared E.17 terms; route another primary question to its direct governor.
 
-**Neighboring project records and governing patterns.** Ordinary same-entity wording belongs under `A.6.3.CR`; representation-scheme change belongs under `A.6.3.RT`; explanation-facing class discipline belongs under `E.17.EFP`; bounded comparison belongs under `E.17.ID.CR`; bridge or substitution use belongs under `F.9` or `F.9.1`; changed EntityOfConcern belongs under `A.6.4`; work authority requires `A.15`-governed selected method, `U.WorkPlan`, performed `U.Work`, work-result record, or result-measurement record; gate or adjudication authority requires `A.20` or `A.21`-governed project records.
+**Neighboring objects and patterns.** Ordinary same-EntityOfConcern wording belongs under A.6.3.CR; material scheme change additionally opens A.6.3.RT; explanation-facing class discipline belongs under E.17.EFP; comparison under E.17.ID.CR; bridge or substitution use under F.9/F.9.1; changed EntityOfConcern under A.6.4. A system performs any actual coarsening Work under A.15.1. E.24.PUB separately governs any occurrence that makes selected episteme `X` or `Y` available through a form and carrier.
 
-**What goes wrong if missed.** A helpful coarsened rendering starts acting like the source-bearing side: a summary becomes evidence, a redaction becomes accountability closure, a dashboard tile becomes a causal verdict, a comparison note starts carrying bridge or substitution use, or a briefing becomes work authority.
+**What goes wrong if missed.** A helpful form, source set, model, graph, publication, or readable tile replaces an episteme endpoint; then a summary becomes evidence, redaction becomes closure, a dashboard becomes a causal verdict, or a briefing becomes work authority.
 
-**What this buys.** FPF users get a cheap admissible way to publish coarsened renderings without hiding declared loss, overclaiming authority, or forcing every ordinary summary through a full assurance record. This is the positive path for bounded dashboard tiles, redactions, partner notes, lookup handles, workshop simplifications, and didactic compressions that help work without pretending to be the source-bearing side.
+**What this buys.** Cheap coarsened epistemes remain usable without hiding endpoint identity, controlled loss, prohibited strengthening, or return. Publication/form/carrier changes and direct source relations remain inspectable instead of being absorbed into `X`, `Y`, or `c`.
 
-**Working action spine.** A coarsened rendering is useful for a narrower use but cannot carry the source-bearing side -> separate source-bearing side, coarsened rendering, narrower admissible use, declared source-loss mode, non-admissible downstream use, and reopen trigger -> use the coarsened rendering for orientation, triage, disclosure, retrieval, comparison, or planning preparation -> output the six-row mini-card -> reopen or hand off if reuse, reliance, citation, dispute, bridge, work, gate, privacy, or engineering-justification demand appears.
+**Working decision sequence.** Exact `Y` is useful for a narrower use but cannot carry all claims of exact `X` -> separate `X`, `Y`, construction, loss, narrower admissible use, non-admissible downstream use, and return trigger -> use `Y` for orientation, triage, disclosure, retrieval, comparison, or planning preparation -> expose the six-row mini-card -> return or hand off if reuse, reliance, citation, dispute, bridge, work, gate, privacy, or engineering-justification demand appears.
 
-**Ordinary use.** If the coarsened rendering is admissible only for orientation, bounded disclosure, retrieval, workshop framing, preliminary triage, comparison, or planning preparation, use the six-row mini-card and stop there.
+**Ordinary use.** If `Y` is admissible only for orientation, bounded disclosure, retrieval, workshop framing, preliminary triage, comparison, or planning preparation, use the mini-card and stop after endpoint and construction identity are recoverable.
 
-**Reliance-facing use.** Open the claim-bearing coarsening record only when the coarsened rendering will be externally relied on, disputed, cited, used across context, policy-bearing, bridge-adjacent, work-adjacent, gate-adjacent, privacy-sensitive, or engineering-justification-facing.
+**Reliance-facing use.** Open the claim-bearing coarsening account only when `Y` will be externally relied on, disputed, cited, used across schemes or bounded model-use structures, policy-bearing, bridge-adjacent, work-adjacent, gate-adjacent, privacy-sensitive, or engineering-justification-facing.
 
-**Stop condition.** Stop at the mini-card when the coarsened rendering changes no next admissible work or reliance, disclosure, review, or planning-preparation move and blocks no concrete overclaim beyond its narrower admissible use.
+**Stop condition.** Stop at the mini-card when no stronger use is attempted and no concrete overclaim remains. The card does not create Work, publication, `U.View`, evidence, assurance, or authority.
 
 **Admissible-use examples.**
 
 | Admissible project use | Source-finding or reversible probe | Non-admissible downstream use |
 | --- | --- | --- |
-| A redacted partner note, bounded dashboard tile, lookup handle, workshop simplification, or didactic compression is admissible for triage, bounded disclosure, retrieval, coordination, or planning preparation inside its narrower use. | A tile or redacted note cues source-bearing reopen before release, audit, accountability, or engineering-justification reliance. | The coarsened rendering is used as release authority, evidence, audit closure, accountability finding, bridge or substitution admissibility, work authority, or assurance conclusion. |
+| Exact coarsened episteme `Y`, exposed through a redacted note, dashboard tile, lookup form, workshop sheet, or didactic form, is admissible for its named triage, disclosure, retrieval, coordination, or planning-preparation use. | The visible form points back to exact `X` and the controlled-loss account before release, audit, accountability, or engineering-justification reliance. | Neither `Y` nor its publication occurrence, form, or carrier is release authority, evidence, audit closure, accountability finding, bridge or substitution admissibility, work authority, or assurance conclusion. |
 
-**Not this pattern when.** Not this pattern when the primary question is ordinary same-entity wording, representation-medium change, explanation fidelity, comparison, bridge or substitution use, changed EntityOfConcern, work authority, approval, adjudication, or gate authority. Use the neighboring governing FPF pattern or `authoritySourceRef` destination for that primary question.
+**Not this pattern when.** Use the direct neighboring pattern when ordinary wording, representation-medium change without narrower-use coarsening, explanation fidelity, comparison, bridge/substitution, changed EntityOfConcern, work authority, approval, adjudication, or gate authority is primary.
 
 ### A.6.3.CSC:2 - Problem
 
@@ -107,14 +109,20 @@ Without a named pattern for that relation, neighboring patterns repeat partial c
 
 ### A.6.3.CSC:4 - Solution
 
-`Controlled Semantic Coarsening` governs one source-to-rendering relation.
+Begin with exact A.6.3 construction `c : X -> Y`. `X` and `Y` are independently constituted C.2.1 epistemes about the same exact EntityOfConcern. State the exact claim-content rule from `X` and any named additional source epistemes to `Y`, relation between their effective reference schemes, preserved claims, controlled loss, prohibited strengthening, applicability, narrower admissible use, and return. A source pointer, declared set, model, graph, state representation, evidence set, publication, form, or carrier establishes none of these by itself.
 
-- **Source-bearing side** means the governed `U.Episteme`, governed `U.EpistemePublication`, or declared source set that still carries the fuller claim, distinction, evidence relation, trace relation, or authority-reference relation. A declared source set must have a stable source-set identifier, bounded membership, and a reopen condition; an open corpus, folder, topic area, search-result cluster, or vague document neighborhood is not a source-bearing side.
-- **Coarsened rendering** means the readable form that carries a declared `source-loss mode`, reduced recoverability, reduced reliability transport, or narrower admissible use than the source-bearing side.
-- **Narrower admissible use** means the practical use the coarsened rendering makes admissible, such as orientation, retrieval, bounded disclosure, workshop framing, or preliminary triage.
-- **Non-admissible downstream use** means the use the coarsened rendering does not make admissible alone, such as approval, audit closure, release gate, work plan, equivalence, bridge or substitution use, accountability finding, or canonical technical claim.
-- **Reopen trigger** means the condition that requires return to the source-bearing side, re-expansion in the current rendering or publication, or handoff to another governing FPF pattern or `authoritySourceRef` destination.
-- **Claim-bearing case** means a coarsening case that will be cited, disputed, externally relied on, policy-bearing, bridge-adjacent, gate-adjacent, work-adjacent, privacy-sensitive, or assurance-facing.
+Use these Plain terms only with that boundary:
+
+- **Source-bearing side** means exact source episteme `X`. Additional exact source epistemes and governed relations may be cited by `c`; an open corpus or record neighborhood is inadmissible. A selected source pack or set can itself be `X` only if it independently has exact claim content, exact EntityOfConcern, and effective reference scheme.
+- **Coarsened rendering** means exact receiving coarsened episteme `Y`. A visible summary, page, tile, publication form, or carrier expresses or exposes `Y` only through separately governed relations; it is not `Y` merely by readability.
+- **Narrower admissible use** means the practical use for which the controlled-loss construction permits `Y`, such as orientation, retrieval, bounded disclosure, workshop framing, or preliminary triage.
+- **Non-admissible downstream use** means the use `Y` does not make admissible alone, such as approval, audit closure, release gate, work plan, equivalence, bridge/substitution, accountability finding, or canonical technical claim.
+- **Return trigger** means the condition that requires exact `X`, an exact source relation, local re-expansion, or another governing FPF pattern.
+- **Claim-bearing case** means a coarsening use that will be cited, disputed, externally relied on, policy-bearing, bridge-adjacent, gate-adjacent, work-adjacent, privacy-sensitive, or assurance-facing.
+
+The mathematical construction performs no Work. When a person or tool actually prepares `Y`, identify the system, exact role assignment, dated Work, enacted method, source-use or A.6.1 bindings, and any A.15.PROD inception claim separately. Work or generation does not prove conservativity or controlled loss.
+
+Publication also remains separate. E.24.PUB identifies an exact occurrence that makes one selected episteme edition available to a declared audience for a bounded use through one exact publication form and `U.PresentationCarrier`. Plain **published episteme** names that contingent use, not a durable kind. Publication does not become `X` or `Y`, establish `c`, or widen the admissible use.
 
 #### A.6.3.CSC:4.1 - Ordinary mini-card
 
@@ -122,30 +130,30 @@ For ordinary use, publish only the smallest card that keeps the coarsened render
 
 | Row | Question |
 | --- | --- |
-| Source-bearing side | What source episteme, source publication, or declared source set remains governing and reopenable? |
-| Coarsened rendering | What coarsened readable form is being offered to the reader? |
+| Exact source episteme `X` | Which exact C.2.1 episteme remains governing and reopenable, distinct from any publication occurrence, form, carrier, source set, model, graph, or evidence set? |
+| Exact receiving episteme `Y` | Which exact coarsened claim-bearing episteme is offered for the narrower use, and which separately governed form/carrier exposes it? |
 | Narrower admissible use | What use does this coarsened rendering make admissible? |
 | Source-loss mode | Which declared source-loss mode is live: omitted-detail, qualifier-loss, redaction, aggregation, scope-narrowing, recoverability-loss, representation-factor-loss, or coarsening-loss? |
 | Non-admissible downstream use | What downstream claim, effect, work, or reliance use is not admissible from this coarsened rendering alone? |
 | Reopen trigger | What demand forces source-bearing return, re-expansion, or governing-pattern handoff? |
 
-A CSC card makes only the narrower admissible use named on the card admissible for the coarsened rendering. It never makes the non-admissible downstream use admissible; it only tells the reader when and where to reopen the source-bearing side or hand off to the governing pattern that carries that downstream use.
+The six-row card remains lightweight, but exact `c : X -> Y` and both endpoint identities are recoverable beside it. The card makes only the named narrower use admissible; it never makes the non-admissible use admissible and only directs return to exact `X`, exact governed source relations, or the direct next governor.
 
-The card may live inline. Inherited source pins count when the surrounding publication already makes the source-bearing side visible.
+The card may live inline. Inherited pins count only when they resolve to exact `X`; a nearby publication, file, source set, or title is not enough.
 
-If the coarsened rendering is used only for local orientation and the source-bearing side remains adjacent, the six-row card may be inline or implicit by immediate context; do not create a durable `Controlled Semantic Coarsening` object unless reuse, reliance, citation, or dispute appears.
+If exact `Y` is used only for local orientation and exact `X` plus `c` are immediately recoverable, keep the six-row card inline and do not create another durable coarsening object unless reuse, reliance, citation, or dispute appears.
 
 #### A.6.3.CSC:4.2 - First check
 
-Before using this pattern, ask five questions:
+Before using this pattern, ask:
 
-1. Is there exactly one source-bearing side: one source episteme that remains governing, source publication, or declared source set with stable identifier, bounded membership, and reopen condition?
-2. Does the coarsened rendering declare a source-loss mode against that source-bearing side, or has review shown that it can be retained only as a coarsened rendering?
-3. Does the coarsened rendering make only narrower use admissible?
-4. Is downstream use explicitly non-admissible from the coarsened rendering alone?
-5. Is the source-bearing reopen or governing-pattern handoff trigger visible?
+1. Are exact source episteme `X` and receiving coarsened episteme `Y` independently identified by claim content, EntityOfConcern, and effective `U.ReferenceScheme`?
+2. Does exact `c : X -> Y` state same EntityOfConcern, claim construction, endpoint scheme relation, preserved claims, controlled loss, prohibited strengthening, and applicability?
+3. Does `Y` make only the named narrower use admissible, with stronger downstream use explicitly non-admissible?
+4. Does the return condition resolve to exact `X`, exact governed source relations, or the direct next governor?
+5. Are any source set, model, graph, state representation, evidence set, publication occurrence, form, carrier, actual Work, viewpoint, representation, and grounding facts kept separate and opened only when current?
 
-If any answer is no, do not polish a coarsening story. Use the ordinary governing pattern or recover the project-side FPF kind and reference named by value or authority-reference relation that actually makes the requested use admissible. If the required admissibility path is missing, create only a prospective repair request, future decision request, prospective work-plan entry, or explicit source-gap note; do not treat that request or note as retroactive admissibility for the coarsened rendering, earlier claim or effect, work occurrence, evidence, approval, gate passage, release permission, or engineering justification.
+If any answer is no, do not polish a coarsening story. If `Y` lacks C.2.1 identity, keep the item candidate prose/form/carrier and use its direct governor. If the A.6.3 law fails, block CSC or use A.6.4/another exact neighbor. A prospective repair request, work-plan entry, or source-gap note guides only future repair; it cannot backdate admissibility, Work, evidence, approval, gate passage, release permission, or engineering justification.
 
 #### A.6.3.CSC:4.3 - Ordinary vs claim-bearing
 
@@ -155,7 +163,7 @@ Claim-bearing cases add only the fields that matter for the use under repair, di
 
 The fields below inherit the `E.17:5.1e` local-field rule. They are review aids for one coarsened-rendering case, not `U.Kind`, `publication-face kind`, `RelationKind`, `KindBridge`, `EvidenceKind`, `GateDecision`, `SpeechAct`, `Commitment`, `U.Work`, `authoritySourceRef` destination, or project-side FPF kind and reference named by value unless another governing FPF pattern explicitly instantiates that object.
 
-- `sourceBearingSideRef` and `coarsenedRenderingRef` when the source-bearing side, coarsened rendering, `PublicationUnit`, publication face, E.17 publication-face kind value `publication face/form`, E.17 publication-face kind value `interop publication form`, or carrier could be confused;
+- `sourceEpistemeRef`, `receivingCoarsenedEpistemeRef`, and `viewingConstructionRefOrStatement` first; separately identify any `PublicationUnit`, publication occurrence, publication face/form, interop publication form, or carrier that exposes either endpoint;
 - `coarsenedRenderingPublicationUnitIfAny` when the coarsened rendering is carried by one `PublicationUnit` that is distinct from the publication, disclosure note, dashboard tile, or `interop publication form` on which it appears;
 - `governingPatternRef`, `projectSourceRecordRef`, or one privileged reopen path, so a coarsened rendering cannot reset its own provenance;
 - `coarseningBranch`, `sourceLossMode`, and `admissibleUseValue` as separate fields;
@@ -180,7 +188,7 @@ Ordinary admissible use covers aggregation, quotient-like orientation, didactic 
 
 Privacy or redaction cases are admissible here only when the card names the sharing boundary, the source-loss mode, what was withheld or coarsened, the main re-identification or accountability risk being reduced, the source-bearing review path, and the accountability or gate uses that remain non-admissible.
 
-Exceptional interop-facing simplification is not ordinary coarsening. It is admissible here only when it stays source-tethered and names the operative relation kind, such as bounded contrast, broader or narrower, partial overlap, proxy, lossy normalization, or context-bounded match. If the coarsened rendering makes bounded contrast across contexts or source epistemes or source publications is the primary question, use `E.17.ID.CR`. If it implies equivalence, substitution, projection, or bridge or substitution use, use `F.9` or `F.9.1`.
+Exceptional interop-facing simplification is not ordinary coarsening. It is admissible here only when exact `X`, exact `Y`, and `c` stay recoverable and the account names the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. If bounded comparison across exact source epistemes is primary, use E.17.ID.CR. Equivalence, substitution, projection, or Bridge use routes to F.9/F.9.1; scheme difference or publication adjacency proves none.
 
 #### A.6.3.CSC:4.5 - Source-loss mode, recoverability, and anti-overread
 
@@ -204,11 +212,11 @@ Recoverability and admissible use are separate. A recoverable coarsened renderin
 | directly recoverable | the coarsened rendering itself still carries enough detail to recover the source-side distinction |
 | source-pinned recoverable | the distinction is recoverable only by returning to the named source-bearing side |
 | reconstruction or validation required | recovery needs a new reconstruction, test, or validation, so downstream use remains blocked until that work is done |
-| not recoverable from admissible source epistemes or source publications | the available source epistemes or source publications, traces, or cited `authoritySourceRef` destinations cannot restore the distinction; do not treat the coarsened rendering as admissibility for downstream reliance |
+| not recoverable from exact admissible source epistemes | exact source epistemes, their governed relations, and cited authority destinations cannot restore the distinction; publication occurrence, form, carrier, or availability alone cannot repair it, so downstream reliance stays blocked |
 
-A coarsening chain may not silently reset provenance. If one coarsened rendering is reused to make another, the same source-bearing side must stay explicit, the earlier source-loss mode and uncertainty state must remain visible, and the new rendering must declare only the added source-loss delta. If that cannot be stated cleanly, reopen the source-bearing side rather than extending the chain.
+A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all three epistemes and both constructions, carry forward earlier loss and uncertainty, and state only the added loss at the second step. If that cannot be done, return to exact `X`.
 
-Aggregation or quotient-like coarsening remains inside this pattern only while the coarsened rendering keeps one bounded selected set, slice, case bundle, or alternative bundle explicit as the EntityOfConcern or selected set. If several entities, alternatives, or slices become one new class-level EntityOfConcern or proxy EntityOfConcern, apply `A.6.4`.
+Aggregation or quotient-like coarsening remains here only while exact `Y` concerns the same exact EntityOfConcern as `X`; a bounded selected set may appear inside claim content but is not an endpoint by itself. If several entities or alternatives become a new class-level or proxy EntityOfConcern, use A.6.4.
 
 #### A.6.3.CSC:4.6 - Neighboring-pattern boundaries
 
@@ -217,8 +225,8 @@ Aggregation or quotient-like coarsening remains inside this pattern only while t
 | Same-entity textual rewording without a separate narrower-use card | `A.6.3.CR` |
 | Representation scheme or reasoning-medium shift | `A.6.3.RT` |
 | Source structure is ordered into a sequential narrative path and the ordering rationale is primary | `A.6.3.NAR` for the narrative rendering relation; keep CSC only for the coarsened narrower-use card when source distinctions are dropped or narrowed |
-| Explanation-facing class over existing source `U.Episteme` or `U.EpistemePublication` | `E.17.EFP` |
-| Bounded comparison over already pinned source epistemes or source publications | `E.17.ID.CR` |
+| Explanation-facing class over exact source episteme `X`, whether or not it is currently published | `E.17.EFP`; any publication occurrence, form, and carrier remain under E.24.PUB |
+| Bounded comparison over exact source epistemes, with any publication access stated separately | `E.17.ID.CR` |
 | Equivalence, substitution, interop row, or bridge or substitution use | `F.9` |
 | Stance over an already published bridge card | `F.9.1` |
 | Changed EntityOfConcern or proxy EntityOfConcern | `A.6.4` |
@@ -230,31 +238,31 @@ Neighboring governing patterns may point here when a coarsened rendering relatio
 
 #### A.6.3.CSC:4.7 - Well-formedness constraints
 
-**Well-formedness constraint CSC-WF-1 (source-to-rendering relation).** A controlled-coarsening case is well formed only when it contains exactly one source-bearing side, at least one coarsened-rendering side, one declared narrower admissible use, one non-admissible downstream use, and one visible source-bearing reopen or governing-pattern handoff condition. The source-bearing side may be one source episteme that remains governing, source publication, or declared source set with stable source-set identifier and bounded membership; it must not be an open, vague corpus.
+**Well-formedness constraint CSC-WF-1 (exact controlled-coarsening construction).** A case is well formed only when it identifies exact `X`, exact `Y`, and exact `c : X -> Y`; the same EntityOfConcern; one declared narrower admissible use; one non-admissible downstream use; controlled loss; and one visible return to exact `X`, governed source relations, or direct next governor. A source publication, declared set, model, graph, state representation, evidence set, open corpus, folder, topic, search cluster, form, or carrier cannot substitute for either endpoint.
 
 **Well-formedness constraint CSC-WF-2 (no authority upgrade).** A coarsened rendering does not gain evidence, bridge, work, approval, gate, or adjudication authority by repetition, fluency, audience convenience, citation, or publication on a more visible publication face or channel.
 
-**Well-formedness constraint CSC-WF-3 (source path continuity).** A coarsening chain remains well formed only while the same source-bearing side, prior source-loss mode, uncertainty state, and added source-loss delta remain recoverable.
+**Well-formedness constraint CSC-WF-3 (source path continuity).** A coarsening chain remains well formed only while exact original source episteme, every intermediate receiving/source episteme, every declared construction, accumulated loss, uncertainty state, and return remain recoverable.
 
 ### A.6.3.CSC:5 - Archetypal Grounding
 
-**Tell.** Controlled semantic coarsening is the disciplined act of making a coarsened rendering useful while keeping the source-bearing side and the non-admissible downstream uses visible. It is not simplification as style. It is simplification under a source, use, loss, and reopen card.
+**Tell.** Controlled semantic coarsening is exact `c : X -> Y` under declared loss, narrower use, and return. It is not simplification as style, a source-set edge, or a publication/form/carrier change.
 
-**Show (System).** A service team has an incident review with trace details, confidence bands, and alternative branches. A manager dashboard tile says: `Cache failover evidence is the leading concern; details remain in IR-42.` The tile may orient planning, but it may not approve release, close audit, prove causality, or trigger work without reopening `IR-42`.
+**Show (System).** Exact incident episteme `IR-42-X` contains trace, confidence-band, and alternative-branch claims. Exact orientation episteme `IR-42-Manager-Y` carries a controlled subset. A dashboard tile exposes `Y`; it may orient planning but cannot approve release, close audit, prove causality, or trigger Work.
 
-**Show (Episteme).** A research review bundle is given the lookup handle `cache-failover risk`. The handle is admissible for retrieval and orientation only. Any claim-bearing use reopens the review bundle because the handle does not carry the evidence, alternatives, or source relation.
+**Show (Episteme).** Exact research-review episteme `ResearchReview-X` is used to construct exact retrieval episteme `RiskHandle-Y`. The visible handle is a form; its retrieval-only use returns to `X` because it does not carry evidence, alternatives, or source relations.
 
 #### A.6.3.CSC:5.1 - Worked slices
 
-**Manager orientation summary.** The source-bearing side is incident review `IR-42` with trace details, confidence bands, and alternative branches. The coarsened rendering is `Cache failover evidence is the leading concern; details remain in IR-42.` Its narrower admissible use is orientation for planning conversation. Its non-admissible downstream uses are approval, audit closure, release gate, causal proof, and work order.
+**Manager orientation summary.** Exact source episteme `IR-42-X` states trace, confidence-band, alternative-branch, and incident claims about exact incident `IR-42` under its effective incident-analysis scheme. Exact coarsened episteme `IR-42-Manager-Y` states the narrower cache-failover orientation claim about the same incident under its effective briefing scheme. `ManagerCoarsening : X -> Y` preserves the leading-concern claim, drops confidence bands and alternatives, blocks approval/audit/release/causal/work-order use, and returns to `X`. A dashboard tile and its carrier merely expose `Y`.
 
-**Redacted partner note.** The source-bearing side is a full incident record with actor identity, trace path, and recovery evidence. The coarsened rendering is a partner-facing redacted note that withholds actor identity and trace path. Its narrower admissible use is bounded disclosure and coordination. Accountability, legal, audit, readiness, and gate uses reopen the full incident record or name the relevant `authoritySourceRef` destination.
+**Redacted partner note.** Exact source episteme `IncidentDisclosure-X` and exact receiving episteme `PartnerDisclosure-Y` concern the same incident. Their declared coarsening omits actor identity and trace path for bounded disclosure, preserves coordination claims, blocks accountability/legal/audit/readiness/gate use, and returns to `X` or the exact authority destination. The note form, redaction layout, and carrier are not either episteme.
 
-**Redacted functional-description publication.** The source-bearing side is a functional architecture note that names flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception cases. The coarsened rendering is a partner-facing table that keeps the main flow relation and removes the exception cases and result-measurement details. Its narrower admissible use is bounded orientation for coordination. Work planning, gate passage, evidence, engineering justification, control-architecture use, and release permission reopen the source-bearing side or apply `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, or `B.2.5` as the claim being made requires.
+**Redacted functional-description publication.** Exact source episteme `FunctionalArchitecture-X` states flow relations, method-selection limits, work-plan prerequisites, result-measurement requirements, and two exception claims about one exact system. Exact partner episteme `FunctionalPartner-Y` concerns the same system; `PartnerFunctionalCoarsening : X -> Y` preserves the main flow claim, removes exceptions and measurement detail, permits bounded coordination orientation, blocks work/gate/evidence/justification/control/release use, and returns to `X`. A partner table and carrier expose `Y` through E.24.PUB.
 
-**Coarsened narrative briefing.** The source-bearing side is an architecture candidate set with three candidates, two quality-characteristic trade-offs, and one unresolved placement constraint. The narrative briefing tells the useful story of why candidate C-2 is attractive and leaves the other candidates as source-return items. `A.6.3.NAR` governs the structure-to-sequence rendering relation. CSC governs the narrower admissible use: orientation for discussion only, not candidate selection, project decision, implementation authorization, or evidence of selected architecture.
+**Coarsened narrative briefing.** Exact source episteme `ArchitectureCandidates-X` states three candidate, two trade-off, and one unresolved-constraint claims about one exact system. Exact briefing episteme `CandidateBriefing-Y` concerns the same system. NAR governs its narrative ordering; CSC governs its declared omission of alternatives, orientation-only use, blocked selection/decision/implementation/evidence use, and return to `X`. The briefing form is neither endpoint.
 
-**Exceptional interop-facing simplification.** The source-bearing side is two pinned context notes plus their bridge or comparison source material. The coarsened rendering is: `For this exchange only, Field A is treated as broader than Field B; see source notes for exceptions.` The rendering may orient the exchange, but any equivalence, substitution, projection, bridge-row, or approval use applies `F.9` or `F.9.1` or reopens the source-bearing side source material.
+**Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison/Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; those uses require F.9/F.9.1 or return to `X`.
 
 **Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` This is not an admissible controlled coarsening card. The sentence tries to convert a coarsened summary into execution or gate authority. Use `A.15`, `A.20`, or `A.21`, and reopen the source-bearing side before any work or approval claim proceeds.
 
@@ -264,35 +272,48 @@ Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: 
 
 This pattern favors **Prag** and **Did** by allowing useful coarsened renderings to remain cheap and readable. It also favors **Gov** and **Arch** by requiring non-admissible downstream use, source reopen, and neighboring-pattern application when release, policy, assurance, adjudication, bridge, work, evidence, or gate use is attempted. The mitigation for over-governance is the ordinary mini-card: ordinary cases stay light, and only dispute, citation, external reliance, policy, bridge, work, gate, privacy, assurance, release, or adjudication use adds claim-bearing fields.
 
-### A.6.3.CSC:7 - Conformance Checklist
+### A.6.3.CSC:7 - Conformance and counterexample replay
 
-A conformance check is retained only if it changes the next admissible use of the coarsened rendering, blocks a concrete overclaim, or preserves the source-bearing reopen path needed for the declared admissible use.
+A check is retained only if it changes the next admissible use, blocks a concrete overclaim, or preserves the exact source-return path.
 
 #### A.6.3.CSC:7.1 - CSC-Core
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-1 (Source visible).** | A conforming controlled-coarsening card SHALL name the source-bearing side or inherit it from the immediate source context. | Prevents the coarsened rendering from resetting provenance. |
-| **CC-CSC-2 (Rendering explicit).** | A conforming card SHALL identify the coarsened rendering and keep it distinct from the source-bearing side. | Prevents citation laundering and source-to-rendering collapse. |
-| **CC-CSC-3 (Admissible use).** | A conforming card SHALL state the narrower admissible use. | Keeps ordinary convenience from becoming broad authority. |
-| **CC-CSC-4 (Non-admissible downstream use).** | A conforming card SHALL state the non-admissible downstream use. | Makes over-read and misuse visible early. |
-| **CC-CSC-5 (Reopen or handoff).** | A conforming card SHALL state the source-bearing reopen trigger or governing-pattern handoff condition. | Gives readers an admissible next use under dispute, citation, reliance, policy, bridge, work, gate, privacy, assurance, release, or adjudication use. |
-| **CC-CSC-6 (Ordinary economy).** | Authors SHOULD keep ordinary cases to the mini-card unless dispute, citation, external reliance, policy, bridge, work, gate, privacy, or assurance use is live. | Preserves usability and avoids daily-process inflation. |
+| **CC-CSC-1 (Exact endpoints).** | Exact `X` and `Y` each have recoverable claim content, EntityOfConcern, and effective `U.ReferenceScheme`. | Blocks a source set, model, graph, evidence set, publication, form, carrier, or readable tile from replacing an episteme. |
+| **CC-CSC-2 (Exact construction).** | Exact `c : X -> Y` states same EntityOfConcern, claim construction, endpoint scheme relation, preservation, controlled loss, prohibited strengthening, applicability, and return. | Makes coarsening a testable A.6.3 construction rather than a label. |
+| **CC-CSC-3 (Admissible use).** | `Y` has one stated narrower admissible use. | Keeps convenience from becoming broad authority. |
+| **CC-CSC-4 (Non-admissible use).** | Stronger downstream use is explicit and cannot be inferred from `Y` or its publication. | Blocks authority laundering. |
+| **CC-CSC-5 (Return).** | Return resolves to exact `X`, exact governed source relations, or the named direct governor. | Prevents provenance reset. |
+| **CC-CSC-6 (Neighbor separation).** | Actual Work, additional source epistemes, correspondence, C.29 representation, viewpoint/`U.View`, grounding, publication occurrence, form, carrier, audience, and bounded use retain direct owners. | Prevents a filled coarsening card from becoming an omnibus ontology. |
+| **CC-CSC-7 (Ordinary economy).** | Ordinary cases stop at the mini-card after endpoint/construction identity is recoverable. | Preserves usability. |
 
-#### A.6.3.CSC:7.2 - CSC-Conditional
+#### A.6.3.CSC:7.2 - Claim-bearing conditions
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| **CC-CSC-7 (Use-specific assurance).** | Claim-bearing cases SHALL add only the admissibility fields needed for the use under repair, dispute, or reliance case. | Keeps the assurance section tied to real risk. |
-| **CC-CSC-8 (Branch and use split).** | Load-bearing or disputed cases SHALL keep `coarseningBranch` and `admissibleUseValue` separate. | Prevents the coarsening branch from implying source-loss mode or authority. |
-| **CC-CSC-9 (Source-loss mode and recoverability).** | Cases affecting claim admissibility, accountability, admissible-use value, or later citation SHALL state source-loss mode and recoverability class. | Prevents recoverability from being mistaken for admissible use. |
-| **CC-CSC-10 (Coarsening-chain continuity).** | A coarsening chain SHALL satisfy `CSC-WF-3` or reopen the source-bearing side. | Prevents provenance reset by repeated summarization. |
-| **CC-CSC-11 (Governing-pattern boundaries).** | Bridge, stance, work, gate, adjudication, and changed-entity claims SHALL be handled by their governing patterns or publications with named authority-reference relations. | Prevents CSC from stealing neighboring pattern duties. |
-| **CC-CSC-12 (No authority by repetition).** | A conforming card SHALL satisfy `CSC-WF-2`. | Blocks authority laundering through fluency or citation. |
-| **CC-CSC-13 (Source, rendering, and publication separation).** | Claim-bearing cases SHALL separate source-bearing side, coarsened rendering, `PublicationUnit`, publication face, E.17 publication-face kind value `publication face/form`, E.17 publication-face kind value `interop publication form`, and carrier when those could be confused. | Keeps `PublicationUnit`, publication face, and carrier positions distinct. |
-| **CC-CSC-14 (Privacy and redaction).** | Privacy or redaction cases SHALL name the sharing boundary, withheld distinctions, risk rationale, non-admissible accountability or gate uses, and source-bearing review path. | Prevents redaction from becoming closure. |
-| **CC-CSC-15 (Interop simplification).** | Exceptional interop-facing simplifications SHALL name the operative relation kind and hand bridge or equivalence pressure to `F.9` or `F.9.1`. | Prevents simplified relation language from carrying bridge or substitution use. |
-| **CC-CSC-16 (Source relation class).** | Claim-bearing source-relation cases SHALL use the `E.17:5.1b` vocabulary where needed: source pointer, source availability, source retrieval, source use, source faithfulness, claim admissibility, contradiction, plausibility-only, omission, declared source-loss mode, added commitment, added linkage, independent verification, admissible use, non-admissible downstream use, and reopen trigger. | Keeps helpful renderings from passing as evidence. |
+| **CC-CSC-8 (Branch/use split).** | `coarseningBranch`, `sourceLossMode`, and `admissibleUseValue` remain separate. | A branch or loss label grants no authority. |
+| **CC-CSC-9 (Loss/recoverability).** | Claim-bearing cases state exact preserved, dropped, and return-only claims plus recoverability class. | Distinguishes recoverability from admissibility. |
+| **CC-CSC-10 (Chain continuity).** | Every coarsening chain keeps exact original source episteme, each intermediate episteme, each construction, accumulated loss, and return; otherwise reopen exact `X`. | Prevents summarization from resetting source identity. |
+| **CC-CSC-11 (Privacy).** | Redaction cases name sharing boundary, withheld claims, risk rationale, blocked accountability/gate uses, and exact source review path. | Prevents redaction-as-closure. |
+| **CC-CSC-12 (Interop).** | Interop simplification names exact relation claims and routes Bridge/equivalence pressure to F.9/F.9.1. | Prevents simplified wording from asserting correspondence. |
+| **CC-CSC-13 (No authority by repetition).** | Fluency, citation, repetition, publication visibility, or a more convenient carrier cannot widen use. | Keeps `Y` within its declared use. |
+
+#### A.6.3.CSC:7.3 - Counterexample replay
+
+| Case | Required result |
+| --- | --- |
+| Preserve vs retarget | Exact same EntityOfConcern permits CSC; aggregation into a new proxy subject exits to A.6.4. |
+| Same vs different scheme | Coarsening can occur within one scheme; material representation-semantic change additionally opens RT, but scheme difference alone establishes neither `c` nor controlled loss. |
+| Candidate vs `U.View` | Exact coarsened `Y` can be valid under CSC and still fail E.17.0 conformance; a tile or layout is not a View. |
+| Source publication/form/carrier | A publication occurrence may make exact `X` available; form and carrier express it. None becomes `X`, and changing one does not reidentify unchanged `X`, `Y`, or `c`. |
+| Controlled loss | Omitted qualifiers, uncertainty, alternatives, evidence paths, or scope are named; the narrower use and return condition actually block the stronger use. |
+| Source set/model/graph/evidence set | Such an object is an endpoint only when the selected claim-bearing whole passes C.2.1; otherwise exact `X` claims about or cites it. |
+| Work or description | Actual coarsening Work and a coarsening-description/card episteme remain separate from `c`; editing either does not change unchanged endpoints. |
+| Grounded source, ungrounded coarsening | Grounding, evidence, or authority attached to `X` does not transfer to `Y`; `Y` needs its own direct grounding/evidence/authority path for any use that requires one. |
+| Selected structure overread | A selected architecture or other A.22 structure may be designated by `X`; it is not `X`, `Y`, the coarsening constructor, viewpoint, `U.View`, publication, form, or carrier. |
+
+After a bounded correction replay its local counterexample; after the batch run this complete table once. Do not repeat the whole host audit after every correction.
 
 ### A.6.3.CSC:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -321,7 +342,7 @@ Controlled coarsening is useful because FPF work often needs cheap readable form
 
 This pattern is narrower than a general simplification pattern. It applies only when the coarsened rendering remains tied to a source-bearing side and carries a narrower-use card.
 
-The core memory aid is simple: a coarsened rendering may help interpretation, but it must not become the source-bearing side it was derived from. It may expose or cite the source-bearing side or the project-side FPF kind and reference named by value that carries the requested admissibility; that exposed source or value remains the admissibility source, not the coarsened rendering's readable face. If admissibility is missing, a repair request, source-gap note, or reopen note may guide only future repair or return to source; it does not backdate the coarsened rendering into source relation.
+The core memory aid is simple: exact coarsened episteme `Y` may help interpretation, but it must not become exact source episteme `X`. A publication occurrence, form, carrier, source set, model, graph, or evidence set may expose or be designated by an endpoint but cannot replace one. If admissibility is missing, a repair or return note guides only future work and does not backdate `Y` into source relation or authority.
 
 ### A.6.3.CSC:11 - SoTA-Echoing: Adopted Or Adapted Invariants And Rejected Shortcuts
 
@@ -345,54 +366,39 @@ The practical implication is the same across these traditions: coarsened readabl
 
 ### A.6.3.CSC:12 - Relations
 
-- **Specializes:** `A.6.3 U.EpistemicViewing` for declared source-loss mode in a same-lineage source-to-rendering relation.
+- **Specializes:** `A.6.3 U.EpistemicViewing` as exact same-EntityOfConcern controlled-loss construction `c : X -> Y` between independently constituted epistemes.
 - **Coordinates with:** `A.6.3.CR`, `A.6.3.RT`, `A.6.3.NAR`, `E.17.EFP`, `E.17.ID.CR`, `F.9`, `F.9.1`, `A.15`, `A.6.4`, `A.20`, and `A.21`.
 - **Does not replace:** conservative retextualization, representation-scheme transition, structure-to-narrative rendering, explanation profiling, bounded comparative review, bridge-card discipline, stance overlay, changed-EntityOfConcern discipline, work authority, gate authority, or adjudication authority.
-- **Entry relation:** neighboring patterns may hand off here when a coarsened rendering's narrower-use, non-admissible-use, and reopen card becomes the primary question.
+- **Entry relation:** neighboring patterns enter only when exact receiving episteme `Y` needs a narrower-use, non-admissible-use, controlled-loss, and source-return account; a readable form alone does not open CSC.
 - **Governing-pattern relation wording:** this pattern is a `specialization under A.6.3`, not a bundle, suite, profile, overlay, or review pack. Its governing role is limited to the controlled-coarsening relation itself.
 
 ### A.6.3.CSC:12a - Boundary with quantum-like state-representation coarsening
 
-Use CSC first when one source-bearing side, model, state representation, or evidence set is made less detailed for a narrower use, or when review discovers that a coarsened rendering already in circulation can be retained only under a narrower-use card: summary, dashboard row, orientation note, partner-safe version, simplified diagram, or coarse working description. Ordinary controlled simplification remains CSC even when it is lossy.
+Use CSC first when exact source episteme `X` is used to construct less detailed exact episteme `Y` for a narrower use, including claims about a model, state representation, or evidence set. A dashboard row, partner-safe page, diagram, or coarse display is a form or carrier unless a claim-bearing `Y` is independently constituted. Ordinary controlled simplification remains CSC even when lossy.
 
 Application sequence:
 
-1. Name the source-bearing side and the coarsened version.
-2. State the use scope of the coarsened version before stating what it means.
-3. State the lost distinctions, evidence paths, comparability, uncertainty, state dimensions, or alternatives.
-4. State admissible use and non-admissible use in practical terms.
-5. State when to reopen the source-bearing side.
-6. If the coarsened rendering claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
-7. Ask whether the shortcut depends on a QL cue such as incompatible probes, contextual probability, instrument-like update, open-information-system update whose update rule, probe frame, or export admissibility is part of the modeling requirement, or no faithful-enough export of the represented state for the admissible use. If not, stay in CSC.
-8. If yes, coordinate with the `C.26` state-representation coarsening admissibility section while leaving CSC as the controlled-use boundary for the coarsened version.
+1. Identify `X` and `Y` by their C.2.1 identity triples and state `c : X -> Y`.
+2. State the narrower use of `Y` before relying on its content.
+3. State lost claims, distinctions, evidence paths, comparability, uncertainty, state dimensions, or alternatives.
+4. State admissible and non-admissible uses in practical terms.
+5. State return to exact `X` or its governed source relations.
+6. If `Y` claims preservation of action, intervention, manipulation, explanation, or cross-abstraction structure, state the exact correspondence or causal-abstraction relation before relying on that claim.
+7. Ask whether the shortcut depends on a QL cue such as incompatible probes, contextual probability, instrument-like update, an open-information-system update rule, or no faithful-enough export for the declared use. If not, stay in CSC.
+8. If yes, coordinate with C.26 while leaving CSC as the controlled-loss/use boundary.
 
-For ordinary use, start with the standard shortcut mini-form:
+For ordinary use, start with this mini-form:
 
 | Mini-entry | Question |
 | --- | --- |
-| Source | Which source-bearing side, model, state representation, or evidence set is being coarsened? |
-| Shortcut | Which less detailed rendering or working shortcut is used instead? |
+| Source episteme `X` | Which exact claims, EntityOfConcern, and effective scheme constitute the richer source? |
+| Coarsened episteme `Y` | Which exact claim-bearing result is used instead, distinct from its form and carrier? |
+| Construction | What exact `c : X -> Y` preserves, loses, prohibits, and permits? |
 | Loss | Which distinction, evidence path, comparability, uncertainty, state dimension, or alternative is not carried? |
-| Admissible use | Which triage, orientation, explanation, or local decision use remains admissible? |
-| Reopen | Which dispute, decision change, admissible-use shift, threshold crossing, or non-admissible-use demand requires return to the source-bearing side? |
+| Admissible use | Which triage, orientation, explanation, or local-decision use remains admissible? |
+| Return | Which dispute, decision change, threshold crossing, or stronger-use demand requires exact `X`? |
 
-Use a fuller CSC and `C.26` coarsening boundary record only when the coarsened state representation will be reused, formalized, empirically compared, used in a high-stakes decision, or tied to a comparative performance claim:
-
-| Field | Required content |
-| --- | --- |
-| Source-bearing side | Which richer source episteme or source publication, model, state representation, or evidence set is being coarsened |
-| Coarsened version | What the reader receives instead |
-| Lost distinctions | What precision, comparability, evidence path, state dimension, or alternative is not carried |
-| Admissible use | Which triage, orientation, explanation, or local decision use remains admissible |
-| Non-admissible downstream use | Which downstream decision, audit, assurance, release, causal, or work-order use is not admissible |
-| Reopen path | When the source-bearing side or more precise state representation must be reopened |
-| QL cue, if retained | Which incompatible-probe, contextual-probability, instrument-update, open-information-system update, probe, or export-admissibility, or faithful-enough-export requirement remains after ordinary CSC |
-
-Useful outputs:
-
-- a CSC mini-form when the issue is controlled simplification;
-- a fuller C.26 coarsening admissibility record only when a QL cue remains and the claim is reusable, formal, empirical, high-stakes, or comparative-performance-bearing;
-- no QL wording when the case is only summary, anonymization, diagramming, audience adaptation, or ordinary coarsening.
+Use a fuller CSC/C.26 account only when `Y` will be reused, formalized, empirically compared, used in a high-stakes decision, or tied to comparative performance. Keep exact endpoints and construction, lost distinctions, admissible and non-admissible uses, return, and the surviving QL cue recoverable. Do not add QL wording for summary, anonymization, diagramming, audience adaptation, or ordinary coarsening alone.
 
 ### A.6.3.CSC:12b - C.29 mathematical-lens use relation
 

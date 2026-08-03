@@ -6,12 +6,12 @@ section_id: "C.22.PFR:End"
 section_title: "C.22.PFR:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__014_c-22-pfr-end.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:End — C.22.PFR:End"
-line_start: 51578
-line_end: 51579
+line_start: 51806
+line_end: 51807
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,12 +26,6 @@ dependencies:
   - "E.23"
   - "G.11"
 keywords:
-  - "actual adverse condition"
-  - "actual adverse episode"
-  - "assessment and evidence separation"
-  - "condition-to-predicate input rule"
-  - "exact problem-for entity and use"
-  - "independent criterion-applicability relation"
 ---
 
 ### C.22.PFR:End

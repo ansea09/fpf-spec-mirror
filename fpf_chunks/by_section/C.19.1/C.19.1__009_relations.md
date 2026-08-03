@@ -6,15 +6,20 @@ section_id: "C.19.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__009_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:7 — Relations"
-line_start: 49922
-line_end: 49941
+line_start: 50150
+line_end: 50169
 dependencies:
   - "A.0"
+  - "A.10"
+  - "A.15.1"
+  - "A.15.2"
+  - "B.1.6"
   - "B.3"
+  - "C.16"
   - "C.18"
   - "C.19"
   - "C.24"
@@ -40,7 +45,7 @@ keywords:
 
 ### C.19.1:7 - Relations
 
-**Depends on:** **G.5** and **G.9** (selector and parity), **G.11** (refresh telemetry), **C.5** (Resrc‑CAL), **C.18** (NQD‑CAL), **C.19** (E and E‑LOG), **F.7** and **F.9** (bridges, CL, Φ, and Ψ). **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
+**Depends on:** **G.5** and **G.9** (selector and parity), **G.11** (refresh telemetry), **A.15.1**, **A.15.2**, **B.1.6**, **C.16**, and **A.10** for dated work, resource aggregation, measurement, cost, and provenance, **C.18** (NQD‑CAL), **C.19** (E and E‑LOG), **F.7** and **F.9** (bridges, CL, Φ, and Ψ). Planned **C.5** (Resrc-CAL) may later consolidate resource-use and work-cost guidance but supplies no current governing semantics. **Constrained by:** **E.5** Guard‑Rails and **E.3** precedence.
 
 #### C.19.1:7.1 - C.32 architecture-synthesis use relation
 

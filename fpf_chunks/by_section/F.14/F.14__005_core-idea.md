@@ -6,12 +6,12 @@ section_id: "F.14:4"
 section_title: "Core idea"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__005_core-idea.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:4 — Core idea"
-line_start: 93515
-line_end: 93525
+line_start: 94207
+line_end: 94219
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,12 +45,14 @@ keywords:
 
 ### F.14:4 - Core idea
 
-Use the anti-explosion sequence before minting a durable role or status name.
+Use this sequence before minting a durable name or any supporting naming object:
 
-1. **Recover kind first.** Split the candidate family into role values, RoleDescription labels, role-relation expressions, assignments, work, capability, method, status, evidence, source, publication, requirement, policy, bridge, and local-phrase cases.
-2. **Reuse existing values.** If a role value, status family, Concept-Set row, local sense, or public term already admits the current use, reuse it and record aliases where needed.
-3. **Use role relation structure instead of hybrid roles.** If one role can satisfy another role requirement, two roles conflict, or roles travel together, use A.2.7 role relation structure. Do not mint a fused role unless the bounded context deliberately creates a new `U.Role` with RoleDescription and F.8 and F.18 admission.
-4. **Use assignment checks instead of prestige names.** If the issue is who may hold a role, whether a separation holds, or whether work occurred, use A.2.1, F.6, A.15.1, and role state checks.
-5. **Use status families and windows instead of status-name sprawl.** If the issue is time stance, evaluation state, grace, confidence, or presentation, use F.10 or the direct status pattern.
-6. **Use direct patterns for qualifiers.** Capability, method, work, evidence, source, publication, requirement, policy, and assurance qualifiers stay with their direct patterns. They may inform a name later; they do not become role or status ontology by suffix.
+1. **Recover the governed value first.** Split candidate expressions into exact role values, RoleDescription labels, direct relation kinds or occurrences, assignments, Work, capability, method, status, evidence, source, publication, requirement, policy, local-sense, and local-phrase cases. Each retained value keeps its exact kind and direct owner.
+2. **Name one proposed use and its interpretation basis.** State what the reader will do with the expression and the effective naming `U.ReferenceScheme`. An independently selected `BoundedModelUseStructure` appears only when that organization changes this exact naming use; it is never a generic locality field.
+3. **Try the light dispositions in order.** Prefer no durable name, an existing designation, a recorded alias, a local expression, or an existing direct-pattern/public-row name. Stop as soon as the proposed use works without hiding a governed distinction.
+4. **Create only the next object that pays for itself.** A local `SchemeSenseCell` is useful only when the exact local sense needs a stable address; a NameCard only when the naming settlement itself must endure; an F.17 row only for public, Core-facing, durable, or cross-local reuse; E.24.PUB only when the selected row edition must actually be made available. None implies the next.
+5. **Use exact subject relations instead of fused names.** Role bundles and incompatibilities remain A.2.7 relations; holder and Work claims remain A.2.1/F.6/A.15.1; status families and windows remain F.10; qualifiers remain with their direct patterns.
+6. **Treat cross-local wording as a relation question only when one is current.** Resolve the exact local senses first. Same spelling proves nothing; different local-sense projections only open F.9. Cite a Bridge only when its predicate obtains, then state the proposed use and reliance separately. A Bridge does not merge governed values or require a public row.
+
+The result is the smallest naming disposition that preserves the exact governed value and supports the named use. It is not a claim that any value, relation, assignment, Work, evidence, status, authority, or publication exists.
 

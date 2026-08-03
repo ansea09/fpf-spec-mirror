@@ -6,15 +6,17 @@ section_id: "A.6.9:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__007_archetypal-grounding.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:5 — Archetypal Grounding"
-line_start: 20472
-line_end: 20498
+line_start: 20551
+line_end: 20587
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
+  - "A.15.6"
   - "A.2.1"
   - "A.2.6"
   - "A.22"
@@ -27,7 +29,9 @@ dependencies:
   - "C.29"
   - "C.3.3"
   - "E.17"
+  - "E.17.0"
   - "E.19"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.17"
   - "F.18"
@@ -75,4 +79,14 @@ If a later workflow isolates `HumanVerifiedUser` and `VerifiedCustomer`, refine 
 The sentence is: “Person in KG-A is equivalent to Person in KG-B.” The exact cells are `Person-including-fictional` under KG-A v4 and `Person-real-with-external-id` under KG-B v7. Sherlock Holmes and the external-id rule show `Partial-overlap`, not equivalence. The exact overlap Bridge obtains under the least-committing profile.
 
 Two proposed uses then receive separate claims. A glossary comparison that labels both rows “Person” while displaying the fiction and external-id differences can receive affirmative polarity with a warranted A.10 path. A type-structure merge receives negative polarity because its correspondence rule cannot preserve membership and its tolerance permits no such loss. Both claims concern the same Bridge; neither changes its identity. Refining KG-A into `RealPerson` and `FictionalPerson` changes an endpoint and opens a new Bridge test.
+
+#### A.6.9:5.3 - Published NAICS language and a `Conformist` cue
+
+Start with separate objects. C.2.1 identifies exact model episteme edition `NAICS-2022-ClassificationEpisteme` by its exact ClaimGraph, EntityOfConcern, and effective ReferenceScheme; A.1 independently identifies exact `IndustryClassificationApplication-7 : U.System`. If availability matters, E.24.PUB separately tests `EpistemePublicationRelation(NAICS-2022-ClassificationEpisteme, ClassificationAudienceDeclaration-2, ClassificationUseDeclaration-5, NAICS-2022-TableForm, NAICS-2022-PDFCarrier)` together with its exact form-expression and form-bearing occurrences. The episteme, publication occurrence, form, carrier, declarations, and application system keep different identities. Publication makes an edition available; it neither puts NAICS inside the application nor proves access, adoption, applicability, actual use, or Work.
+
+Recover the use branch before selecting structure. Require `HolderSystem(ClassificationAssignment-3)=IndustryClassificationApplication-7`, exact F.6 `performedUnderAssignment(ClassificationWork-4, ClassificationAssignment-3)`, and the application's actual use of the selected NAICS content during that Work concerning exact `ClassifiedOrganization-42`; only then may `ModelUseRelation(ClassificationAssignment-3, NAICS-2022-ClassificationEpisteme, ClassificationWork-4, ClassifiedOrganization-42)` obtain. A positive `NAICSClassificationModelUseStructure` additionally requires exact `ModelApplicabilityRelation(NAICS-2022-ClassificationEpisteme, ClassifiedOrganization-42, ClassificationClaimScope)`, fixed-content coherence with the exact classification-expression episteme under a declared predicate and ReferenceScheme, exact applied constraint claims naming the edition and classification distinctions to preserve, and `NAICSClassificationFrame`: ask which NAICS edition and distinctions govern this classification; use the complete organization for that claim; infer neither use from publication nor system parthood from the word *context*. Without the complete A.1.1/A.22 basis, stop at publication availability or the exact direct relation that does obtain.
+
+Treat DDD *Conformist* only as a Plain cue to a proposed directed subject dependency. Preserve the exact proposed source, target, direction, adoption condition, dependency predicate, update authority, required preserved meaning, permitted loss, claim scope, and standard-edition basis. A positive occurrence would additionally require exact participant meanings and fillers, its direct relation kind and predicate, obtaining and applicability conditions, occurrence identity and recurrence, all supplied by one compatible direct subject governor. The current package has no such governor, so return `missing CROSS-LOCALITY-BRIDGE governor`; the label, published-language status, a table edge, or a selected structure cannot fill that gap.
+
+An F.9 Bridge may separately obtain between exact NAICS-side and application-side `SchemeSenseCell` values and may support one bounded interpretation claim. It is not the proposed adoption, dependency, or update-authority relation, preserves no application meaning by itself, and supplies no subject-crossing occurrence. A later NAICS edition is another C.2.1 episteme edition: re-evaluate applicability, actual use, coherence, preservation, loss, and any future governed crossing before reselecting the structure. Republishing unchanged claims in another form or carrier does not perform that update.
 

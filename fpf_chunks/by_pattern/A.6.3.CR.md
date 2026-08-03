@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.CR.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
-line_start: 13930
-line_end: 14273
+line_start: 14006
+line_end: 14353
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -283,6 +283,10 @@ The synthesis may stay in this pattern only if the source relation remains expli
 **Source slice.** `The backup controller stays in passive watch mode until the primary loop fails two consecutive heartbeat checks.`
 
 **Published slice.** `Резервный контроллер остаётся в режиме пассивного наблюдения, пока основной контур не пропустит две последовательные проверки heartbeat.`
+
+**English reader gloss (comprehension aid only).** `The backup controller remains in passive observation mode until the primary loop misses two consecutive heartbeat checks.`
+
+The gloss helps an English-only reader follow the example and find the claim being re-expressed. It is not a second source, a back-translation proof, evidence that the Russian wording is conservative, or a licence to add an "equivalent architecture role" or "same operational guarantee" bridge claim. Any conservativity claim still requires suitable language competence or other evidence for the same-claim, same-EntityOfConcern, and hidden-bridge tests.
 
 This remains in `ConservativeRetextualization` only if the translation is still tethered to the same source claim, preserves the same EntityOfConcern, and does not quietly add cross-tradition bridge claims such as "equivalent architecture role" or "same operational guarantee" beyond what the source actually states.
 

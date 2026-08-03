@@ -6,12 +6,12 @@ section_id: "E.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__004_forces.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:3 — Forces"
-line_start: 69595
-line_end: 69606
+line_start: 69838
+line_end: 69849
 dependencies:
   - "C.33"
   - "C.34"

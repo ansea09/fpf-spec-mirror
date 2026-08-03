@@ -6,12 +6,12 @@ section_id: "F.14:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__017_didactic-distillation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:16 — Didactic distillation"
-line_start: 93765
-line_end: 93768
+line_start: 94455
+line_end: 94458
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,5 +45,5 @@ keywords:
 
 ### F.14:16 - Didactic distillation
 
-When names multiply, do not ask for a better name first. Ask what values are being named. Reuse existing roles and status families when they already admit the use. Use role relation structure for role-requirement substitution, incompatibility, qualification, and bundles. Use status windows and values for temporal or evaluative variation. Send capability, method, work, evidence, source, publication, requirement, policy, and assurance qualifiers to their direct patterns. Mint durable names only after the recovered value deserves one.
+When names multiply, do not ask for a better name first. Recover the exact values and the proposed use. Try no durable name, an existing designation, an alias, or a local expression. Keep role relations, status windows, capability, method, Work, evidence, source, policy, and publication under their direct patterns. Create a cell, NameCard, row, identifier, or publication only when that exact object buys a named use; none requires the next and none makes the governed value real.
 

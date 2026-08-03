@@ -6,12 +6,12 @@ section_id: "E.21:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86119
-line_end: 86135
+line_start: 86651
+line_end: 86668
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -37,6 +37,7 @@ keywords:
 
 | Anti-pattern | Repair |
 |---|---|
+| **Subject/action guidance reified or operationalized.** Plain first-use guidance is turned into a `SubjectActionSpine`, structural field, method, CGUS, or performed work; or `PrecisionRestorationProfile`, process proof, or guard catalogues substitute for judgment of the pattern's actual content. | Keep subject and action guidance Plain unless an exact admitted method or A.22.CGUS is genuinely current and cited by value; require dated `U.Work` independently when performance is claimed; judge the pattern's own `EntityOfConcern`, first useful move, practitioner action, practical delta, and bounded non-use; never raise a value by adding evaluation apparatus that worsens use, locality, affordability, or ecology. |
 | **Score illusion.** `Pattern quality = 87 out of 100`. | Use ordinal coordinate values; no arithmetic aggregation. |
 | **Two-column table.** Coordinate-and-value table has no rationale. | Add `ShortRationale` for every coordinate. |
 | **Floor as omission.** A floor evaluation omits maturity, SoTA, formal, corpus, or evolution coordinates. | Keep floor low if needed; evaluate all coordinates. |

@@ -6,27 +6,30 @@ section_id: "E.17.1:13"
 section_title: "Bundle Anatomy and Member Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__014_bundle-anatomy-and-member-discipline.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:13 — Bundle Anatomy and Member Discipline"
-line_start: 78998
-line_end: 79035
+line_start: 79651
+line_end: 79688
 dependencies:
   - "A.16.0"
+  - "A.22"
   - "A.6.2-A.6.4"
   - "A.7"
+  - "C.13"
   - "C.2.1"
   - "C.2.2a"
+  - "C.29"
   - "E.10"
   - "E.17"
   - "E.17.0"
   - "E.17.2"
   - "E.18"
+  - "E.24.PUB"
   - "E.7"
   - "F.9"
   - "F.9.1"
-  - "U.MultiViewDescribing"
 keywords:
   - "alias discipline"
   - "engineering/management/research bundles"
@@ -42,12 +45,12 @@ A viewpoint-bundle library becomes thin and reusable only when the bundle itself
 
 #### E.17.1:13.1 - What a viewpoint member should make explicit
 
-Each member `U.Viewpoint` inside a reusable bundle should make explicit at least:
+Each `U.ViewpointRef` member inside a reusable bundle resolves to one exact viewpoint episteme edition whose claim content makes explicit at least:
 
 - the **concern family** it brings into focus,
 - the **stakeholder families** for whom that concern matters,
 - the **entity of concern class** for which it is admissible,
-- the **allowed description and specification-useification kinds** that usually realize it,
+- the **independently admitted episteme kinds** whose exact membership rules allow candidates under that viewpoint,
 - and any **bundle-specific conformance or correspondence notes** that later view families should preserve.
 
 `E.17.1` does not redefine the internals of `U.Viewpoint`. It states what must remain visible if a viewpoint is to be reused as part of a bundle rather than as an undocumented local label.

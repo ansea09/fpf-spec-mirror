@@ -6,12 +6,12 @@ section_id: "C.26:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__005_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:4 — Solution"
-line_start: 53315
-line_end: 53625
+line_start: 53545
+line_end: 53864
 dependencies:
   - "A.10"
   - "A.15"
@@ -31,6 +31,9 @@ dependencies:
   - "C.26.1-C.26.3"
   - "C.26.2"
   - "C.26.3"
+  - "E.17"
+  - "E.17.EFP"
+  - "E.24.PUB"
   - "E.8"
   - "E.9"
   - "F.9"
@@ -49,16 +52,17 @@ keywords:
 
 ### C.26:4 - Solution
 
-Start with the ordinary FPF pattern. Add this lens only when ordinary wording would falsely treat a probe, question, metric, dashboard, API read, workshop, bridge, comparison frame, or coarsened representation as passive, stable, jointly comparable, or faithfully exportable. The main entry question for the whole cluster is: "What should the user do with this lens so that the representational mistake does not arise here?"
+Start with the ordinary FPF pattern. Recover the exact claim, bearer or EntityOfConcern, effective reference scheme, scope, probe or model frame, and comparison frame before asking whether a quantum-like lens remains useful. Add C.26 only when a named contextual-model obstruction survives ordinary measurement, comparison, bridge, causal, work, evidence, and representation treatment and changes an admissible engineering inference. Preserve incompatible-probe results in their own local algebras; C.26 does not force them into one global algebra. The main entry question for the whole cluster is: "Which exact obstruction remains, and what should the user now do differently because it remains?"
 
 Application sequence:
 
 1. Name the ordinary FPF pattern that already carries the baseline question.
-2. Name the concrete representational mistake: passive read, shared comparison frame, false faithful-enough export claim for the intended use, exact-state shortcut, or unsupported coarsened representation.
-3. Test the positive QL cue and the negative activation list.
-4. Fill the QL-lite card if the cue survives.
-5. Emit one practical result: use ordinary pattern only, add QL-lite note, select one C.26 child pattern as the applicable pattern body, add evidence and assurance, or drop the QL wording.
-6. Escalate only when the claim becomes reusable, assurance-bearing, formal, empirical-superiority-bearing, or ontology-bearing.
+2. Recover the exact claim-bearing subject: quality bearer or C.2.1 model-claim episteme, effective `U.ReferenceScheme`, probe or model frame, comparison frame, and `U.ClaimScope`; record grounding and viewpoint only through their separately obtaining relations.
+3. Name the concrete representational mistake: passive read, shared comparison frame, false faithful-enough export claim for the intended use, exact-state shortcut, or unsupported coarsened representation.
+4. Apply the ordinary owners and retain C.26 only if one named contextual-model obstruction survives and changes the admissible inference or action.
+5. Fill the QL-lite card if that cue survives; otherwise return to the ordinary owner without QL wording.
+6. Emit one practical result: use the ordinary pattern only, add a QL-lite note, select one C.26 child pattern as the applicable pattern body, add evidence and assurance, or drop the QL wording.
+7. Escalate only when the claim becomes reusable, assurance-bearing, formal, empirical-superiority-bearing, or ontology-bearing.
 
 C.26 ordinary output: produce one of these, then stop or select the neighboring applicable pattern body:
 
@@ -103,23 +107,28 @@ Cluster maxim: quantum-like wording does not raise assurance load by default. As
 
 Pattern-local-note dependency rule: when an existing FPF pattern cites `C.26` or a `C.26.*` child, the pattern's ordinary action guidance and conformance text remain primary. The citation means only: if a residual QL cue remains after the ordinary FPF pattern has carried its part, use this lens for that residue. It does not make every citing-pattern case depend on the full C.26 record or on every child-pattern semantic.
 
+**Model-use structure and crossing boundary.** Select a `BoundedModelUseStructure` only when the organization of one exact model episteme, admitted model-use holons, obtaining applicability/use/coherence relations, applied constraints, invariants, and one named receiving use changes the decision. Compare two such structures only after each is independently selected on that basis. Assert a subject crossing only when an exact direct governor makes one direction-sensitive crossing occurrence obtain among those exact structures. A C.26 finding, local vocabulary, F.9 sense Bridge, diagram, context map, card, reference, or shared participant does not establish that crossing; when the direct governor is absent, return the exact missing-governor blocker.
+
 QL boundary selection:
 
 | Gate question | Applicable FPF pattern |
 | --- | --- |
 | Is this ordinary boundary, interface, API, or protocol ambiguity? | `A.6` and the direct boundary or interface pattern. |
-| Is this ordinary bridge, export, substitution, or loss across contexts? | `F.9` / `F.9.1`. |
+| Is this ordinary Bridge between exact local senses, publication/export, substitution, or declared loss? | `F.9`, publication, representation, and loss owners. |
 | Is this ordinary measurement, metric gaming, scale, coordinate, or noise? | `C.16`. |
 | Is this ordinary evidence, provenance, method, or carrier issue? | `A.10` and, when assurance-bearing, `B.3`. |
 | Is this ordinary work, routine, incentive, alignment, or authority issue? | `A.15` and neighboring work/authority patterns. |
 | Is this ordinary quality-bundle, viability, feedback, or dynamics tuning? | `C.25`, `U.Dynamics`, and measurement or work patterns. |
 | Is this ordinary representation-scheme transition or controlled coarsening? | `A.6.3.RT`, `A.6.3.CSC`, and ordinary representation patterns. |
-| Does residual false passive read, false shared frame, false faithful export, unsupported state reading, or QL-specific coarsening remain? | Use `C.26` or the relevant `C.26.*` child with the minimum sufficient field set. |
+| After ordinary owners, does one named contextual-model obstruction such as no-global-section, incompatible probe algebra, or order-sensitive instrument behavior still change the admissible inference or action? | Use `C.26` or the relevant `C.26.*` child with the minimum sufficient field set; otherwise omit QL wording. |
 
-The default output is a QL-lite card:
+The default output is a QL-lite card. Keep it short: the three conditional identity rows below may be written as one line, and they are required only when the note carries a quality ascription or model claim.
 
 | Field | Question |
 | --- | --- |
+| Claim-bearing subject and scheme | What exact quality bearer and ascription, or exact C.2.1 model-claim episteme and EntityOfConcern, is at issue under which effective `U.ReferenceScheme`? |
+| Claim-use boundary | Which exact probe or model frame, comparison frame, and `U.ClaimScope` govern this use? None is a universal context owner. |
+| Grounding and viewpoint | Which exact `EpistemeEmpiricalGroundingRelation` obtains, or is grounding explicitly absent? If viewpoint matters, which `U.ViewpointRef` resolves to exact P, and which separate evaluator performs the evaluation? |
 | Ordinary FPF pattern | Which FPF pattern already carries the baseline question? |
 | QL cue or formal cue | Which order effect, frame effect, incompatible probe structure, response-replicability tension, measurement-changing-state, no faithful-enough export under the declared probe, frame, or use, bridge loss or export loss, mutual interaction whose local reads and exports are no longer admissibly comparable or reusable without declaring the probe, frame, or update relation, open-information-system update whose update rule, probe frame, or export admissibility is part of the modeling condition, or state-representation coarsening effect changes the admissible reading? |
 | Representational payoff | What mistake does the lens prevent, or what cheaper representation does it support? |
@@ -140,6 +149,8 @@ Minimum viable QL-lite note:
 
 ```text
 Ordinary patterns: C.16 + A.15.
+Claim line: exact readiness-ascription claim ReadinessAscription-4 about bearer DeliverySystem-12 under OperationsReferenceScheme; probe/model frame ReadinessPublicationFrame; comparison frame PrePostReadinessFrame; claim scope ReleaseWindow-W.
+Grounding/viewpoint: no EpistemeEmpiricalGroundingRelation is yet established; OperationsViewpointRef resolves to exact OperationsViewpoint-P; evaluator ReleaseEvaluator-7 remains separate.
 Mistake prevented: dashboard result would be read as passive release-readiness evidence.
 Probe effect: publication changed team behavior during W.
 Decision diff: do not use dashboard alone for release; add independent work traces.
@@ -159,7 +170,7 @@ Use the `C.11` mini-output discipline across the cluster: finish with one choice
 
 Retire QL when the residual cue disappears. If `A.6`, `F.9`, `C.16`, `A.10`, `B.3`, `A.15`, `C.25`, `A.6.3.CSC`, `A.6.3.RT`, or another ordinary FPF pattern now carries the claim without a false passive read, false shared frame, false faithful export, unsupported distributed-state reading, or QL-specific coarsening residue, remove QL wording from the active working note or pattern prose.
 
-Use the lens only after the activation test survives both sides. QL remains active only when the ordinary FPF pattern cannot admissibly treat the output as a passive read, a shared-frame comparison, a faithful-enough export, or a use-scope-preserving state representation. Bridge loss, feedback, coupling, openness, compression, and coarsening are not QL cues unless they change the admissible state, probe, frame, or export reading for the current use. C.26 carries the full negative activation catalog; child and citing patterns should repeat only the local non-trigger that is frequent enough to matter for that pattern.
+Use the lens only after the activation test survives both sides. C.26 remains active only when one named contextual-model obstruction survives the ordinary owners and changes an admissible engineering inference or action: for example, a no-global-section result, an incompatible-probe algebra, or an order-sensitive instrument effect. Bridge loss, feedback, coupling, openness, compression, coarsening, vocabulary, graph shape, and DDD locality are not QL cues by themselves. Preserve each local result in its own algebra unless an independently admitted joint-comparison route exists; do not manufacture a global frame or infer a structure crossing from comparison.
 
 Canonical cue grammar:
 
@@ -172,10 +183,11 @@ Canonical cue grammar:
 | Coarsening | The reduced-detail state representation depends on a QL cue plus declared loss, admissible use, non-admissible downstream use, and reopen trigger; ordinary compression or abstraction alone is not enough. |
 | Positive activation pressure | Negative activation test |
 | --- | --- |
-| Load-bearing order effect, frame effect, incompatible probe structure, response-replicability tension, measurement-changing-state, no faithful-enough export under the declared probe, frame, or use, bridge export of the state that is not faithful enough for the current use, mutual interaction where neither side's output can be used as a faithful-enough local export of the joint state under the intended decision frame after ordinary feedback relations are tried, or state-representation coarsening whose admissible use changes because of a declared QL cue. | No QL activation from discreteness, tokenization, low-bit quantization, stochasticity, ordinary uncertainty, nonlinearity, complexity, ordinary coupling, ordinary feedback, emergence, tacit knowledge, ordinary openness, ordinary compression, ordinary coarsening, ordinary DDD locality, ordinary API boundary, ordinary bridge loss, ordinary feedback control, or impressive quantum-like vocabulary alone. |
+| One named no-global-section, incompatible-probe, order-sensitive instrument, contextual-probability, non-faithful export, or QL-specific coarsening obstruction survives the ordinary owners and changes the admissible inference or action. | No QL activation from discreteness, tokenization, low-bit quantization, stochasticity, ordinary uncertainty, nonlinearity, complexity, ordinary coupling, ordinary feedback, emergence, tacit knowledge, ordinary openness, ordinary compression, ordinary coarsening, ordinary DDD locality, ordinary API boundary, ordinary bridge loss, ordinary feedback control, local vocabulary, graph shape, or impressive quantum-like vocabulary alone. |
+
+Keep incompatible-probe outputs in their own exact algebras. A common label, common diagram, or desire to average does not supply a joint probability space, comparison relation, grounding relation, or cross-structure occurrence.
 
 Practical payoff in ordinary prose:
-
 - "the metric reported readiness" becomes "the metric publication or measurement regime functioned as a probe interaction that changed readiness behavior";
 - "two risk scores disagree" becomes "the two scores may come from non-shared comparison frames with no declared admissible joint comparison route";
 - "the workshop discovered the split" becomes "the workshop was a probe whose order and framing changed alignment and local meaning";
@@ -206,10 +218,10 @@ What changes in practice: "the model is quantum-like" cannot be used to skip cau
 
 What this does not authorize: `C.26` does not become a causal-use pattern and does not treat counterfactual material as a quantum-like subcase; it keeps quantum-like modeling discipline, while causal-use support remains governed by `C.28`.
 
-Use this as a diagnostic sequence before retaining QL wording. DDD, microservice domain analysis, and ordinary boundary/bridge patterns stay first for bounded contexts, service cuts, integration points, and exported meaning; QL is retained only when a workshop, probe, export, or frame changes what can admissibly be inferred.
+Use this as a diagnostic sequence before retaining QL wording. DDD, microservice domain analysis, and direct boundary, model-use, local-sense, and Bridge owners stay first for service cuts, integration points, and exported meaning. Retain QL only when one named contextual-model obstruction survives those owners and changes what can admissibly be inferred.
 
 1. Measurement, metric, scale, method, evidence, or assurance load goes first to measurement and evidence patterns: `C.16`, `A.10`, or `B.3`.
-2. Bridge, translation, publication, rendering, or exported-loss question goes first to bridge and publication patterns: `F.9`, `E.17`, or `E.17.EFP`.
+2. Bridge, translation, publication availability, rendering, or exported-loss question goes first to its exact owner: `F.9` for an exact SenseCell Bridge; `E.24.PUB` for publication occurrence, form, and carrier; `E.17` only for a current multi-view publication form or face; and `E.17.EFP` only for a current explanation-faithfulness claim.
 3. Causal intervention, command, work enactment, role alignment, or routine question goes first to work and authority patterns: `A.15` and the relevant neighboring pattern.
 4. Boundary or interface wording, service-interface typing, bridge endpoint, relation precision, or lexeme-collision question goes first to the direct owner: `A.1` for holon delimitation or boundary crossing, `A.6.P` for relation precision or service/access recovery, `A.6.0` or `A.6.5` for signature or slot claims, `A.6.M` for module-interface claims, `A.6.F` for functional ports or elements, `A.6.C` only when recovered contract, SLA, protocol, or agreement-like wording bundles promise, utterance or publication, governance, Work or consequence, or evidence claims, `A.6.B` only for L, A, D, or E statement classification inside a boundary package, and `A.7`, `E.10`, or `F.18` for wording-use repair.
 5. Quality, viability, feedback, or control-tuning question goes first to quality, dynamics, and measurement patterns: `C.25`, `U.Dynamics`, and `C.16`.
@@ -222,7 +234,7 @@ C.26 does not choose among options, generate missing alternatives, or settle `C.
 | --- | --- | --- |
 | Choice, comparison, or question order | `C.11` | incompatible probes, order effects, non-shared comparison frames, or no declared admissible joint comparison route change the choice-state reading. |
 | Boundary interaction or interface reading | Use the direct owner selected by step 4 above. In particular, use `A.6.C` only when recovered contract, SLA, protocol, or agreement-like wording bundles several contract-side claims, and use `A.6.B` only for L/A/D/E boundary-package classification. | the probe or interaction changes the represented state, export validity, or viability decision. |
-| Cross-context bridge or publication export | `F.9`, `E.17`, `E.17.EFP` | the exported state is not faithful under the current probe and bridge conditions. |
+| Bridge between exact local senses or publication/export | `F.9`; `E.24.PUB`; `E.17` or `E.17.EFP` only for the separately current multi-view or explanation-faithfulness question | one named probe/export obstruction survives the exact Bridge, publication, representation, and loss account and changes the admitted receiving use. |
 | Work enactment or coordinated behavior | `A.15`, with `A.10` / `B.3` for evidence | coordinated work evidences a low-recoverability distributed-state reading not faithfully exportable as one representation. |
 | Measurement, metric, score, or dashboard | `C.16`, `A.10`, `B.3` | the measurement regime, publication act, or operational use functions as a probe interaction that updates the represented state. |
 | Viability or quality bundle | `C.25`, `U.Dynamics`, `A.6`, `A.15` | envelope regulation depends on probe, boundary condition, actuator, export, or coarsened state representation. |
@@ -234,7 +246,7 @@ C.26 does not choose among options, generate missing alternatives, or settle `C.
 | Claim-use class | Use | Required basis |
 | --- | --- | --- |
 | Ordinary FPF pattern | QL is not needed. | Use the ordinary FPF pattern plainly. |
-| QL-lite note | Local diagnosis, model note, or worked recognition. | Fill the five-field card. |
+| QL-lite note | Local diagnosis, model note, or worked recognition. | Fill the short card and, for a quality ascription or model claim, its one-line identity/use boundary. |
 | Reusable pattern prose | A pattern, example, or neighboring note will repeat the move. | Add typed state, probe, or export fields, source support, and local anti-cases. |
 | Decision or assurance use | The claim affects boundary, release, audit, evidence, or work decision. | Add rival explanations, evidence-use class, loss notes, and explicit neighboring-pattern selection. |
 | Ontology or physical claim | A physical substrate, new ontology, or empirical superiority is asserted. | This pattern does not support the claim; use a separate physical or empirical support outside this pattern cluster. |
@@ -276,11 +288,11 @@ Evidence-use class scales by use:
 
 | Case | First applicable pattern body | QL cue to test | Local stop |
 | --- | --- | --- | --- |
-| Domain workshop changes the split | `A.1.1`, `F.9`, `C.26.1` | The workshop is both evidence and intervention; question order or facilitation frame changes split recommendation, team alignment, and local meaning. | Do not replace DDD with QL; keep bounded-context law and bridge fields active. |
-| Same label across bounded contexts | `F.9`, `A.6.P` | API extraction or team alignment changes operational state, or export loses the relation that matters. | Same label is not same entity; ordinary bridge may be enough. |
+| Domain workshop changes the split | Direct boundary/work owners, then `F.9` for exact cross-local-sense interpretation and `C.26.1` only for a surviving probe obstruction | The workshop is both evidence and intervention; question order or facilitation frame changes the recommendation, team alignment, or exact local sense. | Do not replace DDD or direct relation law with QL; keep exact claim scope, reference scheme, local-sense endpoint, and bridge/export loss visible. |
+| Same label in different semantic localities | `F.9`, designation, and direct scope/model-use owners | An admitted probe or export changes operational state, or the carried expression loses load-bearing local sense. | Same spelling is not same sense and does not establish a Bridge, grounding relation, joint algebra, or subject crossing. |
 | Organization acts from a latent decision | `A.15`, `A.10`, `B.3`, `C.26.2` | Coordinated role-work, records, commitments, traces, and routines evidence a low-recoverability state no participant faithfully reports. | Do not infer a group mind or timeless culture. |
 | Survey, dashboard, policy, or API read of culture | `C.16`, `A.10`, `F.9`, `C.26.1`, `C.26.2` | The probe may change the state it evidences, and the export may lose load-bearing structure. | Treat the output as carrier/probe, not as the state itself. |
-| Service boundary under load | `C.25`, `A.6`, `A.15`, `C.26.3` | Viability depends on changing caching, throttling, routing, staffing, protocol, bridge, or context split. | Do not reduce viability to one green metric. |
+| Service boundary under load | `C.25`, `A.6`, `A.15`, `C.26.3` | Viability depends on changing caching, throttling, routing, staffing, protocol, Bridge, or selected model-use boundary. | Do not reduce viability to one green metric. |
 | Moving body or sensor to see the missing face | active or embodied inference accounts, `C.26:4.5` state-representation coarsening card | The system spends energy, time, risk, attention, or coordination to obtain a discriminating observation. | Do not call ordinary sensing or active inference quantum-like without a QL cue. |
 | Glass memory / hysteresis | `C.26.1`, `C.26.3`, `U.Dynamics` | Prior state constrains current response; state history or retained trace changes admissible reading. | Do not force dynamics variables unless load-bearing. |
 | Cell-like service or access analogy | `A.6.P:4.11a`, then only the exact boundary, interaction, Work, viability, repair, or other direct owner needed by the claim | Cell-like criteria may suggest questions about boundary, controlled exchange, protected invariants, repair, state-continuity, or a resource analogue; they do not make those claims obtain together. | Retain the analogy only when one recovered direct claim changes the decision and an ordinary owner does not already carry the residual QL issue. |

@@ -6,12 +6,12 @@ section_id: "F.17:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_problem.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2.1 — Problem"
-line_start: 94561
-line_end: 94564
+line_start: 95260
+line_end: 95263
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -30,7 +30,9 @@ dependencies:
   - "E.10.D2"
   - "E.10.MOVE"
   - "E.11"
-  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
+  - "E.24.UK"
   - "F.10"
   - "F.14"
   - "F.15"
@@ -45,11 +47,10 @@ dependencies:
   - "F.8"
   - "F.9"
   - "G.11"
-  - "U.BoundedContext"
 keywords:
 ---
 
 ### F.17:2.1 - Problem
 
-A public term row can make a local word look reusable while hiding the governed object, effective scheme, exact local-sense claim, obtaining Bridge, separate claim about the row's use, reliance basis, direct pattern, currentness condition, or blocked overread. The problem is to publish a compact term decision that travels across examples, training material, interfaces, and projects without turning the sheet itself into an ontology, evidence source, permission, or proof that the named use occurred.
+The practical problem is to make one durable naming decision recoverable without turning its row, representation, or availability into the named object. One row therefore carries one decision or splits; every stronger claim leaves the row and returns to the direct pattern.
 

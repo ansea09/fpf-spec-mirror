@@ -6,82 +6,67 @@ section_id: "E.17:6"
 section_title: "Rules and Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__007_rules-and-invariants-normative.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:6 — Rules and Invariants (normative)"
-line_start: 80098
-line_end: 80145
+line_start: 80564
+line_end: 80595
 dependencies:
   - "A.15.4"
+  - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "C.2.1"
   - "C.2.P"
+  - "C.29"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
   - "E.17.AUD"
   - "E.17.EFP"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "E.8"
   - "F.9"
   - "F.9.1"
-  - "U.EffectFreeEpistemicMorphing"
-  - "U.EpistemicViewing"
-  - "U.MultiViewDescribing"
+  - "U.View"
 keywords:
 ---
 
 ### E.17:6 - Rules and Invariants (normative)
 
-**Publication-composition local test bundle.** A face that claims compositional publication passes only when five local tests are visible:
+**Publication-composition local test bundle.** A face that claims compositional publication passes five local tests:
 
-1. `identity`: `Emit_s(id_X)` is the identity view for `ViewObj_s(X)`.
-2. `composition witness`: the published face for `g∘f` matches the composition of the published faces for `f` and `g`, or the face is marked non-compositional or explanatory-only.
-3. `no-new-claim diff`: red-line against the governing Description episteme, including any Description episteme admitted for specification use, shows formatting, indexing, pinning, or view-refinement work only.
-4. `monotone promotion`: promotion from a plainer face to a richer face adds fields, pins, or typing without retracting or strengthening the source claim.
-5. `scope non-widening`: `PublicationScope` stays within the relevant `ClaimScope` or `WorkScope`, and promotion does not widen it.
+1. `identity`: `Emit_s(id_X)` is the identity face morphism for `FaceObj_s(X)`;
+2. `composition witness`: the face for `g o f` matches the composition of the faces for f and g, or is marked non-compositional or explanatory-only;
+3. `no-new-claim diff`: comparison with the selected source episteme shows only formatting, indexing, pinning, or conservative construction;
+4. `monotone promotion`: a richer face adds fields, pins, or typing without retracting or strengthening the source claim;
+5. `scope non-widening`: `U.PublicationScope` stays within the exact claim or work scope used by the selected description.
 
-For any composable arrows `X —f→ Y —g→ Z` in `U`, and any `s, t ∈ Σ_viewpoints`:
+For composable arrows `X -f-> Y -g-> Z` and exact `s,t` in `F_face`:
 
-1. **Functoriality & typing (per‑viewpoint).**
-    * (a) **Identity:** `Emit_s(id_X) = id_{ViewObj_s(X)}`.
-    * (b) **Composition:** `Emit_s(g∘f) = Emit_s(g) ∘ Emit_s(f)`. A face that claims compositional status carries a local witness: compare the published face for `g∘f` with the composition of the published faces for `f` and `g`. If the witness is absent or fails, mark that face non-compositional or explanatory-only and do not use it to satisfy the composition rule.
+1. **Functoriality and typing per face.**
+   * `Emit_s(id_X) = id_{FaceObj_s(X)}`.
+   * `Emit_s(g o f) = Emit_s(g) o Emit_s(f)` only when the face carries the local witness.
+   * If `f : X -> Y`, then `Emit_s(f) : FaceObj_s(X) -> FaceObj_s(Y)` is total in the selected formal substrate. An ill-typed composite blocks that formal claim; it is not repaired by weakening conformance.
+2. **Face-promotion coherence.**
+   * If `s <= t`, the t-face is a more explicit publication form for the same selected source claims.
+   * `PromoteFace[s->t]_X : FaceObj_s(X) -> FaceObj_t(X)` is natural in X.
+   * Identity and composition of `PromoteFace` follow the selected formal substrate. `AssuranceLane` is outside the default formality chain.
+3. **Source episteme and construction.**
+   * Every `Emit_s` use names the exact source episteme edition and exact publication viewpoint reference.
+   * When another episteme is actually constructed from the source, A.6.3 may govern that source-to-receiving relation. The face constructor is not a species of `U.EpistemicViewing`, and A.6.3 does not establish `U.View` membership.
+   * Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme under C.2.1. Changed form, carrier, or publication occurrence does not by itself.
+4. **Pin discipline.** Numeric or comparable claims used from a face retain exact unit, scale, reference-plane, and edition pins under their direct characteristic and measurement patterns.
+5. **Publication is not work.** Build, rendering, upload, or delivery is exact `U.Work` performed by a system under exact role and method relations. A face, emitter symbol, view episteme, or publication occurrence does not act.
+6. **Publication and carrier separation.** E.24.PUB identifies the selected episteme edition, publication occurrence, form, and presentation carrier separately. Provenance and assurance relations remain under A.10, G.6, and B.3.
+7. **Cross-context and reference-plane use.** When a face makes a current bridge or translation claim, recover the exact contexts, senses, bridge, and governing relation. Visual juxtaposition and scheme difference alone establish none of them.
+8. **PublicationScope discipline.** For a face use v selecting episteme E, `PublicationScope(v)` does not exceed the claim scope on which that publication relies. A capability description may also cite a work scope, but the publication scope does not grant work admissibility. `PromoteFace` does not widen either scope.
 
-    * (c) **Typing (totality):** if `f : X -> Y` then `Emit_s(f) : ViewObj_s(X) -> ViewObj_s(Y)` is **total**; ill-typed composites are repaired via `ViewObj_s`, not by weakening invariants.
-    * *Intuition:* every viewpoint acts functorially on arrows; publication does not break arrow algebra.
-2. **Reindexing coherence (monotone refinement + naturality).**
-    * (a) If `s ⪯ t` then the `t`‑view **refines** the `s`‑view for the same morphism (**no content extension**; increased formality and typing only).
-    * (b) For each `s ⪯ t` there are **object‑components** `PromoteView[s→t]_X : ViewObj_s(X) → ViewObj_t(X)` natural in `X`, i.e., for every `f : X → Y`
-      `PromoteView[s→t]_Y ∘ Emit_s(f) = Emit_t(f) ∘ PromoteView[s→t]_X`.
-    * (c) **Coherence:** `PromoteView[s→s]_X = id_{ViewObj_s(X)}`, and if `s ⪯ t ⪯ u` then `PromoteView[s→u]_X = PromoteView[t→u]_X ∘ PromoteView[s→t]_X` for all `X`.
-    * *Defaults:* `PlainView ⪯ TechCard ⪯ InteropCard`.
-    * *Note:* `AssuranceLane` is independent of the formality chain; it binds **evidence-about-claims** and does not introduce new claims **of** the morphism.
-3. **Description-source and specification-use sourcing and EpistemicViewing compatibility (A.7 and E.10.D2, A.6.2–A.6.3, E.17.0).**
-    * (a) Inputs to `Emit_s(-)` are **existing Description epistemes** about the same arrow (for example, `MethodDescription`, `MethodSpec` when specification use has been granted by neighboring pattern governing the claiming gates). MVPK does **not** redefine, collapse, or create EntityOfConcern-to-Description or specification-use mechanisms.
-    * (b) Each `Emit_s(-)` is realised as a species of `U.EpistemicViewing` (A.6.3) over those Description epistemes: entityOfConcern-preserving, effect-free, and conservative in the sense of A.6.2 and A.6.3. Publication adds no new commitments beyond what is present in the referenced Description episteme.
-    * (c) Edition governance respects `U.EditionSeries` and UTS; rows remain the row identity handles for names; MVPK faces are re-emitted when the underlying Description episteme or specification-use editions change.
-4. **Pin discipline (Part F and Part G).**
-     * Any numeric or comparable content in a view pins {UnitType, ScaleKind, ReferencePlane}. **EditionId can be coarse at Lean profiles**; if units and scale are unknown, the face declares ordinal compare-only and keeps arithmetic outside the face until CHR pins are available. Pins upgrade monotonically with profile and risk.
-5. **No Γ‑leakage (publication independence).**
-    Publication morphisms carry **no** Γ\_method, Γ\_time, or Γ_work semantics. Any build, render, or upload activity is **separate `U.Work` by a system or acting holon under current `U.RoleAssignment` over carrier infrastructure or rendering infrastructure** (`A.7`, `A.15`, `A.10`).
-     **Lean `AssuranceLane` face:** `AssuranceLane-Lite` exposes only presence bits for {PathId or PathSlice?, Γ_time window?, BridgeId?}; unknowns propagate (tri-state) with an explicit {degrade|abstain|sandbox} policy note.
-6. **Carrier provenance.**
-    Every emitted view records carrier references and any A.10 or G.6 source-currentness or provenance record ids on first occurrence when reliance, evidence, or replay is current.
-7. **Isomorphism preservation.**
-    * If `f` is an isomorphism in `U`, then `Emit_s(f)` is an isomorphism in `View_s(U)`; inverses map accordingly.
-8. **Cross‑Context and ReferencePlane bridging.**
-    * If a view crosses contexts or reference planes, it cites the **Bridge + CL policy ids** (A.7 §5.8, bridge crossing). Such crossings are explicit on `TechCard` and `AssuranceLane`.
-9. **Totality of publication morphisms.**
-    * Publication maps are total on their domains; when a composition in a view would be ill-typed, repair the view-object mapping (via `ViewObj_s`) rather than weakening functoriality or reindexing rules.
-10. **PublicationScope discipline (subset & composition).**
-    * (a) **Subset rule:** If a view `v` is about episteme `E` then `PublicationScope(v) ⊆ ClaimScope(E)`; if about capability `C` then `PublicationScope(v) ⊆ WorkScope(C)` only as the publication scope of a capability description, not as work admissibility, gate passage, release permission, or evidence that `U.Work` occurred.
-    * (b) **No widening by refinement:** If `s ⪯ t`, then promotion `PromoteView[s→t]` does not widen `PublicationScope`.
-    * (c) **Compositional bound:** For composable arrows `X —f→ Y —g→ Z`,
-      `PublicationScope(Emit_s(g∘f)) ⊆ PublicationScope(Emit_s(g)) ∩ PublicationScope(Emit_s(f))`.
+The equations are conceptual-form constraints on the optional morphism-publication profile. They do not turn face symbols, formulas, or diagrams into world-side relations, viewpoints, views, publication occurrences, or work.
 

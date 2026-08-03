@@ -6,20 +6,22 @@ section_id: "A.2:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__008_bias-annotation.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.2 — Role Taxonomy"
   - "A.2:6 — Bias Annotation"
-line_start: 2903
-line_end: 2912
+line_start: 2880
+line_end: 2890
 dependencies:
   - "A.1"
   - "A.1.1"
   - "A.13"
   - "A.15"
   - "A.2.1-A.2.6"
+  - "A.6.0"
   - "A.6.5"
-  - "A.6.RSIR"
+  - "A.6.REL"
+  - "C.2.1"
   - "E.24"
 keywords:
   - "U.RoleAssignment"
@@ -33,11 +35,12 @@ keywords:
 
 ### A.2:6 - Bias Annotation
 
-| Bias risk | Failure | Mitigation |
+| Bias risk | Failure | Repair |
 | --- | --- | --- |
-| Semio-bias | The pattern starts talking mainly about descriptions of roles, cards, records, and publications. | Keep `U.Role` as the EntityOfConcern. Descriptions and publications are neighboring epistemes. |
-| Episteme-as-agent drift | A document, proof, standard, dataset, or model card is treated as if it acted. | Use evidence-use, source-use, status-use, publication-use, requirement-use, definition-use, explanation-use, or assurance-use relations. |
-| Slot-role drift | Role is used as a generic slot position. | Use `A.6.5` for SlotKind and relation positions; keep `U.Role` for enactment-facing role values. |
-| Capability-role drift | A role name is treated as ability. | Use `A.2.2` for capability; role assignment may cite capability-fit conditions but does not create ability. |
-| Method-role drift | A role name is treated as the method itself. | Use `A.15`, `A.3.1`, and `A.3.2` for method and method-description claims. |
+| Semio-bias | A role description or taxonomy publication is treated as the role value. | Keep the episteme and its publication relations separate from `U.Role`. |
+| Global-label bias | Matching role labels are taken as matching meanings or sufficient permission for cross-scheme use. | Compare the role-taxonomy claims and exact sense cells. For a proposed cross-scheme use, require an obtaining F.9 Bridge, a separate C.2.1 bounded-use assertion, and current A.10 or B.3 reliance; infer neither role identity nor authorization. |
+| Episteme-as-agent drift | A standard, report, dataset, or model is said to perform work. | Name the holder system and work occurrence; keep the episteme in its direct evidence, reliance, external-rule, or publication relation. |
+| Slot-role drift | A value filling a relation participant slot is treated as a system-held role because the external notation labels that participant `role`. | Declare the exact SlotKind and ValueKind under `A.6.5`; use `U.Role` only for an actual enactment-facing role value. |
+| Capability-role drift | Assignment is treated as proof of ability. | Use `A.2.2` and a separately stated capability-fit condition. |
+| Method-role drift | A role value is treated as the method of work. | Keep method, method description, admission condition, and work occurrence under `A.3` and `A.15`. |
 

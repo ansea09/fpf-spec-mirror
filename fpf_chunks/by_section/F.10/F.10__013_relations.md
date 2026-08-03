@@ -6,19 +6,28 @@ section_id: "F.10:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:12 — Relations"
-line_start: 92489
-line_end: 92504
+line_start: 93195
+line_end: 93202
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.4"
+  - "A.6.1"
   - "B.3"
-  - "F.1"
+  - "C.2.1"
+  - "C.28"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
+  - "F.17"
   - "F.18"
-  - "F.3"
   - "F.9"
+  - "G.11"
+  - "G.6"
 keywords:
   - "applicability windows"
   - "evidence"
@@ -30,17 +39,9 @@ keywords:
 
 ### F.10:12 - Relations
 
-**Builds on:** `A.2.4` for evidence-use and status-use relation slots; `F.1` through `F.3` for context, seed, and local-sense discipline; `F.9` for bridges across contexts; `F.18` for local-first naming discipline.
+**Builds on:** `F.17` for exact SchemeSenseCells and local-sense rows; `F.18` for designation NameCards; `F.9` for actual cross-local Bridge occurrences; `A.2.4` for first status-use positions; `C.2.1` for target-result and status-assertion epistemes; `A.15.1`/`A.6.1` for evaluation work and applications; and the exact direct owner of every target/result used.
 
-**Coordinates with:**
+**Coordinates with:** `A.10`/`G.6` for provenance and bounded reliance; `G.11` for currentness; `B.3` for assurance-result claims; `C.28` for causal use; `E.17`/`E.24.PUB` and C.29 for publication/representation; and the direct standard, requirement, acceptance, gate, permission, commitment, release, and decision patterns for their own results and uses.
 
-* `A.10` when a status claim depends on evidence provenance, evidence source, source-currentness, or evidence-producing work.
-* `B.3` when a status is consumed as assurance input.
-* `C.2.1` when the identity of the episteme, claim graph, reference scheme, or grounding holon matters.
-* `C.28` when the status is causal, counterfactual, intervention-facing, or simulation-output-facing.
-* `E.17`, `E.17.0`, `E.17.2`, `E.17.EFP`, and `E.10.D2` when a publication face, view, explanation, source, description, or specification-use question is current.
-* `A.2`, `A.2.1`, and `A.15` when a system or acting holon holds a work-facing role or performs work.
-* Gate, release, standard-use, requirement-use, decision, and source-currentness patterns when status is consumed for those stronger uses.
-
-* **Precision-restoration owners:** When source wording says "status role", "approved role", "standard role", "validated means compliant", "green means ready", or another status-shaped phrase hides target kind, status family, window, bridge, source, or direct-pattern use, use `A.6.RSIR` for relation-slot or role-like slot recovery and `E.10.ARCH` for ontology-first repair architecture.
+**Precision-restoration exit.** When wording such as *status role*, *approved role*, *validated means compliant*, *green means ready*, or a family arrow hides target, result, value, scheme, window, source, interpretation rule, or actual use, recover those exact objects here and return every neighboring claim to its direct owner. Do not repair the phrase by minting a generic status/evidence/result relation.
 

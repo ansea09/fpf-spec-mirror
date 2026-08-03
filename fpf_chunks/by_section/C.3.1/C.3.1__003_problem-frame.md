@@ -6,12 +6,12 @@ section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:1 — Problem Frame"
-line_start: 44624
-line_end: 44627
+line_start: 44777
+line_end: 44780
 dependencies:
   - "A.1"
   - "A.11"
@@ -40,5 +40,5 @@ keywords:
 
 ### C.3.1:1 - Problem Frame
 
-FPF needs kind compatibility without making every project category part of its durable ontology. `U.Kind` therefore supplies a local typed-reasoning value under an effective reference scheme, and `U.SubkindOf` orders those values. A `KindSignature` edition can declare how one kind is evaluated, but the declaration episteme is not the kind. Candidate state, a context slice, a declaration edition, and the kind's own continuity can change independently.
+FPF needs kind compatibility without making every project category part of its durable ontology. `U.Kind` therefore supplies a typed-reasoning value identified within one bounded context by a local identity basis, and `U.SubkindOf` orders those values. The effective reference scheme is claim content of the aligned `KindSignature` editions and qualifies interpretation of the order; it is not stored on either kind. A `KindSignature` edition can declare how one kind is evaluated, but the declaration episteme is not the kind. Candidate state, a context slice, a declaration edition, and the kind's own continuity can change independently.
 

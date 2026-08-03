@@ -6,23 +6,21 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist-normative.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:7 — Conformance Checklist (normative)"
-line_start: 75722
-line_end: 75731
+line_start: 76168
+line_end: 76177
 dependencies:
+  - "A.2.1"
   - "A.4"
   - "A.7"
-  - "E.10.U1"
-  - "E.10.U2"
-  - "E.10.U4"
-  - "E.10.U7"
-  - "E.10.U9"
   - "F.1"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.6"
   - "F.7"
   - "F.9"
 keywords:
@@ -40,6 +38,6 @@ keywords:
 * **CC‑LCTX‑3.** Pattern headers use **Problem Frame**; none use “Context” for narrative.
 * **CC‑LCTX‑4.** References to meaning are in one of the **reference forms** (Sec. 5).
 * **CC‑LCTX‑5.** No file defines “domain context”; Domain appears only as an **informative family**.
-* **CC‑LCTX‑6.** No is‑a edges between contexts; any cross‑context relation is located in **E.10.U9**.
+* **CC‑LCTX‑6.** No is‑a edges between contexts; any cross‑context relation is located in **F.9**.
 * **CC‑LCTX‑7.** Language/edition handling matches **D‑CTX‑7** (separate Contexts when semantics can diverge).
 

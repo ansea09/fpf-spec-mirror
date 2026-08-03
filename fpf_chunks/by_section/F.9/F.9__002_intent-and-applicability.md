@@ -6,12 +6,12 @@ section_id: "F.9:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__002_intent-and-applicability.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:1 — Intent and applicability"
-line_start: 91513
-line_end: 91534
+line_start: 92137
+line_end: 92158
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -20,12 +20,14 @@ dependencies:
   - "A.6.3.CSC"
   - "A.6.5"
   - "A.6.9"
+  - "A.6.REL"
   - "B.3"
   - "C.2.1"
   - "C.26.1"
   - "C.26.2"
   - "C.29"
   - "E.17.ID.CR"
+  - "E.24.PUB"
   - "F.0.1"
   - "F.10"
   - "F.17"
@@ -52,7 +54,7 @@ keywords:
 
 ### F.9:1 - Intent and applicability
 
-**Intent.** Govern one actual semantic `Bridge` relation between two exact F.17 `SchemeSenseCell` values from different semantic contexts. Keep that relation separate from a claim that it suits a proposed use, the evidence or assurance on which a reader relies, an optional Bridge Card, and any object created when the proposed use is actually performed.
+**Intent.** Govern one actual semantic `Bridge` relation between two exact F.17 `SchemeSenseCell` values from different semantic contexts. Keep that occurrence separate from every assertion, Bridge description episteme, Bridge Card, registry record, publication occurrence, publication form, presentation carrier, bounded-use claim, evidence or assurance relation, and object created when a proposed use is actually performed.
 
 **Applicability.** Use this pattern when an author needs to compare local senses across contexts, reuse a familiar label, connect design-time and run-time senses, compare two standards' terms, or justify a cross-context row. A shared word or available mapping is only a reason to ask whether a Bridge obtains.
 

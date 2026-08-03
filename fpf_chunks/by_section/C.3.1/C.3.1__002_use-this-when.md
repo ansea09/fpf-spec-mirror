@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:0 — Use This When"
-line_start: 44610
-line_end: 44623
+line_start: 44763
+line_end: 44776
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,9 +46,9 @@ Use this pattern when one typed-reasoning use needs a context-local kind, a subk
 
 **What this buys.** The user gets a small local partial order, a judgment-level monotonicity law, and an explicit kind-continuity decision while durable U-kind admission, classification, declaration identity, and cross-context bridging stay with their own governors.
 
-**Primary EntityOfConcern.** One context-local `U.Kind` identity and any `U.SubkindOf` order used under an effective `U.ReferenceScheme`.
+**Primary EntityOfConcern.** One context-local `U.Kind` identity, its bounded context and local identity basis, and any `U.SubkindOf` order interpreted through the exact `U.ReferenceScheme` named by the aligned declaration editions.
 
-**First useful move.** Write the ordinary order claim first: `CoolingPumpKind is a subkind of PumpKind in this plant reference scheme.` Then identify the declaration editions used to evaluate candidates and test whether the order is monotone for the same candidate and slice.
+**First useful move.** Write the ordinary order claim first: `CoolingPumpKind is a subkind of PumpKind in the Plant-7 bounded context, interpreted through PlantScheme-7.` Then identify the declaration editions used to evaluate candidates and test whether the order is monotone for the same candidate and slice.
 
 **Not this pattern when.** Use C.3.2 for the declaration, one candidate classification, or an extension representation; C.3.3 for use across contexts; and `E.24.UK` when a local kind is proposed as a durable public FPF U-kind.
 

@@ -6,12 +6,12 @@ section_id: "F.14:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__002_intent-and-applicability.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.14 — Anti-Explosion Control for Role and Status Name Families"
   - "F.14:1 — Intent and applicability"
-line_start: 93465
-line_end: 93490
+line_start: 94163
+line_end: 94182
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -25,7 +25,7 @@ dependencies:
   - "A.6.5"
   - "B.3"
   - "E.10.D2"
-  - "E.17"
+  - "E.24.PUB"
   - "F.10"
   - "F.17"
   - "F.18"
@@ -45,27 +45,21 @@ keywords:
 
 ### F.14:1 - Intent and applicability
 
-**Intent.** Keep role-like and status-like vocabularies small without losing real distinctions. F.14 is a control pass over candidate names and local name families. It does not define `U.Role`, does not define status ontology, and does not assign a holder. It asks what each proposed name is trying to name and blocks new durable names when the needed value is already a role value, role-relation expression, status family, status value, status window, qualifier, direct-pattern value, local phrase, or alias.
+**Use this when.** Use F.14 when proposed names, aliases, cards, local-sense cells, or rows begin to multiply faster than the independently governed distinctions. Apply its cheap stop question before minting any NameCard, `SchemeSenseCell`, Unified Term Sheet row, or durable name family: **does an existing designation, alias, local expression, or direct-pattern name already let the practitioner perform the proposed use?**
 
-**Applicability.** Use F.14 when a project proposes several new role, status, access, evidence, requirement, source, method, capability, or work-like labels and the vocabulary starts to grow faster than the underlying distinctions. Use it before adding RoleDescriptions, Concept-Set rows, public names, cross-context rows, or role-relation names.
+**First useful move.** For every candidate expression, name the one independently recovered governed value or relation, its exact kind, its direct pattern, the proposed use, and the effective naming `U.ReferenceScheme`. If no such value or relation is independently recoverable, keep the expression local or return it to the direct subject/value-recovery owner; do not send a value-less expression to F.8 or manufacture an object so that the name has something to denote. F.8 receives only an unresolved naming disposition for an already recovered value-or-relation/use pair, with its exact kind, direct pattern, and proposed use.
 
-**Primary EntityOfConcern in plain terms.** One anti-explosion control pass over a candidate family of names in a bounded context or bridge family. The EoC is not the role value, not the status value, not the holder, not the work occurrence, and not a publication.
+**Intent.** Keep role-like and status-like vocabularies small without losing real distinctions. F.14 is a control pass over candidate expressions and name families. It defines no role, status, assignment, sense, card, row, Bridge, or publication. It decides only whether naming pressure can stop at a smaller disposition.
 
-**Admissible move in plain terms.** Recover the kind of each candidate name, choose reuse or direct-pattern naming where possible, and record why no new durable role or status name is needed unless F.8 and F.18 admit it.
+**Primary working object.** One candidate family and one proposed use, with its recovered values and direct patterns. A durable control record is optional; no generic context object, selected structure, card, or table row identifies the pass.
 
-**Primary working reader.** A method author, terminology steward, architect, manager, or checker who sees names such as `NightOperatorRole`, `EvidenceRole`, `SeniorReviewer`, `AtRiskStatus`, `PreValidated`, `AccessRole`, or `RequestApproverRole` and must stop the vocabulary from becoming a second ontology.
+**Primary working reader.** A method author, terminology steward, architect, manager, or checker who sees names such as `NightOperatorRole`, `EvidenceRole`, `SeniorReviewer`, `AtRiskStatus`, `PreValidated`, `AccessRole`, or `RequestApproverRole` and must stop vocabulary growth from becoming a second ontology.
 
-**Use this when.** Use F.14 when name growth hides one of these questions:
+**What goes wrong if missed.** Role labels become capability models, status labels become role families, access-control labels become work roles, and every local wording difference acquires a card, sense cell, row, or identifier. The corpus then contains many near-duplicate naming objects whose apparent precision hides different kinds and uses.
 
-1. Is this one work-facing `U.Role`, a RoleDescription label, a role-relation expression, a role assignment, a capability requirement, a method name, a work name, or only a local phrase?
-2. Is this one status family, status value, status window, status-use relation, evidence-use relation, source-use relation, requirement-use relation, or presentation label?
-3. Is the candidate cross-context and therefore dependent on F.9 or F.17 before durable reuse?
+**What this buys.** A smaller vocabulary with stronger type separation and a short stopping path: no durable name, an existing designation, an alias, or a local expression whenever one suffices; only then the smallest justified durable naming object.
 
-**What goes wrong if missed.** Role labels become capability models, status labels become role families, access-control labels become work roles, and role-relation expressions become fake holders. The corpus then gets many small near-duplicate names that look precise but hide different kinds.
+**Not this pattern when.** F.8 owns the final naming disposition for one candidate expression only after its governed value or relation, exact kind, direct pattern, and proposed use have been recovered; F.14 supplies the preceding anti-explosion stop rather than a second decision record. Assignment and performed-work claims go to A.2.1, F.6, and A.15.1. Status, evidence, authorization, publication, and subject-relation claims return to their direct patterns. F.17 constitutes a reader-facing row only after kind recovery, F.14, F.8/F.18 where needed, and the public-row threshold; E.24.PUB separately governs availability.
 
-**What this buys.** A smaller vocabulary with stronger type separation: fewer durable names, clearer role relation structure, cleaner status families, fewer aliases with hidden claims, and more reliable F.8 and F.18 naming decisions.
-
-**Not this pattern when.** Not F.14 when the question is one candidate expression only; use F.8. Not F.14 when the question is assigning a holder or attributing performed work; use A.2.1, F.6, and A.15.1. Not F.14 when the question is a status-use or evidence-use claim; use F.10, A.10, B.3, or the direct governing pattern. Not F.14 when the question is public terminology publication; use F.17 and F.18 after kind recovery.
-
-**Recognition versus assurance note.** The recognition block is the name-growth situation plus the first kind-recovery move. The assurance block is the record, invariants, role-relation and status-family boundaries, conformance tests, and SoTA note. Assurance text tightens the same anti-explosion control pass; it must not turn F.14 into role ontology, status ontology, or naming authority for every value.
+**Recognition versus assurance.** Recognition is the visible name-growth pressure plus the first kind-and-use recovery. Assurance is the optional record, invariants, worked countercases, and conformance tests. Neither turns F.14 into naming authority or ontology.
 

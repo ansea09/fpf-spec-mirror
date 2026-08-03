@@ -6,12 +6,12 @@ section_id: "E.9.DA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__012_sota-echoing.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:11 — SoTA-Echoing"
-line_start: 73084
-line_end: 73094
+line_start: 73526
+line_end: 73536
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -33,6 +33,6 @@ keywords:
 | Multi-host FPF changes need selected-locus disposition. | Lightweight ADR practice is useful but too central-record-oriented for multi-pattern FPF changes. | `DRRSelectedLocusDispositionMap` states obligations and non-obligations by locus. |
 | Feedback needs desired condition, current condition, next action, and tactics. | Sadler and Hattie and Timperley feedback traditions, carried through `E.22` and `E.23`. | `ShortRationale`, evidence locus, finding and proposal rows, and checked no-proposal dispositions stay separate. |
 | Source evidence must mutate the decision. | Current FPF `E.8`, `E.19`, `E.21`, and living-source discipline require non-decorative source use. | `SoTAAndEvidenceUseInDecision` checks changed decision payload, not citation presence. |
-| Improvement remains multi-coordinate and trade-off sensitive. | MCDA, Pareto, and QD, OEE, and NQD lines inherited through `E.22` and `E.23`. | The evaluation asks what became worse and keeps repeated improvement outside `E.9.DA`. |
+| Improvement remains multi-coordinate and trade-off sensitive. | MCDA, Pareto, and QD, OEE, and NQD lines inherited through `E.22` and `E.23`. | E.9.DA result rules require the result episteme to state what became worse; repeated improvement work remains outside E.9.DA. |
 | Decision-adequacy measures can become targets. | Goodhart and Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines. | `E.9.DA` forbids all-`5` or `5-defensible` repair targeting; values rise only when decision content becomes stronger for declared authoring use, and `E.13` governs any proxy-to-value claim about those values. |
 

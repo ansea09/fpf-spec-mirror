@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 46071
-line_end: 46525
+line_start: 46228
+line_end: 46682
 dependencies:
   - "A.13"
   - "A.18"
@@ -84,7 +84,7 @@ A conforming `C.11` pass does not stop at naming schools of decision theory. It 
 
 1. **Fix the chooser and the choice-bearing level.**
    State one `DecisionSubject` and one `DecisionSubjectGranularity`.
-   If the real dispute is still about who or what counts as the chooser, coordinate with `A.13 / C.9` instead of hiding that dispute inside one local choice.
+   If the real dispute is still about who or what counts as the chooser, coordinate with `A.13` instead of hiding that dispute inside one local choice; planned `C.9` may later consolidate an agency-characteristic profile but supplies no current governing force.
 
 2. **Freeze the current option set.**
    State the already-available options being compared now as one `OptionSet`.
@@ -350,7 +350,7 @@ Typical practical cash-outs are:
 - `choose now` because delay itself now worsens the state being managed, closes the window in which the preferred option remains feasible, or leaves no lawful time for one more socially mediated check;
 - `reroute` because the question has already become enactment sequencing or agent-characterization work rather than local choice.
 
-`C.11` keeps the choice question visible there, but `A.13` and `C.9` still govern the narrower question of what kind of agent or agential system is in play, and `C.24` still governs later sequencing and enactment once a choice result has already been fixed.
+`C.11` keeps the choice question visible there, but `A.13` still governs the narrower question of what kind of agent or agential system is in play; the A.17/A.18/A.19/C.16/A.10 stack governs measured characteristic and evidence claims, while planned `C.9` may only consolidate that profile later. `C.24` still governs sequencing and enactment once a choice result has already been fixed.
 
 Do not invoke this line only because one agent is acting in the world. Invoke it when embodied coupling, online updating, or explicit social-expectation pressure actually changes what the chooser should do now from the current `OptionSet`.
 

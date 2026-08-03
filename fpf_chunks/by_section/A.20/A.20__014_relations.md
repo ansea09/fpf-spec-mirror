@@ -6,12 +6,12 @@ section_id: "A.20:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__014_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:11 — Relations"
-line_start: 33791
-line_end: 33800
+line_start: 33888
+line_end: 33897
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -38,7 +38,7 @@ keywords:
 
 ### A.20:11 - Relations
 
-* **Governed by `E.18` transformation-flow structure.** Loci are graph-positioned positions for atomic transformations and adjacent governed values; only `U.Transfer` edges; **open-world species over a minimum locus baseline**; CV=>GF activation; MVPK faces; SquareLaw on crossings; CC-TFS-06-EX for `StructuralReinterpretation`.
+* **Governed by `E.18` transformation-flow structure.** Loci are graph-positioned positions for atomic transformations and adjacent governed values; only `U.Transfer` edges; **open-world species over a minimum locus baseline**; CV=>GF activation; MVPK faces; SquareLaw on crossings; CC-E18-06-EX for `StructuralReinterpretation`.
 * **A.21 (GateProfilization).** Sole point for GateFit checks and `GateProfile`-bound folds.
 * **E.18 (flow valuation and PathSlice currentness).** Declares the graph and valuation semantics used by this flow family.
 * **F.9, F.17, E.17, and E.18 (Bridge+UTS loci).** Boundary-publication requirement whenever faces cite editions.

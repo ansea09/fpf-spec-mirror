@@ -6,23 +6,21 @@ section_id: "E.10.D1:12"
 section_title: "Migration Notes (conceptual playbook)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__013_migration-notes-conceptual-playbook.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:12 — Migration Notes (conceptual playbook)"
-line_start: 75795
-line_end: 75804
+line_start: 76241
+line_end: 76250
 dependencies:
+  - "A.2.1"
   - "A.4"
   - "A.7"
-  - "E.10.U1"
-  - "E.10.U2"
-  - "E.10.U4"
-  - "E.10.U7"
-  - "E.10.U9"
   - "F.1"
   - "F.2"
   - "F.3"
+  - "F.4"
+  - "F.6"
   - "F.7"
   - "F.9"
 keywords:
@@ -39,7 +37,7 @@ keywords:
 2. **Delete “anchor”.** Replace with **SenseCell** or **Concept‑Set** references.
 3. **Split domain vs context.** Where “domain context” appears, rewrite as **Domain family** + explicit list of `U.BoundedContext`s.
 4. **Audit references.** Ensure every semantic reference is `ContextId:LocalLabel` or `SenseCell(ContextId, …)` or Concept‑Set column.
-5. **Flatten contexts.** Remove any inheritance among contexts; move relations to **E.10.U9**.
+5. **Flatten contexts.** Remove any inheritance among contexts; move semantic relations to **F.9**.
 6. **Tag time.** Replace “design or runtime context” with **TimeScope tags**.
 7. **Language/edition pass.** Split or merge Contexts per **D‑CTX‑7**; document rationale.
 

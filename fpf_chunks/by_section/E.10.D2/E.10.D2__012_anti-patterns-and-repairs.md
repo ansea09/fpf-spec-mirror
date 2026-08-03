@@ -6,28 +6,33 @@ section_id: "E.10.D2:10"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__012_anti-patterns-and-repairs.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:10 — Anti-patterns and repairs"
-line_start: 76028
-line_end: 76040
+line_start: 76503
+line_end: 76517
 dependencies:
+  - "A.1.1"
+  - "A.10"
+  - "A.2.6"
+  - "A.3.2"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.3"
-  - "D.CTX"
+  - "C.29"
+  - "E.10"
   - "E.10.D1"
-  - "F.10"
-  - "F.12"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "F.15"
   - "F.4"
   - "F.5"
   - "F.8"
   - "F.9"
-  - "F.9.1"
-  - "U.BoundedContext"
-  - "U.EpistemeSlotRelation"
+  - "G.11"
 keywords:
   - "Description episteme"
   - "DescriptionContext"
@@ -39,14 +44,16 @@ keywords:
 
 ### E.10.D2:10 - Anti-patterns and repairs
 
-
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
-| **Entity-description collapse** | "The method is the document"; "the architecture is the diagram"; "the role contains the checklist". | Name the EntityOfConcern, then name the Description episteme or publication relation separately. |
-| **Spec by name** | Any detailed write-up is called `...Spec`. | Use `...Description` unless specification-use admission conditions are present. |
-| **Publication as authority** | A card, dashboard, schema, generated view, or file is treated as permission, evidence, gate, assurance, decision, or work. | Apply the neighboring pattern that governs the exact claim being made; keep the publication relation separate. |
-| **Carrier identity** | The file path or repository entry is treated as the episteme or EntityOfConcern. | Say the `U.PresentationCarrier` or carrier relation bears, encodes, transports, or renders the publication, and keep the episteme and EntityOfConcern separate. |
-| **Context erasure** | A context-local Description episteme is read as a global definition. | Restore `BoundedContextRef` and `ViewpointRef`, or use F.9, A.6.3, or A.6.4 for cross-context relations. |
-| **Status-state leakage** | Evidence, requirement, approval, or standard status becomes a role-state value. | Keep statuses over epistemes distinct from role-state relations and runtime state attestations. |
-| **Episteme-role shortcut** | "The standard plays the compliance role"; "the evidence has the approval role"; "the source authorizes work". | Recover the typed relation: standard-use, evidence-use, status-use, source-use, assurance-use, gate-use, publication-use, or work-relevance relation. Use `U.RoleAssignment` only for work-facing holder-role claims. |
+| **Entity-description collapse** | “The method is the document”; “the architecture is the diagram”; “the role contains the checklist.” | Recover the exact EntityOfConcern and C.2.1 description episteme; route every subject-side claim to its direct owner. |
+| **Filled-card ontology** | A completed tuple, record, table, or schema is treated as what makes the episteme or relation exist. | Recover the governed object and obtaining relation first; treat the record as an episteme, form, carrier, or representation only when its own recognition conditions hold. |
+| **Spec by name** | Any detailed, approved, or formal-looking write-up is called `...Spec`. | Use `...Description` until checkable claims, the describing-use qualification, and an exact harness or validation relation are all recoverable. |
+| **Context as identity** | A project, viewpoint selection, or model-use setting is copied into episteme identity. | Keep the C.2.1 identity triple fixed; state only the exact use qualification or neighboring relation the receiver needs. |
+| **Describing-use erasure** | A description is read as globally viewpoint-free, or a prior use's selected viewpoint is silently reused. | Name the current receiving use and its exact E.17.0 DescriptionContext; changing that selection does not by itself reidentify the episteme. |
+| **View by appearance or construction** | A generated table, diagram, query result, or published face is called a `U.View`. | Apply E.17.0 conformance for view membership; use A.6.3 only for actual source-to-receiving construction and E.24.PUB/C.29 for form or representation uses. |
+| **Publication as authority** | Availability, an approval mark, card, dashboard, or file is treated as permission, evidence, assurance, gate result, decision, or work. | Recover the exact publication occurrence, then apply the direct governor for the stronger claim. |
+| **Carrier identity** | A file path, screen, sheet, or repository entry is treated as the episteme or EntityOfConcern. | Identify the exact carrier and bearing relation while keeping form, publication occurrence, episteme, and EntityOfConcern separate. |
+| **Status-state leakage** | Evidence, requirement, approval, or standard status becomes a role-state or runtime value. | Keep status claims on their exact epistemic or deontic subject; use the direct state or attestation pattern for system-side facts. |
+| **Episteme-role shortcut** | “The standard plays the compliance role”; “the evidence has the approval role”; “the source authorizes work.” | Recover the exact standard-use, evidence-use, source-use, assurance-use, gate-use, or publication-use relation. For a claimed Work use, name the exact premise, governed reference, decision-use relation, or A.6.1 operation-argument binding and its actual participants; if no direct governor supplies the needed predicate and participants, return the exact `missing-governor` result. Reserve `U.RoleAssignment` for work-facing holder-role claims. |
 

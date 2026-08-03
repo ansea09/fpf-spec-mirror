@@ -6,41 +6,40 @@ section_id: "F.15:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__002_intent-and-applicability.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:1 — Intent and applicability"
-line_start: 93786
-line_end: 93813
+line_start: 94476
+line_end: 94503
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -51,29 +50,29 @@ keywords:
 
 ### F.15:1 - Intent and applicability
 
-**Intent.** Give one compact harness for checking whether a unification slice is locally sound now and remains sound across changes. F.15 does not define contexts, senses, rows, roles, status families, bridges, aliases, or names. It checks that the current slice uses those values under their direct patterns without collapsing them into one convenient table or one global meaning.
+**Intent.** Give one compact harness for checking whether a finite naming and unification slice is locally sound now and remains sound across exact changes. F.15 does not define schemes, local senses, cells, values, relation occurrences, descriptions, rows, roles, status families, aliases, names, evidence, or publication. It checks exact already-governed objects under their direct patterns and returns result claims without duplicating F.18 naming settlement.
 
-**Applicability.** Use F.15 when a project declares or revises a slice that contains several of these moving parts: `U.BoundedContext` cards, Local-Senses, SenseCells, Concept-Set rows, RoleDescriptions, Bridge Cards, status families or windows, aliases, or durable names.
+**Applicability.** Use F.15 when one receiving use depends on several already recovered items: effective ReferenceSchemes, F.17 `SchemeSenseCell` values, F.18 NameCards and selected designations, F.17 rows, governed role or status values, actual F.9 Bridge occurrences, or exact prior/later editions. Include a selected bounded-model-use Structure and its description only when that structure's organization changes this check or receiving use.
 
-**Primary EntityOfConcern in plain terms.** One unification slice under static and regression conformance check. The EoC is not a registry, not a work process, not a role assignment, not a status value, and not a publication.
+**Primary EntityOfConcern in plain terms.** One exact finite slice version under a declared set of static or regression rules for one named receiving use. The checked scope is not evidence, a work process, result, registry, Bridge, role assignment, status value, publication, or universal context.
 
-**Admissible move in plain terms.** Check the slice against static conformance rules for the current snapshot and regression conformance rules for the changed snapshot, then treat any failed claim under the direct governing pattern.
+**Admissible move in plain terms.** Resolve the finite member refs and exact versions; apply only the triggered rules; identify the check application or assessment work when it occurs; constitute each result claim separately under C.2.1; cite witnesses and evidence relations separately; and return every failed subject claim to its direct owner.
 
-**Primary working reader.** A terminology steward, method author, architect, manager, or checker who needs to decide whether a proposed unification row, bridge, role-description label, status window, or rename is safe enough to reuse.
+**Primary working reader.** A terminology steward, method author, architect, manager, or checker deciding whether selected current names, rows, senses, relations, and exact changes are safe for one stated reuse.
 
-**Use this when.** Use F.15 when a slice feels "almost unified" but one of these questions is still open:
+**Use this when.** Use F.15 when a slice feels "almost unified" but one or more questions remain:
 
-1. Do all local senses still stay inside their own bounded contexts?
-2. Does each RoleDescription still describe one local `U.Role` through one SenseCell?
-3. Does a row really relate at least two contexts, or is it a row-shaped local note?
-4. Does a Bridge Card state kind, direction, `CL`, loss, and admitted use?
-5. Did an edition change, row change, rename, bridge change, or status-window change preserve the earlier commitments?
+1. Does each local expression resolve under its exact effective ReferenceScheme and local-sense claim?
+2. Does each role description still describe its exact governed `U.Role` without becoming the role, assignment, or NameCard?
+3. Does each F.17 row still pass its own entry and result gate, including the valid one-cell case?
+4. Does every cited F.9 Bridge actually obtain between exact cells, with its description/Card and bounded-use claim kept separate?
+5. Do exact earlier and later values, descriptions, rows, names, relations, and status windows support the stated continuity or change claim for this receiving use?
 
-**What goes wrong if missed.** Local meanings become global by shared labels, rows multiply without real distinctions, role descriptions quietly become status or evidence templates, bridges become equivalence by habit, and changed editions rewrite earlier claims without a visible continuity decision.
+**What goes wrong if missed.** Shared spelling globalizes local senses; a table row or NameCard looks like value identity; a Bridge description replaces relation truth; record membership becomes evidence; a check record appears to perform work or emit its own result; and an edition label silently proves sameness or difference.
 
-**What this buys.** A small safety harness for Part F: context-local meaning remains local, cross-context use stays bridge-bound, role and status claims leave through direct patterns, and changes can be checked without turning the harness into a new governance format.
+**What this buys.** A finite, replayable safety harness: selected names remain tied to exact governed values, cross-local use stays relation- and claim-bound, non-naming claims return to direct owners, and regression closure says exactly which versions, rules, evidence, losses, and receiving use were checked.
 
-**Not this pattern when.** Not F.15 when the only question is one word, one role value, one role assignment, one status family, one bridge, one public term, one source relation, or one publication-use claim. Use the direct pattern first. Return to F.15 only when the slice combines several moving parts and their joint conformance is live.
+**Not this pattern when.** Not F.15 for choosing a name, minting a NameCard, admitting a row, establishing a Bridge, performing a check, publishing a record, or deciding one role/status/evidence claim. Use F.18, F.17, F.9, A.15.1/A.6.1, E.24.PUB, or the exact subject owner. Return only when their already-governed outputs must be checked together.
 
-**Recognition versus assurance note.** The recognition block is the unification slice and the current or changed moving parts. The assurance block is the static and regression rule set, the record, witnesses, and worked cases. Assurance text must not turn F.15 into a registry format, publication authority, role ontology, or status ontology.
+**Recognition versus assurance note.** Recognition identifies the exact finite scope, versions, triggered rules, and receiving use. Assurance, when needed, concerns reliance on separately constituted result claims through exact A.10 or B.3 paths. Neither a filled record nor scope membership supplies assurance.
 

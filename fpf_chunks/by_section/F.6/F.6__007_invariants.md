@@ -6,12 +6,12 @@ section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 90690
-line_end: 90702
+line_start: 91229
+line_end: 91242
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,4 +55,5 @@ keywords:
 8. An episteme does not fill `HolderSystemSlot` merely because it describes, constrains, or supports the work claim.
 9. Cross-scheme role correspondence uses a direct bridge relation and does not change either assignment identity.
 10. Reduced prose remains admissible until a receiving use needs explicit relation-occurrence identity.
+11. For admitted Work `W`, actual `enactsMethod(W, M)` remains a separately obtaining relation to one exact `U.Method`; only the admitted holder system acts, while assignment, role value, capability, method, and method description do not perform the work.
 

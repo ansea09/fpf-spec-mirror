@@ -6,12 +6,12 @@ section_id: "C.33:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__013_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:12 — Relations"
-line_start: 67349
-line_end: 67355
+line_start: 67592
+line_end: 67598
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

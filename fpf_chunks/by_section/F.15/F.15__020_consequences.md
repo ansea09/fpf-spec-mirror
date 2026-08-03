@@ -6,41 +6,40 @@ section_id: "F.15:15.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__020_consequences.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15.1 — Consequences"
-line_start: 94190
-line_end: 94197
+line_start: 94889
+line_end: 94896
 dependencies:
+  - "A.1.1"
   - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.6"
   - "A.2.7"
+  - "A.22"
+  - "A.6.1"
   - "A.6.5"
   - "B.3"
-  - "E.10.D1"
+  - "C.2.1"
   - "E.10.D2"
   - "E.17"
-  - "F.1"
+  - "E.24.PUB"
   - "F.1-F.14"
   - "F.10"
   - "F.13"
   - "F.14"
   - "F.17"
   - "F.18"
-  - "F.2"
-  - "F.3"
   - "F.4"
-  - "F.5"
   - "F.6"
-  - "F.7"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
-  - "U.Role"
+  - "G.11"
 keywords:
   - "SenseCell testing"
   - "acceptance tests"
@@ -51,9 +50,9 @@ keywords:
 
 ### F.15:15.1 - Consequences
 
-**Benefits.** F.15 makes locality, bridge strength, and edition continuity visible before a slice is reused. It lets terminology, role-description, status-window, bridge, and naming patterns remain direct owners of their objects while still giving the combined slice one checkable harness.
+**Benefits.** F.15 makes interpretation locality, exact naming settlement, Bridge truth, check execution, result identity, and edition continuity visible before reuse. Direct patterns remain owners while the finite slice gains one replayable check surface.
 
-**Costs.** A slice that looks unified by label or table shape may fail until witness rows, bridge cards, local contexts, and direct-governing-pattern returns are explicit.
+**Costs.** A slice that looks unified by spelling or table shape may remain open until exact object refs, rule applications, result claims, evidence paths, and prior/later continuity claims are recoverable. The harness limits this cost by triggering only relevant rules and reusing unaffected results after contradiction checks.
 
-**Failure avoided.** F.15 prevents row-shaped local notes, alias-only rewrites, bridge optimism, role/status inflation, and source/evidence/publication claims from becoming hidden global meanings.
+**Failure avoided.** F.15 prevents row/card/record-shaped notes, alias-only rewrites, Bridge optimism, role/status inflation, evidence collapse, and publication or currentness labels from becoming hidden global meanings or conformance authority.
 

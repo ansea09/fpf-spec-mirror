@@ -6,12 +6,12 @@ section_id: "C.3.1:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__014_rationale.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:12 — Rationale"
-line_start: 44737
-line_end: 44740
+line_start: 44891
+line_end: 44894
 dependencies:
   - "A.1"
   - "A.11"

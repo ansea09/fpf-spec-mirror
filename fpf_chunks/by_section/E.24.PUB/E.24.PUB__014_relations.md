@@ -6,21 +6,19 @@ section_id: "E.24.PUB:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__014_relations.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:12 — Relations"
-line_start: 88165
-line_end: 88170
+line_start: 88734
+line_end: 88740
 dependencies:
-  - "A.19"
-  - "A.19.ECS"
-  - "A.22"
+  - "A.6.3"
+  - "A.6.REL"
   - "C.2.1"
-  - "C.30"
+  - "C.29"
   - "C.30.AD"
   - "E.10"
-  - "E.10.ARCH"
   - "E.17"
   - "E.17.0"
   - "E.21"
@@ -30,12 +28,16 @@ dependencies:
   - "E.8"
   - "E.9.DA"
   - "F.19"
+  - "U.EpistemePublication"
+  - "U.View"
+  - "U.Work"
 keywords:
 ---
 
 ### E.24.PUB:12 - Relations
 
-- **Builds on:** `E.24`, `E.24.UK`, `C.2.1`, `E.17`, `E.17.0`, `E.8`, `E.10`, `E.10.ARCH`, and `F.19`.
-- **Coordinates with:** `E.24.CD` for candidate detection, `E.24.UK` for U-kind admission and structural-name U-kind settlement, `A.19` and `A.19.ECS` for characteristic-space descriptions and evaluation construction, `A.22` for structure, `C.30` for architecture, and `C.30.AD` for architecture descriptions.
-- **Used by:** subject patterns that need a thin boundary between the subject ontic, its description, and the publication form without turning the pattern into generic semio instruction.
+- **Builds on:** `A.6.REL` for direct obtaining and occurrence identity, `C.2.1` for the selected edition and declaration epistemes, and `E.24` for ontic-description boundaries.
+- **Coordinates with:** `E.17.0` for `U.View` membership and `E.17` for multi-view publication; `A.6.3` for optional viewing construction; `C.29` for representation and admitted operations; `E.8` for FPF pattern publication form; and the direct carrier-currentness or access pattern when carrier availability is current.
+- **Coordinates with:** `E.24.CD` for candidate detection and `E.24.UK` for public U-kind and dependent-kind settlement. `U.EpistemePublication` is rejected there; this pattern uses Plain `published episteme` for contingent participation.
+- **Used by:** subject patterns only when a named receiving `U.Work` depends on distinguishing the subject, description episteme, selected edition, view, representation, publication form, carrier, audience, bounded use, or publication occurrence.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.9.DA.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
-line_start: 72830
-line_end: 73112
+line_start: 73211
+line_end: 73558
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -30,19 +30,19 @@ Status: Core.
 
 ### E.9.DA:1 - Problem frame
 
-Use `E.9.DA` when one `DRR` must be reliable enough for a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision.
+Use `E.9.DA` when one exact C.2.1 `DRR` episteme must be assessed for decision adequacy under a declared FPF authoring use: pattern drafting, host amendment, selected-locus distribution, accepted-decision carry-through, source-use carry-through, scope-boundary decision, split decision, or architecture-hold decision. E.9.DA supplies the object-specific evaluation characteristic space and result rules; it does not itself perform that assessment.
 
 Not this pattern when the evaluated object is one authored pattern version, one admission or refresh review, one local wording repair, or a measurement-law problem. Use `E.21`, `E.19`, `E.10` and its precision-restoration neighbours, or `C.16`, `A.17`, `A.18`, and `A.19` for those objects.
 
-First useful move: name `DRRVersionRef` by value, declared authoring use, selected-locus disposition map, and qualification window; then evaluate every decision-adequacy coordinate in this pattern. Missing decisions lower coordinates and produce repair, split, or hold status inside the same evaluation.
+First useful move: identify the exact checked `DRR` episteme, declared authoring use, `U.ClaimScope`, selected-locus disposition map, qualification window, and E.9.DA evaluation configuration. When an actual result is required, identify the evaluator system, role assignment, semantic evaluation method, dated assessment work, and A.6.1 application/bindings before constituting coordinate-result claims.
 
 What goes wrong if missed: a formally valid `DRR` may still be too weak for drafting. It may summarize sources instead of deciding, mention neighbours without obligations, hide rejected alternatives, leave trigger words unresolved, or omit the first drafting action.
 
-Primary EntityOfConcern in plain terms: the decision-adequacy claim of one `DRR` version for a declared FPF authoring use.
+Primary EntityOfConcern in plain terms: one exact C.2.1 `DRR` episteme version assessed for one declared FPF authoring use and qualification window. The assessment work, result episteme, witness/evidence set, optional record, status use, assurance, acceptance, and later repair are separate objects.
 
 ### E.9.DA:2 - Problem
 
-`E.9` defines the `DRR` kind and minimum decision-rationale form. It does not by itself say whether one concrete `DRR` is decision-bearing enough for downstream FPF authoring. Without `E.9.DA`, reviewers tend to approve headings, source volume, or clean prose while the pattern author still has to invent missing decisions.
+`E.9` defines `DRRMethod`, the decision-work/selected-answer boundary, and the minimum C.2.1 DRR episteme form. It does not by itself establish whether one exact DRR episteme is decision-bearing enough for a declared downstream use. Without `E.9.DA`, assessors tend to approve headings, source volume, or clean prose while the pattern author still has to invent missing decisions.
 
 Recurring failures:
 
@@ -69,52 +69,103 @@ Recurring failures:
 
 ### E.9.DA:4 - Solution
 
-`E.9.DA` is the `DRR` decision-adequacy specialization of `A.19.ECS`. It evaluates whether one `DRR` version carries enough decision content for the declared authoring use.
+`E.9.DA` declares the reusable DRR decision-adequacy evaluation `CharacteristicSpace`, its object-specific evaluation specification, ordinal scale, result-shape rules, and local admissible-use result values. It is a specialization of `A.19.ECS`; it does not itself inspect a DRR, perform assessment work, assign a value, create evidence use, issue assurance, authorize drafting, or repair the DRR.
 
-There is no partial `E.9.DA` result. Once invoked, the evaluator assigns a value, short rationale, and evidence locus to every coordinate in `E.9.DA:4.4`, and states the evidence basis used for the result. If the `DRR` lacks a field, source row, selected-locus map, architecture decision, comparator, or currentness basis needed by a coordinate, the relevant coordinate receives a low value and the status states the repair, split, or hold.
+For an actual evaluation, keep these objects independently recoverable:
+
+1. one exact C.2.1 `DRR` episteme version as the checked object;
+2. the declared downstream authoring use, `U.ClaimScope`, qualification window, selected-locus disposition map, and checked evidence basis;
+3. the selected `U.CharacteristicSpace`, this E.9.DA evaluation-specification episteme, every coordinate/scale binding, and the local result-form and status-value rules;
+4. one separately identified semantic evaluation `U.Method` used for the assessment;
+5. dated assessment `U.Work`, its evaluator `U.System`, exact obtaining `U.RoleAssignment`, enacted method, and A.6.1 application/bindings;
+6. the per-coordinate result claims and one C.2.1 aggregate decision-adequacy-result episteme when a durable result is needed;
+7. witnesses, source or comparator refs, exact A.10 evidence-use/provenance relations, and any B.3 assurance result;
+8. an optional evaluation-record episteme that packages those refs without performing the assessment or creating its results;
+9. any F.10 status value, status-use/interpretation relation, acceptance, gate, authority, reliance, publication, or currentness claim; and
+10. later E.23 improvement or other DRR repair work and its changed DRR episteme.
+
+There is no partial conforming `E.9.DA` result. Once assessment work applies this evaluation for the declared use, the aggregate result episteme states a value, adjacent-value rationale, and evidence locus for every coordinate in `E.9.DA:4.4`, the checked evidence basis, and the local result status. Missing fields, sources, selected-locus decisions, architecture decisions, comparators, or currentness bases lower the coordinate that needs them and can yield repair, split, or hold; an unfinished table or prose impression remains assessment material rather than a result.
+
+Each coordinate-result claim is a quality ascription about the exact checked DRR episteme. It names that bearer, effective ReferenceScheme, characteristic and scale value, evaluation rule or probe, comparison/calibration frame when used, `U.ClaimScope`, declared use and qualification window, assessment application, and evidence locus. Evaluator system and any viewpoint episteme remain distinct; the result does not acquire a viewpoint or grounding merely from the evaluator, record, or source labels.
 
 #### E.9.DA:4.1 - Local names and kind settlement
 
 | Local name | Kind and function |
 |---|---|
-| `DRRDecisionAdequacyEvaluation` | Authored adequacy-evaluation record for one scoped `DRR` decision-adequacy claim. |
-| `DRRVersionRef` | `DRR` version named by value for the evaluation. |
-| `DRRDeclaredAuthoringUse` | Downstream FPF authoring use the `DRR` is expected to carry. |
+| `DRRDecisionAdequacyEvaluation` | Compatibility compound label for the full evaluation package. Any use resolves to the exact configuration, assessment application/work, result episteme, witnesses/evidence-use relations, and optional record rather than treating this label as one kind or actor. |
+| `DRRDecisionAdequacyCharacteristicSpaceRef` | Reference to the exact A.19 `U.CharacteristicSpace` whose slots are the required E.9.DA coordinates and whose scale bindings use `E.9.DA:4.3`; not an assessment, result, or record. |
+| `DRRDecisionAdequacyEvaluationSpecRef` | Reference to this object-specific A.19.ECS evaluation-specification episteme: applicability, coordinates, scale meanings, evidence/missingness rules, result shape, calibration, status meanings, and reopen conditions. |
+| `DRRVersionRef` | Exact C.2.1 `DRR` episteme version named by value as the checked object. |
+| `DRRDeclaredAuthoringUse` | Downstream FPF authoring use for which that exact DRR episteme is assessed. |
 | `DRRSelectedLocusDispositionMap` | Map from selected loci named by value to selected content responsibilities, explicit non-responsibilities, sibling decisions, or outside-decision dispositions. |
-| `DRRDecisionAdequacyQualificationWindow` | Edition, source set, accepted-decision record, neighbour condition, and currentness window for which the evaluation holds. |
-| `DRRDecisionAdequacyCoordinateSet` | The required coordinates in this pattern. |
-| `DRRDecisionAdequacyEvidenceBasis` | `DRR`, source, accepted-decision, selected-locus, architecture, currentness, and neighbour loci named by value for coordinate values. |
-| `DRRCoordinateValueRationales` | Required result rows: coordinate, value, short rationale, and evidence locus named by value. |
-| `DRRCoordinateLocusRefs` | `DRR` loci used as value evidence. |
+| `DRRDecisionAdequacyQualificationWindow` | Edition, source set, accepted-decision record, neighbour condition, and currentness window for which the result claim holds. |
+| `DRRDecisionAdequacyCoordinateSet` | The required coordinates in this pattern, each bound to the ordinal scale and its local evidence rule. |
+| `DRRDecisionAdequacyEvaluationConfiguration` | Local input tuple binding the exact checked DRR, declared use and scope, characteristic space/specification, semantic evaluation method, selected-locus map, evidence basis, and qualification window. It is neither a new U-kind nor performed work. |
+| `DRRDecisionAdequacyAssessmentWorkRef` | Exact dated A.15.1 `U.Work` that performs the assessment under a role assignment and enacted semantic evaluation method. |
+| `DRRDecisionAdequacyApplicationRef` | Exact A.6.1 application and actual bindings connecting the assessment work, checked DRR, evaluation configuration, and returned coordinate values/result refs. |
+| `DRRDecisionAdequacyEvidenceBasis` | Checked DRR, source, accepted-decision, selected-locus, architecture, currentness, and neighbour loci named by value; not evidence use merely by inclusion. |
+| `DRRCoordinateValueRationales` | Required result claims: coordinate, value, adjacent-value rationale, and evidence locus named by value. |
+| `DRRCoordinateLocusRefs` | Exact DRR loci cited by result claims; citation does not itself establish a value. |
 | `DRRSourceUseDischargeMap` | Source-use relation, source-currentness, selected payload, rejected payload, and selected locus when a source publication, source pack, or source-use record governs a decision. |
 | `DRRPrecisionRestorationProfile` | Compact scalar profile for DRR wording-use precision: word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology. It records overall effect, affected coordinates, selected governing pattern, and no-repair disposition with loci when clean. |
 | `DRRKindRestorationCheck` | Required pre-repair and post-repair object-kind, relation-or-claim-kind, current ontic slot, relation position, use relation, or claim kind, admissible-use, and scope check, or `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition with loci, for any DRR wording, naming, or precision-restoration repair proposal. |
-| `DRROnticCandidateDisposition` | If the `DRR` selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
+| `DRROnticCandidateDisposition` | If the DRR selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
 | `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and governing-pattern map added or changed, blocked overreads, and residue that must move from DRR or README into patterns or unfolding structures. |
-| `DRRDecisionAdequacyStatus` | Admissible-use status for the scoped `DRR` decision-adequacy claim. |
+| `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the declared use/window, all coordinate-result claims, local status value, stop/repair condition, and bounded overread. It is not the work, witness set, record, or authority. |
+| `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
+| `DRRDecisionAdequacyEvidenceUseRefs` | Exact A.10 evidence-use/provenance relations supporting reliance on result claims; they do not create those claims or the checked DRR. |
+| `DRRDecisionAdequacyRecordRef` | Optional C.2.1 record episteme that packages configuration, work/application, result, witness/evidence, non-use, and reopen refs; it performs no assessment and grants no status or authority. |
+| `DRRDecisionAdequacyStatus` | Local admissible-use value asserted by the aggregate result episteme. Any F.10 status use or interpretation by a receiver is a separate relation. |
 
-These names are local evaluation fields. They are not release state, review status, project evidence, gate result, assurance, or pattern-quality values.
+These names are local evaluation positions and refs. They are not release state, review status, project evidence, gate result, assurance, work, publication, or pattern-quality values.
 
-#### E.9.DA:4.2 - Evaluation record
+#### E.9.DA:4.2 - Evaluation application, result, and optional record
 
 ```text
-DRRDecisionAdequacyEvaluation:
-  DRRVersionRef: <DRR version named by value>
-
+DRRDecisionAdequacyEvaluationConfiguration:
+  DRRVersionRef: <exact C.2.1 DRR episteme>
   DRRDeclaredAuthoringUse: <drafting | amendment | distribution | source-use carry-through | accepted-decision carry-through | split or hold decision>
+  ClaimScopeRef: <exact U.ClaimScope>
   DRRSelectedLocusDispositionMap: <locus -> selected responsibility, explicit non-responsibility, sibling decision, or outside-decision disposition>
   DRRDecisionAdequacyQualificationWindow: <source, edition, neighbour, currentness window>
-  DRRDecisionAdequacyEvidenceBasis: <checked DRR, source, accepted-decision, selected-locus, architecture, currentness, and neighbour loci; missing or unchecked loci named when they affect values>
-  DRRDecisionAdequacyCoordinateTable: <all coordinates, values, short rationales, evidence loci>
-  DRRPrecisionRestorationProfile: <word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary, and pattern-application profile; overall effect, affected coordinates, selected governing pattern, and no-repair or repair disposition with loci>
-  DRRKindRestorationCheck: <required for each wording, naming, or precision-restoration repair proposal; pre kind, relation, claim, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope -> post kind, relation, claim, current ontic slot, relation position, use relation, or claim kind, admissible use, and scope; not triggered | ordinary prose | already satisfied | preserved | split | intentionally changed | blocker, with loci>
-  DRROnticCandidateDisposition: <if ontic or pattern-set architecture is at issue: selected, rejected, split, or declined candidate, sufficiency rationale, rejected alternatives, candidate-universe sanity sweep if broad, slot-relation boundary, description-publication boundary, and selected pattern placement>
-  CampaignProblemSolutionUnfoldingCheck: <when triggered: admitted problem-side record refs or cues, accepted starting records, current starting structures, and entry cues -> selected solution architecture -> affected families and loci -> governing-pattern map -> residue that must move to patterns or unfolding structures>
-  DRRDecisionAdequacyStatus: <status>
-  StopOrRepairCondition: <local stop, first repair, split, or architecture hold>
+  DRRDecisionAdequacyCharacteristicSpaceRef: <exact A.19 space>
+  DRRDecisionAdequacyEvaluationSpecRef: <this E.9.DA specification edition>
+  SemanticEvaluationMethodRef: <exact U.Method used by assessment work>
+  DRRDecisionAdequacyEvidenceBasis: <checked loci and explicitly missing or unchecked loci>
+
+DRRDecisionAdequacyAssessmentApplication:
+  AssessmentWorkRef: <dated U.Work>
+  EvaluatorSystemRef:
+  EvaluatorRoleAssignmentRef:
+  EnactedMethodRef: <same SemanticEvaluationMethodRef>
+  A6_1ApplicationAndBindingRefs:
+  EvaluationConfigurationRef:
+  ReturnedCoordinateResultRefs:
+  AggregateResultRef:
+
+DRRDecisionAdequacyResultEpisteme:
+  EntityOfConcern: <same exact DRRVersionRef>
+  EffectiveReferenceScheme:
+  ClaimGraph:
+    DeclaredAuthoringUse:
+    QualificationWindow:
+    CoordinateTable: <all coordinates, values, adjacent-value rationales, evidence loci>
+    PrecisionRestorationProfile:
+    KindRestorationChecks:
+    OnticCandidateDisposition: <when triggered>
+    CampaignProblemSolutionUnfoldingCheck: <when triggered>
+    DRRDecisionAdequacyStatus:
+    FirstDraftingActionOrFirstRepair:
+    MostExpansiveNonAdmissibleOverread:
+    StopOrRepairCondition:
+    ReopenIf:
+  WitnessRefs:
+  EvidenceUseRelationRefs:
 ```
 
-`E.22` may frame whether the evaluation is floor-only, exceptional-improvement, trade-off, open-question, absorption, or proposal-producing. `E.23` governs repeated improvement of the `DRR` after evaluation findings exist.
+An optional `DRRDecisionAdequacyRecordRef` may package refs to this configuration, assessment application/work, result episteme, witnesses, evidence-use relations, publication, and currentness. Filling or publishing that record does not perform the work, assign the coordinate values, make evidence relevant, confer assurance, create an F.10 status use, accept the DRR, or authorize downstream drafting.
+
+`E.22` may frame whether the evaluation is floor-only, exceptional-improvement, trade-off, open-question, absorption, or proposal-producing. It neither performs the assessment nor assigns the result. `E.23` governs later repeated improvement work on the checked DRR after result claims or findings exist; it does not retroactively become the E.9.DA assessment.
 
 #### E.9.DA:4.3 - Ordinal coordinate scale
 
@@ -127,7 +178,7 @@ DRRDecisionAdequacyEvaluation:
 | 4 | `wellExpressedForDeclaredUse` | The coordinate is clearly expressed with direct evidence and boundary protection. |
 | 5 | `exceptionallyExpressedForDeclaredUse` | The coordinate is exceptionally expressed across reinforcing loci and cases without hiding cost or neighbour loss. |
 
-The value is a content evaluation of the `DRR` text and accepted source-use payload, not a reward for review, landing, popularity, citation volume, or absence of visible defects.
+Each ordinal value is a content-evaluation result claim about the exact checked DRR episteme under the declared evaluation configuration. It is not a `U.Measure`, assessment work, witness, record field, F.10 status use, assurance, acceptance, or reward for review, landing, popularity, citation volume, or absence of visible defects.
 
 #### E.9.DA:4.4 - Required decision-adequacy coordinates
 
@@ -140,7 +191,7 @@ The value is a content evaluation of the `DRR` text and accepted source-use payl
 | `SelectedLocusObligationClosure` | Are selected content responsibilities and explicit non-responsibilities assigned to selected loci named by value without unclassified selected loci, hidden ontic-candidate decisions, or precision-restoration profile defects that would become pasteable pattern prose? |
 | `FPFContentArchitectureSelectionAdequacy` | Is the selected FPF content architecture substantively adequate: existing pattern, new pattern, candidate ontic, direct-pattern repair, publication-boundary repair, split, merge, selected content object, branch, and governing pattern for each outside claim, relation, or boundary? |
 | `ArchitectureSourceAndViewLossClosure` | Are affected structures, structure kinds, structural views, view losses, missing-structure return conditions, source-use relations, and splits among architecture decision, architecture description, publication, and ontic description decided when the decision uses them? |
-| `DraftingActionability` | Can a pattern author recover the first substantive drafting content as this pattern's positive subject-kind and action spine, without mining copied boundary doctrine, reference boilerplate, phrase apparatus, or architecture-placement rationale for pattern prose? |
+| `DraftingActionability` | Does the DRR expose the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus claim/relation/boundary or decision, user-facing action, and only the necessary boundary/reference pointers as positive subject kind and action guidance, without making an evaluation row, copied boundary doctrine, reference boilerplate, phrase apparatus, or architecture-placement rationale stand for future pattern method or work? |
 | `LexicalAndNamingClosure` | Are durable names, trigger words, and relation-like heads repaired through `E.10`, `F.18`, `A.6.P`, `C.2.P`, or the pattern that governs the relevant kind, claim, relation, or name? |
 | `SoTAAndEvidenceUseInDecision` | Does each decision-governing source change a decision payload, and are non-SoTA source uses bounded? |
 | `ScopeBoundaryAndNonOverread` | Are outside-decision items, inadmissible overreads, source-use or missing-structure return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? |
@@ -168,37 +219,44 @@ Common calibration points:
 | Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting action without hidden unsettled branches. |
 | Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | Source distinctions are replayable across selected answer, cases, boundaries, and first drafting action. |
 | Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, governing pattern for outside claim, relation, or boundary, and lost-structure or source-use distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
-| Drafting actionability | A skilled author can proceed, but must infer some first move, subject spine, boundary disposition, selected-locus relation, or reference or architecture disposition from scattered material. | The first substantive drafting content is the positive subject-kind and action spine; copied distinctions owned by other patterns are classified as pointers named by value or non-carried fanout; ordinary references stay as references; architecture rationale and phrase apparatus stay out of pattern prose; and pattern application remains explicit. | Drafting can proceed across heterogeneous selected loci without inventing decisions, final prose, local negative catalogs, reference boilerplate, phrase apparatus, or architecture-memo leakage. |
+| Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | Drafting can proceed across heterogeneous selected loci without inventing decisions, final prose, local negative catalogues, reference boilerplate, phrase apparatus, architecture-memo leakage, method, or work. |
 
-#### E.9.DA:4.5 - Status and stop condition
+#### E.9.DA:4.5 - Local result status and stop condition
+
+The following are closed values asserted in the aggregate decision-adequacy-result episteme for its exact checked DRR/use/window. They are not F.10 status uses, review decisions, gates, permissions, assurance levels, or work states. A receiver that relies on or maps one value must state its own exact status-use/interpretation or evidence-use relation.
 
 | Status | Meaning |
 |---|---|
-| `admissibleForDeclaredAuthoringUse` | The `DRR` can be used for the declared drafting, amendment, distribution, source-use, or accepted-decision carry-through. |
+| `admissibleForDeclaredAuthoringUse` | The result claims that the checked DRR can support the declared drafting, amendment, distribution, source-use, or accepted-decision carry-through within the stated window. The value alone neither accepts the DRR nor authorizes that downstream work. |
 | `newFrameRequired` | The DRR appears useful only for a different decision, authoring use, selected-locus set, source-use claim, or qualification window than the declared one. This is not an admissible result for the current request; open a new `E.22` frame or repair the DRR. |
 | `repairBeforeDrafting` | One or more coordinate floors fail for the declared authoring use. |
 | `splitDecisionRequired` | Several coupled questions need separate decision records or explicit convergence. |
 | `holdForArchitectureDecision` | Content object, branch, neighbour boundary, selected locus, structural view relation, missing-structure return condition, source-use relation, or publication split must be decided before adequacy can close. |
 
-`admissibleForDeclaredAuthoringUse` states the first drafting action and the most expansive non-admissible overread. `newFrameRequired` is not a pass for the current declared use. Non-ready statuses state the first repair, split boundary, or architecture question.
+A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action and most expansive non-admissible overread. `newFrameRequired` is not a pass for the current declared use. Non-ready result values state the first repair, split boundary, or architecture question; the result episteme neither performs that repair nor imposes a gate without a separately governed receiving relation.
 
 #### E.9.DA:4.6 - Compact result form
 
 ```text
-E.9.DA result:
-  DRR version: <DRRVersionRef>
+E.9.DA result episteme:
+  ResultRef: <DRRDecisionAdequacyResultRef>
+  EntityOfConcern: <exact DRRVersionRef>
+  EffectiveReferenceScheme:
   Declared authoring use: <DRRDeclaredAuthoringUse>
+  ClaimScopeRef:
   Qualification window: <window>
+  Evaluation configuration: <CharacteristicSpaceRef, EvaluationSpecRef, SemanticEvaluationMethodRef>
+  Assessment work and A.6.1 application refs:
   Evidence basis checked: <DRRDecisionAdequacyEvidenceBasis>
   Precision-restoration profile: <DRRPrecisionRestorationProfile>
-  Status: <DRRDecisionAdequacyStatus>
+  Status: <local DRRDecisionAdequacyStatus value>
   Coordinate table: <Coordinate | Value | ShortRationale | EvidenceLocus for every required coordinate>
+  Witness refs and exact evidence-use relation refs:
   First drafting action or first repair: <...>
   Most expansive non-admissible overread: <...>
   Reopen if: <smallest changed locus or condition>
 ```
-
-The coordinate table may be short. It is still complete. Status is not assigned from a prose summary, two-column table, applied-finding count, review acceptance, or result missing evidence loci needed by its values.
+The coordinate table may be short, but the result episteme is complete only when every coordinate and required identity/configuration field is recoverable. No result is constituted from a prose summary, two-column table, applied-finding count, review acceptance, absent failure rows, or missing evidence loci. A downstream F.10 status use, B.3 assurance, E.19 admission decision, authority, or drafting permission is a separate governed claim.
 
 #### E.9.DA:4.7 - Finding row
 
@@ -213,33 +271,35 @@ E.9.DA finding:
   Closure test: <what changed DRR text would show>
 ```
 
-Vague labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` are not findings until rewritten into this row.
+Vague labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` are not findings until rewritten into this row. A finding row is one actionable evaluation-result claim or a row cited by the aggregate result episteme; writing it neither performs assessment work nor repairs the checked DRR.
 
-When `E.22`, `E.23`, absorption, or exceptional-improvement framing asks for improvement, below-floor coordinates return findings or repair. Above-floor coordinates receive proposal rows only for substantive non-dominated decision-content opportunities inside the declared authoring use: a more decisive selected answer, source payload mutation, selected-locus obligation, architecture split or merge decision, rejected-alternative closure, first drafting action, regression case, or deletion or relocation of apparatus that would otherwise become pattern prose. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further decision-content movement is dominated, unavailable, or outside scope.
+When `E.22`, `E.23`, absorption, or exceptional-improvement framing requests improvement, below-floor coordinate-result claims support finding rows and subsequent repair work; they do not themselves repair the DRR. Above-floor coordinates receive proposal rows only for substantive non-dominated decision-content opportunities inside the declared authoring use: a more decisive selected answer, source payload mutation, selected-locus obligation, architecture split or merge decision, rejected-alternative closure, first drafting action, regression case, or deletion or relocation of apparatus that would otherwise become pattern prose. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further decision-content movement is dominated, unavailable, or outside scope.
 
 ### E.9.DA:5 - Worked slices
 
-**Weak precision-restoration DRR.** A `DRR` says `E.10`, `A.6.P`, and `C.2.P` are relevant, but does not decide whether a new branch exists, what name it has, which repeated prose moves, or which regression cases test the split. `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability` fall.
+**Weak precision-restoration DRR.** A checked DRR episteme says `E.10`, `A.6.P`, and `C.2.P` are relevant, but does not decide whether a new branch exists, what name it has, which repeated prose moves, or which regression cases test the split. Its aggregate assessment result assigns lower values to `SelectedAnswerDecisiveness`, `SelectedLocusObligationClosure`, `FPFContentArchitectureSelectionAdequacy`, and `DraftingActionability`.
 
-**Adequate multi-locus DRR.** The `DRR` selects a new precision-restoration pattern, assigns selected content responsibilities to selected loci, states rejected alternatives, gives first drafting actions, and carries source-use payload into examples and conformance. It can be admissible for host drafting without containing final pattern prose.
+**Adequate multi-locus DRR.** The checked DRR episteme records a selected precision-restoration pattern, responsibilities for selected loci, rejected alternatives, first drafting actions, and source-use payload carried into examples and conformance. Dated assessment work enacts the selected semantic evaluation method; the A.6.1 application returns value bindings, and the separate aggregate result episteme can state `admissibleForDeclaredAuthoringUse` without the DRR containing final pattern prose. A separately governed receiving decision determines whether drafting proceeds.
 
-**Architecture-impact DRR.** A `DRR` uses diagrams, graphs, dashboards, or architecture notes. The evaluation asks whether the `DRR` decided the architecture or structure claim, structural view relation, preserved and lost structure, missing-structure return condition or source-use relation, selected loci, and publication boundary. The description locates material; it is not the FPF decision.
+**Architecture-impact DRR.** A checked DRR episteme cites diagrams, graphs, dashboards, or architecture notes. Assessment work applies the E.9.DA configuration to determine whether its decision claims settle the architecture or structure claim, structural-view relation, preserved and lost structure, missing-structure return condition or source-use relation, selected loci, and publication boundary. A description locates material; it is neither the decision nor the assessment result.
 
 ### E.9.DA:6 - Bias annotation
 
 This pattern biases FPF toward decisions before drafting. The bias is useful because missing decisions become expensive once they fan out into pattern hosts.
 
-The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern quality remains under `E.21`; repeated improvement remains under `E.23`; wording repair remains under `E.10` and precision-restoration neighboring patterns named by value.
+The bias is bounded. Small editorial decisions can use `E.9` directly. Once an E.9.DA assessment application is current, dated assessment work enacts the selected method, A.6.1 bindings return coordinate values, and a separate result episteme states the claims compactly; the pattern and optional record perform none of those acts. Pattern quality remains under `E.21`; repeated improvement remains under `E.23`; wording repair remains under `E.10` and precision-restoration neighboring patterns named by value.
 
 ### E.9.DA:7 - Conformance checklist
 
 | Check | Requirement |
 |---|---|
-| `CC-E9DA-1` | Name `DRRVersionRef`, declared authoring use, selected-locus disposition map, and qualification window. |
-| `CC-E9DA-2` | Evaluate every coordinate in `E.9.DA:4.4` with value, short rationale, and evidence locus, using the required result-row shape. |
+| `CC-E9DA-0` | Keep the exact checked DRR episteme, evaluation characteristic space/specification, semantic evaluation method, dated assessment work and A.6.1 application, coordinate/result episteme, witnesses/evidence use, optional record, local status value, downstream status use/assurance/authority, and later repair independently recoverable. |
+| `CC-E9DA-0a` | Constitute any durable aggregate result under C.2.1 with the exact checked DRR episteme as EntityOfConcern, an effective ReferenceScheme, and a ClaimGraph carrying the declared use/window, complete coordinate claims, local status, stop/repair, bounded overread, and reopen condition. |
+| `CC-E9DA-1` | Name the exact `DRRVersionRef`, declared authoring use, `U.ClaimScope`, selected-locus disposition map, qualification window, characteristic-space/spec refs, and semantic evaluation method in the evaluation configuration. |
+| `CC-E9DA-2` | Identify the dated assessment work, evaluator system and obtaining role assignment, enacted method, and A.6.1 application/bindings; constitute a separate result claim for every coordinate with value, adjacent-value rationale, and evidence locus. |
 | `CC-E9DA-3` | Justify values from `DRR` decision content and accepted source-use payload, not administrative state or reputation. |
-| `CC-E9DA-4` | State `DRRDecisionAdequacyStatus`, first drafting action or first repair, bounded non-use, and reopen condition. |
-| `CC-E9DA-5` | Keep `DRR` adequacy distinct from pattern quality, review pass, release state, evidence, assurance, gate, and project work. |
+| `CC-E9DA-4` | In the aggregate result episteme state the local `DRRDecisionAdequacyStatus` value, first drafting action or first repair, bounded non-use, and reopen condition. Keep any receiving status use, assurance, acceptance, gate, authority, or permission separate. |
+| `CC-E9DA-5` | Keep DRR adequacy result claims distinct from the checked DRR, assessment work/application, witnesses and evidence-use relations, optional record/publication, pattern quality, E.19 admission, review or release state, assurance, gate, project work, and later repair. |
 | `CC-E9DA-6` | Apply `E.10` to decision-governing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
 | `CC-E9DA-6a` | Record `DRRPrecisionRestorationProfile` before assigning or accepting values: word-use precision goes to `E.10`, `E.10.ARCH`, `F.18`, or a governing pattern; phrase apparatus goes to `F.19`; repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology are classified by their governing pattern; boilerplate stays out of future pattern prose. |
 | `CC-E9DA-6b` | For any proposed wording, naming, or precision-restoration repair, record `DRRKindRestorationCheck`. The repair is not adequate if it only removes a trigger word or substitutes a cleaner phrase while changing, narrowing, widening, flattening, or losing the governed kind, relation, claim kind, current ontic slot, relation position, use relation, or claim kind, admissible use, or scope without an accepted semantic decision and governing-pattern reference when another pattern governs the kind under repair, relation, claim, or position. |
@@ -249,12 +309,13 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 | `CC-E9DA-8` | State what became worse if visible decision-adequacy values improved. |
 | `CC-E9DA-9` | State the `DRRDecisionAdequacyEvidenceBasis`; if source-currentness, accepted-decision inheritance, selected-locus, architecture, or comparator evidence is missing or unchecked, lower the coordinate that needs it. |
 | `CC-E9DA-10` | Use adjacent-value calibration when assigning `3`, `4`, or `5`; a rationale must distinguish the assigned value from its lower and higher neighbours. |
-| `CC-E9DA-11` | Keep ordinal values as measurement results, not repair targets. Below-floor values require decision-content findings or repair. Above-floor improvement requires substantive non-dominated proposal rows when requested; it cannot close by adding source volume, selected-locus tables, boundary catalogues, quality proof, or process evidence that does not make the `DRR` decision more decisive for its declared authoring use. A no-proposal or stay-at-current-value disposition must name loci and why no worthwhile decision-content move remains. |
+| `CC-E9DA-11` | Keep ordinal values as ordinal content-evaluation result claims, not repair targets. Below-floor values require decision-content findings or repair. Above-floor improvement requires substantive non-dominated proposal rows when requested; it cannot close by adding source volume, selected-locus tables, boundary catalogues, quality proof, or process evidence that does not make the `DRR` decision more decisive for its declared authoring use. A no-proposal or stay-at-current-value disposition must name loci and why no worthwhile decision-content move remains. |
 
 ### E.9.DA:8 - Common anti-patterns and repairs
 
 | Anti-pattern | Repair |
 |---|---|
+| **Specification or record as evaluator.** A filled coordinate table, published record, or E.9.DA pattern is said to have assessed the DRR, issued assurance, accepted it, or authorized drafting. | Recover the evaluator assignment, semantic method, dated assessment work, A.6.1 application, result episteme, witnesses/evidence-use relations, and receiving authority separately; let the optional record package refs only. |
 | **Heading-complete DRR.** Headings exist but authors cannot tell what to write. | Lower selected-answer, selected-locus, and drafting-action coordinates. |
 | **Source packet in DRR clothing.** Sources are preserved but FPF decisions are absent. | State selected payload, rejected payload, and selected-locus obligations. |
 | **Address completion without architecture.** Every locus is named but the split or merge is wrong. | Repair `FPFContentArchitectureSelectionAdequacy`. |
@@ -262,7 +323,7 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 | **Ontic candidate left to drafting.** A `DRR` uses uncertain candidate phrasing for a concept cluster or pattern set but leaves candidate sufficiency, rejected alternatives, publication boundary, and placement for the pattern author. | Close `DRROnticCandidateDisposition` now: select, reject, split, or decline the candidate by value; state the direct governing pattern when no new ontic is warranted. |
 | **Review-state proxy.** Review acceptance or landing is treated as adequacy. | Use decision-content evidence only. |
 | **Adequacy table without evidence loci.** Values are listed without by-value `DRR` or source loci. | Re-run the evaluation with `Coordinate | Value | ShortRationale | EvidenceLocus`; lower any coordinate whose evidence cannot be named. |
-| **Apparatus-overwrapped drafting payload.** The `DRR` offers selected-pattern wording wrapped in role, publication-form, locus, flow, state, status, text, package, or process apparatus without changing a recoverable kind, relation, claim kind, admissible use, evidence value, selected locus, user-facing action, or flow role. | Classify the wording under `F.19`. If it changes a kind or claim, repair through precision restoration; if not, remove it from the future pattern payload or rewrite it as the positive subject-kind and action spine. |
+| **Apparatus-overwrapped drafting payload.** The `DRR` offers selected-pattern wording wrapped in role, publication-form, locus, flow, state, status, text, package, or process apparatus without changing a recoverable kind, relation, claim kind, admissible use, evidence value, selected locus, user-facing action, or flow role. | Classify the wording under `F.19`. If it changes a kind or claim, repair through precision restoration; otherwise expose the governed EntityOfConcern, first substantive drafting move, exact selected-locus relation/decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance. An evaluation row is neither future method nor work. |
 | **Goodharted DRR adequacy.** A `DRR` is made easier to defend as `4` or `5` by adding source rows, selected-locus tables, boundary catalogues, or review proof, while selected answer, selected-locus obligations, source payload mutation, architecture choice, or first drafting action do not improve. | Reject apparatus-only improvement; apply `E.13` when adequacy values or review marks are replacing decision usefulness; repair the decision content, delete or relocate proof material, and record checked no-proposal only when no non-dominated decision-content improvement remains. |
 | **Solution architecture evaporates after DRR.** A `DRR` solves a multi-locus unfolding or first-entry problem, but pattern hosts receive only local fragments and the DRR remains the only place where the full problem-solution structure is understandable. | Run `CampaignProblemSolutionUnfoldingCheck`; move the residue into selected pattern bodies, local unfolding blocks, E.11 entry expansions, or direct governing-pattern relations. |
 
@@ -276,7 +337,7 @@ The bias is bounded. Small editorial decisions can use `E.9` directly. Pattern q
 
 ### E.9.DA:10 - Rationale
 
-The cheapest place to repair missing FPF decisions is the `DRR`, before pattern prose spreads uncertainty across several hosts. A compact complete evaluation is better than a heavy preliminary audit: it gives every coordinate a value, identifies the first repair, and stops.
+The cheapest place to repair missing FPF decisions is the DRR, before pattern prose spreads uncertainty across several hosts. A compact complete result episteme is better than a heavy preliminary audit: dated assessment work enacts the method, A.6.1 application bindings return coordinate values, and the result episteme states every coordinate claim, first repair, and bounded stop. The evaluation specification, optional record, and favorable local status neither perform nor authorize repair.
 
 ### E.9.DA:11 - SoTA-Echoing
 
@@ -286,24 +347,28 @@ The cheapest place to repair missing FPF decisions is the `DRR`, before pattern 
 | Multi-host FPF changes need selected-locus disposition. | Lightweight ADR practice is useful but too central-record-oriented for multi-pattern FPF changes. | `DRRSelectedLocusDispositionMap` states obligations and non-obligations by locus. |
 | Feedback needs desired condition, current condition, next action, and tactics. | Sadler and Hattie and Timperley feedback traditions, carried through `E.22` and `E.23`. | `ShortRationale`, evidence locus, finding and proposal rows, and checked no-proposal dispositions stay separate. |
 | Source evidence must mutate the decision. | Current FPF `E.8`, `E.19`, `E.21`, and living-source discipline require non-decorative source use. | `SoTAAndEvidenceUseInDecision` checks changed decision payload, not citation presence. |
-| Improvement remains multi-coordinate and trade-off sensitive. | MCDA, Pareto, and QD, OEE, and NQD lines inherited through `E.22` and `E.23`. | The evaluation asks what became worse and keeps repeated improvement outside `E.9.DA`. |
+| Improvement remains multi-coordinate and trade-off sensitive. | MCDA, Pareto, and QD, OEE, and NQD lines inherited through `E.22` and `E.23`. | E.9.DA result rules require the result episteme to state what became worse; repeated improvement work remains outside E.9.DA. |
 | Decision-adequacy measures can become targets. | Goodhart and Campbell, management-accounting surrogation, specification-gaming, and reward-hacking lines. | `E.9.DA` forbids all-`5` or `5-defensible` repair targeting; values rise only when decision content becomes stronger for declared authoring use, and `E.13` governs any proxy-to-value claim about those values. |
 
 ### E.9.DA:12 - Relations
 
 | Pattern | Relation |
 |---|---|
-| `E.9` | Defines the `DRR` kind and minimum form. |
-| `E.8` | Receives authored pattern bodies after accepted decisions. |
-| `E.21` | Evaluates resulting pattern versions, not `DRR` adequacy. |
-| `E.22` | Frames the evaluation purpose when needed. |
-| `E.23` | Runs repeated improvement of a `DRR` after findings or proposal rows exist. |
-| `E.13` | Governs pragmatic utility and proxy-to-value alignment when `DRR` adequacy values, review marks, source-counts, or discharge evidence become substitutes for decision usefulness. |
-
-| `E.19` | May return findings that expose upstream `DRR` defects. |
-| `E.10`, `A.6.P`, `C.2.P`, `C.16.Q`, `F.18` | Govern wording, relation, episteme, quality-term, and naming repair. |
-| `C.16`, `A.17`, `A.18`, `A.19`, `C.25` | Govern characteristic, scale, measurement, characteristic-space, and quality-bundle claims. |
-| Architecture-facing FPF patterns | Receive architecture, structure, view, graph, publication, and source-use distinctions when the `DRR` decision uses them. |
+| `E.9` | Defines `DRRMethod`, selected-answer decision work/result, and the minimum C.2.1 DRR episteme form. E.9.DA governs assessment of one exact DRR episteme; it is not a second DRR method or form. |
+| `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, `C.16.Q`, `C.25` | Govern the characteristic space, evaluation specification, characteristics, scales, measurement boundary, quality-ascription precision, and any separately selected Q-Bundle consumed here. E.9.DA supplies the DRR-specific coordinates and result rules. |
+| `A.15.1`, `A.6.1`, `A.2`, `A.2.1` | Govern dated assessment work, the actual evaluation application/bindings, evaluator role, and obtaining role assignment. The E.9.DA specification and optional record perform none of these. |
+| `C.2.1` | Constitutes the checked DRR episteme, per-coordinate result claims, aggregate adequacy-result episteme, and optional evaluation-record episteme independently. |
+| `A.10`, `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
+| `F.10`, `G.11` | Govern any downstream status use/interpretation and currentness. A local E.9.DA status value does not authorize drafting by itself. |
+| `E.24.PUB`, `C.29` | Govern publication occurrence, form, carrier, and representation of a result or record; publication does not perform assessment or strengthen its claim. |
+| `E.8` | Governs later authored pattern bodies after a separately authorized decision; E.9.DA neither authors nor admits them. |
+| `E.19` | May use current E.9.DA result claims as evidence or return findings exposing upstream DRR defects. Its admission/refresh check and result remain distinct. |
+| `E.21` | Declares the pattern-quality characteristic space and result rules used for resulting pattern versions. Dated E.21 assessment work and its result concern one exact pattern version, not DRR adequacy, E.19 admission, or the E.9.DA record. |
+| `E.22` | Frames one evaluation question/use without performing assessment or assigning values. |
+| `E.23` | Governs repeated improvement and repair work after findings or proposals exist; it does not become the original assessment or result. |
+| `E.13` | Governs proxy-to-value alignment when adequacy values, source counts, review marks, or discharge evidence substitute for decision usefulness. |
+| `E.10`, `A.6.P`, `C.2.P`, `F.18`, `F.19` | Govern wording/use precision, relation and episteme phrasing, durable naming, and apparatus classification used by the precision profile. |
+| Architecture-facing FPF patterns | Receive architecture, structure, view, graph, publication, and source-use distinctions when the DRR decision uses them. |
 
 ### E.9.DA:End
 

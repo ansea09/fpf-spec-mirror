@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "9a9a42e4d154021ca3f7415e0009a4214832f65f"
+commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:1 — Problem Frame"
-line_start: 91152
-line_end: 91159
+line_start: 91693
+line_end: 91700
 dependencies:
   - "A.11"
   - "A.15"
@@ -23,6 +23,7 @@ dependencies:
   - "A.6.5"
   - "A.7"
   - "A.8"
+  - "C.2.1"
   - "C.3"
   - "E.10"
   - "E.10.ARCH"
@@ -54,9 +55,9 @@ keywords:
 
 ### F.8:1 - Problem Frame
 
-Name pressure is often a sign of unresolved ontology. A project wants one short expression, but the expression may stand for several different values: a local sense, a reusable row, a role-description label, a status value, a method name, a work occurrence label, a policy id, or a new U-kind candidate.
+Name pressure is often a sign of unresolved ontology. A project wants one short expression, but that expression may stand for several different governed values or uses: one local sense, an already selected designation, a public row, a RoleDescription label, a status value, a method name, a Work occurrence label, a policy identifier, or a new U-kind candidate.
 
-The dangerous shortcut is to decide by word form. If the word contains `Role`, it is treated as a role. If the word appears in two contexts, it is treated as the same concept. If a source standard uses the name, the name is promoted. If the expression is short and readable, it becomes public vocabulary.
+The dangerous shortcut is to decide by word form or administrative setting. If the word contains `Role`, it is treated as a role. If the same spelling appears under two schemes, it is treated as the same concept. If a source standard uses the name, the name is promoted. If a record says a decision was made, the record is treated as the decision occurrence. If a label such as `PatternReview_2026` surrounds the work, it is treated as a context, role, assignment, evidence source, or authority without recovering the actual object and relation.
 
-F.8 delays naming until the current kind and use are recovered. It is the gate between local expression and durable name, not the naming style guide itself.
+F.8 delays naming until the exact governed value, effective naming ReferenceScheme, local-sense basis, and proposed use are recovered. It is the gate between a local expression and a stronger naming disposition, not the naming style guide and not the direct owner of the named value.
 
