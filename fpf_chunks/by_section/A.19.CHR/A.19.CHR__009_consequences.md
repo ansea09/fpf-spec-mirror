@@ -6,12 +6,12 @@ section_id: "A.19.CHR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__009_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:9 — Consequences"
-line_start: 31360
-line_end: 31368
+line_start: 31345
+line_end: 31353
 dependencies:
   - "A.15.3"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "A.19.SOURCE-SET-SPACE-SUBSTRATE:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SOURCE-SET-SPACE-SUBSTRATE/A.19.SOURCE-SET-SPACE-SUBSTRATE__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE — Source-Set and Search/Outcome-Space Substrate"
   - "A.19.SOURCE-SET-SPACE-SUBSTRATE:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 29813
-line_end: 29824
+line_start: 29798
+line_end: 29809
 dependencies:
   - "A.0"
   - "A.17"

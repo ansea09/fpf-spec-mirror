@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:13"
 section_title: "SoTA-Echoing (informative; not a center of gravity)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__015_sota-echoing-informative-not-a-center-of-gravity.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:13 — SoTA-Echoing (informative; not a center of gravity)"
-line_start: 32739
-line_end: 32760
+line_start: 32724
+line_end: 32745
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

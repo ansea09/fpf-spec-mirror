@@ -6,12 +6,12 @@ section_id: "G.10:7"
 section_title: "Archetypal grounding (informative; post‑2015 method families)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__008_archetypal-grounding-informative-post-2015-method-families.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:7 — Archetypal grounding (informative; post‑2015 method families)"
-line_start: 102489
-line_end: 102496
+line_start: 102474
+line_end: 102481
 dependencies:
   - "A.10"
   - "A.15.3"

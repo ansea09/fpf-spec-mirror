@@ -6,12 +6,12 @@ section_id: "A.20:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 33852
-line_end: 33860
+line_start: 33837
+line_end: 33845
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

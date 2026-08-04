@@ -6,12 +6,12 @@ section_id: "G.13:6"
 section_title: "Archetypal grounding (informative; SoTA‑oriented)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__007_archetypal-grounding-informative-sota-oriented.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:6 — Archetypal grounding (informative; SoTA‑oriented)"
-line_start: 103610
-line_end: 103620
+line_start: 103595
+line_end: 103605
 dependencies:
   - "A.18"
   - "A.19"

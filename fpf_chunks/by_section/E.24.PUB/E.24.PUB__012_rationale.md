@@ -6,12 +6,12 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:10 — Rationale"
-line_start: 88716
-line_end: 88721
+line_start: 88701
+line_end: 88706
 dependencies:
   - "A.6.3"
   - "A.6.REL"

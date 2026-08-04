@@ -6,12 +6,12 @@ section_id: "A.16.2:13"
 section_title: "Worked Retreat Trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__014_worked-retreat-trajectories.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:13 — Worked Retreat Trajectories"
-line_start: 28031
-line_end: 28048
+line_start: 28016
+line_end: 28033
 dependencies:
   - "A.16"
   - "A.16.0"

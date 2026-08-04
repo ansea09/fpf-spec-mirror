@@ -6,12 +6,12 @@ section_id: "A.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:0 — Use This When"
-line_start: 22481
-line_end: 22505
+line_start: 22466
+line_end: 22490
 dependencies:
   - "A.11"
   - "C.3"

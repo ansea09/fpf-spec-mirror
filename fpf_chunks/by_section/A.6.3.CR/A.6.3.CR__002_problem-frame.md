@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__002_problem-frame.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:1 — Problem frame"
-line_start: 14012
-line_end: 14029
+line_start: 13997
+line_end: 14014
 dependencies:
   - "A.15"
   - "A.6.2"

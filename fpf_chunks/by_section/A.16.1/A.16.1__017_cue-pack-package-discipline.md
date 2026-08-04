@@ -6,12 +6,12 @@ section_id: "A.16.1:16"
 section_title: "Cue-Pack Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__017_cue-pack-package-discipline.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:16 — Cue-Pack Package Discipline"
-line_start: 27848
-line_end: 27869
+line_start: 27833
+line_end: 27854
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "B.1.4:4"
 section_title: "Admissible Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__007_admissible-checks.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:4 — Admissible Checks"
-line_start: 36339
-line_end: 36370
+line_start: 36324
+line_end: 36355
 dependencies:
   - "A.1.1"
   - "A.14"

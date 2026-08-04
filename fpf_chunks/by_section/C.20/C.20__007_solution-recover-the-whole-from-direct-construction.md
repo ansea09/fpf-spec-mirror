@@ -6,12 +6,12 @@ section_id: "C.20:4"
 section_title: "Solution - recover the whole from direct construction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__007_solution-recover-the-whole-from-direct-construction.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:4 — Solution - recover the whole from direct construction"
-line_start: 50399
-line_end: 50538
+line_start: 50384
+line_end: 50523
 dependencies:
   - "A.1"
   - "A.14"

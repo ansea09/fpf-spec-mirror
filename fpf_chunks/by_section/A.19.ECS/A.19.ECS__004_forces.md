@@ -6,12 +6,12 @@ section_id: "A.19.ECS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:3 — Forces"
-line_start: 28924
-line_end: 28935
+line_start: 28909
+line_end: 28920
 dependencies:
   - "A.17-A.19"
   - "C.16"

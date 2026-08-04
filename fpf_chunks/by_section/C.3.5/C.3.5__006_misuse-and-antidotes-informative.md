@@ -6,12 +6,12 @@ section_id: "C.3.5:5"
 section_title: "Misuse and antidotes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.5/C.3.5__006_misuse-and-antidotes-informative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)"
   - "C.3.5:5 — Misuse and antidotes (informative)"
-line_start: 45637
-line_end: 45645
+line_start: 45622
+line_end: 45630
 dependencies:
   - "A.2.6"
   - "C.2.2"

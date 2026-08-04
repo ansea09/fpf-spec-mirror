@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 30699
-line_end: 30739
+line_start: 30684
+line_end: 30724
 dependencies:
   - "A.19"
   - "A.6.1"

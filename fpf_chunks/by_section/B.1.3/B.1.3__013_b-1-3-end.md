@@ -6,12 +6,12 @@ section_id: "B.1.3:End"
 section_title: "B.1.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__013_b-1-3-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:End — B.1.3:End"
-line_start: 36227
-line_end: 36228
+line_start: 36212
+line_end: 36213
 dependencies:
   - "A.1"
   - "A.12"

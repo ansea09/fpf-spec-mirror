@@ -6,12 +6,12 @@ section_id: "A.19.UNM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__001_intro.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:intro — Intro"
-line_start: 31429
-line_end: 31445
+line_start: 31414
+line_end: 31430
 dependencies:
 keywords:
   - "CV→NCV"

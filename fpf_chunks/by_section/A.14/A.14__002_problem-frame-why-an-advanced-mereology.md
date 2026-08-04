@@ -6,12 +6,12 @@ section_id: "A.14:1"
 section_title: "Problem frame - why an advanced mereology?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__002_problem-frame-why-an-advanced-mereology.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:1 — Problem frame - why an advanced mereology?"
-line_start: 23709
-line_end: 23725
+line_start: 23694
+line_end: 23710
 dependencies:
   - "A.1"
   - "A.15"

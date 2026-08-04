@@ -6,12 +6,12 @@ section_id: "A.8:5"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__014_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:5 — Relations"
-line_start: 22607
-line_end: 22612
+line_start: 22592
+line_end: 22597
 dependencies:
   - "A.11"
   - "C.3"

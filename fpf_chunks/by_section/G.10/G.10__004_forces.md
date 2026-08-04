@@ -6,12 +6,12 @@ section_id: "G.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:3 — Forces"
-line_start: 102167
-line_end: 102177
+line_start: 102152
+line_end: 102162
 dependencies:
   - "A.10"
   - "A.15.3"

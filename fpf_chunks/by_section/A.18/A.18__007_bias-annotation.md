@@ -6,12 +6,12 @@ section_id: "A.18:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.18/A.18__007_bias-annotation.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.18 — Minimal CSLC in Kernel (Characteristic ⟷ Scale ⟷ Level ⟷ Coordinate) (A.CSLC‑KERNEL)"
   - "A.18:6 — Bias-Annotation"
-line_start: 28380
-line_end: 28383
+line_start: 28365
+line_end: 28368
 dependencies:
   - "A.17"
   - "A.18"

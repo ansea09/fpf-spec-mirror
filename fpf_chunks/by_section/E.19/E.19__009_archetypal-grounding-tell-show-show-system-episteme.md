@@ -6,12 +6,12 @@ section_id: "E.19:5"
 section_title: "Archetypal Grounding — Tell–Show–Show: System / Episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__009_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:5 — Archetypal Grounding — Tell–Show–Show: System / Episteme"
-line_start: 85704
-line_end: 85711
+line_start: 85689
+line_end: 85696
 dependencies:
   - "A.15.1"
   - "A.6.P"

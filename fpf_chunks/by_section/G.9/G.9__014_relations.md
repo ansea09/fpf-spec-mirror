@@ -6,12 +6,12 @@ section_id: "G.9:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__014_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:10 — Relations"
-line_start: 102109
-line_end: 102129
+line_start: 102094
+line_end: 102114
 dependencies:
   - "A.19"
   - "A.21"

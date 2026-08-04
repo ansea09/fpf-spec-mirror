@@ -6,12 +6,12 @@ section_id: "D.5:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__014_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:9 — Rationale"
-line_start: 69170
-line_end: 69175
+line_start: 69155
+line_end: 69160
 dependencies:
   - "A.10"
   - "B.3"

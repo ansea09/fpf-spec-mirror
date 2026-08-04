@@ -6,12 +6,12 @@ section_id: "C.26.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__013_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:12 — Relations"
-line_start: 54346
-line_end: 54353
+line_start: 54331
+line_end: 54338
 dependencies:
   - "A.1.1"
   - "A.10"

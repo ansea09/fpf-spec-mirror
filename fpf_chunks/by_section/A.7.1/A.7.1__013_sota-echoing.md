@@ -6,12 +6,12 @@ section_id: "A.7.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__013_sota-echoing.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:11 — SoTA-Echoing"
-line_start: 22046
-line_end: 22056
+line_start: 22031
+line_end: 22041
 dependencies:
   - "A.7"
   - "A.7.2"

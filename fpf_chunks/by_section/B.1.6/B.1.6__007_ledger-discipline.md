@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Ledger Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__007_ledger-discipline.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:4 — Ledger Discipline"
-line_start: 36942
-line_end: 36959
+line_start: 36927
+line_end: 36944
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:17"
 section_title: "Scope, rival-set, and comparative-validity discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__019_scope-rival-set-and-comparative-validity-discipline.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:17 — Scope, rival-set, and comparative-validity discipline"
-line_start: 40712
-line_end: 40734
+line_start: 40697
+line_end: 40719
 dependencies:
   - "A.16"
   - "A.16.0"

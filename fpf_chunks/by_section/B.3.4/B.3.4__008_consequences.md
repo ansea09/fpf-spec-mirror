@@ -6,12 +6,12 @@ section_id: "B.3.4:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.4/B.3.4__008_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.3.4 — Evidence Decay & Epistemic Debt"
   - "B.3.4:7 — Consequences"
-line_start: 39319
-line_end: 39326
+line_start: 39304
+line_end: 39311
 dependencies:
   - "A.10"
   - "B.3"

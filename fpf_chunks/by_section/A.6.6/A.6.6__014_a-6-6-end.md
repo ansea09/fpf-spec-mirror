@@ -6,12 +6,12 @@ section_id: "A.6.6:End"
 section_title: "A.6.6:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__014_a-6-6-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:End — A.6.6:End"
-line_start: 19885
-line_end: 19886
+line_start: 19870
+line_end: 19871
 dependencies:
   - "A.10"
   - "A.14"

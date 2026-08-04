@@ -6,12 +6,12 @@ section_id: "F.16:16"
 section_title: "Teaching variants (all obey §6 invariants)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__017_teaching-variants-all-obey-6-invariants.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:16 — Teaching variants (all obey §6 invariants)"
-line_start: 95191
-line_end: 95197
+line_start: 95176
+line_end: 95182
 dependencies:
   - "A.15"
   - "A.3"

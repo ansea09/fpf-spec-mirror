@@ -6,12 +6,12 @@ section_id: "A.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__005_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:3 — Forces"
-line_start: 23300
-line_end: 23309
+line_start: 23285
+line_end: 23294
 dependencies:
   - "A.1"
   - "A.1.1"

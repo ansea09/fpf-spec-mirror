@@ -6,12 +6,12 @@ section_id: "C.28:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__011_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:9 — Consequences"
-line_start: 58056
-line_end: 58075
+line_start: 58041
+line_end: 58060
 dependencies:
   - "A.10"
   - "A.15"

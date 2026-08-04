@@ -6,12 +6,12 @@ section_id: "B.1.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 35886
-line_end: 35895
+line_start: 35871
+line_end: 35880
 dependencies:
   - "A.1"
   - "A.10"

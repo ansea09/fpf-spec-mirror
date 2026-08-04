@@ -6,12 +6,12 @@ section_id: "C.18:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__010_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:8 — Consequences"
-line_start: 49477
-line_end: 49491
+line_start: 49462
+line_end: 49476
 dependencies:
   - "A.15"
   - "A.19"

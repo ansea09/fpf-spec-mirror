@@ -6,12 +6,12 @@ section_id: "E.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__011_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:10 — Rationale"
-line_start: 77067
-line_end: 77072
+line_start: 77052
+line_end: 77057
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

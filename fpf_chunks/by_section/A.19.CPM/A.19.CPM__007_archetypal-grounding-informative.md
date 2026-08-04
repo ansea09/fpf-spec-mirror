@@ -6,12 +6,12 @@ section_id: "A.19.CPM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CPM/A.19.CPM__007_archetypal-grounding-informative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.CPM — Unified Comparison Mechanism (CPM)"
   - "A.19.CPM:5 — Archetypal Grounding — informative"
-line_start: 32967
-line_end: 32999
+line_start: 32952
+line_end: 32984
 dependencies:
 keywords:
   - "ComparatorSet"

@@ -6,12 +6,12 @@ section_id: "B.5.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__013_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:12 — Relations"
-line_start: 40370
-line_end: 40382
+line_start: 40355
+line_end: 40367
 dependencies:
   - "A.10"
   - "A.16"

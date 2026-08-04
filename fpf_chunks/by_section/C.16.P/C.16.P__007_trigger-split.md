@@ -6,12 +6,12 @@ section_id: "C.16.P:5"
 section_title: "Trigger split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__007_trigger-split.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:5 — Trigger split"
-line_start: 47547
-line_end: 47561
+line_start: 47532
+line_end: 47546
 dependencies:
   - "A.10"
   - "A.15"

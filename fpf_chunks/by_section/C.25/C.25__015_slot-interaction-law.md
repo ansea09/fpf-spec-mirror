@@ -6,12 +6,12 @@ section_id: "C.25:14"
 section_title: "Slot Interaction Law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__015_slot-interaction-law.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:14 — Slot Interaction Law"
-line_start: 53215
-line_end: 53242
+line_start: 53200
+line_end: 53227
 dependencies:
   - "A.15"
   - "A.16.0"

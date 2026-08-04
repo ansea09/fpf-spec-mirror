@@ -6,12 +6,12 @@ section_id: "C.16:11"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:11 — Common Anti-Patterns and How to Avoid Them"
-line_start: 47334
-line_end: 47343
+line_start: 47319
+line_end: 47328
 dependencies:
   - "A.10"
   - "A.15.1"

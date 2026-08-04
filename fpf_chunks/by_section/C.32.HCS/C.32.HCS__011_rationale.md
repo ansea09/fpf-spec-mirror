@@ -6,12 +6,12 @@ section_id: "C.32.HCS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__011_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:10 — Rationale"
-line_start: 65085
-line_end: 65088
+line_start: 65070
+line_end: 65073
 dependencies:
   - "A.19"
   - "C.11"

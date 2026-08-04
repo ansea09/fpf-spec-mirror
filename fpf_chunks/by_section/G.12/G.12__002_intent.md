@@ -6,12 +6,12 @@ section_id: "G.12:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__002_intent.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
   - "G.12:1 — Intent"
-line_start: 102982
-line_end: 102989
+line_start: 102967
+line_end: 102974
 dependencies:
   - "A.19"
   - "C.18"

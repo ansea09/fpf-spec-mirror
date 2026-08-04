@@ -6,12 +6,12 @@ section_id: "D.5:End"
 section_title: "D.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__017_d-5-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:End — D.5:End"
-line_start: 69194
-line_end: 69197
+line_start: 69179
+line_end: 69182
 dependencies:
   - "A.10"
   - "B.3"

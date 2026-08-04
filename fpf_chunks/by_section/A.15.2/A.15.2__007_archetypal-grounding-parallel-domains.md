@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 25171
-line_end: 25209
+line_start: 25156
+line_end: 25194
 dependencies:
   - "A.10"
   - "A.15"

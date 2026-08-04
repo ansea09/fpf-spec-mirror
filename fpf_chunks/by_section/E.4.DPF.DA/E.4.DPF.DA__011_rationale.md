@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__011_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:10 — Rationale"
-line_start: 71149
-line_end: 71154
+line_start: 71134
+line_end: 71139
 dependencies:
   - "A.1.1"
   - "A.10"

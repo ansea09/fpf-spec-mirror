@@ -6,12 +6,12 @@ section_id: "F.1:10"
 section_title: "Micro‑examples (illustrative only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__011_micro-examples-illustrative-only.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:10 — Micro‑examples (illustrative only)"
-line_start: 89654
-line_end: 89678
+line_start: 89639
+line_end: 89663
 dependencies:
   - "A.11"
   - "A.7"

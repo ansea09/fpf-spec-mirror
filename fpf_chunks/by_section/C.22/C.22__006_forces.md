@@ -6,12 +6,12 @@ section_id: "C.22:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__006_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:4 — Forces"
-line_start: 51022
-line_end: 51030
+line_start: 51007
+line_end: 51015
 dependencies:
   - "A.6.0"
   - "C.16"

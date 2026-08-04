@@ -6,12 +6,12 @@ section_id: "C.3.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__001_intro.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:intro — Intro"
-line_start: 45137
-line_end: 45156
+line_start: 45122
+line_end: 45141
 dependencies:
   - "A.2.6"
   - "A.6.REL"

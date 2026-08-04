@@ -6,12 +6,12 @@ section_id: "E.10.D1:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__008_conformance-checklist-normative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:7 — Conformance Checklist (normative)"
-line_start: 76168
-line_end: 76177
+line_start: 76153
+line_end: 76162
 dependencies:
   - "A.2.1"
   - "A.4"

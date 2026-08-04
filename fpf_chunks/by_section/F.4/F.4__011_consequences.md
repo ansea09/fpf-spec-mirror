@@ -6,12 +6,12 @@ section_id: "F.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__011_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:9 — Consequences"
-line_start: 90700
-line_end: 90714
+line_start: 90685
+line_end: 90699
 dependencies:
   - "A.15"
   - "A.15.1"

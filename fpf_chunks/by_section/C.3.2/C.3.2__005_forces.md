@@ -6,12 +6,12 @@ section_id: "C.3.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__005_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:3 — Forces"
-line_start: 44936
-line_end: 44947
+line_start: 44921
+line_end: 44932
 dependencies:
   - "A.14"
   - "A.2.6"

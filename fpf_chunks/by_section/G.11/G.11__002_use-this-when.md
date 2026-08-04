@@ -6,12 +6,12 @@ section_id: "G.11:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:0 — Use this when"
-line_start: 102558
-line_end: 102576
+line_start: 102543
+line_end: 102561
 dependencies:
   - "B.3.4"
   - "C.18"

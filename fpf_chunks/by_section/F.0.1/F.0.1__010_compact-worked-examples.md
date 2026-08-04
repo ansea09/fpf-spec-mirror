@@ -6,12 +6,12 @@ section_id: "F.0.1:9"
 section_title: "Compact worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__010_compact-worked-examples.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:9 — Compact worked examples"
-line_start: 89375
-line_end: 89438
+line_start: 89360
+line_end: 89423
 dependencies:
   - "A.1.1"
   - "A.11"

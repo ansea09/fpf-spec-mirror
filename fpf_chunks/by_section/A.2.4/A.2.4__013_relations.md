@@ -6,7 +6,7 @@ section_id: "A.2.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__013_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:11 — Relations"

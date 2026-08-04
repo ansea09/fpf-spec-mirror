@@ -6,12 +6,12 @@ section_id: "C.16.Q:11a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__014_refresh-and-reopen-conditions.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:11a — Refresh and reopen conditions"
-line_start: 48485
-line_end: 48497
+line_start: 48470
+line_end: 48482
 dependencies:
   - "A.10"
   - "A.16"

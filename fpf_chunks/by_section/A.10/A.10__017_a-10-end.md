@@ -6,12 +6,12 @@ section_id: "A.10:End"
 section_title: "A.10:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__017_a-10-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:End — A.10:End"
-line_start: 23102
-line_end: 23103
+line_start: 23087
+line_end: 23088
 dependencies:
   - "A.10"
   - "A.15.1"

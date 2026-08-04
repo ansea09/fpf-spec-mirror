@@ -6,12 +6,12 @@ section_id: "G.4:End"
 section_title: "G.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__014_g-4-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:End — G.4:End"
-line_start: 99631
-line_end: 99632
+line_start: 99616
+line_end: 99617
 dependencies:
   - "A.10"
   - "A.15.1"

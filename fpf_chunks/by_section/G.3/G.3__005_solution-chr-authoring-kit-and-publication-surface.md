@@ -6,12 +6,12 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 98822
-line_end: 99117
+line_start: 98807
+line_end: 99102
 dependencies:
   - "A.10"
   - "A.15.3"

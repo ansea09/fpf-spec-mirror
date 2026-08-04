@@ -6,12 +6,12 @@ section_id: "C.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__005_solution.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:4 — Solution"
-line_start: 44098
-line_end: 44131
+line_start: 44083
+line_end: 44116
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "E.18.NET:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__013_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:12 — Relations"
-line_start: 85075
-line_end: 85082
+line_start: 85060
+line_end: 85067
 dependencies:
   - "A.1.STM"
   - "A.12"

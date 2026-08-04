@@ -6,12 +6,12 @@ section_id: "A.19.CN:Close"
 section_title: "A.19.CN:Close"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__015_a-19-cn-close.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:Close — A.19.CN:Close"
-line_start: 30740
-line_end: 30743
+line_start: 30725
+line_end: 30728
 dependencies:
   - "A.19"
   - "A.6.1"

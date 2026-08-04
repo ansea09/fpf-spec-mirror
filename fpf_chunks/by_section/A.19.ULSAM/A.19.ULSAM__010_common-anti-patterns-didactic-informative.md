@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:8"
 section_title: "Common anti-patterns (didactic, informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__010_common-anti-patterns-didactic-informative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:8 — Common anti-patterns (didactic, informative)"
-line_start: 32688
-line_end: 32698
+line_start: 32673
+line_end: 32683
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

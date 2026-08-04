@@ -6,12 +6,12 @@ section_id: "A.6.H:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__008_bias-annotation.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6.1 — Bias-Annotation"
-line_start: 21366
-line_end: 21373
+line_start: 21351
+line_end: 21358
 dependencies:
   - "A.14"
   - "A.15"

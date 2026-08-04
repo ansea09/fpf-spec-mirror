@@ -6,12 +6,12 @@ section_id: "E.24.CD:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:0 — Use This When"
-line_start: 88143
-line_end: 88171
+line_start: 88128
+line_end: 88156
 dependencies:
   - "A.1"
   - "A.14"

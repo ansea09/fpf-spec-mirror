@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 85091
-line_end: 85098
+line_start: 85076
+line_end: 85083
 dependencies:
   - "A.15.1"
   - "A.6.P"

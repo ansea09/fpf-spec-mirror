@@ -6,12 +6,12 @@ section_id: "E.10.D1:6"
 section_title: "Core Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__007_core-invariants-normative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:6 — Core Invariants (normative)"
-line_start: 76157
-line_end: 76167
+line_start: 76142
+line_end: 76152
 dependencies:
   - "A.2.1"
   - "A.4"

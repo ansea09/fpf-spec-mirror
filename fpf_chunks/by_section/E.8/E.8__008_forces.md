@@ -6,12 +6,12 @@ section_id: "E.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__008_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:3 — Forces"
-line_start: 72072
-line_end: 72079
+line_start: 72057
+line_end: 72064
 dependencies:
   - "E.10"
   - "E.10.MOVE"

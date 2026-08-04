@@ -6,12 +6,12 @@ section_id: "B.5.2.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__007_archetypal-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:5 — Archetypal Grounding"
-line_start: 40614
-line_end: 40620
+line_start: 40599
+line_end: 40605
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "E.17.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons"
   - "E.17.2:3 — Forces"
-line_start: 79898
-line_end: 79909
+line_start: 79883
+line_end: 79894
 dependencies:
   - "A.1"
   - "A.22"

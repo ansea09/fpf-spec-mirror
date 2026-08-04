@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__006_archetypal-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:5 — Archetypal Grounding"
-line_start: 63078
-line_end: 63085
+line_start: 63063
+line_end: 63070
 dependencies:
   - "A.10"
   - "A.15"

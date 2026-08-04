@@ -6,12 +6,12 @@ section_id: "G.13:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__012_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:11 — Rationale"
-line_start: 103685
-line_end: 103690
+line_start: 103670
+line_end: 103675
 dependencies:
   - "A.18"
   - "A.19"

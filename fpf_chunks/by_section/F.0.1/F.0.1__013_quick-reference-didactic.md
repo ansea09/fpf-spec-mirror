@@ -6,12 +6,12 @@ section_id: "F.0.1:12"
 section_title: "Quick reference (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__013_quick-reference-didactic.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.0.1 — Contextual Lexicon Principles"
   - "F.0.1:12 — Quick reference (didactic)"
-line_start: 89520
-line_end: 89528
+line_start: 89505
+line_end: 89513
 dependencies:
   - "A.1.1"
   - "A.11"

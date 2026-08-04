@@ -6,12 +6,12 @@ section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37763
-line_end: 37787
+line_start: 37748
+line_end: 37772
 dependencies:
   - "A.1"
   - "A.10"

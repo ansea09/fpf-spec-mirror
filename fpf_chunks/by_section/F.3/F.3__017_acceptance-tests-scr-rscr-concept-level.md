@@ -6,12 +6,12 @@ section_id: "F.3:16"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__017_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:16 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 90446
-line_end: 90464
+line_start: 90431
+line_end: 90449
 dependencies:
   - "A.11"
   - "A.7"

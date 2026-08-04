@@ -6,12 +6,12 @@ section_id: "C.19:5.1"
 section_title: "System grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__011_system-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:5.1 — System grounding"
-line_start: 49951
-line_end: 49962
+line_start: 49936
+line_end: 49947
 dependencies:
   - "A.15"
   - "A.19.CPM"

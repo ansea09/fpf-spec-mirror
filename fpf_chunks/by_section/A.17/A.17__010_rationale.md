@@ -6,12 +6,12 @@ section_id: "A.17:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__010_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:9 — Rationale"
-line_start: 28281
-line_end: 28292
+line_start: 28266
+line_end: 28277
 dependencies:
   - "A.17"
   - "A.18"

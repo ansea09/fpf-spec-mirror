@@ -6,12 +6,12 @@ section_id: "F.3:End"
 section_title: "F.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__019_f-3-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:End — F.3:End"
-line_start: 90469
-line_end: 90470
+line_start: 90454
+line_end: 90455
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "E.17.AUD.LHR:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.LHR/E.17.AUD.LHR__008_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it"
   - "E.17.AUD.LHR:7 — Consequences"
-line_start: 82578
-line_end: 82587
+line_start: 82563
+line_end: 82572
 dependencies:
   - "A.10"
   - "A.15"

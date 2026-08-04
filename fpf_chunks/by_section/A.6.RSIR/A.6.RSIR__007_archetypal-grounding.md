@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__007_archetypal-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:5 — Archetypal Grounding"
-line_start: 17311
-line_end: 17330
+line_start: 17296
+line_end: 17315
 dependencies:
   - "A.10"
   - "A.15"

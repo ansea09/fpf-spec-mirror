@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__006_archetypal-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:5 — Archetypal Grounding"
-line_start: 15091
-line_end: 15146
+line_start: 15076
+line_end: 15131
 dependencies:
   - "A.16.1"
   - "A.22"

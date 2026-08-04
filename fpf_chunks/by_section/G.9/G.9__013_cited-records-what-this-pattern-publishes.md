@@ -6,12 +6,12 @@ section_id: "G.9:9"
 section_title: "Cited Records (what this pattern publishes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__013_cited-records-what-this-pattern-publishes.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:9 — Cited Records (what this pattern publishes)"
-line_start: 102100
-line_end: 102108
+line_start: 102085
+line_end: 102093
 dependencies:
   - "A.19"
   - "A.21"

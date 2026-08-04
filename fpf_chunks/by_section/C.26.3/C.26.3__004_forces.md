@@ -6,12 +6,12 @@ section_id: "C.26.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:3 — Forces"
-line_start: 54740
-line_end: 54749
+line_start: 54725
+line_end: 54734
 dependencies:
   - "A.10"
   - "A.15"

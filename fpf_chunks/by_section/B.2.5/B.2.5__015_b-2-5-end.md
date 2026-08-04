@@ -6,12 +6,12 @@ section_id: "B.2.5:End"
 section_title: "B.2.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__015_b-2-5-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:End — B.2.5:End"
-line_start: 38478
-line_end: 38479
+line_start: 38463
+line_end: 38464
 dependencies:
   - "A.1"
   - "A.10"

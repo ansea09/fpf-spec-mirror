@@ -6,12 +6,12 @@ section_id: "E.15:End"
 section_title: "E.15:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__011_e-15-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:End — E.15:End"
-line_start: 78751
-line_end: 78752
+line_start: 78736
+line_end: 78737
 dependencies:
   - "A.10"
   - "B.3"

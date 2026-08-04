@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 80207
-line_end: 80563
+line_start: 80192
+line_end: 80548
 dependencies:
   - "A.15.4"
   - "A.22"
@@ -136,7 +136,7 @@ Use this vocabulary when a publication face, rendering, generated text, comparis
 | `claim-conflicts-with-source` | The local claim conflicts with the available source relation. |
 | `claim-plausible-only` | The claim can sound reasonable, but the source relation currently available does not carry it. |
 | `source-omitted` | Relevant source claim, source passage, qualifier, condition, alternative, caveat, or uncertainty is missing from the publication-facing unit. |
-| `source-loss-declared` | The publication-facing unit declares a source-loss mode such as omitted-detail, qualifier-loss, redaction, aggregation, scope-narrowing, recoverability-loss, representation-factor-loss, or coarsening-loss for the local source-to-rendering relation. |
+| `source-loss-declared` | The publication-facing unit declares a source-loss mode such as omitted-detail, qualifier-loss, redaction, aggregation, scope-narrowing, recoverability-loss, representation-factor-loss for the local source-to-rendering relation. |
 | `claim-widened` | The publication-facing unit turns a source possibility, hypothesis, bounded condition, low-confidence statement, narrower permission, or source-finding cue into a wider claim or use. |
 | `added-linkage` | The publication-facing unit adds a causal, explanatory, bridge, comparison, work, evidence, gate, or authority relation not already carried by the source relation. |
 | `independent-verification-present` | A separate check makes the local claim or use available independently of the publication-facing unit only through a named governing pattern and record named by value, such as an `A.10` evidence path, `B.3` assurance claim, `A.21` `GateDecision`, `A.20` constraint profile, `A.15` `U.WorkPlan`, `A.15.1` dated `U.Work` occurrence, or `F.9` Bridge Card. |

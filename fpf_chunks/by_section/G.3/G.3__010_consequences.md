@@ -6,12 +6,12 @@ section_id: "G.3:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__010_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:9 — Consequences"
-line_start: 99189
-line_end: 99195
+line_start: 99174
+line_end: 99180
 dependencies:
   - "A.10"
   - "A.15.3"

@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 74800
-line_end: 75039
+line_start: 74785
+line_end: 75024
 dependencies:
   - "A.10"
   - "A.15"

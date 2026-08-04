@@ -6,12 +6,12 @@ section_id: "E.11.PUA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__001_intro.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:intro — Intro"
-line_start: 77096
-line_end: 77101
+line_start: 77081
+line_end: 77086
 dependencies:
   - "A.15"
   - "A.6.5"

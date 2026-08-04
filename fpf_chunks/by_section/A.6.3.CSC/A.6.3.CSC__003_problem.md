@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__003_problem.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:2 — Problem"
@@ -21,18 +21,10 @@ dependencies:
   - "A.6.3.NAR"
   - "A.6.3.RT"
   - "A.6.4"
-  - "A.6.P"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.33"
-  - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
-  - "E.19"
   - "E.24.PUB"
-  - "E.8"
-  - "F.18"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -44,11 +36,11 @@ FPF often needs a coarsened form of a source-bearing side: a manager summary, a 
 
 The core failure is not ordinary omission by itself. The failure appears when the coarsened rendering stays honest only under an admissible-use card like this:
 
-- the source-bearing side remains governing;
-- the coarsened rendering has a declared `source-loss mode` or reduced recoverability;
+- the source-bearing side retains the fuller claim scope and remains directly reopenable;
+- the coarsened rendering has declared concrete loss or reduced recoverability;
 - the coarsened rendering makes only the narrower use admissible;
 - downstream use is non-admissible from the coarsened rendering alone;
-- downstream use reopens the source-bearing side or moves to the governing FPF pattern or `authoritySourceRef` destination that makes the requested use admissible.
+- downstream use reopens the source-bearing side or uses the pattern that supplies the needed definition, constraint, test, method, evidence rule, or genuine `authoritySourceRef` relation.
 
 Without a named pattern for that relation, neighboring patterns repeat partial coarsening rules locally. The repetition hides the shared constraint and makes it too easy for coarsened renderings to travel as if they were the source-bearing side.
 

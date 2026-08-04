@@ -6,12 +6,12 @@ section_id: "C.2.P:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__003_what-goes-wrong-if-missed.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0.1 — What goes wrong if missed"
-line_start: 41709
-line_end: 41714
+line_start: 41694
+line_end: 41699
 dependencies:
   - "A.10"
   - "A.15"

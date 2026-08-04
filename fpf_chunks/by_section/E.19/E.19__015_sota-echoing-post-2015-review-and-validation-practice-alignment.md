@@ -6,12 +6,12 @@ section_id: "E.19:11"
 section_title: "SoTA-Echoing - post-2015 review and validation practice alignment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__015_sota-echoing-post-2015-review-and-validation-practice-alignment.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:11 — SoTA-Echoing - post-2015 review and validation practice alignment"
-line_start: 85805
-line_end: 85817
+line_start: 85790
+line_end: 85802
 dependencies:
   - "A.15.1"
   - "A.6.P"

@@ -6,12 +6,12 @@ section_id: "E.5.3:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__008_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:7 — Consequences"
-line_start: 71698
-line_end: 71704
+line_start: 71683
+line_end: 71689
 dependencies:
   - "E.4"
   - "E.5"

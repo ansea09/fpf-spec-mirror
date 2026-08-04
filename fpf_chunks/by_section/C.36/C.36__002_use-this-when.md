@@ -6,12 +6,12 @@ section_id: "C.36:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:0 — Use This When"
-line_start: 68008
-line_end: 68068
+line_start: 67993
+line_end: 68053
 dependencies:
   - "A.1"
   - "A.10"

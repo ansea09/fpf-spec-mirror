@@ -6,12 +6,12 @@ section_id: "C.24:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__004_what-this-buys.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.2 — What this buys"
-line_start: 52684
-line_end: 52695
+line_start: 52669
+line_end: 52680
 dependencies:
   - "A.1"
   - "A.10"

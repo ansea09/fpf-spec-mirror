@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__011_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:10 — Rationale"
-line_start: 13936
-line_end: 13943
+line_start: 13939
+line_end: 13946
 dependencies:
   - "A.15"
   - "A.20"
@@ -21,18 +21,10 @@ dependencies:
   - "A.6.3.NAR"
   - "A.6.3.RT"
   - "A.6.4"
-  - "A.6.P"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.33"
-  - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
-  - "E.19"
   - "E.24.PUB"
-  - "E.8"
-  - "F.18"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -40,7 +32,7 @@ keywords:
 
 ### A.6.3.CSC:10 - Rationale
 
-Controlled coarsening is useful because FPF work often needs cheap readable forms. It is risky because cheap readable forms often travel farther than their admissible use. The pattern therefore does not ban coarsened renderings; it makes the source-to-rendering relation explicit enough that later users know when to stop, reopen, or hand off to another governing FPF pattern or `authoritySourceRef` destination.
+Controlled coarsening is useful because FPF work often needs cheap readable forms. It is risky because those forms often travel farther than their admissible use. The pattern therefore begins with direct source/candidate comparison and does not ban a shorter form; it makes retained distinctions, loss, non-use, and return explicit enough for the present task, then opens exact endpoint, source, work, evidence, publication, or assurance relations only when a stronger receiving use needs them.
 
 This pattern is narrower than a general simplification pattern. It applies only when the coarsened rendering remains tied to a source-bearing side and carries a narrower-use card.
 

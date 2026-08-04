@@ -6,12 +6,12 @@ section_id: "A.19.UNM:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__005_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:3 — Forces"
-line_start: 31501
-line_end: 31511
+line_start: 31486
+line_end: 31496
 dependencies:
 keywords:
   - "CV→NCV"

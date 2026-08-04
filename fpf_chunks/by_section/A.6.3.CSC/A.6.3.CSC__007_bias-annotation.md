@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__007_bias-annotation.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:6 — Bias-Annotation"
-line_start: 13866
-line_end: 13871
+line_start: 13867
+line_end: 13872
 dependencies:
   - "A.15"
   - "A.20"
@@ -21,18 +21,10 @@ dependencies:
   - "A.6.3.NAR"
   - "A.6.3.RT"
   - "A.6.4"
-  - "A.6.P"
   - "C.2.1"
-  - "C.26"
-  - "C.26.1"
-  - "C.33"
-  - "E.10"
   - "E.17.EFP"
   - "E.17.ID.CR"
-  - "E.19"
   - "E.24.PUB"
-  - "E.8"
-  - "F.18"
   - "F.9"
   - "F.9.1"
 keywords:
@@ -42,5 +34,5 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Onto and Epist**, **Prag**, **Did**. Scope: **Universal** for source-to-rendering relations that claim controlled semantic coarsening inside FPF.
 
-This pattern favors **Prag** and **Did** by allowing useful coarsened renderings to remain cheap and readable. It also favors **Gov** and **Arch** by requiring non-admissible downstream use, source reopen, and neighboring-pattern application when release, policy, assurance, adjudication, bridge, work, evidence, or gate use is attempted. The mitigation for over-governance is the ordinary mini-card: ordinary cases stay light, and only dispute, citation, external reliance, policy, bridge, work, gate, privacy, assurance, release, or adjudication use adds claim-bearing fields.
+This pattern favors **Prag** and **Did** by reaching a useful shorter candidate through direct comparison before optional identity work. It also favors **Gov** and **Arch** by requiring non-admissible downstream use, source reopen, and the concrete neighboring definition, test, method, evidence rule, work rule, or gate rule when release, policy, assurance, adjudication, bridge, work, evidence, or gate use is attempted. The mitigation for over-formalization is the ordinary mini-card: exact endpoints, construction, Work, publication, evidence, and assurance open only when the receiving use makes them material.
 

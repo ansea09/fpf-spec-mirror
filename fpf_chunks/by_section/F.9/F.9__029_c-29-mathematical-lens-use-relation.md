@@ -6,12 +6,12 @@ section_id: "F.9:27"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__029_c-29-mathematical-lens-use-relation.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:27 — C.29 mathematical-lens use relation"
-line_start: 92690
-line_end: 92693
+line_start: 92675
+line_end: 92678
 dependencies:
   - "A.10"
   - "A.15.1"

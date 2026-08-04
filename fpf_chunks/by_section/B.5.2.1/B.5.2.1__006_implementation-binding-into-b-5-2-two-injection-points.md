@@ -6,12 +6,12 @@ section_id: "B.5.2.1:5"
 section_title: "Implementation & Binding into B.5.2 (two injection points)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__006_implementation-binding-into-b-5-2-two-injection-points.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:5 — Implementation & Binding into B.5.2 (two injection points)"
-line_start: 40793
-line_end: 40820
+line_start: 40778
+line_end: 40805
 dependencies:
   - "A.17"
   - "A.18"

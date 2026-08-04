@@ -6,12 +6,12 @@ section_id: "E.17.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__001_intro.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
   - "E.17.1:intro — Intro"
-line_start: 79453
-line_end: 79476
+line_start: 79438
+line_end: 79461
 dependencies:
   - "A.16.0"
   - "A.22"

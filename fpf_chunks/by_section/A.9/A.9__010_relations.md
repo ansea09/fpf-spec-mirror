@@ -6,12 +6,12 @@ section_id: "A.9:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__010_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:9 — Relations"
-line_start: 22704
-line_end: 22713
+line_start: 22689
+line_end: 22698
 dependencies:
   - "A.1"
   - "A.8"

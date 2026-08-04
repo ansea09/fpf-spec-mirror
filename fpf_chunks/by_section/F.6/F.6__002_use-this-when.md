@@ -6,12 +6,12 @@ section_id: "F.6:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.6 — RoleAssignment and Performed-Work Attribution Check"
   - "F.6:0 — Use This When"
-line_start: 91069
-line_end: 91094
+line_start: 91054
+line_end: 91079
 dependencies:
   - "A.1.1"
   - "A.10"

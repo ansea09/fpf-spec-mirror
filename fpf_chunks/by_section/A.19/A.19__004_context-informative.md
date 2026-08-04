@@ -6,12 +6,12 @@ section_id: "A.19:2"
 section_title: "Context (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__004_context-informative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:2 — Context (Informative)"
-line_start: 28513
-line_end: 28516
+line_start: 28498
+line_end: 28501
 dependencies:
   - "A.10"
   - "A.17"

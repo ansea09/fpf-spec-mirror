@@ -6,12 +6,12 @@ section_id: "A.15.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:3 — Forces"
-line_start: 26337
-line_end: 26351
+line_start: 26322
+line_end: 26336
 dependencies:
   - "A.1"
   - "A.1.STM"

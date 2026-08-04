@@ -6,12 +6,12 @@ section_id: "B.2.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__003_problem-frame.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:1 — Problem Frame"
-line_start: 37413
-line_end: 37418
+line_start: 37398
+line_end: 37403
 dependencies:
   - "A.1.1"
   - "A.10"

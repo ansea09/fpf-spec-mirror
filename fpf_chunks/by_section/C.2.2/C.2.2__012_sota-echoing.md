@@ -6,12 +6,12 @@ section_id: "C.2.2:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__012_sota-echoing.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:11 — SoTA-Echoing"
-line_start: 42669
-line_end: 42683
+line_start: 42654
+line_end: 42668
 dependencies:
   - "A.2.6"
   - "A.21"

@@ -6,12 +6,12 @@ section_id: "F.8:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__002_use-this-when.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:0 — Use This When"
-line_start: 91660
-line_end: 91692
+line_start: 91645
+line_end: 91677
 dependencies:
   - "A.11"
   - "A.15"

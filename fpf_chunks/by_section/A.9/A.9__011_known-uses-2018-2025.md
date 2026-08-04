@@ -6,12 +6,12 @@ section_id: "A.9:10"
 section_title: "Known Uses (2018‑2025)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.9/A.9__011_known-uses-2018-2025.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.9 — Cross‑Scale Consistency (C‑3)"
   - "A.9:10 — Known Uses (2018‑2025)"
-line_start: 22714
-line_end: 22719
+line_start: 22699
+line_end: 22704
 dependencies:
   - "A.1"
   - "A.8"

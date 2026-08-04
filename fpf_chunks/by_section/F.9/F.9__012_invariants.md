@@ -6,12 +6,12 @@ section_id: "F.9:10"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__012_invariants.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:10 — Invariants"
-line_start: 92359
-line_end: 92376
+line_start: 92344
+line_end: 92361
 dependencies:
   - "A.10"
   - "A.15.1"

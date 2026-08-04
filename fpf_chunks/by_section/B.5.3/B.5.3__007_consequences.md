@@ -6,12 +6,12 @@ section_id: "B.5.3:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__007_consequences.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:6 — Consequences"
-line_start: 40988
-line_end: 40995
+line_start: 40973
+line_end: 40980
 dependencies:
   - "A.13"
   - "A.15"

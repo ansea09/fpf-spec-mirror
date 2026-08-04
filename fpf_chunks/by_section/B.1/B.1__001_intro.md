@@ -6,12 +6,12 @@ section_id: "B.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__001_intro.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:intro — Intro"
-line_start: 35271
-line_end: 35276
+line_start: 35256
+line_end: 35261
 dependencies:
   - "A.1"
   - "A.14"

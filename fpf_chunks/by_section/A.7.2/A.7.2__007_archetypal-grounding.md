@@ -6,12 +6,12 @@ section_id: "A.7.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__007_archetypal-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:5 — Archetypal Grounding"
-line_start: 22209
-line_end: 22216
+line_start: 22194
+line_end: 22201
 dependencies:
   - "A.10"
   - "A.7.1"

@@ -6,12 +6,12 @@ section_id: "F.9:18"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__020_didactic-distillation.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:18 — Didactic distillation"
-line_start: 92587
-line_end: 92598
+line_start: 92572
+line_end: 92583
 dependencies:
   - "A.10"
   - "A.15.1"

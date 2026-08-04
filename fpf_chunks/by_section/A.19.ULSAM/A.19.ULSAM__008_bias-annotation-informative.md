@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__008_bias-annotation-informative.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:6 — Bias-Annotation (informative)"
-line_start: 32661
-line_end: 32670
+line_start: 32646
+line_end: 32655
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

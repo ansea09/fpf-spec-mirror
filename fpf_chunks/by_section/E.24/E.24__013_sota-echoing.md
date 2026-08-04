@@ -6,12 +6,12 @@ section_id: "E.24:5.8"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__013_sota-echoing.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:5.8 — SoTA-Echoing"
-line_start: 88096
-line_end: 88125
+line_start: 88081
+line_end: 88110
 dependencies:
   - "A.19.ECS"
   - "A.6.0"

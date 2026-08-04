@@ -6,12 +6,12 @@ section_id: "G.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__018_sota-echoing.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:11 — SoTA-Echoing"
-line_start: 100402
-line_end: 100418
+line_start: 100387
+line_end: 100403
 dependencies:
   - "C.11"
   - "C.18"

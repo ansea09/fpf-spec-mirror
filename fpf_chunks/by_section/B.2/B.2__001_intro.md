@@ -6,12 +6,12 @@ section_id: "B.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__001_intro.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:intro — Intro"
-line_start: 37071
-line_end: 37076
+line_start: 37056
+line_end: 37061
 dependencies:
   - "A.1"
   - "A.10"

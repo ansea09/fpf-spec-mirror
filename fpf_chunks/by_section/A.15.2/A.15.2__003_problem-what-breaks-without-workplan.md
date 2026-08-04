@@ -6,12 +6,12 @@ section_id: "A.15.2:2"
 section_title: "Problem (what breaks without WorkPlan)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__003_problem-what-breaks-without-workplan.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:2 — Problem (what breaks without WorkPlan)"
-line_start: 25041
-line_end: 25048
+line_start: 25026
+line_end: 25033
 dependencies:
   - "A.10"
   - "A.15"

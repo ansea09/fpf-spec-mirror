@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 97039
-line_end: 97052
+line_start: 97024
+line_end: 97037
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

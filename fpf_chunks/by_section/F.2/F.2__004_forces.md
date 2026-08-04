@@ -6,12 +6,12 @@ section_id: "F.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:3 — Forces"
-line_start: 89881
-line_end: 89889
+line_start: 89866
+line_end: 89874
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "A.19.ECS:End"
 section_title: "A.19.ECS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__014_a-19-ecs-end.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:End — A.19.ECS:End"
-line_start: 29126
-line_end: 29127
+line_start: 29111
+line_end: 29112
 dependencies:
   - "A.17-A.19"
   - "C.16"

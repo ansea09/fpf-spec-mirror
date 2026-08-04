@@ -6,12 +6,12 @@ section_id: "F.17:14.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__020_rationale.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.2 — Rationale"
-line_start: 96181
-line_end: 96184
+line_start: 96166
+line_end: 96169
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__004_forces.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:3 — Forces"
-line_start: 72702
-line_end: 72712
+line_start: 72687
+line_end: 72697
 dependencies:
   - "A.19.ECS"
   - "C.25"

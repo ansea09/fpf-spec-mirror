@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 83032
-line_end: 83336
+line_start: 83017
+line_end: 83321
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

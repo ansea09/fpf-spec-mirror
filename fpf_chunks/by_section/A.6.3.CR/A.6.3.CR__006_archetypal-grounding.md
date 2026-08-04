@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__006_archetypal-grounding.md"
-commit_sha: "9dd9215969126625d449a40e8ca4d1df9ac903f8"
+commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:5 — Archetypal Grounding"
-line_start: 14193
-line_end: 14278
+line_start: 14178
+line_end: 14263
 dependencies:
   - "A.15"
   - "A.6.2"
