@@ -6,12 +6,12 @@ section_id: "C.32.ACS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__011_rationale.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:10 — Rationale"
-line_start: 65345
-line_end: 65350
+line_start: 65364
+line_end: 65369
 dependencies:
   - "A.1.1"
   - "A.10"

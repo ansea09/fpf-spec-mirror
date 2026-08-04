@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.3.CR.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
-line_start: 13991
-line_end: 14338
+line_start: 13994
+line_end: 14341
 dependencies:
   - "A.15"
   - "A.6.2"

@@ -6,12 +6,12 @@ section_id: "C.26:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__012_sota-echoing.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:11 — SoTA-Echoing"
-line_start: 53988
-line_end: 54012
+line_start: 54007
+line_end: 54031
 dependencies:
   - "A.10"
   - "A.15"

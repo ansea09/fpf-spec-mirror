@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.2.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
-line_start: 84106
-line_end: 84330
+line_start: 84125
+line_end: 84349
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ The primary EntityOfConcern is `TransformationFlowMathematicalDescription@Contex
 | declared mathematical-lens use and its adequacy | `C.29` | not a local E.18.2 invention; use C.29 when adequacy, payoff, preserved/lost structure, or stop condition is claim-bearing |
 | rendered graph, table, equation, diagram, or other publication face | `E.17` and the governing view or architecture-description pattern | may publish the mathematical description but neither becomes it nor reidentifies the selected TFS or network |
 
-When the described selected structure is an `E.18.3` transformation-flow unfolding structure, E.18.2 still governs only the mathematical description. A graph, path expression, category object, algebra, tuple, or matrix may describe transformation loci, guards, crossings, preserved structure, lost structure, and direct exits, but the expression remains `TransformationFlowMathematicalDescription@Context` or a C.29 lens-use claim. It does not become the constraint-governed unfolding structure and does not carry method, work, evidence, architecture, publication, or refresh authority.
+When the described selected structure is one A.22-selected CGUS qualified under `E.18.3` through an independently identified E.18 substrate, E.18.2 still governs only the mathematical description. A graph, path expression, category object, algebra, tuple, or matrix may describe substrate positions, crossings, and condition labels, but the expression does not decide whether a condition is an applied claim, an E.18 `GuardFail` event, or an independently defined relation occurrence. It may also describe preserved or lost structure, exact supporting relations to independently identified neighboring values, and stop or reconsideration questions, but it remains `TransformationFlowMathematicalDescription@Context` or a C.29 lens-use claim. It does not become the selected CGUS or its substrate and does not carry method, work, evidence, architecture, publication, or refresh authority.
 
 #### E.18.2:1.1 - Use this when
 
@@ -81,7 +81,7 @@ The practitioner can use mathematical structure without overclaiming it. The rec
 
 - one selected transformation-flow structure itself is the EntityOfConcern; use `E.18`;
 - one selected network of independently identified TFS or nested-network members is the EntityOfConcern; use `E.18.NET`;
-- the selected transformation-flow unfolding structure itself is the EntityOfConcern; use `E.18.3`;
+- one A.22-selected CGUS whose E.18.3 qualification uses an independently identified E.18 substrate is the EntityOfConcern; use `E.18.3`;
 - one bounded transformation is the EntityOfConcern; use `A.3.4`;
 - the claim is general mathematical-lens adequacy outside transformation-flow structures; use `C.29`;
 - the claim is a publication face or view publication; use `E.17` and the relevant view or architecture-description pattern;
@@ -171,7 +171,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 | one bounded change under conditions | `A.3.4` |
 | one selected transformation-flow structure, flow valuation, path, slice, crossing, or refresh locus | `E.18` |
 | one selected network of independently identified TFS or nested-network members and exact cross-member relations | `E.18.NET` |
-| selected transformation-flow unfolding structure with constraints, guards, preserved/lost structure, and direct exits | `E.18.3` |
+| one A.22-selected CGUS qualified through an independently identified E.18 substrate, with constraints and guarded alternatives whose applied-claim, E.18-event, or independently defined relation basis remains separate, plus preserved/lost structure, neighboring values connected by exact supporting relations, and stop or reconsideration questions | `E.18.3` |
 | mathematical-lens adequacy, preserved/lost structure, payoff, or stop condition | `C.29` |
 | method, method description, mechanism, signature, work plan, or performed work | `A.3.1`, `A.3.2`, `A.6.1`, `A.6.0`, `A.15.2`, or `A.15.1` |
 | evidence, assurance, gate, release, or decision | `A.10`, `B.3`, `A.20`, `A.21`, or `C.11` |

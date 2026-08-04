@@ -6,12 +6,12 @@ section_id: "E.18.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__008_bias-annotation.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:6 — Bias-Annotation"
-line_start: 84593
-line_end: 84603
+line_start: 84717
+line_end: 84727
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,10 +44,10 @@ keywords:
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Path-as-workflow | Restore the selected structure, exact E.18 positions and bindings, already-obtaining relations, guards, preserved/lost structure and direct Work-pattern exits. |
-| Graph-as-structure-in-every-sense | Keep graphs and flow cards as provisional C.2.1 epistemes before admission or separate demonstrative epistemes afterward; neither presentation is the governed structure. |
+| Path-as-workflow | Restore the selected structure, exact E.18 positions and bindings, already-obtaining relations, discriminated applied-claim or E.18-event condition branches, preserved/lost structure, concrete neighboring contributions and reconsideration conditions. |
+| Graph-as-structure-in-every-sense | Keep a pre-admission graph or flow card as an ordinary provisional explanation; constitute a C.2.1 episteme only when persistence or replay of its narrower claim is current. Keep a post-admission demonstrative episteme separate from the selected structure. |
 | Profile-as-second-structure | Keep the four A.22 discriminators as the one structure identity. E.18.3 qualification, records, descriptions, locators and reciprocal-looking references create no second structure. |
 | One TFS as universal parent | Classify several valuations, one internal `SubflowRef` and independently selected E.18.NET members before using a demonstration. |
-| Gate, evidence or subject-use absorption | Keep each direct claim with its owner even when a relation-reference episteme gives the same occurrence a structural-function classification. |
-| Intended realization as MethodDescription or Work | Apply the exact A.3.2 membership threshold or A.15.1 occurrence test; pattern refs, imperatives, rows and selected continuations establish neither. |
+| Gate, evidence or subject-use absorption | Keep each claim separate: the applicable evidence, assurance, gate, or other concrete rule supplies its criterion, and current facts or evidence must show that the claim obtains even when a relation-reference episteme cites the same occurrence for transformation-flow replay. |
+| Intended realization as MethodDescription or Work | Use the A.3.2 membership test or A.15.1 occurrence test on the exact independently identified object; pattern refs, imperatives, rows, and selected continuations neither identify that object nor show that the test is satisfied. |
 

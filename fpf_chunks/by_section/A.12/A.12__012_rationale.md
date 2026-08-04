@@ -6,12 +6,12 @@ section_id: "A.12:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__012_rationale.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:9 — Rationale"
-line_start: 23506
-line_end: 23511
+line_start: 23509
+line_end: 23514
 dependencies:
   - "A.1"
   - "A.1.1"

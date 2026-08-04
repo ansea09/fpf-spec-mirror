@@ -6,12 +6,12 @@ section_id: "B.3:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__009_conformance-checklist.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:7 — Conformance checklist"
-line_start: 39010
-line_end: 39029
+line_start: 39022
+line_end: 39041
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,5 +80,5 @@ keywords:
 | **CC-B3.12** | When reliance may materially change behavior, safety, release, compliance, access, resources, people/team status use, operational action, or controlled-entity regulation, constitute the assurance-result claim or explicitly narrow, degrade, abstain, request evidence, reopen, or block; an optional `RelianceSafetyCase` record only cites that result and basis. | Keep consequential assurance concrete without turning the record into authority. |
 | **CC-B3.13** | Target/world-side result, target-claim episteme, assessment work, input results, assurance-result episteme, witnesses, record, publication, and later reliance/status/gate/decision remain independently recoverable. | Prevent result and process collapse. |
 | **CC-B3.14** | Evidence availability, provenance, or a successful check may alter warrant and assurance disposition but does not create target truth; absence of evidence is not a negative target result. | Preserve the world/claim/warrant boundary. |
-| **CC-B3.15** | Every status value or status use returns to F.10 or its direct owner; assurance does not define the target, approve a standard, satisfy a requirement, pass a gate, grant permission, or prove actual reliance. | Preserve the assurance/status/use boundary. |
+| **CC-B3.15** | F.10 defines the status value and its use; cite any domain-specific status rule only for the concrete contribution it makes. Assurance does not define the target, approve a standard, satisfy a requirement, pass a gate, grant permission, or prove actual reliance. | Preserve the assurance/status/use boundary. |
 

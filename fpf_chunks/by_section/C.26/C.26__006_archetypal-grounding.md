@@ -6,12 +6,12 @@ section_id: "C.26:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__006_archetypal-grounding.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:5 — Archetypal Grounding"
-line_start: 53850
-line_end: 53859
+line_start: 53869
+line_end: 53878
 dependencies:
   - "A.10"
   - "A.15"

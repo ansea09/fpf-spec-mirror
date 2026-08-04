@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution-part-1-the-assurance-tuple-and-the-universal-aggregation-skeleton.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:4 — Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
-line_start: 38526
-line_end: 38879
+line_start: 38536
+line_end: 38891
 dependencies:
   - "A.10"
   - "A.15"
@@ -188,10 +188,12 @@ Build a `B.3` assurance claim only when the next work occurrence or reliance use
 | Target claim and assurance use | Exact target-claim episteme `E_C`, its direct subject-result governor, and named `U_A`: readiness, release, audit, compliance, safety, model credibility, or another assurance use. |
 | Interpretation, scope, conditions, and time | `RS_A`, `G_A`, `T_A`, exact assumption/condition refs, and the audience or relying role when human-facing. The target holon is reached through `E_C`'s EntityOfConcern, not copied into a generic context tuple. |
 | Assessment work and condition | Dated assessment work, performer assignment, enacted method, exact rule/application bindings, and the method, policy, test, audit, or measurement conditions consumed. |
-| Input results, evidence use, and provenance | Exact domain input-result claims; A.2.4 evidence-use relation refs with target, polarity, scope, and window; and the minimum A.10/G.6 path. Proof or status results remain their direct owners' results and do not evidence assurance merely by appearing in the record. |
+| Input results, evidence use, and provenance | Name the exact domain input-result claims; A.2.4 evidence-use relation refs with target, polarity, scope, window, and intended use; and the minimum A.10/G.6 provenance path. A proof or status result remains a separate domain result; its appearance in an assurance record neither makes it evidence nor raises assurance. Cite the exact defining or testing content only when the assurance argument depends on that interpretation. |
 | Argument and assurance rationale | The exact aggregation/argument rule and why the cited input-result and evidence-use relations warrant the assurance-result claim for `E_C` and `U_A` under `RS_A`, `G_A`, and `T_A`, including assumptions, defeaters, and challenges. |
 | Limitations and rival explanations | Scope limits, claims or uses not carried by the assurance tuple, stale display, spoofing, copied text, generated text, proxy-for-value substitution, provenance-only source relation, context shift, and known failure conditions. |
 | Decay and reopen condition | Valid-until, revocation, policy version, gate version, model version drift, monitoring change, incident signal, evidence refresh, and contest or redress relation. |
+
+For a full threshold-bearing assurance result, retain the dated assessment `U.Work`, capable performer and assignment, enacted Method, and application bindings when their identity bears on replay, competence, conflict, timing, reproducibility, contest, or redress. If evidence was produced by a material analysis or test, keep that evidence-production Work and its result distinct from the assurance-assessment Work and assurance result. A method description, record, witness, publication, or favorable result performs neither work and establishes no later reliance.
 
 **Assurance evidence minimization.** Cite only the A.2.4 evidence-use relations and minimum A.10/G.6 paths needed for `E_C` and `U_A`. Use redacted, hashed, scoped, or role-mediated refs when raw material exposes personal data, secrets, privileged logs, tenant identifiers, security-sensitive traces, incident details, or unnecessary identities; a compact pointer must still preserve enough recoverability to replay the warrant.
 
@@ -247,7 +249,7 @@ Use this B.3 section when the B.3 material-reliance threshold is met: reliance o
 
 Assurance-record use: the trigger/non-trigger table is a recognition aid, the minimum-record table is a local form aid, and the worked slices are examples. They are not a universal checklist, sign-off sequence, status vocabulary, assessment work, or replacement for `AssuranceResult(E_C, U_A | RS_A, G_A, T_A)`. The record cites the assurance-result claim and its independently governed basis; filling it makes no relation obtain.
 
-Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless an assurance claim is being made; threshold reliance uses the minimum reliance safety assurance record only when the B.3 material-reliance threshold is met. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, assurance, work, decision, or selected governing pattern.
+Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless an assurance claim is being made; threshold reliance uses the minimum reliance safety assurance record only when the B.3 material-reliance threshold is met. Plain wording remains ordinary unless it changes a bounded use, source relation, evidence use, gate, assurance claim, work, or decision. Stop after naming the concrete use or relation that changed; no selected pattern locator is required.
 
 Common wrong first classification: a safety-looking note, safety case, compliance-looking label, or dashboard warning is a certificate, approval, or gate. First honest entry: state one typed B.3 assurance claim with A.10 evidence-provenance path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress relation, bounded assurance use, and unsupported attempted use.
 

@@ -6,12 +6,12 @@ section_id: "E.18.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__004_problem.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:2 — Problem"
-line_start: 84353
-line_end: 84358
+line_start: 84374
+line_end: 84379
 dependencies:
   - "A.10"
   - "A.15"
@@ -44,5 +44,5 @@ keywords:
 
 Transformation-flow artifacts are easy to overread. A path diagram becomes a workflow. A flow card becomes performed work. A P2W chain becomes work authorization. A graph expression becomes the whole structure. A gate, evidence path, architecture decision, or publication face becomes part of the transformation-flow ontology by visual adjacency.
 
-The repair cannot be lexical. E.18.3 qualification depends on one exact A.22-selected structure, the correct E.18 or E.18.NET case, independently governed transformation subjects, admitted position mappings, exact already-obtaining relation occurrences, separately claim-bearing structural-function and subject-use classifications when needed, preserved structures, C.33 adequacy notes, and distinct ordinary stop and neighboring returns.
+The repair cannot be lexical. E.18.3 qualification depends on one exact A.22-selected structure, the correct E.18 or E.18.NET case, independently identified and typed transformation subjects, admitted position mappings, exact already-obtaining relation occurrences, exact relation references and separately supported subject-use classifications when needed, preserved structures, C.33 adequacy notes, and distinct ordinary stop and reconsideration conditions.
 

@@ -6,12 +6,12 @@ section_id: "F.4:13"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__015_phrasebook.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "F.4 — Role Description - Description Episteme for U.Role"
   - "F.4:13 — Phrasebook"
-line_start: 90742
-line_end: 90762
+line_start: 90868
+line_end: 90888
 dependencies:
   - "A.15"
   - "A.15.1"

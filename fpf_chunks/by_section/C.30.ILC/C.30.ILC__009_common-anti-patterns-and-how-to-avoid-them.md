@@ -6,12 +6,12 @@ section_id: "C.30.ILC:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 62681
-line_end: 62694
+line_start: 62700
+line_end: 62713
 dependencies:
   - "A.10"
   - "A.22"

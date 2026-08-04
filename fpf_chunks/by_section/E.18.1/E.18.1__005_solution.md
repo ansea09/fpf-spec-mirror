@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 83619
-line_end: 83889
+line_start: 83638
+line_end: 83908
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -132,19 +132,19 @@ The table below is the complete P2W-local decision aid. It asks only what result
 | Which continuations remain current? | One or more separate results from their direct patterns, or no continuation. | Keep one continuation per answered question; display order and chronology add no relation. |
 | What changed later? | The changed relied-on relation and the smallest dependent continuation. | Reapply its direct pattern and reopen only that continuation. |
 
-When the conditional structure extension opens, `A.22.CGUS` and `E.18.3` supply the admitted structure, typed positions, SlotSpecs, relation references, and stop or return boundaries. P2W adds only its accepted claim, receiving use, one returned result or honest stop, split, and local return; it adds no structure field. Plain actions such as `carry`, `recover`, `write`, `split`, `stop`, and `return` guide this P2W use. They are not P2W relation kinds, commitments, permissions, gates, or substitutes for the direct pattern's rules.
+When the conditional structure extension opens, recover one admitted A.22-selected CGUS and, under E.18.3, the independently identified E.18 substrate positions, bindings, already-obtaining occurrences, and any relation-reference epistemes needed for replay. The exact condition basis—an applied claim with its test and current facts, an E.18 `GuardFail` event with its gate-assignment facts, or an independently defined obtaining guard-relation occurrence—supports an ordinary stop or reconsideration question; no return relation follows from the pattern reference. P2W keeps only its accepted claim, current use, one direct-pattern result or honest stop, split, and smallest affected continuation; it adds no structure field. Plain actions such as `carry`, `recover`, `write`, `split`, `stop`, and `return` guide this P2W use. They are not P2W relation kinds, commitments, permissions, gates, or substitutes for the direct pattern's rules.
 
 
 #### E.18.1:4.0b - Conditional structure extension through E.18.3
 
-Open this extension only when the reader must show explicit branches, joins, guards, paths, preserved structures, omitted-structure notes, or distinct stop and return positions. A.22.CGUS selects one exact `U.Structure` by its independently identified constituents, selected obtaining relation occurrences, applied constraints and named selection-use frame. `E.18.3` recognizes that same selected structure under its additional transformation-flow unfolding condition and reuses exact E.18 positions and directly governed relation references. E.18.1 declares no P2W subset schema, wrapper relation or hybrid record.
+Open this extension only when the reader must show explicit branches, joins, guards, paths, preserved structures, omitted-structure notes, or distinct stop and reconsideration questions. Identify one exact `U.Structure` under A.22.CGUS by its independently identified constituents, selected obtaining relation occurrences, applied constraints, and named selection-use frame. E.18.3 qualifies that selected CGUS only when it uses exact positions, bindings, and already-obtaining occurrences from one independently identified E.18 one-TFS, parent-relative internal-`SubflowRef`, or E.18.NET substrate. E.18.1 declares no P2W subset schema, wrapper relation, or hybrid record.
 
-| P2W need in the structure-bearing use | Representation supplied by the direct owner | P2W boundary |
+| P2W need in the structure-bearing use | Representation recovered from the direct interface | P2W boundary |
 |---|---|---|
-| Cite the accepted starting `ProblemCard@Context` | Select that already identified C.22.2 episteme as one constituent only when the admitted A.22/E.18.3 structure and receiving use actually include it. | The accepted card remains a record; selection, a field or adjacency does not make it the structure, a position, a relation occurrence, MethodDescription or Work. |
-| Expose transformation-flow topology or positions | Use the exact E.18.3 positions, E.18 bindings and separately admitted relation-reference epistemes or obtaining occurrence refs needed by the stated decision or use. | E.18.3 and the direct neighbouring patterns own those values; P2W neither shortens their interfaces nor turns display order into project-work order. |
-| Preserve the carried claim and why the decision or use needs it | Use conversational P2W content or the compact C.2.1 episteme in `4.1`; cite an exact source, derivation or receiving-use relation only when its direct owner admits it. | P2W adds no carried-claim field to structure identity, and file history or shared wording creates no source-use relation. |
-| State a stop or the smallest return | Use the admitted structure's named selection-use frame, exact guard or constraint claim, ordinary stop, return condition and exact neighboring governor. | P2W contributes only the local continuation that stops or reopens; a boundary sentence creates no relation, gate, permission or Work. |
+| Cite the accepted starting `ProblemCard@Context` | Select that already identified C.22.2 episteme as one constituent only when the admitted A.22/E.18.3 structure and current use actually include it. | The accepted card remains a record; selection, a field or adjacency does not make it the structure, a position, a relation occurrence, MethodDescription or Work. |
+| Expose transformation-flow topology or positions | Use the exact positions and bindings from the independently identified E.18 substrate plus separately admitted relation-reference epistemes or obtaining occurrence refs needed by the stated decision or use. | Each value and relation keeps its own identity and obtaining basis; citing E.18.3 or a neighboring pattern neither identifies nor routes it, and P2W neither shortens the interfaces nor turns display order into project-work order. |
+| Preserve the carried claim and why the decision or use needs it | Use conversational P2W content or the compact C.2.1 episteme in `4.1`; cite an exact source, derivation, or current-use relation only when its direct predicate and current facts show that it obtains. | P2W adds no carried-claim field to structure identity, and file history or shared wording creates no source-use relation. |
+| State a stop or reconsideration question | Use the admitted structure's named selection-use frame and the exact condition basis: an applied claim with its test and current facts, an E.18 `GuardFail` event with its gate-assignment facts, or an independently defined obtaining guard-relation occurrence. Then state the ordinary stop or reconsideration question; add a neighboring relation only when its exact occurrence obtains. | P2W contributes only the local continuation that stops or reopens; a boundary sentence creates no relation, gate, permission, or Work. |
 
 Before choosing the structure branch, distinguish three cases. Several `FlowValuation` values that resolve to one exact `TransformationFlowStructure` remain valuations of that one TFS. A detailed internal portion that resolves only through the same TFS positions and internal `U.Transfer` occurrences remains one parent-relative `SubflowRef`. Two or more independently identified TFS or nested-network values connected across their boundaries by exact already-obtaining relations require one E.18.NET `TransformationFlowStructureNetwork`; do not flatten them into one giant TFS. Every network member retains its own boundary, Work, actual transformations, valuations and leaf-local position binding or `DesignRunTag`. Each nested boundary reference resolves through one finite acyclic `memberPath[]` to an exact `ExposedFlowPositionRef`; each selected cross-boundary claim cites its exact obtaining occurrence and complete ordered endpoint bindings through one resolvable `NetworkCrossFlowRelationRowRef`. Membership is acyclic, while directly governed feedback relations may cycle.
 

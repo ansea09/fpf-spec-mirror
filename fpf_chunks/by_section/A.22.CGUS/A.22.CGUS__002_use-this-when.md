@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__002_use-this-when.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:0 — Use This When"
-line_start: 34803
-line_end: 34812
+line_start: 34806
+line_end: 34815
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -48,5 +48,5 @@ When that is the live question, select one `ConstraintGovernedUnfoldingStructure
 
 Use CGUS only after the candidate structure has more than one typed position and the relations or constraints among those positions affect admissible continuations. A single recommendation, diagram, slogan, pattern list, or document section is not enough.
 
-**What changes in practice.** Do not begin by completing a route-shaped template. First decide whether the visible artifact is still a provisional episteme or whether one selected structure passes the A.22 admission test. For an admitted structure, recover the exact constituents, obtaining relation occurrences, constraints, current alternatives, and return before displaying one traversal; at the first unresolved discriminator or direct governor, stop and name that missing value. Admission recognizes the selected structure and its currently admissible continuations; evidence sufficiency, assurance, gate passage, authorization, and performed Work remain separate questions under their direct owners.
+**What changes in practice.** Do not begin by completing a route-shaped template. First decide whether the visible artifact is still a provisional episteme or whether one selected structure passes the A.22 admission test. For an admitted structure, recover the exact constituents, obtaining relation occurrences, constraints, current alternatives, and reconsideration conditions before displaying one traversal; at the first unresolved discriminator, predicate, occurrence, or needed neighboring contribution, stop and name that missing value. Admission recognizes the selected structure and its currently admissible continuations; evidence sufficiency, assurance, gate passage, authorization, and performed Work remain separate questions under the patterns that define or constrain those claims.
 

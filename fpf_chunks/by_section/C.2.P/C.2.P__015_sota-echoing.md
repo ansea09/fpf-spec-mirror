@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 42234
-line_end: 42294
+line_start: 42253
+line_end: 42313
 dependencies:
   - "A.10"
   - "A.15"

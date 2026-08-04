@@ -6,12 +6,12 @@ section_id: "E.11:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__001_intro.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.11 — Practical-Use Guidance and Pattern Discovery"
   - "E.11:intro — Intro"
-line_start: 76668
-line_end: 76673
+line_start: 76687
+line_end: 76692
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

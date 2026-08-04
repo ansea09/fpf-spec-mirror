@@ -6,12 +6,12 @@ section_id: "C.3.4:1"
 section_title: "Purpose (manager’s view)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__002_purpose-manager-s-view.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
   - "C.3.4:1 — Purpose (manager’s view)"
-line_start: 45353
-line_end: 45363
+line_start: 45372
+line_end: 45382
 dependencies:
   - "C.2.1"
   - "C.3.1"

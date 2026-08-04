@@ -6,12 +6,12 @@ section_id: "A.3.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__014_relations.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:12 — Relations"
-line_start: 8850
-line_end: 8854
+line_start: 8853
+line_end: 8857
 dependencies:
   - "A.1"
   - "A.10"

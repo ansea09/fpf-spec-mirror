@@ -6,12 +6,12 @@ section_id: "A.1.STM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__001_intro.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:intro — Intro"
-line_start: 2508
-line_end: 2517
+line_start: 2511
+line_end: 2520
 dependencies:
   - "A.1"
   - "A.1.SCR"

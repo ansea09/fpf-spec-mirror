@@ -6,12 +6,12 @@ section_id: "F.2:6"
 section_title: "Solution — three mental moves (notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__007_solution-three-mental-moves-notation-free.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:6 — Solution — three mental moves (notation‑free)"
-line_start: 89893
-line_end: 89919
+line_start: 90019
+line_end: 90045
 dependencies:
   - "A.11"
   - "A.7"

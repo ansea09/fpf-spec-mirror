@@ -6,12 +6,12 @@ section_id: "B.2.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.3/B.2.3__012_rationale.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.2.3 — Meta-Holon Transition With Episteme Result"
   - "B.2.3:9 — Rationale"
-line_start: 38028
-line_end: 38033
+line_start: 38038
+line_end: 38043
 dependencies:
   - "A.1"
   - "A.10"

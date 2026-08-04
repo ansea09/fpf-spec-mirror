@@ -6,12 +6,12 @@ section_id: "B.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__014_relations.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:11 — Relations"
-line_start: 39076
-line_end: 39088
+line_start: 39095
+line_end: 39107
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ keywords:
 * **Builds on:** C.2.1 for target and assurance-result epistemes; A.2.4 for exact evidence-use classification; A.10/G.6 for source-provenance paths and bounded reliance; A.15.1/A.6.1 for assessment work and applications; B.1/B.1.1 and the current system-composition, temporal, work, and relation patterns for exact input structures and occurrences; A.2.6 for ClaimScope; C.16/C.16.Q for scale/value discipline where applicable; and C.13 for Compose-CAL.
 * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation label-meaning and grounding (`tv:*`, `validationMode`).
 * **Coordinates with:** `C.28` for `CausalUseSupportVerdict`, `CausalityLadderRung`, `CausalEvidenceSupportBasis`, identification profile refs, realizability profile refs, supported causal use, and unsupported causal use; `A.10` for the evidence-provenance graph path carrying causal-evidence refs.
-* **Coordinates with:** `F.10` and each direct status owner for status values and use; `G.11` for currentness; `A.15` for work/reliance disposition; `A.21` for gates; `A.20` for constraint-validity results; permission, commitment, release, and decision patterns for their own results; E.17/E.24.PUB and C.29 for publication/representation; and A.15.PROD only when a separately current inception claim is needed. B.3 governs the assurance-result claim, not those neighboring objects.
+* **Coordinates with:** `F.10` for status values and their use; `G.11` for currentness; `A.15` for work/reliance disposition; `A.21` for gates; `A.20` for constraint-validity results; permission, commitment, release, and decision patterns for their own results; E.17/E.24.PUB and C.29 for publication/representation; and A.15.PROD only when a separately current inception claim is needed. Cite another domain definition or test only for the concrete contribution it makes to the assurance argument. B.3 governs the assurance-result claim, not those neighboring objects.
 * **Used by:** KD-CAL improvement patterns (to plan improvements), B.4 (Evolution loops that raise `F`, `G`, `R`, or `CL` over time).
 * **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
 

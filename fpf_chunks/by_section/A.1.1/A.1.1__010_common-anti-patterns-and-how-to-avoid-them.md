@@ -6,12 +6,12 @@ section_id: "A.1.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 2189
-line_end: 2199
+line_start: 2192
+line_end: 2202
 dependencies:
   - "A.1"
   - "A.14"

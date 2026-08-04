@@ -6,12 +6,12 @@ section_id: "B.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 39030
-line_end: 39046
+line_start: 39042
+line_end: 39058
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,8 +74,8 @@ keywords:
 | **Agency override** | Claiming higher assurance because a controller is “clever” | Agency may justify how improvements are achieved; it cannot remove WLNK or `Φ`. |
 | **MemberOf as stock** | Using `MemberOf` to sum reliabilities | Keep `MemberOf` for collections; reliability comes from the relevant Γ composition, such as the Γ_sys cutset. |
 | **False assurance by display** | A badge, dashboard color, credential, provenance label, model/data card, assurance document, attestation, or phrase is used as assurance. | Keep it as orientation/source material unless an exact assessment and typed assurance-result claim cite the necessary input-result, A.2.4 evidence-use, and A.10/G.6 provenance refs. |
-| **Minimum reliance safety assurance record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety assurance record; or the record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the material-reliance trigger. If absent, stay with the direct owner. If met, constitute only the assurance-result claim and minimum record/contest-redress support needed for `U_A`. |
+| **Minimum reliance safety assurance record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety assurance record; or the record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the material-reliance trigger. If absent, return the case to the exact evidence, source, status, gate, comparison, or local-use rule that answers it. If met, constitute only the assurance-result claim and minimum record/contest-redress support needed for `U_A`. |
 | **Evidence creates truth** | Evidence arrival is said to make the target result obtain, or evidence loss is called falsity. | Keep target facts and direct result with their governor; revise only evidence use, warrant, assurance disposition, or reliance unless the subject facts changed. |
 | **Assessment-record collapse** | A checklist, calculation, record, witness, or publication is treated as assessment work or its result. | Name dated work/application, result-claim episteme, witness, record, and publication separately. |
-| **Status as assurance** | Approved/current/ready/compliant status defines the target, satisfies a requirement, or proves assurance and release. | Return status/value/use to F.10 or its direct owner and constitute a separate B.3 result only when assurance is actually assessed. |
+| **Status as assurance** | Approved/current/ready/compliant status defines the target, satisfies a requirement, or proves assurance and release. | Use F.10 for the status value and its use; cite another domain-specific status rule only for its concrete contribution, and constitute a separate B.3 result only when assurance is actually assessed. |
 

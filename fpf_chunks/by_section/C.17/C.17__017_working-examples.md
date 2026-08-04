@@ -6,12 +6,12 @@ section_id: "C.17:16"
 section_title: "Working examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__017_working-examples.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:16 — Working examples"
-line_start: 49011
-line_end: 49050
+line_start: 49030
+line_end: 49069
 dependencies:
   - "A.1"
   - "A.10"

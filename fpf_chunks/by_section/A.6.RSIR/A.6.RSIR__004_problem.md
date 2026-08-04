@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__004_problem.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:2 — Problem"
-line_start: 17166
-line_end: 17177
+line_start: 17169
+line_end: 17180
 dependencies:
   - "A.10"
   - "A.15"

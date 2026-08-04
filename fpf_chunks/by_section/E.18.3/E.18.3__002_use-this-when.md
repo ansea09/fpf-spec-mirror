@@ -6,12 +6,12 @@ section_id: "E.18.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__002_use-this-when.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:0 — Use This When"
-line_start: 84337
-line_end: 84348
+line_start: 84356
+line_end: 84369
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,13 +42,15 @@ keywords:
 
 ### E.18.3:0 - Use This When
 
-Use this pattern when a team is planning, reviewing, or explaining a transformation and a route-like flow card is useful, but branches, joins, guards, or connections to separately governed positions determine what can follow. The practical need is to recover those transformation-flow relations without treating displayed order as performed-work order, evidence, decision, or authorization.
+Use this pattern when a team is planning, reviewing, or explaining a transformation and a route-like flow card is useful, but branches, joins, guards, or connections to independently identified neighboring values or neighboring claims already shown to obtain determine what can follow. The practical need is to recover those transformation-flow relations without treating displayed order as performed-work order, evidence, decision, or authorization.
 
-The admitted object is the same selected `U.Structure` already identified under A.22 and qualified as a CGUS by exact constituents, selected obtaining relation occurrences, applied constraints and one named selection-use frame. E.18.3 recognizes that object under an additional transformation-flow unfolding condition; it does not manufacture a generic CGUS plus a reciprocal narrower structure. Its transformation-flow use reuses exact E.18 positions and bindings, direct relation occurrences and, when independent flows cross, one selected E.18.NET network.
+The admitted object is the same selected `U.Structure` already identified under A.22 and qualified as a CGUS by exact constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame. E.18.3 recognizes that object under an additional transformation-flow unfolding condition; it does not manufacture a generic CGUS plus a reciprocal narrower structure. That condition uses one independently identified E.18 substrate branch: one TFS, one parent-relative internal `SubflowRef` within a TFS, or one selected E.18.NET network. The A.22-selected CGUS uses exact substrate positions, bindings, and already-obtaining occurrences; the substrate ref does not resolve to `selectedCGUSRef` and is not a second CGUS.
 
-Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether typed transformation positions, exact crossings and guards, the correct one-TFS, internal-subflow or network case, preserved transformation structures, relevant C.33 adequacy notes, and direct governing-pattern exits are recoverable.
+Do not use this pattern merely because a visible record or description is a route, path, graph, process map, chain, loop, or swimlane. First ask whether a branch, join, guard, dependency, crossing, or connection changes the continuation question for the concrete thing being transformed. If it does not, keep the artifact as an ordinary route description. When the current use claims E.18.3 qualification, typed transformation positions, exact crossings and guards, the correct one-TFS, internal-subflow or network case, preserved transformation structures, relevant C.33 adequacy notes, explicit stronger neighboring claims with their concrete contributions, and stop or reconsideration conditions become admission criteria rather than first-entry paperwork.
 
-The first useful move is small: name the exact selected structure and current transformation subject, identify two candidate E.18 positions, and state the exact relation or guard that may change which continuation is admissible. Here `move` is Plain wording for that current use action, not a universal kind or relation; proposing or selecting it performs no Work. If the structure identity or relation occurrence is not recoverable, keep the visible artifact as an ordinary C.2.1 provisional demonstration episteme and return to the missing A.22.CGUS or direct-relation coordinate.
+The first useful move is small and ordinary: name the concrete thing being transformed, mark two recognizable places or states on the flow card in domain language, state the proposed connection or guard, and ask which continuation depends on it. A useful result can be a provisional explanation that names the missing relation, fact, or constraint. It need not yet be asserted as a C.2.1 episteme, E.18 position mapping, or selected A.22 structure. If that explanation answers the current use, stop there.
 
-**What changes in practice.** The practitioner stops asking whether a diagram “looks like a flow” and instead recovers one selected structure, the exact E.18 or E.18.NET position bindings used by this question, already-obtaining relations, and the smallest honest stop or neighboring return. A demonstration can then guide attention without becoming the structure, a MethodDescription, a WorkPlan or performed Work.
+Only when the team must assert E.18.3 qualification, compare or publish the selected structure, or support a stronger downstream claim should it recover the exact A.22-selected structure, transformation subjects and kinds, E.18 or E.18.NET positions and bindings, already-obtaining relation occurrences, constraints, C.33 notes, and replay fields. Here `move` is Plain wording for the current use action, not a universal kind or relation; proposing, selecting, or formalizing it performs no Work.
+
+**What changes in practice.** The practitioner stops asking whether a diagram “looks like a flow” and first names the concrete transformation subject, two recognizable places or states, the proposed relation or guard, and the smallest honest continuation question. Exact structure identity, E.18 or E.18.NET bindings, already-obtaining relations, and replay fields are added only when qualification, comparison, publication, or stronger reliance makes them material. A provisional explanation or later demonstration can guide attention without becoming the structure, a MethodDescription, a WorkPlan, or performed Work.
 

@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__002_use-this-when.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:0 — Use this when"
-line_start: 6493
-line_end: 6502
+line_start: 6496
+line_end: 6505
 dependencies:
   - "A.10"
   - "A.15.1"

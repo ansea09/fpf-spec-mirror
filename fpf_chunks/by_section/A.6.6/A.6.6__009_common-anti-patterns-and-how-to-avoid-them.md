@@ -6,12 +6,12 @@ section_id: "A.6.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 19764
-line_end: 19778
+line_start: 19767
+line_end: 19781
 dependencies:
   - "A.10"
   - "A.14"

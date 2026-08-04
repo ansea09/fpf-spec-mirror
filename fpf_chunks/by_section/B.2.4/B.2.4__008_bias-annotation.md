@@ -6,12 +6,12 @@ section_id: "B.2.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__008_bias-annotation.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:5.1 — Bias-Annotation"
-line_start: 38182
-line_end: 38191
+line_start: 38192
+line_end: 38201
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.18.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__014_relations.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:12 — Relations"
-line_start: 84662
-line_end: 84671
+line_start: 84788
+line_end: 84797
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,11 +42,11 @@ keywords:
 
 ### E.18.3:12 - Relations
 
-Specializes: the A.22.CGUS use of one selected `U.Structure` when the same exact constituents, selected obtaining relation occurrences, applied constraints and named selection-use frame also satisfy the transformation-flow unfolding condition through exact E.18 positions and bindings. E.18.3 creates no second structure or ambient context identity.
+Specializes: the A.22.CGUS use of one selected `U.Structure` when the same exact constituents, selected obtaining relation occurrences, applied constraints, and named selection-use frame use exact positions, bindings, and obtaining occurrences from one independently identified E.18 substrate branch and satisfy the transformation-flow unfolding condition. E.18.3 creates no second structure or ambient context identity, and no substrate ref resolves to `selectedCGUSRef`.
 
-Builds on: `E.18` for one-TFS positions, internal `U.Transfer` occurrences, valuations, paths, slices and `SubflowRef`; `E.18.NET` for independently selected TFS or nested-network members, finite member paths, exposed positions and exact obtaining cross-member occurrences; `A.22.CGUS` for position locators, provisional/description/demonstrative episteme separation and mutually exclusive post-admission locator families; `A.3.4`, `A.22` and `E.17` for transformation, structure and publication discipline.
+Builds on: `E.18` for independently identified one-TFS substrates, positions, internal `U.Transfer` occurrences, valuations, paths, slices, and parent-relative `SubflowRef`; `E.18.NET` for independently identified network substrates, finite member paths, exposed positions, and exact obtaining cross-member occurrences; `A.22.CGUS` for the separate selected-CGUS identity, position locators, provisional/description/demonstrative episteme separation, and mutually exclusive post-admission locator families; `A.3.4`, `A.22`, and `E.17` for transformation, structure, and publication discipline.
 
 Coordinates with: `E.18.1`, `C.32.P2S`, `C.30.TFS-REL`, `C.32.CONWAY`, `E.23`, `C.18`, `C.19`, `G.5`, `A.15`, `A.15.PROD`, `A.10`, `B.3`, `A.20`, `A.21`, `A.6.3.NAR`, exact source-use patterns and `G.11`. A network demonstration consumes only already-current E.18.3 position mappings and relation-reference epistemes; one C.32.CONWAY occurrence can fill at most one qualified network row.
 
-Does not replace: the direct Method, MethodDescription, Work, transformation, production, evidence, assurance, gate, architecture, decision, publication, mathematical-lens, source-use, E.18 slice-local refresh or G.11 currentness patterns. Pattern refs, selected continuations, imperative wording, graph adjacency and intended realization admit none of those objects.
+Does not replace: the definitions, constraints, predicates, membership or occurrence tests, evidence rules, and assurance rules governing Method, MethodDescription, Work, transformation, production, evidence, assurance, gate, architecture, decision, publication, mathematical-lens, source-use, E.18 slice-local refresh, or G.11 currentness claims. Nor does it replace a Method's reusable way of doing and applicability or bounds. A Method or MethodDescription supplies no truth, result, evidence, or assurance criterion merely by being cited; any such stronger claim retains its separate applicable rule and current basis. A pattern ref only locates content, and a contribution-form label does not state that content; exact content identity is required only when it changes the selected use. Pattern refs, selected continuations, imperative wording, graph adjacency and intended realization admit none of those objects.
 

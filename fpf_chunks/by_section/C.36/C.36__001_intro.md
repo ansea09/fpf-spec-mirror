@@ -6,12 +6,12 @@ section_id: "C.36:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__001_intro.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:intro — Intro"
-line_start: 67982
-line_end: 67992
+line_start: 68001
+line_end: 68011
 dependencies:
   - "A.1"
   - "A.10"

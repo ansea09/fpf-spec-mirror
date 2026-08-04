@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-line_start: 82921
-line_end: 83553
+line_start: 82940
+line_end: 83572
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -606,7 +606,7 @@ This arrangement gives checkable conditions for **functorial publication** (comm
 * **E.18 -> coordinates with -> A.15.5 WorkEntryReadiness.** A selected structure may position a launch or work-boundary readiness locus only as a relation to `A.15.5`; E.18 supplies the crossing, path, slice, LaunchGate position, and structure-local pins, while `A.15.5` governs `FullKitCondition`, planned preparation references, commitment disposition, resource-readiness references, and whether intended work is ready to enter performed-work execution.
 * **E.18 -> coordinates with -> C.32.P2S ProblemToStructureArchitecturingFlow.** P2S may cite a selected transformation-flow structure, path, crossing, or valuation as architecture content or uncertainty. When Plain wording calls that value a method handoff, work handoff, or feedback input, C.32.P2S must identify the independently governed receiving entity or relation occurrence, its participants, obtaining condition, and direct governor; those labels supply none of them. E.18 still governs the transformation-flow structure and does not become the whole architecturing flow.
 * **E.18 -> coordinates with -> C.33, C.34, and C.35 structural-information patterns.** When a transformation-flow carrier, path, generated map, or independently governed changed entity or relation occurrence that carries or describes structure needs architecture-specific capture, preservation, or discovery adequacy, use `C.33`, `C.34`, or `C.35` for that architecture use. Before a selected structure is returned to a named architecture use, cite the exact selector or selection relation, or another direct relation occurrence, that returns it; name that relation's predicate, participants, obtaining condition, occurrence identity, and direct governor. Also cite the exact source-to-use relation and the direct owner to which the receiving architecture claim exits. `C.33`, `C.34`, and `C.35` are governing patterns, not participants in those relations. E.18 keeps the selected transformation-flow structure, path, crossing, valuation, and any exact slice-local subject relation cited by that architecture use visible; it supplies no generic result, return, or receiving relation.
-* **E.18 -> coordinates with -> A.22.CGUS through E.18.3 when transformation-flow unfolding is current.** E.18 governs selected transformation-flow structure. `E.18.3` is the narrow `U.Structure` specialization of `A.22.CGUS` used only when that selected transformation-flow structure is being unfolded toward next uses under constraints, guards, preserved and lost transformation structure, admissible next forms, and direct-governing-pattern exits. Ordinary E.18 use is not automatically CGUS, and narrative, abductive, typing-grounding, improvement, evidence, refresh, and first-entry seed structures do not become E.18 structures by route-shaped wording alone.
+* **E.18 -> coordinates with -> A.22.CGUS through E.18.3 when transformation-flow unfolding is current.** Under E.18, independently identify the one-TFS or parent-relative internal-subflow substrate; use E.18.NET for an independently identified network substrate. `E.18.3` qualifies one separate A.22-selected CGUS only when that CGUS uses exact substrate positions, bindings, and already-obtaining occurrences under current applied-condition claims, any E.18 `GuardFail` events with their gate-assignment facts, and any independently defined guard-relation occurrences. The substrate ref does not resolve to `selectedCGUSRef`. Neighboring values and stronger claims remain independently identified and connect through exact supporting relations, predicate-definition content, and current facts. Ordinary E.18 use is not automatically substrate for a CGUS, and narrative, abductive, typing-grounding, improvement, evidence, refresh, and first-entry seed structures do not become E.18 structures by route-shaped wording alone.
 
 > Relation rows use the named relation kinds **builds_on**, **constrains**, **coordinates**, **specializes**, **publishes_on**, **requires**, and **provides_checks_for**.
 
@@ -663,9 +663,9 @@ Agent-loop diagrams often contain both kinds. A monitor/retry/escalate loop over
 
 ### E.18:15c - E.18.3 Constraint-Governed Unfolding Relation
 
-Open `E.18.3` when the selected transformation-flow structure is being used as a constraint-governed unfolding structure: the record must name the transformed concern, transformation loci, adjacent governed loci, transfers or dependency relations, path or path-slice refs, crossings, guards, optional valuation, preserved and lost transformation structure, non-admissible overreads, and stop or return condition.
+Open `E.18.3` when one A.22-selected CGUS is being qualified by its use of an independently identified E.18 substrate. Name `selectedCGUSRef` separately from the mutually exclusive one-TFS, parent-relative internal-`SubflowRef`, or E.18.NET substrate branch; then recover the transformed concern, exact substrate positions and bindings, already-obtaining transfer or dependency occurrences, paths or slices, crossings, applied-condition claims, any E.18 `GuardFail` events with their gate-assignment facts, any independently defined guard-relation occurrences, optional valuation, preserved and lost transformation structure, non-admissible overreads, and the ordinary stop or reconsideration question.
 
-This relation is deliberately narrow. `E.18.3` can carry the transformation-flow slice inside P2W, P2S, work-control, architecture-feedback, evidence-return, narrative-publication, or refresh situations, but the stronger claims remain with their direct governing patterns. A path card, graph expression, route prose, workflow diagram, or demonstrative slice is a description or teaching slice until the selected transformation-flow structure itself is named.
+This relation is deliberately narrow. `E.18.3` can organize a transformation-flow slice inside P2W, P2S, work-control, architecture-feedback, evidence, narrative-publication, or refresh situations, but every stronger neighboring claim needs its independently identified value, exact supporting relation, applicable predicate-definition content, and current facts. A path card, graph expression, route prose, workflow diagram, or demonstrative slice remains a description or teaching slice until both the A.22-selected CGUS and its independent E.18 substrate use are recoverable; the pattern reference adds no connection relation.
 
 ### E.18:End
 

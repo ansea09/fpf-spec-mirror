@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — apply the DRR method and constitute a decision-rationale episteme"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_solution-apply-the-drr-method-and-constitute-a-decision-rationale-episteme.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:4 — Solution — apply the DRR method and constitute a decision-rationale episteme"
-line_start: 72892
-line_end: 73078
+line_start: 72911
+line_end: 73097
 dependencies:
   - "A.10"
   - "A.15.1"

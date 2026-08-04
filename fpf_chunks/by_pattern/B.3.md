@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
-line_start: 38465
-line_end: 39121
+line_start: 38475
+line_end: 39140
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,7 +78,7 @@ keywords:
 
 **First output.** Write one typed `AssuranceResult(E_C, U_A | RS_A, G_A, T_A)` claim for exact target-claim episteme `E_C` and named assurance use `U_A`, or write an explicit no-assurance disposition. A publication face, rendering, cue, evidence pointer, wording issue, gate decision, role assertion, status-value assertion, commitment, or work occurrence is not itself an assurance result.
 
-**Not this pattern when.** Stay with `A.2.4` for first evidence/status-use classification, `A.10`/`G.6` for source recovery and bounded reliance, `G.11` for currentness, `F.10` or another direct owner for status, and the exact gate, permission, commitment, work, decision, or subject-result pattern when no assurance claim or material-reliance threshold is current.
+**Not this pattern when.** Stay with `A.2.4` when the question is how an episteme is used as evidence or status support, with `A.10`/`G.6` for source recovery and bounded reliance, with `G.11` when currentness changes admissible use, and with `F.10` for the status value and its use. When no assurance claim or material-reliance threshold is current, use the exact gate, permission, commitment, work, decision, or domain-result rule that defines or tests the claim actually being made; do not create a B.3 result merely to name its pattern.
 
 **Assurance result selection.** Use the lightest result that decides the named assurance use. A cue or source pointer gets no B.3 tuple. A local, reversible, non-release, non-compliance, non-safety use may need only a compact bounded assurance-result claim naming `E_C`, `U_A`, the evidence-use/provenance refs, limit, and reopen condition. Reserve the full typed result for readiness, compliance, safety, release confidence, trust, explicit `F/G/R/CL`, material reliance, or reuse as an assurance input.
 
@@ -248,10 +248,12 @@ Build a `B.3` assurance claim only when the next work occurrence or reliance use
 | Target claim and assurance use | Exact target-claim episteme `E_C`, its direct subject-result governor, and named `U_A`: readiness, release, audit, compliance, safety, model credibility, or another assurance use. |
 | Interpretation, scope, conditions, and time | `RS_A`, `G_A`, `T_A`, exact assumption/condition refs, and the audience or relying role when human-facing. The target holon is reached through `E_C`'s EntityOfConcern, not copied into a generic context tuple. |
 | Assessment work and condition | Dated assessment work, performer assignment, enacted method, exact rule/application bindings, and the method, policy, test, audit, or measurement conditions consumed. |
-| Input results, evidence use, and provenance | Exact domain input-result claims; A.2.4 evidence-use relation refs with target, polarity, scope, and window; and the minimum A.10/G.6 path. Proof or status results remain their direct owners' results and do not evidence assurance merely by appearing in the record. |
+| Input results, evidence use, and provenance | Name the exact domain input-result claims; A.2.4 evidence-use relation refs with target, polarity, scope, window, and intended use; and the minimum A.10/G.6 provenance path. A proof or status result remains a separate domain result; its appearance in an assurance record neither makes it evidence nor raises assurance. Cite the exact defining or testing content only when the assurance argument depends on that interpretation. |
 | Argument and assurance rationale | The exact aggregation/argument rule and why the cited input-result and evidence-use relations warrant the assurance-result claim for `E_C` and `U_A` under `RS_A`, `G_A`, and `T_A`, including assumptions, defeaters, and challenges. |
 | Limitations and rival explanations | Scope limits, claims or uses not carried by the assurance tuple, stale display, spoofing, copied text, generated text, proxy-for-value substitution, provenance-only source relation, context shift, and known failure conditions. |
 | Decay and reopen condition | Valid-until, revocation, policy version, gate version, model version drift, monitoring change, incident signal, evidence refresh, and contest or redress relation. |
+
+For a full threshold-bearing assurance result, retain the dated assessment `U.Work`, capable performer and assignment, enacted Method, and application bindings when their identity bears on replay, competence, conflict, timing, reproducibility, contest, or redress. If evidence was produced by a material analysis or test, keep that evidence-production Work and its result distinct from the assurance-assessment Work and assurance result. A method description, record, witness, publication, or favorable result performs neither work and establishes no later reliance.
 
 **Assurance evidence minimization.** Cite only the A.2.4 evidence-use relations and minimum A.10/G.6 paths needed for `E_C` and `U_A`. Use redacted, hashed, scoped, or role-mediated refs when raw material exposes personal data, secrets, privileged logs, tenant identifiers, security-sensitive traces, incident details, or unnecessary identities; a compact pointer must still preserve enough recoverability to replay the warrant.
 
@@ -307,7 +309,7 @@ Use this B.3 section when the B.3 material-reliance threshold is met: reliance o
 
 Assurance-record use: the trigger/non-trigger table is a recognition aid, the minimum-record table is a local form aid, and the worked slices are examples. They are not a universal checklist, sign-off sequence, status vocabulary, assessment work, or replacement for `AssuranceResult(E_C, U_A | RS_A, G_A, T_A)`. The record cites the assurance-result claim and its independently governed basis; filling it makes no relation obtain.
 
-Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless an assurance claim is being made; threshold reliance uses the minimum reliance safety assurance record only when the B.3 material-reliance threshold is met. Plain wording remains ordinary unless it changes bounded use, source relation, evidence, gate, assurance, work, decision, or selected governing pattern.
+Affordability card: orientation or source-finding stays outside B.3; bounded local reliance stays with the local evidence, explanation, CV, gate, or pattern-quality relation unless an assurance claim is being made; threshold reliance uses the minimum reliance safety assurance record only when the B.3 material-reliance threshold is met. Plain wording remains ordinary unless it changes a bounded use, source relation, evidence use, gate, assurance claim, work, or decision. Stop after naming the concrete use or relation that changed; no selected pattern locator is required.
 
 Common wrong first classification: a safety-looking note, safety case, compliance-looking label, or dashboard warning is a certificate, approval, or gate. First honest entry: state one typed B.3 assurance claim with A.10 evidence-provenance path, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest and redress relation, bounded assurance use, and unsupported attempted use.
 
@@ -624,7 +626,7 @@ B.3 deliberately biases assurance toward conservative aggregation and explicit r
 | **CC-B3.12** | When reliance may materially change behavior, safety, release, compliance, access, resources, people/team status use, operational action, or controlled-entity regulation, constitute the assurance-result claim or explicitly narrow, degrade, abstain, request evidence, reopen, or block; an optional `RelianceSafetyCase` record only cites that result and basis. | Keep consequential assurance concrete without turning the record into authority. |
 | **CC-B3.13** | Target/world-side result, target-claim episteme, assessment work, input results, assurance-result episteme, witnesses, record, publication, and later reliance/status/gate/decision remain independently recoverable. | Prevent result and process collapse. |
 | **CC-B3.14** | Evidence availability, provenance, or a successful check may alter warrant and assurance disposition but does not create target truth; absence of evidence is not a negative target result. | Preserve the world/claim/warrant boundary. |
-| **CC-B3.15** | Every status value or status use returns to F.10 or its direct owner; assurance does not define the target, approve a standard, satisfy a requirement, pass a gate, grant permission, or prove actual reliance. | Preserve the assurance/status/use boundary. |
+| **CC-B3.15** | F.10 defines the status value and its use; cite any domain-specific status rule only for the concrete contribution it makes. Assurance does not define the target, approve a standard, satisfy a requirement, pass a gate, grant permission, or prove actual reliance. | Preserve the assurance/status/use boundary. |
 
 ### B.3:8 - Common Anti-Patterns and How to Avoid Them
 
@@ -638,10 +640,10 @@ B.3 deliberately biases assurance toward conservative aggregation and explicit r
 | **Agency override** | Claiming higher assurance because a controller is “clever” | Agency may justify how improvements are achieved; it cannot remove WLNK or `Φ`. |
 | **MemberOf as stock** | Using `MemberOf` to sum reliabilities | Keep `MemberOf` for collections; reliability comes from the relevant Γ composition, such as the Γ_sys cutset. |
 | **False assurance by display** | A badge, dashboard color, credential, provenance label, model/data card, assurance document, attestation, or phrase is used as assurance. | Keep it as orientation/source material unless an exact assessment and typed assurance-result claim cite the necessary input-result, A.2.4 evidence-use, and A.10/G.6 provenance refs. |
-| **Minimum reliance safety assurance record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety assurance record; or the record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the material-reliance trigger. If absent, stay with the direct owner. If met, constitute only the assurance-result claim and minimum record/contest-redress support needed for `U_A`. |
+| **Minimum reliance safety assurance record inflation** | Ordinary evidence, source-finding explanation, local CV, documentation, or reversible local calibration use is forced into a safety assurance record; or the record is used as approval, release permission, gate passage, safety acceptance, or compliance proof. | State the material-reliance trigger. If absent, return the case to the exact evidence, source, status, gate, comparison, or local-use rule that answers it. If met, constitute only the assurance-result claim and minimum record/contest-redress support needed for `U_A`. |
 | **Evidence creates truth** | Evidence arrival is said to make the target result obtain, or evidence loss is called falsity. | Keep target facts and direct result with their governor; revise only evidence use, warrant, assurance disposition, or reliance unless the subject facts changed. |
 | **Assessment-record collapse** | A checklist, calculation, record, witness, or publication is treated as assessment work or its result. | Name dated work/application, result-claim episteme, witness, record, and publication separately. |
-| **Status as assurance** | Approved/current/ready/compliant status defines the target, satisfies a requirement, or proves assurance and release. | Return status/value/use to F.10 or its direct owner and constitute a separate B.3 result only when assurance is actually assessed. |
+| **Status as assurance** | Approved/current/ready/compliant status defines the target, satisfies a requirement, or proves assurance and release. | Use F.10 for the status value and its use; cite another domain-specific status rule only for its concrete contribution, and constitute a separate B.3 result only when assurance is actually assessed. |
 
 ### B.3:9 - Consequences
 
@@ -658,7 +660,7 @@ B.3 deliberately biases assurance toward conservative aggregation and explicit r
 
 ### B.3:10 - Rationale
 
-B.3 distills mature post‑2015 practice across several fields into a single, small calculus:
+B.3 combines a conservative weakest-supported-part calculus with current assurance-case and assurance-documentation practice. The current comparators below govern only the decisions B.3 actually imports; older and popular sources remain lineage rather than authority by recency, prestige, or display.
 
 ### B.3:10.1 - SoTA-Echoing
 
@@ -667,6 +669,13 @@ B.3 distills mature post‑2015 practice across several fields into a single, sm
 * **Coverage as set and measure** follows evidence synthesis and validation practice that treat applicability as a domain region, not a scalar to “average.”
 * **Congruence on edges** captures what meta‑analysis, interface control, and ontology alignment have repeatedly shown: integration quality is often the real bottleneck. Penalizing low‑CL is a principled way to prevent silent over‑confidence while rewarding verified reconciliation.
 * **Assurance documentation, provenance, and release-status practice** treats labels, model cards, datasheets, C2PA provenance marks, SLSA and in-toto attestations, credential displays, generated confidence phrases, and dashboards as scoped documentation or source pointers, not automatic assurance claims. B.3 adopts claim, argument, and evidence discipline and scoped assurance-documentation use, adapts model cards, datasheets, data cards, attestations, provenance marks, dashboards, and generated confidence phrases as possible documentation or evidence inputs for a named assurance claim, and rejects visible-label promotion into readiness, compliance, safety, trust, `R`, `F`, `G`, `CL`, or release confidence without a typed tuple and A.10 evidence-provenance path.
+
+**Decision-bearing currentness account (qualified through 2026-08-04).**
+
+| Practice question | Current comparator and alternative status | Adopt, adapt, or reject; concrete B.3 mutation | Smallest reopen trigger |
+| --- | --- | --- | --- |
+| What must an assurance or safety case contribute to a reliance claim? | ISO/IEC/IEEE 15026-2:2022, edition 2, is the published current assurance-case structural standard and replaced the withdrawn 2011 edition. The Safety-Critical Systems Club identifies the *GSN Community Standard* v3 (2021) as its latest notation and current-best-practice guidance for engineering arguments; ISO 15026-2:2011 and GSN v1-v2 are lineage, while a diagram or document merely called a safety case is only a popular form. | **Adopt** explicit claims, arguments, evidence, and maintenance. **Adapt** them into the typed B.3 result, F-G-R and edge-scoped CL, the threshold-bounded minimum record in 4.2b, and the proof obligations in 5. **Reject** case-document appearance as target truth, approval, gate passage, permission, release, or safety acceptance. | Reopen this row if a successor edition changes the required claim-argument-evidence structure or maintenance relation in a way that conflicts with B.3, or if current use evidence shows that one field or branch of the minimum record is necessary, invalid, or misleading for the named reliance use. |
+| What may an assurance-documentation, provenance, or attestation artifact establish? | C2PA Content Credentials 2.4 (April 2026), SLSA 1.2 (approved, November 2025), and the in-toto Attestation Framework 1.2 (March 2026) are the current engineering comparators for the narrow provenance-and-attestation question. Model Cards (2019), Datasheets for Datasets (2021), Data Cards (2022), badges, dashboards, and credential displays remain useful documentation lineages or popular presentation forms, not current assurance verdicts. | **Adopt** exact subjects, sources, bindings, authenticated statements, provenance, and verification against declared expectations. **Adapt** those artifacts in 4.2a-4.2b as possible documentation or A.10 evidence-provenance inputs to one named B.3 claim. **Reject** a valid signature, manifest, attestation, card, badge, or display as automatic F, G, R, CL, target truth, safety, compliance, readiness, or release. | Reopen only the affected documentation branch if a successor specification changes the property actually warranted or the boundary between artifact, verifier expectation, and reliance, or if validated practice evidence shows that one named documentation kind itself supplies—or cannot supply—a required typed contribution for the declared use. |
 
 Practical result from that safety-case and assurance-documentation practice: safety notes, compliance-looking labels, assurance documents, dashboards, provenance marks, model cards, datasheets, data cards, and generated confidence phrases do not become certificates, approvals, gates, safety acceptance, or assurance by appearance. The local B.3 output is one typed assurance-result claim plus, only when useful, a minimum reliance safety assurance record that cites its assessment, A.2.4 evidence-use and A.10/G.6 provenance basis, assumptions, limitations, defeaters, residual uncertainty, monitoring or stop condition, contest/redress relation, bounded assurance use, unsupported use, and exact reopen conditions.
 
@@ -677,7 +686,7 @@ This arrangement preserves **A.11 Parsimony** and aligns with **A.14**, **A.7**,
 * **Builds on:** C.2.1 for target and assurance-result epistemes; A.2.4 for exact evidence-use classification; A.10/G.6 for source-provenance paths and bounded reliance; A.15.1/A.6.1 for assessment work and applications; B.1/B.1.1 and the current system-composition, temporal, work, and relation patterns for exact input structures and occurrences; A.2.6 for ClaimScope; C.16/C.16.Q for scale/value discipline where applicable; and C.13 for Compose-CAL.
 * **Coordinates with:** **E.14 (Human‑Centric Working‑Model)** for publication-facing assertion discipline and **B.3.5 (CT2R‑LOG)** for Working‑Model relation label-meaning and grounding (`tv:*`, `validationMode`).
 * **Coordinates with:** `C.28` for `CausalUseSupportVerdict`, `CausalityLadderRung`, `CausalEvidenceSupportBasis`, identification profile refs, realizability profile refs, supported causal use, and unsupported causal use; `A.10` for the evidence-provenance graph path carrying causal-evidence refs.
-* **Coordinates with:** `F.10` and each direct status owner for status values and use; `G.11` for currentness; `A.15` for work/reliance disposition; `A.21` for gates; `A.20` for constraint-validity results; permission, commitment, release, and decision patterns for their own results; E.17/E.24.PUB and C.29 for publication/representation; and A.15.PROD only when a separately current inception claim is needed. B.3 governs the assurance-result claim, not those neighboring objects.
+* **Coordinates with:** `F.10` for status values and their use; `G.11` for currentness; `A.15` for work/reliance disposition; `A.21` for gates; `A.20` for constraint-validity results; permission, commitment, release, and decision patterns for their own results; E.17/E.24.PUB and C.29 for publication/representation; and A.15.PROD only when a separately current inception claim is needed. Cite another domain definition or test only for the concrete contribution it makes to the assurance argument. B.3 governs the assurance-result claim, not those neighboring objects.
 * **Used by:** KD-CAL improvement patterns (to plan improvements), B.4 (Evolution loops that raise `F`, `G`, `R`, or `CL` over time).
 * **Triggers:** B.2 (Meta‑Holon Transition (MHT): Recognizing Emergence and Re‑identifying Wholes) when genuine new capabilities emerge that change the applicable cutsets or envelopes.
 
@@ -693,17 +702,17 @@ Assurance-relation checks:
 
 1. Decide the claim-assurance requirement before building assurance machinery.
 2. If the QL note only prevents a local misinterpretation, keep it as QL-lite with ordinary evidence.
-3. If the claim will be reused, state the exact target-claim episteme, governing pattern, named use, local stop condition, and A.2.4 evidence-use plus A.10/G.6 provenance refs.
-4. If the claim is used for release, readiness, audit, compliance, assurance, or threshold-bearing reliance, perform the exact B.3 assessment and constitute its assurance-result claim over named input-result/evidence-use refs and scope.
+3. If the claim will be reused, state the exact target-claim episteme, named use, local stop condition, A.2.4 evidence-use relations, and A.10/G.6 provenance refs. Add the concrete domain definition, comparison rule, or currentness test only when it changes the reusable claim.
+4. If the reuse is for release, readiness, audit, compliance, safety, assurance, or other threshold-bearing reliance, perform the B.3 assessment and constitute a separate assurance-result claim over the exact input results, evidence uses, scope, time window, argument, limitations, disposition, and reopen condition.
 5. If the claim says QL is better, faster, more accurate, or uniquely necessary, compare rival models, baseline, claimed mechanism, scope, and loss.
 6. State decay conditions and reopen conditions so an old QL-evidenced assurance claim does not silently stay current after new validation observations, changed source records, changed evidence refs, or scope change.
 
 | Claim-use requirement | B.3 expectation | Output |
 | --- | --- | --- |
 | Local modeling note | No assurance tuple beyond the ordinary pattern and evidence note | QL-lite note with local stop |
-| Reusable example or pattern-facing note | Name the governing FPF pattern, local stop condition, and evidence relation or evidence-provenance condition | Reusable example with source relation |
+| Reusable example or pattern-facing note | Name the concrete domain definition, comparison rule, or currentness test only when it changes the reusable claim; keep the local stop condition and evidence-use or evidence-provenance condition explicit. | Reusable example with bounded source and use relations |
 | Decision, release, audit, readiness, or compliance use | Provide exact target/use, assessment, `F/G/R`, congruence-occurrence refs, evidence-use/provenance refs, rival explanations, decay, and reopen condition | Assurance-result claim plus optional citing record |
-| Comparative superiority claim | Add rival-model comparison, baseline, claimed mechanism, and scope limits | Bounded superiority claim or apply the FPF pattern that governs the comparison being claimed |
+| Comparative superiority claim | Add rival-model comparison, baseline, claimed mechanism, and scope limits | Bounded superiority claim or apply the FPF pattern that defines or constrains the comparison being claimed |
 
 Useful outputs:
 

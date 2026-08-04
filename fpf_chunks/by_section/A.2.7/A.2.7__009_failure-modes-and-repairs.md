@@ -6,12 +6,12 @@ section_id: "A.2.7:7"
 section_title: "Failure Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__009_failure-modes-and-repairs.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
   - "A.2.7:7 — Failure Modes and Repairs"
-line_start: 6082
-line_end: 6096
+line_start: 6085
+line_end: 6099
 dependencies:
   - "A.15"
   - "A.2"

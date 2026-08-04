@@ -6,12 +6,12 @@ section_id: "A.1.STM:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__012_consequences.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:10 — Consequences"
-line_start: 2642
-line_end: 2649
+line_start: 2645
+line_end: 2652
 dependencies:
   - "A.1"
   - "A.1.SCR"

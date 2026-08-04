@@ -6,12 +6,12 @@ section_id: "E.17.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:1 — Problem frame"
-line_start: 78961
-line_end: 78978
+line_start: 78980
+line_end: 78997
 dependencies:
   - "A.22"
   - "A.6.2"

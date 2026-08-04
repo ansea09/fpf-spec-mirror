@@ -6,12 +6,12 @@ section_id: "C.2.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__011_conformance-checklist.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:7 — Conformance Checklist"
-line_start: 42155
-line_end: 42177
+line_start: 42174
+line_end: 42196
 dependencies:
   - "A.10"
   - "A.15"

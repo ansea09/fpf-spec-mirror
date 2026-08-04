@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:End"
 section_title: "A.6.RSIG:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__014_a-6-rsig-end.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:End — A.6.RSIG:End"
-line_start: 10289
-line_end: 10290
+line_start: 10292
+line_end: 10293
 dependencies:
   - "A.6"
   - "A.6.P"

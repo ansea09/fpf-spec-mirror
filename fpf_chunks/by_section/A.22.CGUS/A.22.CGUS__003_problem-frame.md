@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__003_problem-frame.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:1 — Problem Frame"
-line_start: 34813
-line_end: 34818
+line_start: 34816
+line_end: 34821
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -42,7 +42,7 @@ keywords:
 
 ### A.22.CGUS:1 - Problem Frame
 
-FPF often needs to explain how several admitted records, current structures, typed positions, and relations jointly constrain several admissible next forms without turning that explanation into a workflow. A problem card, `G.2` source pack, architecture concern, candidate set, evaluation result, cue publication, and current `U.Structure` can participate through exact governed relations in pattern-use recommendations, candidate structures, rival hypotheses, evidence work, repair proposals, reader-facing narratives, or structure-use return conditions. The point is the recoverable constraint structure, including relation signatures, guards, preserved structures, C.33 loss notes, and direct governing-pattern exits, not a one-input-one-output conversion.
+FPF often needs to explain how several admitted records, current structures, typed positions, and relations jointly constrain several admissible next forms without turning that explanation into a workflow. A problem card, `G.2` source pack, architecture concern, candidate set, evaluation result, cue publication, and current `U.Structure` can participate through exact relations in pattern-use recommendations, candidate structures, rival hypotheses, evidence work, repair proposals, reader-facing narratives, or structure-use reconsideration conditions. The point is the recoverable constraint structure, including relation signatures, guards, preserved structures, C.33 loss notes, neighboring stronger claims, and their reconsideration conditions, not a one-input-one-output conversion.
 
-These structures can be architecture-facing, reasoning-facing, narrative-facing, improvement-facing, typing-grounding-facing, evidence-facing, currentness-facing, or first-use-facing. They share one structural need: typed positions are connected by relations and constrained together, so admissible continuations are recoverable only while the relevant structures, C.33 adequacy notes, guards, exits, and governing-pattern boundaries remain visible.
+These structures can be architecture-facing, reasoning-facing, narrative-facing, improvement-facing, typing-grounding-facing, evidence-facing, currentness-facing, or first-use-facing. They share one structural need: typed positions are connected by relations and constrained together, so admissible continuations are recoverable only while the relevant structures, C.33 adequacy notes, guards, exits, needed relation definitions or claim rules, and reconsideration boundaries remain visible.
 

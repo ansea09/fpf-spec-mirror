@@ -6,12 +6,12 @@ section_id: "C.2.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__010_consequences.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:9 — Consequences"
-line_start: 43958
-line_end: 43960
+line_start: 43977
+line_end: 43979
 dependencies:
   - "A.16"
   - "A.16.0"

@@ -6,12 +6,12 @@ section_id: "E.18.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__005_solution.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:4 — Solution"
-line_start: 84176
-line_end: 84248
+line_start: 84195
+line_end: 84267
 dependencies:
   - "A.10"
   - "A.15"
@@ -102,7 +102,7 @@ E.18.2 does not carry authority for related governed claims. Use the direct gove
 | one bounded change under conditions | `A.3.4` |
 | one selected transformation-flow structure, flow valuation, path, slice, crossing, or refresh locus | `E.18` |
 | one selected network of independently identified TFS or nested-network members and exact cross-member relations | `E.18.NET` |
-| selected transformation-flow unfolding structure with constraints, guards, preserved/lost structure, and direct exits | `E.18.3` |
+| one A.22-selected CGUS qualified through an independently identified E.18 substrate, with constraints and guarded alternatives whose applied-claim, E.18-event, or independently defined relation basis remains separate, plus preserved/lost structure, neighboring values connected by exact supporting relations, and stop or reconsideration questions | `E.18.3` |
 | mathematical-lens adequacy, preserved/lost structure, payoff, or stop condition | `C.29` |
 | method, method description, mechanism, signature, work plan, or performed work | `A.3.1`, `A.3.2`, `A.6.1`, `A.6.0`, `A.15.2`, or `A.15.1` |
 | evidence, assurance, gate, release, or decision | `A.10`, `B.3`, `A.20`, `A.21`, or `C.11` |

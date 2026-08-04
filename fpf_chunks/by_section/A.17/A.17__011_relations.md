@@ -6,12 +6,12 @@ section_id: "A.17:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.17/A.17__011_relations.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.17 — Canonical “Characteristic” (A.CHR‑NORM)"
   - "A.17:10 — Relations"
-line_start: 28278
-line_end: 28287
+line_start: 28281
+line_end: 28290
 dependencies:
   - "A.17"
   - "A.18"

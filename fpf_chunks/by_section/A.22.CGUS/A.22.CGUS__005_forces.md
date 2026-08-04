@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__005_forces.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:3 — Forces"
-line_start: 34827
-line_end: 34836
+line_start: 34830
+line_end: 34839
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -44,9 +44,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Useful unfolding vs workflow overread | A structured unfolding helps a practitioner see what can come next, but the project sequence may be nonlinear, partial, interrupted, iterative, or delegated to different governing patterns. |
+| Useful unfolding vs workflow overread | A structured unfolding helps a practitioner see what can come next, but the project sequence may be nonlinear, partial, interrupted, iterative, or carried by different admitted methods or work arrangements. |
 | Reusable `U.Structure` specialization vs root-kind inflation | FPF needs a reusable A.22 specialization of `U.Structure` for constraint-governed unfolding without minting `U.Route`, `U.Workflow`, `U.Process`, `U.Architecture`, or another root kind by appearance. |
 | Description usefulness vs semio-bias | Route cards, graphs, tables, slides, narratives, and README lines can suggest the structure before admission or present it after admission, but provisional descriptions and admitted demonstrative slices are not the structure itself. |
-| Local claims vs universal calculus | P2W, P2S, abduction, narrative, improvement, grounding, refresh, and option selection need different direct governing patterns; CGUS only carries the shared constraint-governed unfolding structure. |
-| Didactic entry vs shadow navigation | First-entry seed lines help new readers start while remaining publication aids rather than a second specification or navigation authority beside the governing patterns. |
+| Local claims vs universal calculus | P2W, P2S, abduction, narrative, improvement, grounding, refresh, and option selection need different concrete definitions, tests, methods, or claim rules; CGUS only carries the shared constraint-governed unfolding structure. |
+| Didactic entry vs shadow navigation | First-entry seed lines help new readers start while remaining publication aids rather than a second specification or navigation authority beside the pattern content they cite. |
 

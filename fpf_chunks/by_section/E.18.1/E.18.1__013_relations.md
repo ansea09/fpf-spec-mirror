@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 84075
-line_end: 84103
+line_start: 84094
+line_end: 84122
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -53,8 +53,8 @@ keywords:
 ---
 
 ### E.18.1:12 - Relations
-- `A.22.CGUS` supplies the general constraint-governed unfolding structure when P2W exposes typed structure positions, constraints, admissible next forms, and stop or return conditions.
-- `E.18.3` recognizes the exact selected A.22.CGUS structure under its additional transformation-flow unfolding condition and reuses exact E.18 positions and directly governed relation references. E.18 owns one TFS, its valuations and internal `SubflowRef`; E.18.NET owns independently selected TFS or nested-network members plus exact obtaining cross-member relations. P2W references these owners and adds no subset, reciprocal record or hybrid structure schema.
+- Under `A.22.CGUS`, identify the one constraint-governed unfolding structure when P2W exposes typed structure positions, constraints, admissible next forms, and stop or reconsideration questions.
+- `E.18.3` qualifies that exact A.22-selected CGUS through positions, bindings, and already-obtaining occurrences from one independently identified E.18 substrate. E.18 defines the one-TFS and parent-relative internal-`SubflowRef` interfaces; E.18.NET defines independently identified network members and exact obtaining cross-member relations. P2W cites those exact values, adds no subset, reciprocal record, or hybrid structure schema, and neither reidentifies nor routes them.
 - `G.2` governs source-use records, source-pack return, evidence anchors for admitted source publications, and source-currentness payloads before DPF hardening can rely on a seed drawn from those admitted sources.
 - `E.4.DPF`, `E.4.PFAD`, and `E.4.PFR` govern DPF authoring, framework architecture decisions, and framework relation records when a generated or cheap seed is carried toward hardening.
 - `E.23` governs repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.

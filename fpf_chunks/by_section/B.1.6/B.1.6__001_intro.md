@@ -6,12 +6,12 @@ section_id: "B.1.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__001_intro.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:intro — Intro"
-line_start: 36822
-line_end: 36835
+line_start: 36832
+line_end: 36845
 dependencies:
   - "A.1"
   - "A.10"

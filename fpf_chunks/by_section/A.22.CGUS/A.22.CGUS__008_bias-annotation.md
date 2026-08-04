@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__008_bias-annotation.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:6 — Bias-Annotation"
-line_start: 35172
-line_end: 35181
+line_start: 35182
+line_end: 35191
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -46,7 +46,7 @@ keywords:
 | --- | --- |
 | Workflow bias | Name admissible next forms and actual non-workflow boundary. Use work and method patterns only when work or method claims are current. |
 | Semio-bias | Treat cards, graphs, tables, route prose, slides, README entries, and narratives as provisional descriptions before admission or admitted demonstrative slices afterward; neither is the governed unfolding structure itself. |
-| E.18 parent bias | Use `E.18.3` only for transformation-flow unfolding. Narrative, abduction, grounding, improvement, refresh, and public practical-use guidance keep their direct governing patterns. |
-| Shadow-spec bias | Promoted core family cues and README practical-use cards are retrieval or public-guidance aids. They do not outrank pattern bodies, define a second navigation system, or stand in for DPF maps or local governing maps. |
+| E.18 parent bias | Use `E.18.3` only for transformation-flow unfolding. Narrative, abduction, grounding, improvement, refresh, and public practical-use guidance retain their own exact kinds, relations, and applicable pattern contributions. |
+| Shadow-spec bias | Promoted core family cues and README practical-use cards are retrieval or public-guidance aids. They do not outrank the exact content in pattern bodies, define a second navigation system, or stand in for DPF maps or local retrieval maps. |
 | Lexical trigger bias | Words such as route, path, loop, process, workflow, diffusion, unfolding, graph, or sequence do not admit CGUS by themselves. Run the admission test. |
 

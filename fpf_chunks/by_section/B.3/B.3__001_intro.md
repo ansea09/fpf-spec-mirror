@@ -6,12 +6,12 @@ section_id: "B.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__001_intro.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:intro — Intro"
-line_start: 38465
-line_end: 38487
+line_start: 38475
+line_end: 38497
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,7 +79,7 @@ keywords:
 
 **First output.** Write one typed `AssuranceResult(E_C, U_A | RS_A, G_A, T_A)` claim for exact target-claim episteme `E_C` and named assurance use `U_A`, or write an explicit no-assurance disposition. A publication face, rendering, cue, evidence pointer, wording issue, gate decision, role assertion, status-value assertion, commitment, or work occurrence is not itself an assurance result.
 
-**Not this pattern when.** Stay with `A.2.4` for first evidence/status-use classification, `A.10`/`G.6` for source recovery and bounded reliance, `G.11` for currentness, `F.10` or another direct owner for status, and the exact gate, permission, commitment, work, decision, or subject-result pattern when no assurance claim or material-reliance threshold is current.
+**Not this pattern when.** Stay with `A.2.4` when the question is how an episteme is used as evidence or status support, with `A.10`/`G.6` for source recovery and bounded reliance, with `G.11` when currentness changes admissible use, and with `F.10` for the status value and its use. When no assurance claim or material-reliance threshold is current, use the exact gate, permission, commitment, work, decision, or domain-result rule that defines or tests the claim actually being made; do not create a B.3 result merely to name its pattern.
 
 **Assurance result selection.** Use the lightest result that decides the named assurance use. A cue or source pointer gets no B.3 tuple. A local, reversible, non-release, non-compliance, non-safety use may need only a compact bounded assurance-result claim naming `E_C`, `U_A`, the evidence-use/provenance refs, limit, and reopen condition. Reserve the full typed result for readiness, compliance, safety, release confidence, trust, explicit `F/G/R/CL`, material reliance, or reuse as an assurance input.
 

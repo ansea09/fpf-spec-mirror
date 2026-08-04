@@ -6,12 +6,12 @@ section_id: "E.18.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__012_sota-echoing.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:11 — SoTA-Echoing"
-line_start: 84058
-line_end: 84074
+line_start: 84077
+line_end: 84093
 dependencies:
   - "A.15"
   - "A.15.PROD"

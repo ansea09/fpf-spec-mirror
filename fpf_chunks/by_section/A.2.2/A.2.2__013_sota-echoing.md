@@ -6,12 +6,12 @@ section_id: "A.2.2:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__013_sota-echoing.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:12 — SoTA-Echoing"
-line_start: 3592
-line_end: 3602
+line_start: 3595
+line_end: 3605
 dependencies:
   - "A.15"
   - "A.2"

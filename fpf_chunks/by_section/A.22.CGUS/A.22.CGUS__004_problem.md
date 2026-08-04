@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__004_problem.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:2 — Problem"
-line_start: 34819
-line_end: 34826
+line_start: 34822
+line_end: 34829
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -44,7 +44,7 @@ keywords:
 
 The problem is that a constraint-governed unfolding structure becomes unrecoverable when one route-shaped or loop-shaped description stands in for it.
 
-First, the structure's typed positions, exact relations, constraints, preserved structures, C.33 adequacy notes, stop boundary, and direct governing patterns disappear behind decorative prose. Words such as "flow", "move", "unfold", "loop", or "route" remain, but no reader can recover what constrains a continuation.
+First, the structure's typed positions, exact relations, constraints, preserved structures, C.33 adequacy notes, stop boundary, and needed definitions, tests, methods, or claim rules disappear behind decorative prose. Words such as "flow", "move", "unfold", "loop", or "route" remain, but no reader can recover what constrains a continuation.
 
 Second, one demonstration of the structure becomes a fake workflow. A teaching sequence, diagram, README entry, prompt example, or happy path is treated as the order of real project work. Method, work plan, performed work, evidence, gate, decision, publication, and architecture claims then become unsupported inferences from displayed order.
 

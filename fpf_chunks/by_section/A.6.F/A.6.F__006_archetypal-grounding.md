@@ -6,12 +6,12 @@ section_id: "A.6.F:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__006_archetypal-grounding.md"
-commit_sha: "8b727cba9e893a467b82aab9da84fb7d6d945480"
+commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:5 — Archetypal Grounding"
-line_start: 18474
-line_end: 18482
+line_start: 18477
+line_end: 18485
 dependencies:
   - "A.10"
   - "A.15"
