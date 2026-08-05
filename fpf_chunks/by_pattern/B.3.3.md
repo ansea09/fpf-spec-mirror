@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.3.3.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "B.3.3 — Assurance Subtypes & Levels"
-line_start: 39141
-line_end: 39224
+line_start: 39093
+line_end: 39176
 dependencies:
   - "A.10"
   - "A.19"

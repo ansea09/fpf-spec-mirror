@@ -6,12 +6,12 @@ section_id: "E.18.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__013_relations.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:12 — Relations"
-line_start: 84152
-line_end: 84180
+line_start: 84104
+line_end: 84132
 dependencies:
   - "A.15"
   - "A.15.PROD"

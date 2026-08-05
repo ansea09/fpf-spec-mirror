@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 77049
-line_end: 77086
+line_start: 77001
+line_end: 77038
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -54,7 +54,7 @@ The reader can therefore imagine useful progress without inferring that publicat
 
 #### E.11:5.4 - Repair the smallest card slice after a direct result changes
 
-Suppose a new `A.6.3.RT` edition makes one exact `RepresentationSchemeTransitionRelation@Context` kind the potential first-result kind for one `DESCRIPTION-USE` condition. Repair that candidate-use template so it names the relation kind, its source and target participant kinds, A.6.3.RT predicate and obtaining test, occurrence-identification question, the governed-object kind relative to which a later PUA use would call it a result, its readable coarsening row, and any boundary whose condition changed. Recheck the linked walkthrough against that context-free basis template; only PUA later names a project occurrence.
+Suppose a new `A.6.3.RT` edition restores a progressive `DESCRIPTION-USE` result: an ordinary target representation plus source-comparison note first, exact `v : X -> Y` only when a named receiver makes endpoint identity material, and `RepresentationSchemeTransitionRelation@Context` only when actual transition Work and all six participants make the historical occurrence current. Repair only that candidate-use template so its first result and the two escalation triggers match the direct pattern. Name the occurrence predicate, participants, obtaining test, and identity question only in the later-specific branch. Recheck the linked walkthrough against the repaired context-free template; only a later project use names a project occurrence.
 
 The public card heading and question remain unchanged when readers still recognize the same situation. Preface and ToC remain unchanged when framework rationale and retrieval location did not move. The `A.6.3.RT` pattern body remains the authority for the relation; E.11 repairs only the public guidance that points to it.
 

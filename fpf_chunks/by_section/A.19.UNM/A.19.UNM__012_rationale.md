@@ -6,12 +6,12 @@ section_id: "A.19.UNM:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__012_rationale.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:10 — Rationale"
-line_start: 31793
-line_end: 31802
+line_start: 31745
+line_end: 31754
 dependencies:
 keywords:
   - "CV→NCV"

@@ -6,12 +6,12 @@ section_id: "C.35:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__002_problem-frame.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:1 — Problem frame"
-line_start: 67800
-line_end: 67864
+line_start: 67752
+line_end: 67816
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -78,7 +78,7 @@ The first useful output is `StructuralSynthesisDiscoveryAdequacyNote@Project`:
 ```text
 StructuralSynthesisDiscoveryAdequacyNote@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  structuralSynthesisAdequacyNoteProjectUseRelationRef?: U.RelationRef governed by the exact architecture-use or work-use pattern
+  structuralSynthesisAdequacyNoteProjectUseRelationRef?: U.RelationRef under a named architecture-use or work-use predicate when that relation identity is material
   groundedArchitectureQuestionRef:
   selectedSourceStructureRefs:
   generationOrDiscoveryMethodRef:
@@ -103,7 +103,7 @@ StructuralSynthesisDiscoveryAdequacyNote@Project:
   realizedHolonStructureRefs?:
   measurementOrEvalReturnRefs?:
   bearerFeasibilityQuestionRef?:
-  receivingGoverningPatternRef:
+  nextClaimOrRuleRef?:
   receivingClaimKind:
   admissibleUse:
   nonAdmissibleUse:
@@ -114,11 +114,11 @@ Here `@Project` is a compatibility and retrieval cue only. It establishes no pro
 
 When generation or discovery is claimed as performed work, `generationOrDiscoveryWorkOccurrenceRef` identifies one independently admitted dated `U.Work`; its performer System, exact obtaining `U.RoleAssignment`, F.6 `performedUnderAssignment` attribution when current, enacted Method, extent, and containing System remain under A.15.1, A.2.1, and F.6. The Method, Work, note, and produced carrier or description are different objects. `actualTransformationRefs` may cite only independently identified A.3.4 bounded changes; a method label, transformation trace, graph edge, or before-and-after picture does not make a transformation actual. Any positive link from the Work to an actual transformation or produced entity must cite an exact direct predicate, an admitted A.6.RCD local claim, or the selected A.15.PROD branch in `workToTransformationOrProductionClaimRefs`; otherwise keep the objects separate and return the exact `missing-governor`. Every structure reference likewise resolves to an independently selected A.22 `U.Structure`; a carrier, graph, cluster, or description does not supply its four identity discriminators.
 
-Adoption test: after using C.35, another practitioner can tell what was produced, which structure it describes, what it preserves and loses, what must happen before C.32 admission or realization claims, and which governing pattern receives the next claim.
+Adoption test: after using C.35, another practitioner can tell what was produced, which structure it describes, what it preserves and loses, what must happen before C.32 admission or realization claims, and which practical claim, question, rule, or test comes next. Record exact assertion identity only when that next use must travel independently.
 
-What C.35 buys in practice: the practitioner can accept useful generated or discovered output without handing it authority. The pattern lets a search output, cluster, query result, model transformation, or LLM proposal become candidate input for architecturing only after carrier, described structure, admission condition, and receiving governing pattern are named.
+What C.35 buys in practice: the practitioner can accept useful generated or discovered output without handing it authority. The pattern lets a search output, cluster, query result, model transformation, or LLM proposal become candidate input for architecturing only after carrier, described structure, admission condition, and the next claim or test are named.
 
 Ordinary working move: name the produced carrier first, then the described structure, then the admission condition. If those three cannot be separated, do not let the output enter C.32 or a decision.
 
-Not this pattern when the current question is how to search, choose, measure, decide, authorize, publish, govern a reusable generator, govern a cultural-evolution case, or run the work itself. Use the governing pattern for that question first, including `C.36` for the cultural-evolution relation bundle. Return to C.35 only when a produced carrier must be admitted or rejected before another architecture pattern relies on it.
+Not this pattern when the current question is how to search, choose, measure, decide, authorize, publish, govern a reusable generator, govern a cultural-evolution case, or run the work itself. Use the pattern that defines or decides that question first, including `C.36` for the cultural-evolution relation bundle. Use C.35 only when a produced carrier must be admitted or rejected before another architecture claim relies on it.
 

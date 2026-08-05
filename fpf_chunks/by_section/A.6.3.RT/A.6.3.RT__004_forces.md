@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__004_forces.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:3 — Forces"
-line_start: 14377
-line_end: 14384
+line_start: 14393
+line_end: 14401
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,27 +29,28 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:3 - Forces
 
-- **Same entity, different reasoning medium.** Teams need different representational forms without silently changing the EntityOfConcern.
-- **Legibility vs recoverability.** A clearer representation is useful only if users can still recover how it relates to source claims, source-relation records, and pins.
-- **Representation change vs EntityOfConcern shift.** A new notation or geometry can make structure more visible; that visibility does not establish a new EntityOfConcern or ontology.
-- **Recoverability before decode ambition.** Start from cases where recoverability can be reviewed directly before leaning on decode-mediated reconstruction.
-- **Governing-pattern restraint.** This pattern remains under `A.6.3`; explanation governance, retargeting, bridge work, and carrier work remain with their direct patterns.
+- **Same concern, different reasoning medium.** Teams need representations suited to different tasks without silently changing what the claims concern.
+- **Legibility vs recoverability.** A clearer target helps only if users can recover the source content and distinctions needed by the declared use.
+- **Useful foregrounding vs unsupported strengthening.** Tables, diagrams, notation, and interactive views can expose structure while also making added links look source-given.
+- **Representation change vs ontology change.** New notation or geometry can make structure visible; visibility does not establish world-side structure or a new EntityOfConcern.
+- **Progressive exactness.** Ordinary conversions should stay easy, while externally relied-on or decode-mediated cases retain exact identity, source-chain, loss, and evidence discipline.
+- **Recoverability before decode ambition.** Directly inspectable cases establish the normal entry; latent cases need explicit decoding access and evidence for their use.
 

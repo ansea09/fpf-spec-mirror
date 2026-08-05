@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__008_conformance-and-counterexample-replay.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:7 — Conformance and counterexample replay"
-line_start: 14751
-line_end: 14782
+line_start: 14686
+line_end: 14719
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,51 +29,53 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:7 - Conformance and counterexample replay
 
-A check is retained only if it changes the next admissible use, blocks a concrete overclaim, or preserves an exact source or return relation.
+#### A.6.3.RT:7.1 - Ordinary and exact checks
 
-#### A.6.3.RT:7.1 - RT-Core
-
-1. **CC-RT-1 — Exact endpoints.** `X` and `Y` are independently constituted C.2.1 epistemes; each exact claim content, EntityOfConcern, and effective `U.ReferenceScheme` is recoverable. A model label, graph, display, publication occurrence, form, carrier, or readable output substitutes for neither.
-2. **CC-RT-2 — Same EntityOfConcern, no hidden retargeting.** `EntityOfConcern(X)=EntityOfConcern(Y)` exactly. Otherwise apply A.6.4.
-3. **CC-RT-3 — Exact construction.** The declaration states `v : X -> Y`, the claim-content rule, relation between effective schemes, preservation, loss, prohibited strengthening, and applicability.
-4. **CC-RT-4 — Six-participant occurrence only at its trigger.** A positive `RepresentationSchemeTransitionRelation@Context` has the exact A.1.1 `BoundedModelUseStructure`, preserved EntityOfConcern, `X`, `Y`, and exact two scheme-description epistemes, plus actual representation-transformation Work satisfying section 4.1.a.1. No discarded generic context kind/reference, description-context field, scheme label, or Work record fills a participant.
-5. **CC-RT-5 — Occurrence, Work, and description stay distinct.** The participant tuple identifies the relation occurrence; system, role assignment, Work, method, operation bindings, and production claim stay with their direct owners; the transition-description episteme has its own C.2.1 identity.
-6. **CC-RT-6 — Exact correspondence dependencies.** Every correspondence-mediated dependency resolves to exact source epistemes and governed relations. Similar content, graph adjacency, a correspondence model, or scheme difference proves none.
-7. **CC-RT-7 — Use and return.** Preserved content, explicit loss or recoverability, admissible use, non-admissible downstream use, and return to exact `X` or governed source relations are visible.
-8. **CC-RT-8 — Neighbors remain separate.** C.29 representation is opened only for a current mathematical lens; viewpoint and `U.View` membership require E.17.0; grounding, publication occurrence, form, carrier, evidence, assurance, bridge, gate, and receiving use keep their direct owners.
+1. **CC-RT-1 — Useful ordinary entry.** A user can name content to survive, choose a target representation, produce it, and compare it with the source before supplying exact endpoint identities.
+2. **CC-RT-2 — Same concern and right family.** The target still concerns the same thing; representation scheme or reasoning medium is the primary change rather than wording, narrative, explanation, carrier work, retargeting, bridge use, or controlled coarsening.
+3. **CC-RT-3 — Delta and source comparison.** Preserved and foregrounded content, rearrangement, loss, recoverability, and apparent links not licensed by the source are visible.
+4. **CC-RT-4 — Use and return.** Admissible and non-admissible use plus a practical source-return trigger are clear.
+5. **CC-RT-5 — Progressive burden.** Detailed factors, semiotic mode, decode evidence, exact identities, Work, publication, evidence, and assurance appear only when each changes use or blocks a likely error.
+6. **CC-RT-6 — Exact endpoints when triggered.** `X` and `Y` are independently constituted C.2.1 epistemes with the same exact EntityOfConcern and recoverable effective schemes; forms, carriers, models, displays, and readable output substitute for neither.
+7. **CC-RT-7 — Exact construction.** `v : X -> Y` states the claim rule, endpoint-scheme relation, preservation, loss/recovery, prohibited strengthening, applicability, use, and return.
+8. **CC-RT-8 — Exact dependencies and neighbors.** Correspondence dependencies obtain independently; C.29 representation, E.17.0 View membership, grounding, publication, evidence, assurance, bridge, gate, and receiving Work remain separate.
+9. **CC-RT-9 — Later-specific occurrence only at its trigger.** A positive `RepresentationSchemeTransitionRelation@Context` has the exact A.1.1 model-use structure, preserved concern, `X`, `Y`, two exact scheme-description epistemes, and actual Work satisfying §4.1.b.
+10. **CC-RT-10 — Occurrence, Work, and description stay distinct.** The participant tuple identifies the occurrence; Work and production claims remain separate; the transition-description episteme has the occurrence as EntityOfConcern and its own C.2.1 identity.
+11. **CC-RT-11 — Occurrence identity.** Only a changed participant reidentifies the occurrence; repeat Work, evidence, publication, layout, carrier, description edition, or C.29 output does not.
+12. **CC-RT-12 — Reuse is local.** Reopen or lower only the affected source/target, delta, dependency, loss, use, evidence, or return when it changes.
 
 #### A.6.3.RT:7.2 - Counterexample replay
 
 | Case | Required result |
 | --- | --- |
-| Preserve vs retarget | Equal exact EntityOfConcern permits the A.6.3 test; a changed EntityOfConcern exits to A.6.4 even when labels or content overlap. |
-| Same scheme | If effective scheme and reasoning medium are unchanged and only wording changes, use A.6.3.CR; do not invent RT. |
-| Different scheme | Scheme difference is explicit but does not itself establish `v`, correspondence, Work, Bridge, or the six-participant occurrence. |
-| Candidate vs `U.View` | A valid receiving episteme and RT construction may still fail E.17.0 conformance and remain a non-View candidate. |
-| Publication/form/carrier | Making `X` or `Y` available, changing its form, or replacing its carrier does not replace an endpoint or reidentify an unchanged construction or occurrence. |
-| Work without conservativity | A system may actually produce `Y`, yet unsupported strengthening or unreported loss blocks the RT construction and relation occurrence. |
-| Grounded source, ungrounded receiver | Grounding of `X` does not transfer through `v`; `Y` has an `EpistemeEmpiricalGroundingRelation` only when its own exact covered claims and grounding conditions make one obtain. |
-| Selected structure overread | The exact `BoundedModelUseStructure` is one participant only in the triggered `...@Context` occurrence; it is not the transformer, viewpoint, `U.View`, representation, publication, or EntityOfConcern. |
-| Cross-scheme dependency without transition or Bridge | If neither the exact six-participant transition occurrence required by that dependency use nor an exact applicable F.9 Bridge and bounded-use/reliance path exists, block the cross-scheme dependency. Scheme difference, similar content, a description, or C.29 output cannot fill the gap. |
-| Description or C.29 output | Editing the transition-description episteme or mathematical output does not change the occurrence unless one of the exact six participants changes. |
-
-Reopen only the affected item. After a bounded repair, replay its local counterexample and then run this complete table once for the final package; do not restart the full file after every local correction.
+| Ordinary entry | A service note can become a useful comparison table and loss note without first inventing `X`, `Y`, `v`, Work, publication, or assurance records. |
+| Preserve vs retarget | Exact RT requires equal EntityOfConcern; a changed concern requires A.6.4 even when labels overlap. |
+| Same scheme | If scheme and reasoning medium are unchanged and only wording changes, use A.6.3.CR. |
+| Different scheme | Scheme difference alone establishes neither `v`, correspondence, Work, Bridge, nor the six-participant occurrence. |
+| Candidate vs `U.View` | A valid receiving episteme and RT construction may fail E.17.0 conformance and remain a non-View candidate. |
+| Publication/form/carrier | Availability, form change, or carrier replacement substitutes for no endpoint and reidentifies no unchanged construction or occurrence. |
+| Work without conservativity | A system may produce `Y`, yet unsupported strengthening or hidden loss blocks the exact construction and occurrence. |
+| Grounded source, ungrounded receiver | Grounding of `X` does not transfer through `v`; `Y` has an `EpistemeEmpiricalGroundingRelation` only when its own covered claims and conditions make one obtain. |
+| Readable decode without recovery basis | Keep a fluent decoded output exploratory, report-only, or blocked until the same-concern source, a declared decoding or access relation, recoverability evidence for the intended use, non-admissible use, remaining user action, and return are present. Readability, probe score, feature geometry, or publication form fills no episteme endpoint. |
+| Selected structure overread | The exact `BoundedModelUseStructure` is one participant only in the triggered occurrence; it is not transformer, viewpoint, `U.View`, representation, publication, or EntityOfConcern. |
+| Cross-scheme dependency | Scheme difference, similar content, a description, or C.29 output cannot replace the exact transition or F.9 Bridge and bounded-use relation required by that dependency. |
+| Description or C.29 output | Editing the transition description or mathematical output does not change the occurrence unless an exact participant changes. |
 

@@ -6,12 +6,12 @@ section_id: "C.34:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__011_rationale.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:10 — Rationale"
-line_start: 67765
-line_end: 67772
+line_start: 67717
+line_end: 67724
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -48,7 +48,7 @@ keywords:
 
 Architecture preservation is use-relative. The same two structures can be equivalent for one use, merely corresponding for another, and unusable for a third. A mature C.34 therefore cannot be a generic formalism pattern. It must start from source and target selected structures, then choose the weakest mapping mode that licenses the next architecture use.
 
-This keeps C.34 separate from its neighbors. `C.29` governs mathematical-lens use. `C.30.AD` and `C.30.ASV` govern description and view records. `F.9` governs cross-context bridges. `F.15` governs regression and conformance harnesses. `C.32` governs candidate synthesis. C.34 contributes the preservation claim that those governing patterns may need, but it does not replace them.
+This keeps C.34 separate from its neighbors. `C.29` defines mathematical-lens-use accounts. `C.30.AD` and `C.30.ASV` define description and view records. `F.9` defines cross-context Bridges. `F.15` supplies regression and conformance tests. `C.32` describes candidate synthesis. C.34 contributes the preservation claim those uses may need, but it does not replace them.
 
 The source families explain the safeguards. Structural-equivalence research shows that symmetry can compact search only under explicit conditions. Applied category theory shows why preservation maps are powerful but still formal lenses until tied to the architecture use. MBSE view practice makes projection and omitted structure ordinary. Sapunov and ToCS, plus GonzoML, show why observed relation maps and neural substitution labels need typed relation, confidence, and source-label recovery before architecture use.
 

@@ -6,12 +6,12 @@ section_id: "C.29:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__005_forces.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:3 — Forces"
-line_start: 58244
-line_end: 58255
+line_start: 58196
+line_end: 58207
 dependencies:
   - "A.1.1"
   - "A.10"

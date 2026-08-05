@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__003_problem.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:2 — Problem"
-line_start: 14368
-line_end: 14376
+line_start: 14382
+line_end: 14392
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,28 +29,30 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:2 - Problem
 
-Without a dedicated named pattern for representation-scheme transitions:
-1. teams treat text-to-table, table-to-diagram, and notation shifts as if they were all the same kind of harmless rewrite;
+Without a dedicated representation-scheme-transition pattern:
+
+1. teams treat text-to-table, table-to-diagram, and notation shifts as harmless formatting;
 2. changes in reasoning medium and recoverability remain implicit;
-3. latent representation or distributed representation cases tempt users to treat geometry or feature clusters as ontology-by-default;
-4. users cannot tell when a case is still same-entity viewing and when it has become retargeting, explanation, carrier work, or decode-mediated reconstruction;
-5. representation factors governed near `C.2.7` are discussed rhetorically rather than as explicit deltas.
+3. a visible edge, row, geometry, or decoder output silently imports claims that the source did not make;
+4. latent or distributed representations tempt users to treat feature geometry as ontology-by-default;
+5. users cannot tell when the case has become retargeting, explanation, narrative ordering, carrier work, bridge use, or controlled coarsening; and
+6. exact endpoint, occurrence, Work, publication, and assurance records are demanded before an ordinary useful target representation exists.
 

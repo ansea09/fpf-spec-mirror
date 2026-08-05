@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:12b — C.29 mathematical-lens use relation"
-line_start: 14851
-line_end: 14854
+line_start: 14792
+line_end: 14795
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,23 +29,23 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:12b - C.29 mathematical-lens use relation
 
-> When an entityOfConcernRef-preserving representation-scheme transition imports a contested or claim-bearing mathematical lens, `A.6.3.RT` still governs the source and receiving representation schemes, entityOfConcernRef-preserving relation, preserved and lost scheme features, and representation-scheme-transition boundary. The applicable `C.29` output for the stated use (`MathLensUse.LensCandidateNote`, `MathLensUse.OneLine`, `MathLensUse.MiniCard`, or `MathLensUse.FullCard` when the declared use needs it) may be cited only for adequacy of the mathematical lens used in that transition. It does not replace the representation-scheme-transition record or broaden the transition into bridge, evidence, or causal-claim-kind.
+When RT imports a contested or claim-bearing mathematical lens, RT still carries source/target schemes, same-EntityOfConcern construction, preservation, loss, and return. Cite the applicable C.29 output only for adequacy of that mathematical lens. C.29 neither replaces the RT account nor broadens it into bridge, evidence, or causal authority.
 

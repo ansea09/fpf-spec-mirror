@@ -6,12 +6,12 @@ section_id: "E.4.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__005_solution.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Solution"
-line_start: 71222
-line_end: 71285
+line_start: 71174
+line_end: 71237
 dependencies:
   - "A.10"
   - "C.33"

@@ -6,12 +6,12 @@ section_id: "C.33:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__011_rationale.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:10 — Rationale"
-line_start: 67577
-line_end: 67584
+line_start: 67529
+line_end: 67536
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,7 +52,7 @@ keywords:
 
 Architecture work often starts from carriers that are neither useless nor complete. A mature pattern must preserve both facts. If C.33 only says "do not confuse the carrier with architecture," it becomes a negative catalogue. If it treats every carrier as an architecture description or measurement, it duplicates C.30, C.16, and C.32.ACE. The chosen solution is a small adequacy note whose center is captured selected structure, lost structure, admissible use, and missing-structure return.
 
-This split keeps P2S as the whole architecturing spine and C.32 as candidate synthesis governing pattern. C.33 does not synthesize architecture and does not decide the project architecture. It gives the receiving governing pattern a typed account of what a carrier contributes and what must still be recovered.
+This split keeps P2S as the whole architecturing spine and C.32 as the pattern that describes candidate synthesis. C.33 does not synthesize architecture and does not decide the project architecture. It gives the practitioner and the next check a typed account of what a carrier contributes and what must still be recovered.
 
 The source choices explain the fields. Epiplexity motivates observer-bounded structural information but not a universal architecture metric. Multi-relational structural entropy motivates relation-kind awareness but not adequacy by number. Sapunov and ToCS motivate partial observability, active-passive gap, invariant fields, confidence, and unexplored regions. GonzoML motivates richer neural architecture operation language without making those labels FPF ontology.
 

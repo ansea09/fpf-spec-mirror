@@ -6,12 +6,12 @@ section_id: "A.16.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__013_relations.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:12 — Relations"
-line_start: 28014
-line_end: 28018
+line_start: 27966
+line_end: 27970
 dependencies:
   - "A.16"
   - "A.16.0"

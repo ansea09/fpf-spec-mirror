@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__014_footer-marker.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:13 — Footer marker"
-line_start: 66032
-line_end: 66035
+line_start: 65984
+line_end: 65987
 dependencies:
   - "A.10"
   - "A.12"

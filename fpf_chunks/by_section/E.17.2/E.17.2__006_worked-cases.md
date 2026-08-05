@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_worked-cases.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons"
   - "E.17.2:5 — Worked cases"
-line_start: 80112
-line_end: 80142
+line_start: 80064
+line_end: 80094
 dependencies:
   - "A.1"
   - "A.22"

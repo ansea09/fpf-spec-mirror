@@ -6,12 +6,12 @@ section_id: "A.6.9:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__008_bias-annotation.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:6 — Bias-Annotation"
-line_start: 20576
-line_end: 20586
+line_start: 20528
+line_end: 20538
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,5 +62,5 @@ This pattern is biased toward:
 * **Locality of meaning.** Exact scheme and local-sense claims provide the interpretation basis without a reified context bearer.
 * **Evidence humility.** Scores, counterexamples, and invariants inform claims and reliance but do not manufacture relation truth or permission.
 
-The dispatch stays cheap: same-context designation and direct-owner cases stop before F.9. The heavier path is reserved for a cross-local relation that a named use will actually consume.
+The dispatch stays cheap: same-context designation and direct-relation cases stop before F.9. The heavier path is reserved for a cross-local relation that a named use will actually consume.
 

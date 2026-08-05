@@ -6,35 +6,32 @@ section_id: "A.6.3.NAR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__010_consequences.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:9 — Consequences"
-line_start: 15189
-line_end: 15203
+line_start: 15132
+line_end: 15148
 dependencies:
-  - "A.16.1"
-  - "A.22"
+  - "A.10"
   - "A.22.CGUS"
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.4"
-  - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.32.P2S"
+  - "B.3"
   - "C.33"
   - "C.34"
   - "C.35"
-  - "E.10"
+  - "D.1"
+  - "D.5"
   - "E.11"
   - "E.17"
+  - "E.17.0"
   - "E.17.AUD"
   - "E.17.EFP"
-  - "E.4.DPF"
-  - "E.4.DPF.DA"
+  - "E.24.PUB"
   - "E.6"
   - "G.11"
   - "G.2"
@@ -45,14 +42,16 @@ keywords:
 
 Positive consequences:
 
-- Narrative becomes a reviewable exact episteme-to-episteme construction rather than ungoverned prose or a generic source-object-to-carrier edge.
-- Readers can benefit from sequence, tension, viewpoint, and event support without losing source-basis return discipline.
-- Generated and human-authored narratives receive the same source-structure checks before downstream use.
-- FPF Core stays small while narrative-studies, narratology, NLG, pedagogy, and storycraft details can mature outside Core.
+- A reader receives a usable sequence before formal identity work is required.
+- Selection, ordering, connective additions, loss, and return remain inspectable.
+- Exact episteme and source-chain discipline remains available when independent travel, citation, dispute, material cross-scheme or generated admission, consequential reliance, or another named receiving requirement makes it necessary; publicness alone adds no identity burden.
+- Human-authored and generated narratives face the same source-comparison boundary without pretending that their production histories are the narrative relation.
+- FPF Core stays small while narratology, NLG, pedagogy, and storycraft details mature in their own domains.
 
 Costs and trade-offs:
 
-- Authors must write a small relation note for reliance-facing narratives.
-- Some attractive narratives will be downgraded to orientation-only use because selected source structure is not recoverable.
-- Engagement claims can trigger ethics, evidence, or assurance governing patterns, which may slow publication but prevents persuasion from becoming hidden authority.
+- Authors must compare the narrative with the source rather than judging it by fluency alone.
+- Reliance-facing narratives require exact identity and preservation work proportionate to the receiver's use.
+- Some attractive narratives must be limited to orientation because selected structure or return is not recoverable.
+- Evidence, assurance, ethics, or policy claims may add work when they are genuinely current, preventing persuasion from becoming hidden authority.
 

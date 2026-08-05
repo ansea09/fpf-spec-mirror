@@ -6,35 +6,32 @@ section_id: "A.6.3.NAR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__007_bias-annotation.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:6 — Bias-Annotation"
-line_start: 15135
-line_end: 15145
+line_start: 15076
+line_end: 15087
 dependencies:
-  - "A.16.1"
-  - "A.22"
+  - "A.10"
   - "A.22.CGUS"
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.4"
-  - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.32.P2S"
+  - "B.3"
   - "C.33"
   - "C.34"
   - "C.35"
-  - "E.10"
+  - "D.1"
+  - "D.5"
   - "E.11"
   - "E.17"
+  - "E.17.0"
   - "E.17.AUD"
   - "E.17.EFP"
-  - "E.4.DPF"
-  - "E.4.DPF.DA"
+  - "E.24.PUB"
   - "E.6"
   - "G.11"
   - "G.2"
@@ -45,10 +42,11 @@ keywords:
 
 | Bias | How NAR counters it |
 | --- | --- |
-| Story-substitution bias | Requires selected source structure, preserved structure, lost structure, admissible use, and source-basis return condition before relying on the narrative. |
-| Engagement-authority bias | Treats engagement as a declared-use claim and routes ethics, evidence, assurance, and policy force to their governing patterns. |
-| Sequence-naturalization bias | Requires the ordering rationale instead of letting a fluent order look inevitable. |
-| Carrier-serialization bias | Keeps file export, stream order, OCR, and layout changes outside NAR unless selected source structure is ordered into a narrative path. |
-| Generated-fluency bias | Keeps generated narratives as carriers or candidates until source-basis relation, structure preservation, and governing-pattern routing are declared. |
-| Narratology-import bias | Keeps narratology and storycraft vocabulary in domain source packs or local and domain frameworks, not as automatic FPF Core ontology. |
+| Story-substitution bias | Requires selected source structure, visible loss, bounded use, and source return before the narrative is relied on. |
+| Formality-first bias | Produces a useful narrative and source comparison before opening an exact identity record whose receiving use does not need it. |
+| Engagement-authority bias | Treats engagement as a bounded use claim; evidence, assurance, ethics, and policy force remain with the patterns that define those claims. |
+| Sequence-naturalization bias | Makes the ordering and connective account explicit instead of letting a fluent order look inevitable or source-given. |
+| Carrier-serialization bias | Keeps file export, stream order, OCR, and layout changes outside NAR unless selected source structure is actually ordered into a narrative path. |
+| Generated-fluency bias | Keeps generated output as candidate material until source comparison and any independently required admission pass. |
+| Narratology-import bias | Keeps narratology and storycraft detail in domain practice instead of creating automatic FPF Core kinds. |
 

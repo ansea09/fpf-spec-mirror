@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__011_rationale.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:10 — Rationale"
-line_start: 14801
-line_end: 14804
+line_start: 14746
+line_end: 14749
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,23 +29,23 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:10 - Rationale
 
-This pattern is worth splitting out because representation changes are already happening in practice and they are not well served by treating every such case as either mere rewriting or full retargeting. Keeping the family under `A.6.3` preserves governing-pattern boundary while making representation-factor and recoverability evidence needs explicit.
+Representation changes are neither always cosmetic nor always new ontology. The reusable move is to preserve practical content for a use, expose the changed reasoning medium, and keep loss and return honest. Exact `v : X -> Y` is the stronger claim-level description when needed; the six-participant occurrence is later-specific evidence about actual transition Work, not the entrance fee for changing prose into a table.
 

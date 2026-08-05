@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
-line_start: 33551
-line_end: 33913
+line_start: 33503
+line_end: 33865
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

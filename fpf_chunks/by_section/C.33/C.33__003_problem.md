@@ -6,12 +6,12 @@ section_id: "C.33:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__003_problem.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:2 — Problem"
-line_start: 67468
-line_end: 67481
+line_start: 67420
+line_end: 67433
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -59,6 +59,6 @@ Without C.33:
 - a diagram, model, generated graph, ADR, or benchmark trace starts acting as architecture by presentation;
 - structural information is confused with a score, entropy value, epiplexity estimate, dashboard reading, or eval result;
 - hidden structure becomes invisible exactly when a later candidate, decision, or work method depends on it;
-- source labels such as layer, router, expert, cache, memory, block, gate, SSM, pruning, distillation, or architecture search are copied as FPF ontology instead of being recovered through current FPF governing patterns;
+- source labels such as layer, router, expert, cache, memory, block, gate, SSM, pruning, distillation, or architecture search are copied as FPF ontology instead of being recovered through current FPF rules that define the relevant structures and relations;
 - partial-observation outputs from code agents or AI tools are treated as internal belief proof, safe-change authority, evidence sufficiency, or release confidence.
 

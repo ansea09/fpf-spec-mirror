@@ -6,12 +6,12 @@ section_id: "F.1:11"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__012_anti-patterns-remedies.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:11 — Anti‑patterns & remedies"
-line_start: 89848
-line_end: 89863
+line_start: 89800
+line_end: 89815
 dependencies:
   - "A.11"
   - "A.7"

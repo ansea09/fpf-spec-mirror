@@ -6,35 +6,32 @@ section_id: "A.6.3.NAR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__011_rationale.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:10 — Rationale"
-line_start: 15204
-line_end: 15209
+line_start: 15149
+line_end: 15154
 dependencies:
-  - "A.16.1"
-  - "A.22"
+  - "A.10"
   - "A.22.CGUS"
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.4"
-  - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.32.P2S"
+  - "B.3"
   - "C.33"
   - "C.34"
   - "C.35"
-  - "E.10"
+  - "D.1"
+  - "D.5"
   - "E.11"
   - "E.17"
+  - "E.17.0"
   - "E.17.AUD"
   - "E.17.EFP"
-  - "E.4.DPF"
-  - "E.4.DPF.DA"
+  - "E.24.PUB"
   - "E.6"
   - "G.11"
   - "G.2"
@@ -43,7 +40,7 @@ keywords:
 
 ### A.6.3.NAR:10 - Rationale
 
-Narrative is a powerful way to make structure usable by humans. It can order events, mechanisms, evidence, options, architecture decisions, and learning paths. That strength is also the risk: a well-formed narrative can make a source look simpler, more certain, more complete, or more ethically acceptable than it is.
+Narrative makes non-linear structure usable by giving readers a path through events, mechanisms, evidence, options, architecture decisions, or prerequisites. That strength is also the risk: a well-formed story can make a source look simpler, more certain, more complete, or more permissible than it is.
 
-The chosen Core pattern is therefore narrow. It does not make FPF a narratology, storycraft, teaching, or NLG framework. It governs one exact A.6.3 construction `n : X -> Y`: exact claims in independently constituted source episteme `X` are ordered into exact receiving narrative episteme `Y` about the same EntityOfConcern for declared use, while ordering, preservation, loss, applicability, and source return remain visible.
+The narrow reusable move is therefore reader-first and progressive. Choose structure for a use, order it, connect it, draft the account, and expose loss and return. Exact `n : X -> Y` is the stronger description of that move when a receiving use needs claim-level identity; it is not the entrance fee for every explanation.
 

@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and ownership"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-ownership.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and ownership"
-line_start: 79483
-line_end: 79498
+line_start: 79435
+line_end: 79450
 dependencies:
   - "A.22"
   - "A.6.2"

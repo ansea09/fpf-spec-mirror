@@ -6,12 +6,12 @@ section_id: "F.9:23"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__025_rationale.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:23 — Rationale"
-line_start: 92824
-line_end: 92829
+line_start: 92776
+line_end: 92781
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.34:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__008_conformance-checklist.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:7 — Conformance checklist"
-line_start: 67727
-line_end: 67737
+line_start: 67679
+line_end: 67689
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,6 +52,6 @@ keywords:
 | `CC-C34-2` | Mapping mode is selected and is not stronger than the declared use needs. |
 | `CC-C34-3` | Preserved relations or constraints and lost structure are both stated. |
 | `CC-C34-4` | Relation-type semantics, observation class, directionality, and scope are present when they affect use. |
-| `CC-C34-5` | Mathematical-lens, view, description, bridge, conformance, candidate-synthesis, measurement, eval, decision, evidence, assurance, gate, release, and work-authorization claims route to their governing patterns. |
-| `CC-C34-6` | Admissible use, non-admissible use, preservation-loss return condition, receiving governing pattern, and receiving claim kind are named. |
+| `CC-C34-5` | Each current mathematical-lens, view, description, Bridge, conformance, candidate-synthesis, measurement, eval, decision, evidence, assurance, gate, release, or work-authorization claim uses the pattern that defines or tests it. |
+| `CC-C34-6` | Admissible use, non-admissible use, preservation-loss return condition, the next claim or use, and its required rule are named. |
 

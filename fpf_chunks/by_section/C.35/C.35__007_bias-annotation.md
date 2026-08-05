@@ -6,12 +6,12 @@ section_id: "C.35:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__007_bias-annotation.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:6 — Bias-Annotation"
-line_start: 67919
-line_end: 67929
+line_start: 67871
+line_end: 67881
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -61,10 +61,10 @@ keywords:
 
 | Bias | How C.35 counters it |
 | --- | --- |
-| Output authority bias | Require produced carrier, described structure, admission condition, bearer boundary, receiving governing pattern, and non-admissible use before any architecture governing pattern relies on the output. |
-| Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until selected structures, criteria, constraints, losses, and governing-pattern routing are named. |
-| Reusable-generator collapse | Keep one-case output admission in C.35; route reusable generator, mechanism suite, model family, or production pipeline governance to `E.20`, `G.1`, `G.10`, `G.11`, or a later selected governing pattern. |
+| Output authority bias | Require produced carrier, described structure, admission condition, bearer boundary, the next claim plus its required rule, and non-admissible use before any architecture claim relies on the output. |
+| Pareto-point admission bias | Treat a Pareto point, benchmark score, archive member, or search trace as a candidate input cue until selected structures, criteria, constraints, losses, and the concrete candidate-use rule are named. |
+| Reusable-generator collapse | Keep one-case output admission in C.35; handle reusable-generator, mechanism-suite, model-family, or production-pipeline claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains those claims. |
 | Bearer-free synthesis bias | Require bearer or realization boundary before treating a discovered function, relation, or candidate form as architecturally feasible. |
-| Eval substitution bias | Route eval programs and eval results to `C.32.ACE`; route measurement to `C.16`; do not let good eval numbers act as candidate admission or decision authority. |
+| Eval substitution bias | Handle eval programs and eval results under `C.32.ACE`; handle measurement under `C.16`; do not let good eval numbers act as candidate admission or decision authority. |
 | Currentness freeze | Reopen the admission note when source publication edition, source-use record, search space, query rule, validation trace, bearer constraints, realized structure, or eval return changes. |
 

@@ -6,35 +6,32 @@ section_id: "A.6.3.NAR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__006_archetypal-grounding.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:5 — Archetypal Grounding"
-line_start: 15079
-line_end: 15134
+line_start: 15024
+line_end: 15075
 dependencies:
-  - "A.16.1"
-  - "A.22"
+  - "A.10"
   - "A.22.CGUS"
   - "A.6.3"
   - "A.6.3.CR"
   - "A.6.3.CSC"
   - "A.6.3.RT"
   - "A.6.4"
-  - "C.30"
-  - "C.30.AD"
-  - "C.30.ASV"
-  - "C.32.P2S"
+  - "B.3"
   - "C.33"
   - "C.34"
   - "C.35"
-  - "E.10"
+  - "D.1"
+  - "D.5"
   - "E.11"
   - "E.17"
+  - "E.17.0"
   - "E.17.AUD"
   - "E.17.EFP"
-  - "E.4.DPF"
-  - "E.4.DPF.DA"
+  - "E.24.PUB"
   - "E.6"
   - "G.11"
   - "G.2"
@@ -43,57 +40,53 @@ keywords:
 
 ### A.6.3.NAR:5 - Archetypal Grounding
 
-Tell: A.6.3.NAR constructs exact narrative episteme `Y` from exact source episteme `X` by one declared ordering rule while preserving source return. It is not a general story-writing pattern, and selected source structure, form, or carrier is not an endpoint.
+Tell: NAR turns selected source structure into a reader-useful sequence while keeping ordering, loss, unsupported strengthening, and source return visible. It is not a general story-writing pattern.
 
 #### A.6.3.NAR:5.1 - Scientific mechanism narrative
 
-A chemistry paper has calculations, candidate mechanisms, failed synthesis attempts, and an unresolved tension between theory and experiment. The narrative uses discovery order: failed attempts, structural clue, revised mechanism, new experiment, remaining uncertainty.
+A chemistry paper has calculations, candidate mechanisms, failed synthesis attempts, and an unresolved tension between theory and experiment. For an internal explanation, the first useful result is a discovery-ordered account: failed attempts, structural clue, revised mechanism, new experiment, remaining uncertainty. Its compact note says that candidate relations and failed attempts are preserved, full calculations are deferred, connective claims are not proof, and mechanism-proof use returns to the calculations and experiment record.
 
-Exact source episteme `ChemistryMechanism-X` states the candidate-mechanism, failed-attempt, experiment, and unresolved-tension claims about one exact reaction case under its effective scheme. Exact receiving narrative episteme `ChemistryDiscovery-Y` concerns the same case under its narrative scheme. `DiscoveryNarrativization : X -> Y` orders the exact selected claims, preserves the candidate and failed-attempt relations, foregrounds discovery sequence, omits full calculation detail, prohibits proof overread, and returns to `X` before mechanism-proof use. The calculations and files are not `X`; the paper form and carrier are not `Y`.
-
-This is not only conservative retextualization because ordering and tension carry the use. It is not proof because the narrative does not replace evidence.
+If a published account must travel independently, be cited or disputed as a stable account, or support consequential reliance, open the exact branch. Mere publication of a source-linked low-reliance explanation does not require it. Source episteme `ChemistryMechanism-X` states the relevant claims about the reaction case; receiving episteme `ChemistryDiscovery-Y` concerns the same case. `DiscoveryNarrativization : X -> Y` records the exact selection, scheme relation, discovery order, preserved and lost claims, prohibited proof overread, and return. Calculation files are not `X`; the paper form and carrier are not `Y`.
 
 #### A.6.3.NAR:5.2 - Architecture trade-off narrative
 
-Exact architecture source episteme `ArchitectureTradeoff-X` states module, custody, placement, characteristic, and rejected-candidate claims about exact project system `S` under its effective architecture scheme. Exact narrative episteme `ArchitectureRationale-Y` concerns the same `S` under its narrative scheme. The independently selected candidate structures remain A.22 objects designated by `X`, not source endpoints.
+An architecture team needs to explain why one candidate structure was selected. It first writes a tension-ordered account: current pain, candidate split, data-custody and placement constraints, characteristic trade-off, rejected alternatives, selected structure, and remaining residual. For team orientation, the note identifies the architecture description or decision material, what alternatives are omitted, and that implementation authority remains outside the narrative.
 
-`ArchitectureRationaleNarrativization : X -> Y` uses tension order, preserves candidate and trade-off relations, foregrounds the selected path, declares omitted alternatives and residuals, blocks implementation authority, and returns to exact `X` and its governed architecture relations. The route is prospective during choice and retrospective during reconstruction; publication, decision, and synthesis remain separate.
+If this account will guide a design decision or travel as architecture rationale, exact source episteme `ArchitectureTradeoff-X` and exact receiving narrative episteme `ArchitectureRationale-Y` concern the same project system. `ArchitectureRationaleNarrativization : X -> Y` records the exact construction and source return. Candidate structures remain independently governed A.22 objects designated by source claims, not source endpoints. The posture is prospective during choice and retrospective during reconstruction; publication, decision, synthesis, and performed Work remain separate.
 
 #### A.6.3.NAR:5.2.1 - Architecture narrative repair after source change
 
-Later, one rejected candidate gains a new measurement basis and a placement constraint changes. The old narrative still tells a coherent tension story, but it no longer preserves the live candidate set. The repair is local: lower the old narrative to historical orientation, reopen the NAR case, replace the selected-source-structure refs and ordering rationale, and add a new source-basis or governing-pattern return condition pointing to the updated architecture description, decision record, or synthesis governing pattern.
+Later, a rejected candidate gains a new measurement basis and a placement constraint changes. The old story remains coherent but no longer preserves the live candidate set. Lower it to historical orientation, update the selected structures and ordering, state the changed loss and residual, and restore return to the current architecture description or decision material. In an exact case, reidentify only the changed source claims and affected part of `n`.
 
-The captured and lost structures move to `C.33`: old rejected-candidate relation preserved as history, new candidate-set relation captured, and obsolete measurement basis marked lost for current decision use. `C.34` may carry only the weakened correspondence that remains between the old narrative and the updated source. Implementation or decision use stays non-admissible until the architecture description, decision record, or synthesis governing pattern is repaired.
+C.33 carries captured and lost architecture-relevant structures: preserve the old rejected-candidate relation as history, capture the new candidate-set relation, and mark the obsolete measurement basis lost for current decision use. C.34 carries only a correspondence that actually remains. Implementation or decision use stays non-admissible until the architecture description, decision, or synthesis account that owns that claim is current.
 
 #### A.6.3.NAR:5.2.2 - Live unfolding event narrative
 
-Exact live event-record episteme `MatchState-X` states current score, possession, tactical, role, momentum, and uncertainty claims about exact match `M` under its live-event scheme. Exact commentary episteme `LiveNarrative-Y` concerns the same `M`; `LiveNarrativization : X -> Y` orders those claims while the match unfolds. The match and event stream are not `X`; audio is a form/carrier, not `Y`.
+A commentator narrates a football match while it unfolds. The ordinary narrative selects score state, possession changes, tactical shape, player roles, momentum, and uncertainty, then uses event and tension order for live orientation. It does not turn provisional interpretation into settled event evidence.
 
-The construction admits live orientation and prediction while preserving uncertainty; later analysis, statistics, rule disputes, injuries, or official-result use returns to exact `X` or exact later source epistemes and their governed evidence/publication relations. Provisional narrative claims are not settled event evidence.
+Later analysis, statistics, rule disputes, injuries, or official-result use returns to the event record and official sources. If the commentary itself must be replayed, cited, or disputed, an exact case identifies the live event-record episteme `MatchState-X`, commentary episteme `LiveNarrative-Y`, and `LiveNarrativization : MatchState-X -> LiveNarrative-Y`; the match and event stream are not `X`, and audio is a form or carrier rather than `Y`.
 
 #### A.6.3.NAR:5.3 - FPF seminar-route boundary
 
-Exact FPF source-selection episteme `FPFSeminarSource-X` states the selected FPF claims and relation dependencies for a teaching use. Exact seminar-route episteme `FPFSeminarNarrative-Y` concerns the same FPF subject and orders those claims for learners under `SeminarNarrativization : X -> Y`; outlines, slides, scripts, and exercises are separate publication forms/carriers.
+A team orders selected FPF claims for learners: EntityOfConcern discipline, problem frames, pattern use, relation records, source return, framework authoring, and improvement loops. The first result is a teachable route whose note records prerequisite order, deferred detail, reconstruction tasks, and return to exact FPF passages.
 
-The probe evaluates `n`, its ordering, loss, reconstruction, admissible teaching use, and return. It is not narrative-quality evidence, proof that FPF is correct, publication permission, or permission to place teaching carriers inside Core pattern bodies.
-
-A separate E.24.PUB occurrence may later make selected `Y` available through an exact teaching form and carrier. That occurrence does not constitute `Y`, establish `n`, or add the teaching material to this pattern body.
+The route does not establish that FPF is correct, does not evaluate the whole seminar, and does not place outlines, slides, scripts, or exercises inside Core pattern bodies. A separate E.24.PUB occurrence may make a selected narrative episteme available through a teaching form and carrier; publication neither constitutes the narrative episteme nor establishes the NAR construction.
 
 #### A.6.3.NAR:5.4 - Franchise-continuation storycraft probe boundary
 
-Exact source episteme `CanonSelection-X` states the admitted continuity claims about the exact fictional work under an effective canon scheme; the local source pack, files, and publications remain separately governed inputs and access objects. Exact receiving episteme `ContinuationNarrative-Y` is independently constituted before NAR is asserted.
+A storycraft team selects continuity constraints, premise, theme, character-agency treatment, causal plot structure, viewpoint, stakes, and return points from an admitted canon or local source pack, then orders them into a proposed continuation. NAR records selection, order, foregrounding, loss, and source return; it does not turn storycraft vocabulary into FPF Core.
 
-`ContinuationNarrativization : CanonSelection-X -> ContinuationNarrative-Y` states exact selection, ordering, foregrounding, loss, prohibited strengthening, and return to `X` or exact governed source-pack claims. Storycraft vocabulary, canon classification, generation method, rights, publication, and full quality evaluation stay outside Core; G.2 governs source-pack claims, C.35 generated candidates, and direct patterns govern agency, responsibility, evidence, and publication.
+If an exact continuity claim must travel, `CanonSelection-X` and `ContinuationNarrative-Y` are independently identified and `ContinuationNarrativization : CanonSelection-X -> ContinuationNarrative-Y` states the exact construction. Canon classification, generation method, rights, publication, and full narrative-quality evaluation stay outside NAR. G.2 governs source-pack claims, C.35 generated candidates, and the relevant agency, responsibility, evidence, and publication patterns govern their own claims.
 
 #### A.6.3.NAR:5.5 - Homotopy-theory explanation probe boundary
 
-A teacher uses exact mathematical source episteme `HomotopySource-X`, made available by a separately identified publication occurrence, to construct exact sequential explanation episteme `HomotopyNarrative-Y` about the same mathematical EntityOfConcern. The publication form and carrier are not `X`; the explanation pages are not `Y` merely by readability.
+A teacher turns graph-heavy mathematical material into a didactic sequence of definitions, dependencies, examples, counterexamples, theorem prerequisites, and proof-status boundaries. The ordinary note records which structures a learner can reconstruct, which proof details or generalizations are deferred, and when to return to formal statements. Analogy recall is not proof or understanding evidence.
 
-`A.6.3.NAR` records the chosen sequence rule and visible loss: which mathematical structures remain reconstructible, which proof details or generalizations are deferred, and when the learner must return to formal mathematical statements. It does not certify the mathematical proof, replace the formal text, or turn analogy recall into understanding. Use mathematical-lens, proof, `G.2` source-use, evidence, publication, and teaching-evaluation governing patterns when those claims are live.
+If the explanation is cited as a stable mathematical account, exact source episteme `HomotopySource-X` and receiving episteme `HomotopyNarrative-Y` concern the same mathematical EntityOfConcern; the construction records ordering and visible loss. Mathematical-lens, proof, source-use, evidence, publication, and teaching-evaluation claims remain with their direct patterns.
 
 #### A.6.3.NAR:5.6 - Automated event-graph narrative
 
-An LLM or NLG system receives exact source episteme `EventPlan-X`, whose claim content designates an event graph, agent goals, constraints, and domain schema, then performs dated generation Work that proposes a carrier for candidate narrative episteme `StoryScene-Y`. The graph and schema are not `X`, and generated prose is not `Y` until C.2.1 identity is recoverable.
+An LLM or NLG system uses source claims designating an event graph, agent goals, constraints, and a domain schema, then performs generation Work that proposes a story-scene carrier. The first inspection compares the proposed sequence with the selected event relations, marks preserved constraints, omissions, and hallucinated connective claims, and limits use to candidate review.
 
-NAR asserts `EventNarrativization : EventPlan-X -> StoryScene-Y` only after C.2.1 constitution and generated-output admission pass. It names exact selected event relations, ordering, preserved constraints, coarsened or hallucinated claims, prohibited strengthening, and return to `X`. Generation fluency supplies no authority; C.35, G.2, evidence, assurance, and publication remain separate.
+Generated prose is not an admitted narrative episteme merely because it is fluent. C.35 governs generated-carrier admission. If reliance-facing use later opens exact NAR, independently identify `EventPlan-X` and `StoryScene-Y`, then state `EventNarrativization : EventPlan-X -> StoryScene-Y`, the additional source chain, loss, prohibited strengthening, and return. The graph and schema are not `X`; the system's generation Work, evidence, assurance, and publication remain separate.
 

@@ -6,12 +6,12 @@ section_id: "C.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__003_problem-frame.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:1 — Problem Frame"
-line_start: 44614
-line_end: 44619
+line_start: 44566
+line_end: 44571
 dependencies:
   - "A.1"
   - "A.11"

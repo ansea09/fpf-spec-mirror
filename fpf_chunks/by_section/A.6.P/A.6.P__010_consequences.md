@@ -6,12 +6,12 @@ section_id: "A.6.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__010_consequences.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:9 — Consequences"
-line_start: 16224
-line_end: 16239
+line_start: 16176
+line_end: 16191
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -43,11 +43,11 @@ keywords:
 - Hidden participants and kind collapses become repairable through one repeatable sequence.
 - Reusable declarations, occurrence identity, designations, and representations appear only for named receiving uses.
 - Assertion, declaration, occurrence, evidence, designation, publication, Bridge, and representation changes remain independently reviewable.
-- Neighboring patterns receive the object they actually govern rather than a generic container.
+- Neighboring claims remain separate subject assertions under their exact predicates rather than entering a generic container.
 
 **Costs and mitigations**
 
 - Grounding an ambiguous phrase takes more work than lexical replacement. The first useful move and small candidate note keep that work bounded.
 - Some claims become longer when their truth depends on scope, time, viewpoint, witness, or another participant. Plain relaxation restores readability after the precise reading is stable.
-- Domain-specific direct relation patterns still need their own obtaining and identity rules. A.6.P supplies recovery and governing-pattern selection, not a universal relation ontology.
+- Domain-specific direct relation patterns still need their own obtaining and identity rules. A.6.P supplies recovery and selection of the defining or constraining rule, not a universal relation ontology.
 

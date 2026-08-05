@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__010_consequences.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:9 — Consequences"
-line_start: 65989
-line_end: 66000
+line_start: 65941
+line_end: 65952
 dependencies:
   - "A.10"
   - "A.12"

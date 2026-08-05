@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__010_consequences.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:9 — Consequences"
-line_start: 14794
-line_end: 14800
+line_start: 14732
+line_end: 14745
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,26 +29,33 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:9 - Consequences
 
-- Same-EntityOfConcern episteme constructions get an admissible place without treating a visible rendering, publication, form, carrier, Work record, or description as an endpoint or occurrence.
-- Representation-factor and reasoning-medium changes become explicit rather than rhetorical.
-- Recoverability and decode dependence become reviewable instead of hidden behind cleaner renderings.
-- The pattern remains safely bounded by `A.6.3`, `A.6.4`, explanation governance, and carrier work.
+- Ordinary users can obtain a useful target representation without a six-participant record.
+- Representation and reasoning-medium changes become explicit rather than rhetorical.
+- Exact same-EntityOfConcern, scheme, source-chain, loss, and occurrence identity remain available for consequential use.
+- Recoverability and decode dependence become reviewable instead of hiding behind cleaner output.
+- Work, View membership, publication, evidence, assurance, bridge, and ontology claims remain separate.
+
+Costs and trade-offs:
+
+- Authors must compare source and target instead of judging only appearance.
+- Reliance-facing use adds exact identity and evidence work proportionate to the receiver.
+- Some attractive targets remain orientation-only or exploratory because source return or recovery is weak.
 

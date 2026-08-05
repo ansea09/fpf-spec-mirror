@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:7 — Conformance checklist"
-line_start: 67930
-line_end: 67941
+line_start: 67882
+line_end: 67893
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -65,7 +65,7 @@ keywords:
 | `CC-C35-2` | Note, Method, dated generation or discovery Work, any actual transformation, production or work-to-change claim, produced carrier or description, described structure, selected candidate structure, realized holon structure, measurement return, eval return, decision authority, and composite project Work remain distinct. |
 | `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, comparison refs, and transformation trace are present when they affect use; none substitutes for the A.3.4 basis of an actual transformation or the four A.22 structure discriminators. |
 | `CC-C35-4` | Candidate admission condition names what must be true before C.32 can use the result. |
-| `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question is routed to the direct governing pattern. |
-| `CC-C35-6` | Archive, front, pool, publication, eval, measurement, mathematical lens, decision, evidence, assurance, gate, release, method, and work claims are routed to their governing patterns. |
-| `CC-C35-7` | Admissible use, non-admissible use, carrier-admission return condition, receiving governing pattern, and receiving claim kind are named. |
+| `CC-C35-5` | Bearer or realization boundary is stated, and any feasibility question uses the rule that defines or tests it. |
+| `CC-C35-6` | Each current archive, front, pool, publication, eval, measurement, mathematical-lens, decision, evidence, assurance, gate, release, method, or work claim uses the pattern that defines or tests it. |
+| `CC-C35-7` | Admissible use, non-admissible use, carrier-admission return condition, the next claim or question, and its required rule or test are named. |
 

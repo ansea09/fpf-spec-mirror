@@ -6,12 +6,12 @@ section_id: "C.33:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__002_problem-frame.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:1 — Problem frame"
-line_start: 67408
-line_end: 67467
+line_start: 67360
+line_end: 67419
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -96,15 +96,15 @@ StructuralInformationAdequacyNote@Context:
   admissibleUse:
   nonAdmissibleUse:
   missingStructureReturnCondition:
-  receivingGoverningPatternRef:
+  nextClaimOrRuleRef?:
   receivingClaimKind:
 ```
 
-Adoption test: after using C.33, another practitioner can tell what selected structure is captured, what structure is expected but not captured, what is lost or hidden, what use is admissible, which non-admissible uses are blocked, and which governing pattern receives the next claim.
+Adoption test: after using C.33, another practitioner can tell what selected structure is captured, what structure is expected but not captured, what is lost or hidden, what use is admissible, which non-admissible uses are blocked, and which practical claim, question, rule, or test comes next. Record a stable reference only when that next use must travel independently.
 
-What C.33 buys in practice: the practitioner can use a partial carrier without pretending it is complete. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and receiving governing pattern.
+What C.33 buys in practice: the practitioner can use a partial carrier without pretending it is complete. The pattern turns "this diagram, ADR, graph, report, or observation is useful" into a reviewable statement about captured structure, missing structure, missing-structure return, and the next claim or test that needs that structure.
 
 Ordinary working move: underline the carrier sentence, diagram, graph edge set, or observation being relied on; write what selected structure it captures; write what it leaves out; then name the use that remains admissible.
 
-Not this pattern when the current question asks whether the architecture, record, lens, reading, decision, authorization, or publication is admissible. Use the governing pattern for that question first. Return to C.33 only when that governing pattern relies on a carrier whose captured structural content and missing structural content must be made explicit.
+Not this pattern when the current question asks whether the architecture, record, lens, reading, decision, authorization, or publication is admissible. Use the pattern that defines or tests admissibility for that object and question first. Use C.33 only when that test relies on a carrier whose captured structural content and missing structural content must be made explicit.
 

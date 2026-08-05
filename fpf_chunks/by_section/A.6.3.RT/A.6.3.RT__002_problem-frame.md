@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__002_problem-frame.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:1 — Problem frame"
 line_start: 14348
-line_end: 14367
+line_end: 14381
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,39 +29,53 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:1 - Problem frame
 
-Use this pattern when one exact source episteme `X` and one exact receiving episteme `Y` concern the same exact EntityOfConcern but use different declared representation schemes or reasoning media: prose to table, table to diagram, diagram to structured notation, or another declared representation regime. Before calling either endpoint a representation episteme, recover its exact C.2.1 claim content, exact EntityOfConcern, and effective `U.ReferenceScheme`. A file, page, table, diagram, model display, publication occurrence, publication form, or carrier may expose an endpoint; none substitutes for it.
+Use this pattern when practical content must survive a change of representation scheme or reasoning medium: prose to table, table to diagram, diagram to structured notation, a model to a different inspectable rendering, or another declared representation change. In plain language: **change the representation while preserving what matters for this use**.
 
-**Governed construction.** The ordinary governed object is the exact A.6.3 viewing declaration `v : X -> Y`, including the claim-content construction, relation between the two effective reference schemes, preserved content, admitted loss, prohibited strengthening, and applicability. The stronger `RepresentationSchemeTransitionRelation@Context` occurrence is opened only for the later-specific case in which a system actually performs representation-transformation Work and all six exact relation participants in section 4.1.a.1 are present. The viewing declaration, relation occurrence, performed Work, and any transition-description episteme are four different objects.
+Start with the content that must survive and the target representation that will make it more usable. Produce the target, compare it with the source, and state what was preserved, foregrounded, rearranged, lost, or newly suggested. Exact episteme identities are not prerequisites for this ordinary first result.
 
-**Primary EntityOfConcern.** `X` and `Y` have the same exact EntityOfConcern. The transition-description episteme, when needed, instead has the exact transition-relation occurrence as its own EntityOfConcern. Neither use changes the world-side entity or makes a relation involving that entity obtain.
+Plain starting vocabulary:
 
-**First useful move.** Name `X` and `Y` with their three C.2.1 identity discriminators; state the exact `v : X -> Y` and the relation between their effective reference schemes; then state preserved claims, loss or recoverability, admissible use, non-admissible downstream use, and return condition. Only when asserting the `...@Context` occurrence, additionally name the independently constituted source and receiving scheme-description epistemes, an exact selected bounded model-use structure, and actual representation-transformation Work. Recover correspondence, C.29 representation, viewpoint conformance, publication, form, carrier, grounding, and receiving use separately when one of them is current.
+| Term | Plain meaning |
+| --- | --- |
+| `source material` | The source claims, table, prose, diagram, model, record, publication, or other material being re-represented. In an exact case, distinguish the source episteme from its form, carrier, world-side concern, and additional inputs. |
+| `content to survive` | The claims, relations, commitments, uncertainty, source pins, or distinctions the target representation must still support for the declared use. |
+| `target representation` | The table, diagram, notation, structured record, or other representation chosen for the receiving task. Its visible form or carrier does not by itself identify a receiving episteme. |
+| `representation scheme` | The declared regime under which claim content is represented and interpreted for this use. |
+| `reasoning medium` | What the representation lets a user inspect, compare, infer, traverse, or replay more or less easily. |
+| `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
+| `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
+| `use and return` | What the target supports, what it does not support, and when and where to return to source material. |
+| `representation worker` | The person, team, or system doing the conversion. Recover exact role assignment, method, and dated Work only when production history matters; doing the work grants no authority over the represented claims. |
 
-**What goes wrong if missed.** A table, diagram, notation, model display, or decoded rendering is treated as an episteme endpoint merely by appearance. Scheme difference then hides an EntityOfConcern shift, unsupported claims, absent transformation Work, unproved correspondence, or a publication/form/carrier substitution.
+**First useful move.** Name the content that must survive and the target representation; make the target; then attach a compact representation note: source material, intended user action, target representation and why, preserved content, representation/reasoning-medium delta, loss or unsupported additions, admissible and non-admissible use, and return trigger.
 
-**What this buys.** One inspectable same-EntityOfConcern episteme construction, plus a separately testable historical transition occurrence only when its six participants and actual Work exist. Representation-factor and reasoning-medium change, preservation, loss, and return remain visible without converting a rendering into knowledge, work, a view, or authority.
+**What goes wrong if missed.** A cleaner table, diagram, notation, or decoded rendering is treated as harmless formatting after it has hidden uncertainty, changed the concern, imported a new relation, weakened recoverability, or invited a stronger action than the source supports.
 
-**Ordinary use.** For inspection, source-finding, comparison, technical review, or reversible planning preparation, a readable statement of `X`, `Y`, `v`, preservation, loss, use, and return is normally sufficient. Do not materialize the `...@Context` occurrence merely because the receiving form is visible.
+**What this buys.** Users gain a representation suited to their task while preservation, reasoning affordances, loss, unsupported strengthening, and source return stay visible. The rendering does not thereby become knowledge, ontology, Work, `U.View`, publication authority, evidence, or assurance.
 
-**Reliance-facing use.** Open the fuller continuity-review content only when the receiving episteme will be externally relied on, disputed, cited as an admissibility reason, used across bounded model-use structures or schemes, treated as release, gate, or work-preparation justification, carried through decode-mediated access, or used for temporal, dynamics, or transformation-flow currentness. Each stronger claim still requires its direct governor.
+**Ordinary use.** For inspection, comparison, source-finding, technical discussion, or reversible planning preparation, the target representation and compact note are normally enough.
 
-**Not this pattern when.** Use `ConservativeRetextualization` when only wording changes, explanation governance when explanation is primary, `A.6.4` when the exact EntityOfConcern changes, and the carrier or extraction governor when no receiving episteme has yet been constituted. Use `A.6.3.CSC` when exact receiving episteme `Y` remains honest only under a narrower admissible use, explicit loss, and return to exact source episteme `X` or its governed source relations.
+**Reliance-facing use.** Open the exact episteme-construction branch when the target must travel independently, be cited or disputed, cross a scheme boundary for consequential use, enter generated or decode-mediated admission, or satisfy a named public, evidence, or assurance receiver. Then recover exact source episteme `X`, receiving episteme `Y`, and viewing construction `v : X -> Y`, together with the source chain, scheme relation, loss/recoverability, evidence, or assurance actually needed for that use.
+
+**Later-specific occurrence.** Open `RepresentationSchemeTransitionRelation@Context` only when actual representation-transformation Work and the exact six participants defined in §4.1.b are themselves material. An exact `v : X -> Y` does not imply that occurrence.
+
+**Not this pattern when.** Use A.6.3.CR for same-regime wording, A.6.3.NAR when reader-useful narrative ordering is primary, E.17.EFP when explanation adequacy is primary, A.6.4 when the EntityOfConcern changes, A.7 for carrier or extraction work before a receiving episteme exists, and A.6.3.CSC when a narrower-use coarsened receiving episteme is primary.
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:12a"
 section_title: "Boundary with quantum-like state-representation shortcuts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__014_boundary-with-quantum-like-state-representation-shortcuts.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:12a — Boundary with quantum-like state-representation shortcuts"
-line_start: 14822
-line_end: 14850
+line_start: 14770
+line_end: 14791
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -29,48 +29,41 @@ dependencies:
   - "A.7"
   - "B.3"
   - "B.5.2"
+  - "B.5.2.0"
   - "C.2.1"
   - "C.2.7"
   - "C.26"
   - "C.27"
+  - "C.29"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.EFP"
   - "E.17.ID.CR"
   - "E.18"
-  - "F.18"
+  - "E.24.PUB"
   - "F.9"
-  - "F.9.1"
 keywords:
 ---
 
 ### A.6.3.RT:12a - Boundary with quantum-like state-representation shortcuts
 
-Use RT first when the same EntityOfConcern is represented through a different representation scheme: text-to-table, model to diagram, diagram to structured record, state vector to typed description, or one notation to another. Ordinary representation-scheme change remains RT even when the new scheme is more compact.
+Use RT when the primary move is the same-concern shift from one state representation to another: state vector to typed description, fuller model to quantized record, or one notation to another. Start with the ordinary representation note: content to survive, shortcut representation, loss, use, and return.
 
-Representation-shortcut review steps:
+Add the following only when the shortcut's claim requires it:
 
-1. Confirm that the EntityOfConcern stays the same. If it changes, RT no longer governs; apply A.6.4.
-2. Name the source representation scheme and receiving representation scheme.
-3. State what changed in representation factor, reasoning medium, mode, salience, topology, actionability, calibration, or interactivity.
-4. State recoverability: what can be recovered from the receiving representation, by which decoding relation, and with which evidence.
-5. If the receiving representation claims to preserve action, intervention, manipulation, explanation, or cross-abstraction structure, state the causal-abstraction or approximate-causal-abstraction mapping before treating the shortcut as QL coarsening.
-6. Ask whether the shortcut depends on a QL cue: contextual probability, incompatible probes, instrument-like update, Hilbert-like or orthomodular representation, open-information-system update rule, probe frame, export-admissibility evidence condition, or declared lossy export of a state that matters to the decision.
-7. If no, keep the case under RT, CSC, ordinary abstraction, compression, diagramming, causal abstraction, approximation, or a declared representation-learning access pattern, whichever governs the actual admissibility claim.
-8. If yes, coordinate with the `C.26` state-representation coarsening admissibility section and state admissible use, non-admissible use, and return condition.
+1. source and receiving schemes and the same EntityOfConcern;
+2. representation-factor, reasoning-medium, salience, topology, actionability, calibration, or interaction delta that matters;
+3. decoding relation and recovery evidence;
+4. causal- or approximate-causal-abstraction mapping when action, intervention, manipulation, or cross-abstraction structure is claimed; and
+5. the exact C.26 cue and bounded use when a quantum-like state-representation claim is actually current.
 
-For ordinary use, start with the standard shortcut mini-form:
-
-| Mini-entry | Question |
+| Ordinary shortcut note | Question |
 | --- | --- |
-| Source-loss question | Which representation scheme, state interpretation, fuller model, or evidence set loses distinctions in the shortcut? |
-| Shortcut | Which cheaper, typed, quantized, symbolic, lower-detail, or otherwise changed representation is used? |
-| Loss | Which precision, expressivity, compatibility, recoverability, or evidence relation is not carried? |
-| Admissible use | Which decision, explanation, triage, comparison, or action-selection move remains admissible for the shortcut? |
-| Reopen | Which dispute, decision change, demand for use with a stronger evidence basis, evidence gap, or recoverability failure opens source-representation return or a fuller model? |
+| Source and content | Which fuller representation or evidence set carries the distinctions? |
+| Shortcut | Which cheaper, typed, quantized, symbolic, or lower-detail representation is used? |
+| Loss | Which precision, expressivity, compatibility, recovery, or evidence relation is not carried? |
+| Admissible use | Which decision, explanation, triage, comparison, or action-selection move remains supported? |
+| Return | Which dispute, stronger-use demand, evidence gap, or recovery failure returns to the fuller representation? |
 
-Use a fuller C.26 coarsening record only when the shortcut becomes reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability claims. In that fuller record, add the mechanism, baseline relation, non-admissible use, and QL cue needed for the additional-admissibility claim.
-
-Do not describe ordinary compression, low-bit implementation, diagramming, or representation learning as quantum-like unless the formal cue is claim-bearing.
+Use a fuller C.26 record only when the shortcut is reusable, formal, empirical, high-stakes, or tied to comparative performance or tractability. Do not describe ordinary compression, low-bit implementation, diagramming, or representation learning as quantum-like without a claim-bearing formal cue.
 

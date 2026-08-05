@@ -6,12 +6,12 @@ section_id: "C.33:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__008_conformance-checklist.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:7 — Conformance checklist"
-line_start: 67540
-line_end: 67550
+line_start: 67492
+line_end: 67502
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -56,6 +56,6 @@ keywords:
 | `CC-C33-2` | Captured selected structure is stated as relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization. |
 | `CC-C33-3` | Expected but uncaptured structure and lost or hidden structure are stated when the next use depends on them. |
 | `CC-C33-4` | Observer or budget boundary is present for agent-produced, learned, probed, epiplexity-style, or maps derived from a named source publication, source model, or source codebase. |
-| `CC-C33-5` | Mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, and publication claims are routed to their governing patterns. |
-| `CC-C33-6` | Admissible use, non-admissible use, missing-structure return condition, receiving governing pattern, and receiving claim kind are named. |
+| `CC-C33-5` | Each current mathematical-lens, measurement, eval, decision, evidence, assurance, gate, release, method, work, or publication claim uses the pattern that defines or tests it. |
+| `CC-C33-6` | Admissible use, non-admissible use, missing-structure return condition, the next claim or question, and its required rule or test are named. |
 

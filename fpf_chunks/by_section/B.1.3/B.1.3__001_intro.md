@@ -6,12 +6,12 @@ section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:intro — Intro"
-line_start: 35929
-line_end: 35944
+line_start: 35881
+line_end: 35896
 dependencies:
   - "A.1"
   - "A.12"

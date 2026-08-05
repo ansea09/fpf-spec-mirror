@@ -6,12 +6,12 @@ section_id: "C.32.HCS:End"
 section_title: "C.32.HCS:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__015_c-32-hcs-end.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:End — C.32.HCS:End"
-line_start: 65116
-line_end: 65117
+line_start: 65068
+line_end: 65069
 dependencies:
   - "A.19"
   - "C.11"

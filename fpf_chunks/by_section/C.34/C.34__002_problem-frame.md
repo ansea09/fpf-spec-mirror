@@ -6,12 +6,12 @@ section_id: "C.34:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__002_problem-frame.md"
-commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
+commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:1 — Problem frame"
-line_start: 67611
-line_end: 67663
+line_start: 67563
+line_end: 67615
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -85,7 +85,7 @@ StructuralPreservationAdequacyNote@Context:
   admissibleUse:
   nonAdmissibleUse:
   preservationLossReturnCondition:
-  receivingGoverningPatternRef:
+  nextClaimOrRuleRef?:
   receivingClaimKind:
 ```
 
@@ -95,5 +95,5 @@ What C.34 buys in practice: the practitioner can say "same enough for this use" 
 
 Ordinary working move: put the source and target structures side by side, circle the relation or constraint that must survive, name the relation that does not survive, and choose the weakest mapping word that still supports the next use.
 
-Not this pattern when the current claim is only mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization. Use the direct governing pattern and keep C.34 only for the architecture-specific preservation claim.
+Not this pattern when the current claim is only mathematical-lens use, generic bridge translation, measurement, structural view adequacy, architecture-description correspondence, candidate synthesis, decision, evidence, assurance, gate, release, or work authorization. Use the pattern that defines or tests that current claim and keep C.34 only for the architecture-specific preservation claim.
 
