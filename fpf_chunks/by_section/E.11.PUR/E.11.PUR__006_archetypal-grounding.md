@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 77827
-line_end: 77866
+line_start: 77885
+line_end: 77924
 dependencies:
   - "A.15"
   - "A.19"
@@ -39,19 +39,19 @@ A team considering a high-cost pump test has candidate uses of `C.28` causal tri
 
 Recommend `C.28` without claiming that the test is authorized. The later gate use remains a separate candidate whose applicability can be reconsidered after the causal-use result exists.
 
-Because this local recommendation is reversible and no later use relies on five separate findings, the team records `recommendationSupportProfile=ordinaryCompact`, the applicability result, and one compact rationale over all five aspects. If a later gate review needs to replay each aspect independently, that review may create current fit findings and a current applicability finding from the then-current basis. It does not claim that those addressable findings existed when the earlier compact recommendation was made; the original compact rationale remains its historical basis.
+Because this local recommendation is reversible and no named later use relies on it, the team states the applicability result and one compact rationale over all five aspects in the working conversation; it materializes no recommendation episteme or support profile. If a later gate review needs to replay each aspect independently, that review may create current fit findings and a current applicability finding from the then-current basis. It does not backdate those addressable findings; the original readable rationale, when retained in its ordinary carrier, remains the earlier recommendation's historical basis.
 
 #### E.11.PUR:5.2 - Unordered complementary uses
 
 A clinical team needs both a terminology repair and an evidence-basis review before revising a protocol. Neither result is a prerequisite for the other in the current context.
 
-Use one coordination relation with `orderingMode=unordered`. The team may perform the uses in either order or in parallel. Their coexistence does not create a lifecycle or WorkPlan.
+State an unordered coordination: the team may use either pattern first or use them in parallel. No coordination episteme or ordering relation is required for that local judgement. If the later protocol revision becomes a named reliance that needs the coordination replayable, materialize one `PatternUseCoordination@Context` with `orderingMode=unordered` and no ordering relations. Their coexistence does not create a lifecycle or WorkPlan.
 
 #### E.11.PUR:5.3 - Result-based precedence
 
 A design team's architecture-candidate comparison begins only after its evaluation coordinates are defined. One candidate use of `A.19.ECS` expects an `EvaluationCharacteristicSpaceSpec`; the dependent comparison use consumes that exact result.
 
-Use `precedenceBasis=prerequisiteResult`, point to the ECS candidate's existing expectation, and cite its current E.11.PUA result-closure finding. The closure must identify the exact `EvaluationCharacteristicSpaceSpec`, its direct owner, the governed evaluation or application relative to which it is this result, and the direct relation, A.6.1 binding, or local-claim basis and governor. Do not copy the spec or its signature into ordering fields. Until that basis is current, no precedence occurrence is established and the dependent use stays at its return boundary.
+Use `precedenceBasis=prerequisiteResult`, point to the ECS candidate's existing expectation, and cite its current E.11.PUA result-closure finding. The closure must identify the exact `EvaluationCharacteristicSpaceSpec`, its defining or constraining `ClaimGraph` and pattern locator, the evaluation or Method use relative to which it is this result, and the direct relation, A.6.1 binding, or local-claim basis with its exact predicate. Do not copy the spec or its signature into ordering fields. Until that basis is current, no precedence occurrence is established and the dependent use stays at its return boundary.
 
 #### E.11.PUR:5.4 - Method precondition is not a result dependency
 
@@ -63,7 +63,7 @@ If coordination is still useful, use `methodPrecondition` and leave both result-
 
 An older architecture coordination copied `EvaluationCharacteristicSpaceSpec` and its signature into an ordering record. The ECS candidate's current expectation later changed, leaving the copy stale while both candidates, their applicability findings, the coordination question, and `partialOrder` mode remained sound.
 
-Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation and current E.11.PUA result-closure finding. If the exact result, governed relative object, direct basis, or governor cannot be recovered, keep the precedence relation non-obtaining and the dependent use at its return boundary. Candidate inspection, applicability, coordination membership, and direct Solutions do not restart.
+Repair only the ordering relation: remove the copied result description, set `precedenceBasis=prerequisiteResult`, and reference the ECS candidate's current expectation and current E.11.PUA result-closure finding. If the exact result, relative object, direct basis, predicate, or defining `ClaimGraph` cannot be recovered, keep the precedence relation non-obtaining and the dependent use at its return boundary. Candidate inspection, applicability, coordination membership, and direct `Solution` content do not restart.
 
 #### E.11.PUR:5.6 - A higher recommendation score can reduce useful fit
 

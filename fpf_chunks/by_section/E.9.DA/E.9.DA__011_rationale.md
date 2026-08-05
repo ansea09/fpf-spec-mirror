@@ -6,12 +6,12 @@ section_id: "E.9.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__011_rationale.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:10 — Rationale"
-line_start: 73526
-line_end: 73529
+line_start: 73508
+line_end: 73511
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,5 +27,5 @@ keywords:
 
 ### E.9.DA:10 - Rationale
 
-The cheapest place to repair missing FPF decisions is the DRR, before pattern prose spreads uncertainty across several hosts. A compact complete result episteme is better than a heavy preliminary audit: dated assessment work enacts the method, A.6.1 application bindings return coordinate values, and the result episteme states every coordinate claim, first repair, and bounded stop. The evaluation specification, optional record, and favorable local status neither perform nor authorize repair.
+The cheapest place to repair a missing FPF decision is the DRR, before uncertainty fans out into hosts. A direct semantic judgement over the exact DRR and any triggered actual-host replay is the ordinary result. A complete coordinate table and exact evaluation/result identities are valuable only when a separately requested reusable evaluation or named later reliance needs them.
 

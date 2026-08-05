@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 85929
-line_end: 85961
+line_start: 85987
+line_end: 86019
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -43,9 +43,9 @@ keywords:
 
   * `E.8` (authoring conventions; canonical section order; SoTA-Echoing authoring requirements)
   * `E.10` (lexical discipline, trigger detection, and applicability)
-  * `E.10.ARCH` (distributed precision-restoration architecture and realization/governing-pattern split)
+  * `E.10.ARCH` (distributed precision-restoration architecture and realization-pattern split)
   * `E.9` (design rationale records for changes that affect semantics)
-  * `E.9.DA` (scoped DRR decision-adequacy evaluation specification before pattern drafting or host amendment; an E.19 finding may expose an upstream DRR defect, but dated E.9.DA assessment work and its result episteme remain separate. An E.19 pass, return, or absence is not E.9.DA coordinate evidence.)
+  * `E.9.DA` (content-first adequacy check for one exact DRR before pattern drafting or host amendment. An ordinary bounded check returns precise findings or repaired text; a full coordinate result and exact assessment identities are added only when explicitly requested or used by a named later reliance. An E.19 finding may expose an upstream DRR defect, but an E.19 pass, return, or absence is not E.9.DA evidence.)
   * `E.22` (improvement-oriented quality-evaluation question framing; distinguishes floor blocker review, exceptional-improvement review, Pareto trade-off inspection, open-question discovery, and absorption impact before an E.19 review result is formed.)
   * `E.23` (repeated quality-improvement method; an E.19 profile can supply questions and findings inside such a loop, but E.23 governs repeated absorption, object-under-improvement re-evaluation, method-family selection, and stop, continue, switch-method, open-new-frame, or hold decisions.)
   * `E.15` (authoring/evolution protocol; harness mindset; refresh planning)

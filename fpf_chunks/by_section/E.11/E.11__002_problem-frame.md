@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "Practical-Use Guidance and Pattern Discovery"
+pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
 section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
-  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 76693
-line_end: 76710
+line_start: 76675
+line_end: 76692
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,23 +24,27 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "Public first-entry explanation or durable pattern semantics"
+  - "admission state"
+  - "and dependencies"
+  - "query phrases"
 ---
 
 ### E.11:1 - Problem frame
 
 #### E.11:1.1 - Use this when
 
-Use `E.11` when an FPF author or maintainer publishes or refreshes the public practical-use cards that help a practitioner, manager, or assisting agent find which direct pattern to inspect first.
+Use `E.11` when a README scenario, Preface explanation, ToC cue, retrieval card, lexical query row, expanded case, or pattern-local recognition passage could change which FPF pattern a working reader should inspect first.
 
-The practitioner, manager, or assisting agent is the reader of that publication, not the performer of E.11's publication method. Their first move is to compare the current README cards by working situation and first result or blocker, then open the direct pattern from the card that best fits the work.
+The ordinary reader does not arrive with a PatternID. They arrive with a project question: architecture, a working document, a comparison, a vague concern, an improvement, evidence, timing, causal use, a description, a name, wording, mathematics, state of the art, a local framework, system recognition, or system delimitation. E.11 gives that reader a recognizable entry without turning entry material into a second pattern body or universal method sequence.
 
-Public guidance answers three questions quickly: "Is this my situation? What useful result could I obtain first? Which direct pattern should I open?" A public example remains a template; it is not a project instance, applicability finding, recommendation, plan, decision, or work occurrence.
+**First useful result.** The reader can name the working situation, the first useful result or honest blocker, one direct pattern or small plausible set to inspect, and the ordinary stop or wrong-turn return. That is enough for ordinary entry; no card form, shortlist record, or project-local value is required.
 
-**Primary EntityOfConcern.** One context-free public practical-use guidance episteme and its expansion, published through an E.17-conforming public card unit.
+**Primary EntityOfConcern.** One public entry or discoverability publication unit: README first-entry guidance, Preface principle explanation, ToC query material, retrieval cue, expanded entry-disambiguation case, or a pattern-local `Problem frame`.
 
-**Conditional support object.** A `PracticalUseCardShortlist@Context` is current only when a named receiving use relies on addressable comparison history. It records that bounded comparison; it is not a second public guidance form or the primary `EntityOfConcern`.
+**Author and reader remain different.** An FPF author or maintainer publishes or refreshes the public guidance. A practitioner, manager, or assisting agent reads it and opens the direct pattern; that reader is not thereby performing E.11 publication work.
 
-**What this buys.** A cold reader can move from an ordinary project question to one or a few inspectable direct patterns. A wrong first choice remains recoverable, while ordinary comparison stays conversational.
+**What this buys.** A cold reader starts from a real project question rather than FPF topology, while exact pattern authority stays in the direct pattern and duplicate navigation canons do not grow.
 
-**Not this pattern when.** After one direct pattern has been selected, use `E.11.PUA` to follow its conditional `Solution`: identify the first independently governed result and the direct basis for calling it this use's result, or stop when that basis is missing. Use `E.11.PUR` when local applicability, recommendation, coordination, or ordering among candidate pattern uses is current. Use the direct subject pattern for the actual result, plan, work, evidence, decision, or publication claim.
+**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest independently governed result or an honest missing-basis stop. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
 

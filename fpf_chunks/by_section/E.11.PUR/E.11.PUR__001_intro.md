@@ -6,12 +6,12 @@ section_id: "E.11.PUR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__001_intro.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:intro — Intro"
-line_start: 77653
-line_end: 77658
+line_start: 77705
+line_end: 77710
 dependencies:
   - "A.15"
   - "A.19"
@@ -35,5 +35,5 @@ keywords:
 
 > **Type:** Pattern-language use pattern (E)
 > **Status:** Stable
-> **Normativity:** Normative for reliance-bearing applicability findings, pattern-use recommendations, and coordination among candidate FPF pattern uses.
+> **Normativity:** Normative for deciding applicability, recommendation, and coordination among candidate FPF pattern uses, with addressable support only when a later use relies on it.
 

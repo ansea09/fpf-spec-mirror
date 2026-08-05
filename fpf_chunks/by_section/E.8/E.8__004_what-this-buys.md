@@ -6,7 +6,7 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
@@ -60,11 +60,11 @@ keywords:
 
 **First useful move.** Put the working situation, first action-guiding move, practical payoff, ordinary boundary, and nearest heavier assurance condition into the recognition text before tightening template details or conformance material.
 
-**Move wording in pattern prose.** In `E.8`, phrases such as `first useful move`, `action-guiding move`, or `working move` are reader-facing guidance phrases. They do not create a root `U.Move` or a local pattern-application ontology. When the phrase itself becomes load-bearing, recover the governed value: usually `PatternUseRecommendation@Context`; when one named `PatternUseCoordination@Context` has `orderingMode=totalOrder`, its bounded specialization may be called `PatternUseSequence@Context` under `E.11.PUR`. Otherwise recover the direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its own governing pattern. Use `E.10.MOVE` when the text cannot tell which value is current.
+**Move wording in pattern prose.** In `E.8`, phrases such as `first useful move`, `action-guiding move`, or `working move` are reader-facing guidance phrases. They do not create a root `U.Move` or a local pattern-application ontology. When the phrase itself becomes load-bearing, recover the governed value: usually `PatternUseRecommendation@Context`; when one named `PatternUseCoordination@Context` has `orderingMode=totalOrder`, its bounded specialization may be called `PatternUseSequence@Context` under `E.11.PUR`. Otherwise recover the direct work, plan, gate, transformation, publication, architecture, source, or language-state relation under its exact definition or constraint. When a pattern supplies that content, state its concrete contribution and cite its id. Use `E.10.MOVE` when the text cannot tell which value is current.
 
 **Cheap stop.** If the draft already gives a cold reader the working situation, first useful move, practical payoff, ordinary boundary, and nearest heavier assurance condition, do not add more authoring apparatus just to look mature. Use conformance material to verify that guidance; do not let it replace the guidance.
 
-**FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or related-pattern material only when the light recognition text would leave a false claim, unstable primary `EntityOfConcern`, hidden governing pattern for a specific claim, relation, or boundary, unbacked practical payoff, or misleading admissible use.
+**FPF-governed wording extension.** Add heavier assurance, conformance, SoTA grounding, relation material, or related-pattern material only when the light recognition text would leave a false claim, unstable primary `EntityOfConcern`, missing definition, constraint, test, method, or other concrete contribution for a specific claim, relation, or boundary, unbacked practical payoff, or misleading admissible use.
 
 When an authoring pass claims quality improvement rather than ordinary drafting, keep these pattern responsibilities distinct: `E.22` frames the improvement-oriented quality-evaluation question, the object-under-improvement evaluation such as `E.21` or `E.9.DA` supplies value meanings and stop meanings, `C.16.Q` repairs overloaded quality and evaluative-characterization wording, `C.25` carries engineering quality-family endpoints when those endpoints are claimed, and `E.23` governs any repeated quality-improvement method. Closing checklist rows or satisfying a review profile is not by itself quality improvement.
 

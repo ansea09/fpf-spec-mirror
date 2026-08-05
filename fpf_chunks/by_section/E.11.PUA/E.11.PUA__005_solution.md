@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 77138
-line_end: 77518
+line_start: 77201
+line_end: 77570
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,38 +33,29 @@ keywords:
 
 ### E.11.PUA:4 - Solution
 
-Apply one selected pattern through a short result-oriented procedure. Keep the subject result in the foreground; add addressable pattern-use records only when a named receiving use relies on them.
+Use one selected pattern through a short result-oriented procedure. Keep the subject result in the foreground; add exact identities or addressable pattern-use records only when ambiguity or a named later reliance needs them.
 
-#### E.11.PUA:4.0 - Kind-preserving dependency order (Plain)
+#### E.11.PUA:4.0 - Cheap first screen before formal work identity
 
-The acting `U.System` works under a `U.RoleAssignment`: it selects, constructs, or refines a semantic `U.Method`, records intended work only when planning is current, performs dated `U.Work`, and thereby changes, preserves, examines, or evaluates the real EntityOfConcern. The epistemic support line may guide and evaluate this work; it does not become the actor, role assignment, method, work, or affected entity.
+Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or honest blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
 
-Use the following as a **Plain dependency order** for reading the case. It is not a `U.Structure`, workflow, form, interface, serialization, causal chain, or claim that every item exists. Each later item is inspected only when its direct governor and the current question make it necessary:
+An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses that content. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand for that use. Only when the selected `Solution` actually describes a method and that distinction changes the claim, establish its `U.MethodDescription` membership under A.3.2 and identify the admitted `U.Method`. Name a `U.System`, `U.RoleAssignment`, plan, dated `U.Work`, result, or `U.Transformation` only when performer identity, assignment, work occurrence, result production, or transformation is also part of the current claim.
 
-1. start from the current EntityOfConcern, effective ReferenceScheme, and practical question;
-2. add an exact ClaimScope, project-work relation, or bounded-model-use structure only when that neighboring relation changes the use;
-3. add accepted problem-side material only when it is current;
-4. inspect a public template or the direct pattern, then keep the selected or rejected direct pattern with its fit reason;
-5. identify a selected, constructed, or refined `U.Method` only when the direct `Solution` makes that method current;
-6. identify a PlanItem or `U.WorkPlan` only when intended work is current, and identify dated `U.Work` only after the work occurs;
-7. name the independently governed entity or obtaining relation that answers the question; identify the exact method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object relative to which it is a result; and cite the category-correct direct basis for that reading; and
-8. state the separate receiving use, stop, return, or neighboring pattern only when it is current.
-
-`TaskSignature` remains a pre-method-selection signature. It can constrain method search; it is not the task, plan, or work occurrence. OEE and NQD may retain method or architecture candidates before selection. G.5 publishes a selected set; A.3.1 settles method identity; A.15 governs planning and work. The order above introduces no arrow, transfer, production, result, or use relation.
+When those identities do matter, keep them separate: the pattern episteme is not the actor or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
 
 #### E.11.PUA:4.1 - The ordinary seven-step use
 
-Before making any pattern-use record, answer aloud: "What exactly do I have now? Which fact, measured condition, completed change, decision, or declared relation makes that answer true? What can I do next, and which later work has not happened yet?" Then use the exact terms below only where they change that answer.
+Before making any pattern-use record, answer aloud: “What exactly do I have now, what is the smallest useful result, and what would make me stop or return?”
 
 1. **Recognize the working situation.** Name the subject or relation in ordinary domain language and ask the current practical question. State an exact kind now only when a nearby kind difference can change the pattern or result.
 2. **Inspect one direct pattern.** Read its Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and nearest stronger neighbor. Do not select from its title or one trigger word alone.
-3. **Say what useful result would answer the question.** Name the entity or obtaining relation plainly enough to distinguish it from a plan, description, recommendation, work occurrence, or other nearby value. Also say which exact method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object makes the result phrase meaningful here. When a nearby distinction remains ambiguous or replay matters, state the result kind and direct owner separately from the category-correct relation occurrence, A.6.1 binding, or local-claim basis that makes the phrase true.
-4. **Apply the Solution.** Perform the direct pattern's action-guiding method under its conditions. A project-tailored method description, WorkPlan, gate result, work occurrence, or other entity keeps its own direct governor. If the use claims that dated Work first constituted an entity, recover the separate A.15.PROD inception claim; pattern application is not a generic production relation.
-5. **Check what now exists or obtains.** Identify a newly current entity, relation occurrence, evaluation, decision, or change under its own direct owner. Open A.15.PROD only when exact dated Work and its actual changes are claimed to have first constituted an entity under its identity rule. A pre-existing entity may instead receive new grounding for the current question. If the expected subject result still does not exist, name only the exact interim entity and its own direct basis while leaving the subject expectation open. Do not turn grounding, planning, evaluation, acceptance, publication, or non-agentive change into production.
-6. **State the immediate continuation only as needed.** Name the next receiving use, stronger neighbor, or unresolved clarification in conversation. Materialize basis, expectation, result, flow, provenance, or boundary epistemes only when a named later use needs them to remain addressable.
-7. **Stop or return.** Stop when the smallest useful result or honest interim entity, its direct owner, the exact governed object relative to which the result phrase is true, and the category-correct direct basis can answer the current question, or when a pre-existing entity is adequately grounded through its exact relations. Return when the concern, basis, expected entity, governing pattern, direct relation, or current receiving-use condition changes. A genuine stop needs no receiver.
+3. **Say what useful result would answer the question.** Name the entity, obtaining relation, honest interim entity, or blocker plainly enough to distinguish it from a plan, description, recommendation, work occurrence, or nearby value. Name the Method, plan, dated Work, Transformation, evaluation, decision, or later-use object relative to which it is a result only when the phrase depends on that object. Add an exact kind, predicate, pattern locator, `ClaimGraph`, or category-correct basis only when ambiguity or replay makes it necessary.
+4. **Use the pattern's `Solution`.** A person or assisting system follows the action guidance under its stated conditions. If the current claim depends on a selected Method, responsible system, assignment, or actual Work, identify those values under A.3/A.15; routine pattern use needs no such expansion. Use A.15.PROD only for a claim that exact dated Work and its actual changes first constituted an entity.
+5. **Check what now exists or obtains.** Identify the result under the direct pattern whose content defines, constrains, or tests it. A pre-existing entity may instead receive new grounding for the current question. If the expected subject result still does not exist, name the honest interim result and leave the subject expectation open. Do not turn grounding, planning, evaluation, acceptance, publication, or non-agentive change into production.
+6. **State the immediate continuation only as needed.** Name a later use, stronger neighboring pattern, or unresolved clarification in conversation. Materialize an expectation, basis, result, flow, provenance, or boundary episteme only when a named later use needs it to remain addressable.
+7. **Stop or return.** Stop when the smallest useful result, honest interim entity, or exact blocker answers the current question at the precision that use needs. Return when the concern, basis, expected entity, direct pattern, relation, or later-use condition changes. A genuine stop needs no receiver.
 
-The practical delta has three honest forms. An entity or relation occurrence may become current under its exact direct owner and category-correct basis; A.15.PROD enters only when exact dated Work and actual change are claimed to have first constituted an entity. A pre-existing entity may remain unchanged while an exact grounding finding becomes adequate for the current use. If the expected subject entity still does not exist, the exact interim entity, its direct basis, and the return condition become explicit while the expectation remains open.
+The practical delta has three honest forms. A new entity or relation occurrence becomes current under its own rule and basis; A.15.PROD enters only for an exact Work-attributed first-constitution claim. A pre-existing entity remains unchanged while a grounding finding becomes adequate for this use. Or the expected subject result remains absent while an honest interim result and return condition become explicit.
 
 #### E.11.PUA:4.2 - Reliance profiles
 
@@ -72,11 +63,9 @@ The practical delta has three honest forms. An entity or relation occurrence may
 PatternUseRelianceProfileValue = ordinaryBounded | relianceBearing
 ```
 
-In `ordinaryBounded` use, the subject, practical question, inspected pattern, useful result in ordinary language, governed relative-object kind, and stop or return remain recoverable in conversation. State exact kinds, direct owner, and category-correct direct basis only when needed to distinguish the result from a nearby value. No candidate basis, fit record, flow-position record, provenance note, closure record, or receiver is required.
+In `ordinaryBounded` use, the subject, practical question, inspected pattern, useful result or blocker in ordinary language, and stop or return remain recoverable in conversation. State a relative object, exact kind, predicate, pattern locator, `ClaimGraph`, or category-correct direct basis only when it distinguishes the result from a nearby value. No candidate basis, fit record, flow-position record, provenance note, closure record, or receiver is required.
 
-In `relianceBearing` use, materialize only the distinctions that the named reliance will use. Another reader may need a candidate basis and rationale. Automation may need the result kind and direct owner, the exact governed object, and the category-correct basis with its separate governors. Delayed review may need the descriptive flow position and a separate receiving-use disposition. A receiver appears only when return, continuation, or named reliance is current. No profile causes all support records to be materialized.
-
-When one named later use needs a compact replay carrier but not the fuller candidate and closure relations, use this reliance-bearing trace:
+In `relianceBearing` use, materialize only the distinctions that the named reliance will use. Another reader may need a candidate basis and rationale. Automation may need an exact result kind, predicate, pattern locator, `ClaimGraph`, relative object, and category-correct basis. Delayed review may need a descriptive flow position and a separate later-use disposition. A receiver appears only for an actual communication or admitted route relation; an ordinary return needs only its condition and optional next-pattern locator. No profile causes every support record to be materialized.
 
 ```text
 CompactPatternUseTrace@Context <: U.Episteme:
@@ -89,38 +78,38 @@ CompactPatternUseTrace@Context <: U.Episteme:
   projectWorkRef?: U.EntityRef, referencing one composite U.Work
   editionId
   practicalQuestionDescriptionRef: U.EpistemeRef
-  consideredDirectPatternRef: U.EntityRef, referencing one U.MethodDescription
+  consideredDirectPatternRef: U.EntityRef, referencing one exact FPF pattern episteme
   patternSelectionDisposition: selected | rejected
   compactFitRationaleRef: U.EpistemeRef
   expectedResultKindRef: U.KindRef
-  expectedResultDirectOwnerPatternRef: U.EntityRef, referencing one U.MethodDescription
-  expectedResultRelativeToGovernedObjectKindRef: U.KindRef
-  expectedResultRelativeToGovernedObjectDescriptionRef: U.EpistemeRef
+  expectedResultPatternLocator: U.EntityRef, locating one exact FPF pattern episteme
+  expectedResultRelativeToObjectKindRef: U.KindRef
+  expectedResultRelativeToObjectDescriptionRef: U.EpistemeRef
   expectedResultDirectBasisKind: directRelationOccurrence | operationApplicationBinding | localRelationBearingClaim
   expectedResultDirectBasisDescriptionRef: U.EpistemeRef
   expectedResultDescriptionRef: U.EpistemeRef
   obtainedResultRef?: U.EntityRef
   obtainedResultKindRef?: U.KindRef
-  obtainedResultDirectOwnerPatternRef?: U.EntityRef, referencing one U.MethodDescription
-  obtainedResultRelativeToGovernedObjectRef?: U.EntityRef
-  obtainedResultRelativeToGovernedObjectKindRef?: U.KindRef
+  obtainedResultPatternLocator?: U.EntityRef, locating one exact FPF pattern episteme
+  obtainedResultRelativeToObjectRef?: U.EntityRef
+  obtainedResultRelativeToObjectKindRef?: U.KindRef
   obtainedResultDirectBasisKind?: directRelationOccurrence | operationApplicationBinding | localRelationBearingClaim
   obtainedResultDirectBasisRef?: U.EntityRef
-  obtainedDirectRelationOrBindingGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription
-  obtainedLocalClaimDerivationGoverningPatternRef?: U.EntityRef, referencing A.6.RCD
-  obtainedLocalClaimBasePredicateGoverningPatternRefs[]?: U.EntityRef, each referencing one U.MethodDescription
-  boundaryDisposition: stop | return
+  obtainedDirectRelationOrBindingPatternLocator?: U.EntityRef, locating the exact FPF pattern episteme whose content defines or constrains the relation or binding
+  obtainedLocalClaimDerivationPatternLocator?: U.EntityRef, referencing A.6.RCD
+  obtainedLocalClaimBasePredicatePatternLocators[]?: U.EntityRef, each locating one exact FPF pattern episteme whose content defines a base predicate
+  boundaryDisposition: stop | reconsider
   boundaryConditionDescriptionRef: U.EpistemeRef
-  conditionalReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  conditionalNextQuestionPatternLocator?: U.EntityRef, locating one exact FPF pattern episteme
 ```
 
 The trace is absent from ordinary conversational use. When materialized for a named reliance, C.2.1 identifies it through claim content, exact EntityOfConcern, and effective reference scheme. `claimScopeRef`, `modelUseStructureRef`, and `projectWorkRef` are present only when the exact neighboring relation changes the pattern use; they are not additional episteme-identity fields, and the reference alone does not make that relation obtain.
 
-The expectation names the exact result kind and direct owner, the kind of method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object relative to which the result phrase would be true, and one category-correct basis branch. It asserts neither existence nor obtaining. For a selected pattern, the obtained-result core positions—from `obtainedResultRef` through `obtainedResultDirectBasisRef`—are present together or absent together; a rejected pattern leaves them absent. In the direct-relation branch, the claim graph exposes predicate, participants, applicability, obtaining, occurrence identity, and direct governor. In the A.6.1 branch, it exposes the operation, application, argument or result binding, and direct governor. In the local-claim branch, the direct relation-or-binding governor is absent, the A.6.RCD derivation governor and every base-predicate direct owner are present, and the claim graph exposes polarity, substrate or constructor, base predicates, participants, case facts, and any support or warrant required by the receiving use. The claim episteme does not obtain, and A.6.RCD does not replace its base owners.
+The expectation names the exact result kind, predicate, defining or constraining `ClaimGraph`, and pattern locator; it also names the kind of Method, plan, dated Work, Transformation, evaluation, decision, or dependent-use object relative to which the result phrase would be true, and one category-correct basis branch. It asserts neither existence nor obtaining. For a selected candidate use, the obtained-result core positions—from `obtainedResultRef` through `obtainedResultDirectBasisRef`—are present together or absent together; a rejected candidate leaves them absent. In the direct-relation branch, the claim graph exposes predicate, participants, applicability, obtaining, occurrence identity, and defining `ClaimGraph`. In the A.6.1 branch, it exposes the operation, application, argument or result binding, and defining `ClaimGraph`. In the local-claim branch, the direct relation-or-binding locator is absent, the A.6.RCD derivation-rule locator and every base-predicate `ClaimGraph` locator are present, and the claim graph exposes polarity, substrate or constructor, base predicates, participants, case facts, and any support or warrant required by the dependent use. The claim episteme does not obtain, and A.6.RCD replaces none of its base predicates.
 
-A return names `conditionalReceivingPatternRef` only when that continuation is current. A genuine stop leaves the field absent. No receiver is fabricated merely to complete the trace.
+A reconsideration names `conditionalNextQuestionPatternLocator` only when that continuation is current. A genuine stop leaves the field absent. No receiver is fabricated merely to complete the trace.
 
-#### E.11.PUA:4.2.1 - Admitted support species and governing patterns
+#### E.11.PUA:4.2.1 - Admitted support species and rule-content locators
 
 ```text
 PracticalUseQuestion@Context <: U.Episteme
@@ -138,7 +127,7 @@ PatternUseApplicabilityFinding@Context <: U.Episteme
 
 `@Context` in these legacy support-species names is a compatibility and retrieval suffix. It names no `U.BoundedContext`, universal situation, project container, relation, or identity field. Every support episteme follows C.2.1 identity. Claim scope, bounded model use, project work, qualification window, and other working conditions enter only through the exact neighboring object and direct relation needed by the receiving use.
 
-PUA governs the practical question, optional compact trace, candidate basis, candidate support episteme, candidate rationale, result expectation, result-closure finding, and separate receiving-use-disposition finding. `E.11` governs public card comparison rationale. `E.11.PUR` governs fit, applicability, recommendation, coordination rationale, coordination, and ordering. These relations consume A.6.5 SlotSpec discipline; A.6.5 does not govern their identity. PUA's findings cite the result's direct owner and one category-correct direct basis. In the local-claim branch they keep the A.6.RCD derivation governor distinct from every base-predicate owner. They introduce no result or actual-use relation kind.
+The defining `ClaimGraph` located at PUA states the practical-question, optional compact-trace, candidate-basis, candidate-support-episteme, candidate-rationale, result-expectation, result-closure-finding, and dependent-use-disposition-finding schemas. The exact rule content at `E.11` states public-card comparison rationale; `E.11.PUR` states fit, applicability, recommendation, coordination rationale, coordination, and ordering. These relations use A.6.5 SlotSpec discipline; A.6.5 does not define their identity. PUA findings cite the result predicate, defining or constraining `ClaimGraph`, pattern locator, and one category-correct direct basis. In the local-claim branch they keep the A.6.RCD derivation-rule locator distinct from every base-predicate `ClaimGraph` locator. They introduce no result or actual-use relation kind.
 
 #### E.11.PUA:4.3 - Question, boundary, and expectation
 
@@ -161,8 +150,8 @@ PatternUseBoundaryCondition@Context <: U.Episteme:
   editionId
   boundaryConditionKind: candidateAdmission | minimumUsableResult | stop | return | wrongTurnRecovery | strongerNeighbor | missingGovernor | missingInformation | costEscalation | reversibilityEscalation | receivingPatternContinuation
   conditionDescriptionRef: U.EpistemeRef
-  governingPatternRef: U.EntityRef, referencing one U.MethodDescription
-  conditionalReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  relationFunctionClaimRef: U.EntityRef, referencing the exact pattern content that defines or constrains the boundary
+  conditionalNextQuestionPatternLocator?: U.EntityRef, locating one exact FPF pattern episteme
   conditionalReceivingPatternPositionKindRef?: U.KindRef
   conditionalReceivingPatternPositionRef?: U.EntityRef
 
@@ -172,23 +161,23 @@ PatternUseResultExpectation@Context <: U.Episteme:
   referenceSchemeRef: U.ReferenceSchemeRef
   editionId
   expectedResultKindRef: U.KindRef
-  expectedResultDirectOwnerPatternRef: U.EntityRef, referencing one U.MethodDescription
-  expectedResultRelativeToGovernedObjectKindRef: U.KindRef
-  expectedResultRelativeToGovernedObjectDescriptionRef: U.EpistemeRef
+  expectedResultPatternLocator: U.EntityRef, locating one exact FPF pattern episteme
+  expectedResultRelativeToObjectKindRef: U.KindRef
+  expectedResultRelativeToObjectDescriptionRef: U.EpistemeRef
   expectedResultDirectBasisKind: directRelationOccurrence | operationApplicationBinding | localRelationBearingClaim
   expectedResultDirectBasisDescriptionRef: U.EpistemeRef
   expectedResultFlowPosition: patternSelectionFlowResult | selectedPatternApplicationFlowResult | downstreamSubjectWorkFlowResult
   expectedResultDescriptionRef: U.EpistemeRef
   minimumUsableResultBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
-  intendedReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  intendedUseClaimRef?: U.EpistemeRef, referencing the exact claim that makes the intended continuation current
   intendedReceivingGovernedObjectKindRef?: U.KindRef
   intendedReceivingUseDescriptionRef?: U.EpistemeRef
-  receivingPatternContinuationBoundaryRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
+  dependentUseReconsiderationBoundaryRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-The expectation never proves that the result entity exists, that a relation or binding obtains, or that a local claim is true. It first identifies the result kind and its direct owner. It then names which kind of exact method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object a real closure must identify, and which direct basis would make the readable result phrase true relative to that object. The basis description is branch-specific: relation occurrence; A.6.1 operation-application binding; or A.6.RCD local C.2.1 claim with polarity, substrate or constructor, base predicates and their direct owners, participants, case facts, and any support or warrant required by the receiving use. The last branch is not an obtaining basis, and the derivation governor is not a substitute subject owner.
+The expectation never proves that the result entity exists, that a relation or binding obtains, or that a local claim is true. It first identifies the result kind, predicate, defining or constraining `ClaimGraph`, and pattern locator. It then names which kind of exact Method, plan, dated Work, Transformation, evaluation, decision, or dependent-use object a real closure must identify, and which direct basis would make the readable result phrase true relative to that object. The basis description is branch-specific: relation occurrence; A.6.1 operation-application binding; or A.6.RCD local C.2.1 claim with polarity, substrate or constructor, base predicates and their `ClaimGraph` locators, participants, case facts, and any support or warrant required by the dependent use. The last branch is not an obtaining basis, and the derivation-rule locator is not a substitute for any base predicate.
 
-The flow position is a descriptive PUA role. `intendedReceivingPatternRef`, `intendedReceivingGovernedObjectKindRef`, `intendedReceivingUseDescriptionRef`, and `receivingPatternContinuationBoundaryRef` are present together only when an actual continuation or named downstream reliance is current; otherwise all four are absent. A genuine stop needs no receiver. In a boundary record, `return`, `wrongTurnRecovery`, `strongerNeighbor`, and `receivingPatternContinuation` may name the current receiver; `stop`, `missingGovernor`, and `missingInformation` do not invent one. Receiving-position kind and ref are both present or both absent. `candidateAdmission` means that Problem frame, Forces, Solution conditions, expected result, category-correct basis template, and ordinary boundary are recoverable enough for further inspection; it is neither an applicability finding nor a selection.
+The flow position is a descriptive PUA role. `intendedUseClaimRef`, `intendedReceivingGovernedObjectKindRef`, `intendedReceivingUseDescriptionRef`, and `dependentUseReconsiderationBoundaryRef` are present together only when an actual continuation or named later reliance is current; otherwise all four are absent. A genuine stop needs no receiver. In a boundary record, `return`, `wrongTurnRecovery`, `strongerNeighbor`, and `receivingPatternContinuation` name conditions and optional next-pattern locators, not receivers; `stop`, `missingGovernor`, and `missingInformation` invent none. Receiving-position kind and ref are both present or both absent. `candidateAdmission` means that Problem frame, Forces, Solution conditions, expected result, category-correct basis template, and ordinary boundary are recoverable enough for further inspection; it is neither an applicability finding nor a selection.
 
 #### E.11.PUA:4.4 - Candidate basis under named reliance
 
@@ -197,7 +186,7 @@ Construct a durable candidate only after inspecting the direct pattern's Problem
 ```text
 CandidatePatternUseBasisRelation@Context <: U.Relation:
   publicTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
-  directPatternRef: U.EntityRef, referencing one U.MethodDescription
+  directPatternRef: U.EntityRef, referencing one exact FPF pattern episteme
   directSolutionSectionRef: U.EntityRef, referencing the E.17 PublicationUnit containing the direct pattern's Solution
   entityOfConcernRef: U.EntityRef
   entityOfConcernKindRef: U.KindRef
@@ -216,7 +205,7 @@ CandidatePatternUseAdditionalBasisRelation@Context <: U.Relation:
   basisValueRef: U.EntityRef
   basisValueKindRef: U.KindRef
   basisRelationSignatureRef?: U.EntityRef, referencing one U.Signature
-  basisGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+  basisPatternLocator: U.EntityRef, locating the exact FPF pattern episteme whose content defines or constrains the basis relation
   basisUseDescriptionRef: U.EpistemeRef
   RelationRefKind: U.EntityRef
   Direction: basisValueRef -> candidatePatternUseRef for basisUseDescriptionRef
@@ -235,14 +224,14 @@ CandidatePatternUse@Context <: U.Episteme:
   practicalUseQuestionRef: U.EpistemeRef, referencing one PracticalUseQuestion@Context
   problemCardRef?: U.EpistemeRef, referencing one C.22.2 ProblemCard episteme
   publicTemplateRef?: U.EpistemeRef, referencing one PublicCandidatePatternUseTemplate@FPFReadme
-  directPatternRef: U.EntityRef, referencing one U.MethodDescription
+  directPatternRef: U.EntityRef, referencing one exact FPF pattern episteme
   directSolutionSectionRef: U.EntityRef, referencing the E.17 PublicationUnit containing the direct pattern's Solution
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
   candidateAdmissionBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
   returnBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-Each additional basis relation names its exact value, kind, relation signature when current, direct governing pattern, and use in this candidate. The public template is absent when the candidate was formed by direct pattern inspection without a README template. `directSolutionSectionRef` is the Solution section of `directPatternRef`; no redundant solution-method-description ref is retained. A project-tailored method description is a separate `U.MethodDescription` under A.3.2. If dated Work first constitutes that episteme and the inception claim matters, A.15.PROD governs the claim; any derivation or reuse relation to the direct pattern remains separately governed. Applicability, recommendation, and coordination remain governed by `E.11.PUR`.
+Each additional basis relation names its exact value, kind, relation signature when current, predicate, defining or constraining `ClaimGraph`, pattern locator, and use in this candidate. The public template is absent when the candidate was formed by direct pattern inspection without a README template. `directSolutionSectionRef` is the Solution section of `directPatternRef`; no redundant solution-MethodDescription ref is retained. A project-tailored MethodDescription is a separate `U.MethodDescription` under A.3.2. If dated Work first constitutes that episteme and the inception claim matters, state the exact A.15.PROD assertion; any derivation or reuse relation to the direct pattern episteme remains separate. Applicability, recommendation, and coordination remain exact E.11.PUR assertions.
 
 #### E.11.PUA:4.4.1 - Rationale subjects stay distinct
 
@@ -257,38 +246,38 @@ CandidatePatternUseRationale@Context <: U.Episteme:
   rationaleUseBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-Candidate rationale has one candidate subject. `E.11.PUR` owns the coordination-rationale schema over a declared candidate set. `E.11` owns the public-card comparison-rationale schema over one public guidance episteme before a project candidate is constructed. No rationale episteme is a universal bag.
+Candidate rationale has one candidate subject. The `ClaimGraph` located at `E.11.PUR` defines the coordination-rationale schema over a declared candidate set. The `ClaimGraph` located at `E.11` defines the public-card comparison-rationale schema over one public guidance episteme before a project candidate is constructed. No rationale episteme is a universal bag.
 
 #### E.11.PUA:4.5 - Actual-result closure and receiving-use disposition
 
-PUA introduces no actual-result relation and no universal actual-use relation. Keep two questions separate: what makes the candidate result entity exist or the relation occurrence obtain under its direct owner, and what exact direct basis makes the readable result phrase true relative to the current method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object. Those bases may be the same occurrence only when the result itself is that relation occurrence. When a named later use needs addressable closure, materialize a C.2.1 finding that points to both the result's direct owner and the category-correct basis:
+PUA introduces no actual-result relation and no universal actual-use relation. Keep two questions separate: what exact predicate, subject assertion, and defining or constraining `ClaimGraph` make the candidate result entity exist or the relation occurrence obtain, and what category-correct direct basis makes the readable result phrase true relative to the current Method, plan, dated Work, Transformation, evaluation, decision, or dependent-use object. Those bases may be the same occurrence only when the result itself is that relation occurrence. When a named later use needs addressable closure, materialize a C.2.1 finding that points to the result's predicate and `ClaimGraph` locator plus the category-correct basis:
 
 ```text
 PatternUseResultClosureFinding@Context <: U.Episteme:
-  entityOfConcernRef: U.EntityRef, referencing the independently governed result entity or obtaining relation occurrence
+  entityOfConcernRef: U.EntityRef, referencing the independently identified result entity or obtaining relation occurrence
   entityOfConcernKindRef: U.KindRef
   claimGraph: U.ClaimGraph by value
   referenceSchemeRef: U.ReferenceSchemeRef
   editionId
   candidatePatternUseRef: U.EpistemeRef, referencing one CandidatePatternUse@Context
   resultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
-  resultDirectOwnerPatternRef: U.EntityRef, referencing one U.MethodDescription
-  resultRelativeToGovernedObjectRef: U.EntityRef
-  resultRelativeToGovernedObjectKindRef: U.KindRef
+  resultPatternLocator: U.EntityRef, locating the exact FPF pattern episteme whose content defines or constrains the result assertion
+  resultRelativeToObjectRef: U.EntityRef
+  resultRelativeToObjectKindRef: U.KindRef
   resultDirectBasisKind: directRelationOccurrence | operationApplicationBinding | localRelationBearingClaim
   resultDirectBasisRef: U.EntityRef
-  resultDirectRelationOrBindingGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription
-  resultLocalClaimDerivationGoverningPatternRef?: U.EntityRef, referencing A.6.RCD
-  resultLocalClaimBasePredicateGoverningPatternRefs[]?: U.EntityRef, each referencing one U.MethodDescription
+  resultDirectRelationOrBindingPatternLocator?: U.EntityRef, locating the exact FPF pattern episteme whose content defines or constrains the relation or binding
+  resultLocalClaimDerivationPatternLocator?: U.EntityRef, referencing A.6.RCD
+  resultLocalClaimBasePredicatePatternLocators[]?: U.EntityRef, each locating one exact FPF pattern episteme whose content defines a base predicate
   resultFlowPosition: patternSelectionFlowResult | selectedPatternApplicationFlowResult | downstreamSubjectWorkFlowResult
   resultBearingPathSliceId?: PathSliceId
   resultBearingDesignRunTag?: DesignRunTag
   closureBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-The three flow-position values are descriptive PUA roles, not kinds, relations, or occurrence identities. The finding's claim graph names the result entity, its direct owner, the exact governed object relative to which the result wording is true, and exactly one direct-basis branch. For a direct relation occurrence it names predicate, participants, applicability, obtaining, occurrence identity, and the direct governor. For an A.6.1 binding it names operation, application, argument or result binding, and its direct governor. For an A.6.RCD local C.2.1 claim, the relation-or-binding governor is absent; the claim ref, polarity, substrate or constructor, base predicates, their direct owners, participants, case facts, and any support or warrant required by the receiving use are recoverable, with the derivation governor named separately. The claim does not obtain. If the result itself is a relation occurrence, `entityOfConcernRef` and `resultDirectBasisRef` may designate that same occurrence. The closure finding reports those facts; it creates none of them.
+The three flow-position values are descriptive PUA roles, not kinds, relations, or occurrence identities. The finding's claim graph names the result entity, its exact predicate, defining or constraining `ClaimGraph`, pattern locator, the object relative to which the result wording is true, and exactly one direct-basis branch. For a direct relation occurrence it names predicate, participants, applicability, obtaining, occurrence identity, and defining `ClaimGraph`. For an A.6.1 binding it names operation, application, argument or result binding, and its defining `ClaimGraph`. For an A.6.RCD local C.2.1 claim, the relation-or-binding locator is absent; the claim ref, polarity, substrate or constructor, base predicates, their `ClaimGraph` locators, participants, case facts, and any support or warrant required by the dependent use are recoverable, with the derivation-rule locator named separately. The claim does not obtain. If the result itself is a relation occurrence, `entityOfConcernRef` and `resultDirectBasisRef` may designate that same occurrence. The closure finding reports those facts; it creates none of them.
 
-Open A.15.PROD only when the closure claims that exact dated Work, through independently identified actual changes and the applicable identity rule, first constituted an entity. A relation occurrence may first obtain through its direct predicate; an evaluation or decision becomes current under its own direct owner; a non-agentive change needs no production claim. Completion, evaluation, acceptance, publication, continuation, and later use remain separate. If the claimed result existed already, use `4.6` instead. If no direct basis is recoverable, retain the independently governed entity and return the exact `missingGovernor` or `missingInformation` boundary rather than minting a closure relation.
+Open A.15.PROD only when the closure claims that exact dated Work, through independently identified actual changes and the applicable identity rule, first constituted an entity. A relation occurrence may first obtain through its direct predicate; an evaluation or decision becomes current under its exact subject assertion and defining `ClaimGraph`; a non-agentive change needs no production claim. Completion, evaluation, acceptance, publication, continuation, and later use remain separate. If the claimed result existed already, use `4.6` instead. If no direct basis is recoverable, retain the independently identified entity and return the exact `missingGovernor` or `missingInformation` boundary rather than minting a closure relation.
 
 Path slice and `DesignRunTag` are both present only when the exact result-bearing position and its one TFS are already recoverable under E.18; otherwise both are absent. These fields are provenance cues, not identifiers for another TFS, a network, or a cross-flow relation.
 
@@ -306,16 +295,16 @@ PatternUseReceivingUseDispositionFinding@Context <: U.Episteme:
   receivingGovernedObjectKindRef?: U.KindRef
   realizedReceivingUseDirectBasisKind?: directRelationOccurrence | operationApplicationBinding | localRelationBearingClaim
   realizedReceivingUseDirectBasisRef?: U.EntityRef
-  realizedReceivingUseDirectRelationOrBindingGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription
-  realizedReceivingUseLocalClaimDerivationGoverningPatternRef?: U.EntityRef, referencing A.6.RCD
-  realizedReceivingUseLocalClaimBasePredicateGoverningPatternRefs[]?: U.EntityRef, each referencing one U.MethodDescription
-  intendedReceivingPatternRef?: U.EntityRef, referencing one U.MethodDescription
+  realizedReceivingUseDirectRelationOrBindingPatternLocator?: U.EntityRef, locating the exact FPF pattern episteme whose content defines or constrains the realized-use relation or binding
+  realizedReceivingUseLocalClaimDerivationPatternLocator?: U.EntityRef, referencing A.6.RCD
+  realizedReceivingUseLocalClaimBasePredicatePatternLocators[]?: U.EntityRef, each locating one exact FPF pattern episteme whose content defines a base predicate
+  intendedUseClaimRef?: U.EpistemeRef, referencing the exact claim that makes the intended continuation current
   intendedReceivingGovernedObjectKindRef?: U.KindRef
   intendedReceivingUseDescriptionRef?: U.EpistemeRef
   receivingUseRealizationConditionRef?: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-In the `realized` state, the receiving governed object, kind, direct-basis kind, and basis ref are present; the intended positions are absent. The same branch rule separates a direct relation or A.6.1 governor from an A.6.RCD derivation governor and the direct owners of the local claim's base predicates. The claim graph exposes the exact participants and facts. In `intendedNotYetRealized`, the intended pattern, governed-object kind, description, and condition are present together and all realized positions are absent; an intention is not an obtaining use relation. A stop without a receiving use has no disposition finding.
+In the `realized` state, the later object, kind, direct-basis kind, and basis ref are present; the intended positions are absent. The same branch rule separates a direct relation or A.6.1 pattern locator from the A.6.RCD derivation locator and the direct pattern locators for the local claim's base predicates. The claim graph exposes the exact participants and facts. In `intendedNotYetRealized`, the intended claim, object kind, description, and condition are present together and all realized positions are absent; an intention is not an obtaining-use relation. A stop without a later use has no disposition finding.
 
 When ordinary language says that a result from one TFS is used as an input, tool, context, or constraint in another, treat those words only as cues. Name the exact result-bearing position and exact receiving position—one `FlowPositionRef` for each—plus the directly governed relation occurrence connecting their participants, and keep the result's kind unchanged. With no direct relation kind or predicate, return `missing-governor`; with a governor but undecided facts, leave the relation open and name the grounding boundary; with a false predicate, assert no occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. Use E.18 for each TFS-local position and local `DesignRunTag`; use E.18.NET only when independently identified TFS values must be treated together as a network. No input, tool, context, constraint, result, or adjacency label supplies the direct relation.
 
@@ -328,7 +317,7 @@ When the expected entity existed before the current use, the current use may est
 ```text
 GroundingBasisPair:
   groundingRelationOccurrenceRef: U.EntityRef
-  groundingGoverningPatternRef: U.EntityRef, referencing one U.MethodDescription
+  groundingPatternLocator: U.EntityRef, locating the exact FPF pattern episteme whose content defines or constrains the grounding relation
 
 PreExistingResultGroundingFinding@Context <: U.Episteme:
   entityOfConcernRef: U.EntityRef, referencing the pre-existing entity
@@ -343,11 +332,11 @@ PreExistingResultGroundingFinding@Context <: U.Episteme:
   groundingUseBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-Each `GroundingBasisPair` preserves one relation occurrence with its direct governor. The finding's ClaimGraph names the grounded proposition and the covered subject claim. For a C.2.1 episteme a pair may cite an exact `EpistemeEmpiricalGroundingRelation`; for another subject it uses the direct measurement, observation, evidence-use, diagnostic, or subject predicate that actually grounds that proposition. Inspection, a record, or evidence proximity does not ground the entity by itself. If no direct grounding basis is recoverable, return its exact blocker. The pre-existing entity is not newly produced.
+Each `GroundingBasisPair` preserves one relation occurrence and the exact pattern content defining or constraining it. The finding's `ClaimGraph` names the grounded proposition and covered subject claim. For a C.2.1 episteme a pair may cite an exact `EpistemeEmpiricalGroundingRelation`; for another subject it uses the direct measurement, observation, evidence-use, diagnostic, or subject predicate that actually grounds that proposition. Inspection, a record, or evidence proximity does not ground the entity by itself. If no direct grounding basis is recoverable, return its exact blocker. The pre-existing entity is not newly produced.
 
 If the current use calls the grounding finding its result, add a separate `PatternUseResultClosureFinding@Context` whose EntityOfConcern is that finding. Its direct basis must connect the finding to the current method, plan, Work, transformation, evaluation, decision, or receiving-use object through a relation occurrence, A.6.1 binding, or category-correct local claim. The occurrence that grounds the pre-existing subject does not by itself make the grounding finding a result of the current use. Cite A.15.PROD only when exact dated Work and its actual changes first constituted the finding episteme.
 
-When the expected subject result still does not exist, close the current use only on an exact interim `PatternUseResultClosureFinding@Context`. Its entity has its own direct owner and category-correct basis relative to the current governed object. Keep the subject-result expectation open. A plan for machining does not become a machined component; a treatment recommendation does not become a changed clinical state; an assessment plan does not become learned capability.
+When the expected subject result still does not exist, close the current use only on an exact interim `PatternUseResultClosureFinding@Context`. Its entity has its own direct pattern and category-correct basis relative to the current object. Keep the subject-result expectation open. A machining plan does not become a machined component; a treatment recommendation does not become a changed clinical state; an assessment plan does not become learned capability.
 
 #### E.11.PUA:4.7 - Reliance-bearing final-practice test
 
@@ -386,7 +375,7 @@ FinalPracticePatternUseTestResult@Context <: U.Episteme:
   branchOrReturnContinuationDescriptionRef: U.EpistemeRef, referencing one member of practiceContinuationDescriptionRefs
   continuableWorkStateDescriptionRef: U.EpistemeRef
   explicitUnknownDescriptionRef: U.EpistemeRef
-  minimalClarificationPatternRef: U.EntityRef, referencing one U.MethodDescription
+  minimalClarificationPatternRef: U.EntityRef, referencing one exact FPF pattern episteme
   expectedClarificationResultKindRef: U.KindRef
   admittedDemonstrativeSliceRef?: U.EpistemeRef, referencing one DemonstrativeUnfoldingSlice@Context
   demonstratedPatternUseRowRefs[3..5]?: U.EpistemeRef, each referencing one DemonstratedPatternUseRow@Context
@@ -398,17 +387,17 @@ The practice descriptions remain ordinary PUA epistemes when no wider CGUS is ad
 
 `SelectedFirstResultGroundingStateValue` is `newlyCurrentSubjectResult | preExistingWithGrounding | expectedSubjectResultAbsent`. Exactly one state branch is filled:
 
-- For `newlyCurrentSubjectResult`, fill `newlyCurrentSubjectResultClosureFindingRef` and leave the other state positions absent. The closure separates result identity or obtaining under the direct owner from the basis that makes it this use's result. A relation occurrence may first obtain through its direct predicate; an evaluation or decision becomes current under its own owner; an actual non-agentive change remains under A.3.4. Cite A.15.PROD only when exact dated Work and its actual changes first constituted an entity under its identity rule.
-- For `preExistingWithGrounding`, fill both `preExistingResultGroundingFindingRef` and `preExistingGroundingResultClosureFindingRef` and leave the other state positions absent. The grounding finding names the already-existing entity and its paired grounding relations and owners. Its separate closure uses another category-correct basis to make that finding the exercise's result; a subject-grounding occurrence alone does not. Cite A.15.PROD only if exact dated Work first constituted the finding episteme. The exercise does not produce the pre-existing entity.
-- For `expectedSubjectResultAbsent`, fill `expectedSubjectResultAbsentInterimResultClosureFindingRef` and leave the other state positions absent. The interim entity has its own kind, direct owner, exact governed relative object, and category-correct basis. It may support later work but does not satisfy the selected subject-result expectation.
+- For `newlyCurrentSubjectResult`, fill `newlyCurrentSubjectResultClosureFindingRef` and leave the other state positions absent. The closure separates result identity or obtaining under the direct pattern from the basis that makes it this use's result. A relation occurrence may first obtain through its direct predicate; an evaluation or decision becomes current under its own rule; an actual non-agentive change remains under A.3.4. Cite A.15.PROD only when exact dated Work and its actual changes first constituted an entity under its identity rule.
+- For `preExistingWithGrounding`, fill both `preExistingResultGroundingFindingRef` and `preExistingGroundingResultClosureFindingRef` and leave the other state positions absent. The grounding finding names the already-existing entity, its paired grounding relation occurrences, and the exact pattern content that defines or constrains each relation. Its separate closure uses another category-correct basis to make that finding the exercise's result; a subject-grounding occurrence alone does not. Cite A.15.PROD only if exact dated Work first constituted the finding episteme. The exercise does not produce the pre-existing entity.
+- For `expectedSubjectResultAbsent`, fill `expectedSubjectResultAbsentInterimResultClosureFindingRef` and leave the other state positions absent. The interim entity has its own kind, direct pattern, exact relative object, and category-correct basis. It may support later work but does not satisfy the selected subject-result expectation.
 
 Fill `selectedFirstResultReceivingUseDispositionFindingRef` only when the declared test relies on an addressable realized or intended receiving use. It must point to the selected state-specific closure, including the grounding-finding closure in the pre-existing branch. The continuable-work description says what project work can proceed from this state-specific result. The test fails when it merely retells a card, expands into a whole-project plan, treats a public template as a recommendation, claims performed work without an A.15.1-grounded `U.Work`, infers a physical, clinical, organizational, or learned change from its description, or asserts a CGUS only because the practice contains several rows.
 
 #### E.11.PUA:4.8 - Replay and currentness
 
-For immediate `ordinaryBounded` use, recover from the conversation the working subject and question, the direct pattern inspected, the useful result or honest interim entity, the governed relative-object kind, the category-correct direct basis, and the stop or return. Do not reconstruct a candidate dossier, flow position, or receiver merely to replay a cheap local use.
+For immediate `ordinaryBounded` use, recover from the conversation the working subject and question, the direct pattern inspected, the useful result, honest interim entity, or blocker, and the stop or return. Recover a relative-object kind, exact predicate, pattern locator, `ClaimGraph`, or category-correct direct basis only when it changes the truth, distinguishes a nearby value, or is needed by a named reliance. Do not reconstruct a candidate dossier, flow position, or receiver merely to replay a cheap local use.
 
-When a named later use relies on fuller replay, recover the exact EntityOfConcern, effective reference scheme, practical question, selected direct pattern and edition-pinned Solution, expected result kind and direct owner, descriptive flow position, exact governed relative object, category-correct direct basis with its separate governors, grounded actual or honest interim entity, any separately current receiving-use disposition, and stop or return boundary from the support epistemes materialized for that reliance. Add claim scope, project work, model-use structure, qualification window, receiver, or another working condition only through its exact neighboring relation when that relation changes the replayed use.
+When a named later use relies on fuller replay, recover the exact EntityOfConcern, effective reference scheme, practical question, selected direct pattern and edition-pinned `Solution`, expected result kind and pattern locator, descriptive flow position, relative object, category-correct direct basis, grounded actual or honest interim entity, any separately current later-use disposition, and stop or return boundary from the support epistemes materialized for that reliance. Add claim scope, project work, model-use structure, qualification window, receiver, or another working condition only through its exact neighboring relation when that relation changes the replayed use.
 
 Recheck the smallest affected claim or relation when the concern, candidate basis, direct Solution, expected result, result grounding, flow position, receiving-use condition, or boundary changes. Reopen pattern selection only when that change alters candidate fit; a new measurement of the same result does not by itself select another pattern. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; PUA supplies the use-specific values and change conditions that orchestration inspects.
 

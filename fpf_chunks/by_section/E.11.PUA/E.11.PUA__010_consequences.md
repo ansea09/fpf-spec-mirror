@@ -6,12 +6,12 @@ section_id: "E.11.PUA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__010_consequences.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:9 — Consequences"
-line_start: 77616
-line_end: 77621
+line_start: 77668
+line_end: 77673
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,7 +33,7 @@ keywords:
 
 ### E.11.PUA:9 - Consequences
 
-**Benefits.** A cold reader can apply one pattern and reach a useful result without learning a meta-workflow. Ordinary use remains light, while high-reliance use can preserve the exact result, its direct owner, the governed relative object, the category-correct basis with separate governors, and any separately current receiving-use disposition. Physical, clinical, learned, organizational, work, and epistemic results keep their own governors instead of being forced into one result or product family.
+**Benefits.** A cold reader can use one pattern and reach a useful result without learning a meta-workflow. Ordinary use remains light. High-reliance use can preserve the exact result assertion, the pattern content defining or constraining it, the relative object when relevant, the category-correct basis, and any separately current later-use disposition.
 
-**Costs.** A success claim is complete only after the exact entity or relation occurrence, direct owner, governed relative object, and category-correct direct basis are recoverable. Reliance-bearing use may add addressable findings. Cross-flow participation requires both exact TFS-local positions and the directly governed relation; E.18.NET is added only when independently identified TFS values must be treated together as a network.
+**Costs.** A claimed result needs enough direct basis to make the claim truthful; reliance-bearing use may add addressable findings and exact locators. Cross-flow participation requires both TFS-local positions and the direct relation only when that crossing is current. Ordinary bounded use pays none of this trace cost merely for completeness.
 

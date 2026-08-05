@@ -6,12 +6,12 @@ section_id: "E.9.DA:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__007_bias-annotation.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:6 — Bias annotation"
-line_start: 73474
-line_end: 73479
+line_start: 73454
+line_end: 73459
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,5 +29,5 @@ keywords:
 
 This pattern biases FPF toward decisions before drafting. The bias is useful because missing decisions become expensive once they fan out into pattern hosts.
 
-The bias is bounded. Small editorial decisions can use `E.9` directly. Once an E.9.DA assessment application is current, dated assessment work enacts the selected method, A.6.1 bindings return coordinate values, and a separate result episteme states the claims compactly; the pattern and optional record perform none of those acts. Pattern quality remains under `E.21`; repeated improvement remains under `E.23`; wording repair remains under `E.10` and precision-restoration neighboring patterns named by value.
+The bias is bounded. Small editorial decisions can use `E.9` directly. Ordinary DRR review judges the decision and first action without manufacturing assessment records. When a named later reliance needs an exact reusable result, the evaluator, method, work, application, result, evidence use, and receiving status remain distinct; the pattern and optional record perform none of those acts. Pattern quality remains under `E.21`, repeated improvement under `E.23`, and wording repair under `E.10` and its concrete neighbours.
 

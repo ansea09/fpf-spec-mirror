@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "Practical-Use Guidance and Pattern Discovery"
+pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
 section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
-  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 76996
-line_end: 77029
+line_start: 77049
+line_end: 77086
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,6 +24,10 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "Public first-entry explanation or durable pattern semantics"
+  - "admission state"
+  - "and dependencies"
+  - "query phrases"
 ---
 
 ### E.11:5 - Archetypal Grounding
@@ -44,7 +48,7 @@ That named reliance admits a `PracticalUseCardShortlist@Context` with four compa
 
 #### E.11:5.3 - A card leads to a physical result without promising it
 
-`WORKING-DOCUMENTS` can lead to a usable machining work instruction. Its public template first names the admitted `U.MethodDescription` or `U.WorkPlan` kind and asks how a later project use would identify the episteme under A.3.2 or A.15.2. It then asks separately which exact relation occurrence, A.6.1 binding, or category-correct local claim would make that episteme the result relative to the later document-use or machining-planning object. Any conditional receiving pattern appears only when that continuation is part of the branch. The card does not promise a machined component.
+`WORKING-DOCUMENTS` can lead to a usable machining work instruction. Its public template first names the admitted `U.MethodDescription` or `U.WorkPlan` kind and asks how a later project use would identify the episteme under A.3.2 or A.15.2. It then asks separately which exact relation occurrence, A.6.1 binding, or category-correct local claim would make that episteme the result relative to the later document-use or machining-planning object. Any conditional pattern for the next question appears only when that continuation is part of the branch. The card does not promise a machined component.
 
 The reader can therefore imagine useful progress without inferring that publication or planning performed the machining. When actual machining or other dated work later becomes current, use A.15.1 to identify the exact performed Work occurrence; use A.15 as well only when role–method–work alignment is itself current. The instruction or plan is neither that dated `U.Work` nor proof that it occurred.
 
@@ -59,4 +63,8 @@ The public card heading and question remain unchanged when readers still recogni
 Suppose retrieval ranks the most familiar title first and the first-click rate rises. Follow-up comparison shows that more readers now open `DESCRIPTION-USE` when the selected structure is still unsettled, so first-result mismatch and wrong-turn returns also rise.
 
 The visible navigation measure improved while the intended value worsened: readers reached a less suitable direct pattern more often. Keep first-click rate as telemetry, apply `E.13` to the substitution, and judge the guidance by recoverable situation fit, first-result fit, and wrong-turn cost rather than by the click measure alone.
+
+#### E.11:5.6 - Discharge a duplicate first-entry row by function
+
+Suppose a compact row combines “architecture and diagrams”, evidence, dashboard use, and “compare alternatives”. Do not keep it as a second entry canon. Put architecture design/review in the README `ARCHITECTURE` entry and `C.30`; put description, view, dashboard, and rendering use in `DESCRIPTION-USE` and the direct E.17/C.30.AD patterns; put evidence or commitment in `COSTLY-ACTION` and the direct A.10/B.3/A.21 patterns; put alternative comparison in `OPTION-COMPARISON`; put useful search phrases in ToC or retrieval; and open an `I.2` case only if those compact cues still leave a genuine ambiguity. Delete the duplicate after every useful function has a matching home.
 

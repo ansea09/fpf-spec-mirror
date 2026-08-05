@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "Practical-Use Guidance and Pattern Discovery"
+pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
 section_id: "E.11:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__004_forces.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
-  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:3 — Forces"
-line_start: 76717
-line_end: 76729
+line_start: 76699
+line_end: 76712
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,18 +24,23 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "Public first-entry explanation or durable pattern semantics"
+  - "admission state"
+  - "and dependencies"
+  - "query phrases"
 ---
 
 ### E.11:3 - Forces
 
 | Force | Pressure on the solution |
 | --- | --- |
-| Recognition | Public wording starts from situations engineers recognize, not internal pattern topology. |
-| Exactness | Every candidate names the admitted kind of a potential result, the local identification question, its direct owner and identity-or-obtaining basis template, the kind of governed object relative to which the result phrase would be true, and one category-correct relative-basis template. |
-| No fictitious context | Public guidance has no reader-project identity and cannot contain `@Context` instances. |
-| Bounded search | Several cards can remain plausible, so comparison needs stop and return conditions rather than one perfect first guess. |
-| Light ordinary use | Card comparison should normally remain in conversation. |
-| Durable reliance | A named later review, replay, audit, or automation use can rely on addressable comparison history. |
-| Didactic continuity | Every card needs a readable walkthrough, not only a list of PatternIDs. |
-| One source of guidance | README carries the public card set; Preface, ToC, retrieval, and pattern bodies answer different questions. |
+| Project recognizability | Public entry starts from situations engineers recognize, not internal pattern topology. |
+| First value before apparatus | The first useful result or honest blocker appears before schemas, PatternIDs, quality vocabulary, or exact reliance fields. |
+| Technical precision | The direct pattern, result kind, identity or obtaining basis, and neighboring boundary remain recoverable when they change the choice; ordinary wording need not expose every exact field. |
+| Low burden | A newcomer should not fill forms or fabricate project values before seeing what the direct pattern can do. |
+| Bounded search | Several entries may remain plausible, so comparison needs a stop and a recoverable wrong-turn return rather than one perfect first guess. |
+| Durable reliance | Only a named later review, replay, audit, automation, or costly decision justifies addressable comparison history. |
+| No duplicate canon | README, Preface, ToC, retrieval, expanded cases, and local `Problem frame` sections keep different jobs. |
+| Didactic continuity | A public entry gives a readable example or walkthrough, not only a PatternID list. |
+| Corpus evolution | Repair the smallest affected entry and its true consumers when a direct pattern's result, boundary, or recognition condition changes. |
 

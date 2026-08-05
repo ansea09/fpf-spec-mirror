@@ -6,12 +6,12 @@ section_id: "E.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__007_problem.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:2 — Problem"
-line_start: 72066
-line_end: 72075
+line_start: 72067
+line_end: 72084
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -55,12 +55,20 @@ keywords:
 ---
 
 ### E.8:2 - Problem
-*Structural drift* and *stylistic fragmentation* threaten three qualities:
+*Structural drift*, *stylistic fragmentation*, and revision by visible proxies
+rather than working use threaten five qualities:
 
 1. **Comparability** – readers cannot align patterns lacking common
    headings.
 2. **Narrative cohesion** – prose swings from dry jargon to informal
    blog style.
-3. **Reviewability after guidance** – missing sections hide boundary and assurance checks
-   (Archetypal Grounding, Bias‑Annotation) that let reviewers verify the action guidance without replacing it.
+3. **Practitioner use across revisions** – cleanup can erase the recognizable
+   situation, first action or judgement, first useful result, ordinary boundary,
+   or affordable stop while leaving a tidier-looking text.
+4. **Semantic and relation clarity** – generic heads, false agency, imprecise
+   neighboring-pattern contributions, and drifting package or relation words can
+   change what the prose asserts or what a reader may do.
+5. **Reviewability after guidance** – missing or misplaced grounding, boundary,
+   SoTA, conformance, assurance, and publication-reference material can hide a
+   defect or replace the positive guidance it is meant to verify.
 

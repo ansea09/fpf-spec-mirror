@@ -6,12 +6,12 @@ section_id: "E.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__005_problem-frame.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:1 — Problem frame"
-line_start: 72885
-line_end: 72891
+line_start: 72862
+line_end: 72870
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,9 @@ keywords:
 ### E.9:1 - Problem frame
 FPF is engineered for Pillar **P‑10 Open‑Ended Evolution**: its normative
 rules must adapt as new calculi and insights arrive. But change without a
-record of *why* leads to conceptual erosion and undermines auditability.
-Hence FPF requires an explicit **Design‑Rationale Record (DRR)**—a
-durable *conceptual record* that precedes every normative change.
+recoverable selected answer and rationale leads to conceptual erosion, while a
+formally rich record can still defer the decision or distribute a harmful rule.
+Hence FPF uses a **Design‑Rationale Record (DRR)** as a durable conceptual
+record that fixes one bounded content decision before its normative change is
+distributed.
 

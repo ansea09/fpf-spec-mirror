@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "Practical-Use Guidance and Pattern Discovery"
+pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
 section_id: "E.11:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__003_problem.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
-  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:2 — Problem"
-line_start: 76711
-line_end: 76716
+line_start: 76693
+line_end: 76698
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,6 +24,10 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "Public first-entry explanation or durable pattern semantics"
+  - "admission state"
+  - "and dependencies"
+  - "query phrases"
 ---
 
 ### E.11:2 - Problem

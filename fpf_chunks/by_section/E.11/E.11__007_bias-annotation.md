@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "Practical-Use Guidance and Pattern Discovery"
+pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
 section_id: "E.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__007_bias-annotation.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
-  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:6 — Bias-Annotation"
-line_start: 77030
-line_end: 77037
+line_start: 77087
+line_end: 77096
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,13 +24,19 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "Public first-entry explanation or durable pattern semantics"
+  - "admission state"
+  - "and dependencies"
+  - "query phrases"
 ---
 
 ### E.11:6 - Bias-Annotation
+
+
 
 - **Title-match bias.** A familiar word selects a pattern before its Problem and first result are inspected. Compare situations and result differences, then open the direct pattern.
 - **Public-instance bias.** A README example is filled with project values. Keep public templates context-free; project candidates belong to `E.11.PUA`.
 - **Numbered-route bias.** Card order is read as method order. Use semantic keys and condition-specific continuations.
 - **Record-first bias.** Comparison emits a shortlist by default. Materialize one only for a named receiving reliance.
-- **Card-as-authority bias.** A public card is treated as applicability verdict, recommendation, decision, or authorization. Return to `E.11.PUR` or the direct subject pattern.
+- **Card-as-authority bias.** A public card is treated as an applicability verdict, recommendation, decision, or authorization. Use `E.11.PUR` or the direct pattern whose content governs that claim.
 

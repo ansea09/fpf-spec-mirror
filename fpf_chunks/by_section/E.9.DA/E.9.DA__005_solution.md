@@ -6,12 +6,12 @@ section_id: "E.9.DA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__005_solution.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:4 — Solution"
-line_start: 73258
-line_end: 73465
+line_start: 73225
+line_end: 73445
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,26 +27,25 @@ keywords:
 
 ### E.9.DA:4 - Solution
 
-`E.9.DA` declares the reusable DRR decision-adequacy evaluation `CharacteristicSpace`, its object-specific evaluation specification, ordinal scale, result-shape rules, and local admissible-use result values. It is a specialization of `A.19.ECS`; it does not itself inspect a DRR, perform assessment work, assign a value, create evidence use, issue assurance, authorize drafting, or repair the DRR.
+Judge semantic adequacy before constructing evaluation apparatus. Read the exact DRR in its declared authoring use and ask whether a practitioner or author can recover the working problem, selected answer, practical change, selected loci, first drafting action, and boundary without inventing decisions or decoding avoidable formality.
 
-For an actual evaluation, keep these objects independently recoverable:
+For an ordinary bounded review, the sufficient result is:
 
-1. one exact C.2.1 `DRR` episteme version as the checked object;
-2. the declared downstream authoring use, `U.ClaimScope`, qualification window, selected-locus disposition map, and checked evidence basis;
-3. the selected `U.CharacteristicSpace`, this E.9.DA evaluation-specification episteme, every coordinate/scale binding, and the local result-form and status-value rules;
-4. one separately identified semantic evaluation `U.Method` used for the assessment;
-5. dated assessment `U.Work`, its evaluator `U.System`, exact obtaining `U.RoleAssignment`, enacted method, and A.6.1 application/bindings;
-6. the per-coordinate result claims and one C.2.1 aggregate decision-adequacy-result episteme when a durable result is needed;
-7. witnesses, source or comparator refs, exact A.10 evidence-use/provenance relations, and any B.3 assurance result;
-8. an optional evaluation-record episteme that packages those refs without performing the assessment or creating its results;
-9. any F.10 status value, status-use/interpretation relation, acceptance, gate, authority, reliance, publication, or currentness claim; and
-10. later E.23 improvement or other DRR repair work and its changed DRR episteme.
+- the exact DRR and declared authoring use;
+- substantive findings, repaired DRR text, or the unchanged checked DRR when the review is clean;
+- the actual predecessor/proposed host evidence when the DRR selects a broad language, ontology, or authoring rule;
+- the first drafting action or first repair; and
+- the stop or reopen condition.
 
-There is no partial conforming `E.9.DA` result. Once assessment work applies this evaluation for the declared use, the aggregate result episteme states a value, adjacent-value rationale, and evidence locus for every coordinate in `E.9.DA:4.4`, the checked evidence basis, and the local result status. Missing fields, sources, selected-locus decisions, architecture decisions, comparators, or currentness bases lower the coordinate that needs them and can yield repair, split, or hold; an unfinished table or prose impression remains assessment material rather than a result.
+That result may remain readable prose. It needs no assessment-work record, application object, aggregate result episteme, precision-profile record, witness package, or evidence-use package merely for symmetry.
 
-Each coordinate-result claim is a quality ascription about the exact checked DRR episteme. It names that bearer, effective ReferenceScheme, characteristic and scale value, evaluation rule or probe, comparison/calibration frame when used, `U.ClaimScope`, declared use and qualification window, assessment application, and evidence locus. Evaluator system and any viewpoint episteme remain distinct; the result does not acquire a viewpoint or grounding merely from the evaluator, record, or source labels.
+Use the complete coordinate table when a complete reusable evaluation was explicitly requested or when a named later reliance needs stable coordinate values. Materialize the exact characteristic-space configuration, semantic evaluation method, dated assessment work, A.6.1 application, result episteme, witnesses, or evidence-use relations only when that receiving use depends on their identities. In that branch, keep the checked DRR, evaluation specification, work, application, result, record, evidence use, status use, authority, and later repair distinct; none performs or authorizes another.
+
+For a broad language or ontology rule, `DraftingActionability`, `LexicalAndNamingClosure`, and the precision-restoration reading consume the actual-host predecessor/proposed comparison. The DRR's promise, a table-completeness check, a different lane test, or an invented fact pack is not evidence of practitioner use. Formal precision and plain comprehensibility are both required; neither compensates for loss of the other.
 
 #### E.9.DA:4.1 - Local names and kind settlement
+
+The following names support only the complete reusable-result branch. An ordinary bounded review need not instantiate them. When the branch is opened, each name resolves to the existing FPF object or reference stated here; none names a checking machine, actor, authority, or mandatory record.
 
 | Local name | Kind and function |
 |---|---|
@@ -65,10 +64,10 @@ Each coordinate-result claim is a quality ascription about the exact checked DRR
 | `DRRCoordinateValueRationales` | Required result claims: coordinate, value, adjacent-value rationale, and evidence locus named by value. |
 | `DRRCoordinateLocusRefs` | Exact DRR loci cited by result claims; citation does not itself establish a value. |
 | `DRRSourceUseDischargeMap` | Source-use relation, source-currentness, selected payload, rejected payload, and selected locus when a source publication, source pack, or source-use record governs a decision. |
-| `DRRPrecisionRestorationProfile` | Compact scalar profile for DRR wording-use precision: word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology. It records overall effect, affected coordinates, selected governing pattern, and no-repair disposition with loci when clean. |
+| `DRRPrecisionRestorationProfile` | Compact scalar profile for DRR wording-use precision: word-use precision, phrase apparatus, repetition-and-distribution, ontic-slot clarity, description-publication-source boundary separation, and pattern-application ontology. It records overall effect, affected coordinates, selected concrete pattern or relation, and no-repair disposition with loci when clean. |
 | `DRRKindRestorationCheck` | Required pre-repair and post-repair object-kind, relation-or-claim-kind, current ontic slot, relation position, use relation, or claim kind, admissible-use, and scope check, or `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition with loci, for any DRR wording, naming, or precision-restoration repair proposal. |
 | `DRROnticCandidateDisposition` | If the DRR selects, rejects, splits, or declines a candidate ontic, this names the candidate `EntityOfConcern`, sufficiency rationale, rejected alternatives, broad candidate-universe sanity sweep when the claim is broad, slot-relation boundary, description-publication boundary, and selected pattern placement by value. |
-| `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and governing-pattern map added or changed, blocked overreads, and residue that must move from DRR or README into patterns or unfolding structures. |
+| `CampaignProblemSolutionUnfoldingCheck` | Triggered carry-through check for DRRs that create or modify README entries, path-shaped patterns, pattern families, DPF entries, first-practical routes, or constraint-governed unfolding structures. It names admitted problem-side record refs or cues, accepted starting records, current starting structures, entry cues, selected solution architecture, affected unfolding families, loci and concrete-pattern or relation map added or changed, blocked overreads, and residue that must move from DRR or README into patterns or unfolding structures. |
 | `DRRDecisionAdequacyResultRef` | One C.2.1 result episteme whose EntityOfConcern is the exact checked DRR episteme and whose ClaimGraph states the declared use/window, all coordinate-result claims, local status value, stop/repair condition, and bounded overread. It is not the work, witness set, record, or authority. |
 | `DRRDecisionAdequacyWitnessRefs` | Exact comparison, source, trace, case, or locus witnesses cited by result claims; witness presence is neither a value nor an evidence-use relation. |
 | `DRRDecisionAdequacyEvidenceUseRefs` | Exact A.10 evidence-use/provenance relations supporting reliance on result claims; they do not create those claims or the checked DRR. |
@@ -77,7 +76,7 @@ Each coordinate-result claim is a quality ascription about the exact checked DRR
 
 These names are local evaluation positions and refs. They are not release state, review status, project evidence, gate result, assurance, work, publication, or pattern-quality values.
 
-#### E.9.DA:4.2 - Evaluation application, result, and optional record
+#### E.9.DA:4.2 - Optional exact evaluation application, result, and record
 
 ```text
 DRRDecisionAdequacyEvaluationConfiguration:
@@ -123,6 +122,8 @@ DRRDecisionAdequacyResultEpisteme:
 
 An optional `DRRDecisionAdequacyRecordRef` may package refs to this configuration, assessment application/work, result episteme, witnesses, evidence-use relations, publication, and currentness. Filling or publishing that record does not perform the work, assign the coordinate values, make evidence relevant, confer assurance, create an F.10 status use, accept the DRR, or authorize downstream drafting.
 
+When a viewpoint or grounding claim matters to the reliance, name its basis separately. Evaluator identity, record packaging, and source labels do not by themselves give the result that viewpoint or grounding.
+
 `E.22` may frame whether the evaluation is floor-only, exceptional-improvement, trade-off, open-question, absorption, or proposal-producing. It neither performs the assessment nor assigns the result. `E.23` governs later repeated improvement work on the checked DRR after result claims or findings exist; it does not retroactively become the E.9.DA assessment.
 
 #### E.9.DA:4.3 - Ordinal coordinate scale
@@ -136,7 +137,7 @@ An optional `DRRDecisionAdequacyRecordRef` may package refs to this configuratio
 | 4 | `wellExpressedForDeclaredUse` | The coordinate is clearly expressed with direct evidence and boundary protection. |
 | 5 | `exceptionallyExpressedForDeclaredUse` | The coordinate is exceptionally expressed across reinforcing loci and cases without hiding cost or neighbour loss. |
 
-Each ordinal value is a content-evaluation result claim about the exact checked DRR episteme under the declared evaluation configuration. It is not a `U.Measure`, assessment work, witness, record field, F.10 status use, assurance, acceptance, or reward for review, landing, popularity, citation volume, or absence of visible defects.
+When a complete reusable coordinate evaluation is produced, each ordinal value is a content-evaluation claim about the exact checked DRR under the declared use and window. In an ordinary bounded review, the same scale may guide judgement without materializing a measure, work record, result episteme, assurance, acceptance, or reward.
 
 #### E.9.DA:4.4 - Required decision-adequacy coordinates
 
@@ -145,30 +146,30 @@ Each ordinal value is a content-evaluation result claim about the exact checked 
 | `BoundedDecisionQuestionRecoverability` | Can the reader recover the FPF content decision question named by value and adjacent questions outside it? |
 | `SelectedAnswerDecisiveness` | Does the `DRR` decide the selected answer now rather than leave it for drafting? |
 | `SourceUseAndDecisionInheritanceCarryThrough` | Does needed source use or accepted decision inheritance change selected answers, boundaries, obligations, cases, architecture choices, stops, or reopen conditions by value? |
-| `AlternativeDispositionCompleteness` | Are selected, rejected, inherited, lineage-only, rationale-only, and outside-decision options closed for the declared use? |
+| `AlternativeDispositionCompleteness` | Are the alternatives needed to explain the selected answer, live boundary, or reopen condition closed, while irrelevant discussion history is absent from the current DRR? |
 | `SelectedLocusObligationClosure` | Are selected content responsibilities and explicit non-responsibilities assigned to selected loci named by value without unclassified selected loci, hidden ontic-candidate decisions, or precision-restoration profile defects that would become pasteable pattern prose? |
-| `FPFContentArchitectureSelectionAdequacy` | Is the selected FPF content architecture substantively adequate: existing pattern, new pattern, candidate ontic, direct-pattern repair, publication-boundary repair, split, merge, selected content object, branch, and governing pattern for each outside claim, relation, or boundary? |
+| `FPFContentArchitectureSelectionAdequacy` | Is the selected content architecture adequate: existing pattern, new pattern, candidate ontic, direct-pattern repair, publication-boundary repair, split, merge, selected content object, branch, and the concrete pattern or relation needed for each outside claim or boundary? |
 | `ArchitectureSourceAndViewLossClosure` | Are affected structures, structure kinds, structural views, view losses, missing-structure return conditions, source-use relations, and splits among architecture decision, architecture description, publication, and ontic description decided when the decision uses them? |
-| `DraftingActionability` | Does the DRR expose the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus claim/relation/boundary or decision, user-facing action, and only the necessary boundary/reference pointers as positive subject kind and action guidance, without making an evaluation row, copied boundary doctrine, reference boilerplate, phrase apparatus, or architecture-placement rationale stand for future pattern method or work? |
-| `LexicalAndNamingClosure` | Are durable names, trigger words, and relation-like heads repaired through `E.10`, `F.18`, `A.6.P`, `C.2.P`, or the pattern that governs the relevant kind, claim, relation, or name? |
+| `DraftingActionability` | Does the DRR state the working problem, positive selected answer, practical change, selected-locus obligation, first drafting action, and nearest boundary plainly? For a broad authoring rule, does the actual predecessor/proposed host replay show that entry, action, result, and effort remain at least as usable? |
+| `LexicalAndNamingClosure` | Does actual proposed wording preserve the live kind, claim, relation, ordinary meaning, and first action under E.8 and F.19, using E.10, F.18, A.6.P, C.2.P, or the concrete defining or constraining pattern only where needed? |
 | `SoTAAndEvidenceUseInDecision` | Does each decision-governing source change a decision payload, and are non-SoTA source uses bounded? |
 | `ScopeBoundaryAndNonOverread` | Are outside-decision items, inadmissible overreads, source-use or missing-structure return conditions, and lost distinctions explicit without letting precision-restoration defects or architecture-memo leakage displace the selected answer? |
-| `ConsequencesAndRegressionCoverage` | Are consequences, costs, validation obligations, source-loss regressions, regression cases, and near-misses enough to protect drafting? |
+| `ConsequencesAndRegressionCoverage` | Are costs, validation obligations, source-loss regressions, actual-host cases, preserved predecessor ideas, near misses, and true direct-consumer changes sufficient to protect drafting without demanding repeated full-corpus proof? |
 | `SiblingDecisionCoordination` | Is coordination with other `DRR`s, accepted decisions, or evaluation patterns explicit without duplication or weakening? |
 | `AdministrativeStateAndAuthoringHistorySeparation` | Are review logistics, packet state, landing, monolith placement, chat history, and authoring history kept out of decision evidence? |
-| `CorpusEcologyAndShadowSpecResistance` | Does the `DRR` assign repeated doctrine to governing patterns and avoid duplicate local variants or shadow specs? |
+| `CorpusEcologyAndShadowSpecResistance` | Does the DRR place repeated doctrine in the concrete patterns that carry it, update true direct consumers, and avoid duplicate local variants or shadow specs? |
 
 Coordinate separation is by repair question. One `DRR` section may support several coordinates, but the rationale must state the distinct property supported for each. When two heads always fail and repair together, the `DRR` or the evaluation pattern needs characteristic-space repair through `A.19.ECS`.
 
 #### E.9.DA:4.4a - Result-row discipline and calibration
 
-An `E.9.DA` result uses this table shape:
+A complete reusable E.9.DA coordinate result uses this table shape. An ordinary bounded review may use the coordinates as probes and return substantive findings or repaired text without creating the table:
 
 | Coordinate | Value | ShortRationale | EvidenceLocus |
 |---|---:|---|---|
 | `<E.9.DA coordinate>` | `<0..5>` | `<assigned-value basis; why the lower adjacent value would understate the DRR evidence; why the higher adjacent value would overstate it, or for 5 what would lower or reopen>` | `<DRR section, row, alternative, source-use row, selected-locus row, accepted-decision row, architecture decision, or missing locus named by value>` |
 
-A prose summary, heading checklist, two-column coordinate-and-value table, or table without an `EvidenceLocus` named by value is not an `E.9.DA` result. It is draft evaluation material. Missing or unchecked evidence lowers the coordinate that needs it; it does not make the coordinate inactive.
+A prose summary, heading checklist, two-column coordinate-and-value table, or table without an `EvidenceLocus` is not a complete reusable coordinate result. It may still be a valid ordinary bounded review when it precisely states the checked DRR, declared use, substantive finding, repaired text or clean unchanged result, first action, and stop or reopen condition. Missing or unchecked evidence lowers any reusable coordinate that needs it.
 
 Common calibration points:
 
@@ -176,12 +177,12 @@ Common calibration points:
 |---|---|---|---|
 | Decision question and selected answer | The decision can guide limited drafting, but unsettled or ambiguous material remains visible. | The selected answer and outside questions are directly recoverable for declared authoring use. | The decision is reinforced across question, alternatives, consequences, selected loci, and first drafting action without hidden unsettled branches. |
 | Source-use and inheritance | Sources or inherited decisions are relevant, but payload mutation or rejection is compact or incomplete. | Source-use relation, adopted payload, rejected payload, currentness, and selected-locus obligation are explicit. | Source distinctions are replayable across selected answer, cases, boundaries, and first drafting action. |
-| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, governing pattern for outside claim, relation, or boundary, and lost-structure or source-use distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
+| Selected-locus and architecture closure | Loci are named, but some obligation, non-obligation, split, architecture choice, ordinary reference relation, or phrase apparatus remains generic. | Loci are named by value and content obligations are closed for declared use without precision-restoration defects or architecture-memo prose in the future pattern body. | The split, merge, concrete pattern or relation for each outside claim or boundary, and lost-structure or source-use distinctions are replayable across cases and consequences while product prose remains positive-subject first. |
 | Drafting actionability | A skilled author can proceed, but must infer some governed `EntityOfConcern`, first move, selected-locus relation/decision, user-facing action, boundary disposition, or reference/architecture disposition from scattered material. | The DRR directly exposes the governed `EntityOfConcern`, first substantive drafting move, exact selected-locus relation or decision, user-facing action, and only necessary boundary/reference pointers as positive subject kind and action guidance; ordinary references remain references, apparatus stays out of pattern prose, and an evaluation row is neither future method nor work. | Drafting can proceed across heterogeneous selected loci without inventing decisions, final prose, local negative catalogues, reference boilerplate, phrase apparatus, architecture-memo leakage, method, or work. |
 
 #### E.9.DA:4.5 - Local result status and stop condition
 
-The following are closed values asserted in the aggregate decision-adequacy-result episteme for its exact checked DRR/use/window. They are not F.10 status uses, review decisions, gates, permissions, assurance levels, or work states. A receiver that relies on or maps one value must state its own exact status-use/interpretation or evidence-use relation.
+The following are local conclusions for the exact checked DRR, declared use, and window. They may be stated in an ordinary bounded result; a C.2.1 aggregate result episteme is needed only when a named later reliance needs that exact reusable object. They are not review decisions, gates, permissions, assurance levels, or work states.
 
 | Status | Meaning |
 |---|---|
@@ -191,32 +192,44 @@ The following are closed values asserted in the aggregate decision-adequacy-resu
 | `splitDecisionRequired` | Several coupled questions need separate decision records or explicit convergence. |
 | `holdForArchitectureDecision` | Content object, branch, neighbour boundary, selected locus, structural view relation, missing-structure return condition, source-use relation, or publication split must be decided before adequacy can close. |
 
-A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action and most expansive non-admissible overread. `newFrameRequired` is not a pass for the current declared use. Non-ready result values state the first repair, split boundary, or architecture question; the result episteme neither performs that repair nor imposes a gate without a separately governed receiving relation.
+A result carrying `admissibleForDeclaredAuthoringUse` states the first drafting action and most expansive non-admissible overread. `newFrameRequired` is not a pass for the current declared use. Non-ready result values state the first repair, split boundary, or architecture question; neither an ordinary conclusion nor a separately constituted result episteme performs that repair or imposes a gate without a separately governed receiving relation.
 
 #### E.9.DA:4.6 - Compact result form
 
-```text
-E.9.DA result episteme:
-  ResultRef: <DRRDecisionAdequacyResultRef>
-  EntityOfConcern: <exact DRRVersionRef>
-  EffectiveReferenceScheme:
-  Declared authoring use: <DRRDeclaredAuthoringUse>
-  ClaimScopeRef:
-  Qualification window: <window>
-  Evaluation configuration: <CharacteristicSpaceRef, EvaluationSpecRef, SemanticEvaluationMethodRef>
-  Assessment work and A.6.1 application refs:
-  Evidence basis checked: <DRRDecisionAdequacyEvidenceBasis>
-  Precision-restoration profile: <DRRPrecisionRestorationProfile>
-  Status: <local DRRDecisionAdequacyStatus value>
-  Coordinate table: <Coordinate | Value | ShortRationale | EvidenceLocus for every required coordinate>
-  Witness refs and exact evidence-use relation refs:
-  First drafting action or first repair: <...>
-  Most expansive non-admissible overread: <...>
-  Reopen if: <smallest changed locus or condition>
-```
-The coordinate table may be short, but the result episteme is complete only when every coordinate and required identity/configuration field is recoverable. No result is constituted from a prose summary, two-column table, applied-finding count, review acceptance, absent failure rows, or missing evidence loci. A downstream F.10 status use, B.3 assurance, E.19 admission decision, authority, or drafting permission is a separate governed claim.
+An ordinary bounded result is deliberately short:
 
-#### E.9.DA:4.7 - Finding row
+```text
+E.9.DA bounded review:
+  Exact DRR:
+  Declared authoring use:
+  Actual-host evidence: <required only when a broad authoring rule is selected>
+  Substantive result: <findings | repaired text | unchanged checked DRR when clean>
+  Status:
+  First drafting action or first repair:
+  Most expansive non-admissible overread:
+  Reopen if:
+```
+
+This is sufficient when no named later use needs a reusable coordinate result. A clean focused review may point directly to the unchanged DRR; an inspect-repair-verify pass points to the repaired text and focused verification.
+
+When a complete reusable coordinate evaluation is explicitly required, or a named later reliance needs exact result identity, extend rather than replace the bounded result:
+
+```text
+E.9.DA reliance-bearing result:
+  Exact DRR and effective ReferenceScheme:
+  Declared authoring use and qualification window:
+  CharacteristicSpace and evaluation-spec refs:
+  Semantic evaluation method, assessment work, and A.6.1 application refs:
+  Evidence basis checked:
+  Coordinate table: <Coordinate | Value | ShortRationale | EvidenceLocus>
+  Precision-restoration reading and triggered exact checks:
+  Witness and evidence-use refs actually used by the reliance:
+  Status, first action or repair, bounded overread, and reopen condition:
+```
+
+Only this reliance-bearing branch requires every coordinate and the exact identities its receiving use consumes. A downstream status use, assurance, E.19 admission, authority, or drafting permission remains a separate governed claim.
+
+#### E.9.DA:4.7 - Structured finding row when reuse needs it
 
 ```text
 E.9.DA finding:
@@ -229,7 +242,7 @@ E.9.DA finding:
   Closure test: <what changed DRR text would show>
 ```
 
-Vague labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` are not findings until rewritten into this row. A finding row is one actionable evaluation-result claim or a row cited by the aggregate result episteme; writing it neither performs assessment work nor repairs the checked DRR.
+Use this row when a transferable structured finding is required. An ordinary bounded review may instead place the same precise diagnosis and repair direction in its one handoff or repaired text. Labels such as `weak DRR`, `needs more evidence`, or `architecture unclear` remain too vague in either form. Writing a finding neither performs assessment work nor repairs the checked DRR.
 
 When `E.22`, `E.23`, absorption, or exceptional-improvement framing requests improvement, below-floor coordinate-result claims support finding rows and subsequent repair work; they do not themselves repair the DRR. Above-floor coordinates receive proposal rows only for substantive non-dominated decision-content opportunities inside the declared authoring use: a more decisive selected answer, source payload mutation, selected-locus obligation, architecture split or merge decision, rejected-alternative closure, first drafting action, regression case, or deletion or relocation of apparatus that would otherwise become pattern prose. Do not treat every value below `5` as a defect. A `4` may be the correct stop value only with loci showing why further decision-content movement is dominated, unavailable, or outside scope.
 

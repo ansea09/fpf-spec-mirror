@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 72084
-line_end: 72511
+line_start: 72093
+line_end: 72488
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -142,7 +142,7 @@ It is the only allowed heading *inside* a pattern whose section token is non‑n
 **H-10 (Publication-token classification and addressability).** Before emitting an FPF-governed token as a reference, authors **MUST** classify it under exactly one of these seven E.8-local publication-token classes and use the matching form:
 
 - `PatternRef` names one exact current pattern body. It is addressable only when the assembled publication carries one complete H2 body, one matching `:End`, and a truthful current ToC status for the same PatternID; a structural checker may verify and report that conformance but does not supply the status or normative authority.
-- `PlannedCatalogEntry` names an explicit future catalogue commitment. It has no current pattern semantics, governing force, prerequisite force, or addressable body; a useful prose mention **MUST** say `planned` or `future`, and a current semantic dependency **MUST** use an existing direct owner or state the current gap.
+- `PlannedCatalogEntry` names an explicit future catalogue commitment. It has no current pattern semantics, governing force, prerequisite force, or addressable body; a useful prose mention **MUST** say `planned` or `future`, and a current semantic dependency **MUST** cite existing content that supplies the needed definition, constraint, test, method, or other rule, or state the current gap.
 - `SectionRef` names one exact heading path inside one current pattern. Authors and tooling **MUST** read the complete section identifier before examining any substring.
 - `LocalDeclaredId` names an exact declaration within one pattern, such as a conformance clause, component, interface row, or predicate. Its scope is local unless an explicit stable anchor or a separate promotion decision establishes wider use.
 - `LocalAlias` names an explicitly declared compatibility alias and resolves to its declared canonical local target.
@@ -158,68 +158,35 @@ The Alexandrian pattern canon historically calls *Problem frame* “Context”. 
 
 #### E.8:4.1.2 - Preserve Pattern Use Value Across Material Revisions
 
-A revision is material when it can change what a working reader recognizes, does, obtains, or must stop doing. Open the full preparation below when the candidate edition can alter at least one of these values:
+A revision is material when the actual change can alter what a working reader recognizes, does, obtains, or must stop doing, regardless of whether the change is labelled as cleanup, clarification, terminology repair, or ontology alignment. Treat the revision as material when it can change at least one of these values:
 
 - the primary `EntityOfConcern`, governed kind, direct relation, claim kind, or scope;
 - the recurring situation or practical question that lets a reader recognize the use;
 - a Solution action, action condition, result kind, first useful result, stop, return, risk disclosure, or stronger-neighbor handoff;
-- a governing-pattern assignment, split, merge, relocation, or source/SoTA stance that changes what the reader may do;
+- the definition, constraint, test, method, cited-pattern contribution, split, merge, relocation, or source/SoTA stance that changes what the reader may do;
 - the asserted commonality, member set, membership rule, order, or governing premise of a list; or
 - ordinary first-use affordability.
 
-A formatting correction, spelling repair, citation repair, exact mechanical rendering, or wording change that preserves all these values is `not triggered`. Record the checked locus and the smallest comparison that establishes preservation. Physical line count, file size, section count, and inventory-row count do not establish materiality.
+A formatting correction, spelling repair, citation repair, exact mechanical rendering, or wording change is `not triggered` only when the smallest comparison of the actual predecessor and proposed text shows that all these values are preserved. A clean comparison needs no additional positive ledger, evidence table, or pattern section. Physical line count, file size, section count, inventory rows, and the author's label for the change do not establish materiality.
 
-**Prepare the correct use branch before drafting.** The branch names below describe authoring work. They introduce no U-kind, card, or mandatory record layout. A revision may contain selected uses from either or both branches; assign each selected use to exactly one branch by its basis. Keep every probe separately recoverable by its branch, exact edition or candidate-only basis, and working use so later review cannot regroup it. Put the semantic content in the smallest already-current authoring note that keeps the basis and later review recoverable; if that authoring work already has a governed record, use that existing record rather than naming another carrier.
+**Use one bounded material-revision loop over the actual prose.** Before treating a materially revised pattern as authored:
 
-For a **prior-edition use**, recover concrete uses from the exact prior published edition and classify each use before deciding what the candidate must preserve:
+1. Recover the useful predecessor use at idea level: the recognizable situation and intended reader, first admissible action or judgement, first useful result, action-changing boundary or stop, and any domain claim, example, or relation needed to perform that move. Classify a changing or disappearing predecessor use only as retained, a valid outcome whose defective mechanism is repaired, an explicitly authorized retirement with a corrected action or boundary, or unsupported residue.
+2. Draft the candidate's positive practitioner path in domain-recognizable language before guards: governed subject, recurring problem, action the reader can take, first useful result, and next action-changing condition or stop.
+3. Compare the actual predecessor and proposed text at comparable application effort. Preserve every useful predecessor move or deliberately replace it with an at-least-equally-usable action, result, or boundary; admit a candidate-only use only from an exact accepted decision, source/SoTA stance, finding, or working need.
+4. Remove exactness intensifiers, negative catalogues, role/process wrappers, formal identities, and assurance apparatus that do not change the truth, action, boundary, or reliance claim. Keep ordinary “use this pattern” or “apply this pattern” wording; open the fuller pattern-application ontology only under `E.8:0.3` when its identities matter.
+5. Check that recognition, first action, and first useful result still precede optional modeling, evidence, conformance, and assurance work. Use `F.19` or `E.10` only for a residual phrase or word/head/use problem, not as a wrapper around the whole authoring path.
+6. For every changed public or consumed interface—entry wording, input or result, field or position meaning, action order, stop, return, or reconsideration condition—repair each determinate stale ToC or README cue, example, relation, and true direct consumer in the same authoring increment. Find consumers by the meaning they teach or use; a shared word, identifier, or nearby reference is not enough.
 
-1. **admissible use** — retain it as a required or optional probe;
-2. **valid practical outcome carried by a defective mechanism** — retain the outcome and action need, but express them through the repaired ontology or method;
-3. **harmful or false use** — retire it only through an explicit decision that supplies the corrected action or boundary; or
-4. **unsupported historical residue** — exclude it from compatibility obligations.
+Prior-edition and candidate-only uses remain different bases, and both may be present in one revision. Compare the exact predecessor and candidate editions. A prior-edition use keeps its predecessor basis and one of the four classifications above; a candidate-only use keeps its exact accepted basis and receives no old-use class or fabricated history. Treat a selected use as required when its loss changes action or boundary, and as optional when it demonstrates breadth only. Backward compatibility alone is not improvement, and a candidate-only promise is not improvement until the text supports its executable use. Use desk replay by default and escalate to a cold reader, AI-agent, or observed-work check only when ambiguity or consequence justifies it. If later independent review needs a recoverable note, use the smallest existing authoring source; do not create a card, score, universal schema, or one written row per idea.
 
-For every retained prior-edition use, keep these semantic positions recoverable:
-
-| Position | Authoring content |
-| --- | --- |
-| Edition basis | Exact prior edition and candidate edition. |
-| Working use | Recognizable situation, practical question, and intended reader. |
-| Action and result | Pattern-guided action, expected first useful result, and the result distinction that matters. |
-| Boundary | Stop, return, risk disclosure, or neighboring-pattern handoff whose loss changes action. |
-| Old-use class | One of the four classifications above, including the accepted correction when the use is retired. |
-| Necessity | Required for the declared use, or optional evidence of breadth. |
-| Evidence mode | Desk replay by default; use cold-reader, AI-agent, or observed-work evidence only when ambiguity or consequence justifies it. |
-
-Open a **new intended-use** branch only when an exact candidate-only basis selects the use: a declared candidate scope, one source or SoTA row, one resolved substantive finding, or another named working need. Do not invent hypothetical future uses to enlarge apparent coverage. Keep these positions recoverable:
-
-| Position | Authoring content |
-| --- | --- |
-| Candidate-only basis | Exact candidate edition plus the exact decision, source, SoTA, finding, or working-need locus that selects the use. |
-| Working use | Recognizable situation, practical question, and intended reader. |
-| Action and result | Candidate-guided action, expected first useful result, and the result distinction that matters. |
-| Boundary | Stop, return, risk disclosure, or neighboring-pattern handoff whose presence changes action. |
-| Necessity | Required for the declared candidate use, or optional evidence of breadth. |
-| Evidence mode | Desk use by default, with escalation only when ambiguity or consequence justifies it. |
-
-A new intended-use receives no old-use class and asserts no prior-edition preservation claim. Backward compatibility alone is not quality improvement; a candidate-only promise without an executable use is not improvement merely because it is new.
-
-**Draft the positive Solution before its guards.** Use this order:
-
-1. name the governed subject in domain-recognizable language;
-2. state the recurring problematic situation and why ordinary action fails;
-3. state a move the reader can perform;
-4. state the first useful result in the subject work;
-5. add the next action-changing condition, branch, stop, or return; and
-6. add guards and conformance checks only after they can inspect that positive Solution; and
-7. when the Solution prescribes actual work or world-side change, name the intended reader separately from the admitted `U.System` that performs dated `U.Work` and from the current role assignment under which that system performs that work, and keep the method episteme and problem-facing result distinct. Do not add this work position to a judgment-only pattern merely to fill the template.
-
-Test first-use affordability by checking whether the Solution supports a short rendering with this semantic shape:
+Test first-use affordability by checking whether the positive Solution supports this short rendering:
 
 ```text
-recognizable situation -> proposed move -> first useful result -> next action-changing condition or stop
+recognizable situation -> proposed action or judgement -> first useful result -> next action-changing condition or stop
 ```
 
-This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when a short phrase improves recall, and use an ordinary walkthrough when several explanatory rows help. Select the smallest form that keeps the move and result recoverable for the intended reader and task. Walkthrough rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. Use `DemonstrativeUnfoldingSlice@Context` only after independent `A.22.CGUS` admission. Put a subject-side check immediately before the continuation it changes; keep authoring, review, quality, and release checks outside the subject Solution.
+This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall and an ordinary walkthrough only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. Use `DemonstrativeUnfoldingSlice@Context` only after independent `A.22.CGUS` admission. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
 
 **Resolve triggered enumerations semantically.** A list is triggered when wording or grammar asserts or implies one common kind, predicate, relation position, authority, action, or result; when its member set or membership rule changes; or when a noun sequence hides a claim or action. A locator or visual scan may find candidates but cannot close the judgment. Give every triggered list one of these resolutions:
 
@@ -231,7 +198,7 @@ This rendering explains the pattern; it does not claim that actual work is linea
 | Implicit unnamed kind, relation, or structure | Recover an existing governed value and direct pattern. Use `F.18` only when the recovered name must be stable, public, Core-facing, reusable across contexts, or durable enough for later citation; block the claim when recovery fails. |
 | Action or claim hidden in a noun list | Write the substantive proposition or action first, then retain examples only when they change recognition or use. |
 
-Treat one triggered list as a small attention series. A member is a separate unit when its membership can fail independently or route to another owner. A genuinely small closed set may remain one predicate-level unit only when one explicit membership rule decides every member and none has an independent disposition. Nearby nouns that assert no common membership, and unchanged declared closed sets or named-kind example lists still covered by their exact rule, take the cheap positive-control path. A blanket claim that all lists are coherent is not evidence. `E.10` detects enumeration-as-kind and vague heads, `E.10.ARCH` routes recovered claims to direct governors, and `F.18` settles durable names; this authoring method does not duplicate their recognition or naming architecture.
+Treat one triggered list as a small attention series. A member is a separate unit when its membership can fail independently or require a different subject predicate. A genuinely small closed set may remain one predicate-level unit only when one explicit membership rule decides every member and none has an independent disposition. Nearby nouns that assert no common membership, and unchanged declared closed sets or named-kind example lists still covered by their exact rule, take the cheap positive-control path. A blanket claim that all lists are coherent is not evidence. `E.10` detects enumeration-as-kind and vague heads, `E.10.ARCH` requires exact predicates for recovered claims, and `F.18` settles durable names; this authoring method does not duplicate their recognition or naming architecture.
 
 #### E.8:4.2 - Stylistic Principles (S-0 ... S-19)
 
@@ -280,11 +247,11 @@ Narrative Flow Heuristic also operationalises S-1 (Density w/o Jargon), S-2 (Int
 #### E.8:4.2.1 - Recognition text and assurance text
 Every canonical pattern SHALL stabilise one primary `EntityOfConcern`, relation record, or claim record early enough that a cold reader can tell what kind of thing the pattern is actually governing. If ordinary forms vary (`note`, `sheet`, `guided UI`, `rendering`, `review aid`), the text must make explicit which of those are merely presentation forms of one primary selected EntityOfConcern, relation, or claim and which would instead name a different act, process, work-result record, or governing companion. Recognition and assurance texts may refine that selected item differently, but they must not silently swap the central kind.
 
-If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, relation record, or claim record is actually in play, what governed action is being carried by that object, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
+If a pattern uses a broad umbrella or head together with a narrower operative branch, the text must also make the stack explicit early enough for first reading: what the broad head names, what the current narrowed branch is, what primary `EntityOfConcern`, relation record, or claim record is actually in play, what exact action assertion and predicate are current, and what wider work or process remains outside the pattern. A qualifier alone does not restore that stack.
 
 Under `F.18` local-first naming, the canonical pair here is **recognition text** and **assurance text**.
 The earlier provisional `recognition shell` and `assurance shell` wording is retired.
-These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new `authoritySourceRef` targets, governing-pattern relations, publication-form/face kinds, `publication-face kind`s, or a second face family.
+These names refer to two reading-order roles carried by existing sections or projections inside one pattern; they do **not** mint new `authoritySourceRef` targets, generic neighboring-pattern relations, publication-form/face kinds, `publication-face kind`s, or a second face family.
 A third didactic-content role remains optional and is justified only when the family is especially easy to misuse, easy to over-read, or hard to teach without extra scaffolding.
 
 The **recognition text** is the first-reading text.
@@ -319,46 +286,47 @@ When a compact matrix helps, `F.16` is the preferred template for showing that b
 If `SoTA-Echoing` carries an FPF-governed claim, the practical implication of those rows should be recoverable from the recognition text and case bank rather than remaining a late-only justification layer.
 
 A **third didactic-content role** means enough didactic and operational content that the pattern survives without nearby project documents. Typical indicators include:
-- at least one concrete source and resulting-publication slice in Archetypal Grounding when the pattern governs transforms or publication change;
+- at least one concrete source and resulting-publication slice in Archetypal Grounding when the pattern defines or constrains transforms or publication change;
 - at least one boundary-heavy example or anti-example when nearby patterns or other governing companion roles are easy to confuse;
-- reviewer guidance that tells what to inspect first and which neighboring FPF pattern governs the failure mode and which project-side FPF kind and reference named by value carries the claim or effect;
+- reviewer guidance that tells what to inspect first and which neighboring FPF pattern defines or constrains the failure mode and which project-side FPF kind and reference named by value carries the claim or effect;
 - local mini-definitions or glossary material for recurring terms that would otherwise be recovered only from project context.
 
 Pattern density is therefore not “more metadata” and not “longer tag lists”. It is the presence of enough recognition, assurance, and, when needed, extra didactic material that a reader can understand the pattern, apply it lightly in ordinary cases, and recognise when a heavier review profile is required.
 
-#### E.8:4.2.2 - Package-form and governing-pattern relation role-word discipline
+#### E.8:4.2.2 - Package-form and neighboring-pattern reference discipline
 
-FPF pattern prose is not free-form descriptive English. When authors name a *package-form* or a *governing-pattern relation*, they must use role words with stable semantic intent.
+FPF pattern prose is not free-form descriptive English. Package-form words and references to nearby patterns must keep stable semantic intent without inventing a generic relation in which a pattern contains the defining content for, governs, receives, or acts on content.
 
-Use the following distinctions explicitly:
+For an ordinary neighboring-pattern reference, state the concrete contribution—for example, defines a kind, constrains a relation, supplies a test or method, or provides a useful lookup—and cite the pattern id. An id, heading, file, or locator field merely helps find content; it is not a semantic owner, authority, actor, participant, or evidence that a claim is true. Identify an exact subject assertion, claim-bearing episteme, `ClaimGraph`, edition, or relation assertion only when the named receiving use depends on that identity, such as interpretation, comparison, migration, conflict, publication, or reuse.
 
-This is a cross-cutting review discipline, not a replacement for local pattern lexica. For example, `A.6.7` and `A.19.CHR` already carry the suite, kit, and pack distinction, and `E.17.1` already carries the viewpoint bundle, family, and library distinction.
-- **governing pattern** = the pattern that carries the primary guidance or check authority of the family;
-- **specialization** = a named refinement under an existing governing pattern;
-- **overlay** = a cross-cutting governance role or reading-order projection over existing governing patterns;
-- **profile** = a declarative review/use role derived from a governing pattern rather than a replacement pattern;
-- **family** = a recurring class of cases governed by one pattern or governing companion;
-- **bundle** = a packaged set of defaults, allowances, or coordinated members;
-- **cluster** = a navigation or reading-order grouping; not by itself a governing-pattern claim;
-- **suite** = a coordinated set of members with explicit suite semantics under the governing FPF pattern or named authority reference;
-- **pack** = an editorial or review grouping, not automatically a semantic-authority claim;
-- **kit** = a reusable coordinated publication or boundary-description package with kit-level semantics under the governing FPF pattern or named authority reference;
-- **record** = a case, report, or review record;
-- **umbrella** = a provisional or review-stage head spanning possible subfamilies before a final governing FPF pattern, accepted `DRR`, or pattern-body decision.
+A local `...PatternLocator` field may remain where an existing schema already uses it as a non-semantic convenience, but ordinary prose and entry cues do not require one. It never substitutes for the cited content's concrete contribution or, when the stronger identity branch is active, for the exact claim-bearing content. Changing only a locator without changing what it resolves is a representation change; changing the defining content or exact assertion may reopen the semantic object whose receiving use depends on it.
 
-These words are not interchangeable. In particular, authors must not let `cluster`, `bundle`, `suite`, `family`, `profile`, `overlay`, or `umbrella` do the work of an unnamed governing-pattern relation. When that relation matters, it must be stated directly: `specialization under ...`, `profile governed by ...`, `overlay over ...`, `bundle under ...`, or another equally explicit formulation.
+Keep the following package and relation words distinct:
 
-A pattern may reuse a pattern-native role word when that role is already defined by the governing pattern. Outside that case, authors must not improvise near-synonyms or shift between role words for stylistic variety.
+- **pattern reference** = an ordinary citation to content whose concrete contribution is stated in the current sentence;
+- **specialization** = an exact relation in which the child carries the required parent content plus an explicit child delta and use boundary;
+- **overlay** = a cross-cutting reading or review projection over stated source content; it adds no authority or obtaining relation by name;
+- **profile** = a declarative bounded-use or review projection from stated source content, not a replacement pattern or actor;
+- **family** = a recurring class of cases under an explicit membership rule, not a hidden common owner;
+- **bundle** = a packaged set of defaults, allowances, or coordinated members whose actual relations remain explicit;
+- **cluster** = a navigation or reading-order grouping, with no semantic relation by grouping alone;
+- **suite** = a coordinated set whose suite-level membership and coordination semantics are explicitly stated;
+- **pack** = an editorial, source, review, or delivery grouping, not semantic authority;
+- **kit** = a reusable coordinated publication or boundary-description package with exact kit-level membership and use;
+- **record** = a case, report, assertion, representation, or review record under its own identity;
+- **umbrella** = a provisional review head spanning possible subfamilies before an exact membership rule and the relevant claims and relations are settled.
+
+These words are not interchangeable and do not stand in for a missing relation. Say `specialization of ... with delta ...`, `profile projecting ... for use ...`, `overlay reading ...`, `bundle containing ... under membership rule ...`, or another exact formulation. A pattern-native role word may be reused when the cited source content defines that role and the current assertion uses it in that sense; otherwise do not improvise near-synonyms for stylistic variety. The preceding receiving-use discriminator decides whether exact claim-bearing content must also be identified.
 
 ##### E.8:4.2.2.1 - Precision-restoration placement discipline
 
 When a pattern or companion text is drafted from `E.10` or `E.10.ARCH`, distinguish two authoring objects:
 
 * **`semanticArea`** is the Part-F semantic unit for a wording-use restoration row: one Concept-Set row, one UTS row, or an explicitly bounded row-set. It is declared with `semanticAreaBaseConcept` and `semanticAreaSenseFamily`.
-* **`ontologicalNeighborhood`** is the applicability neighborhood around that named `semanticArea`: nearby primary `EntityOfConcern` kinds, relation kinds, claim records, governing FPF patterns, non-use boundaries, and remaining reader use that can carry the recovered meaning after the wording is repaired.
-* **`pattern nest`** is the publication and specialization placement of a pattern under its governing pattern family.
+* **`ontologicalNeighborhood`** is the applicability neighborhood around that named `semanticArea`: nearby primary `EntityOfConcern` kinds, relation kinds, claim records, content that defines or constrains the current use, non-use boundaries, and remaining reader use that can carry the recovered meaning after the wording is repaired.
+* **`pattern nest`** is the publication and specialization placement of a pattern under a declared family or membership relation.
 
-These are not synonyms. A precision-restoration pattern is placed in the pattern nest whose primary `EntityOfConcern`, relation record, or claim record it repairs. Its `semanticArea` states the Part-F semantic unit it repairs, while its `ontologicalNeighborhood` may name several direct relations and the patterns governing the asserted uses. For example, quality-term repair lives in the `C.16` characterization nest, even though its neighbouring relations can include relation construction, action invitation, evidence, assurance, source-use assignment, engineering quality bundles, pattern-quality evaluation, or mathematical-lens use.
+These are not synonyms. A precision-restoration pattern is placed in the pattern nest whose primary `EntityOfConcern`, relation record, or claim record it repairs. Its `semanticArea` states the Part-F semantic unit it repairs, while its `ontologicalNeighborhood` may name several direct relations and pattern content that defines or constrains the asserted uses. For example, quality-term repair lives in the `C.16` characterization nest, even though its neighbouring relations can include relation construction, action invitation, evidence, assurance, source-use assignment, engineering quality bundles, pattern-quality evaluation, or mathematical-lens use.
 
 Affected patterns should use a thin pointer when the first-stage wording repair belongs elsewhere. The pointer names the selected restoration pattern and the condition that triggers it; it does not copy the trigger registry, the full `E.10.ARCH` recovery algorithm, or a second local architecture for the same repair. The affected pattern then keeps its own subject matter: the characteristic, structure, view, episteme, relation, evidence, assurance, gate, work, decision, or adequacy question it already governs.
 
@@ -373,7 +341,7 @@ Its FPF-governed sections therefore explain what the pattern lets that user do, 
 Authors must keep FPF-development or package-architecture material separate from that user-facing body.
 In particular, `Problem`, `Solution`, `Consequences`, `Rationale`, worked slices, and ordinary-vs-FPF-governed wording guidance must not do the work of:
 - arguing that the material is worth isolating;
-- justifying overlay/profile/governing-pattern or authority-reference choice as a package decision;
+- justifying overlay, profile, family, membership, or authority-reference choice as a package decision;
 - discussing authority-reference freeze, naming freeze, merge state, blast radius, or safest landing form;
 - or narrating future package promotion or defer decisions.
 
@@ -386,7 +354,7 @@ Human-facing fit is also subject-domain fit. A recognition text that starts from
 A pattern can already be role-clean, boundary-clean, and reader-role-clean, yet still fail the first minute of use for a cold working reader.
 That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, primary `EntityOfConcern`, non-use boundary, or first action-guiding move visible enough.
 
-**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as remaining admissible reader use or be replaced by a neighboring FPF pattern governing that claim application that now carries that claim. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
+**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as remaining admissible reader use or be replaced by a neighboring FPF pattern whose content now defines or constrains that claim application. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
 
 For canonical patterns, the first-reading text should behave as a **recognition text** and the heavier review/check scope should remain in an **assurance text**.
 
@@ -426,13 +394,13 @@ frame` prose may be used as the first sentence or compact cue of this
 signature.
 It is not one separate required section.
 
-**Entry-cue authoring rule.** When a pattern needs a reader-facing entry cue, begin with one ordinary question about the user's actual current object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, name the direct governing pattern, the smallest exact result kind usable now, the stop or return condition, and one tempting overread that remains non-admissible. The cue is reading guidance, not a section schema, method, plan, work occurrence, structure, or relation; it neither constitutes the result nor makes a routed relation obtain.
+**Entry-cue authoring rule.** When a pattern needs a reader-facing entry cue, begin with one ordinary question about the user's actual current object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, state what any cited content contributes and cite the pattern id; name the smallest exact result kind usable now, the stop or return condition, and one tempting overread that remains non-admissible. Add an exact subject assertion, claim-bearing episteme, `ClaimGraph`, or edition only when the cue's named receiving use depends on that identity. The cue is reading guidance, not a section schema, method, plan, work occurrence, structure, or relation; it neither constitutes the result nor makes a routed relation obtain.
 
-Resolve the current head before coarsening it. Keep an actual holon and each direct relation under `A.1` and the relevant relation pattern; an independently selected `U.Structure` under `A.22`; a boundary-description episteme, its effective `ReferenceScheme`, and any separately obtaining empirical-grounding relation under `C.2.1`, with the grounding holon separately admitted under `A.1`; a `U.View` under `E.17.0`; a `U.ClaimScope` under `A.2.6`; a `U.WorkPlan` under `A.15.2`; dated `U.Work` under `A.15.1`; architecture and architecture-description claims under `C.30` and `C.30.AD`; and a publication occurrence under `E.24.PUB`. Keep an FPF `Map` and a decision occurrence under their own direct patterns. Actual, intended, selected, expected, described, viewed, mapped, grounded, published, and performed objects remain distinct. A cue, diagram, description, file, card, suffix, template label, or public coarsening creates none of them and establishes none of their relations.
+Resolve the current head before coarsening it. Keep an actual holon under the A.1 kind-admission rule and each direct relation under the predicate and occurrence test supplied by `A.6.REL` or the relevant relation pattern; an independently selected `U.Structure` under A.22; a boundary-description episteme, its effective `ReferenceScheme`, and any separately obtaining empirical-grounding relation under C.2.1, with the grounding holon separately admitted under A.1; a `U.View` under E.17.0; a `U.ClaimScope` under A.2.6; a `U.WorkPlan` under A.15.2; dated `U.Work` under A.15.1; architecture and architecture-description assertions under C.30 and C.30.AD; and a publication occurrence under E.24.PUB. Keep an FPF `Map` and a decision occurrence under the patterns that define or constrain those values. In an ordinary cue, state those concrete contributions and cite the ids. Identify exact predicate-definition content, a claim-bearing episteme, or a `ClaimGraph` only when its identity changes interpretation, comparison, migration, conflict, publication, or reuse. Actual, intended, selected, expected, described, viewed, mapped, grounded, published, and performed objects remain distinct. A cue, diagram, description, file, card, suffix, template label, or public coarsening creates none of them and establishes none of their relations.
 
 Compact candidate-pattern comparison belongs in `E.11`-distributed entry material; expanded entry-disambiguation cases belong in `I.2`.
 
-If the prose points to neighbouring patterns or other governing companion roles, it should present them as neighboring FPF patterns, project-side FPF kinds and references named by value, or `E.11` entry-recognition reclassifications rather than as hidden co-authorities of the current pattern.
+If the prose points to neighbouring patterns or companion content, state whether that content defines a kind, constrains a relation, supplies a test or method, provides a project-side FPF kind and reference named by value, or supplies an `E.11` entry-recognition reclassification; do not present a citation as a hidden co-authority of the current pattern.
 
 If the pattern claims broad, universal, or transdisciplinary usefulness, that breadth should already be visible in the recognition text.
 At minimum the recognition text should show at least three heterogeneous reader or domain situations rather than one narrow case family with a later broad claim attached.
@@ -462,7 +430,7 @@ If missed, the text becomes boundary-claim soup: runtime behavior, governance, a
 
 Do not use this pattern merely because the text mentions an API or boundary description. If the question is still one unstable cue, preserve it through the admissible cue-preservation line first.
 
-First admissible action-guiding result: one `A.6.B`-governed atomic claim set or one Claim Register whose claim/use questions are explicit enough for the governing FPF pattern or named project-side FPF kind and reference to inspect.
+First admissible action-guiding result: one `A.6.B`-governed atomic claim set or one Claim Register whose claim/use questions are explicit enough for the pattern content that defines or constrains the claim, or for a named project-side FPF kind and reference, to inspect.
 ```
 
 #### E.8:4.2.5 - Design-time and run-time referents stay separated in pattern prose
@@ -480,5 +448,5 @@ If a pattern or example claims **autonomy** for any Role, Method, or Service:
    * pointer to where **Green‑Gate** applies in the Method steps,
    * where **AutonomyLedgerEntry** is recorded on `U.Work`.
 2) Include one **Tell‑Show‑Show** vignette that demonstrates **depletion** and **override** handling.
-3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role, Method, and Work). Avoid “validity”, “process”, “actor”, “system”, “mechanism” unless mapped to admitted U-kinds or direct governing patterns.
+3) Use **LEX‑BUNDLE** terms (Scope (G), Γ_time, Role, Method, and Work). Avoid “validity”, “process”, “actor”, “system”, “mechanism” unless mapped to admitted U-kinds or to the concrete definitions or constraints supplied by cited patterns.
 

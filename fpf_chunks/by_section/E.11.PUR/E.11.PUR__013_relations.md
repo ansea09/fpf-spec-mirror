@@ -6,12 +6,12 @@ section_id: "E.11.PUR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__013_relations.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:12 — Relations"
-line_start: 77928
-line_end: 77933
+line_start: 77986
+line_end: 77991
 dependencies:
   - "A.15"
   - "A.19"
@@ -34,6 +34,6 @@ keywords:
 ### E.11.PUR:12 - Relations
 
 - **Builds on:** `E.11.PUA` for candidate uses, expectations, rationales, and boundaries; `A.6.5` for slot discipline; and `E.18` for coupled-flow relations when results cross flows.
-- **Coordinates with:** `E.11` for public discovery; `C.22.PFR` when an actual Problem is relied on; `A.19` and `A.19.ECS` for characteristic-space construction and `A.19.CPM` for an actual comparison application; `E.18.1` for P2W; `G.11` for currentness orchestration; and the direct pattern governing any plan, work, transformation, gate, evidence, decision, authorization, result entity, or category-correct result basis.
-- **Leads to:** `E.11.PUA` for applying the recommended pattern, or to the exact neighboring pattern when the recommendation makes a stronger subject claim current.
+- **Coordinates with:** `E.11` for public discovery; `C.22.PFR` for an actual Problem; `A.19`, `A.19.ECS`, and `A.19.CPM` for characteristic-space construction and comparison; `E.18.1` for P2W; `G.11` for currentness; and the direct pattern that defines, constrains, or tests any stronger plan, work, transformation, gate, evidence, decision, authorization, result, or basis claim.
+- **Leads to:** `E.11.PUA` for using the recommended pattern, or to the exact neighboring pattern when the stronger claim becomes current.
 

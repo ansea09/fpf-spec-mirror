@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.11"
-pattern_title: "Practical-Use Guidance and Pattern Discovery"
+pattern_title: "First-Practical Entry and Pattern-Use Discoverability Discipline"
 section_id: "E.11:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__011_rationale.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
-  - "E.11 — Practical-Use Guidance and Pattern Discovery"
+  - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:10 — Rationale"
-line_start: 77071
-line_end: 77076
+line_start: 77132
+line_end: 77137
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,11 +24,15 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
+  - "Public first-entry explanation or durable pattern semantics"
+  - "admission state"
+  - "and dependencies"
+  - "query phrases"
 ---
 
 ### E.11:10 - Rationale
 
-Discovery is a bounded decision under limited attention, not a one-time lookup. A semantic card makes the practical question and first-result difference visible before the reader commits to a pattern. A recoverable return is more useful than pretending the first cue is always right.
+Discovery is a bounded decision under limited attention, not a one-time lookup. A recognizable situation and first-result difference let the reader choose what to inspect before learning the corpus topology. A recoverable return is more useful than pretending the first cue is always right.
 
-Public guidance remains trustworthy only when it is weaker than the direct pattern. It helps a reader decide what to inspect; it does not decide applicability, authorize Work, identify a project result, or make a relation obtain. This division also keeps public explanation teachable: simple phrases can remain visible because expansions restore the admitted potential-result kind, local identification question, direct owner, governed relative-object kind, category-correct basis template, minimum usable result, and exact blocker when the promise cannot be made.
+Public guidance remains weaker than the direct pattern. It helps a reader choose what to inspect; it does not decide applicability, authorize work, identify a project result, or make a relation obtain. Precision is progressive: keep the public explanation simple while it remains truthful, and open exact result identity, basis, continuation, or reliance fields only when one of those distinctions changes the choice or claim.
 

@@ -6,12 +6,12 @@ section_id: "E.11.PUA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__003_problem.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:2 — Problem"
-line_start: 77120
-line_end: 77125
+line_start: 77183
+line_end: 77188
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,7 +33,7 @@ keywords:
 
 ### E.11.PUA:2 - Problem
 
-Reading a pattern does not by itself apply it. Without an explicit use method, users often stop at recognition, create a meta-card instead of the subject result, or report a plan, note, generated answer, or support record as if the intended physical, clinical, organizational, learned, or epistemic result already existed.
+Reading a pattern does not by itself apply it. Without a usable pattern-use method, readers stop at recognition, create a meta-card instead of the subject result, or report a plan, note, generated answer, or support record as if the intended physical, clinical, organizational, learned, or epistemic result already existed.
 
-The opposite failure is also common: every bounded use is burdened with a shortlist, candidate form, five fit records, provenance graph, and closure dossier. The paperwork then becomes the apparent result and obscures the direct `Solution` that should guide the work. FPF adds no generic `U.Result`, `U.WorkProduct`, `U.PatternApplication`, or generic `Use` kind. First identify the exact result entity or relation occurrence and the pattern that governs its identity or obtaining. Then identify the method, plan, dated Work, transformation, evaluation, decision, or separately governed receiving-use object relative to which the result phrase is true, plus one category-correct direct basis: an obtaining relation occurrence, an A.6.1 operation-application binding, or an A.6.RCD local C.2.1 claim. The local claim has polarity and base-predicate owners; it does not obtain, and its derivation governor replaces none of those owners. A downstream receiver is separate and conditional.
+The opposite failure is also common: every bounded use is burdened with a shortlist, candidate form, fit records, provenance graph, and closure dossier. The paperwork becomes the apparent result and obscures the direct `Solution`. FPF adds no generic `U.Result`, `U.WorkProduct`, `U.PatternApplication`, or generic `Use` kind. First identify the result entity or obtaining relation and the direct pattern whose content defines, constrains, or tests it. Identify an exact predicate, pattern episteme, `ClaimGraph`, Method, plan, dated Work, Transformation, evaluation, decision, later-use object, or category-correct basis only when that distinction changes the truth, the next action, the stop, or a named reliance.
 

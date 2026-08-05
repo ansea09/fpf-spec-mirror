@@ -6,12 +6,12 @@ section_id: "E.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__016_relations.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:12 — Relations"
-line_start: 73204
-line_end: 73212
+line_start: 73171
+line_end: 73179
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 * **Instantiates:** P‑10 Open‑Ended Evolution, P‑2 Didactic Primacy
 * **Template governed by:** `pat:authoring/pattern‑template` (E.8)
 * **Interacts with:** `pat:guard/bias‑audit` (E.5.4) via lens check
-* **Complemented by:** `E.9.DA` when one exact DRR episteme must be evaluated for a declared downstream authoring use. E.9.DA supplies the characteristic space and evaluation rules; dated assessment work applies them and produces a separate adequacy-result claim, witness set, and optional record. It is not a second DRR form, review gate, acceptance status, or mandatory editorial step. E.12 separately governs debate etiquette.
+* **Complemented by:** `E.9.DA` when one exact DRR must be checked for a declared downstream authoring use. An ordinary bounded review judges the decision and returns precise findings or repaired text; a complete coordinate result and its exact assessment identities are added only when explicitly requested or consumed by a named later reliance. E.9.DA is not a second DRR form, review gate, acceptance status, or mandatory editorial step. E.12 separately governs debate etiquette.
 
 * **Coordinates with:** `E.23` for repeated improvement work on a DRR; C.2.1 for DRR and evaluation-result episteme identity; C.2.P/A.10/G.6 for exact source use and provenance; A.15.1/A.6.1 for decision, assessment, and realization work/applications; F.10/G.11 for status and currentness; and E.24.PUB/C.29 for publication and representation. None of these neighboring records or results changes the E.9 selected answer by implication.
 

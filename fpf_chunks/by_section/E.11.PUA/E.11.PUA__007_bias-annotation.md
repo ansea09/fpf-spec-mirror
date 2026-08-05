@@ -6,12 +6,12 @@ section_id: "E.11.PUA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__007_bias-annotation.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:6 — Bias-Annotation"
-line_start: 77585
-line_end: 77592
+line_start: 77637
+line_end: 77644
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,9 +33,9 @@ keywords:
 
 ### E.11.PUA:6 - Bias-Annotation
 
-- **Recognition-only bias.** A matching title or trigger word is treated as application. Repair by inspecting the direct pattern's full problem and solution conditions and naming the expected result, its direct owner, governed relative-object kind, and category-correct basis.
-- **Record-as-result bias.** A candidate form, trace, note, dashboard, or assessment record replaces the subject result. Repair by restoring the exact entity or relation occurrence, its direct owner, and the separate category-correct basis that makes it the result relative to the current governed object.
-- **Plan-as-work bias.** Intended work or a generated plan is reported as performed work. Return to A.15 and ground the dated occurrence before asserting `U.Work`.
-- **Flow-collapse bias.** A selection result, application result, and downstream-work result are merged because each is called "result". Restore the three descriptive positions, each independently governed entity and basis, and any current E.18 crossing.
-- **Maximum-trace bias.** Every use emits every schema. Return to the named reliance and materialize only distinctions that it will use.
+- **Recognition-only bias.** A matching title or trigger word is treated as use. Repair by inspecting the full direct pattern and naming the result or blocker its `Solution` can actually support.
+- **Record-as-result bias.** A candidate form, trace, note, dashboard, or assessment record replaces the subject result. Restore the exact entity or relation occurrence and, when needed, the direct pattern and category-correct basis that make it this use's result.
+- **Plan-as-work bias.** Intended work or a generated plan is reported as performed work. Use A.15 and ground the dated occurrence before asserting `U.Work`.
+- **Flow-collapse bias.** A selection result, selected-pattern result, and downstream-work result are merged because each is called “result”. Restore the distinct results and any actually current E.18 crossing.
+- **Maximum-trace bias.** Every use emits every schema. Return to the named reliance and materialize only distinctions it will use.
 

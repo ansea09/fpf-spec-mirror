@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.12.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
-line_start: 93638
-line_end: 93961
+line_start: 93696
+line_end: 94019
 dependencies:
   - "A.2.3"
   - "F.1"

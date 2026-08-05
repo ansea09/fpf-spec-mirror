@@ -6,12 +6,12 @@ section_id: "E.18.NET:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__010_consequences.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:9 — Consequences"
-line_start: 85137
-line_end: 85148
+line_start: 85195
+line_end: 85206
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -27,6 +27,7 @@ dependencies:
   - "C.29"
   - "C.30.TFS-REL"
   - "C.32.CONWAY"
+  - "E.11"
   - "E.11.PUA"
   - "E.17"
   - "E.18"
@@ -45,7 +46,7 @@ keywords:
 | Recursive networks scale without numbered levels. | Exposed positions require finite path resolution and explicit boundary selection. |
 | Subject relations keep their participant meanings and n-ary signatures. | A missing direct governor remains visible instead of being hidden by a convenient generic edge. |
 | Local valuations and tags remain usable without becoming global state. | A network record carries more explicit member and endpoint references than a simple graph. |
-| Graphs and mantras remain useful descriptions. | Description, demonstration, architecture use, Work, and selected structure require separate governing patterns. |
+| Graphs and mantras remain useful descriptions. | Description, demonstration, architecture use, Work, and selected structure require separate subject patterns. |
 
 Adoption test: use E.18.NET only when the current question needs independently identified members and at least one exact relation across their boundaries. If one TFS or one parent-relative `SubflowRef` answers the question, the added network, endpoint, and member-path apparatus buys nothing and stays absent.
 

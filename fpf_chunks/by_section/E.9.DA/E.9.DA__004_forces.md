@@ -6,12 +6,12 @@ section_id: "E.9.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__004_forces.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:3 — Forces"
-line_start: 73247
-line_end: 73257
+line_start: 73214
+line_end: 73224
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -34,5 +34,5 @@ keywords:
 | Source preservation vs synthesis | Source distinctions matter, but the `DRR` must state FPF decisions. |
 | Multi-locus coordination vs EoC boundary | One decision can affect many patterns while one `DRR` adequacy claim stays scoped. |
 | Architecture selection vs address completion | Every locus can be assigned and still be the wrong split or merge. |
-| Affordability vs completeness | Small editorial decisions stay under `E.9`; opened `E.9.DA` evaluates every coordinate compactly. |
+| Affordability vs completeness | Ordinary bounded review uses only the questions needed for the live judgement; an explicitly requested reusable evaluation covers every coordinate with stable values and evidence. |
 

@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `7ba40a95a967ca5c69afc63aeca381e6adedc8da`
+Commit SHA: `6709213844a26981daf25510ac99ffb7fa53b017`
 
 Chunking method: `pattern-aware`
 
@@ -235,7 +235,7 @@ Patterns: `293`
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
-- [E.11 — Practical-Use Guidance and Pattern Discovery](by_pattern/E.11.md)
+- [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
 - [E.11.PUA — Pattern Use in a Working Situation and First Useful Result](by_pattern/E.11.PUA.md)
 - [E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination](by_pattern/E.11.PUR.md)
 - [E.12 — Didactic Primacy & Cognitive Ergonomics](by_pattern/E.12.md)

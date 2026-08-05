@@ -6,12 +6,12 @@ section_id: "E.11.PUA:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__001_intro.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:intro — Intro"
-line_start: 77100
-line_end: 77105
+line_start: 77161
+line_end: 77166
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -35,5 +35,5 @@ keywords:
 
 > **Type:** Pattern-language use pattern (E)
 > **Status:** Stable
-> **Normativity:** Normative within FPF pattern use from a current practical question to the first directly governed result.
+> **Normativity:** Normative within FPF pattern use from a current practical question to the first useful result or honest stop.
 

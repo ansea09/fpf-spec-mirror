@@ -6,12 +6,12 @@ section_id: "E.11.PUR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__005_solution.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:4 — Solution"
-line_start: 77693
-line_end: 77826
+line_start: 77745
+line_end: 77884
 dependencies:
   - "A.15"
   - "A.19"
@@ -33,7 +33,7 @@ keywords:
 
 ### E.11.PUR:4 - Solution
 
-Evaluate candidate uses against five distinct fit aspects. Keep those aspects in one compact rationale for ordinary bounded use. Materialize separate findings only when a named receiving reliance needs them. Aggregate applicability before issuing a recommendation. Coordinate several candidates with an explicit local ordering mode and pairwise precedence relations only where a real basis exists.
+Evaluate candidate uses against five distinct fit aspects. An ordinary reversible judgement may remain conversational: keep the aspects in one compact rationale, state the aggregate applicability, then recommend by expected first result and live alternatives. Materialize separate findings or a recommendation episteme only when a named later use needs addressable support. Coordinate several candidates with an explicit local ordering mode and add pairwise precedence only where a real basis exists.
 
 #### E.11.PUR:4.1 - Fit and applicability
 
@@ -69,6 +69,10 @@ The five criteria refer to one candidate. In ordinary conversation, inspect all 
 
 #### E.11.PUR:4.2 - Recommendation
 
+State the ordinary recommendation first: which candidate is applicable, why its expected first result serves the current concern better than the live alternatives, and where to stop or return. If the judgement is local, reversible, and has no named later reliance, that readable statement is sufficient.
+
+When the recommendation must remain addressable, use the schema below. `ordinaryCompact` keeps one compact rationale and no five-finding dossier; `relianceBearing` adds the current applicability finding only because a named later use needs independent replay.
+
 ```text
 PatternUseRecommendationSupportProfileValue = ordinaryCompact | relianceBearing
 
@@ -83,17 +87,19 @@ PatternUseRecommendation@Context <: U.Episteme:
   compactApplicabilityAndSelectionRationaleRef: U.EpistemeRef, referencing one CandidatePatternUseRationale@Context
   applicabilityFindingRef?: U.EpistemeRef, referencing one PatternUseApplicabilityFinding@Context
   expectedResultExpectationRef: U.EpistemeRef, referencing one PatternUseResultExpectation@Context
-  strongerNeighborPatternRef?: U.EntityRef, referencing the exact neighboring FPF pattern identity supplied by its pattern/framework owner
+  strongerNeighborPatternRef?: U.EntityRef, referencing the exact neighboring FPF pattern episteme only when its identity changes the recommendation
   recommendationBoundaryRef: U.EpistemeRef, referencing one PatternUseBoundaryCondition@Context
 ```
 
-Recommendation selects one applicable candidate for the current concern because its expected result and receiving use are preferable under the stated rationale. In `ordinaryCompact`, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent. In `relianceBearing`, the same recommendation also cites one current applicability finding whose five fit findings can be replayed independently. The profile changes support cardinality, not the recommendation kind or authority.
+Recommendation selects one applicable candidate for the current concern because its expected first result serves that concern better than the live alternatives and, when a receiving use is current, supports that use under the stated rationale. A conversational judgement needs no record. In an addressable `ordinaryCompact` recommendation, the applicability result and compact rationale are carried directly and `applicabilityFindingRef` is absent. In `relianceBearing`, the same recommendation also cites one current applicability finding whose five fit findings can be replayed independently. The profile changes support cardinality, not the recommendation kind or authority.
 
-`expectedResultExpectationRef` points to the exact E.11.PUA expectation. It identifies the expected result kind and direct owner, the kind of governed object relative to which the result phrase would be true, and the category-correct direct-basis branch; it asserts neither that the result exists nor that a relation, A.6.1 binding, or local claim is current. A recommendation does not authorize work, establish a gate, prove evidence sufficiency, create the expected result, or supply its later closure.
+When an addressable recommendation is materialized, `expectedResultExpectationRef` points to its exact E.11.PUA expectation. It identifies the expected result and only the pattern, relative-object, or category-correct basis distinctions that expectation actually uses; it does not assert that the result exists or that any relation, A.6.1 binding, or local claim is current. A recommendation does not authorize work, establish a gate, prove evidence sufficiency, create the expected result, or supply its later closure.
 
-When a stronger neighboring pattern better addresses the current question, `strongerNeighborPatternRef` identifies that exact FPF pattern identity and `recommendationBoundaryRef` carries the return. The pattern reference does not establish `U.MethodDescription` membership; any such claim requires an independent A.3.2 membership result for an already identified episteme. Familiarity with the current candidate is not a recommendation basis.
+When a stronger neighboring pattern better addresses the current question, name it and state the return condition. Populate `strongerNeighborPatternRef` only when the exact pattern identity matters to an addressable recommendation. The reference does not establish formal `U.MethodDescription` membership; such membership requires its own A.3.2 basis. Familiarity with the current candidate is not a recommendation reason.
 
 #### E.11.PUR:4.3 - Coordination without forced order
+
+For ordinary local coordination, state the candidates, whether they are unordered, partially ordered, or totally ordered, any real precedence basis, and the stop boundary in readable prose. Materialize the rationale, coordination episteme, and any pairwise ordering relations only when a named later use needs that coordination to remain addressable.
 
 ```text
 PatternUseOrderingModeValue = unordered | partialOrder | totalOrder
@@ -144,24 +150,24 @@ PatternUseOrderingRelation@Context <: U.Relation:
   Identity: <coordinationRef, prerequisiteCandidatePatternUseRef, dependentCandidatePatternUseRef, precedenceBasis, precedenceConditionRef>
 ```
 
-The prerequisite and dependent candidates are different members of the same coordination relation. When `precedenceBasis=prerequisiteResult`, both result references are present. `precedenceBasisResultExpectationRef` equals the prerequisite candidate's exact expectation. `precedenceBasisResultClosureFindingRef` resolves to that same candidate and expectation and reports the exact independently governed result entity or obtaining relation, its direct owner, the exact method, plan, dated Work, transformation, evaluation, decision, or receiving-use object relative to which the result phrase is true, and one category-correct direct relation occurrence, A.6.1 operation-application binding, or A.6.RCD local-claim basis with its governor or governors. The ordering relation copies none of those result-kind, participant, or signature fields.
+The prerequisite and dependent candidates are different members of the same coordination relation. When `precedenceBasis=prerequisiteResult`, both result references are present. `precedenceBasisResultExpectationRef` equals the prerequisite candidate's exact expectation. `precedenceBasisResultClosureFindingRef` resolves to that same candidate and expectation and reports the independently identified result or obtaining relation plus the category-correct basis that makes the precedence claim true. Predicate, pattern locator, `ClaimGraph`, Method, plan, dated Work, Transformation, evaluation, decision, or later-use object appear only when the cited closure actually depends on them. The ordering relation copies none of those fields.
 
-The closure finding is a C.2.1 episteme and creates neither the result nor the ordering relation. The ordering relation obtains only while its `precedenceConditionRef` is satisfied by the directly governed result and basis reported there. A missing governor, missing information, false predicate, or absent operation binding leaves the precedence relation non-obtaining and the dependent use at its exact return boundary. For `methodPrecondition` and `sharedConstraintResolution`, both result-reference positions are absent.
+The closure finding is a C.2.1 episteme and creates neither the result nor the ordering relation. The ordering relation obtains only while its `precedenceConditionRef` is satisfied by the result and category-correct basis reported there. A missing relation rule or information, false predicate, or absent operation binding leaves the precedence relation non-obtaining and the dependent use at its return boundary. For `methodPrecondition` and `sharedConstraintResolution`, both result-reference positions are absent.
 The dependent candidate use is admitted under a precedence relation only after its precedence basis is established. Page order, seminar order, identifier order, or visual adjacency does not create that relation.
 
 #### E.11.PUR:4.5 - Practical procedure
 
 1. Recover each candidate's current concern, direct pattern, Solution, expectation, and ordinary boundary.
-2. Choose `ordinaryCompact` unless a named receiving use needs the fit aspects to remain independently addressable; use `relianceBearing` only for that reliance.
+2. Keep a local reversible applicability, recommendation, or coordination judgement conversational when no named later reliance needs it. When a recommendation must remain addressable, choose `ordinaryCompact` unless that reliance needs the fit aspects separately addressable; use `relianceBearing` only for that reliance.
 3. Inspect all five fit aspects. In ordinary use, keep them in one compact rationale. Under named reliance, materialize five separate findings and one applicability finding.
 4. State the aggregate applicability result directly in the recommendation; when a reliance-bearing applicability finding exists, the two result values agree.
-5. Recommend an applicable candidate only when its expected result and receiving use answer the current concern better than the live alternatives; the expectation is not an achieved result.
+5. Recommend an applicable candidate only when its expected result serves the current concern better than the live alternatives; include a receiving use only when one is current. The expectation is not an achieved result.
 6. Coordinate several candidates as unordered, partially ordered, or totally ordered. Add a pairwise relation only when one declared precedence basis is current. For `prerequisiteResult`, require the prerequisite candidate's exact expectation and one current E.11.PUA result-closure finding with the complete direct basis.
 7. Stop at the recommendation or coordination result. A Plain *next move* names only the recommended pattern use or conditional continuation. Continue to PUA, P2W, planning, gate, decision, or work only when that next claim becomes current.
 
 #### E.11.PUR:4.6 - Replay and currentness
 
-Replay an ordinary compact recommendation from its candidate, applicability result, compact rationale over all five aspects, current live alternatives, expected result and receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its members, question, ordering mode, pairwise relations, precedence bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation and current E.11.PUA closure finding.
+Replay an ordinary conversational or addressable compact recommendation from the current concern, inspected candidate pattern and `Solution`, aggregate applicability, compact rationale over all five aspects, live alternatives, expected result, any current receiving use, and recommendation boundary. Replay a reliance-bearing recommendation from those same positions plus the current applicability finding and its five fit findings. Replay coordination from its inspected candidate uses, question, ordering mode, any pairwise precedence and bases, stop boundary, and, for each `prerequisiteResult` relation, the exact expectation and current E.11.PUA closure finding.
 
-Recheck the smallest affected finding or relation when a candidate `Solution`, result expectation, result entity, governed relative object, direct basis or governor, fit basis, live alternative, receiving use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed prerequisite expectation or closure reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; PUR supplies the judgement-specific values and change conditions.
+Recheck the smallest affected finding or relation when a candidate `Solution`, result expectation, result entity, relative object, direct basis or defining `ClaimGraph`, fit basis, live alternative, dependent use, coordination member, precedence basis, condition, or boundary changes. A changed candidate fit reopens its applicability and any recommendation that relied on it. A changed prerequisite expectation or closure reopens only the affected ordering relations and their dependent uses unless the coordination question or membership also changed. Separate G.11 assertions state edition, telemetry, currentness-window, and decay facts; PUR supplies the judgment-specific values and change conditions.
 

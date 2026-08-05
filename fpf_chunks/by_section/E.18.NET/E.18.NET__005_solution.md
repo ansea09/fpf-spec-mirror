@@ -6,12 +6,12 @@ section_id: "E.18.NET:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__005_solution.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:4 — Solution"
-line_start: 84875
-line_end: 85014
+line_start: 84933
+line_end: 85072
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -27,6 +27,7 @@ dependencies:
   - "C.29"
   - "C.30.TFS-REL"
   - "C.32.CONWAY"
+  - "E.11"
   - "E.11.PUA"
   - "E.17"
   - "E.18"
@@ -70,7 +71,7 @@ Changing only a name, reference designator, record edition, graph layout, mathem
 
 The selected direct-member nesting is acyclic. No direct or transitive member path from a network resolves back to that network, and every member path used by a reference is finite. This permits build-the-builder and supply-network recursion without inventing level-1, level-2, or level-3 network kinds.
 
-Cycles among selected cross-flow relation occurrences remain possible when their direct governing patterns permit them. Feedback from operation or evaluation to development is therefore compatible with acyclic membership: the cycle is in the subject relations, not in network containment.
+Cycles among selected cross-flow relation occurrences remain possible when their subject patterns permit them. Feedback from operation or evaluation to development is therefore compatible with acyclic membership: the cycle is in the subject relations, not in network containment.
 
 `E.18` owns the complete `FlowPositionRef` identity. Import that tuple unchanged; E.18.NET owns only the `ExposedFlowPositionRef` extension needed for a boundary position reached through one finite member path:
 
@@ -103,14 +104,14 @@ For every relation used by the network, recover:
 
 - the exact obtaining occurrence;
 - the exact relation kind;
-- the direct governing pattern;
+- the subject pattern;
 - the complete signature and participant order;
 - the endpoint member and position binding for every participant; and
 - direction only when the direct relation has direction.
 
 An n-ary relation remains n-ary. Do not decompose it into invented binary arrows. A row, edge label, shared entity, temporal adjacency, operation result, plan row, or graph connection never makes the relation obtain.
 
-`U.Transfer` remains E.18's internal relation kind for one TFS. It is not a universal relation between network members. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, first apply its direct owner: the relation kind must have passed relation-kind admission, that owner must supply the direct predicate and applicability, and current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Its identity remains under the direct relation owner and A.6.REL when a receiver consumes occurrence identity. The network selects only the exact already-obtaining occurrence ref.
+`U.Transfer` remains E.18's internal relation kind for one TFS. It is not a universal relation between network members. For any production, use, participation, evaluation, correspondence, feedback, dependency, supply, or other cross-flow relation, first recover its exact subject predicate and defining ClaimGraph: the relation kind must have passed relation-kind admission, and current case facts or constituting history must satisfy the predicate affirmatively. Only then does one world-side occurrence obtain. Its identity remains fixed by that exact occurrence-identity rule and A.6.REL when a named use consumes occurrence identity. The network selects only the exact already-obtaining occurrence ref.
 
 If no direct relation kind and predicate govern the intended participants and use, return `missing-governor`. If the governor exists but current facts do not decide the predicate, keep a proposed network description and return the exact missing facts or information-sufficiency boundary. If the predicate is false, no occurrence fills the network. If the occurrence obtains but an endpoint position binding is missing, return that missing binding. A row, graph edge, or episteme neither admits the kind nor creates the occurrence. In none of these branches substitute `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff`, or `transfer` as a generic edge.
 
@@ -134,7 +135,7 @@ TransformationFlowStructureNetworkRecord@Context <: U.Episteme:
   crossFlowRelationRows[]:
     exactRelationOccurrenceRef: U.RelationRef
     exactRelationKindRef: U.KindRef
-    governingPatternRef: U.MethodDescriptionRef
+    relationFunctionClaimRef: U.MethodDescriptionRef
     endpointRows[]:
       relationParticipantPositionRef
       memberRef

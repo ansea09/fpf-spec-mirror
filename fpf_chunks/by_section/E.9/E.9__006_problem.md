@@ -6,12 +6,12 @@ section_id: "E.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__006_problem.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:2 — Problem"
-line_start: 72892
-line_end: 72902
+line_start: 72871
+line_end: 72885
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -37,13 +37,17 @@ keywords:
 ---
 
 ### E.9:2 - Problem
-Direct edits to the Core, absent a structured rationale, trigger three
-systemic hazards:
+Direct edits to the Core, or DRRs that preserve apparatus without a usable
+selected answer, trigger four systemic hazards:
 
-1. **Lost provenance** – future authors cannot infer the reasoning behind
-   a rule; intent decays.
-2. **Implicit assumptions** – discarded alternatives vanish from memory,
-   so debates resurface and churn repeats.
-3. **Conceptual drift** – incremental tweaks slip past the Eleven Pillars
-   and Principle Taxonomy lenses, blurring the framework’s foundations.
+1. **Lost decision grounds** – future authors cannot recover why the answer
+   was selected, which alternative or boundary mattered, or when to reopen it.
+2. **Decision deferral** – a polished record leaves the answer, affected loci,
+   or first drafting action for each later author to invent again.
+3. **Proxy-led fanout** – an abstract rule passes a schema, checklist, or
+   unrelated replay while making an actual predecessor/proposed host harder to
+   understand or use.
+4. **Conceptual and authority drift** – incremental edits blur the framework's
+   foundations, or the temporary rationale record becomes a shadow Core law,
+   process brief, or authorization source.
 

@@ -6,12 +6,12 @@ section_id: "E.8:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__006_problem-frame.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:1 — Problem frame"
 line_start: 72060
-line_end: 72065
+line_end: 72066
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -55,8 +55,9 @@ keywords:
 ---
 
 ### E.8:1 - Problem frame
-FPF grows through the addition of patterns written by authors from many
-disciplines. Without a shared structure *and* voice, the framework would
-fracture, violating Pillars **P‑1 Cognitive Elegance** and
+FPF grows through patterns written and revised by authors from many
+disciplines. Without a shared structure, practitioner-facing use order, and
+semantic writing discipline, the framework would fracture or become formally
+uniform but harder to use, violating Pillars **P‑1 Cognitive Elegance** and
 **P‑2 Didactic Primacy**.
 

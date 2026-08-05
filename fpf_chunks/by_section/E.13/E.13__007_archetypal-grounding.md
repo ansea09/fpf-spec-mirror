@@ -6,12 +6,12 @@ section_id: "E.13:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.13/E.13__007_archetypal-grounding.md"
-commit_sha: "7ba40a95a967ca5c69afc63aeca381e6adedc8da"
+commit_sha: "6709213844a26981daf25510ac99ffb7fa53b017"
 heading_path:
   - "E.13 — Pragmatic Utility and Value Alignment"
   - "E.13:5 — Archetypal Grounding"
-line_start: 78148
-line_end: 78157
+line_start: 78206
+line_end: 78215
 dependencies:
   - "A.10"
   - "A.21"
