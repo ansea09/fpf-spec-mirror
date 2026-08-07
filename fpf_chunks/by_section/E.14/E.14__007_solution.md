@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:4 — Solution"
-line_start: 78294
-line_end: 78345
+line_start: 78352
+line_end: 78403
 dependencies:
   - "B.3.5"
   - "C.13"

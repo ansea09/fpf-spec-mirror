@@ -6,12 +6,12 @@ section_id: "E.17.AUD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:1 — Problem frame"
-line_start: 82033
-line_end: 82049
+line_start: 82172
+line_end: 82187
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,9 +19,6 @@ dependencies:
   - "A.16.0"
   - "A.20"
   - "A.21"
-  - "A.6.3"
-  - "A.6.3.CR"
-  - "A.6.3.RT"
   - "A.7"
   - "B.3"
   - "C.11"
@@ -43,18 +40,17 @@ keywords:
 
 ### E.17.AUD:1 - Problem frame
 
-**Anti-single-sequence note.** The publication-unit checks, recognition matrix, and worked slices below are working aids for one publication unit under review. They are not a fixed engineering process and not a promise that every admissible case moves through one mandatory sequence.
+Use this pattern when people still read one note, memo, sheet, table, screen, or short section as one stable unit even though it has quietly changed what it is mainly about, the publication move it makes, or the boundary between that move and a decision, gate, work, or reliance claim.
 
-This pattern is for real publication units used in review, design, architecture, coordination, onboarding, and similar interpretation situations. It is for the moment when one publication unit still sounds like one unchanged note even after its primary EntityOfConcern, carried publication move, or downstream claim or effect has already changed.
+A typical case starts with one bounded architecture or status question and ends by sounding like rollout, approval, assignment, or assurance. One reviewer wants to repair a vague word, another wants to rewrite the whole unit, and a third sees a comparison or explanation problem. Before they patch different defects, identify the bounded publication unit and its current interpretation.
 
-The recurring defect family is simple:
-- one publication unit begins as if it were about one primary EntityOfConcern or claim focus;
-- the unit then quietly changes its primary EntityOfConcern, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim;
-- the surrounding team starts repairing different defect families at once because nobody first named the active publication-unit problem situation.
+When the unit carries or exposes a claim-bearing `U.Episteme` or episteme-side `U.View`, use that item's primary `EntityOfConcern` value. Otherwise name the ordinary topic or subject and do not invent an `EntityOfConcernRef`. Keep the publication unit distinct from the episteme, publication occurrence, form, face, carrier, and any downstream project claim.
 
-Typical moments include:
-- an episteme-publication-heavy note where one broad local lexical head starts carrying more semantic work than the sentence restored;
-- an architecture or status memo that starts about one bounded primary EntityOfConcern or question and ends by sounding like rollout or approval work;
-- a comparison sheet that is already stable enough locally, but is still being overworked as if it needed full publication-unit stabilization;
-- an onboarding aid, dashboard card, or review note that quietly shifts into explanation, policy, or decision language while still sounding like one unchanged unit.
+The primary reader is an author or reviewer who needs one usable repair choice. Architects, managers, and program leads are secondary readers when the same unit is being over-read as architecture, approval, or work guidance.
+
+If this check is missed, teams repair one word when the whole interpretation has shifted, rebuild a whole unit when one local head was enough, or polish a comparison, explanation, or status note until it looks like evidence or approval. The check buys one early choice: keep the unit as it is, repair one local head, stabilize the whole unit, treat it as a bounded comparison, or leave this pattern for the applicable neighboring pattern and project record.
+
+Do not use this pattern when one overloaded local head is the only defect; when the stable unit already presents a bounded comparison; when the live issue is explanation use; or when the text is already being used to approve, direct, assign, adjudicate, or support reliance. Apply `E.17.AUD.LHR`, `E.17.ID.CR`, `E.17.EFP`, or the applicable decision, gate, work, evidence, or reliance pattern instead.
+
+The first useful result is one of those five repair choices. If the unit, its primary subject, its publication move, and its outside boundary are already clear enough for the current reader, return `stable for current use` and stop. The checks and examples below are aids, not a mandatory engineering sequence.
 

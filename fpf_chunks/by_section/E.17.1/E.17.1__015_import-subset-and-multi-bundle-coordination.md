@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:14"
 section_title: "Import, Subset, and Multi-Bundle Coordination"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__015_import-subset-and-multi-bundle-coordination.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:14 — Import, Subset, and Multi-Bundle Coordination"
-line_start: 79703
-line_end: 79741
+line_start: 79830
+line_end: 79872
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,12 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:14 - Import, Subset, and Multi-Bundle Coordination
@@ -47,7 +41,7 @@ The value of viewpoint bundles appears most clearly when they are imported, subs
 
 A `MultiViewDescribing` use may legitimately import only a subset of a bundle's viewpoint references. When it does so, it should declare:
 
-- which `ViewFamilyId` is the source,
+- which ordinary family designator is the source,
 - which viewpoint members are actually in local use,
 - and whether the omitted members are simply unused or are intentionally excluded because the local scope does not require them.
 
@@ -59,12 +53,12 @@ A local project often wants a small adaptation: one extra concern note, one narr
 
 A practical rule is:
 
-- if the local project selects a subset or adds only didactic/publication material, keep the exact imported bundle edition unchanged and declare the local subset or annex; do not treat the overlay as bundle content;
-- if the local project changes viewpoint membership or meaning, publish a new local bundle or a new edition.
+- if the local project selects a subset or adds only didactic/publication material, keep exact catalogue edition L and its declaration unchanged and declare the local subset or annex; do not treat the overlay as declaration content;
+- if the local project changes viewpoint membership or meaning, publish a new local catalogue edition or a new family declaration.
 
 This is how bundle reuse remains trustworthy across organizations.
 
-#### E.17.1:14.3 - Multi-bundle coordination
+#### E.17.1:14.3 - Multi-bundle coordination: provenance first, comparison separately
 
 Many real description families need more than one bundle, for example:
 
@@ -72,9 +66,13 @@ Many real description families need more than one bundle, for example:
 - one safety or assurance family,
 - and one governance or publication-oriented family.
 
-In such cases, `E.17.1` expects the family to preserve the provenance of each exact member reference and resolved viewpoint episteme P rather than flattening everything into one unnamed `Sigma`. Cross-family correspondence names each participating exact `U.ViewpointRef` or resolved P together with its exact source bundle edition and `ViewFamilyId` provenance; the corresponding `VP.*` token may remain only as a readable designator.
+Preserve the exact provenance of every imported `U.ViewpointRef` and resolved P as `<editionDesignator(L), familyDesignator, member reference>`. That tuple answers where a member came from. It establishes no semantic sameness, difference, correspondence, translation, substitution, or admissible comparison by itself.
+
+If the compared meanings are interpreted under one exact effective reference scheme, identify the exact P editions or claim subgraphs being compared, state the exact comparison predicate, polarity, scope, and participants, and apply the pattern that defines that predicate. If no direct semantic predicate is current, report only the observable lexical or structural contrast—members, omissions, order, target criteria, or claim-shape differences—and do not call it correspondence.
+
+If the comparison crosses effective schemes or semantic contexts, first resolve the two exact F.17 `SchemeSenseCell` endpoints. Use F.9 only when its direct Bridge predicate is actually satisfied. Then state the proposed comparison or reuse separately as one bounded C.2.1 use claim about that exact Bridge with `<u,d,r,t>` and polarity, and recover the exact A.10 reliance disposition or the B.3 assurance branch when its threshold is met. Without the exact cells, obtaining Bridge, bounded-use claim, and required reliance path, stop at lexical or structural contrast. Catalogue provenance remains useful in every branch, but never substitutes for any of them.
 
 #### E.17.1:14.4 - Engineering vs publication families
 
-Some contexts need both engineering viewpoints and publication viewpoints. `E.17.1` permits both, but it does not allow one family id to erase the distinction. A family that imports both kinds must keep the namespaces and bundle origins explicit so that authors do not confuse *how the holon is being understood* with *how a publication face/form chooses to expose that understanding*.
+Some contexts need both engineering viewpoints and publication viewpoints. `E.17.1` permits both, but it does not allow one family designator to erase the distinction. A family that imports both kinds must keep the namespaces and catalogue origins explicit so that authors do not confuse *how the holon is being understood* with *how a publication face/form chooses to expose that understanding*.
 

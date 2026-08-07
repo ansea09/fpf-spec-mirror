@@ -6,12 +6,12 @@ section_id: "E.17.AUD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:3 — Forces"
-line_start: 82059
-line_end: 82068
+line_start: 82197
+line_end: 82206
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,9 +19,6 @@ dependencies:
   - "A.16.0"
   - "A.20"
   - "A.21"
-  - "A.6.3"
-  - "A.6.3.CR"
-  - "A.6.3.RT"
   - "A.7"
   - "B.3"
   - "C.11"
@@ -45,9 +42,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| **Recognisability vs precision** | Cold readers need a quick recognition block, but the unit still needs explicit primary-EntityOfConcern, carried-publication-move, and outside-work discipline. |
+| **Recognisability vs precision** | Cold readers need an early recognizable situation, but the unit still needs explicit primary-EntityOfConcern, carried-publication-move, and outside-work discipline. |
 | **Local repair vs whole-unit stabilization** | It is cheaper to fix one overloaded local lexical head, but sometimes the whole publication unit already carries a quiet shift in primary EntityOfConcern, carried publication move, or outside boundary to work, work planning, decision, gate, or reliance claim. |
-| **Stability vs governing-pattern boundary honesty** | Teams want to keep one unit usable, but they also need to admit when the case now belongs to comparison, explanation, or downstream claim or effect. |
+| **Stability vs an honest next-pattern boundary** | Teams want to keep one unit usable, but they also need to admit when the live question is now comparison, explanation, or a downstream claim or effect. |
 | **Form variety vs publication-unit fidelity** | Note, memo, sheet, table, and screen are convenient ordinary labels, but they must not silently replace the publication unit under review. |
 | **Readability vs downstream claim or effect laundering** | Clearer or more polished prose helps readers, but it does not by itself mint approval, policy, gate, work, or reliance claim or effect. |
 

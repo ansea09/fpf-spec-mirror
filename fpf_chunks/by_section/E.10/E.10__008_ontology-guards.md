@@ -6,12 +6,12 @@ section_id: "E.10:6"
 section_title: "Ontology Guards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__008_ontology-guards.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:6 — Ontology Guards"
-line_start: 74487
-line_end: 74668
+line_start: 74537
+line_end: 74718
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
   * **Don’t:** `IncidentBoard`, `TDD Tradition`, `Production Process` (kernel), `Service Function` (kernel).
 
  **Onto2 — EntityOfConcern and Description-episteme boundary and specification-use morphology**  *(ref. E.10.D2)*
-* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`** only under the membership rule of its direct owner. In particular, a claim-bearing episteme is `U.MethodDescription` only when its exact EntityOfConcern is one admitted `U.Method` and it makes at least one substantive claim about that method as a way of doing. `Algorithm`, code, pseudo-code, recipe, procedure, diagram, or other expression form first remains source wording, a C.29 representation, or a publication expression; none establishes that membership. A qualifying Description episteme appends **`...Spec`** only after a named specification-use gate grants that use. Thus `MethodSpec` is available only when the same episteme passes both A.3.2 membership and the E.10.D2 specification-use gate; formal language, pseudo-code, or bundled tests alone settle neither condition.
+* **Rule:** A term for the EntityOfConcern uses the bare head for the FPF kind under concern: `Method`, `Tradition`, `Characteristic`. A **Description episteme** appends **`…Description`** only under the membership rule of the pattern defining that episteme kind. In particular, a claim-bearing episteme is `U.MethodDescription` only when its exact EntityOfConcern is one admitted `U.Method` and it makes at least one substantive claim about that method as a way of doing. `Algorithm`, code, pseudo-code, recipe, procedure, diagram, or other expression form first remains source wording, a C.29 representation, or a publication expression; none establishes that membership. A qualifying Description episteme appends **`...Spec`** only after a named specification-use gate grants that use. Thus `MethodSpec` is available only when the same episteme passes both A.3.2 membership and the E.10.D2 specification-use gate; formal language, pseudo-code, or bundled tests alone settle neither condition.
 * **Formal-description guard:** A formal mathematical or physical theorem, including a formal postulate theorem in physics, remains a Description episteme until a bounded use assigns specification use. Its formal language belongs to formality and publication-expression discipline; it becomes a specification only under acceptance criteria, harness checks, normative invariants, measurable anchors, verification use, or another specification-granting condition named by value.
 * **Extension:** Apply the same morphology to non-method EntitiesOfConcern where appropriate: `TransformationFlowStructureDescription`, `TransformationFlowStructureSpec`, `SystemDescription`, and `SystemSpec`.
 * **Do:** `SamplingMethod` - `SamplingMethodDescription` - `SamplingMethodSpec`.
@@ -83,7 +83,7 @@ RoleAssignmentAssertion:
 The four indented designations name the relation participants. `assignmentInterval` describes the currently known temporal extent outside that participant list. Recover the source label `JournalIssue42Context` separately. If it denotes a selected `BoundedModelUseStructure` that changes one receiving interpretation, the receiving assertion or work use designates that structure; generic `U.RoleAssignment` does not.
 * **Carrier rule:** **Carrier** is not a free holon or system kind. In Tech use, recover the governed carrier relation: use `U.PresentationCarrier` only under its C.2.1+ publication and presentation discipline; if a reusable carrier-relation declaration is separately current, `PresentationCarrierSlot` remains the declaration-local `SlotKind` of one A.6.5 `SlotSpec` and is not the carrier or relation. Other exits are a file, transport, rendering, front-end, or access-carrier relation under `E.17`; evidence or source-currentness carrier under `A.10` or `G.11`; generated or produced carrier under `C.35`; or a named episteme-symbol carrier relation only when a tradition, lineage, profile, repertoire, or other episteme is made available independently of any role assignment. Avoid **`Artefact`** as a head in the kernel: it is ambiguous between a carrier relation, a system made by a transformer, or an episteme abstracted from its carrier.
 * **Register note:** Job titles (`Reviewer`, `Owner`, `Lead`) belong in the **Plain** register and twin-map to explicit Tech `...Role` tokens.
-* **Why:** This resolves inconsistent role-carrier, role-assigned holon or system, and generic carrier-kind usage: use **`U.RoleAssignment`** for assignment of an admitted System to a `…Role` under one named role taxonomy and effective scheme; use `U.PresentationCarrier` or another direct governing pattern only for the recovered carrier relation.
+* **Why:** This resolves inconsistent role-carrier, role-assigned holon or system, and generic carrier-kind usage: use **`U.RoleAssignment`** to assign an admitted System to a `…Role` under one named role taxonomy and effective scheme. Use `U.PresentationCarrier` only for its publication and presentation relation; for another recovered carrier relation, use the pattern that defines that relation.
 * **Rewrite note.** Repair `...CarrierRole` used for a role-assigned holon or system to a readable four-participant assignment: say which admitted System holds which `...Role` under which named role-taxonomy episteme and effective reference scheme. Use the canonical form above when a receiving use needs explicit occurrence identity, and describe temporal extent separately as `assignmentInterval`. Recover any source `Context` value independently; a selected model-use structure belongs in the receiving assertion or work use. Use SCR-LEX to check the rewrite.
 * **Do:** `ReviewerRole`; `TeamAlpha` holds `ReviewerRole` as interpreted by `JournalReviewRoles-2026` under `JournalReview-Scheme-A`; `LeanTraditionCarrier` only when declared as an episteme-symbol carrier relation over a holon independent of any particular role assignment.
 **Don’t:** `Reviewer` (as a U-kind), `ReviewerCarrier` (to mean a role-assigned holon or system), `SystemReviewer` (role collapsed into a system kind), or `Carrier` as an unstated system kind.
@@ -101,7 +101,7 @@ The four indented designations name the relation participants. `assignmentInterv
 * **Don’t:** “Reviewer — a person who …” (blurs the kind named).
 
 **Onto6 — Bans and ontology recovery hints**  *(mirror E.10 § 9 L-rules; do not duplicate tables; not a substitution table)*
-* `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`; possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, one dated Work occurrence admitted under `U.Work`, a separate episteme about it, `U.Transformation`, and `TransformationFlowStructure` only after the exact governed object, method-side or other obtaining direct relation and actual participants, current declaration, representation use, or claim kind and its direct owner are named by value.
+* `process`, `procedure`, `workflow`, `function`, or `activity` -> first recover the wording family: change-situation wording applies `A.3.4.P`; function-like wording applies `A.6.F`. Possible recovered values include `U.Method`, `U.MethodDescription`, `U.WorkPlan`, one dated Work occurrence admitted under `U.Work`, a separate episteme about it, `U.Transformation`, and `TransformationFlowStructure`. Choose among them only after naming the object, any obtaining method-side or other relation and its participants, the relevant declaration or representation use, or the claim kind and the pattern that defines it.
 * `Tradition` → **`Tradition`** (Tech); leave “Tradition” only as a Plain twin with an adjacent Tech label.
 * `domain` → **`DomainFamily` + {ContextId list} + UTS twins**.
 * `…CarrierRole` used for a role-assigned holon or system -> recover the admitted holder System, exact `...Role` value, role-taxonomy episteme, and effective reference scheme through the canonical four-participant `U.RoleAssignment` above; describe any `AssignmentInterval` separately. Recover a source `Context` value independently and, when it denotes a selected model-use structure that changes a receiving interpretation, designate it only in that receiving assertion or work use.
@@ -132,7 +132,7 @@ The Onto3 block above is the one fully filled assignment example. The twelve row
 **Checklist before minting a KernelToken**
 * Head noun signals kind (Onto1).
 * EntityOfConcern and Description-episteme boundary and specification-use morphology correct (Onto2).
-* If role-related or carrier-related: **Role, RoleAssignment, and carrier-relation** separation observed; holonic scope explicit and direct carrier-governing pattern named (Onto3).
+* If role-related or carrier-related: **Role, RoleAssignment, and carrier-relation** separation observed; holonic scope explicit and direct carrier-relation pattern named (Onto3).
 * Any Domain mention stitched to D.CTX and UTS; **no norms on Domain** (Onto4, Onto6).
 * Object‑of‑talk declared (Onto5).
 * SCR-LEX rewrites checked for current role-assignment and carrier-relation separation (Onto6).
@@ -165,7 +165,7 @@ If an EntityOfConcern-side item is currently named `… Standard`, rename it to 
 
 | **Tech (authoritative)** | **Plain (didactic)**                        | **Notes and guards**                                                                           |
 | ------------------------ | ------------------------------------------- | -------------------------------------------------------------------------------------------- |
-| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`. Apply L-SERV only when a relied-on use hides the concrete subject or next route, then use `A.6.P:4.11a`; quoted, historical, illustrative, and harmless ordinary wording stays outside. Avoid “service-instance”; after recovery use “system instance”, “service access point”, “service offering”, or another exact head phrase owned by the governing pattern. |
+| `U.System`               | system, machine, team                        | Bare “service” is **never** a safe Plain twin for `U.System`. Apply L-SERV only when a relied-on use hides the concrete subject or next route, then use `A.6.P:4.11a`; quoted, historical, illustrative, and harmless ordinary wording stays outside. Avoid “service-instance”; after recovery use “system instance”, “service access point”, “service offering”, or another head phrase supplied by the pattern for the recovered claim. |
 | `U.Episteme`             | body of knowledge, document, dataset, model | The pair preserves the **Carrier and Content** distinction (A.7).                                              |
 | `U.Method`               | how‑to, procedure (abstract)                | Do **not** call this “process” (L‑PROC).                                                     |
 | `U.MethodDescription`    | account of how one identified method is done | `recipe`, `SOP`, `playbook`, `code`, and `spec-text` are recognition cues, not automatic twins. Use this pair only after the claim-bearing episteme has one admitted `U.Method` as its exact EntityOfConcern and passes A.3.2's substantive-description threshold; call out **Spec** separately only after the E.10.D2 gate. |

@@ -6,12 +6,12 @@ section_id: "A.6.A:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__011_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:10 — Rationale"
-line_start: 18039
-line_end: 18065
+line_start: 18037
+line_end: 18063
 dependencies:
   - "A.15"
   - "A.16"
@@ -69,5 +69,5 @@ It also keeps the larger architecture clean:
 * **A.6.B** governs boundary claim classification,
 * **A.15** governs enactment and work,
 * **A.16** governs articulation and closure progression and admissible moves,
-* **C.2.3** remains the sole governing pattern for formality characteristic **F**.
+* **C.2.3** remains the sole subject pattern for formality characteristic **F**.
 

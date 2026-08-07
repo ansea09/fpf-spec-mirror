@@ -6,12 +6,12 @@ section_id: "A.16.0:14"
 section_title: "Trajectory publication package discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__015_trajectory-publication-package-discipline.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:14 — Trajectory publication package discipline"
-line_start: 27557
-line_end: 27571
+line_start: 27573
+line_end: 27588
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -44,14 +44,15 @@ keywords:
 ### A.16.0:14 - Trajectory publication package discipline
 A publishable trajectory account should normally identify:
 
-- the current governed `U.Episteme` publication;
-- predecessor, sibling, or ancestor references when they are load-bearing;
+- the current selected episteme edition;
+- predecessor, sibling, or ancestor editions when they are load-bearing;
 - the lineage link kind;
 - the current position claim and any load-bearing predecessor position claims;
-- the move or move sequence being asserted;
-- the current publication form and, if relevant, the MVPK face carrying it;
+- the move or move sequence;
+- the publication form and, when availability matters, the publication occurrence;
+- the MVPK face only when rendering matters;
 - the grounds or witnesses that make the history necessary;
-- the next route, docking governing pattern, or retirement state;
+- the next route, docking pattern and contribution, or retirement state;
 - the losses, open rivals, or reopen conditions that matter for continuation.
 
 If these are missing, the publication is usually only plain sequence prose, not a conforming trajectory account.

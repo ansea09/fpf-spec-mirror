@@ -6,12 +6,12 @@ section_id: "A.16.1:17"
 section_title: "Cue-Pack Continuations and Non-Continuations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__018_cue-pack-continuations-and-non-continuations.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:17 — Cue-Pack Continuations and Non-Continuations"
-line_start: 27810
-line_end: 27838
+line_start: 27827
+line_end: 27855
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -55,10 +55,10 @@ A cue pack should not be used directly as:
 - a work occurrence,
 - or a measurement-bearing quality endpoint.
 
-Those are not just later stages of the same text. They are different governing forms with different authority/signature conditions.
+Those are not just later stages of the same text. They are different claims, decisions, work occurrences, or endpoint forms, each with its own authority or signature conditions.
 
 #### A.16.1:17.3 - Multi-direction state versus lineage fork
-Several lane candidates or several low-articulation route-candidate hints may live inside one cue pack. That is still one governed publication.
+Several lane candidates or several low-articulation route-candidate hints may live inside one cue pack. That is still one cue-pack publication.
 
 A fork happens only after distinct successor publications are actually issued, each with distinct authority or successor-publication consequences. Practitioners should not treat pre-route plurality inside one cue pack as if it were already a forked lineage.
 

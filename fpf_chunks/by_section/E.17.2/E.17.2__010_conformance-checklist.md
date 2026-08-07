@@ -1,27 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.2"
-pattern_title: "TEVB - Typical Engineering Viewpoint Bundle for Holons"
+pattern_title: "TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
 section_id: "E.17.2:9"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__010_conformance-checklist.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons"
+  - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:9 — Conformance checklist"
-line_start: 80134
-line_end: 80148
+line_start: 80299
+line_end: 80315
 dependencies:
-  - "A.1"
   - "A.22"
-  - "A.6.2-A.6.4"
   - "A.6.3"
   - "A.6.6"
-  - "A.7"
   - "C.13"
   - "C.2.1"
-  - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.17.1"
@@ -35,16 +31,18 @@ keywords:
 
 ### E.17.2:9 - Conformance checklist
 
-1. The exact TEVB edition contains exactly four `U.ViewpointRef` members, not embedded viewpoint values, views, documents, forms, carriers, or publication occurrences.
-2. Each `VP.*` token is only P's `ViewpointId` designator; the reference resolves exact P, while designator, reference, P, S, and bundle position remain distinct.
-3. Each P has one exact selected convention structure S as EntityOfConcern and passes all five E.17.0 viewpoint-membership conditions.
-4. Each witness names the exact least-powerful constituent editions, every selected obtaining dependency occurrence, ordinary Q_org, exact A.22-selected S, and ordinary P; optional D and evaluation remain named-use neighbors.
-5. Each concern episteme has one independently recoverable EntityOfConcern and direct governor; a multi-subject phrase is split or retained as a constraint claim, never promoted to a hidden group kind.
-6. Candidate E has one exact holon H as EntityOfConcern and becomes `U.View` only through obtaining `EpistemeViewpointConformanceRelation(E,P)`.
-7. A singular describing-use reference selects P without entering E/P identity or conformance; A.6.3 construction, bundle membership, naming, evaluation, rendering, and publication grant no membership.
-8. Procedural views are not MethodDescriptions by topic; allocation-responsibility views are not RoleAssignments or actors; module-interface views are not direct module relations or functional views by shared labels.
-9. DDD Context Mapping remains a `U.Method`; a product called Context Map is a separately identified episteme and becomes a View only through exact E/P conformance.
-10. Every cross-view relation has an exact governor, obtaining test, and participant meanings; a diagram edge, correspondence label, citation, or shared holon is insufficient.
-11. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, C.29 representation, and any publication-side viewpoint remain distinct and make no world-side subject relation obtain.
-12. Ordinary reuse stops after resolving P and making the readable conformance judgment unless a named receiving work needs more structure.
+1. The pattern is used as an authoring template until one project supplies exact `<G_L, K_L, R_L>`, ordinary `f_eng`, four exact `r_* : U.ViewpointRef` values, four exact P targets, and their resolution path; labels or variable names fill none of those positions.
+2. Exact `G_L` contains one local declaration claim block with the four bound references; it is not an inferred bundle U-kind, separate bundle entity, embedded viewpoint value, view, document, form, carrier, or publication occurrence.
+3. Each reader-facing viewpoint name is only the project-local designator of exact P; designator, reference, P, any structured-branch S, and declaration position remain distinct.
+4. Each P passes all five E.17.0 viewpoint-membership conditions. It uses the self-contained branch by default; an exact C/Q/S witness is required only when separately versioned convention organization changes a named action.
+5. In a triggered structured branch, each witness names exact least-powerful constituent editions, every selected obtaining dependency occurrence, ordinary `Q_org`, exact A.22-selected S, and ordinary P; optional dependency-use decisions and evaluations remain named-use neighbors.
+6. Each concern episteme has one independently recoverable EntityOfConcern. Every relation claim names its exact predicate, participants, obtaining test, and applicable pattern; a multi-subject phrase is split or retained as a constraint claim, never promoted to a hidden group kind.
+7. Candidate E has one exact holon H as EntityOfConcern and becomes `U.View` only through obtaining `EpistemeViewpointConformanceRelation(E,P)`.
+8. A singular describing-use reference selects P without entering E/P identity or conformance; A.6.3 construction, declaration membership, naming, evaluation, rendering, and publication grant no membership.
+9. Every procedural failure or recovery claim has an exact operational subject and admitted method, state-transition, or transformation-flow basis. A safety-analysis episteme, A.10 evidence path, or B.3 assurance branch appears only for a safety-bearing claim or named reliance. Procedural views remain distinct from MethodDescriptions and Work; allocation-responsibility views remain distinct from RoleAssignments or actors; module-interface views remain distinct from direct module relations or functional views.
+10. DDD Context Mapping remains a `U.Method`; a product called Context Map is a separately identified episteme and becomes a View only through exact E/P conformance.
+11. Every cross-view relation names its exact predicate, participants, obtaining test, and applicable pattern; a diagram edge, correspondence label, citation, shared holon, or common template is insufficient.
+12. Form expression, carrier bearing, five-participant publication and recurrence, rendering work, C.29 representation, and any publication-side viewpoint remain distinct and make no represented world-side relation obtain.
+13. Cross-project reuse is claimed only for the same resolved L, declaration, and exact member references. Equal TEVB role labels or independently filled templates establish no shared family.
+14. Later ordinary reuse resolves the admitted L and declaration, then one needed P, and stops after the readable conformance judgment unless a named receiving work needs more structure. It reopens full catalogue constitution only under the E.17.1:4.2 triggers.
 

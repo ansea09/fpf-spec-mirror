@@ -6,12 +6,12 @@ section_id: "A.16:15"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__016_authoring-and-review-guidance.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:15 — Authoring and Review Guidance"
-line_start: 27169
-line_end: 27193
+line_start: 27173
+line_end: 27197
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,7 +51,7 @@ When naming a move, the author should say:
 
 - what the source publication form is,
 - what the target publication form is,
-- which governing pattern governs the target form,
+- which pattern supplies the target's definition, constraint, or test and, only when rule identity or edition changes the use, which exact `ClaimGraph` carries it,
 - which MVPK face matters if rendering matters,
 - which facet or route-state change justifies the move,
 - what authority effect follows,
@@ -63,7 +63,7 @@ A reviewer should ask:
 - is the move a real language-state move or just rhetorical relabeling?
 - does the move preserve witnesses and route provenance appropriately?
 - is route plurality being confused with lineage fork?
-- did a governing pattern silently absorb the publication too early?
+- did the note claim endpoint admission before the target form met the applicable test?
 - if retreat or retirement occurred, was the authority drop made explicit?
 
 #### A.16:15.3 - Integration reminder

@@ -6,12 +6,12 @@ section_id: "F.17:7"
 section_title: "Row schema"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__009_row-schema.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:7 — Row schema"
-line_start: 95511
-line_end: 95540
+line_start: 95742
+line_end: 95771
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ Use these positions when they are current. Presence means that the exact referen
 | `Governed value` / C.2.1 `EntityOfConcern` | yes | Exact independently governed value named by the decision. |
 | `NameCardRef` | yes at the current F.18 public-row gate | Separate C.2.1 naming-settlement episteme whose selected designations this row projects. |
 | `Governed value kind` | yes | Exact kind of that value; `U.Kind` when the value is a kind token. |
-| `Direct pattern` | yes | Pattern owning the value, kind, identity, and any obtaining semantics. |
+| `Defining or constraining pattern` | yes | Pattern whose rules define or constrain the value, its kind, its identity, or any obtaining semantics used by the row. |
 | `Reference scheme` | yes | Effective by-value naming `U.ReferenceScheme` used in this row's C.2.1 constitution. |
 | `Unified Tech name` | yes | Selected Tech designation expression. |
 | `Unified Plain name` | yes | Selected Plain designation expression. |

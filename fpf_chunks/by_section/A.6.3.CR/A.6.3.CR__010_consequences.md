@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__010_consequences.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:9 — Consequences"
-line_start: 14300
-line_end: 14307
+line_start: 14297
+line_end: 14304
 dependencies:
   - "A.15"
   - "A.6.2"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.6.3.CR:9 - Consequences
 
-- Textual same-entity rewrites get an admissible place without inventing a new heavy governing pattern.
+- Textual same-entity rewrites get an admissible place without inventing a second pattern for the same move.
 - Direct and correspondence-mediated variants stay visibly separated.
 - Loss, provenance, and reliability transport become explicit instead of implicit editorial judgement.
 - Ordinary working-model use stays lightweight, while claim-bearing cases get a claim-bearing review record when risk warrants it.

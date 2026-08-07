@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `3dbce51436bfd718bf49cb0356eebce70c4fc015`
+Commit SHA: `2729cfe5a3e4a86da8632aabcb859488c06a2d51`
 
 Chunking method: `pattern-aware`
 
@@ -244,14 +244,14 @@ Patterns: `293`
 - [E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)](by_pattern/E.15.md)
 - [E.16 — RoC‑Autonomy Budget & Enforcement](by_pattern/E.16.md)
 - [E.17.0 — Viewpoint and View Recognition for Multi-View Describing](by_pattern/E.17.0.md)
-- [E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles](by_pattern/E.17.1.md)
-- [E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons](by_pattern/E.17.2.md)
+- [E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles](by_pattern/E.17.1.md)
+- [E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons](by_pattern/E.17.2.md)
 - [E.17 — Multi‑View Publication Kit](by_pattern/E.17.md)
 - [E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces](by_pattern/E.17.EFP.md)
 - [E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units](by_pattern/E.17.ID.CR.md)
 - [E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly](by_pattern/E.17.AUD.md)
 - [E.17.AUD.LHR — PublicationUnit Stability Discipline and Local Head Restoration - repair the overloaded local lexical head before the publication unit inherits it](by_pattern/E.17.AUD.LHR.md)
-- [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern](by_pattern/E.17.AUD.OOTD.md)
+- [E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject](by_pattern/E.17.AUD.OOTD.md)
 - [E.18 — Transformation Flow Structure](by_pattern/E.18.md)
 - [E.18.1 — P2W Problem-to-Work Carry-Through](by_pattern/E.18.1.md)
 - [E.18.2 — Transformation Flow Mathematical Description](by_pattern/E.18.2.md)

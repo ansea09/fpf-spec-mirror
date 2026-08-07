@@ -6,12 +6,12 @@ section_id: "C.32.HCS:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:2 — Problem"
-line_start: 64931
-line_end: 64936
+line_start: 64974
+line_end: 64979
 dependencies:
   - "A.19"
   - "C.11"
@@ -36,7 +36,7 @@ keywords:
 
 ### C.32.HCS:2 - Problem
 
-Architecture characteristics recur more than functions do. Reliability, substitutability, change reach, evidence reuse, control separation, or coordination load can appear across admitted holons and across adjacent governed method-side, role-side, work-side, evidence-side, and cultural-evolution structures. The recurrence does not mean that the bearer, scale, governing pattern, or use is identical, and it does not make `U.Method`, `U.Role`, practice, or culture an admitted holon kind.
+Architecture characteristics recur more than functions do. Reliability, substitutability, change reach, evidence reuse, control separation, or coordination load can appear across admitted holons and across method, role-assignment, work, evidence, or cultural-evolution structures. The same head may require a different bearer, scale, use, or pattern definition or test, and the recurrence does not make `U.Method`, `U.Role`, practice, or culture an admitted holon kind.
 
-Functions and functional demands depend on the bearer and owner. A saw-as-system can cut, a system holding a role assignment can carry responsibility, a method description can guide work, an enacted work family can be repeatable, an organization-as-system can coordinate, and a culture or practice label must be restored into systems, disciplines, method and work families, role assignments, canon or memory epistemes, recognition and selection regimes, and mediation systems before architecture-characteristic reuse. A project therefore needs starter packs that suggest common architecture-characteristic heads while forcing owner, bearer, and scale rebinding before optimization.
+A function depends on what performs it, while a functional demand may also depend on the holon that needs that performance. A saw-as-system can cut, a system holding a role assignment can carry responsibility, a method description can guide work, an enacted work family can be repeatable, and an organization-as-system can coordinate. A culture or practice label must first be resolved into systems, disciplines, method and work families, role assignments, canon or memory epistemes, recognition and selection regimes, or mediation systems. A project therefore needs starter packs that suggest common heads while requiring the practitioner to re-identify the bearer, any separate demand holder, and the scale before optimization.
 

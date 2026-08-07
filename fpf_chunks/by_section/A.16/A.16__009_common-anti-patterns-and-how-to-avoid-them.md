@@ -6,12 +6,12 @@ section_id: "A.16:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 27092
-line_end: 27099
+line_start: 27096
+line_end: 27103
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,8 +45,8 @@ keywords:
 ---
 
 ### A.16:8 - Common Anti-Patterns and How to Avoid Them
-- **Trajectory-wrapper inflation.** Do not wrap every local move in `A.16.0`. Publish a local move note unless history has lineage governance value.
-- **Governing-pattern-as-form collapse.** Do not write as if `A.6.P`, `B.5.2`, or `A.15` were publication forms. Name the pattern-governed form and the governing pattern separately.
+- **Trajectory-wrapper inflation.** Do not wrap every local move in `A.16.0`. Publish a local move note unless the history needs lineage accountability.
+- **Pattern-as-form collapse.** Do not write as if `A.6.P`, `B.5.2`, or `A.15` were publication forms. Name the target form and the cited pattern's concrete definition, constraint, or test separately.
 - **Form-face collapse.** Do not treat an MVPK face as if it were the publication form itself. Name both when both matter.
 - **Irreversible maturity story.** Reopen, sketch-backoff, respecify, and retirement are admissible moves, not failures of the trajectory discipline.
 - **Silent branch retirement.** Do not let one route or branch disappear without a retirement or supersession note.

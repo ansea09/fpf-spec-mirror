@@ -6,12 +6,12 @@ section_id: "A.16:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:3 — Forces"
-line_start: 27006
-line_end: 27013
+line_start: 27004
+line_end: 27011
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,6 +49,6 @@ keywords:
 |---|---|
 | **Coordination vs duplication** | Coordinate moves over the declared language-state chart without recreating `A.19` or `E.18`. |
 | **Local sufficiency vs history visibility** | Let a typed local move note stand independently, while still supporting richer history publication when that history matters. |
-| **Early capture vs endpoint discipline** | Admit low-articulation governed `U.Episteme` publications without losing endpoint-classification discipline. |
+| **Early capture vs endpoint discipline** | Admit low-articulation `U.Episteme` content and publication forms without losing the endpoint's entry and classification tests. |
 | **Forward development vs admissible retreat** | Support formalization and operationalization, but also reopening, sketch-backoff, respecification, and admissible retirement. |
 

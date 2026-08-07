@@ -6,12 +6,12 @@ section_id: "E.18:5"
 section_title: "Solution - Transformation-flow structure model and relation disciplines"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__006_solution-transformation-flow-structure-model-and-relation-disciplines.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:5 — Solution - Transformation-flow structure model and relation disciplines"
-line_start: 83046
-line_end: 83350
+line_start: 83263
+line_end: 83581
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -47,14 +47,14 @@ Define a **typed, editioned transformation-flow structure**
 with:
 
 * **Loci:** structure positions or bindings to governed FPF values (open world). Common specialisations **include but are not limited to** one first-principles P2W example: an independently identified actual bounded `U.Transformation`, `U.Signature(profile=FormalSubstrate)`, `U.PrincipleFrame`, `U.Mechanism`, `U.ContextNormalization (UNM)`, a selector relation governed by current selector and comparator patterns, `A.15.2 U.WorkPlan` or a plan-item relation, one exact Work individual admitted under `U.Work`, and current evaluation or currentness relations. This list is **illustrative**, not exhaustive, and none of its entries is mandatory for general P2W. A structure position may be expressed by a morphism, graph vertex, tuple position, or category-theoretic object under a mathematical lens when that lens is current, but E.18 does not make every position a `U.Morphism`, graph vertex, or `U.Transformation`. Selection into the same structure, path adjacency, shared work, or a common affected referent supplies neither the `A.3.4` actuality basis nor a transformation-composition governor.
-* **Transfer relation:** a **single relation kind `U.Transfer`** (typed) carrying carrier refs and token refs inside one selected TFS. Raw transfer preserves `CtxState`. Every actual change to a locality, plane, edition, or design/run binding is represented by one `GateCrossing` at an `OperationalGate(profile)` and cites that binding's direct governor. An exact A.6.4 retargeting with unchanged `CtxState` follows the limited `StructuralReinterpretation` route in CC-E18-06-EX instead of becoming a crossing. Transport conversions cite their exact registry and policy owners. E.18 defines neither a generic semantic Bridge nor a generic penalty policy.
+* **Transfer relation:** a **single relation kind `U.Transfer`** (typed) carrying carrier refs and token refs inside one selected TFS. Raw transfer preserves `CtxState`. Every actual change to a locality, plane, edition, or design/run binding is represented by one `GateCrossing` at an `OperationalGate(profile)` and cites that binding's direct governor. An exact A.6.4 retargeting with unchanged `CtxState` follows the limited `StructuralReinterpretation` route in CC-E18-06-EX instead of becoming a crossing. Transport conversions cite the exact registry entry, conversion rule, and applicable policy. E.18 defines neither a generic semantic Bridge nor a generic penalty policy.
 * **Scopes:** `Gamma_time` (budgets, horizons), `PublicationScope` for faces (E.17), and **slice ids** for refresh (G.11).
 
  **CtxState (PS‑projection; closed slots):** `CtxState = ⟨L, P, E⃗, D⟩` is the **projection of E.17 Publication Scope**.
  **Slot definitions and direct-governor boundary (normative):**
   • `L := Locus` — one exact `U.ContextSlice` value identified under `A.2.6`; any scope-membership or translated-scope claim remains with A.2.6 and its current F.9/C.2.1/A.10-or-B.3 premises when semantic translation is actually required.
-  • `P := ReferencePlane` — a ref-only binding to the exact plane and units declaration used by the current case. E.18 has no generic plane-conversion governor: cite the current declaration and conversion owner by value or return `missing-governor`.
-  • `E⃗ := Edition vector` — a partial map `edition_key ↦ EditionId` whose members cite the pattern or registry that owns each edition; `G.11` governs edition-bump and refresh records, while `E.17` governs publication of the refs.
+  • `P := ReferencePlane` — a ref-only binding to the exact plane and units declaration used by the current case. E.18 has no generic plane-conversion governor: cite the current declaration and applicable conversion rule by value or return `missing-governor`.
+  • `E⃗ := Edition vector` — a partial map `edition_key ↦ EditionId` whose members cite each versioned value, its exact edition, and the registry or declaration that assigns that edition; `G.11` governs edition-bump and refresh records, while `E.17` governs publication of the refs.
   • `D := DesignRunTag` — `design(T^D)` or `run(T^R)` only as consumed by the exact `A.21` gate and, at work entry, the `A.15.5` readiness claim; the tag does not identify or create Work.
  **Invariants.** Raw `U.Transfer` preserves `CtxState` (`⟨L,P,E⃗,D⟩`): it does **not** write or update any CtxState slot; any CtxState write or update, including a design-to-run tag change for a pre-run work-entry claim, occurs at `OperationalGate(profile)`. The gate changes the claim or decision state, not the ontic identity of a Work occurrence or any independently obtaining relation involving it.
  **Extension discipline.** A conforming use registers any extra slot beyond ⟨L,P,E⃗,D⟩ in the **E.17 publication discipline and the E.18 LEX “CtxState Extension Registry”** with slot‑id, intent, partial‑order rule (neutral or absorbing), and SquareLaw compatibility; unregistered extensions are non‑conformant.
@@ -77,13 +77,13 @@ with:
 
 **Definition.** A `GateCrossing` is E.18's structure-local transition from one exact `<FlowPositionRef, CtxState>` binding to another at one exact `OperationalGate(profile)`. It is selected only when at least one `CtxState` binding changes. It is not a `U.Relation`, an F.9 `Bridge`, a gate decision, a plane conversion, a retargeting occurrence, a penalty, or a publication occurrence.
 
-**Direct-governor account.** For every changed binding, cite the current owner and the exact fact or application it supplies:
+**Direct-governor account.** For every changed binding, cite the exact fact, rule, or application that permits the change:
 
-| Changed binding | Required owner or honest stop |
+| Changed binding | Required fact or rule, or honest stop |
 | --- | --- |
 | `L : U.ContextSlice` | `A.2.6` for exact slice identity and any scope-membership or translated-scope use. |
-| `P : ReferencePlane` or units | The exact current plane or units declaration and conversion owner. If none resolves, return `missing-governor`; neither E.18 nor A.20 invents one. |
-| member of `E⃗` | The owner of that edition plus `G.11` when edition bump, currentness, or refresh is claimed; `E.17` only for publication of the ref. |
+| `P : ReferencePlane` or units | The exact current plane or units declaration and applicable conversion rule. If neither resolves, return `missing-governor`; neither E.18 nor A.20 invents one. |
+| member of `E⃗` | The exact versioned value and edition, plus `G.11` when edition bump, currentness, or refresh is claimed; `E.17` only for publication of the ref. |
 | `D : DesignRunTag` | `A.21` for the gate check and decision; `A.15.5` when the transition is a prospective work-entry boundary. |
 | EntityOfConcern or kind retargeting | One exact `A.6.4` retargeting and its witness. A legacy `KindBridge`/`CL` dependency is not repaired here and returns the D14.17.3 `missing-governor` stop. |
 
@@ -114,7 +114,7 @@ A penalty appears only when an independently governed policy applies to this exa
 * `U.Transfer` preserves `CtxState` (`⟨L,P,E⃗,D⟩`) and carries **Assurance‑operations** only (see S3b); any crossing of locus, plane, edition, or `T^D↔T^R` is placed at `OperationalGate(profile)`.
 * A **PathSlice** is a selected portion of one path used to scope refresh and telemetry; faces pin `PathSliceId`; **re‑emission** happens when any pinned edition changes or `SliceRefresh` is triggered by sentinel rules. The slice is not performed work or an execution interval merely because it bounds those observations.
 
-> **Consequences.** One P2W practitioner application, or its optional C.2.1 carry-through note or stop description, may cite one path `p` in a `TransformationFlowStructure` only when the receiving decision or use relies on explicit selected-structure content. E.18.1 governs that carry-through practice and the local claim content; it introduces no `ProblemToWorkCarryThroughRelation@Context`, and the path is not such a relation. Every returned method, plan, Work, transformation, evaluation, decision, entity, or relation occurrence remains with its direct owner. Other domains, including supply chains, water networks, and neural-network function structures, may instantiate different paths under E.18.
+> **Consequences.** One P2W practitioner application, or its optional C.2.1 carry-through note or stop description, may cite one path `p` in a `TransformationFlowStructure` only when the receiving decision or use relies on explicit selected-structure content. E.18.1 governs that carry-through practice and the local claim content; it introduces no `ProblemToWorkCarryThroughRelation@Context`, and the path is not such a relation. Each returned method, plan, Work, transformation, evaluation, decision, entity, or relation occurrence keeps its independent identity and uses the pattern that defines or constrains the current claim about it. Other domains, including supply chains, water networks, and neural-network function structures, may instantiate different paths under E.18.
 >
 **Why "flow = valuation" preserves the ordinary "some state changes" intuition**
 There are two complementary perspectives:
@@ -172,7 +172,7 @@ E.18 **imports E.17** wholesale **and associates MVPK faces with `PublicationSco
 E.18 **does not re-specify** these rules; it only adds **structure-scope obligations** for faces published over transformation-flow paths:
 
 1. **Crossings on faces.** When a face publishes a GateCrossing, it cites the `CrossingRef`, changed-binding direct-governor refs, `GateId`, and any current DecisionLog or policy refs. An F.9 Bridge block appears only for a separately established cross-semantic use; its optional card and `CL` do not replace those refs.
-2. **Edition refs on faces.** A face that cites `CG-Spec`, `ComparatorSet`, `UNM.TransportRegistryPhi`, or another edition cites that value's exact owner and edition. Edition citation alone requires no Bridge Card, UTS row, or semantic Bridge.
+2. **Edition refs on faces.** A face that cites `CG-Spec`, `ComparatorSet`, `UNM.TransportRegistryPhi`, or another versioned value cites that exact value and edition. Edition citation alone requires no Bridge Card, UTS row, or semantic Bridge.
 3. **ComparatorSet and set returns (structure-scope).** Any `ComparatorSet` and `SetSemanticsRef` used along a transformation-flow path carries **edition identifiers**; affected faces are **re-emitted** on edition change; faces with comparison **return sets and declared partial orders** (no hidden scalarization), reusing MVPK's declared-order discipline.
 4. **Gamma_time on compare and launch faces.** All compare and launch faces on E.18 paths pin `Gamma_time`; implicit *latest* is not admissible. `A.21` carries current GateProfile binding and minimum profile semantics; E.18 paths include the pin. **CHR avoids acceptance thresholds** (*NoThresholdsInCHR*); gate and threshold claims are carried by `A.21` and Part G, while actual performed facts are established through independently obtaining relations involving exact Work occurrences under A.15.1. Unknowns remain tri-state (`pass|degrade|abstain`) and fold per the active GateProfile (`A.21`).
 
@@ -184,14 +184,14 @@ E.18 **does not re-specify** these rules; it only adds **structure-scope obligat
 
 **Retargeting and semantic-Bridge boundary.**
 
-An `EntityOfConcernRef` or kind change is not admitted by a UTS row, mapping label, card, `CL` value, or GateCrossing. First recover an exact A.6.4 retargeting with its source and receiving subjects, invariant, preserved and withdrawn commitments, applicability, and witness. If the retargeting also needs a semantic relation between different local senses, apply F.9 separately and keep its bounded-use claim and reliance branch separate. Because A.6.4's legacy `KindBridge`/`CL` consumer interface is parked under D14.17.3, a use that cannot meet the current direct-owner facts stops at that named missing governor.
+An `EntityOfConcernRef` or kind change is not admitted by a UTS row, mapping label, card, `CL` value, or GateCrossing. First recover an exact A.6.4 retargeting with its source and receiving subjects, invariant, preserved and withdrawn commitments, applicability, and witness. If the retargeting also needs a semantic relation between different local senses, apply F.9 separately and keep its bounded-use claim and reliance branch separate. Because A.6.4's legacy `KindBridge`/`CL` consumer interface is parked under D14.17.3, a use that cannot establish the current A.6.4 retargeting facts stops at that named missing governor.
 
 #### E.18:5.4 - S4 - Assurance‑operations on `U.Transfer` (counterfactual admissibility)
 
 On `U.Transfer` relations, an operation is interpreted as a **declarative assurance-operation** **iff** it is one of
 `ConstrainTo(rule)`, `CalibrateTo(calibrationReference)`, `CiteEvidence(evidenceRef)`, or `AttributeTo(provenanceReference)`; otherwise this explanation does not apply.
 Under this interpretation, `CtxState⟨L,P,E⃗,D⟩` is preserved.
-If a claimed assurance operation would change plane or units, this assurance-operation explanation does not apply. Use a GateCrossing only after the exact plane or units declaration and conversion owner is cited; otherwise return `missing-governor`.
+If a claimed assurance operation would change plane or units, this assurance-operation explanation does not apply. Use a GateCrossing only after the exact plane or units declaration and applicable conversion rule are cited; otherwise return `missing-governor`.
 
 If an independently governed policy assigns a penalty, cite its owner and `PolicyIdRef` and publish the penalty only in its governed assurance lane; otherwise no penalty claim appears here.
 
@@ -209,7 +209,7 @@ The comparison explanation applies under the following admissibility conditions:
 
 * The selected structure may center a loop between the `SelectionAndTuning` locus governed by selector and comparator patterns and the `WorkPlanning` locus governed by `A.15.2 U.WorkPlan` or a plan-item relation.
 * The Selection-Planning loop is represented under local **budget and max_iter** in `Γ_time`; at expiry, the exact selector-governed relation returns its declared current set or archive outcome, such as `CandidateSet`, with the applicable partial-optimality status. If the next step needs changed tuning, a separately governed `U.WorkPlan`, plan-item relation, configuration, or policy carries that tuning; it is not another entity returned by the selector. Further improvement is placed in the **next `PathSlice`** only through that separately governed continuation.
-* **UNM occurs before the loop**. When the normalized basis shows missing or stale measurements, retain that exact UNM-governed finding. A freshness request remains a request. If the receiving use then plans measurement refresh, A.15.2 separately identifies the `U.WorkPlan` or plan-item relation; only an exact dated Work occurrence admitted under `U.Work` by A.15.1 enacts it. A later measurement and its calibration remain separately governed. If G.11 produces a `RefreshReport@Context`, identify that report artefact separately from the request, plan, dated Work, later measurement, and calibration; being a report, audit artefact, record, or publication makes it neither the Work occurrence nor the returned world-side result. A `CalibrateTo(calibrationReference)` publication cites the exact calibration reference and the current `TransportRegistry^Φ` owner when transport conversion is involved. Any penalty is a separate policy-governed claim with its own owner and `PolicyIdRef`; calibration, conversion, or registry publication supplies no penalty by itself.
+* **UNM occurs before the loop**. When the normalized basis shows missing or stale measurements, retain that exact UNM-governed finding. A freshness request remains a request. If the receiving use then plans measurement refresh, A.15.2 separately identifies the `U.WorkPlan` or plan-item relation; only an exact dated Work occurrence admitted under `U.Work` by A.15.1 enacts it. A later measurement and its calibration remain separately governed. If G.11 produces a `RefreshReport@Context`, identify that report artefact separately from the request, plan, dated Work, later measurement, and calibration; being a report, audit artefact, record, or publication makes it neither the Work occurrence nor the returned world-side result. A `CalibrateTo(calibrationReference)` publication cites the exact calibration reference and, when transport conversion is involved, the exact `TransportRegistry^Φ` value and applicable conversion rule. Any penalty is a separate policy-governed claim with its own owner and `PolicyIdRef`; calibration, conversion, or registry publication supplies no penalty by itself.
 * **Work-entry claim and actual Work stay distinct.** `workEntryClaimRef` designates one exact `U.WorkPlan`, A.15.5 readiness relation, or other prospective claim consumed by `LaunchGate`. If Work later occurs, each actual launch value is established only through an independently obtaining direct relation or exact A.6.1 application binding of that Work individual. A separate `FinalizeLaunchValues` episteme may then designate the Work occurrence and those facts; it neither performs Work nor fills slots in the occurrence.
 > **Refresh orchestration.** Telemetry records and publications that designate an exact Work occurrence are **slice-scoped**, editions re-pinned, and faces **re-emitted**. Telemetry remains a separate episteme and does not constitute the occurrence.
 
@@ -226,13 +226,13 @@ If `PortfolioMode=Archive`, a **QD archive** can be returned; when generation is
 
 **GateProfile data shape (cross-reference).** `A.21` carries the current GateProfile binding and minimum profile semantics. E.18 names the structure only where crossings need it; fuller profile-matrix material is not a separate current authority unless a current governing pattern explicitly admits it.
 
-**Scope-translation guards (cross-reference).** `A.2.6` governs exact slice and scope membership and any actual translated-scope application. When that translation relies on different local senses, it additionally requires an obtaining F.9 Bridge, a separate affirmative C.2.1 bounded-use claim, and current A.10 or B.3 reliance. `A.21` still owns gate aggregation; no `CL` value or Bridge Card decides the guard.
+**Scope-translation guards (cross-reference).** `A.2.6` governs exact slice and scope membership and any actual translated-scope application. When that translation relies on different local senses, it additionally requires an obtaining F.9 Bridge, a separate affirmative C.2.1 bounded-use claim, and current A.10 or B.3 reliance. Use `A.21` for gate aggregation; no `CL` value or Bridge Card decides the guard.
 
 **Error, timeout, or unknown (profile-bound).** GateCheck errors and timeouts fold to **`degrade`** under `Lean` or `Core` and to **`block`** under `SafetyCritical` or `RegulatedX`; `unknown` follows the GateCheck's governing rule (safety-default: `degrade`). The `A.21` DecisionLog record and equivalence witness carry decision stability; E.18 does not define storage or key structures.
 
 #### E.18:5.9 - S9 - Transport and crossings
 
-* A GateCrossing records one selected-structure transition between exact source and receiving positions and `CtxState` bindings at one exact A.21-governed gate. Cite A.2.6 for locality and scope membership, the exact current owner for plane or unit conversion, each edition owner plus G.11 when refresh is current, A.21 for `DesignRunTag` and the gate decision, and A.15.5 for a prospective work-entry boundary. When the claimed change, retargeting, or penalty depends on one of those governors and that governor is missing, return the named `missing-governor` stop.
+* A GateCrossing records one selected-structure transition between exact source and receiving positions and `CtxState` bindings at one exact A.21-governed gate. Cite A.2.6 for locality and scope membership, the current plane or units declaration and conversion rule, each versioned value and exact edition plus G.11 when refresh is current, A.21 for `DesignRunTag` and the gate decision, and A.15.5 for a prospective work-entry boundary. When the claimed change, retargeting, or penalty depends on one of those governors and that governor is missing, return the named `missing-governor` stop.
 * A semantic F.9 Bridge is additional, not constitutive. Use it only when the case identifies two exact F.17 `SchemeSenseCell` values from different semantic contexts and the Bridge predicate actually obtains. Keep the proposed structural use in a separate C.2.1 claim, recover current A.10 or B.3 reliance when relied on, and keep any Bridge Card or `CL` optional and non-constitutive.
 * An EntityOfConcern or kind change remains with A.6.4. The current A.6.4 legacy `KindBridge`/`CL` branch is parked under D14.17.3; E.18 records no positive substitute. `T^D↔T^R` is handled at the exact A.21 gate with `DesignRunTagFrom` and `DesignRunTagTo` and the current A.15.5 or publication locus, without implying Work occurred.
 
@@ -243,102 +243,116 @@ If `PortfolioMode=Archive`, a **QD archive** can be returned; when generation is
 #### E.18:5.11 - S11 - Coordination wording labels (when current)
 Coordination wording may be published as **LexicalView** labels over a P2W carry-through flow valuation; it is orientation-only unless an exact structural crossing, work relation, semantic Bridge, or gate decision is independently current. It adds no current structure locus kind, checks, or mechanisms. A published crossing cites `CrossingRef` and direct-governor refs; an F.9 block is added only for a separately established semantic Bridge and bounded use.
 
-#### E.18:5.12 - S12 - Viewpoint Families To E.18 Constructs (neutral, holonic)
-**S12 use.** S12 is secondary viewpoint-mapping input for a current viewpoint-family mapping claim. It is not the ordinary E.18 core for naming a selected structure, flow valuation, path slice, or crossing.
+#### E.18:5.12 - S12 - Exact Viewpoint References To E.18 Constructs (neutral, holonic)
 
-E.18 does not mint new viewpoint or view kinds. It **imports** the generic multi-view machinery of E.17.0 `U.MultiViewDescribing`, bundles from E.17.1, and the TEVB engineering bundle from E.17.2. S12 only describes how these existing `U.Viewpoint` and `U.ViewpointBundle` ids are *used* in transformation-flow structures and in `UTS.ViewpointMap`; intent and concern semantics are governed by E.17.0-E.17.2.
+**S12 use.** S12 is secondary mapping input when a current use relates one exact viewpoint episteme to exact E.18 constructs. It is not the ordinary E.18 core for naming a selected structure, flow valuation, path slice, or crossing. One viewpoint mapping may stop after one row.
 
-**Two-part use of TEVB and MVPK (ISO 42010 summary, no local re‑definition).**
+**Imported interface, not a local viewpoint ontology.**
 
-* **Engineering viewpoints.** For engineering holons, E.18 assumes a TEVB bundle with `ViewFamilyId = VF.TEVB.ENG`. `EngineeringVPId` is one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`, and TEVB is the governing reference for their semantics. E.18 does not refine these viewpoints.
-* **Publication viewpoints.** Publication viewpoints come from MVPK (E.17); `PublicationVPId` is a `MVPK.ViewpointId` that governs faces under a `PublicationScope`.
-* **Architecture relation.** E.18 can supply the selected transformation-flow structure used by one exact `ArchitectureOf@Context` claim or by a use that selects that exact architecture structure. Name that claim or structure and its direct owner. Identify any C.2.1 description episteme, actual EntityOfConcern, effective reference scheme, ClaimScope, or `BoundedModelUseStructure` separately and only when the architecture use actually relies on it. E.18 does not define architecture itself, and a transformation-flow structure is not the functional architecture by default. Use `C.30`, `C.30.ASV`, and the architecture transformation-flow relation pattern when the selected structure is used in an architecture-flow relation. Structural crossings follow E.18 S9 and CC-E18-11/-23; any penalty additionally requires an independently governed policy and `PolicyIdRef`. Neither changes viewpoint semantics.
-* **Separation of roles.** `VP.*` from TEVB are **EngineeringVPId** values only; they are not publication faces. `PublicationVPId` values are defined in MVPK. The mapping between them is entirely via ISO-style correspondences and the `UTS.ViewpointMap`; E.18 does not define a second notion of viewpoint.
+- `E.17.0` defines how P gains `U.Viewpoint` membership, the `EpistemeViewpointConformanceRelation(E,P)` test between independently identified E and admitted P, and the rule by which E gains `U.View` membership.
+- `E.17.1` defines the catalogue form for exact L: the local family-declaration claim block inside `G_L`, its ordinary family designator, exact `U.ViewpointRef` members, subset and omission discipline, and catalogue provenance. It admits no `U.ViewpointBundle` kind.
+- `E.17.2` supplies a project-local TEVB authoring template. It ships no current catalogue L, family value, four references, or four P editions. Symbols such as `f_eng`, `r_functional`, and `P_functional` remain variables until one project supplies exact bindings.
+- `E.24.PUB` defines publication-form expression, carrier-bearing, publication-occurrence, and recurrence relations. Use `C.29` for a separately claimed representation or correspondence. Neither grants viewpoint or view membership.
 
-**Described-subject and publication scope (summary).**
+**Ordinary first move.** For one current S12 mapping:
 
-* **Engineering described subject.** TEVB may describe an already identified target holon (`U.System` or `U.Episteme`) under its `EntityOfConcernClassSpec`. That subject remains distinct from any `U.ContextSlice`, claim scope, description episteme, and selected `TransformationFlowStructure`; viewpoint mapping creates no context-holon or context-object identity. E.18 governs only the selected transformation-flow structure when that structure is under concern.
-  Transformation, method, procedure and control, allocation-responsibility structure, structural architecture, module, interface, and allocation terms remain viewpoint concern and content about that holon. A different EntityOfConcern requires one exact A.6.4 retargeting with its source and receiving subjects, invariant, applicability, and witness. If that use also needs correspondence between two different local senses, test the two exact F.17 cells and the F.9 Bridge separately, followed by the bounded-use claim and current reliance branch. If the only available route is A.6.4's parked legacy `KindBridge`/`CL` interface, return the D14.17.3 `missing-governor` stop.
-* **Publication described object.** MVPK can treat the *architecture description* itself as an EntityOfConcern; publication viewpoints for that AD are defined in MVPK, not here. E.18 only checks that such faces honor MVPK discipline and E.18 crossing rules when they publish selected transformation-flow material.
+1. identify exact catalogue L by the obtaining C.2.1 triple `<G_L, K_L, R_L>`;
+2. retrieve one local family declaration by its ordinary `familyDesignator` under `R_L`;
+3. name the exact retained subset `Sigma` and any omitted members needed to interpret that subset;
+4. select one exact `viewpointRef : U.ViewpointRef` from `Sigma` and resolve it under `R_L` to exact P; and
+5. name only the exact E.18 loci, transfer relations, gates, crossings, or valuations used by this mapping.
 
-**Naming rules (aligned with E.17.0, E.17.1, and E.17.2).**
-* `ViewFamilyId` is the `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB); its lexical and ontological discipline is governed by E.17.1.
-* `EngineeringVPId : ViewpointId` is always a `U.ViewpointId` drawn from some bundle (for TEVB, one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`). E.18 never defines new `VP.*` ids.
-* `PublicationVPId : ViewpointId` is a `MVPK.ViewpointId` defined in E.17; TEVB viewpoints are **never** reused as publication viewpoints (per TEVB guard and MVPK).
-* The unqualified field name `ViewpointId` is not valid in S12 rows. Use `EngineeringVPId`, `PublicationVPId`, or both explicitly; any imported row with an unqualified `ViewpointId` is normalized to `PublicationVPId` before the row is used.
+Stop there unless the current claim also says that an exact candidate episteme E is a view, publishes E, compares semantic contexts, or claims whole-family coverage. Those are separate branches below; family provenance and a familiar `VP.*` spelling establish none of them.
 
-**Terminology guards (no local semantics).**
-* Within S12, “viewpoint”, “view” and “correspondence” have exactly the meanings given in E.17.0; “publication face” means an MVPK face (`PlainView`, `TechCard`, `InteropCard`, `AssuranceLane`) under some `PublicationVPId`.
-* Faces are **carriers for views**: a face is part of a view only when linked via an ISO‑style `CorrespondenceRef` to an engineering `U.View` under some `EngineeringVPId`; S12 does not add extra conditions beyond E.17.0 and E.17.2.
-* Labels such as “Functional view”, “Procedural view”, “Allocation‑Responsibility view”, “Module‑Interface view” in this section are plain viewpoint labels for TEVB viewpoints; they are not interpreted as extra viewpoint kinds or as publication-face types.
+**Catalogue locator and designator discipline.** The legacy S12 pair `<editionId(L), ViewFamilyId>` is only a row spelling of E.17.1's compact retrieval locator `<editionDesignator(L), familyDesignator>`. Both components are ordinary designators interpreted under exact `R_L`; the locator aids retrieval and provenance but does not identify L, a bundle entity, a viewpoint, or a view. A token such as `VP.Functional` may remain as P's ordinary reader-facing designator after exact `viewpointRef -> P` resolution. It is not a `U.ViewpointId`, reference, family member, or conformance result.
 
-**Purpose.** Provide a neutral (F.18) mapping from TEVB engineering viewpoint families - bundle `VF.TEVB.ENG` with `VP.Functional`, `VP.Procedural`, `VP.AllocationResponsibility`, and `VP.ModuleInterface` - to E.18 constructs so that the same holon can be described through functional, procedural, allocation-responsibility, or module-interface viewpoints while the E.18 construct scope remains explicit. S12 does not introduce new `U.Viewpoint` or `U.View` kinds, and it does not claim that all such views share one underlying transformation-flow structure unless the structure, EntityOfConcernRef, and correspondence refs are declared.
+**Keep the relation positions separate.**
 
-**Holon target.** The mapping applies to any holon. A Work occurrence admitted under `U.Work` requires its actual performer `U.System`, exact obtaining covering `U.RoleAssignment`, enacted method, temporal extent, and containing `U.System`. The performer is the assignment's holder and performs the Work under that assignment; when explicit attribution identity is used, cite the canonical F.6 relation `performedUnderAssignment(W, RA)`. Merely being a System or structure locus creates no Work. Supervisory and structural hierarchies remain distinct (B.2.5).
+- **Selected viewpoint.** One singular `viewpointRef` resolves exact P for the current use. Importing a family or subset does not select P by itself.
+- **Candidate view.** If the row claims that exact E is a view under P, E is independently constituted under C.2.1 and the exact E/P conformance relation must obtain. The row does not create that relation.
+- **Selected transformation-flow structure.** Use E.18 for the selected `TransformationFlowStructure` and its loci, relations, paths, crossings, and valuations. Viewpoint selection does not make any of those objects obtain.
+- **Publication.** A publication form expresses the selected episteme for one bounded use; a presentation carrier bears the form; an E.24.PUB occurrence makes the selected episteme available. A form or carrier is never part of a `U.View` merely because it presents that view.
+- **Representation or correspondence.** When a form or other expression represents an independently recovered object or relation, cite the exact C.29 relation. A representation relation neither supplies E/P conformance nor makes the represented world-side relation obtain.
+- **Cross-context meaning.** Catalogue provenance is only provenance. If comparison crosses semantic contexts, resolve the exact F.17 cells, an obtaining F.9 Bridge, the separate bounded-use claim, and any required reliance branch; otherwise stop at lexical or structural contrast.
 
-**Viewpoint family to primary E.18 constructs (TEVB-aligned)**
-*All four families referenced below are TEVB engineering viewpoints; the "what ..." clauses are interpretive glosses for how they *use* E.18 constructs. Formal intent, concerns, and allowed episteme kinds remain in TEVB (E.17.2).*
-1) **Function-Oriented View (`EngineeringVPId = VP.Functional`, capability and transformation viewpoint)** - "what transformation is achieved under roles"
-    * **Flow valuation example:** P2W carry-through flow valuation through loci `U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus -> WorkPlanning locus -> later exact Work occurrence admitted under U.Work -> EvaluatingAndRefreshing locus`, where each illustrative locus label names a governed value or relation rather than a new `U.*` kind.
-    * **Publication:** MVPK publication faces per E.17; comparable claims pin `CG-Spec` and `ComparatorSet` editions; a structural crossing publishes `CrossingRef` and direct-governor refs. Add an F.9 Bridge block only for a separately established cross-semantic use.
-    * **Checks:** A.20 (CV) inside transformations; A.21 (GateFit) at gates; comparator, set-return, and No-Hidden-Scalarization discipline is carried through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` for current selector or comparator cases.
-    *  **Holonic note:** `U.Episteme` does not *act*; it is used by systems acting on carriers. An actual Work occurrence is admitted under `U.Work` only with its actual performer `U.System`, exact obtaining covering `U.RoleAssignment`, enacted method, temporal extent, and containing `U.System`. The system is the assignment's holder and performs the Work under that assignment; when explicit attribution identity is used, cite the canonical F.6 relation `performedUnderAssignment(W, RA)`.
-2) **Procedure‑Oriented View (`EngineeringVPId = VP.Procedural`, step and time storyboard)** — “what steps occur and when”
-    * **FPF constructs:** `U.WorkPlan` (A.15.2) for intent and schedule; an exact Work occurrence admitted under `U.Work` (A.15.1) for actual performance; and a separate assertion or record when the occurrence is described.
-    * **Boundary:** `OperationalGate(profile)` with `USM.LaunchGuard` consumes one exact `workEntryClaimRef` and may authorize or block an attempted run; it does not create or mediate ontic entry into Work. `DesignRunTag` separates design-time and run-time claims, and `DesignRunTagFrom` and `DesignRunTagTo` appear only at gates. If Work occurs, its occurrence identity and actual relations are grounded independently under A.15.1.
-    * **Holonic note:** Applies to any `U.System` scope (single holon or a supervised sub‑holon cluster); supervisory structure is handled by roles rather than structural mereology (B.2.5).
-3) **Allocation‑Responsibility and Device‑Structure View (`EngineeringVPId = VP.AllocationResponsibility`)** — “which systems, interfaces, constraints, role assignments, and responsibility allocations are relevant”
-    * **FPF constructs:** Module *interfaces* are `Signature` loci; module realizations are `Mechanism` loci; inter-module dependencies traverse `U.Transfer`, with gates on crossings.
+**Architecture and described-subject boundary.** E.18 can supply the selected transformation-flow structure used by one exact `ArchitectureOf@Context` claim or by a use that selects that exact architecture structure. Name that claim or structure and the pattern that defines it or the project relation that selects it. Identify any C.2.1 description episteme, actual EntityOfConcern, effective reference scheme, ClaimScope, or `BoundedModelUseStructure` separately and only when the architecture use actually relies on it. A second-order episteme may itself concern an architecture-description episteme, but only when C.2.1 independently identifies that description as its exact EntityOfConcern; the mapping row and publication form create no such identity. E.18 does not define architecture itself, and a transformation-flow structure is not the functional architecture by default. Use `C.30`, `C.30.ASV`, and the architecture transformation-flow relation pattern when the selected structure participates in an architecture claim. Structural crossings follow E.18 S9 and CC-E18-11/-23; any penalty additionally requires an independently governed policy and `PolicyIdRef`. Neither changes viewpoint semantics.
 
-    * **Publication:** MVPK faces are **typed projections**, not Work occurrences, performed-work records, or execution carriers; faces add **no new numeric claims** (E.17). Constraints and compatibility appear as CV checks (A.20).
-    * **Holonic note:** Structural mereology (part-whole structure of the carrier) is modeled in Part A; E.18 ties interface and exposure semantics to mathematical-lens expressions and gates only when those are current.
-    * **Device-view structural reinterpretation.** The same transformation-flow valuation may be described through a device-oriented view without changing the declared `TransformationFlowStructure`. A real `EntityOfConcernRef` change requires an exact A.6.4 retargeting and witness; if `CtxState` is unchanged, record it as a path-slice-local retargeting rather than a GateCrossing. If a `CtxState` binding changes, use a GateCrossing with that binding's direct governor. Do not infer a semantic Bridge, use licence, or gate result from the view change.
-    * **Role‑label guard.** `TypicalEnactorRoleName` is **pedagogical only** and is not used as a GateFit role; GateFit uses `U.Role` (A.21).
-4) **Module‑Interface View (`EngineeringVPId = VP.ModuleInterface`, physical and logical module structure)** — “what modules exist and how they specify commitments and constraints across interfaces”
-    * **FPF constructs:** Module *interfaces* are `Signature` loci; module realizations are `Mechanism` loci; inter-module dependencies traverse `U.Transfer`, with gates on crossings.
-    * **EntityOfConcernRef note:** A functional-view-to-element-structure change follows the Device-view rule above: exact A.6.4 retargeting first, then a GateCrossing only for changed `CtxState`; any semantic F.9 Bridge remains a separate relation and bounded-use question.
-    * **Holonic note:** The same module can appear as a holon in multiple views; supervisory loops (B.2.5) remain orthogonal to structural composition.
-This is an expandable list of viewpoint families; E.18 is intentionally viewpoint-neutral. Additional engineering bundles beyond TEVB (safety, mission, information, ...) are introduced as separate `U.ViewpointBundle` species via E.17.1 and E.17.2; S12 does not define them.
+One project-local TEVB viewpoint may describe an already identified target holon (`U.System` or `U.Episteme`) only after its exact P and target-kind criterion are recovered. That subject remains distinct from any `U.ContextSlice`, claim scope, description episteme, and selected `TransformationFlowStructure`; a mapping row creates no context-holon or context-object identity. A different EntityOfConcern requires one exact A.6.4 retargeting with its source and receiving subjects, source and receiving viewpoint references when current, invariant, applicability, and witness. If only A.6.4's parked legacy `KindBridge`/`CL` route is available, return the D14.17.3 `missing-governor` stop.
 
-**View-family label discipline for transformation-flow loci (recognition-only).**
-*Scope.* When a viewpoint-family mapping claim is current, a pattern or domain profile may declare `LocusViewFamilyLabels[]` for transformation-flow locus labels so practitioners can recognize familiar engineering wording while the selected structure stays governed by E.18. Semantics come from the referenced `U.ViewpointBundle`, E.18 locus binding, and MVPK correspondences; labels are recognition aids, not loci, viewpoints, publication faces, checks, or work records.
+**Purpose.** Provide a neutral F.18 mapping from one selected project-local engineering viewpoint reference to exact E.18 constructs so that one holon may be described through functional, procedural, allocation-responsibility, or module-interface concerns without turning those labels into viewpoint ids, family entities, publication forms, or view-membership evidence. S12 does not claim that several views share one underlying transformation-flow structure unless that exact structure, each candidate E, each exact P, and the obtaining relations are declared.
 
-*Norms.*
-1. Each current transformation-flow locus label may publish `LocusViewFamilyLabels[]` records of the form `{ ViewFamilyId, EngineeringVPId?, Label : TechASCII }`.
-   * If `ViewFamilyId = VF.TEVB.ENG`, then `EngineeringVPId` is one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}` (TEVB; CC-TEVB-1 and CC-TEVB-6).
-   * Other `ViewFamilyId` values denote `U.ViewpointBundle` instances defined elsewhere, not ad-hoc local families.
-2. Labels are recognition-only: no arithmetic, no new claims, no check participation, no `CtxState` slot writes or updates, and no `DesignRunTag` change. They do not create MVPK faces.
-3. Labels are not used as `PublicationVPId`; publication viewpoints remain in MVPK.
-4. Twin registers are allowed as Tech and Plain labels per E.10; naming follows F.18 local-first discipline.
+**Holon target.** The mapping applies to any admitted holon. A Work occurrence admitted under `U.Work` requires its actual performer `U.System`, exact obtaining covering `U.RoleAssignment`, enacted method, temporal extent, and containing `U.System`. The performer is the assignment's holder and performs the Work under that assignment; when explicit attribution identity is used, cite canonical F.6 `performedUnderAssignment(W, RA)`. Merely being a system, view, or structure locus creates no Work. Supervisory and structural hierarchies remain distinct under B.2.5.
+
+**Four project-local TEVB template positions and their E.18 mappings.** The four `r_*` and `P_*` names below are variables. A project may use a row only after its exact local reference resolves exact P. The quoted `VP.*` spellings are optional ordinary designators for reader recognition.
+
+1. **Function-oriented mapping** — selected `r_functional -> P_functional`; optional P designator `VP.Functional`; “what transformation is achieved under roles”.
+   - **Flow valuation example:** a P2W carry-through valuation through loci `U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> SelectionAndTuning locus -> WorkPlanning locus -> later exact Work occurrence admitted under U.Work -> EvaluatingAndRefreshing locus`, where each illustrative locus label names a governed value or relation rather than a new `U.*` kind.
+   - **Publication:** any publication uses exact E.24.PUB relations; comparable claims pin `CG-Spec` and `ComparatorSet` editions; a structural crossing publishes `CrossingRef` and direct-governor refs. Add an F.9 Bridge branch only for a separately established cross-semantic use.
+   - **Checks:** A.20 (CV) inside transformations; A.21 (GateFit) at gates; comparator, set-return, and No-Hidden-Scalarization discipline through `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` for current selector or comparator cases.
+   - **Holonic note:** `U.Episteme` does not act; systems use epistemes while acting on carriers. Work still needs its independently grounded performer, role assignment, method, and temporal extent.
+
+2. **Procedure-oriented mapping** — selected `r_procedural -> P_procedural`; optional P designator `VP.Procedural`; “what steps occur and when”.
+   - **FPF constructs:** `U.WorkPlan` (A.15.2) for intent and schedule; an exact Work occurrence admitted under `U.Work` (A.15.1) for actual performance; and a separate assertion or record when the occurrence is described.
+   - **Boundary:** `OperationalGate(profile)` with `USM.LaunchGuard` consumes one exact `workEntryClaimRef` and may authorize or block an attempted run; it does not create or mediate ontic entry into Work. `DesignRunTagFrom` and `DesignRunTagTo` appear only where their exact gate use requires them. If Work occurs, A.15.1 independently grounds its identity and actual relations.
+   - **Holonic note:** the target may be one system or a supervised sub-holon cluster. Represent supervision through roles, not structural mereology.
+
+3. **Allocation-responsibility mapping** — selected `r_allocation -> P_allocation`; optional P designator `VP.AllocationResponsibility`; “which systems, interfaces, constraints, role assignments, and responsibility allocations are relevant”.
+   - **FPF constructs:** module interfaces are `Signature` loci; module realizations are `Mechanism` loci; inter-module dependencies traverse `U.Transfer`, with gates on crossings.
+   - **Publication:** forms are typed expressions of selected epistemes, not Work occurrences, performed-work records, execution carriers, or sources of new numeric claims. Constraints and compatibility appear as CV checks under A.20.
+   - **Holonic note:** Use Part A for structural mereology. E.18 ties interface and exposure semantics to mathematical-lens expressions and gates only when those are current.
+   - **Device-view structural reinterpretation:** the same transformation-flow valuation may be described under a device-oriented concern without changing the selected structure. A real EntityOfConcern change requires exact A.6.4 retargeting; if a `CtxState` binding changes, use a GateCrossing with that binding's direct governor. Do not infer a semantic Bridge, use licence, or gate result from the viewpoint change.
+   - **Role-label guard:** `TypicalEnactorRoleName` is pedagogical only and never substitutes for the exact A.2.1 role or assignment used by GateFit or Work attribution.
+
+4. **Module-interface mapping** — selected `r_module -> P_module`; optional P designator `VP.ModuleInterface`; “what modules exist and how they specify commitments and constraints across interfaces”.
+   - **FPF constructs:** module interfaces are `Signature` loci; module realizations are `Mechanism` loci; inter-module dependencies traverse `U.Transfer`, with gates on crossings.
+   - **EntityOfConcern note:** a functional-to-element-structure change follows the device-view rule above: exact A.6.4 retargeting first, then a GateCrossing only for changed `CtxState`; any semantic F.9 Bridge remains a separate relation and bounded-use question.
+   - **Holonic note:** the same module can concern several view epistemes under separately resolved P editions; supervisory loops under B.2.5 remain orthogonal to structural composition.
+
+These four positions are one candidate local family shape, not four globally materialized members. Another safety, mission, information, assurance, or domain family is another local declaration inside an exact catalogue episteme L with exact references resolving exact admitted P editions. It is never introduced as a `U.ViewpointBundle` species.
+
+**View-family label discipline for transformation-flow loci (recognition only).** When a current mapping needs familiar wording, a pattern or domain profile may publish `LocusViewFamilyLabels[]` records of the form `{ CatalogueEpistemeRef, EditionDesignator, ViewFamilyDesignator, ViewpointRef, Label }`.
+
+1. `CatalogueEpistemeRef` resolves exact L; `EditionDesignator` and `ViewFamilyDesignator` reproduce the ordinary compact locator under `R_L`; `ViewpointRef` resolves exact P. If those values are absent, `Label` is only local orientation and makes no family or viewpoint mapping claim.
+2. Labels are recognition-only: no arithmetic, new claim, check participation, `CtxState` write, `DesignRunTag` change, conformance, or publication-form creation follows from them.
+3. A `VP.*` label is P's optional ordinary designator, never a substitute for `ViewpointRef` or P.
+4. Twin Tech/Plain registers may be used under E.10 and F.18.
 5. Do not name transformation-flow loci by operands or output states; an operation is not its operand or output state.
-6. `TypicalEnactorRoleName` can be added for pedagogy; it is not used as a GateFit role because GateFit uses `U.Role` only.
-7. Morphology: ASCII TitleCase; conjunctions use `And`; for composite operation labels use `XingAndYing` or `XAndYing` when grammar calls for it.
-8. The first-principles illustrative row used by one P2W case (`U.Signature(profile=FormalSubstrate)` through current evaluation or currentness relations) is informative. It neither defines general P2W nor changes kind or viewpoint semantics.
+6. `TypicalEnactorRoleName` may aid pedagogy but never fills a GateFit role or role assignment.
+7. ASCII TitleCase remains the local morphology convention; conjunctions use `And`, and composite operation labels use `XingAndYing` or `XAndYing` when grammar calls for it.
+8. The illustrative P2W row is informative. It neither defines general P2W nor changes kind, viewpoint, or Work semantics.
 
-**Conditional publication block — `UTS.ViewpointMap` (TEVB-aligned when current).**
+**Conditional publication block — `UTS.ViewpointMap`.** Publish this block only when an exact viewpoint-to-E.18 mapping claim is made or consumed. Ordinary E.18 use requires no map.
 
-Publish a UTS block named `ViewpointMap` only when an engineering or publication viewpoint-family mapping claim is made or consumed. Ordinary E.18 use does not require `UTS.ViewpointMap` when the question under repair is only the selected structure, flow valuation, path slice, or crossing.
+*Minimum row schema, when current:*
 
-*Minimum row schema (per row, when `ViewpointMap` is current).*
-* `ViewFamilyId` — `U.ViewpointBundle.viewFamilyId` (e.g. `VF.TEVB.ENG` for TEVB, or another bundle id).
-* `EngineeringVPId : ViewpointId` — a viewpoint from that bundle (for TEVB, one of `{VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}`).
-* `PublicationVPId : ViewpointId?` — MVPK publication viewpoint id that governs faces implementing this engineering view (optional if not publishing).
-* `TargetHolon ∈ {U.System, U.Episteme}` *(extension species must be admitted holon kinds by a direct governing pattern. `U.PromiseContent` and `U.MethodFamily` do not fill `TargetHolon` by label. If promise-content or method-family wording is current, recover the direct promise, method, description, work, or architecture governing pattern first, and use E.18 only for selected transformation-flow structures around an admitted target. If `TargetHolon != U.System`, this row cannot supply the System-holder basis required for an A.15.1 Work occurrence.)*
-* `PrimaryE18Constructs` - loci, transfer relations, and gates actually used for this `(ViewFamilyId, EngineeringVPId, TargetHolon)` (typically one of the four families above).
-* `Crossings{CrossingRef, ChangedBindingGovernorRefs[], GateId, DecisionLogRef?}` — only crossings actually used by this mapping.
-* `EditionPins{...}` whenever comparable claims appear, each resolving the exact edition owner; publication follows E.17 and does not require a Bridge Card merely because an edition is cited.
-* `SemanticBridgeUse?` — present only when the row separately identifies two exact F.17 `SchemeSenseCell` values, an obtaining F.9 Bridge, the C.2.1 claim for this mapped use, and any current reliance branch; absent otherwise.
-* *(REQUIRED when publishing)* `CorrespondenceRef[]` — ISO 42010 correspondences linking published faces to the engineering view(s) they implement; can cross architecture descriptions.
-* *Optional relation field* `ConcernsCovered[]` — ISO 42010 stakeholder concerns addressed by this row via GateProfiles and check catalogues.
+- `CatalogueEpistemeRef` — exact L, recoverable through `<G_L, K_L, R_L>`;
+- `CatalogueProvenance{EditionDesignator, ViewFamilyDesignator}` — the E.17.1 compact locator, corresponding to legacy row spellings `editionId(L)` and `ViewFamilyId`, for retrieval and provenance only;
+- `ViewpointRef : U.ViewpointRef` — one exact selected member of the declared retained subset;
+- `ResolvedViewpointEpistemeRef` — exact P resolved from `ViewpointRef` under `R_L`;
+- `ViewpointDesignator?` — optional ordinary reader label such as `VP.Functional`, never an id or reference;
+- `CandidateEpistemeRef?` and `EpistemeViewpointConformanceRelationRef?` — present together only when the row claims that exact E is a `U.View` under P;
+- `TargetHolonRef` — one admitted `U.System` or `U.Episteme`. A `U.PromiseContent` or `U.MethodFamily` label does not fill this field: recover the actual system or episteme concerned by the promise, method, description, work, or architecture claim, and use E.18 only for the selected transformation-flow structure around that admitted target. If the target is not `U.System`, the row supplies no performer basis for Work;
+- `PrimaryE18ConstructRefs[]` — exact loci, transfer relations, gates, paths, crossings, or valuations actually used;
+- `Crossings[]{CrossingRef, ChangedBindingGovernorRefs[], GateId, DecisionLogRef?}` — only crossings actually used by this mapping;
+- `EditionPins[]` — only when comparable claims consume exact editions; each pin resolves the exact edition and the independently identified value whose edition it names;
+- `SemanticBridgeUse?` — only with two exact F.17 cells, an obtaining F.9 Bridge, the separate bounded-use claim, and any required reliance branch;
+- `PublicationUse?{SelectedEpistemeRef, BoundedUseDeclarationRef, PublicationFormRef, PresentationCarrierRef, EpistemePublicationRelationRef}` — only when the selected episteme is actually published; and
+- `RepresentationRelationRef?` — only when one expression separately represents an independently recovered E.18 object or relation under C.29.
 
-**Conformance (S12-scoped, only when `ViewpointMap` is current).**
-(i) `UTS.ViewpointMap` exists when a viewpoint-family mapping claim is made or consumed.
-(ii) For each holon that claims TEVB alignment, there are at least four rows whose `{ViewFamilyId, EngineeringVPId}` cover `{VF.TEVB.ENG × {VP.Functional, VP.Procedural, VP.AllocationResponsibility, VP.ModuleInterface}}` (per CC-TEVB-1 and CC-TEVB-6).
-(iii) Rows that carry edition identifiers resolve each exact edition owner and publish the refs under E.17; edition citation alone creates no Bridge or Bridge Card duty.
-(iv) A row with `SemanticBridgeUse` resolves exactly two endpoint cells, an obtaining F.9 Bridge, its bounded-use claim, and the current reliance branch; a row without cross-semantic use carries none of that apparatus.
-(v) Any `TargetHolon = U.System` row that includes a prospective work-entry claim shows its `LaunchGate` with `DesignRunTag` consistency; any later `Work` locus points to an independently grounded exact Work occurrence rather than treating the gate decision as the occurrence.
-(vi) Crossings referenced in `ViewpointMap` resolve `CrossingRef`, every changed-binding governor, and the A.21 gate; comparability along mapped paths follows CC-E18-10.
-(vii) Rows do not use an unqualified `ViewpointId`; they use `EngineeringVPId`, `PublicationVPId`, or both` explicitly.
-(viii) When faces are published, `CorrespondenceRef[]` is present and resolvable to `U.Viewpoint` ids.
-(ix) Additional bundles (e.g. assurance, information, mission) can appear as extra `ViewFamilyId` values but are declared as `U.ViewpointBundle` species; they do not extend `VF.TEVB.ENG`.
+An optional `PublicationViewpointRef` may select another exact P for a publication-focused use, but it resolves and passes E.17.0 conformance independently. It does not map to the engineering P by label or turn the form or carrier into a view.
+
+**Whole-family coverage is a separate claim.** One row is sufficient for one-viewpoint use. Require four exact rows only when the current use makes one separately identified whole-family coverage claim over the materialized local TEVB declaration. That claim names exact L, the exact declaration, all four retained references, their resolved P editions, the target, and the coverage predicate. Saying “TEVB-like”, using four familiar labels, or importing one member does not make that claim.
+
+**Conformance (S12-scoped, only when `UTS.ViewpointMap` is current).**
+
+1. Every row resolves exact L, its local declaration, the retained subset, one exact `U.ViewpointRef`, and exact P; the locator and any `VP.*` token remain ordinary designators.
+2. E.17.0 supplies the membership test for P and the sole E/P conformance test for `U.View` membership. A row without an obtaining E/P conformance relation makes no view claim.
+3. One-viewpoint use needs only the selected row. Four rows are required only by an exact whole-family coverage claim satisfying the preceding paragraph.
+4. Every E.18 construct resolves to its exact value and every crossing to its exact relation occurrence. Each entry in `ChangedBindingGovernorRefs[]` names the fact or rule that permits the binding change; each gate resolves to the exact `OperationalGate(profile)` and its A.21 rule; each edition pin resolves to the independently identified value whose edition it names. The row creates none of them.
+5. A Work-related row preserves independent Work identity, performer, role assignment, enacted method, and temporal extent; a gate decision never becomes the Work occurrence.
+6. `SemanticBridgeUse` is absent unless its exact endpoint cells, obtaining Bridge, bounded-use claim, and required reliance path are all present. Provenance or equal labels never substitutes for it.
+7. A publication branch resolves E.24.PUB expression, bearing, and publication relations. Form and carrier remain distinct from E, P, and `U.View` membership; no correspondence-based part claim is allowed.
+8. A C.29 representation branch names its exact relation and makes no represented world-side relation obtain.
+9. Additional families are exact local declarations with exact members inside constituted catalogue epistemes, never instances or species of `U.ViewpointBundle`.
+10. An unresolved catalogue, declaration, reference, P, conformance claim, or whole-family coverage basis returns that exact missing-information or missing-governor stop rather than a label-based substitute.
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__010_consequences.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:9 — Consequences"
-line_start: 81205
-line_end: 81211
+line_start: 81406
+line_end: 81412
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.9"
   - "A.20"
   - "A.21"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.B"
   - "A.7"
@@ -40,6 +42,6 @@ keywords:
 
 - Explanation classes become explicit and reviewable.
 - Existing MVPK face discipline stays intact.
-- Pins, provenance, and evidence-binding become structural, not rhetorical extras.
+- The ordinary result stays compact; exact pins, provenance, trace, reader-model, and evidence details appear only for the concrete use that consumes them.
 - The boundary to interpretation, retargeting, and world or gate work becomes easier to review.
 

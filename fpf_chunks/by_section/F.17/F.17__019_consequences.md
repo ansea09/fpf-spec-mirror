@@ -6,12 +6,12 @@ section_id: "F.17:14.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__019_consequences.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.1 — Consequences"
-line_start: 96294
-line_end: 96301
+line_start: 96531
+line_end: 96538
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 ### F.17:14.1 - Consequences
 
-**Benefits.** Readers gain a stable route from one designation pair to the exact naming decision, governed value, direct owner, local sense, and admitted use without treating the table as ontology or publication proof.
+**Benefits.** Readers gain a stable route from one designation pair to the naming decision, governed value, defining or constraining rules, local sense, and admitted use without treating the table as ontology or publication proof.
 
 **Costs.** A tempting row waits until the independently governed value, F.14 disposition, naming settlement, exact cell, and any actual Bridge are current. Publication availability adds its own E.24.PUB objects only when needed.
 

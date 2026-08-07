@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.NET.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
-line_start: 84810
-line_end: 85205
+line_start: 85041
+line_end: 85436
 dependencies:
   - "A.1.STM"
   - "A.12"

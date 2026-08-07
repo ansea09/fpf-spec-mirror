@@ -6,12 +6,12 @@ section_id: "E.17.EFP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:2 — Problem"
-line_start: 80813
-line_end: 80821
+line_start: 80982
+line_end: 80990
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.9"
   - "A.20"
   - "A.21"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.B"
   - "A.7"
@@ -39,9 +41,9 @@ keywords:
 ### E.17.EFP:2 - Problem
 
 Without a dedicated profile:
-1. source-pinned rendering, reconstruction, didactic simplification, and speculation blur together;
+1. a form of the source, a rewritten target episteme, and a new hypothesis blur together;
 2. explanation prose starts behaving like a second semantic rule track;
 3. publication-side reviewers cannot tell which faces remain bounded-use for a given explanation class;
-4. pins, provenance, and evidence binding become optional rhetorical extras instead of explicit publication conditions;
-5. explanation work quietly shifts into new claims, hidden bridge work, or gate-facing misuse.
+4. source and evidence details are either demanded for every explanation or omitted when a named claim, dispute, derivative, or reliance actually needs them;
+5. an EFP class quietly substitutes for C.2.1 identity, an obtaining source-to-target relation, bridge work, or a gate decision.
 

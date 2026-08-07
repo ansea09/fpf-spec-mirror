@@ -6,19 +6,23 @@ section_id: "E.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__001_intro.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:intro — Intro"
-line_start: 80151
-line_end: 80191
+line_start: 80318
+line_end: 80362
 dependencies:
+  - "A.10"
   - "A.15.4"
+  - "A.20"
+  - "A.21"
   - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.P"
   - "C.29"
@@ -40,42 +44,46 @@ keywords:
 
 ## E.17 - Multi‑View Publication Kit
 > **Status:** Stable
-> **Type:** Part E publication-governance pattern
+> **Type:** Part E publication pattern
 > **Normativity:** Normative unless explicitly marked informative
 
-**At a glance.** Use `E.17` when one source-backed episteme, episteme-side view, morphism, or functional relation needs several readable publication faces for different readers without changing the underlying claim.
+**At a glance.** Use `E.17` when one already accepted engineering account must be published in one or more readable faces for different readers without changing its claims.
 
-**Use this when.** The engineering team needs a plain view, technical card, interoperability card, or `AssuranceLane` face that helps people read, inspect, exchange, or cite the same source-backed relation without turning the face into work occurrence, evidence, gate passage, assurance claim, engineering justification, control architecture, authority, or release permission by presentation alone.
+**Use this when.** The source account is already accepted for the present work, but a reader needs a plain explanation, technical card, interoperability card, or evidence-facing lane. The publication task is to expose the same account for that reader, not to create a new engineering claim, perform work, pass a gate, or establish assurance by presentation.
 
-**What goes wrong if missed.** A readable face, card, dashboard tile, export, generated explanation, or comparison view starts acting as evidence, work claim, gate passage, assurance claim, release permission, authority, or source relation merely because it is readable and well placed.
+**What goes wrong if missed.** A readable face can silently add, widen, or hide claims. The opposite failure is to make every publication start with a four-face kit, a newly authored viewpoint or bundle, and an assurance dossier even when one small face would answer the reader's question.
 
-**What this buys.** The publication face remains useful for orientation, inspection, exchange, and citation while the underlying episteme, publication scope, face kind, source relation, and any downstream typed value stay separately recoverable.
+**What this buys.** Each current reader gets the smallest useful face, the source remains recoverable, omitted detail and bounded use stay visible, and stronger identity or assurance apparatus is added only when a downstream use needs it.
 
-**First output.** One source-pinned publication face with the underlying `U.Episteme`, Description episteme, or Description episteme selected for specification use, publication scope, face kind, bounded publication use, and any present downstream typed value named only as far as the current use needs, such as a `GateDecision`, evidence path, work occurrence, status source, or authority-reference relation.
+**First action.** Point to the current source account and the engineering object or relation it describes, name the reader and what that reader must be able to understand or do, and choose only the face or faces needed for that use. Resolve an existing viewpoint when one already fits; do not author a new viewpoint or bundle merely to start publication.
 
-**Working publication move.** Publish one source-pinned face; separate source episteme or episteme-side view, face, carrier, bounded publication use, and any present downstream typed value plus its governing FPF pattern and reference; use the face for inspection, source-finding, review, exchange, or planning preparation; apply the neighboring FPF pattern governing that claim if work, evidence, gate, assurance, engineering-justification, authority, control, or release use is present.
+**First output.** One useful publication face, or the smallest necessary set, that names the source, intended reader/use, what it preserves or omits, and how to return to the source. No ClaimGraph, formal profile, viewpoint bundle, evidence package, or four-face completion is required for this ordinary result.
 
-**Ordinary formality rule.** If the face is used only for orientation, source-finding, review, comparison, or planning preparation, keep the publication light: one pinned face or compact card plus a clear bounded-publication-use line is enough.
+**Working publication move.** Select the current source; choose the minimum face set for the named readers; copy or conservatively arrange only source-backed claims; mark material omissions and the bounded use; publish and stop. If a face will carry safety, release, evidence, cross-context, or other consequential reliance, strengthen only that face with the relations and records that the reliance needs.
 
-**Load-bearing formality rule.** Add the fuller MVPK record only when the face will be used for external-impact reliance, cross-context exchange, evidence citation, gate or release pressure, engineering-justification use, disputed interpretation, or another use where a concrete overclaim would change the next engineering move.
+**Ordinary formality rule.** A source pointer, reader/use line, readable face, and visible omission or return note are enough when the face is used for orientation, inspection, explanation, comparison, exchange preparation, or planning preparation and no downstream identity depends on it.
 
-**Stop condition.** Do not create a new publication record merely because a face exists. Stop when the current face changes no next engineering move and blocks no concrete overclaim.
+**High-reliance formality rule.** When reliance changes the engineering move, identify the exact source edition; resolve the exact viewpoint and E.17.0 conformance only if `U.View` membership matters; identify the E.24.PUB publication occurrence, form, carrier, and bounded use when their identities matter; and cite the concrete evidence, gate, release, provenance, or assurance record that carries the downstream claim. These additions do not turn the face itself into that record.
 
-| Useful publication case | Ordinary reduced use | Overread to block |
+**Stop condition.** Stop as soon as every current reader has a useful face that preserves the needed claims and exposes its return to source. Do not create unused faces, fields, viewpoints, bundles, or assurance records for kit completeness.
+
+| Publication case | Smallest useful result | Overread to block |
 | --- | --- | --- |
-| A source-pinned MVPK face lets the team inspect one morphism, review it, exchange it, or prepare planning without changing the claim. | Source-finding or bounded inspection with no downstream claim or effect. | A face, screen, export, or diagram is treated as performed work, gate passage, evidence, engineering justification, supervisory relation or control relation, or release permission by layout or readability alone. |
-| A skill pack or MCP-backed access service exposes one framework face, pattern card, explanation, or retrieval result. | Framework access, source-finding, bounded inspection, or pattern-use orientation with edition and bounded-use visible. | The callable access carrier is treated as framework architecture, evidence about source material or source relation, currentness proof, tool permission, performed work, release authority, or gate authority by protocol availability alone. |
-| A README, preface, front matter, or publication carrier states scope, edition, intended use, or source pointers. | Orientation, source-finding, bounded inspection, edition awareness, or declared publication-use guidance. | The front matter or carrier is treated as truth, currentness proof, authorization, assurance, gate passage, work readiness, or source relation by publication appearance alone. |
+| A project lead needs a plain account and an integrator needs the corresponding typed details from one accepted interface account. | Publish only a plain face and a technical card, both pointing to the same source and stating their omissions. | The two faces are treated as different engineering claims or as a mandatory four-face bundle. |
+| A release or safety decision will rely on one face. | Strengthen that face with the exact source edition, any material viewpoint conformance, publication identity, and the separate gate, evidence, or assurance references. | The readable face or `AssuranceLane` is treated as the gate, evidence, assurance result, or release permission. |
+| A card is labelled `PlainView`, `TechCard`, or carries `viewpointRef`. | Treat the label or reference as publication metadata until the exact E.17.0 conformance relation for the selected episteme obtains. | A face label, readable layout, or packaged reference is taken to establish `U.View` membership. |
+| A skill pack or callable access service exposes a framework face or pattern card. | Use it for access, source-finding, and bounded orientation with edition and source return visible. | Protocol availability is treated as framework architecture, source evidence, permission, performed work, gate authority, or release authority. |
+| A README, preface, front matter, or other publication carrier states scope, edition, intended use, or source pointers. | Use it for orientation, source-finding, and edition awareness. | Publication appearance is treated as truth, currentness proof, authorization, assurance, gate passage, or work readiness. |
 
-**Boundary aid pointer.** If one encountered publication-facing unit is easy to interpret as work, evidence, gate, approval, status, explanation, comparison, or narrower-use rendering, handle one claim being made or effect at a time using `E.17:5.1d`.
+**Boundary aid pointer.** Use `E.17:5.1d` only when a publication-facing unit begins to carry a distinct work, evidence, gate, approval, status, explanation, comparison, or reduced-use claim. Ordinary publication of a source-backed face does not require that boundary map.
 
-Here in the first-screen interpretation, keep only the MVPK publication move: one source-pinned face, one bounded publication use, and neighboring FPF pattern governing any present typed downstream value only as far as the current use needs.
+At the first screen, keep only the current source, named reader/use, minimum useful face set, visible omissions, and return to source.
 
-**Not this pattern when.** Not this pattern when the issue under repair is performed `U.Work`, a work plan, work claim, evidence path, provenance path, assurance claim, engineering justification, gate decision, authority relation, control architecture, carrier work, OCR work, release decision, or a narrower-use rendering that needs its own source-bearing return. Use the FPF pattern that governs that issue.
+**Not this pattern when.** Use `A.15.1` for a performed-work claim, `A.10` for an evidence or provenance path, `B.3` for assurance or engineering justification, `A.20`/`A.21` for constraint or gate decisions, `A.7` for carrier work, and the relevant release or authority rule when that is the actual problem. E.17 only publishes the already accepted account and keeps those downstream claims separate.
 
 > **Tech-name:** `MultiViewPublicationKit` (**MVPK**)
 
-> **General publication-face form:** Plain `MVPK face` names the publication-form use of one selected `U.Episteme` edition under one exact publication `U.ViewpointRef`, one `U.PublicationScope`, declared pins where needed, and one bounded publication use. It is not a U-kind. The selected episteme is a `U.View` only when the E.17.0 conformance relation obtains; readable form alone adds no claim and grants no view membership. Evidence use, authority use, gate use, work use, assurance use, release use, and engineering-justification use require the neighboring FPF pattern governing that exact claim.
-> **USM binding (overview):** `PublicationScope` is a **USM‑class** object that parameterizes MVPK; see §5.0.
-> **Episteme-side view position.** MVPK can publish an already recognized `U.View`, or A.6.3 construction can yield a separately identified candidate episteme for a face. E.17.0 then tests that episteme independently against the exact viewpoint episteme resolved from `publicationViewpointRef : U.ViewpointRef`; `PublicationVPId` is that episteme's designator, not the reference. In the morphism profile, the selected episteme's exact EntityOfConcern is the governed morphism value `f : EpMorphism`; neither a face field nor a publication form substitutes for that C.2.1 identity. Publication occurrence, form, carrier, optional viewing construction, and `U.View` membership remain separate.
+> **General publication-face form:** In E.17, `MVPK face` refers by default to the publication form. The selected source episteme, any separately constructed receiving episteme, the bounded-use declaration, the publication occurrence, and the carrier remain different objects and are named explicitly whenever one of them is meant. A face is not a U-kind and does not become a `U.View`, evidence, assurance, gate decision, work occurrence, authority, or release permission by its label or readability. Source-edition, viewpoint, scope, occurrence, form, carrier, pin, or downstream-record identities are stated when they change the receiving use.
+> **USM binding (overview):** when publication-scope identity must travel, `U.PublicationScope` under A.2.6 carries that bound; an ordinary bounded-use line can precede that exact record. See §5.0.
+> **Episteme-side view position.** MVPK can publish an already recognized `U.View`, or it can publish another selected episteme without claiming view membership. When `U.View` membership is material, E.17.0 tests that same episteme against the exact `U.Viewpoint` episteme resolved from `publicationViewpointRef`; `PublicationVPId` is the viewpoint episteme's designator, not the reference. A.6.3 construction, E.17.0 conformance, E.24.PUB publication occurrence/form/carrier, and C.29 representation remain separate relations.
 

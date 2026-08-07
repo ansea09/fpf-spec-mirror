@@ -6,12 +6,12 @@ section_id: "C.32.HCS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:1 — Problem frame"
-line_start: 64875
-line_end: 64930
+line_start: 64918
+line_end: 64973
 dependencies:
   - "A.19"
   - "C.11"
@@ -36,9 +36,9 @@ keywords:
 
 ### C.32.HCS:1 - Problem frame
 
-Use this pattern when a practitioner must begin architecture-characteristic narrowing for a described holon, or for adjacent method-side, role-side, work-side, evidence-side, or cultural-evolution material after the governing pattern has been recovered, and the available source catalogues are too broad to choose the first project criteria rows.
+Use this pattern when a practitioner must choose a few architecture-characteristic starter heads for a described holon or for method, role-assignment, work, evidence, or cultural-evolution structures recovered from a source label, and the available catalogues are too broad to choose the first project criteria rows.
 
-Primary working reader: an architect or architecture-responsible practitioner choosing a small first set of architecture-characteristic heads for an admitted holon family, or for a recovered architecture-bearing family whose described holon, source-bearing episteme or publication context, and governing pattern are already named.
+Primary working reader: an architect or architecture-responsible practitioner choosing a small first set of architecture-characteristic heads for an admitted holon family or another recovered architecture-bearing family, after naming the described holon or source-bearing episteme or publication context and any recovery patterns actually used.
 
 Typical entry phrases:
 
@@ -48,9 +48,9 @@ Typical entry phrases:
 "A role assignment, organization, built asset, or evidence workflow has reliability-like pressure, but the bearer and scale are unclear."
 ```
 
-**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first restores the source label: the live holon is the review organization-as-system or bounded review-work context; the adjacent governed structures include a method relation structure, method descriptions, role assignments for role-holding systems, work-product structures, and evidence records. Only then does the practitioner inspect repeatability, transferability, evidence reuse, exception growth, and role-assignment substitutability, record teachability as a likely C.25 Q-Bundle, and carry only those starter heads and first project questions to `C.32.ACS`. The project starts from a small recovered architecture-bearing set instead of copying hundreds of names or admitting "practice" as a holon kind.
+**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system or bounded review-work context; the relevant structures include a method relation structure, method descriptions, role assignments for role-holding systems, work-product structures, and evidence records. Only then does the practitioner inspect repeatability, transferability, evidence reuse, exception growth, and role-assignment substitutability, record teachability as a likely C.25 Q-Bundle, and carry only those starter heads and first project questions to `C.32.ACS`. The project starts from a small recovered architecture-bearing set instead of copying hundreds of names or admitting "practice" as a holon kind.
 
-The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. HCS hands starter heads to ACS; Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 publications, and architecture decisions stay with their receiving patterns.
+The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. HCS hands starter heads to ACS; Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 publications, and architecture decisions stay with their patterns for the next questions.
 
 Ordinary working move: choose the starter pack for the admitted holon family or recovered architecture-bearing family, keep only the heads that plausibly fit the project, ask the first project question for each head, then hand those heads to `C.32.ACS` for bearer, scale, and use-class binding.
 
@@ -60,19 +60,19 @@ The first useful output is an `ArchitectureBearingFamilyCharacteristicStarterPac
 ArchitectureBearingFamilyCharacteristicStarterPack@FPF:
   architectureBearingFamilyRef:
   describedHolonOrCarrierContextRef?:
-  governingRecoveryPatternRefs?:
+  recoveryPatternRefs?:
   typicalSelectedStructureRefs:
   starterCharacteristicHeads:
     - architectureCharacteristicHead:
       usualBearerOrSelectedStructureRefs:
       likelyQBundleBoundary?:
       firstProjectQuestion:
-      usualReceivingPatternRef:
+      usualNextQuestionPatternRef:
   nonUniversalCaution:
   criteriaRowPatternRef: C.32.ACS
 ```
 
-What goes wrong if C.32.HCS is missed: the team faces hundreds of `-ility` or quality names, copies a catalogue, or starts from a software-module list even when the source object is called a method, role, culture, practice, built asset, or evidence workflow and still needs owner recovery.
+What goes wrong if C.32.HCS is missed: the team faces hundreds of `-ility` or quality names, copies a catalogue, or starts from a software-module list even when a source label such as method, role, culture, practice, built asset, or evidence workflow still hides what actually bears the characteristic.
 
 What C.32.HCS buys in practice: the practitioner has a short architecture-bearing starting point before `C.32.ACS` turns starter heads into project criteria rows, three to five optimization indicators, and monitored guardrails.
 

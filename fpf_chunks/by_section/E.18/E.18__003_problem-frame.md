@@ -6,12 +6,12 @@ section_id: "E.18:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__003_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:2 — Problem frame"
-line_start: 83014
-line_end: 83027
+line_start: 83231
+line_end: 83244
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.18:2 - Problem frame
 
-One selected `TransformationFlowStructure` can carry many **well-typed flow valuations** only while every valuation resolves to that same exact structure, its identified positions, and its obtaining internal `U.Transfer` occurrences. Under `VP.Functional`, those valuations may concern transformations of one already identified target holon, for example in a declared `U.Capability` or transformation claim. That target remains distinct from the selected structure and does not become a context object merely because an engineering description concerns it; the E.18 `EntityOfConcern` is the selected structure over transformations and adjacent governed positions.
+One selected `TransformationFlowStructure` can carry many **well-typed flow valuations** only while every valuation resolves to that same exact structure, its identified positions, and its obtaining internal `U.Transfer` occurrences. Under one exact function-oriented viewpoint P selected through an exact `U.ViewpointRef`, those valuations may concern transformations of one already identified target holon, for example in a declared `U.Capability` or transformation claim; `VP.Functional`, when used, is only P's ordinary designator. That target remains distinct from the selected structure and does not become a context object merely because an engineering description concerns it; the E.18 `EntityOfConcern` is the selected structure over transformations and adjacent governed positions.
 
 `E.18.1 P2W Problem-to-Work Carry-Through` begins with an accepted `ProblemCard@Context` claim and carries it into whichever directly governed method, plan, dated Work, transformation, evaluation, decision, entity, relation occurrence, interpretation, stop, branch, or local return becomes current. Before calling one of those values a result, say what it is a result of or for and cite the direct fact or binding that makes that reading true; otherwise stop. Use the adjacent Result-claim assurance expansion to classify that basis without mistaking the flow position for it. A first-principles specialization may traverse a path such as `U.Signature(profile=FormalSubstrate) -> U.PrincipleFrame -> U.Mechanism -> U.ContextNormalization (UNM) -> selector relation -> U.WorkPlan or plan-item relation -> one exact Work occurrence admitted under U.Work -> evaluation or currentness relation`. That is one possible transformation-flow path, not the definition or prescribed order of P2W: a P2W use may skip, branch, split, stop, return, or reopen, and every continuation remains governed by its direct pattern. Without a common **structure discipline**:
 

@@ -6,12 +6,12 @@ section_id: "E.17.EFP:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__011_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:10 — Rationale"
-line_start: 81212
-line_end: 81215
+line_start: 81413
+line_end: 81416
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.9"
   - "A.20"
   - "A.21"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.B"
   - "A.7"
@@ -38,5 +40,5 @@ keywords:
 
 ### E.17.EFP:10 - Rationale
 
-Explanation help already appears on existing faces, and the nearest failure mode is to let helpful prose shift into hidden source claims, bridge-comparison load, or gate-bearing guidance. `E.17.EFP` gives the reader one practical benefit: they can tell whether a rendering is source-pinned, reconstructive, didactic, or speculative, and therefore whether it can stay as explanation help, needs downgraded use, or has left this profile because the rendering has stopped being only explanation-facing help.
+Generated and model-facing explanation can hide source drift; ordinary human explanation can instead be burdened by a profile it does not need. EFP therefore keeps the ontic boundary and bounded-use benefit while making simpler-note non-use the default whenever it is equally effective.
 

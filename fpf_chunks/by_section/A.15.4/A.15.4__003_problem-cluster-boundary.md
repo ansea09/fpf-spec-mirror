@@ -6,12 +6,12 @@ section_id: "A.15.4:2"
 section_title: "Problem - Cluster Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__003_problem-cluster-boundary.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2 — Problem - Cluster Boundary"
-line_start: 25626
-line_end: 25629
+line_start: 25624
+line_end: 25627
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,5 +50,5 @@ keywords:
 
 ### A.15.4:2 - Problem - Cluster Boundary
 
-A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when a reliance appearance begins to justify a work claim or reliance claim and the team needs to recover the governing pattern position and project-side reference that carry that claim or effect. If the governing pattern and project-side reference are already known, use them directly and keep A.15.4 as the bounded repair relation.
+A.15 remains the kernel for separating `U.Role`, holder and context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and dated `U.Work`. A.15.4 starts only when a reliance appearance begins to justify a work claim or reliance claim and the team needs to recover the required relation or result, its project-side reference, and the rule or test that applies. If those are already known, use them directly and keep A.15.4 as the bounded repair relation.
 

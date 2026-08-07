@@ -6,12 +6,12 @@ section_id: "E.10:17"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__019_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:17 — Rationale"
-line_start: 75247
-line_end: 75255
+line_start: 75305
+line_end: 75313
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,9 +50,9 @@ keywords:
 
 ### E.10:17 - Rationale
 
-Wording mistakes in FPF usually matter because they hide an ontology choice; an obtaining direct-relation claim and its actual participants; a declaration-local A.6.5 `SlotSpec`; an assertion-side participant designation; a C.29 representation correspondence; a source-use relation; an admissible-use boundary; or a direct governing-pattern application. A synonym replacement can make the sentence smoother while changing the claim. `E.10` therefore starts with a cheap trigger scan and then returns the work to the smallest pattern that can govern the recovered object.
+Wording mistakes in FPF usually matter because they hide an ontology choice, relation and participants, declaration slot, participant designation, representation correspondence, source-use relation, admissible-use boundary, or applicable pattern. A synonym replacement can make the sentence smoother while changing the claim. `E.10` therefore starts with a cheap trigger scan; the practitioner then uses only the smallest pattern contribution needed for the recovered object.
 
-The pattern stays deliberately limited. It is not the ontology for evidence, assurance, work, gate, decision, publication, architecture, characteristic, temporal, role, method, mathematical-lens, or source-use claims. It only prevents wording from smuggling those claims in under broad heads. Once the recovered object or relation is visible, the direct governing pattern carries the substantive decision.
+The lexical rule content stays deliberately limited. It is not the ontology for evidence, assurance, work, gate, decision, publication, architecture, characteristic, temporal, role, method, mathematical-lens, or source-use claims. It only prevents wording from smuggling those claims in under broad heads. Once the recovered object or relation is visible, return to the relevant pattern or ordinary task. Name an exact subject assertion or `ClaimGraph` only when truth, action, comparison, publication, reuse, or reliance depends on that identity; a PatternID may remain an ordinary citation. The fuller form `System S used Method M while performing Work W` remains correct when actor, Method, and Work identity are themselves part of the claim, but it is not the default paraphrase of `apply pattern P`.
 
 The conformance prompts are bounded so lexical governance does not become a corpus-wide purity ritual. A local repair should restore composability, reader action, and admissible use; when it cannot do that, the honest result is quote-only use, reduced-use cue, blocked use, or an incomplete rewrite rather than a more polished umbrella word.
 

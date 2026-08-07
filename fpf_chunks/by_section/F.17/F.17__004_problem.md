@@ -6,12 +6,12 @@ section_id: "F.17:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__004_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2.1 — Problem"
-line_start: 95381
-line_end: 95384
+line_start: 95612
+line_end: 95615
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,5 +52,5 @@ keywords:
 
 ### F.17:2.1 - Problem
 
-The practical problem is to make one durable naming decision recoverable without turning its row, representation, or availability into the named object. One row therefore carries one decision or splits; every stronger claim leaves the row and returns to the direct pattern.
+The practical problem is to make one durable naming decision recoverable without turning its row, representation, or availability into the named object. One row therefore carries one decision or splits; any stronger claim leaves the row and uses its own defining or constraining rule.
 

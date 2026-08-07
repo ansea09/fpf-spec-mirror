@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__006_archetypal-grounding.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:5 — Archetypal Grounding"
-line_start: 79602
-line_end: 79610
+line_start: 79723
+line_end: 79731
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,12 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:5 - Archetypal Grounding
@@ -44,7 +38,7 @@ keywords:
 
 **Tell.** A viewpoint bundle library lets FPF say "use this already-defined viewpoint family" without confusing that family with the concrete views or publication faces that later realize it.
 
-**Show (System).** A TEVB engineering bundle can package exact `U.ViewpointRef` members `ref(VP.Functional)`, `ref(VP.Procedural)`, `ref(VP.AllocationResponsibility)`, and `ref(VP.ModuleInterface)` for holon descriptions. Each reference resolves the exact viewpoint episteme P designated by its corresponding `VP.*` token. Later `MultiViewDescribing` uses import that exact bundle edition and the needed reference subset rather than redefining the same engineering viewpoints each time.
+**Show (System; hypothetical template instance).** E.17.2 can guide one project to bind local references `r_functional`, `r_procedural`, `r_allocation`, and `r_module` to exact project P editions inside one constituted catalogue L. Until those bindings and their resolution under exact `R_L` exist, these names are variables and no reusable TEVB family value is present.
 
-**Show (Episteme).** A governance-oriented bundle can package exact `U.ViewpointRef` members `ref(VP.Risk)`, `ref(VP.Control)`, `ref(VP.Compliance)`, and `ref(VP.Operations)` as one reusable family for service or program descriptions. Each reference resolves the exact viewpoint episteme P designated by its corresponding `VP.*` token. Publication faces/forms may later expose that family, but the bundle itself remains a value inside a viewpoint-family catalogue `U.Episteme`, not the report publication face.
+**Show (Episteme; hypothetical family shape).** A project could bind local references for risk, control, compliance, and operations viewpoints in one exact catalogue declaration. The labels alone are not references or exact P editions; this example becomes reusable only after that project supplies complete `<G_L, K_L, R_L>`, exact bindings, and one ordinary family designator.
 

@@ -6,12 +6,12 @@ section_id: "E.10:22"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__024_relations.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:22 — Relations"
-line_start: 75311
-line_end: 75317
+line_start: 75369
+line_end: 75375
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,6 +52,6 @@ keywords:
 
 - **Builds on:** `A.7`, `C.2.1`, `E.17`, `E.24`, `A.6.0`, `A.6.5`, `F.18`, and `F.19` for EntityOfConcern discipline, description and publication separation, ontic discipline, slot discipline, naming, and phrase-level repair.
 - **Coordinates with precision-restoration patterns:** `E.10.ARCH`, `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `C.2.P`, `A.19.SPR`, `E.10.MOVE`, and the direct domain restoration pattern selected by the current trigger; `A.15.PROD` governs local production-work, entity-inception, and production-completion claims when that exit is current.
-- **Coordinates with governing patterns for governed objects:** architecture, transformation, work, evidence, assurance, gate, publication, source-use, mathematical-lens, characteristic, temporal, role, method, and relation patterns when those claims are current.
-- **Returns to:** the direct governing pattern whenever the issue is no longer wording-use precision but an object, relation, evidence, authority, work, publication, or admissible-use claim.
+- **Coordinates with patterns for these objects:** architecture, transformation, work, evidence, assurance, gate, publication, source-use, mathematical-lens, characteristic, temporal, role, method, and relation patterns when those claims are current.
+- **Use:** the concrete pattern for the recovered object, relation, evidence, authority, work, publication, or admissible-use claim whenever the issue is no longer wording precision.
 

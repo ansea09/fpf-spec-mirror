@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:2 — Problem"
-line_start: 79499
-line_end: 79513
+line_start: 79608
+line_end: 79622
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,12 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:2 - Problem
@@ -49,8 +43,8 @@ Without a viewpoint-bundle library pattern:
    A family called `functional`, `capability`, or `operational` may differ only lexically, or may differ semantically, but there is no disciplined place to tell which is which.
 3. **`MultiViewDescribing` cannot reuse a family cleanly.**
    Every instance must restate its finite viewpoint family locally instead of importing an existing bundle.
-4. **ISO 42010-style viewpoint libraries remain external.**
-   FPF lacks a native place where reusable viewpoint libraries can be expressed as first-class, reviewable objects.
+4. **Reusable viewpoint-library practice remains external.**
+   FPF lacks a native place where reusable viewpoint families can be expressed as reviewable catalogue content without importing a standard's ontology.
 5. **Reader-facing labels leak into semantics.**
    Authors reuse the same name for viewpoints, views, publication faces, or folders, and the boundary between EntityOfConcern and Description episteme becomes unclear.
 

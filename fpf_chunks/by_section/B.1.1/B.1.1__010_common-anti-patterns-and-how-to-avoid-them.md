@@ -6,12 +6,12 @@ section_id: "B.1.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 35614
-line_end: 35623
+line_start: 35631
+line_end: 35640
 dependencies:
   - "A.1"
   - "A.10"

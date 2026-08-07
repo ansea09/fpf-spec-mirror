@@ -6,12 +6,12 @@ section_id: "A.16.1:15"
 section_title: "Migration and Extension Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__016_migration-and-extension-notes.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:15 — Migration and Extension Notes"
-line_start: 27777
-line_end: 27787
+line_start: 27794
+line_end: 27804
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ Source prose often says merely "there is a signal" or "something suggests possib
 Contexts may add local cue-pack fields only if they remain preservation aids rather than covert route-decision or endpoint semantics.
 
 #### A.16.1:15.3 - Boundary reminder
-If a cue pack begins to carry route decision, stable endpoint authority, relation slots, method semantics, work semantics, or other later-pattern authority or signature conditions, this pattern no longer governs the publication by itself; open the pattern that owns the later claim.
+If a cue pack begins to carry a route decision, stable endpoint authority, relation slots, method or work semantics, or another claim with later authority or signature conditions, this pattern no longer suffices. Use the pattern that defines, constrains, or tests that claim, and publish the corresponding form.
 

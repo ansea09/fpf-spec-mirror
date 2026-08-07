@@ -6,12 +6,12 @@ section_id: "A.10:10"
 section_title: "Older source text interpretation and neighboring-pattern notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__014_older-source-text-interpretation-and-neighboring-pattern-notes.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10 — Older source text interpretation and neighboring-pattern notes"
-line_start: 23020
-line_end: 23031
+line_start: 23018
+line_end: 23029
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,8 +52,8 @@ Treat legacy names such as `manifest`, `creator`, `observer`, `symbol register`,
 - A manifest or source register is a carrier/publication or provenance description; recover the exact source, edition, claim, and direct relations it represents.
 - A `creator`, `observer`, producer, verifier, or maintainer participates only through dated work, `U.RoleAssignment`, and exact direct/A.6.1 bindings.
 - A method-instantiation note is not work. Recover the exact `U.Method`, generic MethodDescription claims, dated occurrence, enactment, ordering, participants, and result separately.
-- A `work result`, `measurement result`, `validation result`, or `verification result` label routes to the exact domain result and C.2.1 episteme; the legacy field name establishes neither.
+- A `work result`, `measurement result`, `validation result`, or `verification result` label requires the exact domain result and a separate C.2.1 episteme; the legacy field name establishes neither.
 - Resource rosters remain separate from carriers and provenance records.
 
-When older text also claims approval, permission, gate passage, assurance, causality, comparability, representation, publication effect, or decision, apply the neighboring direct governor and let A.10 retain only source recovery, provenance, bounded reliance, and contestability.
+When older text also claims approval, permission, gate passage, assurance, causality, comparability, representation, publication effect, or decision, use the pattern that defines or tests that additional claim and let A.10 retain only source recovery, provenance, bounded reliance, and contestability.
 

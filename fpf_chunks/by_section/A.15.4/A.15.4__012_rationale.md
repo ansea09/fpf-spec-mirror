@@ -6,12 +6,12 @@ section_id: "A.15.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:7 — Rationale"
-line_start: 25981
-line_end: 25986
+line_start: 25979
+line_end: 25984
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### A.15.4:7 - Rationale
 
-A.15.4 exists because work often first meets a source expression, source `U.Episteme`, source `U.EpistemePublication`, source-bearing relation, or composed source-relation chain through a display, publication face, generated explanation, copied statement, credential view, dashboard tile, schema wording, or API wording before the governing pattern position and project-side reference are visible. The pattern protects work momentum and recoverability together: it lets the practitioner use the reliance appearance for orientation or bounded source-finding, while preventing that appearance from becoming approval, evidence, assurance, gate passage, performed work, release authorization, role-assignment currentness, role-state currentness, or credential-status currentness by appearance.
+A.15.4 exists because work often first meets a source expression, selected source `U.Episteme`, exact publication occurrence, source-bearing relation, or composed source-relation chain through a display, publication face, generated explanation, copied statement, credential view, dashboard tile, schema wording, or API wording before the required relation or result and project-side reference are visible. Using A.15.4 lets the practitioner keep work moving with orientation or bounded source-finding while preventing that appearance from becoming approval, evidence, assurance, gate passage, performed work, release authorization, role-assignment currentness, role-state currentness, or credential-status currentness by appearance.
 
-The pattern is deliberately a local repair relation, not a new authority relation. Once the direct evidence, gate, assurance, role/state, work, publication, boundary, or permission/authority object selected in §3 is recovered, its direct pattern carries it.
+The repair is deliberately local and creates no new authority relation. Once the exact evidence, gate, assurance, role/state, work, publication, boundary, or permission/authority object selected in §3 is recovered, apply the predicate defined for it through `SubjectPatternLocator`. Resolve an exact defining or constraining `ClaimGraph` only when rule identity or edition changes this use; an ordinary PatternID is otherwise enough.
 

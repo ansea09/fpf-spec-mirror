@@ -6,12 +6,12 @@ section_id: "A.16:14"
 section_title: "Worked Move Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__015_worked-move-notes.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:14 — Worked Move Notes"
-line_start: 27141
-line_end: 27168
+line_start: 27145
+line_end: 27172
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -51,7 +51,7 @@ An operator alert note about a production disturbance may move:
 
 `notice -> stabilize -> route -> operationalize`
 
-The alert note does not need to become an anomaly statement immediately. It may first become a cue pack, then a routed cue set, and only then a typed operational form under the governing pattern.
+The alert note does not need to become an anomaly statement immediately. It may first become a cue pack, then a routed cue set, and only then a typed operational form whose method, work, or gate rule is named.
 
 #### A.16:14.2 - Inquiry move note
 An inquiry cue pack about a model-vs-observation discrepancy may move:
@@ -70,5 +70,5 @@ The following is not admissible:
 
 `notice -> gate decision`
 
-unless explicit intermediate publication and governing pattern transitions justify it. The trajectory discipline exists precisely to block such invisible leaps.
+unless explicit intermediate publications and changes in the applicable rule justify it. The trajectory discipline exists precisely to block such invisible leaps.
 

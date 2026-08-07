@@ -6,12 +6,12 @@ section_id: "C.27:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__012_sota-echoing.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:11 — SoTA-Echoing"
-line_start: 56693
-line_end: 56829
+line_start: 56713
+line_end: 56849
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -76,7 +76,7 @@ Currentness source set: as of June 2026, newer safe-learning MPC and safe-contin
 
 SoTA lesson to C.27 obligation map:
 
-| Modern lesson | C.27 obligation | Pattern that governs the other question |
+| Modern lesson | C.27 obligation | Applicable pattern for the other question |
 | --- | --- | --- |
 | MPC and control practice separates horizon, constraints, uncertainty, and feedback update. | Name control horizon and update only when the temporal claim is control-style. | `A.3.3 U.Dynamics`, C.16, C.19, C.24, evidence, and assurance patterns. |
 | OPE and safe RL separates behavior policy, evaluation policy, policy overlap, and unsafe-exploration risk. | Do not transfer evidence from policy A to policy B without behavior-policy, evaluation-policy, and `offPolicyRisk`. | `dyn2ControlPolicyRelation?` plus evaluation or control relations. |
@@ -102,7 +102,7 @@ Source id references:
 Control and MPC. Control-style claims need horizon, constraints, uncertainty,
 feedback update, and stability only when a control-style claim is being made. A local
 `Dyn2TemporalClaimAdequacyCard` can say "we plan to brake rollout for two weeks to protect operations-service capacity" without becoming MPC. If the claim is not control-style, do not fill
-control fields. A control claim used beyond the local working context needs the neighboring governing-pattern relation.
+control fields. A control claim used beyond the local working context needs the neighbouring pattern relation for that use.
 C.27 control or policy relation: `dyn2ControlPolicyRelation?` is present only when
 `dynClaimUseClass` is `controlModel`, `policyRule`, `adaptive`, a `planningModel` with feedback relation, or an explicit C.24, C.19, or evaluation relation. The block says that
 the temporal claim has crossed into control claim-use or policy claim-use; it does not make
@@ -179,7 +179,7 @@ The following lines connect common failures to C.27 action, not to a literature 
 
 | Popular failure | Modern correction | C.27 action |
 | --- | --- | --- |
-| Past slope is treated as a future control law. | Control or policy claims need horizon, update rule, constraints, and evidence or model relation. | If local, make a `Dyn2TemporalClaimAdequacyCard`; if reusable or control use is being made, include `dyn2ControlPolicyRelation?` and cite `U.Dynamics`, C.16, and assurance patterns as the patterns governing the other question. |
+| Past slope is treated as a future control law. | Control or policy claims need horizon, update rule, constraints, and evidence or model relation. | If local, make a `Dyn2TemporalClaimAdequacyCard`; if reusable or control use is being made, include `dyn2ControlPolicyRelation?` and cite `U.Dynamics`, C.16, and assurance patterns for the other questions. |
 | Data from one policy or regime is used to justify another. | OPE and RL practice asks behavior policy, evaluation policy, policy-overlap, uncertainty, and unsafe-exploration risk. | Keep ordinary `Dyn2TemporalClaimAdequacyCard` cheap; include `dyn2ControlPolicyRelation?` only when policy transfer is FPF-governed. |
 | One effort impulse is treated as the whole dynamic regime. | Dynamic-treatment-regime practice treats some interventions as sequences of decision rules. | Record policy or regime only in active block; do not make every Dyn2 a policy model. |
 | Rate changed after effort, so effort caused it. | Causal inference needs contrast or counterfactual, estimand, timing, outcome, assumptions, rival causes, and design. | Keep it as a planning assumption or diagnostic reading, or include `dyn2CausalUseRelation?`; `C.28` causal-use discipline carries the causal-use claim. |

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__006_archetypal-grounding.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:5 — Archetypal Grounding"
-line_start: 62061
-line_end: 62068
+line_start: 62102
+line_end: 62109
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,6 @@ dependencies:
   - "C.35"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -55,14 +54,6 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureStructureKindRef"
-  - "VF.ARCH.STRUCTURE"
-  - "architecture structural view"
-  - "correspondence"
-  - "hidden or lost structure"
-  - "source return"
-  - "structure kind"
-  - "viewpoint bundle"
 ---
 
 ### C.30.ASV:5 - Archetypal Grounding

@@ -6,12 +6,12 @@ section_id: "E.10:13"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__015_bias-annotation.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:13 — Bias-Annotation"
-line_start: 75197
-line_end: 75207
+line_start: 75255
+line_end: 75265
 dependencies:
   - "A.10"
   - "A.15"
@@ -54,8 +54,8 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: FPF-
 | Bias | How E.10 prevents it |
 | --- | --- |
 | Lexical-substitution bias | E.10 starts with trigger scan and governed-object recovery, not synonym replacement. |
-| Umbrella-to-umbrella bias | Broad heads such as support, basis, route, status, force, object, record, and posture are unpacked into governed pattern, relation, bearer, value set, admissible use, and blocked overread. |
+| Umbrella-to-umbrella bias | Broad heads such as support, basis, route, status, force, object, record, and posture are unpacked into the governed object, relation, bearer, value set, predicate or ordinary claim, admissible use, and blocked overread. Add an exact assertion, `ClaimGraph`, or pattern reference only when that identity changes truth, action, comparison, publication, reuse, or reliance. |
 | Semio-bias | Wording-use repair does not displace the EntityOfConcern; descriptions, publications, and source-use relations stay separate from the object or claim under concern. |
-| Pattern-as-actor bias | Patterns supply discipline and governing applications; they do not write, decide, authorize, send, or repair project objects by agency. |
+| Pattern-as-actor bias | Patterns supply rules or guidance; they do not write, decide, authorize, send, or repair project objects. |
 | Source-provenance-as-prose bias | Source wording can be quoted or bounded as source-only, but live FPF prose states the current norm rather than narrating where a term came from. |
 

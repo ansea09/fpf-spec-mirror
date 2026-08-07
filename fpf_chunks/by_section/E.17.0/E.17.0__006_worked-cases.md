@@ -6,23 +6,19 @@ section_id: "E.17.0:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_worked-cases.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:5 — Worked cases"
-line_start: 79384
-line_end: 79413
+line_start: 79483
+line_end: 79512
 dependencies:
   - "A.22"
-  - "A.6.2"
   - "A.6.3"
-  - "A.6.4"
   - "A.6.5"
-  - "A.7"
   - "C.13"
   - "C.2.1"
   - "C.29"
-  - "E.10.D1"
   - "E.10.D2"
   - "E.17"
   - "E.17.1"
@@ -48,7 +44,7 @@ Unchanged episteme E conforms to safety viewpoint P1 and maintenance viewpoint P
 
 #### E.17.0:5.4 - Viewpoint revision and library repackaging
 
-Moving unchanged viewpoint episteme P into another E.17.1 bundle edition changes packaging only. Revising P's conformance rules creates another episteme `P_new`; conformance of E to `P_old` does not imply conformance to `P_new`. An `EpistemeEditionRelation` may relate the editions, but it is not a conformance occurrence.
+Adding a reference to unchanged viewpoint episteme P to another E.17.1 local family declaration, or carrying it in another catalogue edition, changes only the catalogue declaration and provenance; it does not change P. Revising P's conformance rules creates another episteme `P_new`; conformance of E to `P_old` does not imply conformance to `P_new`. An `EpistemeEditionRelation` may relate the P editions, but it is not a conformance occurrence.
 
 #### E.17.0:5.5 - Two publications of one view
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:End"
 section_title: "E.17.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__022_e-17-1-end.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:End — E.17.1:End"
-line_start: 79870
-line_end: 79871
+line_start: 79996
+line_end: 79997
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,12 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:End

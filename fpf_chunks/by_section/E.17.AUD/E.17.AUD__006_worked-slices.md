@@ -6,12 +6,12 @@ section_id: "E.17.AUD:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD/E.17.AUD__006_worked-slices.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.AUD — PublicationUnit Stability Discipline - keep one publication unit stable enough to read honestly"
   - "E.17.AUD:5 — Worked slices"
-line_start: 82165
-line_end: 82198
+line_start: 82317
+line_end: 82350
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,9 +19,6 @@ dependencies:
   - "A.16.0"
   - "A.20"
   - "A.21"
-  - "A.6.3"
-  - "A.6.3.CR"
-  - "A.6.3.RT"
   - "A.7"
   - "B.3"
   - "C.11"
@@ -63,11 +60,11 @@ An onboarding explainer starts from one stable source-pinned note, but then the 
 
 A status card starts as one bounded summary of progress, then quietly becomes the place where people infer approval, assignment, or go or no-go claim or effect. The problem is no longer only publication-unit stability. The honest move is to stop treating the card as if it were still only one neutral note and use the downstream decision, gate, work, or reliance publication.
 
-#### E.17.AUD:5.6 - Compact scenario and anti-case pack
+#### E.17.AUD:5.6 - Quick contrasting cases
 
 Use this quick contrast set when the first interpretation is still foggy:
 
-| Near-miss case | What to look for | Honest governing pattern or project-side-reference boundary |
+| Near-miss case | What to look for | Honest next pattern or project reference |
 | --- | --- | --- |
 | `LHR-only` | one overloaded local lexical head is doing most of the semantic work while the publication unit under review otherwise stays stable | apply `Local Head Restoration` |
 | `whole-unit interpretation shift` | the publication unit under review quietly changes primary EntityOfConcern or carried publication move | apply `PublicationUnit Primary EntityOfConcern Discipline` |

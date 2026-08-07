@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__010_consequences.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:9 — Consequences"
-line_start: 79637
-line_end: 79645
+line_start: 79758
+line_end: 79766
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,20 +31,14 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:9 - Consequences
 
 | Benefit | Trade-off / Mitigation |
 |---|---|
-| **Reusable viewpoint families.** Stable bundle ids let many projects reuse the same family without restating it. | Libraries need governance and edition discipline. |
+| **Reusable viewpoint families.** Stable family designators within exact catalogue editions let many projects reuse the same declaration without restating it. | Catalogues need maintenance and edition discipline. |
 | **Cleaner `MultiViewDescribing`.** A use can import a reviewed bundle instead of spelling out every viewpoint locally. | Local exceptions must be made explicit rather than hidden in prose. |
-| **Better architectural alignment.** ISO 42010-style viewpoint-library practice gains a native FPF catalogue episteme. | Initial bundle authoring requires care in naming and grounding. |
-| **Lexical hygiene.** Bundle ids, viewpoint ids, views, publication faces, and publication forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
+| **Reusable catalogue without imported ontology.** A repeated-reference problem inside current FPF gains one local catalogue episteme while ISO 42010 remains vocabulary lineage rather than evidentiary authority or imported ontology. | Initial catalogue authoring requires care in exact C.2.1 constitution, reference resolution, and grounding. |
+| **Lexical hygiene.** Family designators, viewpoint designators, views, publication faces, and publication forms stop collapsing into one label. | Authors must learn the separation once and then keep it. |
 

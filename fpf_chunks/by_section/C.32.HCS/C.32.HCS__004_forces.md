@@ -6,12 +6,12 @@ section_id: "C.32.HCS:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:3 — Forces"
-line_start: 64937
-line_end: 64946
+line_start: 64980
+line_end: 64989
 dependencies:
   - "A.19"
   - "C.11"
@@ -40,7 +40,7 @@ keywords:
 |---|---|
 | Broad catalogues | Standards, textbooks, and local sources offer many possible quality names. |
 | Project attention | A project needs a small first set of draft criteria rows, not a catalogue. |
-| Bearer recovery | The same head can recur across admitted holon families and adjacent governed structures, but the governing pattern, bearer, and scale change. |
+| Bearer recovery | The same head can recur across admitted holon families and adjacent structures, but the family, bearer, scale, and any needed source-label recovery can change. |
 | Software-source overfit | Mature software sources are useful but overfit to code modules, services, and operations if copied. |
 | Q-Bundle boundary | Many `-ility` heads are composite quality families, not one architecture characteristic. |
 

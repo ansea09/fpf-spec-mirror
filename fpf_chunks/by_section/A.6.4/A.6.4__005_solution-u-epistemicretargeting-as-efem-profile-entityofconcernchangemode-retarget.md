@@ -6,12 +6,12 @@ section_id: "A.6.4:4"
 section_title: "Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-u-epistemicretargeting-as-efem-profile-entityofconcernchangemode-retarget.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:4 — Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
-line_start: 15282
-line_end: 15539
+line_start: 15279
+line_end: 15537
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -49,7 +49,7 @@ When a retargeting claim has FPF-governed use, the receiving text makes these de
 
 | Field | Required interpretation |
 | --- | --- |
-| `sourceEpistemeOrPublication` | The source `U.Episteme`, `U.EpistemePublication`, episteme-lane `U.View`, or specific source publication being retargeted or cited. |
+| `sourceEpistemeOrPublication` | The exact source `U.Episteme` or same-individual episteme-lane `U.View` being retargeted or cited. When availability, form, or carrier matters, name the exact E.24.PUB publication occurrence, form, and carrier separately. |
 | `receivingEpistemeOrPublication` | The receiving episteme, publication, view, diagram, table, functional description, explanation, `StructuralReinterpretation`, or `E.18`-facing publication item. |
 | `sourceEntityOfConcern` | The EntityOfConcern before retargeting. |
 | `receivingEntityOfConcern` | The EntityOfConcern after retargeting. |
@@ -65,7 +65,7 @@ When a retargeting claim has FPF-governed use, the receiving text makes these de
 | `lossAndRecoverability` | Preserved distinctions, lost distinctions, recoverability goal, recoverability evidence, and source-bearing reopen condition. |
 | `admissibleUse` | The admissible use named by value now. |
 | `nonAdmissibleUse` | The downstream work, evidence, gate, assurance, bridge, decision, abductive, transformation-flow path, temporal, or dynamics use that is not carried by the current item. |
-| `neighboringGoverningPatternRef` | The FPF pattern that governs the neighboring claim being made, when one is present. |
+| `neighboringPatternLocator` | The FPF pattern that defines or constrains the neighboring claim being made, when one is present. |
 | `remainingAdmissibleReaderAction` | One short plain line saying what the reader may now do or which neighboring pattern now carries the claim being made. |
 
 The decision block is not a new FPF kind, record, profile, publication form, or hidden evidence or justification object. It is a recoverable field set for retargeting cases. Ordinary local retargeting can stay compact when the source EntityOfConcern, receiving EntityOfConcern, bridge, invariant, and remaining reader action are already explicit.
@@ -74,17 +74,18 @@ If the bridge or invariant is insufficient for the intended use, the receiving i
 
 #### A.6.4:4.2 - Signature (A.6.0 / A.6.5 alignment)
 
-**Signature header.**
-`U.EpistemicRetargeting` is a morphism profile under A.6.0, specialised from EFEM:
+**Direct signature components.**
+`U.EpistemicRetargeting` is a morphism profile under A.6.0, specialised from EFEM. Its direct declaration components are:
 
 ```
-SubjectBlock
-  SubjectKind    = U.EpistemicRetargeting
-  RangedValueKind = ⟨X:U.Episteme, Y:U.Episteme⟩      // episteme pair
-  Quantification = SliceSet := ContextSliceSet;
-                   ExtentRule := admissible retargeting morphisms
-  ResultKind     = EpMorphism                        // local typed arrow r in the Ep category
+SubjectKind     = U.EpistemicRetargeting
+RangedValueKind = pair of U.Episteme values <X, Y>
+ResultKind      = EpMorphism
+SliceSet        = ContextSliceSet
+ExtentRule      = admissible epistemic-retargeting morphisms in each selected slice
 ```
+
+`X` and `Y` are respectively the domain and codomain epistemes, and `EpMorphism` is the local mathematical-lens arrow value `r : X -> Y`. The changed EntityOfConcern, `KindBridge`, invariant, and loss boundary belong to the retargeting laws and the direct bridge relations below; they are not fields of an additional signature container. `SliceSet` and `ExtentRule` remain current because receiving uses rely on the admitted retargeting family varying by selected slice.
 
 **Vocabulary (re‑uses A.6.2).**
 
@@ -97,7 +98,7 @@ SubjectBlock
   * `dom(r), cod(r) : U.Episteme`
   * `subjectRef(-) : SubjectRef`
 * **Slot‑level discipline.**
-  Domain and codomain epistemes are instances of some `U.Episteme` species (typically `U.EpistemeCard`, `U.EpistemeView`, or `U.EpistemePublication`) whose episteme kinds each provide SlotSpecs (A.6.5) including at least:
+  Domain and codomain are exact `U.Episteme` values of governed dependent kinds; either may also be the same individual as a `U.View` when E.17.0 conformance obtains. Publication form, carrier, and availability occurrence do not define an episteme species. Their episteme kinds each provide SlotSpecs (A.6.5) including at least:
 
   * `EntityOfConcernSlot` (ValueKind `U.Entity`, RefKind `U.EntityRef`, usually restricted to an `EntityOfConcernClass ⊑ U.Entity`),
   * `GroundingHolonSlot?` (ValueKind `U.Holon`, RefKind `U.HolonRef`),
@@ -150,14 +151,14 @@ For any `r:X→Y` in `U.EpistemicRetargeting`:
 
    * `ViewpointSlot`, if present:
      * is either preserved, or
-     * changed only within a declared `U.ViewpointBundle` (E.17.1/E.17.2), with the corresponding `CorrespondenceModel` explaining how the invariant is maintained under the new viewpoint.
+     * changed only after exact `sourceViewpointRef` and `receivingViewpointRef` are recovered as members of the retained subset of one local family declaration inside one exact catalogue episteme L, each resolving under `R_L` to exact `P_source` and `P_receiving`. Catalogue and family provenance only bound the eligible references; the exact retargeting or correspondence witness separately explains how the invariant is maintained under the receiving viewpoint.
 
 1. For any episteme that is a `…Description`/`…Spec` (E.10.D2), `subjectRef` decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`. Under EpistemicRetargeting:
    * `EntityOfConcernRef` **MUST** change from `T₁` to `T₂` as in ER‑0,
    * `BoundedContextRef` is:
      * either preserved, or
      * changed along an explicit Context‑Bridge (E.10.D1, Part F),
-   * `ViewpointRef` is treated as in (2) above (preserved or mapped within a bundle), and any resulting change in admissible claims is governed by ER‑2.
+   * `ViewpointRef` is treated as in (2) above: preserved, or changed between exact source and receiving references resolved from the same exact catalogue edition and local family declaration, and any resulting change in admissible claims is governed by ER‑2.
 
 The pair `<EntityOfConcernSlot, GroundingHolonSlot>` is treated as a **retargeted EoC/grounding bundle**: many practical retargetings work at the level of this bundle rather than EntityOfConcern alone, especially where `E.18` `StructuralReinterpretation` is used.
 
@@ -245,7 +246,7 @@ Each species of `U.EpistemicRetargeting` MUST declare an **Applicability profile
    * or may move along specific holon Bridges with CL^plane penalties.
 
 3. **Viewpoint/context constraints.**
-   Whether retargeting is allowed for all viewpoints or only for specific `U.ViewpointBundle`s (TEVB etc.), and any requirements on `BoundedContextRef`.
+   Whether retargeting is allowed for all exact viewpoint epistemes or only between exact source and receiving `U.ViewpointRef` members resolved from a named local family declaration in one exact catalogue L; state `<G_L, K_L, R_L>`, the ordinary family designator, the retained subset, both reference-to-P resolutions, and any requirements on `BoundedContextRef`.
 
 4. **CL‑discipline.**
    Minimum CL^k and CL^plane required for the Bridges used, aligning with F.9 and the `E.18` `StructuralReinterpretation` rules.
@@ -280,7 +281,7 @@ Boundary rules:
 - if decoded or latent output is interpretable but not tied to source claim, access relation, recoverability evidence, admissible-use value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
 - if changed problem formulation changes abductive prompt, candidate generation, rival-set formation, selected prime hypothesis, plausibility filtering, or abductive reopen, use `B.5.2`;
-- if the receiving item is used as work, evidence, assurance, gate passage, temporal claim, dynamics law, or control relation, use `A.15`, `A.10`, `B.3`, `A.21`, `C.27`, `A.3.3`, or the neighboring governing pattern.
+- if the receiving item is used as work, evidence, assurance, gate passage, temporal claim, dynamics law, or control relation, use `A.15`, `A.10`, `B.3`, `A.21`, `C.27`, `A.3.3`, or another pattern that defines or tests the current claim.
 
 `StructuralReinterpretation` in `E.18` receives retargeting semantics from this pattern. It is not an `E.18`-local retargeting kind and not proof that the source and receiving items preserve the same `entityOfConcernRef`.
 

@@ -6,12 +6,12 @@ section_id: "A.16:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:1 — Problem frame"
-line_start: 26998
-line_end: 27002
+line_start: 26996
+line_end: 27000
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,7 +45,7 @@ keywords:
 ---
 
 ### A.16:1 - Problem frame
-Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for how governed `U.Episteme` publications change, narrow, reopen, or transfer responsibility across that chart. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or an invisible sequence of governing pattern replacements.
+Once positions in the declared language-state `U.CharacteristicSpace` chart from `C.2.2a` are explicit, teams still need admissible move kinds for preserving or re-expressing selected `U.Episteme` content in publication forms, narrowing or reopening it, and docking it to a later use. Those moves must not collapse into a second formality-only climb, a generic one-pass process story, or invisible jumps into later pattern-based claims.
 
-A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while still remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or responsibility-transfer history become governance-relevant.
+A single local move note is often enough. Only some cases need a full trajectory account. The coordination pattern therefore has to stand independently while remaining compatible with `A.16.0` when lineage, branch structure, loss notes, or the history of an actual responsibility handoff must remain inspectable.
 

@@ -6,12 +6,12 @@ section_id: "A.16:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__008_conformance-checklist.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:7 — Conformance Checklist"
-line_start: 27080
-line_end: 27091
+line_start: 27084
+line_end: 27095
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,11 +48,11 @@ keywords:
 - `CC-A.16-1` `A.16` **MUST NOT** redefine `F` or publish a second formality-only climb.
 - `CC-A.16-2` A conforming move note **MAY** stand alone; `A.16.0` **SHALL NOT** be treated as mandatory wrapper syntax for every move.
 - `CC-A.16-3` Every move kind **SHALL** name its preconditions and postconditions over explicit language-state facets, route state, or authority state.
-- `CC-A.16-4` Publication form, governing pattern, and MVPK face **SHALL NOT** be collapsed into one unnamed target.
-- `CC-A.16-5` Multi-route state inside one governed member **SHALL NOT** be confused with lineage fork across several successor members.
-- `CC-A.16-6` `respecify` **SHALL NOT** be used to hide slot-explicit epistemic precision repair that belongs to later repair governing patterns.
+- `CC-A.16-4` Publication form, the next applicable pattern and rule, and MVPK face **SHALL NOT** be collapsed into one unnamed target.
+- `CC-A.16-5` Multi-route state inside one route-bearing publication **SHALL NOT** be confused with a lineage fork across several successor members.
+- `CC-A.16-6` `respecify` **SHALL NOT** hide slot-explicit epistemic precision repair; use the applicable `A.6.P`, `C.16.Q`, or `A.6.A` rule.
 - `CC-A.16-7` Retreat or retirement **SHALL** preserve, withdraw, or discard prior witnesses and authority explicitly.
 - `CC-A.16-8` Published path structures **SHOULD** reuse `E.18` when a graph publication is needed.
-- `CC-A.16-9` `AuthorityState` and `EndpointAdmissionProfile` reuse **SHALL NOT** be treated as new governing patterns, new route-bearing forms, or substitutes for gate or work state.
-- `CC-A.16-10` A summarized multi-move publication **SHALL** keep intermediate governing pattern transitions reconstructible; otherwise the case must reopen or publish richer history.
+- `CC-A.16-9` `AuthorityState` and `EndpointAdmissionProfile` reuse **SHALL NOT** create new patterns, route-bearing forms, or substitutes for gate or work state.
+- `CC-A.16-10` A summarized multi-move publication **SHALL** keep intermediate changes in the applicable pattern, rule, and authority reconstructible; otherwise the case must reopen or publish richer history.
 

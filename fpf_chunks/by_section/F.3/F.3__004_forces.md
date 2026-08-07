@@ -6,12 +6,12 @@ section_id: "F.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
   - "F.3:3 — Forces"
-line_start: 90300
-line_end: 90308
+line_start: 90531
+line_end: 90539
 dependencies:
   - "A.11"
   - "A.7"

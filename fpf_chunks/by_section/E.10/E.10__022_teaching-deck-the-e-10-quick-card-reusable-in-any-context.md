@@ -6,12 +6,12 @@ section_id: "E.10:20"
 section_title: "Teaching deck — the E.10 quick card (reusable in any Context)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__022_teaching-deck-the-e-10-quick-card-reusable-in-any-context.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:20 — Teaching deck — the E.10 quick card (reusable in any Context)"
-line_start: 75287
-line_end: 75299
+line_start: 75345
+line_end: 75357
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,7 +52,7 @@ keywords:
 
 > **Say it cleanly, once (memorise):**
 > **Role** = role value - **RoleAssignment** = assignment relation - **Method** = one admitted way of doing - **MethodDescription** = one claim-bearing episteme about that exact method with at least one substantive way-of-doing claim - **`U.Work`** = admitted kind - **one Work individual** = one world-side dated occurrence admitted under it - **work assertion, description, log, or record** = a separate `U.Episteme`; occurrence facts obtain through their direct relations
-> **Capability** = can-do within bounds (envelope + measures) - service or access wording = recover the exact subject or relation through L-SERV and A.6.P:4.11a, then use its direct owner; no default service bundle
+> **Capability** = can-do within bounds (envelope + measures) - service or access wording = recover the subject or relation through L-SERV and A.6.P:4.11a, then use the pattern for that recovered claim; no default service bundle
 > **EntityOfConcern and Description-episteme boundary separates the EntityOfConcern from Description epistemes; specification use is a gated use of a Description episteme**; **publication faces, forms, units, and carriers do not act**; meaning use is interpreted within named Contexts; Bridge records state cross-context correspondence, direction, loss, and scope.
 
 **Name forms (allowed morphology):**

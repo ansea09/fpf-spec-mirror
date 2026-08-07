@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution - trigger scan, ontology recovery, and retained register"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-trigger-scan-ontology-recovery-and-retained-register.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Solution - trigger scan, ontology recovery, and retained register"
-line_start: 74457
-line_end: 74469
+line_start: 74507
+line_end: 74519
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,5 +59,5 @@ keywords:
 5. **Canonical Rewrites** for overloaded words (L‑rules);
 6. **Conformance Checklist (CC‑LEX)** and **Regression Stubs (RSCR‑LEX)**.
 
-The retained clauses below apply only within that selected problem and only insofar as they do not contradict the current applicability table or the governing pattern selected by value.
+The retained clauses below apply only within that selected problem and only when they agree with the current applicability table and the pattern that defines or constrains the recovered claim.
 

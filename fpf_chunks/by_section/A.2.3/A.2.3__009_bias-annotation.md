@@ -6,7 +6,7 @@ section_id: "A.2.3:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__009_bias-annotation.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:5.1 — Bias-Annotation"
@@ -60,5 +60,5 @@ keywords:
 
 A.2.3 repairs the collapse of several service-related referents into one service label. A visible service name often denotes provider, access point, method, work, commitment, ticket, evidence, and promised outcome without saying which claim is current. The pattern recovers the promise-content episteme first; A.2.8 then governs commitment, A.2.1 provider participation, A.3.2 access description, A.15.1 delivery work, A.10 evidence claims, and the direct outcome and acceptance patterns their respective relations.
 
-In a contract or SLA agreement, an A.2.8 `U.Commitment` may have promise content in its referents position. A contract document, SLA publication, service catalog, API page, or offer publication may be a `U.PresentationCarrier` for `U.EpistemePublication` values describing the agreement, promise content, commitment, or fulfilment work. These relations, epistemes, and carriers retain separate identities.
+In a contract or SLA agreement, an A.2.8 `U.Commitment` may have promise content in its referents position. A contract document, SLA publication, service catalog, API page, or offer publication may be a `U.PresentationCarrier` bearing a form that expresses selected `U.Episteme` values about the agreement, promise content, commitment, or fulfilment work. An exact `EpistemePublicationRelation` may make each selected episteme available to its declared audience for its bounded use. These commitments, epistemes, forms, publication occurrences, and carriers retain separate identities.
 

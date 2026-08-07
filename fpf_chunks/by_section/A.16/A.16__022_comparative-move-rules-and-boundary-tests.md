@@ -6,12 +6,12 @@ section_id: "A.16:21"
 section_title: "Comparative Move Rules and Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__022_comparative-move-rules-and-boundary-tests.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:21 — Comparative Move Rules and Boundary Tests"
-line_start: 27306
-line_end: 27316
+line_start: 27312
+line_end: 27322
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,10 +47,10 @@ keywords:
 ### A.16:21 - Comparative Move Rules and Boundary Tests
 
 #### A.16:21.1 - Comparing move histories
-Move histories may be compared across contexts only if the compared moves are typed by publication form, governing pattern, and authority effect. Comparing one context's `route -> projection` chain to another context's `cue -> requirement` leap as though they were the same "formalization speed" is a category mistake.
+Move histories may be compared across contexts only if the compared moves are typed by publication form, applicable pattern or rule, and authority effect. Comparing one context's `route -> projection` chain to another context's `cue -> requirement` leap as though they were the same "formalization speed" is a category mistake.
 
 #### A.16:21.2 - No maturity-climb compression
-A multi-move chain shall not be redescribed as one generic climb in maturity, rigor, or readiness. The admissible comparison is over move kinds, facet shifts, route states, governing pattern crossings, and authority effects.
+A multi-move chain shall not be redescribed as one generic climb in maturity, rigor, or readiness. Compare move kinds, facet shifts, route states, changes in the applicable pattern or rule, and authority effects.
 
 #### A.16:21.3 - Boundary test for hidden-lineage laundering
 If an endpoint claim depends on prior move publications that are not visible anywhere in the publication chain, reviewers should assume hidden-lineage laundering until the missing move records are supplied. `A.16` exists precisely to prevent such invisible transitions.

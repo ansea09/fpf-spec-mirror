@@ -6,12 +6,12 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like statements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__015_evidence-carriers-for-quantum-like-statements.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10a — Evidence carriers for quantum-like statements"
-line_start: 23032
-line_end: 23037
+line_start: 23030
+line_end: 23035
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 ### A.10:10a - Evidence carriers for quantum-like statements
 
-Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, source episteme/publication, carrier, producing or interpreting dated work, method, actual bindings, time/currentness, rival explanation, bounded use, unsupported attempted use, and `RelianceDisposition`. Route ordinary measurement to C.16, probe/frame effects to the relevant C.26 pattern, Bridge loss to F.9, representation to C.29, and material assurance to B.3.
+Use A.10 when a quantum-like statement is being relied on. Name the minimal claim, selected source episteme and edition, any material publication occurrence, form, or carrier, producing or interpreting dated work, method, actual bindings, time/currentness, rival explanation, bounded use, unsupported attempted use, and `RelianceDisposition`. Use C.16 for ordinary measurement, the relevant C.26 pattern for probe/frame effects, F.9 for Bridge loss, C.29 for representation, and B.3 for material assurance.
 
-The `quantum-like` label has no evidence weight. A descriptive graph may represent the exact source and use relations only after their direct governors establish them.
+The `quantum-like` label has no evidence weight. A descriptive graph may represent the source and use relations only after those relations are established.
 

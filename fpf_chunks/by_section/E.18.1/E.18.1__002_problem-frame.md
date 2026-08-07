@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 83594
-line_end: 83630
+line_start: 83825
+line_end: 83861
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -64,7 +64,7 @@ Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcer
 
 **So-what adoption test.** Use P2W only when keeping the accepted distinction changes which relation you assert, what result you write, or whether you continue, split, stop, or return. If the relation and result are already settled and P2W would add only another note, skip P2W and apply the direct pattern.
 
-E.11.PUA governs a smaller use and may begin without `ProblemCard@Context`: use one selected pattern for one current practical question and obtain its first independently governed result or honest stop. That ordinary use may stop there; name a receiving use only when the enclosing P2W continuation or another actual later use is current. E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
+E.11.PUA covers a smaller use and may begin without `ProblemCard@Context`: use one selected pattern for one current practical question and reach the smallest useful result that truthfully answers it, or an honest stop. That ordinary use may stop there; name a receiving use only when the enclosing P2W continuation or another actual later use is current. E.18.1 begins only when the wider work-facing continuation depends on preserving accepted problem-side material. PUA may support one pattern inspection inside a P2W flow, but it does not replace the accepted-problem carry-through.
 
 
 #### E.18.1:1.1 - Use this when

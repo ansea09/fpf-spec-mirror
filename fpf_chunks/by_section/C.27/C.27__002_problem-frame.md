@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:1 — Problem frame"
-line_start: 55014
-line_end: 55129
+line_start: 55034
+line_end: 55149
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -55,7 +55,7 @@ keywords:
 
 #### C.27:1.1 - Causal-use boundary
 
-`C.27` can say that a temporal claim is dynamic, intervention-sensitive, rate-sensitive, inertia-sensitive, braking-sensitive, coasting-sensitive, or rhythm-sensitive. When the temporal claim already depends on a causal-use question, `causalInterventionSpecRef`, comparator or counterfactual, estimand, assignment or intervention window, causal follow-up window, outcome measure, `causalAssumptionSetRef`, `rivalCauseSetRef`, identification strategy, counterfactual-sampling realizability claim, `CausalUseEvidenceDesignRecord`, supported causal use, or unsupported causal use, cite `C.28` as the governing causal-use source.
+`C.27` can say that a temporal claim is dynamic, intervention-sensitive, rate-sensitive, inertia-sensitive, braking-sensitive, coasting-sensitive, or rhythm-sensitive. When the temporal claim already depends on a causal-use question, `causalInterventionSpecRef`, comparator or counterfactual, estimand, assignment or intervention window, causal follow-up window, outcome measure, `causalAssumptionSetRef`, `rivalCauseSetRef`, identification strategy, counterfactual-sampling realizability claim, `CausalUseEvidenceDesignRecord`, supported causal use, or unsupported causal use, use `C.28` for the causal-use question.
 
 What changes in practice: a sentence such as "this effort changes adoption speed" may remain a `Dyn2` temporal claim, but "this intervention causes adoption speed to improve" must also declare its `C.28` causal-use class, supported causal use, and unsupported causal use.
 
@@ -140,7 +140,7 @@ record, recover:
 - what evidence, trace, assumption, model, or diagnostic judgement supplies the reason for the reading;
 - what use the claim can carry and what downstream claim, effect, or use remains unsupported;
 - when the simplified reading should reopen, downgrade, or cite the fuller
-  FPF pattern that governs the other question.
+  applicable FPF pattern for the other question.
 
 The pattern buys practical action, not a vocabulary test. A person can explain
 the check as: "A trend is not yet an intervention model; show the effort,

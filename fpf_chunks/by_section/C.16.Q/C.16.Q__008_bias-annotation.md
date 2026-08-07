@@ -6,12 +6,12 @@ section_id: "C.16.Q:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__008_bias-annotation.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:6 — Bias-Annotation"
-line_start: 48284
-line_end: 48293
+line_start: 48304
+line_end: 48313
 dependencies:
   - "A.10"
   - "A.16"
@@ -43,6 +43,8 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "C.25"
+  - "C.30.AD"
+  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
   - "E.17.0"

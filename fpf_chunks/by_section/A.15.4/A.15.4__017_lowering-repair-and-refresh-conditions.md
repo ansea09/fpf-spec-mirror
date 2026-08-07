@@ -6,12 +6,12 @@ section_id: "A.15.4:9.3"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__017_lowering-repair-and-refresh-conditions.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9.3 — Lowering, Repair, and Refresh Conditions"
-line_start: 26019
-line_end: 26026
+line_start: 26017
+line_end: 26024
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,9 +50,9 @@ keywords:
 
 ### A.15.4:9.3 - Lowering, Repair, and Refresh Conditions
 
-Lower an `A.15.4` use when the attempted work or reliance claim, governing pattern position, relying context/window, or one required evidence, gate, assurance, role/state, work, publication, boundary, or permission/authority object selected in §3 cannot be recovered. The lowered use is orientation, source-finding, contested use, bounded reversible probe, repair request, or blocked unsupported claim.
+Lower an `A.15.4` use when the attempted work or reliance claim, required relation or result, relying context/window, or one required evidence, gate, assurance, role/state, work, publication, boundary, or permission/authority object selected in §3 cannot be recovered. The lowered use is orientation, source-finding, contested use, bounded reversible probe, repair request, or blocked unsupported claim.
 
-Repair the local `A.15.4` record when its appearance, source currentness, revocation, source order, dashboard/credential publication, copied/generated source relation, boundary wording, or work-result cue changes. Repair the recovered value through its direct evidence, assurance, gate, constraint, role/state, work, publication, boundary, or §3 permission/authority owner; A.15.4 does not absorb that owner's repair.
+Repair the local `A.15.4` record when its appearance, source currentness, revocation, source order, dashboard/credential publication, copied/generated source relation, boundary wording, or work-result cue changes. Repair the recovered value through the applicable evidence, assurance, gate, constraint, role/state, work, publication, boundary, or §3 permission/authority pattern; A.15.4 does not replace the repair defined there.
 
-Refresh before allowing the reliance appearance to guide release, safety, compliance, delegated role-assignment or role-state, contested source relation, cross-context reuse, work-result reliance, external-impact reliance, or irreversible work. Stop the refresh at the smallest changed governing pattern value or source relation: reliance appearance, source `U.Episteme` for the current claim, `U.EpistemePublication` exposing the claim-bound source relation, governing pattern position, source-currentness relation, role-state record, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or work-governed relation.
+Refresh before allowing the reliance appearance to guide release, safety, compliance, delegated role-assignment or role-state, contested source relation, cross-context reuse, work-result reliance, external-impact reliance, or irreversible work. Stop at the smallest changed prerequisite or source relation: reliance appearance, selected source `U.Episteme` for the current claim, exact `EpistemePublicationRelation` occurrence when availability is material, publication form or carrier when either changed, required relation or result, source-currentness relation, role-state record, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or work relation.
 

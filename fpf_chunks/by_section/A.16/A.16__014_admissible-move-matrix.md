@@ -6,12 +6,12 @@ section_id: "A.16:13"
 section_title: "Admissible Move Matrix"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__014_admissible-move-matrix.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:13 — Admissible Move Matrix"
-line_start: 27122
-line_end: 27140
+line_start: 27126
+line_end: 27144
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,13 +53,13 @@ keywords:
 | `stabilize` | low-articulation preserved cue | `U.PreArticulationCuePack` or equivalent early preservation form becomes admissible | cue nucleus, anchors, witnesses, and preservation rationale |
 | `route` | cue pack or stabilized note | `RoutedCueSet` or equivalent route-bearing publication becomes admissible | route plurality, selected route if any, route rationale, route authority state |
 | `projection` | routed cue or selected route | a typed route-bounded publication form rendered on an existing MVPK face | what is foregrounded, what is omitted, and how reopen remains admissible |
-| `formalize` | explicit but not yet formal-enough publication | a named `U.EpistemePublication` form with higher articulation or closure governed by a later formal pattern becomes admissible | new symbolic or slot structure and governing-pattern entry |
-| `operationalize` | method-facing, work-facing, or gate-facing publication | a method-facing, work-facing, or gate-facing `U.EpistemePublication` form governed by a later method, work, or gate pattern becomes admissible | hook governing pattern, guard, authority grounds, and work crossing if any |
+| `formalize` | explicit but not yet formal-enough publication | a more articulated claim-bearing `U.Episteme` is admitted using a later formal pattern; when availability matters, form, bounded use, and the `E.24.PUB` occurrence are named separately | new symbolic or slot structure and the rule used to justify it |
+| `operationalize` | method-facing, work-facing, or gate-facing publication | the claim-bearing episteme or project record is named under the pattern that defines or tests that method, work, or gate use; `E.24.PUB` separately handles any form and availability occurrence | applicable rule, guard, authority grounds, and work crossing if any |
 | `reopen` | route-bearing or endpoint-bound publication | same family with reduced closure | which rivals reopen and what authority falls |
 | `sketchBackoff` | over-rigid form | exploratory cue-bearing form such as `U.PreArticulationCuePack` or `RoutedCueSet` | withdrawn authority and retained witnesses |
 | `respecify` | plausible family under wrong framing scaffold | same family with revised framing scaffold or route specification | replaced framing commitments and invariants that stay fixed |
 | `retire` | cue pack, route-bearing publication, or branch | retired / withdrawn state with successor or no-successor note | why continuation stopped and what now carries authority |
 
 #### A.16:13.2 - Invariance reminder
-An admissible move may change articulation, closure, representation, route, authority, or publication form, but it shall not silently rewrite governing pattern boundaries. A move does not justify retyping a cue into any convenient governing pattern.
+An admissible move may change articulation, closure, representation, route, authority, or publication form, but it shall not silently switch the endpoint rule claimed to apply. Naming a convenient PatternID does not justify retyping a cue.
 

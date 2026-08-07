@@ -6,19 +6,23 @@ section_id: "E.17:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__002_intent.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:1 — Intent"
-line_start: 80192
-line_end: 80195
+line_start: 80363
+line_end: 80366
 dependencies:
+  - "A.10"
   - "A.15.4"
+  - "A.20"
+  - "A.21"
   - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.P"
   - "C.29"
@@ -40,5 +44,5 @@ keywords:
 
 ### E.17:1 - Intent
 
-Provide a disciplined way to publish one source episteme or episteme-side view across multiple didactic faces without adding semantics, while keeping publication viewpoints explicit and auditable. The canonical formal profile is morphism publication: a small publication-face kit applied to a governed morphism value, typically `EpMorphism` under A.6.2, yields a family of face-use epistemes and forms whose conceptual representation can be checked against arrow composition, edition, and measurement pinning.
+Let a practitioner publish the few readable faces that current readers actually need from one accepted engineering account, without adding claims or turning publication metadata into engineering authority. The optional morphism profile keeps the earlier compositional publication tests for uses that genuinely publish morphisms; it is not the entry price for ordinary publication.
 

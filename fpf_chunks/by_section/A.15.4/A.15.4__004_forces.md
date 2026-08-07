@@ -6,12 +6,12 @@ section_id: "A.15.4:2.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:2.1 — Forces"
-line_start: 25630
-line_end: 25639
+line_start: 25628
+line_end: 25637
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,9 +52,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Work momentum vs. governing-position recoverability | Teams need to keep work moving, but a reliance appearance can make the wrong claim look like work authorization when the governing pattern position is still unnamed. |
+| Work momentum vs. prerequisite recoverability | Teams need to keep work moving, but a reliance appearance can make the wrong claim look like work authorization while a required relation or result is still unnamed. |
 | Cheap first note vs. high-impact reliance | Routine source-finding should stay light, while release, safety, compliance, role-assignment, credential-status, role-state, and gate cases need more fields. |
-| Publication face vs. governing pattern value | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side FPF kind and reference named by value. |
-| Neighboring governed claims vs. local repair | A.15.4 can recover the missing governing pattern position for the attempted work or reliance use, but evidence, gate, assurance, boundary, work-occurrence, and the permission/authority object selected by the §3 branch return to their direct owners. |
-| Repeated ambiguity vs. individual burden | Repeated ambiguity about the required claim, instituted effect, or governing position should become governing-position or source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
+| Publication face vs. required value | The visible carrier may be useful for orientation, but the work or reliance claim belongs to the project-side FPF kind, relation or result, and reference named by value. |
+| Neighboring claims vs. local repair | A.15.4 can recover a missing prerequisite for the attempted work or reliance use, but evidence, gate, assurance, boundary, work-occurrence, and the permission/authority object selected by the §3 branch use the patterns and tests that define them. |
+| Repeated ambiguity vs. individual burden | Repeated ambiguity about a required claim, instituted effect, relation, result, or reference should become prerequisite-lookup or source-relation repair work, not repeated manual reconstruction by every acting practitioner. |
 

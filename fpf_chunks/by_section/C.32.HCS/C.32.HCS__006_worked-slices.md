@@ -6,12 +6,12 @@ section_id: "C.32.HCS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__006_worked-slices.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:5 — Worked slices"
-line_start: 64998
-line_end: 65007
+line_start: 65041
+line_end: 65050
 dependencies:
   - "A.19"
   - "C.11"
@@ -38,9 +38,9 @@ keywords:
 
 **Engineered-system family.** A field-device project starts from reliability, maintainability, substitutability, evidence reuse, locality, and source-return cost. `C.32.ACS` later marks only maintainability, substitutability, and evidence reuse as optimization indicators; safety and availability remain guardrails.
 
-**Method-side family.** A source calls a reusable review method "the practice." HCS restores the described review organization-as-system or bounded review-work context, then treats method relation structure, method descriptions, work products, role assignments, and evidence records as adjacent governed structures. The starter heads are repeatability of enactment, transferability, evidence reuse, exception growth, and role-assignment substitutability. Teachability belongs to C.25 because it combines learner scope, measures, mechanisms, and evidence.
+**Method-side family.** A source calls a reusable review method "the practice." HCS resolves the label to the described review organization-as-system or bounded review-work context, then keeps the method relation structure, method descriptions, work products, role assignments, and evidence records separate. The starter heads are repeatability of enactment, transferability, evidence reuse, exception growth, and role-assignment substitutability. Teachability belongs to C.25 because it combines learner scope, measures, mechanisms, and evidence.
 
 **AI-agent workflow.** A retrieval-action setup starts from evidence refresh, policy controllability, latency, observability, and rollback. Benchmark performance stays a benchmark signal or comparison input until an architecture bearer and scale row are named.
 
-**Starter-pack proxy near-miss.** A review team copies availability, throughput, and testability from a software quality catalogue because the list looks mature. The copied heads make the starter pack look complete, but they hide exception growth, evidence reuse, and role-assignment substitutability, which are the architecture concerns that will later govern review work. C.32.HCS keeps the catalogue terms as source catalogue wording, restores the method-side and role-side governing patterns, and carries only rebound questions to `C.32.ACS`.
+**Starter-pack proxy near-miss.** A review team copies availability, throughput, and testability from a software quality catalogue because the list looks mature. The copied heads make the starter pack look complete, but they hide exception growth, evidence reuse, and role-assignment substitutability, which are the architecture concerns that matter to review work. C.32.HCS keeps the catalogue terms as source wording; A.3.1 and A.15 separate the Method, descriptions, assignments, and Work, while A.2.7 supplies the role-relation structure. HCS carries only the rebound questions to `C.32.ACS`.
 

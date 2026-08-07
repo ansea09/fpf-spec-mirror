@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:17"
 section_title: "Edition and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__018_edition-and-migration-notes.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:17 — Edition and Migration Notes"
-line_start: 79814
-line_end: 79836
+line_start: 79937
+line_end: 79959
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,19 +31,13 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:17 - Edition and Migration Notes
 
 #### E.17.1:17.1 - Rename vs semantic change
 
-A lexical rename that leaves viewpoint meaning and membership unchanged may be treated as a naming-layer migration. A change in membership, concern, admissibility, or member semantics is not just a rename; it requires a new edition or a new local bundle.
+A lexical rename that leaves viewpoint meaning and membership unchanged may be treated as a naming-layer migration. A change in membership, concern, admissibility, or member semantics is not just a rename; it requires another catalogue edition or family declaration.
 
 #### E.17.1:17.2 - Migration from local `Sigma` lists
 
@@ -51,14 +45,14 @@ Legacy `MultiViewDescribing` uses often publish only one local list of viewpoint
 
 1. identifying recurring families across several such local lists,
 2. publishing those families as explicit bundles,
-3. then rewriting the local families to import the new `ViewFamilyId` and declare any subset selection explicitly.
+3. then rewriting the local families to import the new ordinary family designator and declare any subset selection explicitly.
 
 This sequence preserves provenance and avoids pretending that the reusable family had always existed.
 
 #### E.17.1:17.3 - Migration from publication-face/form-bound naming
 
-If a legacy practice uses one label interchangeably for a viewpoint family, a viewpoint, a report section, and a publication face, migration separates those positions explicitly. `ViewFamilyId` remains at the bundle layer; exact `U.ViewpointRef` values resolve P while any `ViewpointId` is only P's designator; publication-face names remain publication-layer vocabulary.
+If a legacy practice uses one label interchangeably for a viewpoint family, a viewpoint, a report section, and a publication face, migration separates those positions explicitly. The ordinary family designator remains at the declaration layer; exact `U.ViewpointRef` values resolve P while any reader-facing viewpoint token is only P's designator; publication-face names remain publication-layer vocabulary.
 
 #### E.17.1:17.4 - Boundary to annex growth
 
-Annex manifests are useful, but a bundle should not become a thin shell hiding all of its meaning elsewhere. The core bundle still needs enough explicit member and family structure to stand on its own. Annexes deepen reuse; they do not replace the bundle's primary declaration.
+Annex references are useful, but a declaration should not become a thin shell hiding all of its meaning elsewhere. The core declaration claim block still needs enough explicit member and family structure to stand on its own. Annexes deepen reuse; they do not replace the declaration's primary claims.

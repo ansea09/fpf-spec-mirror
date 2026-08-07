@@ -6,12 +6,12 @@ section_id: "E.18.1:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__008_conformance-checklist.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:7 — Conformance Checklist"
-line_start: 84028
-line_end: 84054
+line_start: 84259
+line_end: 84285
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -70,12 +70,12 @@ keywords:
 - `CC-E18.1-11` For a structure-bearing conformance or authoring use, replay at least one pilot from `5.3` and classify it as several valuations of one exact TFS, one parent-relative internal `SubflowRef`, or one E.18.NET network of independently selected members and exact cross-boundary occurrences. Keep every member boundary, Work, actual transformation, valuation, position binding and `DesignRunTag` local. The self-evolving-spec case keeps use-found evidence outside practitioner-facing prose. Ordinary P2W use does not open this extension.
 - `CC-E18.1-12` Every carried claim family can be lowered, stopped, split, or reopened through `E.18.1:4.7`; a cue from a wording span in an admitted source or from a source-pack cue that cannot name the recovered FPF kind or relation remains a reduced-use cue.
 - `CC-E18.1-13` Every materialized replay identifies the changed value, occurrence, assertion, or description; its kind and direct pattern; what still carries and what no longer carries; the smallest reopened continuation; any current `G.11` currentness line; and the next direct pattern. If the changed object is relation-bearing, the cited direct result—not a P2W copy—retains its kind, participants, obtaining or claim basis, occurrence-identity rule, and any receiver-conditioned `RelationSignature` or typed SlotSpecs.
-- `CC-E18.1-14` When a generated DPF seed or cheap framework seed enters P2W, the record names the `G.2` source-use record, source `U.EpistemePublication` reference, source-pack cue, or source-pack return when that source use is current, the problem-side cue when that is current, the next governing relation (`G.2`, `E.4.PFAD`, `E.4.PFR`, `E.8`, `E.21`, `E.23`, `G.11`, or another direct governing pattern), and the stop condition that prevents the seed from becoming public authority by generation alone.
+- `CC-E18.1-14` When a generated DPF seed or cheap framework seed enters P2W, the record names the `G.2` source-use record, selected source `U.Episteme` reference, exact `EpistemePublicationRelation` occurrence reference when availability is material, source-pack cue, or source-pack return when that source use is current; the problem-side cue when that is current; the next concrete claim or relation-specific question, including its participants when a relation is asserted; the next applicable pattern selected from the canonical Relations map; and the stop condition that prevents the seed from becoming public authority by generation alone.
 - `CC-E18.1-15` An actual-transformation continuation carries only an exact current value or blocker returned by `A.3.4`; E.18.1 does not reconstruct the occurrence basis or infer actuality or composition from a method, plan, model, description, flow position, adjacency, shared work, or common referent.
 - `CC-E18.1-16` A work-to-change continuation carries a named subject predicate with its actual `U.Work` and `U.Transformation` participants, a positive `A.6.RCD` disposition-2 local compound claim over governed base facts, or `missing-governor` for that pair. The BuildOps and current Pump 14 replays supply positive branches; Pump 14 also preserves the explicitly earlier `missing-governor` stage in a case record that lacks `P14-REL-2026`. A production continuation separately carries only the local result or blocker returned by `A.15.PROD`. E.18.1 reproduces none of those patterns' internal criteria.
 - `CC-E18.1-17` A governing-pattern ref, selected or recommended continuation, imperative wording, intended realization, plan seed, graph or filled table admits no `U.MethodDescription`. Membership exists only for an independently identified C.2.1 episteme whose exact EntityOfConcern is one admitted `U.Method` and whose ClaimContent contains at least one substantive way-of-doing claim.
 - `CC-E18.1-18` *Move* remains Plain wording for the exact current object or use action. Proposed or chosen work remains distinct from dated performed Work; no universal Move kind, record or relation is introduced, and wording performs nothing.
-- `CC-E18.1-19` The local mantra is the compact formula in `4`, answers one stated decision, maps every term to governed values, has the filled cooling use, and stops at the exact neighboring owner. It is not the five-row display, a Method, MethodDescription, plan, Work, CGUS or structure identity.
+- `CC-E18.1-19` The local mantra is the compact formula in `4`, answers one stated decision, maps every term to governed values, has the filled cooling use, and stops at the applicable neighboring pattern. It is not the five-row display, a Method, MethodDescription, plan, Work, CGUS or structure identity.
 
 
 

@@ -6,12 +6,12 @@ section_id: "A.15:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__007_bias-annotation.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:6 — Bias-Annotation"
-line_start: 24220
-line_end: 24236
+line_start: 24218
+line_end: 24234
 dependencies:
   - "A.10"
   - "A.12"
@@ -61,7 +61,7 @@ Bias risks and mitigations:
 * **Governance bias (Gov):** teams may over-treat role labels or approval displays as enough evidence that work happened.
   *Mitigation:* keep `U.RoleAssignment`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, actual Work occurrences, and epistemes about them distinct; state performed values and resource use only through obtaining relations involving the Work occurrence.
 * **Architectural bias (Arch):** modelers may pull roles, capability instances, fit predicates, or capability support records into structural part hierarchies because those diagrams are already present.
-  *Mitigation:* preserve the role as a value interpreted through an exact role taxonomy and effective scheme, `U.Capability` as the `A.2.2` admitted capability instance, capability statements and currentness assessments as separately governed support relations, capability-fit as a separate checking or admission condition over that instance, and all of them outside structural part decomposition.
+  *Mitigation:* preserve the role as a value interpreted through an exact role taxonomy and effective scheme, `U.Capability` as the `A.2.2` admitted capability instance, capability assertions and currentness assessments as separate support relations, capability-fit as a separate checking or admission condition over that instance, and all of them outside structural part decomposition.
 * **Epistemic bias (Onto and Epist):** a documented recipe or schedule can be mistaken for proof of execution.
   *Mitigation:* require the traceability chain from the actual Work occurrence through `U.RoleAssignment` and `U.Method`, and keep the `U.MethodDescription` and performed-work record as separate epistemes.
 * **Pragmatic bias (Prag):** teams may keep using one overloaded "process" word because it feels faster.

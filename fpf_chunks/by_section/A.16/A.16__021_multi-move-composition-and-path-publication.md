@@ -6,12 +6,12 @@ section_id: "A.16:20"
 section_title: "Multi-Move Composition and Path Publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__021_multi-move-composition-and-path-publication.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:20 — Multi-Move Composition and Path Publication"
-line_start: 27292
-line_end: 27305
+line_start: 27298
+line_end: 27311
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,14 +47,14 @@ keywords:
 ### A.16:20 - Multi-Move Composition and Path Publication
 
 #### A.16:20.1 - Compound move rule
-Many published histories are short move chains such as `notice -> stabilize -> route -> projection` into `U.AbductivePrompt`, or `endpoint-pattern-publication-issued -> reopen -> sketchBackoff -> route`. A conforming publication may summarize such a chain only if the intermediate governing pattern transitions remain reconstructible.
+Many published histories are short move chains such as `notice -> stabilize -> route -> projection` into `U.AbductivePrompt`, or `endpoint-pattern-publication-issued -> reopen -> sketchBackoff -> route`. A publication may summarize such a chain only if the intermediate move identities, changes in the applicable pattern or rule, and authority effects remain reconstructible. Keep exact assertion or predicate identity only when that distinction matters.
 
 #### A.16:20.2 - Move-by-move authority reading
 Read authority move by move. A later move to higher closure state, route authority state, or endpoint authority claim does not retroactively authorize earlier lower-articulation forms, and later retreat or retirement does not erase the fact that the later route or endpoint authority state once existed.
 
 #### A.16:20.3 - `A.16.0` threshold
-When a move history acquires lineage governance value, publish it through `A.16.0` rather than overloading one local move note with hidden lineage structure.
+When a move history needs lineage accountability, publish it through `A.16.0` rather than overloading one local move note with hidden lineage structure.
 
 #### A.16:20.4 - `E.18` threshold
-When the history must be published as a path publication in a graph sense, reuse `E.18`. `A.16` still governs move semantics.
+When the history must be published as a path publication in a graph sense, reuse `E.18`. `A.16` still defines the move semantics.
 

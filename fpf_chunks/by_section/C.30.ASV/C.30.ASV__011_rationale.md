@@ -6,12 +6,12 @@ section_id: "C.30.ASV:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__011_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:10 — Rationale"
-line_start: 62124
-line_end: 62131
+line_start: 62165
+line_end: 62172
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,6 @@ dependencies:
   - "C.35"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -55,14 +54,6 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureStructureKindRef"
-  - "VF.ARCH.STRUCTURE"
-  - "architecture structural view"
-  - "correspondence"
-  - "hidden or lost structure"
-  - "source return"
-  - "structure kind"
-  - "viewpoint bundle"
 ---
 
 ### C.30.ASV:10 - Rationale
@@ -71,5 +62,5 @@ C.30.ASV exists because architecture descriptions are commonly multi-view, but F
 
 The pattern keeps first use light by providing `ArchitectureStructureKindTriage@Project`. If triage identifies the structure kind under consideration and the next admissible architecture move, no full view record is needed. The full record is used when exact conformance obtains and a view changes action, correspondence, publication, source return, source or reliance use, or non-view claim kind.
 
-The TEVB decision is conservative. TEVB remains the small engineering viewpoint bundle over holons. Architecture may import it, but architecture-specific structure kinds and candidate-record bindings are defined beside TEVB rather than mutating TEVB or treating bundle membership as conformance.
+The TEVB decision is conservative. E.17.2 supplies a four-position project-local authoring template, not a current family or importable bundle. Architecture may reuse only exact `U.ViewpointRef` values resolved from a materialized local declaration, with catalogue and member provenance preserved. Architecture-specific structure kinds and candidate-record bindings are defined beside those exact local references rather than mutating their resolved viewpoint epistemes or treating declaration membership as conformance.
 

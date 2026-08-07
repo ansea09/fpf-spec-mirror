@@ -1,27 +1,23 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.2"
-pattern_title: "TEVB - Typical Engineering Viewpoint Bundle for Holons"
+pattern_title: "TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
 section_id: "E.17.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.2 — TEVB - Typical Engineering Viewpoint Bundle for Holons"
+  - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:1 — Problem frame"
-line_start: 79888
-line_end: 79898
+line_start: 80026
+line_end: 80036
 dependencies:
-  - "A.1"
   - "A.22"
-  - "A.6.2-A.6.4"
   - "A.6.3"
   - "A.6.6"
-  - "A.7"
   - "C.13"
   - "C.2.1"
-  - "E.10.D2"
   - "E.17"
   - "E.17.0"
   - "E.17.1"

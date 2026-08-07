@@ -6,12 +6,12 @@ section_id: "A.16:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__010_consequences.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:9 — Consequences"
-line_start: 27100
-line_end: 27102
+line_start: 27104
+line_end: 27106
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -45,5 +45,5 @@ keywords:
 ---
 
 ### A.16:9 - Consequences
-The benefit is a clear governing pattern for language-state moves and an admissible place for both tightening and retreat without governing pattern blur. The trade-off is more explicit move bookkeeping.
+The benefit is a clear set of admissible language-state moves and an explicit place for both tightening and retreat without blurring the next rule or use. The trade-off is more explicit move bookkeeping.
 

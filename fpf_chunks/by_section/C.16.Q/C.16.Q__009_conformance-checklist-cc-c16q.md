@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 48294
-line_end: 48336
+line_start: 48314
+line_end: 48356
 dependencies:
   - "A.10"
   - "A.16"
@@ -43,6 +43,8 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "C.25"
+  - "C.30.AD"
+  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
   - "E.17.0"
@@ -63,11 +65,11 @@ keywords:
 A text or pattern conforms to C.16.Q iff:
 
 1. **CC-C16Q-1 - Explicit endpoint classification and explicit sense.**
-   Every in-scope use resolves either to one declared endpoint-pattern-governed evaluative form or to one declared `qualityTermAscription(...)` transitional record with a `QualitySense` and explicit endpoint classification.
+   Every in-scope use resolves either to the evaluative form for one declared endpoint or to one declared `qualityTermAscription(...)` transitional record with a `QualitySense` and explicit endpoint classification.
 2. **CC-C16Q-2 - Exact bearer and arity.**
    The evaluated bearer designator or tuple is explicit; description, carrier, evaluator, viewpoint, work, and result are not substituted for it.
 3. **CC-C16Q-3 - Exact probe/model and comparison frames.**
-   The domain-local probe or model frame and the separately governed comparison frame or explicit `none` are stated and reviewable; neither is a generic semantic-owner field.
+   The domain-local probe or model frame and the separately governed comparison frame or explicit `none` are stated and reviewable; no generic field silently selects either frame.
 4. **CC-C16Q-4 - Effective scheme, evaluator, and viewpoint reference.**
    The effective `U.ReferenceScheme` is explicit. Evaluator and `U.ViewpointRef` are separate; a non-`none` reference resolves one exact viewpoint episteme and grants no conformance, membership, authority, or result.
 5. **CC-C16Q-5 - Substrate and referencePlane are declared when relevant.**
@@ -89,7 +91,7 @@ A text or pattern conforms to C.16.Q iff:
 13. **CC-C16Q-13 - Bridge accountability.**
     Cross-local comparison resolves exact F.17 cells and cites an obtaining F.9 Bridge. Any bounded-use claim, optional Card, and F.9.1 overlay remain separate; a stance, `CL`, shared label, or loss note establishes none of them.
 14. **CC-C16Q-14 - Boundary-claim hook when needed.**
-    If a repaired ascription is used for admissibility, commitment, publication, evidence-bearing decision, or adjudication, the downstream `L/A/D/E` claims and direct governors are explicit.
+    If a repaired ascription is used for admissibility, commitment, publication, evidence-bearing decision, or adjudication, the downstream `L/A/D/E` claims and the patterns used to define or test them are explicit.
 15. **CC-C16Q-15 - Lexical firewall.**
     Bare *quality* is absent from Tech and normative prose except as quoted and marked metalinguistic discussion.
 16. **CC-C16Q-16 - Transitional skeleton is complete.**

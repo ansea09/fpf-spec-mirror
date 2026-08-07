@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 95610
-line_end: 96240
+line_start: 95841
+line_end: 96477
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,11 +56,11 @@ keywords:
 
 One project has an exact design-review role value and an independently governed external-audit role value. Both local expressions say `reviewer`, but one concerns a system-in-role performing design-review Work and the other concerns an assurance actor producing an audit report.
 
-The UTS row does not declare one universal reviewer. It either creates two rows or, when one naming use between different semantic-context projections is genuinely needed, cites an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names the use direction, label rule, and tolerated loss. Each row cites the direct role pattern, the RoleDescription when current, and the `F.18` NameCardRef. A.10 or B.3 governs reliance on the use claim; no row or card creates a role assignment or review Work.
+The UTS row does not declare one universal reviewer. It either creates two rows or, when one naming use between different semantic-context projections is genuinely needed, cites an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names the use direction, label rule, and tolerated loss. Each row cites the pattern that defines or constrains its role value, the RoleDescription when current, and the `F.18` NameCardRef. A.10 or B.3 governs reliance on the use claim; no row or card creates a role assignment or review Work.
 
 #### F.17:12.2 - Status label looks like a role name
 
-A team proposes `BlockedReviewer` as a public label. F.17 does not accept it as a row until the direct patterns are separated. `Reviewer` is a role value; `blocked` is a status-family value or status-window value. The sheet may publish `Reviewer` as a role row and `Blocked` as a status row, with a note that a local UI may render them together. The table does not create a role called "blocked reviewer".
+A team proposes `BlockedReviewer` as a public label. F.17 does not accept it as a row until the rules for the two governed values are separated. `Reviewer` is a role value; `blocked` is a status-family value or status-window value. The sheet may publish `Reviewer` as a role row and `Blocked` as a status row, with a note that a local UI may render them together. The table does not create a role called "blocked reviewer".
 
 #### F.17:12.3 - Relation and slot names become reusable
 
@@ -72,15 +72,15 @@ A sheet has a row labelled `Evidence role`. F.17 repairs the row by recovering t
 
 #### F.17:12.4a - Manufacturing batch across material and planning contexts
 
-A furnace team uses `batch` for one physically handled set of shafts that shares a heat-treatment run and traceability basis. A planning dashboard uses `batch` for a grouping of intended PlanItems. Spelling does not make these one governed value. Recover the physical batch under the direct material or production DPF pattern, including its identity and part-whole treatment when the proposed comparison relies on either; recover the planning grouping under A.15.2 and its direct planning relation. Publish separate rows unless an obtaining F.9 Bridge states the exact semantic relation and a separate affirmative C.2.1 claim names the proposed comparison direction, correspondence rule, and tolerated loss with current A.10 or B.3 reliance. A `batch` row cannot turn a PlanItem grouping into a physical holon or make the physical batch a WorkPlan.
+A furnace team uses `batch` for one physically handled set of shafts that shares a heat-treatment run and traceability basis. A planning dashboard uses `batch` for a grouping of intended PlanItems. Spelling does not make these one governed value. Recover the physical batch under the material or production DPF pattern that supplies its identity and part-whole rules when the proposed comparison relies on either; recover the planning grouping and its relation to intended PlanItems under A.15.2. Publish separate rows unless an obtaining F.9 Bridge states the exact semantic relation and a separate affirmative C.2.1 claim names the proposed comparison direction, correspondence rule, and tolerated loss with current A.10 or B.3 reliance. A `batch` row cannot turn a PlanItem grouping into a physical holon or make the physical batch a WorkPlan.
 
 #### F.17:12.4b - Clinical discharge wording
 
-A clinical publication proposes one row for `discharge` and `discharge-ready`. First separate the governed values. A patient-state classification uses A.19.SPR plus the clinical DPF pattern for its bearer, state frame, evidence, qualification window, and use. An accountable discharge decision remains a decision relation under its direct pattern. A completed discharge is dated Work under A.15.1. Publish distinct rows and connect them only through relations actually governed in the clinical context. One familiar label does not make state, decision, and Work interchangeable.
+A clinical publication proposes one row for `discharge` and `discharge-ready`. First separate the governed values. A patient-state classification uses A.19.SPR plus the clinical DPF pattern for its bearer, state frame, evidence, qualification window, and use. An accountable discharge decision remains a decision relation under the pattern that defines or tests that decision. A completed discharge is dated Work under A.15.1. Publish distinct rows and connect them only through relations actually governed in the clinical context. One familiar label does not make state, decision, and Work interchangeable.
 
 #### F.17:12.4c - Demonstrative walkthrough, mantra, and mantra move
 
-These rows publish naming decisions already governed and named in A.22.CGUS. They cover only the admitted CGUS-demonstrative senses of `mantra` and `mantra move`; they define neither the Plain local mantra that recalls one bounded result nor the Plain long mantra that keeps a distant result dependency visible across direct patterns. Ordinary long and local mantras receive no F.17 row. F.17 publishes the bounded terms; it does not govern the demonstrated structures, rows, or Plain attention aids.
+These rows publish naming decisions already governed and named in A.22.CGUS. They cover only the admitted CGUS-demonstrative senses of `mantra` and `mantra move`; they define neither the Plain local mantra that recalls one bounded result nor the Plain long mantra that keeps a distant result dependency visible across several patterns. Ordinary long and local mantras receive no F.17 row. F.17 publishes the bounded terms; it does not govern the demonstrated structures, rows, or Plain attention aids.
 
 ```text
 UTSRowId: UTS.DemonstrativeUnfoldingSlice.FPFPublic
@@ -89,7 +89,7 @@ UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
 Block: Pattern use and teaching
 GovernedValueRef: DemonstrativeUnfoldingSlice@Context
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.22.CGUS
+SubjectPatternLocator: A.22.CGUS
 UnifiedTechName: DemonstrativeUnfoldingSlice@Context
 UnifiedPlainName: demonstrative walkthrough
 NameCardRef: NameCard.DemonstrativeUnfoldingSlice.FPFPublic
@@ -108,7 +108,7 @@ UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
 Block: Pattern use and teaching
 GovernedValueRef: DemonstrativeUnfoldingSlice@Context
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.22.CGUS
+SubjectPatternLocator: A.22.CGUS
 UnifiedTechName: DemonstrativeUnfoldingSlice@Context
 UnifiedPlainName: mantra
 NameCardRef: NameCard.DemonstrativeUnfoldingSlice.SeminarTeaching
@@ -127,7 +127,7 @@ UnificationThreadId: DemonstrativeExplanationTerminology.2026-07-11
 Block: Pattern use and teaching
 GovernedValueRef: DemonstratedPatternUseRow@Context
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.22.CGUS
+SubjectPatternLocator: A.22.CGUS
 UnifiedTechName: DemonstratedPatternUseRow@Context
 UnifiedPlainName: mantra move
 NameCardRef: NameCard.DemonstratedPatternUseRow.SeminarTeaching
@@ -299,7 +299,7 @@ UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: BoundedModelUseStructure
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.1.1
+SubjectPatternLocator: A.1.1
 UnifiedTechName: BoundedModelUseStructure
 UnifiedPlainName: bounded context
 NameCardRef: NC-BOUNDED-MODEL-USE-STRUCTURE
@@ -349,7 +349,7 @@ UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: ModelApplicabilityRelation
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.1.1
+SubjectPatternLocator: A.1.1
 UnifiedTechName: ModelApplicabilityRelation
 UnifiedPlainName: this model applies to this holon within this claim scope
 NameCardRef: NC-MODEL-APPLICABILITY-RELATION
@@ -394,7 +394,7 @@ UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: ModelUseRelation
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.1.1
+SubjectPatternLocator: A.1.1
 UnifiedTechName: ModelUseRelation
 UnifiedPlainName: this assignment's holder uses this model during this work concerning this holon
 NameCardRef: NC-MODEL-USE-RELATION
@@ -439,7 +439,7 @@ UnificationThreadId: R1.2-BoundedModelUse-Naming
 Block: Architecture and model use
 GovernedValueRef: ModelExpressionCoherenceRelation
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: A.1.1
+SubjectPatternLocator: A.1.1
 UnifiedTechName: ModelExpressionCoherenceRelation
 UnifiedPlainName: this model content and this expression content satisfy this declared coherence criterion under this comparison scheme
 NameCardRef: NC-MODEL-EXPRESSION-COHERENCE-RELATION
@@ -477,11 +477,11 @@ LocalSenseBasisRelationDescription.ModelExpressionCoherenceRelation.FPFCore.2026
   editionId: 2026-07-25
 ```
 
-No public F.17 row is returned for `ModelExpressionCoherencePredicate`: that label remains local to A.1.1 and names the five-part criterion ValueKind rather than any of the three relation kinds.
+Do not create a public F.17 row for `ModelExpressionCoherencePredicate`: that label remains local to A.1.1 and names the five-part criterion ValueKind rather than any of the three relation kinds.
 
 #### F.17:12.4f - Viewpoint, view, and conformance-relation public rows
 
-These three rows satisfy different receiver needs and therefore cannot be merged. E.24.UK has already admitted `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 owns both positive membership predicates and the direct `EpistemeViewpointConformanceRelation`. F.14 has been applied again: the existing Tech designations are retained, no synonym family is opened, and the public rows are justified by stable Core citation and exact typed-reference use. The rows admit no kind, make no relation obtain, and assert no E.24.PUB publication occurrence, form, carrier, or authority.
+These three rows satisfy different receiver needs and therefore cannot be merged. E.24.UK has already admitted `U.Viewpoint` and `U.View` as same-individual dependent kinds under `U.Episteme`; E.17.0 defines both positive membership predicates and the direct `EpistemeViewpointConformanceRelation`. F.14 has been applied again: the existing Tech designations are retained, no synonym family is opened, and the public rows are justified by stable Core citation and exact typed-reference use. The rows admit no kind, make no relation obtain, and assert no E.24.PUB publication occurrence, form, carrier, or authority.
 
 The two existing dependent-kind designations use these progressive-minimum F.18 naming-settlement epistemes. They remain distinct from the E.24.UK admission results, the governed kinds, their members, every reference or designator, and the F.17 rows that cite them.
 
@@ -490,7 +490,7 @@ NameCard:
   NameCardId: NameCard.U.Viewpoint.FPFPublic.2026-08-02
   GovernedValueRef: U.Viewpoint
   GovernedValueKindRef: U.Kind
-  GoverningPatternRef: E.17.0
+  SubjectPatternLocator: E.17.0
   ReferenceScheme: FPFCoreReferenceScheme
   ClaimContent: NameCard.U.Viewpoint.FPFPublic.2026-08-02.ClaimGraph — complete naming-settlement graph constituted by the claims designated below
   LocalSenseCellRef: SenseCell.U.Viewpoint.FPFCore.2026-08-02
@@ -515,7 +515,7 @@ NameCard:
   NameCardId: NameCard.U.View.FPFPublic.2026-08-02
   GovernedValueRef: U.View
   GovernedValueKindRef: U.Kind
-  GoverningPatternRef: E.17.0
+  SubjectPatternLocator: E.17.0
   ReferenceScheme: FPFCoreReferenceScheme
   ClaimContent: NameCard.U.View.FPFPublic.2026-08-02.ClaimGraph — complete naming-settlement graph constituted by the claims designated below
   LocalSenseCellRef: SenseCell.U.View.FPFCore.2026-08-02
@@ -544,7 +544,7 @@ UnificationThreadId: R1.2-MultiView-Naming
 Block: Multi-view describing
 GovernedValueRef: U.Viewpoint
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: E.17.0
+SubjectPatternLocator: E.17.0
 UnifiedTechName: U.Viewpoint
 UnifiedPlainName: viewpoint
 NameCardRef: NameCard.U.Viewpoint.FPFPublic.2026-08-02
@@ -573,7 +573,7 @@ LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02:
 LocalSenseBasisRelationDescription.U.Viewpoint.FPFCore.2026-08-02:
   entityOfConcernRef: LocalSenseBasisRelation.U.Viewpoint.FPFCore.2026-08-02
   entityOfConcernKindRef: LocalSenseBasisRelation
-  basisPublicationUnitRef: E.17.0:4.2-4.2.4
+  basisPublicationUnitRef: E.17.0:4.2,4.6.1-4.6.4
   viewpointRef: FPFCoreReaderViewpoint
   claimGraph:
     supportedSenseClaim: U.Viewpoint names the same P identified under C.2.1 only when P's exact S EntityOfConcern and fixed convention claims satisfy E.17.0
@@ -592,7 +592,7 @@ UnificationThreadId: R1.2-MultiView-Naming
 Block: Multi-view describing
 GovernedValueRef: U.View
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: E.17.0
+SubjectPatternLocator: E.17.0
 UnifiedTechName: U.View
 UnifiedPlainName: episteme conforming to an exact viewpoint
 NameCardRef: NameCard.U.View.FPFPublic.2026-08-02
@@ -640,7 +640,7 @@ UnificationThreadId: R1.2-MultiView-Naming
 Block: Multi-view describing
 GovernedValueRef: EpistemeViewpointConformanceRelation
 GovernedValueKindRef: U.Kind
-DirectGoverningPatternRef: E.17.0
+SubjectPatternLocator: E.17.0
 UnifiedTechName: EpistemeViewpointConformanceRelation
 UnifiedPlainName: the episteme conforms to this exact viewpoint
 NameCardRef: NameCard.EpistemeViewpointConformanceRelation.FPFPublic
@@ -680,4 +680,10 @@ LocalSenseBasisRelationDescription.EpistemeViewpointConformanceRelation.FPFCore.
 ```
 
 The three row epistemes, their `UTSRowId` designators, external references, selected designations, governed values, NameCards, cells, basis relations, admission-result refs, conformance RelationSignature, and every obtaining relation occurrence remain independently recoverable. If availability for an audience later becomes current, exact E.24.PUB expression, bearing, and publication occurrences must be added outside these rows; file inclusion or this displayed block is not publication.
+
+#### F.17:12.4g - Publish a row only when its naming inputs are settled
+
+Do not publish a `UnifiedTermRow` as a placeholder. Publish it only when the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended public use are settled enough to pass F.18 and the ordinary F.17 row gate. If any of these inputs is unresolved, keep it as naming work rather than representing it as a public row.
+
+A NameCard, scheme-sense cell, basis relation, row reference, or publication occurrence is not a substitute for those decisions. Keep predicate definition, actual use, basis analysis, naming settlement, row publication, and availability separate.
 

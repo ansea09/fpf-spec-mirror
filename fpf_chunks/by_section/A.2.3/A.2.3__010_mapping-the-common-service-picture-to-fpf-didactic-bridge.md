@@ -6,7 +6,7 @@ section_id: "A.2.3:6"
 section_title: "Mapping the common “service” picture to FPF (didactic bridge)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__010_mapping-the-common-service-picture-to-fpf-didactic-bridge.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:6 — Mapping the common “service” picture to FPF (didactic bridge)"
@@ -63,7 +63,7 @@ A common service diagram is a representation. Recover the represented systems, e
 * **Provider participation** -> one named `U.RoleAssignment` occurrence with holder system, provider role value, role-taxonomy episteme, effective reference scheme, and assignment window. The admitted holder system performs each selected delivery-work occurrence under that assignment; when stated as a direct relation, use `performedUnderAssignment(deliveryWork, providerRA)`.
 * **Acceptance criterion** -> an evaluation-criterion episteme in `U.PromiseContent.acceptanceSpec`; its target values, verdict scale, and `GammaTimePolicyRef` remain explicit. A `U.WorkPlan` is added only when planned delivery or evaluation work is current.
 * **SLA obligation** -> an A.2.8 `U.Commitment` occurrence whose referents position is filled by the relevant `U.PromiseContent`. Use A.6.C when one SLA publication combines wording about commitment, promise content, evidence specification, and publication relations and must be unpacked through its Contract Bundle lens.
-* **Published SLA terms** -> the `U.EpistemePublication` for the promise content, together with its `isCarriedBy` relation to a `U.PresentationCarrier`. When publication work also communicates or institutes a commitment, add the named A.2.9 speech-act and A.2.8 commitment relation occurrences; publication alone neither creates the commitment nor establishes fulfilment.
+* **Published SLA terms** -> the selected `U.PromiseContent` / `U.Episteme`, the exact publication form that expresses it for the bounded use, the `U.PresentationCarrier` bearing that form, and the obtaining `EpistemePublicationRelation` occurrence that makes the selected edition available to the declared audience. When publication work also communicates or institutes a commitment, add the named A.2.9 speech-act and A.2.8 commitment relation occurrences; publication alone neither creates the commitment nor establishes fulfilment.
 * **Operating conditions** -> the named `U.ClaimScope` under A.2.6. The acceptance specification may cite that scope; it does not replace it.
 * **Promised subject** -> resolve `promisedOutcomeSpecRef`, then use the resulting `OutcomeSpec.resultSpec.entityOfConcernRef` together with the exact affected referent, post-work state, and any direct delivery or acceptance relation current for the claim.
 * **Customer material—“ours versus theirs.”** -> If the current claim depends on who owns or has custody of data, an asset, or a case, name the exact governed role assignment or ownership/custody relation and its actual participants. Do not make ownership or custody a kernel-global property of `U.PromiseContent`.

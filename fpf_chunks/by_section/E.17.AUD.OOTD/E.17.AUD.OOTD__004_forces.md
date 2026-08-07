@@ -1,22 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
 section_id: "E.17.AUD.OOTD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:3 — Forces"
-line_start: 82692
-line_end: 82701
+line_start: 82847
+line_end: 82856
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.4"
   - "A.16.0"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6.3"
@@ -25,6 +27,7 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.11"
   - "C.2.2a"
   - "E.10"
   - "E.14"
@@ -41,8 +44,8 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | **Local repair vs publication-unit stability** | The pattern must not replace local precision repair, but it must become available when local repair no longer stabilizes the unit. |
-| **Primary EntityOfConcern clarity vs surrounding-work convenience** | The unit must keep one primary EntityOfConcern without forcing the whole surrounding work process into the same text. |
-| **Interpretation clarity vs overgrowth** | The section must distinguish primary EntityOfConcern, description, carrier, publication unit, process, and downstream decision use without turning into a giant ontology lecture. |
-| **User-facing discipline vs hidden assurance weight** | The ordinary recognition block must stay light enough for practice while still surviving neighboring-boundary claim-kind and review. |
+| **Primary-subject clarity vs surrounding-work convenience** | The unit must keep one primary subject without forcing the whole surrounding work process into the same text. |
+| **Interpretation clarity vs overgrowth** | The section must distinguish primary subject, exact `EntityOfConcern` when applicable, concern, carried move, downstream use, publication form, carrier, and process without turning into a giant ontology lecture. |
+| **Plain entry vs later assurance** | The opening must stay light enough for ordinary use while preserving the distinctions needed if a concrete neighboring claim or assurance question later arises. |
 | **Publication-unit stability vs architecture replacement** | The pattern must not replace view, face, carrier, publication, or moving-lineage architecture. |
 

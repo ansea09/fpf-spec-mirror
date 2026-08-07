@@ -6,19 +6,23 @@ section_id: "E.17:11.5"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__014_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:11.5 — Rationale"
-line_start: 80705
-line_end: 80708
+line_start: 80858
+line_end: 80861
 dependencies:
+  - "A.10"
   - "A.15.4"
+  - "A.20"
+  - "A.21"
   - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.P"
   - "C.29"
@@ -40,5 +44,5 @@ keywords:
 
 ### E.17:11.5 - Rationale
 
-Multi-view publication is needed because one description can serve several concerns without one view becoming the whole object. A publication unit, viewpoint, correspondence relation, freshness condition, and source relation must be explicit enough that practitioners can rely on the right face for the current use while returning evidence, assurance, decision, architecture, and release claims to their direct governing patterns.
+Multi-view publication is needed because one account can serve several concerns without any face becoming the whole account. Source return, bounded use, and material omissions must be visible enough for ordinary reading; exact viewpoint, correspondence, currentness, publication, evidence, assurance, decision, architecture, and release relations are added through their concrete defining or checking patterns only when the receiving use needs them.
 

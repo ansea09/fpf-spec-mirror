@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 25857
-line_end: 25952
+line_start: 25855
+line_end: 25950
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,79 +60,79 @@ A.15.4 local repair record:
   WorkOrRelianceUseRef: B17-GeneEditIntervention
   RequiredPositionEntries:
     - EntryId: B17-PROTOCOL
-      DirectOwnerPatternRef: E.24.PUB
+      SubjectPatternLocator: E.24.PUB
       DirectObjectKind: EpistemePublicationRelation
       ProjectSideObjectRef: B17-ProtocolPublication-e5
       RequiredPostureOrCurrentness: obtains; protocol edition e5 is currently available to the B-17 lab audience for this intervention use
       DependencyOnAttemptedUse: the intended Work must use the applicable protocol edition
     - EntryId: B17-GRANT-ACT
-      DirectOwnerPatternRef: A.2.9
+      SubjectPatternLocator: A.2.9
       DirectObjectKind: U.SpeechAct occurrence
       ProjectSideObjectRef: B17-GrantSpeechAct
       RequiredPostureOrCurrentness: actual dated Work performed by an admitted system under the exact grantor assignment and recognized by the current grant policy
       DependencyOnAttemptedUse: grounds B17-InterventionGrant; the act itself is not permission
     - EntryId: B17-GRANT
-      DirectOwnerPatternRef: A.2.8.PER
+      SubjectPatternLocator: A.2.8.PER
       DirectObjectKind: GrantedPermissionRelation@Context occurrence
       ProjectSideObjectRef: B17-InterventionGrant
       RequiredPostureOrCurrentness: obtains and is current for the exact beneficiary, intervention action, sample batch, scope, and window, with no valid revocation or supersession ending the grant
       DependencyOnAttemptedUse: the intervention requires this strong grant
     - EntryId: B17-CONFLICT
-      DirectOwnerPatternRef: A.2.8.PER
+      SubjectPatternLocator: A.2.8.PER
       DirectObjectKind: PermissionNormConflictFinding@Context
       ProjectSideObjectRef: B17-InterventionPermissionNormConflictFinding
       RequiredPostureOrCurrentness: current disposition=settledByApplicableRule; B17-ConflictPrecedenceRule-e2 matches this beneficiary, intervention action, sample batch, scope, and window and selects the grant for this attempted intervention
       DependencyOnAttemptedUse: an unresolved or norm-selecting disposition blocks AllowedUseNow for this intervention; the finding neither revokes nor ends B17-InterventionGrant
     - EntryId: B17-CONFLICT-EVIDENCE
-      DirectOwnerPatternRef: A.10
+      SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation
       ProjectSideObjectRef: B17-ConflictFindingEvidence
       RequiredPostureOrCurrentness: supports only the current B17-InterventionPermissionNormConflictFinding disposition and the applicability of B17-ConflictPrecedenceRule-e2 to this exact attempted use
       DependencyOnAttemptedUse: supplies the evidence/currentness path for B17-CONFLICT without becoming the finding, rule, or grant
     - EntryId: B17-GATE
-      DirectOwnerPatternRef: A.21
+      SubjectPatternLocator: A.21
       DirectObjectKind: GateDecision
       ProjectSideObjectRef: B17-InterventionGateDecision-e2
       RequiredPostureOrCurrentness: current GateDecision=pass under the applicable GateProfile and DecisionLog
       DependencyOnAttemptedUse: the current lab policy separately requires gate passage; this decision does not create the grant
     - EntryId: B17-WORK-ENTRY
-      DirectOwnerPatternRef: A.15.5
+      SubjectPatternLocator: A.15.5
       DirectObjectKind: WorkEntryReadiness@Context relation
       ProjectSideObjectRef: B17-WorkEntryReadiness-e3
       RequiredPostureOrCurrentness: current relation for the exact B17-GeneEditIntervention, performer, kit, context, and entry window, with CommitmentDisposition=readyForCommitment and no triggered StopCondition
       DependencyOnAttemptedUse: the current lab policy separately requires work-entry readiness; readiness does not create the grant or gate decision
     - EntryId: B17-ASSIGNMENT
-      DirectOwnerPatternRef: A.2.1
+      SubjectPatternLocator: A.2.1
       DirectObjectKind: U.RoleAssignment occurrence
       ProjectSideObjectRef: B17-EditorAssignment
       RequiredPostureOrCurrentness: obtains, names the intended performer as holder, and covers the proposed Work window
       DependencyOnAttemptedUse: identifies who may perform the intended Work under the beneficiary branch
     - EntryId: B17-PROTOCOL-EVIDENCE
-      DirectOwnerPatternRef: A.10
+      SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation
       ProjectSideObjectRef: B17-ProtocolPublicationEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-ProtocolPublication-e5 obtains and exposes protocol edition e5 for this lab audience and intervention use throughout the decision window
       DependencyOnAttemptedUse: supplies the publication/currentness evidence required for B17-PROTOCOL without standing in for that publication relation
     - EntryId: B17-GRANT-EVIDENCE
-      DirectOwnerPatternRef: A.10
+      SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation
       ProjectSideObjectRef: B17-InterventionGrantEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-InterventionGrant obtains and is current for this beneficiary, action, batch, scope, and window, including the instituting act, policy, revocation, and supersession sources used by that claim
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-GRANT without creating or replacing the grant
     - EntryId: B17-GATE-EVIDENCE
-      DirectOwnerPatternRef: A.10
+      SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation
       ProjectSideObjectRef: B17-InterventionGateEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-InterventionGateDecision-e2 is the current GateDecision=pass for this attempted use under its GateProfile and DecisionLog
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-GATE without becoming gate passage
     - EntryId: B17-ASSIGNMENT-EVIDENCE
-      DirectOwnerPatternRef: A.10
+      SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation
       ProjectSideObjectRef: B17-EditorAssignmentEvidence
       RequiredPostureOrCurrentness: supports only the claim that B17-EditorAssignment obtains, has the intended performer as holder, and covers the proposed Work window
       DependencyOnAttemptedUse: supplies the evidence/currentness path required for B17-ASSIGNMENT without creating or extending the assignment
     - EntryId: B17-PLAN
-      DirectOwnerPatternRef: A.15.2
+      SubjectPatternLocator: A.15.2
       DirectObjectKind: U.WorkPlan
       ProjectSideObjectRef: B17-GeneEditWorkPlan-e4
       RequiredPostureOrCurrentness: current plan for the intended performer, intervention, sample batch, method, resources, and window; not actual Work or permission

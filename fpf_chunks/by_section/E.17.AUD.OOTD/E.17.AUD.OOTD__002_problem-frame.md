@@ -1,22 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
 section_id: "E.17.AUD.OOTD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:1 — Problem frame"
-line_start: 82667
-line_end: 82682
+line_start: 82822
+line_end: 82837
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.4"
   - "A.16.0"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6.3"
@@ -25,6 +27,7 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.11"
   - "C.2.2a"
   - "E.10"
   - "E.14"
@@ -38,17 +41,17 @@ keywords:
 
 ### E.17.AUD.OOTD:1 - Problem frame
 
-**Anti-single-sequence note.** The quick checks, ordinary six-row card, heavier extension, and worked slices in this section are local aids for one publication unit under review. They are not a canonical sequence for publication-unit repair and not a promise that admissible cases follow one fixed graph in one direction. Use the worked slices sideways rather than as one required sequence: one admissible case may stop after one publication-unit declaration, another may reopen when outside observations change the honest primary EntityOfConcern, and another may apply the governing pattern once downstream approval, work, reliance, or a neighboring-pattern question becomes primary.
+**Use the examples as alternatives.** The quick checks, ordinary declaration, optional diagnostic, heavier extension, and worked slices are alternative aids for one publication unit, not a required sequence. One case may stop after the declaration; another may reopen when outside observations change the honest concern, claim, or downstream use; another may use the neighboring pattern whose instructions fit once approval, work, reliance, or another question becomes primary.
 
-Teams repeatedly write one publication unit that begins by talking about one primary EntityOfConcern and ends by talking about another while still sounding like one unchanged text.
+Teams repeatedly write one publication unit that begins with one primary subject and ends with another subject, concern, carried move, or downstream use while still sounding like one unchanged text.
 
 Typical moments include:
-- an architecture note that starts about a system boundary and ends about rollout work;
-- an operations review note that starts about an incident episode and ends about action approval;
-- a requirements or policy note that starts about a primary EntityOfConcern and ends about its carrier or document status;
+- an architecture note that starts about a system boundary and ends by directing rollout work;
+- an operations review note that starts about an incident episode and ends as an action approval;
+- a requirements or policy note that starts about an exact entity and ends about its carrier or document status;
 - an episteme-publication-heavy note that starts about one pattern section or publication form and ends about wider architecture strategy;
-- a comparison sheet that starts about one primary EntityOfConcern and quietly shifts into engineering-process, approval, work, or reliance pressure.
+- a comparison sheet that starts about one subject and quietly shifts into engineering-process, approval, work, or reliance pressure.
 
 That interpretation instability is usually not caused by one bad sentence alone.
-It is caused by one whole publication unit no longer holding a stable answer to what it is about, what move it is carrying, and what wider work still stays outside.
+It is caused by one whole publication unit no longer holding a stable answer to what it is about, which concern it foregrounds, what move it carries, how readers may use it, and what wider work still stays outside.
 

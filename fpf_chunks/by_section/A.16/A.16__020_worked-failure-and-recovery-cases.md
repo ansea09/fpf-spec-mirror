@@ -6,12 +6,12 @@ section_id: "A.16:19"
 section_title: "Worked Failure and Recovery Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__020_worked-failure-and-recovery-cases.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:19 — Worked Failure and Recovery Cases"
-line_start: 27275
-line_end: 27291
+line_start: 27281
+line_end: 27297
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -50,7 +50,7 @@ keywords:
 A low-articulation cue is observed and quickly described as if it were already a requirement. Under `A.16`, this is rejected because the move history is missing: the publication should first be noticed, stabilized, and route-published. The recovery is not to defend the over-committing label, but to reopen and publish the earlier route-bearing form.
 
 #### A.16:19.2 - Silent route drift
-A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires either a new route-bearing publication, an explicit operationalization note, or an explicit responsibility transfer to a governing pattern.
+A note begins as evaluative pressure but later starts driving work planning. If this shift is not published, the route drift remains invisible. `A.16` requires a new route-bearing publication, an explicit operationalization note, or use of `A.15` to plan the work. State agent, Method, assignment, or Work identity only when the claim depends on those distinctions.
 
 #### A.16:19.3 - admissible retreat after over-formalization
 A note is formalized too early into a relation-like shape, but later review shows the anchors are still unstable. The correct continuation is not to leave the relation form in place and quietly reinterpret it. The correct continuation is `reopen -> sketchBackoff`, preserving what still holds and lowering the authority of what no longer does.
@@ -58,6 +58,6 @@ A note is formalized too early into a relation-like shape, but later review show
 #### A.16:19.4 - Silent branch disappearance
 A route-bearing publication originally kept two candidate routes live. Later text talks only as if one route ever existed. Reviewers should treat that as silent branch laundering unless the abandoned route was explicitly retired, merged, or shown never to have become a distinct branch.
 
-#### A.16:19.5 - Form-governing pattern-face collapse
-A note says only `the move publishes a Tech face` or `the move enters A.6.P` and never names the actual publication form. That wording is non-conforming because it collapses three different layers into one phrase. The repair is to name the publication form first, then the governing pattern, then the MVPK face if the face matters for rendering or review.
+#### A.16:19.5 - Form-pattern-face collapse
+A note says only `the move publishes a Tech face` or `the move enters A.6.P` and never names the actual publication form. That wording collapses different positions into one phrase. Name the publication form first, then the cited pattern and its concrete contribution, and then the MVPK face if rendering or review depends on it.
 

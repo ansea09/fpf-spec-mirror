@@ -6,12 +6,12 @@ section_id: "A.15:12f"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__019_lowering-repair-and-refresh-conditions.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15 — Role–Method–Work Alignment"
   - "A.15:12f — Lowering, Repair, and Refresh Conditions"
-line_start: 24384
-line_end: 24391
+line_start: 24382
+line_end: 24389
 dependencies:
   - "A.10"
   - "A.12"
@@ -58,5 +58,5 @@ Lower an `A.15` claim when the role, holder, role-taxonomy episteme, effective r
 
 Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, role-state currentness record, or source-currentness window was wrong for the claimed use. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence relation changed, and do not treat an `A.15.4` repair request as carrying a non-A.15 claim.
 
-Refresh the `A.15` use before relying on it under a new role taxonomy, effective reference scheme, selected model-use structure, role assignment, method family, work plan, execution window, result measurement, or evidence, assurance, gate, appearance-based reliance repair, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the governing pattern for that relation and keep only the remaining `A.15` separation here.
+Refresh the `A.15` use before relying on it under a new role taxonomy, effective reference scheme, selected model-use structure, role assignment, method family, work plan, execution window, result measurement, or evidence, assurance, gate, appearance-based reliance repair, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the pattern that defines or tests that relation and keep only the remaining `A.15` separation here.
 

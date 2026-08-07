@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 72045
-line_end: 72440
+line_start: 72088
+line_end: 72483
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -297,7 +297,7 @@ Pattern density is therefore not “more metadata” and not “longer tag lists
 
 FPF pattern prose is not free-form descriptive English. Package-form words and references to nearby patterns must keep stable semantic intent without inventing a generic relation in which a pattern contains the defining content for, governs, receives, or acts on content.
 
-For an ordinary neighboring-pattern reference, state the concrete contribution—for example, defines a kind, constrains a relation, supplies a test or method, or provides a useful lookup—and cite the pattern id. An id, heading, file, or locator field merely helps find content; it is not a semantic owner, authority, actor, participant, or evidence that a claim is true. Identify an exact subject assertion, claim-bearing episteme, `ClaimGraph`, edition, or relation assertion only when the named receiving use depends on that identity, such as interpretation, comparison, migration, conflict, publication, or reuse.
+For an ordinary neighboring-pattern reference, state the concrete contribution—for example, defines a kind, constrains a relation, supplies a test or method, or provides a useful lookup—and cite the pattern id. An id, heading, file, or locator field merely helps find content; it is not a semantic owner, authority, actor, participant, or evidence that a claim is true. Identify the exact claim-bearing episteme and its `ClaimGraph`, edition, or relation assertion only when a named later use depends on that identity, such as interpretation, comparison, migration, conflict, publication, or reuse.
 
 A local `...PatternLocator` field may remain where an existing schema already uses it as a non-semantic convenience, but ordinary prose and entry cues do not require one. It never substitutes for the cited content's concrete contribution or, when the stronger identity branch is active, for the exact claim-bearing content. Changing only a locator without changing what it resolves is a representation change; changing the defining content or exact assertion may reopen the semantic object whose receiving use depends on it.
 
@@ -394,7 +394,7 @@ frame` prose may be used as the first sentence or compact cue of this
 signature.
 It is not one separate required section.
 
-**Entry-cue authoring rule.** When a pattern needs a reader-facing entry cue, begin with one ordinary question about the user's actual current object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, state what any cited content contributes and cite the pattern id; name the smallest exact result kind usable now, the stop or return condition, and one tempting overread that remains non-admissible. Add an exact subject assertion, claim-bearing episteme, `ClaimGraph`, or edition only when the cue's named receiving use depends on that identity. The cue is reading guidance, not a section schema, method, plan, work occurrence, structure, or relation; it neither constitutes the result nor makes a routed relation obtain.
+**Entry-cue authoring rule.** When a pattern needs a reader-facing entry cue, begin with one ordinary question about the user's actual object and claim, before any PatternID, card, template label, or internal taxonomy. In the same compact cue, state what any cited content contributes and cite the pattern id; name the smallest result kind usable now, the stop or return condition, and one tempting overread that remains non-admissible. Add the exact claim-bearing episteme and its `ClaimGraph` or edition only when the cue's named later use depends on that identity. The cue is reading guidance, not a section schema, method, plan, work occurrence, structure, or relation; it neither constitutes the result nor makes a routed relation obtain.
 
 Resolve the current head before coarsening it. Keep an actual holon under the A.1 kind-admission rule and each direct relation under the predicate and occurrence test supplied by `A.6.REL` or the relevant relation pattern; an independently selected `U.Structure` under A.22; a boundary-description episteme, its effective `ReferenceScheme`, and any separately obtaining empirical-grounding relation under C.2.1, with the grounding holon separately admitted under A.1; a `U.View` under E.17.0; a `U.ClaimScope` under A.2.6; a `U.WorkPlan` under A.15.2; dated `U.Work` under A.15.1; architecture and architecture-description assertions under C.30 and C.30.AD; and a publication occurrence under E.24.PUB. Keep an FPF `Map` and a decision occurrence under the patterns that define or constrain those values. In an ordinary cue, state those concrete contributions and cite the ids. Identify exact predicate-definition content, a claim-bearing episteme, or a `ClaimGraph` only when its identity changes interpretation, comparison, migration, conflict, publication, or reuse. Actual, intended, selected, expected, described, viewed, mapped, grounded, published, and performed objects remain distinct. A cue, diagram, description, file, card, suffix, template label, or public coarsening creates none of them and establishes none of their relations.
 

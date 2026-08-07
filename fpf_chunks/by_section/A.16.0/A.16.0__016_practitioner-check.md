@@ -6,12 +6,12 @@ section_id: "A.16.0:15"
 section_title: "Practitioner check"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__016_practitioner-check.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:15 — Practitioner check"
-line_start: 27572
-line_end: 27582
+line_start: 27589
+line_end: 27599
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -44,11 +44,11 @@ keywords:
 ### A.16.0:15 - Practitioner check
 A practitioner should ask:
 
-1. Is the author really describing history over the declared language-state `U.CharacteristicSpace`, or only narrating progress informally?
-2. Is the current governed member distinct from the grounds, publication form, publication face, and carrier?
+1. Is the author describing history over the declared language-state `U.CharacteristicSpace`, or only narrating progress informally?
+2. Is the selected episteme edition distinct from the grounds, publication form, occurrence, face, and carrier?
 3. Is this history heavy enough to justify `A.16.0`, or would a local `A.16` move note have sufficed?
 4. Are multi-route state and lineage fork being kept distinct?
 5. Are derivation, supersession, fork, merge, or retirement links visible where the reading depends on them?
-6. Is the current publication a seam publication or already a `U.EpistemePublication` form governed by a named endpoint pattern?
-7. If `formalize` or `operationalize` required world-facing work, is the work-boundary crossing or responsibility transfer explicit?
+6. Does the current claim concern an episteme edition, a seam or endpoint publication form, or—when bounded availability matters—an `EpistemePublicationRelation` occurrence? Are those positions kept separate, and is the endpoint test named?
+7. If `formalize` or `operationalize` required world-facing work, is the work-boundary crossing explicit? If responsibility, commitment, permission, or authority also changed, are its participants, exact relation, object or action, scope, interval, and required instituting act stated separately?
 

@@ -6,12 +6,12 @@ section_id: "A.16.0:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__012_sota-echoing.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:11 — SoTA-Echoing"
-line_start: 27526
-line_end: 27528
+line_start: 27542
+line_end: 27544
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -42,5 +42,5 @@ keywords:
 ---
 
 ### A.16.0:11 - SoTA-Echoing
-The pattern matches contemporary practice in exploratory inquiry, operator-centered incident work, model probing, and structured design iteration: admissible progress sometimes requires visible intermediate publications, branch-aware history, disciplined retreat, and explicit responsibility transfers rather than hidden jumps from cue to endpoint.
+The pattern matches contemporary practice in exploratory inquiry, operator-centered incident work, model probing, and structured design iteration: admissible progress sometimes requires visible intermediate publications, branch-aware history, disciplined retreat, explicit next-use docking, and—where it actually occurs—a separately established responsibility handoff rather than a hidden jump from cue to endpoint.
 

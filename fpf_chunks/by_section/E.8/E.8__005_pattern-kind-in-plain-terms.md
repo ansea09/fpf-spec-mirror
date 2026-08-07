@@ -6,12 +6,12 @@ section_id: "E.8:0.3"
 section_title: "Pattern Kind In Plain Terms"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__005_pattern-kind-in-plain-terms.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.3 — Pattern Kind In Plain Terms"
-line_start: 71988
-line_end: 72011
+line_start: 72031
+line_end: 72054
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -72,7 +72,7 @@ A wording cleanup is kind-preserving by default. Before an author accepts a chan
 
 Authoring repairs also have an MG-DA cold-reader closure. A phrase is not mature merely because it avoids a trigger word or uses an FPF-looking abstraction. A reader who has not read the `DRR`, campaign notes, or author memory must still be able to recover the object being named, its FPF kind or ordinary status, the relation or claim kind, the admissible use, and what any cited pattern contributes to the claim. Identify an exact claim-bearing episteme or `ClaimGraph` only when its identity changes interpretation, migration, conflict, publication, or reuse. If authoring uses `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, or another broad head, name the specific object and position or keep the phrase ordinary. If authoring uses `specialization`, state what object is specialized, what relation makes it a specialization, what inherited or changed slots or uses matter, and which pattern defines or constrains it; require an exact `ClaimGraph` only when the receiving use depends on that exact claim-bearing content. Otherwise the edit is bureaucratic abstraction, not an improvement.
 
-For boilerplate overwrap, use the Method described at `F.19`. `E.8` adds only the pattern-authoring placement rule: after boilerplate is removed or moved and remaining content is precision-restored using the Methods described at `E.10`, `E.10.ARCH`, `F.18`, or the relevant pattern that defines or constrains the kind, relation, or use, pattern prose keeps only the intended user's admissible move and boundary. Process, architecture, review, quality, projection, and release evidence stay in their own carriers unless they are rewritten as that user-facing move.
+For boilerplate overwrap, use `F.19`. After removing or moving the apparatus, repair any remaining word, head, name, relation, or use with `E.10`, `E.10.ARCH`, `F.18`, or the specific pattern that defines, constrains, or tests the claim. Keep the intended user's action and boundary. Do not expand ordinary `use/apply this pattern` wording into `U.MethodDescription`, `U.Method`, actor, assignment, `U.Work`, `U.Transformation`, or `ClaimGraph` language unless the current claim or a named later use depends on those identities. Process, architecture, review, quality, projection, and release evidence stay in their own carriers unless rewritten as that user-facing action.
 
 When an action-adjacent pattern classifies wording, a name, a publication face, an explanation class, a comparison unit, or another semio-facing object, that classification is only useful if it connects back to action guidance. The pattern must say what use or action is admissible now, what related use or action is not admissible under the current pattern, and which FPF pattern defines or constrains the case when the claim is a work, evidence, gate, decision, assurance, engineering-justification, release, or reliance claim.
 

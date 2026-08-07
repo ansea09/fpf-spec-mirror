@@ -6,12 +6,12 @@ section_id: "F.17:9"
 section_title: "Layouts"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__011_layouts.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:9 — Layouts"
-line_start: 95557
-line_end: 95574
+line_start: 95788
+line_end: 95805
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ F.17 admits two common layouts.
 Layout A, scheme-first: keep the left rail fixed and add one exact reference-scheme column per selected interpretation basis. Use this when the reader's comparison concerns local senses under named schemes.
 
 ```text
-UTSRowId | Unification thread | Block | Governed value | Governed value kind | Direct pattern
+UTSRowId | Unification thread | Block | Governed value | Governed value kind | Defining or constraining pattern
 Unified Tech name | Unified Plain name | NameCardRef
 Reference scheme A | Reference scheme B | Reference scheme C
 BridgeRefs | Row rationale | Admissible use | Not this use

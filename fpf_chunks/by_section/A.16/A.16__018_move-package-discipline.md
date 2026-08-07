@@ -6,12 +6,12 @@ section_id: "A.16:17"
 section_title: "Move Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__018_move-package-discipline.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:17 — Move Package Discipline"
-line_start: 27202
-line_end: 27224
+line_start: 27206
+line_end: 27228
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -53,7 +53,7 @@ A conforming move note should name:
 
 - the **source publication form**,
 - the **target publication form**,
-- the **target governing pattern**,
+- the **target pattern and its defining, constraining, or testing contribution**,
 - the **move kind**,
 - the **facet or route-state changes** that justify the move,
 - the **authority effect**,
@@ -62,7 +62,7 @@ A conforming move note should name:
 If those fields already make the move reconstructible, the note does not need `A.16.0`.
 
 #### A.16:17.2 - Source and target must both be typed
-"The episteme was refined" is insufficient. `A.16` requires a typed source publication form and a typed target publication form so governing pattern boundaries stay visible.
+"The episteme was refined" is insufficient. `A.16` requires a typed source publication form and a typed target publication form so the transition into a new endpoint rule stays visible.
 
 #### A.16:17.3 - Witness continuity
 Keep continuity explicit when anchors, contrasts, traces, or exemplars survive. If continuity breaks, state the break directly rather than smoothing it over in maturity prose.

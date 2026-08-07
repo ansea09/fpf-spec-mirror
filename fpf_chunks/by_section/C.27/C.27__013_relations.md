@@ -6,12 +6,12 @@ section_id: "C.27:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__013_relations.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:12 — Relations"
-line_start: 56830
-line_end: 56947
+line_start: 56850
+line_end: 56967
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -60,7 +60,7 @@ being made of it. It does not become the pattern for the described system, work,
 measurement, benchmark, promise, quality bundle, or formal dynamics model.
 
 When a temporal claim also touches another FPF concern, use the FPF pattern that
-governs that concern and let C.27 state only the temporal-claim adequacy question.
+applies to that concern and let C.27 state only the temporal-claim adequacy question.
 
 | Related FPF pattern or discipline | Use C.27 for | Keep in that pattern or discipline |
 | --- | --- | --- |
@@ -88,20 +88,20 @@ governs that concern and let C.27 state only the temporal-claim adequacy questio
 | `C.25` | Dynamic quality-family slot when agility, resilience, adaptability, recovery, or robustness depends on braking, redirection, stabilization, recovery rate, or rhythm under effort. | Quality-family bundle structure, scope, measures, mechanisms, evidence, and endpoint discipline. |
 | `G.5` | Only the selector-publication case where a selector report consumes a dynamic benchmark result. | Method-family registry use and selector publication. C.27 does not add a default G.5 object. |
 | `A.2.3`, `A.2.8`, `A.2.9`, `A.6.C`, `F.12`, and assurance patterns | Promise-like or boundary-facing temporal claims: release speed, recovery guarantee, SLA-like cadence, SLO-like cadence, public commitment, gate, service acceptance, or assurance use. | Promise content, commitments, instituting speech acts, contract unpacking, service acceptance binding, assurance claims, and release or gate evidence. |
-| `E.18`, `A.20`, and `A.21` | Naming the C.27 temporal-claim adequacy question when a flow, gate, crossing, `PathSlice`, `LaunchGate`, or published decision uses that temporal claim. | E.18/A.20/A.21 governed relations: selected `TransformationFlowStructure`, `U.Transfer`, `OperationalGate(profile)`, GateCheck publication shape, `ConstraintValidity`, `GateFit`, `DecisionLog`, `PathSlice` or sentinel refresh, `Gamma_time` pins, `SquareLaw`, and crossing visibility. |
+| `E.18`, `A.20`, and `A.21` | Naming the C.27 temporal-claim adequacy question when a flow, gate, crossing, `PathSlice`, `LaunchGate`, or published decision uses that temporal claim. | E.18/A.20/A.21 relations: selected `TransformationFlowStructure`, `U.Transfer`, `OperationalGate(profile)`, GateCheck publication shape, `ConstraintValidity`, `GateFit`, `DecisionLog`, `PathSlice` or sentinel refresh, `Gamma_time` pins, `SquareLaw`, and crossing visibility. |
 | `C.21`, `G.10`, `G.11`, and `G.12` | Naming the temporal claim when a discipline-health value, shipped pack, dashboard time-series, telemetry pin, RSCR trigger, refresh plan, refresh report, or dashboard slice is read as evidence for improvement, decay, recovery, stabilization, or rate-change. | Discipline-health slot meaning, SoTA pack shipping, DHC series, row, and slice construction, telemetry-pin publication, refresh and decay orchestration, and RSCR trigger discipline. |
 | `C.28` | A rate-change, intervention, effort, workshop, policy, or practice change is used to make a causal-use claim. | Causal-use question, `C.28` causal-use class, causal intervention spec, contrast or counterfactual, estimand, timing, outcome, assumptions, rival causes, identification strategy, realizability claim, evidence design, supported causal use, and unsupported causal use. |
 
 Use pattern references before expanding a C.27 record. When measurement,
 transition law, work evidence, planning, benchmark parity, `C.28` causal-use
 claim, promise content, assurance claim, quality, viability, or residual QL
-discipline governs the other question, the C.27 record cites that pattern and
+discipline applies to the other question, the C.27 record cites the corresponding pattern and
 keeps only the temporal-claim adequacy question.
 
 When a temporal claim touches neighbouring work, keep these boundaries:
 
 1. Fields in a C.27 card do not imply new Kernel kinds.
-2. State space, measurement, transition law, work, planning, benchmark, causality, promise, service, quality-bundle, publication, transformation, and QL questions stay with the FPF pattern that governs each question.
+2. State space, measurement, transition law, work, planning, benchmark, causality, promise, service, quality-bundle, publication, transformation, and QL questions stay with their applicable FPF patterns.
 3. The described object, authored temporal claim, temporal bearer, profile content, and profile carrier remain distinct.
 4. If the text says process, work cycle, practice, service, method, system, transformation, or rhythm, the real bearer or changed object is named through a named FPF kind and reference rather than treated as one generic moving thing.
 5. Derivative-like readings remain compatible with C.16 measurement construction.
@@ -109,18 +109,18 @@ When a temporal claim touches neighbouring work, keep these boundaries:
 7. At least one golden case stops or downgrades from Dyn2 correctly.
 8. Braking, pause, stabilization, redirection, and coasting are first-class temporal moves rather than failures to accelerate.
 9. QL relevance stays inactive unless ordinary pattern relations leave residual probe, frame, export, or coarsening cue.
-10. Causal, benchmark, promise-like, transformation, and assurance claims cite the governing pattern relation that carries the claim rather than relying on an ordinary `Dyn2TemporalClaimAdequacyCard`.
+10. Causal, benchmark, promise-like, transformation, and assurance claims cite the applicable pattern relation rather than relying on an ordinary `Dyn2TemporalClaimAdequacyCard`.
 
 This is the neighbouring-question boundary check, not a second relation matrix and not a form for ordinary use. Before expanding C.27, ask four questions:
 
-1. Is the EntityOfConcern still the authored temporal claim, with the described object, claim-bearing description, and carrier kept separate under A.7/C.2.1? If not, return to the pattern that governs the described object or episteme.
-2. Is local dynamic wording (`Dyn2`, rhythm, force, inertia, speed, acceleration, trend, rate-change) turning into a new FPF kind or a hidden coordinate system? If yes, use E.10/F.18 and the direct characteristic/measurement patterns before writing more C.27 apparatus.
-3. Is the current governed question actually measurement, dynamics, work, work planning, causality, benchmark parity, promise, service acceptance, quality, viability, evidence, provenance, QL residue, or transformation? If yes, use the governing pattern named in the relation table and keep only the temporal-claim adequacy question here.
+1. Is the EntityOfConcern still the authored temporal claim, with the described object, claim-bearing description, and carrier kept separate under A.7/C.2.1? If not, return to the applicable pattern for the described object or episteme.
+2. Is local dynamic wording (`Dyn2`, rhythm, force, inertia, speed, acceleration, trend, rate-change) turning into a new FPF kind or a hidden coordinate system? If yes, use E.10/F.18 and the applicable characteristic or measurement patterns before writing more C.27 apparatus.
+3. Is the current question actually measurement, dynamics, work, work planning, causality, benchmark parity, promise, service acceptance, quality, viability, evidence, provenance, QL residue, or transformation? If yes, use the applicable pattern named in the relation table and keep only the temporal-claim adequacy question here.
 4. Is the local one-screen `Dyn2TemporalClaimAdequacyCard` enough? If yes, do not open a `Dyn2TemporalClaimProfile` and do not copy neighboring-pattern doctrine into C.27.
 
-At use time, the concrete relation is enough: name the temporal-claim adequacy question, name the pattern that governs the other question, state the unsupported downstream claim, effect, or use, and choose the minimal C.27 output or the pattern relation that carries the other claim.
+At use time, the concrete relation is enough: name the temporal-claim adequacy question, name the applicable pattern for the other question, state the unsupported downstream claim, effect, or use, and choose the minimal C.27 output or the pattern relation that carries the other claim.
 
-Core discipline: C.27 does not name new objects in the world. It names when an authored temporal claim has started to need intervention-sensitive temporal adequacy, then keeps each higher-demand claim relation with the FPF pattern that already governs that concern.
+Core discipline: C.27 does not name new objects in the world. It names when an authored temporal claim has started to need intervention-sensitive temporal adequacy, then keeps each higher-demand claim relation with the applicable FPF pattern for that concern.
 
 Practitioner-readable problem:
 
@@ -141,7 +141,7 @@ One-minute working script:
 > claims need a `Dyn2TemporalClaimProfile`. Formal laws, measurements, work,
 > `C.28` causal-use claim, benchmarks, promises, assurance, viability envelopes,
 > scale-variable claims, adaptation signatures, and QL residues stay with the
-> existing FPF patterns that govern those concerns.
+> existing FPF patterns for those concerns.
 
 C.27 also carries an early non-improvement boundary:
 
@@ -162,7 +162,7 @@ The `Dyn2TemporalClaimProfile` is a boundary-crossing claim-use C.27 record. Exi
 
 The durable bottom line is:
 
-> C.27 is useful when it notices state or rate readings being laundered into rate-change claims, produces the least-committing supported next output, and keeps every higher-demand claim relation with the existing FPF pattern that governs that concern.
+> C.27 is useful when it notices state or rate readings being laundered into rate-change claims, produces the least-committing supported next output, and keeps every higher-demand claim relation with the applicable FPF pattern for that concern.
 
 It should help FPF users act more carefully with speed, rhythm, effort,
 inertia, braking, coasting, and redirection claims. It does not make FPF carry

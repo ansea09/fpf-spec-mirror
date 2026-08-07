@@ -6,12 +6,12 @@ section_id: "A.16.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.1/A.16.1__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.1 — U.PreArticulationCuePack"
   - "A.16.1:3 — Forces"
-line_start: 27619
-line_end: 27626
+line_start: 27636
+line_end: 27643
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ keywords:
 ### A.16.1:3 - Forces
 | Force | Tension |
 |---|---|
-| **Low-articulation shape vs publishability** | Preserve early cues without pretending they are already late `U.EpistemePublication` forms governed by endpoint patterns. |
+| **Low-articulation shape vs publishability** | Preserve early cues without pretending that the preserved episteme already carries a stabilized endpoint claim, is expressed in a later publication form, or has an endpoint publication occurrence. |
 | **Pre-route preservation vs later `B.4.1` publication** | Let cue preservation stand independently before route publication is justified. |
 | **Carrier awareness vs stack duplication** | Respect traces, bodies, and model states without creating a second carrier stack beside `A.7`. |
 | **Plurality vs auditability** | Allow several plausible continuations without collapsing the cue pack into a route record. |

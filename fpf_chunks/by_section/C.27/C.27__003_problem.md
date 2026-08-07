@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 55130
-line_end: 55277
+line_start: 55150
+line_end: 55297
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -53,9 +53,9 @@ keywords:
 
 ### C.27:2 - Problem
 
-C.27 governs the adequacy of intervention-sensitive temporal claims.
+Use C.27 to check the adequacy of intervention-sensitive temporal claims.
 
-C.27 does not govern:
+Do not use C.27 for:
 
 - transition laws or reusable dynamics models, which `A.3.3 U.Dynamics` carries;
 - state-space or coordinate construction, which `A.19` and `C.16` carry;
@@ -130,7 +130,7 @@ short temporal-claim note when the state, rate, rate-change, rhythm, or regime r
 changes supported use. The named neighbouring pattern then carries the
 non-C.27 question. If the temporal distinction does not change supported use, stop before opening C.27.
 
-Do not make C.27 the governing pattern when:
+Do not use C.27 when:
 
 - the text only reports a state or snapshot and no rate or use distinction changes
   interpretation;
@@ -141,7 +141,7 @@ Do not make C.27 the governing pattern when:
 - the issue under repair is publication-unit stability: one overloaded local head,
   drifting publication-unit primary entity of concern, bounded comparison, explanation faithfulness, or
   approval wording or action wording should use E.17.AUD, E.17.ID.CR, E.17.EFP, or the
-  pattern that governs the downstream claim, effect, or use before C.27;
+  applicable pattern for the downstream claim, effect, or use before C.27;
 - the question under repair is whether a measure is constructed, comparable, or interpretable:
   `C.16` carries measurement construction, with C.27 only citing the temporal
   C.27 relation if the measure supplies evidence for an intervention-sensitive claim;
@@ -197,5 +197,5 @@ C.27 does not introduce:
 - new U-kinds for force, mass, acceleration, rhythm, or practice;
 - a new publication role, separate pattern, law sheet, or MVPK face;
 - default C.27 profiling for every temporal word;
-- thin C.27 echo records when a local C.27 card or profile can cite the FPF pattern that governs the other question.
+- thin C.27 echo records when a local C.27 card or profile can cite the applicable FPF pattern for the other question.
 

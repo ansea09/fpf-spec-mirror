@@ -6,12 +6,12 @@ section_id: "F.9.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 92902
-line_end: 92907
+line_start: 93133
+line_end: 93138
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

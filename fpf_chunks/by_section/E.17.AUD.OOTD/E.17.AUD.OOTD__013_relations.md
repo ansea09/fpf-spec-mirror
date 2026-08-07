@@ -1,22 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
 section_id: "E.17.AUD.OOTD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__013_relations.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:12 — Relations"
-line_start: 82926
-line_end: 82947
+line_start: 83141
+line_end: 83164
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.4"
   - "A.16.0"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6.3"
@@ -25,6 +27,7 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.11"
   - "C.2.2a"
   - "E.10"
   - "E.14"
@@ -51,10 +54,12 @@ keywords:
 **Nearest neighbors**
 - `E.17.AUD.LHR` for local lexical-head kind or qualifier repair;
 - `E.17.ID.CR` when the same unit is already stable and the remaining question is one bounded comparative review move;
-- `E.17.EFP` when explanation-face governance on existing faces is primary;
+- `E.17.EFP` when explanation-face use or faithfulness on existing faces is primary;
 - `A.6.3`, `A.6.3.CR`, and `A.6.3.RT` when the question under repair is same-entity rewrite or representation change;
 - `A.10` when evidence or provenance becomes primary;
 - `A.15` and `A.15.4` when work, reliance, or execution claim becomes primary;
 - `B.3` when assurance or engineering justification becomes primary;
-- `A.20` and `A.21` when approval, gate, or adjudication becomes primary.
+- `C.11` when choosing among already available options becomes primary;
+- `A.2.9` when an actual approval is communicative Work, and `A.2.8.PER` when the question is the permission or grant relation it institutes, its exercise, or its conflict;
+- `A.20` only when step-local `FlowConstraintValidity` becomes primary, and `A.21` only when a current `OperationalGate(profile)` publishes the gate decision.
 

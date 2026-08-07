@@ -6,12 +6,12 @@ section_id: "A.16:22"
 section_title: "Review Matrix for Integration Integrity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__023_review-matrix-for-integration-integrity.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:22 — Review Matrix for Integration Integrity"
-line_start: 27317
-line_end: 27328
+line_start: 27323
+line_end: 27334
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,10 +49,10 @@ keywords:
 A reviewer can test an `A.16` move or move chain with six questions:
 
 1. **Are the source publication form and target publication form typed?** If not, the move is too vague.
-2. **Are governing pattern and face kept distinct from the form?** If not, the move collapses layers.
-3. **Is the authority effect explicit?** If not, governing pattern boundaries will drift.
+2. **Are the cited pattern's concrete contribution and the face kept distinct from the form?** If not, the move collapses positions.
+3. **Is the authority effect explicit?** If not, the endpoint rule and use boundary will drift.
 4. **Is route plurality being confused with lineage fork?** If yes, the history is being misread.
 5. **Are intermediate move publications suppressed in a way that changes the reading?** If yes, the chain is over-compressed.
-6. **Has `A.16` started to impersonate a governing pattern or a trajectory wrapper?** If yes, the relevant governing pattern or `A.16.0` threshold needs to be named explicitly.
+6. **Has `A.16` started to replace an endpoint rule or a trajectory wrapper?** If yes, use the applicable endpoint pattern or `A.16.0` explicitly.
 
 This matrix keeps the integration layer narrow while still making its move semantics inspectable.

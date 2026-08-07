@@ -6,12 +6,12 @@ section_id: "E.17.EFP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__004_forces.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:3 — Forces"
-line_start: 80822
-line_end: 80829
+line_start: 80991
+line_end: 80998
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.9"
   - "A.20"
   - "A.21"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.B"
   - "A.7"
@@ -39,8 +41,8 @@ keywords:
 ### E.17.EFP:3 - Forces
 
 - **Clarity vs semantic restraint.** Explanation can help readers, but it does not mint new semantic commitments on publication faces.
-- **Face discipline vs reader fit.** The same source can need different renderings, but all of them stay on existing MVPK faces.
+- **Face discipline vs reader fit.** The same episteme can need different forms, while changed claims identify another episteme even when reader fit motivated the change.
 - **Traceability vs accessibility.** Simpler renderings are useful only if readers can still recover how they relate to the source.
 - **Didactic usefulness vs policy misuse.** A didactic or speculative retelling can help humans, but it does not masquerade as assurance or gate-bearing content.
-- **Explanation vs interpretation.** Some moves still belong to explanation rendering; others uses interpretation, retargeting, or world or gate governing patterns or project-side FPF kinds and references named by value.
+- **Explanation vs interpretation.** Some moves still belong to explanation rendering; other uses require interpretation, retargeting, or the FPF rule or project record that actually defines the world-side or gate claim.
 

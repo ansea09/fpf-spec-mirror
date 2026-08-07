@@ -6,12 +6,12 @@ section_id: "A.15.4:4.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__008_bias-annotation.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:4.1 — Bias-Annotation"
-line_start: 25953
-line_end: 25958
+line_start: 25951
+line_end: 25956
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,7 +50,7 @@ keywords:
 
 ### A.15.4:4.1 - Bias-Annotation
 
-A.15.4 corrects appearance-based reliance. A publication face, dashboard tile, credential view, generated explanation, copied approval, provenance mark, schema wording, or API response can look ready for work before the governing pattern position and project-side FPF reference are named. The pattern keeps the reliance appearance separate from the source relation or other governing relation that carries the claim.
+A.15.4 corrects appearance-based reliance. A publication face, dashboard tile, credential view, generated explanation, copied approval, provenance mark, schema wording, or API response can look ready for work before the required relation or result and its project-side FPF reference are named. The repair keeps the reliance appearance separate from the source relation or other relation that supports the claim.
 
 It also corrects over-repair bias. Not every reliance appearance being used as a reason for work or reliance needs a full dossier. The local repair record names the reliance appearance, attempted use, sole typed prerequisite set, allowed current use, blocked appearance overread, and recovery or stop condition at the smallest useful depth selected from that use and those rows.
 

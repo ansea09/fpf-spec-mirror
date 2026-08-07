@@ -6,23 +6,19 @@ section_id: "E.17.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:1 — Problem frame"
-line_start: 78990
-line_end: 79007
+line_start: 79058
+line_end: 79075
 dependencies:
   - "A.22"
-  - "A.6.2"
   - "A.6.3"
-  - "A.6.4"
   - "A.6.5"
-  - "A.7"
   - "C.13"
   - "C.2.1"
   - "C.29"
-  - "E.10.D1"
   - "E.10.D2"
   - "E.17"
   - "E.17.1"
@@ -48,5 +44,5 @@ Those uses involve different objects and relations:
 8. exact correspondence relations and epistemes that assert or describe them;
 9. publication occurrences, forms, carriers, and representations.
 
-The list is an orientation, not a form to fill. Ordinary use often needs only items 1 through 5.
+The list is an orientation, not a form to fill. Ordinary positive recognition needs items 1 through 5; a negative test stops without an obtaining conformance occurrence or `U.View` membership. Construction, selection, correspondence, and publication stay outside unless the receiving use calls for them.
 

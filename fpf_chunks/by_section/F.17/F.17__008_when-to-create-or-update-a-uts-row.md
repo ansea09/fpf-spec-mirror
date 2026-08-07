@@ -6,12 +6,12 @@ section_id: "F.17:6"
 section_title: "When to create or update a UTS row"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__008_when-to-create-or-update-a-uts-row.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:6 — When to create or update a UTS row"
-line_start: 95499
-line_end: 95510
+line_start: 95730
+line_end: 95741
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ Create or revise one row only when all entry objects are exact and at least one 
 - durable reuse outside the immediate local repair;
 - cross-local reuse whose exact cells, any actual Bridge, separate use claim, and reliance are recoverable;
 - stable citation from examples, checks, dashboards, training material, a project standard, or a tool interface;
-- a direct-pattern or F.18 change that alters this exact row's value, name, sense, admitted use, or blocked use.
+- a change to the rules that define or constrain this value, or an F.18 change, that alters this exact row's value, name, sense, admitted use, or blocked use.
 
 Before the row, apply F.14 again. A noticed word, accepted designation, stable local sense, NameCard, Bridge description, source publication, or desire for a tidy table does not by itself meet the gate. A durable local NameCard can remain local; a cell can remain a cell; an existing row can be reused only within its admitted use.
 

@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 48120
-line_end: 48283
+line_start: 48140
+line_end: 48303
 dependencies:
   - "A.10"
   - "A.16"
@@ -43,6 +43,8 @@ dependencies:
   - "C.2.7"
   - "C.2.LS"
   - "C.25"
+  - "C.30.AD"
+  - "C.30.ASV"
   - "E.10"
   - "E.10.ARCH"
   - "E.17.0"
@@ -63,7 +65,7 @@ keywords:
 #### C.16.Q:5.1 - Tell
 
 If a draft says *quality*, the draft has not yet named the evaluative family.
-A conforming rewrite publishes either one explicit endpoint-pattern-governed evaluative form or one explicit `qualityTermAscription(...)` transitional record with exact bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, exact endpoint-governing pattern or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, Card, and stance overlay.
+A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, Card, and stance overlay.
 
 #### C.16.Q:5.2 - Show (System lane)
 
@@ -87,7 +89,7 @@ The identifiers below denote distinct objects. Each `comparisonFrameRef` resolve
   witnessRefs = {ProbeSeparationRun_22, AliasRiskCard_9},
   evidenceProvenancePathRefs = {LatentFitEvidencePath_22},
   empiricalGroundingRelationRef = EGR_LatentFitResult_22,
-  endpointGoverningPatternRef = C.16
+  endpointPatternLocator = C.16
 )`
 
 Here `EGR_LatentFitResult_22` denotes a separately established relation between the exact result episteme and exact grounding holon under the governed probe or measurement relations. The run and card alone would not establish it.
@@ -108,7 +110,7 @@ Here `EGR_LatentFitResult_22` denotes a separately established relation between 
   witnessRefs = {ClosedLoopTraceSet_41},
   evidenceProvenancePathRefs = {ControlEvidencePath_41},
   empiricalGroundingRelationRef = EGR_ControlAdequacyResult_41,
-  endpointGoverningPatternRef = C.25
+  endpointPatternLocator = C.25
 )`
 
 #### C.16.Q:5.3 - Show (Episteme lane)
@@ -131,7 +133,7 @@ Here `EGR_LatentFitResult_22` denotes a separately established relation between 
   witnessRefs = {EpisodeNotes_3},
   evidenceProvenancePathRefs = none,
   empiricalGroundingRelationRef = none,
-  endpointGoverningPatternRef = A.16.1
+  endpointPatternLocator = A.16.1
 )`
 
 The explicit `none` values matter: episode notes are witnesses to articulation, not automatic provenance or empirical grounding.
@@ -152,7 +154,7 @@ The explicit `none` values matter: episode notes are witnesses to articulation, 
   witnessRefs = {CritiqueSheet_14, CounterexampleSet_2},
   evidenceProvenancePathRefs = {ExplanationEvidencePath_14},
   empiricalGroundingRelationRef = none,
-  endpointGoverningPatternRef = C.25
+  endpointPatternLocator = C.25
 )`
 
 #### C.16.Q:5.3a - Show (Architecture description lane)
@@ -167,7 +169,7 @@ The explicit `none` values matter: episode notes are witnesses to articulation, 
   probeOrModelFrameRef = Q_Bundle_AvailabilitySecurityEvolvability_3,
   comparisonFrameRef = PlatformVersionComparison_CF4,
   evaluatorRef = ArchitectureReviewBoard,
-  viewpointRef = TEVB_ArchitectureViewpointRef,
+  viewpointRef = ProjectSystemEngineeringQualityViewpointRef_4,
   referencePlane = world,
   normalForm = Bundle,
   claimScope = U.ClaimScope({PaymentPlatformEngineeringSlice_4}),
@@ -175,7 +177,7 @@ The explicit `none` values matter: episode notes are witnesses to articulation, 
   witnessRefs = {AvailabilityReport_8, CouplingCheck_3, EvolvabilityNote_2},
   evidenceProvenancePathRefs = {PlatformQualityEvidencePath_8},
   empiricalGroundingRelationRef = EGR_PlatformQualityResult_8,
-  endpointGoverningPatternRef = C.25
+  endpointPatternLocator = C.25
 )`
 
 **Repair B — quality of the architecture description**
@@ -183,10 +185,10 @@ The explicit `none` values matter: episode notes are witnesses to articulation, 
   bearerTuple = {ArchitectureDescription_AD12},
   qualitySense = QS.ArchitecturalDescriptionFitness,
   effectiveReferenceScheme = ArchitectureDescriptionFitnessScheme_12,
-  probeOrModelFrameRef = ViewpointBundle_TEVB × DecisionQuestionSet_DQ7,
+  probeOrModelFrameRef = ArchitectureDescriptionProbeFrame_AD12,
   comparisonFrameRef = DescriptionEditionComparison_CF12,
   evaluatorRef = ArchitectureReviewBoard,
-  viewpointRef = TEVB_ArchitectureViewpointRef,
+  viewpointRef = ProjectArchitectureDescriptionFitnessViewpointRef_12,
   referencePlane = episteme,
   normalForm = Bundle,
   claimScope = U.ClaimScope({ArchitectureDescriptionReviewSlice_AD12}),
@@ -194,10 +196,10 @@ The explicit `none` values matter: episode notes are witnesses to articulation, 
   witnessRefs = {CoverageMatrix_4, CorrespondenceCheck_7, ViewConsistencyNote_2},
   evidenceProvenancePathRefs = {DescriptionFitnessEvidencePath_7},
   empiricalGroundingRelationRef = none,
-  endpointGoverningPatternRef = E.17.2
+  endpointPatternLocator = C.25
 )`
 
-The shared evaluator and viewpoint reference do not collapse the two repairs: their exact bearers, schemes, frames, scopes, result claims, and evidence paths differ.
+`ArchitectureDescriptionProbeFrame_AD12` is one project-local probe frame: it may cite `DecisionQuestionSet_DQ7`, an architecture-description result under `C.30.AD`, structural-view adequacy under `C.30.ASV`, and the retained `U.ViewpointRef` members resolved from a constituted E.17.1 catalogue. It is neither a viewpoint-family value nor a substitute for the selected viewpoint. `C.25` supplies the Bundle endpoint; the architecture-description and viewpoint patterns supply their own checks. The shared evaluator does not collapse the two repairs: their bearers, schemes, probe/model frames, scopes, viewpoint references, result claims, and evidence paths differ.
 
 #### C.16.Q:5.4 - Show (QD or selector lane)
 
@@ -219,6 +221,6 @@ The shared evaluator and viewpoint reference do not collapse the two repairs: th
   witnessRefs = {ObjectiveCard_9, AcceptanceSpec_4},
   evidenceProvenancePathRefs = {QDSelectionEvidencePath_9},
   empiricalGroundingRelationRef = none,
-  endpointGoverningPatternRef = C.17
+  endpointPatternLocator = C.17
 )`
 

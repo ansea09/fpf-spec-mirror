@@ -6,19 +6,23 @@ section_id: "E.17:14"
 section_title: "Minimal authoring template (Part E)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__017_minimal-authoring-template-part-e.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:14 — Minimal authoring template (Part E)"
-line_start: 80732
-line_end: 80736
+line_start: 80885
+line_end: 80900
 dependencies:
+  - "A.10"
   - "A.15.4"
+  - "A.20"
+  - "A.21"
   - "A.22"
   - "A.6.2"
   - "A.6.3"
   - "A.6.9"
   - "A.7"
+  - "B.3"
   - "C.2.1"
   - "C.2.P"
   - "C.29"
@@ -40,6 +44,17 @@ keywords:
 
 ### E.17:14 - Minimal authoring template (Part E)
 
-**Header:** `MVPK v<edition> - F_face = {PlainView <= TechCard <= InteropCard; AssuranceLane independent}`
-**For each arrow f:** construct `{Emit_s(f) | s in F_face}` with the exact selected source episteme, `publicationViewpointRef`, `U.PublicationScope`, pins, CHR and CG references, and selected publication form. When an actual publication is current, also name the exact audience and bounded-use declarations, carrier, form-expression relation, form-bearing relation, and publication occurrence. If compositional publication is claimed, carry the local `Emit` and `PromoteFace` witnesses as conceptual-form constraints.
+**Ordinary publication**
+
+* **Current source/account:** `<recoverable source and edition or current subject>`
+* **Reader and use:** `<who needs what understanding or action>`
+* **Minimal publication-form set (MVPK faces):** `<one or only the needed forms>`
+* **Bounded-use declaration for each form:** `<reader, permitted use, and blocked stronger use>`
+* **Preserved and omitted:** `<claims retained; material omissions or narrowing>`
+* **Return to source:** `<where the reader checks or reopens the source>`
+* **Stop:** `<why no additional face or apparatus changes this use>`
+
+**Add only when triggered:** exact `publicationViewpointRef` and E.17.0 conformance for a material `U.View` claim; exact `U.PublicationScope`; E.24.PUB occurrence/form/carrier identities; pins; F.9 Bridge and bounded-use claim; selected `ReferencePlane` and applicable transfer or comparison rule; provenance, evidence, gate, release, or assurance references for the concrete receiving use.
+
+**Optional morphism profile:** declare `F_face` and the exact source morphism; use `Emit_s` and `PromoteFace` witnesses only for faces that claim compositional publication.
 

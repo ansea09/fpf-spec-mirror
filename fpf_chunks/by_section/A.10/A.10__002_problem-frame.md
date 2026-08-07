@@ -6,12 +6,12 @@ section_id: "A.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:1 — Problem frame"
-line_start: 22675
-line_end: 22692
+line_start: 22673
+line_end: 22690
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,15 +49,15 @@ keywords:
 
 Use this pattern when a source, carrier, result episteme, credential, dashboard, provenance label, generated explanation, model card, or review note is being relied on for a named claim or bounded action and the source-to-use account is still implicit.
 
-**Primary EntityOfConcern.** The live object is the exact relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the already governed sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
+**Primary EntityOfConcern.** The live object is the exact relied-on claim and bounded use. A.10 builds a descriptive evidence-provenance path that represents the independently established sources, carriers, work, result epistemes, provenance relations, currentness, and later-use relations needed to judge that use. The path is not a new world-side relation and its edges establish none of the facts they cite.
 
-**First useful move.** Write: “Work `W_use` relies on claim episteme `E` as a premise for use `U`; `E` states local result `R`; the cited source publications, carriers, work, and direct relations are `S`; currentness is `T`; the bounded A.10 disposition is `D`.” If a field lacks a direct governor, mark that exact gap.
+**First useful move.** Write: “Work `W_use` relies on claim episteme `E` as a premise for use `U`; `E` states local result `R`; the cited source publications, carriers, work, and direct relations are `S`; currentness is `T`; the bounded A.10 disposition is `D`.” If a field lacks the rule or relation needed to support it, mark that gap.
 
 **What goes wrong if missed.** Carrier presence becomes truth, provenance becomes approval, a result record becomes performed work, MethodDescription becomes a run trace, a graph edge becomes an obtaining relation, and a currentness or assurance decision is inferred from display styling.
 
-**What this buys.** A source-to-use account that can be replayed, contested, refreshed, narrowed, or handed to a neighboring governor while keeping the claim, carrier, performed work, local result, result episteme, provenance, currentness, reliance, assurance, and action distinct.
+**What this buys.** A source-to-use account that can be replayed, contested, refreshed, narrowed, or handed to the pattern that defines or tests an additional claim, while keeping the claim, carrier, performed work, local result, result episteme, provenance, currentness, reliance, assurance, and action distinct.
 
-**Not this pattern when.** A.10 does not own measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, work, or decision results. It does not establish representation correspondences. Use each direct pattern for its result, A.15.1/A.6.1 for performed work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, C.29 for representation, and B.3 when an assurance claim or material-reliance threshold is current.
+**Not this pattern when.** A.10 does not establish measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, work, or decision results. It does not establish representation correspondences. Use the pattern that defines or tests each result, A.15.1/A.6.1 for performed work and actual bindings, C.2.1 for the result episteme, G.11 for currentness, C.29 for representation, and B.3 when an assurance claim or material-reliance threshold is current.
 
 Use A.2.4 first when only the first evidence-use or status-use classification of an episteme is at issue. Enter A.10 when carrier identity, source recovery, provenance, currentness, rival explanations, or bounded reliance must remain replayable.
 

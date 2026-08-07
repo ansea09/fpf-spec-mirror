@@ -6,12 +6,12 @@ section_id: "C.32.HCS:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__008_conformance-checklist.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:7 — Conformance checklist"
-line_start: 65012
-line_end: 65022
+line_start: 65055
+line_end: 65065
 dependencies:
   - "A.19"
   - "C.11"
@@ -38,10 +38,10 @@ keywords:
 
 | Check | Required result |
 |---|---|
-| `CC-HCS-1` | The architecture-bearing family is named; when it is not itself an admitted holon family, the described holon, or the source-bearing episteme or publication context for a description-side family, and governing pattern refs are named. |
+| `CC-HCS-1` | The architecture-bearing family is named; when it is not itself an admitted holon family, the described holon or the source-bearing episteme or publication context for a description-side family is named, together with any recovery-pattern refs actually used. |
 | `CC-HCS-2` | Starter heads are paired with likely bearers or selected structures. |
 | `CC-HCS-3` | Q-Bundle boundaries are marked when the head is composite. |
-| `CC-HCS-4` | Software-derived heads are generalized only after the bearer, scale, and governing pattern are recoverable. |
+| `CC-HCS-4` | Software-derived heads are generalized only after the source label is resolved to an architecture-bearing family and the bearer and scale are recoverable. |
 | `CC-HCS-5` | Before project optimization, measurement, comparison, or selection, starter heads are either handed to `C.32.ACS` for project-row admission or kept as source catalogue wording. |
 | `CC-HCS-6` | Catalogue, benchmark, or dashboard cues that look mature answer the proxy-resistance question or remain source catalogue wording. |
 

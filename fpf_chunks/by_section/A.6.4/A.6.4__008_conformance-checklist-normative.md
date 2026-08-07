@@ -6,12 +6,12 @@ section_id: "A.6.4:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:8 — Conformance Checklist (normative)"
-line_start: 15573
-line_end: 15619
+line_start: 15571
+line_end: 15617
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -58,7 +58,7 @@ For retargetings over `…Description`/`…Spec` epistemes:
 * laws MUST be phrased in terms of `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`,
 * `EntityOfConcernRef` MUST change in a way consistent with the declared `KindBridge`,
 * `BoundedContextRef` MUST either be preserved or changed only via explicit Context‑Bridges,
-* `ViewpointRef` MUST either be preserved or change within a declared `U.ViewpointBundle`.
+* `ViewpointRef` MUST either be preserved or change from one exact source reference to one exact receiving reference in the retained subset of a named local declaration inside one exact catalogue L; both references MUST resolve exact P editions under `R_L`, while the retargeting or correspondence witness remains separately identified.
 
 **CC‑A.6.4‑6 - Separation from Viewing and Mechanisms.**
 * Any species that leaves `entityOfConcernRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.

@@ -1,22 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
 section_id: "E.17.AUD.OOTD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__011_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:10 — Rationale"
-line_start: 82906
-line_end: 82917
+line_start: 83119
+line_end: 83129
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.4"
   - "A.16.0"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6.3"
@@ -25,6 +27,7 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.11"
   - "C.2.2a"
   - "E.10"
   - "E.14"
@@ -38,13 +41,12 @@ keywords:
 
 ### E.17.AUD.OOTD:10 - Rationale
 
-The point of this pattern is not to create a second architecture of views, faces, carriers, or downstream decision texts.
+The point of this pattern is not to create a second architecture of views, faces, carriers, epistemes, or downstream decision texts.
 It is narrower: one publication unit can become misleading even when every single sentence looks locally acceptable.
 
-`A.6.P`, `A.7`, `E.10`, and `F.18` already keep kinds, distinctions, and naming precise.
-This pattern adds the missing publication-unit discipline that asks whether the same publication unit is still honestly about one primary EntityOfConcern, carrying one move, with one explicit outside-work boundary.
+`A.6.P`, `A.7`, `E.10`, and `F.18` already keep kinds, distinctions, and naming precise. `C.2.1` already identifies the exact entity participant of one claim-bearing episteme. This pattern adds only the missing publication-unit discipline: choose the least-cost honest architecture for a bounded readable unit, make its primary subject or section-level subjects and moves visible, and keep downstream use and outside work explicit. It borrows `EntityOfConcern` only through the exact conditional projection in 4.1.b and does not extend that ontology.
 
 The pattern also stays intentionally close to `E.14` and `E.19`.
-Recognition comes first through a manager-usable entry block and the ordinary six-row card.
-Heavier declaration comes only after the ordinary card already holds.
+Recognition comes first through a manager-usable entry block and one ordinary natural-language declaration; the six prompts remain an optional diagnostic.
+Heavier declaration comes only after the ordinary declaration already holds and a named receiving use consumes the added fields.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ASV:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ASV/C.30.ASV__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.30.ASV — Architecture Structural View Adequacy (ASV)"
   - "C.30.ASV:2 — Problem"
-line_start: 61424
-line_end: 61439
+line_start: 61444
+line_end: 61459
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,7 +46,6 @@ dependencies:
   - "C.35"
   - "E.10"
   - "E.10.D2"
-  - "E.17"
   - "E.17.0"
   - "E.17.1"
   - "E.17.2"
@@ -55,14 +54,6 @@ dependencies:
   - "F.18"
   - "G.6"
 keywords:
-  - "ArchitectureStructureKindRef"
-  - "VF.ARCH.STRUCTURE"
-  - "architecture structural view"
-  - "correspondence"
-  - "hidden or lost structure"
-  - "source return"
-  - "structure kind"
-  - "viewpoint bundle"
 ---
 
 ### C.30.ASV:2 - Problem
@@ -74,10 +65,10 @@ Without this pattern:
 - a module-interface view is treated as all architecture;
 - a selected transformation-flow structure, mathematical graph description, or control diagram is treated as proof;
 - a structure kind is treated as a `U.Viewpoint`;
-- a viewpoint label, query, authoring route, bundle membership, diagram, or publication is treated as enough for `U.View`;
-- a TEVB viewpoint bundle is mutated to carry architecture-specific structure kinds;
+- a viewpoint label, query, authoring route, family-declaration membership, diagram, or publication is treated as enough for `U.View`;
+- E.17.2's TEVB template or a project-local TEVB declaration is treated as a global bundle and mutated to carry architecture-specific structure kinds;
 - a diagram, table, dashboard, generated relation graph, or ADR is treated as the view episteme itself;
 - functional architecture is treated as a peer ontology rather than a structure-kind interpretation under C.30;
-- cross-view consistency is asserted by prose instead of correspondence claims or governed direct relations;
+- cross-view consistency is asserted by prose instead of correspondence claims or independently obtaining relations;
 - omitted structure is relied on in subsequent work without a source-return condition.
 

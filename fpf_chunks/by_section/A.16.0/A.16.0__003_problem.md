@@ -6,12 +6,12 @@ section_id: "A.16.0:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:2 — Problem"
-line_start: 27358
-line_end: 27366
+line_start: 27364
+line_end: 27372
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -44,9 +44,9 @@ keywords:
 ### A.16.0:2 - Problem
 Without an explicit trajectory-account pattern for those heavier cases:
 
-1. history is mistaken for generic one-pass process story rather than for governed move lineage over a declared language-state `U.CharacteristicSpace`;
-2. early seam publications are confused with `U.EpistemePublication` forms governed by endpoint patterns;
+1. history is mistaken for a generic one-pass process story rather than read as typed language-state moves over a declared `U.CharacteristicSpace`;
+2. an early seam form is confused with an endpoint-admitted episteme or with the publication occurrence that makes an episteme edition available;
 3. forks, merges, route retirement, supersession, and route-sensitive loss become implicit and unverifiable;
-4. every local move is either over-wrapped in ad hoc history prose or under-wrapped in a way that hides responsibility transfer and authority change;
+4. every local move is either over-wrapped in ad hoc history prose or under-described in a way that hides a work boundary or a separately established responsibility or authority change;
 5. bridge and viewpoint docking inherit under-described upstream history.
 

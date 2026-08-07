@@ -6,12 +6,12 @@ section_id: "C.27:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__007_bias-annotation.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:6 — Bias-Annotation"
-line_start: 56470
-line_end: 56497
+line_start: 56490
+line_end: 56517
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -53,7 +53,7 @@ keywords:
 
 ### C.27:6 - Bias-Annotation
 
-Use C.27 only where it helps a working reader notice temporal-claim inflation and choose the least-committing supported result: no C.27 record, Dyn0 reading, Dyn1 reading, a local `Dyn2TemporalClaimAdequacyCard`, a boundary-crossing `Dyn2TemporalClaimProfile`, or a named neighbouring-pattern relation. A correct dynamic-claim schema is not enough. The useful result is that a working reader can notice when a state or rate reading is being used as a rate-change, rhythm-change, intervention, braking, coasting, recovery, stabilization, benchmark, promise, or assurance claim; choose the least-committing supported next output; and stop or cite the carrying pattern without making C.27 absorb that pattern's governed concern.
+Use C.27 only where it helps a working reader notice temporal-claim inflation and choose the least-committing supported result: no C.27 record, Dyn0 reading, Dyn1 reading, a local `Dyn2TemporalClaimAdequacyCard`, a boundary-crossing `Dyn2TemporalClaimProfile`, or a named neighbouring-pattern relation. A correct dynamic-claim schema is not enough. The useful result is that a working reader can notice when a state or rate reading is being used as a rate-change, rhythm-change, intervention, braking, coasting, recovery, stabilization, benchmark, promise, or assurance claim; choose the least-committing supported next output; and stop or cite the carrying pattern without making C.27 absorb the other concern.
 The missing-question content belongs here only where it strengthens
 three practical abilities:
 
@@ -73,7 +73,7 @@ misread as a general theory of change.
 
 **Gov.** C.27 reduces hidden decision-claim inflation: local diagnosis, planning assumption or planning-model relation, benchmark use, public promise, and assurance use remain different claim uses.
 
-**Arch.** C.27 is biased against stealing work from neighbouring patterns. It types authored temporal-claim adequacy question while measurement, formal dynamics, work, search, benchmark, promise, causality, quality, value, viability, scale, adaptation, and QL relations remain with the patterns that govern those concerns.
+**Arch.** C.27 is biased against stealing work from neighbouring patterns. It covers authored temporal-claim adequacy, while measurement, formal dynamics, work, search, benchmark, promise, causality, quality, value, viability, scale, adaptation, and QL relations stay with the applicable patterns.
 
 **Ontology and episteme.** C.27 is biased toward described system, description, and carrier separation and toward explicit temporal-claim-use classification. It treats Dyn0, Dyn1, and Dyn2 as readings of authored temporal claims, not as kinds of systems.
 

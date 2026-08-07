@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14 — Closure conditions"
-line_start: 96277
-line_end: 96293
+line_start: 96514
+line_end: 96530
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 
 One row is ready for its declared citation use only when:
 
-- the governed value, exact kind, direct pattern, and proposed use are explicit;
+- the governed value, exact kind, the pattern that defines or constrains it, and the proposed use are explicit;
 - F.14 has rejected every lighter sufficient disposition before the current card, cell, and row;
 - the exact F.18 NameCard and selected Tech/Plain designations are current for this public-row gate;
 - every `SchemeSenseCell` resolves to one by-value ReferenceScheme, local expression, and local-sense claim;
@@ -63,7 +63,7 @@ One row is ready for its declared citation use only when:
 - the row has one decision, admitted and blocked citation uses, edition designator, and reopen condition;
 - any historical continuation is an exact C.2.1 `EpistemeEditionRelation` rather than shared id or title;
 - any availability is an exact E.24.PUB publication package rather than row, form, carrier, rendering, or upload alone; and
-- every ontology, obtaining, equivalence, authority, role, status, evidence, Work, and other subject-use claim remains under its direct owner.
+- every ontology, obtaining, equivalence, authority, role, status, evidence, Work, and other subject-use claim uses the pattern that defines, constrains, or tests it.
 
 No other row needs to be filled before this one can close. A sheet's row count or optional block plan says nothing about whether another naming decision is substantively needed.
 

@@ -6,12 +6,12 @@ section_id: "A.15.4:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__014_relations.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9 — Relations"
-line_start: 26002
-line_end: 26008
+line_start: 26000
+line_end: 26006
 dependencies:
   - "A.10"
   - "A.15"
@@ -52,6 +52,6 @@ keywords:
 
 * **Cluster relation:** `A.15.4` is a cluster member under `A.15` for work-relevant appearance-based reliance repair; it does not replace the A.15 role, method, plan, and work kernel.
 * **Uses:** `E.17`, `E.17:5.1b`, `E.17:5.1c`, and `E.17:5.1d` for source-relation/use-boundary vocabulary; `E.17.EFP` for explanation faithfulness/source-finding; `A.16.0` for source transfer; `A.6`, `A.6.B`, and `A.6.C` for boundary wording; `A.10` for evidence/currentness; `B.3` for assurance; `A.15.5` for work-entry readiness; `A.20` for constraint validity; `A.21` for gate decisions; `A.2.1` for role/state relations; `A.15.1` for dated Work; and `A.2.8`, `A.2.8.PER`, and `A.2.9` only through the single permission and authority branch in §3.
-* **E.10 and E.10.MOVE relation-selection rule:** When source-relation, permission/authority, readiness, role/state, green-tile, generated/copy, provenance, dashboard, or move-like wording is being used as a reason for work or reliance, `E.10.MOVE` first repairs hidden work-entry/readiness wording and `E.10.ARCH` assigns the direct evidence, assurance, readiness, gate, constraint, boundary, role/state, work, publication, transfer, or explanation question. Permission/authority uses the single §3 branch. `A.15.4` starts only while the needed governing position is still hidden by the reliance appearance.
+* **E.10 and E.10.MOVE relation-selection rule:** When source-relation, permission/authority, readiness, role/state, green-tile, generated/copy, provenance, dashboard, or move-like wording is being used as a reason for work or reliance, `E.10.MOVE` first repairs hidden work-entry/readiness wording and `E.10.ARCH` assigns the direct evidence, assurance, readiness, gate, constraint, boundary, role/state, work, publication, transfer, or explanation question. Permission/authority uses the single §3 branch. `A.15.4` starts only while a required relation or result is still hidden by the reliance appearance.
 * **A.15 boundary relation:** use `A.15` directly when the remaining question under repair is role, method, plan, and work alignment rather than a reliance appearance being used as a reason for work or reliance.
 

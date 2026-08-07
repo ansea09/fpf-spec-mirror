@@ -6,12 +6,12 @@ section_id: "F.17:14.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__020_rationale.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14.2 — Rationale"
-line_start: 96302
-line_end: 96305
+line_start: 96539
+line_end: 96542
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,5 +52,5 @@ keywords:
 
 ### F.17:14.2 - Rationale
 
-Terms travel farther than the reasoning that produced them. F.17 carries only the reopening hooks needed for that travel. The direct subject patterns, F.18, F.9, C.2.1, A.10/B.3, and E.24.PUB still own the objects and relations to which those hooks lead.
+Terms travel farther than the reasoning that produced them. F.17 carries only the reopening hooks needed for that travel. The pattern that defines or constrains the governed value, together with F.18, F.9, C.2.1, A.10/B.3, and E.24.PUB, supplies the separate rules to which those hooks lead.
 

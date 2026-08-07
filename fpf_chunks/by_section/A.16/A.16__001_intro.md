@@ -6,12 +6,12 @@ section_id: "A.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__001_intro.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:intro — Intro"
-line_start: 26982
-line_end: 26997
+line_start: 26980
+line_end: 26995
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -52,11 +52,11 @@ keywords:
 
 **Plain-name.** Language-state move coordination.
 
-**Start here when.** Your first honest content is a cue, not yet a claim, requirement, method, or work record, and you need to name the next admissible language-state move without pretending that one downstream governing pattern has already taken over.
+**Start here when.** Your first honest content is a cue, not yet a claim, requirement, method, or work record, and you need to name the next admissible language-state move without pretending that the cue already meets a downstream pattern's entry conditions.
 
-**First output.** A small typed language-state move note or early preservation-to-routing note that names the source publication form, target publication form, target governing pattern, and MVPK face where that face matters.
+**First output.** A small typed language-state move note or early preservation-to-routing note that names the source publication form, target publication form, the pattern and rule that apply at the target, and the MVPK face when that face matters.
 
-**Typical next governing patterns.** `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, endpoint governing patterns such as `A.6.P`, `A.6.A`, and `C.16.Q`, and `A.16.2` when the right language-state move is reopen, backoff, respecify, or retire.
+**Typical next patterns.** Use `A.16.1` for early preservation, `B.4.1` for route publication, `B.5.2.0` for cue-derived abductive prompting, endpoint tests in `A.6.P`, `A.6.A`, or `C.16.Q`, and `A.16.2` when the right language-state move is reopen, backoff, respecify, or retire.
 
 **Common neighboring-pattern mistakes.** If history itself must be published as an accountable trajectory, use `A.16.0`; if you are already doing slot-explicit epistemic precision repair, apply `A.6.P`, `C.16.Q`, or `A.6.A`; if the publication target is a graph publication in itself, use `E.18`.
 

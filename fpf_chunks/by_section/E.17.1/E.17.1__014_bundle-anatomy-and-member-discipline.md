@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.1"
-pattern_title: "U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+pattern_title: "Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
 section_id: "E.17.1:13"
 section_title: "Bundle Anatomy and Member Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__014_bundle-anatomy-and-member-discipline.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.1 — U.ViewpointBundleLibrary - Reusable Viewpoint Bundles"
+  - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:13 — Bundle Anatomy and Member Discipline"
-line_start: 79665
-line_end: 79702
+line_start: 79792
+line_end: 79829
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -31,12 +31,6 @@ dependencies:
   - "F.9"
   - "F.9.1"
 keywords:
-  - "alias discipline"
-  - "engineering/management/research bundles"
-  - "governance"
-  - "import discipline"
-  - "reusable viewpoint family"
-  - "viewpoint bundle"
 ---
 
 ### E.17.1:13 - Bundle Anatomy and Member Discipline
@@ -48,10 +42,10 @@ A viewpoint-bundle library becomes thin and reusable only when the bundle itself
 Each `U.ViewpointRef` member inside a reusable bundle resolves to one exact viewpoint episteme edition whose claim content makes explicit at least:
 
 - the **concern family** it brings into focus,
-- the **stakeholder families** for whom that concern matters,
-- the **entity of concern class** for which it is admissible,
+- exact **stakeholder or audience referents** only when they change the concerns,
+- the exact **target-kind criterion** it carries and the compatibility condition under which this family can reuse it,
 - the **independently admitted episteme kinds** whose exact membership rules allow candidates under that viewpoint,
-- and any **bundle-specific conformance or correspondence notes** that later view families should preserve.
+- any **bundle-specific conformance notes** later users must retain, plus an exact reference that resolves to the comparison claim or F.9 Bridge when either has independently been established; a note or reference creates no correspondence.
 
 `E.17.1` does not redefine the internals of `U.Viewpoint`. It states what must remain visible if a viewpoint is to be reused as part of a bundle rather than as an undocumented local label.
 
@@ -75,5 +69,5 @@ If the member viewpoints do not share that family-level purpose, the result is n
 - worked examples,
 - or SoTA references
 
-may live in typed annex manifests. This preserves a stable bundle core while still letting reuse packages carry enough didactic material and review help.
+may be linked through references that resolve under their applicable schemes to exact annex assets, with each reference's local role stated. This preserves a stable declaration claim block while still letting reuse packages carry enough didactic material and review help.
 

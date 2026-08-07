@@ -6,12 +6,12 @@ section_id: "E.17.EFP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__002_problem-frame.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:1 — Problem frame"
-line_start: 80803
-line_end: 80812
+line_start: 80972
+line_end: 80981
 dependencies:
   - "A.10"
   - "A.15"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.9"
   - "A.20"
   - "A.21"
+  - "A.6.3.CR"
   - "A.6.3.CSC"
+  - "A.6.3.RT"
   - "A.6.4"
   - "A.6.B"
   - "A.7"
@@ -38,11 +40,11 @@ keywords:
 
 ### E.17.EFP:1 - Problem frame
 
-The same underlying claim set often needs explanation-facing renderings on more than one existing face:
-- an engineer-manager-readable rendering of a technical claim set;
-- a technical explanation that makes source linkage more visible than the original source prose;
-- a didactic retelling for onboarding or review preparation;
-- a clearly marked speculative retelling that helps discussion but does not pretend to be canonical content.
+The exact source ClaimGraph may need more than one publication form or representation. Explanation work may also produce a different target ClaimGraph, but that target is another episteme and must not be hidden inside the word `rendering`. Recurrent cases include:
 
-FPF already has `E.17.0` for viewpoints, views, and correspondences, and `E.17` for typed publication faces. A compact review profile is still needed to say what kind of explanation-facing rendering is being published, how its source tether to the source `U.Episteme` or source `U.EpistemePublication` is stated, and which bounded use it carries.
+- a manager-readable form of the same technical ClaimGraph;
+- connective explanation that remains entailed by the source, or else belongs to an exactly related target episteme;
+- didactic use of a same-ClaimGraph form or of a separately identified target with an obtaining rewrite or coarsening relation;
+- exploratory use of a publication form of a separately constituted hypothesis episteme.
+FPF already has C.2.1 for episteme identity, A.6.3 and neighboring patterns for source-to-target relations, `E.17.0` for viewpoints and views, `E.17` for publication faces, and E.24.PUB for publication occurrence, form, and carrier. EFP supplies only the remaining bounded explanation-use classification of one form of the already identified source or target episteme.
 

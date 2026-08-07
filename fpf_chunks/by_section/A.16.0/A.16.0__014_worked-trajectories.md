@@ -6,12 +6,12 @@ section_id: "A.16.0:13"
 section_title: "Worked trajectories"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__014_worked-trajectories.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:13 — Worked trajectories"
-line_start: 27534
-line_end: 27556
+line_start: 27550
+line_end: 27572
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -44,15 +44,15 @@ keywords:
 ### A.16.0:13 - Worked trajectories
 
 #### A.16.0:13.1 - Multi-route state before fork
-A routed operator cue may first publish one governed member with both intervention and inquiry routes live inside one `RoutedCueSet`. That is still one member in a multi-route state. Only if separate successor publications are later issued for those two continuations does the lineage fork.
+A routed operator cue may first keep intervention and inquiry routes live for one selected episteme edition in one `RoutedCueSet`. That is still a multi-route state. Only if distinct successor editions are later constituted, linked, and published does the lineage fork.
 
 #### A.16.0:13.2 - Inquiry trajectory with fork
-An inquiry cue pack centered on a felt or trace-anchored discrepancy cue may first publish one governed member, then fork into:
+An inquiry cue pack centered on a felt or trace-anchored discrepancy cue may first identify one selected episteme edition, then fork into:
 
-- `notice -> stabilize -> route -> projection -> formalize`, with a cue-derived prompt publication carrying the explanatory branch, and
+- `notice -> stabilize -> route -> projection -> formalize`, with a cue-derived prompt form expressing the explanatory branch, and
 - `notice -> stabilize -> route -> projection -> operationalize`
 
-if one branch supports explanatory work while another supports immediate probe or control work. The branches remain admissible only if the fork is visible and each branch keeps distinct loss notes and responsibility-transfer conditions.
+if one branch supports explanatory work while another supports immediate probe or control work. The fork remains admissible only if the successor editions and links are visible and each branch keeps distinct loss notes and next-use conditions. If responsibility actually changes, keep the separately established responsibility-handoff conditions distinct as well.
 
 #### A.16.0:13.3 - Operator trajectory with retirement
 An operator alert note about a service disturbance may move:

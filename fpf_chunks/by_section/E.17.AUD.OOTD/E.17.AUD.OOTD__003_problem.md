@@ -1,22 +1,24 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.17.AUD.OOTD"
-pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+pattern_title: "PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
 section_id: "E.17.AUD.OOTD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__003_problem.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
-  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary EntityOfConcern Discipline - publication-unit stability over one primary EntityOfConcern"
+  - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:2 — Problem"
-line_start: 82683
-line_end: 82691
+line_start: 82838
+line_end: 82846
 dependencies:
   - "A.10"
   - "A.15"
   - "A.15.4"
   - "A.16.0"
+  - "A.2.8.PER"
+  - "A.2.9"
   - "A.20"
   - "A.21"
   - "A.6.3"
@@ -25,6 +27,7 @@ dependencies:
   - "A.6.P"
   - "A.7"
   - "B.3"
+  - "C.11"
   - "C.2.2a"
   - "E.10"
   - "E.14"
@@ -40,7 +43,7 @@ keywords:
 
 Without a named publication-unit discipline:
 1. authors repair one vague phrase at a time but still leave the unit unstable as a whole;
-2. reviewers argue about wording while missing that the unit has already shifted from primary EntityOfConcern to process or from description to decision pressure;
+2. reviewers argue about wording while missing that the unit has already shifted subject, concern, claim, communicative move, or downstream use;
 3. teams quietly read one note as if it licensed a downstream use the unit never declared;
 4. local lexical discipline (`A.6.P`, `E.10`, `F.18`) gets blamed for publication-unit interpretation instability it was never meant to solve alone;
 5. unit-form confusion is mistaken for view, face, carrier, or publication architecture even when the immediate problem is simpler and closer.

@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 56164
-line_end: 56469
+line_start: 56184
+line_end: 56489
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -249,7 +249,7 @@ Claim:
 Method A improves faster than Method B.
 
 C.27 reading:
-`G.9` governs benchmark parity; `dyn2BenchmarkParityBlock?` types the dynamic
+Use `G.9` for benchmark parity; `dyn2BenchmarkParityBlock?` types the dynamic
 outcome and records unsupported benchmark use.
 
 Minimum useful note:
@@ -264,7 +264,7 @@ Minimum useful note:
 - hidden costs: rework, operations-service demand, quality loss, burnout, or debt;
 - supported use: benchmark interpretation under stated parity;
 - unsupported use: causal superiority, universal method superiority, or release
-  gate unless another FPF pattern governs that claim.
+  gate unless an applicable FPF pattern carries that claim.
 
 ```
 
@@ -288,7 +288,7 @@ Minimum useful note:
   policy;
 - resistance proxy: incident mix, dependency lag, tool latency, coordination
   bottleneck;
-- governing relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
+- applicable relation: diagnostic evidence relation, benchmark input, causal-use relation, assurance claim, or promise-like boundary pattern;
 - supported use: local incident-response improvement claim;
 - unsupported use: formal guarantee, audit closure, release gate, or causal
   proof unless the relevant boundary, evidence, or assurance pattern carries it.

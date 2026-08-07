@@ -6,12 +6,12 @@ section_id: "E.18:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__002_intent.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:1 — Intent"
-line_start: 82959
-line_end: 83013
+line_start: 83176
+line_end: 83230
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -80,9 +80,9 @@ This slice names the selected structure and its governed loci first. If dated `L
 
 **Result-claim assurance.** Apply this expansion only after the Plain test above identifies what the value is a result of or for. The category-correct direct basis is exactly one of:
 
-* an obtaining relation occurrence, with predicate, participants, applicability, occurrence identity, and direct owner;
+* an obtaining relation occurrence, with its predicate and occurrence-identity rule plus exact participants, applicability, and case facts;
 * an `A.6.1` operation-application binding, with operation, application, and argument or result binding; or
-* an `A.6.RCD` local `C.2.1` claim, with polarity, substrate or constructor, base predicates and their direct owners, participants, case facts, and any support required by the receiving use.
+* an `A.6.RCD` local `C.2.1` claim, with polarity, substrate or constructor, base predicates and the patterns or declarations that define them, participants, case facts, and any support required by the receiving use.
 
 When a sentence says that a system performs an actual functional transformation at one point in a flow, E.18 carries only the selected flow structure, locus, path, slice, crossing, valuation, and pins. The independently identified bounded transformation, transformer or candidate bearer, affected referent, input and output boundary, functional-port boundary, functioning relation, method or algorithm, mechanism, and performed work are recovered through `A.3.4`, `A.6.F`, `C.30.ASV`, `A.6.M`, `A.6.1`, and the A.15 family as applicable. A desired state, method, `MethodDescription`, `WorkPlan`, architecture selection, model, description, evaluation result, publication, or transfer does not ground the actual transformation. When exact dated work is claimed to cause or realize the change, cite the exact direct work-to-change governor or a local claim selected under `A.6.RCD` disposition 2. When production-work participation, entity-identity inception, or production completion is claimed, cite the separate local `A.15.PROD` claim; E.18 does not derive it from structure membership. A computational algorithm may fill `MethodRef?` or `MethodDescriptionRef?`; a physical-world way of transforming may fill `U.Method`; neither is inferred from E.18 structure membership.
 

@@ -6,12 +6,12 @@ section_id: "E.4.PFR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__010_consequences.md"
-commit_sha: "3dbce51436bfd718bf49cb0356eebce70c4fc015"
+commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:9 — Consequences"
-line_start: 71305
-line_end: 71310
+line_start: 71348
+line_end: 71353
 dependencies:
   - "A.10"
   - "C.33"
