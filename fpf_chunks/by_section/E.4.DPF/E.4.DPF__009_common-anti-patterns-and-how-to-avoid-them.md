@@ -6,12 +6,12 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70793
-line_end: 70824
+line_start: 70787
+line_end: 70818
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -58,8 +58,8 @@ keywords:
 | Invisible framework story | A DPF carrier reads as a neutral list of principles, but the reader cannot tell what source or domain structures were selected, why this route is for them, what was deliberately coarsened, abstracted, omitted, or left to source return, or whether the carrier is a second-step coarsening after an architecture description or view. | Add a short carrier structure-account in the readme, Preface, or equivalent carrier, then evaluate it through `E.4.DPF.DA` rather than scattering explanation into every pattern body. |
 | Generated candidate authority | Search or LLM output becomes the framework because it is fluent. | Use `C.35` for admission, then decide candidate selection through `E.4.PFAD` or `C.32`. |
 | Skeleton carrier as DPF | A file has a ToC, headings, and very short pattern-shaped sections, but readers still cannot apply the patterns without reconstructing the missing guidance from the DRR or source notes. | Keep it as `seedOnly`; harden each DPF pattern through `E.8`, evaluate through `E.21`, and only then assemble the user publication carrier. |
-| Access carrier as framework | A skill pack, MCP endpoint, retrieval route, or assistant integration is treated as the framework itself because it is what agents call. | Record it as an access carrier through `E.4.PFR`, expose framework edition and currentness refs, and route generated, tool, evidence, currentness, or work claims to their governing patterns. |
-| Future framework fabricated | A pre-PFAD record points to the absent framework or claims its actual structures. | Create a current intended-result description and one proposal episteme; wait for PFAD and realization before architecture-description use. |
+| Access carrier as framework | A skill pack, MCP endpoint, retrieval route, or assistant integration is treated as the framework itself because it is what agents call. | Record it as an access carrier through `E.4.PFR`, expose framework edition and currentness refs, and route generated, tool, evidence, currentness, or work claims to their subject patterns. |
+| Future framework fabricated | An optional organization proposal points to the absent framework or claims its actual structures. | Create a current intended-result description and one proposal episteme; wait for an accepted `E.9` framework-architecture answer and later realization before architecture-description use. |
 | Claim wrapper collection | Every candidate organization claim becomes another episteme. | Keep typed claim nodes in the proposal's one ClaimGraph unless a separately grounded claim episteme has its own EoC and use. |
 | Proposal layout as subject organization | Headings or ClaimGraph organization are treated as the proposed framework organization. | Recover described position kinds, proposed subject relation signatures, constraints, invariants, dependency directions, alternatives, basis, and questions. |
 | Coverage and acceptance union | One field mixes coverage criterion with WorkPlan acceptance target. | Keep the coverage node complete and cite the plan target separately. |
@@ -71,11 +71,11 @@ Adoption risk tripwires:
 
 | Risk | Early repair |
 | --- | --- |
-| Public name settles before the kind is settled. | Keep the intake name as a source alias and route durable naming through `F.18`. |
+| Public name settles before the kind is settled. | Keep the intake name as a source alias and perform durable naming only after the exact F.18 naming-settlement predicate applies. |
 | Generated or searched material is trusted because it uses familiar FPF words. | Admit the carrier through `C.35`, then decide selected use through `E.4.PFAD`, `E.4.PFR`, or the pattern governing that use. |
 | Core, domain, or local edition changes but old users keep following stale guidance. | Add dependency, compatibility, migration, deprecation, supersession, and refresh records through `E.4.PFR` and `G.11`. |
 | Enterprise evidence is confidential or proprietary. | Publish a safe local carrier while keeping internal source packs, examples, role assignments, and approval evidence under an explicit local stewardship assignment. |
 | No assigned steward can answer whether the framework is current, adopted, or broken in use. | Assign steward roles for the framework edition, source pack, relation records, local publication, quality evidence, and refresh plan. |
-| Reader errors and skipped records are treated as training noise. | Treat repeated misuse as adoption telemetry and route it to `E.23` improvement or `G.11` refresh. |
+| Reader errors and skipped records are treated as training noise. | Treat repeated misuse as adoption telemetry and handle it under `E.23` improvement or `G.11` refresh. |
 | Compatibility debt hides behind a version label or package manifest. | Record the impacted relations, compatibility boundary, migration work, and blocked runtime or build reading in `E.4.PFR`. |
 

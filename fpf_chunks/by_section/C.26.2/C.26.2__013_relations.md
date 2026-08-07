@@ -6,12 +6,12 @@ section_id: "C.26.2:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.2/C.26.2__013_relations.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "C.26.2 — Enacted Distributed State Evidence"
   - "C.26.2:12 — Relations"
-line_start: 54687
-line_end: 54693
+line_start: 54697
+line_end: 54703
 dependencies:
   - "A.10"
   - "A.15"

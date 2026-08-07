@@ -6,12 +6,12 @@ section_id: "A.2.7:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__011_rationale.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
   - "A.2.7:9 — Rationale"
-line_start: 6108
-line_end: 6115
+line_start: 6118
+line_end: 6125
 dependencies:
   - "A.15"
   - "A.2"

@@ -6,12 +6,12 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:10 — Rationale"
-line_start: 70831
-line_end: 70836
+line_start: 70825
+line_end: 70830
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -49,7 +49,7 @@ keywords:
 
 ### E.4.DPF:10 - Rationale
 
-Domain and local frameworks are not mere subsets of FPF. They are FPF-grounded framework editions for declared domain or local use frames. They need domain source work, FPF authoring discipline, architecture decisions, relation records, quality loops, and refresh routes.
+Domain and local frameworks are not mere subsets of FPF. They are FPF-grounded framework editions for declared domain or local use frames. They need domain source work, FPF authoring discipline, architecture decisions, direct relation assertions, quality loops, and refresh routes. Add the relation or edition records needed for a current maintenance use; do not require them when the direct assertion closes the task.
 
 Its contribution is one E.8/A.3.2 framework-authoring MethodDescription plus precise Plain selection and branching guidance. The text does not claim a reusable condition-governed structure by prose; when an A.22.CGUS is genuinely current, it is separately admitted with exact conditions, continuations, stops, and demonstration. Every produced or selected result still needs an exact receiving use and the direct pattern governing that result or use relation.
 

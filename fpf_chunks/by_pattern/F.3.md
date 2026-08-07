@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.3.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "F.3 — Intra‑Context Sense Clustering"
-line_start: 90555
-line_end: 90873
+line_start: 90643
+line_end: 90961
 dependencies:
   - "A.11"
   - "A.7"

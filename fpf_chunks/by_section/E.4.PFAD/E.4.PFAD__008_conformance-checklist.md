@@ -6,23 +6,24 @@ section_id: "E.4.PFAD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__008_conformance-checklist.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:7 — Conformance Checklist"
-line_start: 70341
-line_end: 70352
+line_start: 70329
+line_end: 70341
 dependencies:
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.32.ADR"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
+  - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
@@ -36,11 +37,12 @@ keywords:
 
 | Check | Passing condition |
 | --- | --- |
-| CC-PFAD.1 Decision relation exists | A filled `PrincipleFrameworkArchitectureDecision@Context` relation exists before any ADR-like publication is treated as the decision. |
-| CC-PFAD.2 Framework-specific slots live | The decision uses at least one framework-specific slot: edition dependency, selected pattern set, relation graph, publication carrier, access carrier, name cards, source-return, quality route, or currentness route. |
-| CC-PFAD.3 Generic owners reused | Rationale uses `E.9`; project architecture decision shape uses `C.32.PAD`; publication projection uses `C.32.ADR` or `E.17`. |
-| CC-PFAD.4 Alternatives and consequences present | Rejected alternatives, rationale, consequences, and repair or supersession conditions are recoverable. |
-| CC-PFAD.5 Source and name routes present | Source packs, source-return conditions, and required name-card work are named. |
-| CC-PFAD.6 Quality and admission separated | `E.21` quality evaluation refs and `E.19` admission review refs are separate or explicitly absent. |
-| CC-PFAD.7 Demotion checked | If framework-specific obligations are absent, the decision is handled directly by neighboring patterns. |
+| CC-PFAD.1 Opening discriminator | A later-use edition, dependency, pattern-placement or relation, or publication/access boundary makes the architecture question live. |
+| CC-PFAD.2 Cheap exit | A route or stop that settles no such boundary closes without PFAD or a DRR. |
+| CC-PFAD.3 One decision record | Every selected DPF, access-only, or stop answer after the question opens is recorded in one ordinary `E.9` DRR. |
+| CC-PFAD.4 Compact payload | The DRR carries the seven framework-specific content groups in `E.4.PFAD:4.2` and ordinary E.9 rationale. |
+| CC-PFAD.5 Direct relation assertions | Relations among initial patterns are stated directly under their actual relation functions; no PFR row is required. |
+| CC-PFAD.6 Object boundaries | Answer, acceptance, DRR, authoring, edition, and publication remain distinct. |
+| CC-PFAD.7 Conditional apparatus | Proposal, source-return, naming, quality, admission, currentness, and package details appear only when they change the answer or serve a named later use. |
+| CC-PFAD.8 Reopen condition | The DRR states what change in framework boundary or receiving use requires reconsideration. |
 

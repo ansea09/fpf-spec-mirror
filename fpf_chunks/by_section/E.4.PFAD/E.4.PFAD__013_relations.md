@@ -6,23 +6,24 @@ section_id: "E.4.PFAD:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__013_relations.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:12 — Relations"
-line_start: 70383
-line_end: 70391
+line_start: 70375
+line_end: 70384
 dependencies:
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.32.ADR"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
+  - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
@@ -34,10 +35,11 @@ keywords:
 
 ### E.4.PFAD:12 - Relations
 
-- **Uses:** `E.9` as the rationale kernel for framework-local architecture decisions; it specializes only the recurring framework-specific obligations and does not create a second generic decision ontology.
-- **Coordinates with:** `C.32.PAD` for architecture-decision slot discipline.
-- **Coordinates with:** `C.32.ADR` and `E.17` for decision publication projections.
-- **Coordinates with:** `E.4` for family membership and selected structures.
-- **Coordinates with:** `E.4.PFR` for dependency, edition, compatibility, relation, and supersession effects.
-- **Coordinates with:** `F.18`, `G.2`, `G.11`, `E.4.DPF.DA`, `E.21`, `E.23`, `C.33`, `C.34`, and `C.35` for name, source, currentness, package adequacy, pattern quality, preservation, and produced-carrier claims.
+- **Uses:** `E.9` for the one bounded selected answer and DRR.
+- **Uses:** `A.6.RCD`, `A.6.REL`, and the exact relation patterns for material relation assertions among initial patterns.
+- **Coordinates with:** `E.4` and `E.4.DPF` for framework family architecture and authoring.
+- **Coordinates with:** `E.4.PFR` for optional relation and edition maintenance representations.
+- **Coordinates with:** `C.32.PAD` for an exact project architecture decision, `C.32.ADR` for its ADR-like projection, and `E.17` with `E.24.PUB` for publication of an ordinary framework answer.
+- **Coordinates with:** `E.24.PUB` for publication occurrences, forms, carriers, audiences, and uses.
+- **Coordinates with:** `F.18`, `G.2`, `G.11`, `E.4.DPF.DA`, `E.21`, `E.23`, and `E.19` only when naming, source synthesis, refresh, quality, improvement, or admission is current for the selected answer.
 

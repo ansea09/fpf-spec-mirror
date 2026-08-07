@@ -6,23 +6,24 @@ section_id: "E.4.PFAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__003_problem.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:2 — Problem"
-line_start: 70237
-line_end: 70242
+line_start: 70247
+line_end: 70252
 dependencies:
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.32.ADR"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
+  - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
@@ -34,7 +35,7 @@ keywords:
 
 ### E.4.PFAD:2 - Problem
 
-Framework architecture decisions recur in FPF-grounded work. A steward must decide whether a set of patterns belongs in Core, in a domain framework, in a local framework, or in publication and pedagogy. They must also decide how the framework depends on FPF Core, what edition boundary it has, what sources ground it, what names are admissible, and which carriers publish or expose the framework.
+Framework authors repeatedly need to decide the intended edition boundary, FPF Core dependency, first patterns and their relations, and the publication or access consequence. Generic decision prose can hide those choices. A large framework-specific form creates the opposite problem: it makes proposal, acceptance, DRR, framework edition, authoring, quality review, and publication look like one extra decision object.
 
-If those decisions are hidden in prose, table shape, or an ADR-like file, later maintainers cannot tell which structure was selected, which alternative was rejected, what consequences were accepted, or when the decision should be repaired or superseded.
+The useful result is one answer whose framework consequences are visible without adding a second decision stage or making cheap exploratory work produce decision paperwork.
 

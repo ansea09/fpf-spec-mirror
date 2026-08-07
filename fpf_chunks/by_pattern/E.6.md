@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.6.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.6 — Didactic Architecture of the Specification"
-line_start: 71823
-line_end: 71922
+line_start: 71907
+line_end: 72006
 dependencies:
   - "E.2"
 keywords:

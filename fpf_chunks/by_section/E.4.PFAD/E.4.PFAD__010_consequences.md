@@ -6,23 +6,24 @@ section_id: "E.4.PFAD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__010_consequences.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:9 — Consequences"
-line_start: 70362
-line_end: 70367
+line_start: 70353
+line_end: 70358
 dependencies:
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.32.ADR"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
+  - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
@@ -34,7 +35,7 @@ keywords:
 
 ### E.4.PFAD:9 - Consequences
 
-PFAD makes framework decisions more inspectable, because a later maintainer can recover the decision question, source basis, selected structures, rejected alternatives, and repair conditions. The cost is an extra decision relation before publication.
+Authors get a recognizable framework question, one cheap stop rule, one compact decision account, and one next action. Later authors can recover the edition boundary, dependencies, initial pattern architecture, publication or access consequence, rationale, and reopen condition without reconciling two decision objects.
 
-The pattern also constrains ADR use. ADR-like records remain useful, but they become projections of a decision relation rather than the place where the ontology is invented.
+The cost is one additional locator to maintain and a coordinated carry-through when several FPF passages still teach the old relation schema. An optional machine-readable representation remains future work until a named catalog or checker identifies the fields it consumes and the error it prevents.
 

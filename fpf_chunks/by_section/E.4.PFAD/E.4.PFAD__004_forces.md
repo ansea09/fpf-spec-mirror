@@ -6,23 +6,24 @@ section_id: "E.4.PFAD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__004_forces.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:3 — Forces"
-line_start: 70243
-line_end: 70252
+line_start: 70253
+line_end: 70263
 dependencies:
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.32.ADR"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
+  - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
@@ -36,9 +37,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Decision memory | The framework needs durable rationale, but decision memory must not be confused with the framework structure itself. |
-| Framework-specific slots | Generic decision patterns carry much of the method, but framework editions add dependency, naming, source-return, publication, and currentness obligations. |
-| Lightweight publication | ADR-like records are useful, but their headings do not create the decision relation. |
-| Evolution | Framework decisions may become obsolete when sources, Core editions, domain scope, or local use changes. |
-| Non-duplication | A child pattern must not repeat `E.9`, `C.32.PAD`, or `C.32.ADR` without adding framework-specific value. |
+| Discoverability | Authors need a recognizable framework question, but a locator must not become another decision object. |
+| Decision memory | Later work needs rationale and consequences, but the DRR is not the accepted answer, performed authoring, or framework edition. |
+| Framework detail | Edition, dependency, pattern placement, relations, and publication consequences matter, but unrelated quality, naming, and package apparatus must stay conditional. |
+| Cheap exit | A small access result may solve the immediate problem without a framework decision. |
+| Relation precision | Initial pattern relations may shape the architecture, but a row or schema does not make those relations obtain. |
+| Evolution | The answer needs a reopen condition without turning every refresh concern into a mandatory field. |
 

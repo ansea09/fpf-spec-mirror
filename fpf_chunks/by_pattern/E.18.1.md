@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.1.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
-line_start: 83849
-line_end: 84402
+line_start: 83933
+line_end: 84490
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -273,7 +273,11 @@ Cheap variant generation shifts effort toward problem production, characterizati
 
 #### E.18.1:4.1b - Conditional development-for-developed first-minute extension
 
-Open this didactic extension only for a fast DPF seed, and keep the source-use and hardening continuations distinct. An accepted problem-side record may cite a `G.2` source-use relation, selected source `U.Episteme`, exact `EpistemePublicationRelation` occurrence reference when availability is material, source-pack cue or return, and provisional framework purpose. Apply `E.4.PFAD` for the framework-architecture decision, `E.4.PFR` for the framework-relation record, `E.8` for authoring, `E.21` for evaluation, `E.23` for improvement, and `G.11` for currentness or refresh; keep each returned value separate. P2W preserves the carried claim only until the next concrete claim or relation-specific question is stated and its applicable pattern is selected.
+Open this didactic extension only for a fast DPF seed, and keep the source-use and hardening continuations distinct. An accepted problem-side record may cite a `G.2` source-use relation, selected source `U.Episteme`, exact `EpistemePublicationRelation` occurrence reference when availability is material, source-pack cue or return, and provisional framework purpose.
+
+If choosing a DPF, an access-only route, or stop must settle a downstream-used framework boundary, use `E.4.PFAD` to profile that framework-specific content in one `E.9` DRR; a cheap seed or route that settles no such boundary stops without that DRR. State each material initial pattern relation with the predicate that defines it, and use `E.4.PFR` only when a named maintenance use needs relation records. Using the `E.4.PFAD` profile adds no second decision or decision record.
+
+Use `E.8` for authoring, `E.21` for evaluation, `E.23` for improvement, and `G.11` for currentness or refresh. Keep the source result, selected answer and DRR, direct relation assertions or optional records, authored patterns, quality results, and currentness results separate. P2W preserves the carried claim only until the next concrete claim or relation-specific question is stated and its applicable pattern is selected.
 
 **Cooling-module example.** `ProblemCard@Context PC-DEV-041` states that cheap generation produces many cooling-module layouts while fair problem framing and comparison remain weak. The carried claim is that the current candidate set retains maintainable low-energy variants until energy use, service access, manufacturability, thermal margin, and test cost are represented in the current characteristic and comparison relations. A `C.18` archive and front are current now. `A.19` defines the characteristic space and its comparability boundary; `A.19.CPM` comparison becomes current only when that characteristic space and comparator are current. `G.5` selected-set publication remains stopped until that comparison and front are current. An `E.16` generator boundary may separately bound search and test spending. Prototype observations enter through `A.10`; assurance-sensitive confidence use enters through `B.3`. A `C.30` architecture-candidate relation appears only for retained layouts that change selected structure. `A.15.2` has not yet produced a `U.WorkPlan`, and `A.15.1` has not yet admitted a dated `U.Work` occurrence. Thermal and serviceability measurements can feed but cannot create three separate results: `A.15.5` may return `WorkEntryReadiness@Context` for one named intended-work concern; `A.21` may publish `GateDecision` only for one current `OperationalGate(profile)` and its declared checks; `A.2.8.PER` may return one named non-prohibition, granted-permission, permission-exercise, non-violation, or permission-conflict result with its required participants and basis. An actual release action is an `A.15.1` `U.Work` occurrence; a further claim that a subject was released needs its named subject predicate and participants. No predicate definition or occurrence rule for that release relation is current in this example, so an `approved`, `authorized`, or `released` cue stops as `missing-governor` for that attempted use rather than inheriting the measurement, readiness, or gate result. `G.11` reopens currentness-dependent continuations when descriptors, tests, competitor information, or cited publication editions change.
 
@@ -578,7 +582,7 @@ As of 2026-08-07, the Jiao article, QD survey, manufacturing digital-thread pape
 - Under `A.22.CGUS`, identify the one constraint-governed unfolding structure when P2W exposes typed structure positions, constraints, admissible next forms, and stop or reconsideration questions.
 - `E.18.3` qualifies that exact A.22-selected CGUS through positions, bindings, and already-obtaining occurrences from one independently identified E.18 substrate. E.18 defines the one-TFS and parent-relative internal-`SubflowRef` interfaces; E.18.NET defines independently identified network members and exact obtaining cross-member relations. P2W cites those exact values, adds no subset, reciprocal record, or hybrid structure schema, and neither reidentifies nor routes them.
 - `G.2` supplies SoTA harvesting, source selection, competing-tradition synthesis, and the refreshable synthesis pack before DPF hardening can rely on a source-derived seed. Add `A.10` for claim-bound source or provenance, `G.6` for addressable path citation or shared provenance representation, `B.3` for assurance of a named reliance use, and `G.11` for currentness and refresh only when that stronger use is current.
-- `E.4.DPF` guides DPF authoring, `E.4.PFAD` returns framework-architecture decisions, and `E.4.PFR` handles framework-relation records when a generated or cheap seed is carried toward hardening.
+- `E.4.DPF` guides DPF authoring. When the framework-architecture question is live, `E.9` records the selected answer and `E.4.PFAD` profiles its framework-specific content; `E.4.PFR` handles an optional framework-relation record only when a named maintenance use needs one.
 - `E.23` defines and tests repeated quality improvement only after the object version and evaluation are recoverable; P2W may carry a seed to that point but does not become the improvement method.
 - `G.11` defines and tests currentness, admitted-source decay, source-use relation change, edition change, and refresh when a changed source publication, source-use relation, or telemetry reopens the smallest affected P2W application.
 

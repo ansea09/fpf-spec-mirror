@@ -6,23 +6,24 @@ section_id: "E.4.PFAD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__006_archetypal-grounding.md"
-commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
+commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:5 — Archetypal Grounding"
-line_start: 70299
-line_end: 70334
+line_start: 70303
+line_end: 70320
 dependencies:
+  - "A.6.RCD"
+  - "A.6.REL"
   - "C.32.ADR"
   - "C.32.PAD"
-  - "C.33"
-  - "C.34"
-  - "C.35"
   - "E.17"
   - "E.19"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4"
+  - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.PFR"
   - "E.9"
@@ -34,37 +35,19 @@ keywords:
 
 ### E.4.PFAD:5 - Archetypal Grounding
 
-Tell: A team wants a hydroponic-cucumber domain principle framework. The PFAD decision asks whether the framework depends directly on FPF Core only, or also on an agriculture-domain framework edition; which crop-growth concerns become first patterns; which source packs are strong enough; and which publication or access carrier will expose the framework.
+#### Positive DPF
 
-Show: A Codex local practice framework has process patterns for baton handoff and prelanding checks. The decision records that these are local practice framework patterns, not FPF Core patterns. It names the FPF Core edition, selected local process patterns, local publication unit, source-return owners, and refresh conditions.
+A systems-management group identifies a recurring coordination failure, a practitioner audience, a useful reusable move, current FPF provision, and three provisional patterns. A curated route does not cover the recurring problem. Because the choice will settle edition, dependency, pattern-placement, relation, and publication boundaries for later authors, the group opens one architecture question. Its `E.9` DRR records the intended edition, Core dependency, initial placement, the material relations among the three patterns stated directly, publication consequence, first authoring action, and reopen condition. No PFAD relation or mandatory PFR row is created.
 
-Show: An ADR-like file saying "accepted: create domain framework" is insufficient. The decision relation must name selected pattern set, dependencies, source basis, rejected alternatives, consequences, and repair conditions before the ADR-like carrier can be trusted as a projection.
+#### Exploratory access result
 
-Filled decision slice:
+Existing FPF and source material answer the immediate need through a curated route. No later author or reviewer needs a settled framework boundary. The inquiry closes with that route and no PFAD or DRR.
 
-```text
-PrincipleFrameworkArchitectureDecision@HydroponicCucumberDomain:
-  frameworkDecisionId: PFAD-HC-001
-  governedFrameworkRef: HydroponicCucumberPrincipleFramework@GreenhouseCropDomain
-  boundedContextRef: commercial greenhouse cucumber production
-  frameworkEditionRef: HC-DPF-0.1-draft
-  fpfCoreEditionRef: FPFCorePatternSet@current
-  decisionQuestion: Which first pattern set and relation structure should carry crop-growth architecturing guidance?
-  sourceBasisRefs: G2-HC-source-pack, greenhouse-control source notes, accepted FPF ecosystem DRR
-  namingDecisionRefs: F18-HC-framework-name-card-required
-  selectedPatternSetRefs: problem-framing, nutrient-monitoring, climate-control interpretation, harvest-feedback patterns
-  selectedPatternRelationRefs: PFR-HC-source-reuse, PFR-HC-specialization, PFR-HC-publication
-  publicationUnitRefs: HC-all-in-one-carrier-readme-and-toc
-  accessCarrierRefs: HC-grower-skill-pack-or-MCP-route-if-built
-  dependencyAndEditionRefs: depends on FPFCorePatternSet@current; no Core reverse dependency
-  qualityEvaluationRefs: E21-HC-first-pattern-evaluation
-  admissionReviewRefs: none until admission is claimed
-  rejectedAlternatives: land into FPF-Spec.md; publish only a crop checklist
-  rationaleRefs: source-pack claim sheet and E.4 family map
-  consequences: faster domain guidance; explicit refresh debt when sources or Core edition change
-  publicationCarrierRefs: HC-all-in-one-carrier
-  accessCarrierRefs: HC-grower-skill-pack-or-MCP-route-if-built
-  sourceReturnConditions: return to G.2 when source pack loses a rival horticulture tradition
-  refreshOrSupersessionConditions: G.11 refresh when Core edition or greenhouse practice changes
-```
+#### Decision-level access result
+
+A team needs a maintained choice among a DPF, an access route, and stop because later work depends on the rationale. The architecture question is therefore open. One `E.9` DRR selects no new framework edition, states the maintained access consequence and stop, and records when to reconsider the answer.
+
+#### Existing framework
+
+A local practice framework already has an accepted architecture answer and a source record. Changing an example or publication carrier creates no new PFAD stage. Reopen only when its selected edition boundary, dependencies, initial pattern architecture, or publication or access consequence changes.
 
