@@ -6,12 +6,12 @@ section_id: "C.25:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__006_archetypal-grounding.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:5 — Archetypal Grounding"
-line_start: 53088
-line_end: 53095
+line_start: 53109
+line_end: 53116
 dependencies:
   - "A.15"
   - "A.16.0"

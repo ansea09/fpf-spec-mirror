@@ -6,12 +6,12 @@ section_id: "A.15.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 26496
-line_end: 26514
+line_start: 26517
+line_end: 26535
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -52,5 +52,5 @@ keywords:
 | Project-result field | Entities, values, conditions, choices, measurements, verdicts, decisions, relation occurrences, changed referents, and claim-bearing epistemes are grouped as one intrinsic result of the project. | Ask what the result is and what it is a result of or for. Keep that subject in the kind or claim already established for it, then choose one WMR outcome. If no positive assertion is available, return one non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`; only the last is an ontology blocker. |
 | Network-is-project | A network of transformation-flow structures is treated as the project, workflow actor, or work-breakdown structure. | Keep the `E.18.NET` structure non-agentive and include Work in the project only through exact `A.15.1` work-parthood. |
 | Probe-is-constructor | The `A.6.RCD:4.2` conjunction row or a reference scheme is treated as if it supplied a constructor substrate. | Keep every direct fact and return `missing-substrate[project-selection-conjunction]` until one substrate and edition defines the conjunction's inputs, output claim, applicability, and truth semantics. |
-| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS/network, Method, record, or changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only under its direct owner. For a Work-realized change, name performer system, covering assignment, Work, changed referent, and direct governor; otherwise invent no actor, assignment, Method, or Work. |
+| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS/network, Method, record, or changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, name performer system, covering assignment, Work, changed referent, and direct governor; otherwise invent no actor, assignment, Method, or Work. |
 

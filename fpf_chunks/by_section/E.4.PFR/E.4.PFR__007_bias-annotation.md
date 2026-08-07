@@ -6,12 +6,12 @@ section_id: "E.4.PFR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__007_bias-annotation.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:6 — Bias-Annotation"
-line_start: 71319
-line_end: 71324
+line_start: 71340
+line_end: 71345
 dependencies:
   - "A.10"
   - "C.33"

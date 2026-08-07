@@ -6,12 +6,12 @@ section_id: "E.18:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__005_forces.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:4 — Forces"
-line_start: 83252
-line_end: 83262
+line_start: 83273
+line_end: 83283
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -42,9 +42,9 @@ keywords:
 | Force                                            | Tension                                                                                                                                                                    |
 | ------------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Universality vs specialization**               | One architecture covers supply chains, water networks, ML functionals, general P2W problem-to-work carry-through, and a first-principles P2W specialization, **without** baking in any one morphism set. |
-| **Publication neutrality vs auditability** | Keep faces notation-neutral and non-mechanistic while requiring the exact `CrossingRef`, changed-binding governors, gate decision refs, and publication pins used by the named downstream reliance. |
+| **Publication neutrality vs auditability** | Keep faces notation-neutral and non-mechanistic while requiring the exact `CrossingRef`, per-binding accounts, gate-decision refs, and publication pins used by the named downstream reliance. |
 | **Set-return discipline vs business pressure for totals** | Preserve **return sets and declared partial orders** ↔ stakeholders demand single numbers.                                                                                     |
-| **Cross-locus, plane, edition, or selected-structure reuse vs safety** | Enable bounded reuse while naming the changed `U.ContextSlice`, plane, edition, design/run tag, or retargeted subject and citing that binding's direct governor; invoke F.9 only for a separately established cross-semantic Bridge and bounded-use claim. |
+| **Cross-locus, plane, edition, or selected-structure reuse vs safety** | Enable bounded reuse while naming the changed `U.ContextSlice`, plane, edition, design/run tag, or retargeted subject and separating its from/to values, establishing basis, any applicable declaration or rule, and any current rule application; invoke F.9 only for a separately established cross-semantic Bridge and bounded-use claim. |
 | **Agility vs reproducibility**                   | Permit evolving CG‑Spec, UNM, and Comparator editions ↔ require **edition pins** and **re‑emission** on change.                                                                  |
 | **Cycles vs convergence**                        | Allow Selection↔Planning iteration ↔ impose **budget** and **slice‑scoped** refresh to prevent thrash.                                                                     |
 

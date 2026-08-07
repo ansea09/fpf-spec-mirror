@@ -6,12 +6,12 @@ section_id: "E.18.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__010_consequences.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:9 — Consequences"
-line_start: 84302
-line_end: 84311
+line_start: 84339
+line_end: 84348
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -56,7 +56,7 @@ keywords:
 
 | Consequence | Benefit | Cost or mitigation |
 |---|---|---|
-| A compact carry-through note can be materialized when another person or later action needs replay. | A practitioner can recover how the accepted problem-side claim led to the direct pattern and its result. | Ordinary conversation adds no record; transfer, audit, delayed feedback, costly reversal, automation, or durable reuse pays for the note. |
+| A compact carry-through note can be materialized when another person or later action needs replay. | A practitioner can recover how the accepted problem-side claim led to the applicable pattern contribution and its result. | Ordinary conversation adds no record; transfer, audit, delayed feedback, costly reversal, automation, or durable reuse pays for the note. |
 | Positive carry-through structure comes before boundary. | First use is readable before the heavier relation aid. | Boundary checks are still available in one canonical section. |
 | Result language becomes unpackable. | Artifacts, telemetry, acceptance, measurement, refresh, and role enactability can be handled by their own records. | More than one application may be needed for one wording span from an admitted source. |
 | P2W stays non-procedural. | The pattern can be used in many project situations without prescribing one local procedure. | A work procedure comes from method material or `A.15.2` planning material outside P2W. |

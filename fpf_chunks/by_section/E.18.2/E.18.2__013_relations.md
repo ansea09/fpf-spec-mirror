@@ -6,12 +6,12 @@ section_id: "E.18.2:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__013_relations.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:10 — Relations"
-line_start: 84578
-line_end: 84588
+line_start: 84629
+line_end: 84639
 dependencies:
   - "A.10"
   - "A.15"
@@ -38,12 +38,12 @@ keywords:
 
 ### E.18.2:10 - Relations
 
-- `E.18` governs one selected `TransformationFlowStructure`, flow valuation, path, slice, crossing, transfer annotations, and refresh locality.
-- `E.18.NET` governs one selected network of independently identified TFS or nested-network members and exact cross-member relation occurrences.
-- `A.3.4` governs atomic `U.Transformation` identity and slots.
-- `C.29` governs mathematical-lens use adequacy, preserved/lost structure, payoff, obstruction, and stop condition when these claims are current.
-- `C.2.1` and `E.17` govern description episteme and publication faces.
-- `A.6.0`, `A.6.1`, `A.6.5`, and `E.20` govern formal substrate, mechanism, slot discipline, and mechanism placement.
-- `A.15.1`, `A.15.2`, `A.20`, `A.21`, `A.10`, `B.3`, and `C.11` govern performed work, work planning, step validity, gate, evidence, assurance, and decision claims.
-- `C.30`, `C.30.AD`, `C.30.ASV`, `A.6.F`, `A.6.M`, and `C.31` govern architecture, architecture description, structural view, functional structure, module interface, and reusable-structure claims.
+- Apply E.18's one-TFS identity, allowed-locus, selection-constraint, and local-value rules to select one `TransformationFlowStructure` and identify the flow valuation, path, slice, crossing, transfer annotations, and refresh locality used by the claim.
+- Apply E.18.NET's membership, boundary, and cross-member relation requirements to select one network of independently identified TFS or nested-network members and identify its obtaining cross-member relation occurrences.
+- Apply A.3.4 to identify an actual bounded `U.Transformation`, its changed referent, boundary, facts, and continuity or reidentification rule.
+- Apply C.29 to evaluate mathematical-lens use and retain its returned adequacy, preserved/lost structure, payoff, obstruction, or stop result when that claim is current.
+- Use C.2.1 for description-episteme identity and E.17 for publication faces and their publication boundary.
+- Use A.6.0 for formal-substrate signatures, A.6.1 for mechanisms and applications, A.6.5 for slot discipline, and E.20 for mechanism-method placement.
+- Apply A.15.1 to identify performed Work, A.15.2 to identify work plans, A.20 to obtain internal-step validity, A.21 to obtain gate results, A.10 to state evidence relations, B.3 to obtain assurance, and C.11 to obtain local choices.
+- Apply C.30 to state architecture claims, C.30.AD to identify architecture descriptions, C.30.ASV to evaluate structural views, A.6.F to state function/bearer claims, A.6.M to state module-interface relations, and C.31 to state reusable-structure characteristics.
 

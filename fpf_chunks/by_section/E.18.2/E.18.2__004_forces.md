@@ -6,12 +6,12 @@ section_id: "E.18.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.2/E.18.2__004_forces.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18.2 — Transformation Flow Mathematical Description"
   - "E.18.2:3 — Forces"
-line_start: 84426
-line_end: 84435
+line_start: 84463
+line_end: 84472
 dependencies:
   - "A.10"
   - "A.15"
@@ -42,7 +42,7 @@ keywords:
 |---|---|---|
 | Mathematical usefulness | Graphs, categories, tuples, algebra, morphisms, paths, slices, quotients, folds, refinements, factorizations, and wiring can expose structure that prose misses. | Mathematical form can look stronger than the claim it can carry. |
 | EoC separation | The selected E.18 TFS or E.18.NET network, its E.18.2 mathematical description, its E.17 publication, and its C.29 lens-use adequacy are different values. | One visible source or publication face may present all of them at once. |
-| Composition and decomposition | One TFS and recursive TFS networks need reviewable composition, factorization, slice, fold, and refinement claims. | The expression can hide which exact E.18 TFS, E.18.NET network, or governed part is being described. |
+| Composition and decomposition | One TFS and recursive TFS networks need reviewable composition, factorization, slice, fold, and refinement claims. | The expression can hide which exact E.18 TFS, E.18.NET network, or independently identified part is being described. |
 | Publication usability | Readers need diagrams, tables, equations, and views. | A publication face can be mistaken for evidence, gate passage, or performed work. |
-| Related-claim economy | C.29, E.18, A.3.4, E.17, A.20, A.21, A.15, and C.30 already govern related claims. | Repeating their boundary doctrine inside E.18.2 creates fanout. |
+| Related-claim economy | Apply E.18 to select one exact flow structure, A.3.4 to identify one actual bounded change, E.17 to publish a face, A.20 or A.21 to obtain validity or gate results, A.15 to identify plans or Work, and C.30 to state an architecture claim. | Repeating those patterns' boundary doctrine inside E.18.2 creates fanout. |
 

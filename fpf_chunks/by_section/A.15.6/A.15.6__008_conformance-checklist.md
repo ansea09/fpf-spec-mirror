@@ -6,12 +6,12 @@ section_id: "A.15.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__008_conformance-checklist.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:7 — Conformance Checklist"
-line_start: 26475
-line_end: 26495
+line_start: 26496
+line_end: 26516
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -46,7 +46,7 @@ keywords:
 7. Each description's claim content, exact EntityOfConcern, and effective scheme are recovered under `C.2.1`; project, process, and case topics do not assign the subject, and descriptions with different EntityOfConcern values are not forced into one view family.
 8. When a description needs empirical grounding, `GroundingHolonSlot` remains a SlotSpec of the C.2.1 empirical-grounding relation signature; it is not a slot of either the description episteme or the described work, method, structure, transformation, or referent.
 9. Every retained `@Project` use states an exact direct relation and typed reference or remains explicitly retrieval-only.
-10. Performer, result, success, acceptance, evidence, decision, description, and publication claims stay with their direct governing patterns.
+10. Keep performer, result, success, acceptance, evidence, decision, description, and publication as separate claims; for each, apply the pattern whose Solution answers that exact question.
 11. A merely intended future system remains a plan or description designator; it becomes an admitted actual `U.System` only after its applicable identity rule first holds. No role assignment or actual-system history is backdated.
 12. Project system-of-interest designation and `SystemOfInterestRole` are tested independently in both directions. The A.2 role test names the role value, taxonomy episteme, effective reference scheme, and concrete method, transformation, functioning, or performed-Work participation that gives the value its enactment-facing meaning; designation or passive affectedness alone does not pass. Only when assignment identity or its window matters does A.2.1 additionally require the admitted holder, obtaining assignment, and uninterrupted extent.
 13. A project-selection account follows section 4.1a: the plan or decision designation and each direct fact remain usable, but no compound claim is asserted until one selected constructor substrate and edition gives the conjunction its semantics. Until then return `missing-substrate[project-selection-conjunction]`. A familiar phrase, role label, record row, common project name, reference scheme, or constructor probe creates neither a predicate, direct relation kind, nor occurrence.

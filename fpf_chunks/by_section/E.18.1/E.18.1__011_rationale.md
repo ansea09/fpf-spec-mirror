@@ -6,12 +6,12 @@ section_id: "E.18.1:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__011_rationale.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:10 — Rationale"
-line_start: 84312
-line_end: 84317
+line_start: 84349
+line_end: 84354
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,7 +54,7 @@ keywords:
 
 ### E.18.1:10 - Rationale
 
-`E.18.1` is a child of `E.18` because a P2W use may need transformation-flow structure when the accepted claim spans several slices, typed positions, or returns. It does not define graph semantics or prescribe performed-work order. It helps a practitioner keep the accepted claim visible while selecting and applying the next direct pattern; that pattern, not P2W, produces or amends the result.
+`E.18.1` is a child of `E.18` because a P2W use may need transformation-flow structure when the accepted claim spans several slices, typed positions, or returns. It does not define graph semantics or prescribe performed-work order. It helps a practitioner keep the accepted claim visible while selecting the pattern whose Solution answers the next question. P2W preserves the carried claim; the practitioner or another capable system obtains or amends the downstream result by applying the neighbouring guidance.
 
-**Stable core and optional apparatus.** Preserve the accepted claim for one receiving decision or use, ask a concrete relation question, apply the direct pattern, keep its result or honest stop, split independent claims, and return only to the smallest affected continuation. Reliance notes, E.18.3 structure, development examples, and naming or publication open only for their stated uses and do not change that core. Relation occurrence, declaration, admission, production, evidence, gates, decisions, and other neighbouring rules remain in their direct patterns. This separation preserves the predecessor's problem, declaration, method, plan, work, result, evidence, currentness, and return functions without reviving its mega-record or putting apparatus before the first action.
+**Stable core and optional apparatus.** Preserve the accepted claim for one receiving decision or use, ask a concrete relation question, apply the pattern that answers it, keep its result or honest stop, split independent claims, and return only to the smallest affected continuation. Reliance notes, E.18.3 structure, development examples, and naming or publication open only for their stated uses and do not change that core. Relation occurrence, declaration, admission, production, evidence, gates, decisions, and other neighbouring rules remain in the patterns whose Solutions answer each exact question. This separation preserves the predecessor's problem, declaration, method, plan, work, result, evidence, currentness, and return functions without reviving its mega-record or putting apparatus before the first action.
 

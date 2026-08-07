@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__005_solution.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:4 — Solution"
-line_start: 16324
-line_end: 16521
+line_start: 16327
+line_end: 16524
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -38,7 +38,7 @@ keywords:
 
 **Stable WMR lens.** Treat the boundary wording as one use-specific claim about an exact thing relative to an exact object. Recover the direct verb or reason-specific stop first. Keep claim subject, time, polarity, and assertability independently recoverable when any of them can change the answer; do not turn the wording into a participant kind, relation kind, or universal input or result family.
 
-The method handles one relation-bearing claim at a time. The trigger word stays in view only until the exact thing, related object, and safe direct verb or stop are recoverable. The result replaces the compressed phrase with the shortest ordinary sentence and continues under the direct owner.
+The method handles one relation-bearing claim at a time. The trigger word stays in view only until the exact thing, related object, and safe direct verb or stop are recoverable. The result replaces the compressed phrase with the shortest ordinary sentence. If a neighboring claim is still needed, apply the pattern whose Solution answers that exact question.
 
 #### A.6.P.WMR:4.0 - Thin recovery core and conditional interfaces
 
@@ -48,7 +48,7 @@ Claim subject, modality and temporal extent, polarity, and recovery or support s
 
 | Conditional interface | Minimum condition for opening it | Direct return consumed here |
 | --- | --- | --- |
-| direct subject pattern or `A.6.1` | the exact relation or one declared operation application is already the receiver's current question | one readable direct subject-relation claim, one exact declaration-local application binding, or its exact non-assertability result |
+| pattern whose Solution answers the exact direct-relation question, or `A.6.1` | the exact relation or one declared operation application is already the receiver's current question | one readable direct subject-relation claim, one exact declaration-local application binding, or its exact non-assertability result |
 | `A.6.RCD` | no direct relation closes the named receiving use, and a substrate-admitted compound claim, repeated predicate semantics, or relation-kind question is current | that owner's lightest local claim, reusable-definition or conditional kind-admission continuation, or exact blocker; WMR does not reproduce its derivation or disposition algorithm |
 | `A.15.PROD` | production-work participation, entity-identity inception, or production completion is explicitly the current receiving question | one local production claim or that branch's exact blocker; WMR does not reproduce the branch basis |
 | `A.15.1`, then `F.18` when naming is needed | an action nominal or plan-like label is being relied on as one performed occurrence | one exact Work occurrence admitted under `U.Work` at the required granularity or the exact lowered neighboring object or blocker; durable naming opens only after that result |
@@ -84,7 +84,7 @@ The four dimensions remain independent. Make a dimension explicit when two plaus
 
 `Factually unsupported` applies when an applicable governor is known but the available facts fail to support the proposed assertion; no opposite polarity follows without its own basis. `Missing-information` applies when the governor is known but one named fact needed for the answer is unavailable. `Missing-governor` applies when the exact participants and question are known but no current direct predicate, condition, or owner closes it.
 
-A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and direct owner are named; a local id such as `COM-17` is not that settlement. The promised delivery remains intended and unfulfilled until its own exact token, owner, and facts establish fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true.
+A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The promised delivery remains intended and unfulfilled until its own exact token, owner, and facts establish fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true.
 
 A change in any dimension is substantive. A plan does not become an actually obtaining relation because its date arrives; a later observation does not retroactively manufacture a missing relation; and stronger support does not substitute for the subject relation's own facts.
 
@@ -136,14 +136,14 @@ Historically obtained:
 
 Governed negative:
   During <exact extent>, <exact entity> did not <direct relation in ordinary words> <exact related object>
-  under <RelationKind token and direct owner>; <separate case facts> satisfy
+  under <RelationKind token>, with defining or constraining content at <SubjectPatternLocator>; <separate case facts> satisfy
   <the owner's explicit negative or non-obtaining criterion or closure basis>,
   and no relation occurrence is individuated.
 
 Obtaining commitment, promised relation separate:
   <accountable subject> is committed to <promised relation> for <promisee>
   during <commitment extent>; the promised relation remains <intended | unfulfilled | fulfilled at exact extent>
-  under its own <RelationKind token and direct owner>.
+  under its own <RelationKind token>, with defining or constraining content at <SubjectPatternLocator>.
 
 Factually unsupported:
   The <positive or negative> claim that <exact relation sentence> is not assertable
@@ -156,8 +156,8 @@ Missing information:
 Missing governor:
   Whether <exact entity> <candidate direct relation> <exact related object> obtains
   is unresolved because <exact governor> is absent;
-  the unresolved question names <accountable subject-pattern owner> as the future owner
-  for supply, rejection, or reframing of that relation for <receiving use>.
+  the unresolved question cites <SubjectPatternLocator> and <missing ClaimGraph or case fact>
+  as the exact gap to supply, reject, or reframe for <named use>.
 ```
 
 For example, `CF-17 was not consumed by W-204` does not follow merely because the positive consumption fact fails or is unavailable. It closes as a governed negative sentence only if the machining-work owner supplies an applicable non-consumption criterion or complete closure basis for the exact quantity, work, and extent and separate case facts satisfy it. Otherwise the proposed positive claim remains `factually unsupported` or `missing-information`, or the relation question remains `missing-governor`, according to the independently recovered deficit.
@@ -189,8 +189,8 @@ When the trigger is `result`, use the deciding fact before any catalogue:
 - if one operation application returned a value, state only its A.6.1 result binding;
 - if the referent is a measured characteristic value, keep that exact value and its direct measurement relation; if it is a comparison, diagnosis, or evaluation claim, identify that exact C.2.1 episteme and its direct basis;
 - if an entity was delivered or transferred, use the direct delivery or transfer occurrence;
-- if the claim is a downstream effect, use the subject pattern that defines that effect relation;
-- if `result` names a `C.11` `ChoiceResult`, an acceptance verdict, a decision occurrence or record, an enduring condition, or another value, entity, fact, or claim already identified by its direct owner, keep that exact kind and write only the direct relation current for this use.
+- if the claim is a downstream effect, apply the pattern whose Solution answers that exact effect-relation question;
+- if `result` names a `C.11` `ChoiceResult`, an acceptance verdict, a decision occurrence or record, an enduring condition, or another value, entity, fact, or claim already identified under its applicable identity or occurrence rule, keep that exact kind and write only the direct relation current for this use.
 
 If no row has its deciding fact and governor, `result` remains unresolved and the answer is the reason-specific non-assertability result. These readings share no result kind or relation family.
 
@@ -213,19 +213,19 @@ When no direct governor closes a selected row, name the exact participants, prop
 
 An action nominal such as `testing`, `assembly`, `maintenance`, `evaluation`, or `inspection` is a morphology cue, not an occurrence identification or recovered kind. Placement in function- or flow-structure prose does not identify a `U.Function` or any other object by itself. When the use remains function-like and claim-bearing while its exact FPF object or relation is hidden, `A.6.F` is the next owner. When the object is already recoverable, the label resolves to the exact `U.Method`, `U.MethodDescription`, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, `FunctionalElement@Context` or other functional-view record, plan content, performed Work occurrence admitted under `U.Work`, or other governed value under its direct pattern. In a WBS element, activity, or Work Package the nominal ordinarily names plan or assignment content about intended work; none of these uses identifies an already performed Work occurrence.
 
-A use that needs only the recovered method, method description, plan, structure, or other already governed value closes under that direct pattern. Only reliance on the label as one performed occurrence routes the candidate designation and required granularity to `A.15.1`.
+A use that needs only the recovered method, method description, plan, structure, or other already governed value closes under that direct pattern. Only reliance on the label as one performed occurrence handles the candidate designation and required granularity under `A.15.1`.
 
 WMR consumes only the direct A.15.1 return: one exact Work occurrence admitted under `U.Work` at the granularity needed by the receiver, an exact lowering to the neighboring method, description, plan, evidence, telemetry, temporal, or other object actually supported, or an exact blocker. A materially needed `workContinuityPolicyRef` remains part of the A.15.1 identity judgment rather than a WMR field. When one occurrence is established and needs a durable name, `F.18` opens after that result.
 
 Any output, result, outcome, production, delivery, or acceptance wording is a separate WMR claim only while its direct relation or claim dimensions remain hidden. Once readable, it proceeds under its own pattern and does not become part of work identity.
 
-The preceding action-nominal routing is an FPF-scoped synthesis from recurring morphology-and-owner ambiguity, not a rule imported from PMI, PRINCE2, IDEF0, or IDEF3. A domain may conventionally use an action nominal as the durable name of an already grounded method, plan item, functional-view record, or dated work occurrence; that direct identity and governor win over morphology. The synthesis reopens if repeated practice shows that the cue routes a directly grounded value to the wrong owner, or if a trigger case cannot close through `A.6.F`, the direct owner, or `A.15.1` without new ontology.
+The preceding action-nominal classification is an FPF-scoped synthesis from recurring morphology-and-subject ambiguity, not a rule imported from PMI, PRINCE2, IDEF0, or IDEF3. A domain may conventionally use an action nominal as the durable name of an already grounded method, plan item, functional-view record, or dated work occurrence; that direct identity and exact predicate win over morphology. The synthesis reopens if repeated practice shows that the cue classifies a directly grounded value under the wrong predicate family, or if a trigger case cannot close through `A.6.F`, the exact subject predicate, or `A.15.1` without new ontology.
 
 | Planning or description lineage | Bounded use here | Prohibited inference |
 | --- | --- | --- |
 | PMBOK WBS practice | Its deliverable-oriented naming pressure is used only to recognize that WBS elements and Work Packages are often named from expected deliverables. | The named plan element proves no dated occurrence, enacted method, actual participant, produced entity, result, or outcome. |
 | PRINCE2 7 public Foundation page | The page is used only as currentness evidence that PeopleCert presents Version 7 and describes seven recurring project-management practices. It does not expose detailed product, product-description, activity, or Work Package distinctions, so those distinctions are not source authority here. | Neither the page nor PRINCE2 terminology supplies occurrence identity, a positive FPF kind inference, or any production, delivery, or acceptance claim. |
-| IDEF0 historical recognition lineage (non-authoritative here) | A box label remains source-side function-model wording. A still-hidden FPF claim routes to `A.6.F`; otherwise the label names the already recovered required-transformation or required-effect claim, actual `U.Transformation`, functional-view record, method description, `TransformationFlowStructure` locus, or other exact governed value under its direct pattern. | This lineage supplies no positive FPF kind inference: neither box form nor function wording identifies `U.Function` or supplies identity evidence for a performed Work occurrence admitted under `U.Work`. |
+| IDEF0 historical recognition lineage (non-authoritative here) | A box label remains source-side function-model wording. A still-hidden FPF claim requires `A.6.F`; otherwise the label names the already recovered required-transformation or required-effect claim, actual `U.Transformation`, functional-view record, method description, `TransformationFlowStructure` locus, or other exact governed value under its direct pattern. | This lineage supplies no positive FPF kind inference: neither box form nor function wording identifies `U.Function` or supplies identity evidence for a performed Work occurrence admitted under `U.Work`. |
 | IDEF3 Units-of-Behavior historical recognition lineage (non-authoritative here) | The terminology remains only as wording that may occur in inherited process descriptions. | This lineage supplies no positive FPF kind or relation inference; a Unit-of-Behavior description or label is never identity evidence for a dated Work occurrence admitted under `U.Work`. |
 
 **Inspection contrast.** `inspection method` names the way of doing. `planned Pump-14 inspection work` is intended-work content. `Pump-14 inspection on 2026-07-15 09:10-09:34` becomes an exact performed occurrence only when A.15.1 returns that result at the required granularity; otherwise retain its lowered object or blocker. If the receiver asks whether the work first constituted an inspection-report episteme, A.15.PROD returns either its local entity-identity-inception claim or the exact branch blocker. A measured or diagnostic result remains with its direct result pattern, and a pass/fail verdict remains a separately governed evaluation-result episteme rather than the inspected entity or a downstream effect.

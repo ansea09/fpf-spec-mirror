@@ -6,12 +6,12 @@ section_id: "E.18.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 84286
-line_end: 84301
+line_start: 84323
+line_end: 84338
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -58,9 +58,9 @@ keywords:
 |---|---|
 | **Boundary fanout.** The pattern repeats neighboring algorithms or builds a second relation-selection catalogue. | Keep `4.6` as the plain one/several/no-claim branch, Relations as the only question-to-pattern map, and include neighboring-pattern details elsewhere only when a local discriminator or worked case changes the reader's action. |
 | **Carry-through-as-procedure.** A carry-through structure, diagram, or graph-shaped expression is read as a prescribed project sequence. | Treat it as a way to keep one accepted claim visible across separately answered relation questions. `Stop`, `split`, and `return` guide use of E.18.1; they are not P2W relation kinds or a project-work order. |
-| **ProblemCard-as-solution.** The accepted problem card is treated as method, plan, Work, evidence, or result. | State the carried distinction and next question in conversation; add a compact note only when another person or later action needs replay, then apply the direct pattern. |
+| **ProblemCard-as-solution.** The accepted problem card is treated as method, plan, Work, evidence, or result. | State the carried distinction and next question in conversation; add a compact note only when another person or later action needs replay, then apply the pattern that answers the question. |
 | **Math-as-authority.** A `U.Signature(profile=FormalSubstrate)` declaration, mathematical lens, or near-sameness does all downstream work. | Apply `C.29` to the preserved structure, lost structure, payoff, declared use, and stop condition. Continue only through the resulting relation; add a P2W note only when another person or later action needs replay. |
-| **Generic result token.** The word *result* is treated as one kind, or P2W repeats the whole recovery method. | Ask what can actually be asserted. Apply `A.6.P.WMR`, then carry only the direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or bounded non-assertability result it returns. Keep `factually unsupported`, `missing-information`, and `missing-governor` distinct; only `missing-governor` says that the required predicate for the stated participants and use has no current governor. |
+| **Generic result token.** The word *result* is treated as one kind, or P2W repeats the whole recovery method. | Ask what can actually be asserted. Apply `A.6.P.WMR`, then carry only the direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or bounded non-assertability result it returns. Keep `factually unsupported`, `missing-information`, and `missing-governor` distinct; only `missing-governor` says that no current predicate definition or occurrence rule can state the claim for the named participants and use. |
 | **Choice-as-commitment.** A `C.11` choice result is treated as an accountable obligation, recommendation-as-duty, or prohibition. | Keep the option set, comparison basis, choice rule, and choice result under `C.11`; open a separate `A.2.8 U.Commitment` only when its accountable subject, modality, referents, scope, and window are independently recoverable. |
 | **Plan, path, or proximity as actual change.** A desired state, model, method, plan, flow arrow, adjacent work occurrence, or common affected referent is treated as an actual or composite transformation. | Apply `A.3.4` to the change and the direct work-to-change or `A.15.PROD` pattern to its separate claim. Carry only the results or blockers they return; shared timing or proximity opens no composition or production claim. |
 | **Intended realization as MethodDescription.** A selected continuation, recommendation, plan seed, imperative sentence or pattern ref is said to describe the Method it may realize. | First identify one C.2.1 episteme and one admitted `U.Method`; apply A.3.2 only when that Method is the episteme's exact EntityOfConcern and the ClaimContent contains a substantive way-of-doing claim. |

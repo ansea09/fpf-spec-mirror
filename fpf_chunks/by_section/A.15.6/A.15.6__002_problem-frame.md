@@ -6,12 +6,12 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:1 — Problem frame"
-line_start: 26251
-line_end: 26268
+line_start: 26272
+line_end: 26289
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -49,7 +49,7 @@ keywords:
 
 **No-mint disposition.** Do not publish a NameCard for `ProjectWorkKind`, `ProjectWorkProfile`, `ProcessKind`, or `CaseKind`. Recover the direct subject instead: composite `U.Work` for an actual project; `U.Method`, an exact `U.Structure` selected under `A.22`, or `TransformationFlowStructure` for a process concern; and one exact subject or claim plus its closure basis and named-but-excluded downstream use for a case concern. After `A.22` selects a method-side structure for one named question, admissible action, and prohibited overread, call it `MethodRelationStructure` only for that use. The local designator is not a U-kind, relation type, method, transformation flow, work occurrence, or holon. Do not author the unsupported `MethodRelationStructure@BoundedContext` spelling: neither that suffix nor the label supplies locality or identity. The familiar management words remain Plain retrieval labels; they create no further kinds.
 
-Do not mint root `U.Project` as a project-situation specialization. Admit actual project Work through `A.15.1`: name its performer systems, covering assignments, enacted method, temporal extent, containing system, exact parthood, continuity, and aggregation. State affected-referent, production, evaluation, delivery, acceptance, and other result-like facts as separate relations or claims under the patterns that govern them. A second project identity would duplicate rather than explain that Work occurrence. Do not mint `ProjectSelectionRelation`, `ProjectResultRelation`, or `WorkResultRelation` from familiar project wording. In section 4.1a, keep the plan or decision designation and every independently admitted fact usable; when one named decision also needs a compound project-selection claim, return the exact missing-substrate result.
+Do not mint root `U.Project` as a project-situation specialization. Admit actual project Work through `A.15.1`: name its performer systems, covering assignments, enacted method, temporal extent, containing system, exact parthood, continuity, and aggregation. State affected-referent, production, evaluation, delivery, acceptance, and other result-like facts as separate relations or claims under the patterns that define or constrain them. A second project identity would duplicate rather than explain that Work occurrence. Do not mint `ProjectSelectionRelation`, `ProjectResultRelation`, or `WorkResultRelation` from familiar project wording. In section 4.1a, keep the plan or decision designation and every independently admitted fact usable; when one named decision also needs a compound project-selection claim, return the exact missing-substrate result.
 
 Do not mint root `U.Situation` as a universal relation-constituted holon. Systems, work, transformations, methods, epistemes, characteristic assignments, phases, and direct relations keep their own identities; their co-occurrence or relevance to one claim does not establish constructive assembly, parthood, or a meta-holon transition into another whole.
 

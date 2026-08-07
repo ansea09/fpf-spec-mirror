@@ -6,12 +6,12 @@ section_id: "E.18.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__004_forces.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:3 — Forces"
-line_start: 83868
-line_end: 83878
+line_start: 83903
+line_end: 83913
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -57,9 +57,9 @@ keywords:
 | Force | P2W-preserved content | Pressure to manage |
 |---|---|---|
 | Problem-side usefulness | An accepted problem-side distinction may guide method, planning, work, or result interpretation. | The distinction is tempting to treat as a completed downstream claim. |
-| Governing-kind precision | The reader states one concrete relation question and uses the pattern that governs it; P2W adds no relation species. | A diagram, source phrase, or filled note can look like the relation already obtains. |
-| Practical readability | First use needs one recognizable claim, concrete question, direct pattern, result, and next move or stop. | Too much boundary prose or mandatory record apparatus can hide the working P2W application. |
+| Relation-kind precision | The reader states one concrete relation question and uses the pattern whose Solution answers it; P2W adds no relation species. | A diagram, source phrase, or filled note can look like the relation already obtains. |
+| Practical readability | First use needs one recognizable claim, concrete question, the pattern contribution that answers it, result, and next move or stop. | Too much boundary prose or mandatory record apparatus can hide the working P2W application. |
 | Non-linear use | P2W may skip, branch, split, stop, or reopen continuations in the carry-through structure. | A readable diagram or graph-shaped expression can be mistaken for a prescribed project sequence. |
 | Result usefulness | Result phrases often point to artifacts, telemetry, acceptance, measurement, refresh, or role enactability. | One broad result word can hide several different records. |
-| Governing-pattern economy | Direct governing patterns keep their own rules. | Repeating their non-use doctrine inside P2W creates content fanout. |
+| Neighboring-content economy | Each cited pattern keeps the definition, test, and result it contributes. | Repeating that content's non-use doctrine inside P2W creates fanout. |
 

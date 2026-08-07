@@ -6,7 +6,7 @@ section_id: "A.6.3.NAR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__003_problem.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:2 — Problem"
@@ -47,7 +47,7 @@ Without `A.6.3.NAR`:
 1. narrative is treated as style polish after the real work is done;
 2. narrative is treated as mere lossy summary even when sequence-making is the main representational move;
 3. selected structure, ordering decisions, event models, and lost relations disappear behind fluent prose;
-4. engagement is allowed to raise confidence, authority, ethical permission, or policy force without the evidence, assurance, ethics, or policy pattern that owns the stronger claim;
+4. engagement is allowed to raise confidence, authority, ethical permission, or policy force without the current evidence relation, assurance result, ethical basis, or policy basis required for that stronger claim;
 5. generated narrative output is trusted because it is coherent or dramatic;
 6. exact identity and assurance fields are demanded before an ordinary reader-useful narrative exists, making the pattern needlessly hard to enter; and
 7. teaching material can be smuggled into pattern bodies instead of being kept in a separate teaching or publication carrier.

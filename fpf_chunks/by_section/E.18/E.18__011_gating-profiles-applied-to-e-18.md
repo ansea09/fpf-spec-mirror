@@ -6,12 +6,12 @@ section_id: "E.18:8"
 section_title: "Gating Profiles (applied to E.18)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__011_gating-profiles-applied-to-e-18.md"
-commit_sha: "2729cfe5a3e4a86da8632aabcb859488c06a2d51"
+commit_sha: "1602a8d0a6934a99a79ead914610b070cedd86d2"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:8 — Gating Profiles (applied to E.18)"
-line_start: 83687
-line_end: 83699
+line_start: 83722
+line_end: 83734
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -38,7 +38,7 @@ keywords:
 ---
 
 ### E.18:8 - Gating Profiles (applied to E.18)
-This table is a selected-structure coverage table for E.18 crossings and path slices. It does not govern `GateProfile` semantics. `A.21` governs gate decision semantics, folds, `DecisionLog` minima, and the GateFit check-catalog boundary.
+This table is a selected-structure coverage table for E.18 crossings and path slices. It does not define `GateProfile` semantics. `A.21` defines gate decision semantics, folds, `DecisionLog` minima, and the GateFit check-catalog boundary.
 
 > Gating is expressed as **publication-gating** per E.17 profiles. The structure model aligns with the **CC items** listed for the chosen profile; broader obligation profiles include all narrower-profile items.
 
