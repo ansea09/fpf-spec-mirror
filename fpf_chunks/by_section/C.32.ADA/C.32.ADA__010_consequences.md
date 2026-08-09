@@ -6,12 +6,12 @@ section_id: "C.32.ADA:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__010_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:9 — Consequences"
-line_start: 67381
-line_end: 67389
+line_start: 67386
+line_end: 67394
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,5 @@ keywords:
 | Adequacy is coordinate-based. | Review can point to exact repairs instead of vague approval or rejection. | Evaluation takes longer than reading a record once. |
 | Declared use controls stop condition. | A decision can be adequate for one use and inadequate for another without contradiction. | Teams must state intended use before scoring. |
 | No average is allowed. | Weak but critical coordinates stay visible. | Some dashboards and summaries need redesign. |
-| Repair exits are mandatory. | Review results become actionable. | Reviewers must know or find the receiving pattern. |
+| Explicit repair conditions and subject-pattern locators are mandatory. | Review results become actionable. | Reviewers must recover the exact missing assertion and the pattern description containing its definition or constraint. |
 

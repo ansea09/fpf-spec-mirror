@@ -6,12 +6,12 @@ section_id: "C.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49994
-line_end: 50000
+line_start: 49999
+line_end: 50005
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -46,7 +48,7 @@ keywords:
 ### C.19:8 - Common Anti-Patterns and How to Avoid Them
 
 - **Treating one scalarized top-1 as the frontier.** Avoid by naming the governing lens and keeping the live frontier distinct from any lens-ranked pick.
-- **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit `currentTreatment` token: `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`. If the current question is no longer pool policy, name the next governing pattern instead of inventing another pool treatment.
+- **Running exploration without one explicit next treatment.** Avoid by ending each pass with one explicit `currentTreatment` token: `widen`, `keep_frontier`, `narrow_to_subset`, or `sunset_line`. If the current question is no longer pool policy, name the next subject pattern instead of inventing another pool treatment.
 - **Letting `Surprise` or `Illumination` quietly become dominance criteria.** Avoid by promoting them only through one declared lens or policy id and recording that promotion in provenance.
-- **Absorbing other governing questions.** Avoid by applying `C.11` for fixed-option choice, `C.24` for enactment-facing planning, and `G.5` for selector-facing publication.
+- **Absorbing neighboring questions.** Avoid by applying `C.11` for fixed-option choice, `C.24` for enactment-facing planning, `G.5` for selector-facing result declaration, `E.17` for the publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
 

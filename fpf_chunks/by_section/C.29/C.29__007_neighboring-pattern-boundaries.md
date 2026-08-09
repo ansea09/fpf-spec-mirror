@@ -6,12 +6,12 @@ section_id: "C.29:5"
 section_title: "Neighboring-pattern boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__007_neighboring-pattern-boundaries.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:5 — Neighboring-pattern boundaries"
-line_start: 58951
-line_end: 58968
+line_start: 58956
+line_end: 58973
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -70,7 +70,7 @@ keywords:
 
 ### C.29:5 - Neighboring-pattern boundaries
 
-Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first bounded lens-use action for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 governing-pattern table instead of copying generic boundary prose into the neighboring pattern:
+Neighboring patterns remain necessary and are not displaced. A retained neighboring-pattern application note answers the working question for the neighboring pattern being used: what does the reader do with the mathematical lens now? State the neighboring-pattern trigger and the first bounded lens-use action for that neighboring pattern. If a note only repeats that C.29 does not replace a neighbor, keep that boundary in the C.29 subject-pattern table instead of copying generic boundary prose into the neighboring pattern:
 
 - `A.6.P` handles relation precision restoration.
 - `A.3.3` handles dynamics semantics.

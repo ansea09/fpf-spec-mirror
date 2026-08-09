@@ -6,12 +6,12 @@ section_id: "C.32.ACE:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:1 — Problem frame"
-line_start: 65438
-line_end: 65518
+line_start: 65443
+line_end: 65523
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -62,7 +62,7 @@ Typical entry phrases:
 
 **First-minute use slice.** A product-family team has ACS rows for substitutability, evidence reuse, and latency, plus safety as a monitored guardrail. Two candidate architectures look plausible. The practitioner writes one ACE program record with the same claim scope, selected context slices, reference scheme and plane, evaluation window, parity frame, and input projections for both candidates. `EvalService-7`, the admitted System holding `EvaluatorAssignment-3`, separately performs dated `CandidateEvalWork-42` over both candidates under that assignment; its exact Method enactment or operation application is separately governed. `CandidateLatencyReading-42` and `CandidateEvidenceScopeFinding-42` are separately governed typed results, and any observed protected-safety loss remains explicit rather than being absorbed into one score. Those results can become inputs for `A.19.CPM` comparison or the next C.32 synthesis pass; neither the program record, Work, nor a result defines the criterion or decides the architecture.
 
-The primary governed object is one architecture-characteristic eval-program record over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. It is a C.32.ACE-local record form, not a new `U.*` kind and not, by its `program` label, a `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, or evaluation result. Measurement validity, comparison policy, selection results, G.5 publications, and architecture decisions remain with their receiving patterns.
+This pattern concerns one architecture-characteristic eval-program record over declared criteria rows, Q-Bundle slots, candidates, bearers, or selected structures under a parity frame. It is a C.32.ACE-local record form, not a new `U.*` kind and not, by its `program` label, a `U.Method`, `U.MethodDescription`, `U.WorkPlan`, dated `U.Work`, or evaluation result. When measurement validity, comparison policy, a selection result, G.5 result declaration, publication, or architecture decision is current, use the definition and test for that claim.
 
 Ordinary working move: choose the declared criteria rows, bind the exact claim scope, relevant context slices, reference scheme and plane, evaluation window, and input projections, and hold one parity frame for all variants. When evaluation actually occurs, identify the admitted System and role assignment performing the dated Work plus any exact Method enactment or operation application, then return the separately governed typed results as feedback for comparison or the next synthesis pass.
 
@@ -96,8 +96,8 @@ ArchitectureCharacteristicEvalProgram@Project:
   measurementOrObservationMethodRefs:
   methodDescriptionRefs?:
   evaluationWorkOccurrenceRefs?: U.EntityRef constrained to U.Work
-  evaluationOperationApplicationRefs?: direct-owner relation or A.6.1 application references
-  evaluationResultRefs?: typed result references governed by the selected direct owner
+  evaluationOperationApplicationRefs?: subject-pattern relation or A.6.1 application references
+  evaluationResultRefs?: typed result references accepted under the definition and test for each result
   uncertaintyAndMissingDataPolicy:
   proxyRisk:
   protectedCounterCharacteristicRefs:
@@ -106,15 +106,15 @@ ArchitectureCharacteristicEvalProgram@Project:
   refreshOrRetireCondition:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. It supplies no project entity, composite-work identity, context, authority, viewpoint, or parthood. A program local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct program-use relation in `architectureEvalProgramProjectUseRelationRef`; either field alone is insufficient. `evalOperation` states the intended operation family in the program record, not an actual run or application. Each value in `evaluationWorkOccurrenceRefs` denotes a separate dated `U.Work`; its admitted performer System, exact `U.RoleAssignment`, F.6 attribution, any enacted Method or actual direct-owner/A.6.1 application binding, and each typed result remain under their direct owners. A program, Method, MethodDescription, Work occurrence, operation application, and result never substitute for one another.
+Here `@Project` is a compatibility and retrieval cue only. It supplies no project entity, composite-work identity, context, authority, viewpoint, or parthood. A program local to one actual project names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct program-use relation in `architectureEvalProgramProjectUseRelationRef`; either field alone is insufficient. `evalOperation` states the intended operation family in the program record, not an actual run or application. Each value in `evaluationWorkOccurrenceRefs` denotes a separate dated `U.Work`; its admitted performer System, exact `U.RoleAssignment`, F.6 attribution, any enacted Method or actual subject-pattern/A.6.1 application binding, and each typed result remain under their subject patterns. A program, Method, MethodDescription, Work occurrence, operation application, and result never substitute for one another.
 
 What goes wrong if C.32.ACE is missed: a project has architecture-characteristic rows but treats a test, monitor, dashboard, or source-side "fitness function" as the criterion or as the decision. The team may then reject useful losing variants as errors, optimize one indicator, or choose a candidate without fair comparison.
 
 What C.32.ACE buys in practice: eval work is framed as typed evaluation over declared architecture criteria. A losing candidate can still add knowledge about the solution space, while an actual error remains a failure against an expectation that causes unplanned rework.
 
-Adoption test: after using C.32.ACE, the record shows which variants were read under the same parity frame, what result form was produced, and which receiving pattern may use that reading as feedback.
+Adoption test: after using C.32.ACE, the record shows which variants were read under the same parity frame, what result form was produced, and which pattern for the next question may use that reading as feedback.
 
-Not this pattern when the characteristic rows do not exist yet. Also not this pattern when the current work is measurement validity, composite-quality modeling, explicit comparison, set-returning selection, local choice, publication of a selected set, evidence, assurance, or project architecture decision.
+Not this pattern when the characteristic rows do not exist yet. Also not this pattern when the current work is measurement validity, composite-quality modeling, explicit comparison, set-returning selection, local choice, selected-set result declaration, actual publication, evidence, assurance, or project architecture decision.
 
 Common exits by claim kind:
 
@@ -123,7 +123,7 @@ Common exits by claim kind:
 - `C.25` for Q-Bundles and composite quality families.
 - `E.13` when an eval result or dashboard starts replacing the declared architecture concern.
 - `C.32` for candidate synthesis, `C.32.MLAO` for residual input, and `E.23` for repeated improvement feedback.
-- `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
+- `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for selected-set result declaration. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 - `A.10` and `B.3` when evidence or assurance claims are being made.
 - `C.32.PAD` for project decision.
 

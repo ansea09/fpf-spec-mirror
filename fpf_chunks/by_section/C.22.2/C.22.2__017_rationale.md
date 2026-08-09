@@ -6,12 +6,12 @@ section_id: "C.22.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__017_rationale.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:16 — Rationale"
-line_start: 52285
-line_end: 52292
+line_start: 52290
+line_end: 52297
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 
 `ProblemCard` gives the practitioner one compact problem-side record between vague problem talk and downstream P2W. The card is useful because it is light enough for ordinary use and specific enough to show when comparison, characterization, evidence, selection, mathematical-lens use, method, work, gate, autonomy, bridge, representation transition, or refresh requires another FPF pattern.
 
-The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. Claims beyond the problem-side record stay with their governing patterns.
+The card gives the practitioner one thing to write, inspect, and challenge. A practitioner can see whether a problem is ready without first assembling the problem-side record from `TaskSignature`, Q-bundle, parity report, evidence note, selected-set output, and refresh record. Claims beyond the problem-side record stay with their subject patterns.
 
-The archive and portfolio distinctions remain current when they matter because the card preserves `sourceSetRef` and names the governing pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
+The archive and portfolio distinctions remain current when they matter because the card preserves `sourceSetRef` and names the subject pattern for any current set, archive, or portfolio claim. Changed problem formulations, diagrams, functional descriptions, or transformation-flow path interpretations require the accepted representation or retargeting relations before a local cue or readiness disposition is reused. Current SoTA and first-principles cues matter only when they change fields, relation references, boundaries, or the problem formulation itself.
 

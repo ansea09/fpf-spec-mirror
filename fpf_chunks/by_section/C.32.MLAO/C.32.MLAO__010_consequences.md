@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__010_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:9 — Consequences"
-line_start: 66286
-line_end: 66295
+line_start: 66291
+line_end: 66300
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -55,9 +55,9 @@ keywords:
 
 | Positive consequence | Cost or trade-off |
 |---|---|
-| Residual-reducing architecture candidates are made explicit. | The practitioner must name the affected levels or scopes, selected structures, residuals, preserved structure, lost structure, new burdens, and the receiving pattern for any comparison or choice claim. Use `C.30.STRAT` or `B.2.P` first when level wording or whole-reidentification wording is not yet typed. |
+| Residual-reducing architecture candidates are made explicit. | The practitioner must name the affected levels or scopes, selected structures, residuals, preserved structure, lost structure, new burdens, and the pattern for the next question for any comparison or choice claim. Use `C.30.STRAT` or `B.2.P` first when level wording or whole-reidentification wording is not yet typed. |
 | Optimization language is usable without carrying architecture adequacy. | No scalar selector or architecture decision is available by wording alone. |
-| Holonic breadth is preserved. | Non-software cases must still recover their selected structures and receiving patterns. |
+| Holonic breadth is preserved. | Non-software cases must still recover their selected structures and patterns for the next questions. |
 | Residual triage and candidate framing stay distinct. | The team may need both `C.30.ILC` and C.32.MLAO. |
 | Compressed representations can guide action. | Source-return triggers must be visible. |
 

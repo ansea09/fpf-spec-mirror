@@ -6,12 +6,12 @@ section_id: "A.16:20"
 section_title: "Multi-Move Composition and Path Publication"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__021_multi-move-composition-and-path-publication.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:20 — Multi-Move Composition and Path Publication"
-line_start: 27329
-line_end: 27342
+line_start: 27331
+line_end: 27344
 dependencies:
   - "A.16"
   - "A.16.0"

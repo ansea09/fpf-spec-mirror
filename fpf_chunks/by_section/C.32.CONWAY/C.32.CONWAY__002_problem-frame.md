@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:1 — Problem frame"
-line_start: 65659
-line_end: 65838
+line_start: 65664
+line_end: 65843
 dependencies:
   - "A.10"
   - "A.12"
@@ -82,7 +82,7 @@ Ordinary working move:
 
 Adoption test: a reader can tell which exact case passes, which does not, what the practitioner changes next, and whether the result is only local synthesis material or a reusable exact pair row.
 
-Not this pattern when the current work is only bounded-change identification, role or Work attribution, module-interface repair, mathematical structural similarity, local choice, or an architecture decision. Use the direct governing pattern and return here only when one pair of an influence-source architecture and a transformed architecture changes candidate synthesis.
+Not this pattern when the current work is only bounded-change identification, role or Work attribution, module-interface repair, mathematical structural similarity, local choice, or an architecture decision. Use the subject pattern and return here only when one pair of an influence-source architecture and a transformed architecture changes candidate synthesis.
 
 Common exits by claim kind:
 
@@ -92,12 +92,12 @@ Common exits by claim kind:
 - `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
-- `G.5` for selected-set publication; `C.18` and `C.19` for archive, front, or pool-treatment policy.
+- `G.5` for selected-set result declaration; `E.17` for a source-backed publication face and source return; `E.24.PUB` for the publication occurrence and audience availability; `C.18` and `C.19` for archive, front, or pool-treatment policy.
 - `C.11` for fixed local choice and `C.32.PAD` for a project architecture decision.
 
 The first useful output is `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project`. It is a working record for candidate synthesis, not an acting entity, exact relation occurrence, architecture decision, or structural-equivalence claim.
 
-For a first pass, fill only the bounded context, synthesis question, independently identified changed referent, source-side and transformed-side exact holon and selected-structure refs, and either an obtaining C.30 `ArchitectureRelation` ref or a truthful modal `ArchitectureClaim` ref for each side, together with governed characteristic refs or plain provisional heads, applicable candidate-form heads, and the next governing pattern. Assert an influence row only when its direct relation is current and both architecture sides are obtaining C.30 occurrences; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
+For a first pass, fill only the bounded context, synthesis question, independently identified changed referent, source-side and transformed-side exact holon and selected-structure refs, and either an obtaining C.30 `ArchitectureRelation` ref or a truthful modal `ArchitectureClaim` ref for each side, together with governed characteristic refs or plain provisional heads, applicable candidate-form heads, and the next subject pattern. Assert an influence row only when its direct relation is current and both architecture sides are obtaining C.30 occurrences; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
 
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
@@ -112,7 +112,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       selectedStructureRef: BatchLineSharedEvidenceStructure@Current
       contributionToCandidatePressure: may prevent independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
-      governingPatternRef: C.30 plus A.22
+      relationFunctionClaimRef: C.30 plus A.22
       sourceReturnCondition: missing-governor — recover the direct architecture-influence kind and predicate
   transformedHolonRef: ProductFamily@Current
   transformedArchitectureRelationRef: C.30 ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)
@@ -122,7 +122,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       selectedStructureRef: FieldModuleBoundaryStructure@Current
       requiredArchitectureRole: permit independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
-      governingPatternRef: C.30 plus A.22
+      relationFunctionClaimRef: C.30 plus A.22
   correspondenceClaims[]:
     - correspondenceId: BatchEvidence-to-FieldModulePressure
       influenceSourceArchitectureRelationRef: C.30 ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)
@@ -132,7 +132,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       correspondenceUse: prepare candidates; no exact pair row asserted
       pressureDirection: batch and evidence arrangements may constrain module independence
       provisionalArchitectureCharacteristicHeads[]: independent change for field modules
-      receivingPatternRef: C.32.ACS
+      receivingUsePatternLocator: C.32.ACS
       sourceReturnCondition: missing-governor — recover the direct influence kind and predicate
   candidateArchitectureConfigurations[]:
     - candidateRef: SourceSideChange@CellAndEvidenceRoles
@@ -140,7 +140,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     - candidateRef: JointChange@CellEvidenceAndModuleBoundary
     - candidateRef: BoundedMismatch@ExplicitExceptionCost
   evolutionWindowRef: ProductFamilyModuleChange@2026Q3
-  nextGoverningPatternRef: C.32.ACS
+  nextQuestionPatternLocator: C.32.ACS
 ```
 
 This sparse frame asserts no influence occurrence and no exact pair row. The four candidate refs are first-pass heads, not comparison-ready configurations. Add acting-system, role-assignment, dated-Work, exact-pair-row, C.29, network, publication, comparison-ready gain/loss/preservation, and any additional source-return fields only when the corresponding claim becomes current; adding them refines this frame without changing its changed referent, architecture pair, or provisional pressure. The complete extension schema is:
@@ -163,7 +163,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     influenceSourceRef:
     influenceSourceKindRef:
     exactInfluenceRelationRef: U.RelationRef
-    influenceGoverningPatternRef:
+    influencePatternLocator:
   influenceSourceSelectedStructureMap[]?:
     influenceSourceHolonRef:
     influenceSourceArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
@@ -172,7 +172,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     selectedStructureRef:
     contributionToCandidatePressure:
     architectureCharacteristicPressure:
-    governingPatternRef:
+    relationFunctionClaimRef:
     sourceReturnCondition?:
   transformedHolonRef:
   transformedArchitectureRelationRef?: exact obtaining C.30 ArchitectureRelation ref
@@ -182,7 +182,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     selectedStructureRef?:
     requiredArchitectureRole:
     architectureCharacteristicPressure:
-    governingPatternRef:
+    relationFunctionClaimRef:
     sourceReturnCondition?:
   evolutionWindowRef:
   architecturePairRowRefs[]?: ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context refs
@@ -202,7 +202,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     knownArchitectureLoss?:
     preservedStructure?:
     lostOrHiddenStructure?:
-    receivingPatternRef:
+    receivingUsePatternLocator:
     sourceReturnCondition:
   candidateArchitectureConfigurations[]:
     candidateRef:
@@ -212,11 +212,11 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     expectedArchitectureGain?:
     knownArchitectureLoss?:
     evolutionWindowRef?:
-    receivingPatternRef?:
+    receivingUsePatternLocator?:
     sourceReturnCondition?:
     stopOrEscalationCondition?:
   c29LensOrStructuralEquivalenceRef?:
-  nextGoverningPatternRef:
+  nextQuestionPatternLocator:
 ```
 
 Project-local use keeps two separate fields. `@Project` remains a compatibility and retrieval cue only. If the frame is used in one actual project, `projectWorkOccurrenceRef` names the exact composite `U.Work` and `architectureCorrespondenceFrameProjectUseRelationRef` names the direct relation by which that Work uses the frame. The frame, synthesis Work, candidates, architecture relations, claims, selected structures, and project Work remain distinct. An `ArchitectureRelation` ref is affirmative only for an independently obtaining C.30 occurrence; candidate, required, desired, or expected architecture content stays in an `ArchitectureClaim` and cannot enter an exact pair row as though it already obtained.

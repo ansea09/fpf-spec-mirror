@@ -6,12 +6,12 @@ section_id: "C.31:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__004_forces.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:3 — Forces"
-line_start: 63243
-line_end: 63253
+line_start: 63248
+line_end: 63258
 dependencies:
   - "A.10"
   - "A.17"
@@ -48,9 +48,9 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Fast architecture repair vs measurement admissibility | Practitioners often need the next modularity move before a full measurement template exists. |
-| Characteristic plurality vs scalar pressure | Different modularity interpretations have different subjects, scales, evidence, declared measurement or comparison basis, governing-pattern needs, and risks; one score hides that plurality. |
+| Characteristic plurality vs scalar pressure | Different modularity interpretations have different subjects, scales, evidence, declared measurement or comparison basis, subject-pattern needs, and risks; one score hides that plurality. |
 | Useful proxy vs proxy substitution | A cheap share, count, or graph interpretation can guide local repair, but it may become a false quality, evidence, or decision claim. |
 | Module-interface view vs broader structure | Modularity can involve functions, flows, control, work, evidence, data, placement, or scale, not only modules. |
-| Local repair vs cross-case publication | A local diagnosis can stop at report-only use; cross-case comparison needs C.16, C.25, G.2, and possibly G.5 or C.11 claim-governance assignment. |
+| Local repair vs cross-case use | A local diagnosis can stop at report-only use; cross-case comparison needs an exact subject assertion and predicate under C.16, C.25, and G.2. Use G.5 only when selected-set result declaration is current and C.11 for local choice. For publication, use E.17 for a source-backed face and source return and E.24.PUB for the publication occurrence and audience availability. Each source pattern remains only a locator. |
 | Complexity pressure vs complexity ontology | Residual pressure and growth signals are useful, but complexity is not one commensurable architecture characteristic. |
 

@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 87562
-line_end: 87576
+line_start: 87611
+line_end: 87625
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -29,7 +29,7 @@ keywords:
 ---
 
 ### E.23:1 - Problem frame
-When the entry phrase is "loop engineering", "agent loop", "harness loop", or "improve this with an agent", treat the phrase as a recognition cue, not as an FPF kind. First recover the object version under improvement and the evaluation that can be rerun. If those cannot be named, this is not yet an `E.23` use; name the live claim and send it to its direct governing pattern. Common exits are work, transformation-flow structure, evolutionary retention and publication, source use, refresh, gate-decision publication, and DPF framework authoring.
+When the entry phrase is "loop engineering", "agent loop", "harness loop", or "improve this with an agent", treat the phrase as a recognition cue, not as an FPF kind. First recover the object version under improvement and the evaluation that can be rerun. If those cannot be named, this is not yet an `E.23` use; name the live claim and use its subject pattern for it. Common exits are work, transformation-flow structure, evolutionary retention and publication, source use, refresh, gate-decision publication, and DPF framework authoring.
 
 Use `E.23` when an object version will be improved through repeated passes under a declared object-under-improvement evaluation. The object can be a pattern, `DRR`, FPF corpus object, engineering quality object, naming candidate, OEE and NQD candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, if an exact evaluation supplies values and stop meanings for that object kind.
 
@@ -37,7 +37,7 @@ Not this pattern when one direct quality evaluation is enough. Use `E.22` to fra
 
 First useful move: name the object version under improvement, the exact evaluation that will re-evaluate it, the improvement aim, protected trade-offs, cost and risk account, and local stop condition. Here *move* is Plain instruction wording: it names no `Move` kind, method, plan, performed Work, or actual Transformation.
 
-What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop forever after a local all-`5` result, or let a review recommendation become decision, work, evidence, selected-set publication, parity, or refresh by stealth.
+What goes wrong if missed: teams close discharge rows instead of improving quality, retry blindly, optimize visible values while damaging protected qualities, stop forever after a local all-`5` result, or let a review recommendation become decision, work, evidence, selected-set result declaration, actual publication, parity, or refresh by stealth.
 
 What this buys in practice: each pass has a declared object version, an intended evaluation-result change, a rerunnable evaluation, protected trade-offs, and a stop or switch condition. Effort can then change substantive quality and stop when no non-dominated change is worth its cost, instead of merely producing more review state.
 

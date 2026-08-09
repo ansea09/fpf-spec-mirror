@@ -6,12 +6,12 @@ section_id: "C.32.ACS:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:1 — Problem frame"
-line_start: 65150
-line_end: 65237
+line_start: 65155
+line_end: 65242
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ Typical entry phrases:
 
 **First-minute use slice.** A product-family architect has HCS starter heads and source catalogue names for maintainability, substitutability, evidence reuse, safety, availability, latency, and scale amenability. Using C.32.ACS, the practitioner builds project rows and gives each row its bearer, exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, qualification or evaluation window, scale form, proxy risk, protected losses, and source-return condition. Maintainability, substitutability, and evidence reuse become optimization indicators; safety and availability remain monitored guardrails. The source phrase "scale amenability" remains only a starter cue until ACS admits a concrete characteristic row, such as exception growth or interface-grammar variation, with its bearer and scale form; a claim that one alternative is preferable under a declared scale window remains a separate `C.31.ASAP` object. C.32 can now synthesize candidates against declared criteria instead of a loose list of quality words.
 
-The primary governed object is one project architecture-characteristic criteria-set record for improvement cycles. It prepares rows for C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later receiving patterns. The set and its rows are C.32.ACS-local record forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 publications, local choices, and architecture decisions remain separate objects.
+This pattern concerns one project architecture-characteristic criteria-set record for improvement cycles. Its rows can supply C.32 synthesis, C.32.MLAO residual work, C.32.ACE eval programs, and later patterns for the next questions. The set and its rows are C.32.ACS-local record forms, not new `U.*` kinds; starter packs, `U.Characteristic` values, Q-Bundles, measurement methods and results, eval programs and results, candidate palettes, comparison rules, selection results, G.5 result declarations, actual publications, local choices, and architecture decisions remain separate objects.
 
 Ordinary working move: make one row per project architecture characteristic, bind its bearer and scale, mark whether it drives optimization, guards against loss, or only gives context, and record what eval reading can reopen synthesis.
 
@@ -120,18 +120,18 @@ What C.32.ACS buys in practice: the practitioner can reduce broad catalogue and 
 
 Adoption test: after using C.32.ACS, the project can name the few rows that drive optimization, the guardrail rows that protect against loss, and the bearer, scale, proxy risk, receiving use, and reopen condition for each live row.
 
-Not this pattern when the current work is choosing the holon-family starter pack, modeling a Q-Bundle, validating a measurement method, designing an eval program, synthesizing candidates, comparing or selecting candidates, choosing locally, publishing a selected set, or deciding the project architecture.
+Not this pattern when the current work is choosing the holon-family starter pack, modeling a Q-Bundle, validating a measurement method, designing an eval program, synthesizing candidates, comparing or selecting candidates, choosing locally, declaring a selected-set result, publishing it to an audience, or deciding the project architecture.
 
 Common exits by claim kind:
 
 - `C.32.HCS` for holon-family starter packs.
 - `C.25` for Q-Bundles and composite quality families.
 - `C.16` for measurement templates, readings, units, thresholds, or comparability claims.
-- `C.32.ACE` for eval-program framing and typed-result dispatch over declared rows; the selected direct owner governs each actual result.
+- `C.32.ACE` for eval-program framing and typed-result classification over declared rows; each actual result is a separate subject assertion under its exact predicate or constraint.
 - `E.13` when an indicator, score, or dashboard starts replacing the declared architecture concern.
 - `E.22` and `E.23` for improvement-question framing and repeated improvement method.
 - `C.32` for candidate synthesis and `C.32.MLAO` for residual-reducing candidates.
-- `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for publication of a selected set.
+- `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `C.11` for local choice, and `G.5` for selected-set result declaration. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 - `A.10` and `B.3` when evidence or assurance claims are being made.
 - `C.32.PAD` for project decision.
 

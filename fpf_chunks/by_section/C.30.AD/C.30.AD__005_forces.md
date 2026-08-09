@@ -6,12 +6,12 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 60294
-line_end: 60305
+line_start: 60299
+line_end: 60310
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,7 +82,7 @@ keywords:
 | Multi-view richness vs exact episteme identity | Several descriptions can be needed, but each keeps its exact claim graph, one EntityOfConcern, and effective `U.ReferenceScheme`; a description set does not blur those identities. |
 | Viewpoint utility vs automatic view membership | A viewpoint helps a role or practice inspect an architecture, but only the independently obtaining E.17.0 conformance relation makes the same episteme a `U.View`; a viewpoint label or bundle does not. |
 | Viewpoint utility vs viewpoint-as-kind collapse | Viewpoints do not choose the selected structure kind; `C.30.ASV` or another governing structural-view pattern keeps viewpoint conformance and structure-kind recovery separate. |
-| Reuse vs freshness | A reused architecture description names its source-to-use path and applicable source or structure edition. A source-return condition is added only when stronger use must return to a named source or governing pattern. |
+| Reuse vs freshness | A reused architecture description names its source-to-use path and applicable source or structure edition. A source-return condition is added only when stronger use must return to a named source or the exact defining or constraining ClaimGraph. |
 | Specification-use vs representation and publication | A description can be used as a specification, but specification use is a bounded use of an episteme or publication; it is not the diagram, publication occurrence, publication form, carrier, architecture, or project Work. |
-| Thin C.30 bridge vs full description mechanism | C.30 keeps the obtaining architecture relation and selected structure central; this pattern carries the heavier description mechanism when durable description use is being made. |
+| Thin C.30 bridge vs full description mechanism | C.30 keeps the obtaining architecture relation and selected structure central; the rule content located here defines the heavier description mechanism when durable description use is being asserted. |
 

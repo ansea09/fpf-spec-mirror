@@ -6,12 +6,12 @@ section_id: "B.5.2:4"
 section_title: "Solution - Structured abductive micro-cycle"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__005_solution-structured-abductive-micro-cycle.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:4 — Solution - Structured abductive micro-cycle"
-line_start: 40270
-line_end: 40326
+line_start: 40272
+line_end: 40328
 dependencies:
   - "A.10"
   - "A.16"
@@ -83,7 +83,7 @@ AbductiveUnfoldingStructureBlock:
   blockedOverread: not inspiration event, not linear ideation workflow, not evidence by itself
 ```
 
-Use `unfoldingStructureRef` for the current local structure record; use A.22.CGUS `specializedStructureRef?` only when the generic CGUS record must point to this narrower specialization. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible downstream governing-pattern alternatives. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. If the live claim becomes candidate retention, pool policy, selected-set publication, or comparison, exit to `C.18`, `C.19`, `G.5`, or the comparison governing pattern instead of making abduction a selector.
+Use `unfoldingStructureRef` for the current local structure record; use A.22.CGUS `specializedStructureRef?` only when the generic CGUS record must point to this narrower specialization. Use `cueSetWithDownstreamPatternAlternativesRef` when the prompt still carries several possible patterns for the next question. Use `rivalHypothesisSetRef` before selecting a prime hypothesis. Use `evidenceReturnLoci[]` to say where later evidence, deduction, probe design, or assurance work can return; do not use those loci as evidence. If the live claim becomes candidate retention, pool policy, selected-set result declaration, or comparison, apply `C.18`, `C.19`, `G.5`, or the pattern that defines the required comparison instead of making abduction a selector.
 
-`AbductiveSearchUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization governed here for abductive-search use. It is not a root U-kind, not an ideation workflow, not evidence, and not a selection decision. `B.5.2` governs the abductive prompt, cue set with downstream governing-pattern alternatives, rival hypotheses, plausibility constraints, and evidence-return loci; evidence, deduction, probe design, assurance, selected-set publication, pool policy, and comparison claims leave to their direct governing patterns.
+`AbductiveSearchUnfoldingStructure` is a local `A.22.CGUS` `U.Structure` specialization used for abductive search. It is not a root U-kind, ideation workflow, evidence, or selection decision. Use `B.5.2` to state the abductive prompt, cue set with alternative next patterns, rival hypotheses, plausibility constraints, and evidence-return loci. Use the patterns that define or test evidence, deduction, probe design, assurance, selected-set result declaration, pool policy, and comparison when those claims become current.
 

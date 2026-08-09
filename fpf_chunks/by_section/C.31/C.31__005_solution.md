@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 63254
-line_end: 63450
+line_start: 63259
+line_end: 63455
 dependencies:
   - "A.10"
   - "A.17"
@@ -45,7 +45,7 @@ keywords:
 
 ### C.31:4 - Solution
 
-C.31 governs modularity and reusable-structure characteristics as C.16-compatible characteristic heads, composite descriptions, lens-backed characteristic interpretations, temporal or scale-sensitive characteristic interpretations, causal-use-sensitive characteristic interpretations, or report-only proxies. It starts from action guidance and adds fields for beyond-local-repair use only when a use being made requires them.
+C.31 defines and constrains modularity and reusable-structure characteristic assertions as C.16-compatible characteristic heads, composite descriptions, lens-backed characteristic interpretations, temporal or scale-sensitive characteristic interpretations, causal-use-sensitive characteristic interpretations, or report-only proxies. It starts from action guidance and adds fields for beyond-local-repair use only when a use being made requires them.
 
 #### C.31:4.1 - Ordinary output: `ModularityVectorLite`
 
@@ -64,11 +64,11 @@ ModularityVectorLite:
       claimUseClass:
       forbiddenOverread:
   observedProblem:
-  relatedClaimGovernanceIfClaimed:
+  relatedClaimPatternLocatorsIfClaimed:
   stopCondition:
 ```
 
-The vector is complete enough when it states what can be done next and what cannot be inferred. If a characteristic is used beyond local repair, use the appropriate card and governing pattern; architecture scale-preference claims are governed by `C.31.ASAP`.
+The vector is complete enough when it states what can be done next and what cannot be inferred. `relatedClaimPatternLocatorsIfClaimed` is a non-semantic locator field: if a characteristic is used beyond local repair, the exact subject assertion and its defining or constraining ClaimGraph remain separately required. Architecture scale-preference claims use the predicate defined in `C.31.ASAP`.
 
 #### C.31:4.1a - Filled `ModularityVectorLite`
 
@@ -95,8 +95,8 @@ ModularityVectorLite:
       claimUseClass: local repair cue with possible evidence-package use
       forbiddenOverread: reused evidence is not assurance sufficiency.
   observedProblem: the team says the platform is modular because interfaces are public and evidence is reusable, but field replacement and certification still create variant-specific work.
-  relatedClaimGovernanceIfClaimed: A.6.M for the module-interface relation; C.31.RSA if report-only share becomes reusable-structure accounting; A.10 or B.3 only if evidence or assurance use is being made.
-  stopCondition: stop at local repair until measurement basis, comparability basis, and any selection or assurance use are declared by their governing patterns.
+  relatedClaimPatternLocatorsIfClaimed: A.6.M for the module-interface relation; C.31.RSA if report-only share becomes reusable-structure accounting; A.10 or B.3 only if an exact evidence-use or assurance-use assertion is being made.
+  stopCondition: stop at local repair until measurement basis, comparability basis, and any selection or assurance use are declared by their subject patterns.
 ```
 
 Near miss: a high interface-standardization count alone is not a C.31 improvement. If field-service work, source-return events, or variant-specific evidence increase, the vector records that proxy divergence and returns to repair rather than treating the count as architecture quality.
@@ -112,7 +112,7 @@ Every C.31 head is classified before use:
 | `LensBackedCharacteristic` | The head depends on a model description or mathematical lens, such as compression or RG or coarsening lens. | Apply C.29 for lens use that changes action. |
 | `TemporalOrScaleCharacteristic` | The head depends on time window, repeated instance, scale variable, aggregation scope, or source-return condition. | Apply `C.31.ASAP` for architecture scale preference, `C.27` for temporal adequacy, and `C.18.1` or `C.19.1` when scale-law or general BLP preference claims are being made. |
 | `CausalUseSensitiveCharacteristic` | The interpretation is used to claim effect or intervention success. | Apply C.28 before relying on the claim causally. |
-| `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | State forbidden overread and the governing pattern needed for any beyond-local-repair use. |
+| `ReportOnlyProxy` | The interpretation is only a local diagnostic or communication aid. | State forbidden overread and the subject pattern needed for any beyond-local-repair use. |
 
 In C.31, `declared basis` and `comparability basis` name C.16-compatible measurement or comparison fields. They are not generic reason words and are not substitutes for evidence, assurance, cause, source, decision, or architecture-description relations.
 
@@ -136,7 +136,7 @@ MeasurementHeadMapping:
   commonFalseUse:
   nonAdmissibleUse:
   repairAction:
-  governingPatternRef:
+  relationFunctionClaimRef:
 ```
 
 This mapping is not a measurement template by itself. It prepares a C.16-compatible characteristic card or a report-only boundary. When the head is decision-facing or publication-facing, the mapping names required evidence plus at least one evidence relation, evidence-provenance relation, or source relation. If no evidence claim is being made, `evidenceClaimAbsentBecause` states why the head remains local, report-only, or repair-only.
@@ -163,7 +163,7 @@ ModularityCharacteristicCard:
   auditQuestion:
   nonAdmissibleUse:
   repairAction:
-  relatedClaimGovernanceRefs:
+  relatedClaimPatternLocators:
 ```
 
 Each card states its own C.16 well-formedness fields: characteristic, scale, unit or unitless interpretation, declared measurement basis, comparability basis, evidence relation, evidence-provenance relation, source relation, or evidence-claim-absent reason, non-admissible use, and repair action. When source material is used as evidence, the source relation is named. A source checklist, source-discharge slice, dashboard label, or inherited score is not enough.
@@ -199,7 +199,7 @@ These heads are seeds, not an exhaustive taxonomy. Use only the heads that chang
 
 C.31 uses residual heads only as qualitative repair cues. These heads do not create one complexity characteristic.
 
-| Head | Meaning | Related claim governance | Risk | Repair direction |
+| Head | Meaning | Related claim pattern locator and assertion requirement | Risk | Repair direction |
 | --- | --- | --- | --- | --- |
 | ComplexityGrowthPressure | Pressure to add, split, mediate, or stabilize a declared aggregation scope, interface grammar, control relation, evidence scope, work-method scope, abstraction scope, or source-return condition. | C.30.ILC, C.31.ASAP when an architecture scale-preference claim is being made, G.5, C.11 | treating more apparatus as progress | name the pressure and the repair direction; use set-return or decision patterns when the corresponding claim is being made |
 | `FrustrationResidual` | Persistent cross-scope residual after local repair. | `C.30.ILC`, C.29-local cross-scope lens claim | turning a lens-backed interpretation into proof | keep as residual cue or apply C.29 or C.30.ILC |
@@ -208,7 +208,7 @@ C.31 uses residual heads only as qualitative repair cues. These heads do not cre
 | `BespokeResidueGrowth` | One-off exceptions grow with deployment spread, regulation, or project repetition. | `C.31.RSA`, `C.31.ASAP` when an architecture scale-preference claim is being made | assuming all bespoke work is bad | split useful exception from repairable residue |
 | `InterfaceAlphabetGrowth` | Interface variants grow faster than reuse, substitutability, or integration payoff. | `A.6.M`, `C.31` | premature standardization | add platform grammar, split context, or accept bounded variation |
 | `SourceReturnCost` | Frequency or cost of returning from a compressed, indexed, coarse, extracted, or accounting view to source-side structure records. | `C.29`, source-return discipline, `A.10` | over-compression | add source-return condition or reduce compression |
-| `ControlNestingDepthRisk` | Nested control relations create latency, accountability, observability, stability, or assurance cost. | `C.30.LCA`, `C.27`, `B.3`, `A.3.3` | LCA-as-proof | apply control, temporal, assurance, or dynamics governing patterns when the corresponding claim is being made |
+| `ControlNestingDepthRisk` | Nested control relations create latency, accountability, observability, stability, or assurance cost. | `C.30.LCA`, `C.27`, `B.3`, `A.3.3` | LCA-as-proof | apply control, temporal, assurance, or dynamics subject patterns when the corresponding claim is being made |
 
 #### C.31:4.7 - Proxy-risk discipline
 
@@ -238,5 +238,5 @@ Lower or reopen a `ModularityVectorLite`, `ModularityCharacteristicCard`, or rep
 - a report-only proxy is used for comparison, selection, publication, assurance, benchmark, causal-use, cross-case reuse, decision, procurement, or architecture scale-preference;
 - `C.31.RSA`, `C.31.ASAP`, `C.16`, `C.25`, `C.29`, `C.30.STRAT`, `A.6.M`, `C.30`, `C.30.ASV`, `A.10`, `B.3`, `A.20`, `A.21`, `G.5`, or `C.11` changes the boundary for the neighboring claim being made.
 
-Admissible repair results are: keep the result report-only, split or rename the characteristic head, update basis or evidence fields, revise the repair direction, change `relatedClaimGovernanceIfClaimed`, lower a score to a local proxy, or stop C.31 use for the beyond-local-repair claim and use the governing pattern.
+Admissible repair results are: keep the result report-only, split or rename the characteristic head, update basis or evidence fields, revise the repair direction, change `relatedClaimPatternLocatorsIfClaimed`, lower a score to a local proxy, or stop C.31 use for the beyond-local-repair claim and constitute the exact subject assertion under its predicate.
 

@@ -6,12 +6,12 @@ section_id: "C.30.ILC:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__013_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:12 — Relations"
-line_start: 62765
-line_end: 62776
+line_start: 62770
+line_end: 62781
 dependencies:
   - "A.10"
   - "A.22"
@@ -50,10 +50,10 @@ keywords:
 * Builds on `C.30` and `C.30.ASV` for grounded architecture, selected-structure, and structural-view adequacy.
 * Uses `A.22` for structure and structural-view discipline.
 * Coordinates with `C.30.TFS-REL`, `C.30.LCA`, `A.6.F`, and `A.6.M` when the residual concerns flow, control, function, allocation, module, or interface structure.
-* Applies `C.16` or the characteristic pattern that governs the characteristic under evaluation for measurement or characteristic claims.
+* Applies `C.16` or the characteristic pattern that defines or constrains the characteristic under evaluation for measurement or characteristic claims.
 * Applies `C.29` with `MLU.Description@MultilevelLearningFrustration` only when multilevel learning or frustration is used as a mathematical lens with recoverable level mapping or scale mapping and preserved structure and lost structure; applies `C.31.ASAP` for architecture scale-preference claims and `C.29` for mathematical-lens claims when scale, RG, coarse-graining, preserved structure, lost structure, or scale-window adequacy is being claimed.
-* Applies `C.32.P2S` when residual triage must continue through problem-to-structure architecturing; applies `C.32.MLAO` for residual-reducing multilevel candidate frames and `C.32` for candidate palettes; applies `G.5` only when selected-set publication is current.
+* Applies `C.32.P2S` when residual triage must continue through problem-to-structure architecturing; applies `C.32.MLAO` for residual-reducing multilevel candidate frames and `C.32` for candidate palettes; applies `G.5` only when selected-set result declaration is current.
 * Applies `C.11` for final local choice, `C.28` for causal outcome claims, `A.10`, `B.3`, or `G.6` for evidence or assurance, `D.3` for interlevel ethical conflict structure, and `D.4` for mediation and decision use of that structure.
 
-Neighboring claims stay with their governing patterns: `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for structural-view adequacy, `A.22` for structure and structural-view discipline, `C.30.TFS-REL` for architecture-to-transformation-flow relation, `C.30.LCA` for control-structure view relation, `A.6.F` for function-use repair, `A.6.M` for module-interface repair, `C.16` or the local characteristic pattern for the characteristic under evaluation, `C.29` for mathematical-lens use, `C.31.ASAP` for architecture scale-preference, `C.32.P2S` for problem-to-structure carry-through after residual triage, `C.32.MLAO` and `C.32` for residual-reducing candidate work and candidate palettes, `G.5` for selected-set publication, `C.11` for final local choice, `C.28` for causal use, `A.10`, `B.3`, or `G.6` for evidence or assurance, `D.3` for interlevel ethical conflict structure, and `D.4` for mediation and decision use of that structure. `C.30.ILC` governs only cross-scope architecture residual triage.
+For neighboring claims, use `C.30` for grounded architecture and selected-structure adequacy, `C.30.ASV` for structural-view adequacy, `A.22` for structure and structural-view discipline, `C.30.TFS-REL` for an architecture-to-transformation-flow relation, `C.30.LCA` for a control-structure view relation, `A.6.F` for function use, `A.6.M` for a module-interface relation, `C.16` or the applicable characteristic pattern for evaluation, `C.29` for mathematical-lens use, `C.31.ASAP` for architecture scale preference, `C.32.P2S` for problem-to-structure carry-through after residual triage, `C.32.MLAO` and `C.32` for residual-reducing candidate work and candidate palettes, `G.5` for selected-set result declaration, `C.11` for final local choice, `C.28` for causal use, `A.10`, `B.3`, or `G.6` for evidence or assurance, `D.3` for interlevel ethical conflict structure, and `D.4` for mediation and decision use of that structure. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. Use `C.30.ILC` only to triage a cross-scope architecture residual.
 

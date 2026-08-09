@@ -6,12 +6,12 @@ section_id: "C.22.2:6"
 section_title: "Characterization, Indicators, and Comparability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__007_characterization-indicators-and-comparability.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:6 — Characterization, Indicators, and Comparability"
-line_start: 52062
-line_end: 52079
+line_start: 52067
+line_end: 52084
 dependencies:
   - "A.10"
   - "A.15"
@@ -68,7 +68,7 @@ The heavy content stays with existing FPF patterns:
 - `G.9` carries parity, comparison-window, comparator, budget, unit, repeatability, and reproducibility pins;
 - `G.0` carries comparison-frame and CG-Spec governance;
 - `G.4` carries acceptance clauses and threshold predicates;
-- `G.5` governs selected-set publication when the problem enters a selected set.
+- use `G.5` for selector-facing selected-set result declaration when the problem enters a selected set; when actual audience availability is separately current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 
 Missing characterization or parity relation is a current disposition. The record applies the characterization, parity, search, or pool pattern when that relation is current instead of pretending the problem is ready for P2W.
 

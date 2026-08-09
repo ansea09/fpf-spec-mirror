@@ -6,12 +6,12 @@ section_id: "E.11.PUA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:7 — Conformance Checklist"
-line_start: 77760
-line_end: 77772
+line_start: 77809
+line_end: 77821
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -40,7 +40,7 @@ keywords:
 | `PUA-3` | Useful result before apparatus | Ordinary use distinguishes the result, honest interim entity, or blocker from nearby values and reaches a stop or return. Relative-object, exact predicate, pattern locator, basis, and flow position appear only when ambiguity or named reliance needs them. |
 | `PUA-4` | Reliance profile | Ordinary use remains conversational; every materialized support record names the later reliance that needs it. |
 | `PUA-5` | Honest closure | The use distinguishes a newly current result, a pre-existing entity with new grounding, and an interim entity while the expected result remains absent. A materialized closure cites the exact result assertion, direct pattern content, relative object when relevant, and category-correct basis. A.15.PROD appears only for a Work-attributed entity-inception claim. |
-| `PUA-6` | Work integrity | `U.Work` names an A.15.1-grounded occurrence and is never inferred from planning, setup, authorization, or another Work. |
+| `PUA-6` | Work integrity | `U.Work` names an A.15.1-grounded occurrence and is never inferred from planning, setup, authorization, or another Work. A claim that the Work's actual changes first constituted another entity cites A.15.PROD and the work-to-change basis. |
 | `PUA-7` | Later use | The immediate continuation is understandable when current. A materialized realized-use finding cites the exact later object and basis; an intended-use finding asserts no obtaining relation. A genuine stop has no receiver or disposition finding. |
 | `PUA-8` | Return | A changed concern, basis, result, pattern, or use opens a named return instead of silent reinterpretation. |
 

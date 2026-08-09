@@ -6,12 +6,12 @@ section_id: "C.22.2:10"
 section_title: "Structure Cue That Improves Formulation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__011_structure-cue-that-improves-formulation.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:10 — Structure Cue That Improves Formulation"
-line_start: 52144
-line_end: 52165
+line_start: 52149
+line_end: 52170
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,9 +72,9 @@ Distribution by principles:
 
 | Source-side cue | Current FPF pattern or relation | `C.22.2` use |
 |---|---|---|
-| Zero-principles and first-principles invariants, constraints, symmetry, composition, multi-scale description, variational structure, probability or information, and resource limits | `C.29`, with `A.19`, `C.16`, `C.25`, and `G.9` when characteristics, measurement characterization, quality bundles, or parity are current | Carry a first-principles or mathematical structure cue and apply the governing pattern for the claim being made, relation, or boundary. |
+| Zero-principles and first-principles invariants, constraints, symmetry, composition, multi-scale description, variational structure, probability or information, and resource limits | `C.29`, with `A.19`, `C.16`, `C.25`, and `G.9` when characteristics, measurement characterization, quality bundles, or parity are current | Carry a first-principles or mathematical structure cue and apply the subject pattern for the claim being made, relation, or boundary. |
 | Second-principles method-family implications | `G.5`, `A.15`, `E.18`, `A.19` as applicable | Name the method-family cue; do not perform method selection in the problem card. |
-| Third-principles reproducibility, checks, templates, records, logs, rollback, evidence | `A.10`, `G.6`, `B.3`, `A.21`, `G.11`, `E.16` as applicable | Name the reproducibility or evidence cue and apply the governing pattern for the claim kind named by value before relying on that claim. |
+| Third-principles reproducibility, checks, templates, records, logs, rollback, evidence | `A.10`, `G.6`, `B.3`, `A.21`, `G.11`, `E.16` as applicable | Name the reproducibility or evidence cue and apply the subject pattern for the claim kind named by value before relying on that claim. |
 
 When no useful mathematical structure survives, record that absence and proceed without forcing mathematical prose into the problem card.
 

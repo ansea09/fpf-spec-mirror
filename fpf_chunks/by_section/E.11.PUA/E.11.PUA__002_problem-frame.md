@@ -6,12 +6,12 @@ section_id: "E.11.PUA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:1 — Problem frame"
-line_start: 77282
-line_end: 77297
+line_start: 77329
+line_end: 77344
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -35,7 +35,7 @@ keywords:
 
 #### E.11.PUA:1.1 - Use this when
 
-Use this pattern when a person or assisting agent has a current entity or relation of concern, a practical question, and one plausible FPF pattern, and needs to follow that pattern's `Solution` to obtain the smallest independently governed result usable now or to stop because the required basis is absent.
+Use this pattern when a person or assisting agent has a current entity or relation of concern, a practical question, and one plausible FPF pattern, and needs to follow that pattern's `Solution` to reach the smallest useful result that truthfully answers the question, or to stop because the required basis is absent.
 
 The ordinary working moment is simple: “This pattern looks relevant. What do I do with it, what useful result should I expect, and when should I stop or return?” Answer that conversationally before considering any durable pattern-use record.
 

@@ -6,12 +6,12 @@ section_id: "C.11:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__005_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:4 — Solution"
-line_start: 46235
-line_end: 46689
+line_start: 46237
+line_end: 46691
 dependencies:
   - "A.13"
   - "A.18"
@@ -219,14 +219,14 @@ The comparison may close as `choose now` only when all of the following are true
 - the current `OptionSet` is stable enough that the decision record is no longer still inventing options;
 - the current comparison basis is explicit enough to state why one option survives or why one tie-set remains;
 - no still-feasible next probe is expected to change the survivor relation with enough expected value to justify its cost;
-- the record is still governing local choice rather than pool policy, publication, or enactment.
+- the record still concerns local choice rather than pool policy, selector-result declaration, publication availability, or enactment.
 
 The comparison may close as `reject current set` only when all of the following are true together:
 
 - the current `OptionSet` is explicit and stable enough to reject as the present choice set;
 - the current comparison basis is explicit enough to show why no member survives under the present basis;
 - no still-feasible next probe is expected to rescue one member with enough expected value to justify its cost;
-- the result is still one local choice conclusion rather than one disguised pool-policy, publication, or enactment result.
+- the result is still one local choice conclusion rather than one disguised pool-policy, selector-result declaration, publication-availability, or enactment result.
 
 The comparison should close as `probe again` only when all of the following are true together:
 
@@ -240,7 +240,7 @@ The comparison should close as `reroute` when the record has already learned tha
 - to `C.18` when the option set itself is still under invention or reframing;
 - to `C.19` when the question is now how broadly to keep exploring or exploiting one candidate pool;
 - to `C.24` when one choice result already exists and the next task is now sequencing, enactment, or execution-path probe work;
-- to `G.5` when the next task is now selected-set surfacing or publication.
+- to `G.5` when the next task is declaring or naming selector-facing selected-set content; when that result already exists, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and audience availability.
 
 If none of those closure conditions can yet be satisfied, the record is still unfinished. It is not rescued by richer terminology alone.
 
@@ -286,13 +286,13 @@ Use branch language only when it changes the actual comparison being performed.
 - Start from one declared source family or one declared source-family composition such as `Front`, `Archive`, or `Front+Archive`.
 - Apply one declared decision lens over that source family rather than inventing one hidden universal winner rule.
 - `CostToProbe`, `ValueOfInformation`, and `ValueOfComputation` belong to that lens-side choice doctrine.
-- They may justify another probe, one changed local comparison outcome, or one stop decision, but they do not rename the current `DominanceSet` and do not publish one shortlist-family result.
+- They may justify another probe, one changed local comparison outcome, or one stop decision, but they do not rename the current `DominanceSet` and do not declare one shortlist-family result.
 - If one candidate remains worth probing because its expected information value still exceeds its expected cost, say that explicitly as one lens-side choice judgement.
 - If one archive point remains worth probing because it may change the frontier later, keep that as one resource-aware choice claim, not as evidence that the point is already on the current front.
 - The kernel floor here is:
   - `A.19.SelectorMechanism` remains the cited set-return floor
   - `SelectionSlot` remains the selector output floor
-  - if later selector-facing publication is required, that set-returning floor may support one `Shortlist` or one `RankedShortlist` in `G.5` rather than one forced single winner
+  - if later selector-facing set-result declaration is required, that set-returning floor may support one `Shortlist` or one `RankedShortlist` in `G.5` rather than one forced single winner
 
 ##### C.11:4.3.1 - Classical evidential baseline
 
@@ -304,7 +304,7 @@ Typical practical cash-outs are:
 
 - `choose now` because the current shared `BeliefState` and `OutcomeModel` already make one option or tie-set survive, and no still-feasible probe is worth its cost;
 - `probe again` because one further observation, measurement, or comparison pass could still change the ranking without requiring a heavier causal, subjunctive, or context-order repair;
-- `reroute` because the governing decision question is no longer really comparing one fixed `OptionSet`, but has become search, pool policy, publication, or enactment work.
+- `reroute` because the current decision question is no longer really comparing one fixed `OptionSet`, but has become search, pool policy, selector-result declaration, publication-availability, or enactment work.
 
 The baseline is still unfinished when the current comparison invokes it but cannot keep one shared `BeliefState` and `OutcomeModel` across the compared options, or when one heavier defect is already live and the current comparison still pretends one plain evidential comparison is enough.
 
@@ -366,7 +366,7 @@ Typical practical cash-outs are:
 
 - `choose now` under one declared order or framing because rival orders no longer change which option survives;
 - `probe again` because one framing-sensitive comparison pass, one further question order, one response-replicability check, or one explicit measurement-class clarification could still reverse the survivor relation;
-- `reroute` when the governing decision question is no longer deciding among live options but has become one publication or enactment problem that only borrowed order-effect language rhetorically.
+- `reroute` when the current decision question is no longer deciding among live options but has become one selector-result declaration, publication-availability, or enactment problem that only borrowed order-effect language rhetorically.
 
 Do not promote this line to the unmarked default unless those repaired limitations are live in the case.
 
@@ -384,13 +384,13 @@ Reroute immediately when the question changes:
 - If the hard question is still what options should exist at all, or whether the current option set needs to be expanded or reframed, leave this pattern and work in `C.18` first.
 - If the options already exist but the question is how broadly to keep exploring or exploiting the candidate pool, leave this pattern and work in `C.19`, where the next useful output is one explicit pool-policy result rather than one local `ChoiceResult`.
 - If one option is already chosen and the question is how to sequence, budget, or enact that choice, leave this pattern and work in `C.24`, where the next useful output is one enactment-facing call plan or `CheckpointReturn`.
-- If the question has shifted from deciding to surfacing, publishing, or naming the selected set, leave this pattern and work in `G.5`, where the next useful output is one published shortlist, ranked shortlist, narrowed handoff plan, or explicit abstain outcome rather than one more local choice result.
+- If the question has shifted from deciding to declaring or naming selector-facing selected-set content, leave this pattern and work in `G.5`. Its next useful output may be a `Shortlist` or `RankedShortlist` when alternatives remain for later choice, a `JointUseSet` when every named member is included for one bounded use, a narrowed handoff, abstain, or escalation. None is one more local `ChoiceResult`. If that result already exists and the current question is presentation or availability to an audience, use `E.17` for the source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
 `ProbeBudget` stays here while it means the epistemic or deliberative budget for one more probe before choice and while that probe can still change which option survives or whether the current set should be rejected. When the same word now means execution budget, call budget, enactment budget, or execution-path scouting after one choice result already exists, the question has moved to `C.24`.
 
 `ValueOfInformation` and `ValueOfComputation` also stay theory-side here as comparative criteria while the question is still local choice among the current options. If one more probe could still change which option survives or whether the current set should be rejected, stay in `C.11`. If the choice result is already fixed and those criteria now govern only execution-path sequencing, call-plan ordering, or enactment of the chosen option, the question has crossed to `C.24`. `C.19` and `C.24` may consume the criteria, but they do not become the doctrine authorities for them.
 
-Outside this pattern remain candidate generation, pool-wide exploration policy, selected-set publication semantics, and execution planning.
+Outside this pattern remain candidate generation, pool-wide exploration policy, selector-facing set-result declaration, publication availability, and execution planning.
 
 #### C.11:4.5 - Minimal inventory and mathematical floor
 

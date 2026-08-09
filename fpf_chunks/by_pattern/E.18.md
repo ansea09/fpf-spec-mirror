@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.18.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.18 — Transformation Flow Structure"
-line_start: 83272
-line_end: 83932
+line_start: 83321
+line_end: 83981
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -234,9 +234,9 @@ There are two complementary perspectives:
 
 Use split and join only as selected-structure relations inside one `TransformationFlowStructure`. A split separates one source locus, variant set, problem-side cue, or candidate family into several identified loci or flow valuations. A join relates several identified loci, selected sets, gates, measurements, or refresh returns back to one current structure position. Neither operation creates a new FPF kind, a new pattern, or a prescribed work procedure.
 
-Minimum split-and-join use names the selected `TransformationFlowStructure`, the exact split or join predicate or policy when membership changes, the set or archive returned by the exact selector relation, the exact publication relation when that value is published, and the smallest refresh scope when currentness changes. Apply the definitions and tests in `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `A.21`, and `G.11` when comparator, selector, archive, pool, publication, gate, or refresh claims are current.
+Minimum split-and-join use names the selected `TransformationFlowStructure`, the exact split or join predicate or policy when membership changes, the set or archive returned by the exact selector relation, the selected-set result declaration when current, the exact publication relation when that value is published, and the smallest refresh scope when currentness changes. Apply the definitions and tests in `A.19.CPM`, `A.19.SelectorMechanism`, `C.18`, `C.19`, and `G.5` when comparator, selector, archive, pool, or result-declaration claims are current; use `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability, `A.21` for a gate claim, and `G.11` for a refresh claim.
 
-For evolutionary-engineering work, the same selected structure may contain loci for variant generation, retention, archive or front treatment, comparison, selected-set publication, architecture-candidate movement, planning, performed work, effect measurement, residual triage, and refresh. E.18 defines only the structure, loci, `U.Transfer`, crossings, valuations, pins, and slice-local refresh. Apply the definitions and tests in `C.18`, `C.19`, `G.5`, `C.11`, `C.30`, the A.15 family, and `G.11` when the corresponding claims are current.
+For evolutionary-engineering work, the same selected structure may contain, for example, loci for variant generation, retention, archive or front treatment, comparison, selected-set result declaration, actual publication, architecture-candidate movement, planning, performed work, effect measurement, residual triage, and refresh. E.18 defines only the structure, loci, `U.Transfer`, crossings, valuations, pins, and slice-local refresh. Apply the definitions and tests in `C.18`, `C.19`, and `G.5` when archive, pool, or selected-set result-declaration claims are current; use `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability, `C.11` and `C.30` for their decision and architecture-candidate claims, the A.15 family for planning and performed Work, and `G.11` for refresh.
 
 #### E.18:5.2b - Position and parent-relative subflow references
 
@@ -312,7 +312,7 @@ The comparison explanation applies under the following admissibility conditions:
 * If the comparator defines a **declared partial order**, then returns are **sets or archives** (Pareto or Archive); if a **total order** is declared, it is the one provided by the comparator; otherwise set semantics apply and covert scalarization is out of scope here.
 * If a claim is **ordinal‑only**, then only comparison results are published; arithmetic transforms (e.g., means and z‑scores) are out of scope of this explanation and belong to declared comparators or downstream policy.
 
-**Edition-aware set or archive publication records (e.g., QD archives) pin `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition` when applicable; refresh is slice-local. For current archive or refresh cases, apply the comparator, archive, and refresh tests defined in `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11`.**
+**Edition-aware publication records for sets or archives (e.g., QD archives) pin `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CharacteristicSpaceRef.edition` when applicable; refresh is slice-local. For current selector, archive, pool, selected-set result-declaration, comparator, or refresh claims, apply the definitions and tests in `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11`. For actual publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability.**
 
 #### E.18:5.6 - S6 - Cycle discipline (Selection ↔ Planning)
 
@@ -327,7 +327,7 @@ E.18 keeps set-return, archive preservation, and comparator refs visible along t
 
 * **Selectors return sets.** Default **DominanceRegime** is `ParetoOnly`; **IlluminationSummary** (telemetry summary) and any coverage and regret telemetry quantities are **report-only telemetry** (reported), excluded from dominance **unless** a CAL policy promotes them as declared dominance inputs (policy-id in SCR).
 
-If `PortfolioMode=Archive`, a **QD archive** can be returned; when generation is in scope, pairs `{environment, method}` are managed under declared **EnvironmentValidityRegion** and **TransferRulesRef**; parity records and `PathSliceId` are pinned on publication. For current archive or comparator cases, apply the comparator and archive definitions and tests in `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11`.
+If `PortfolioMode=Archive`, a **QD archive** can be returned; when generation is in scope, pairs `{environment, method}` are managed under declared **EnvironmentValidityRegion** and **TransferRulesRef**; parity records and `PathSliceId` are pinned on publication. For current selector, archive, pool, selected-set result-declaration, comparator, or refresh claims, apply the definitions and tests in `A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11`. For actual publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability.
 
 #### E.18:5.8 - S8 - Guard aggregation assignment and handling (USM §1.2)
 * **USM.CompareGuard** and **USM.LaunchGuard** publish the guard-gate aggregation assignment field `GuardOwnerGateId`. The legacy field name is read here as a gate-reference assignment, not as an owner relation. Guard failures are **events** aggregated by the declared gate (not GateChecks).

@@ -6,12 +6,12 @@ section_id: "C.31:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__010_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:9 — Consequences"
-line_start: 63500
-line_end: 63514
+line_start: 63505
+line_end: 63519
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,7 +49,7 @@ Benefits:
 
 - Modularity becomes action-guiding without becoming one fake score.
 - Cheap repair remains possible before measurement.
-- Characteristic, declared-measurement-basis, comparability-basis, proxy-risk, and governing-pattern boundaries are visible.
+- Characteristic, declared-measurement-basis, comparability-basis, proxy-risk, and subject-pattern boundaries are visible.
 - DSM, MOSA, platform, product-line, and architecture-operation sources can inform practice without importing their ontology wholesale.
 
 Costs:

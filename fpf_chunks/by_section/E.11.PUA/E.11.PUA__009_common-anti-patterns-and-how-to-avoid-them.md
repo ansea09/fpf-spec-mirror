@@ -6,12 +6,12 @@ section_id: "E.11.PUA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 77773
-line_end: 77782
+line_start: 77822
+line_end: 77831
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -38,6 +38,6 @@ keywords:
 | Select from the pattern name | Similar symptoms can have different problem frames and forces. | Inspect the direct pattern and state the result that would answer the current question. |
 | Fill the candidate record first | The record freezes a choice before the `Solution` and boundary are understood. | Inspect first; materialize the candidate only for a named reliance. |
 | Report generated text as the result | Text can describe a physical, clinical, organizational, or learned result without producing it. | Name the exact interim episteme and leave the subject expectation open. |
-| Treat a support record as proof | A well-formed record proves only that fields were written. | Ground the result, its basis, evidence, work, and any later-use relation through the direct patterns that define or test those claims. |
+| Treat a support record as proof | A well-formed record proves only that fields were written. | Establish each claimed inspection or Work occurrence, result, evidence relation, and later-use relation under the pattern that defines or tests that claim. |
 | Call one result the next flow's input | The same entity may participate in another TFS without changing kind, but an input/tool/context/constraint label does not identify that relation. | Name both `FlowPositionRef` values and the direct relation occurrence. Use E.18 for each local position and E.18.NET only for a current network of independently identified TFS values. |
 

@@ -6,12 +6,12 @@ section_id: "G.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__009_problem.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:2 — Problem"
-line_start: 100278
-line_end: 100292
+line_start: 100337
+line_end: 100351
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -57,10 +61,10 @@ How to design a **general, auditable dispatcher** that:
 * does **not embed algorithmic dogma** in the core selector kernel;
 * respects semantic-context boundaries through the complete current crossing path—exact local senses, an obtaining F.9 Bridge, a separate bounded-use proposition, and the appropriate reliance or assurance branch—while treating pins as audit references rather than as the crossing facts;
 
-* produces **set‑valued outcomes** when only partial orders are admissible;
+* produces **set-valued outcomes** when only partial orders are admissible or when every named member is included for one bounded use, without confusing those meanings; when exact non-Method members already have a current inclusion basis, it declares that result without routing them through method-family selection;
 * cleanly separates:
 
-  * **selector object set and components** (registry, selector boundary, and publication records),
+  * **selector object set and components** (registry, selector boundary, and result-declaration records),
   * **universal Part‑G invariants** (carried by `G.Core`),
   * **method-specific and generator-specific semantics** (carried only through `Extensions` blocks).
 

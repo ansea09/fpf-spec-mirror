@@ -6,12 +6,12 @@ section_id: "C.32.PAD:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__003_problem.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:2 — Problem"
-line_start: 66677
-line_end: 66689
+line_start: 66682
+line_end: 66694
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 ### C.32.PAD:2 - Problem
 
 
-Architecture synthesis produces candidates; the systems and roles performing project work still need a decision. The decision is not the candidate palette, not the selected set publication, not the architecture description, and not the ADR file. It is the architecture decision relation that identifies the exact composite project work, says which architecture option is now pursued for it, and records what follows from that selection.
+Architecture synthesis produces candidates; the systems and roles performing project work still need a decision. The decision is not the candidate palette, not the declared selected-set result, not its publication, not the architecture description, and not the ADR file. It is the architecture decision relation that identifies the exact composite project work, says which architecture option is now pursued for it, and records what follows from that selection.
 
 The problem is difficult because architecture decisions sit between structures and methods. C.30 keeps an obtaining `ArchitectureRelation` with its exact holon and selected `U.Structure` separate from an `ArchitectureClaim` carrying candidate, required, desired, or expected content. A project architecture decision can also tell developer roles which method description, architectural style, pattern use, or work boundary they must follow so that later work aims to produce or preserve the intended structures. For example, "use the client-server style here" is a method-use instruction whose intended result is a module and interaction structure of the described system. The decision relation must keep both sides visible: actual or modal structure content for the described or transformed-side holon, and method and Work expectations for exact systems, roles, assignments, and Work. When C.32.CONWAY supplies an influence-source architecture or selected structure, that source remains non-agentive and does not become the performer.
 

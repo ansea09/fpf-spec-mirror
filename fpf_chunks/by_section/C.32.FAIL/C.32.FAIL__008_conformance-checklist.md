@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:7 — Conformance Checklist"
-line_start: 66503
-line_end: 66514
+line_start: 66508
+line_end: 66519
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,8 +62,8 @@ keywords:
 | `CC-C32.FAIL-1` | The cue states a recognizable symptom in practitioner language. | Keeps the pattern usable at first contact. |
 | `CC-C32.FAIL-2` | The described holon, bounded context, and architecture object under stress are named. | Prevents source wording from replacing object recovery. |
 | `CC-C32.FAIL-3` | The blocked overread is stated in one sentence. | Makes the failure precise enough to repair. |
-| `CC-C32.FAIL-4` | The first governing pattern is named. | Keeps architecture, lens, work, evidence, assurance, and decision claims distinct. |
+| `CC-C32.FAIL-4` | The first subject pattern is named. | Keeps architecture, lens, work, evidence, assurance, and decision claims distinct. |
 | `CC-C32.FAIL-5` | The repair action changes architecture handling. | Prevents warning-only rows. |
-| `CC-C32.FAIL-6` | The stop condition or receiving pattern is named. | Keeps the cue lightweight and composable. |
-| `CC-C32.FAIL-7` | New cue rows name the architecture object, first repair action, and stop or receiving pattern. | Prevents warning-bank inflation. |
+| `CC-C32.FAIL-6` | The stop condition or pattern for the next question is named. | Keeps the cue lightweight and composable. |
+| `CC-C32.FAIL-7` | New cue rows name the architecture object, first repair action, and stop or pattern for the next question. | Prevents warning-bank inflation. |
 

@@ -6,12 +6,12 @@ section_id: "C.36.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__005_forces.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:3 — Forces"
-line_start: 68406
-line_end: 68415
+line_start: 68411
+line_end: 68420
 dependencies:
   - "A.1"
   - "A.15"
@@ -56,7 +56,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | Local language usefulness | Communities need familiar words such as style, tradition, scene, platform, canon, and technique. |
-| FPF composability | Downstream work needs method, work, discipline, episteme, bridge, archive, pool, selected-set, architecture, measurement, choice, and refresh governing patterns named by value. |
+| FPF composability | Downstream work needs method, work, discipline, episteme, bridge, archive, pool, selected-set, architecture, measurement, choice, and refresh subject patterns named by value. |
 | Source fidelity | Some labels should remain visible because they are source terms or project terms. |
 | Ontological economy | The same labels must not mint root U-kinds or local ontologies. |
 | Subject-pattern focus | `C.36` must remain a positive cultural-evolution pattern, not a repair table. |

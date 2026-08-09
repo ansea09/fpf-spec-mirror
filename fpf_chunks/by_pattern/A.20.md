@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.20.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
-line_start: 33551
-line_end: 33913
+line_start: 33553
+line_end: 33915
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -283,7 +283,7 @@ A normalization step has declared units, domain and range, and invariant refs; t
 A typed module `M` exposes `f : State_d → BuildOutput_d` under a declared `LawSet` (e.g., determinism under fixed toolchain) and `TypeDomainRange`. **CV** checks: (i) `MechanismUnitsCoherence` (toolchain and flags units coherent), (ii) `LawSetInvariants` (reproducible outputs under same `E⃗`), (iii) `Admissibility` (inputs well-typed), and (iv) optional Lipschitz or stability surrogate (bounded perturbation in sandbox). `CtxState` is preserved along raw transfers. Entering `U.Work(run)` uses `LaunchGate` with `FreshnessUpToDate` and `DesignRunTagConsistency` - **GateFit**, not CV.
 
 **Show‑2 (selection archive in QD and AutoML).**
-A mechanism emits a **set** (`Front`, `Archive`, or another declared set publication). **CV** checks only: valid descriptor ranges, declared continuity bounds over named metric spaces, and archive invariants (idempotent insert). No ranking or acceptance thresholds are introduced at CV; comparators and acceptance policies bind at gates via `A.21` plus the current comparator and set-publication loci (`A.19.SelectorMechanism`, `C.18`, `C.19`, `G.5`, or `G.11`) when those claims are present. Edition-aware pins on faces carry `DescriptorMapRef.edition` only with `Bridge+UTS`.
+A mechanism emits a **set** (`Front`, `Archive`, or another declared set result). **CV** checks only valid descriptor ranges, declared continuity bounds over named metric spaces, and archive invariants such as idempotent insert. CV neither ranks the set nor supplies acceptance policy. When those claims are current, use `A.21` for gate acceptance, the applicable comparator for comparison, `A.19.SelectorMechanism` for set-returning selection, `C.18` and `C.19` for archive, front, and pool treatment, and `G.5` for selected-set result declaration. Use `G.11` only for currentness and refresh of the result or its records; it does not define their result content. Edition-aware pins on faces carry `DescriptorMapRef.edition` only with `Bridge+UTS`.
 
 **Practice references.** Algebraic effects and handlers separate signatures from handlers (Koka and Effekt, 2015+); reproducible pipelines isolate mechanism constraints from release or deployment criteria (Bazel and Nix); optics, profunctors, and open hypergraph categories motivate composition on open graphs without adding facts on faces; QD, MAP-Elites, CMA-ME, and DQD motivate **set-return and declared order relations** (2015-2022).
 

@@ -6,12 +6,12 @@ section_id: "C.31:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__011_rationale.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:10 — Rationale"
-line_start: 63515
-line_end: 63522
+line_start: 63520
+line_end: 63527
 dependencies:
   - "A.10"
   - "A.17"
@@ -49,5 +49,5 @@ C.31 is a characterization pattern because modularity and reusable-structure tal
 
 The pattern puts `ModularityVectorLite` first to preserve affordability. Many practitioners need to see one relation to repair, one interface grammar to tighten, or one residue to account for. Requiring the full measurement apparatus too early would turn C.31 into a control form and would violate the architecture source invariant: repair succeeds only when one useful admissible action remains.
 
-The pattern rejects a single complexity or modularity score because selected heads are not automatically commensurable. When a local score is genuinely useful, it belongs under disclosed scoring, comparator, characteristic, declared-measurement-basis, and governing-pattern discipline.
+The pattern rejects a single complexity or modularity score because selected heads are not automatically commensurable. When a local score is genuinely useful, it belongs under disclosed scoring, comparator, characteristic, declared-measurement-basis, and subject-pattern discipline.
 

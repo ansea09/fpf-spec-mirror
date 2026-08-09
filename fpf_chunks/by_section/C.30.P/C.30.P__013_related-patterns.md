@@ -6,12 +6,12 @@ section_id: "C.30.P:10"
 section_title: "Related patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__013_related-patterns.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:10 — Related patterns"
-line_start: 61143
-line_end: 61157
+line_start: 61148
+line_end: 61162
 dependencies:
   - "A.10"
   - "A.15"
@@ -60,7 +60,7 @@ keywords:
 - `C.30.AD` governs the full architecture-description mechanism when `ArchitectureDescription@Context` is the EntityOfConcern under repair.
 - `C.30.ASV` governs architecture structural views.
 - `C.30.STRAT` governs stratification wording or source-label wording before C.30.P assigns any recovered architecture or structure portion.
-- Named `C.30.*` patterns govern their own structure adequacy or view adequacy questions.
+- Named `C.30.*` patterns define or constrain their own structure adequacy or view adequacy questions.
 - `C.2.P` recovers source, publication, view, face, `PublicationUnit`, carrier, and source-use disposition.
 - `A.6.P` repairs relation construction; `A.6.F` repairs function and functionality wording; `A.6.M` repairs module-relation and interface-specification wording.
 - `C.16.P` repairs characteristic-and-scale wording, and `C.16.Q` repairs quality-term or evaluative characterization wording before score or quality use.

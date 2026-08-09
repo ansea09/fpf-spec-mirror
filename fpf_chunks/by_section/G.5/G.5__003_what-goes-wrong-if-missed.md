@@ -6,12 +6,12 @@ section_id: "G.5:0.1"
 section_title: "What goes wrong if missed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__003_what-goes-wrong-if-missed.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.1 — What goes wrong if missed"
-line_start: 100163
-line_end: 100169
+line_start: 100218
+line_end: 100224
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -53,6 +57,6 @@ keywords:
 
 - rival families are compared under silent comparator drift, hidden baseline changes, or unspoken crossing costs
 - the selector hides one dogmatic winner even when only a partial order is admissible
-- selected-set publication gets hidden inside `C.11`, `C.19`, or `C.24`, so the published result no longer makes clear whether it carries local choice, pool policy, enactment, or publication
+- selector-facing result content stays hidden inside `C.11`, `C.19`, or `C.24`, so the G.5 result no longer states which upstream choice, pool treatment, or enactment result it consumes and what set result it declares
 - exploration, open-ended, or specialization pressure leaks in as one architecture convenience rather than one explicit policy-bound choice
 

@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative; synchronized with Core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__003_policy-clauses-normative-synchronized-with-core.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative; synchronized with Core)"
-line_start: 50072
-line_end: 50112
+line_start: 50077
+line_end: 50117
 dependencies:
   - "A.0"
   - "A.10"
@@ -66,7 +66,7 @@ Among admissible options with comparable assurance within **delta** and budget w
 > All overrides record a **BLP‑waiver** with rationale, responsible role, and expiry or review in the DRR.
 
 **BLP‑2.2 — Task-family specialization compatibility.**
-A bounded specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, when it acts as a complementary bias that does not block scale, or when it survives the ordinary **BLP** comparison discipline on the same declared task family and work target. The specialization may be a method, module, platform variant, system form, organization form, agent behavior, or evidence-bearing episteme/work arrangement. If the user is not claiming scale advantage or overriding a general bearer, a bounded specialization may be used with explicit task family, work target, budget guard rails, and evidence source or evidence locus. Full **Scale-Audit** is triggered by scale-advantage, override, selector-facing publication, publication-facing superiority, or durable reusable-bearer claim, not by the mere existence of specialization. `BLP` therefore governs whether the narrower current bearer was generated, compared, audited, waived, and overridden admissibly; it does **not** require the final local behavior at every moment to look maximally generic.
+A bounded specialization remains **BLP-compatible** when it is produced by a **general, scale-amenable substrate**, acts as a complementary bias that does not block scale, or survives the ordinary **BLP** comparison discipline on the same declared task family and work target. The specialization may be any narrower bearer relevant to that task family—for example, a method, module, platform variant, system form, organization form, agent behavior, evidence-bearing episteme, or work arrangement. If the user is not claiming scale advantage or overriding a general bearer, a bounded specialization may be used with explicit task family, work target, budget guard rails, and evidence source or evidence locus. A full **Scale-Audit** is required when any of these claims is current: scale advantage, override, selector-facing result declaration, publication-facing superiority, or durable reusable-bearer status. Mere specialization does not trigger it. Apply `BLP` to test whether the narrower current bearer was generated, compared, audited, waived, and overridden admissibly; do **not** require the final local behavior at every moment to look maximally generic.
 
 Low-human-overlap or newly discovered approaches remain admissible when the task family, budget guard rails, and evidence source or evidence locus are explicit by value and the same `Scale‑Audit`, alpha and delta, waiver, and override discipline is preserved.
 **BLP‑3 — Minimal‑prescription default.**

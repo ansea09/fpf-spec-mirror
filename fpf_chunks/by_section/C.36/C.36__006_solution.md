@@ -6,12 +6,12 @@ section_id: "C.36:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__006_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:4 — Solution"
-line_start: 68134
-line_end: 68230
+line_start: 68139
+line_end: 68235
 dependencies:
   - "A.1"
   - "A.10"
@@ -66,7 +66,7 @@ Keep three record forms available:
 
 - `CulturalEvolutionCaseCard@Context` names the case.
 - `StyleTraditionTermBridgeTable@Context` maps local labels to governed FPF values and bridges.
-- `CulturalEvolutionInterventionCard@Project` names the intervention and the next governing pattern.
+- `CulturalEvolutionInterventionCard@Project` names the intervention and the next subject pattern.
 
 These forms assemble current FPF values. They do not mint `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Genre`, `U.Scene`, `U.Technique`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, or `U.DevelopmentalMachine`.
 
@@ -79,7 +79,7 @@ StyleTraditionTermBridgeTable@Context:
   SourceLabel:
   SourceContext:
   GovernedFPFValueOrSlot:
-  DirectGoverningPatternRef:
+  SubjectPatternLocator:
   SenseCellRefs:
   BridgeRefs:
   AdmissibleUse:
@@ -87,7 +87,7 @@ StyleTraditionTermBridgeTable@Context:
   CurrentnessCondition:
 ```
 
-The table is a term-and-bridge table. `F.17` governs durable term rows, `F.18` governs naming restoration, and `F.9` governs bridge relations. C.36 uses the table only to keep cultural-evolution work connected to those governing patterns.
+The table is a term-and-bridge table. `F.17` governs durable term rows, `F.18` governs naming restoration, and `F.9` governs bridge relations. C.36 uses the table only to keep cultural-evolution work connected to those subject patterns.
 
 For music and dance, a label such as `prog`, `post-prog`, `contemporary`, `hip-hop`, `battle`, `TikTok dance`, `canon`, `school`, or `technique` may point to different FPF values in different contexts. The bridge row says which one is current before the project relies on the label.
 
@@ -128,7 +128,7 @@ Here `@Project` is a compatibility and retrieval cue only. It establishes no pro
 
 When performed intervention Work is current, `PerformedInterventionWorkOccurrenceRef` identifies one independently admitted dated `U.Work`; the performer System, exact obtaining assignment, F.6 attribution, enacted Method, extent, and containing System remain governed by A.15.1, A.2.1, and F.6. `ActualTransformationRefs` may cite only exact A.3.4 bounded changes. `TransformationFlowStructureRef` instead cites one independently selected E.18/A.22 structure; adjacency or membership in it proves neither actual change nor Work-to-change. Any positive link from intervention Work to an actual transformation or other effect must cite its exact direct predicate, an admitted A.6.RCD local claim, or the relevant A.15.PROD branch; otherwise return the exact `missing-governor`. Measurement refs and effect claims remain separate: observing a value neither creates nor proves the effect.
 
-The intervention card does not authorize Work and its targeted relation is not an obtaining-effect claim. It names the proposed intervention, the relation being targeted, and the next governing pattern: `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` and `F.6` for performed Work, `A.3.4` for actual change, `A.15.PROD` or an exact direct/local claim for production or Work-to-change, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set publication, `C.11` for local choice, `C.35` when a generated or discovered structure-bearing carrier needs admission before architecture use, `C.30` for direct architecture questions, or `G.11` for refresh.
+The intervention card does not authorize Work, and its targeted relation is not an obtaining-effect claim. It names the proposed intervention, the relation being targeted, and the next applicable pattern. Use `E.18.1` for P2W carry-through, `A.15.2` for work planning, `A.15.1` and `F.6` for performed Work, `A.3.4` for actual change, `A.15.PROD` or an exact direct local claim for production or Work-to-change, `C.18` or `C.19` for archive and pool treatment, `G.5` for selected-set result declaration, `C.11` for local choice, `C.35` when a generated or discovered structure-bearing carrier needs admission before architecture use, `C.30` for a direct architecture question, or `G.11` for refresh. If audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 
 #### C.36:4.3 - Evolution Sense Split
 

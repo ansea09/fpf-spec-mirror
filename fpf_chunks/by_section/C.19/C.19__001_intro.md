@@ -6,12 +6,12 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 49662
-line_end: 49677
+line_start: 49667
+line_end: 49682
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -51,11 +53,11 @@ keywords:
 
 **Plain-name.** Explore-exploit governor.
 
-**Intent.** Govern exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit, auditable, and stated as one pool-policy result without taking over local choice, enactment, or publication questions.
+**Intent.** State and test exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit and auditable, and so one pool-policy result does not take over local choice, enactment, selector-result declaration, or publication-availability questions.
 
-**Export relation.** C.19 does not export generation operators. It governs live-pool treatment records over candidate pools, fronts, archive regions, family regions, and cultural live pools.
+**Export relation.** `C.19` defines no generation operation. Use it to state and test live-pool treatment records over candidate pools, fronts, archive regions, family regions, and cultural live pools.
 
-**Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` and `G.11` for selected-set publication and refresh.
+**Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` and `G.11` for selector-facing set-result declaration and refresh.
 
-**Coordinates with.** `C.11` for local choice among already-available options, `C.24` for enactment planning after choice, `G.5` for selector-facing publication, `C.17`, and `G.9`.
+**Coordinates with.** `C.11` for local choice among already-available options, `C.24` for enactment planning after choice, `G.5` for selector-facing set-result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `C.17`, and `G.9`.
 

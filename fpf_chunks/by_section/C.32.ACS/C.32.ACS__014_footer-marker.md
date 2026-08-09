@@ -6,12 +6,12 @@ section_id: "C.32.ACS:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__014_footer-marker.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:13 — Footer marker"
-line_start: 65426
-line_end: 65429
+line_start: 65431
+line_end: 65434
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,5 +49,5 @@ keywords:
 
 ### C.32.ACS:13 - Footer marker
 
-C.32.ACS closes when the project can name the starter-pack row or source-catalogue line, draft project criteria rows, optimization indicators, monitored guardrails, context-only rows, bearers, exact row claim scopes and selected context slices, reference schemes and planes, qualification or evaluation windows, scale forms, current reading or no-reading reason, protected counter-characteristics, receiving uses, and source-return conditions. The next architecture work then belongs to the receiving pattern.
+C.32.ACS closes when the project can name the starter-pack row or source-catalogue line, draft project criteria rows, optimization indicators, monitored guardrails, context-only rows, bearers, exact row claim scopes and selected context slices, reference schemes and planes, qualification or evaluation windows, scale forms, current reading or no-reading reason, protected counter-characteristics, receiving uses, and source-return conditions. The responsible agentive system then performs the next architecture Work using the Method described by the pattern whose use conditions match the next question.
 

@@ -6,12 +6,12 @@ section_id: "C.32.HCS:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__011_rationale.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:10 — Rationale"
-line_start: 65115
-line_end: 65118
+line_start: 65120
+line_end: 65123
 dependencies:
   - "A.19"
   - "C.11"
@@ -36,5 +36,5 @@ keywords:
 
 ### C.32.HCS:10 - Rationale
 
-The 300-to-3 problem needs a middle step. A project cannot optimize from a catalogue, but it also should not invent criteria from scratch. Architecture-bearing starter packs give a small, recognizable entry while project criteria-row construction, measurement, eval, comparison, selection, publication of a selected set, local choice, and project architecture decision work stays with its pattern for the next question.
+The 300-to-3 problem needs a middle step. A project cannot optimize from a catalogue, but it also should not invent criteria from scratch. Architecture-bearing starter packs give a small, recognizable entry. Criteria-row construction, measurement, eval, comparison, selection, selected-set result declaration, actual publication, local choice, and project architecture decisions then use their applicable patterns.
 

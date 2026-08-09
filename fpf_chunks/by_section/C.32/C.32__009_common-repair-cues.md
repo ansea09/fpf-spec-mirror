@@ -6,12 +6,12 @@ section_id: "C.32:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__009_common-repair-cues.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:8 — Common Repair Cues"
-line_start: 64527
-line_end: 64541
+line_start: 64532
+line_end: 64546
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,10 +73,10 @@ keywords:
 | `UserFunctionAsArchitectureCharacteristic` | The user-visible function is treated as the architecture quality being optimized. | Recover the functional demand through `A.6.F` or `C.30.ASV`; then name the architecture characteristic or quality bundle separately. |
 | `FunctionNoFeasibleBearer` | A functional architecture names a required function, but no admitted module, role, method, resource, placement, control relation, or evidence structure can carry it. | Repair with `functionBearerFeasibilityRepair`: add or change a bearer, split the function, change placement or resource access, change control responsibility, reduce the demand, or reject the candidate. |
 | `DescriptionFormAsArchitecture` | An architecture-description artifact is treated as the architecture because it is the most visible representation. | Keep the visible work product under `C.30.AD`, `C.30.ASV`, `E.17`, `E.24.PUB`, `C.29`, or source-use governance as applicable; recover described holon, selected structures, candidate architecture change, and characteristic bundle before admitting any C.32 candidate. |
-| `BenchmarkWinnerAsArchitecture` | A comparison result is treated as architecture selection. | Treat the result as comparison input or as source material for an A.10 evidence relation when that claim is current; admit a C.32 candidate only after selected structure, architecture-change kind, gain, loss, and receiving pattern are recovered. |
+| `BenchmarkWinnerAsArchitecture` | A comparison result is treated as architecture selection. | Treat the result as comparison input or as source material for an A.10 evidence relation when that claim is current; admit a C.32 candidate only after selected structure, architecture-change kind, gain, loss, and pattern for the next question are recovered. |
 | `MethodDimensionSemanticsLost` | A BIM, digital-twin, or architecture-view method supplies dimensions, but C.32 use keeps only the dimension name or dimension count and loses the method's structure, constraint, schedule, cost, use-phase, or maintenance semantics. | Preserve the source method semantics, then map each method-declared dimension to selected structures, constraints, preserved and lost structure, architecture characteristics, and source-return condition. |
-| `ArchitectureInfluenceMismatch` | One independently typed source is incompatible with transformed-side architecture content needed for the changed referent, or the source's influence status is still provisional. | Open `C.32.CONWAY`; recover the changed referent, each source's exact kind and obtaining relation or precise provisional disposition, both exact C.30 architecture sides or modal claims, and any separately grounded acting, Work, method-side or direct method-use relation, A.3.4 transformation, or E.18 flow facts through their governing patterns; generate candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch. Use `C.29` only if structural similarity is claimed. |
-| `ShortlistByName` | A set is called shortlist before the fields required by `G.5` publication exist. | Keep it as a local palette or open `G.5`. |
+| `ArchitectureInfluenceMismatch` | One independently typed source is incompatible with transformed-side architecture content needed for the changed referent, or the source's influence status is still provisional. | Open `C.32.CONWAY`; recover the changed referent, each source's exact kind and obtaining relation or precise provisional disposition, both exact C.30 architecture sides or modal claims, and any separately grounded acting, Work, method-side or direct method-use relation, A.3.4 transformation, or E.18 flow facts through their subject patterns; generate candidates that change the influence-source side, the transformed side, both sides, or a bounded mismatch. Use `C.29` only if structural similarity is claimed. |
+| `ShortlistByName` | A set is called shortlist before the result fields required by `G.5` exist. | Keep it as a local palette or open `G.5`. |
 | `UniversalBearerAsArchitecture` | A universal module, general substrate, or existing resource is treated as better architecture by name. | Create a C.32 candidate that names functions transferred to the bearer, bearer count change, coupling change, evidence burden, control burden, safety and admissibility boundary, and BLP scale window or waiver if scale advantage is claimed. |
 | `SourceCompressionNoReturn` | A candidate hides source distinctions. | Add a source-return condition or demote the item to a source cue. |
 

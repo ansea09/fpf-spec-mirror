@@ -6,12 +6,12 @@ section_id: "C.32:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__010_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:9 — Consequences"
-line_start: 64542
-line_end: 64554
+line_start: 64547
+line_end: 64559
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,9 +72,9 @@ keywords:
 | Candidate architecture configurations are visible before local choice or decision. | Losses and constraint fits must be named earlier. |
 | Architecture-characteristic improvement is handled as iterative architecture work. | Each iteration must say which characteristic pressure changed, which selected structures were changed, which reading or feedback is admissible as synthesis input, and what source-return condition opens the next synthesis question. |
 | Multi-structure synthesis is reviewable. | The practitioner must keep functions, modules, placement, control, work, evidence, and other selected structures distinct when they matter. |
-| Architecture characteristics and quality bundles are recorded as comparison inputs for the receiving pattern. | The palette may need characteristic repair through `C.25`, `C.31`, `C.16`, or later comparison handling through `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5` when those claims are being made. |
+| Architecture characteristics and quality bundles are recorded as comparison inputs for the pattern for the next question. | The palette may need characteristic repair through `C.25`, `C.31`, `C.16`, or later comparison handling through `A.19.CPM`, `C.11`, `A.19.SelectorMechanism`, or `G.5` when those claims are being made. |
 | Holonic architecture breadth is preserved. | Examples and candidates must name the described holon and selected structures instead of using domain defaults as unstated selected structures. |
 | Source cues can inform architecture work without importing source-domain ontology. | Source-side expressions require recovery of referent, selected structure, architecture-change kind, and source-return condition. |
-| Downstream G.5 publication and architecture-decision work stay cleaner. | The team must open the receiving pattern when it wants to publish a selected set, make a local choice, or decide the project architecture. |
+| Downstream G.5 result declaration and architecture-decision work stay cleaner. | The team must open the pattern for the next question when it wants to declare a selected-set result, publish it to an audience, make a local choice, or decide the project architecture. |
 | Evolutionary and search practices are usable without hidden single-winner optimization. | The palette may need retained alternatives even when one candidate looks convenient. |
 

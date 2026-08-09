@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 87462
-line_end: 87473
+line_start: 87511
+line_end: 87522
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,7 +36,7 @@ keywords:
 
 **Absorption.** External review returns many suggestions. The frame asks for `absorptionEvaluation`. The result says which changes improved coordinates, which were already satisfied, which introduced trade-offs, and which belong outside the evaluation.
 
-**Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with the pattern that governs that claim and is not decided by the evaluation frame.
+**Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with the pattern that defines or constrains that claim and is not decided by the evaluation frame.
 
-**Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the exact vibration `CharacteristicSpace`, RMS-vibration predicate and any admitted comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result. During dated test-bench evaluation Work, the directly governed evaluation relation or actual method operation returns a result finding excessive RMS vibration at one operating point through its exact binding; the frame, governing pattern reference, separately identified semantic Method when named, role assignment, expected evidence basis, and result-form description remain separate. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the exact design episteme that would change; the measurement row is not the correction target. The affected coordinate is the declared RMS-vibration coordinate. The coarse proposal effect is `raiseTowardExceptional`, `kindRestorationCheckDisposition=notTriggered`, and the trade-off set includes efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated work under A.15 rather than an E.22 result.
+**Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the exact vibration `CharacteristicSpace`, RMS-vibration predicate and any admitted comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result. During dated test-bench evaluation Work, the directly governed evaluation relation or actual method operation returns a result finding excessive RMS vibration at one operating point through its exact binding; the frame, subject pattern reference, separately identified semantic Method when named, role assignment, expected evidence basis, and result-form description remain separate. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the exact design episteme that would change; the measurement row is not the correction target. The affected coordinate is the declared RMS-vibration coordinate. The coarse proposal effect is `raiseTowardExceptional`, `kindRestorationCheckDisposition=notTriggered`, and the trade-off set includes efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated work under A.15 rather than an E.22 result.
 

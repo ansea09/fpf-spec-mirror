@@ -6,12 +6,12 @@ section_id: "C.36.P:6"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__008_boundaries.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:6 — Boundaries"
-line_start: 68475
-line_end: 68482
+line_start: 68482
+line_end: 68489
 dependencies:
   - "A.1"
   - "A.15"
@@ -53,9 +53,9 @@ keywords:
 
 ### C.36.P:6 - Boundaries
 
-This pattern is not the cultural-evolution subject-governing pattern. Use `C.36` for the cultural-evolution case and cultural-evolution engineering intervention.
+This pattern does not define the cultural-evolution subject. Use `C.36` for the cultural-evolution case and cultural-evolution engineering intervention.
 
-Use this pattern for one repeatable recovery line that names direct governing patterns. Once the governing pattern is named, stop the wording repair and return to the project question.
+Use this pattern for one repeatable recovery line that names subject patterns. Once the subject pattern is named, stop the wording repair and return to the project question.
 
 This pattern does not create `U.Culture`, `U.Style`, `U.Tradition`, `U.Practice`, `U.Genre`, `U.Scene`, `U.Technique`, `U.Platform`, `U.PlatformRegime`, `U.MeasurementRegime`, or `U.DevelopmentalMachine`.
 

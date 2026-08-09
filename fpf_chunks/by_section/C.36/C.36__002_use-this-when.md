@@ -6,12 +6,12 @@ section_id: "C.36:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_use-this-when.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:0 — Use This When"
-line_start: 68038
-line_end: 68098
+line_start: 68043
+line_end: 68103
 dependencies:
   - "A.1"
   - "A.10"
@@ -75,7 +75,7 @@ The practitioner gets one small cultural-evolution case that names the collectiv
 
 #### C.36:0.3 - First Useful Move
 
-Write a compact `CulturalEvolutionCaseCard@Context`. It names what is changing, which FPF values and governing patterns are current, and which next governing pattern applies.
+Write a compact `CulturalEvolutionCaseCard@Context`. It names what is changing, which FPF values and exact subject assertions are current, and which candidate pattern description locates the defining or constraining `ClaimGraph` for the next question.
 
 ```text
 CulturalEvolutionCaseCard@Context:
@@ -98,7 +98,7 @@ CulturalEvolutionCaseCard@Context:
   LevelOrScopeRefs?:
   StyleOrTraditionTermRows?:
   CurrentEvolutionaryQuestion:
-  CurrentGoverningPatternRefs:
+  CurrentPatternLocators:
   RefreshRefs?:
 ```
 
@@ -110,8 +110,8 @@ Field glosses for first use:
 | `CharacteristicSpaceRefs` | The feature, descriptor, quality, constraint, or value space in which variation and selection become comparable; several feature spaces may be current in one style or tradition case. |
 | `LevelOrScopeRefs` | The holon level, discipline scope, scene, product-family scope, team scope, or publication scope in which the case is being judged; this prevents one local trend from becoming the whole culture by wording. |
 | `StyleOrTraditionTermRows` | Bridge rows for labels such as style, tradition, genre, school, canon, technique, scene, or platform format; these rows keep familiar terms usable without making them root kinds. |
-| `CurrentEvolutionaryQuestion` | The live question: generation, transmission, recognition, selection, retention, mediation, method-family change, work-family change, architecture-candidate treatment, measurement, intervention, or refresh. |
-| `CurrentGoverningPatternRefs` | The FPF patterns that govern the current values. C.36 keeps the case together; it does not replace the patterns for archive, front, selected-set publication, decision, work, evidence, architecture, term bridge, or refresh. |
+| `CurrentEvolutionaryQuestion` | The live question. Examples include generation, transmission, recognition, selection, retention, mediation, method-family change, work-family change, architecture-candidate treatment, measurement, intervention, and refresh. |
+| `CurrentPatternLocators` | The FPF patterns that define or constrain the current values. Use C.36 to keep the cultural-evolution case together; use the applicable patterns for archive, front, selected-set result declaration, actual publication, decision, work, evidence, architecture, term bridge, or refresh. |
 
-The card is optional and thin. It is not a root U-kind, lifecycle step, evidence record, decision record, publication authority, or replacement for the named governing patterns.
+The card is optional and thin. It is not a root U-kind, lifecycle step, evidence record, decision record, publication authority, or replacement for the named subject patterns.
 

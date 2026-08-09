@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__010_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:9 — Consequences"
-line_start: 66531
-line_end: 66540
+line_start: 66536
+line_end: 66545
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,6 +62,6 @@ keywords:
 | Failure recognition produces repair action. | Many tempting warning rows are rejected. |
 | Repair stays near the architecture object under stress. | The team may need to postpone evidence, assurance, or decision work. |
 | Source expressions can be used as cues without carrying ontology. | Each cue must recover the described holon and selected structure. |
-| C.32 candidate repair stays separate from final selection. | Publication of a selected set or choice requires the receiving pattern. |
+| C.32 candidate repair stays separate from final selection. | Selected-set result declaration, actual publication, or choice requires the pattern for the next question. |
 | Generated or tool-derived architecture material can widen discovery. | Generated material must still recover source-side referent, selected structures, architecture-change kind, gain, loss, and human review boundary before candidate use. |
 

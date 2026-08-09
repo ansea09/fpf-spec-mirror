@@ -6,12 +6,12 @@ section_id: "C.2.7:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__010_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:9 — Consequences"
-line_start: 44160
-line_end: 44162
+line_start: 44162
+line_end: 44164
 dependencies:
   - "A.16"
   - "A.16.0"

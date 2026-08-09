@@ -6,12 +6,12 @@ section_id: "A.16:17"
 section_title: "Move Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16/A.16__018_move-package-discipline.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.16 — Language-State Move Coordination"
   - "A.16:17 — Move Package Discipline"
-line_start: 27237
-line_end: 27259
+line_start: 27239
+line_end: 27261
 dependencies:
   - "A.16"
   - "A.16.0"

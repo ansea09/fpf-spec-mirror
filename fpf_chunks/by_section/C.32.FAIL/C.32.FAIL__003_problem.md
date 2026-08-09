@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__003_problem.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:2 — Problem"
-line_start: 66404
-line_end: 66423
+line_start: 66409
+line_end: 66428
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,15 +62,15 @@ Architecture synthesis often fails before formal evidence or decision work start
 Most first-contact failures cluster into a few repair-entry families:
 
 * a proposed bearer, module, platform, or universal substrate hides interface behavior, variation pressure, function bearing, evidence burden, or new coupling;
-* a proxy result, generated artifact, architecture description, graph, dashboard, front member, or workshop favorite is used before the selected structures, losses, and receiving pattern are named;
+* a proxy result, generated artifact, architecture description, graph, dashboard, front member, or workshop favorite is used before the selected structures, losses, and pattern for the next question are named;
 * one structure, function, role, responsibility, control relation, evidence relation, or method step is improved while the synthesis frame loses the architecture characteristics and other structures that made the trade-off real;
 * a current candidate is treated as a durable optimum, or ideality pressure deletes a bearer without naming the function still carried, the lost structure, and the new burden;
 * an influence-source architecture and the transformed-side architecture content collapse into one claim instead of opening C.32.CONWAY and separating the changed referent, each obtaining C.30 architecture relation or modal `ArchitectureClaim`, any asserted direct influence occurrence, and any separately current actor, assignment, Work, or actual transformation facts.
 
-These cues are useful only when each one is converted into a repair shape: symptom, architecture object under stress, first repair action, and stop or receiving pattern.
+These cues are useful only when each one is converted into a repair shape: symptom, architecture object under stress, first repair action, and stop or pattern for the next question.
 
 ```text
-symptom -> architecture object under stress -> blocked overread -> first governing pattern -> repair action -> stop or escalation
+symptom -> architecture object under stress -> blocked overread -> first subject pattern -> repair action -> stop or escalation
 ```
 
 C.32.FAIL governs that conversion. It does not mint a local ontology of failure kinds.

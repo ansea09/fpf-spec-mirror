@@ -6,12 +6,12 @@ section_id: "C.30.AD:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 60588
-line_end: 60598
+line_start: 60593
+line_end: 60603
 dependencies:
   - "A.1"
   - "A.10"
@@ -83,5 +83,5 @@ keywords:
 | Multi-view fog | Many views are listed, but no one can tell their separate C.2.1 identities, conformance relations, selected structures, or correspondence. | Add exact description and viewpoint refs, conformance refs, selected-structure refs, and correspondence claims or governed relations. |
 | Specification-as-authority | A specification-looking architecture description is used as performed work, gate passage, decision claim, assurance, evidence, work authorization, or release authorization. | Declare specification use and apply the direct pattern governing that claim to the claim being made. |
 | Freshness laundering | A recently generated diagram is treated as adequate because it is current. | Record the bounded freshness claim, source edition, and refresh trigger; do not treat currentness as adequacy, evidence, grounding, or assurance. |
-| Architecture-documentation takeover | The pattern spends most of its practitioner guidance on diagrams, publications, and wording guards instead of the architecture relation, selected structures, descriptions, and views. | Keep `C.30` centered on architecture and `C.30.AD` on exact description epistemes and their use; route representation and publication to their direct owners. |
+| Architecture-documentation takeover | The pattern spends most of its practitioner guidance on diagrams, publications, and wording guards instead of the architecture relation, selected structures, descriptions, and views. | Keep `C.30` centered on architecture and `C.30.AD` on exact description epistemes and their use; route representation and publication to their subject patterns. |
 

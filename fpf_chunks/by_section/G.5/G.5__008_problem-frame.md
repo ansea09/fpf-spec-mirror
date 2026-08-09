@@ -6,12 +6,12 @@ section_id: "G.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__008_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:1 — Problem frame"
-line_start: 100264
-line_end: 100277
+line_start: 100323
+line_end: 100336
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -60,6 +64,6 @@ You need a **notation‑independent** way to:
 
 1. register method families and generator families as *auditable, versioned* entries,
 2. select, compose, or fall back among them at run time for a concrete task instance,
-3. publish stable selected-set results and stable identities to UTS, and
+3. declare stable selected-set results, including retained-alternative and all-member results, and publish stable identities to UTS when required, and
 4. emit RSCR‑relevant triggers and pins without inventing new “shadow specs”.
 

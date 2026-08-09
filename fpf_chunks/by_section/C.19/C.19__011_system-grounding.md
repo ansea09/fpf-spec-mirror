@@ -6,12 +6,12 @@ section_id: "C.19:5.1"
 section_title: "System grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__011_system-grounding.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:5.1 — System grounding"
-line_start: 49958
-line_end: 49969
+line_start: 49963
+line_end: 49974
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -53,5 +55,5 @@ A SoTA pack often compares traditions that stay non-dominated for different reas
 
 #### C.19:5.3 - Collective and contextual grounding
 
-A regional or stakeholder-diverse pool may have to sunset one line while keeping others alive to preserve coverage, fairness quotas, or contextual fit. The practical point is that `C.19` governs that pool-treatment decision only while the question under repair is still about the live set; once the result must become one local choice, one enactment plan, or one published selected set, apply the governing pattern for that result immediately.
+A regional or stakeholder-diverse pool may have to sunset one line while keeping others alive to preserve coverage, fairness quotas, or contextual fit. Use `C.19` to state and test that pool-treatment decision only while the question is still about the live set. Once the result must become one local choice, one enactment plan, or one declared selected set, apply the pattern that defines and tests that result.
 

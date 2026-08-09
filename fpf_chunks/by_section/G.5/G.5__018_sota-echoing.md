@@ -6,12 +6,12 @@ section_id: "G.5:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__018_sota-echoing.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:11 — SoTA-Echoing"
-line_start: 100905
-line_end: 100921
+line_start: 101023
+line_end: 101040
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -53,13 +57,14 @@ keywords:
 
 This pattern is designed to carry extension declarations for, not redefine, post-2015 SoTA families through `Uses` plus edition and policy pins:
 
-* **Quality-Diversity survey currentness (2026 DOI `10.1016/j.swevo.2025.102240`, ScienceDirect `S2210650225003979`).** Survey support keeps approaches, applications, archives, diversity use, and challenges visible, but it does not replace FPF governing loci. The practical implication for G.5 is publication closure only: if the selected result is a `Shortlist`, `RankedShortlist`, declared `ExplorationArchive`, `Front`, `Q-front`, abstain, or escalation, publish the declared outcome kind, source-set family, ordering status, and basis pins instead of letting survey taxonomy name the result.
-* **QD-as-MOO and archive-centric QD lines.** Current QD work can return fronts, archives, and set-shaped outcomes under descriptor, distance, dominance, and comparator editions. The practical implication is that G.5 publishes the selector-facing result without redefining archive and front relations; `C.18` and `A.19.CPM` keep descriptor, archive, front, and comparator meaning.
-* **Cultural and style selected-set labels.** Music, dance, and cultural-market source rows motivate labels such as `StyleShortlist` or `TraditionShortlist` only after term bridges and cultural-evolution case meaning are clear. The practical implication is to keep `DerivedViewKind`, `BasePaletteRef`, and `SourceSetFamily` visible; G.5 does not define style, tradition, canon, or platform semantics.
-* **Quality-Diversity and illumination (post-2015 refinements).** Archive-centric QD families fit naturally as `G.5:Ext.NQD` extension declarations with explicit descriptor, distance, and insertion pins. The practical implication is to keep publication honest about whether the selector is returning one admissible set, one ranked result, or no admissible survivor at all.
-* **Open-Endedness (post-2015 line; POET `arXiv:1901.01753`, AlphaEvolve `arXiv:2506.13131`).** POET-class and later open-ended or co-evolutionary families use generator registries plus `TransferRulesRef.edition` pins. The practical implication is to publish pair- or retained-set-shaped results explicitly rather than silently squeezing them into one false single-family winner.
+* **Quality-Diversity survey currentness (2026 DOI `10.1016/j.swevo.2025.102240`, ScienceDirect `S2210650225003979`).** Survey support keeps, for example, approaches, applications, archives, diversity use, and challenges visible, but it does not replace FPF rules. If the current result is the archive or front relation itself, stop at `C.18`. If a later selector consumes that archive or front and uses G.5 to declare its result, keep the archive or front as the source set and emit only an admitted `SelectorOutcomeKind`, with an admitted `SetResultFamily` for a set result; state the ordering and basis pins directly instead of letting survey taxonomy rename the result.
+* **QD-as-MOO and archive-centric QD lines.** Current QD work can produce fronts and archives under declared descriptor, distance, dominance, and comparator editions. `C.18` and `A.19.CPM` carry those meanings. Use G.5 only when a later selector-facing declaration is current. The G.5 record cites the front or archive as its source and states one admitted selector outcome.
+* **Complementary portfolio and ensemble construction (Kostovska et al., 2023, PMLR 224:11/1–17; Chen et al., 2024, PMLR 235:7568–7585).** Current algorithm-portfolio work selects a diverse, representative, non-redundant portfolio for a named downstream selection task, while complementary-ensemble work gives distinct members explicit roles in one combined use. G.5 adopts only the result distinction: a `JointUseSet` states the named use, keyed members, inclusion conditions, and sufficient top-level basis pins. It does not import portfolio or ensemble semantics, imply that members are Methods, or establish compatibility, contribution, co-enactment, or actual selection Work.
+* **Cultural and style selected-set labels.** Music, dance, and cultural-market source rows motivate labels such as `StyleShortlist` or `TraditionShortlist` only after term bridges and cultural-evolution case meaning are clear. Such a label remains a recoverable public label over an admitted `SetResultFamily`; it is not another outcome family. Keep `DerivedViewKind`, `BasePaletteRef`, and `SourceSetFamily` visible. G.5 does not define style, tradition, canon, or platform semantics.
+* **Quality-Diversity and illumination (post-2015 refinements).** Archive-centric QD families fit naturally as `G.5:Ext.NQD` extension declarations with explicit descriptor, distance, and insertion pins. The practical implication is to emit one admitted selector outcome and, for a set result, to say whether its family is `Shortlist`, `RankedShortlist`, or `JointUseSet`.
+* **Open-Endedness (post-2015 line; POET `arXiv:1901.01753`, AlphaEvolve `arXiv:2506.13131`).** POET-class and later open-ended or co-evolutionary families use generator registries plus `TransferRulesRef.edition` pins. The practical implication is to keep pair-valued or retained members explicit inside the applicable admitted set-result family rather than silently squeezing them into one false single-family winner.
 
-* **Algorithm selection and meta-selection (Thompson sampling tutorial `arXiv:1707.02038`; Bayesian optimization tutorial `arXiv:1807.02811`).** Modern selection under uncertainty, robust evaluation, and policy-driven probing use explicit policy records and typed telemetry pins, rather than hard-coded scoring rules. The practical safeguard is that the publication label and basis pins must still remain explicit after those policies have acted.
+* **Algorithm selection and meta-selection (Thompson sampling tutorial `arXiv:1707.02038`; Bayesian optimization tutorial `arXiv:1807.02811`).** Modern selection under uncertainty, robust evaluation, and policy-driven probing use explicit policy records and typed telemetry pins, rather than hard-coded scoring rules. The practical safeguard is that the result label and basis pins must still remain explicit after those policies have acted.
 * **Budgeted specialist acquisition (current agentic-search source-pack pressure via `G.2`).** Current agentic search lines compete on time or budget to threshold plus truthful selected-set return when heterogeneous specialists remain non-dominated. Treat those rows as source-pack pressure until cited by `G.2`; `G.5` keeps specialization profiles and set-return semantics explicit instead of forcing one static breadth winner.
 * **Preference-learning comparators.** Interactive and learned-preference regimes are treated as comparator or policy records with explicit editions when they are actually declared.
 

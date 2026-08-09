@@ -6,12 +6,12 @@ section_id: "C.27:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__013_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:12 — Relations"
-line_start: 56881
-line_end: 56998
+line_start: 56886
+line_end: 57003
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -86,7 +86,7 @@ applies to that concern and let C.27 state only the temporal-claim adequacy ques
 | `A.10`, `B.3`, `B.3.4`, and `G.6` | Naming which temporal reading needs an evidence relation, an `A.10` evidence/provenance path, an assurance claim, freshness window, decay note, or reopen condition. | Evidence graph referring, evidence carriers, provenance references, assurance claims, evidence decay, epistemic debt, and citable path and slice discipline. |
 | `G.9` | Dynamic benchmark requirement: rate-change, rhythm change, recovery speed, intervention effect, effort budget, or dynamic outcome. | Baseline, freshness, comparator, bridge discipline, parity plan, parity report, and reproducible benchmark publication. |
 | `C.25` | Dynamic quality-family slot when agility, resilience, adaptability, recovery, or robustness depends on braking, redirection, stabilization, recovery rate, or rhythm under effort. | Quality-family bundle structure, scope, measures, mechanisms, evidence, and endpoint discipline. |
-| `G.5` | Only the selector-publication case where a selector report consumes a dynamic benchmark result. | Method-family registry use and selector publication. C.27 does not add a default G.5 object. |
+| `G.5` | Only the selector-result declaration where a selector report consumes a dynamic benchmark result. | Method-family registry use and selector-result declaration. C.27 does not add a default G.5 object. When the report must be available to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability. |
 | `A.2.3`, `A.2.8`, `A.2.9`, `A.6.C`, `F.12`, and assurance patterns | Promise-like or boundary-facing temporal claims: release speed, recovery guarantee, SLA-like cadence, SLO-like cadence, public commitment, gate, service acceptance, or assurance use. | Promise content, commitments, instituting speech acts, contract unpacking, service acceptance binding, assurance claims, and release or gate evidence. |
 | `E.18`, `A.20`, and `A.21` | Naming the C.27 temporal-claim adequacy question when a flow, gate, crossing, `PathSlice`, `LaunchGate`, or published decision uses that temporal claim. | E.18/A.20/A.21 relations: selected `TransformationFlowStructure`, `U.Transfer`, `OperationalGate(profile)`, GateCheck publication shape, `ConstraintValidity`, `GateFit`, `DecisionLog`, `PathSlice` or sentinel refresh, `Gamma_time` pins, `SquareLaw`, and crossing visibility. |
 | `C.21`, `G.10`, `G.11`, and `G.12` | Naming the temporal claim when a discipline-health value, shipped pack, dashboard time-series, telemetry pin, RSCR trigger, refresh plan, refresh report, or dashboard slice is read as evidence for improvement, decay, recovery, stabilization, or rate-change. | Discipline-health slot meaning, SoTA pack shipping, DHC series, row, and slice construction, telemetry-pin publication, refresh and decay orchestration, and RSCR trigger discipline. |

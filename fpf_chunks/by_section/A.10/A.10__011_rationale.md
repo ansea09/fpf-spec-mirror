@@ -6,12 +6,12 @@ section_id: "A.10:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__011_rationale.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:8 — Rationale"
-line_start: 23025
-line_end: 23028
+line_start: 23027
+line_end: 23030
 dependencies:
   - "A.10"
   - "A.15.1"

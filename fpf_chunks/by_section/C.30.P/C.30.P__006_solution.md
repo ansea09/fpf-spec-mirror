@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:4 — Solution"
-line_start: 60999
-line_end: 61047
+line_start: 61004
+line_end: 61052
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ ArchitectureOrStructureRepairNote:
   characteristicOrQualityClaimSlice?:
   mathLensClaimSlice?:
   projectSideClaim?:
-  governingPatternRef:
+  relationFunctionClaimRef:
   repairedWordingOrDemotion:
   admissibleUse:
   nonAdmissibleUse:
@@ -79,14 +79,14 @@ ArchitectureOrStructureRepairNote:
   disposition:
 ```
 
-Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, source-return relation, or governing pattern.
+Use the note only when the repair must remain inspectable. A direct local rewrite is enough when one sentence clearly names the selected-structure claim being made, architecture relation, architecture-description use, structural-view use, source-return relation, or subject pattern.
 
 #### C.30.P:4.1 - Recovery sequence
 
 1. **Capture the trigger.** Copy the architecture or structure wording and the sentence that uses it.
 2. **Recover the encountered FPF kind or reference.** Decide whether the text points to a selected structure, architecture claim, description, view, diagram, graph, model, dashboard, ADR, source document, carrier, publication, stratification-wording case or source-label case for `C.30.STRAT`, function, module-interface relation, signature, flow, control, score, quality term, evidence, gate, work, decision, release, or ordinary prose.
 3. **Recover source-publication relations before architecture assignment.** If the wording relies on a source, publication, view, face, `PublicationUnit`, dashboard, ADR, file, carrier, or source-return relation, apply `C.2.P` for source-use, source-currentness, and publication relations before assigning the architecture or structure claim.
-4. **Choose the governing pattern for the architecture or structure use.**
+4. **Choose the subject pattern for the architecture or structure use.**
    - selected structure -> `A.22`;
    - `ArchitectureOf@Context`, selected architecture-relevant structure, or thin conditional `ArchitectureDescription@Context` bridge use -> `C.30`;
    - full `ArchitectureDescription@Context` mechanism -> `C.30.AD`;
@@ -94,9 +94,9 @@ Use the note only when the repair must remain inspectable. A direct local rewrit
    - architecture transformation-flow relation -> `C.30.TFS-REL`;
    - control-structure view -> `C.30.LCA`;
    - cross-scope conflict or frustration triage -> `C.30.ILC`;
-   - stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` -> `C.30.STRAT` before choosing the final governing pattern;
+   - stratification wording or source-label wording such as `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, or `gate` -> `C.30.STRAT` before choosing the final subject pattern;
    - named C.30 subcase -> that subpattern.
-5. **Assign non-architecture claims to their governing patterns.** If the sentence uses architecture wording to carry relation, function or functionality, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, or method claim, apply the governing pattern for that claim and keep this pattern only for the architecture or structure wording repair.
+5. **Assign non-architecture claims to their subject patterns.** If the sentence uses architecture wording to carry relation, function or functionality, mathematical-lens, characteristic and scale, quality, evidence, assurance, gate, work, decision, causal-use, release, or method claim, apply the subject pattern for that claim and keep this pattern only for the architecture or structure wording repair.
 6. **State admissible and non-admissible use.** Say what the reader may do with the repaired wording and what non-admissible adjacent interpretation is blocked.
-7. **Stop C.30.P after assignment.** Stop after the governing pattern or ordinary-prose demotion is named.
+7. **Stop C.30.P after assignment.** Stop after the subject pattern or ordinary-prose demotion is named.
 

@@ -6,12 +6,12 @@ section_id: "C.32.ADA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:1 — Problem frame"
-line_start: 67140
-line_end: 67208
+line_start: 67145
+line_end: 67213
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -74,17 +74,17 @@ Typical entry phrases:
 
 The primary governed object is `ArchitectureDecisionAdequacyEvaluation@Project`: a C.32.ADA-local evaluation record over one `ArchitectureDecisionRelation@Project`, optional `ArchitectureDecisionRecordProjection@Project`, and declared use. It is not the evaluated decision, evaluation Work, or result episteme.
 
-`ArchitectureDecisionAdequacyEvaluation@Project` is a local record form, not a new `U.*` kind, gate, evidence, assurance, pattern-quality evaluation, or replacement for `C.32.PAD`. Its coordinate table expresses the ADA result content; when that result must be a durable claim, one separately identified C.2.1 episteme states it. The dated evaluation remains separate `U.Work`, and any actual evaluation operation application remains with its direct owner.
+`ArchitectureDecisionAdequacyEvaluation@Project` is a local record form, not a new `U.*` kind, gate, evidence, assurance, pattern-quality evaluation, or replacement for `C.32.PAD`. Its coordinate table expresses the ADA result content; when that result must be a durable claim, one separately identified C.2.1 episteme states it. The dated evaluation remains separate `U.Work`, and any actual evaluation operation application remains with its subject pattern.
 
 What goes wrong if C.32.ADA is missed: a decision can appear complete because it has a record, rationale, or diagram, while it is unusable for the declared work. Weak candidate basis, hidden trade-offs, missing method instructions, absent source-return, and vague supersession conditions remain invisible until implementation or review fails.
 
 What C.32.ADA buys in practice: the project can evaluate architecture decisions by complete coordinate set, keep kinds distinct, and repair the weakest live coordinates without turning adequacy into a single score.
 
-Ordinary working move: declare the evaluation use, evaluate every coordinate with an ordinal value and rationale, then return each weak coordinate to the smallest governing pattern that can repair it.
+Ordinary working move: declare the evaluation use, evaluate every coordinate with an ordinal value and rationale, then state the repair condition for each weak coordinate and cite the smallest subject-pattern locus containing the required definition or constraint.
 
 Adoption test: after using C.32.ADA, another practitioner can see the declared use, complete coordinate values, rationales, repair targets, and stop condition for the architecture decision.
 
-Not this pattern when the current object is FPF pattern quality, measurement validity, evidence support, assurance, gate passage, candidate synthesis, comparison, selection, local choice, or ADR publication projection itself. Use the receiving pattern named in `Relations`.
+Not this pattern when the current object is FPF pattern quality, measurement validity, evidence support, assurance, gate passage, candidate synthesis, comparison, selection, local choice, or ADR publication projection itself. Use the pattern for the next question named in `Relations`.
 
 The first useful output is `ArchitectureDecisionAdequacyEvaluation@Project`:
 
@@ -102,7 +102,7 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   evaluatorSystemRef?: U.EntityRef constrained to U.System
   evaluatorRoleAssignmentRef?: U.RelationRef constrained to U.RoleAssignment
   evaluationWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  evaluationOperationApplicationRefs?: direct-owner relation or A.6.1 application references
+  evaluationOperationApplicationRefs?: subject-pattern relation or A.6.1 application references
   adequacyResultEpistemeRef?: U.EpistemeRef
   declaredUse:
   architectureDecisionRelationRef:
@@ -121,5 +121,5 @@ ArchitectureDecisionAdequacyEvaluation@Project:
   reevaluationTrigger:
 ```
 
-Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. When actual evaluation is claimed, name the admitted evaluator System, exact `U.RoleAssignment`, dated evaluation `U.Work`, F.6 `performedUnderAssignment(W, RA)`, and any enacted Method or direct-owner/A.6.1 operation application separately. The result episteme is a separately identified C.2.1 claim-bearing object; the record, Work, operation application, and result do not substitute for one another, and no generic work-to-result relation is inferred.
+Here `@Project` is a compatibility and retrieval cue only. A project-local ADA record names both the exact composite `U.Work` in `projectWorkOccurrenceRef` and the obtaining direct record-use relation in `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's own project relation, the suffix, or either field alone is insufficient. When actual evaluation is claimed, name the admitted evaluator System, exact `U.RoleAssignment`, dated evaluation `U.Work`, F.6 `performedUnderAssignment(W, RA)`, and any enacted Method or subject-pattern/A.6.1 operation application separately. The result episteme is a separately identified C.2.1 claim-bearing object; the record, Work, operation application, and result do not substitute for one another, and no generic work-to-result relation is inferred.
 

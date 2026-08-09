@@ -6,12 +6,12 @@ section_id: "C.30.AD:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__011_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:8 — Consequences"
-line_start: 60599
-line_end: 60614
+line_start: 60604
+line_end: 60619
 dependencies:
   - "A.1"
   - "A.10"
@@ -80,7 +80,7 @@ Positive consequences:
 
 - Architecture descriptions become reusable without pretending to be the architecture, an obtaining relation, or selected structure.
 - Multi-view work can keep each episteme identity, exact viewpoint conformance, selected structures, cross-view correspondence, source-to-use paths, applicable source-return conditions, freshness, representation, publication, and specification use inspectable.
-- Description, view membership, representation, publication, empirical grounding, evidence, assurance, gate, decision, Work, project use, release, and mathematical-lens claims stay distinct and return to their governing patterns.
+- Description, view membership, representation, publication, empirical grounding, evidence, assurance, gate, decision, Work, project use, release, and mathematical-lens claims stay distinct and return to their subject patterns.
 - C.30 can stay focused on architecture while C.30.AD carries the heavier description machinery.
 
 Costs:

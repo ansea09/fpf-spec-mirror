@@ -6,12 +6,12 @@ section_id: "A.2.7:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__006_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
   - "A.2.7:4 — Solution"
-line_start: 5771
-line_end: 5962
+line_start: 5773
+line_end: 5964
 dependencies:
   - "A.15"
   - "A.2"

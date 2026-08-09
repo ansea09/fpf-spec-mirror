@@ -6,12 +6,12 @@ section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 100922
-line_end: 100948
+line_start: 101041
+line_end: 101070
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -65,14 +69,17 @@ keywords:
 
 * Planning and enactment boundary: `A.15.3 (SlotFillingsPlanItem)` as the plannedBaselineRef (cited, not redefined).
 * Actual selector use and result availability: `A.19.SelectorMechanism` and A.6.1 for the actual `Select` application and bindings; `A.15.1` for dated selection Work by an admitted system under an obtaining assignment; C.2.1 for any persisted result episteme; `A.10` and `B.3` for evidence reliance and assurance; the direct authority pattern for authorization; and `E.24.PUB` for an actual publication occurrence. G.5 declarations and records create none of those neighboring facts.
+* Joint-use members outside Method dispatch: the direct identity pattern identifies every `memberRef`; `C.11` supplies a local choice result when one is current; another accepted decision or governed inclusion basis may establish all-member inclusion; E.4.PFR states framework-edition dependency or pairwise compatibility separately; `G.11` supplies currentness; and E.17/E.24.PUB plus the applicable access-carrier pattern supply exposure and source return. `G.5-6 DeclareSetResult` consumes the exact members and sufficient basis pins and emits only the selector-facing membership result.
 
 * Causal-use method dispatch: `C.28` when method selection involves causal effect, counterfactual comparison, causal fairness, causal policy, causal RL, or simulation-only causal-use claims.
-* Optional method or generator extensions through `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus extension-bearing patterns admitted by a governing Part G relation when they add extra selector pins.
-* Mathematical-lens use: apply `C.29` when a selector input depends on a claim-relevant comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis whose mathematical object, mapping mode, preserved or lost structure, or stop condition is not yet recoverable. `C.29` may return no math-lens use, a lens-candidate note, a one-line note, a mini-card, a full card, or a note naming the direct governing pattern for the stated selector use. It does not publish the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; those stay in `G.5` and its governing refs.
+* Optional Method or generator extensions through `G.5:Ext.*`: `C.18`, `C.19`, `C.23`, plus extension-bearing patterns whose exact Part G admission relation is established when they add extra selector pins.
+* Mathematical-lens use: apply `C.29` when a selector input depends on a mathematical object or mapping whose use is not yet recoverable—for example, a comparator, distance, descriptor geometry, embedding, normalization, surrogate model, learned representation, QD archive descriptor, model-family label, or model-selection basis. Recover that object's mapping mode, preserved or lost structure, and stop condition. The recorded result is a C.29 lens-use result; non-exhaustive examples include no lens use, a lens-candidate note, a one-line note, a mini-card, a full card, or a note naming the applicable pattern for the stated selector use. That result does not declare a selector result or its supporting records, such as the selected set, selector policy, registry row, shortlist, ranked shortlist, or selector evidence pins; use `G.5` for those objects and cite the exact references used.
 
-**Publishes to:** `UTS` (family ids, selector policy records, and selected-set identities such as `ShortlistId` when one public result is emitted), `G.6` (audit citations), RSCR emission records (typed triggers and payload pins), and downstream packs through `G.10` shipping publications.
+**Provides to:** downstream uses such as `G.6` audit citations, RSCR emission records with typed triggers and payload pins, and packs shipped through `G.10`. When a named use needs stable public identity, publish the required family ids, selector policy records, or selected-set identities—such as `ShortlistId`—to `UTS` under the applicable identity rule.
 
-**Coordinates with:** `C.11` for local choice results, `C.19` for pool-policy records, `C.32.P2S` when publication of a selected set is one stage in architecture problem-to-structure carry-through, `C.35` when discovered or generated structure-bearing outputs are not yet selected-set publications, `C.24` for enactment-facing next-action records, and the accepted Q-Front shortlist-family continuity line when the published selected-set label is one shortlist-family result.
+**Coordinates with:** `C.11` for local choice results; E.4.PFR for direct framework-edition dependency and pairwise compatibility claims; G.11 for edition currentness; E.17 for a source-backed publication face and return to source; E.24.PUB for a publication occurrence and audience availability; `C.19` for pool-policy records; `C.32.P2S` when a selected-set result declaration feeds architecture problem-to-structure carry-through; `C.35` when a generated or discovered structure-bearing output is not yet a selector-facing result; `C.24` for enactment-facing next-action records; and `C.18` when a `Front` or `Q-front` is the source set for a G.5 use.
 
-Architecture discovery boundary: when a generated or discovered structure-bearing output is only a carrier, description, query result, graph, cluster, or search trace, use `C.35` before G.5. Use G.5 only when the live claim is publication of a selected set with selector-policy and selected-set identity.
+A `Q-front` stays a C.18 source set; it is not the emitted G.5 outcome or a `SetResultFamily`. The G.5 result states one admitted `SelectorOutcomeKind`; a set result also states `Shortlist`, `RankedShortlist`, or `JointUseSet`, and any public selected-set label resolves to that family.
+
+Architecture discovery boundary: when a generated or discovered structure-bearing output is only a representation or carrier—for example, a description, query result, graph, cluster, or search trace—use `C.35` before G.5. Use G.5 only when the live claim is declaration of selected-set result content with selector-policy and selected-set identity; stable public identity and actual publication remain conditional neighboring branches.
 

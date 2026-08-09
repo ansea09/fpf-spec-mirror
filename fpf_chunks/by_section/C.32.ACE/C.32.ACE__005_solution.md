@@ -6,12 +6,12 @@ section_id: "C.32.ACE:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__005_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:4 — Solution"
-line_start: 65538
-line_end: 65558
+line_start: 65543
+line_end: 65563
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,13 +57,13 @@ Work in this order:
 3. Name the candidates, bearers, and selected structures being evaluated.
 4. Establish one exact `U.ClaimScope`, the relevant A.2.6 `U.ContextSlice` membership, effective `U.ReferenceScheme` and reference plane, evaluation window, input projections, resource budget, units, admissible observation or evidence inputs, and missing-or-unknown policy. Record their parity requirement in `parityFrameRef`; the parity-frame record does not replace those bindings.
 5. Choose eval scope: one criterion, coupled criteria, one Q-Bundle slice, a candidate portfolio, or a holistic use slice.
-6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the intended operation checks an expectation or hard constraint. When evaluation actually occurs, identify the dated `U.Work`, any enacted Method or actual direct-owner/A.6.1 application binding, and the typed result separately; the program record itself does not run.
-7. Declare the result form: reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding.
+6. Choose eval operations. Use measurement, simulation, benchmark, scenario walkthrough, monitor, review, or evidence audit according to the claim. Use `test` only when the intended operation checks an expectation or hard constraint. When evaluation actually occurs, identify the dated `U.Work`, any enacted Method or actual subject-pattern/A.6.1 application binding, and the typed result separately; the program record itself does not run.
+7. Declare the result form. Examples include a reading, band, rank, dominance relation, trade-off front, qualitative state, or evidence finding; use the definition and test for the actual result kind.
 8. Name proxy risk and protected counter-characteristics before the eval result can drive work. Optimize only the cycle's chosen indicators; keep the remaining protected characteristics visible as guardrails or risk signals.
-9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for publishing a selected set under `G.5`, or architecture-decision input for `C.32.PAD`.
+9. State the receiving use: `C.32` synthesis input, `C.32.MLAO` residual input, `E.23` improvement feedback, `A.19.CPM` comparison input, `A.19.SelectorMechanism` selection input, `C.11` choice input, input for a selected-set result declared under `G.5`, or architecture-decision input for `C.32.PAD`. For publication input, distinguish `E.17` source-backed face and source return from the `E.24.PUB` publication occurrence and audience availability.
 10. Refresh or retire the eval program when the evaluated row, C.32 candidate palette, bearer, selected structure, environment, parity frame, or source-currentness relation changes.
 
 **Stop condition.** Stop C.32.ACE when the eval program names evaluated rows or Q-Bundle slots, evaluated candidates or structures, parity frame, eval purpose, eval operation, result form, receiving use, proxy risk, protected counter-characteristics, and refresh or retire condition.
 
-**Lowering condition.** Keep the result as an eval result only while the evaluated rows, evaluated candidates or structures, parity frame, eval operation, result form, and receiving use still match the work being done. Lower the result to report-only when missing data, proxy risk, or parity-frame mismatch prevents synthesis, comparison, selection, publication of a selected set, choice, evidence, assurance, or decision use. Retire the eval program when its evaluated row, bearer, selected structure, environment, source-currentness relation, or receiving use no longer belongs to the current architecture work. Return to `C.32.ACS` when the criteria row is missing or wrong, to `C.16` when measurement validity is current, to `C.25` when the evaluated item is composite, and to the named receiving pattern when a stronger downstream claim is current.
+**Lowering condition.** Keep the result as an eval result only while the evaluated rows, evaluated candidates or structures, parity frame, eval operation, result form, and receiving use still match the work being done. Lower the result to report-only when missing data, proxy risk, or parity-frame mismatch prevents synthesis, comparison, selection, selected-set result declaration, actual publication, choice, evidence, assurance, or decision use. Retire the eval program when its evaluated row, bearer, selected structure, environment, source-currentness relation, or receiving use no longer belongs to the current architecture work. Use `C.32.ACS` when the criteria row is missing or wrong, `C.16` when measurement validity is current, `C.25` when the evaluated item is composite, and the named pattern for the next question when a stronger downstream claim is current.
 

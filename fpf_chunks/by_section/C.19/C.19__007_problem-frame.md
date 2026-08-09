@@ -6,12 +6,12 @@ section_id: "C.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:1 — Problem frame"
-line_start: 49715
-line_end: 49726
+line_start: 49720
+line_end: 49731
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -53,5 +55,5 @@ Immediate failure indicators for this pattern:
 - the governing lens or policy state is missing
 - the next pool-side treatment exists only as one vague promise to continue exploration later
 
-If the question is still which single option should survive now, apply `C.11`. If the next artifact must already be one enactment-facing plan, apply `C.24`. If the retained set must be published for downstream consumption, apply `G.5`.
+If the question is still which single option should survive now, apply `C.11`. If the next artifact must already be one enactment-facing plan, apply `C.24`. If the retained set still needs a selector-facing result declaration, apply `G.5`. If that result already exists and the question is presentation or availability to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 

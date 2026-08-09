@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.RSA.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
-line_start: 63566
-line_end: 63946
+line_start: 63571
+line_end: 63951
 dependencies:
   - "A.10"
   - "A.19"
@@ -25,7 +25,6 @@ dependencies:
   - "C.30.ASV"
   - "C.31"
   - "C.31.ASAP"
-  - "C.32.P2S"
   - "G.5"
   - "G.6"
 keywords:
@@ -48,7 +47,7 @@ keywords:
 
 Use this pattern when a practitioner needs to locate where reusable structure lives, where bespoke residue grows, which accounting basis is being used, what can be refactored, and what remains a bounded exception or source-return condition. A report-only share stays report-only unless the relevant outside-RSA use is governed by its governing pattern.
 
-Claim-use boundary: comparison, publication, evidence validity, assurance or safety-case reliance, gate use, architecture scale preference, causal-use, selected-set publication, candidate-synthesis, and local decision are outside-RSA uses. C.31.RSA may state the reusable locus, bespoke residue, accounting basis, report-only share, repair direction, and source-return condition. Add those other claims only under their governing patterns when those claims are being made.
+Claim-use boundary: any use that relies on the RSA account to make a stronger claim is outside RSA. Examples include comparison, publication, evidence validity, assurance or safety-case reliance, gate use, architecture scale preference, causal use, selected-set result declaration, candidate synthesis, and local decision. Record with C.31.RSA only the reusable locus, bespoke residue, accounting basis, report-only share, repair direction, and source-return condition. Add another claim only after naming and applying the pattern that defines and tests it.
 
 The first useful move is `ReusableStructureTriage`:
 
@@ -414,8 +413,8 @@ Older or local sources may serve as lineage or worked examples only when the row
 | `A.10`, `B.3`, `G.6` | Govern evidence, assurance, and safety-case reliance. |
 | `C.29` | Governs compression, epiplexity, RG, or other mathematical-lens claims when accounting depends on a lens. |
 | `C.27`, `C.28`, `C.31.ASAP`, `C.18.1`, `C.19.1` | Govern temporal, causal, architecture scale-preference, scale-law, and BLP claims derived from residue growth or reuse movement. |
-| `C.32.P2S` | Uses RSA rows when reusable structure, bespoke residue, evidence reuse, or source-return pressure must be carried through architecturing; RSA does not govern candidate synthesis, selected-set publication, or architecture decisions. |
-| `G.5`, `C.11` | Govern set-return selection and local decision claims. Candidate-synthesis and selected-set publication claims are governed by `G.5` when set-return or candidate-set publication is being claimed; local decision claims are governed by `C.11`; RSA does not govern candidate-synthesis, selected-set, or decision use. |
+| `C.32.P2S` | RSA rows may supply reusable structure, bespoke residue, evidence reuse, or source-return pressure to an architecturing flow. Candidate synthesis, selected-set result declaration, and architecture decisions remain outside RSA. |
+| `G.5`, `E.17`, `E.24.PUB`, `C.11` | Use `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and source return, `E.24.PUB` for the publication occurrence and audience availability, and `C.11` for local decision. Candidate synthesis stays with `C.32`; RSA defines or tests none of these uses. |
 
 ### C.31.RSA:End
 

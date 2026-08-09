@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:8"
 section_title: "Common repair cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__009_common-repair-cues.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:8 — Common repair cues"
-line_start: 66515
-line_end: 66530
+line_start: 66520
+line_end: 66535
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,15 +59,15 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 |---|---|---|
-| `WarningNameOnly` | A memorable warning name does not change the next repair action. | Add the architecture object, blocked overread, governing pattern, and repair action, or remove the row. |
+| `WarningNameOnly` | A memorable warning name does not change the next repair action. | Add the architecture object, blocked overread, subject pattern, and repair action, or remove the row. |
 | `EverythingIsFailureCue` | Any architecture worry is admitted as a C.32.FAIL cue. | Admit only recurring failures that change the first architecture repair action. |
 | `AuditPromptAsPattern` | The row says to measure, review, or audit. | Demote it unless it names the architecture object and repair action first. |
 | `EvidenceAsRepair` | More evidence is treated as the repair. | Name the architecture repair first; evidence may follow under its own pattern. |
 | `DecisionInsideRepairCue` | The cue says which architecture to choose. | Local choice belongs to `C.11`; project architecture decision belongs to `C.32.PAD` after the candidate repair is available. |
-| `DescriptionCarrierAsRepair` | A diagram, report, dashboard, or publication face is treated as the repair. | Description use belongs to `C.30.AD`; publication-face use belongs to `E.17` or `E.24.PUB`; dashboard, report, or generated carrier use must stay under source-use or publication governance. Keep C.32.FAIL only if an architecture object under stress and repair action are named. |
+| `DescriptionCarrierAsRepair` | A diagram, report, dashboard, or publication face is treated as the repair. | Use `C.30.AD` for description use, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability. Keep dashboard, report, or generated-carrier use under its source-use or publication relation. Keep C.32.FAIL only if an architecture object under stress and repair action are named. |
 | `FunctionAsQuality` | A function such as teach, compute, certify, or regulate is treated as the architecture characteristic. | Recover the function under `A.6.F` and name the separate architecture characteristic or quality bundle. |
-| `FunctionalGraphNoBearer` | A functional graph, workflow, or method structure names a required function that no admitted bearer can perform under the module, placement, resource, control, or evidence constraints declared for the case. | Return to C.32; add or change bearer, split function, change placement or resource access, change control responsibility, reduce demand, or reject the candidate. |
-| `IdealityAsAdequacyShortcut` | The phrase ideal architecture, no modules, or fewer parts is used as architecture adequacy by itself. | Convert it into a C.32 candidate and name function bearing, lost structure, new burden, architecture characteristics, and receiving pattern. |
-| `UniversalBearerAsAdequacyClaim` | A universal module, general substrate, or existing resource is used as better architecture because it can carry more functions. | Use `C.19.1` only when scale advantage is claimed; otherwise recover module-interface, coupling, evidence, control, safety, admissibility, and source-return effects before explicit comparison belongs to `A.19.CPM`, local choice to `C.11`, set-returning selection to `A.19.SelectorMechanism`, or publication of a selected set to `G.5`. |
-| `ConwayNameAsRepair` | A warning row says Conway, mirroring, or inverse Conway but gives no architecture repair. | Open `C.32.CONWAY`; name the changed referent, the exact influence-source-side and transformed-side C.30 architecture relations or modal claims, the direct influence kind/predicate/occurrence or truthful stop, affected characteristics, candidate form, gain, loss, and receiving pattern. Keep actors, assignments, Work, actual transformation, and any E.18.NET network or cross-flow occurrence with their direct owners. |
+| `FunctionalGraphNoBearer` | A functional graph, workflow, or method structure names a required function that no admitted bearer can perform under the module, placement, resource, control, or evidence constraints declared for the case. | Use C.32; add or change bearer, split function, change placement or resource access, change control responsibility, reduce demand, or reject the candidate. |
+| `IdealityAsAdequacyShortcut` | The phrase ideal architecture, no modules, or fewer parts is used as architecture adequacy by itself. | Convert it into a C.32 candidate and name function bearing, lost structure, new burden, architecture characteristics, and pattern for the next question. |
+| `UniversalBearerAsAdequacyClaim` | A universal module, general substrate, or existing resource is used as better architecture because it can carry more functions. | Use `C.19.1` only when scale advantage is claimed. Otherwise recover module-interface, coupling, evidence, control, safety, admissibility, and source-return effects before stating an explicit comparison under `A.19.CPM`, local choice under `C.11`, set-returning selection under `A.19.SelectorMechanism`, or selected-set result declaration under `G.5`. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the occurrence and audience availability. |
+| `ConwayNameAsRepair` | A warning row says Conway, mirroring, or inverse Conway but gives no architecture repair. | Open `C.32.CONWAY`; name the changed referent, the exact influence-source-side and transformed-side C.30 architecture relations or modal claims, the direct influence kind/predicate/occurrence or truthful stop, affected characteristics, candidate form, gain, loss, and pattern for the next question. Keep actors, assignments, Work, actual transformation, and any E.18.NET network or cross-flow occurrence with their subject patterns. |
 

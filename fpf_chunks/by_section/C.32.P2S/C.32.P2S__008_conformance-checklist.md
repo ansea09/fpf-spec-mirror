@@ -6,12 +6,12 @@ section_id: "C.32.P2S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:7 — Conformance Checklist"
-line_start: 64865
-line_end: 64881
+line_start: 64870
+line_end: 64886
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -51,14 +51,14 @@ keywords:
 
 | Check | Pass condition |
 |---|---|
-| `CC-C32P2S-1` | The card names described holon, bounded context, problem pressure, first governing pattern, and at least one architecture-relevant structure or unknown-structure slot. |
+| `CC-C32P2S-1` | The card names described holon, bounded context, problem pressure, first subject pattern, and at least one architecture-relevant structure or unknown-structure slot. |
 | `CC-C32P2S-2` | Each architecture use keeps the exact described holon, obtaining C.30 `ArchitectureRelation` occurrences and their selected-structure participants, and any affirmative, negative, unresolved, candidate, required, desired, or expected `ArchitectureClaim` content separate; no description or publication record carries the architecture by itself. |
 | `CC-C32P2S-3` | Architecture characteristics are separate from functional demands, measurements, eval programs, eval results, Q-bundles, comparison rules, and decisions. |
 | `CC-C32P2S-4` | The structural-information slots in the P2S card record unknown, selected, expected, actual, captured, handed-off, latent or hidden, lost, and returned structure when those slots are live. |
-| `CC-C32P2S-5` | Candidate synthesis exits to `C.32`, comparison and selection claims exit to their governing patterns, and the P2S card does not choose a winner by score or prose preference. |
-| `CC-C32P2S-6` | A project architecture decision, when current, exits to `C.32.PAD`; ADR-like publication exits to `C.32.ADR` and publication governing patterns. |
-| `CC-C32P2S-7` | Method, `MethodDescription`, work-plan, readiness, and performed-work claims exit to A.15-family governing patterns. Every actual transformation is independently grounded under `A.3.4`; every claimed work-to-change link resolves through its exact direct governor or a local claim selected under `A.6.RCD` disposition 2; production-work, entity-identity-inception, and production-completion refs point to separate local `A.15.PROD` claims. The P2S card carries refs and expected structure effects only. |
-| `CC-C32P2S-8` | Measurement, Q-bundle, mathematical-lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh claims exit to `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, or `E.18`. |
+| `CC-C32P2S-5` | Candidate synthesis requires `C.32`, comparison and selection claims exit to their subject patterns, and the P2S card does not choose a winner by score or prose preference. |
+| `CC-C32P2S-6` | A project architecture decision, when current, requires `C.32.PAD`; ADR-like publication requires `C.32.ADR` and publication subject patterns. |
+| `CC-C32P2S-7` | Method, `MethodDescription`, work-plan, readiness, and performed-work claims require A.15-family subject patterns. Every actual transformation is independently grounded under `A.3.4`; every claimed work-to-change link resolves through its exact direct governor or a local claim selected under `A.6.RCD` disposition 2; production-work, entity-identity-inception, and production-completion refs point to separate local `A.15.PROD` claims. The P2S card carries refs and expected structure effects only. |
+| `CC-C32P2S-8` | Measurement, Q-bundle, mathematical-lens, eval, improvement, `G.11` currentness refresh, and `E.18` transformation-flow slice-local refresh claims require `C.16`, `C.25`, `C.29`, `C.32.ACE`, `E.23`, `G.11`, or `E.18`. |
 | `CC-C32P2S-9` | Architecture-influence cases keep the changed referent, any actual A.3.4 transformation, both exact C.30 architecture sides or modal claims, every influence source's exact kind and obtaining direct relation or precise provisional disposition, and the `C.32.CONWAY` synthesis-local frame or exact pair row separately recoverable. |
 | `CC-C32P2S-10` | The pattern use covers at least one actual-structure feedback route that checks subject-side `U.Structure` values recovered under `A.22` from directly governed obtaining facts, architecture-characteristic results, and relevant functional-characteristic or capability implications through operation, use, inspection, measurement, eval result, telemetry, decay, stronger-structure inspection return, or decision-repair trigger. |
 | `CC-C32P2S-11` | Selected and expected structures, methods, plans, models, decisions, descriptions, evaluation results, publications, and transfers remain distinct from actual structures and actual transformations. Resemblance does not establish conformance. Shared work, adjacency, common referents, or one flow establishes neither transformation composition nor partlessness. |

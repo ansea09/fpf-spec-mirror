@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 52750
-line_end: 52974
+line_start: 52755
+line_end: 52979
 dependencies:
   - "A.1"
   - "A.10"
@@ -82,7 +82,7 @@ That `CheckpointReturn` should state the declared utility objective and current 
 
 A successful probe does not by itself justify a larger burn or a committed rollout. `C.24` carries the `CheckpointReturn` record and call-plan semantics for this probe loop; `A.15` carries the DesignRunTag split and `E.16` carries the budget partition plus guard and ledger enforcement. Low-human-overlap approaches remain sound only while they stay tied to the declared utility objective, budget boundaries, and evidence locus explicitly.
 
-**Bridge to neighboring patterns.** `ProbeBudget` belongs to `C.11` while it means epistemic budget for further probing before choice. `C.24` carries budgets once they are enactment, tool-call, or rollout budgets. If the question is still which option survives now, apply `C.11`; if it is now pool policy over several still-live candidate lines, apply `C.19`; if it is selector-facing publication of the selected result, apply `G.5`.
+**Bridge to neighboring patterns.** `ProbeBudget` belongs to `C.11` while it means epistemic budget for further probing before choice. `C.24` carries budgets once they are enactment, tool-call, or rollout budgets. If the question is still which option survives now, apply `C.11`; if it is pool policy over several still-live candidate lines, apply `C.19`; if it is selector-facing declaration of the selected result, apply `G.5`. If that declared result must be presented or made available to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
 **Explicit enactment result.** A conformant `C.24` pass should therefore leave either one enactment-facing `CallPlan` that states the current objective, each planned exact Method ref and any separate route-description ref, planned call order, planned budget envelope, stop or replan condition, and next planned action, or one `CheckpointReturn` that states the current objective or task family, tested Methods and descriptions when recovered, burned and residual actual budget, evidence locus, commit trigger, and recommended next action.
 
@@ -95,7 +95,7 @@ A successful probe does not by itself justify a larger burn or a committed rollo
 * **ATC-3 (Budget & Harm Gates).** Plans **SHALL** declare ceilings on compute, cost, wall-time, and risk; execution **MUST** abort or replan on breach. Actual burned or residual budget belongs in `CheckpointReturn`, `CallGraph`, or other work-side reporting, not inside the `CallPlan` field set.
 * **ATC-4 (Explore-Share Discipline).** Plans **MUST** declare `explore_share`; defaults **inherit from E/E-LOG profiles**. **Informative defaults**: `0` for safety-critical or deterministic tasks; `approx 0.2-0.4` for ambiguous tasks with heterogeneous tool families. Promotion of illumination telemetry into dominance **requires explicit policy**.
 * **ATC-5 (Provenance & Replay).** Every actual call **MUST** emit a **CallGraph** row with its exact Work ref, exact enacted Method ref, performer System, obtaining assignment, Service id, optional cited MethodDescription edition, inputs and outputs (redacted per privacy), `CallPlan` ref, **EmitterPolicyRef**, actual interval, and budget deltas. The graph records these facts; it creates none of them. (NQD/E/E provenance fields apply when used.)
-* **ATC-6 (Assurance-First Decisions).** Selection **MUST** respect B.3: WLNK minima on F/R (weakest-link floors), CL penalties on integration, and **no** chimera scores across design-time and run-time scopes. Publish **<F,G,R>** for the typed claim `this plan is admissible under K,S`.
+* **ATC-6 (Assurance-First Decisions).** Selection **MUST** respect B.3: WLNK minima on the F and R dimensions (weakest-link floors), CL penalties on integration, and **no** chimera scores across design-time and run-time scopes. State **<F,G,R>** for the typed claim `this plan is admissible under K,S`.
 * **ATC-7 (Notation/Vendor Independence).** Core pattern text **MUST NOT** encode vendor-specific tokens; bindings occur in Context via Bridges/Profiles. (Lexical guard-rails.)
 
 #### C.24:4.1a - Planning under budget must consume the same declared doctrine
@@ -133,10 +133,10 @@ What this does not establish: `C.24` does not estimate effects, prove identifica
 
 - Planning should reuse the declared source set, decision lens, probe budget, and stopping condition rather than creating one planning-only choice semantics.
 - Budgeted sequencing may mix exploitation and exploration, but the declared source set and the declared reason for the next probe must stay recoverable.
-- Use planning language such as `probe next`, `hold as archive`, `apply G.5 for shortlist publication`, or `stop for now` only when the relevant lens-side reason is stated directly.
+- Use planning language such as `probe next`, `hold as archive`, `apply G.5 for shortlist declaration`, or `stop for now` only when the relevant lens-side reason is stated directly.
 - `explore_share`, `backstop_confidence`, probe budgets, and replan triggers are planning harmonization terms for that same declared choice doctrine.
 - They may regulate sequence and stopping; they do not redefine `Front`, `Archive`, `Shortlist`, or `SelectionSlot`.
-- If the next planned output is one public `Shortlist` or `RankedShortlist`, `C.24` should name that as a neighbouring-pattern exit to `G.5`, not emit the selector artifact itself.
+- If the next planned output is one public `Shortlist` or `RankedShortlist`, `C.24` should identify a neighboring result-declaration question and apply `G.5`, not emit the selector artifact itself.
 
 #### C.24:4.2 - Policy profile and BLP precedence
 
@@ -152,7 +152,7 @@ What this does not establish: `C.24` does not estimate effects, prove identifica
 
 #### C.24:4.4 - Explicit enactment outputs and closure rule
 
-A finished `C.24` pass should publish one enactment result rather than one vague statement that the system now has a plan.
+A finished `C.24` pass should emit one enactment result rather than one vague statement that the system now has a plan.
 
 Two output shapes are admissible here:
 
@@ -208,7 +208,7 @@ CheckpointReturn(
 )
 ```
 
-Close as one enactment-facing `CallPlan` when the choice result is already fixed enough that execution order, gating, and replanning are now the call-planning question. Close as one `CheckpointReturn` when bounded scout/probe work is still admissible inside enactment planning. Return to the neighbouring pattern when the result has actually fallen back into local choice, pool policy, or selector-facing publication.
+Close as one enactment-facing `CallPlan` when the choice result is already fixed enough that execution order, gating, and replanning are now the call-planning question. Close as one `CheckpointReturn` when bounded scout or probe work is still admissible inside enactment planning. Apply the neighboring pattern when the result has fallen back into local choice, pool policy, selector-facing result declaration, or publication availability.
 
 If the result still does not state what should execute now, what budget is planned or already burned, and what event stops or replans the route, it is still unfinished `C.24` work.
 

@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 55181
-line_end: 55328
+line_start: 55186
+line_end: 55333
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -78,8 +78,8 @@ Do not use C.27 for:
 - dashboard time-series, telemetry pins, path and slice publication, pack shipping,
   discipline-health slots, and refresh orchestration, which `C.21`, `G.12`,
   `G.6`, `G.10`, and `G.11` carry;
-- selector publication roles, which `G.5` carries only when a concrete
-  selector-publication case consumes a dynamic benchmark result;
+- selector-result declaration, which `G.5` carries only when a concrete
+  selector result consumes a dynamic benchmark result; when that result must be available to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability;
 - quantum-like probe, frame, export, or coarsening residues, which `C.26` carries;
 - publication roles, MVPK faces, primary EntityOfConcern values of related FPF patterns, or Kernel `U.*` kinds.
 

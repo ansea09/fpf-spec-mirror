@@ -5,13 +5,13 @@ pattern_title: "Pattern-Framework Relation and Edition Discipline"
 section_id: "E.4.PFR:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.4.PFR/E.4.PFR__009_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+output_path: "by_section/E.4.PFR/E.4.PFR__010_consequences.md"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:8 — Consequences"
-line_start: 71452
-line_end: 71459
+line_start: 71498
+line_end: 71505
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -49,9 +49,9 @@ keywords:
 
 ### E.4.PFR:8 - Consequences
 
-**Benefits.** Readable assertions remain cheap. Named maintenance receivers gain stable rows for relation comparison, edition impact, publication/dependency repair, and refresh. Actual use, candidate bases, conflicts, and downstream reliance become inspectable without adding governance kinds or owner relations.
+**Benefits.** Readable assertions remain cheap. Named maintenance receivers gain stable rows for relation comparison, edition impact, publication/dependency repair, and refresh. Dependency and pairwise compatibility can change independently and reopen only affected claims. Actual use, candidate bases, conflicts, and downstream reliance become inspectable without adding governance kinds or owner relations.
 
-**Costs.** A PFR row must resolve an existing assertion and exact ClaimGraph rather than citing a heading. High-cost analysis requires complete candidate and pairwise work. Existing record-first schemas and owner fields need repair.
+**Costs.** Any selected generic row or dependency-specific record must resolve an existing assertion and exact ClaimGraph rather than citing a heading. High-cost analysis requires complete candidate and pairwise work. Existing record-first schemas and owner fields need repair.
 
 **Limits.** E.4.PFR neither defines every subject relation nor decides source acceptance, evidence, assurance, permission, actual Work, publication, or currentness. A row cannot repair missing subject semantics. A basis analysis cannot manufacture a candidate, actual-use claim, or authority result.
 

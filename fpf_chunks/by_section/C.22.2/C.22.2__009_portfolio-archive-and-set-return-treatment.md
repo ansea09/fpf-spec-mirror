@@ -6,12 +6,12 @@ section_id: "C.22.2:8"
 section_title: "Portfolio, Archive, and Set-Return Treatment"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__009_portfolio-archive-and-set-return-treatment.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:8 — Portfolio, Archive, and Set-Return Treatment"
-line_start: 52094
-line_end: 52118
+line_start: 52099
+line_end: 52123
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,9 +58,9 @@ keywords:
 
 ### C.22.2:8 - Portfolio, Archive, and Set-Return Treatment
 
-Archive, portfolio, pool, front, shortlist, selected-set, and set-return material remain source and set cues for the current problem-side record. `ProblemCard` preserves `sourceSetRef`, source-set kind, selection or retention criterion, and the non-scalar next use when current; portfolio and archive governance stays with the named governing patterns and does not become a local problem-card kind.
+Archive, portfolio, pool, front, shortlist, selected-set, and set-return material remain source and set cues for the current problem-side record. `ProblemCard` preserves `sourceSetRef`, source-set kind, selection or retention criterion, and the non-scalar next use when current; portfolio and archive governance stays with the named subject patterns and does not become a local problem-card kind.
 
-Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `LivePool`, and set-return material remain current source distinctions, but their current FPF governing patterns are already available:
+Archive, portfolio, palette, front, shortlist, ranked shortlist, selected set, `LivePool`, and set-return material remain current source distinctions, but their current FPF subject patterns are already available:
 
 | Source wording | Current FPF pattern or relation | Required problem-card preservation when the corresponding claim is being made |
 |---|---|---|

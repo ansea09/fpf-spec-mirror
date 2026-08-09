@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 85582
-line_end: 85589
+line_start: 85631
+line_end: 85638
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -39,7 +39,7 @@ keywords:
 
 ### E.19:0 - Use this when
 
-Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. E.19 declares profile-based checks and conclusion semantics; actual reviewer systems perform dated review work and separately constitute findings/results and any authority-bearing decision.
+Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. `E.19` supplies profile-based questions and conclusion semantics. A reviewer acting in a role applies the selected questions; identify the review Method, system, assignment, dated Work, or separate authority-bearing decision only when exact replay or a named later use depends on those identities.
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, primary `EntityOfConcern` stability, terminology, SoTA grounding, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 

@@ -6,12 +6,12 @@ section_id: "C.19:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__005_first-minute-questions.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0.3 — First-minute questions"
-line_start: 49697
-line_end: 49704
+line_start: 49702
+line_end: 49709
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -48,6 +50,6 @@ keywords:
 - Which still-live pool, frontier segment, or family region is actually under governance now?
 - Which lens or policy state is governing it?
 - Is the next admissible pool treatment to widen, keep the frontier, narrow to a subset, or sunset a line?
-- If none of those treatments is current, which governing pattern now applies, and why is the question no longer pool policy?
+- If none of those treatments is current, which subject pattern now applies, and why is the question no longer pool policy?
 - What event or threshold would justify changing that treatment next?
 

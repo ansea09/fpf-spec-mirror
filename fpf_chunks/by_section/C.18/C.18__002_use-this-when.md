@@ -6,12 +6,12 @@ section_id: "C.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__002_use-this-when.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:0 — Use This When"
-line_start: 49263
-line_end: 49276
+line_start: 49265
+line_end: 49278
 dependencies:
   - "A.15"
   - "A.19"
@@ -24,9 +24,11 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "C.36"
+  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
+  - "E.24.PUB"
   - "F.17"
   - "F.18"
   - "F.9"
@@ -54,7 +56,7 @@ Typical cases include quality-diversity archives, open-ended engineering variant
 
 #### C.18:0.1 - What Goes Wrong If Missed
 
-The project treats an archive as a shortlist, a front as a decision, illumination telemetry as dominance, a retained stepping stone as current best, or a cultural-style variant as a root cultural kind. Generation looks productive, but the next relation is unclear: retain, compare, publish selected set, choose locally, plan work, measure effects, refresh, or write a cultural-evolution case.
+The project treats an archive as a shortlist, a front as a decision, illumination telemetry as dominance, a retained stepping stone as current best, or a cultural-style variant as a root cultural kind. Generation looks productive, but the next relation is unclear—for example, whether to retain, compare, declare a selected-set result, choose locally, plan work, measure effects, refresh, or write a cultural-evolution case.
 
 #### C.18:0.2 - What This Buys
 

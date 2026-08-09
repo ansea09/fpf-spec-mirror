@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:7 — Conformance Checklist"
-line_start: 66259
-line_end: 66271
+line_start: 66264
+line_end: 66276
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -58,7 +58,7 @@ keywords:
 | `CC-C32.MLAO-1` | The use starts from a recoverable residual triage. | Prevents premature optimization. |
 | `CC-C32.MLAO-2` | Affected declared holon-level refs or declared scope refs and selected structures are named. | Keeps multilevel wording reviewable. |
 | `CC-C32.MLAO-3` | Each candidate names residual reduced, architecture characteristic affected, and new burden. | Prevents one-sided optimization. |
-| `CC-C32.MLAO-4` | Comparison inputs, comparison results, selection results, and choice results name their receiving pattern. | Keeps C.32.MLAO from performing comparison, selection, or choice locally. |
+| `CC-C32.MLAO-4` | Comparison inputs, comparison results, selection results, and choice results name their pattern for the next question. | Keeps C.32.MLAO from performing comparison, selection, or choice locally. |
 | `CC-C32.MLAO-5` | Lens-backed claims use C.29 when mathematical-lens use is being claimed. | Keeps mathematical adequacy outside this pattern. |
 | `CC-C32.MLAO-6` | Source-return condition is present when compression hides distinctions. | Keeps later source-use or decision-use claims tied to recoverable sources. |
 | `CC-C32.MLAO-7` | Evolution window, dynamic front or archive relation, and any NQD or OEE support are typed as retention or generation support only. | Blocks static-optimum and selector overread. |

@@ -6,12 +6,12 @@ section_id: "C.18:7"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__009_bias-annotation.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:7 — Bias-Annotation"
-line_start: 49480
-line_end: 49483
+line_start: 49485
+line_end: 49488
 dependencies:
   - "A.15"
   - "A.19"
@@ -24,9 +24,11 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "C.36"
+  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
+  - "E.24.PUB"
   - "F.17"
   - "F.18"
   - "F.9"
@@ -48,5 +50,5 @@ keywords:
 
 ### C.18:7 - Bias-Annotation
 
-Lexical and semiotic bias are controlled by keeping archive, front, telemetry, selected-set publication, local choice, cultural-evolution case, architecture move, work permission, and evidence relations distinct. Mathematical descriptions of descriptor maps, fronts, distances, coverage, or novelty use the mathematical-lens pattern when lens adequacy matters.
+Lexical and semiotic bias are controlled by keeping archive, front, telemetry, selected-set result declaration, audience publication, local choice, cultural-evolution case, architecture move, work permission, and evidence relations distinct. Mathematical descriptions of descriptor maps, fronts, distances, coverage, or novelty use the mathematical-lens pattern when lens adequacy matters.
 

@@ -6,12 +6,12 @@ section_id: "C.32:6"
 section_title: "Architecture Trade-Off Failure Modes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__007_architecture-trade-off-failure-modes.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:6 — Architecture Trade-Off Failure Modes"
-line_start: 64499
-line_end: 64513
+line_start: 64504
+line_end: 64518
 dependencies:
   - "A.10"
   - "A.15"
@@ -72,9 +72,9 @@ keywords:
 | **Local structure win hides other-scope loss** | A module split, control placement, evidence scope, or team responsibility change helps one concern while worsening another architecture characteristic. Rebuild the synthesis structure map and record the gained and lost characteristics before comparison. |
 | **Function and architecture characteristic collapse** | The candidate is argued from user-visible function while evolvability, coupling, cohesion, latency, evidence burden, or another architecture characteristic remains unnamed. Recover the function through `A.6.F` or the structural-view pattern, then name the architecture characteristic separately. |
 | **Function without feasible bearer** | A functional architecture, workflow, method step, or searched graph asks for a function that no admitted module, role, resource, placement, control relation, or evidence structure can carry. Repair the bearer set before admitting the candidate. |
-| **No real trade-off** | Only one configuration is visible, or alternatives differ only by description. Generate structurally different candidates, or state why the project work is not architecture synthesis and return to the direct governing pattern. |
+| **No real trade-off** | Only one configuration is visible, or alternatives differ only by description. Generate structurally different candidates, or state why the project work is not architecture synthesis and use the subject pattern. |
 | **Description artifact stands in for candidate content** | A diagram, ADR, view, dashboard, benchmark output, or digital-twin view is the visible work product, but the selected structures and architecture-characteristic trade-off are still missing. Keep the visible work product under description-use, C.29 mathematical-lens use, benchmark, publication, or source-use governance and recover candidate content before C.32 use. |
-| **Front member treated as durable optimum** | A front member, local winner, or benchmark leader is used as if the evolution window will stay fixed. Record evolution window, source-return condition, and retained alternatives through C.18 or C.19; use G.5 only when publishing a selected set after the receiving pattern has made that set available. |
+| **Front member treated as durable optimum** | A front member, local winner, or benchmark leader is used as if the evolution window will stay fixed. Record evolution window, source-return condition, and retained alternatives under the exact C.18 or C.19 predicates; use G.5 only to declare a selected-set result from those alternatives. If the result is published, use E.17 for a source-backed face and source return and E.24.PUB for the publication occurrence and audience availability. |
 | **Software-source overfit** | A software architecture source supplies a useful architecture-change idea, but the described holon is not a software system. Translate only the change over selected structures and characteristics; do not import the software ontology. |
 | **Architecture-influence source omitted** | The candidate architecture for a changed referent cannot be built, tested, deployed, certified, or evolved under the current architecture, Work, communication, method, tool, deployment, evidence, selected-structure, or other source, but that source's exact kind and influence status are hidden. | Open `C.32.CONWAY`; recover the source kind and either its exact obtaining direct relation or the precise provisional disposition, keep acting System, role, Work, changed referent, and any actual transformation separately governed, and prepare influence-source-side change, transformed-side change, joint change, and bounded mismatch as candidate alternatives or comparison inputs. |
 | **Method-defined dimensions lose their semantics** | A BIM, digital-twin, or view-method dimension already carries method-defined structure, constraint, cost, schedule, use-phase, or maintenance semantics, but the synthesis text keeps only the dimension name or dimension count. Preserve the method semantics and map them to selected structures, constraints, characteristics, and source-return conditions. |

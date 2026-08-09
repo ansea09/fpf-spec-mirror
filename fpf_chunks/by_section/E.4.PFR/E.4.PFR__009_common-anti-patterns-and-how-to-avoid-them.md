@@ -5,13 +5,13 @@ pattern_title: "Pattern-Framework Relation and Edition Discipline"
 section_id: "E.4.PFR:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.4.PFR/E.4.PFR__008_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+output_path: "by_section/E.4.PFR/E.4.PFR__009_common-anti-patterns-and-how-to-avoid-them.md"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71437
-line_end: 71451
+line_start: 71482
+line_end: 71497
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -54,8 +54,9 @@ keywords:
 | Related-pattern flattening | A relation list hides subject, function, predicate, and blocked reading. | Recover the exact subject assertion first; add a relation-specific row only for a named PFR receiver. |
 | Mandatory row for every relation | Representation burden becomes an ontology and ordinary authoring becomes record-first. | Keep lane 1; open lane 2 only above its receiver threshold. |
 | Pattern owner or governor | A pattern locator becomes a semantic owner, authority, or relation participant. | Cite the exact defining or constraining ClaimGraph and state the subject assertion. |
-| Dependency as specialization | Edition reliance is read as child-pattern inheritance. | Use the exact dependency assertion and companion edition record; state specialization separately if it also obtains. |
-| Compatibility by version label | An edition number is assumed to settle impact. | State boundary, changed relevant rules, deprecation, supersession, and refresh. |
+| Dependency as specialization | Edition reliance is read as child-pattern inheritance. | Use the exact dependency assertion; add a dependency-specific record only when a named dependency-impact or refresh receiver needs it, and state specialization separately if it also obtains. |
+| Compatibility folded into dependency | A dependency sentence or record carries `compatibilityBoundary` and makes one relation stand for two claims. | State dependency and pairwise compatibility separately; add only an optional ref from the dependency record when a named maintenance consumer needs the link. |
+| Compatibility by version label | An edition number is assumed to settle compatibility. | Inspect the exact pair, overlapping use, difference or interface, impact, and reopen condition; otherwise make no positive compatibility claim. |
 | Generated graph as authority | A search or graph artifact decides relation meaning. | Use C.35 for candidate admission, then test the exact subject predicate. |
 | Callable route as dependency | A skill, endpoint, or assistant integration is treated as framework dependency, method order, permission, or Work. | State only the exact bounded access relation; keep runtime/tool/work/currentness claims separate. |
 | Source prose as basis truth | "supports" is read as formal-premise use, evidence, or sufficiency. | Separate bounded G.2 source use, actual-use predicate, evidence, and candidate evaluation. |

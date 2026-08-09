@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 87213
-line_end: 87232
+line_start: 87262
+line_end: 87281
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -32,7 +32,7 @@ keywords:
 
 Use `E.22` when someone is about to ask for a quality evaluation, quality review, returned-finding absorption, improvement proposal, or follow-up hypothesis over an object version named by value, and the question needs to say what kind of evaluation is wanted before the evaluator starts.
 
-`E.22` frames the question. It does not evaluate the object. The governing evaluation pattern reference identifies the exact FPF pattern that owns the evaluation; an optional `semanticEvaluationMethodRef` names the separately identified `U.Method` used for that evaluation. A characteristic-space specification, Q-Bundle description, rubric description, review-profile description, evidence-basis description, and result-form description constrain or describe that evaluation. None of those specifications performs the evaluation or substitutes for the governing pattern or semantic Method. For example, `E.21`, `E.9.DA`, or `E.2.DA` may govern evaluation of one FPF object, while `A.19.ECS` and `C.25` supply supporting quality-model descriptions. `E.19` instead governs an admission or refresh review gate and findings profile. Use `E.19` as the governing evaluation pattern only when its review result is itself the object under evaluation; otherwise its later gate check remains distinct from the quality evaluation.
+`E.22` frames the question. It does not evaluate the object. `evaluationPatternLocator` identifies the FPF pattern description containing the evaluation predicate or constraint; an optional `semanticEvaluationMethodRef` names the separately identified `U.Method` used for that evaluation. A characteristic-space specification, Q-Bundle description, rubric description, review-profile description, evidence-basis description, and result-form description constrain or describe that evaluation. None of those specifications performs the evaluation or substitutes for the subject assertion or semantic Method. For example, `E.21`, `E.9.DA`, or `E.2.DA` may supply the predicate for evaluating one FPF object, while `A.19.ECS` and `C.25` supply supporting quality-model descriptions. `E.19` instead defines an admission or refresh review-gate and findings profile. Use `E.19` as `evaluationPatternLocator` only when its review result is itself the object under evaluation; otherwise its later gate check remains distinct from the quality evaluation.
 
 Not this pattern when the question is already scoped and one direct evaluation is enough. Run the object-under-improvement evaluation directly. Use `E.23` when repeated improvement across passes is needed.
 

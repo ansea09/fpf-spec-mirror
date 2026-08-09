@@ -6,12 +6,12 @@ section_id: "C.32:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__003_problem.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:2 — Problem"
-line_start: 64373
-line_end: 64386
+line_start: 64378
+line_end: 64391
 dependencies:
   - "A.10"
   - "A.15"
@@ -77,5 +77,5 @@ The typical synthesis problem is also multi-characteristic. Architecture charact
 
 One recurring candidate-generation heuristic is idealization: ask whether an existing selected structure or resource can carry an additional required function, whether a support bearer can disappear, or whether a more general scale-amenable bearer can replace several special bearers. Admit that heuristic only as a candidate. The candidate must name the functions transferred to a bearer, the bearer removed or generalized, the architecture characteristics improved and worsened, and any BLP scale window or waiver when scale advantage is claimed.
 
-C.32 makes the constructive translation explicit. It creates a small palette whose candidates answer: which selected structures are configured together, which architecture characteristics improve or worsen, which constraints remain admissible, what source detail must remain recoverable, and which receiving pattern governs the next use.
+C.32 makes the constructive translation explicit. It creates a small palette whose candidates answer: which selected structures are configured together, which architecture characteristics improve or worsen, which constraints remain admissible, what source detail must remain recoverable, and which pattern for the next question governs the next use.
 

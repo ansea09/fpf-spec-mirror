@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.35.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
-line_start: 67820
-line_end: 68026
+line_start: 67825
+line_end: 68031
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -162,7 +162,7 @@ Work in this order:
 4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present. If an actual change is claimed, also cite the independently identified A.3.4 `U.Transformation`; the trace and the selected A.22 structures remain separate from that occurrence.
 5. State candidate-admission condition. Use `C.32` only when the described structure can be used as a candidate configuration or candidate-generation input under selected structures, architecture characteristics, constraints, gains, losses, and carrier-admission return.
 6. State bearer or realization boundary. Use `bearerFeasibilityQuestionRef?` only when a concrete software, physical, organizational, method, role, or epistemic bearer-feasibility rule has opened that separate question.
-7. Handle selected-set publication, archive, front, and pool policy under `G.5`, `C.18`, or `C.19`.
+7. Use `G.5` for selected-set result declaration, `C.18` and `C.19` for archive, front, and pool policy, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
 8. Handle eval programs and eval results under `C.32.ACE`; handle measurement under `C.16`; handle mathematical-lens use under `C.29`; handle descriptions and views under `C.30.AD` or `C.30.ASV`; handle decisions and ADR projections under `C.32.PAD` or `C.32.ADR`.
 9. Handle reusable-generator or mechanism-suite claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains the generator claim, only after that reusable-generator object is current.
 10. Stop when admissible use, non-admissible use, carrier-admission return condition, the next claim or question, and its required rule or test are named.

@@ -6,12 +6,12 @@ section_id: "C.36:6"
 section_title: "Neighbor Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__008_neighbor-boundaries.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:6 — Neighbor Boundaries"
-line_start: 68286
-line_end: 68302
+line_start: 68291
+line_end: 68307
 dependencies:
   - "A.1"
   - "A.10"

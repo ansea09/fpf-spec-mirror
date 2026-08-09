@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 87480
-line_end: 87496
+line_start: 87529
+line_end: 87545
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -35,13 +35,13 @@ keywords:
 | `CC-E22-1` | Name the exact object version, selected `CharacteristicSpace`, exact predicate and/or admitted comparator, one `U.ClaimScope`, and the exact work or decision that will consume the result. |
 | `CC-E22-2` | State purpose, declared floor or improvement aim, protected trade-offs, qualification window, and expected result form. |
 | `CC-E22-3` | Keep the object-under-improvement evaluation as the source of values and the coordinate set to be evaluated. A description, dashboard, or frame cannot substitute for the selected space, predicate/comparator, actual evaluation, or result. |
-| `CC-E22-4` | Represent actionable returned work as typed finding or `CandidateImprovementProposalRow@Context` values with expected substantive evaluation effect, closure test, and the conditionally present `KindRestorationCheck`. An outside claim cites its direct governing pattern; E.22 frames the improvement question and does not restate that ontology. |
+| `CC-E22-4` | Represent actionable returned work as typed finding or `CandidateImprovementProposalRow@Context` values with expected substantive evaluation effect, closure test, and the conditionally present `KindRestorationCheck`. An outside claim cites its subject pattern; E.22 frames the improvement question and does not restate that ontology. |
 | `CC-E22-5` | For absorption, report quality impact on the changed object, not only applied and not-applied dispositions. |
-| `CC-E22-6` | State a compact declarative non-use boundary when the result might be overread as decision, work, evidence, assurance, gate, release, certification, publication, parity, refresh, or selected-set authority. Keep the result on the evaluation question and name only the specific outside claim plus the pattern that governs it when one is needed; precision-restoration or phrase-apparatus issues belong to the named evaluation profile and `F.19`, not to a local boundary catalogue. |
+| `CC-E22-6` | State a compact declarative non-use boundary when the result might be overread as decision, work, evidence, assurance, gate, release, certification, publication, parity, refresh, or selected-set authority. Keep the result on the evaluation question and name only the specific outside claim plus the pattern that defines or constrains it when one is needed; precision-restoration or phrase-apparatus issues belong to the named evaluation profile and `F.19`, not to a local boundary catalogue. |
 | `CC-E22-7` | State what became worse when a proposed or applied improvement raises visible values. |
-| `CC-E22-8` | Send repeated improvement to `E.23` after one framed evaluation returns findings or proposals. |
+| `CC-E22-8` | Use `E.23` for repeated improvement after one framed evaluation returns findings or proposals. |
 | `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. The optional proposal target is substantive content change, not score proof; allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
 | `CC-E22-9` | Name the expected evidence basis and result-row shape from the object-under-improvement evaluation; `E.22` cannot authorize omitted coordinates, missing rationales, missing selected attention-discharge profiles, missing `PrecisionRestorationProfile` when `E.21` is used, unchecked evidence positions, inactive or triggered-coordinate shortcuts, scope narrowing, or a weaker result form. |
-| `CC-E22-10` | Keep the question frame, use declaration, governing evaluation pattern, optional semantic Method, any independently admitted method description actually cited, quality-model/evidence/result-form descriptions, performer assignment, dated evaluation Work, method enactment, any actual operation application, actual evidence use, typed result binding or direct result relation, optional result episteme, and result-consuming work or decision distinct. A governing-pattern reference does not establish A.3.2 membership, and no generic work-result or evaluation-result relation is inferred. |
+| `CC-E22-10` | Keep the question frame, use declaration, evaluation pattern locator, optional semantic Method, any independently admitted method description actually cited, quality-model/evidence/result-form descriptions, performer assignment, dated evaluation Work, method enactment, any actual operation application, actual evidence use, typed result binding or direct result relation, optional result episteme, and result-consuming work or decision distinct. The locator is not the semantic Method, evaluator, dated Work, or result; any `U.MethodDescription` membership requires an independent A.3.2 result, and no generic work-result or evaluation-result relation is inferred. |
 | `CC-E22-11` | A low value, finding, failed floor, or improvement aim does not establish an actual Problem. Any actual Problem relied on by the consuming use resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

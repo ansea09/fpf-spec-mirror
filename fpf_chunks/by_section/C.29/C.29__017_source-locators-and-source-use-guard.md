@@ -6,12 +6,12 @@ section_id: "C.29:13a"
 section_title: "Source locators and source-use guard"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__017_source-locators-and-source-use-guard.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:13a — Source locators and source-use guard"
-line_start: 59390
-line_end: 59460
+line_start: 59395
+line_end: 59465
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -97,7 +97,7 @@ SoTA materials are not nameless background. Decision grounds and governing inher
 | `KOOPMAN-SINDY-DMD-2016` | Brunton, Proctor, and Kutz, **Discovering governing equations from data by sparse identification of nonlinear dynamical systems**; Kutz et al., **Dynamic Mode Decomposition: Data-Driven Modeling of Complex Systems**. | Contributes operator and system-identification discovery cues through observables, dynamic-mode decomposition, sparse identification, forecast use, and control-oriented representation. | **Adapt as discovery source.** Does not make the identified operator a real mechanism or validate temporal-use claims by itself. |
 | `BAYES-WORKFLOW-PPL-2018/2020` | van de Meent et al., **An Introduction to Probabilistic Programming**; Gelman et al., **Bayesian Workflow**. | Contributes probabilistic-model discovery and criticism cues through priors, likelihood assumptions, posterior predictive checks, prior-data conflict, model mismatch, uncertainty, and iterative model revision. | **Adapt as discovery and criticism source.** Does not make posterior fit truth, evidence, or assurance by itself. |
 | `MODERN-BED-2023/2024` | Rainforth, Foster, Ivanova, and Bickford Smith, **Modern Bayesian Experimental Design**, arXiv:2302.14545; accepted/published in Statistical Science context. | Contributes current BED as utility-driven and computationally constrained, with recent methods for tractable expected information gain, sequential or adaptive design, and practical deployment limits. | **Adapt as current discovery source.** Does not make C.29 a measurement-construction, evidence, causal-use, or experiment-planning pattern. |
-| `MODERN-OED-2024/2026` | Huan, Jagalur, and Marzouk, **Optimal experimental design: Formulations and computations**, Acta Numerica 2024; arXiv:2407.16212 v2 2026. | Contributes broad current OED framing: design variables, utility criteria, computational methods, sequential design, complex models, and prediction-oriented data acquisition. | **Adapt as current discovery source.** C.29 may ask what data acquisition would make the lens usable, but neighboring patterns govern experiments, evidence, causal-use verdict, and work planning. |
+| `MODERN-OED-2024/2026` | Huan, Jagalur, and Marzouk, **Optimal experimental design: Formulations and computations**, Acta Numerica 2024; arXiv:2407.16212 v2 2026. | Contributes broad current OED framing: design variables, utility criteria, computational methods, sequential design, complex models, and prediction-oriented data acquisition. | **Adapt as current discovery source.** C.29 may ask what data acquisition would make the lens usable, but neighboring patterns define or constrain experiments, evidence, causal-use verdict, and work planning. |
 | `BO-AL-ADAPTIVE-SAMPLING-2024` | Di Fiore, Nardelli, and Mainini, **Active Learning and Bayesian Optimization: A Unified Perspective to Learn with a Goal**, Archives of Computational Methods in Engineering 2024, DOI `10.1007/s11831-024-10064-z`. | Contributes active learning, Bayesian optimization, and adaptive sampling as goal-driven acquisition schemes, not as generic "collect more data" advice. | **Adapt as current discovery source.** Use only for the candidate observation, probe, or acquisition action; do not import selector, evidence, or assurance authority. |
 | `EIG-DENSITY-APPROX-2024/2026` | Li, Baptista, and Marzouk, **Expected information gain estimation via density approximations: Sample allocation and dimension reduction**, arXiv:2411.08390 v3 2026. | Contributes current computational caution: EIG estimation itself can require density approximation, sample-allocation, and dimension-reduction choices before it is usable. | **Adapt as computational-tractability source.** A claimed information-gain lens needs estimation and approximation fields when the computation is required for the declared lens use. |
 | `ROBUST-GBOED-2025` | Barlas, Sloman, and Kaski, **Robust Experimental Design via Generalised Bayesian Inference**, arXiv:2511.07671. | Contributes robustness prompts for model misspecification, outliers, and incorrect noise assumptions through generalized Bayesian OED or Gibbs Bayesian OED and Gibbs expected information gain. | **Adapt as robustness source.** If model misspecification is plausible, the C.29 output records the robustness note; it does not turn robustness into evidence or assurance by itself. |

@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__014_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:12 — Relations"
-line_start: 35252
-line_end: 35261
+line_start: 35254
+line_end: 35263
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -34,6 +34,7 @@ dependencies:
   - "E.18.NET"
   - "E.18.NET-conforming"
   - "E.23"
+  - "E.24.PUB"
   - "F.17"
   - "G.11"
   - "G.5"
@@ -46,7 +47,7 @@ Specializes: the A.22 use of one selected `U.Structure` when exact constituents,
 
 Specialized by: `E.18.3` when the same selected structure satisfies its transformation-flow unfolding membership condition and reuses exact E.18 positions and relation references; and by local A.22 applications in `E.18.1`, `C.32.P2S`, `B.5.2`, `E.23`, `C.13`, `B.3.5`, and `C.3` only when their own selected constituents, obtaining relations, constraints, and use frames are recoverable. `A.6.3.NAR` is a consumer rather than another structure specialization: it may order an independently selected structure into a narrative and state preservation, loss, use, and return without selecting or admitting that structure.
 
-Coordinates with: `E.18` for the complete one-TFS locator triple, `E.18.NET` for one selected E.18.NET-conforming TFS network and member paths, `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, `G.11` for currentness and refresh claims, and `E.17` for publication of provisional descriptions or admitted demonstrative slices.
+Coordinates with: `E.18` for the complete one-TFS locator triple, `E.18.NET` for one selected E.18.NET-conforming TFS network and member paths, `E.11` for public practical-use card expansions, ordinary walkthroughs, and admitted CGUS-demonstrative walkthroughs, `E.10.MOVE` and `C.2.P.DR` for lexical and declarative-representation repair, `C.18`, `C.19`, and `G.5` for archive, front, live-pool, and selected-set claims, and `G.11` for currentness and refresh claims. When a provisional description or admitted demonstrative slice is published, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 
 Does not replace: `A.3.1`, `A.3.2`, `A.15`, `A.10`, `B.3`, `A.20`, `A.21`, `C.30`, `C.32.PAD`, `C.32.ADR`, `C.29`, `G.11`, or any pattern that supplies a needed definition, constraint, test, method, evidence rule, or assurance rule for a stronger claim.
 

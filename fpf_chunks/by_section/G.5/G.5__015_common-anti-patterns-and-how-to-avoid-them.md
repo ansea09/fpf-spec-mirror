@@ -6,12 +6,12 @@ section_id: "G.5:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__015_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 100858
-line_end: 100888
+line_start: 100971
+line_end: 101005
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -72,11 +76,15 @@ keywords:
   *Symptom:* registry entries are “renamed” to reflect updated interpretation, breaking continuity.
   *Avoid:* publish a new edition or deprecate; keep stable ids; use explicit edition pins and deprecation notices.
 
-* **Anti‑pattern: “Publication hidden in upstream reasoning.”**
-  *Symptom:* the retained set exists only as one implication inside `C.11`, `C.19`, or `C.24`, while `G.5` never names the published selected-set label.
-  *Avoid:* publish the selected-set result directly, with explicit label, members, and basis pins, instead of leaving the shortlist implicit in upstream doctrine.
+* **Anti‑pattern: “Result declaration hidden in upstream reasoning.”**
+  *Symptom:* the retained alternatives or all-member result exist only as one implication inside `C.11`, `C.19`, or `C.24`, while `G.5` never names the declared result kind.
+  *Avoid:* declare the selected-set result directly, with its result kind, applicable members or keyed entries, ordering, named use where required, and basis pins instead of leaving it implicit upstream.
 
-* **Anti‑pattern: “Published result without closure record.”**
-  *Symptom:* a `Shortlist`, narrowed handoff, or abstain result is named, but the emitted result still does not state its members, ordering status, or basis pins.
-  *Avoid:* publish the head, retained members, ordering status, abstain or escalation condition, and basis pins directly in `G.5`.
+* **Anti-pattern: “Shortlist used for complementary members.”**
+  *Symptom:* every named member is needed for one use, but the result calls them alternatives in a `Shortlist`.
+  *Avoid:* use `JointUseSet`, name the joint use, and key one entry per exact member; keep direct member relations and actual selection separate.
+
+* **Anti‑pattern: “Declared result missing required content.”**
+  *Symptom:* a `Shortlist`, `JointUseSet`, narrowed handoff, or abstain result is named, but the emitted result still omits its members or keyed member entries, ordering, named use where required, or basis pins.
+  *Avoid:* state the result kind, retained members or keyed joint-use entries, ordering, named use where required, abstain or escalation condition, and basis pins directly in `G.5`.
 

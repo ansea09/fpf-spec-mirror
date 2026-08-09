@@ -6,12 +6,12 @@ section_id: "C.24:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__004_what-this-buys.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:0.2 — What this buys"
-line_start: 52691
-line_end: 52702
+line_start: 52696
+line_end: 52707
 dependencies:
   - "A.1"
   - "A.10"
@@ -51,5 +51,5 @@ keywords:
 
 **First useful move.** For each planned call, name the exact `methodRef` first, then cite an edition-pinned `methodDescriptionRef` only if its route description is needed. State order, budget, stop/replan condition and next action without claiming that Work occurred.
 
-**Not this pattern when.** If the surviving option or pool policy is unresolved, use C.11 or C.19; if selector-facing publication is current, use G.5. If the question is only what a callable MethodDescription says, use A.3.2/C.2.1. If the question is whether a call actually occurred or what Method it enacted, use A.15.1; if work-entry readiness is the question, use A.15.5.
+**Not this pattern when.** If the surviving option or pool policy is unresolved, use `C.11` or `C.19`. If selector-facing result declaration is current, use `G.5`. If that result already exists and actual audience availability is current, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability. If the question is only what a callable MethodDescription says, use `A.3.2` for its content and `C.2.1` for its episteme identity. If the question is whether a call actually occurred or what Method it enacted, use `A.15.1`; if work-entry readiness is the question, use `A.15.5`.
 

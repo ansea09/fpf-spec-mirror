@@ -6,12 +6,12 @@ section_id: "C.18:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__001_intro.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:intro — Intro"
-line_start: 49251
-line_end: 49262
+line_start: 49253
+line_end: 49264
 dependencies:
   - "A.15"
   - "A.19"
@@ -24,9 +24,11 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "C.36"
+  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
+  - "E.24.PUB"
   - "F.17"
   - "F.18"
   - "F.9"
@@ -55,6 +57,6 @@ keywords:
 > **Normativity:** Normative unless explicitly marked informative
 > **Placement:** Part C
 > **Builds on:** `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `E.18`.
-> **Coordinates with:** `C.19`, `G.5`, `G.9`, `G.11`, `E.23`, `E.18.1`, the `C.30` family, `C.32.P2S`, `C.32`, `C.35`, `C.36`, `F.17`, `F.18`, `F.9`, and the A.15 family.
+> **Coordinates with:** `C.19`, `G.5`, `G.9`, `G.11`, `E.23`, `E.18.1`, `E.17`, `E.24.PUB`, the `C.30` family, `C.32.P2S`, `C.32`, `C.35`, `C.36`, `F.17`, `F.18`, `F.9`, and the A.15 family.
 > **Purpose:** make archive, front, Q-front, descriptor, telemetry, retained exploration value, stepping-stone value, lineage, edition, architecture-candidate generation, and cultural-variant generation usable without turning them into publication, decision, work permission, or cultural-evolution authority.
 

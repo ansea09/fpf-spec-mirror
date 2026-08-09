@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "C.30.P"
 pattern_title: "Architecture and Structure Precision Restoration"
 section_id: "C.30.P:5"
-section_title: "Direct governing-pattern assignments"
+section_title: "Subject pattern assignments"
 source_path: "FPF-Spec.md"
-output_path: "by_section/C.30.P/C.30.P__007_direct-governing-pattern-assignments.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+output_path: "by_section/C.30.P/C.30.P__007_subject-pattern-assignments.md"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
-  - "C.30.P:5 — Direct governing-pattern assignments"
-line_start: 61048
-line_end: 61080
+  - "C.30.P:5 — Subject pattern assignments"
+line_start: 61053
+line_end: 61085
 dependencies:
   - "A.10"
   - "A.15"
@@ -51,15 +51,15 @@ dependencies:
 keywords:
 ---
 
-### C.30.P:5 - Direct governing-pattern assignments
+### C.30.P:5 - Subject pattern assignments
 
-| Recovered use, claim kind, or admissible-use boundary | Governing pattern |
+| Recovered use, claim kind, or admissible-use boundary | Subject pattern |
 | --- | --- |
 | selected structure, structural description, structure source-return | `A.22` |
 | `ArchitectureOf@Context`, selected architecture-relevant structure, thin conditional `ArchitectureDescription@Context` bridge use, architecture question card | `C.30` |
 | full `ArchitectureDescription@Context` mechanism, architecture-description multi-view set, architecture-description specification-use boundary | `C.30.AD` |
 | architecture structural view, structure-kind view, hidden or lost structure | `C.30.ASV` |
-| transformation-flow graph expression, flow relation, architecture-to-transformation-flow relation | `C.30.TFS-REL` when an architecture-to-transformation-flow relation claim is being made; otherwise `E.18` or the governing pattern for the claim being made |
+| transformation-flow graph expression, flow relation, architecture-to-transformation-flow relation | `C.30.TFS-REL` when an architecture-to-transformation-flow relation claim is being made; otherwise `E.18` or the subject pattern for the claim being made |
 | architecture-synthesis wording | Recover the concrete claim kind, then use the architecture-synthesis routing note below. |
 | control structure view, LCA sketch or control sketch | `C.30.LCA` when an architecture control-structure view claim is being made |
 | cross-scope conflict or frustration triage | `C.30.ILC` when that question is being asked |
@@ -80,7 +80,7 @@ keywords:
 Architecture-synthesis routing note:
 
 - Use `C.32`, `C.32.MLAO`, `C.32.CONWAY`, or `C.32.FAIL` when the recovered claim is a candidate palette, residual-reducing multilevel frame, transformer and transformed correspondence frame, or architecture-synthesis repair cue.
-- Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, or `G.5` when the recovered claim is comparison-policy use, selector-policy use, local choice, or selected-set publication.
+- Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, or `G.5` when the recovered claim is comparison-policy use, selector-policy use, local choice, or selected-set result declaration. When publication is current, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 - Use `C.18` or `C.19` when the recovered claim is archive, front, or pool policy.
-- For transformation-flow, function, module, transformer, mathematical-lens, relation-signature, affordance, architecture role, or move-like wording, recover that claim kind first and use its governing pattern by value.
+- For transformation-flow, function, module, transformer, mathematical-lens, relation-signature, affordance, architecture role, or move-like wording, recover that claim kind first and use its subject pattern by value.
 

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.REL.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
-line_start: 11369
-line_end: 11761
+line_start: 11371
+line_end: 11763
 dependencies:
   - "A.6.0"
   - "A.6.5"

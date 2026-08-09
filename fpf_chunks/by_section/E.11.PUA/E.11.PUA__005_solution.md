@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 77316
-line_end: 77685
+line_start: 77363
+line_end: 77734
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -42,6 +42,8 @@ Start with five ordinary values: the working subject, the practical question, th
 An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses that content. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand for that use. Only when the selected `Solution` actually describes a method and that distinction changes the claim, establish its `U.MethodDescription` membership under A.3.2 and identify the admitted `U.Method`. Name a `U.System`, `U.RoleAssignment`, plan, dated `U.Work`, result, or `U.Transformation` only when performer identity, assignment, work occurrence, result production, or transformation is also part of the current claim.
 
 When those identities do matter, keep them separate: the pattern episteme is not the actor or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
+
+If the working question is still represented only by a pre-method-selection `TaskSignature`, use that signature to constrain method search; do not treat it as the task, plan, or Work occurrence. Use OEE or NQD to retain Method or architecture candidates before selection, and use `G.5` to declare a selected-set result. For publication, use `E.17` for a source-backed face and return to source and `E.24.PUB` for the occurrence, form, carrier, audience, bounded use, and availability. Use `A.3.1` to identify a selected Method and `A.15` for planning and Work. Open these distinctions only when candidate retention, selection, result declaration, publication, planning, or performed Work is current.
 
 #### E.11.PUA:4.1 - The ordinary seven-step use
 
@@ -250,7 +252,7 @@ Candidate rationale has one candidate subject. The `ClaimGraph` located at `E.11
 
 #### E.11.PUA:4.5 - Actual-result closure and receiving-use disposition
 
-PUA introduces no actual-result relation and no universal actual-use relation. Keep two questions separate: what exact predicate, subject assertion, and defining or constraining `ClaimGraph` make the candidate result entity exist or the relation occurrence obtain, and what category-correct direct basis makes the readable result phrase true relative to the current Method, plan, dated Work, Transformation, evaluation, decision, or dependent-use object. Those bases may be the same occurrence only when the result itself is that relation occurrence. When a named later use needs addressable closure, materialize a C.2.1 finding that points to the result's predicate and `ClaimGraph` locator plus the category-correct basis:
+PUA introduces no actual-result relation and no universal actual-use relation. Keep two questions separate: what establishes, under the applicable identity or predicate rule, that the candidate result entity exists or the relation occurrence obtains; and what category-correct basis makes the readable result phrase true relative to the current Method, plan, dated Work, Transformation, evaluation, decision, or later-use object. One relation occurrence may answer both questions only when the result itself is that occurrence. When a named later use needs addressable closure, materialize a C.2.1 finding that states the result assertion, locates its defining or constraining rule content through the applicable `ClaimGraph` and pattern locator, and records the category-correct basis:
 
 ```text
 PatternUseResultClosureFinding@Context <: U.Episteme:
@@ -306,7 +308,7 @@ PatternUseReceivingUseDispositionFinding@Context <: U.Episteme:
 
 In the `realized` state, the later object, kind, direct-basis kind, and basis ref are present; the intended positions are absent. The same branch rule separates a direct relation or A.6.1 pattern locator from the A.6.RCD derivation locator and the direct pattern locators for the local claim's base predicates. The claim graph exposes the exact participants and facts. In `intendedNotYetRealized`, the intended claim, object kind, description, and condition are present together and all realized positions are absent; an intention is not an obtaining-use relation. A stop without a later use has no disposition finding.
 
-When ordinary language says that a result from one TFS is used as an input, tool, context, or constraint in another, treat those words only as cues. Name the exact result-bearing position and exact receiving position—one `FlowPositionRef` for each—plus the directly governed relation occurrence connecting their participants, and keep the result's kind unchanged. With no direct relation kind or predicate, return `missing-governor`; with a governor but undecided facts, leave the relation open and name the grounding boundary; with a false predicate, assert no occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. Use E.18 for each TFS-local position and local `DesignRunTag`; use E.18.NET only when independently identified TFS values must be treated together as a network. No input, tool, context, constraint, result, or adjacency label supplies the direct relation.
+When ordinary language says that a result from one TFS is used as an input, tool, context, or constraint in another, treat those words only as cues. Name the exact result-bearing position and exact receiving position—one `FlowPositionRef` for each—plus the direct relation occurrence connecting their participants and its applicable predicate, and keep the result's kind unchanged. With no direct relation kind or predicate, return `missing-governor`; with a predicate but undecided facts, leave the relation open and name the grounding boundary; with a false predicate, assert no occurrence; with an obtaining occurrence but a missing endpoint binding, return `missing-endpoint-binding` and name that binding. Use E.18 for each TFS-local position and local `DesignRunTag`; use E.18.NET only when independently identified TFS values must be treated together as a network. No input, tool, context, constraint, result, or adjacency label supplies the direct relation.
 
 When the thing being called a result is `U.Work`, identify that dated occurrence under A.15.1. Planning, setup, authorization, triggering, or enabling work does not produce that Work. Call the occurrence a result of the selected use in a reliance-bearing closure only when the exact category-correct basis for that reading is present; otherwise keep the Work and the pattern-use description separate.
 
@@ -336,7 +338,7 @@ Each `GroundingBasisPair` preserves one relation occurrence and the exact patter
 
 If the current use calls the grounding finding its result, add a separate `PatternUseResultClosureFinding@Context` whose EntityOfConcern is that finding. Its direct basis must connect the finding to the current method, plan, Work, transformation, evaluation, decision, or receiving-use object through a relation occurrence, A.6.1 binding, or category-correct local claim. The occurrence that grounds the pre-existing subject does not by itself make the grounding finding a result of the current use. Cite A.15.PROD only when exact dated Work and its actual changes first constituted the finding episteme.
 
-When the expected subject result still does not exist, close the current use only on an exact interim `PatternUseResultClosureFinding@Context`. Its entity has its own direct pattern and category-correct basis relative to the current object. Keep the subject-result expectation open. A machining plan does not become a machined component; a treatment recommendation does not become a changed clinical state; an assessment plan does not become learned capability.
+In reliance-bearing use, when the expected subject result still does not exist, close the current use only on an interim `PatternUseResultClosureFinding@Context`. Identify that interim entity under its own kind and rule, and record the category-correct basis that makes it the current use's result relative to the current object. Keep the subject-result expectation open. A machining plan does not become a machined component; a treatment recommendation does not become a changed clinical state; an assessment plan does not become learned capability.
 
 #### E.11.PUA:4.7 - Reliance-bearing final-practice test
 
@@ -387,9 +389,9 @@ The practice descriptions remain ordinary PUA epistemes when no wider CGUS is ad
 
 `SelectedFirstResultGroundingStateValue` is `newlyCurrentSubjectResult | preExistingWithGrounding | expectedSubjectResultAbsent`. Exactly one state branch is filled:
 
-- For `newlyCurrentSubjectResult`, fill `newlyCurrentSubjectResultClosureFindingRef` and leave the other state positions absent. The closure separates result identity or obtaining under the direct pattern from the basis that makes it this use's result. A relation occurrence may first obtain through its direct predicate; an evaluation or decision becomes current under its own rule; an actual non-agentive change remains under A.3.4. Cite A.15.PROD only when exact dated Work and its actual changes first constituted an entity under its identity rule.
+- For `newlyCurrentSubjectResult`, fill `newlyCurrentSubjectResultClosureFindingRef` and leave the other state positions absent. The closure separates the rule under which the result exists or the relation obtains from the basis that makes it this use's result. A relation occurrence may first obtain through its direct predicate; an evaluation or decision becomes current under its own rule; an actual non-agentive change remains under A.3.4. Cite A.15.PROD only when exact dated Work and its actual changes first constituted an entity under its identity rule.
 - For `preExistingWithGrounding`, fill both `preExistingResultGroundingFindingRef` and `preExistingGroundingResultClosureFindingRef` and leave the other state positions absent. The grounding finding names the already-existing entity, its paired grounding relation occurrences, and the exact pattern content that defines or constrains each relation. Its separate closure uses another category-correct basis to make that finding the exercise's result; a subject-grounding occurrence alone does not. Cite A.15.PROD only if exact dated Work first constituted the finding episteme. The exercise does not produce the pre-existing entity.
-- For `expectedSubjectResultAbsent`, fill `expectedSubjectResultAbsentInterimResultClosureFindingRef` and leave the other state positions absent. The interim entity has its own kind, direct pattern, exact relative object, and category-correct basis. It may support later work but does not satisfy the selected subject-result expectation.
+- For `expectedSubjectResultAbsent`, fill `expectedSubjectResultAbsentInterimResultClosureFindingRef` and leave the other state positions absent. The interim entity keeps its own kind and rule; the closure records the relative object and category-correct basis required by this reliance. It may support later work but does not satisfy the selected subject-result expectation.
 
 Fill `selectedFirstResultReceivingUseDispositionFindingRef` only when the declared test relies on an addressable realized or intended receiving use. It must point to the selected state-specific closure, including the grounding-finding closure in the pre-existing branch. The continuable-work description says what project work can proceed from this state-specific result. The test fails when it merely retells a card, expands into a whole-project plan, treats a public template as a recommendation, claims performed work without an A.15.1-grounded `U.Work`, infers a physical, clinical, organizational, or learned change from its description, or asserts a CGUS only because the practice contains several rows.
 

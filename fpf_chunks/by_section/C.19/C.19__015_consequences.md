@@ -6,12 +6,12 @@ section_id: "C.19:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__015_consequences.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:9 — Consequences"
-line_start: 50001
-line_end: 50006
+line_start: 50006
+line_end: 50011
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -45,7 +47,7 @@ keywords:
 
 ### C.19:9 - Consequences
 
-- the result states whether the pool is being widened, kept live, narrowed, or sunset; if the question leaves pool policy, the record names the next governing pattern separately
+- the result states whether the pool is being widened, kept live, narrowed, or sunset; if the question leaves pool policy, the record names the next subject pattern separately
 - heterogeneity can remain admissible without pretending every frontier is one scalar winner
 - the cost is stricter provenance and the need to name lenses, policies, and change triggers explicitly
 

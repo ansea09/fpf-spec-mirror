@@ -6,12 +6,12 @@ section_id: "C.30.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__003_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:1 — Problem frame"
-line_start: 60955
-line_end: 60976
+line_start: 60960
+line_end: 60981
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,7 +57,7 @@ Working engineers often say "architecture" or "structure" while pointing at a us
 
 The repair question is:
 
-> Which selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or neighboring claim does the wording name, and which FPF pattern governs that claim?
+> Which selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or neighboring claim does the wording name, and which FPF pattern defines or constrains that claim?
 
 The architecture or structure use under repair may be:
 
@@ -70,6 +70,6 @@ The architecture or structure use under repair may be:
 - a mathematical-lens use claim under `C.29`;
 - a characteristic, scale, score, coordinate, threshold, or quality-coordinate claim under `C.16.P` or `C.16`;
 - a Q-bundle or quality-characterization claim under `C.16.Q`, `C.25`, or `E.21`;
-- an evidence, assurance, gate, work, decision, causal-use, release, or method claim under its governing pattern;
+- an evidence, assurance, gate, work, decision, causal-use, release, or method claim under its subject pattern;
 - ordinary prose with no FPF-governed use being made.
 

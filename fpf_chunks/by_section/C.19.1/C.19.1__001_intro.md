@@ -6,12 +6,12 @@ section_id: "C.19.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__001_intro.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:intro — Intro"
-line_start: 50038
-line_end: 50067
+line_start: 50043
+line_end: 50072
 dependencies:
   - "A.0"
   - "A.10"
@@ -67,7 +67,7 @@ The practitioner gets one bounded comparison move: name the narrower bearer, the
 
 #### C.19.1:0.3 - Not This Pattern When
 
-Do not use `C.19.1` to prove that an architecture candidate is adequate, to publish a selected set, to run the improvement loop, to plan or perform work, or to claim a gate decision. Use the direct owner for that question: `C.30`/`C.32` for architecture adequacy and synthesis, `G.5` for selected-set publication, `E.23` for object-version improvement, the A.15 family for work, and `A.21` for gate decisions.
+Do not use `C.19.1` to prove that an architecture candidate is adequate, declare a selected-set result, make that result available to an audience, run the improvement loop, plan or perform work, or claim a gate decision. Apply the pattern that defines and tests the current question: `C.30` or `C.32` for architecture adequacy and synthesis, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `E.23` for object-version improvement, the A.15 family for work, and `A.21` for gate decisions.
 
 #### C.19.1:0.4 - First Output
 

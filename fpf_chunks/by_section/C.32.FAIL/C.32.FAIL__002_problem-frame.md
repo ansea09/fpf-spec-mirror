@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:1 — Problem frame"
-line_start: 66343
-line_end: 66403
+line_start: 66348
+line_end: 66408
 dependencies:
   - "A.10"
   - "A.15"
@@ -75,15 +75,15 @@ Typical entry cues:
 
 The primary `EntityOfConcern` is one repair cue for one architecture object under stress. The cue is a working repair aid, not a risk register, assurance case, selection result, release argument, or decision object.
 
-What goes wrong if C.32.FAIL is missed: failure language degenerates into a warning bank. The team can say what looks suspicious, but it cannot say which architecture object must be repaired or which pattern governs the next claim.
+What goes wrong if C.32.FAIL is missed: failure language degenerates into a warning bank. The team can say what looks suspicious, but it cannot say which architecture object must be repaired or which pattern defines or constrains the next claim.
 
 What C.32.FAIL buys in practice: a practitioner can convert a vague failure signal into one typed repair action, keep the repair near the selected structure, and stop before nearby decision, release, or governance claims expand the case.
 
 Ordinary working move: convert the symptom into four fields: architecture object under stress, blocked overread, first repair action, and stop or escalation condition.
 
-Adoption test: after using C.32.FAIL, a reader can see four things in the cue: the architecture object under stress, the blocked overread, the first repair action, and the receiving pattern or stop condition.
+Adoption test: after using C.32.FAIL, a reader can see four things in the cue: the architecture object under stress, the blocked overread, the first repair action, and the pattern for the next question or stop condition.
 
-Use another pattern when the current work is only lexical cleanup, evidence sufficiency, release, architecture description, MVPK publication face, comparison, selection, archive, front, publication of a selected set, local choice, or final architecture decision. Use C.32.FAIL only when the failure cue changes the first architecture repair action.
+Use another pattern when the current work is only lexical cleanup, evidence sufficiency, release, architecture description, MVPK publication face, comparison, selection, archive, front, selected-set result declaration, actual publication, local choice, or final architecture decision. Use C.32.FAIL only when the failure cue changes the first architecture repair action.
 
 Common exits by claim kind:
 
@@ -91,8 +91,8 @@ Common exits by claim kind:
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
 - `C.18` and `C.19` for archive, front, pool-treatment, or retained-stepping-stone claims.
 - `A.10` for evidence, `B.3` for assurance, and `A.20` or `A.21` for gate or release claims.
-- `C.30.AD` for architecture description and `E.17` or `E.24.PUB` for publication faces.
-- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
+- `C.30.AD` for architecture description, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
+- `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project decision. For publication, keep the distinct E.17 and E.24.PUB uses just named.
 
 The first useful output is `ArchitectureRepairCue@Project`. It is a working record for one repair action. It names the stressed architecture object and first repair; it is not a failure ontology, risk register, assurance case, release argument, selection result, or decision:
 
@@ -107,7 +107,7 @@ ArchitectureRepairCue@Project:
   selectedStructureRef?:
   sourceCueRef?:
   blockedOverread:
-  firstGoverningPatternRef:
+  firstPatternLocator:
   repairAction:
   sourceReturnCondition:
   stopCondition:

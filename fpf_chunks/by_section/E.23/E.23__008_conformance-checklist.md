@@ -6,12 +6,12 @@ section_id: "E.23:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:7 — Conformance checklist"
-line_start: 87872
-line_end: 87893
+line_start: 87921
+line_end: 87942
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -40,13 +40,13 @@ keywords:
 | `CC-E23-6` | Continue only when a scale-qualified expected evaluation-result change and the cost and risk account support another pass. |
 | `CC-E23-7` | Treat all-`5`, exceptional, or front-reaching results as local loop stops, not permanent maturity endings. |
 | `CC-E23-7a` | Do not treat `5`, all-`5`, or `5-defensible` as a repair target. Repair below-floor results first. Exceptional-improvement work proceeds through non-dominated proposal rows that name the expected substantive content change, protected trade-offs, and cost and risk. A no-proposal or stay-at-current-value disposition is admitted only when it cites the `LoopEvaluationEvidenceBasis@Context` and explains why every plausible content improvement is dominated, unavailable, or outside the declared scope. Reject changes that add guards, relation catalogues, evidence theatre, or quality proof while reducing use, affordability, locality, or ecology. |
-| `CC-E23-8` | When a neighboring claim appears during a loop, name the live claim and its direct governing pattern before continuing. `E.23` may cite that pattern in the loop record, but it does not absorb the neighbor's authority unless the neighbor's object version is itself the declared object under improvement. |
-| `CC-E23-8a` | When the evaluation names a precision-restoration defect, apply the selected restoration or governing pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair concerns word, head, or use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or a governing-pattern repair. The repair row is not closed until it includes a `KindRestorationCheck`: kind, relation, current ontic slot, relation position, use relation or claim kind, admissible use, and scope before and after repair; or a `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition with its evidence-basis references. |
+| `CC-E23-8` | When a neighboring claim appears during a loop, name the live claim and its subject pattern before continuing. `E.23` may cite that pattern in the loop record, but it does not absorb the neighbor's authority unless the neighbor's object version is itself the declared object under improvement. |
+| `CC-E23-8a` | When the evaluation names a precision-restoration defect, the responsible system performs the repair Work using the Method described by the selected restoration or subject pattern named by that evaluation. For `E.21`, use its `PrecisionRestorationProfile` to decide whether the repair concerns word, head, or use precision (`E.10`, `E.10.ARCH`, `F.18`), phrase-level plain rewriting (`F.19`), or repair of an exact subject assertion under its predicate. The repair row is not closed until it includes a `KindRestorationCheck`: kind, relation, current ontic slot, relation position, use relation or claim kind, admissible use, and scope before and after repair; or a `not triggered`, `ordinary prose`, `already satisfied`, or `blocker` disposition with its evidence-basis references. |
 | `CC-E23-9` | Apply `E.10` to load-bearing loop names, status values, examples, stop conditions, and result wording introduced or repaired by the loop. |
 | `CC-E23-10` | Preserve the named evaluation's evidence basis, result-row shape, short-rationale rule, attention-discharge rows, and coordinate-specific payloads in every re-evaluation. |
-| `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring governing pattern and stop the `E.23` overread. |
-| `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work under its own governing pattern, not implicit `E.23` scope. |
+| `CC-E23-11` | If a practitioner entry phrase such as "loop engineering", "agent loop", or "harness loop" appears, lower it to object version plus object-under-improvement evaluation before opening `E.23`, or name the direct neighboring subject pattern and stop the `E.23` overread. |
+| `CC-E23-12` | In agent or harness cases, state which slice the loop may change: the target object version, the evaluation, or the harness object. Any other slice becomes neighboring work under its own subject pattern, not implicit `E.23` scope. |
 | `CC-E23-13` | Keep a selected next-action proposal, independently dated improvement Work, exact A.6.1 binding or direct Work-to-result/change relation, changed object or Transformation, later evaluation Work, and result episteme distinct. When a required direct governor is missing, retain the separately identified objects and the exact blocker; do not mint a generic Work-result relation. |
-| `CC-E23-14` | Represent current alternatives, exact guards, selected obtaining relations, selected continuation, stop, and governing-pattern returns in one admitted A.22 unfolding structure. When transformation-flow membership is current, E.18/E.18.3 recognizes that same selected `U.Structure`; do not mint a parallel loop object. A visible cycle, record, structure, decision value, or branch is not enduring Work, context, authorization, or performance. |
+| `CC-E23-14` | Represent current alternatives, exact guards, selected obtaining relations, selected continuation, stop, and subject-assertion reconsideration conditions in one admitted A.22 unfolding structure. When transformation-flow membership is current, E.18/E.18.3 recognizes that same selected `U.Structure`; do not mint a parallel loop object. A visible cycle, record, structure, decision value, or branch is not enduring Work, context, authorization, or performance. |
 | `CC-E23-15` | A low value, finding, floor miss, or improvement aim does not establish an actual Problem. Any actual Problem used by the loop resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

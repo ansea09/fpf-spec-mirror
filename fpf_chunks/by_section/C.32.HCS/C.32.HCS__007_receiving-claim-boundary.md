@@ -6,12 +6,12 @@ section_id: "C.32.HCS:6"
 section_title: "Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__007_receiving-claim-boundary.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:6 — Receiving-Claim Boundary"
-line_start: 65082
-line_end: 65085
+line_start: 65087
+line_end: 65090
 dependencies:
   - "A.19"
   - "C.11"
@@ -36,5 +36,5 @@ keywords:
 
 ### C.32.HCS:6 - Receiving-Claim Boundary
 
-Use C.32.HCS only to build architecture-bearing family starter packs. Project scale rows, Q-Bundles, measurements, eval programs, candidate synthesis, comparison, selection, publication of a selected set, local choices, and project architecture decisions belong to `C.32.ACS`, `C.25`, `C.16`, `C.32.ACE`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or `C.32.PAD` as applicable. C.32.HCS also does not admit `U.Method`, `U.Role`, practice, culture, tradition, or style as holon kinds.
+Use C.32.HCS only to build architecture-bearing family starter packs. Use `C.32.ACS` for project scale rows, `C.25` for Q-Bundles, `C.16` for measurements, `C.32.ACE` for eval programs, `C.32` for candidate synthesis, `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `G.5` for selected-set result declaration, `C.11` for local choices, and `C.32.PAD` for project architecture decisions. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability. C.32.HCS also does not admit `U.Method`, `U.Role`, practice, culture, tradition, or style as holon kinds.
 

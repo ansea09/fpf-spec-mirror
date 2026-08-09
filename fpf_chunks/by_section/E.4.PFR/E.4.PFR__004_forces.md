@@ -5,13 +5,13 @@ pattern_title: "Pattern-Framework Relation and Edition Discipline"
 section_id: "E.4.PFR:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.4.PFR/E.4.PFR__003_forces.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+output_path: "by_section/E.4.PFR/E.4.PFR__004_forces.md"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:2 — Forces"
-line_start: 71224
-line_end: 71237
+line_start: 71235
+line_end: 71248
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -54,7 +54,7 @@ keywords:
 | Ordinary affordability | A direct assertion should remain one sentence when no maintenance receiver needs a row. |
 | Stable maintenance form | Edition-impact, comparison, publication/dependency repair, and refresh may need consistent fields across many assertions. |
 | Relation economy | Compact rows help inspection but can hide the exact defining or constraining ClaimGraph. |
-| Dependency pressure | Edition dependency is useful but is not specialization, recommendation order, publication grouping, derivation, or evaluation. |
+| Dependency pressure | Edition dependency is useful but is not compatibility, specialization, recommendation order, publication grouping, derivation, or evaluation. |
 | Compatibility pressure | Framework editions need compatibility, deprecation, supersession, and refresh boundaries without becoming software packages. |
 | Actual-use truth | Definition, citation, or adjacency must not be mistaken for formal-premise use or criterion selection. |
 | Conflict and replay | A high-cost receiver may need a closed candidate family and pairwise result, while ordinary use should not pay that cost. |

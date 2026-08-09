@@ -6,12 +6,12 @@ section_id: "C.31:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__013_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:12 — Relations"
-line_start: 63544
-line_end: 63563
+line_start: 63549
+line_end: 63568
 dependencies:
   - "A.10"
   - "A.17"
@@ -61,5 +61,5 @@ keywords:
 | `C.28` | Governs causal-use claims. |
 | `A.10`, `B.3`, `A.20`, `A.21` | Govern evidence, assurance, gate, safety, and release claims. |
 | `C.32.P2S` | Uses C.31 modularity and reusable-structure characteristics when problem pressure must continue into candidate synthesis, decision, realization, and actual-structure feedback; C.31 still governs only characteristic and report-only modularity use. |
-| `G.2`, `G.5`, `C.11` | Govern SoTA basis, set-return selection, and local decision claims. Candidate-generation or architecture-synthesis claims stay outside C.31 unless `G.5`, `C.11`, or a named architecture-synthesis governing pattern governs that claim; C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
+| `G.2`, `G.5`, `C.11` | Define SoTA-basis, set-selection, and local-decision predicates. Candidate-generation or architecture-synthesis claims stay outside C.31 unless an exact current assertion satisfies the predicate or constraint whose defining `ClaimGraph` is located through `G.5`, `C.11`, or a named architecture-synthesis pattern description; C.31 records only modularity or reusable-structure characteristic use and report-only boundaries. |
 

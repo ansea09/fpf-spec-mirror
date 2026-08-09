@@ -6,12 +6,12 @@ section_id: "A.6.M:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.M/A.6.M__013_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.6.M — Module Relation Repair"
   - "A.6.M:12 — Relations"
-line_start: 18891
-line_end: 18913
+line_start: 18893
+line_end: 18915
 dependencies:
   - "A.10"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "C.36.P:5"
 section_title: "Worked Micro-Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__007_worked-micro-examples.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:5 — Worked Micro-Examples"
-line_start: 68444
-line_end: 68474
+line_start: 68451
+line_end: 68481
 dependencies:
   - "A.1"
   - "A.15"
@@ -63,7 +63,7 @@ CulturalEvolutionWordingRecoveryLine@Context:
   sourceOrProjectContext: short-video dance circulation
   recoveredCurrentObject: recommendation-system mediation plus visibility relation plus style term bridge
   recoveredRelationOrSlot: mediation system changes recognition and selection regime for a variant set
-  directGoverningPatternRef: C.36, F.17, F.18, F.9, C.18, G.11
+  subjectPatternLocator: C.36, F.17, F.18, F.9, C.18, G.11
   retainedSourceLabelUse: keep "platform" as source label for the mediating system and visibility infrastructure
   admissibleUse: discuss how visibility and recognition relations changed retained dance variants
   blockedUse: treat platform as a root cultural kind or style as one global kind

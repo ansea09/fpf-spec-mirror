@@ -6,12 +6,12 @@ section_id: "C.22.2:14"
 section_title: "Source and P2W Carry-Forward"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__015_source-and-p2w-carry-forward.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:14 — Source and P2W Carry-Forward"
-line_start: 52233
-line_end: 52256
+line_start: 52238
+line_end: 52261
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,9 +63,9 @@ The source presentation is not compressed into a generic problem-card summary. T
 | Source detail | Current FPF recovery | `C.22.2` carry-forward relation |
 |---|---|---|
 | Source examples: person, team, organization, system, community, episteme, and exact Work | Recognition material for the EntityOfConcern or exact A.15.6 Work when it changes problem-card use; not a new FPF kind taxonomy | A domain or practice locus may qualify the effective ReferenceScheme, ClaimScope, horizon, indicators, cost of error, role concern, or comparison, but it neither constitutes the card nor identifies an actual Problem. |
-| Engineering language for reproducibility and management language for coordination, rights, resources, and responsibility | Verification and reproducibility, coordination, right, resource, and responsibility claims are different FPF relations | `C.22.2` may name reproducibility, role, budget, right, or responsibility cue only as a field or relation reference; claims outside the problem-side record stay with their governing patterns. |
+| Engineering language for reproducibility and management language for coordination, rights, resources, and responsibility | Verification and reproducibility, coordination, right, resource, and responsibility claims are different FPF relations | `C.22.2` may name reproducibility, role, budget, right, or responsibility cue only as a field or relation reference; claims outside the problem-side record stay with their subject patterns. |
 | Problem factory, solution factory, and factory-of-factories | Source exposition for three related work families, not FPF process kinds | `C.22.2` covers only the problem-side output. Solution and P2W relations use `G.5`, `A.15`, `E.18`, `A.10`, `G.6`, `B.3`, `A.21`, `E.16`, and `G.11`; organizational-development or platform-capability questions are outside this pattern. |
-| Characterization protocol: ReferenceScheme, ClaimScope or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` governing patterns | `ProblemCard` cites characterization and comparability relations when current; available measurement alone is not an accepted indicator-use relation. |
+| Characterization protocol: ReferenceScheme, ClaimScope or slice, compared set, role or viewpoint characteristics, scale, polarity, measurement method, freshness, repeatability, budget, missing data, and comparison rules | `C.16`, `A.19`, `C.25`, and `G.9` subject patterns | `ProblemCard` cites characterization and comparability relations when current; available measurement alone is not an accepted indicator-use relation. |
 | Indicator roles: mandatory constraints, optimization objectives for the current cycle, and risk signals | Characteristic and Q-bundle use under selected comparison or acceptance | `C.22.2` preserves whether an indicator is a mandatory constraint, an optimization objective, or a monitored risk signal when that distinction affects acceptance. |
 | Problem portfolio as period-bounded selected set with budget, role assignment, review cadence, and not-selected disposition | `G.5`, `C.19`, `G.9`, `G.11`, `A.6.P:7a`, and `C.16.Q` | `ProblemCard` preserves source set or reference, selection or retention criterion, budget or window, review cadence, and not-selected or stepping-stone disposition when the set-source relation is current. |
 | Goldilocks as zone-of-growth selection calibrated to current capability, effective ReferenceScheme, and ClaimScope | Problem-side entry to current NQD, OEE, and set-return family | `C.22.2` does not turn Goldilocks into one global difficulty scale or scalar readiness score. |

@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__009_common-repair-cues.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:8 — Common Repair Cues"
-line_start: 65999
-line_end: 66014
+line_start: 66004
+line_end: 66019
 dependencies:
   - "A.10"
   - "A.12"
@@ -48,12 +48,12 @@ keywords:
 | Repair cue | Symptom | First repair |
 |---|---|---|
 | `ArchitectureActs` | An architecture, method, toolchain, organization chart, or episteme builds, decides, repairs, or performs. | Start with the domain action; name the exact system and Work when current, then state architecture influence separately. |
-| `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the direct owner: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
+| `InfluenceSourceUntyped` | A source “shapes” the candidate without kind or relation. | Apply the subject pattern: recover kind/predicate or return `missing-governor`; if facts are unresolved, keep a candidate cue; if false, remove the occurrence; if satisfied, name the obtaining occurrence. |
 | `ChangedReferentHidden` | The pair is named but the object or claimed actual transformation is not. | Identify the continuing changed referent and, when current, the A.3.4 `U.Transformation`; keep direct participation and Work-to-change relations separate. |
 | `PerformerBasisMissing` | A performer is named without exact System, assignment, dated Work, or F.6 attribution. | Apply A.12, A.2.1, A.15.1, and F.6; restore the exact performer basis and `CC-A15.1-17` form when several systems perform. |
 | `TransformedArchitectureNoSourceFit` | The desired architecture cannot be sustained by the current influence-side structures. | Open source-side retargeting, transformed-architecture retargeting, joint change, and bounded mismatch as alternatives. |
-| `InverseConwayNoSourceChange` | The text says inverse Conway but names no selected influence-source structure change. | Name that exact structure, affected characteristic, migration burden, loss, and receiving pattern or drop the inverse-Conway claim. |
-| `SourceChangeNoTransformedPressure` | A source-side organization, method, line, or toolchain change has no transformed architecture characteristic under pressure. | Route the change to its direct Work or organization-governance pattern until the architecture pair is current. |
+| `InverseConwayNoSourceChange` | The text says inverse Conway but names no selected influence-source structure change. | Name that exact structure, affected characteristic, migration burden, loss, and pattern for the next question or drop the inverse-Conway claim. |
+| `SourceChangeNoTransformedPressure` | A source-side organization, method, line, or toolchain change has no transformed architecture characteristic under pressure. | State the change under its direct Work or organization-governance predicate until the architecture pair is current. |
 | `CoordinationCostHidden` | Visible coupling falls while Work, evidence, approval, manufacturing, or operational coordination rises elsewhere. | Name the exact influence source and relation carrying that pressure; add candidates that expose the shifted cost. |
 | `MirroringNoExceptionTest` | Mirroring is used without preserved or lost structure, an exception, or an evolution window. | Keep it as diagnostic pressure or use C.29 for the declared lens. |
 | `PairFlattenedIntoNetwork` | One architecture pair is called the entire transformation-flow network. | Restore E.18.NET identity and keep the pair as one optional qualified reading. |

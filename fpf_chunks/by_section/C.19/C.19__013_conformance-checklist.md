@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 49974
-line_end: 49993
+line_start: 49979
+line_end: 49998
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -54,10 +56,10 @@ keywords:
 
 - **C19-8** When a heterogeneity-first profile is used, provenance **MUST** name each admitted heterogeneity constraint and its governing policy id. If a family or subfamily quota applies, record the exact quota vector and family-definition id; if sampling applies, record the sampler class, seed when relevant, and sampler-policy id. Do not fabricate a default triad, quota, or sampler.
 - **C19-9** A `PoolPolicyResult` **MUST** identify `livePool`, `governingLens`, `changeTrigger`, and exactly one `currentTreatment` token from `widen | keep_frontier | narrow_to_subset | sunset_line`; `lens` and space-separated treatment spellings are not alternate record fields or values.
-- **C19-10** If the question under repair is still local option choice, already one enactment-facing plan, or already one selector-facing publication result, `C.19` **MUST** name the governing pattern rather than restate `C.11`, `C.24`, or `G.5`.
+- **C19-10** If the question under repair is local option choice, an enactment-facing plan, selector-facing result declaration, or publication availability, `C.19` **MUST** name the applicable pattern rather than restate it: `C.11`, `C.24`, `G.5`, `E.17`, or `E.24.PUB`.
 - **C19-11** If autotelic or capability-discovery evidence is used, the record **MUST** name `goalSpaceExpansionPolicyRef` when one governs widening and the `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue` that supports the pool treatment, and it **MUST** keep those signals outside default dominance unless an explicit promotion policy is recorded.
 - **C19-12** If an exploration and exploitation policy collects data for a causal claim, changes intervention budget, learns a causal policy, evaluates a policy from behavior data or logging data, or treats counterfactual replay as support, `PoolPolicyResult.causalUseSpec?` **MUST** carry `targetCausalityLadderRung`, `causalUseClaimKind: CausalUseClaimKind`, causal evidence support basis when known, supported use and unsupported use, and relevant `C.28` support refs.
-- **C19-13** If a pool-policy record concerns loop, agent-harness, workflow, or DPF-seed candidates, it names the still-live pool, governing lens, current treatment, and change trigger. A need for candidate generation, archive update, or front recomputation exits to `C.18` with desired policy values and a reason only; improvement, publication, choice, work, or refresh exits to `E.23`, `G.5`, `C.11`, the A.15 family, or `G.11`.
+- **C19-13** If a pool-policy record concerns still-live loop-engineering candidates—for example, loops, agent harnesses, workflows, or DPF seeds—it names the pool, governing lens, current treatment, and change trigger. A need for candidate generation, archive update, or front recomputation requires `C.18` with desired policy values and a reason only. Improvement requires `E.23`; selector-result declaration requires `G.5`; audience publication requires `E.17` and `E.24.PUB`; choice requires `C.11`; work requires the A.15 family; and refresh requires `G.11`.
 - **C19-14** A pool-policy record, its evidence, and its treatment constitute neither an actual Problem nor `ProblematicForRelation`, improvement result, work result, project Work or parthood, `ChoiceResult`, public selected set, work permission, nor refreshed edition.
 - **C19-15** If graduation, scaling, or widening relies on assurance, `assuranceResultRef?` **MUST** cite the exact B.3 assurance result, and `changeTrigger` **MUST** name the satisfied condition and the bounded scope that result supports. A C.19 policy threshold or label does not create that assurance result.
 

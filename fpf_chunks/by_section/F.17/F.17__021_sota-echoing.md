@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-echoing.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:16 — SoTA-Echoing"
-line_start: 96682
-line_end: 96693
+line_start: 96731
+line_end: 96742
 dependencies:
   - "A.1.1"
   - "A.10"

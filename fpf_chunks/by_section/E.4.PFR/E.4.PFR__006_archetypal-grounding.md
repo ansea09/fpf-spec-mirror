@@ -5,13 +5,13 @@ pattern_title: "Pattern-Framework Relation and Edition Discipline"
 section_id: "E.4.PFR:4"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
-output_path: "by_section/E.4.PFR/E.4.PFR__005_archetypal-grounding.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+output_path: "by_section/E.4.PFR/E.4.PFR__006_archetypal-grounding.md"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:4 — Archetypal Grounding"
-line_start: 71362
-line_end: 71409
+line_start: 71395
+line_end: 71450
 dependencies:
   - "A.10"
   - "A.6.0"
@@ -57,21 +57,29 @@ If a later Core relation-function maintenance replay must enumerate every CGUS p
 
 #### E.4.PFR:4.2 - Framework edition dependency
 
+Start with the readable dependency assertion:
+
+> `CodexProcessFramework@current` uses the selected `FPFCorePatternSet@current` authoring and quality rules as required constraints on local process authoring. Without those rules, or after a relevant change to them, the affected local guidance cannot remain current without recheck. `CodexProcessFramework@current` therefore depends on that exact Core content for local process authoring.
+
+Choose the representation from the receiver's job. A cross-relation comparison may use one generic PFR row. An edition-impact or refresh receiver may use one dependency-specific record. This receiver needs the relied-on content and refresh fields, so it uses only the dependency record:
+
 ```text
-PatternFrameworkRelationRecord@CodexProcessFramework:
-  relationId: PFR-CODEX-DEP-001
-  sourceRef: CodexPrelandingAttentionPattern@LocalPracticeFramework
-  targetRef: FPFCorePatternSet@current
-  relationFunction: Framework edition dependency
-  governedUse: local process authoring uses the selected Core authoring and quality rules
+FrameworkEditionDependencyRecord@CodexProcessFramework:
   subjectAssertionRef: CodexProcessFramework-CoreDependencyAssertion
-  relationFunctionClaimRef: exact E.5.3 dependency-direction ClaimGraph
-  dependencyOrEditionEffect: local framework depends on Core; no Core reverse dependency
-  blockedStrongerReading: not specialization, derivation, evaluation, or instruction to perform Core patterns
-  refreshOrSupersessionCondition: refresh when a Core edition changes a relevant selected rule
+  dependencyPredicateClaimRef: E.4.PFR:3.4-framework-edition-dependency-predicate
+  directionConstraintClaimRef: E.5.3-local-to-Core-direction-and-Core-acyclicity
+  dependentEditionRef: CodexProcessFramework@current
+  reliedOnEditionRef: FPFCorePatternSet@current
+  reliedOnContentRefs: [selected_Core_authoring_and_quality_rules]
+  namedUse: local_process_authoring
+  dependencyDirection: local_to_Core
+  dependencyReason: the selected Core rules are required constraints on the affected local guidance; removing or relevantly changing them invalidates or reopens that guidance
+  refreshConditionRefs: [G.11-Core_pin_or_selected_rule_change]
 ```
 
-The row supports a named edition-impact receiver. It neither proves actual rule-content use nor says that E.5.3 owns the dependency.
+If one named cross-relation receiver also needs the generic view, add one `PatternFrameworkRelationRecord`, give both forms the same `subjectAssertionRef`, and set the dependency record's `genericRelationRecordRef` to that row. In the generic row, `relationFunctionClaimRef` points to the E.4.PFR:3.4 dependency predicate, `dependencyOrEditionEffect` states the E.5.3-constrained direction, and `refreshOrSupersessionCondition` cites the G.11 refresh condition. Derive their shared endpoints, use, direction/effect, and refresh condition from the subject assertion. A change to that assertion refreshes both views together; neither carries an independently maintained copy of the dependency fact.
+
+If this same pair also has a supported compatibility result for an overlapping use, state that C.2.1 assertion separately. Add its ref to `compatibilityClaimRefs` only when the named edition-impact receiver must traverse from this dependency record to that claim. The dependency record proves neither dependency nor compatibility, and E.5.3 does not own either edition.
 
 #### E.4.PFR:4.3 - Source and decision reuse
 
@@ -86,7 +94,7 @@ PatternFrameworkRelationRecord@HydroponicCucumberDomain:
   relationFunctionClaimRef: exact G.2 bounded source-use ClaimGraph
   preservationOrAdmissionRef: C.33-source-pack-summary-loss-note
   blockedStrongerReading: not framework dependency, specialization, publication, derivation, evidence, or assurance
-  sourceReturnCondition: reconsider when the source pack omits a material rival horticulture tradition
+  sourceReturnCondition: reconsider when including an omitted rival horticulture tradition could change the selected source answer or bounded nutrient-monitoring use
 ```
 
 A hydroponic framework may separately carry a Core-edition dependency, publication relation to its all-in-one carrier, access relation to a grower-assistant skill pack, specialization relation for a narrowed authoring pattern, and quality relations for evaluated drafts. Each remains a different assertion and optional row.

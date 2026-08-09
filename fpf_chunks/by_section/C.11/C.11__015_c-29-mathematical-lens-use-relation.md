@@ -6,12 +6,12 @@ section_id: "C.11:12b"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__015_c-29-mathematical-lens-use-relation.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12b — C.29 mathematical-lens use relation"
-line_start: 46880
-line_end: 46883
+line_start: 46882
+line_end: 46885
 dependencies:
   - "A.13"
   - "A.18"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.11:12b - C.29 mathematical-lens use relation
 
-> `C.29` may supply a lens-supported prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that a decision record can cite. If the output is a `ChoiceResult`, local choice record, selected-set publication, or selected option set, `C.11` governs the decision discipline and any `G.5`/`G.9` selector or benchmark publication remains separate. `C.29` does not select the option by mathematical elegance.
+> `C.29` may supply a lens-supported prediction, distinction, obstruction, diagnostic boundary, or rival-lens note that a decision record can cite. If the output is a `ChoiceResult` or local choice record, use `C.11` to state and test the decision. Any `G.5` selector-result declaration and `G.9` benchmark result remain separate. When one of those results must be available to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability. `C.29` does not select the option by mathematical elegance.
 

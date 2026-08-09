@@ -6,12 +6,12 @@ section_id: "G.5:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__005_first-minute-questions.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.3 — First-minute questions"
-line_start: 100179
-line_end: 100196
+line_start: 100234
+line_end: 100253
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -51,10 +55,12 @@ keywords:
 
 ### G.5:0.3 - First-minute questions
 
-- What selector outcome kind is this result actually emitting: one set-result outcome such as `Shortlist` or `RankedShortlist`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
+- What selector outcome kind is this result actually emitting: one set-result outcome such as `Shortlist`, `RankedShortlist`, or `JointUseSet`, one `SpecialistHandoff` or other narrowed handoff, or one abstain outcome?
 - Which members are being retained or excluded now?
-- Does order materially belong to the published result?
-- Which basis pins or policy pins must the published result carry?
+- Are these alternatives retained for later choice, or is every named member included for one bounded use?
+- For `JointUseSet`, what named use, unique member refs, inclusion conditions, and sufficient top-level basis pins make the result complete?
+- Does the result order the retained alternatives?
+- Which basis pins or policy pins must the declared result carry?
 - Which exact A.3.1 `MethodRef` values does every method-family row resolve to?
 - What independently governed classification, membership relation, or local grouping criterion justifies placing those Methods in that row for this selector use?
 - Is the current organization only a composition template, one B.1.5-qualified composite Method, or an independently selected A.22 Structure with all four identity discriminators?

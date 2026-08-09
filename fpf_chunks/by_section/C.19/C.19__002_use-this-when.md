@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0 — Use this when"
-line_start: 49678
-line_end: 49684
+line_start: 49683
+line_end: 49689
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -47,6 +49,6 @@ keywords:
 
 - several candidate lines, family regions, or frontier segments remain live under one declared exploration and exploitation policy and the question is now policy over that pool rather than one more local choice result
 - the next result should say whether to widen, keep the frontier, narrow to a subset, or sunset a line
-- if the question is no longer pool policy, the C.19 use closes by naming the next governing pattern and the reason that pattern now applies
+- if the question is no longer pool policy, the C.19 use closes by naming the next subject pattern and the reason that pattern now applies
 - the governing lens or policy state must be explicit rather than inferred from vague exploration language
 

@@ -6,12 +6,12 @@ section_id: "C.11:12a"
 section_title: "Quantum-like choice-boundary note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__014_quantum-like-choice-boundary-note.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:12a — Quantum-like choice-boundary note"
-line_start: 46847
-line_end: 46879
+line_start: 46849
+line_end: 46881
 dependencies:
   - "A.13"
   - "A.18"
@@ -55,7 +55,7 @@ Decision repair sequence:
 5. If the issue changes boundary state, bridge/export faithfulness, coordinated-work evidence, measurement admissibility, or viability envelope, apply the pattern governing that claim.
 6. Emit one `ChoiceResult` and one next question; do not leave the QL branch as a theory label.
 
-When the question leaves local choice, apply the governing pattern instead of stretching C.11:
+When the question leaves local choice, apply the subject pattern instead of stretching C.11:
 
 | Question that appears in the decision case | First pattern |
 | --- | --- |
@@ -64,7 +64,7 @@ When the question leaves local choice, apply the governing pattern instead of st
 | Coordinated work evidences a state no report faithfully carries | `A.15` plus evidence patterns, with `C.26.2` only for the remaining low-recoverability distributed-state reading |
 | Measurement, metric, survey, or score frame changes the represented state | `C.16` plus evidence patterns |
 | Viability envelope, adaptation cost, or boundary-maintenance decision is load-bearing | `C.25` first, with `C.26.3` only for the remaining probe/export/frame/coarsening viability question |
-| Current option set is suspect, incomplete, frame-generated, or still being expanded/reframed/searched | `C.18`, `C.19`, `A.19`, or `B.5.2` before returning to C.11 |
+| Current option set is suspect, incomplete, frame-generated, or still being expanded/reframed/searched | `C.18`, `C.19`, `A.19`, or `B.5.2` before applying C.11 |
 
 Useful outputs:
 

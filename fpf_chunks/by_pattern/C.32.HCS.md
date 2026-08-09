@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.HCS.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
-line_start: 64943
-line_end: 65143
+line_start: 64948
+line_end: 65148
 dependencies:
   - "A.19"
   - "C.11"
@@ -55,7 +55,7 @@ Typical entry phrases:
 
 **First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system or bounded review-work context; the relevant structures include a method relation structure, method descriptions, role assignments for role-holding systems, work-product structures, and evidence records. Only then does the practitioner inspect repeatability, transferability, evidence reuse, exception growth, and role-assignment substitutability, record teachability as a likely C.25 Q-Bundle, and carry only those starter heads and first project questions to `C.32.ACS`. The project starts from a small recovered architecture-bearing set instead of copying hundreds of names or admitting "practice" as a holon kind.
 
-The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. HCS hands starter heads to ACS; Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 publications, and architecture decisions stay with their patterns for the next questions.
+The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. Carry admitted starter heads to ACS. Keep Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 result declarations, actual publications, and architecture decisions as separate objects handled by their applicable patterns.
 
 Ordinary working move: choose the starter pack for the admitted holon family or recovered architecture-bearing family, keep only the heads that plausibly fit the project, ask the first project question for each head, then hand those heads to `C.32.ACS` for bearer, scale, and use-class binding.
 
@@ -83,7 +83,7 @@ What C.32.HCS buys in practice: the practitioner has a short architecture-bearin
 
 Adoption test: after using C.32.HCS, the project has a short starter set and first project questions; it has not copied a catalogue and has not yet claimed bearer, scale, use class, or optimization status.
 
-Not this pattern when the project already has admitted architecture-characteristic rows with bearers, scales, and use classes. Also not this pattern when the current work is composite-quality modeling, measurement, eval design, candidate synthesis, comparison, publication of a selected set, local choice, or project architecture decision.
+Not this pattern when the project already has admitted architecture-characteristic rows with bearers, scales, and use classes. Also not this pattern when the current work is composite-quality modeling, measurement, eval design, candidate synthesis, comparison, selected-set result declaration, actual publication, local choice, or project architecture decision.
 
 Common exits by claim kind:
 
@@ -93,7 +93,7 @@ Common exits by claim kind:
 - `E.13` when a source-looking cue, score, benchmark, or dashboard starts replacing the architecture concern.
 - `C.32` for candidate synthesis after project criteria rows exist.
 - `A.19.CPM` for explicit comparison and `A.19.SelectorMechanism` for set-returning selection.
-- `G.5` for publication of a selected set, `C.11` for local choice, and `C.32.PAD` for project decision.
+- `G.5` for selected-set result declaration, `C.11` for local choice, and `C.32.PAD` for a project decision. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 
 ### C.32.HCS:2 - Problem
 
@@ -174,7 +174,7 @@ Before ACS criteria-row use, ask one proxy-resistance question for each carried 
 
 ### C.32.HCS:6 - Receiving-Claim Boundary
 
-Use C.32.HCS only to build architecture-bearing family starter packs. Project scale rows, Q-Bundles, measurements, eval programs, candidate synthesis, comparison, selection, publication of a selected set, local choices, and project architecture decisions belong to `C.32.ACS`, `C.25`, `C.16`, `C.32.ACE`, `C.32`, `A.19.CPM`, `A.19.SelectorMechanism`, `G.5`, `C.11`, or `C.32.PAD` as applicable. C.32.HCS also does not admit `U.Method`, `U.Role`, practice, culture, tradition, or style as holon kinds.
+Use C.32.HCS only to build architecture-bearing family starter packs. Use `C.32.ACS` for project scale rows, `C.25` for Q-Bundles, `C.16` for measurements, `C.32.ACE` for eval programs, `C.32` for candidate synthesis, `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `G.5` for selected-set result declaration, `C.11` for local choices, and `C.32.PAD` for project architecture decisions. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability. C.32.HCS also does not admit `U.Method`, `U.Role`, practice, culture, tradition, or style as holon kinds.
 
 ### C.32.HCS:7 - Conformance checklist
 
@@ -207,7 +207,7 @@ Use C.32.HCS only to build architecture-bearing family starter packs. Project sc
 
 ### C.32.HCS:10 - Rationale
 
-The 300-to-3 problem needs a middle step. A project cannot optimize from a catalogue, but it also should not invent criteria from scratch. Architecture-bearing starter packs give a small, recognizable entry while project criteria-row construction, measurement, eval, comparison, selection, publication of a selected set, local choice, and project architecture decision work stays with its pattern for the next question.
+The 300-to-3 problem needs a middle step. A project cannot optimize from a catalogue, but it also should not invent criteria from scratch. Architecture-bearing starter packs give a small, recognizable entry. Criteria-row construction, measurement, eval, comparison, selection, selected-set result declaration, actual publication, local choice, and project architecture decisions then use their applicable patterns.
 
 ### C.32.HCS:11 - SoTA-Echoing
 
@@ -218,7 +218,7 @@ These rows document transfers from source practice into C.32.HCS. Keep a source 
 | ISO/IEC 25010:2023 (`https://www.iso.org/standard/78176.html`) and SQuaRE quality-model practice | Current standard source for ICT product quality vocabulary; useful as a stable catalogue reference, not as FPF ontology. | Use quality-model terms as source catalogue wording that must be rebound to the admitted holon family or recovered architecture-bearing family. | Starter-pack rows separate starter heads, likely bearers or selected structures, any source-label recovery actually needed, and likely C.25 boundaries. | An ICT product quality-model characteristic is not automatically a project criterion, holon ontology, scale row, eval program, or admission of a source label as a holon kind. |
 | Richards and Ford, `Fundamentals of Software Architecture`, 2nd ed. (`https://www.oreilly.com/library/view/fundamentals-of-software/9781098175504/`) | Current practitioner source for architectural characteristics, trade-offs, scope, and limiting the working set before measurement or governance. | Keep the recurring-head idea, but generalize it only by rebinding family, bearer, and scale. | HCS requires the architecture-bearing family, likely bearers, likely selected structures, a recovery-pattern ref only when needed, and first project questions before ACS criteria-row construction. | Software architecture characteristic groupings cannot be copied into methods, roles, cultures, practices, built assets, or evidence workflows named by source wording without recovery and rebinding. |
 | Ford, Parsons, Kua, and Sadalage, `Building Evolutionary Architectures`, 2nd ed. (`https://www.oreilly.com/library/view/building-evolutionary-architectures/9781492097532/`) and `Software Architecture Metrics` (`https://www.oreilly.com/library/view/software-architecture-metrics/9781098112226/`) | Current practitioner line for guided change, architecture characteristics, and metric or eval work after quality goals are named. | Put HCS before metrics and eval programs: it supplies starter heads, then ACS chooses project rows and ACE defines eval programs when needed. | HCS stop condition explicitly ends at starter heads, likely bearers, likely Q-Bundle boundaries, and first project questions for ACS. | A metric, dashboard, imported fitness-function name, or imported eval-program name is not a starter pack, project criterion, architecture-characteristic eval program, or architecture decision. |
-| Current FPF `C.25`, `C.30`, `C.32.ACS`, `C.32.ACE`, and `C.16` | Local rules for Q-Bundles, grounded architecture, project criteria rows, eval programs, and measurement. | Use HCS only for starter packs; use the named pattern for each stronger claim. | HCS relations and conformance rows name C.25 for composite quality families, C.30 for selected-structure recovery, ACS for criteria rows, ACE for eval programs, and C.16 for measurement. | A starter head is not a Q-Bundle, selected structure, measurement method, eval result, comparison rule, published selected set, local choice, or project architecture decision. |
+| Current FPF `C.25`, `C.30`, `C.32.ACS`, `C.32.ACE`, and `C.16` | Local rules for Q-Bundles, grounded architecture, project criteria rows, eval programs, and measurement. | Use HCS only for starter packs; use the named pattern for each stronger claim. | HCS relations and conformance rows name C.25 for composite quality families, C.30 for selected-structure recovery, ACS for criteria rows, ACE for eval programs, and C.16 for measurement. | A starter head is not a Q-Bundle, selected structure, measurement method, eval result, comparison rule, declared selected-set result, published selected set, local choice, or project architecture decision. |
 
 **Source-currentness boundary.** Use ISO/IEC 25010:2023 as ICT product-quality vocabulary, not as holon-family ontology. Use the O'Reilly architecture-characteristic and evolutionary-architecture sources for recurring starter heads and for later metric or eval work after the heads are named. Use an FPF row only for the claim it defines, constrains, or tests. Reopen HCS when a named source edition changes starter-head guidance, when the pattern for a next question changes how it handles that source family, when repeated `C.32.ACS` uses show that a starter head never survives project binding, when repeated project uses reveal a missing head for the admitted holon family or recovered architecture-bearing family, or when source-label recovery changes the recovered family or bearer.
 

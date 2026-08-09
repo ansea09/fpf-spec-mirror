@@ -6,12 +6,12 @@ section_id: "C.31:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__007_bias-annotation.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:6 — Bias-Annotation"
-line_start: 63461
-line_end: 63471
+line_start: 63466
+line_end: 63476
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,6 +51,6 @@ keywords:
 | Measure-first bias | Start with `ModularityVectorLite` and repair direction before C.16-heavy fields. |
 | Interface-publication bias | Treat public interfaces as only one possible basis for substantiating substitutability. |
 | Proxy bias | Add `ProxyRisk` and `AuditQuestion` to every decision-facing card. |
-| Complexity umbrella bias | Keep residual heads claim-scoped and apply scale, RG, or lens governing patterns when those uses are being made. |
-| Source-label bias | Treat software, neural-network, chiplet, safety-case, product-line, block, layer, expert, cache, router, and gate labels as source examples until `C.30.STRAT` and the governing pattern recover the FPF characteristic subject, structure, scale, and admissible use. |
+| Complexity umbrella bias | Keep residual heads claim-scoped and apply scale, RG, or lens subject patterns when those uses are being made. |
+| Source-label bias | Treat software, neural-network, chiplet, safety-case, product-line, block, layer, expert, cache, router, and gate labels as source examples until `C.30.STRAT` and the subject pattern recover the FPF characteristic subject, structure, scale, and admissible use. |
 

@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__009_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:7 — Conformance Checklist"
-line_start: 6739
-line_end: 6751
+line_start: 6741
+line_end: 6753
 dependencies:
   - "A.10"
   - "A.15.1"

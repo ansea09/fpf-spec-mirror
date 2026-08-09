@@ -6,12 +6,12 @@ section_id: "C.30.ILC:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.ILC/C.30.ILC__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.ILC — Cross-Scope Architecture Residual Triage"
   - "C.30.ILC:7 — Conformance Checklist"
-line_start: 62712
-line_end: 62725
+line_start: 62717
+line_end: 62730
 dependencies:
   - "A.10"
   - "A.22"
@@ -54,8 +54,8 @@ keywords:
 | CC-ILC-3 | A conforming use names the selected structure or structure kind that carries, separates, or relates the declared levels or scopes affected by the residual. | Keeps the residual interlevel rather than merely a same-level, same-scope, or unassigned conflict between structures. |
 | CC-ILC-4 | A conforming use records conflict carriers, local repair attempted, and why local repair was insufficient when a conflict or local repair is claimed. | Prevents premature synthesis and repeated local fixes. |
 | CC-ILC-5 | A conforming use states one first admissible architecture move or `noArchitectureMove`. | Makes the output action-guiding without candidate generation. |
-| CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their governing patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
+| CC-ILC-6 | Evidence, assurance, measurement, causal, ethical, selection, scale, RG, coarse-graining, mathematical-lens, and residual-reducing candidate-set claim kinds use their subject patterns. | Prevents triage from becoming proof, lens adequacy, mediation, synthesis, or selection. |
 | CC-ILC-7 | If a source-return condition is needed, the record states what hidden or lost distinction triggers return to the source. | Protects compressed and extracted views. |
 | CC-ILC-8 | The stop condition is visible. | Prevents the triage pattern from expanding into a hidden prescribed sequence. |
-| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if residual-reducing candidate moves form a candidate set being used, the record names `C.32.MLAO` and `C.32`; if the retained set is being published, it names `G.5`. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
+| CC-ILC-9 | If multilevel learning or frustration is used as mathematics, the record names `C.29`, `MLU.Description@MultilevelLearningFrustration`, the recoverable level mapping or scale mapping, and preserved structure and lost structure; if residual-reducing candidate moves form a candidate set being used, the record names `C.32.MLAO` and `C.32`; if the retained-set result is being declared, it names `G.5`; if that result is made available to an audience, it names `E.17` for a source-backed publication face and source return and `E.24.PUB` for the publication occurrence and audience availability. | Preserves the useful multilevel optimization line without importing ontology, proof, or a hidden selector. |
 

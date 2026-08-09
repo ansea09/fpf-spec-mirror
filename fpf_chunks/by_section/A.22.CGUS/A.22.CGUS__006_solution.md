@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__006_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:4 — Solution"
-line_start: 34840
-line_end: 35111
+line_start: 34842
+line_end: 35113
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -34,6 +34,7 @@ dependencies:
   - "E.18.NET"
   - "E.18.NET-conforming"
   - "E.23"
+  - "E.24.PUB"
   - "F.17"
   - "G.11"
   - "G.5"
@@ -272,7 +273,7 @@ CGUS is limited to the unfolding structure. It does not absorb stronger claims.
 | Work plan, work entry, or performed work | `A.15.2`, `A.15.5`, `A.15.1`, and neighboring work patterns define the applicable plan, entry, and Work distinctions. |
 | Evidence, assurance, or gate | `A.10`, `B.3`, `A.20`, `A.21`, and `G.6` supply the applicable evidence-use, assurance, gate, and provenance rules. |
 | Architecture use, architecture decision, or architecture description | `C.30`, `C.30.ASV`, `C.32.P2S`, `C.32.PAD`, `C.32.ADR`, and `C.30.AD` define or constrain the exact architecture claim. |
-| Variant archive, non-dominated front, live pool, or selected-set publication | `C.18`, `C.19`, and `G.5` define the applicable archive, front, pool, and selected-set distinctions. |
+| Variant archive, non-dominated front, live pool, or selected-set result declaration | `C.18`, `C.19`, and `G.5` define the applicable archive, front, pool, and selected-set distinctions. |
 | Narrative rendering or publication use | `A.6.3.NAR`, `E.17`, and `E.17.0` define or constrain the rendering and publication use. |
 | Improvement of an object version | `E.23`, together with the evaluation pattern for the declared object, supplies the improvement test. |
 | Source currentness, decay, edition shift, or refresh orchestration | `G.11` supplies the currentness and refresh tests. |

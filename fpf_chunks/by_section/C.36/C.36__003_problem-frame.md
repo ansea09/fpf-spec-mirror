@@ -6,12 +6,12 @@ section_id: "C.36:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__003_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:1 — Problem Frame"
-line_start: 68099
-line_end: 68106
+line_start: 68104
+line_end: 68111
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 
 ### C.36:1 - Problem Frame
 
-Many current projects no longer develop one isolated object. They shape evolving sets: product families, methods, research directions, medical and pedagogical practices, AI-agent frameworks, musical styles, dance styles, engineering traditions, canons, archives, frontiers, and recognition regimes. The project often generates variants cheaply, while the hard work shifts to problem production, characterization, archive stewardship, comparison, selected-set publication, local choice, performed work, effect measurement, and refresh.
+Many current projects no longer develop one isolated object. They shape evolving sets, for example product families, methods, research directions, medical and pedagogical practices, AI-agent frameworks, artistic styles, engineering traditions, canons, archives, frontiers, and recognition regimes. The project often generates variants cheaply, while the hard work shifts to the relations that determine what is produced, recognized, retained, selected, used, changed, or kept current. That work can include, for example, problem production, characterization, archive stewardship, comparison, selected-set result declaration, actual publication, local choice, performed Work, effect measurement, and refresh.
 
 Cultural evolution is current when the changing set is collective-holon or discipline-facing: admitted holder Systems may perform independently identified dated Work under exact obtaining `U.RoleAssignment` occurrences and F.6 attribution, and those Work occurrences may enact exact Methods; memory or canon epistemes preserve what can be recognized and transmitted; recognition, selection, comparison, platform mediation, or algorithmic mediation can affect which variants survive or spread; and method families can evolve. A role value, assignment, Work occurrence, Method, effect claim, and family description remain different objects.
 

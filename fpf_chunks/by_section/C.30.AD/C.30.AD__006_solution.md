@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 60306
-line_end: 60549
+line_start: 60311
+line_end: 60554
 dependencies:
   - "A.1"
   - "A.10"
@@ -134,7 +134,7 @@ Minimum conformance for the record:
 - actual architecture-relation references identify independently obtaining `ArchitectureRelation` occurrences; required, desired, expected, candidate, unresolved, or negative architecture content stays claim content;
 - `selectedStructureRefs` names the architecture-relevant structures being described, and `structureKindRefs` classifies those selected structures;
 - any cited `ArchitectureStructuralView` is the same description episteme admitted as `U.View` only by a separately obtaining E.17.0 conformance relation to one exact viewpoint episteme;
-- cross-view composition uses explicit description-set use claims, correspondence claims, or separately governed obtaining relations; source use names source-to-use paths; a source-return condition appears only when stronger use requires return to a named source or governing pattern;
+- cross-view composition uses explicit description-set use claims, correspondence claims, or independently obtaining relations; source use names source-to-use paths; a source-return condition appears only when stronger use requires return to a named source or exact defining or constraining ClaimGraph;
 - representation and publication fields identify their own objects and occurrences; they do not establish the description, architecture, selected structure, view membership, empirical grounding, or truth;
 - `admissibleUse` and `nonAdmissibleUse` say what the description can and cannot carry.
 
@@ -151,14 +151,14 @@ workingConcernRef
 -> selectedStructureRef and, when actual, ArchitectureRelationOccurrenceRef
 -> optional ArchitectureClaimRef
 -> ArchitectureDescriptionUseCard or multi-view description-set use claim
--> admissibleArchitectureMove or governing-pattern application
+-> admissibleArchitectureMove or subject-pattern application
 ```
 
-When allocation-responsibility semantics are current, the direct A.15 relation joins the working concern. When a source episteme or source view is used, a source-to-use path joins it to the view or description. Representation adds its own representation relation or object. Publication adds a publication occurrence with its form and carrier kept distinct. Cross-view use adds a correspondence claim or a direct correspondence relation only under its own admitted owner. A source-return condition is added only when a stronger use must return from a derivative or reused expression to a named source or governing pattern.
+When allocation-responsibility semantics are current, the direct A.15 relation joins the working concern. When a source episteme or source view is used, a source-to-use path joins it to the view or description. Representation adds its own representation relation or object. Publication adds a publication occurrence with its form and carrier kept distinct. Cross-view use adds a correspondence claim or a direct correspondence relation only when its exact predicate obtains. A source-return condition is added only when a stronger use must return from a derivative or reused expression to a named source or exact defining or constraining ClaimGraph.
 
-`E.17.0` carries the generic viewpoint-conformance test and the rule that the same episteme is a `U.View` iff the direct relation obtains. `C.30.ASV` carries selected-structure and architecture-view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which exact objects each description is about, which structural views it uses, which correspondence claims or relations connect them, which source-to-use paths support source use, which stronger uses activate a source-return condition, and which architecture move or governing-pattern application remains admissible.
+`E.17.0` carries the generic viewpoint-conformance test and the rule that the same episteme is a `U.View` iff the direct relation obtains. `C.30.ASV` carries selected-structure and architecture-view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which exact objects each description is about, which structural views it uses, which correspondence claims or relations connect them, which source-to-use paths support source use, which stronger uses activate a source-return condition, and which architecture move or subject-pattern application remains admissible.
 
-If any link in the chain is absent, do not fill it with a documentation label, query result, bundle membership, diagram, file, or publication. Either add the missing exact reference or independently obtaining relation, reduce the admissible use, or apply the governing pattern that can recover it.
+If any link in the chain is absent, do not fill it with a documentation label, query result, bundle membership, diagram, file, or publication. Either add the missing exact reference or independently obtaining relation, reduce the admissible use, or apply the subject pattern that can recover it.
 
 #### C.30.AD:4.2 - View membership, viewpoint, and structure-kind binding
 
@@ -201,11 +201,11 @@ Common architecture-description views:
 | Evidence or assurance reuse view | `A.10`, `B.3`, or assurance or evidence pattern governing the claim for the non-architecture claim. |
 | Architecture residual view | `C.30.ILC` governs a cross-scope or interlevel architecture residual. C.30.AD records only the residual view's exact episteme identity, conformance, description-set use, correspondence to other views, and declared use boundary; source-use relations are added only when such a source is actually used. |
 | Multilevel-learning or frustration mathematical-lens view | `C.29` when the view contains a recoverable level mapping or scale mapping and preserved structure and lost structure; `C.30.AD` records only the architecture-description use of that lens result. |
-| Residual-reducing candidate or optimization view | `C.32.MLAO` governs the residual-reducing multilevel candidate frame; `C.32` governs the candidate architecture palette; `A.19.CPM` or `A.19.SelectorMechanism` governs comparison or selector-policy use; `C.18` and `C.19` govern archive, front, or current-pool treatment; `G.5` governs selected-set publication; `C.11` governs final local choice. C.30.AD records only exact description identity, description-set use, cross-view correspondence, source-to-use path when used, an applicable source-return condition, freshness, representation, publication use, or specification use. |
+| Residual-reducing candidate or optimization view | Use `C.32.MLAO` for the residual-reducing multilevel candidate frame, `C.32` for the candidate architecture palette, `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use, `C.18` and `C.19` for archive, front, or current-pool treatment, `G.5` for selected-set result declaration, and `C.11` for final local choice. Record with C.30.AD only the exact description identity, description-set use, cross-view correspondence, source-to-use path when used, applicable source-return condition, freshness, representation, publication use, or specification use. |
 
 #### C.30.AD:4.3 - Cross-view correspondence, source use, and return conditions
 
-Architecture descriptions become risky when a reader cannot tell whether two view epistemes concern the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different EntitiesOfConcern. A description set therefore carries explicit correspondence claims or references an independently admitted direct correspondence relation. Merely placing two views in one file, model, list, or publication creates neither correspondence nor shared identity. Use source-to-use paths when source epistemes, views, generated outputs, representations, or publications enter current use. Add a source-return condition only when stronger use requires return from a derivative or reused description to a named source or governing pattern.
+Architecture descriptions become risky when a reader cannot tell whether two view epistemes concern the same holon, the same architecture-relation occurrence, the same selected structure, related structures, or different EntitiesOfConcern. A description set therefore carries explicit correspondence claims or references an independently admitted direct correspondence relation. Merely placing two views in one file, model, list, or publication creates neither correspondence nor shared identity. Use source-to-use paths when source epistemes, views, generated outputs, representations, or publications enter current use. Add a source-return condition only when stronger use requires return from a derivative or reused description to a named source or exact defining or constraining ClaimGraph.
 
 ```text
 ArchitectureDescriptionCorrespondenceClaim ::= U.Episteme & {
@@ -230,7 +230,7 @@ ArchitectureDescriptionCorrespondenceClaim ::= U.Episteme & {
 }
 ```
 
-This local record is claim content and does not itself instantiate a world-side correspondence relation. A `directCorrespondenceRelationRef` is affirmative only when that relation's own governing pattern admits it and the occurrence independently obtains. Correspondence is not proof, empirical grounding, assurance, gate passage, shared EntityOfConcern, or architecture identity; it lets a reader use more than one view without silently changing what each episteme is about.
+This local record is claim content and does not itself instantiate a world-side correspondence relation. A `directCorrespondenceRelationRef` is affirmative only when the exact correspondence predicate is defined, current facts satisfy it, and the occurrence independently obtains. Correspondence is not proof, empirical grounding, assurance, gate passage, shared EntityOfConcern, or architecture identity; it lets a reader use more than one view without silently changing what each episteme is about.
 
 #### C.30.AD:4.4 - Freshness and currentness boundary
 
@@ -255,7 +255,7 @@ ArchitectureDescriptionFreshnessClaim ::= U.Episteme & {
 }
 ```
 
-A freshness claim carries a source-return condition only when a stronger use must return to a named source or governing pattern. It does not make the description empirically grounded, evidence-sufficient, true, or publication-current; it only bounds current use of the exact description episteme under the stated scheme.
+A freshness claim carries a source-return condition only when a stronger use must return to a named source or exact defining or constraining ClaimGraph. It does not make the description empirically grounded, evidence-sufficient, true, or publication-current; it only bounds current use of the exact description episteme under the stated scheme.
 
 #### C.30.AD:4.5 - Specification-use and publication boundary
 
@@ -277,19 +277,19 @@ ArchitectureDescriptionSpecificationUse@Project ::= {
     coordination | implementationGuidance | procurement |
     verificationPlanning | assuranceInput | releaseInput |
     declaredOther,
-  directGoverningPatternRef?: U.EntityRef, referencing one U.MethodDescription,
+  subjectPatternLocator?: U.EntityRef, referencing one subject-pattern U.MethodDescription,
   admissibleUse:
   nonAdmissibleUse:
 }
 ```
 
-The two project fields preserve the ordinary boundary: `projectWorkOccurrenceRef` identifies an actual composite `U.Work`; `architectureDescriptionProjectUseRelationRef` identifies a separately obtaining project-use relation under its direct owner. Neither a project label nor this use record creates that Work or relation.
+The two project fields preserve the ordinary boundary: `projectWorkOccurrenceRef` identifies an actual composite `U.Work`; `architectureDescriptionProjectUseRelationRef` identifies a separately obtaining project-use relation under its subject pattern. Neither a project label nor this use record creates that Work or relation.
 
 If specification use becomes pattern-use recommendation, work-entry readiness, evidence, assurance, gate passage, performed work, work authorization, decision claim, causal-use claim, or release authorization, apply the direct pattern governing that claim to the claim being made. The architecture description remains the description boundary, not the governing claim.
 
 Keep the description episteme, its possible `U.View` membership, diagram or other representation, publication occurrence, publication form, and carrier distinct. Authoring, construction, querying, selection, bundling, rendering, filing, or publication creates none of the subject-side architecture relation, selected structure, description truth, empirical grounding, project Work, or project-use relation by itself.
 
-#### C.30.AD:4.6 - Direct governing-pattern applications
+#### C.30.AD:4.6 - Subject pattern applications
 
 | Question after the architecture-description boundary is clear | FPF application |
 | --- | --- |
@@ -302,19 +302,19 @@ Keep the description episteme, its possible `U.View` membership, diagram or othe
 | Control structure view | `C.30.LCA` |
 | Cross-scope or interlevel architecture residual, conflict, or frustration in the described holon | `C.30.ILC` |
 | Multilevel-learning or frustration mathematical-lens result with recoverable level mapping or scale mapping and preserved structure and lost structure | `C.29` with the admitted C.29-local lens output |
-| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `C.32.MLAO` for the residual-reducing frame, `C.32` for the candidate palette, `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use, `C.18` and `C.19` for archive, front, or pool treatment, `G.5` for selected-set publication, `C.11` for final local choice, and measurement patterns named by value when those claims are being made |
+| Residual-reducing candidate architecture moves, candidate palette, candidate front, shortlist, selected set, or optimization over candidates | `C.32.MLAO` for the residual-reducing frame, `C.32` for the candidate palette, `A.19.CPM` or `A.19.SelectorMechanism` for comparison or selector-policy use, `C.18` and `C.19` for archive, front, or pool treatment, `G.5` for selected-set result declaration, `C.11` for final local choice, and measurement patterns named by value when those claims are being made |
 | Generic description, view, viewpoint, publication, publication form, MVPK face | `A.7`, `E.17.0`, `E.17.1`, `E.17.2`, `E.17`, or `C.2.P` |
 | Function or functionality wording | `A.6.F` |
 | Module, interface, port, signature, or reusable structure relation | `A.6.M`, a signature or interface pattern named by value, `C.31`, or `C.31.RSA` |
 | Mathematical lens or preserved and lost mathematical structure | `C.29` |
 | Characteristic, scale, coordinate, score, or quality claim | `C.16.P`, `C.16`, `A.19`, `C.25`, or quality pattern governing the claim |
-| Evidence, assurance, gate, work planning, performed work, local choice, project architecture decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.32.PAD`, `C.28`, release or admissibility pattern, or governing pattern |
+| Evidence, assurance, gate, work planning, performed work, local choice, project architecture decision, causal-use, release | `A.10`, `B.3`, `A.20`, `A.21`, `A.15.2`, `A.15.1`, `C.11`, `C.32.PAD`, `C.28`, release or admissibility pattern, or subject pattern |
 
 #### C.30.AD:4.6a - Candidate, front, and selected-set description boundary
 
 An architecture description can also carry claims about a project architecture decision or selected structures cited by an ADR-like publication. Use `C.32.PAD` for the project architecture decision relation, `C.32.ADR` for publication projection of an architecture-decision description, and `C.32.ADA` for adequacy of that decision for a declared use. C.30.AD keeps only the exact description identity, possible E.17.0 view conformance, description-set use claims, cross-view correspondence claims or governed relations, source-to-use paths when sources are used, applicable source-return conditions, freshness, representation, publication use, and specification use.
 
-An architecture description may carry claim content about an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description the archive-governing pattern, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32` for candidate architecture palettes, `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` only for selected-set publication, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed work.
+An architecture description may carry claim content about an archive, front, selected set, candidate palette, local choice, or planned architecture move. That does not make the description an archive or front relation, selector, choice rule, pattern-use recommendation, work-entry readiness relation, work authorization, or deontic permission. Use `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32` for candidate architecture palettes, `C.18` for archive and front relations, `C.19` for current-pool treatment, `G.5` only for selected-set result declaration, `C.11` for local choice, `C.30` for the architecture move, `C.30.ASV` for selected-structure view triage, `E.11.PUR` for recommended pattern use, `A.15.5` for work-entry readiness, and the A.15 family for planning or performed Work. If the content is published, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability. The C.30.AD record still identifies the architecture description and its declared publication use.
 
-For an architecture-description claim, record exact episteme identity plus only the view conformance, description-set use, viewpoint, cross-view correspondence, source-to-use path, applicable stronger-use return condition, freshness, representation, publication use, and specification use that actually apply. If the current source claim only grounds a first architecture move, return to `C.30`. If it synthesizes alternatives, use `C.32` or `C.32.MLAO` according to the residual frame. If it changes which variants are archived, kept in a pool, compared, selected, published, locally chosen, or decided, return to the pattern that governs that relation.
+For an architecture-description claim, record exact episteme identity plus only the view conformance, description-set use, viewpoint, cross-view correspondence, source-to-use path, applicable stronger-use return condition, freshness, representation, publication use, and specification use that actually apply. If the current source claim only grounds a first architecture move, require `C.30`. If it synthesizes alternatives, use `C.32` or `C.32.MLAO` according to the residual frame. If it changes which variants are archived, kept in a pool, compared, selected, published, locally chosen, or decided, require the pattern that defines or constrains that relation.
 

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__004_forces.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:3 — Forces"
-line_start: 64727
-line_end: 64739
+line_start: 64732
+line_end: 64744
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -58,5 +58,5 @@ keywords:
 | Realization gap | Selected and expected structures do not become actual structures by decision, model, description, or matching labels. Domain work, independently grounded actual changes, exact work-to-change facts, and separately governed subject-side structure facts are needed before an actual structure is claimed. |
 | Architecture-influence constraint | One typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source can enable or block the transformed-side architecture content needed for the changed referent without thereby becoming an actor or transformation participant. |
 | Description loss | Views, descriptions, decision records, method descriptions, and eval reports capture only part of the structural content needed for later use. |
-| Evolution and feedback | Operation, use, telemetry, inspection, eval, decay, and new sources can return the work to the pattern that governs the next claim: `C.32` synthesis, `C.32.PAD` or `C.32.ADA` repair or supersession, `E.23` improvement, `G.11` currentness refresh, `E.18` transformation-flow slice-local refresh, `C.18` or `C.19` archive, front, and pool update, or `C.30.AD` or `C.30.ASV` repair for architecture-description or structural-view loss. |
+| Evolution and feedback | Operation, use, telemetry, inspection, eval, decay, and new sources can use the pattern for the work that defines or constrains the next claim: `C.32` synthesis, `C.32.PAD` or `C.32.ADA` repair or supersession, `E.23` improvement, `G.11` currentness refresh, `E.18` transformation-flow slice-local refresh, `C.18` or `C.19` archive, front, and pool update, or `C.30.AD` or `C.30.ASV` repair for architecture-description or structural-view loss. |
 

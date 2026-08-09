@@ -6,12 +6,12 @@ section_id: "C.32.ADA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__008_conformance-checklist.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:7 — Conformance Checklist"
-line_start: 67353
-line_end: 67367
+line_start: 67358
+line_end: 67372
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ keywords:
 | `CC-ADA-4` | Every value has adjacent-value rationale, not only a number. |
 | `CC-ADA-5` | No coordinate values are averaged or converted into one global score. |
 | `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
-| `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, method, work, and pattern-quality claims exit to their governing patterns. |
+| `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, Method, Work, and pattern-quality claims remain distinct subject assertions and cite their exact defining or constraining ClaimGraphs. |
 | `CC-ADA-8` | A project-local ADA record names both `projectWorkOccurrenceRef` and `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's relation, the suffix, or either field alone asserts no locality. |
 | `CC-ADA-9` | An evaluator-role claim names an exact `U.RoleAssignment`; actual evaluation names the admitted holder System, dated `U.Work`, F.6 attribution, and any Method or operation application, while the result remains a separate C.2.1 episteme. |
 | `CC-ADA-10` | Every evaluation binds one exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, and input projection; the declared-use label and coordinate table do not replace them. |

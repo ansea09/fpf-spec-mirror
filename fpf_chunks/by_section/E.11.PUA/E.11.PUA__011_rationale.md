@@ -6,12 +6,12 @@ section_id: "E.11.PUA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__011_rationale.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:10 — Rationale"
-line_start: 77789
-line_end: 77796
+line_start: 77838
+line_end: 77845
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -33,7 +33,7 @@ keywords:
 
 ### E.11.PUA:10 - Rationale
 
-FPF patterns supply action- or judgement-guiding content for recurring working situations. Some selected `Solution` sections describe methods; others define, constrain, test, or guide a judgement without doing so. Establish formal `U.MethodDescription` membership only for the former when that distinction changes the claim. The missing middle is neither discovery nor recommendation: use one selected conditional `Solution` to identify the first independently governed result that answers the current question, or stop when its basis is missing.
+FPF patterns supply action- or judgement-guiding content for recurring working situations. Some selected `Solution` sections describe methods; others define, constrain, test, or guide a judgement without doing so. Establish formal `U.MethodDescription` membership only for the former when that distinction changes the claim. The missing middle is neither discovery nor recommendation: use one selected conditional `Solution` to identify the first result with its own identity and basis that answers the current question, or stop when its basis is missing.
 
 Separating ordinary semantic checking from conditional record materialization protects both usability and rigor. A conversation can be sufficient for a bounded reversible question. Another person's later use, an audit, an automated use, or an expensive decision can demand addressable support. The same ontology serves both profiles; only the reliance changes the recording granularity.
 

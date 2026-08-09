@@ -6,12 +6,12 @@ section_id: "F.9.1:13"
 section_title: "Worked Bridge-Card Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__014_worked-bridge-card-examples.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "F.9.1 — Bridge Stance Overlay"
   - "F.9.1:13 — Worked Bridge-Card Examples"
-line_start: 93307
-line_end: 93325
+line_start: 93356
+line_end: 93374
 dependencies:
   - "A.16.0"
   - "A.6.3.CSC"

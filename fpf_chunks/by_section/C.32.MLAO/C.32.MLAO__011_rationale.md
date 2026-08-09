@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__011_rationale.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:10 — Rationale"
-line_start: 66296
-line_end: 66303
+line_start: 66301
+line_end: 66308
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -57,5 +57,5 @@ keywords:
 
 The nontrivial work is to prepare candidate architecture changes for later comparison by naming residual reduced and burden created, not by using an optimizer phrase, scalar output, or locally improved structure as the candidate frame.
 
-This subpattern also keeps multilevel source-side material usable as source cues without ontology transfer: multilevel learning, frustration, RG-like, DSM, and Pareto material may discipline the frame only after the affected declared holon-level refs or declared scope refs, selected structures, preserved structure, lost structure, comparison inputs, receiving pattern, and stop condition are declared.
+This subpattern also keeps multilevel source-side material usable as source cues without ontology transfer: multilevel learning, frustration, RG-like, DSM, and Pareto material may discipline the frame only after the affected declared holon-level refs or declared scope refs, selected structures, preserved structure, lost structure, comparison inputs, pattern for the next question, and stop condition are declared.
 

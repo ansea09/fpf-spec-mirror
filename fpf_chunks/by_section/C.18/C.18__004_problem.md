@@ -6,12 +6,12 @@ section_id: "C.18:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__004_problem.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:2 — Problem"
-line_start: 49283
-line_end: 49291
+line_start: 49285
+line_end: 49293
 dependencies:
   - "A.15"
   - "A.19"
@@ -24,9 +24,11 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "C.36"
+  - "E.17"
   - "E.18"
   - "E.18.1"
   - "E.23"
+  - "E.24.PUB"
   - "F.17"
   - "F.18"
   - "F.9"
@@ -53,5 +55,5 @@ Without C.18, a team often compresses several different objects into one word su
 - a front answers current non-domination under a declared comparator or dominance set;
 - an archive answers retained exploration value, coverage, stepping-stone value, or future reachability under a declared retention policy;
 - telemetry reports search health, coverage, novelty, diversity, or lineage but does not by itself dominate alternatives;
-- downstream selected-set publication, local choice, architecture work, cultural-evolution case work, planning, performed work, and refresh each have their own governing pattern.
+- use `G.5` for downstream selected-set result declaration, `C.11` for local choice, the applicable `C.30` or `C.32` pattern for an architecture claim or candidate, `C.36` for cultural-evolution case work, `A.15.2` for planning, `A.15.1` for performed Work, and `G.11` for currentness and refresh.
 

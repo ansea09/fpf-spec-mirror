@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 87249
-line_end: 87461
+line_start: 87298
+line_end: 87510
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -69,7 +69,7 @@ QualityEvaluationUseDeclaration <: U.Episteme:
   referenceScheme: U.ReferenceScheme by value
   editionId
   evaluationPerformerRoleAssignmentRef?: U.EntityRef, referencing one U.RoleAssignment
-  governingEvaluationPatternDescriptionRef: U.EntityRef, referencing the exact FPF evaluation pattern identity supplied by its pattern/framework owner
+  evaluationPatternLocator: U.EntityRef, locating the exact FPF pattern description that contains the defining or constraining ClaimGraph
   semanticEvaluationMethodRef?: U.MethodRef, referencing the separately identified U.Method used for the evaluation
   selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing one exact U.CharacteristicSpace
   selectedEvaluationPredicate?: CharacteristicSpacePredicate by value
@@ -89,14 +89,14 @@ ExpectedEvaluationEvidenceBasis@Context <: U.Episteme:
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  governingEvaluationPatternDescriptionRef: U.EntityRef, referencing the same exact FPF evaluation pattern identity
+  evaluationPatternLocator: U.EntityRef, locating the same exact FPF evaluation pattern description
   selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing the same exact U.CharacteristicSpace
   selectedEvaluationPredicate?: CharacteristicSpacePredicate by value
   selectedComparatorSpecRef?: ComparatorSpecRef
   evaluationClaimScopeRef: U.EntityRef, referencing the same exact U.ClaimScope
   expectedEvidencePositionDescriptionRefs[1..*]: U.EpistemeRef, each referencing one evidence-position description
   expectedEvidenceRelationKindRefs[1..*]: U.KindRef, each referencing one expected evidence-relation kind
-  missingEvidenceDispositionRuleRef: U.EpistemeRef, referencing one exact episteme that states the missing-evidence disposition rule under its direct owner
+  missingEvidenceDispositionRuleRef: U.EpistemeRef, referencing one exact episteme that states the missing-evidence disposition rule under its subject pattern
   qualificationWindowDescriptionRef: U.EpistemeRef, referencing one EvaluationQualificationWindow description
 ```
 
@@ -104,9 +104,9 @@ Every field above with a `*Ref` suffix stores the stated A.6.5 `RefKind`; resolv
 
 At least one of `selectedEvaluationPredicate` and `selectedComparatorSpecRef` is present; both may be present. A label such as *review*, *quality*, or *current context* supplies neither. A.19 owns the predicate by value. A.19.CPM or the exact direct consumer owns comparator admission and any actual comparison application. Neither the predicate nor comparator owns evaluation scope, evidence, time, Work, or result.
 
-`evaluationPerformerRoleAssignmentRef` identifies who is assigned to perform the evaluation; it is neither the semantic Method nor the object being evaluated. `governingEvaluationPatternDescriptionRef` identifies the exact FPF pattern identity that owns the evaluation, without establishing `U.MethodDescription` membership; its stable `DescriptionRef` suffix does not change the referent kind. `semanticEvaluationMethodRef`, when recoverable, identifies the separately admitted Method used for the evaluation. Any episteme claimed to describe that Method remains a separate object and requires an independent A.3.2 membership result. The characteristic-space, Q-Bundle, rubric, review-profile, evidence-basis, and result-form references identify separate epistemes that specify the quality model or its use; they do not supply an actor and do not become alternative values of the pattern or method slots.
+`evaluationPerformerRoleAssignmentRef` identifies who is assigned to perform the evaluation; it is neither the semantic Method nor the object being evaluated. `evaluationPatternLocator` locates the exact FPF pattern description containing the defining or constraining ClaimGraph; it is neither the semantic Method, performer, dated Work, nor result. If that description is asserted to be a `U.MethodDescription`, its membership requires an independent A.3.2 result. `semanticEvaluationMethodRef`, when recoverable, identifies the separately admitted Method used for the evaluation. Any episteme claimed to describe that Method remains a separate object and requires an independent A.3.2 membership result. The characteristic-space, Q-Bundle, rubric, review-profile, evidence-basis, and result-form references identify separate epistemes that specify the quality model or its use; they do not supply an actor and do not become alternative values of the pattern or method slots.
 
-None of these declaration fields is dated evaluation Work or an evaluation result. When evaluation is performed, A.15.1 identifies one dated `U.Work` and its direct method-enactment relation. The direct evaluation pattern owns the exact evaluation and typed result; when it exposes a reusable operation, A.6.1 separately identifies the actual application and result binding. A durable result episteme, when needed, remains under C.2.1. Actual evidence use, provenance, currentness, viewpoint selection, empirical grounding, and any work-to-result or decision-use relation remain separate under their direct governors. A frame, declaration, description, role assignment, dashboard, or carrier establishes none of those occurrences.
+None of these declaration fields is dated evaluation Work or an evaluation result. When evaluation is performed, A.15.1 identifies one dated `U.Work` and its direct method-enactment relation. The direct evaluation pattern contains the defining content for the exact evaluation and typed result; when it exposes a reusable operation, A.6.1 separately identifies the actual application and result binding. A durable result episteme, when needed, remains under C.2.1. Actual evidence use, provenance, currentness, viewpoint selection, empirical grounding, and any work-to-result or decision-use relation remain separate under their direct governors. A frame, declaration, description, role assignment, dashboard, or carrier establishes none of those occurrences.
 
 Two carriers may publish the same edition of either episteme. A `QualityEvaluationUseDeclaration` changes edition when its exact object version, claim graph, reference scheme, performer assignment, governing evaluation pattern, semantic method, selected characteristic space, predicate/comparator binding, ClaimScope, qualification window, quality-model descriptions, expected evidence-basis edition, or result-form description changes. An `ExpectedEvaluationEvidenceBasis@Context` changes edition when its object version, claim graph, reference scheme, governing evaluation pattern, selected space, predicate/comparator binding, ClaimScope, expected evidence positions or relation kinds, missingness rule, or qualification window changes. Carrier, context label, viewpoint, grounding record, or support serialization alone changes neither episteme. `TradeoffProtectionSet@Context` and `CandidateImprovementProposalPortfolio@Context` are set values, not records; an episteme may describe or publish either set without becoming the set.
 
@@ -162,7 +162,7 @@ The frame and declaration perform no evaluation. A dated evaluation Work occurre
 
 #### E.22:4.4 - Finding and proposal rows
 
-An actionable finding first identifies where an issue was observed, which exact entity would change, the affected evaluation characteristic or coordinate, the current evaluation result for that characteristic or coordinate when known, the proposed correction, and the closure test. A proposal adds a typed expected evaluation effect, protected trade-offs, and any outside claim together with its return to the direct governing pattern.
+An actionable finding first identifies where an issue was observed, which exact entity would change, the affected evaluation characteristic or coordinate, the current evaluation result for that characteristic or coordinate when known, the proposed correction, and the closure test. A proposal adds a typed expected evaluation effect, protected trade-offs, and any outside claim together with the subject-pattern locator needed to check that claim independently.
 
 ```text
 CandidateImprovementProposalRow@Context <: U.Episteme:
@@ -193,8 +193,8 @@ CandidateImprovementOutsideClaimReference@Context in CandidateImprovementProposa
   outsideValueRef?: U.EntityRef, referencing the exact outside governed value
   outsideValueKindRef?: U.KindRef, referencing the exact kind of that outside value
   outsideRelationSignatureRef?: U.EntityRef, referencing the exact U.Signature of the outside relation
-  directGoverningPatternRef: U.EntityRef, referencing the exact FPF governing-pattern identity supplied by its pattern/framework owner
-  returnConditionDescriptionRef: U.EpistemeRef, referencing one description of the condition for returning to that governing pattern
+  subjectPatternLocator: U.EntityRef, locating the exact FPF subject-pattern description; the evaluation claim separately cites the defining ClaimGraph
+  reconsiderationConditionDescriptionRef: U.EpistemeRef, referencing one description of the condition that activates renewed use of that subject pattern
 ```
 
 ```text
@@ -239,5 +239,5 @@ The absorption result states the changed evaluation result under the object-unde
 
 #### E.22:4.6 - OEE and NQD proposal portfolios
 
-When the object is a candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, `E.22` can frame the quality question and return proposal rows. `C.17`, `C.18`, `C.19`, `G.5`, `G.9`, and `G.11` keep authority over candidate characteristics, archive and front semantics, pool policy, selected-set publication, parity, and refresh.
+When the object is a candidate, archive or front member, selected set, parity report, refresh report, or declared transformation result, use `E.22` to frame the quality question and return proposal rows. Use `C.17` for candidate characteristics, `C.18` for archive and front relations, `C.19` for pool policy, `G.5` for selected-set result declaration, `G.9` for parity, and `G.11` for currentness and refresh. When audience availability is current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 

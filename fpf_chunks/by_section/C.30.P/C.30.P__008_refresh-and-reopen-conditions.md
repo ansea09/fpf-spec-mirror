@@ -6,12 +6,12 @@ section_id: "C.30.P:5a"
 section_title: "Refresh and reopen conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__008_refresh-and-reopen-conditions.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:5a — Refresh and reopen conditions"
-line_start: 61081
-line_end: 61092
+line_start: 61086
+line_end: 61097
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ Reopen or narrow `C.30.P` when the FPF pattern-language ecology changes the firs
 - a named `C.30.*`, structural-view, architecture transformation-flow, LCA or control, module-interface, mathematical-lens, characteristic, evidence, assurance, gate, work, decision, causal-use, release, or publication pattern now governs one row directly;
 - source-current architecture-description, view, model, decision-record, or architecture-documentation practice changes one adopted distinction in `C.30.P:7`;
 - README, ToC, `E.11`, retrieval, or local Problem-frame entry cues change the first practical entry for hidden architecture or structure wording;
-- a governing pattern starts copying first-stage architecture or structure trigger lists that belong here;
+- a subject pattern starts copying first-stage architecture or structure trigger lists that belong here;
 - `C.30.P` begins to act as a registry of architecture topics rather than a wording-use repair pattern for hidden selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, or named C.30 subcase.
 
 The refresh action is to remove, narrow, or reassign the first-stage row. It is not to preserve old assignment wording as history.

@@ -6,12 +6,12 @@ section_id: "E.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__013_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:12 — Relations"
-line_start: 70032
-line_end: 70043
+line_start: 70039
+line_end: 70050
 dependencies:
   - "C.33"
   - "C.34"
@@ -25,6 +25,7 @@ dependencies:
   - "E.2.DA"
   - "E.21"
   - "E.23"
+  - "E.24.PUB"
   - "E.4.DPF"
   - "E.4.DPF.DA"
   - "E.4.FPF"
@@ -48,6 +49,6 @@ keywords:
 - **Coordinates with:** `E.4.DPF` when the work is to author a domain principle framework or local practice framework.
 - **Coordinates with:** `E.4.PFR` when a relation, edition, dependency, compatibility, deprecation, or preservation claim must be recorded.
 - **Coordinates with:** `E.4.DPF.DA` when a domain or local framework package must be evaluated as a package rather than as an average of its pattern bodies.
-- **Coordinates with:** `E.11`, `E.11.PUR`, and `E.17` for publication, discoverability, and pattern-use recommendation claims.
+- **Coordinates with:** `E.11` for discoverability, `E.11.PUR` for pattern-use recommendation, `E.17` for a source-backed publication face and return to source, and `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability.
 - **Coordinates with:** `G.2`, `G.11`, `C.33`, `C.34`, and `C.35` for source, currentness, preservation, and produced-carrier admission claims.
 

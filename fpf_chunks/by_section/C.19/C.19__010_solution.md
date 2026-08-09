@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 49735
-line_end: 49957
+line_start: 49740
+line_end: 49962
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -75,8 +77,8 @@ What this does not authorize: `C.19` does not become causal identification, caus
 
 Define EmitterPolicy (regime key, params, ε, K, insertion policy, and deduplication threshold) and selection lenses with a fixed pipeline (Eligibility → Dominance → Tie‑breakers); bind provenance (policy id, lens id) and guard promotions of `Surprise` or `Illumination` to dominance to explicit policy declarations.
 
-**Decision-subject clarification.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. **Contexts publish** measurement spaces and admissible policies as **semantic frames**; LOG profiles lenses and policies but does **not** enact choices.
-**Depends on.** **C.18** for archive and front stewardship, **C.16** for characteristic and measurement claims, **A.19.CPM** and **A.19.SelectorMechanism** for comparison and selection kernels, **B.3** for assurance-sensitive confidence claims, and **G.5** and **G.11** for selected-set publication and refresh.
+**Decision-subject clarification.** Later choices are attributed to one declared `DecisionSubject` at explicit `DecisionSubjectGranularity`. **Contexts state** measurement spaces and admissible policies as **semantic frames**; LOG profiles lenses and policies but does **not** enact choices.
+**Depends on.** **C.18** for archive and front stewardship, **C.16** for characteristic and measurement claims, **A.19.CPM** and **A.19.SelectorMechanism** for comparison and selection kernels, **B.3** for assurance-sensitive confidence claims, and **G.5** and **G.11** for selector-facing set-result declaration and refresh.
 
 **EmitterPolicy (named profile).** A context-local, versioned policy with canonical fields:
 `{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
@@ -109,7 +111,7 @@ Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains t
 1) Read the current C.18 archive/front reference and its replay boundary; do not recompute either object inside C.19.
 2) Record the governing lens and desired policy values, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint. These are policy values, not generation actions.
 3) Apply eligibility and `backstop_confidence` to the pool-policy question: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. C.19 owns this graduation and treatment judgement.
-4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextGoverningPatternRef = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. C.18 decides and records the generation, archive, and front operations.
+4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. C.18 decides and records the generation, archive, and front operations.
 5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
 6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any next-owner inputs. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next owner's operation.
 
@@ -162,9 +164,9 @@ A `C.19` pass may close only when one explicit pool and one explicit next treatm
 - Close as `narrow_to_subset` when one declared lens now justifies retaining one smaller internal live set without pretending that one scalar winner has already been chosen.
 - Close as `sunset_line` when one line or family region no longer clears the current lens, quota, or backstop requirements.
 
-When the question has stopped being pool policy, C.19 closes by naming the next governing pattern outside `currentTreatment`: `C.11` for local choice, `C.24` for enactment planning, `G.5` for selector-facing publication, `G.11` for refresh, or another direct governing pattern when the recovered relation is different.
+When the question has stopped being pool policy, C.19 closes by naming the applicable pattern outside `currentTreatment`. Use `C.11` for local choice, `C.24` for enactment planning, `G.5` for selector-facing result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, or `G.11` for refresh. Name another applicable pattern when the recovered relation is different.
 
-One internal retained subset here is still one pool-treatment result. It is not yet one public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artifact. If the retained subset must be published for downstream comparison, selector-facing publication, or registry-facing consumption, `C.19` closes only by using `G.5`.
+One internal retained subset here is still one pool-treatment result. It is not yet one declared `Shortlist` or `RankedShortlist`, and it has no `ShortlistId` merely by being retained. If downstream comparison, registry use, or another selector-facing use needs the set result stated, close the C.19 pass and use `G.5`. If that declared result must then be available to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
 If the result still cannot say which pool remains live, which lens governs it, and which event would justify changing the treatment, it is still unfinished pool policy rather than one finished `C.19` result.
 
@@ -176,7 +178,7 @@ The smallest useful `C.19` record usually states:
 - `governingLens = ...`
 - `currentTreatment = widen | keep_frontier | narrow_to_subset | sunset_line`
 - `changeTrigger = ...`
-- `nextGoverningPatternRef? = ...` only when the question is no longer pool policy
+- `nextQuestionPatternLocator? = ...` only when the question is no longer pool policy
 - `learningProgressSignal? = ...` when an autotelic or capability-discovery reason materially supports widening, keeping the frontier live, or probing one goal region further
 - `competenceModelRef? = ...` when the pool policy depends on a model of what the system or method family can learn next
 - `goalSpaceExpansionCue? = ...` when the admissible next treatment widens the goal and task palette rather than merely re-ranking current candidates
@@ -194,9 +196,9 @@ changeTrigger = backstop_confidence reaches L1 for one retained line
 whyNotLocalChoice = several family regions remain live
 ```
 
-When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing publication is now required, the admissible `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextGoverningPatternRef = G.5`, with the reason that publication rather than pool policy is now current.
+When `currentTreatment = narrow_to_subset`, `livePool` still names one internal retained subset or one live pool subset. It does not yet mint one public `Shortlist`, one public `RankedShortlist`, or one `ShortlistId`. If selector-facing result declaration is now required, the admissible `C.19` record leaves `currentTreatment` as the last pool treatment and fills `nextQuestionPatternLocator = G.5`, with the reason that result declaration rather than pool policy is now current.
 
-Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` together with the supporting `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue`; that doctrine may justify `widen`, `keep_frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not publish one selector-facing shortlist without `G.5`.
+Goal and task space growth is one pool-policy doctrine over the archive or curriculum side. When autotelic or capability-discovery pressure is active, cite `goalSpaceExpansionPolicyRef` together with the supporting `learningProgressSignal`, `competenceModelRef`, or `goalSpaceExpansionCue`; that doctrine may justify `widen`, `keep_frontier`, or one further probe decision value, but it does not become default `Q`, does not rename the front, and does not declare one selector-facing shortlist without `G.5`.
 
 If the record does not already state which pool remains live, what governs it, and what would change that policy treatment next, it is still one unfinished `C.19` result.
 
@@ -226,15 +228,15 @@ changeTrigger = reopen only if new evidence or quota deficit reactivates the reg
 whyNotLocalChoice = other regions still remain live under the same pool policy
 ```
 
-**The pool has already been narrowed and the next question is selector-facing publication.**
-When one internal retained subset is already explicit and the next question is to publish it for downstream use, `C.19` closes by naming the governing pattern instead of naming that subset as though it were already one public shortlist artifact:
+**The pool has already been narrowed and the next question is selector-facing result declaration.**
+When one internal retained subset is already explicit and the next question is to declare it for downstream use, `C.19` closes by naming the applicable pattern instead of naming that subset as though it were already one selector result:
 
 ```text
 livePool = retained_subset_{option_B, option_C}
 governingLens = pool_policy_completed
 currentTreatment = narrow_to_subset
 changeTrigger = retained subset is explicit; pool policy is complete
-nextGoverningPatternRef = G.5 because selector-facing publication is now current
+nextQuestionPatternLocator = G.5 because selector-facing result declaration is now current
 whyNotLocalChoice = pool governance is already complete
 ```
 
@@ -250,19 +252,19 @@ CulturalLivePoolPolicyResult@Context:
   changeTrigger:
   termBridgeRefs?:
   culturalEvolutionCaseRef?:
-  selectedSetPublicationRef?:
+  selectedSetResultRef?:
   refreshRef?:
 ```
 
-The record governs pool treatment only. If the label itself is unstable across communities, use `F.17`, `F.18`, and `F.9`. If the question is the cultural-evolution case, use `C.36`. If the internal retained subset must become public, use `G.5`. If the issue is source or edition currentness, use `G.11`.
+The record states pool treatment only. If the label itself is unstable across communities, use `F.17`, `F.18`, and `F.9`. If the question is the cultural-evolution case, use `C.36`. If the internal retained subset needs a selector-facing result, use `G.5`. If that result already exists and must be available to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability. If the issue is source or edition currentness, use `G.11`.
 
-#### C.19:4.4 - Exit From Pool Treatment To Publication Or Choice
+#### C.19:4.4 - Exit From Pool Treatment To Result Declaration, Publication, Or Choice
 
 An internal subset retained by `narrow_to_subset` is still the live pool named by one C.19 policy record. It is not a public `Shortlist`, `RankedShortlist`, or `ShortlistId`-bearing selector artefact, and C.19 does not emit any of those objects. `Front` and `Archive` retain their C.18 meanings; a scalarized pick does not rename either one.
 
-When the retained set must be published for downstream comparison, registry use, or selector-facing consumption, close C.19 and pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. `G.5` governs the selected-set publication and any public shortlist identity. C.19 supplies only the preceding pool treatment and the reason publication is now current.
+When the retained set must be declared for downstream comparison, registry use, or another selector-facing use, close C.19 and pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. Use `G.5` to declare the selected-set result and any stable public shortlist identity required by a named use. The C.19 record supplies only the preceding pool treatment and the reason result declaration is now current. If actual audience availability is also current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
 When the live question becomes which option to choose, close C.19 and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may explain a pool treatment, but they do not authorize a budget, role, plan, or work occurrence. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
 
-The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next owner. Do not duplicate publication, choice, work, or refresh semantics inside C.19.
+The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
 

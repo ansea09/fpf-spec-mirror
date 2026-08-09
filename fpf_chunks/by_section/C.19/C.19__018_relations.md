@@ -6,12 +6,12 @@ section_id: "C.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__018_relations.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:12 — Relations"
-line_start: 50025
-line_end: 50035
+line_start: 50030
+line_end: 50040
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -27,7 +27,9 @@ dependencies:
   - "C.32"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
   - "E.23"
+  - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
@@ -52,5 +54,5 @@ keywords:
 - Non-admissible use: faster narrowing is not automatically a positive result; it may collapse exploration health, diversity, archive coverage, or frontier discovery.
 - Exit: use C.19 for the pool-policy result; use C.27 only for the temporal-claim adequacy question when speed or change affects admissible use.
 
-Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coordinates with: `C.22.PFR` for actual Problem identity, `E.23` for declared improvement loops, `C.11` for local choice among already-available options, `C.18` for candidate generation and archive/front stewardship, `C.32.P2S` when pool policy preserves architecture alternatives for problem-to-structure carry-through, `C.32` for candidate palette ownership, `C.35` when generated or discovered structure-bearing outputs need admission support before pool policy can use them, `C.24` and the A.15 family for planning and performed work, `G.5` for selector-facing publication, `G.11` for refresh, `C.28` for causal-use support, `C.17`, and `G.9`.
+Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coordinates with: `C.22.PFR` for actual Problem identity, `E.23` for declared improvement loops, `C.11` for local choice among already-available options, `C.18` for candidate generation and archive and front relations, `C.32.P2S` when pool policy preserves architecture alternatives for problem-to-structure carry-through, `C.32` for candidate-palette admission, `C.35` when generated or discovered structure-bearing outputs need admission support before pool policy can use them, `C.24` and the A.15 family for planning and performed work, `G.5` for selector-facing result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `G.11` for refresh, `C.28` for causal-use support, `C.17`, and `G.9`.
 

@@ -6,13 +6,14 @@ section_id: "G.11:4"
 section_title: "Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__006_solution-rscr-driven-refresh-as-a-p2w-scoped-orchestration-kit.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:4 — Solution — RSCR-driven refresh as a P2W-scoped orchestration kit"
-line_start: 103114
-line_end: 103356
+line_start: 103236
+line_end: 103480
 dependencies:
+  - "A.6.RCD"
   - "B.3.4"
   - "C.18"
   - "C.19"
@@ -87,7 +88,7 @@ By the `G.Core` **Expansion rule**, the **effective** conformance ids, trigger k
 
 **TriggerAliasIds (visible; labels only).** `{G.11:T0…T7}` (docked via `TriggerAliasMapRef`; aliases are never semantic authorities).
 
-#### G.11:4.2 - Refresh orchestration kit (pattern-governed; conceptual artefacts)
+#### G.11:4.2 - Refresh orchestration kit (subject-qualified; conceptual artefacts)
 
 `G.11` defines a minimal kit of *authoring-plane* artefacts that make refresh explicit and auditable.
 
@@ -102,7 +103,7 @@ By the `G.Core` **Expansion rule**, the **effective** conformance ids, trigger k
 * `EntityOfConcernRef` and `ReferencePlane` pins (by ref; no implicit widening)
 * `TargetScope := PathSliceId[] | PatternScopeId[]`
 * `PlannedTriggers := RSCRTrigger[]` (canonical trigger kind ids, scope, and payload pins)
-* `PlannedActions := RefreshAction[]` (each action delegates to a governing pattern)
+* `PlannedActions := RefreshAction[]` (each action delegates to a subject pattern)
 * `RequiredPins := {EditionPins, PolicyPins, UTS pins, Path pins}` for replayability
 * `PlanItemRefs := SlotFillingsPlanItemRef[]` (when planning baselines or reruns requires explicit planned slot fillings)
 
@@ -126,7 +127,7 @@ By the `G.Core` **Expansion rule**, the **effective** conformance ids, trigger k
 
 #### G.11:4.2a - Selected-set, archive, and cultural-variant currentness
 
-Use this line when refresh currentness concerns a selected set, front, Q-front, archive, portfolio lineage, cultural-variant lineage, style or tradition term bridge, or path slice.
+Use this line when refresh currentness concerns a selected set, front, Q-front, archive, portfolio lineage, cultural-variant lineage, style or tradition term bridge, path slice, reused `A.6.RCD` predicate definition, or admitted derived relation kind.
 
 ```text
 RefreshCurrentnessLine@Context:
@@ -135,14 +136,16 @@ RefreshCurrentnessLine@Context:
   sourceRecordRef:
   editionOrLineagePins:
   affectedPathSliceOrScope:
-  directGoverningPatternRef:
+  subjectPatternLocator:
   plannedRefreshAction:
   refreshReportRef?:
 ```
 
-`currentnessObjectKind` may name selected set, `Front`, `Q-front`, `ExplorationArchive`, `Archive`, portfolio lineage, cultural-variant lineage, style or tradition term bridge, or path-slice scope. G.11 records the refresh plan, scope, pins, report, and deprecation or edition-bump publication. It does not define selected-set publication, archive or front semantics, cultural-evolution semantics, or term-bridge semantics. Use `G.5`, `C.18`, `C.19`, `C.36`, `F.17`, `F.18`, and `F.9` for those meanings.
+`currentnessObjectKind` may name, for example, a selected set, `Front`, `Q-front`, `ExplorationArchive`, `Archive`, portfolio lineage, cultural-variant lineage, style or tradition term bridge, path-slice scope, predicate-definition episteme, or derived relation kind. Record the refresh plan, scope, pins, report, and deprecation or edition-bump publication with G.11. It does not define selected-set result declaration, actual publication, archive or front semantics, cultural-evolution semantics, term-bridge semantics, predicate semantics, or relation-kind settlement. Use `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence, form, carrier, audience, bounded use, and availability, `C.18` for archive and front relations, `C.19` for pool treatment, `C.36` for cultural-evolution claims, `F.17`, `F.18`, and `F.9` for durable terms and bridges, and `A.6.RCD` for a derived relation kind.
 
 Freshness and currentness are handled by `RefreshPlan@Context`, `RefreshReport@Context`, `DeprecationNotice@Context`, and `EditionBumpLog@Context`; do not add a separate ticket kind for the same concern.
+
+When the governed object is a reusable `A.6.RCD` predicate definition or an admitted derived relation kind, the currentness line pins the exact base definitions, named substrate and edition, authorized derivation operation, and applicability scope. A change to any of them reopens the affected derivation and its dependent uses under `A.6.RCD`; G.11 schedules the bounded refresh but does not redefine the relation or derivation.
 
 #### G.11:4.3 - Orchestration semantics (conceptual; delegating to governing definitions)
 
@@ -155,7 +158,7 @@ Consume RSCR triggers from:
 
 * telemetry hooks (e.g., `G.8`, `G.10`, `G.12`),
 * freshness and decay events (`B.3.4`),
-* evidence, bridge, policy, or edition edits (from the respective governing patterns’ publication faces, forms, or units).
+* evidence, bridge, policy, edition, relied-on base-definition, named-substrate-edition, or derivation-applicability edits (from the respective subject patterns' publication faces, forms, or units).
 
 Every ingested signal is normalized into an `RSCRTrigger` (canonical id, scope, payload pins), with optional alias labels.
 
@@ -173,7 +176,7 @@ Produce `RefreshPlan@Context` that schedules actions of the form:
 
 * `RerunHarvest` (delegates to the selected harvest, source-currentness, or SoTA governing definition named by value, such as `G.1` or `G.2`, when that definition is current)
 * `RerunParity` (delegates to `G.9`)
-* `RecomputeSelectionOrSetPublication` (delegates to `G.5`)
+* `RecomputeSelectionOrSetResult` (delegates to `G.5`)
 * `RebindBridgeOrCrossing` (delegates to `G.7` and visibility harnesses)
 * `UpdateEvidenceBindings` (delegates to `G.6`)
 * `ReshipPack` (delegates to `G.10`)
@@ -267,7 +270,7 @@ Discipline-specific refresh strategies and generator-specific wiring live as `GP
 **`⊑` and `⊑⁺`:** `∅`
 **Required pins, edition pins, and policy pins (minimum):**
 
-* `TransferRulesRef.edition`, `EnvironmentValidityRegion` (when OEE is declared by the governing patterns)
+* `TransferRulesRef.edition`, `EnvironmentValidityRegion` (when OEE is declared by the subject patterns)
 * `GeneratorFamilyId` and `TransferRulesRef` wiring pins (as published by the governing definitions)
 * telemetry scope pins (`PathSliceId`, `policy-id`)
 

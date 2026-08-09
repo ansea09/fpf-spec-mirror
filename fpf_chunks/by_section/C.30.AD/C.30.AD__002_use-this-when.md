@@ -6,12 +6,12 @@ section_id: "C.30.AD:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__002_use-this-when.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:0 — Use this when"
-line_start: 60200
-line_end: 60265
+line_start: 60205
+line_end: 60270
 dependencies:
   - "A.1"
   - "A.10"
@@ -89,7 +89,7 @@ Use `C.30.AD` when the practitioner needs to know:
 
 **What goes wrong if missed.** A diagram, documentation set, generated relation graph, model card, ADR publication set, file, or architecture model starts acting as architecture, selected structure, `U.View`, proof, gate, assurance, decision, work authorization, or release authorization by presentation alone.
 
-**What this buys.** The practitioner can keep architecture descriptions inspectable across exact subjects, views, viewpoints, selected structures, cross-view correspondence claims or separately governed relations, source-to-use paths, applicable source-return conditions, representations, publications, and direct governing-pattern applications.
+**What this buys.** The practitioner can keep architecture descriptions inspectable across exact subjects, views, viewpoints, selected structures, cross-view correspondence claims or separately governed relations, source-to-use paths, applicable source-return conditions, representations, publications, and subject pattern applications.
 
 **First useful description-use output.** Write one `ArchitectureDescriptionUseCard@Project`:
 
@@ -126,9 +126,9 @@ ArchitectureDescriptionUseCard@Project:
   firstGoverningPatternApplication?:
 ```
 
-`@Project` is a compatibility and retrieval cue for a project-side use card. The suffix supplies no project identity, authority, context, viewpoint, parthood, or work occurrence. When one actual project matters, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`, and `architectureDescriptionProjectUseRelationRef` identifies the exact obtaining relation by which this description use concerns that work. Name that relation's direct governing pattern; the reference to work alone does not establish project locality.
+`@Project` is a compatibility and retrieval cue for a project-side use card. The suffix supplies no project identity, authority, context, viewpoint, parthood, or work occurrence. When one actual project matters, `projectWorkOccurrenceRef` identifies the composite `U.Work` recovered under `A.15.6`, and `architectureDescriptionProjectUseRelationRef` identifies the exact obtaining relation by which this description use concerns that work. Name that relation's subject pattern; the reference to work alone does not establish project locality.
 
-The card is a controlled first-pass slice, not an identity constructor. It can close ordinary use only when it names one exact EntityOfConcern, the effective `U.ReferenceScheme`, one usable description purpose, the selected structures and their structure-kind classifications, admissible use, non-admissible use, and one remaining architecture candidate use or direct governing-pattern application. If it calls the description a `U.View`, it also names the exact viewpoint episteme and the separately obtaining conformance relation. Expand to the fuller `ArchitectureDescription` record when cross-view correspondence, source use, a stronger-use source-return condition, freshness, specification use, regulated use, comparison, publication, representation, or project-side authority use is current.
+The card is a controlled first-pass slice, not an identity constructor. It can close ordinary use only when it names one exact EntityOfConcern, the effective `U.ReferenceScheme`, one usable description purpose, the selected structures and their structure-kind classifications, admissible use, non-admissible use, and one remaining architecture candidate use or subject pattern application. If it calls the description a `U.View`, it also names the exact viewpoint episteme and the separately obtaining conformance relation. Expand to the fuller `ArchitectureDescription` record when cross-view correspondence, source use, a stronger-use source-return condition, freshness, specification use, regulated use, comparison, publication, representation, or project-side authority use is current.
 
 **Not this pattern when.**
 

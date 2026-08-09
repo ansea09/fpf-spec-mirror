@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 52327
-line_end: 52374
+line_start: 52332
+line_end: 52379
 dependencies:
   - "A.10"
   - "A.15"
@@ -81,9 +81,9 @@ A support team sees repeated failed hand-offs after a new interface policy. The 
 | Problem-formulation follow-up reason | Separate interface wording, role-method-work alignment, evidence and currentness, and possible policy-boundary relations before any method or work-plan choice. |
 | Validation boundary | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
 | Readiness disposition | `P2W-ready` only for the carried problem-side distinction: hand-off ambiguity under a declared interface policy and acceptance probe. |
-| Exported governing-pattern cues | `A.6` for policy or interface wording, `A.15` for role-method-work alignment, `A.10` for evidence and currentness, `A.21` only if a gate claim later becomes current. |
+| Exported subject-pattern cues | `A.6` for policy or interface wording, `A.15` for role-method-work alignment, `A.10` for evidence and currentness, `A.21` only if a gate claim later becomes current. |
 
-The P2W export is narrow: accepted problem-side material, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, validation boundary, freshness condition, and governing-pattern cues. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, Work authorization, or selected method, the card preserves the cue and its direct governor carries that downstream claim.
+The P2W export is narrow: accepted problem-side material, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, validation boundary, freshness condition, and subject-pattern cues. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, Work authorization, or selected method, the card preserves the cue and its direct governor carries that downstream claim.
 
 #### C.22.2:20.1b - Card/PFR Cardinality Replay
 

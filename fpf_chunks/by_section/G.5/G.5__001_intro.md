@@ -6,12 +6,12 @@ section_id: "G.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__001_intro.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:intro — Intro"
-line_start: 100136
-line_end: 100145
+line_start: 100185
+line_end: 100196
 dependencies:
   - "C.11"
   - "C.18"
@@ -20,7 +20,11 @@ dependencies:
   - "C.24"
   - "C.32.P2S"
   - "C.35"
+  - "E.17"
+  - "E.24.PUB"
+  - "E.4.PFR"
   - "G.0"
+  - "G.11"
   - "G.2"
   - "G.2-G.4"
   - "G.5"
@@ -57,5 +61,7 @@ keywords:
 
 **Plain-name.** Multi-method dispatcher and method-family registry.
 
-**Intent.** Govern the dispatcher and registry object set for rival method families and publish selector-facing retained-set outcomes without collapsing plurality into one hidden scalar winner.
+**Intent.** Help an engineer use a dispatcher and registry for rival method families and state selector-facing set outcomes. The outcome distinction covers retained alternatives and members jointly included for one named use without collapsing plurality into one hidden scalar winner.
+
+**Primary working reader and object.** An engineer or framework author who already has a set of identified candidates or members and must state the selector-facing result—outcome kind, members, ordering, named use when required, and basis pins—for a named downstream use, without also claiming a choice, Work, or publication occurrence that has not happened.
 

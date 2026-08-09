@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 51851
-line_end: 52014
+line_start: 51856
+line_end: 52019
 dependencies:
   - "A.10"
   - "A.15"
@@ -107,11 +107,11 @@ The Solution turns observed signal material into one C.2.1 episteme and one gove
 
 Use this aid only after the Thin `ProblemCard` is legible: signal, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, not-wish reason, improvement check or acceptance probe, and honest next use. It is not a second writing order and not a catalogue of other patterns. It answers one question:
 
-> Which claim being made, relation, or boundary changes the problem-card use, and which FPF pattern governs that claim, relation, or boundary?
+> Which claim being made, relation, or boundary changes the problem-card use, and which FPF pattern defines or constrains that claim, relation, or boundary?
 
-If the claim, relation, or boundary does not change the current problem-card use, leave it out of the card. If it does change the move, keep only the local cue or reference that makes the card reviewable, then apply the governing pattern for that claim, relation, or boundary.
+If the claim, relation, or boundary does not change the current problem-card use, leave it out of the card. If it does change the move, keep only the local cue or reference that makes the card reviewable, then apply the subject pattern for that claim, relation, or boundary.
 
-| Current claim, relation, or boundary that changes the card use | Local `ProblemCard` content | Governing pattern |
+| Current claim, relation, or boundary that changes the card use | Local `ProblemCard` content | Subject pattern |
 |---|---|---|
 | Characterization, measurement, indicator, Q-bundle, comparison, acceptance, or parity | Characterization cue, acceptance probe, candidate criterion, comparator cue or window cue, and the current reason the relation changes the problem formulation. | `C.16`, `A.19`, `C.25`, `G.0`, `G.4`, or `G.9` according to the relation named by value. |
 | Archive, pool, front, shortlist, selected set, retained candidate, or set-return source | `sourceSetRef`, source-set kind, selection or retention criterion, budget or window when current, and non-scalar next use. | `C.18`, `C.19`, `G.5`, `G.9`, `G.11`, `A.6.P:7a`, or `C.16.Q` according to the relation named by value. |
@@ -156,16 +156,16 @@ Use these readable labels only when current for the case:
 
 - `sourceSetRef`, source-set kind, selection or retention criterion, budget or window, and non-scalar next use when the signal comes from a set, pool, front, archive, shortlist, or selected set;
 - `firstPrinciplesCue` when a mathematical structure changes the formulation; and
-- governing-pattern cue naming the direct pattern, claim kind, exact receiving-use reference, and stop condition when an outside claim changes the card use.
+- subject-pattern cue naming the direct pattern, claim kind, exact receiving-use reference, and stop condition when an outside claim changes the card use.
 
 | Field current-use class | Required treatment |
 |---|---|
 | C.2.1 constitution | State the exact ClaimGraph, one joint EntityOfConcern, and effective ReferenceScheme. These constitute the card episteme; ClaimScope, viewpoint, assumptions, windows, and receiving use qualify the relevant claims and relations, while id, carrier, and publication remain outside constitution. |
 | Core problem-side claims | State the signal, ClaimScope, claim family, not-wish reason, improvement check or acceptance probe, and honest next use. |
 | Conditional claims and references | Add only the exact characterization, comparison, risk, validation, freshness, set-source, representation, forecast, solvability, PFR, or other direct relation content that changes the move. |
-| Governing-pattern cue | Keep only the local cue or reference needed by the card, then name the direct pattern and claim kind that govern the outside use. |
+| Subject-pattern cue | Keep only the local cue or reference needed by the card, then name the direct pattern and claim kind that govern the outside use. |
 
-If a conditional value is not current, omit it rather than writing `unknown`. Use `unknown` only where a current direct pattern admits that result or value. If a required current value is unavailable, state whether the next use is blocked, degraded, sandboxed, or must return to its governor. A stale value receives the G.11/currentness disposition; an intentionally omitted value states the record-budget reason without implying it was checked.
+If a conditional value is not current, omit it rather than writing `unknown`. Use `unknown` only where the exact current value rule permits that result. If a required current value is unavailable, state whether the next use is blocked, degraded, sandboxed, or must be reconsidered under a named condition. A stale value gets the exact G.11/currentness assertion; an intentionally omitted value states the record-budget reason without implying it was checked.
 
 When the card compares options, retained candidates, or rival formulations, it states the exact comparison or parity relation or why comparison is not current. Absence is a disposition, not an automatic defect; any positive parity or selected-set result remains outside C.22.2.
 

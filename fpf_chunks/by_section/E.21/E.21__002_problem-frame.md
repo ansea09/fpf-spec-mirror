@@ -6,12 +6,12 @@ section_id: "E.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__002_problem-frame.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:1 — Problem frame"
-line_start: 86756
-line_end: 86771
+line_start: 86805
+line_end: 86820
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

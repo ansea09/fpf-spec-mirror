@@ -6,12 +6,12 @@ section_id: "C.22.2:23"
 section_title: "Downstream Cue Export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__024_downstream-cue-export.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:23 — Downstream Cue Export"
-line_start: 52418
-line_end: 52433
+line_start: 52423
+line_end: 52438
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ The compact export contains:
 - one joint EntityOfConcern, effective ReferenceScheme, ClaimScope, and current qualification window when needed;
 - exact claim family and polarity: actual-PFR assertion, anticipated-condition claim, method-availability or solvability claim, or another named direct claim;
 - improvement check or acceptance probe;
-- readiness disposition: reviewable-only, `P2W-ready`, `abstainOrNoChange`, refresh, retire, archive, or governing-pattern cue;
+- readiness disposition: reviewable-only, `P2W-ready`, `abstainOrNoChange`, refresh, retire, archive, or subject-pattern cue;
 - exact PFR, source-set, A.15.6 composite or component Work, or representation reference only when current and independently governed; and
 - problem-formulation follow-up reason, validation boundary, freshness condition, and stop when the receiving use relies on them.
 

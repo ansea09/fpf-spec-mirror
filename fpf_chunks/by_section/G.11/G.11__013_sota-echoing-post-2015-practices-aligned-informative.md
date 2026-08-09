@@ -6,13 +6,14 @@ section_id: "G.11:11"
 section_title: "SoTA-Echoing — Post‑2015 practices aligned (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__013_sota-echoing-post-2015-practices-aligned-informative.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:11 — SoTA-Echoing — Post‑2015 practices aligned (informative)"
-line_start: 103417
-line_end: 103462
+line_start: 103542
+line_end: 103587
 dependencies:
+  - "A.6.RCD"
   - "B.3.4"
   - "C.18"
   - "C.19"
@@ -57,7 +58,7 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 0a. **Open-ended engineering outputs need source and evaluator currentness.**
    Practice: self-improving-agent, AlphaEvolve-style, and DeepEvolve-style lines use generated variants, external knowledge, evaluators, tests, archives, and empirical validation.
    Source: Darwin Godel Machine `arXiv:2505.22954`, AlphaEvolve `arXiv:2506.13131`, and DeepEvolve-style deep-research augmentation `arXiv:2510.06056`.
-   Alignment: G.11 refresh records carry source, evaluator, descriptor, policy, edition, lineage, and report refs; generated method text, evaluator success, and archive update keep their governing patterns.
+   Alignment: G.11 refresh records carry source, evaluator, descriptor, policy, edition, lineage, and report refs; generated method text, evaluator success, and archive update keep their subject patterns.
    Adoption: **Adopt and adapt** (refresh tracks currentness and smallest affected scope; it does not accept generated text as proof, gate passage, or performed work).
 
 1. **Continuous refresh is necessary in deployed evaluation pipelines.**
@@ -75,7 +76,7 @@ Each entry follows: **claim → practice → source → alignment → adoption s
 3. **Quality-Diversity requires archive semantics and comparability under descriptor and distance evolution.**
    Practice: QD methods treat the archive as the primary result and track changes under policy and edition conditions.
    Source: contemporary QD families such as CMA-MAE (`arXiv:2205.10752`) and differentiable QD (`arXiv:2106.03894`).
-   Alignment: QD-specific meaning lives with the governing patterns; `G.11:Ext.QDRefreshWiring` ensures edition pins and scope pins exist so targeted archive refresh is admissible.
+   Alignment: QD-specific meaning lives with the subject patterns; `G.11:Ext.QDRefreshWiring` ensures edition pins and scope pins exist so targeted archive refresh is admissible.
    Adoption: **Adopt** (set and archive preservation; no covert scalarization).
 
 4. **Open-endedness co-evolves environments and agents; transfer rules must be versioned.**

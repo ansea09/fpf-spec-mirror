@@ -6,12 +6,12 @@ section_id: "C.36.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__002_use-this-when.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:0 — Use This When"
-line_start: 68356
-line_end: 68388
+line_start: 68361
+line_end: 68393
 dependencies:
   - "A.1"
   - "A.15"
@@ -63,7 +63,7 @@ The repair becomes a synonym swap. `Style` becomes `method`, `platform regime` b
 
 #### C.36.P:0.2 - What This Buys
 
-The practitioner gets one recovery line: current wording, recovered object, governing pattern, admissible use, blocked use, and next governed use. The subject work then returns to `C.36` or to the direct governing pattern for method, work, discipline, bridge, archive, pool, selected-set publication, architecture, dynamics, measurement, choice, or refresh.
+The practitioner records one recovery line: current wording, recovered object or relation, applicable pattern, admissible use, blocked use, and next use. Use `C.36` for cultural-evolution case work. For a method, Work, discipline, bridge, archive, pool, selected-set result declaration, publication, architecture, dynamics, measurement, choice, or refresh claim, use the pattern that defines and tests that claim.
 
 #### C.36.P:0.3 - First Useful Move
 
@@ -75,12 +75,12 @@ CulturalEvolutionWordingRecoveryLine@Context:
   sourceOrProjectContext:
   recoveredCurrentObject:
   recoveredRelationOrSlot:
-  directGoverningPatternRef:
+  subjectPatternLocator:
   retainedSourceLabelUse:
   admissibleUse:
   blockedUse:
   nextUse:
 ```
 
-If `recoveredCurrentObject`, `recoveredRelationOrSlot`, or `directGoverningPatternRef` cannot be filled, keep the label as quoted source wording, ordinary prose, or a blocked-use cue. Do not repair it by choosing a smoother umbrella word.
+If `recoveredCurrentObject`, `recoveredRelationOrSlot`, or `subjectPatternLocator` cannot be filled, keep the label as quoted source wording, ordinary prose, or a blocked-use cue. Do not repair it by choosing a smoother umbrella word.
 

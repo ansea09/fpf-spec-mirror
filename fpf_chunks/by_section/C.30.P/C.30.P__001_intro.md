@@ -6,12 +6,12 @@ section_id: "C.30.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__001_intro.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:intro — Intro"
-line_start: 60912
-line_end: 60930
+line_start: 60917
+line_end: 60935
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ This pattern does not mint `U.Architecture`, does not fuse architecture and stru
 
 **Builds on.** `E.10`, `E.10.ARCH`, `A.22`, `C.30`, `C.30.ASV`, `C.2.P`, `A.6.P`, `A.6.F`, `C.29`, `C.16.P`, `C.16`, `C.25`, `E.17`, and `E.8`.
 
-**Coordinates with.** `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, named `C.30.*` structure and view patterns, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.28`, `A.15`, `E.11`, and work, release, and publication patterns governing those claims.
+**Coordinates with.** `C.30.TFS-REL`, `C.30.LCA`, `C.30.ILC`, named `C.30.*` structure and view patterns, `A.10`, `B.3`, `A.20`, `A.21`, `C.11`, `C.28`, `A.15`, `E.11`, and work, release, and publication patterns define or constraining those claims.
 
-**E.10.ARCH governing relation.** When `E.10` encounters architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, source label, or neighboring claim is hidden, `E.10.ARCH` selects `C.30.P` only until the use under repair and governing pattern are recovered. `C.30.P` then stops applying; it does not become a registry of architecture topics or a substitute for `A.22`, `C.30`, `C.30.AD`, or named `C.30.*` patterns.
+**E.10.ARCH governing relation.** When `E.10` encounters architecture or structure wording whose selected structure, architecture relation, architecture-description use, structural-view use, source-return relation, source label, or neighboring claim is hidden, `E.10.ARCH` selects `C.30.P` only until the use under repair and subject pattern are recovered. `C.30.P` then stops applying; it does not become a registry of architecture topics or a substitute for `A.22`, `C.30`, `C.30.AD`, or named `C.30.*` patterns.
 

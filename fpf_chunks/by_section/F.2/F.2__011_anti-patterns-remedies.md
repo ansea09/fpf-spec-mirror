@@ -6,12 +6,12 @@ section_id: "F.2:10"
 section_title: "Anti‑patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__011_anti-patterns-remedies.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:10 — Anti‑patterns & remedies"
-line_start: 90472
-line_end: 90490
+line_start: 90521
+line_end: 90539
 dependencies:
   - "A.11"
   - "A.7"

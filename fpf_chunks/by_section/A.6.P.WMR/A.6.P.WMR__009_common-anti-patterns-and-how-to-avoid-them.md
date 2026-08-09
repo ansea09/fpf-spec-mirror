@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "b7ec5a0b1dfa4bdae4cf055188219e89cef61a63"
+commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 16656
-line_end: 16668
+line_start: 16658
+line_end: 16670
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
