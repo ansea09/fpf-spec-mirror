@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:13"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__015_phrasebook.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:13 — Phrasebook"
-line_start: 91297
-line_end: 91317
+line_start: 92019
+line_end: 92039
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,44 +22,47 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:13 - Phrasebook
 
 Prefer:
 
-- `role-description episteme describing ReviewerRole under ReviewRoles-v5 and Review-Scheme-A`;
-- "holder-system admission is established under A.1 and E.24.UK; any actual `ReviewerRole` assignment is governed by A.2.1";
-- "capability requirement referenced by the role description";
-- "method requirement referenced by the role description";
-- "review report used as evidence for the claim";
-- "standard used as requirement source";
-- "relation position governed by SlotSpec discipline".
+- “description of `ReviewerSystemRole@JournalReview-2026`, one local system-role kind”;
+- “candidate-system admission is established under A.1; classification and any assignment are separate”;
+- “capability requirement cited by the description”;
+- “Method requirement cited by the description”;
+- “review report used as evidence for this claim”;
+- “standard used as a requirement source”; and
+- “relation position declared by this `SlotSpec`.”
 
-Avoid as live vocabulary:
+Avoid as live Tech vocabulary:
 
-- "evidence role" for an episteme;
-- "status role" for a badge or status-use relation;
-- "standard role" for a standard used as source;
-- "holder" for a publication, report, standard, dataset, or theorem unless the exact entity is independently admitted as a `U.System` and a current `U.RoleAssignment` names it as holder;
-- "role" for a SlotKind;
-- "role description" for a method, capability, work record, access policy, or status-use relation.
+- “evidence role” for an episteme;
+- “status role” for a status or status-use relation;
+- “standard role” for a standard used as a source;
+- “holder” for a publication, report, standard, dataset, or theorem unless the exact entity is independently admitted as `U.System` and an exact `U.SystemRoleAssignment` names it as holder;
+- “role” for a `SlotKind`; and
+- “role description” for a Method, capability, Work record, access policy, or status-use relation.
 

@@ -6,12 +6,12 @@ section_id: "C.27.TA:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__011_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:9 — SoTA-Echoing"
-line_start: 57252
-line_end: 57261
+line_start: 57526
+line_end: 57535
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,5 +51,5 @@ keywords:
 | David Deutsch and Chiara Marletto, "Constructor theory of time" (`arXiv:2505.08692v3`), version-specific source posture. | A task or transformation specification need not itself specify duration or the internal course of performance; duration and dynamics can be recovered through timer and clock relations among attributes. Reopen this row if a later version changes the task/duration/timer/clock separation used here. | Require C.27.TA temporal aspects to name bearer and temporal reference. Use `A.3.4` for the transformation, `A.3.3` for dynamics episteme, and C.27 only when an authored temporal claim uses the aspect for a practical use. |
 | Dynamic treatment regimes and policy evaluation | Intervention timing, follow-up interval, policy window, and outcome window must be separated before causal or policy claims are made. | Use C.27.TA for temporal windows; use `C.28` and evidence patterns for causal-use and policy claims. |
 | Object-centric process and event-log practice | A scalar throughput or latency can hide multiple bearers, event types, and interaction windows. | Name temporal bearer and temporal reference before using a rate, cadence, or trajectory across objects. |
-| Rhythm and synchronization research | Rhythm requires bearer, timing reference, interval structure, and coupling only when cross-bearer coordination matters. | Keep rhythm/cadence as temporal aspects; use C.27 temporal-claim adequacy or another governing pattern only for the use that pattern carries. |
+| Rhythm and synchronization research | Rhythm requires bearer, timing reference, interval structure, and coupling only when cross-bearer coordination matters. | Keep rhythm/cadence as temporal aspects; state a separate temporal-adequacy or other subject assertion only for its current use, and resolve the defining or constraining `ClaimGraph` through C.27 or the relevant pattern locator. |
 

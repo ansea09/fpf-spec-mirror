@@ -6,12 +6,12 @@ section_id: "A.7.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:2 — Problem"
-line_start: 22061
-line_end: 22066
+line_start: 22314
+line_end: 22319
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -35,5 +35,5 @@ keywords:
 
 A premise catalogue does not repair dated applications whose result claims conflict. Prestige ranking of sources can hide the receiving claim, while broad foundation rewriting can damage unrelated pattern decisions. Conversely, treating different source functions as automatically incomparable can leave a real same-claim contradiction unresolved.
 
-Reconciliation must recover what each work occurrence actually used, what source content bore on the receiving claim, which direct owners decide evidence and currentness, and which smallest FPF decision must reopen.
+Reconciliation must recover what each Work occurrence actually used, what source content bore on the named claim, the exact evidence and currentness predicates and assertions, and which smallest FPF decision must reopen.
 

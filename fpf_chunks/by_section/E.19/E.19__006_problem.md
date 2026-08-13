@@ -6,12 +6,12 @@ section_id: "E.19:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__006_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:2 — Problem"
-line_start: 85665
-line_end: 85673
+line_start: 86335
+line_end: 86343
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,14 +27,12 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities (e.g"
-  - "and (if needed) reference them from CC items"
+  - "MUST NOT modify modeled-world entities such as Earth"
+  - "a system-role kind"
+  - "an assignment"
   - "inside the predicate)"
+  - "or a holon"
   - "where a non-deontic Invariant: predicate is required)"
-  - "“Earth”"
-  - "“RoleAssignment”"
-  - "“Role”"
-  - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
 ### E.19:2 - Problem

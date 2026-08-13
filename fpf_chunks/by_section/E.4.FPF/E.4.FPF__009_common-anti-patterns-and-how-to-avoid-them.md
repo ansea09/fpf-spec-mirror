@@ -6,12 +6,12 @@ section_id: "E.4.FPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70196
-line_end: 70206
+line_start: 70599
+line_end: 70610
 dependencies:
   - "C.33"
   - "C.34"
@@ -41,9 +41,10 @@ keywords:
 | Anti-pattern | What fails | Repair |
 |---|---|---|
 | FPF as one DPF | FPF is treated as a domain package, so its first-principles and transdisciplinary burden disappears. | Use `E.4.FPF` for FPF form and `E.4.DPF` only for domain or local dependents. |
-| Carrier as FPF | README, Preface, ToC, monolith, host set, card deck, skill pack, or MCP route is treated as the framework edition itself. | Record carriers in `FPFFormMap`; route authority to Core pattern set and relation and edition owners. |
+| Carrier as FPF | README, Preface, ToC, monolith, host set, card deck, skill pack, or MCP route is treated as the framework edition itself. | Record carriers in `FPFFormMap`; keep authoritative claims in the Core pattern set and in exact relation and edition assertions. |
 | Invisible FPF entry route | README or Preface helps adoption but never says what first-principles structures it foregrounds, what it leaves to the pattern bodies, or who it is written for. | Add a carrier structure-account statement while preserving thin publication-carrier status. |
+| Build apparatus as FPF front door | Generated-source comments, digests, source paths, or machine identity fields appear before the reader can find a working question. | Keep reproducibility and exact edition evidence in maintainer or package records; use E.11's short public edition and dependency note and reader-facing sequence. |
 | Whole-FPF quality by local score | Good `E.21` values or successful landing are treated as whole-FPF adequacy. | Run `E.2.DA` for the scoped FPF object and declared use; use local results only as evidence loci. |
-| DPF reverse dependency | A good DPF discovery is treated as a hidden Core dependency. | Return it through a Core amendment decision and direct pattern owners before FPF depends on it. |
-| Access route as authority | A skill, MCP endpoint, retrieval index, or assistant integration is read as source, decision, work, or currentness authority. | Keep it as an access carrier; route generated text, tool work, evidence, assurance, and refresh claims to their direct owners. |
+| DPF reverse dependency | A good DPF discovery is treated as a hidden Core dependency. | State it as a Core amendment candidate and update the exact subject assertions and defining ClaimGraphs before FPF depends on it. |
+| Access route as authority | A skill, MCP endpoint, retrieval index, or assistant integration is read as source, decision, work, or currentness authority. | Keep it as an access carrier; route generated text, tool work, evidence, assurance, and refresh claims to their subject patterns. |
 

@@ -1,33 +1,42 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
+pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
 section_id: "A.2.5:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__014_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
+  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:11 — Rationale"
-line_start: 4731
-line_end: 4738
+line_start: 4911
+line_end: 4918
 dependencies:
   - "A.15"
+  - "A.15.1"
+  - "A.2"
   - "A.2.1"
+  - "A.2.2"
+  - "A.2.7"
+  - "A.21"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.3"
 keywords:
-  - "RSG"
-  - "enactability"
-  - "role state"
-  - "role-state evolution"
-  - "state machine"
+  - "Work admission"
+  - "assignment-state predicate"
+  - "assignment-state relation"
+  - "evidence boundary"
+  - "state condition"
+  - "time window"
 ---
 
 ### A.2.5:11 - Rationale
 
-The pattern starts from the world-side relation because state claims can matter before a record exists. A robot can cease to satisfy its inspection predicate before a dashboard refreshes. A credential decision can constitute an institutional state before a certificate is published. A supported assertion is therefore necessary for reliance but is not the world-side state's truth-maker by default.
+The pattern starts from the world-side relation because state truth can matter before a record exists. A robot can cease to satisfy its inspection predicate before a dashboard refreshes. A credential decision can constitute an institutional condition before a certificate is published. A supported assertion is needed for some reliance uses but is not the world's truth-maker by default.
 
-Using uninterrupted predicate truth as the identity boundary distinguishes repeated episodes even when assignment and predicate values stay the same. An assertion or occurrence description may state the known actual extent and refine an open end to a closed end without creating another occurrence.
+Using uninterrupted predicate truth as the identity boundary distinguishes repeated episodes even when assignment and predicate stay the same. A description may refine an open interval's end without creating another occurrence; a genuine false gap does create a boundary.
 
-The direct relation also explains why role state is not capability and not work. Capability says what operations a system can perform in an envelope. Role state says whether a current assignment satisfies one predicate over a window. Work says what change actually occurred. A method, gate, or work pattern may depend on all three, but no one of them proves the others.
+Assignment state is neither capability nor Work. Capability says what operations a system can perform in an envelope. `SystemRoleAssignmentStateRelation` says whether one current assignment satisfies one predicate over an interval. Work says what was actually performed. A Method, gate, or Work pattern may depend on all three, but none proves the others.
 

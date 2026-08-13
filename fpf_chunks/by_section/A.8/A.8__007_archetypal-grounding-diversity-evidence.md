@@ -6,12 +6,12 @@ section_id: "A.8:3.1"
 section_title: "Archetypal Grounding - Diversity Evidence"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__007_archetypal-grounding-diversity-evidence.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:3.1 — Archetypal Grounding - Diversity Evidence"
-line_start: 22528
-line_end: 22541
+line_start: 22781
+line_end: 22794
 dependencies:
   - "A.11"
   - "C.3"
@@ -28,13 +28,13 @@ keywords:
 
 ### A.8:3.1 - Archetypal Grounding - Diversity Evidence
 
-For busy readers: one idea, three worlds. A candidate that cannot keep the same abstract contribution across three different domain families should stay local, dependent, or subject-pattern governed.
+For busy readers: one idea, three worlds. A candidate that cannot keep the same abstract contribution across three different domain families should stay local, dependent, or constrained by a subject-specific predicate located through its subject pattern.
 
 | Candidate under test | Domain-family projections | What must stay the same | What may differ |
 | --- | --- | --- | --- |
 | `U.System` | thermodynamic control volume; biological cell or organism; cyber-physical system | bounded interacting whole that can be treated as acting or being affected under conditions | boundary physics, substrate, observability, and control style |
 | `U.Episteme` | theorem or proof text; clinical guideline; model card or safety case | claim-bearing non-agentive knowledge object that can be used, cited, revised, or published | carrier, notation, authority source, and assurance regime |
-| `U.Work` | machining run; lab assay; review or approval act | performed occurrence under a method, role assignment, context, and time window | physical medium, institutional form, measurement trace, and evidence carrier |
+| `U.Work` | machining run; lab assay; review or approval act | performed occurrence under a method, system-role assignment, context, and time window | physical medium, institutional form, measurement trace, and evidence carrier |
 
 These rows are grounding examples, not automatic admissions. The projection record still needs an `E.24.UK` basis and must state losses and bridge risks.
 

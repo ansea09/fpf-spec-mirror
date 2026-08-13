@@ -6,12 +6,12 @@ section_id: "B.1.6:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__009_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6 — Archetypal Grounding"
-line_start: 36989
-line_end: 36996
+line_start: 37197
+line_end: 37204
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,5 +58,5 @@ keywords:
 
 **Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts; it does not create the work, parts, overlap, measurements, aggregation, or frame transformation.
 
-**Model training.** Epoch labels alone do not establish work parts. Ground the training work and exact slices, then recover C.16 measurements for compute energy, storage traffic, and operator time. Aggregation work applies an edition-pinned policy to those result epistemes. The algorithm remains a method description; trained-model identity, fairness result, provenance, assurance, and deployment decision stay with their direct owners.
+**Model training.** Epoch labels alone do not establish work parts. Ground the training work and exact slices, then recover C.16 measurements for compute energy, storage traffic, and operator time. Aggregation work applies an edition-pinned policy to those result epistemes. The algorithm remains a method description; trained-model identity, fairness result, provenance, assurance, and deployment decision stay with their subject patterns.
 

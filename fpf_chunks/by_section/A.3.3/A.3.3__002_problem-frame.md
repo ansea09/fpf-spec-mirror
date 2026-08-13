@@ -6,12 +6,12 @@ section_id: "A.3.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:1 — Problem frame"
-line_start: 8158
-line_end: 8182
+line_start: 8370
+line_end: 8396
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,12 +61,14 @@ Use this pattern when a project needs one reusable claim about **how the state o
 
 Use it when the working question is:
 
-* which exact holon, episteme, system-in-role, claim, service, resource bundle, architecture, or other EntityOfConcern has changing state;
+* which exact admitted System, obtaining assignment occurrence, separately identified A.2.5 assignment-state relation, holon, episteme, claim, service, resource bundle, architecture, or other EntityOfConcern has changing state;
 * which characteristics and local meanings define the state space;
 * which transition law states how those coordinates evolve;
 * which observations or work-derived traces can be compared with the law;
 * over which operating region, claim scope, qualification window, parameter regime, or scale band the claim applies; and
 * whether a prediction can be used for comparison, gating, assurance, planning, or control.
+
+Do not add acting, dated Work, or F.6 attribution merely because a System or assignment is changing. State those facts only when their own basis is independently established; a passive System can be the changing entity.
 
 **Primary governed object.** A.3.3 examines one already identified claim-bearing `U.Episteme` candidate and judges whether that same individual belongs to the dependent kind `U.Dynamics`. Positive membership requires its exact C.2.1 `EntityOfConcern` to be the thing whose state is modelled and its ClaimGraph, interpreted under its effective `U.ReferenceScheme`, to declare both a state space and a state-transition law for that subject. C.2.1 keeps the episteme's identity; A.3.3 adds no second identity and no generic locality participant.
 
@@ -78,5 +80,5 @@ Use it when the working question is:
 
 **What this buys in practice.** Practitioners can compare predictions with traces, decide whether stale predictions may still be used, separate Methods and MethodDescriptions from laws of change, and decide where characteristic, scope, temporal, mathematical-lens, evidence, assurance, or gate patterns must take over.
 
-**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If one episteme substantively describes that admitted Method, use `A.3.2`; A.3.2 neither identifies a dynamics episteme nor owns a selected organization among several Methods. If the question is an independently selected organization of exact constituents and obtaining relations, use `A.22`. If the source states one actual bounded change established by the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification, use `A.3.4`; a possible, predicted, simulated, or probable transition remains claim content and supplies no work, gate, release, or permission authority. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness as a positive temporal aspect, use `C.27.TA`; if it states adequacy or supported use of an authored temporal claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
+**Not this pattern when.** If the source only states a semantic way of doing, use `A.3.1`. If one episteme substantively describes that admitted Method, use `A.3.2`; A.3.2 neither identifies a dynamics episteme nor defines or selects an organization among several Methods. If the question is an independently selected organization of exact constituents and obtaining relations, use `A.22`. If the source states one actual bounded change established by the exact changed referent, temporal or formal boundary, boundary conditions, actual subject facts, and continuity or reidentification, use `A.3.4`; a possible, predicted, simulated, or probable transition remains claim content and supplies no work, gate, release, or permission authority. If it states planned work or dated work, use `A.15.2` or `A.15.1`. If it states a mechanism algebra, use `A.6.1` and `E.20`. If it states only freshness, rhythm, inertia, delay, window, or currentness as a positive temporal aspect, use `C.27.TA`; if it states adequacy or supported use of an authored temporal claim, use `C.27`. If it states only evidence or assurance, use `A.10` or `B.3`.
 

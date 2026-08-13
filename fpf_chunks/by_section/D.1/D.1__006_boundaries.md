@@ -6,12 +6,12 @@ section_id: "D.1:3"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__006_boundaries.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:3 — Boundaries"
-line_start: 68559
-line_end: 68572
+line_start: 68909
+line_end: 68922
 dependencies:
   - "A.1"
   - "A.10"
@@ -32,7 +32,7 @@ keywords:
 
 `D.1` keeps value plurality and FPF boundary discipline. It does not replace:
 
-| Question | Direct owner |
+| Question | Subject pattern |
 | --- | --- |
 | Which levels, scopes, holons, interests, responsibilities, methods, work, and consequences are in ethical tension? | `D.3` |
 | How should a mapped ethical conflict be mediated, refused, escalated, or used in a decision? | `D.4` |

@@ -6,20 +6,39 @@ section_id: "A.6.H:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:12 — Relations"
-line_start: 21411
-line_end: 21420
+line_start: 21664
+line_end: 21673
 dependencies:
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.RCD"
   - "A.7"
   - "B.1.1"
   - "B.1.4"
+  - "B.1.5"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.16"
+  - "C.16.P"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
 keywords:
   - "boundary"
   - "completeness"
@@ -29,17 +48,17 @@ keywords:
   - "order/time"
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
-  - "role-method-work"
+  - "system-role–Method–Work distinctions"
   - "wholeness"
 ---
 
 ### A.6.H:12 - Relations
 
 - **Specialises:** `A.6.P` after its 4.11 whole/part/integrity/coverage branch has recovered exact candidate objects and the receiving sentence.
-- **Returns direct mereology to:** `A.14`; construction accounts to `C.13`; selected structures to `A.22`; holon recognition to `A.1`; and remaining whole reidentification to `B.2`.
-- **Returns episteme and publication questions to:** `C.2.1`, `A.3.2`, `E.17`, `E.24.PUB`, and `C.29` as selected by the exact subject.
-- **Returns Method, plan, and Work questions to:** `A.3.1`, `B.1.5`, `A.15.2`, `A.15.1`, `A.15.PROD`, and `B.1.4` only for bounded aggregation of already recovered temporal or order relations.
-- **Returns integrity, evidence, and assurance questions to:** `C.16.P`, `C.16`, the exact measurement owner, `A.10`, and `B.3`.
-- **Returns absent relation governance to:** `A.6.RCD` after participants, required predicate, and blocked receiving use are exact.
+- **Uses for direct mereology:** `A.14`; construction accounts to `C.13`; selected structures to `A.22`; holon recognition to `A.1`; and remaining whole reidentification to `B.2`.
+- **Uses for episteme and publication questions:** `C.2.1`, `A.3.2`, `E.17`, `E.24.PUB`, and `C.29` as selected by the exact subject.
+- **Uses for Method, plan, and Work questions:** `A.3.1`, `B.1.5`, `A.15.2`, `A.15.1`, `A.15.PROD`, and `B.1.4` only for bounded aggregation of already recovered temporal or order relations.
+- **Uses for integrity, evidence, and assurance questions:** `C.16.P`, `C.16`, the exact measurement pattern, `A.10`, and `B.3`.
+- **Uses for absent relation governance:** `A.6.RCD` after participants, required predicate, and blocked receiving use are exact.
 - **Does not create:** a wholeness situation, card, bundle, lifecycle kind, automatic edition series, universal part relation, coverage status, assurance verdict, or direct relation occurrence.
 

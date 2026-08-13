@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 76182
-line_end: 76206
+line_start: 76662
+line_end: 76687
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,9 +66,10 @@ keywords:
 
 ### E.10.ARCH:14 - Relations
 
-- `E.10` recognizes and closes local wording issues or selects the applicable row.
-- `A.6.RSIR` realizes first-level recovery for the relation, signature, interface, role, and slot cluster only until the direct governing pattern is clear.
-- `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations; `A.6.P.WMR` specializes one current method/work-boundary relation-bearing claim and returns exactly one family: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or an exact non-assertability result independently reasoned as `factually unsupported`, `missing-information`, or `missing-governor`; only the last names the affected receiving use and future owner. `A.6.RCD` owns only the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current governor closes the receiver.
+- `E.4.DPF` defines the DPF entry condition and the placement rule: each domain entry remains beside the DPF claim whose wording it restores; a separate local profile exists only for a named maintained multi-entry use, and any table that publishes it remains a publication form.
+- `E.10` recognizes and closes local wording issues or selects the applicable row; bare claim-bearing *role* selects `E.10.ROLE` and has no default Tech reading.
+- `E.10.ROLE` provides the thin first entry from bare claim-bearing *role*. `A.6.RSIR` realizes first-level recovery for the narrower relation, signature, interface, assignment, declaration-slot, operation, and representation cluster only until the direct pattern is clear.
+- `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations; `A.6.P.WMR` specializes one current method/work-boundary relation-bearing claim and returns exactly one family: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or an exact non-assertability result independently reasoned as `factually unsupported`, `missing-information`, or `missing-governor`; only the last names the affected receiving use and future subject pattern or relation declaration. Use `A.6.RCD` only for the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current governor closes the receiver.
 
 - `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
@@ -79,12 +80,12 @@ keywords:
 - `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide; `A.15.PROD` governs the local production-work, entity-identity-inception, or production-completion claim when that exact WMR exit is current.
 - `E.18` governs graph paths, path slices, flow valuations, and graph relations over selected `TransformationFlowStructure` when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
-- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before return to the governing pattern.
+- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before the recovered claim is handled under its subject pattern.
 - `C.16.P` realizes characteristic and scale wording recovery.
 - `C.16.Q` realizes quality characterization and evaluative characterization wording recovery.
-- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or governing pattern is hidden.
+- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or subject pattern is hidden.
 - `F.18` governs durable reusable naming after the kind under repair or relation is known.
-- `F.19` governs phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
+- `F.19` supplies phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
 - `E.8` governs pattern-form and placement wording.
 - `E.19` checks distribution preservation during review and refresh.
 - `E.11` governs entry-distribution and assigns broad or old-term entry cases to README scenarios, ToC query cues, local Problem frames, or `I.2` expanded entry-disambiguation cases.

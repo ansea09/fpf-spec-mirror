@@ -6,12 +6,12 @@ section_id: "A.6.C:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:9 — Consequences"
-line_start: 11324
-line_end: 11336
+line_start: 11536
+line_end: 11548
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,8 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an accountable duty"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "and SHOULD NOT enter D only for an individual duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
@@ -63,7 +63,7 @@ keywords:
 **Benefits**
 
 * Category mistakes (“contract soup”) become systematically repairable.
-* Commitments become accountable (named roles) and adjudicable (evidence expectations).
+* Individual commitments become distinguishable and adjudicable: the actual bearer, rule, instituting basis, scope, validity, and any evidence needed for reliance are explicit without turning an assignment into the duty or responsibility relation.
 * Boundaries remain evolvable: laws, gates, governance, and evidence can evolve with controlled coupling.
 
 **Trade-offs and mitigations**

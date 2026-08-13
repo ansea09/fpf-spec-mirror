@@ -6,12 +6,12 @@ section_id: "F.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:0 — Use this when"
-line_start: 97381
-line_end: 97408
+line_start: 98605
+line_end: 98632
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -46,7 +46,7 @@ Typical in-scope prose includes:
 - source prose being rewritten for FPF use;
 - other technical prose whose accepted ontology, domain model, controlled vocabulary, or role model must survive simplification.
 
-**What goes wrong if missed.** Authors replace one official-sounding phrase with another. The text becomes smoother or shorter while the hidden kind error remains, or it becomes easy to read by losing the FPF kind, slot, role, claim boundary, or admissible-use boundary.
+**What goes wrong if missed.** Authors replace one official-sounding phrase with another. The text becomes smoother or shorter while the hidden kind error remains, or it becomes easy to read by losing the FPF kind, slot, relation position, system-role-kind or assignment distinction, function or functioning claim, claim boundary, or admissible-use boundary.
 
 **What this buys.** Plain technical wording becomes an ontological discipline with less apparatus: fewer words, clearer objects, fewer repeated negative catalogues, and no loss of technical semantics.
 

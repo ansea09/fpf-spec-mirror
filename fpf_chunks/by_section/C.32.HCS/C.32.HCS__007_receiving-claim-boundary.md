@@ -6,12 +6,12 @@ section_id: "C.32.HCS:6"
 section_title: "Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__007_receiving-claim-boundary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:6 — Receiving-Claim Boundary"
-line_start: 65087
-line_end: 65090
+line_start: 65397
+line_end: 65400
 dependencies:
   - "A.19"
   - "C.11"
@@ -24,6 +24,7 @@ dependencies:
   - "C.32.ACE"
   - "C.32.ACS"
   - "C.32.PAD"
+  - "E.10.ROLE"
   - "E.13"
   - "G.5"
 keywords:
@@ -36,5 +37,5 @@ keywords:
 
 ### C.32.HCS:6 - Receiving-Claim Boundary
 
-Use C.32.HCS only to build architecture-bearing family starter packs. Use `C.32.ACS` for project scale rows, `C.25` for Q-Bundles, `C.16` for measurements, `C.32.ACE` for eval programs, `C.32` for candidate synthesis, `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `G.5` for selected-set result declaration, `C.11` for local choices, and `C.32.PAD` for project architecture decisions. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability. C.32.HCS also does not admit `U.Method`, `U.Role`, practice, culture, tradition, or style as holon kinds.
+Use C.32.HCS only to build architecture-bearing family starter packs. Use `C.32.ACS` for project scale rows, `C.25` for Q-Bundles, `C.16` for measurements, `C.32.ACE` for eval programs, `C.32` for candidate synthesis, `A.19.CPM` for comparison, `A.19.SelectorMechanism` for selection, `G.5` for selected-set result declaration, `C.11` for local choices, and `C.32.PAD` for project architecture decisions. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability. C.32.HCS neither establishes a source-labelled object as `U.Method`, nor turns a local system-role kind into a holon, nor admits practice, culture, tradition, or style as holon kinds.
 

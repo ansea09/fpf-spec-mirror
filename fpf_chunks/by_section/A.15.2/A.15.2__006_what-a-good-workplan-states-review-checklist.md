@@ -6,12 +6,12 @@ section_id: "A.15.2:5"
 section_title: "What a good WorkPlan states (review checklist)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__006_what-a-good-workplan-states-review-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:5 — What a good WorkPlan states (review checklist)"
-line_start: 25127
-line_end: 25141
+line_start: 25325
+line_end: 25339
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ dependencies:
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "PlanItem content"
@@ -61,7 +61,7 @@ Use this as a human-facing recognition palette, not a rigid schema or a definiti
 
 1. **Present EntityOfConcern, horizon, and cadence** (for example, the current service system and “W36 surgeries” or “daily ETL”), with possible future performances kept as plan-content designators.
 2. **`PlanItem` content components** with intended-performance designator, target Method, the selected method-description episteme when one plan claim relies on it, planned windows, and dependencies.
-3. **Intended holder and role conditions**, any already obtaining assignment reference, and exact A.2.2 capability threshold or fit condition; a proposed tuple or threshold is not an assignment or fit result.
+3. **Intended performer System and local system-role-kind conditions**, any reference to an existing assignment occurrence and its declared species, and the A.2.2 capability threshold or fit condition; a proposed holder-and-kind pair or threshold is not an assignment or fit result.
 4. **Safety envelopes**, constraints, and other admissibility conditions for planned work.
 5. **Resource budgets** and exact **reservation claims** on assets.
 6. **Acceptance targets** with their direct criteria and intended qualification windows.

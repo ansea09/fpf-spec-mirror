@@ -6,12 +6,12 @@ section_id: "E.24.PUB:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:3 — Forces"
-line_start: 89052
-line_end: 89061
+line_start: 89756
+line_end: 89765
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -42,5 +41,5 @@ keywords:
 | One encountered thing vs several governed uses | A card or diagram can participate in several relations, but visible shape decides none of their kinds. |
 | Stable episteme vs changing publication | The same episteme edition may be republished through another form or carrier, while a changed claim discriminator identifies another episteme. |
 | Audience reach vs actual use | Making an edition available does not prove that any system read it, relied on it, or performed work from it. |
-| Subject-first explanation vs semio-bias | Publication distinctions protect reasoning about the subject; they should not displace the subject from its governing pattern. |
+| Subject-first explanation vs semio-bias | Publication distinctions protect reasoning about the subject; they should not displace the subject from its subject pattern. |
 

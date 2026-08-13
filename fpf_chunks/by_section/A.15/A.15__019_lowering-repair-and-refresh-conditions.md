@@ -1,62 +1,64 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:12f"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__019_lowering-repair-and-refresh-conditions.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12f — Lowering, Repair, and Refresh Conditions"
-line_start: 24415
-line_end: 24422
+line_start: 24611
+line_end: 24618
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:12f - Lowering, Repair, and Refresh Conditions
 
-Lower an `A.15` claim when the role, holder, role-taxonomy episteme, effective reference scheme, method, method description, work plan, work-entry readiness relation, performed work occurrence, or capability check cannot be named at the granularity required by the next work-family use. A weaker but admissible result is a separation note, missing-source-relation note, `A.15.4` repair request, decision-request record for the next decision, prospective work-plan entry, or `A.15.5` readiness-gap note.
+Lower an A.15 claim when the holder system, exact local system-role kind, direct assignment species or occurrence, Method, MethodDescription, WorkPlan, readiness relation, dated Work, or capability fit cannot be named at the granularity needed by the next use. A weaker result can be a separation note, missing-source note, A.15.4 repair request, decision request, prospective WorkPlan entry, or A.15.5 readiness-gap note.
 
-Repair the local alignment frame when a subsequent source shows that the role assignment, method description, work-plan baseline, performed-work occurrence, capability threshold, role-state currentness record, or source-currentness window was wrong for the claimed use. Repair only the changed relation: do not rewrite the method when only the work plan changed, do not rewrite the work occurrence when only the evidence relation changed, and do not treat an `A.15.4` repair request as carrying a non-A.15 claim.
+Repair only the relation that changed. A corrected assignment or `SystemRoleAssignmentStateRelation` does not rewrite the Method; a changed WorkPlan does not rewrite performed Work; corrected evidence or source-currentness does not rewrite assignment or Work; and an A.15.4 repair request carries no stronger A.15 claim.
 
-Refresh the `A.15` use before relying on it under a new role taxonomy, effective reference scheme, selected model-use structure, role assignment, method family, work plan, execution window, result measurement, or evidence, assurance, gate, appearance-based reliance repair, or mathematical-lens relation. If the issue under repair after refresh is no longer role-method-work alignment, use the pattern that defines or tests that relation and keep only the remaining `A.15` separation here.
+Refresh before reliance when the exact local system-role kind or its criterion changes, the assignment species or predicate changes, another assignment occurrence is needed, the Method family or WorkPlan changes, the execution window changes, or a result, evidence, assurance, gate, reliance, or mathematical-lens relation is no longer current. A taxonomy, scheme, KindSignature, or selected model-use structure triggers refresh only when the receiving claim actually depends on the changed semantic basis. If the remaining question is no longer system-role–Method–Work alignment, use its direct pattern and keep only the A.15 separation still needed.
 

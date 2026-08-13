@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.24.PUB.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
-line_start: 89003
-line_end: 89282
+line_start: 89707
+line_end: 89988
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -29,7 +29,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -45,7 +44,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 
 **Primary working reader.** A practitioner or FPF author deciding whether a visible thing is a claim-bearing episteme, a `U.View`, a publication form, a C.29 representation, a `U.PresentationCarrier`, or evidence of one publication occurrence.
 
-**First useful move.** Name the exact next `U.Work` for which the publication is expected to make claims available. Then say, in one sentence, which exact episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. If that Work is choice work, keep its resulting C.11 `ChoiceResult` separate: publication establishes neither the Work nor the result, and the result is neither the Work nor a publication participant. Only when the Work actually uses a published claim, name the exact claim-bearing episteme and its direct route. For a premise, reference, other participant, or work-to-referent use, name the exact declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its exact declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result. Open the heavier publication-relation declarations only when that next Work depends on exact availability, the declared use boundary, or publication-occurrence identity.
+**First useful move.** Name the receiving use for which the publication is expected to make claims available. Before that use occurs, name the current plan, question, or other claim that states what is intended—for example an intended activity, `U.WorkPlan`, decision question, training use, or reference use. Use `U.Work` only for an independently admitted dated occurrence. Then say, in one sentence, which episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. If the receiving use is a choice question, keep any later C.11 `ChoiceResult` separate: publication establishes neither later Work nor the result, and the result is neither Work nor a publication participant. Only when admitted Work actually uses a published claim, name the claim-bearing episteme and the direct relation through which the Work uses it. For a premise, reference, other participant, or work-to-referent use, name the declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result. Open the heavier publication-relation declarations only when the receiving use depends on availability, its declared boundary, or publication-occurrence identity.
 
 **What goes wrong if missed.** A visible layout is treated as the described subject, a file is treated as the claims it carries, a diagram is treated as a view merely because it is graphical, or a currently available episteme is turned into a durable `U.EpistemePublication` kind. The receiving work then cannot tell which object changed when claims, layout, carrier, audience, or use changes.
 
@@ -58,7 +57,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 - Use `C.29` when representation elements and the operations admitted by a representation are current.
 - Use `E.24.CD`, then `E.24`, when a durable ontic is still being considered.
 - Use `E.24.UK` when a public `U.*` kind or dependent-kind disposition is unsettled.
-- Use the subject pattern directly when publication does not affect the named receiving `U.Work`.
+- Use the subject pattern directly when publication does not affect the receiving use.
 
 ### E.24.PUB:1 - Problem Frame
 
@@ -80,7 +79,7 @@ The practical problem is change localization. When a reader sees only “the dia
 4. the presentation carrier or its availability may have changed;
 5. the declared audience or bounded use may have changed while the same edition, form, and carrier remained.
 
-Without the distinction, a receiving work occurrence cannot identify the smallest object or relation to inspect, revise, republish, or stop relying on.
+Without the distinction, the receiving use cannot identify the smallest object or relation to inspect, revise, republish, or stop relying on.
 
 ### E.24.PUB:3 - Forces
 
@@ -90,7 +89,7 @@ Without the distinction, a receiving work occurrence cannot identify the smalles
 | One encountered thing vs several governed uses | A card or diagram can participate in several relations, but visible shape decides none of their kinds. |
 | Stable episteme vs changing publication | The same episteme edition may be republished through another form or carrier, while a changed claim discriminator identifies another episteme. |
 | Audience reach vs actual use | Making an edition available does not prove that any system read it, relied on it, or performed work from it. |
-| Subject-first explanation vs semio-bias | Publication distinctions protect reasoning about the subject; they should not displace the subject from its governing pattern. |
+| Subject-first explanation vs semio-bias | Publication distinctions protect reasoning about the subject; they should not displace the subject from its subject pattern. |
 
 ### E.24.PUB:4 - Solution
 
@@ -98,7 +97,7 @@ Start with this readable publication statement:
 
 > Publication occurrence `<P>` makes episteme edition `<E>` available to the audience identified by `<A>` for the use bounded by `<U>`, through publication form `<F>` borne by presentation carrier `<C>`.
 
-The sentence names the five participant meanings without asking the user to fill a record. If it supplies the publication distinction needed by the named receiving `U.Work`, stop. If availability, identity, or a change is disputed, recover the three direct relations below.
+The sentence names the five participant meanings without asking the user to fill a record. If it supplies the publication distinction needed by the receiving use, stop. If availability, identity, or a change is disputed, recover the three direct relations below.
 
 #### E.24.PUB:4.1 - Identify the publication occurrence
 
@@ -142,7 +141,7 @@ The audience-declaration episteme identifies the audience criterion; it is not t
 
 One occurrence is reidentified by those five fixed participants and their maximal continuous interval of availability. Changing any participant yields another publication occurrence. Demonstrated loss of availability followed by restoration yields a later occurrence. Missing or stale evidence leaves current obtaining unresolved; it does not prove a gap.
 
-Publication work remains separate. Rendering, printing, uploading, indexing, or granting access can be dated `U.Work` that establishes, restores, changes, or fails to establish the publication relation. The work and its result do not become publication-relation participants.
+Rendering, printing, uploading, indexing, or granting access are publication activities. Admit one as dated `U.Work` only when its A.15.1 and F.6 account names the performer, Method, time, containing System, a covering assignment held by each performer, and the F.6 relation linking the Work to that assignment. Those facts must obtain even when a short publication sentence omits an assignment identifier that no receiving claim uses. The Work and its result remain separate from the publication-relation participants.
 
 #### E.24.PUB:4.2 - Recover expression and bearing only when needed
 
@@ -179,7 +178,7 @@ Use the smallest statement that supports the current work:
 4. **Contested expression:** open `PublicationFormExpressionRelation` and the exact view, representation, preservation, or loss pattern.
 5. **Contested carrier availability:** open `PublicationFormBearingRelation` plus the direct carrier-currentness or access pattern.
 
-Do not materialize all five levels as a standing publication card. Stop as soon as the named receiving `U.Work` can distinguish the operative object and relation.
+Do not materialize all five levels as a standing publication card. Stop as soon as the receiving use can distinguish the operative object and relation.
 
 #### E.24.PUB:4.4 - Classify the encountered form by current use
 
@@ -204,13 +203,13 @@ The answers can be jointly positive because they concern different objects or re
 - a C.29 representation stands in a declared correspondence to independently recovered objects;
 - a presentation carrier bears a publication form;
 - a publication occurrence makes one selected episteme edition available;
-- a system performs publication work and may later access or rely on the published episteme through separately governed relations.
+- a system performs publication activity and may later access or rely on the published episteme through separate direct relations; when that activity is admitted as `U.Work`, the A.15.1 and F.6 facts stated above also obtain.
 
 A designator designates and a governed reference resolves to a referent. Neither operation publishes, bears, represents, or makes the subject-side predicate obtain.
 
 #### E.24.PUB:4.6 - Keep subject patterns subject-first
 
-In a pattern about an ontic, structure, architecture, characteristic space, method, or another subject, explain the subject's identity, relations, practical problem, and solution before publication details. Add E.24.PUB only when the named work depends on distinguishing the description, selected edition, form, carrier, audience, or bounded use.
+In a pattern about an ontic, structure, architecture, characteristic space, method, or another subject, explain the subject's identity, relations, practical problem, and solution before publication details. Add E.24.PUB only when the receiving use depends on distinguishing the description, selected edition, form, carrier, audience, or bounded use.
 
 When the EntityOfConcern is itself a description episteme, the same rule applies one level up. The description stays the subject; publication of that description is a neighboring relation.
 
@@ -230,7 +229,7 @@ The diagram does not become the architecture by being published. `C.30` governs 
 
 #### E.24.PUB:5.3 - Clinical procedure edition
 
-A hospital procedure description is an episteme about a method. A wall poster expresses a selected edition for quick pre-procedure orientation; the laminated sheet is the carrier. A separate controlled publication makes the same edition available to clinicians for authoritative procedure enactment. The two publication occurrences differ in bounded use even if the words are identical. Neither publication proves that a clinician read the procedure or performed work according to it; those are access, reliance, role-assignment, method, and work claims under their direct patterns.
+A hospital procedure description is an episteme about how a procedure is performed. Treat it as a `U.MethodDescription` only when its EntityOfConcern is one independently admitted `U.Method` and its claims describe how that Method is carried out. A wall poster expresses a selected edition for quick pre-procedure orientation; the laminated sheet is the carrier. A separate controlled publication makes the same edition available to clinicians for authoritative use during the procedure. The two publication occurrences differ in bounded use even if the words are identical. Neither publication proves access, reliance, Method enactment, or clinical Work. When a clinician System performs admitted Work, the account names the Work's Method, time, containing System, a covering clinical assignment held by that clinician, and the F.6 relation linking the Work to that assignment; a short sentence may omit only an assignment identifier that its receiving claim does not use. Keep access, reliance, assignment, Method, Work, publication occurrence, and result separate. Words such as *role assignment*, *method*, and *work* in source prose are cues for this recovery, not admissions by themselves.
 
 #### E.24.PUB:5.4 - FPF pattern host
 
@@ -240,7 +239,9 @@ An E.24 pattern host can be a publication form expressing an ontic-description e
 
 One instruction edition is available to a training group for studying a method. That `EpistemePublicationRelation` occurrence establishes availability to the declared audience for that bounded use; it establishes neither that anyone read the instruction nor that adjustment, inspection, acceptance, or release work occurred. The same availability alone does not support an acceptance commission's choice about releasing one named lot.
 
-If the commission later performs exact choice `U.Work` under A.15.1 and applies C.11, name that Work and the resulting C.11 `ChoiceResult` separately. When an instruction claim actually participates in that Work, name the exact claim-bearing episteme and its direct route. For a premise, reference, other participant, or work-to-referent use, name the exact declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its exact declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result instead of asserting actual use. The `ChoiceResult` is neither the choice Work, the bounded-use declaration, nor a participant of the publication occurrence.
+If an admitted commission System later performs dated choice `U.Work` and applies C.11, use A.15.1 to name the Work's Method, time, and containing System. For every performer, name the assignment occurrence that covers the Work and its declared species, confirm that the performer is the holder, and establish the F.6 relation linking the Work to that assignment. A short account may omit an assignment identifier that the receiving claim does not use. Name the Work and the resulting C.11 `ChoiceResult` separately.
+
+When an instruction claim participates in that Work, name the claim-bearing episteme and how the Work uses its claim. For a premise, reference, other participant, or work-to-referent use, name the declared predicate, participant order, and values. For a declared operation argument, name the A.6.1 application and its declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result instead of asserting use. The `ChoiceResult` is neither the choice Work, the bounded-use declaration, nor a participant of the publication occurrence.
 
 ### E.24.PUB:6 - Bias Annotation
 
@@ -249,24 +250,24 @@ Lenses tested: **Onto**, **Epist**, **Semio**, **Arch**, **Prag**, **Did**.
 - **Onto:** direct relation occurrences and their actual participants remain primary; visible forms do not decide kinds.
 - **Epist:** the selected edition, audience declaration, and bounded-use declaration retain C.2.1 identities.
 - **Semio:** designation, expression, representation, bearing, and publication availability use different predicates.
-- **Arch:** subject patterns keep their subject; E.24.PUB owns only the neighboring publication architecture.
-- **Prag:** progressive explicitness stops at the first statement sufficient for the named receiving `U.Work`.
+- **Arch:** keep each subject claim with its applicable pattern; E.24.PUB defines only the neighboring publication architecture.
+- **Prag:** progressive explicitness stops at the first statement sufficient for the receiving use.
 - **Did:** one readable sentence and heterogeneous cases precede the RelationSignature detail.
 
 ### E.24.PUB:7 - Conformance Checklist
 
 | Check | Observable conformance condition |
 | --- | --- |
-| `CC-E24PUB-1` | The named receiving `U.Work` and the publication use it depends on are explicit. A claimed actual use names either the exact declared predicate, participant order, and actual values for a premise, reference, other participant, or work-to-referent use, or the identified A.6.1 application and exact declaration-local binding for a declared operation argument; otherwise the text stops at publication availability or returns the applicable A.15.1 `missing-governor` result. Choice work keeps its C.11 `ChoiceResult` separate from the Work and publication participants. |
+| `CC-E24PUB-1` | Before occurrence, the receiving use is named by the current plan, decision question, training or reference use, or other claim that states what is intended; it is not called `U.Work`. Any claimed dated Work satisfies A.15.1 and F.6: it names its performer, Method, time, containing System, a covering assignment held by that performer, and the F.6 relation linking the Work to that assignment. A short sentence may omit an assignment identifier it does not use. A claimed use of a published assertion names either the declared predicate, participant order, and actual values for a premise, reference, other participant, or work-to-referent use, or the identified A.6.1 application and declaration-local binding for an operation argument. Otherwise the text stops at publication availability or returns the applicable A.15.1 `missing-governor` result. Choice Work keeps its C.11 `ChoiceResult` separate from the Work and publication participants. |
 | `CC-E24PUB-2` | The selected episteme edition, audience declaration, bounded-use declaration, publication form, and presentation carrier are distinguishable. |
 | `CC-E24PUB-3` | `EpistemePublicationRelation` has the five exact participant meanings, the availability predicate, and the maximal-continuous-occurrence identity rule stated in section 4.1. |
 | `CC-E24PUB-4` | `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` are recoverable when expression or carrier availability is load-bearing. |
 | `CC-E24PUB-5` | Plain `published episteme` is used only for contingent participation; `U.EpistemePublication` is not used as a durable kind. |
 | `CC-E24PUB-6` | A `U.View` remains a same-individual dependent specialization of `U.Episteme` under an obtaining E.17.0 conformance relation; graphical appearance and A.6.3 construction alone supply no membership. |
 | `CC-E24PUB-7` | C.29 representation elements and correspondence remain distinct from the publication form and direct subject-side objects. |
-| `CC-E24PUB-8` | Publication work, actual access, reliance, evidence, decision, and performed work remain under their direct patterns. |
+| `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, and performed Work remain under their direct patterns; any admitted Work satisfies the complete A.15.1 and F.6 account. |
 | `CC-E24PUB-9` | A changed edition, form, carrier, audience, or bounded use leads to the smallest affected object or relation rather than a whole-stack rewrite. |
-| `CC-E24PUB-10` | Ordinary use stops at the readable sentence when no receiving work needs fuller relation detail. |
+| `CC-E24PUB-10` | Ordinary use stops at the readable sentence when the receiving use needs no fuller relation detail. |
 
 ### E.24.PUB:8 - Common Misuses and Repairs
 
@@ -275,10 +276,10 @@ Lenses tested: **Onto**, **Epist**, **Semio**, **Arch**, **Prag**, **Did**.
 | File equals episteme | Carrier continuity is used as claim-content identity. | Recover the C.2.1 episteme identity and the carrier's direct identity separately. |
 | Diagram equals view | Graphical form or construction history is used as the `U.View` membership criterion. | Recover exact candidate episteme E, exact viewpoint episteme P, and E.17.0 conformance; keep any A.6.3 construction, selected use, form, and representation separate. |
 | Publication equals expression | The form or rendered expression is treated as the publication occurrence. | Name the five `EpistemePublicationRelation` participants and test availability. |
-| Available equals used | Publication is treated as proof of reading, reliance, decision, or work. | Open the exact access, reliance, decision, method, or work relation only when that stronger claim is current. |
+| Available equals used | Publication is treated as proof of reading, reliance, decision, or Work. | Open the exact access, reliance, or decision relation only when that stronger claim is current. Admit `U.Work` only with the complete A.15.1 and F.6 account. |
 | Republished equals revised | A new carrier or form is treated as another episteme edition. | Apply C.2.1 identity; another edition exists only when a discriminator changes. |
 | Published-episteme kind | Temporary availability becomes a durable U-kind. | Keep `U.Episteme`; use Plain `published episteme` plus the exact publication occurrence. |
-| Warning pile-up | A subject pattern lists every publication-side object before explaining its subject. | Keep the subject first and add only the distinction on which the named work depends. |
+| Warning pile-up | A subject pattern lists every publication-side object before explaining its subject. | Keep the subject first and add only the distinction on which the receiving use depends. |
 
 ### E.24.PUB:9 - Consequences
 
@@ -290,7 +291,7 @@ The cost is that load-bearing publication claims need five identified participan
 
 Publication does not change an episteme into a nested publication object. It is a real availability relation supported by an expression relation and a bearing relation. That architecture explains why one encountered card, diagram, or file can matter in several ways without admitting one umbrella presentation kind.
 
-The split also preserves agency. A system can perform work that renders, uploads, prints, indexes, withdraws, or replaces a carrier. The resulting publication relation may then obtain for a long interval with no continuing publication work. Conversely, publication work can fail while no publication occurrence begins. Treating enduring availability separately from the work that establishes it makes both claims inspectable.
+The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier. Those are ordinary activities until an account admits one dated occurrence as `U.Work`; then the A.15.1 and F.6 account in section 4.1 applies. The resulting publication relation may obtain for a long interval with no continuing publication Work, and publication Work can fail while no publication occurrence begins. Separating enduring availability from the Work that establishes it makes both claims inspectable.
 
 ### E.24.PUB:11 - SoTA-Echoing
 
@@ -300,7 +301,7 @@ The split also preserves agency. A system can perform work that renders, uploads
 | [Norouzi, Hertling, Waitelonis, and Sack 2025](https://arxiv.org/abs/2509.23776) | Process-like forms can carry implicit ontology that domain experts need to recover explicitly. | Classify the claims and relations carried by a card or workflow-shaped expression before assigning publication use. | A workflow diagram can reveal an ontic candidate without becoming that ontic by notation. |
 | [Nayyeri et al. 2025](https://arxiv.org/abs/2506.01232), and [Oyewale and Soru 2026](https://arxiv.org/abs/2602.01276) | Schemas and knowledge-graph pipelines help recover structure but also encourage schema or serialization overread. | Keep filled claim objects, reusable forms, C.29 representations, carriers, and publication occurrences distinct. | A table migration can change representation or carrier while preserving the published episteme edition. |
 | OWL, SKOS, RDF, and triple-store practice | Labels, axioms, serializations, documents, and queries have different functions even when one tool exposes them together. | Use this lineage as an expression and implementation stress test, not as authority to identify ontology with serialization. | Tool export does not settle the kind of the exported subject or the truth of its claims. |
-| FPF `C.2.1`, `A.6.REL`, `A.6.3`, `C.29`, `E.17`, and `E.24.UK` | Current FPF already separates episteme identity, direct relation identity, view membership, representation, publication use, and U-kind admission. | `E.24.PUB` coordinates those owners through one publication relation and two supporting relations; it does not duplicate their identity rules. | The architecture diagram case can be repaired at the exact changed relation without reopening architecture ontology. |
+| FPF `C.2.1`, `A.6.REL`, `A.6.3`, `C.29`, `E.17`, and `E.24.UK` | Current FPF already separates episteme identity, direct relation identity, view membership, representation, publication use, and U-kind admission. | `E.24.PUB` coordinates those subject patterns through one publication relation and two supporting relations; it does not duplicate their identity rules. | The architecture diagram case can be repaired at the exact changed relation without reopening architecture ontology. |
 
 Smallest currentness trigger: reopen this source use when a newer ontology-publication or knowledge-representation line changes the distinction among claim-bearing episteme, view, publication form, representation, carrier, and availability relation. A new file format or storage tool alone does not trigger reopening.
 
@@ -309,7 +310,7 @@ Smallest currentness trigger: reopen this source use when a newer ontology-publi
 - **Builds on:** `A.6.REL` for direct obtaining and occurrence identity, `C.2.1` for the selected edition and declaration epistemes, and `E.24` for ontic-description boundaries.
 - **Coordinates with:** `E.17.0` for `U.View` membership and `E.17` for multi-view publication; `A.6.3` for optional viewing construction; `C.29` for representation and admitted operations; `E.8` for FPF pattern publication form; and the direct carrier-currentness or access pattern when carrier availability is current.
 - **Coordinates with:** `E.24.CD` for candidate detection and `E.24.UK` for public U-kind and dependent-kind settlement. `U.EpistemePublication` is rejected there; this pattern uses Plain `published episteme` for contingent participation.
-- **Used by:** subject patterns only when a named receiving `U.Work` depends on distinguishing the subject, description episteme, selected edition, view, representation, publication form, carrier, audience, bounded use, or publication occurrence.
+- **Used by:** subject patterns only when a receiving use depends on distinguishing the subject, description episteme, selected edition, view, representation, publication form, carrier, audience, bounded use, or publication occurrence.
 
 ### E.24.PUB:End
 

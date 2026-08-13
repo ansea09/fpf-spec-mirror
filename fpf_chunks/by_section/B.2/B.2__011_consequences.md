@@ -6,12 +6,12 @@ section_id: "B.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:9 — Consequences"
-line_start: 37335
-line_end: 37349
+line_start: 37545
+line_end: 37559
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,7 +47,7 @@ keywords:
 Positive consequences:
 
 - MHT becomes a precise whole-reidentification move rather than a synonym for improvement.
-- Cases involving a candidate new system, episteme, method, work occurrence, or discipline use the same B.2 whole-reidentification solution while retaining their direct governing patterns.
+- Cases involving a candidate new system, episteme, method, work occurrence, or discipline use the same B.2 whole-reidentification solution while retaining their subject patterns.
 - Trigger language remains useful without becoming ontology.
 - Mathematical and benchmark evidence can be used without replacing the holon claim.
 

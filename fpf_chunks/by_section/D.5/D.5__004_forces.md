@@ -6,12 +6,12 @@ section_id: "D.5:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:1.1 — Forces"
-line_start: 69079
-line_end: 69088
+line_start: 69481
+line_end: 69490
 dependencies:
   - "A.10"
   - "B.3"

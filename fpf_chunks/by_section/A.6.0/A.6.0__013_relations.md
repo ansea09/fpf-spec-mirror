@@ -6,12 +6,12 @@ section_id: "A.6.0:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:12 — Relations"
-line_start: 12157
-line_end: 12166
+line_start: 12381
+line_end: 12390
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -44,7 +44,7 @@ keywords:
 
 - **Builds on:** A.7, C.2.1, C.3, A.2.6, and A.6.5.
 - **Governs:** reusable `U.Signature` declaration epistemes, including `RelationSignature` use and the FormalSubstrate and PrincipleFrame profiles.
-- **Constrained by:** E.10 for the register and usability of materially changed technical declaration blocks, the mantra, checklist instructions, and worked cases. The local result must expose the ordinary claim or action and the decisive governed terms to a cold reader; E.10 owns the trigger scan and wording-repair method.
+- **Constrained by:** E.10 for the register and usability of materially changed technical declaration blocks, the mantra, checklist instructions, and worked cases. The local result must expose the ordinary claim or action and the decisive governed terms to a cold reader; E.10 is the pattern for the trigger scan and wording-repair method.
 - **Coordinates with:** A.6.REL for relation occurrence, A.6.RCD for needed-claim derivation and relation-kind settlement before declaration, A.6.1 for mechanism declaration and realization, A.3.1 for methods, A.15.1 for work, F.9 for explicit bridge use, A.17, A.18, C.16, A.19.CPM, and A.19.UNM for characteristic, scale, comparison, and normalization questions, C.29 for mathematical-lens use, and E.24.UK for durable U-kind admission.
 - **Described and published through:** C.2.1, E.17, and E.24.PUB.
 - **Evolves with:** G.11 for currentness and explicit direct relations between signature editions.

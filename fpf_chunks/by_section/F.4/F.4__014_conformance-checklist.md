@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:12 — Conformance Checklist"
-line_start: 91281
-line_end: 91296
+line_start: 92003
+line_end: 92018
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,39 +22,42 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:12 - Conformance Checklist
 
 | Check | Question |
 | --- | --- |
-| `CC-F4-01` | Is the role-description episteme's exact C.2.1 EntityOfConcern exactly one described `U.Role` value? |
-| `CC-F4-02` | Are the exact role-taxonomy episteme and effective `U.ReferenceScheme` named? |
-| `CC-F4-03` | Is the description kept separate from the role value and any publication form? |
-| `CC-F4-04` | Is every named eligible holder kind an independently admitted `U.System` kind, with any actual holder and assignment recovered separately under A.1 and A.2.1? |
-| `CC-F4-05` | Are assignment claims sent to `A.2.1`? |
-| `CC-F4-06` | Are capability claims sent to `A.2.2`? |
-| `CC-F4-07` | Are method, plan, and work claims sent to `A.15` and neighboring patterns? |
-| `CC-F4-08` | Are evidence, source, standard, requirement, publication, assurance, and status uses sent to direct episteme-use patterns? |
-| `CC-F4-09` | Are relation-position "role" words sent to `A.6.5`? |
-| `CC-F4-10` | Are durable or cross-context names sent to `F.18` and `F.9` when current? |
-| `CC-F4-11` | Are open-world missing slots treated as unknown, not recovered, not asserted, or not current rather than false? |
+| `CC-F4-01` | Is the exact C.2.1 EntityOfConcern one local system-role kind? |
+| `CC-F4-02` | Are its bounded context, continuing contribution identity, current `KindSignature`, and effective scheme recoverable? |
+| `CC-F4-03` | Is the description separate from the kind, classification judgment, NameCard, public row, publication form, and carrier? |
+| `CC-F4-04` | Does first entry preserve the full A.1 range of possible systems rather than imply only non-human technical systems? |
+| `CC-F4-05` | Are classification and assignment handled separately under C.3.2 and A.2.1? |
+| `CC-F4-06` | Are capability claims handled under A.2.2? |
+| `CC-F4-07` | Are Method, plan, and Work claims handled under A.3, A.15, and their direct neighbors? |
+| `CC-F4-08` | Are evidence, source, standard, requirement, publication, assurance, status, permission, and responsibility claims sent to exact direct relations? |
+| `CC-F4-09` | Are bare-*role* participant, declaration, interface, and representation uses recovered through E.10.ROLE and A.6.RSIR? |
+| `CC-F4-10` | Are durable or cross-context names handled through F.18, C.3.3, and F.9 when current? |
+| `CC-F4-11` | Are missing neighboring values left `unknown`, unresolved, not asserted, or not current rather than forced into the card? |
 

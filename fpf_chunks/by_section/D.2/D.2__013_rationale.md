@@ -6,12 +6,12 @@ section_id: "D.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__013_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:9 — Rationale"
-line_start: 68747
-line_end: 68752
+line_start: 69113
+line_end: 69118
 dependencies:
   - "A.1"
   - "A.15"
@@ -32,5 +32,5 @@ keywords:
 
 `D.2` makes multilevel ethical concern visible before the work jumps to conflict mediation, bias audit, assurance, or architecture. This matters because many cases look technically local but ethically cross-level: a method, standard, architecture move, publication, or work plan can improve one scope while pushing cost, risk, exclusion, or responsibility elsewhere.
 
-The pattern deliberately avoids a fixed ladder. It asks for declared levels and scopes from the situation, then selects the next owner. That keeps FPF holon-aware without making every cross-scope case an architecture residual or every ethical case a bias audit.
+The pattern deliberately avoids a fixed ladder. It asks for declared levels and scopes from the situation, then selects the next pattern to apply. That keeps FPF holon-aware without making every cross-scope case an architecture residual or every ethical case a bias audit.
 

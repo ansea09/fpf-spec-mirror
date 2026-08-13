@@ -6,12 +6,12 @@ section_id: "B.4:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:10 — Rationale"
-line_start: 39820
-line_end: 39823
+line_start: 40031
+line_end: 40034
 dependencies:
   - "A.12"
   - "A.4"
@@ -28,5 +28,5 @@ keywords:
 
 ### B.4:10 - **Rationale**
 
-This pattern operationalizes the **Open-Ended Evolution Principle (P-10)** by providing its core engine. It keeps design-time refinement, run-time observation, the acting-side `Transformer`, and the changed holon distinct, so adaptation does not become a vague story that the system or theory "evolved by itself."
+This pattern operationalizes the **Open-Ended Evolution Principle (P-10)** by providing its core engine. It keeps design-time refinement, run-time observation, the performing Systems and dated Work, and the changed holon distinct, so adaptation does not become a vague story that the system or theory “evolved by itself.”
 

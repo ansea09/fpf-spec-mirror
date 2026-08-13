@@ -6,12 +6,12 @@ section_id: "A.3.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:7 — Conformance Checklist"
-line_start: 8391
-line_end: 8420
+line_start: 8605
+line_end: 8634
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -73,7 +73,7 @@ keywords:
 
 **CC-A3.3-8 (No imperative overread).** `U.Dynamics` does not prescribe agent steps, responsibilities, or ordered work occurrences. A reusable planning or control way that uses dynamics is `U.Method`; only a separately identified claim-bearing episteme that passes A.3.2 is its `U.MethodDescription`.
 
-**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, Work occurrences, work logs, and telemetry attach to their exact Work, record, evidence, measurement, or source owners. Calibration Work and its domain result may support a later dynamics episteme with its own C.2.1 identity; a continuing edition relation obtains only when C.2.1's separate predicate does.
+**CC-A3.3-9 (No actuals on dynamics).** Resource actuals, timestamps, Work occurrences, work logs, and telemetry remain claims about their exact Work, record, evidence use, measurement, or source use under the applicable subject patterns. Calibration Work and its domain result may support a later dynamics episteme with its own C.2.1 identity; a continuing edition relation obtains only when C.2.1's separate predicate does.
 
 **CC-A3.3-10 (Prediction use).** Predicted coordinates used for comparison or gating require fresh observation or a declared non-expansive, invariant-commuting transition map over the domain of use.
 

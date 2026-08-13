@@ -6,12 +6,12 @@ section_id: "C.16.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:1 — Problem frame"
-line_start: 47471
-line_end: 47490
+line_start: 47715
+line_end: 47734
 dependencies:
   - "A.10"
   - "A.15"
@@ -45,7 +45,7 @@ Working texts often need compact characterization words. The problem starts when
 
 The repair question is:
 
-> What characteristic or scale construction is recoverable, and what governing pattern carries the remaining claim?
+> What characteristic or scale construction is recoverable, what exact assertion states the remaining claim, and where is its defining or constraining `ClaimGraph` located?
 
 The recoverable item may be:
 
@@ -56,6 +56,6 @@ The recoverable item may be:
 - quality-term or evaluative characterization under `C.16.Q`;
 - pattern-quality coordinate use under `E.21`;
 - mathematical-lens use under `C.29`;
-- comparison, threshold, indicator, proxy, benchmark, gate, evidence, decision, or work claim under neighboring patterns governing those claims;
+- comparison, threshold, indicator, proxy, benchmark, gate, evidence, decision, or work claim under neighboring patterns define or constraining those claims;
 - ordinary prose with no FPF-governed use.
 

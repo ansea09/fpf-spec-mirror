@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.4.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
-line_start: 43530
-line_end: 43711
+line_start: 43752
+line_end: 43933
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -78,7 +78,7 @@ When articulation explicitness stays implicit, authors either overstate readines
 |---|---|---|
 | `AE0` | felt, latent, or low-articulation cue only | still preservable, but not yet anchor-explicit |
 | `AE1` | stable cue span, contrast, or disturbance cue is nameable | `U.PreArticulationCuePack` becomes natural |
-| `AE2` | candidate anchors or partial roles are visible | cue pack with candidate anchors and route candidates |
+| `AE2` | candidate anchors or partial field meanings are visible | cue pack with candidate anchors and route candidates |
 | `AE3` | minimally relation-like skeleton exists | entry to `A.6.P` becomes possible if local threshold allows |
 | `AE4` | slot-explicit normal form is publishable | explicit relation or characteristic form |
 | `AE5` | articulation is explicit enough for stable endpoint classification and downstream bridge work | endpoint-pattern-governed publication becomes straightforward |
@@ -95,7 +95,7 @@ The anchors are a starter set; a Context may refine them locally, but it shall k
 Raising `AE` requires additional explicit anchors, slots, or normal-form structure. Lowering `AE` is admissible under `A.16.2` when a prior articulation proves over-committed or misleading.
 
 ### C.2.4:5 - Archetypal Grounding
-**Tell.** "Something is off" may be a real cue even before role bearer, intended work occurrence, reliance use, or evaluator are explicit.
+**Tell.** “Something is off” may be a real cue even before its relation participant, field meaning, representation position, bearer, intended activity or plan, actual Work occurrence, reliance use, evaluator, or ordinary domain meaning is explicit. If the cue says only “role,” route it through `E.10.ROLE`; do not presume a work-facing kind or assignment.
 
 **Show (System).** An operator alert cue grounded in a disturbance trace may be stabilized as a candidate intervention cue before a full work relation or reliance relation specification exists.
 
@@ -131,7 +131,7 @@ The distinction echoes work on sketching, focusing/TAE, embodied cue capture, an
 ### C.2.4:13 - Worked Examples and Edge Cases
 
 #### C.2.4:13.1 - High formality, low articulation
-A template may be syntactically precise and therefore high in `F`, yet still low in `AE` because the actual role-bearer, relation, or intended-work-or-reliance-move slots remain unclear. This is the classic case where formal-looking language overstates semantic readiness.
+A template may be syntactically precise and therefore high in `F`, yet still low in `AE` because the actual relation participant, field meaning, representation position, bearer, intended activity or plan, admitted Work occurrence, reliance move, or ordinary domain meaning remains unclear. A local system-role kind, classification, or assignment is selected only after evidence supports that branch. This is the classic case where formal-looking language overstates semantic readiness.
 
 #### C.2.4:13.2 - Low formality, high articulation
 A short, plain note may be low in `F` yet already high in `AE` because the relation skeleton is explicit enough for `A.6.P`. This case matters because it shows that `AE` is not a stylistic measure.
@@ -172,7 +172,7 @@ An `AE` claim that matters for routing or repair should normally publish more th
 
 - stable trigger span;
 - candidate anchors or contrasts;
-- role-bearer / intended-work-or-reliance-move / evaluator slots where relevant;
+- relation-participant, field-meaning, representation-position, bearer, intended-activity-or-plan, admitted-Work, reliance-move, evaluator, or ordinary-wording positions where relevant; unresolved claim-bearing “role” wording goes first to `E.10.ROLE`;
 - a minimally relation-like skeleton;
 - a candidate normal form, or an explicit note that no such form is yet admissible.
 
@@ -202,7 +202,7 @@ An assurance reader should ask:
 
 - are the named anchors genuinely present rather than merely presupposed;
 - does the claimed articulation level rest on structure rather than tone;
-- are role-bearer, intended-work-or-reliance-move, evaluator, or comparison slots still ghosted;
+- are relation-participant, field-meaning, representation-position, bearer, intended-activity-or-plan, admitted-Work, reliance-move, evaluator, comparison, or ordinary-wording positions still ghosted; and has any intended activity or plan been mislabeled as Tech `Work` before an occurrence is admitted;
 - if `AE` is used to justify a route-governance transfer, is the destination governing pattern actually ready to receive the publication.
 
 #### C.2.4:18.2 - Endpoint-boundary test

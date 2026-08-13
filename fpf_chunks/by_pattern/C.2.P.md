@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.2.P.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
-line_start: 41665
-line_end: 42326
+line_start: 41888
+line_end: 42549
 dependencies:
   - "A.10"
   - "A.15"
@@ -115,7 +115,7 @@ The immediate cost is not only ugly terminology. Engineers and FPF authors start
 
 **Recovery focus in plain terms.** The use being made is one episteme-publication-heavy wording use inside conformant text: the word or phrase, the sentence function it carries, the FPF kind or relation it must recover, and the remaining declared use boundary after recovery.
 
-**Primary working user.** The first user is a practitioner maintaining conformant FPF-style or project text: an author, review role, or engineer-manager who must repair wording without losing ontology. The downstream user is the practitioner who will rely on the repaired pattern or project text in a working situation.
+**Primary working user.** The first user is a practitioner maintaining conformant FPF-style or project text: an author, reviewer, or engineer-manager who must repair wording without losing ontology. The downstream user is the practitioner who will rely on the repaired pattern or project text in a working situation.
 
 **Anti-overread payoff question.** A repair is useful only if the text can say in ordinary prose what false downstream interpretation is blocked, what useful action remains, and when the reader must apply another named FPF pattern because evidence, gate, decision, work, assurance, bridge, release, or reliance is current. If the repair blocks an overclaim but leaves no useful action, it is probably becoming ceremony rather than guidance.
 
@@ -318,7 +318,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | `publicationUnitPrimaryEntityOfConcern` | The primary entity of concern, non-claim-bearing kind named by value, topic, or subject that one bounded `PublicationUnit` is mainly about for the current use. When a claim-bearing episteme or episteme-lane `U.View` is current, this must be recoverable from the selected `EntityOfConcernRef`; otherwise name the non-claim-bearing kind named by value or keep topic and subject as plain explanatory prose. | `EntityOfConcernRef` created without a claim-bearing episteme or episteme-lane view, publication-unit title by default, authoring process, carrier identity, or reader interest. |
 | `GroundingHolon`, grounding relation | The grounding holon or grounding relation that grounds the EntityOfConcern when a claim depends on grounding, embodiment, witness, or reference-plane discipline. | A convenient source citation or an untyped entity mention. |
 | `U.View`, `U.EpistemeView` | Effect-free projection or view over an episteme under `E.17.0`, `E.17` and the episteme morphism patterns. An MVPK face under E.17 constraints can be this kind only under MVPK constraints. | A UI view, reader viewpoint, screen, generic publication face, or new claim-bearing episteme by default. |
-| `Viewpoint` | The viewpoint specification for a view or multi-view description: named concern, system-in-role interest, framing choice, or viewpoint relation as required by `E.17` or the applicable view pattern. | A reader opinion, pattern-application order, publication label, or carrier label. |
+| `Viewpoint` | The viewpoint specification for a view or multi-view description: a named concern, framing choice, or viewpoint relation as required by `E.17` or the applicable view pattern. If source wording says “system in role,” use `E.10.ROLE` and record the exact recovered concern, object, or relation: for example a class of Systems, a local system-role kind, a separate System-classification judgment, a stakeholder or other participant relation, or an actual assigned System. Include an assignment occurrence and its holder only when that fact independently obtains. | A reader opinion, pattern-application order, publication label, carrier label, or assignment manufactured by the viewpoint phrase. |
 | publication | A publishable episteme, view, record relation, act or occurrence of publishing, or publication form, depending on sentence function. Always split by kind before use. | Generic document, any public-looking file, or proof that a claim is authorized. |
 | `U.EpistemePublication` (rejected spelling) | No durable kind. Recover the claim as the selected `U.Episteme`, an `EpistemePublicationRelation` occurrence or reference when availability matters, publication form, or `U.PresentationCarrier`, according to sentence function. The spelling may remain only in this rejection explanation or a negative test. | A positive object, kind, reference, field, publication identity, or carrier identity. |
 | publication form | The typed form in which an episteme, view, or record is published. | The claim-bearing episteme itself, the face rendered for a reader, or the carrier holding bytes. |
@@ -326,7 +326,7 @@ The same local-aid rule applies to neighboring field names such as `sourceRelati
 | MVPK face under E.17 constraints | `E.17` face published under MVPK constraints from a source episteme or episteme-lane view, publication viewpoint, scope, pins, and face kind. It may be a `U.EpistemeView` when the MVPK profile makes that typing current. | Generic publication face, carrier, UI face, front-end display, or proof of evidence, work, gate, or authority by presentation. |
 | carrier, front-end, rendering | Publication-side or access-side bearer relation or display relation. Use `U.PresentationCarrier` when the C.2.1+ Tech kind is current; otherwise name file carrier, transport carrier, rendering, front-end relation, access-carrier relation, or another carrier relation by sentence function. | Episteme identity, publication form, `U.View`, proof of evidence, or authority-reference relation. |
 | `PublicationUnit` | `E.17.AUD`-cluster head for one bounded unit inside a publication that a person inspects as one unit: a pattern body, section, table, note, card, sheet, screen block, or another bounded publication unit whose boundary is named. A card, sheet, or screen block counts only when its boundary is inside a named publication or generic publication face and the sentence needs that bounded unit as the inspected publication unit. It is part of or bounded by the publication face that renders or locates it, whether that face is generic or published under E.17 and MVPK constraints. It may carry or expose a claim-bearing episteme, view, record, cue, or local rendered content when that carried value and relation are named, but it is not identical with the carried value. | Authoring process, review work, file, carrier, front-end, UI behavior, dashboard behavior or export behavior, whole publication architecture, `U.Episteme`, `U.View`, publication form, generic publication face, MVPK face under E.17 constraints, or "anything written". |
-| project-side FPF kind and reference named by value | Evidence record, gate record, work record, status record, commitment record, role-assignment record, decision record, selected source `U.Episteme`, `EpistemePublicationRelation` occurrence reference when availability matters, status-register entry, or another project record whose FPF kind is named. | Semantic content in general, current process state, or a free-form note. |
+| project-side FPF kind and reference named by value | Evidence record, gate record, Work record, status record, commitment record, system-role-assignment record, decision record, selected source `U.Episteme`, `EpistemePublicationRelation` occurrence reference when availability matters, status-register entry, or another project record whose FPF kind is named. | Semantic content in general, current process state, or a free-form note. |
 | source document | A document named for source-use, evidence use, architecture use, or review use. Name that document use directly. | A governing source by folder proximity, the EntityOfConcern carried or exposed by that source document, or the authority-reference relation unless that relation is explicit. |
 | reviewed publication, review packet, or review record | The reviewed publication named by value, review packet, review record, or bounded publication unit sent or inspected in review. | The EntityOfConcern carried or exposed by that reviewed publication, review packet, or review record, the source relation behind it, or a packet-local summary. |
 
@@ -376,7 +376,7 @@ F.18 and A.6.P naming and relation interpretation:
     - DocumentUnit
   F.18 result:
     - `PublicationUnit` has better SemanticFidelity than authoring-centered unit labels because the unit belongs to the publication lane, not to the authoring process.
-    - `PublicationUnit` has better MorphologicalActionFit than mixed authoring-and-reader-action unit labels because it does not mix author, reader, and unit-boundary roles in one head.
+    - `PublicationUnit` has better MorphologicalActionFit than mixed authoring-and-reader-action unit labels because it does not mix author action, reader action, and the unit-boundary meaning in one head.
     - `PublicationUnit` has lower AliasRisk than `content span` and `document unit` because `content` and `document` blur episteme, publication form, and carrier.
     - `PublicationUnit` still has nonzero AliasRisk because `publication` itself splits into act or occurrence of publishing, episteme publication, form, generic face, MVPK face under E.17 constraints, unit, and carrier; therefore FPF-governed uses keep the nearby definition or explicit publication relation set.
   Current result: accepted reusable FPF head for conformant episteme-publication-heavy FPF text within the declared bounded-publication-unit repair scope; use a more specific accepted head when it better names the text under repair.
@@ -675,7 +675,7 @@ The current FPF corpus already has patterns that contribute to this discipline:
 - `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the question under repair is a decision rather than generic action.
-- `A.15` and `A.15.4` split role, method, work-plan, and actual-work alignment from appearance-based reliance repair; do not use `A.15` as a universal repair for episteme-publication wording.
+- `A.15` and `A.15.4` split system-role kind and assignment, Method, WorkPlan, and actual-Work alignment from appearance-based reliance repair; do not use `A.15` as a universal repair for episteme-publication wording.
 - `E.9` is the campaign `DRR` pattern for campaign-level content decisions; `E.11` is only for entry-discoverability situations and must not organize an episteme and publication repair by default.
 
 These internal FPF patterns remain primary:

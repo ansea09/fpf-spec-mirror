@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__007_worked-slices.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:5 — Worked slices"
-line_start: 44446
-line_end: 44540
+line_start: 44668
+line_end: 44762
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,7 +70,7 @@ A graph publication or pattern publication remains a separately governed publica
 
 Wording: "The evidence path authorizes release."
 
-Repair: `A.10` can state an evidence path for the claim or effect. Release, permission, or gate passage requires the authority, gate, or release pattern that governs that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
+Repair: `A.10` can state an evidence path for the claim or effect. Release, permission, or gate passage requires the authority, gate, or release pattern that defines or constrains that claim. This pattern is used only if `path` wording itself is causing the representation to be overread as a permission route.
 
 #### C.2.P.DR:5.3 - Query plan and access path
 
@@ -105,7 +105,7 @@ Repair:
 ```text
 DeclarativeRepresentationRepair:
   VisibleExpressionOrArtifact: reactor-cooling heat-flow graph with one highlighted preserved path
-  CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their direct owners
+  CurrentDirectObjectOrRelation: exact E.18 heat-flow path or `PathSlice`; keep boundary conditions and any flow valuation under their subject patterns
   RepresentationOrCorrespondenceUse: C.29 correspondence from this reactor-cooling graph rendering to the exact selected E.18 heat-flow `PathSlice`
   SourceOrPublicationRelation: none
   TemptingStrongerActionClaim: graph path authorizes physical valve-change work
@@ -115,7 +115,7 @@ DeclarativeRepresentationRepair:
   StopOrReopenCondition: reopen when gate decision, source currentness, measurement boundary, or work plan becomes current
 ```
 
-An engineering-review publication and a gate record remain separate objects. State any exact source or publication relation with its participants, and keep any gate relation under its direct owner; neither object belongs in `SourceOrPublicationRelation`.
+An engineering-review publication and a gate record remain separate objects. State any exact source or publication relation with its participants, and keep any gate relation under its subject pattern; neither object belongs in `SourceOrPublicationRelation`.
 
 #### C.2.P.DR:5.8 - CRISPR guide-selection table
 
@@ -133,7 +133,7 @@ DeclarativeRepresentationRepair:
   RecoveredGoverningPattern: C.16 or A.19 for characteristics when current; A.10 for evidence; A.15.2 for experimental work plan; A.21 or authority pattern only if approval or gate claim is current
   RetainedUse: source-finding, candidate comparison, and constraint review
   BlockedStrongerActionClaim: no edit approval, work occurrence, safety claim, or gate passage from table rank alone
-  StopOrReopenCondition: reopen when protocol, gate decision, evidence path, role authorization, or dated lab work becomes current
+  StopOrReopenCondition: reopen when protocol, gate decision, evidence path, lab classification or assignment, exact GrantedPermissionRelation@Context or direct authority result, or dated lab Work becomes current; unresolved “role authorization” goes to E.10.ROLE, and an unsupported stronger permission or authority claim returns missing-governor
 ```
 
 A lab notebook, protocol publication, source episteme, and review record remain separate objects. State an exact source or publication relation and its participants only when it obtains; none of these objects belongs in `SourceOrPublicationRelation` by mention alone.

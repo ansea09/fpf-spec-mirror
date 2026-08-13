@@ -1,35 +1,42 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+pattern_title: "SystemRoleKindRelationStructure - Relations among System-Role Kinds"
 section_id: "A.2.7:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:8 — Consequences"
-line_start: 6112
-line_end: 6119
+line_start: 6330
+line_end: 6339
 dependencies:
-  - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.2.5"
+  - "A.22"
+  - "A.6.REL"
+  - "C.3"
+  - "C.3.1"
+  - "E.10.ROLE"
 keywords:
-  - "bundles (⊗)"
-  - "incompatibility (⊥)"
-  - "requiredRoles substitution"
-  - "role algebra"
-  - "separation of duties (SoD)"
-  - "specialization (≤)"
+  - "U.SubkindOf"
+  - "incompatibility"
+  - "joint assignment requirement"
+  - "relations among system-role kinds"
+  - "selected structure"
+  - "substitution"
 ---
 
 ### A.2.7:8 - Consequences
 
-**Benefits.** A system applying a method can reuse role relations without hiding its admission predicate. Safety and governance checks can state separation conditions exactly. Joint work can distinguish role-set membership from holder allocation. Role qualification remains semantic and does not become system taxonomy. Relation assertions can stay readable until a receiving use needs explicit occurrence identity.
+**Benefits.** Receiving Methods can reuse exact kind relations without hiding their predicates. Safety checks state separation conditions precisely. Joint Work distinguishes the required kind set from holder allocation. Monotonic order remains a classification law rather than a label convention. Residual restrictions remain useful without weakening `U.SubkindOf`. Relation assertions can stay readable until a receiving use needs occurrence identity.
 
-**Costs.** A consequence-bearing use must write the predicate that an informal hierarchy or bundle name previously concealed. Repeated relations may need temporal extent or another direct identity discriminator. Existing policy tables and organization charts may need a separate assertion layer and explicit links to the selected occurrences they describe.
+**Costs.** A consequence-bearing use must state the rule that an informal hierarchy or bundle name concealed. Each context-local relation species needs exact kind domains and predicate identity. Cross-context reuse may need a Bridge and bounded-use reliance. A compatible edition needs an explicit continuity decision before the same predicate is claimed.
 
-**Limits.** This pattern ends at the selected role relation and its structure. A.2.1 establishes actual assignments, A.2.2 and A.2.5 establish capability and current role state, A.15 establishes performed work, evidence patterns establish support, and the receiving pattern governs the final admission outcome. Storage and visualization remain implementation and lens choices.
+**Limits.** This pattern ends at the exact relation among system-role kinds and any selected structure over those relations. Use A.2.1 for assignments, A.2.2 and A.2.5 for capability and assignment-state relations, and A.15 for planned or performed Work. The final decision remains an occurrence of its own exact outcome kind. Storage and visualization remain implementation and lens choices.
+
+Reopen only the affected relation or structure when a participant kind, rule, applicability, meaning-bearing semantic basis, truth interval, selected relation occurrence, or C.3.1 basis changes.
 

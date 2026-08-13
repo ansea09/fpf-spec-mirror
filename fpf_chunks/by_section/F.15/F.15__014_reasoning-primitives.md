@@ -6,12 +6,12 @@ section_id: "F.15:12"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_reasoning-primitives.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:12 — Reasoning primitives"
-line_start: 95287
-line_end: 95317
+line_start: 96069
+line_end: 96099
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,7 +66,7 @@ changedMemberResult(priorRef, laterRef, rscrRef, continuityOrChangeClaim, losses
 
 ```text
 failedRule(ruleRef, subjectClaimRef)
-  -> return subjectClaimRef to its direct governing pattern before the receiving use.
+  -> use its subject pattern for subjectClaimRef before the receiving use.
 ```
 
 F.15 may report the failed check. It does not repair or decide the subject claim merely by writing another record field.

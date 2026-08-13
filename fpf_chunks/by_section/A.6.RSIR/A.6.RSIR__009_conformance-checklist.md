@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:7 — Conformance Checklist"
-line_start: 17310
-line_end: 17323
+line_start: 17538
+line_end: 17551
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "F.18"
@@ -41,33 +42,30 @@ keywords:
   - "API"
   - "RelationSignature"
   - "SlotSpec"
-  - "actual participant"
-  - "assertion or description designation"
+  - "ambiguous role wording"
   - "direct relation participant"
-  - "exact operation application and binding"
   - "interface"
-  - "operation argument or result declaration"
+  - "operation declaration and binding"
   - "participant meaning"
   - "port"
   - "reduced-use source label"
   - "relation-signature-interface-role-slot recovery"
-  - "representation position and correspondence"
-  - "role"
-  - "role assignment"
-  - "shadow ontology"
+  - "representation position"
+  - "system-role assignment"
+  - "system-role kind"
 ---
 
 ### A.6.RSIR:7 - Conformance Checklist
 
 1. The repair starts with project concern, not with a replacement word.
-2. The current EntityOfConcern or claim kind is named before a direct governing pattern is applied.
-3. The repair stops at the direct governing pattern once it is clear.
+2. The current EntityOfConcern or claim kind is named before a subject pattern is applied.
+3. The repair stops at the subject pattern once it is clear.
 4. When reusable relation declaration is current, slot discipline uses `A.6.5` and states one complete `SlotSpec = <SlotKind, ValueKind, refMode>` inside one exact `RelationSignature`; actual participants and representation positions remain outside it.
-5. Role claims preserve the four participants of generic `U.RoleAssignment` and derive occurrence extent from uninterrupted obtaining; claims about role description, role state, selected role relation structure, capability, method, planned work, and performed work exit to their direct patterns.
-6. Evidence-use and status-use cases are not represented through `U.RoleAssignment` for epistemes.
+5. A system-role-assignment claim names one occurrence and its declared `U.SystemRoleAssignment` species. The species defines the participant meanings and rule; the occurrence supplies its holder, assigned local kind, and any other participant that distinguishes it. Claims about a system-role-kind description, `SystemRoleAssignmentStateRelation`, selected structure among system-role kinds, capability, Method, planned Work, and performed Work exit to the patterns for those claims.
+6. Evidence-use and status-use cases are not represented through `U.SystemRoleAssignment` for epistemes; bare *role* first exits through `E.10.ROLE`.
 7. Interface wording is kept as a recognition cue but is not admitted as generic `U.Interface`.
-8. Every neighboring object family selected in the dispatch table exits to its direct governing pattern rather than being redescribed inside RSIR.
+8. Every neighboring object family selected in the dispatch table requires its subject pattern rather than being redescribed inside RSIR.
 9. Relation-defined wording dispatches separately to the direct participant meaning and actual participant; a declaration-local `SlotSpec` when reusable typing is current; an assertion- or description-side designation whose episteme identity and content stay with `C.2.1`, whose predicate, polarity, and use stay with the direct claim family, and whose typing stays with `A.6.5` only when a compatible `SlotSpec` is current; a C.3 local kind when repeated quantification is current; or a representation position plus explicit correspondence. It does not create one umbrella qualification object.
 10. Operation wording keeps A.6.1 `ArgumentDeclaration` or `ResultDeclaration` content, one independently identified exact application and obtaining argument or result binding, and any call or formula representation position distinct; it infers neither a public application kind nor production, a produced entity, a result episteme, evidence, or work from the binding.
-11. Quote-only or reduced-use labels carry no action-facing claim beyond the claim admitted by the selected governing pattern.
+11. Quote-only or reduced-use labels carry no action-facing claim beyond the claim admitted by the selected subject pattern.
 

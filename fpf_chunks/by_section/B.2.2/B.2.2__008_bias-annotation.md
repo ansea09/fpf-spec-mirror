@@ -6,12 +6,12 @@ section_id: "B.2.2:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:5.1 — Bias-Annotation"
-line_start: 37785
-line_end: 37794
+line_start: 37995
+line_end: 38004
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,6 +47,6 @@ keywords:
 | Named aggregate as system | A fleet, platform, or cell name is treated as system recognition. | Apply B.2 to one exact candidate; require the complete A.1 criterion and the direct `U.System` criterion. |
 | Component evidence transfer | Component certificates are read as assurance for the proposed new whole after its recognition under `U.System`. | Re-test each claim against that exact recognized system and use exact evidence or assurance relations; do not transfer support by label. |
 | Coordination as whole | A controller, protocol, or coordination relation is treated as automatic system MHT. | Recover the obtaining relation, then require B.2 whole reidentification plus complete A.1 and `U.System` recognition; keep any support separate. |
-| Description as system | Dashboard, simulation, model, twin, or bill is treated as the operating system. | Use episteme, publication, source-use, and architecture-description owners for description objects. |
-| Transformation as containment | An external system changes a holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, B.2.5, and part-whole owners separately. |
+| Description as system | Dashboard, simulation, model, twin, or bill is treated as the operating system. | Use episteme, publication, source-use, and architecture-description patterns for description objects. |
+| Transformation as containment | An external system changes a holon and is treated as its part or containing whole without a separately obtaining part-whole relation. | Use A.12, A.3.4, A.15.1, B.2.5, and part-whole patterns separately. |
 

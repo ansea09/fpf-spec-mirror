@@ -6,12 +6,12 @@ section_id: "D.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:intro — Intro"
-line_start: 68917
-line_end: 68930
+line_start: 69296
+line_end: 69309
 dependencies:
   - "A.10"
   - "A.20"
@@ -32,7 +32,7 @@ keywords:
 
 > **Type:** D-family ethical mediation and decision-use pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern owns the ethical use of an already mapped conflict: mediation, refusal, evidence demand, bounded decision use, and residual handling.
+> **Pattern role:** This compact pattern contains the defining content for the ethical use of an already mapped conflict: mediation, refusal, evidence demand, bounded decision use, and residual handling.
 
 **Use this when.** Use this pattern when an interlevel ethical conflict structure from `D.3` must be used for mediation, refusal, decision, evidence demand, causal return, assurance return, or architecture return.
 
@@ -40,5 +40,5 @@ keywords:
 
 **What goes wrong if missed.** A mapped ethical conflict is treated as solved, blocked, or decision-ready without naming mediation, refusal, evidence demand, return, accepted residual, or bounded decision use.
 
-**What this buys.** The practitioner can use a `D.3` conflict structure for one admissible mediation action or bounded decision use while keeping evidence, causality, assurance, architecture, and bias-audit claims with their owners.
+**What this buys.** The practitioner can use a `D.3` conflict structure for one admissible mediation action or bounded decision use while keeping evidence, causality, assurance, architecture, and bias-audit claims with their subject patterns.
 

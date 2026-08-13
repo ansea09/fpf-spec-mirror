@@ -1,31 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
 section_id: "F.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:intro — Intro"
-line_start: 91324
-line_end: 91329
+line_start: 92046
+line_end: 92051
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
+  - "C.16"
   - "C.2.1"
+  - "C.3"
+  - "C.3.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.24.UK"
   - "F.10"
   - "F.13"
@@ -39,17 +43,17 @@ dependencies:
   - "F.9"
   - "G.6"
 keywords:
-  - "U-kind naming"
-  - "lexical rules"
-  - "morphology"
-  - "naming conventions"
-  - "role-description labels"
-  - "twin registers"
+  - "Plain and Tech designations"
+  - "SystemRoleKindDescription label"
+  - "U-kind name"
+  - "local meaning"
+  - "naming after ontology recovery"
+  - "system-role-kind name"
 ---
 
-## F.5 - Naming Discipline for U-kind Names and RoleDescription Labels
+## F.5 - Naming Discipline for U-kind Names and SystemRoleKindDescription Labels
 
 > **Type:** Definitional (D)
-> **Status:** Stable
+> **Status:** Stable in the current FPF
 > **Normativity:** Normative unless marked informative
 

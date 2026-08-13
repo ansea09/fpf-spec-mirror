@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:0 — Use This When"
-line_start: 91609
-line_end: 91634
+line_start: 92338
+line_end: 92364
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,50 +22,50 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:0 - Use This When
 
-**Plain name.** Check who performed this work under which role assignment.
+**Plain name.** Check who performed this Work under which system-role assignment.
 
-Use this pattern when deciding whether one exact dated Work individual `W : U.Work` was performed under one exact obtaining assignment occurrence `RA : U.RoleAssignment`. When it was, the direct world-side relation `performedUnderAssignment(W, RA)` obtains. A separate attribution assertion or record may designate `W` and `RA` and state that the relation obtains.
+Use this pattern when deciding whether a dated `U.Work` occurrence was performed under a particular assignment occurrence from the `U.SystemRoleAssignment` family. When it was, the direct world-side performed-under-assignment relation obtains. A separate assertion or record can identify the two occurrences and state that relation.
 
-Typical moments include:
+Typical moments:
 
-- a work record says "Alice reviewed", "Robot-7 inspected", or "the operations team approved", but the exact assignment episode is missing;
-- a method description names a work-facing role and the project must connect performed work to the system that held that role;
-- source wording says `RoleEnactment`, "played the role", or `Holder#Role:Context@Window`, and the direct work-to-assignment relation must be recovered;
-- a report, standard, dashboard, access label, or other episteme is described with role language even though it did not perform the work;
-- a role label is reused under another role taxonomy or reference scheme and local attribution would be unsafe without an explicit bridge.
+- a work record says “Alice reviewed”, “Robot-7 inspected”, or “the operations team approved”, but the assignment occurrence is missing;
+- a MethodDescription names a system-role kind and the project must connect actual Work to the assigned performer;
+- source wording says `RoleEnactment`, “played the role”, or `Holder#Role:Context@Window`;
+- a stronger appointment has a commission, position, or locus participant and must retain that occurrence identity during attribution;
+- a report, standard, dashboard, or access label is described with role wording although it did not perform Work;
+- a corresponding kind or assignment from another context is cited without a current Bridge and local occurrence.
 
-**Primary EntityOfConcern.** One obtaining direct `performedUnderAssignment` relation occurrence between one exact `U.Work` occurrence and one exact `U.RoleAssignment` occurrence.
+**Primary EntityOfConcern.** One obtaining `performedUnderAssignment` relation occurrence between a `U.Work` occurrence and an assignment occurrence whose species is declared under `U.SystemRoleAssignment`.
 
-**Primary working reader.** An engineer, operator, method author, manager, or FPF author deciding whether a performed-work attribution is grounded strongly enough for the next use.
+**Primary working reader.** An engineer, operator, Method author, manager, or FPF author deciding whether a performed-Work attribution is grounded strongly enough for the next use.
 
-**First useful move.** Name the Work occurrence and the assignment occurrence that may participate in the attribution relation. Recover the assignment's holder system, role value, role-taxonomy episteme, effective reference scheme, and assignment window before deciding whether `performedUnderAssignment(W, RA)` obtains.
+**First useful move.** Name the Work and the assignment occurrence under which it is said to have been performed. Recover the occurrence's declared species and participant values, then ask what case fact links this Work to this assignment. Confirm that its holder is the performer and that it covers the Work interval; those checks alone do not create the link. If the case does not establish the pair, leave the attribution unresolved. Otherwise say plainly that the holder System performed the Work under that assignment.
 
-**What goes wrong if missed.** Assignment is treated as proof that work happened; a work log names a person but not the assignment episode; a context-like word hides the role taxonomy and interpretation scheme; or an episteme is made the performer because it described, constrained, or evidenced the work.
+**What goes wrong if missed.** Assignment is treated as proof of Work, a label replaces the assignment occurrence, a generic assignment duplicate erases a stronger appointment, or a log or report is made the performer. When several assignments overlap, interval coverage then attributes the same Work to all of them even though the exact pair was never established.
 
-**What this buys.** Work attribution becomes a direct, inspectable relation: the admitted holder system remains the actor, the dated Work separately enacts one exact `U.Method`, and role value, assignment, capability, method, method description, evidence, source use, result, publication, and cross-scheme correspondence remain with their own governing patterns.
+**What this buys.** Attribution is one thin relation. The holder System remains the actor, the assignment occurrence remains linked to its species and participant values, and Work, Method, capability, state, result, evidence, publication, and cross-context use remain separate.
 
-**Not this pattern when.** Use `A.2` for the role value, `A.2.1` for the assignment occurrence, `A.2.5` for a current role-state predicate, `A.2.2` for capability, and `A.15.1` for the work occurrence. Use `A.10`, `A.15.4`, `E.17`, or another direct pattern when the current claim is evidence use, source reliance, publication, status, gate, or decision. Use `A.6.5` when "role" means a relation position rather than a work-facing `U.Role`.
+**Not this pattern when.** Use `A.2` for the system-role kind and classification, `A.2.1` for assignment species and occurrence identity, `A.2.5` for assignment state, `A.2.2` for capability, and `A.15.1` for the Work occurrence. Use the direct evidence, source-reliance, publication, access, authority, permission, responsibility, status, gate, or decision pattern when that relation is current. Use `E.10.ROLE` and `A.6.RSIR` when *role* denotes another object or relation position.
 

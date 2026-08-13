@@ -6,12 +6,12 @@ section_id: "A.21:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:6 — Bias-Annotation"
-line_start: 34233
-line_end: 34242
+line_start: 34435
+line_end: 34444
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -45,7 +45,7 @@ keywords:
 
 The built-in biases of this pattern are stated across the five Principle-Taxonomy lenses (Gov, Arch, Onto-Epist, Prag, Did).
 
-* **Gov.** Bias toward auditability and explicit responsibility (DecisionLog + profile-bound folds). Risk: gate-stewardship roles become de facto governors; mitigation: keep profiles explicit, inheritable, and pinned to `PathSliceId` for reviewable replay.
+* **Gov.** Bias toward auditability and explicit decision records. Risk: a gate steward or profile label is treated as if it supplied authority or responsibility. Mitigation: keep profiles explicit, inheritable, and pinned to `PathSliceId`; state any authority or responsibility only through its independently obtaining direct relation.
 * **Arch.** Bias toward a microkernel of checks (pluggable GateChecks + join aggregation). Risk: “check sprawl”; mitigation: scope discipline + forbidden LEX pseudo-checking + CC-based profile minima.
 * **Onto-Epist.** Bias toward a 4-value `GateDecision` lattice and explicit “does not apply” boundaries. Risk: oversimplifying nuanced epistemic uncertainty; mitigation: preserve structured rationales and check-scoped `unknown` policies rather than inventing new global decision values.
 * **Prag.** Bias toward determinism and replayability (cache invalidation by pinned vectors). Risk: higher publication overhead; mitigation: PublishMode=Lite for faces (never for weakening checks).

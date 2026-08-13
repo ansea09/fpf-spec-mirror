@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.30.P.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
-line_start: 60917
-line_end: 61164
+line_start: 61200
+line_end: 61447
 dependencies:
   - "A.10"
   - "A.15"
@@ -217,7 +217,7 @@ Architecture-synthesis routing note:
 - Use `C.32`, `C.32.MLAO`, `C.32.CONWAY`, or `C.32.FAIL` when the recovered claim is a candidate palette, residual-reducing multilevel frame, transformer and transformed correspondence frame, or architecture-synthesis repair cue.
 - Use `A.19.CPM`, `A.19.SelectorMechanism`, `C.11`, or `G.5` when the recovered claim is comparison-policy use, selector-policy use, local choice, or selected-set result declaration. When publication is current, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 - Use `C.18` or `C.19` when the recovered claim is archive, front, or pool policy.
-- For transformation-flow, function, module, transformer, mathematical-lens, relation-signature, affordance, architecture role, or move-like wording, recover that claim kind first and use its subject pattern by value.
+- For transformation-flow, function, module, transformer, mathematical-lens, relation-signature, affordance, architecture-use, or move-like wording, recover that claim kind first and use its subject pattern by value.
 
 ### C.30.P:5a - Refresh and reopen conditions
 

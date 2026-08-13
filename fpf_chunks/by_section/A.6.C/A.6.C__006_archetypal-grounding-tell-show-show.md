@@ -6,12 +6,12 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 11186
-line_end: 11272
+line_start: 11398
+line_end: 11484
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,8 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an accountable duty"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "and SHOULD NOT enter D only for an individual duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
@@ -65,11 +65,11 @@ keywords:
 If you use contract-language for a boundary, do not treat “the interface or specification” as an acting system. Instead:
 
 1. **What was promised?** Record the exact promise-content claim if one exists.
-2. **What was said, published, or instituted?** Give the speech-act Work, each description/publication object, and each institutional effect its own row and direct owner.
-3. **What governance or permission-looking claim exists?** Record the accountable commitment or selected `A6-AW-*` claim with its own participants, source, and quadrant.
+2. **What was said, published, or instituted?** Give the speech-act Work, each description/publication object, and each institutional effect its own row and subject pattern.
+3. **What governance or permission-looking claim exists?** Record a D claim about the exact obtaining commitment, or the selected `A6-AW-*` claim, with its own participants, instituting basis, and quadrant. State responsibility separately under its admitted domain predicate or return its exact missing governor.
 4. **What happened, what followed, and what supports reliance?** Record dated Work, each current result/change/delivery/acceptance claim, and each A.10 evidence claim separately; omit absent rows.
 
-Write those answers in the one A.6.B Claim Register: one atomic statement, direct object, owner, and quadrant per row. Faces cite the claim IDs; they do not create another bundle record.
+Write those answers in the one A.6.B Claim Register: one atomic statement, direct object, exact subject assertion, non-semantic pattern locator, and quadrant per row. Faces cite the claim IDs; they do not create another bundle record.
 
 #### A.6.C:5.2 — Show (System archetypes)
 
@@ -85,8 +85,8 @@ Write those answers in the one A.6.B Claim Register: one atomic statement, direc
   (“Idempotent” is a semantic property, not a duty.)
 * **A:** admissibility predicate: request is admissible iff `Idempotency-Key` is present and valid.
   (Gate belongs to mechanism.)
-* **D:** client implementers are obligated to satisfy the gate; provider implementers are accountable for the idempotency behavior **as defined in L** when the gate holds; provider commits to the availability target (scoped by window and exclusions).
-  (Name the committing role; do not say “the API commits”.)
+* **D:** current individual commitments name their actual duty bearers: client implementers may have a duty to satisfy the gate; a provider system may have a duty concerning the idempotency behavior **as defined in L** while the gate holds; another provider commitment may concern the availability target within its stated window and exclusions.
+  (Name the actual duty bearer and instituting basis; do not say “the API commits”. Responsibility, if claimed, needs its own direct relation.)
 * **E:** evidence expectations: audit and log carriers include request id, idempotency key, rejection reason; availability measurement uses defined window and signal definition.
 
 **(B) Hardware interface boundary**
@@ -109,12 +109,12 @@ Write those answers in the one A.6.B Claim Register: one atomic statement, direc
 **Unpack + classify:**
 
 * **Promise content (optional):** `SVC-RELEASE-4711` states which release artifact eligible consumers are promised; that content establishes no speech act, commitment, grant, deployment Work, result, or delivery.
-* **Speech-act Work:** `ReleaseAuthoritySystem`, an admitted `U.System`, performs dated `Approve` occurrence `SA-4711` under exact obtaining grantor assignment `RoleAssignmentRef(ReleaseGrantor-A)`. That assignment's `HolderSystemSlot` names `ReleaseAuthoritySystem`; the assignment supplies role and authority but does not perform the act. Under current `ReleaseGrantPolicy`, `SA-4711` institutes—not merely publishes—grant occurrence `PER-4711` only if the A.2.8.PER obtaining conditions hold. Approval text and a register row that names `PER-4711` do not establish that fact.
-* **D — current grant (`A6-AW-NORM-GRANT`):** the grant's beneficiary participant is `RoleAssignmentRef(Operator-A)`, held for this window by admitted operator `U.System` `DeploymentAgent-A`; its permitted-action participant is `U.EpistemeRef(Deploy-Release-4711)`. `SA-4711`, `RoleAssignmentRef(ReleaseGrantor-A)`, policy, context, scope, and window remain ground or qualifiers. The model may use this D claim only while those A.2.8.PER conditions make `PER-4711` obtain and the row cites that exact occurrence, act, and policy; the row itself does not make the grant current.
+* **Speech-act Work:** `ReleaseGrantorAssignment` is a declared `U.SystemRoleAssignment` species. Occurrence `ReleaseGrantor-A` has admitted System `ReleaseAuthoritySystem` as holder and the local release-grantor kind as assigned-kind value. That System performs dated `Approve` occurrence `SA-4711` under the assignment. The assignment supplies only the holder and assigned-kind facts used by the policy; it neither performs the act nor supplies authority. Any authority required by `ReleaseGrantPolicy` must obtain independently. Under the applicable policy, `SA-4711` institutes—not merely publishes—grant occurrence `PER-4711` only if the A.2.8.PER obtaining conditions hold. Approval text and a register row that names `PER-4711` do not establish that fact.
+* **D — current grant (`A6-AW-NORM-GRANT`):** `ReleaseOperatorAssignment` is another declared species. Occurrence `Operator-A` has admitted System `DeploymentAgent-A` as holder and covers this window. The grant's beneficiary participant cites that occurrence, and its permitted-action participant is `U.EpistemeRef(Deploy-Release-4711)`. `SA-4711`, the two assignments, policy, context, scope, and window remain grounds or qualifiers. The model may use this D claim only while the A.2.8.PER conditions make `PER-4711` obtain and the row cites the named occurrence, act, and policy; the row itself does not make the grant current.
 * **E — weak evaluation alternative (`A6-AW-WEAK`):** if the basis establishes only current absence of prohibition in a sufficiently complete frame, record `NonProhibitionFinding@Context`; do not promote it to a strong grant or place it in D.
 * **A — independent entry predicate (`A6-AW-GATE`):** “deployment is admissible iff `PER-4711` currently obtains and preflight is green” is an `A-*` predicate. It may consume the grant as one condition but is neither the grant nor proof of gate passage.
-* **E — actual Work and exercise (`A6-AW-EXERCISE`):** admitted operator `U.System` `DeploymentAgent-A` must first perform dated `U.Work` occurrence `DeployRun-4711` under `RoleAssignmentRef(Operator-A)`. That assignment must cover the Work, and the Work must instantiate the action specification inside the grant's scope and window. Only then may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.EntityRef(PER-4711)`. The assignment grounds the performance and beneficiary match; it does not perform the Work. Planned work, the approval wording, and preflight alone are not exercise.
-* **E — optional result or delivery:** if `DeployRun-4711` returns `ReleaseArtifact-4711`, cite the exact A.6.1 result binding or an already governed subject-specific `WorkResultRelation`; if that artifact is transferred, cite the independently obtaining subject-owned delivery/transfer relation. Work, result, and delivery do not imply one another.
+* **E — actual Work and exercise (`A6-AW-EXERCISE`):** admitted System `DeploymentAgent-A` must first perform dated `U.Work` occurrence `DeployRun-4711` under assignment occurrence `Operator-A` of declared species `ReleaseOperatorAssignment`. The assignment must cover the Work, and the Work must instantiate the action specification inside the grant's scope and window. Only then may `PermissionExerciseRelation@Context` bind `WorkRef(DeployRun-4711)` to `U.EntityRef(PER-4711)`. The assignment grounds the performance and beneficiary match; it does not perform the Work. Planned work, the approval wording, and preflight alone are not exercise.
+* **E — optional result or delivery:** if `DeployRun-4711` returns `ReleaseArtifact-4711`, cite the exact A.6.1 result binding or an already governed subject-specific `WorkResultRelation`; if that artifact is transferred, cite the independently obtaining delivery/transfer relation defined by its subject pattern. Work, result, and delivery do not imply one another.
 * **E — evidence (optional):** an A.10 path may link the exact grant, Work, exercise, result, or delivery claim to its current carriers for one bounded reliance use. The carriers create none of those objects.
 
 #### A.6.C:5.3 — Show (Episteme archetypes)

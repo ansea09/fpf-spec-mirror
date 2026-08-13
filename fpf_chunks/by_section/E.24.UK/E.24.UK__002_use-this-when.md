@@ -6,12 +6,12 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 89289
-line_end: 89319
+line_start: 89995
+line_end: 90025
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -44,11 +44,11 @@ keywords:
 
 ### E.24.UK:0 - Use This When
 
-Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must choose among four outcomes: reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a genuinely needed durable kind, or recover a non-kind object under its direct owner. A title, filename, ToC row, table, or source spelling opens the question but never answers it.
+Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must choose among four outcomes: reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a genuinely needed durable kind, or recover a non-kind object under its subject pattern. A title, filename, ToC row, table, or source spelling opens the question but never answers it.
 
 Typical moments:
 
-- a direct relation family has stable occurrence identity and receiving patterns need one common kind for those occurrences;
+- a direct relation family has stable occurrence identity and patterns for the next questions need one common kind for those occurrences;
 - a proposed `U.*` name appears in a pattern title, host filename, monolith heading, or ToC row;
 - a current pattern uses type, kind, or subkind wording and the governed object is unclear;
 - a structural name looks useful for search, but may advertise a false root kind;
@@ -63,7 +63,7 @@ Typical moments:
 
 **What goes wrong if missed.** FPF grows a shadow ontology by punctuation. A slot label becomes a kind, a publication form becomes an ontic, type and kind wording becomes active beside ontic settlement, and a useful title survives because it is searchable rather than because it names the governed object.
 
-**What this buys.** Public `U.*` names become trustworthy. A candidate distinction either passes one explicit root or dependent admission test, or returns to the actual governed object and its direct pattern without creating an umbrella kind.
+**What this buys.** Public `U.*` names become trustworthy. A candidate distinction either passes one explicit root or dependent admission test, or stays with the actual governed object and uses its subject pattern only as a locator without creating an umbrella kind.
 
 **Not this pattern when.**
 

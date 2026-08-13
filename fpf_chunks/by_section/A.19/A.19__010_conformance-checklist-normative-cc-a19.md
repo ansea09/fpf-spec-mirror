@@ -6,32 +6,26 @@ section_id: "A.19:6"
 section_title: "Conformance Checklist (normative) — CC‑A19"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__010_conformance-checklist-normative-cc-a19.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6 — Conformance Checklist (normative) — CC‑A19"
-line_start: 28740
-line_end: 28793
+line_start: 28942
+line_end: 28995
 dependencies:
   - "A.10"
+  - "A.15"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
-  - "A.19.CN"
   - "A.19.CPM"
-  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.19.SelectorMechanism"
-  - "A.2.5"
   - "A.2.6"
-  - "A.3.3"
   - "A.6.5"
   - "C.16"
   - "C.2.1"
-  - "E.18"
   - "E.24"
   - "F.9"
-  - "G.0"
   - "G.11"
   - "G.4"
   - "U.ClaimScope"
@@ -43,10 +37,10 @@ keywords:
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
-  - "role-specific space refs stay outside A.19"
   - "state trajectories"
   - "structural overlays"
   - "subspace"
+  - "system-role–Method–Work assertions stay outside A.19"
 ---
 
 ### A.19:6 - Conformance Checklist (normative) — **CC‑A19**
@@ -60,7 +54,7 @@ The following checklist summarizes the normative requirements introduced by Patt
 
 **Spaces & mappings**
 **CC‑A19.1.** Any defined **Subspace**, **Embedding**, or **Product** of CharacteristicSpaces **MUST** explicitly list the involved slots and their metadata (scale type, unit, polarity). No comparability or merging is allowed purely by matching names or assuming correspondence – it must be declared.
-**CC‑A19.2.** Every **Embedding** `ι: CS₁ ↦ CS₂` **MUST** cite a well‑defined `NormalizationMethodInstance` (per **A.19.UNM**) for each slot where `CS₁`’s slot differs in scale or unit from `CS₂`’s. The cited instances MUST satisfy the admissibility and declaration obligations governed by **A.19.UNM** (including monotonicity w.r.t. polarity, validity window, and method-class token). When the embedding is used for gating or assurance, **C.16** and the governing gate or assurance pattern own the evidence-backed claim. (Identity suffices where scales are identical.)
+**CC‑A19.2.** Every **Embedding** `ι: CS₁ ↦ CS₂` **MUST** cite a well‑defined `NormalizationMethodInstance` (per **A.19.UNM**) for each slot where `CS₁`’s slot differs in scale or unit from `CS₂`’s. The cited instances MUST satisfy the admissibility and declaration obligations defined by **A.19.UNM** (including monotonicity w.r.t. polarity, validity window, and method-class token). When the embedding is used for gating or assurance, state separate evidence-backed measurement, gate, and assurance assertions using **C.16** and the respective subject-pattern locators. (Identity suffices where scales are identical.)
 **CC‑A19.2a.** **Scale‑class guard (by reference).** The scale‑class requirements for admissible normalizations are governed by **A.19.UNM** (and must remain CSLC‑consistent per **A.18**). This checklist item is satisfied by citing a `NormalizationMethodInstance` whose declared class token meets those requirements; do not restate the taxonomy here.
 
 **Comparability**
@@ -73,7 +67,7 @@ The following checklist summarizes the normative requirements introduced by Patt
 **Neighboring certification references**
 **CC-A19.6.** A consumer of a `CharacteristicSpacePredicate` separately states the subject or input projection, one `U.ClaimScope`, relevant `U.ContextSlice` membership, effective reference scheme and plane, application or evaluation window, and any Bridge. These use bindings do not become predicate identity components.
 
-**CC‑A19.7.** If a Green-Gate or enactment rule uses coordinates from a `CharacteristicSpace`, the gate pattern and role-method-work pattern govern permission to act; A.19 only requires that any translated state or coordinate claim cite declared Embeddings and Bridges rather than untracked inferences.
+**CC‑A19.7.** If a Green-Gate or enactment rule uses coordinates from a `CharacteristicSpace`, state the permission and system-role–Method–Work assertions under their exact predicates, with the gate and A.15 patterns used as locators; A.19 only requires that any translated state or coordinate claim cite declared Embeddings and Bridges rather than untracked inferences.
 **CC-A19.8.** Predicate and checklist definitions use declared coordinates and explicit logical composition. If temporal order or a multi-step procedure matters, use direct method and work patterns rather than hiding the procedure inside the space or predicate. Indicators require an `IndicatorChoicePolicy`; an NCV is not automatically an indicator.
 
 **Anti‑drift**
@@ -96,10 +90,10 @@ The following checklist summarizes the normative requirements introduced by Patt
 
 **Neighboring certification use**
 **CC‑A19.19.** StateAssertions that use a `CharacteristicSpace` must name the current **NormalizationMethod** or **UNM** declaration and overlay definitions used; assertion validity, waiver speech acts, evidence kind, and gate validity are governed by the assertion, evidence, waiver, and gate patterns. A.19 imposes no requirement on identifiers or persistence formats.
-**CC‑A19.20.** The space-facing references in a neighboring certification use - normalization declaration, quotient or fixed chart, overlay, and coordinate predicate - are logically distinct and must be reconstructable in the argument or review. The neighboring consumer pattern owns evaluation, assertion, gate, assurance, and decision semantics.
+**CC‑A19.20.** The space-facing references in a neighboring certification use - normalization declaration, quotient or fixed chart, overlay, and coordinate predicate - are logically distinct and must be reconstructable in the argument or review. The neighboring consumer pattern contains the defining content for evaluation, assertion, gate, assurance, and decision semantics.
 
 **Operators (OP)**
-**CC-A19.21.** Use of `Align_B` declares the exact Bridge. The comparison, gate, or assurance owner retains its own scope, window, result, and CL consequence. A.19 imposes no persistence-identifier requirement.
+**CC-A19.21.** Use of `Align_B` declares the exact Bridge. State the scope, window, result, and any CL consequence separately for the comparison application, gate application, or assurance claim. A.19 imposes no persistence-identifier requirement.
 **CC-A19.22.** Every `CharacteristicSpacePredicate` is recoverable by value from its space, coordinate and scale bindings, normalization or Bridge basis, operator or comparator semantics, cut or band, logical composition, and polarity. It is not a U-kind, description edition, relation occurrence, or evaluation result.
 **CC-A19.23.** A predicate use identifies the actual input value or governed projection from its condition or subject. An arbitrary relation occurrence, stored record, or matching label is not automatically a point in the predicate's space.
 

@@ -6,12 +6,12 @@ section_id: "D.3:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__008_archetypal-grounding-worked-slices.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:5 — Archetypal Grounding (Worked Slices)"
-line_start: 68852
-line_end: 68859
+line_start: 69231
+line_end: 69238
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,15 +28,16 @@ dependencies:
   - "D.2"
   - "D.4"
   - "D.5"
+  - "E.10.ROLE"
   - "E.17"
 keywords:
 ---
 
 ### D.3:5 - Archetypal Grounding (Worked Slices)
 
-**Engineering advice.** A consultant improves the effectiveness of a client's harmful project. The conflict is not only "bad client, good method." `D.3` maps the client organization, affected public, consultant role assignment, method, work occurrence, responsibility threshold, evidence uncertainty, and consequence horizon. `D.4` governs refusal, conditions, escalation, or decision use.
+**Engineering advice.** A consultant improves the effectiveness of a client's harmful project. The conflict is not only "bad client, good Method." `D.3` maps the consultant and client Systems, affected public, Method, actual Work when it occurred, any separately obtaining assignment, agency evidence, and consequence horizon. A responsibility claim is admitted only through its direct predicate and participants; otherwise the case records `missing-governor`. `D.4` handles refusal, conditions, escalation, or decision use.
 
-**Collection case.** A fleet-level optimization reduces maintenance cost but increases failure risk for a small subfleet used in harsher conditions. `D.3` names the fleet, subfleet, membership relation, any acting collective system, affected users, evidence set, value concerns, responsibility relations, and consequence horizon separately. Collection membership alone makes neither the fleet a responsible acting whole nor the subfleet its part under another relation; each stronger claim needs its direct owner.
+**Collection case.** A fleet-level optimization reduces maintenance cost but increases failure risk for a small subfleet used in harsher conditions. `D.3` names the fleet, subfleet, membership relation, any acting collective system, affected users, evidence set, value concerns, responsibility relations, and consequence horizon separately. Collection membership alone makes neither the fleet a responsible acting whole nor the subfleet its part under another relation; each stronger claim needs its subject pattern.
 
 **Episteme case.** A published architecture description normalizes an interface assumption that excludes an alternative implementation option. The ethical conflict may involve the episteme whole, its source-use relation, affected suppliers, and system consequences. `D.3` maps the conflict; `C.30.AD` governs architecture-description adequacy and `E.17` governs publication-use claims.
 

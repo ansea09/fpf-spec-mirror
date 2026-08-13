@@ -6,12 +6,12 @@ section_id: "C.19.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50307
-line_end: 50317
+line_start: 50563
+line_end: 50573
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -38,8 +38,8 @@ keywords:
 |---|---|
 | Configure everything because the basis is rich. | Name the useful-result threshold and retain only setup work with expected return. |
 | Invent a rival to make the method look comparative. | Use the one-apparatus path until candidate or choice work is genuinely current. |
-| Call candidate generation a choice. | Return generation/reframing to `C.18`; let `C.11` operate only on an existing eligible set. |
+| Call candidate generation a choice. | Use `C.18 for generation/reframing`; let `C.11` operate only on an existing eligible set. |
 | Treat `ChoiceResult` as a plan or result. | Keep selected object, plan, dated work, application note, and domain result separate. |
-| Let a method description or reader role perform work. | Name the admitted system, current role assignment, and dated `U.Work`. |
+| Let a Method description or reader position perform Work. | Name the admitted System and dated `U.Work`, the assignment occurrence and its declared species, and the F.6 attribution. |
 | Rank heterogeneous candidates under one hidden “depth” score. | Preserve direct kinds and compare only declared use-bearing dimensions without hidden scalarization. |
 

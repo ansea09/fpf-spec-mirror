@@ -6,12 +6,12 @@ section_id: "C.19.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:5 — Archetypal Grounding"
-line_start: 50280
-line_end: 50287
+line_start: 50532
+line_end: 50543
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -34,7 +34,11 @@ keywords:
 
 ### C.19.2:5 - Archetypal Grounding
 
-**Repeated audited handoffs.** A fleet has 400 maintenance handoffs each year. The required result is an audited maintenance-decision episteme with a fixed safety and interoperability guarantee. Candidate generation is complete: an ontology-backed method description and a lighter local decision method are eligible; a spreadsheet macro is excluded because it cannot preserve required relation-occurrence identity. `C.11` returns `choose now` for the ontology-backed method because recurrence amortizes configuration. A maintenance-information system under its current assignment performs the planned work, and the domain owner supplies the maintenance decision. If repair or audit cost does not fall after the declared sample, reopen the application.
+**Repeated audited handoffs.** A fleet has 400 maintenance handoffs each year. The required result is an audited maintenance-decision episteme with a fixed safety and interoperability guarantee. Candidate generation is complete: an ontology-backed method description and a lighter local decision method are eligible; a spreadsheet macro is excluded because it cannot preserve required relation-occurrence identity. `C.11` returns `choose now` for the ontology-backed method because recurrence amortizes configuration.
+
+An admitted maintenance-information System performs the planned application Work. `MaintenanceInformationApplicationAssignment-1` is an occurrence of declared species `MaintenanceInformationApplicationSystemRoleAssignment`; the occurrence's holder is that System, and F.6 states that the System performed the application Work under this assignment.
+
+An admitted maintenance-decision System uses the selected ontology-backed Method in separate decision Work, with its own assignment occurrence, declared species, and F.6 attribution. Under `A.6.1`, application `MaintenanceDecisionApplication-1` of operation `DecideMaintenance`, declared by `MaintenanceDecisionMechanism-E1`, returns `AuditedMaintenanceDecision-1` under result declaration `DecisionResult`; no Work-to-result or production claim is made. If repair or audit cost does not fall after the declared sample, reopen the application.
 
 **One-off naming repair.** A team already has the direct typed-relation method for one local, reversible naming decision. No rival is live and the current method has a credible small path, so no option set or choice result is created. The team performs the minimal wording and typing work and returns a scoped terminology decision. Recurrence, integration, a failed result, or a stronger guarantee may later open candidate generation and choice.
 

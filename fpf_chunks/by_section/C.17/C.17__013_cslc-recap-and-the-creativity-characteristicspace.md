@@ -6,12 +6,12 @@ section_id: "C.17:12"
 section_title: "CSLC recap and the Creativity CharacteristicSpace"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__013_cslc-recap-and-the-creativity-characteristicspace.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:12 — CSLC recap and the Creativity CharacteristicSpace"
-line_start: 48829
-line_end: 48954
+line_start: 49081
+line_end: 49206
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,10 +52,10 @@ keywords:
 
 ### C.17:12 - CSLC recap and the Creativity CharacteristicSpace
 
-**Purpose.** Ground “creativity” as a **measurable family of characteristics** (CHR) rather than a role, capability, or virtue. Each characteristic is scoped to a **`U.BoundedContext`**, evaluated on **`U.Work`** episodes, **`U.Episteme`** values such as design sketches or models, or **holders** (systems/teams) via **MM‑CHR** exports (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`), using the **CSLC** discipline (*Characteristic / Scale / Level / Coordinate*).
+**Purpose.** Ground “creativity” as a **measurable family of characteristics** (CHR) rather than a system-role kind, capability, or virtue. Each characteristic is scoped to a **`U.BoundedContext`**, evaluated on **`U.Work`** episodes, **`U.Episteme`** values such as design sketches or models, or **holders** (systems or teams) via **MM‑CHR** exports (`U.DHCMethodRef`, `U.Measure`, `U.Unit`, `U.EvidenceStub`), using the **CSLC** discipline (*Characteristic / Scale / Level / Coordinate*).
 
 > **Strict Distinction (A.7) reminders.**
-> *Creativity is not a Role* (no one “plays CreativityRole”). It’s a **characterisation** of outcomes/process.
+> *Creativity is not a system-role kind*; do not mint `CreativitySystemRole` or retain the legacy `CreativityRole`. It is a **characterisation** of outcomes or processes.
 > *Creativity is not Work* (no resource deltas). Work **produces** work results or publications that we later characterise.
 > *Creativity is not a service promise clause* (no external promise). Promise clauses are judged from Work; creativity may correlate with value.
 
@@ -68,7 +68,7 @@ The core **characteristics** below are **kernel‑portable** names; Contexts **s
 | **Novelty\@context**        | Distance from known ideas **in this Context**                   | `U.Episteme` value or `U.Work` set | Ratio or bounded \[0..1] via *similarity→distance* | `KD‑CAL` corpus + `U.BoundedContext` |
 | **Use‑Value**            | Benefit vs a **declared objective**                          | `U.Episteme` value or `U.Evaluation` | Ordinal (Fail/Partial/Pass) or scalar KPI          | `B.3` Evidence & `U.Evaluation`      |
 | **Surprise**             | Unexpectedness under the Context’s **GenerativePrior**          | `U.Episteme` value | bits or nats (−log‑likelihood)                     | Prior cards & calibration            |
-| **ConstraintFit**        | Degree of **must‑constraints** satisfied while exploring     | `U.Work` or `U.Episteme` value | % satisfied (0–100)                                | Declared constraint owner + step guards |
+| **ConstraintFit**        | Degree of **must‑constraints** satisfied while exploring     | `U.Work` or `U.Episteme` value | % satisfied (0–100)                                | Declared constraint predicates and sources + step guards |
 | **Diversity_P**          | Declared retained-set **coverage/dispersion** (incl. coverage map view)  | Set of `U.Episteme` values | Set‑functional; coverage index                     | `Γ_ctx` fold + USM ClaimScopes       |
 | **AttributionIntegrity** | Lawful and transparent **provenance/licensing**                | `U.Episteme` value plus provenance | \[0,1]                                              | PROV + declared constraint policy |
 
@@ -83,8 +83,8 @@ The following **context‑local** characteristics remain available but are **not
 * **Transferability\@X** — portability to **Context X** via a Bridge (`U.Episteme` value; ordinal + CL penalty).
 * **DiversityOfSearch** — breadth of **approach classes tried** (work set; count/rate).
 * **Time‑to‑First‑Viable** — elapsed time to first **Use‑Value = Pass** (work; duration).
-* **Risk‑BudgetedExperimentation** — planned vs realized exploration share (workplan vs work; ratio; policy gate).
-
+* **Risk-BudgetedExperimentation** — planned vs realized exploration share (workplan vs work; ratio; policy gate).
+* **FamilyCoverage**, **MinInterFamilyDistance**, **AliasRisk**, and an optional **DescriptorVector** — characteristics of one declared retained set under a named local measurement policy, scale, descriptor and distance editions, and collision policy. They characterize the set; they do not select its members or establish wider applicability.
 > **Compatibility note.** This split removes duplicate “core lists” and aligns C.17 with **B.5.2.1 NQD** and **C.16/A.17–A.18**: the **kernel nucleus** captures creativity *qualities*; the items above instrument Work, policy, or declared retained-set shaping without renaming `Front`, `Archive`, or `Shortlist`.
 
 #### C.17:12.3 - Scale choices (CSLC discipline)

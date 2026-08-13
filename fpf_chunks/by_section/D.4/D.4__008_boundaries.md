@@ -6,12 +6,12 @@ section_id: "D.4:5"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__008_boundaries.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5 — Boundaries"
-line_start: 68994
-line_end: 68999
+line_start: 69396
+line_end: 69401
 dependencies:
   - "A.10"
   - "A.20"
@@ -30,7 +30,7 @@ keywords:
 
 ### D.4:5 - Boundaries
 
-`D.4` does not own conflict structure, bias audit, ethical assurance, architecture residual, causal identification, evidence provenance, or decision theory in general. It owns the ethical use of a mapped interlevel conflict.
+`D.4` does not define conflict structure, bias audit, ethical assurance, architecture residual, causal identification, evidence provenance, or decision theory in general. It defines the ethical use of a mapped interlevel conflict.
 
 Do not name a mediation move "calculus" unless a mathematical lens is selected and the lens is actually doing work. Do not name a mediation move "operator" unless the current pattern explicitly governs an operation. Most D.4 use is a bounded decision-use record, not a mathematical object.
 

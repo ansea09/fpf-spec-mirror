@@ -6,12 +6,12 @@ section_id: "B.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:intro — Intro"
-line_start: 39696
-line_end: 39707
+line_start: 39907
+line_end: 39918
 dependencies:
   - "A.12"
   - "A.4"
@@ -32,9 +32,9 @@ keywords:
 
 **Use this when.** Use this pattern when a `U.System` or `U.Episteme` changes across design-time and run-time scopes and the project must keep observation, refinement, evidence, and renewed operation connected.
 
-**What goes wrong if missed.** Teams treat drift, learning, release, and improvement as separate events; specifications become stale, operational surprises lose their evidence relation, and changes appear without a responsible transformer or a recoverable basis.
+**What goes wrong if missed.** Teams treat drift, learning, release, and improvement as separate events; specifications become stale, operational surprises lose their evidence relation, and changes appear without identifying the System that performed the relevant Work or the basis for the change. A responsibility claim, when needed, can also lose its direct predicate, participants, or applicability basis.
 
-**What this buys.** A compact evolution loop that keeps the holon under change, the acting-side transformer, the design-time episteme, the run-time occurrence, and the evidence relation in one reviewable structure.
+**What this buys.** A compact evolution loop that keeps the holon under change, the Systems and dated Work through which it is changed, the design-time episteme, the run-time occurrence, and the evidence relation in one reviewable structure.
 
 **Not this pattern when.** Not this pattern when the current question is only relation grounding (`B.3.5`), early cue stabilization (`B.4.1`), abductive hypothesis work (`B.5.2.0`), temporal status (`C.27`), or method/work alignment without a holon-evolution claim (`A.15`).
 

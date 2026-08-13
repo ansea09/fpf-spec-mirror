@@ -6,12 +6,12 @@ section_id: "C.30.LCA:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:6 — Bias-Annotation"
-line_start: 62464
-line_end: 62472
+line_start: 62768
+line_end: 62776
 dependencies:
   - "A.10"
   - "A.20"
@@ -43,9 +43,9 @@ keywords:
 
 ### C.30.LCA:6 - Bias-Annotation
 
-* **Diagram authority bias.** A neat feedback diagram can look more persuasive than the exact structure, source-to-use path, work-reliance relation, or claim it actually supports. Repair by naming each direct object/relation and governing pattern.
+* **Diagram authority bias.** A neat feedback diagram can look more persuasive than the structure, source-to-use path, work-reliance relation, or claim it actually supports. Repair by naming each object or relation and the pattern used to state or test the claim.
 * **Stratification-label bias.** A `layer`, `level`, `tier`, or `stack` label can hide whether it names a control relation, rate band, aggregation, scale, organization, Work scope, evidence scope, deployment, or publication section. Repair with `C.30.STRAT`; C.30.LCA applies only to the recovered control-specific case.
-* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, or dashboard sound agentive. Repair by naming the acting system in role, the method it enacts when current, and the Work or review practice when current.
+* **Supervisor anthropomorphism.** A supervisor label can make an episteme, policy, assignment, or dashboard sound agentive. Repair by recovering the supervision relation first. If action is claimed, name the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution; recover authority, responsibility, gate, safety, and evidence separately.
 * **Transformation-flow and LCA conflation.** A transformation-flow graph expression and a control description/view can inform each other, but neither replaces the other. Repair by naming the exact EntityOfConcern, structure kind, and direct relations for each.
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the note, description episteme, conformance occurrence, direct control relation, or repair guidance above.

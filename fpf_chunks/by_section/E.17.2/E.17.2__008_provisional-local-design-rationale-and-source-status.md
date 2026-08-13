@@ -6,12 +6,12 @@ section_id: "E.17.2:7"
 section_title: "Provisional local design rationale and source status"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__008_provisional-local-design-rationale-and-source-status.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:7 — Provisional local design rationale and source status"
-line_start: 80416
-line_end: 80440
+line_start: 81085
+line_end: 81109
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -38,7 +38,7 @@ This edition reports no N/U/C/D coordinate result, Pareto frontier, NQD harvest,
 | functional | What transformations, capabilities, effects, and input/output boundaries characterize what H can or is intended to do? | Module structure does not determine function; procedure does not establish capability or effect; responsibility does not supply transformation semantics. |
 | procedural | What methods, order, state, concurrency, failure, and recovery characterize how relevant behaviour unfolds? | Functional possibility does not determine order or recovery; a method mention does not make the holon-centred view a MethodDescription or performed Work. |
 | module-interface | Which constituent holons, dependencies, interfaces, compatibility conditions, substitutability rules, and change boundaries characterize construction? | Similar function does not identify the same module organization, and a diagram or port label makes no module/interface relation obtain. |
-| allocation-responsibility | Which exact systems, role assignments, capabilities, and responsibility structures are related to the behaviour? | Neither function nor procedure says who or what bears a role, capability, or allocation; the view itself performs no Work and establishes no assignment. |
+| allocation-responsibility | Which exact Systems, local system-role kinds, obtaining assignments, capabilities, transformations, and separately governed responsibility relations or structures are related to the behaviour? | Neither function nor procedure says which System is classified or assigned, has capability, participates in the transformation, or bears responsibility. The view itself performs no Work and establishes none of those relations. |
 
 The cut is deliberately small, not claimed complete. Serious omitted branches remain visible rather than being forced into the four:
 

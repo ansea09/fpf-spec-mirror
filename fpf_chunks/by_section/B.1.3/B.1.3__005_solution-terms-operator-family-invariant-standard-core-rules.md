@@ -6,12 +6,12 @@ section_id: "B.1.3:4"
 section_title: "Solution — Terms, operator family, invariant Standard, core rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__005_solution-terms-operator-family-invariant-standard-core-rules.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:4 — Solution — Terms, operator family, invariant Standard, core rules"
-line_start: 35978
-line_end: 36101
+line_start: 36180
+line_end: 36309
 dependencies:
   - "A.1"
   - "A.12"
@@ -52,11 +52,15 @@ keywords:
 
 To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours that share the same algebra but serve different moments:
 
+Each application first binds `TAKind` to one admitted `U.SystemRoleAssignment` species whose assigned-kind position uses the local domain for `TransformerSystemRole`. A separately identified occurrence supplies the holder System. If the species is not admitted for the receiving context or no occurrence is established for the case, `TA` is unresolved and the operator is not applied; a filtered value of the assignment family cannot substitute.
+
 1. **Synthesis (design‑time)** — fold epistemes into a **draft aggregate**
 
 ```
-Γ_epist^synth : ( D_know : DependencyGraph< U.Episteme >,
-                  TA     : U.RoleAssignment[roleRef = TransformerRole@Context] ) → U.Episteme
+Γ_epist^synth[TAKind] : ( D_know : DependencyGraph< U.Episteme >,
+                          TA     : TAKind ) → U.Episteme
+
+where TAKind is the exact admitted direct assignment species bound for this application
 ```
 
 * **Domain.** `D_know` uses **ConstituentOf**, **UsageOf/ReferenceTo**, **evidences/derivesFrom**, optional **MemberOf** for collections.
@@ -65,9 +69,11 @@ To keep **design vs run** clean (A.15), Γ\_epist has two companion flavours tha
 2. **Compile (run‑time)** — produce the **released artifact** in a bounded context
 
 ```
-Γ_epist^compile : ( E_synth : U.Episteme,
-                    Ctx     : BoundedContext,
-                    TA      : U.RoleAssignment[roleRef = TransformerRole@Context] ) → U.Episteme
+Γ_epist^compile[TAKind] : ( E_synth : U.Episteme,
+                            Ctx     : BoundedContext,
+                            TA      : TAKind ) → U.Episteme
+
+where TAKind is the exact admitted direct assignment species bound for this application
 ```
 
 * **Domain.** A synthesized episteme and a **target context** (journal, standard, program spec).

@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:1 — Problem frame"
-line_start: 65664
-line_end: 65843
+line_start: 65974
+line_end: 66153
 dependencies:
   - "A.10"
   - "A.12"
@@ -62,13 +62,13 @@ Typical entry situations include:
 A clean-looking target architecture can still be unbuildable or unproducible, untestable, hard to maintain or evolve, or hard to certify. Existing production, communication, approval, control, evidence, and operating arrangements can constrain the candidate and shift coordination into shared releases, approvals, evidence reconciliation, or exception handling. Treat each such arrangement as an independently typed influence source and recover its direct influence relation when that relation is asserted; the source architecture does not act, and mirroring alone does not establish architecture adequacy.
 
 
-Start with the domain action: a manufacturing system builds a product, a compiler compiles a program, a service team changes a service, a clinical team treats a patient, or an instructional system teaches a learner. Identify the changed referent first. Only then name an acting system, role assignment, and dated Work when those facts are current. Separately name the architecture or other source that influences the candidate and the exact relation by which it does so.
+Start with the domain action: a manufacturing system builds a product, a compiler compiles a program, a service team changes a service, a clinical team treats a patient, or an instructional system teaches a learner. Identify the changed referent first. Only then name an acting system, exact system-role assignment, and dated Work when those facts are current. Separately name the architecture or other source that influences the candidate and the exact relation by which it does so.
 
-**First-minute use slice.** A product-family team wants independently replaceable field modules. It identifies the changed referent as `ProductFamilyFieldModuleBoundary@2026Q3`. The influence side is the obtaining C.30 `ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)`; the transformed side is the obtaining C.30 `ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)`. The exact holons and selected `U.Structure` participants remain visible, and any desired replacement structure stays only in a separate `ArchitectureClaim`. No direct architecture-influence kind or predicate has yet been recovered, so the team keeps the pairing as a provisional independent-change pressure with `missing-governor`. It prepares source-side, transformed-side, joint, and bounded-mismatch candidates without naming an actor, role, Work occurrence, or actual transformation. Those facts are added separately only if a later claim needs them.
+**First-minute use slice.** A product-family team wants independently replaceable field modules. It identifies the changed referent as `ProductFamilyFieldModuleBoundary@2026Q3`. The influence side is the obtaining C.30 `ArchitectureRelation(ManufacturingCertificationSystem@Plant-A, BatchLineSharedEvidenceStructure@Current)`; the transformed side is the obtaining C.30 `ArchitectureRelation(ProductFamily@Current, FieldModuleBoundaryStructure@Current)`. The exact holons and selected `U.Structure` participants remain visible, and any desired replacement structure stays only in a separate `ArchitectureClaim`. No direct architecture-influence kind or predicate has yet been recovered, so the team keeps the pairing as a provisional independent-change pressure with `missing-governor`. It prepares source-side, transformed-side, joint, and bounded-mismatch candidates without naming an acting system, system-role assignment, Work occurrence, or actual transformation. Those facts are added separately only if a later claim needs them.
 
-The primary working object is a local candidate-synthesis frame. It can pair actual architecture sides through exact obtaining C.30 `ArchitectureRelation` refs or carry candidate, required, desired, or expected structure only through separately identified `ArchitectureClaim` refs. When one exact architecture-influence or correspondence relation already obtains between two actual architecture sides, C.32.CONWAY also owns one reusable `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` episteme about that exact occurrence. The frame, row, architecture relations, claims, selected structures, changing system, Work, actual transformation, changed referent, candidate palette, and any network that later cites the row remain different objects.
+The primary working object is a local candidate-synthesis frame. It can pair actual architecture sides through exact obtaining C.30 `ArchitectureRelation` refs or carry candidate, required, desired, or expected structure only through separately identified `ArchitectureClaim` refs. When one exact architecture-influence or correspondence relation already obtains between two actual architecture sides, C.32.CONWAY is also the pattern for one reusable `ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context` episteme about that exact occurrence. The frame, row, architecture relations, claims, selected structures, changing system, Work, actual transformation, changed referent, candidate palette, and any network that later cites the row remain different objects.
 
-What goes wrong if this pattern is missed: an architecture, organization chart, method family, toolchain, communication structure, or network record is called the transformer and silently receives agency, role, Work, or participation in the change. Or the reverse happens: real performer and Work facts disappear behind a vague claim that one architecture shaped another.
+What goes wrong if this pattern is missed: an architecture, organization chart, method family, toolchain, communication structure, or network record is called the transformer and silently receives agency, a system-role kind or assignment, Work, or participation in the change. Or the reverse happens: real performer and Work facts disappear behind a vague claim that one architecture shaped another.
 
 What this buys in practice: the practitioner can prepare architecture candidates while preserving four independent questions—what changed, who acted or performed Work, which sources influenced the candidate, and which exact architecture pair the current correspondence row concerns.
 
@@ -82,12 +82,12 @@ Ordinary working move:
 
 Adoption test: a reader can tell which exact case passes, which does not, what the practitioner changes next, and whether the result is only local synthesis material or a reusable exact pair row.
 
-Not this pattern when the current work is only bounded-change identification, role or Work attribution, module-interface repair, mathematical structural similarity, local choice, or an architecture decision. Use the subject pattern and return here only when one pair of an influence-source architecture and a transformed architecture changes candidate synthesis.
+Not this pattern when the current work is only bounded-change identification, system-role assignment or Work attribution, module-interface repair, mathematical structural similarity, local choice, or an architecture decision. Use the subject pattern and return here only when one pair of an influence-source architecture and a transformed architecture changes candidate synthesis.
 
 Common exits by claim kind:
 
 - `A.3.4` or `A.3.4.P` for the bounded change and changed referent.
-- `A.12` for acting-side externalization, `A.2.1` for the exact role-assignment occurrence, `A.15.1` for dated Work and distributed performers, `F.6` for `performedUnderAssignment(W, RA)` and its actual-performer projection, and direct actor-side or Work-to-change owners for the relation needed by the current use.
+- `A.12` for acting-side externalization, `A.2.1` for the exact system-role-assignment occurrence, `A.15.1` for dated Work and distributed performers, `F.6` for `performedUnderAssignment(W, RA)` and its actual-performer projection, and the pattern that defines any direct actor-side or Work-to-change relation needed by the current use.
 - `A.6.M` for module-interface repair.
 - `C.32.ACS` for current architecture-characteristic criteria rows and `C.25` for any composite Q-Bundle and exact slot used by the trade-off.
 - `C.29` and the project-selected structural-equivalence pattern for structural similarity.
@@ -120,7 +120,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   transformedSelectedStructureMap[]:
     - structureKindRef: ModuleBoundaryStructure
       selectedStructureRef: FieldModuleBoundaryStructure@Current
-      requiredArchitectureRole: permit independent field-module replacement
+      requiredStructureContribution: permit independent field-module replacement
       architectureCharacteristicPressure: provisional independent-change pressure
       relationFunctionClaimRef: C.30 plus A.22
   correspondenceClaims[]:
@@ -135,7 +135,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
       receivingUsePatternLocator: C.32.ACS
       sourceReturnCondition: missing-governor — recover the direct influence kind and predicate
   candidateArchitectureConfigurations[]:
-    - candidateRef: SourceSideChange@CellAndEvidenceRoles
+    - candidateRef: SourceSideChange@CellAndEvidenceStructures
     - candidateRef: TransformedSideChange@FieldModuleBoundary
     - candidateRef: JointChange@CellEvidenceAndModuleBoundary
     - candidateRef: BoundedMismatch@ExplicitExceptionCost
@@ -143,7 +143,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   nextQuestionPatternLocator: C.32.ACS
 ```
 
-This sparse frame asserts no influence occurrence and no exact pair row. The four candidate refs are first-pass heads, not comparison-ready configurations. Add acting-system, role-assignment, dated-Work, exact-pair-row, C.29, network, publication, comparison-ready gain/loss/preservation, and any additional source-return fields only when the corresponding claim becomes current; adding them refines this frame without changing its changed referent, architecture pair, or provisional pressure. The complete extension schema is:
+This sparse frame asserts no influence occurrence and no exact pair row. The four candidate refs are first-pass heads, not comparison-ready configurations. Add acting-system, exact system-role-assignment, dated-Work, exact-pair-row, C.29, network, publication, comparison-ready gain, loss, and preservation, and any additional source-return fields only when the corresponding claim becomes current; adding them refines this frame without changing its changed referent, architecture pair, or provisional pressure. The complete extension schema is:
 
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
@@ -154,8 +154,8 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   changedReferentRef:
   actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when A.3.4 independently admits the bounded change of changedReferentRef
   performerRows[]?:
-    actingSystemRef: U.EntityRef constrained to U.System; for performance, this must equal roleAssignmentRef.HolderSystemSlot
-    roleAssignmentRef?: U.EntityRef constrained to U.RoleAssignment, required when a role is claimed and whenever performance is attributed under assignment
+    actingSystemRef: U.EntityRef constrained to U.System; for performance, this must equal actingSystemRoleAssignmentRef.HolderSystemSlot
+    actingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, required when an obtaining assignment is claimed and whenever performance is attributed under assignment
     workOccurrenceRef?: U.EntityRef constrained to U.Work, required when performance is claimed
     performedUnderAssignmentRelationRef?: U.RelationRef governed by F.6, required with workOccurrenceRef
     actorSideOrWorkToChangeRelationRefs[]: exact U.RelationRef values required by the current claim
@@ -180,7 +180,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   transformedSelectedStructureMap[]:
     structureKindRef:
     selectedStructureRef?:
-    requiredArchitectureRole:
+    requiredStructureContribution:
     architectureCharacteristicPressure:
     relationFunctionClaimRef:
     sourceReturnCondition?:
@@ -221,5 +221,5 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
 
 Project-local use keeps two separate fields. `@Project` remains a compatibility and retrieval cue only. If the frame is used in one actual project, `projectWorkOccurrenceRef` names the exact composite `U.Work` and `architectureCorrespondenceFrameProjectUseRelationRef` names the direct relation by which that Work uses the frame. The frame, synthesis Work, candidates, architecture relations, claims, selected structures, and project Work remain distinct. An `ArchitectureRelation` ref is affirmative only for an independently obtaining C.30 occurrence; candidate, required, desired, or expected architecture content stays in an `ArchitectureClaim` and cannot enter an exact pair row as though it already obtained.
 
-`TransformerTransformedArchitectureCorrespondenceFrame@Project` and the former title “Transformer and Transformed Architecture Correspondence” are lineage and search cues only. They do not name the current Tech object, make any named value an actor, or establish an actor, role, Work, or participation fact.
+`TransformerTransformedArchitectureCorrespondenceFrame@Project` and the former title “Transformer and Transformed Architecture Correspondence” are lineage and search cues only. They do not name the current Tech object, make any named value an actor, or establish an acting-system, system-role-kind, assignment, Work, or participation fact.
 

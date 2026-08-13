@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_invariants.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:5 — Invariants"
-line_start: 92381
-line_end: 92397
+line_start: 93153
+line_end: 93169
 dependencies:
   - "A.11"
   - "A.15"
@@ -21,8 +21,10 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.7"
   - "A.8"
+  - "C.11"
   - "C.2.1"
   - "C.3"
   - "E.10"
@@ -50,6 +52,7 @@ keywords:
   - "minting new U-kinds"
   - "parsimony"
   - "reuse"
+  - "role-shaped names"
   - "type explosion"
 ---
 
@@ -60,13 +63,13 @@ keywords:
 3. **Lightest sufficient result.** Local phrase, existing designation, alias, direct-pattern name, and admitted row reuse are tried before a cell, NameCard, new row, policy identifier, or U-kind candidate.
 4. **Reuse preserves identity.** Reuse cannot change kind, scope, occurrence identity, local-sense claim, admitted use, or authority.
 5. **Local senses do not globalize.** Reusing a designation under one effective ReferenceScheme establishes neither sameness with another cell nor an F.9 Bridge.
-6. **Role names are work-facing.** A role name or RoleDescription label points to an independently recovered work-facing `U.Role`; status, evidence, access, source, publication, requirement, assurance, gate, decision, policy, and relation-position uses remain direct-pattern values.
-7. **Role assignment and Work are not naming.** A name, decision result, NameCard, cell, row, or identifier neither assigns a holder nor demonstrates performed Work.
+6. **System-role-kind names are work-facing.** Such a name or `SystemRoleKindDescription` label points to an independently recovered context-local `U.Kind` for `U.System` candidates; status, evidence, access, source, publication, requirement, assurance, gate, decision, policy, and relation-position uses remain direct-pattern values.
+7. **System-role assignment and Work are not naming.** A name, decision result, NameCard, cell, row, or identifier neither assigns a system nor demonstrates performed Work.
 8. **Rows stay within admitted use.** F.8 may reuse an F.17 row only at its declared use and gains no equivalence from the row.
-9. **Decision occurrence and description stay distinct.** A C.2.1 result episteme or displayed record can describe a separately identified decision occurrence but cannot perform it.
+9. **Decision occurrence and description stay distinct.** Ordinary F.8 use creates no durable decision object. When a direct pattern has admitted an exact decision or choice occurrence, a C.2.1 result episteme or displayed record may describe it but cannot perform it; absent that predicate, participants, applicability, and identity rule, return `missing-governor`.
 10. **Naming objects stay distinct.** Governed value, designation, alias, cell, basis relation, NameCard, row, identifier, publication occurrence, form, carrier, and currentness relation imply none of the others.
 11. **Selected structure is conditional.** A bounded-model-use Structure is cited only when independently selected organization changes interpretation for this exact use; it is not a generic locality or identity slot.
 12. **New U-kind candidates are rare.** Cross-family recurrence, irreducibility, `E.24.UK` admission, and accepted decision basis are necessary; F.8 itself admits no U-kind.
-13. **Policy identifiers are resolvable.** A policy identifier remains distinct from its policy specification, mint decision occurrence, and decision-result episteme or record.
+13. **Policy identifiers are resolvable.** A policy identifier remains distinct from its policy specification, the exact independently admitted mint decision or choice occurrence when one is required, any C.11 result, any decision-making Work, and the decision-result episteme or record.
 14. **Labels grant no authority.** Source titles, review labels, suffixes, rows, records, and identifiers create no ontology, evidence, status, equivalence, permission, or publication authority.
 

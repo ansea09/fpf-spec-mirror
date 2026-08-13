@@ -6,12 +6,12 @@ section_id: "F.15:13.6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__016_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13.6 — Bias-Annotation"
-line_start: 95377
-line_end: 95380
+line_start: 96161
+line_end: 96164
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,5 +50,5 @@ keywords:
 
 ### F.15:13.6 - Bias-Annotation
 
-F.15 blocks unification bias: shared spelling, table membership, a stable id, an earlier pass, a Bridge description, or a NameCard is not common meaning or continuity proof. It also blocks harness-authority bias: the record does not perform the check, create a result, turn witnesses into evidence use, publish itself, or absorb a failed role, status, relation, work, evidence, assurance, or naming claim.
+F.15 blocks unification bias: shared spelling, table membership, a stable id, an earlier pass, a Bridge description, or a NameCard is not common meaning or continuity proof. It also blocks harness-authority bias: the record does not perform the check, create a result, turn witnesses into evidence use, publish itself, or absorb a failed system-role-kind, assignment, status, relation, work, evidence, assurance, or naming claim.
 

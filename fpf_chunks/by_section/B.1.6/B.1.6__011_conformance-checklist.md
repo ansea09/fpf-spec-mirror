@@ -6,12 +6,12 @@ section_id: "B.1.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__011_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:7 — Conformance Checklist"
-line_start: 37007
-line_end: 37020
+line_start: 37215
+line_end: 37228
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,5 +64,5 @@ keywords:
 | CC-B1.6-6 | A.10/G.6 provenance and G.11 currentness remain separate from measurement and aggregation results. |
 | CC-B1.6-7 | Planned values and A.15.5 resource readiness are not presented as measured performed-work aggregation. |
 | CC-B1.6-8 | A ledger, policy, profile, clause, citation, dashboard, or graph edge establishes none of work, participation, measurement, part/overlap, aggregation, or result identity. |
-| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification, or decision claim names its exact direct owner. |
+| CC-B1.6-9 | Any yield, efficiency, comparison, assurance, transformation, whole-reidentification, or decision claim names its exact subject pattern. |
 

@@ -6,12 +6,12 @@ section_id: "C.2.1:12"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:12 — Common Anti-Patterns and How to Avoid Them"
-line_start: 41608
-line_end: 41624
+line_start: 41831
+line_end: 41847
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -66,6 +66,6 @@ keywords:
 | Edition by filename | `v2` or a later timestamp is taken as epistemic succession. | Recover the two episteme identities, then test edition continuity through identified revision work, source-to-revision use, enacted-method semantics, and actual change facts. A first-existence premise, when genuinely consumed, follows the shared 4.9 boundary rather than the filename. |
 | Published-episteme kind | Temporary participation in publication is treated as a second durable episteme kind. | Keep the episteme identity and state the exact publication occurrence; use Plain `published episteme` only for that contingent use. |
 | View as formatting, generation, or publication | A filtered table, diagram, query result, or published face is called a view because of appearance, construction history, or carrier, and a heading or edge is treated as cross-view correspondence. | Identify the receiving episteme under C.2.1 and apply `E.17.0` conformance for `U.View` membership. Add A.6.3 only for an actual source-to-receiving construction. Apply the exact direct subject-relation governor to correspondence; if none is recoverable, return an exact blocker naming the participants, required predicate and use, and missing governor. |
-| Bridge as use verdict | An obtaining Bridge, its predicate profile, or a card is treated as proving that one comparison, translation, publication, or other use is suitable, authorized, or already performed. | Keep the Bridge under F.9. State the proposed use in a separate ordinary C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity; recover A.10 or B.3 reliance and any actual receiving object under their direct owners. |
+| Bridge as use verdict | An obtaining Bridge, its predicate profile, or a card is treated as proving that one comparison, translation, publication, or other use is suitable, authorized, or already performed. | Keep the Bridge under F.9. State the proposed use in a separate ordinary C.2.1 assertion with the Bridge as EntityOfConcern and `<u,d,r,t>` plus polarity; recover A.10 or B.3 reliance and any actual receiving object under their subject patterns. |
 | Mathematical identity leak | A tuple key or graph node identity becomes episteme identity. | Keep C.29 representation identity separate and use the C.2.1 identity triple. |
 

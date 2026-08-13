@@ -6,12 +6,12 @@ section_id: "A.2.6:6"
 section_title: "Normative Definitions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__008_normative-definitions.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:6 — Normative Definitions"
-line_start: 4881
-line_end: 5091
+line_start: 5061
+line_end: 5271
 dependencies:
   - "A.1.1"
   - "A.15.1"
@@ -130,9 +130,9 @@ For every governed-reference argument, record presence, citation, or a compatibl
 
 A missing or non-affirmative use claim, a non-passing A.10 disposition, or a B.3 no-assurance-claim, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked disposition stops or narrows the receiving use without changing membership truth or the Bridge. An A.10 pass or positive B.3 assurance claim supports reliance only for its named use; neither is legal, policy, or deontic authorization, and neither proves that a derivation application or another receiving object occurred. Any required authorization remains under its direct governor. The receiving use also names its exact `U.ClaimScope`, selected time when current, selected `CHR:ReferencePlane` only when plane-dependent, and derivation-specific conditions. `GammaTimePolicy` enters only when time changes membership; `ReferencePlane` is absent from ordinary set algebra.
 
-**`ScopeDerivationMechanism` SignatureManifest (optional).** When dependency replay needs it, name the actual imported or provided declarations for `U.Scope` and, for translation, the exact F.9 Bridge declaration and C.2.1 claim identity rules. The independence basis, particular Bridge, and particular scope-translation claim are application arguments, not declaration-manifest entries by adjacency. `scopeTranslationClaim` is only this declaration's argument label; it names no public claim kind. A.10 and B.3 reliance objects remain under their direct owners rather than becoming a common mechanism signature.
+**`ScopeDerivationMechanism` SignatureManifest (optional).** When dependency replay needs it, name the actual imported or provided declarations for `U.Scope` and, for translation, the exact F.9 Bridge declaration and C.2.1 claim identity rules. The independence basis, particular Bridge, and particular scope-translation claim are application arguments, not declaration-manifest entries by adjacency. `scopeTranslationClaim` is only this declaration's argument label; it names no public claim kind. A.10 and B.3 reliance objects remain under their subject patterns rather than becoming a common mechanism signature.
 
-**`ScopeDerivationMechanism` neighboring objects.** A derivation can occur within dated calculation work governed by A.15.1. Its bound independence-basis episteme, Bridge, and C.2.1 scope-translation claim retain their own identities and direct governors. The exact A.10 relation and disposition or B.3 claim and record govern reliance on the use claim; they are neither mechanism arguments nor results. The returned `U.Scope` is independently identified by its extension; neither the application nor its C.29 formula constitutes it. Evidence, publication, gate, assurance, and any downstream Work, assertion, relation, or publication occurrence remain with their direct owners. None of those objects, nor another derivation invocation, reidentifies this mechanism unless it reveals changed declaration content.
+**`ScopeDerivationMechanism` neighboring objects.** A derivation can occur within dated calculation work governed by A.15.1. Its bound independence-basis episteme, Bridge, and C.2.1 scope-translation claim retain their own identities and direct governors. The exact A.10 relation and disposition or B.3 claim and record govern reliance on the use claim; they are neither mechanism arguments nor results. The returned `U.Scope` is independently identified by its extension; neither the application nor its C.29 formula constitutes it. Evidence, publication, gate, assurance, and any downstream Work, assertion, relation, or publication occurrence remain with their subject patterns. None of those objects, nor another derivation invocation, reidentifies this mechanism unless it reveals changed declaration content.
 
 **`ScopeDerivationMechanism` refinement or conservative extension.** A refinement preserves the inherited derivation operations, argument and result meanings, binding rules, application predicates, identity and extent, and the intersection, `SpanUnion`, and translation semantics while stating every strengthened law or admission condition. A conservative extension adds exact optional arguments, results, or operations without changing those inherited meanings or admitted uses.
 

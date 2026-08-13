@@ -6,12 +6,12 @@ section_id: "C.19:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__013_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:7 — Conformance Checklist"
-line_start: 49979
-line_end: 49998
+line_start: 50231
+line_end: 50250
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -50,7 +50,7 @@ keywords:
 - **C19-2** The characteristic set and indicators used for dominance **MUST** be declared and eligibility conditions applied first. If use-value participates in current `Q`, the record cites the C.16.Q `QS.UseValue` objective head in that Q; otherwise it states that the criterion remains outside Q. *(References to C.18 generator operators are descriptive only; LOG exports no Γ.)*
 - **C19-3** If a lens is used, its id MUST be recorded; do not label scalarized top-1 as "frontier".
 - **C19-4** Promotion of `Surprise` or `Illumination` into dominance MUST be explicit in policy.
-- **C19-5** A pool-policy record creates no role state, assignment, permission, plan, budget, or work occurrence. When implementation follows, cite the independently obtaining context/scope and role or assignment gates plus the direct planning or Work governor; C.19 establishes none of them.
+- **C19-5** A pool-policy record creates no `SystemRoleAssignmentStateRelation`, system-role assignment, permission, plan, budget, or Work occurrence. When implementation follows, cite the independently obtaining context and scope, exact system-role-kind classification, assignment or assignment-state condition, and direct planning or Work pattern; C.19 establishes none of them.
 - **C19-6** Each pool-treatment lens **MUST** document the pipeline `Eligibility (ConstraintFit=pass) → Dominance (declared set) → Tie-breakers (declared)`. Any promotion of `Surprise` or `Illumination` into the dominance set **MUST** be named by lens or policy id and recorded in provenance.
 - **C19-7 (LEX-AUTH trigger).** When a context adopts or changes an `EmitterPolicy` profile that includes domain-family quotas or a sampler, or changes `DescriptorMap` family coordinates, `DistanceDef`, or a `δ_family` threshold, author that context-local change via **E.15 LEX-AUTH**. C.19 establishes no default heterogeneity quota or sampler. Any resulting **LAT** lives in the relevant LAT and evidence authority; the DRR need only carry the content decision itself plus any decisive evidence or validation consequence by value when that consequence materially shaped the choice (see **CC-DRR.6**). Record policy and card ids in SCR.
 

@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:9 — Consequences"
-line_start: 44575
-line_end: 44581
+line_start: 44797
+line_end: 44803
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -46,7 +46,7 @@ keywords:
 ### C.2.P.DR:9 - Consequences
 
 - FPF can keep useful graph, path, query, table, dashboard, publication, and pattern-relation vocabulary without banning ordinary words.
-- The repair blocks hidden authority, release, gate, evidence, method, mechanism, work, and pattern-dispatch claims by requiring the governing pattern named by value.
-- Method and mechanism claims become easier to compose because `E.10.ARCH:3.1` keeps separately recovered values connected only by the exact direct relations and participant meanings supplied by their owners, without treating source labels as alternate ontology.
+- The repair blocks hidden authority, release, gate, evidence, method, mechanism, work, and pattern-dispatch claims by requiring the subject pattern named by value.
+- Method and mechanism claims become easier to compose because `E.10.ARCH:3.1` keeps separately recovered values connected only by the exact direct relations and participant meanings supplied by their subject patterns, without treating source labels as alternate ontology.
 - The cost is a small recovery note when representation wording is actually carrying FPF-governed use. Ordinary navigation, source quotation, and already-governed graph or evidence paths do not need the note.
 

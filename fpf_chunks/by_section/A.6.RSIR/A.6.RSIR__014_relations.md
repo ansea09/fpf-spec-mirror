@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:12 — Relations"
-line_start: 17363
-line_end: 17378
+line_start: 17591
+line_end: 17606
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "F.18"
@@ -41,25 +42,22 @@ keywords:
   - "API"
   - "RelationSignature"
   - "SlotSpec"
-  - "actual participant"
-  - "assertion or description designation"
+  - "ambiguous role wording"
   - "direct relation participant"
-  - "exact operation application and binding"
   - "interface"
-  - "operation argument or result declaration"
+  - "operation declaration and binding"
   - "participant meaning"
   - "port"
   - "reduced-use source label"
   - "relation-signature-interface-role-slot recovery"
-  - "representation position and correspondence"
-  - "role"
-  - "role assignment"
-  - "shadow ontology"
+  - "representation position"
+  - "system-role assignment"
+  - "system-role kind"
 ---
 
 ### A.6.RSIR:12 - Relations
 
-`E.10` detects trigger wording. `E.10.ARCH` states that RSIR is the first-level restoration pattern for this bounded cluster when the direct governing pattern is not already clear.
+`E.10` detects trigger wording. Bare claim-bearing *role* continues through `E.10.ROLE`, which returns here only for a direct-relation, declaration, interface, operation, or representation branch. `E.10.ARCH` places both entries in the shared restoration architecture.
 
 `A.6.5` governs complete declaration-local `SlotSpec = <SlotKind, ValueKind, refMode>` content inside one exact `RelationSignature` and, only when a compatible `SlotSpec` is current, participant-designation typing. `C.2.1` still governs the assertion or description episteme's identity and content, and the direct claim family governs predicate, polarity, and use. An ordinary assertion may designate actual participants directly without reusable declaration.
 
@@ -67,7 +65,7 @@ keywords:
 
 `A.6.0` governs `U.Signature`; `A.6.1` governs operation argument and result declaration content plus any independently identified exact application and declaration-local binding; `E.20` governs mechanism introduction. A.6.1 admits no public `OperationApplication` U-kind or universal input/output/result relation, and its result binding alone establishes none of production, a produced entity, a result episteme, evidence, or work.
 
-`A.2`, `A.2.1`, `A.2.2`, `A.2.5`, `A.2.7`, `A.15`, and Part F role-description and naming patterns govern role, role assignment, capability, role state, role relation structure, role-method-work, and durable role-name claims.
+`A.2`, `A.2.1`, `A.2.2`, `A.2.5`, `A.2.7`, `A.15`, and Part F system-role-description and naming patterns define or constrain local system-role kinds, direct system-role assignments, capability, `SystemRoleAssignmentStateRelation`, `SystemRoleKindRelationStructure`, system-role–Method–Work alignment, and durable system-role-kind names.
 
 `A.6.M`, `A.6.F`, `A.6.A`, `A.3.4.P`, `E.18`, `C.30`, `C.30.ASV`, `C.30.AD`, and `C.30.TFS-REL` govern module-interface, functional, affordance, transformation, transformation-flow, architecture-of, structural-view, and architecture-description cases.
 

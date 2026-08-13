@@ -6,12 +6,12 @@ section_id: "E.24.CD:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:intro — Intro"
-line_start: 88677
-line_end: 88682
+line_start: 89381
+line_end: 89386
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,6 +39,7 @@ dependencies:
   - "C.3.2"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17.0"
   - "E.18.1"
   - "E.23"

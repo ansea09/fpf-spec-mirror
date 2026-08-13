@@ -6,12 +6,12 @@ section_id: "B.1.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:2 — Problem"
-line_start: 35760
-line_end: 35770
+line_start: 35962
+line_end: 35972
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,7 @@ Without B.1.2:
 
 1. **Boundary by drawing.** A box in a diagram is accepted as system delimitation.
 2. **External relations become parts.** Suppliers, grids, sensors, controllers, teachers, measuring instruments, or digital twins are placed inside the system because they interact with it.
-3. **Functional and physical structures collapse.** A resistor symbol, control function, chassis function, or service role is treated as a physical component by label.
+3. **Functional and physical structures collapse.** A resistor symbol, control function, chassis function, or service label is treated as a physical component by name alone.
 4. **Whole-level characteristics lack grounding.** Mass, capacity, reliability, safety, throughput, assurance, or agency-like characteristics are rolled up without saying which bearers, relations, and scales support the claim.
 5. **Transformation becomes containment.** A tool, teacher, actuator, script, or controller changes a holon and is then treated as its part or containing whole.
 6. **Coordination record becomes ontology.** One aggregate-shaped record silently creates systemhood, parts, boundary, crossings, allocation, evidence, and representation instead of pointing to independently governed facts.

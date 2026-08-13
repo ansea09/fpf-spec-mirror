@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:1 — Problem frame"
-line_start: 6518
-line_end: 6523
+line_start: 6709
+line_end: 6714
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -36,5 +36,5 @@ keywords:
 
 Permission-looking language often compresses unlike values. “No rule forbids it” may be an incomplete search result. “The permit allows it” may refer to a document, an issuing act, or an enduring relation. “We used the permit” may mean only that a badge was visible, while no matching work occurred. A green gate can also look as if it defeated a current prohibition.
 
-The governed concern is the smallest exact permission result needed for one beneficiary, action specification, context, scope, and window. The act, permit episteme, publication carrier, evidence relation, admissibility predicate, readiness relation, gate decision, actual work, and work result keep their direct owners.
+The governed concern is the smallest exact permission result needed for one beneficiary, action specification, context, scope, and window. The act, permit episteme, publication carrier, evidence relation, admissibility predicate, readiness relation, gate decision, actual Work, and work result remain distinct and are handled under their respective subject patterns.
 

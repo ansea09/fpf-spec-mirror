@@ -6,12 +6,12 @@ section_id: "E.9:4"
 section_title: "Solution — state the decision before distributing it"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__008_solution-state-the-decision-before-distributing-it.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:4 — Solution — state the decision before distributing it"
-line_start: 73041
-line_end: 73207
+line_start: 73487
+line_end: 73653
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -135,7 +135,7 @@ hardening`, `if later touched`, `watch later`, or one equivalent
 placeholder is non-conforming there because it marks one unmade current
 decision rather than one explicit current disposition.
 
-When decision grounds expose a potentially reusable non-pattern carrier or neighboring source-use, evidence, assurance, validation, or architecture-decision mechanism, the selected-answer result must classify it as generalized now, kept local with reason, rejected, or outside the decision with a named owner. The DRR records that disposition; mere mention of an existing artifact is not the deciding work or result.
+When decision grounds expose a potentially reusable non-pattern carrier or neighboring source-use, evidence, assurance, validation, or architecture-decision mechanism, the selected-answer result must classify it as generalized now, kept local with reason, rejected, or outside the decision with a named pattern, selected non-pattern FPF kind-reference pair, or decision record. The DRR records that disposition; mere mention of an existing artifact is not the deciding work or result.
 When one selected answer involves source-loss mode, simplification, redaction,
 summarization, or other declared loss, the DRR must make the admissible-use template explicit by value. Explanation alone is not enough; the decision
 must say what remains preserved, what is dropped, which branch reading is admissible and which selected non-pattern FPF kind-reference pair carries it, which uses lack an admissible carrier or evidence path, what recoverability class
@@ -150,7 +150,7 @@ rather than one accepted design-rationale record.
 
 The DRR episteme lives **outside** normative Core. A separately governed acceptance, authority, or realization decision may rely on it, but the word *accepted*, a record status, review mark, or publication does not make its claims true or authorize change.
 
-When the selected answer is separately authorized for realization, dated authoring work applies it to the selected patterns or selected non-pattern Core kind-reference pairs. The changed Core content, authoring work, result claims, checks, witnesses, publications, and any landing/release record keep their direct owners. The DRR remains external provenance and temporary convergence support; it must not remain the sole carrier of enduring semantics after those semantics are realized in Core.
+When the selected answer is separately authorized for realization, dated authoring work applies it to the selected patterns or selected non-pattern Core kind-reference pairs. The changed Core content, authoring work, result claims, checks, witnesses, publications, and any landing or release record remain distinct; apply the relevant pattern to each claim. The DRR remains external provenance and temporary convergence support; it must not remain the sole carrier of enduring semantics after those semantics are realized in Core.
 
 Authors using a separately accepted selected answer may elaborate examples, SoTA-Echoing, recognition sections, local wording, and neighboring fit inside its declared stability boundary. A change to the selected answer, selected loci, outside boundary, reusable-content disposition, or loss/recoverability regime requires a successor decision result and DRR episteme rather than a silent edit to downstream prose.
 
@@ -195,7 +195,7 @@ The DRR names:
 - the current FPF pattern, section, or accepted `DRR` that already carries the method, if any;
 - the remaining delta that current FPF does not yet carry;
 - the selected FPF pattern chosen to carry that delta;
-- process-control material excluded from FPF pattern prose, such as role dispatch, seam state, helper behavior, Git recovery, packet transport, review transport, chat cadence, and mutable release state;
+- process-control material excluded from FPF pattern prose, such as task dispatch, seam state, helper behavior, Git recovery, packet transport, review transport, chat cadence, and mutable release state;
 - the source-use result for that passage or decision-ground item: quote named by value, narrowed scope, instantiated case, decision-bearing use, draft-guidance source, example-only use, or retired source use;
 - any meaning loss or addition created by that source-use result: changed scope, relation, evidence path, admissible use, non-admissible use, reader use, or recoverability condition;
 - the first improved FPF use that the admitted method gives to an author, reviewer, or downstream FPF user;

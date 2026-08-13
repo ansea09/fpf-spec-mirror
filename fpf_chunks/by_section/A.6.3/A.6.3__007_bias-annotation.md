@@ -6,12 +6,12 @@ section_id: "A.6.3:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
   - "A.6.3:6.1 — Bias-Annotation"
-line_start: 13507
-line_end: 13510
+line_start: 13731
+line_end: 13734
 dependencies:
   - "A.6.0"
   - "A.6.2"

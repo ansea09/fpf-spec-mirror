@@ -6,12 +6,12 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:6 — Worked Cases"
-line_start: 3484
-line_end: 3525
+line_start: 3651
+line_end: 3696
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,7 +30,7 @@ keywords:
 
 #### A.2.2:6.1 - Manufacturing Cell
 
-`RobotArm_A` is the admitted holder in one exact assignment occurrence with `WelderRole`, `FactoryProductionRoles-2026`, and `Factory-Line-B-Role-Scheme`; the assignment's actual extent follows uninterrupted obtaining for those four fixed participants. A separate work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains. The assignment says only that the holder system holds that role under the named taxonomy and scheme during its extent; it proves neither permission, ability, action, nor performed work.
+`WeldingShiftAssignment` is a declared species under `U.SystemRoleAssignment`. Its signature defines the holder and assigned-kind participant meanings and uses `WelderSystemRole` as the local assigned-kind domain; it adds another participant only if that participant changes the assignment predicate or occurrence identity. One occurrence has `RobotArm_A` as holder and lasts while the predicate obtains without interruption for the same participants. A taxonomy episteme, reference scheme, interval description, or generic context may interpret the assertion but is not another assignment participant. A separate Work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains. The assignment proves neither permission, ability, action, nor performed Work.
 
 The capability instance is separate; a statement or record may describe it:
 
@@ -46,11 +46,15 @@ SupportAndUseReferencesAroundCapability:
   evidenceOrSourceUse: latest welding test report and calibration source relation
 ```
 
-If a method step requires `WelderRole` and bead width tolerance below 0.2 mm, the role assignment and the capability are both checked. The assignment does not supply the tolerance, and the capability does not assign the robot to the shift.
+If a Method step requires an obtaining `WeldingShiftAssignment` whose local kind is `WelderSystemRole` and bead-width tolerance below 0.2 mm, the assignment and capability are both checked. The assignment does not supply the tolerance, and the capability does not assign the robot to the shift.
 
-**Shared boundary case — Robot-7 possesses an inspection algorithm.** `RoleAssignment-17` has four exact participants: admitted holder system `Robot-7`, `InspectorRole`, `MaintenanceRoles-2026`, and `Maintenance-Scheme-A`; its separately described extent covers the candidate inspection interval. `Robot7-TurbineInspectionCapability-2026` is the holder-dependent capability instance for turbine-inspection work within its declared sensor, calibration, input, measure, and qualification bounds. A statement that Robot-7 "possesses inspection algorithm A" does not by itself identify that capability instance, an exact Method, a deployed-software relation, or a method-description episteme. Dispatch the phrase by claim: use A.2.2 only for the bounded ability; A.3.1 for exact `TurbineInspection@Maintenance-2026 : U.Method`; a direct deployed-software or possession relation when that is the actual claim; and A.3.2 for candidate episteme `TurbineInspectionProcedure-v3` only after its exact `EntityOfConcern` resolves to that Method and one substantive claim says how it is done.
+**Shared boundary case — Robot-7 possesses an inspection algorithm.** `InspectionReleaseAssignment` is a declared species under `U.SystemRoleAssignment`; its signature defines the holder and assigned-kind participant meanings and uses `InspectorSystemRole` as the local assigned-kind domain. Occurrence `InspectionAssignment-17` has `Robot-7` as holder and `InspectorSystemRole` as assigned-kind value. This simple species declares no taxonomy, reference-scheme, generic-context, or interval participant. An assertion about the occurrence may cite `MaintenanceRoles-2026`, `Maintenance-Scheme-A`, and the candidate inspection interval as interpretation and description content.
 
-Assignment and capability still do not prove execution. If `InspectionWork-17` actually occurs, Robot-7 is the actor and performs it under `RoleAssignment-17` through F.6 `performedUnderAssignment(InspectionWork-17, RoleAssignment-17)`; the Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `InspectorRole`, the capability instance, the possession phrase, the Method, and `TurbineInspectionProcedure-v3` do not act or perform the inspection.
+`Robot7-TurbineInspectionCapability-2026` is the separate holder-dependent capability instance for turbine-inspection Work within its declared sensor, calibration, input, measure, and qualification bounds. A statement that Robot-7 “possesses inspection algorithm A” does not by itself identify that capability instance, Method `TurbineInspection@Maintenance-2026`, a deployed-software relation, or a MethodDescription episteme.
+
+Dispatch the phrase by claim: use A.2.2 only for the bounded ability; A.3.1 for the Method; a deployed-software or possession relation when that is the claim; and A.3.2 for candidate episteme `TurbineInspectionProcedure-v3` only after its `EntityOfConcern` resolves to that Method and one substantive claim says how it is done.
+
+Assignment and capability still do not prove execution. If `InspectionWork-17` actually occurs, admitted System `Robot-7` performs it under `InspectionAssignment-17` through F.6 `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)`; the Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `InspectorSystemRole`, the assignment, capability instance, possession phrase, Method, and `TurbineInspectionProcedure-v3` do not act or perform the inspection.
 
 #### A.2.2:6.2 - Software Service as Deployed System
 
@@ -62,7 +66,7 @@ The algorithm paper and method description are not the capability. The deployed 
 
 `FinanceDept` can close books for eight legal entities under IFRS with ERP v12, staffing at or above six qualified people, and close duration below five business days. That is a capability of the organizational system.
 
-The monthly-close service promise is a promise content claim. The actual close for March 2026 is performed work. Staff assignments and role states are neighboring role claims. The capability instance keeps the ability of the department visible and measurable; the management report describing it is a statement about that instance.
+The monthly-close service promise is a promise-content claim. The actual close for March 2026 is performed Work. Staff assignments and their `SystemRoleAssignmentStateRelation` occurrences are neighboring claims. The capability instance keeps the department's ability visible and measurable; the management report describing it is an episteme about that instance.
 
 #### A.2.2:6.4 - Episteme Anti-Case
 

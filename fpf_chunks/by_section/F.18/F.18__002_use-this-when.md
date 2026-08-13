@@ -6,12 +6,12 @@ section_id: "F.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:0 — Use This When"
-line_start: 96761
-line_end: 96773
+line_start: 97757
+line_end: 97769
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,12 +47,12 @@ keywords:
 
 Use `F.18` when a name must become stable, public, Core-facing, reusable across contexts, or durable enough that later work can cite it without guessing. Typical cases:
 
-- a local expression becomes a durable name for a role, relation, slot, method, work, characteristic, status value, architecture element, or other already governed value;
+- a local expression becomes a durable name for a system-role kind, relation, slot, method, work, characteristic, status value, architecture element, or other already governed value;
 - two teams use different words for the same candidate sense and need one reusable term plus preserved local wording;
 - one tempting head word is useful in one context but misleading in another;
-- a role-derived, method-derived, status-like, evidence-like, interface-like, or slot-like name risks creating a second ontology by wording alone.
+- a system-role-derived, method-derived, status-like, evidence-like, interface-like, or slot-like name risks creating a second ontology by wording alone.
 
-First useful move: recover the exact governed object or governed value before choosing the name. When relation-facing wording is current, distinguish a predicate-definition episteme, an admitted relation kind, an obtaining relation occurrence, a representation element, and a designator or reference; for a residual relation claim, cite the `A.6.RCD` settlement before naming. Other candidates—such as a role, method, work, characteristic, status value, architecture element, or claim-bearing episteme—stay under their direct owners rather than being forced into that relation-facing list. Then ask: under which effective by-value `U.ReferenceScheme`, by which governing pattern, for which use, and with which exact local sense is this object named? Only then decide whether a local expression is enough or a `NameCard` is needed. A public row is a later step: create one only when public, Core-facing, durable-across-context, or cross-context reuse is current and the `F.17` entry/result gate in section 4 passes.
+First useful move: recover the exact governed object or governed value before choosing the name. When relation-facing wording is current, distinguish a predicate-definition episteme, an admitted relation kind, an obtaining relation occurrence, a representation element, and a designator or reference; for a residual relation claim, cite the `A.6.RCD` settlement before naming. Other candidates—such as a system-role kind, assignment occurrence, method, work, characteristic, status value, architecture element, or claim-bearing episteme—stay under their direct patterns rather than being forced into that relation-facing list. When bare claim-bearing *role* still hides the object, use `E.10.ROLE` first. Then ask: under which effective by-value `U.ReferenceScheme`, by which direct pattern, for which use, and with which exact local sense is this object named? Only then decide whether a local expression is enough or a `NameCard` is needed. A public row is a later step: create one only when public, Core-facing, durable-across-context, or cross-context reuse is current and the `F.17` entry and result gate in section 4 passes.
 
-Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the governing pattern for the object being named. In particular, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use actually needs a reusable name beyond the local statement.
+Do not use `F.18` for one-off wording repair. If the phrase is local and not becoming a reusable name, use `E.10`, `E.10.ARCH`, `A.6.P`, `A.6.RSIR`, `C.2.P`, or the subject pattern for the object being named. In particular, say in ordinary words whether one exact Bridge is suitable for one named use; do not create a `NameCard`, public claim kind, or durable CamelCase head merely to abbreviate that C.2.1 claim. Reopen F.18 for that claim only when an independent later use actually needs a reusable name beyond the local statement.
 

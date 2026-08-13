@@ -6,12 +6,12 @@ section_id: "E.10.D2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__013_worked-examples.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:11 — Worked examples"
-line_start: 76666
-line_end: 76723
+line_start: 77311
+line_end: 77368
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,13 +46,13 @@ keywords:
 
 Each example begins with a receiving use and stops after the smallest sufficient recovery. It adds no generic description record.
 
-#### E.10.D2:11.1 - Bare role description
+#### E.10.D2:11.1 - Description of a system-role kind
 
-A method author needs readers to recognize work-facing `ChangeAuthorityRole` before checking any assignment. `ChangeAuthorityRoleDescription` is a C.2.1 episteme whose exact EntityOfConcern is that independently admitted `U.Role`, whose ClaimGraph describes its work-facing sense, and whose effective scheme is the selected role-taxonomy scheme.
+A method author needs readers to recognize work-facing `ChangeAuthoritySystemRole@OperationsReview` before checking any assignment. `ChangeAuthoritySystemRoleKindDescription` is a C.2.1 episteme whose exact EntityOfConcern is that independently admitted local system-role kind, whose ClaimGraph describes its work-facing sense, and whose effective scheme is the selected operations-review reference scheme.
 
-For an operations-review use, one E.17.0 `DescriptionContext` selects the exact operations viewpoint. The ClaimGraph may cite credential criteria, a mandate window, separation-of-duty constraints, capability expectations, and a direct role-state relation when those neighbors are current. The role does not contain the description, checklist, graph, criteria, or relation occurrence. The description admits no holder and creates no `U.RoleAssignment`.
+For an operations-review use, one E.17.0 `DescriptionContext` selects the exact operations viewpoint. The ClaimGraph may cite credential criteria, a mandate window, separation-of-duty constraints, capability expectations, and a direct `SystemRoleAssignmentStateRelation` when those neighbors are current. The system-role-kind description contains none of the assignment, checklist, graph, criteria, or relation occurrence. The description admits no holder and creates no `U.SystemRoleAssignment`.
 
-The receiving use needs recognizability, not specification force, so the practitioner stops with the description. A specification use opens only if exact checkable role claims and their checking harness are named.
+The receiving use needs recognizability, not specification force, so the practitioner stops with the description. A specification use opens only if exact checkable system-role-kind claims and their checking harness are named.
 
 #### E.10.D2:11.2 - Method description
 
@@ -96,7 +96,7 @@ A project note says, “The architecture dashboard approves the deployment role.
 * one describing-use qualification selects the exact operations viewpoint;
 * the dashboard may be a publication form, carrier, representation, or view only under the recognition rule for that exact use;
 * no checkable-claims-plus-harness basis has been named, so specification force is not admitted;
-* no gate verdict, permission relation, acting system, work-facing role assignment, or performed deployment work has been established.
+* no gate verdict, permission relation, acting system, system-role assignment, or performed deployment work has been established.
 
 If the exact E.24.PUB objects are recoverable, the admissible next sentence is that one publication occurrence makes the selected architecture-description edition available for operations discussion through a dashboard publication form borne by an exact display or file carrier. “Approves” and “deployment role” remain non-assertable until their direct governors and case facts are named. The practitioner stops there instead of replacing the original sentence with another overloaded noun.
 

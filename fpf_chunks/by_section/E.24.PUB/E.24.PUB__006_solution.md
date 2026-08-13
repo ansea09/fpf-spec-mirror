@@ -6,12 +6,12 @@ section_id: "E.24.PUB:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:4 — Solution"
-line_start: 89062
-line_end: 89183
+line_start: 89766
+line_end: 89887
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -40,7 +39,7 @@ Start with this readable publication statement:
 
 > Publication occurrence `<P>` makes episteme edition `<E>` available to the audience identified by `<A>` for the use bounded by `<U>`, through publication form `<F>` borne by presentation carrier `<C>`.
 
-The sentence names the five participant meanings without asking the user to fill a record. If it supplies the publication distinction needed by the named receiving `U.Work`, stop. If availability, identity, or a change is disputed, recover the three direct relations below.
+The sentence names the five participant meanings without asking the user to fill a record. If it supplies the publication distinction needed by the receiving use, stop. If availability, identity, or a change is disputed, recover the three direct relations below.
 
 #### E.24.PUB:4.1 - Identify the publication occurrence
 
@@ -84,7 +83,7 @@ The audience-declaration episteme identifies the audience criterion; it is not t
 
 One occurrence is reidentified by those five fixed participants and their maximal continuous interval of availability. Changing any participant yields another publication occurrence. Demonstrated loss of availability followed by restoration yields a later occurrence. Missing or stale evidence leaves current obtaining unresolved; it does not prove a gap.
 
-Publication work remains separate. Rendering, printing, uploading, indexing, or granting access can be dated `U.Work` that establishes, restores, changes, or fails to establish the publication relation. The work and its result do not become publication-relation participants.
+Rendering, printing, uploading, indexing, or granting access are publication activities. Admit one as dated `U.Work` only when its A.15.1 and F.6 account names the performer, Method, time, containing System, a covering assignment held by each performer, and the F.6 relation linking the Work to that assignment. Those facts must obtain even when a short publication sentence omits an assignment identifier that no receiving claim uses. The Work and its result remain separate from the publication-relation participants.
 
 #### E.24.PUB:4.2 - Recover expression and bearing only when needed
 
@@ -121,7 +120,7 @@ Use the smallest statement that supports the current work:
 4. **Contested expression:** open `PublicationFormExpressionRelation` and the exact view, representation, preservation, or loss pattern.
 5. **Contested carrier availability:** open `PublicationFormBearingRelation` plus the direct carrier-currentness or access pattern.
 
-Do not materialize all five levels as a standing publication card. Stop as soon as the named receiving `U.Work` can distinguish the operative object and relation.
+Do not materialize all five levels as a standing publication card. Stop as soon as the receiving use can distinguish the operative object and relation.
 
 #### E.24.PUB:4.4 - Classify the encountered form by current use
 
@@ -146,13 +145,13 @@ The answers can be jointly positive because they concern different objects or re
 - a C.29 representation stands in a declared correspondence to independently recovered objects;
 - a presentation carrier bears a publication form;
 - a publication occurrence makes one selected episteme edition available;
-- a system performs publication work and may later access or rely on the published episteme through separately governed relations.
+- a system performs publication activity and may later access or rely on the published episteme through separate direct relations; when that activity is admitted as `U.Work`, the A.15.1 and F.6 facts stated above also obtain.
 
 A designator designates and a governed reference resolves to a referent. Neither operation publishes, bears, represents, or makes the subject-side predicate obtain.
 
 #### E.24.PUB:4.6 - Keep subject patterns subject-first
 
-In a pattern about an ontic, structure, architecture, characteristic space, method, or another subject, explain the subject's identity, relations, practical problem, and solution before publication details. Add E.24.PUB only when the named work depends on distinguishing the description, selected edition, form, carrier, audience, or bounded use.
+In a pattern about an ontic, structure, architecture, characteristic space, method, or another subject, explain the subject's identity, relations, practical problem, and solution before publication details. Add E.24.PUB only when the receiving use depends on distinguishing the description, selected edition, form, carrier, audience, or bounded use.
 
 When the EntityOfConcern is itself a description episteme, the same rule applies one level up. The description stays the subject; publication of that description is a neighboring relation.
 

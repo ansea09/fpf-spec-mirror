@@ -1,31 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
 section_id: "F.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:4 — Solution"
-line_start: 91406
-line_end: 91480
+line_start: 92129
+line_end: 92207
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
+  - "C.16"
   - "C.2.1"
+  - "C.3"
+  - "C.3.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.24.UK"
   - "F.10"
   - "F.13"
@@ -39,86 +43,90 @@ dependencies:
   - "F.9"
   - "G.6"
 keywords:
-  - "U-kind naming"
-  - "lexical rules"
-  - "morphology"
-  - "naming conventions"
-  - "role-description labels"
-  - "twin registers"
+  - "Plain and Tech designations"
+  - "SystemRoleKindDescription label"
+  - "U-kind name"
+  - "local meaning"
+  - "naming after ontology recovery"
+  - "system-role-kind name"
 ---
 
 ### F.5:4 - Solution
 
-Name after meaning. For each candidate name, first recover the named value, its meaning source, and its intended use. Then choose labels that preserve that meaning.
+Name after meaning. Recover the value, its kind, direct meaning source, and intended use. Then choose designations that preserve them.
 
-For each naming decision, make the following facts recoverable in the prose, governing admission, role-description episteme, Concept-Set row, or Name Card. This is a naming checklist, not a new relation signature or mandatory record:
+Make these facts recoverable in the prose, direct admission, F.4 description, Concept-Set row, or NameCard. This is a naming checklist, not a relation signature or mandatory record:
 
 - the exact named value and its admitted kind;
 - the direct source of its meaning;
-- for a role label, the described `U.Role`, exact role-taxonomy episteme, and effective `U.ReferenceScheme`;
-- the selected Tech label and its Plain teaching gloss;
-- any aliases or previous labels with lineage;
-- the morphology, neutrality, and minimal-generality checks;
-- the neighboring-use boundary that prevents the name from absorbing assignment, capability, method, work, status, evidence, permission, publication, or relation-slot claims.
+- for a local system-role-kind designation, its bounded context, contribution identity, current `KindSignature`, and effective scheme;
+- for a description name, the separate F.4 `SystemRoleKindDescription` and its exact EntityOfConcern;
+- the selected Tech and Plain designations;
+- aliases or predecessor labels with lineage;
+- morphology, neutrality, and minimal-generality checks; and
+- the boundary that prevents the name from absorbing classification, assignment, capability, Method, Work, status, evidence, permission, responsibility, publication, or relation-position claims.
 
-#### F.5:4.1 - Name Families Governed Here
+#### F.5:4.1 - Name Families Used Here
 
 | Name family | Meaning source | Naming rule |
 | --- | --- | --- |
-| U-kind or cross-context concept name | Exact value admitted by `E.24.UK` or its direct governing pattern; a Concept-Set row may retain witness comparison and evidence but supplies neither value identity nor admission | Use a neutral Tech label at minimal generality. Do not use one witness context's private term when a neutral head exists. |
-| RoleDescription label for one `U.Role` | Role-description episteme, described `U.Role`, exact role-taxonomy episteme, effective reference scheme, and local sense | Use role-faithful morphology. Do not smuggle assignment, capability, method, work, evidence, status, permission, or publication into the label. |
-| Role-relation, role-expression, or role-method expression name | `A.2.7` role relation structure whose participating roles are interpreted through their exact role taxonomies and effective schemes, plus `A.3.1`, `A.3.2`, or `A.15` when method or work is current | Ordinary labels may name qualified role expressions or role-bundle expressions without a `Role` suffix. Hyphenation can mark a recovered factor, domain, practice, method-family qualification, or combined expression; it must not mechanically concatenate operands or hide independent assignments. |
-| Method, method-family, method relation structure, work-plan, or work name | Direct method and work patterns: `A.3.1`, `A.3.2`, `A.15`, `G.5`, and any direct method-composition pattern when current | Do not make the name a role-relation result because it shares words with role labels. Name the method value, method family, method relation structure, work plan, or work value directly and cite the role relation separately when it constrains use. |
-| Mathematical or representation lens name | Lens or representation description over a selected role relation structure, method relation structure, transformation-flow structure, or other governed structure | Name the lens only when it is the governed value. Otherwise name the recovered role relation, method relation structure, method, work, or assignment. |
-| Status, evidence, requirement, source, standard, publication, assurance, gate, or decision name | Direct governing status-use, evidence-use, source-use, publication-use, requirement-use, assurance, gate, or decision pattern | Do not treat it as a RoleDescription branch. Use `F.18` for durable naming only after the direct relation is recovered. |
-| Relation slot or argument-position name | `A.6.5` SlotSpec discipline and the governing relation or signature pattern; use an interface-governing pattern only when interface meaning is current | Name the slot as a slot or argument position, not as a `U.Role`, unless a direct role-assignment relation is truly current. |
+| U-kind or cross-context concept name | Exact value admitted through E.24.UK or its direct pattern; a Concept-Set row may retain witness comparison but supplies neither identity nor admission | Use a neutral Tech head at minimal generality. Do not let one witness's private vocabulary win by spelling alone. |
+| Concrete local system-role-kind designation | Exact C.3 kind admitted under A.2, with bounded context, contribution identity, direct criterion, and local sense | Use a concrete `...SystemRole` Tech designation. `SystemRole` is morphology, not a universal value; do not add `Kind` when `: U.Kind` is already explicit. |
+| `SystemRoleKindDescription` designation | F.4 description episteme whose exact EntityOfConcern is one local system-role kind | Name the description separately, for example `PumpInspectorSystemRoleKindDescription`; never use the description name as the kind or assignment name. |
+| Relation among system-role kinds or a system-role–Method expression | Exact relation under A.2.7 and, when current, a separately recovered Method, MethodDescription, or Work | Name the recovered relation or neighboring object. Ordinary phrasing may stay compact but must not hide independent classifications or assignments. |
+| Method, Method family, Method relation structure, WorkPlan, or Work name | A.3, A.15, G.5, and the exact composition or Work pattern | Name that object directly. Shared words with a system-role-kind label create no relation or identity. |
+| Mathematical or representation lens name | Description of a selected system-role-kind relation structure, Method relation structure, transformation-flow structure, or another governed structure | Name the lens only when the representation is itself the governed value. Otherwise name the underlying structure or relation. |
+| Status, evidence, requirement, source, standard, publication, assurance, gate, or decision name | Exact direct relation or value | Do not treat it as a `SystemRoleKindDescription` branch. Use F.18 only after the direct object is recovered. |
+| Relation slot or argument-position name | A.6.RSIR, A.6.5, and the exact relation or signature declaration | Name the participant meaning, slot, or argument position. Do not use `SystemRole` morphology unless the value is independently a local system-role kind. |
 
-For every role-facing name, keep three objects distinct: the selected label or designator `L`, the described `U.Role` value `R`, and the F.4 role-description episteme `RD`. Under the effective `U.ReferenceScheme`, `L` designates `R`; under C.2.1, `RD` has `R` as its exact EntityOfConcern and names the governing role-taxonomy episteme in its ClaimGraph. Spelling, a `Role` suffix, a NameCard, a public row, or a source citation creates none of `L`'s governed referent, `R`, `RD`, a role assignment, dated work, a result or claim-bearing episteme, provenance, or publication occurrence.
+For every system-role-facing naming use, keep these objects distinct: selected designation `L`, local system-role kind `K`, optional F.4 description episteme `D`, and any assignment occurrence `A` that the current use actually needs. Under the effective scheme, `L` designates `K`; under C.2.1, `D` has `K` as EntityOfConcern. Under A.2.1, `A` must be an occurrence whose species is declared under `U.SystemRoleAssignment`, not an occurrence admitted by a generic two-place signature. That species declares a holder slot for an admitted `U.System`, one declaration-local assigned-kind slot whose domain is the exact local system-role-kind domain containing `K`, its own predicate and applicability, its uninterrupted occurrence-identity rule, and any real additional identity-bearing participant. In `A`, the holder slot identifies the admitted holder system and the assigned-kind slot identifies `K`. If assignment identity is not part of the naming use, stop with the naming objects and say only that any assignment remains a separate A.2.1 claim; do not invent `A`. Spelling, suffix, NameCard, public row, description, or citation creates none of the other objects or any dated Work, result episteme, provenance record, or publication occurrence.
 
-#### F.5:4.2 - Tech and Plain Labels
+#### F.5:4.2 - Tech and Plain Designations
 
-Use two human-facing labels when the name is durable enough to be reused:
+Use two human-facing designations when a name is durable enough to be reused:
 
-| Label | Job | Constraint |
+| Designation | Job | Constraint |
 | --- | --- | --- |
-| Tech label | The stable label used by the local pattern, table, or role-description episteme. | Must fit the recovered kind and meaning source. |
-| Plain label | A short teaching gloss. | Must explain without widening the sense. |
-| Symbolic alias | Optional symbol or source abbreviation. | Informative only; it is not the Tech label. |
+| Tech designation | Stable label used by the local pattern, table, or description episteme | Must fit the recovered kind and exact meaning source. |
+| Plain designation | Short teaching phrase or sentence | Must point to the same value without widening the sense. |
+| Symbol or source abbreviation | Optional local notation or lineage spelling | Informative only; it is not another selected Tech or Plain designation. |
 
-For a role-description label, the Tech label may be an agentive noun, local role term, or role phrase such as `ReviewerRole`, `PumpInspectorRole`, `Participant`, or `Approver`. The suffix `Role` is a disambiguator, not a universal law. Use it when it prevents confusion with a status, method, work occurrence, organization unit, publication, or access-policy term. Do not add it merely to make the name look formal.
+For a concrete local system-role kind, the Tech designation normally ends in `...SystemRole`, for example `ReviewerSystemRole` or `PumpInspectorSystemRole`. The Plain designation may remain ordinary, for example “reviewer” or “pump inspector”, when context makes the intended kind clear. Add “system role” only when it prevents a live neighboring reading. The compound does not imply non-human technical systems, kind admission, candidate classification, assignment, agency, capability, Method, or Work.
 
-For a coupled role-method label, recover the role expression and the method value or work value separately before naming. `RoboticsEngineerRole` may be a durable Tech label for a robotics-qualified engineering role value. `RobotEngineeringMethod` names a method or method family. The ordinary label "engineer-roboticist" can be useful when the role taxonomy, effective scheme, and method relation make the coupled meaning recoverable, but it must not replace the method description or work description.
+For the description episteme, name the description rather than the described kind: `PumpInspectorSystemRoleKindDescription` may have Plain designation “description of the pump-inspector system-role kind”. `SystemRoleKindDescription` identifies the construction; `Kind` identifies the EntityOfConcern and `Description` already identifies the episteme.
 
-For a U-kind, the Tech label should be neutral enough that no witness context wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, a Concept-Set row can preserve that comparison, but the selected head is admissible only when `E.24.UK` or the direct governing pattern has already admitted the exact shared value and invariants. The row, a source title, or the selected spelling does not perform admission.
+For a coupled system-role–Method phrase, recover the local kind and Method separately before naming either one. Recover and name a MethodDescription, WorkPlan, or dated Work only when that exact object is already admitted and the naming use consumes it; a shared phrase does not require any of them to exist. `RoboticsEngineerSystemRole` may designate one admitted local kind; `RobotEngineeringMethod` names a Method or Method family. Ordinary *engineer-roboticist* may remain the Plain expression for the local kind when the context and criterion are recoverable. It replaces neither a qualifying MethodDescription nor any description of planned or performed Work.
+
+When a later naming use actually consumes one dated Work identity, F.5 receives rather than constitutes it. The admitting claim must already recover the performer System, exact semantic Method, time, containing System, the assignment occurrence that covers the Work and its declared species, equality of performer and assignment holder, and the F.6 performed-under-assignment relation. Otherwise keep the activity in ordinary wording and do not mint a Work identifier merely to support a name.
+
+For a U-kind, the Tech designation should be neutral enough that no witness wins by vocabulary alone. If witnesses disagree between `Observation`, `Reading`, and `MeasurementResult`, a Concept-Set row preserves the comparison; E.24.UK or the direct pattern must still admit the exact shared value and invariants before F.5 chooses a name.
 
 #### F.5:4.3 - Positive Naming Rules
 
-Use these rules when choosing or checking a name.
-
-1. **Recover kind first.** State whether the named value is a U-kind, `U.Role`, role-description episteme, role-relation expression, method, work, status-use value, evidence-use relation, relation slot, lens description, or another named kind.
-2. **Recover meaning source.** Use the exact `E.24.UK` or direct-pattern admission for a U-kind, retaining any Concept-Set row only as witness-comparison evidence; use the role-description episteme, described `U.Role`, exact role-taxonomy episteme, and effective reference scheme for role labels; use `A.2.7` for role-relation expressions; use `A.3.1`, `A.3.2`, `A.15`, `G.5`, or a direct method-composition pattern for method, method-family, method relation structure, or work names; use the direct governing pattern for statuses, evidence, source, requirement, publication, assurance, gate, decision, and relation slots.
-3. **Use minimal generality.** The name's scope stays no wider than the admitted invariants.
-4. **Keep interpretation metadata out of the label string.** Edition, source, witness, role taxonomy, and effective reference scheme belong in their governing admission, Concept-Set row, role-description episteme, reference-scheme relation, or Name Card, not inside the main label.
-5. **Make morphology kind-sensitive.** Agentive role names fit work-facing roles. State or level forms fit statuses. Verbal or gerund forms fit methods only when the method pattern admits them. Slot names should say `Slot`, `Argument`, `Endpoint`, or another declared slot or position head when current.
-6. **Keep coupled role-method names typed.** A phrase like "engineer-roboticist" may be the ordinary label for a qualified role expression; "robot engineering" may be a method or work name. Do not make one label carry holder assignment, role value, method, work, and capability at once.
-7. **Do not encode thresholds or windows in the name.** Put time, state, threshold, capability envelope, or admission window in the governing pattern.
-8. **Use aliases only with lineage.** A source term, previous term, symbol, or translation can be an alias; it does not create a second Tech label.
-9. **Escalate when reuse becomes public or cross-scheme.** Use `F.18` and `F.17` for durable or public naming. When an actual cross-taxonomy or cross-scheme correspondence is consumed, first name the exact obtaining F.9 Bridge occurrence, then keep the separate current C.2.1 claim that it is suitable for the named bounded use. Reliance follows F.9's two branches. Ordinary below-threshold use with no assurance claim requires the exact A.10 evidence-provenance graph relation and `RelianceDisposition=pass` for that same use. When an assurance claim is made or B.3's material-reliance threshold is met, enter B.3 and first decide whether a current assurance claim exists; positive reliance requires a positive current assurance claim carrying the same bounded assurance use with its sufficient minimum reliance safety assurance record, while an exact `no-assurance-claim`, `insufficient-record`, `narrowed`, `rejected`, `withdrawn`, `abstaining`, or `blocked` disposition stops or narrows the use. A Bridge, profile, NameCard, row, label, evidence path, assurance record, or publication neither authorizes the use nor establishes assignment, work, result, provenance, assurance, or publication occurrence.
+1. **Recover the object first.** State the governed kind or construction of the value—for example, a U-kind, local system-role kind, description episteme, classification judgment, assignment, relation, Method, Work, status, evidence use, slot, lens, or another object.
+2. **Recover the meaning source.** Use the exact E.24.UK or direct admission for a U-kind; A.2 with C.3 for a local system-role kind; F.4 for its description; A.2.7 for relations among kinds; A.3, A.15, G.5, or the exact composition pattern for Method and Work names; and the direct relation for status, evidence, source, requirement, publication, assurance, gate, decision, and relation-position names.
+3. **Use minimal generality.** The designation's scope is no wider than the admitted invariants.
+4. **Keep interpretation metadata out of the label.** Edition, source, witness, bounded context, reference scheme, and threshold belong in the direct declaration, description, relation, or NameCard.
+5. **Make morphology object-sensitive.** Concrete local system-role kinds use `...SystemRole`; description epistemes use `...SystemRoleKindDescription`; states use state or level wording; slots say `Slot`, `Argument`, `Endpoint`, or another exact position head.
+6. **Keep coupled names typed.** A compact phrase may help a reader, but one label must not carry several independently governed objects—for example, kind, assignment, capability, Method, Work, and description—at once.
+7. **Do not encode thresholds or windows in the name.** Put time, state, threshold, capability envelope, or admission window in the direct claim.
+8. **Use aliases only with lineage.** A source term, predecessor term, symbol, or translation does not become a second selected Tech label.
+9. **Escalate only for actual reuse.** Use F.18 and F.17 for durable or public naming. When a cross-context correspondence is consumed, name the exact obtaining C.3.3 or F.9 Bridge and keep the separate current C.2.1 claim that it suits the bounded use. For ordinary below-threshold use with no assurance claim, require the exact A.10 evidence-provenance relation and local `RelianceDisposition=pass`. When an assurance claim is made or B.3's material-reliance threshold is met, first decide whether a current assurance claim exists; positive reliance needs that positive claim for the same bounded assurance use and a sufficient minimum reliance-safety assurance record. An exact non-positive disposition—such as no assurance claim, insufficient record, narrowed, rejected, withdrawn, abstaining, or blocked—stops or narrows the use. None of the Bridge, bounded-use claim, evidence path, assurance record, NameCard, row, designation, or publication establishes assignment, Work, result, provenance, assurance, or publication occurrence.
 
 #### F.5:4.4 - Neighboring Use Boundary
 
-When a label contains a tempting word, recover the current claim instead of replacing words mechanically.
+When a candidate contains a tempting word, recover the current claim instead of replacing words mechanically.
 
-| Source wording | First ontological question | Likely governing pattern |
+| Source wording | First ontological question | Direct next locus |
 | --- | --- | --- |
-| `EvidenceRole`, `ModelFitEvidenceRole`, or "evidence role" | Is an episteme being used as evidence for a target claim with scope, polarity, relevance window, and provenance? | `A.10`, `B.3`, `C.2.1`, or the direct evidence-use pattern |
-| `RequirementRole` or "standard role" | Is an episteme, standard, or clause used as a requirement, source, or specification-use item? | `C.28`, `E.10.D2`, `E.17`, or the direct requirement-use or source-use pattern |
-| `Access Role` in RBAC | Is this a policy or permission-set term, not a work-facing behavioral role? | Direct access, policy, or status-use pattern; `F.18` for naming when durable |
-| "role of subject, provider, or input" | Is this a relation position? | `A.6.5` |
-| `ReviewerRole` | Is this a work-facing role value under one exact role-taxonomy episteme and effective reference scheme? | `A.2`, `F.4`, `A.2.1` when assigned |
-| `robotics engineer` or `engineer-roboticist` | Is this a qualified role expression, independent role conjunction, method name, work name, or capability name? | `A.2.7`; `A.3.1`, `A.3.2`, or `A.15` when method or work is current; `F.18` for durable naming |
-| `Reviewing`, `ReviewMethod`, `RobotEngineeringMethod`, `ReviewWorkflow`, or `MethodAlgebra` | Is this a method, method description, method relation structure, work plan, performed work, or lens over one of those objects? | `A.3.1`, `A.3.2`, `A.15`, `G.5`, `C.29`, or a direct method-composition pattern when current |
-| `ReviewWork` or "review happened" | Is this performed work? | `A.15.1` |
+| `EvidenceRole`, `ModelFitEvidenceRole`, or “evidence role” | Is an episteme used as evidence for a target claim with exact scope, polarity, relevance window, and provenance? | A.10, B.3, C.2.1, or the exact evidence-use relation |
+| `RequirementRole` or “standard role” | Is an episteme, standard, or clause used as a requirement, source, or specification? | E.10.D2, C.28, E.17, or the exact source or requirement relation |
+| `Access Role` in RBAC | Is this a policy or permission grouping rather than a work-facing kind? | Exact access, policy, permission, or status relation; F.18 only if durable naming is needed |
+| “role of subject, provider, or input” | Is this participant meaning, a declaration slot, or a representation position? | E.10.ROLE, A.6.RSIR, and A.6.5 |
+| `ReviewerSystemRole` | Is one exact local C.3 kind with a direct criterion current? | A.2 with C.3; F.4 for its description; A.2.1 only when assigned |
+| `robotics engineer` or `engineer-roboticist` | Is this a local kind, conjunction, relation, Method, Work, or capability? | A.2.7, A.3, A.15, A.2.2, and F.18 when durable naming is current |
+| `Reviewing`, `ReviewMethod`, `RobotEngineeringMethod`, `ReviewWorkflow`, or `MethodAlgebra` | Is this a Method, MethodDescription, Method relation structure, WorkPlan, performed Work, or lens? | A.3, A.15, G.5, C.29, or the exact composition pattern |
+| `ReviewWork` or “review happened” | Is one performed Work occurrence current? | A.15.1 |
 
-Select the name only after this recovery. A cleaner string is not a repair if it hides the same kind error.
+Select the name only after recovery. A cleaner string is not a repair if it hides the same ontological error.
 

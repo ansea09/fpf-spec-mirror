@@ -6,12 +6,12 @@ section_id: "A.15.1:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__009_scope-declaration-and-rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:7 — Scope Declaration and Rationale"
-line_start: 24749
-line_end: 24754
+line_start: 24947
+line_end: 24952
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,17 +42,16 @@ dependencies:
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.Role"
-  - "U.RoleAssignment"
   - "U.System"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "actual performer U.System"
   - "admitted U.Work kind"
-  - "containing system"
-  - "covering U.RoleAssignment"
-  - "enacted method"
+  - "containing System"
+  - "covering U.SystemRoleAssignment"
+  - "enacted Method"
   - "optional direct bindings and resource use"
   - "performedUnderAssignment"
   - "separate result or consequence"
@@ -62,7 +61,7 @@ keywords:
 
 ### A.15.1:7 - Scope Declaration and Rationale
 
-* **Applicability:** Use the same occurrence test for pragmatic costing, architectural accountability, teaching examples, and source or evidence questions; when the current claim is only about a description, publication, source, or evidence relation, apply the governing pattern for that claim.
+* **Applicability:** Use the same occurrence test for pragmatic costing, architecture use, teaching examples, and source or evidence questions; when the current claim is only about a description, publication, source, or evidence relation, apply the direct pattern for that claim.
 * **Scope declaration:** The occurrence head is universal. Temporal semantics use the declared temporal reference. A simple uninterrupted occurrence needs no continuity-policy episteme; identity, episode, retry, resumption, or aggregation claims cite `workContinuityPolicyRef` and its effective `U.ReferenceScheme` only when the named use must resolve an ambiguous boundary. Add claim scope, a qualification window, model-use structure, evidence use, or source-currentness assessment only when changing that neighboring fact would change the receiving assertion or reliance; otherwise omit it.
-* **Rationale:** Gives FPF a clean, actionable notion of **occurrence** with admitted performer `U.System`s acting under exact obtaining `U.RoleAssignment`s and with actual `enactsMethod` relations, so that costing, quality, and audit rest on independently identified work occurrences rather than plans, recipes, assignments made to act, or a generic role-enactment fact.
+* **Rationale:** Gives FPF a clean, actionable notion of **occurrence** with admitted performer `U.System`s, a covering occurrence of an exact directly declared `U.SystemRoleAssignment` species for every performer, the corresponding F.6 attribution, and the obtaining `enactsMethod` relation. Costing, quality, and audit then rest on independently identified Work occurrences rather than plans, recipes, assignments made to act, or a generic role-enactment fact.
 

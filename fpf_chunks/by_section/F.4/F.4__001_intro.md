@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:intro — Intro"
-line_start: 91011
-line_end: 91016
+line_start: 91722
+line_end: 91727
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,29 +22,32 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
-## F.4 - Role Description - Description Episteme for U.Role
+## F.4 - SystemRoleKindDescription — Describing an Exact System-Role Kind
 
 > **Type:** Definitional (D)
-> **Status:** Stable
+> **Status:** Stable in the current FPF
 > **Normativity:** Normative unless marked informative
 

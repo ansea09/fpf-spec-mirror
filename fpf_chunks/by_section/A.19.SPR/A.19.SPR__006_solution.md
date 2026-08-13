@@ -6,12 +6,12 @@ section_id: "A.19.SPR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:4 — Solution"
-line_start: 29192
-line_end: 29260
+line_start: 29394
+line_end: 29462
 dependencies:
   - "A.10"
   - "A.16"
@@ -54,7 +54,7 @@ StateFamilyPrecisionRepair:
   triggerSpan:
   boundedTextSpan:
   bearerRef:
-  stateFrameOrGoverningPatternRef:
+  stateFrameOrPatternLocator:
   stateValueOrClassification:
   criteriaOrEvidenceRef?:
   admissibleUse:
@@ -64,27 +64,27 @@ StateFamilyPrecisionRepair:
   remainingReaderUse:
 ```
 
-Use the full shape only when the repair must remain inspectable. A direct rewrite is enough when one sentence names the bearer, state frame, value, use boundary, and governing pattern.
+Use the full shape only when the repair must remain inspectable. A direct rewrite is enough when one sentence names the bearer, state frame, value, use boundary, and subject pattern.
 
 #### A.19.SPR:4.1 - Recovery sequence
 
 1. **Capture trigger and bounded text.** Copy the encountered state-family word and the sentence, row, card, or field that uses it.
 2. **Recover the bearer.** Name the item whose state-like value is being claimed: holon, role, source, evidence path, assurance claim, publication face, `PublicationUnit`, gate record, temporal claim, lens-use card, `DRR`, pattern version, project-side administrative record, review record, dispatch record, release or admission record, source-control record, or another FPF kind named by value.
-3. **Recover the state frame or governing pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, role-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or a project-side administrative, review, dispatch, release or admission, or source-control record.
+3. **Recover the state frame or subject pattern.** Decide whether the frame is `A.19` `CharacteristicSpace`, `A.3.3` dynamics, `A.2.5` system-role-assignment-state assertion, `C.2.2a` language-state chart, `A.10` evidence path, `B.3` assurance, `A.20` constraint or adjudication state, `A.21` gate decision, `E.17` publication use, `C.27` temporal-claim state, `C.29` lens-use admissibility, `E.9.DA` DRR-decision adequacy, `E.21` pattern quality, or a project-side administrative, review, dispatch, release, admission, or source-control record.
 4. **Recover the value set or classification.** If a local field remains, list its possible values or the neighboring pattern governing that claim that defines them. If no value set is recoverable, do not keep the state-family head as a field.
-5. **Recover criteria or evidence only when that claim is being made.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when the governing pattern for that claim is selected.
+5. **Recover criteria or evidence only when that claim is being made.** Name threshold rule, observation, source currentness, evidence path, assurance tuple, validation regime, gate record, or witness only when the subject pattern for that claim is selected.
 6. **State admissible and non-admissible use.** Say what the reader may do with this value and what adjacent claim remains blocked.
 7. **State validity window or reopen condition.** If currentness, readiness, release or admission, validation, assurance, or administrative state can decay, name what changes the value.
-8. **Rewrite or demote.** Replace broad wording with the state-like field or governing-pattern phrase named by value; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
-9. **Return to the subject pattern.** Do not let the repair become the subject Solution unless the pattern is itself about state-family precision restoration.
+8. **Rewrite or demote.** Replace broad wording with the state-like field or subject-pattern phrase named by value; otherwise mark quote-only, reduced-use cue, blocked transfer, or incomplete rewrite.
+9. **Use the subject pattern.** Do not let the repair become the subject Solution unless the pattern is itself about state-family precision restoration.
 
-#### A.19.SPR:4.2 - Direct governing-pattern assignments
+#### A.19.SPR:4.2 - Subject pattern assignments
 
-| Recovered state-like claim | First governing pattern or locus |
+| Recovered state-like claim | First subject pattern or locus |
 | --- | --- |
 | position in a declared `CharacteristicSpace` | `A.19`, with `A.17`, `A.18`, `C.16`, and `C.16.P` when construction is hidden |
 | reusable transition law, trajectory, or dynamics model | `A.3.3` |
-| role-state assertion, role assignment, or enactable state | role-state pattern named by value and `A.15` or work pattern governing the claim when work is being claimed |
+| system-role-assignment-state assertion, system-role assignment, or work-admitting state | `A.2.5` for `SystemRoleAssignmentStateRelation` and `A.15` or the direct Work pattern when Work is claimed |
 | language-state position for episteme or publication wording | `C.2.2a` and `A.16.*` after `C.2.P` when source-publication recovery is needed |
 | source use, source currentness, source publication, or source-use disposition | `C.2.P`, `E.17`, `E.9.DA`, or source-use field named by value |
 | evidence path state, evidence relation, or reliance disposition | `A.10` |
@@ -104,11 +104,11 @@ A local `...Posture`, `...Status`, `...Readiness`, or `...State` field is admiss
 
 - field name;
 - bearer kind;
-- governing pattern;
+- subject pattern;
 - value set or declared classification source;
 - admissible use;
 - non-admissible overread;
 - validity window, decay rule, or reopen condition when applicable.
 
-If any of those are missing, either complete them now or rename the field to the phrase or record required by the governing pattern. A narrowing adjective does not count as kind recovery.
+If any of those are missing, either complete them now or rename the field to the phrase or record required by the subject pattern. A narrowing adjective does not count as kind recovery.
 

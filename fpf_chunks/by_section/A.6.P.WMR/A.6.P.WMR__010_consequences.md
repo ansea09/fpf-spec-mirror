@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:9 — Consequences"
-line_start: 16671
-line_end: 16677
+line_start: 16899
+line_end: 16905
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -37,5 +37,5 @@ keywords:
 - Practitioners retain short ordinary sentences while downstream users can recover the exact relation and its orthogonal claim dimensions.
 - Method, plan, work, operation application, actual change, production, evaluation, delivery, acceptance, transfer, and receiving use remain independently inspectable.
 - Local missing-governor blockers reveal where subject ontology is absent without forcing a new public kind.
-- One compressed phrase may split into several claims; that is the cost of preserving different obtaining conditions and owners.
+- One compressed phrase may split into several claims; that is the cost of preserving different obtaining conditions and subject patterns.
 

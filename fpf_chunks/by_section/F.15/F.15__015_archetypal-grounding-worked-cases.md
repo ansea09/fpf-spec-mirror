@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 95318
-line_end: 95376
+line_start: 96100
+line_end: 96160
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -59,10 +59,12 @@ F.15 result:
 * SCR-F15-S3 checks each exact triple; shared run-language does not merge them.
 * SCR-F15-S12 requires an obtaining F.9 occurrence before the comparison uses a semantic relation. Its Card is optional and its bounded-use claim is separate.
 * Any F.17 row must pass its own gate. It may contain the exact cells needed by the row use; table shape does not create the row.
-* An `ExecutionRoleDescription` remains an F.4 episteme about one exact governed role under one scheme; it does not describe both cells, assign a holder, or prove work.
+* An `ExecutionSystemRoleKindDescription` remains an F.4 episteme about one exact local `ExecutionSystemRole` under one scheme; it does not describe both cells, assign a system, or prove work.
 * If a later `task` sense becomes cyclic while the `activity` sense remains non-periodic, RSCR-F15-E4 and E9 compare exact later cells and Bridge candidates; evidence may change the use claim or reliance without silently rewriting the prior Bridge.
 
-Suppose `CheckRun-17` is dated assessment Work and `ApplySCR-S12-17` is the exact rule application. `BridgeRuleResult-17` is a separate C.2.1 result claim; `WitnessTrace-17` and its A.10 path are separate again. `UnificationConformanceRecord-17` merely cites those refs. Publishing the record requires its own E.24.PUB occurrence, form, and carrier.
+Suppose `CheckRun-17` is admitted dated assessment `U.Work`, `CheckMethod-17` is its semantic `U.Method`, `CheckInterval-17` is the Work interval, and `HarnessSystem-17` is the containing System. `Evaluator-17` is the admitted `U.System` that performs the Work using that Method during `CheckInterval-17`. `EvaluatorAssignmentSpecies-17` is a declared `U.SystemRoleAssignment` species; `EvaluatorAssignment-17` is one occurrence with every required participant value, is held by `Evaluator-17`, and covers `CheckInterval-17`. F.6 links `CheckRun-17` to that assignment.
+
+`ApplySCR-S12-17` is the exact A.6.1 rule application and bindings. `BridgeRuleResult-17` is a separate C.2.1 result claim; `WitnessTrace-17` and its A.10 path are separate again. `UnificationConformanceRecord-17` merely cites those admitted refs. Publishing the record requires its own E.24.PUB occurrence, form, and carrier.
 
 #### F.15:13.2 - Service availability across service and observation schemes
 
@@ -70,21 +72,21 @@ The slice contains one service-management status value/use and one uptime-observ
 
 F.15 result:
 
-* SCR-F15-S14 returns the status family/value, target, scope, window, source condition, and intended use to F.10 or its current direct owner.
+* SCR-F15-S14 requires F.10 for the status family/value, target, scope, window, source condition, and intended use or its current subject pattern.
 * A named cross-local comparison must pass SCR-F15-S12 and S13; the row or shared `availability` label does not create the Bridge.
 * Observation evidence and A.10 reliance are not the status value, comparison result, assurance claim, or F.15 result.
 * B.3 opens only when its assurance claim or material-reliance threshold is current; the slice establishes no assurance by inclusion.
 
-#### F.15:13.3 - Rename a RoleDescription without changing the governed role
+#### F.15:13.3 - Rename a SystemRoleKindDescription without changing the described kind
 
-`IncidentReviewerRoleDescription@t0` and `ServiceIncidentReviewerRoleDescription@t1` describe the same exact `IncidentReviewerRole` only if F.4's role, taxonomy, effective scheme, and description claims support that continuity. The names alone do not.
+`IncidentReviewerSystemRoleKindDescription@t0` and `ServiceIncidentReviewerSystemRoleKindDescription@t1` describe the same exact `IncidentReviewerSystemRole` only if F.4's bounded context, continuing contribution identity, current `KindSignature`, effective scheme, and description claims support that continuity. The names alone do not.
 
 F.15 result:
 
-* RSCR-F15-E7 compares the two exact description epistemes and the governed role.
+* RSCR-F15-E7 compares the two exact description epistemes and the described local system-role kind.
 * RSCR-F15-E8 permits F.13/F.18 alias or rename treatment only for expression change with value, scheme, sense, and use preserved.
 * F.18 updates the NameCard; F.17 updates a public row only if that row use is current and its gate passes.
-* If the governed role or description claim changed, F.4 and the naming patterns create the corresponding new objects; F.15 does not declare continuity.
+* If the described system-role kind or description claim changed, F.4 and the naming patterns create the corresponding new objects; F.15 does not declare continuity.
 
 #### F.15:13.4 - Partial Bridge later claimed as equivalence
 
@@ -103,7 +105,7 @@ A team proposes `PeakHoursAvailabilityStatus` as a new family because one existi
 
 F.15 result:
 
-* SCR-F15-S14 fails if exact direct-owner recovery shows only a changed window or use.
+* SCR-F15-S14 fails if exact subject-pattern recovery shows only a changed window or use.
 * RSCR-F15-E11 compares the exact family/value, target, scope, window, source condition, and use rather than the suffix.
-* F.10 or the current status owner governs the status claim; F.14/F.8/F.18 block a new durable name until a distinct governed value is independently recovered.
+* Use F.10 or the applicable status pattern for the status claim; F.14/F.8/F.18 block a new durable name until a distinct governed value is independently recovered.
 

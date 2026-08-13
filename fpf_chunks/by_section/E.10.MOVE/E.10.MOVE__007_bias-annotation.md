@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:6 — Bias-Annotation"
-line_start: 75728
-line_end: 75734
+line_start: 76192
+line_end: 76198
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -38,8 +38,8 @@ keywords:
 
 ### E.10.MOVE:6 - Bias-Annotation
 
-- **Synonym-replacement bias.** Replacing "move" with "action", "step", or "use" can preserve the same hidden ontology. Recover concern, relation, and governing pattern before choosing wording.
+- **Synonym-replacement bias.** Replacing "move" with "action", "step", or "use" can preserve the same hidden ontology. Recover concern, relation, and subject pattern before choosing wording.
 - **Imported-source-kind bias.** TameFlow `MOVE`, workflow, route, process, or path wording can smuggle a source ontology into FPF. Treat such wording as a trigger until the direct FPF target is named.
 - **Readiness-as-gate bias.** Ready, full-kit, committed, or launch-ready wording can overclaim gate passage, work authorization, or performed work.
-- **Local-wording generalization bias.** One direct pattern may define a local move-like expression. That expression does not create a shared project kind; every other use still restores its own governed value and direct governing pattern.
+- **Local-wording generalization bias.** One direct pattern may define a local move-like expression. That expression does not create a shared project kind; every other use still restores its own governed value and subject pattern.
 

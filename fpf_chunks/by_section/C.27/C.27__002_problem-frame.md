@@ -6,12 +6,12 @@ section_id: "C.27:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:1 — Problem frame"
-line_start: 55070
-line_end: 55185
+line_start: 55338
+line_end: 55453
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -133,7 +133,7 @@ record, recover:
 
 - what rate, rhythm, trajectory, regime, or stability claim is in play;
 - whether the text is reading state, reading rate, or claiming rate-change;
-- what effort, input, policy, method, intervention actor reference, role assignment, or resource envelope is supposed
+- what effort, input, policy, method, claimed intervention applier, exact assignment, or resource envelope is supposed
   to change the temporal behavior;
 - what resists, delays, stores momentum, introduces lag, or makes reversal
   costly;

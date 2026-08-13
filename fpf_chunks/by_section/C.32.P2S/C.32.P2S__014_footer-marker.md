@@ -6,12 +6,12 @@ section_id: "C.32.P2S:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__014_footer-marker.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:13 — Footer marker"
-line_start: 64942
-line_end: 64945
+line_start: 65252
+line_end: 65255
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -49,5 +49,5 @@ keywords:
 
 ### C.32.P2S:13 - Footer marker
 
-`C.32.P2S` governs one reader-facing problem-to-structure architecturing flow: pressure and structural uncertainty are carried into candidate, selected, and expected structures, then through exact domain work to independently grounded actual changes and subject-side actual structures, with descriptions, evaluations, and subject-pattern-specific return or repair exits named by value.
+Use `C.32.P2S` for one reader-facing problem-to-structure architecturing flow: pressure and structural uncertainty are carried into candidate, selected, and expected structures, then through domain work to independently grounded actual changes and subject-side actual structures, with descriptions, evaluations, and return or repair exits selected for the next question.
 

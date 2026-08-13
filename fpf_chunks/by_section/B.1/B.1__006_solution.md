@@ -6,17 +6,18 @@ section_id: "B.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:4 — Solution"
-line_start: 35327
-line_end: 35411
+line_start: 35529
+line_end: 35613
 dependencies:
   - "A.1"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2.7"
   - "A.22"
   - "B.2"
   - "B.3.5"
@@ -24,7 +25,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30"
-  - "C.30.ASV"
+  - "E.10.ROLE"
 keywords:
 ---
 
@@ -63,15 +64,15 @@ Use:
 
 #### B.1:4.2 - Didactic Firewall
 
-| Source claim | Ontology-side recovery | Direct owner |
+| Source claim | Ontology-side recovery | Subject pattern |
 | --- | --- | --- |
 | "This object is made of these parts." | Part-whole construction over admitted holons. | `A.1`, `A.14`, `C.13`, `B.3.5` when assurance is current. |
 | "These members form a collection." | Membership or collection-as-whole grounding; no `ComponentOf` inference. | `A.14`, `C.13`, `C.16` for whole-level characteristic. |
-| "This role is combined from role factors." | Role relation structure or role naming; not holonic parthood by default. | `A.2.7`, role patterns, `C.29` if mathematical lens is selected. |
-| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, method owners, `C.29` if mathematical lens is selected. |
-| "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal owner, evidence owner. |
-| "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `C.29`, `A.22`, architecture or description owner. |
-| "The whole shows emergence." | Existing-whole explanation first; B.2 only when the whole itself must be reidentified. | `B.2`, `B.2.P`, or the direct characteristic, measurement, architecture, capability, or work owner. |
+| “This role is combined from role factors.” | Unresolved source wording. It may mean an exact relation among local system-role kinds, a classification or assignment, a direct participation relation, a naming question, or ordinary prose; none is holonic parthood by default. | `E.10.ROLE` first; then `A.2.7` only for the exact relation among local system-role kinds, or the direct pattern for the recovered classification, assignment, participation, or naming claim; use `C.29` only if a mathematical lens is selected. |
+| "This method has steps, parameters, guards, or variants." | Method relation structure, method family, method description, or work plan; not performed work by default. | `A.15`, Method patterns, `C.29` if mathematical lens is selected. |
+| "This run contained episodes or concurrent sub-runs." | Work occurrence holarchy with timing, evidence, occurrence identity, and work-part relation. | `A.15.1`, temporal pattern, evidence-use pattern. |
+| "This graph or algebraic notation represents the structure." | Mathematical or representation description of a selected structure. | `C.29`, `A.22`, architecture or description pattern. |
+| "The whole shows emergence." | Existing-whole explanation first; B.2 only when the whole itself must be reidentified. | `B.2`, `B.2.P`, or the direct characteristic, measurement, architecture, capability, or Work pattern. |
 
 #### B.1:4.3 - Work Occurrence Holarchy
 
@@ -97,7 +98,7 @@ Blocked uses:
 - graph wording as parthood admission;
 - algebraic factorization as role, method, or work parthood admission;
 - source notation as a new U-kind;
-- one fold rule as a universal replacement for the direct owner.
+- one fold rule as a universal replacement for the subject pattern.
 
 #### B.1:4.5 - Existing-Whole Before MHT
 

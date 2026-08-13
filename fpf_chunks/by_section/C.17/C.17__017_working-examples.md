@@ -6,12 +6,12 @@ section_id: "C.17:16"
 section_title: "Working examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__017_working-examples.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:16 — Working examples"
-line_start: 49035
-line_end: 49074
+line_start: 49287
+line_end: 49326
 dependencies:
   - "A.1"
   - "A.10"
@@ -60,7 +60,7 @@ Novelty↑ (algorithmic / compositional), Use‑Value↑ (targeted user/job metr
 **Priors.**
 
 * Novelty prior **skeptical** beyond nearest known family (discount by conceptual distance).
-* Evidence prior at **L0** (B.3) until benchmarks exist; regression tests act as **ObserverRole** evidence.
+* Evidence prior at **L0** (B.3) until benchmarks exist; regression-test results supply bounded evidence and are not an observer system or system-role kind.
 
 **Context card (one screen).**
 

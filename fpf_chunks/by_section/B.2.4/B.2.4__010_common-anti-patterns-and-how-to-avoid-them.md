@@ -6,12 +6,12 @@ section_id: "B.2.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.4/B.2.4__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.4 — Capability and Functioning Whole Reidentification"
   - "B.2.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 38215
-line_end: 38224
+line_start: 38425
+line_end: 38434
 dependencies:
   - "A.10"
   - "A.15"

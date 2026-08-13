@@ -6,12 +6,12 @@ section_id: "E.24.PUB:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:2 — Problem"
-line_start: 89040
-line_end: 89051
+line_start: 89744
+line_end: 89755
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -44,5 +43,5 @@ The practical problem is change localization. When a reader sees only “the dia
 4. the presentation carrier or its availability may have changed;
 5. the declared audience or bounded use may have changed while the same edition, form, and carrier remained.
 
-Without the distinction, a receiving work occurrence cannot identify the smallest object or relation to inspect, revise, republish, or stop relying on.
+Without the distinction, the receiving use cannot identify the smallest object or relation to inspect, revise, republish, or stop relying on.
 

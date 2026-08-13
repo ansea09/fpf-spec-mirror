@@ -6,12 +6,12 @@ section_id: "F.17:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__007_minimal-vocabulary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:5 — Minimal vocabulary"
-line_start: 95830
-line_end: 95917
+line_start: 96614
+line_end: 96701
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -128,7 +128,7 @@ If a later row episteme revises, refines, or supersedes an earlier one, an indep
 
 When a selected row edition must be made available, E.24.PUB supplies three separate relations: `PublicationFormExpressionRelation(selectedRowEdition, publicationForm, boundedUseDeclaration)`, `PublicationFormBearingRelation(carrier, publicationForm)`, and `EpistemePublicationRelation(selectedRowEdition, audience, boundedUse, publicationForm, carrier)`. The row does not publish itself; the form is not the row; the carrier bears the form rather than the episteme; rendering or uploading is dated Work when current and is not the publication occurrence.
 
-`GovernedValueRef` and `GovernedValueKindRef` are separate. A kind token has kind `U.Kind`. An obtaining relation occurrence, role value, status value, slot kind, or local concept retains its own kind; the row points to the pattern that defines or constrains that value. A row or card cannot admit a U-kind or make a direct relation obtain.
+`GovernedValueRef` and `GovernedValueKindRef` are separate. A kind token has kind `U.Kind`. An exact local system-role kind, obtaining system-role-assignment or other relation occurrence, status value, slot kind, representation position, or local concept retains its own kind; the row points to the pattern that defines or constrains that value. A row or card cannot admit a U-kind or make a direct relation obtain.
 
 `NameCardRef` resolves the F.18 C.2.1 naming-decision episteme consumed by the current public-row gate. `UnifiedTechName` and `UnifiedPlainName` are designation expressions selected by that decision, not values or references. Aliases and rejected candidates stay in the NameCard or local lexicon rather than becoming rival selected names in the row.
 

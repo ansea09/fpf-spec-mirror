@@ -6,12 +6,12 @@ section_id: "F.18:6"
 section_title: "What Belongs In The Label"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__008_what-belongs-in-the-label.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:6 — What Belongs In The Label"
-line_start: 97127
-line_end: 97149
+line_start: 98324
+line_end: 98346
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ Belongs in the label:
 
 - a head word that helps readers recognize the governed value;
 - a stable qualifier that is part of the local sense;
-- role morphology when the governed value is a role;
+- `SystemRole` morphology only when the governed value is one exact local system-role kind;
 - relation, slot, method, work, or characteristic morphology when those kinds are current.
 
 Does not belong in the label:

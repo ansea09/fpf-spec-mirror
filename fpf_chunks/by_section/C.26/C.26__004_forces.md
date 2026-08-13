@@ -6,12 +6,12 @@ section_id: "C.26:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:3 — Forces"
-line_start: 53547
-line_end: 53556
+line_start: 53815
+line_end: 53824
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,5 +58,5 @@ keywords:
 | Lightweight use vs claims requiring additional evidence | A local diagnostic note should be cheap; reusable guidance, assurance, physical claims, or superiority claims need heavier evidence and explicit neighboring-pattern selection. |
 | Useful math vs misleading vocabulary | Quantum-like formalisms help with order, contextual probability, incompatible probes, instruments, and open information systems; popular quantum words easily overclaim. |
 | Representation cost vs representation loss | A cheaper state representation may be the right engineering move, but only if the source, shortcut, loss, admissible use, and reopen condition stay visible. |
-| Recognition vs assurance | Working readers need fast entry; the assurance section needs enough typed fields to prevent pattern-role theft, impossible-copy overread, and hidden ontology. |
+| Recognition vs assurance | Working readers need fast entry; the assurance section needs enough typed fields to prevent the lens from taking over neighboring pattern work, impossible-copy overread, and hidden ontology. |
 

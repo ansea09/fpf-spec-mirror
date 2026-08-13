@@ -6,12 +6,12 @@ section_id: "E.18.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:4 — Solution"
-line_start: 84818
-line_end: 84994
+line_start: 85487
+line_end: 85663
 dependencies:
   - "A.10"
   - "A.15"
@@ -143,7 +143,7 @@ transformationFlowRelationReferenceClaimContent:
       endpointPositionBindingRef
 ```
 
-The exact relation kind, predicate definition, ordered participants, current basis, and any network endpoint bindings carry the transformation-flow role; E.18.3 adds no separate structural-function classifier. An internal transfer is cited only as an exact `U.Transfer` occurrence whose positions resolve inside one TFS. A dependency is recoverable only when the exact predicate truth conditions make one admitted continuation, state, or value depend on another and the participant order preserves that direction. A cross-member connection is recoverable only from an exact obtaining relation whose ordered endpoints bind admitted positions in different selected E.18.NET members. These conditions are distinguishable by value and none relabels or substitutes for the exact relation kind or predicate. An E.18 `GateCrossing` is a structure-local transition, not a `U.Relation` occurrence, and never enters this relation-reference field. A domain condition informally called a guard enters a relation reference only when an independently defined relation kind and exact obtaining occurrence exist.
+The exact relation kind, predicate definition, ordered participants, current basis, and any network endpoint bindings carry the transformation-flow meaning; E.18.3 adds no separate structural-function classifier. An internal transfer is cited only as an exact `U.Transfer` occurrence whose positions resolve inside one TFS. A dependency is recoverable only when the exact predicate truth conditions make one admitted continuation, state, or value depend on another and the participant order preserves that direction. A cross-member connection is recoverable only from an exact obtaining relation whose ordered endpoints bind admitted positions in different selected E.18.NET members. These conditions are distinguishable by value and none relabels or substitutes for the exact relation kind or predicate. An E.18 `GateCrossing` is a structure-local transition, not a `U.Relation` occurrence, and never enters this relation-reference field. A domain condition informally called a guard enters a relation reference only when an independently defined relation kind and exact obtaining occurrence exist.
 An applied constraint or condition claim is not the EntityOfConcern of this relation-reference episteme; keep it in `appliedConstraintClaimRefs[]` with its test and current facts. A `GuardFail` emitted by `USM.CompareGuard` or `USM.LaunchGuard` is an E.18 event, not a relation occurrence; recover the event and `GuardOwnerGateId` aggregation-assignment facts under E.18/A.21 instead. The word guard alone admits neither branch.
 
 `subjectUse` records a separately current use only when the cited exact evidence, assurance, architecture, narrative, or publication claim or relation is already shown to obtain: the cited rule supplies the applicable criterion and current facts or evidence satisfy it. The classifier alone makes none of those uses obtain. One selected relation occurrence may also support a separate use without becoming two occurrences. For example, one exact cross-member relation may support an evidence use only when the cited evidence rule and current facts support the exact use claim; its transformation-flow participation and `subjectUse=evidence` neither duplicate the occurrence nor make the evidence claim obtain.
@@ -197,7 +197,7 @@ For each `selectedCrossFlowRelationReferenceRows[]` entry, require its `NetworkC
 
 The complete top-level one-TFS locator is absent from a network slice. `FlowValuation`, `PathSliceId` and `DesignRunTag` remain member- or leaf-local; Work, actual transformations, boundaries and currentness also remain with their exact member and applicable definitions or tests. Member paths are finite and membership is acyclic, while exact cross-flow feedback occurrences may cycle when their predicates and constraints admit them.
 
-Every selected cross-flow relation remains the exact occurrence whose predicate-definition source fixes its kind and participant meanings and whose applicability conditions and current facts show that it obtains. Do not substitute universal `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff` or `transfer` edges. One C.32.CONWAY result may contribute one exact transformer-role-system and transformed-holon architecture-correspondence occurrence as one qualified network row after its occurrence and endpoint bindings are recovered; it never constitutes the network.
+Every selected cross-flow relation remains the exact occurrence whose predicate-definition source fixes its kind and participant meanings and whose applicability conditions and current facts show that it obtains. Do not substitute universal `creates`, `produces`, `uses`, `input`, `output`, `result`, `handoff` or `transfer` edges. One C.32.CONWAY result may contribute one exact architecture-influence and transformed-architecture correspondence row after its direct occurrence and endpoint bindings are recovered; it never constitutes the network.
 
 A source phrase or graph enters only through an exact source-to-use claim or relation. A separately identified `BoundedModelUseStructure` participates only when the current assertion or use selects it and its organization changes interpretation of that claim; shared wording, adjacency, or a crossing display is evidence of neither model-use qualification nor crossing.
 

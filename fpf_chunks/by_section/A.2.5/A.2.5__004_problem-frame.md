@@ -1,35 +1,44 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
+pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
 section_id: "A.2.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__004_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
+  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:1 — Problem Frame"
-line_start: 4466
-line_end: 4475
+line_start: 4651
+line_end: 4660
 dependencies:
   - "A.15"
+  - "A.15.1"
+  - "A.2"
   - "A.2.1"
+  - "A.2.2"
+  - "A.2.7"
+  - "A.21"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.3"
 keywords:
-  - "RSG"
-  - "enactability"
-  - "role state"
-  - "role-state evolution"
-  - "state machine"
+  - "Work admission"
+  - "assignment-state predicate"
+  - "assignment-state relation"
+  - "evidence boundary"
+  - "state condition"
+  - "time window"
 ---
 
 ### A.2.5:1 - Problem Frame
 
-`U.RoleAssignment` establishes that one admitted system holds one role under a named role-taxonomy episteme and effective reference scheme for an assignment episode. That does not settle whether the assignment currently satisfies the condition needed by a particular method or work claim.
+An occurrence of a declared `U.SystemRoleAssignment` species assigns an admitted System to one local system-role kind and supplies any other values required by that species. It does not establish that the assignment satisfies a condition needed by a Method or Work claim in the evaluated interval.
 
-The distinction is easy to see in physical work. `Robot-7` can remain assigned `InspectorRole` through an eight-hour shift while calibration expires at noon. The assignment occurrence continues. The `InspectionReady` role-state occurrence ends when its predicate ceases to hold. A later recalibration can start another role-state occurrence without creating another assignment.
+`Robot-7` can remain under `InspectionShiftAssignment-17` throughout an eight-hour shift while calibration expires at noon. The assignment continues. The `InspectionReady` state occurrence ends when its predicate ceases to hold. Recalibration can start another occurrence under the same assignment without creating another assignment.
 
-The same distinction appears in social and computational work. An on-call person can be assigned while conflicted or fatigued. A service can hold `ApproverRole` while the relations selected in one model-use structure give the role a fulfilment-approval interpretation and the relations selected in another give it a payment-approval interpretation. A tool-using agent can expose a capability while a concrete action is not admitted for the current task and input values.
+The same distinction appears in social and computational Work. An on-call person can remain assigned while conflicted or fatigued. A service can remain assigned to `ApproverSystemRole` while one predicate concerns fulfilment approval and another concerns payment authorization. A tool-using agent can expose a capability while a concrete action remains inadmissible for the current task and inputs.
 
-The engineering problem is therefore to state the exact assignment, predicate, and interval; state affirmative or negative assertion polarity and the separately governed reliance posture; recognize an obtaining occurrence only when the direct predicate is true; and connect the assertion to the evidence needed by the consequence-bearing use. A universal list of state labels solves none of those tasks.
+The engineering problem is therefore to identify the exact assignment, predicate, and interval; distinguish affirmative or negative assertion polarity from reliance posture; recognize an occurrence only while the direct predicate is true; and connect an assertion to evidence only when a consequence-bearing use needs that support. A universal list of state labels solves none of those tasks.
 

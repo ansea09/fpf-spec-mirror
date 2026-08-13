@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:9 — Consequences"
-line_start: 91240
-line_end: 91254
+line_start: 91962
+line_end: 91976
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,38 +22,41 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:9 - Consequences
 
 **Benefits.**
 
-- Role descriptions become short enough for practical use while preserving ontology.
-- Part F naming and bridge patterns can rely on role descriptions without inheriting assignment, capability, method, work, evidence, or status claims.
-- Episteme-use relations stay direct and do not become a parallel role ontology.
-- Method and work checks can cite role descriptions without treating them as work evidence.
+- Descriptions stay short enough for practice while preserving the ontology.
+- Part F naming and Bridge patterns can cite descriptions without inheriting classification, assignment, capability, Method, Work, evidence, or status claims.
+- Episteme-use relations stay direct and do not become a parallel system-role ontology.
+- Method and Work checks may cite the description without treating it as Work evidence.
 
 **Costs.**
 
-- Former "role-or-status template" material must move to F.10, A.2.4, B.3, A.10, E.17, G.6, or direct use patterns.
-- A stronger claim may require several neighboring patterns instead of one overloaded role card.
-- Durable names require `F.18` when the role name is public, Core-facing, or cross-context.
+- Former “role-or-status template” material must move to F.10, A.2.4, B.3, A.10, E.17, G.6, or another direct relation.
+- A stronger claim may require several neighboring patterns instead of one overloaded card.
+- Public, Core-facing, or cross-context durable names require F.18.
 

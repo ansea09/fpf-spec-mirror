@@ -6,12 +6,12 @@ section_id: "D.2:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:1.1 — Forces"
-line_start: 68659
-line_end: 68668
+line_start: 69009
+line_end: 69018
 dependencies:
   - "A.1"
   - "A.15"
@@ -35,6 +35,6 @@ keywords:
 | Local benefit vs. cross-level harm | A change can improve one declared scope while imposing cost, risk, or exclusion elsewhere. |
 | Situation-defined levels vs. fixed ladders | Multilevel ethics needs declared levels and scopes from the case, not a universal moral hierarchy. |
 | Holons in life vs. descriptions | The affected object may be a system, episteme, publication use, policy, or architecture move; the entry must not collapse these into one document concern. |
-| Early recognition vs. premature mediation | The entry should make the conflict possible to see, while D.3 and D.4 own structure and mediation. |
-| Ethical concern vs. architecture residual | Cross-scope residuals can be architectural, ethical, or both; the next owner must be named by value. |
+| Early recognition vs. premature mediation | Use D.2 to make the conflict visible, D.3 for its structure, and D.4 for mediation. |
+| Ethical concern vs. architecture residual | Cross-scope residuals can be architectural, ethical, or both; the next pattern to apply must be named by value. |
 

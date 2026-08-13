@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:0 — Use This When"
-line_start: 91017
-line_end: 91052
+line_start: 91728
+line_end: 91763
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,59 +22,62 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:0 - Use This When
 
-**Plain name.** Role-description episteme.
+**Plain name.** Description of a system-role kind.
 
-Use this pattern when a project needs a short, reusable description that makes one work-facing `U.Role` recognizable, teachable, and checkable under one named role-taxonomy episteme and effective `U.ReferenceScheme`.
+Use F.4 when a project needs a short, reusable description that makes one exact local system-role kind recognizable, teachable, and checkable. The described kind is a C.3 kind whose candidates must first be independently admitted as `U.System`. A candidate may be, for example, a person, team, organization, or non-human technical object; `SystemRole` does not mean “technical system only.”
 
 Typical moments:
 
-- a project has a role name such as `ReviewerRole`, `OperatorRole`, `InspectorRole`, `TransformerRole`, `ShipyardCoordinatorRole`, or `ModelCardReviewerRole`, but the governing role-taxonomy episteme, effective reference scheme, admitted holder kind, role invariants, capability conditions, or work-facing boundary are unclear;
-- a method description names required roles, but readers cannot tell what role value is required before a `U.RoleAssignment` can be checked;
-- a role name is starting to carry method, capability, work, permission, evidence, publication, or status claims that belong to neighboring patterns;
-- a former source phrase says that a report, standard, dataset, theorem, dashboard, publication, or requirement has a "role" and the text must decide whether that phrase is a real work-facing role description or a direct episteme-use relation.
+- a project has a durable kind name such as `ReviewerSystemRole`, `OperatorSystemRole`, `InspectorSystemRole`, `TransformerSystemRole`, or `ShipyardCoordinatorSystemRole`, but readers cannot recover its bounded context, contribution identity, `KindSignature`, or work-facing boundary;
+- a MethodDescription names a required system-role kind, but readers cannot tell which exact local kind must classify a candidate before an assignment can be checked;
+- a kind name is starting to carry assignment, capability, Method, Work, permission, responsibility, evidence, publication, or status claims that belong elsewhere; or
+- source prose says that a report, standard, dataset, theorem, dashboard, publication, or requirement has a “role”, and the writer must recover whether that wording denotes a system-role kind at all.
 
-**Primary EntityOfConcern.** The exact C.2.1 EntityOfConcern of the role-description episteme is the described `U.Role` value. The governed object is one `U.Episteme` constituted under `C.2.1` by its exact ClaimGraph, that role value, and the effective `U.ReferenceScheme`; its claims name the role-taxonomy episteme that supplies the vocabulary. The role-description episteme is not the role value itself, holder, role assignment, capability, method description, performed work, status-use relation, or publication form.
+**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph names the kind's bounded context, continuing contribution identity, current `KindSignature` edition, effective `U.ReferenceScheme`, and only the neighboring relations needed by the described use. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
 
-**Primary working reader.** The first reader is an engineer-manager, analyst, method author, or pattern author who must let people recognize a role while keeping role value, holder, assignment, capability, method, work, evidence use, status use, and publication use distinct.
+**Primary working reader.** The first reader is an engineer-manager, analyst, Method author, or pattern author who must help people recognize the kind while keeping kind, candidate classification, assignment, capability, Method, Work, evidence use, status use, and publication use distinct.
 
-**First useful move.** Name the role value, its role-taxonomy episteme, the effective reference scheme, the admitted holder kind, and the smallest role invariants needed by the next assignment, method, work, naming, or bridge claim.
+**First useful move.** Name the exact local system-role kind, its bounded context and contribution identity, the current `KindSignature` edition, and the shortest recognition explanation needed by the next classification, assignment, Method, Work, naming, or Bridge claim.
 
-**What goes wrong if missed.** A role-description card becomes a hidden method, access policy, permission badge, evidence relation, status assertion, staffing plan, or work log. Then FPF grows one role ontology for acting holons and a second role-like ontology for epistemes, publications, statuses, and relation positions.
+**What goes wrong if missed.** A description card becomes a hidden procedure, staffing record, access policy, permission badge, responsibility claim, evidence relation, status assertion, or Work log. Then one word recreates a universal role ontology and a second role-like ontology for epistemes, publications, statuses, and relation positions.
 
-**What this buys.** A project can publish a compact, human-readable role description while keeping operational claims in their direct patterns. The role remains recognizable; the assignment remains checkable; capability, method, work, evidence, status, and publication claims stay inspectable instead of being smuggled into the role name.
+**What this buys.** A project gets a compact, readable description while operational claims remain at their direct loci. The kind stays recognizable; classification and assignment stay checkable; capability, Method, Work, evidence, status, responsibility, and publication claims stay inspectable instead of being smuggled into the name.
 
 **Not this pattern when.**
 
-- If the current claim is the role value itself or role taxonomy, use `A.2`.
-- If the current claim is which admitted system holds which role and during which uninterrupted assignment occurrence, use `A.2.1`.
-- If the current claim is role state or enactable-state admission, use `A.2.5`.
-- If the current claim is role-requirement substitution, role incompatibility, role-factor qualification, or bundle expression, use `A.2.7`.
-- If the current claim is capability, use `A.2.2`.
-- If the current claim is method, method description, work plan, or performed work, use `A.15` and its neighbors.
-- If the current claim is evidence use, status use, source use, standard use, requirement use, publication use, assurance use, gate use, or decision use of an episteme, use the direct pattern for that relation. Do not call that episteme a role holder.
-- If the current issue is only a durable name, use `F.18`.
-- If the current issue is correspondence between role meanings under different taxonomies or reference schemes, use `F.9`.
-- If "role" means a relation position, use `A.6.5` SlotSpec discipline.
+- If the current question is whether a local system-role kind exists, how it is identified, or whether one candidate satisfies it, use A.2 with C.3 and C.3.2.
+- If the current question is whether one admitted system and one exact local kind participate in an obtaining assignment, use A.2.1.
+- If one assignment may satisfy one state condition during a window, use A.2.5.
+- If the current question concerns admission substitution, incompatibility, qualification, a bundle, or another relation among system-role kinds, use A.2.7.
+- If the current question is capability, use A.2.2.
+- If it is about a Method, MethodDescription, WorkPlan, or performed Work, use A.3 or A.15 and the direct neighboring pattern.
+- If an episteme is used as evidence, source, standard, requirement, publication, assurance input, status bearer, gate input, or decision input, use the direct relation. Do not classify the episteme as a system-role holder by wording.
+- If only a durable name is needed, use F.18.
+- If two local system-role-kind meanings must be compared across contexts or schemes, use C.3.3 and F.9.
+- If bare *role* may mean a relation participant, declaration slot, representation position, ordinary wording, or another object, use E.10.ROLE and A.6.RSIR where relation recovery is needed.
 

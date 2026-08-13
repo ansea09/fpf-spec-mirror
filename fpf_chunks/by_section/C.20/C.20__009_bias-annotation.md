@@ -6,12 +6,12 @@ section_id: "C.20:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__009_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:6 — Bias-Annotation"
-line_start: 50603
-line_end: 50626
+line_start: 50859
+line_end: 50882
 dependencies:
   - "A.1"
   - "A.14"
@@ -55,7 +55,7 @@ Apply five complementary lenses; the later risk table does not replace them.
 
 | Lens | Question and counter-bias |
 | --- | --- |
-| **Governance** | Are field names, classification claims, revision rationales, stewardship roles, publication availability, and decision authority kept with their direct owners, or has a name, card, registry, or publisher acquired governing force? |
+| **Governance** | Are field names, classification claims, revision rationales, source “steward” or “owner” wording, any separately obtaining kind or assignment, responsibility, authority, ownership, governance, publication Work, and publication availability kept with their subject patterns, or has a name, card, registry, title, or publisher acquired force it does not have? |
 | **Architecture** | Are construction, Characteristic/Scale, comparison or aggregation, evidence/assurance, health, publication, and selection still separate branches, or has a convenient CAL/CHR-style record become an omnibus discipline constructor? |
 | **Onto/Epist** | Are the discipline, domain designation, semantic locality, system, episteme, description, representation, and evidence claim distinct, with each claim returning to an exact EntityOfConcern and ReferenceScheme? |
 | **Pragmatic** | Can ordinary authoring and edition work stop at exact parts, couplings, assembly, and reidentification, while only the receiving comparison, assurance, publication, or decision opens deeper apparatus? |
@@ -66,7 +66,7 @@ Apply five complementary lenses; the later risk table does not replace them.
 | Bias risk | Failure | Counter-move |
 | --- | --- | --- |
 | **Label realism** | A familiar field name is treated as the whole. | Recover candidate, parts, direct occurrences, assembly, identity, and whole characteristic. |
-| **Institutionalism** | The largest organization carrying the work is treated as the discipline. | Keep system, role, and Work direct; test parthood separately. |
+| **Institutionalism** | The largest organization carrying the work is treated as the discipline. | Keep the system, system-role kind and assignment, and Work direct; test parthood separately. |
 | **Canon or method monocentrism** | One document set or method family stands for both knowledge and practice. | Require independently identified contributions on both sides and exact coupling claims. |
 | **Schema completion** | Five filled positions or heterogeneous fields manufacture construction. | Use the two-participant direct relation and ordinary whole-forming claims; treat cards as descriptions. |
 | **Bridge universalism** | Translation or high congruence merges fields. | Keep Bridge, bounded-use proposition, reliance, comparison, and discipline construction separate. |

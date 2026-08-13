@@ -6,12 +6,12 @@ section_id: "B.2.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:0 — Use This When"
-line_start: 37638
-line_end: 37657
+line_start: 37848
+line_end: 37867
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,13 +44,13 @@ keywords:
 
 Use this pattern when B.2 has identified one exact candidate new whole and that same individual must be recognized under the already admitted `U.System` kind: a swarm, production cell, cloud platform, regulated control system, organizational unit, or another physical or operational whole that can act in work or transformation while remaining itself.
 
-The first useful question is not "is there emergence?" First test the exact candidate against A.1's six common components. Then test whether its physical or operational organization makes it eligible to act in work or transformation while preserving its identity—the direct `U.System` criterion. After those two tests, recover only the additional facts used by the concrete case, such as delimitation, an objective or commitment, coordination, capability, role, method, work, transformation, functioning, architecture, evidence, assurance, or time, and state each such fact or claim under its direct owner. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
+The first useful question is not "is there emergence?" First test the exact candidate against A.1's six common components. Then test whether its physical or operational organization makes it eligible to act in work or transformation while preserving its identity—the direct `U.System` criterion. After those two tests, recover only the additional facts used by the concrete case, such as delimitation, an objective or commitment, coordination, capability, system-role kind or assignment, method, work, transformation, functioning, architecture, evidence, assurance, or time. State each fact or claim through the pattern that defines its object or relation. Do not make an objective or commitment a condition for `U.System` recognition; require it only for the separate objective or commitment claim being made.
 
 Use `B.2` first to decide whether whole reidentification is needed and to identify the one candidate new whole. Use `B.2.2` only when that candidate's already admitted kind is `U.System`.
 
 **What goes wrong if missed.** A real operating whole is still managed through old component claims, or a mere collection is declared a new system without system participation evidence.
 
-**What this buys.** The system MHT keeps the useful meta-system-transition intuition while preserving FPF's direct owners for system participation, architecture, capability, transformation, work, evidence, and assurance.
+**What this buys.** The system MHT keeps the useful meta-system-transition intuition while preserving FPF's subject patterns for system participation, architecture, capability, transformation, work, evidence, and assurance.
 
 **Not this pattern when.**
 

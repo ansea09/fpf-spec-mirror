@@ -6,12 +6,12 @@ section_id: "A.15.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:1 — Problem Frame"
-line_start: 25639
-line_end: 25656
+line_start: 25837
+line_end: 25854
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"
@@ -50,7 +52,7 @@ keywords:
 
 ### A.15.4:1 - Problem Frame
 
-Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source-relation chains often look ready for work or reliance before the record or relation that carries the claim is visible. The practical problem is to decide what an engineer-manager may do now without turning appearance into approval or permission, gate passage, evidence, assurance, performed work, role-assignment currentness, role-state or credential-status currentness, or release authorization.
+Dashboards, credential views, generated explanations, copied approvals, provenance labels, green tiles, schema wording, API wording, and composed source-relation chains often look ready for work or reliance before the record or relation that carries the claim is visible. The practical problem is to decide what an engineer-manager may do now without turning appearance into approval or permission, gate passage, evidence, assurance, performed Work, system-role-assignment currentness, assignment-state or credential-status currentness, responsibility, authority, or release authorization.
 
 **Plain recognition line.** Let the dashboard tile, credential view, copied approval, generated explanation, publication face, API response, or pointer lead to the required relation or result and the check it must pass. Do not let the reliance appearance become the relation, slot filler, or project-side reference that authorizes work or reliance.
 

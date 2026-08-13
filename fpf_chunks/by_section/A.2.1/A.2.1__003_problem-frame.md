@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - System Role Assignment"
+pattern_title: "U.SystemRoleAssignment - Contextual System-Role Assignment"
 section_id: "A.2.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:1 — Problem Frame"
-line_start: 3027
-line_end: 3036
+line_start: 3162
+line_end: 3171
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -20,32 +20,33 @@ dependencies:
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
   - "A.6.5"
   - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.3.3"
   - "F.6"
   - "F.9"
-  - "U.Role"
 keywords:
-  - "AssignmentInterval"
-  - "assignment occurrence"
-  - "effective ReferenceScheme"
+  - "assignment predicate"
+  - "direct assignment species"
   - "holder System"
+  - "identity"
+  - "maximal interval"
   - "performedUnderAssignment"
-  - "role value"
-  - "role-taxonomy episteme"
+  - "system-role kind"
 ---
 
 ### A.2.1:1 - Problem Frame
 
-A role value does not assign itself. `InspectorRole` may be understood under a role taxonomy, yet no robot, person, or service holds it until an assignment relation obtains. Conversely, the same system can hold several roles without changing system identity, and the same holder-role pair can enter several assignment episodes.
+A system-role kind does not assign itself. `InspectorSystemRole` can classify Robot-7 for one maintenance slice without any assignment occurrence. Conversely, an assignment can obtain while no Work occurs, and a local `KindSignature` can use or ignore that assignment when classifying the holder.
 
-An admitted holder may be a person or another kind of `U.System`. Holding the role does not by itself establish consciousness, intention, legal or ethical accountability, permission, or gate passage; each stronger claim needs its direct governing pattern.
+`U.SystemRoleAssignment` is the common relation family. It has no permissive root `RelationSignature`. Concrete domain species declare the participant law that their occurrences actually satisfy. A simple inspection assignment may need only the holder and assigned kind. A project-review appointment may also depend on one exact commission. The stronger occurrence itself is the assignment; it does not sit beside a weaker generic assignment with the same projection.
 
-Role meaning is local to a role-taxonomy episteme and effective reference scheme. Assignment locality therefore needs those four actual relation participants directly, not a mandatory `U.BoundedContext`. When an actual DDD-style model-use organization changes one receiving interpretation, the receiving assertion or work use may designate the selected `BoundedModelUseStructure`; the structure is not an optional participant of generic `U.RoleAssignment`.
+The holder can be any independently admitted `U.System`, including a person, team, organization, service, organism, or non-human technical object. Assignment establishes neither consciousness nor agency, capability, responsibility, commitment, permission, authority, access, gate passage, functioning, Method enactment, or performed Work.
 
-Assignment is also not performed work. A current assignment may exist before any work occurs. When work does occur, the admitted holder System `S = RA.HolderSystemSlot` performs exact Work `W` under exact assignment `RA`; `F.6` owns the direct `performedUnderAssignment(W, RA)` relation. Capability, role state, method admission, responsibility, assignment decisions, and evidence remain separate relations with their own obtaining and currentness conditions.
+Taxonomy epistemes, reference schemes, `KindSignature`s, assertions, and interval descriptions can interpret or describe the assignment claim. They are not generic world-side assignment participants. A selected `BoundedModelUseStructure` belongs in the receiving assertion or use unless one separately admitted relation species makes that structure a required identity-bearing participant.
 

@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:11 — Relations"
-line_start: 97343
-line_end: 97363
+line_start: 98567
+line_end: 98587
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,7 @@ Builds on `F.0.1`, `F.1`, `F.2`, `F.3`, `F.5`, `F.8`, `F.9`, `F.13`, `F.14`, `F.
 
 Coordinates with:
 
-- `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, and `A.15.1` for role value, role assignment, role state, exact role relation occurrences and selected `RoleRelationStructure`, role-algebra lens use, role-method-work alignment, and exact performed-work occurrence grounding;
+- `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, `A.15.1`, and `F.6` for system-role kinds, system-role assignments, assignment-state predicates and direct state relations, relations among system-role kinds and selected `SystemRoleKindRelationStructure`, system-role–Method–Work alignment, performed-Work occurrence grounding, and the separate Work-to-assignment attribution;
 - `A.3.1` for method and method-family names; `A.3.2` for a separately identified `U.MethodDescription` episteme whose exact `EntityOfConcern` is that Method, and for the description episteme's separate name;
 - `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.REL`, `A.6.5`, `A.6.RSIR`, `A.6.0`, `A.6.M`, `A.6.F`, and `A.6.C` for relation-claim settlement, work/method-boundary relation recovery, relation-kind and occurrence boundaries, slot, signature, interface, port, and protocol names;
 - `A.10`, `B.3`, `F.10`, `E.10.D2`, and `C.2.1` for evidence-use, assurance-use, status-use, source-use, and description-episteme names;
@@ -60,7 +60,7 @@ Coordinates with:
 
 Constrained non-use:
 
-- `F.18` admits no new U-kind and creates none of the governed role, assignment, status, method, work, relation, signature, slot, interface, or other subject values it names. A `NameCard` is a separately constituted `U.Episteme` under `C.2.1`, not a kind minted by F.18.
-- `F.18` does not decide whether two values are the same across contexts. F.9 can establish an exact relation only between local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ; a separate C.2.1 claim and A.10 or B.3 reliance govern one proposed naming use between those projections; the direct value owner still governs any identity claim.
+- `F.18` admits no new U-kind and creates none of the governed system-role kinds, assignments, statuses, methods, Work, relations, signatures, slots, interfaces, or other subject values it names. A `NameCard` is a separately constituted `U.Episteme` under C.2.1, not a kind minted by F.18.
+- Do not use `F.18` to decide whether two values are the same across contexts. An exact relation admitted under F.9 can obtain only between local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ; a separate C.2.1 claim states one proposed naming use between those projections, A.10 or B.3 supplies its reliance rule, and the direct value rules still decide any identity claim.
 - `F.18` does not turn a publication row, card, table, or glossary entry into the thing being named.
 

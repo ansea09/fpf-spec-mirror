@@ -6,12 +6,12 @@ section_id: "C.30.LCA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:2 — Problem"
-line_start: 62276
-line_end: 62281
+line_start: 62574
+line_end: 62579
 dependencies:
   - "A.10"
   - "A.20"
@@ -45,5 +45,5 @@ keywords:
 
 Control diagrams are persuasive because they look operational: arrows imply feedback, boxes imply responsibility, and recovered control-layer labels imply separation. In practice that is often enough for orientation, but not enough to identify selected structure, make direct relations obtain, admit the description as `U.View`, or establish architecture adequacy. A control-stack description can quietly overclaim stability, safety, evidence sufficiency, gate validity, assurance, or causality; a non-control `layer`, `level`, `tier`, or `stack` label belongs first to `C.30.STRAT`.
 
-FPF needs a pattern that preserves useful recognition without letting the cue become structure, relation, or proof. Control roles, feedback relations, externality boundaries, and rate separations can enter an architecture structural description. The same episteme is a view only through exact viewpoint conformance. Dynamics, temporal aspects, authored temporal-claim adequacy, causal use, evidence, assurance, gates, and mathematical-lens transfer stay with their direct owners.
+FPF needs a pattern that preserves useful recognition without letting the cue become structure, relation, or proof. Direct control relations, their participant meanings, feedback relations, externality boundaries, and rate separations can enter an architecture structural description. The same episteme is a view only through viewpoint conformance. Systems, local kinds, separate System-classification judgments, assignments, Methods, and Work are optional neighboring facts; use the relevant patterns to state or test authority, responsibility, safety, stability, gates, evidence, assurance, and causal effects.
 

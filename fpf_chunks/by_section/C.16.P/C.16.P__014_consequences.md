@@ -6,12 +6,12 @@ section_id: "C.16.P:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__014_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:12 — Consequences"
-line_start: 47645
-line_end: 47652
+line_start: 47890
+line_end: 47897
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,9 +41,9 @@ keywords:
 
 ### C.16.P:12 - Consequences
 
-**Benefits.** C.16.P gives a first-stage repair point for overloaded characterization words, so receiving patterns do not need to copy long trigger lists. It makes the next governing pattern visible before a number, adjective, level, score, metric, or benchmark result is treated as actionable.
+**Benefits.** C.16.P gives a first-stage repair point for overloaded characterization words, so patterns for the next questions do not need to copy long trigger lists. It makes the next subject pattern visible before a number, adjective, level, score, metric, or benchmark result is treated as actionable.
 
-**Trade-offs.** Some compact phrases become longer because the bearer, characteristic, scale, threshold, proxy, or governing pattern must be named. The gain is that measurement, quality, mathematical-lens, evidence, assurance, gate, decision, and causal-use claims do not hide inside one scalar word.
+**Trade-offs.** Some compact phrases become longer because the bearer, characteristic, scale, threshold, proxy, or subject pattern must be named. The gain is that measurement, quality, mathematical-lens, evidence, assurance, gate, decision, and causal-use claims do not hide inside one scalar word.
 
-**Stop condition.** Stop using C.16.P once the characteristic-scale construction and the governing pattern are recoverable. The repaired claim then belongs to `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or the neighboring pattern named by value.
+**Stop condition.** Stop using C.16.P once the characteristic-scale construction and the subject pattern are recoverable. The repaired claim then belongs to `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.29`, `E.21`, or the neighboring pattern named by value.
 

@@ -6,16 +6,17 @@ section_id: "E.4.DPF:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:5 — Archetypal Grounding"
-line_start: 70700
-line_end: 70764
+line_start: 71123
+line_end: 71187
 dependencies:
   - "A.1.1"
   - "A.15.1"
   - "A.15.PROD"
+  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -29,6 +30,7 @@ dependencies:
   - "C.34"
   - "C.35"
   - "E.10"
+  - "E.10.ARCH"
   - "E.11"
   - "E.17"
   - "E.19"
@@ -41,10 +43,18 @@ dependencies:
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
+  - "F.0.1"
+  - "F.0.2"
+  - "F.1"
   - "F.18"
+  - "F.6"
   - "G.11"
   - "G.2"
 keywords:
+  - "& Search Queries. If the package uses a domain or local PatternID prefix"
+  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
+  - "do not copy first move"
+  - "result"
 ---
 
 ### E.4.DPF:5 - Archetypal Grounding
@@ -52,22 +62,22 @@ keywords:
 
 Tell: A hydroponic-cucumber framework begins with crop-production concerns, horticulture and greenhouse-control sources, local examples, and FPF Core dependency. Its first all-in-one publication carrier is for domain users, while relation records, source packs, and quality evaluations remain separately recoverable.
 
-Show: A neural-network architecture framework may draw on dataflow architecture, model components, training and inference concerns, evaluation practice, and recent architecture-analysis work. The framework can describe layers, blocks, flows, optimization constraints, and interpretability concerns; each resulting pattern is grounded through `G.2`, drafted through `E.8`, and related through `E.4.PFR`.
+Show: A neural-network architecture framework may draw on dataflow architecture, model components, training and inference concerns, evaluation practice, and recent architecture-analysis work. The framework can describe layers, blocks, flows, optimization constraints, and interpretability concerns. For each resulting pattern, choose the smallest source route that preserves the relied claims and limits; use `G.2` only when the framework needs a broad, refreshable SoTA pack and downstream Part G handoffs. Draft the pattern with `E.8`, and record material relations with `E.4.PFR` when a named use needs them.
 
 Show: A workspace-specific Codex process framework can contain prelanding and baton-handoff patterns. It should state its local context, dependency on FPF Core, process sources, local carriers, and refresh route. A useful local checklist stays a local checklist until it has source grounding, pattern bodies, direct assertions of material relations, and quality evaluation. Add a relation or edition record only when a named maintenance use needs it.
 
-Show: An enterprise local practice framework for architecture review starts from the organization's review context, internal policies, proprietary examples, and approval path. It can depend on FPF Core and on a domain principle framework, but its confidential evidence, role assignments, training plan, and rollout telemetry stay local.
+Show: An enterprise local practice framework for architecture review starts from the organization's review setting, internal policies, proprietary examples, and approval path. It can depend on FPF Core and on a domain principle framework, but its confidential evidence, any local records about exact system-role classifications or assignment occurrences, training plan, and rollout telemetry stay local. Access, custody, maintenance, responsibility, authority, and approval remain separate direct claims.
 
 Enterprise local-practice slice:
 
 | Output | Enterprise question |
 | --- | --- |
-| Local context | Which organization, product line, team, role context, and decision class is governed? |
+| Local setting | Which organization, product line, team, practitioner or audience position, and decision class are in scope? When a claim depends on a local system-role kind, classification, assignment occurrence, or another direct relation, state that claim separately through `E.10.ROLE` and its direct pattern. |
 | Internal sources | Which policies, standards, review records, incidents, templates, and examples are adopted or rejected? |
 | Constraints | Which regulatory, confidentiality, intellectual-property, tool-access, and security boundaries constrain publication? |
-| Stewardship assignments | Which steward role is assigned responsibility for the framework edition, source pack, relation records, publication or access carrier, and refresh plan? |
+| Stewardship and maintenance | Which admitted Systems actually perform any framework-authoring, source-pack maintenance, relation-record maintenance, publication or access, or refresh occurrence claimed as `U.Work`? For each performer, which declared assignment covers the Work, names that System as its holder, and is linked to the Work by F.6? Which separate local system-role classification, maintenance, responsibility, authority, access, or source-custody relation obtains, and which `missing-governor` result applies when one is required but absent? |
 | Approval route | Which management, engineering, safety, legal, or assurance reviews are needed before local use? |
-| Rollout and training | Which roles need first-use examples, training material, and migration support? |
+| Rollout and training | Which intended practitioners, audience groups, or independently classified Systems need first-use examples, training material, or migration support? The wording alone creates no system-role kind, assignment, training Work, responsibility, or authority. |
 | Dependency | Which FPF Core edition and domain framework edition are depended on, and which reverse dependency is blocked? |
 | Migration | What changes after FPF Core edition change, domain-framework edition change, policy change, or repeated local misuse? |
 | Adoption telemetry | Which reader errors, skipped relation records, stale source packs, or quality regressions trigger `G.11` refresh? |
@@ -77,7 +87,7 @@ Replayable authoring slice:
 | Authoring output | Filled slice |
 | --- | --- |
 | Domain or local use-frame declaration | `GreenhouseCropDomain`; effective scheme and ClaimScope named; intended reader: crop-system architect and senior grower; first use: decide first pattern set for cucumber production guidance; non-use and qualification window explicit |
-| `G.2` source pack | greenhouse climate-control sources, crop nutrition sources, local production logs; rejected source: generic gardening advice without controlled-environment evidence |
+| Selected source basis and synthesis route | `G.2` pack selected because the four-pattern framework needs a broad, refreshable source basis: greenhouse climate-control sources, crop nutrition sources, and local production logs; rejected source: generic gardening advice without controlled-environment evidence |
 | Architecture answer | One `E.9` DRR guided by `E.4.PFAD` selects four first patterns, states their material relations directly, selects a publication or access consequence, and records a one-way dependency on FPF Core; no PFAD relation or mandatory PFR row is created. |
 | Naming route | provisional `HydroponicCucumberPrincipleFramework`; the public abbreviation remains provisional until an `F.18` NameCard is current |
 | First pattern draft | `HC.NutrientMonitoring` drafted with `E.8`: problem frame, solution, worked greenhouse slice, SoTA row, conformance checks |
@@ -110,5 +120,5 @@ A named next authoring use needs a stable dependency account. The Core edition i
 
 #### Framework-evolution slice
 
-A new controlled-environment study changes the admissible nutrient range used only by `HC.NutrientMonitoring`. `G.2` first revises the source-use decision and preserves the displaced source reading. `E.4.PFR` identifies the nutrient pattern, its source-reuse relation, and its dependent examples as the affected set. `E.21` evaluates the revised pattern body; `E.23` governs repeated improvement of that pattern edition; `G.11` governs currentness, telemetry, and deprecation or supersession of exposed editions. Unaffected climate-control and harvest-feedback patterns remain current. `E.4.PFAD` stays closed while framework family, pattern split, relation structure, publication or access architecture, and dependency boundary remain unchanged; a change to one of those decisions makes PFAD current again.
+A new controlled-environment study changes the admissible nutrient range used only by `HC.NutrientMonitoring`. Because this example selected a broad, refreshable `G.2` pack, first revise that pack and preserve the displaced source reading. Use `E.4.PFR` to identify the nutrient pattern, its source-reuse relation, and its dependent examples as the affected set; use `E.21` to evaluate the revised pattern body; use `E.23` for repeated improvement of that pattern edition; and use `G.11` for currentness, telemetry, and deprecation or supersession of exposed editions. Unaffected climate-control and harvest-feedback patterns remain current. `E.4.PFAD` stays closed while framework family, pattern split, relation structure, publication or access architecture, and dependency boundary remain unchanged; a change to one of those decisions makes PFAD current again.
 

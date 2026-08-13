@@ -6,12 +6,12 @@ section_id: "A.15.4:End"
 section_title: "A.15.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__018_a-15-4-end.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:End — A.15.4:End"
-line_start: 26058
-line_end: 26059
+line_start: 26256
+line_end: 26257
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"

@@ -6,12 +6,12 @@ section_id: "F.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:1 — Problem frame"
-line_start: 97409
-line_end: 97428
+line_start: 98633
+line_end: 98652
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -39,7 +39,7 @@ Mature technical languages accumulate enough ontology that many bad sentences ar
 
 The repair question is:
 
-> What content remains when words that add no object, kind, relation, claim, role, flow, evidence value, or user-facing action are removed?
+> What content remains when words that add no object, kind, relation, claim, system-role or function distinction, flow, evidence value, or user-facing action are removed?
 
 Examples inside FPF:
 

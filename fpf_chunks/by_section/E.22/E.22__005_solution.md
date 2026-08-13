@@ -6,12 +6,12 @@ section_id: "E.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:4 — Solution"
-line_start: 87298
-line_end: 87510
+line_start: 87976
+line_end: 88191
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -34,14 +34,14 @@ keywords:
 
 #### E.22:4.1 - Local names and kind settlement
 
-The framing episteme, evaluation method, descriptions used by that method, performer assignment, dated evaluation Work, actual operation application, evidence use, and result occupy different positions. `QualityEvaluationUseDeclaration` keeps the intended evaluation bindings together without collapsing those kinds.
+The framing episteme, evaluation method, descriptions used by that method, intended evaluator or planned condition, current evaluator System and assignment occurrence, dated evaluation Work, actual operation application, evidence use, and result occupy different positions. `QualityEvaluationUseDeclaration` keeps the applicable evaluation bindings together without collapsing those kinds or turning a plan into a current occurrence.
 
 The remaining local support names ending in `@Context` are compatibility and retrieval names only. The suffix supplies no context entity, scope, participant, relation, or identity component; every episteme follows C.2.1 identity, every set is identified by its stated extensional rule, and every neighboring Work, decision, evidence, viewpoint, grounding, or result relation remains under its direct governor.
 
-| Local name | Kind and role |
+| Local name | Kind and use in this pattern |
 |---|---|
 | `QualityEvaluationQuestionFrame` | `U.Episteme` whose EntityOfConcern is the exact object version under evaluation; its ClaimGraph carries the requested quality-evaluation question about that version and its exact use bindings. |
-| `QualityEvaluationUseDeclaration` | `U.Episteme` whose EntityOfConcern is the same exact object version. It describes how evaluation of that version is intended to be performed and interpreted, referring separately to performer assignment, governing evaluation pattern, optional semantic method, selected characteristic space, predicate/comparator binding, ClaimScope, quality-model descriptions, expected evidence basis, result form, and qualification window. |
+| `QualityEvaluationUseDeclaration` | `U.Episteme` whose EntityOfConcern is the same object version. It describes how evaluation of that version is intended to be performed and interpreted, referring separately to the evaluation pattern, optional semantic Method, selected characteristic space, predicate and any comparator, ClaimScope, quality-model descriptions, expected evidence basis, result form, and qualification window. It may name an intended evaluator or planned condition without asserting current assignment or Work; current evaluator-System and assignment references are a separate actual-state branch. |
 | `ObjectVersionUnderQualityEvaluation` | Exact `U.Entity` version being evaluated, paired with its exact `U.Kind`. |
 | `EvaluationCharacteristicSpaceSelection` | One exact `U.CharacteristicSpace` selected for this evaluation use. Its specification description is a separate episteme and does not become the space. |
 | `EvaluationCriterionSelection` | The exact by-value `CharacteristicSpacePredicate`, exact admitted `ComparatorSpecRef`, or both, required by the governing evaluation pattern and, when declared, its separately identified semantic evaluation Method. At least one is present. |
@@ -68,7 +68,10 @@ QualityEvaluationUseDeclaration <: U.Episteme:
   claimGraph: U.ClaimGraph by value
   referenceScheme: U.ReferenceScheme by value
   editionId
-  evaluationPerformerRoleAssignmentRef?: U.EntityRef, referencing one U.RoleAssignment
+  intendedEvaluatorSystemRef?: U.EntityRef, referencing one admitted U.System intended for the evaluation without asserting actual performance
+  plannedEvaluatorConditionRef?: U.EpistemeRef, referencing an episteme that states the planned evaluator condition, or one independently admitted A.15.2 U.WorkPlan
+  evaluationPerformerSystemRef?: U.EntityRef, referencing the admitted evaluator U.System; it counts as a performer only when the evaluation-Work branch establishes that fact
+  evaluationPerformerSystemRoleAssignmentRef?: U.RelationRef, referencing the covering assignment occurrence for evaluationPerformerSystemRef; its declared species supplies all participant meanings, the local assigned system-role-kind domain, rule, applicability, and occurrence identity
   evaluationPatternLocator: U.EntityRef, locating the exact FPF pattern description that contains the defining or constraining ClaimGraph
   semanticEvaluationMethodRef?: U.MethodRef, referencing the separately identified U.Method used for the evaluation
   selectedEvaluationCharacteristicSpaceRef: U.EntityRef, referencing one exact U.CharacteristicSpace
@@ -102,13 +105,13 @@ ExpectedEvaluationEvidenceBasis@Context <: U.Episteme:
 
 Every field above with a `*Ref` suffix stores the stated A.6.5 `RefKind`; resolving it yields the referent kind named after `referencing`. The use declaration and expected evidence basis carry the same exact object version, governing evaluation pattern, selected characteristic space, criterion binding, ClaimScope, and qualification window. The expected basis does not point back to the declaration: it can be constituted from those exact values, expected evidence positions and relation kinds, and missingness rule; the declaration is then constituted with a reference to that completed basis. This preserves the former acyclic construction.
 
-At least one of `selectedEvaluationPredicate` and `selectedComparatorSpecRef` is present; both may be present. A label such as *review*, *quality*, or *current context* supplies neither. A.19 owns the predicate by value. A.19.CPM or the exact direct consumer owns comparator admission and any actual comparison application. Neither the predicate nor comparator owns evaluation scope, evidence, time, Work, or result.
+At least one of `selectedEvaluationPredicate` and `selectedComparatorSpecRef` is present; both may be present. A label such as *review*, *quality*, or *current context* supplies neither. A.19 defines the predicate by value. Use A.19.CPM or the exact direct consumer rule for comparator admission; identify any actual comparison application separately. Neither the predicate nor comparator defines evaluation scope, evidence, time, Work, or result.
 
-`evaluationPerformerRoleAssignmentRef` identifies who is assigned to perform the evaluation; it is neither the semantic Method nor the object being evaluated. `evaluationPatternLocator` locates the exact FPF pattern description containing the defining or constraining ClaimGraph; it is neither the semantic Method, performer, dated Work, nor result. If that description is asserted to be a `U.MethodDescription`, its membership requires an independent A.3.2 result. `semanticEvaluationMethodRef`, when recoverable, identifies the separately admitted Method used for the evaluation. Any episteme claimed to describe that Method remains a separate object and requires an independent A.3.2 membership result. The characteristic-space, Q-Bundle, rubric, review-profile, evidence-basis, and result-form references identify separate epistemes that specify the quality model or its use; they do not supply an actor and do not become alternative values of the pattern or method slots.
+`intendedEvaluatorSystemRef` and `plannedEvaluatorConditionRef` state pre-evaluation intent; neither makes an assignment or Work occurrence obtain. When current evaluator and assignment references are present, the first names the performer System and the second names the assignment it holds; the assignment may obtain before evaluation Work. Keep any local evaluator system-role classification separate and route unresolved *role* wording through `E.10.ROLE`. `evaluationPatternLocator` locates the pattern that defines or constrains the evaluation; it is not the Method, performer, Work, or result. Claim Method or MethodDescription identity only after A.3.1 and A.3.2 admit it. Characteristic-space, Q-Bundle, rubric, profile, evidence-basis, and result-form references remain separate descriptions and supply no actor.
 
-None of these declaration fields is dated evaluation Work or an evaluation result. When evaluation is performed, A.15.1 identifies one dated `U.Work` and its direct method-enactment relation. The direct evaluation pattern contains the defining content for the exact evaluation and typed result; when it exposes a reusable operation, A.6.1 separately identifies the actual application and result binding. A durable result episteme, when needed, remains under C.2.1. Actual evidence use, provenance, currentness, viewpoint selection, empirical grounding, and any work-to-result or decision-use relation remain separate under their direct governors. A frame, declaration, description, role assignment, dashboard, or carrier establishes none of those occurrences.
+None of these declaration fields is dated evaluation Work or an evaluation result. When actual evaluation is Work, A.15.1 and F.6 identify its time, Method, containing System, performer, and assignment. The evaluation pattern defines the evaluation and result; A.6.1 identifies an operation application and its bindings only when that branch is current. A short frame or result may omit unused identifiers. Keep any durable result episteme, evidence use, provenance, currentness, viewpoint, grounding, and Work-to-result or decision-use relation under their own patterns. A frame, declaration, description, assignment, dashboard, or carrier establishes none of them.
 
-Two carriers may publish the same edition of either episteme. A `QualityEvaluationUseDeclaration` changes edition when its exact object version, claim graph, reference scheme, performer assignment, governing evaluation pattern, semantic method, selected characteristic space, predicate/comparator binding, ClaimScope, qualification window, quality-model descriptions, expected evidence-basis edition, or result-form description changes. An `ExpectedEvaluationEvidenceBasis@Context` changes edition when its object version, claim graph, reference scheme, governing evaluation pattern, selected space, predicate/comparator binding, ClaimScope, expected evidence positions or relation kinds, missingness rule, or qualification window changes. Carrier, context label, viewpoint, grounding record, or support serialization alone changes neither episteme. `TradeoffProtectionSet@Context` and `CandidateImprovementProposalPortfolio@Context` are set values, not records; an episteme may describe or publish either set without becoming the set.
+Two carriers may publish the same edition of either episteme. A `QualityEvaluationUseDeclaration` changes edition when its object version, claim graph, reference scheme, intended evaluator or planned evaluator condition, current evaluator System or assignment occurrence, evaluation pattern, semantic Method, selected characteristic space, predicate and comparator, ClaimScope, qualification window, quality-model descriptions, expected evidence-basis edition, or result-form description changes. An `ExpectedEvaluationEvidenceBasis@Context` changes edition when its object version, claim graph, reference scheme, evaluation pattern, selected space, predicate and comparator, ClaimScope, expected evidence positions or relation kinds, missingness rule, or qualification window changes. Carrier, context label, viewpoint, grounding record, or support serialization alone changes neither episteme. `TradeoffProtectionSet@Context` and `CandidateImprovementProposalPortfolio@Context` are set values, not records; an episteme may describe or publish either set without becoming the set.
 
 #### E.22:4.2 - Quality evaluation purposes
 
@@ -158,7 +161,7 @@ The shortest floor frame names the object version, one `QualityEvaluationUseDecl
 
 The frame does not authorize post-hoc scope replacement. If the requested floor is landing-input, corpus-facing, `Stable`, release, external-review, or another stated use, the evaluator measures that use. If a different use becomes interesting, open a new `QualityEvaluationQuestionFrame`; do not report the current request as passed under an easier scope.
 
-The frame and declaration perform no evaluation. A dated evaluation Work occurrence, its method enactment, any actual operation application, actual evidence use, typed result binding or direct result relation, and optional result episteme remain separate. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
+The frame and declaration perform no evaluation. An intended evaluator or planned condition makes neither a current assignment nor Work obtain. When dated evaluation Work is asserted, keep its performer System, the A.15.1 and F.6 actual-Work account, evidence use, typed result binding or direct result relation, and optional result episteme separate. An expected result-form description is not the result, and the consuming work or decision does not become current merely because the frame names it.
 
 #### E.22:4.4 - Finding and proposal rows
 

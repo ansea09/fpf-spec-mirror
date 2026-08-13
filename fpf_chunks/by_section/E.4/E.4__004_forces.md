@@ -6,12 +6,12 @@ section_id: "E.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:3 — Forces"
-line_start: 69875
-line_end: 69886
+line_start: 70277
+line_end: 70288
 dependencies:
   - "C.33"
   - "C.34"
@@ -44,7 +44,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Core stability | The FPF Core must stay stable enough to govern other frameworks, while domain and local frameworks need faster evolution. |
+| Core stability | The FPF Core must stay stable enough to supply dependable constraints to downstream frameworks, while domain and local frameworks need faster evolution. |
 | Reuse and bounded context | Domain and local frameworks should reuse FPF Core distinctions, but they must not silently redefine Core meaning. |
 | Publication pressure | Readers need all-in-one carriers, tables of contents, cards, examples, and first-entry material, but those carriers do not by themselves settle architecture. |
 | Relation richness | Pattern ecosystems need recommendation, specialization, dependency, publication, preservation, evaluation, and source-use relations, but a single "related patterns" list hides the relation function. |

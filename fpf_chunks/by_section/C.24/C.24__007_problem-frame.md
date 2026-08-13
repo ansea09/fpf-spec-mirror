@@ -6,12 +6,12 @@ section_id: "C.24:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__007_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:1 — Problem frame"
-line_start: 52723
-line_end: 52742
+line_start: 52987
+line_end: 53006
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,14 +43,14 @@ keywords:
 
 ### C.24:1 - Problem frame
 
-Modern systems in agential roles increasingly rely on tool-call planning: selecting admissible tool-service routes, arranging intended call work, and replanning under uncertainty. Without a calculus:
+Modern tool-using Systems increasingly rely on tool-call planning: selecting admissible tool-service routes, arranging intended call Work, and replanning under uncertainty. A local agential-system-role classification or assignment is included only when the current claim needs that separate fact. Without a calculus:
 
 * calls are scheduled by **ad-hoc heuristics**,
 * **budgets** (compute, cost, wall-time) are implicit,
 * **assurance** and **policy provenance** are lost, and
-* systems in agential roles either over-constrain themselves with brittle scripts or wander without guard-rails.
+* tool-using Systems either over-constrain their plans with brittle scripts or wander without guard-rails.
 
-This CAL provides the **conceptual API for thought** that lets any implementation (LLM-based, search-based, code-based, robotic) plan calls **admissibly**, **auditably**, and **scalably**. (Role-Method-Work alignment; didactic primacy.)
+This CAL provides the **conceptual API for thought** that lets any implementation (LLM-based, search-based, code-based, robotic) plan calls **admissibly**, **auditably**, and **scalably**. It keeps the planning System, any separately current classification or assignment, selected Methods, intended plan, and actual Work distinct.
 
 Immediate failure indicators for this pattern:
 

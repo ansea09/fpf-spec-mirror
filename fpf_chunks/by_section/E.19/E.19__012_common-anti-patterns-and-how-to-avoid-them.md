@@ -6,12 +6,12 @@ section_id: "E.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86299
-line_end: 86329
+line_start: 86976
+line_end: 87006
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,14 +27,12 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities (e.g"
-  - "and (if needed) reference them from CC items"
+  - "MUST NOT modify modeled-world entities such as Earth"
+  - "a system-role kind"
+  - "an assignment"
   - "inside the predicate)"
+  - "or a holon"
   - "where a non-deontic Invariant: predicate is required)"
-  - "“Earth”"
-  - "“RoleAssignment”"
-  - "“Role”"
-  - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
 ### E.19:8 - Common Anti-Patterns and How to Avoid Them
@@ -44,9 +42,9 @@ keywords:
 | **Primary-EntityOfConcern drift** | The draft appears to govern one thing in the opening, another in the declaration block, and a third in the examples or related-pattern or companion guidance named by value. | Review cannot tell whether the pattern defines or constrains a `PublicationUnit`, an interpretive move, a work-result record, or a whole process, so later naming and boundary decisions become unstable. | Stabilise one primary `EntityOfConcern` early, keep its head kind explicit, and mark note, sheet, UI, rendering, or process labels as either examples of that object or separate related entities rather than stylistic substitutes. |
 | **Reader-fit clean but pragmatically foggy** | The draft is addressed to the right reader in principle, but cold working readers still cannot recognise the situation, practical payoff, primary `EntityOfConcern`, relation named by value, claim record, or first useful move early enough. | The run passes reader-fit hygiene while still failing pragmatic fit and first-minute usability. | Pull a recognisable working situation upward, add one minimally viable worked case, make the practical payoff explicit in nearby user-facing prose, expose the primary `EntityOfConcern` and any minimal modeling lens in plain terms, add plain glosses for early claim-bearing terms, and require `SoTA-Echoing` rows that carry claim kind, admissible-use boundary, or explanatory work to name the practitioner or manager implication plus the case they discipline. |
 | **Architecture-clean but domain-thin** | The text is internally well placed in the package, but the primary `EntityOfConcern`, narrowed branch, or practical payoff are justified mainly through package architecture while the problem-owning domain, practice, or SoTA appears late or decoratively. | The pattern passes internal architecture checks while drifting away from the domain whose work it claims to improve. | Pull the problem-owning domain moment into the recognition text, make the narrowed branch and primary `EntityOfConcern` answerable to the relevant domain or practice, and require FPF-governed `SoTA-Echoing` to discipline the practical cases rather than merely bless them after the fact. |
-| **Type-correct but inert epistemic precision cleanup** | An `E.10`-triggered repair restores kind language but leaves the reader unable to say why the distinction matters, what use remains, which definition, constraint, or test carries a formal claim, or how Plain wording maps back to the Tech reading when both registers are used. | The review accepts typed wording while losing action guidance. | Restore the working situation, remaining admissible use, and the contributing pattern or rule; map Plain wording back to the Tech reading when both are used. Add an assertion, predicate, `ClaimGraph`, Method, performer, assignment, or Work identity only when a live contrast or named reliance needs it; otherwise keep the ordinary explanation. |
+| **Type-correct but inert epistemic precision cleanup** | An `E.10`-triggered repair restores kind language but leaves the reader unable to say why the distinction matters, what use remains, which definition, constraint, or test carries a formal claim, or how Plain wording maps back to the Tech reading when both registers are used. | The review accepts typed wording while losing action guidance. | Restore the working situation, remaining admissible use, and the contributing pattern or rule; map Plain wording back to the Tech reading when both are used. Keep the explanation ordinary unless a live contrast or named reliance needs an exact assertion, predicate, `ClaimGraph`, or displayed identity. If the repaired Tech reading asserts actual `U.Work`, apply CC-E19-0; compact omission of unused identities does not relax the world-side facts. |
 | **Expressive overread rebound after epistemic precision cleanup** | The pass makes the text more engaging, but the added Plain or didactic wording carries an ontological, evidence, causal, assurance, bridge, gate, work, decision, or admissibility claim not recoverable from the Tech reading or cited rule. | The review mistakes readability for recovered semantic work. | Keep the line ordinary when it only helps recognition. Otherwise recover the claim kind or admissible-use boundary through the Tech reading and cite the pattern or rule that defines or tests it, or demote the phrase to reduced-use cue, quote-only wording, blocked transfer, or rewrite incomplete. |
-| **Profile or record as reviewer.** | A selected PCP, checklist, findings form, result episteme, or review record is said to have performed the review, repaired the pattern, admitted it, supplied assurance, or authorized downstream use. | Reviewer action, repair, result, evidence, and decision authority collapse. | Name the reviewer and the action actually performed. Add Method, assignment, dated Work, check-application, evidence, assurance, or decision relations only when the claim depends on them; profiles declare checks and records package references only. |
+| **Profile or record as reviewer.** | A selected PCP, checklist, findings form, result episteme, or review record is said to have performed the review, repaired the pattern, admitted it, supplied assurance, or authorized downstream use. | Reviewer action, repair, result, evidence, and decision authority collapse. | Say ordinarily that a reviewer applies the questions and name the action actually performed. Do not add a system-role kind, assignment, Method, or Work assertion merely to formalize that sentence. When the claim does assert actual `U.Work`, apply CC-E19-0; add check-application, evidence, assurance, or decision relations only when they independently obtain and the claim consumes them. Profiles declare checks and records package references only. |
 | **Verdict-only review** | Independent review ends with pass/fail or prose complaints but no complete actionable finding set, or repair-mode review reports defects without repairing and rechecking them. | Leaves later work to rediscover diagnosis or mistakes an intention to repair for a completed repair. | In independent review, record every actionable in-scope defect and blocker with precise direction; in inspect-repair-verify, repair and verify them. Questions with no defect get no durable pass recital. |
 | **Single giant checklist** | Review becomes a long, unfocused ritual that few complete. | Increases cost; reduces fit and rigor in practice. | Use a minimal baseline plus risk-selected profiles; use `E.21` only when a pattern-version quality value is being evaluated. |
 | **Template-only compliance** | All headings exist, but requirements are vague and untestable. | Looks uniform; fails enforceability and auditability. | Enforce normative clause hygiene and CC/Solution coherence. |

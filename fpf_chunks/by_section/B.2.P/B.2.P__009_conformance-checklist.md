@@ -6,12 +6,12 @@ section_id: "B.2.P:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:6 — Conformance Checklist"
-line_start: 37565
-line_end: 37580
+line_start: 37775
+line_end: 37790
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,10 +50,10 @@ keywords:
 | --- | --- |
 | `CC-B2P-1` | Precision restoration starts with claim-kind recovery, not lexical replacement. |
 | `CC-B2P-2` | No generic `U.Emergence` is created. |
-| `CC-B2P-3` | Whole reidentification returns to B.2; B.2.P does not declare MHT. |
-| `CC-B2P-4` | Collection admission remains with direct owners unless collection wording is entangled with emergence-family or MHT wording. |
-| `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, math-lens, publication, and source-use claims keep their direct owners. |
-| `CC-B2P-6` | Source mnemonics and result-field spellings do not become pattern owners or U-kinds. |
+| `CC-B2P-3` | Whole reidentification requires B.2; B.2.P does not declare MHT. |
+| `CC-B2P-4` | Collection admission remains with subject patterns unless collection wording is entangled with emergence-family or MHT wording. |
+| `CC-B2P-5` | Capability, functioning, characteristic, architecture, evidence, math-lens, publication, and source-use claims keep their subject patterns. |
+| `CC-B2P-6` | Source mnemonics and result-field spellings do not identify subject patterns or become U-kinds. |
 | `CC-B2P-7` | Replacement wording is scanned again for E.10 triggers before it is admitted as live FPF wording. |
 | `CC-B2P-8` | Whole-reidentification recovery names the exact existing whole, changed direct facts, exact candidate new whole, every condition of the complete A.1 criterion including governed larger-assembly compatibility, and whether the existing whole continues or the new whole must be identified, without a generic recovery record or bounded-context field. |
 | `CC-B2P-9` | Evidence, evaluation, assertion or record identity, G.11 currentness, and receiving reliance remain separate from world-side construction and reidentification. |

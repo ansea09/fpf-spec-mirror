@@ -6,12 +6,12 @@ section_id: "A.6.B:15a"
 section_title: "Probe-coupled boundary claim classification"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__018_probe-coupled-boundary-claim-classification.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:15a — Probe-coupled boundary claim classification"
-line_start: 10990
-line_end: 11021
+line_start: 11205
+line_end: 11236
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -49,7 +49,6 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "a duty or commitment D- claim MUST name its accountable subject"
   - "accountable norms and grants"
   - "actual exercise"
   - "and MAY"
@@ -69,7 +68,6 @@ keywords:
   - "institutional obtaining"
   - "laws"
   - "may"
-  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
   - "observable effects and evidence"
@@ -77,6 +75,7 @@ keywords:
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
+  - "responsibility"
   - "they report adjudicable results rather than obligations"
   - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
@@ -92,7 +91,7 @@ Probe-coupled boundary language does not create a fifth quadrant. A boundary sen
 Action classification:
 
 1. Copy the boundary sentence being used for a decision.
-2. Split it into atomic claims before judging it: definition or law claim, admissibility or use-condition claim, role commitment, and work-and-evidence effect claim.
+2. Split it into atomic claims before judging it: definition or law claim, admissibility or use-condition claim, individual duty claim, and work-and-evidence effect claim.
 3. Give each atomic claim its quadrant and identifier.
 4. Put the state, probe, update, or export part in the quadrant where it belongs rather than treating "quantum-like boundary" as one claim.
 5. Apply `A.6.P` to reusable relation words; use `F.18` only when recovered terms need durable names; apply `A.10` to evidence; apply `B.3` to assurance; apply `C.16` to measurement; apply `C.26.1` to any remaining probe-coupled state-reading claim.
@@ -104,7 +103,7 @@ For a local working note, the lighter action is enough: atomize the sentence men
 | --- | --- | --- |
 | The term, variable, state, frame, or relation being defined | `L-*` law or definition claim | Definition or invariant, without agent obligation language |
 | When a probe, metric, question, or bridge use is usable for the intended decision | `A-*` admissibility or use claim | Use condition, admissible use, non-admissible use, and neighboring-pattern continuation |
-| Who is responsible for applying, retaining, exposing, or not overusing the probe result | `D-*` role or commitment claim | Accountable role and referenced L/A/E claim IDs |
+| Who has a duty to apply, retain, expose, or avoid overusing the probe result; and, if separately claimed, who bears responsibility | `D-*` claim about one exact `U.Commitment`; separate direct responsibility claim or missing governor | Actual duty bearer and referenced L/A/E claim IDs; responsibility predicate, participants, scope, and identity only when that relation independently obtains |
 | What work effect, carrier, trace, report, metric, or observed before-state or after-state supports the claim | `E-*` work-effect and evidence claim | Carrier, observation condition, time window, and evidence reference |
 
 Useful outputs:

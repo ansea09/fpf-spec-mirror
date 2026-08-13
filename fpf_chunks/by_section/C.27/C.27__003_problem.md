@@ -6,12 +6,12 @@ section_id: "C.27:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:2 — Problem"
-line_start: 55186
-line_end: 55333
+line_start: 55454
+line_end: 55601
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -155,7 +155,7 @@ Do not use C.27 when:
   only naming the temporal-claim adequacy question if scale change is used as the scale-variable relation for
   rate-change, learning, recovery, throughput, or stabilization;
 - the question under repair is a work plan, tool-use plan, method description, or authorized
-  intervention actor reference or role assignment: the planning pattern carries the plan, with C.27 only active
+  claimed intervention applier or exact assignment: the planning pattern carries the plan, with C.27 only active
   when the plan's supported use depends on rate-change, recovery, stabilization,
   or braking;
 - the question under repair is task-family specialization: C.22.1 carries adaptation

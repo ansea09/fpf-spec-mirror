@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 91664
-line_end: 91768
+line_start: 92398
+line_end: 92520
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,129 +22,146 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:4 - Solution
 
-Govern performed-work attribution as one direct relation species under `U.Relation`.
+Treat performed-Work attribution as one direct relation species under `U.Relation`.
 
 #### F.6:4.1 - Direct Relation Declaration
 
 ```text
 performedUnderAssignment : U.Relation
   WorkOccurrenceSlot: U.Work, U.EntityRef
-  RoleAssignmentSlot: U.RoleAssignment, U.EntityRef
+  SystemRoleAssignmentSlot: U.SystemRoleAssignment, U.RelationRef
 
 when performedUnderAssignment(W, RA) obtains:
   actualPerformerSystem(W, RA) := RA.HolderSystemSlot
 ```
 
-`WorkOccurrenceSlot` names the dated performed occurrence governed by `A.15.1`. `RoleAssignmentSlot` names the obtaining assignment occurrence governed by `A.2.1`.
+`WorkOccurrenceSlot` names the dated Work admitted under A.15.1. The declaration-local `SystemRoleAssignmentSlot` names one occurrence of an admitted assignment species declared under `U.SystemRoleAssignment`. Its `U.RelationRef` names that occurrence and is limited to `U.SystemRoleAssignment`. Filling the two slots, matching the holder, or finding temporal overlap does not establish that this Work was performed under this assignment; the case must independently establish that link.
 
-For an obtaining attribution, the readable actual-performer cue is `S = actualPerformerSystem(W, RA) = RA.HolderSystemSlot`: `S` is the admitted `U.System` that acts, while `RA` is the assignment under which that action is attributed. The projection exposes the actor already carried by the assignment participant; it does not assert attribution when the relation fails to obtain and is not another relation kind or occurrence.
+For an obtaining attribution:
 
-`performedBy(W, RA)` is a deprecated compatibility spelling of `performedUnderAssignment(W, RA)`. Existing claims or records may be read through that alias only after resolving `S = RA.HolderSystemSlot`. New practitioner-facing claims, examples, and conformance statements MUST use `S performed W under RA` or `performedUnderAssignment(W, RA)`, never wording that makes `RA` the performer.
+```text
+S = actualPerformerSystem(W, RA) = RA.HolderSystemSlot
+```
 
-No evidence, log, status, method description, result, publication, context record, or role-state assertion is a generic participant in this relation.
+`S` is the admitted system that acts. `RA` is the assignment under which Work is attributed. The projection exposes the holder already carried by the assignment; it creates neither attribution nor a generic assignment occurrence and discards none of RA's additional participants.
 
-`performedUnderAssignment` also has no method participant. Because `W` is an admitted Work occurrence, an assertion or description about it must separately make recoverable the actual `enactsMethod(W, M)` relation governed by `A.15.1`, for one exact `M : U.Method`. The holder system acts and performs `W`; neither `RA`, its role value, a capability or algorithm-possession phrase, `M`, nor a method-description episteme `D` thereby acts or performs the work. Citing `D` may identify, constrain, or justify `M` for a receiving use, but it neither enacts `D` nor establishes that `D : U.MethodDescription`; apply `A.3.2` to that membership question independently.
+`performedBy` remains only a deprecated source relation name. Read it through the direct relation after recovering the assignment holder as the performer. New practitioner-facing claims say that the holder System performed the Work under the assignment, or name `performedUnderAssignment` when the relation name is needed; they never make the assignment the performer.
+
+No evidence, log, status, MethodDescription, result, publication, context record, or assignment-state assertion is a generic attribution participant.
 
 #### F.6:4.2 - Obtaining and Occurrence Identity
 
-The relation `performedUnderAssignment(W, RA)` obtains when:
+The direct Work-assignment attribution is a world-side fact, separate from any assertion or evidence. A positive check requires all of the following:
 
-1. `W` is one exact dated `U.Work` occurrence governed by `A.15.1`;
-2. `RA` is one obtaining `U.RoleAssignment` occurrence;
-3. the holder system in `RA.HolderSystemSlot` actually performed `W` under `RA.RoleValueSlot`;
-4. the assignment predicate for `RA` obtains throughout the temporal extent of `W`.
+1. `W` is one exact dated `U.Work` occurrence;
+2. `RA` is one named assignment occurrence of a declared `U.SystemRoleAssignment` species, with all identity-bearing participants and its rule recovered;
+3. the case establishes that `W` was performed under `RA`, rather than deriving that link from a label, common holder, assignment existence, or temporal overlap;
+4. `RA.HolderSystemSlot` is the admitted System that actually performed `W`; and
+5. RA's species predicate obtains throughout the attributed temporal extent of `W`.
 
-If the performer attribution concerns only a temporal, episode, or operational part of a larger work whole, first identify that part as the `U.Work` occurrence under `A.15.1` and use it in `WorkOccurrenceSlot`. Do not hide an unidentified work portion inside the attribution relation.
+Conditions 1, 2, 4, and 5 constrain a valid attribution but do not establish it. Two overlapping assignments held by the same System may satisfy all four while the case links the Work to only one. Use that case fact; if it does not distinguish the assignments, leave the attribution unresolved rather than asserting both.
 
-When a receiving use needs an explicit relation-occurrence reference, use:
+If attribution concerns only a temporal, episode, or operational part of a larger Work whole, first identify that part as its own `U.Work` occurrence under A.15.1. Do not hide an unidentified Work portion inside F.6.
 
-```text
-PerformedUnderAssignmentOccurrenceKey = <WorkOccurrenceSlot, RoleAssignmentSlot>
-```
-
-The temporal extent is inherited from `WorkOccurrenceSlot`. Extending an open work interval or later recording its end does not create another attribution occurrence while both participants remain the same. A separately identified work occurrence, including a separately identified work part, or a different assignment episode yields a different relation occurrence.
-
-An evidence gap leaves a relied-on attribution assertion unresolved. It does not demonstrate that `performedUnderAssignment` failed to obtain. A demonstrated different performer or non-covering assignment episode can support the stronger negative claim.
-
-#### F.6:4.3 - Recover the Exact Assignment
-
-Before relying on the attribution, recover the four direct participants of the exact assignment occurrence `RA` that fills `RoleAssignmentSlot`:
+When a receiver needs an explicit attribution occurrence:
 
 ```text
-RoleAssignmentRelationSignature:
-  HolderSystemSlot: U.System, U.EntityRef
-  RoleValueSlot: U.Role, ByValue
-  RoleTaxonomyEpistemeSlot: U.Episteme, U.EpistemeRef
-  EffectiveReferenceSchemeSlot: U.ReferenceScheme, ByValue
+PerformedUnderAssignmentOccurrenceKey =
+  <WorkOccurrenceSlot, SystemRoleAssignmentSlot>
 ```
 
-One assignment occurrence is the maximal continuous period during which the assignment predicate obtains for those fixed four participants. A supporting assertion or occurrence description may state `assignmentInterval`, including an open end, but that field is not a participant and does not establish temporal coverage. Verify coverage for `performedUnderAssignment` from the actual obtaining history of the exact assignment occurrence and the exact work extent.
+This key identifies an already obtaining relation; it does not make one obtain. The attribution extent follows `W`. Extending an open Work interval or later recording its end does not create another attribution occurrence while both participants and the direct relation remain the same. Another Work occurrence, separately identified Work part, or assignment episode yields another possible pair whose relation must be checked independently.
 
-Do not replace these participants with one `Context` value. If source notation contains `Context`, recover what that token denotes and send it to its direct pattern. It may denote an actual system or work locus, a claim scope, or an independently selected `BoundedModelUseStructure`; those objects have different kinds and relations. A selected model-use structure can qualify the receiving attribution assertion, but it is not an optional participant of generic `U.RoleAssignment`.
+An assertion can state the exact pair, and evidence can support reliance on that assertion. Neither the assertion nor its evidence constitutes the world-side relation. Missing evidence leaves reliance unresolved; missing pair grounding leaves the positive attribution unasserted. A demonstrated different performer, non-covering assignment, or false direct pair can support a stronger negative claim.
+
+#### F.6:4.3 - Preserve the Exact Assignment Species
+
+Before checking or relying on attribution, recover RA's declared species and occurrence. This distinguishes the assignment even when the final practitioner sentence omits its full declaration. Every species declares:
+
+- a `HolderSystemSlot` whose value domain is `U.System`;
+- a declaration-local `AssignedSystemRoleKindSlot` whose value domain is the exact local system-role kind;
+- every additional participant meaning and value domain;
+- the rule, applicability, and maximal uninterrupted occurrence identity.
+
+A simple assignment may have only holder and kind. A project appointment may also have `ReviewCommissionSlot`. F.6 accepts both through the family ValueKind and holder projection while retaining the declared species and all participants that distinguish the assignment occurrence. Those participants and the assignment rule still do not establish that the Work was performed under the assignment; the case must establish that link separately. F.6 never creates a two-participant generic assignment beside the appointment.
+
+Taxonomy, scheme, `KindSignature`, assertion, and `assignmentInterval` can interpret or describe RA without becoming participants by default. Verify temporal coverage from whether the assignment rule actually holds, not merely from a recorded interval.
+
+Do not replace the species with one `Context` value. Recover what the source token denotes and use its direct pattern. It can denote a system or Work locus, claim scope, or selected `BoundedModelUseStructure`; those objects are neither interchangeable nor optional participants of generic assignment or attribution signatures.
 
 #### F.6:4.4 - Attribution Check Sequence
 
-Use this short sequence for the current attribution claim:
+1. Name the `U.Work` occurrence whose performer is asserted.
+2. Recover the assignment occurrence, including its declared species, identity-bearing participants, rule, applicability, and time span.
+3. Find the case fact that directly links this Work to this assignment; do not infer that link merely because the holder and interval match.
+4. Confirm that the assignment holder is the actual performer.
+5. Confirm that the assignment predicate obtains throughout the attributed Work interval.
+6. When all five checks pass, state the F.6 relation or say plainly that the holder System performed the Work under that assignment. If the direct link, a participant, or a required constraint is missing, leave the attribution unresolved; if A.15.1 admission depends on it, lower the affected performer or Work claim rather than selecting another covering assignment.
+7. Keep assertions and evidence separate: they can support reliance on the attribution claim but do not make the relation obtain.
+8. Send classification, assignment state, capability, Method, evidence, source use, result, acceptance, publication, bridge, responsibility, and authority questions to their subject patterns.
 
-1. Name the exact `U.Work` occurrence whose performer is being asserted.
-2. Name or recover the exact `U.RoleAssignment` occurrence through its four fixed participants and uninterrupted obtaining extent.
-3. Check that the holder system named by the assignment is the system claimed to have performed the work.
-4. Check that the assignment episode covers the attributed work interval.
-5. State the direct `performedUnderAssignment(WorkOccurrenceSlot, RoleAssignmentSlot)` relation, or keep the attribution assertion unresolved when support is insufficient.
-6. Send role state, capability, method fit, evidence, source use, result, acceptance, publication, and bridge questions to their direct governing patterns.
+This sequence is application guidance, not a new check record or workflow object. Its first useful result is the readable exact relation, an unresolved exact pair with the missing fact named, or a corrected route to the direct neighboring claim.
 
-The sequence is application guidance, not a new check record, work plan, or workflow object. Its useful result is the repaired direct relation or an explicit stop at the missing relation participant or support claim.
+#### F.6:4.5 - Method and Work Boundary
 
-#### F.6:4.5 - Direct Neighboring Relations
+`performedUnderAssignment` has no Method participant. A separate claim may say that the Work enacts one exact semantic Method. The holder System performs the Work; the Work, not the performer or assignment, enacts the Method.
+
+The assignment, system-role kind, capability, Method, and MethodDescription do not act or perform Work. Citing a description can identify, constrain, or support a receiving use of the Method, but it neither enacts the description nor establishes `D : U.MethodDescription`; use A.3.2 to test that membership separately.
+
+#### F.6:4.6 - Direct Neighboring Relations
 
 | Current question | Direct exit | Why it stays separate |
-|---|---|---|
-| Does the assignment obtain? | `A.2.1` | Assignment identity and occurrence precede work attribution. |
-| Does the assignment satisfy a current state predicate? | `A.2.5` | Role state has its own predicate, window, assertion, and evidence use. |
-| Can the holder perform the work? | `A.2.2` capability and capability-fit relation | Ability is not actual performance. |
-| Which exact method did the Work enact? | `A.15.1` for actual `enactsMethod(W, M)`; `A.3.1` for exact `M : U.Method`; `A.3.2` only when membership of a separate description episteme `D` is current | The holder system performs `W`, and `W` enacts `M`; assignment, role value, capability, method, and description do not become performers, and a cited description is not admitted by label or algorithm-possession wording. |
-| What supports the attribution assertion? | `A.10` or the direct evidence relation | Support concerns knowledge or use of obtaining. |
-| Which encountered material is being relied upon? | `A.15.4` | Reliance on a visible item is not the attribution relation. |
-| What changed, first existed, was measured or evaluated, was delivered, or was accepted in connection with the work? | `A.15.1` for the work, then the exact change, A.6.1 operation-result, A.15.PROD inception, measurement, evaluation, delivery, or acceptance governor | None of these entities, values, or relations is a participant in performer attribution. |
-| Does another vocabulary denote a corresponding role? | `F.9` | A bridge does not mutate either local assignment. |
-| Does a model-use organization change this attribution interpretation? | `A.1.1` plus the receiving attribution assertion or use | The receiving episteme or use may designate the selected structure; generic assignment and attribution signatures gain no optional participant. |
+| --- | --- | --- |
+| Does the assignment obtain? | `A.2.1` | The declared species and predicate, the occurrence's participant values, and the occurrence-identity rule precede attribution but do not establish it. |
+| Does the holder count under its system-role kind? | `A.2`, C.3.2 | Classification is not supplied by attribution. |
+| Does the assignment satisfy a state predicate? | `A.2.5` | State has its own predicate, relation, window, assertion, and evidence. |
+| Can the holder perform the Work? | `A.2.2` capability and fit | Ability is not actual performance. |
+| Which Systems actually performed a top-level or child Work occurrence? | `A.15.1` plus one F.6 check for each exact performer–assignment pair | A team lead, coordinator, member relation, or one covering assignment cannot substitute for the full actual-performer set; every child Work keeps its own performer, assignment, F.6 relation, and Work-part relation. |
+| Did a passive test article participate in Work? | the domain rule that defines passive participation; if no such rule is current, `A.6.RCD` returns `missing-governor` | Holding a test-subject assignment does not make the article a performer or establish passive participation. |
+| Which Method did the Work enact? | `A.15.1`, `A.3.1`, and A.3.2 only for a separate description-membership question | Method, description, and assignment do not become performers. |
+| What supports the attribution assertion? | `A.10` or the direct evidence relation | Support concerns knowledge or use, not relation obtaining. |
+| Which encountered material is relied upon? | `A.15.4` | Reliance on a visible item is not attribution. |
+| What changed, first existed, was measured, evaluated, delivered, or accepted? | `A.6.1` only when the claim consumes one exact operation application or returned-value binding; `A.15.PROD` plus the subject's identity rule for a produced entity or its inception; `C.2.1` for a result episteme; otherwise the exact change, measurement, evaluation, delivery, or acceptance pattern | Each claim follows its own pattern, and none supplies a performer-attribution participant. An operation binding alone establishes neither production nor a result episteme. |
+| Does another context have a corresponding kind or assignment? | `C.3.3`, `F.9`, `A.6.9` | A Bridge merges neither kind nor assignment and does not retarget Work. |
+| Does a selected model-use structure change this attribution interpretation? | `A.1.1` plus the receiving assertion or use | Generic assignment and attribution gain no optional structure participant. |
 
-#### F.6:4.6 - Source Shorthand and `RoleEnactment`
+#### F.6:4.7 - Source Shorthand and `RoleEnactment`
 
-`Holder#Role:Context@Window` is readable source notation only. Before reliance-bearing use, recover the assignment's holder system, role value, role-taxonomy episteme, effective reference scheme, and assignment window. Recover the object denoted by `Context` separately.
+`Holder#Role:Context@Window` is readable source notation only. Recover the actual system, local system-role kind, assignment species and occurrence, and the object denoted by `Context`. The source spelling is not a signature.
 
-When source wording says `RoleEnactment` or `RoleEnactmentFact`, recover the dated `U.Work` occurrence and the direct `performedUnderAssignment` relation. Do not retain a second enactment kind, fact object, or relation occurrence.
+When source wording says `RoleEnactment` or `RoleEnactmentFact`, recover dated Work and `performedUnderAssignment`. Do not retain a second enactment kind, fact object, or relation occurrence.
 
-#### F.6:4.7 - Lightweight Use
+#### F.6:4.8 - Lightweight Use
 
-Ordinary use can stop at a readable assertion:
+After the Work–assignment link and its necessary constraints are established, ordinary use can stop at:
 
 ```text
-InspectionWork-17 was performed by Robot-7 under RoleAssignment-17.
+InspectionWork-17 was performed by Robot-7 under InspectionAssignment-17.
 ```
 
-Expose the relation declaration and occurrence key only when a receiving use must distinguish attribution occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered, lower the claim to "Robot-7 is named as performer in record R" and route that reliance through `A.15.4` or the direct source and evidence patterns.
+Expose declarations and occurrence keys only when a dependent use must distinguish occurrences, cite one as a participant, compare assertions, or preserve provenance. If the assignment cannot be recovered, lower the claim to “Robot-7 is named as performer in record R” and state the source, reliance, and evidence claims under their direct predicates.
+
+Another pattern may require a **complete A.15.1/F.6 basis** and point here instead of repeating this declaration and check sequence. Its local prose then names only the Work or attribution distinctions that its own reader uses. The complete basis still recovers the Work's Method, extent, and containing System and, for every performer, the exact assignment species, obtaining occurrence, actual participant values, coverage, and F.6 relation.
 

@@ -6,12 +6,12 @@ section_id: "A.6.9:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.9/A.6.9__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.9 — Cross-Context Sameness Disambiguation - Repairing cross-context \"same\", \"equivalent\", and \"align\" via explicit Bridges (RPR-XCTX)"
   - "A.6.9:7 — Conformance Checklist"
-line_start: 20570
-line_end: 20593
+line_start: 20823
+line_end: 20846
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 A repaired sentence or boundary statement conforms iff:
 
 1. **Concrete action.** The reader can say what object, comparison, substitution, translation, publication, or other action is at issue.
-2. **Dispatch before Bridge.** Effective reference scheme, claim scope, grounding, qualification window, exact composite project Work, viewpoint, representation transition, selected structure, direct subject relation, lane, id, role, and Work claims go to their exact owners first.
+2. **Use the specific patterns before testing a Bridge.** First apply the pattern that defines, constrains, or tests each effective reference scheme, claim scope, grounding, qualification window, exact composite project Work, viewpoint, representation transition, selected structure, direct subject relation, lane, identifier, system-role kind, assignment, or Work claim.
 3. **Exact endpoints.** Every Bridge candidate uses two F.17 cell addresses resolving exact values.
 4. **No context proxy.** Semantic bounded context is the Plain local interpretation basis recovered from the endpoint projection; it is not a project situation, model-use structure, scope, grounding, time, viewpoint, identity, or direct relation participant.
 5. **Direct Bridge truth.** A positive occurrence appears only after the exact profile applies, its predicate is true, and dependencies are present.

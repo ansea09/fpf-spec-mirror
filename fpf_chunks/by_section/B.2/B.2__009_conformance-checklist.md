@@ -6,12 +6,12 @@ section_id: "B.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:7 — Conformance Checklist"
-line_start: 37306
-line_end: 37322
+line_start: 37516
+line_end: 37532
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,8 +49,8 @@ keywords:
 | `CC-B2-1` | A B.2 use names the exact existing whole already recognized under an admitted holon kind, its identity rule, current part relations, and kind-specific pattern before declaring whole reidentification. |
 | `CC-B2-2` | `MHTTriggerProfile` is a `U.Episteme` with the existing whole as EntityOfConcern, exact typed content references, and no mandatory bounded-context reference. |
 | `CC-B2-3` | `ExistingWholeExplanationCheck` is a `U.Episteme`; it records exact explanation claims, evidence relations, and a sufficiency verdict before MHT is declared. |
-| `CC-B2-4` | `HolonReidentificationRecord` is a `U.Episteme` with one `resultHolonRef` for the candidate new whole, one reference to its admitted public kind, the whole-reidentification claim, direct evidence and governing-pattern references, and only an optional C.2.1 classification-assertion reference when downstream work needs it. |
-| `CC-B2-5` | Agency-threshold claims use the direct characteristic-space and threshold patterns; B.2 uses them only when whole identity changes. |
+| `CC-B2-4` | `HolonReidentificationRecord` is a `U.Episteme` with one `resultHolonRef` for the candidate new whole, one reference to its admitted public kind, the whole-reidentification claim, direct evidence and subject-pattern references, and only an optional C.2.1 classification-assertion reference when downstream work needs it. |
+| `CC-B2-5` | Agency-threshold claims use the direct characteristic-space and threshold patterns; B.2 uses them only when whole identity changes. The admitted System and characteristic are recovered independently of any optional local system-role classification or assignment, including when the System participates passively. |
 | `CC-B2-6` | Acting-system participation and transformation use A.12 and A.3.4; B.2 does not create `U.Transformer`. |
 | `CC-B2-7` | Mathematical expressions can bear on but do not replace the holon reidentification claim. |
 | `CC-B2-8` | The candidate new whole reference and its kind reference remain separate; B.2 does not maintain one optional field per admitted holon species. |

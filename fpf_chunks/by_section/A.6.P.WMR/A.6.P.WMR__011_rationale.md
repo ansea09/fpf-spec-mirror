@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:10 — Rationale"
-line_start: 16678
-line_end: 16685
+line_start: 16906
+line_end: 16913
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -36,7 +36,7 @@ keywords:
 
 Boundary words describe a relation position only relative to an exact object. Treating them as entity kinds or universal relations erases the exact predicate, current facts, and subject assertion that determine obtaining. The three-question ordinary method restores the thing, related object, and direct verb or stop first; two conditional assurance questions expose claim dimensions and the formal predicate definition only when those distinctions can change or check the answer.
 
-**Mint vs reuse.** `A.6.P.WMR` introduces only this pattern id and its Tech and Plain labels; it mints no `U`-kind, relation kind, boundary-word family, result record, or work occurrence. The worked-case `RelationKind` tokens are explicitly assumed to have been published by named project relation-declaration owners; naming them in a case neither admits them into FPF nor republishes their declarations. It reuses each exact subject kind, direct relation, local `A.6.RCD` claim, and blocker under its own governor. Any durable name for a recovered entity, relation, or performed-work occurrence starts under `F.18` only after this recovery closes.
+**Mint vs reuse.** `A.6.P.WMR` introduces only this pattern id and its Tech and Plain labels; it mints no `U`-kind, relation kind, boundary-word family, result record, or work occurrence. The worked-case `RelationKind` tokens are explicitly assumed to have been published by named project relation-declaration epistemes; naming them in a case neither admits them into FPF nor republishes their declarations. It reuses each exact subject kind, direct relation, local `A.6.RCD` claim, and blocker under its own governor. Any durable name for a recovered entity, relation, or performed-work occurrence starts under `F.18` only after this recovery closes.
 
 The lightest truthful exit is preferred. A direct relation is cheaper than a local compound claim; a local claim is cheaper than reusable predicate semantics; an exact non-assertability result is more truthful than an invented universal relation. This economy preserves expressive project language while keeping occurrence identity and ontology growth demand-driven.
 

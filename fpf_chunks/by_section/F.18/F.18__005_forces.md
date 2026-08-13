@@ -6,12 +6,12 @@ section_id: "F.18:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:3 — Forces"
-line_start: 96807
-line_end: 96816
+line_start: 97803
+line_end: 97812
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,8 +48,8 @@ keywords:
 | Force | Naming tension |
 | --- | --- |
 | Local sense and reuse across different semantic-context projections | A name must be interpretable under one effective by-value `U.ReferenceScheme` while remaining bridgeable to a different `<ReferenceScheme, LocalSenseClaim>` projection without spelling-based identity. The projections can differ under one scheme. |
-| Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep governed kind, effective reference scheme, local sense, governing pattern, and intended use recoverable. |
+| Brevity and ontology recovery | A short label helps conversation, but the `NameCard` must keep governed kind, effective reference scheme, local sense, subject pattern, and intended use recoverable. |
 | Continuity and correction | Readers need stable public names, while authors must be able to rename, split, merge, or retire names without erasing earlier uses. |
 | Familiarity and precision | Familiar words are easier to adopt, but some familiar words import wrong prototypes from another discipline. |
-| Role recognition and role explosion | Role morphology is useful for `U.Role` values, but it must not absorb holder assignment, capability, method, work, evidence, or status claims. |
+| System-role recognition and ontology expansion | `SystemRole` morphology helps identify one exact local system-role kind, but it must not absorb assignment, capability, method, work, evidence, status, participant, declaration-place, or representation-position claims. |
 

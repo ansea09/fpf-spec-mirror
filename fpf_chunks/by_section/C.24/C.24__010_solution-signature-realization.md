@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 52755
-line_end: 52979
+line_start: 53019
+line_end: 53243
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,8 +49,8 @@ keywords:
 *`ATC.CallGraph`* is an evidence or provenance graph over a ledger of exact actual `U.Work` call occurrences. A graph entry cites the Work occurrence and exact Method; an optional route-description edition helps interpretation but creates neither occurrence nor `enactsMethod`;
 *`ATC.Policy`* references `U.EmitterPolicyRef` (E/E-LOG) and local call gates **including BLP tolerances (alpha, delta)**.
 
-**Roles.**
-A **System in AgentialRole** prepares or revises one **CallPlan** whose planned steps select exact Methods and may cite separate **CallRouteDescription** editions. Upon enactment, an admitted performer `U.System` performs each actual call as a dated `U.Work` occurrence under an exact obtaining `U.RoleAssignment`; A.15.1 owns the actual `enactsMethod` relation. **Observers** record observations with acceptance checks. Route descriptions stay design-time epistemes; the call plan stays schedule-of-intent; actual call Work stays run-time; service promise content remains a separate acceptance object. None establishes another by record inclusion.
+**Systems, plans, and Work.**
+An admitted planning System may perform planning or revision Work that prepares or revises one **CallPlan** whose planned steps select exact Methods and may cite separate **CallRouteDescription** editions. When planning, revision, a call, or observation is claimed as actual Work, name the `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable. A short C.24 sentence may omit only an assignment identifier unused by its call-planning claim. A local kind and a separate System-classification judgment remain optional facts; the assignment occurrence and F.6 attribution do not become optional once actual Work is asserted. Route descriptions stay design-time epistemes; the call plan stays schedule-of-intent; actual call Work stays run-time; service promise content remains a separate acceptance object. None establishes another by record inclusion.
 
 **Operators (Gamma_agential; CAL, conceptual):**
 
@@ -64,7 +64,7 @@ A **System in AgentialRole** prepares or revises one **CallPlan** whose planned 
    Produces one **call plan** whose ordered planned-call steps select exact `U.Method` refs and may separately cite selected route-description epistemes. It declares one planned budget envelope (compute, cost, time, risk), one intended call order, and one stop or replan policy. Internal route logic may remain in the cited descriptions; the plan is a `U.WorkPlan`, not a Method, not a MethodDescription, and not yet Work.
 
 4. `Gamma_agential.execute(ATC.CallPlan) -> {ATC.CallGraph, Observations}`
-   Executes with **hard gates** (budget, risk, constraint-fit). Each actual call is independently identified as dated `U.Work`, performed by an admitted System under an exact obtaining assignment and related by actual `enactsMethod` to the planned exact Method under A.15.1. The operator logs provenance suitable for B.3 assurance reporting while keeping plan, description, Work, Method and service promise separate.
+   Executes with **hard gates** (budget, risk, constraint-fit). For each actual call, name its `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable, including the admitted performer System and the Method enacted by the dated Work. The operator logs provenance suitable for B.3 assurance reporting while keeping plan, description, Work, Method and service promise separate.
 
 5. `Gamma_agential.replan(Signals, ATC.CallPlan, BudgetPrime) -> ATC.CallPlanPrime`
    Triggered by sentinel breaches, assurance drops, or policy events; preserves or explicitly revises the ordered exact Method refs, separately cited route descriptions, editioned policy, effective planning context, and other plan content. Changing a description reference does not silently change either the Method or any actual Work history.
@@ -233,7 +233,7 @@ CallPlan(
 )
 ```
 
-The plan does not claim that any call happened. If the first call is then performed, identify `ToolCallWork-903 : U.Work`, admitted performer System `RepoAutomationSystem-2`, obtaining assignment `RepoAutomationInspectorAssignment-2`, actual interval `[10:02Z, 10:04Z]`, containing system `RepairRun-81`, and independently obtaining `enactsMethod(ToolCallWork-903, InspectRepositoryMethod_4)`. Its CallGraph row may cite `inspect_repo_route_v3` as `methodDescriptionRef`; neither that description nor the row is the Work occurrence or the enacted Method. The service's `U.PromiseContent` and any acceptance result remain separate.
+The plan does not claim that any call happened. If the first call is then performed, identify `ToolCallWork-903 : U.Work`, admitted performer System `RepoAutomationSystem-2`, directly declared assignment species `RepoAutomationInspectorAssignment`, its obtaining occurrence `RepoAutomationInspectorAssignment-2`, and the F.6 relation saying that the System performed this Work under that occurrence. The Work runs during `[10:02Z, 10:04Z]`, occurs within `RepairRun-81`, and enacts `InspectRepositoryMethod_4`. Its CallGraph row may cite `inspect_repo_route_v3` as `methodDescriptionRef`; neither that description nor the row is the Work occurrence or the enacted Method. The service's `U.PromiseContent` and any acceptance result remain separate.
 
 **Recognizable near misses.** `inspect_repo_route_v3` with no recovered exact `InspectRepositoryMethod_4` cannot support an enactment-facing plan. A `CallPlan` with no actual Work occurrence is still only intent. A tool log row with no independently grounded Work, performer, assignment and Method is evidence material, not execution. A successful response does not by itself prove the service promise was accepted.
 
@@ -253,16 +253,16 @@ CheckpointReturn(
 
 The practical distinction is simple: if route order and budgeted execution are already the call-planning question, emit one `CallPlan`; if bounded scout work is still the call-planning question inside planning, emit one `CheckpointReturn`.
 
-1. **Research-assistance system in agential role.**
+1. **Research-assistance tool-using System.**
    Task: answer a novel technical question. Candidate tools: retrieval, structured web search, code runner, table or plot generator.
    **Plan:** select exact `SearchMethod`, `RetrievalMethod`, `SynthesisMethod`, and `CodeCheckMethod` refs in order; separately cite current route descriptions for `search`, `retrieve`, `synthesize`, and `code_check`; declare `explore_share approx 0.4`; replan on sentinel `low_R`.
    The admissible structure here is one declared budget envelope, one explicit route order, and one visible replan trigger.
 
-2. **Program-repair system in agential role.**
+2. **Program-repair tool-using System.**
    Task: propose a patch against a failing test suite. Candidate tools: repo introspection, static analyzer, unit runner.
    **Plan:** select exact repo-introspection, patch-application, and targeted-test Methods; keep their optional route-description epistemes distinct; use scout quota across patch families before committed rollout.
 
-3. **Lab-automation system in agential role.**
+3. **Lab-automation tool-using System.**
    Task: adjust a wet-lab protocol under drift. Candidate tools: planner, pipetting controller, spectrometer, Bayesian optimizer.
    **Plan:** a bounded probe or pilot can inform the route, but committed rollout waits for the declared commit trigger and assurance floor.
 

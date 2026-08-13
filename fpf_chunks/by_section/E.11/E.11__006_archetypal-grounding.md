@@ -6,12 +6,12 @@ section_id: "E.11:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:5 — Archetypal Grounding"
-line_start: 77211
-line_end: 77248
+line_start: 77867
+line_end: 77904
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,10 +24,19 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "admission state"
-  - "and dependencies"
+  - "& Search Queries"
+  - "& Search Queries includes at least one recognizable working-question cue"
+  - "Dependencies"
+  - "a substantive claim returns to the direct pattern whose content defines"
+  - "and Dependencies"
+  - "and retrieval are finding aids"
+  - "cards"
+  - "constrains"
+  - "or boundary mini-method. ToC"
+  - "or tests it"
   - "query phrases"
+  - "result"
+  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:5 - Archetypal Grounding
@@ -50,7 +59,7 @@ That named reliance admits a `PracticalUseCardShortlist@Context` with four compa
 
 `WORKING-DOCUMENTS` can lead to a usable machining work instruction. Its public template first names the admitted `U.MethodDescription` or `U.WorkPlan` kind and asks how a later project use would identify the episteme under A.3.2 or A.15.2. It then asks separately which exact relation occurrence, A.6.1 binding, or category-correct local claim would make that episteme the result relative to the later document-use or machining-planning object. Any conditional pattern for the next question appears only when that continuation is part of the branch. The card does not promise a machined component.
 
-The reader can therefore imagine useful progress without inferring that publication or planning performed the machining. When actual machining or other dated work later becomes current, use A.15.1 to identify the exact performed Work occurrence; use A.15 as well only when role–method–work alignment is itself current. The instruction or plan is neither that dated `U.Work` nor proof that it occurred.
+The reader can therefore imagine useful progress without inferring that publication or planning performed the machining. When actual machining or other dated work later becomes current, use A.15.1 to identify the exact performed Work occurrence; use A.15 as well only when the broader System-Role–Method–Work Alignment question is current. The instruction or plan is neither that dated `U.Work` nor proof that it occurred.
 
 #### E.11:5.4 - Repair the smallest card slice after a direct result changes
 

@@ -6,17 +6,18 @@ section_id: "G.4:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:6 — Bias-Annotation"
-line_start: 100075
-line_end: 100085
+line_start: 101319
+line_end: 101329
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.18"
   - "A.19"
+  - "A.2.1"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.17"
+  - "F.6"
   - "F.9"
   - "G.0"
   - "G.1"

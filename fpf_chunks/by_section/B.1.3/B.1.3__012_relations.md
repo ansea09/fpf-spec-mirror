@@ -6,12 +6,12 @@ section_id: "B.1.3:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__012_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:11 — Relations"
-line_start: 36214
-line_end: 36223
+line_start: 36422
+line_end: 36431
 dependencies:
   - "A.1"
   - "A.12"
@@ -35,7 +35,7 @@ keywords:
 
 ### B.1.3:11 - Relations
 
-* **Builds on:** A.12 (Transformer Role—compilers/editors enact), A.14 (ConstituentOf/MemberOf and proper temporal restriction of one unchanged carrier), C.2.1 (episteme identity and independently obtaining edition relations), and A.15/A.15.1 (Strict Distinction and Work-temporal law).
+* **Builds on:** A.12 (transformer system-role kinds and the admitted systems that perform compilation or editing Work), A.14 (ConstituentOf and MemberOf and proper temporal restriction of one unchanged carrier), C.2.1 (episteme identity and independently obtaining edition relations), and A.15/A.15.1 (Strict Distinction and Work-temporal law).
 * **Coordinates with:** B.1.1 dependency-structure and relation-grounding checks, B.1.4 (Γ\_ctx/Γ\_time inside knowledge folds), B.1.6 (Γ\_work for compute/collection spend).
 * **Triggers/Complements:** B.2 (MHT) when explanatory closure or context re‑base creates a **new whole** (theory, standard).
 * **Used by:** B.3 assurance uses `F/G/R` and **CL** baselines computed here as inputs to trust calculations.

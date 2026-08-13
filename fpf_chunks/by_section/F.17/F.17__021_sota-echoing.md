@@ -6,12 +6,12 @@ section_id: "F.17:16"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__021_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:16 — SoTA-Echoing"
-line_start: 96731
-line_end: 96742
+line_start: 97727
+line_end: 97738
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -60,5 +60,5 @@ keywords:
 
 The current best problem-solving line is the direct FPF value, naming, local-sense, relation, episteme-edition, and publication architecture. The language-scent study refines contextual cue handling within its evidence limits; SKOS remains a stable reference for label and mapping separation.
 
-Currentness rule: when `F.2`, `F.3`, `F.5`, `F.7`, `F.8`, `F.9`, `F.10`, `F.14`, `F.15`, `F.18`, `C.2.1`, `E.17.0`, `E.24.UK`, `E.24.PUB`, `A.1.1`, `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.10`, `B.3`, `E.10.D2`, or the pattern that defines or constrains the governed value changes the value, kind, membership or obtaining rule, designation, scheme, cell, basis relation, Bridge, bounded-use claim, reliance, status/role boundary, edition relation, reference typing, or publication boundary, recheck only the affected rows and worked examples.
+Currentness rule: when `F.2`, `F.3`, `F.5`, `F.7`, `F.8`, `F.9`, `F.10`, `F.14`, `F.15`, `F.18`, `C.2.1`, `E.17.0`, `E.24.UK`, `E.24.PUB`, `A.1.1`, `A.2`, `A.2.1`, `A.2.7`, `A.6.5`, `A.10`, `B.3`, `E.10.D2`, or the pattern that defines or constrains the governed value changes the value, kind, membership or obtaining rule, designation, scheme, cell, basis relation, Bridge, bounded-use claim, reliance, status and system-role boundary, edition relation, reference typing, or publication boundary, recheck only the affected rows and worked examples.
 

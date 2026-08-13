@@ -6,20 +6,39 @@ section_id: "A.6.H:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:5 — Archetypal Grounding"
-line_start: 21275
-line_end: 21317
+line_start: 21528
+line_end: 21570
 dependencies:
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.RCD"
   - "A.7"
   - "B.1.1"
   - "B.1.4"
+  - "B.1.5"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.16"
+  - "C.16.P"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
 keywords:
   - "boundary"
   - "completeness"
@@ -29,7 +48,7 @@ keywords:
   - "order/time"
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
-  - "role-method-work"
+  - "system-role–Method–Work distinctions"
   - "wholeness"
 ---
 
@@ -55,7 +74,7 @@ The repair produces several claims:
 - the reusable procedure is one exact Method or composite Method under A.3.1/B.1.5, with exact joins and exposed interactions;
 - its procedure document is a separate `U.MethodDescription` episteme under C.2.1/A.3.2;
 - “turnkey” becomes the exact specification, capability, Work, or evidence coverage claim needed by the receiving use;
-- the chemist is an admitted holder only through the exact role assignment, commitment, permission, or responsibility relation that obtains; and
+- identify the chemist under the admission required by the current claim, then name only the independently obtaining relations and their actual participant meanings: assignment holder, commitment bearer, permission beneficiary, or participant in a direct responsibility relation; none of these relations creates a generic holder, and commitment or permission alone does not admit a System; and
 - an actual laboratory run is dated Work under A.15.1.
 
 No one claim is a component relation merely because the source uses *pipeline* or *whole*.
@@ -65,7 +84,7 @@ No one claim is a component relation merely because the source uses *pipeline* o
 Source sentence: “Section 3 is part of the proof, and v2 is part of v1.”
 
 - Recover whether Section 3 is a constituent of the paper episteme, a publication-unit constituent, or a described proof step. Keep those subjects separate.
-- Recover argument order under its direct owner rather than as physical containment.
+- Recover argument order under its subject pattern rather than as physical containment.
 - Compare the exact C.2.1 triples for the two labelled epistemes. Changed claim content identifies two epistemes. Assert `EpistemeEditionRelation(E_v1,E_v2)` only when its historical-continuation predicate obtains.
 - If one unchanged episteme is needed only during a proper interval, `PhaseOf(E@τ,E)` may state that restriction. It does not connect v1 to v2.
 - Drafting, review, and publication are Work and publication relations, not participants of the edition relation.

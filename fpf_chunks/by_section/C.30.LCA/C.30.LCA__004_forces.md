@@ -6,12 +6,12 @@ section_id: "C.30.LCA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:3 — Forces"
-line_start: 62282
-line_end: 62290
+line_start: 62580
+line_end: 62588
 dependencies:
   - "A.10"
   - "A.20"
@@ -44,7 +44,7 @@ keywords:
 ### C.30.LCA:3 - Forces
 
 * Control talk is useful and current engineering practice uses it, so deleting it would make architecture prose less usable.
-* The same source labels can name different things. C.30.LCA applies only after an actual control-role assignment, direct control relation, rate-band relation, control-layer relation, or `B.2.5` supervisor-subholon relation is recovered. A model-use structure is cited only when that independently selected structure changes interpretation.
+* The same source labels can name different things. C.30.LCA applies after an exact direct control relation, rate-band relation, control-layer relation, or `B.2.5` supervisor-subholon relation is recovered. An assignment is neither required nor sufficient for control; include it only when it independently obtains. A model-use structure is cited only when that independently selected structure changes interpretation.
 * Layered and multi-rate control descriptions often need timing and dynamics claims before they can carry stability or safety claims.
 * `B.2.5` already gives FPF a supervisor-subholon feedback relation, but it does not turn every feedback or loop diagram into that occurrence, selected structure, or proof.
 * E.18 `TransformationFlowStructure` values and their mathematical graph descriptions can describe flow, path, crossing, or transformation-flow relations that participate in control, but the selected flow structure, graph expression, and control structure remain distinct.

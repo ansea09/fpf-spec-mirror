@@ -6,12 +6,12 @@ section_id: "A.6.B:9"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__011_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:9 — Bias‑Annotation"
-line_start: 10921
-line_end: 10928
+line_start: 11136
+line_end: 11143
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -49,7 +49,6 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "a duty or commitment D- claim MUST name its accountable subject"
   - "accountable norms and grants"
   - "actual exercise"
   - "and MAY"
@@ -69,7 +68,6 @@ keywords:
   - "institutional obtaining"
   - "laws"
   - "may"
-  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
   - "observable effects and evidence"
@@ -77,6 +75,7 @@ keywords:
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
+  - "responsibility"
   - "they report adjudicable results rather than obligations"
   - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
@@ -90,6 +89,6 @@ keywords:
 Lenses tested: **Gov**, **Arch**, **Ontological and Epistemic**, **Prag**, **Did**. Scope: **Universal** for boundary descriptions.
 
 * **Arch bias:** favors explicit separation and explicit references; mitigated by allowing narrative faces while keeping commitments classified and referenced by ID.
-* **Gov bias:** makes accountability explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier-referenced rather than tool-specific.
+* **Gov bias:** makes actual duty bearers and duties explicit (D) and auditability explicit (E); mitigated by keeping evidence conceptual and carrier-referenced rather than tool-specific. Responsibility, when claimed, remains a separate direct relation.
 * **Ontological and Epistemic bias:** insists on EntityOfConcern, Description episteme, and carrier and on work‑adjudicated effects; mitigated by providing clear cross‑quadrant link patterns so authors can still express real‑world governance needs.
 

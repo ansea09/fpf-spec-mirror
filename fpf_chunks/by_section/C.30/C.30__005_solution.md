@@ -6,12 +6,12 @@ section_id: "C.30:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:4 — Solution"
-line_start: 59601
-line_end: 60095
+line_start: 59884
+line_end: 60379
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,13 +76,13 @@ keywords:
 
 ### C.30:4 - Solution
 
-C.30 starts from one architecture move over one exact `U.Holon`. Recover separately: any actual subject-relation occurrences; the exact A.22 structures selected from them; any obtaining `ArchitectureRelation`; the claim episteme that states an affirmative, negative, unresolved, candidate, or expected architecture claim; the concern and admissible-use frame; and the source, description, view, representation, or publication role of the inspected material. Use a conditional architecture-description bridge when durable, reusable, multi-view, regulated, comparison, or reliance-bearing description is being made. If `ArchitectureQuestionCard@Project` gives one usable next architecture candidate use, stop there.
+C.30 starts from one architecture move over one exact `U.Holon`. Recover separately: any actual subject-relation occurrences; the exact A.22 structures selected from them; any obtaining `ArchitectureRelation`; the claim episteme that states an affirmative, negative, unresolved, candidate, or expected architecture claim; the concern and admissible-use frame; and the exact use of inspected material as source, description, view, representation, publication form, decision input, or another directly governed use. Use a conditional architecture-description bridge when durable, reusable, multi-view, regulated, comparison, or reliance-bearing description is being made. If `ArchitectureQuestionCard@Project` gives one usable next architecture candidate use, stop there.
 
 In C.30, the EntityOfConcern is one exact described holon, one exact `ArchitectureRelation` occurrence, one exact selected structure, or another exact subject object selected by the current claim. A claim episteme, description, diagram, or publication is not a proxy EntityOfConcern for a world-side relation or structure. Description hygiene supports this boundary but is not the center of C.30.
 
 Architecture-description material in C.30 is deliberately minimal. C.30 itself is not the full architecture-description mechanism. It gives a thin bridge from the exact holon, architecture relation, or selected structure to a separately constituted architecture-description episteme only when durable description use changes the architecture move. `C.30.AD` carries the full general architecture-description EntityOfConcern: multi-view description sets, viewpoint-based views, correspondences, source return, freshness, specification use, and publication boundary. `C.30.AD.BA` carries built-asset architecture-description, asset-information, digital-twin, and reference-designation specialization. Generic episteme, view, viewpoint, publication, form, representation, and carrier machinery remains with C.2.1, E.17.0, E.17.1, E.17.2, E.17, E.24.PUB, and C.29. C.30.ASV carries the selected-structure-to-view branch; C.30.TFS-REL, C.30.LCA, and other named subpatterns carry their direct structure relations and claims.
 
-C.30 does not mint `U.Architecture` and does not redefine `U.Viewpoint`. It directly governs `ArchitectureRelation`, the architecture claim form, `ArchitectureQuestionCard@Project`, selected architecture-relevant structures, structure-kind recovery, architecture concern and admissible-use framing, source/description/view/publication-role recovery, first architecture-question assignment, characteristic-claim assignment, small boundary notes, and the thin description bridge. It does not make descriptions or views conform merely by form and does not govern all architecture structure-kind views. Generic guards about publication, deontic permission, promise, evidence sufficiency, assurance, decision, gate passage, work authorization, or release authorization stay in their direct patterns.
+C.30 does not mint `U.Architecture` and does not redefine `U.Viewpoint`. It directly governs `ArchitectureRelation`, the architecture claim form, `ArchitectureQuestionCard@Project`, selected architecture-relevant structures, structure-kind recovery, architecture concern and admissible-use framing, exact inspected-material-use recovery, first architecture-question assignment, characteristic-claim assignment, small boundary notes, and the thin description bridge. It does not make descriptions or views conform merely by form and does not govern all architecture structure-kind views. Generic guards about publication, deontic permission, promise, evidence sufficiency, assurance, decision, gate passage, Work authorization, or release authorization stay in their direct patterns.
 
 #### C.30:4.1 - Direct architecture relation and architecture claim
 
@@ -251,7 +251,7 @@ If the card or harness is used beyond transparency, recover the architecture str
 
 #### C.30:4.4 - Architecture name formation
 
-The word `architecture` is shorthand only after the described holon, selected structures, structure kind, architecture concern and admissible-use frame, and source, description, view, or publication role are recoverable. Without those qualifiers, it is a recovery trigger, not a stable FPF term.
+The word `architecture` is shorthand only after the described holon, selected structures, structure kind, architecture concern and admissible-use frame, and exact use of inspected material as source, description, view, representation, or publication form are recoverable. Without those qualifiers, it is a recovery trigger, not a stable FPF term.
 
 ```text
 ArchitectureNameFormationRule:
@@ -298,7 +298,7 @@ B. ArchitectureStructuralCharacteristic
            actual subject relation or constraint, or separately admitted
            module/interface relation
    Subject pattern: C.16, A.17-A.19, C.25, or the direct
-                      characteristic-space/Q-bundle owner
+                      characteristic-space or Q-bundle pattern
    Examples: coupling, cohesion, interface alphabet, substitutability,
              hidden coupling, reusable-structure share
 
@@ -408,7 +408,7 @@ ArchitectureCharacteristicQBundleClaim ::= {
 }
 ```
 
-The full claim preserves the older branch's inspectable proposal detail: assertion polarity, the exact structural-characteristic and Q-Bundle-slot referents, scope or scale window, viewpoint when it changes interpretation, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary. These are claim-content fields. They neither declare a reusable relation kind nor make an occurrence obtain; a direct relation still needs its own owner, participants, obtaining predicate, applicability, and occurrence identity.
+The full claim preserves the older branch's inspectable proposal detail: assertion polarity, the exact structural-characteristic and Q-Bundle-slot referents, scope or scale window, viewpoint when it changes interpretation, qualifiers, witness expectations, admissible semantic change classes, and bridge or loss boundary. These are claim-content fields. They neither declare a reusable relation kind nor make an occurrence obtain; a direct relation still needs an admitted kind, exact participants, a defining predicate and applicability rule, and occurrence identity.
 
 Reusable product-quality vocabularies may supply candidate characteristic names, but they do not become architecture theory. The claim content may connect exact bearers and Q-Bundle slots; only the subject pattern makes a relation obtain. Measurement, modularity scoring, reusable-structure accounting, bespoke-residue accounting, evidence, assurance, gate, causal, and scale-audit claims stay with their subject patterns.
 
@@ -500,7 +500,7 @@ Lens use by architecture problem:
 | --- | --- | --- | --- |
 | Hidden dependency or modularity. | Typed graph, DSM, or hypergraph. | Dependency, coupling, or clustering. | Semantics, interface law, evidence, and work remain outside unless bridged. |
 | Flow bottleneck. | Transformation-flow structure, network flow, or queueing. | Path, crossing, valuation, and capacity. | Purpose, proof, causality, and safety remain non-architecture claims. |
-| Control-rate mismatch. | LCA, hybrid systems, assumption-guarantee relations, or control relations. | Feedback roles and scale or rate relations. | Stability proof and safety proof remain outside the lens. |
+| Control-rate mismatch. | LCA, hybrid systems, assumption-guarantee relations, or control relations. | Feedback participant meanings and scale or rate relations. | Stability proof and safety proof remain outside the lens. |
 | Cross-scope residual. | Coarse-graining or renormalization-group-style lens. | Preserved and lost structure across scale. | Utility, causal-use claims, and selector authority remain outside unless separately grounded. |
 | Extracted structure from traces. | Epiplexity or MDL-style bounded-observer lens. | Learnable structural regularity. | Task relevance, assurance, and causal proof remain non-architecture claims. |
 | Physical separation or spatial arrangement. | Topology, geometry, or spatial graph lens. | Adjacency, containment, separation, reachability, energy-transfer relation, or material-transfer relation. | Safety proof, accessibility, regulatory acceptance, and causal-use claims remain outside unless separately grounded. |
@@ -514,7 +514,7 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 
 | Tempting collapse | C.30 repair |
 | --- | --- |
-| Bare architecture as free-floating selected claim | Recover the actual subject-relation occurrences and exact A.22 structure, then either identify the obtaining `ArchitectureRelation` or keep candidate, expected, negative, or unresolved content in `ArchitectureClaim`. Also recover the exact described holon, structure kind, concern and admissible-use frame, effective reference scheme and ClaimScope when applicable, and the source, description, view, representation, or publication role of inspected material. |
+| Bare architecture as free-floating selected claim | Recover the actual subject-relation occurrences and exact A.22 structure, then either identify the obtaining `ArchitectureRelation` or keep candidate, expected, negative, or unresolved content in `ArchitectureClaim`. Also recover the exact described holon, structure kind, concern and admissible-use frame, effective reference scheme and ClaimScope when applicable, and the exact source, description, view, representation, publication-form, or other direct use of inspected material. |
 | Architecture description as architecture | Keep `ArchitectureDescription` as a C.2.1 episteme about one exact holon, obtaining `ArchitectureRelation`, or selected structure; keep specification use, representation, and publication separate. |
 | Diagram, model, table, dashboard, or generated relation graph as architecture | Treat it as publication form, description, view, source relation, or source-finding aid only when that relation is explicit. |
 | Module diagram as all architecture | Use `C.30.ASV` to recover structure kind; module structure and interface relation are only one structure family. |
@@ -524,7 +524,7 @@ Epiplexity-like use remains a C.29 bounded-observer structural-information lens.
 | ADR as architecture decision | Use the project-side architecture decision pattern when a decision claim is being made; ADR is a publication form, not the decision. |
 | Quality, score, or measurement term as architecture adequacy | Recover the bearer through ArchitectureCharacteristicAssignment; assign the claim being made to C.25, C.16, A.17-A.19, the characteristic-space or Q-bundle pattern governing the characteristic claim, or C.30 grounded architecture, selected-structure, or conditional description-use scope. |
 | Architecture record as evidence, assurance, gate, work, or release | Assign evidence, assurance, gate, work, or release claims to A.10, G.6, B.3, A.20, A.21, A.15, or the release locus named by value when a release claim is being made. |
-| Architecture as agent, worker, controller, gate, or proof | Recover the mechanism, control relation, role and enactor relation, gate, work, evidence, or assurance record that carries enforce, decide, optimize, adapt, prove, or guarantee wording. Neither an `ArchitectureRelation`, its selected structure, nor `ArchitectureClaim` is an acting entity by that wording. |
+| Architecture as agent, worker, controller, gate, or proof | Split the claim. If action or Work is meant, identify the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution. Recover mechanism or control relations, permission, authority, responsibility, gate results, evidence, assurance, proof, and guarantees only through their own predicates or results. A local system-role kind or assignment may be a neighboring fact but neither acts nor establishes any of those stronger claims. Neither an `ArchitectureRelation`, its selected structure, nor `ArchitectureClaim` is an acting entity by wording alone. |
 
 **Currentness and smallest reopen.** When a decisive input changes, reopen only the C.30 object and use conclusion that depend on it. A changed holon or obtaining subject relation reopens the affected selected structure and, if asserted, the direct `ArchitectureRelation` predicate; a changed selected structure or predicate result reopens that relation occurrence and any affirmative `ArchitectureClaim` reference; a changed claim scheme or `ClaimScope` reopens only that claim; and a changed description, view, or source edition, admissible-use boundary, or direct governor reopens its exact reference and dependent `ArchitectureQuestionCard@Project` disposition. Admissible results are to update the affected reference or claim mode, narrow use, re-run the direct predicate, or reopen the card when its next architecture move is no longer supported; unrelated structures, descriptions, and claims stay closed.
 
@@ -541,7 +541,8 @@ ArchitectureQuestionCard@Project:
   sourcePhrase?: "architecture in this diagram"; unclear dependency between payment orchestration and fraud scoring
   questionDisposition: architectureClaimReady
   architectureRelationDisposition: actualRelationStillToRecover
-  inspectedMaterialRole: diagram as publication face carrying possible architecture structural-view material
+  inspectedMaterialUse: publication form carrying possible architecture structural-view material
+  inspectedMaterialUseRelationRefs: exact publication occurrence or representation relation when independently current
   selectedStructureKindRefs: FunctionalStructure, ModuleInterfaceStructure, TransformationFlowStructure
   firstArchitectureMove: recover the diagram as a publication face and create a minimal architecture structural-view note
   governingPatternApplicationRefs: C.30.ASV

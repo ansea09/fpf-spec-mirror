@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:intro — Intro"
-line_start: 94689
-line_end: 94702
+line_start: 95465
+line_end: 95478
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,29 +31,34 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
-## F.14 - Anti-Explosion Control for Role and Status Name Families
-> **Status:** Stable
+## F.14 - Anti-Explosion Control for System-Role and Status Name Families
+> **Status:** Stable in the current FPF
 
 **"Name less; recover the governed values first."**
 
 **Type.** Architectural pattern.
 **Status.** Stable.
 **Normativity.** Normative.
-**Builds on:** `A.2` for work-facing `U.Role`; `A.2.1` for `U.RoleAssignment`; `A.2.5` for role state; `A.2.7` for exact role-requirement substitution, incompatibility, qualification, and bundle relations; `A.15.1` for performed work; `F.4` for RoleDescription; `F.5` for local naming discipline; `F.8` for one mint-or-reuse decision; `F.9` for actual relations between exact local senses; `F.10` for status families and windows; `F.18` for durable naming; and `A.6.5` for relation-slot discipline.
+**Builds on:** `A.2` for exact context-local system-role kinds; `A.2.1` for `U.SystemRoleAssignment`; `A.2.5` for assignment-state predicates and direct state relations; `A.2.7` for exact substitution, incompatibility, qualification, and bundle relations among system-role kinds; `A.15.1` for performed Work; `F.4` for system-role-kind descriptions; `F.5` for local naming discipline; `F.8` for one mint-or-reuse decision; `F.9` for actual relations between exact local senses; `F.10` for status families and windows; `F.18` for durable naming; and `A.6.5` for relation-slot discipline.
 
-**Coordinates with:** `A.2.2` for capability, `A.3.1` and `A.3.2` for method and method-description naming, `A.10` and `B.3` for evidence and assurance use, `E.10.D2` for description use, `E.24.PUB` for publication occurrence/form/carrier, and `F.17` only when a public, Core-facing, durable, or cross-local term row is current.
+**Coordinates with:** `A.2.2` for capability, `A.3.1` and `A.3.2` for Method and MethodDescription naming, `A.10` and `B.3` for evidence and assurance use, `E.10.D2` for description use, `E.24.PUB` for publication occurrence, expression form, and carrier, and `F.17` only when a public, Core-facing, durable, or cross-local term row is current.
 
-**Plain entry cues (informative).** Name explosion guard; role-name economy; status-name economy; stop before another card or row.
+**Plain entry cues (informative).** Name explosion guard; system-role-name economy; status-name economy; stop before another card or row.
 

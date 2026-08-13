@@ -6,12 +6,12 @@ section_id: "B.2.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37760
-line_end: 37784
+line_start: 37970
+line_end: 37994
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ The old drone evidence remains relevant, but it is not enough for the swarm-leve
 
 Independent services become a platform only if the current claim concerns a result system: a shared control plane, system-level SLO, deployment and rollback coordination, platform-level evidence, and external commitments.
 
-If the only change is a better dashboard or one more service, use architecture-description, publication, measurement, or component owners. Use B.2.2 only when B.2 identifies the operating platform itself as the exact candidate new whole and that candidate passes A.1 plus the direct `U.System` criterion.
+If the only change is a better dashboard or one more service, use architecture-description, publication, measurement, or component patterns. Use B.2.2 only when B.2 identifies the operating platform itself as the exact candidate new whole and that candidate passes A.1 plus the direct `U.System` criterion.
 
 #### B.2.2:5.3 - Production Cell
 

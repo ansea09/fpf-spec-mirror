@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 42258
-line_end: 42318
+line_start: 42481
+line_end: 42541
 dependencies:
   - "A.10"
   - "A.15"
@@ -83,7 +83,7 @@ The current FPF corpus already has patterns that contribute to this discipline:
 - `E.19` already treats terminology and sentence-level precision restoration as required review checks, not editorial polish.
 - `A.6.A` carries action-invitation discipline when a publication, representation, or cue invites an action without itself becoming authority, evidence, gate passage, or work completion.
 - `C.11` carries decision-making and decision-record discipline when the question under repair is a decision rather than generic action.
-- `A.15` and `A.15.4` split role, method, work-plan, and actual-work alignment from appearance-based reliance repair; do not use `A.15` as a universal repair for episteme-publication wording.
+- `A.15` and `A.15.4` split system-role kind and assignment, Method, WorkPlan, and actual-Work alignment from appearance-based reliance repair; do not use `A.15` as a universal repair for episteme-publication wording.
 - `E.9` is the campaign `DRR` pattern for campaign-level content decisions; `E.11` is only for entry-discoverability situations and must not organize an episteme and publication repair by default.
 
 These internal FPF patterns remain primary:

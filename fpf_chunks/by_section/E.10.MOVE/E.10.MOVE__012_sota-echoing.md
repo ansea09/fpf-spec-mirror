@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:11 — SoTA-Echoing"
-line_start: 75780
-line_end: 75789
+line_start: 76244
+line_end: 76253
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -40,7 +40,7 @@ keywords:
 
 | Current source and status | Adopted or adapted move | Effect in E.10.MOVE | Limitation and reopen condition |
 | --- | --- | --- | --- |
-| Current FPF precision-restoration set dated 2026-07-11: `E.10`, `E.10.ARCH`, `A.6.P`, `A.19.SPR`, and `A.3.4.P` | Treat a trigger word as evidence of a recovery problem, restore the governed value and relation before rewriting, preserve ordinary useful wording, and return the final claim to its direct pattern. | Determines the cheap path, the seven-step repair, local-mantra boundary, readiness-bearer recovery, direct-pattern exits, useful-reader-use invariant, and fail-closed conditions. | This is the current governing basis, not external empirical proof. Reopen the affected slice when one of these patterns changes the relevant kind settlement, authority boundary, or recovery fields. |
+| Current FPF precision-restoration set dated 2026-07-11: `E.10`, `E.10.ARCH`, `A.6.P`, `A.19.SPR`, and `A.3.4.P` | Treat a trigger word as evidence of a recovery problem, restore the governed value and relation before rewriting, preserve ordinary useful wording, and use its direct pattern for the final claim. | Determines the cheap path, the seven-step repair, local-mantra boundary, readiness-bearer recovery, direct-pattern exits, useful-reader-use invariant, and fail-closed conditions. | This is the current governing basis, not external empirical proof. Reopen the affected slice when one of these patterns changes the relevant kind settlement, authority boundary, or recovery fields. |
 | Zhu, Reinecke, and Mitra, ["Language Scent: Exploring Cross-Language Information Navigation"](https://arxiv.org/abs/2604.03604), arXiv:2604.03604, 2026 preprint | Preserve recognizable in-situ wording when it helps a reader locate the intended use, but keep contextual sense and governed value explicit rather than assuming lexical equivalence. | Supports retaining bounded Plain `mantra move`, ordinary `next useful pattern use`, and source `MOVE` while the pattern makes their distinct governed values recoverable. | The study is small and cross-language; it does not establish FPF ontology or prove these labels work for every reader. Reopen if larger evidence shows the retained cue obscures the governed value or impedes the remaining reader use. |
 | Steve Tendon, [*The Book of TameFlow: Theory of Constraints Applied to Knowledge-Work Management*](https://leanpub.com/tameflow), current Leanpub edition accessed 2026-07-11; Tendon, ["Constraints Everywhere"](https://tameflow.com/blog/2020-08-09/constraints-everywhere/), 2020 | Recover `MOVE` and Full-Kitting as source-practice wording with useful distinctions about bounded effort, outcome or value, constraint, and pre-entry preparation. | Supplies the imported-source worked slice and routes intended work, full-kit condition, work-entry readiness, resource relation, gate decision, preparation Work, and target Work to A.15, A.15.5, A.21, and B.1.6. | This practice is scoped to knowledge-work management and is not selected as a universal current ontology of move or readiness. Reopen when its current source edition changes these terms or when FPF's work and readiness patterns change their recovery. |
 

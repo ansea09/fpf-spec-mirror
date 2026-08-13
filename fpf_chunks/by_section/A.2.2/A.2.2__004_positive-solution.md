@@ -6,12 +6,12 @@ section_id: "A.2.2:3"
 section_title: "Positive Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__004_positive-solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:3 — Positive Solution"
-line_start: 3409
-line_end: 3446
+line_start: 3576
+line_end: 3613
 dependencies:
   - "A.15"
   - "A.2"
@@ -62,5 +62,5 @@ during <qualification window>,
 with <evidence or source-use relation>.
 ```
 
-This sentence form is a publication or statement about the capability instance. It is deliberately not a method description. It does not list the step order or algorithm. It also does not assign the holder to a role, assert that a work occurrence happened, prove an architecture characteristic, or make the evidence relation into the capability.
+This sentence form is a publication or statement about the capability instance. It is deliberately not a MethodDescription. It does not list the step order or algorithm. It also does not classify the holder under a system-role kind, assign the holder, assert that a Work occurrence happened, prove an architecture characteristic, or make the evidence relation into the capability.
 

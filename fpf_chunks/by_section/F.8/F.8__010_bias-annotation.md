@@ -6,12 +6,12 @@ section_id: "F.8:8.0"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__010_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:8.0 — Bias-Annotation"
-line_start: 92531
-line_end: 92559
+line_start: 93297
+line_end: 93331
 dependencies:
   - "A.11"
   - "A.15"
@@ -21,8 +21,10 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.7"
   - "A.8"
+  - "C.11"
   - "C.2.1"
   - "C.3"
   - "E.10"
@@ -50,6 +52,7 @@ keywords:
   - "minting new U-kinds"
   - "parsimony"
   - "reuse"
+  - "role-shaped names"
   - "type explosion"
 ---
 
@@ -59,26 +62,32 @@ F.8 blocks minting bias and record-first bias. A convenient expression, suffix, 
 
 #### F.8:8.1 - Policy-Identifier Mint-or-Reuse Discipline
 
-FPF treats policy identifiers such as `Phi(CL)`, `Phi_plane`, `Psi(CL^k)`, `Aut-Guard`, `EmitterPolicyRef`, insertion-policy identifiers, and acceptance-clause identifiers as versioned references whose meaning must be recoverable. They are not "just strings", role names, gate decisions, permissions, or policy specifications.
+FPF treats policy identifiers such as `Phi(CL)`, `Phi_plane`, `Psi(CL^k)`, `Aut-Guard`, `EmitterPolicyRef`, insertion-policy identifiers, and acceptance-clause identifiers as versioned references whose meaning must be recoverable. They are not "just strings", system-role-kind names, gate decisions, permissions, or policy specifications.
 
 ```text
 PolicyIdentifierReference:
   PolicyIdentifier:
   PolicySpecificationRef:
-  MintDecisionOccurrenceRef:
+  MintDecisionOrChoiceOccurrenceRef?: required only for cited, replayed, normative, cross-local reuse, or accountable mint history
+  MintDecisionSubjectPatternLocator?: paired with MintDecisionOrChoiceOccurrenceRef
+  MintDecisionPredicateRef?: paired with MintDecisionOrChoiceOccurrenceRef
+  MintDecisionParticipantRefs?: [actual participants with their meanings]
+  MintDecisionApplicability?:
+  MintDecisionOccurrenceIdentityBasis?:
+  MintDecisionMakingWorkRef?: [separate A.15.1 Work only when current]
+  MintDecisionOrChoiceResultRef?: [separate result, such as a C.11 ChoiceResult, only when current]
   MintDecisionResultEpistemeRef?:
   ScopeOrNamespaceRef:
 ```
+`PolicyIdentifier` is the selected designator. `PolicySpecificationRef` resolves to the separate policy-definition episteme and pins an edition or equivalent digest when needed. A local non-accountable introduction can stop there with explicit local scope. The conditional mint-occurrence fields are required when the use cites, replays, makes normative, reuses across the local boundary, or assigns accountability to the mint history; together they resolve one independently admitted decision or choice occurrence and its direct pattern, predicate, actual participants, applicability, and identity rule. If that stronger use is requested and those facts are absent, return `missing-governor` for it rather than inventing an occurrence. A C.11 `ChoiceResult` and any dated decision-making Work remain separate. `MintDecisionResultEpistemeRef`, when current, resolves to a C.2.1 episteme or accepted record describing the occurrence; the record does not perform the decision.
 
-`PolicyIdentifier` is the selected designator. `PolicySpecificationRef` resolves to the separate policy-definition episteme, pins an edition or equivalent digest when needed, and remains findable through the same publication family or an exact cited source relation; it does not identify or mint the identifier. `MintDecisionOccurrenceRef` resolves to the separate decision that introduced the identifier in the declared namespace. `MintDecisionResultEpistemeRef`, when current, resolves to a C.2.1 episteme or accepted record describing that occurrence; the record does not perform the decision.
-
-For FPF normative policy identifiers, the durable result episteme is usually an accepted `E.9` decision record. For a local non-exported identifier, the direct gate, decision, or publication pattern may admit a smaller result episteme when local scope is explicit. In either case, the policy specification, identifier, decision occurrence, and record remain distinct.
+For FPF normative policy identifiers, the durable result episteme is usually an accepted `E.9` decision record, but only after the direct decision or choice pattern has admitted the occurrence that record describes. A local non-exported and non-accountable identifier needs only its separately recoverable specification and explicit scope; it need not create a decision or result episteme. In every branch, the policy specification, identifier, any decision or choice occurrence, any C.11 result, any decision-making Work, and any record remain distinct.
 
 Rules:
 
-1. **No silent policy-identifier introduction.** A newly introduced identifier resolves both the separate `PolicySpecificationRef` and mint decision occurrence; when durable trace is needed, it also resolves the separate result episteme or record.
-2. **Reuse is reference use.** Reusing an existing identifier resolves the same identifier, its policy specification, and its original mint decision; it does not restate policy semantics or silently create another decision.
-3. **Gate checkability.** A gate, crossing, Bridge, assurance, or publication claim that depends on a policy identifier includes `PolicyIdentifierReference` or an equivalent resolvable structure admitted by its governing pattern.
-4. **Policy authority stays with the governing pattern.** F.8 selects introduction or reuse of the identifier; it does not decide whether the policy permits Work, passes a gate, makes a relation obtain, or provides evidence.
+1. **No silent policy-identifier introduction.** Every new identifier resolves the separate `PolicySpecificationRef` and states its scope. A local non-accountable introduction stops there. A cited, replayed, normative, cross-local, or accountable mint history additionally resolves the exact decision or choice occurrence plus its direct pattern, predicate, participants, applicability, and identity rule; without that direct basis, return `missing-governor` for the stronger branch and do not claim it.
+2. **Reuse is reference use.** Reusing an existing identifier resolves the same identifier and policy specification. Resolve the original mint occurrence only when the current reuse consumes or asserts that history; it does not restate policy semantics, turn a record into the occurrence, or silently create another decision.
+3. **Gate checkability.** A gate, crossing, Bridge, assurance, or publication claim that depends on a policy identifier includes `PolicyIdentifierReference` or an equivalent resolvable structure admitted by its subject pattern.
+4. **Policy authority stays with the subject pattern.** F.8 selects introduction or reuse of the identifier; it does not decide whether the policy permits Work, passes a gate, makes a relation obtain, or provides evidence.
 5. **The identifier grants nothing by itself.** Name, namespace, suffix, source prestige, specification publication, or decision record grants no permission, status, equivalence, or authority beyond the exact direct policy claim.
 

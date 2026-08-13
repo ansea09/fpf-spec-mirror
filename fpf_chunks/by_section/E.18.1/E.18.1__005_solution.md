@@ -6,12 +6,12 @@ section_id: "E.18.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:4 — Solution"
-line_start: 84047
-line_end: 84323
+line_start: 84716
+line_end: 84992
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -327,5 +327,5 @@ Reapply the exact guidance recorded for the earlier use before filling the repla
 
 P2W may cite a readable relation assertion, an explicitly individuated occurrence, or a typed assertion or description, but it cites the independently identified object that served as the earlier result together with its obtaining or claim basis. Citation does not make relation use signature-dependent; a receiving episteme carries a signature reference only when the defining content for that exact claim requires one.
 
-The changed object may instead be a source edition, measurement, unit, reference plane, Method set, comparator, module-interface relation, publication-use relation, problem record, or FPF pattern publication. Whatever changed keeps its own kind and any actual architectural or organizational owner; reapply the exact guidance used for the earlier result. Add a `G.11` line only when one exists. The practitioner or another capable system applies the guidance for the reopened question and decides whether to continue, stop, split, retain a reduced-use cue, or return upstream.
+The changed object may instead be a source edition, measurement, unit, reference plane, Method set, comparator, module-interface relation, publication-use relation, problem record, or FPF pattern publication. Whatever changed keeps its own kind. If the reopened use depends on maintenance, responsibility, or authority, name the direct relation and its participants; an owner-shaped label is not enough. Reapply the guidance used for the earlier result. Add a `G.11` line only when one exists. The practitioner or another capable system applies the guidance to the reopened question and decides whether to continue, stop, split, retain a reduced-use cue, or return upstream.
 

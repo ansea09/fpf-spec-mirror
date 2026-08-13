@@ -6,12 +6,12 @@ section_id: "C.19:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__014_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 49999
-line_end: 50005
+line_start: 50251
+line_end: 50257
 dependencies:
   - "A.15"
   - "A.19.CPM"

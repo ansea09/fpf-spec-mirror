@@ -6,12 +6,12 @@ section_id: "A.19.ECS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ECS/A.19.ECS__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19.ECS — Evaluation CharacteristicSpace Construction"
   - "A.19.ECS:4 — Solution"
-line_start: 28926
-line_end: 29021
+line_start: 29128
+line_end: 29223
 dependencies:
   - "A.17-A.19"
   - "C.16"
@@ -35,7 +35,7 @@ Construct an evaluation `CharacteristicSpace` by declaring the evaluated object 
 
 #### A.19.ECS:4.1 - Local names and kind settlement
 
-| Local name | Role | Non-use boundary |
+| Local name | Use | Non-use boundary |
 |---|---|---|
 | `EvaluationCharacteristicSpaceSpec` | Local specification for constructing one evaluation `CharacteristicSpace`. | Not a score sheet, review packet, work plan, gate, evidence record, or project approval. |
 | `EvaluatedObjectKindRef` | Exact kind of object the evaluation evaluates. | Not a vague artifact, file bundle, campaign, chat, or source collection. |
@@ -83,7 +83,7 @@ A.19.ECS does not prescribe a publication or record form. It states which evalua
 |---|---|
 | `Evaluation problem frame` | Evaluated object kind, declared use, first useful move, existing-evaluation boundary, and what goes wrong if no evaluation exists. |
 | `Non-use boundary` | Boundaries to single-characteristic, measurement, Q-Bundle, naming, evidence, assurance, gate, work, decision, publication, and loop-method patterns. |
-| `Local names and kind settlement` | Local field names, role named by values, and non-use boundaries. |
+| `Local names and kind settlement` | Local field names, use named by values, and non-use boundaries. |
 | `Evaluation record shape` | The local record or bundle shape used by the evaluation. |
 | `Object-kind fit rule` | Admissible evaluated object, below-floor evaluated object, and outside-declared-object-kind boundary handling before and after invocation. |
 | `Evaluation evidence basis` | Loci named by value that must be checked or named when a value depends on object version, corpus projection, source currentness, mature comparator, worked case, retrieval, or other external evidence. |

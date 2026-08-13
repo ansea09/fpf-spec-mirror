@@ -6,12 +6,12 @@ section_id: "C.25:20a"
 section_title: "Viability-envelope, quantum-like, and temporal-claim relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.25/C.25__022_viability-envelope-quantum-like-and-temporal-claim-relation-note.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.25 — Q-Bundle: Authoring \"-ilities\" as Structured Quality Bundles"
   - "C.25:20a — Viability-envelope, quantum-like, and temporal-claim relation note"
-line_start: 53414
-line_end: 53453
+line_start: 53678
+line_end: 53717
 dependencies:
   - "A.15"
   - "A.16.0"
@@ -63,7 +63,7 @@ Minimum viability-envelope note:
 
 | Field | Required content |
 | --- | --- |
-| Bearer | System, service, organization, team, model, process, or role configuration whose viability is at stake |
+| Bearer | System, service, organization, team, model, process, or configuration of system-role kinds and assignments whose viability is at stake |
 | Protected promise / function | The promise, function, use, operating regime, or stakeholder value the envelope protects |
 | Variables | Which qualities, constraints, resources, risks, or state descriptors define the envelope |
 | Viable region / bounds | What counts as inside, near edge, degraded, or outside the envelope for this use |

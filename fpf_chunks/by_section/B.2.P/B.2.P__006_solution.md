@@ -6,12 +6,12 @@ section_id: "B.2.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:4 — Solution"
-line_start: 37437
-line_end: 37509
+line_start: 37647
+line_end: 37719
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 
 ### B.2.P:4 - Solution
 
-Recover the claim kind and direct owner before any wording replacement.
+Recover the claim kind and subject pattern before any wording replacement.
 
 #### B.2.P:4.1 - Emergence Claim-Kind Recovery
 
@@ -55,38 +55,38 @@ Read the sentence once and recover five things before rewriting it:
 1. **Practical use.** What decision, explanation, design move, or stop depends on the sentence?
 2. **Exact object.** Is the concern an existing whole, candidate new whole, collection, characteristic, capability, functioning relation, structure, transformation, measurement result, assertion, or mathematical expression?
 3. **Concrete claim.** What changed or obtains: construction, identity, capability, characteristic value, evidence, publication, representation, or only the wording?
-4. **Direct owner.** Which pattern governs that object and claim without using `emergence` as a substitute?
+4. **Subject pattern.** Which pattern defines or constrains that object and claim without using `emergence` as a substitute?
 5. **Disposition.** Keep the exact direct claim, open B.2 only for a remaining whole-reidentification question, or stop with the exact missing object or governor.
 
-A temporary author note may retain the source phrase, exact object, direct owner, blocked overread, and replacement or stop. The note is not a U-kind, relation, result object, or required project record. Do not ask a practitioner to fill a generic emergence card before the direct object can be named.
+A temporary author note may retain the source phrase, exact object, subject pattern, blocked overread, and replacement or stop. The note is not a U-kind, relation, result object, or required project record. Do not ask a practitioner to fill a generic emergence card before the direct object can be named.
 
-#### B.2.P:4.2 - Claim-Kind Recovery and Owner Selection Table
+#### B.2.P:4.2 - Claim-Kind Recovery and Subject-Pattern Selection Table
 
-| Recovered claim kind | Use this owner | Do not overread as |
+| Recovered claim kind | Use this subject pattern | Do not overread as |
 | --- | --- | --- |
 | Whole reidentification of a holon | `B.2`, then `B.2.2`, `B.2.3`, `B.2.4`, or the direct pattern for the new whole's admitted kind | generic emergence, metric gain, or title mnemonic |
 | Candidate new system whole | `B.2.2` | all emergence cases or all system aggregation |
 | Candidate new episteme whole | `B.2.3` plus `C.2.1` and episteme family | episteme agency, publication authority, or EFEM by title |
 | Capability or functioning facts that make whole reidentification live; evidence separately supports the claim | `B.2.4` under B.2 | generic capability, generic function, or all functioning |
 | Ordinary capability claim | `A.2.2` and `C.16` | MHT |
-| Function or functioning claim | `A.6.F`, `A.3.4`, `C.30.TFS-REL`, `C.16`, or direct owner named by value | `U.Emergence` or MHT by wording |
-| Whole-level characteristic or threshold | `C.16`, `A.19`, `A.13`, evidence owners | new whole by metric alone |
+| Function or functioning claim | `A.6.F`, `A.3.4`, `C.30.TFS-REL`, `C.16`, or subject pattern named by value | `U.Emergence` or MHT by wording |
+| Whole-level characteristic or threshold | `C.16`, `A.19`, `A.13`, evidence-use patterns | new whole by metric alone |
 | Architecture-induced property or residual | `C.30`, `A.22`, `C.30.ASV`, `C.30.TFS-REL`, `C.30.ILC`, and `C.29` when mathematical lens is current | MHT unless B.2 reidentification is recovered |
 | Selected dependent `U.Structure`, including bounded model use | `A.22`, `A.1.1`, and the direct patterns for its selected relation occurrences | a holon, acting agent, system part, or new whole named by an MHT claim merely by selection or name |
 | Several actual changes in one work or flow | `A.3.4` for each independently identified change | a composite transformation, transformation parthood, holonhood, or atomism without a direct composition governor |
-| Mathematical emergence, scale, coarse-graining, graph, morphism, benchmark, or MSPD expression | `C.29` plus the direct subject owner | ontology by mathematical spelling |
-| Metric or benchmark mirage | `C.16`, `A.10`, `C.29`, source-use, and evaluation owners | MHT or system admission |
+| Mathematical emergence, scale, coarse-graining, graph, morphism, benchmark, or MSPD expression | `C.29` plus the direct subject pattern | ontology by mathematical spelling |
+| Metric or benchmark mirage | `C.16`, `A.10`, `C.29`, source-use, and evaluation patterns | MHT or system admission |
 | Collection or collective wording mixed with emergence, MHT, or synergy | First recover membership, collection-as-whole, acting collective, whole-level characteristic, or MHT | collection admission by B.2.P |
-| Publication, model, dashboard, theory-text, or report claim | `C.2.1`, `E.17`, `C.30.AD`, `E.17.*`, source-use, or episteme owners | in-life whole by description alone |
+| Publication, model, dashboard, theory-text, or report claim | `C.2.1`, `E.17`, `C.30.AD`, `E.17.*`, source-use, or episteme patterns | in-life whole by description alone |
 
 #### B.2.P:4.3 - Whole-Reidentification Recovery
 
-When a whole-reidentification question remains after claim-kind recovery, do not create a second MHT schema. Return to B.2 with this concrete account:
+When a whole-reidentification question remains after claim-kind recovery, do not create a second MHT schema. Use B.2 with this concrete account:
 
 1. name the exact existing whole, admitted kind, and identity or reidentification rule;
-2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its direct owner;
+2. name each changed delimitation, constituent, constructive relation, assembly, supervision, objective, capability, characteristic, or temporal fact and its subject pattern;
 3. try the existing-whole explanation and state whether it preserves the existing whole;
-4. if a new whole is still needed, return to B.2 and execute the complete A.1 criterion: name the exact candidate, its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic; show that its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the direct kind-specific criterion;
+4. if a new whole is still needed, require B.2 and execute the complete A.1 criterion: name the exact candidate, its constituents, obtaining constructive relations, assembly, reidentification rule, and composition-grounded whole characteristic; show that its actual boundary, interfaces, relevant characteristics, and identity-preservation conditions satisfy at least one applicable governed larger-assembly construction method or rule under which it can remain a constituent; then name its already admitted kind and satisfy the direct kind-specific criterion;
 5. state whether the direct identity rules preserve the same whole or require a new whole for the current subject claim;
 6. only when a specific downstream task must inspect or cite the decision, identify any separate assertion or record, supporting evidence and warrant, G.11 currentness result, and rely, decline, defer, or reopen decision.
 
@@ -104,7 +104,7 @@ If the claim is plain collection admission:
 - use `A.1` with `A.15` and A.2 patterns for an acting collective admitted as `U.System`;
 - use `C.16` for a whole-level characteristic.
 
-B.2.P may point to these direct owners; it does not own their claims. An unassembled collection remains an unassembled collection even when a list, dashboard, or project card names it as one whole. A C.13 collection construction does not by itself establish an integrated assembly, acting system, or A.1 holon.
+B.2.P may point to these subject patterns; it does not own their claims. An unassembled collection remains an unassembled collection even when a list, dashboard, or project card names it as one whole. A C.13 collection construction does not by itself establish an integrated assembly, acting system, or A.1 holon.
 
 #### B.2.P:4.5 - Source Mnemonics and Result Fields
 
@@ -115,5 +115,5 @@ Treat source labels and short forms as recognition cues until the concrete thing
 - `promotion` may hide whole reidentification, status change, release, gate, publication, or project process wording. Recover before use.
 - `post*` fields do not survive as generic governed names. When B.2 is current, name the exact candidate new whole and its already admitted holon kind directly; cite an optional classification assertion or reidentification record only when receiving work needs that episteme.
 
-Do not keep the source label as the pattern owner merely because it is recognizable.
+Do not treat the source label as a subject-pattern locator merely because it is recognizable.
 

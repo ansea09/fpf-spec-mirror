@@ -6,22 +6,25 @@ section_id: "C.32.FAIL:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:12 — Relations"
-line_start: 66569
-line_end: 66575
+line_start: 66879
+line_end: 66885
 dependencies:
   - "A.10"
-  - "A.15"
+  - "A.15.1"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
+  - "A.2"
+  - "A.2.1"
   - "A.20"
   - "A.21"
   - "A.6.F"
   - "A.6.M"
   - "A.6.P"
+  - "A.6.RCD"
   - "B.3"
   - "C.11"
   - "C.18"
@@ -29,6 +32,7 @@ dependencies:
   - "C.19.1"
   - "C.27"
   - "C.29"
+  - "C.3"
   - "C.30"
   - "C.30.AD"
   - "C.30.ASV"
@@ -40,10 +44,12 @@ dependencies:
   - "C.32.P2S"
   - "C.32.PAD"
   - "E.10"
+  - "E.10.ROLE"
   - "E.17"
   - "E.18"
   - "E.18.NET"
   - "E.24.PUB"
+  - "F.6"
   - "G.5"
 keywords:
   - "architecture failure cue"
@@ -57,8 +63,8 @@ keywords:
 
 ### C.32.FAIL:12 - Relations
 
-- **Builds on:** `C.32` for candidate palette repair; `C.32.CONWAY` for a synthesis frame or exact qualified architecture-influence/transformed-side pair while keeping the changed referent, C.30 architecture relations or modal claims, direct influence occurrence, actors, assignments, Work, actual transformation, and any E.18.NET network distinct; `C.30` and `C.30.AD` for architecture relation, claim, and description boundaries; `C.30.ASV` for architecture structural views; `C.31` for module and interface architecture; `C.32.MLAO` for cross-scope residual repairs; `C.29` for mathematical-lens use; `E.17` and `E.24.PUB` for publication-face boundaries; and `A.6.P` and `E.10` for source-expression and relation recovery.
-- **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed, `A.6.M` when module-interface repair is current, `C.19.1` when a general scale-amenable bearer or method is preferred, the A.15 family when role or work structure is current, `A.10` and `B.3` when evidence or assurance claims are current, `A.20` and `A.21` when gate or release claims are current, `C.18` and `C.19` for archive, front, pool-treatment, or stepping-stone claims, `C.27` when temporal adequacy is current, `E.18` when transformation-flow structure is current, `C.32.P2S` when the failure reopens problem-to-structure carry-through, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and source return, `E.24.PUB` for the occurrence and audience availability, `C.11` for local choice, and `C.32.PAD` for project architecture-decision claims.
+- **Builds on:** `C.32` for candidate palette repair; `C.32.CONWAY` for a synthesis frame or qualified pair connecting architecture influence with transformed-side architecture while keeping the changed referent, C.30 architecture relations or modal claims, direct influence occurrence, organization relations, local kinds, separate System-classification judgments, assignments, enactor relations, ordinary work or procedure organization, actual Work, direct responsibility relations, actual transformation, and any E.18.NET network distinct; `C.30` and `C.30.AD` for architecture relation, claim, and description boundaries; `C.30.ASV` for architecture structural views; `C.31` for module and interface architecture; `C.32.MLAO` for cross-scope residual repairs; `C.29` for mathematical-lens use; `E.17` and `E.24.PUB` for publication-face boundaries; and `A.6.P`, `E.10`, and `E.10.ROLE` for source-expression and role-word recovery.
+- **Coordinates with:** `A.6.F` when function and architecture-characteristic wording is mixed; `A.6.M` for module-interface repair; `C.19.1` for a general scale-amenable bearer or Method; A.2/C.3 for a local system-role kind and any separate System-classification judgment; A.2.1 for an assignment species and occurrence; A.15.1/F.6 for complete actual-Work attribution; and the exact enactor, coordination, or responsibility predicate, or A.6.RCD `missing-governor`, when that direct route is absent. Use `E.10.ROLE` only for unresolved claim-bearing *role* wording. Ordinary work or procedure organization may remain ordinary. It also coordinates with `A.10` and `B.3` for evidence or assurance, `A.20` and `A.21` for gate or release, `C.18` and `C.19` for archive or pool treatment, `C.27` for temporal adequacy, `E.18` for transformation-flow structure, `C.32.P2S` for reopened carry-through, `A.19.CPM` for comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, `E.17` and `E.24.PUB` for publication, `C.11` for local choice, and `C.32.PAD` for project architecture decisions.
 - **Patterns for the next questions after the repair cue:** `A.10` for evidence claims, `B.3` for assurance claims, `A.20` or `A.21` for gate or release claims when those claims are being made, `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, `E.17` for a source-backed publication face and source return, `E.24.PUB` for the occurrence and audience availability, `C.11` for local choice, and `C.32.PAD` for project architecture decisions, only after the architecture repair cue has named the object under stress and the repair action.
-- **Boundary:** C.32.FAIL governs repair cues for architecture-synthesis failures. It does not govern final candidate selection, evidence sufficiency, assurance, gate passage, release claims, or architecture decision.
+- **Boundary:** C.32.FAIL contains repair cues for architecture-synthesis failures. It does not decide final candidate selection, evidence sufficiency, assurance, gate passage, release, or an architecture decision.
 

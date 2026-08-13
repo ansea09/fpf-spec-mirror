@@ -6,12 +6,12 @@ section_id: "C.29:0"
 section_title: "First-use card"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__002_first-use-card.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:0 — First-use card"
-line_start: 58171
-line_end: 58185
+line_start: 58453
+line_end: 58467
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -76,7 +76,7 @@ Use this card before the full card. It is enough for the first use pass unless p
 |---|---|
 | Is the mathematical phrase changing the next lens-use action, or only helping recognition? | If no action changes, keep ordinary prose or write `NoMathLensUseNeededNote`. |
 | What phenomenon is being seen through the lens? | Name `TargetPhenomenon` in problem-owning language. |
-| What concrete mathematical object, formal role, learned representation, simulation object, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
+| What concrete mathematical object, formal position, learned representation, simulation object, or local formalism is being used? | Name `CandidateMathObject`; broad family names are prompts only. |
 | What structure is preserved? | Name `PreservedStructure`. |
 | What structure is lost or deliberately ignored? | Name `LostStructure`; empty loss needs equivalence or isomorphism justification. |
 | What tempting inference does this lens not license? | Name `StopCondition`; no stop condition means no C.29 result can carry a declared lens use. |

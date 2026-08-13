@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__007_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 75884
-line_end: 75913
+line_start: 76348
+line_end: 76377
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ A row may use `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamil
 - the recurring wording use recognized by `E.10`;
 - the exact governed entity, value, episteme, obtaining direct relation, or representation exposed by that use;
 - the exact claim or use being made;
-- the direct pattern governing that object, relation, or representation;
+- the direct pattern that defines or constrains that object, relation, or representation;
 - the repaired wording;
 - the admissible reader use that survives; and
 - the blocked stronger reading.
@@ -90,7 +90,7 @@ Declaration, designation, reference, publication, or representation fields are o
 
 `semanticAreaSenseFamily` is the Part-F `senseFamily` or FPF kind named by value-family discriminator that prevents the row from becoming a theme, domain, workstream, or pattern-nest label.
 
-`ontologicalNeighborhood` means the FPF applicability neighborhood around that named `semanticArea`: the exact governed objects, admissible adjacent objects and relations, direct owners, use boundaries, and optional declaration, description, publication, reference, or representation objects needed by the current repair. It is not textual, filename, ToC, alphabetic, topic, discipline, domain, workstream, or pattern-nest proximity.
+`ontologicalNeighborhood` means the FPF applicability neighborhood around that named `semanticArea`: the exact governed objects, admissible adjacent objects and relations, subject patterns, use boundaries, and optional declaration, description, publication, reference, or representation objects needed by the current repair. It is not textual, filename, ToC, alphabetic, topic, discipline, domain, workstream, or pattern-nest proximity.
 
 `pattern nest` means a numbering or placement grouping such as `A.6.*`, `C.16.*`, or `C.30.*`. One applicability row may point to a realization pattern in one pattern nest, but the row and the nest are not the same concept.
 

@@ -6,12 +6,12 @@ section_id: "C.20:7.1"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:7.1 — Common Anti-Patterns and How to Avoid Them"
-line_start: 50648
-line_end: 50665
+line_start: 50904
+line_end: 50921
 dependencies:
   - "A.1"
   - "A.14"
@@ -54,8 +54,8 @@ keywords:
 | Anti-pattern | Repair |
 | --- | --- |
 | "TDD discipline" or another Method/tradition label already names a discipline. | Treat "Test-Driven" as a tradition, method-family, or other local classification only under its exact criterion and subject. Identify each Method under A.3.1; identify a discipline only by the complete C.20 construction test. |
-| "Safety Discipline Owner" or another steward title proves ownership, parthood, or decision authority. | Identify the exact holder, role assignment, scope, and governing rule at their direct owners. The title is a role claim; actual authority and any discipline relation require separate grounds. |
-| "ClinicalSafetyDomain Governance" or another compound domain-governance label supplies a discipline and its comparison policy. | Separate the subject-area or catalogue label, exact governance role/rule and Work, any independently constructed C.20 discipline, and the A.19.CPM/G.0 comparison declaration. The compound label creates none of those objects or facts. |
+| “Safety Discipline Owner” or another owner or steward title proves ownership, parthood, responsibility, or decision authority. | Treat the title as an `E.10.ROLE` trigger. Admit the System that actually performs any Work; recover any local system-role kind, classification, or assignment independently; and cite the exact ownership, responsibility, authority, governance, or other direct relation that obtains. If no pattern establishes the stronger relation, return `missing-governor`. |
+| "ClinicalSafetyDomain Governance" or another compound domain-governance label supplies a discipline and its comparison policy. | Separate the subject-area or catalogue label, exact governance system-role kind and assignment, direct governance rule, Work, any independently constructed C.20 discipline, and the A.19.CPM/G.0 comparison declaration. The compound label creates none of those objects or facts. |
 | "The five card positions are filled, so the discipline exists." | Recover the exact candidate, direct part occurrences, whole-forming claims, assembly, reidentification, characteristic, and larger-assembly compatibility. |
 | "The department is the discipline." | Keep the organization as an exact system and its activity as Work; establish any discipline part relation independently. |
 | "Every canonical paper and standard is a discipline part." | Identify each episteme and apply the C.20 predicate; citation, canonical status, or publication is insufficient. |

@@ -6,12 +6,12 @@ section_id: "E.4.FPF:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:7 — Conformance checklist"
-line_start: 70182
-line_end: 70195
+line_start: 70585
+line_end: 70598
 dependencies:
   - "C.33"
   - "C.34"
@@ -45,8 +45,8 @@ keywords:
 | CC-FPF.3 Core and carriers separated | Core pattern set, publication carriers, access carriers, relation records, source and currentness records, and quality records remain distinct. |
 | CC-FPF.4 Dependency direction protected | DPFs and local frameworks may depend on FPF Core; reverse dependency requires a deliberate Core amendment. |
 | CC-FPF.5 Quality route correct | Whole-FPF adequacy uses `E.2.DA`; individual patterns use `E.21`; DPF packages use `E.4.DPF.DA`; DRR uses `E.9.DA`. |
-| CC-FPF.6 Publication thinness preserved | README, Preface, ToC, cards, and other projection carriers help entry without becoming semantic authority beside governing patterns. |
+| CC-FPF.6 Publication thinness preserved | README, Preface, ToC, cards, and other projection carriers help entry without becoming semantic authority beside subject patterns. |
 | CC-FPF.7 Access carrier bounded | Skill packs, MCP routes, retrieval, and assistant integrations expose edition identity, currentness, and refusal conditions without becoming framework authority, runtime dependency, or work permission. |
-| CC-FPF.8 Refresh route visible | Source-front, edition, entry-use, currentness, and evaluation changes have receiving owners such as `G.2`, `G.11`, `E.2.DA`, `E.21`, or direct pattern owners. |
-| CC-FPF.9 Carrier structure-account boundary visible | README, Preface, ToC, or equivalent FPF carrier states what first-principles route its publication expression tells, for which reader and use, what it deliberately coarsens, abstracts, omits, or defers, and where governing pattern detail resumes. |
+| CC-FPF.8 Refresh relation visible | Source-front, edition, entry-use, currentness, and evaluation changes identify the affected assertion and exact subject pattern, such as `G.2`, `G.11`, `E.2.DA`, or `E.21`. |
+| CC-FPF.9 Carrier structure-account boundary visible | README, Preface, ToC, or equivalent FPF carrier states what first-principles route its publication expression tells, for which reader and use, what it deliberately coarsens, abstracts, omits, or defers, and where subject pattern detail resumes. An all-in-one Markdown carrier also follows E.11's shared front door and ToC row profile without exposing build metadata as reader front matter. |
 

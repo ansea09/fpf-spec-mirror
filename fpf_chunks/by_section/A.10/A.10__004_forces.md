@@ -6,12 +6,12 @@ section_id: "A.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:3 — Forces"
-line_start: 22737
-line_end: 22745
+line_start: 22990
+line_end: 22998
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,5 +52,5 @@ keywords:
 - **Reusable method vs performed work.** A method describes a repeatable way; actual use requires dated work and exact bindings.
 - **Provenance vs result establishment.** A.10 must make a result traceable without establishing the result itself.
 - **Graph convenience vs ontic discipline.** A graph can represent many relations compactly but cannot make them obtain.
-- **Contestability vs confidentiality.** Reliance must be challengeable while sensitive carriers may require scoped, redacted, hashed, or role-mediated access.
+- **Contestability vs confidentiality.** Reliance must be challengeable while sensitive carriers may require scoped, redacted, hashed, or access-controlled views.
 

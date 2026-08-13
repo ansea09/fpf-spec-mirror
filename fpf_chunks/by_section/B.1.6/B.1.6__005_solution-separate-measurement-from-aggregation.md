@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 36868
-line_end: 36927
+line_start: 37076
+line_end: 37135
 dependencies:
   - "A.1"
   - "A.10"
@@ -96,15 +96,15 @@ These are separately governed objects, not fields that create one another:
 
 A ledger, dashboard, policy, profile, clause, citation, or graph edge may represent or cite this chain. None establishes work occurrence, actual participation, measurement, aggregation, or result identity by presence.
 
-#### B.1.6:2.1 - Direct Owner Map
+#### B.1.6:2.1 - Subject Pattern Map
 
-| Current claim | Direct owner |
+| Current claim | Subject pattern |
 | --- | --- |
 | Resource Characteristic, Scale, Unit, measurement model/calibration, measurement work and result | `C.16` plus A.15.1/A.6.1 for work and bindings |
 | Dated aggregation work, performer, method enactment, and actual inputs | `A.15.1` and `A.6.1` |
-| Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation owner; use `B.1.4` only to aggregate already recovered temporal relations |
-| Proper temporal restriction of another enduring carrier | that carrier's direct identity owner plus `A.14` `PhaseOf`; never a substitute for Work relations |
-| Overlap, shared-stock, boundary, and deduplication facts | exact stock, resource-use, boundary, work-overlap, or accounting relation owner |
+| Work temporal part, episode, operational part, partition, overlap, retry, resumption, or later occurrence | `A.15.1` and the exact Work relation pattern; use `B.1.4` only to aggregate already recovered temporal relations |
+| Proper temporal restriction of another enduring carrier | that carrier's direct identity pattern plus `A.14` `PhaseOf`; never a substitute for Work relations |
+| Overlap, shared-stock, boundary, and deduplication facts | exact stock, resource-use, boundary, work-overlap, or accounting relation pattern |
 | Aggregation policy and typed aggregation result | `B.1.6` |
 | Measurement-result and aggregation-result epistemes | `C.2.1`; A.15.PROD only when their inception through work matters |
 | Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |

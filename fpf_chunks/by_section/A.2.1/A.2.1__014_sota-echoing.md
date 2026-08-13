@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - System Role Assignment"
+pattern_title: "U.SystemRoleAssignment - Contextual System-Role Assignment"
 section_id: "A.2.1:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__014_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:12 — SoTA-Echoing"
-line_start: 3283
-line_end: 3290
+line_start: 3450
+line_end: 3457
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -20,30 +20,31 @@ dependencies:
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
   - "A.6.5"
   - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.3.3"
   - "F.6"
   - "F.9"
-  - "U.Role"
 keywords:
-  - "AssignmentInterval"
-  - "assignment occurrence"
-  - "effective ReferenceScheme"
+  - "assignment predicate"
+  - "direct assignment species"
   - "holder System"
+  - "identity"
+  - "maximal interval"
   - "performedUnderAssignment"
-  - "role value"
-  - "role-taxonomy episteme"
+  - "system-role kind"
 ---
 
 ### A.2.1:12 - SoTA-Echoing
 
 | Practice line | Source and status | FPF mutation | Practical consequence |
 | --- | --- | --- | --- |
-| Current foundational ontology distinguishes role-like classification, relation aspects, and explicit relation occurrences. | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint; used as a current comparator rather than an imported hierarchy. | Keep role value, assignment relation occurrence, participant SlotKinds, and performed work distinct; apply FPF's own holder and occurrence-identity rules. | The same system can hold several roles and enter repeated assignments without new system kinds. |
-| DDD makes model interpretation local to an actual model-use organization. | Eric Evans, [Domain-Driven Design Reference](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), 2015 mature reference; Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 2026 current worked practice. | Let a receiving assertion or work use designate a selected `BoundedModelUseStructure` only when that organization changes the receiving interpretation; taxonomy and scheme remain the generic assignment participants. | Physical and organizational assignments need no fabricated `U.BoundedContext`, while a real DDD use can retain its selected structure without changing generic relation identity. |
-| FPF relation-occurrence discipline separates predicate obtaining, assertion, explicit individuation, identifier assignment, and reference use. | Current `A.6.REL` line. | Materialize a role-assignment occurrence only when another claim needs its identity; use temporal extent to distinguish repeated episodes. | A staffing sentence stays readable, while a work-attribution claim can reference the exact shift assignment. |
+| Current foundational ontology distinguishes role-like classification, relation aspects, and explicit relation occurrences. | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint; current comparator, not imported hierarchy. | Keep local system-role kinds, direct assignment species, SlotKinds, and performed Work distinct under FPF identity laws. | The same system can receive several assignments without becoming several systems. |
+| Relation modeling distinguishes a family from concrete relation signatures with different participant laws. | Current A.6.0, A.6.5, and A.6.REL line. | Let directly declared species carry the exact participant and predicate law while the family provides the common ValueKind used by receivers. | A commission-sensitive appointment remains usable by F.6 without a duplicate generic relation. |
+| DDD makes interpretation local to an actual model-use organization. | Evans, *Domain-Driven Design Reference* (2015) and current context-mapping practice. | Cite a selected `BoundedModelUseStructure` only in a receiving claim it changes, unless a separately admitted species truly requires it. | Ordinary physical and organizational assignments gain no fabricated context participant. |
 

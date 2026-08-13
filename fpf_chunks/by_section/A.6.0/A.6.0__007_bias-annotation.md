@@ -6,12 +6,12 @@ section_id: "A.6.0:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:6 — Bias-Annotation"
-line_start: 12059
-line_end: 12073
+line_start: 12283
+line_end: 12297
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -50,8 +50,8 @@ keywords:
 - **Prag.** Favors reusable named SlotSpecs and laws. Counter-risk: one-off work becomes formal paperwork. Mitigation: ordinary direct sentences remain sufficient.
 - **Did.** Favors the four content groups and local mantra. Counter-risk: readers mistake the mnemonic order for executable work. Mitigation: A.22.CGUS governs any claimed executable conditional continuation.
 - **Context transport.** A signature's claims mean only what their stated scope and effective reference scheme make them mean. Counter-risk: the same label in another context is treated as equivalent or safely substitutable. Mitigation: before cross-context or cross-scheme reuse, apply F.9 to name the local senses, Bridge kind and direction, declared loss, and admitted use; without that result, do not transport the claim by label alone.
-- **Comparability.** Two declarations do not become comparable because both expose numbers. Counter-risk: numeric appearance hides incompatible characteristics, measurement procedures, units, scales, comparators, or normalization. Mitigation: apply the current A.17/A.18/C.16 characteristic, measurement, unit-and-scale owners and A.19.CPM/A.19.UNM comparison and normalization owners as the case requires, then state the resulting comparison boundary; keep their detailed legality and result-shape rules with those owners.
-- **Register.** Begin each technical declaration block and worked case with, or immediately supply, an ordinary sentence naming what the practitioner asserts or does and what visible result follows; then map that sentence to the exact FPF terms. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: use E.10's Plain-intent step, scan the recovered wording, and rescan every replacement; keep the repair only when the same governed object, owner, admissible use, and practical action remain clear.
+- **Comparability.** Two declarations do not become comparable because both expose numbers. Counter-risk: numeric appearance hides incompatible characteristics, measurement procedures, units, scales, comparators, or normalization. Mitigation: apply the current A.17/A.18/C.16 characteristic, measurement, and unit-and-scale patterns and A.19.CPM/A.19.UNM comparison and normalization patterns as the case requires, then state the resulting comparison boundary; keep their detailed legality and result-shape rules with those subject patterns.
+- **Register.** Begin each technical declaration block and worked case with, or immediately supply, an ordinary sentence naming what the practitioner asserts or does and what visible result follows; then map that sentence to the exact FPF terms. Counter-risk: a technically correct block remains unusable without private decoding. Mitigation: use E.10's Plain-intent step, scan the recovered wording, and rescan every replacement; keep the repair only when the same governed object, subject pattern, admissible use, and practical action remain clear.
 
 The examples deliberately span physical modeling, medicine, learning, and formal work. Each worked declaration has its own C.2.1 identity, which remains independent of its publication form; the examples do not share one declaration individual.
 

@@ -6,12 +6,12 @@ section_id: "A.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:4 — Solution"
-line_start: 34030
-line_end: 34212
+line_start: 34232
+line_end: 34414
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -116,7 +116,7 @@ Where a `GateCheck` declares an evidence-scoped `unknown` strategy, that strateg
 
 #### A.21:4.6 - GateProfiles: current binding and minimum profile semantics
 
-A.21 binds the following *functional role* of `GateProfile`:
+A.21 binds the following function of `GateProfile`:
 
 > **Terminology (avoid confusing `Lite` and `Lean`).** `GateProfile=Lite|Core|SafetyCritical|RegulatedX` is the **GateProfile value** that determines the effective GateCheck set and fold policies. `PublishMode=Lite` is a **publication-face reduction mode** (AssuranceLane‑Lite or TechCard‑Lite) and is not interpreted as a reduced-obligation `GateProfile`.
 
@@ -199,12 +199,12 @@ The gate publishes faces to record **what is declared**, not "how it executes". 
 * `EvidenceCompleteness`
 * `SafetyEnvelope`
 * `RegulatedConformance(X)` (X identity plus edition and rule refs are recorded in `DecisionLog`)
-* `RoleChannelFit` (roles are Kernel `U.Role` tokens; channel fit is a separate check component, not an alias string)
+* `SystemRoleFit` and `ChannelFit` are separate GateFit check kinds. `SystemRoleFit` must declare whether it consumes (a) an admitted System, one local system-role kind, and an applicable C.3.2 classification judgment, or (b) one assignment occurrence, its declared `U.SystemRoleAssignment` species, and its holder System. `ChannelFit` consumes the channel relation or condition selected under its rule. A visible label, alias-table string, kind, or assignment establishes neither fit claim; neither the kind nor the assignment acts.
 * `EquivalencePreservation`
 * `OutflowAudit`
 * `SnapshotConsistency`
 
-**Neighboring-governance truth examples (informative).** A.21 names and aggregates the check; it does not decide the domain truth condition. `EvidenceCompleteness` is governed by `A.10`, `G.6`, or `B.3`; `RoleChannelFit` is governed by `A.2`, `A.15`, or `A.2.6`; `ReferencePlaneCrossing` is governed by `E.18`, `F.9`, `F.17`, and UNM; `ComparatorConstraintRules` is governed by `A.19`, `G.0`, `G.5`, `C.18`, `C.19`, `G.9`, or `G.11` where comparator, archive, parity, set-return, or refresh claims are present; `SafetyEnvelope` and `RegulatedConformance(X)` are governed by the safety or regulatory pattern that governs the envelope or rule.
+**Neighboring-governance truth examples (informative).** A.21 names and aggregates the check; it does not decide the domain truth condition. `EvidenceCompleteness` is governed by `A.10`, `G.6`, or `B.3`. `SystemRoleFit` uses A.2/C.3.2 for classification or A.2.1/F.6 for an exact obtaining assignment and its holder; any Work claim stays under A.15. `ChannelFit` uses A.2.6 or the direct channel governor. `ReferencePlaneCrossing` is governed by `E.18`, `F.9`, `F.17`, and UNM. `ComparatorConstraintRules` is governed by `A.19`, `G.0`, `G.5`, `C.18`, `C.19`, `G.9`, or `G.11` where comparator, archive, parity, set-return, or refresh claims are present. `SafetyEnvelope` and `RegulatedConformance(X)` are governed by the safety or regulatory pattern that governs the envelope or rule.
 
 **Forbidden (hard boundary).**
 

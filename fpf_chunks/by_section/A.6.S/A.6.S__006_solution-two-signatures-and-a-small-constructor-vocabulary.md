@@ -6,12 +6,12 @@ section_id: "A.6.S:4"
 section_title: "Solution — two signatures and a small constructor vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__006_solution-two-signatures-and-a-small-constructor-vocabulary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:4 — Solution — two signatures and a small constructor vocabulary"
-line_start: 20725
-line_end: 20910
+line_start: 20978
+line_end: 21163
 dependencies:
   - "A.12"
   - "A.3"
@@ -46,20 +46,20 @@ keywords:
 
 ### A.6.S:4 - Solution — two signatures and a small constructor vocabulary
 
-#### A.6.S:4.0 - Ontology and effect profile — constructor operators are epistemes; enactment is Work under role assignment
+#### A.6.S:4.0 - Ontology and effect profile — constructor operators are epistemes; admitted Systems perform the Work
 
-This pattern relies on **Strict Distinction** (A.7), transformation discipline (A.3.4), method/work discipline (A.3.1, A.3.2, A.15, A.15.1, A.15.2), and role-assignment discipline (A.2, A.2.1):
+This pattern relies on **Strict Distinction** (A.7), transformation discipline (A.3.4), Method and Work discipline (A.3.1, A.3.2, A.15, A.15.1, A.15.2), and the separate system-role-kind, assignment, and Work-attribution disciplines (A.2, A.2.1, F.6):
 
 * **ConstructorSignature (operator description; EntityOfConcern and Description-episteme boundary).**
   The ConstructorSignature is an **Episteme** (typically a Description/Spec) that *describes* a small family of constructor operations for signature evolution.
   The ConstructorSignature SHALL specify each constructor operation family as an instance/species of `U.EffectFreeEpistemicMorphing` (EFEM; A.6.2) or a declared sub‑species (e.g., A.6.3/A.6.4): **episteme→episteme** morphisms over the `C.2.1 U.EpistemeSlotRelation` positions (`ClaimGraphSlot`, `EntityOfConcernSlot`, `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) plus attached meta/edition fields.
   As EFEM, constructor ops are **effect‑free** in the strict A.6.2 sense: **no Work, no Mechanism application, and no mutation of systems or carriers**.
-  Concretely: an EFEM step *derives* a successor episteme (often a new edition) and its structured delta; the physical act of materialising that successor on carriers (files, repos, registries, releases, carrier/source-currentness records) is **Work** enacted by a system or acting holon under a current role assignment.
+  Concretely: an EFEM step *derives* a successor episteme (often a new edition) and its structured delta; the physical act of materialising that successor on carriers (files, repositories, registries, releases, or carrier and source-currentness records) is **Work** performed by an admitted System. Any local system-role classification remains a separate claim. F.6 identifies the assignment under which each performer acted; a short account may omit an assignment identifier that no later claim uses.
 
   Slot discipline alignment requirement (A.6.5 and C.2.1:7.1): a conforming ConstructorSignature SHALL state (for each constructor operation entry) which `C.2.1` slots it may read and which it may write, expressed in SlotKind/ValueKind/RefKind terms, and SHALL declare whether that operation entry is a species of A.6.2, A.6.3, or A.6.4.
 
 * **Enactor (capability) vs enactment (world-contact).**
-  A system or acting holon with a current `U.RoleAssignment` uses a **Method** or **MethodDescription** that realises the constructor operations, and enacts particular steps as dated **Work** on carriers (repos, releases, pins, carrier/source-currentness references).
+  An admitted `U.System` uses a **Method** and performs particular steps as dated **Work** on carriers such as repositories, releases, pins, and carrier and source-currentness references. A MethodDescription is a separate episteme that describes the Method. F.6 identifies the assignment under which each performer acted; neither a local system-role kind nor an assignment acts. A short account may omit an assignment identifier that no later claim uses.
   This is where traces, review records, evidence refs, and publication carriers appear.
 
 Therefore:
@@ -72,7 +72,7 @@ Therefore:
 In a conforming design, model **two signatures**:
 
 1. **TargetSignature.**
-   The `TargetSignature` you want to stabilize. It is a `U.Signature` per A.6.0: `SubjectBlock`, `Vocabulary`, `Laws`, `Applicability`. It does **not** contain admissibility gates, deontic obligations, or evidence claims (those are classified by A.6.B).
+   The `TargetSignature` you want to stabilize. It is a `U.Signature` per A.6.0: direct `SubjectKind` and `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule` when current, together with `Vocabulary`, `Laws`, and `Applicability`. These are components of the TargetSignature episteme, not a nested container. It does **not** contain admissibility gates, deontic obligations, or evidence claims (those are classified by A.6.B).
 
 2. **ConstructorSignature.**
    A *separate* `U.Signature` whose purpose is to describe the **engineering operations** used to construct and evolve the SoI. Intuitively: it is the boundary signature of the enabling activity that produces the target signature.
@@ -82,7 +82,7 @@ A.6.S names this pairing discipline **U.SignatureEngineeringPair**: a signature 
 Minimal definition (informative): a `U.SignatureEngineeringPair` binds exactly two signature epistemes in the same Context: a **TargetSignature** (the boundary signature under stabilization) and a **ConstructorSignature** (the enabling signature describing the constructor operations used to build/evolve the TargetSignature).
 
 **Terminology note (C.2.1 alignment + twin discipline).**
-This pattern uses `TargetSignature` as the **Tech role label** for “the signature episteme under construction and stabilisation”.
+This pattern uses `TargetSignature` as the **Tech designation** for “the signature episteme under construction and stabilisation”. It is a designation of the signature's place in this arrangement, not a local system-role kind or system-role assignment.
 If a Context wants an explanatory Plain label, it MAY use **“signature of interest (SoI)”** as a **Plain twin** for `TargetSignature`, but Plain twins are didactic only and MUST NOT appear in conformance/acceptance clauses.
 
 Do not conflate:
@@ -213,11 +213,11 @@ This keeps signature engineering aligned with A.6.B’s separation:
 If a team represents signature-construction work as an `E.18` `TransformationFlowStructure`, the A.6.S constructor arrangement is referenced from that structure rather than converted into a second graph ontology:
 
 * EFEM constructor operations appear as transformation-flow loci whose governed value is an A.6.2 effect-free episteme-to-episteme morphism over signature epistemes. They remain constructor-operation descriptions, not performed work.
-* Concrete carrier writes (commits, releases, registry writes, carrier/source-currentness pinning) are performed-work loci or work occurrences governed by A.15, A.15.1, A.2/A.2.1 for role assignment when current, A.10 for evidence/provenance, E.17 for publication, and the relevant carrier patterns; they are not constructor operations.
+* Concrete carrier writes (commits, releases, registry writes, and carrier and source-currentness pinning) are performed-Work loci or Work occurrences identified with A.15 and A.15.1. Use A.2 for any separate local system-role classification and A.2.1 and F.6 for the assignment under which each performer acted; a short flow account may omit an unused assignment identifier. Use A.10 for evidence and provenance, E.17 for publication, and the relevant carrier patterns for carriers. None of these values is a constructor operation.
 * Validation and admission checks are gate/check loci governed by A.21, with `OperationalGate(profile)`, `GateProfile`, `GateCheckRef`, `GateDecision`, and `DecisionLogRef` named when a gate-decision relation is present.
 * Any `EntityOfConcernRef` or kind change is a retargeting relation or structural-reinterpretation relation governed by A.6.4, with explicit `KindBridge` plus invariants and witnesses.
 
-This mapping is optional; A.6.S stays usable as a lightweight signature-engineering discipline even when no `E.18` `TransformationFlowStructure` is declared. When it is declared, E.18 owns the flow structure and any graph or path mathematical description; A.6.S owns the signature pair and constructor-operation vocabulary.
+This mapping is optional; A.6.S stays usable as a lightweight signature-engineering discipline even when no `E.18` `TransformationFlowStructure` is declared. When it is declared, use E.18 for the flow structure, C.29 for any graph or path representation, and A.6.S for the signature pair and constructor-operation vocabulary.
 
 #### A.6.S:4.6 - State during construction (informative)
 
@@ -228,5 +228,5 @@ In most cases, use:
 * a coarse **status** (`Draft`/`Review`/`Stable`/`Deprecated`) for process signalling.
 
 If a Context needs a finer state-change policy (e.g., “proposed → reviewed → published → frozen”), model it as Work policy in the ConstructorSignature’s Applicability or as a Context‑local state-change episteme; keep the TargetSignature semantics unchanged.
-Where state-change policy is normative, express it as a Context-local status/state-transition policy for the relevant signature episteme or publication, with A.2.4/F.10 status-use discipline and A.6.5 slot discipline where needed, rather than minting a `U.Role` for the episteme or a new core “signature state”.
+Where state-change policy is normative, express it as a Context-local status or state-transition policy for the relevant signature episteme or publication, with A.2.4/F.10 status-use discipline and A.6.5 slot discipline where needed. Do not call the episteme's status a system role or create a system-role assignment for it; use E.10.ROLE to route bare *role* wording to the actual status, state, declaration-position, or other direct branch.
 

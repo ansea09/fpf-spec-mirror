@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:7"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__009_worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:7 — Worked Cases"
-line_start: 91197
-line_end: 91226
+line_start: 91913
+line_end: 91946
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,53 +22,60 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:7 - Worked Cases
 
-#### F.4:7.1 - Pump Inspector Role
+#### F.4:7.1 - Pump Inspector System Role
 
-`PumpInspectorRoleDescription` is a C.2.1 episteme whose EntityOfConcern is `PumpInspectorRole`, whose effective scheme is `Plant-A-Maintenance-Scheme`, and whose ClaimGraph names `PlantMaintenanceRoles-2026` as the governing role-taxonomy episteme. Its recognition explanation says that the role is used for inspecting pump condition before maintenance work is admitted. It names maintenance-technician, inspection-robot, or service-team `U.System` kinds as eligible holder kinds only when each exact system kind and any current holder entity are independently admitted; the description itself admits neither a system nor an assignment.
+`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is `PumpInspectorSystemRole@PlantAMaintenance`. Its contribution identity is supplying the pump-condition inspection judgment used before a Plant A maintenance decision. The description names `PlantA-PumpInspector-KindSignature-v4` and `Plant-A-Maintenance-Scheme`. Under that signature, a candidate counts only when it is already admitted as a `U.System` and two Plant A domain claims obtain: the reading predicate says that this System obtains readings for the named pump and declared condition characteristics in the applicable inspection situation; the judgment predicate says that this System returns the named pre-maintenance judgment from those readings. Each predicate declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. Use `A.6.F` only if source wording first hides those claims behind *function*; it establishes neither predicate. If either predicate or its case facts cannot be recovered, return the exact A.6.RCD `missing-governor` or missing-information result instead of classifying the candidate. A maintenance technician, inspection robot, or service team is only an example until those same conditions are checked.
 
-Its role invariants say that the role concerns pump-condition inspection, does not itself perform repair, and requires a current assignment before work attribution. It references pump-inspection capability conditions or the inspection method only when a receiving work claim needs them. Its non-role boundary states that an inspection report is an episteme used through direct evaluation, evidence, source, or publication relations, not a role holder.
+The description says the kind concerns pump-condition inspection and does not itself denote repair. It may cite pump-inspection capability conditions or an inspection Method when a receiving Work claim needs them. Its boundary says that an inspection report is an episteme used through evaluation, evidence, source, or publication relations, not a system-role holder.
 
-The description makes `PumpInspectorRole` recognizable. It does not say that Robot-7 holds the role, can inspect, followed the method, or performed work. Those claims go to `A.2.1`, `A.2.2`, `A.15`, and the direct evaluation or evidence patterns.
+The description makes `PumpInspectorSystemRole` recognizable. It does not say that Robot-7 satisfies the kind, has an assignment, is capable of inspecting, has permission or readiness to inspect, enacted a Method, or performed Work. Those claims use C.3.2, A.2.1, A.2.2, A.2.8.PER, A.15, and the applicable evaluation or evidence relations.
 
-#### F.4:7.2 - Reviewer Role and Review Report
+#### F.4:7.2 - Reviewer System Role and Review Report
 
-`ReviewerRole` under `PatternReviewRoles-2026` and `Pattern-Review-Scheme` may have a role-description episteme with invariants about checking a pattern against declared scales. A review report produced by a reviewer is an episteme used as evidence or source for a pattern-quality claim. The report is not the role holder and does not hold an evidence role.
+`ReviewerSystemRoleKindDescription` may describe `ReviewerSystemRole@PatternReview-2026`, the local kind identified by the contribution of supplying a reasoned pattern-review judgment against the declared scales. Under `PatternReview-2026-Reviewer-KindSignature-v2`, a candidate counts only when it is already admitted as a `U.System` and two review-domain claims obtain: the comparison predicate says that this System compares the named pattern claims with each selected scale in the applicable review situation; the result predicate says that it returns the named reasoned judgment with the assessed values or defects. Each declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. `A.6.F` is used only to unpack still-ambiguous function wording and establishes neither claim. A missing predicate returns A.6.RCD `missing-governor`; missing case facts return the corresponding unresolved result. This condition can be checked without asserting that any review appointment or dated review Work already exists.
+
+Alice's classification under that kind, any review appointment she holds, any dated review Work she performs, and any report used as evidence remain four separate claims. This compact description names none of their occurrence identities.
 
 Use:
 
-- `A.2` for `ReviewerRole`;
-- `F.4` for the role-description episteme;
-- `A.2.1` for Alice's exact `ReviewerRole` assignment under that taxonomy and scheme;
-- `A.15.1` for the review work occurrence;
-- `A.10`, `B.3`, `G.6`, or a direct evidence-use pattern for the review report as evidence.
+- A.2 with C.3 for the local kind and direct classification;
+- F.4 for the description episteme;
+- A.2.1 when a particular review assignment must be identified;
+- A.15.1 and F.6 when a particular dated review Work occurrence and the assignment under which it was performed must be identified; and
+- A.10, B.3, G.6, or another direct relation for the report's evidence or assurance use.
+
+The report is not a system-role holder and does not acquire an “evidence role.”
 
 #### F.4:7.3 - Standard Used as a Specification or Source
 
-The sentence `Standard S has the architecture-standard role in this work` is unsafe if it makes the standard episteme a role holder. Repair it by naming the direct relation: the exact edition of Standard S is used as a specification, external rule, premise, or source for named claims in the receiving work. Only an admitted `U.System` can hold a work-facing role. The standard may constrain or support a claim through its direct episteme-use relation.
+The sentence “Standard S has the architecture-standard role in this Work” is unsafe if it classifies the standard episteme as a system-role holder. Rewrite the actual claim: the exact edition of Standard S is used as a specification, external rule, premise, or source for named claims. A standard may constrain or support a claim through that direct relation. No system-role kind or assignment is needed unless a separately admitted system really satisfies and is assigned to one.
 
-#### F.4:7.4 - Access Role Is Not Automatically Work-Facing Role
+#### F.4:7.4 - Access Role Is Not Automatically a System Role
 
-RBAC `role` often names a permission grouping. If the current claim is permission or access standing, use the status, policy, or deontic governing pattern. Do not describe it as `U.Role` unless the role taxonomy and effective scheme explicitly introduce a work-facing role value and the holder, assignment, method, and work claims are current.
+RBAC *role* often names a permission grouping. If the current claim concerns permission or access standing, use the direct policy, deontic, access, or status relation. Treat a local access term as a system-role kind only when its own C.3 identity and criterion are current and a receiving Work claim actually needs that classification. Even then, permission and assignment remain separate.
 

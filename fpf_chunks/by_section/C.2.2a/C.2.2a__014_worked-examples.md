@@ -6,12 +6,12 @@ section_id: "C.2.2a:13"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__014_worked-examples.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:13 — Worked Examples"
-line_start: 42918
-line_end: 42947
+line_start: 43140
+line_end: 43169
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -61,7 +61,7 @@ A routed operational alert may have:
 - high operator-loop anchoring,
 - and mixed symbolic and natural-language representation.
 
-That position explains why the alert belongs in a route-bearing seam publication before it hardens into an endpoint-pattern-governed work record or reliance record.
+That position explains why the alert belongs in a route-bearing seam publication before it hardens into an endpoint-subject-qualified work record or reliance record.
 
 #### C.2.2a:13.3 - Viewpoint-bound adequacy note
 A document-mediated adequacy note about an architecture description may be relatively high in formality and articulation, mid-level in closure, document-mediated in anchoring, and symbolic in representation. That position remains within the same language-state chart even though its carrier lane differs from an embodied inquiry cue.

@@ -6,12 +6,12 @@ section_id: "B.1.6:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__010_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6.1 — Bias-Annotation"
-line_start: 36997
-line_end: 37006
+line_start: 37205
+line_end: 37214
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 | --- | --- | --- |
 | Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
 | Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or separately governed non-Work carrier phase, stock, window, and policy before aggregation. |
-| Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until a measurement, model, or mathematical-lens owner admits conversion. |
+| Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until an explicit conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
 | Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
-| Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence owners first; return to `B.2.P` only when whole reidentification remains current. |
+| Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence-use patterns first; use `B.2.P` only when whole reidentification remains current. |
 

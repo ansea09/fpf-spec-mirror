@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 34424
-line_end: 34707
+line_start: 34626
+line_end: 34909
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -165,7 +165,7 @@ NameCard:
 
 This pending card has no `UnifiedTermRowRef`. Until its refresh condition is met, `CrossContextRelationStructure` is an A.22-local provisional designator only; other Core hosts must cite the descriptive A.22 conditional cross-structure rule rather than consume that label as public vocabulary.
 
-DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 defines the intended mapping plan; A.15.1 identifies each exact dated mapping Work individual admitted under `U.Work`, the performer system and obtaining role assignment, and the exact `enactsMethod` relation. C.2.1 independently identifies the candidate episteme called a `Context Map`. While exact independently defined crossing occurrences or the four A.22 base discriminators are missing, its EntityOfConcern is the proposed or described crossing organization, not an exact `CrossContextRelationStructure`. Only after both conditions are met may a corresponding C.2.1 episteme designate the exact structure. Either episteme is additionally a `U.View` only when the E.17.0 test establishes `EpistemeViewpointConformanceRelation(E, P)`. Use C.29 for any representation relation and E.17/E.24.PUB for rendering or publication; form and carrier remain separate. Thus method, plan, work, proposal, selected structure, candidate episteme, dependent view membership, representation, and publication stay distinct while the external source terms remain retrievable.
+DDD `Context Mapping` names a repeatable `U.Method`. A.15.2 defines the intended mapping plan; A.15.1 identifies each exact dated mapping Work individual admitted under `U.Work`, the performer system and obtaining system-role assignment, and the exact `enactsMethod` relation. C.2.1 independently identifies the candidate episteme called a `Context Map`. While exact independently defined crossing occurrences or the four A.22 base discriminators are missing, its EntityOfConcern is the proposed or described crossing organization, not an exact `CrossContextRelationStructure`. Only after both conditions are met may a corresponding C.2.1 episteme designate the exact structure. Either episteme is additionally a `U.View` only when the E.17.0 test establishes `EpistemeViewpointConformanceRelation(E, P)`. Use C.29 for any representation relation and E.17/E.24.PUB for rendering or publication; form and carrier remain separate. Thus method, plan, work, proposal, selected structure, candidate episteme, dependent view membership, representation, and publication stay distinct while the external source terms remain retrievable.
 
 #### A.22:4.1d - Transformation-flow structure network profile
 

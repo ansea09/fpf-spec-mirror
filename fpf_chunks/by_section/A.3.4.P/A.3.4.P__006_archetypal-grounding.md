@@ -6,12 +6,12 @@ section_id: "A.3.4.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:5 — Archetypal Grounding"
-line_start: 9013
-line_end: 9056
+line_start: 9227
+line_end: 9270
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -55,7 +55,7 @@ Repair: recover whether the current claim is a refrigerator subsystem transforma
 
 Source wording says: "The attention block transforms activations in the model pipeline."
 
-Repair: the block may be an architecture locus or module allocation, but that fact alone establishes no actor. If dated inference work is claimed, recover its exact Work occurrence admitted under `U.Work`, covering `U.RoleAssignment`, direct `performedBy`, and the separately governed work-to-activation relation required by the use. If a non-work block action is claimed, recover the exact operation-application, functioning, causal, or other direct actor-side relation; otherwise leave action unresolved. A design organization, method or method family, toolchain, or communication system that shaped the block first keeps its exact kind and then only its exact architecture, work, communication, constraint, or candidate-synthesis relation. Activation and tensor-shape claims use exact participant, port, operation-application, or signature relations; attention may be a method description or mathematical lens; the pipeline may be a transformation-flow structure. Benchmarks or ablations are evidence or evaluation relations only when their governing patterns are current.
+Repair: the block may be an architecture locus or module allocation, but that fact alone establishes no actor. If dated inference Work is claimed, point to its complete A.15.1/F.6 basis and state the separate Work-to-activation relation required by the use. If a non-Work block action is claimed, recover the exact operation-application, functioning, causal, or other direct actor-side relation; otherwise leave action unresolved. A design organization, Method or Method family, toolchain, or communication System that shaped the block first keeps its exact kind and then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. Activation and tensor-shape claims use exact participant, port, operation-application, or signature relations; attention may be a MethodDescription or mathematical lens; the pipeline may be a transformation-flow structure. Benchmarks or ablations are evidence or evaluation relations only when their subject patterns are current.
 
 #### A.3.4.P:5.3 - CRISPR editing workflow
 
@@ -78,7 +78,7 @@ TransformationWordingRepair:
   RecoveredEntityOfConcern: `RefrigeratorHeatTransferFlowStructure-1`, the exact selected `TransformationFlowStructure` over the compressor, condenser, expansion, and evaporator transformation loci.
   ActualTransformationDisposition: no actual bounded transformation is recovered; `RefrigeratorHeatTransferFlowStructure-1` is the exact current object, and its selection establishes neither transformation composition nor partlessness.
   TransformationOccurrenceBasis: no component transformation occurrence is asserted; each remains unresolved until its exact changed referent, boundary, boundary conditions, actual subject facts, and continuity or reidentification basis are recovered.
-  ActingSystemDisposition: unresolved and not asserted; the circuit wording supplies no exact dated Work occurrence admitted under `U.Work`, `performedBy` relation, work-to-change relation, or non-work direct actor-side relation.
+  ActingSystemDisposition: unresolved and not asserted; the circuit wording supplies neither a complete A.15.1/F.6 Work basis and separate Work-to-change relation nor a non-Work direct actor-side relation.
   ArchitectureInfluenceDisposition: no influence claim is current and no influence source is selected; any later source must first keep its exact kind and then receive only its exact architecture, work, communication, constraint, or candidate-synthesis relation.
   NeighboringClaimAndExactRelation: the four named transformation loci are positions in `RefrigeratorHeatTransferFlowStructure-1`; their exact transformation occurrences and structure-membership relations remain to be recovered under `E.18` and `A.3.4`. Thermodynamic-law material, functional view, and schematic publication remain unselected neighboring candidates.
   GoverningPattern: `E.18` governs `RefrigeratorHeatTransferFlowStructure-1`; `A.3.4` governs each component transformation only after its occurrence basis is recovered; mechanism, architecture-view, and publication patterns open only if one of those candidate objects becomes current.

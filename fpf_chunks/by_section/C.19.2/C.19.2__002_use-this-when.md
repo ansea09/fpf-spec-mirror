@@ -6,12 +6,12 @@ section_id: "C.19.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:0 — Use this when"
-line_start: 50190
-line_end: 50199
+line_start: 50442
+line_end: 50451
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -38,7 +38,7 @@ Use this pattern when one practical result matters and a relevant method, model,
 
 The first useful move is to name the practical use, result kind, claimed guarantee, constraints, and reuse horizon, then ask whether the next adaptation and application work can reach a useful result within the available budget. This keeps a small, adequate path small while letting repeated or high-consequence use justify richer configuration.
 
-**Not this pattern when.** If candidate material does not yet exist, use `C.18` to generate or reframe it. If the live question is a local choice over an existing option set, `C.11` owns that choice. If the real blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
+**Not this pattern when.** If candidate material does not yet exist, use `C.18` to generate or reframe it. If the live question is a local choice over an existing option set, `C.11` is the pattern for that choice. If the real blocker is an ontology conflation, use `A.7.1`; if it is a material conflict among FPF premises, use `A.7.2`.
 
-The primary working reader is an engineer, method or model selector, or technical lead. The pattern describes a method; an admitted `U.System` under a current role assignment performs the dated configuration and application `U.Work` and produces a separately governed problem-facing result.
+The primary working reader is an engineer, method or model selector, or technical lead. That reader position is not a system-role kind or assignment. The pattern describes a Method; an admitted `U.System` performs the dated configuration and application `U.Work`. Name the assignment occurrence that covers the Work and its declared species. The occurrence's holder is the performing System, and F.6 states that the System performed the Work under that assignment. The problem-facing result remains with the pattern that defines or tests it.
 

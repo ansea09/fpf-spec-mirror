@@ -6,17 +6,18 @@ section_id: "G.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:12 — Relations"
-line_start: 100170
-line_end: 100182
+line_start: 101414
+line_end: 101426
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.18"
   - "A.19"
+  - "A.2.1"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.17"
+  - "F.6"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -55,7 +57,7 @@ keywords:
 
 **Builds on:** `G.Core` (and the pattern template discipline in `E.8`).
 
-**Uses:** `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec plus direct comparison/selection owners), `A.18` (CSLC), `A.6.1` (declarations and actual bindings), `A.15.1` (dated work and roles), `C.2.1` (result epistemes), `C.11` (decision results), `A.10` (provenance and bounded reliance), `B.3` (assurance), `G.11` (currentness), `E.18` + `A.21` + `F.9`/`F.17`/`E.17` (GateCrossing harness).
+**Uses:** `G.1` (CG‑FrameContext), `G.2` (SoTA Synthesis Pack), `G.3` (CHR Pack), `G.0` (CG‑Spec legality gate), `A.19` (CN‑Spec plus direct comparison and selection patterns), `A.18` (CSLC), `A.6.1` (declarations and actual bindings), `A.15.1`, `A.2.1`, and `F.6` (the complete Work basis), `C.2.1` (result epistemes), `C.11` (decision results), `A.10` (provenance and bounded reliance), `B.3` (assurance), `G.11` (currentness), and `E.18`, `A.21`, `F.9`, `F.17`, and `E.17` (GateCrossing harness).
 
 **Uses (via Extensions):** `G.6` (EvidenceGraph/Path citation; when `G.4:Ext.EvidenceGraphWiring` is present), `C.18` (NQD), `C.19` (E/E‑LOG), `C.23` (SoS‑LOG).
 

@@ -6,12 +6,12 @@ section_id: "B.1.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:12 — Relations"
-line_start: 36811
-line_end: 36831
+line_start: 37019
+line_end: 37039
 dependencies:
   - "A.1"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 
 - Uses `A.1` for the general non-agentive-holon recognition boundary; A.1 does not supply Method-part or whole-forming facts.
 - Uses `A.3.1` to identify the exact candidate Method and every exact part Method before B.1.5 tests the composite-method qualification; B.1.5 directly governs only `MethodPartOfRelation` and the composite-construction test.
-- Uses `A.6.RCD` for serial, parallel, guarded, iterative, fallback, adapter, join, substitution, and other whole-forming claims. Existing direct predicates, local compound claims, and reusable predicate definitions are valid stopping results; only a named occurrence-semantics need returns a kind candidate to `E.24` and `E.24.UK`.
+- Uses `A.6.RCD` for serial, parallel, guarded, iterative, fallback, adapter, join, substitution, and other whole-forming claims. Existing direct predicates, local compound claims, and reusable predicate definitions are valid stopping results; only a named occurrence-semantics need requires `E.24 for a kind candidate` and `E.24.UK`.
 - Uses `A.6.REL` only when an independently admitted relation kind has an obtaining occurrence whose identity a receiver consumes. B.1.5 does not manufacture occurrence semantics for ordinary claim content.
 - Uses `C.2.1` to identify predicate-definition, signature, and MethodDescription epistemes and any later episteme with changed identity-bearing content. Uses `EpistemeEditionRelation` only when C.2.1's exact historical-continuation predicate obtains; otherwise the later episteme is a non-continuing replacement. A predicate definition may satisfy ordinary A.6.0 `U.Signature` membership; only an admitted relation kind can have a `RelationSignature`.
 - Uses `B.1.4` only when a receiving use needs an explicit aggregation of already admitted, obtaining order relations, an `OrderSpec`, and join or independence conditions.

@@ -6,12 +6,12 @@ section_id: "C.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__010_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:4 — Solution"
-line_start: 49740
-line_end: 49962
+line_start: 49992
+line_end: 50214
 dependencies:
   - "A.15"
   - "A.19.CPM"
@@ -83,7 +83,7 @@ Define EmitterPolicy (regime key, params, ε, K, insertion policy, and deduplica
 **EmitterPolicy (named profile).** A context-local, versioned policy with canonical fields:
 `{ emitterPolicyId, name?, regimeKey ∈ {UCB, Thompson, BO-EI, GP-UCB, PES, InformationGain, …}, params, explore_share∈[0,1], temperature τ≥0, rebalance_period, wild_bet_quota≥0, backstop_confidence (assurance level), epsilon_dominance ε, cell_capacity K, insertionPolicyRef, dedupThreshold, deduplicationBasisRef, deduplicationUnit }`.
 `emitterPolicyId` is cited from a consuming record as `emitterPolicyRef`; `insertionPolicyRef` is a reference to the governed insertion policy; `dedupThreshold` is a declared scalar on the basis and unit named by `deduplicationBasisRef` and `deduplicationUnit`. Casing does not create a second field family.
-`EmitterPolicy` is a context-local named policy profile, not a U-kind or a generation operator. A C.18 generation or archive record cites it only when that profile actually governs the current pool treatment or its insertion and deduplication policy; C.18 retains generation, archive, and front ownership. The profile is not a staffing or budget instruction.
+`EmitterPolicy` is a context-local named policy profile, not a U-kind or a generation operator. A C.18 generation or archive record cites it only when that profile actually governs the current pool treatment or its insertion and deduplication policy. Use C.18 for generation, archive, and front claims. The profile is not a staffing or budget instruction.
 Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains their pool-policy consequences but does not become one rival default authority.
 
 **Decision-theory bridge.** `C.11` governs theory-side choice among already-available options and the meaning of `ProbeBudget`, `ValueOfInformation`, and `ValueOfComputation`. `C.19` may consume such outputs only as criteria for pool policy, graduation, keep-frontier, or sunset treatment; it does not re-govern local choice doctrine.
@@ -95,7 +95,7 @@ Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains t
 • **Policy family:** one uncertainty-aware explore policy family with one declared regime key and explicit change triggers; `UCB`-class with moderate temperature and `explore_share ≈ 0.3–0.5` is one didactic starter profile, not the semantic default family.
 • **Provenance (minimum):** record `DescriptorMapRef.edition`, `DistanceDefRef.edition`, `DHCMethodRef.edition`, `emitterPolicyRef`, `insertionPolicyRef`, scalar `dedupThreshold`, `deduplicationBasisRef`, `deduplicationUnit`, `timeWindow`, and `seeds`.
 
-**Use-value and declared-Q boundary.** `C.16.Q` owns the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A named C.19 lens may consume either declared position but cannot silently promote use-value into `Q` or construct the Q model.
+**Use-value and declared-Q boundary.** `C.16.Q` is the pattern for the selector-context meaning of use-value and its `Objective` form. When use-value participates in the current `Q`, declare `QS.UseValue` as an objective head in that exact `Q` and cite the current Q/comparator basis. When it does not participate in the current `Q`, keep the use-value criterion explicitly outside `Q` as a declared side condition or tie-breaker. A named C.19 lens may consume either declared position but cannot silently promote use-value into `Q` or construct the Q model.
 
 **Scalarization lenses (policy‑level).** A lens `J_ℓ` declares: (a) hard eligibility conditions (e.g., ConstraintFit=pass), (b) soft aggregation (weights or curves), (c) trust policy (how assurance and CL discounts enter).
 **Conformance.** A Context MUST name the lens used to pick from a frontier; scalarized rankings MUST NOT be presented as “the frontier”; the **`lens id MUST be recorded in provenance of each selection`**.
@@ -105,15 +105,15 @@ Ordinary default tokens remain governed by `G.Core` and `G.5`; `C.19` explains t
 - **Graduation.** Profiles graduate from Explore→Exploit only when eligibility holds and `assuranceResultRef` cites the exact B.3 assurance result whose bounded use supports the profile's declared `backstop_confidence` threshold for the current scope.
 - **Sunset or pivot.** Profiles failing VOI or backstop thresholds are sunset or pivoted at `rebalance_period`.
 
-**Policy logic is not generation or work.** One C.19 pass computes and records a treatment over an already identified live pool. It does not recompute a C.18 front or archive, update a generator, seed a candidate, constitute dated `U.Work`, assign a role, approve a budget, or authorize enactment.
+**Policy logic is not generation or work.** One C.19 pass computes and records a treatment over an already identified live pool. It does not recompute a C.18 front or archive, update a generator, seed a candidate, constitute dated `U.Work`, create or classify a local system-role kind, create or change an assignment occurrence or its state, establish responsibility, authority, or permission, approve a budget or plan, or authorize enactment. At enactment, recover only the branches that independently obtain; send unresolved claim-bearing “role” wording through `E.10.ROLE`.
 
 **Pool-policy pass (per `rebalance_period`).**
 1) Read the current C.18 archive/front reference and its replay boundary; do not recompute either object inside C.19.
 2) Record the governing lens and desired policy values, such as `explore_share`, emitter-profile preference, `wild_bet_quota`, or an admitted heterogeneity constraint. These are policy values, not generation actions.
-3) Apply eligibility and `backstop_confidence` to the pool-policy question: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. C.19 owns this graduation and treatment judgement.
+3) Apply eligibility and `backstop_confidence` to the pool-policy question: record graduation pressure and choose exactly one `currentTreatment` from `widen | keep_frontier | narrow_to_subset | sunset_line`. Record this graduation and treatment judgement under C.19.
 4) If that judgement requires fresh candidates, a changed emitter mix or temperature, archive insertion, or front recomputation, set `nextQuestionPatternLocator = C.18` and pass only the desired emitter profile, quota or constraint, and the exact generation/archive/front reason. C.18 decides and records the generation, archive, and front operations.
 5) If carrying out the treatment requires dated implementation, planning, staffing, or budget use, pass the policy record to the A.15 family; the policy record itself grants none of them.
-6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any next-owner inputs. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next owner's operation.
+6) Emit one `PoolPolicyResult` with `livePool`, `governingLens`, `currentTreatment`, `changeTrigger`, and any inputs required by the next subject pattern. The result may justify keeping, narrowing, graduating, or sunsetting a line without taking over the named next subject pattern's operation.
 
 **Named lenses (heuristics; policy‑level, not norms)**
 The following **lens profiles** are **illustrative heuristics**. Contexts MAY reuse or modify them; they are **not** normative.
@@ -264,7 +264,7 @@ An internal subset retained by `narrow_to_subset` is still the live pool named b
 
 When the retained set must be declared for downstream comparison, registry use, or another selector-facing use, close C.19 and pass `G.5` the exact declared source set, lens or policy id, eligibility conditions, dominance set, tie-breakers, promotion policy, and provenance pins. Use `G.5` to declare the selected-set result and any stable public shortlist identity required by a named use. The C.19 record supplies only the preceding pool treatment and the reason result declaration is now current. If actual audience availability is also current, use `E.17` for a source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
 
-When the live question becomes which option to choose, close C.19 and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may explain a pool treatment, but they do not authorize a budget, role, plan, or work occurrence. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
+When the live question becomes which option to choose, close C.19 and pass the fixed option set and comparison basis to `C.11`; a C.19 subset is not a `ChoiceResult`. When the question becomes enactment or performed work, use `C.24` and the A.15 family. Resource bounds, `CostToProbe`, `ValueOfInformation`, `ValueOfComputation`, `explore_share`, and `backstop_confidence` may explain a pool treatment, but they establish no budget, plan, Work occurrence, local system-role kind, separate System-classification judgment, assignment occurrence or state, responsibility, authority, permission, or enactment. Recover each needed fact independently, and send unresolved claim-bearing “role” wording through `E.10.ROLE`. When edition, source, descriptor, policy, or evidence currentness becomes the live question, use `G.11`; a change trigger in C.19 does not itself perform refresh or create a refreshed edition.
 
 The practical handoff is therefore small: preserve the exact C.18 archive or front reference, the C.19 live-pool treatment and change trigger, and the evidence needed by the named next pattern. Do not duplicate selector-result declaration, publication availability, choice, work, or refresh semantics inside C.19.
 

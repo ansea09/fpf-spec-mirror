@@ -6,12 +6,12 @@ section_id: "C.35:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:1 — Problem frame"
-line_start: 67831
-line_end: 67895
+line_start: 68168
+line_end: 68233
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -82,8 +82,7 @@ StructuralSynthesisDiscoveryAdequacyNote@Project:
   groundedArchitectureQuestionRef:
   selectedSourceStructureRefs:
   generationOrDiscoveryMethodRef:
-  generationOrDiscoveryWorkOccurrenceRef?: U.EntityRef constrained to one independently admitted U.Work
-  generationOrDiscoveryWorkAttributionRef?: U.RelationRef constrained to the exact F.6 performedUnderAssignment occurrence when attribution is current
+  generationOrDiscoveryWorkRef?: U.EntityRef constrained to U.Work
   searchOrQuerySpaceRef?:
   constraintRefs:
   producedCarrierOrDescriptionRefs:
@@ -112,7 +111,9 @@ StructuralSynthesisDiscoveryAdequacyNote@Project:
 
 Here `@Project` is a compatibility and retrieval cue only. It establishes no project entity, composite-work identity, context, authority, viewpoint, or parthood. When the note is genuinely used in one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` and `structuralSynthesisAdequacyNoteProjectUseRelationRef` identifies the direct relation by which that exact project Work uses the note. The suffix or either reference alone establishes no project locality. The note and the composite project Work remain distinct.
 
-When generation or discovery is claimed as performed work, `generationOrDiscoveryWorkOccurrenceRef` identifies one independently admitted dated `U.Work`; its performer System, exact obtaining `U.RoleAssignment`, F.6 `performedUnderAssignment` attribution when current, enacted Method, extent, and containing System remain under A.15.1, A.2.1, and F.6. The Method, Work, note, and produced carrier or description are different objects. `actualTransformationRefs` may cite only independently identified A.3.4 bounded changes; a method label, transformation trace, graph edge, or before-and-after picture does not make a transformation actual. Any positive link from the Work to an actual transformation or produced entity must cite an exact direct predicate, an admitted A.6.RCD local claim, or the selected A.15.PROD branch in `workToTransformationOrProductionClaimRefs`; otherwise keep the objects separate and return the exact `missing-governor`. Every structure reference likewise resolves to an independently selected A.22 `U.Structure`; a carrier, graph, cluster, or description does not supply its four identity discriminators.
+When generation or discovery is claimed as performed Work, `generationOrDiscoveryWorkRef` is mandatory and names the independently identified `U.Work` occurrence. All facts required by A.15.1, A.2.1, and F.6 remain recoverable. A short projection may omit only an unused assignment identifier. The Method, Work, note, and produced carrier or description are different objects.
+
+`actualTransformationRefs` may cite only independently identified A.3.4 bounded changes; a Method label, transformation trace, graph edge, or before-and-after picture does not make a transformation actual. Any positive link from the Work to an actual transformation or produced entity must cite its declared predicate, an admitted A.6.RCD local claim, or the selected A.15.PROD branch in `workToTransformationOrProductionClaimRefs`; otherwise keep the objects separate and return `missing-governor`. Every structure reference likewise resolves to an independently selected A.22 `U.Structure`; a carrier, graph, cluster, or description does not supply its four identity discriminators.
 
 Adoption test: after using C.35, another practitioner can tell what was produced, which structure it describes, what it preserves and loses, what must happen before C.32 admission or realization claims, and which practical claim, question, rule, or test comes next. Record exact assertion identity only when that next use must travel independently.
 

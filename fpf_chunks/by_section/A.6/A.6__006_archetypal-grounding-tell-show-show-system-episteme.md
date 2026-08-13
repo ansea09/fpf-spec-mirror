@@ -6,12 +6,12 @@ section_id: "A.6:5"
 section_title: "Archetypal Grounding (Tell–Show–Show; System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__006_archetypal-grounding-tell-show-show-system-episteme.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:5 — Archetypal Grounding (Tell–Show–Show; System / Episteme)"
-line_start: 9688
-line_end: 9754
+line_start: 9902
+line_end: 9968
 dependencies:
   - "A.10"
   - "A.15"
@@ -66,7 +66,7 @@ keywords:
 
 #### Tell (universal rule)
 
-A boundary description is evolvable iff its claims are separated across the signature stack and each statement is classified as Law, Admissibility, Deontic duty/commitment/grant, or the boundary's observable-effect/evidence family. An E claim names the exact actual occurrence under its direct owner: dated Work only when A.15.1 grounds it, or A.3/A.3.4 and the exact interaction/causal owner for non-Work change. EntityOfConcern, description, and publication carrier remain separate.
+A boundary description is evolvable iff its claims are separated across the signature stack and each statement is classified as Law, Admissibility, Deontic duty/commitment/grant, or the boundary's observable-effect/evidence family. An E claim names the exact actual occurrence under its subject predicate and retains the pattern only as a locator: dated Work only when the A.15.1 predicate is satisfied, or A.3/A.3.4 plus the exact interaction or causal predicate for non-Work change. EntityOfConcern, description, and publication carrier remain separate.
 
 #### Show #1 (`U.System`): effectful API boundary (algebraic effects intuition)
 
@@ -86,8 +86,8 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 * **Actual occurrence and work layer.**
 
-  * The payment-handling occurrence is `U.Work` only when its admitted performer system, covering assignment, enacted method, time, and containing system are grounded through A.15.1.
-  * The ledger reservation change, event emission, timer transition, or retry effect is a separate actual-occurrence claim under A.3/A.3.4 or its exact interaction/causal owner. Check each effect separately: knowing that the payment Work occurred does not show that the ledger changed, an event was emitted, or a retry happened.
+  * The payment-handling occurrence is `U.Work` only when it satisfies A.15.1 and F.6: name who performed it, the Method, time, containing System, and the assignment under which each performer acted. A short payment account may omit unused assignment identifiers.
+  * The ledger reservation change, event emission, timer transition, or retry effect is a separate actual-occurrence claim under A.3/A.3.4 or its exact interaction or causal-use pattern. Check each effect separately: knowing that the payment Work occurred does not show that the ledger changed, an event was emitted, or a retry happened.
   * Traces, logs, and metrics enter an A.10 evidence path for the exact effect being relied on; carrier presence creates neither Work nor change.
 * **Publication faces (MVPK).**
 
@@ -101,7 +101,7 @@ A boundary description is evolvable iff its claims are separated across the sign
 **Classification example:**
 
 * “Defined iff tokenValid” belongs in Quadrant A (admissibility gate).
-* “Clients MUST include Idempotency‑Key” belongs in Quadrant D (role-assignment or acting-system obligation) but should reference the same gate semantics to avoid divergence.
+* “Clients MUST include Idempotency-Key” belongs in Quadrant D as a normative prescription and should reference the same gate semantics to avoid divergence. It becomes a claim about one obtaining individual `U.Commitment` only after A.2.8 identifies the actual bearer, constitutive rule, required instituting basis, and direct predicate.
 * “System emits AuthorizationRecord” belongs in Quadrant E (evidence via carriers).
 
 #### Show #2 (`U.Episteme`): published evaluation protocol boundary (multi‑view + evidence)
@@ -112,7 +112,7 @@ A boundary description is evolvable iff its claims are separated across the sign
 
 * **Mechanism layer:** admissibility gate encodes when evaluation is permitted: dataset version must match declared license; measurement environment must meet constraints; seeds pinned.
 
-* **Deontics and commitments:** reviewers MUST use dataset vX.Y; authors SHALL publish MVPK faces and cite the measurement environment; an organisation commits to a review SLA (explicitly a role-assignment or acting-system commitment).
+* **Deontics and commitments:** the protocol may prescribe that reviewers use dataset vX.Y and that authors publish MVPK faces and cite the measurement environment. If an organisation has an individual review-SLA duty, identify that actual admitted System or other A.2.8 party as bearer and establish the direct `U.Commitment` predicate. Any system-role classification or assignment remains a separate possible applicability ground.
 
 * **Effects and evidence:** the dated evaluation run is a Work occurrence only when A.15.1 grounds it; its result episteme, any model or dataset change, and the report publication remain separate. Report files, logs, hashes, and trace IDs support the selected claims through A.10 but create none of those occurrences or results.
 

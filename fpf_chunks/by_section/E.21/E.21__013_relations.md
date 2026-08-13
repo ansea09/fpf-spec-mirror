@@ -6,12 +6,12 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 87235
-line_end: 87255
+line_start: 87913
+line_end: 87933
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -40,7 +40,7 @@ keywords:
 | `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, and `C.16.Q` | Govern the characteristic space, object-specific evaluation specification, characteristics, scale/value bindings, measurement boundary, coordinate-result quality ascriptions, and precision of those ascriptions. E.21 supplies the pattern-quality coordinates, calibration, non-arithmetic `PatternQualityQBundle` result payload named by C.16.Q, aggregate result shape, and local status meanings. |
 | `E.8.ECSPF` | Publishes an evaluation `CharacteristicSpace` as an FPF pattern when that form is selected. |
 | `E.8` | Governs authoring of the pattern body whose exact edition E.21 assessment work evaluates. |
-| `A.15.1`, `A.6.1`, `A.2`, and `A.2.1` | Govern dated assessment work, actual evaluation application/bindings, evaluator role, and obtaining role assignment. The E.21 specification, characteristic space, profile, result, and optional record perform none of these. |
+| `A.15.1`, `F.6`, `A.2`, `A.2.1`, and `A.6.1` | Define or constrain the item 5 actual-Work account and the evaluation application or bindings. An admitted evaluator `U.System` may ordinarily apply the questions without asserting this branch. A compact result may omit only an assignment identifier unused by the receiving claim; the complete basis remains recoverable. Route unresolved source *role* through `E.10.ROLE`; the specification, characteristic space, profile, result, kind, assignment, and optional record perform none of the assessment. |
 | `C.2.1` | Constitutes the checked pattern episteme/version reference, per-coordinate result claims, aggregate pattern-quality-result episteme, and optional evaluation-record episteme independently. |
 | `A.10` and `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
 | `F.10` and `G.11` | Govern downstream status use/interpretation and currentness. The local `PatternQualityStatus` value neither admits a pattern nor authorizes downstream use by itself. |

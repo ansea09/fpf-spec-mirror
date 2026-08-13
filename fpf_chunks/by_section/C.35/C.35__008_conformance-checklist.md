@@ -6,12 +6,12 @@ section_id: "C.35:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:7 — Conformance checklist"
-line_start: 67961
-line_end: 67972
+line_start: 68299
+line_end: 68310
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -61,7 +61,7 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C35-1` | Grounded architecture question, independently selected source structures, generation or discovery Method, and produced carrier or description are named. When performed generation or discovery matters, one exact dated Work occurrence and its A.15.1/F.6 basis are named separately. |
+| `CC-C35-1` | Grounded architecture question, independently selected source structures, generation or discovery Method, and produced carrier or description are named. When performed generation or discovery matters, name one dated Work occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable. |
 | `CC-C35-2` | Note, Method, dated generation or discovery Work, any actual transformation, production or work-to-change claim, produced carrier or description, described structure, selected candidate structure, realized holon structure, measurement return, eval return, decision authority, and composite project Work remain distinct. |
 | `CC-C35-3` | Preserved structure, lost structure, constraints, source-label recovery, observation refs, uncertainty refs, validation refs, comparison refs, and transformation trace are present when they affect use; none substitutes for the A.3.4 basis of an actual transformation or the four A.22 structure discriminators. |
 | `CC-C35-4` | Candidate admission condition names what must be true before C.32 can use the result. |

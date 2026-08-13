@@ -6,12 +6,12 @@ section_id: "A.6.0:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:5 — Archetypal Grounding"
-line_start: 12005
-line_end: 12058
+line_start: 12229
+line_end: 12282
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -46,7 +46,7 @@ keywords:
 
 A multi-domain modeling team repeatedly uses one connector-and-equation calculus. Its `U.Signature(profile=FormalSubstrate)` has that calculus—not a connection relation kind—as its exact `EntityOfConcernRef`. `SubjectKind` names the modeled connector declarations governed by the calculus, and `RangedValueKind` names its well-formed terms and equations. Vocabulary names the potential and flow variables. Its inference and equation laws say how a selected connection assertion yields potential equality and the zero-sum flow equation. Applicability states the modeling assumptions and selected `CHR:ReferencePlane`. If those terms or laws cannot be interpreted or replayed without a named quantity declaration, the manifest names that provider and the exact imported term or law; otherwise a background citation stays outside the dependency manifest.
 
-The sentence `ModeledPort_A is connected to ModeledPort_B` is a separate model-side connection assertion. This FormalSubstrate neither supplies that relation kind nor makes the assertion true. If repeated typed connection claims require a `RelationSignature`, first recover or admit the exact modeled-connection relation kind, its two connectable-port participant meanings, direct predicate, qualifier laws, Applicability, and occurrence-identity rule; only then may that relation declaration cite this FormalSubstrate when the dependency test passes. A generated equation set and a connector diagram are later result and representation epistemes, not either declaration; deeper operation, work, representation, and publication questions return to A.6.1, A.15.1, C.29, and E.24.PUB.
+The sentence `ModeledPort_A is connected to ModeledPort_B` is a separate model-side connection assertion. This FormalSubstrate neither supplies that relation kind nor makes the assertion true. If repeated typed connection claims require a `RelationSignature`, first recover or admit the exact modeled-connection relation kind, its two connectable-port participant meanings, direct predicate, qualifier laws, Applicability, and occurrence-identity rule; only then may that relation declaration cite this FormalSubstrate when the dependency test passes. A generated equation set and a connector diagram are later result and representation epistemes, not either declaration; deeper operation, work, representation, and publication questions require A.6.1, A.15.1, C.29, and E.24.PUB.
 
 Practical payoff: engineers can compare the connector vocabulary and equation laws across tools without treating the calculus as a connection relation, a concrete connection assertion, a generated equation set, or a diagram.
 
@@ -86,11 +86,11 @@ Practical payoff: formal-methods engineers can fill and inspect the dependent A.
 
 A thermal-modeling team writes a `PrincipleFrame` stating that net heat flow across a selected system boundary must balance the change in stored energy. The frame names the observable distinction between inward and outward heat flow at that boundary. It cites separately governed heat-flow characteristics, units, the selected `CHR:ReferencePlane`, and the measurement declaration needed to check that distinction; its Applicability names the modeled systems and conditions for which the balance claim is made.
 
-A residual below a chosen tolerance does not by itself belong to the PrincipleFrame and does not admit a simulation run. The comparator and tolerance remain under their direct comparison and measurement owners; operation admission remains under A.6.1, and a gate-passage verdict remains under A.21/C.11. If a laboratory measurement scheme is used in a plant-model scheme, F.9 must name the bridge and the preservation or loss of sign convention, unit, and boundary interpretation.
+A residual below a chosen tolerance does not by itself belong to the PrincipleFrame and does not admit a simulation run. The comparator and tolerance remain under their direct comparison and measurement patterns; operation admission remains under A.6.1, and a gate-passage verdict remains under A.21/C.11. If a laboratory measurement scheme is used in a plant-model scheme, F.9 must name the bridge and the preservation or loss of sign convention, unit, and boundary interpretation.
 
 Practical payoff: the physical principle remains reusable while the measurement setup, comparator, run decision, and cross-scheme transport can change or fail independently.
 
 #### A.6.0:5.6 - Reduced ordinary-use case
 
-The sentence `During Shift-17, Robot-7 holds InspectorRole as interpreted by MaintenanceRoles-2026 under Maintenance-Scheme-A` is enough for a task that only reports whether the A.2.1 assignment predicate holds for those participants during that episode. Stop there. If a staffing assertion and an F.6 work-attribution consumer must reuse the same four participant meanings and assignment laws, cite the existing A.2.1 `RelationSignature`. If later work attribution or history must refer to this assignment and distinguish it from a later reassignment, apply A.2.1's direct occurrence-identity rule and refer to the distinguished episode. A roster-row id that merely points to the assertion opens neither branch. Each result is complete for its stated task; the shorter result is not an incomplete signature.
+The sentence `During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17` is enough for a task that only reports whether the direct `MaintenanceInspectionAssignment` predicate holds for its actual participants during that episode. Stop there. If a staffing assertion and an F.6 Work-attribution consumer must reuse the same participant meanings and assignment laws, cite that direct species' existing `RelationSignature`. If later Work attribution or history must distinguish this assignment from a later reassignment, apply A.2.1's direct occurrence-identity rule and refer to the distinguished episode. A roster-row id that merely points to the assertion opens neither branch. Each result is complete for its stated task; the shorter result is not an incomplete signature.
 

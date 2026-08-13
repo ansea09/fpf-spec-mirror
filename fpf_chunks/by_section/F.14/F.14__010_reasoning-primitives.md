@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:9"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_reasoning-primitives.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:9 — Reasoning primitives"
-line_start: 94848
-line_end: 94881
+line_start: 95624
+line_end: 95657
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,16 +31,21 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
 ### F.14:9 - Reasoning primitives
@@ -56,13 +61,13 @@ existingDesignationOrLocalExpression(v, u) is sufficient
 ```
 
 ```text
-roleBundleRelation(R1, R2) obtains
-  -> not(newRoleValue(R1R2)).
+systemRoleKindBundleRelation(K1, K2) obtains
+  -> not(newSystemRoleKind(K1K2)).
 ```
 
 ```text
 statusVariant(S, windowOrValue)
-  -> keep status family S unless its direct owner establishes a different family.
+  -> keep status family S unless its subject pattern establishes a different family.
 ```
 
 ```text

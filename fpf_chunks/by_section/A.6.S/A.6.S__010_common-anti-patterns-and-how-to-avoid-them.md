@@ -6,12 +6,12 @@ section_id: "A.6.S:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 21005
-line_end: 21015
+line_start: 21258
+line_end: 21268
 dependencies:
   - "A.12"
   - "A.3"
@@ -53,5 +53,5 @@ keywords:
 | **Retargeting disguised as “editing”**          | Ref changes and by‑value edits are described with the same verb.                                          | Loses the slot discipline stratification and review clarity.                | Use A.6.5 canonical verbs and `Edit<SlotQualifier>` vs `Retarget<SlotQualifier>`.           |
 | **Views become “alternative truths”**           | PlainView says one thing, TechCard says another, and nobody knows which is canonical.                     | A view gained semantics rather than projecting them.                        | Treat MVPK faces as viewings; put canonical semantics in the SoI and reference it.          |
 | **Contract talk without quadrant discipline**   | “The interface promises…” is used to state invariants, obligations, and entry conditions interchangeably. | Blends laws, deontics, admissibility, and evidence.                         | Use A.6.B claim classes and claim register entries; rewrite claims into the proper quadrant. |
-| **Episteme‑as‑actor**                           | Text says “the ConstructorSignature builds/validates/publishes the SoI”.                                 | Violates “no epistemic agency”; hides the enacting system or acting holon, role assignment, and Work. | Rewrite: constructor ops are described by epistemes; enactment is Work by a system or acting holon under role assignment; publish traces/pins explicitly. |
+| **Episteme‑as‑actor** | Text says “the ConstructorSignature builds, validates, or publishes the SoI”. | Violates no epistemic agency and hides the admitted System and dated Work; a system-role kind or assignment may also be mistaken for the actor. | Rewrite: the episteme describes constructor operations; an admitted System performs the Work; F.6 identifies the assignment under which it acted. A short account may omit an unused assignment identifier. |
 

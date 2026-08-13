@@ -6,12 +6,12 @@ section_id: "C.24:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__015_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:10 — Rationale"
-line_start: 53016
-line_end: 53024
+line_start: 53280
+line_end: 53288
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,6 +47,6 @@ keywords:
 
 Source-use relation and source-currentness for this rationale: these rows are current-practice pressure and BLP-neighbour alignment, not a standalone `SoTA-Echoing` table. A current tool-use or agentic-loop source becomes load-bearing only when it changes one `CallPlan`, `CheckpointReturn`, budget, stop or replan condition, BLP waiver, or relation row.
 
-- Contemporary tool-use systems in agential roles work best when planning, feedback, and replanning stay explicit rather than collapsing into one brittle script. The practical implication is to state one `U.WorkPlan` whose planned steps select exact Methods, cite route-description epistemes separately when current, and carry stop or replan triggers before execution.
+- Contemporary tool-using Systems work best when planning, feedback, and replanning stay explicit rather than collapsing into one brittle script. The practical implication is to state one `U.WorkPlan` whose planned steps select exact Methods, cite route-description epistemes separately when current, and carry stop or replan triggers before execution.
 - Post-2015 search, optimization, and agentic systems also show that bounded probing is useful but dangerous when it silently becomes commitment. The safeguard here is the explicit `CheckpointReturn` plus visible commit trigger and one explicit split between planned budget envelope and burned actual budget.
 - Scaling-first practice favors general, learnable methods over fragile hand-tuned tactics when assurance and cost remain comparable. The practical implication is not blind optimism but disciplined BLP: when a narrow heuristic wins, record the waiver, expiry, and re-evaluation window.

@@ -6,12 +6,12 @@ section_id: "C.26.3:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:7 — Conformance Checklist"
-line_start: 54965
-line_end: 54983
+line_start: 55233
+line_end: 55251
 dependencies:
   - "A.10"
   - "A.15"
@@ -43,7 +43,7 @@ keywords:
 
 | ID | Check |
 | --- | --- |
-| CC-C26.3.1 | The local viability-bearer position points to one exact object already identified under its direct owner; the position introduces no kind or relation. |
+| CC-C26.3.1 | The local viability-bearer position points to one exact object already identified under its subject pattern; the position introduces no kind or relation. |
 | CC-C26.3.2 | The protected promise or function is named. |
 | CC-C26.3.3 | Envelope variables or quality-bundle dimensions and the viable region / bounds are named. |
 | CC-C26.3.4 | Disturbance class and scenario/window are named. |
@@ -55,6 +55,6 @@ keywords:
 | CC-C26.3.10 | The QL cue / formal cue is named if QL wording is retained. |
 | CC-C26.3.11 | QL wording appears only when probe, order, export, coarsening, or incompatible frame interaction remains load-bearing. |
 | CC-C26.3.12 | Rate/inertia/damping/effort and second-order dynamics variables appear only when load-bearing. |
-| CC-C26.3.13 | Homeostasis, allostasis, active inference, and Markov-boundary wording are restored into direct FPF owners before they carry the claim; Markov-blanket wording does not by itself create boundary, interface, component, agency, or viability authority. |
+| CC-C26.3.13 | Homeostasis, allostasis, active inference, and Markov-boundary wording are restored into FPF subject patterns before they carry the claim; Markov-blanket wording does not by itself create boundary, interface, component, agency, or viability authority. |
 | CC-C26.3.14 | The pattern does not mint `ViabilityParameter`, `HomeostasisOntology`, or a new control ontology. |
 

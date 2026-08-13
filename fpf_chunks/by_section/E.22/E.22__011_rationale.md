@@ -6,12 +6,12 @@ section_id: "E.22:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:10 — Rationale"
-line_start: 87570
-line_end: 87573
+line_start: 88251
+line_end: 88254
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,5 +30,5 @@ keywords:
 
 ### E.22:10 - Rationale
 
-There is no neutral generic request when a quality result is wanted. The useful artifact is the framed question: exact object version, selected characteristic space, predicate and/or comparator, one evaluation ClaimScope, consuming work or decision, governing evaluation pattern, any separately identified semantic Method, purpose, expected evidence basis, expected result form, and boundary. The frame makes those bindings inspectable without becoming the pattern, Method, performer assignment, descriptions, dated evaluation Work, evidence use, result, decision, or project authority.
+There is no neutral generic request when a quality result is wanted. The useful artifact is the framed question: object version, selected characteristic space, predicate and any comparator, one evaluation ClaimScope, consuming work or decision, evaluation pattern, any separately identified semantic Method, purpose, expected evidence basis, expected result form, and boundary. When needed, it also distinguishes an intended evaluator or planned condition from a current evaluator System and obtaining assignment occurrence. The frame makes those bindings inspectable without becoming the pattern, Method, assignment, descriptions, dated evaluation Work, evidence use, result, decision, or project authority.
 

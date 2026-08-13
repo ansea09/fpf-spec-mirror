@@ -6,12 +6,12 @@ section_id: "E.24.CD:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:9 — Consequences"
-line_start: 88959
-line_end: 88974
+line_start: 89663
+line_end: 89678
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,6 +39,7 @@ dependencies:
   - "C.3.2"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17.0"
   - "E.18.1"
   - "E.23"
@@ -54,7 +55,7 @@ keywords:
 
 Positive consequences:
 
-- authors reach a governing pattern from a recognizable work situation;
+- authors reach a subject pattern from a recognizable work situation;
 - durable ontics are proposed from an identity and reuse gap rather than from form or vocabulary;
 - local classification, claim coordination, publication, representation, and wording remain cheaper dispositions;
 - cards, records, tables, and schemas remain useful source material and detection cues without becoming ontology by appearance;
@@ -62,7 +63,7 @@ Positive consequences:
 
 Costs:
 
-- the author must recover the subject and needed claim before choosing a governing pattern or unresolved stop;
+- the author must recover the subject and needed claim before choosing a subject pattern or unresolved stop;
 - some attractive names are lowered to local kinds, source wording, epistemes, publication forms, or representations;
 - a genuine durable candidate still requires the full E.24 decision and, when current, a separate E.24.UK admission result.
 

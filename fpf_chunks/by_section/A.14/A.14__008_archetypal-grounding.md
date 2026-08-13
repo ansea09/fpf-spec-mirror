@@ -6,16 +6,18 @@ section_id: "A.14:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__008_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:7 — Archetypal Grounding"
-line_start: 23797
-line_end: 23806
+line_start: 24050
+line_end: 24059
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
@@ -42,5 +44,5 @@ keywords:
 | **ComponentOf**                | Impeller **ComponentOf** PumpUnit.                     | Figure 2 **ComponentOf** Poster Layout (physical poster layout). |
 | **ConstituentOf**              | Control law **ConstituentOf** Controller Design.       | Lemma A **ConstituentOf** Theorem Proof.                    |
 | **PhaseOf**                    | PumpUnit\#3 *before*/*after* calibration (same serial and direct identity rule). | One unchanged theorem episteme restricted to τ₁ or τ₂ while its complete C.2.1 identity triple remains fixed. |
-| MemberOf (for reference) | “is an element of a collection/collective”; use only after the exact collection, its identity rule, and the direct membership occurrence are grounded. A C.13 `Γ_m.set` trace can report that construction and B.3.5 can link it for assurance; neither the trace nor a gathering act creates membership. Acting-collective claims require separate `U.System` admission plus role, method, work, and evidence owners. | The same rule applies to collections of epistemes; listing or publishing them supplies no membership occurrence by itself. |
+| MemberOf (for reference) | “is an element of a collection or collective”; use only after the exact collection, its identity rule, and the direct membership occurrence are grounded. A C.13 `Γ_m.set` trace can report that construction and B.3.5 can link it for assurance; neither the trace nor a gathering act creates membership. Acting-collective claims require separate `U.System` admission plus system-role-kind, assignment, method, work, and evidence patterns. | The same rule applies to collections of epistemes; listing or publishing them supplies no membership occurrence by itself. |
 

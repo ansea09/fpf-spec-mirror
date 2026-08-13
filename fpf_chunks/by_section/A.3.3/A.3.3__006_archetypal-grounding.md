@@ -6,12 +6,12 @@ section_id: "A.3.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.3/A.3.3__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.3 — U.Dynamics: State-Space and Transition-Law Episteme"
   - "A.3.3:5 — Archetypal Grounding"
-line_start: 8349
-line_end: 8379
+line_start: 8563
+line_end: 8593
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -84,5 +84,5 @@ A claim portfolio uses belief, evidence weight, source currentness, and contesta
 
 #### A.3.3:5.5 - Natural physical evolution
 
-The Moon orbiting Earth can be modeled as `U.Dynamics` without pretending that the Moon enacts a method or performs governed work. A role assignment such as satellite classification may be well-formed, but it does not create method-work alignment.
+The Moon orbiting Earth can be modeled as `U.Dynamics` without pretending that the Moon enacts a method or performs governed work. A classification such as satellite classification may be well-formed, but it does not create method-work alignment.
 

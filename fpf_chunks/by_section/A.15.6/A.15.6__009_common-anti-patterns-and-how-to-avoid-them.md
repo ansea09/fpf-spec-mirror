@@ -6,12 +6,12 @@ section_id: "A.15.6:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 26529
-line_end: 26547
+line_start: 26731
+line_end: 26749
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -46,11 +46,11 @@ keywords:
 | Case-file or changed-entity substitution | A record replaces the subject, or every case is forced into one continuing affected entity. | Read the closure claim, select its exact EntityOfConcern, preserve episteme-edition, characteristic/measurement, relation, decision, result, and continuing-referent identity laws, and keep the case file as a separate episteme. |
 | Three-view collapse | Project, process, and case topics assign subjects to descriptions and accounts with different subjects are published as one multi-view description. | Recover each EntityOfConcern from actual claim content; split independent subjects into separate epistemes and add correspondence relations where useful. |
 | Suffix-provided locality | `@Project` or `@BoundedContext` is expected to establish identity, authority, or a selected structure. | Name the exact relation and typed reference. For a method-side structure, fill A.22's four discriminators; no suffix contributes locality or identity. |
-| Role-by-label | A system is said to hold `SystemOfInterestRole` because someone called it the project system-of-interest. | Keep project designation Plain, or name the role value, taxonomy episteme, effective scheme, and concrete enactment-facing participation under A.2. Only then, if assignment identity matters, recover the holder, obtaining A.2.1 assignment, and uninterrupted extent. |
-| Role proves project selection | An obtaining role assignment is treated as proof that one project selected its holder. | Keep the plan or decision designation and obtaining work, change, and use facts separate. Assert one compound selection claim only after its constructor substrate is selected; otherwise return the section 4.1a missing-substrate result. |
-| Future-system backdating | A planned controller or plant is treated as an admitted system and role holder before it exists. | Keep the designator and expected use in plan content; after identity inception, test selection and assignment separately. |
+| System-role-kind-by-label | A System is classified under `SystemOfInterestSystemRole` because someone called it the project system-of-interest. | Keep project designation Plain, or identify the local system-role kind and test the System against its A.2 feature criterion. Only then, if assignment identity matters, recover an assignment occurrence and its declared `U.SystemRoleAssignment` species. The species defines participant meanings and the predicate; the occurrence supplies the participants and extent for the case. |
+| Assignment proves project designation | An obtaining system-role assignment is treated as proof that one project designated its holder. | Keep the plan or decision designation and obtaining Work, change, classification, assignment, and use facts separate. Assert one compound selection claim only after its constructor substrate is selected; otherwise return the section 4.1a missing-substrate result. |
+| Backdating a future System | A planned controller or plant is treated as an admitted System, classified under a local system-role kind, or made an assignment holder before it exists. | Keep the designator and expected use in plan content; after identity inception, test designation, classification, and assignment separately. |
 | Project-result field | Entities, values, conditions, choices, measurements, verdicts, decisions, relation occurrences, changed referents, and claim-bearing epistemes are grouped as one intrinsic result of the project. | Ask what the result is and what it is a result of or for. Keep that subject in the kind or claim already established for it, then choose one WMR outcome. If no positive assertion is available, return one non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`; only the last is an ontology blocker. |
 | Network-is-project | A network of transformation-flow structures is treated as the project, workflow actor, or work-breakdown structure. | Keep the `E.18.NET` structure non-agentive and include Work in the project only through exact `A.15.1` work-parthood. |
 | Probe-is-constructor | The `A.6.RCD:4.2` conjunction row or a reference scheme is treated as if it supplied a constructor substrate. | Keep every direct fact and return `missing-substrate[project-selection-conjunction]` until one substrate and edition defines the conjunction's inputs, output claim, applicability, and truth semantics. |
-| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS/network, Method, record, or changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, name performer system, covering assignment, Work, changed referent, and direct governor; otherwise invent no actor, assignment, Method, or Work. |
+| Actor invented or suppressed | Every Transformation is forced to have a Work performer, or project Work, a TFS or network, a Method, a record, or the changed subject is silently put in an acting position. | Ground the A.3.4 change first. Add a causal or interaction participant only when the applicable direct predicate and the case facts establish that position. For a Work-realized change, establish the performer System, F.6 attribution, Work, changed referent, and direct governor; a short account may omit an unused assignment identifier. Otherwise invent no actor, assignment, Method, or Work. |
 

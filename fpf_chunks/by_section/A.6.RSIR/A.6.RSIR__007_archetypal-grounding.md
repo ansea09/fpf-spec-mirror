@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:5 — Archetypal Grounding"
-line_start: 17282
-line_end: 17301
+line_start: 17510
+line_end: 17529
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "F.18"
@@ -41,39 +42,36 @@ keywords:
   - "API"
   - "RelationSignature"
   - "SlotSpec"
-  - "actual participant"
-  - "assertion or description designation"
+  - "ambiguous role wording"
   - "direct relation participant"
-  - "exact operation application and binding"
   - "interface"
-  - "operation argument or result declaration"
+  - "operation declaration and binding"
   - "participant meaning"
   - "port"
   - "reduced-use source label"
   - "relation-signature-interface-role-slot recovery"
-  - "representation position and correspondence"
-  - "role"
-  - "role assignment"
-  - "shadow ontology"
+  - "representation position"
+  - "system-role assignment"
+  - "system-role kind"
 ---
 
 ### A.6.RSIR:5 - Archetypal Grounding
 
-**System case: module interface claim.** A team says "the cooling module exposes the heat-exchanger interface." RSIR first asks what claim is current. If the claim is substitutability or separate change, use `A.6.M`. If a reusable relation declaration for exchanged-medium and boundary-condition participant meanings is current, use `A.6.0` plus `A.6.5` for the `RelationSignature` and complete `SlotSpec`s. If the current use is a diagram, API schema, or other representation, keep its positions under `C.29` or the exact representation owner and state explicit correspondence. If the claim is a functional port in a transformation-flow structure, use `A.6.F`, `A.3.4`, and `E.18`. RSIR does not create `U.Interface`.
+**System case: module interface claim.** A team says "the cooling module exposes the heat-exchanger interface." RSIR first asks what claim is current. If the claim is substitutability or separate change, use `A.6.M`. If a reusable relation declaration for exchanged-medium and boundary-condition participant meanings is current, use `A.6.0` plus `A.6.5` for the `RelationSignature` and complete `SlotSpec`s. If the current use is a diagram, API schema, or other representation, keep its positions under `C.29` or the exact representation pattern and state explicit correspondence. If the claim is a functional port in a transformation-flow structure, use `A.6.F`, `A.3.4`, and `E.18`. RSIR does not create `U.Interface`.
 
-**Role case: API provider role.** A source says "the API role is provider." RSIR first recovers what participates in work. If `provider` is a work-facing role, use `A.2.1` to name the holder system, `ProviderRole`, role-taxonomy episteme, effective reference scheme, and assignment window. Add a model-use structure only when an independently selected DDD-style organization changes interpretation. If the API is a publication or protocol description, use `E.17` for publication; use `A.6.P:4.11a` when service or service-access wording hides the concrete subject or relation. Send promise content to `A.2.3` and an accountable provider or consumer commitment to `A.2.8`. For protocol, contract, SLA, or agreement-like boundary wording that bundles several claims, use `A.6.C` to unpack them before sending each recovered object to its direct owner; if module-interface semantics are current, use `A.6.M`; if boundary-package statement classification is current, use `A.6.B`. Do not assign a work role to the API description.
+**Bare-role case: API provider wording.** A source says “the API role is provider.” Start with `E.10.ROLE`. If a System performs provider Work under an assignment, recover the holder System, local `ProviderSystemRole` kind, assignment occurrence, and declared species. If the wording concerns a declaration, interface participant, API schema position, publication, promise, or access relation, return here and select its pattern. For protocol, service-term, SLA, or agreement-like wording that bundles several claims, use A.6.C to unpack the claims before stating each object or relation. Use A.6.M only for a module-interface claim and A.6.B only for boundary-package statement classification. Do not assign a system role to the API description.
 
-**Evidence case: reviewer evidence role.** A report says "reviewer evidence role approved the gate." RSIR blocks the composite. `ReviewerRole` may be assigned to an admitted `U.System` under `A.2` and `A.2.1`. A report episteme may be used in an evidence-use relation under `A.10`, `B.3`, `F.10`, or `E.17`. A gate approval may be a gate decision under `A.21` or a speech-act case under `A.2.9`. No episteme gets a work role by being evidence.
+**Evidence case: reviewer and report wording.** A report says “reviewer evidence role approved the gate.” Start with `E.10.ROLE` and split the claims. An admitted system may be classified under `ReviewerSystemRole` and hold an exact review assignment under A.2.1. A report episteme may be used through an evidence-use relation under A.10, B.3, F.10, or E.17. A gate decision remains under A.21, and an issuing act may be an A.2.9 speech act. No episteme receives a system-role assignment by being evidence.
 
-**Slot case: method parameter.** A method description says "parameter target controls the model." That sentence has no exact governor in this case, so it is not retained as the repaired claim; keep `target` only as a reduced-use source label and write one positive A.6.1 use instead. In the current `recognizeAdmittedHolonCandidate` declaration, `candidate` is an `ArgumentDeclaration` meaning one exact entity being evaluated, with `ValueKind = U.Entity`; `recognitionJudgment` is the declared result meaning. Under A.6.1, the project independently identifies the bounded recognition-evaluation invocation `P-37` by that declaration's application predicate, identity rule, and extent rule. During `P-37`, Pump #37 is actually bound under `candidate`, and the returned value `unknown` is bound under `recognitionJudgment`. In a call representation such as `recognizeAdmittedHolonCandidate(target = Pump-37, ...)`, the named-argument position `target` corresponds to the declared `candidate` meaning but is neither the declaration nor either binding. The practitioner writes: "`target` is the call label; A.6.1 declares `candidate : U.Entity`; during exact application `P-37`, Pump #37 is bound as candidate." Stop there unless the receiving claim needs the result binding or another direct owner.
+**Slot case: method parameter.** A method description says "parameter target controls the model." That sentence has no exact governor in this case, so it is not retained as the repaired claim; keep `target` only as a reduced-use source label and write one positive A.6.1 use instead. In the current `recognizeAdmittedHolonCandidate` declaration, `candidate` is an `ArgumentDeclaration` meaning one exact entity being evaluated, with `ValueKind = U.Entity`; `recognitionJudgment` is the declared result meaning. Under A.6.1, the project independently identifies the bounded recognition-evaluation invocation `P-37` by that declaration's application predicate, identity rule, and extent rule. During `P-37`, Pump #37 is actually bound under `candidate`, and the returned value `unknown` is bound under `recognitionJudgment`. In a call representation such as `recognizeAdmittedHolonCandidate(target = Pump-37, ...)`, the named-argument position `target` corresponds to the declared `candidate` meaning but is neither the declaration nor either binding. The practitioner writes: "`target` is the call label; A.6.1 declares `candidate : U.Entity`; during exact application `P-37`, Pump #37 is bound as candidate." Stop there unless the receiving claim needs the result binding or another subject pattern.
 
 #### A.6.RSIR:5.1 - Near-Miss Checks
 
 | Source phrase | Positive recovery | Near miss to reject |
 |---|---|---|
-| "API role is provider" | `ProviderRole` and `U.RoleAssignment` when an admitted `U.System` participates in work; `E.17` when the API phrase names a publication; `A.6.P:4.11a` when service or service-access wording hides the exact referent or direct relation; `A.6.C` only when recovered protocol, SLA, or agreement-like wording bundles promise, utterance or publication, governance, Work or consequence, or evidence claims. | Do not assign a work-facing role to the API description or protocol itself. |
-| "endpoint parameter source" | Use the direct relation owner when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use `C.29` or `E.17` when it is a representation position or API description, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; state explicit correspondence whenever the FPF claim consumes the representation. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
-| "`Engineer-7#Verifier:Lab-A`" | Recover `Engineer-7` as the holder `U.System`, `VerifierRole` as the role value, and name the role-taxonomy episteme, effective reference scheme, and assignment window under `A.2.1`. In this case `Lab-A` is the actual facility system in which verification work occurs; state that work relation separately when it is current. | Do not put `Lab-A` into role-assignment identity or keep `Holder#Role:Context` as normative ontology. |
+| “API role is provider” | Start with `E.10.ROLE`. Recover `ProviderSystemRole` and an exact `U.SystemRoleAssignment` only when an admitted system performs provider Work; use E.17 for an API publication, A.6.RSIR for a declaration, interface, or representation position, A.6.P:4.11a for a hidden service or access relation, and A.6.C only when protocol, SLA, service-term, or agreement-like wording bundles unlike claims. | Do not assign a system role to an API description or protocol. |
+| "endpoint parameter source" | Use the direct relation pattern when the phrase hides a participant meaning or actual participant; use `A.6.5` only for a complete `SlotSpec` in a current reusable `RelationSignature`; use `A.6.1` when it names an operation `ArgumentDeclaration`, `ResultDeclaration`, or an actual binding in one independently identified exact application; use `C.29` or `E.17` when it is a representation position or API description, and `A.6.P:4.11a` when a service-documentation label hides the concrete subject or relation; state explicit correspondence whenever the FPF claim consumes the representation. | Do not create an endpoint kind, a work-facing role from the word "source", a parameter ontology, a public application kind, a universal input/output relation, or a world-side participant or binding from representation shape. |
+| “`Engineer-7#Verifier:Lab-A`” | Recover `Engineer-7` as the holder System, `VerifierSystemRole` as the local kind, and both the assignment occurrence and its declared `U.SystemRoleAssignment` species. In this case `Lab-A` is the facility System in which verification Work occurs; state that Work relation separately when claimed. | Do not put `Lab-A` into assignment identity or keep `Holder#Role:Context` as normative ontology. |
 | "function of the pump" | `A.6.F`, `A.3.4`, `E.18`, or `C.30.TFS-REL` when the phrase names functional structure; `A.2.2` when it names a system capability. | Do not treat "function" as the recovered kind before the current claim is known. |
-| "standard evidence role" | `A.10`, `B.3`, `F.10`, or `E.17` when a standard episteme is used as evidence, source, status, or publication. | Do not keep `U.EvidenceRole` or put the standard episteme into `U.RoleAssignment`. |
+| “standard evidence role” | Start with `E.10.ROLE`, then use A.10, B.3, F.10, or E.17 when a standard episteme is used as evidence, source, status, assurance basis, or publication. | Do not invent `U.EvidenceRole` or put the standard episteme into `U.SystemRoleAssignment`. |
 

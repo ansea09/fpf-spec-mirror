@@ -6,12 +6,12 @@ section_id: "A.6.B:8"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__010_archetypal-grounding-tell-show-show.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:8 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 10614
-line_end: 10920
+line_start: 10829
+line_end: 11135
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -49,7 +49,6 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "a duty or commitment D- claim MUST name its accountable subject"
   - "accountable norms and grants"
   - "actual exercise"
   - "and MAY"
@@ -69,7 +68,6 @@ keywords:
   - "institutional obtaining"
   - "laws"
   - "may"
-  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
   - "observable effects and evidence"
@@ -77,6 +75,7 @@ keywords:
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
+  - "responsibility"
   - "they report adjudicable results rather than obligations"
   - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
@@ -139,31 +138,31 @@ Convert a boundary-ish sentence that mixes “laws / gates / duties / evidence�
 * **A** if it is an *in‑work* **gate predicate**: what the mechanism admits at application time (“admissible iff …”). It is not a duty and MUST NOT be phrased as one.
   **Guardrails:** `A-*` SHOULD be written in predicate form and MUST NOT (i) use RFC deontic keywords as if it were an agent obligation, (ii) claim that evidence carriers exist (that is `E-*`), or (iii) assign responsibility or enforcement (that is `D-*`).
   *(Do not confuse this with `Signature.Applicability`: applicability scopes intended meaning and intended use; it is not a runtime entry gate.)*
-* **D** if the exact atomic statement assigns an accountable duty, recommendation-as-duty, prohibition, or commitment. A permissive sentence enters D only through the **Grant or norm** row below.
-  **Guardrails:** a duty or commitment claim names its accountable subject; a grant claim instead follows the participant and ground test in the **Grant or norm** row. Writing either claim does not make its object obtain.
+* **D** if the exact atomic statement states a duty, recommendation-as-duty, prohibition, or commitment for one actual bearer. A permissive sentence enters D only through the **Grant or norm** row below.
+  **Guardrails:** a duty or commitment claim names its actual duty bearer and satisfies the direct A.2.8 predicate; a grant claim instead follows the participant and ground test in the **Grant or norm** row. A system-role kind or assignment may be a rule ground but is neither bearer nor deontic relation. Writing either claim does not make its object obtain.
 * **E** if it is an *in-work* truth-conditional claim whose satisfaction requires actual work, evaluation, observation, or produced carriers.
   **Predicate-specific minimum:** name the exact `E-*` predicate and object, then the actual work, evaluation, or observation, scope/window, comparison frame, and other settling conditions that this predicate needs. Add an evidence or source-use relation, carrier/schema, viewpoint, or consumer only when the receiving gate, plan, audit, assurance, or other reliance decision depends on that support.
   **Guardrails:** `E-*` SHOULD NOT use RFC deontic keywords, MUST NOT hide a gate predicate (that is `A-*`), and MUST NOT cite `D-*`.
-  *(If the sentence is “Role SHALL measure, retain, or expose …”, classify that obligation to **D**, even if it is about evidence.)*
+  *(If the source sentence is “Role SHALL measure, retain, or expose …”, recover the actual bearer and classify the obligation to **D**, even if it is about evidence.)*
 
-**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) an accountable obligation or commitment, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
+**Step 3 — Triangle decomposition.** If the original sentence mixes (i) an entry condition, (ii) an obligation or commitment for an actual bearer, and (iii) an observability expectation (a common failure mode with “guarantee, ensure, approved, or aligned”), decompose it into:
 
 * **A**: the admissibility predicate (what must be true to treat the claim as applicable),
-* **D → A**: who is responsible for keeping or ensuring the predicate,
+* **D → A**: which actual bearer has a duty to keep or enforce the predicate; any responsibility relation is stated separately under its direct domain predicate
 * **E → A**: what evidence or traces are used to adjudicate the predicate.
 
 **Permission-word branch (use only when the sentence sounds permissive).** Choose the row by the job the sentence performs, not by the word *may*, *approved*, *authorized*, or *permitted*.
 
-| Branch | Ask this plain question | Square result | Direct owner and what closes the row |
+| Branch | Ask this plain question | Square result | Subject pattern and what closes the row |
 |---|---|---|---|
 | **Grant or norm** | Does the sentence tell a named subject what it must or must not do, or tell a named beneficiary which action it is permitted to perform and under what conditions? | **D** | Use `A.2.8` for the duty/prohibition/commitment. For a grant use `A.2.8.PER`: name the exact grant occurrence, beneficiary, action, scope/window, and the policy-valid `A.2.9` act with its performer and assignment; confirm that the policy conditions still hold, and that no valid revocation or supersession ended the grant; cite the evidence needed before reliance. |
-| **Gate** | Is a mechanism deciding whether this application may enter by checking the grant, finding, or conflict named by another row? | **A** | Use the mechanism or gate owner and name its entry predicate. The named object is an input; the gate neither creates nor resolves it. |
+| **Gate** | Is a mechanism deciding whether this application may enter by checking the grant, finding, or conflict named by another row? | **A** | Use the mechanism or gate pattern and name its entry predicate. The named object is an input; the gate neither creates nor resolves it. |
 | **Actual exercise** | Did this dated Work match the named grant's action and beneficiary while that grant was in force? | **E** | Use `A.2.8.PER PermissionExerciseRelation@Context`: name the exact Work, grant occurrence, performer/assignment or on-behalf-of ground, scope, and interval. A failed match means that exercise relation does not obtain. |
 | **Weak evaluation or non-violation** | Did an evaluation of a current, sufficiently complete normative frame find no applicable prohibition before action, or no violation in the actual Work? | **E** | Use the exact `NonProhibitionFinding@Context` or `NonViolationFinding@Context`, its evaluation Work, frame, subject/action or Work, scope, and window. A stale or incomplete frame returns `unresolved`. |
 | **Conflict** | Do a current grant and norm cover the same case, and has a rule or authorized decision actually selected the outcome? | **E** | Use `A.2.8.PER PermissionNormConflictFinding@Context`. Cite the applicable selecting rule or the admitted system's authorized dated decision Work and current resolution result; otherwise keep the finding `unresolved`. |
-| **Source or display only** | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or evidences something? | **E** for an observed carrier/evidence claim; **L** for its definition | Use A.10/G.6 for evidence and the applicable publication or carrier owner. A visible or published item is not itself a grant, exercise, finding, or resolution. |
+| **Source or display only** | Does the sentence only say that a permit, badge, registry entry, message, or carrier exists, displays, or evidences something? | **E** for an observed carrier/evidence claim; **L** for its definition | Use A.10/G.6 for evidence and the applicable publication or carrier pattern. A visible or published item is not itself a grant, exercise, finding, or resolution. |
 
-Choose one row. If one sentence answers two questions, split it before classification. If the sentence is not permission-like, do not use this branch. The branch classifies claims and selects existing owners; it creates no `permission result` umbrella. Use the filled case in §8.4.5.4 when a concrete model is needed; point back to that case rather than adding another owner list.
+Choose one row. If one sentence answers two questions, split it before classification. If the sentence is not permission-like, do not use this branch. The branch classifies claims and selects existing subject patterns; it creates no `permission result` umbrella. Use the filled case in §8.4.5.4 when a concrete model is needed; point back to that case rather than adding another pattern list.
 
 **Guideline.** Keep gate semantics independent of specific evidence carriers: write the gate predicate in `A-*`, then bind observability in `E-*` that references the gate (`E → A`). `A-*` claims MUST NOT reference `E-*` (no upward dependencies), even though `E-*` is used to adjudicate gate satisfaction.
 
@@ -179,7 +178,7 @@ Choose one row. If one sentence answers two questions, split it before classific
 **Step 5 — Bind references (minimal A.7 discipline).**
 
 * Place **L** claims in `Signature.Laws` (and mechanism-local semantic laws if present), and **A** claims in `Mechanism.AdmissibilityConditions`.
-* Bind **D** claims to accountable role assignments or admitted acting systems and prefer ID references (no restatement of `L-*` / `A-*` content in new words).
+* Bind each **D** claim to its actual duty-bearing System or separately governed party and exact `U.Commitment`; cite an exact system-role assignment only when the constitutive rule uses it as an applicability ground. State responsibility and authority, when claimed, through their own admitted direct relations or exact missing governors. Prefer ID references rather than restating `L-*` or `A-*` content.
 * Bind each **E** claim first to its exact predicate/object and to the actual work, evaluation, observation, scope/window, comparison frame, and other conditions that settle that predicate. Add a carrier/schema, evidence or source-use relation, viewpoint, and consumer only when a receiving reliance decision depends on them; a claim about a carrier's own existence or condition names the carrier as its object.
 
 **Optional drift-control.** Add each L/A/D/E-classified claim verbatim to a Claim Register row (A.6.B:7) with canonical location + references so faces can cite by ID without paraphrase.
@@ -224,21 +223,21 @@ The claim “p95 < 200ms” is admissible **only under** declared load profile +
 *(References L-API-01 for definition.)*
 
 **D-API-01 (Commitment).**
-`ServiceOwner` SHALL meet the latency target `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
+Admitted service-maintaining system `ServiceOperations-A` is the actual duty bearer of separately obtaining `LatencyCommitment-API-01 : U.Commitment`; under that commitment it SHALL meet `p95_latency < 200ms` when `A-API-01` holds, adjudicated per `L-API-01` using the carriers and observation conditions in `E-API-01`.
 *(References L-API-01 and A-API-01 by ID; does not restate them.)*
 
 **D-API-02 (Operational duty).**
-`SRE_oncall` SHALL publish incident notes when the commitment `D-API-01` is violated, and SHALL avoid claiming compliance outside `A-API-01`.
+Admitted operations system `SRE-A` is the actual duty bearer of separately obtaining `IncidentNoteCommitment-API-02 : U.Commitment`; it SHALL publish incident notes when `LatencyCommitment-API-01` is violated and SHALL avoid claiming compliance outside `A-API-01`.
 *(References D-API-01 and A-API-01 by ID.)*
 
 **E-API-01 (Evidence / carriers).**
 For decisions under `A-API-01`, the following carrier **classes** are produced or observable under the declared observation conditions: trace IDs and span IDs, raw histogram carriers with schema reference, percentile dashboard snapshots, and pinned sampling configuration for window `W`.
 **Observation conditions (minimum):** workload profile selector, sampling method and configuration pins, and computation method reference (`L-API-01`).
-**Viewpoint and consumer (minimum):** the role assignment, viewpoint, or consumer that uses the carriers to adjudicate the gate, audit commitments, or both (e.g., SRE or performance-reviewer).
+**Viewpoint and consumer (minimum):** the admitted System, viewpoint, or consumer that uses the carriers to adjudicate the gate or audit commitments; cite an exact system-role assignment only when its identity matters to Work attribution or another independently governed predicate.
 *(References `A-API-01` and `L-API-01`; avoids RFC deontics; does not smuggle gates. Note: `E-*` MUST NOT cite `D-*`.)*
 
 **D-API-03 (Duty-to-evidence linkage).**
-`Operators` SHALL retain or expose the carrier classes referenced in `E-API-01` for the audit window required by policy.
+Admitted telemetry-maintaining system `TelemetryOperations-A` is the actual duty bearer of separately obtaining `TelemetryRetentionCommitment-API-03 : U.Commitment`; it SHALL retain or expose the carrier classes referenced in `E-API-01` for the audit window required by policy.
 *(References E-API-01 by ID.)*
 
 **E-API-02 (Observed value claim).**
@@ -265,7 +264,7 @@ For interval `Γ_time = [t1..t2]` under conditions pinned to `A-API-01` and usin
 * `E-API-02` reports observed performance under `A-API-01` for `Γ_time=[t1..t2]`.
 
 **Plain recomposition (one paragraph, readable):**
-“The API’s latency target uses the p95 definition in **L-API-01** and is only applicable under the declared operating envelope **A-API-01**. The service owner commits to meeting the <200ms target under that envelope (**D-API-01**). Adjudication uses the telemetry carriers listed in **E-API-01**, which operators must retain or expose (**D-API-03**), and the on-call SRE must publish incident notes when the commitment is violated (**D-API-02**). Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
+“The API’s latency target uses the p95 definition in **L-API-01** and is only applicable under the declared operating envelope **A-API-01**. `ServiceOperations-A` has the latency duty stated in **D-API-01**. Adjudication uses the telemetry carriers listed in **E-API-01**; `TelemetryOperations-A` has the retention duty in **D-API-03**, and `SRE-A` has the incident-note duty in **D-API-02**. Under that envelope, the observed p95 over `Γ_time=[t1..t2]` was `173ms` (**E-API-02**).”
 
 ##### A.6.B:8.4.4 - Example 2 — Mechanical engineering (fit / coaxiality)
 
@@ -288,7 +287,7 @@ The coaxiality claim is admissible only if manufacturing and assembly satisfy th
 *(Gate predicate; can be checked using evidence, but is not itself evidence.)*
 
 **D-FIT-01 (Duty).**
-`ProcessEngineer` SHALL ensure A-FIT-01 holds for the production lot and SHALL not release the lot for use when A-FIT-01 is false.
+Admitted production-engineering system `ProcessEngineer-A` is the actual duty bearer of separately obtaining `ProcessEnvelopeCommitment-FIT-01 : U.Commitment`; it SHALL ensure `A-FIT-01` holds for the production lot and SHALL not release the lot for use when `A-FIT-01` is false.
 *(References A-FIT-01.)*
 
 **E-FIT-01 (Evidence carriers).**
@@ -296,7 +295,7 @@ Evidence carriers used to adjudicate `A-FIT-01` include CMM reports, tool calibr
 *(References A-FIT-01 and L-FIT-01; avoids RFC deontics.)*
 
 **D-FIT-02 (Duty-to-evidence linkage).**
-`QualityEngineer` SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
+Admitted quality-engineering system `QualityEngineer-A` is the actual duty bearer of separately obtaining `FitEvidenceRetentionCommitment-02 : U.Commitment`; it SHALL retain or expose the carriers referenced in `E-FIT-01` for the production lot.
 *(References E-FIT-01 by ID.)*
 
 **E-FIT-02 (Observed).**
@@ -310,11 +309,11 @@ For lot `L123` and window `Γ_time=[t1..t2]`, under conditions pinned to `A-FIT-
 * Meaning of coaxiality: `L-FIT-01`.
 * Boundary arity and participants: `L-FIT-02`.
 * When the claim is admissible: `A-FIT-01`.
-* Who is responsible: `D-FIT-01`.
+* Who has the process-envelope duty: `ProcessEngineer-A` under `D-FIT-01`.
 * What we observe and keep as carriers: `E-FIT-01` and measured outcome `E-FIT-02` (with retention duty `D-FIT-02`).
 
 **Plain paragraph:**
-“‘Ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The coaxiality claim is only applicable under the declared manufacturing and assembly envelope (**A-FIT-01**), which the process engineer is accountable for maintaining (**D-FIT-01**). Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
+“‘Ensures coaxiality’ is made precise by fixing the definition and datum scheme (**L-FIT-01**) and by making the boundary participants explicit (**L-FIT-02**). The coaxiality claim is only applicable under the declared manufacturing and assembly envelope (**A-FIT-01**). `ProcessEngineer-A` has the process-envelope duty stated in **D-FIT-01**. Compliance is adjudicated using the measurement and process carriers listed in **E-FIT-01**; for lot `L123` over `Γ_time=[t1..t2]`, the observed coaxiality was within tolerance **E-FIT-02**.”
 
 ##### A.6.B:8.4.5 - Example 3 — Management (project “approved or aligned”)
 
@@ -333,7 +332,7 @@ For starting execution work, `ExecutionAdmissible(project)` holds iff required a
 *(This is the real “may start work” entry predicate; it references L-PRJ-01 for what counts as approvals. If “approved” is meant as permission rather than gate evidence, use the permission-word branch in §8.4.1. An approval registry entry or evidence carrier alone remains source/display evidence and is not a grant.)*
 
 **D-PRJ-01 (Duty).**
-`ProjectOwner` SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain or expose the evidence carriers referenced in `E-PRJ-01`.
+Admitted project-coordination system `ProjectCoordinator-A` is the actual duty bearer of separately obtaining `ProjectEntryCommitment-PRJ-01 : U.Commitment`; it SHALL not initiate execution unless `A-PRJ-01` holds, SHALL keep the approval registry current, and SHALL retain or expose the evidence carriers referenced in `E-PRJ-01`.
 *(References A-PRJ-01 and E-PRJ-01 by ID.)*
 
 **E-PRJ-01 (Evidence carriers).**
@@ -350,23 +349,23 @@ As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateCheckl
 
 * “Approved” is not one relation: `L-PRJ-01` defines approval kinds.
 * “May start execution” is a gate predicate: `A-PRJ-01`.
-* Owner accountability: `D-PRJ-01`.
+* `ProjectCoordinator-A`'s project-entry duty: `D-PRJ-01`.
 * Carriers and adjudication: `E-PRJ-01` and observed snapshot `E-PRJ-02`.
 
 **Plain paragraph:**
-“Instead of a generic ‘approved’, we select an explicit approval kind as defined in **L-PRJ-01** and treat ‘may start execution’ as an admissibility gate (**A-PRJ-01**). The project owner is accountable for not starting execution unless that gate holds and for keeping the approval registry current (**D-PRJ-01**). Gate status is adjudicated using the pinned carriers listed in **E-PRJ-01**; as of snapshot `t`, the evidence indicates the gate holds (**E-PRJ-02**).”
+“Instead of a generic ‘approved’, we select an explicit approval kind as defined in **L-PRJ-01** and treat ‘may start execution’ as an admissibility gate (**A-PRJ-01**). `ProjectCoordinator-A` has the project-entry and registry-maintenance duties stated in **D-PRJ-01**. Gate status is adjudicated using the pinned carriers listed in **E-PRJ-01**; as of snapshot `t`, the evidence indicates the gate holds (**E-PRJ-02**).”
 
 ###### A.6.B:8.4.5.4 - Filled permission case (each sentence classified)
 
-**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder, covers the act, and supplies the authority ground. The act satisfies `CalibrationGrantPolicy-v4` in `PlantCalibrationContext` and is the actual instituting Work, not a document or assignment acting in its place.
+**E-CAL-01 (Instituting communicative Work).** Admitted system `MaintenanceCoordinator-A` performed dated `CalibrationGrantAct-17 : U.SpeechAct` under `MaintenanceCoordinator-A@DayShift`; that obtaining assignment has the system as holder and covers the act. Separately obtaining `PlantCalibrationGrantAuthority-17` authorizes `MaintenanceCoordinator-A` to issue this grant in the stated context. The assignment supplies no authority and performs no act. `CalibrationGrantAct-17` satisfies `CalibrationGrantPolicy-v4` in `PlantCalibrationContext` and is the actual instituting Work, not a document or assignment acting in its place.
 
-**D-CAL-01 (Grant position).** `MaintenanceCalibrationGrant-17 : GrantedPermissionRelation@Context`, instituted by `CalibrationGrantAct-17`—the actual speech act stated in `E-CAL-01`—permits beneficiary `MaintenanceTechnicianRole` to run `CalibrationProcedure-v3` in Zone 8 during `ServiceWindow-17`. `CalibrationGrantPolicy-v4` remains current, the grant still covers that role, procedure, zone, and window, and no valid revocation or supersession has ended this occurrence; this `D-*` claim records the grant but does not institute it.
+**D-CAL-01 (Grant position).** `MaintenanceCalibrationGrant-17 : GrantedPermissionRelation@Context`, instituted by `CalibrationGrantAct-17`—the actual speech act stated in `E-CAL-01`—permits beneficiary `MaintenanceTechnicianSystemRole` to run `CalibrationProcedure-v3` in Zone 8 during `ServiceWindow-17`. `CalibrationGrantPolicy-v4` remains current, the grant still covers that system-role kind, procedure, zone, and window, and no valid revocation or supersession has ended this occurrence; this `D-*` claim records the grant but does not institute it.
 
 **A-CAL-01 (Gate).** `CalibrationEntryAdmissible(plan, checkTime)` holds only if `MaintenanceCalibrationGrant-17` is current for the plan's beneficiary, action, zone, and time and no applicable permission/norm conflict finding is `unresolved`. The gate consumes those inputs; it creates neither the grant nor a conflict result.
 
-**E-CAL-02 (Actual Work and actor).** During the early part of `ServiceWindow-17`, admitted system `Tech-17` performed dated `CalibrationWork-17B : U.Work` under obtaining assignment `Tech-17@Shift-B`, whose holder is `Tech-17` and whose extent covers the Work. `Tech-17` performed the Work; the assignment only grounds the role attribution.
+**E-CAL-02 (Actual Work and actor).** During the early part of `ServiceWindow-17`, admitted system `Tech-17` performed dated `CalibrationWork-17B : U.Work` under obtaining assignment `Tech-17@Shift-B`, whose holder is `Tech-17` and whose extent covers the Work. `Tech-17` performed the Work; the assignment only grounds F.6 Work attribution.
 
-**E-CAL-03 (Optional exercise claim).** Because this case asks whether the grant was used, `CalibrationExercise-17B : PermissionExerciseRelation@Context` connects `CalibrationWork-17B` to `MaintenanceCalibrationGrant-17`: the Work instantiates `CalibrationProcedure-v3`, `Tech-17@Shift-B` instantiates the beneficiary role, and the Work occurs in Zone 8 within `ServiceWindow-17` while the grant is current. If the action or beneficiary test failed, this exercise relation would not obtain.
+**E-CAL-03 (Optional exercise claim).** Because this case asks whether the grant was used, `CalibrationExercise-17B : PermissionExerciseRelation@Context` connects `CalibrationWork-17B` to `MaintenanceCalibrationGrant-17`: the Work instantiates `CalibrationProcedure-v3`; `Tech-17@Shift-B` is an assignment occurrence whose declared species uses `MaintenanceTechnicianSystemRole` as its assigned-kind domain; and the Work occurs in Zone 8 within `ServiceWindow-17` while the grant is current. If the action or beneficiary test failed, this exercise relation would not obtain.
 
 **D-CAL-02 (Exercise non-use boundary).** The boundary author **SHOULD** add `E-CAL-03` only when the reader needs to know whether the grant was exercised; otherwise the author stops with the separately named grant and Work rather than asserting an exercise relation by habit.
 
@@ -386,9 +385,9 @@ As of `Γ_time=snapshot(t)`, a resolvable gate-status carrier (e.g., `GateCheckl
 
 ###### A.6.B:8.4.6.1 - Tech register (2–5 lines)
 
-> “This boundary claim is defined by **L-…**, is applicable only under **A-…**, is accountable under **D-…**, and is adjudicated using evidence carriers **E-…**. Observed status or value is **E-…** for `Γ_time=…`.”
+> “This boundary claim is defined by **L-…**, is applicable only under **A-…**, names its actual duty bearer and duty under **D-…**, and is adjudicated using evidence carriers **E-…**. Observed status or value is **E-…** for `Γ_time=…`.”
 
 ###### A.6.B:8.4.6.2 - Plain register (1 paragraph)
 
-> “We mean **[short label]** in the sense of **L-…**. It’s only meant to be used when **A-…** holds. **[Role]** is responsible for maintaining that condition (**D-…**). Whether it holds is checked using **E-…**, and the latest recorded status or value is **E-…**.”
+> “We mean **[short label]** in the sense of **L-…**. It is meant to be used only when **A-…** holds. **[Actual duty bearer]** has the stated duty to maintain that condition under **D-…**. Whether the condition holds is checked using **E-…**, and the latest recorded status or value is **E-…**. If responsibility is also claimed, cite its direct relation separately.”
 

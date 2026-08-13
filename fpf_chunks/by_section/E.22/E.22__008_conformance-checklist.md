@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 87529
-line_end: 87545
+line_start: 88210
+line_end: 88226
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -42,6 +42,6 @@ keywords:
 | `CC-E22-8` | Use `E.23` for repeated improvement after one framed evaluation returns findings or proposals. |
 | `CC-E22-8a` | Do not frame `5`, all-`5`, or `5-defensible` as the work target. Frame below-floor repair separately from optional exceptional-improvement proposals. The optional proposal target is substantive content change, not score proof; allow checked `no proposal` or `stay at current value` only when further change would be dominated by apparatus growth, proof theatre, or protected-quality loss. |
 | `CC-E22-9` | Name the expected evidence basis and result-row shape from the object-under-improvement evaluation; `E.22` cannot authorize omitted coordinates, missing rationales, missing selected attention-discharge profiles, missing `PrecisionRestorationProfile` when `E.21` is used, unchecked evidence positions, inactive or triggered-coordinate shortcuts, scope narrowing, or a weaker result form. |
-| `CC-E22-10` | Keep the question frame, use declaration, evaluation pattern locator, optional semantic Method, any independently admitted method description actually cited, quality-model/evidence/result-form descriptions, performer assignment, dated evaluation Work, method enactment, any actual operation application, actual evidence use, typed result binding or direct result relation, optional result episteme, and result-consuming work or decision distinct. The locator is not the semantic Method, evaluator, dated Work, or result; any `U.MethodDescription` membership requires an independent A.3.2 result, and no generic work-result or evaluation-result relation is inferred. |
+| `CC-E22-10` | Keep pre-evaluation intent separate from current occurrences: an intended evaluator or planned condition asserts neither assignment nor Work. A current assignment reference identifies the assignment, not the performer; name its holder System separately. When dated evaluation Work is asserted, apply A.15.1 and F.6 and name any A.6.1 application and bindings the result consumes. A short projection may omit unused identifiers. Keep the frame, use declaration, pattern locator, Method, any independently admitted method description, quality-model, evidence-basis, and result-form descriptions, evidence use, typed result binding or direct result relation, result episteme, and result-consuming work or decision distinct. Any `U.MethodDescription` membership requires an independent A.3.2 result. The locator, descriptions, local system-role kind, and assignment perform none of the evaluation; no generic Work-result or evaluation-result relation is inferred. |
 | `CC-E22-11` | A low value, finding, failed floor, or improvement aim does not establish an actual Problem. Any actual Problem relied on by the consuming use resolves to one current C.22.PFR occurrence with its direct participants and temporal identity. |
 

@@ -6,12 +6,12 @@ section_id: "A.7.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:3 — Forces"
-line_start: 21906
-line_end: 21915
+line_start: 22159
+line_end: 22168
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -33,7 +33,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | Consequence focus vs ontological completeness | The next action may need one distinction, while the subject admits many legitimate constructions. |
-| Direct-owner reuse vs missing ontology | Existing patterns should decide ordinary cases, yet a durable missing distinction sometimes must be admitted. |
+| Subject-pattern reuse vs missing ontology | Existing patterns should decide ordinary cases, yet a durable missing distinction sometimes must be admitted. |
 | Early stop vs hidden projection loss | Coarse accounts are economical until a consequential counterexample defeats them. |
 | Domain inquiry vs ontology analysis | Missing facts require observation; conflated kinds require conceptual repair. |
 | Working account vs reusable record | A local decision may be enough; recurrence, automation, dispute, or high consequence can justify durable capture. |

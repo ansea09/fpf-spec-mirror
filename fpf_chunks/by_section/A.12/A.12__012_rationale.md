@@ -6,12 +6,12 @@ section_id: "A.12:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__012_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:9 — Rationale"
-line_start: 23492
-line_end: 23497
+line_start: 23745
+line_end: 23750
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -38,5 +38,5 @@ keywords:
 
 Engineering and scientific models need a recoverable acting side for changes. Control, cybernetics, constructor-theory-style transformation talk, software automation, and assurance practice all penalize models where the same undivided object is cause, changed object, method, work occurrence, and evidence source.
 
-FPF keeps that discipline without overbuilding A.12. The transformation ontic lives in `A.3.4`; method and work live in `A.15` and `A.15.1`; role assignment lives in `A.2.1` and `A.2.7`; evidence lives in `A.10`; part-whole admission lives in `A.1`, `A.14`, and `C.13`. A.12 only supplies the acting-side split needed before those owners can be used cleanly.
+FPF keeps that discipline without overbuilding A.12. The transformation ontic lives in `A.3.4`; Method and Work live in `A.15` and `A.15.1`; a direct assignment species and its occurrence live in `A.2.1`; a relation among exact local system-role kinds lives separately in `A.2.7`; Work attribution lives in `F.6`; evidence lives in `A.10`; and part-whole admission lives in `A.1`, `A.14`, and `C.13`. A.12 supplies only the acting-side split needed before those patterns can be used cleanly.
 

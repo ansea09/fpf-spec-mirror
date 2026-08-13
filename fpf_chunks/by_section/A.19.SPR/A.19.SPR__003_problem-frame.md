@@ -6,12 +6,12 @@ section_id: "A.19.SPR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SPR/A.19.SPR__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19.SPR — State-Family Precision Restoration"
   - "A.19.SPR:1 — Problem frame"
-line_start: 29161
-line_end: 29170
+line_start: 29363
+line_end: 29372
 dependencies:
   - "A.10"
   - "A.16"
@@ -51,5 +51,5 @@ The defect appears when the word substitutes for the frame. `Posture` is the cur
 
 > What state-like predicate is being asserted over which bearer, under which FPF pattern, for which use, and with which blocked overread?
 
-The state-like bearer under repair may be a holon in a `CharacteristicSpace`, a role-state assertion, a language-state position, a source-use relation, an evidence path, an assurance claim, a publication use, a gate or constraint record, a temporal claim, a mathematical-lens use, a `DRR` decision-adequacy result, a pattern-quality result, or a project-side administrative, review, dispatch, release or admission, or source-control record. Those are not one kind. They only share the need for a state-like predicate named by value.
+The state-like bearer under repair may be a holon in a `CharacteristicSpace`, a `SystemRoleAssignmentStateAssertion`, a language-state position, a source-use relation, an evidence path, an assurance claim, a publication use, a gate or constraint record, a temporal claim, a mathematical-lens use, a `DRR` decision-adequacy result, a pattern-quality result, or a project-side administrative, review, dispatch, release, admission, or source-control record. Those are not one kind. They only share the need for a state-like predicate named by value.
 

@@ -6,12 +6,12 @@ section_id: "E.18.NET:1"
 section_title: "Problem frame — intent and first useful result"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__002_problem-frame-intent-and-first-useful-result.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:1 — Problem frame — intent and first useful result"
-line_start: 85237
-line_end: 85278
+line_start: 85906
+line_end: 85947
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -55,7 +55,7 @@ The first useful result is therefore small. It is either:
 ```text
 selectedNetworkRef: one exact TransformationFlowStructureNetwork
 directMemberRefs[]: at least two refs to independently identified TransformationFlowStructure or E.18.NET-conforming TransformationFlowStructureNetwork values
-selectedCrossFlowRelationOccurrenceRefs[]: exact selected obtaining relations under their direct patterns
+selectedCrossFlowRelationOccurrenceRefs[]: exact selected obtaining cross-flow relation occurrences
 selectedNetworkConstraintRefs[]: exact applied endpoint, boundary-exposure, and acyclic direct-member constraints
 networkUseFrame:
   questionOrAction: the concrete question answered or action enabled
@@ -69,8 +69,8 @@ or an exact stop such as:
 proposedNetworkDescriptionRef: current diagram or record
 blockedClaim: "the compiler-building flow produces the compiler-use flow input"
 directRelationStatus:
-  missing-governor: no direct relation kind/predicate governs these participants and use
-  unresolved-grounding: a governor exists but current facts do not decide its predicate
+  missing-governor: no admitted relation kind and predicate apply to these participants and use
+  unresolved-grounding: an applicable relation predicate exists, but current facts do not decide it
   false-predicate: current facts fail the predicate, so no occurrence fills the network
   missing-endpoint-binding: an occurrence obtains but one required position binding is absent
 result: exactly one applicable status above

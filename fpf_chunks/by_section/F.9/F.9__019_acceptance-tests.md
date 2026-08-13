@@ -6,12 +6,12 @@ section_id: "F.9:17"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__019_acceptance-tests.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:17 — Acceptance tests"
-line_start: 93097
-line_end: 93126
+line_start: 93873
+line_end: 93902
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -63,12 +65,12 @@ keywords:
 * **SCR-F9-S05 (Separate bounded use).** Every use claim identifies exact Bridge `b`, names `u`, `d`, `r`, `t`, polarity, and an effective ReferenceScheme under C.2.1.
 * **SCR-F9-S06 (Reliance branch).** The same bounded use has either the exact A.10 relation plus a passing local disposition, or the exact B.3 positive-claim or non-positive branch required by its trigger.
 * **SCR-F9-S07 (No authorization overread).** Semantic fit, A.10 reliance, and B.3 assurance are not described as legal, policy, or deontic permission.
-* **SCR-F9-S08 (Receiving-object boundary).** A named use role is never treated as performed Work, assertion, publication, relation, or operation application.
+* **SCR-F9-S08 (Receiving-object boundary).** A named proposed use is never treated as performed Work, assertion, publication, relation, or operation application.
 * **SCR-F9-S09 (Card truthfulness).** An actual card concerns an already individuated occurrence; a candidate or negative card concerns the admitted relation kind and has no positive occurrence ref.
-* **SCR-F9-S10 (Plain action).** A practitioner can tell what relation to test, what use is proposed, what would stop reliance, and which downstream object still needs its own owner.
+* **SCR-F9-S10 (Plain action).** A practitioner can tell what relation to test, what use is proposed, what would stop reliance, and which downstream claim still needs an applicable pattern.
 * **SCR-F9-S11 (Non-optional identity and recurrence).** The declaration states `BridgeOccurrenceIdentityRule`, asymmetric ordering or symmetric canonicalization, and the non-recurrence of one fixed endpoint/profile tuple; a later basis changes the profile before another candidate is admitted.
 * **SCR-F9-S12 (Description and publication boundary).** Every actual description/Card concerns an already individuated occurrence under C.2.1; every modal proposal has no positive occurrence ref; E.24.PUB publication, form, carrier, and registry identity establish neither.
-* **SCR-F9-S13 (No adjacent fact by Bridge).** No Bridge creates role assignment, Work, evidence authority, status transfer, U-kind admission, publication, model-use crossing, or another subject relation.
+* **SCR-F9-S13 (No adjacent fact by Bridge).** No Bridge creates a local system-role kind or assignment, Work, evidence authority, status transfer, U-kind admission, publication, model-use crossing, or another subject relation.
 
 #### F.9:17.2 - Regression checks
 

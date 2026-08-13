@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:3 — Forces"
-line_start: 14036
-line_end: 14043
+line_start: 14260
+line_end: 14267
 dependencies:
   - "A.15"
   - "A.6.2"

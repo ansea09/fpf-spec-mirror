@@ -1,43 +1,49 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2"
-pattern_title: "Role Taxonomy"
+pattern_title: "System-Role Kinds and Assignments"
 section_id: "A.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2 — Role Taxonomy"
+  - "A.2 — System-Role Kinds and Assignments"
   - "A.2:1 — Problem Frame"
-line_start: 2733
-line_end: 2740
+line_start: 2753
+line_end: 2760
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.13"
   - "A.15"
-  - "A.2.1-A.2.6"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
   - "A.6.0"
   - "A.6.5"
   - "A.6.REL"
+  - "A.6.RSIR"
   - "C.2.1"
-  - "E.24"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
+  - "E.10.ROLE"
+  - "F.4-F.6"
 keywords:
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
+  - "ambiguous role wording"
   - "assignment"
-  - "context"
-  - "function vs identity"
-  - "holder"
-  - "responsibility"
-  - "role"
+  - "holder System"
+  - "local System classification"
+  - "system-role kind"
+  - "work-facing contribution"
 ---
 
 ### A.2:1 - Problem Frame
 
-One system can participate differently while retaining its system identity. `PumpUnit-3` remains the same pump while it holds `CoolingCirculatorRole` in plant operation and `TestArticleRole` in qualification work. A person remains the same person while holding author and verifier roles in different assignments. Role values let a project name these differences without inventing a new system kind for each participation.
+One system can contribute in several ways while remaining the same system. `PumpUnit-3` remains the same pump when it counts under `CoolingCirculatorSystemRole` for plant operation and under `TestArticleSystemRole` for qualification. A person remains the same person while counting under author and verifier kinds in different slices and holding different assignments.
 
-Role meaning is not global. A role-taxonomy episteme contains the vocabulary and relation claims through which a role value is interpreted, and an effective `U.ReferenceScheme` fixes the current interpretation. `U.RoleAssignment` then states which admitted system holds the role and during which uninterrupted occurrence. When a selected `BoundedModelUseStructure` changes one receiving interpretation, the receiving assertion or work use may designate that structure; it is not an optional participant of the generic role relations.
+These are local typed distinctions, not durable universal kinds. Each system-role kind has a bounded context and a contribution-based identity. A `KindSignature` edition states how candidate features are evaluated. A C.3.2 judgment then answers whether one System counts under that kind in one slice. A separate assignment occurrence says that a System is assigned under its declared `U.SystemRoleAssignment` species.
 
-Ordinary language also uses `role` to mean contribution. A design method may use a standard publication as the source for a constraint claim, a report may participate in an evidence relation, and a value may fill a participant slot of another relation. Those are useful claims, but none makes the episteme or slot filler a role holder. The direct relation must be recovered before the wording becomes relied-on FPF content.
+Ordinary language also uses *role* to mean contribution or position. A design method can use a standard publication as a source for a constraint; a report can participate in an evidence relation; and a value can fill a relation slot. Those useful claims make neither the episteme nor the slot filler a system-role kind or assignment participant. The current relation must be recovered before the wording carries an FPF technical claim.
 

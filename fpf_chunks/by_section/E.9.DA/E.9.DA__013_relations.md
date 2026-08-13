@@ -6,12 +6,12 @@ section_id: "E.9.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:12 — Relations"
-line_start: 73670
-line_end: 73689
+line_start: 74136
+line_end: 74155
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,7 +31,7 @@ keywords:
 |---|---|
 | `E.9` | Defines the DRR decision method and ordinary minimum form, with optional exact work/result and C.2.1 identity when a current claim or named reliance needs them. E.9.DA checks one exact DRR; it is not a second DRR method or form. |
 | `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, `C.16.Q`, `C.25` | Govern the characteristic space, evaluation specification, characteristics, scales, measurement boundary, quality-ascription precision, and any separately selected Q-Bundle consumed here. E.9.DA supplies the DRR-specific coordinates and result rules. |
-| `A.15.1`, `A.6.1`, `A.2`, `A.2.1` | Govern dated assessment work, application/bindings, evaluator role, and assignment when the reliance-bearing branch needs those identities. The E.9.DA specification and optional record perform none of them. |
+| `A.15.1`, `F.6`, `A.6.1`, `A.2`, `A.2.1`, `C.3.2` | `A.15.1` and `F.6` define the full System–Method–Work and Work-attribution chain; `A.6.1` supplies the application and bindings; `A.2` and `A.2.1` supply the exact assignment species and occurrence; `C.3.2` is relevant only to an independently asserted local system-role classification. Use these identities only when the reliance-bearing branch needs them. The E.9.DA specification and optional record perform none of them. |
 | `C.2.1` | Constitutes an exact checked DRR or reusable coordinate/result/record episteme when that identity is current. An ordinary bounded review need not create those objects. |
 | `A.10`, `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
 | `F.10`, `G.11` | Govern any downstream status use/interpretation and currentness. A local E.9.DA status value does not authorize drafting by itself. |

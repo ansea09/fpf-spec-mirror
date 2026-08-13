@@ -6,12 +6,12 @@ section_id: "D.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:intro — Intro"
-line_start: 68635
-line_end: 68648
+line_start: 68985
+line_end: 68998
 dependencies:
   - "A.1"
   - "A.15"
@@ -32,7 +32,7 @@ keywords:
 
 > **Type:** D-family ethical entry pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern recognizes multilevel ethical concern and selects the next owner; it does not settle conflict or supply a fixed level ladder.
+> **Pattern role:** This compact MethodDescription helps a practitioner recognize multilevel ethical concern and identify the next exact subject assertion and predicate; it does not settle conflict or supply a fixed level ladder.
 
 **Use this when.** Use this pattern when a system, holon, method, work plan, work occurrence, policy, recommendation, architecture move, or publication use may improve one declared level or scope while harming another, or when responsibility is assigned across levels.
 
@@ -40,5 +40,5 @@ keywords:
 
 **What goes wrong if missed.** A local improvement is treated as ethically sufficient while another declared level, scope, or affected holon carries the harm.
 
-**What this buys.** The practitioner names the affected levels or scopes, the current value frame, and the next owner before mediation, assurance, bias audit, or architecture return.
+**What this buys.** The practitioner names the affected levels or scopes, the current value frame, and the next pattern to apply before mediation, assurance, bias audit, or architecture return.
 

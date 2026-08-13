@@ -6,12 +6,12 @@ section_id: "E.17.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:2 — Problem"
-line_start: 80191
-line_end: 80203
+line_start: 80858
+line_end: 80870
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -37,7 +37,7 @@ How can engineers reuse a compact family of these four concern-bearing viewpoint
 - the exact viewpoint episteme and its exact target kind or, only in the triggered structured branch, its selected convention structure;
 - the candidate episteme and any dependent `U.View` membership;
 - a viewpoint selected for one describing use;
-- the methods, transformations, structures, roles, modules, and interfaces mentioned in the claims;
+- the Methods, transformations, selected structures, local system-role kinds, assignments, modules, and interfaces mentioned in the claims;
 - any viewing construction, evaluation, cross-view relation, publication occurrence, form, representation, or carrier?
 
 Without that separation, a label such as `functional view` can stand indiscriminately for a concern convention, a diagram, a query output, a report section, or a claim about a system. The next engineering action then relies on the wrong object.

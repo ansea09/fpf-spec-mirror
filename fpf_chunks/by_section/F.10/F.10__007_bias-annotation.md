@@ -6,12 +6,12 @@ section_id: "F.10:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:6 — Bias-Annotation"
-line_start: 93664
-line_end: 93675
+line_start: 94440
+line_end: 94451
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,7 +45,7 @@ F.10 blocks five recurring biases:
 * **target-by-status bias:** assigning a value is treated as defining or creating its target;
 * **display/list bias:** visibility, row membership, or dashboard aggregation is treated as application or actual use;
 * **family/bridge explanation bias:** a family edge, shared spelling, row, Card, or Bridge replaces the exact interpretation relation and rule; and
-* **role drift:** an episteme is made a work-facing role holder because it is used as evidence, standard, requirement, or status source.
+* **system-role drift:** an evidence, status, standard, or requirement use is treated as proof that its bearer is a `U.System`, has a local system-role classification, or holds a system-role assignment.
 
-The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use.
+The repair is to recover target and direct result first, then the exact local value, relation occurrence, assertion, evaluation basis, display, and receiving use. None of those use facts establishes System admission, a local system-role classification, or an assignment. The same bearer may have those neighbouring facts only when it independently passes System admission and is the holder of an assignment occurrence whose declared species is known.
 

@@ -6,12 +6,12 @@ section_id: "A.7.2:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.2/A.7.2__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.2 — FPF Ontology-Premise Reconciliation"
   - "A.7.2:0 — Use this when"
-line_start: 22045
-line_end: 22054
+line_start: 22298
+line_end: 22307
 dependencies:
   - "A.10"
   - "A.7.1"
@@ -37,7 +37,7 @@ Use this pattern when two or more dated applications of current FPF methods or p
 
 The first useful move is to name the smallest receiving ontology claim and, for each dated application, the result claim or decision, the practical consequence it would support, and the exact clause, premise, or source use on which it relied. If the result claims or consequences differ by scope, stop with a context split instead of forcing agreement.
 
-**Not this pattern when.** A vocabulary difference, unlike source function, or different subject with no shared practical consequence is not a premise conflict. Use `A.7.1` for one engineering ontology defect, `C.2.P`/`E.10` for wording use, direct evidence or formal owners for missing warrant, and source-currentness owners for stale editions.
+**Not this pattern when.** A vocabulary difference, unlike source function, or different subject with no shared practical consequence is not a premise conflict. Use `A.7.1` for one engineering ontology defect, `C.2.P`/`E.10` for wording use, direct evidence-use or formal patterns for missing warrant, and source-currentness patterns for stale editions.
 
-The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. This pattern is a `U.MethodDescription`; an admitted `U.System` performs dated reconciliation `U.Work` under a distinct current `U.RoleAssignment` for an FPF author or maintainer role. The pattern episteme, reader, performing system, assignment, work, source uses, and returned FPF decision remain distinct.
+The primary reader is an FPF maintainer, architecture steward, or pattern author responsible for a material cross-pattern contradiction. This pattern is a `U.MethodDescription`; an admitted `U.System` performs dated reconciliation `U.Work` under a current `FPFMaintainerAssignment` occurrence. Its species is declared under `U.SystemRoleAssignment` for `FPFMaintainerSystemRole`. The pattern episteme, reader, performing System, assignment, Work, source uses, and returned FPF decision remain distinct.
 

@@ -6,12 +6,12 @@ section_id: "A.7:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__006_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:4 — Forces"
-line_start: 21472
-line_end: 21479
+line_start: 21725
+line_end: 21732
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,9 +34,9 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:4 - Forces
@@ -45,5 +45,5 @@ keywords:
 | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
 | **Didactic brevity vs conceptual precision** | Teams want short words (“process”, “function”) ↔ the framework must keep five distinct distinctions apart.                          |
 | **Universality vs domain idioms**            | We admit engineering idioms (procedure, SOP, algorithm, workflow) ↔ internally we must map them unambiguously.                    |
-| **Parsimony vs completeness**                | Minimal concept set ↔ enough distinctions to avoid the classic traps (role/function; description/method/capability/work; episteme/carrier). |
+| **Parsimony vs completeness**                | Minimal concept set ↔ enough distinctions to avoid the classic traps: system-role kind versus function; description, Method, Capability, and Work; and episteme versus carrier. |
 

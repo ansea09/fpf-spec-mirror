@@ -6,12 +6,12 @@ section_id: "G.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.8/G.8__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.8 — SoS‑LOG Bundles & Maturity Ladders"
   - "G.8:3 — Forces"
-line_start: 101807
-line_end: 101817
+line_start: 103059
+line_end: 103069
 dependencies:
   - "A.10"
   - "A.21"

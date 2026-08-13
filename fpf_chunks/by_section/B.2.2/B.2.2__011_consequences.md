@@ -6,12 +6,12 @@ section_id: "B.2.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:8 — Consequences"
-line_start: 37818
-line_end: 37831
+line_start: 38028
+line_end: 38041
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,8 +45,8 @@ keywords:
 Positive consequences:
 
 - Meta-system transition remains usable for engineering and organizational systems without making B.2 system-only.
-- System ontic preservation becomes explicit: the same exact candidate is recognized under A.1 and `U.System`, while each system fact and claim stays with its direct owner.
-- Assurance, responsibility, architecture, work, and evidence claims are kept with their direct owners.
+- System ontic preservation becomes explicit: the same exact candidate is recognized under A.1 and `U.System`, while each system fact and claim stays with its subject pattern.
+- Assurance, responsibility, architecture, work, and evidence claims are kept with their subject patterns.
 
 Costs:
 

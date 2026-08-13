@@ -6,12 +6,12 @@ section_id: "A.2.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__006_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:3 — Forces"
-line_start: 6866
-line_end: 6876
+line_start: 7071
+line_end: 7081
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "F.6"
   - "U.Method"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -39,7 +41,7 @@ keywords:
 
 | Force                  | Tension                                                                                                                 |
 | ---------------------- | ----------------------------------------------------------------------------------------------------------------------- |
-| Minimality             | Needs to be light enough for routine modeling and linting; not a full pragmatics or legal-contract system.              |
+| Minimality             | Needs to be light enough for routine modeling and linting; not a full pragmatics or legal-instrument system.               |
 | Auditability           | If used as a gate, it must be evidence-backed; but not all communicative acts are equally observable or retainable.     |
 | Interpretive locality  | Recognition and institutional force depend on exact taxonomies, schemes, and current policies; F.9 is needed only when a receiving use really crosses local meanings. |
 | Multi-party reality    | Many real boundaries are multiparty (protocols, organizations); dyadic “speaker-hearer” is too narrow.                  |

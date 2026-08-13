@@ -6,12 +6,12 @@ section_id: "G.6:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.6/G.6__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.6 — Evidence Graph and Provenance Ledger: Citable Evidence-Provenance Paths"
   - "G.6:6 — Bias-Annotation"
-line_start: 101309
-line_end: 101320
+line_start: 102561
+line_end: 102572
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -29,6 +29,7 @@ dependencies:
   - "E.18"
   - "E.18.2"
   - "F.10"
+  - "F.6"
   - "F.9"
   - "G.11"
   - "G.4"
@@ -62,6 +63,6 @@ keywords:
 | Result-node bias | Keep subject result, result episteme, carrier, outcome, assurance, and later action distinct. |
 | Declaration-runtime bias | A method, description, policy, clause, signature, or plan establishes no occurrence or actual binding. |
 | Provenance-as-truth bias | Origin and history support only their named bounded claim; provenance is not truth, safety, approval, or assurance. |
-| Path-as-workflow bias | Graph path identity supports citation and refresh; actual work and transformation flow retain their direct owners. |
+| Path-as-workflow bias | Graph path identity supports citation and refresh; actual work and transformation flow retain their subject patterns. |
 | Ledger-process bias | The ledger contains replayable provenance records, not campaign status, review proof, or work-progress notes. |
 

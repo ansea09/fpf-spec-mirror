@@ -1,51 +1,61 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2"
-pattern_title: "Role Taxonomy"
+pattern_title: "System-Role Kinds and Assignments"
 section_id: "A.2:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__010_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2 — Role Taxonomy"
+  - "A.2 — System-Role Kinds and Assignments"
   - "A.2:8 — Conformance Checklist"
-line_start: 2917
-line_end: 2932
+line_start: 3039
+line_end: 3058
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.13"
   - "A.15"
-  - "A.2.1-A.2.6"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
   - "A.6.0"
   - "A.6.5"
   - "A.6.REL"
+  - "A.6.RSIR"
   - "C.2.1"
-  - "E.24"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
+  - "E.10.ROLE"
+  - "F.4-F.6"
 keywords:
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
+  - "ambiguous role wording"
   - "assignment"
-  - "context"
-  - "function vs identity"
-  - "holder"
-  - "responsibility"
-  - "role"
+  - "holder System"
+  - "local System classification"
+  - "system-role kind"
+  - "work-facing contribution"
 ---
 
 ### A.2:8 - Conformance Checklist
 
 | ID | Check |
 | --- | --- |
-| CC-A2.1 | The current role claim names an enactment-facing `U.Role` value held by an admitted `U.System`. |
-| CC-A2.2 | Role interpretation names the role-taxonomy episteme and effective `U.ReferenceScheme`. |
-| CC-A2.3 | A relied-on assignment claim uses `U.RoleAssignment` with holder system, role value, role-taxonomy episteme, and effective reference scheme as its four participants; the assignment extent is described separately. |
-| CC-A2.4 | Role-state, capability-fit, method-admission, work, transformation, responsibility, evidence, and reliance claims remain direct neighboring relations. |
-| CC-A2.5 | An episteme is not made a role holder because a system uses it in a description, constraint, evidence, reliance, or publication relation. |
-| CC-A2.6 | A relation participant uses an exact SlotSpec; an external participant label does not create `U.Role` or a role assignment. |
-| CC-A2.7 | A proposed role decomposition is resolved through `A.2.7` and direct neighboring patterns; `U.Role` is not placed in a `partOf` chain. |
-| CC-A2.8 | Matching labels under different taxonomies or schemes are not treated as identity evidence. |
-| CC-A2.9 | Any selected model-use structure is designated by the receiving assertion or use; no optional `ModelUseStructureSlot` is added to a generic role relation. |
-| CC-A2.10 | A selected model-use structure, when current for a receiving interpretation, neither holds nor assigns the role and does not replace the role taxonomy or effective scheme. |
-| CC-A2.11 | Any cross-scheme role use cites the exact obtaining F.9 Bridge, states a separate C.2.1 assertion with its bounded use, direction, rule, tolerance, polarity, and effective scheme, and recovers current A.10 or B.3 reliance; a Bridge Card is not a use licence and any use that occurred remains under its direct owner. |
+| `CC-A2.1` | Every system-role kind is one context-local `U.Kind`; no `U.Role` or universal `U.SystemRole` is introduced. |
+| `CC-A2.2` | The bounded context, assignable contribution identity, and `U.System` candidate kind are explicit. |
+| `CC-A2.3` | Kind identity, `KindSignature`, classification judgment, extension, vocabulary episteme, and reference scheme remain distinct. |
+| `CC-A2.4` | Each judgment names one system, system-role kind, signature edition, slice, and `true`/`false`/`unknown` result. |
+| `CC-A2.5` | Membership clauses use directly governed candidate features; labels, records, judgments, extensions, and proposed subkind edges are not features by form. |
+| `CC-A2.6` | An assignment is a membership feature only when the signature cites its independently obtaining predicate; no family-wide assignment-membership law exists. |
+| `CC-A2.7` | Every assignment occurrence belongs to one directly declared `U.SystemRoleAssignment` species with an exact local system-role-kind domain. |
+| `CC-A2.8` | Taxonomy, scheme, signature, assertion, and interval description are interpretation or claim content rather than generic assignment participants. |
+| `CC-A2.9` | Capability, state, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, and publication remain separately governed. |
+| `CC-A2.10` | A `U.SubkindOf` claim follows independently evaluated aligned signatures and C.3.1 monotonicity. |
+| `CC-A2.11` | Same spelling across contexts or editions does not decide kind identity; continuity and bridges are explicit. |
+| `CC-A2.12` | Relation-position or ordinary contribution wording creates no system-role kind or assignment by itself. |
+| `CC-A2.13` | A proposed decomposition is resolved through exact relations among kinds or neighboring subject patterns, not `partOf` over a system-role kind. |
+| `CC-A2.14` | Cross-context use keeps both kinds distinct, cites the exact C.3.3/F.9 result, bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver; a Bridge Card is not a use licence. |
+| `CC-A2.15` | A selected model-use structure appears only in the receiving claim it changes; it neither classifies nor assigns a system and never enters a generic relation as an optional participant. |
 

@@ -6,12 +6,12 @@ section_id: "D.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:2 — Solution"
-line_start: 68951
-line_end: 68976
+line_start: 69330
+line_end: 69378
 dependencies:
   - "A.10"
   - "A.20"
@@ -47,6 +47,29 @@ EthicalMediationDecisionUse@Context:
   architectureResidualReturnRefs?
   acceptedResidualRefs?
   decisionRecordRefs?
+  decisionOrRepairSystemRefs?: independently admitted U.System refs
+  localSystemRoleKindRefs?: exact local U.Kind refs
+  systemRoleClassificationJudgmentRefs?: exact direct classification refs
+  intendedWorkPlanOrCommitmentRefs?: prospective plan or commitment content
+  intendedAssignmentRequirementRefs?: prospective requirement content; creates no assignment occurrence
+  performedWorkRows?:
+    - performerSystemRef: exact U.System
+      workOccurrenceRef: exact dated U.Work
+      assignmentSpeciesRef: exact directly declared species under U.SystemRoleAssignment
+      assignmentOccurrenceRef: obtaining occurrence of assignmentSpeciesRef with actual participant values, applicability, and extent covering the Work
+      f6AttributionRef: exact performedUnderAssignment occurrence
+      holderEquality: performerSystemRef = assignmentOccurrenceRef.HolderSystemSlot
+      methodRef:
+      workExtentRef:
+      containingSystemRef:
+  responsibilityRelationRefs?: exact direct predicate, participants, applicability, and occurrence identity
+  responsibilityMissingGovernorRefs?: exact A.6.RCD results
+  authorityRelationRefs?: exact direct relation refs
+  authorityMissingGovernorRefs?: exact A.6.RCD results
+  permissionRelationRefs?: exact direct relation refs
+  permissionMissingGovernorRefs?: exact A.6.RCD results
+  commitmentRelationRefs?: exact direct relation refs
+  commitmentMissingGovernorRefs?: exact A.6.RCD results
   admissibleUse
   inadmissibleOverread
   strongerSourceReturnCondition

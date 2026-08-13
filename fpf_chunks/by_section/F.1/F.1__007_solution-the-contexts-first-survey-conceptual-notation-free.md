@@ -6,12 +6,12 @@ section_id: "F.1:6"
 section_title: "Solution — the Contexts‑first survey (conceptual, notation‑free)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__007_solution-the-contexts-first-survey-conceptual-notation-free.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:6 — Solution — the Contexts‑first survey (conceptual, notation‑free)"
-line_start: 90120
-line_end: 90149
+line_start: 90831
+line_end: 90860
 dependencies:
   - "A.11"
   - "A.7"

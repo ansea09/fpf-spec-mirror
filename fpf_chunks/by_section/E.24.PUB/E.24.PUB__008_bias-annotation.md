@@ -6,12 +6,12 @@ section_id: "E.24.PUB:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:6 — Bias Annotation"
-line_start: 89212
-line_end: 89222
+line_start: 89918
+line_end: 89928
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -41,7 +40,7 @@ Lenses tested: **Onto**, **Epist**, **Semio**, **Arch**, **Prag**, **Did**.
 - **Onto:** direct relation occurrences and their actual participants remain primary; visible forms do not decide kinds.
 - **Epist:** the selected edition, audience declaration, and bounded-use declaration retain C.2.1 identities.
 - **Semio:** designation, expression, representation, bearing, and publication availability use different predicates.
-- **Arch:** subject patterns keep their subject; E.24.PUB owns only the neighboring publication architecture.
-- **Prag:** progressive explicitness stops at the first statement sufficient for the named receiving `U.Work`.
+- **Arch:** keep each subject claim with its applicable pattern; E.24.PUB defines only the neighboring publication architecture.
+- **Prag:** progressive explicitness stops at the first statement sufficient for the receiving use.
 - **Did:** one readable sentence and heterogeneous cases precede the RelationSignature detail.
 

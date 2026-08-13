@@ -6,12 +6,12 @@ section_id: "C.22.PFR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:4 — Solution"
-line_start: 51528
-line_end: 51704
+line_start: 51788
+line_end: 51964
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -38,7 +38,7 @@ Model an actual Problem as one obtaining `ProblematicForRelation`, a dependent e
 
 Before testing adversity, answer three plain questions: **what exact point or value does this condition supply, how is that point obtained, and why is it the input for this problem-for entity and use?** The by-value predicate therefore carries one `ConditionToPredicateInputRule` as part of its own semantics, not as another PFR participant:
 
-- **Direct input:** the actual-condition participant is already a governed characteristic-assignment or state relation whose direct owner exposes the exact characteristic-space coordinate, scale, and value used by the predicate.
+- **Direct input:** the actual-condition participant is already a governed characteristic-assignment or state relation whose subject pattern exposes the exact characteristic-space coordinate, scale, and value used by the predicate.
 - **Projected input:** when that relation does not itself expose the needed point, the rule cites one exact governed projection or bridge, its source relation kind and participant positions, target characteristic space, coordinate and scale, and the direct relation or predicate connecting that input to the problem-for entity and receiving use.
 
 A relation reference alone is not a coordinate. If neither path yields the exact point and the problem-for link, adverse truth and PFR remain unestablished. When two projections are plausible, the rule names the selected one and the nearest inadmissible projection. `ConditionToPredicateInputRule` is a pattern-local by-value rule inside `CharacteristicSpacePredicate`; it is not a U-kind, relation occurrence, evaluation result, or copied PFR field.
@@ -49,7 +49,7 @@ A relation reference alone is not a coordinate. If neither path yields the exact
 NameCard:
   NameCardId: NC-PROBLEM-CRITERION-APPLICABILITY-RELATION
   GovernedValueRef: ProblemCriterionApplicabilityRelation under C.22.PFR
-  GoverningPatternRef: C.22.PFR
+  SubjectPatternLocator: C.22.PFR
   ReferenceScheme: FPFCoreReferenceScheme
   LocalSenseRef: obtaining relation saying that one characteristic-space predicate currently governs one exact problem-for entity and claim scope under one declared criterion-applicability window, independently of whether an actual condition presently satisfies the adverse predicate; repeated occurrences with the same four participants are distinguished by maximal continuous actual applicability
   TechLabel: ProblemCriterionApplicabilityRelation
@@ -84,7 +84,7 @@ A semantic predicate change selects a different predicate participant; it is not
 NameCard:
   NameCardId: NC-PROBLEMATIC-FOR-RELATION
   GovernedValueRef: ProblematicForRelation under C.22.PFR
-  GoverningPatternRef: C.22.PFR
+  SubjectPatternLocator: C.22.PFR
   ReferenceScheme: FPFCoreReferenceScheme
   LocalSenseRef: actual dependent evaluative relation with one actual-condition relation occurrence and one problem-criterion-applicability relation occurrence as its only non-derived participants, individuated by those participants plus the actual inception of each maximal continuous adverse episode
   TechLabel: ProblematicForRelation
@@ -109,7 +109,7 @@ ProblematicForRelation:
 
 The first reference resolves to the exact obtaining relation that constitutes the actual condition under its direct pattern. The second resolves to the exact obtaining applicability relation from C.22.PFR:4.1.
 
-PFR has no separately writable condition-bearer, predicate, problem-for-entity, claim-scope, applicability-window, assessment-window, or description-edition slot. Those values already have canonical owners. A readable claim projects them from the two participants:
+PFR has no separately writable condition-bearer, predicate, problem-for-entity, claim-scope, applicability-window, assessment-window, or description-edition slot. Those values are already fixed by the two participant relations and their defining declarations. A readable claim projects them from the two participants:
 
 ```text
 PFR.problemCriterionPredicate
@@ -138,7 +138,7 @@ The selected direct consumer supplies the governed input projection or consumes 
 
 A Problem can therefore obtain unnoticed. Later detection produces work, evidence, and claims about the already obtaining relation; it does not create retroactive actuality.
 
-When evaluation is actually performed, name the exact `U.System`, its current `U.RoleAssignment`, the dated evaluation `U.Work`, and the selected `U.Method` or declared A.6.1 operation application. That work may return the separately governed evaluation result `true`, `false`, or `unknown`; a C.2.1 assertion may state the result, A.10/B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
+When evaluation is actually performed, name every performer `U.System`, the dated evaluation `U.Work`, and the selected `U.Method` or declared A.6.1 operation application. Use F.6 to identify the assignment under which each performer acted; neither a local system-role kind nor an assignment acts. A short PFR explanation may omit an assignment identifier that no later claim uses. That Work may return the separate evaluation result `true`, `false`, or `unknown` defined by the selected evaluation pattern; a C.2.1 assertion may state the result, A.10 and B.3 may warrant reliance on that assertion, G.11 may qualify its current edition, and the receiving Work may rely, decline, defer, or reopen. These are distinct objects and relations. `unknown` is an evaluation result, never a world-side PFR value; no evaluation Work, result, assertion, warrant, currentness judgment, or reliance disposition constitutes a PFR participant or makes the relation obtain.
 
 
 #### C.22.PFR:4.4 - Identify repeated adverse episodes from world-side continuity
@@ -181,9 +181,9 @@ Evidence that supports A, B, and C warrants the corresponding two-occurrence ass
 
 An assertion about the exact PFR obtaining predicate has affirmative or negative claim polarity. An affirmative assertion may designate an independently established occurrence; a negative assertion denies predicate satisfaction for the named participants and qualification but does not erase or reidentify an earlier occurrence. A.10/B.3 separately governs whether one receiving use treats that assertion as supported, refuted, or unresolved. Assertion polarity, support, and reliance therefore answer different questions.
 
-A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern governs assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
+A possible or anticipated problem remains an exact forecast, scenario, counterfactual, or anticipated-condition claim in `ProblemCard` or another episteme until an actual-condition relation, an applicability relation, and adverse predicate truth all obtain. `C.2.1` governs its assertion identity and polarity; `C.27`, `C.28`, or the exact direct claim pattern defines or constrains assumptions, horizon, and non-actual semantics. None of those claim-side facts establishes a current PFR.
 
-A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective `U.ReferenceScheme`. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-RoleAssignment-17` reference.
+A `ProblemCard` is one C.2.1 episteme with one exact ClaimGraph, one independently identified `EntityOfConcern`, and one effective `U.ReferenceScheme`. It may carry claims designating several PFR occurrences only when those claims are jointly about that one EntityOfConcern under the direct pattern that identifies it. When two PFR references lack such a joint concern, split the ClaimGraph and card. Conversely, several cards may designate the same PFR through different ClaimGraphs, schemes, viewpoints, or receiving uses. Card count, merge or split, currentness, assessment window, publication, carrier, and edition change neither PFR actuality nor identity. C.22.2:20.1b replays all three branches with exact objects: two Robot-7 PFR episodes share one A.1-identified `Robot-7` and one card; Robot-7 and Robot-8 PFRs have no direct joint EntityOfConcern and force two ClaimGraphs and cards; and two differently qualified cards retain the unchanged `PFR-InspectionAssignment-17` reference.
 
 A claim that no supported method is currently available concerns the admitted method set, evidence, constraints, and intended use. Selecting or discovering a method changes current solvability; it does not end PFR while the actual condition remains adverse. Performed repair work can end PFR only when an independently recovered actual change makes a participant cease or moves the selected condition point to the non-adverse side.
 
@@ -201,7 +201,7 @@ Then write one ordinary sentence:
 
 > `<condition and value>` misses `<criterion>` for `<entity and use>` during `<applicability window>`; therefore it is an actual Problem for that entity and use.
 
-Stop there when the next work only needs to recognize the Problem. Cite the direct condition and criterion owners, but do not fill a PFR record, repeat either relation signature, or assign a PFR identifier. The NameCards and signatures above define reusable semantics; they are not a mandatory user form.
+Stop there when the next work only needs to recognize the Problem. Cite the direct condition and criterion patterns, but do not fill a PFR record, repeat either relation signature, or assign a PFR identifier. The NameCards and signatures above define reusable semantics; they are not a mandatory user form.
 
 Add explicit identity only when another claim must compare, qualify, change, nest, plan from, or refer back to this particular Problem occurrence. That receiving claim then names the exact actual-condition occurrence, exact applicability occurrence, actual adverse inception or stable PFR identifier when needed, claimed extent, and any evidence or assessment claim on which its reliance depends. The evidence remains separate from the world-side Problem.
 

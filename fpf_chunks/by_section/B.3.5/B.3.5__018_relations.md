@@ -6,12 +6,12 @@ section_id: "B.3.5:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__018_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:15 — Relations"
-line_start: 39671
-line_end: 39693
+line_start: 39882
+line_end: 39904
 dependencies:
   - "B.3"
   - "C.13"
@@ -28,14 +28,14 @@ keywords:
 ### B.3.5:15 - Relations
 
 **Builds on**
-• **A.14 Advanced Mereology** — structural catalogue and the firewall that excludes roles/recipes and distinguishes Portion/Phase/Component/Constituent; CT2R‑LOG preserves these distinctions at publication time.
+• **A.14 Advanced Mereology** — structural catalogue and the firewall that excludes system-role kinds, assignments, and recipes while distinguishing Portion, Phase, Component, and Constituent; CT2R‑LOG preserves these distinctions at publication time.
 • **A.11 Ontological Parsimony (C‑5)** — constructive grounding lives in a calculus; the kernel remains minimal.
 • **B.1 Universal Γ** — shared invariants and the placement of order/time in their respective Γ‑flavours.
 • **Part E authoring rules** — canonical pattern template and notational independence, which CT2R‑LOG explicitly follows.
 
 **Coordinates with**
 • **Compose-CAL (Γ_m)** — supplies the three-form construction account for **structural** relation assertions; CT2R-LOG's `tv:groundedBy` points to a current C.2.1 trace episteme in the `sum`, `set`, or `slice` form without making that trace the relation or its identity rule.
-• **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock** — provides the local structural CT2R unfolding block when a constructive trace, working-model relation, target kind or logical representation, bridge, preserved structure, and loss must be inspected together; `A.7.1` owns general diagnostic return to a subject construction.
+• **A.22.CGUS / StructuralCT2RTypingGroundingUnfoldingStructureBlock** — provides the local structural CT2R unfolding block when a constructive trace, working-model relation, target kind or logical representation, bridge, preserved structure, and loss must be inspected together; `A.7.1` is the pattern for general diagnostic return to a subject construction.
 • **KD‑CAL** — provides the **logical** shoulder (inferential justification) when authors pick `validationMode = inferential`.
 • **Kind-CAL / Lang-CHR** — provide the **mapping** shoulder (kind and relation-label alignment) governing alias policies without altering Working-Model relations.
 

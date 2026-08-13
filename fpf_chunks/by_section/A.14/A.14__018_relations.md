@@ -6,16 +6,18 @@ section_id: "A.14:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__018_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:15 — Relations"
-line_start: 23950
-line_end: 23955
+line_start: 24203
+line_end: 24208
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
@@ -37,6 +39,6 @@ keywords:
 ### A.14:15 - Relations
 
 - **Builds on:** `A.1`, `A.7`, `B.1`, `B.2`, `C.13`, and `B.3.5` for holon identity, strict distinction, gamma-flavour separation, meta-holon transition, constructive grounding, and Working-Model assurance.
-- **Coordinates with:** `A.15`, `A.15.1`, `A.3.1`, `A.3.2`, and `A.3.4` when the source wording is about role assignment, method, work, or transformation rather than parthood.
+- **Coordinates with:** `A.2`, `A.2.1`, `A.15`, `A.15.1`, `A.3.1`, `A.3.2`, and `A.3.4` when the source wording is about a system-role kind or assignment, method, work, or transformation rather than parthood.
 - **Used by:** architecture, description, evidence, and U-kind admission patterns when their structural claim depends on a clean parthood relation.
 

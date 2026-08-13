@@ -6,12 +6,12 @@ section_id: "A.7.CP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:4 — Solution"
-line_start: 22293
-line_end: 22374
+line_start: 22546
+line_end: 22627
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -39,9 +39,9 @@ The compact carries these stable claim contents:
 6. **`A7CP-06 Agency and work attribution`.** A method episteme describes a way of working; an admitted system under a role assignment performs dated work and produces results.
 7. **`A7CP-07 Kind discipline`.** Use direct existing kinds and local admission before proposing a universal kind, root relation, or role-like surrogate.
 8. **`A7CP-08 Scoped pluralism`.** Different source traditions or apparatuses may be useful for different receiving claims; compatibility is tested by consequences, not achieved through prestige hierarchy.
-9. **`A7CP-09 Structure and wholeness`.** A description of structure is not the structure; not every construction is mereology, and `C.13` remains the owner of constructional mereology only.
+9. **`A7CP-09 Structure and wholeness`.** A description of structure is not the structure; not every construction is mereology, and `C.13` alone defines constructional mereology.
 10. **`A7CP-10 Time, identity, and currentness`.** World-side temporal qualification, occurrence identity, claim/publication currentness, and source supersession are separate questions.
-11. **`A7CP-11 Direct-owner separation`.** Capability, state, architecture, role, method, work, evidence, permission, and relation families retain their direct owners even when an ontology method diagnoses a conflict among them.
+11. **`A7CP-11 Subject-pattern separation`.** Capability, state, architecture, role, method, work, evidence, permission, and relation families retain their subject patterns even when an ontology method diagnoses a conflict among them.
 12. **`A7CP-12 Formal projection non-reversal`.** CT2R and formalization may preserve, collapse, or omit structure. Logical validity or representation form does not reverse-infer a unique world construction.
 
 The twelve IDs form a stable closed compact in this pattern. They are not steps, completeness criteria for every ontology use, or twelve intrinsic premise kinds.
@@ -86,9 +86,9 @@ OccurrenceIdentity:
    maximalContinuousRelianceInterval>
 ```
 
-`BasisClaimSlot` is the exact claim-bearing episteme and exact compact claim ID used. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation `U.Work` that relies on it. `ReceivingReasoningResultSlot` is the exact claim, comparison, decision, or other claim-bearing result episteme whose content that work forms or revises using the basis claim. If the practical result is world-side, use the exact governed result claim that bears on it; the world-side object retains its direct owner. The already admitted holder `U.System` performs the work under an exact current `U.RoleAssignment`; when F.6 `performedBy(W, RA)` attribution is cited, `RA.HolderSystemSlot` must resolve to that same system. The assignment neither supplies the system nor performs the work. Claim episteme, work occurrence, use posture, receiving result, and any world-side result remain distinct; the words “premise” and “assumption” are not relation participants.
+`BasisClaimSlot` is the exact claim-bearing episteme and compact claim ID used. `ReasoningWorkSlot` is the dated reasoning, choice, ontology-analysis, or reconciliation `U.Work` that relies on it. `ReceivingReasoningResultSlot` is the claim, comparison, decision, or other claim-bearing result episteme whose content that work forms or revises using the basis claim. If the practical result is world-side, use the direct result claim that bears on it; the world-side object retains its subject pattern. The already admitted holder `U.System` performs the Work under one identified occurrence of a directly declared `U.SystemRoleAssignment` species that currently obtains. When the F.6 Work-attribution relation is cited, the assignment holder must be that same System. The assignment neither supplies the System nor performs the Work. Claim episteme, Work occurrence, use posture, receiving result, and any world-side result remain distinct; the words “premise” and “assumption” are not relation participants.
 
-The relation obtains during the maximal continuous interval in which the named work actually relies on the exact basis claim to form or revise the exact receiving result. Access, citation, publication, co-location, or use of the claim elsewhere in the same work is insufficient. `reasoningUseScope` appears only when this premise use is narrower than or otherwise differs from the receiving result's declared claim scope; `modelUseStructureRef` appears only when an independently selected `BoundedModelUseStructure` changes interpretation. Source currentness, evidence, publication, work method, and the receiving result's own governance remain with their owners.
+The relation obtains during the maximal continuous interval in which the named work actually relies on the exact basis claim to form or revise the exact receiving result. Access, citation, publication, co-location, or use of the claim elsewhere in the same work is insufficient. `reasoningUseScope` appears only when this premise use is narrower than or otherwise differs from the receiving result's declared claim scope; `modelUseStructureRef` appears only when an independently selected `BoundedModelUseStructure` changes interpretation. Source currentness, evidence, publication, work method, and the receiving result's own governance remain with their subject patterns.
 
 One occurrence is identified by the exact basis-claim edition and ID, reasoning-work occurrence, receiving-result edition, posture, optional narrower use scope, and maximal continuous reliance interval. If one work uses the same basis claim for two independent results, record two relation occurrences that share the work participant but name different receiving results; do not duplicate the work. A change to any identity value ends or splits only the affected result-specific occurrence.
 
@@ -104,6 +104,6 @@ The same claim can have different postures in different work or for different re
 2. For each receiving result, cite only the compact IDs that are load-bearing.
 3. Record one relation occurrence per exact basis claim, receiving result, posture, and continuous reliance interval; reuse the same work reference across independent results.
 4. Name a narrower `U.ClaimScope` or selected `BoundedModelUseStructure` only when it changes this premise use.
-5. Keep evidence, currentness, source use, kind admission, subject construction, work method, and result governance with their direct owners.
+5. Keep evidence, currentness, source use, kind admission, subject construction, work method, and result governance with their subject patterns.
 6. Stop when every load-bearing receiving result points to its exact premise-use occurrences. Do not inspect unused compact entries.
 

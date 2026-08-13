@@ -6,12 +6,12 @@ section_id: "B.2.P:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:0 — Use This When"
-line_start: 37381
-line_end: 37409
+line_start: 37591
+line_end: 37619
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,11 +64,11 @@ B.2.P is selected only when the source wording hides one of these recurring ques
 
 **What goes wrong if missed.** A word like "emergent" becomes a shortcut to a new U-kind, a collection receives agency by name, a metric jump becomes MHT, or source title mnemonics survive as if they were current pattern authority.
 
-**What this buys.** B.2.P gives one local recovery profile for emergence-family and MHT wording. It keeps B.2-family subject patterns centered on whole reidentification while ordinary capability, characteristic, function, architecture, evidence, math-lens, publication, and collection claims remain with their direct owners.
+**What this buys.** B.2.P gives one local recovery profile for emergence-family and MHT wording. It keeps B.2-family subject patterns centered on whole reidentification while ordinary capability, characteristic, function, architecture, evidence, math-lens, publication, and collection claims remain with their subject patterns.
 
 **Not this pattern when.**
 
-- If the text already names the governing pattern and object by value, use that pattern directly.
+- If the text already names the subject pattern and object by value, use that pattern directly.
 - If the question is ordinary collection admission without emergence, synergy, MHT, metric mirage, or whole-reidentification wording, use `A.14`, `C.13`, `B.3.5`, `A.1`, `A.15`, A.2 patterns, or `C.16` directly.
 - If the question is phrase-level plain technical rewriting after the object is recovered, use `F.19`.
 - If the question is general wording-use architecture, use `E.10` and `E.10.ARCH`.

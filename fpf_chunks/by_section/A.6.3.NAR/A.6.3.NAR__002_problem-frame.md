@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:1 — Problem frame"
-line_start: 14813
-line_end: 14846
+line_start: 15037
+line_end: 15070
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -57,7 +57,7 @@ Plain starting vocabulary:
 | `ordering and connective account` | The chosen event, causal, discovery, didactic, tension, traversal, or other order, plus the links that explain why one step follows another. |
 | `narrative rendering` | The receiving sequential account. A page, audio file, slide, or publication carrier can express or make it available without being the account's claim-bearing identity. |
 | `loss and return` | What the narrative omits, weakens, rearranges, or cannot support, and where the reader returns when that missing structure matters. |
-| `narrating or rendering worker` | The person, team, or system doing the narrative-construction work. Doing that work grants no authority over the source claims. Recover the exact worker, role assignment, method, and dated Work only when actual production history matters. |
+| `narrating or rendering worker` | The person, team, or system doing the narrative-construction work. Doing that work grants no authority over the source claims. Recover the exact worker, system-role assignment, method, and dated Work only when actual production history matters. |
 | `epiplexity question` | “How much selected source structure did this narrative pull into an inspectable description for this observer and use?” NAR supplies the relation inputs; structural-information and evaluation patterns answer the value claim. |
 
 **First useful move.** Write the shortest useful narrative and place a compact narrative note beside it: reader/use; source material; selected structures and why they matter; ordering/connective account; what is preserved and foregrounded; what is omitted, weakened, or newly asserted without support; admissible and non-admissible use; and the return trigger. This note is a reading aid, not a new U-kind or mandatory work record.

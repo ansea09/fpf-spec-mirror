@@ -6,12 +6,12 @@ section_id: "B.1.2:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:8 — Consequences"
-line_start: 35893
-line_end: 35907
+line_start: 36095
+line_end: 36109
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,13 +43,13 @@ keywords:
 Positive consequences:
 
 - System aggregation remains practical for engineering systems and organizations.
-- Boundary and interface concerns become explicit direct-owner work without omnibus relation or check objects.
+- Boundary and interface concerns become explicit subject-pattern work without omnibus relation or check objects.
 - Functional architecture, module allocation, and physical parthood stop collapsing into one diagram.
-- Digital-twin and publication artifacts stay on the description side unless another direct pattern admits a stronger relation.
+- Digital-twin and publication artifacts stay on the description side unless an exact stronger relation predicate is defined and current facts satisfy it.
 
 Costs:
 
-- Engineering diagrams need relation-owner annotations when used for decisions.
+- Engineering diagrams used for decisions need annotations that name the exact relation and its defining pattern or declaration.
 - Some familiar component lists must be split into physical parts, functional elements, external systems, sources, and descriptions.
 - Whole-level characteristic claims need scale and relation discipline.
 

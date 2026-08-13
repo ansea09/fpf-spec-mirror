@@ -1,64 +1,64 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:10 — Rationale"
-line_start: 24311
-line_end: 24320
+line_start: 24531
+line_end: 24538
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:10 - Rationale
 
-This pattern solves a problem that has plagued systems modeling for decades: the conflation of what a system *is* with what it *does*. Its rigor is not arbitrary but is grounded in several key intellectual traditions.
+The practical failure is simple: teams often store classification, assignment, recipe, plan, capability, execution, result, and evidence in one “process” record, then cannot tell which fact changed. A.15 keeps the values separate and adds only the two alignment relations needed most often: performed-Work attribution and Method enactment.
 
-*   **Ontology Engineering:** The pattern is a direct application of best practices from foundational ontologies (like UFO), which have long insisted on the distinction between *endurants* (objects like a `U.System`) and *perdurants* (events and Work individuals admitted under `U.Work`), and between intrinsic properties and relational roles. FPF makes these powerful distinctions accessible to practicing engineers.
-*   **Process-theory source tradition:** Formalisms like the Pi-calculus or Petri Nets model dynamic interactions under terms often translated as processes. A.15 does not import `process` as a new FPF object; it maps the useful local use to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, `U.Work` as the admitted kind, one actual dated Work occurrence, or a separate episteme about it. FPF adds the exact holder and four-participant role assignment, holder `U.Capability` instance when capability reliance is current, any separate capability statement or currentness assessment used for that reliance, any separate capability-fit condition over that capability instance when work admission is current, enacted `U.Method`, and separate `U.MethodDescription` that make the occurrence inspectable.
-*   **Pragmatism and Practice:** The framework is deeply pragmatic. The distinctions it makes between a `MethodDescription`, a capability instance, and a Work individual admitted under `U.Work` are precisely the ones that matter in project management, compliance, and debugging. When a failure occurs, a manager needs to know whether the recipe was wrong, the holder lacked the required capability, or this particular Work occurrence departed from the method. This framework provides the vocabulary to ask and answer that question precisely.
+The separation follows established ontology and practice distinctions among enduring systems, relation occurrences, event-like Work, and epistemes. Process-theory formalisms such as Petri nets and process calculi remain source lineage for dynamic interaction, but their word *process* is recovered here to Method, MethodDescription, WorkPlan, dated Work, Dynamics, Transformation, or a separate episteme rather than imported as one FPF object. FPF adapts the useful distinctions through local system-role kinds, assignment species and their occurrences, a common holder projection, Methods, WorkPlans, dated Work, and neighboring relations; it does not import a foreign hierarchy.
 
-By creating this clean, stratified alignment for enactment, FPF provides a stable and scalable foundation for downstream resource accounting, decision, constraint, gate, evidence, assurance, ethics, and transformation patterns without letting any one of those neighboring claims collapse into A.15.
+The distinction is operationally useful. When work fails, a team can ask whether the wrong system was assigned, the assignment did not cover the Work, the Method was unsuitable, the MethodDescription was wrong, the plan was stale, the capability claim was unsupported, or the performed occurrence departed from the Method. Correcting one answer need not rewrite the others.
 

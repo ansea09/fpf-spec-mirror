@@ -6,12 +6,12 @@ section_id: "A.15.2:6"
 section_title: "Archetypal grounding (parallel domains)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__007_archetypal-grounding-parallel-domains.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:6 — Archetypal grounding (parallel domains)"
-line_start: 25142
-line_end: 25180
+line_start: 25340
+line_end: 25378
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ dependencies:
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "PlanItem content"
@@ -66,7 +66,7 @@ keywords:
 |---|---|
 | target method | `LaparoscopicAppendectomyMethod-E2 : U.Method` |
 | planned window | `2025-08-12T09:00:00+03:00/2025-08-12T10:30:00+03:00` |
-| intended performer and role conditions | one holder satisfying `SurgeonRole` and `AppendectomyLeadCapability-v3`; one holder satisfying `AnesthetistRole` and `ORAnesthesiaCapability-v2`; these are intended conditions, not role assignments |
+| intended performer and system-role-kind conditions | one performer System satisfying `SurgeonSystemRole` and `AppendectomyLeadCapability-v3`; one performer System satisfying `AnesthetistSystemRole` and `ORAnesthesiaCapability-v2`; these are intended conditions, not system-role assignments |
 | budget and reservations | 90 minutes of `OR-3`, one `SterileKit-A17`, and consumables budget `ORCase1-Consumables-B3` |
 | dependency | positive `PreOpClearance-Case1-E2` claim must be current before the planned window starts |
 | acceptance target | `procedureCompleteBy10:30`, compared under B.1.4 against the exact Work extent after Work occurs |

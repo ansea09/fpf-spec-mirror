@@ -6,12 +6,12 @@ section_id: "C.17:5"
 section_title: "The Core Characteristics (kernel nucleus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__006_the-core-characteristics-kernel-nucleus.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:5 — The Core Characteristics (kernel nucleus)"
-line_start: 48638
-line_end: 48747
+line_start: 48885
+line_end: 48998
 dependencies:
   - "A.1"
   - "A.10"
@@ -113,9 +113,9 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 * **Carrier.** Outcome + Work evidence.
 * **Polarity.** Higher is **better** (1 = all mandatory satisfied).
 * **Scale.** **\[0, 1]**, ratio or pass/fail.
-* **Measurement template:** declare **set `C_must`** under its governing constraint owner or service-acceptance policy, compute **`ConstraintFit := |{c∈C_must : pass(c)}| / |C_must|`**; optionally weight per criticality.
-* **Evidence.** Checklists, tests, audits; Who/Role performed the **SpeechActs** (approvals/waivers).
-* **Scope.** Constraints are **context‑local**; Cross‑context requires **Bridge**; waivers are **SpeechAct Work** with RSG gates (A.2.5).
+* **Measurement template:** declare **set `C_must`** under its governing constraint predicates and sources or service-acceptance policy, compute **`ConstraintFit := |{c∈C_must : pass(c)}| / |C_must|`**; optionally weight per criticality.
+* **Evidence.** Checklists, tests, and audits; identify every System that actually performed approval or waiver **SpeechAct Work**, and use F.6 to identify the assignment under which it acted. A short constraint-fit account may omit an unused assignment identifier.
+* **Scope.** Constraints are **context‑local**; Cross‑context requires a **Bridge**. A waiver request, approval, or declaration can be **SpeechAct Work**, but that occurrence does not itself create a valid exception. The current constitutive rule and the exact direct waiver-effect relation or decision result recognized by the receiving constraint or decision pattern must independently obtain. Without them, report `missing-governor` and keep the failed must-constraint ineligible.
 * **Interpretation note.** Low `ConstraintFit` signals tension with declared **must‑constraints** and warrants reframing or redesign; **this pattern does not prescribe go/no‑go rules**.
 
 #### C.17:5.5 - `Diversity_P` *(declared retained-set / portfolio-level)* — “Are we exploring the space?”
@@ -130,10 +130,14 @@ Each characteristic is specified per **MM‑CHR (C.16)** with: **name**, **inten
 * **Didactic cue.** Use **Diversity\_P** to **shape portfolios**, not to pick single winners.
 * **Marginal gain (for generators)** — normative. For a candidate h and current set S, ΔDiversity_P(h | S) := Diversity_P(S ∪ {h}) − Diversity_P(S). Contexts using NQD SHALL compute D as this marginal and publish the Diversity_P definition alongside the CharacteristicSpace/kernel and TimeWindow.
 
-**Heterogeneity Characterisation**
-* FamilyCoverage  (polarity ↑) — count of distinct domain‑families covered by a declared retained set, portfolio, or triad; unit: families; window: declared.
-* MinInterFamilyDistance (polarity ↑) — min distance between selected families in DescriptorMap for that declared retained set, portfolio, or triad; unit: per DistanceDef; window: declared.
-* AliasRisk (polarity ↓) — collinearity/near‑duplicate risk indicator for contextual signatures; unit: score (0–1) with policy id.
+**Optional local retained-set characterisation**
+
+* `FamilyCoverage` (polarity ↑ when the local policy says broader is preferable) — coverage of locally defined families in one declared retained set; its unit and scale come from `RetainedSetMeasurementPolicyRef` and `ScaleRef`.
+* `MinInterFamilyDistance` (polarity set by the local policy) — the smallest distance among the locally defined families in that set; cite `DescriptorMapRef.edition`, `DistanceDefRef.edition`, the scale, and the family representation rule.
+* `AliasRisk` (polarity ↓ when higher means more risk) — a near-duplicate or alias diagnostic; cite `CollisionPolicyRef`, the descriptor source edition, and the scale.
+* `DescriptorVector` — optional per-member or per-Context descriptors whose dimensions and interpretation are declared by the same local policy.
+
+These readings characterize the retained set for a named use. They do not admit sources, establish wider applicability, or prove that the set is universal. A changed measurement policy, descriptor map, distance definition, scale, or collision policy creates a new comparison basis.
 
 **Lexical special case (F.18 naming).**
 For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be computed over head-term families, not over raw strings**. Variants that share the same lexical head (e.g., “Reference plane”, “Plane of reference”, “Planar reference”) **MUST** be treated as one family for coverage and distance; only candidates with distinct heads contribute to lexical Diversity_P. This aligns lexical use of Diversity_P with `FamilyCoverage` / `AliasRisk` and prevents inflating diversity by near-synonyms of a single head.
@@ -147,8 +151,8 @@ For **lexical CandidateSets** used by Name Cards (F.18), **Diversity_P SHALL be 
 * **Template.** Trace graph coverage against Context policy; licence constraints as declared must-constraint rules.
 * **Evidence.** PROV‑style links; licence scans; acknowledgements.
 * **Didactic cue.** High `AttributionIntegrity` signals lawful and transparent recombination; low values indicate unacceptable practice in most Contexts.
-* **Default role.** `AttributionIntegrity` is **measurable but non‑dominant**. It MAY serve as a **policy filter/tie‑break** (C.19). If certain attribution duties are **must‑constraints**, they belong to **ConstraintFit** under the declared constraint owner and act as **eligibility gates**. It is **not** part of the default dominance set.
-* **Dominance & gating note (normative).** `AttributionIntegrity` is a measurable **Characteristic**; it is **not** in the default dominance set. Contexts MAY use it as a **filter** or **tie‑break** via policy (C.19). Legal/ethical **must‑fit** checks live in **ConstraintFit** under the declared constraint owner; failing those blocks eligibility **before** dominance.
+* **Default treatment.** `AttributionIntegrity` is **measurable but non‑dominant**. It MAY serve as a **policy filter or tie‑break** (C.19). If certain attribution duties are **must‑constraints**, they belong to **ConstraintFit** under the declared constraint predicate and source and become **eligibility conditions**. It is **not** part of the default dominance set.
+* **Dominance & gating note (normative).** `AttributionIntegrity` is a measurable **Characteristic**; it is **not** in the default dominance set. Contexts MAY use it as a **filter** or **tie‑break** via policy (C.19). Legal/ethical **must‑fit** checks live in **ConstraintFit** under the declared constraint predicate and source; failing those blocks eligibility **before** dominance.
 
 #### C.17:5.7 - `EffortCost` *(advisory)* — “What did it take?”
 

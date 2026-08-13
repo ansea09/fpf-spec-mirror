@@ -6,12 +6,12 @@ section_id: "B.2.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:2 — Problem"
-line_start: 38304
-line_end: 38313
+line_start: 38514
+line_end: 38523
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,7 +42,7 @@ keywords:
 Without this pattern, three different structures collapse:
 
 1. **Part-whole structure.** Which holons are parts of which wholes.
-2. **Supervisor-subholon feedback relation.** Which acting system holds the supervisor role, what it observes, and what influence or constraint returns.
+2. **Supervisor-subholon feedback relation.** Which admitted system supervises, what it observes, and what influence or constraint returns; add its system-role kind and assignment only when separately current.
 3. **Description or representation structure.** Which diagram, dashboard, report, model, publication, or control-view description represents the relation.
 
 When these are confused, a functional layer is treated as a physical part, a publication is treated as an acting system, a diagram is treated as evidence, or a supervisor label is treated as a gate or assurance result.

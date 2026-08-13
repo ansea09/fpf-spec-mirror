@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37235
-line_end: 37295
+line_start: 37445
+line_end: 37505
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,7 +68,7 @@ HolonReidentificationRecord@Control : U.Episteme
     resultHolonKindRef: U.System
     resultHolonClassificationAssertionRef: RegulatedControlSystemClassificationAssertion
     wholeReidentificationClaimRef: ClosedLoopWholeReidentificationClaim
-    changedClaimGoverningPatternRefs: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
+    changedClaimPatternLocators: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
 ```
 
 `EntityOfConcernSlot` belongs to the ordinary C.2.1 episteme-slot relation. The indented content names references carried by each episteme; those labels are not participant SlotKinds of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.

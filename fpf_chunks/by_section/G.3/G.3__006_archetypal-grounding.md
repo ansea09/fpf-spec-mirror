@@ -6,12 +6,12 @@ section_id: "G.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:5 — Archetypal Grounding"
-line_start: 99670
-line_end: 99697
+line_start: 100908
+line_end: 100935
 dependencies:
   - "A.10"
   - "A.15.3"

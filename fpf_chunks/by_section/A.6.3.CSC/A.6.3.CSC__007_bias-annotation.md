@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:6 — Bias-Annotation"
-line_start: 13879
-line_end: 13884
+line_start: 14103
+line_end: 14108
 dependencies:
   - "A.15"
   - "A.20"

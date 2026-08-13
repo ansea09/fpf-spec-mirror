@@ -6,12 +6,12 @@ section_id: "F.9:27"
 section_title: "C.29 mathematical-lens use relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__029_c-29-mathematical-lens-use-relation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:27 — C.29 mathematical-lens use relation"
-line_start: 93230
-line_end: 93233
+line_start: 94006
+line_end: 94009
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -54,5 +56,5 @@ keywords:
 
 ### F.9:27 - C.29 mathematical-lens use relation
 
-When a mathematical-lens use relies on cross-local meaning, first recover an actual F.9 Bridge. Then state the exact bounded-use claim for the lens direction, correspondence rule, and tolerated loss, and recover current reliance. C.29 owns the mathematical object, `LensMappingMode`, preserved and lost structure, lens-use judgement, and actual lens use. A Bridge can make a lens interpretable without making any lens use occur.
+When a mathematical-lens use relies on cross-local meaning, first recover an actual F.9 Bridge. Then state the exact bounded-use claim for the lens direction, correspondence rule, and tolerated loss, and recover current reliance. Use C.29 for the mathematical object, `LensMappingMode`, preserved and lost structure, lens-use judgement, and actual lens use. A Bridge can make a lens interpretable without making any lens use occur.
 

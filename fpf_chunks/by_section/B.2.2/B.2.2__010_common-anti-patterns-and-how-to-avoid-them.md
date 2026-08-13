@@ -6,12 +6,12 @@ section_id: "B.2.2:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37808
-line_end: 37817
+line_start: 38018
+line_end: 38027
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,8 +45,8 @@ keywords:
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
 | Named aggregate as system | "The platform" or "the fleet" is treated as a system because it has a name. | Identify one exact candidate and apply the complete A.1 and direct `U.System` criteria; return to the old whole if either fails. |
-| Component certificate transfer | Individual part certificates are used as result-system assurance. | Re-base assurance through B.2.2:4.5 and evidence owners. |
-| Controller as containing whole | A controller or external system is treated as the new whole because it changes the parts. | Use A.12, A.3.4, B.2.5, and part-whole owners separately. |
-| Dashboard as system | A monitoring model is treated as the operating system. | Use episteme, publication, source-use, C.30.AD, or digital-twin description owners. |
-| Capability jump as system MHT | A metric improves and the result is called a new system. | Use B.2's `ExistingWholeExplanationCheck`; return to capability, characteristic, method, work, or architecture owners if the existing whole remains sufficient. |
+| Component certificate transfer | Individual part certificates are used as result-system assurance. | Re-base assurance through B.2.2:4.5 and evidence-use patterns. |
+| Controller as containing whole | A controller or external system is treated as the new whole because it changes the parts. | Use A.12, A.3.4, B.2.5, and part-whole patterns separately. |
+| Dashboard as system | A monitoring model is treated as the operating system. | Use episteme, publication, source-use, C.30.AD, or digital-twin description patterns. |
+| Capability jump as system MHT | A metric improves and the result is called a new system. | Use B.2's `ExistingWholeExplanationCheck`; return to capability, characteristic, method, work, or architecture patterns if the existing whole remains sufficient. |
 

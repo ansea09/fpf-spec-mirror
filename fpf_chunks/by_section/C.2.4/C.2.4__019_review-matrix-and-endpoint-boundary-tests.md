@@ -6,12 +6,12 @@ section_id: "C.2.4:18"
 section_title: "Review Matrix and Endpoint Boundary Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__019_review-matrix-and-endpoint-boundary-tests.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:18 — Review Matrix and Endpoint Boundary Tests"
-line_start: 43694
-line_end: 43709
+line_start: 43916
+line_end: 43931
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ An assurance reader should ask:
 
 - are the named anchors genuinely present rather than merely presupposed;
 - does the claimed articulation level rest on structure rather than tone;
-- are role-bearer, intended-work-or-reliance-move, evaluator, or comparison slots still ghosted;
+- are relation-participant, field-meaning, representation-position, bearer, intended-activity-or-plan, admitted-Work, reliance-move, evaluator, comparison, or ordinary-wording positions still ghosted; and has any intended activity or plan been mislabeled as Tech `Work` before an occurrence is admitted;
 - if `AE` is used to justify a route-governance transfer, is the destination governing pattern actually ready to receive the publication.
 
 #### C.2.4:18.2 - Endpoint-boundary test

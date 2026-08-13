@@ -6,12 +6,12 @@ section_id: "A.15.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:9 — Consequences"
-line_start: 26548
-line_end: 26555
+line_start: 26750
+line_end: 26757
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -37,7 +37,7 @@ keywords:
 
 ### A.15.6:9 - Consequences
 
-**Benefits.** Costs, responsibility, and completion can attach to an actual composite Work occurrence, while the project system-of-interest, selected project-relevant network, case subjects, role assignments, changed referents, produced entities, evaluations, deliveries, acceptance decisions, and downstream uses retain their own facts. A team can say plainly which system the project is about without inventing a kind or role and can tell when that system is only intended. Process evaluation can aggregate method-enactment observations backed by an exact A.15.1 `enactsMethod -> U.Method` relation and operation-application observations backed by an exact A.6.1 declaration and binding without turning observed Work into Method or structure. Case work can close around a continuing entity, episteme edition, characteristic inquiry, relation, decision, or result while naming—but not absorbing—the downstream use.
+**Benefits.** Cost and completion claims can refer to one actual composite Work occurrence through their direct predicates, while any responsibility claim separately names its domain predicate and actual participants or returns the exact missing governor. The project system-of-interest, selected project-relevant network, case subjects, system-role classifications and assignments, changed referents, produced entities, evaluations, deliveries, acceptance decisions, and downstream uses retain their own facts. A team can say plainly which System the project is about without inventing a kind or assignment and can tell when that System is only intended. Process evaluation can aggregate Method-enactment observations backed by an exact A.15.1 `enactsMethod -> U.Method` relation and operation-application observations backed by an exact A.6.1 declaration and binding without turning observed Work into Method or structure. Case Work can close around a continuing entity, episteme edition, characteristic inquiry, relation, decision, or result while naming—but not absorbing—the downstream use.
 
 **Costs.** Teams must state work continuity policy and distinguish intention from performed occurrence. Some legacy `@Project` records need exact relation fields. Description families may need to be separated when earlier publications hid different EntityOfConcern values behind one project label.
 

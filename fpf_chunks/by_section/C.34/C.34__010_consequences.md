@@ -6,12 +6,12 @@ section_id: "C.34:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.34/C.34__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.34 — Structural Correspondence, Equivalence, and Morphism Adequacy"
   - "C.34:9 — Consequences"
-line_start: 67781
-line_end: 67795
+line_start: 68118
+line_end: 68132
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

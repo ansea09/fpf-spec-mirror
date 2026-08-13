@@ -6,12 +6,12 @@ section_id: "C.36:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__007_worked-slices.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:5 — Worked Slices"
-line_start: 68236
-line_end: 68290
+line_start: 68582
+line_end: 68640
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,6 +43,7 @@ dependencies:
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.18"
   - "E.18.1"
   - "F.17"
@@ -58,7 +59,7 @@ keywords:
 
 #### C.36:5.1 - Engineering Product Family
 
-An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, role assignments, architecture-candidate generation, selection regimes, and refresh rhythm.
+An engineering lead has an archive of candidate cooling-module designs, a Q-front over energy use and maintainability, competitor product families, and a roadmap pressure to keep more than one line current. The first C.36 question is not "which module is best?" but whether the project is shaping a product-family culture: shared methods, work products, review criteria, memory epistemes, exact local system-role kinds and any obtaining assignments needed for Work attribution, architecture-candidate generation, selection regimes, and refresh rhythm.
 
 If the question is only archive or front treatment, use `C.18` and `C.19`. If the team is changing how the engineering organization generates, recognizes, retains, compares, and learns from module variants, write a `CulturalEvolutionCaseCard@Context` and then use `E.18.1` to carry the accepted problem-side distinction into the next governed use. When that work yields a generated or discovered carrier that carries or describes selected structure and may enter architecturing, use `C.35` for carrier admission before `C.32`; the cultural-evolution case remains governed here.
 
@@ -84,8 +85,12 @@ CulturalEvolutionCaseCard@Context:
   CaseRef: festival-contemporary-2026
   BoundedContext: festival choreography lab and its short-video circulation context
   CollectiveHolonRefs: choreographer collective, dancers, teachers, judges, platform-mediated audience
-  RoleValueRefs: dancer, choreographer, teacher, judge, recommender-mediated viewer
-  RoleAssignmentRefs: omitted in this family-level card; add only exact obtaining assignments when a performed-Work attribution is current
+  RoleWordRecoveryRefs: E.10.ROLE recovery for dancer, choreographer, teacher, judge, and viewer in this festival case
+  DirectParticipationOrPositionRelationRefs: festival-performance, choreography-contribution, teaching, judging, and mediated-viewing relations when their domain predicates obtain; otherwise the corresponding row is missing-governor
+  SystemRoleKindRefs: omitted — the familiar dance labels do not establish local kinds without criteria
+  SystemRoleClassificationJudgmentRefs: omitted — the familiar dance labels establish no classification judgment
+  SystemRoleAssignmentSpeciesRefs: omitted — this family-level card asserts no assignment species
+  SystemRoleAssignmentOccurrenceRefs: omitted — this family-level card asserts no assignment occurrence or performed Work; any later Work claim names the `U.Work` occurrence and keeps all facts required by A.15.1, A.2.1, and F.6 recoverable
   WorkFamilyRefs: performance, rehearsal, teaching, judging, remixing, platform publication
   MethodFamilyRefs: floorwork method family, improvisation method family, duet-lift method family
   CanonOrMemoryEpistemeRefs: festival archive, teaching syllabus, exemplar video set

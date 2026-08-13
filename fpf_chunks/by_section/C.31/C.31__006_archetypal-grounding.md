@@ -6,12 +6,12 @@ section_id: "C.31:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:5 — Archetypal Grounding"
-line_start: 63456
-line_end: 63465
+line_start: 63760
+line_end: 63769
 dependencies:
   - "A.10"
   - "A.17"
@@ -51,5 +51,5 @@ keywords:
 
 **Show.** A DSM or dependency graph can substantiate a modularity interpretation, but the graph does not by itself say which dependency kind matters, what scale applies, whether the interpretation is comparable, or what action follows.
 
-Holon and episteme: architecture and modules are selected structures of described holons; the described holon may be an admitted system, organization-as-system, episteme, work occurrence, bounded context, discipline, or another admitted holon kind. Publication-family material enters through episteme and publication owners; method descriptions enter as epistemes; method values enter through their method owner and relation slots. C.31 heads, cards, vectors, and report-only proxies are characteristic records, declared-measurement-basis records, comparability-basis records, or report-only records about those structures.
+Holon and episteme: architecture and modules are selected structures of described holons; the described holon may be an admitted system, organization-as-system, episteme, work occurrence, bounded context, discipline, or another admitted holon kind. Publication-family material enters through episteme and publication patterns; method descriptions enter as epistemes; method values enter through A.3.1 and their exact relation slots. C.31 heads, cards, vectors, and report-only proxies are characteristic records, declared-measurement-basis records, comparability-basis records, or report-only records about those structures.
 

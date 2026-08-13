@@ -6,12 +6,12 @@ section_id: "A.7:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__015_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:13 — Relations"
-line_start: 21848
-line_end: 21854
+line_start: 22101
+line_end: 22107
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,14 +34,14 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:13 - Relations
 
- **Builds on:** A.1 (Holon), A.2 and A.2.1 (role values and role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance and carrier/source-currentness relations), A.14 (Advanced Mereology), A.15/A.15.1/A.15.2 (Role-Method-Work, Work, and WorkPlan Alignment).
+ **Builds on:** A.1 (Holon), A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.1/A.3.2/A.3.4 (Method, MethodDescription, Transformation), A.10 (evidence-provenance, carrier, and source-currentness relations), A.14 (Advanced Mereology), A.15/A.15.1/A.15.2 (System-Role–Method–Work, Work, and WorkPlan Alignment).
 * **Constrains:** A.13 (Agency sits on systems only; epistemes non‑behavioural), Part B operators (**Γ_method**/**Γ_time**/**Γ_work**/**Γ_sys**) and their choice points; **publication is not a Γ‑operator**.
 * **Extends:** E.8 (Authoring conventions), E.10 (lexical and precision restoration), **Part F and Part G (UTS and CG-Spec or CHR pinning)**, B.3 (assurance-use discipline), C-cluster (selection and archives) by enforcing `EntityOfConcern` and Description-episteme boundary, specification-use boundary, publication availability orthogonality, System and Episteme separation, same or near-same EoC discipline across views, and typed EntityOfConcern-to-Description describing discipline (**publication = Description-episteme-to-publication face, form, unit, carrier, and rendering availability in E.17**).
 * **Coordinates with:** **E.18 (gate crossing and OperationalGate(profile))** for crossing visibility and publication gating, **A.21** for gate checks, **F.9, F.17, E.17, and E.18** for Bridge+UTS pinning discipline, **E.10** for lexical SD checks, and **Part F (Bridges and CL)** for explicit cross-Context identity, without embedding any notation dependence.

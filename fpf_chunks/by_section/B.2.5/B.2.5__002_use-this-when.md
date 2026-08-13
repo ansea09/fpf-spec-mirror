@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 38269
-line_end: 38297
+line_start: 38479
+line_end: 38507
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,13 +39,13 @@ keywords:
 
 ### B.2.5:0 - Use This When
 
-Use this pattern when a holon is supervised, regulated, steered, corrected, constrained, or coordinated through a two-sided feedback relation between a supervisor role and one or more supervised holons.
+Use this pattern when a holon is supervised, regulated, steered, corrected, constrained, or coordinated through a two-sided feedback relation between one supervising acting system and one or more supervised holons. If the supervision is conditioned by a local system-role kind or assignment, recover that classification and exact assignment separately.
 
 The first useful move is to recover the relation:
 
 ```text
 Which holons are supervised?
-Which acting system holds the supervisor role in this bounded context?
+Which admitted system supervises in this bounded context, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
 What observation, report, signal, publication, or source relation carries state?
 What influence, constraint, objective, mode, or work change returns?
 Which transformation, work, architecture, evidence, assurance, timing,
@@ -54,7 +54,7 @@ or causal claim is being made in addition to the relation?
 
 **What goes wrong if missed.** A control diagram, policy note, dashboard, publication channel, or supervisor word starts carrying part-whole, agency, safety, assurance, timing, gate, or architecture claims that belong elsewhere.
 
-**What this buys.** B.2.5 gives a small relation record: supervised holons, supervisor role, acting system, medium or publication relation, observation or report side, influence or constraint side, and direct owners for stronger claims.
+**What this buys.** B.2.5 gives a small relation record: supervised holons, supervising acting system, optional exact system-role kind and assignment, medium or publication relation, observation or report side, influence or constraint side, and the patterns that define any stronger claim.
 
 **Not this pattern when.**
 

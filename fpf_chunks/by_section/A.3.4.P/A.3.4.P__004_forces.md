@@ -6,12 +6,12 @@ section_id: "A.3.4.P:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:3 — Forces"
-line_start: 8917
-line_end: 8926
+line_start: 9131
+line_end: 9140
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,9 +47,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Recognition and precision | Source labels help readers recognize a change situation, but FPF use needs a recovered kind, subject-side occurrence basis, exact relation, and governing pattern. |
+| Recognition and precision | Source labels help readers recognize a change situation, but FPF use needs a recovered kind, subject-side occurrence basis, exact relation, and subject pattern. |
 | One actual transformation and selected flow structure | `U.Transformation` identifies one independently grounded actual bounded change and establishes neither transformation parthood nor partlessness at the current resolution. `TransformationFlowStructure` positions, relates, or locates transformation loci and adjacent governed values; common structure membership establishes no transformation composition. |
-| Acting system and influence source | A role assignment alone does not prove performance, and generic transformation participation does not prove action. Performed-work attribution needs one exact dated Work occurrence admitted under `U.Work`, its direct `performedBy` relation to the covering `U.RoleAssignment`, and any separately governed work-to-change relation needed by the claim; a non-work actor needs another exact direct actor-side governor. Every influence source keeps its own kind and exact relation. |
+| Acting System and influence source | An assignment occurrence alone does not prove performance, and generic transformation participation does not prove action. Performed Work needs its complete A.15.1/F.6 basis; any Work-to-change relation required by the claim remains separate. A non-Work actor needs another exact direct actor-side relation. Every influence source keeps its own kind and exact relation. |
 | Formal and project-world change | A formal construction may be a transformation over a formal object, or it may be a mathematical description of project-world structure; the current object decides. |
 | Repair and readability | The repair must recover enough ontology for safe use without turning every ordinary sentence into a table. |
 

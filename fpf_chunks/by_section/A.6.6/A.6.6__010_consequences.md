@@ -6,12 +6,12 @@ section_id: "A.6.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:9 — Consequences"
-line_start: 19765
-line_end: 19782
+line_start: 20018
+line_end: 20035
 dependencies:
   - "A.10"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "F.15:5"
 section_title: "Minimal vocabulary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__007_minimal-vocabulary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:5 — Minimal vocabulary"
-line_start: 95081
-line_end: 95092
+line_start: 95863
+line_end: 95874
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,7 +54,7 @@ keywords:
 * **Static Conformance Rule (SCR)** - an F.15-local declared predicate over exact current inputs.
 * **Regression and Stability Conformance Rule (RSCR)** - an F.15-local declared predicate over exact earlier/later inputs plus the continuity or change claim and receiving use.
 * **Check application** - an actual A.6.1 operation application with exact rule and object bindings, when current.
-* **Assessment work** - dated `U.Work` that enacts the check method, when a performance claim is made.
+* **Dated assessment Work** - a specific `U.Work` occurrence used only for a replayable performance claim. Its complete A.15.1/F.6 basis must already be established.
 * **Result claim** - one C.2.1 episteme asserting `pass`, `fail`, or `undetermined` for one exact rule application, scope version, and use; not a general status value.
 * **Witness** - an exact example, counterexample, invariant, trace, or edition note cited by the result claim; its presence is not the result or an evidence-use relation.
 * **Conformance record** - an optional C.2.1 episteme that packages refs to the scope, applications/work, result claims, witnesses/evidence paths, non-admitted uses, and reopen conditions; it performs no check.

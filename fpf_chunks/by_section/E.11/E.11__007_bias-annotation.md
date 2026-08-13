@@ -6,12 +6,12 @@ section_id: "E.11:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:6 — Bias-Annotation"
-line_start: 77249
-line_end: 77258
+line_start: 77905
+line_end: 77914
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,10 +24,19 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "admission state"
-  - "and dependencies"
+  - "& Search Queries"
+  - "& Search Queries includes at least one recognizable working-question cue"
+  - "Dependencies"
+  - "a substantive claim returns to the direct pattern whose content defines"
+  - "and Dependencies"
+  - "and retrieval are finding aids"
+  - "cards"
+  - "constrains"
+  - "or boundary mini-method. ToC"
+  - "or tests it"
   - "query phrases"
+  - "result"
+  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:6 - Bias-Annotation
@@ -38,5 +47,5 @@ keywords:
 - **Public-instance bias.** A README example is filled with project values. Keep public templates context-free; project candidates belong to `E.11.PUA`.
 - **Numbered-route bias.** Card order is read as method order. Use semantic keys and condition-specific continuations.
 - **Record-first bias.** Comparison emits a shortlist by default. Materialize one only for a named receiving reliance.
-- **Card-as-authority bias.** A public card is treated as an applicability verdict, recommendation, decision, or authorization. Use `E.11.PUR` or the direct pattern whose content governs that claim.
+- **Card-as-authority bias.** A public card is treated as an applicability verdict, recommendation, decision, or authorization. Use `E.11.PUR` or the direct pattern whose content defines, constrains, or tests that claim.
 

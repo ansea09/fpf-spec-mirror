@@ -6,12 +6,12 @@ section_id: "B.2.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:1 — Problem Frame"
-line_start: 38298
-line_end: 38303
+line_start: 38508
+line_end: 38513
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,7 +39,7 @@ keywords:
 
 ### B.2.5:1 - Problem Frame
 
-Supervisor-subholon feedback is a relation among holons, roles, acting systems, observed or published state, and returned influence or constraint. It is not automatically parthood, not automatically a control-structure view, not automatically evidence, and not automatically a mathematical loop object.
+Supervisor-subholon feedback is a relation among supervised holons, a supervising acting system, observed or published state, and returned influence or constraint. A system-role kind or assignment may qualify the acting system but is not created by the feedback relation. The relation is not automatically parthood, a control-structure view, evidence, or a mathematical loop object.
 
-B.2.5 governs the relation-level claim. It can sit inside a broader architecture description, control-structure view, MHT claim, work claim, or evidence claim, but those claims keep their direct owners.
+Use B.2.5 for the relation-level claim. It can sit inside a broader architecture description, control-structure view, MHT claim, work claim, or evidence claim, but treat those as separate claims under their applicable patterns.
 

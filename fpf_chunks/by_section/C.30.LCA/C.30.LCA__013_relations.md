@@ -6,12 +6,12 @@ section_id: "C.30.LCA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:12 — Relations"
-line_start: 62519
-line_end: 62529
+line_start: 62823
+line_end: 62833
 dependencies:
   - "A.10"
   - "A.20"
@@ -48,7 +48,7 @@ keywords:
 * Coordinates with `C.30.STRAT` when layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or similar source labels must be recovered before control-specific use.
 * Coordinates with `B.2.5` for supervisor-subholon feedback relation recognition.
 * Coordinates with E.18 and C.30.TFS-REL when transformation-flow path slices supply structure input to the control view.
-* Applies `A.3.3` for dynamics/stability, `C.27.TA` for temporal-aspect/rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10/G.6 for evidence, B.3 for assurance, A.20/A.21 for constraint validity/gates, A.15 for Work/project use, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
+* For neighboring claims, use `A.3.3` for dynamics or stability, `C.27.TA` for temporal-aspect or rate-band structure, `C.27` for authored temporal-claim adequacy, `C.28` for causal use, A.10 or G.6 for evidence, B.3 for assurance, A.20 or A.21 for constraint validity or gates, A.15 for Work or project use, E.24.PUB for publication, and C.29 for representation or transferable mathematical-lens use.
 
-Neighboring claims stay with their governing patterns: C.30.STRAT for stratification/source-label repair; C.30 for actual architecture relations and selected structures; C.30.AD for description; E.17.0/C.30.ASV for view conformance and adequacy; B.2.5 for supervisor-subholon feedback; E.18 for graph/path/crossing structure; A.3.3 for dynamics; C.27.TA/C.27 for temporal claims; C.28 for causal use; A.10/G.6 for evidence; B.3 for assurance; A.20/A.21 for gate and constraint-validity records; A.15 for Work; E.24.PUB for publication; and C.29 for representation/lens use. C.30.LCA governs only the exact control-structure description/view adequacy at issue.
+For neighboring claims, use C.30.STRAT for stratification or source-label repair; C.30 for actual architecture relations and selected structures; C.30.AD for description; E.17.0 or C.30.ASV for view conformance and adequacy; B.2.5 for supervisor-subholon feedback; E.18 for graph, path, or crossing structure; A.3.3 for dynamics; C.27.TA or C.27 for temporal claims; C.28 for causal use; A.10 or G.6 for evidence; B.3 for assurance; A.20 or A.21 for gate and constraint-validity records; A.15 for Work; E.24.PUB for publication; and C.29 for representation or lens use. Use C.30.LCA only for the control-structure description or view-adequacy question at issue.
 

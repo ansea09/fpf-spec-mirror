@@ -6,12 +6,12 @@ section_id: "C.30.LCA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.LCA/C.30.LCA__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.LCA — Control Structure View Adequacy (LCA)"
   - "C.30.LCA:7 — Conformance Checklist"
-line_start: 62473
-line_end: 62486
+line_start: 62777
+line_end: 62790
 dependencies:
   - "A.10"
   - "A.20"
@@ -46,12 +46,12 @@ keywords:
 | ID | Check | Why it matters |
 |---|---|---|
 | CC-LCA-1 | A conforming full description/view has one exact C.2.1 identity whose EntityOfConcern is one exact selected control structure; the described and controlled holons and any actual `ArchitectureRelation` remain separately recoverable. | Prevents a free-floating diagram, claim, or unspecified relation set from becoming structure or episteme identity. |
-| CC-LCA-2 | A conforming use records the actual control-role assignments and direct relations present: planner, regulator/controller, observer/estimator, plant/controlled system, supervisor, or the local subset. | Keeps the view action-guiding without making the description act. |
-| CC-LCA-3 | `Layer`, `level`, `tier`, or `stack` wording enters only with a recovered control-role assignment, direct control relation, inter-layer relation, rate band, or `B.2.5` supervisor-subholon relation. | Prevents generic stratification wording from standing in for control structure. |
+| CC-LCA-2 | A conforming use records the direct control relations and participant meanings present: for example, reference provision, regulation or control, observation or estimation, plant or controlled-holon participation, or supervision. Systems, classifications, assignments, Methods, Work, and F.6 attribution are separate optional facts. | Keeps the view useful without making a label, kind, assignment, or description act. |
+| CC-LCA-3 | `Layer`, `level`, `tier`, or `stack` wording enters only with a recovered direct control relation, inter-layer relation, rate band, or `B.2.5` supervisor-subholon relation. An assignment alone is insufficient. | Prevents generic stratification wording from standing in for control structure. |
 | CC-LCA-4 | A claimed `U.View` names the exact viewpoint episteme and independently obtaining `EpistemeViewpointConformanceRelation`; bundle membership, viewpoint label, authoring, query, diagram, and publication are insufficient. | Keeps structural description and view membership distinct. |
-| CC-LCA-5 | Stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, empirical grounding, evidence, gate, and assurance claims are assigned to their governing patterns. | Prevents LCA-as-proof. |
-| CC-LCA-6 | `B.2.5` is used only for the supervisor-subholon feedback relation it governs. | Keeps a cited feedback relation distinct from stability, safety, evidence, gate, and assurance claims. |
-| CC-LCA-7 | An E.18 transformation-flow path slice used by the control view remains an exact selected transformation-flow object governed by E.18, not the control structure or actual transformation itself. | Keeps transformation-flow and LCA relations distinct. |
+| CC-LCA-5 | Use the relevant patterns to state or test stability, safety, dynamics, temporal-aspect or rate-band structure, authored temporal-claim adequacy, causal use, empirical grounding, evidence, gate, and assurance claims. | Prevents LCA-as-proof. |
+| CC-LCA-6 | Use `B.2.5` only to state or test the supervisor-subholon feedback relation it defines. | Keeps a cited feedback relation distinct from stability, safety, evidence, gate, and assurance claims. |
+| CC-LCA-7 | Use E.18 to identify and test any transformation-flow path slice used by the control view. The slice is not the control structure or actual transformation itself. | Keeps transformation-flow and LCA relations distinct. |
 | CC-LCA-8 | C.29 or mathematical-lens use is opened when LCA is transferred across domains or used for prediction, reusable explanation, or assurance input. | Preserves mathematical-lens use and representation boundaries. |
 | CC-LCA-9 | The record states admissible use, non-admissible use, and source-return condition; representation and E.24.PUB occurrence/form/carrier remain separate. | Prevents narrowed recognition or publication from becoming unchecked reliance. |
 

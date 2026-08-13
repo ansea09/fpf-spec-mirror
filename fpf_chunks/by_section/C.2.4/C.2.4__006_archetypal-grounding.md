@@ -6,12 +6,12 @@ section_id: "C.2.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:5 — Archetypal Grounding"
-line_start: 43593
-line_end: 43599
+line_start: 43815
+line_end: 43821
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -33,7 +33,7 @@ keywords:
 ---
 
 ### C.2.4:5 - Archetypal Grounding
-**Tell.** "Something is off" may be a real cue even before role bearer, intended work occurrence, reliance use, or evaluator are explicit.
+**Tell.** “Something is off” may be a real cue even before its relation participant, field meaning, representation position, bearer, intended activity or plan, actual Work occurrence, reliance use, evaluator, or ordinary domain meaning is explicit. If the cue says only “role,” route it through `E.10.ROLE`; do not presume a work-facing kind or assignment.
 
 **Show (System).** An operator alert cue grounded in a disturbance trace may be stabilized as a candidate intervention cue before a full work relation or reliance relation specification exists.
 

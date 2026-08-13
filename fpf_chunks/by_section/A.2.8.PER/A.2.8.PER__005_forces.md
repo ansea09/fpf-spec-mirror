@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:3 — Forces"
-line_start: 6530
-line_end: 6540
+line_start: 6721
+line_end: 6731
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,7 +39,7 @@ keywords:
 | Latitude vs duty | Permission makes an action allowable; it does not require the action. |
 | Weak evidence vs world relation | A complete-frame search can support non-prohibition, while an incomplete search is unresolved. |
 | Enduring grant vs instituting act | A speech act can ground a permission without being the continuing relation. |
-| Beneficiary variety vs kind discipline | Roles, assignments, and parties all occur in practice, but a generic beneficiary U-kind would erase their different eligibility tests. |
+| Beneficiary variety vs kind discipline | System-role kinds, exact assignment occurrences, and parties all occur in practice, but one generic beneficiary U-kind would erase their different eligibility tests. |
 | Current grant vs actual exercise | A grant may obtain without work; work may occur without matching or exercising the grant. |
 | Local policy vs visible artifacts | A permit or gate display is easy to see, but scope, window, currentness, revocation, and precedence decide use. |
 

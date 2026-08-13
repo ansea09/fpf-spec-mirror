@@ -1,31 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
 section_id: "F.5:6"
-section_title: "Bias-Annotation"
+section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
-  - "F.5:6 — Bias-Annotation"
-line_start: 91509
-line_end: 91519
+  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
+  - "F.5:6 — Bias Annotation"
+line_start: 92240
+line_end: 92248
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
+  - "C.16"
   - "C.2.1"
+  - "C.3"
+  - "C.3.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.24.UK"
   - "F.10"
   - "F.13"
@@ -39,22 +43,20 @@ dependencies:
   - "F.9"
   - "G.6"
 keywords:
-  - "U-kind naming"
-  - "lexical rules"
-  - "morphology"
-  - "naming conventions"
-  - "role-description labels"
-  - "twin registers"
+  - "Plain and Tech designations"
+  - "SystemRoleKindDescription label"
+  - "U-kind name"
+  - "local meaning"
+  - "naming after ontology recovery"
+  - "system-role-kind name"
 ---
 
-### F.5:6 - Bias-Annotation
+### F.5:6 - Bias Annotation
 
-This pattern protects against four naming biases.
+1. **Semio-bias.** A name, card, row, publication, or source label is mistaken for the named value or authority to use it.
+2. **Role-bias.** Evidence, status, access, source, requirement, participation, or argument-position wording is forced into `SystemRole` morphology.
+3. **Source-vocabulary capture.** One source context's term becomes the Tech designation without showing cross-context fit.
+4. **Suffix formalism.** Adding `SystemRole`, `KindDescription`, `Status`, `Record`, `Graph`, or `Map` makes a label look precise while the object remains unresolved.
 
-1. **Semio-bias.** A name, card, table row, publication, or source label is mistaken for the named value or for authority to use it.
-2. **Role-bias.** Useful relation words such as evidence, status, access, source, requirement, or argument position are put into `Role` language because role words sound familiar.
-3. **Source-vocabulary capture.** One source context's term becomes the FPF Tech label without proving cross-context fit.
-4. **Suffix formalism.** Adding `Role`, `Status`, `Record`, `Graph`, or `Map` makes a label look precise while leaving the kind unresolved.
-
-The repair is always kind recovery first, label second.
+The repair is object recovery first, designation second.
 

@@ -6,12 +6,12 @@ section_id: "A.6.F:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:1 — Problem frame"
-line_start: 18141
-line_end: 18173
+line_start: 18369
+line_end: 18401
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 
 ### A.6.F:1 - Problem frame
 
-Use this pattern when `function`, `functional`, `functionality`, `effect`, or a similar function-like phrase carries an FPF-governed use beyond ordinary prose. The reading to inspect may concern architecture, work, method, capability, role, quality, mathematics, module allocation, an interface, or another claim named by value. These are recognition and dispatch possibilities, not one semantic kind.
+Use this pattern when `function`, `functional`, `functionality`, `effect`, or a similar function-like phrase carries an FPF claim beyond ordinary prose. The reading to inspect may concern architecture, work, method, capability, a system-role kind or assignment, participation, actual functioning, responsibility, quality, mathematics, module allocation, an interface, or another claim named by value. These are recognition and dispatch possibilities, not one semantic kind.
 
 The first useful move is small:
 
@@ -85,18 +85,18 @@ obtainingRelationOccurrenceUse?:
 reusableDeclarationUse?:
 selectedClaimBearingEpistemeUse?:
 representationUse?:
-directGoverningPatternApplicationRefs?:
+subjectPatternApplicationRefs?:
 blockedLocalOverreadRefs:
 nextAdmissibleUse:
 stopCondition:
 ```
-Stop when the source cue, exact governed entity, value, claim, or claim-bearing episteme, direct owner, the one local overread that would change this repair, and the next admissible use are clear. If the next step must test whether named participants stand in a relation, add its admitted direct predicate. If it must preserve an affirmative, negative, or modal claim about that predicate, identify the exact `C.2.1` relational-assertion episteme and its claim. If it must track one particular obtaining instance, apply the direct owner's identity rule and add the separately individuated occurrence. Otherwise leave those three branches empty. Add reusable declaration, other selected assertion, specification, or view episteme, or representation correspondence only when the next step needs it.
+Stop when the source cue, exact entity, value, claim, or claim-bearing episteme, subject pattern, the one local overread that would change this repair, and the next admissible use are clear. If the next step must test whether named participants stand in a relation, add its admitted direct predicate. If it must preserve an affirmative, negative, or modal claim about that predicate, identify the exact `C.2.1` relational-assertion episteme and its claim. If it must track one particular obtaining instance, apply the subject pattern's identity rule and add the separately individuated occurrence. Otherwise leave those three branches empty. Add reusable declaration, other selected assertion, specification, or view episteme, or representation correspondence only when the next step needs it.
 
 What goes wrong if A.6.F is missed: a function becomes a root kind; functional architecture becomes a peer ontology beside architecture; a capability becomes a function; a method or work occurrence becomes a function; a mathematical function becomes design ontology; a module allocation becomes functional truth; or a quality claim hides behind "functionality".
 
-What A.6.F buys in practice: the practitioner can keep useful engineering language while naming the exact governed object or claim and going straight to its direct owner. Direct participation, reusable declaration, claim-bearing description, and representation remain separate instead of becoming one generic function record.
+What A.6.F buys in practice: the practitioner can keep useful engineering language while naming the exact object or claim and going straight to its subject pattern. Direct participation, reusable declaration, claim-bearing description, and representation remain separate instead of becoming one generic function record.
 
 Not this pattern when the phrase is ordinary prose and carries no FPF claim being made. If the issue under repair is a general relation word, evaluative language, grounded architecture adequacy, or an architecture structural view, use `A.6.P`, `C.16.Q`, `C.30`, or `C.30.ASV` respectively.
 
-**E.10.ARCH governing-pattern relation.** When `E.10` encounters function-like wording whose exact governed entity, value, claim, claim-bearing episteme, direct relation, or governing pattern is hidden, `E.10.ARCH` may apply `A.6.F` until that object and the remaining action are clear or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. A direct relation names its actual participants; a reusable `RelationSignature` and declaration-local `SlotSpec`s, selected assertion, specification, or view episteme, and C.29 representation correspondence are added only for a current receiving use. After recovery, apply the direct governing pattern; `A.6.F` does not own architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claims by function wording alone.
+**E.10.ARCH subject-pattern relation.** When `E.10` encounters function-like wording whose exact entity, value, claim, claim-bearing episteme, direct relation, or subject pattern is hidden, `E.10.ARCH` may apply `A.6.F` until that object and the remaining action are clear or the wording is lowered to ordinary prose, quote-only wording, reduced-use cue, blocked use, or incomplete rewrite. A direct relation names its actual participants; a reusable `RelationSignature` and declaration-local `SlotSpec`s, selected assertion, specification, or view episteme, and C.29 representation correspondence are added only for a current receiving use. After recovery, apply the subject pattern; `A.6.F` alone establishes no architecture, mathematics, quality, work, evidence, assurance, gate, decision, or release claim.
 

@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:4 — Solution"
-line_start: 16339
-line_end: 16536
+line_start: 16567
+line_end: 16764
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -34,7 +34,7 @@ keywords:
 
 ### A.6.P.WMR:4 - Solution
 
-**Normative method boundary.** The Conformance Checklist states each enforceable method duty once and assigns it to an applying practitioner, author or modeler, or accountable subject owner. Sections 4.0-4.8 explain the route, drafting shapes, and model-side constraints; they do not add parallel duties. Ontic identity, obtaining, polarity, non-entailment, and admissibility remain declarative.
+**Normative method boundary.** The Conformance Checklist states each enforceable method requirement once. Its text creates no individual duty. A positive duty claim uses `A.2.8`: name the actual duty bearer, exact `U.Commitment` occurrence and direct predicate, modality, referents, scope, validity interval, applicable constitutive rule, and the rule-required actual instituting basis. Sections 4.0-4.8 explain the route, drafting shapes, and model-side constraints; they add no parallel requirements. Ontic identity, obtaining, polarity, non-entailment, and admissibility remain declarative.
 
 **Stable WMR lens.** Treat the boundary wording as one use-specific claim about an exact thing relative to an exact object. Recover the direct verb or reason-specific stop first. Keep claim subject, time, polarity, and assertability independently recoverable when any of them can change the answer; do not turn the wording into a participant kind, relation kind, or universal input or result family.
 
@@ -42,18 +42,18 @@ The method handles one relation-bearing claim at a time. The trigger word stays 
 
 #### A.6.P.WMR:4.0 - Thin recovery core and conditional interfaces
 
-The stable ordinary core is one `A.6.P`-isolated relation-bearing claim, one exact thing, one exact related object, one direct verb or reason-specific stop, exactly one of four truthful exit families, and one readable sentence. The fourth family is an exact non-assertability result whose reason is independently `factually unsupported`, `missing-information`, or `missing-governor`; only `missing-governor` is an ontology blocker that names the affected receiving use and future owner.
+The stable ordinary core is one `A.6.P`-isolated relation-bearing claim, one exact thing, one exact related object, one direct verb or reason-specific stop, exactly one of four truthful exit families, and one readable sentence. The fourth family is an exact non-assertability result whose reason is independently `factually unsupported`, `missing-information`, or `missing-governor`; only `missing-governor` is an ontology blocker that names the affected receiving use and future subject pattern or relation declaration.
 
-Claim subject, modality and temporal extent, polarity, and recovery or support state remain four independent assurance controls. Their values must be recoverable whenever they can change the answer, but a practitioner does not have to recite the four labels when an ordinary sentence already makes the only material reading clear. WMR owns this recovery and stop. It does not absorb the algorithms, checklists, or ontics of the patterns to which an exit leads.
+Claim subject, modality and temporal extent, polarity, and recovery or support state remain four independent assurance controls. Their values must be recoverable whenever they can change the answer, but a practitioner does not have to recite the four labels when an ordinary sentence already makes the only material reading clear. WMR supplies this recovery and stop. It does not absorb the algorithms, checklists, or ontics of the patterns to which an exit leads.
 
 | Conditional interface | Minimum condition for opening it | Direct return consumed here |
 | --- | --- | --- |
 | pattern whose Solution answers the exact direct-relation question, or `A.6.1` | the exact relation or one declared operation application is already the receiver's current question | one readable direct subject-relation claim, one exact declaration-local application binding, or its exact non-assertability result |
-| `A.6.RCD` | no direct relation closes the named receiving use, and a substrate-admitted compound claim, repeated predicate semantics, or relation-kind question is current | that owner's lightest local claim, reusable-definition or conditional kind-admission continuation, or exact blocker; WMR does not reproduce its derivation or disposition algorithm |
+| `A.6.RCD` | no direct relation closes the named receiving use, and a substrate-admitted compound claim, repeated predicate semantics, or relation-kind question is current | that pattern's lightest local claim, reusable-definition or conditional kind-admission continuation, or exact blocker; WMR does not reproduce its derivation or disposition algorithm |
 | `A.15.PROD` | production-work participation, entity-identity inception, or production completion is explicitly the current receiving question | one local production claim or that branch's exact blocker; WMR does not reproduce the branch basis |
 | `A.15.1`, then `F.18` when naming is needed | an action nominal or plan-like label is being relied on as one performed occurrence | one exact Work occurrence admitted under `U.Work` at the required granularity or the exact lowered neighboring object or blocker; durable naming opens only after that result |
-| `A.3.4` and the direct transformation-composition owner | the current claim actually depends on an actual change or positive transformation composition | one independently identified transformation, one governed composition result, or the exact missing-governor or missing-substrate blocker |
-| evidence, assurance, naming, delivery, acceptance, transfer, publication, or another subject owner | the receiving use additionally needs that distinct claim | only that owner's exact claim, judgment, name, occurrence, or blocker; none becomes a WMR field or makes the recovered relation obtain |
+| `A.3.4` and the direct transformation-composition pattern | the current claim actually depends on an actual change or positive transformation composition | one independently identified transformation, one governed composition result, or the exact missing-governor or missing-substrate blocker |
+| the evidence-use, assurance, naming, delivery, acceptance, transfer, publication, or other subject pattern | the receiving use additionally needs that distinct claim | only the separately established claim, judgment, name, occurrence, or blocker returned by that use; none becomes a WMR field or makes the recovered relation obtain |
 
 The substantial interfaces retained below distinguish exits or show why tempting exits differ. Repetition of a neighbor's full basis is not evidence of correctness; WMR consumes the neighbor's direct return.
 
@@ -65,7 +65,7 @@ The substantial interfaces retained below distinguish exits or show why tempting
 | 2. Relative to what exact object is it being named? | Name one exact method description, plan, dated Work, operation application, transformation, evaluation, delivery, transfer, receiving work, or another directly governed object. Split several current related objects into separate claims. |
 | 3. What direct verb can be said now—or why not? | Write the shortest direct relation sentence, declaration-local binding, local claim, or reason-specific non-assertability result. A synonym, shared time, plan row, diagram edge, or nearby record is not the deciding relation. |
 | 4. Could a claim dimension change the answer? | Only then state the material claim subject, modality and extent, polarity, or recovery or support distinction. Keep them independent. |
-| 5. Does a receiver need the formal governor or assurance replay? | Name the direct pattern, exact `RelationKind` and relation-declaration episteme, declaration-local predicate, or local-claim owner that makes the answer checkable. Add occurrence identity, evidence, publication, or assurance only when that receiver needs it. |
+| 5. Does a receiver need the formal governor or assurance replay? | Name the direct pattern, exact `RelationKind` and relation-declaration episteme, declaration-local predicate, or local-claim pattern that makes the answer checkable. Add occurrence identity, evidence, publication, or assurance only when that receiver needs it. |
 
 The practitioner stops after question 3 when the ordinary answer has one clear reading and no current receiver needs more apparatus. Questions 4 and 5 inspect or reuse that answer; they do not replace it.
 
@@ -82,9 +82,9 @@ The four dimensions remain independent. Make a dimension explicit when two plaus
 
 **Well-formedness constraint `WMR-WF1` — orthogonal claim dimensions.** Whenever one of the four dimensions can alter the result, its value must be separately recoverable from the sentence or its immediate governed basis. No dimension supplies another. Explicit axis vocabulary is required only for a material ambiguity, comparison, assurance replay, or reusable formalization; it is not a prerequisite for every simple direct sentence.
 
-`Factually unsupported` applies when an applicable governor is known but the available facts fail to support the proposed assertion; no opposite polarity follows without its own basis. `Missing-information` applies when the governor is known but one named fact needed for the answer is unavailable. `Missing-governor` applies when the exact participants and question are known but no current direct predicate, condition, or owner closes it.
+`Factually unsupported` applies when an applicable governor is known but the available facts fail to support the proposed assertion; no opposite polarity follows without its own basis. `Missing-information` applies when the governor is known but one named fact needed for the answer is unavailable. `Missing-governor` applies when the exact participants and question are known but no current direct predicate, condition, or defining pattern or declaration closes it.
 
-A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The promised delivery remains intended and unfulfilled until its own exact token, owner, and facts establish fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true.
+A current commitment is expressible without collapsing fulfilment only when its exact commitment `RelationKind`, participant meanings, extent, obtaining predicate, and the `SubjectPatternLocator` for its defining or constraining content are named; a local id such as `COM-17` is not that settlement. The promised delivery remains intended and unfulfilled until its own exact token, fulfilment predicate, and facts establish fulfilment. A separately stated past case fact remains positive at its governed extent after its named participants satisfy the governor's predicate; it need not obtain now to remain historically true.
 
 A change in any dimension is substantive. A plan does not become an actually obtaining relation because its date arrives; a later observation does not retroactively manufacture a missing relation; and stronger support does not substitute for the subject relation's own facts.
 
@@ -92,7 +92,7 @@ A change in any dimension is substantive. A plan does not become an actually obt
 
 Choose by the kind of answer the receiving use needs:
 
-1. If one direct subject owner defines the relation between the exact participants, use the direct relation exit.
+1. If one direct subject pattern or declaration defines the relation between the exact participants, use the direct relation exit.
 2. If the claim is only that one identified operation application used or returned one value, use the declaration-local `A.6.1` binding exit.
 3. If the question is production-work participation, entity inception, production completion, or another substrate-admitted local conjunction, use the local `A.15.PROD` or `A.6.RCD` claim exit.
 4. If none of those positive routes has its required basis, stop with the exact reason: failed fact, unavailable fact, or absent governor.
@@ -101,12 +101,12 @@ The exit determines the next action; it is not a fifth claim classification.
 
 | Exit | Use it when | Result |
 | --- | --- | --- |
-| Exact direct subject relation claim | The direct governor supplies the `RelationKind`, participant meanings, predicate, applicability, and owner. A positive claim has separate case facts satisfying the predicate. A negative claim additionally has an explicit applicable non-obtaining criterion and separate facts satisfying it. | The shortest positive or negative direct sentence. A positive occurrence, assertion episteme, local id, and evidence remain distinct; a governed negative claim individuates no occurrence. |
+| Exact direct subject relation claim | The direct governor supplies the `RelationKind`, participant meanings, predicate, applicability, and defining source. A positive claim has separate case facts satisfying the predicate. A negative claim additionally has an explicit applicable non-obtaining criterion and separate facts satisfying it. | The shortest positive or negative direct sentence. A positive occurrence, assertion episteme, local id, and evidence remain distinct; a governed negative claim individuates no occurrence. |
 | Exact `A.6.1` operation-application binding | One identified application and exact bound value satisfy the declaration-local argument or result predicate, extent, kind, cardinality, and identity rule. | A sentence stating only the binding. It says neither that dated work occurred nor that work produced, constituted, delivered, or accepted the bound entity. |
 | Local `A.15.PROD` or `A.6.RCD` claim | The receiver asks one local production question or another local compound question admitted by the selected substrate, and no new occurrence kind is needed. | The readable local claim under its exact base governors and the lightest sufficient disposition. |
-| Exact non-assertability result | The governor is known but the required fact fails (`factually unsupported`) or is unavailable (`missing-information`), or no current direct relation, truthful binding, or admitted local claim closes the exact participants and use (`missing-governor`). | A sentence naming the proposed polarity and extent, then the failed fact, unavailable fact, or absent governor. Only `missing-governor` also names the affected use and future owner. No fallback relation or opposite polarity follows. |
+| Exact non-assertability result | The governor is known but the required fact fails (`factually unsupported`) or is unavailable (`missing-information`), or no current direct relation, truthful binding, or admitted local claim closes the exact participants and use (`missing-governor`). | A sentence naming the proposed polarity and extent, then the failed fact, unavailable fact, or absent governor. Only `missing-governor` also names the affected use and future subject pattern or relation declaration. No fallback relation or opposite polarity follows. |
 
-A case-local positive direct relation needs two independent premises. An already published project relation-declaration episteme names the exact `RelationKind`, participant meanings, predicate, applicability, and owner. A separate didactic world-side fact says that the exact participants at the exact extent satisfy that predicate. A positive sentence needs both. If the governor exists and the fact fails or is unavailable, return `factually unsupported` or `missing-information`; reserve `missing-governor` for absence of the governor. WMR neither publishes the token nor copies its declaration.
+A case-local positive direct relation needs two independent premises. An already published project relation-declaration episteme names the exact `RelationKind`, participant meanings, predicate, applicability, and defining source. A separate didactic world-side fact says that the exact participants at the exact extent satisfy that predicate. A positive sentence needs both. If the governor exists and the fact fails or is unavailable, return `factually unsupported` or `missing-information`; reserve `missing-governor` for absence of the governor. WMR neither publishes the token nor copies its declaration.
 
 A governed negative sentence needs the analogous negative or non-obtaining criterion and separate facts satisfying it. Failure to support a positive claim, an absent record, or an unobserved event is not a negative premise.
 
@@ -137,13 +137,13 @@ Historically obtained:
 Governed negative:
   During <exact extent>, <exact entity> did not <direct relation in ordinary words> <exact related object>
   under <RelationKind token>, with defining or constraining content at <SubjectPatternLocator>; <separate case facts> satisfy
-  <the owner's explicit negative or non-obtaining criterion or closure basis>,
+  <the direct pattern's or declaration's explicit negative or non-obtaining criterion or closure basis>,
   and no relation occurrence is individuated.
 
-Obtaining commitment, promised relation separate:
-  <accountable subject> is committed to <promised relation> for <promisee>
-  during <commitment extent>; the promised relation remains <intended | unfulfilled | fulfilled at exact extent>
-  under its own <RelationKind token>, with defining or constraining content at <SubjectPatternLocator>.
+Obtaining `U.Commitment`, promised relation separate:
+  <U.Commitment occurrence> obtains for <actual duty-bearing System or separately governed party>, with <modality>, <referents>, <scope>, and <validity interval>;
+  <current prescription>, <exact constitutive rule>, <rule-required actual instituting basis>, and <actual facts> satisfy the A.2.8 direct predicate;
+  the promised relation remains <intended | unfulfilled | fulfilled at exact extent> under its own <RelationKind token> and <SubjectPatternLocator>.
 
 Factually unsupported:
   The <positive or negative> claim that <exact relation sentence> is not assertable
@@ -160,7 +160,7 @@ Missing governor:
   as the exact gap to supply, reject, or reframe for <named use>.
 ```
 
-For example, `CF-17 was not consumed by W-204` does not follow merely because the positive consumption fact fails or is unavailable. It closes as a governed negative sentence only if the machining-work owner supplies an applicable non-consumption criterion or complete closure basis for the exact quantity, work, and extent and separate case facts satisfy it. Otherwise the proposed positive claim remains `factually unsupported` or `missing-information`, or the relation question remains `missing-governor`, according to the independently recovered deficit.
+For example, `CF-17 was not consumed by W-204` does not follow merely because the positive consumption fact fails or is unavailable. It closes as a governed negative sentence only if the direct pattern or declaration for machining resource consumption supplies an applicable non-consumption criterion or complete closure basis for the exact quantity, work, and extent and separate case facts satisfy it. Otherwise the proposed positive claim remains `factually unsupported` or `missing-information`, or the relation question remains `missing-governor`, according to the independently recovered deficit.
 
 A practitioner **MAY** retain the trigger word as optional Plain orientation after the direct sentence is recoverable. The direct sentence and its dimensions, not the familiar label or support state, carry the claim into planning, work, evaluation, delivery, acceptance, transfer, or receiving use.
 
@@ -168,7 +168,7 @@ A practitioner **MAY** retain the trigger word as optional Plain orientation aft
 
 **Invariant `WMR-I1` — ontology economy.** No universal work-result, transformation-result, production, input, output, outcome, deliverable, handoff, evidence, actual-filling, or status relation or kind follows from boundary-word recovery. **Invariant `WMR-I2` — transformation non-entailment.** No actual transformation follows from a method, plan, desired state, model, description, evaluation result, publication, transfer, flow arrow, adjacency, shared work, or common affected referent.
 
-When the repaired claim depends on transformation composition, its exact participants and receiving question pass to `A.3.4` and the current direct composition owner. WMR consumes only their return: an independently retained set of transformations plus either one governed composition claim or the exact missing-governor or missing-substrate blocker. It does not restate or evaluate their contribution, compatibility, composition, or reidentification algorithm.
+When the repaired claim depends on transformation composition, its exact participants and receiving question pass to `A.3.4` and the current direct composition pattern. WMR consumes only their return: an independently retained set of transformations plus either one governed composition claim or the exact missing-governor or missing-substrate blocker. It does not restate or evaluate their contribution, compatibility, composition, or reidentification algorithm.
 
 The blocker reaches only the composition-dependent claim; independent work, change, production, evaluation, delivery, acceptance, transfer, and receiving-use questions continue under their own governors.
 
@@ -176,9 +176,9 @@ The blocker reaches only the composition-dependent claim; independent work, chan
 
 For ordinary recognition, the first three questions and one of four truthful exits are enough. Use the two assurance questions and explicit claim-dimension vocabulary only when they can change the answer or a named receiver needs to inspect it.
 
-A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Pass that owner the exact direct subject claim, exact `A.6.1` application binding, exact local `A.15.PROD` or `A.6.RCD` claim, or exact non-assertability result together with its governor. Preserve `factually unsupported`, `missing-information`, and `missing-governor` as different reasons; only the last names a future ontology owner. Support or assurance changes neither polarity nor whether the subject relation obtains.
+A practitioner **MAY** open a separate assurance branch when the receiving use additionally needs evidence, warrant, assurance, gate, currentness, publication, or reliance. Apply the relevant evidence, assurance, gate, currentness, publication, or reliance check to the exact direct subject claim, `A.6.1` application binding, local `A.15.PROD` or `A.6.RCD` claim, or non-assertability result together with its governor. Preserve `factually unsupported`, `missing-information`, and `missing-governor` as different reasons; only the last names a future subject pattern or relation declaration. Support or assurance changes neither polarity nor whether the subject relation obtains.
 
-DPF or FPF authoring may trigger the applicable E.19, A.10, B.3, or other assurance checks. Those checks remain with their owners rather than becoming a second WMR checklist.
+DPF or FPF authoring may trigger the applicable E.19, A.10, B.3, or other assurance checks. Those checks remain with their subject patterns rather than becoming a second WMR checklist.
 
 #### A.6.P.WMR:4.7 - Decide the main `result` readings before scanning examples
 
@@ -207,11 +207,11 @@ The broader boundary-word palette below is an informative recognition aid. A row
 | `deliverable` | Recover the entity separately in each planning, commitment, delivery, and acceptance claim. Planned, produced, delivered, and accepted are not inherited from one another. |
 | `handoff` | Recover the actual transfer work or direct transfer relation. A package or record is a separate episteme; transfer, delivery, and receiving use remain distinct. Use E.10.MOVE only when that exact process-move question is current. |
 
-When no direct governor closes a selected row, name the exact participants, proposed question, affected use, and future owner. A broader hypernym, another boundary word, or a new universal record does not settle the missing relation.
+When no direct governor closes a selected row, name the exact participants, proposed question, affected use, and future subject pattern or relation declaration. A broader hypernym, another boundary word, or a new universal record does not settle the missing relation.
 
 #### A.6.P.WMR:4.8 - Work-name grounding by morphology and occurrence
 
-An action nominal such as `testing`, `assembly`, `maintenance`, `evaluation`, or `inspection` is a morphology cue, not an occurrence identification or recovered kind. Placement in function- or flow-structure prose does not identify a `U.Function` or any other object by itself. When the use remains function-like and claim-bearing while its exact FPF object or relation is hidden, `A.6.F` is the next owner. When the object is already recoverable, the label resolves to the exact `U.Method`, `U.MethodDescription`, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, `FunctionalElement@Context` or other functional-view record, plan content, performed Work occurrence admitted under `U.Work`, or other governed value under its direct pattern. In a WBS element, activity, or Work Package the nominal ordinarily names plan or assignment content about intended work; none of these uses identifies an already performed Work occurrence.
+An action nominal such as `testing`, `assembly`, `maintenance`, `evaluation`, or `inspection` is a morphology cue, not an occurrence identification or recovered kind. Placement in function- or flow-structure prose does not identify a `U.Function` or any other object by itself. When the use remains function-like and claim-bearing while its exact FPF object or relation is hidden, `A.6.F` is the next subject pattern. When the object is already recoverable, the label resolves to the exact `U.Method`, `U.MethodDescription`, required-transformation or required-effect claim, actual `U.Transformation`, `TransformationFlowStructure` locus, `FunctionalElement@Context` or other functional-view record, plan content, performed Work occurrence admitted under `U.Work`, or other governed value under its direct pattern. In a WBS element, activity, or Work Package the nominal ordinarily names plan or assignment content about intended work; none of these uses identifies an already performed Work occurrence.
 
 A use that needs only the recovered method, method description, plan, structure, or other already governed value closes under that direct pattern. Only reliance on the label as one performed occurrence handles the candidate designation and required granularity under `A.15.1`.
 

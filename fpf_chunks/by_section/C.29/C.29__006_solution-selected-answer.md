@@ -6,12 +6,12 @@ section_id: "C.29:4"
 section_title: "Solution - selected answer"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__006_solution-selected-answer.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:4 — Solution - selected answer"
-line_start: 58264
-line_end: 58955
+line_start: 58546
+line_end: 59237
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -266,7 +266,7 @@ Lexical rule: use **structure-preserving representation** rather than **structur
 
 Begin with action guidance, not with the full card.
 
-First action choices: keep ordinary prose, introduce a cheap candidate lens, name the `CandidateMathObject` or formal role that fits the stated use more directly, add visible payoff, add loss, choose the principal rival lens, add validation regime, narrow an existing claim, downgrade an overclaim, or apply the governing FPF pattern to any non-lens claim being made.
+First action choices: keep ordinary prose, introduce a cheap candidate lens, name the `CandidateMathObject` or formal position that fits the stated use more directly, add visible payoff, add loss, choose the principal rival lens, add validation regime, narrow an existing claim, downgrade an overclaim, or apply the applicable FPF pattern to any non-lens claim being made.
 
 Memory hook: a successful C.29 application can raise or lower the mathematical claim-bearing use. It can introduce a first candidate lens, keep ordinary domain prose, remove a mathematical lens, repair relation wording through `A.6.P`, declare a `CharacteristicSpace` through `A.19`, use `C.16` for measurement and comparability, apply `F.9` for bridge semantics, ask the `C.28` causal-use question, restore work or source responsibility through `A.15`, or apply `C.27` for temporal-use adequacy.
 
@@ -733,7 +733,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | `TargetPhenomenon` | Plain entry prompt naming the phenomenon or situation to be understood. | Not a `U.Kind`, not by itself the exact EntityOfConcern designation of a claim-bearing episteme, and not by itself a publication-side designation or claim about that phenomenon. |
 | `entityOfConcernRef?` | EntityOfConcern reference named by value when the lens appears inside a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. | Required only when the lens appears in a claim-bearing episteme, `PublicationUnit`, benchmark, bridge, or assurance-bearing statement. |
 | `BoundedContext` | Context in which the lens is claimed to work. | Cross-context use cites `F.9`. |
-| `CandidateMathObject` | Concrete mathematical object, structure, formal role, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
+| `CandidateMathObject` | Concrete mathematical object, structure, formal position, learned representation, or local formalism. | Broad family labels are prompts until narrowed. |
 | `LensMappingMode` | `C.29`-local lens mapping mode. | Stays separate from `F.9` BridgeKind, `A.6.P` `RelationKind`, `C.3` kind, and domain relation kinds; cross-context transfer uses `F.9` when bridge semantics are being claimed. |
 | `PreservedStructure` | Structure preserved by the lens in the declared use. | No preserved structure means the mathematical phrase cannot justify the stated use. |
 | `LostStructure` | Structure the lens drops, abstracts away, or does not preserve. | Empty loss requires explicit equivalence or isomorphism justification through the subject pattern. |
@@ -741,7 +741,7 @@ This is not a first-class causal abstraction card. It is a lightweight check: wh
 | `ObservableOrControllableCue?` | Cheap cue naming what can be observed, read out, assigned, varied, or validated before a candidate lens can change action. Examples include arrivals, work in progress, service time, wait time, edge meaning, intervention assignment, outcome readout, observation map, validation slice, scale variable, or scale point. | Not a measurement construction, evidence record, causal-use result, or validation verdict. Apply `C.16`, `A.10`, `C.28`, or `A.3.3` when those claim types are being made. |
 | `ObservationOrReadoutNeeded?` | Optional one-line note naming the observable, readout, assignment, outcome, validation slice, or scale point still needed before the stated bounded lens-use action is justified. | If this missing item makes a measurement, evidence, causal, dynamics, or validation claim being made, that claim is governed by the neighboring pattern governing that claim. |
 | `LensBoundedPredictionOrDistinction?` | Required when prediction, decision, method selection, model selection, or publication-as-model is being claimed. | Not required for orientation-only use. |
-| `DynamicsRef?`, `TransitionLawRef?` | References to `A.3.3`-owned dynamics when dynamics semantics are being claimed. | `C.29` does not own dynamics. |
+| `DynamicsRef?`, `TransitionLawRef?` | References to dynamics defined by `A.3.3` when dynamics semantics are being claimed. | `C.29` does not define dynamics. |
 | `ObservationMapRef?` | Probe, readout, or observation map when observation makes the declared lens use bounded enough for the stated claim. | Required when learned or measurement-dependent lens use is being made. |
 | `ScaleWindow?`, `CoarseGrainingRule?` | Scale range and coarse-graining or compression rule when scale behavior, macro description or effective description, universality, coarse behavior, latent compression, or renormalized description is being claimed. | `C.18.1` and `C.19.1` govern scale-law and BLP evidence; the C.29 output states only how the lens remains adequate inside the declared window. |
 | `SourceReturnCondition?` | Condition under which the reader must return from the compressed or coarse description to the source-domain variables, observations, cases, or mechanisms. | Required only when abstraction, coarse-graining, compression, latent representation, or macro-modeling drops source-domain distinctions that could matter to the stated use. |

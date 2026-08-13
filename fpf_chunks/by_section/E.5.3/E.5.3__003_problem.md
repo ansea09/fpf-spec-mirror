@@ -6,12 +6,12 @@ section_id: "E.5.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:2 — Problem"
-line_start: 71799
-line_end: 71804
+line_start: 72245
+line_end: 72250
 dependencies:
   - "E.4"
   - "E.5"

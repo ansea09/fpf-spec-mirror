@@ -6,12 +6,12 @@ section_id: "F.9:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-examples.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:12 — Worked examples"
-line_start: 92927
-line_end: 92952
+line_start: 93699
+line_end: 93728
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -60,13 +62,17 @@ A service team resolves two exact cells: the ITIL sense of an availability targe
 
 The team next proposes use `u-slo-check`: compare one observation result with the target. Direction `d-slo` is observation-to-target; rule `r-slo` requires the same quantity kind, aligned windows, and the stated unit conversion; tolerance `t-slo` permits the named rounding loss but no quantity-kind change. A C.2.1 claim with EntityOfConcern `b-slo-obs` states affirmative polarity for `<u-slo-check,d-slo,r-slo,t-slo>`.
 
-Because this is an ordinary bounded evidence use below the B.3 threshold and no assurance claim is made, the team recovers the exact A.10 evidence-provenance graph relation for the observation record and states `RelianceDisposition=pass` only for `u-slo-check`. That supports relying on the claim within its boundary. It does not make the SLO fulfilled, authorize acceptance, or prove that comparison Work occurred. Those claims remain with their direct owners.
+Because this is an ordinary bounded evidence use below the B.3 threshold and no assurance claim is made, the team recovers the exact A.10 evidence-provenance graph relation for the observation record and states `RelianceDisposition=pass` only for `u-slo-check`. That supports relying on the claim within its boundary. It does not make the SLO fulfilled, authorize acceptance, or prove that comparison Work occurred. Those claims remain with their subject patterns.
 
 #### F.9:12.2 - Behavioral participant and access role
 
-An exact `Partial-overlap` Bridge obtains between a BPMN participant sense and a named RBAC role sense when the profile's overlap and difference conditions are satisfied. A separate bounded-use claim proposes the label "actor" for one glossary row, in the stated direction, under a rule that preserves assignment moment, enforcement locus, multiplicity, and accountability differences, with zero tolerance for reading the label as a role assignment. Current evidence can support that label use under A.10.
+An exact `Partial-overlap` Bridge obtains between a BPMN participant sense and a named RBAC role sense when the profile's overlap and difference conditions are satisfied. A separate bounded-use claim proposes the label "actor" for one glossary row, in the stated direction, under a rule that preserves assignment moment, enforcement locus, multiplicity, and accountability differences, with zero tolerance for reading the label as a local system-role kind or assignment occurrence. Current evidence can support that label use under A.10.
 
-If a project later says an RBAC role counts for a work step, it must recover an exact `U.RoleAssignment` under A.2.1 or F.6. The Bridge, affirmative label-use claim, and passing evidence disposition establish no assignment and no performed-work attribution.
+When a later claim uses the RBAC source word *role*, apply `E.10.ROLE` and first say whether it concerns access, permission, authority, a work-facing classification, an assignment, or performed Work. For access, permission, or authority, use the direct pattern for that relation. Use A.2.8.PER for granted permission while keeping actual access separate. If access wording still hides the subject or relation, use A.6.P:4.11a; if the participants and predicate are clear but no direct pattern defines the relation, return A.6.RCD `missing-governor[direct access relation]`.
+
+A work-facing classification separately requires an admitted System, one exact local system-role kind with its `KindSignature`, and the C.3.2 classification judgment under A.2 and C.3. Use F.4 only when the receiving use separately needs a `SystemRoleKindDescription` episteme, and F.5 only when it needs a durable designation. An assignment claim then separately identifies an occurrence of a directly declared species under `U.SystemRoleAssignment` through A.2.1.
+
+If performed Work is also claimed, use A.15.1 and F.6 to identify the dated Work, its performer System, exact Method and containing System, an assignment held by that performer throughout the Work, and the case fact that directly links the Work to that assignment. The Bridge, bounded-use claim, and reliance result establish none of these facts.
 
 #### F.9:12.3 - Subtype notions in one structural row
 

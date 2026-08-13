@@ -6,16 +6,18 @@ section_id: "A.14:2"
 section_title: "Problem — what breaks without these distinctions?"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__003_problem-what-breaks-without-these-distinctions.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:2 — Problem — what breaks without these distinctions?"
-line_start: 23697
-line_end: 23708
+line_start: 23950
+line_end: 23961
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
@@ -42,7 +44,7 @@ If we only have “generic partOf” (plus Component/Constituent), four classes 
 
 2. **Temporal smearing.** Flattening “before/after” for one enduring carrier into a timeless whole collapses history; treating two changed epistemes or two Work occurrences as temporal pieces of that carrier collapses identity and occurrence history. Γ\_time and Γ\_method cannot repair either mistake after the fact.
 
-3. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, C.2.1 first decides whether the identity triple is unchanged and tests edition continuity separately; for another enduring holon, its direct identity owner decides whether the same individual persists or a reidentification question opens.
+3. **Identity confusion.** Modelling a “new version” as a component or phase lets a label decide identity. For an episteme, first compare the C.2.1 identity triple and then test edition continuity separately; for another enduring holon, apply its direct identity rule to determine whether the same individual persists or a reidentification question opens.
 
-4. **Role leakage.** Functional/organisational roles sneak into part trees (“the PumpRole is part of the plant”), violating A.15 and making structural reasoning brittle.
+4. **System-role leakage.** A local system-role kind, assignment, or relation-position label is put into a part tree ("the PumpRole is part of the plant"), making structural reasoning brittle.
 

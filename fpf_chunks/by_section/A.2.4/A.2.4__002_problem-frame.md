@@ -6,34 +6,36 @@ section_id: "A.2.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:1 — Problem Frame"
-line_start: 4147
-line_end: 4168
+line_start: 4322
+line_end: 4343
 dependencies:
   - "A.10"
   - "A.2"
   - "A.2.1"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
   - "C.28"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "G.11"
   - "G.6"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
   - "claim"
   - "episteme"
-  - "evidence-use"
+  - "evidence-use relation"
   - "provenance"
-  - "source-use"
-  - "status-use"
+  - "role-shaped source phrase"
+  - "source-use wording"
+  - "status-use relation"
 ---
 
 ### A.2.4:1 - Problem Frame
@@ -48,13 +50,13 @@ Use it when the working question is:
 * whether source wording such as "evidence role", "status role", "standard role", or "the report plays a role" hides an evidence-use, status-use, source-use, publication-use, assurance-use, gate-use, or causal-use relation;
 * whether the evidence-use or status-use relation is sufficiently specified for the intended reliance, or only enough for orientation, source-finding, a reversible probe, or a narrowed use.
 
-**Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme. It is not `U.Role`, not `U.RoleAssignment`, and not a system performing work.
+**Primary EntityOfConcern.** The `EntityOfConcern` is the evidence-use relation or status-use relation around an episteme. It is not a local system-role kind, not a `U.SystemRoleAssignment` occurrence, and not a system performing Work.
 
 **First useful move.** Name the exact episteme and the claim or governed status for which it is being used. Then point outward, when current, to the dated producing/evaluating work and actual bindings, domain-local result and direct governor, C.2.1 result episteme, A.10/G.6 provenance, G.11 currentness, receiving work and direct use relation, local `RelianceDisposition`, and B.3 assurance boundary.
 
-**What goes wrong if missed.** A document starts acting like an agent, a dataset is treated as if it held a work-facing role, a dashboard status becomes permission, a proof becomes global evidence without a theory fence, or a simulation-only counterfactual output is relabelled as realized causal evidence.
+**What goes wrong if missed.** A document starts acting like an agent, a dataset is treated as if it were classified under a work-facing system-role kind, a dashboard status becomes permission, a proof becomes global evidence without a theory fence, or a simulation-only counterfactual output is relabelled as realized causal evidence.
 
-**What this buys.** A cheap first-use classification that keeps evidence-use and status-use available without turning the episteme into a role holder or letting the classification absorb performed work, a domain result, provenance, currentness, assurance, or receiving reliance.
+**What this buys.** A cheap first-use classification that keeps evidence-use and status-use available without treating the episteme as a system-role-kind member or assignment holder, and without letting the classification absorb performed Work, a domain result, provenance, currentness, assurance, or receiving reliance.
 
-**Not this pattern when.** Use A.15.1/A.6.1 for performed work and actual bindings; the exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, role, or decision pattern for its local result; C.2.1 for the result episteme; A.10/G.6 for provenance and bounded reliance; G.11 for currentness; B.3 for assurance; F.10 or another direct status pattern for status; and E.17 for publication. A.2.4 classifies only the episteme's first evidence-use or status-use.
+**Not this pattern when.** Use A.15.1/A.6.1 for performed Work and actual bindings; use the exact formal, measurement, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, system-role-kind, assignment, or decision pattern for its local result. Use C.2.1 for the result episteme, A.10/G.6 for provenance and bounded reliance, G.11 for currentness, B.3 for assurance, F.10 or another direct status pattern for status, and E.17 for publication. A.2.4 classifies only the episteme's first evidence-use or status-use.
 

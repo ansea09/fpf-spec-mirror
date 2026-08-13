@@ -6,12 +6,12 @@ section_id: "E.24.CD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.CD/E.24.CD__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.CD — Ontic Candidate Detection and First-Use Disposition"
   - "E.24.CD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 88945
-line_end: 88958
+line_start: 89649
+line_end: 89662
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,6 +39,7 @@ dependencies:
   - "C.3.2"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17.0"
   - "E.18.1"
   - "E.23"
@@ -59,7 +60,7 @@ keywords:
 | Column-to-participant jump | A field label is treated as a relation-participant meaning, or a filled field as an actual participant; either is called a `SlotSpec` because of column position. | Recover the direct predicate, its relation-participant meanings, and its actual participants first. Keep the field as a representation element or participant designation; under `A.6.5`, declare a `SlotSpec` only inside a needed `RelationSignature` for that already recovered relation. |
 | One-word candidate | A broad word is renamed and treated as settled. | Recover the subject and predicate; use E.10 and E.10.ARCH when only wording remains. |
 | Local-kind inflation | A useful project criterion is promoted to durable public ontology. | Use C.3.2 and keep the local kind, declaration, judgment, and extension distinct. |
-| Registry trap | The author keeps a list of possible ontics without deciding the blocked case. | State the work, apply one truthful governing pattern or name one precise unresolved stop, and stop. |
+| Registry trap | The author keeps a list of possible ontics without deciding the blocked case. | State the work, apply one truthful subject pattern or name one precise unresolved stop, and stop. |
 | Scoring before identity | A score form is filled before the subject and direct relation gap are known. | Recover the subject, identity rule, dependent uses, and missing coordination; use A.19.ECS only for an actual comparison. |
 | Repetition-as-admission | Several forms or patterns share a label, so an ontic is inferred. | Require the E.24 entry facts: one subject identity and minimal relation set reused by named dependent patterns. |
 | Negative-catalogue repair | The text lists only what the candidate is not. | State the positive subject, claim, governor, next action, and one blocked stronger reading. |

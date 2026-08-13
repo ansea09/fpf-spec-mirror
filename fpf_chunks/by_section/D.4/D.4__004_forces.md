@@ -6,12 +6,12 @@ section_id: "D.4:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:1.1 — Forces"
-line_start: 68941
-line_end: 68950
+line_start: 69320
+line_end: 69329
 dependencies:
   - "A.10"
   - "A.20"
@@ -35,6 +35,6 @@ keywords:
 | Mapped conflict vs. premature closure | A conflict structure makes action discussable, but does not by itself decide compromise, refusal, or permission. |
 | Evidence demand vs. decision pressure | Work may need a decision, while the ethical claim still needs stronger evidence, causal analysis, assurance, or architecture return. |
 | Mediation vs. universal authority | D.4 can govern one bounded use of a mapped conflict, but cannot become a general decision theory. |
-| Residual acceptance vs. hidden harm | Proceeding under residual harm can be admissible only when residuals, responsibility-bearing role assignments, and return conditions are explicit. |
+| Residual acceptance vs. hidden harm | Proceeding under residual harm can be admissible only when residuals, the admitted Systems involved, prospective plans or assignment requirements, direct responsibility relations or exact missing governors, and return conditions are explicit. If performance has occurred, its complete Work chain is mandatory. |
 | Mathematical allocation vs. ethical decision | A formula or optimization can inform a decision, but it is not the ethical decision by itself. |
 

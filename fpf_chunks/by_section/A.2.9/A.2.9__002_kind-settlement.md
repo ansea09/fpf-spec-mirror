@@ -6,12 +6,12 @@ section_id: "A.2.9:0.1"
 section_title: "Kind Settlement"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__002_kind-settlement.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:0.1 — Kind Settlement"
-line_start: 6802
-line_end: 6805
+line_start: 7007
+line_end: 7010
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "F.6"
   - "U.Method"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"

@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:1 — Problem frame"
-line_start: 44291
-line_end: 44298
+line_start: 44513
+line_end: 44520
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,5 +49,5 @@ FPF work meets many declarative-looking expressions and many direct objects or r
 
 The recurring failure is a category shift. Because some representations look like paths, pipelines, calls, dispatches, states, gates, or control programs, the prose starts granting them operational effects. A representation then seems to authorize work, pass a gate, enact a method, prove a result, release a system, or select a pattern by its shape alone.
 
-This pattern repairs that shift. It does not build a general theory of representation. It only restores the exact FPF-governed object, relation, or claim and its direct governing pattern when declarative-looking wording is overread as imperative or operational.
+This pattern repairs that shift. It does not build a general theory of representation. It only restores the exact FPF-governed object, relation, or claim and its subject pattern when declarative-looking wording is overread as imperative or operational.
 

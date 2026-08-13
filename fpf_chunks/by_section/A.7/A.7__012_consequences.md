@@ -6,12 +6,12 @@ section_id: "A.7:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__012_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:10 — Consequences"
-line_start: 21815
-line_end: 21831
+line_start: 22068
+line_end: 22084
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,16 +34,16 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:10 - Consequences
 
 | Benefit                      | Why it matters                                    | Trade‑off / Mitigation                             |
 | ---------------------------- | ------------------------------------------------- | -------------------------------------------------- |
-| **Category safety at scale** | Prevents silent logic bugs across holarchies.     | Slight verbosity → use local shorthand only after the holder, role value, bounded context, and governing pattern remain recoverable. |
+| **Category safety at scale** | Prevents silent logic bugs across holarchies.     | Slight verbosity → use local shorthand only after the holder, exact assignment species and occurrence, assigned system-role kind, and subject pattern remain recoverable. |
 | **Trustworthy evidence**     | Work plus A.10 carrier/source-currentness references make claims auditable. | Requires discipline → provide checklists.          |
 | **Operator determinism**     | Correct Γ‑flavour selection preserves invariants. | A bit more modelling → reusable templates.         |
 | **On‑ramp for managers**     | Canonical rewrites give immediate phrasing fixes. | Team training → this pattern is the training page. |

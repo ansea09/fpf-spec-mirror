@@ -6,12 +6,12 @@ section_id: "A.3.1:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 7763
-line_end: 7773
+line_start: 7975
+line_end: 7985
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,5 +42,5 @@ keywords:
 | "The graph path routes the decision." | Use `E.18` when the sentence is about graph structure and `C.2.P.DR` when layout is being made to prescribe action. If the source actually asserts gate passage or authority, state that separate gate or authority claim. |
 | "The optimization model is the process." | Ask whether the sentence states a formal object, a method description, a reusable way, a work plan, dated Work, or evidence; then keep only that claim in the method position. |
 | "The protocol approval proves safe execution." | Separate publication-state claim, gate or authorization claim, evidence claim or assurance claim, work plan, and dated work. |
-| "The team is the method." | Keep holders and assignments in role assignment and capability in capability; keep participant meanings, applicability, conditions, effects, and bounds with the method. |
+| "The team is the method." | Keep admitted Systems, local system-role kinds, classifications, assignments, and capability claims with their direct patterns; keep participant meanings, applicability, conditions, effects, and bounds with the Method. |
 

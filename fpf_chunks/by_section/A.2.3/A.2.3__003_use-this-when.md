@@ -6,12 +6,12 @@ section_id: "A.2.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__003_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:0 — Use This When"
-line_start: 3668
-line_end: 3687
+line_start: 3839
+line_end: 3858
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,8 +40,7 @@ dependencies:
   - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -49,11 +48,12 @@ keywords:
   - "SLA"
   - "SLO"
   - "Work evidence"
-  - "acceptanceSpec"
-  - "accessSpec"
-  - "claim scope (G)"
+  - "acceptance specification"
+  - "access specification"
+  - "claim scope"
   - "promise content"
-  - "provider/consumer roles"
+  - "promised outcome"
+  - "provider and consumer system-role kinds"
 ---
 
 ### A.2.3:0 - Use This When
@@ -68,11 +68,11 @@ Typical moments:
 
 **Primary EntityOfConcern.** The EntityOfConcern of this pattern is `U.PromiseContent`: a consumer-facing promise-content episteme. At species level, its C.2.1 `EntityOfConcernSlot` is filled by the A.7 `OutcomeSpec` episteme denoted by `promisedOutcomeSpecRef`. Its claim graph states the promised outcome, any eligibility predicate, and acceptance claims; `accessSpec` separately describes the access method when that description is current.
 
-**First useful move.** Write the promise content as a clause: what outcome is promised, under which exact effective `U.ReferenceScheme` and `U.ClaimScope`, which consumer role is eligible, how access is described when relevant, and which acceptance criteria selected work facts and post-work states must satisfy. Name the evaluation method, evidence epistemes, and A.10 evidence relations separately so a fulfilment assertion can be checked. Then use `U.Commitment` only when an accountable subject is assigned to that content.
+**First useful move.** Write the promise content as a clause: what outcome is promised, under which exact effective `U.ReferenceScheme` and `U.ClaimScope`, which exact local consumer system-role kind or other eligibility predicate applies, how access is described when relevant, and which acceptance criteria selected work facts and post-work states must satisfy. Name the evaluation method, evidence epistemes, and A.10 evidence relations separately so a fulfilment assertion can be checked. Use `U.Commitment` only for an actual duty bearer after the applicable constitutive rule and its required instituting basis obtain.
 
 **What goes wrong if missed.** The word "service" starts naming provider, API, method, ticket, work, department, and promise at once. Teams then judge work against an implicit promise, treat access systems as obligations, or count performed work without knowing which promised outcome it was meant to satisfy.
 
-**What this buys.** One consumer-facing promise-content episteme with direct exits to commitment, role assignment, access, `PromiseContentUse`, performed delivery work, affected entities and states, evaluation-operation results, optional verdict epistemes, evidence, acceptance, and publication patterns. Each neighboring claim keeps its named `EntityOfConcern` and direct relation instead of being collapsed into one undifferentiated service referent.
+**What this buys.** One consumer-facing promise-content episteme with direct exits to individual commitment, local system-role-kind references, exact system-role assignments, access, `PromiseContentUse`, performed delivery work, affected entities and states, evaluation-operation results, optional verdict epistemes, evidence, acceptance, and publication patterns. Each neighboring claim keeps its named `EntityOfConcern` and direct relation instead of being collapsed into one undifferentiated service referent.
 
-**Not this pattern when.** If the current EntityOfConcern is the accountable deontic relation, use `A.2.8`; if it is performed delivery Work, use `A.15.1`; if service/access wording hides its concrete subject or direct relation, start with A.6.P:4.11a. An exact bearer or access-providing arrangement is only one possible recovered reading; code or another episteme, Method, Work/run, participation, promise, permission, status, and direct relations keep their own readings. Use A.1/A.1.SCR only when a separate repaired claim depends on that exact entity being a system. If the current move is Contract Bundle unpacking, use `A.6.C`.
+**Not this pattern when.** If the current `EntityOfConcern` is an individual deontic relation, use `A.2.8`; if it is performed delivery Work, use `A.15.1`; if service or access wording hides its concrete subject or direct relation, start with A.6.P:4.11a. An exact bearer or access-providing arrangement is only one possible recovered reading; code or another episteme, Method, Work occurrence, participation, promise, permission, status, and direct relations keep their own readings. Use A.1 or A.1.SCR only when a separate repaired claim depends on that exact entity being a system. If source agreement or SLA wording combines several objects, use `A.6.C` to unpack them.
 

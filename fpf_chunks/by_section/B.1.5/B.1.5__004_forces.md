@@ -6,12 +6,12 @@ section_id: "B.1.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:3 — Forces"
-line_start: 36500
-line_end: 36509
+line_start: 36708
+line_end: 36717
 dependencies:
   - "A.1"
   - "A.15"
@@ -67,5 +67,5 @@ keywords:
 | Order fidelity vs compact modeling | Important sequences and joins must remain explicit without turning every diagram edge into ontology. |
 | Whole-method identity vs relation usefulness | Some method-side relations are useful without asserting one composite method whole. |
 | Interface exposure vs encapsulation | A composite method must state which interactions callers may rely on and which remain internal. |
-| Assurance vs execution | Assurance needs joins, adapters, cutsets, and failure conditions; dated enactment, result, and evidence-use claims stay with their direct owners. |
+| Assurance vs execution | Assurance needs joins, adapters, cutsets, and failure conditions; dated enactment, result, and evidence-use claims stay with their subject patterns. |
 

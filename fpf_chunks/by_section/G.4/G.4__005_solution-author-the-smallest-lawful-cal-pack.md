@@ -6,17 +6,18 @@ section_id: "G.4:4"
 section_title: "Solution — author the smallest lawful CAL pack"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__005_solution-author-the-smallest-lawful-cal-pack.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:4 — Solution — author the smallest lawful CAL pack"
-line_start: 99818
-line_end: 100049
+line_start: 101056
+line_end: 101287
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.18"
   - "A.19"
+  - "A.2.1"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.17"
+  - "F.6"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -59,15 +61,15 @@ Complete these actions in order; widen a step only when its stated input is need
 
 1. **C1 — Charter the scope.** Name `CG-FrameContext`, the exact `entityOfConcern`, `ReferencePlane`, task, and the editions of the governance and legality records being relied on. State the assumption envelope in ordinary language.
 2. **C2 — Declare one typed operator.** Give it a stable id, CHR-typed signature, preconditions, result kind, and failure behavior. This is an `A.6.1` operation declaration, not evidence of an application.
-3. **C3 — Declare one acceptance clause.** Bind the exact Characteristic/result episteme, threshold or predicate, Context, unknown handling, and stop/degrade/abstain behavior. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling/exchangeability or shift assumptions, and the exact policy that owns the guarantee.
+3. **C3 — Declare one acceptance clause.** Bind the exact Characteristic and result episteme, the threshold or predicate, the Context, unknown handling, and the stated stop, degrade, or abstain behavior. If the clause claims statistical risk or coverage control, also name the loss, target, calibration population and window, sampling or exchangeability assumptions, declared treatment of shift, and the exact policy that states the guarantee.
 4. **C4 — Compose only a legal flow.** Cite the operators and gating clauses, preserve the lawful result kind, and keep a selected set when no lawful scalarization exists. A declared DAG is possible composition, not performed work.
 5. **C5 — Name the minimum evidence/currentness need.** Cite the exact A.10 source/provenance anchors and G.11 window needed to judge the clause. Do not turn an evidence profile, citation, or graph membership into a verdict or actual reliance.
-6. **C6 — Add an extension only when the task needs one.** Select its current governing pattern first, then pin only the descriptor, distance, insertion, exploration, branch, or path records that change the present CAL action. Otherwise omit the extension.
+6. **C6 — Add an extension only when the task needs one.** Select its current subject pattern first, then pin only the descriptor, distance, insertion, exploration, branch, or path records that change the present CAL action. Otherwise omit the extension.
 7. **C7 — Record proof or an explicit gap.** For every operator, flow, or clause, cite the legality/monotonicity/boundedness justification actually required; when it is missing, publish the gap and the consequent degrade/abstain behavior.
 8. **C8 — Exercise declaration behavior.** Provide one worked authoring example and focused conformance tests for illegal operations, `pass | fail | unknown`, freshness, and failure behavior. The example and test remain declarations/test records unless separately grounded dated work is named.
-9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest `TaskMap` from the task to eligible operator/flow ids, gating clause ids, and required evidence/currentness refs. Send change refs to G.11; do not make G.4 the refresh or runtime owner.
+9. **C9 — Publish and hand off.** Mint stable ids and continuity notes, then emit the smallest `TaskMap` from the task to eligible operator/flow ids, gating clause ids, and required evidence/currentness refs. Use G.11 for change refs; G.4 defines no refresh rule or runtime occurrence or result.
 
-The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The owner-facing manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
+The authoring path is complete when a cold reader can reconstruct the plain acceptance sentence from the published ids and can also say what still has to happen at runtime. The maintainer-facing manifests, schemas, interfaces, and optional extension blocks below make the same pack machine-citable; they do not add another practitioner sequence.
 
 #### G.4:4.1 - G.Core linkage (normative)
 
@@ -202,8 +204,8 @@ A CAL pack is a reusable design-time declaration. A stored operator card, clause
 
 1. Name one exact `EvaluationMethod` (`U.Method`). Its `U.MethodDescription` may state generic participants, parameters, effects, and evaluation conditions, but it carries no actual-participant slots and no intrinsic claim that a test, proof, or acceptance event occurred.
 2. Cite the exact `CAL.Operator`, `CAL.Flow`, and `CAL.Acceptance` declarations as `A.6.1` operation semantics. If the runtime application needs argument and result bindings, use the exact `A.6.1` declaration and application bindings; do not infer them from a compatible signature, `TaskMap`, or stored reference.
-3. Ground one dated `EvaluationWork` as `U.Work`: give it an occurrence designator, temporal extent, performer through `U.RoleAssignment`, `enactsMethod`, the evaluated or affected referent, actual resources, and every concrete participant through its direct subject relation or an `A.6.1` application binding.
-4. State the local result under its direct governor. A `CAL.Acceptance` application yields its exact `pass | fail | unknown` acceptance verdict; A.19 owns comparison and selection results, C.16 owns measurement results, and C.11 owns a decision result. No generic evaluation-result or work-result field substitutes for these objects.
+3. Ground one dated `EvaluationWork` as `U.Work` and point to its complete A.15.1/F.6 basis. Recover the evaluated or affected referent, actual resources, and every concrete participant through its direct subject relation or an `A.6.1` application binding. A compact CAL account may omit only an assignment identifier unused by its receiving claim. Ordinary activity not claimed as `U.Work` does not enter this branch.
+4. State the local result under its direct predicate and pattern. A `CAL.Acceptance` application yields its exact `pass | fail | unknown` verdict; use A.19 for comparison and selection results, C.16 for measurement results, and C.11 for a decision result. No generic evaluation-result or work-result field substitutes for these objects.
 5. When a durable assertion is needed, constitute one `C.2.1` result episteme whose ClaimGraph states that local result, evaluated subject, interpretation basis, polarity or domain status, and uncertainty when current. The episteme is not the domain result and does not create it.
 6. Attach source recovery and provenance through A.10/G.6 and currentness through G.11. For an ordinary bounded use below B.3's material-reliance threshold, state the exact A.10 evidence-provenance path and local `RelianceDisposition`; enter B.3 only for an assurance claim or material reliance. A citation, ledger edge, evidence profile, disposition, or assurance record does not establish the work, participant, application, or local result it describes.
 7. A later selector, acceptance action, or decision is another governed occurrence. It relies on the result episteme through an exact premise, reference, decision-use, or operation-argument relation; mere storage, citation, or graph membership does not establish actual use.

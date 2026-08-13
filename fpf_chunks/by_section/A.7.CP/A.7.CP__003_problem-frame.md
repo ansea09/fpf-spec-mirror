@@ -6,12 +6,12 @@ section_id: "A.7.CP:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:1 — Problem frame"
-line_start: 22267
-line_end: 22272
+line_start: 22520
+line_end: 22525
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -27,7 +27,7 @@ keywords:
 
 ### A.7.CP:1 - Problem frame
 
-Dated work applying an FPF method can rely on broad claims such as “a publication does not create world-side obtaining” or “a method episteme does not perform work”. A method episteme may separately state or cite one of those claims as a declared premise or branch condition under its own episteme/declaration owner. `ClaimUsedAsReasoningBasisRelation@Context` instead records only the claim on which one actual inference, comparison, or choice in dated work relies. Copying the claim into every method makes it drift; leaving the dated reliance implicit hides whether a particular result used an adopted premise, a conditional branch, or no common claim at all.
+Dated work applying an FPF method can rely on broad claims such as “a publication does not create world-side obtaining” or “a method episteme does not perform work”. A method episteme may separately state or cite one of those claims as a declared premise or branch condition in its own episteme or declaration. `ClaimUsedAsReasoningBasisRelation@Context` instead records only the claim on which one actual inference, comparison, or choice in dated work relies. Copying the claim into every method makes it drift; leaving the dated reliance implicit hides whether a particular result used an adopted premise, a conditional branch, or no common claim at all.
 
-The compact publishes twelve stable claim contents once. A method description can declare an intrinsic premise or a branch condition under its own episteme/declaration owner; a dated application records only the compact claims actually used in its reasoning. Ordinary work therefore does not acquire a foundation checklist.
+The compact publishes twelve stable claim contents once. A method description can declare an intrinsic premise or a branch condition in its own episteme or declaration; a dated application records only the compact claims actually used in its reasoning. Ordinary work therefore does not acquire a foundation checklist.
 

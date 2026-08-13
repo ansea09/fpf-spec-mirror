@@ -6,12 +6,12 @@ section_id: "A.7.1:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:5 — Archetypal Grounding"
-line_start: 21967
-line_end: 21974
+line_start: 22220
+line_end: 22227
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -30,9 +30,9 @@ keywords:
 
 ### A.7.1:5 - Archetypal Grounding
 
-**Support occurrence repair.** A maintenance claim says bearing B1 continued supporting shaft S1 after removal and reinstallation. The direct relation identity rule defeats that reading before a second ontology is written. The A.7.1 analysis method is already selected, while the current support-relation owner constrains the disputed claim; neither the bearing/shaft subject nor that owner is an apparatus candidate, so the work creates no option set. Ontology-analysis work uses `A7CP-01` and `A7CP-10`, recovers two support occurrences, repairs the warranty and incident-attribution claim, and returns it to maintenance. No new relation kind or U-kind is created.
+**Support occurrence repair.** A maintenance claim says bearing B1 continued supporting shaft S1 after removal and reinstallation. The direct relation identity rule defeats that reading before a second ontology is written. The A.7.1 analysis method is already selected, while the current support-relation pattern constrains the disputed claim; neither the bearing/shaft subject nor that subject pattern is an apparatus candidate, so the work creates no option set. Ontology-analysis work uses `A7CP-01` and `A7CP-10`, recovers two support occurrences, repairs the warranty and incident-attribution claim, and returns it to maintenance. No new relation kind or U-kind is created.
 
 **Missing telemetry non-use.** A team cannot determine pump state because telemetry was never collected. State kinds, evidence relations, and candidate actions are already clear. The result is `returnToDirectOwner` for measurement and evidence work with the blocked state claim; no premise-use occurrence or ontology artifact is minted.
 
-**Construction-changing case.** A maintenance set uses “part” for both `MemberOf` and `ComponentOf`. Removal action differs only in the structural construction case. The work returns the disputed item to `C.13`, repairs the direct maintenance claim, and leaves unrelated set membership unchanged.
+**Construction-changing case.** A maintenance set uses “part” for both `MemberOf` and `ComponentOf`. Removal action differs only in the structural construction case. The work requires `C.13 for the disputed item`, repairs the direct maintenance claim, and leaves unrelated set membership unchanged.
 

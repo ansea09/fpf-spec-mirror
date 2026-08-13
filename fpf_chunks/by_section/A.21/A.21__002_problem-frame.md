@@ -6,12 +6,12 @@ section_id: "A.21:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:1 — Problem frame"
-line_start: 33971
-line_end: 34011
+line_start: 34173
+line_end: 34213
 dependencies:
   - "A.19"
   - "A.2.6"
@@ -58,7 +58,7 @@ This pattern is **about the semantics of what is published** (and how it compose
 #### A.21:1.2 - Primary EntityOfConcern and gate-profile value family
 
 * **`OperationalGate(profile)`** — a gate/check locus in an `E.18` `TransformationFlowStructure` that mediates any **GateCrossing**: any change in `CtxState = ⟨L,P,E⃗,D⟩` or entry to performed `U.Work` through `LaunchGate`.
-* **`GateProfile`** — the profile-bound constraint of the partial function `CtxState_from -> CtxState_to`; this pattern carries the current binding and minimum profile semantics. Fuller project-local profile matrices are auxiliary material unless a current governing pattern includes them by value.
+* **`GateProfile`** — the profile-bound constraint of the partial function `CtxState_from -> CtxState_to`; the defining `ClaimGraph` located here states the current binding and minimum profile semantics. Fuller project-local profile matrices are auxiliary material unless an exact current subject assertion includes them by value under its own defining or constraining `ClaimGraph`.
 * **`GateCheckRef`** — the publication lexeme that binds a check to `(aspect, kind, edition, scope)`.
 * **`GateDecision`, `GateDecisionRationale`, and `GateDecisionExplanation`** — decision value, structured rationale, and optional narrative (non-decision).
 * **`DecisionLog`** — append-only audit record linking decisions to check refs, rule references, and (where applicable) SquareLaw mismatches.
@@ -66,12 +66,12 @@ This pattern is **about the semantics of what is published** (and how it compose
 #### A.21:1.3 - CV vs GF boundary (what “activation” means)
 
 * **ConstraintValidity (CV)** evaluates *internal step validity*;
-* **GateFit (GF)** is an aspect label on `GateCheckRef` for checks that evaluate *fit to the current `GateProfile`*: plane fit, crossing fit, freshness, evidence, role-channel fit, regulator conformance, and similar profile-fit claims. It is not a durable U-kind, graph node, record family, module, queue, or stage in the flow.
+* **GateFit (GF)** is an aspect label on `GateCheckRef` for checks that evaluate *fit to the current `GateProfile`*: plane fit, crossing fit, freshness, evidence, System-to-system-role-kind or exact-assignment fit, channel fit, regulator conformance, and similar profile-fit claims. It is not a durable U-kind, graph node, record family, module, queue, or stage in the flow.
 * **Ordering & activation.** CV is evaluated before GateFit; **while `CV.Status != pass`, all GateFit checks return `abstain`.**
 
 #### A.21:1.4 - Failure cases (diagnostic lens)
 
-* **CV ✔, GF ✖**: the transformation has passing internal CV, but the gate, profile, role, timing, or evidence fit is wrong.
+* **CV ✔, GF ✖**: the transformation has passing internal CV, but the gate, profile, System-to-system-role-kind or assignment fit, timing, channel, or evidence fit is wrong.
 * **CV ✖, GF ?**: fix the internal constraint-validity failure first; GF is inactive.
 * **CV ✔, GF ✔**: the gate publishes a `GateDecision` for the declared crossing; for `LaunchGate`, this is the gate decision for crossing into performed `U.Work`, not actual work occurrence.
 

@@ -6,12 +6,12 @@ section_id: "B.1.6:5"
 section_title: "Aggregation Rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__008_aggregation-rules.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:5 — Aggregation Rules"
-line_start: 36957
-line_end: 36988
+line_start: 37165
+line_end: 37196
 dependencies:
   - "A.1"
   - "A.10"
@@ -58,7 +58,7 @@ keywords:
 
 **Measurement before aggregation.** Each measured input points to exact C.16 measurement work and one measurement-result episteme. Raw meter output, indication, resource stock, attributed value, aggregation input, and later efficiency verdict remain distinct.
 
-**Exact Work set.** Name every dated Work occurrence included. Parent/child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, other admitted Work-part, partition, and overlap relations must already obtain under A.15.1 or their exact direct owners. A method, plan, epoch or phase label, invoice period, or dashboard grouping does not establish the Work set.
+**Exact Work set.** Name every dated Work occurrence included. Parent/child, `TemporalPartOf_work`, `EpisodeOf_work`, `OperationalPartOf_work`, other admitted Work-part, partition, and overlap relations must already obtain under A.15.1 or their exact subject patterns. A method, plan, epoch or phase label, invoice period, or dashboard grouping does not establish the Work set.
 
 **Exact policy.** The aggregation policy states inclusion/exclusion, conversion, normalization, weighting, missing-value treatment, boundary allocation, uncertainty treatment, overlap/deduplication, and output kind. A policy declaration is not aggregation work or a result.
 
@@ -70,7 +70,7 @@ keywords:
 
 **Plan/result separation.** Expected use from a method description or work plan remains planned. Resource readiness remains A.15.5. Neither proves performed work or a measured aggregation result.
 
-**Efficiency and yield.** A ratio or yield claim names its input resource results, exact output/domain result, measurement bases, aggregation work, and comparison policy. It does not use a generic output-result relation. Apparent free gain remains a measurement, accounting-boundary, substitution, or whole-reidentification question until its direct owner is recovered.
+**Efficiency and yield.** A ratio or yield claim names its input resource results, exact output/domain result, measurement bases, aggregation work, and comparison policy. It does not use a generic output-result relation. Apparent free gain remains a measurement, accounting-boundary, substitution, or whole-reidentification question until its subject pattern is recovered.
 
 #### B.1.6:5.1 - Compact Obligation Rows
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - System Role Assignment"
+pattern_title: "U.SystemRoleAssignment - Contextual System-Role Assignment"
 section_id: "A.2.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:2 — Problem"
-line_start: 3037
-line_end: 3047
+line_start: 3172
+line_end: 3184
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -20,33 +20,36 @@ dependencies:
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
   - "A.6.5"
   - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.3.3"
   - "F.6"
   - "F.9"
-  - "U.Role"
 keywords:
-  - "AssignmentInterval"
-  - "assignment occurrence"
-  - "effective ReferenceScheme"
+  - "assignment predicate"
+  - "direct assignment species"
   - "holder System"
+  - "identity"
+  - "maximal interval"
   - "performedUnderAssignment"
-  - "role value"
-  - "role-taxonomy episteme"
+  - "system-role kind"
 ---
 
 ### A.2.1:2 - Problem
 
 Without this pattern:
 
-1. a role name is used as if it identified a holder and assignment episode;
-2. role value, taxonomy episteme, interpretation scheme, holder, and time are compressed into one label;
-3. two assignments with the same holder and role but disjoint windows become one occurrence;
-4. assignment is treated as proof of capability, method admission, role state, performed work, or authorization;
-5. a constituting assignment decision or installation relation and epistemic evidence or provenance collapse into one untyped justification field;
-6. an optional DDD model-use structure is made mandatory or identity-bearing without showing that it changes interpretation.
+1. a system-role kind or familiar job label is used as if it identified an assignment episode;
+2. one broad `U.Kind` slot admits physical, functional, assignment-occurrence, and arbitrary local kinds;
+3. a root signature hides different participant laws behind optional fields;
+4. a strong appointment is represented as one generic assignment plus another unrelated occurrence;
+5. assignments with the same holder and kind but different commissions or separated episodes collapse;
+6. taxonomy, scheme, context, interval, decision, and evidence become generic participants;
+7. assignment is treated as classification, capability, authorization, responsibility, or Work;
+8. a storage key replaces the predicate and uninterrupted occurrence identity.
 

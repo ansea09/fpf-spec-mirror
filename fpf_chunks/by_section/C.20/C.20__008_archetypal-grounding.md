@@ -6,12 +6,12 @@ section_id: "C.20:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__008_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:5 — Archetypal Grounding"
-line_start: 50551
-line_end: 50602
+line_start: 50807
+line_end: 50858
 dependencies:
   - "A.1"
   - "A.14"
@@ -58,9 +58,9 @@ The former Tell-Show-Show contrast remains useful because it asks five different
 | Reader function | System-side safety scene | Episteme-side discipline scene | C.20 boundary |
 | --- | --- | --- | --- |
 | **Exact object** | One production line with hazardous operations is an exact `U.System` under A.1; its work and state remain separate. | One exact canon or discipline-description `U.Episteme` states accident-model and tolerable-risk claims about its declared EntityOfConcern under its effective ReferenceScheme. The `SafetyEngineering-SE` field candidate remains another entity. | Neither the system nor one episteme is the discipline; identify the field candidate and test its construction independently. |
-| **Concept contribution** | Acceptance clauses and evaluation templates bound to exact rigs and windows are epistemes used by the plant system and its Work, not concepts owned by the system. | Canon content can include causality models, design rules, proofs, benchmarks, formal knowledge bases, proof carriers, and concept schemas under their direct episteme, form, or representation owners. | Ask which exact claim-bearing contribution is constitutive and which whole-forming claim connects it; conceptual relevance alone creates no part. |
+| **Concept contribution** | Acceptance clauses and evaluation templates bound to exact rigs and windows are epistemes used by the plant system and its Work, not concepts owned by the system. | Canon content can include causality models, design rules, proofs, benchmarks, formal knowledge bases, proof carriers, and concept schemas under their direct episteme, form, or representation patterns. | Ask which exact claim-bearing contribution is constitutive and which whole-forming claim connects it; conceptual relevance alone creates no part. |
 | **Symbolic representation** | Local SOP and checklist notation can express plant procedures for one bounded use. | CLIF, RDF/TriG, proof scripts, diagrams, and other notation packages can express or represent canon content. | E.17/E.24.PUB and C.29 govern form, carrier, publication, and representation; symbolic appearance identifies none of System, Episteme, or Discipline. |
-| **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, roles, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or historical `Gamma_disc` fold constructs neither candidate. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
+| **Assembly contrast** | A line-specific standard, plant procedures, and a certifying unit are exact epistemes, Methods, systems, system-role kinds or assignments, or Work inputs around a possible `Safety-Plant-A` field candidate. | Canon papers, formal models, a journal or committee, and system-safety or resilience-engineering tradition claims are likewise separately governed around `SafetyEngineering-SE`. | A list or historical `Gamma_disc` fold constructs neither candidate. For either scene, recover exact parts, obtaining `disciplinePartOf` occurrences, whole-forming couplings, assembly, reidentification, whole characteristic, and larger-assembly compatibility. |
 | **Evidence-lane contrast** | LA test campaigns with freshness windows, VA design proofs, and TA tool qualifications can support exact plant-side claims. | VA proofs over kinds, LA replications or meta-analyses, and TA evidence for checkers can support exact canon or construction claims. | A.10/B.3 records lanes, source anchors, currentness and reliance only for the exact supported use; evidence changes no System, Episteme, or Discipline identity and creates no part relation. |
 
 #### C.20:5.1 - Safety engineering as a positive construction
@@ -77,7 +77,7 @@ The three exact relation occurrences are `disciplinePartOf(HazardCausalityCanon-
 
 The reidentification rule permits a compatible canon revision or replacement Method only when the field boundary, causal and argument meanings, practice-knowledge feedback, and whole characteristic remain within declared continuity conditions. Removing the feedback route, changing the governing safety concern and field boundary, or replacing the assembly by unrelated document and method lists falls outside the rule.
 
-`Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and published discipline card remain separately governed. They are not parts in this case because no separate C.20 predicate has been established for them. Actual review or teaching Work is performed by exact systems under exact role assignments and may enact the part Methods; it neither becomes the discipline nor proves the three part relations.
+`Safety Journal`, a standards committee, a university curriculum, a laboratory, a bridge to resilience-engineering terminology, a comparison CG-Spec, and published discipline card remain separately governed. They are not parts in this case because no separate C.20 predicate has been established for them. Actual review or teaching Work is performed by exact systems under exact system-role assignments and may enact the part Methods; it neither becomes the discipline nor proves the three part relations.
 
 For A.1's larger-assembly test, the separately identified rule episteme `EngineeringFieldAssemblyRule-v3` describes a governed larger-field construction whose applicability requires one constituent field to expose stable hazard-constraint meanings, analysis-result meanings, and identity-preserving interfaces to design and verification practices. `SafetyEngineering-SE` has those actual interfaces and its reidentification rule preserves them, so it is compatible with that possible assembly while remaining the same candidate. The rule episteme does not create the compatibility facts, and this result asserts no actual `disciplinePartOf(SafetyEngineering-SE, Engineering-E)` occurrence.
 
@@ -85,7 +85,7 @@ A C.13 `Gamma_m.sum` trace may report the candidate, three parts, three part-rel
 
 #### C.20:5.2 - A department, corpus, and method registry are not yet a discipline
 
-`Safety Department A` performs research and teaching Work. Its repository contains standards and papers, and its registry lists analysis Methods. Those facts establish a system, Work, epistemes, publications, and registry membership under their direct owners.
+`Safety Department A` performs research and teaching Work. Its repository contains standards and papers, and its registry lists analysis Methods. Those facts establish a system, Work, epistemes, publications, and registry membership under their subject patterns.
 
 They do not yet establish which exact entities are field constituents, any `disciplinePartOf` occurrence, a practice-knowledge assembly, one whole characteristic, or a reidentification rule. The useful result is the recovered collection and work organization. Stop before `U.Discipline`; do not fill missing canon, carrier, bridge, or comparison positions merely to complete a card.
 

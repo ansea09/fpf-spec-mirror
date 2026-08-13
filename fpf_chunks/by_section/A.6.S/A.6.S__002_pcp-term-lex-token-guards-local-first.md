@@ -6,12 +6,12 @@ section_id: "A.6.S:0"
 section_title: "PCP-TERM/LEX token guards (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__002_pcp-term-lex-token-guards-local-first.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:0 — PCP-TERM/LEX token guards (local-first)"
-line_start: 20675
-line_end: 20688
+line_start: 20928
+line_end: 20941
 dependencies:
   - "A.12"
   - "A.3"
@@ -54,7 +54,7 @@ This pattern reserves the following tokens in Tech (normative) register:
 Rename-guards (common collisions):
 
 * **enabling** — Plain adjective meaning “producing/maintaining the TargetSignature”; it is not a `U.*` token.
-* **constructor** — MUST be disambiguated as one of: `ConstructorSignature` (episteme), `constructor op` (EFEM), or system/acting holon assigned a work-facing role for the enacted construction work. If the physics term is intended, spell **“Constructor Theory”** explicitly.
+* **constructor** — MUST be disambiguated as one of: `ConstructorSignature` (episteme), `constructor op` (EFEM), or the admitted System that performs the construction Work. State any local system-role classification and obtaining system-role assignment separately. If the physics term is intended, spell **“Constructor Theory”** explicitly.
 * **target** — avoid bare “target” in Tech clauses; use `TargetSignature` or qualify the target (e.g., “Bridge target Context”, “target holon”).
 * **contract** — if source wording uses this Plain shorthand, recover whether it means `TargetSignature`, Contract Bundle, promise content, commitment, or work/evidence. In this pattern the intended recovered value is usually `TargetSignature`; promises, duties, and gates are classified under `A.6.B` and `A.6.C`.
 

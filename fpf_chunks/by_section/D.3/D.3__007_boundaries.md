@@ -6,12 +6,12 @@ section_id: "D.3:4"
 section_title: "Boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__007_boundaries.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:4 — Boundaries"
-line_start: 68842
-line_end: 68851
+line_start: 69221
+line_end: 69230
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "D.2"
   - "D.4"
   - "D.5"
+  - "E.10.ROLE"
   - "E.17"
 keywords:
 ---
@@ -37,8 +38,8 @@ keywords:
 | Do this in D.3 | Do not do this in D.3 |
 | --- | --- |
 | State the declared levels or scopes that make the conflict interlevel. | Invent `U.Level`, `U.Frustration`, or `U.Emergence`. |
-| Name affected holons, systems, epistemes, collections, roles, methods, work, transformations, evidence, and value concerns. | Treat a source label such as "society", "organization", "AI", "ecosystem", or "standard" as enough. |
+| Name affected holons, Systems, epistemes, collections, Methods, actual Work, transformations, evidence, and value concerns. Recover role wording through `E.10.ROLE`, and keep local kind, System-classification judgment, assignment species and occurrence, agency threshold, responsibility, commitment, permission, authority, and participation separate. | Treat a source label such as "society", "organization", "AI", "ecosystem", "role", or "standard" as enough. |
 | Keep conflict structure separate from mediation and decision use. | Choose the compromise, refusal, or override. |
-| Return architecture residuals to `C.30.ILC` when architecture structure is current. | Make ethics the owner of every cross-scope architecture problem. |
-| Return bias, fairness, impact audit, and ethical assurance to `D.5`. | Rebuild D.5 inside the conflict map. |
+| Use `C.30.ILC for architecture residuals` when architecture structure is current. | Route every cross-scope architecture problem to ethics. |
+| Use `D.5 for bias, fairness, impact audit, and ethical assurance`. | Rebuild D.5 inside the conflict map. |
 

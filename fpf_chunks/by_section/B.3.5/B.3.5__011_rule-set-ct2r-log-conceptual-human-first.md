@@ -6,12 +6,12 @@ section_id: "B.3.5:9"
 section_title: "Rule‑set — CT2R‑LOG (conceptual, human‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__011_rule-set-ct2r-log-conceptual-human-first.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:9 — Rule‑set — CT2R‑LOG (conceptual, human‑first)"
-line_start: 39498
-line_end: 39587
+line_start: 39709
+line_end: 39798
 dependencies:
   - "B.3"
   - "C.13"
@@ -29,7 +29,7 @@ keywords:
 
 **Intent (one line).** Make **Working-Model** relations the canonical relation vocabulary for authors, while providing a clean, purpose-selected bridge to assurance through aliasing and grounding semantics; the bridge is required for published structural assertions under this pattern.
 
-#### B.3.5:9.1 - Vocabulary & Roles (what the words mean in this pattern)
+#### B.3.5:9.1 - Vocabulary and meanings in this pattern
 
 * **Working-Model relation.** A human-oriented statement an engineer would naturally write, using public relation kinds such as `ut:ComponentOf`, `ut:PortionOf`, `ut:AspectOf`, `ut:MemberOf`. This is the **canonical public relation layer** for structure for readers and reviewers in Part B. (Didactic primacy governs this choice.)
 

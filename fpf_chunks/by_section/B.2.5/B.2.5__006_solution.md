@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 38324
-line_end: 38385
+line_start: 38534
+line_end: 38596
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,8 +45,9 @@ Model the current object as `SupervisorSubholonFeedbackRelation@Context`.
 SupervisorSubholonFeedbackRelation@Context:
   supervisedHolonRefs: FinSet(U.HolonRef)
   boundedContextRef:
-  supervisorRoleRef:
-  supervisingActingSystemRef:
+  supervisorSystemRoleKindRef?: U.KindRef resolving to one exact local system-role kind
+  supervisingActingSystemRef: U.EntityRef resolving to one admitted U.System
+  supervisorSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
   supervisedWorkOrTransformationRefs?
   observationOrReportRefs: FinSet(ObservationRef | ReportRef | PublicationUnitRef | SourceUseRef)
   influenceOrConstraintRefs: FinSet(InfluenceSignalRef | ConstraintRef | ObjectiveRef | ModeRef)
@@ -58,7 +59,7 @@ SupervisorSubholonFeedbackRelation@Context:
   neighboringClaimOwnerRefs?
 ```
 
-This relation is not a U-kind and not a mathematical loop lens. It is a relation record for the current bounded context.
+This relation is not a U-kind and not a mathematical loop lens. It is a relation record for the bounded context. The kind and assignment fields are present only when the classification and the assignment occurrence with its declared species exist separately; the feedback relation creates neither.
 
 #### B.2.5:4.1 - Two-Sided Feedback Relation
 
@@ -67,23 +68,23 @@ A one-way command, publication, or report relation is not yet a supervisor-subho
 - the observation, report, signal, source, or publication side; and
 - the returned influence, constraint, objective, mode, or work-change side.
 
-If only one side is current, record a one-sided relation and use the direct owner for that claim.
+If only one side is current, record a one-sided relation and use the subject pattern for that claim.
 
 #### B.2.5:4.2 - Part-Whole Boundary
 
-A supervised holon may be part of a larger holon, but supervision and parthood are different relations. An acting controller system, committee system, platform-governance system, review board, or tool-mediated group can hold the supervisor role without being a physical part of the supervised holon. A method, policy, or review practice can structure the supervision work; it does not supervise by itself.
+A supervised holon may be part of a larger holon, but supervision and parthood are different relations. An acting controller system, committee system, platform-governance system, review board, or tool-mediated group can supervise under an exact system-role assignment without being a physical part of the supervised holon. A method, policy, or review practice can structure the supervision work; it does not supervise by itself.
 
 Use `A.1`, `B.1`, `A.14`, and `C.13` for parthood. Use B.2.5 only for the supervisor-subholon feedback relation.
 
 #### B.2.5:4.3 - Acting-System Boundary
 
-The supervisor role is held by an acting system in a bounded context. Do not create `U.TransformerRef` or treat a publication, theory, dashboard, model, method description, or report as the acting system.
+The supervising participant is an admitted acting system. When local classification matters, A.2 supplies the exact supervisor system-role kind and A.2.1 supplies the obtaining assignment; neither label nor assignment acts. Do not create `U.TransformerRef` or treat a publication, theory, dashboard, model, method description, or report as the acting system.
 
-For acting-side externalization, use `A.12`. For transformation, use `A.3.4`. For work, use `A.15.1`. For role assignment, use `A.2.1`.
+For acting-side externalization, use `A.12`. For transformation, use `A.3.4`. For Work, use `A.15.1`. For system-role kind and assignment, use `A.2` and `A.2.1`.
 
 #### B.2.5:4.4 - Control-Structure View Boundary
 
-When the relation is drawn as planner, controller, observer, plant, and supervisor structure, B.2.5 names the relation, while `C.30.LCA` owns the control-structure view. A diagram or view does not establish the relation by appearance; recover the in-life relation and the description relation separately.
+When the relation is drawn as planner, controller, observer, plant, and supervisor structure, B.2.5 names the relation, while `C.30.LCA` is the pattern for the control-structure view. A diagram or view does not establish the relation by appearance; recover the in-life relation and the description relation separately.
 
 #### B.2.5:4.5 - Neighboring Claim Boundary
 

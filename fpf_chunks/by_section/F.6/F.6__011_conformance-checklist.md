@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:9 — Conformance Checklist"
-line_start: 91853
-line_end: 91866
+line_start: 92604
+line_end: 92624
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,38 +22,44 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:9 - Conformance Checklist
 
 1. `WorkOccurrenceSlot` names one admitted dated `U.Work` occurrence.
-2. `RoleAssignmentSlot` names one obtaining `U.RoleAssignment` occurrence.
-3. The assignment exposes holder system, role value, role-taxonomy episteme, and effective reference scheme as participants; its maximal continuous assignment extent is checked separately.
-4. The assignment holder is the system claimed to have performed the work.
-5. The assignment episode covers the selected work occurrence's interval; attribution to only one part first selects that part as `U.Work`.
-6. The attribution uses direct `performedUnderAssignment` wording and introduces no `RoleEnactmentFact`.
-7. Role state, capability, method, result, evidence, source reliance, publication, gate, and decision claims use their direct patterns.
-8. Any selected model-use structure is designated by the receiving attribution assertion or use, not by an optional slot in generic `U.RoleAssignment`.
-9. Missing evidence leaves the relied-on assertion unresolved rather than proving non-attribution.
-10. Compact source notation is unfolded before a receiving use depends on hidden assignment positions.
-11. The work assertion makes a separately obtaining actual `enactsMethod(W, M)` relation to one exact `U.Method` recoverable; it does not make the role value, assignment, capability, method, or method description the actor, and it does not infer `U.MethodDescription` membership from a label or algorithm-possession phrase.
+2. `SystemRoleAssignmentSlot` names one assignment occurrence of a declared species under `U.SystemRoleAssignment` through `U.RelationRef`.
+3. The assignment's declared species, all identity-bearing participants, rule, applicability, and uninterrupted occurrence identity remain recoverable.
+4. The case establishes that W was performed under RA; the assignment's existence, matching holder, and temporal overlap do not establish that link.
+5. The assignment holder is the System that actually performed W.
+6. The assignment predicate covers the selected Work interval; attribution to a Work part first identifies that part as `U.Work`.
+7. Checks 2, 3, 5, and 6 constrain a valid attribution but do not by themselves establish it.
+8. Overlapping assignments are distinguished by all their participants and by checking each Work–assignment link from the case; an unresolved case yields no blanket attribution.
+9. Every actual performer of top-level or child Work has its own covering assignment and F.6 link to that Work; lead, team, member, allocation, coordination, and responsibility claims do not substitute.
+10. A passive assigned System receives no performer attribution from assignment or overlap; any claimed passive participation uses the rule that defines it or returns the A.6.RCD `missing-governor` result.
+11. F.6 uses `performedUnderAssignment` and introduces no `RoleEnactmentFact` or generic assignment duplicate.
+12. Assertions and evidence may support reliance on the attribution claim but do not make it true.
+13. Classification, assignment state, capability, Method, result, evidence, source reliance, publication, responsibility, authority, gate, and decision claims use direct patterns.
+14. Any selected model-use structure is designated by the receiving assertion or use, not by an optional generic slot.
+15. Missing evidence leaves reliance unresolved rather than proving non-attribution; missing pair grounding leaves the positive relation unasserted.
+16. Source shorthand is unfolded before a receiver depends on hidden values.
+17. The Method enacted by W remains a separate fact, and no kind, assignment, capability, Method, or description is made the actor.
+18. A short practitioner sentence may omit declaration and occurrence detail only after the Work–assignment link and its constraints are established.
 

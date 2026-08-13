@@ -6,12 +6,12 @@ section_id: "C.28:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:0 — Use This When"
-line_start: 57292
-line_end: 57405
+line_start: 57566
+line_end: 57679
 dependencies:
   - "A.10"
   - "A.15"
@@ -150,7 +150,7 @@ CausalSupportBasisTriageValue =
   missing
 ```
 
-`cheapStop` values are terminal or downgrade actions. They close the local causal-use question for now by saying what narrower use remains admissible, which neighboring pattern governs the remaining non-causal question, or that causal use is declined. `escalateOnlyIfUseDependsOnCausalSupport` values are record-opening actions. They are admissible only when the supported-use and unsupported-use boundary cannot safely carry the reader's next action by itself.
+`cheapStop` values are terminal or downgrade actions. They close the local causal-use question for now by saying what narrower use remains admissible, what exact subject assertion states the remaining non-causal question and where its defining or constraining `ClaimGraph` is located, or that causal use is declined. `escalateOnlyIfUseDependsOnCausalSupport` values are record-opening actions. They are admissible only when the supported-use and unsupported-use boundary cannot safely carry the reader's next action by itself.
 
 If this first output cannot be written honestly, the causal-use claim is not ready.
 

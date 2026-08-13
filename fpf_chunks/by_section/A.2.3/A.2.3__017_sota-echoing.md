@@ -6,12 +6,12 @@ section_id: "A.2.3:10.3"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__017_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10.3 — SoTA-Echoing"
-line_start: 4116
-line_end: 4121
+line_start: 4291
+line_end: 4296
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,8 +40,7 @@ dependencies:
   - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -49,16 +48,17 @@ keywords:
   - "SLA"
   - "SLO"
   - "Work evidence"
-  - "acceptanceSpec"
-  - "accessSpec"
-  - "claim scope (G)"
+  - "acceptance specification"
+  - "access specification"
+  - "claim scope"
   - "promise content"
-  - "provider/consumer roles"
+  - "promised outcome"
+  - "provider and consumer system-role kinds"
 ---
 
 ### A.2.3:10.3 - SoTA-Echoing
 
 Service-management, product, utility, platform, and public-service practice all distinguish offers, providers, access channels, service levels, work execution, and evidence of fulfilment, even when everyday language calls all of them "the service". A.2.3 keeps that practical distinction in FPF by giving the consumer-facing promise clause its own episteme value and by using the patterns that define or test provider, access, commitment, work, and evidence claims.
 
-Contract and SLA practice distinguishes promised content from obligation-bearing acts or agreements and from later performance evidence. FPF keeps that separation without importing a domain-specific service taxonomy; the promise-content episteme remains usable across IT, utilities, healthcare, public services, manufacturing support, and other project domains.
+Service-level-agreement practice distinguishes promised content from obligation-bearing acts or agreements and from later performance evidence. FPF keeps that separation without importing a domain-specific service taxonomy; the promise-content episteme remains usable across utilities, healthcare, public services, manufacturing support, software services, and other project domains.
 

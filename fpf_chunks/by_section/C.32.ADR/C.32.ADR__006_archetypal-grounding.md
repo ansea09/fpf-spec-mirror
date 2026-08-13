@@ -6,12 +6,12 @@ section_id: "C.32.ADR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:5 — Archetypal Grounding"
-line_start: 67045
-line_end: 67054
+line_start: 67378
+line_end: 67387
 dependencies:
   - "A.10"
   - "A.15"
@@ -50,5 +50,5 @@ keywords:
 
 **Certification rationale.** A regulated product records a safety-architecture decision in a certification rationale. The record carries the decision outcome, rationale, evidence refs, architecture-description refs, and confirmation path, while evidence and assurance claims stay in `A.10` and `B.3`.
 
-**Method-governance record.** A method family decides that reviewers must use an evidence handoff pattern before final review. The ADR-like record cites the method description and expected evidence-structure effect; it does not become the method itself or the performed review work.
+**Method-use record.** A project decision requires reviewers to use an evidence handoff pattern before final review. The ADR-like record cites the Method description and expected evidence-structure effect; the Method family does not decide, and the instruction does not by itself establish performed review Work.
 

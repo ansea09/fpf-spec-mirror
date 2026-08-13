@@ -6,12 +6,12 @@ section_id: "A.15.4:9.3"
 section_title: "Lowering, Repair, and Refresh Conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__017_lowering-repair-and-refresh-conditions.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9.3 — Lowering, Repair, and Refresh Conditions"
-line_start: 26050
-line_end: 26057
+line_start: 26248
+line_end: 26255
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"
@@ -54,5 +56,5 @@ Lower an `A.15.4` use when the attempted work or reliance claim, required relati
 
 Repair the local `A.15.4` record when its appearance, source currentness, revocation, source order, dashboard/credential publication, copied/generated source relation, boundary wording, or work-result cue changes. Repair the recovered value through the applicable evidence, assurance, gate, constraint, role/state, work, publication, boundary, or §3 permission/authority pattern; A.15.4 does not replace the repair defined there.
 
-Refresh before allowing the reliance appearance to guide release, safety, compliance, delegated role-assignment or role-state, contested source relation, cross-context reuse, work-result reliance, external-impact reliance, or irreversible work. Stop at the smallest changed prerequisite or source relation: reliance appearance, selected source `U.Episteme` for the current claim, exact `EpistemePublicationRelation` occurrence when availability is material, publication form or carrier when either changed, required relation or result, source-currentness relation, role-state record, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or work relation.
+Refresh before allowing the reliance appearance to guide release, safety, compliance, a delegated system-role-assignment or assignment-state claim, contested source relation, cross-context reuse, work-result reliance, external-impact reliance, or irreversible Work. Stop at the smallest changed prerequisite or source relation: reliance appearance, selected source `U.Episteme` for the current claim, exact `EpistemePublicationRelation` occurrence when availability is material, publication form or carrier when either changed, required relation or result, source-currentness relation, system-role-assignment-state assertion or its evidence or currentness relation, credential-status record, context-state record, revocation record, gate relation, evidence relation, assurance relation, copied-source relation, generated-source relation, or Work relation.
 

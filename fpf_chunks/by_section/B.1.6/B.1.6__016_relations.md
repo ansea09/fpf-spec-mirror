@@ -6,12 +6,12 @@ section_id: "B.1.6:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__016_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:10 — Relations"
-line_start: 37056
-line_end: 37065
+line_start: 37264
+line_end: 37273
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,11 +54,11 @@ keywords:
 
 ### B.1.6:10 - Relations
 
-- Builds on `A.15.1` and `A.6.1` for dated measurement/aggregation work, role assignment, declarations, and actual bindings; C.2.1 for measurement-result and aggregation-result epistemes.
+- Builds on `A.15.1` and `A.6.1` for dated measurement or aggregation work, system-role assignment, declarations, and actual bindings; C.2.1 for measurement-result and aggregation-result epistemes.
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.
 - Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, proper temporal restriction of a directly governed non-Work carrier, and constructive grounding.
-- Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern governs the recovered claim.
-- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.15.1 for Work relations; A.14/B.1.4 for separately governed non-Work part or phase relations and their bounded aggregation; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision owner when those uses are current.
+- Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern defines or constrains the recovered claim.
+- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.15.1 for Work relations; A.14/B.1.4 for separately governed non-Work part or phase relations and their bounded aggregation; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision pattern when those uses are current.
 

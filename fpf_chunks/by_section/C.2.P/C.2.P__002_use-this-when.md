@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0 — Use this when"
-line_start: 41671
-line_end: 41716
+line_start: 41894
+line_end: 41939
 dependencies:
   - "A.10"
   - "A.15"

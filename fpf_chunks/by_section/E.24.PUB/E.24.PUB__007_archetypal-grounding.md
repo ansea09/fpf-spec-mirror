@@ -6,12 +6,12 @@ section_id: "E.24.PUB:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:5 — Archetypal Grounding"
-line_start: 89184
-line_end: 89211
+line_start: 89888
+line_end: 89917
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -50,7 +49,7 @@ The diagram does not become the architecture by being published. `C.30` governs 
 
 #### E.24.PUB:5.3 - Clinical procedure edition
 
-A hospital procedure description is an episteme about a method. A wall poster expresses a selected edition for quick pre-procedure orientation; the laminated sheet is the carrier. A separate controlled publication makes the same edition available to clinicians for authoritative procedure enactment. The two publication occurrences differ in bounded use even if the words are identical. Neither publication proves that a clinician read the procedure or performed work according to it; those are access, reliance, role-assignment, method, and work claims under their direct patterns.
+A hospital procedure description is an episteme about how a procedure is performed. Treat it as a `U.MethodDescription` only when its EntityOfConcern is one independently admitted `U.Method` and its claims describe how that Method is carried out. A wall poster expresses a selected edition for quick pre-procedure orientation; the laminated sheet is the carrier. A separate controlled publication makes the same edition available to clinicians for authoritative use during the procedure. The two publication occurrences differ in bounded use even if the words are identical. Neither publication proves access, reliance, Method enactment, or clinical Work. When a clinician System performs admitted Work, the account names the Work's Method, time, containing System, a covering clinical assignment held by that clinician, and the F.6 relation linking the Work to that assignment; a short sentence may omit only an assignment identifier that its receiving claim does not use. Keep access, reliance, assignment, Method, Work, publication occurrence, and result separate. Words such as *role assignment*, *method*, and *work* in source prose are cues for this recovery, not admissions by themselves.
 
 #### E.24.PUB:5.4 - FPF pattern host
 
@@ -60,5 +59,7 @@ An E.24 pattern host can be a publication form expressing an ontic-description e
 
 One instruction edition is available to a training group for studying a method. That `EpistemePublicationRelation` occurrence establishes availability to the declared audience for that bounded use; it establishes neither that anyone read the instruction nor that adjustment, inspection, acceptance, or release work occurred. The same availability alone does not support an acceptance commission's choice about releasing one named lot.
 
-If the commission later performs exact choice `U.Work` under A.15.1 and applies C.11, name that Work and the resulting C.11 `ChoiceResult` separately. When an instruction claim actually participates in that Work, name the exact claim-bearing episteme and its direct route. For a premise, reference, other participant, or work-to-referent use, name the exact declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its exact declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result instead of asserting actual use. The `ChoiceResult` is neither the choice Work, the bounded-use declaration, nor a participant of the publication occurrence.
+If an admitted commission System later performs dated choice `U.Work` and applies C.11, use A.15.1 to name the Work's Method, time, and containing System. For every performer, name the assignment occurrence that covers the Work and its declared species, confirm that the performer is the holder, and establish the F.6 relation linking the Work to that assignment. A short account may omit an assignment identifier that the receiving claim does not use. Name the Work and the resulting C.11 `ChoiceResult` separately.
+
+When an instruction claim participates in that Work, name the claim-bearing episteme and how the Work uses its claim. For a premise, reference, other participant, or work-to-referent use, name the declared predicate, participant order, and values. For a declared operation argument, name the A.6.1 application and its declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result instead of asserting use. The `ChoiceResult` is neither the choice Work, the bounded-use declaration, nor a participant of the publication occurrence.
 

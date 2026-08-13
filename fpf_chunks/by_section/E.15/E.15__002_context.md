@@ -6,12 +6,12 @@ section_id: "E.15:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__002_context.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:1 — Context"
-line_start: 78797
-line_end: 78800
+line_start: 79457
+line_end: 79460
 dependencies:
   - "A.10"
   - "B.3"

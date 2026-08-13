@@ -6,12 +6,12 @@ section_id: "A.1.STM:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__011_common-anti-patterns.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:9 — Common anti-patterns"
-line_start: 2644
-line_end: 2656
+line_start: 2657
+line_end: 2669
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -48,5 +48,5 @@ keywords:
 | Shared entity as edge | Name the directly governed production, inception, participation, use, feedback, or other occurrence and bind its participants. |
 | Architecture first | Return to the outside-use and boundary hypothesis before justifying internal structure. |
 | Intended system acts | Keep it in plan or description content until identity inception; only an existing admitted system can perform Work. |
-| Systemhood proves Work | Test causal participation, work-facing role assignment, Method, Work, and transformation separately. |
+| Systemhood proves Work | Test causal participation, system-role assignment, Method, Work, and transformation separately. |
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:3 — Forces"
-line_start: 94736
-line_end: 94746
+line_start: 95512
+line_end: 95522
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,16 +31,21 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
 ### F.14:3 - Forces
@@ -49,8 +54,8 @@ keywords:
 | --- | --- |
 | Parsimony versus real difference | A small vocabulary is useful only if every real governed distinction remains recoverable. |
 | Local expression versus durable reuse | Most wording can remain local; public or repeated reuse may justify one durable settlement. |
-| Recognition versus assignment | A good role name helps recognition; it does not assign a holder or prove work. |
-| Relation structure versus new role | Role substitution, incompatibility, qualification, and bundle relations may be useful without minting another `U.Role`. |
+| Recognition versus assignment | A good system-role-kind name helps recognition; it does not assign a system or prove Work. |
+| Relations versus a new kind | Substitution, incompatibility, qualification, and bundle relations among system-role kinds may be useful without admitting another local kind. |
 | Status family versus status-name growth | Time windows, values, confidence, and presentation labels should not multiply status families. |
 | Discoverability versus naming-object cascades | Cards, cells, rows, identifiers, and publications can help retrieval, but none is justified merely because the previous one exists. |
 

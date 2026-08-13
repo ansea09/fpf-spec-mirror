@@ -1,38 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+pattern_title: "SystemRoleKindRelationStructure - Relations among System-Role Kinds"
 section_id: "A.2.7:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:2 — Problem"
-line_start: 5750
-line_end: 5760
+line_start: 5937
+line_end: 5947
 dependencies:
-  - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.2.5"
+  - "A.22"
+  - "A.6.REL"
+  - "C.3"
+  - "C.3.1"
+  - "E.10.ROLE"
 keywords:
-  - "bundles (⊗)"
-  - "incompatibility (⊥)"
-  - "requiredRoles substitution"
-  - "role algebra"
-  - "separation of duties (SoD)"
-  - "specialization (≤)"
+  - "U.SubkindOf"
+  - "incompatibility"
+  - "joint assignment requirement"
+  - "relations among system-role kinds"
+  - "selected structure"
+  - "substitution"
 ---
 
 ### A.2.7:2 - Problem
 
-The engineer needs a reusable role relation for a later engineering check, but common shorthand collapses at least four different questions:
+The practitioner needs a reusable relation for a later engineering check, but familiar shorthand collapses four different questions:
 
-1. Can an assignment to one role satisfy an admission condition written for another role?
-2. Are two role assignments incompatible under a stated holder, work, and time condition?
-3. Does one role value narrow the interpreted meaning of another role value?
-4. Which role assignments must be present together, and how may they be allocated among systems?
+1. Can an assignment to one system-role kind satisfy an admission condition written for another?
+2. Are assignments to two system-role kinds incompatible under a stated holder, Work, and time rule?
+3. Must assignments to a finite set of system-role kinds be present together, and how may holders be allocated?
+4. Does one kind monotonically narrow another, or does the restriction require a different relation?
 
-Calling every answer a role hierarchy loses the predicate that makes the answer true. Calling the answer a role part introduces mereology without constructive assembly or a meta-holon transition. Calling the answer a policy, chart, or taxonomy record confuses the relation with an episteme that describes it. The resulting check cannot show which relation it consumed or what would invalidate its outcome.
+Calling every answer a hierarchy loses the predicate. Calling the answer a role part introduces mereology without constructive assembly or a meta-holon transition. Calling the answer a policy, chart, taxonomy, or scheme confuses a relation with an episteme or convention that describes or interprets it. The receiving check then cannot show which premise it used or what change would invalidate the outcome.
 

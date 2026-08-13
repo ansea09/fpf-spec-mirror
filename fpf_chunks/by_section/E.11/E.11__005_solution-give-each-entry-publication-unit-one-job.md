@@ -6,12 +6,12 @@ section_id: "E.11:4"
 section_title: "Solution - Give Each Entry Publication Unit One Job"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__005_solution-give-each-entry-publication-unit-one-job.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:4 — Solution - Give Each Entry Publication Unit One Job"
-line_start: 76875
-line_end: 77210
+line_start: 77520
+line_end: 77866
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,10 +24,19 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "admission state"
-  - "and dependencies"
+  - "& Search Queries"
+  - "& Search Queries includes at least one recognizable working-question cue"
+  - "Dependencies"
+  - "a substantive claim returns to the direct pattern whose content defines"
+  - "and Dependencies"
+  - "and retrieval are finding aids"
+  - "cards"
+  - "constrains"
+  - "or boundary mini-method. ToC"
+  - "or tests it"
   - "query phrases"
+  - "result"
+  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:4 - Solution - Give Each Entry Publication Unit One Job
@@ -38,16 +47,27 @@ Use this distribution:
 
 | Publication unit | Job | Not its job |
 | --- | --- | --- |
-| FPF README | Public first-entry situations and practical first results; the current sixteen semantic keys live here. | Pattern authority, full methods, conformance doctrine, or project-instance fields. |
+| Framework Readme | Public first-entry situations and practical first results; the current FPF semantic keys live in the FPF Readme, while a DPF or LPF Readme carries its domain- or practice-specific entries. | Pattern authority, full methods, conformance doctrine, or project-instance fields. |
 | `Preface` | Plain-engineering narrative explaining the cross-cutting ideas behind those entries. | A second scenario table, PatternID catalogue, or conformance authority. |
-| Table of Contents | Search-oriented overview, keywords, query phrases, admission state, and dependencies. | Public first-entry explanation or durable pattern semantics. |
+| Table of Contents | Search-oriented overview. Every pattern row exposes its PatternID and title plus at least one working-question locator: a `Use when` cue, query phrase, or discriminating keyword. State any domain or local PatternID prefix discipline that affects lookup. Add admission state or dependencies when either can change the reader's choice. | Public first-entry explanation, a prescribed use sequence, or durable pattern semantics. |
 | Pattern `Problem frame` | High-precision local recognition for that pattern's own `EntityOfConcern`, first action, result, and non-use boundary. | A related-pattern fanout list or package-placement rationale. |
 | `I.2` or another expanded case | Longer entry disambiguation only when README, ToC, and local recognition are insufficient. | A tutorial obligation for every pattern or a replacement pattern body. |
 | Retrieval cards and projections | Thin finding aids that point to the direct pattern and state what they cannot decide. | Evidence, gate, authorization, final interpretation, or shadow authority. |
 
-README is the single editable public entry set. If another publication form needs the same guidance, project it from README rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
+The framework Readme is the single editable public entry set. If another publication form needs the same guidance, project it from that Readme rather than maintaining a second version. Put any unique cue in the publication unit whose job matches it, then remove the duplicate row or index.
 
-When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend or how several uses relate, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
+Keep one recognizable reader-facing front door across all-in-one FPF, DPF, and LPF Markdown publications. The public sequence is framework title with only a short human-readable edition and dependency note; `Table of Contents`; `<framework name> Readme`; `Preface`; the pattern-language Parts or pattern collection; then reference and maintenance material. The title is not preceded by an anchor or build marker. A separate edition H1, machine identity block, generated-source comment, source path, source-set digest, build command, or “do not edit” marker is maintainer or build evidence, not reader front matter; keep it in builder output, a package result, a manifest when one has an independent use, or the maintainer Readme. Detailed edition, relation, and refresh records may remain reachable after the pattern bodies without delaying the first reader choice.
+
+Use one exact pattern-row profile inside the Table of Contents of an English full-body publication:
+
+| § | ID & Title | Status | Keywords & Search Queries | Dependencies |
+| :--- | :--- | :--- | :--- | :--- |
+
+Translate those labels consistently when the publication language requires it, but preserve the five positions and their jobs. `Keywords & Search Queries` includes at least one recognizable working-question cue; `Dependencies` names only relations that can change what the reader opens next. The ToC does not repeat the pattern's first move, result, and boundary as three additional mini-method columns: those belong to the Readme entry and direct pattern body. Support sections may use a separate support table only when it has a different lookup job and is visibly not a second pattern index.
+
+Use `Table of Contents`, `<framework name> Readme`, and `Preface`; translate those labels consistently when the publication language requires it. Do not rename the Readme `Reader Guide`, split one ToC function into parallel `Table of Contents` and `Pattern Index` units, or add another synonymous first-entry unit. A second index is useful only when it has a genuinely different search order or query and returns to the one ToC or Readme that provides the entry.
+
+When discoverability has become use of one selected pattern, continue with `E.11.PUA`. When the live question is which applicable pattern use to recommend, how several uses relate, or whether an earlier result already answers the concern, continue with `E.11.PUR`. Neither continuation turns a public entry order into a universal workflow.
 
 For an FPF-grounded domain or local practice framework, README, Preface, ToC, cards, an all-in-one carrier, a skill pack, retrieval, or a callable access service may expose the entry. That publication or access use neither decides framework architecture nor supplies authority, and the carrier is not the pattern body merely because a reader reaches it first. Use `E.4` to identify the framework family and member. Only when a downstream-used framework-architecture question is live, record its selected answer in one `E.9` DRR using the `E.4.PFAD` profile; use `E.4.PFR` separately when a named relation or edition maintenance use needs its representation.
 
@@ -64,7 +84,7 @@ FirstEntryScenario:
   ordinaryStopOrWrongTurnReturn
 ```
 
-The sixteen semantic keys in `E.11:4.5` identify situations, not steps. A reader may inspect any finite plausible set and stop as soon as one direct pattern is worth opening or no remaining entry can change that starting choice.
+The semantic keys in `E.11:4.5` identify situations, not steps. A reader may inspect any finite plausible set and stop as soon as one direct pattern is worth opening or no remaining entry can change that starting choice.
 
 When an entry must show how the first move may continue without prescribing a workflow, make only these values recoverable: the starting cue, direct pattern or plausible set, first result or blocker, likely next readable outputs, continuation condition, and stop or return. Name candidate loci or an unfolding-family reference only when they change the reader's route. Reference an `A.22.CGUS` `UF.*` family only when the represented conditional structure is actually admitted there; a readable continuation does not become a CGUS structure by being useful.
 
@@ -124,12 +144,12 @@ Keep the public set representative of FPF's range. Wording and description repai
 
 Some readers arrive before a practical-use key is recognizable: a familiar relation, project, process, case, context, or problem phrase is already blocking the work, but its direct object is not exact. Give such readers an ordinary-language recovery route before asking them to compare PatternIDs. These routes are independent entry alternatives, not stages, a required form, or another card set.
 
-Keep four moments distinct. **Recognition** says why the ordinary situation matches this route. **Selection** chooses the direct pattern whose `Solution` owns the expected first object. **Use** inspects and applies only the branch needed now. The **direct result** exists or the relation obtains only under that selected pattern; the entry cue returns either its smallest usable result or an exact blocker and creates neither.
+Keep four moments distinct. **Recognition** says why the ordinary situation matches this route. **Selection** chooses the direct pattern whose `Solution` tells the practitioner how to obtain the expected first object. **Use** inspects and applies only the branch needed now. The **direct result** exists or the relation obtains only under that selected pattern; the entry cue returns either its smallest usable result or an exact blocker and creates neither.
 
-Apply the same compact route shape each time: recognizable situation; practical distinction; expected first object; exact direct pattern; smallest usable result or honest blocker; ordinary stop; and one neighboring exit. Stop before signatures, card schemas, full methods, owner catalogues, or copied `Solution` prose.
+Apply the same compact route shape each time: recognizable situation; practical distinction; expected first object; exact direct pattern; smallest usable result or honest blocker; ordinary stop; and one neighboring exit. Stop before signatures, card schemas, full methods, pattern catalogues, or copied `Solution` prose.
 
 - **An obtaining relation must be referred to, and perhaps distinguished from a repeated episode.** First name the exact participants and the readable direct relation, then open the pattern whose content defines or tests that relation. A current assertion can stop there when later work only needs to know whether the relation obtains. If history, comparison, another relation, or a declared operation application must distinguish this occurrence from another of the same kind, use `A.6.REL` and the relevant direct pattern's same-versus-new-occurrence rule before naming or referencing it. The smallest result is the readable direct assertion or, only when consumed, one recoverably individuated occurrence; a missing participant, predicate, current fact, identity rule, or relation rule is an honest blocker. Stop as soon as the named receiving use can use that result. If no current direct relation can state the needed claim after exact recovery, require `A.6.RCD`; a row, edge, identifier, report, or mention makes no occurrence obtain.
-- **Project, process, or case wording no longer reveals the subject of the decision.** Open `A.15.6` and recover the direct subject before using the management label. An actual project is one qualifying composite `U.Work`; a process concern selects one reusable `U.Method`, one exact `U.Structure` selected under `A.22`, or one `TransformationFlowStructure`; a case follows one exact affected referent or claim through the governed change history needed for closure and keeps one named downstream use outside that closure. The smallest result is that exact subject, the direct pattern used to identify or constrain it, and the bounded claim the current decision may make, or a missing identity, parthood, relation, closure basis, or information blocker. Treat *target system* as an ordinary cue for the exact project system-of-interest question. Keep an intended future system in plan or description content; keep plan or decision designation, every work-to-system fact, role interpretation, and role assignment separate. Stop when the direct subject and claim answer the decision. Use `A.1.SCR` only if whether the recovered exact entity is a `U.System` still changes that decision; a project suffix, team, plan, dashboard, or case file supplies no subject identity.
+- **Project, process, or case wording no longer reveals the subject of the decision.** Open `A.15.6` and recover the subject before using the management label. An actual project is qualifying composite `U.Work`; a process concern may be a reusable `U.Method`, a structure selected under `A.22`, or a `TransformationFlowStructure`; a case follows one affected referent or claim through the change history needed for closure and keeps the relevant downstream use outside that closure. The smallest result names that subject, the pattern used to identify or constrain it, and the claim the current decision may make—or the missing identity, relation, closure basis, or information. Treat *target system* as a cue for the project system-of-interest question, not as proof of identity. Keep plans, decisions, work-to-system relations, system-role classifications, assignments, participation, responsibility, and authority separate. If *role* still hides the claim, use `E.10.ROLE`. Stop when the recovered subject and claim answer the decision; use `A.1.SCR` only if systemhood still changes the answer.
 - **A claimed bounded context may be only a label, boundary picture, team, or subsystem.** Open `A.1.1` with the engineering decision, one exact model edition, and its exact use locus. Recover the smallest direct applicability, assigned-Work use, or fixed-content coherence relation first and stop there when it answers the decision. Select a `BoundedModelUseStructure` under `A.22` only when the joint organization itself changes the decision and all four discriminators are exact: independently identified constituents, selected obtaining relation occurrences, applied constraints, and one named selection-use frame. The smallest result is therefore one direct relation or that optional selected structure; a missing constituent, occurrence, constraint, or use frame is an honest no-structure blocker. `Context Mapping` remains a `U.Method`; any cross-context structure needs its own A.22 selection; and a scheme, scope, viewpoint, conforming view, representation, or diagram remains a different object. Stop at the direct relation or selected organization. Use `E.17.0` only when the actual question is whether an exact episteme conforms to a viewpoint and is thereby a view. A bounded-context phrase creates no holon, subsystem, team, structure, relation, viewpoint, view, or representation.
 - **Problem-side material may describe a concern without identifying an actual Problem.** Open `C.22.PFR` only when the claim may concern one obtaining `ProblematicForRelation`: an exact actual-condition occurrence and exact problem-criterion-applicability occurrence whose selected input is actually adverse. Keep that occurrence distinct from the predicate, applicability occurrence, assessment or evaluation, assertion and reliance, `ProblemCard`, forecast or modal concern, and current-solvability or continuation claim. The smallest result is an ordinary actual-problem sentence naming condition and value, criterion, entity and use, and applicability window, or an honest non-PFR classification or blocker when the condition, applicability, adverse input, or required PFR rule is missing. Stop as soon as the later use can distinguish actuality from problem-side claim material. Use `C.22.2` when the useful object is a reviewable problem-side card or formulation rather than the world-side relation. One `ProblemCard` may describe no actual PFR; selecting or discovering a method changes only the current solvability or continuation claim, not PFR participants, obtaining, identity, or the adverse condition.
 
@@ -261,7 +281,7 @@ The view is not a form to complete or a durable check object. Inspect only posit
 
 For each expanded candidate-use template, exactly one result promise or exact public blocker is present. A promise identifies the direct pattern and `Solution`, potential-result kind, local identification question, the identity or obtaining basis and result-relative basis that actually make the promise true, the minimum usable result, and a receiver only when that continuation is current. A blocker states the missing rule or information and carries no fulfilled result template. A broad family, generic result relation, omitted value disguised as a weak promise, fabricated project occurrence, or PatternID list without selection conditions does not pass.
 
-#### E.11:4.5 - Sixteen stable practical-use keys
+#### E.11:4.5 - Stable practical-use keys
 
 
 | Key | Public situation heading |
@@ -275,7 +295,7 @@ For each expanded candidate-use template, exactly one result promise or exact pu
 | `TIME` | Make a time-dependent claim usable |
 | `CAUSAL-USE` | Decide what a causal claim may support |
 | `DESCRIPTION-USE` | Use a description or view without confusing it with its subject |
-| `NAMING` | Name a governed value so people can recover its meaning |
+| `NAMING` | Name a value so people can recover its meaning |
 | `WORDING` | Repair wording that hides the object, relation, or claim kind |
 | `MATHEMATICAL-MODELING` | Choose and bound a mathematical lens |
 | `SOTA-PORTFOLIO` | Build a current state-of-the-art synthesis pack |
@@ -285,7 +305,7 @@ For each expanded candidate-use template, exactly one result promise or exact pu
 
 E.11 records one F.13-form historical read path: `splits(SYSTEM-IN-CONTEXT -> {SYSTEM-RECOGNITION, SYSTEM-DELIMITATION, WORDING, ARCHITECTURE})`. The unchanged F.13 body does not contain this row. The old card had no single surviving public-guidance identity: system recognition, system delimitation, lexical recovery, and architecture have different referents, relations or evaluations, receiving uses, first results, and direct governors. Older writing remains readable through this one read path; current card use names only the four successor keys. A.1.STM is a conditional continuation with a dedicated readable README guide, not a fifth successor key. The split creates no U-kind, relation kind, record kind, result kind, or generic `Context` claim.
 
-README owns the current public cards and their expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families. Full patterns carry methods, conditions, costs, consequences, and exact result semantics. None is a second card store.
+The FPF Readme carries the current public cards and their expansions. Preface explains why FPF's distinctions work together. ToC locates pattern families. Full patterns carry methods, conditions, costs, consequences, and exact result semantics. None is a second card store.
 
 #### E.11:4.5.1 - Preface, local recognition, and first-entry terminology
 
@@ -358,11 +378,11 @@ PracticalUseCardComparison@Context <: U.Episteme:
   inspectionDisposition: keep | defer | discard | startHere
 ```
 
-Guidance, practical question, compared result templates or blockers, first-result differences, named reliance, stop, and return remain ClaimGraph content or separately governed references; none replaces the C.2.1 identity. Each comparison cites at least one result template or exact blocker from the guidance it evaluates. `claimScopeRef` or `modelUseStructureRef` is present only when its exact direct relation changes the named reliance. Several plausible cards alone do not make this record current. The named reliance may be a later review, replay, audit, automation, or another use that needs addressable comparison history. Retain only the rows that use needs.
+Guidance, practical question, compared result templates or blockers, first-result differences, named reliance, stop, and return remain ClaimGraph content or separate references under their direct patterns; none replaces the C.2.1 identity. Each comparison cites at least one result template or exact blocker from the guidance it evaluates. `claimScopeRef` or `modelUseStructureRef` is present only when the named scope or model-use structure changes the reliance being recorded. Several plausible cards alone do not make this record current. The named reliance may be a later review, replay, audit, automation, or another use that needs addressable comparison history. Retain only the rows that use needs.
 
 #### E.11:4.7 - Replay and currentness
 
 Replay one public entry first from its recognizable situation, practical question, first useful result or blocker, direct pattern or plausible set, boundary, and readable walkthrough. Consult the exact helper fields only when that entry actually uses them for truth, disambiguation, or named reliance. The guidance remains current only while its situation and question still point to the same use.
 
-Recheck the smallest affected entry slice when its recognizable situation, question, first result or blocker, direct `Solution`, selection condition, stop, return, or true consumer changes, or when use evidence shows a recurrent wrong turn. Recheck exact result and basis fields only when the changed entry uses them. `G.11` governs edition, telemetry, currentness-window, and decay orchestration; E.11 supplies the entry-specific values and change conditions that orchestration inspects.
+Recheck the smallest affected entry slice when its recognizable situation, question, first result or blocker, direct `Solution`, selection condition, stop, return, or true consumer changes, or when use evidence shows a recurrent wrong turn. Recheck exact result and basis fields only when the changed entry uses them. Use `G.11` for edition, telemetry, currentness-window, and decay orchestration; E.11 supplies the entry-specific values and change conditions that orchestration inspects.
 

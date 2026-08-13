@@ -6,12 +6,12 @@ section_id: "A.15.PROD:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:7 — Conformance Checklist"
-line_start: 26921
-line_end: 26943
+line_start: 27123
+line_end: 27145
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -45,9 +45,9 @@ keywords:
 | `CC-A15.PROD-11` | Later or replacement criterion epistemes, damage, loss, delivery, acceptance, release, publication, and availability do not rewrite historical completion. A continuing-edition relation, when it obtains, supports lineage-aware refresh only; rework or satisfaction under another criterion at another boundary receives another claim. |
 | `CC-A15.PROD-12` | Each local assertion is one C.2.1 episteme with one truthful exact `EntityOfConcern`, claim content, effective reference scheme, and decided positive or negative polarity; no union concern is manufactured, and unresolved information sufficiency or reliance remains separately evaluated. |
 | `CC-A15.PROD-13` | An unresolved basis is returned as the exact missing-governor, work-granularity, criterion, applicability, boundary-state, or transformation-composition blocker, not as a third predicate value. |
-| `CC-A15.PROD-14` | The current no-mint result introduces no universal production relation kind, `U.ProductionWork`, relation signature, or relation occurrence and asserts no universal reducibility. A later subject-specific candidate returns to A.6.RCD only when a named later action must reidentify the same obtaining relation occurrence; its definition states obtaining, applicability, base dependencies, recurrence, and occurrence identity. A primitive candidate additionally demonstrates failed lossless derivation, one action-facing distinction every accepted derivation loses, and independent receiving uses. |
+| `CC-A15.PROD-14` | The current no-mint result introduces no universal production relation kind, `U.ProductionWork`, relation signature, or relation occurrence and asserts no universal reducibility. A later subject-specific candidate requires A.6.RCD only when a named later action must reidentify the same obtaining relation occurrence; its definition states obtaining, applicability, base dependencies, recurrence, and occurrence identity. A primitive candidate additionally demonstrates failed lossless derivation, one action-facing distinction every accepted derivation loses, and independent receiving uses. |
 | `CC-A15.PROD-15` | Recognition and assurance remain separate; evidence and evaluation may support the claim but create none of work, transformation, entity inception, or completion. |
-| `CC-A15.PROD-16` | The produced entity, measurement or evaluation result, delivered entity, acceptance verdict, release, publication, availability, and downstream effect remain distinct; each positive claim names its declared predicate or its own governing pattern, and a missing predicate returns the corresponding blocker. |
+| `CC-A15.PROD-16` | The produced entity, measurement or evaluation result, delivered entity, acceptance verdict, release, publication, availability, and downstream effect remain distinct; each positive claim names its declared predicate or its own subject pattern, and a missing predicate returns the corresponding blocker. |
 | `CC-A15.PROD-17` | A practice-specific source is used only for the branch question it answers: a stable identifier does not establish entity status or inception; a systems-engineering realization criterion does not collapse transition into completion; and a Scrum Definition of Done does not supply work identity, effects, review, or release. |
 | `CC-A15.PROD-18` | An ordinary positive local claim names its governed base facts, common applicability, readable conjunction, answer, and stop without requiring a substrate document. A DPF/FPF-author, nontrivial, interoperable, proof-bearing, high-consequence, or reusable use pins the exact selected substrate and edition and replays constructor semantics. A negative or earliest-boundary claim exposes the specific polarity, witness, boundary-domain, ordering, or selection law it consumes. An unavailable required operator returns the exact missing-substrate blocker. |
 

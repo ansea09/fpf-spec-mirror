@@ -6,12 +6,12 @@ section_id: "A.6.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:12 — Relations"
-line_start: 12661
-line_end: 12689
+line_start: 12885
+line_end: 12913
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -70,12 +70,12 @@ Lower or withdraw a `U.Mechanism` identification when the text cannot recover an
 
 Return to the smallest changed object:
 
-- changed declaration content, EntityOfConcern, or effective reference scheme returns to A.6.1 and identifies another mechanism episteme; call it a continuing edition only when the separate C.2.1 `EpistemeEditionRelation` obtains, otherwise treat it as a non-continuing replacement;
-- exact cross-context `SchemeSenseCell` correspondence returns to F.9; a selected `CHR:ReferencePlane` change returns to CHR, and a model-use-structure change returns to A.1.1/A.22. An asserted transition or use relation must name its predicate and participants or stop; none becomes a generic mechanism-transport claim;
+- changed declaration content, EntityOfConcern, or effective reference scheme requires A.6.1 and identifies another mechanism episteme; call it a continuing edition only when the separate C.2.1 `EpistemeEditionRelation` obtains, otherwise treat it as a non-continuing replacement;
+- exact cross-context `SchemeSenseCell` correspondence requires F.9; a selected `CHR:ReferencePlane` change requires CHR, and a model-use-structure change requires A.1.1/A.22. An asserted transition or use relation must name its predicate and participants or stop; none becomes a generic mechanism-transport claim;
 - a particular application or binding returns to its exact declaration-local predicate, extent, and identity rules; if they cannot govern the claimed actual use, retain the exact missing-governor blocker rather than widen A.6.1 into a universal work-participant relation;
 - realizer capability or realization scope returns to the direct realization relation;
-- evaluation and evidence currentness return to their direct patterns and G.11 when currentness is the claim;
-- method and work changes return to A.3.1, A.15.2, or A.15.1;
-- representation and publication changes return to A.6.3, A.6.3.RT, or E.24.PUB;
-- a changed governing-definition assignment returns to E.20.
+- evaluation and evidence currentness require their exact predicates and G.11 when currentness is the claim;
+- method and work changes require A.3.1, A.15.2, or A.15.1;
+- representation and publication changes require A.6.3, A.6.3.RT, or E.24.PUB;
+- a changed governing-definition assignment requires E.20.
 

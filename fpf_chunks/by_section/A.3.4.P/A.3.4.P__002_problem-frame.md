@@ -6,12 +6,12 @@ section_id: "A.3.4.P:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:1 — Problem frame"
-line_start: 8898
-line_end: 8905
+line_start: 9112
+line_end: 9119
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,5 +49,5 @@ People talk about change with convenient source labels. A manufacturing line has
 
 The recurring defect is a second ontology by convenience. The same text may treat "process" as method, work occurrence, transformation-flow structure, mechanism, result evidence, and publication diagram. A graph path may become an action route. A network label may become a durable head beside `TransformationFlowStructure`. A function word may collapse functioning, mathematical function, software routine, module allocation, a system merely named as actor, and a differently typed influence source whose direct relation has not been recovered.
 
-This pattern restores the current `U.Transformation` ontic first, then assigns linked values to their governing patterns. It is not a word ban and not a synonym table.
+This pattern restores the current `U.Transformation` ontic first, then assigns linked values to their subject patterns. It is not a word ban and not a synonym table.
 

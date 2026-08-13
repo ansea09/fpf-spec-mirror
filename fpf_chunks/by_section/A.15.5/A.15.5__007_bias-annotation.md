@@ -6,12 +6,12 @@ section_id: "A.15.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:6 — Bias-Annotation"
-line_start: 26210
-line_end: 26215
+line_start: 26408
+line_end: 26413
 dependencies:
   - "A.10"
   - "A.15"
@@ -48,6 +48,6 @@ keywords:
 ### A.15.5:6 - Bias-Annotation
 
 - **Ready-label bias.** A green tile, ready label, release screen, or commitment board position can look stronger than the recoverable claim. Recover whether the current object is readiness, appearance-based reliance repair under `A.15.4`, gate decision, work authorization, or performed work.
-- **Full-kit umbrella bias.** Full-kit preparation is useful, but it can hide planned baselines, performed preparation work, resource readiness, source currentness, and target work. Keep each current value in its governing pattern.
+- **Full-kit umbrella bias.** Full-kit preparation is useful, but it can hide planned baselines, performed preparation work, resource readiness, source currentness, and target work. Keep each current value in its subject pattern.
 - **Baseline-as-actuals bias.** Planned fillers and readiness references do not prove launch values, performed values, variance, or results.
 

@@ -6,12 +6,12 @@ section_id: "F.9:21"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__023_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:21 — Conformance Checklist"
-line_start: 93167
-line_end: 93186
+line_start: 93943
+line_end: 93962
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -65,10 +67,10 @@ An F.9 use conforms iff:
 7. observed loss stays in evidence while permitted loss stays in the bounded-use claim;
 8. current reliance uses the exact A.10 or B.3 branch for the same bounded use;
 9. no reliance or assurance statement is read as authorization;
-10. any actual receiving object is recovered under its direct owner;
+10. any actual receiving object is recovered under its subject pattern;
 11. description episteme, Card, registry record, E.24.PUB publication occurrence, form, and carrier remain distinct from Bridge occurrence and receiving-use occurrence;
 12. inverse and composed relations are tested independently;
 13. the reusable RelationSignature declares only two endpoint SlotSpecs, while every `CL`, Loss Note, scope/admitted-use, evidence, counterexample, policy, time, model-use, description, publication, or registry value remains a qualifier or neighbor;
 14. the non-optional occurrence identity and non-recurrence rule is stated and applied before a Bridge occurrence is referenced; and
-15. same-context designation remains outside F.9, while every role, Work, evidence-authority, status, U-kind, publication, structure-crossing, or other subject claim returns to its direct governor.
+15. same-context designation remains outside F.9; claim-bearing source wording with *role* first uses E.10.ROLE, and each recovered system-role kind, assignment, access, permission, authority, Work, evidence-authority, status, U-kind, publication, structure-crossing, or other subject claim returns to its direct pattern.
 

@@ -6,12 +6,12 @@ section_id: "A.6.C:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:10 — Rationale"
-line_start: 11337
-line_end: 11342
+line_start: 11549
+line_end: 11554
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,8 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an accountable duty"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "and SHOULD NOT enter D only for an individual duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
@@ -60,7 +60,7 @@ keywords:
 
 ### A.6.C:10 — Rationale
 
-FPF already distinguishes signatures, mechanisms, dated Work, separately governed results or consequences, and evidence use. Contract-language collapses them unless the author asks what happened, what separate result or delivery is claimed, and what evidence supports the exact reliance use.
+FPF already distinguishes signatures, mechanisms, dated Work, separately identified results or consequences, and evidence use. Contract-language collapses them unless the author asks what happened, what separate result or delivery is claimed, and what evidence supports the exact reliance use.
 
-F.18 may supply durable names for recovered terms, but it does not provide the ontology. A.6.C keeps promise content, speech act, commitment or grant, dated Work, application/result binding, production, change, delivery/transfer, evidence, and acceptance distinct and independently optional. This keeps contract language classifiable under A.6.B without turning A.15.1 into a result or delivery owner.
+F.18 may supply durable names for recovered terms, but it does not provide the ontology. A.6.C keeps promise content, speech act, commitment or grant, dated Work, application/result binding, production, change, delivery/transfer, evidence, and acceptance distinct and independently optional. This keeps contract language classifiable under A.6.B without turning A.15.1 into a semantic source of result or delivery.
 

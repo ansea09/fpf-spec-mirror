@@ -6,12 +6,12 @@ section_id: "B.1.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:1 — Problem Frame"
-line_start: 35746
-line_end: 35759
+line_start: 35948
+line_end: 35961
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,15 +40,15 @@ keywords:
 
 ### B.1.2:1 - Problem Frame
 
-B.1.2 specializes B.1 for system holons, but it is a coordination method rather than the owner of one omnibus system-aggregation relation. The useful engineering question is which exact independently governed facts must be considered together for one aggregation or delimitation decision.
+B.1.2 specializes B.1 for system holons, but it is a coordination method rather than the source of one omnibus system-aggregation relation. The useful engineering question is which exact independently governed facts must be considered together for one aggregation or delimitation decision.
 
 Keep five frequently collapsed objects distinct:
 
 1. **The exact system whole.** It is independently recognized under A.1 and its direct identity rule.
 2. **Its environment.** In this pattern, `environment` means the exact external referents and exact crossing relations made relevant by a stated delimitation and use. It is not a generic surrounding object; an exact medium is named separately when that medium is itself the subject.
 3. **An actual containing system.** The larger system of which `S` is an admitted part exists for this claim only when an exact part-whole relation independently obtains. Interaction or spatial surrounding is not enough.
-4. **The project system-of-interest.** Project designation or selection is a separate claim from `U.System` identity, environment, parthood, role, and architecture. B.1.2 does not derive it from a box or aggregation decision.
-5. **Use qualification and neighboring relations.** `Context` is not one world-side container supplied by B.1.2. When claim scope, effective reference scheme, or a bounded model-use structure qualifies a use, recover that exact qualifier under its direct owner. Recover any role assignment or other neighboring relation separately. None delimits the system, identifies its environment, or establishes containment by itself.
+4. **The project system-of-interest.** Project designation or selection is a separate claim from `U.System` identity, environment, parthood, system-role kind or assignment, and architecture. B.1.2 does not derive it from a box or aggregation decision.
+5. **Use qualification and neighboring relations.** `Context` is not one world-side container supplied by B.1.2. When claim scope, effective reference scheme, or a bounded model-use structure qualifies a use, recover that exact qualifier under its subject pattern. Recover any system-role assignment or other neighboring relation separately. None delimits the system, identifies its environment, or establishes containment by itself.
 
 B.1.2 does not make `Gamma_sys` the pattern head, create generic boundary or interaction U-kinds, or infer a part-whole relation from transformation, coordination, responsibility, or representation.
 

@@ -6,12 +6,12 @@ section_id: "A.12:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:11 — Relations"
-line_start: 23507
-line_end: 23512
+line_start: 23760
+line_end: 23765
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -36,7 +36,7 @@ keywords:
 
 ### A.12:11 - Relations
 
-- **Builds on:** `A.1` for holon and system admission, `A.2.1` for role assignment, `A.2.7` for role relation structure, and `A.3.4` for bounded transformation.
+- **Builds on:** `A.1` for holon and System admission, `A.2.1` for a directly declared assignment species and its obtaining occurrence, `A.2.7` for relations among exact local system-role kinds, and `A.3.4` for bounded transformation.
 - **Coordinates with:** `A.10` for evidence, `A.14` and `C.13` for part-whole claims, `A.15` and `A.15.1` for method and work, `C.2.1` and `E.17` for episteme and publication cases, and `B.2.5` for supervisor-subholon feedback relation.
 - **Does not own:** transformation occurrence evidence, work success, evidence independence, part-whole admission, MHT declaration, or the architecture of the larger holon.
 

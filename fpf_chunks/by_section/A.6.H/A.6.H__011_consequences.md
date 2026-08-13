@@ -6,20 +6,39 @@ section_id: "A.6.H:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:9 — Consequences"
-line_start: 21377
-line_end: 21389
+line_start: 21630
+line_end: 21642
 dependencies:
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.RCD"
   - "A.7"
   - "B.1.1"
   - "B.1.4"
+  - "B.1.5"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.16"
+  - "C.16.P"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
 keywords:
   - "boundary"
   - "completeness"
@@ -29,7 +48,7 @@ keywords:
   - "order/time"
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
-  - "role-method-work"
+  - "system-role–Method–Work distinctions"
   - "wholeness"
 ---
 
@@ -39,7 +58,7 @@ keywords:
 | --- | --- |
 | Decidable disagreements | The practitioner must name the exact subject and receiving use before arguing about the word. |
 | Local repair | One sentence may become several direct claims; stop after the claims the receiving use actually needs. |
-| Stable ownership | Mereology, episteme identity, Work, measurement, evidence, publication, and assurance retain their own rules. |
+| Separate rule sources | Mereology, episteme identity, Work, measurement, evidence, publication, and assurance retain their distinct rules. |
 | Honest uncertainty | An unresolved case blocks only the named use instead of creating an omnibus record. |
 | Reusable assurance | Recognition facts and evidence-use claims can be checked independently. |
 | Less ontology by wording | Familiar trigger words no longer mint kinds, relations, structures, or lifecycle objects. |

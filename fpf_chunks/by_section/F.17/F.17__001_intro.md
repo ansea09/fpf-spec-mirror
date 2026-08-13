@@ -6,12 +6,12 @@ section_id: "F.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:intro — Intro"
-line_start: 95756
-line_end: 95771
+line_start: 96540
+line_end: 96555
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,5 +64,5 @@ keywords:
 
 **What this buys.** A compact, durable navigation row through which readers can recover the naming decision and the rules that define or constrain the governed value without letting the row create, merge, prove, or publish that value.
 
-**Not this pattern when.** Keep private wording, local synonyms or aliases, and names already supplied where the value is defined or constrained in their local use. Use F.14 before every naming object, F.8 for one unresolved mint-or-reuse choice, F.18 for the durable naming settlement, F.9 only for an actual relation between exact cells, and E.24.PUB only when a selected row edition must be made available. For any stronger ontology, obtaining, equivalence, authority, role, status, evidence, Work, or subject-use claim, use the pattern that defines or constrains it.
+**Not this pattern when.** Keep private wording, local synonyms or aliases, and names already supplied where the value is defined or constrained in their local use. Use F.14 before every naming object, F.8 for one unresolved mint-or-reuse choice, F.18 for the durable naming settlement, F.9 only for an actual relation between exact cells, and E.24.PUB only when a selected row edition must be made available. For any stronger ontology, obtaining, equivalence, authority, system-role-kind, assignment, relation-position, status, evidence, Work, or subject-use claim, use the pattern that defines or constrains it.
 

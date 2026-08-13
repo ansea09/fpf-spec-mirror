@@ -6,12 +6,12 @@ section_id: "D.1:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:2 — Solution"
-line_start: 68534
-line_end: 68558
+line_start: 68884
+line_end: 68908
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,7 +41,7 @@ EthicalValueFrame@Context:
   ethicalTheoryOrTraditionRefs?
   affectedHolonRefs?
   affectedEpistemeRefs?
-  roleAssignmentRefs?
+  systemRoleAssignmentRefs?: FinSet(U.RelationRef constrained to U.SystemRoleAssignment)
   methodOrWorkRefs?
   transformationRefs?
   evidenceRefs

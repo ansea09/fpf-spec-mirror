@@ -6,12 +6,12 @@ section_id: "A.7.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:12 — Relations"
-line_start: 22028
-line_end: 22036
+line_start: 22281
+line_end: 22289
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -30,10 +30,10 @@ keywords:
 
 ### A.7.1:12 - Relations
 
-- **Description-level specialization:** A.7.1 narrows the method claims stated by `C.19.2`. On the ordinary one-apparatus path, the already selected A.7.1 analysis method is the direct-kind apparatus; the engineering subject and its direct owner remain inputs and constraints. A.7.1 retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among reader, performer, Work, and result, stop, and reopen. It retains `C.18` and `C.11` candidate and choice behavior only for alternative analysis methods, models, formalisms, or other applicable apparatuses eligible for the same use and guarantee. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
+- **Description-level specialization:** A.7.1 narrows the method claims stated by `C.19.2`. On the ordinary one-apparatus path, the already selected A.7.1 analysis method is the direct-kind apparatus; the engineering subject and its subject pattern remain inputs and constraints. A.7.1 retains the declared use, problem-facing result, claimed guarantee, horizon, useful threshold, separation among reader, performer, Work, and result, stop, and reopen. It retains `C.18` and `C.11` candidate and choice behavior only for alternative analysis methods, models, formalisms, or other applicable apparatuses eligible for the same use and guarantee. This wording adds no relation occurrence between the described Methods and asserts neither `U.SubkindOf` nor a world relation.
 - **Consumes:** exact `A.7.CP` claim epistemes through `ClaimUsedAsReasoningBasisRelation@Context` only when the ontology-analysis work relies on them.
-- **Coordinates with:** `A.7.2` when a material cross-pattern premise conflict is current; neither method is the other's parent or premise owner.
-- **Returns to:** direct relation, role, holon, state, capability, method, work, evidence, temporal, structural, and domain owners for the claim being repaired.
+- **Coordinates with:** `A.7.2` when a material cross-pattern premise conflict is current; neither method is the other's parent or source of premise truth.
+- **Returns to:** direct relation, local system-role-kind, assignment, System, state, capability, Method, Work, responsibility, evidence, temporal, structural, and domain patterns for the claim being repaired.
 - **Escalates durable ontology to:** `E.24`/`E.24.UK`, `A.8`, and `A.11`; it does not admit U-kinds or relations itself.
 - **Preserves:** current `A.7` Strict Distinction and `A.22.CGUS` admission law.
 

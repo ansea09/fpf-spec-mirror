@@ -6,12 +6,12 @@ section_id: "C.28:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:4 — Solution"
-line_start: 57449
-line_end: 58005
+line_start: 57723
+line_end: 58287
 dependencies:
   - "A.10"
   - "A.15"
@@ -442,10 +442,18 @@ CausalUseEvidenceDesignRecord:
   causalTransportabilityProfileRef?
   causalVariableRepresentationRef?
   causalEvidenceSupportBasis: CausalEvidenceSupportBasis
-  causalEvidenceWorkRefs?
+  causalEvidenceWorkRows?:
+    - causalEvidenceWorkRef: exact dated U.Work
+      performerSystemRefs: every actual performer U.System
+      enactedMethodRef: exact U.Method
+      temporalExtentRef:
+      containingSystemRef: exact U.System
+      performerAssignmentSpeciesRefs: exact directly declared U.SystemRoleAssignment species, positionally paired with performers
+      performerAssignmentOccurrenceRefs: obtaining covering occurrences with every identity-bearing participant value
+      performerAssignmentHolderEqualities: each performer equals its assignment HolderSystemSlot
+      performedUnderAssignmentRefs: exact F.6 pairs for this Work and each assignment
   causalEvidenceUseRelationRefs?
-  causalEvidenceWorkRoleAssignmentRefs?
-  causalEvidenceMethodRef?
+  causalEvidenceMethodDescriptionRefs?: separate U.MethodDescription refs only when used
   causalEvidenceWorkPlanRef?
   structuralCausalModelRef?
   causalDiagramRef?

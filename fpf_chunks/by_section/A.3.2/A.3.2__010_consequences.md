@@ -6,12 +6,12 @@ section_id: "A.3.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:9 — Consequences"
-line_start: 8107
-line_end: 8125
+line_start: 8319
+line_end: 8337
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,9 +54,9 @@ keywords:
 | --- | --- |
 | Method descriptions become reusable across notations. | Users must separate method identity from description form. |
 | Audits can distinguish description, plan, work, evidence, and authority. | The first repair is to identify the claim-bearing episteme, its Method, and one substantive method claim; replacing vocabulary is not enough. |
-| Software, lab, industrial, organizational, and proof-centered descriptions can be compared under one FPF kind. | Some files contain several current claims and must be split into several governing-pattern statements. |
+| Software, lab, industrial, organizational, and proof-centered descriptions can be compared under one FPF kind. | Some files contain several current claims and must be split into several subject-pattern statements. |
 | Equivalent descriptions can be declared without forcing identical notation. | Equivalence and refinement need local criteria. |
-| Declarative representations can be used without being turned into ordered work-control claims. | Route-like language needs `C.2.P.DR` or a direct governing-pattern assignment. |
+| Declarative representations can be used without being turned into ordered work-control claims. | Route-like language needs `C.2.P.DR` or an exact subject assertion with its defining or constraining ClaimGraph. |
 
 #### A.3.2:9.1 - Quick use cards
 

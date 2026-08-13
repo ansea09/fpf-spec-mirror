@@ -6,12 +6,12 @@ section_id: "A.15.2:7"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__008_scope-declaration-and-rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7 — Scope Declaration and Rationale"
-line_start: 25181
-line_end: 25186
+line_start: 25379
+line_end: 25384
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ dependencies:
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "PlanItem content"
@@ -59,5 +59,5 @@ keywords:
 
 * **Applicability:** Use the same intended-work test for coordination, budgeting, architecture planning, teaching examples, and source or evidence questions. When the current claim is performed work, a non-agentive forecast, dynamics, evidence, assurance, publication use, appearance-based reliance repair, or declarative representation, apply the direct pattern for that claim.
 * **Scope declaration:** Domain-general where a system is actually coordinating possible future performed work. A tide table, weather forecast, simulation schedule, or predicted natural trajectory is not a WorkPlan unless its claim content also coordinates a system's intended Work. Interpret the plan through its effective `U.ReferenceScheme` and, when the use needs a bounded claim set or model-applicability question, the exact `U.ClaimScope` and `ModelApplicabilityRelation` governed by A.2.6 and A.1.1. An already identified `BoundedModelUseStructure` enters only when a separate receiving claim or use relation states how that structure changes this plan use and its direct predicate obtains; otherwise omit the structure rather than inventing a context field. Ordinary project, domain, or context wording stays Plain and creates no container or identity field. For cross-context sense reuse, apply checklist item 7.
-* **Rationale:** Planning and scheduling become a first-class episteme that systems can use to coordinate intended methods, performer and role conditions, and possible future work without turning the episteme into an actor or the proposal into an occurrence.
+* **Rationale:** Planning and scheduling become a first-class episteme that systems can use to coordinate intended Methods, intended performer Systems and local system-role-kind conditions, and possible future Work without turning the episteme into an actor or the proposal into an occurrence or assignment.
 

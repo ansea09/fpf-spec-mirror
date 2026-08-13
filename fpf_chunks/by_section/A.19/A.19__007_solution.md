@@ -6,32 +6,26 @@ section_id: "A.19:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__007_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:5 — Solution"
-line_start: 28525
-line_end: 28725
+line_start: 28727
+line_end: 28927
 dependencies:
   - "A.10"
+  - "A.15"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
-  - "A.19.CN"
   - "A.19.CPM"
-  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.19.SelectorMechanism"
-  - "A.2.5"
   - "A.2.6"
-  - "A.3.3"
   - "A.6.5"
   - "C.16"
   - "C.2.1"
-  - "E.18"
   - "E.24"
   - "F.9"
-  - "G.0"
   - "G.11"
   - "G.4"
   - "U.ClaimScope"
@@ -43,10 +37,10 @@ keywords:
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
-  - "role-specific space refs stay outside A.19"
   - "state trajectories"
   - "structural overlays"
   - "subspace"
+  - "system-role–Method–Work assertions stay outside A.19"
 ---
 
 ### A.19:5 - Solution
@@ -83,7 +77,7 @@ To ensure consistency and comparability, a CharacteristicSpace must obey the fol
 
 -   **A19-CS-4 (Arity preservation).** If a `Characteristic_i` is defined as a **relation** (multi-entity characteristic), then slot _i_ represents a relationship among multiple entities. The coordinate value at such a slot is a **tuple** (with the appropriate entity types) rather than a simple scalar. The slot’s declaration **SHALL** indicate the relation’s symmetry or directionality as part of its meaning (this should align with how the Characteristic was originally defined in its template). In essence, relational Characteristics retain their arity in the space, so that we don’t confuse, say, “Coupling between X and Y” with an intrinsic property of X or Y alone.
 
-- **A19-CS-5 (No hidden normalization, preference, or aggregation).** A `CharacteristicSpace` carries no implicit normalization, polarity preference, threshold, formula, or aggregation. A `CharacteristicSpacePredicate` may declare polarity, operator semantics, and a cut or band over that space. Normalizing, indicatorizing, scoring, folding, comparing, and selecting remain explicit operations under their governing patterns; the space declaration itself performs none of them. A.19.UNM governs normalization semantics and admissibility; C.16 governs relied-on measurement and calibration claims.
+- **A19-CS-5 (No hidden normalization, preference, or aggregation).** A `CharacteristicSpace` carries no implicit normalization, polarity preference, threshold, formula, or aggregation. A `CharacteristicSpacePredicate` may declare polarity, operator semantics, and a cut or band over that space. Normalizing, indicatorizing, scoring, folding, comparing, and selecting remain explicit operations under their subject patterns; the space declaration itself performs none of them. A.19.UNM governs normalization semantics and admissibility; C.16 governs relied-on measurement and calibration claims.
  - **A19-CS-6 (Slot meta completeness).** Where applicable, each slot **SHALL** declare `admissible_domain` and **missingness semantics** (e.g., codes for *missing*, *censored*, *not-applicable*), consistent with the Characteristic’s Scale and with MM‑CHR. This prevents silent domain drift and clarifies how absent values participate in predicates and comparisons.
 
  - **A19-CS-7 (Space-vs-consumer boundary).** A `CharacteristicSpace` publishes only its own slot basis, optional overlays, and typing hooks. Ref-typed consumer fields that point to a declared space, explicit relation kinds between such refs, source-set wiring, interpretive-view organization, and publication metadata are **outside** the space object and **MUST** be declared in the consumer pattern or consumer declaration that uses the space. This prevents `CharacteristicSpace` from being silently widened into ref-position semantics, selector semantics, source-set semantics, publication-form semantics, or interpretive-view semantics.
@@ -108,7 +102,7 @@ In all **normative references, definitions, and identifiers** related to this pa
 
 ##### A.19:5.1.6 - Quotients & NormalizationFix (Normative)
 
-**Governing-pattern note.** `≡_UNM` and `NormalizationFix` are defined in **A.19.UNM**. This section constrains only how they are **cited** when used in state‑space reasoning.
+**Subject-pattern note.** `≡_UNM` and `NormalizationFix` are defined in **A.19.UNM**. This section constrains only how they are **cited** when used in state‑space reasoning.
 
 **Design rule — read invariants, not labels.** Any checklist, acceptance predicate, equality check, join, or comparability claim over a `CharacteristicSpace` that depends on representation choice (chart, unit, reference plane, normalization choice, or label) **SHALL** be evaluated on **quotients by ≡_UNM** or on explicitly **Normalization‑fixed** charts, not on raw labels.
 *Minimal obligations:*
@@ -140,7 +134,7 @@ Use a `CharacteristicSpacePredicate` when a threshold, band, region, dominance c
 
 An arbitrary condition relation is not automatically a coordinate tuple. The predicate use must recover either a direct characteristic assignment already governed for that condition or an explicit projection or Bridge from the condition to the predicate input. When the affected entity differs from the condition's participants, the consuming relation or claim must also recover how that entity and use are related to the projected input.
 
-The predicate owns no applicability, assessment, observation, evidence, or evaluation window. A consumer separately binds the exact `U.ClaimScope`, relevant `U.ContextSlice` membership, effective reference scheme and plane, application or evaluation window, input value, and evaluation operation. A dated evaluation is `U.Work`; its actual operation application binds the predicate and input and returns the direct owner's typed result. A criterion-description episteme can express the predicate, and an assertion episteme can claim an evaluation result, but neither episteme nor result is the predicate.
+The predicate carries no applicability, assessment, observation, evidence, or evaluation window. A consumer separately binds the exact `U.ClaimScope`, relevant `U.ContextSlice` membership, effective reference scheme and plane, application or evaluation window, input value, and evaluation operation. A dated evaluation is `U.Work`; its actual operation application binds the predicate and input and returns the result typed by that operation declaration. A criterion-description episteme can express the predicate, and an assertion episteme can claim an evaluation result, but neither episteme nor result is the predicate.
 
 Predicate identity changes only when its semantic components change. Coextensional wording, notation, carrier, publication, identifier, or description-edition change does not by itself create another predicate. A consumer may evaluate the same predicate in another scope or window without changing the predicate; it may not silently change the space, coordinate projection, scale, normalization or Bridge, comparator, cut, band, or polarity while claiming reuse.
 
@@ -152,7 +146,7 @@ Predicate identity changes only when its semantic components change. Coextension
 
 This section supplies space projection, embedding, product, and two coordinate-comparability regimes. It does not perform a CPM comparison or a SelectorMechanism selection. A consumer that names a state or category cites the declared space and predicate, then keeps its own scope, evaluation, result, evidence, and work relations.
 
-A CharacteristicSpace may be written abstractly as `CS = ⟨I, basis⟩`, where `I` indexes slots and `basis` is the ordered set of `(Characteristic, Scale)` bindings. A consumer-specific label for a space does not create another A.19 kind; the consumer instead states the exact role, entity, claim scope, context-slice membership, effective reference scheme and plane, and predicate relevant to that use.
+A CharacteristicSpace may be written abstractly as `CS = ⟨I, basis⟩`, where `I` indexes slots and `basis` is the ordered set of `(Characteristic, Scale)` bindings. A consumer-specific label for a space does not create another A.19 kind; the consumer instead states the exact use or relation position, entity, claim scope, context-slice membership, effective reference scheme and plane, and predicate relevant to that use.
 
 ##### A.19:5.2.1 - CS Operators (notation-neutral, reference-scheme-local)
 
@@ -174,11 +168,11 @@ An embedding whose endpoints share semantic interpretation remains local to thei
 **Normalization declaration duties (MUST):** Each cited `NormalizationMethodInstanceId` satisfies A.19.UNM declaration and admissibility obligations, including method-class token and validity window. C.16 governs calibration and measurement backing when relied on. Normalization alone does not license a change of reference scheme, plane, predicate, scope, or evaluation window; each changed boundary needs its direct declaration or Bridge.
 
 ###### A.19:5.2.1.3 Product – **Combination** `CS₁ ⊗ CS₂ = CS⊗`.
-The **product** of two spaces CS₁ and CS₂ is a new space **CS⊗** that effectively contains all slots of CS₁ and all slots of CS₂. If CS₁ has index set _I₁_ and basis slots {slot₁…} and CS₂ has _I₂_, then $CS⊗$ has index set $I\_⊗ = I₁ ⊎ I₂$ (disjoint union) with each slot’s definition carried over from its original space. In practical terms, any state in the product space is a pair _(x₁, x₂)_ where _x₁_ is a state of CS₁ and _x₂_ is a state of CS₂ (assuming the two spaces pertain to possibly different aspects or roles). **Use cases:** Product spaces allow modeling **multi-role scenarios** or bundling an entity’s state with some environmental or contextual state. For example, one might take a space of internal capability metrics and ⊗ with a space of external conditions to form a combined space for “readiness under conditions.” **Note:** When combining scores or coordinates from a product space, one must be mindful of scale incommensurability. Cross‑slot aggregation **SHALL** proceed only via a declared **Γ‑fold** (B.1) and, where needed, explicitly declared **NormalizationMethods**; naïve arithmetic is forbidden. The product operation itself doesn’t perform any aggregation; it only sets the stage.
+The **product** of two spaces CS₁ and CS₂ is a new space **CS⊗** that effectively contains all slots of CS₁ and all slots of CS₂. If CS₁ has index set _I₁_ and basis slots {slot₁…} and CS₂ has _I₂_, then $CS⊗$ has index set $I\_⊗ = I₁ ⊎ I₂$ (disjoint union) with each slot’s definition carried over from its original space. In practical terms, any state in the product space is a pair _(x₁, x₂)_ where _x₁_ is a state of CS₁ and _x₂_ is a state of CS₂ (assuming the two spaces pertain to possibly different aspects or uses). **Use cases:** Product spaces allow modeling **multi-use scenarios** or bundling an entity’s state with some environmental or contextual state. For example, one might take a space of internal capability metrics and ⊗ with a space of external conditions to form a combined space for “readiness under conditions.” **Note:** When combining scores or coordinates from a product space, one must be mindful of scale incommensurability. Cross‑slot aggregation **SHALL** proceed only via a declared **Γ‑fold** (B.1) and, where needed, explicitly declared **NormalizationMethods**; naïve arithmetic is forbidden. The product operation itself doesn’t perform any aggregation; it only sets the stage.
 
 ##### A.19:5.2.2 - Comparability of **States** (two admissible regimes)
 
-A label such as `Ready`, `Authorized`, or `Degraded` is a consumer-side category, not a space or comparison result. Its direct owner states the predicate and evaluation use. Comparing two coordinate states depends on the declared spaces, mappings, scales, and comparison scope; A.19 permits only the following two coordinate regimes.
+A label such as `Ready`, `Authorized`, or `Degraded` is a consumer-side category, not a space or comparison result. Its subject pattern states the predicate and evaluation use. Comparing two coordinate states depends on the declared spaces, mappings, scales, and comparison scope; A.19 permits only the following two coordinate regimes.
 
 ###### A.19:5.2.2.1 Coordinatewise comparability (`≼_coord`)
 
@@ -216,9 +210,9 @@ If normalization also crosses reference schemes or planes, the comparison cites 
 
 A.19 defines the space and `CharacteristicSpacePredicate`; it does not define a state assertion, applicability relation, dated evaluation work, gate, evidence relation, assurance result, or permission to act.
 
-A consumer use recovers: the exact subject or input; any direct characteristic assignment or projection from that subject; the A.19 space and predicate; one set-valued `U.ClaimScope`; relevant A.2.6 `U.ContextSlice` membership; effective `U.ReferenceScheme` and reference plane; application or evaluation window; and any F.9 Bridge. The direct consumer owns the actual evaluation operation and typed result. A.10 provenance, G.11 currentness, measurement backing, assurance, and receiving-work disposition remain separate.
+A consumer use recovers: the exact subject or input; any direct characteristic assignment or projection from that subject; the A.19 space and predicate; one set-valued `U.ClaimScope`; relevant A.2.6 `U.ContextSlice` membership; effective `U.ReferenceScheme` and reference plane; application or evaluation window; and any F.9 Bridge. The consumer identifies the exact evaluation-operation application and its typed result under the applicable evaluation or assertion rule. A.10 provenance, G.11 currentness, measurement backing, assurance, and receiving-work disposition remain separate.
 
-For a `Ready` claim requiring temperature below a cut and pressure above a cut, A.19 supplies the two declared coordinates, scales, normalization or Bridge basis, operators, cuts, polarity, and conjunction. The state-assertion owner binds the pump, scope, slice, evaluation interval, actual inputs, result, and evidence use. Changing the evaluation interval does not change the predicate; changing either cut does.
+For a `Ready` claim requiring temperature below a cut and pressure above a cut, A.19 supplies the two declared coordinates, scales, normalization or Bridge basis, operators, cuts, polarity, and conjunction. The actual state assertion binds the pump, scope, slice, evaluation interval, inputs, result, and evidence use. Changing the evaluation interval does not change the predicate; changing either cut does.
 
 Pulling a predicate into another space or pushing an assertion through an embedding requires the exact coordinate correspondence, normalization, and Bridge. If an input projection or semantic correspondence is missing, the current use is incomparable or unevaluable rather than approximately valid.
 
@@ -228,7 +222,7 @@ A comparison across reference schemes or planes is admissible only through an F.
 
 The comparison may reuse a predicate only when the Bridge preserves every semantic predicate component. CPM separately binds comparison scope, comparator, input values, effective reference plane, and evaluation window. A Bridge does not copy scope or time, and a common label does not establish predicate equality.
 
-B.3 or the direct assurance pattern owns any confidence or margin consequence. If a critical coordinate lacks an admissible normalization or Bridge, or if the predicate, plane, scope, or window cannot be held fixed, report the values as incomparable for that use.
+B.3 or the direct assurance pattern contains the defining content for any confidence or margin consequence. If a critical coordinate lacks an admissible normalization or Bridge, or if the predicate, plane, scope, or window cannot be held fixed, report the values as incomparable for that use.
 
 ##### A.19:5.2.5 - Characteristic-Space Reference Chain
 
@@ -242,11 +236,11 @@ The left side of this chain is A.19-facing: declared space, normalization refere
 
 **Spaces:** `Sub` (projection), `Emb` (embedding), `Prod` (product), `Quot` (quotient by declared equivalence), `NormalizationFix` (fix to a named chart or edition).
 
-**Predicate and assertion transport:** `Pull` (pull a predicate through an embedding and declared normalization), `Push` (push an assertion with proof or waiver under its direct owner), `Indicatorize` (apply an `IndicatorChoicePolicy`), `Align_B` (align exact reference-scheme or plane endpoints through a Bridge), and `Fold_Γ` (admissible aggregation under its governing pattern).
+**Predicate and assertion transport:** `Pull` (pull a predicate through an embedding and declared normalization), `Push` (push an assertion with proof or waiver under its subject pattern), `Indicatorize` (apply an `IndicatorChoicePolicy`), `Align_B` (align exact reference-scheme or plane endpoints through a Bridge), and `Fold_Γ` (admissible aggregation under its subject pattern).
 
-**OP-1 (Normative).** If `Align_B` supports a gate, comparison, or assurance claim, cite the exact Bridge and CL where current. The direct consumer owns scope, evaluation window, result, and any B.3 consequence. Silent cross-scheme or cross-plane reuse is forbidden.
+**OP-1 (Normative).** If `Align_B` supports a gate, comparison, or assurance claim, cite the exact Bridge and CL where current. The consumer separately binds scope, evaluation window, and result; any assurance consequence requires a separately current B.3 assurance result. Silent cross-scheme or cross-plane reuse is forbidden.
 
 #### A.19:5.4 - Set-view, comparison, and selection boundary
 
-A typed view over a set, `ComparisonResultSlot`, `SelectionSlot`, shortlist, archive, portfolio, search-space role, outcome-space role, metric-based neighborhood, and transition-sensitive selection interpretation are consumer objects. They may cite an A.19 space, predicate, order, distance overlay, or transition relation, but A.19 does not define their result, view, comparison, or selection identity. Keep the underlying source set and exact A.19 values recoverable; use A.19.CPM, A.19.SelectorMechanism, the direct view or publication pattern, and the exact transition owner for the consuming claim.
+A typed view over a set, `ComparisonResultSlot`, `SelectionSlot`, shortlist, archive, portfolio, search-space position, outcome-space position, metric-based neighborhood, and transition-sensitive selection interpretation are consumer objects. They may cite an A.19 space, predicate, order, distance overlay, or transition relation, but A.19 does not define their result, view, comparison, or selection identity. Keep the underlying source set and exact A.19 values recoverable; use the exact predicates and subject assertions located through A.19.CPM, A.19.SelectorMechanism, the direct view or publication pattern, and the transition-relation source for the consuming claim.
 

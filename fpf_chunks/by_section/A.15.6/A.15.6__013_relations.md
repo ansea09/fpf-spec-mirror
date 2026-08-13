@@ -6,12 +6,12 @@ section_id: "A.15.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:12 — Relations"
-line_start: 26578
-line_end: 26595
+line_start: 26780
+line_end: 26797
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -39,10 +39,10 @@ keywords:
 
 - `A.1` governs the identities of participating systems, affected holons, and description-grounding holons.
 - `A.3.1` governs reusable `U.Method` identity and composition. Apply `A.22` to select an exact method-side `U.Structure`: identify its constituents, exact selected obtaining relations, applied constraints, selection question, permitted action, and prohibited overread. Use `MethodRelationStructure` only as a local designator after that selection.
-- `A.3.4` governs one actual bounded change of one continuing referent. A direct dynamics, interaction, participation, or causality owner separately decides any actor-side participants; Work-facing performer, assignment, Work, and work-to-change claims remain separate.
-- `A.15.1` governs admission and identity of performed `U.Work`: actual performer systems, covering assignments and any explicit `performedUnderAssignment`, exact `enactsMethod`, governed extent, `executedWithin`, exact work parts, episodes, continuity, and relation-specific aggregation. Project qualifications add no second Work identity or container-made parthood.
+- Use `A.3.4` for one actual bounded change of one continuing referent. State actor-side participants only when the applicable dynamics, interaction, participation, or causal-use predicate obtains; Work-facing performer, assignment, Work, and work-to-change claims remain separate.
+- `A.15.1` supplies the admission and identity test for performed `U.Work`: performers, enacted Method, extent, containing System, Work parts, episodes, continuity, and relation-specific aggregation; F.6 identifies the assignment under which each performer acted. A short account may omit unused assignment identifiers. Project qualifications add no second Work identity or container-made parthood.
 - `A.15.2` governs intended work and `U.WorkPlan` before and during performance; a merely intended future system remains plan content rather than an actual holder.
-- `A.2` governs one enactment-facing role value interpreted through a named role-taxonomy episteme and effective reference scheme. `A.2.1` conditionally adds its admitted holder, obtaining assignment occurrence, and uninterrupted extent; neither role interpretation nor assignment grounds project designation.
+- Use `A.2` to identify and classify local system-role kinds from their feature criteria. When assignment identity matters, `A.2.1` adds an assignment occurrence and its declared `U.SystemRoleAssignment` species. The species defines participant meanings and the predicate; the occurrence supplies the participants and extent for the case. Neither classification nor assignment grounds project designation.
 - `A.15.PROD` governs only the selected production-work, entity-identity-inception, or production-completion question and supplies no universal project-result relation.
 - `A.6.RCD` governs the local-claim, reusable-predicate, and relation-kind economy. For the project-selection question in section 4.1a, keep the plan designation and independently admitted facts usable, but stop at `missing-substrate[project-selection-conjunction]`; neither the conjunction probe nor the reference scheme supplies constructor semantics.
 - Apply `A.6.P.WMR` when result wording hides the relation. Choose one of four outcomes: obtaining direct relation, exact A.6.1 binding, local claim under `A.15.PROD` or `A.6.RCD`, or one non-assertability result. Its reasons are `factually unsupported`, `missing-information`, and `missing-governor`; only the last reopens ontology. WMR admits no `ProjectResultRelation` or `WorkResultRelation`.

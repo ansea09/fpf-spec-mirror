@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__008_reasoning-primitives.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:6 — Reasoning Primitives"
-line_start: 91168
-line_end: 91196
+line_start: 91881
+line_end: 91912
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,52 +22,58 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:6 - Reasoning Primitives
 
-Use these judgement schemas as thinking checks.
+Use these schemas as thinking checks.
 
 ```text
-RoleDescription RD describes Role R under taxonomy episteme T and scheme S
-  -> RD is a C.2.1 episteme about R, not R, T, or S themselves.
+SystemRoleKindDescription D describes local system-role kind K
+  -> D is a C.2.1 episteme about K; D is not K or a classification judgment.
 ```
 
 ```text
-RoleDescription RD names independently admitted U.System holder kind HK for Role R
-  -> A RoleAssignment may use a holder of HK only after that exact holder satisfies A.1 and the assignment's exact participants satisfy A.2.1; RD establishes neither.
+Candidate system X satisfies the current KindSignature of K
+  -> this may support a classification judgment about X and K;
+     it creates neither an assignment nor performed Work.
 ```
 
 ```text
-RoleDescription RD lists capability requirement CapReq
-  -> capability claim is governed by A.2.2, not by RD.
+Assignment A relates admitted holder system X to K
+  -> A is an occurrence of an exact species under U.SystemRoleAssignment;
+     D establishes neither A nor X's system admission.
 ```
 
 ```text
-RoleDescription RD lists method requirement MReq
-  -> method or method-description claim is governed by A.15, A.3.1, or A.3.2.
+D cites capability requirement CapReq or Method requirement MReq
+  -> apply A.2.2 or the direct Method pattern; the citation proves neither result.
 ```
 
 ```text
-Source says "X has role Y" and X is an episteme
-  -> recover direct episteme-use relation before considering U.Role.
+Source says “episteme X has role Y”
+  -> use E.10.ROLE to recover the direct episteme-use relation or ordinary wording
+     before considering any system-role kind or assignment.
 ```
 

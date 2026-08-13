@@ -1,45 +1,52 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2"
-pattern_title: "Role Taxonomy"
+pattern_title: "System-Role Kinds and Assignments"
 section_id: "A.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2 — Role Taxonomy"
+  - "A.2 — System-Role Kinds and Assignments"
   - "A.2:3 — Forces"
-line_start: 2752
-line_end: 2761
+line_start: 2774
+line_end: 2784
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.13"
   - "A.15"
-  - "A.2.1-A.2.6"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
   - "A.6.0"
   - "A.6.5"
   - "A.6.REL"
+  - "A.6.RSIR"
   - "C.2.1"
-  - "E.24"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
+  - "E.10.ROLE"
+  - "F.4-F.6"
 keywords:
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
+  - "ambiguous role wording"
   - "assignment"
-  - "context"
-  - "function vs identity"
-  - "holder"
-  - "responsibility"
-  - "role"
+  - "holder System"
+  - "local System classification"
+  - "system-role kind"
+  - "work-facing contribution"
 ---
 
 ### A.2:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Stable system identity vs varied participation | The holder remains one system while assignments and participation claims change. |
-| Semantic locality vs vocabulary reuse | Role values need an explicit role taxonomy and reference scheme, but each local use must not become a new system kind. |
-| Role value vs assignment occurrence | `U.Role` states what kind of participation is meant; `U.RoleAssignment` states who holds it and when. |
-| Useful factorization vs false role mereology | Responsibilities, qualifications, role states, capability-fit conditions, and method relations may be selected separately without becoming role parts. |
-| Ordinary contribution wording vs direct relation discipline | The word `role` can help recognition, but a relied-on claim must recover the system-held role or the actual episteme-use, slot, capability, method, or work relation. |
+| Stable system identity vs changing contribution | The candidate remains one system while classifications, assignments, participation, and Work change. |
+| Local typed use vs public ontology growth | A project needs reusable work-facing kinds without admitting `U.Role` or another universal root. |
+| Kind identity vs membership | The continuing contribution distinction identifies the kind; a current criterion decides whether one system counts under it in a slice. |
+| Classification vs assignment | A judgment classifies a system. An assignment is a direct relation occurrence and can exist or end independently. |
+| Readable wording vs exact technical claims | “Alice is reviewer” is useful; a receiving decision may still need the exact kind, judgment, assignment, or Work attribution. |
+| Useful factorization vs false role mereology | Capability, responsibility, commitment, state, and Work remain separately governed rather than becoming parts of a role. |
 

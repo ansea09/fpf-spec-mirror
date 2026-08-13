@@ -6,12 +6,12 @@ section_id: "A.6.P.WMR:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P.WMR/A.6.P.WMR__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P.WMR — Exact Relation Recovery for Method and Work Claims"
   - "A.6.P.WMR:1 — Problem Frame"
-line_start: 16293
-line_end: 16320
+line_start: 16521
+line_end: 16548
 dependencies:
   - "A.15.1"
   - "A.15.1-A.15.3"
@@ -48,9 +48,9 @@ The nearest three failures keep the same thing and related object while changing
 
 - if the binding governor is known and the case facts fail its positive predicate, the proposed positive binding is `factually unsupported`;
 - if the governor is known but the fact needed to decide whether P-17 returned R-17 is unavailable, return `missing-information`;
-- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the inspection-application or report-forming owner that must supply, reject, or reframe it.
+- if no current result-binding predicate or direct report relation governs that pair, return `missing-governor` and name the missing predicate and the pattern or declaration that would make the claim assertable; otherwise retain the exact non-assertability result.
 
-Only when another reading could change the answer should the practitioner make the formal distinctions explicit: reusable declaration versus intended, committed, current, or historical subject relation; exact extent; polarity; and whether the claim is assertable. A direct relation additionally names its exact `RelationKind` and resolving direct pattern or relation-declaration episteme. An operation binding or local claim instead names its declaration-local or admitted predicate and owner. These assurance details check the ordinary answer; they are not prerequisites for understanding a simple positive past-tense sentence.
+Only when another reading could change the answer should the practitioner make the formal distinctions explicit: reusable declaration versus intended, committed, current, or historical subject relation; exact extent; polarity; and whether the claim is assertable. A direct relation additionally names its exact `RelationKind` and resolving direct pattern or relation-declaration episteme. An operation binding or local claim instead names its declaration-local or admitted predicate and defining declaration. These assurance details check the ordinary answer; they are not prerequisites for understanding a simple positive past-tense sentence.
 
 **What changes in practice.** The engineer stops debating which broad word is correct. They name the thing, the exact object it is relative to, and the direct verb they can safely say now; if no verb is yet justified, they state the exact failed fact, unavailable fact, or absent governor. Formal claim dimensions and assurance apparatus appear only when they can change or check that answer. Planning, actual participation, production, evaluation, delivery, acceptance, and transfer no longer inherit one another through vocabulary.
 

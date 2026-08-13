@@ -6,12 +6,12 @@ section_id: "A.2.9:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__005_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:2 — Problem"
-line_start: 6855
-line_end: 6865
+line_start: 7060
+line_end: 7070
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "F.6"
   - "U.Method"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -39,10 +41,10 @@ keywords:
 
 How can FPF represent communicative enactments so that:
 
-1. **Agency is explicit:** an admitted accountable `U.System` performs the act under a covering role assignment, not a role value, assignment, document, spec, or interface.
+1. **Agency is explicit:** an admitted `U.System` performs the act under a covering assignment occurrence whose species is declared. The System performs the act; the system-role kind, assignment occurrence, document, specification, and interface do not.
 2. **The act is locatable in time:** the act has an explicit Window (and thus freshness can be evaluated).
 3. **The act is locatable in meaning:** the act satisfies a type defined by an exact recognition-taxonomy episteme under an effective reference scheme; no generic bounded-context participant or Work judgement-context field substitutes for that basis, and `U.ClaimScope` remains only a claim-applicability object when a receiving claim needs one.
 4. **The act is auditable:** it has at least one declared utterance description, evidence carrier, or both when used for gate checks or governance.
-5. **Institutional effects are linkable:** the act can institute (or update/revoke) commitments, role assignments, statuses, etc., by reference.
+5. **Institutional effects are linkable:** the act can institute or update commitments, system-role assignments, statuses, and other exact relations by reference only after each effect's direct obtaining conditions hold.
 6. **Ambiguity is handled pragmatically:** the model supports multi-function and multi-party communication without requiring full linguistic pragmatics.
 

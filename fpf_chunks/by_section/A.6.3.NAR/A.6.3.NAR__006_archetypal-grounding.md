@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:5 — Archetypal Grounding"
-line_start: 15036
-line_end: 15087
+line_start: 15264
+line_end: 15315
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -62,7 +62,7 @@ C.33 carries captured and lost architecture-relevant structures: preserve the ol
 
 #### A.6.3.NAR:5.2.2 - Live unfolding event narrative
 
-A commentator narrates a football match while it unfolds. The ordinary narrative selects score state, possession changes, tactical shape, player roles, momentum, and uncertainty, then uses event and tension order for live orientation. It does not turn provisional interpretation into settled event evidence.
+A commentator narrates a football match while it unfolds. The ordinary narrative selects score state, possession changes, tactical shape, player roles and positions, momentum, and uncertainty, then uses event and tension order for live orientation. Here *player roles* is ordinary football language for tactical contribution and behaviour—such as pressing, covering, marking, playmaking, or providing width—not an asserted FPF system-role kind or assignment. The narrative does not turn provisional interpretation into settled event evidence.
 
 Later analysis, statistics, rule disputes, injuries, or official-result use returns to the event record and official sources. If the commentary itself must be replayed, cited, or disputed, an exact case identifies the live event-record episteme `MatchState-X`, commentary episteme `LiveNarrative-Y`, and `LiveNarrativization : MatchState-X -> LiveNarrative-Y`; the match and event stream are not `X`, and audio is a form or carrier rather than `Y`.
 

@@ -6,12 +6,12 @@ section_id: "E.10:15"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__017_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:15 — Common Anti-Patterns and How to Avoid Them"
-line_start: 75434
-line_end: 75442
+line_start: 75897
+line_end: 75905
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.PROD"
   - "A.19.SPR"
   - "A.2"
+  - "A.2.1"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -35,16 +36,23 @@ dependencies:
   - "C.2.1"
   - "C.2.P"
   - "C.29"
+  - "E.10"
   - "E.10.ARCH"
+  - "E.10.D1"
   - "E.10.MOVE"
+  - "E.10.ROLE"
   - "E.17"
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
   - "E.5"
+  - "F.17"
   - "F.18"
   - "F.19"
   - "F.5"
+  - "F.6"
+  - "F.9"
+  - "U.SystemRoleAssignment"
 keywords:
 ---
 

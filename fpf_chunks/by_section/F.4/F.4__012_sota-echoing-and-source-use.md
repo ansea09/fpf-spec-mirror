@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:10"
-section_title: "SoTA-Echoing and Source-Use"
+section_title: "SoTA-Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-echoing-and-source-use.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
-  - "F.4:10 — SoTA-Echoing and Source-Use"
-line_start: 91255
-line_end: 91267
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
+  - "F.4:10 — SoTA-Echoing and Source Use"
+line_start: 91977
+line_end: 91989
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,36 +22,39 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
-### F.4:10 - SoTA-Echoing and Source-Use
+### F.4:10 - SoTA-Echoing and Source Use
 
 | Practice line | What FPF takes | Practical implication |
 | --- | --- | --- |
-| Role modeling in organizations, access-control, safety, and method engineering separates role labels, assigned holders, permissions, responsibilities, and performed work. | F.4 keeps only the role-description episteme and sends assignment, permission, capability, method, and work to direct patterns. | A readable role description does not become an access policy, staffing record, or work log. |
-| Role-taxonomy and interoperability practice keeps local role meanings scheme-relative and compares them by explicit correspondences, not shared labels. | F.4 names the role-taxonomy episteme and effective scheme; cross-taxonomy or cross-scheme comparison goes through `F.9`. | Same label does not make the same role meaning. |
-| FPF episteme and publication ontology separates the described entity, description episteme, and publication form. | A role description is a description episteme about `U.Role`; a card or table may publish it. | Editing the publication is not automatically changing the role value or assignment relation. |
-| FPF slot discipline separates relation positions from fillers. | "Role" in a relation-position phrase is repaired to SlotKind or ValueKind when no work-facing `U.Role` is current. | Slot names do not create role values. |
+| Foundational-ontology work distinguishes a context-dependent classification, its bearer, dependence, capability, function, and participation. | F.4 keeps one local kind and its description separate from the candidate system, classification judgment, assignment, capability, Method, and Work. | A readable description creates none of its neighboring world-side facts. |
+| Terminology and interoperability practice distinguishes a referent, its description, designation, scheme, and explicit cross-context correspondence. | Use F.4 to name the local kind and its scheme-relative description, and C.3.3 and F.9 for actual correspondence. | Same spelling does not identify the same kind across contexts. |
+| FPF episteme and publication ontology separates the described entity, description episteme, publication form, and carrier. | A `SystemRoleKindDescription` is an episteme about one exact local kind; a card or table may express it. | Editing or publishing the form does not change the kind or create an assignment. |
+| FPF relation-declaration discipline distinguishes participant meaning, actual participants, declaration slots, and representations. | Bare *role* in those uses is recovered through E.10.ROLE and A.6.RSIR. | A relation position does not become a system-role kind. |
 
-Current best-known pressure for this problem is not a larger universal role taxonomy. It is explicit separation of local role value, assignment, attributes or capability, permission or policy standing, performed work, and evidence or status use. RBAC, ABAC, zero-trust authorization, safety independence practice, method engineering, and FPF slot discipline all push in that direction, while F.4 keeps only the role-description episteme and hands the neighboring claims to direct patterns.
+SysML is intentionally not used as an authority for this ontology. A modeling notation does not decide the identities of a local system-role kind, candidate system, assignment, participation, permission, or Work.
 
-Currentness and reopen condition: reopen this pattern when `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.15`, `A.6.5`, `C.2.1`, `F.9`, `F.10`, `F.18`, or the accepted episteme-use and status-use discipline changes enough that role-description, holder admission, or non-role-use boundaries would be stated differently.
+Currentness and reopen condition: reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7, A.15, A.6.5, A.6.RSIR, C.2.1, F.9, F.10, F.18, or the accepted episteme-use discipline changes enough that the described-kind or non-inference boundary would be stated differently.
 

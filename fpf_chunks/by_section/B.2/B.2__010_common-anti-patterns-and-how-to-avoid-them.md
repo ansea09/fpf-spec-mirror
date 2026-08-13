@@ -6,12 +6,12 @@ section_id: "B.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 37323
-line_end: 37334
+line_start: 37533
+line_end: 37544
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 | --- | --- | --- |
 | Emergence by adjective | A capability or property is called emergent without reidentifying the whole. | Use `B.2.P` to recover claim kind, then B.2 only if whole reidentification is current. |
 | Record as ontology | Trigger profile, result field, or record name is treated as a world-side kind. | Keep profile, check, and reidentification record as `U.Episteme` values; let `E.24.UK` govern the candidate new whole's public kind and A.1 govern recognition of that candidate. |
-| Content field as relation slot | A reference field inside a profile or record is treated as a participant SlotKind or as evidence that the referenced relation obtains. | Keep the field in episteme content, resolve its reference to the direct occurrence, and use that occurrence's governing pattern for obtaining and identity. |
+| Content field as relation slot | A reference field inside a profile or record is treated as a participant SlotKind or as evidence that the referenced relation obtains. | Keep the field in episteme content, resolve its reference to the direct occurrence, and use that occurrence's subject pattern for obtaining and identity. |
 | KPI jump as MHT | A metric improves and MHT is declared. | Run `ExistingWholeExplanationCheck`; use the direct measurement, characteristic, method, work, or architecture pattern when it explains the change. |
 | Agency shortcut | Agency threshold crossing creates a new root kind. | Use the direct characteristic-space and threshold patterns; apply B.2 only when closure, supervision, objective, or identity changes. |
 | Math result as MHT | Graph, RG-like, MSPD, or benchmark expression declares new whole. | Use `C.29`; recover holon identity before B.2. |

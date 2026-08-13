@@ -6,12 +6,12 @@ section_id: "C.22.2:16"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__017_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:16 — Rationale"
-line_start: 52290
-line_end: 52297
+line_start: 52550
+line_end: 52557
 dependencies:
   - "A.10"
   - "A.15"

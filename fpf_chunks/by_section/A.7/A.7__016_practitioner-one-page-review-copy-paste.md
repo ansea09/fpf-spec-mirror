@@ -6,12 +6,12 @@ section_id: "A.7:14"
 section_title: "Practitioner one-page review (copy-paste)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__016_practitioner-one-page-review-copy-paste.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:14 — Practitioner one-page review (copy-paste)"
-line_start: 21855
-line_end: 21875
+line_start: 22108
+line_end: 22128
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,20 +34,20 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:14 - Practitioner one-page review (copy-paste)
 
 **Approval sentence template**
 
-> “`U.RoleAssignment(holderRef=⟨system-or-acting-holon⟩, roleRef=⟨Role@Context⟩, boundedContextRef=⟨Context⟩)` is current for the work; the holder has **Capability** ⟨C⟩ to enact exact **Method** ⟨M⟩; the receiving `methodRef` resolves directly to ⟨M⟩ under its effective reference scheme; when this claim actually relies on separately admitted **MethodDescription** episteme ⟨S⟩, cite that edition separately; the holder executed **Work** ⟨W⟩ on ⟨time⟩ and cites A.10 evidence-provenance or carrier/source-currentness refs ⟨ids⟩; resources are accounted through the governing work-cost relation.”
+> “`⟨assignment-occurrence⟩ : ⟨locally admitted direct U.SystemRoleAssignment species⟩` obtains with `HolderSystemSlot = ⟨system-or-acting-holon⟩` and `AssignedSystemRoleKindSlot = ⟨exact local ...SystemRole kind⟩`; the holder has **Capability** ⟨C⟩ to enact exact **Method** ⟨M⟩; the receiving `methodRef` resolves directly to ⟨M⟩ under its effective reference scheme; when this claim actually relies on separately admitted **MethodDescription** episteme ⟨S⟩, cite that edition separately; the holder performed **Work** ⟨W⟩ at ⟨time⟩ under the assignment and cites A.10 evidence-provenance, carrier, or source-currentness refs ⟨ids⟩; resources are accounted through the governing work-cost relation.”
 
 **Six binary checks**
 
-1. **Bare acting-subject check:** No bare “actor” token in normative core claims; canonical `U.RoleAssignment` phrasing is present when a work-facing role is current.
+1. **Bare acting-subject check:** No bare “actor” token in normative core claims; the exact acting system and one named occurrence of its locally admitted direct assignment species are present when a work-facing assignment is current.
 2. **Clear work-facing positions:** Exact Method, Capability and Work are named when current and not conflated. A MethodDescription is named only when its independently identified episteme and claims pass A.3.2 membership.
 3. **Direct reference and membership:** An identifier's designation of the Method and the receiving claim's resolved `methodRef` remain distinct; neither requires a MethodDescription. Any `methodDescriptionRef` points to a separate episteme whose exact EntityOfConcern is that Method and whose claims cross the substantive way-of-doing threshold.
 4. **Right Γ:** Γ\_method composes Method; Capability states a system ability/envelope under conditions; Γ\_time covers occurrences; Γ\_work accounts resources; Γ\_sys covers system properties.
@@ -57,6 +57,6 @@ keywords:
 **Diagram legend stub**
 
 * “process (domain)” ⇒ Method (design-time) / Work (run-time).
-* Role column lists role values and assignment references (e.g., `CoolingCirculatorRole@Context`).
-* Behaviour column shows Method and Work, not the role itself.
+* System-role-kind column lists exact local `...SystemRole` kinds and separate assignment references (for example, `CoolingCirculatorSystemRole@ThermalLoop-7` and `CoolingLoopCirculationAssignment-17`).
+* Behaviour column shows Method and Work, not the system-role kind or assignment itself.
 

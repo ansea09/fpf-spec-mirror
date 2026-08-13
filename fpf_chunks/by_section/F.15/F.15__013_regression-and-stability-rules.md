@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 95230
-line_end: 95286
+line_start: 96012
+line_end: 96068
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ The RSCR family compares exact earlier and later refs for each changed member. E
 #### F.15:11.1 - Schemes, versions, and known confusions
 
 **RSCR-F15-E1 (Exact before/after and no silent replacement).**
-For each changed member, resolve exact `@t0` and `@t1` refs and versions. A changed effective ReferenceScheme changes interpretation-bearing content; an unchanged label or shared designator does not prove continuity. State the direct-owner identity, continuity, split, retirement, or replacement claim explicitly.
+For each changed member, resolve exact `@t0` and `@t1` refs and versions. A changed effective ReferenceScheme changes interpretation-bearing content; an unchanged label or shared designator does not prove continuity. State the subject-pattern identity, continuity, split, retirement, or replacement claim explicitly.
 
 **RSCR-F15-E2 (Known confusion check).**
 Recheck or explicitly retire every prior confusion, blocked use, and nearest counterexample affected by the change. A new edition does not erase an old trap.
@@ -76,13 +76,13 @@ Compare the exact C.2.1 row epistemes and their ClaimGraphs, EntityOfConcern val
 **RSCR-F15-E6 (Explicit add, split, merge, or retire).**
 When a changed value, sense, or use alters row support, preserve the exact earlier row and state the later add, split, merge, retirement, admitted losses, and receiving use under F.13/F.17. Do not mutate a shared table cell as continuity proof.
 
-#### F.15:11.4 - RoleDescriptions and names
+#### F.15:11.4 - SystemRoleKindDescriptions and names
 
-**RSCR-F15-E7 (RoleDescription continuity).**
-Compare exact F.4 description epistemes, described `U.Role` values, role-taxonomy epistemes, effective schemes, and claim content. A label-only change cannot prove that the described role or description episteme stayed the same.
+**RSCR-F15-E7 (`SystemRoleKindDescription` continuity).**
+Compare exact F.4 description epistemes, described local system-role kinds, bounded contexts, continuing contribution identities, current `KindSignature` editions, effective schemes, and claim content. A label-only change cannot prove that the described kind or description episteme stayed the same.
 
 **RSCR-F15-E8 (Alias for expression change; direct recovery for meaning change).**
-If only a selected expression changes while the exact governed value, scheme, sense, and use are preserved, F.13/F.18 may record an alias or rename. Changed described role, taxonomy, scheme, local sense, or description claim requires the corresponding new governed object or episteme and a fresh naming settlement.
+If only a selected expression changes while the exact governed value, scheme, sense, and use are preserved, F.13/F.18 may record an alias or rename. A changed described system-role kind, bounded context, contribution identity, current criterion, scheme, local sense, or description claim requires the corresponding new governed object or episteme and a fresh naming settlement.
 
 #### F.15:11.5 - Bridges and bounded uses
 
@@ -92,13 +92,13 @@ Compare exact prior/later endpoint cells and relation-semantic profiles. A chang
 **RSCR-F15-E10 (No drift to equivalence or use authority).**
 A later equivalence claim requires an exact Equivalence profile, true predicate, required dependencies, and a separately identified obtaining occurrence. A new witness set, high `CL`, polished Card, or earlier partial relation is insufficient. Any later substitution still needs its own bounded-use claim and reliance.
 
-#### F.15:11.6 - Status and role-relation structure
+#### F.15:11.6 - Status and system-role-kind relation structure
 
 **RSCR-F15-E11 (Status-window and status-use stability).**
-Compare the exact direct-owner family/value, target, scope, window, source condition, and intended use at `@t0` and `@t1`. Changed time, scale, confidence, or edition does not create a new family or preserve an old result automatically.
+Compare the exact subject-pattern family/value, target, scope, window, source condition, and intended use at `@t0` and `@t1`. Changed time, scale, confidence, or edition does not create a new family or preserve an old result automatically.
 
-**RSCR-F15-E12 (Role-relation stability).**
-Preserve, retire, or restate each exact role incompatibility, qualification, bundle, requirement, or selected `RoleRelationStructure` before it is consumed by naming, assignment, or work. No later description or fused label substitutes for the relation occurrence.
+**RSCR-F15-E12 (System-role-kind relation stability).**
+Preserve, retire, or restate each exact incompatibility, monotonic kind order, residual qualification, bundle, requirement, or selected `SystemRoleKindRelationStructure` before using it in a naming, assignment, or Work claim. No later description or fused label substitutes for the relation occurrence.
 
 #### F.15:11.7 - Public naming, publication, and currentness
 

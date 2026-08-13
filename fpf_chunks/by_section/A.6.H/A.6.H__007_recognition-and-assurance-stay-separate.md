@@ -6,20 +6,39 @@ section_id: "A.6.H:6"
 section_title: "Recognition and assurance stay separate"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__007_recognition-and-assurance-stay-separate.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:6 — Recognition and assurance stay separate"
-line_start: 21318
-line_end: 21336
+line_start: 21571
+line_end: 21589
 dependencies:
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.RCD"
   - "A.7"
   - "B.1.1"
   - "B.1.4"
+  - "B.1.5"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.16"
+  - "C.16.P"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
 keywords:
   - "boundary"
   - "completeness"
@@ -29,7 +48,7 @@ keywords:
   - "order/time"
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
-  - "role-method-work"
+  - "system-role–Method–Work distinctions"
   - "wholeness"
 ---
 

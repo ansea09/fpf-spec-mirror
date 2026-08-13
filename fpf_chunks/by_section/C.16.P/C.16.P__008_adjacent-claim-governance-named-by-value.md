@@ -6,12 +6,12 @@ section_id: "C.16.P:6"
 section_title: "Adjacent Claim Governance Named by Value"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__008_adjacent-claim-governance-named-by-value.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:6 — Adjacent Claim Governance Named by Value"
-line_start: 47571
-line_end: 47591
+line_start: 47816
+line_end: 47836
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,7 +41,7 @@ keywords:
 
 ### C.16.P:6 - Adjacent Claim Governance Named by Value
 
-| Recovered construction, claim kind, or admissible-use boundary | Governing pattern |
+| Recovered construction, claim kind, or admissible-use boundary | Subject pattern |
 | --- | --- |
 | `Characteristic` | `A.17` |
 | `Scale`, value set, value, coordinate, unit, scoring method, measurement use | `A.18`, `C.16` |

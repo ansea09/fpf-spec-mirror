@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 85631
-line_end: 85638
+line_start: 86301
+line_end: 86308
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,19 +27,17 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities (e.g"
-  - "and (if needed) reference them from CC items"
+  - "MUST NOT modify modeled-world entities such as Earth"
+  - "a system-role kind"
+  - "an assignment"
   - "inside the predicate)"
+  - "or a holon"
   - "where a non-deontic Invariant: predicate is required)"
-  - "“Earth”"
-  - "“RoleAssignment”"
-  - "“Role”"
-  - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
 ### E.19:0 - Use this when
 
-Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. `E.19` supplies profile-based questions and conclusion semantics. A reviewer acting in a role applies the selected questions; identify the review Method, system, assignment, dated Work, or separate authority-bearing decision only when exact replay or a named later use depends on those identities.
+Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. `E.19` supplies profile-based questions and conclusion semantics. A reviewer applies the selected questions. That ordinary wording asserts no local system-role kind, separate System-classification judgment, `U.SystemRoleAssignment`, `U.Method`, `U.Work`, or authority relation. When exact replay or a named later use asserts actual review, repair, or verification `U.Work`, use the §4 actual-Work account. Within that account, compact reporting may omit only an assignment identifier unused by the receiving claim; the complete basis remains recoverable.
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, primary `EntityOfConcern` stability, terminology, SoTA grounding, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 

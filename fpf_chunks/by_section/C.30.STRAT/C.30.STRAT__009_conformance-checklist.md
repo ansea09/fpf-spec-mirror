@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:7 — Conformance checklist"
-line_start: 61375
-line_end: 61387
+line_start: 61658
+line_end: 61670
 dependencies:
   - "A.10"
   - "A.15"
@@ -53,10 +53,10 @@ keywords:
 | ID | Check |
 | --- | --- |
 | `CC-C30STRAT-1` | The source label is copied as a source label before any FPF kind is assigned. |
-| `CC-C30STRAT-2` | The repair names the source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, governing pattern, admissible use, non-admissible use, and remaining reader use. |
+| `CC-C30STRAT-2` | The repair names the source label, bounded text, selected `ontologicalNeighborhood`, primary `EntityOfConcern` kind, encountered FPF kind or reference, relation to the primary `EntityOfConcern`, recovered kind, relation, or claim-use, source-use disposition, subject pattern, admissible use, non-admissible use, and remaining reader use. |
 | `CC-C30STRAT-3` | No root kind or universal kind is minted for layer, level, tier, stack, ladder, rung, block, expert, cache, router, gate, or stratification. |
-| `CC-C30STRAT-4` | The selected `ontologicalNeighborhood` and governing-pattern row select the governing pattern; the source label does not select the pattern nest by itself. |
-| `CC-C30STRAT-5` | Already recovered cases use the governing pattern directly instead of detouring through this pattern. |
+| `CC-C30STRAT-4` | The selected `ontologicalNeighborhood` and subject-pattern row select the subject pattern; the source label does not select the pattern nest by itself. |
+| `CC-C30STRAT-5` | Already recovered cases use the subject pattern directly instead of detouring through this pattern. |
 | `CC-C30STRAT-6` | The repair distinguishes the neighborhoods in `C.30.STRAT:4.2` when any of them are being used, and it does not compress several ontological neighborhoods being used into one word. |
 | `CC-C30STRAT-7` | Subject patterns use at most a thin pointer to this pattern and do not copy this trigger table. |
 | `CC-C30STRAT-8` | The result preserves one useful admissible reader use; if no move remains, the disposition is quote-only, reduced-use cue, blocked use, or incomplete rewrite rather than recovered by value. |

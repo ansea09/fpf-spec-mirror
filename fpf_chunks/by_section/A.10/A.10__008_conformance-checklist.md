@@ -6,12 +6,12 @@ section_id: "A.10:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:6 — Conformance Checklist"
-line_start: 22996
-line_end: 23008
+line_start: 23249
+line_end: 23261
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
 1. **Claim:** the exact relied-on C.2.1 episteme and proposition/local result are named.
 2. **Result rule:** every measurement, formal, causal, diagnostic, conformance, comparison, selection, acceptance, gate, permission, commitment, role, or decision result identifies the pattern that defines or tests it.
 3. **Carrier/source:** the selected source episteme and edition, any material publication occurrence, form, carrier, or face, the copy/transform chain, and direct provenance or citation relations are recoverable.
-4. **Work:** each producing, interpreting, transforming, evaluating, or relying occurrence is dated `U.Work` with role assignment, method, actual direct/A.6.1 bindings, and resources.
+4. **Work:** whenever production, interpretation, transformation, evaluation, or reliance is asserted as dated `U.Work`, point to its complete A.15.1/F.6 basis. Add direct relations, A.6.1 bindings, and resource-use facts only when the receiving claim uses them. Ordinary source-finding action need not be admitted as `U.Work`.
 5. **MethodDescription boundary:** the description contains only generic method claims; it supplies no actual participants, occurrence, use, proof/test event, or result.
 6. **Result boundary:** domain result, result episteme, carrier, provenance entry, outcome, and later action remain distinct.
 7. **Graph boundary:** every asserted edge names an independently established direct relation; no edge establishes work, participation, production, result, currentness, reliance, or representation by graph membership.

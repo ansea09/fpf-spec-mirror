@@ -6,12 +6,12 @@ section_id: "A.16.2:17"
 section_title: "Retained vs Withdrawn Authority"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__018_retained-vs-withdrawn-authority.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:17 — Retained vs Withdrawn Authority"
-line_start: 28086
-line_end: 28099
+line_start: 28288
+line_end: 28301
 dependencies:
   - "A.16"
   - "A.16.0"

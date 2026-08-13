@@ -6,12 +6,12 @@ section_id: "B.2.5:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__013_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:10 — SoTA-Echoing"
-line_start: 38459
-line_end: 38467
+line_start: 38670
+line_end: 38678
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,8 +41,8 @@ keywords:
 
 | Source family | Lesson for B.2.5 | FPF decision |
 | --- | --- | --- |
-| Layered and multi-rate control practice | Supervisor, plant, controller, observer, rate, and feedback language are useful recognition cues. | B.2.5 recovers the relation; `C.30.LCA`, `A.3.3`, `C.27`, and `C.29` own view, dynamics, timing, and mathematical claims. |
-| Cyber-physical systems practice | Medium limits, observation channels, actuation, delay, disturbance, and plant dynamics affect adequacy. | The relation names medium and returned influence; adequacy claims use direct owners. |
-| Organizational policy and review practice | Supervision may be enacted through policies, reviews, reports, publication channels, and role assignments. | The acting system in role is named; publications and reports remain source-use or publication objects. |
+| Layered and multi-rate control practice | Supervisor, plant, controller, observer, rate, and feedback language are useful recognition cues. | B.2.5 recovers the relation; use `C.30.LCA` for the view, `A.3.3` for dynamics, `C.27` for timing, and `C.29` for mathematical claims. |
+| Cyber-physical systems practice | Medium limits, observation channels, actuation, delay, disturbance, and plant dynamics affect adequacy. | The relation names medium and returned influence; adequacy claims use subject patterns. |
+| Organizational policy and review practice | Supervision may be enacted through policies, reviews, reports, publication channels, and system-role assignments. | The supervising acting system is named; publications and reports remain source-use or publication objects. |
 | Episteme and publication discipline | Knowledge-bearing objects can be reviewed, revised, cited, and published, but they do not act. | Episteme examples use acting systems for review and keep the episteme as reviewed or revised object. |
 

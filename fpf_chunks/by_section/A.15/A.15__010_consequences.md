@@ -1,63 +1,68 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:9 — Consequences"
-line_start: 24302
-line_end: 24310
+line_start: 24519
+line_end: 24530
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:9 - Consequences
 
-| Benefits | Trade-offs and Mitigations |
-| :--- | :--- |
-| **Unambiguous Communication:** Provides a shared, precise vocabulary for teams to discuss roles, methods, work plans, work occurrences, and results, eliminating the ambiguity of source terms like "process." | **Initial Learning Curve:** Requires teams to learn and internalize the distinctions between the core entities. *Mitigation:* The "Chef" analogy and clear archetypes serve as powerful didactic tools. FPF tooling can guide users with templates. |
-| **End-to-End Traceability:** The framework links each admitted Work individual to its exact four-participant role assignment and enacted method through obtaining relations; a separate assertion may cite the method-description edition, plan, evidence relation, or evidence-provenance relation needed by the receiving use. This supports root-cause analysis without treating interpretation metadata as work. | **Increased Formality:** Requires more explicit modeling than informal approaches. *Mitigation:* Record only the relations needed by the receiving use; do not materialize the whole alignment when a shorter direct claim suffices. |
-| **Enables True Modularity:** By separating capability-fit from execution, the framework allows for easier substitution. A `MethodDescription` can be updated without changing past Work occurrences; any assertion or record about those occurrences remains a separate episteme and retains whatever edition reference its receiving use requires. A holder can be replaced with another when the replacement holder satisfies the declared capability-fit condition. | - |
-| **Foundation for role-source accountability:** The model makes it possible to state role-bound work rules without making the role or publication act. For example, only a holder acting under `AuditorRole` in a `U.RoleAssignment` with the exact auditor-role taxonomy and effective scheme, and satisfying the selected method and applicable capability-fit or gate conditions, can perform one approval Work occurrence admitted under `U.Work`; its exact speech-act or instituted-effect relation makes the approval claim current, not a label-defined Work subkind. | - |
+| Gain | Cost or trade-off |
+| --- | --- |
+| Teams can ask which System performed which Work, under which assignment and Method, without making a kind or document act. | Reliance-bearing use must recover the assignment occurrence and its declared species rather than stop at a familiar label. |
+| Simple assignments stay simple while commission-, position-, or locus-sensitive assignments preserve their real participants. | Each bounded vocabulary must admit the direct species and local system-role-kind domain it actually uses. |
+| MethodDescription, WorkPlan, Work, result, and evidence can change independently. A MethodDescription can be revised without rewriting past Work; a holder can be replaced when the replacement satisfies the required classification, assignment, and capability-fit conditions. | A decision-relevant case may need several short direct claims instead of one overloaded record. |
+| Responsibility, authority, permission, capability, assignment state, and result stay available without being inferred from assignment. | The receiving use must say which of those stronger relations it truly needs. |
+| The chef analogy and ordinary first sentence make the distinction teachable. | Readers still need one concrete direct-species example so the analogy does not hide assignment identity. |
+
+For example, `AuditorSystemRole` can be the local kind used by an audit-assignment species. A particular assignment names its holder System, but F.6 must still say that this System performed `ApprovalWork-17`. Any decision authority, responsibility, gate effect, Method, capability fit, result, and evidence are separate claims. The kind name and assignment prove none of them.
 

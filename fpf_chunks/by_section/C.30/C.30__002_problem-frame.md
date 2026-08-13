@@ -6,12 +6,12 @@ section_id: "C.30:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:1 — Problem frame"
-line_start: 59515
-line_end: 59565
+line_start: 59797
+line_end: 59848
 dependencies:
   - "A.1"
   - "A.10"
@@ -101,7 +101,8 @@ ArchitectureQuestionCard@Project:
   selectedStructureRefs?: FinSet(U.StructureRef)
   candidateOrExpectedStructureRefs?: FinSet(U.StructureRef)
   selectedStructureKindRefs or candidateStructureKindRefs:
-  inspectedMaterialRole, if current:
+  inspectedMaterialUse, if current: claim content | description | view | representation | publication form | source | decision | mathematical lens | other exact use
+  inspectedMaterialUseRelationRefs?: exact direct relation refs that obtain
   firstArchitectureMove:
   architectureDescriptionBridge, if durable description use is current:
   governingPatternApplicationRefs, if another claim is being made:
@@ -111,7 +112,7 @@ ArchitectureQuestionCard@Project:
 The card can stop before a durable claim. An `actualRelationNamed` result requires exact obtaining `ArchitectureRelation` occurrences and their A.22 structure participants. A candidate, planned, required, desired, expected, modeled, or diagrammed structure remains in `candidateOrExpectedStructureRefs` and makes no subject relation obtain.
 `architectureConcernCue` is recognition wording only until it helps choose one selected structure kind and one architecture move. When a controlled cue is useful, use `changeLocalization`, `substitutionOrReplacement`, `flowBottleneck`, `controlOrRateMismatch`, `dataCustodyOrStateResidence`, `physicalSeparationOrPlacement`, `evidenceReuseOrAssuranceReuse`, `scaleWindowOrCoarseningLoss`, `runtimeFailureMode`, `crossScopeResidual`, `descriptionViewLoss`, or `otherDeclared`. Local phrases such as change localization failure, hidden crossing, source return, generated-view loss, or state-residence uncertainty may remain in `sourcePhrase?` or Plain prose. If the described holon, actual/candidate structure distinction, architecture concern, and first move cannot yet be named, set `questionDisposition` to `concernCueOnly` or `problemCardReady`; wording alone promotes neither a claim nor an obtaining relation.
 
-`ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separately governed ProblemCard, constitute an `ArchitectureClaim`, or name a non-architecture owner. `architectureRelationDisposition` separately records whether an actual direct relation has been recovered or the content is candidate/expected only. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim.
+`ArchitectureQuestionCard@Project` is a triage aid for choosing one architecture move. `questionDisposition` records whether to keep a concern cue, prepare a separately governed ProblemCard, constitute an `ArchitectureClaim`, or name a non-architecture pattern. `architectureRelationDisposition` separately records whether an actual direct relation has been recovered or the content is candidate/expected only. The card is not an evidence record, gate, decision, release record, quality score, risk rating, or publication-use authority claim.
 
 Across C.30, `@Project` in a record name is a compatibility and retrieval cue only. It identifies neither a project entity nor a composite project `U.Work`, and it establishes no context, authority, viewpoint, or parthood. When the card is genuinely local to one actual project, `projectWorkOccurrenceRef` identifies the exact composite `U.Work` recovered under A.15.6 and `architectureQuestionProjectUseRelationRef` identifies the exact obtaining relation by which this card use concerns that Work. Description publication and other project-local uses likewise name their own exact Work and project-use relation. A described holon, architecture claim, or architecture relation does not become project Work by retrieval suffix.
 
@@ -121,7 +122,7 @@ What goes wrong if C.30 is missed: the practitioner reasons from a document, mod
 
 What C.30 buys in practice: a practitioner can separate actual subject relations, selected structure, direct architecture relation, claim episteme, description, view, representation, publication occurrence/form/carrier, source relation, and non-architecture claim kind, then choose one small next architecture move.
 
-Not this pattern when the `EntityOfConcern` under repair is not an architecture claim, selected architecture-relevant structure, source relation, description relation, view relation, publication-role recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the subject pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common non-architecture claim boundaries are summarized in `C.30:12`.
+Not this pattern when the `EntityOfConcern` under repair is not an architecture claim, selected architecture-relevant structure, source relation, description relation, view relation, publication-use recovery for an architecture claim, or the thin architecture-description bridge needed for one architecture move. Use the subject pattern named by the recovered relation, and keep C.30 only for the architecture-claim portion if that portion is being claimed. Common non-architecture claim boundaries are summarized in `C.30:12`.
 
 Thin precision-restoration pointer: if the issue under repair is still whether *architecture*, *architecture description*, *structural view*, *module diagram*, *model*, *source material*, *functional architecture*, or a source label such as *layer*, *level*, *tier*, *stack*, *block*, *expert*, *cache*, *router*, or *gate* names an architecture claim, description, view, representation, publication form, source relation, structure, or non-architecture subject-pattern application, use `C.30.P` or `C.30.STRAT` as triggered before applying C.30 to the recovered architecture portion. If the recovered issue is mathematical-lens use, apply `C.29`; when no mathematical-lens use changes the architecture work, keep ordinary prose or use `NoMathLensUseNeededNote` under C.29 rather than creating a C.30-local lens result. Keep trigger tables in those patterns; C.30 is applied only after `ArchitectureClaim`, exact selected architecture-relevant structure, conditional `ArchitectureDescription` bridge use, `C.30.AD` application, or the non-architecture application named by value is recoverable.
 

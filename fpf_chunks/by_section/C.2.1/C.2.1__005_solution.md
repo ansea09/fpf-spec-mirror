@@ -6,12 +6,12 @@ section_id: "C.2.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:4 — Solution"
-line_start: 41214
-line_end: 41460
+line_start: 41425
+line_end: 41683
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -74,7 +74,7 @@ If the task needs only the episteme's identity—for example, to cite, catalogue
 
 Open a row below only when its first column names the reader's next sentence or action. Each positive answer adds an independently governed object or direct relation; none adds another slot or identity discriminator to the episteme.
 
-| Open this row when the next sentence or action is... | Recover | Governing pattern |
+| Open this row when the next sentence or action is... | Recover | Subject pattern |
 | --- | --- | --- |
 | A claim or relation must cite the exact constitution occurrence, not merely say that the episteme exists. | one exact obtaining `EpistemeConstitutionRelation` occurrence, reidentified by the participant triple; designate it when an epistemic receiver needs a reference, or use the occurrence itself as a participant when another direct relation is the receiver | C.2.1:4.2.3 and `A.6.REL` |
 | An observer must inspect designated empirical claims against current observation, intervention, measurement, or test relations involving one exact holon. | one exact `EpistemeEmpiricalGroundingRelation` occurrence, its covered claim subgraph, claim-to-world mappings, and grounding holon; recover supporting evaluation or evidence use separately | C.2.1:4.3 and the direct observation, intervention, measurement, test, evaluation, or evidence pattern |
@@ -142,7 +142,7 @@ The SlotKinds belong only to this declaration. An actual claim graph, EntityOfCo
 
 `EpistemeConstitutionRelation` obtains exactly when the effective reference scheme supplies a coherent designation and interpretation of the claim graph as claims about the exact EntityOfConcern, and the three participants are constitutively organized as one claim-bearing whole whose claims can in principle be evaluated under that scheme. Merely placing three designations in a card does not make the relation obtain.
 
-The relation occurrence is participant-determined by the exact `<ClaimGraph, EntityOfConcern, ReferenceScheme>` triple. The same triple cannot constitute two distinct `U.Episteme` instances under the shared C.2.1 identity rule. Recognition of that individual as a dependent episteme kind adds a membership judgment under the dependent kind's governing pattern, not another constitution occurrence or discriminator. A tuple may represent the triple under `C.29`, but tuple order and storage keys contribute nothing to identity.
+The relation occurrence is participant-determined by the exact `<ClaimGraph, EntityOfConcern, ReferenceScheme>` triple. The same triple cannot constitute two distinct `U.Episteme` instances under the shared C.2.1 identity rule. Recognition of that individual as a dependent episteme kind adds a membership judgment under the dependent kind's subject pattern, not another constitution occurrence or discriminator. A tuple may represent the triple under `C.29`, but tuple order and storage keys contribute nothing to identity.
 
 The episteme and the relation occurrence are not identical. The relation is the obtaining organization among the three participants. The episteme is the knowledge holon constructively identified through that organization and its whole-level claim-bearing characteristic.
 
@@ -160,7 +160,19 @@ A card that calls a listed collection a holon is still only a classification ass
 
 The same constitution rule applies when a reader proposes to use an obtaining F.9 Bridge. Say first in ordinary words what the reader proposes to compare, substitute, translate, publish, or otherwise do; name the direction `d`, use-specific correspondence rule `r`, tolerated semantic loss `t`, and affirmative or negative polarity for named use `u`. Identify that statement as one ordinary C.2.1 assertion episteme: the exact Bridge `b` is its EntityOfConcern, its ClaimGraph designates `<u,d,r,t>` and polarity, and its effective ReferenceScheme makes those designations, the rule, and the tolerance interpretable. The exact `<ClaimGraph, b, effective ReferenceScheme>` triple identifies the assertion. Changing `u`, `d`, `r`, `t`, or polarity changes the claim content and therefore the assertion episteme, not fixed Bridge `b`. Keep this local claim form in ordinary wording: it introduces no public U-kind, universal use relation, or durable CamelCase claim name. Reopen F.18 only if an independent later use actually needs a reusable name.
 
-An affirmative bounded-use assertion is one premise for that use; it is neither permission nor proof that the use occurred. A negative assertion leaves an otherwise obtaining Bridge in place. For ordinary bounded reliance below B.3's material-reliance threshold and with no assurance claim, A.10 separately governs the exact evidence-provenance graph relation and local `RelianceDisposition`: only `pass` supports this exact use, `degrade` supports only its named narrower use, and any other non-passing result supplies no support or routes the case to B.3 exactly as A.10 declares. When an assurance claim is made or the threshold is met, B.3 first decides whether a current assurance claim exists: the threshold requires the minimum reliance safety assurance record but creates no positive claim; use either a positive claim carrying the named use with its sufficient record or an exact no-assurance-claim or insufficient-record disposition that stops or narrows it. Neither branch authorizes the use. If the use actually happened, recover the actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.17, direct relation under its domain pattern, operation application under A.6.1, or another receiving object under its current owner.
+An affirmative bounded-use assertion is one premise for that use; it is neither permission nor proof that the use occurred. A negative assertion leaves an otherwise obtaining Bridge in place. For ordinary bounded reliance below B.3's material-reliance threshold and with no assurance claim, the predicates defined in A.10 separately constrain the evidence-provenance graph relation and local `RelianceDisposition`: only `pass` supports this use, `degrade` supports only its named narrower use, and any other non-passing result supplies no support or requires the B.3 branch as A.10 states. When an assurance claim is made or the threshold is met, an admitted evaluator System performs dated assessment or assurance Work that enacts the Method described in B.3. Name the assignment occurrence that covers the Work and its declared species; the occurrence's holder is that System, and F.6 states that the System performed the Work under the assignment. Any responsibility attributed to the evaluator is a separate fact and is cited only when its direct predicate, participants, and applicability basis establish it. The assessment first determines whether a current assurance claim exists: the threshold requires the minimum reliance safety assurance record but creates no positive claim; use either a positive claim carrying the named use with its sufficient record or a no-assurance-claim or insufficient-record disposition that stops or narrows it. Neither branch authorizes the use. If the use actually happened, recover the actual Work under A.15.1, assertion episteme under C.2.1, publication occurrence under E.17, direct relation under its domain predicate and pattern locator, operation application under A.6.1, or another result or relation under its own predicate.
+
+##### C.2.1:4.2.4 - State rule-content and subject assertions without pattern ownership
+
+When a sentence says that a pattern "governs", "owns", or "receives" a claim, recover the exact assertion before keeping the shorthand. Identify the exact subject or claim, the exact predicate or constraint being asserted, and the exact defining or constraining `U.ClaimGraph`. A pattern id, heading, field, file, or carrier may locate that graph, but it is not a semantic owner and creates no governance relation.
+
+The default result is one ordinary C.2.1 subject assertion. Its exact EntityOfConcern is the governed subject, and its ClaimGraph states the predicate, polarity, exact defining or constraining ClaimGraph reference, the current case facts or constituting history on which the assertion depends, and only the scope, time, scheme, or bounded-use qualifications that change the assertion. The identity remains `<AssertionClaimGraph, exact subject, effective ReferenceScheme>`. A readable sentence is enough; do not require a framework-relation row, occurrence, registry, or reusable declaration when no later use consumes one.
+
+Definition or constraint is not actual rule-content use. State `derivedUsingRuleContent(dependentContent, baseContent)` only when one identified derivation claim used the exact nonempty base subgraph as a formal premise under a declared inference rule or application to produce the dependent content. State `evaluatedAgainstRuleContent(dependentContent, baseContent)` only when one identified criterion-selection claim selected that base for one exact bounded evaluation claim concerning the dependent content. Consultation, influence, quotation, provenance, evidence, evaluation Work, and later sufficiency establish neither predicate.
+
+Each actual-use assertion remains an ordinary C.2.1 episteme. Its ClaimGraph carries the predicate, exact derivation or evaluation-and-selection claim identity, bounded receiving use, and only independently current qualifications. Its EntityOfConcern is the exact dependent `U.ClaimGraph`; the effective scheme supplies the third C.2.1 discriminator. Reformatting the assertion or representing it in E.4.PFR changes none of those discriminators. If no actual premise use or criterion selection is claimed, stop at the ordinary subject assertion.
+
+A standardized E.4.PFR row is optional and opens only for a named framework-maintenance, edition-impact, comparison, publication/dependency-repair, or refresh receiver. The row faithfully represents the already identified assertion and may cite the defining or constraining ClaimGraph; it neither creates the assertion nor adds a pattern-owner fact. A comparison, replay, material-conflict, or reliance question may justify a separate basis-analysis episteme, but its EntityOfConcern, exact question, candidate set, findings, and disposition remain C.2.1 claim content rather than another ontology branch.
 
 #### C.2.1:4.3 - Add empirical grounding through its own relation
 
@@ -181,7 +193,7 @@ Applying the shared declaration rule in 4.2.1, `EpistemeEmpiricalGroundingRelati
 | `GroundedEpistemeSlot` | episteme containing the exact covered claim subgraph | `U.Episteme` | `U.EpistemeRef` |
 | `GroundingHolonSlot` | exact holon involved in the mapped observation, intervention, measurement, or test relations | `U.Holon` | `U.HolonRef` |
 
-`EpistemeEmpiricalGroundingRelation` over participants `(E,H)`, with `covered=C`, obtains exactly while every empirical claim in exact covered claim subgraph `C` has a current claim-to-world mapping to the required independently governed direct observation, intervention, measurement, or test relation structure involving `H` under E's effective ReferenceScheme. Every mapped relation required by that coverage must obtain. An exact direct evaluation relation counts as part of the empirical test only when the mapping states its concrete test role; otherwise evaluation and evidence can support or challenge an assertion about grounding but are not its world-side base.
+`EpistemeEmpiricalGroundingRelation` over participants `(E,H)`, with `covered=C`, obtains exactly while every empirical claim in exact covered claim subgraph `C` has a current claim-to-world mapping to the required independently governed direct observation, intervention, measurement, or test relation structure involving `H` under E's effective ReferenceScheme. Every mapped relation required by that coverage must obtain. An exact direct evaluation relation counts as part of the empirical test only when the mapping states its concrete use in that test; otherwise evaluation and evidence can support or challenge an assertion about grounding but are not its world-side base.
 
 One occurrence is identified by `<episteme, exact covered claim subgraph, grounding holon, maximal continuous interval during which the complete coverage predicate is true>`. Closing the open end of that interval refines the description of the same occurrence. Demonstrated failure of any required mapping followed by restored complete coverage yields another occurrence. Evidence or evaluation availability alone establishes neither obtaining nor nonobtaining and proves no temporal gap. If the complete coverage predicate is known to obtain, grounding continues without a stored report or work log. If it is known not to obtain, the relation does not obtain. If its truth is unknown, an affirmative grounding assertion has unresolved reliance for the declared use; that posture is not a third world-side grounding state.
 
@@ -267,7 +279,7 @@ Description and specification use remain distinct. A Description episteme is adm
 | publication form, carrier, rendering, audience, bounded use, or publication occurrence changes | establish the exact E.24.PUB change only; publication is not view membership or episteme succession |
 | mathematical or tool representation changes | apply C.29 and the selected representation-transition relation |
 
-#### C.2.1:4.9 - Hand episteme transformations to their governing patterns
+#### C.2.1:4.9 - Hand episteme transformations to their subject patterns
 
 **Shared identity-inception boundary.** Work or transformation can explain how an entity came about, but C.2.1 by itself establishes neither when that entity first existed nor that the work caused its inception. Open this boundary only when a current receiving claim asks whether a new entity began. Then use the subject's direct inception governor: that pattern defines the predicate and identity rule, and current case facts must satisfy it. If no such governor exists, return one `missing-governor` blocker naming the entity, work and change facts, required inception predicate, and receiving use. When the current question is only changed episteme identity, form, representation, view, or publication, do not open this boundary.
 
@@ -277,7 +289,7 @@ For an A.6.3 source-to-receiving viewing construction, the two identified episte
 
 #### C.2.1:4.10 - Relation and neighboring-object reference
 
-| Current object | FPF kind or relation | Governing pattern |
+| Current object | FPF kind or relation | Subject pattern |
 | --- | --- | --- |
 | `U.Episteme` | one knowledge holon with identity `<claim content, EntityOfConcern, effective ReferenceScheme>` | C.2.1 |
 | `EpistemeConstitutionRelation` occurrence | the obtaining direct relation among the exact claim graph, exact EntityOfConcern, and effective reference scheme that constructively identifies one episteme | C.2.1 and `A.6.REL` |

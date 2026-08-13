@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:4 — Solution"
-line_start: 14871
-line_end: 15035
+line_start: 15095
+line_end: 15263
 dependencies:
   - "A.10"
   - "A.22.CGUS"
@@ -94,8 +94,12 @@ StructureToNarrativeRenderingCase:
   sourceStructureDefinitionClaimEpistemeRefs?:
   sourceStructureConstraintClaimEpistemeRefs?:
   narrativeConstructionWorkRef?:
-  narratingOrRenderingSystemAndRoleRef?:
-  readerOrListenerRoleRefs:
+  narratingOrRenderingSystemRef?: U.EntityRef resolving to an admitted U.System
+  narratingOrRenderingSystemRoleKindRef?: U.KindRef resolving to one exact local system-role kind
+  narratingOrRenderingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
+  readerOrListenerSystemRefs[]?: U.EntityRef values resolving to admitted systems
+  readerOrListenerSystemRoleKindRefs[]?: U.KindRef values resolving to exact local system-role kinds
+  readerOrListenerSystemRoleAssignmentRefs[]?: U.RelationRef values constrained to U.SystemRoleAssignment
   readerInterestOrUseHypothesis:
   intendedReaderOrListenerUse:
   orderingRationaleOrTraversalRule:
@@ -114,7 +118,7 @@ StructureToNarrativeRenderingCase:
 
 `selectedSourceStructureRefs` identifies the selected structures. A PatternID mentioned in `sourceStructureSelectionRationale` or surrounding prose only locates the content used to recognize or test them; it is not another structure reference. Include `sourceStructureDefinitionClaimEpistemeRefs` or `sourceStructureConstraintClaimEpistemeRefs` only when the exact identity of one or more definition or constraint claims changes reconstruction, comparison, dispute, or reliance. Both lists may be present and each resolves only to claim-bearing C.2.1 epistemes of the named kind.
 
-The references to `X` and `Y` resolve to their complete C.2.1 identities; this record does not add identity slots, and completing its fields does not itself authorize reliance. A system performs dated narrative-construction Work under A.15.1 when actual production history matters; `n`, `X`, and `Y` do not act. Source epistemes, parameters, methods, tools, and `Y` participate through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
+The references to `X` and `Y` resolve to their complete C.2.1 identities; this record does not add identity slots, and completing its fields does not itself authorize reliance. A system performs dated narrative-construction Work under A.15.1 when actual production history matters; `n`, `X`, and `Y` do not act. A reader-or-listener hypothesis establishes none of the optional system, system-role-kind, or assignment fields: include each only when its exact referent and direct claim obtain independently. Source epistemes, parameters, methods, tools, and `Y` participate through exact direct relations or A.6.1 bindings. If the Work first constitutes `Y` and that inception claim matters, use A.15.PROD to test that separate local claim.
 
 Publication also remains separate. E.24.PUB identifies any occurrence that makes selected episteme `Y` available to an audience and bounded use through a publication form and `U.PresentationCarrier`. The occurrence, form, carrier, audience, and readable sequence neither constitute `Y` nor establish `n`. E.17.0 independently decides whether `Y` has `U.View` membership.
 

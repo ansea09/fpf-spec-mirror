@@ -6,12 +6,12 @@ section_id: "C.32.ACE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:10 — Rationale"
-line_start: 65618
-line_end: 65623
+line_start: 65928
+line_end: 65933
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,5 +50,5 @@ keywords:
 
 An architecture-characteristic eval program is the missing middle object between criteria rows and architecture selection. It answers "how did these candidates or structures read under this parity frame?" It does not answer "what is the criterion?", "is the measurement valid outside this use?", or "which architecture must be chosen?"
 
-The pattern is architecture-specific because it evaluates selected structures and architecture characteristics. It stays holon-grounded because the same eval form can apply to admitted holons such as systems, organizations-as-systems, built assets, epistemes, work occurrences, disciplines, AI-agent setups, and C.36-recovered cultural-evolution cases. It can also evaluate method-side, role-side, work-side, or evidence-side structures after the described holon, the defining or constraining ClaimGraph located through the subject pattern, the bearers, and the scale rows are rebound; it does not admit methods, roles, practices, or cultures as holon kinds by label.
+The pattern is architecture-specific because it evaluates selected structures and architecture characteristics. It stays holon-grounded because the same eval form can apply to admitted holons such as systems, organizations-as-systems, built assets, epistemes, work occurrences, disciplines, AI-agent setups, and C.36-recovered cultural-evolution cases. It can also evaluate Method-side, Work-side, evidence-side, local-kind, classification, or assignment structures after the described holon, the defining or constraining ClaimGraph located through the subject pattern, the bearer and predicate, and the scale rows are rebound. Unresolved “role” wording goes through `E.10.ROLE`; the pattern does not admit Methods, roles, practices, or cultures as holon kinds by label.
 

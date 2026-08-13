@@ -6,12 +6,12 @@ section_id: "C.22.2:2"
 section_title: "Thin First Use and Output Kind"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__003_thin-first-use-and-output-kind.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:2 — Thin First Use and Output Kind"
-line_start: 51856
-line_end: 52019
+line_start: 52116
+line_end: 52279
 dependencies:
   - "A.10"
   - "A.15"
@@ -80,7 +80,7 @@ Local labels include `problem-formulation follow-up reason`, `validation boundar
 Use `E.10.MOVE` only when move-like wording no longer denotes one of these local dispositions and instead hides a pattern-use recommendation, Work-entry readiness, performed Work, gate, transformation, source relation, architecture move, call-planning move, or another directly governed value.
 
 
-Reference labels ending in `Ref` are reference roles, not kind names. This includes `ProblemCardRef`, `sourceSetRef`, `rivalProblemFormulationRef`, and `representationOrWordingUseRelationRef`.
+Reference labels ending in `Ref` are reference positions, not kind names. This includes `ProblemCardRef`, `sourceSetRef`, `rivalProblemFormulationRef`, and `representationOrWordingUseRelationRef`.
 
 Semantic locality comes from the exact EntityOfConcern, effective ReferenceScheme, ClaimScope, declared assumptions or window, and receiving use carried by the relevant claims. A broad domain, organization, practice, or location label is only recognition material until those exact values are recoverable. None becomes a container participant or establishes global Problem identity.
 
@@ -147,7 +147,7 @@ Use these readable labels only when current for the case:
 - actual-PFR assertion with exact polarity and PFR reference only when C.22.PFR independently establishes the occurrence;
 - anticipated-condition, forecast, scenario, or counterfactual claim with assumptions and horizon;
 - method-availability or solvability claim with admitted method set, evidence qualification, constraints, and intended use;
-- primary viewpoint or role concern as claim qualification, never as card or PFR identity;
+- primary viewpoint or an explicitly recovered system-role-kind, assignment, relation-participation, responsibility, or other direct concern as claim qualification, never as card or PFR identity;
 - symptom detector, problem hypothesis or cause-theory cue, and rival formulation when current;
 - improvement check, acceptance probe, characterization relation, characteristic or Q-bundle relation, indicator selection, and parity or comparison relation when current;
 - mandatory constraints, risk condition, validation boundary, freshness or expiry condition, and unknown handling;

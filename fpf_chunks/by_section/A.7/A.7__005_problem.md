@@ -6,12 +6,12 @@ section_id: "A.7:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__005_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:3 — Problem"
-line_start: 21464
-line_end: 21471
+line_start: 21717
+line_end: 21724
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,9 +34,9 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:3 - Problem

@@ -6,12 +6,12 @@ section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:5 — Archetypal Grounding"
-line_start: 67938
-line_end: 67949
+line_start: 68276
+line_end: 68287
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -65,7 +65,7 @@ Show - generated artifact not yet structure. An LLM produces a plausible archite
 
 Show - DSM and MDM clustering. A DSM modularization clusters components by co-change and interface hints. C.35 records the relation matrix, clustering method, preserved dependency structure, lost functional bearer semantics, semantic-alignment risk, and a carrier-admission condition that requires C.31 modularity and reuse checks plus C.32 candidate-synthesis checks before use. The cluster can seed candidate synthesis and modularity review, but it is not architecture adequacy by itself.
 
-Show - NAS result. A multi-objective NAS run returns a neural architecture graph and Pareto point. C.35 records search space, constraints, performance and resource criteria refs, generated carrier, described functional architecture structure, preserved dataflow, lost deployment and evidence structure, bearer boundary, and eval return. `C.32` owns candidate-palette admission; `C.32.ACE` owns eval results.
+Show - NAS result. A multi-objective NAS run returns a neural architecture graph and Pareto point. C.35 records search space, constraints, performance and resource criteria refs, generated carrier, described functional architecture structure, preserved dataflow, lost deployment and evidence structure, bearer boundary, and eval return. Use `C.32` for candidate-palette admission and `C.32.ACE` for evaluation results.
 
 Show - graph grammar or model transformation. A graph-grammar Method is applied in dated generation Work and returns a candidate-structure carrier for a product-line model. C.35 names the Method, exact Work when performed-work reliance is current, produced carrier, independently selected source and described structures, rules, preserved interfaces, lost manufacturing constraints, and transformation trace. If the use additionally asserts an actual formal or world-side change, it cites the exact A.3.4 occurrence and the separately governed Work-to-change or A.15.PROD claim; otherwise `model transformation` remains the Method or operation-family label and no `U.Transformation` is inferred. C.34 may check preservation; C.32 admits only after selected-structure and characteristic effects are recoverable.
 

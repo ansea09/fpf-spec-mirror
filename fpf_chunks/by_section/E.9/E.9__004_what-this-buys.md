@@ -6,12 +6,12 @@ section_id: "E.9:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__004_what-this-buys.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:0.2 — What this buys"
-line_start: 72990
-line_end: 73008
+line_start: 73436
+line_end: 73454
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 **Cheap stop.** If the change is ordinary local wording repair, application of an already accepted pattern, or editorial cleanup that does not change FPF semantics, obligations, boundaries, names, admissible uses, or normative force, do not open a full DRR. Use the lighter governing pattern for the local repair: `E.17.AUD.LHR` for one overloaded local lexical head inside one publication unit, `C.2.P` for one episteme, publication, or source-use phrase requiring local epistemic precision restoration, `E.10` for general lexical repair, `F.18` only when a durable reusable name is being minted, and `E.8` for authoring-form correction. Leave `E.9` for bounded content decisions that need rationale by value.
 
-**Kind-or-boilerplate diagnostic.** When a DRR proposes wording for selected patterns, apply `F.19` to separate boilerplate from remaining content before any wording is treated as pasteable pattern prose. If the remaining content still hides wording-use, naming, relation, claim, admissible-use, selected-locus, user-action, or flow-role precision, the DRR names the applied `E.10`, `E.10.ARCH`, `F.18`, or governing pattern. Process, architecture, review, or reference boilerplate belongs in its own carrier, not in pasteable pattern prose.
+**Kind-or-boilerplate diagnostic.** When a DRR proposes wording for selected patterns, apply `F.19` to separate boilerplate from remaining content before any wording is treated as pasteable pattern prose. If the remaining content still hides wording-use, naming, relation, claim, admissible-use, selected-locus, user-action, or flow-position precision, the DRR names the applied `E.10`, `E.10.ARCH`, `F.18`, or the pattern that defines the affected object or relation. Process, architecture, review, or reference boilerplate belongs in its own carrier, not in pasteable pattern prose.
 
 Wording proposed in a DRR is not pasteable pattern prose until the selected-answer basis shows what object, relation, claim, slot, use, admissibility, or scope would change—or explicitly says that no such semantic change occurs. Apply `F.19` and the concrete pattern that defines or constrains the live distinction. Do not expand ordinary wording into method, work, application, or ClaimGraph apparatus unless that exact distinction changes the decision or later reliance.
 

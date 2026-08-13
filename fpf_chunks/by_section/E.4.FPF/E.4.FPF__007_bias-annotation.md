@@ -6,12 +6,12 @@ section_id: "E.4.FPF:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:6 — Bias annotation"
-line_start: 70176
-line_end: 70181
+line_start: 70579
+line_end: 70584
 dependencies:
   - "C.33"
   - "C.34"

@@ -6,12 +6,12 @@ section_id: "D.3:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:1 — Problem Frame"
-line_start: 68786
-line_end: 68791
+line_start: 69152
+line_end: 69157
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "D.2"
   - "D.4"
   - "D.5"
+  - "E.10.ROLE"
   - "E.17"
 keywords:
 ---
@@ -36,5 +37,5 @@ keywords:
 
 Interlevel ethical conflict is not just disagreement between people. It may involve a system part and a whole, a person and an organization, one organization and a community, a project and a society, a collection and its members, an episteme family and the decisions it shapes, or an architecture move and the holon levels it affects.
 
-The central move is structural: name what is in conflict, at which declared levels or scopes, through which methods, work, transformations, role assignments, evidence, value concerns, and consequence horizons. Do not turn the conflict into publication wording, assurance claim, or architecture residual unless that is the current governed object.
+The central move is structural: name what is in conflict, at which declared levels or scopes, through which Methods, actual Work, transformations, evidence, value concerns, and consequence horizons. Recover role wording through `E.10.ROLE`; keep any local kind, separate System-classification judgment, assignment, agency threshold, responsibility, commitment, permission, authority, or participation relation distinct. Do not turn the conflict into publication wording, assurance claim, or architecture residual unless that is the current object.
 

@@ -6,12 +6,12 @@ section_id: "F.17:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:2 — Problem frame"
-line_start: 95786
-line_end: 95799
+line_start: 96570
+line_end: 96583
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ Naming work often succeeds locally and then fails in reuse. A term looks stable,
 Five shortcuts follow:
 
 - shared spelling is treated as shared value;
-- a row combines unlike role, status, relation, Work, evidence, or publication concerns;
+- a row combines unlike system-role-kind, assignment, status, relation, Work, evidence, or publication concerns;
 - a card, cell, row, id, and publication are minted as one automatic chain;
 - a source title, document, or table layout substitutes for the exact sense and basis relation;
 - the row itself is said to make the term public, current, authoritative, or obtaining.

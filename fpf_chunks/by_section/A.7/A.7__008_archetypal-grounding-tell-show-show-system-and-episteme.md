@@ -6,12 +6,12 @@ section_id: "A.7:6"
 section_title: "Archetypal Grounding (Tell-Show-Show; System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_archetypal-grounding-tell-show-show-system-and-episteme.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:6 — Archetypal Grounding (Tell-Show-Show; System and Episteme)"
-line_start: 21692
-line_end: 21732
+line_start: 21945
+line_end: 21985
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,16 +34,16 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:6 - Archetypal Grounding (Tell-Show-Show; System and Episteme)
 
 #### A.7:6.1 - System and Episteme example
 **System archetype — “Digital‑twin vs asset”.**
-*Claim:* *The twin (episteme) does not “act”; the system or acting holon under a current `U.RoleAssignment` enacts Work on the asset; evidence binds through A.10 carrier/source-currentness and evidence-provenance relations.*
+*Claim:* *The twin (episteme) does not act; the System or acting holon that holds the assignment performs Work on the asset. Name the assignment occurrence and its declared `U.SystemRoleAssignment` species; evidence binds through A.10 carrier and source-currentness relations and evidence-provenance relations.*
 *Show:* Claim-bearing episteme `MaintenanceGuide-e4` is a **MethodDescription** only because C.2.1 identifies it with exact maintenance Method `MaintenanceMethod-M1` as EntityOfConcern and its claims state substantive preconditions, actions, bounds and stops; its TechCard form and design-time authoring do not grant membership. A **Work** record (assurance face) lists Γ_time, Γ_work, PathId and **carrier** ids for telemetry. The twin’s update is **Work on the carrier**, not the asset; CL^plane penalties are disclosed when twin–asset crossings are analysed.
 
 **Episteme archetype — “Peer‑review vs manuscript”.**
@@ -55,20 +55,20 @@ keywords:
 **Example 1 — Pump in a cooling loop**
 
 * **Substance (system):** Centrifugal pump P‑12.
-* **Role:** **Cooling‑CirculatorRole**.
+* **System-role kind and assignment:** `CoolingCirculatorSystemRole@ThermalLoop-7`; `CoolingLoopCirculationAssignment-17 : CoolingLoopOperationAssignment` has pump P-12 as `HolderSystemSlot` and that kind as `AssignedSystemRoleKindSlot`.
 * **MethodDescription membership:** episteme “Loop Circulation v3” has the circulation Method below as exact EntityOfConcern and claims the start → ramp → hold → stop way, conditions and bounds; its **TechCard** representation and publication timing do not establish membership. Cite A.10 carrier/source-currentness refs when evidence or source use is current.
 * **Method:** ordered way-of-doing: start → ramp → hold → stop (Γ\_method).
-* **Capability:** P-12 control-unit ability/envelope to enact that Method under stated roles, conditions, resources, and constraints.
+* **Capability:** P-12 control-unit ability or envelope to enact that Method under the stated assignment, conditions, resources, and constraints.
 * **Work:** run on 2025‑08‑09 10:00–10:45; energy ledger via Γ\_work; log via Γ\_time.
-* **Safe phrasing:** *“The **system** playing **Cooling‑CirculatorRole** (via the P‑12 control unit as **Transformer**) had the **Capability** to enact the **Method** described by **MethodDescription**, and executed **Work** …”*
-* **What not to write:** “The pump’s function is the role” (role ≠ behaviour).
+* **Safe phrasing:** *“Pump P-12, the holder in `CoolingLoopCirculationAssignment-17` to `CoolingCirculatorSystemRole@ThermalLoop-7`, had the **Capability** to enact the **Method** described by **MethodDescription**, and performed **Work** …”*
+* **What not to write:** “The pump's function is its system role” (system-role kind and behaviour are different).
 
 **Example 2 — Standard document cited in a design**
 
 * **Episteme:** “Safety Standard S‑174”.
 * **Carriers:** PDF and printed volume with A.10 carrier/source-currentness refs when the standard is used as source or evidence.
-* **Use relation:** reference-use or constraint-source-use relation for the valve selection activity, named by its direct governing pattern.
-* **Role assignment for work:** `U.RoleAssignment(holderRef=DesignTeamSelectionSystem, roleRef=TransformerRole@ValveSelectionContext, boundedContextRef=ValveSelectionContext)` when the selection work needs a work-facing transformer role value.
+* **Use relation:** reference-use or constraint-source-use relation for the valve selection activity, named by its subject pattern.
+* **System-role assignment for Work:** `ValveSelectionTransformerAssignment` is the declared species; it defines the holder and assigned-kind participant meanings, local kind domain, predicate, applicability, and occurrence identity. Occurrence `ValveSelectionAssignment-47` has `DesignTeamSelectionSystem` as holder and `TransformerSystemRole@ValveSelectionContext` as assigned-kind value. `ValveSelectionContext` is cited by the assertion rather than added as a generic participant.
 * **MethodDescription membership:** episteme “Valve Selection SOP v5” has the valve-selection Method below as exact EntityOfConcern and claims the selection criteria, ordered checks, bounds and stop; the SOP label and citation alone establish neither episteme identity nor membership.
 * **Method:** abstract valve-selection way-of-doing described by that SOP.
 * **Capability:** design team's selection-service ability/envelope to enact the Method under the project conditions.
@@ -77,6 +77,6 @@ keywords:
 **Example 3 — Set vs team**
 
 * **Set (MemberOf):** {Alice, Bob, 3.14} — a collection; **no behaviour** implied.
-* **Collective system (team):** boundary, coordination **Method**, supervision **Work**; can hold a current `U.RoleAssignment` for a work-facing role value such as `CoolingMaintenanceRole@Context`.
-* **Safe phrasing:** *“`U.RoleAssignment(holderRef=TeamT, roleRef=CoolingMaintenanceRole@Context, boundedContextRef=ContextT)` is current for Work W…”*
+* **Collective system (team):** boundary, coordination **Method**, supervision **Work**; can be the holder in an obtaining occurrence such as `CoolingMaintenanceAssignment-8 : CoolingMaintenanceWorkAssignment`, whose declaration-local kind slot admits `CoolingMaintenanceSystemRole@ContextT`.
+* **Safe phrasing:** *“`CoolingMaintenanceAssignment-8 : CoolingMaintenanceWorkAssignment` obtains with `HolderSystemSlot = TeamT` and `AssignedSystemRoleKindSlot = CoolingMaintenanceSystemRole@ContextT`; TeamT performed Work W under that assignment.”*
 

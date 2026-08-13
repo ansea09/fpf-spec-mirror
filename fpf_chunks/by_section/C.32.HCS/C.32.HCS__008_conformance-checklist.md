@@ -6,12 +6,12 @@ section_id: "C.32.HCS:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:7 — Conformance checklist"
-line_start: 65091
-line_end: 65101
+line_start: 65401
+line_end: 65411
 dependencies:
   - "A.19"
   - "C.11"
@@ -24,6 +24,7 @@ dependencies:
   - "C.32.ACE"
   - "C.32.ACS"
   - "C.32.PAD"
+  - "E.10.ROLE"
   - "E.13"
   - "G.5"
 keywords:

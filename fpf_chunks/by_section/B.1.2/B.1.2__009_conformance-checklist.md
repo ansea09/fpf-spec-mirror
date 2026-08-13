@@ -6,12 +6,12 @@ section_id: "B.1.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:6 — Conformance Checklist"
-line_start: 35869
-line_end: 35882
+line_start: 36071
+line_end: 36084
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,8 +43,8 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B1.2-1` | The exact whole is already recognized under the admitted `U.System` kind, or the exact entity and unresolved A.1 recognition result or blocker are stated without promoting the proposal into a kind-like label. |
-| `CC-B1.2-2` | The named decision, exact system identity, and exact obtaining part and crossing relations are recoverable under their direct owners. When a distinct use-relative inclusion/exclusion choice is claimed, it cites the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another explicitly admitted direct result; absent that owner it returns a missing-governor blocker. Any durable C.2.1 episteme states but does not create those facts. An optional selected structure separately satisfies all four A.22 discriminators. |
-| `CC-B1.2-3` | External supply, signal, control, measurement, source, publication, evidence, transformation, or coupling claims retain exact participant bindings and direct relation owners; none becomes parthood by crossing or importance. |
+| `CC-B1.2-2` | The named decision, exact system identity, and exact obtaining part and crossing relations are recoverable under their subject patterns. When a distinct use-relative inclusion/exclusion choice is claimed, it cites the applicable C.11 `ChoiceResult`, C.32.PAD `ArchitectureDecisionRelation@Project`, or another explicitly admitted direct result; without that predicate, source, and result it returns a missing-governor blocker. Any durable C.2.1 episteme states but does not create those facts. An optional selected structure separately satisfies all four A.22 discriminators. |
+| `CC-B1.2-3` | External supply, signal, control, measurement, source, publication, evidence, transformation, or coupling claims retain exact participant bindings and direct relation patterns; none becomes parthood by crossing or importance. |
 | `CC-B1.2-4` | Functional elements, bearers, allocation or correspondence, and any physical or organizational parthood are identified separately. |
 | `CC-B1.2-5` | A whole-level characteristic names its exact bearer, characteristic relation or assignment, scale, aggregation or inference rule, evidence, and mathematical-lens boundary when current. |
 | `CC-B1.2-6` | Changing, controlling, teaching, measuring, or repairing another holon does not make that holon a part of the acting system; any containing-whole claim has its own exact part-whole relation. |

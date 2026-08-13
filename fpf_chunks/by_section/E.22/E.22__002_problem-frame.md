@@ -6,12 +6,12 @@ section_id: "E.22:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:1 — Problem frame"
-line_start: 87262
-line_end: 87281
+line_start: 87940
+line_end: 87959
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -36,7 +36,7 @@ Use `E.22` when someone is about to ask for a quality evaluation, quality review
 
 Not this pattern when the question is already scoped and one direct evaluation is enough. Run the object-under-improvement evaluation directly. Use `E.23` when repeated improvement across passes is needed.
 
-First useful move: write a `QualityEvaluationQuestionFrame` for one exact object version and a `QualityEvaluationUseDeclaration`. Name the exact selected `CharacteristicSpace`, the by-value predicate and/or admitted comparator required by that evaluation, one `U.ClaimScope`, and the exact intended work or decision that will consume the result. In the declaration, keep the governing evaluation pattern and optional semantic method separate from quality-model, evidence-basis, and result-form descriptions and from the performer assignment; then state the purpose, floor or improvement aim, and protected trade-offs.
+First useful move: write a `QualityEvaluationQuestionFrame` for one object version and a `QualityEvaluationUseDeclaration`. Name the selected `CharacteristicSpace`, the by-value predicate and any admitted comparator required by that evaluation, one `U.ClaimScope`, and the intended work or decision that will consume the result. In the declaration, keep the evaluation pattern and optional semantic Method separate from the quality-model, evidence-basis, and result-form descriptions. Name an intended evaluator System or planned evaluator condition only when the request needs it; cite a current evaluator System and obtaining assignment only when that assignment already obtains. Then state the purpose, floor or improvement aim, and protected trade-offs.
 
 Here *move* is Plain wording for writing the frame. It is not a shared Move identity, selected repair, WorkPlan, performed `U.Work`, or actual `U.Transformation`; if dated framing work itself matters, A.15 governs that separate occurrence.
 

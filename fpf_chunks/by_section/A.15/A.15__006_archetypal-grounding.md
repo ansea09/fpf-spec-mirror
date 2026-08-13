@@ -1,77 +1,77 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:5 — Archetypal Grounding"
-line_start: 24206
-line_end: 24250
+line_start: 24430
+line_end: 24472
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:5 - Archetypal Grounding
 
-The role-method-work alignment applies whenever the question under repair is holder-in-role, method description, intended plan, or performed work. Physical engineering, knowledge work, and socio-technical cases can all use the same distinction without turning A.15 into a universal process ontology.
+Use this alignment whenever the live question joins a holder system, exact local system-role kind, assignment occurrence, Method, plan, capability, or performed Work. Physical engineering, knowledge work, and socio-technical work can use the same distinctions without turning A.15 into a universal process ontology.
 
-**Boundary case — possessed algorithm versus enacted method.** `Robot-7 : U.System` holds `InspectorRole` through exact `RoleAssignment-17`. A capability assertion may say that Robot-7 can inspect turbines, and a source phrase may say that it "possesses inspection algorithm A". Neither statement is dated performance, and neither classifies `TurbineInspectionProcedure-v3` as `U.MethodDescription`. If `InspectionWork-17` actually occurs, Robot-7 performs it under `RoleAssignment-17` through F.6 `performedUnderAssignment(InspectionWork-17, RoleAssignment-17)`, while the Work occurrence separately stands in `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. `TurbineInspectionProcedure-v3` is a method description only when its exact `EntityOfConcern` is that Method and at least one substantive claim says how the Method is done. Thus the system acts, the Work enacts the Method, and role, capability, algorithm-possession wording, Method, and description remain non-actors.
+**Boundary case — possessed algorithm versus enacted Method.** `Robot-7 : U.System` is classified under `InspectorSystemRole` and holds `InspectionAssignment-17`, an occurrence of a direct maintenance-assignment species. A capability claim may say that Robot-7 can inspect turbines, and source prose may say it “possesses inspection algorithm A”. Neither claim is dated performance, and neither makes `TurbineInspectionProcedure-v3` a `U.MethodDescription`. If `InspectionWork-17` occurs, use F.6 to establish `performedUnderAssignment(InspectionWork-17, InspectionAssignment-17)`, while a separate relation can establish `enactsMethod(InspectionWork-17, TurbineInspection@Maintenance-2026)`. Use A.3.2 to decide whether the procedure episteme is a MethodDescription. Robot-7 acts; the kind, assignment, capability, algorithm wording, Method, and description do not.
 
-| Archetype | **`U.System` Archetype (Manufacturing)** | **`U.Episteme` Archetype (Scientific Peer Review)** |
-| :--- | :--- | :--- |
-| **Role-taxonomy episteme** | `FactoryProductionRoles-2026` | `PhysicsPeerReviewRoles-2026` |
-| **Effective `U.ReferenceScheme`** | `Factory-Line-B-Role-Scheme` | `PhysicsLetters-A-Review-Scheme` |
-| **`U.Role`** | `WeldingRobotRole` | `PeerReviewerRole` |
-| **Holder** | `ABB_Robot_Model_IRB_6700` (`U.System`) | `Dr_Alice_Smith` (modeled as a `U.System`) |
-| **`U.RoleAssignment`** | exact four participants: the robot holder, `WeldingRobotRole`, `FactoryProductionRoles-2026`, and `Factory-Line-B-Role-Scheme`; actual extent is derived from uninterrupted obtaining | exact four participants: Alice as holder, `PeerReviewerRole`, `PhysicsPeerReviewRoles-2026`, and `PhysicsLetters-A-Review-Scheme`; actual extent is derived from uninterrupted obtaining |
-| **`U.MethodDescription`** | `Welding_Procedure_WP-28A.pdf` describes `WeldingMethod` | `Peer_Review_Guidelines_v3.docx` describes `PeerReviewMethod` |
-| **`U.Capability` instance of holder** | `executeWeldingSeam(Type: 3F)` within declared envelope, measures, and currentness condition | `evaluateManuscript(Field: QuantumOptics)` within declared envelope, measures, and currentness condition |
-| **Receiving interpretation use, only if current** | designates the selected factory model-use structure separately from the generic assignment | designates the selected journal review model-use structure separately from the generic assignment |
-| **Work occurrence admitted under `U.Work`** | Manufacturing work: `Weld_Job_#78345` is one Work individual; its exact temporal relation covers 15:32-15:34 UTC, separately obtaining resource-use relations connect it to 1.2 kWh and 5g Argon, and exact `enactsMethod` connects it to `WeldingMethod`. A separate assertion may cite `methodDescriptionRef = Welding_Procedure_WP-28A.pdf`. | Peer-review work: `Review_of_Manuscript_#PL-2025-018` is one Work individual; its exact temporal relation ends on 2025-08-15, a separately obtaining resource-use relation connects it to four hours of reviewer time, and exact `enactsMethod` connects it to `PeerReviewMethod`. A separate assertion may cite `methodDescriptionRef = Peer_Review_Guidelines_v3.docx`. |
+| Alignment position | Manufacturing | Scientific peer review |
+| --- | --- | --- |
+| Exact local system-role kind | `WeldingRobotSystemRole` | `PeerReviewerSystemRole` |
+| Holder system | `ABB_Robot_Model_IRB_6700` | `Dr_Alice_Smith`, modeled as an admitted `U.System` |
+| Direct assignment species and occurrence | `FactoryWeldingAssignment` with the robot and `WeldingRobotSystemRole`; include another participant, for example a factory line or work order, only if that species predicate depends on it | `JournalReviewAssignment` with Alice and `PeerReviewerSystemRole`; a commission-sensitive appointment species also carries the exact review commission |
+| Separate semantic sources when used | `FactoryProductionSystemRoles-2026` and `Factory-Line-B-Scheme` may support classification or interpretation claims | `PhysicsPeerReviewSystemRoles-2026` and `PhysicsLetters-A-Review-Scheme` may support classification or interpretation claims |
+| Selected model-use structure, only when current | Cited by the receiving factory interpretation claim, never inserted as a participant of every assignment species | Cited by the receiving journal interpretation claim, never inserted as a participant of every assignment species |
+| `U.MethodDescription` episteme | `Welding_Procedure_WP-28A.pdf`, with `WeldingMethod` as exact EntityOfConcern and substantive way-of-doing claims | `Peer_Review_Guidelines_v3.docx`, with `PeerReviewMethod` as exact EntityOfConcern and substantive way-of-doing claims |
+| Holder capability, when relied on | ability to execute a 3F welding seam within a declared envelope and current window | ability to evaluate a quantum-optics manuscript within a declared envelope and current window |
+| Work occurrence | `Weld_Job_#78345`, whose temporal relation covers 15:32–15:34 UTC; separate resource-use relations connect 1.2 kWh and 5 g Argon, and `enactsMethod` connects `WeldingMethod` | `Review_of_Manuscript_#PL-2025-018`, whose temporal relation ends on 2025-08-15; a separate resource-use relation connects four hours of reviewer time, and `enactsMethod` connects `PeerReviewMethod` |
 
-**Key takeaway from grounding:**
-The welding and peer-review cases share one enactment alignment without sharing a domain ontology. Each has a holder `U.System`, a role interpreted by an exact role-taxonomy episteme and effective reference scheme, a four-participant `U.RoleAssignment`, a run-independent `U.Method`, a separate `U.MethodDescription`, a holder capability when reliance on it is current, and a dated Work occurrence admitted under `U.Work`. A selected model-use structure appears only in the receiving interpretation use that needs it. This is enough to compare the alignment while preserving different local structures; use the pattern that defines or tests any classification beyond `U.Work`.
+**Key takeaway.** Both cases use an admitted holder System, a local system-role kind, an assignment occurrence and its declared species, a Method, a separate MethodDescription, a capability relied on for the case, and dated Work. Their taxonomies, schemes, commissions, records, and results remain separate values and relations. This common alignment does not erase their different domain ontologies.
 
 #### A.15:5.1.a - Briefing guides orientation, not execution
 
@@ -79,7 +79,7 @@ The welding and peer-review cases share one enactment alignment without sharing 
 
 **Briefing slice.** `Status briefing only: rollback procedure appears verified in the current source bundle. Execution remains tied to the deployment method, work plan, required approval or decision record, and evidence relation.`
 
-This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the evidence, gate, decision, or assurance pattern that defines or tests the claim to recover the missing project-side kind and reference. Inside `A.15`, keep only the role, method, plan, and work-occurrence separation.
+This briefing may orient the team and cue attention. If the team wants to execute from the briefing alone, use `A.15.4` or the evidence, gate, decision, or assurance pattern that defines or tests the claim to recover the missing project-side kind and reference. Inside `A.15`, keep only the system-role kind, assignment, Method, plan, and Work-occurrence separation.
 
 #### A.15:5.1.b - P2W principle-scheme publication guides planning, not occurrence
 

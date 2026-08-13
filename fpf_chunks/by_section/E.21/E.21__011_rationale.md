@@ -6,12 +6,12 @@ section_id: "E.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:9 — Rationale"
-line_start: 87219
-line_end: 87224
+line_start: 87897
+line_end: 87902
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
@@ -35,7 +35,7 @@ keywords:
 
 ### E.21:9 - Rationale
 
-`E.21` keeps the declared measurement structure simple: one checked-object class, one ordinal scale, one required coordinate set, one non-arithmetic `PatternQualityQBundle` result payload, one local status set, and one stop-condition form. The specification marks no coordinate inactive; dated assessment work applies them all, and the result episteme states what value the exact checked pattern edition and named evidence basis support under the declared use.
+`E.21` keeps the declared measurement structure simple: one checked-object class, one ordinal scale, one required coordinate set, one non-arithmetic `PatternQualityQBundle` result payload, one local status set, and one stop-condition form. The specification marks no coordinate inactive; an admitted evaluator `U.System` applies them all, and the result episteme states what value the exact checked pattern edition and named evidence basis support under the declared use. This ordinary statement needs no Work-facing apparatus; when the result asserts dated assessment `U.Work`, use the item 5 actual-Work account.
 
 The mature-pattern parity coordinate is deliberately strict because recent short patterns looked formally clean while lacking the worked slices, source carry-through, lowering conditions, and transfer coverage present in mature FPF patterns. The repair is not "make everything long"; it is "carry the selected mature ingredients that the declared use needs."
 

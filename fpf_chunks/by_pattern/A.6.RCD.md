@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.RCD.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
-line_start: 16717
-line_end: 17115
+line_start: 16945
+line_end: 17343
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -245,7 +245,7 @@ Authors MAY publish under A.6.0 a `RelationSignature` whose `EntityOfConcern` is
 
 The ordinary branch can stop at a readable direct claim or one readable compound claim. It does not require a named substrate document, predicate-definition publication, new relation kind, signature, explicit occurrence, or designator when the receiving use consumes none of them.
 
-**Negative direct-claim case.** A staffing check asks whether `Robot_7` holds `InspectorRole` in `Cell_3` during `Interval_T`. The current A.2.1 participant meanings and predicate state the positive test. If an applicable non-assignment criterion or complete assignment closure basis exists and the available assignment facts satisfy it, one claim-bearing episteme states the negative result and disposition 1 closes the check; there is no obtaining assignment occurrence to individuate. If no current assignment predicate, applicability condition, or needed occurrence rule exists, return `missing-governor`. If the governor exists and the available case basis is sufficient to apply the positive test but it fails, return `factually unsupported`; if a fact needed to decide the test is unavailable, return `missing-information`. Neither a failed positive test nor either blocker is a third assignment polarity.
+**Negative direct-claim case.** A staffing check asks whether `Robot_7` holds `CellInspectorAssignment`, a declared direct species of `U.SystemRoleAssignment` for `InspectorSystemRole`, in `Cell_3` during `Interval_T`. The current A.2.1 participant meanings and the direct species predicate state the positive test over the actual holder system, cell, and interval; a taxonomy or scheme is not an assignment participant. If an applicable non-assignment criterion or complete assignment closure basis exists and the available facts satisfy it, one claim-bearing episteme states the negative result and disposition 1 closes the check; there is no obtaining assignment occurrence to individuate. If no current direct-species predicate, applicability condition, or needed occurrence rule exists, return `missing-governor`. If the governor exists and the available case basis is sufficient to apply the positive test but it fails, return `factually unsupported`; if a fact needed to decide the test is unavailable, return `missing-information`. Neither a failed positive test nor either blocker is a third assignment polarity.
 
 **Assurance branch for DPF and FPF authors.** DPF and FPF authors use this branch whenever they author a compound claim, reusable predicate definition, or relation-kind admission candidate, including a durable local compound claim that stops at disposition 2. In addition, verify:
 
@@ -296,17 +296,17 @@ No production or entity-inception claim is current because `Housing_42` already 
 
 **Disposition and stop.** Stop at disposition 1 under A.2.3. No new compound-law episteme, predicate definition, relation kind, or `RelationSignature` is needed. Open A.6.REL only if a later use must distinguish this fulfilment occurrence from another occurrence of the same admitted relation.
 
-#### A.6.RCD:5.2 - Role enactment: one local compound claim
+#### A.6.RCD:5.2 - System-role assignment and performed Work: use A.2.1 and F.6 directly
 
-**Situation.** A work record needs the readable claim that a holder enacted an assigned role in one exact work occurrence.
+**Situation.** A work record needs the readable claim that one actual system performed one exact Work occurrence under one exact assignment to a system role.
 
-**Base and derivation.** Recover the obtaining `U.RoleAssignment`, the holder's exact participation in the work, the work occurrence, and the direct relation that makes that work relevant to the assigned role. State the local compound claim in one `C.2.1` episteme whose exact `EntityOfConcern` is the `U.RoleAssignment` occurrence under concern; neither the work-record wording, holder, work occurrence, nor a union of nearby objects substitutes for that concern.
+**Base and direct result.** Recover `RA`, one obtaining occurrence of a declared direct species under `U.SystemRoleAssignment`; recover its holder `S : U.System = RA.HolderSystemSlot`; and recover exact `W : U.Work`. Apply F.6 to the direct predicate `performedUnderAssignment(W, RA)` and verify that `S` is the actual performer of `W`. A C.2.1 episteme may assert that result for the receiving use. The system performs the Work; the assignment supplies the holder and assigned-kind projection but neither acts nor creates another participation relation.
 
-**Positive case.** The same admitted `U.System` that holds the role assignment participates in the qualifying work while the assignment obtains and the work satisfies the direct role-relevance condition.
+**Positive case.** `RA` obtains and covers `W`, `RA.HolderSystemSlot = S`, and F.6's Work-attribution predicate holds for `W` and `RA`. The readable result is “S performed W under RA.” No generic enactment object is needed.
 
-**Discriminating failure.** The assignment obtains, but another system performs the work, or the named holder performs work outside the assignment or outside the relevant work relation. Assignment plus nearby work is therefore insufficient.
+**Discriminating failure.** The assignment obtains, but another system performs the Work, or `S` performs Work outside the assignment's extent. Assignment plus nearby Work is insufficient; capability, responsibility, authority, and a result also remain separate claims.
 
-**Disposition and stop.** Disposition 2. Keep the readable local enactment claim; admit no universal `RoleEnactment` kind, occurrence, or `RelationSignature`. If a later receiving use demonstrates a repeated need for occurrence semantics, reopen that exact role-enactment case rather than generalizing from the verb.
+**Disposition and stop.** Stop at disposition 1 under A.2.1 and F.6. Admit no `RoleEnactment` kind, compound relation, occurrence, or `RelationSignature`. If a later use needs another participation or functioning relation in addition to Work attribution, name its direct predicate or return that exact missing governor instead of generalizing from *enacted*.
 
 #### A.6.RCD:5.3 - Supply-chain reachability: subject-bounded query or reusable predicate definition
 

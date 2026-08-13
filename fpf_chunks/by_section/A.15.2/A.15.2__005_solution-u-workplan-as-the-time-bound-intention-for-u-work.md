@@ -6,12 +6,12 @@ section_id: "A.15.2:4"
 section_title: "Solution - U.WorkPlan as the time-bound intention for U.Work"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__005_solution-u-workplan-as-the-time-bound-intention-for-u-work.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:4 — Solution - U.WorkPlan as the time-bound intention for U.Work"
-line_start: 25030
-line_end: 25126
+line_start: 25228
+line_end: 25324
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ dependencies:
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "PlanItem content"
@@ -73,7 +73,7 @@ The stable positive membership condition is substantive intended-work content. A
 
 The dependent kind supplies no second identity rule. Changing exact ClaimGraph content, the present EntityOfConcern, or the effective `U.ReferenceScheme` identifies another episteme under C.2.1. An explicit `EpistemeEditionRelation` may preserve historical continuity only when its own predicate obtains. Changing only a file path, carrier, layout, publication occurrence, ticket key, or version label leaves identity unchanged when the three C.2.1 discriminators are preserved.
 
-Planned methods, possible-performance designators, performer designations, role conditions, windows, desired fillings, capability-fit requirements, resource budgets, dependencies, commitments, acceptance targets, and expected effects are claim content or separately governed planned claims. They establish no dated work occurrence, obtaining `U.RoleAssignment`, capability-fit result, actual participant, resource use, transformation, result value, result episteme, produced entity, delivery, acceptance verdict, or downstream outcome.
+Planned Methods, possible-performance designators, intended performer Systems, local system-role-kind conditions, windows, desired fillings, capability-fit requirements, resource budgets, dependencies, commitments, acceptance targets, and expected effects are claim content or separately governed planned claims. They establish no dated Work occurrence, obtaining `U.SystemRoleAssignment`, capability-fit result, actual participant, resource use, Transformation, result value, result episteme, produced entity, delivery, acceptance verdict, or downstream outcome.
 
 > **Strict distinction (memory aid):**
 > **Method** = *how in principle*. **MethodDescription** = *how it is written*.
@@ -88,7 +88,7 @@ Choose only the claims the team will use to coordinate the intended work. The li
 
 1. **Target method and description use** — the `U.Method` intended for enactment and, only when one plan claim relies on a particular `U.MethodDescription` episteme, that episteme and the relying instruction, constraint, or justification claim. Call the description an edition only when the C.2.1 `EpistemeEditionRelation` predicate obtains. The description neither identifies the method, constrains or justifies it by itself, nor becomes the enacted object.
 2. **Planned window or entry condition** — earliest start, latest finish, timebox, recurrence, blackout period, or another exact intended temporal condition.
-3. **Intended performer and role conditions** — intended holder designation, `U.Role` value, role-admission conditions, and, when already obtaining, an exact `U.RoleAssignment` intended to cover later work. A proposed holder-role tuple is not an obtaining assignment.
+3. **Intended performer and system-role-kind conditions** — an intended performer `U.System` designator, the local system-role kind under which that performer is expected to qualify, its admission conditions, and, only when it already obtains, an assignment occurrence whose species is declared under `U.SystemRoleAssignment` and that is expected to cover later Work. A proposed holder-and-kind pair is not an actual assignment.
 4. **Capability requirement** — an exact A.2.2 threshold or `CapabilityFitCondition` needed for work admission. Cite an existing capability claim only when the plan relies on it. The plan neither creates `U.Capability` nor evaluates fit for the later work interval.
 5. **Resource budgets and reservations** — intended energy, materials, machine windows, money, and exact reservation claims. A planned budget is neither a performed resource-use fact nor a B.1.6 aggregate ledger result.
 6. **Dependencies and commitments** — state the source item or commitment, the affected target item, and the condition that blocks, orders, overlaps, or excludes the planned work. A cited gate, approval, source-currentness, or promise claim keeps its own predicate; the citation establishes neither gate passage, approval, promise fulfilment, nor world-side ordering.
@@ -109,10 +109,10 @@ A method description may describe generic participant meanings and intended effe
 | "The **workflow** for appendectomy"         | **`U.MethodDescription`** and `U.Method`             | Recipe and semantic way, not a calendar.          |
 | "The **process** already ran at 10:00" | A Work occurrence admitted under `U.Work` only when A.15.1 grounds that dated individual | Identify its performer System, obtaining assignment, enacted Method, temporal extent, and containing System. Add participation, resource use, change, result, acceptance, or outcome only when that separate claim is actually being made. |
 | "The **thermodynamic trajectory**" | **`U.Dynamics`** representation or model; add exact changed-subject and `U.Transformation` claims only when their direct predicates obtain | A trajectory expression is neither plan nor performed work by form. |
-| "The **plan** assigns Dr. Lee" | **`U.WorkPlan`** carrying an intended holder and role claim; optionally cite an already obtaining `U.RoleAssignment` | The plan does not create or validate an assignment for the performed-work interval. |
+| "The **plan** assigns Dr. Lee" | **`U.WorkPlan`** carrying a claim about the System intended to perform the Work and its local system-role-kind condition; cite an assignment occurrence and its declared species only when that assignment already exists | The plan does not create or validate an assignment for the performed Work interval. |
 | "The **budget** for Shift-B" | **`U.WorkPlan`** planned resource-budget claim | The plan states the budget. A.15.1 identifies later Work, the applicable resource-use predicate states what it consumed, and B.1.6 aggregates those facts only when a ledger or allocation result is needed. |
 
-> **Schedule-word guard.** Schedule-like words do not determine the kind by themselves. Use `U.WorkPlan` only when the text actually states intended work, a horizon or window, performer or role conditions, and enough constraints, resources, dependencies, targets, or baseline to coordinate it. Otherwise use the pattern for the method, instructions, dated Work, evidence, gate, publication use, or representation actually claimed.
+> **Schedule-word guard.** Schedule-like words do not determine the kind by themselves. Use `U.WorkPlan` only when the text actually states intended Work, a horizon or window, the System intended to perform the Work or its local system-role-kind conditions, and enough constraints, resources, dependencies, targets, or baseline to coordinate it. Otherwise use the pattern for the Method, instructions, dated Work, evidence, gate, publication use, or representation actually claimed.
 
 #### A.15.2:4.4 - Plan mereology (composition of plans ≠ composition of methods or work occurrences)
 
@@ -148,7 +148,7 @@ A variance question is handled in the same economy. Use a separate local compari
 * **method variance:** actual `enactsMethod` against the intended method, including an exact substitution claim when the comparison asserts substitution;
 * **description-selection variance:** the method-description episteme cited by a named assertion about a Work occurrence or by a separately governed instruction-use claim, compared with the description reference planned earlier; call either object an edition only when the C.2.1 `EpistemeEditionRelation` predicate obtains, and do not treat that episteme as enacted;
 * **acceptance-target variance:** a separately governed measurement, evaluation, or acceptance verdict against the planned target; and
-* **assignment variance:** every exact performed-work `U.RoleAssignment` against the intended holder and role claims.
+* **assignment variance:** every exact direct `U.SystemRoleAssignment` species cited for performed Work against the intended performer System and local system-role-kind conditions.
 
 > **Manager's view:** A plan that cannot support one exact later local fulfilment or variance question is only a calendar picture for that use, not yet a reliance-bearing WorkPlan.
 

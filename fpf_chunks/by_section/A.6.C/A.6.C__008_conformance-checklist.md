@@ -6,12 +6,12 @@ section_id: "A.6.C:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:7 — Conformance Checklist"
-line_start: 11283
-line_end: 11311
+line_start: 11495
+line_end: 11523
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,8 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an accountable duty"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "and SHOULD NOT enter D only for an individual duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
@@ -63,17 +63,17 @@ keywords:
 A boundary description conforms to A.6.C iff it satisfies all items below:
 
 1. **CC‑A.6.C‑1 (Four questions, atomic answers).**
-   If contract-language appears, the text **SHALL** answer the four questions only with atomic claims. Speech act, description/publication, commitment or selected permission-side claim, dated Work, each consequence, and each evidence claim **SHALL** retain its own direct object, owner, and quadrant.
+   If contract-language appears, the text **SHALL** answer the four questions only with atomic claims. Speech act, description/publication, commitment or selected permission-side claim, dated Work, each consequence, and each evidence claim **SHALL** retain its own direct object, exact subject assertion, non-semantic pattern locator, and quadrant.
 
 2. **CC‑A.6.C‑2 (No agency to epistemes).**
-   The text **MUST NOT** attribute promising, committing, or obligating agency to signatures, mechanisms, interfaces, or documents. Any duty or commitment **SHALL** name an accountable role assignment, `U.Role`, or admitted acting system.
+   The text **MUST NOT** attribute promising, committing, or obligating agency to signatures, mechanisms, interfaces, documents, system-role kinds, or assignments. Any duty or commitment **SHALL** name its actual bearer and the exact separately obtaining `U.Commitment`; an assignment may appear only as an instituting rule's applicability ground.
 
 3. **CC‑A.6.C‑3 (Classify contract-language statements via A.6.B).**
    Contract-language statements **SHALL** be atomic L/A/D/E claims. Permission-looking wording **SHALL** select one A.6 `A6-AW-*` row; A.2.8.PER membership alone **MUST NOT** set the quadrant.
 
 4. **CC‑A.6.C‑4 (Promise content ≠ Work discipline).**
    A performed-work statement **SHALL** name the exact A.15.1 dated Work occurrence. A result, production, change, delivery/transfer, evidence, or acceptance statement **SHALL** use its own direct object and shall not be inferred from Work. Promise-content language remains about `U.PromiseContent`, not execution or consequence.
-   When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next route, the text **SHALL** recover that hidden choice through E.10 **L-SERV**, **A.6.P:4.11a**, and the resulting direct owner. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
+When *service* or access-like wording occurs in a relied-on boundary claim, recommendation, decision, gate, assurance, publication, or reuse and hides the concrete subject, participant, predicate, kind, permission, Work occurrence, or next subject question, the text **SHALL** recover that hidden choice through E.10 **L-SERV** and **A.6.P:4.11a**, then state the exact assertion under the recovered predicate with its pattern locator. Quoted, historical, illustrative, and harmless ordinary wording remains outside this recovery rule; an actual `U.PromiseContent` referent still uses the head phrase **promise content**, not bare *service*.
 
 5. **CC‑A.6.C‑5 (Evidence hook for operational guarantees).**
    If a “guarantee” is operational (requires reality to decide), the text **SHALL** include an **E** claim that states what evidence would adjudicate it, with the evidence carrier or evidence claim named when current.
@@ -85,5 +85,5 @@ A boundary description conforms to A.6.C iff it satisfies all items below:
    If an MVPK face contains a BCP-14 keyword, each sentence **MUST** cite its classified claim ID, direct object, and selected `A6-AW-*` row when permission-looking. Only norm/grant claims cite D; gate claims cite A; exercise and evaluated findings cite E.
 
 8. **CC‑A.6.C‑8 (Obtaining is not representation).**
-   A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The direct owner's obtaining conditions and cited context policy decide whether the relation obtains. A Claim Register row may assert or support reliance on it only when the row names the exact occurrence, instituting act and policy, participants, scope/window, and current evidence required by that use; the row does not create the relation.
+   A `Publish` or `Approve` utterance, a document, carrier, or record does not by itself institute or prove a `U.Commitment` or `GrantedPermissionRelation@Context`. The exact obtaining predicate and cited context policy decide whether the relation obtains. A Claim Register row may assert or support reliance on it only when the row names the exact occurrence, predicate, `SubjectPatternLocator`, instituting act and policy, participants, scope/window, and current evidence required by that use; the row does not create the relation.
 

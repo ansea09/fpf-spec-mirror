@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 87511
-line_end: 87522
+line_start: 88192
+line_end: 88203
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:5 - Worked slices
 
-**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names the exact pattern version, E.21 characteristic space and floor predicate, the evaluation ClaimScope, the decision that will consume the result, `E.21` as the governing evaluation pattern, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. Any semantic evaluation Method is named separately when it is recoverable. The result becomes current only through the direct E.21 evaluation under one dated evaluation Work and its exact typed result relation or binding: a complete `E.21` coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine" and not the frame itself.
+**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names the pattern version, E.21 characteristic space and floor predicate, the evaluation ClaimScope, the decision that will consume the result, `E.21` as the evaluation pattern, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. It may name the intended evaluator System without claiming current assignment or Work. The direct E.21 evaluation returns a complete coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine" and not the frame itself. If replay or reliance asserts that result through dated evaluation Work, use the A.15.1 and F.6 actual-Work account and name the typed result relation or A.6.1 binding between that Work and result.
 
 **Exceptional improvement.** A pattern already passes the floor. The frame asks for substantive non-dominated improvements for named coordinates while protecting usability and related-pattern fit. The result returns proposal rows for content improvements such as missing worked cases, source-currentness carry-through, mature-comparator discharge, deletion of displaced apparatus, or relation cleanup, plus checked no-candidate dispositions for coordinates where no non-dominated content move remains. It does not ask the evaluator to make every coordinate `5`.
 
@@ -38,5 +38,5 @@ keywords:
 
 **Proposal portfolio.** A candidate improvement campaign needs alternatives before editing. The frame asks for `candidateImprovementProposalEvaluation`. The result returns bounded proposal rows; selection or generation stays with the pattern that defines or constrains that claim and is not decided by the evaluation frame.
 
-**Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the exact vibration `CharacteristicSpace`, RMS-vibration predicate and any admitted comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result. During dated test-bench evaluation Work, the directly governed evaluation relation or actual method operation returns a result finding excessive RMS vibration at one operating point through its exact binding; the frame, subject pattern reference, separately identified semantic Method when named, role assignment, expected evidence basis, and result-form description remain separate. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the exact design episteme that would change; the measurement row is not the correction target. The affected coordinate is the declared RMS-vibration coordinate. The coarse proposal effect is `raiseTowardExceptional`, `kindRestorationCheckDisposition=notTriggered`, and the trade-off set includes efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated work under A.15 rather than an E.22 result.
+**Physical-system proposal.** A vibration evaluation of `PumpAssembly@Prototype-3` selects the vibration `CharacteristicSpace`, RMS-vibration predicate and any comparator, one evaluation ClaimScope over the declared operating-point slices, and the design decision that will consume the result. Here the result is asserted through dated test-bench evaluation Work, so A.15.1 identifies its performer, Method, time, and containing System, while F.6 identifies the assignment under which the performer acted. The evaluation relation or actual Method operation returns a result finding excessive RMS vibration at one operating point through its binding; the frame, subject-pattern reference, assignment, expected evidence basis, and result-form description remain separate. The proposal's `reviewLocationDescriptionRef` points to that evaluation row. Its `correctionTargetRef` points to `ImpellerBladeGeometryDescription@v3`, the design episteme that would change; the measurement row is not the correction target. The affected coordinate is RMS vibration. The coarse proposal effect is `raiseTowardExceptional`, `kindRestorationCheckDisposition=notTriggered`, and the trade-off set includes efficiency and manufacturability. If the proposal is selected for a repeated loop, E.23 adds a scale-qualified `ExpectedEvaluationResultChange@Context`. Manufacturing a new impeller remains dated Work under A.15 rather than an E.22 result.
 

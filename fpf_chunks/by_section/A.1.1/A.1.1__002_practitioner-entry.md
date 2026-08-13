@@ -6,12 +6,12 @@ section_id: "A.1.1:0"
 section_title: "Practitioner entry"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__002_practitioner-entry.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:0 — Practitioner entry"
-line_start: 1837
-line_end: 1876
+line_start: 1850
+line_end: 1889
 dependencies:
   - "A.1"
   - "A.14"
@@ -73,7 +73,7 @@ This row names the selection-use frame reconstructed in the full assurance repla
 
 **Short glosses.** A **model episteme** is one exact claim-bearing model edition. A **model-use holon** is one already admitted system or other concrete whole about which the model applies or is used; it is not a context container. **Work** (`U.Work`) is one exact dated doing, not its method, plan, or result. A **claim scope** (`U.ClaimScope`) is the set-valued boundary of context slices for one claim. A **relation occurrence** is a world-side relation actually obtaining under its predicate; an assertion, name, or diagram does not create it. A **reference scheme** is the interpretation basis for claim content. A **structure** here is a selected organization of already governed constituents, obtaining relations, applied constraints, and one exact selection-use frame; it is not another whole.
 
-**Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the nearest overread that remains unavailable. If either is missing, stop at the direct relation or direct owner.
+**Adoption test.** After applying A.1.1, name the exact organization that changes the present decision and the nearest overread that remains unavailable. If either is missing, stop at the direct relation or subject pattern.
 
-**Names for retrieval.** The Plain label is **bounded context** and the Tech label is `BoundedModelUseStructure`. F.18 and F.17 own their designation history, public row, lineage, and refresh evidence; A.1.1 keeps only the names needed to apply this pattern. Authors **MUST NOT** publish `U.BoundedContext` as a U-kind. The retained labels create neither a structure individual nor any applicability, use, coherence, or crossing occurrence.
+**Names for retrieval.** The Plain label is **bounded context** and the Tech label is `BoundedModelUseStructure`. Use F.18 for designation settlement and lineage, and F.17 for the public terminology row and its refresh evidence; A.1.1 keeps only the names needed to apply this pattern. Authors **MUST NOT** publish `U.BoundedContext` as a U-kind. The retained labels create neither a structure individual nor any applicability, use, coherence, or crossing occurrence.
 

@@ -6,12 +6,12 @@ section_id: "A.12:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__013_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:10 — SoTA-Echoing"
-line_start: 23498
-line_end: 23506
+line_start: 23751
+line_end: 23759
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -39,7 +39,7 @@ keywords:
 | Source family | Current lesson for A.12 | FPF decision |
 | --- | --- | --- |
 | Control and cybernetic regulation | Regulation becomes inspectable when controller, controlled object, feedback, and plant-like structure are not collapsed into one undivided object. | Reflexive split names acting and changed positions before control or feedback claims are used. |
-| Constructor-theory-style transformation framing | A transformation claim needs a substrate or changed object, a possible transformation, and a constructor-like acting side without making the acting side a new root kind. | A.12 keeps the exact acting-side entity distinct, requires A.1 before any `U.System` reading of that entity, and returns bounded transformation to `A.3.4`. |
-| Assurance and evidence practice | A produced result and evidence for the result are different claims. | A.12 blocks self-evidence shortcuts and returns evidence to `A.10` or stronger evidence owners. |
-| Software and automation practice | Automated-change wording may mention systems, services, scripts, agents, or organizational arrangements; none of those words alone identifies the acting entity or proves systemhood. | Recover the exact acting entity, use that same entity under `U.System` only after A.1 recognition, keep scripts with method-description or representation owners unless a stronger direct claim obtains, and keep the changed object, Work occurrence, and evidence relation separate. |
+| Constructor-theory-style transformation framing | A transformation claim needs a substrate or changed object, a possible transformation, and a constructor-like acting side without making the acting side a new root kind. | A.12 keeps the exact acting-side entity distinct, requires A.1 before any `U.System` reading of that entity, and requires `A.3.4 for bounded transformation`. |
+| Assurance and evidence practice | A produced result and evidence for the result are different claims. | A.12 blocks self-evidence shortcuts and requires `A.10 for evidence` or stronger evidence-use patterns. |
+| Software and automation practice | Automated-change wording may mention systems, services, scripts, agents, or organizational arrangements; none of those words alone identifies the acting entity or proves systemhood. | Recover the exact acting entity, use that same entity under `U.System` only after A.1 recognition, keep scripts with method-description or representation patterns unless a stronger direct claim obtains, and keep the changed object, Work occurrence, and evidence relation separate. |
 

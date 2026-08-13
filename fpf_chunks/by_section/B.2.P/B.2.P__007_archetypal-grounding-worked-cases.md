@@ -6,12 +6,12 @@ section_id: "B.2.P:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37510
-line_end: 37554
+line_start: 37720
+line_end: 37764
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -51,7 +51,7 @@ keywords:
 Recover:
 
 - Is "fleet" a membership set, collection-as-whole, acting collective system, or the candidate new system named by an MHT claim?
-- Does the agency wording name a system in role, an agency-threshold claim, or only ordinary prose?
+- Does the agency wording name an admitted System, an agency-relevant characteristic or threshold, a local system-role kind, a separate System-classification judgment, an obtaining assignment, or only ordinary prose? Recover these independently: the characteristic can obtain without an assignment and the System may participate passively. Send unresolved claim-bearing “role” wording through `E.10.ROLE`.
 - Does the candidate new system have its own delimitation, objective, coordination, and capability envelope, and is the reidentification claim separately supported by evidence and assurance?
 
 If the candidate new whole is an acting system, use B.2 and B.2.2. If the case is only a managed collection with a whole-level metric, use A.14, C.13, B.3.5, and C.16.
@@ -65,7 +65,7 @@ Recover:
 - Is the result a benchmark artifact?
 - Is there an in-life holon whole-reidentification question?
 
-Most cases use `C.29`, `C.16`, `A.10`, and source-use owners. Use B.2 only if the in-life whole has to be reidentified.
+Most cases use `C.29`, `C.16`, `A.10`, and source-use patterns. Use B.2 only if the in-life whole has to be reidentified.
 
 #### B.2.P:5.3 - "A Meta-Functional Transition Happened"
 
@@ -75,7 +75,7 @@ Recover:
 - Do separately governed capability or functioning facts make a whole-reidentification question live, with evidence only supporting the claim about those facts?
 - Is the concern function-like wording, a functional-structure view, a method-and-work relation, or a candidate new holon?
 
-Use B.2.4 only for the B.2-facing whole-reidentification case. Otherwise use `A.6.F`, `A.2.2`, `C.16`, `A.3.4`, `C.30.TFS-REL`, `A.15`, or architecture owners.
+Use B.2.4 only for the B.2-facing whole-reidentification case. Otherwise use `A.6.F`, `A.2.2`, `C.16`, `A.3.4`, `C.30.TFS-REL`, `A.15`, or architecture patterns.
 
 #### B.2.P:5.4 - "The Selected Context Became A Meta-System"
 

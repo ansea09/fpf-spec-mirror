@@ -6,12 +6,12 @@ section_id: "F.10:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:4 — Solution"
-line_start: 93491
-line_end: 93641
+line_start: 94267
+line_end: 94417
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,7 +51,7 @@ F.10 supplies a small set of three status families—`EvidenceStatus`, `Standard
 | `StandardStatus` | deontic and curatorial | exact standard/profile edition, method description, governed configuration, or other admitted standard target | What the exact governing source sanctions, discourages, or supersedes for one scheme, edition, scope, window, and use. It is not an approval speech act, permission, runtime result, or requirement satisfaction. |
 | `RequirementStatus` | deontic and compliance-facing | exact requirement, duty, constraint, acceptance, or obligation clause | What is asserted about applicability, satisfaction, violation, waiver, or pending evaluation for that clause under its direct rule, scope, conditions, and window. It is not the clause, evaluation work, result, gate, or assurance. |
 
-A project may define local sublevels or labels, but each label resolves under one effective ReferenceScheme to one exact local sense and maps to one of these three families—`EvidenceStatus`, `StandardStatus`, or `RequirementStatus`—or another direct status owner. F.10 does not create a role kind or global synonym by adding a family row.
+A project may define local sublevels or labels, but each label resolves under one effective ReferenceScheme to one exact local sense and maps to one of these three families—`EvidenceStatus`, `StandardStatus`, or `RequirementStatus`—or to another status family defined by its own pattern. Adding a family row creates neither a system-role kind nor a global synonym.
 
 #### F.10:4.2 - Status value, use occurrence, assertion, and display
 
@@ -89,7 +89,7 @@ StatusUseRelation:
 
 For an F.10-family status, `StatusUseRelation(B,T,V,G,W,U)` obtains only when: `B` and `T` resolve to admitted governed objects; exact cell `V` has the required F.10 family/local sense under its effective ReferenceScheme; the family-specific source and any direct result/evaluation basis support applying `V` to `T`; `G` and `W` bound that application; and `U` is the named intended use without a stronger inference. Unknown or missing basis yields no positive occurrence and a `Pending`, `Inconclusive`, or explicit unresolved disposition only when that value's own rule is satisfied. Absence of evidence is never target falsity.
 
-One F.10 occurrence is identified by the exact ordered tuple `<B,T,V,G,W,U>`. Repeated evaluations, assertions, displays, rows, records, or citations create no duplicates. A changed bearer, target, value cell, scope, window, or intended use identifies another candidate. A changed source, evidence path, evaluation, or currentness fact can change whether the fixed candidate is warranted or obtains; it is not silently copied into relation identity. A status governed by another direct pattern exits there instead of inheriting this predicate by family resemblance.
+One F.10 occurrence is identified by the exact ordered tuple `<B,T,V,G,W,U>`. Repeated evaluations, assertions, displays, rows, records, or citations create no duplicates. A changed bearer, target, value cell, scope, window, or intended use identifies another candidate. A changed source, evidence path, evaluation, or currentness fact can change whether the fixed candidate is warranted or obtains; it is not silently copied into relation identity. A status under another exact predicate keeps its own subject assertion and defining or constraining `ClaimGraph` instead of inheriting this predicate by family resemblance.
 
 A distinct C.2.1 status-assertion episteme states affirmative or negative polarity for the exact `StatusUseRelation`. A separate display or publication form may render that assertion. The assertion does not perform evaluation, and the display does not become the assertion, source, or actual receiving use.
 
@@ -114,7 +114,7 @@ When an A.2.4 first-use classification is current, retain its positions by value
 
 | Position | F.10 use |
 | --- | --- |
-| `StatusBearerSlot` | Exact bearer from which the status is asserted or read; not a role holder. |
+| `StatusBearerSlot` | Bearer from which the status is asserted or read. This is not a system-role-holder position and does not by itself make the bearer an assignment holder. The same bearer may separately be admitted as a `U.System` and be the holder in an occurrence of a declared assignment species. |
 | `StatusTargetSlot` | Exact governed target; required when different from the bearer. |
 | `StatusScopeSlot` | Claim, requirement, admission, or use scope; not a generic context object. |
 | `StatusValueSlot` | Exact local status-value cell or value governed here or by another direct status pattern. |
@@ -122,7 +122,7 @@ When an A.2.4 first-use classification is current, retain its positions by value
 | `StatusUseSlot` | Named intended use; actual later use still needs its dated work and direct relation. |
 | `StatusProvenanceConstraintSlot` | Exact source order, authority source, publication, proof, verification, register, or provenance condition. |
 
-These are relation positions, not work-role qualifier slots, a record schema that applies status, or a new generic status ontic.
+These are relation positions, not system-role-kind qualifier slots, a record schema that applies status, or a new generic status ontic.
 
 #### F.10:4.5 - Family value sets
 

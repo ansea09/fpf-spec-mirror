@@ -6,12 +6,12 @@ section_id: "E.9.DA:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:7 — Conformance checklist"
-line_start: 73607
-line_end: 73628
+line_start: 74073
+line_end: 74094
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -31,11 +31,11 @@ keywords:
 |---|---|
 | `CC-E9DA-0` | Make the semantic judgement first. For an ordinary bounded review, name the exact DRR, declared authoring use, substantive findings, repaired text, or unchanged checked DRR when clean, first action or repair, bounded overread, and stop or reopen; do not require a formal dossier. |
 | `CC-E9DA-0a` | When a broad language, ontology, or authoring rule is selected, use one dependency-aware actual predecessor/proposed host replay. Evaluate recognizable entry, inputs, first action, vocabulary, formality and assurance burden, first result, stop, preserved ideas, and true direct consumers at comparable effort. A proxy does not substitute. |
-| `CC-E9DA-1` | Keep the exact DRR, declared authoring use, selected-locus map, and qualification window recoverable. Add claim scope, characteristic-space/spec refs, semantic evaluation method, or exact assessment/result identity only when the requested reusable result or named later reliance uses them. |
+| `CC-E9DA-1` | Keep the exact DRR, declared authoring use, selected-locus map, and qualification window recoverable. Add claim scope, characteristic-space and specification refs, semantic evaluation Method, or exact assessment and result identity only when the requested reusable result or named later reliance uses them. If dated `U.Work` is asserted, the complete A.15.1 and F.6 chain in 4.2 must obtain even when the compact result omits unused refs. |
 | `CC-E9DA-2` | When a complete reusable coordinate evaluation is explicitly required, evaluate every coordinate with value, adjacent-value rationale, and evidence locus. Otherwise perform the focused content review actually requested and return its findings or repairs without manufacturing unused coordinate records. |
 | `CC-E9DA-3` | Justify values from `DRR` decision content and accepted source-use payload, not administrative state or reputation. |
 | `CC-E9DA-4` | State the local adequacy conclusion, first drafting action or repair, bounded non-use, and reopen condition. Constitute an aggregate result episteme only when the requested reusable result or named later reliance requires it; keep any receiving status use or authority separate. |
-| `CC-E9DA-5` | Keep the adequacy judgement distinct from the checked DRR, pattern quality, E.19 admission, review or release state, assurance, gate, project work, and later repair. In the reliance-bearing branch, also keep assessment work/application, witnesses, evidence use, result episteme, and optional record distinct. |
+| `CC-E9DA-5` | Keep the adequacy judgement distinct from the checked DRR, pattern quality, E.19 admission, review or release state, assurance, gate, project work, and later repair. In the reliance-bearing branch, also keep assessment application, witnesses, evidence use, result episteme, and optional record distinct. When assessment `U.Work` is admitted, keep every component of the complete A.15.1 and F.6 chain in 4.2 distinct and recoverable. |
 | `CC-E9DA-6` | Apply `E.10` to decision-governing names, coordinates, status values, examples, stop conditions, and finding wording introduced or repaired by the evaluation. |
 | `CC-E9DA-6a` | Check the precision-restoration effect before accepting values: ordinary meaning and first action, word-use precision, phrase apparatus, repetition/distribution, ontic-slot clarity, description/publication/source separation, and pattern-use wording. Record a profile only when the requested reusable result or named reliance consumes it. |
 | `CC-E9DA-6b` | For proposed wording or naming repair, compare the actual pre/post object, relation or claim, slot, use, admissible scope, and practitioner action. If a live distinction changes without an accepted semantic decision and the concrete defining or constraining pattern, return repair rather than treating the wording as clean. |

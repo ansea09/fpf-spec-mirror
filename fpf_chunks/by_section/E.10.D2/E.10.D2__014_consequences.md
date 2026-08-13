@@ -6,12 +6,12 @@ section_id: "E.10.D2:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__014_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:12 — Consequences"
-line_start: 76724
-line_end: 76733
+line_start: 77369
+line_end: 77378
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,8 +47,8 @@ keywords:
 | Consequence | Cost or boundary |
 |---|---|
 | Description and specification wording becomes safer across FPF. | Authors must recover one C.2.1 constitution and the receiving use instead of relying on a suffix, title, or filled context record. |
-| One episteme can remain stable across changed viewpoint selections, harnesses, evidence, publications, carriers, and representations. | Each changed neighboring use needs its own direct owner when it matters to the next action. |
-| Publication, evidence, assurance, gate, work, state, and role claims remain independently testable. | Prose can become slightly longer when a source phrase compressed several non-substitutable relations. |
+| One episteme can remain stable across changed viewpoint selections, harnesses, evidence, publications, carriers, and representations. | Each changed neighboring use needs its own subject pattern when it matters to the next action. |
+| Publication, evidence, assurance, gate, work, state, and system-role-kind or assignment claims remain independently testable. | Prose can become slightly longer when a source phrase compressed several non-substitutable relations. |
 | The ordinary move stays small because optional neighbors are opened conditionally. | A genuinely load-bearing neighbor cannot be hidden merely to keep the sentence short. |
 | A local application can return an exact blocker. | Reopen when the receiving use, C.2.1 discriminator, required direct governor, or checkability basis cannot be recovered from current facts. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:13.0"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__016_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:13.0 — Rationale"
-line_start: 24923
-line_end: 24926
+line_start: 25121
+line_end: 25124
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,17 +42,16 @@ dependencies:
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.Role"
-  - "U.RoleAssignment"
   - "U.System"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "actual performer U.System"
   - "admitted U.Work kind"
-  - "containing system"
-  - "covering U.RoleAssignment"
-  - "enacted method"
+  - "containing System"
+  - "covering U.SystemRoleAssignment"
+  - "enacted Method"
   - "optional direct bindings and resource use"
   - "performedUnderAssignment"
   - "separate result or consequence"
@@ -62,5 +61,5 @@ keywords:
 
 ### A.15.1:13.0 - Rationale
 
-`U.Work` is retained as the admitted kind for dated Work occurrences because performer system, role assignment, method, method description, work plan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence; each actual performer is an admitted `U.System` acting under an exact obtaining `U.RoleAssignment`, and an assertion or description about the work is a separate episteme. The same wording in a source episteme, publication occurrence, method description, or work plan can point to several of these objects, but performed-work claims need occurrence grounding, temporal bounds, actual performer system, covering assignment, enacted method, and containing system rather than a convenient method, assignment, plan, affected-object, or delta label. Add direct work-to-referent, binding, resource-use, or change facts only when their own relations obtain. This keeps work mereology, resource aggregation, and P2W carry-through grounded in what happened.
+`U.Work` is retained as the admitted kind for dated Work occurrences because performer System, local system-role kind, system-role assignment, Method, MethodDescription, WorkPlan, affected entity, actual change, evaluation-result episteme, delivered entity, and downstream effect are different FPF objects. One Work individual is the world-side occurrence. Every actual performer is an admitted `U.System`; F.6 identifies the assignment under which that System performed the Work. An assertion or description about the Work is a separate episteme and may omit assignment identifiers not needed by its receiving use. Performed-Work claims need occurrence grounding, temporal bounds, actual performer System, F.6 attribution, enacted Method, and containing System. Add direct Work-to-referent, binding, resource-use, or change facts only when their own relations obtain.
 

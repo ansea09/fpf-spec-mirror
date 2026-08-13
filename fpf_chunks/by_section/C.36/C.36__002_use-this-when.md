@@ -6,12 +6,12 @@ section_id: "C.36:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:0 — Use This When"
-line_start: 68043
-line_end: 68103
+line_start: 68381
+line_end: 68445
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,6 +43,7 @@ dependencies:
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.18"
   - "E.18.1"
   - "F.17"
@@ -63,7 +64,7 @@ Typical first-use situations:
 - an engineering group treats its product family, toolchain, platform family, research program, or AI-agent framework as an evolving set of variants rather than one fixed system;
 - a scientific, medical, pedagogical, engineering, music, dance, organizational, or AI-agent discipline is changing through related methods, work products, training forms, memory epistemes, recognition regimes, and selected variants;
 - a music or dance steward needs to compare style, genre, technique, scene, canon, platform, or tradition labels without assuming that the label names one root kind;
-- a project lead wants an intervention that changes generation, transmission, selection, recognition, memory, method-family, work-family, role-assignment, mediation, architecture, measurement, or refresh relations.
+- a project lead wants an intervention that changes generation, transmission, selection, recognition, memory, method-family, work-family, system-role-assignment, mediation, architecture, measurement, or refresh relations.
 
 #### C.36:0.1 - What Goes Wrong If Missed
 
@@ -71,7 +72,7 @@ The team treats culture as shared vocabulary, treats style as a genre tree, trea
 
 #### C.36:0.2 - What This Buys
 
-The practitioner gets one small cultural-evolution case that names the collective holons, role assignments, work families, method families, canon or memory epistemes, recognition and selection regimes, mediation systems or architectures, variant sets, term bridges, current intervention, measurement, and refresh relation. After that, the project can apply the direct governing FPF pattern for the next governed use.
+The practitioner gets one small cultural-evolution case that names the collective holons, exact local system-role kinds and any obtaining assignments that matter, work families, method families, canon or memory epistemes, recognition and selection regimes, mediation systems or architectures, variant sets, term bridges, current intervention, measurement, and refresh relation. After that, the project can apply the subject pattern for the next claim.
 
 #### C.36:0.3 - First Useful Move
 
@@ -82,8 +83,12 @@ CulturalEvolutionCaseCard@Context:
   CaseRef:
   BoundedContext:
   CollectiveHolonRefs:
-  RoleValueRefs?:
-  RoleAssignmentRefs?:
+  RoleWordRecoveryRefs?: E.10.ROLE results for every role-like source label used by the case
+  DirectParticipationOrPositionRelationRefs?: obtaining direct relations when a label resolves to a participant or organization or representation position
+  SystemRoleKindRefs?: U.KindRef, each resolving to one exact local system-role kind
+  SystemRoleClassificationJudgmentRefs?: U.RelationRef, each resolving a separate judgment about an admitted System
+  SystemRoleAssignmentSpeciesRefs?: U.RelationKindRef, each resolving to one directly declared species under U.SystemRoleAssignment
+  SystemRoleAssignmentOccurrenceRefs?: U.RelationRef, each resolving to one obtaining occurrence of a cited species
   WorkFamilyRefs:
   MethodFamilyRefs:
   MethodRelationStructureRefs?:

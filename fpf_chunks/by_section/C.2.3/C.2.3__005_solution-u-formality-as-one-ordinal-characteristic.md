@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - U.Formality as one ordinal characteristic"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-u-formality-as-one-ordinal-characteristic.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:4 — Solution - U.Formality as one ordinal characteristic"
-line_start: 43007
-line_end: 43045
+line_start: 43229
+line_end: 43267
 dependencies:
   - "A.16"
   - "A.18"
@@ -51,7 +51,7 @@ keywords:
 
 `F` states **how strictly the content is expressed**. It does not state whether the content is true, well evidenced, widely applicable, or organizationally accepted.
 
-#### C.2.3:4.2 - Role in the typed `F-G-R` tuple
+#### C.2.3:4.2 - Place in the typed `F-G-R` tuple
 
 `F` is the formality coordinate in the assurance tuple. Its interaction rules are strict:
 

@@ -6,12 +6,12 @@ section_id: "A.2.2:14"
 section_title: "Excluded Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__015_excluded-objects.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:14 — Excluded Objects"
-line_start: 3641
-line_end: 3657
+line_start: 3812
+line_end: 3828
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,7 +30,7 @@ keywords:
 
 Do not use `U.Capability` as the current object for:
 
-- role value, role assignment, role state, role relation structure, or role description;
+- local system-role kind, direct system-role assignment, `SystemRoleAssignmentStateRelation`, structure of relations among system-role kinds, or system-role-kind description;
 - method, method family, method description, or algorithm description;
 - work plan, work occurrence, run record, or measurement trace;
 - evidence graph, source record, model card, standard, report, dashboard, publication, or specification-use relation;

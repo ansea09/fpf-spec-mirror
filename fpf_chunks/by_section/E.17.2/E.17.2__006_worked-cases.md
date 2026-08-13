@@ -6,12 +6,12 @@ section_id: "E.17.2:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.2/E.17.2__006_worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.17.2 — TEVB - Project-local Typical Engineering Viewpoint Bundle Template for Holons"
   - "E.17.2:5 — Worked cases"
-line_start: 80360
-line_end: 80402
+line_start: 81029
+line_end: 81071
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -39,7 +39,7 @@ Exact plant `Plant_X : U.System` is the EntityOfConcern of four separately ident
 
 - E1 states transformations, capabilities, material-flow effects, and functional boundaries. `r_functional` resolves `P_functional`; E1 conforms to that P and is a functional `U.View`.
 - E2 states claims about exact admitted method `PlantOperation`, exact A.19.SPR operational-state structure `PlantRunState`, and exact E.18 transformation-flow structure `PlantRunFlow`; its order, failure, and recovery claims designate the exact transition conditions and flow relations in those structures. It conforms to `P_procedural`; it is not a method description because its EntityOfConcern is the plant. No safety-bearing claim or named reliance is present in this case, so no safety-analysis, A.10, or B.3 branch is opened.
-- E3 states exact role assignments, operator systems, automation systems, capabilities, and responsibility structures. It conforms to `P_allocation`; neither E3 nor `P_allocation` performs work or assigns a role.
+- E3 states exact admitted Systems, local system-role kinds, obtaining assignments, capabilities, transformations, and separately governed responsibility structures. It conforms to `P_allocation`; neither E3 nor `P_allocation` classifies or assigns a System, establishes responsibility, or performs Work.
 - E4 states constituent equipment holons, dependency structure, pipes, interfaces, substitutability, and change policy. It conforms to `P_module`; the diagram rendering E4 is published in remains separate.
 
 The four conformance occurrences make E1-E4 views. Their shared holon and common local declaration do not establish any cross-view realization or consistency relation. Those claims are tested separately.
@@ -60,7 +60,7 @@ Suppose a second claim says that restarting H after the same jam is safe for an 
 
 #### E.17.2:5.3 - Responsibility diagram and actual assignment
 
-A responsibility diagram episteme E concerns exact system H. Exact local reference `r_allocation : U.ViewpointRef` resolves exact `P_allocation`; `EpistemeViewpointConformanceRelation(E,P_allocation)` obtains. One box names `MaintainerRole@Plant`. This mention does not establish that system S holds the role. Exact `U.RoleAssignment` occurrence RA must be recovered under A.2.1; E can then assert or describe RA without becoming RA.
+A responsibility diagram episteme E concerns exact System H. Exact local reference `r_allocation : U.ViewpointRef` resolves exact `P_allocation`; `EpistemeViewpointConformanceRelation(E,P_allocation)` obtains. One box names `MaintainerSystemRole@Plant`. This mention establishes neither a C.3.2 classification judgment nor an assignment. If the current claim says admitted System S holds the assignment, recover exact `RA : MaintenanceWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with S in `HolderSystemSlot` and declaration-local assigned-kind domain `MaintainerSystemRole@Plant`; E can assert or describe RA without becoming RA. Any responsibility of S remains a separately governed direct claim.
 
 #### E.17.2:5.4 - One view, two publications
 

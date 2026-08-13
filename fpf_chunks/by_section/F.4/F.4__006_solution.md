@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:4 — Solution"
-line_start: 91084
-line_end: 91154
+line_start: 91796
+line_end: 91866
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,94 +22,97 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:4 - Solution
 
-Constitute one role-description episteme through `C.2.1`: its exact ClaimGraph describes one `U.Role`, that role is the EntityOfConcern, and one effective `U.ReferenceScheme` governs interpretation. The ClaimGraph names the exact role-taxonomy episteme that supplies the role vocabulary. The description gives readers enough to recognize and check the role while routing neighboring claims to their direct patterns.
+Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. The ClaimGraph names the bounded context, continuing contribution identity, current `KindSignature` edition, and effective `U.ReferenceScheme`. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
 
-The following is a content checklist, not a relation signature or a mandatory record:
+The following is a content checklist, not a relation signature or mandatory record.
 
 **Always make recoverable:**
 
-- the described `U.Role`;
-- the role-taxonomy episteme and effective reference scheme;
+- the described local system-role kind;
+- its bounded context and continuing contribution identity;
+- the current `KindSignature` edition and effective reference scheme;
 - a short recognition explanation;
-- the independently admitted `U.System` holder kind and, when needed, a reference to its separately governed admission claim;
-- the smallest role-invariant set needed by the current use;
-- the non-role boundary: what this description does not assert about assignment, capability, method, work, evidence, status, permission, publication, or relation slots.
+- the full A.1 range of possible candidate systems, using examples only when helpful;
+- the smallest direct-feature criteria or invariants needed by the current use; and
+- the explicit boundary: the description asserts no classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation-position occurrence.
 
 **Add only when the current use depends on them:**
 
-- role-state predicate references under `A.2.5`;
-- capability-condition references under `A.2.2`;
-- method or method-description references under `A.3.1`, `A.3.2`, or `A.15`;
-- durable-name or alias references under `F.18`;
-- bridge references under `F.9`;
-- a selected `BoundedModelUseStructure` designated by the receiving assertion or use when it changes that interpretation.
+- a `SystemRoleAssignmentStatePredicate` or state-relation reference under A.2.5;
+- capability-condition references under A.2.2;
+- Method or MethodDescription references under A.3 and A.15;
+- durable-name or lineage references under F.18;
+- C.3.3 or F.9 Bridge references; and
+- a selected `BoundedModelUseStructure` only when that structure changes the described interpretation or receiving use.
 
-These are claims and neighboring references in an episteme. They are not `SlotSpec` declarations and do not add participants to `U.RoleAssignment` or another generic role relation. A card, table row, method appendix, or pattern section may publish the description; publication form and carrier remain separate from the episteme.
+These are claims or references in an episteme. They are not `SlotSpec` declarations and add no participant to `U.SystemRoleAssignment` or another relation. A card, table row, Method appendix, or pattern section may publish the description; the publication form and carrier remain separate from the episteme.
 
 #### F.4:4.1 - Content Meanings
 
 | Content element | Meaning |
 | --- | --- |
-| Described role | The exact `U.Role` that is the episteme's EntityOfConcern. |
-| Role taxonomy and effective scheme | The exact episteme and by-value interpretation scheme under which the role vocabulary is read. |
-| Eligible holder kind | Which independently admitted `U.System` kind may participate as holder in `U.RoleAssignment`; the description itself admits nobody and creates no assignment. |
-| Recognition explanation | The first-minute explanation that lets a reader distinguish this role from neighboring roles. |
-| Role invariants | Conditions about the role value that remain current under the named taxonomy and scheme. |
-| Conditional neighboring references | Direct exits for role state, capability, method, naming, and bridges only when the receiving use depends on them. |
-| Non-role boundary | The explicit separation from assignment, work, evidence, status, permission, publication, and relation-slot claims. |
+| Described system-role kind | The exact local `U.Kind` that is the episteme's EntityOfConcern. |
+| Bounded identity | The context and continuing contribution identity that distinguish this kind from same-spelled kinds elsewhere. |
+| Kind criterion | The exact current `KindSignature` edition used to judge candidates directly. |
+| Effective scheme | The by-value interpretation scheme used for the description's vocabulary; it is not a kind-identity authority. |
+| Recognition explanation | A first-minute explanation that distinguishes this kind from neighboring kinds and objects. |
+| Candidate-system range | Candidates must first be admitted as `U.System`; people, teams, organizations, and non-human technical objects are possible examples, not four subkinds declared here. |
+| Conditional neighboring references | Direct exits for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
+| Non-inference boundary | Explicit separation from classification, assignment, Work, evidence, status, permission, responsibility, publication, and relation-position claims. |
 
-A quick local description can stop after the always-recoverable content. A consequence-bearing work-admission use opens only the neighboring relations it actually needs.
+A quick local description may stop after the always-recoverable content. A consequence-bearing Work-admission use opens only the neighboring relations it actually needs.
 
-#### F.4:4.2 - Role Description vs Neighboring Values
+#### F.4:4.2 - Description versus Neighboring Values
 
-Keep these distinctions:
-
-| Current claim | Governing pattern |
+| Current question | Direct locus |
 | --- | --- |
-| What role value is this? | `A.2` |
-| Which admitted system holds the role, and during which assignment occurrence? | `A.2.1` |
-| Is the assignment in an admitted role state? | `A.2.5` |
-| Can the holder do the relevant work? | `A.2.2` |
-| Which method, method description, plan, or work occurrence is current? | `A.15`, `A.15.1`, `A.15.2`, `A.3.1`, `A.3.2` |
-| How do role values satisfy admission conditions, conflict, qualify, or bundle under one interpreted taxonomy and scheme? | `A.2.7` |
-| What durable name should this role have? | `F.18` |
-| How do role meanings compare across taxonomies or schemes? | `F.9` |
-| How is an episteme used as evidence, source, standard, requirement, status bearer, publication, or assurance input? | Direct episteme-use, evidence-use, status-use, source-use, publication-use, requirement-use, or assurance pattern |
-| Which relation position admits which filler kind? | `A.6.5` |
+| What local system-role kind is this, and does a candidate satisfy it? | A.2 with C.3 and C.3.2 |
+| Which admitted system is assigned to it, and for which uninterrupted occurrence? | A.2.1 |
+| Does this assignment satisfy this state condition during the required window? | A.2.5 |
+| Can the system do the relevant Work? | A.2.2 |
+| Which Method, MethodDescription, WorkPlan, or Work occurrence is current? | A.3, A.15, A.15.1, and A.15.2 |
+| Which substitution, incompatibility, qualification, bundle, or other relation among kinds obtains? | A.2.7 |
+| What durable name should the kind or description have? | F.18 and F.5 |
+| How do two local kinds or senses compare across contexts? | C.3.3 and F.9 |
+| How is an episteme used in evidence, source, requirement, status, publication, or assurance claims? | The exact direct relation |
+| Which relation position admits which filler kind? | A.6.5 and A.6.RSIR |
 
-F.4 may point to these patterns; it does not copy their ontology.
+F.4 points to these loci; it does not copy their ontology.
 
 #### F.4:4.3 - Positive Construction Rule
 
-Write a role description in this order:
+Write a description in this order:
 
-1. Name the described `U.Role`, its role-taxonomy episteme, and effective reference scheme.
-2. State the independently admitted holder kind eligible for role assignment.
-3. Give one short recognition paragraph.
-4. List the role invariants that make the role different from neighboring roles.
-5. State the non-role boundary: what this description does not say about assignment, capability, method, work, evidence, status, permission, publication, or slot positions.
-6. Add neighboring references only when the current use depends on them.
-7. If the name is durable, public, or Core-facing, settle it through `F.18`; if role meanings must be compared across taxonomies or schemes, use `F.9`.
+1. Name the described local system-role kind, bounded context, and continuing contribution identity.
+2. Name the current `KindSignature` edition and effective reference scheme.
+3. Give one short recognition paragraph, including the broad A.1 system range when a cold reader could narrow it incorrectly.
+4. State the smallest direct criteria or invariants that distinguish the kind.
+5. State what the description does not assert about classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation positions.
+6. Add neighboring references only when the receiving use depends on them.
+7. Use F.18 for a durable public name. Use C.3.3 and F.9 only when an actual cross-context correspondence question is current.
 

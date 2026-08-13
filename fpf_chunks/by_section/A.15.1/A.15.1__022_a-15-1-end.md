@@ -6,12 +6,12 @@ section_id: "A.15.1:End"
 section_title: "A.15.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__022_a-15-1-end.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:End — A.15.1:End"
-line_start: 24968
-line_end: 24969
+line_start: 25166
+line_end: 25167
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,17 +42,16 @@ dependencies:
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.Role"
-  - "U.RoleAssignment"
   - "U.System"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "actual performer U.System"
   - "admitted U.Work kind"
-  - "containing system"
-  - "covering U.RoleAssignment"
-  - "enacted method"
+  - "containing System"
+  - "covering U.SystemRoleAssignment"
+  - "enacted Method"
   - "optional direct bindings and resource use"
   - "performedUnderAssignment"
   - "separate result or consequence"

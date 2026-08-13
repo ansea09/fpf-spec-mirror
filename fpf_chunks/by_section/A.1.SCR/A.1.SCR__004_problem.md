@@ -6,12 +6,12 @@ section_id: "A.1.SCR:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:2 — Problem"
-line_start: 2301
-line_end: 2310
+line_start: 2314
+line_end: 2323
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -28,7 +28,7 @@ keywords:
 Without this conditional route, practitioners commonly:
 
 1. classify every unusual noun before asking what the decision needs;
-2. treat wording, physical embodiment, a role, or a record as proof of systemhood;
+2. treat wording, physical embodiment, a system-role label or assignment, or a record as proof of systemhood;
 3. stop at a list of PatternIDs without naming the actor or change bearer;
 4. infer designation as the project system-of-interest from recognition or from being affected by Work;
 5. reject a system reading without naming the actual Work, Method, capability, structure, episteme, or relation that remains useful.

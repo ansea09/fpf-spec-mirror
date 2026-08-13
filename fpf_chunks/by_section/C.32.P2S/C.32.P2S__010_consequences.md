@@ -6,12 +6,12 @@ section_id: "C.32.P2S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:9 — Consequences"
-line_start: 64900
-line_end: 64909
+line_start: 65210
+line_end: 65219
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -49,11 +49,11 @@ keywords:
 
 ### C.32.P2S:9 - Consequences
 
-The project gains one replayable architecturing flow from pressure to actual-structure feedback. Practitioners can see where the Work currently stands and which exact assertion is next, with its subject pattern as a locator, without treating descriptions, decisions, eval results, Work occurrences, or separate records about them as interchangeable.
+The project gains one replayable architecturing flow from pressure to actual-structure feedback. Practitioners can see where the Work currently stands and which assertion is next, with the relevant pattern as a locator, without treating descriptions, decisions, eval results, Work occurrences, or separate records about them as interchangeable.
 
-The cost is disciplined record work: the card preserves structural uncertainty, candidate plurality, accepted losses, handoffs, and stronger-structure inspection return. If that cost is not justified because the question is already governed by one narrower pattern, use that pattern directly and do not open P2S.
+The cost is disciplined record work: the card preserves structural uncertainty, candidate plurality, accepted losses, handoffs, and stronger-structure inspection return. If one narrower pattern already answers the question, use it directly and do not open P2S.
 
-The pattern improves cross-holon and adjacent-governed-structure reuse. Distinct project-local P2S architecturing transformation flows may use the same P2S method and Plain action sequence for admitted holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases; sharing that guidance does not give those flows one cross-holon identity or turn the displayed list into performed-work order. When architecture pressure concerns roles, methods, practices, cultures, traditions, or styles, the described holon and bounded context are named separately, while role values, role relation structures, method values, method relation structures, method descriptions, work claims, canon or memory epistemes, recognition and selection regimes, and mediation-system claims stay with their subject patterns.
+The pattern improves cross-holon and adjacent-structure reuse. Practitioners may apply the same P2S method and Plain action sequence to different project-local flows for holons such as systems, built assets, product families, organizations-as-systems, epistemes, AI-agent setups, disciplines, and C.36-recovered cultural-evolution cases. Sharing that guidance does not give the flows one cross-holon identity or turn the examples into performed-work order. When architecture pressure concerns source wording such as roles, methods, practices, cultures, traditions, or styles, name the described holon and locality separately. Keep each recovered local kind, classification judgment, assignment, direct-relation or representation position, Method, Method relation structure, MethodDescription, Work claim, canon or memory episteme, recognition or selection regime, and mediation-system claim with the pattern for that claim.
 
-The pattern does not guarantee adequacy. It makes the architecturing flow inspectable. Candidate quality, decision adequacy, evidence, assurance, gate passage, release, measurement validity, and `G.11` currentness refresh still require their subject patterns.
+The pattern does not guarantee adequacy. It makes the architecturing flow inspectable. For candidate quality, decision adequacy, evidence, assurance, gate passage, release, measurement validity, and `G.11` currentness refresh, use the relevant patterns.
 

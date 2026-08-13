@@ -6,12 +6,12 @@ section_id: "E.24.PUB:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__012_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:10 — Rationale"
-line_start: 89256
-line_end: 89261
+line_start: 89962
+line_end: 89967
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -38,5 +37,5 @@ keywords:
 
 Publication does not change an episteme into a nested publication object. It is a real availability relation supported by an expression relation and a bearing relation. That architecture explains why one encountered card, diagram, or file can matter in several ways without admitting one umbrella presentation kind.
 
-The split also preserves agency. A system can perform work that renders, uploads, prints, indexes, withdraws, or replaces a carrier. The resulting publication relation may then obtain for a long interval with no continuing publication work. Conversely, publication work can fail while no publication occurrence begins. Treating enduring availability separately from the work that establishes it makes both claims inspectable.
+The split also preserves agency. A System can render, upload, print, index, withdraw, or replace a carrier. Those are ordinary activities until an account admits one dated occurrence as `U.Work`; then the A.15.1 and F.6 account in section 4.1 applies. The resulting publication relation may obtain for a long interval with no continuing publication Work, and publication Work can fail while no publication occurrence begins. Separating enduring availability from the Work that establishes it makes both claims inspectable.
 

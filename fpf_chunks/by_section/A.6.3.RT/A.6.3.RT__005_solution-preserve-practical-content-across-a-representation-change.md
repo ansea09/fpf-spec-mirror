@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:4"
 section_title: "Solution — preserve practical content across a representation change"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__005_solution-preserve-practical-content-across-a-representation-change.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:4 — Solution — preserve practical content across a representation change"
-line_start: 14411
-line_end: 14593
+line_start: 14635
+line_end: 14817
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -108,7 +108,7 @@ The six SlotSpecs and direction are the exact `RelationSignature`. `X` and `Y` h
 A positive occurrence obtains only when all of the following hold together:
 
 1. all six participants resolve exactly, and the `BoundedModelUseStructure` was independently selected because its model-use organization changes this transition use;
-2. one system under an exact role assignment performs exact dated representation-transformation Work whose governed inputs, result, references, or A.6.1 bindings use all six participant values;
+2. one system under an exact system-role assignment performs exact dated representation-transformation Work whose governed inputs, result, references, or A.6.1 bindings use all six participant values;
 3. exact `v : X -> Y` states claim construction, endpoint-scheme relation, same EntityOfConcern, preservation, loss or recoverability, prohibited strengthening, applicability, use, and return; and
 4. every depended-on correspondence is an exact separately governed relation or claim.
 

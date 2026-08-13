@@ -6,12 +6,12 @@ section_id: "B.1.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:3 — Forces"
-line_start: 35771
-line_end: 35781
+line_start: 35973
+line_end: 35983
 dependencies:
   - "A.1"
   - "A.10"
@@ -47,5 +47,5 @@ keywords:
 | Component structure vs functional structure | Physical or organizational bearers may realize several functions, and one function may require several bearers. |
 | Conservative roll-up vs redundancy | Weakest-link and conservation checks are useful, but redundancy or substitution may require B.2 whole reidentification. |
 | Description vs in-life system | Diagrams, BIM models, digital twins, and dashboards describe systems; they are not the system by appearance. |
-| Coordination vs ownership | One decision may need many direct facts, but the coordinating pattern must not become their universal relation owner. |
+| Coordination vs ownership | One decision may need many direct facts, but the coordinating pattern must not become the source of all those relations. |
 

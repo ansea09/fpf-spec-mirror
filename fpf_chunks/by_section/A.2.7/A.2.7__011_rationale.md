@@ -1,35 +1,40 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+pattern_title: "SystemRoleKindRelationStructure - Relations among System-Role Kinds"
 section_id: "A.2.7:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:9 — Rationale"
-line_start: 6120
-line_end: 6127
+line_start: 6340
+line_end: 6347
 dependencies:
-  - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.2.5"
+  - "A.22"
+  - "A.6.REL"
+  - "C.3"
+  - "C.3.1"
+  - "E.10.ROLE"
 keywords:
-  - "bundles (⊗)"
-  - "incompatibility (⊥)"
-  - "requiredRoles substitution"
-  - "role algebra"
-  - "separation of duties (SoD)"
-  - "specialization (≤)"
+  - "U.SubkindOf"
+  - "incompatibility"
+  - "joint assignment requirement"
+  - "relations among system-role kinds"
+  - "selected structure"
+  - "substitution"
 ---
 
 ### A.2.7:9 - Rationale
 
-Role relation structure is useful because systems applying receiving methods often need stable organization among role values before they evaluate actual assignments. Keeping the organization as dependent `U.Structure` preserves its engineering use without inventing a role holon, a second role taxonomy, or a universal context object.
+Systems applying receiving Methods often need stable organization among system-role kinds before they inspect actual assignments. Keeping that organization as a dependent `U.Structure` preserves its engineering use without inventing a system-role holon, assignment configuration, second taxonomy, or universal context object.
 
-The four relation species are separate because they answer different questions and have different laws. Substitution is directional. Incompatibility is symmetric under one exact joint condition. Qualification narrows interpreted meaning without licensing admission. A bundle names joint admission and holder allocation without creating a composite role value. A generic role hierarchy cannot preserve these distinctions.
+The families are separate because their laws differ. Substitution is directional. Incompatibility is symmetric under one joint condition. A bundle uses an order-insensitive finite set and an allocation rule. Monotonic qualification belongs to `U.SubkindOf`; non-monotonic restriction stays residual. One generic hierarchy cannot preserve those distinctions.
 
-Relation realism keeps the ontology from becoming a document model. Constructive discipline keeps admission explicit: FPF recognizes the relation through its direct predicate, typed participants, interpretation, and occurrence identity; it does not infer existence from a label or record. Slot discipline then makes each local position reviewable without calling it a role or a place.
+Relation realism prevents a document model from becoming the ontology. Direct predicates determine obtaining, and identity laws determine whether the same world-side relation occurrence continues; assertions, policies, and diagrams describe those facts. Slot discipline makes context-local participant domains reviewable without calling a system-role kind, holder, assignment, predicate, slot, or representation position the same object.
 

@@ -6,12 +6,12 @@ section_id: "E.24:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:3 — Forces"
-line_start: 88083
-line_end: 88092
+line_start: 88779
+line_end: 88788
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -44,9 +44,9 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Ontic stability vs bounded local explanation | A durable FPF ontic needs stable identity plus named direct relation kinds and their governing rules; a bounded local episteme keeps its C.2.1 identity and needs only the claims and references required for one application family. |
+| Ontic stability vs bounded local explanation | A durable FPF ontic needs stable identity plus named direct relation kinds and their exact defining or constraining `ClaimGraph` sources; a bounded local episteme keeps its C.2.1 identity and needs only the claims and references required for one use family. |
 | Reuse vs overgrowth | Dependent patterns may need one stable direct relation and a reusable declaration; premature `U.*` growth creates another ontology. |
-| Ontology governance vs pattern placement | The primary governed subject kind, exact identity or constitution rule, minimal governed relation set, and their governing patterns determine the ontic-introduction decision; a pattern nest is only publication and specialization placement under E.8. |
-| Draft citeability vs current governance | Draft ToC rows can guide investigation, and an accepted DRR can carry the authoring decision, but only current governing-pattern text carries governing meaning for current FPF use. |
+| Ontology rule content vs pattern placement | The primary subject kind, exact identity or constitution rule, minimal relation set, exact subject assertions, and their defining or constraining `ClaimGraph` sources determine the ontic-introduction decision; a pattern nest is only publication and specialization placement under E.8. |
+| Draft citeability vs current rule content | Draft ToC rows can guide investigation, and an accepted DRR can carry the authoring decision, but current exact rule content for FPF use resides in the defining or constraining `ClaimGraph`; a pattern id only locates it. |
 | Naming vs ontology | F.18 can improve a name, but naming cannot decide identity, direct relations, declarations, species, or the reliance basis of dependent patterns. |
 

@@ -6,12 +6,12 @@ section_id: "A.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:0 — Use This When"
-line_start: 1481
-line_end: 1514
+line_start: 1494
+line_end: 1527
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -52,11 +52,11 @@ Typical moments:
 
 **First useful move.** Name the exact `U.Entity` under concern. Then test whether its actual construction satisfies the A.1 holon-recognition criterion under an already admitted public holon kind. `E.24.UK` admits the public kind once at ontology level; A.1 does not repeat that decision for each candidate.
 
-When the next engineering decision depends on which exact system acts, is intended to change, carries a capability, persists, or is being considered or designated as the project system-of-interest, use `A.1.SCR` to find that proposed subject. A.1.SCR first permits a direct-owner exit; it applies this complete criterion only while the decision still depends on systemhood. After recognition, use `A.1.STM` only when the remaining problem is loss of the long dependency from project use through architecture, Work, change, and recursive builders; otherwise continue directly to the owner of the next claim.
+When the next engineering decision depends on which exact system acts, is intended to change, carries a capability, persists, or is being considered or designated as the project system-of-interest, use `A.1.SCR` to find that proposed subject. A.1.SCR first permits a subject-pattern exit; it applies this complete criterion only while the decision still depends on systemhood. After recognition, use `A.1.STM` only when the remaining problem is loss of the long dependency from project use through architecture, Work, change, and recursive builders; otherwise continue directly to the pattern that defines the next claim.
 
 **What goes wrong if missed.** A document edits itself, a theory gets ports, a list becomes an organization, a lathe that changes a workpiece is treated as its containing whole without an obtaining part-whole relation, and architecture is discussed without naming the holon whose structure is selected.
 
-**What this buys.** FPF gets one compact part-whole foundation without turning every whole into a physical system: identity starts at `U.Entity`; part-whole treatment starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme`; method holonhood is governed by `U.Method`; other admitted holon kinds keep their own governing patterns.
+**What this buys.** FPF gets one compact part-whole foundation without turning every whole into a physical system: identity starts at `U.Entity`; part-whole treatment starts at `U.Holon`; acting work attaches to `U.System`; claim-bearing knowledge is carried by `U.Episteme`; method holonhood is governed by `U.Method`; other admitted holon kinds keep their own subject patterns.
 
 **Not this pattern when.**
 
@@ -66,5 +66,5 @@ When the next engineering decision depends on which exact system acts, is intend
 - If the current question is constructive part-whole grounding, use `C.13`; use `B.3.5` for Working-Model assurance grounding.
 - If the current question is selected structure over a holon, use `A.22`.
 - If the current question is architecture of a holon, use `C.30`.
-- If the current question is transformation, method, role, work, capability, or functioning, use the direct governing pattern before relying on A.1.
+- If the current question is transformation, method, system-role kind or assignment, work, capability, or functioning, use the subject pattern before relying on A.1.
 

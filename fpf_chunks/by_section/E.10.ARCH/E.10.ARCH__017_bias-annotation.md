@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:9.2"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__017_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:9.2 — Bias-Annotation"
-line_start: 76111
-line_end: 76114
+line_start: 76587
+line_end: 76590
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,5 +66,5 @@ keywords:
 
 ### E.10.ARCH:9.2 - Bias-Annotation
 
-This pattern blocks semio-bias in two directions. It prevents subject patterns from becoming patterns about descriptions, records, and wording guards. It also prevents word-replacement bias by requiring recovery of the ontological neighborhood, direct governing pattern, and admissible reader use before a new term is selected.
+This pattern blocks semio-bias in two directions. It prevents subject patterns from becoming patterns about descriptions, records, and wording guards. It also prevents word-replacement bias by requiring recovery of the ontological neighborhood, subject pattern, and admissible reader use before a new term is selected.
 

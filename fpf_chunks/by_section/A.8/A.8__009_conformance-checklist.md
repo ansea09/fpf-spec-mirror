@@ -6,12 +6,12 @@ section_id: "A.8:4"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4 — Conformance Checklist"
-line_start: 22546
-line_end: 22556
+line_start: 22799
+line_end: 22809
 dependencies:
   - "A.11"
   - "C.3"
@@ -35,5 +35,5 @@ keywords:
 | `CC-A8-3` | At least three domain-family projections are recorded. |
 | `CC-A8-4` | Each projection states the same abstract contribution in that domain. |
 | `CC-A8-5` | Differences and losses are explicit; same-word evidence alone is insufficient. |
-| `CC-A8-6` | A failed A.8 test lowers the candidate to local use, dependent value, Concept-Set row, C.3 `U.Kind`, or direct governing pattern rather than preserving a universal U-kind by name. |
+| `CC-A8-6` | A failed A.8 test lowers the candidate to local use, dependent value, Concept-Set row, C.3 `U.Kind`, or subject pattern rather than preserving a universal U-kind by name. |
 

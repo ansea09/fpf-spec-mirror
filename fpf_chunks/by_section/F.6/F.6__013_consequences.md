@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__013_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:11 — Consequences"
-line_start: 91878
-line_end: 91885
+line_start: 92642
+line_end: 92649
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,32 +22,31 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:11 - Consequences
 
-**Benefits.** Assignment and performed work remain independently identifiable, while attribution becomes a direct relation that can be cited, compared, supported, corrected, or left unresolved. The pattern works for people, organizations, machines, and software systems because the holder is always an admitted `U.System`, not a domain-specific performer category.
+**Benefits.** Assignment and Work remain independently identifiable, while attribution becomes a direct relation that can be cited, supported, corrected, or left unresolved. People, teams, organizations, machines, services, and software systems use the same pattern because every assignment occurrence exposes its admitted holder through the species-declared holder slot.
 
-**Costs.** Reliance-bearing use must recover the exact assignment episode rather than stopping at a familiar role label. A compact source sentence may split into an assignment assertion, a work occurrence, the direct attribution relation, an exact change or production claim, an operation-result binding or result episteme, and any evidence relation current for the use.
+**Costs.** Reliance-bearing use must recover both the assignment occurrence and its declared species rather than stop at a familiar label. A compact sentence can split into assignment assertion, Work occurrence, attribution, Method enactment, change or production claim, result episteme, and evidence relation when the receiving use needs them.
 
-**Limits.** F.6 does not determine capability, readiness, method validity, work success, result acceptance, authorization, or evidence sufficiency. It only governs the relation by which one performed work occurrence is attributed to one role assignment.
+**Limits.** F.6 determines neither classification, capability, readiness, Method validity, Work success, result acceptance, permission, authorization, responsibility, access, nor evidence sufficiency. It governs only attribution of one Work occurrence through one assignment occurrence.
 

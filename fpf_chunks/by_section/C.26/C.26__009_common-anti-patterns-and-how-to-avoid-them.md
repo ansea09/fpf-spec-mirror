@@ -6,12 +6,12 @@ section_id: "C.26:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 53916
-line_end: 53982
+line_start: 54184
+line_end: 54250
 dependencies:
   - "A.10"
   - "A.15"
@@ -61,7 +61,7 @@ keywords:
 | Faithful-copy export | A survey, report, API response, or context map is treated as the live state itself. | Use bridge/export loss, `C.26.2`, or ordinary publication patterns. |
 | Speed or compression slogan | A shortcut is called fast, cheaper, linear, low-bit, symbolic, or compressed without a declared claim. | Write the speed, compression, or linearity claim declaration: baseline representation and cost, changed representation, mechanism, claimed gain, loss budget or error budget, ordinary alternatives, evidence source or formal source, and reopen trigger. Keep the coarsening card only for the representation shortcut itself. |
 | Hidden search problem | The option menu is frame-bound, but the text tries to solve it by naming QL. | Use QL only as a suspicion cue; apply search patterns to generation and regime movement. |
-| Cell-like service jump | A service or access bearer is called cell-like because it has a boundary or internal state. | Use `A.6.P:4.11a` to recover only the boundary, controlled-exchange, state, viability, behavior, coupling, resource, invariant, repair, or continuity claim the current decision needs, then use that claim's direct owner. Do not assemble the possibilities as one service bundle. Retain the analogy only for a residual QL issue that changes the decision. |
+| Cell-like service jump | A service or access bearer is called cell-like because it has a boundary or internal state. | Use `A.6.P:4.11a` to recover only the boundary, controlled-exchange, state, viability, behavior, coupling, resource, invariant, repair, or continuity claim the current decision needs, then use that claim's subject pattern. Do not assemble the possibilities as one service bundle. Retain the analogy only for a residual QL issue that changes the decision. |
 
 Near-miss taxonomy:
 
@@ -72,7 +72,7 @@ Near-miss taxonomy:
 | Uncertainty | Ordinary epistemic uncertainty unless an exact probe/model frame, comparison frame, or effective reference scheme changes variable identity or comparison law and one named contextual-model obstruction remains. |
 | Complexity | Ordinary complexity unless shortcut, export, or probe issue remains. |
 | Compression | `A.6.3.CSC`, `A.6.3.RT`, modeling, or implementation pattern first; QL only for state-representation residue. |
-| DDD bounded-context cue | Direct boundary, local-sense, work, and model-use owners first; the label does not identify a universal object or activate QL. Retain C.26 only when a named probe, order, comparison, or export obstruction changes the admissible inference. |
+| DDD bounded-context cue | Direct boundary, local-sense, work, and model-use subject patterns first; the label does not identify a universal object or activate QL. Retain C.26 only when a named probe, order, comparison, or export obstruction changes the admissible inference. |
 | Low-bit or quantized implementation | Engineering representation first; not QL because it is "quantized". |
 | Collective behavior | `A.15`, distributed cognition, routines, and evidence patterns first; QL only for low-recoverability state-reading residue. |
 

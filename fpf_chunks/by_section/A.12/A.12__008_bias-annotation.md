@@ -6,12 +6,12 @@ section_id: "A.12:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:5.1 — Bias-Annotation"
-line_start: 23443
-line_end: 23451
+line_start: 23696
+line_end: 23704
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -38,8 +38,8 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Self-action convenience | "The system changed itself" hides the acting side and exact continuing changed subject. | Recover that changed subject under its direct identity owner and the exact acting-side entity, then state each direct relation used by the claim. |
-| Episteme agency | A document, model, report, or source record is treated as acting. | Recover the exact acting entity first; only after A.1 recognition name that same entity under `U.System`, and add a role assignment only when the work-facing claim is current. Use episteme or publication owners for the changed object. |
-| Containing-whole inference from interaction | A system that changes another holon is treated as that holon's containing whole. | Use boundary-crossing, transformation, work, evidence, or part-whole owners according to the exact current relation. |
-| Self-evidence shortcut | The acting system's output is treated as sufficient evidence by default. | Return evidence and assurance claims to `A.10` or the direct owner. |
+| Self-action convenience | "The system changed itself" hides the acting side and exact continuing changed subject. | Recover that changed subject under its direct identity pattern and the exact acting-side entity, then state each direct relation used by the claim. |
+| Episteme agency | A document, model, report, or source record is treated as acting. | Recover the exact acting entity first; only after A.1 recognition name that same entity under `U.System`. When admitted Work is current, point to its complete A.15.1/F.6 basis. Use episteme or publication patterns for the changed object. |
+| Containing-whole inference from interaction | A system that changes another holon is treated as that holon's containing whole. | Use boundary-crossing, transformation, work, evidence, or part-whole patterns according to the exact current relation. |
+| Self-evidence shortcut | The acting system's output is treated as sufficient evidence by default. | Use `A.10 for evidence and assurance claims` or the subject pattern. |
 

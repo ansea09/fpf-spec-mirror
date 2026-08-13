@@ -6,12 +6,12 @@ section_id: "A.2.3:10.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__016_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:10.2 — Rationale"
-line_start: 4110
-line_end: 4115
+line_start: 4285
+line_end: 4290
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,8 +40,7 @@ dependencies:
   - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -49,16 +48,17 @@ keywords:
   - "SLA"
   - "SLO"
   - "Work evidence"
-  - "acceptanceSpec"
-  - "accessSpec"
-  - "claim scope (G)"
+  - "acceptance specification"
+  - "access specification"
+  - "claim scope"
   - "promise content"
-  - "provider/consumer roles"
+  - "promised outcome"
+  - "provider and consumer system-role kinds"
 ---
 
 ### A.2.3:10.2 - Rationale
 
 Everyday "service" language is useful because one label can denote promise content, provider systems, access points, commitments, methods, work occurrences, and evidence epistemes. When those claims guide evaluation or work, FPF distinguishes the referents and states their direct relations. `U.PromiseContent` gives the promised-outcome side one stable episteme, A.6.P:4.11a recovers the referent intended by the service wording, and each named direct relation remains governed by its direct pattern.
 
-The pattern keeps promise content in the episteme family because it is a clause or description whose outcome and acceptance predicates state conditions on delivery work, affected referents, and post-work states. A fulfilment assertion and the evidence relations supporting it remain distinct from those referents and from the world-side relations whose obtaining the assertion describes. The episteme never becomes an obligation: the referents position of an A.2.8 commitment relation may contain it, an A.2.9 speech-act occurrence may communicate or institute that commitment, and A.6.C may unpack contract or SLA wording carried by a publication, while gate and policy relations remain separate.
+The pattern keeps promise content in the episteme family because it is a clause or description whose outcome and acceptance predicates state conditions on delivery work, affected referents, and post-work states. A fulfilment assertion and the evidence relations supporting it remain distinct from those referents and from the world-side relations whose obtaining the assertion describes. The episteme never becomes an obligation: the referents position of an A.2.8 commitment relation may contain it, an A.2.9 speech-act occurrence may communicate or institute that commitment, and A.6.C may unpack agreement or SLA wording carried by a publication, while gate and policy relations remain separate.
 

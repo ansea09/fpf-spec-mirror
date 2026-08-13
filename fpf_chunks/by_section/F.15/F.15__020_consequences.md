@@ -6,12 +6,12 @@ section_id: "F.15:15.1"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__020_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15.1 — Consequences"
-line_start: 95429
-line_end: 95436
+line_start: 96213
+line_end: 96220
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,9 +50,9 @@ keywords:
 
 ### F.15:15.1 - Consequences
 
-**Benefits.** F.15 makes interpretation locality, exact naming settlement, Bridge truth, check execution, result identity, and edition continuity visible before reuse. Direct patterns remain owners while the finite slice gains one replayable check surface.
+**Benefits.** F.15 makes interpretation locality, exact naming settlement, Bridge truth, check execution, result identity, and edition continuity visible before reuse. The applicable patterns retain their definitions while the finite slice gains one replayable check surface.
 
 **Costs.** A slice that looks unified by spelling or table shape may remain open until exact object refs, rule applications, result claims, evidence paths, and prior/later continuity claims are recoverable. The harness limits this cost by triggering only relevant rules and reusing unaffected results after contradiction checks.
 
-**Failure avoided.** F.15 prevents row/card/record-shaped notes, alias-only rewrites, Bridge optimism, role/status inflation, evidence collapse, and publication or currentness labels from becoming hidden global meanings or conformance authority.
+**Failure avoided.** F.15 prevents row-, card-, or record-shaped notes, alias-only rewrites, Bridge optimism, system-role and status inflation, evidence collapse, and publication or currentness labels from becoming hidden global meanings or conformance authority.
 

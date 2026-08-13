@@ -6,12 +6,12 @@ section_id: "A.6.P:12b"
 section_title: "C.29 mathematical-lens account and representation boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__014_c-29-mathematical-lens-account-and-representation-boundary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12b — C.29 mathematical-lens account and representation boundary"
-line_start: 16277
-line_end: 16282
+line_start: 16505
+line_end: 16510
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -28,6 +28,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17.0"
   - "E.24.PUB"
   - "F.18"
@@ -37,7 +38,7 @@ keywords:
 
 ### A.6.P:12b - C.29 mathematical-lens account and representation boundary
 
-`C.29` governs a declared mathematical-lens-use account or representation only when a mathematical object, tuple, graph, function, arrow, table, or other formalism is used for a stated subject and purpose. It owns the candidate mathematical object designation, mapping mode, explicit correspondence, preserved structure, lost structure, declared use, blocked overread, and stop condition. It does not assert world-side participation, make a direct relation obtain, admit its kind, or supply occurrence identity.
+Use `C.29` for a declared mathematical-lens-use account or representation only when a mathematical object, tuple, graph, function, arrow, table, or other formalism is used for a stated subject and purpose. It defines the candidate mathematical object designation, mapping mode, explicit correspondence, preserved structure, lost structure, declared use, blocked overread, and stop condition. It does not assert world-side participation, make a direct relation obtain, admit its kind, or supply occurrence identity.
 
 When a sentence claims cross-context meaning, export, correspondence, or substitution, first name what each endpoint means locally and write the Bridge predicate being asserted. That exact predicate and occurrence-identity rule decide whether a Bridge obtains and whether one occurrence continues; `F.9` and `C.2.1` define or constrain the separate Bridge description or Card episteme and its direction, `CL`, loss, and admitted-use claims. A changed Card, evidence item, or publication is not a changed Bridge occurrence. Use `C.29` only when the reader relies on a representation or mathematical-lens account; a representation does not establish the Bridge or the represented world-side relation. If the sentence needs no cross-context correspondence or substitution claim, add no Bridge. If it does need one but no current exact predicate source supplies the predicate or identity rule after the endpoints are named, record the established A.6.RCD `missing-governor` result.
 

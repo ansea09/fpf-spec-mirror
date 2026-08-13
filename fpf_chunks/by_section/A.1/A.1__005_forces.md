@@ -6,12 +6,12 @@ section_id: "A.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:3 — Forces"
-line_start: 1541
-line_end: 1551
+line_start: 1554
+line_end: 1564
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -40,7 +40,7 @@ keywords:
 | --- | --- |
 | Universal root vs domain comfort | Practitioners know words such as system, model, product, team, document, program, and discipline; FPF needs a cross-domain root that does not import one domain's assumptions. |
 | Identity vs composition | A thing can be individuated before FPF knows whether it has parts or belongs to a larger whole. |
-| Acting vs claim-bearing | Systems can perform Work and participate in separately governed role, Method, plan, publication, citation, comparison, or reliance relations. Changed claim content identifies another episteme under C.2.1; an episteme performs none of those acts by itself. |
+| Acting vs claim-bearing | Systems can be classified by exact local system-role kinds, perform Work, and participate in separately governed system-role-assignment, Method-enactment, plan-use, publication, citation, comparison, or reliance relations. Changed claim content identifies another episteme under C.2.1; an episteme performs none of those acts by itself. |
 | Open-world modeling vs premature completion | A holon slot can be relevant even when not yet filled; omission means "not current or not recovered", not absence in the world. |
 | Collection usefulness vs collective agency | Collections can have whole-level characteristics without being acting systems. |
 | Architecture usefulness vs math-lens drift | Graphs, algebras, matrices, and embeddings can describe structures; they do not become the structure or holon by spelling. |

@@ -6,12 +6,12 @@ section_id: "G.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__011_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:4 — Solution"
-line_start: 100361
-line_end: 100882
+line_start: 101605
+line_end: 102131
 dependencies:
   - "C.11"
   - "C.18"
@@ -83,7 +83,7 @@ MethodFamily.causalUseDispatchSpec? {
 
 `CausalUseQuestionRef` is a local reference to the causal-use question governed by the causal, evidence, intervention, or simulation pattern current for the case. It is not admitted here as a durable root U-kind.
 
-`causalMethodUseClassification` is a selector-facing method-use classification, not a `U.Role`, role assignment, responsibility, or actor position. `simulationOnlyMethod` maps to `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis`, bounded simulation-supported use, and unsupported intervention-effect or realized-counterfactual-sample use unless another `C.28` support basis is cited.
+`causalMethodUseClassification` classifies a Method's proposed selector-facing use. It is not a local system-role kind or C.3.2 classification, identifies no `U.SystemRoleAssignment` occurrence, does not designate the System that performs selection Work, and supplies no responsibility or authority relation. `simulationOnlyMethod` maps to `CausalEvidenceSupportBasis = simulationOnlyCounterfactualOutputBasis`, bounded simulation-supported use, and unsupported intervention-effect or realized-counterfactual-sample use unless another `C.28` support basis is cited.
 
 What changes in practice: a selector must not compare "methods that improve outcome" unless each causal method declares the causality-ladder rung, causal method-use classification, and `C.28` support record and verdict when causal-use support is being consumed.
 
@@ -179,7 +179,9 @@ For every `MethodFamilyId` consumed here, dereference the row to its exact A.3.1
 
 When a selector consumes an organization among Methods, cite an exact `SelectedStructureRef` only after A.22 has independently identified the `U.Structure` from exact constituents, exact already-obtaining relation occurrences, applied constraints, and one named use frame. G.5 neither supplies those discriminators nor selects the Structure by listing it. If the organization instead constitutes one composite Method, consume the exact A.3.1 Method only after B.1.5 has qualified that candidate from its independent parts and whole-forming basis.
 
-S3 states reusable selector behavior. It does not itself perform selection. For an actual selector use, identify the admitted `U.System` that performed the dated A.15.1 Work under an exact obtaining assignment, the enacted Method, and the actual A.6.1 `Select` application whose effective argument bindings and `SelectionSlot` binding carry the by-value selected set under A.19.SelectorMechanism. The declaration, planned pins, registry rows, policy and `CandidateSet` type create none of those occurrence-side facts.
+S3 states reusable selector behavior. It does not itself perform selection. For an actual selector use, identify the admitted `U.System` that performed the dated A.15.1 Work, the Work's temporal extent and containing System, the exact Method it enacted, and the actual A.6.1 `Select` application. State the application's effective argument bindings and the A.19 `SelectionSlot` binding that carries the selected set by value. The declaration, planned pins, registry rows, policy, and `CandidateSet` type create none of those occurrence-side facts.
+
+For every actual performer of admitted selector Work, point to the complete A.15.1/F.6 basis. A root-family reference, the same holder, overlapping times, or silence in the receiving text establishes or removes neither the assignment nor the attribution. A compact selector result may omit only an assignment identifier unused by its receiving claim. Ordinary selector discussion not admitted as `U.Work` does not enter this branch.
 
 
 
@@ -246,7 +248,10 @@ Method- and generator-specific pressures such as `QD` archives, open-ended decla
 - A catalyst-search team is choosing among three method families for the same declared `TaskSignature` and `C.22.1` adaptation signature.
 - The shared profile pins one work-measure threshold target, one freshness window, one prior-exposure declaration, and one adaptation budget. One family reaches threshold quickly but carries high downside on adjacent tasks. One family is slower but transfers cleanly. One family never clears `MinimalEvidence` and must abstain.
 - An admissible `G.5` result therefore declares a set-return shortlist or a narrowed handoff plan, with DRR and SCR records citing why the third family was excluded and why the first two remain non-dominated. The selector does not invent one scalar winner and does not hide the specialization profile in auxiliary side notes.
-- If the project also claims that this selection actually occurred, it separately identifies the acting system, dated selection Work, actual `Select` application, effective candidate and criteria bindings, and the `SelectionSlot` binding. A persisted shortlist assertion is a separate C.2.1 episteme; its DRR or SCR references do not by themselves prove the exclusion facts, warrant the result, authorize downstream action, or make that episteme available to an audience.
+- If the project also claims that this selection actually occurred, it identifies admitted `CatalystSelectorSystem-17` as the actual performer of dated `CatalystSelectionWork-17`, the exact `CatalystFamilySelectionMethod`, the Work's temporal extent and containing `CatalystSearchTeamSystem`, and actual application `CatalystSelectApplication-17` with its effective candidate, criteria, and A.19 `SelectionSlot` bindings. The performer and containing System are independently admitted.
+- Because the account asserts actual selector Work, A.2 first admits exact local kind `CatalystMethodSelectorSystemRole`; any judgment classifying `CatalystSelectorSystem-17` under that kind remains separately optional. `CatalystSelectorAssignment` is then declared as a species under `U.SystemRoleAssignment` whose assigned-kind participant uses that local kind.
+- The species declares the holder, assigned-kind, and task-signature participant meanings and the assignment predicate. `CatalystSelectorAssignment-17` is the obtaining occurrence whose actual values are `CatalystSelectorSystem-17`, `CatalystMethodSelectorSystemRole`, and `CatalystTaskSignature-17`; its maximal uninterrupted interval covers the Work. Its holder is the actual performer, and the account separately establishes the F.6 `performedUnderAssignment` relation for `CatalystSelectionWork-17` and that occurrence. A different overlapping assignment held by the same System would not establish this attribution. A short result may omit the assignment identifier only after this source basis remains recoverable.
+- A persisted shortlist assertion is a separate C.2.1 episteme; its DRR or SCR references do not by themselves prove the exclusion facts, warrant the result, authorize downstream action, or make that episteme available to an audience.
 
 - When one upstream `C.19` pass has already narrowed the live pool to one internal retained subset over registered families, `G.5-6 DeclareSetResult` may declare that result as one `Shortlist` with one `ShortlistId` and explicit basis pins only when selector-facing result declaration is now the question. Until that declaration occurs, the internal retained subset is not yet one G.5 shortlist result.
 - When one upstream `C.11` pass has already fixed one local choice over one declared source set, `C.19` has fixed one retained pool treatment, an accepted decision has fixed all-member inclusion, or `C.24` has produced one enactment-facing narrowed handoff, use `G.5-6 DeclareSetResult` when selector-facing set-result content is now the question. Until that declaration occurs, the `ChoiceResult`, `PoolPolicyResult`, accepted inclusion basis, `CallPlan`, or `CheckpointReturn` is not itself that G.5 result. Non-Method members do not pass through `RegisterFamily` or `G.5-3 Select`.
@@ -276,7 +281,7 @@ A `JointUseSet` uses this bounded representation:
 - `ordering`, inclusion conditions, and sufficient top-level `basisPins` remain explicit; and
 - candidate-pool membership and excluded candidates stay separate from emitted joint-use membership.
 
-Exact content, claims, roles, and direct relations keep their own governed records. When one supports the membership result, cite that existing record among `basisPins`; `memberEntries` creates neither the cited content nor a new contribution relation.
+Exact content, claims about a member's use or contribution, and direct relations keep their own governed records. When one supports the membership result, cite that existing record among `basisPins`; `memberEntries` creates neither the cited content nor a new contribution relation.
 
 For framework use, `memberRef` may name an exact already identified edition under its existing identity rules. Do not populate `MethodRef`, create a registry row, or classify that edition as a Method merely to emit the result.
 
@@ -433,7 +438,7 @@ JointUseSet(
     { memberRef = Local@L }
   ],
   ordering = unordered,
-  inclusionConditions = [all_three_roles_required],
+  inclusionConditions = [all_three_editions_required_for_cohort_review],
   basisPins = [choice_result_12, edition_basis_7]
 )
 ```

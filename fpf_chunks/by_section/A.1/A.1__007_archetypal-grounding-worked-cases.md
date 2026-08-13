@@ -6,12 +6,12 @@ section_id: "A.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 1681
-line_end: 1734
+line_start: 1694
+line_end: 1747
 dependencies:
   - "A.1.1"
   - "A.1.STM"
@@ -51,7 +51,7 @@ Those world-side facts make the criterion true whether or not the current projec
 
 If instead an exact coupling, load-envelope, or boundary-interface fact violates a condition of the governed plant-installation method, the candidate fails the criterion even when the drawing and rule-description episteme are current. Governed evaluation returns `false` when that incompatibility is available to it and `unknown` when the needed input is unavailable; neither result changes the world-side failure. Renaming or republishing the cited criterion pattern changes its episteme designation, edition, or currentness, not Pump #37 or the candidate-side facts.
 
-Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation role assignment, has a flow-rate capability envelope, is attributed as performer of inspection work WO-1842, and participates in the water-moving transformation. No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
+Separate direct relations then state that Pump #37 fills the holder-system slot of its cooling-water circulation `U.SystemRoleAssignment`, has a flow-rate capability envelope, is attributed as performer of inspection work WO-1842, and participates in the water-moving transformation. No omnibus participation or candidate-classification relation is added. The pump can have selected structures; its maintenance model may participate in a separately selected `BoundedModelUseStructure`, but that structure neither identifies the pump nor makes it a holon.
 
 #### A.1:5.2 - Scientific Theory As Episteme Holon
 
@@ -66,11 +66,11 @@ Newtonian gravitation in one exact selected edition is first a C.2.1 `U.Episteme
 
 A textbook publication can make this edition available, but the publication form and the episteme that describes the composition method do not create the theory's compatibility or holonhood. Classification work may evaluate the criterion and a separate C.2.1 assertion may state the result; evidence, warrant, edition currentness, receiving reliance, and any B.2 whole-reidentification question remain separately governed.
 
-The theory does not teach itself, revise itself, or authorize laboratory work. A system under an exact role assignment may explain, publish, compare, or use this episteme through separately governed Work and relation occurrences; revision Work yields another episteme, with any edition relation tested separately.
+The theory does not teach itself, revise itself, or authorize laboratory work. A system under an exact `U.SystemRoleAssignment` may explain, publish, compare, or use this episteme through separately governed Work and relation occurrences; the assignment alone establishes none of those acts. Revision Work yields another episteme, with any edition relation tested separately.
 
 #### A.1:5.3 - Fleet As Collection Or Acting Collective
 
-A fleet list is a membership claim. Fleet availability is a whole-level characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and work can be an acting collective `U.System` only after boundary, coordination, role assignments, capability or method evidence, and work-facing participation are recovered.
+A fleet list is a membership claim. Fleet availability is a whole-level characteristic. A fleet-coordination organization that coordinates vehicles, drivers, rules, and work can be an acting collective `U.System` only after boundary, coordination, system-role assignments, capability or method evidence, and work-facing participation are recovered.
 
 If a source says "the fleet responded", recover the actual claim: individual vehicle work, fleet-coordination system work, collection-as-whole characteristic, or B.2 whole reidentification.
 

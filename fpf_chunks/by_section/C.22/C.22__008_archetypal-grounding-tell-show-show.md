@@ -6,12 +6,12 @@ section_id: "C.22:6"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:6 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 51218
-line_end: 51249
+line_start: 51474
+line_end: 51509
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -58,6 +58,10 @@ keywords:
 
 **F. Clinical rehabilitation method-family eligibility.**
 *Problem-side episteme.* `CohortRehabilitationProblemCard-E3 : U.Episteme` is the exact C.22.2 ProblemCard for a rehabilitation service with `Cohort-2026-Q3` and a stated capability-change question under clinical safety constraints.
-*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`, outcome characteristics with their actual scale kinds and follow-up windows, contraindication and resource constraints, current evidence relations, and unknown tolerance or comorbidity values preserved as unknown. C.22 makes the comparison inputs explicit. It does not diagnose a person, recommend treatment, authorize care, prove benefit, or record performed clinical work; those claims remain with their clinical, evidence, gate, role, and work patterns.
+*TaskSignature.* `RehabilitationFamilyComparisonSignature-E1` declares `EntityOfConcernRef=RehabilitationCapabilityChangeTarget-4`, `effectiveReferenceScheme=ClinicalRehabilitation-Scheme-C`, `TaskKind=rehabilitation-method-family comparison`, and `ScopeSlice(G)=Cohort-2026-Q3 in the declared care setting during [2026-08-01T00:00Z, 2026-11-01T00:00Z)`. It also declares outcome characteristics with their scale kinds and follow-up windows, contraindication and resource constraints, applicable evidence relations, and unknown tolerance or comorbidity values preserved as unknown.
+
+C.22 makes the comparison inputs explicit. It does not diagnose a person or recommend treatment; those claims use their clinical patterns. It does not establish evidence or benefit, pass a gate, grant permission to provide care, or establish decision authority. Use the evidence and evaluation patterns, the gate patterns, an obtaining `GrantedPermissionRelation@Context`, or an authority predicate, or return `missing-governor`.
+
+If clinical Work occurs, identify the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution. A local system-role kind, classification, or assignment can remain a neighboring fact, but it establishes none of the permission or authority relations above.
 *Assignment.* `RehabilitationInterventionFamilyComparisonUse-E1 : U.Episteme` states the exact receiving comparison use. `TaskSignatureAssignmentRelation(CohortRehabilitationProblemCard-E3, RehabilitationFamilyComparisonSignature-E1, RehabilitationInterventionFamilyComparisonUse-E1)` has exactly the problem-side episteme, signature, and receiving-use episteme as participants. It obtains only while that receiving use actually adopts that exact signature for that exact card under `ClinicalRehabilitation-Scheme-C`, the declared cohort and care ClaimScope, the qualification window above, and the stated evidence-use conditions. Withdrawal of that adoption or loss of a participant or qualification ends this assignment occurrence; cohort labels, records, carriers, and organizations add no signature field or fourth participant.
 

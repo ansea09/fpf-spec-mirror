@@ -6,12 +6,12 @@ section_id: "E.11.PUA:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:4 — Solution"
-line_start: 77363
-line_end: 77734
+line_start: 78021
+line_end: 78392
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -39,7 +39,7 @@ Use one selected pattern through a short result-oriented procedure. Keep the sub
 
 Start with five ordinary values: the working subject, the practical question, the selected pattern's `Solution`, the first useful result or honest blocker, and the stop or return. For a bounded reversible use, those values are sufficient when the result and boundary are truthful.
 
-An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses that content. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand for that use. Only when the selected `Solution` actually describes a method and that distinction changes the claim, establish its `U.MethodDescription` membership under A.3.2 and identify the admitted `U.Method`. Name a `U.System`, `U.RoleAssignment`, plan, dated `U.Work`, result, or `U.Transformation` only when performer identity, assignment, work occurrence, result production, or transformation is also part of the current claim.
+An FPF pattern supplies action- or judgement-guiding content; a person or another capable system uses it. The ordinary instructions “use this pattern” and “apply this pattern” are harmless shorthand. Only when the selected `Solution` actually describes a Method and that distinction changes the claim, apply A.3.2 and identify the admitted `U.Method`. Name a System, system-role classification, assignment, plan, dated Work, result, or `U.Transformation` only when that object is part of the current claim. Assignment never substitutes for the acting System, Work, authority, or responsibility.
 
 When those identities do matter, keep them separate: the pattern episteme is not the actor or Work; a selected or project-tailored Method is not automatically a WorkPlan; intended work is not performed Work; a result, evidence for it, and a later use are different values. This conditional distinction introduces no universal workflow, causal chain, production relation, TFS, or record requirement.
 
@@ -52,7 +52,7 @@ Before making any pattern-use record, answer aloud: “What exactly do I have no
 1. **Recognize the working situation.** Name the subject or relation in ordinary domain language and ask the current practical question. State an exact kind now only when a nearby kind difference can change the pattern or result.
 2. **Inspect one direct pattern.** Read its Problem frame, Problem, Forces, Solution, Consequences, ordinary boundary, and nearest stronger neighbor. Do not select from its title or one trigger word alone.
 3. **Say what useful result would answer the question.** Name the entity, obtaining relation, honest interim entity, or blocker plainly enough to distinguish it from a plan, description, recommendation, work occurrence, or nearby value. Name the Method, plan, dated Work, Transformation, evaluation, decision, or later-use object relative to which it is a result only when the phrase depends on that object. Add an exact kind, predicate, pattern locator, `ClaimGraph`, or category-correct basis only when ambiguity or replay makes it necessary.
-4. **Use the pattern's `Solution`.** A person or assisting system follows the action guidance under its stated conditions. If the current claim depends on a selected Method, responsible system, assignment, or actual Work, identify those values under A.3/A.15; routine pattern use needs no such expansion. Use A.15.PROD only for a claim that exact dated Work and its actual changes first constituted an entity.
+4. **Use the pattern's `Solution`.** A person or assisting system follows the guidance under its stated conditions. Name a system-role classification or assignment only when that claim matters. If actual Work is current, use A.15.1 and F.6 to identify the dated Work, its performer, and the assignment under which the performer acted. Identify a Method, authority, responsibility, or another independent value only when its own claim is current. A responsibility claim names its predicate and participants, or the A.6.RCD missing governor; routine pattern use needs no such expansion. Use A.15.PROD only when the Work and its changes first constituted an entity.
 5. **Check what now exists or obtains.** Identify the result under the direct pattern whose content defines, constrains, or tests it. A pre-existing entity may instead receive new grounding for the current question. If the expected subject result still does not exist, name the honest interim result and leave the subject expectation open. Do not turn grounding, planning, evaluation, acceptance, publication, or non-agentive change into production.
 6. **State the immediate continuation only as needed.** Name a later use, stronger neighboring pattern, or unresolved clarification in conversation. Materialize an expectation, basis, result, flow, provenance, or boundary episteme only when a named later use needs it to remain addressable.
 7. **Stop or return.** Stop when the smallest useful result, honest interim entity, or exact blocker answers the current question at the precision that use needs. Return when the concern, basis, expected entity, direct pattern, relation, or later-use condition changes. A genuine stop needs no receiver.

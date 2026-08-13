@@ -6,12 +6,12 @@ section_id: "A.6:12a"
 section_title: "Quantum-like boundary-claim classification note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6/A.6__014_quantum-like-boundary-claim-classification-note.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6 — Signature Stack & Boundary Discipline"
   - "A.6:12a — Quantum-like boundary-claim classification note"
-line_start: 9847
-line_end: 9879
+line_start: 10061
+line_end: 10093
 dependencies:
   - "A.10"
   - "A.15"
@@ -79,7 +79,7 @@ Minimum boundary discipline before a quantum-like boundary reading:
 | Field | What the author names |
 | --- | --- |
 | Boundary | Which interface, protocol, context crossing, publication face, evidence boundary, or exact service/access relation is being described; when service/access wording hides the subject or relation, recover it through A.6.P:4.11a before using this table |
-| Endpoints | Which systems, epistemes, roles, carriers, contexts, or faces stand on each side |
+| Endpoints | Which Systems, epistemes, direct relation participants, signature slots, carriers, contexts, or faces stand on each side; if bare *role* occurs, use E.10.ROLE to recover the intended branch before treating it as an endpoint |
 | Channel or interaction | Message, meeting, metric, dashboard, API read, bridge or export, split or merge, orchestration, or other boundary act |
 | Claimed state reading | What represented state is claimed before and after the act, and whether the act is treated as passive read, action, export, or probe |
 | Evidence / carrier | Which carrier, trace, metric, report, observation, or work result supports the reading |

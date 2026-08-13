@@ -6,12 +6,12 @@ section_id: "F.10:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 93695
-line_end: 93710
+line_start: 94471
+line_end: 94486
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,6 +50,6 @@ keywords:
 | Bridge-free roll-up | A dashboard aggregates local labels as global synonyms. | Use exact cells and F.9 occurrences, or downgrade to local explanation. |
 | Bridge/family edge as explanation | A Bridge or `EvidenceStatus -> RequirementStatus` arrow is treated as direct reason. | Name the `StatusInterpretationRelation`, exact rule, evaluation application, and result. |
 | Evidence escalation without independence | One repeated lab result is called replicated. | Keep it measured/corroborated until independent replication conditions and results are recovered. |
-| Status role for episteme | A report, standard, or requirement is said to hold a role. | Use A.2.4/F.10 use relations; reserve role assignment for acting holons. |
+| Status role for episteme | A report, standard, or requirement is said to ‘hold a role’. | Use the A.2.4 and F.10 use relations. They establish neither System admission, local system-role classification, nor an assignment. If the receiving claim needs an assignment, name the admitted System, declared assignment species and occurrence, and that System as its holder. |
 | Tool-state explosion | Every local tool state becomes a durable status kind. | Keep tool labels local; create a durable cell/family mapping only for a receiving use that needs it. |
 

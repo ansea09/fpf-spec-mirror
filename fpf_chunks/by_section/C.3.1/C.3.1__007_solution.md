@@ -6,15 +6,16 @@ section_id: "C.3.1:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__007_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:5 — Solution"
-line_start: 44824
-line_end: 44835
+line_start: 45046
+line_end: 45057
 dependencies:
   - "A.1"
   - "A.11"
+  - "A.2"
   - "A.2.6"
   - "A.6.0"
   - "A.6.5"
@@ -44,7 +45,7 @@ keywords:
 2. **State the direct order relation.** Use `U.SubkindOf` only for an obtaining relation whose narrower-kind and broader-kind participants satisfy `SubkindOfObtains` under that scheme. Keep the predicate, any `R_sub` occurrence designator, and any C.2.1 assertion episteme separate.
 3. **Keep a partial order over obtaining facts.** Reflexivity, transitivity, and antisymmetry constrain the obtaining `U.SubkindOf` relations among local kind values; they do not make a diagram edge or affirmative assertion true by form.
 4. **Test the obtaining predicate over judgments.** For the aligned signature editions, if both C.3.2 judgments are defined for the same candidate and context slice and the judgment for `k1` is `true`, then the judgment for `k2` must be `true`. A universal proof or adequate domain basis establishes the implication; `unknown` remains non-settlement.
-5. **Diagnose counterexamples at their owner.** A counterexample indicates that the proposed relation does not obtain, that the signature editions are incompatible, or that a context bridge is undeclared. Do not repair it by silently adding or deleting a row in `KindExtension`.
+5. **Diagnose counterexamples under their subject pattern.** A counterexample indicates that the proposed relation does not obtain, that the signature editions are incompatible, or that a context bridge is undeclared. Do not repair it by silently adding or deleting a row in `KindExtension`.
 6. **Separate signature change from kind continuity.** A changed criterion, evaluation domain, `EntityOfConcern` referent, or effective reference scheme creates another `U.Signature` episteme edition under A.6.0 and C.2.1. C.3.1 then decides independently whether the same local kind continues.
 7. **Record the continuity consequence.** If the local identity basis is preserved, the same kind may continue while every classification still cites the edition actually used; the new edition does not retroactively rewrite old judgments. If the identity basis is not preserved, identify a different local kind and state any genuinely obtaining `U.SubkindOf` relation or C.3.3 bridge separately.
 8. **Do not infer change from the extension alone.** A changed candidate state or later `U.ContextSlice` can change `KindExtension(k, slice)` without changing the signature, kind, or a still-obtaining subkind relation.

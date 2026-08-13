@@ -6,12 +6,12 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
-line_start: 13719
-line_end: 13854
+line_start: 13943
+line_end: 14078
 dependencies:
   - "A.15"
   - "A.20"
@@ -45,7 +45,7 @@ Use these Plain terms with that progressive boundary:
 - **Return trigger** means the condition that requires the source, local re-expansion, exact `X`, an exact source relation, or the pattern that supplies the needed definition, constraint, test, or method.
 - **Exact reuse or reliance case** means a coarsening result that will travel independently, be cited or disputed, cross schemes, support external reliance, or become policy-, bridge-, gate-, work-, privacy-, engineering-justification-, or assurance-facing.
 
-The construction performs no Work. Producing an ordinary candidate does not require a work record. Identify the capable system, role assignment, dated Work, enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the current claim depends on who performed actual coarsening, when, by which admitted Method, or with which result. Work or generation does not prove conservativity or controlled loss.
+The construction performs no Work. Producing an ordinary candidate does not require a work record. Identify the capable system, system-role assignment, dated Work, enacted Method, source-use or A.6.1 bindings, and any A.15.PROD inception claim only when the current claim depends on who performed actual coarsening, when, by which admitted Method, or with which result. Work or generation does not prove conservativity or controlled loss.
 
 Publication also remains separate. E.24.PUB identifies an exact occurrence that makes one selected episteme edition available to a declared audience for a bounded use through one exact publication form and `U.PresentationCarrier`. Plain **published episteme** names that contingent use, not a durable kind. Publication does not become `X` or `Y`, establish `c`, or widen the admissible use.
 

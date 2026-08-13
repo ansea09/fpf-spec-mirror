@@ -6,12 +6,12 @@ section_id: "A.10:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:5 — Archetypal Grounding"
-line_start: 22984
-line_end: 22991
+line_start: 23237
+line_end: 23244
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -51,5 +51,5 @@ keywords:
 
 **Meta-analysis.** Source study publications, datasets, analysis code, inclusion work, statistical method, and synthesis work are recovered by their direct relations. The statistical method and result relation establish the pooled estimate and uncertainty; its C.2.1 episteme is the relied-on claim. A.10 records source identity, transformations, coverage, provenance, currentness, and the bounded clinical or policy use, not a generic `validatedBy` relation.
 
-**Credential display.** The current pre-existing case repair remains decisive: a credential view can support credential-currentness only under its issuer/trust root, holder binding, verifier, status source, revocation and window. Permission, commitment, role assignment, status assertion, entry predicate, and gate passage remain with A.2.8.PER, A.2.8, A.2.9, A.2.1, A.6.B, and A.21 as applicable. Display presence creates none of them.
+**Credential display.** A credential view can support credential currentness only when it names the exact issuer or trust-root object and relation, holder binding, verifier, exact status source or register relation, revocation, and window. Permission, commitment, an exact system-role-assignment occurrence, status assertion, entry predicate, and gate passage remain with A.2.8.PER, A.2.8, A.2.9, A.2.1, A.6.B, and A.21 as applicable. Display presence creates none of them.
 

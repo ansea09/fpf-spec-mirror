@@ -6,12 +6,12 @@ section_id: "A.3.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.2/A.3.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.2 — U.MethodDescription: Description Episteme for a Way of Doing"
   - "A.3.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 8094
-line_end: 8106
+line_start: 8306
+line_end: 8318
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 | Anti-pattern | Repair |
 | --- | --- |
-| "The code is the method." | Identify the claim-bearing episteme and the Method it concerns. Membership needs one substantive method claim; C.29 owns representation correspondence, E.24.PUB owns publication, and A.15.1 owns a run that actually happened. |
+| "The code is the method." | Identify the claim-bearing episteme and the Method it concerns. Membership needs one substantive method claim; C.29 is the pattern for representation correspondence, E.24.PUB is the pattern for publication, and A.15.1 is the pattern for a run that actually happened. |
 | "Yesterday's log is our procedure." | The log is an episteme about dated Work, not the Work or a method description by being recorded. Identify the occurrence under A.15.1; cite or write a separate method description only when its claims pass the membership rule. |
 | "The approved protocol proves safe use." | Separate method description, approval or gate claim, safety evidence, work plan, and work occurrence. |
 | "The optimization model is the process." | Ask whether the episteme says how a scheduling Method works or instead states variables, constraints, and an objective for a formal model. Keep the solver run as Work and any selector mechanism under A.6.1/E.20. |

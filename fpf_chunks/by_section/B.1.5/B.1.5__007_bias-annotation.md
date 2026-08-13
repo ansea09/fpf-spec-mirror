@@ -6,12 +6,12 @@ section_id: "B.1.5:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:6 — Bias-Annotation"
-line_start: 36740
-line_end: 36751
+line_start: 36948
+line_end: 36959
 dependencies:
   - "A.1"
   - "A.15"
@@ -69,5 +69,5 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: cros
 - **Prag:** ordinary use may stop at readable local claims; reusable definitions, relation kinds, declarations, publication, and assurance are added only when a named receiving use needs them.
 - **Did:** the manufacturing, emergency-intake, learned-pipeline, and evidence-synthesis slices show both positive composition and useful non-composite stopping results across different domains.
 
-The pattern intentionally biases toward explicit construction and boundary accounts when joins or outside reliance are load-bearing. The lightweight local-claim lane and direct-owner exits mitigate that bias so inspectability does not become ritual apparatus.
+The pattern intentionally biases toward explicit construction and boundary accounts when joins or outside reliance are load-bearing. The lightweight local-claim lane and subject-pattern exits mitigate that bias so inspectability does not become ritual apparatus.
 

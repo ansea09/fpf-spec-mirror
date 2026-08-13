@@ -6,12 +6,12 @@ section_id: "F.9:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__017_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:15 — Relations"
-line_start: 93066
-line_end: 93085
+line_start: 93842
+line_end: 93861
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -58,17 +60,17 @@ keywords:
 
 **Coordinates with:**
 
-* **A.10.** Owns the exact evidence-provenance graph relation and local `RelianceDisposition` for ordinary bounded evidence use.
-* **B.3.** Owns the first decision about whether an assurance claim exists, the minimum reliance safety assurance record, a positive assurance claim when current, and explicit non-positive dispositions.
-* **F.4, F.5, A.2.1, F.6, and A.15.1.** Naming, role assignment, required-role satisfaction, and performed-work attribution remain direct work-role claims.
+* **A.10.** Use it for the exact evidence-provenance graph relation and local `RelianceDisposition` for ordinary bounded evidence use.
+* **B.3.** Use B.3 to determine whether an assurance claim exists and to state the minimum reliance-safety result, any current positive assurance claim, or the applicable non-positive disposition.
+* **E.10.ROLE, A.2, C.3, F.4, F.5, A.2.1, A.15.1, and F.6.** Use E.10.ROLE first when source wording leaves *role* ambiguous. Use A.2 and C.3 for the local system-role kind and any separate System-classification judgment. Use F.4 only when a description of that kind is current, and F.5 only when its durable naming is current. Use A.2.1 independently for an assignment species and occurrence, and A.15.1 with F.6 independently for performed Work and attribution. A Bridge establishes none of these facts.
 * **F.8.** A mint-or-reuse decision may consume an obtaining Bridge plus a separately warranted bounded-use claim; it does not strengthen either.
-* **A.2.6.** Scope translation may use an obtaining Bridge only together with an affirmative claim naming the exact direction, scope-correspondence rule, and loss tolerance. A.2.6 owns the translated scope and membership.
-* **A.6.1.** Owns any actual operation application. A proposed use role in a Bridge claim is not an application binding.
+* **A.2.6.** Scope translation may use an obtaining Bridge only together with an affirmative claim naming the exact direction, scope-correspondence rule, and loss tolerance. Use A.2.6 for the translated scope and membership.
+* **A.6.1.** Use it to identify any actual operation application. The `u` designation in a Bridge claim names a proposed use and is not an application binding.
 * **A.6.5.** Relation-position labels and SlotSpec claims remain governed by slot discipline.
 * **C.29.** Mathematical-lens use may cite a Bridge and bounded-use claim; C.29 still governs its mathematical object, preserved and lost structure, and actual lens use.
 * **C.34.** Structural correspondence or morphism adequacy may cite an obtaining Bridge and a bounded-use claim but states its own preserved and lost architecture structure.
 * **A.6.REL.** Applies the F.9 recurrence and occurrence-identity rule only when a receiver must distinguish or reference the occurrence.
 * **C.2.1.** Independently constitutes assertions, modal proposals, occurrence-description epistemes, and filled Cards; none supplies the Bridge predicate or occurrence identity.
-* **E.24.PUB.** Owns any `EpistemePublicationRelation` occurrence, publication form, and presentation carrier for a selected description/Card edition. Publishing creates neither Bridge nor receiving use.
+* **E.24.PUB.** Use it for any `EpistemePublicationRelation` occurrence, publication form, and presentation carrier for a selected description/Card edition. Publishing creates neither Bridge nor receiving use.
 * **A.6.3.CSC, C.26.1, and C.26.2.** Govern coarsening, probe effects, and no-faithful-enough-report cases when those questions are live.
 

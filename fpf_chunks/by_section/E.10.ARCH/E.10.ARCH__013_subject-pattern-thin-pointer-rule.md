@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:7"
 section_title: "Subject-pattern thin-pointer rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__013_subject-pattern-thin-pointer-rule.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:7 — Subject-pattern thin-pointer rule"
-line_start: 76045
-line_end: 76069
+line_start: 76520
+line_end: 76544
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -80,12 +80,12 @@ A thin pointer is acceptable when it helps the working reader choose the right f
 - use `C.30.STRAT` when `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, or a close source label hides whether the use under repair is a control-layer relation, module-interface relation, architecture-to-`TransformationFlowStructure` relation, scale or coarse-graining relation, publication relation set, gate relation, neighboring use named by value, ordinary source label, quote-only cue, or blocked use;
 - use `C.16.P` when metric, score, axis, dimension, feature, property, indicator, strong, weak, robust, level, coordinate, threshold, or comparison wording hides characteristic or scale construction;
 - use `C.16.Q` when quality or evaluative characterization wording hides Q-bundle, pattern-quality coordinate, relation construction, action-invitation, bridge, or characterization use named by value;
-- use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or governing pattern;
+- use `A.19.SPR` when state, status, posture, readiness, stance, currentness, or a local state-like field hides bearer, state frame, value set, admissible use, or subject pattern;
 - use `C.2.P` when source, publication, publication form, face, `PublicationUnit`, dashboard, documentation, or text-work wording hides source-currentness relation or project-side reliance;
-- use `A.3.1` only while method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, method-algebra, method-graph, selector-calculus, or programming-paradigm wording still hides one exact `U.Method` or a separately governed one-method `U.MethodDescription`, mechanism, plan, dated Work, transformation, result, structure, architecture, representation, or direct relation; then apply that object's direct owner;
-- use `A.6.RSIR` when relation, signature, interface, role, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording hides the current governed object or claim kind and no direct governing pattern is yet clear;
+- use `A.3.1` only while method, algorithm, program, proof, solver, workflow, process, procedure, access-path, query-plan, control-strategy, method-algebra, method-graph, selector-calculus, or programming-paradigm wording still hides one exact `U.Method` or a separately governed one-method `U.MethodDescription`, mechanism, plan, dated Work, transformation, result, structure, architecture, representation, or direct relation; then apply that object's subject pattern;
+- use `E.10.ROLE` when bare claim-bearing *role* hides its work-facing or use-facing object; use `A.6.RSIR` when relation, signature, interface, assignment, enactment, slot, field, parameter, argument, endpoint, port, API, protocol, connector, capability, affordance, method, function, concern, or interest wording hides the current direct relation, declaration, interface, operation, representation position, or claim kind and no subject pattern is yet clear;
 
-- use `A.6.P.WMR` only while input, raw-material, source-data, source-material, output, result, outcome, deliverable, handoff, or work-name wording still hides one exact method, plan, Work, transformation, result, delivery, transfer, representation, or receiving-use relation; use `C.2.P` first for the epistemic source side, bypass to the direct owner when clear, and never close through classification or a merely type-correct designation;
+- use `A.6.P.WMR` only while input, raw-material, source-data, source-material, output, result, outcome, deliverable, handoff, or work-name wording still hides one exact method, plan, Work, transformation, result, delivery, transfer, representation, or receiving-use relation; use `C.2.P` first for the epistemic source side, bypass to the subject pattern when clear, and never close through classification or a merely type-correct designation;
 - use `C.2.P.DR` when a declarative representation, graph relation, evidence-path wording, publication face, checklist predicate, query, dashboard, or pattern relation is being overread as an imperative route, call, dispatch, work sequence, permission, release, evidence result, or pattern application;
-- use the direct governing pattern, with `A.19.SPR` only when hidden state-family wording remains, when admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording already recovers its bearer, claim kind, source relation, value frame, and admissible use.
+- use the subject pattern, with `A.19.SPR` only when hidden state-family wording remains, when admissibility-like, legal, lawful, validity, pass-looking, fail-looking, readiness, conformance, or authority wording already recovers its bearer, claim kind, source relation, value frame, and admissible use.
 

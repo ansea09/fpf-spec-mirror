@@ -6,12 +6,12 @@ section_id: "D.1:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:1.1 — Forces"
-line_start: 68524
-line_end: 68533
+line_start: 68874
+line_end: 68883
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,5 +36,5 @@ keywords:
 | Technical adequacy vs. ethical force | Evidence, assurance, method, architecture, or work quality may be strong while the value concern remains implicit. |
 | Local usefulness vs. overreach | A bounded ethical claim can guide work, but it must not become universal moral permission. |
 | Plain language vs. hidden doctrine | Words such as responsible, safe, fair, aligned, or humane are useful only after the valued object and affected parties are named. |
-| Boundary entry vs. conflict handling | D.1 should surface the value frame, while D.3, D.4, and D.5 own conflict structure, mediation, bias audit, and assurance use. |
+| Boundary entry vs. conflict handling | Use D.1 to surface the value frame, D.3 for conflict structure, D.4 for mediation, and D.5 for bias audit and assurance use. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:intro — Intro"
-line_start: 25270
-line_end: 25308
+line_start: 25468
+line_end: 25506
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -52,7 +52,7 @@ keywords:
 > **Used by:** plans that must remember a chosen future relation participant, operation argument, expected result, or another value tied to an already declared member before work begins
 > **One-line purpose:** record inside one `U.WorkPlan` which value is intended for one already declared member; the declaration defines how later actual use is judged, while A.15.3 records only the intention and makes nothing actual.
 
-**At a glance.** Use `SlotFillingsPlanItem` when a plan must preserve a concrete choice before work begins—for example, `Robot_8_Ref` as the planned holder in a future role assignment or `Pump_37_Ref` as the planned `candidate` in a recognition operation. Point to the declaration member that already defines that position, record the planned value and conditions, and later compare them with what actually happened without rewriting the plan. A field name, compatible type, method phrase, form position, or plan label is not such a declaration.
+**At a glance.** Use `SlotFillingsPlanItem` when a plan must preserve a concrete choice before Work begins—for example, `Robot_8_Ref` as the planned holder for a future system-role assignment, with the assignment species named separately, or `Pump_37_Ref` as the planned `candidate` in a recognition operation. Point to the declaration member that already defines that position, record the planned value and conditions, and later compare them with what actually happened without rewriting the plan. A field name, compatible type, Method phrase, form position, or plan label is not such a declaration.
 
 **Use this when.** Use this pattern only when the choice points to a member already defined in a `RelationSignature`, an A.6.1 `OperationDeclaration`, or another declaration whose own pattern states both the member's meaning and the rule for its later actual use. If the plan merely says *use this method*, *reserve this resource*, or *meet this threshold* without reusing such a member, keep ordinary A.15.2 plan content. A planned row establishes no dated work, relation participant, operation application, returned value, change, delivery, or outcome.
 
@@ -76,5 +76,5 @@ keywords:
 
 **What this buys.** The team can later say what it intended, what actually happened, and whether the two differ, while the declaration, plan, work, and actual participation remain separate objects.
 
-**Not this pattern when.** Use the declaration's own pattern (`A.6.5`, `A.6.1`, or another declared-member owner) when defining the member; use A.15.2 for ordinary intended work without a planned filling; use A.15.1 for dated work; and use the applicable pattern for actual relation participation, operation bindings, methods, evidence, assurance, gates, acceptance, results, publication, or representation.
+**Not this pattern when.** Use the exact declaration predicate and ClaimGraph located through `A.6.5`, `A.6.1`, or another declared-member source when defining the member; use A.15.2 for ordinary intended work without a planned filling; use A.15.1 for dated work; and use the exact applicable predicates for actual relation participation, operation bindings, methods, evidence, assurance, gates, acceptance, results, publication, or representation.
 

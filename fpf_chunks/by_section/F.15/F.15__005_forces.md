@@ -6,12 +6,12 @@ section_id: "F.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:3 — Forces"
-line_start: 95062
-line_end: 95071
+line_start: 95840
+line_end: 95849
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,5 +56,5 @@ keywords:
 | Locality versus reuse | Interpret each local sense under an exact scheme while allowing a separately established Bridge and bounded-use claim when cross-local use is current. |
 | Stability versus change | Recover exact earlier and later objects without treating spelling, ids, table position, or edition labels as continuity evidence. |
 | Clarity versus ontology | Keep the harness teachable without minting universal scope, frame, check, result, evidence, or context kinds. |
-| Composition versus direct owners | Check a combined slice without replacing F.4, F.9, F.10, F.17, F.18, C.2.1, A.10, A.15.1, or E.24.PUB. |
+| Composition versus subject patterns | Check a combined slice without replacing F.4, F.9, F.10, F.17, F.18, C.2.1, A.10, A.15.1, or E.24.PUB. |
 

@@ -6,12 +6,12 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__019_didactic-quick-cards.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 24945
-line_end: 24953
+line_start: 25143
+line_end: 25151
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,17 +42,16 @@ dependencies:
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.Role"
-  - "U.RoleAssignment"
   - "U.System"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "actual performer U.System"
   - "admitted U.Work kind"
-  - "containing system"
-  - "covering U.RoleAssignment"
-  - "enacted method"
+  - "containing System"
+  - "covering U.SystemRoleAssignment"
+  - "enacted Method"
   - "optional direct bindings and resource use"
   - "performedUnderAssignment"
   - "separate result or consequence"
@@ -62,8 +61,8 @@ keywords:
 
 ### A.15.1:15 - Didactic quick cards
 
-* **What is Work?** *How it went this time* → dated, resourced, accountable.
-* **Separation aid:** Who performs? **System**. Under which held role? **RoleAssignment**. Can? **Capability**. How? **Method**. Which account of the method? **MethodDescription**. Did it happen? **Work**.
+* **What is Work?** *How it went this time* → dated, resourced, attributable.
+* **Separation aid:** Who performs? **System**. Under which assignment? **Use F.6 for each actual performer**. Can? **Capability**. How? **Method**. Which account of the Method? **MethodDescription**. Did it happen? **Work**. A short sentence may omit an assignment identifier that no later claim uses.
 * **Three-question result check:** Did the work occur? What separate result or consequence is claimed? Who judged or accepted what, by which criterion and evidence? Use §4.6 and stop after the last question the receiving use actually asks.
 * **Roll-ups:** A.15.1 supplies exact Work refs, intervals, parts, and performed resource-use facts; cite `B.1.4` for temporal aggregates and `B.1.6` for resource ledgers, each with its declared policy.
 * **Episodes vs retries:** record end, interruption, resumption, and later work-entry facts first; add a continuity policy only when a named use still has more than one defensible grouping.

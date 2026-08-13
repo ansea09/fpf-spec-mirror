@@ -1,31 +1,36 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+pattern_title: "SystemRoleKindRelationStructure - Relations among System-Role Kinds"
 section_id: "A.2.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:intro — Intro"
-line_start: 5709
-line_end: 5714
+line_start: 5889
+line_end: 5894
 dependencies:
-  - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.2.5"
+  - "A.22"
+  - "A.6.REL"
+  - "C.3"
+  - "C.3.1"
+  - "E.10.ROLE"
 keywords:
-  - "bundles (⊗)"
-  - "incompatibility (⊥)"
-  - "requiredRoles substitution"
-  - "role algebra"
-  - "separation of duties (SoD)"
-  - "specialization (≤)"
+  - "U.SubkindOf"
+  - "incompatibility"
+  - "joint assignment requirement"
+  - "relations among system-role kinds"
+  - "selected structure"
+  - "substitution"
 ---
 
-## A.2.7 - Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission
+## A.2.7 - SystemRoleKindRelationStructure - Relations among System-Role Kinds
 
 > **Type:** Architectural (A)
 > **Status:** Stable

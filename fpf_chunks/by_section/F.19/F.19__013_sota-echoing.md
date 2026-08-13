@@ -6,12 +6,12 @@ section_id: "F.19:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__013_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:11 — SoTA-Echoing"
-line_start: 97582
-line_end: 97590
+line_start: 98818
+line_end: 98826
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -40,5 +40,5 @@ keywords:
 | Plain prose serves a reader and task, not a generic style preference. | ISO 24495-1:2023, *Plain language - Part 1: Governing principles and guidelines*. | Current standard reference for plain-language principles and task/readership fit. | `F.19` requires declared reader and use and checks loss after rewriting. It adapts plain-language principles to FPF kind preservation. |
 | Plain language removes unnecessary complexity while keeping necessary terms. | Federal Plain Language Guidelines and Digital.gov plain-language guidance. | Current government plain-language practice reference for audience-first, direct, organized prose. | `F.19` removes apparatus but preserves established FPF terms unless `E.10` or `F.18` changes them. |
 | Legal and technical documents can be clearer without losing controlled terms. | SEC, *A Plain English Handbook: How to Create Clear SEC Disclosure Documents*. | Lineage and practice reference for reducing legalese while retaining disclosure meaning. | `F.19` treats "plain" as meaning-preserving repair, not informal paraphrase or synonym churn. |
-| FPF precision restoration must preserve ontology before style. | Current FPF patterns `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `E.21`. | Current FPF governing-source relation. | `F.19` becomes the phrase-level sibling to word, head, and use restoration and feeds `E.21` through `PrecisionRestorationProfile`. |
+| FPF precision restoration must preserve ontology before style. | Current FPF patterns `E.8`, `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, `A.6.P`, `E.21`. | Current FPF source-use relation. | `F.19` becomes the phrase-level sibling to word, head, and use restoration and feeds `E.21` through `PrecisionRestorationProfile`. |
 

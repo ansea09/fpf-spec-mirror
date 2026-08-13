@@ -6,12 +6,12 @@ section_id: "A.3.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.1/A.3.1__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.1 — U.Method: Reusable Way of Doing with Explicit Applicability"
   - "A.3.1:4 — Solution"
-line_start: 7438
-line_end: 7659
+line_start: 7646
+line_end: 7871
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,14 +41,14 @@ keywords:
 
 It is a non-agentive holon kind. Part methods can be selected, bounded, ordered, joined, adapted, and hidden or exposed through method interfaces to form a whole method with whole-level preconditions, effects, invariants, constraints, and assurance hooks. The whole method may then be used as a part method in a larger method.
 
-It is not the text, code, diagram, model, plan, run, role, capability, or evidence relation that may be associated with that way of doing. A `U.Method` is:
+It is not the text, code, diagram, model, plan, run, system-role kind, classification, assignment, relation position, capability, or evidence relation that may be associated with that way of doing. A `U.Method` is:
 
 * **semantically local**: its identity uses the declared participant meanings, applicability, conditions, intended effects or preserved conditions, and bounds; add an effective reference scheme and local senses only when a meaning difference would change the method identification or a stated comparison;
 * **semantic**: it is the way of doing that descriptions denote and work may enact;
 * **concern-explicit**: it states what a future enactment is intended to do or decide—change, observe, compare, classify, evaluate, communicate, select, derive, prove, control, produce, or preserve—and its intended effect or preserved condition; it identifies no actual changed referent, participant, occurrence, or result;
 * **description-independent**: one method may be described by several `U.MethodDescription` epistemes;
 * **run-independent**: one method may be enacted by many Work occurrences admitted under `U.Work`;
-* **assignment-independent**: method admission conditions may name role kinds or capability-fit conditions, but named holders and dated assignments belong elsewhere;
+* **assignment-independent**: Method admission conditions may name local system-role kinds or capability-fit conditions, but named holders and obtaining assignments belong elsewhere;
 * **participant-semantic**: it may state generic participant meanings and method-side applicability without declaring `RelationSignature` SlotSpecs, `OperationAlgebra` argument or result positions, planned fillers, or actual participants.
 
 Do not begin by replacing *method* or *practice* with a preferred technical word. First finish the ordinary sentence, "Here the text is trying to name or assert ___." Then use this one routing map:
@@ -56,14 +56,14 @@ Do not begin by replacing *method* or *practice* with a preferred technical word
 | If the text is really about... | Govern it as... |
 | --- | --- |
 | semantic way of doing | `A.3.1 U.Method` |
-| relation or composition among methods, method families, method-description epistemes, or local method expressions | `C.2.1` or the exact comparison/direct-relation owner for an actual relation among description epistemes; `A.22` only for a selected structure whose constituent relations already obtain; `G.5` and `A.19` for family selection; `A.15.1` for `enactsMethod`; `B.1.5` for order-sensitive method composition; `C.29` for graph or algebraic representation |
+| relation or composition among methods, method families, method-description epistemes, or local method expressions | `C.2.1` or the exact comparison/direct-relation pattern for an actual relation among description epistemes; `A.22` only for a selected structure whose constituent relations already obtain; `G.5` and `A.19` for family selection; `A.15.1` for `enactsMethod`; `B.1.5` for order-sensitive method composition; `C.29` for graph or algebraic representation |
 | description of that way of doing: SOP, program, proof script, solver model, protocol, diagram, process model, recipe text | `A.3.2 U.MethodDescription` |
 | source phrase such as *practice*, *technique*, *school*, *tradition*, or a local method label whose claim is unclear | leave it unresolved until the sentence identifies a reusable way, description, discipline or tradition, or model-use boundary; use `A.1.1` for the bounded-context or model-use claim and `C.36.P` for the cultural-evolution, tradition, style, canon, recognition, selection, or mediation claim |
 | selected formal declaration or mathematical lens | `A.6.0` for the declaration; `C.29` when a stated use applies the mathematical lens |
 | mechanism declaration or realization relation | `A.6.1` and `E.20` |
-| role assignment, role relation, responsibility allocation, or holder eligibility hidden under a practice or method phrase | `A.2`, `A.2.1`, `A.2.7`, and `A.15` as applicable |
+| system-role assignment, relation among exact system-role kinds, direct responsibility relation, or holder eligibility hidden under a practice or Method phrase | `A.2`, `A.2.1`, `A.2.7`, `A.6.RCD`, and `A.15` as applicable |
 | planned dated work or authorization to prepare work | `A.15.2 U.WorkPlan` plus the relevant gate, authority, or commitment pattern |
-| dated work occurrence or run; trace, log, or result record | Use `A.15.1` for the dated Work. Route a separate record or result by what it asserts—measurement, evaluation, production, delivery, acceptance, or evidence—and link it to Work only through a relation that its owner admits. |
+| dated work occurrence or run; trace, log, or result record | Use `A.15.1` for the dated Work. Route a separate record or result by what it asserts—measurement, evaluation, production, delivery, acceptance, or evidence—and link it to Work only through a relation whose predicate and participants are defined by its direct pattern or declaration. |
 | field, bounded-context or model-use, discipline or tradition, recognition or selection, mediation, variant, or cultural-evolution claim | Use `A.1.1` for a bounded-context or model-use claim; `C.20`, `C.36`, or `C.36.P` for a discipline, tradition, canon, or cultural-evolution claim; and `F.17`, `F.18`, `F.9`, `C.18`, `C.19`, `G.5`, or `G.11` only after the sentence names its sense, recognition, mediation, variant, selection, or currentness claim. |
 | evidence or provenance relation for a claim | `A.10` |
 | graph path, query, table, dashboard, publication face, or pattern relation made to prescribe action by its layout | apply `C.2.P.DR`, then state the actual method, Work, gate, or authority claim—or stop when none is present |
@@ -78,7 +78,7 @@ When a protocol, playbook, program, diagram, or prose passage describes that way
 
 When the sentence is about choosing among candidates, use `A.19.SelectorMechanism` and G.5 for the actual criteria, policy, and selector outcome. The label *strategy* does not replace those objects or prove that a reusable method has been stated.
 
-Leave quoted or explanatory *strategy* wording alone when it carries no FPF claim. The repair is complete when a reader can say what the sentence asserts and which pattern owns that assertion, not when every occurrence has been replaced.
+Leave quoted or explanatory *strategy* wording alone when it carries no FPF claim. The repair is complete when a reader can say what the sentence asserts and which pattern contains the defining content for that assertion, not when every occurrence has been replaced.
 
 #### A.3.1:4.1 - Thin first-use method identification
 
@@ -110,11 +110,11 @@ Method identification aid:
   NotEstablished (ClaimBoundary):
 ```
 
-`NotEstablished` states the nearest tempting stronger claim that this identification does not make—for example, permission to start work, a dated run, successful change, metrology acceptance, or evidence that the method works. Use the FPF term `ClaimBoundary` when another pattern consumes that boundary.
+`NotEstablished` states the nearest tempting stronger claim that this identification does not make—for example, permission to start work, a dated run, successful change, metrology acceptance, or evidence that the method works. Use the FPF term `ClaimBoundary` when a named neighboring subject assertion depends on that boundary.
 
 Add `SemanticBasisIfMeaningVaries` only when the same words have different meanings under another effective reference scheme or set of local senses. Add a claim scope, context slice, selected structure, or model-use relation only when its own predicate obtains and changing it would change the method identification or the later decision. None is a general container for method identity.
 
-For every relied-on relation, name its participants, the relation that must obtain, and the pattern that governs it. A generic `source`, `support`, `evidence`, or `current use` entry is not a replay basis. `RelianceWindow` says which variant, time, or description edition the comparison relies on. `ReviewIf` names the concrete change that would make that comparison unsafe.
+For every relied-on relation, name its participants, the relation that must obtain, and the pattern that defines or constrains it. A generic `source`, `support`, `evidence`, or `current use` entry is not a replay basis. `RelianceWindow` says which variant, time, or description edition the comparison relies on. `ReviewIf` names the concrete change that would make that comparison unsafe.
 
 #### A.3.1:4.1a - Closure and bounded non-use
 
@@ -122,18 +122,18 @@ Close positively when a reader can write the reusable action, generic participan
 
 If the project also claims an actual change, finish the method identification first. Then open A.3.4 for the actual changed referent, temporal boundary, subject facts, and transformation identity; the reusable method supplies none of them.
 
-Close by non-use when the source is only a description, plan, dated Work occurrence, mechanism declaration, selector result, role relation, evidence relation, publication use, or quoted wording. If the material does not distinguish those positions, retain the source phrase as an unresolved cue and stop rather than inferring `U.Method`.
+Close by non-use when the source is only a description, plan, dated Work occurrence, mechanism declaration, selector result, system-role-kind relation, another direct relation, evidence relation, publication use, or quoted wording. If the material does not distinguish those positions, retain the source phrase as an unresolved cue and stop rather than inferring `U.Method`.
 
 #### A.3.1:4.2 - Method and mechanism settlement
 
 Do not decide from words such as *method*, *algorithm*, *process*, or *mechanism*. First ask what the sentence lets the project assert:
 
-| Plain question | Answer and owner |
+| Plain question | Answer and pattern to use |
 | --- | --- |
 | What reusable way of observing, deciding, deriving, changing, or preserving is meant? | State the `U.Method` under A.3.1: participants, applicability, conditions, intended result or preserved condition, and boundary. |
 | What reusable family of operations and laws is declared? | State the separate `U.Mechanism` declaration under A.6.1: its concern, subject and range meanings, operation algebra, laws, admissibility conditions, and Applicability. |
 | What happened on this dated occasion? | Identify the Work occurrence under A.15.1. Its performer system, covering assignment, enacted method, extent, containing system, bindings, and resources are occurrence-side facts, not method or mechanism fields. |
-| What correspondence, realization, or support claim is being made around those objects? | Name the relation, its participants, and the pattern that admits it. If no such owner is available, keep the objects separate and stop rather than implying the relation. |
+| What correspondence, realization, or support claim is being made around those objects? | Name the relation, its participants, exact predicate, current facts, and subject-pattern locator. If no such predicate is defined, keep the objects separate and stop rather than implying the relation. |
 
 A method statement may cite a mechanism episteme whose content declares operations used by that method. A shared concern or operation name does not make the two values identical. A selector may choose a method, and an A.6.1 application may bind a method as an actual value. State that use only when the selector outcome, application binding, or another admitted direct relation is present; otherwise keep the method and neighboring object separate. None authorizes Work merely by being named.
 
@@ -166,7 +166,7 @@ A useful `U.Method` statement can usually answer these questions in ordinary pro
 | Method concern | what future enactments are intended to change, observe, compare, classify, evaluate, communicate, select, derive, prove, control, produce, or preserve; this is reusable semantic content, not an actual occurrence |
 | Preconditions | states already in effect for the method to be applicable |
 | Effects or postconditions | what successful enactment is meant to produce or preserve |
-| Generic participant and boundary meanings | the kinds of entities, resources, conditions, interfaces, and method-side role-kind or capability-fit conditions that a future enactment may involve, without declaring `RelationSignature` SlotSpecs, `OperationAlgebra` positions, planned fillers, or actual participants |
+| Generic participant and boundary meanings | the kinds of entities, resources, conditions, interfaces, and Method-side local system-role-kind or capability-fit conditions that a future enactment may involve, without declaring `RelationSignature` SlotSpecs, `OperationAlgebra` positions, planned fillers, or actual participants |
 | Capability acceptance conditions | thresholds or envelopes evaluated against a holder's capability, not baked into the method identity |
 | Failure and stop conditions | when the method cannot be used, when a description no longer states it accurately, and when planned Work must not enter its gate |
 | Method-description membership | which epistemes, if any, meet A.3.2 membership for this exact Method; any comparison or plan must separately name the edition and claims it uses |
@@ -184,7 +184,7 @@ Choose by the claim being made:
 * If it points to code, prose, a protocol, diagram, solver model, or other episteme that describes the method, use A.3.2. Use A.6.0 or C.29 when the claim is instead about a formal declaration or mathematical representation.
 * If it declares a law-governed operation family or asks where that declaration is maintained, use A.6.1 or E.20.
 * If it schedules future work or reports a dated occurrence, use A.15.2 or A.15.1.
-* If it claims evidence, provenance, or support, use A.10 and the direct evaluation or measurement owner. If a graph, path, query, table, dashboard, or publication face is being made to route or authorize action by metaphor, apply C.2.P.DR before choosing that owner.
+* If it claims evidence, provenance, or support, use A.10 and the direct evaluation or measurement pattern. If a graph, path, query, table, dashboard, or publication face is being made to route or authorize action by metaphor, apply C.2.P.DR before choosing the pattern for that claim.
 
 Keep cross-context and application claims separate from those five choices. F.9 governs a Bridge between two exact F.17 `SchemeSenseCell` values. A claim that this Bridge suits one named use remains separate under C.2.1, and A.10 or B.3 governs reliance on that claim. C.2.1, A.6.3, A.6.3.RT, A.6.4, or A.1.1 governs an actual change of episteme edition, reference scheme, representation scheme, retargeting, or model-use relation. A.6.1 governs a mechanism realization or application binding. State one of these only when its participants and predicate are present; otherwise stop at the source objects without asserting the relation.
 
@@ -196,7 +196,7 @@ When a method concerns change, its statement says what change a future enactment
 
 The constructor-theory and process-theory source line supports this separation but does not supply a universal method ontology. FPF uses it as follows:
 
-* An admitted `U.System` performs dated Work under an obtaining `U.RoleAssignment`. F.6 `performedUnderAssignment(W, RA)` attributes that Work to the assignment, while the holder system performs it; the assignment neither acts nor enacts the method. A.15.1 separately requires the actual `enactsMethod`, extent, and `executedWithin` relations.
+* An admitted `U.System` performs dated Work; A.15.1 identifies the Work, Method, time, and containing System, while F.6 identifies the assignment under which each performer acted. The assignment neither acts nor enacts the Method. A short Method explanation may omit an assignment identifier that no later claim uses.
 * The `U.Method` is the reusable way under stated participant meanings, applicability, conditions, intended result or preserved condition, and bounds. A `U.MethodDescription` is an episteme that describes it.
 * A formal substrate or mathematical lens can make the method analyzable, and a `U.Mechanism` can declare the relevant operation family and laws. Neither becomes the method by providing a formula or implementation.
 * A cross-context Bridge, changed reference or model-use relation, mechanism realization, evaluation, or evidence-use claim remains a separately stated relation with its own participants.
@@ -238,16 +238,20 @@ First decide whether the question is about one reusable way, a composite way, or
 
 **Filled A.22 basis — enacted-method review.** For this one-off review, a practitioner selects only two A.15.1 `enactsMethod` occurrences. No durable selection judgment is asserted, and no composition, fallback, selector, or work-to-pump relation is created.
 
-* **Independently identified constituents.** `InspectPumpSeal@PumpMaintenance-2026` and `ClassifyPumpSealCondition@PumpMaintenance-2026` are independently identified `U.Method` values. `Pump37SealInspectionWork-2026-07-25T0900-0908` and `Pump37SealClassificationWork-2026-07-25T0910-0916` are independently admitted A.15.1 Work occurrences: `PumpDiagnosticService-A : U.System` performs each under obtaining `Pump37DiagnosticAssignment-2026-07-25 : U.RoleAssignment`; the corresponding F.6 `performedUnderAssignment` occurrences, exact extents, and `executedWithin(..., Pump37MaintenanceCell-A)` occurrences obtain. The fixture states no direct Work-to-`Pump_37` predicate, so neither Work is said to affect or concern the pump merely because its designator contains `Pump37`.
+* **Independently identified constituents.** `InspectPumpSeal@PumpMaintenance-2026` and `ClassifyPumpSealCondition@PumpMaintenance-2026` are two `U.Method` values. `Pump37SealInspectionWork-2026-07-25T0900-0908` and `Pump37SealClassificationWork-2026-07-25T0910-0916` are two admitted A.15.1 Work occurrences.
+
+  `PumpDiagnosticAssignment` is a declared `U.SystemRoleAssignment` species. It defines the holder and assigned-kind participant meanings and uses `PumpDiagnosticSystemRole` as the local assigned-kind domain. Occurrence `Pump37DiagnosticAssignment-2026-07-25` has `PumpDiagnosticService-A : U.System` as holder and covers both Work occurrences. That System performs each Work under the assignment and within `Pump37MaintenanceCell-A`.
+
+  The fixture states no Work-to-`Pump_37` predicate, so neither Work is said to affect or concern the pump merely because its designator contains `Pump37`.
 * **Selected obtaining relations.** `enactsMethod(Pump37SealInspectionWork-2026-07-25T0900-0908, InspectPumpSeal@PumpMaintenance-2026)` and `enactsMethod(Pump37SealClassificationWork-2026-07-25T0910-0916, ClassifyPumpSealCondition@PumpMaintenance-2026)` obtain under A.15.1. Their labels, times, or adjacency would not make them obtain.
 * **Applied constraint claims.** `DiagnosticReviewWindowConstraint` states that an eligible `enactsMethod` occurrence must have one of the two independently admitted Work individuals as its Work participant and an extent within 09:00-09:20 on 2026-07-25. `NoCompositionFromEnactmentOrderConstraint` states that their timestamps and order establish no serial, fallback, or whole-method relation.
 * **Selection-use frame.** `DiagnosticMethodEnactmentFrame` states the question: which methods did these two Work occurrences enact during the review window? The admissible action is to list the two `enactsMethod` occurrences in that review. The prohibited overread is a composite method, work plan, method quality, causal success, authority, or any relation to `Pump_37`.
 
-Those four discriminators identify `DiagnosticMethodEnactmentStructure-2026-07-25-0900-0920`, locally designated `MethodRelationStructure` for this use. Reidentify it only from its four constituents, two obtaining relations, two applied constraint claims, and use frame. Its label, selecting system, selection Work, result episteme, graph, or table is not an identity field. If the project relies on a persisted selection, separately identify the system that made it, the selection method and dated Work, the participation relation or A.6.1 binding used by that Work, and the C.2.1 result episteme. Add a decision claim only if the project also asserts an accountable choice; A.22 puts none of these neighboring objects into structure identity.
+Those four discriminators identify `DiagnosticMethodEnactmentStructure-2026-07-25-0900-0920`, locally designated `MethodRelationStructure` for this use. Reidentify it only from its four constituents, two obtaining relations, two applied constraint claims, and use frame. Its label, selecting System, selection Work, result episteme, graph, or table is not an identity field. If the project relies on a persisted selection, separately identify the System that made it, the selection Method and dated Work, the participation relation or A.6.1 binding used by that Work, and the C.2.1 result episteme. Add a C.11 choice claim only if one is asserted. If responsibility for that choice is also claimed, cite its direct domain predicate, actual participants, applicability, and occurrence identity or return the exact missing governor; A.22 puts none of these neighboring objects into structure identity.
 
 **Missing-governor stop.** Suppose a note additionally calls `ClassifyPumpSealCondition@PumpMaintenance-2026` a fallback for `InspectPumpSeal@PumpMaintenance-2026`, but supplies no direct fallback predicate, compatible participant meanings, or occurrence-identity rule. Keep the two methods and the note, omit the fallback relation, and return `missing-governor: fallback relation for <ClassifyPumpSealCondition@PumpMaintenance-2026, InspectPumpSeal@PumpMaintenance-2026>`. If the question is specifically about fallback organization, do not select a positive structure until that relation and all four A.22 discriminators are available.
 
-Method-holon composition is not A.14 component mereology. Source labels such as `SerialStepOf` or `ParallelFactorOf` remain cues until B.1.5 or another direct owner supplies an admitted relation with participants and an obtaining rule. A method-description node is not a submethod unless the described object is independently identified as a `U.Method`.
+Method-holon composition is not A.14 component mereology. Source labels such as `SerialStepOf` or `ParallelFactorOf` remain cues until B.1.5 or another subject pattern supplies an admitted relation with participants and an obtaining rule. A method-description node is not a submethod unless the described object is independently identified as a `U.Method`.
 
 Work composition is occurrence-side. Work may interleave, split, retry, or fail differently from the method description. A temporal Work part can enact the same whole method, and an episode can change Work continuity without changing method identity. Call a candidate a submethod only when it has its own reusable action, preconditions, intended result or preserved condition, boundary, and whole-method relation.
 

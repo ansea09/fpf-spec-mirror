@@ -1,31 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
 section_id: "F.5:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:5 — Archetypal Grounding"
-line_start: 91481
-line_end: 91508
+line_start: 92208
+line_end: 92239
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
+  - "C.16"
   - "C.2.1"
+  - "C.3"
+  - "C.3.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.24.UK"
   - "F.10"
   - "F.13"
@@ -39,39 +43,43 @@ dependencies:
   - "F.9"
   - "G.6"
 keywords:
-  - "U-kind naming"
-  - "lexical rules"
-  - "morphology"
-  - "naming conventions"
-  - "role-description labels"
-  - "twin registers"
+  - "Plain and Tech designations"
+  - "SystemRoleKindDescription label"
+  - "U-kind name"
+  - "local meaning"
+  - "naming after ontology recovery"
+  - "system-role-kind name"
 ---
 
 ### F.5:5 - Archetypal Grounding
 
 #### F.5:5.1 - Cross-Context Type Name
 
-A Concept-Set row compares SOSA `Observation`, metrology `measurement result`, ML practice `metric reading`, and a dashboard value exported for later comparison. The row is a comparison and evidence surface, not the admission or identity of a common result value.
+A Concept-Set row compares SOSA `Observation`, metrology *measurement result*, ML practice *metric reading*, and a dashboard value exported for comparison. The row is a comparison and evidence surface, not admission or identity of a common result value.
 
-Keep its concrete exemplars under their direct owners. `Work_MeasurePump14_2026-07-14T10-42Z` is one exact dated measurement `U.Work` occurrence under A.15.1. `Pump14PressureReading_2026-07-14T10-42Z` is the separately constituted domain-local measurement-result episteme under C.16 and C.2.1. `Pump14CalibrationTrace_2026-07-14` is the exact provenance record whose G.6 and A.10 relations make the calibration and source path recoverable. A dashboard publication may cite the reading, and the Concept-Set row may cite all three objects; neither publication nor row is the Work occurrence, result episteme, provenance record, or a generic relation that establishes them.
+Keep the concrete objects at their direct loci. Pump 14 was measured before the reading was recorded, but this naming example does not identify a dated Work occurrence. If a use needs that occurrence, admit it separately under A.15.1 and attribute it under F.6.
 
-The row therefore justifies neither `Observation` nor `DashboardValue` as a U-kind name. Only an exact `E.24.UK` or direct-pattern admission can establish a shared value and its invariants. After that admission, F.5 may select `Reading`, `Result`, or another neutral head no wider than that exact governed value; the selected spelling still creates no result or provenance identity.
+C.16 constitutes the measurement result: a value attributed to the measurand together with the Characteristic, Scale, uncertainty, method, model, calibration basis, time stance, and measurement Work needed to interpret it. `Pump14PressureReading_2026-07-14T10-42Z` is one C.2.1 episteme that states that result; F.5 does not repeat either pattern's schema. The result and its episteme are distinct from raw output, indication, Pump 14's actual state, a later diagnosis, a criterion verdict, evidence, or a dashboard display. `Pump14CalibrationTrace_2026-07-14` is a provenance record whose G.6 and A.10 relations make the calibration and source path recoverable. A dashboard publication may cite the reading, and the Concept-Set row may cite the reading and trace; neither is the result, its episteme, provenance, or a generic relation that establishes them.
 
-#### F.5:5.2 - Work-Facing Role Label
+Only E.24.UK or the direct result pattern can admit a shared value and its invariants. After admission, use F.5 to select `Reading`, `Result`, or another neutral head no wider than that value. The spelling still creates no result or provenance identity.
 
-Under `Plant-A-Maintenance-Scheme`, label `PumpInspectorRole` designates the exact role value `PumpInspectorRole`; it is not that value. `PumpInspectorRoleDescription-v3` is a separate C.2.1 episteme whose exact EntityOfConcern is that role value and whose ClaimGraph names `PlantMaintenanceRoles-2026` as the governing role-taxonomy episteme. The Tech label is `PumpInspectorRole`; the Plain label is `pump inspector role`.
+#### F.5:5.2 - Local System-Role Kind and Its Description
 
-`Robot7-PumpInspector-Assignment-2026Q3` is the separate A.2.1 role-assignment occurrence. `Work_InspectPump14_2026-07-14T11-05Z` is the exact dated inspection `U.Work` under A.15.1. `Pump14InspectionFinding_2026-07-14T11-18Z` is the separately constituted domain-local claim-bearing result episteme under its inspection-result governor and C.2.1. `Pump14InspectionTrace_2026-07-14` is the exact provenance record connected through its G.6 and A.10 relations. Any current method enactment, production or inception claim, and evidence use remains under its direct owner.
+Under `Plant-A-Maintenance-Scheme`, `PumpInspectorSystemRole` designates one exact local kind; it is not that kind. `PumpInspectorSystemRoleKindDescription-v3` is a separate C.2.1 episteme whose EntityOfConcern is the kind and whose ClaimGraph names its bounded context, contribution identity, current `KindSignature`, and effective scheme. The Tech designation for the kind is `PumpInspectorSystemRole`; the Plain designation is “pump inspector”.
 
-The role label helps readers recover the role; the role-description episteme describes it. Neither says Robot-7 holds the role, performs the inspection, produces the finding, or supplies its provenance. A `Role` suffix, NameCard, row, pattern section, or source citation identifies none of the assignment, dated Work, result episteme, provenance record, or their direct relations.
+This worked slice needs an assignment identity, so `Robot7-PumpInspector-Assignment-2026Q3` is one occurrence of the directly declared `PlantAPumpInspectionAssignment` species under `U.SystemRoleAssignment`. The species' holder slot admits a `U.System`; its declaration-local assigned-kind slot uses the exact `PlantAMaintenanceSystemRoleKindDomain`; and its predicate applies within the Plant A maintenance scheme and obtains while the fixed holder is assigned under `PumpInspectorSystemRole` to supply the pump-inspection contribution. The occurrence identifies Robot-7 as holder and `PumpInspectorSystemRole` as assigned kind, and spans the maximal uninterrupted interval over which that predicate obtains for those values. This simple species declares no additional identity-bearing participant; a commission, position, or installation locus would become one only in a species whose predicate and identity actually require it.
 
-#### F.5:5.3 - Evidence Use Is Not a Role Name
+Robot-7's inspection of Pump 14 is ordinary activity context in this naming example; F.5 does not identify a dated Work occurrence for it. `Pump14InspectionFinding_2026-07-14T11-18Z` is a separate claim-bearing result episteme, and `Pump14InspectionTrace_2026-07-14` is the exact provenance record connected through G.6 and A.10.
 
-Source text may say `ModelFitEvidenceRole`. The repair is not to invent a prettier role name. Recover the exact objects: `Work_EvaluateModelFit_2026-07-15T09-00Z` is the dated evaluation `U.Work`; `ModelFitResult_2026-07-15T09-22Z` is a separately constituted domain-local result episteme; `ModelFitTargetClaim-v5` is the exact claim for which that result may be used; and `ModelFitRunTrace_2026-07-15` is the provenance record connected through exact G.6 and A.10 relations. The actual operation-result binding, any result-episteme inception claim, evidence use, provenance, and assurance remain distinct under their direct governors.
+The kind label helps readers recover the kind; the description episteme describes it. Neither says Robot-7 satisfies the kind, has an assignment, performed the inspection, produced the finding, or supplied its provenance. A suffix, NameCard, row, pattern section, or citation identifies none of those objects or relations.
 
-A durable name, if needed, names an already recovered evidence-use relation, local status-use value, work occurrence, result episteme, or provenance value under that object's direct pattern. `ModelFitEvidenceRole`, a NameCard, a row, or a source citation creates none of those objects and supplies no generic evidence/result relation. It is not a work-facing `U.Role` and not a role-description label.
+#### F.5:5.3 - Evidence Use Is Not a System-Role Name
 
-#### F.5:5.4 - Relation Position Is Not a Role Name
+Source text may say `ModelFitEvidenceRole`. The repair is not a prettier role label. The model-fit evaluation is ordinary activity context here; this naming example identifies no dated Work occurrence. Recover the exact objects it does consume: `ModelFitResult_2026-07-15T09-22Z` is a separately constituted domain-local result episteme; `ModelFitTargetClaim-v5` is the target claim; and `ModelFitRunTrace_2026-07-15` is the provenance record connected through exact G.6 and A.10 relations. Keep any operation-result binding, result-episteme inception claim, evidence use, provenance, and current assurance claim separate under their direct patterns.
 
-In a relation signature, "provider role" may mean "the provider argument position". F.5 does not make `ProviderRole` a `U.Role` name. Use `A.6.5` to recover `ProviderSlot`, its admitted `ValueKind`, and its reference mode. If a provider system also has a work-facing role in a method, that is a separate `U.Role` claim and, when assigned, a separate `U.RoleAssignment` claim.
+A durable name, if needed, names one recovered evidence-use relation, status value, Work occurrence, result episteme, or provenance value. `ModelFitEvidenceRole`, a NameCard, row, or citation creates none of them and supplies no generic evidence-result relation. It is neither a local system-role kind nor a `SystemRoleKindDescription` label.
+
+#### F.5:5.4 - Relation Position Is Not a System-Role Name
+
+In a relation signature, “provider role” may mean the provider argument position. Use E.10.ROLE and A.6.RSIR to recover the participant meaning; use A.6.5 to declare `ProviderSlot`, its `ValueKind`, and its reference mode. A provider system's classification under a local `ProviderSystemRole` kind is a separate C.3 claim. When assignment identity is irrelevant to naming that relation position, say only that any provider assignment remains independently governed by A.2.1; do not invent an occurrence. When it is relevant, recover the assignment occurrence and its declared species rather than asserting that the provider simply “has an assignment”.
 

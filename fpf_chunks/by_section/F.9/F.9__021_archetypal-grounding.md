@@ -6,12 +6,12 @@ section_id: "F.9:19"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__021_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:19 — Archetypal Grounding"
-line_start: 93139
-line_end: 93156
+line_start: 93915
+line_end: 93932
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -60,11 +62,11 @@ A Bridge is an actual semantic relation, not a synonym claim or enactment edge. 
 
 #### F.9:19.2 - Show: service lane
 
-The observation sense can bear a semantic relation to the target sense without being the target status. The team then states and warrants one comparison use; status and acceptance remain with their owners.
+The observation sense can bear a semantic relation to the target sense without being the target status. The team then states and warrants one comparison use; status and acceptance remain separate claims.
 
-#### F.9:19.3 - Show: role lane
+#### F.9:19.3 - Show: access-control lane
 
-A process team and an access-control team both use `operator`. An obtaining overlap Bridge plus an affirmative, warranted label-use claim can support one glossary row. It cannot assign the access-control role to a work occurrence.
+A process team and an access-control team both use `operator`. An obtaining overlap Bridge plus an affirmative, warranted label-use claim can support one glossary row. It establishes no access, permission, authority, local system-role kind, assignment, performer, or Work. Recover whichever fact is actually claimed under its direct pattern; preserve the source term *access-control role* only when referring to the external scheme.
 
 #### F.9:19.4 - Show: episteme lane
 

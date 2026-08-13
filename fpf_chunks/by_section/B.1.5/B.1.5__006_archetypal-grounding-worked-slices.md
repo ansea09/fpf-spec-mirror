@@ -6,12 +6,12 @@ section_id: "B.1.5:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.5/B.1.5__006_archetypal-grounding-worked-slices.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.5 — Gamma_method - Order-Sensitive Method Composition and Work Enactment"
   - "B.1.5:5 — Archetypal Grounding — Worked Slices"
-line_start: 36700
-line_end: 36739
+line_start: 36908
+line_end: 36947
 dependencies:
   - "A.1"
   - "A.15"
@@ -65,11 +65,11 @@ keywords:
 
 `AssembleFrame`, `InstallMotor`, `AdaptMotorConnector`, `RunFunctionalTest`, and `BuildAndVerifyPumpUnit` are exact `U.Method` values already identified under A.3.1; the last is now the candidate for a composite-method qualification. The four participant-determined occurrences `methodPartOf(AssembleFrame, BuildAndVerifyPumpUnit)`, `methodPartOf(InstallMotor, BuildAndVerifyPumpUnit)`, `methodPartOf(AdaptMotorConnector, BuildAndVerifyPumpUnit)`, and `methodPartOf(RunFunctionalTest, BuildAndVerifyPumpUnit)` obtain because the stable whole construction rule names each contribution. Every already admitted connector-adapter alternative may stand in `methodPartOf` simultaneously; one Work occurrence selecting an alternative does not toggle those atemporal occurrences. Removing a contribution from the construction rule, adding a new admitted alternative, or changing a required order, join, whole result, or boundary outside the declared variations identifies another whole Method.
 
-For the ordinary use, say: the installed motor must provide the harness-installed condition required by functional test; when the supplier connector does not provide it, `AdaptMotorConnector` must provide the conversion before test; adapter failure stops the whole before test. In this one use, `PumpInstallBeforeTest` and `PumpConnectorAdapterJoin` are readable labels for local compound claim content in the exact `PumpBuildCompositionDescription-v1 : U.MethodDescription` episteme under A.3.2 and C.2.1, not relation-kind names or occurrence designators. If several pump-family uses need the same parameterized rule, A.6.RCD can identify a reusable predicate-definition episteme. Only a later named receiver that needs stable occurrences can justify returning a derived-kind candidate to E.24 and E.24.UK.
+For the ordinary use, say: the installed motor must provide the harness-installed condition required by functional test; when the supplier connector does not provide it, `AdaptMotorConnector` must provide the conversion before test; adapter failure stops the whole before test. In this one use, `PumpInstallBeforeTest` and `PumpConnectorAdapterJoin` are readable labels for local compound claim content in the exact `PumpBuildCompositionDescription-v1 : U.MethodDescription` episteme under A.3.2 and C.2.1, not relation-kind names or occurrence designators. If several pump-family uses need the same parameterized rule, A.6.RCD can identify a reusable predicate-definition episteme. Only a later named receiver that needs stable occurrences can justify evaluating a derived-kind candidate under E.24 and E.24.UK.
 
 The composite qualification additionally requires the candidate's generic participants, applicability, preconditions, accepted inputs, final effect, preserved conditions, exposed start and abort interactions, encapsulated calibration interaction, failure routes, and reidentification rule. A list of the five names or an arrow diagram establishes none of these facts.
 
-`PumpUnitBuildWork-2026-07-29` may enact the whole through one exact `enactsMethod` occurrence without four corresponding work parts. If a separately admitted `MotorInstallationWorkPart-2026-07-29` exists, it enacts `InstallMotor` only through its own `enactsMethod` occurrence. Resource use, test telemetry, the produced pump unit, acceptance, and evidence remain under their direct owners.
+`PumpUnitBuildWork-2026-07-29` may enact the whole through one exact `enactsMethod` occurrence without four corresponding work parts. If a separately admitted `MotorInstallationWorkPart-2026-07-29` exists, it enacts `InstallMotor` only through its own `enactsMethod` occurrence. Resource use, test telemetry, the produced pump unit, acceptance, and evidence remain under their subject patterns.
 
 #### B.1.5:5.2 - Emergency Intake
 
@@ -93,7 +93,7 @@ Suppose one dated training Work enacts the exact pipeline Method while three ind
 
 `CollectDatasets`, `NormalizeSchemas`, `EstimateModel`, `CrossValidate`, `DraftManuscript`, and `EvidenceSynthesisAndPublication-v3` must first be exact A.3.1 Methods. B.1.5 can qualify the last as composite only when every claimed `methodPartOf` occurrence obtains and its whole-forming claims and constraints pass A.6.RCD's lightest sufficient disposition. In ordinary language, the intended result of `NormalizeSchemas` must satisfy the admitted input meaning of `EstimateModel`; legacy datasets may require adapter Methods; `CrossValidate` may be a critical cutset for later assurance; and a provenance condition may be a precondition of `DraftManuscript` before publication Work begins.
 
-A paper draft, workflow diagram, repository, or notebook may be a claim-bearing episteme, a representation, or a carrier; its form does not make it the Method. Publication Work is `U.Work`. Compute, storage, reviewer time, artifact production, release, and acceptance stay with their direct owners.
+A paper draft, workflow diagram, repository, or notebook may be a claim-bearing episteme, a representation, or a carrier; its form does not make it the Method. Publication Work is `U.Work`. Compute, storage, reviewer time, artifact production, release, and acceptance stay with their subject patterns.
 
 `EvidenceSynthesisInterfaceDescription-v3 : U.MethodDescription` may state that the Method exposes `Submit()` and `ReleaseArtifacts()`, forwards `CrossValidate.Folds(k)`, and encapsulates ad hoc scrubbing utilities. Identify `SubmissionReleaseBoundaryAccountForm-v3` independently as the reusable arrangement entity selected as the boundary-account form. Identify `EvidenceSynthesisMethodsPage-2026-07 : U.PresentationCarrier` independently as the digital carrier. Identify `SubmissionAndArtifactReleaseUse : U.Episteme` as the bounded-use declaration whose claims state the supported submission and artifact-release operations, their conditions, and the excluded stronger use. Identify `SubmittingResearchersAudienceDeclaration-v1 : U.Episteme` as the audience declaration whose claims select the authorized submitting researchers; those researchers are the declared audience, not a participant substituted for the declaration episteme.
 

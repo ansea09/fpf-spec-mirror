@@ -6,12 +6,12 @@ section_id: "F.17:10"
 section_title: "Static conformance rules for a UTS"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__012_static-conformance-rules-for-a-uts.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:10 — Static conformance rules for a UTS"
-line_start: 95994
-line_end: 96015
+line_start: 96778
+line_end: 96799
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -64,7 +64,7 @@ Use these checks before citing a row outside its immediate sheet.
 | UTS-SCR-06 | Any cited `LocalSenseBasisRelation` has only its exact cell and basis episteme as participants; source-unit and publication facts remain qualifiers or neighboring objects. |
 | UTS-SCR-07 | Apply all four Bridge probes: same scheme plus same `LocalSenseClaim` plus another expression is a designation question and adds no Bridge; same scheme plus a different claim opens F.9 and, only for a named row use, the separate use-claim/reliance branch; a different scheme opens only the Bridge question and establishes none; no current correspondence use creates no Bridge or use claim regardless of scheme count. |
 | UTS-SCR-08 | Any cited F.9 Bridge has exact endpoint cells and editions, an applicable relation-semantic profile, a true kind-defined predicate, and every required dependency. The separate affirmative C.2.1 use claim states direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance. A negative use claim rejects that exact row use; non-passing reliance stops or narrows it; neither negates or reidentifies an otherwise obtaining Bridge. |
-| UTS-SCR-09 | A role row does not identify RoleDescription, RoleAssignment, capability, method, or Work with the governed role value; a status row does not turn a status family, value, or window into a role. |
+| UTS-SCR-09 | A system-role-kind row does not identify `SystemRoleKindDescription`, `SystemRoleAssignment`, capability, Method, or Work with the governed kind; a status row does not turn a status family, value, or window into a system-role kind. |
 | UTS-SCR-10 | Evidence, assurance, source, publication, description, relation, slot, interface, authority, and equivalence claims use the patterns that define, constrain, or test them rather than becoming row truth. |
 | UTS-SCR-11 | Row id, block, table position, source title, file, carrier, suffix, and filled-cell count create neither value identity nor row adequacy. |
 | UTS-SCR-12 | The row states the exact scheme, receiving use, and reader breadth actually checked; a narrow row claims neither universal nor corpus-wide reuse. |

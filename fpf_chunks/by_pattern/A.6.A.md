@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.A.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
-line_start: 17381
-line_end: 18134
+line_start: 17609
+line_end: 18362
 dependencies:
   - "A.15"
   - "A.16"
@@ -418,7 +418,7 @@ A conforming `PolicyHook` publishes:
 
 * referenced policy, method, gate, and protocol ids (pre-existing governing FPF patterns or `authoritySourceRef` named sources only),
 * applicable guard or trigger conditions,
-* accountable role or `authoritySourceRef` named source,
+* admitted acting or maintaining System; any exact system-role kind or assignment needed by the hook's work context; the direct responsibility relation that selects that System, or the exact A.6.RCD missing governor; and any separate `authoritySourceRef` source,
 * escalation or override references when relevant,
 * explicit note that the hook is a **binding publication** over existing semantics, not itself a commitment, an admissibility rule, or a work occurrence.
 

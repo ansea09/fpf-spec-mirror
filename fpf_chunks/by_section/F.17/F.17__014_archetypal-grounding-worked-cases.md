@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 96029
-line_end: 96665
+line_start: 96813
+line_end: 97660
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,23 +52,23 @@ keywords:
 
 ### F.17:12 - Archetypal Grounding - worked cases
 
-#### F.17:12.1 - Role name becomes public across two project contexts
+#### F.17:12.1 - System-role-kind name becomes public across two project contexts
 
-One project has an exact design-review role value and an independently governed external-audit role value. Both local expressions say `reviewer`, but one concerns a system-in-role performing design-review Work and the other concerns an assurance actor producing an audit report.
+One project has an exact local `DesignReviewerSystemRole` kind and another has an independently governed `ExternalAuditReviewerSystemRole` kind. Both local expressions say `reviewer`, but one classifies an admitted System that may perform design-review Work and the other classifies an admitted assurance System that may produce an audit report. Any actual assignment and Work are separately identified.
 
-The UTS row does not declare one universal reviewer. It either creates two rows or, when one naming use between different semantic-context projections is genuinely needed, cites an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names the use direction, label rule, and tolerated loss. Each row cites the pattern that defines or constrains its role value, the RoleDescription when current, and the `F.18` NameCardRef. A.10 or B.3 governs reliance on the use claim; no row or card creates a role assignment or review Work.
+The UTS row does not declare one universal reviewer kind. It creates two rows. Only when a named use really needs correspondence between their two exact sense cells may it cite an obtaining F.9 Bridge plus an affirmative C.2.1 claim that names direction, label rule, and tolerated loss. Each row cites the pattern that defines or constrains its local system-role kind, its `SystemRoleKindDescription` when current, and the `F.18` NameCardRef. Use A.10 or B.3 to state reliance on the use claim; no row or card creates an assignment or review Work.
 
-#### F.17:12.2 - Status label looks like a role name
+#### F.17:12.2 - Status label looks like a system-role-kind name
 
-A team proposes `BlockedReviewer` as a public label. F.17 does not accept it as a row until the rules for the two governed values are separated. `Reviewer` is a role value; `blocked` is a status-family value or status-window value. The sheet may publish `Reviewer` as a role row and `Blocked` as a status row, with a note that a local UI may render them together. The table does not create a role called "blocked reviewer".
+A team proposes `BlockedReviewer` as a public label. F.17 does not accept it as a row until the two governed values are separated. `ReviewerSystemRole` is a local system-role kind; `blocked` is a status-family or status-window value. The sheet may publish a system-role-kind row and a status row, with a note that a local UI may render their labels together. The table creates neither a `BlockedReviewerSystemRole` kind nor an assignment.
 
 #### F.17:12.3 - Relation and slot names become reusable
 
-An architecture pattern needs public names for `interfaceSlot`, `providedPort`, and `requiredPort`. The UTS row cites `A.6.5` for slot discipline, `A.6.RSIR` when the relation-signature-interface boundary is current, and `F.18` for durable names. The row does not treat a slot name as a component, role, or capability. If a project context uses `port` differently, the UTS row keeps the local sense and bridge explicit.
+An architecture pattern needs public names for `interfaceSlot`, `providedPort`, and `requiredPort`. The UTS row cites `A.6.5` for slot discipline, `A.6.RSIR` when the relation-signature-interface boundary is current, and `F.18` for durable names. The row does not treat a slot name as a component, system-role kind, assignment, or capability. If a project context uses `port` differently, the UTS row keeps the local sense and Bridge explicit.
 
 #### F.17:12.4 - Misleading evidence-role row
 
-A sheet has a row labelled `Evidence role`. F.17 repairs the row by recovering the governed object instead of treating that label as a U-kind. If the claim is that an episteme is being used as evidence for another claim, `A.10`, `B.3`, or `A.2.4` governs the evidence relation. If the claim is that a system performs evidence-producing work, `A.2.1`, `F.6`, and `A.15.1` govern role assignment and performed work. The UTS may publish names for these values; a generic evidence-role row that fuses them is not admitted.
+A sheet has a row labelled `Evidence role`. F.17 treats that wording as a trigger and recovers the governed object instead of admitting a U-kind. If an episteme is used as evidence for another claim, use `A.10`, `B.3`, or `A.2.4` for the evidence relation. If an admitted System performs evidence-producing Work, recover any exact local system-role kind with `A.2`, a separately obtaining assignment with `A.2.1`, performed Work with `A.15.1`, and Work attribution with `F.6`. The UTS may publish names for those distinct values; a generic evidence-role row that fuses them is not admitted.
 
 #### F.17:12.4a - Manufacturing batch across material and planning contexts
 
@@ -260,7 +260,7 @@ A.10 evidence reliance for this claim:
     DictionaryEvidenceRecord-OALD: Oxford Advanced Learner's Dictionary "mantra" entry, accessed 2026-07-11 --derivedFrom--> https://www.oxfordlearnersdictionaries.com/definition/english/mantra
     ReaderCueEvidenceRecord: Zhu, Reinecke, and Mitra, Language Scent, arXiv:2604.03604 (2026) --derivedFrom--> https://arxiv.org/abs/2604.03604; supports contextual cues, not equivalence or fitness for every reader
   EvidenceProducingOrInterpretingWork: absent from this fixture; no Work occurrence is used as a premise
-  CurrentRoleAssignment: absent from this fixture
+  CurrentSystemRoleAssignment: absent from this fixture
   MethodTrace: absent from this fixture
   CurrentnessAndWindow: applies to the named 2026-07-11 sense as evidenced by the exact current seminar carrier editions above; both Git blobs must resolve, both carrier paths must retain the cited raw-SHA-256 bytes, and the cited NameCard and A.22.CGUS governed value must remain current
   UnsupportedAttemptedUse: reverse substitution, structural inference, or any method, plan, authority, Work, teaching-medium identity, publication occurrence, or other receiving occurrence
@@ -400,7 +400,7 @@ UnifiedPlainName: this assignment's holder uses this model during this work conc
 NameCardRef: NC-MODEL-USE-RELATION
 SenseCellRefs: SenseCell.ModelUseRelation.FPFCore.2026-07-25
 BridgeRefs: none; this row makes no semantic-correspondence or substitution claim
-RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 actual-use predicate and identity rule, and the selected names expose that relation while keeping applicability, role assignment, performed Work, method application, claims, and records separate
+RowRationale: the governed value is the A.1.1 relation-kind token; its admitted instances are exactly the obtaining U.Relation occurrences that satisfy the A.1.1 actual-use predicate and identity rule, and the selected names expose that relation while keeping applicability, system-role assignment, performed Work, Method application, claims, and records separate
 AdmissibleUse: Core-facing designation of the A.1.1 relation kind and its use in the E.24.UK bounded-model-use membership test
 BlockedUse: no use occurrence from availability, access, mention, assignment alone, Work alone, method application, assertion, publication, or structure membership
 RowEditionId: 2026-07-25
@@ -410,7 +410,7 @@ SenseCell.ModelUseRelation.FPFCore.2026-07-25:
   ReferenceScheme: FPFCoreReferenceScheme
   LocalSenseId: ModelUseRelation-core
   LocalExpression: ModelUseRelation
-  LocalSenseClaim: the direct relation kind over one exact role-assignment occurrence, model episteme, performed Work occurrence, and use-locus holon; one exact relation occurrence obtains only when the A.1.1 actual-use predicate is true and all other governing conditions hold
+  LocalSenseClaim: the direct relation kind over one exact system-role-assignment occurrence, model episteme, performed Work occurrence, and use-locus holon; one exact relation occurrence obtains only when the A.1.1 actual-use predicate is true and all other governing conditions hold
   senseFamily: ModelUse
   NameCardRef: NC-MODEL-USE-RELATION
   LocalSenseBasisRelationRefs: LocalSenseBasisRelation.ModelUseRelation.FPFCore.2026-07-25
@@ -686,4 +686,215 @@ The three row epistemes, their `UTSRowId` designators, external references, sele
 Do not publish a `UnifiedTermRow` as a placeholder. Publish it only when the governed value, its lexical classification, the reference scheme's selected name and permitted scope, and the intended public use are settled enough to pass F.18 and the ordinary F.17 row gate. If any of these inputs is unresolved, keep it as naming work rather than representing it as a public row.
 
 A NameCard, scheme-sense cell, basis relation, row reference, or publication occurrence is not a substitute for those decisions. Keep predicate definition, actual use, basis analysis, naming settlement, row publication, and availability separate.
+
+#### F.17:12.4h - Role-Precision Core Rows
+
+These eight rows expose the accepted F.18 designation pairs for Core citation. Each row names one value already defined or constrained by its subject pattern and uses one `FPFCoreReferenceScheme` sense cell. Its currentness follows that value and subject-pattern rule, the stable E.10 token classification and allowed-use rule it consumes, its exact NameCard, sense cell, and cited use. A dated corpus audit or candidate-conformance result is not a row dependency. The rows create no assignment, declaration, judgment, description, relation occurrence, predicate truth, structure, Bridge, or publication occurrence.
+
+```text
+UTSRowId: UTS.U.SystemRoleAssignment.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: U.SystemRoleAssignment
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: A.2.1
+UnifiedTechName: U.SystemRoleAssignment
+UnifiedPlainName: assignment to a system role
+NameCardRef: NC-U-SYSTEM-ROLE-ASSIGNMENT
+SenseCellRefs: SenseCell.U.SystemRoleAssignment.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name the direct assignment family whose species relate an independently admitted system to one exact local system-role kind
+AdmissibleUse: Core-facing citation of the family and exact directly declared species
+BlockedUse: no kind, record, field, occurrence, authority, responsibility, or Work follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when A.2.1, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for U.SystemRoleAssignment, or the cited use changes
+
+UTSRowId: UTS.KindUseAdaptationDeclaration.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: KindUseAdaptationDeclaration
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: C.3.4
+UnifiedTechName: KindUseAdaptationDeclaration
+UnifiedPlainName: declaration of a local use of a kind
+NameCardRef: NC-KIND-USE-ADAPTATION-DECLARATION
+SenseCellRefs: SenseCell.KindUseAdaptationDeclaration.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name the declaration episteme that pins one exact base kind and signature edition, one receiving use, its constraints or vocabulary bindings, definedness, and intended guard use
+AdmissibleUse: Core-facing citation of the C.3.4 declaration family
+BlockedUse: no kind, assignment, scope, profile, system role, guard decision, or judgment follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when C.3.4, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for KindUseAdaptationDeclaration, or the cited use changes
+
+UTSRowId: UTS.KindUseAdaptationCorrespondenceDeclaration.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: KindUseAdaptationCorrespondenceDeclaration
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: C.3.4
+UnifiedTechName: KindUseAdaptationCorrespondenceDeclaration
+UnifiedPlainName: declaration of how two local ways of using kinds correspond and what is lost
+NameCardRef: NC-KIND-USE-ADAPTATION-CORRESPONDENCE-DECLARATION
+SenseCellRefs: SenseCell.KindUseAdaptationCorrespondenceDeclaration.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name one declaration episteme stating deterministic correspondence and loss between two exact adaptation declarations
+AdmissibleUse: Core-facing citation of the C.3.4 correspondence-declaration family
+BlockedUse: no F.9 Bridge, executable adapter, mapping Method, representation correspondence, assignment, or target truth follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when C.3.4, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for KindUseAdaptationCorrespondenceDeclaration, or the cited use changes
+
+UTSRowId: UTS.KindUseAdaptationJudgment.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: KindUseAdaptationJudgment
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: C.3.4
+UnifiedTechName: KindUseAdaptationJudgment
+UnifiedPlainName: judgment of whether a candidate fits a local use of a kind
+NameCardRef: NC-KIND-USE-ADAPTATION-JUDGMENT
+SenseCellRefs: SenseCell.KindUseAdaptationJudgment.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name the true, false, or unknown result for one candidate under pinned base-kind, signature, declaration-edition, and slice inputs
+AdmissibleUse: Core-facing citation of the C.3.4 judgment family
+BlockedUse: no declaration, candidate, guard disposition, evidence result, or kind membership follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when C.3.4, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for KindUseAdaptationJudgment, or the cited use changes
+Notes: J_kindUse remains declaration-local notation and receives no row
+
+UTSRowId: UTS.SystemRoleKindDescription.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: SystemRoleKindDescription
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: F.4
+UnifiedTechName: SystemRoleKindDescription
+UnifiedPlainName: description of a system-role kind
+NameCardRef: NC-SYSTEM-ROLE-KIND-DESCRIPTION
+SenseCellRefs: SenseCell.SystemRoleKindDescription.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name one F.4 description episteme whose exact EntityOfConcern is one local system-role kind
+AdmissibleUse: Core-facing citation of the F.4 description-episteme construction
+BlockedUse: no described kind, assignment, NameCard, row, publication form, or carrier follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when F.4, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for SystemRoleKindDescription, or the cited use changes
+
+UTSRowId: UTS.SystemRoleAssignmentStateRelation.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: SystemRoleAssignmentStateRelation
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: A.2.5
+UnifiedTechName: SystemRoleAssignmentStateRelation
+UnifiedPlainName: this assignment to a system role satisfies this state condition
+NameCardRef: NC-SYSTEM-ROLE-ASSIGNMENT-STATE-RELATION
+SenseCellRefs: SenseCell.SystemRoleAssignmentStateRelation.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name the direct relation between one exact U.SystemRoleAssignment occurrence and one by-value SystemRoleAssignmentStatePredicate
+AdmissibleUse: Core-facing citation of the A.2.5 direct relation kind
+BlockedUse: no state assertion, displayed status, predicate value, assignment, or obtaining occurrence follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when A.2.5, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for SystemRoleAssignmentStateRelation, or the cited use changes
+
+UTSRowId: UTS.SystemRoleAssignmentStatePredicate.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: SystemRoleAssignmentStatePredicate
+GovernedValueKindRef: U.Kind
+SubjectPatternLocator: A.2.5
+UnifiedTechName: SystemRoleAssignmentStatePredicate
+UnifiedPlainName: state condition for an assignment to a system role
+NameCardRef: NC-SYSTEM-ROLE-ASSIGNMENT-STATE-PREDICATE
+SenseCellRefs: SenseCell.SystemRoleAssignmentStatePredicate.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name the predicate-value family whose members state truth conditions over exact system-role assignments
+AdmissibleUse: Core-facing citation of the A.2.5 predicate-value family
+BlockedUse: no relation occurrence, assertion, displayed result, state label, or assignment follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when A.2.5, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for SystemRoleAssignmentStatePredicate, or the cited use changes
+
+UTSRowId: UTS.SystemRoleKindRelationStructure.FPFCore.2026-08-09
+ReferenceScheme: FPFCoreReferenceScheme
+UnificationThreadId: RoleOntologyAndWordingPrecision.2026-08-09
+Block: System-role assignments and kind-use precision
+GovernedValueRef: SystemRoleKindRelationStructure
+GovernedValueKindRef: U.Structure
+SubjectPatternLocator: A.2.7
+UnifiedTechName: SystemRoleKindRelationStructure
+UnifiedPlainName: structure of relations among system-role kinds
+NameCardRef: NC-SYSTEM-ROLE-KIND-RELATION-STRUCTURE
+SenseCellRefs: SenseCell.SystemRoleKindRelationStructure.FPFCore.2026-08-09
+BridgeRefs: none
+RowRationale: both designations name the selected U.Structure over exact local system-role kinds and exact admitted relations among those kinds
+AdmissibleUse: Core-facing citation of the A.2.7 selected structure construction
+BlockedUse: no assignment configuration, taxonomy episteme, graph, table, system collection, or structure occurrence follows from this row
+RowEditionId: 2026-08-09
+CurrentnessCondition: reopen when A.2.7, the exact NameCard, FPFCoreReferenceScheme or sense cell, E.10:7.5b classification or allowed-use rule for SystemRoleKindRelationStructure, or the cited use changes
+```
+
+The rows use these exact scheme-based sense cells; the cells name no additional value and require no Bridge merely because both Tech and Plain designations exist.
+
+```text
+SenseCell.U.SystemRoleAssignment.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: U.SystemRoleAssignment-core
+  LocalExpression: U.SystemRoleAssignment
+  LocalSenseClaim: the family of assignments in which each occurrence belongs to a declared species, relates an admitted System to one local system-role kind, and includes only the other participants required by that species
+  NameCardRef: NC-U-SYSTEM-ROLE-ASSIGNMENT
+
+SenseCell.KindUseAdaptationDeclaration.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: KindUseAdaptationDeclaration-core
+  LocalExpression: KindUseAdaptationDeclaration
+  LocalSenseClaim: a C.2.1 declaration episteme that pins the base kind and signature edition, receiving use, constraints or vocabulary bindings, definedness, and intended guard use
+  NameCardRef: NC-KIND-USE-ADAPTATION-DECLARATION
+
+SenseCell.KindUseAdaptationCorrespondenceDeclaration.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: KindUseAdaptationCorrespondenceDeclaration-core
+  LocalExpression: KindUseAdaptationCorrespondenceDeclaration
+  LocalSenseClaim: a C.2.1 declaration episteme stating deterministic correspondence and loss between two exact KindUseAdaptationDeclaration values; it creates no Bridge, execution, representation correspondence, or target truth
+  NameCardRef: NC-KIND-USE-ADAPTATION-CORRESPONDENCE-DECLARATION
+
+SenseCell.KindUseAdaptationJudgment.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: KindUseAdaptationJudgment-core
+  LocalExpression: KindUseAdaptationJudgment
+  LocalSenseClaim: the true, false, or unknown result for one candidate under a pinned base kind, signature edition, adaptation-declaration edition, and slice; it is not the declaration, guard disposition, or evidence
+  NameCardRef: NC-KIND-USE-ADAPTATION-JUDGMENT
+
+SenseCell.SystemRoleKindDescription.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: SystemRoleKindDescription-core
+  LocalExpression: SystemRoleKindDescription
+  LocalSenseClaim: an F.4 description episteme whose exact EntityOfConcern is one local system-role kind
+  NameCardRef: NC-SYSTEM-ROLE-KIND-DESCRIPTION
+
+SenseCell.SystemRoleAssignmentStateRelation.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: SystemRoleAssignmentStateRelation-core
+  LocalExpression: SystemRoleAssignmentStateRelation
+  LocalSenseClaim: an obtaining direct relation between one exact U.SystemRoleAssignment occurrence and one by-value SystemRoleAssignmentStatePredicate
+  NameCardRef: NC-SYSTEM-ROLE-ASSIGNMENT-STATE-RELATION
+
+SenseCell.SystemRoleAssignmentStatePredicate.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: SystemRoleAssignmentStatePredicate-core
+  LocalExpression: SystemRoleAssignmentStatePredicate
+  LocalSenseClaim: the predicate-value family whose members state truth conditions over exact system-role assignments; it is not an assertion, displayed result, or obtaining relation
+  NameCardRef: NC-SYSTEM-ROLE-ASSIGNMENT-STATE-PREDICATE
+
+SenseCell.SystemRoleKindRelationStructure.FPFCore.2026-08-09:
+  ReferenceScheme: FPFCoreReferenceScheme
+  LocalSenseId: SystemRoleKindRelationStructure-core
+  LocalExpression: SystemRoleKindRelationStructure
+  LocalSenseClaim: a selected U.Structure over exact local system-role kinds and admitted relations among those kinds; it is not an assignment configuration, taxonomy episteme, or system collection
+  NameCardRef: NC-SYSTEM-ROLE-KIND-RELATION-STRUCTURE
+```
 

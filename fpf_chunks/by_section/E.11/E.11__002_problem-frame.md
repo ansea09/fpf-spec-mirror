@@ -6,12 +6,12 @@ section_id: "E.11:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:1 — Problem frame"
-line_start: 76837
-line_end: 76854
+line_start: 77482
+line_end: 77499
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"
@@ -24,10 +24,19 @@ dependencies:
   - "F.18"
   - "G.11"
 keywords:
-  - "Public first-entry explanation or durable pattern semantics"
-  - "admission state"
-  - "and dependencies"
+  - "& Search Queries"
+  - "& Search Queries includes at least one recognizable working-question cue"
+  - "Dependencies"
+  - "a substantive claim returns to the direct pattern whose content defines"
+  - "and Dependencies"
+  - "and retrieval are finding aids"
+  - "cards"
+  - "constrains"
+  - "or boundary mini-method. ToC"
+  - "or tests it"
   - "query phrases"
+  - "result"
+  - "with a recognizable working-question cue and no copied first move"
 ---
 
 ### E.11:1 - Problem frame
@@ -46,5 +55,5 @@ The ordinary reader does not arrive with a PatternID. They arrive with a project
 
 **What this buys.** A cold reader starts from a real project question rather than FPF topology, while exact pattern authority stays in the direct pattern and duplicate navigation canons do not grow.
 
-**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest independently governed result or an honest missing-basis stop. Use `E.11.PUR` when applicability, recommendation, coordination, or ordering among candidate pattern uses is the current question. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
+**Not this pattern when.** After one direct pattern is selected, use `E.11.PUA` to follow its `Solution` to the smallest useful result or an honest missing-basis stop. Use `E.11.PUR` to judge applicability, recommendation, coordination, or ordering among candidate pattern uses, and to stop on an earlier result that still answers the concern. Use the direct pattern for the actual result, plan, work, evidence, decision, authorization, or publication claim.
 

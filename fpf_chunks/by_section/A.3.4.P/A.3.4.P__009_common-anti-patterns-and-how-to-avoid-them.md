@@ -6,12 +6,12 @@ section_id: "A.3.4.P:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 9084
-line_end: 9096
+line_start: 9298
+line_end: 9310
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -52,7 +52,7 @@ keywords:
 | Network head inflation | Frequent network or circuit wording becomes a peer durable head. | Use network or circuit as structure form, topology label, mathematical-expression family, domain label, or subject-domain system only when recovered by value. |
 | Selected structure as transformation composition | Common membership in one flow, path, network, circuit, or pipeline is treated as a composite transformation, transformation-part relation, or proof of indivisibility. | Use `E.18` only to position, relate, or locate transformation loci and adjacent governed values. Ground every actual `U.Transformation` independently under `A.3.4`; common structure membership establishes neither composition, parthood, nor partlessness. |
 | Workflow as performed work | A workflow diagram or process model is treated as dated work. | Use `A.3.2`, `E.18`, or `C.2.P.DR` for the description or structure; use `A.15.1` only for dated work. |
-| Function as proof of behavior | A module, port, participant, role assignment, or "transformer" label is treated as proof of actual change or action. | Recover the actual transformation basis; for performed work, one exact Work occurrence admitted under `U.Work`, its covering `U.RoleAssignment`, direct `performedBy`, and the required separate work-to-change relation; otherwise the exact participant, operation-application, functioning, causal, or other direct actor-side relation. |
-| Architecture influence as action | A manufacturing or certification organization, design organization, method or method family, toolchain, communication system, selected structure, or other value is called the actor because it constrained or enabled a candidate. | Recover the value's exact kind first, then only its exact architecture, work, communication, constraint, or candidate-synthesis relation. A method or method family is not a holon by label, the temporary influence-disposition field is no new relation, and influence alone proves no role, work, actor status, or transformation participation. |
+| Function as proof of behavior | A module, port, participant, assignment occurrence, or "transformer" label is treated as proof of actual change or action. | Recover the actual transformation basis; for performed Work, point to its complete A.15.1/F.6 basis and required separate Work-to-change relation; otherwise use the exact participant, operation-application, functioning, causal, or other direct actor-side relation. |
+| Architecture influence as action | A manufacturing or certification organization, design organization, Method or Method family, toolchain, communication System, selected structure, or other value is called the actor because it constrained or enabled a candidate. | Recover the value's exact kind first, then only its exact architecture, Work, communication, constraint, or candidate-synthesis relation. A Method or Method family is not a holon by label, the temporary influence-disposition field is no new relation, and influence alone establishes no local system-role kind, separate System-classification judgment, assignment occurrence, Work, acting fact, or transformation participation. |
 | Publication as change | A diagram, proof, dashboard, or source span is treated as the changed object or change occurrence. | Use description, publication, evidence, or source-use pattern for the carrier and keep the transformation under `A.3.4`. |
 

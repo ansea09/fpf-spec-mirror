@@ -6,12 +6,12 @@ section_id: "C.2.P.DR:6"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P.DR/C.2.P.DR__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.P.DR — Declarative Representation Precision Restoration"
   - "C.2.P.DR:6 — Conformance checklist"
-line_start: 44541
-line_end: 44555
+line_start: 44763
+line_end: 44777
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -48,13 +48,13 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-C2PDR-1` | A repair separately names the visible expression or artifact, the exact current direct object or relation, and the exact representation or correspondence use or `none`; no field types structures, relations, formal objects, publication objects, or carrier-side objects as one family of representation kinds. |
-| `CC-C2PDR-2` | When a representation use is current, the repair names its exact represented EntityOfConcern or claim and, for a mathematical-lens or selected-structure use, the preserved and lost structure and admitted and blocked uses required by its direct owner; any current source or publication relation is named independently. When `RepresentationOrCorrespondenceUse` is `none`, no represented-target, preserved/lost-structure, or lens-use account is required. |
+| `CC-C2PDR-2` | When a representation use is current, the repair names its exact represented EntityOfConcern or claim and, for a mathematical-lens or selected-structure use, the preserved and lost structure and admitted and blocked uses required by its subject pattern; any current source or publication relation is named independently. When `RepresentationOrCorrespondenceUse` is `none`, no represented-target, preserved/lost-structure, or lens-use account is required. |
 | `CC-C2PDR-3` | The tempting stronger action claim is explicit: route, call, dispatch, invoke, run, flow, send, receive, authorize, release, prove, prescribe, execute, select, pass a gate, or record work. |
-| `CC-C2PDR-4` | The recovered governing pattern is named by value, or the case is demoted to quote-only, ordinary prose, reduced-use cue, blocked use, or incomplete rewrite. |
+| `CC-C2PDR-4` | The recovered subject pattern is named by value, or the case is demoted to quote-only, ordinary prose, reduced-use cue, blocked use, or incomplete rewrite. |
 | `CC-C2PDR-5` | Legitimate `A.10 evidence path`, `E.18` graph path, `PathSlice`, carrier file path, URL, or mathematical path use is preserved when its exact evidence, provenance, graph, carrier/source, or mathematical object or relation is current. |
-| `CC-C2PDR-6` | Method-like and algorithm-like wording identifies the visible expression, direct object or relation, current claim, and any exact representation use before selecting a direct owner. If A.3.2 is selected, one already identified C.2.1 episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive way-of-doing claim; code, SOP, proof, solver, workflow, process, procedure, recipe, protocol, model, or diagram form alone does not pass. |
-| `CC-C2PDR-7` | An `E.10.ARCH:3.1` project-concern recovery may connect method, mechanism, formal-substrate, work values, evidence relations, source relations, gate relations, or result relations, but each connected value keeps its own governing pattern and typed claim. |
+| `CC-C2PDR-6` | Method-like and algorithm-like wording identifies the visible expression, direct object or relation, current claim, and any exact representation use before selecting a subject pattern. If A.3.2 is selected, one already identified C.2.1 episteme has one admitted `U.Method` as its exact `EntityOfConcern` and at least one substantive way-of-doing claim; code, SOP, proof, solver, workflow, process, procedure, recipe, protocol, model, or diagram form alone does not pass. |
+| `CC-C2PDR-7` | An `E.10.ARCH:3.1` project-concern recovery may connect method, mechanism, formal-substrate, work values, evidence relations, source relations, gate relations, or result relations, but each connected value keeps its own subject pattern and typed claim. |
 | `CC-C2PDR-8` | The repair leaves one retained use and one blocked overread; type-correct but inert wording is incomplete. |
 | `CC-C2PDR-9` | The pattern does not become a general representation theory, API pattern, schema pattern, legal framework, workflow framework, or generic admissibility pattern. |
-| `CC-C2PDR-10` | Direct governing patterns keep their invariants. This pattern only restores representation use and blocked overread before those patterns carry their own claims. |
+| `CC-C2PDR-10` | Subject patterns keep their invariants. This pattern only restores representation use and blocked overread before those patterns carry their own claims. |
 

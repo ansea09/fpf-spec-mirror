@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - System Role Assignment"
+pattern_title: "U.SystemRoleAssignment - Contextual System-Role Assignment"
 section_id: "A.2.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:0 — Use This When"
-line_start: 2993
-line_end: 3026
+line_start: 3128
+line_end: 3161
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -20,56 +20,57 @@ dependencies:
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
   - "A.6.5"
   - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.3.3"
   - "F.6"
   - "F.9"
-  - "U.Role"
 keywords:
-  - "AssignmentInterval"
-  - "assignment occurrence"
-  - "effective ReferenceScheme"
+  - "assignment predicate"
+  - "direct assignment species"
   - "holder System"
+  - "identity"
+  - "maximal interval"
   - "performedUnderAssignment"
-  - "role value"
-  - "role-taxonomy episteme"
+  - "system-role kind"
 ---
 
 ### A.2.1:0 - Use This When
 
-**Plain name.** System role assignment.
+**Plain name.** Assignment to a system role.
 
-Use this pattern when another claim must rely on which admitted `U.System` holds which enactment-facing `U.Role`, under which role vocabulary and interpretation scheme, during which assignment window.
+Use this pattern when another claim must rely on one obtaining assignment of an admitted `U.System` under one exact local system-role kind.
 
 Typical moments:
 
-- a method description names `InspectorRole`, but the current holder and assignment window are still unstated;
-- a performed-work attribution is needed: one exact dated Work occurrence `W` and one exact assignment `RA` participate in `performedUnderAssignment(W, RA)`, the direct relation governed by `F.6`; the actual performer is the admitted holder System `S = RA.HolderSystemSlot`, and a separate assertion may designate `W` and `RA`;
-- the same system receives the same role during two separate assignment episodes;
-- a DDD-style model-use organization changes the interpretation of an otherwise identical role assignment;
-- a constituting decision or installation relation may establish a specialized assignment occurrence;
-- a roster entry, configuration line, observation, or evidence relation may support an assignment claim without becoming an assignment slot.
+- a MethodDescription names `InspectorSystemRole`, but no current assignment occurrence has been established;
+- dated Work must be attributed through `performedUnderAssignment(W, RA)` and the exact assignment `RA` is still missing;
+- the same system receives the same system-role kind during two separated episodes;
+- two overlapping commissions or positions distinguish two assignments with the same holder and system-role kind;
+- an appointment, installation locus, or work commission may be a real additional participant of one domain assignment species;
+- a roster, configuration row, observation, decision, or evidence item supports an assignment claim without becoming an assignment participant.
 
-**Primary EntityOfConcern.** The EntityOfConcern is one obtaining `U.RoleAssignment` relation occurrence. Its four required actual participants are an admitted `U.System` holder, one `U.Role` value, the role-taxonomy episteme, and the effective `U.ReferenceScheme` under which that value is interpreted. The occurrence has a maximal continuous temporal extent determined by uninterrupted obtaining; an assignment assertion or occurrence description may state the currently known extent as an `AssignmentInterval`.
+**Primary EntityOfConcern.** One assignment occurrence whose relation species is declared directly under `U.SystemRoleAssignment`. Every species declares a holder participant with `U.System` as its domain, an assigned-kind participant drawn from one exact local system-role-kind domain, its own predicate and applicability, any real additional participant meanings, and its occurrence-identity rule. The occurrence supplies the actual participant values, including its holder System.
 
-**Primary working reader.** The first reader is an engineer-manager, analyst, method author, or FPF author who must make role admission or work attribution inspectable without turning role, capability, method, performed work, evidence, or publication into one assignment relation occurrence.
+**Primary working reader.** An engineer-manager, analyst, Method author, or FPF author who must identify assignment and Work attribution without merging classification, capability, responsibility, authority, Method, Work, evidence, or publication into the assignment.
 
-**First useful move.** Write a readable assignment assertion naming the four required participants and the assignment episode being claimed. State the currently known temporal extent separately. Explicitly individuate the relation occurrence only when a receiving claim must distinguish this assignment episode from another rather than merely recognize that the direct relation obtains.
+**First useful move.** Write the ordinary claim first: “Robot-7 is assigned as inspector for Shift-17.” Then identify the declared assignment species, the participant meanings and predicate it declares, and the participant values that satisfy that predicate in this case. Expose an occurrence reference only when another claim must distinguish or cite this episode.
 
-**What goes wrong if missed.** A role label is mistaken for an assignment, repeated episodes collapse into one timeless relation, or a database row is treated as what makes the assignment obtain. Work may then be attributed to the wrong holder or assignment episode, while evidence, capability, and method claims become hidden fields of the assignment.
+**What goes wrong if missed.** A kind name is mistaken for an assignment, a permissive generic signature accepts arbitrary kinds, two real commissions collapse into one record, or a taxonomy and scheme become world-side participants. Work can then be attributed to the wrong occurrence while capability, authorization, and evidence hide as assignment fields.
 
-**What this buys.** Assignment identity becomes stable enough for method admission, role-state checking, and work attribution while ordinary prose remains lightweight. The assignment relation has one exact identity rule; all support, decision, capability, method, work, evidence, and publication claims keep their direct governing patterns.
+**What this buys.** Simple assignments remain simple, stronger assignments retain their real participants, and every occurrence exposes its actual holder through the species-declared holder slot used by F.6. Repeated episodes are distinguishable without manufacturing a second generic assignment beside a stronger one.
 
 **Not this pattern when.**
 
-- Use `A.2` for role-value interpretation and the role taxonomy itself.
-- Use `A.2.2` for holder capability, `A.2.5` for role state, and `A.2.7` for selected relations among role values.
-- Use `A.3.1`, `A.3.2`, and `A.15` for method and role-admission conditions.
-- Use `A.15.1` and `F.6` for performed work and its attribution through an assignment.
-- Use the direct decision, responsibility, commitment, evidence, reliance, provenance, publication, external-rule, or currentness pattern when that relation is current.
-- Use `A.6.5` when an external relation notation labels a participant `role` and the current task is to recover its exact SlotKind and ValueKind.
+- Use `A.2` and C.3.2 for the system-role kind and one classification judgment.
+- Use `A.2.2` for capability, `A.2.5` for assignment state, and `A.2.7` for relations among system-role kinds.
+- Use `A.3`, `A.15`, and `A.15.1` for Method, MethodDescription, Work, and enactment.
+- Use `F.6` for performed-Work attribution through an already identified assignment.
+- Use the direct responsibility, commitment, permission, authority, access, decision, evidence, reliance, provenance, publication, external-rule, or currentness pattern when that relation is current.
+- Use `E.10.ROLE` when the source word *role* has not yet been resolved; use `A.6.RSIR` when it means relation participation or a declaration place.
 

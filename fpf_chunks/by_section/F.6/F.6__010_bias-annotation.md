@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:8"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__010_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:8 — Bias Annotation"
-line_start: 91842
-line_end: 91852
+line_start: 92592
+line_end: 92603
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,35 +22,35 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:8 - Bias Annotation
 
 | Bias risk | Failure | Repair |
-|---|---|---|
-| Record-first bias | A log row or roster identifier is treated as the world-side relation. | Recover the work and assignment occurrences; keep the row as an assertion or publication. |
-| Universal-context bias | One context field replaces taxonomy, scheme, occurrence extent, scope, and model-use selection. | Restore the four assignment participants, state its actual extent separately, and route every remaining context-denoted object by kind. |
-| Enactment reification | `RoleEnactmentFact` duplicates work and attribution. | Use the direct `performedUnderAssignment` relation. |
-| Support-as-constitution | Evidence existence is made an attribution participant. | Keep evidence in the relation supporting use of an attribution assertion. |
-| Assignment-as-performance | A staffing decision is treated as completed work. | Name a dated `U.Work` occurrence before attribution. |
-| Bridge overreach | A role word from another scheme licenses local attribution. | Recover each local assignment and use `F.9` for correspondence. |
+| --- | --- | --- |
+| Record-first bias | A log or roster identifier is treated as a world-side relation. | Recover Work and assignment occurrences; keep the record as assertion or publication. |
+| Generic-duplicate bias | F.6 demands a weaker assignment beside a stronger appointment. | Accept the family ValueKind and project the holder from the assignment occurrence through its declared species. |
+| Universal-context bias | One context field replaces kind, species, extent, scope, locus, and model-use selection. | Recover each object and direct relation; add no optional generic participant. |
+| Enactment reification | `RoleEnactmentFact` duplicates Work and attribution. | Use `performedUnderAssignment`. |
+| Support-as-constitution | Evidence becomes an attribution participant. | Keep it in the relation supporting the assertion. |
+| Assignment-as-performance | Staffing is treated as completed Work. | Name dated `U.Work` before attribution. |
+| Bridge overreach | A corresponding kind or assignment licenses local attribution. | Recover the local assignment and preserve Work's exact attribution. |
 

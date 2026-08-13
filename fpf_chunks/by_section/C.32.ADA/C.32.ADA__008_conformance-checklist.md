@@ -6,12 +6,12 @@ section_id: "C.32.ADA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:7 — Conformance Checklist"
-line_start: 67358
-line_end: 67372
+line_start: 67695
+line_end: 67709
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,6 +66,6 @@ keywords:
 | `CC-ADA-6` | Weak coordinates name repair pattern refs and repair instructions. |
 | `CC-ADA-7` | Evidence, assurance, gate, measurement, eval, publication, Method, Work, and pattern-quality claims remain distinct subject assertions and cite their exact defining or constraining ClaimGraphs. |
 | `CC-ADA-8` | A project-local ADA record names both `projectWorkOccurrenceRef` and `architectureDecisionEvaluationProjectUseRelationRef`; the evaluated decision's relation, the suffix, or either field alone asserts no locality. |
-| `CC-ADA-9` | An evaluator-role claim names an exact `U.RoleAssignment`; actual evaluation names the admitted holder System, dated `U.Work`, F.6 attribution, and any Method or operation application, while the result remains a separate C.2.1 episteme. |
+| `CC-ADA-9` | A local evaluator kind and a System-classification judgment use separate refs and neither requires an assignment. An assignment claim names both its declared species and obtaining occurrence with actual participants, holder, applicability, and extent. Actual evaluation names its `U.Work` occurrence and keeps all facts required by A.15.1, A.2.1, and F.6 recoverable; an operation application is additional, and the result episteme remains separate. Kind, classification, assignment, Work, and responsibility imply none of the others. |
 | `CC-ADA-10` | Every evaluation binds one exact `U.ClaimScope`, relevant A.2.6 `U.ContextSlice` membership, effective reference scheme and plane, evaluation window, and input projection; the declared-use label and coordinate table do not replace them. |
 

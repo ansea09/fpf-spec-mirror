@@ -1,52 +1,64 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+pattern_title: "SystemRoleKindRelationStructure - Relations among System-Role Kinds"
 section_id: "A.2.7:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:0 — Use This When"
-line_start: 5715
-line_end: 5739
+line_start: 5895
+line_end: 5926
 dependencies:
-  - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.2.5"
+  - "A.22"
+  - "A.6.REL"
+  - "C.3"
+  - "C.3.1"
+  - "E.10.ROLE"
 keywords:
-  - "bundles (⊗)"
-  - "incompatibility (⊥)"
-  - "requiredRoles substitution"
-  - "role algebra"
-  - "separation of duties (SoD)"
-  - "specialization (≤)"
+  - "U.SubkindOf"
+  - "incompatibility"
+  - "joint assignment requirement"
+  - "relations among system-role kinds"
+  - "selected structure"
+  - "substitution"
 ---
 
 ### A.2.7:0 - Use This When
 
-**Plain name.** Relations among role values that a later admission or interpretation check can use.
+**Plain designation.** Say “structure of relations among system-role kinds” for `SystemRoleKindRelationStructure`.
 
-Use this pattern when a role taxonomy contains several `U.Role` values and an engineer must state how those values are related before a system applying a receiving method can evaluate an actual assignment.
+Use this pattern when several exact context-local system-role kinds are already admitted, and a later admission, allocation, or interpretation check needs one of these results:
 
-Typical moments include these:
+- an assignment to one system-role kind may satisfy a condition written for another kind;
+- two system-role kinds are incompatible under one exact holder, Work, and time rule;
+- several independently obtaining assignments are required together under one allocation rule; or
+- one system-role kind narrows another, and the practitioner must decide whether that narrowing is monotonic `U.SubkindOf` or a different residual relation.
 
-- an inspection method description names `InspectorRole`, while the proposed holder is assigned `SeniorInspectorRole`;
-- the same system must not hold author and approver roles for the same work during overlapping windows;
-- a surgical procedure needs several role assignments jointly, with an explicit allocation rule;
-- `RoboticsEngineerRole` narrows the meaning of `EngineerRole`, but that narrowing does not yet say whether one role can satisfy an admission condition written for the other.
+Typical working moments include these:
 
-**Primary EntityOfConcern.** The EntityOfConcern is one `RoleRelationStructure`: a selected, dependent `U.Structure` over declared `U.Role` values and exact obtaining relation occurrences among them. `RoleRelationStructure` is not a new root U-kind and not a holon. It is the non-agentive organization selected because that organization matters for a receiving use. An admitted system performs the receiving evaluation work by a selected method.
+- a pressure-test MethodDescription names `HydraulicsTechnicianSystemRole`, while the proposed holder is assigned to `SeniorHydraulicsTechnicianSystemRole`;
+- the same system must not hold author and approver assignments for the same hazard-analysis Work during overlapping windows;
+- a surgical procedure needs surgeon, anesthetist, and scrub-practitioner assignments together, with three distinct holders;
+- `RoboticsEngineerSystemRole` may be a subkind of `EngineerSystemRole`, but neither a nested label nor one assignment can establish that order.
 
-**Primary working reader.** The first reader is an engineer, method designer, safety practitioner, clinical team designer, or manager deciding which role relations a later check may rely on. The next reader must be able to recover the exact role meanings, relation predicates, temporal extents, and assignment checks without treating a role label, diagram, or policy row as the relation itself.
+**First useful result.** Write the readable direct relation or `U.SubkindOf` claim needed by the receiving use. Recover its exact predicate. Stop there unless another claim needs one relation occurrence as an identifiable object or needs several obtaining relations selected into one structure.
 
-**First useful move.** Name the role-taxonomy episteme and effective reference scheme, select the exact relation species needed by the receiving use, and write its `RelationSignature` with one `SlotSpec` for every participant and predicate. Stop at a readable direct assertion if no receiving use needs relation-occurrence identity. Individuate and reference an occurrence only when a later claim depends on that identity.
+**Primary EntityOfConcern.** For one direct question, the EntityOfConcern is the exact relation occurrence or exact `C.3.1 U.SubkindOf` occurrence. When several such occurrences must be selected together, it is one `SystemRoleKindRelationStructure`: a dependent `U.Structure` whose substrate is an exact finite set of local system-role kinds and whose selected organization consists only of exact obtaining relations among those kinds.
 
-**What goes wrong if missed.** A job-title hierarchy is used as if it settled admission. A statement that two duties should be independent has no exact holder, work, and time condition. A named bundle hides whether one system or several systems must hold the roles. A qualification such as `robotics engineer` is silently treated as system-kind subsumption, capability, assignment, or performed work. The receiving check then appears decisive while its actual relation premise is unavailable.
+The structure contains neither holder systems nor system-role-assignment occurrences. A graph, taxonomy table, policy file, or organization chart may describe it but does not become the structure or any selected relation by form.
 
-**What this buys.** Role admission, separation of duties, semantic qualification, and joint allocation can be reviewed as different relations. The same relations can support manufacturing, medicine, organizational work, and software authorization without making software policy the general ontology. Actual holders remain systems, actual assignments remain `U.RoleAssignment` occurrences, and the system performing the check remains visible.
+**Primary working reader.** The first reader is an engineer, Method designer, safety practitioner, clinical team designer, or manager deciding which relations a later check may rely on. The reader should be able to recover the exact system-role kinds, relation rule, applicability, occurrence identity, and assignment inputs without treating a name hierarchy or policy row as the relation itself.
 
-**Not this pattern when.** Use `A.2.1` when the question is which admitted `U.System` holds a role and during which assignment episode. Use `A.2.5` for a role-state predicate, `A.2.2` for capability, A.3 patterns for methods, and A.15 patterns for planned or performed work. When meanings cross reference schemes, use `F.9` and `A.6.9` first for the exact Bridge, then `C.2.1` for the separate bounded-use assertion and `A.10` or `B.3` for current reliance; Bridge truth alone is not an A.2.7 relation or use licence. Use `C.29` when a graph, matrix, algebra, or embedding is the object under evaluation.
+**What goes wrong if missed.** A job-title order is used as admission authority. An independence rule omits the holder, Work, or overlap condition. A bundle name hides whether one or several systems must hold the assignments. A semantic restriction is called `U.SubkindOf` although a known broader classification can be false. A scheme or taxonomy edition is then inserted as a participant of every relation even when it changes no meaning.
+
+**What this buys.** Admission substitution, incompatibility, joint allocation, monotonic kind order, and residual qualification remain different claims with different truth and identity laws. Actual holders remain systems, actual assignments remain direct species of `U.SystemRoleAssignment`, and the system performing a receiving check remains visible.
+
+**Not this pattern when.** Use `A.2` and `C.3` to admit and classify exact local system-role kinds. Use `A.2.1` for assignments and their holders, `A.2.5` for `SystemRoleAssignmentStatePredicate` and `SystemRoleAssignmentStateRelation`, `A.2.2` for capability, A.3 patterns for Methods, and A.15 patterns for planned or performed Work. Use `F.9` and `A.6.9` for an actual cross-scheme Bridge, then a separate bounded-use assertion and reliance decision. Use `C.29` when a graph, matrix, algebra, embedding, or table is the object under evaluation.
 

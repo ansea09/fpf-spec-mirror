@@ -6,12 +6,12 @@ section_id: "E.14:8"
 section_title: "Conformance Checklist (normative; author‑facing duties for thought and prose)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-facing-duties-for-thought-and-prose.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:8 — Conformance Checklist (normative; author‑facing duties for thought and prose)"
-line_start: 78670
-line_end: 78728
+line_start: 79330
+line_end: 79388
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -41,7 +41,7 @@ keywords:
 | **CC‑E14‑8 (Template compliance).**        | Sections **SHALL** follow the canonical pattern order; *Archetypal Grounding* is mandatory for architectural patterns.                                                                            | Keep patterns comparable and auditable by reading.            |
 | **CC‑E14‑9 (Progressive formality).**      | Authors **SHOULD** escalate assurance deliberately (from working claim to reasoned to constructive), and use **Empirical Validation** where observation is the right currency.    | Support staged formality without overloading early drafts.  |
 | **CC-E14-10 (Structural grounding handshake).** | A published structural assertion **SHALL** declare the author's `validationMode=axiomatic` posture and link through `tv:groundedBy` to exactly one current C.2.1 construction-trace episteme in a C.13 `sum`, `set`, or `slice` form. The direct relation pattern and the candidate's identity or reidentification rule decide occurrence and continuity; the trace and mode create neither and guarantee no timelessness. | Makes the assertion's construction basis inspectable while keeping ontology, identity, assurance, and currentness separate. |
-| **CC‑E14‑11 (Empirical bindings).** | When `validationMode=postulate` or real-world confirmation is current, authors **SHALL** name the exact target claim, scope, qualification window, dated evaluation or measurement Work, performer system and obtaining assignment, enacted Method, actual direct participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and any separately current B.3 assurance claim. | Keeps work, result, evidence, provenance, assurance, and subject truth distinct and replayable. |
+| **CC‑E14‑11 (Empirical bindings).** | When `validationMode=postulate` or real-world confirmation is current, authors **SHALL** name the target claim, scope, qualification window, dated evaluation or measurement Work, every performer System, and the selected Method; F.6 **SHALL** identify the assignment under which each performer acted. Any current MethodDescription or local system-role-kind classification, direct participants or A.6.1 bindings, domain-local result and result episteme, A.10 evidence-provenance path, and B.3 assurance claim remain separate. Expose only identities the bounded assurance use consumes. | Keeps performer, assignment, Method, Work, result, evidence, provenance, assurance, and subject truth distinct and replayable. |
 | **CC-E14-12 (F-declaration).**             | Normative Working-Model publications **SHALL** declare `U.Formality = Fk` per **C.2.3** (**recommended F ≥ F3** for readable publications). Assurance publications or records **MAY** carry higher F; **min-F** applies to composites. | Aligns E.14 with the unified Formality characteristic; avoids obsolete “tiers/modes”. |
 | **CC‑E14‑13 (Light records, not thin prose).** | Authors **SHALL NOT** use the Working‑Model-first stance as a reason to strip problem framing, rationale, or worked slices out of the pattern text. Ordinary use may stay light, but readers **MUST** still be able to understand the pattern without nearby project notes. | Keeps human-facing economy from collapsing into under-explained prose. |
 | **CC‑E14‑14 (Recognition text before assurance text).** | When a pattern claims a Working‑Model or other human-facing benefit, authors **SHALL** keep recognition-first working text distinct from the heavier assurance text. The assurance text **MAY** refine and justify the working text, but it **SHALL NOT** silently change the recognition-text claim. If the pattern claims broad or transdisciplinary reach, the working text **SHOULD** show heterogeneous situations early, preferably through an `F.16`-style example matrix or an equally explicit alternative. | Keeps Working‑Model-first drafting from collapsing into either thin prose or late-only universality. |

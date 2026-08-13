@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__008_invariants.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 76542
-line_end: 76561
+line_start: 77187
+line_end: 77206
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 **D2-3 (Specification is a use).** Specification force is admitted by checkable claims, preserved or updated DescriptionContext, and a named harness or validation relation; it is not a peer class or label effect.
 
-**D2-4 (Conditional neighbors).** Grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, publication, carrier, currentness, and representation enter only through their direct owners when the receiving use depends on them.
+**D2-4 (Conditional neighbors).** Grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, publication, carrier, currentness, and representation enter only through their subject patterns when the receiving use depends on them.
 
 **D2-5 (Stable identity across use).** Changed description use, viewpoint selection, harness, evidence, publication, form, carrier, rendering, or representation does not by itself change episteme identity.
 

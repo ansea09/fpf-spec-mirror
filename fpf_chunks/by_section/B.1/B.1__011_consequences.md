@@ -6,17 +6,18 @@ section_id: "B.1:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:8 — Consequences"
-line_start: 35464
-line_end: 35478
+line_start: 35666
+line_end: 35680
 dependencies:
   - "A.1"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2.7"
   - "A.22"
   - "B.2"
   - "B.3.5"
@@ -24,7 +25,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30"
-  - "C.30.ASV"
+  - "E.10.ROLE"
 keywords:
 ---
 
@@ -40,6 +41,6 @@ Positive consequences:
 Costs:
 
 - Users must identify the claim kind before choosing a notation.
-- Some Gamma-heavy examples require a direct owner before the notation is used: work occurrence evidence uses `A.15.1`, work-resource aggregation uses `B.1.6`, mathematical-lens reliance uses `C.29`, and whole reidentification first uses `B.2.P` and then `B.2` when the problem remains current.
+- Some Gamma-heavy examples require a subject pattern before the notation is used: work occurrence evidence uses `A.15.1`, work-resource aggregation uses `B.1.6`, mathematical-lens reliance uses `C.29`, and whole reidentification first uses `B.2.P` and then `B.2` when the problem remains current.
 - Work occurrence analysis requires evidence and timing, not just a method plan.
 

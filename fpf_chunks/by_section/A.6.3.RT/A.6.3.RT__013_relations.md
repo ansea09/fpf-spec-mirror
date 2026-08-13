@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:12 — Relations"
-line_start: 14772
-line_end: 14778
+line_start: 14996
+line_end: 15002
 dependencies:
   - "A.1.1"
   - "A.10"

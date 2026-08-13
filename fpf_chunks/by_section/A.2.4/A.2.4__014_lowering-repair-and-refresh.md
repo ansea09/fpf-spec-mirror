@@ -6,34 +6,36 @@ section_id: "A.2.4:12"
 section_title: "Lowering, Repair, and Refresh"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.4/A.2.4__014_lowering-repair-and-refresh.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.4 — Episteme Evidence-Use and Status-Use Relations"
   - "A.2.4:12 — Lowering, Repair, and Refresh"
-line_start: 4414
-line_end: 4421
+line_start: 4589
+line_end: 4596
 dependencies:
   - "A.10"
   - "A.2"
   - "A.2.1"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
   - "C.2.1"
   - "C.28"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "G.11"
   - "G.6"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
   - "claim"
   - "episteme"
-  - "evidence-use"
+  - "evidence-use relation"
   - "provenance"
-  - "source-use"
-  - "status-use"
+  - "role-shaped source phrase"
+  - "source-use wording"
+  - "status-use relation"
 ---
 
 ### A.2.4:12 - Lowering, Repair, and Refresh

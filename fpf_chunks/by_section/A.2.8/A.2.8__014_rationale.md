@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Object)"
-section_id: "A.2.8:10"
+pattern_title: "U.Commitment (Deontic Commitment Relation)"
+section_id: "A.2.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__014_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-  - "A.2.8:10 — Rationale"
-line_start: 6461
-line_end: 6468
+  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
+  - "A.2.8:11 — Rationale"
+line_start: 6671
+line_end: 6674
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -22,32 +23,23 @@ dependencies:
   - "A.2.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.RCD"
   - "A.7"
-  - "E.8"
-  - "U.PromiseContent"
-  - "U.Work"
+  - "C.3"
+  - "F.6"
 keywords:
-  - ") but makes the structure explicit"
-  - "BCP‑14 (RFC 2119/8174)"
-  - "adjudication hooks"
-  - "are cues for the modality field after the deontic relation is recovered"
-  - "by themselves"
-  - "commitment"
-  - "deontics"
-  - "evidenceRefs"
-  - "modality normalization"
+  - "actual bearer"
+  - "constitutive rule"
+  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "individual duty"
+  - "instituting basis"
   - "obligation"
   - "prohibition"
   - "recommendation-as-duty"
-  - "scope and validity window"
-  - "they are not the governed object of this pattern"
+  - "validity interval"
 ---
 
-### A.2.8:10 - Rationale
+### A.2.8:11 - Rationale
 
-The triad “promise, utterance, and commitment” is useful for language discipline, but deontic ontology should not be anchored in a naming-focused pattern. A kernel object:
-
-* stabilizes what a “commitment” structurally is,
-* ensures “MUST/SHALL” talk is representable without category mistakes,
-* and provides the bridge between governance claims and adjudication (via explicit hooks), which is essential for boundary engineering and ethics/governance work.
+An individual duty is not whatever a normative-looking record names. Requiring an actual bearer, constitutive rule, and actual basis prevents description, assignment, and publication from becoming causes by form. Keeping assertion and evidence separate preserves both ontology and auditability. Keeping responsibility separate avoids replacing one ambiguous word with an equally ambiguous omnibus governance object.
 

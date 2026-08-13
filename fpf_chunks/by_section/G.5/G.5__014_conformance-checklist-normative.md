@@ -6,12 +6,12 @@ section_id: "G.5:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__014_conformance-checklist-normative.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:7 — Conformance Checklist (normative)"
-line_start: 100914
-line_end: 100970
+line_start: 102163
+line_end: 102219
 dependencies:
   - "C.11"
   - "C.18"
@@ -71,7 +71,7 @@ keywords:
 | `CC-G5.9`       | **Delegated (ID-continuity).** Set-return semantics are pinned through `G.Core`. **Delegation target:** `CC-GCORE-SET-1`. Candidate ordering **MUST** be admissible over typed traits and admissibility constraints. If only a partial order is available, selection **MUST** return one declared selector outcome, for example one `SetResultOutcome` with `Shortlist` or `RankedShortlist`, one `HandoffOutcome` with `SpecialistHandoff`, or another pinned outcome result, with no forced totalisation via inadmissible scalarisation. |
 | `CC-G5.10`      | **SCR completeness.** SCR **MUST** enumerate Gamma-fold contributors when used, referenced constraint-bearing spec editions, the evidence citations (`PathId` and `PathSliceId`) used in gating and rationale, and `MinimalEvidence` gating verdicts by lane and carrier when such gating is relied upon. |
 | `CC‑G5.11`      | **Delegated (ID‑continuity).** Tri‑state eligibility and acceptance semantics plus unknown handling are pinned through `G.Core`. **Delegation target:** `CC‑GCORE‑GUARD‑1`. *(Includes the rule that `degrade(...)` is expressed through a pinned FailureBehavior or SoS‑LOG branch id, not as a fourth status.)* |
-| `CC-G5.12`      | **No "universal" cross-Tradition scoring.** Cross-Tradition selection **MUST NOT** rely on a single numeric formula not justified by pinned CHR and CAL constraints and the constraint-bearing spec refs. If a triad or selected set **claims universality**, it **MUST** satisfy **explicit, pinned** heterogeneity gates with cited ids and pins, for example `FamilyCoverage >= k` and `MinInterFamilyDistance >= delta_family`, where `k` and `delta_family` are declared by the pinned policy, TaskSignature, or SoTA pack, and cite the relevant **Context Card id (F.1)** in DRR and SCR records; otherwise treat the outcome as Context-local. |
+| `CC-G5.12`      | **Applicability of a selected method set.** A selected method-set result **MUST** state the Contexts and intended uses for which it applies; its selection or inclusion conditions; the applicable conditions supplied by the subject patterns; known counterexamples or non-applicable cases; the evidence pins used; and the transfer or change conditions that reopen selection. When the evidence supports only one Context, state that local applicability. Coverage, descriptors, and distance may guide a named search for omissions but **MUST NOT** establish broader applicability. Apply `E.24.UK` or `A.8` only to a separate claim about a durable kind or kernel placement; neither claim widens the selected set's applicability. |
 | `CC‑G5.13`      | **Conditional.** If the selector consumes admissibility or maturity records (e.g., through `G.5:Ext.SoSLOG`), it **MUST NOT** recompute thresholds; it consumes pinned admissibility ledger rows and cites clause and rung ids in audit pins. |
 | `CC‑G5.14`      | **Φ(CL) and Φ_plane discipline.** If crossing or plane penalties are applied, the active penalty policy ids (e.g., `Φ(CL)`, `Φ_plane`) **MUST** be explicit in audit pins, and the pinned policies **MUST** satisfy the monotone and bounded requirements asserted by their cited constraint-bearing spec refs and be published through those same cited spec refs (e.g., `CG‑Spec`). SCR **MUST** record the policy id in use; penalty assignment semantics remain pinned through `G.Core`. |
 | `CC-G5.15`      | Unit and scale admissibility **MUST** be established via CSLC (A.18) before any aggregation or Gamma-fold; unit and scale mismatches are a fail-fast defect. |

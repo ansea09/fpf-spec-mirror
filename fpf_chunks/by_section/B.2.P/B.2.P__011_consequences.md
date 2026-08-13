@@ -6,12 +6,12 @@ section_id: "B.2.P:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:8 — Consequences"
-line_start: 37594
-line_end: 37607
+line_start: 37804
+line_end: 37817
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,11 +50,11 @@ Positive consequences:
 
 - B.2-family emergence language no longer creates hidden U-kinds.
 - B.2, B.2.2, B.2.3, and B.2.4 stay centered on their subject claims instead of carrying repeated first-stage precision restoration.
-- Collections, capabilities, functions, characteristics, architecture residuals, mathematical expressions, and publications keep their direct owners.
+- Collections, capabilities, functions, characteristics, architecture residuals, mathematical expressions, and publications keep their subject patterns.
 
 Costs:
 
 - Ambiguous emergence-family phrases take one recovery step before use.
-- Some attractive umbrella claims become narrower direct-owner claims.
+- Some attractive umbrella claims become narrower subject-pattern claims.
 - Old mnemonic labels may survive only as quoted source wording or reduced-use cues unless the concrete thing or claim and its direct pattern are identified.
 

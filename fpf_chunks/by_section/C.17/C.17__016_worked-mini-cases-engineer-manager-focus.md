@@ -6,12 +6,12 @@ section_id: "C.17:15"
 section_title: "Worked mini‑cases (engineer‑manager focus)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__016_worked-mini-cases-engineer-manager-focus.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:15 — Worked mini‑cases (engineer‑manager focus)"
-line_start: 48987
-line_end: 49034
+line_start: 49239
+line_end: 49286
 dependencies:
   - "A.1"
   - "A.10"
@@ -62,7 +62,7 @@ keywords:
 * **MethodDescription.** “Morphological matrix ideation v2.”
 * **Work.** 1‑day sprint, 6 sessions.
 * **Metrics.** `Novelty@context` (encoder: CAD‑graph v1; ReferenceSet: in‑house assemblies), `ConstraintFit` (no‑tooling‑change), `Use‑Value` (acceptance: Pass if sim shows ≤ +5 % assembly time).
-* **Roles.** Performers = design cell (#TransformerRole); Observer = methods coach (#ObserverRole ⊥).
+* **Participants and Work.** The design cell performs the ideation sprint; the methods coach separately performs observation Work.
 * **Outcome.** 22 candidates; 4 **Pass** usefulness; best `Novelty`=0.41 with **100 %** constraints respected; `Time‑to‑First‑Viable` = 3 h 40 m.
 * **Evidence.** Scorecard episteme holds metrics; links to Work ids; acceptance tied to internal **promise content** “Design‑for‑Assembly Simulation”.
 
@@ -74,7 +74,7 @@ keywords:
 * **Objective.** Find a new risk factor candidate for readmission (< 30 days).
 * **MethodDescription.** “Causal discovery v3 + clinician review.”
 * **Metrics.** `DiversityOfSearch` (approach classes: feature ablation, IVs, DAG‑learners), `Novelty@context` (text encoder over prior hypotheses), `Use‑Value` (AUROC uplift ≥ 0.03 on hold‑out), `Transferability@Hospital_B` (Bridge CL=2).
-* **Roles.** SRE pipeline (#ObserverRole) computes metrics; clinicians (#ReviewerRole) set acceptance; data squad (#TransformerRole) performs experiments.
+* **Participants and Work.** The SRE pipeline computes metrics; clinicians set acceptance criteria; the data squad performs the experiments.
 * **Outcome.** Two candidates; one meets AUROC uplift; **Transferability** requires follow‑up (CL penalty).
 * **Evidence.** Episteme bundle: model cards, hold‑out plots, Bridge note.
 
@@ -86,7 +86,7 @@ keywords:
 * **Objective.** Reduce time‑to‑value (TTV) by 20 %.
 * **MethodDescription.** “JTBD interviews + onboarding flow experiments.”
 * **Metrics.** `ReframeDelta` (BoundaryShift: split onboarding into ‘job setup’ and ‘first result’), `Use‑Value` (TTV ‑22 % on A/B), `Risk‑BudgetedExperimentation` (within cap), `Compositionality` (reuse of existing workflow widgets).
-* **Roles.** UX researcher (#ObserverRole), squad (#TransformerRole), product ops (#ReviewerRole).
+* **Participants and Work.** The UX researcher conducts interviews; the squad performs the flow experiments; product operations reviews the evidence.
 * **Outcome.** Frame changed; TTV target passed; experiments within budget.
 * **Evidence.** Reframing episteme with Scope diff + A/B report.
 
@@ -96,5 +96,5 @@ keywords:
 
 * **Locality.** All novelty/usefulness claims are **Context‑tagged**; Cross‑context steps use **Bridges** with **CL**.
 * **Dual‑gate.** Novelty never acts alone; usefulness/constraints co‑gate decisions.
-* **SoD & Evidence.** Observers are **separate** from performers; metrics live on **epistemes** with **frozen hooks**; Work proves fulfillment.
+* **SoD & Evidence.** The systems performing observation Work are **separate** from the systems performing the Work being evaluated; metrics live on **epistemes** with **frozen hooks**; Work proves fulfillment.
 

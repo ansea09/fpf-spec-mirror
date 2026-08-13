@@ -6,12 +6,12 @@ section_id: "B.1.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:intro — Intro"
-line_start: 35931
-line_end: 35946
+line_start: 36133
+line_end: 36148
 dependencies:
   - "A.1"
   - "A.12"
@@ -41,7 +41,7 @@ keywords:
 
 **Not this pattern when.** Use C.2.1 for episteme identity and edition continuity, A.14 for a proper temporal restriction of one unchanged episteme, A.15.1 for Work parts or occurrences, B.1.4 for a bounded aggregation of already recovered order or temporal relations, and B.3 for the assurance claim that consumes the aggregate.
 
-**What changes in practice.** Identify every input episteme and mapping before folding; preserve provenance and conflicts; and return identity, edition, temporal restriction, Work, publication, and assurance questions to their direct owners.
+**What changes in practice.** Identify every input episteme and mapping before folding; preserve provenance and conflicts; and return identity, edition, temporal restriction, Work, publication, and assurance questions to their subject patterns.
 
 > **► decided‑by: A.14 Advanced Mereology**
 **A.14/C.2.1 compliance —** Use **ConstituentOf** for semantic parts and **PortionOf** only for quantitative splits of texts/data with declared μ. Use `PhaseOf` only for a proper interval of one unchanged C.2.1 episteme. When a MethodDescription or document episteme's claim content, EntityOfConcern, or effective ReferenceScheme changes, identify another episteme and assert `EpistemeEditionRelation` only when its historical-continuation predicate obtains. Work segmentation uses A.15.1; no **ComponentOf** is used here.

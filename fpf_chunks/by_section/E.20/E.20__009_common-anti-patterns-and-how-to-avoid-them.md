@@ -6,12 +6,12 @@ section_id: "E.20:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.20/E.20__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
   - "E.20:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 86737
-line_end: 86748
+line_start: 87409
+line_end: 87420
 dependencies:
   - "A.15.3"
   - "A.6.1"
@@ -46,9 +46,9 @@ keywords:
 
 | Anti-pattern | Symptom | Why it fails | Repair |
 |---|---|---|---|
-| **Wiring carries semantics** | Part G extensions start redefining what a mechanism “means”. | Meaning becomes edition-fragile and non-local. | Move semantics back to the mechanism-governing pattern; keep extensions as binding only. |
+| **Wiring carries semantics** | Part G extensions start redefining what a mechanism “means”. | Meaning becomes edition-fragile and non-local. | Move semantics back to the mechanism-subject pattern; keep extensions as binding only. |
 | **Suite becomes a meta-mechanism** | Suite text defines ops/laws or embeds thresholds/decisions. | Collapses suite, mechanism, and gate kinds; creates hidden gate behavior. | Restore suite as description-only; push thresholds to acceptance/gate kind. |
-| **Plan becomes enactment** | Plan items contain launch values, witnesses, or decisions. | Destroys the P2W planning-to-work boundary; breaks audit semantics. | Strip enactment content; pin only refs/policies/time selectors. |
+| **Plan becomes enactment** | Plan items contain launch values, witnesses, or decisions. | Destroys the P2W planning-to-work boundary and prevents replay of what was planned versus what occurred. | Strip enactment content; pin only refs, policies, and time selectors. |
 | **Kernel churn by convenience** | New required stage is added directly to kernel suite membership. | Expands the E.15 impact radius; destabilizes citations. | Prefer suite variant; if not possible, pair with alias docking and explicit deltas. |
 | **Token drift by silent rename** | “Just rename UNM to ...” without aliasing. | Breaks citations and downstream reasoning. | Use F.18 alias docking; update registers explicitly. |
 | **MIP as gate surrogate** | A MIP-run manifest is treated as a runtime pass/fail result or gate passage. | Governing-definition assignment is being mistaken for project execution or gate decision. | Keep MIP as authoring-side governing-definition assignment; use `A.21` for gate decisions and `A.15` for work or enactment claims. |

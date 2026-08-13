@@ -6,12 +6,12 @@ section_id: "F.9:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:3 — Forces"
-line_start: 92716
-line_end: 92726
+line_start: 93488
+line_end: 93498
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -61,5 +63,5 @@ keywords:
 | Relation truth versus practical use | A correspondence can obtain while a proposed direction, rule, or tolerance is unsuitable. |
 | `senseFamily` continuity versus explanation | Some relations compare senses within one family; others explain a cross-family connection without making them substitutable. |
 | Evidence versus authorization | Evidence or assurance may support reliance on a bounded-use claim but does not grant legal, policy, or deontic permission. |
-| Bridge discipline versus direct governing patterns | F.9 governs semantic correspondence; it must not create role assignments, work, evidence relations, publications, or status occurrences. |
+| Bridge discipline versus subject patterns | F.9 defines how to state semantic correspondence; using it must not create local system-role kinds or assignments, work, evidence relations, publications, or status occurrences. |
 

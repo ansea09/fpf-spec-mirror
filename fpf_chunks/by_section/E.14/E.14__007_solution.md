@@ -6,12 +6,12 @@ section_id: "E.14:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__007_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:4 — Solution"
-line_start: 78506
-line_end: 78557
+line_start: 79164
+line_end: 79215
 dependencies:
   - "B.3.5"
   - "C.13"
@@ -53,7 +53,7 @@ Where episteme-publication-heavy or transform-heavy patterns need a compact onto
 This is a reading-order rule rather than a demand that every reader consume the assurance text first.
 The point is to keep the human-facing Working-Model text primary while preserving a recoverable, auditable assurance text beneath it.
 
-When empirical evaluation is current, keep the same reading order. The recognition text states the ordinary subject claim first. The assurance text keeps an intended evaluation in its exact `U.WorkPlan`, names the selected `U.Method`, and cites a separately constituted `U.MethodDescription` episteme only when the current plan, execution claim, or evaluation interpretation actually relies on that edition. It then identifies the exact dated evaluation `U.Work`, every admitted `U.System` that performed it, each exact obtaining `U.RoleAssignment` under which that system performed it for the attributed extent, and the actual `enactsMethod` relation. The system acts; a Working-Model, pattern, plan, method, method description, record, result, evidence path, provenance value, or assurance claim does not. Intended evaluation is not dated evaluation Work merely because the plan, criterion, method, description, or evidence is available.
+When empirical evaluation is current, keep the same reading order. The recognition text states the ordinary subject claim first. The assurance text keeps an intended evaluation in its `U.WorkPlan`, names the selected `U.Method`, and cites a `U.MethodDescription` only when the plan, execution claim, or interpretation relies on that edition. For actual evaluation Work, name every performer and use F.6 to identify the assignment under which each acted; test any local system-role-kind classification separately. The human-facing sentence may omit an assignment identifier that the bounded reliance does not use. The System acts; a Working-Model, pattern, plan, Method, MethodDescription, assignment, record, result, evidence path, provenance value, or assurance claim does not. Intended evaluation is not dated Work merely because the plan, criterion, Method, description, or evidence is available.
 > **E.14‑P.1 – Working‑Model first, stance explicit.**  **
 > Operate one **Working-Model** for all human-facing discussion. For **each** assertion, the author **SHALL declare** an assurance posture (`validationMode`) and choose the **appropriate assurance shoulder(s)**: **Mapping** for term-to-governed-value alignment through the current Kind-CAL/Lang-CHR route; **Logical** for exact label meaning, scope, constraints, and limits; **Constructive** for an inspectable C.2.1 construction-trace account of independently grounded facts; and **Empirical Validation** for an exact domain-local result and its A.10 evidence-provenance or reliance relation plus any separately current B.3 assurance claim when observation is current. Each shoulder names its direct objects, scope, and qualification window. None creates the governed value, subject relation, work occurrence, or result it supports.
 

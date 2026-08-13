@@ -6,12 +6,12 @@ section_id: "E.24.PUB:8"
 section_title: "Common Misuses and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__010_common-misuses-and-repairs.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:8 — Common Misuses and Repairs"
-line_start: 89238
-line_end: 89249
+line_start: 89944
+line_end: 89955
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -41,8 +40,8 @@ keywords:
 | File equals episteme | Carrier continuity is used as claim-content identity. | Recover the C.2.1 episteme identity and the carrier's direct identity separately. |
 | Diagram equals view | Graphical form or construction history is used as the `U.View` membership criterion. | Recover exact candidate episteme E, exact viewpoint episteme P, and E.17.0 conformance; keep any A.6.3 construction, selected use, form, and representation separate. |
 | Publication equals expression | The form or rendered expression is treated as the publication occurrence. | Name the five `EpistemePublicationRelation` participants and test availability. |
-| Available equals used | Publication is treated as proof of reading, reliance, decision, or work. | Open the exact access, reliance, decision, method, or work relation only when that stronger claim is current. |
+| Available equals used | Publication is treated as proof of reading, reliance, decision, or Work. | Open the exact access, reliance, or decision relation only when that stronger claim is current. Admit `U.Work` only with the complete A.15.1 and F.6 account. |
 | Republished equals revised | A new carrier or form is treated as another episteme edition. | Apply C.2.1 identity; another edition exists only when a discriminator changes. |
 | Published-episteme kind | Temporary availability becomes a durable U-kind. | Keep `U.Episteme`; use Plain `published episteme` plus the exact publication occurrence. |
-| Warning pile-up | A subject pattern lists every publication-side object before explaining its subject. | Keep the subject first and add only the distinction on which the named work depends. |
+| Warning pile-up | A subject pattern lists every publication-side object before explaining its subject. | Keep the subject first and add only the distinction on which the receiving use depends. |
 

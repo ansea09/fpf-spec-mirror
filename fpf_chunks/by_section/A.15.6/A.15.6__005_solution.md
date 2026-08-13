@@ -6,12 +6,12 @@ section_id: "A.15.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:4 — Solution"
-line_start: 26323
-line_end: 26454
+line_start: 26521
+line_end: 26652
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -43,7 +43,7 @@ Recover the direct subject selected by the working concern. Apply the pattern wh
 
 In Plain use, **actual project** denotes one composite `U.Work` occurrence: the performed work whole. A temporary organization participates in or coordinates that work; a `U.WorkPlan` specifies intended work; a `U.Transformation` identifies bounded change of an affected referent; project cards, repositories, and dashboards describe or publish claims about these objects. None supplies a second identity for the work whole.
 
-First admit the candidate composite Work under `A.15.1`. Name every actual performer `U.System` and its covering `U.RoleAssignment`; state every explicit `performedUnderAssignment`, the exact `U.Method` the whole enacts, its governed temporal extent, and its `executedWithin` containing system. Admit each included Work occurrence independently and state the exact obtaining work-part relation that connects it to the whole. A shared project label, plan membership, continuity policy, or temporal containment establishes neither the composite Work nor its parthood.
+First admit the candidate composite Work under `A.15.1`. Name every actual performer `U.System`, the Method the whole enacts, its temporal extent, and its containing System; use F.6 to identify the assignment under which each performer acted. A short project account may omit an assignment identifier that no later claim uses. Admit each included Work occurrence independently and state the Work-part relation that connects it to the whole. A shared project label, plan membership, continuity policy, or temporal containment establishes neither the composite Work nor its parthood.
 
 Only then apply five project-specific qualification tests to the admitted Work:
 
@@ -63,13 +63,13 @@ Whole-project roll-up requires exact work-parthood plus an aggregation policy de
 
 Start with an ordinary sentence: **this project work is intended to change, produce, restore, evaluate, or prepare the use of this system**. Then name the composite project `U.Work`, the system or intended-system designator, the plan or decision that selected it, the concrete change or use being pursued, and the next decision that needs the designation.
 
-The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may be used as a historical Plain synonym. Neither expression admits a system, role, relation, or project kind.
+The primary expression is **project system-of-interest**, inherited from systems engineering without adding target, aim, or goal semantics. `systemOfConcern` may be used as a historical Plain synonym. Neither expression admits a System, system-role kind, assignment, relation, or project kind.
 
 When the designated system already exists, identify that same entity under its admitted `U.System` kind. The plan or decision may say why it matters to the project, but that designation does not put the system inside a project container. Actual links still come from relations that obtain: an exact work-to-referent or work-to-change relation, one independently identified transformation, a branch-local A.15.PROD production or inception claim, an evaluation, a participation or use relation, or another separately governed direct relation. Include only links used by the named decision.
 
-When the system is only intended, keep its designator and expected change or use inside the `U.WorkPlan`, decision, system description, or other claim episteme. Before its identity rule first holds, there is no future `U.System`, role-assignment holder, or transformation of that not-yet-existing system. A.15.PROD may later state the identity-inception boundary. After inception, relate the actual system to the earlier description through the applicable reference or identity claim, then test project designation, participation, and any role assignment at their own times.
+When the System is only intended, keep its designator and expected change or use inside the `U.WorkPlan`, decision, System description, or other claim episteme. Before its identity rule first holds, there is no future `U.System`, system-role-assignment holder, or Transformation of that not-yet-existing System. A.15.PROD may later state the identity-inception boundary. After inception, relate the actual System to the earlier description through the applicable reference or identity claim, then test project designation, participation, local system-role classification, and any assignment at their own times.
 
-Project designation and role assignment do not entail one another. Materialize `SystemOfInterestRole` only after A.2 names the role value, taxonomy episteme, effective scheme, and one concrete enactment-facing participation. Only when assignment identity or its window matters does A.2.1 add the admitted holder, obtaining assignment, and uninterrupted extent. Designation, passive affectedness, or a familiar label supplies none of these facts; an obtaining role assignment does not prove project designation. A patient record, damage claim, measurement result, or other non-system case subject can remain central to project Work but cannot hold that role.
+Project designation, local system-role classification, and system-role assignment do not entail one another. Classify an actual System under `SystemOfInterestSystemRole` only after A.2 identifies that local kind and its feature criterion and the System satisfies it. When assignment identity or its window matters, A.2.1 names an occurrence with the System as holder and its declared `U.SystemRoleAssignment` species, whose assigned-kind position uses `SystemOfInterestSystemRole`. Designation, passive affectedness, or a familiar label establishes neither classification nor assignment; an assignment does not prove project designation. A patient record, damage claim, measurement result, or other non-System case subject can remain central to project Work but cannot be classified under that system-role kind or hold such an assignment.
 
 When one project question spans operation or use of the project system-of-interest together with production, identity inception, later change, verification, feedback, or recursive builder questions, E.18.NET may select the relevant independently identified TFS or nested-network members. The selection must pass its four A.22 discriminators: direct members, obtaining cross-member relation occurrences, applied constraints, and one `networkUseFrame`; all endpoint bindings must resolve. If a member or relation is ungrounded, keep a Plain proposed network explanation and name the missing member, governor, false or unresolved predicate, occurrence, or binding. The selected network is a non-agentive `U.Structure`, not the project, performed Work, a case, or evidence of work parthood.
 
@@ -99,7 +99,7 @@ Process remains useful Plain management wording. It does not introduce `U.Proces
 
 A case is Plain subject- or claim-centred working language, not `U.Case` and not automatically a network member or slice. Start with the closure question, then return one minimal result:
 
-1. name the exact subject or claim and its direct identity and reference owner;
+1. name the exact subject or claim and its direct identity and reference pattern;
 2. keep only the TFS, `SubflowRef`, `PathSliceId`, exposed position, selected network, Method, Work, transformation, evidence, decision, or neighboring direct claim needed to answer the closure question;
 3. state the separately governed fact, evidence, or decision on which closure depends; and
 4. name one downstream receiving use or position and say explicitly that this later use is outside the closed case.
@@ -160,9 +160,9 @@ The organization performing or coordinating project work is a neighboring `U.Sys
 1. Say the management claim in ordinary language without treating *project*, *process*, *case*, or *project system-of-interest* as a kind.
 2. Ask what the next decision is about: one performed Work whole; a reusable Method; one selected method-side or transformation-flow structure; one project-level network question; or one case subject or claim and its closure.
 3. Admit or select that subject by applying the applicable pattern: A.15.1 for Work, A.3.1 for `U.Method`, A.22 for a selected `U.Structure`, E.18 for one TFS, E.18.NET for a grounded network, A.3.4 for an actual change of one continuing referent, C.2.1 for an episteme, or, for another case subject, the pattern whose Solution answers its exact identity or selection question. A label, interval, record, or local designator substitutes for none of these facts.
-4. If a project names a project system-of-interest, decide whether the system already exists. Keep an intended future referent in plan or description content. For an actual system, keep recognition, plan or decision designation, each Work/change/use fact, any `SystemOfInterestRole` interpretation, and any assignment separate. Use section 4.1a for a project-network question or the exact compound-selection stop.
+4. If a project names a project system-of-interest, decide whether the System already exists. Keep an intended future referent in plan or description content. For an actual System, keep recognition, plan or decision designation, each Work, change, and use fact, any `SystemOfInterestSystemRole` classification, and any `U.SystemRoleAssignment` occurrence separate. Use section 4.1a for a project-network question or the exact compound-selection stop.
 5. For a case, name the exact subject or claim, only the bounded references and direct claims needed for closure, the separately governed closure basis, and one named downstream use that remains outside the closed case. Persist only truthful C.2.1 claims; use A.22 only when one named later task must reuse the organization as one thing and all four identity discriminators pass.
-6. Keep plans, performers, role assignments, transformations, results, decisions, evidence, descriptions, and publications distinct. For a result claim, ask what the result is and what it is a result of or for. Then use an obtaining direct relation, an exact A.6.1 application binding, a local A.15.PROD or A.6.RCD claim, or a non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`. Only the last reopens ontology.
+6. Keep plans, performer Systems, system-role assignments, Transformations, results, decisions, evidence, descriptions, and publications distinct. For a result claim, ask what the result is and what it is a result of or for. Then use an obtaining direct relation, an exact A.6.1 application binding, a local A.15.PROD or A.6.RCD claim, or a non-assertability result marked `factually unsupported`, `missing-information`, or `missing-governor`. Only the last reopens ontology.
 7. If a description is needed, recover its claim content, one truthful C.2.1 EntityOfConcern, and effective reference scheme after the direct subject is known. Select a `BoundedModelUseStructure` only when it changes how the next assertion is read or used; otherwise omit it.
 8. If a local record refers to the selected subject, name the relation and use a typed reference. A suffix, record row, or case label adds no identity, locality, organization, or closure.
 9. When these recovered results must re-enter the long dependency from outside use through architecture, Work, change, and recursive builders, continue through A.1.STM. Otherwise stop at the direct result that answers the decision.

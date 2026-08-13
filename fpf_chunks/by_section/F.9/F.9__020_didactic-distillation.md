@@ -6,12 +6,12 @@ section_id: "F.9:18"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__020_didactic-distillation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:18 — Didactic distillation"
-line_start: 93127
-line_end: 93138
+line_start: 93903
+line_end: 93914
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -60,7 +62,7 @@ Use this five-part script:
 2. Say what semantic relation holds and test whether that Bridge obtains.
 3. State the proposed use separately: action, direction, rule, tolerated loss, and polarity.
 4. Check whether current evidence or assurance supports relying on that claim; recover authorization separately if needed.
-5. If the use happened, identify the actual object under its owner. Make a card only when reuse is worth the maintenance.
+5. If the use happened, identify the actual object and apply the relevant pattern to the claim about it. Make a card only when reuse is worth the maintenance.
 
 The short memory aid is: **relation first, use second, reliance third, receiving occurrence last; packaging is optional.**
 

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:3 — Forces"
-line_start: 91074
-line_end: 91083
+line_start: 91786
+line_end: 91795
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,33 +22,36 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Recognition vs ontology | A role description must be easy to read, but it cannot replace the role value, assignment relation, capability, method, or work occurrence. |
-| Local meaning vs reuse | Role descriptions are interpreted through one role-taxonomy episteme and effective scheme, while labels may later need a bridge across taxonomies or schemes. |
-| Compactness vs completeness | A useful card is small, but the current claim may require neighboring checks for state, capability, method, assignment, evidence, or status. |
-| Open-world use vs form burden | Some uses need only a role gloss; stronger uses need slot dispositions and neighboring references without pretending every slot is always filled. |
-| Work-facing role ontology vs episteme-use ontology | Acting holons can hold work-facing roles. Epistemes are used through evidence, status, source, publication, requirement, explanation, assurance, or gate relations. |
+| Recognition versus ontology | A description must be easy to read but cannot replace the kind, classification judgment, assignment, capability, Method, or Work occurrence. |
+| Local identity versus reuse | A system-role kind has one bounded contribution identity and criterion, while a later use may need an explicit Bridge to another local kind or sense. |
+| Compactness versus completeness | A useful description is small, but a stronger receiving claim may need state, capability, Method, assignment, evidence, or status checks. |
+| Open-world use versus form burden | Some uses need only a recognition paragraph; stronger uses need explicit neighboring references without pretending every possible relation is current. |
+| Work-facing classification versus episteme use | An admitted system may satisfy a system-role kind and participate in an assignment. An episteme is instead used through evidence, source, publication, requirement, explanation, assurance, or status relations. |
 

@@ -6,17 +6,18 @@ section_id: "G.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:5 — Archetypal Grounding"
-line_start: 100050
-line_end: 100074
+line_start: 101288
+line_end: 101318
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.18"
   - "A.19"
+  - "A.2.1"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.17"
+  - "F.6"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -74,5 +76,11 @@ A `SafetyClass` value is imported from a different Context or plane. CAL may sti
 
 **Show 3 (one performed acceptance evaluation).**
 
-A dated work occurrence `EvalWork-2026-07-30-17` has a performer through `U.RoleAssignment`, enacts `SafetyAcceptanceMethod`, and binds candidate `C-17` plus the current C.16 measurement-result episteme to `AC_SafetyGate` through the declared `A.6.1` operation application. The C.16 episteme states the measured safety characteristic, scale, attributed value, uncertainty, model, calibration, and measurement work; it is neither the raw detector output nor the acceptance verdict. The clause application obtains `unknown` because the uncertainty interval crosses the threshold. A separate C.2.1 episteme asserts that exact verdict and cites its A.10/G.6 provenance; G.11 supplies currentness. Later C.11 decision work binds that episteme as a premise and records defer. The clause card, proof-ledger row, evidence edge, and decision record do not retroactively establish the measurement work or the evaluation occurrence.
+A dated Work occurrence `EvalWork-2026-07-30-17` has `SafetyEvaluatorSystem-17` as its actual performer, enacts exact `SafetyAcceptanceMethod`, occurs within `SafetyEvaluationTeamSystem-17`, and binds candidate `C-17` plus the current C.16 measurement-result episteme to `AC_SafetyGate` through the declared `A.6.1` operation application. The performer and containing System are independently admitted.
+
+Because this worked case says that the Work was performed under an assignment, its local work context admits kind `SafetyAcceptanceEvaluatorSystemRole` under A.2 and declares `SafetyAcceptanceEvaluationAssignment` as a `U.SystemRoleAssignment` species under A.2.1. The species defines holder, assigned-kind, and evaluation-candidate participant meanings. Its rule appoints the holder to evaluate that candidate under the applicable safety-acceptance clause; one occurrence lasts for the maximal uninterrupted interval in which the predicate remains true for fixed values.
+
+Occurrence `SafetyAcceptanceEvaluationAssignment-17` has `SafetyEvaluatorSystem-17` as holder, `SafetyAcceptanceEvaluatorSystemRole` as assigned-kind value, and `C-17` as evaluation candidate. It covers the Work interval. The holder is the performer, and the case establishes that this Work was performed under this assignment, so the F.6 relation obtains for that pair. A different overlapping assignment held by the same performer would not establish this attribution.
+
+The C.16 episteme states the measured safety characteristic, scale, attributed value, uncertainty, model, calibration, and measurement Work; it is neither the raw detector output nor the acceptance verdict. The clause application obtains `unknown` because the uncertainty interval crosses the threshold. A separate C.2.1 episteme asserts that exact verdict and cites its provenance under A.10 and, when the EvidenceGraph extension is present, G.6; G.11 supplies currentness. A later C.11 result may record `defer`, and its claim uses the verdict episteme through an exact premise or decision-use relation. Any decision-making Work remains separate. The clause card, proof-ledger row, evidence edge, and decision record do not retroactively establish the measurement Work or the evaluation occurrence.
 

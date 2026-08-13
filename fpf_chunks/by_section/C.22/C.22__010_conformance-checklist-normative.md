@@ -6,12 +6,12 @@ section_id: "C.22:9"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__010_conformance-checklist-normative.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:9 — Conformance Checklist (normative)"
-line_start: 51256
-line_end: 51280
+line_start: 51516
+line_end: 51540
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -48,7 +48,7 @@ keywords:
 13. **Telemetry.** The telemetry record carries **PathSliceId** when an E.18 path slice is current, the applicable **decay and refresh policy ids**, and edition counters for **CharacteristicSpaceRef**, **DistanceDefRef**, and **EmitterPolicyRef**. An illumination increase is traceable to the policy id that admitted it.
 14. **GeneratorIntent (when OEE is in scope).** A TaskSignature supports the claimed OEE generator-family use only when `GeneratorIntent` cites **`EnvironmentValidityRegion`** and **`TransferRulesRef`** with ids resolvable in G.5 and C.23. Any downstream abstention is their result, not a C.22 output.
 15. **Budgets.** When `Budgeting` is live, its evaluation, time, and batch values carry declared units and the applicable E/E-LOG exploration-budget id.
-16. **Archive-comparison support.** A TaskSignature supports the claimed archive comparison only when `DistanceDefRef.edition` and the applied novelty measures are CSLC-admissible and editioned. The archive or selector pattern governs any downstream abstention or returned-set result.
+16. **Archive-comparison support.** A TaskSignature supports the claimed archive comparison only when `DistanceDefRef.edition` and the applied novelty measures are CSLC-admissible and editioned. The archive or selector pattern defines or constrains any downstream abstention or returned-set result.
 17. **Planes.** QD heads and characteristics carry a declared **ReferencePlane**; a plane crossing applies **Phi_plane** as a penalty to **R** only.
 18. **Unknown QD values.** A live unknown QD field remains `unknown`, cites the policy governing its downstream use, and is not coerced or mapped by C.22 itself.
 

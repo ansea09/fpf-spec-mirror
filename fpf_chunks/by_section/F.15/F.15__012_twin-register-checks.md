@@ -6,12 +6,12 @@ section_id: "F.15:10"
 section_title: "Twin-register checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__012_twin-register-checks.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:10 — Twin-register checks"
-line_start: 95211
-line_end: 95229
+line_start: 95993
+line_end: 96011
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ Use these checks when F.18 selected both a Tech and Plain designation.
 Both expressions resolve through the same current NameCard to the same governed value, effective scheme, local-sense claim, and admitted naming use. The NameCard, expressions, value, and any F.17 cell remain distinct.
 
 **SCR-F15-T2 (Same governed kind).**
-The Plain expression does not suggest a different kind, relation truth, role, status, work, evidence, or permission from the Tech expression's exact governed object.
+The Plain expression does not suggest a different kind, relation truth, system-role kind or assignment, status, work, evidence, or permission from the Tech expression's exact governed object.
 
 **SCR-F15-T3 (Ambiguous head guarded).**
 A high-risk Plain head receives a kind head or short recognition gloss at first use without turning the gloss into a second selected designation.

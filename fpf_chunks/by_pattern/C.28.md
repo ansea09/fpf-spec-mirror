@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.28.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
-line_start: 57278
-line_end: 58144
+line_start: 57552
+line_end: 58426
 dependencies:
   - "A.10"
   - "A.15"
@@ -163,7 +163,7 @@ CausalSupportBasisTriageValue =
   missing
 ```
 
-`cheapStop` values are terminal or downgrade actions. They close the local causal-use question for now by saying what narrower use remains admissible, which neighboring pattern governs the remaining non-causal question, or that causal use is declined. `escalateOnlyIfUseDependsOnCausalSupport` values are record-opening actions. They are admissible only when the supported-use and unsupported-use boundary cannot safely carry the reader's next action by itself.
+`cheapStop` values are terminal or downgrade actions. They close the local causal-use question for now by saying what narrower use remains admissible, what exact subject assertion states the remaining non-causal question and where its defining or constraining `ClaimGraph` is located, or that causal use is declined. `escalateOnlyIfUseDependsOnCausalSupport` values are record-opening actions. They are admissible only when the supported-use and unsupported-use boundary cannot safely carry the reader's next action by itself.
 
 If this first output cannot be written honestly, the causal-use claim is not ready.
 
@@ -612,10 +612,18 @@ CausalUseEvidenceDesignRecord:
   causalTransportabilityProfileRef?
   causalVariableRepresentationRef?
   causalEvidenceSupportBasis: CausalEvidenceSupportBasis
-  causalEvidenceWorkRefs?
+  causalEvidenceWorkRows?:
+    - causalEvidenceWorkRef: exact dated U.Work
+      performerSystemRefs: every actual performer U.System
+      enactedMethodRef: exact U.Method
+      temporalExtentRef:
+      containingSystemRef: exact U.System
+      performerAssignmentSpeciesRefs: exact directly declared U.SystemRoleAssignment species, positionally paired with performers
+      performerAssignmentOccurrenceRefs: obtaining covering occurrences with every identity-bearing participant value
+      performerAssignmentHolderEqualities: each performer equals its assignment HolderSystemSlot
+      performedUnderAssignmentRefs: exact F.6 pairs for this Work and each assignment
   causalEvidenceUseRelationRefs?
-  causalEvidenceWorkRoleAssignmentRefs?
-  causalEvidenceMethodRef?
+  causalEvidenceMethodDescriptionRefs?: separate U.MethodDescription refs only when used
   causalEvidenceWorkPlanRef?
   structuralCausalModelRef?
   causalDiagramRef?
@@ -816,7 +824,7 @@ The repair is not to ban causal language. The repair is to recover the live caus
 | `CC-C28-2` Durable causal estimand discipline | Every durable interventional-rung or counterfactual-rung causal-use claim names causal-use question, comparator or counterfactual, estimand, assignment or intervention window, follow-up window, outcome measure, assumptions, rival causes, and supported use and unsupported use. |
 | `CC-C28-3` No unsupported causality-ladder climb | A claim at interventional-action or counterfactual-comparison rung is not supported only by lower-rung causality-ladder data unless `CausalIdentificationProfile`, `CounterfactualSamplingRealizabilityProfile`, or bounded-use treatment is cited. |
 | `CC-C28-4` Realizability is not identification | `CausalIdentificationProfile` and `CounterfactualSamplingRealizabilityProfile` remain distinct. One supports inference from other data; the other supports direct sampling through feasible physical actions. |
-| `CC-C28-5` Counterfactual data collection is work | Any realized counterfactual-rung-data procedure is represented as `U.Work` enacted by `U.System` under `RoleAssignment`, with `MethodDescription`, `WorkPlan`, `A.10` evidence path refs, `A.2.4` evidence-use relations, and physical, ethical, and operational guards. |
+| `CC-C28-5` Counterfactual data collection is Work | Any realized counterfactual-rung-data procedure points to its complete A.15.1/F.6 basis. Optional `U.MethodDescription` and `U.WorkPlan` refs remain separate and appear only when the causal-evidence use consumes them. A merely planned or unrealized procedure is not admitted as `U.Work`. |
 | `CC-C28-6` Verdicts are action grammar | `supported`, `bounded`, `unsupported`, and `abstain` each change what the reader may do next. |
 | `CC-C28-7` No durable-card default | Escalate from triage to local card to durable card and profiles only when the claimed use triggers the durable causal-use object. |
 | `CC-C28-8` Heavy causal-use object payoff | Every selected heavy field or check changes a reader action, blocks a specific overclaim, or supports a concrete evidence decision, assurance decision, fairness decision, or parity decision. |

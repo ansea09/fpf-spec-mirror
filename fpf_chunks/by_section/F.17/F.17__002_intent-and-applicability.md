@@ -6,12 +6,12 @@ section_id: "F.17:1"
 section_title: "Intent and applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__002_intent-and-applicability.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:1 — Intent and applicability"
-line_start: 95772
-line_end: 95785
+line_start: 96556
+line_end: 96569
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,11 +56,11 @@ keywords:
 
 Use it especially for:
 
-- public role and status names whose underlying values are already governed;
+- public system-role-kind and status names whose underlying values are already governed;
 - durable relation, slot, interface, signature, or FPF kind names;
 - Core-facing names used by examples, training material, project standards, dashboards, checks, tool interfaces, Part G search packs, architecture, transformation, or evaluation work;
 - one exact naming use between independently recovered local senses;
 - row identifiers that must remain usable across row-episteme editions.
 
-F.17 introduces no role, status, evidence, method, Work, relation occurrence, slot kind, local concept, NameCard, Bridge, publication occurrence, form, or carrier. It constitutes the row episteme only. Its visible table form can be useful, but table position, filled cells, suffix, source prestige, or row count has no ontological force.
+F.17 introduces no system-role kind, assignment, relation position, status, evidence, method, Work, relation occurrence, slot kind, local concept, NameCard, Bridge, publication occurrence, form, or carrier. It constitutes the row episteme only. Its visible table form can be useful, but table position, filled cells, suffix, source prestige, or row count has no ontological force.
 

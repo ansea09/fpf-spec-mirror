@@ -6,12 +6,12 @@ section_id: "A.16.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:4 — Solution"
-line_start: 27415
-line_end: 27540
+line_start: 27617
+line_end: 27742
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -133,7 +133,7 @@ Typical next-use patterns include:
 
 Name the next pattern and what its content defines, constrains, or tests. The account already identifies the selected episteme edition; add a project record, particular publication form, or publication occurrence only when that distinction changes the next use. This is next-use docking, not a transfer of responsibility, and a pattern reference alone does not prove endpoint admission.
 
-**Separate responsibility-handoff branch.** Open this branch only when responsibility, commitment, permission, or authority actually changes. Name the giving and receiving admitted systems and, when roles are relevant, the exact role assignments through which they participate; the exact relation before and after the change under its applicable pattern; the governed object or action, scope, and effective interval; and any assigning, instituting, revoking, or superseding act that the relation requires. The trajectory account cites that relation and its history; episteme lineage, publication form, publication occurrence, endpoint admission, and next-use docking neither create nor prove it.
+**Separate responsibility-handoff branch.** Open this branch only when responsibility, commitment, permission, or authority actually changes. Name the giving and receiving admitted systems and, when their system-role classification matters, the exact system-role kinds and assignments through which they participate; name the exact relation before and after the change under its applicable pattern, its governed object or action, scope, and effective interval, and any assigning, instituting, revoking, or superseding act that the relation requires. The trajectory account cites that relation and its history; episteme lineage, publication form, publication occurrence, endpoint admission, and next-use docking neither create nor prove it.
 
 After docking to a next use, monitoring, maintenance, revisit, or later re-entry may continue through new lineage entries or later trajectories. Keep lineage continuity separate from the current endpoint use and from any separately established responsibility or authority relation.
 

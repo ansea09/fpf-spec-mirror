@@ -6,13 +6,15 @@ section_id: "A.11:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1 — Problem Frame"
-line_start: 23102
-line_end: 23107
+line_start: 23355
+line_end: 23360
 dependencies:
+  - "A.6.P"
+  - "A.6.RCD"
   - "A.8"
   - "C.3"
   - "E.24.CD"
@@ -30,7 +32,7 @@ keywords:
 
 ### A.11:1 - Problem Frame
 
-FPF needs enough primitives to be useful, but every new primitive creates learning cost, bridge cost, and future repair cost. Ontological parsimony is not anti-growth. It is the rule that FPF adds a new kind only when composition, reuse, dependent-value settlement, and direct governing patterns cannot express the action-facing claim without material loss.
+FPF needs enough primitives to be useful, but every new primitive creates learning cost, bridge cost, and future repair cost. Ontological parsimony is not anti-growth. It is the rule that FPF adds a new kind only when composition, reuse, dependent-value settlement, and subject patterns cannot express the action-facing claim without material loss.
 
-When source or draft wording proposes a candidate durable value in `U.*` form, treat that as an admission claim. A.11 is therefore applied after `E.24.UK` recovers the governed object and before naming patterns choose a public label.
+When source or draft wording proposes a candidate durable value in `U.*` form, treat that as an admission claim. A.11 is therefore applied after `E.24.UK` recovers the governed object and before naming patterns choose a public label. For a relation-kind candidate, the `ExistingExpressionAttempt` first uses `A.6.P` and, only when the exact participants are known but no current direct relation closes the named receiving claim, `A.6.RCD`. An existing-relation, local-compound-claim, or predicate-definition result closes the primitive candidate; a separately justified derived relation kind proceeds only as derived, and only an irreducible primitive-relation-kind result can continue here as primitive.
 

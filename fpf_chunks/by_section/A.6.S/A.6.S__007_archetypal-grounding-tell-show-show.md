@@ -6,12 +6,12 @@ section_id: "A.6.S:5"
 section_title: "Archetypal Grounding — Tell–Show–Show"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:5 — Archetypal Grounding — Tell–Show–Show"
-line_start: 20911
-line_end: 20978
+line_start: 21164
+line_end: 21231
 dependencies:
   - "A.12"
   - "A.3"
@@ -65,7 +65,7 @@ keywords:
 
 * **ConstructorSignature:** `PaymentSignatureEngineering`
 
-  * Enacting system or acting holon under role assignment: `PaymentSignatureEngineeringPipeline` (team + repo + linters + review protocol).
+  * Performer System: `PaymentSignatureEngineeringPipeline`, if that team-and-toolchain candidate is admitted as one `U.System` under A.1. It performs the construction Work. State any local system-role classification separately, and use F.6 to identify the assignment under which it acted. A short example may omit the assignment identifier when it is unused.
     It enacts the constructor operations as Work and produces new editions and publication carriers.
 
   * Slot operations used (as operator descriptions; enacted via Work):
@@ -102,7 +102,7 @@ keywords:
 
 * **ConstructorSignature:** `CorrespondenceSignatureEngineering`
 
-  * Enacting system or acting holon under role assignment: `CorrespondenceSignatureWorkbench` (authors + toolchain) enacts constructor ops as Work.
+  * Performer System: `CorrespondenceSignatureWorkbench`, if the author-and-toolchain candidate is admitted as one `U.System` under A.1. It performs the construction Work; any local system-role classification and obtaining assignment remain separate.
 
   * Slot operations used: `resolve` to unpack “correspondence” into an explicit bridge slot; `edit<Laws>` (by‑value) to make tolerance explicit; `retarget<ModelRefSlot>` when moving from a draft model edition to a published edition.
 * Base operations used: `declareBase` to ground “reference dataset” as an explicit base with scope/time policy; `retime` when updating the reference window.

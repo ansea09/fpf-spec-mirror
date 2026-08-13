@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:1 — Problem Frame"
-line_start: 91635
-line_end: 91642
+line_start: 92365
+line_end: 92374
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,32 +22,33 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:1 - Problem Frame
 
-`U.RoleAssignment` admits assignment-relation occurrences; `U.Work` admits Work individuals. One exact `RA : U.RoleAssignment` is a world-side assignment-relation occurrence that relates an admitted holder System to one role value, one role-taxonomy episteme, and one effective reference scheme and obtains throughout one assignment episode. One exact `W : U.Work` is a dated world-side Work occurrence. The existence of `RA` and `W` does not by itself establish the additional world-side attribution between them: `performedUnderAssignment(W, RA)` must separately obtain. A distinct assertion or record may designate `RA` and `W`, state that `RA` obtains, state that `W` occurred, or state that the attribution relation obtains.
+`U.SystemRoleAssignment` and `U.Work` classify different world-side occurrences. An assignment occurrence belongs to a declared species, relates fixed participant values, and lasts for one maximal uninterrupted interval in which its predicate remains true. A `U.Work` occurrence is dated. Their existence does not establish the additional attribution relation.
 
-F.6 governs the missing direct relation. The assignment is one participant and the work occurrence is the other. A roster row may assert the assignment; a work log may assert the work and attribution; evidence may support either assertion. Those epistemes help a system know or use the relation, but they do not become relation participants and do not make the world-side relation obtain merely by being recorded.
+Use F.6 to state that missing relation between the Work and assignment occurrences. Every assignment species declares a holder slot, and each assignment occurrence supplies its actual holder System. The performer therefore remains recoverable without replacing a commission-sensitive or otherwise stronger assignment by a generic duplicate.
 
-This separation matters because assignment, state, ability, performance, evidence, and acceptance can vary independently. A system can hold a role and do no work. It can perform poor work under a valid assignment. A report can accurately describe the work without performing it. One compact "enactment" label hides these distinctions.
+A roster can assert the assignment; a log can assert the Work and attribution; evidence can support either assertion. Those epistemes help a system know or use the claim. They do not become relation participants or make world-side attribution obtain merely by being stored.
+
+This separation matters because assignment, classification, state, ability, performance, result, evidence, and acceptance vary independently. A system can hold an assignment and do no Work. It can perform poor Work under a valid assignment. A report can accurately describe the Work without performing it.
 

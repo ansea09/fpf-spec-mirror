@@ -6,12 +6,12 @@ section_id: "A.15.4:9.2"
 section_title: "P2W Result-Related Source Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__016_p2w-result-related-source-boundary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:9.2 — P2W Result-Related Source Boundary"
-line_start: 26044
-line_end: 26049
+line_start: 26242
+line_end: 26247
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"
@@ -52,5 +54,5 @@ keywords:
 
 When a P2W use under `E.18.1` produces result wording, use this pattern only when a reliance appearance such as publication, dashboard, generated explanation, copied statement, provenance mark, schema wording, API wording, or composed source-relation chain is about to justify result-related work or reliance by appearance. No generic `WorkResult` kind is admitted.
 
-Recover the required relation or result and its project-side reference before relying on any result-related cue: result artifact, resource ledger, launch-values-bound record, substitution record, telemetry, acceptance record, quality-evaluation record, done-state update, feedback pin, result measurement, evidence relation, assurance claim, parity relation, refresh relation, or role-assignment enactability claim. If the applicable rule, relation, or result is missing, use the reliance appearance only for orientation or source-finding and block only the unsupported result-related work or reliance.
+Recover the required relation or result and its project-side reference before relying on any result-related cue: result artifact, resource ledger, launch-values-bound record, substitution record, telemetry, acceptance record, quality-evaluation record, done-state update, feedback pin, result measurement, evidence relation, assurance claim, parity relation, refresh relation, or system-role-assignment enactability claim. If the applicable rule, relation, or result is missing, use the reliance appearance only for orientation or source-finding and block only the unsupported result-related work or reliance.
 

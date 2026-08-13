@@ -6,12 +6,12 @@ section_id: "A.1.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.1/A.1.1__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery"
   - "A.1.1:9 — Consequences"
-line_start: 2215
-line_end: 2222
+line_start: 2228
+line_end: 2235
 dependencies:
   - "A.1"
   - "A.14"
@@ -39,9 +39,9 @@ keywords:
 
 ### A.1.1:9 - Consequences
 
-**Benefits.** Teams can compare model-use boundaries without inventing an enclosing whole. Competing models over one subsystem and one model across several loci become expressible through complete structure bases. Local vocabulary, rules, inferences, units, evidence use, and status use remain recoverable through direct owners rather than a context proxy.
+**Benefits.** Teams can compare model-use boundaries without inventing an enclosing whole. Competing models over one subsystem and one model across several loci become expressible through complete structure bases. Local vocabulary, rules, inferences, units, evidence use, and status use remain recoverable through subject patterns rather than a context proxy.
 
-**Costs.** A load-bearing structure claim must recover three direct relation families, exact applied constraints, and one question/action/overread frame. Semantic transfer sometimes stops at a direct owner that still cannot express the claim without a generic context field; that stop is preferable to inventing a participant or claiming false parity.
+**Costs.** A load-bearing structure claim must recover three direct relation families, exact applied constraints, and one question/action/overread frame. Semantic transfer sometimes stops at a subject pattern that still cannot express the claim without a generic context field; that stop is preferable to inventing a participant or claiming false parity.
 
 **Limits.** A.1.1 does not decide model truth, role assignment, rule validity, measurement, status, evidence, claim-scope membership, reference-scheme construction, system parthood, Work performance, release authority, or publication currentness. It selects only the bounded model-use organization after those direct claims are available.
 

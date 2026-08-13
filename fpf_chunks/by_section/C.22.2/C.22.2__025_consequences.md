@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:24 — Consequences"
-line_start: 52439
-line_end: 52457
+line_start: 52703
+line_end: 52721
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,7 +64,7 @@ keywords:
 - P2W uses a typed problem-side record rather than a slogan, ticket-shaped wish, or preselected method.
 - `C.22.2` has practical value for FPF when it reduces at least one expensive failure: a wish enters P2W as `TaskSignature`; a preselected work request is treated as the problem; method selection happens before the problem is reviewable; a problem from a set loses `sourceSetRef`; an indicator is used without a declared indicator-use relation; problem-formulation follow-up reason is cited as proof; a stale problem remains active; scalar readiness replaces set-return; or the problem-formulation follow-up reason is inherited across a changed representation without the governing representation-continuity or wording-use relation.
 - Current archive, pool, front, shortlist, set-return, parity, refresh, evidence, and `C.29` patterns are reused instead of duplicated.
-- The positive role of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
+- The positive use of mathematical and first-principles thinking is preserved: it can find missing structure, not only check already-written mathematics.
 - Characterization and parity are no longer optional background when they are prerequisites for problem reviewability.
 - Representation-change relations are handled through named relation references rather than local proof inside the problem card.
 

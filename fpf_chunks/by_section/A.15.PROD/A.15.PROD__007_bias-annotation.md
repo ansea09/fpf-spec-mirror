@@ -6,12 +6,12 @@ section_id: "A.15.PROD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:6 — Bias-Annotation"
-line_start: 26907
-line_end: 26920
+line_start: 27109
+line_end: 27122
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -30,7 +30,7 @@ keywords:
 
 ### A.15.PROD:6 - Bias-Annotation
 
-**Scope limitation and five-lens coverage.** These annotations cover the three production-recovery branches and their named neighboring claims; they do not classify production language outside a current A.15.PROD use. `Gov` covers criterion, applicability, and historical-authority errors; `Arch` covers branch, neighbor-owner, and omnibus-relation errors; `Onto/Epist` covers work, change, entity, claim, record, and publication distinctions; `Prag` covers receiver-first selection, useful stops, and exact blockers; and `Did` covers the familiar verbs, visible final steps, labels, and records that make the overreads plausible.
+**Scope limitation and five-lens coverage.** These annotations cover the three production-recovery branches and their named neighboring claims; they do not classify production language outside a current A.15.PROD use. `Gov` covers criterion, applicability, and historical-authority errors; `Arch` covers branch, neighboring-pattern, and omnibus-relation errors; `Onto/Epist` covers work, change, entity, claim, record, and publication distinctions; `Prag` covers receiver-first selection, useful stops, and exact blockers; and `Did` covers the familiar verbs, visible final steps, labels, and records that make the overreads plausible.
 
 | Bias | Countermeasure |
 | --- | --- |

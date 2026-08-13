@@ -1,65 +1,69 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:2 — Problem"
-line_start: 24036
-line_end: 24046
+line_start: 24286
+line_end: 24298
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:2 - Problem
 
-Without this formal framework, models suffer from a cascade of category errors:
+Without this alignment, several category errors recur:
 
-1.  **Role-as-Part:** A Role (e.g., `AuditorRole`) is incorrectly placed inside a structural parts list (`ComponentOf`), making the system's architecture brittle and nonsensical.
-2.  **Specification-as-Execution:** A `MethodDescription` (the "recipe") is treated as evidence that the work was done. This leads to "paper compliance," where a system is considered complete simply because its documentation exists.
-3.  **Capability-as-Work:** A team's *ability* to perform a task (`Capability`) is conflated with the *actual performance* of that task (`Work`). This obscures the reality of resource consumption and actual outcomes.
-4.  **Work-without-Alignment:** An instance of work is logged without a clear link back to the exact role assignment, recovered method, method-description reference, and capability-fit or admission condition that made it admissible, making the work unauditable and its results impossible to reproduce.
-5.  **Ambiguous "process" or "activity" wording:** The overloaded term "process" is used indiscriminately to refer to all of the above, creating a fog of miscommunication. Repair generic doing or activity terms through `E.10` and `E.10.ARCH` to `U.Method`, `U.MethodDescription` (recipe), `U.WorkPlan` (schedule), one Work individual admitted under `U.Work` (performed occurrence), or the pattern that defines or tests the other claim.
-6.  **Actor and membership by association:** A role value, capability, method, or method description is made to act because it is associated with the holder, or a phrase such as "the system possesses algorithm A" is treated as if it classified some episteme as `U.MethodDescription`. The admitted holder system is the actor; description membership requires A.3.2's exact Method subject and substantive way-of-doing claim.
+1. **System-role-kind as part.** `AuditorSystemRole` is placed in structural `partOf` decomposition although it is a local kind used to classify systems.
+2. **Description as execution.** A recipe, algorithm, SOP, or MethodDescription is treated as proof that Work occurred.
+3. **Capability as Work.** Ability and actual performance are collapsed.
+4. **Work without attribution.** A Work occurrence lacks an exact assignment occurrence, performer projection, or Method relation.
+5. **Assignment as responsibility or authority.** Holding a system-role assignment is treated as if it established a duty, permission, responsibility, authority, or approval relation.
+6. **Universal assignment record.** A permissive root signature hides different direct species and turns taxonomy, scheme, context, or source into generic participants.
+7. **Actor by association.** A kind, assignment, capability, Method, description, plan, or record is made to act. Only the admitted holder system performs Work.
+8. **Process soup.** One overloaded source word stands for classification, assignment, Method, description, plan, Work, result, and record at once.
 

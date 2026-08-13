@@ -6,12 +6,12 @@ section_id: "E.18.1:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:2 — Problem"
-line_start: 84030
-line_end: 84035
+line_start: 84699
+line_end: 84704
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -54,7 +54,7 @@ keywords:
 
 ### E.18.1:2 - Problem
 
-An accepted problem-side distinction becomes useful when it is ready to guide downstream work or work-planning use. The accepted problem card may expose an invariant, mathematical lens, functional role, mechanism-position candidate, method candidate family, planning constraint, result cue, or changed measurement assumption. Without P2W, that useful distinction is either overcompressed into "we have a solution" or scattered across several related FPF patterns before the working distinction is preserved.
+An accepted problem-side distinction becomes useful when it is ready to guide downstream work or work-planning use. The accepted problem card may expose an invariant, mathematical lens, unresolved *functional role* cue, mechanism-position candidate, method candidate family, planning constraint, result cue, or changed measurement assumption. Route that cue through E.10.ROLE before it affects a continuation; the recovered local system-role kind, classification, assignment occurrence, direct participation or functioning relation, ordinary non-use, or exact missing governor remains with its own pattern. Without P2W, that useful distinction is either overcompressed into "we have a solution" or scattered across several related FPF patterns before the working distinction is preserved.
 
 P2W solves a carry-through problem. First say which accepted claim must affect which decision or use. Then write one ordinary relation-specific question, name its participants, apply the pattern that answers it, and keep that pattern's result or stop. Add a compact note only when another person or later action must replay the path. P2W succeeds when the accepted claim, receiving use, concrete question, applicable pattern contribution, and result remain inspectable without turning their use-specific connection into a relation kind or treating a note, diagram, plan, trace, or publication as the subject entity or as proof that work occurred.
 

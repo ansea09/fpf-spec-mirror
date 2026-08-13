@@ -6,12 +6,12 @@ section_id: "C.19.2:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:7 — Conformance Checklist"
-line_start: 50294
-line_end: 50306
+line_start: 50550
+line_end: 50562
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -38,10 +38,10 @@ keywords:
 |---|---|
 | `CC-C19.2-1` | The declared use names a direct result kind, guarantee, constraints, and horizon. |
 | `CC-C19.2-2` | A current single-apparatus case proceeds without a fabricated `OptionSet` or `ChoiceResult`. |
-| `CC-C19.2-3` | Candidate generation, local choice, planning, tool-call planning, dated work, and direct result retain their owners. |
+| `CC-C19.2-3` | Candidate generation, local choice, planning, tool-call planning, dated work, and direct result retain their subject patterns. |
 | `CC-C19.2-4` | Every candidate retains its direct kind and satisfies one explicit eligibility predicate for the same use and guarantee. |
 | `CC-C19.2-5` | Any `C.11` result is exactly `choose now`, `reject current set`, `probe again`, or `reroute`. |
-| `CC-C19.2-6` | The intended reader, method episteme, admitted performing `U.System`, separate current `U.RoleAssignment` under which that system performs, dated `U.Work`, and problem-facing result are distinct. |
-| `CC-C19.2-7` | The first useful result and stop are practical, and every reopen condition changes an owned next action. |
+| `CC-C19.2-6` | The intended-reader position, Method episteme, admitted performing `U.System`, assignment occurrence and its declared species, F.6 attribution, dated `U.Work`, and problem-facing result are distinct. The assignment holder is the performing System. A short projection may omit only an assignment identifier unused by later claims; the world-side assignment and attribution still obtain. |
+| `CC-C19.2-7` | The first useful result and stop are practical, and every reopen condition changes a named next action. |
 | `CC-C19.2-8` | No generic apparatus U-kind, hidden scalar, or unadmitted CGUS is introduced. |
 

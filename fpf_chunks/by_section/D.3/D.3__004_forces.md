@@ -6,12 +6,12 @@ section_id: "D.3:1.1"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:1.1 — Forces"
-line_start: 68796
-line_end: 68805
+line_start: 69162
+line_end: 69171
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "D.2"
   - "D.4"
   - "D.5"
+  - "E.10.ROLE"
   - "E.17"
 keywords:
 ---
@@ -39,6 +40,6 @@ keywords:
 | Conflict structure vs. decision use | The conflict must be inspectable before D.4 can mediate, refuse, or authorize a bounded decision. |
 | Level and scope plurality vs. fixed ladder | The case may involve persons, teams, organizations, communities, systems, epistemes, or environments without one universal hierarchy. |
 | Ethical object vs. representation | Tables, graphs, narratives, and formal predicates can describe a conflict, but are not the conflict itself. |
-| Responsibility threshold vs. agency label | Agency or responsibility may depend on thresholds and evidence; a label such as organization, public, market, or AI is not enough. |
-| Architecture residual vs. ethical conflict | A cross-scope structure can be architectural, ethical, or both; owner assignment must follow the current claim. |
+| Agency threshold vs. responsibility relation | Evidence may support an agency characteristic or threshold. Responsibility still needs its independently obtaining direct predicate and participants; no agency score or label supplies it. |
+| Architecture residual vs. ethical conflict | A cross-scope structure can be architectural, ethical, or both. Use `C.30.ILC` to triage the architecture residual and D.3 to record the ethical conflict structure; when both apply, keep both claims explicit. |
 

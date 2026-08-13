@@ -6,17 +6,18 @@ section_id: "B.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 35412
-line_end: 35431
+line_start: 35614
+line_end: 35633
 dependencies:
   - "A.1"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2.7"
   - "A.22"
   - "B.2"
   - "B.3.5"
@@ -24,7 +25,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30"
-  - "C.30.ASV"
+  - "E.10.ROLE"
 keywords:
 ---
 
@@ -40,11 +41,11 @@ B.1 recovers the holon aggregation claim. A.14 names component or portion relati
 
 A corpus can be a collection-as-whole under `MemberOf` and C.13 set construction. Its whole-level characteristics may include coverage, source freshness, bias exposure, or evidential diversity.
 
-The corpus does not become an acting system. A review board, script, or research team may be an acting system in role. The corpus may be an episteme or publication-side object under direct owners.
+The corpus does not become an acting system. A review board, script, or research team may instead be admitted as a System. If the current claim says only that it takes part in ordinary review or analysis, state the direct participation relation and stop there. If it says that the System performed admitted `U.Work`, point to the complete A.15.1/F.6 basis for that Work; only an unused assignment identifier may disappear from a short B.1 sentence. A local kind and a separate System-classification judgment remain independently optional. The corpus may be an episteme or publication-side object under its subject patterns.
 
 #### B.1:5.3 - Method With Steps
 
 A machining method has ordered steps and parameters. Those steps are method relation or method-description material. They do not prove that a performed machining run occurred, nor that the run had the same parts.
 
-If the current claim is the method structure, use method owners and C.29 when algebra is selected. If the current claim is the actual run, use A.15.1.
+If the current claim is the method structure, use Method patterns and C.29 when algebra is selected. If the current claim is the actual run, use A.15.1.
 

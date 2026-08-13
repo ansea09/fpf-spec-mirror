@@ -6,12 +6,12 @@ section_id: "C.30.AD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:4 — Solution"
-line_start: 60311
-line_end: 60554
+line_start: 60594
+line_end: 60837
 dependencies:
   - "A.1"
   - "A.10"
@@ -154,7 +154,7 @@ workingConcernRef
 -> admissibleArchitectureMove or subject-pattern application
 ```
 
-When allocation-responsibility semantics are current, the direct A.15 relation joins the working concern. When a source episteme or source view is used, a source-to-use path joins it to the view or description. Representation adds its own representation relation or object. Publication adds a publication occurrence with its form and carrier kept distinct. Cross-view use adds a correspondence claim or a direct correspondence relation only when its exact predicate obtains. A source-return condition is added only when a stronger use must return from a derivative or reused expression to a named source or exact defining or constraining ClaimGraph.
+When allocation or responsibility is current, add the exact direct relation separately. A system-role kind or assignment can support the work context but does not establish responsibility; `VP.AllocationResponsibility` only helps recognize the concern. When a source episteme or source view is used, a source-to-use path joins it to the view or description. Representation adds its own representation relation or object. Publication adds a publication occurrence with its form and carrier kept distinct. Cross-view use adds a correspondence claim or a direct correspondence relation only when its exact predicate obtains. A source-return condition is added only when a stronger use must return from a derivative or reused expression to a named source or exact defining or constraining ClaimGraph.
 
 `E.17.0` carries the generic viewpoint-conformance test and the rule that the same episteme is a `U.View` iff the direct relation obtains. `C.30.ASV` carries selected-structure and architecture-view adequacy. `C.30.AD` carries the architecture-specific composition and use boundary: which exact objects each description is about, which structural views it uses, which correspondence claims or relations connect them, which source-to-use paths support source use, which stronger uses activate a source-return condition, and which architecture move or subject-pattern application remains admissible.
 

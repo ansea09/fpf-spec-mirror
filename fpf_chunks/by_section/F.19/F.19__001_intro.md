@@ -6,12 +6,12 @@ section_id: "F.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:intro — Intro"
-line_start: 97366
-line_end: 97380
+line_start: 98590
+line_end: 98604
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -42,7 +42,7 @@ keywords:
 **Plain-name.** Ontology-first plain rewriting.
 
 **Intent.**
-Repair technical prose whose object, claim, relation, action, role, or flow is buried under extra apparatus. The repair is not cosmetic plain-language editing. It first separates content from apparatus by ontology, then writes the remaining content in the shortest plain technical form that preserves FPF kinds, slots, claim boundaries, and admissible use. Repair any remaining word, head, name, or wording-use problem with `E.10`, `E.10.ARCH`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining claim.
+Repair technical prose whose object, claim, relation, action, role- or function-shaped wording, or flow is buried under extra apparatus. The repair is not cosmetic plain-language editing. It first separates content from apparatus by ontology, then writes the remaining content in the shortest plain technical form that preserves FPF kinds, slots, claim boundaries, and admissible use. Repair any remaining word, head, name, or wording-use problem with `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining claim.
 
 **Builds on.** `E.8`, `E.10`, `E.10.ARCH`, `F.18`, `A.6.P`, `A.7`, `E.18`, `E.21`, and source-use, evidence, assurance, gate, work, decision, publication, architecture, characteristic, state-family, and relation patterns when those objects carry the repaired span's claim.
 

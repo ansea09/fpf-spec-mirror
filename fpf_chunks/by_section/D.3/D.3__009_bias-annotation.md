@@ -6,12 +6,12 @@ section_id: "D.3:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__009_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:5.1 — Bias-Annotation"
-line_start: 68860
-line_end: 68868
+line_start: 69239
+line_end: 69247
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "D.2"
   - "D.4"
   - "D.5"
+  - "E.10.ROLE"
   - "E.17"
 keywords:
 ---
@@ -38,6 +39,6 @@ keywords:
 | --- | --- | --- |
 | Debate replaces structure | The team argues about values before naming the affected objects and relations. | Fill the conflict structure before mediation. |
 | Representation becomes conflict | A diagram, matrix, or narrative is treated as the ethical conflict itself. | Separate the conflict EntityOfConcern from the selected description form. |
-| Collective name becomes responsibility | Organization, society, public, market, or AI is treated as responsible by label. | Name the holon, collection, role assignment, agency or responsibility threshold, and evidence. |
-| Architecture absorbs ethics | Cross-scope residual wording hides value, harm, responsibility, or admissible sacrifice. | Use architecture owners for selected structures and `D.3` and `D.4` when ethical conflict is current. |
+| Collective name becomes responsibility | Organization, society, public, market, or AI is treated as responsible by label. | Name the holon or collection, membership or participation relation, optional local kind, separate System-classification judgment, any assignment species and occurrence, agency characteristic or threshold, and evidence. Cite the direct responsibility predicate and participants or return `missing-governor`; none of the preceding facts creates responsibility. |
+| Architecture absorbs ethics | Cross-scope residual wording hides value, harm, responsibility, or admissible sacrifice. | Use architecture patterns for selected structures and `D.3` and `D.4` when ethical conflict is current. |
 

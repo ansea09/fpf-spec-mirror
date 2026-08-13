@@ -6,12 +6,12 @@ section_id: "A.6.B:11"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:11 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 10941
-line_end: 10951
+line_start: 11156
+line_end: 11166
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -49,7 +49,6 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "a duty or commitment D- claim MUST name its accountable subject"
   - "accountable norms and grants"
   - "actual exercise"
   - "and MAY"
@@ -69,7 +68,6 @@ keywords:
   - "institutional obtaining"
   - "laws"
   - "may"
-  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
   - "observable effects and evidence"
@@ -77,6 +75,7 @@ keywords:
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
+  - "responsibility"
   - "they report adjudicable results rather than obligations"
   - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
@@ -91,7 +90,7 @@ keywords:
 | ---------------------------- | -------------------------------------------------- | ----------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
 | **Gate‑as‑law**              | Preconditions written as “laws”                    | Collapses signature or mechanism boundary; breaks substitution | Move to `A-*` in Mechanism.AdmissibilityConditions; reference `L-*` terms.                  |
 | **Deontics in predicates**   | “MUST” inside definitions or gates                 | Confuses governance with truth or admissibility                | Rewrite as `L-*`/`A-*` predicate; add `D-*` duty referencing it.                            |
-| **Interface‑as‑promiser**    | “The API promises or guarantees …”                    | Category error: interface descriptions do not commit              | Identify committing role assignment or admitted acting system (`D-*`), measured property (`E-*`), and metric definition (`L-*`); use `A.6.C` when contract or promise-content unpacking is live. |
+| **Interface‑as‑promiser**    | “The API promises or guarantees …”                    | Category error: interface descriptions do not commit              | Identify the actual duty bearer, exact separately obtaining `U.Commitment`, measured property (`E-*`), and metric definition (`L-*`); cite an assignment only as a rule ground when current, and use `A.6.C` when promise-content or agreement-like boundary wording is live. |
 | **Evidence‑free guarantees** | “Guaranteed p95 latency” with no measurement story | Unadjudicable; turns into marketing                         | Create `E-*` with carriers + conditions; link commitment as `D-* → E-*`.                    |
 | **Paraphrase drift**         | Same rule restated across faces                    | Divergence becomes invisible                                | Use IDs; faces cite IDs; optional Claim Register.                                           |
 | **View‑fork semantics**      | A face introduces new L/A/D/E content              | Violates “no new semantics” publication discipline          | Move new claim into canonical layer (L/A/D/E) or mark as informative only.                  |

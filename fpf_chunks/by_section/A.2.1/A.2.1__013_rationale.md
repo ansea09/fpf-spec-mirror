@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - System Role Assignment"
+pattern_title: "U.SystemRoleAssignment - Contextual System-Role Assignment"
 section_id: "A.2.1:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__013_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:11 — Rationale"
-line_start: 3275
-line_end: 3282
+line_start: 3442
+line_end: 3449
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -20,30 +20,31 @@ dependencies:
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
   - "A.6.5"
   - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.3.3"
   - "F.6"
   - "F.9"
-  - "U.Role"
 keywords:
-  - "AssignmentInterval"
-  - "assignment occurrence"
-  - "effective ReferenceScheme"
+  - "assignment predicate"
+  - "direct assignment species"
   - "holder System"
+  - "identity"
+  - "maximal interval"
   - "performedUnderAssignment"
-  - "role value"
-  - "role-taxonomy episteme"
+  - "system-role kind"
 ---
 
 ### A.2.1:11 - Rationale
 
-`U.RoleAssignment` is admitted because a role value and holder identity answer different questions. `U.Role` is the admitted kind for role values; one exact role value carries the work-facing participation meaning. One obtaining assignment occurrence `RA : U.RoleAssignment` relates one admitted System to that role value through one role-taxonomy episteme and one effective reference scheme over its maximal continuous extent. A separately identified assignment assertion or description may designate those four participants and state the occurrence's temporal extent. `U.Work` is the admitted kind for work individuals; one `W : U.Work` is the world-side dated occurrence. A separate assertion or record may say that `W` occurred and state its obtaining relations.
+The family is needed because system classification and assignment occurrence answer different questions. Direct species are needed because the participant law for a simple shift assignment differs from the law for an appointment tied to a real commission, position, or locus.
 
-The assignment is a relation occurrence, not a relation value stored in a row. Its participant meanings and temporal episode provide the domain identity required by `A.6.REL`. This prevents two opposite errors: treating every role label as a complete assignment, and requiring explicit assignment-occurrence individuation for casual recognition text.
+One root signature would either reject legitimate stronger assignments or hide them behind optional slots. A generic occurrence beside a stronger one would duplicate the world-side episode and make F.6 choose between competing identities. Subtyping the direct species under `U.SystemRoleAssignment` preserves one assignment identity and one common holder projection.
 
-The role-taxonomy episteme and effective reference scheme provide semantic locality directly. They remove the need for mandatory `U.BoundedContext`. A selected model-use structure remains available to a receiving assertion or work use without becoming an agent, role taxonomy, generic assignment participant, or identity component.
+Predicate obtaining, assertion, explicit individuation, identifier assignment, evidence, and publication also answer different questions. Keeping them separate lets evidence be corrected without rewriting the occurrence and lets ordinary recognition text remain shorter than a full relation declaration.
 

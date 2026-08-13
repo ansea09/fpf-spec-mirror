@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.4"
-pattern_title: "Role Description - Description Episteme for U.Role"
+pattern_title: "SystemRoleKindDescription — Describing an Exact System-Role Kind"
 section_id: "F.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.4 — Role Description - Description Episteme for U.Role"
+  - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:1 — Problem Frame"
-line_start: 91053
-line_end: 91060
+line_start: 91764
+line_end: 91771
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -22,31 +22,34 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "A.7"
   - "C.2.1"
+  - "C.3"
+  - "C.3.2"
   - "E.10.D2"
+  - "E.10.ROLE"
   - "E.24"
   - "F.10"
   - "F.14"
   - "F.15"
   - "F.18"
-  - "F.3"
-  - "F.6"
-  - "F.8"
+  - "F.5"
   - "F.9"
 keywords:
-  - "Role Characterisation Space (RCS)"
-  - "RoleStateGraph (RSG)"
-  - "invariants"
-  - "role template"
-  - "status template"
+  - "classification criterion"
+  - "description episteme"
+  - "effective scheme"
+  - "local kind"
+  - "non-inference boundary"
+  - "system-role-kind description"
 ---
 
 ### F.4:1 - Problem Frame
 
-Role descriptions are useful because a role value needs a recognizable description before people can assign it, name it, compare it, or use it in a method condition. A role such as `InspectorRole` is not self-explanatory. The project needs the exact role-taxonomy episteme and effective reference scheme that give the value its current meaning, the admitted holder kind, the role invariants that matter, and the neighboring checks that may become current.
+A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare local kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need the bounded contribution identity, current `KindSignature`, effective scheme, first recognition cues, and boundary to neighboring claims.
 
-The recurring failure is to make the role description carry too much. A compact card is tempting: put role, status, permission, evidence, capability, method, assignment, work, and publication cues into one "assignable" template. That looks convenient but creates duplicate ontology. A standard used as a requirement source becomes a "standard role"; a report used as evidence becomes an "evidence role"; an access-control label becomes a behavioral role; a role name becomes proof of capability or proof that work occurred.
+The recurring failure is to make the description carry too much. A compact card is tempting: put kind, status, permission, responsibility, evidence, capability, Method, assignment, Work, and publication cues into one “assignable” template. That convenience creates duplicate ontology. A standard used as a requirement source becomes a “standard role”; a report used as evidence becomes an “evidence role”; an access-control label becomes a system-role kind; a kind name becomes proof of capability or performed Work.
 
-F.4 therefore treats a role description as a description episteme about a work-facing `U.Role`. It may mention neighboring relations, but it does not absorb them.
+F.4 instead treats the description as an episteme about one exact local kind. It may cite neighboring relations but does not absorb them.
 

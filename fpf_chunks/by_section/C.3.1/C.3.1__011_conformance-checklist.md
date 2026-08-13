@@ -6,15 +6,16 @@ section_id: "C.3.1:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__011_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:9 — Conformance Checklist"
-line_start: 44867
-line_end: 44881
+line_start: 45089
+line_end: 45103
 dependencies:
   - "A.1"
   - "A.11"
+  - "A.2"
   - "A.2.6"
   - "A.6.0"
   - "A.6.5"
@@ -45,7 +46,7 @@ keywords:
 | `CC-C31-1` | Each local `U.Kind` names its bounded context and local identity basis. Each `U.SubkindOf` obtaining claim names the exact effective reference-scheme edition and aligned signatures used to interpret the order; cross-context use goes through C.3.3. |
 | `CC-C31-2` | `U.SubkindOf` is an admitted direct relation kind with narrower-kind and broader-kind participants, a recoverable obtaining predicate and applicability, and participant-plus-reference-scheme occurrence identity. |
 | `CC-C31-2a` | A predicate expression, C.2.1 assertion episteme, evidence item, representation edge, and optional `R_sub` occurrence designator are kept distinct; none makes the relation obtain. |
-| `CC-C31-2b` | Reflexivity, transitivity, and antisymmetry constrain obtaining relation facts and are not overloaded with dependency, construction, role, slot, or admission relations. |
+| `CC-C31-2b` | Reflexivity, transitivity, and antisymmetry constrain obtaining relation facts and are not overloaded with dependency, construction, system-role assignment, declaration-slot, or admission relations. |
 | `CC-C31-3` | The judgment-level monotonicity implication is checked for the same candidate and slice under explicit compatible signature editions; `unknown` neither refutes nor establishes the universal relation predicate. |
 | `CC-C31-4` | A monotonicity counterexample diagnoses a non-obtaining link, incompatible editions, or missing bridge; no extension row is silently changed. |
 | `CC-C31-5` | Signature-edition identity and kind continuity are decided separately, and old judgments retain their cited edition. |

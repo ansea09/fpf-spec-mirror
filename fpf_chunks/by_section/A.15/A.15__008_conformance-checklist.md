@@ -1,76 +1,76 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:7 — Conformance Checklist"
-line_start: 24268
-line_end: 24289
+line_start: 24485
+line_end: 24504
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:7 - Conformance Checklist
 
-To preserve role-method-work modeling, check the following predicates.
-
-| ID | Predicate | Purpose and rationale |
-| :--- | :--- | :--- |
-| **CC-A15-1 (Entity Distinction)** | Keep the role value, `U.Method`, `U.MethodDescription` episteme, `U.Capability` instance, `U.WorkPlan` episteme, `U.Work` kind, and each Work individual admitted under it distinct. | This is the core use of A.7 strict distinction for role-method-work alignment. |
-| **CC-A15-1a (Work ontic-epistemic boundary)** | `U.Work` is the admitted kind; one Work individual is the world-side dated occurrence; any assertion, description, log, ticket, or performed-work record about it is a separate `U.Episteme`. Actual performer, method, temporal, containing-system, affected-referent, binding, and resource-use relations obtain independently and are not fields stored in the occurrence. | Blocks record-schema fields, appearance, or documentation from constituting Work. |
-| **CC-A15-2 (Kind Scope)** | `U.Method` is the semantic way of doing, `U.MethodDescription` is the description episteme, `U.WorkPlan` is the intended-work episteme, `U.Work` is the admitted kind, and one Work individual is a dated performed occurrence. Operational events do not mutate method descriptions or work plans. | Preserves method, description, plan, kind, occurrence, and record separation. |
-| **CC-A15-3 (RoleAssignment link)** | One exact Work occurrence admitted under `U.Work` stands through `performedUnderAssignment` to a `U.RoleAssignment` whose generic signature has exactly holder `U.System`, assigned `U.Role`, role-taxonomy episteme, and effective `U.ReferenceScheme`; that admitted holder system actually performs the Work and the assignment's extent covers the attributed extent. A separate assertion may state this relation. | Gives every work occurrence an exact performer and recoverable role meaning without making the assignment act or making a record, planned window, or selected model-use structure a generic participant. |
-| **CC-A15-4 (Traceability Chain)** | Each Work occurrence admitted under `U.Work` can be traced through `Work -performedUnderAssignment-> RoleAssignment`, the assignment's `HolderSystemSlot` to the admitted system that performed it, and `Work -enactsMethod-> Method`. When a method-description episteme, `methodDescriptionRef`, selected source `U.Episteme` and edition, exact `EpistemePublicationRelation` occurrence or reference when availability is material, or another source relation is used to identify or constrain that Method, a separate assertion cites it. For a `U.MethodDescription`, the cited episteme's exact `EntityOfConcern` resolves to that Method and its substantive method claims make the A.3.2 membership basis recoverable; no binary description relation is added. Capability-fit checks are evaluated against the holder's `U.Capability` instance and any declared `U.Characteristic` value, Q-Bundle slot, or architecture-characteristic input for that occurrence. | Keeps auditability from occurrence back to actual performer, assignment, method, holder capability instance, and separate descriptive sources when those are used. |
-| **CC-A15-5 (No Roles in Mereology)** | Do not place `U.Role`, `U.Capability`, separate capability-support records or relations, or capability-fit predicates in a mereological `partOf` hierarchy. | Blocks role-as-part, capability-as-part, support-as-part, and fit-predicate-as-part mistakes. |
-| **CC-A15-6 (Resource Honesty)** | Attribute resource consumption through exact obtaining relations to Work individuals admitted under `U.Work`, not to `U.MethodDescription`, `U.WorkPlan`, `U.Capability`, separate capability-support records or relations, or capability-fit predicates. A ledger or report about resource use is a separate episteme. | Keeps costs tied to performed occurrences rather than recipes, plans, abilities, statements, or admission checks. |
-| **CC-A15-7 (Plan and Occurrence Split)** | Represent schedules and calendars as `U.WorkPlan` under A.15.2. Do not use a `U.WorkPlan` as evidence that execution occurred; actual performed values require an independently identified Work occurrence and its obtaining relations. | Preserves intended-work and performed-work separation and prevents schedule-as-performed-work drift. |
-| **CC-A15-8 (Wording-cue resolution)** | Interpret unqualified "process", "workflow", "activity", or "schedule" wording through `E.10` and `E.10.ARCH`: recover whether the wording points to `U.Method`, `U.MethodDescription`, `U.WorkPlan`, the `U.Work` kind, one Work individual admitted under it, or the pattern that defines or tests the other claim. | Keeps project vocabulary auditable without creating a generic process object. |
-| **CC-A15-9 (Enactment)** | One Work occurrence admitted under `U.Work` stands in `enactsMethod` to one exact `U.Method` and in `performedUnderAssignment` to one exact `U.RoleAssignment`; the assignment's admitted holder system is the actual performer. Role value, assignment, capability, Method, MethodDescription, and performed-work record remain non-actors. A capability or algorithm-possession phrase neither proves performance nor admits a cited episteme as `U.MethodDescription`; A.3.2 still requires its exact Method `EntityOfConcern` and a substantive way-of-doing claim. Spontaneous physical evolution without role-method-work alignment is modeled as `U.Dynamics`, not as Work. | Prevents role, assignment, capability, method, description, background dynamics, and records from being miscast as actors or as performed Work, and prevents membership by cue. |
-| **CC-A15-10 (Gate split)** | A speech act that institutes a role, authorization, or gate-relevant effect is a distinct Work occurrence admitted under `U.Work` only when the A.15.1 occurrence basis and exact effect relation obtain. It may create a gate-relevant condition for later operational work, but it is not that operational work. | Preserves communicative effects as distinct acts without defining a local Work subkind by label. |
-| **CC-A15-11 (Role fit)** | A `performedUnderAssignment` relation uses a `U.RoleAssignment` whose admitted holder system is the actual performer, whose exact role meaning, role taxonomy, and effective scheme fit the particular Work occurrence, and whose extent covers the attributed work extent. An approver or deployer label does not create a Work subkind or prove performance. | Prevents assignment-as-actor, role mismatch, and kind-by-example classification. |
-| **CC-A15-12 (Causal-use work boundary)** | Intervention assignment, counterfactual randomization, target-trial emulation, causal evidence collection, and realized counterfactual-sampling work may be represented here only through exact `U.Method`, `U.MethodDescription`, `U.WorkPlan`, Work individuals admitted under `U.Work`, and their separately obtaining role and method relations. Any causal-use admissibility claim cites `C.28` for causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, `CausalUseSupportVerdict`, supported use, and unsupported use. | Prevents method, plan, occurrence, or relation structure from being mistaken for causal-use authority. |
-| **CC-A15-13 (A.15.4 boundary)** | If a reliance appearance is being used for a work relation or reliance relation by appearance, use `A.15.4` for appearance-based reliance repair and keep only the role, method, method-description, work-plan, and work separation here. | Prevents the A.15 kernel from absorbing appearance-based reliance claims. |
-| **CC-A15-14 (P2W publication boundary)** | Do not treat a principle scheme, functional diagram, scenario, screen, or explanation that makes an `E.18.1` P2W carry-through structure recoverable as the selected method, `U.WorkPlan`, a performed Work occurrence admitted under `U.Work`, work-result record, result measurement, or non-A.15 claim by publication alone. | The project use names the selected A.15 object by value; any non-A.15 claim uses the pattern that defines or tests it or `A.15.4` appearance-based reliance repair. |
+| ID | Check | Why |
+| --- | --- | --- |
+| **CC-A15-1** | Keep exact local system-role kind, `U.SystemRoleAssignment`, `U.Method`, `U.MethodDescription`, `U.Capability`, `U.WorkPlan`, `U.Work`, and every record or result distinct. | Prevents one alignment frame from becoming one object. |
+| **CC-A15-1a** | Treat a dated Work individual as world-side; keep assertions, descriptions, logs, tickets, and performed-work records as separate epistemes. Actual performer, Method, temporal, containing-system, affected-referent, binding, and resource-use relations obtain independently and are not stored fields of the occurrence. | Blocks record fields from constituting Work. |
+| **CC-A15-2** | Keep the reusable Method, its description, intended Work, and performed Work distinct. Operational events do not mutate a MethodDescription or WorkPlan. | Prevents recipe, schedule, and execution collapse. |
+| **CC-A15-3** | Attribute Work through one exact occurrence of a directly declared species under `U.SystemRoleAssignment`. Confirm that `RA.HolderSystemSlot` is the actual performer and that the assignment predicate covers the Work interval. | Gives the Work a recoverable performer without a universal assignment signature. |
+| **CC-A15-4** | Trace `W -performedUnderAssignment-> RA`, `RA.HolderSystemSlot -> H`, and `W -enactsMethod-> M`. Cite MethodDescription, plan, capability, source, and evidence separately only when relied on. | Preserves an inspectable chain without turning interpretation metadata into participants. |
+| **CC-A15-5** | Keep system-role kinds, capabilities, fit predicates, Methods, and support records out of `partOf` hierarchies unless another direct pattern admits a structural relation. | Blocks classification and support as parts. |
+| **CC-A15-6** | Attribute resource use to dated Work through exact obtaining relations, not to a MethodDescription, WorkPlan, capability, assignment, or fit predicate. | Keeps costs with performance. |
+| **CC-A15-7** | Use `U.WorkPlan` for intended Work and identify actual Work independently. | Stops schedule-as-performance drift. |
+| **CC-A15-8** | Resolve unqualified *process*, *workflow*, *activity*, *schedule*, and *role* wording through `E.10.ARCH` or `E.10.ROLE`. | Prevents wording cues from choosing ontology. |
+| **CC-A15-9** | State `enactsMethod` and `performedUnderAssignment` separately. Only the admitted holder system performs Work. A capability or algorithm-possession phrase proves neither performance nor MethodDescription membership. Spontaneous physical evolution without this alignment remains `U.Dynamics`, not Work. | Prevents kind, assignment, capability, Method, description, plan, dynamics, and records from becoming actors. |
+| **CC-A15-10** | Treat a speech act that institutes an assignment, authorization, or gate-relevant effect as its own Work occurrence only when A.15.1 admission and the exact effect relation obtain. | Keeps the communicative Work distinct from later operational Work. |
+| **CC-A15-11** | Recover the assignment's direct species, exact local assigned-kind domain, real participants, predicate, and occurrence. Taxonomy, scheme, signature, context, and source are cited separately when the receiving claim uses them. An approver or deployer label neither creates a Work subkind nor proves performance. | Prevents a permissive assignment record and kind-by-label. |
+| **CC-A15-12** | Represent causal intervention and sampling work only through exact Methods, MethodDescriptions, WorkPlans, Work occurrences, assignment attribution, and Method enactment. Use `C.28` for the causal-use question, `CausalityLadderRung`, causal estimand, `CausalEvidenceSupportBasis`, `CausalUseSupportVerdict`, supported use, and unsupported use. | Keeps work alignment from becoming causal authority. |
+| **CC-A15-13** | Use A.15.4 when a visible item is relied on by appearance; retain only the system-role–Method–Work separation here. | Keeps reliance repair out of the alignment kernel. |
+| **CC-A15-14** | Keep an E.18.1 P2W structure, its publication, selected Method, WorkPlan, Work, result record, and measurement distinct. | Publication alone establishes none of the project-side values. |
 

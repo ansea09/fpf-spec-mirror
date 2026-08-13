@@ -6,12 +6,12 @@ section_id: "F.17:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__013_regression-and-stability-rules.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:11 — Regression and stability rules"
-line_start: 96016
-line_end: 96028
+line_start: 96800
+line_end: 96812
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -61,5 +61,5 @@ Recheck only the rows affected by the changed object, name, scheme, sense, Bridg
 | UTS-RSCR-03 | F.18 changes the selected name or NameCard decision | Recheck Tech name, Plain name, NameCardRef, aliases, coordinate expression, and rationale. |
 | UTS-RSCR-04 | F.9 changes a Bridge endpoint or relation-semantic profile, or C.2.1/A.10/B.3 changes the bounded-use claim or reliance basis | Recheck the changed object only: BridgeRefs for endpoint or profile change; row use, rationale, and notes for changed direction, rule, tolerance, polarity, evidence, reliance, or assurance. |
 | UTS-RSCR-05 | Row relocation between blocks | Keep the row id stable and state that relocation between blocks has no ontological force. |
-| UTS-RSCR-06 | A role, status, evidence, source, publication, or description row is reused under another semantic-context projection or by another reader group | Recheck the pattern that defines or constrains the governed value, the exact sense coordinate, and any required Bridge before reuse. |
+| UTS-RSCR-06 | A system-role, status, evidence, source, publication, or description row is reused under another semantic-context projection or by another reader group | Recheck the pattern that defines or constrains the governed value, the exact sense coordinate, and any required Bridge before reuse. |
 

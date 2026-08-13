@@ -6,12 +6,12 @@ section_id: "C.30.AD:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:5 — Archetypal Grounding (Worked Cases)"
-line_start: 60555
-line_end: 60569
+line_start: 60838
+line_end: 60852
 dependencies:
   - "A.1"
   - "A.10"
@@ -83,7 +83,7 @@ keywords:
 | A model card claims deployment safety. | Use `C.30.AD` only if the card publishes or represents a description episteme about an exact architecture-side object. Safety assurance uses `B.3`; evidence uses `A.10`; release uses `A.21`. |
 | A generated code-agent relation graph shows modules and calls. | Treat the graph as a generated representation or source publication. Recover observed, inferred, and unknown relations; use `C.30.ASV` or `C.30.TFS-REL` only when an exact architecture structural view or flow relation is being used. Generation and display establish neither relation occurrence nor view membership. |
 | A multi-view description set has functional, deployment, control, and evidence-reuse views. | Identify every description episteme separately, including its EntityOfConcern and scheme. Each cited view also names its exact viewpoint and obtaining conformance relation; an `ArchitectureDescriptionViewUseClaim` records set use without minting membership. Evidence-reuse claims do not stay inside C.30.AD. |
-| A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records exact description identities, view conformance, description-set use, and correspondence among views. `C.30.LCA` governs the control view; `A.10`, `G.6`, or `B.3` governs evidence or assurance; `A.15` is used only if allocation-responsibility semantics apply. |
+| A plant safety architecture description combines control, deployment, evidence, and operator-view material. | `C.30.AD` records exact description identities, view conformance, description-set use, and correspondence among views. Use `C.30.LCA` for the control view and `A.10`, `G.6`, or `B.3` for evidence or assurance. If a system-role assignment, F.6 Work attribution, authority, allocation, or responsibility is claimed, cite its separate direct relation; otherwise record the exact missing governor. |
 | A product-line platform document reuses module-interface, variability, and deployment views across products. | `C.30.AD` records exact description epistemes, architecture claims carried as content, structural views, and source-to-use paths for reused views. A source-return condition is added only when a product-specific use exceeds the declared reuse boundary. `A.6.M` normalizes module-interface claims and routes any proposed direct relation; `C.31.RSA` accounts reusable structure or bespoke residue only after structure refs and accounting frame are declared. |
 | A multi-view architecture description says local optimization at one declared holon level creates frustration in another. | `C.30.AD` records description-set use, correspondence, and each view's declared use boundary. `C.30.ILC` governs the residual; `C.29` is used only if the description contains a recoverable level mapping or scale mapping with preserved structure and lost structure. |
 | An architecture document compares residual-reducing candidate decompositions or optimization moves. | Record with `C.30.AD` only the exact description or publication use of that comparison. Use `C.32.MLAO` for residual-reducing frames, `C.32` for candidate palettes, `A.19.CPM` or `A.19.SelectorMechanism` for comparison and selector-policy use, `C.18` or `C.19` for archives, fronts, and current-pool treatment, `G.5` for selected-set result declaration, and `C.11` for final local choice. For a measurement claim, use the pattern that defines or tests the measured characteristic and result. |

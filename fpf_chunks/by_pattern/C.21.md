@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.21.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
-line_start: 50707
-line_end: 50961
+line_start: 50963
+line_end: 51217
 dependencies:
   - "A.17"
   - "A.18"
@@ -232,7 +232,7 @@ This checklist verifies a DHC reading after the practitioner has selected the li
 | **CC-C.21-13 CG-Spec citation.** | Numeric comparison or aggregation in DHC cites CG-Spec: characteristics, `ScaleComplianceProfile`, `Γ-fold`, and MinimalEvidence. | Keeps operations scale-admissible. |
 | **CC-C.21-14 Phi policies.** | `Phi(CL)` and `Phi_plane` are monotone, table-backed, and published by policy id. | Prevents hidden penalty functions. |
 | **CC-C.21-15 Ref discipline.** | Edition pinning appears as `...Ref.edition` on the relevant reference field; bare `...Edition` fields are repaired. | Keeps edition subject explicit. |
-| **CC-C.21-16 Role kit, informative.** | Standard roles from F.4 may be used: `DisciplineStewardRole`, `DHCMethodAuthorRole`, `DHCSeriesPublisherRole`; values still declare design/run stance and `ReferencePlane`. | Roles do not become evidence or authority. |
+| **CC-C.21-16 System-role kit, informative.** | Local system-role kinds described under F.4 may be used: `DisciplineStewardSystemRole`, `DHCMethodAuthorSystemRole`, `DHCSeriesPublisherSystemRole`; values still declare design and run stance and `ReferencePlane`. | A system-role kind or assignment does not become evidence or authority. |
 | **CC-C.21-17 Engineering-grade and semio-substitution extensions.** | When `EngineeringClaimJustificationRecoverability` or `SemioSubstitutionPressure` is active, the DHC row names the neighboring pattern governing the claiming FPF pattern that carries live engineering claim kind or admissible-use boundary or semio-substitution repair, plus admissible use, non-admissible overread, and stop or reopen condition. | The extension note is not evidence, assurance, gate passage, mathematical-lens use, release permission, work authority, or project certification. |
 
 ### C.21:10 - Common Anti-Patterns and How to Avoid Them

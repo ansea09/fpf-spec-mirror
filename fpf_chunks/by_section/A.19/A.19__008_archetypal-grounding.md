@@ -6,32 +6,26 @@ section_id: "A.19:6.1"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__008_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:6.1 — Archetypal Grounding"
-line_start: 28726
-line_end: 28733
+line_start: 28928
+line_end: 28935
 dependencies:
   - "A.10"
+  - "A.15"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
-  - "A.19.CN"
   - "A.19.CPM"
-  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.19.SelectorMechanism"
-  - "A.2.5"
   - "A.2.6"
-  - "A.3.3"
   - "A.6.5"
   - "C.16"
   - "C.2.1"
-  - "E.18"
   - "E.24"
   - "F.9"
-  - "G.0"
   - "G.11"
   - "G.4"
   - "U.ClaimScope"
@@ -43,17 +37,17 @@ keywords:
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
-  - "role-specific space refs stay outside A.19"
   - "state trajectories"
   - "structural overlays"
   - "subspace"
+  - "system-role–Method–Work assertions stay outside A.19"
 ---
 
 ### A.19:6.1 - Archetypal Grounding
 
-**System state.** A pump readiness use declares temperature, vibration, pressure, and calibration coordinates plus a by-value readiness predicate. The state-assertion or gate owner binds the pump, claim scope, context slice, evaluation window, actual inputs, result, evidence, and permission to act.
+**System state.** A pump readiness use declares temperature, vibration, pressure, and calibration coordinates plus a by-value readiness predicate. The actual state assertion or gate application binds the pump, claim scope, context slice, evaluation window, inputs, result, evidence, and any separately justified permission to act.
 
-**Episteme evaluation.** A method-description review uses clarity, evidence recoverability, source currentness, and relation precision coordinates. A.19 supplies the declared characteristic space; the evaluation pattern owns the stop condition, rating interpretation, and improvement decision.
+**Episteme evaluation.** A method-description review uses clarity, evidence recoverability, source currentness, and relation precision coordinates. A.19 supplies the declared characteristic space; the evaluation pattern contains the defining content for the stop condition, rating interpretation, and improvement decision.
 
-**Cross-scheme comparison.** A built-asset team compares readiness values expressed under different measurement conventions. A.19 requires a common declared space or an exact normalization and F.9 Bridge before coordinate comparison; CPM owns the comparison occurrence, scope, window, and result.
+**Cross-scheme comparison.** A built-asset team compares readiness values expressed under different measurement conventions. A.19 requires a common declared space or an exact normalization and F.9 Bridge before coordinate comparison; One actual A.19.CPM comparison application binds the comparison occurrence, scope, window, and result.
 

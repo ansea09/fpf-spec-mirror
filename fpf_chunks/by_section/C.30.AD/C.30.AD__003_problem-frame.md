@@ -6,12 +6,12 @@ section_id: "C.30.AD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:1 — Problem frame"
-line_start: 60271
-line_end: 60286
+line_start: 60554
+line_end: 60569
 dependencies:
   - "A.1"
   - "A.10"
@@ -76,7 +76,7 @@ keywords:
 
 ### C.30.AD:1 - Problem frame
 
-Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions are useful because they let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns; A.15 allocation-responsibility semantics apply only when a project role relation itself is being governed.
+Architecture practice needs durable descriptions: multi-view documents, view models, generated relation graphs, architecture transformation-flow views, LCA control sketches, module or interface diagrams, deployment views, model cards, system cards, and architecture decision description sets. These descriptions let teams compare, reuse, refresh, inspect, and use architecture claims across viewpoint families and working concerns. When the project also claims a system-role assignment, Work attribution, authority, or responsibility, each remains a separate object: use A.2.1 and F.6 for assignment and Work, and an admitted direct domain predicate or exact A.6.RCD missing governor for responsibility. `VP.AllocationResponsibility` is only a viewpoint cue.
 
 The difficulty is that a description is not the architecture, an obtaining architecture relation, or its selected structure. The same holon and architecture-relation occurrence can have several descriptions. A description set can contain several separately identified epistemes. One such episteme is a `U.View` only while an exact `EpistemeViewpointConformanceRelation` obtains between that same episteme and one exact viewpoint episteme. Each view can hide, lose, coarsen, or emphasize different structure. A view can describe functional structure, flow or transformation-flow structure, control structure, module or interface structure, placement structure, information custody, evidence-reuse relation, assurance relation, scale or coarsening relation, or another declared architecture-relevant structure.
 

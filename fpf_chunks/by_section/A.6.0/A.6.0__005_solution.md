@@ -6,12 +6,12 @@ section_id: "A.6.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:4 — Solution"
-line_start: 11819
-line_end: 12004
+line_start: 12031
+line_end: 12228
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -76,10 +76,10 @@ The four content groups are semantic components, not a mandatory visual table. A
 |---|---|
 | `SubjectKind`, `RangedValueKind`, optional `ResultKind`, `SliceSet`, and `ExtentRule` | Name the declared subject and value range, plus a distinct result kind when current. When membership of the same `SubjectKind` can differ across context slices, `SliceSet` names the addressable `U.ContextSlice` values to consider and `ExtentRule` states how membership is judged at one selected slice, thereby determining `Extension(SubjectKind, slice)`. No additional container kind is implied. |
 | `Vocabulary` | Declares the public designators for value kinds, relation kinds, operators, and other independently identified declared objects. A `RelationSignature` may include SlotSpecs under A.6.5; each SlotSpec gives a declaration-local SlotKind name and the exact participant ValueKind and designation mode. A mechanism may include operation argument and result declarations under A.6.1. A vocabulary token does not by itself admit a durable U-kind. |
-| `Laws` | States semantic predicates, equations, invariants, closure conditions, and other declared regularities. A.6.1 governs an operation-admission predicate for a mechanism; A.3.1 governs the method, and A.15.1 governs the dated work occurrence that enacts it, including direct F.6 `performedUnderAssignment` attribution to the exact covering `U.RoleAssignment`. Writing the operation-admission predicate as a condition does not make it a signature law. |
+| `Laws` | States semantic predicates, equations, invariants, closure conditions, and other declared regularities. Use A.6.1 to state an operation-admission predicate for a mechanism, A.3.1 to identify the Method, and A.15.1 to identify the dated Work that enacts it. F.6 identifies the assignment under which each performer acted; a short signature explanation may omit an assignment identifier that no later claim uses. Writing the operation-admission predicate as a condition does not make it a signature law. |
 | `Applicability` | States the exact `U.ClaimScope` and any other use qualifiers current for this declaration, such as a relevant time interval or selected `CHR:ReferencePlane`. Cite an optional `modelUseStructureRef : U.StructureRef` only when an independently selected model-use structure changes interpretation. |
 
-`SubjectKind` and `RangedValueKind` are declaration-content components. They do not create a second hierarchy beside C.3 or E.24.UK. A.2.6 supplies addressable `U.ContextSlice` values; C.3.2 governs the membership judgment and any optional materialized `KindExtension` representation. `SliceSet` is not a generic space, time interval, numeric or result range, or changing dataset. `ExtentRule` is not an arbitrary change function: it tells how the declared kind's members are determined at one named slice. A time selector may be part of a `U.ContextSlice`; a value or result range stays in `RangedValueKind` or `ResultKind`; changing data stays with its direct owner; and a claim-bearing mathematical set representation opens C.29 separately. Leave both fields out unless membership of the same declared kind can differ across the named slices.
+`SubjectKind` and `RangedValueKind` are declaration-content components. They do not create a second hierarchy beside C.3 or E.24.UK. A.2.6 supplies addressable `U.ContextSlice` values; C.3.2 governs the membership judgment and any optional materialized `KindExtension` representation. `SliceSet` is not a generic space, time interval, numeric or result range, or changing dataset. `ExtentRule` is not an arbitrary change function: it tells how the declared kind's members are determined at one named slice. A time selector may be part of a `U.ContextSlice`; a value or result range stays in `RangedValueKind` or `ResultKind`; changing data stays with its subject pattern; and a claim-bearing mathematical set representation opens C.29 separately. Leave both fields out unless membership of the same declared kind can differ across the named slices.
 
 Applicability and meaning remain distinct. The effective `U.ReferenceScheme` is part of episteme identity. The exact `U.ClaimScope` delimits use; when current for the declaration, a relevant time interval, selected `CHR:ReferencePlane`, or selected `BoundedModelUseStructure : U.Structure` further delimits or organizes applicability. None replaces the reference scheme or claim scope.
 
@@ -100,9 +100,9 @@ The direct relation pattern remains authoritative for when the relation obtains 
 
 A direct relation may obtain before anyone writes a signature. Ordinary prose may therefore stop at:
 
-> During Shift-17, Robot-7 holds InspectorRole as interpreted by MaintenanceRoles-2026 under Maintenance-Scheme-A.
+> During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17.
 
-This is an A.2.1 assignment assertion about the already admitted `U.RoleAssignment` relation kind. A.2.1 defines the direct assignment predicate and occurrence-identity rule; the actual assignment history for Robot-7 and Shift-17 determines whether the predicate is satisfied. When several patterns need to reuse the four participant meanings, predicate, and identity rule, the A.2.1 `RelationSignature` becomes useful: its A.6.5 SlotSpecs declare those meanings for typed assertion and F.6 work-attribution reuse. When another claim needs to refer to this particular assignment episode, A.6.REL governs explicit individuation.
+This is an A.2.1 assertion about an occurrence of declared species `MaintenanceInspectionAssignment` under `U.SystemRoleAssignment`. A.2.1 defines the species' predicate and occurrence-identity rule. The occurrence has `Robot-7` as holder, `InspectorSystemRole` as assigned-kind value, and only the values required for any other declared participants. When several patterns must reuse those participant meanings, predicate, and identity rule, the species' `RelationSignature` becomes useful for typed assertions and F.6 attribution. When another claim must refer to this assignment episode, use A.6.REL for explicit individuation.
 
 #### A.6.0:4.4 - Declare participant meanings and operation parameters under different specializations
 
@@ -115,11 +115,11 @@ refMode := ByValue | RefKind
 
 | Component | Meaning in a RelationSignature |
 |---|---|
-| `SlotKind` | The declaration-local name by which this `RelationSignature` distinguishes one participant meaning of its EntityOfConcern relation kind. It is not a participant, system role, or mathematical operand. |
+| `SlotKind` | The declaration-local name by which this `RelationSignature` distinguishes one participant meaning of its EntityOfConcern relation kind. It is not a participant, system-role kind, or mathematical operand. |
 | `ValueKind` | The exact world-side kind admitted for the relation participant. |
 | `refMode` | How a receiving episteme, such as an assertion, description, or occurrence record, carries a participant designation: by value or through one exact governed RefKind. That designation denotes the actual participant. The relation occurrence itself does not store the reference, and the occurrence record is not that occurrence. |
 
-A.6.5 governs these declarations of participant meanings. Use the exact A.2.1 SlotKind names for this admitted example: `HolderSystemSlot`, `RoleValueSlot`, `RoleTaxonomyEpistemeSlot`, and `EffectiveReferenceSchemeSlot`. They expose the four participant distinctions without making the assignment interval, a selected model-use structure, or performed work into another participant. Do not force SlotSpecs into a one-off assertion that has no receiving typed use.
+Use A.6.5 to declare these participant meanings. In the simple `MaintenanceInspectionAssignment` species, use `HolderSystemSlot` and one declaration-local `AssignedSystemRoleKindSlot` whose ValueKind is the exact `InspectorSystemRole` domain. A stronger species adds only a real participant that changes its predicate or occurrence identity. Taxonomy episteme, reference scheme, interval description, and generic context may interpret an assertion but are not generic world-side assignment participants. Do not force SlotSpecs into a one-off assertion that has no receiving typed use.
 
 A formal or mechanism declaration may instead need named operation arguments and a result. A.6.1 governs that `OperationAlgebra`; C.29 governs any mathematical operand order, product, function, or tuple used to represent it. Those operation parameters do not become `RelationSignature` SlotSpecs or SlotKinds merely because the same notation uses angle brackets or numbered arguments. When a relation claim consumes a mathematical representation, state an explicit correspondence between the representation's operands and the independently declared SlotSpecs.
 
@@ -127,9 +127,9 @@ A formal or mechanism declaration may instead need named operation arguments and
 
 Open a `SignatureManifest` only after this test. Add an import when removing one named provider would leave this declaration unable to interpret a required non-local term or unable to replay one of its stated laws; name the provider and the exact required term or law. Add a provide entry when this declaration introduces a named term or law and one named dependent declaration relies on it. A background citation, similar vocabulary, shared publication, list membership, or convenient replay order is not a dependency.
 
-The compatible heading is retained for dependent patterns; it names neither another U-kind nor one uniform ontic object. It co-locates entries with three roles: `id` is an identity-neutral display designator; `signatureRef` and its optional `.edition` pin form a governed reference to an already recoverable signature episteme; and `imports` and `provides` may carry or represent dependency and name-or-law introduction claims in the signature's exact `U.ClaimGraph`. Co-location makes neither every entry identity-bearing claim content nor any entry a relation occurrence.
+The compatible heading is retained for dependent patterns; it names neither another U-kind nor one uniform ontic object. It co-locates entries with three functions: `id` is an identity-neutral display designator; `signatureRef` and its optional `.edition` pin form a governed reference to an already recoverable signature episteme; and `imports` and `provides` may carry or represent dependency and name-or-law introduction claims in the signature's exact `U.ClaimGraph`. Co-location makes neither every entry identity-bearing claim content nor any entry a relation occurrence.
 
-The compatible section may carry entries with these roles:
+The compatible section may carry entries with these functions:
 
 | Entry | Meaning |
 |---|---|
@@ -154,7 +154,7 @@ A governed reference to a separately identified object is not an exported vocabu
 
 #### A.6.0:4.6 - Specialize declaration use without minting another root kind
 
-A signature profile is a constrained use of the same `U.Signature` kind. The profile states which content is current and which neighboring patterns govern later use.
+A signature profile is a constrained use of the same `U.Signature` kind. The profile states which content is current and which neighboring patterns define or constrain later use.
 
 **`profile = FormalSubstrate`.** Declare vocabulary and terms, inference kinds, formal laws, applicability, and the actual declaration dependencies carried in the signature's claim content. A.6.1 separately governs `OperationAlgebra`, operation designators, typed argument and result positions, admission conditions, application, and realization. An A.6.1 declaration may cite the FormalSubstrate signature; that citation does not make the operation part of this signature. When a mathematical object is selected as a lens for another entity, C.29 governs the lens-use claim; usefulness does not make the mathematical object a signature.
 
@@ -162,9 +162,21 @@ A signature profile is a constrained use of the same `U.Signature` kind. The pro
 
 State a relation between two signatures directly as refinement, conservative extension, equivalence, or another independently governed relation only when that relation's own predicate obtains. Before using the refinement label, compare all three reusable content duties: `Vocabulary`, `Laws`, and `Applicability`. Name the terms preserved, added, or removed; the laws preserved, strengthened, or changed; and whether the population, time, `CHR:ReferencePlane`, and claim scope stay the same, narrow, or widen. An unexplained applicability widening fails the refinement claim; use another direct relation whose predicate explicitly permits the widening instead of hiding it under `refinement`. Use a C.29 morphism only when a mathematical structure-preservation claim is actually current.
 
+#### A.6.0:4.6a - Rule-content actual-use predicate declaration
+
+`RuleContentBasisFindingDefinition@R7` is one ordinary `U.Signature` for two reusable predicates over claim content. Its exact EntityOfConcern is the reusable predicate definition; both `SubjectKind` and `RangedValueKind` are `U.ClaimGraph`. No distinct result kind is current because an ordinary C.2.1 assertion states whether a predicate obtains. The declaration is not a `RelationSignature`: `dependentContent` and `baseContent` are semantic parameters, not world-side relation participants or A.6.5 SlotSpecs.
+
+Its vocabulary includes `SelectedRuleContentSubgraphDesignation@RuleContentBasisFindingDefinition-R7`, `derivedUsingRuleContent@RuleContentBasisFindingDefinition-R7`, and `evaluatedAgainstRuleContent@RuleContentBasisFindingDefinition-R7`. The designation resolves one exact nonempty base subgraph selected for one identified use; it is not a U-kind or intrinsic classifier. `RuleContentDerivationProfile@R7`, `RuleContentEvaluationProfile@R7`, and `RuleContentBasisFamilyAlgebra@R7` are named subgraphs of this signature's ClaimGraph, not separate entities, kinds, signatures, registries, or occurrences.
+
+The derivation predicate obtains only when an identified derivation claim used exact `baseContent` as a formal premise under a declared inference rule or application to produce exact `dependentContent`. The evaluation predicate obtains only when an identified criterion-selection claim selected exact `baseContent` for one exact bounded evaluation claim concerning `dependentContent`. Definition, constraint, applicability, consultation, citation, influence, provenance, evidence, evaluation Work, result, sufficiency, assurance, reliance, authority, and publication establish neither predicate by themselves.
+
+An assertion names the exact actual-use claim identity and bounded receiving use, and adds scope, temporal policy, scheme interpretation, Bridge/loss, or source/witness qualifications only when each independently changes that assertion. Same-scheme use invents no Bridge. A changed subject, content, mode, use, actual-use claim, scope extension, time policy, or interpreted endpoint identifies a successor assertion under C.2.1 rather than mutating every use of this reusable definition.
+
+R7 is a changed-law successor of historical `RuleContentBasisFindingDefinition@R6`, not identity-continuous reuse. The C.2.1 succession assertion names predecessor, successor, `changeClass = reusable-law-change`, the changed law set—formal-premise/criterion-selection truth split, owner-claim removal, per-question analysis separation, independent candidate axes, pairwise compatibility, temporal-policy identity, and non-permissive reliance—and `inheritedAcceptanceOrUse = none`. A dependency pin selects R6 or R7 explicitly; a pin change reopens dependants rather than silently retargeting them.
+
 #### A.6.0:4.7 - Keep declaration, realization, and use under their direct patterns
 
-| Current object or claim | Governing pattern |
+| Current object or claim | Subject pattern |
 |---|---|
 | Constitution and C.2.1 identity of the exact claim-bearing episteme, including a separately identified relation-occurrence description episteme | C.2.1; the direct object or relation pattern still governs the described EntityOfConcern |
 | Reusable declaration episteme and `U.Signature` membership | A.6.0 |
@@ -185,14 +197,14 @@ State a relation between two signatures directly as refinement, conservative ext
 | Assurance claim or reliance-safety assurance record | B.3 |
 | Operational gate profile and the decision that uses its result | A.21 and C.11 |
 
-The rows name the direct patterns that govern these common adjacent objects and claims. Their co-location is only a compact representation and does not change any governing pattern's scope.
+The rows name the direct patterns that define or constrain these common adjacent objects and claims. Their co-location is only a compact representation and does not change any subject pattern's scope.
 
 #### A.6.0:4.8 - Add explicit objects only for a named receiving use
 
 Make three decisions by naming the next sentence, comparison, tool, or declaration that must work:
 
-1. **State the direct relation and stop.** Use this branch when the task only asks whether the A.2.1 assignment predicate holds for the named holder, role, taxonomy episteme, and reference scheme during the named episode. For example, `During Shift-17, Robot-7 holds InspectorRole as interpreted by MaintenanceRoles-2026 under Maintenance-Scheme-A` is a complete current assignment assertion. State an affirmative or negative claim under A.2.1, or an exact governed modal claim when that family is current. The A.2.1 predicate defines the test; the actual assignment history decides the case. Add an A.10 or receiving-evaluation reliance judgment only when the task separately asks whether to rely on the assertion.
-2. **Share one declaration.** Reuse or author a signature when at least two named claims or consumers must use the same participant meanings, vocabulary, laws, or applicability. For example, a staffing assertion and an F.6 work-attribution consumer that must interpret `HolderSystemSlot`, `RoleValueSlot`, `RoleTaxonomyEpistemeSlot`, `EffectiveReferenceSchemeSlot`, and the same A.2.1 assignment predicate can cite one `RelationSignature`. One sentence that merely repeats the word `assigned` does not open this branch. When a declaration is authored, C.2.1 identifies the episteme from its own claim content, exact EntityOfConcern, and effective reference scheme; A.6.0 then judges `U.Signature` membership.
+1. **State the direct relation and stop.** Use this branch when the task only asks whether one named A.2.1 direct-species predicate holds for its actual participants during the named episode. For example, `During Shift-17, Robot-7 is assigned as inspector through InspectionAssignment-17` is a complete current assertion when the direct `MaintenanceInspectionAssignment` predicate holds. State the affirmative or negative claim under A.2.1, or an exact governed modal claim when that family is current. Add an A.10 or receiving-evaluation reliance judgment only when the task separately asks whether to rely on the assertion.
+2. **Share one declaration.** Reuse or author a signature when at least two named claims or consumers must use the same participant meanings, vocabulary, laws, or applicability. For example, a staffing assertion and an F.6 Work-attribution consumer can cite the `MaintenanceInspectionAssignment` `RelationSignature` when both must interpret `HolderSystemSlot`, its declaration-local assigned-kind slot with exact `InspectorSystemRole` domain, any real species-specific participants, and the same direct predicate. One sentence that merely repeats the word `assigned` does not open this branch. When a declaration is authored, C.2.1 identifies the episteme from its own claim content, exact EntityOfConcern, and effective reference scheme; A.6.0 then judges `U.Signature` membership.
 3. **Distinguish one occurrence.** Open occurrence identity only when a later claim must refer to that same occurrence, compare or qualify it, track its beginning, continuation, cessation, or change, or use it as a participant of another relation. For example, F.6 work attribution must cite the exact covering assignment episode, and a staffing history that compares Shift-17 with a later reassignment must apply A.2.1's uninterrupted-obtaining same-versus-new-occurrence rule. A roster-row identifier that merely designates an assertion identifies neither the assignment occurrence nor a new occurrence; use F.18 only after A.2.1 has distinguished the occurrence to which a reference should resolve.
 
 These are the `receiving-use` thresholds. They concern three different objects and are not stages that construct a relation or episteme from need. The stop is observable: the target direct assertion, shared declaration for the named consumers, or occurrence-referencing claim can be written without another unresolved object. Authoring, selecting, reusing, or explicitly individuating is motivated by that target but supplies no identity criterion and creates neither the episteme nor the relation occurrence. Selecting or reusing an unchanged episteme leaves its identity unchanged; neither a reference nor a log entry creates its referent. A claim about condition-dependent entries, branches, returns, or stops is a CGUS claim governed by A.22.CGUS.
@@ -224,5 +236,5 @@ When a once-current signature becomes stale while its identity remains recoverab
 
 Reopen declaration authoring when a proposed change affects the signature's exact claim content, EntityOfConcern, effective reference scheme, declared dependency, Vocabulary, Laws, Applicability, or the boundary of a FormalSubstrate, PrincipleFrame, or other admitted profile. The revised claim-bearing candidate is another C.2.1 episteme; A.6.0 judges its signature membership again, and any edition, refinement, or supersession relation remains a separate claim under its direct governor. Also reopen the affected declaration element when current problem-owning-domain or formal-method SoTA changes the term, inference form, law shape, applicability condition, or realization boundary being declared.
 
-When a governed kind name, `SubjectKind`, `RangedValueKind`, SlotKind, RefKind, or exported term is renamed, rerun E.10 and F.18. Accept the rename only when a cold reader can still recover the same FPF kind, declaration use, and practical action; otherwise keep the old name or return the naming defect. Do not revise the signature merely because a realization, work occurrence, measurement, Bridge use, evidence-use relation, publication, provider currentness, or G.11 selection changed. Update that neighboring object under its direct owner, and reopen the signature only if its own claim or dependency content must change.
+When a governed kind name, `SubjectKind`, `RangedValueKind`, SlotKind, RefKind, or exported term is renamed, rerun E.10 and F.18. Accept the rename only when a cold reader can still recover the same FPF kind, declaration use, and practical action; otherwise keep the old name or return the naming defect. Do not revise the signature merely because a realization, work occurrence, measurement, Bridge use, evidence-use relation, publication, provider currentness, or G.11 selection changed. Update that neighboring object under its subject pattern, and reopen the signature only if its own claim or dependency content must change.
 

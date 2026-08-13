@@ -6,12 +6,12 @@ section_id: "A.6.C:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:intro — Intro"
-line_start: 11024
-line_end: 11034
+line_start: 11239
+line_end: 11249
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -39,8 +39,8 @@ keywords:
   - "OPTIONAL"
   - "SHOULD"
   - "a mechanism entry predicate enters A"
-  - "and SHOULD NOT enter D only for an accountable duty"
-  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm/grant enters D"
+  - "and SHOULD NOT enter D only for an individual duty"
+  - "and authority-looking synonyms trigger the A.6 A6-AW-* branch: a current norm or grant enters D"
   - "are statement operators"
   - "atomic L/A/D/E rows"
   - "commitment or grant"
@@ -64,8 +64,8 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → **A.6 Signature Stack & Boundary Discipline**
-> **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.P:4.11a** (service/access direct-owner recovery), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
-> **Naming boundary:** **F.18** may provide durable names for recovered terms when naming is current; it does not govern the promise-content, speech-act, commitment, permission, work, evidence, or boundary ontology.
-> **Mint or reuse (terminology):** Reuses “contract”, “SLA”, and “guarantee” as Plain-level boundary shorthand; mints **Contract Bundle** only as a four-question unpacking lens, not an entity kind or register-part taxonomy. The existing A.6.B Claim Register may add `bundleId`, optional `questionRef`, `directObjectRef`, `ownerPatternRef`, and `faceRefs`; it remains the one atomic-claim record.
-> **Purpose (one line):** Prevent “contract soup” by asking four plain questions, then recording each resulting atomic claim with its direct object, owner, quadrant, and evidence path when current.
+> **Builds on:** A.6 (stack + classification intent), **A.6.B** (L/A/D/E), **A.6.P:4.11a** (service/access subject-pattern recovery), **A.7** (EntityOfConcern, Description episteme, and carrier separation), **A.2.3** (`U.PromiseContent`), **A.2.8** (`U.Commitment`), **A.2.8.PER** (strong/weak permission, exercise, and conflict), **A.2.9** (`U.SpeechAct`), **A.15.1** (`U.Work`), **A.10** and **B.3** (evidence and assurance use), E.10 (`L-SERV` and `LEX-BUNDLE`), E.17 (MVPK “no new semantics” faces), F.12 (service acceptance and evidence discipline)
+> **Naming boundary:** **F.18** may provide durable names for recovered terms when naming is current; it does not define or constrain the promise-content, speech-act, commitment, permission, work, evidence, or boundary ontology.
+> **Vocabulary boundary:** Reuses “contract”, “SLA”, and “guarantee” only as Plain-level source cues. The four questions below are a boundary-language unpacking lens, not a `Contract`, bundle, register-part kind, or rival claim set. The existing A.6.B Claim Register may add `bundleId`, optional `questionRef`, `directObjectRef`, `directObjectPatternLocator`, and `faceRefs`; it remains the one atomic-claim record.
+> **Purpose (one line):** Prevent “contract soup” by asking four plain questions, then recording each resulting atomic claim with its direct object, exact subject assertion, non-semantic pattern locator, quadrant, and evidence path when current.
 

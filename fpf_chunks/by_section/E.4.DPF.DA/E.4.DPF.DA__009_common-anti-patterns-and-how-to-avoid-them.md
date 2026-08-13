@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71145
-line_end: 71163
+line_start: 71591
+line_end: 71609
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -41,6 +41,7 @@ dependencies:
   - "E.4.PFAD"
   - "E.4.PFR"
   - "F.18"
+  - "F.6"
   - "G.11"
   - "G.2"
   - "U.Method"
@@ -53,7 +54,7 @@ keywords:
 | --- | --- | --- |
 | `E.2.DA` as DPF review | The package is judged against whole-FPF Pillars and domain adequacy is blurred. | Use `E.4.DPF.DA`; invoke `E.2.DA` only for FPF-level effects. |
 | `E.21` averaging | Strong individual pattern scores hide weak package architecture. | Evaluate package coordinates directly; use `E.21` only as evidence. |
-| Source bibliography as adequacy | Sources are listed but do not change the package. | Return to `G.2`; carry adopted and rejected payload into pattern moves and boundaries. |
+| Source bibliography as adequacy | Sources are listed but do not change the package. | Apply `G.2`; carry adopted and rejected payload into pattern moves and boundaries. |
 | Publication carrier as package proof | The carrier is readable but relation, edition, source, and refresh structures are unrecoverable. | Add `E.4.PFAD`, `E.4.PFR`, source-use, quality, and refresh loci; keep publication as carrier. |
 | Invisible carrier structure-account | The carrier never tells what domain or local structure it selected, coarsened, abstracted, or omitted for the intended reader, so readers mistake the package for the domain itself or cannot judge coverage. | Add readme, Preface, ToC, skill-entry, or access-front-door carrier structure-account text, including source-return and structure-capture boundary, then rerun `PFM11`. |
 | Skill or MCP access as package proof | The package is callable through a skill or endpoint, so the access carrier is treated as if it proved the framework edition, source, quality, or currentness. | Record the skill or endpoint as an access carrier, expose edition and relation refs, and evaluate the underlying package and patterns through `E.4.DPF.DA` and `E.21`. |
@@ -63,6 +64,6 @@ keywords:
 | Reverse dependency leak | FPF Core or the main monolith starts citing a DPF as required authority. | Move the claim into a Core amendment if it belongs in Core; otherwise keep the dependency one-directional from DPF to Core. |
 | Process-state leakage | The package carrier includes `draft`, `DRR`, handoff, ledger, review, admission, or helper-state residue as package content. | Remove process state from package carriers and keep only durable user-facing package content, relation records, source-use boundaries, and refresh routes. |
 | Seed promotion | A fast prompt result is treated as public DPF. | Mark `seedOnly`, name missing coordinates, and run `E.23` hardening. |
-| Citation-driven `5` | Values rise because more sources, review proof, or maps were added. | Raise values only when action, source grounding, owner routing, adoption, or refresh improves. |
-| Evaluation table as Method, Work, result, or admission | Coordinate order or a filled table is treated as the evaluation Method, performed assessment, aggregate result episteme, favorable status use, or admission. | Recover the exact semantic Method, evaluator assignment, dated Work and A.6.1 application, coordinate claims, aggregate C.2.1 result, and any separate F.10/E.19 receiving use. |
+| Citation-driven `5` | Values rise because more sources, review proof, or maps were added. | Raise values only when action, source grounding, use of the applicable patterns, adoption, or refresh improves. |
+| Evaluation table as Method, Work, result, or admission | Coordinate order or a filled table is treated as the evaluation Method, performed assessment, aggregate result episteme, favorable status use, or admission. | Recover the semantic Method and exact A.6.1 application. Keep an ordinary judgement outside Work admission. When dated assessment `U.Work` is asserted, recover the evaluator System, time, containing System, enacted Method, covering assignment with all of its required participants, and the F.6 link between the Work and assignment. Then recover the coordinate claims, aggregate C.2.1 result, and any separate F.10 or E.19 receiving use. |
 

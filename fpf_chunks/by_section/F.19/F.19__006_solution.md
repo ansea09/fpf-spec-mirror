@@ -6,12 +6,12 @@ section_id: "F.19:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:4 — Solution"
-line_start: 97452
-line_end: 97507
+line_start: 98676
+line_end: 98737
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -38,14 +38,20 @@ keywords:
 Use `OntologyFirstPlainRewrite` as a five-step repair over one bounded span.
 
 1. **Bound the span.** Name the sentence, row, paragraph, or small section under repair. Name visible apparatus candidates: pattern-application drift, role label, container word, status word, process trace, quality proof, negative catalogue, reference boilerplate, record, card, table, schema, data-structure wrapping, or other overwrap.
-2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim kind or relation kind, current ontic slot, relation position, use relation, publication relation, admissible use, concerned actor or reader role when a role is current, and design, run, or coupled-flow position when flow separation matters. If a phrase part changes one of those values, keep it as content. If it only restates process, role label, negative catalogue, reference boilerplate, record, card, table, schema, data-structure wrapping, or quality proof without changing content, classify it as apparatus.
+2. **Separate content from apparatus by ontology.** For each phrase part, ask what object, head kind, claim kind or relation kind, current ontic slot, relation position, use relation, publication relation, admissible use, concerned actor or reader, and design, run, or coupled-flow position it carries. When *role* occurs, use `E.10.ROLE` to recover whether the claim concerns a local system-role kind, classification of an admitted System, obtaining system-role assignment, participation in another relation, a declaration or representation position, another direct relation, or ordinary wording. When *function* occurs, use `A.6.F` to recover the actual claim rather than treating *function* as one technical kind: the familiar estimate of roughly seven meanings is only a recall cue, the dispatch is non-exhaustive, and one occurrence can be metonymic or carry more than one reading. If a phrase part changes one of those values, keep it as content. If it only restates process, a role- or function-shaped label, negative catalogue, reference boilerplate, record, card, table, schema, data-structure wrapping, or quality proof without changing content, classify it as apparatus.
 3. **Remove or move apparatus.** Delete the apparatus or move it to the document, record, note, or publication relation where it belongs: `DRR`, review record, quality result, architecture note, README, ToC, `E.11`, or `I.2` entry locus, projection record, release or landing evidence document, or source-side note. Do not replace it with a smoother synonym, role label, container word, status word, record, card, table, schema, data-structure wrapper, or publication-form word.
-4. **Restore remaining content precision.** Use `E.10`, `E.10.ARCH`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining word, head, relation, claim, slot, use, name, or admissible-use boundary.
-5. **Rewrite and check loss.** Write the shortest plain technical sentence that preserves the repaired object, kind, claim, relation, action, current ontic slot, relation position, use relation, actual role value when current, flow position when current, established term, and admissible use. The rewrite fails if it changes one of those values without an accepted semantic decision, or if it becomes harder for the declared reader to use.
+4. **Restore remaining content precision.** Restore every complement needed to determine the claim: what was selected, changed, compared, transformed, published, evaluated, or relied on. Use `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, or the specific pattern that defines, constrains, or tests the remaining word, head, relation, claim, slot, use, name, or admissible-use boundary.
+5. **Rewrite and check loss.** Write the shortest plain technical sentence that preserves the repaired object, kind, claim, relation, action, current ontic slot, relation position, use relation, any current system-role kind, classification judgment or assignment occurrence, any function or functioning claim, ordinary wording when that is all the source means, flow position, established term, and admissible use. The rewrite fails if it changes one of those values without an accepted semantic decision, or if it becomes harder for the declared reader to use.
 
 Keep ontology visible only where it carries the sentence. A term-source or type annotation is needed only when it changes how the reader identifies the object, kind, relation, slot, use, publication boundary, admissible use, or applicable rule. A record, card, table, schema, data structure, dashboard, or named form remains apparatus unless it carries one of those values. If ordinary domain wording already preserves them, keep the ordinary sentence. "The aircraft flies" is better than a typed expansion unless the flight function, system kind, or slot relation is under repair.
 
 Treat `exact`, `direct`, `current`, `governed`, `subject`, `owner`, `defining`, and similar qualifiers as content only when they distinguish live alternatives. Remove them when no such contrast changes the truth, action, stop, or reliance. A PatternID may remain an ordinary citation; expand it into a claim-bearing episteme, `ClaimGraph`, `U.MethodDescription`, `U.Method`, actor, assignment, `U.Work`, or another formal identity only when the current claim or a named later use depends on that distinction.
+
+Keep ordinary practitioner action and instrumental pattern-use wording ordinary when it does not assert a particular dated Work occurrence. “Use `E.9` to record the decision” and “the framework maintainer compares the editions” need no invented Method, MethodDescription, performer, assignment, or Work identity.
+
+Open the identity-bearing branch only when the sentence deliberately asserts a particular dated `U.Work` occurrence. Then point to its complete A.15.1/F.6 basis. Add a local system-role kind or a separate System-classification judgment only when that neighboring claim matters. Treat a pattern episteme as a `U.MethodDescription` only after `A.3.2` establishes that it has an already admitted Method as its `EntityOfConcern` and explains how that Method is performed. Otherwise cite the applicable pattern content as guidance and use `A.3.1` for the Method itself.
+
+When one sentence joins unlike claims and no genuine common head covers them, split the claims and use `E.10:0.2c.17` for the resulting list. Do not invent an umbrella object merely to preserve one grammatical subject.
 
 Use the full result form when the repair must be inspectable; otherwise a local rewrite plus the kind-preservation check is enough.
 
@@ -55,19 +61,19 @@ Use the full result form when the repair must be inspectable; otherwise a local 
 |---|---|
 | `TextSpanRef` | Bounded span under repair. |
 | `ApparatusCandidateSet` | Visible pattern-application, role, record, card, table, schema, data-structure wrapping, locus, flow, status, process, negative-catalogue, reference, or quality-proof apparatus candidates. |
-| `ContentCandidateSet` | Phrase parts that may carry object, kind, claim, relation, current ontic slot, relation position, use relation, actual role value when current, flow position, evidence-use value, or user-facing action. |
+| `ContentCandidateSet` | Phrase parts that may carry object, kind, claim, relation, current ontic slot, relation position, use relation, a system-role kind, classification judgment or assignment occurrence, function or functioning claim, ordinary wording, flow position, evidence-use value, or user-facing action. |
 | `ObjectOfConcern` | Object the span is about. |
 | `KindAndClaimMap` | Head kind, claim kind, relation kind, current slot, relation position, use relation, publication relation when it changes admissible use, scope, and—when another pattern contributes—the pattern id plus what its content defines, constrains, or tests. |
-| `ConcernAndFlowPosition` | Concerned actor or reader role only when a role is current; design, run, or coupled-flow position when it changes meaning. |
+| `ConcernAndFlowPosition` | Concerned actor or reader; any exact local system-role kind, separate System-classification judgment, or assignment occurrence; relation or representation position; ordinary reader wording; and design, run, or coupled-flow position—only where each changes meaning. |
 | `ApparatusDisposition` | Removed, moved, retained as content, or blocker when separation is not yet possible. |
-| `RemainingContentPrecisionRestoration` | `not needed`, `E.10`, `E.10.ARCH`, `F.18`, a named pattern plus its concrete contribution, or blocker. |
+| `RemainingContentPrecisionRestoration` | `not needed`, `E.10`, `E.10.ARCH`, `E.10.ROLE`, `A.6.F`, `F.18`, a named pattern plus its concrete contribution, or blocker. |
 | `PlainRewrite` | Short rewrite after apparatus removal and remaining-content precision restoration. |
 | `KindPreservationCheck` | Pre-rewrite and post-rewrite object kind, relation or claim kind, current ontic slot, relation position, use relation, admissible use, and scope; disposition is `preserved`, `split`, `intentionally changed by accepted decision`, or `blocker`. |
 | `LossCheck` | What became worse, less local, less current, less recoverable, or less usable if the rewrite is accepted. |
 
 #### F.19:4.2 - Pattern-prose specialization
 
-When the repaired prose is an FPF pattern, apply the same algorithm with one role test:
+When the repaired prose is an FPF pattern, apply the same algorithm with one purpose test:
 
 > Does this sentence address the pattern's intended user, or does it record development, review, projection, landing, quality, or source-management evidence about the pattern version?
 

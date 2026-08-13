@@ -6,12 +6,12 @@ section_id: "F.15:9"
 section_title: "Static conformance rules for composed material"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__011_static-conformance-rules-for-composed-material.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:9 — Static conformance rules for composed material"
-line_start: 95176
-line_end: 95210
+line_start: 95958
+line_end: 95992
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,14 +50,14 @@ keywords:
 
 ### F.15:9 - Static conformance rules for composed material
 
-**SCR-F15-S7 (RoleDescription boundary).**
-An F.4 RoleDescription is one C.2.1 episteme about one exact governed `U.Role`, under one named role-taxonomy episteme and effective ReferenceScheme. It is not the role value, NameCard, SenseCell, assignment, status, evidence template, method, or work; a cell is cited only when the naming use needs one.
+**SCR-F15-S7 (`SystemRoleKindDescription` boundary).**
+An F.4 `SystemRoleKindDescription` is one C.2.1 episteme about one exact local system-role kind under one effective ReferenceScheme. It names the kind's bounded context, continuing contribution identity, and current `KindSignature`; a taxonomy episteme may support recovery but does not identify the kind. The description is not the kind, NameCard, SenseCell, assignment, status, evidence template, method, or work; a cell is cited only when the naming use needs one.
 
 **SCR-F15-S8 (Name discipline without F.18 duplication).**
-Every candidate or selected name cites the already recovered governed value and direct owner. F.14/F.8 govern whether naming work continues; F.18 alone constitutes the NameCard and selects designations; F.17 alone constitutes any admitted row. F.15 selects and checks those exact refs but chooses no name.
+Every candidate or selected name cites the already recovered governed value and subject pattern. F.14/F.8 govern whether naming work continues; F.18 alone constitutes the NameCard and selects designations; F.17 alone constitutes any admitted row. F.15 selects and checks those exact refs but chooses no name.
 
 **SCR-F15-S9 (F.17 row truth).**
-Each cited row is one exact F.17 `UnifiedTermRow` episteme with its governed value, direct kind/owner, NameCard, selected designations, effective scheme, one or more exact SenseCell refs, admitted/blocked uses, and reopen condition. One cell is valid when the row use is not cross-local; a row-shaped local note or table position is not a row episteme.
+Each cited row is one exact F.17 `UnifiedTermRow` episteme with its governed value, direct kind and the pattern that defines it, NameCard, selected designations, effective scheme, one or more exact SenseCell refs, admitted/blocked uses, and reopen condition. One cell is valid when the row use is not cross-local; a row-shaped local note or table position is not a row episteme.
 
 **SCR-F15-S10 (Cell and neighbor purity).**
 Each row cell remains an exact SchemeSenseCell. NameCard, local-sense basis relation, Bridge, Bridge description/Card, selected Structure, source publication, row id, and carrier remain separate refs and substitute for no cell component.
@@ -72,13 +72,13 @@ A cited F.9 Bridge has two exact endpoint cells, one exact relation-semantic pro
 F.9 is opened only for different `<ReferenceScheme, LocalSenseClaim>` projections and one named current correspondence use. Same-projection expression reuse stays with designation; different projections do not themselves establish a relation; no current use adds no Bridge or bounded-use claim.
 
 **SCR-F15-S14 (Status honesty).**
-A status-shaped item resolves to the exact direct-owner status family/value, target, scope, window, source condition, and intended use. Adjective, time/scale/phase/confidence variation, row presence, or display label creates no status family, value, assurance, gate decision, or evidence use.
+A status-shaped item resolves to the exact subject-pattern status family/value, target, scope, window, source condition, and intended use. Adjective, time/scale/phase/confidence variation, row presence, or display label creates no status family, value, assurance, gate decision, or evidence use.
 
-**SCR-F15-S15 (Role-relation preservation).**
-Any role incompatibility, qualification, bundle, requirement, or selected `RoleRelationStructure` stays under its direct role-relation owner. A description or convenient fused name creates neither a new role value nor an assignment or performed work.
+**SCR-F15-S15 (System-role-kind relation preservation).**
+Every exact incompatibility, monotonic kind order, residual qualification, bundle, requirement, or selected `SystemRoleKindRelationStructure` remains an independently identified relation occurrence or selected structure. A description or convenient fused name creates neither another system-role kind nor an assignment or performed Work.
 
 **SCR-F15-S16 (Direct-pattern boundary for non-naming claims).**
-Assignment, work, result, evidence, source, publication, currentness, assurance, gate, decision, method, capability, policy, structure, and subject-relation claims cite their exact direct owners. A failed rule returns the subject claim there; F.15 does not decide or absorb it.
+Assignment, work, result, evidence, source, publication, currentness, assurance, gate, decision, method, capability, policy, structure, and subject-relation claims cite their exact subject patterns. A failed rule returns the subject claim there; F.15 does not decide or absorb it.
 
 **SCR-F15-S17 (Public naming and publication separation).**
 Public or Core-facing naming cites an exact F.17 row only after its current gate passed. Row currentness is not availability: E.24.PUB separately governs any publication occurrence, form, carrier, audience, and bounded use, and rendering/upload work remains separate.

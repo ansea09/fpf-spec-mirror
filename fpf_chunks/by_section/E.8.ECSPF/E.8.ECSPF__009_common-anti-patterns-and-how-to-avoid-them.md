@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 72917
-line_end: 72931
+line_start: 73363
+line_end: 73377
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -34,10 +34,10 @@ keywords:
 | **Checklist-as-solution.** | Users are told only what must be checked. | Put the actual evaluation method and record shape in `Solution`; let checklist rows verify it. |
 | **Publication-form/content collapse.** | The FPF pattern is treated as the evaluated object being evaluated or evaluation result. | State that the pattern is a publication form for the `CharacteristicSpace`; the evaluated object and evaluation result are separate. |
 | **Positive-only case bank.** | Every example passes. | Add below-floor and outside-declared-object-kind boundary cases. |
-| **Related-pattern authority theft.** | The pattern claims evidence, assurance, gate, release, measurement, naming, or improvement authority. | Keep each claim with the pattern that governs it and keep only the evaluation claim here. |
-| **Rubric promotion.** | A local rubric becomes an FPF pattern because it was useful once. | Keep it local unless durable FPF reuse, evaluated object scope, and governing patterns for outside claims are declared. |
+| **Related-pattern authority theft.** | The pattern claims authority over evidence, assurance, release, measurement, naming, or improvement. | Use the applicable pattern to define, constrain, or test each such claim; keep only the evaluation claim here. |
+| **Rubric promotion.** | A local rubric becomes an FPF pattern because it was useful once. | Keep it local unless durable FPF reuse and evaluated-object scope are established and every outside claim names the applicable pattern and its contribution. |
 | **Frozen evaluation publication form.** | The evaluated EntityOfConcern kind, use, use of a cited source, source adoption/adaptation/rejection decision, or coordinate meanings change, but the pattern keeps the old values as if still current. | Reopen `A.19.ECS` for the evaluation EntityOfConcern and state whether earlier evaluation results remain comparable, need a bridge, or must be retired. |
 | **Report-shaped evaluation pattern.** | The pattern publishes coordinate names but leaves the returned result as a narrative, score list, or two-column table. | Add a result-form block: coordinate, value, short rationale, evidence basis, and coordinate-specific payload where needed. |
-| **Pattern-quality report as evaluation pattern.** | `E.21` status, all-`4`/all-`5` posture, corpus projection, retrieval evidence, README/ToC/E.11/I.2 alignment, monolith parity, landing readiness, or role-turn correspondence appears anywhere in the pattern as if it were the evaluation method. | Move that evidence to the quality/review/projection/release carrier and keep the pattern body focused on the evaluation for the declared evaluated object kind. |
-| **Apparatus-overwrapped publication form.** | The evaluation relation is written through role, carrier, locus, flow, status, or package words that add no evaluated object kind, coordinate meaning, evidence rule, user-facing action, or flow-role distinction. | Apply `F.19`; if remaining content still hides a word/head/use, apply `E.10`, `E.10.ARCH`, `F.18`, or the governing pattern. |
+| **Pattern-quality report as evaluation pattern.** | `E.21` status, all-`4` or all-`5` posture, corpus projection, retrieval evidence, README, ToC, E.11, and I.2 alignment, monolith parity, landing readiness, or author or reviewer turn correspondence appears anywhere in the pattern as if it were the evaluation method. | Move that evidence to the quality, review, projection, or release carrier and keep the pattern body focused on the evaluation for the declared evaluated object kind. |
+| **Apparatus-overwrapped publication form.** | The evaluation relation is written through ambiguous role, carrier, locus, flow, status, or package words that add no evaluated object kind, coordinate meaning, evidence rule, user-facing action, or exact flow position. | Apply `F.19`; if remaining content still hides a word, head, or use, apply `E.10`, `E.10.ARCH`, `F.18`, or the pattern that defines the affected object or relation. |
 

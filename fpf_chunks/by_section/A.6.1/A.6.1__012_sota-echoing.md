@@ -6,12 +6,12 @@ section_id: "A.6.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.1/A.6.1__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration"
   - "A.6.1:11 — SoTA-Echoing"
-line_start: 12650
-line_end: 12660
+line_start: 12874
+line_end: 12884
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -56,7 +56,7 @@ keywords:
 |---|---|---|---|
 | Current complete semantics for effect handlers | Satoshi Kura, ["On Complete Categorical Semantics for Effect Handlers"](https://arxiv.org/abs/2602.03275), 2026. | Adapt as a software-derived stress case. The work distinguishes operation signatures, equational theories, handlers, and semantic models, and shows that one familiar realization model is not uniquely forced by the declaration. It does not supply a universal ontology for physical or social mechanisms. | `U.Mechanism`, its laws, a realizing entity, and the realization relation remain separate. One implementation cannot define mechanism identity by itself. |
 | Current dependent effect semantics | Kura, Gaboardi, Sekiyama, and Unno, ["A Category-Theoretic Framework for Dependent Effect Systems"](https://arxiv.org/abs/2601.14846), 2026. | Adapt the use of indexed predicates and graded structure to stress typed positions and condition-dependent operation claims. Reject the inference that one categorical formalism determines the FPF ontology. | Argument and result declarations, application rules, `AdmissibilityConditions`, `U.ClaimScope`, and mathematical-lens boundaries are explicit. |
-| Current equation-based physical modeling | [Modelica Language Specification 3.7](https://specification.modelica.org/), Modelica Association, 2026, especially equations, connectors, and connection semantics. | Adapt as a current physical-modeling stress case. Acausal equations and typed connectors state relations and laws without imposing algorithmic order, and graphical presentation remains optional. The language specification is domain practice, not FPF ontology authority. | The physical case separates declaration laws, typed positions, solver realization, and diagram representation. Equation order and imperative wording do not become an executable sequence; A.22.CGUS owns such a claim. |
+| Current equation-based physical modeling | [Modelica Language Specification 3.7](https://specification.modelica.org/), Modelica Association, 2026, especially equations, connectors, and connection semantics. | Adapt as a current physical-modeling stress case. Acausal equations and typed connectors state relations and laws without imposing algorithmic order, and graphical presentation remains optional. The language specification is domain practice, not FPF ontology authority. | The physical case separates declaration laws, typed positions, solver realization, and diagram representation. Equation order and imperative wording do not become an executable sequence; A.22.CGUS is the pattern for such a claim. |
 | Scoped operations, resources, and handlers | Bosman, van den Berg, Tang, and Schrijvers, ["A Calculus for Scoped Effects and Handlers"](https://arxiv.org/abs/2304.09697), LMCS 20(4), 2024; Matache, Lindley, Moss, Staton, Wu, and Yang, ["Scoped Effects as Parameterized Algebraic Theories"](https://arxiv.org/abs/2402.03103), 2024. | Adapt the separation among operations, equations, scopes, resources, and handlers. Keep it as one demanding software case rather than the default transdomain model. | `OperationAlgebra`, `LawSet`, Applicability, and realization remain distinct content and relation positions. |
 
 Review this pattern when stronger work changes the distinction among operation declaration, law, admission predicate, realization, evaluation, and evidence; when A.6.0 or C.2.1 changes episteme identity; or when physical-modeling and effect-semantics practice reveals a mechanism claim that this content cannot express without kind collapse.

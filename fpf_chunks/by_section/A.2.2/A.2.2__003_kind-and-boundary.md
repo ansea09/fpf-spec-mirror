@@ -6,12 +6,12 @@ section_id: "A.2.2:2"
 section_title: "Kind and Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__003_kind-and-boundary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:2 — Kind and Boundary"
-line_start: 3352
-line_end: 3408
+line_start: 3519
+line_end: 3575
 dependencies:
   - "A.15"
   - "A.2"
@@ -38,10 +38,10 @@ CapabilityUKindAdmissionDecision:
   RootSubjectUKind: U.System holder whose ability is being stated
   DependentInstance: holder-dependent concrete U.Capability instance
   semanticArea: system ability, work admission, capability planning, and method threshold use
-  ontologicalNeighborhood: U.System holder, U.RoleAssignment, U.Method, U.MethodDescription, U.WorkPlan, U.Work, U.Characteristic, Q-Bundle, architecture-characteristic row, evidence relation, source-use relation, currentness assessment, and capability-fit predicate
+  ontologicalNeighborhood: U.System holder, U.SystemRoleAssignment, U.Method, U.MethodDescription, U.WorkPlan, U.Work, U.Characteristic, Q-Bundle, architecture-characteristic row, evidence relation, source-use relation, currentness assessment, and capability-fit predicate
   IdentityGroundingOrRecognitionRule: holder plus work family or result class plus envelope plus measure set plus qualification window plus currentness condition
-  admissibleUse: state or test that a named holder can perform a work family or produce a result class within declared bounds for planning, promise support, role-method-work admission, or architecture move feasibility
-  nonUseBoundary: do not use U.Capability for statements, reports, evidence, source-use relations, currentness assessments, characteristics, Q-Bundles, architecture-characteristic rows, fit predicates, role assignments, method descriptions, work plans, or work occurrences
+  admissibleUse: state or test that a named holder can perform a Work family or produce a result class within declared bounds for planning, promise support, System, assignment, Method, and Work admission, or architecture-move feasibility
+  nonUseBoundary: do not use U.Capability for statements, reports, evidence, source-use relations, currentness assessments, characteristics, Q-Bundles, architecture-characteristic rows, fit predicates, local system-role kinds, system-role assignments, MethodDescriptions, Work plans, or Work occurrences
   NonUSubstitutionBoundary: statements, evidence, source-use relations, currentness assessments, Q-Bundles, characteristics, architecture-characteristic rows, and fit predicates do not become U.Capability
 
 ConcreteCapabilityInstance:
@@ -61,7 +61,7 @@ SupportAndUseReferencesAroundCapability:
   CapabilityFitConditionRefs?: admission predicates or gate relations that test this instance for a use
 ```
 
-**CapabilityHolderRef.** The holder is a `U.System`: a physical system, cyber system, socio-technical system, organization, team, composite cell, software service as deployed system, or other acting holon admitted as system for the claim. A role assignment, method, method description, work record, episteme, publication, standard, or dashboard is not the capability holder merely because it appears in the sentence.
+**CapabilityHolderRef.** The holder is an admitted `U.System`: a physical, cyber, socio-technical, organizational, team, composite-cell, deployed-software, or other System satisfying A.1 for this claim. A local system-role kind, assignment, Method, MethodDescription, Work record, episteme, publication, standard, or dashboard is not the capability holder merely because it appears in the sentence.
 
 **WorkFamilyOrResultClassRef.** The ability is about a class of work the holder system can perform or a result class it can produce. The envelope may cite the exact `U.Method` that prospective Work occurrences would enact, or a separately identified `U.MethodDescription` whose claims constrain the capability use. Those references do not turn the Method or description into the holder, do not make the holder enact the Method, and do not establish that any candidate episteme is `U.MethodDescription`.
 
@@ -77,7 +77,7 @@ SupportAndUseReferencesAroundCapability:
 
 **CurrentnessAssessmentRefs.** A currentness assessment is a dated assessment relation saying whether the capability instance remains usable under its qualification window and current conditions. It is not the capability instance, but it is still a governed assessment relation. `CapabilityCurrentnessCondition` states what must remain true; an assessment evaluates that condition.
 
-**CapabilityFitConditionRefs.** A capability-fit condition is an admission predicate, threshold, or gate relation that tests a holder capability and any declared characteristic, Q-Bundle, or architecture-characteristic inputs against a current role, method step, work plan, work occurrence, bounded context, or gate need. It is a governed relation or predicate. Unless a separate E.24.UK admission is written, it is not a `U.*` kind.
+**CapabilityFitConditionRefs.** A capability-fit condition is an admission predicate, threshold, or gate relation that tests a holder capability and any declared characteristic, Q-Bundle, or architecture-characteristic inputs against a current local system-role-kind classification, exact assignment, Method step, WorkPlan, Work occurrence, bounded context, or gate need. It is a governed relation or predicate. Unless a separate E.24.UK admission is written, it is not a `U.*` kind.
 
 **Neighboring-term boundary.** When a neighboring pattern uses `U.WorkScope`, recover the set-valued condition part of `CapabilityEnvelope`: the inputs, environment, resources, configuration, and assumptions against which an intended work slice is checked. When it uses `U.WorkMeasures`, recover `CapabilityMeasureSet`. `JobSlice` names the intended work slice for a work-admission check. `QualificationWindow` names the temporal currentness relation for the capability instance. These are neighboring governed terms, not substitute names for `U.Capability`.
 

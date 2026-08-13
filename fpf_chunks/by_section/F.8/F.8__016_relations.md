@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__016_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:13 — Relations"
-line_start: 92639
-line_end: 92655
+line_start: 93411
+line_end: 93427
 dependencies:
   - "A.11"
   - "A.15"
@@ -21,8 +21,10 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.7"
   - "A.8"
+  - "C.11"
   - "C.2.1"
   - "C.3"
   - "E.10"
@@ -50,6 +52,7 @@ keywords:
   - "minting new U-kinds"
   - "parsimony"
   - "reuse"
+  - "role-shaped names"
   - "type explosion"
 ---
 
@@ -57,16 +60,16 @@ keywords:
 
 **Builds on.** `A.7`, `E.24.UK`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.1`, `F.2`, `F.3`, `F.5`, `F.9`, `F.14`, `F.17`, and `F.18`.
 
-**Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.15`, `A.15.1`, `F.4`, `F.6`, `F.10`, `F.13`, `F.15`, `C.2.1`, `C.3`, `E.9`, `E.24.CD`, `E.24.PUB`, and the direct status-use, evidence-use, source-use, publication-use, requirement-use, assurance, gate, decision, policy, method, Work, characteristic, and architecture patterns.
+**Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.6.RCD`, `A.15`, `A.15.1`, `C.11`, `F.4`, `F.6`, `F.10`, `F.13`, `F.15`, `C.2.1`, `C.3`, `E.9`, `E.24.CD`, `E.24.PUB`, and the direct status-use, evidence-use, source-use, publication-use, requirement-use, assurance, gate, decision, choice, policy, method, Work, characteristic, and architecture patterns.
 
 **Constrains.**
 
 - `F.5` names only after F.8 has selected the exact naming case.
-- `F.4` governs only work-facing RoleDescription naming cases.
+- Use `F.4` only for local `SystemRoleKindDescription` naming cases.
 - `F.9` governs an actual Bridge between exact cells; `F.17` governs any admitted public-row use before F.8 reuses it.
 - `F.18` expands durable naming only after lighter dispositions have failed.
 - `F.14` supplies the anti-explosion stop before every stronger F.8 disposition.
 - `F.15` may check the resulting distinctions; it neither chooses the disposition nor creates a naming object.
 
-**Does not replace.** The direct governing patterns for the value or relation, decision occurrence, RoleAssignment, performed Work, status, evidence, source, publication, requirement, assurance, gate, policy, method, relation slot, characteristic, architecture, selected Structure, or their descriptions.
+**Does not replace.** The subject patterns for the value or relation, decision occurrence, local system-role kind, `U.SystemRoleAssignment`, performed Work, status, evidence, source, publication, requirement, assurance, gate, policy, method, relation slot, characteristic, architecture, selected Structure, or their descriptions.
 

@@ -6,12 +6,12 @@ section_id: "A.7:9"
 section_title: "Anti‑patterns (with fixes)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__011_anti-patterns-with-fixes.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:9 — Anti‑patterns (with fixes)"
-line_start: 21771
-line_end: 21814
+line_start: 22024
+line_end: 22067
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,18 +34,18 @@ dependencies:
   - "F.9"
 keywords:
   - "EntityOfConcern ≠ Description episteme"
-  - "Role ≠ Work"
+  - "MethodDescription ≠ Method ≠ Capability ≠ Work"
   - "category error"
-  - "ontology"
+  - "system-role kind and assignment ≠ Work"
 ---
 
 ### A.7:9 - Anti‑patterns (with fixes)
 
-1. **Role‑as‑behaviour** — calling the **role** “the function”.
-   **Fix:** Name the **role**, **Method**, and **Work** explicitly.
+1. **System-role-kind-as-behaviour** — calling the **system-role kind** a function or saying it acts.
+   **Fix:** Name the system-role kind, exact assignment occurrence when current, holder system, Method, Capability, and Work without making the kind or assignment act.
 
 2. **Episteme‑as‑system** — “the model routed traffic”.
-   **Fix:** Name the **system or acting holon**, its `U.RoleAssignment` when a work-facing role is current, the Work that used the model, and the carriers touched.
+   **Fix:** Name the **System or acting holon**, its assignment occurrence and declared species when relevant, the Work that used the model, and the carriers touched.
 
 3. **Triad everywhere** — omitting **Work** entirely.
    **Fix:** Add the Work position: timestamps, outcomes, Γ_time coverage.
@@ -62,8 +62,8 @@ keywords:
 7. **Holon/system drift** — “holon maintains temperature”.
    **Fix:** Say **system**; reserve “holon” for neutral mereology.
 
-8. **Function and role swap in tables** — columns labelled “Function” but entries are roles.
-   **Fix:** Rename column to **Role**; add a separate **Behaviour (Method and Work)** column.
+8. **Function and system-role-kind swap in tables** — columns labelled “Function” whose entries are local system-role kinds.
+   **Fix:** Rename the column to **System-role kind**; add a separate **Behaviour (Method and Work)** column.
 
 9. **Process‑word leakage** — domain “process” used as FPF operator.
    **Fix:** Add parenthetical mapping at first use (Method and Work).
@@ -81,5 +81,5 @@ keywords:
    **Fix:** Resolve designation and the receiving reference directly to the exact Method under their effective ReferenceScheme discipline; cite `methodDescriptionRef` separately only when its claims are actually used.
 
 14. **Lifecycle time as membership** — authoring, revision, citation, approval, publication, or use is treated as creating MethodDescription membership.
-   **Fix:** Keep those Work and neighboring relations under their direct owners; reapply the same A.3.2 membership test to the independently identified episteme.
+   **Fix:** Keep those Work and neighboring relations under their subject patterns; reapply the same A.3.2 membership test to the independently identified episteme.
 

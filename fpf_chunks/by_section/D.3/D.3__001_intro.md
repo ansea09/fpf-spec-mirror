@@ -6,12 +6,12 @@ section_id: "D.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:intro — Intro"
-line_start: 68772
-line_end: 68785
+line_start: 69138
+line_end: 69151
 dependencies:
   - "A.1"
   - "A.10"
@@ -28,6 +28,7 @@ dependencies:
   - "D.2"
   - "D.4"
   - "D.5"
+  - "E.10.ROLE"
   - "E.17"
 keywords:
 ---
@@ -36,7 +37,7 @@ keywords:
 
 > **Type:** D-family ethical conflict-structure pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern owns the structure of an interlevel ethical conflict; mediation, decision use, assurance, causal use, and architecture residuals remain with their direct owners.
+> **Pattern role:** This compact pattern contains the defining content for the structure of an interlevel ethical conflict; mediation, decision use, assurance, causal use, and architecture residuals remain with their subject patterns.
 
 **Use this when.** Use this pattern when an ethical conflict spans declared levels or scopes and the conflict structure itself must be made inspectable before mediation, decision, assurance, or architecture return.
 
@@ -44,5 +45,5 @@ keywords:
 
 **What goes wrong if missed.** The team debates values or decisions before it has named the levels or scopes, carriers, harms, benefits, evidence, and residuals that actually conflict.
 
-**What this buys.** The conflict becomes an inspectable structure that `D.4`, `D.5`, assurance, causal, and architecture owners can use without guessing.
+**What this buys.** The conflict becomes an inspectable structure that `D.4`, `D.5`, assurance, causal, and architecture patterns can use without guessing.
 

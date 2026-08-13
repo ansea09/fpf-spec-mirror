@@ -6,12 +6,12 @@ section_id: "E.18.NET:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:3 — Forces"
-line_start: 85293
-line_end: 85303
+line_start: 85962
+line_end: 85972
 dependencies:
   - "A.1.STM"
   - "A.12"
@@ -44,7 +44,7 @@ keywords:
 | --- | --- |
 | Local autonomy vs one engineering question | Members keep their identity and state while a selected structure makes their exact coordination inspectable. |
 | Recursive reuse vs fixed levels | A member may itself be a network, but membership paths must remain finite and acyclic. |
-| Plain diagrams vs exact relations | A readable edge helps recognition, but only a directly governed obtaining relation contributes to identity. |
+| Plain diagrams vs exact relations | A readable edge helps recognition, but only an obtaining relation of an admitted kind contributes to identity. |
 | Boundary exposure vs flattening | A parent can use a nested boundary position without copying the nested member's internal structure. |
 | Useful local state vs false global state | Valuation, path slice, and `DesignRunTag` remain local to one leaf TFS position binding. |
 | Stable selection vs evolving members | Reidentify only when an A.22 discriminator changes; records, renderings, and selection Work remain separate. |

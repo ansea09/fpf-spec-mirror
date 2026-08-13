@@ -1,38 +1,44 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.7"
-pattern_title: "Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+pattern_title: "SystemRoleKindRelationStructure - Relations among System-Role Kinds"
 section_id: "A.2.7:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.7/A.2.7__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission"
+  - "A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds"
   - "A.2.7:10 — SoTA-Echoing"
-line_start: 6128
-line_end: 6138
+line_start: 6348
+line_end: 6359
 dependencies:
-  - "A.15"
   - "A.2"
+  - "A.2.1"
   - "A.2.5"
+  - "A.22"
+  - "A.6.REL"
+  - "C.3"
+  - "C.3.1"
+  - "E.10.ROLE"
 keywords:
-  - "bundles (⊗)"
-  - "incompatibility (⊥)"
-  - "requiredRoles substitution"
-  - "role algebra"
-  - "separation of duties (SoD)"
-  - "specialization (≤)"
+  - "U.SubkindOf"
+  - "incompatibility"
+  - "joint assignment requirement"
+  - "relations among system-role kinds"
+  - "selected structure"
+  - "substitution"
 ---
 
 ### A.2.7:10 - SoTA-Echoing
 
-| Current research or practice line | What changes in this pattern | Practitioner implication |
+| Current or mature line | What it contributes | Concrete use in A.2.7 |
 |---|---|---|
-| [gUFO 2026](https://arxiv.org/abs/2603.20948) provides a current foundational-ontology comparator with explicit type typology and reification patterns for relational aspects. | A.2.7 keeps relation obtaining, occurrence individuation, assertion episteme, and representation separate; it does not import gUFO's taxonomy as the FPF constructive ontology. | A relation can be referred to when needed without making every relation a record or every imported class an FPF kind. |
-| [OpenFGA role-modeling guidance, updated 2026](https://openfga.dev/docs/best-practices/modeling-roles) documents static role-like relations, user-defined roles, and instance-specific role assignments as different modeling choices. | A.2.7 keeps role-value relations separate from actual `U.RoleAssignment` occurrences and supports a lightweight path before instance-specific assignment complexity is needed. | A stable role relation can be reused while holder assignment remains explicit and instance-specific. |
-| [Cedar policy construction](https://docs.cedarpolicy.com/policies/syntax-policy.html) separates principal, action, resource, scope, and additional conditions during authorization evaluation. | A.2.7 treats role structure as one typed premise of a receiving evaluation, not as the acting principal or the decision itself. | The checking system, evaluated assignments, action-facing condition, and outcome remain inspectable. |
-| Separation-of-duties practice across safety, clinical work, governance, and authorization depends on exact joint-admission conditions rather than title intuition. | `RoleIncompatibilityPredicateSlot` names holder, work, and temporal conditions, and `RoleBundleRelation` names the allocation rule. | Independence and team-composition claims can be tested in the domain where they matter. |
+| [gUFO 2026](https://arxiv.org/abs/2603.20948) | A current foundational-ontology comparator with explicit type and relation reification distinctions. | Keep relation obtaining, occurrence individuation, assertion episteme, and representation separate without importing gUFO's upper taxonomy. |
+| [OpenFGA role-modeling guidance](https://openfga.dev/docs/best-practices/modeling-roles), updated 2026 | Distinguishes static role-like relations, user-defined role forms, and instance-specific assignments in authorization models. | Use it as a software stress case for separating kind relations, assignment inputs, and outcomes; do not make authorization the universal ontology. |
+| [Cedar policy construction](https://docs.cedarpolicy.com/policies/syntax-policy.html) | Evaluates concrete principal, action, resource, scope, and additional conditions. | Keep structure as one premise while the checking system, exact assignments, action condition, and outcome remain visible. |
+| Separation-of-duties practice across safety, clinical work, governance, and authorization | Useful independence claims depend on exact holder, Work, overlap, and applicability conditions rather than title intuition. | Put those conditions in the symmetric incompatibility predicate and test actual assignments separately. |
+| FPF `C.3.1`, `A.6.REL`, `A.6.5`, and `A.22` | Supply monotonic kind order, relation occurrence identity, declaration-local SlotSpecs, and dependent structure identity. | Reuse the existing apparatus instead of creating another role taxonomy or relation-record ontology. |
 
-The software authorization sources are stress cases, not the universal subject. Their useful move is the separation of role definitions, instance assignments, evaluation inputs, and outcomes. A.2.7 generalizes that move to any project in which admitted systems hold roles and perform work.
+The software sources are stress cases, not the universal subject. Their transferable contribution is the separation of kind definitions, instance assignments, evaluation inputs, and outcomes.
 

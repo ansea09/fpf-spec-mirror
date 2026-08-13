@@ -6,12 +6,12 @@ section_id: "A.2.9:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__004_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:1 — Problem frame"
-line_start: 6838
-line_end: 6854
+line_start: 7043
+line_end: 7059
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "F.6"
   - "U.Method"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -39,7 +41,7 @@ keywords:
 
 FPF repeatedly needs to reference “someone said/did the approving/authorizing/declaring thing”:
 
-* Role eligibility and enactability checklists often depend on the **presence of an approval/authorization act** within a freshness window.
+* System-role-assignment eligibility and enactability checklists often depend on the **presence of an approval or authorization act** within a freshness window.
 * Governance patterns and boundary writing (A.6 stack) need **provenance**: “this obligation or commitment, or this separately represented granted permission, was instituted by *that* act”.
 * Operational patterns need auditable **notices** (“depletion notice”, “override invoked”) whose existence and timing matter.
 
@@ -50,5 +52,5 @@ Without a first-class kind for such communicative Work and a separate way to des
 * leave provenance dangling as “if modeled”,
 * encode gates as prose obligations, or treat obligations as gates.
 
-This pattern admits `U.SpeechAct` as an explicit Work kind, identifies actual speech-act occurrences under it, and keeps their optional records separate from `U.Commitment`, utterance descriptions, and carriers.
+The defining `ClaimGraph` located here admits `U.SpeechAct` as an explicit Work kind and states the identity conditions for actual speech-act occurrences; their optional records remain separate from `U.Commitment`, utterance descriptions, and carriers.
 

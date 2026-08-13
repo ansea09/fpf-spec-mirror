@@ -6,12 +6,12 @@ section_id: "A.12:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:0 — Use This When"
-line_start: 23227
-line_end: 23253
+line_start: 23480
+line_end: 23506
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -47,7 +47,7 @@ Typical moments:
 - "the system verifies that its own change succeeded";
 - "the lathe makes the workpiece, therefore the workpiece is part of the lathe during manufacturing".
 
-**First useful move.** Separate the exact continuing subject named as changed from the exact entity proposed for the acting side. Identify the changed subject under its direct identity owner. Before A.1 recognizes the acting-side entity under `U.System`, retain the exact `U.Entity` and its `recognized | rejected | unknown` disposition or exact blocker; do not fill an acting-system position. After recognition, name the exact `U.System` and recover its acting-side participation or work-facing role assignment under the direct owner. If an actual bounded change is current, let `A.3.4` test that same continuing subject; then use `A.15` and `A.15.1` for method and work, `A.2.1` and `A.2.7` for role assignment and role relations, `A.10` for evidence, and `A.1`, `A.14`, or `C.13` for holon and part-whole claims.
+**First useful move.** Separate the exact continuing subject named as changed from the exact entity proposed for the acting side. Identify the changed subject under its direct identity pattern. Before A.1 recognizes the acting-side entity under `U.System`, retain the exact `U.Entity` and its `recognized | rejected | unknown` disposition or exact blocker; do not fill an acting-system position. After recognition, name that `U.System` and recover its exact acting-side participation relation. Add an obtaining occurrence of one directly declared `U.SystemRoleAssignment` species under `A.2.1` only when the work-facing claim uses it; use `A.2.7` separately only for a relation among exact local system-role kinds. If an actual bounded change is current, let `A.3.4` test that same continuing subject; use `A.15` and `A.15.1` for Method and Work, `F.6` for Work attribution, `A.10` for evidence, and `A.1`, `A.14`, or `C.13` for holon and part-whole claims.
 
 **What goes wrong if missed.** A system becomes its own cause, a document acts, a controller and controlled part collapse into one object, evidence becomes self-certifying, and a system that changes another holon is mistaken for the larger whole containing it without an obtaining part-whole relation.
 
@@ -57,7 +57,7 @@ Typical moments:
 
 - If the current question is whether a bounded change occurred, use `A.3.4`.
 - If the current question is whether work was performed or succeeded, use `A.15` and `A.15.1`.
-- If the current question is the role assignment or role relation, use `A.2.1` and `A.2.7`.
-- If the current question is evidence independence or source use, use `A.10` and the evidence or source-use owners.
+- If the current question is an assignment occurrence, use `A.2.1`; if it is a relation among exact local system-role kinds, use `A.2.7`. For another participation relation, use the pattern that defines that relation.
+- If the current question is evidence independence or source use, use `A.10` and the evidence-use or source-use patterns.
 - If the current question is part-whole admission, use `A.1`, `A.14`, and `C.13`.
 

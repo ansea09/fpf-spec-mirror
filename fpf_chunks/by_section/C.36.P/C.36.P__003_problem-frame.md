@@ -6,12 +6,12 @@ section_id: "C.36.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:1 — Problem Frame"
-line_start: 68394
-line_end: 68399
+line_start: 68744
+line_end: 68749
 dependencies:
   - "A.1"
   - "A.15"
@@ -53,7 +53,7 @@ keywords:
 
 ### C.36.P:1 - Problem Frame
 
-Cultural-evolution sources and project documents use compact labels because ordinary language has to move quickly. A word such as style, genre, practice, platform, or technique may be a useful local sign. It may also hide several values governed by named FPF patterns at once: a method family, work family, role assignment, discipline, canon or memory episteme, recognition regime, selected set, archive, front, mediation system, architecture, measurement relation, publication label, or mathematical-lens claim.
+Cultural-evolution sources and project documents use compact labels because ordinary language has to move quickly. A word such as style, genre, practice, platform, or technique may be a useful local sign. It may also hide several values governed by named FPF patterns at once: a Method family, Work family, system-role assignment, discipline, canon or memory episteme, recognition regime, selected set, archive, front, mediation System, architecture, measurement relation, publication label, or mathematical-lens claim.
 
 `C.36.P` does not decide the cultural-evolution subject. `C.36` does that. This companion only restores enough ontology to choose the current subject pattern.
 

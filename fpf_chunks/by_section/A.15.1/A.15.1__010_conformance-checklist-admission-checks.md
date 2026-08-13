@@ -6,12 +6,12 @@ section_id: "A.15.1:8"
 section_title: "Conformance Checklist (admission checks)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__010_conformance-checklist-admission-checks.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:8 — Conformance Checklist (admission checks)"
-line_start: 24755
-line_end: 24842
+line_start: 24953
+line_end: 25040
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -42,17 +42,16 @@ dependencies:
   - "U.Method"
   - "U.MethodDescription"
   - "U.ReferenceScheme"
-  - "U.Role"
-  - "U.RoleAssignment"
   - "U.System"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
 keywords:
   - "actual performer U.System"
   - "admitted U.Work kind"
-  - "containing system"
-  - "covering U.RoleAssignment"
-  - "enacted method"
+  - "containing System"
+  - "covering U.SystemRoleAssignment"
+  - "enacted Method"
   - "optional direct bindings and resource use"
   - "performedUnderAssignment"
   - "separate result or consequence"
@@ -63,21 +62,21 @@ keywords:
 ### A.15.1:8 - Conformance Checklist (admission checks)
 
 **CC-A15.1-1 (Strict distinction).**
-`U.Work` is the admitted kind for dated performed Work occurrences. Each Work individual is world-side; it is not a `U.Method` (semantic way), `U.MethodDescription` (description), `U.Role` or `U.RoleAssignment` (assignment), `U.WorkPlan` (plan or schedule), or assertion, record, log, or publication about work.
+`U.Work` is the admitted kind for dated performed Work occurrences. Each Work individual is world-side; it is not a `U.Method` (reusable way), `U.MethodDescription` (description), local system-role kind, System-classification judgment, `U.SystemRoleAssignment` (assignment), `U.WorkPlan` (plan or schedule), or assertion, record, log, or publication about Work.
 
 **CC-A15.1-2 (Required occurrence basis).**
-A conforming assertion or description about a Work individual designates one world-side occurrence admitted under `U.Work` and makes each actual performer `U.System`, the exact obtaining `U.RoleAssignment` under which that system performed, any explicit F.6 `performedUnderAssignment(W, RA)` attribution, actual `enactsMethod -> U.Method`, temporal extent, and `executedWithin -> U.System` recoverable. It also names every declared work-to-referent, subject-participation, or resource-use predicate used by the receiving claim, together with its participant order and actual participant values, or gives the exact A.6.1 binding for an identified operation application. When a needed predicate or binding is absent, it returns the corresponding `missing-governor` result instead of inventing a positive relation. Cite `methodDescriptionRef -> U.MethodDescription` only when the receiving claim depends on that exact description episteme. The episteme designates these independently obtaining objects and relations; it does not turn them into occurrence fields or make the assignment act.
+A conforming world-side Work account designates one occurrence admitted under `U.Work`, names every actual performer `U.System`, and satisfies F.6 for the assignment under which each System performed that Work. It also establishes the enacted Method, temporal extent, and containing System. A short assertion or description may omit an assignment identifier that its receiving use does not need; citing one designates the already obtaining assignment and attribution rather than creating them. The account also names every declared Work-to-referent, participation, or resource-use predicate used by the receiving claim, together with participant order and actual values, or gives the exact A.6.1 binding for an identified operation application. When a needed predicate or binding is absent, return the corresponding `missing-governor` instead of inventing a positive relation. Include `methodDescriptionRef` only when it names a `U.MethodDescription` on which the receiving claim depends. The episteme does not turn world-side relations into Work fields or make the assignment act.
 **CC-A15.1-3 (Time window).**
 A conforming assertion or description about one Work occurrence designates a world-side individual with a closed temporal extent `[t_start, t_end]`, or an explicitly open end while the occurrence is in flight. The episteme states or designates that extent and, where relevant, location or asset; neither an interval field nor the presence of the record creates the occurrence.
 
 **CC-A15.1-4 (Interpretation and policy basis).**
 A load-bearing work claim names direct occurrence facts first. It cites `workContinuityPolicyRef`, its effective `U.ReferenceScheme`, and applicable scope or qualification window only when a named identity, episode, retry, resumption, or aggregation use must resolve an ambiguous segmentation. Any selected method-description episteme, aggregation-policy episteme, selected model-use structure, acceptance criterion, evaluation work, result episteme, and evidence use remains a neighboring claim rather than a work-identity field.
 
-If two local senses must be related, F.9 receives two exact `SchemeSenseCell` endpoints and one `BridgePredicateProfile`; a Bridge is positive only when that profile's predicate obtains. State the proposed comparison, substitution, translation, or publication separately in a C.2.1 bounded-use claim, with its action, direction, correspondence rule, and tolerated loss. A.10 or B.3 owns reliance on that claim. A different reference scheme, role assignment, selected description episteme, or model-use structure alone establishes none of these facts.
+If two local senses must be related, F.9 receives two exact `SchemeSenseCell` endpoints and one `BridgePredicateProfile`; a Bridge is positive only when that profile's predicate obtains. State the proposed comparison, substitution, translation, or publication separately in a C.2.1 bounded-use claim, with its action, direction, correspondence rule, and tolerated loss. State reliance through the applicable A.10 evidence-use relation or B.3 assurance result. A different reference scheme, system-role assignment, selected description episteme, or model-use structure alone establishes none of these facts.
 **CC-A15.1-4b (No mandatory state-plane or delta).**
 A Work claim needs no `StatePlaneRef`, pre-state, post-state, or delta merely to establish occurrence identity. If the receiving claim says that a referent changed, A.3.4 identifies the transformation and its state or boundary facts. Connect it to Work only through a declared domain predicate with exact W and T participants, or one C.2.1 local compound claim under A.6.RCD disposition 2 with a recoverable constructor, governed base predicates, actual participants, and case facts; otherwise return `missing-governor[work-to-change]`.
-**CC-A15.1-5 (RoleAssignment interval coverage).**
-Every `U.RoleAssignment` cited by an obtaining F.6 `performedUnderAssignment(W, RA)` attribution has as its holder the exact admitted `U.System` stated to perform the work and covers the work interval or exact performed part attributed to that system. If the holder differs or the assignment does not cover the extent, keep the Work occurrence, performer claim, and assignment claim separate: repair or reject the attribution, or establish a retroactive assignment only under the exact A.2.1 rule that admits it.
+**CC-A15.1-5 (SystemRoleAssignment interval coverage).**
+Every obtaining F.6 `performedUnderAssignment(W, RA)` attribution recovers two assignment identities: the exact directly declared species and the exact occurrence `RA` of that species. The species supplies the signature, participant meanings, predicate, and applicability. The occurrence supplies the actual participant values, including the holder System, and has an extent covering the Work or exact performed part. The holder equals the exact admitted `U.System` stated to perform the Work. If holder equality or coverage fails, keep the Work occurrence, performer claim, assignment occurrence, and attribution separate; repair or reject the attribution, or establish a retroactive occurrence only under A.2.1's exact rule for its directly declared species.
 
 **CC-A15.1-6 (Actual participant and operation binding).**
 For an operation argument or result, name one identified A.6.1 application and its exact declaration-local binding. For any other actual parameter, participant, premise, constituent, reference use, resource, or work-to-referent claim, name the declared subject predicate, participant order, and actual participant values. If the required route is absent, name the missing relation or binding in the `missing-governor` result and do not assert it. A MethodDescription declaration, default, A.15.3 planned filling, gate selection, compatible ValueKind, or stored token establishes no actual binding.
@@ -87,7 +86,7 @@ Any capability threshold relied on for a Work occurrence is the declared bound i
 **CC-A15.1-8 (Acceptance criteria).**
 An acceptance claim names the selected criterion episteme or comparator specification, its applicable scope and window, the evaluation or acceptance work that applied it, its returned value or result episteme, and the declared acceptance predicate with all actual participants. If the claim relies on historical continuity with an earlier criterion episteme, name the exact C.2.1 `EpistemeEditionRelation`; a version label alone is not enough. If no acceptance predicate governs the claim, return `missing-governor[acceptance]`. Success class, quality measurement, comparison result, and acceptance verdict remain distinct; no verdict is an intrinsic field of the Work occurrence or a condition of `U.Work` membership.
 **CC-A15.1-9 (Resource honesty).**
-Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, `U.Role`, or `U.Capability`. If no predicate governs the needed use, return `missing-governor[resource-use]`; estimates remain in method descriptions or plans. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
+Performed resource-use facts (energy, materials, machine-time, money, tool wear) are attributed through declared predicates that name the particular Work, resource, amount, unit, and extent participants, not to `U.Method`, `U.MethodDescription`, a system-role kind or assignment, or `U.Capability`. If no predicate governs the needed use, return `missing-governor[resource-use]`; estimates remain in Method descriptions or plans. Any aggregate ledger, unit conversion, allocation, or overlap and deduplication result belongs to `B.1.6` and cites the contributing Work occurrences and resource-use facts.
 
 **CC-A15.1-10 (Mereology declared).**
 When exact work-part relations obtain among Work individuals, declare each relation: temporal-part, episode-part, operational-part, or another relation with its own predicate. Ambiguous mixtures lower aggregation and identity claims. A `TemporalPartOf_work` claim names parent work identity plus interval or aspect; an `EpisodeOf_work` claim names the parent, candidate boundary events, and named use, adding `workContinuityPolicyRef` only when those facts leave the grouping ambiguous for that use; an `OperationalPartOf_work` claim names the occurrence-side part and any recovered method factor separately. Concurrency adds a separate interval `overlaps` fact. If the reader also claims coordination, name its declared predicate and actual participants; overlap alone does not establish it.
@@ -108,7 +107,7 @@ A work occurrence keeps one identity when several receiving uses evaluate it. Ea
 **CC-A15.1-16 (Method-description changes do not decide Work identity).**
 If the selected MethodDescription episteme changes during the occurrence, state the description-selection or override claim separately. That selection change alone neither splits nor preserves Work. When an accompanying actual performer-system, covering-assignment, enacted-method, binding, affected-referent, mode, or extent change creates a boundary question for a named use, apply that use's exact continuity-policy criterion. A later or competing policy episteme may support another judgment; it is a later edition only when its exact C.2.1 `EpistemeEditionRelation` to the earlier policy obtains. Otherwise it is a non-continuing replacement. Neither changes the occurrence.
 **CC-A15.1-17 (Distributed performers).**
-If multiple admitted `U.System`s jointly perform the same top-level work occurrence, name every system, its exact obtaining covering `U.RoleAssignment`, and every explicit F.6 attribution; verify that each assignment's holder is that system and that its obtaining extent covers the attributed work. If the use instead needs a parent work with child occurrences, give every child its actual performer system, covering assignment, and work-part relation. A lead, accountability, or coordination claim remains separate and cannot substitute one designated assignment for the actual performer set.
+If multiple admitted `U.System`s jointly perform the same top-level Work occurrence, name every performer and use F.6 to check the assignment under which each System performed the Work. A compact account may omit assignment identifiers not needed by its receiving claim. If the use instead needs a parent Work with child occurrences, give every child its actual performer System, covering assignment, F.6 attribution, and Work-part relation. A lead, responsibility, or coordination claim remains separate and cannot substitute for the actual performer set; responsibility needs its direct predicate or exact missing governor.
 
 **CC-A15.1-18 (Logs are evidence, not work by themselves).**
 Logs and telemetry support a claim about work only through an exact evidence-use relation that identifies the Work occurrence, actual performer system and covering assignment, enacted method, temporal extent, and containing system, plus any selected method-description episteme, work-to-referent relation, binding, resource-use fact, policy, or qualification value on which the receiving claim relies.
@@ -120,7 +119,7 @@ When the receiving claim needs actual change, identify an exact `U.Transformatio
 **CC-A15.1-21 (Record handling remains Work without automatic transformation).**
 Copying, formatting, evaluating, or publishing records can be performed by Work individuals admitted under `U.Work` when the actual performer system, covering assignment, actual enacted method, extent, and containing system are grounded. State an affected referent, binding, or resource-use fact only through its independently obtaining relation when the receiving claim uses it. Identify any actual record or dataset transformation separately under A.3.4; a label, output record, or post-state picture does not establish it.
 **CC-A15.1-22 (Executed-within declaration).**
-Each Work occurrence stands in one exact `executedWithin -> U.System` relation, which an assertion or description about the occurrence may state. When the accountable system is a subsystem in ordinary speech, name the system and its exact part relation to the larger holon. When that system differs from the affected referent, keep both identities separate. If the receiving claim relates the Work to the referent or to a transformation, name that declared predicate, its participants, and the facts that make it obtain; otherwise assert no connection merely from containment or shared timing.
+Each Work occurrence stands in one exact `executedWithin -> U.System` relation, which an assertion or description may state. When ordinary speech calls that System accountable, name the System and its exact part relation to any larger holon; if a responsibility claim is intended, cite its independent direct domain predicate or exact missing governor. When the System differs from the affected referent, keep both identities separate. If the receiving claim relates Work to the referent or a Transformation, name that declared predicate, its participants, and obtaining facts; otherwise assert no connection from containment or shared timing.
 
 **CC-A15.1-23 (No transformation composition from Work mereology).**
 Exact Work parts support only their declared work-part facts and provide inputs to separately recovered `B.1.4` or `B.1.6` aggregation claims. They establish neither component transformations, transformation parthood, a composite transformation, nor a parent effect. Recover each actual transformation independently; when a production or effect claim needs unavailable transformation composition, return `missing-governor[transformation-composition]`.

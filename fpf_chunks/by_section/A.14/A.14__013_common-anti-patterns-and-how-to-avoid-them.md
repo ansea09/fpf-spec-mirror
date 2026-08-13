@@ -6,16 +6,18 @@ section_id: "A.14:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__013_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 23905
-line_end: 23913
+line_start: 24158
+line_end: 24166
 dependencies:
   - "A.1"
   - "A.15"
   - "A.15.1"
+  - "A.2"
+  - "A.2.1"
   - "A.3.1"
   - "A.3.2"
   - "A.3.4"
@@ -37,8 +39,8 @@ keywords:
 ### A.14:10 - Common Anti-Patterns and How to Avoid Them
 
 * **Member as component.** A person, team, document, or object belongs to a collection and is then counted as if it were structurally integrated into the whole.
-* **Role as part.** A system plays a role, and the role label is placed inside a part tree.
-* **Method as part.** A method value, recipe, or algorithm is treated as a component instead of using method, method-description, work, or transformation owners.
+* **Role expression as part.** A system is said to "play a role", and the label is placed inside a part tree instead of being resolved as a local system-role kind, a `U.SystemRoleAssignment`, or a relation position.
+* **Method as part.** A method value, recipe, or algorithm is treated as a component instead of using method, method-description, work, or transformation patterns.
 * **Portion without measure.** Some amount of fuel, data, time, or text is named as a portion without a measure kind, unit, and additivity condition.
 * **Phase as replacement or lineage.** A proper restriction of one enduring carrier is treated as another component, or a changed episteme, version label, or Work segment is treated as `PhaseOf` without applying C.2.1 or A.15.1 first.
 * **Diagram or trace as relation.** A visual breakdown, graph, table, construction trace, or `validationMode` is used as proof that parthood obtains or that the whole has one fixed identity. Recover the direct relation occurrence and the candidate's identity or reidentification rule first; use the publication and trace only as inspectable accounts.

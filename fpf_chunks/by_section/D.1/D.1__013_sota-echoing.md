@@ -6,12 +6,12 @@ section_id: "D.1:9"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__013_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:9 — SoTA-Echoing"
-line_start: 68616
-line_end: 68624
+line_start: 68966
+line_end: 68974
 dependencies:
   - "A.1"
   - "A.10"
@@ -35,5 +35,5 @@ keywords:
 | Value pluralism and applied ethics practice | FPF should not pretend that one ethical doctrine resolves every project claim; it should name the current value frame, affected EntityOfConcern, excluded concerns, evidence, and admissible use before an ethical claim guides work. |
 | Engineering ethics and assurance practice | A method, work plan, architecture move, recommendation, system, or holon can be technically adequate while shifting harm, benefit, responsibility, or coercion elsewhere; technical verification does not settle the ethical claim. |
 | Human-impact, AI governance, and dual-use practice | Fairness, responsibility, alignment, safety, and misuse words need affected parties, context, consequence horizon, evidence, and admissible use before they guide action. |
-| FPF direct-owner discipline | Ethical entry does not absorb evidence, causality, assurance, architecture, or bias-audit owners. |
+| FPF subject-pattern discipline | Ethical entry does not absorb evidence, causality, assurance, architecture, or bias-audit owners. |
 

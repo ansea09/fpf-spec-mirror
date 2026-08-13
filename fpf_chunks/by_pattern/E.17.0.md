@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.0.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
-line_start: 79186
-line_end: 79721
+line_start: 79846
+line_end: 80382
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -230,9 +230,10 @@ Construct `C_viewpoint` under C.13 from the exact constituent episteme editions.
 | Constituent | Admit it when | Exact subject and practical job | Do not collapse it with |
 |---|---|---|---|
 | `E_target` | A target-kind criterion is current. | One C.2.1 episteme whose exact EntityOfConcern is the admitted target kind and whose claims cite the direct membership rule. For a context-local target, the exact C.3.2 `KindSignature` is the constituent; use another `U.Signature` only when the criterion is itself a reused declaration with vocabulary, laws, and applicability. It says which entities a conforming view may concern. | a raw kind reference, target mention as membership proof, or a wrapper Signature around a local KindSignature |
-| `E_stakeholder.system[i]` | The concern names one stakeholder system. | One C.2.1 episteme whose exact EntityOfConcern is the independently admitted exact `U.System`. | system mention, stakeholder-family typing, a current role assignment, or the episteme substituted for the system |
-| `E_stakeholder.roleValue[i]` | The concern addresses holders of one work-facing role. | One C.2.1 episteme whose exact EntityOfConcern is the exact `U.Role` value interpreted through the selected role-taxonomy episteme and effective scheme. Actual holder facts remain exact `U.RoleAssignment` occurrences. | role spelling, taxonomy episteme, holder reference, or assignment obtaining |
-| `E_stakeholder.collection[i]` | Several exact systems jointly form the concern referent. | One C.2.1 episteme whose exact EntityOfConcern is the independently identified C.13 collection-as-whole. | list adjacency, a system or role, the member plurality, or a description substituted for the collection whole |
+| `E_stakeholder.system[i]` | The concern names one stakeholder system. | One C.2.1 episteme whose exact EntityOfConcern is the independently admitted exact `U.System`. | system mention, stakeholder-family typing, a current system-role assignment, or the episteme substituted for the System |
+| `E_stakeholder.systemRoleKind[i]` | The concern addresses Systems classified under one exact local system-role kind. | One C.2.1 episteme whose exact EntityOfConcern is that local `U.Kind`; its claims cite the current `KindSignature` and `U.ContextSlice` when the receiving use depends on them. A reusable context field ends in `...SystemRoleKindRef` and is typed by `U.KindRef`. Classification judgments and actual assignments remain separate. | bare *role* spelling, `KindSignature`, classification judgment, holder reference, assignment occurrence, or responsibility |
+| `E_stakeholder.systemRoleAssignment[i]` | One exact obtaining assignment occurrence changes the concern. | One C.2.1 episteme whose exact EntityOfConcern is that occurrence under a directly declared species of `U.SystemRoleAssignment`. A reusable context field ends in `...SystemRoleAssignmentRef` and is typed by `U.RelationRef constrained to U.SystemRoleAssignment`. | local kind, holder System, assertion or description of the assignment, assignment spelling, or responsibility |
+| `E_stakeholder.collection[i]` | Several exact Systems jointly form the concern referent. | One C.2.1 episteme whose exact EntityOfConcern is the independently identified C.13 collection-as-whole. | list adjacency, one System, local system-role kind or assignment, the member plurality, or a description substituted for the collection whole |
 | `E_stakeholder.localKind[i]` | The concern quantifies over one context-local classification. | The exact C.3.2 `KindSignature` episteme together with its fixed `U.ContextSlice`; its membership criterion and extension bound the concern. Cross-context reuse requires C.3.3. | a wrapper Signature, raw class spelling, silent public-kind promotion, or a local extension treated as universal |
 | `E_concern[i]` | One exact question or concern claim is needed. | Ordinarily one C.2.1 episteme about one independently identified entity. It states what a conforming episteme must address. Promote it to `U.Signature` only when the concern predicate itself is a reused declaration with vocabulary, laws, and applicability. | a public `U.Concern`, unresolved EntityOfConcern, one-use question inflated into a Signature, or a concern label |
 | `E_admittedKind[i]` | One independently admitted episteme kind may enter conformance. | One C.2.1 episteme that cites the exact kind and the rule that admits its members; an exact local `KindSignature` may itself be the constituent. | a raw label or reference, admission by citation, a local wrapper, circular `U.View` admission, or the reference substituted for the membership rule |
@@ -272,7 +273,7 @@ Omit both local values from P, direct relation obtaining, and—when the structu
 When the structured branch is triggered, Q carries these eight organization constraints by value:
 
 1. **One target criterion.** Select exactly one `E_target` by its exact claim content and cited target-kind membership rule; a raw kind label, viewpoint name, or collection position proves neither selection nor membership.
-2. **Concerns depend on the target.** Every exact `E_concern[i]` depends on `E_target`. When stakeholder attribution changes the concern, cite one exact stakeholder referent recovered as an independently identified system, role value, collection-as-whole, or context-local classification.
+2. **Concerns depend on the target.** Every exact `E_concern[i]` depends on `E_target`. When stakeholder attribution changes the concern, cite one exact stakeholder referent recovered as an independently identified System, local system-role kind, obtaining system-role assignment, collection-as-whole, or other context-local classification. A responsibility claim remains a separately governed direct relation and never follows from the kind or assignment.
 3. **Coverage depends on exact concerns and claim families.** Each coverage constraint depends on the exact concern constituents and exact claim families it evaluates; a heading, graph edge, unresolved family label, or coverage result is neither the dependency nor proof of coverage.
 4. **Semantic form depends on the admitted kind.** Each semantic-form constraint depends on the exact independently admitted-kind constituent to which it applies; notation, form, or a raw kind reference grants no admission or dependence.
 5. **Method conventions depend on exact method descriptions.** Each method-based convention depends on one exact `D_method[i]` whose exact EntityOfConcern is an independently admitted A.3.1 method. The raw method remains outside C, and description, method, dependence, and performed work remain distinct.
@@ -386,9 +387,9 @@ Designation, citation, graph location, co-membership, scheme compatibility, vers
 When empirical interpretation or replay testing is current, identify separately:
 
 - `H_dependencyEvaluator : U.System` under A.1 as performer;
-- `RA_dependencyEvaluator : U.RoleAssignment` under A.2.1 for the current evaluator-role use, distinct from holder, role value, and work;
+- exact `RA_dependencyEvaluator : DependencyEvaluationWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with `H_dependencyEvaluator` in `HolderSystemSlot` and declaration-local assigned-kind domain `DependencyEvaluatorSystemRole`; the kind, assignment, holder System, and Work remain distinct, and neither the kind nor assignment acts;
 - `M_dependencyTest : U.Method` under A.3.1 and, when needed, `D_dependencyTest : U.MethodDescription` under A.3.2; D describes M but is neither method, work, RelationSignature, nor OperationAlgebra, and a separate A.6.1 operation declaration is cited only when typed application is current;
-- exact `W_dependencyTest : U.Work` performed by H under RA with `enactsMethod(W_dependencyTest,M_dependencyTest)` obtaining;
+- exact `W_dependencyTest : U.Work` performed by H under RA through F.6, with `enactsMethod(W_dependencyTest,M_dependencyTest)` obtaining;
 - exact `B_dependencyEmpirical`, a C.2.1 episteme identifying the model, calibration, assumptions, and interpretation basis; and
 - exact result episteme `T_dependency = <G_dependencyTestResult,E_dependent,S_test>`, whose ClaimGraph designates exact `E_base`, predicate, method, conditions, basis, and positive or negative result.
 
@@ -544,7 +545,7 @@ Only a recoverable exact external source may appear here as SoTA evidence. ISO 4
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.
 - **E.24.PUB** defines form expression, carrier bearing, publication availability, and recurrence. **C.29** defines representations and correspondence; neither makes the represented world-side relation obtain.
-- **A.1, A.2.1, A.3.1, A.3.2, and A.15.1** distinguish actors, role assignments, methods, method descriptions, and Work. Use **A.15.PROD** only for a separately needed local inception or completion claim.
+- **A.1, A.2, A.2.1, A.3.1, A.3.2, A.15.1, and F.6** distinguish performer Systems, local system-role kinds, exact assignments, Methods, MethodDescriptions, Work, and attribution. Responsibility remains under its direct predicate. Use **A.15.PROD** only for a separately needed local inception or completion claim.
 - **A.10, G.6, and B.3** retain provenance and assurance. Use **A.6.RCD** when no pattern defines a needed cross-view or use relation.
 
 ### E.17.0:9 - Conformance checklist

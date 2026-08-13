@@ -6,12 +6,12 @@ section_id: "C.19.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:intro — Intro"
-line_start: 50043
-line_end: 50072
+line_start: 50295
+line_end: 50324
 dependencies:
   - "A.0"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 ## C.19.1 - Bitter‑Lesson Preference (BLP)
 
 **One‑screen purpose (manager‑first).**
-Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable solution bearers for work on admitted holons**. A scale-amenable bearer may be a method family, module relation, platform, system, agent substrate, organization design, evidence-bearing episteme/work arrangement, or selected structure of an admitted holon that improves with more data, compute, capacity, usable resources, reuse, or freedom of action. The bearer kind and governing owner must be named; a method family, role label, practice label, or culture label is not made a holon merely because it is compared as a bearer. Prefer the general bearer over bespoke narrow heuristics when safety, guard-rail fit, and admissibility are comparable. Exceptions require a transparent **Scale‑Audit** under the parity harness.
+Establish, at **governing policy** level, the empirical **Bitter Lesson**: **prefer general, scale‑amenable solution bearers for work on admitted holons**. A scale-amenable bearer may be a method family, module relation, platform, system, agent substrate, organization design, evidence-bearing episteme/work arrangement, or selected structure of an admitted holon that improves with more data, compute, capacity, usable resources, reuse, or freedom of action. The bearer kind and the pattern that defines or tests the bearer claim must be named; a method family, role label, practice label, or culture label is not made a holon merely because it is compared as a bearer. Prefer the general bearer over bespoke narrow heuristics when safety, guard-rail fit, and admissibility are comparable. Exceptions require a transparent **Scale‑Audit** under the parity harness.
 
 **Builds on.** C.19 (E and E‑LOG), C.24 (Agent‑Tools‑CAL; **ATC‑2**), B.3 (Assurance), E.3 (Precedence), E.5 (Guard‑Rails).
 **Coordinates with.** G.5 (Selector), G.8 (SoS‑LOG Bundles), G.9 (Parity), G.11 (Refresh‑Telemetry), A.0 (On‑Ramp).

@@ -6,12 +6,12 @@ section_id: "A.3.4:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4/A.3.4__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4 — U.Transformation: Bounded Change Under Conditions"
   - "A.3.4:5 — Archetypal Grounding"
-line_start: 8741
-line_end: 8790
+line_start: 8955
+line_end: 9004
 dependencies:
   - "A.1"
   - "A.10"
@@ -64,7 +64,7 @@ A CRISPR project says that an editing protocol changed a DNA target while keepin
 
 **Spontaneous non-agentive case — result:** `SeedlingFirstLeafUnfolding-B17 : U.Transformation` is an actual first-leaf unfolding without an actor, method, or work claim. The continuing subject is the already existing `Seedling-B17`. Its boundary runs from unfolding onset `t0` to the first stable full-expansion state `t1`; leaf-configuration and exposed-surface facts before, during, and after distinguish the episode under the stated growth conditions. The same-seedling rule permits ordinary cellular turnover and growth but excludes division, grafting, death, or replacement.
 
-At this resolution the case asserts neither finer transformation parts nor partlessness. Do not add `U.System`, `U.RoleAssignment`, enacted method, `U.Work`, transformer, or production-through-work merely because observations exist. If a later use asks for an actor, apply A.3; if it asks for work, apply A.15.1 and then `4.2.4`. Otherwise keep the case non-agentive and do not open `A.15.PROD`.
+At this resolution the case asserts neither finer transformation parts nor partlessness. Do not add `U.System`, `U.SystemRoleAssignment`, enacted method, `U.Work`, transformer, or production-through-work merely because observations exist. If a later use asks for an actor, apply A.3; if it asks for work, apply A.15.1 and then `4.2.4`. Otherwise keep the case non-agentive and do not open `A.15.PROD`.
 
 #### A.3.4:5.3 - Specification repair
 

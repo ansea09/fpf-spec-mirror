@@ -6,12 +6,12 @@ section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:intro — Intro"
-line_start: 68500
-line_end: 68513
+line_start: 68850
+line_end: 68863
 dependencies:
   - "A.1"
   - "A.10"
@@ -40,5 +40,5 @@ keywords:
 
 **What goes wrong if missed.** FPF looks ethically neutral because it names evidence, method, architecture, or work but leaves the value frame and affected EntityOfConcern implicit.
 
-**What this buys.** The ethical concern becomes a bounded FPF claim with value frame, affected EntityOfConcern, evidence, admissible use, and direct next owner.
+**What this buys.** The ethical concern becomes a bounded FPF claim with value frame, affected EntityOfConcern, evidence, admissible use, and direct next subject pattern.
 

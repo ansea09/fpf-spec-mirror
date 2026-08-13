@@ -6,12 +6,12 @@ section_id: "F.10:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:7 — Conformance checklist"
-line_start: 93676
-line_end: 93694
+line_start: 94452
+line_end: 94470
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,7 +42,7 @@ keywords:
 | Check | Pass question |
 | --- | --- |
 | `CC-F10-01` Target and direct result | Are the exact target, target identity, direct governor, and any consumed domain result/result episteme recovered before status is applied? |
-| `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status owner? |
+| `CC-F10-02` Local value | Does the status expression resolve to an exact F.17 SchemeSenseCell under an effective ReferenceScheme and to one family/direct status pattern? |
 | `CC-F10-03` Use occurrence | Are bearer, target, value, scheme, scope, window, intended use, and direct obtaining basis explicit? |
 | `CC-F10-04` Source | Are source assertion/register, edition/order rule, provenance path, and G.11 currentness result recovered when they decide use? |
 | `CC-F10-05` Assessment | If a rule is applied, are dated evaluation work, enacted method, exact application/bindings, and evaluation-result claim separate? |
@@ -53,6 +53,6 @@ keywords:
 | `CC-F10-10` Design-run | Are standard approval, runtime evidence, requirement evaluation, and runtime satisfaction separate? |
 | `CC-F10-11` Receiving use | Is any actual premise/gate/assurance/permission/release/decision use grounded in dated work and its direct relation rather than intended use or display? |
 | `CC-F10-12` No creation | Does status neither define/create its target nor turn evidence absence into target falsity? |
-| `CC-F10-13` No role drift | Is no episteme assigned a work-facing evidence/status/standard/requirement role merely because it is used? |
-| `CC-F10-14` Direct-owner boundary | Do evidence provenance, assurance, causal use, publication, gate, permission, commitment, work, requirement evaluation, approval act, and decision remain with direct governors? |
+| `CC-F10-13` No system-role drift | Does evidence, status, standard, or requirement use refrain from establishing System admission, a local system-role classification, or an assignment? When a receiving claim needs an assignment, does it name the occurrence and its declared species? Does the occurrence carry every required participant value and have the independently admitted System as holder? |
+| `CC-F10-14` Subject-pattern boundary | Do evidence provenance, assurance, causal use, publication, gate, permission, commitment, work, requirement evaluation, approval act, and decision remain with direct governors? |
 

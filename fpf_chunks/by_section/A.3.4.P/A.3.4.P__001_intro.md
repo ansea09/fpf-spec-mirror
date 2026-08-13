@@ -6,12 +6,12 @@ section_id: "A.3.4.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:intro — Intro"
-line_start: 8872
-line_end: 8897
+line_start: 9086
+line_end: 9111
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,6 +66,6 @@ keywords:
 - If one bounded transformation is already identified and only its ordinary use continues, apply `A.3.4` directly.
 - If the current claim is already a selected transformation-flow structure, use `E.18`.
 - If the current claim is a graph, morphism, category, algebra, path, circuit expression, network expression, or other mathematical description, use `E.18.2` and `C.29`.
-- If the current claim is only a semantic way of doing, method description, mechanism, work plan, dated work, evidence relation, publication relation, gate, decision, assurance, result, or temporal claim, use the direct governing pattern.
+- If the current claim is only a semantic way of doing, method description, mechanism, work plan, dated work, evidence relation, publication relation, gate, decision, assurance, result, or temporal claim, use the subject pattern.
 - If the word is quoted source wording with no FPF-governed use, keep it quote-only.
 

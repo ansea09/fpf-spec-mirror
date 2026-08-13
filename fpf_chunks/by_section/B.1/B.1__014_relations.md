@@ -6,17 +6,18 @@ section_id: "B.1:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:11 — Relations"
-line_start: 35494
-line_end: 35499
+line_start: 35696
+line_end: 35701
 dependencies:
   - "A.1"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2.7"
   - "A.22"
   - "B.2"
   - "B.3.5"
@@ -24,7 +25,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30"
-  - "C.30.ASV"
+  - "E.10.ROLE"
 keywords:
 ---
 

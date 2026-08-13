@@ -6,12 +6,12 @@ section_id: "A.15.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:intro — Intro"
-line_start: 24970
-line_end: 25000
+line_start: 25168
+line_end: 25198
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ dependencies:
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "PlanItem content"
@@ -61,7 +61,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**At a glance.** Use `U.WorkPlan` when one exact episteme carries substantive claims for coordinating possible future performed work over a horizon through `PlanItem` content: intended method, planned window, performer and role conditions, capability-fit requirements, resource budgets, dependencies, commitments, acceptance targets, and a baseline for later comparison. C.2.1 keeps the episteme identity through one already identified present EntityOfConcern. A designator for merely possible future performance remains claim content; it neither designates a dated Work occurrence admitted under `U.Work` nor becomes another entity merely because it is planned.
+**At a glance.** Use `U.WorkPlan` when one exact episteme carries substantive claims for coordinating possible future performed Work over a horizon through `PlanItem` content: intended Method, planned window, intended performer System and local system-role-kind conditions, capability-fit requirements, resource budgets, dependencies, commitments, acceptance targets, and a baseline for later comparison. C.2.1 keeps the episteme identity through one already identified present EntityOfConcern. A designator for merely possible future performance remains claim content; it neither designates a dated Work occurrence admitted under `U.Work` nor becomes another entity merely because it is planned.
 
 **Use this when.** Use this pattern when a schedule, calendar, rota, Kanban ticket, Gantt bar, shift plan, rollout plan, reservation, planning cue, or P2W preparation note may be an episteme about intended work but is being treated as a method, method description, performed work, evidence, approval, gate result, publication cue, query-plan representation, or database query-optimizer representation. A system may use `U.WorkPlan` only when it can state the plan's substantive claims, the existing thing those claims concern, the scheme used to interpret them, and the possible future performance named in the plan content. The episteme itself neither acts nor makes work happen.
 
@@ -82,7 +82,7 @@ keywords:
 
 **What goes wrong if missed.** Teams treat calendars, tickets, reservations, or rollout notes as if work already happened; identify a possible future performance as an existing Work occurrence; let the plan episteme act; or treat a plan as method, evidence, gate result, approval, or publication authority.
 
-**What this buys.** One identifiable intended-work episteme whose present subject, horizon, windows, intended performer and role conditions, capability-fit requirements, constraints, budgets, dependencies, commitments, acceptance targets, baseline, and later comparisons with independently identified Work occurrences remain inspectable.
+**What this buys.** One identifiable intended-work episteme whose present subject, horizon, windows, Systems intended to perform the Work and their local system-role-kind conditions, capability-fit requirements, constraints, budgets, dependencies, commitments, acceptance targets, baseline, and later comparisons with independently identified Work occurrences remain inspectable.
 
 **Not this pattern when.** Not this pattern when the current claim is a dated performed work occurrence (`A.15.1`), A.15.3 declaration-local planned-filling content, work-entry readiness or full-kit condition (`A.15.5`), a reliance appearance being used before the governing pattern or relation is recovered (`A.15.4`), a method (`A.3.1`), a method description (`A.3.2`), evidence or assurance (`A.10` or `B.3`), a gate or constraint decision (`A.20` or `A.21`), publication-use behavior (`E.17`), a non-agentive forecast or dynamics model (`A.3.3`), or a declarative representation overread as a work-control or method claim (`C.2.P.DR`).
 

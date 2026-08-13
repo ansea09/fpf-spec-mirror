@@ -6,12 +6,12 @@ section_id: "A.6.S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:1 — Problem frame"
-line_start: 20689
-line_end: 20704
+line_start: 20942
+line_end: 20957
 dependencies:
   - "A.12"
   - "A.3"
@@ -57,6 +57,6 @@ When signature construction is not explicitly modeled, three failures recur:
 3. published faces (views) drift into adding semantics, making TargetSignature meaning ambiguous.
 
 Additionally, authors often (implicitly) treat a signature as if it *acts* (“the constructor builds the signature”).
-In FPF this is a category error: an Episteme describes; any change is enacted by a system or acting holon under a current `U.RoleAssignment`.
+In FPF this is a category error: an Episteme describes; an admitted `U.System` performs Work. A.15.1 admits that Work, and F.6 identifies the assignment under which each performer acted. The assignment does not act. A short explanation may omit an assignment identifier that no later claim uses.
 A.6.S therefore must keep **operator descriptions** separate from their **enactment as work**.
 

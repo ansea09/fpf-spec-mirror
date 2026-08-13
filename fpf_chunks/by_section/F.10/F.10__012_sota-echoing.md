@@ -6,12 +6,12 @@ section_id: "F.10:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:11 — SoTA-Echoing"
-line_start: 93725
-line_end: 93734
+line_start: 94501
+line_end: 94510
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,5 +45,5 @@ keywords:
 | Standards/profile governance separates candidate, draft, approved, deprecated, and superseded editions. | StandardStatus names exact source, target, scheme, edition, window, and use. | Approval does not prove enactment, runtime satisfaction, permission, or compliance. |
 | Evidence/provenance practice separates observation, measurement, corroboration, replication, refutation, source, and confidence. | EvidenceStatus classifies standing of an exact target claim after direct results and evidence-use relations are recovered. | Evidence status is not a domain result, target truth, or assurance. |
 | Cross-local terminology uses explicit mappings rather than global synonyms. | F.9 Bridges exact cells; F.10 separately names interpretation relation and rule. | Bridge/Card/family edge is not explanation, evaluation, or substitution. |
-| Credential, register, and dashboard practice separates visible view, issuer/verifier, subject binding, revocation, currentness, and relying use. | A display is a cue; source/status assertion and actual receiving use stay separate. | A green cell or credential view is not status application, gate passage, role assignment, permission, or assurance. |
+| Credential, register, and dashboard practice separates visible view, issuer and verifier, subject binding, revocation, currentness, and relying use. | A display is a cue; source and status assertion and actual receiving use stay separate. | A green cell or credential view is not status application, gate passage, system-role assignment, permission, or assurance. |
 

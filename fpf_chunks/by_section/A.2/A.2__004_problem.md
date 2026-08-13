@@ -1,46 +1,54 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2"
-pattern_title: "Role Taxonomy"
+pattern_title: "System-Role Kinds and Assignments"
 section_id: "A.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2 — Role Taxonomy"
+  - "A.2 — System-Role Kinds and Assignments"
   - "A.2:2 — Problem"
-line_start: 2741
-line_end: 2751
+line_start: 2761
+line_end: 2773
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.13"
   - "A.15"
-  - "A.2.1-A.2.6"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
   - "A.6.0"
   - "A.6.5"
   - "A.6.REL"
+  - "A.6.RSIR"
   - "C.2.1"
-  - "E.24"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
+  - "E.10.ROLE"
+  - "F.4-F.6"
 keywords:
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
+  - "ambiguous role wording"
   - "assignment"
-  - "context"
-  - "function vs identity"
-  - "holder"
-  - "responsibility"
-  - "role"
+  - "holder System"
+  - "local System classification"
+  - "system-role kind"
+  - "work-facing contribution"
 ---
 
 ### A.2:2 - Problem
 
 Without this pattern:
 
-1. one system's different participations are modeled as different system kinds;
-2. identical role labels are treated as identical meanings even when their role taxonomies or reference schemes differ;
-3. the role value, holder, assignment window, and relied-on work claim are compressed into one label;
-4. capability, method admission, role state, responsibility, evidence, or performed work is treated as a property or part of the role value;
-5. a proposed role decomposition creates false role mereology instead of recovering the direct role relations or neighboring objects;
-6. an episteme or a value filling a relation participant slot is made a role holder merely because ordinary wording says it "plays a role".
+1. one system's changing contributions are modeled as changes of system identity;
+2. a familiar label or taxonomy row is treated as a kind and as proof of membership;
+3. kind identity and the membership criterion are treated as the same thing;
+4. an assignment is used as a family-wide membership rule, or classification is used to manufacture an assignment;
+5. the holder, kind, assignment interval, capability, responsibility, and Work are compressed into one record;
+6. matching labels across contexts are treated as identity or permission for reuse;
+7. proposed subkind edges or extension rows create their own membership evidence;
+8. ordinary *role* wording turns epistemes, slots, positions, or interfaces into system-held roles.
 

@@ -6,12 +6,12 @@ section_id: "C.32.P2S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:3 — Forces"
-line_start: 64732
-line_end: 64744
+line_start: 65041
+line_end: 65053
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -54,9 +54,9 @@ keywords:
 | Structure-first architecture | Architecture is selected structures of a described holon in a bounded context; the flow is not reducible to documents, labels, stages, or tools. |
 | Structural uncertainty | Architecturing often starts before structure kinds, bearers, interfaces, allocations, or variation points are known. |
 | Characteristic trade-off | Architecture characteristics compete; optimizing one can damage another or hide Goodhart pressure behind a metric. |
-| Candidate plurality | Useful architecture work keeps structurally different alternatives alive until a comparison, selected-set, local choice, or architecture decision pattern is current. |
-| Realization gap | Selected and expected structures do not become actual structures by decision, model, description, or matching labels. Domain work, independently grounded actual changes, exact work-to-change facts, and separately governed subject-side structure facts are needed before an actual structure is claimed. |
+| Candidate plurality | Useful architecture work keeps structurally different alternatives alive until comparison, selected-set, local choice, or architecture decision becomes the current question. |
+| Realization gap | Selected and expected structures do not become actual structures by decision, model, description, or matching labels. Before claiming an actual structure, establish the domain work, actual changes, work-to-change facts, and the facts that make the subject-side structure obtain. |
 | Architecture-influence constraint | One typed Work, communication, tool, method, deployment, evidence, selected-structure, or architecture-side source can enable or block the transformed-side architecture content needed for the changed referent without thereby becoming an actor or transformation participant. |
 | Description loss | Views, descriptions, decision records, method descriptions, and eval reports capture only part of the structural content needed for later use. |
-| Evolution and feedback | Operation, use, telemetry, inspection, eval, decay, and new sources can use the pattern for the work that defines or constrains the next claim: `C.32` synthesis, `C.32.PAD` or `C.32.ADA` repair or supersession, `E.23` improvement, `G.11` currentness refresh, `E.18` transformation-flow slice-local refresh, `C.18` or `C.19` archive, front, and pool update, or `C.30.AD` or `C.30.ASV` repair for architecture-description or structural-view loss. |
+| Evolution and feedback | Operation, use, telemetry, inspection, evaluation, decay, and new sources can reveal the next question. The practitioner then uses the matching pattern: `C.32` for synthesis, `C.32.PAD` or `C.32.ADA` for repair or supersession, `E.23` for improvement, `G.11` for currentness refresh, `E.18` for transformation-flow slice-local refresh, `C.18` or `C.19` for archive, front, and pool update, or `C.30.AD` or `C.30.ASV` for architecture-description or structural-view loss. |
 

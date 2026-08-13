@@ -6,12 +6,12 @@ section_id: "D.2:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:1.0 — Problem"
-line_start: 68655
-line_end: 68658
+line_start: 69005
+line_end: 69008
 dependencies:
   - "A.1"
   - "A.15"
@@ -30,5 +30,5 @@ keywords:
 
 ### D.2:1.0 - Problem
 
-A change can be beneficial at one declared level or scope while imposing harm, exclusion, risk, or responsibility elsewhere. The failure is to treat the local gain as ethically sufficient before the affected levels, scopes, holons, epistemes, role assignments, work, evidence, and next owner are named.
+A change can be beneficial at one declared level or scope while imposing harm, exclusion, or risk elsewhere, or while changing a direct responsibility relation. The failure is to treat the local gain as ethically sufficient before the affected levels, scopes, holons, epistemes, Methods, actual Work, evidence, and next subject pattern are named. Recover role wording through `E.10.ROLE`; do not infer responsibility from a kind or assignment.
 

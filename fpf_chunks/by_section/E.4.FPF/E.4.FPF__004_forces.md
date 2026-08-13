@@ -6,12 +6,12 @@ section_id: "E.4.FPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:3 — Forces"
-line_start: 70083
-line_end: 70093
+line_start: 70486
+line_end: 70496
 dependencies:
   - "C.33"
   - "C.34"
@@ -41,7 +41,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | First principles vs domain knowledge | FPF must carry transdisciplinary ontology, epistemology, evidence, architecture, decision, work, publication, and improvement distinctions without becoming a doctrine of one domain. |
-| Public adoption vs governing authority | README, Preface, examples, cards, skills, and MCP access must help new users without becoming a second spec. |
+| Public adoption vs subject-pattern authority | README, Preface, examples, cards, skills, and MCP access must help new users without becoming a second spec. |
 | Core stability vs evolution | FPF needs stable dependability for downstream DPFs, while the framework remains open to new patterns, better terminology, and source-front movement. |
 | Pattern-set quality vs whole-framework quality | Individual `E.21` results matter, but they do not equal whole-FPF Pillar adequacy. |
 | Carrier plurality vs identity | The same FPF edition can be exposed as monolith, host set, split docs, cards, skill pack, MCP-backed service, or retrieval route; those carriers must not create several competing FPFs. |

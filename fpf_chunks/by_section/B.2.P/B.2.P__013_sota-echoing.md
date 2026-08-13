@@ -6,12 +6,12 @@ section_id: "B.2.P:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__013_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:10 — SoTA-Echoing"
-line_start: 37614
-line_end: 37622
+line_start: 37824
+line_end: 37832
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,8 +48,8 @@ keywords:
 
 | Line of practice | Practical implication for B.2.P |
 | --- | --- |
-| Emergence and whole-level behavior literature distinguishes new-whole questions from ordinary characteristic, capability, and measurement claims. | B.2.P keeps whole reidentification with `B.2` and assigns ordinary characteristic, capability, evidence, and measurement claims to their direct owners. |
+| Emergence and whole-level behavior literature distinguishes new-whole questions from ordinary characteristic, capability, and measurement claims. | B.2.P keeps whole reidentification with `B.2` and assigns ordinary characteristic, capability, evidence, and measurement claims to their subject patterns. |
 | Systems and holonic practice use collection and whole language for many different objects. | B.2.P requires membership, constructed whole, acting collective system, whole-level characteristic bearer, and candidate new holon named by an MHT claim to be identified separately. |
-| Mathematical and statistical treatments of scale, coarse-graining, graphs, morphisms, and benchmarks can clarify a claim without replacing the ontology. | B.2.P uses `C.29` for the mathematical-lens claim and still requires the in-life EntityOfConcern and direct subject owner. |
+| Mathematical and statistical treatments of scale, coarse-graining, graphs, morphisms, and benchmarks can clarify a claim without replacing the ontology. | B.2.P uses `C.29` for the mathematical-lens claim and still requires the in-life EntityOfConcern and direct subject pattern. |
 | Publication and model practice often makes the description more visible than the described holon or characteristic. | B.2.P separates publication, source-use, model, dashboard, and architecture-description claims from the in-life whole-reidentification claim. |
 

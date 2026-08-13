@@ -6,12 +6,12 @@ section_id: "C.17:18"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__021_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:18 — Relations"
-line_start: 49097
-line_end: 49102
+line_start: 49349
+line_end: 49354
 dependencies:
   - "A.1"
   - "A.10"
@@ -53,6 +53,6 @@ keywords:
 ### C.17:18 - Relations
 
 * **Builds on**: B.1 Γ‑algebra (WLNK/COMM/IDEM/MONO), B.3 Trust & Assurance (F–G–R, CL), A.2.6 USM (Claim/Work scopes), A.10 Evidence Graph Referring.
-* **Coordinates with**: A.2 Role suite (Observer/Evidence roles for probes), A.15 (Work & plans for probes), C.16 MM‑CHR (scale polarity & units). **C.18 NQD-CAL** (generation/illumination operators Γ_nqd.\*) and **C.19 E/E-LOG** (policies, selection, and declared retained-set rules). This CHR remains measurement-only.
+* **Coordinates with**: A.2 and F.6 when a probe needs an exact system-role kind, assignment occurrence, or performed-Work attribution; A.15 (Work & plans for probes), C.16 MM‑CHR (scale polarity & units). **C.18 NQD-CAL** (generation and illumination operators Γ_nqd.\*) and **C.19 E/E-LOG** (policies, selection, and declared retained-set rules). This CHR remains measurement-only.
 * **Defers to**: F.9 Bridges for Cross‑context transfers; D‑cluster for ethical/speech‑act gates.
 

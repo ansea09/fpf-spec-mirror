@@ -6,12 +6,12 @@ section_id: "C.19.1:3"
 section_title: "Conformance Checklist (CC‑BLP)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__004_conformance-checklist-cc-blp.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:3 — Conformance Checklist (CC‑BLP)"
-line_start: 50118
-line_end: 50130
+line_start: 50370
+line_end: 50382
 dependencies:
   - "A.0"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 1. **Alpha and delta tolerances** declared in DRR or via policy profile, with CI level stated.
 2. DRR includes a **Scale‑Audit** (BLP‑1a through BLP‑1g) with slopes, confidence intervals, edition pins, policy pins, planned-budget basis under **A.15.2**, and dated resource-account basis under **A.15.1**, **B.1.6**, **C.16**, and **A.10**.
 3. Selection cites **BLP‑2** and precedence checks.
-4. Any heuristic that meets the BLP‑4 trigger is recorded as a `BLP.HeuristicDebtEntry` with scope, responsible role, expiry or review window, and de‑hardening plan; ordinary local bounded tactics do not create a debt entry.
+4. Any heuristic that meets the BLP-4 trigger is recorded as a `BLP.HeuristicDebtEntry` with scope, admitted review System, direct debt-review responsibility relation or exact missing governor, expiry or review window, and de-hardening plan; ordinary local bounded tactics do not create a debt entry.
 5. Authoring defaults to **rules‑as‑prohibitions**; deviations are DRR‑justified and safety-bounded.
 6. Planned budget values under **A.15.2**, dated resource accounts under **A.15.1**, **B.1.6**, **C.16**, and **A.10**, and assurance deltas under **B.3** are reported.
 7. **Replicate counts, seed records, and confidence intervals** recorded for slope estimates; heteroscedasticity handling disclosed.

@@ -6,12 +6,12 @@ section_id: "F.10:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:5 — Archetypal grounding"
-line_start: 93642
-line_end: 93663
+line_start: 94418
+line_end: 94439
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -57,5 +57,5 @@ A model card reports high cross-validation AUC. Recover the exact predictive-per
 
 #### F.10:5.4 - Status display cue
 
-A release dashboard cell shows `Ready`. The cell is only a cue until exact source assertion, target, value cell, scheme, scope, window, provenance/currentness, and intended use are recoverable. Display or list membership does not establish a status-use occurrence or actual reliance. If the status is consumed for a gate, release, assurance, admission, permission, or decision, the direct governing pattern must admit the separate use and result.
+A release dashboard cell shows `Ready`. The cell is only a cue until exact source assertion, target, value cell, scheme, scope, window, provenance/currentness, and intended use are recoverable. Display or list membership does not establish a status-use occurrence or actual reliance. If the status is consumed for a gate, release, assurance, admission, permission, or decision, the subject pattern must admit the separate use and result.
 

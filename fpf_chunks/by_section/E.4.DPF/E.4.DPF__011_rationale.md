@@ -6,16 +6,17 @@ section_id: "E.4.DPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__011_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:10 — Rationale"
-line_start: 70832
-line_end: 70837
+line_start: 71261
+line_end: 71266
 dependencies:
   - "A.1.1"
   - "A.15.1"
   - "A.15.PROD"
+  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -29,6 +30,7 @@ dependencies:
   - "C.34"
   - "C.35"
   - "E.10"
+  - "E.10.ARCH"
   - "E.11"
   - "E.17"
   - "E.19"
@@ -41,15 +43,23 @@ dependencies:
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
+  - "F.0.1"
+  - "F.0.2"
+  - "F.1"
   - "F.18"
+  - "F.6"
   - "G.11"
   - "G.2"
 keywords:
+  - "& Search Queries. If the package uses a domain or local PatternID prefix"
+  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
+  - "do not copy first move"
+  - "result"
 ---
 
 ### E.4.DPF:10 - Rationale
 
 Domain and local frameworks are not mere subsets of FPF. They are FPF-grounded framework editions for declared domain or local use frames. They need domain source work, FPF authoring discipline, architecture decisions, direct relation assertions, quality loops, and refresh routes. Add the relation or edition records needed for a current maintenance use; do not require them when the direct assertion closes the task.
 
-Its contribution is one E.8/A.3.2 framework-authoring MethodDescription plus precise Plain selection and branching guidance. The text does not claim a reusable condition-governed structure by prose; when an A.22.CGUS is genuinely current, it is separately admitted with exact conditions, continuations, stops, and demonstration. Every produced or selected result still needs an exact receiving use and the direct pattern governing that result or use relation.
+Its contribution is one framework-authoring Method plus Plain selection and branching guidance. This episteme qualifies as its A.3.2 `U.MethodDescription` because it describes that admitted Method as its EntityOfConcern; E.8 supplies the pattern-authoring and publication-form discipline but does not grant MethodDescription membership. The text does not claim a reusable condition-governed structure by prose; when an A.22.CGUS is genuinely current, it is separately admitted with exact conditions, continuations, stops, and demonstration. Every produced or selected result still needs a receiving use and the pattern that defines, constrains, or tests that result or use relation.
 

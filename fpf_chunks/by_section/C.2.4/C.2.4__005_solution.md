@@ -6,12 +6,12 @@ section_id: "C.2.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:4 — Solution"
-line_start: 43557
-line_end: 43592
+line_start: 43779
+line_end: 43814
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -52,7 +52,7 @@ keywords:
 |---|---|---|
 | `AE0` | felt, latent, or low-articulation cue only | still preservable, but not yet anchor-explicit |
 | `AE1` | stable cue span, contrast, or disturbance cue is nameable | `U.PreArticulationCuePack` becomes natural |
-| `AE2` | candidate anchors or partial roles are visible | cue pack with candidate anchors and route candidates |
+| `AE2` | candidate anchors or partial field meanings are visible | cue pack with candidate anchors and route candidates |
 | `AE3` | minimally relation-like skeleton exists | entry to `A.6.P` becomes possible if local threshold allows |
 | `AE4` | slot-explicit normal form is publishable | explicit relation or characteristic form |
 | `AE5` | articulation is explicit enough for stable endpoint classification and downstream bridge work | endpoint-pattern-governed publication becomes straightforward |

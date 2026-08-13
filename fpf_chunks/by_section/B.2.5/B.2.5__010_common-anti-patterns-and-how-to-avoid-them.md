@@ -6,12 +6,12 @@ section_id: "B.2.5:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 38429
-line_end: 38438
+line_start: 38640
+line_end: 38649
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,9 +41,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Ghost coordination | Subholons coordinate, but no supervisor role, acting system, medium, or feedback relation is named. | Fill `SupervisorSubholonFeedbackRelation@Context`. |
+| Ghost coordination | Subholons coordinate, but no supervising acting system, medium, or feedback relation is named. | Fill `SupervisorSubholonFeedbackRelation@Context`; add a system-role kind or assignment only when separately current. |
 | Functional layer as component | A planning or control layer is modeled as a physical part of the controlled holon. | Separate parthood from feedback relation; use `C.30.LCA` for the view. |
-| Perfect communication | State access is assumed instant, complete, or lossless. | Name medium or publication limits; use `C.27`, `A.3.3`, or evidence owners for timing and information claims. |
-| Episteme acts | A theory, model, paper, dashboard, or standard senses, judges, plans, or adapts. | Name the acting system in role, the method or review practice structuring the work when current, the revision work, and any publication or source-use relation. |
+| Perfect communication | State access is assumed instant, complete, or lossless. | Name medium or publication limits; use `C.27`, `A.3.3`, or evidence-use patterns for timing and information claims. |
+| Episteme acts | A theory, model, paper, dashboard, or standard senses, judges, plans, or adapts. | Name the acting System and revision Work; use F.6 to identify the assignment under which each performer acted. A short sentence may omit an unused assignment identifier. Name the Method or review practice structuring the Work when current, and any publication or source-use relation. This Work rule does not make assignment or system-role classification a condition of the supervisor-subholon feedback relation itself. |
 | Relation certifies safety | The feedback relation is treated as evidence, assurance, gate, or safety result. | Keep the relation and apply the governing pattern for the stronger claim. |
 

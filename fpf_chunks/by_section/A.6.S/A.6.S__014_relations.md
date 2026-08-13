@@ -6,12 +6,12 @@ section_id: "A.6.S:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:12 — Relations"
-line_start: 21057
-line_end: 21096
+line_start: 21310
+line_end: 21349
 dependencies:
   - "A.12"
   - "A.3"
@@ -53,7 +53,7 @@ keywords:
   * A.6 — Signature Stack & Boundary Discipline
   * A.6.0 — `U.Signature`
   * A.6.2 — `U.EffectFreeEpistemicMorphing` (constructor ops are EFEM species)
-  * A.2/A.2.1 — role values and `U.RoleAssignment` when enactment needs a work-facing role value such as `TransformerRole@Context`
+  * A.2, A.2.1, and F.6 — local system-role kinds and the assignment under which each System performed the Work; classification, assignment, performer System, and proportional reporting remain separate
   * C.2.1 — Episteme slots (`EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot`) and naming deconfliction
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
   * E.10 and LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept out of normative register
@@ -78,7 +78,7 @@ Grounding pointers in the current FPF draft (for alignment while integrating):
 * A.6.2 “effect‑free episteme morphisms” boundary (constructor ops are EFEM; work/mechanisms are separate).
 * A.3.1/A.3.2/A.15/A.15.1/A.15.2 method, method-description, work-plan, and work separation for “constructor described vs enacted”.
 * A.7 strict distinction and Face/Surface separation (no object–description–carrier soup).
-* A.2/A.2.1 role-assignment discipline plus A.3.4 transformation and A.15 work discipline (enactment is by systems or acting holons under role assignments; no epistemic agency).
+* A.1 System admission, A.2 local system-role classification, A.2.1/F.6 exact system-role-assignment attribution, A.3.4 transformation, and A.15 Work discipline: an admitted System performs Work; epistemes, local kinds, and assignments do not act.
 * Slot operation lexicon and naming guidance (A.6.5).
 * Base‑change operation lexicon (A.6.6).
 * MVPK faces as fixed view kinds with “no new semantics” intent (E.17).

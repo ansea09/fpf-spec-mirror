@@ -6,12 +6,12 @@ section_id: "A.7.CP:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:2 — Problem"
-line_start: 22273
-line_end: 22282
+line_start: 22526
+line_end: 22535
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -31,7 +31,7 @@ Three conflations make premise use unreliable:
 
 1. claim content is confused with the posture in which one work occurrence uses it;
 2. citation or co-location is confused with actual reliance in reasoning; and
-3. a support owner is treated as a method that performs or governs the consuming work.
+3. a support pattern is treated as a method that performs or governs the consuming work.
 
 The result is either hidden premises or a copied catalogue that becomes a second ontology authority. Both failures obscure occurrence identity and reopen behavior.
 

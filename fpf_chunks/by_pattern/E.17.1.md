@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
-line_start: 79722
-line_end: 80151
+line_start: 80383
+line_end: 80818
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -128,7 +128,13 @@ Open the complete constitution below for the affected catalogue edition when aut
 - one ordinary library designator and one ordinary edition designator interpreted under `R_L`;
 - a finite set of local family-declaration claim blocks, each retrievable inside `G_L` by one ordinary family designator interpreted under `R_L`;
 - the exact `U.ViewpointRef` members and target-kind compatibility claim for each declaration; and
-- only maintenance claims currently needed, such as an exact responsible role assignment, change-control note, or scope tag.
+- only maintenance claims currently needed, using the branch that matches the present claim:
+  - for a current maintenance-System claim, cite the admitted maintenance `U.System`; cite an exact local system-role kind and its independently evaluated classification only when that classification is current;
+  - for actual maintenance Work, cite the dated `U.Work` and its performer, and use F.6 to identify the assignment under which that System acted; a short catalogue claim may omit identifiers its bounded use does not need;
+  - for current maintenance responsibility, cite its direct admitted predicate and actual participants or return the exact missing governor; assignment establishes no responsibility; and
+  - for prospective maintenance guidance, retain only the change-control note, intended maintenance condition or `U.WorkPlan`, and scope tag; this content asserts no performed Work, current assignment, or responsibility.
+
+The catalogue entry only cites these values, which are defined or constrained elsewhere and creates none of them.
 
 Library, edition, and family designators are lexical values under `R_L`, not local ValueKinds, public U-kinds, episteme identity discriminators, or entities by spelling. A local family declaration is claim content in `G_L`, not automatically a separate entity or episteme. Its compact locator `<editionDesignator(L), familyDesignator>` is a retrieval aid under `R_L`; it does not replace L's C.2.1 identity. If a receiving use truly needs one declaration as a separately identified episteme, constitute that new episteme independently under C.2.1 rather than inferring it from a row.
 

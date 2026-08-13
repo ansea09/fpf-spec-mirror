@@ -6,12 +6,12 @@ section_id: "A.2.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__006_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:3 — Forces"
-line_start: 3712
-line_end: 3721
+line_start: 3887
+line_end: 3896
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,8 +40,7 @@ dependencies:
   - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -49,11 +48,12 @@ keywords:
   - "SLA"
   - "SLO"
   - "Work evidence"
-  - "acceptanceSpec"
-  - "accessSpec"
-  - "claim scope (G)"
+  - "acceptance specification"
+  - "access specification"
+  - "claim scope"
   - "promise content"
-  - "provider/consumer roles"
+  - "promised outcome"
+  - "provider and consumer system-role kinds"
 ---
 
 ### A.2.3:3 - Forces
@@ -63,6 +63,6 @@ keywords:
 | **External promise vs internal capability** | Promise content must be consumer‑facing, while capability is provider‑internal.                               |
 | **Specification vs execution** | Promise content remains an episteme; exact delivery-work facts, affected entities, post-work states, and separately governed delivery or acceptance relations are evaluated against the promised predicates. The evaluation operation's result binding and any verdict episteme remain distinct from those subject facts. |
 | **Universality vs domain richness**         | One kernel meaning must cover IT, utilities, healthcare, public services—without absorbing domain taxonomies. |
-| **Reviewable acceptance vs method autonomy** | Consumers need named outcome predicates, characteristics, scales, target values, and acceptance criteria. Systems assigned provider roles retain freedom to select delivery methods through method-selection work; deontic accountability enters only through an explicit `U.Commitment`. |
+| **Reviewable acceptance vs method autonomy** | Consumers need named outcome predicates, characteristics, scales, target values, and acceptance criteria. Systems classified under provider system-role kinds and holding exact assignments retain freedom to select delivery methods through method-selection work; an individual deontic duty enters only through an independently obtaining `U.Commitment`. |
 | **Stability vs evolution** | A changed promise creates a new promise-content episteme edition, while earlier work occurrences and evidence relations retain their own identities. |
 

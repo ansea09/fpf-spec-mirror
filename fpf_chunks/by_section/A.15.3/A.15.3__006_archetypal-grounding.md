@@ -6,12 +6,12 @@ section_id: "A.15.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:5 — Archetypal Grounding"
-line_start: 25441
-line_end: 25501
+line_start: 25639
+line_end: 25699
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -41,11 +41,11 @@ keywords:
 
 ### A.15.3:5 - Archetypal Grounding
 
-#### A.15.3:5.1 - Planned holder designation against the admitted role-assignment declaration
+#### A.15.3:5.1 - Planned holder designation against one direct system-role-assignment species
 
-An inspection team plans a later role assignment and chooses `Robot_8_Ref` as the holder system. **Plan result:** one row points to the cited `RoleAssignmentRelationSignature` edition and its `HolderSystemSlot`; `Robot_8_Ref : U.EntityRef` resolves to admitted `Robot_8 : U.System`. A.2.1 defines the assignment predicate and occurrence identity, while A.6.5 defines the declaration-local SlotKind, ValueKind, and reference mode.
+An inspection team plans a future assignment of `Robot_8`. It names `InspectionRobotSystemRoleAssignment` as the species and `Robot_8_Ref` as the intended holder. **Plan result:** one row points to the cited `InspectionRobotSystemRoleAssignmentSignature` edition and its `HolderSystemSlot`; `Robot_8_Ref : U.EntityRef` resolves to admitted `Robot_8 : U.System`. That species under `U.SystemRoleAssignment` gives its declaration-local assigned-kind slot the domain `InspectionRobotSystemRole`. A.2.1 defines the species predicate and occurrence identity, while A.6.5 defines the declaration-local SlotKinds, ValueKinds, and reference modes.
 
-The row establishes neither a `U.RoleAssignment` nor actual participation. Later, an affirmative assignment assertion is available only when all four participants are designated and the A.2.1 predicate holds continuously for them. A type-compatible planned holder can therefore remain the baseline while that predicate either fails under a stated negative criterion or cannot yet be resolved.
+The row establishes neither a `U.SystemRoleAssignment` occurrence nor actual participation. Later, an affirmative assignment assertion is available only when the direct species predicate holds for its complete real participant set and its occurrence law is satisfied. A type-compatible planned holder can therefore remain the baseline while that predicate either fails under a stated negative criterion or cannot yet be resolved; taxonomy, reference scheme, or generic context is not added as a world-side participant.
 
 **Blocked near-miss:** `Bearing_C isPartOf Pump_P` cannot supply a relation row. A.6.5:5.2 keeps `PartHolonSlot` and `WholeHolonSlot` hypothetical until a part-relation pattern defines their meanings, predicate, applicability, and occurrence identity. Return `missing-governor: planned part-relation participant designation for <Bearing_C, Pump_P>` or keep the choice as ordinary A.15.2 plan content; do not present the sketch as an admitted `RelationSignature`.
 

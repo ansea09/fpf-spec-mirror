@@ -2,11 +2,11 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `036c056e98c38522172c6b7b3ad08214281cc4e4`
+Commit SHA: `11f2345e65e4b2ec5b84c0cecde4c9485834d28d`
 
 Chunking method: `pattern-aware`
 
-Patterns: `293`
+Patterns: `294`
 
 ## Patterns
 
@@ -15,15 +15,15 @@ Patterns: `293`
 - [A.1.1 — Bounded Model-Use Structure and DDD Bounded-Context Recovery](by_pattern/A.1.1.md)
 - [A.1.SCR — Finding the Acting or Changed System](by_pattern/A.1.SCR.md)
 - [A.1.STM — Using the System-Thinking Long Mantra](by_pattern/A.1.STM.md)
-- [A.2 — Role Taxonomy](by_pattern/A.2.md)
-- [A.2.1 — U.RoleAssignment - System Role Assignment](by_pattern/A.2.1.md)
+- [A.2 — System-Role Kinds and Assignments](by_pattern/A.2.md)
+- [A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment](by_pattern/A.2.1.md)
 - [A.2.2 — U.Capability - System Ability Envelope and Measures](by_pattern/A.2.2.md)
 - [A.2.3 — U.PromiseContent (Promise Content)](by_pattern/A.2.3.md)
 - [A.2.4 — Episteme Evidence-Use and Status-Use Relations](by_pattern/A.2.4.md)
-- [A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission](by_pattern/A.2.5.md)
+- [A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission](by_pattern/A.2.5.md)
 - [A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes](by_pattern/A.2.6.md)
-- [A.2.7 — Role Relation Structure - Substitution, Incompatibility, Qualification, and Joint Admission](by_pattern/A.2.7.md)
-- [A.2.8 — U.Commitment (Deontic Commitment Object)](by_pattern/A.2.8.md)
+- [A.2.7 — SystemRoleKindRelationStructure - Relations among System-Role Kinds](by_pattern/A.2.7.md)
+- [A.2.8 — U.Commitment (Deontic Commitment Relation)](by_pattern/A.2.8.md)
 - [A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition](by_pattern/A.2.8.PER.md)
 - [A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)](by_pattern/A.2.9.md)
 - [A.3 — Transformer Constitution (Quartet)](by_pattern/A.3.md)
@@ -72,7 +72,7 @@ Patterns: `293`
 - [A.12 — Acting-Side Externalization and Reflexive Split](by_pattern/A.12.md)
 - [A.13 — The Agential Role & Agency Spectrum](by_pattern/A.13.md)
 - [A.14 — Advanced Mereology: Components, Portions, Aspects & Phases](by_pattern/A.14.md)
-- [A.15 — Role–Method–Work Alignment](by_pattern/A.15.md)
+- [A.15 — System-Role–Method–Work Alignment](by_pattern/A.15.md)
 - [A.15.1 — U.Work](by_pattern/A.15.1.md)
 - [A.15.2 — U.WorkPlan](by_pattern/A.15.2.md)
 - [A.15.3 — SlotFillingsPlanItem](by_pattern/A.15.3.md)
@@ -144,7 +144,7 @@ Patterns: `293`
 - [C.3.1 — U.Kind and U.SubkindOf Core](by_pattern/C.3.1.md)
 - [C.3.2 — Kind Intent, Membership Judgment, and Extension](by_pattern/C.3.2.md)
 - [C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds](by_pattern/C.3.3.md)
-- [C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)](by_pattern/C.3.4.md)
+- [C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning](by_pattern/C.3.4.md)
 - [C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)](by_pattern/C.3.5.md)
 - [C.3.A — Typed Guard Macros for Kinds + USM (Annex)](by_pattern/C.3.A.md)
 - [C.11 — Decision Theory (Decsn-CAL)](by_pattern/C.11.md)
@@ -232,6 +232,7 @@ Patterns: `293`
 - [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)
 - [E.10.MOVE — Move and Readiness Wording Precision Restoration](by_pattern/E.10.MOVE.md)
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
+- [E.10.ROLE — Recovering What “Role” Means in the Current Claim](by_pattern/E.10.ROLE.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
 - [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
@@ -270,9 +271,9 @@ Patterns: `293`
 - [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)
 - [F.3 — Intra‑Context Sense Clustering](by_pattern/F.3.md)
-- [F.4 — Role Description - Description Episteme for U.Role](by_pattern/F.4.md)
-- [F.5 — Naming Discipline for U-kind Names and RoleDescription Labels](by_pattern/F.5.md)
-- [F.6 — RoleAssignment and Performed-Work Attribution Check](by_pattern/F.6.md)
+- [F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind](by_pattern/F.4.md)
+- [F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels](by_pattern/F.5.md)
+- [F.6 — SystemRoleAssignment and Performed-Work Attribution Check](by_pattern/F.6.md)
 - [F.7 — Concept‑Set Table](by_pattern/F.7.md)
 - [F.8 — Mint-or-Reuse Decision](by_pattern/F.8.md)
 - [F.9 — Alignment and Bridge across Contexts](by_pattern/F.9.md)
@@ -281,7 +282,7 @@ Patterns: `293`
 - [F.11 — Method Quartet Harmonisation](by_pattern/F.11.md)
 - [F.12 — Service Acceptance–Work Evidence Link](by_pattern/F.12.md)
 - [F.13 — Lexical Continuity & Deprecation](by_pattern/F.13.md)
-- [F.14 — Anti-Explosion Control for Role and Status Name Families](by_pattern/F.14.md)
+- [F.14 — Anti-Explosion Control for System-Role and Status Name Families](by_pattern/F.14.md)
 - [F.15 — Static and Regression Conformance Harness for Unification](by_pattern/F.15.md)
 - [F.16 — Worked‑Example Template (Cross‑Domain)](by_pattern/F.16.md)
 - [F.17 — Unified Term Sheet](by_pattern/F.17.md)

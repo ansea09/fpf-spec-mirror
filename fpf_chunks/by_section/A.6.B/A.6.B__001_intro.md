@@ -6,12 +6,12 @@ section_id: "A.6.B:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:intro — Intro"
-line_start: 10306
-line_end: 10314
+line_start: 10520
+line_end: 10528
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -49,7 +49,6 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "a duty or commitment D- claim MUST name its accountable subject"
   - "accountable norms and grants"
   - "actual exercise"
   - "and MAY"
@@ -69,7 +68,6 @@ keywords:
   - "institutional obtaining"
   - "laws"
   - "may"
-  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
   - "observable effects and evidence"
@@ -77,6 +75,7 @@ keywords:
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
+  - "responsibility"
   - "they report adjudicable results rather than obligations"
   - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
@@ -91,6 +90,6 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative (unless explicitly marked informative)
 > **Placement:** Part A → A.6.B (matrix module; referenced by A.6 cluster overview)
-> **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (`U.EpistemicViewing`), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (EntityOfConcern and Description-episteme boundary; specification-use and publication-carrier distinction), A.2.3 (promise content when contract language is current), A.2.8 (`U.Commitment`), A.2.8.PER (direct owner selected by the permission-word branch), A.2.9 (`U.SpeechAct`), E.10.D2 (EntityOfConcern and Description-episteme boundary; specification-use and refinement discipline), E.10 publication face, form, unit, and carrier discipline
+> **Builds on:** E.8 (authoring template), A.6.0 (`U.Signature`), A.6.1 (`U.Mechanism`), A.6.3 (`U.EpistemicViewing`), E.17.0/E.17 (MVPK + “no new semantics” faces), A.7 (EntityOfConcern and Description-episteme boundary; specification-use and publication-carrier distinction), A.2.3 (promise content when contract language is current), A.2.8 (`U.Commitment`), A.2.8.PER (subject pattern selected by the permission-word branch), A.2.9 (`U.SpeechAct`), E.10.D2 (EntityOfConcern and Description-episteme boundary; specification-use and refinement discipline), E.10 publication face, form, unit, and carrier discipline
 > **Purpose (one line):** Provide a canonical 2×2 norm square that classifies boundary statements (L/A/D/E), constrains how each quadrant is written, and defines explicit cross‑quadrant reference rules so boundaries remain evolvable and audit‑ready.
 

@@ -6,14 +6,15 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.1.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
-line_start: 44766
-line_end: 44916
+line_start: 44988
+line_end: 45138
 dependencies:
   - "A.1"
   - "A.11"
+  - "A.2"
   - "A.2.6"
   - "A.6.0"
   - "A.6.5"
@@ -80,7 +81,7 @@ The statement `cooling pump is a pump` is useful only if candidate classificatio
 | Object | Meaning | Boundary |
 | --- | --- | --- |
 | `U.Kind` | A kind value identified within one bounded context by a local identity basis; typed claims use `KindSignature` editions whose content names the effective `U.ReferenceScheme`. | It is not automatically a durable public FPF U-kind, and the scheme is not stored on the kind. |
-| `U.SubkindOf` | The admitted direct relation kind that orders two local `U.Kind` values under one effective reference scheme. Its participants are the narrower kind and the broader kind. | It is not a predicate expression, assertion episteme, dependency, part-whole, slot-filling, construction, role-assignment, or admission relation. |
+| `U.SubkindOf` | The admitted direct relation kind that orders two local `U.Kind` values under one effective reference scheme. Its participants are the narrower kind and the broader kind. | It is not a predicate expression, assertion episteme, dependency, part-whole, slot-filling, construction, system-role assignment, or admission relation. |
 | `SubkindOfObtains(k1, k2; RS)` | The relation-obtaining predicate: under exact reference-scheme edition `RS`, the aligned kind interpretations make every defined `true` judgment for `k1` imply `true` for `k2` over the declared candidate domain and applicable slices. | The predicate is rule content; it is not the obtaining occurrence. An unresolved required judgment leaves an assertion about obtaining unresolved rather than making the relation false. |
 | `R_sub : U.SubkindOf` | One obtaining direct relation occurrence between exact narrower kind `k1` and broader kind `k2` under `RS`. | Expose an occurrence designator only when a named receiver needs to distinguish or refer to the occurrence. Participant identities plus the exact effective reference-scheme edition determine its identity. |
 | subkind assertion episteme | A C.2.1 episteme whose content affirms, denies, or leaves unresolved `SubkindOfObtains(k1, k2; RS)` and cites the aligned signature editions and support used. | The assertion neither makes the relation obtain nor creates `R_sub`; a negative or unresolved assertion designates no obtaining occurrence. |
@@ -101,7 +102,7 @@ When a named receiving assertion, description, or relation needs one occurrence 
 2. **State the direct order relation.** Use `U.SubkindOf` only for an obtaining relation whose narrower-kind and broader-kind participants satisfy `SubkindOfObtains` under that scheme. Keep the predicate, any `R_sub` occurrence designator, and any C.2.1 assertion episteme separate.
 3. **Keep a partial order over obtaining facts.** Reflexivity, transitivity, and antisymmetry constrain the obtaining `U.SubkindOf` relations among local kind values; they do not make a diagram edge or affirmative assertion true by form.
 4. **Test the obtaining predicate over judgments.** For the aligned signature editions, if both C.3.2 judgments are defined for the same candidate and context slice and the judgment for `k1` is `true`, then the judgment for `k2` must be `true`. A universal proof or adequate domain basis establishes the implication; `unknown` remains non-settlement.
-5. **Diagnose counterexamples at their owner.** A counterexample indicates that the proposed relation does not obtain, that the signature editions are incompatible, or that a context bridge is undeclared. Do not repair it by silently adding or deleting a row in `KindExtension`.
+5. **Diagnose counterexamples under their subject pattern.** A counterexample indicates that the proposed relation does not obtain, that the signature editions are incompatible, or that a context bridge is undeclared. Do not repair it by silently adding or deleting a row in `KindExtension`.
 6. **Separate signature change from kind continuity.** A changed criterion, evaluation domain, `EntityOfConcern` referent, or effective reference scheme creates another `U.Signature` episteme edition under A.6.0 and C.2.1. C.3.1 then decides independently whether the same local kind continues.
 7. **Record the continuity consequence.** If the local identity basis is preserved, the same kind may continue while every classification still cites the edition actually used; the new edition does not retroactively rewrite old judgments. If the identity basis is not preserved, identify a different local kind and state any genuinely obtaining `U.SubkindOf` relation or C.3.3 bridge separately.
 8. **Do not infer change from the extension alone.** A changed candidate state or later `U.ContextSlice` can change `KindExtension(k, slice)` without changing the signature, kind, or a still-obtaining subkind relation.
@@ -145,7 +146,7 @@ C.3.1 counters hierarchy bias, assertion-as-world bias, label continuity bias, a
 | `CC-C31-1` | Each local `U.Kind` names its bounded context and local identity basis. Each `U.SubkindOf` obtaining claim names the exact effective reference-scheme edition and aligned signatures used to interpret the order; cross-context use goes through C.3.3. |
 | `CC-C31-2` | `U.SubkindOf` is an admitted direct relation kind with narrower-kind and broader-kind participants, a recoverable obtaining predicate and applicability, and participant-plus-reference-scheme occurrence identity. |
 | `CC-C31-2a` | A predicate expression, C.2.1 assertion episteme, evidence item, representation edge, and optional `R_sub` occurrence designator are kept distinct; none makes the relation obtain. |
-| `CC-C31-2b` | Reflexivity, transitivity, and antisymmetry constrain obtaining relation facts and are not overloaded with dependency, construction, role, slot, or admission relations. |
+| `CC-C31-2b` | Reflexivity, transitivity, and antisymmetry constrain obtaining relation facts and are not overloaded with dependency, construction, system-role assignment, declaration-slot, or admission relations. |
 | `CC-C31-3` | The judgment-level monotonicity implication is checked for the same candidate and slice under explicit compatible signature editions; `unknown` neither refutes nor establishes the universal relation predicate. |
 | `CC-C31-4` | A monotonicity counterexample diagnoses a non-obtaining link, incompatible editions, or missing bridge; no extension row is silently changed. |
 | `CC-C31-5` | Signature-edition identity and kind continuity are decided separately, and old judgments retain their cited edition. |
@@ -155,7 +156,7 @@ C.3.1 counters hierarchy bias, assertion-as-world bias, label continuity bias, a
 
 ### C.3.1:10 - Common Anti-Patterns and How to Avoid Them
 
-* Encoding dependency, part-whole, slot filling, construction, role assignment, or admission as `U.SubkindOf`, or treating a predicate expression, assertion, diagram edge, or table row as the obtaining relation occurrence.
+* Encoding dependency, part-whole, slot filling, construction, system-role assignment, or admission as `U.SubkindOf`, or treating a predicate expression, assertion, diagram edge, or table row as the obtaining relation occurrence.
 * Treating a source hierarchy or public-looking spelling as durable FPF ontology.
 * Treating `KindSignature` as the kind or its formality as a property of the kind.
 * Assuming every signature edit makes a new kind, or that no signature edit can make one.
@@ -183,7 +184,7 @@ Type theory, ontology engineering, and versioned schema practice distinguish par
 
 - **Specializes:** `A.6.REL` for the direct `U.SubkindOf` relation settlement: exact kind participants, obtaining predicate, applicability, lightweight occurrence use, and participant-plus-reference-scheme identity.
 - **Builds on:** `C.3`, A.6.0 declaration identity, C.2.1 episteme and assertion identity, A.2.6/USM context-slice and scope discipline, F-G-R, and C.2.3 formality.
-- **Coordinates with:** `C.3.2` judgments and extensions, `C.3.3` cross-context bridges, `A.6.5` declaration-slot uses that consume an already obtaining subkind relation, `C.29` representations, `E.24.UK` durable U-kind admission, and `A.8`, `A.11`, `F.8`, and `F.5` when public kind governance is current.
+- **Coordinates with:** `C.3.2` judgments and extensions, `C.3.3` cross-context bridges, `A.2` when one local kind is a system-role kind, `A.6.5` declaration-slot uses that consume an already obtaining subkind relation, `C.29` representations, `E.24.UK` durable U-kind admission, and `A.8`, `A.11`, `F.8`, and `F.5` when public kind governance is current.
 - **Does not replace:** C.2.1 governance of affirmative, negative, or unresolved subkind assertions; a direct candidate-feature governor; classification assertion; kind declaration; context bridge; or public naming decision.
 
 ### C.3.1:End

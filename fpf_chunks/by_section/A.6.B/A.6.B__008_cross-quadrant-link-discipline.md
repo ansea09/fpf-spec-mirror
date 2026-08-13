@@ -6,12 +6,12 @@ section_id: "A.6.B:6"
 section_title: "Cross‑quadrant link discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.B/A.6.B__008_cross-quadrant-link-discipline.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.B — Boundary Norm Square (Laws / Admissibility / Deontics / Work‑Effects)"
   - "A.6.B:6 — Cross‑quadrant link discipline"
-line_start: 10522
-line_end: 10599
+line_start: 10737
+line_end: 10814
 dependencies:
   - "A.10"
   - "A.2.3"
@@ -49,7 +49,6 @@ keywords:
   - "SHOULD"
   - "SHOULD NOT"
   - "The key words MUST"
-  - "a duty or commitment D- claim MUST name its accountable subject"
   - "accountable norms and grants"
   - "actual exercise"
   - "and MAY"
@@ -69,7 +68,6 @@ keywords:
   - "institutional obtaining"
   - "laws"
   - "may"
-  - "neither claim text makes its object obtain. An E-* claim MUST name the work"
   - "not a duty.)"
   - "not normative"
   - "observable effects and evidence"
@@ -77,6 +75,7 @@ keywords:
   - "or (iii) assign responsibility or enforcement (that is D-*)"
   - "or MAY) as operators inside the law or definition itself"
   - "or observation that settles it and any evidence used for reliance"
+  - "responsibility"
   - "they report adjudicable results rather than obligations"
   - "while a grant D- claim MUST satisfy the participant and ground test in §8.4.1"
   - "“commits to”)"
@@ -103,9 +102,9 @@ These patterns are valid (and common). The square becomes operational when these
 
 When governance requires someone to comply with a gate:
 
-* `D-*`: “Role **MUST** satisfy or enforce `A-*`.”
+* `D-*`: “Actual bearer **MUST** satisfy or enforce `A-*`.”
 
-This separates **what is admissible** (A) from **who is responsible** (D).
+This separates **what is admissible** (A) from the separately instituted duty (D). If responsibility is also claimed, state its admitted direct domain predicate or exact missing governor rather than inferring it from the duty.
 
 ##### A.6.B:6.2.2 - (E → A) Evidence-for-gate linkage
 
@@ -119,7 +118,7 @@ This separates **gate semantics** (A) from **evidence semantics** (E).
 
 When governance requires evidence production, retention, or exposure or commits to measured properties:
 
-* `D-*`: “Role **MUST** retain or expose carrier class `C` used by `E-*` …”
+* `D-*`: “Actual bearer **MUST** retain or expose carrier class `C` used by `E-*` …”
 * `D-*`: “Provider **SHALL** meet `E-*` under exclusions …”
 
 This separates **obligation or commitment** (D) from **adjudication** (E).

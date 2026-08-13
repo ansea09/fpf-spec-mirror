@@ -6,12 +6,12 @@ section_id: "A.6.3.CR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CR/A.6.3.CR__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression"
   - "A.6.3.CR:intro — Intro"
-line_start: 14003
-line_end: 14008
+line_start: 14227
+line_end: 14232
 dependencies:
   - "A.15"
   - "A.6.2"

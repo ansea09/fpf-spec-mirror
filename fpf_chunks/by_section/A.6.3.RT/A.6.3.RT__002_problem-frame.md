@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:1 — Problem frame"
-line_start: 14357
-line_end: 14390
+line_start: 14581
+line_end: 14614
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ Plain starting vocabulary:
 | `representation delta` | What changed in shape, notation, salience, topology, ordering, interaction, or another representation factor. |
 | `loss and recoverability` | What becomes harder to see or is omitted, and how the user can recover it when it matters. |
 | `use and return` | What the target supports, what it does not support, and when and where to return to source material. |
-| `representation worker` | The person, team, or system doing the conversion. Recover exact role assignment, method, and dated Work only when production history matters; doing the work grants no authority over the represented claims. |
+| `representation worker` | The person, team, or system doing the conversion. Recover the exact system-role assignment, method, and dated Work only when production history matters; doing the work grants no authority over the represented claims. |
 
 **First useful move.** Name the content that must survive and the target representation; make the target; then attach a compact representation note: source material, intended user action, target representation and why, preserved content, representation/reasoning-medium delta, loss or unsupported additions, admissible and non-admissible use, and return trigger.
 

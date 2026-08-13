@@ -6,12 +6,12 @@ section_id: "F.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:2 — Problem"
-line_start: 93466
-line_end: 93478
+line_start: 94242
+line_end: 94254
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -42,11 +42,11 @@ keywords:
 Status vocabulary is useful because it is compact. It is dangerous because the same label often hides different objects and claims:
 
 1. **Modality collapse.** *Validated* is read as evidence standing, standard approval, requirement satisfaction, and release permission at once.
-2. **Target collapse.** The status does not say whether it concerns a claim, quantity, method description, standard edition, clause, role assignment, work result, publication, gate record, or another exact target.
+2. **Target collapse.** The status does not say whether it concerns a claim, quantity, method description, standard edition, clause, system-role assignment, work result, publication, gate record, or another exact target.
 3. **Result collapse.** A measurement, proof, conformance verdict, requirement-evaluation result, or assurance result is renamed as a generic status instead of retained under its direct governor.
 4. **Window and scheme loss.** Status is asserted without the effective ReferenceScheme, ClaimScope, conditions, edition, or relevance window that makes contradiction and freshness checkable.
 5. **Source and display collapse.** A badge, list row, dashboard tile, screenshot, certificate view, or generated summary becomes the status source or status use by visibility.
 6. **Design-run substitution.** Standard approval is read as runtime satisfaction, or runtime evidence as approval, without an exact interpretation relation and evaluation rule.
 7. **Bridge overread.** Shared spelling, a common family label, an F.17 row, an F.18 NameCard, or an F.9 Bridge is treated as the direct explanation, status application, or target result.
-8. **Episteme role drift.** A report, standard, model card, dashboard cell, or requirement document is said to hold an evidence/status/standard role rather than participate in an evidence-use, status-use, source-use, standard-use, or requirement-use relation.
+8. **Episteme use drift.** A report, standard, model card, dashboard cell, or requirement document is said to hold an “evidence role”, “status role”, or “standard role” rather than participate in an evidence-use, status-use, source-use, standard-use, or requirement-use relation.
 

@@ -6,12 +6,12 @@ section_id: "A.6.5:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:1 — Problem frame"
-line_start: 18925
-line_end: 18959
+line_start: 19164
+line_end: 19198
 dependencies:
   - "A.15.3"
   - "A.6.0"
@@ -36,17 +36,17 @@ keywords:
 
 **Primary EntityOfConcern.** One `SlotSpec` declaration in one exact `RelationSignature`.
 
-**First useful move.** Write the readable relation sentence, name its direct governing pattern, and identify the relation kind and relation-participant meanings. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. The angle brackets and ordered entries belong to that notation; they are not parts or participants of the world-side relation. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant; it does not turn the reference or SlotSpec into that participant. If the direct relation or its relation obtaining predicate is still unclear, stop and return to `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
+**First useful move.** Write the readable relation sentence, name its subject pattern, and identify the relation kind and relation-participant meanings. For every relation-participant meaning whose reusable typed declaration is current, add one SlotSpec to the `RelationSignature`, using the compact declaration notation `SlotSpec = <SlotKind, ValueKind, refMode>`. The angle brackets and ordered entries belong to that notation; they are not parts or participants of the world-side relation. `refMode` states how an assertion or relation-occurrence description episteme carrying a relation-participant designation denotes the actual participant; it does not turn the reference or SlotSpec into that participant. If the direct relation or its relation obtaining predicate is still unclear, stop and use `A.6.P` or `A.6.RSIR`; declaration notation cannot recover a missing ontology.
 
-**First-minute result.** For `Robot_7 holds InspectorRole`, use the admitted A.2.1 declaration. When reusable participant typing is current, its four SlotSpecs are `HolderSystemSlot : U.System / U.EntityRef`, `RoleValueSlot : U.Role / ByValue`, `RoleTaxonomyEpistemeSlot : U.Episteme / U.EpistemeRef`, and `EffectiveReferenceSchemeSlot : U.ReferenceScheme / ByValue`. A current assertion designates those participants and states its `AssignmentInterval` separately. Stop there unless later work must substitute a participant or distinguish this assignment episode from another.
+**First-minute result.** For `Robot_7 is assigned to InspectorSystemRole for this inspection shift`, declare a species under `U.SystemRoleAssignment`, such as `InspectionShiftAssignment`, and state one occurrence for the shift. When reusable participant typing is needed, give `HolderSystemSlot` the value kind `U.System` and entity-reference mode; give `AssignedSystemRoleKindSlot` the value domain `InspectorSystemRoleKindDomain` and by-value reference mode. Add another participant only when it changes the predicate or occurrence identity. An assertion designates the occurrence's participants and states its `assignmentInterval` separately. Stop there unless later work must substitute a participant, distinguish this assignment episode from another, or test an A.2.5 state condition.
 
-**What goes wrong if missed.** In `Robot_7 holds InspectorRole`, the holder system, the role value, the declaration-local SlotKind, and a participant designation carried by an assertion episteme can collapse into one word such as "role" or "holder". A later claim then cannot tell what may be substituted, what retains identity, or whether it refers to a system, a role value, an assignment occurrence, or an assertion about that occurrence.
+**What goes wrong if missed.** In the readable sentence `Robot_7 is assigned to InspectorSystemRole`, the holder system, the exact system-role kind, each declaration-local SlotKind, and each participant designation carried by an assertion episteme can collapse into one word such as *role* or *holder*. A later claim then cannot tell what may be substituted, what retains identity, or whether it refers to a system, a system-role kind, an assignment occurrence, an assignment-state relation, or an assertion about either occurrence.
 
-**What this buys.** Engineers retain a readable relation sentence while its load-bearing uses gain exact participant typing, unambiguous reference use, and a clear return to the pattern that governs predicate truth and occurrence identity.
+**What this buys.** Engineers retain a readable relation sentence while its load-bearing uses gain exact participant typing, unambiguous reference use, and a clear require the pattern that defines or constrains predicate truth and occurrence identity.
 
 **Not this pattern when.** Use `A.6.P` or `A.6.RSIR` first while the relation kind or its participants remain unresolved. Use `A.6.REL` for relation-occurrence identity, `A.6.0` for the containing `U.Signature`, `C.2.1` for an assertion or description, and `C.3` for a local kind needed by typed quantification. In every other case, select the pattern governing the direct relation before applying this slot discipline.
 
-Select A.6.5 by the engineering use, not by a domain catalogue: one already recovered direct relation needs reusable participant typing in assertions or occurrence descriptions. Its `RelationSignature` contains one SlotSpec for each participant meaning actually reused, with a declaration-local SlotKind, the participant's exact ValueKind, and one designation mode. The worked cases below are contrasts only; none supplies another relation's predicate or owner.
+Select A.6.5 by the engineering use, not by a domain catalogue: one already recovered direct relation needs reusable participant typing in assertions or occurrence descriptions. Its `RelationSignature` contains one SlotSpec for each participant meaning actually reused, with a declaration-local SlotKind, the participant's exact ValueKind, and one designation mode. The worked cases below are contrasts only; none supplies another relation's predicate or defining pattern.
 
 The following governed objects meet at this boundary and remain distinct:
 

@@ -6,12 +6,12 @@ section_id: "B.1.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__012_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:9 — Rationale"
-line_start: 35908
-line_end: 35913
+line_start: 36110
+line_end: 36115
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,5 +42,5 @@ keywords:
 
 System aggregation is the place where holonic thinking is most tempting and most useful. It is also where false parthood is easy: anything connected, measured, represented, or controlled can be drawn inside a system box.
 
-B.1.2 preserves the engineering payoff by coordinating exact direct-owner results for recognition, parthood, assembly, delimitation, crossings, function, bearer, characteristic, evidence, and description. It selects one ordinary A.22 structure only when their joint organization changes the named decision.
+B.1.2 preserves the engineering payoff by coordinating exact subject-pattern results for recognition, parthood, assembly, delimitation, crossings, function, bearer, characteristic, evidence, and description. It selects one ordinary A.22 structure only when their joint organization changes the named decision.
 

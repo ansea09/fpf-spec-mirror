@@ -6,12 +6,12 @@ section_id: "E.24.UK:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:7 — Conformance Checklist"
-line_start: 89644
-line_end: 89672
+line_start: 90355
+line_end: 90383
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -58,8 +58,8 @@ keywords:
 | `CC-E24UK-4` | A same-individual dependent kind states its root kind, direct membership predicate, and the implication from dependent to root membership for the same individual. An identity-dependent kind states an already governed two-place dependence relation to one exact root-kind individual plus every additional discriminator; a root reference alone never closes either case. |
 | `CC-E24UK-4a` | `U.MethodDescription` preserves C.2.1 identity and uses the exact stable A.3.2 membership condition: one admitted `U.Method` is the exact EntityOfConcern and at least one substantive claim concerns that method as a way of doing; mention-only content, use adequacy, C.29 representation, publication occurrence, publication form, `U.PresentationCarrier`, approval, and work do not establish membership. `U.Viewpoint` and `U.View` likewise preserve C.2.1 identity and use the exact stable E.17.0 membership predicates; structure selection, bundle membership, DescriptionContext selection, direct authoring, A.6.3 construction, form, carrier, publication, query execution, evaluation, and work do not substitute for those predicates. |
 | `CC-E24UK-4b` | `U.EpistemePublication` is rejected; Plain `published episteme` is relation-defined wording in a claim that states obtaining participation and identifies or permits recovery of the exact `EpistemePublicationRelation` occurrence. The Plain wording is neither a reference nor a designator and does not resolve. |
-| `CC-E24UK-4c` | Every retained public example resolves through one exact `E24UK-AR-*` admission-result reference whose row names the disposition, direct owner, named reliance, non-use boundary, and reopen condition. The row is a projection of the decision episteme, not the decision, kind, or evidence. |
-| `CC-E24UK-4d` | Under the effective reference scheme, `ViewpointId i` designates exact viewpoint episteme P and resolving `U.ViewpointRef r` that uses i yields P; i, r, and P remain distinct, neither designation nor resolution grants membership, E.17.0 owns membership, and `DescriptionContext` remains a separate one-viewpoint use qualification. |
+| `CC-E24UK-4c` | Every retained public example resolves through one exact `E24UK-AR-*` admission-result reference whose row names the disposition, subject pattern, named reliance, non-use boundary, and reopen condition. The row is a projection of the decision episteme, not the decision, kind, or evidence. |
+| `CC-E24UK-4d` | Under the effective reference scheme, `ViewpointId i` designates exact viewpoint episteme P and resolving `U.ViewpointRef r` that uses i yields P; i, r, and P remain distinct, neither designation nor resolution grants membership, E.17.0 is the pattern for membership, and `DescriptionContext` remains a separate one-viewpoint use qualification. |
 | `CC-E24UK-4e` | Bootstrap co-decision `E24-CO-UONTIC-BOOT-01` returns distinct outputs `E24-OS-UONTIC-BOOT-01` and `E24UK-AR-UONTIC-BOOT-01` without presupposing an admitted `U.Ontic` or making the schema, pattern, decision episteme, or kind an ontology-unit instance. Any prerequisite kind without a resolvable accepted result remains in the open table. |
 | `CC-E24UK-4f` | Base `U.Structure` identity is context-independent and comes only from the four A.22 discriminators. `BoundedModelUseStructure` and A.22's conditional crossing-analysis specialization are same-individual dependent predicates over an already identified structure and add no second root identity. Only the bounded-model-use name currently has an F.17 public row. An A.2.6 scope or membership outcome affects identity only through an exact applied constraint that refers to it; the bare value or outcome is not a discriminator. A context, system, team, subsystem, label, scope, method, work, result, description, view, representation, publication, or use alone creates neither the base structure nor specialization membership. |
 

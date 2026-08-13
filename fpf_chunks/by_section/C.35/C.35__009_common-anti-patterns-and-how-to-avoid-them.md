@@ -6,12 +6,12 @@ section_id: "C.35:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 67973
-line_end: 67983
+line_start: 68311
+line_end: 68321
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -65,6 +65,6 @@ keywords:
 | Pareto point as admission | A Pareto point shows trade-off position under chosen criteria, not architecture adequacy across selected structures and bearers. | Name search space, criteria refs, constraints, preserved and lost structure, bearer boundary, and eval return; then handle candidate use under `C.32`. |
 | One output as reusable-generator governance | A single generated artifact does not describe the method, mechanism suite, dataset, prompt policy, or refresh process that produced a reusable generator. | Keep the one-case output in C.35 and open `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains the reusable-generator claim. |
 | Cluster as module architecture | A DSM or MDM cluster can preserve co-change or dependency pressure while losing functional bearer semantics and interface substitutability. | Handle modularity and reuse claims under `C.31`; handle candidate palette use under `C.32`; keep C.35 for admission of the produced cluster carrier. |
-| Transformation output as feasibility proof | A graph grammar or model-transformation Method can return a useful carrier while neither proving an actual `U.Transformation` nor connecting performed Work to the change, production, manufacturing, deployment, organizational, or method bearers. | Record the Method, exact Work and attribution when current, carrier, transformation trace, independently selected source and described structures, preserved structure, lost structure, and bearer boundary. Cite A.3.4 plus the exact direct/local Work-to-change or A.15.PROD claim for any actual-change assertion; otherwise keep that branch absent. Use C.34 for preservation and the rule that defines or tests feasibility. |
+| Transformation output as feasibility proof | A graph grammar or model-transformation Method can return a useful carrier while neither proving an actual `U.Transformation` nor connecting performed Work to the change, production, manufacturing, deployment, organizational, or method bearers. | Record the Method, Work and attribution when current, carrier, transformation trace, independently selected source and described structures, preserved structure, lost structure, and bearer boundary. Cite A.3.4 plus the Work-to-change or A.15.PROD claim that establishes any actual change; otherwise keep that branch absent. Use C.34 for preservation and the rule that defines or tests feasibility. |
 | Bypassing eval and measurement governance | A search score, benchmark, ablation, or validation trace can look like proof of architecture quality. | Handle readings under `C.16`, Q-bundle use to `C.25`, eval programs and eval results to `C.32.ACE`, and decisions to `C.32.PAD`. |
 

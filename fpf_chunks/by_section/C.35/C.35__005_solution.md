@@ -6,12 +6,12 @@ section_id: "C.35:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:4 — Solution"
-line_start: 67915
-line_end: 67937
+line_start: 68253
+line_end: 68275
 dependencies:
   - "A.15.1"
   - "A.15.PROD"
@@ -68,11 +68,11 @@ Read the note as an admission check between generation and architecture work. Th
 Work in this order:
 
 1. Name the grounded architecture question and selected source structure refs. If no grounded architecture question exists, require `C.30`, `C.32.P2S`, or `C.32`.
-2. Name the generation or discovery Method and search or query space: DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method. When actual performed generation or discovery is part of the claim, separately name the dated `U.Work`, its exact A.15.1/F.6 basis, and the direct production, discovery-use, or work-to-change claim on which this note relies.
-3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace. Naming it as produced does not by itself establish which Work produced it, entity-identity inception, production completion, or a relation to an actual transformation; cite the exact direct or local claim when any of those assertions is current.
+2. Name the generation or discovery Method and search or query space—for example, a DSM, MDM, MBSE query, graph grammar, model transformation, LLM proposal, NAS, DSE, QD archive, code-agent probe, simulation, benchmark, or source-mining method. When actual performed generation or discovery is part of the claim, separately name the dated `U.Work`, keep all facts required by A.15.1, A.2.1, and F.6 recoverable, and name the production, discovery-use, or work-to-change claim on which this note relies.
+3. Separate produced carrier or description from described structure. The carrier may be a diagram, table, graph, query result, cluster, model file, prompt output, or benchmark trace. Naming it as produced does not by itself establish which Work produced it, entity-identity inception, production completion, or a relation to an actual transformation; cite the predicate or local claim that establishes any such assertion.
 4. State preserved structure, lost structure, constraints, source-label recovery, observation and uncertainty refs, validation or comparison refs, and transformation trace when present. If an actual change is claimed, also cite the independently identified A.3.4 `U.Transformation`; the trace and the selected A.22 structures remain separate from that occurrence.
 5. State candidate-admission condition. Use `C.32` only when the described structure can be used as a candidate configuration or candidate-generation input under selected structures, architecture characteristics, constraints, gains, losses, and carrier-admission return.
-6. State bearer or realization boundary. Use `bearerFeasibilityQuestionRef?` only when a concrete software, physical, organizational, method, role, or epistemic bearer-feasibility rule has opened that separate question.
+6. State bearer or realization boundary. Use `bearerFeasibilityQuestionRef?` only when a concrete software, physical, organizational, Method, or epistemic bearer-feasibility rule has opened that separate question. If the source says `role`, recover its actual bearer or relation through `E.10.ROLE`; a local kind or assignment bears no function merely by form. Name the function or feasibility predicate, conditions, and subject pattern, or return `missing-governor`.
 7. Use `G.5` for selected-set result declaration, `C.18` and `C.19` for archive, front, and pool policy, `E.17` for a source-backed publication face and source return, and `E.24.PUB` for the publication occurrence and audience availability.
 8. Handle eval programs and eval results under `C.32.ACE`; handle measurement under `C.16`; handle mathematical-lens use under `C.29`; handle descriptions and views under `C.30.AD` or `C.30.ASV`; handle decisions and ADR projections under `C.32.PAD` or `C.32.ADR`.
 9. Handle reusable-generator or mechanism-suite claims with `E.20`, `G.1`, `G.10`, `G.11`, or another pattern that defines or constrains the generator claim, only after that reusable-generator object is current.

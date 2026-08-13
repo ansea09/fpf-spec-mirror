@@ -6,13 +6,15 @@ section_id: "A.11:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:1.0 — Problem"
-line_start: 23108
-line_end: 23111
+line_start: 23361
+line_end: 23364
 dependencies:
+  - "A.6.P"
+  - "A.6.RCD"
   - "A.8"
   - "C.3"
   - "E.24.CD"
@@ -30,5 +32,5 @@ keywords:
 
 ### A.11:1.0 - Problem
 
-A useful project word, slot-position label, publication form, diagram element, mathematical lens, or repeated source term can start acting like a durable FPF kind before the governed object and direct governing pattern are recovered. The problem is to decide whether the candidate preserves an action-facing distinction that composition cannot carry, or whether it should remain a local name, slot value, relation, record, publication form, or lens-use claim.
+A useful project word, slot-position label, publication form, diagram element, mathematical lens, or repeated source term can start acting like a durable FPF kind before the governed object and subject pattern are recovered. The problem is to decide whether the candidate preserves an action-facing distinction that composition cannot carry, or whether it should remain a local name, slot value, relation, record, publication form, or lens-use claim.
 

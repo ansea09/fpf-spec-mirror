@@ -6,12 +6,12 @@ section_id: "B.2.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:1 — Problem Frame"
-line_start: 37410
-line_end: 37415
+line_start: 37620
+line_end: 37625
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,5 +48,5 @@ keywords:
 
 Emergence-family wording is overloaded. It can point to a new system whole, an episteme whole, a capability envelope, a characteristic crossing, an architecture residual, a mathematical scale expression, a benchmark artifact, a publication claim, or a collection-as-whole question.
 
-It asks which exact EntityOfConcern, world-side or claim-side fact, and direct governing pattern are current, and whether the same whole still carries the claim.
+It asks which exact EntityOfConcern, world-side or claim-side fact, and subject pattern are current, and whether the same whole still carries the claim.
 

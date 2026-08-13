@@ -6,12 +6,12 @@ section_id: "D.2:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__010_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:6 — Conformance Checklist"
-line_start: 68725
-line_end: 68733
+line_start: 69091
+line_end: 69099
 dependencies:
   - "A.1"
   - "A.15"
@@ -33,7 +33,7 @@ keywords:
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | CC-D2-1 | Declared levels or scopes come from the situation and are named by value. | Prevents fixed moral ladders and false `U.Level`. |
-| CC-D2-2 | Affected holons, epistemes, role assignments, method refs, work refs, consequences, and evidence are named when current. | Keeps the entry usable for the next owner. |
-| CC-D2-3 | `nextOwnerRef` is `D.3`, `D.5`, `C.30.ILC`, or another direct owner named by value. | Keeps D.2 as entry recognition, not conflict solver. |
-| CC-D2-4 | Mathematical scale, threshold, optimization, or Pareto reasoning uses `C.29` or the direct measurement owner. | Prevents math wording from becoming ethics ontology. |
+| CC-D2-2 | Affected holons, epistemes, Methods, actual Work, and consequences are named when current. Role wording is recovered through `E.10.ROLE`; a local kind and a System-classification judgment remain separate. Every assignment recovers its directly declared species and obtaining occurrence. Participation or affected-party status, responsibility, commitment, permission, and authority each use their own direct relation or exact `missing-governor`. | Keeps the entry usable without making assignment imply participation or responsibility. |
+| CC-D2-3 | `nextSubjectPatternLocator` is `D.3`, `D.5`, `C.30.ILC`, or another subject pattern named by value. | Keeps D.2 as entry recognition, not conflict solver. |
+| CC-D2-4 | Mathematical scale, threshold, optimization, or Pareto reasoning uses `C.29` or the direct measurement pattern. | Prevents math wording from becoming ethics ontology. |
 

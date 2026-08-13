@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 79690
-line_end: 79705
+line_start: 80351
+line_end: 80366
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -41,6 +41,6 @@ keywords:
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.
 - **E.24.PUB** defines form expression, carrier bearing, publication availability, and recurrence. **C.29** defines representations and correspondence; neither makes the represented world-side relation obtain.
-- **A.1, A.2.1, A.3.1, A.3.2, and A.15.1** distinguish actors, role assignments, methods, method descriptions, and Work. Use **A.15.PROD** only for a separately needed local inception or completion claim.
+- **A.1, A.2, A.2.1, A.3.1, A.3.2, A.15.1, and F.6** distinguish performer Systems, local system-role kinds, exact assignments, Methods, MethodDescriptions, Work, and attribution. Responsibility remains under its direct predicate. Use **A.15.PROD** only for a separately needed local inception or completion claim.
 - **A.10, G.6, and B.3** retain provenance and assurance. Use **A.6.RCD** when no pattern defines a needed cross-view or use relation.
 

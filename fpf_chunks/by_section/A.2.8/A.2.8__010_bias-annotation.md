@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Object)"
-section_id: "A.2.8:6"
-section_title: "Bias-Annotation"
+pattern_title: "U.Commitment (Deontic Commitment Relation)"
+section_id: "A.2.8:7"
+section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__010_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-  - "A.2.8:6 — Bias-Annotation"
-line_start: 6415
-line_end: 6424
+  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
+  - "A.2.8:7 — Bias Annotation"
+line_start: 6616
+line_end: 6626
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -22,34 +23,30 @@ dependencies:
   - "A.2.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.RCD"
   - "A.7"
-  - "E.8"
-  - "U.PromiseContent"
-  - "U.Work"
+  - "C.3"
+  - "F.6"
 keywords:
-  - ") but makes the structure explicit"
-  - "BCP‑14 (RFC 2119/8174)"
-  - "adjudication hooks"
-  - "are cues for the modality field after the deontic relation is recovered"
-  - "by themselves"
-  - "commitment"
-  - "deontics"
-  - "evidenceRefs"
-  - "modality normalization"
+  - "actual bearer"
+  - "constitutive rule"
+  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "individual duty"
+  - "instituting basis"
   - "obligation"
   - "prohibition"
   - "recommendation-as-duty"
-  - "scope and validity window"
-  - "they are not the governed object of this pattern"
+  - "validity interval"
 ---
 
-### A.2.8:6 - Bias-Annotation
+### A.2.8:7 - Bias Annotation
 
-Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Kernel universal** (any place FPF needs deontic commitment relations).
-
-* **Gov bias:** prioritizes accountable subjects and adjudication hooks; may increase authoring overhead.
-* **Arch bias:** pushes reference-by-ID and explicit scope/window to preserve evolvability and reduce drift.
-* **Onto/Epist bias:** enforces “descriptions don’t promise”; commitments name accountable subjects.
-* **Prag bias:** aligns with common spec-language practice (RFC keywords) but makes the structure explicit.
-* **Did bias:** favors a small record that can be taught and linted.
+| Bias risk | Failure | Repair |
+| --- | --- | --- |
+| Record-first bias | A filled form is treated as an obtaining relation. | Test the direct predicate; keep the record as an assertion. |
+| Office-label bias | A role, office, or assignment becomes the bearer. | Recover the actual system or party and use the kind or assignment only as a rule ground. |
+| Legal-form bias | A maximal legal-policy schema is imposed on every duty. | Keep the direct participants minimal and add grounds or assurance only when the current claim needs them. |
+| Evidence-as-constitution | An audit trail is treated as what creates the duty. | Keep support and institution separate. |
+| Responsibility overreach | Duty is read as ownership or accountability. | Apply the direct responsibility predicate or return its missing governor. |
+| Keyword bias | `MUST`, `SHALL`, `MAY`, or `responsible` selects an ontology by spelling. | Recover the claim first, then select the exact relation or ordinary non-use. |
 

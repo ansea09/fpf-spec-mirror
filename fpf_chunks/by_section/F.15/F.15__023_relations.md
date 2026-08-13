@@ -6,12 +6,12 @@ section_id: "F.15:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__023_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:16 — Relations"
-line_start: 95453
-line_end: 95464
+line_start: 96237
+line_end: 96248
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,11 +52,11 @@ keywords:
 
 * **F.17 and F.18.** Supply exact scheme-based cells, basis relations/descriptions, NameCards, selected designations, rows, and editions. F.15 checks them and never selects or publishes a name.
 * **F.14, F.8, and F.13.** Govern anti-explosion, mint-or-reuse decisions, and lineage before F.15 checks the resulting exact refs.
-* **F.4 and exact role patterns.** Govern role-description epistemes, role values, role relations, assignments, and work claims that the harness cannot absorb.
+* **F.4 and exact system-role patterns.** Define system-role-kind-description epistemes, local system-role kinds, relations among them, assignments, and work claims that the harness cannot absorb.
 * **F.9, C.2.1, A.10, and B.3.** Govern actual Bridge occurrences, separate bounded-use claims, evidence reliance, and assurance. Descriptions, Cards, `CL`, and witnesses are not relation truth or use authority.
-* **F.10 or current direct status owners.** Govern status family/value/target/scope/window/source/use claims.
+* **F.10 or the applicable status pattern.** Use it for status family, value, target, scope, window, source, and use claims.
 * **A.1.1 and A.22.** Supply an optional independently selected bounded-model-use Structure only when its organization changes the checked use; description and membership remain separate.
-* **A.6.1 and A.15.1.** Govern actual rule application and dated assessment Work.
+* **A.15.1, F.6, and A.6.1.** Define the System–Method–Work facts, Work attribution, and exact rule application required only when those identities are asserted. Ordinary checking need not be admitted as `U.Work`.
 * **E.24.PUB and G.11.** Govern publication occurrence/form/carrier and currentness separately from the checked record.
 * **C.34.** Supplies architecture-specific preservation or equivalence adequacy when exact selected architecture structures and losses are the live subject; F.15 carries only the finite regression check and result refs.
 

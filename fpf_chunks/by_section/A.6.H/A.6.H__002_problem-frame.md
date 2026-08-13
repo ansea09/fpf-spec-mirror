@@ -6,20 +6,39 @@ section_id: "A.6.H:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:1 — Problem frame"
-line_start: 21117
-line_end: 21133
+line_start: 21370
+line_end: 21386
 dependencies:
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.RCD"
   - "A.7"
   - "B.1.1"
   - "B.1.4"
+  - "B.1.5"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.16"
+  - "C.16.P"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
 keywords:
   - "boundary"
   - "completeness"
@@ -29,7 +48,7 @@ keywords:
   - "order/time"
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
-  - "role-method-work"
+  - "system-role–Method–Work distinctions"
   - "wholeness"
 ---
 
@@ -46,7 +65,7 @@ Natural language compresses several different engineering questions into the sam
 - Is “complete” about performed Work, capability, specification, evidence, or another exact coverage claim?
 - Is “integrity” a measured characteristic, an assurance claim, or a claim that an assembled entity remains one whole?
 
-Those questions have different participants, predicates, and owners. A.6.H does not answer them by creating a common wholeness object. It keeps the source wording readable while making the load-bearing claims exact.
+Those questions have different participants, predicates, and subject patterns. A.6.H does not answer them by creating a common wholeness object. It keeps the source wording readable while making the load-bearing claims exact.
 
-A word is load-bearing here when a requirement, invariant, interface statement, architecture choice, model relation, decision, test oracle, assurance use, or downstream action depends on its interpretation. `E.10` owns shared wording-use discovery. A.6.H begins only after the current wholeness-family claim has been selected by value.
+A word is load-bearing here when a requirement, invariant, interface statement, architecture choice, model relation, decision, test oracle, assurance use, or downstream action depends on its interpretation. `E.10` is the pattern for shared wording-use discovery. A.6.H begins only after the current wholeness-family claim has been selected by value.
 

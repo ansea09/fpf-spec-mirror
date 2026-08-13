@@ -6,12 +6,12 @@ section_id: "E.19:End"
 section_title: "E.19:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__017_e-19-end.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:End — E.19:End"
-line_start: 86391
-line_end: 86392
+line_start: 87069
+line_end: 87070
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,14 +27,12 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities (e.g"
-  - "and (if needed) reference them from CC items"
+  - "MUST NOT modify modeled-world entities such as Earth"
+  - "a system-role kind"
+  - "an assignment"
   - "inside the predicate)"
+  - "or a holon"
   - "where a non-deontic Invariant: predicate is required)"
-  - "“Earth”"
-  - "“RoleAssignment”"
-  - "“Role”"
-  - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
 ### E.19:End

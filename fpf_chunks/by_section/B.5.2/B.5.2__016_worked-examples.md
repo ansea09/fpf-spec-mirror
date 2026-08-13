@@ -6,12 +6,12 @@ section_id: "B.5.2:15"
 section_title: "Worked Examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__016_worked-examples.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:15 — Worked Examples"
-line_start: 40468
-line_end: 40505
+line_start: 40679
+line_end: 40716
 dependencies:
   - "A.10"
   - "A.16"

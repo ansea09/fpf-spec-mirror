@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:6"
 section_title: "Optional anti-explosion record"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__007_optional-anti-explosion-record.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:6 — Optional anti-explosion record"
-line_start: 94771
-line_end: 94800
+line_start: 95547
+line_end: 95576
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,16 +31,21 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
 ### F.14:6 - Optional anti-explosion record
@@ -55,12 +60,12 @@ AntiExplosionControlRecord:
   CandidateExpressionRefs:
   RecoveredGovernedValueRefs:
   GovernedValueKindRefs:
-  DirectGoverningPatternRefs:
+  SubjectPatternLocators:
   ExistingDesignationOrAliasRefs:
   LocalSenseRefsOrCellRefs?:
   LocalSenseBasisRelationRefs?:
   ModelUseStructureRef?: only when an independently selected structure changes this use
-  ExactRoleRelationRefs?:
+  ExactSystemRoleKindRelationRefs?:
   AssignmentOrWorkRefs?:
   StatusFamilyOrWindowRefs?:
   QualifierOrDirectPatternRefs?:
@@ -71,5 +76,5 @@ AntiExplosionControlRecord:
   ReopenTrigger:
 ```
 
-The record describes the control result. It creates no governed value, naming decision occurrence, designation, local sense, Bridge, row, publication, evidence, role, status, or Work. A field is omitted when its object is not independently current; filling the record is never a completeness goal.
+The record describes the control result. It creates no governed value, naming decision occurrence, designation, local sense, Bridge, row, publication, evidence, system-role kind, status, assignment, or Work. A field is omitted when its object is not independently current; filling the record is never a completeness goal.
 

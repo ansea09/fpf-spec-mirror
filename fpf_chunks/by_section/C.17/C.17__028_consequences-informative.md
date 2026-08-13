@@ -6,12 +6,12 @@ section_id: "C.17:25"
 section_title: "Consequences (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__028_consequences-informative.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:25 — Consequences (informative)"
-line_start: 49232
-line_end: 49242
+line_start: 49484
+line_end: 49494
 dependencies:
   - "A.1"
   - "A.10"

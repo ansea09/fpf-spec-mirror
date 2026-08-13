@@ -6,12 +6,12 @@ section_id: "C.32.ADR:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADR/C.32.ADR__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.ADR — Architecture Decision Record Projection"
   - "C.32.ADR:4 — Solution"
-line_start: 67003
-line_end: 67044
+line_start: 67336
+line_end: 67377
 dependencies:
   - "A.10"
   - "A.15"
@@ -74,7 +74,7 @@ The following section functions are required unless the decision relation states
 | Rationale | Why this outcome is acceptable now, including accepted losses and protected guardrails. |
 | Consequences | Expected effects on structures, methods, teams, costs, risks, evidence, operation, and later change. |
 | Method-use instruction | Required style, pattern use, method description, or work practice, when the decision changes developer work. |
-| Work split | Architect-owned selected structures, developer-owned refinement, readiness or gate exits, and source-return condition. |
+| Work split | Prospective allocation or instruction content through the plan, policy, commitment, permission, decision, responsibility, authority, or other direct relation that actually states it; otherwise the exact missing governor. Also show readiness or gate exits and the source-return condition. Professional titles are audience cues, not ownership predicates. |
 | Confirmation or eval exit | How the decision can be checked, evaluated, monitored, or found violated. |
 | Publication boundary | Links to architecture descriptions, views, evidence, assurance, and source material without making the ADR the source object. |
 

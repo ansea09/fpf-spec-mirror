@@ -6,12 +6,12 @@ section_id: "C.16.P:12.1"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__015_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:12.1 — Rationale"
-line_start: 47653
-line_end: 47656
+line_start: 47898
+line_end: 47901
 dependencies:
   - "A.10"
   - "A.15"
@@ -41,5 +41,5 @@ keywords:
 
 ### C.16.P:12.1 - Rationale
 
-The rationale for C.16.P is narrow: compact characterization wording is useful, but FPF cannot let compact words decide the kind of claim. The pattern restores the bearer, characteristic, scale, value or score construction, proxy relation, threshold rule, admissible use, and governing pattern before the text is allowed to support measurement, comparison, assurance, gate, decision, causal-use, benchmark, or mathematical-lens work.
+The rationale for C.16.P is narrow: compact characterization wording is useful, but FPF cannot let compact words decide the kind of claim. The pattern restores the bearer, characteristic, scale, value or score construction, proxy relation, threshold rule, admissible use, and subject pattern before the text is allowed to support measurement, comparison, assurance, gate, decision, causal-use, benchmark, or mathematical-lens work.
 

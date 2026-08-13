@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:6 — Bias-Annotation"
-line_start: 17302
-line_end: 17309
+line_start: 17530
+line_end: 17537
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "F.18"
@@ -41,27 +42,24 @@ keywords:
   - "API"
   - "RelationSignature"
   - "SlotSpec"
-  - "actual participant"
-  - "assertion or description designation"
+  - "ambiguous role wording"
   - "direct relation participant"
-  - "exact operation application and binding"
   - "interface"
-  - "operation argument or result declaration"
+  - "operation declaration and binding"
   - "participant meaning"
   - "port"
   - "reduced-use source label"
   - "relation-signature-interface-role-slot recovery"
-  - "representation position and correspondence"
-  - "role"
-  - "role assignment"
-  - "shadow ontology"
+  - "representation position"
+  - "system-role assignment"
+  - "system-role kind"
 ---
 
 ### A.6.RSIR:6 - Bias-Annotation
 
-This pattern has a relation-cluster bias because it sits in A.6. It mitigates that bias by stopping as soon as the direct governing pattern is clear.
+This pattern has a relation-cluster bias because it sits in A.6. It mitigates that bias by stopping as soon as the subject pattern is clear.
 
 It has an interface and software-language stress case because API, endpoint, protocol, and interface wording often enters from software. The pattern deliberately keeps the recovery general: architecture interfaces, physical ports, functional ports, service-access descriptions, and publication forms are all possible, and none is selected by word choice alone.
 
-It resists semio-bias by keeping descriptions, publications, records, reports, standards, and source labels under the patterns that govern those objects and uses: `C.2.1`, `E.17`, `C.2.P.DR`, `A.10`, `B.3`, `F.10`, `C.28`, `E.10`, or `E.10.ARCH` when those objects or uses are current. A source label may help recognition; its presence is not evidence that the denoted object is the current EntityOfConcern or that a proposed action is admissible.
+It resists semio-bias by keeping descriptions, publications, records, reports, standards, and source labels under the patterns that define or constrain those objects and uses: `C.2.1`, `E.17`, `C.2.P.DR`, `A.10`, `B.3`, `F.10`, `C.28`, `E.10`, or `E.10.ARCH` when those objects or uses are current. A source label may help recognition; its presence is not evidence that the denoted object is the current EntityOfConcern or that a proposed action is admissible.
 

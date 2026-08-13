@@ -6,12 +6,12 @@ section_id: "B.1.6:4"
 section_title: "Ledger Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__007_ledger-discipline.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:4 — Ledger Discipline"
-line_start: 36939
-line_end: 36956
+line_start: 37147
+line_end: 37164
 dependencies:
   - "A.1"
   - "A.10"
@@ -59,7 +59,7 @@ The ledger is a replay surface, not the aggregation's ontic owner. For every res
 - resource Characteristic, Scale, Unit, polarity when relevant, and accounting boundary;
 - exact measured or estimated subject, time window, and work occurrence to which the value applies;
 - C.16 measurement work and measurement-result episteme, including model, calibration, uncertainty, and provenance refs when current;
-- exact A.15.1 Work-temporal, episode, operational-part, partition, or overlap relations—and any separately current non-Work carrier `PhaseOf`—independently established by their direct owners;
+- exact A.15.1 Work-temporal, episode, operational-part, partition, or overlap relations—and any separately current non-Work carrier `PhaseOf`—independently established by their subject patterns;
 - shared resource, meter, person, tool, stock, data, port, or time-window overlap and the exact deduplication rule;
 - conversions, normalizations, imputations, and their declared method/policy refs;
 - the aggregation policy edition and actual aggregation work occurrence;

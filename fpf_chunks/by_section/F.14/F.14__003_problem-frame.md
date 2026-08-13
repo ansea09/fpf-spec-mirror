@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:2 — Problem frame"
-line_start: 94723
-line_end: 94735
+line_start: 95499
+line_end: 95511
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,24 +31,29 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
 ### F.14:2 - Problem frame
 
 Name explosion usually begins with a helpful shortcut:
 
-1. **Hybrid-role shortcut.** `RequestApproverRole`, `DevOpsEngineerRole`, or `IncidentLeadOnCall` is minted because several roles often appear together.
-2. **Modifier-as-role shortcut.** `NightOperatorRole`, `RemoteOperatorRole`, or `APIApproverRole` is minted because a qualifier is visible.
+1. **Hybrid-system-role shortcut.** `RequestApproverSystemRole`, `DevOpsEngineerSystemRole`, or `IncidentLeadOnCall` is minted because several local system-role kinds often appear together.
+2. **Modifier-as-system-role shortcut.** `NightOperatorSystemRole`, `RemoteOperatorSystemRole`, or `APIApproverSystemRole` is minted because a qualifier is visible.
 3. **Status-as-type shortcut.** `AtRisk`, `Grace`, `PreValidated`, or `TemporarilyBreached` is minted as if time stance or status value were a new essence.
 4. **Source-suffix shortcut.** `EvidenceRole`, `RequirementRole`, `AccessRole`, or `ProviderRole` is minted because a source tradition uses role-like language.
 5. **Prestige shortcut.** `SeniorReviewer` or `LeadApprover` is minted to bypass a separation, capability, or assurance question.

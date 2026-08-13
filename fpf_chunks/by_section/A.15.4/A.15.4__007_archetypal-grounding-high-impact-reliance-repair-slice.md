@@ -6,12 +6,12 @@ section_id: "A.15.4:3.2"
 section_title: "Archetypal Grounding - High-Impact Reliance-Repair Slice"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__007_archetypal-grounding-high-impact-reliance-repair-slice.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:3.2 — Archetypal Grounding - High-Impact Reliance-Repair Slice"
-line_start: 25888
-line_end: 25983
+line_start: 26086
+line_end: 26181
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"
@@ -103,10 +105,10 @@ A.15.4 local repair record:
       DependencyOnAttemptedUse: the current lab policy separately requires work-entry readiness; readiness does not create the grant or gate decision
     - EntryId: B17-ASSIGNMENT
       SubjectPatternLocator: A.2.1
-      DirectObjectKind: U.RoleAssignment occurrence
+      DirectObjectKind: B17EditorSystemRoleAssignment, a direct species of U.SystemRoleAssignment
       ProjectSideObjectRef: B17-EditorAssignment
       RequiredPostureOrCurrentness: obtains, names the intended performer as holder, and covers the proposed Work window
-      DependencyOnAttemptedUse: identifies who may perform the intended Work under the beneficiary branch
+      DependencyOnAttemptedUse: identifies the intended performer and the assignment context required by the beneficiary branch and F.6 attribution; it establishes neither capability, permission, authority, responsibility, nor Work
     - EntryId: B17-PROTOCOL-EVIDENCE
       SubjectPatternLocator: A.10
       DirectObjectKind: claim-bound evidence-provenance relation

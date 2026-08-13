@@ -6,12 +6,12 @@ section_id: "C.27:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:9 — Consequences"
-line_start: 56652
-line_end: 56705
+line_start: 56926
+line_end: 56979
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -75,7 +75,7 @@ Part G, benchmark, SoTA, or public method claim:
 
 - sampling window, cadence, or time base changes;
 - effort envelope or resource budget changes;
-- intervention actor reference, role-assignment availability, performer eligibility, authority, or holder availability changes;
+- claimed intervention applier, exact system-role-assignment availability, performer eligibility, independently obtaining authority, or holder availability changes;
 - inertia or resistance proxy changes: new tooling, team, queue topology, domain,
   work mix, constraints, or service environment;
 - metric becomes a target, incentive, gate, dashboard, or public comparison;

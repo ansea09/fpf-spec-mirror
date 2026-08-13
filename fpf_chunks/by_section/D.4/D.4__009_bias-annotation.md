@@ -6,12 +6,12 @@ section_id: "D.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__009_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:5.1 — Bias-Annotation"
-line_start: 69000
-line_end: 69008
+line_start: 69402
+line_end: 69410
 dependencies:
   - "A.10"
   - "A.20"
@@ -34,6 +34,6 @@ keywords:
 | --- | --- | --- |
 | Conflict map becomes decision | A D.3 structure is treated as if it already selected an action. | Name the D.4 move and its admissible use. |
 | Assurance becomes permission | Technical assurance is read as ethical authorization. | Keep assurance as an assurance or evidence relation and record the ethical use separately. |
-| Formula becomes ethics | Allocation, optimization, or scoring is treated as the ethical decision. | Use `C.29` for the mathematical lens and keep D.4 responsible for bounded ethical use. |
-| Residual harm disappears | Work proceeds while residuals and responsibility-bearing assignments stay unnamed. | Name accepted residuals, role assignments, evidence limits, and return condition. |
+| Formula becomes ethics | Allocation, optimization, or scoring is treated as the ethical decision. | Use `C.29` for the mathematical lens; use D.4 to record the bounded ethical use without making the pattern an agent or responsible party. |
+| Residual harm disappears | Action proceeds while residuals, admitted decision or repair Systems, and direct responsibility relations stay unnamed. | Name accepted residuals, prospective plans, commitments, permissions, authority and assignment requirements, the admitted direct responsibility predicates or exact missing governors, evidence limits, and return condition. Add the complete Work-attribution basis only when performance has occurred. |
 

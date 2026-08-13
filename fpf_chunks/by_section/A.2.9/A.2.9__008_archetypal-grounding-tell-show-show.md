@@ -6,12 +6,12 @@ section_id: "A.2.9:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__008_archetypal-grounding-tell-show-show.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 7007
-line_end: 7082
+line_start: 7215
+line_end: 7290
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "F.6"
   - "U.Method"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -39,7 +41,7 @@ keywords:
 
 #### A.2.9:5.1 — Tell (universal rule)
 
-When governance or gating depends on “someone said/did X”, identify **that saying/doing** as actual Work `SA : U.SpeechAct`, its exact enacted `U.Method`, performer System, and obtaining assignment. Add a `SpeechActRecord` only to state relied-on claims about it, and keep any MethodDescription, optional channel, utterance text, and carriers separate. If the occurrence creates obligations, recommendations-as-duty, or prohibitions, cite explicit `U.Commitment` objects; if it creates strong permission, cite an exact `GrantedPermissionRelation@Context`. The act institutes neither effect without an exact current policy or procedure and the effect owner's independently satisfied conditions.
+When governance or gating depends on “someone said or did X”, identify that saying or doing as Work `SA : U.SpeechAct`, its enacted `U.Method`, performer System, covering assignment occurrence, and declared assignment species. Add a `SpeechActRecord` only to state relied-on claims about it, and keep any MethodDescription, optional channel, utterance text, and carriers separate. If the occurrence institutes an obligation, recommendation-as-duty, or prohibition, cite a separately obtaining `U.Commitment`; if it institutes strong permission, cite a `GrantedPermissionRelation@Context`. The act institutes neither effect without an applicable policy or rule and independently satisfied conditions for that effect.
 
 #### A.2.9:5.2 — Show #1 (system archetype: change-control approval gates a deployment)
 
@@ -49,12 +51,12 @@ When governance or gating depends on “someone said/did X”, identify **that s
 **Conformant modeling sketch.** The first line names the actual communicative Work. The record then states claims about that occurrence; the assignment, Method, recognition classification, policy and grant must each obtain independently.
 
 * Actual occurrence: `SA-Approve-4711 : U.SpeechAct`.
-* Exact performer and assignment: admitted system `CAB_Chair_A` performs `SA-Approve-4711` under obtaining `CAB_Chair_A_ApproverAssignment_2026 : U.RoleAssignment`. That assignment independently exposes role value `ApproverRole`, role-taxonomy episteme `ChangeControlRoles_v3`, effective scheme `ChangeControlReferenceScheme_2026`, and an extent covering the act. The assignment grounds attribution; it does not act.
+* Performer and assignment: `ChangeControlApproverAssignment` is a declared `U.SystemRoleAssignment` species. It defines the holder and assigned-kind participant meanings, predicate, applicability, and occurrence identity. Occurrence `CAB_Chair_A_ApproverAssignment_2026` has admitted System `CAB_Chair_A` as holder, `ApproverSystemRole` as assigned-kind value, and an extent covering the act. `CAB_Chair_A` performs `SA-Approve-4711` under that assignment. Taxonomy `ChangeControlSystemRoles_v3` and `ChangeControlReferenceScheme_2026` interpret the assertion rather than becoming assignment participants. The assignment grounds attribution; it does not act or confer authority by form.
 * Actual method relation: `enactsMethod(SA-Approve-4711, ChangeApprovalMethod_v3)` independently obtains, with `ChangeApprovalMethod_v3 : U.Method`.
 * `SA-Approve-4711-Record : SpeechActRecord` states:
   * `speechActOccurrenceRef = SpeechActRef(SA-Approve-4711)`;
   * `performedBy = U.EntityRef(CAB_Chair_A)`;
-  * `performedUnderAssignment = RoleAssignmentRef(CAB_Chair_A_ApproverAssignment_2026)`;
+  * `performedUnderSystemRoleAssignmentRef = U.RelationRef(CAB_Chair_A_ApproverAssignment_2026)`;
   * `enactsMethodRef = U.EntityRef(ChangeApprovalMethod_v3)`;
   * `methodDescriptionRef = EpistemeRef(ChangeApprovalProcedure_v3)`, a separate C.2.1 episteme used here to identify and constrain the Method;
   * `recognitionTaxonomyRef = EpistemeRef(ChangeControlSpeechActTaxonomy_v3)`;
@@ -70,17 +72,17 @@ When governance or gating depends on “someone said/did X”, identify **that s
 
 `PER-Deploy-4711 : GrantedPermissionRelation@Context` obtains separately under A.2.8.PER:
 
-* `beneficiaryRef = RoleAssignmentRef(OpsBot#DeployerRole:CD_Pipeline_v7)`;
+* `beneficiarySystemRoleAssignmentRef = U.RelationRef(OpsBotDeployerAssignment-CD_Pipeline_v7)`, resolving to the assignment occurrence and its declared `U.SystemRoleAssignment` species;
 * `permittedActionSpecificationRef = EpistemeRef(DeployChange4711WorkSpecification)`;
 * `institutingSpeechActRef = SA-Approve-4711`;
-* `grantorAssignmentRef = RoleAssignmentRef(CAB_Chair_A_ApproverAssignment_2026)`;
+* `grantorSystemRoleAssignmentRef = U.RelationRef(CAB_Chair_A_ApproverAssignment_2026)`;
 * `grantValidityPolicyRef = EpistemeRef(ChangeControlGrantPolicy_v3)` under `ChangeControlReferenceScheme_2026`; the separately cited `ChangeControlApprovalPolicy_v3` supplies the act-to-grant instituting rule;
 * scope, revocation stance, and validity interval `[2026-06-12T10:04Z, 2026-06-19T10:04Z]` are explicit.
 
 The one-minute speech-act interval and seven-day grant interval are different facts even though the latter begins when the former ends.
 
 
-The utterance is about `ChangeRequestId(4711)`; its policy-selected target and demonstrated effect are the separately obtaining grant. Nothing here claims that the change-request entity itself changed. Gate predicate `A-Gate-Deploy-4711` may check `exists SpeechAct(type=Approval, utteranceSubjectRefs includes ChangeRequestId(4711), performedBy=CAB_Chair_A, performedUnderAssignment role=ApproverRole, within 90d)`, consume the current grant, and apply other prerequisites; passing the gate neither institutes nor equals the grant. No F.9 Bridge is needed merely because a pipeline consumes the result: this case uses one exact taxonomy, scheme and policy. A Bridge becomes current only if another receiving use actually translates or compares a different local meaning.
+The utterance is about `ChangeRequestId(4711)`; its policy-selected target and demonstrated effect are the separately obtaining grant. Nothing here claims that the change-request entity itself changed. Gate predicate `A-Gate-Deploy-4711` may check `exists SpeechAct(type=Approval, utteranceSubjectRefs includes ChangeRequestId(4711), performedBy=CAB_Chair_A, performedUnderSystemRoleAssignmentRef=CAB_Chair_A_ApproverAssignment_2026, within 90d)`, consume the current grant, and apply other prerequisites; passing the gate neither institutes nor equals the grant. No F.9 Bridge is needed merely because a pipeline consumes the result: this case uses one exact taxonomy, scheme, and policy. A Bridge becomes current only if another receiving use actually translates or compares a different local meaning.
 
 **Near misses.** A ticket row alone is a carrier-backed claim, not the act. `ChangeApprovalProcedure_v3` is a MethodDescription, not what the act enacts. A current approver assignment does not prove that approval Work occurred. Without the exact current policies, the occurrence remains communicative Work but establishes no grant.
 
@@ -91,12 +93,12 @@ This case retains kind versus occurrence versus record, utterance versus carrier
 **Situation (anti-pattern):**
 “The interface spec declares MUST/SHALL requirements.”
 
-**Conformant modeling sketch.** `SA-Publish-API-v12 : U.SpeechAct` is the actual occurrence. Admitted system `StandardsEditor_A` performs it under obtaining `StandardsEditor_A_PublisherAssignment_v12`; that assignment independently identifies `PublisherRole`, role-taxonomy episteme `StandardsRoles_v12`, effective scheme `APISpecReferenceScheme_v12`, and an extent covering the act. `enactsMethod(SA-Publish-API-v12, SpecPublicationMethod_v12)` independently obtains; `SpecReleaseProcedure_v12` is only a separate description of that exact Method.
+**Conformant modeling sketch.** `SA-Publish-API-v12 : U.SpeechAct` is the act. `StandardsPublicationAssignment` is a declared `U.SystemRoleAssignment` species; it defines the holder and assigned-kind participant meanings and uses `PublisherSystemRole` as the local assigned-kind domain. Occurrence `StandardsEditor_A_PublisherAssignment_v12` has admitted System `StandardsEditor_A` as holder, `PublisherSystemRole` as assigned-kind value, and an extent covering the act. `StandardsEditor_A` performs the act under that assignment. Taxonomy `StandardsSystemRoles_v12` and `APISpecReferenceScheme_v12` interpret the assertion but are not assignment participants. The Work enacts Method `SpecPublicationMethod_v12`; `SpecReleaseProcedure_v12` is only a separate description of that Method.
 
 `SA-Publish-API-v12-Record : SpeechActRecord` states:
 
 * `speechActOccurrenceRef = SpeechActRef(SA-Publish-API-v12)`;
-* `performedBy = U.EntityRef(StandardsEditor_A)` and `performedUnderAssignment = RoleAssignmentRef(StandardsEditor_A_PublisherAssignment_v12)`;
+* `performedBy = U.EntityRef(StandardsEditor_A)` and `performedUnderSystemRoleAssignmentRef = U.RelationRef(StandardsEditor_A_PublisherAssignment_v12)`;
 * `enactsMethodRef = U.EntityRef(SpecPublicationMethod_v12)` and `methodDescriptionRef = EpistemeRef(SpecReleaseProcedure_v12)`;
 * `recognitionTaxonomyRef = EpistemeRef(APISpecSpeechActTaxonomy_v12)` and `effectiveReferenceScheme = APISpecReferenceScheme_v12`;
 * `policyOrProcedureRef = EpistemeRef(APISpecPublicationPolicy_v12)` and optional `channelRef = U.EntityRef(StandardsReleaseChannel)`;

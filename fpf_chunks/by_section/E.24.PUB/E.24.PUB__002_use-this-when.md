@@ -6,12 +6,12 @@ section_id: "E.24.PUB:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:0 — Use This When"
-line_start: 89009
-line_end: 89029
+line_start: 89713
+line_end: 89733
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -40,7 +39,7 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 
 **Primary working reader.** A practitioner or FPF author deciding whether a visible thing is a claim-bearing episteme, a `U.View`, a publication form, a C.29 representation, a `U.PresentationCarrier`, or evidence of one publication occurrence.
 
-**First useful move.** Name the exact next `U.Work` for which the publication is expected to make claims available. Then say, in one sentence, which exact episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. If that Work is choice work, keep its resulting C.11 `ChoiceResult` separate: publication establishes neither the Work nor the result, and the result is neither the Work nor a publication participant. Only when the Work actually uses a published claim, name the exact claim-bearing episteme and its direct route. For a premise, reference, other participant, or work-to-referent use, name the exact declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its exact declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result. Open the heavier publication-relation declarations only when that next Work depends on exact availability, the declared use boundary, or publication-occurrence identity.
+**First useful move.** Name the receiving use for which the publication is expected to make claims available. Before that use occurs, name the current plan, question, or other claim that states what is intended—for example an intended activity, `U.WorkPlan`, decision question, training use, or reference use. Use `U.Work` only for an independently admitted dated occurrence. Then say, in one sentence, which episteme edition is available, to which declared audience, for which bounded use, in which publication form, and on which presentation carrier. If the receiving use is a choice question, keep any later C.11 `ChoiceResult` separate: publication establishes neither later Work nor the result, and the result is neither Work nor a publication participant. Only when admitted Work actually uses a published claim, name the claim-bearing episteme and the direct relation through which the Work uses it. For a premise, reference, other participant, or work-to-referent use, name the declared predicate, participant order, and actual values. For a declared operation argument, name the identified A.6.1 application and its declaration-local binding. If neither route exists, stop at publication availability or return the applicable A.15.1 `missing-governor` result. Open the heavier publication-relation declarations only when the receiving use depends on availability, its declared boundary, or publication-occurrence identity.
 
 **What goes wrong if missed.** A visible layout is treated as the described subject, a file is treated as the claims it carries, a diagram is treated as a view merely because it is graphical, or a currently available episteme is turned into a durable `U.EpistemePublication` kind. The receiving work then cannot tell which object changed when claims, layout, carrier, audience, or use changes.
 
@@ -53,5 +52,5 @@ Use this pattern when an ontic or another entity is encountered through a card, 
 - Use `C.29` when representation elements and the operations admitted by a representation are current.
 - Use `E.24.CD`, then `E.24`, when a durable ontic is still being considered.
 - Use `E.24.UK` when a public `U.*` kind or dependent-kind disposition is unsettled.
-- Use the subject pattern directly when publication does not affect the named receiving `U.Work`.
+- Use the subject pattern directly when publication does not affect the receiving use.
 

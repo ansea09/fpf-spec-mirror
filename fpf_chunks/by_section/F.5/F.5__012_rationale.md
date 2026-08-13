@@ -1,31 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
 section_id: "F.5:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__012_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:10 — Rationale"
-line_start: 91571
-line_end: 91578
+line_start: 92298
+line_end: 92305
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
+  - "C.16"
   - "C.2.1"
+  - "C.3"
+  - "C.3.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.24.UK"
   - "F.10"
   - "F.13"
@@ -39,19 +43,19 @@ dependencies:
   - "F.9"
   - "G.6"
 keywords:
-  - "U-kind naming"
-  - "lexical rules"
-  - "morphology"
-  - "naming conventions"
-  - "role-description labels"
-  - "twin registers"
+  - "Plain and Tech designations"
+  - "SystemRoleKindDescription label"
+  - "U-kind name"
+  - "local meaning"
+  - "naming after ontology recovery"
+  - "system-role-kind name"
 ---
 
 ### F.5:10 - Rationale
 
-Naming is late ontology, not early decoration. FPF can tolerate many local phrases, but durable names become references used in reasoning, search, publications, and pattern relations. If a name is wrong, subsequent users inherit a false kind claim.
+Naming is late ontology, not early decoration. Durable names become references used in reasoning, search, publications, and pattern relations. A wrong name makes later readers inherit a false kind claim.
 
-The key design choice is to split naming by meaning source rather than by source spelling. `Role` in a source phrase may refer to a work-facing role, a policy term, a status label, an evidence-use relation, a relation position, or ordinary English. F.5 does not decide by suffix. It recovers the current value and then applies naming discipline.
+The design choice is to split naming by meaning source rather than source spelling. Bare *role* can point to many different objects or uses—for example, a local system-role kind, assignment, policy term, status, evidence use, relation position, representation position, or ordinary English. Do not decide by suffix. Use E.10.ROLE and the direct patterns to recover the object, then F.5 to name it.
 
-This also keeps F.5 smaller than F.18. F.18 governs the fuller local-first naming protocol, Name Cards, candidate fronts, lineage, and public naming. F.5 supplies the special discipline needed by U-kind names and RoleDescription labels so that Part F does not preserve role and status fusion.
+F.5 remains narrower than F.18. Use F.18 for the full local-first protocol, NameCards, candidate comparison, lineage, and public naming. F.5 supplies the special discipline needed by U-kind names, concrete system-role-kind names, and `SystemRoleKindDescription` labels.
 

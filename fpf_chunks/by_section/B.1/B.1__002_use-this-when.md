@@ -6,17 +6,18 @@ section_id: "B.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1/B.1__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
   - "B.1:0 — Use This When"
-line_start: 35274
-line_end: 35300
+line_start: 35476
+line_end: 35502
 dependencies:
   - "A.1"
   - "A.14"
   - "A.15"
   - "A.15.1"
+  - "A.2.7"
   - "A.22"
   - "B.2"
   - "B.3.5"
@@ -24,7 +25,7 @@ dependencies:
   - "C.16"
   - "C.29"
   - "C.30"
-  - "C.30.ASV"
+  - "E.10.ROLE"
 keywords:
 ---
 
@@ -40,18 +41,18 @@ Typical moments:
 - a collection needs whole-level characteristics without becoming an acting collective system;
 - an aggregation claim is being used for architecture, assurance, evidence, or MHT reasoning.
 
-**First useful move.** Recover the claim kind before choosing notation: part-whole construction, membership, collection-as-whole grounding, role relation structure, method relation structure, work occurrence holarchy, selected architecture structure, or mathematical description.
+**First useful move.** Recover the claim kind before choosing notation: part-whole construction, membership, collection-as-whole grounding, an exact relation among local system-role kinds, a direct participation or assignment relation, method relation structure, work occurrence holarchy, selected architecture structure, or mathematical description. If claim-bearing source wording still says only “role,” use `E.10.ROLE` before choosing one of these branches.
 
 **What goes wrong if missed.** Γ, graph, algebra, decomposition, factor, component, step, phase, and collection wording become one universal composition language. Roles and methods become parts; work occurrence evidence is inferred from method structure; a graph is mistaken for the structure; a collection becomes an acting whole by label.
 
-**What this buys.** B.1 gives one doorway into part-whole construction while keeping its neighbors clean: A.14 owns relation vocabulary, C.13 owns constructional grounding, B.3.5 owns Working-Model assurance grounding, A.15.1 owns work-occurrence holarchy, and C.29 owns mathematical-lens use.
+**What this buys.** B.1 gives one doorway into part-whole construction while keeping its neighbors clean: A.14 is the pattern for relation vocabulary, C.13 is the pattern for constructional grounding, B.3.5 is the pattern for Working-Model assurance grounding, A.15.1 is the pattern for work-occurrence holarchy, and C.29 is the pattern for mathematical-lens use.
 
 **Not this pattern when.**
 
 - If the question is the local relation word, use `A.14`.
 - If the question is constructive part-whole grounding, use `C.13`.
 - If the question is assurance grounding for a working model, use `B.3.5`.
-- If the question is role or method relation structure, use the role or method owner and `C.29` when a mathematical lens is relied on for the current claim.
+- If the question is an exact relation among local system-role kinds, use `A.2.7`; if it is classification, assignment, or a direct participation relation, state that fact through its own pattern and predicate. Send unresolved claim-bearing “role” wording through `E.10.ROLE`. Use the Method patterns for method relation structure and `C.29` when a mathematical lens is relied on for the current claim.
 - If the question is performed-work occurrence parts, use `A.15.1`.
 - If the question is whole reidentification or emergence-family wording, use `B.2` or `B.2.P`.
 

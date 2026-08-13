@@ -6,12 +6,12 @@ section_id: "C.22:5"
 section_title: "Solution — Problem CHR, TaskSignature, and assignment relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__007_solution-problem-chr-tasksignature-and-assignment-relation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:5 — Solution — Problem CHR, TaskSignature, and assignment relation"
-line_start: 51043
-line_end: 51217
+line_start: 51299
+line_end: 51473
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -35,7 +35,7 @@ keywords:
 
 Apply that formula as follows:
 
-1. Confirm that the problem-side representation is stable enough for selector-facing use; otherwise return to `C.22.2`.
+1. Confirm that the problem-side representation is stable enough for selector-facing use; otherwise use `C.22.2`.
 2. Name the receiving eligibility, acceptance, or selection question and the `TaskKind`, optional task family, or work target that the signature will declare.
 3. Include only the problem traits whose values can change that receiving use. Leave a non-current optional extension absent.
 4. Type each live characteristic by scale, unit, polarity, reference plane, and admitted comparison relation before aggregation or comparison.
@@ -48,28 +48,28 @@ Close the C.22 use positively when the direct TaskSignature fields, Vocabulary, 
 
 Close by bounded non-use when problem framing is not stable enough for a TaskSignature declaration, when no selector-facing receiving use is current, or when the current question has already become eligibility, acceptance, selection, planning, or performed work. A non-current optional extension remains absent. If several signatures or assignment relations remain plausible, preserve them as candidates under the governing problem or selection pattern rather than asserting one assignment.
 
-Return to the smallest affected TaskSignature position when its receiving question, exact target, effective ReferenceScheme, ClaimScope, `TaskKind`, task-family reference, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence-use relation, freshness condition, edition, or crossing relation changes. Keep the upstream `ProblemCard` and downstream selection history unchanged unless that exact change invalidates them under their own governing patterns.
+Return to the smallest affected TaskSignature position when its receiving question, exact target, effective ReferenceScheme, ClaimScope, `TaskKind`, task-family reference, characteristic meaning, scale, unit, polarity, reference plane, unknown status, evidence-use relation, freshness condition, edition, or crossing relation changes. Keep the upstream `ProblemCard` and downstream selection history unchanged unless that exact change invalidates them under their own subject patterns.
 
-**Worked local repair.** A machining TaskSignature originally records surface finish as an ordinal visual grade. The receiving use later adopts measured roughness `Ra` on a ratio scale in micrometres with a named measurement and evidence relation. Repair the affected characteristic head, scale, unit, admitted comparisons, and evidence relation. Keep the machining `TaskKind`, unaffected constraints, scope, and prior work history. Reopen eligibility, acceptance, or method-family selection only when its earlier result relied on the replaced finish head; the direct downstream pattern decides the new result.
+**Worked local repair.** A machining TaskSignature originally records surface finish as an ordinal visual grade. The named use later adopts measured roughness `Ra` on a ratio scale in micrometres with a named measurement and evidence relation. Repair the affected characteristic head, scale, unit, admitted comparisons, and evidence relation. Keep the machining `TaskKind`, unaffected constraints, scope, and prior Work history. Reopen eligibility, acceptance, or Method-family selection only when its earlier result relied on the replaced finish head; state the new result under the exact downstream predicate with its subject-pattern locator.
 
 #### C.22:5.0b - Apparatus proportionality
 
 Use the lightest signature declaration and assignment relation that the named receiving use can consume:
 
 1. **Minimal selector-facing use.** Materialize one TaskSignature with only the live fields needed by the current eligibility, acceptance, or selection question. This is the ordinary positive result of C.22.
-2. **Reliance-bearing use.** Add an addressable `ProblemProfile` episteme only when delayed feedback, audit, transfer, automation, expensive reversal, or another named use relies on replay beyond the local assignment relation. Pin the exact problem-side episteme and edition, TaskSignature edition, receiving use, every field-basis relation with its direct governing pattern, qualification window, review trigger, and any current evidence, currentness, or crossing relation.
+2. **Reliance-bearing use.** Add an addressable `ProblemProfile` episteme only when delayed feedback, audit, transfer, automation, expensive reversal, or another named use relies on replay beyond the local assignment relation. Pin the exact problem-side episteme and edition, TaskSignature edition, receiving use, every field-basis relation with its subject pattern, qualification window, review trigger, and any current evidence, currentness, or crossing relation.
 3. **Extension-bearing use.** Add QD, OEE, archive, generator, parity, or specialization positions only when that exact downstream relation is current and its direct pattern requires those values.
 
 More fields, publication packaging, name cards, or telemetry do not make the problem better formulated, the TaskSignature more true, or a method more suitable. If no selector-facing receiving use needs a TaskSignature, close by bounded non-use rather than publishing a thin declaration for its own sake.
 
 #### C.22:5.1 - Minimal CHR fields (tri‑state aware).
-**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, method-family, or policy-governed choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` when its direct pattern admits that value; the cited downstream policy governs what follows. This aligns G.4 and G.6 without making their results C.22 values.
+**Selector-side field boundary.** The fields below are live only after problem framing has been stabilized enough to ask eligibility, acceptance, selection, Method-family, or policy-constrained choice questions. They are not a universal problem-framing checklist and do not replace the `C.22.2` Thin `ProblemCard` pass for a messy signal. Each live characteristic field is **CHR-typed** by Characteristic, Scale, Unit, and Polarity under MM-CHR discipline. A live predicate may preserve `unknown` only when its exact value rule permits it; the cited downstream policy states what follows. This aligns G.4 and G.6 without making their results C.22 values.
 
 **Optional extension absence rule.** If QD, OEE, archive, generator, parity, specialization, or another optional relation is not live for the current case, the corresponding optional fields are absent, not `unknown`. Use `unknown` only for a live field whose value is currently unknown. An absent non-live extension triggers no downstream disposition.
 
 * **`DataShape`** — data regime and admissible transforms (e.g., tabular, sequence, graph; density; stationarity claims).
 * **`NoiseModel`** — uncertainty class and robustness envelope (e.g., iid Gaussian; heavy‑tailed; adversarial budget).
-* **`ObjectiveProfile`** — objective heads (**Scale, Unit, Polarity** and **ReferencePlane** declared), polarity, and **admissible order relations** (lexicographic, Pareto, medoid or median where admissible). **Weighted sums across mixed scale types are inadmissible**; ordinal heads use order-only guards. For QD tasks, explicitly enumerate quality heads, diversity or descriptor-space heads, and any policy-authorized QD contribution heads; see **DominanceRegime** below. Do not introduce a default QD score. If a scalar or set-scalarization policy is live, cite the governing CAL policy and keep dominance and telemetry roles explicit.
+* **`ObjectiveProfile`** — objective heads (**Scale, Unit, Polarity** and **ReferencePlane** declared), polarity, and **admissible order relations** (lexicographic, Pareto, medoid or median where admissible). **Weighted sums across mixed scale types are inadmissible**; ordinal heads use order-only guards. For QD tasks, explicitly enumerate quality heads, diversity or descriptor-space heads, and any policy-authorized QD contribution heads; see **DominanceRegime** below. Do not introduce a default QD score. If a scalar or set-scalarization policy is live, cite the governing CAL policy and keep the uses of dominance and telemetry explicit.
 * `RegularityTraits` — method-relevant structure (**convexity, differentiability, separability, monotonicity**) as CHR-typed predicates with guard macros (for example, `ORD_COMPARE_ONLY`, `UNIT_CHECK`, `POLARITY_CHECK`). Include `ConditionClass` such as stiffness or kappa proxies where applicable.
 * **`Constraints`** — explicit hard and soft constraint classes (feasibility predicates; **ResourceEnvelope** and **RiskEnvelope**). **Acceptance-gate thresholds live in `G.4` only; never inside CHR or code paths.**
 * `ShiftClass` and stationarity — CHR‑typed claims about regime stability (iid | covariate‑shift | concept‑drift | adversarial). Default=`unknown`. The cited acceptance or selector policy governs the consequence of that unknown for its receiving use.
@@ -125,7 +125,7 @@ Laws:
   preserve admitted unknown and distinguish it from absent non-current vocabulary
   apply CHR scale, unit, polarity, ReferencePlane, and comparison legality before aggregation
   keep acceptance verdicts, selector outcomes, selected methods, plans, Work, and performed results outside the signature
-  keep each reliance-bearing field connected to its exact basis relation and direct governing pattern
+  keep each reliance-bearing field connected to its exact basis relation and subject pattern
 
 Applicability:
   exact U.ClaimScope and any required A.2.6 membership
@@ -151,28 +151,28 @@ The relation obtains while the exact receiving use actually adopts that exact Ta
 
 **Minimality rule.** Include only declaration positions needed to determine eligibility, acceptance, or admissible selection for the named use. Additional traits remain outside Vocabulary until a later use makes them current.
 
-Values are CHR-typed and tied to the exact measurement, evidence-use, source-use, representation, or scope relation that justifies their use when such a relation is current. Each reliance-bearing field basis names that relation and its direct governing pattern; generic provenance or support wording is not a replay basis. Unknowns preserve their direct missingness semantics.
+Values are CHR-typed and tied to the exact measurement, evidence-use, source-use, representation, or scope relation that justifies their use when such a relation is current. Each reliance-bearing field basis names that relation and its subject pattern; generic provenance or support wording is not a replay basis. Unknowns preserve their direct missingness semantics.
 
 **TaskSignature invariants.** A positive assignment satisfies all six conditions:
 
 1. The TaskSignature exposes its exact `EntityOfConcernRef`, effective `U.ReferenceScheme`, direct declaration fields, Vocabulary, Laws, and Applicability.
 2. The assignment relation recovers its exact problem-side episteme, exact TaskSignature, exact receiving-use episteme, obtaining conditions, and occurrence extent.
-3. Every live field has an admitted filler kind or scale discipline and, under reliance, an exact basis relation with a direct governing pattern.
-4. A live but unrecovered value is `unknown` only where the field's direct pattern admits it and a downstream policy states how the receiving use handles it.
+3. Every live field has an admitted filler kind or scale discipline and, under reliance, an exact basis relation with a subject pattern.
+4. A live but unrecovered value is `unknown` only where the field's exact value rule permits it and a downstream policy states how the named use handles it.
 5. A non-current optional extension is absent; absence and unknown are not interchangeable.
 6. Eligibility verdicts, acceptance results, selected methods, selector outcomes, WorkPlans, and Work occurrences are absent from the TaskSignature and remain with their direct patterns.
 
 #### C.22:5.2a - Lowering and withdrawal conditions
 
-Withdraw the assignment for the current receiving use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope, or qualification conditions cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Return to C.22.2 only when the problem-side representation itself is no longer stable enough.
+Withdraw the assignment for the current receiving use when its problem-side episteme, TaskSignature, receiving-use episteme, scheme, scope, or qualification conditions cannot be recovered. The TaskSignature may remain a valid declaration for another assignment. Use C.22.2 only when the problem-side representation itself is no longer stable enough.
 
-Revise the TaskSignature edition when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or governing pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its direct governing pattern.
+Revise the TaskSignature edition when a direct declaration field, Vocabulary, Law, Applicability claim, `EntityOfConcernRef`, or effective `U.ReferenceScheme` changes. Lower or remove one vocabulary position when its filler kind, scale, unit, polarity, reference plane, direct basis relation, or subject pattern cannot support the claimed use. Preserve `unknown` only when the position remains live and admitted. Split any selected method, selector outcome, acceptance result, plan, or Work occurrence into its subject pattern.
 
 A changed or invalid signature position reopens an earlier downstream result only when that result relied on the changed position. The downstream pattern repairs or supersedes its own result. A revised signature does not imply that the actual Problem disappeared or that prior Work did not occur.
 
 #### C.22:5.2b - Evolution and currentness boundaries
 
-C.22 revises the smallest affected identity or declaration-content component and issues a new TaskSignature edition when semantic content changes. A changed problem formulation returns to C.22.2 before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated Work without an explicit dependency.
+C.22 revises the smallest affected identity or declaration-content component and issues a new TaskSignature edition when semantic content changes. A changed problem formulation requires C.22.2 before a replacement assignment is made. `G.11` governs relied-on source edition, freshness, decay, telemetry, and currentness relations; its result may trigger signature review but does not rewrite the signature by itself. `C.18` and `C.19` govern archive, front, lineage, and live-pool evolution. `G.5` governs selected-set and method-family selector results. `E.23` governs repeated object-version improvement. C.22 introduces no local refresh object and does not rewrite earlier selector results or dated Work without an explicit dependency.
 
 `TaskKind` fills SubjectKind. `TaskFamilyRef?` names one comparison-relevant family in Vocabulary when specialization, transfer, or parity is live. `KindSet` and A.2.6 scope slices determine the ranged extent. None is a record-format field, selected method, or selector result.
 
@@ -196,7 +196,7 @@ The bullets below state which TaskSignature fields and relations each downstream
 * When `GeneratorIntent` is present, G.5-governed selection may use a registered **`GeneratorFamily`** (POET‑class); the selection domain becomes **pairs** `{environment, method}`, with Environment guarded by **`EnvironmentValidityRegion`** and **`TransferRulesRef`** (C.23 wiring). Report **`IlluminationSummary`** as a **telemetry summary over `Diversity_P`** (report‑only by default) in telemetry; dominance remains unaffected unless policy changes as above.
 
 #### C.22:5.5 - Unknowns.
-An identity position needed for positive closure cannot be replaced by `unknown`. A live characteristic or predicate may preserve `unknown` when its direct pattern admits it. The TaskSignature cites the downstream policy that governs the consequence; C.22 performs no implicit coercion and declares no universal outcome set.
+An identity position needed for positive closure cannot be replaced by `unknown`. A live characteristic or predicate may preserve `unknown` only when its exact value rule permits it. The TaskSignature cites the downstream policy that defines or constrains the consequence; C.22 performs no implicit coercion and declares no universal outcome set.
 
 #### C.22:5.6 - Publication.
 When a named receiving use needs an addressable publication episteme, output a `C.2.1`-conformant **ProblemProfile** that carries the bound TaskSignature and only the evidence, currentness, crossing, and representation relations on which that use relies. Apply F.18 and F.17 Name Cards when a durable new name is actually being admitted; do not create name cards merely because a local field is present. Keep any vendor or tool examples in Plain explanatory use rather than letting them become normative selector inputs. When no publication reliance is current, the TaskSignature closes without a separate ProblemProfile.

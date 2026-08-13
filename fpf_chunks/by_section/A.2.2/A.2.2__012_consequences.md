@@ -6,12 +6,12 @@ section_id: "A.2.2:11"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__012_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:11 — Consequences"
-line_start: 3589
-line_end: 3606
+line_start: 3760
+line_end: 3777
 dependencies:
   - "A.15"
   - "A.2"
@@ -31,7 +31,7 @@ keywords:
 **Benefits.**
 
 - Planning separates "can do" from "is assigned now".
-- Method steps can name capability thresholds without putting extra meaning into role names.
+- Method steps can name capability thresholds without putting extra meaning into system-role-kind names.
 - Work records can be judged against the capability instance and fit predicate current at the time of work.
 - Promise content becomes less magical because the internal ability and measured envelope are explicit.
 - Composite-system ability can be stated at the right holder instead of scattered across parts.
@@ -39,7 +39,7 @@ keywords:
 **Costs.**
 
 - Capability tables need envelope, measures, and currentness fields.
-- Teams need to stop using role labels as shortcuts for ability.
+- Teams need to stop using system-role labels or assignments as shortcuts for ability.
 - Some old "function", "service", "process", and "algorithm" sentences need kind recovery before they can be used in FPF.
 
 The cost is intentional: without it, FPF cannot distinguish authorization, ability, method, and performance.

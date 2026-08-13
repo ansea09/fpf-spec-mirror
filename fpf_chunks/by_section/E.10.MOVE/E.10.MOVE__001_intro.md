@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:intro — Intro"
-line_start: 75530
-line_end: 75545
+line_start: 75994
+line_end: 76009
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -42,13 +42,13 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative for move-like and readiness-like wording-use restoration.
 
-**At a glance.** `E.10.MOVE` restores the exact FPF value or relation hidden by move-like, movement-like, and readiness-like wording. It distinguishes an A.22.CGUS demonstrated row from a Plain local-mantra result and a Plain long-mantra map location, restores evaluation-result change wording to an E.23 prediction, and returns every stronger claim to its direct governing pattern.
+**At a glance.** `E.10.MOVE` restores the exact FPF value or relation hidden by move-like, movement-like, and readiness-like wording. It distinguishes an A.22.CGUS demonstrated row from a Plain local-mantra result and a Plain long-mantra map location, restores evaluation-result change wording to an E.23 prediction, and requires its subject pattern for every stronger claim.
 
 **Use this when.** Use this pattern when wording such as move, movement, step, action, readiness, route, workflow, or process is doing more than ordinary prose and a reader could mistake a demonstrated continuation, recommendation, prediction, transformation, readiness relation, gate decision, publication relation, or performed work for another kind.
 
 **Primary EntityOfConcern.** One wording-use restoration over a bounded text span whose move-like or readiness-like wording has an FPF-governed use.
 
-**First output.** One accepted wording repair, split, or blocker. When later replay relies on the repair, use a temporary `MoveAndReadinessWordingRepairNote` that names the governed span, claim, object under repair, wording-use disposition, direct governing pattern, exact governed value and kind, relation signature when applicable, blocked overread, final wording or blocker, and remaining reader use.
+**First output.** One accepted wording repair, split, or blocker. When later replay relies on the repair, use a temporary `MoveAndReadinessWordingRepairNote` that names the governed span, claim, object under repair, wording-use disposition, subject pattern, exact governed value and kind, relation signature when applicable, blocked overread, final wording or blocker, and remaining reader use.
 
-**Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about transformation, flow, path, process, workflow, operation, or change as a change-situation label. Use the direct governing pattern immediately when the current object is already known and no move-like or readiness-like wording problem remains.
+**Not this pattern when.** Use `A.3.4.P` first when the wording is primarily about transformation, flow, path, process, workflow, operation, or change as a change-situation label. Use the subject pattern immediately when the current object is already known and no move-like or readiness-like wording problem remains.
 

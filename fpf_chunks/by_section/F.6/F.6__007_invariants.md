@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 91769
-line_end: 91782
+line_start: 92521
+line_end: 92539
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,38 +22,42 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:5 - Invariants
 
-1. Every performed-work attribution relates one exact `U.Work` occurrence to one exact `U.RoleAssignment` occurrence.
-2. The assignment occurrence `RA` in `RoleAssignmentSlot` keeps exactly four fixed participants and one maximal continuous obtaining extent; no mandatory `U.BoundedContext`, generic context slot, or optional model-use participant is added.
-3. The actual maximal continuous extent of the assignment occurrence covers the attributed portion of the work interval; a declared or recorded window alone does not establish coverage.
-4. Assignment does not prove performance, and performance attribution does not prove capability, state, method validity, result quality, or acceptance.
-5. `RoleEnactment` wording is repaired to dated work plus direct `performedUnderAssignment`; no duplicate enactment object is retained.
-6. Assertions, logs, rosters, evidence, identifiers, and publications remain epistemic or representational objects distinct from world-side relation obtaining.
-7. An evidence gap yields unresolved reliance, not an inferred non-attribution interval.
-8. An episteme does not fill `HolderSystemSlot` merely because it describes, constrains, or supports the work claim.
-9. Cross-scheme role correspondence uses a direct bridge relation and does not change either assignment identity.
-10. Reduced prose remains admissible until a receiving use needs explicit relation-occurrence identity.
-11. For admitted Work `W`, actual `enactsMethod(W, M)` remains a separately obtaining relation to one exact `U.Method`; only the admitted holder system acts, while assignment, role value, capability, method, and method description do not perform the work.
+1. Every positive performed-Work attribution links one dated `U.Work` occurrence to one assignment occurrence of a declared `U.SystemRoleAssignment` species.
+2. `SystemRoleAssignmentSlot` accepts the family and preserves the assignment's declared species, all participants, rule, applicability, and occurrence identity.
+3. The actual performer is the admitted System in `RA.HolderSystemSlot`; the assignment and kind do not act.
+4. RA's predicate obtains throughout the attributed Work interval; a declared window alone does not establish coverage.
+5. The species declaration, occurrence participant identity, holder match, and time coverage constrain but do not establish the Work–assignment link.
+6. Overlapping assignments are checked pair by pair; an unresolved basis never licenses attribution to every covering assignment.
+7. Every actual performer of admitted Work has its own covering assignment occurrence and F.6 link to that Work. A lead, team, member, coordination, allocation, or responsibility claim substitutes for neither.
+8. A passive assigned System is not thereby a performer. Any claimed passive participation needs a rule that defines it; otherwise A.6.RCD returns `missing-governor`.
+9. Assignment does not prove performance, and attribution proves neither classification, capability, state, Method validity, result quality, responsibility, authority, nor acceptance.
+10. `RoleEnactment` wording is repaired to Work plus `performedUnderAssignment`; no duplicate object remains.
+11. Assertions, logs, rosters, evidence, identifiers, and publications can support or designate an attribution but do not constitute it.
+12. Missing evidence leaves reliance unresolved; a missing case fact linking Work and assignment leaves the positive attribution unasserted.
+13. An episteme does not fill `HolderSystemSlot` because it describes or supports Work.
+14. Cross-context correspondence changes neither assignment identity nor Work attribution.
+15. Reduced prose may omit only an assignment identifier unused by the receiving claim, and only after the complete Work–assignment basis remains recoverable.
+16. The Method enacted by W remains a separate fact; only the admitted holder System performs W.
 

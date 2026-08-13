@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__014_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:12 — Rationale"
-line_start: 91886
-line_end: 91891
+line_start: 92650
+line_end: 92657
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,30 +22,31 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:12 - Rationale
 
-The direct relation is needed because `U.RoleAssignment` and `U.Work` admit different kinds of world-side occurrence. One obtaining assignment occurrence `RA` relates its holder System to a role value under one interpretation and throughout one episode; one Work individual `W : U.Work` is the dated Work occurrence. `performedUnderAssignment(W, RA)` either obtains or does not obtain as the additional world-side attribution between them. A distinct assertion or record may designate `RA` and `W`, state that `RA` obtains, state that `W` occurred, or state that the attribution relation obtains.
+The direct relation is needed because assignment and Work have different occurrence identities. `performedUnderAssignment` is an additional world-side fact, not a field stored inside either participant. A separate assertion can say that the assignment obtains, the Work occurred, or their attribution relation obtains.
 
-Making a log, status, decision, or evidence item a relation participant would confuse world-side attribution with knowledge of attribution. Creating `RoleEnactmentFact` would duplicate the same pair under a second identity. The two-participant relation preserves realism and keeps correction local: changing an evidence use does not rewrite work or assignment; discovering a different performer changes the attribution assertion and, when demonstrated, the selected relation occurrence.
+Using the family ValueKind in F.6 does not license a family-wide assignment signature. It lets F.6 project the actual holder from each occurrence through its species-declared holder slot while preserving any commission, position, locus, or other real participant. Creating a generic assignment for F.6 would duplicate the episode and weaken attribution identity.
+
+Making a log, status, decision, or evidence item a participant would confuse attribution with knowledge of attribution. Creating `RoleEnactmentFact` would duplicate Work and the same relation. Treating a matching holder and temporal coverage as enough would instead attribute one Work to every overlapping assignment held by its performer. The two-participant relation avoids both errors: the case fact linking Work to assignment is checked separately, while assertions and evidence can change without rewriting the Work, assignment, or their link.
 

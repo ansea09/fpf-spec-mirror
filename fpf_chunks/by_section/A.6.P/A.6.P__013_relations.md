@@ -6,12 +6,12 @@ section_id: "A.6.P:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:12 — Relations"
-line_start: 16261
-line_end: 16276
+line_start: 16489
+line_end: 16504
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -28,6 +28,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17.0"
   - "E.24.PUB"
   - "F.18"
@@ -46,8 +47,8 @@ keywords:
 - Use `A.6.RCD` after the reader can name the participants and the sentence the next task needs, but no current pattern supplies its predicate. Broad wording alone is not a `missing-governor` result.
 - `C.2.1` governs assertions and descriptions. A.6.P identifies one candidate episteme `E`, one viewpoint episteme `P`, and the conformance question; `E.17.0` tests `EpistemeViewpointConformanceRelation(E,P)`. If the next task also asks whether `E` is a `U.View`, `E.17.0` handles that recognition separately. Viewpoint selection, evaluation, construction, representation, and publication do not establish conformance; `A.10` governs reliance, while `E.17` and `E.24.PUB` govern publication.
 - Use `C.3` and `C.3.1` only if the next claim must quantify over a locally defined participant set, test membership or substitution, or order kinds. Otherwise do not mint a local kind.
-- `A.1`, `A.2`, `A.2.1`, `A.3.1`, `A.3.4`, and `A.15.1` govern the direct criteria for systems, roles, role assignments, methods, actual bounded change, and work.
+- Use `A.1`, `A.2`, `A.2.1`, `A.3.1`, `A.3.4`, and `A.15.1` for the direct criteria for Systems, exact local system-role kinds, separate System-classification judgments, direct `U.SystemRoleAssignment` species, Methods, actual bounded change, and Work.
 - The exact predicates defined in `A.10` constrain evidence relations, and those in `B.3` constrain assurance. `F.9` defines Bridge-description or Bridge Card content and its admitted cross-context-use claims; it does not supply the separate direct Bridge predicate, obtaining condition, or occurrence identity. Use the exact predicate and identity rule stated by a current source; represent them as a `ClaimGraph` only when their identity must travel. If none exists after both endpoints and the needed sentence are explicit, record the established A.6.RCD `missing-governor` result. `C.30.P` defines or constrains architecture wording, `C.16.P` characteristic wording, `G.2` palette/front/archive distinctions, and `A.6.F` function-like wording. Each cited pattern contributes the named definition or constraint; its identifier is a locator only when that reference must travel.
 - `A.16.1` and `B.4.1` retain cue material that has not reached a grounded relation-bearing claim; `B.5.2.0` carries a stabilized open explanatory question that has no selected relation answer; `A.16.2` records reopen, backoff, or respecification when a published relation overstates articulation, closure, or framing. Use `A.16.0` only when lineage, branching, loss, or responsibility-transfer history itself must be published.
-- `E.10` governs wording triggers and `E.10.ARCH` shared recovery architecture. `F.18` governs designation after objects and relations are recovered.
+- Use `E.10` for wording triggers, E.10.ROLE to recover the actual branch of bare *role*, and `E.10.ARCH` for the shared recovery architecture. Use `F.18` for designation after objects and relations are recovered.
 

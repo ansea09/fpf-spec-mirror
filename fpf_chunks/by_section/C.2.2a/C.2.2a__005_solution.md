@@ -6,12 +6,12 @@ section_id: "C.2.2a:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2a/C.2.2a__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.2a — U.LanguageStateSpace - Language-state chart over U.CharacteristicSpace"
   - "C.2.2a:4 — Solution"
-line_start: 42747
-line_end: 42861
+line_start: 42970
+line_end: 43084
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,7 +48,7 @@ It is not a second kernel state-space apparatus beside `A.19`. It is the particu
 
 `U.LanguageStateSpace` is a dependent durable chart value under `U.CharacteristicSpace` and the episteme language-state boundary, not a new root state-space U-kind. Its identity is the declared characteristic-space chart for governed episteme publication positions. Score tables, publication forms, local route maps, and carriers can publish or use the chart, but they are not the chart.
 
-#### C.2.2a:4.1 - Core role
+#### C.2.2a:4.1 - Core use
 `U.LanguageStateSpace` gives FPF one explicit declared chart for answering five questions:
 
 - which basis slots define where the governed episteme stands;
@@ -65,7 +65,7 @@ Each basis slot publishes a `ValueSet(slot)`, interval, or other admissible set-
 `position` language is therefore admissible here only as shorthand for such slot-explicit `A.19` coordinate claims. It does **not** authorize a rival process-sequence or feature-vector story.
 
 #### C.2.2a:4.3 - Facet basis
-The language-state chart is coordinated by explicit facet governing patterns rather than by an informal master progression. In the current cluster the basis is formed by:
+The language-state chart is coordinated by explicit facet subject patterns rather than by an informal master progression. In the current cluster the basis is formed by:
 
 - `C.2.3` for `F`;
 - `C.2.4` for articulation explicitness;
@@ -125,9 +125,9 @@ A position claim in `U.LanguageStateSpace` is distinct from:
 - the current publication form,
 - the MVPK face that renders that publication,
 - the carrier that stores or displays it,
-- or the endpoint-pattern-governed publication that may result from it.
+- or the endpoint-subject-qualified publication that may result from it.
 
-Those roles are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without collapsing it into any one bearer lane.
+Those publication lanes are coupled but distinct. `U.LanguageStateSpace` keeps the position claim readable without collapsing it into any one bearer lane.
 
 #### C.2.2a:4.8 - Threshold publication discipline
 If a threshold is used to justify a move or endpoint entry, that threshold shall be stated on explicit basis slots in the chart. Statements such as `this is now ready`, `this has matured`, or `this is still too early` are non-conformant when they substitute for undeclared slot conditions.
@@ -150,7 +150,7 @@ The current `Language-State & Semantic Routing Corridor` in this cluster is a di
 
 `A.16.1 / U.PreArticulationCuePack` remains the earliest durable seam publication form in that corridor. `B.4.1` is the explicit route-bearing seam after cue preservation, not the first publication in the corridor. `B.5.2.0` is typed prompt entry, not generic route governance.
 
-`C.16.Q`, `A.6.A`, `A.6.P`, `B.5.2`, `A.15`, and `C.25` are seam-coupled downstream governing patterns rather than members of this language-state governing-pattern set.
+`C.16.Q`, `A.6.A`, `A.6.P`, `B.5.2`, `A.15`, and `C.25` are seam-coupled downstream subject patterns rather than members of this language-state subject-pattern set.
 
-This note gives readers one corridor map only. It does not relocate articulation, closure, route, prompt, bridge, or endpoint semantics out of their current governing patterns.
+This note gives readers one corridor map only. It does not relocate articulation, closure, route, prompt, bridge, or endpoint semantics out of their current subject patterns.
 

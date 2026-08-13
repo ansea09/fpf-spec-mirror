@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.2.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
-line_start: 27934
-line_end: 28158
+line_start: 28136
+line_end: 28360
 dependencies:
   - "A.16"
   - "A.16.0"

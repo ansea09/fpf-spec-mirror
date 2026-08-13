@@ -6,12 +6,12 @@ section_id: "C.19.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:9 — Consequences"
-line_start: 50318
-line_end: 50321
+line_start: 50574
+line_end: 50577
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -34,5 +34,5 @@ keywords:
 
 ### C.19.2:9 - Consequences
 
-The pattern makes cheap, truthful use a first-class result. Teams can apply one current method without ceremony, yet repeated or consequential uses can justify configuration or a real choice. The cost is naming the result, guarantee, conditional owner, and enough work economics to support the path. That bounded burden prevents apparatus display from replacing practical return.
+The pattern makes cheap, truthful use a first-class result. Teams can apply one current method without ceremony, yet repeated or consequential uses can justify configuration or a real choice. The cost is naming the result, guarantee, applicable condition or predicate, and enough work economics to support the path. That bounded burden prevents apparatus display from replacing practical return.
 

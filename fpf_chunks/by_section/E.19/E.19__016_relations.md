@@ -6,12 +6,12 @@ section_id: "E.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__016_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:12 — Relations"
-line_start: 86358
-line_end: 86390
+line_start: 87035
+line_end: 87068
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,14 +27,12 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities (e.g"
-  - "and (if needed) reference them from CC items"
+  - "MUST NOT modify modeled-world entities such as Earth"
+  - "a system-role kind"
+  - "an assignment"
   - "inside the predicate)"
+  - "or a holon"
   - "where a non-deontic Invariant: predicate is required)"
-  - "“Earth”"
-  - "“RoleAssignment”"
-  - "“Role”"
-  - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
 ### E.19:12 - Relations
@@ -53,7 +51,8 @@ keywords:
 
 * **Coordinates with:**
 
-  * `A.15.1`, `A.6.1`, `A.2`, and `A.2.1` (dated review/repair/verification work, exact check applications and bindings, reviewer role, and obtaining assignment)
+  * `A.15.1`, `F.6`, `A.2`, and `A.2.1` (actual review, repair, or verification Work and the assignment under which each performer acted); `A.6.1` separately defines check applications and bindings
+  * `A.3.2` and `E.10.ROLE` (the full `U.MethodDescription` membership test and recovery of an ambiguous source *role* without forcing a system-role kind, assignment, participant, or representation position)
   * `C.2.1` (finding, focused-verification, aggregate review-result, and optional record epistemes)
   * `A.10` and `B.3` (evidence use/provenance and any assurance or reliance on an E.19 result)
   * `F.10` and `E.24.PUB` (status use/interpretation and publication occurrence/form/carrier; neither is review work or admission authority)

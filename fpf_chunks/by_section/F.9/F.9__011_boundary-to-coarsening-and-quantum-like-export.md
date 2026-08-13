@@ -6,12 +6,12 @@ section_id: "F.9:9"
 section_title: "Boundary to coarsening and quantum-like export"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__011_boundary-to-coarsening-and-quantum-like-export.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:9 — Boundary to coarsening and quantum-like export"
-line_start: 92884
-line_end: 92898
+line_start: 93656
+line_end: 93670
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -61,9 +63,9 @@ Use this order:
 1. resolve the exact F.17 cells, state the relation-semantic profile, and test whether the Bridge obtains;
 2. state the proposed use separately as `<u,d,r,t>` and give the C.2.1 claim its polarity;
 3. recover the exact A.10 evidence-provenance relation and local disposition, or the B.3 claim or disposition selected for that use;
-4. if the use happened, identify the actual governed object and apply its direct owner;
+4. if the use happened, identify the actual governed object and apply its subject pattern;
 5. add a Bridge Card only if durable packaging pays;
 6. open A.6.3.CSC, C.26.1, or C.26.2 only when coarsening, probe effects, or failure of any faithful-enough report is the live question.
 
-When a state, metric, option, causal reading, or viability claim crosses the semantic boundary, its direct owner states what survives and what is lost. The Bridge supplies only the semantic-correspondence premise; the bounded-use claim supplies only the named suitability proposition.
+When a state, metric, option, causal reading, or viability claim crosses the semantic boundary, its subject pattern states what survives and what is lost. The Bridge supplies only the semantic-correspondence premise; the bounded-use claim supplies only the named suitability proposition.
 

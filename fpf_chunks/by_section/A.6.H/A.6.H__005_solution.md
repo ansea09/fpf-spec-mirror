@@ -6,20 +6,39 @@ section_id: "A.6.H:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.H/A.6.H__005_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.H — Wholeness Language Unpacking — RPR-WHOLE"
   - "A.6.H:4 — Solution"
-line_start: 21161
-line_end: 21274
+line_start: 21414
+line_end: 21527
 dependencies:
+  - "A.1"
+  - "A.10"
   - "A.14"
   - "A.15"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.PROD"
+  - "A.22"
+  - "A.3.1"
+  - "A.3.2"
   - "A.6.5"
   - "A.6.P"
+  - "A.6.RCD"
   - "A.7"
   - "B.1.1"
   - "B.1.4"
+  - "B.1.5"
+  - "B.2"
+  - "B.3"
+  - "C.13"
+  - "C.16"
+  - "C.16.P"
+  - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.24.PUB"
 keywords:
   - "boundary"
   - "completeness"
@@ -29,7 +48,7 @@ keywords:
   - "order/time"
   - "part-of"
   - "publication-carrier and EntityOfConcern/Description distinction"
-  - "role-method-work"
+  - "system-role–Method–Work distinctions"
   - "wholeness"
 ---
 
@@ -42,12 +61,12 @@ Enter with:
 - one exact sentence or decision that depends on wholeness-family wording;
 - the concrete candidate objects recovered under A.6.P:4.11;
 - the receiving use that would change if the wording were read differently; and
-- any already known direct owner.
+- any already known subject pattern.
 
 Return one of:
 
-1. one or more readable direct claims, each naming the predicate or claim family, ordered participants, material qualification, and governing pattern;
-2. an explicit owner-return when a measurement, evidence, episteme, publication, method, plan, Work, production, or completion owner already governs the question; or
+1. one or more readable direct claims, each naming the predicate or claim family, ordered participants, material qualification, and subject pattern;
+2. an explicit subject-pattern return when a measurement, evidence-use, episteme, publication, Method, plan, Work, production, or completion pattern already defines or tests the question; or
 3. an A.6.RCD `missing-governor[...]` result after the exact participants and needed sentence are known but no current direct predicate closes the use.
 
 When evidence cannot yet select among several readings, keep the candidate objects, discriminating questions, and blocked receiving use explicit in ordinary prose. Do not turn that temporary uncertainty into a `wholenessSituation`, card, bundle, lifecycle record, or new U-kind.
@@ -58,13 +77,13 @@ Use the following sequence only as far as the current sentence requires:
 
 1. **Recover the working question.** State what a reader must decide, do, accept, measure, rely on, start, continue, or stop. The cue word selects no branch.
 2. **Name the subject and reference level.** Distinguish the referent entity, claim-bearing episteme, publication occurrence, publication form, presentation carrier, Method, MethodDescription, WorkPlan, performed Work, and evidence carrier. Keep only the subjects current in this case.
-3. **Recover a candidate whole only for an actual whole claim.** Identify the candidate individual, its direct identity owner, relevant boundary or delimitation, environment, and at least one interaction, dependency, or constraint across that boundary when the use needs it.
-4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object under its own owner.
+3. **Recover a candidate whole only for an actual whole claim.** Identify the candidate individual, its direct identity pattern, relevant boundary or delimitation, environment, and at least one interaction, dependency, or constraint across that boundary when the use needs it.
+4. **Identify the alleged parts independently.** A label, location, list, graph node, file section, timestamp, or common name does not identify a part. Recover each component, constituent, member, portion, temporal restriction, Method factor, Work part, or other object under its own subject pattern.
 5. **State every direct relation occurrence separately.** Name exact participants and test the direct predicate. A relation obtains neither because the whole was recognized nor because a trace, view, or record lists it.
 6. **Add construction or selected structure only when the receiving use consumes it.** `C.13` may report already recovered parts, relations, constraints, and a construction rule. `A.22` may identify one selected structure when its selection basis and identity discriminators are current. Neither creates the direct facts.
 7. **Recognize or reidentify the whole only when that question is current.** Use `A.1` for holon recognition and `B.2` for a remaining whole-reidentification question after direct existing-whole explanations have been tested. A changed adjective or part list alone decides neither.
-8. **Separate coverage, completion, and performed Work.** Name what is covered, under which scope and criterion, by which exact relation, and whether the claim concerns a MethodDescription, capability, plan, Work occurrence, production result, evidence set, or another subject. Use A.15.1/A.15.PROD or the exact direct owner; do not treat a plan as performed Work.
-9. **Stop at the direct owner.** A.6.H owns the unpacking move, not the recovered whole, relation, characteristic, Work, evidence, or verdict.
+8. **Separate coverage, completion, and performed Work.** Name what is covered, under which scope and criterion, by which exact relation, and whether the claim concerns a MethodDescription, capability, plan, Work occurrence, production result, evidence set, or another subject. Use A.15.1/A.15.PROD or the exact subject pattern; do not treat a plan as performed Work.
+9. **Stop after unpacking.** Use A.6.H to unpack the overloaded wholeness wording, then take each recovered whole, relation, characteristic, Work, evidence, or verdict to its applicable pattern.
 
 #### A.6.H:4.3 - Classify `integrity` by the claim it carries
 
@@ -72,18 +91,18 @@ The word `integrity` never chooses mereology by itself.
 
 | Current sentence | First exact objects | Governing exit | Blocked overread |
 | --- | --- | --- | --- |
-| “Structural integrity is measured at X.” | bearer, integrity Characteristic, Scale or coordinate, Unit when needed, measurement method, result, evidence pointer, and time stance | `C.16.P`, then `C.16` and the exact measurement owner | Do not invent a candidate whole, boundary, parts, or `PhaseOf` merely because the Characteristic is named *integrity*. |
+| “Structural integrity is measured at X.” | bearer, integrity Characteristic, Scale or coordinate, Unit when needed, measurement method, result, evidence pointer, and time stance | `C.16.P`, then `C.16` and the exact measurement pattern | Do not invent a candidate whole, boundary, parts, or `PhaseOf` merely because the Characteristic is named *integrity*. |
 | “This report supports the integrity claim.” | exact claim, evidence-bearing episteme or carrier, evidence-use relation, relying use, limitations, and currentness when required | `A.10`; `B.3` only when an assurance claim is current | A report title, provenance link, or measured value is neither assurance nor a whole. |
 | “The assembled pump remains an integral whole.” | exact pump, direct identity rule, boundary, independently identified parts, direct assembly or parthood relations, any current selected structure, and the whole-recognition or reidentification question | `A.14`, `C.13`, `A.22`, `A.1`, or `B.2` as selected by the actual claim | The adjective *integral*, a BoM, or an assembly record does not establish the whole or relations. |
-| “Data integrity” or another defined term of art | exact bearer, defined Characteristic or constraint, threat/assumption or qualification basis, and receiving use | the characteristic, constraint, security, measurement, or evaluation owner | Do not reinterpret the term as structural wholeness unless the sentence separately makes that claim. |
+| “Data integrity” or another defined term of art | exact bearer, defined Characteristic or constraint, threat/assumption or qualification basis, and receiving use | the characteristic, constraint, security, measurement, or evaluation pattern | Do not reinterpret the term as structural wholeness unless the sentence separately makes that claim. |
 
 If the source leaves these readings genuinely open, preserve the alternatives and block the named use until evidence discriminates them.
 
 #### A.6.H:4.4 - Select the direct relation, not a generic part edge
 
-| Intended claim | Required test and owner | Typical non-inference |
+| Intended claim | Required test and subject pattern | Typical non-inference |
 | --- | --- | --- |
-| Physical or structural component | Identify both entities, the direct `ComponentOf` predicate, boundary relevance, and obtaining facts under `A.14`/the structural owner. | Diagram containment or removal from a list does not establish component parthood. |
+| Physical or structural component | Identify both entities, the direct `ComponentOf` predicate, boundary relevance, and obtaining facts under `A.14`/the structural pattern. | Diagram containment or removal from a list does not establish component parthood. |
 | Conceptual or content constituent | Identify the exact episteme or publication-unit whole and the exact constituent under `A.14`. Keep the described referent separate. | A section in a file is not therefore a component of the described system. |
 | Measured portion | Name the whole, portion, extensive measure μ, compatible unit, additivity/non-overlap rule, and boundary under `A.14`. | A percentage, share, or smaller numeral does not make a structural component. |
 | Collection membership | Name the collection, its identity rule, member, and direct `MemberOf` occurrence. | Membership is not transitive parthood and does not make an acting collective system. |
@@ -98,10 +117,10 @@ Ask what the next reader may do because the claim is supposedly complete.
 
 | Candidate reading | What must be named | Direct return |
 | --- | --- | --- |
-| Complete whole or assembly | candidate whole, identity, boundary, required parts, direct relations, construction rule when current, and completion predicate | `A.1`, `A.14`, `C.13`, `A.22`, or the exact construction/completion owner |
-| Specification coverage | exact claim-bearing episteme, described EntityOfConcern, effective ReferenceScheme, required content or criterion set, coverage predicate, scope, and gaps | `C.2.1`, `A.3.2`, and the exact coverage/evaluation owner |
-| Capability coverage | exact holder, capabilities, required actions or conditions, scope, and direct coverage criterion | `A.2.2` and the exact capability/coverage owner |
-| Work coverage or completion | exact Work occurrence(s), temporal extent, performed parts or episodes when needed, completion or production predicate, acceptance boundary, and evidence | `A.15.1`, `A.15.PROD`, or the exact completion/acceptance owner |
+| Complete whole or assembly | candidate whole, identity, boundary, required parts, direct relations, construction rule when current, and completion predicate | `A.1`, `A.14`, `C.13`, `A.22`, or the exact construction/completion pattern |
+| Specification coverage | exact claim-bearing episteme, described EntityOfConcern, effective ReferenceScheme, required content or criterion set, coverage predicate, scope, and gaps | `C.2.1`, `A.3.2`, and the exact coverage/evaluation pattern |
+| Capability coverage | exact holder, capabilities, required actions or conditions, scope, and direct coverage criterion | `A.2.2` and the exact capability/coverage pattern |
+| Work coverage or completion | exact Work occurrence(s), temporal extent, performed parts or episodes when needed, completion or production predicate, acceptance boundary, and evidence | `A.15.1`, `A.15.PROD`, or the exact completion/acceptance pattern |
 | Evidence coverage | exact claim set, evidence-bearing objects, evidence-use relations, scope, limitations, and relying use | `A.10`; `B.3` only for an assurance claim |
 | End-to-end method or workflow | exact Methods, method parts and joins, exposed interactions, failure and stop conditions; performed runs remain separate | `A.3.1` and `B.1.5`, with A.15.1 for actual Work |
 
@@ -113,23 +132,23 @@ The following recurring expressions are useful review cues, not a second trigger
 
 - *whole*, *entire*, *integrated*, *coherent*, *holistic* — ask whether there is an actual candidate whole, a measured or assurance claim, or only rhetoric;
 - *part*, *piece*, *component*, *module*, *element*, *subsystem*, *includes*, *contains*, *comprises* — recover the object and direct relation rather than accepting the noun;
-- *phase*, *version*, *revision*, *edition*, *lifecycle* — apply the direct identity owner before any history label;
+- *phase*, *version*, *revision*, *edition*, *lifecycle* — apply the direct identity pattern before any history label;
 - *complete*, *turnkey*, *end-to-end*, *fully specified* — recover the exact coverage or completion claim;
 - *pipeline*, *workflow*, *process*, *step*, *stage* — distinguish Method, MethodDescription, WorkPlan, performed Work, order relation, and publication representation;
-- *collection*, *group*, *team*, *set* — distinguish membership, acting system, role assignments, and selected collection structure;
+- *collection*, *group*, *team*, *set* — distinguish membership, acting system, system-role assignments, and selected collection structure;
 - *context*, *environment*, *discipline as a whole* — name the actual bounded context, episteme family, community, organization, or other subject before making a boundary or nesting claim.
 
-When a cue occurs inside a defined term of art, retain the definition and direct owner. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
+When a cue occurs inside a defined term of art, retain the definition and subject pattern. Open A.6.H only if the sentence also makes an unresolved whole, part, structure, coverage, or completion claim.
 
 #### A.6.H:4.7 - Describe change through the object that changed
 
 When a wholeness-looking story changes, name the exact object and direct relation:
 
-- a different boundary or interaction claim returns to the boundary/delimitation owner;
-- an added, removed, or differently related part returns to the direct parthood, membership, portion, or structure owner;
+- a different boundary or interaction claim returns to the boundary or delimitation pattern;
+- an added, removed, or differently related part returns to the direct parthood, membership, portion, or structure pattern;
 - changed episteme content, EntityOfConcern, or effective ReferenceScheme identifies another episteme under C.2.1, with edition continuity tested separately;
-- a different publication form, occurrence, or carrier stays with publication and carrier owners;
-- a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim stays with its own owner;
+- a different publication form, occurrence, or carrier stays with publication and carrier patterns;
+- a changed Method, MethodDescription, WorkPlan, Work history, production result, or completion claim stays with its own subject pattern;
 - a changed coverage scope, criterion, evidence set, or assurance use repairs that direct claim rather than a generic completeness status.
 
 Do not substitute a generic change lexicon for those objects and predicates. A readable verb is welcome when the exact direct claim remains recoverable.
@@ -137,7 +156,7 @@ Do not substitute a generic change lexicon for those objects and predicates. A r
 #### A.6.H:4.8 - Guardrails
 
 1. No situation record, card, bundle, adjective, table, graph, or trace is the whole or direct relation by presence.
-2. No generic `partOf` closes a load-bearing claim when a direct relation kind or owner is required.
+2. No generic `partOf` closes a load-bearing claim when a direct relation kind or subject pattern is required.
 3. No order, plan, or Work history is structural parthood by position.
 4. No membership is upgraded to component assembly or acting-system identity.
 5. No cross-boundary flow or influence is treated as a part merely because it crosses the boundary.

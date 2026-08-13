@@ -6,12 +6,12 @@ section_id: "A.6.RCD:5"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:5 — Archetypal Grounding — Worked Cases"
-line_start: 16962
-line_end: 17025
+line_start: 17190
+line_end: 17253
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -52,17 +52,17 @@ No production or entity-inception claim is current because `Housing_42` already 
 
 **Disposition and stop.** Stop at disposition 1 under A.2.3. No new compound-law episteme, predicate definition, relation kind, or `RelationSignature` is needed. Open A.6.REL only if a later use must distinguish this fulfilment occurrence from another occurrence of the same admitted relation.
 
-#### A.6.RCD:5.2 - Role enactment: one local compound claim
+#### A.6.RCD:5.2 - System-role assignment and performed Work: use A.2.1 and F.6 directly
 
-**Situation.** A work record needs the readable claim that a holder enacted an assigned role in one exact work occurrence.
+**Situation.** A work record needs the readable claim that one actual system performed one exact Work occurrence under one exact assignment to a system role.
 
-**Base and derivation.** Recover the obtaining `U.RoleAssignment`, the holder's exact participation in the work, the work occurrence, and the direct relation that makes that work relevant to the assigned role. State the local compound claim in one `C.2.1` episteme whose exact `EntityOfConcern` is the `U.RoleAssignment` occurrence under concern; neither the work-record wording, holder, work occurrence, nor a union of nearby objects substitutes for that concern.
+**Base and direct result.** Recover `RA`, one obtaining occurrence of a declared direct species under `U.SystemRoleAssignment`; recover its holder `S : U.System = RA.HolderSystemSlot`; and recover exact `W : U.Work`. Apply F.6 to the direct predicate `performedUnderAssignment(W, RA)` and verify that `S` is the actual performer of `W`. A C.2.1 episteme may assert that result for the receiving use. The system performs the Work; the assignment supplies the holder and assigned-kind projection but neither acts nor creates another participation relation.
 
-**Positive case.** The same admitted `U.System` that holds the role assignment participates in the qualifying work while the assignment obtains and the work satisfies the direct role-relevance condition.
+**Positive case.** `RA` obtains and covers `W`, `RA.HolderSystemSlot = S`, and F.6's Work-attribution predicate holds for `W` and `RA`. The readable result is “S performed W under RA.” No generic enactment object is needed.
 
-**Discriminating failure.** The assignment obtains, but another system performs the work, or the named holder performs work outside the assignment or outside the relevant work relation. Assignment plus nearby work is therefore insufficient.
+**Discriminating failure.** The assignment obtains, but another system performs the Work, or `S` performs Work outside the assignment's extent. Assignment plus nearby Work is insufficient; capability, responsibility, authority, and a result also remain separate claims.
 
-**Disposition and stop.** Disposition 2. Keep the readable local enactment claim; admit no universal `RoleEnactment` kind, occurrence, or `RelationSignature`. If a later receiving use demonstrates a repeated need for occurrence semantics, reopen that exact role-enactment case rather than generalizing from the verb.
+**Disposition and stop.** Stop at disposition 1 under A.2.1 and F.6. Admit no `RoleEnactment` kind, compound relation, occurrence, or `RelationSignature`. If a later use needs another participation or functioning relation in addition to Work attribution, name its direct predicate or return that exact missing governor instead of generalizing from *enacted*.
 
 #### A.6.RCD:5.3 - Supply-chain reachability: subject-bounded query or reusable predicate definition
 

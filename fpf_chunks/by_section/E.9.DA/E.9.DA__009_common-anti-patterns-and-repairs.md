@@ -6,12 +6,12 @@ section_id: "E.9.DA:8"
 section_title: "Common anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__009_common-anti-patterns-and-repairs.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:8 — Common anti-patterns and repairs"
-line_start: 73629
-line_end: 73646
+line_start: 74095
+line_end: 74112
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -29,7 +29,7 @@ keywords:
 
 | Anti-pattern | Repair |
 |---|---|
-| **Specification or record as evaluator.** A filled coordinate table, published record, or E.9.DA pattern is said to have assessed the DRR, issued assurance, accepted it, or authorized drafting. | Name the capable agent acting in the evaluator role. Recover the semantic method, dated work, application, result, witnesses or evidence use, assurance, and receiving authority only when the current claim or named reliance depends on those distinctions; the optional record merely carries references. |
+| **Specification or record as evaluator.** A filled coordinate table, published record, or E.9.DA pattern is said to have assessed the DRR, issued assurance, accepted it, or authorized drafting. | Name the actual evaluator `U.System`; do not replace it with an evaluator-role label. Leave an ordinary review outside Work admission. If a reliance-bearing result asserts dated `U.Work`, use the complete chain in 4.2. An optional local system-role classification is separate, and neither an assignment nor the record acts. |
 | **Heading-complete DRR.** Headings exist but authors cannot tell what to write. | Return the missing selected answer, selected-locus obligation, and first drafting action for repair; in a complete reusable evaluation, lower the corresponding coordinates. |
 | **Source packet in DRR clothing.** Sources are preserved but FPF decisions are absent. | State selected payload, rejected payload, and selected-locus obligations. |
 | **Address completion without architecture.** Every locus is named but the split or merge is wrong. | Repair `FPFContentArchitectureSelectionAdequacy`. |

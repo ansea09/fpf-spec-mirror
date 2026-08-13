@@ -1,31 +1,35 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.5"
-pattern_title: "Naming Discipline for U-kind Names and RoleDescription Labels"
+pattern_title: "Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
 section_id: "F.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__014_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.5 — Naming Discipline for U-kind Names and RoleDescription Labels"
+  - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:12 — Relations"
-line_start: 91591
-line_end: 91600
+line_start: 92320
+line_end: 92329
 dependencies:
   - "A.10"
   - "A.15"
-  - "A.15.1"
   - "A.2"
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RSIR"
   - "B.3"
+  - "C.16"
   - "C.2.1"
+  - "C.3"
+  - "C.3.3"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.24.UK"
   - "F.10"
   - "F.13"
@@ -39,21 +43,21 @@ dependencies:
   - "F.9"
   - "G.6"
 keywords:
-  - "U-kind naming"
-  - "lexical rules"
-  - "morphology"
-  - "naming conventions"
-  - "role-description labels"
-  - "twin registers"
+  - "Plain and Tech designations"
+  - "SystemRoleKindDescription label"
+  - "U-kind name"
+  - "local meaning"
+  - "naming after ontology recovery"
+  - "system-role-kind name"
 ---
 
 ### F.5:12 - Relations
 
-**Builds on.** `A.2`, `F.4`, `F.7`, `F.18`, `E.10`, and `E.10.ARCH`.
+**Builds on.** A.2, C.3, F.4, F.7, F.18, E.10, E.10.ROLE, and E.10.ARCH.
 
-**Coordinates with.** `E.24.UK` for U-kind admission and structural `U.*` repair; `A.2.1` for role assignment; `A.2.2` for capability; `A.2.5` for role state; `A.2.7` for role relation structure and role-algebra lens use; `A.6.5` for relation-slot names; `A.15` and A.15.1 for role-method-work alignment and dated work; C.2.1 and direct result patterns for claim-bearing and result epistemes; G.6 and A.10 for provenance and ordinary evidence reliance; B.3 for assurance-bearing reliance; `F.8` for mint-or-reuse; `F.9` for exact cross-taxonomy and cross-scheme Bridge occurrences; `F.10` for status mapping; `F.13` for aliases and continuity; `F.14` for anti-explosion; `F.15` for harness checks; `F.17` for public term-sheet use.
+**Coordinates with.** E.24.UK for U-kind admission; A.2.1 for system-role assignment; A.2.2 for capability; A.2.5 for assignment state; A.2.7 for relations among system-role kinds; A.6.5 and A.6.RSIR for relation positions; A.15 for system-role–Method–Work alignment and dated Work; C.16 for measurement results; C.2.1 for descriptions and result epistemes; G.6 and A.10 for provenance and ordinary evidence reliance; B.3 for assurance-bearing reliance; F.8 for mint or reuse; C.3.3 and F.9 for exact cross-context Bridges; F.10 for status; F.13 for lineage; F.14 for anti-explosion; F.15 for conformance; and F.17 for public term-sheet use.
 
-**Used by.** Part F unification patterns, role-description authors, Concept-Set authors, E.10 repairs that uncover naming rather than only phrase-use issues, and any FPF pattern that creates a durable local name for a U-kind or work-facing role label.
+**Used by.** Part F naming patterns, F.4 description authors, Concept-Set authors, E.10 repairs that uncover naming rather than phrase-use issues, and any pattern use that creates a durable local name for a U-kind, system-role kind, or `SystemRoleKindDescription`.
 
-**Does not replace.** Direct evidence-use, status-use, requirement-use, source-use, publication-use, assurance, gate, decision, relation-signature, method, work, or architecture patterns.
+**Does not replace.** Direct evidence, status, requirement, source, publication, assurance, gate, decision, responsibility, relation-signature, Method, Work, or architecture patterns.
 

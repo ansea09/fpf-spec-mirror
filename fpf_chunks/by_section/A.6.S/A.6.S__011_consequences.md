@@ -6,12 +6,12 @@ section_id: "A.6.S:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:9 — Consequences"
-line_start: 21016
-line_end: 21026
+line_start: 21269
+line_end: 21279
 dependencies:
   - "A.12"
   - "A.3"
@@ -53,5 +53,5 @@ keywords:
 | **Cleaner separation of concerns.** Signatures stay free of gates and obligations; mechanisms and norms stay explicit.                  | **Temptation to over‑formalize.** Some contexts do not need deep formality. *Mitigation:* apply assurance‑appropriate depth; keep views lightweight. |
 | **Multi‑view publication stays coherent.** Views are projections, not semantic forks.                                                   | **Discipline enforcement needed.** Without review habits, teams regress. *Mitigation:* make CC items part of boundary review checklists.             |
 
-**Adoption test (informative).** A Context is “A.6.S-ready” when, for every TargetSignature change, reviewers can point to (i) the constructor verb(s) used (A.6.5/A.6.6), (ii) the EFEM metadata (`entityOfConcernChangeMode`, slot read/write profile), and (iii) the Work records, role assignments when current, and carriers that enacted publication (A.15, A.15.1, A.2/A.2.1, A.10, E.17).
+**Adoption test (informative).** A Context is “A.6.S-ready” when, for every TargetSignature change, reviewers can point to (i) the constructor verbs used (A.6.5 and A.6.6), (ii) the EFEM metadata (`entityOfConcernChangeMode` and slot read-and-write profile), and (iii) the performer System, dated Work, F.6 attribution, and publication carriers (A.1, A.15, A.15.1, A.2.1, F.6, A.10, E.17). An ordinary short account may omit an assignment identifier not used by its receiving claim.
 

@@ -6,12 +6,12 @@ section_id: "C.22:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22/C.22__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22 — Task Typing and TaskSignature Assignment (Problem-CHR)"
   - "C.22:intro — Intro"
-line_start: 50962
-line_end: 50975
+line_start: 51218
+line_end: 51231
 dependencies:
   - "A.6.0"
   - "C.16"
@@ -35,9 +35,9 @@ keywords:
 
 **Purpose.** Give FPF an admissible, minimal, and portable `TaskSignature` declaration for selector-facing use after the problem-side episteme is stable enough for Principles-to-Work, eligibility, acceptance, or policy-governed choice. `C.22.2` carries the first problem-framing episteme for a messy signal. C.22 constitutes one CHR-grounded `U.Signature` and, when a receiving use is current, relates the exact problem-side episteme to that signature through `TaskSignatureAssignmentRelation`. Typed characteristics, unknowns, evidence-use relations, scope, currentness, and any scheme or plane crossings stay visible without adding a generic setting, carrier, or organization as a participant.
 
-**Body-level kind boundary.** `TaskSignature` is a C.2.1 episteme and a species of existing `U.Signature`, conformant to A.6.0 direct declaration fields, Vocabulary, Laws, and Applicability. It is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation` is a separate obtaining relation among one exact problem-side episteme, one exact TaskSignature episteme, and one exact receiving-use episteme. `ProblemCard` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain signature vocabulary or projections unless a direct governing pattern admits another kind.
+**Body-level kind boundary.** `TaskSignature` is a C.2.1 episteme and a species of existing `U.Signature`, conformant to A.6.0 direct declaration fields, Vocabulary, Laws, and Applicability. It is not a record format and introduces no new root U-kind. `TaskSignatureAssignmentRelation` is a separate obtaining relation among one exact problem-side episteme, one exact TaskSignature episteme, and one exact use episteme. `ProblemCard` is the C.22.2 problem-side episteme used before that assignment. `KindSet` contains C.3 `U.Kind` values for selected entities. Descriptor maps, telemetry hooks, policy ids, and selector fields remain signature vocabulary or projections unless an exact admission predicate and current subject assertion establish another kind.
 
-**Primary EntityOfConcern.** This pattern governs one `TaskSignature` episteme. Inside it, `EntityOfConcernRef` identifies the exact task or work target declared for the receiving use; it does not identify the signature, `TaskKind`, carrier, organization, or publication. `TaskKind`, optional `TaskFamilyRef`, `KindSet`, characteristic bindings, and scope relations are declaration content. A later `SelectorOutcome` remains a downstream result.
+**Primary EntityOfConcern.** This pattern defines or constrains one `TaskSignature` episteme. Inside it, `EntityOfConcernRef` identifies the exact task or work target declared for the receiving use; it does not identify the signature, `TaskKind`, carrier, organization, or publication. `TaskKind`, optional `TaskFamilyRef`, `KindSet`, characteristic bindings, and scope relations are declaration content. A later `SelectorOutcome` remains a downstream result.
 
 **Placement.** Part C (Kernel Extensions Specifications) -> Cluster C.I (Core CHRs and CALs).
 **Depends on:** **C.16 MM-CHR** (measurement admissibility), **G.5** (selector S2 and S3), **G.0** (CG-Spec invariants).

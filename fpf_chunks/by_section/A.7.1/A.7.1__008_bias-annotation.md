@@ -6,12 +6,12 @@ section_id: "A.7.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.1/A.7.1__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.1 — Consequence-Guided Ontological Problem Solving"
   - "A.7.1:6 — Bias-Annotation"
-line_start: 21975
-line_end: 21980
+line_start: 22228
+line_end: 22233
 dependencies:
   - "A.7"
   - "A.7.2"
@@ -32,5 +32,5 @@ keywords:
 
 Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: engineering uses in which ontology may change a practical result.
 
-Ontology-display bias favors elaborate category systems even when direct owners already decide the case. Lexical bias treats clear wording as proof of sound ontology. Evidence bias converts unresolved reliance into a third world state. The mitigation is a defeated consequence, first-capable locus, direct-owner return, and positive stop.
+Ontology-display bias favors elaborate category systems even when existing predicates and current facts already decide the case. Lexical bias treats clear wording as proof of sound ontology. Evidence bias converts unresolved reliance into a third world state. The mitigation is a defeated consequence, first-capable locus, subject-qualified result or blocker, and positive stop.
 

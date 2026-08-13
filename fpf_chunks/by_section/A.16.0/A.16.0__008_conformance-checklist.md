@@ -6,12 +6,12 @@ section_id: "A.16.0:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.0/A.16.0__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
   - "A.16.0:7 — Conformance Checklist"
-line_start: 27551
-line_end: 27560
+line_start: 27753
+line_end: 27762
 dependencies:
   - "A.16"
   - "A.16.1"

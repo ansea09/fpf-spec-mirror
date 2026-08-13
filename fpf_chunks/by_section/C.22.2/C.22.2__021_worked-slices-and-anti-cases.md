@@ -6,12 +6,12 @@ section_id: "C.22.2:20"
 section_title: "Worked Slices and Anti-Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__021_worked-slices-and-anti-cases.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:20 — Worked Slices and Anti-Cases"
-line_start: 52332
-line_end: 52379
+line_start: 52592
+line_end: 52643
 dependencies:
   - "A.10"
   - "A.15"
@@ -78,22 +78,26 @@ A support team sees repeated failed hand-offs after a new interface policy. The 
 | ReferenceScheme, ClaimScope, and qualification window | Effective scheme: support-interface hand-off under the new policy edition; ClaimScope: SupportOps-EU; qualification window: two-week incident window. |
 | Problem-side EntityOfConcern | The hand-off ambiguity at the support interface, not the whole escalation process. |
 | Improvement check or acceptance probe | Sample reopened cases; accepted improvement means fewer reopened hand-offs within that ClaimScope and window without increasing unresolved safety, compliance, or customer-impact exceptions. |
-| Problem-formulation follow-up reason | Separate interface wording, role-method-work alignment, evidence and currentness, and possible policy-boundary relations before any method or work-plan choice. |
+| Problem-formulation follow-up reason | Separate interface wording, System, assignment, Method, and Work alignment, evidence and currentness, and possible policy-boundary relations before any Method or WorkPlan choice. |
 | Validation boundary | Same support interface, policy edition, ClaimScope, incident window, and source logs; refresh if the scheme, scope, source logs, window, or acceptance probe changes. |
 | Readiness disposition | `P2W-ready` only for the carried problem-side distinction: hand-off ambiguity under a declared interface policy and acceptance probe. |
-| Exported subject-pattern cues | `A.6` for policy or interface wording, `A.15` for role-method-work alignment, `A.10` for evidence and currentness, `A.21` only if a gate claim later becomes current. |
+| Exported subject-pattern cues | `A.6` for policy or interface wording, `A.2`/`A.2.1`/`F.6`/`A.15` for System, assignment, Method, and Work alignment, `A.10` for evidence and currentness, `A.21` only if a gate claim later becomes current. |
 
 The P2W export is narrow: accepted problem-side material, joint EntityOfConcern, effective ReferenceScheme, ClaimScope, improvement check, validation boundary, freshness condition, and subject-pattern cues. If the improvement check or acceptance probe is missing, the card stays reviewable-only or source-finding and cannot claim `P2W-ready`. If the next user wants evidence sufficiency, a gate decision, Work authorization, or selected method, the card preserves the cue and its direct governor carries that downstream claim.
 
 #### C.22.2:20.1b - Card/PFR Cardinality Replay
 
-Every PFR reference below designates a world-side occurrence independently established under C.22.PFR; no card-side fact supplies its participants, adverse extent, or identity. `PFR-RoleAssignment-17` and later `PFR-RoleAssignment-18` are the two Robot-7 occurrences replayed in C.22.PFR:5. For the unrelated branch, `RoleAssignment-27 : U.RoleAssignment` has the A.2.1 participants `Robot-8`, `InspectorRole`, `MaintenanceRoles-2026`, and `Maintenance-Scheme-A` and obtains without interruption on `[2026-07-13T10:00, 2026-07-13T10:30]`. Its own `Robot8ReleaseCriterionApplicability-4` uses the same governed prohibited-role predicate, maps the assignment's role value to the adverse nominal coordinate and its holder to `Robot-8`, and names `Robot-8`, its exact release ClaimScope, and `[2026-07-13T09:30, 2026-07-13T12:00]` as the other applicability participants. Those facts independently establish `PFR-RoleAssignment-27` on `[2026-07-13T10:00, 2026-07-13T10:30]` under C.22.PFR.
+Every PFR reference below designates a world-side occurrence established under C.22.PFR; no card-side fact supplies its participants, adverse extent, or identity. `PFR-InspectionAssignment-17` and later `PFR-InspectionAssignment-18` are the two Robot-7 occurrences replayed in C.22.PFR:5.
+
+For the unrelated branch, `InspectionReleaseAssignment` is a declared `U.SystemRoleAssignment` species. Occurrence `InspectionAssignment-27` has admitted System `Robot-8` as holder and local kind `InspectorSystemRole` as assigned-kind value. It obtains without interruption on `[2026-07-13T10:00, 2026-07-13T10:30]`; `MaintenanceRoles-2026`, `Maintenance-Scheme-A`, and the interval description interpret or describe the assertion but are not extra assignment participants.
+
+`Robot8ReleaseCriterionApplicability-4` uses predicate `NoInspectorSystemRoleBeforeValidation-v2`, maps the occurrence's assigned-kind participant to the adverse nominal coordinate and its holder to `Robot-8`, and names `Robot-8`, its release ClaimScope, and `[2026-07-13T09:30, 2026-07-13T12:00]` as the other applicability participants. Those facts establish `PFR-InspectionAssignment-27` on `[2026-07-13T10:00, 2026-07-13T10:30]` under C.22.PFR.
 
 | Branch | Exact card-side objects | Mechanically recoverable result |
 |---|---|---|
-| One joint multi-PFR card | `Robot7ReleaseEpisodesCard-E1 = <CG-Robot7-ReleaseEpisodes-E1, Robot-7, Maintenance-Scheme-A>`. The exact ClaimGraph contains two affirmative assertion nodes designating `PFR-RoleAssignment-17` and `PFR-RoleAssignment-18`. A.1 independently identifies `Robot-7 : U.System`, and both PFRs have that same system as their applicability-derived problem-for entity. | One ClaimGraph has one direct, genuinely joint EntityOfConcern, so one card carries both PFR references. The card records two occurrences; it does not merge them. |
-| Unrelated PFRs force split | Proposed `CG-Mixed-RobotReleaseProblems-E0` contains `PFR-RoleAssignment-17` about A.1-identified `Robot-7` and `PFR-RoleAssignment-27` about separately A.1-identified `Robot-8`. No direct pattern in this replay identifies one joint EntityOfConcern for those claims; a list of the two systems is not one. | `E0` cannot constitute one ProblemCard. Split it into `CG-Robot7-ReleaseProblem-E1` in `Robot7ReleaseProblemCard-E1` and `CG-Robot8-ReleaseProblem-E1` in `Robot8ReleaseProblemCard-E1`, each with its own exact system EntityOfConcern and effective scheme. |
-| Several cards retain one PFR | `Robot7SafetyCard-E1 = <CG-Robot7-Safety-E1, Robot-7, RobotSafety-Scheme-A>` qualifies its designation by `SafetyAssuranceViewpoint-E1` and receiving use `AutonomousInspectionReleaseReview-E1`. `Robot7StaffingCard-E1 = <CG-Robot7-Staffing-E1, Robot-7, MaintenancePlanning-Scheme-B>` qualifies its designation by `MaintenancePlanningViewpoint-E1` and receiving use `RoleAssignmentRepairPlanning-E1`. Both exact ClaimGraphs designate `PFR-RoleAssignment-17`. | The differing ClaimGraphs, schemes, viewpoints, and receiving uses identify or qualify two cards and their claims; the PFR reference remains exactly `PFR-RoleAssignment-17`. Revising, merging, splitting, publishing, or replacing either card changes no PFR participant or adverse episode. |
+| One joint multi-PFR card | `Robot7ReleaseEpisodesCard-E1 = <CG-Robot7-ReleaseEpisodes-E1, Robot-7, Maintenance-Scheme-A>`. The exact ClaimGraph contains two affirmative assertion nodes designating `PFR-InspectionAssignment-17` and `PFR-InspectionAssignment-18`. A.1 independently identifies `Robot-7 : U.System`, and both PFRs have that same System as their applicability-derived problem-for entity. | One ClaimGraph has one direct, genuinely joint EntityOfConcern, so one card carries both PFR references. The card records two occurrences; it does not merge them. |
+| Unrelated PFRs force split | Proposed `CG-Mixed-RobotReleaseProblems-E0` contains `PFR-InspectionAssignment-17` about A.1-identified `Robot-7` and `PFR-InspectionAssignment-27` about separately A.1-identified `Robot-8`. No direct pattern in this replay identifies one joint EntityOfConcern for those claims; a list of the two Systems is not one. | `E0` cannot constitute one ProblemCard. Split it into `CG-Robot7-ReleaseProblem-E1` in `Robot7ReleaseProblemCard-E1` and `CG-Robot8-ReleaseProblem-E1` in `Robot8ReleaseProblemCard-E1`, each with its own exact System EntityOfConcern and effective scheme. |
+| Several cards retain one PFR | `Robot7SafetyCard-E1 = <CG-Robot7-Safety-E1, Robot-7, RobotSafety-Scheme-A>` qualifies its designation by `SafetyAssuranceViewpoint-E1` and receiving use `AutonomousInspectionReleaseReview-E1`. `Robot7StaffingCard-E1 = <CG-Robot7-Staffing-E1, Robot-7, MaintenancePlanning-Scheme-B>` qualifies its designation by `MaintenancePlanningViewpoint-E1` and receiving use `InspectionAssignmentRepairPlanning-E1`. Both exact ClaimGraphs designate `PFR-InspectionAssignment-17`. | The differing ClaimGraphs, schemes, viewpoints, and receiving uses identify or qualify two cards and their claims; the PFR reference remains exactly `PFR-InspectionAssignment-17`. Revising, merging, splitting, publishing, or replacing either card changes no PFR participant or adverse episode. |
 
 #### C.22.2:20.2 - Anti-Cases
 

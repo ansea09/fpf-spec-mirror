@@ -6,12 +6,12 @@ section_id: "A.15.2:7a"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:7a — Conformance Checklist"
-line_start: 25187
-line_end: 25203
+line_start: 25385
+line_end: 25401
 dependencies:
   - "A.10"
   - "A.15"
@@ -40,7 +40,7 @@ dependencies:
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "PlanItem content"
@@ -60,9 +60,9 @@ keywords:
 | ID | Requirement | Practical test |
 | --- | --- | --- |
 | CC-A15.2-1 | Exact C.2.1 ClaimGraph, one already identified present EntityOfConcern, and effective `U.ReferenceScheme` identify the episteme; A.15.2 adds one stable intended-work membership condition and no second identity. | A possible future performance or PlanItem designator is not used as an existing EntityOfConcern merely because it appears in the plan. Carrier, layout, publication, ticket key, and version label can change without reidentification when the three discriminators remain fixed. |
-| CC-A15.2-2 | A conforming `U.WorkPlan` makes substantive claims for coordinating possible future performed work over an exact horizon through at least one `PlanItem`. | The plan states an intended-performance designator, method, window or entry condition, performer or role condition, and the constraints, resources, dependencies, commitments, targets, or baseline needed by its receiving use without asserting that a Work occurrence exists. |
+| CC-A15.2-2 | A conforming `U.WorkPlan` makes substantive claims for coordinating possible future performed Work over an exact horizon through at least one `PlanItem`. | The plan states an intended-performance designator, Method, window or entry condition, the System intended to perform the Work or its local system-role-kind condition, and the constraints, resources, dependencies, commitments, targets, or baseline needed by its receiving use without asserting that a Work occurrence exists. |
 | CC-A15.2-3 | Every `PlanItem` remains declaration-local plan content and names the possible future performance and claims it coordinates. | A `PlanItem` designator is not treated as a U-kind, future entity, method part, Work occurrence, assignment, relation occurrence, or result record. |
-| CC-A15.2-4 | Intended holder and role claims and A.2.2 capability requirements remain planned. An exact `U.RoleAssignment` is cited only when it already obtains, and the plan supplies no capability-fit result. | Publication of a holder-role tuple or threshold creates neither assignment, capability, nor fit for the later work interval. |
+| CC-A15.2-4 | Claims about a System intended to perform the Work, its local system-role-kind conditions, and A.2.2 capability requirements remain planned. Cite an assignment occurrence and its declared species only when that assignment already obtains; the plan supplies no capability-fit result. | Publishing a proposed holder-and-kind pair or threshold creates neither assignment, capability, nor fit for the later Work interval. |
 | CC-A15.2-5 | A desired participant, argument, or result uses A.15.3 only after one exact declaration member supplies its reusable meaning and later actual-use predicate. | The plan states the intended choice; it does not turn method-description wording, a broad field label, a compatible ValueKind, or a planned reference into participation. Keep ordinary plan content when typed reuse is unnecessary; otherwise return `missing-governor`. |
 | CC-A15.2-6 | An expected change, result, entity, delivery, acceptance, or outcome names its intended subject and target and remains a plan claim. | No `output`, `result`, `outcome`, `deliverable`, or `handoff` field is treated as a universal kind or as proof that the object exists or the effect occurred. |
 | CC-A15.2-7 | `PlanItem` organization names exact local predicates and conditions but does not admit relation kinds or force the same shape on performed Work. | Graph order and spellings such as `Precedes_pl` or `MutuallyExclusive_pl` establish no reusable relation or world-side fact. |

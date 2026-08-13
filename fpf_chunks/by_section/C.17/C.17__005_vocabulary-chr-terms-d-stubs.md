@@ -6,12 +6,12 @@ section_id: "C.17:4"
 section_title: "Vocabulary (CHR terms & D‑stubs)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__005_vocabulary-chr-terms-d-stubs.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:4 — Vocabulary (CHR terms & D‑stubs)"
-line_start: 48617
-line_end: 48637
+line_start: 48864
+line_end: 48884
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 ### C.17:4 - Vocabulary (CHR terms & D‑stubs)
 
-> Names are **context‑local**; below are kernel terms. Roles like “Designer/Reviewer” are contextual (A.2). **Documents don’t act** (A.7/A.12); they are **evaluated**.
+> Names are **context‑local**; below are kernel terms. System-role kinds are context-local (A.2); for example, a context may define `DesignerSystemRole` or `ReviewerSystemRole`, and their names follow F.5. **Documents don’t act** (A.7/A.12); they are **evaluated**.
 
 1. **`U.ReferenceBase`** *(D).* A curated, versioned **set of artifacts** (epistemes) and/or behaviours that define “what exists already” **in this Context and time window**.
    **Conformance (RB‑1):** must declare **inclusion criteria**, **time span (`TimeWindow`)**, and **coverage notes**.

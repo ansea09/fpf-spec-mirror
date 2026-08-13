@@ -6,12 +6,12 @@ section_id: "F.9:11"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__013_micro-examples.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:11 — Micro-examples"
-line_start: 92917
-line_end: 92926
+line_start: 93689
+line_end: 93698
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -56,7 +58,7 @@ keywords:
 
 The labels below are readable aliases. An actual case resolves exact F.17 cells and tests one profile before stating a proposed use.
 
-1. **Participant versus Agent.** A `Partial-overlap` Bridge may obtain between the exact BPMN and PROV senses. A separate claim may affirm use of the label "actor" in one orientation table under a rule that preserves the stated participation distinction. That claim creates no role assignment.
+1. **Participant versus Agent.** A `Partial-overlap` Bridge may obtain between the exact BPMN and PROV senses. A separate claim may affirm use of the label "actor" in one orientation table under a rule that preserves the stated participation distinction. That claim creates no local system-role kind or assignment occurrence.
 2. **Process design versus Activity occurrence.** A `Design-spec-to-run-occurrence` Bridge may explain the semantic connection. A separate claim can bound an explanatory use; it does not identify a run occurrence from a design artefact.
 3. **Observation versus SLO fulfilment.** A `Measurement-evidence-for` Bridge can relate the exact senses. A separate claim asks whether the observation sense is suitable for interpreting one named SLO comparison; A.10 or B.3 governs reliance on the evidence.
 4. **Subtype across OWL and a curated taxonomy.** An `Equivalence` Bridge obtains only under a profile whose relation condition includes the required class-level invariants. A separate claim asks whether one exact type-structure row may use that Bridge under its stated rule and zero material-loss tolerance.

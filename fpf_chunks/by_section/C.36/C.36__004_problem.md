@@ -6,12 +6,12 @@ section_id: "C.36:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36/C.36__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.36 — Cultural Evolution and Cultural-Evolution Engineering"
   - "C.36:2 — Problem"
-line_start: 68112
-line_end: 68127
+line_start: 68454
+line_end: 68469
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,6 +43,7 @@ dependencies:
   - "C.36.P"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.18"
   - "E.18.1"
   - "F.17"
@@ -60,7 +61,7 @@ Culture, style, tradition, genre, scene, practice, platform, regime, technique, 
 
 - a method family or method relation structure;
 - a work family or family of performed works;
-- a role value or role assignment;
+- an exact local system-role kind, its classification judgment, or a separately obtaining system-role-assignment occurrence;
 - a discipline or collective holon;
 - a canon or memory episteme;
 - a recognition, selection, measurement, or visibility relation;
@@ -68,5 +69,5 @@ Culture, style, tradition, genre, scene, practice, platform, regime, technique, 
 - an archive, front, current pool, selected set, lineage, or edition set;
 - a publication label or cross-context term bridge.
 
-If the project accepts the word as ontology, FPF grows a second ontology beside method, work, role, discipline, episteme, architecture, selection, publication, and refresh. If the project hides the case as an example inside open-ended search, the cultural-evolution question becomes invisible and the first useful move is lost.
+If the project accepts the word as ontology, FPF grows a second ontology beside method, Work, system-role kind and assignment, discipline, episteme, architecture, selection, publication, and refresh. If the project hides the case as an example inside open-ended search, the cultural-evolution question becomes invisible and the first useful move is lost.
 

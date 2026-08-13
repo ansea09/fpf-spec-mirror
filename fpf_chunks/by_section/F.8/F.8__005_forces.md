@@ -6,12 +6,12 @@ section_id: "F.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:3 — Forces"
-line_start: 92256
-line_end: 92267
+line_start: 93022
+line_end: 93033
 dependencies:
   - "A.11"
   - "A.15"
@@ -21,8 +21,10 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.7"
   - "A.8"
+  - "C.11"
   - "C.2.1"
   - "C.3"
   - "E.10"
@@ -50,6 +52,7 @@ keywords:
   - "minting new U-kinds"
   - "parsimony"
   - "reuse"
+  - "role-shaped names"
   - "type explosion"
 ---
 

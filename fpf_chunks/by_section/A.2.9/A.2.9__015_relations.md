@@ -6,12 +6,12 @@ section_id: "A.2.9:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.9/A.2.9__015_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.9 — U.SpeechAct (Communicative Work Kind, Occurrences, and Records)"
   - "A.2.9:12 — Relations"
-line_start: 7154
-line_end: 7167
+line_start: 7362
+line_end: 7375
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -21,7 +21,9 @@ dependencies:
   - "A.2.8"
   - "A.6.C"
   - "A.7"
+  - "F.6"
   - "U.Method"
+  - "U.SystemRoleAssignment"
   - "U.Work"
 keywords:
   - "actual communicative occurrence"
@@ -39,13 +41,13 @@ keywords:
 
 **Uses / builds on**
 
-* Uses **A.15.1 (`U.Work`)** for the occurrence backbone: actual performer system, exact covering assignment, actual `enactsMethod -> U.Method`, temporal extent, containing system, and a separate optional `methodDescriptionRef`.
+* Uses **A.15.1 (`U.Work`)** for the occurrence backbone: performer System, covering assignment occurrence and its declared species, enacted `U.Method`, temporal extent, containing System, and a separate optional `methodDescriptionRef`.
 * Uses **A.7** for the strict actual-act≠record/description≠carrier split.
 * Coordinates with **A.2.6** for scope/window discipline.
 
 **Used by**
 
-* **A.2.8 (`U.Commitment`)** as a concrete target for `source.speechActRef` provenance, and **A.2.8.PER** for a `GrantedPermissionRelation@Context` grounded by `institutingSpeechActRef`.
+* **A.2.8 (`U.Commitment`)** when an exact policy treats the speech act as the required instituting basis and the direct commitment predicate independently holds, and **A.2.8.PER** when a `GrantedPermissionRelation@Context` independently obtains with this act as `institutingSpeechActRef`.
 * **A.2.5 (RSG checklists/guards)** when “presence of authorization/approval act” is a criterion.
-* **A.6.C (Contract unpacking)** as the “utterance/instituting act” hook that prevents episteme-as-agent claims and improves provenance.
+* **A.6.C** for unpacking promise, approval, guarantee, and agreement-like boundary wording while preventing episteme-as-agent claims and preserving provenance.
 

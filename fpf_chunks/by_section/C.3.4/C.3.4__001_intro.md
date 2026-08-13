@@ -1,48 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.4"
-pattern_title: "RoleMask — Contextual Adaptation of Kinds (without cloning)"
+pattern_title: "KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
 section_id: "C.3.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "C.3.4 — RoleMask — Contextual Adaptation of Kinds (without cloning)"
+  - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:intro — Intro"
-line_start: 45357
-line_end: 45376
+line_start: 45579
+line_end: 45585
 dependencies:
+  - "A.2.6"
   - "C.2.1"
   - "C.3.1"
   - "C.3.2"
   - "C.3.3"
   - "C.3.A"
+  - "F.9"
 keywords:
-  - "RoleMask declaration episteme"
+  - "base KindSignature"
   - "candidate-feature constraint"
-  - "masked judgment"
-  - "stable-refinement review"
+  - "correspondence declaration"
+  - "kind-use adaptation declaration"
+  - "three-valued judgment"
   - "vocabulary binding"
 ---
 
-## C.3.4 - RoleMask — Contextual Adaptation of Kinds (without cloning)
+## C.3.4 - KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning
 
-> **One-line summary.** Defines **`RoleMask`** as a C.2.1 declaration episteme for one named local use of an exact base kind. Its content pins the base `KindSignature` edition, additional candidate-feature constraints, vocabulary bindings, intended guard use, and definedness. Applying it yields an exact `true`/`false`/`unknown` masked judgment; it creates neither a new kind nor a direct membership relation. Cross-context use requires an obtaining KindBridge relation, a target declaration, and a separate MaskAdapter declaration when constraints or bindings change. Formality remains on declaration epistemes; guard refusal remains separate from `unknown`.
+> **One-line summary.** A `KindUseAdaptationDeclaration` is a C.2.1 declaration episteme for one named local use of an exact base kind. It pins the base `KindSignature` edition, candidate-feature constraints, vocabulary bindings, intended guard use, and definedness. Applying it yields a `KindUseAdaptationJudgment` with value `true`, `false`, or `unknown`; it creates neither a new kind nor a membership relation. Cross-context use needs an obtaining `KindBridge`, a target declaration, and a separate `KindUseAdaptationCorrespondenceDeclaration` when constraints or bindings differ.
 
 **Status.** Normative in **Part C**. Identifier **C.3.4**.
-**Audience.** Engineering managers, architects, reviewers, editors.
-
-**Depends on.**
-
-* **C.3.1 — U.Kind & SubkindOf (Core):** kinds are intensional; `⊑` is a partial order; kinds **carry no Scope**.
-* **C.3.2 — Kind intent, judgment, and extension:** `KindSignature` is a declaration episteme; the exact four-input judgment is three-valued; any extension is a pinned-edition representation of true candidates.
-* **C.3.3 — KindBridge & CL^k:** Cross‑context kind mapping; `CL^k` penalties → **R** only.
-* **A.2.6 — USM (Context slices & Scopes):** Claim/Work scope (**G**) over `U.ContextSlice`; bridges and **CL** for scope.
-* **C.2.2 — F–G–R; C.2.3 — U.Formality (F).**
-
-**Non‑goals.**
-— No repository/notation mandates; conceptual only.
-— RoleMask is **not** a governance tier, data policy, or “mini‑type system.”
-— RoleMask does **not** redefine Scope; context conditions belong to **USM**.
+**Audience.** Engineering managers, architects, reviewers, and editors.
 

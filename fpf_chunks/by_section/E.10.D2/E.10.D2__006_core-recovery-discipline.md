@@ -6,12 +6,12 @@ section_id: "E.10.D2:4.1"
 section_title: "Core recovery discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_core-recovery-discipline.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4.1 — Core recovery discipline"
-line_start: 76491
-line_end: 76529
+line_start: 77136
+line_end: 77174
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ A description episteme is an ordinary `U.Episteme` whose exact `U.ClaimGraph` co
 
 Its ClaimGraph may contain labels, characterizations, criteria, structural or behavioral claims, diagrams interpreted under a scheme, or other claim-bearing content. Those claims and representations do not become parts or properties of the EntityOfConcern unless the corresponding direct subject pattern establishes them.
 
-For one describing use, the E.17.0-owned `DescriptionContext` selects the exact viewpoint from which this episteme is read. That use qualification is not an episteme identity discriminator, does not establish viewpoint conformance or `U.View` membership, and is not locally redefined here.
+For one describing use, the `DescriptionContext` defined by E.17.0 selects the exact viewpoint from which this episteme is read. That use qualification is not an episteme identity discriminator, does not establish viewpoint conformance or `U.View` membership, and is not locally redefined here.
 
 #### E.10.D2:4.1.3 - Specification-use admission
 

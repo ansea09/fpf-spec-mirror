@@ -6,12 +6,12 @@ section_id: "F.15:15"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__019_closure-conditions.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15 — Closure conditions"
-line_start: 95414
-line_end: 95428
+line_start: 96198
+line_end: 96212
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,13 +52,13 @@ keywords:
 
 A finite slice is locally admissible for its named receiving use only when:
 
-1. every scope member and exact version resolves under its direct owner;
+1. every scope member and exact version resolves under its subject pattern;
 2. every triggered static rule has one exact current C.2.1 result claim;
 3. every changed member has an exact prior/later pair and RSCR result naming continuity/change, losses, evidence, and use;
 4. every failed subject claim names and reaches its direct governor before reuse;
 5. witness refs and any relied-on A.10/B.3 path are current for the exact result and use, without becoming the result;
 6. the optional record cites, but does not replace, applications/work, result claims, evidence, Bridge occurrences, descriptions, publication, or currentness;
-7. tempting non-admitted uses—role assignment, performed work, source or publication authority, status transfer, evidence use, equivalence, assurance, gate passage, and authorization—are explicit; and
+7. tempting non-admitted uses—system-role assignment, performed work, source or publication authority, status transfer, evidence use, equivalence, assurance, gate passage, and authorization—are explicit; and
 8. the closure statement names the exact slice versions, rule set, currentness basis, and receiving use.
 
 Closure is local. A later change reopens only the affected rule results and their dependents after contradiction checks. It does not authorize a full rerun by habit or a global claim that all names, rows, relations, evidence, and publications conform.

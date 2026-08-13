@@ -6,12 +6,12 @@ section_id: "F.15:14.5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__017_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:14.5 — Conformance Checklist"
-line_start: 95381
-line_end: 95395
+line_start: 96165
+line_end: 96179
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 | `CC-F15-3` | Keep checked scope, rule, application/work, result claim, witness/evidence path, record episteme, publication occurrence/form/carrier, and currentness relation distinct. |
 | `CC-F15-4` | Check exact F.17/F.18 names, cells, cards, and rows without selecting names or duplicating their settlement. |
 | `CC-F15-5` | Cite an actual F.9 Bridge only after its exact predicate obtains; keep description/Card, bounded-use claim, reliance, and receiving occurrence separate. |
-| `CC-F15-6` | Treat each failed subject claim under its direct owner before the receiving use; a record update is not subject repair. |
+| `CC-F15-6` | Treat each failed subject claim under its subject pattern before the receiving use; a record update is not subject repair. |
 | `CC-F15-7` | For regression, name exact prior/later refs, the continuity or change claim, admitted losses, evidence, and receiving use; spelling and editions prove neither sameness nor difference. |
 | `CC-F15-8` | Reuse unaffected result claims only after a direct contradiction check; rerun dependents, not the whole package by habit. |
 | `CC-F15-9` | Scope membership is not evidence, witnesses are not results, and a description/card/row/table/id establishes no governed relation or authority. |

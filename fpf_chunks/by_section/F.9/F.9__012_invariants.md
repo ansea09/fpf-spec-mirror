@@ -6,12 +6,12 @@ section_id: "F.9:10"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__012_invariants.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:10 — Invariants"
-line_start: 92899
-line_end: 92916
+line_start: 93671
+line_end: 93688
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -61,7 +63,7 @@ keywords:
 5. **Obtaining before occurrence reference.** A positive Bridge reference appears only after the fixed predicate is true and its dependencies are present.
 6. **Use claim is separate.** Every proposed use names `u`, `d`, `r`, `t`, and polarity in a C.2.1 claim about the exact Bridge.
 7. **Reliance is separate.** A.10 or B.3, not F.9 or the card, says whether current evidence or assurance supports relying on that claim.
-8. **Role is not occurrence.** The named receiving-use role is ClaimGraph content; any actual Work, assertion, publication, relation, or operation application keeps its own identity and owner.
+8. **Proposed use is not an occurrence.** The `u` designation in the ClaimGraph names the proposed use; any actual Work, assertion, publication, relation, or operation application keeps its own identity; apply the relevant pattern to each claim about it.
 9. **Card separation.** Card identity, completion, approval, registration, and publication neither make the relation obtain nor make the use happen.
 10. **Loss separation.** Observed semantic loss is evidence; permitted loss is tolerance inside the bounded-use claim.
 11. **No authorization by implication.** Semantic suitability, evidence reliance, and assurance are not legal, policy, or deontic permission.

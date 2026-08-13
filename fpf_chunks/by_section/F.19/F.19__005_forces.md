@@ -6,12 +6,12 @@ section_id: "F.19:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:3 — Forces"
-line_start: 97441
-line_end: 97451
+line_start: 98665
+line_end: 98675
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -37,7 +37,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Plain wording vs ontology | Short prose helps readers, but careless simplification erases kinds, slots, relation positions, use relations, role values, or claim boundaries. |
+| Plain wording vs ontology | Short prose helps readers, but careless simplification erases kinds, slots, relation positions, use relations, system-role kinds, classification judgments, assignment occurrences, function or functioning claims, ordinary meanings, or claim boundaries. |
 | Precision vs apparatus | Technical precision needs kind recovery, but extra role, record, card, table, schema, data-structure wrapping, locus, flow, status, and process words can bury the claim. |
 | Local repair vs semantic change | Some extra words are boilerplate; others carry a hidden kind, relation, current ontic slot, relation position, use relation, evidence-use relation, or admissible-use boundary. |
 | Flow separation vs readable prose | Development, evaluation, projection, and use flows must stay distinct without making every sentence narrate those flows. |

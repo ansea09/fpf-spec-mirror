@@ -6,12 +6,12 @@ section_id: "C.19.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.2/C.19.2__012_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.19.2 — Use-Bounded Apparatus Application"
   - "C.19.2:10 — Rationale"
-line_start: 50322
-line_end: 50327
+line_start: 50578
+line_end: 50583
 dependencies:
   - "A.15.1"
   - "A.15.2"
@@ -34,7 +34,7 @@ keywords:
 
 ### C.19.2:10 - Rationale
 
-Application is the common job; selection is conditional. Starting from application preserves the frequent case in which a direct owner is already selected and only the next useful adaptation matters. When alternatives are real, existing generation and choice patterns provide better result semantics than a fifth local decision vocabulary. Direct-kind discipline prevents an umbrella comparison word from becoming a new ontology.
+Application is the common job; selection is conditional. Starting from application preserves the frequent case in which a subject pattern is already selected and only the next useful adaptation matters. When alternatives are real, existing generation and choice patterns provide better result semantics than a fifth local decision vocabulary. Direct-kind discipline prevents an umbrella comparison word from becoming a new ontology.
 
 The aphorism is: **make the apparatus earn its setup work.**
 

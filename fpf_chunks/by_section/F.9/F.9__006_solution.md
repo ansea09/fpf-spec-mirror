@@ -6,12 +6,12 @@ section_id: "F.9:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:4 — Solution"
-line_start: 92727
-line_end: 92798
+line_start: 93499
+line_end: 93570
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -73,7 +75,7 @@ When the two cells are from different semantic contexts, declare one relation-se
 | `SourceSenseCellSlot` | F.17 `SchemeSenseCell` coordinate | `SenseCellAddressRef` | The exact source local sense, resolving its by-value reference scheme, local expression, and local-sense claim. |
 | `ReceivingSenseCellSlot` | F.17 `SchemeSenseCell` coordinate | `SenseCellAddressRef` | The exact receiving local sense used by the claimed semantic relation. |
 
-Only the two endpoint meanings are RelationSignature participants. `CL`, Loss Notes, `U.ClaimScope`, an admitted-use qualifier, evidence, counterexamples, policy, time or as-of values, `BoundedModelUseStructure`, description, Card, publication, registry identifier, form, and carrier are qualifiers or neighboring objects. No proposed-use role, use direction, use-specific rule, permitted-loss tolerance, assertion, or reliance result is a third participant.
+Only the two endpoint meanings are RelationSignature participants. `CL`, Loss Notes, `U.ClaimScope`, an admitted-use qualifier, evidence, counterexamples, policy, time or as-of values, `BoundedModelUseStructure`, description, Card, publication, registry identifier, form, and carrier are qualifiers or neighboring objects. No proposed-use field, use direction, use-specific rule, permitted-loss tolerance, assertion, or reliance result is a third participant.
 
 The reusable Bridge declaration is one independently constituted C.2.1 episteme whose exact EntityOfConcern is the direct `Bridge` relation kind. The same declaration episteme is used relation-facing as the compatible `RelationSignature`; its two SlotSpecs declare participant meanings but create neither endpoint nor occurrence. The relation kind, declaration episteme, RelationSignature use, SlotSpecs, actual cells, obtaining occurrence, assertion, occurrence-description episteme, Card, and publication remain distinct.
 
@@ -86,7 +88,7 @@ An F.9-local `BridgePredicateProfile` is a by-value predicate declaration, not a
 5. the Boolean truth condition; and
 6. every stop dependency whose absence prevents a truthful result.
 
-The profile contains no receiving-use role, use direction, use-specific correspondence rule, permitted-loss tolerance, bounded-use proposition, assertion polarity, evidence-reliance classification, assurance claim, authorization, or receiving object.
+The profile contains no proposed-use field, use direction, use-specific correspondence rule, permitted-loss tolerance, bounded-use proposition, assertion polarity, evidence-reliance classification, assurance claim, authorization, or receiving object.
 
 `Bridge(SourceSenseCell, ReceivingSenseCell; BridgePredicateProfile)` obtains exactly when:
 
@@ -98,7 +100,7 @@ The profile contains no receiving-use role, use direction, use-specific correspo
 
 If an endpoint is unresolved, the projections are the same, a dependency is missing, or the predicate is false or unresolved, assert no positive occurrence and state the exact exit: ordinary designation, `unresolved SenseCell endpoint`, `same semantic context`, `missing Bridge dependency`, `Bridge predicate false`, or `Bridge predicate unresolved`.
 
-**Admitted-use qualifier.** The Bridge declaration admits this relation only as the exact semantic-correspondence or semantic-difference premise for a separately governed comparison, explanation, translation, naming, or other bounded-use claim. Its nearest non-use is equally explicit: the Bridge alone licenses no substitution and creates no scope result, model-use crossing, role assignment, Work, evidence authority, status transfer, U-kind admission, publication, or other subject relation. This readable use boundary is a declaration or description qualifier; it is neither a participant nor profile identity and grants no specific use.
+**Admitted-use qualifier.** The Bridge declaration admits this relation only as the semantic-correspondence or semantic-difference premise for a comparison, explanation, translation, naming, or other bounded-use claim. Its nearest non-use is equally explicit: the Bridge alone licenses no substitution and creates no scope result, model-use crossing, local system-role kind, assignment occurrence, Work, evidence authority, status transfer, U-kind admission, publication, or other subject relation. This readable use boundary is a declaration or description qualifier; it is neither a participant nor profile identity and grants no specific use.
 
 **Non-optional occurrence identity and recurrence rule.** `BridgeOccurrenceIdentityRule` identifies the occurrence by the exact endpoint cells together with the exact profile. For an asymmetric kind, the ordered source-to-receiving tuple is identity-bearing and an inverse relation requires another profile and directed occurrence. For a symmetric kind, swapping only the readable presentation of the same canonical endpoint pair does not create another occurrence. A changed endpoint or changed relation-semantic profile identifies another candidate.
 
@@ -122,5 +124,5 @@ For ordinary evidence reliance below B.3's material-reliance threshold and with 
 
 Enter B.3 when the receiver makes an assurance claim or the proposed use meets B.3's material-reliance threshold. Decide first whether a current assurance claim exists. A met threshold requires the minimum reliance safety assurance record and contest boundary but creates no positive claim. Use a positive current B.3 assurance claim only when it exists, its record is sufficient, and it carries the same bounded assurance use. Otherwise state the exact no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked disposition and stop or narrow the use accordingly.
 
-Neither an A.10 passing disposition nor a positive B.3 assurance claim is legal, policy, or deontic authorization. If authorization is needed, recover it under its direct governor. If a later claim says the use happened, recover the actual Work, assertion episteme, publication occurrence, direct relation, operation application, or other object under its own pattern; the role `u` in the bounded-use claim is not that occurrence.
+Neither an A.10 passing disposition nor a positive B.3 assurance claim is legal, policy, or deontic authorization. If authorization is needed, recover it under its direct governor. If a later claim says the use happened, recover the actual Work, assertion episteme, publication occurrence, direct relation, operation application, or other object under its own pattern; the `u` designation in the ClaimGraph names the proposed use and is not that occurrence.
 

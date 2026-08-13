@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Object)"
-section_id: "A.2.8:12"
+pattern_title: "U.Commitment (Deontic Commitment Relation)"
+section_id: "A.2.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__016_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-  - "A.2.8:12 — Relations"
-line_start: 6479
-line_end: 6499
+  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
+  - "A.2.8:13 — Relations"
+line_start: 6685
+line_end: 6690
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -22,45 +23,25 @@ dependencies:
   - "A.2.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.RCD"
   - "A.7"
-  - "E.8"
-  - "U.PromiseContent"
-  - "U.Work"
+  - "C.3"
+  - "F.6"
 keywords:
-  - ") but makes the structure explicit"
-  - "BCP‑14 (RFC 2119/8174)"
-  - "adjudication hooks"
-  - "are cues for the modality field after the deontic relation is recovered"
-  - "by themselves"
-  - "commitment"
-  - "deontics"
-  - "evidenceRefs"
-  - "modality normalization"
+  - "actual bearer"
+  - "constitutive rule"
+  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "individual duty"
+  - "instituting basis"
   - "obligation"
   - "prohibition"
   - "recommendation-as-duty"
-  - "scope and validity window"
-  - "they are not the governed object of this pattern"
+  - "validity interval"
 ---
 
-### A.2.8:12 - Relations
+### A.2.8:13 - Relations
 
-**Uses / builds on**
-
-* A.2.1 for identifying accountable roles vs role-enactors (role assignments).
-* A.2.6 for expressing scope and time/window (`U.ClaimScope`, qualification-window policy).
-* A.7 for keeping source “binding” wording distinct from utterance descriptions and carriers.
-
-**Used by**
-
-* A.6.B (Quadrant D) as the canonical payload shape only for obligation, recommendation-as-duty, and prohibition statements; strong or weak permission, exercise, non-violation, and conflict claims cite the exact `A.2.8.PER` result instead.
-* A.6.C (Contract Unpacking) as the formal governing pattern for the “Commitment” component of the bundle.
-* Part D governance/ethics patterns, when current, for expressing layered, conflicting, multi-authority commitments.
-
-**Coordinates with**
-
-* A.2.3 (`U.PromiseContent`): services are promise clauses; commitments assign accountable subjects to those clauses.
-* **A.2.9 (`U.SpeechAct`)**: `U.Commitment.source.speechActRef` points to the instituting communicative work occurrence when provenance matters.
-* A.15.1 (`U.Work`) and evidence patterns: adjudication hooks refer to evidence in work, not to text.
-* **A.2.8.PER:** strong grants, permission exercise, weak non-prohibition/non-violation findings, and permission conflicts remain separate from `U.Commitment`; a visible `MAY` or `OPTIONAL` token does not choose between those objects and an `A-*` entry predicate.
+- **Builds on:** A.2 and C.3 for system-role kinds and classification; A.2.1 for declared system-role-assignment species and their obtaining occurrences; A.2.6 for scope and temporal qualification; A.2.9 for communicative Work; A.6.RCD for missing governors; A.7 for episteme and world separation.
+- **Coordinates with:** A.2.3 for promise content; A.2.8.PER for permission; F.6 and A.15.1 for Work attribution; A.6.B and A.6.C for claim classification and boundary wording; A.10 for evidence and source reliance.
+- **Does not define:** a universal responsibility, authority, access, compliance, or result relation; a system-role kind; a system-role assignment; a policy language; or a legal-party model.
 

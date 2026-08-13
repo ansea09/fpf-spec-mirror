@@ -6,12 +6,12 @@ section_id: "A.6.F:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.F/A.6.F__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.F — Function and Functional Precision Restoration (RPR-FUNCTION)"
   - "A.6.F:6 — Bias-Annotation"
-line_start: 18469
-line_end: 18482
+line_start: 18708
+line_end: 18721
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,11 +73,11 @@ Lenses tested: **Arch**, **Ontology and episteme**, **Prag**, **Did**, **Gov**. 
 
 | Bias risk | Mitigation |
 | --- | --- |
-| Function-root bias | The pattern explicitly does not mint `U.Function`; it sends the exact governed object or claim to its direct owner. |
+| Function-root bias | The pattern explicitly does not mint `U.Function`; it requires the subject pattern for the exact object or claim. |
 | Functional-architecture exception bias | Functional architecture is normalized as `FunctionalStructure`, not a peer ontology. |
 | Module bias | Function-to-module allocation uses correspondence or `A.6.M` module-relation repair; function and module remain distinct. |
 | Mathematical bias | Mathematical function wording is assigned to C.29 when used as a lens. |
-| Check-only bias | Every conformance item carries a repair action or governing-pattern application. |
+| Check-only bias | Every conformance item carries a repair action or subject-pattern application. |
 
 This checklist verifies the preceding guidance after the practitioner has chosen the selected repair action; it is not a required project control form and not a substitute for the card, note, view, relation, or repair guidance above.
 

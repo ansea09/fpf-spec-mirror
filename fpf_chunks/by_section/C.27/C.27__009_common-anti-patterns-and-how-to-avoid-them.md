@@ -6,12 +6,12 @@ section_id: "C.27:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 56604
-line_end: 56651
+line_start: 56878
+line_end: 56925
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -60,7 +60,7 @@ extended bank and should not become a first-screen checklist.
 | Core anti-pattern | What it looks like | Repair |
 | --- | --- | --- |
 | Rate -> intervention laundering | "We measured throughput, therefore we know how to accelerate it." | Ask whether the claim is Dyn0 state, Dyn1 rate, or Dyn2 rate-change under effort, resistance, and window; add only the least-committing C.27 record that changes supported use. |
-| Effort-free acceleration | "Velocity will double" with no effort, input, intervention actor reference, role assignment, resistance proxy, window, evidence, or supported use. | Add a `Dyn2TemporalClaimAdequacyCard` or downgrade to Dyn1 measurement. |
+| Effort-free acceleration | “Velocity will double” with no effort, input, claimed intervention applier, exact assignment when relied on, resistance proxy, window, evidence, or supported use. | Add a `Dyn2TemporalClaimAdequacyCard` or downgrade to Dyn1 measurement. |
 | Past slope as control model | A historical trend is treated as a future intervention law. | Separate observed Dyn1 trend from Dyn2 intervention claim and formal-model relation. |
 | C.27 as `C.28`-governed causal-use claim | Rate changed after effort, therefore effort caused it. | Keep it as a planning assumption or diagnostic reading, or include `dyn2CausalUseRelation?` with `causalInterventionSpecRef`, contrast or counterfactual, timing, outcome, assumptions, rival causes, supported causal use and unsupported causal use, and `C.28` causal-use relation. |
 | Rhythm as decoration | Rhythm names vibe or cadence with no bearer, timing reference, window, proxy, evidence, or supported use. | Name bearer, timing reference, window, instrument or evidence proxy, and supported use; add coupling, phase, or entrainment only when the claim depends on a cross-bearer relation. |

@@ -6,12 +6,12 @@ section_id: "C.16:5"
 section_title: "Solution — recover one complete measurement chain (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__006_solution-recover-one-complete-measurement-chain-normative.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:5 — Solution — recover one complete measurement chain (Normative)"
-line_start: 47191
-line_end: 47262
+line_start: 47435
+line_end: 47506
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -85,7 +85,7 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑CAL‑1.** Name the calibration basis required for the use: reference standard or comparison basis, dated calibration work and result when current, calibration coefficients or corrections, applicable interval, and uncertainty contribution. A calibration certificate or ledger row cites these facts; it does not establish them by being stored.
 
-**M‑WORK‑1.** `MeasurementWork` is one exact dated `U.Work` with an occurrence designator, temporal extent, performer through `U.RoleAssignment`, `enactsMethod`, exact measurand or affected referent, actual resources, and concrete participants through direct subject relations or A.6.1 operation-application bindings. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual bindings.
+**M‑WORK‑1.** `MeasurementWork` is one exact dated `U.Work` with an occurrence designator, temporal extent, performer through `U.SystemRoleAssignment`, `enactsMethod`, exact measurand or affected referent, actual resources, and concrete participants through direct subject relations or A.6.1 operation-application bindings. A plan, compatible signature, method description, instrument type, or retained reference establishes none of those actual bindings.
 
 #### C.16:5.4 - Recover input quantities, output quantity, and uncertainty
 
@@ -107,9 +107,9 @@ If any noun in that sentence cannot be grounded, return that exact gap rather th
 
 **M‑CMP‑1.** Direct comparability is conservative: two readings cite the same `U.DHCMethodRef`, Characteristic, Scale and Unit semantics, compatible model and calibration regime, and a compatible time or population basis. Similar labels or units are insufficient.
 
-**M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its exact governing pattern, method, declaration, Bridge, and loss or uncertainty consequence. C.16 does not mint a common scale or corpus-wide migration relation.
+**M‑CMP‑2.** Cross-template conversion, normalization, scoring, aggregation, comparison, selection, or cross-context transport names its exact subject pattern, method, declaration, Bridge, and loss or uncertainty consequence. C.16 does not mint a common scale or corpus-wide migration relation.
 
-**M‑SCORE‑1.** A Score is another declared Scale reading. Its scoring method and actual application remain under their direct method, work, and operation-binding owners. A score does not overwrite its source measurement results.
+**M‑SCORE‑1.** A Score is another declared Scale reading. Its scoring method and actual application remain under their direct Method, Work, and operation-binding patterns. A score does not overwrite its source measurement results.
 
 #### C.16:5.7 - Route provenance and later use outward
 
@@ -121,5 +121,5 @@ A later comparison, diagnosis, criterion evaluation, acceptance action, or decis
 
 Use **measurand**, **measurement subject**, **Characteristic**, **Scale**, **Level**, **Coordinate**, **value**, **Unit**, **measurement method**, **measurement model**, **calibration**, **uncertainty**, **measurement work**, and **measurement-result episteme** for their exact jobs. Plain-register *metric*, *reading*, *score*, and *output* are acceptable after first-use mapping. Do not use *measurement result*, *evidence*, *validation*, or *verification* as umbrella terms for several governed objects.
 
-**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 and A.15.1 for declarations, bindings, work, and roles; C.2.1 for the result episteme; A.10/G.6 for provenance; G.11 for currentness; B.3 for assurance; and the exact receiving pattern for diagnosis, acceptance, causality, comparison, selection, or decision.
+**Key relations.** C.16 uses A.17 and A.18 for Characteristic and Scale legality; A.6.1 for declaration-local positions and operation bindings; A.15.1 for admitted Work and its performing System; and F.6 for the exact obtaining assignment under which that System performed. If claim-bearing source wording still says only “role,” use E.10.ROLE first, then use A.2 or A.2.1 only when an exact local system-role kind, classification, or assignment has actually been recovered. C.2.1 covers the result episteme; A.10/G.6 provenance; G.11 currentness; B.3 assurance; and the exact pattern for the next diagnosis, acceptance, causality, comparison, selection, or decision question.
 

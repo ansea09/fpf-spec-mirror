@@ -6,12 +6,12 @@ section_id: "A.15.4:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:intro — Intro"
-line_start: 25589
-line_end: 25638
+line_start: 25787
+line_end: 25836
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"
@@ -90,11 +92,11 @@ A.15.4 local repair record:
 1. Name the reliance appearance's actual kind and publication position without treating its appearance as the required relation, result, or source relation itself.
 2. Decide the live working moment: early attention to preserve, intended work to plan, reliance on already-performed work or a decision, or another operative relation for action now.
 3. Fill `WorkOrRelianceUseKind` and `WorkOrRelianceUseRef`: the use being justified can be intended work, reliance on a claim, reliance on a performed-work occurrence, a work-relevant P2W claim, or a P2W chain position.
-4. Create one `RequiredPositionEntries` row for each independently required direct object. This typed row set is the sole prerequisite set: a claim, instituted effect, gate decision, role assignment, evidence/currentness relation, plan, or other prerequisite each receives its own row. If permission or authority is current, first choose its exact object in the §3 branch, then fill `SubjectPatternLocator`, the direct-object kind, native project-side ref, required posture/currentness, and dependency on the attempted use. Never put comma-separated patterns, kinds, or refs into one field.
+4. Create one `RequiredPositionEntries` row for each independently required direct object. This typed row set is the sole prerequisite set: a claim, instituted effect, gate decision, exact system-role-assignment occurrence, evidence relation, currentness relation, plan, or other prerequisite each receives its own row. If permission or authority is current, first choose its exact object in the §3 branch, then fill `SubjectPatternLocator`, the direct-object kind, native project-side ref, required posture and currentness, and dependency on the attempted use. Never put comma-separated patterns, kinds, or refs into one field.
 5. Follow dependencies through those direct objects. For permission or authority, use the dependency stated by the selected §3 row. An instituting act, enduring grant, conflict finding, gate decision, and work plan remain separate prerequisites; none substitutes for another row or inherits another row's posture.
 6. Before allowing the attempted work or reliance, open every prerequisite through its typed reference. Check that the referenced relation actually obtains or the referenced result satisfies the criterion defined for it; that it is current and covers this beneficiary, action, target, scope, and time window; and that any evidence or source relation required for this reliance is present. When a relevant permission/norm conflict exists, give its exact `PermissionNormConflictFinding@Context` a separate row: an `unresolved` or norm-selecting disposition blocks this use but does not make the grant cease to obtain. When policy separately requires an A.21 gate or A.15.5 work-entry-readiness relation, give each its own row and require a current passing or ready result. Naming a record is only the first recovery step. If any check fails, keep `AllowedUseNow` at the safe narrowed use.
 
-**Not this pattern when.** Stay in A.15 when the question under repair is only `U.Role`, holder, context, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work` separation. Stay in `A.15.2` for WorkPlan construction, `A.15.3` for planned slot-filling baselines, and `A.15.5` when the question is full-kit condition or work-entry readiness rather than a reliance appearance being used as a reason for work or reliance. Stay in `A.16.1` and `C.2.4` when the honest current value is pre-articulation cue preservation and articulation level. Stay in `C.16.Q` when dynamic-quality or evaluative wording is the current claim. Stay in `A.6.A` when the current claim is action invitation. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. When the direct evidence, gate, constraint, boundary, permission/authority, work, or other claim is already known, use the pattern and test selected by the §3 lookup instead of A.15.4.
+**Not this pattern when.** Stay in A.15 when the question under repair is only separation among the acting System, exact local system-role kind, classification judgment, direct `U.SystemRoleAssignment` species, `U.Method`, `U.MethodDescription`, `U.WorkPlan`, and `U.Work`. Stay in `A.15.2` for WorkPlan construction, `A.15.3` for planned slot-filling baselines, and `A.15.5` when the question is full-kit condition or work-entry readiness rather than a reliance appearance being used as a reason for work or reliance. Stay in `A.16.1` and `C.2.4` when the honest current value is pre-articulation cue preservation and articulation level. Stay in `C.16.Q` when dynamic-quality or evaluative wording is the current claim. Stay in `A.6.A` when the current claim is action invitation. Stay in E.17 when the question under repair is only publication-face exposure or multi-view publication. When the direct evidence, gate, constraint, boundary, permission, authority, work, or other claim is already known, use the pattern and test selected by the §3 lookup instead of A.15.4.
 
 **What this buys.** The acting engineer-manager can keep work moving without trusting appearances: use the reliance appearance for orientation or source-finding when that is all it can carry, proceed only inside the recovered relation when that relation exists, and turn repeated ambiguity into source-relation repair work rather than repeated manual reconstruction.
 

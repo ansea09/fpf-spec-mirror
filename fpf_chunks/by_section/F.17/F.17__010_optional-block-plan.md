@@ -6,12 +6,12 @@ section_id: "F.17:8"
 section_title: "Optional block plan"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_optional-block-plan.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:8 — Optional block plan"
-line_start: 95960
-line_end: 95975
+line_start: 96744
+line_end: 96759
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -54,11 +54,11 @@ keywords:
 
 A block plan is an optional navigation aid for a sheet with enough rows that grouping helps a reader. Use few memorable blocks and omit the plan when direct row search is clearer. Neither a declared plan, the number of blocks, nor filled row count proves coverage, completeness, usefulness, or semantic adequacy.
 
-Example navigation plan for a role, method, Work, and status thread:
+Example navigation plan for a system-role, Method, Work, and status thread:
 
 - governed values and naming decisions;
-- roles and role descriptions;
-- role assignments and performed Work;
+- system-role kinds and their descriptions;
+- system-role assignments and performed Work;
 - methods, method descriptions, and work plans;
 - status families and status windows;
 - relation, slot, interface, and Bridge terms;

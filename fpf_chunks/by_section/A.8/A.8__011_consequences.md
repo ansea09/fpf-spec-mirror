@@ -6,12 +6,12 @@ section_id: "A.8:4.2"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.8/A.8__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.8 — Universal Core Principle"
   - "A.8:4.2 — Consequences"
-line_start: 22566
-line_end: 22569
+line_start: 22819
+line_end: 22822
 dependencies:
   - "A.11"
   - "C.3"
@@ -28,5 +28,5 @@ keywords:
 
 ### A.8:4.2 - Consequences
 
-A passed A.8 test strengthens the case for kernel placement but does not bypass E.24.UK, A.11 parsimony, or direct pattern ownership. A failed test is still useful: it tells the project where to keep the candidate local, dependent, or subject-pattern governed. The cost is evidence work across at least three domain families.
+A passed A.8 test strengthens the case for kernel placement but does not bypass E.24.UK admission predicates, A.11 parsimony, or the exact subject assertion. A failed test is still useful: it tells the project where to keep the candidate local, dependent, or constrained by a subject-specific predicate. The cost is evidence work across at least three domain families.
 

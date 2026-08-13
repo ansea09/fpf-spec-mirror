@@ -6,12 +6,12 @@ section_id: "C.26:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26/C.26__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
   - "C.26:7 — Conformance Checklist"
-line_start: 53895
-line_end: 53915
+line_start: 54163
+line_end: 54183
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ keywords:
 | CC-C26.11 | A cold reader can tell what changes in practice in the first minute. |
 | CC-C26.12 | Every quality ascription or model claim carried by C.26 names the exact bearer or C.2.1 claim-bearing episteme, effective `U.ReferenceScheme`, probe/model frame, comparison frame, `U.ClaimScope`, and the separately obtaining grounding relation or its explicit absence. |
 | CC-C26.13 | Any viewpoint use has one `U.ViewpointRef` resolving to exact P; the evaluator, P, and the reference remain distinct. |
-| CC-C26.14 | C.26 opens only for one named contextual-model obstruction that survives ordinary owners and changes an admissible inference or action; local outputs stay in their own algebras unless an admitted comparison route exists. |
+| CC-C26.14 | C.26 opens only for one named contextual-model obstruction that survives ordinary subject patterns and changes an admissible inference or action; local outputs stay in their own algebras unless an admitted comparison route exists. |
 | CC-C26.15 | A `BoundedModelUseStructure` is selected independently for a named receiving use, and any subject crossing has its own exact direct governor and occurrence; labels, cards, diagrams, references, Bridges, and shared participants create neither. |
 | CC-C26-CAUSAL-EXIT | If the question under repair is intervention, counterfactual comparison, causal effect, causal fairness, causal policy, off-policy causal evaluation, or realizability of counterfactual-rung data, the text redirects the claim or question to `C.28` before retaining QL-lite or QL-NQ. |
 

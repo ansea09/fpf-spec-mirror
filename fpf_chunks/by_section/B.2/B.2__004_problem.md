@@ -6,12 +6,12 @@ section_id: "B.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:2 — Problem"
-line_start: 37107
-line_end: 37117
+line_start: 37315
+line_end: 37325
 dependencies:
   - "A.1"
   - "A.10"
@@ -49,7 +49,7 @@ Without B.2:
 1. **New whole is missed.** A constructive assembly or coordinated closure changes the object, but evidence and architecture still point to old parts.
 2. **Ordinary improvement is overclaimed.** A better component, stronger measurement, or corrected method is called emergence.
 3. **Record fields become ontology.** A result field, trigger mnemonic, profile, or checklist is treated as a U-kind or actor.
-4. **Agency becomes binary.** A threshold crossing is read as "agent or not agent" instead of a characteristic-space threshold for a system in role.
+4. **Agency becomes binary.** A threshold crossing is read as “agent or not agent” instead of a characteristic-space threshold for an admitted System. A local system-role kind, classification, or assignment is a separate optional fact and neither establishes nor is required for the agency characteristic.
 5. **Mathematics replaces ontology.** A graph, RG-like flow, MSPD score, or benchmark jump is treated as MHT without recovering the holon claim.
 6. **Transformation becomes containment.** A system changing another holon is treated as its part or the larger whole containing it without a separately obtaining part-whole relation.
 

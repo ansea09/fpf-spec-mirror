@@ -6,12 +6,12 @@ section_id: "B.2.2:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.2/B.2.2__013_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2.2 — Meta-System Transition - System Specialization of MHT"
   - "B.2.2:10 — SoTA-Echoing"
-line_start: 37838
-line_end: 37846
+line_start: 38048
+line_end: 38056
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,8 +44,8 @@ keywords:
 
 | Source family | Lesson for B.2.2 | FPF decision |
 | --- | --- | --- |
-| Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | B.2 owns whole reidentification; B.2.2 applies complete A.1 and `U.System` recognition to the same exact candidate. |
-| Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the level of the exact new whole proposed for and then recognized under `U.System`. | B.2.2 keeps the direct facts with their owners and tests each assurance claim against that exact recognized system instead of transferring component support. |
-| Constructional and part-whole ontology | Acting on an object and being part of it are different relations. | A.12, A.3.4, A.15.1, A.14, and C.13 remain separate owners. |
-| Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Dashboards, models, twins, and publications use episteme and description owners unless the operating system is recovered as EoC. |
+| Meta-system transition and holonic systems lineage | A new coordinated whole can become the relevant operating object. | Use B.2 for whole reidentification, then apply complete A.1 and `U.System` recognition to the same candidate as required by B.2.2. |
+| Systems-of-systems and cyber-physical systems practice | Operational closure, coordination, external commitments, and assurance often change at the level of the exact new whole proposed for and then recognized under `U.System`. | B.2.2 keeps the direct facts with their subject patterns and tests each assurance claim against that exact recognized system instead of transferring component support. |
+| Constructional and part-whole ontology | Acting on an object and being part of it are different relations. | A.12, A.3.4, A.15.1, A.14, and C.13 remain separate subject patterns. |
+| Digital-twin and architecture-description practice | Rich descriptions can track a system without being the system. | Dashboards, models, twins, and publications use episteme and description patterns unless the operating system is recovered as EoC. |
 

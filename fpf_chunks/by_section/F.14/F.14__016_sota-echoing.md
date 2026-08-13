@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:15"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__016_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:15 — SoTA-Echoing"
-line_start: 94985
-line_end: 94994
+line_start: 95761
+line_end: 95772
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,16 +31,21 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
 ### F.14:15 - SoTA-Echoing
@@ -49,7 +54,9 @@ F.14 does not import access-control, terminology, or status taxonomies as FPF on
 
 | Current pressure | Practice line | F.14 adoption |
 | --- | --- | --- |
-| Role labels are too weak for authorization, Work attribution, or capability. | RBAC, ABAC, zero-trust, and policy-as-code separate attributes, policy decision, resource action, and evidence. | Keep role names separate from holder, capability, permission, policy, and Work. |
-| Terminology practice distinguishes values/concepts, designations, local senses, records, and mappings. | Shared spelling is insufficient for identity or semantic equivalence. | Recover the value first; prefer light dispositions; use F.9/F.17/F.18 only at their exact triggers. |
-| Status dashboards often hide criteria. | Monitoring and assurance separate indicator, threshold, time window, status, evidence, decision, and display. | Keep status and presentation objects separate and return each claim to its direct owner. |
+| System-role-kind labels are too weak for authorization, Work attribution, or capability. | RBAC, ABAC, zero-trust, and policy-as-code separate attributes, policy decision, resource action, and evidence. | Keep the kind name separate from the assigned system, capability, permission, policy, and Work. |
+| Terminology practice distinguishes values or concepts, designations, local senses, records, and mappings. | Shared spelling is insufficient for identity or semantic equivalence. | Recover the value first; prefer light dispositions; use F.9, F.17, or F.18 only at their exact triggers. |
+| Status dashboards often hide criteria. | Monitoring and assurance separate indicator, threshold, time window, status, evidence, decision, and display. | Keep status and presentation objects separate and use its subject pattern for each claim. |
+
+SysML is intentionally not used as naming or ontology authority here. Its familiar role vocabulary does not establish a local system-role kind, assignment, capability, permission, Method, or Work.
 

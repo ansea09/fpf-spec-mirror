@@ -6,12 +6,12 @@ section_id: "A.3.4.P:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.3.4.P/A.3.4.P__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.3.4.P — Transformation Ontic Precision Restoration"
   - "A.3.4.P:6 — Bias-Annotation"
-line_start: 9057
-line_end: 9068
+line_start: 9271
+line_end: 9282
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -53,5 +53,5 @@ This pattern intentionally biases toward kind recovery before wording repair. It
 - **graph or path overread:** graph path, evidence path, and carrier path become action route, evidence sufficiency, assurance, deontic permission, work authorization, release authorization, or work sequence;
 - **function collapse:** functioning, functional element, module allocation, mathematical function, software routine, and everyday purpose collapse into one "function";
 - **semio displacement:** descriptions and publications of transformations replace the transformation under concern;
-- **neighboring-object fusion:** a method, mechanism, work occurrence, system, influence source, or evidence record is inferred from wording and then treated as the transformation, its actor, or a transformation participant; generic participation is also treated as action without exact `performedBy`, work-to-change, or other direct actor-side relation.
+- **neighboring-object fusion:** a Method, mechanism, Work occurrence, System, influence source, or evidence record is inferred from wording and then treated as the transformation, its actor, or a transformation participant; generic participation is also treated as action without a complete A.15.1/F.6 Work basis and separate Work-to-change relation, or without another direct actor-side relation.
 

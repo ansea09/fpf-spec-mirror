@@ -6,12 +6,12 @@ section_id: "A.15.6:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:11 — SoTA-Echoing"
-line_start: 26564
-line_end: 26577
+line_start: 26766
+line_end: 26779
 dependencies:
   - "A.1"
   - "A.1.STM"
@@ -47,5 +47,5 @@ keywords:
 
 Taken together, these sources support the Solution's actions: apply A.15.1 to admit composite Work and exact parts before adding project qualifications and a continuity policy; select `U.Method`, an exact A.22 `U.Structure`, or `TransformationFlowStructure` for the process question; recover the case and description subjects from actual claim content; and keep temporary organization and descriptions separate.
 
-**Qualification and smallest reopen.** If PMI or APM changes the temporary, unique, objective, or work-package distinctions used here, revisit only the five project-specific qualifications, planning-only boundary, and project cases that use the changed distinction. If the Winch or Sydow-Lundin-Ekstedt-Braun line is corrected on intention, temporary organization, plasticity, or continuity, revisit the matching Force, section 4.1 or 4.6 rule, and its nearest pump or failed-project case. If a direct FPF governor changes, reopen only the passage it governs: `A.2` or `A.2.1` for role interpretation or assignment; `A.12` for acting and changed positions; `A.15.1` or `A.15.PROD` for Work, parthood, production, or result claims; `A.6.RCD` or `A.6.P.WMR` for compound-claim or result outcomes; `C.2.1` for description subjects; and `A.3.1`, `A.22`, `A.6.1`, or `E.18` for the process branch. `G.11` propagates only those affected dependencies; no calendar refresh or whole-pattern rewrite follows from an unrelated source change.
+**Qualification and smallest reopen.** If PMI or APM changes the temporary, unique, objective, or work-package distinctions used here, revisit only the five project-specific qualifications, planning-only boundary, and project cases that use the changed distinction. If the Winch or Sydow-Lundin-Ekstedt-Braun line is corrected on intention, temporary organization, plasticity, or continuity, revisit the matching Force, section 4.1 or 4.6 rule, and its nearest pump or failed-project case. If a direct FPF governor changes, reopen only the passage it governs: `A.2` for local system-role-kind identity and classification; `A.2.1` for direct system-role-assignment species; `A.12` for acting and changed positions; `A.15.1` or `A.15.PROD` for Work, parthood, production, or result claims; `A.6.RCD` or `A.6.P.WMR` for compound-claim or result outcomes; `C.2.1` for description subjects; and `A.3.1`, `A.22`, `A.6.1`, or `E.18` for the process branch. `G.11` propagates only those affected dependencies; no calendar refresh or whole-pattern rewrite follows from an unrelated source change.
 

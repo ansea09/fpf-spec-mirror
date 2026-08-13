@@ -6,12 +6,12 @@ section_id: "A.7.CP:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:3 — Forces"
-line_start: 22283
-line_end: 22292
+line_start: 22536
+line_end: 22545
 dependencies:
   - "A.7"
   - "A.7.1"
@@ -31,7 +31,7 @@ keywords:
 |---|---|
 | Stable claims vs local use | Claim content should be durable, while posture, work, context, and interval vary per use. |
 | Recoverability vs cheap first use | Load-bearing use needs a trace; ordinary method use should not traverse twelve claims. |
-| Shared support vs direct ownership | Common claims coordinate patterns without absorbing evidence, currentness, construction, work, or kind admission. |
+| Shared support vs subject patternship | Common claims coordinate patterns without absorbing evidence, currentness, construction, work, or kind admission. |
 | Adopted premise vs conditional assumption | Both can support reasoning, but their defeaters and reopen conditions differ. |
-| Reuse vs copied variants | One owner prevents drift; consumers still need locally intelligible action guidance. |
+| Reuse vs copied variants | one authoritative source prevents drift; consumers still need locally intelligible action guidance. |
 

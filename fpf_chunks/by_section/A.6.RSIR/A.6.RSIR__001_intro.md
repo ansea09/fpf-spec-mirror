@@ -6,12 +6,12 @@ section_id: "A.6.RSIR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIR/A.6.RSIR__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.RSIR — Relation, Signature, Interface, Role, and Slot Precision Restoration"
   - "A.6.RSIR:intro — Intro"
-line_start: 17116
-line_end: 17121
+line_start: 17344
+line_end: 17349
 dependencies:
   - "A.10"
   - "A.15"
@@ -32,6 +32,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17"
   - "F.10"
   - "F.18"
@@ -41,20 +42,17 @@ keywords:
   - "API"
   - "RelationSignature"
   - "SlotSpec"
-  - "actual participant"
-  - "assertion or description designation"
+  - "ambiguous role wording"
   - "direct relation participant"
-  - "exact operation application and binding"
   - "interface"
-  - "operation argument or result declaration"
+  - "operation declaration and binding"
   - "participant meaning"
   - "port"
   - "reduced-use source label"
   - "relation-signature-interface-role-slot recovery"
-  - "representation position and correspondence"
-  - "role"
-  - "role assignment"
-  - "shadow ontology"
+  - "representation position"
+  - "system-role assignment"
+  - "system-role kind"
 ---
 
 ## A.6.RSIR - Relation, Signature, Interface, Role, and Slot Precision Restoration

@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
-line_start: 44599
-line_end: 44765
+line_start: 44821
+line_end: 44987
 dependencies:
   - "A.1"
   - "A.11"
@@ -69,7 +69,7 @@ Start with locality, not coordinates. If a typed claim crosses from one `U.Bound
 
 ### C.3:2 - Problem
 
-A project often needs classification before it needs ontology governance. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, several false conclusions follow: a label classifies by itself, evidence creates the feature it reports, missing evidence proves non-membership, a table becomes an entity set, or a plan row becomes actual work. C.3 keeps each conclusion at its direct owner.
+A project often needs classification before it needs ontology governance. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, several false conclusions follow: a label classifies by itself, evidence creates the feature it reports, missing evidence proves non-membership, a table becomes an entity set, or a plan row becomes actual work. C.3 keeps each conclusion at its subject pattern.
 
 ### C.3:3 - Forces
 
@@ -83,11 +83,11 @@ A project often needs classification before it needs ontology governance. If the
 | Scope vs kind | A claim can have narrow scope without creating a narrower kind or storing scope on the kind. |
 | Formal discipline vs ordinary use | Repeated typed use may need a declaration; one readable case should not require a card or extension table. |
 
-### C.3:4 - Four Objects and Their Owners
+### C.3:4 - Four Objects and Their Subject Patterns
 
 Keep these four objects separately recoverable:
 
-| Object | Meaning | Direct owner |
+| Object | Meaning | Subject pattern |
 | --- | --- | --- |
 | context-local `U.Kind` and `U.SubkindOf` order | The kind value used by the typed-reasoning claim and its local partial order. | `C.3` and `C.3.1` |
 | `KindSignature` | One `U.Signature` declaration episteme whose exact EntityOfConcern is the local kind and whose claim content declares the candidate `ValueKind`, criterion, slice conditions, reference scheme, assumptions, dependencies, formality, and any current `ExtentRule`. It is neither the kind nor another root U-kind. | `C.3.2`, `A.6.0`, and `C.2.1` |
@@ -112,7 +112,7 @@ Typed reasoning composes with F-G-R and USM in this order: recover typed compati
 
 ### C.3:6 - Decision Split
 
-| Current question | Governing pattern |
+| Current question | Subject pattern |
 | --- | --- |
 | What local kind does this claim quantify over? | `C.3` and `C.3.1` |
 | Is one local kind a subkind of another, or does the same kind continue across a declaration change? | `C.3.1` |
@@ -125,9 +125,9 @@ Typed reasoning composes with F-G-R and USM in this order: recover typed compati
 | Is the local kind being proposed as a durable public FPF `U.*` kind? | `E.24.UK`, followed by the applicable naming patterns |
 | Is a candidate, quality, relation, construction, or work occurrence being identified? | The direct subject pattern; C.3 consumes the governed result and does not create it |
 
-When typed reasoning is part of a structural construction-to-representation passage from a constructive representation or working model to a target kind or logical representation, cite `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5`. C.3 contributes only the local kind, judgment, subkind, and bridge loci inside that B.3.5-governed local `A.22.CGUS` specialization. It does not create separate unfolding-structure authority and does not make a constructive trace, working-model relation, proof, evidence relation, or classification true by label. For a general diagnostic return from an inadequate working account to the exact subject construction, use `A.7.1`; classification remains one possible locus rather than a general ontology-return method.
+When typed reasoning is part of a structural construction-to-representation passage from a constructive representation or working model to a target kind or logical representation, cite `StructuralCT2RTypingGroundingUnfoldingStructureBlock` from `B.3.5`. C.3 contributes only the local kind, judgment, subkind, and bridge loci inside that B.3.5-governed local `A.22.CGUS` specialization. It does not create separate unfolding-structure authority and does not make a constructive trace, working-model relation, proof, evidence relation, or classification true by label. For general diagnostic recovery from an inadequate working account to the exact subject construction, use `A.7.1`; classification remains one possible locus rather than a general ontology-return method.
 
-The unfolding is admitted only when the block names the starting representation, target kind or logical representation, current bridge when one is used, preserved structure, lost or collapsed structure, `CL` or `CL^k`, admissible reuse, blocked substitution, and the proof or evidence governing pattern when that stronger claim is current.
+The unfolding is admitted only when the block names the starting representation, target kind or logical representation, current bridge when one is used, preserved structure, lost or collapsed structure, `CL` or `CL^k`, admissible reuse, blocked substitution, and the proof or evidence subject pattern when that stronger claim is current.
 
 ### C.3:7 - Archetypal Grounding
 
@@ -189,16 +189,16 @@ Model theory, type systems, ontology engineering, and schema practice distinguis
 ### C.3:14 - Detail Map
 C.3 is the head pattern for typed reasoning. It leaves each detailed mechanism at its direct neighboring pattern while preserving a discoverable route to that mechanism.
 
-| Needed detail | Governing locus | Content carried there |
+| Needed detail | Direct locus | Content carried there |
 | --- | --- | --- |
 | Local kind order and continuity | `C.3.1` | `U.Kind`, `U.SubkindOf`, partial-order law, judgment monotonicity, and continuity across signature editions. |
 | Declaration, candidate judgment, and extension | `C.3.2` | `KindSignature`, exact four-key judgment, `true`/`false`/`unknown`, optional `KindExtension`, and scope/formality/evidence boundaries. |
 | Cross-context kind use | `C.3.3` | The direct `KindBridge` relation between exact source and target local kinds, its separate bridge-assertion episteme, declared preservation and loss, and target-context reevaluation under the exact target `KindSignature` edition. |
-| Local adaptation without cloning a kind | `C.3.4` | A `RoleMask` declaration episteme, its pinned base-kind judgment and additional candidate-feature constraints, the exact three-valued masked judgment, and any separately declared cross-context adapter. |
+| Local adaptation without cloning a kind | `C.3.4` | A `KindUseAdaptationDeclaration` for one named local use of an exact base kind, its pinned base-kind judgment and additional candidate-feature constraints, the exact three-valued `KindUseAdaptationJudgment`, and any separately declared `KindUseAdaptationCorrespondenceDeclaration` between two exact adaptation declarations. |
 | Abstraction facet | `C.3.5` | `KindAT` as an editorial planning facet on one exact local kind, with no effect on the kind, declaration, judgment, extension, bridge assessment, guard, or F–G–R. |
 | Typed guards and applied examples | `C.3.A` | Declaration-level kind compatibility and exact candidate-use judgments kept separate across regulatory, assurance, ESG, and Method–Work uses, including the independently grounded actual `W : U.Work` boundary. |
 
-Do not treat this compact head pattern as the whole C.3 discipline when a case needs declaration, classification, extension, bridge, mask, abstraction, or applied-guard detail. Use the neighboring C.3 pattern that governs the live detail.
+Do not treat this compact head pattern as the whole C.3 discipline when a case needs declaration, classification, extension, Bridge, kind-use adaptation, abstraction, or applied-guard detail. Use the neighboring C.3 pattern that defines or constrains the live detail.
 
 ### C.3:15 - Relations
 

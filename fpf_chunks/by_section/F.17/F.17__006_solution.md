@@ -6,12 +6,12 @@ section_id: "F.17:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:4 — Solution"
-line_start: 95815
-line_end: 95829
+line_start: 96599
+line_end: 96613
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,5 +63,5 @@ Constitute a row through the smallest path that reaches the named reuse:
 7. **Constitute one row episteme.** Its C.2.1 EntityOfConcern is the exact independently governed value; its claim graph cites the separate naming-settlement episteme, selected designations, admitted and blocked citation uses, rationale, and reopen condition. Split unlike governed values or independently different uses into separate rows.
 8. **Keep succession and availability downstream.** Use `EpistemeEditionRelation` only when a later row episteme historically continues an earlier one under C.2.1. When availability is current, use the exact E.24.PUB expression, bearing, and publication relations. A row, row id, form, carrier, upload, or rendering establishes neither succession nor publication by itself.
 
-Apply the static and regression checks to the affected row, then stop. The result grants no ontology, obtaining, equivalence, authority, role, status, evidence, Work, publication truth, or receiving action.
+Apply the static and regression checks to the affected row, then stop. The result grants no ontology, obtaining, equivalence, authority, system-role classification or assignment, relation position, status, evidence, Work, publication truth, or receiving action.
 

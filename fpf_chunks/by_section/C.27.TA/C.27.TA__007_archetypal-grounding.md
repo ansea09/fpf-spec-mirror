@@ -6,12 +6,12 @@ section_id: "C.27.TA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27.TA/C.27.TA__007_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27.TA — Temporal Aspect: Time Windows, Rhythm, Cadence, and Currentness"
   - "C.27.TA:5 — Archetypal Grounding"
-line_start: 57176
-line_end: 57217
+line_start: 57450
+line_end: 57491
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -81,7 +81,7 @@ TemporalAspectStatement:
 
 #### C.27.TA:5.4 - Work Rhythm
 
-A review practice depends on a two-day response rhythm across several roles.
+A review practice depends on a two-day response rhythm across several review positions and participants. This is ordinary readable wording; it does not by itself admit Systems, classify local system-role kinds, create assignments, establish responsibility, or prove that response Work occurred.
 
-C.27.TA names the rhythm bearer, timing reference, rhythm window, and coupling relation when cross-bearer coordination matters. Work planning, role assignment, and method-description patterns carry their own claims.
+C.27.TA names the rhythm bearer, timing reference, rhythm window, and coupling relation when cross-bearer coordination matters. If an assignment claim is independently needed, recover its directly declared species and obtaining occurrence with actual participant values, holder, applicability, and extent under A.2.1. Add a local system-role kind and a separate System-classification judgment only when each is current. Only when dated response Work is claimed, point to its complete A.15.1/F.6 basis. An assignment may be current in a plan or availability statement before any response Work occurs; it does not imply completed Work.
 

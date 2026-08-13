@@ -6,12 +6,12 @@ section_id: "E.11.PUA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:5 — Archetypal Grounding"
-line_start: 77735
-line_end: 77800
+line_start: 78393
+line_end: 78458
 dependencies:
   - "A.15"
   - "A.6.5"
@@ -57,7 +57,7 @@ If the recommendation participates in later planning, name its exact source and 
 
 An engineer asks an AI assistant to apply an already selected `A.19.ECS` pattern to a pump-comparison question. The needed result is one exact `EvaluationCharacteristicSpaceSpec` with admitted coordinates, scales, comparators, and evidence rules. No later use asks for a durable pattern-selection trace.
 
-The assistant returns the specification content in ordinary language and keeps the concern, direct pattern, and stop condition recoverable in the conversation. The text is the required specification only when it satisfies the A.19.ECS and C.2.1 identity rules. Successful ordinary use creates no candidate, fit, applicability, rationale, expectation, or closure record merely because AI helped. If the use also claims first constitution, identify the actual responsible Work and local A.15.PROD inception claim. If the available basis cannot support the specification, name the unresolved coordinate, scale, comparator, or evidence-rule position, use `A.19.ECS` to resolve it, and leave the completed-specification expectation open. Materialize that return as `PatternUseBoundaryCondition@Context` only when a named reliance needs an addressable boundary; do not emit a complete meta-record stack.
+The assistant returns the specification content in ordinary language and keeps the concern, pattern, and stop condition recoverable in the conversation. The text is the required specification only when it satisfies the A.19.ECS and C.2.1 identity rules. Successful ordinary use creates no candidate, fit, applicability, rationale, expectation, or closure record merely because AI helped. If the use also claims first constitution, first use A.15.1 and F.6 to identify the dated Work, performer, and assignment; then state the A.15.PROD inception claim. A short projection may omit identifiers that its receiving use does not need. Work is not a responsibility bearer. If the available basis cannot support the specification, name the unresolved coordinate, scale, comparator, or evidence-rule position, use `A.19.ECS` to resolve it, and leave the completed-specification expectation open. Materialize that return as `PatternUseBoundaryCondition@Context` only when a named reliance needs an addressable boundary; do not emit a complete meta-record stack.
 
 #### E.11.PUA:5.2 - Physical result: work is still future
 
@@ -81,7 +81,7 @@ Identify teaching as dated Work under A.15; use the applicable educational patte
 
 #### E.11.PUA:5.4 - Pre-existing result: inspection does not reproduce it
 
-A maintenance engineer inspects an installed pump that predates the current pattern use. Current measurements may ground the pump for a compatibility question only through the exact measurement, observation, diagnostic, or evidence-use relations owned by the applicable patterns; the historical production claim lies outside the basis.
+A maintenance engineer inspects an installed pump that predates the current pattern use. Current measurements may ground the pump for a compatibility question only through the exact measurement, observation, diagnostic, or evidence-use relations defined by the applicable patterns; the historical production claim lies outside the basis.
 
 Use `PreExistingResultGroundingFinding@Context` for the present grounding and cite its exact `GroundingBasisPair` values. An inspection note or record may describe the pump and support evidence use, but it cannot replace the physical pump or occupy the expected subject-result position. Keep producing-work provenance absent. The current inspection neither manufactures the pump nor proves how it was manufactured. If the direct grounding relation cannot be recovered, return that blocker instead of treating inspection proximity as grounding.
 

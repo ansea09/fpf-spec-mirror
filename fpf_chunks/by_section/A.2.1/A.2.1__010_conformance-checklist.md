@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.1"
-pattern_title: "U.RoleAssignment - System Role Assignment"
+pattern_title: "U.SystemRoleAssignment - Contextual System-Role Assignment"
 section_id: "A.2.1:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__010_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.1 — U.RoleAssignment - System Role Assignment"
+  - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:8 — Conformance Checklist"
-line_start: 3237
-line_end: 3253
+line_start: 3399
+line_end: 3417
 dependencies:
   - "A.1.1"
   - "A.15"
@@ -20,39 +20,42 @@ dependencies:
   - "A.2.2"
   - "A.2.5"
   - "A.2.7"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
   - "A.6.5"
   - "A.6.9"
   - "A.6.REL"
   - "C.2.1"
+  - "C.27"
+  - "C.27.TA"
+  - "C.3.3"
   - "F.6"
   - "F.9"
-  - "U.Role"
 keywords:
-  - "AssignmentInterval"
-  - "assignment occurrence"
-  - "effective ReferenceScheme"
+  - "assignment predicate"
+  - "direct assignment species"
   - "holder System"
+  - "identity"
+  - "maximal interval"
   - "performedUnderAssignment"
-  - "role value"
-  - "role-taxonomy episteme"
+  - "system-role kind"
 ---
 
 ### A.2.1:8 - Conformance Checklist
 
 | ID | Check |
 | --- | --- |
-| CC-A2.1-1 | The relation predicate states when one admitted `U.System` holds one `U.Role`. |
-| CC-A2.1-2 | The `RelationSignature` declares each participant through one complete SlotSpec with exact SlotKind, ValueKind, and refMode. |
-| CC-A2.1-3 | `AssignmentInterval` is assertion or occurrence-description content, not a relation-participant SlotSpec; it states one currently known continuous temporal extent. |
-| CC-A2.1-4 | The identity rule uses the four stable participant fillings plus uninterrupted obtaining of the assignment predicate; representation keys remain separate. |
-| CC-A2.1-5 | Closing an open interval can refine the same uninterrupted occurrence; a demonstrated non-assignment gap ends it. |
-| CC-A2.1-6 | Generic `U.RoleAssignment` has exactly four participants; any selected model-use structure is designated only by a receiving assertion or use. |
-| CC-A2.1-7 | Role state, capability, method admission, work, responsibility, decision, evidence, reliance, provenance, and publication are not assignment slots. |
-| CC-A2.1-8 | Performed work is attributed through direct `performedUnderAssignment(W, RA)`; the actual performer is the admitted System in `RA.HolderSystemSlot`. |
-| CC-A2.1-9 | An assignment assertion, roster row, identifier, and publication remain epistemic or representational objects distinct from the relation occurrence. |
-| CC-A2.1-10 | Every reference filling has its exact RefKind and resolves to the ValueKind declared by that SlotSpec. |
-| CC-A2.1-11 | An evidence gap is not treated as a demonstrated interval in which the assignment predicate failed. |
-| CC-A2.1-12 | Reduced use stops before explicit individuation when no receiving use needs an assignment reference. |
+| `CC-A2.1-1` | `U.SystemRoleAssignment` has no permissive root `RelationSignature`; every occurrence belongs to one directly declared species. |
+| `CC-A2.1-2` | Every species declares `HolderSystemSlot : U.System` and one declaration-local `AssignedSystemRoleKindSlot` with an exact local system-role-kind domain. |
+| `CC-A2.1-3` | Every additional participant changes the predicate or occurrence identity and has an admitted kind and complete SlotSpec. |
+| `CC-A2.1-4` | The direct predicate, applicability, and occurrence-identity rule are explicit. |
+| `CC-A2.1-5` | One occurrence is the maximal uninterrupted predicate-true interval for fixed participant values; a demonstrated gap creates another occurrence. |
+| `CC-A2.1-6` | `assignmentInterval` describes known extent and is not a participant or proof of obtaining. Ordinary interval content stays local; a relied-on positive temporal aspect uses `C.27.TA`, while temporal-claim adequacy uses `C.27`. |
+| `CC-A2.1-7` | Taxonomy, scheme, signature, assertion, evidence, publication, and model-use structure are not generic assignment participants. |
+| `CC-A2.1-8` | A specialized occurrence is itself a `U.SystemRoleAssignment`; no weaker generic duplicate is created. |
+| `CC-A2.1-9` | Every species declares the common holder slot by which F.6 projects the actual holder from an occurrence, without erasing additional participants. |
+| `CC-A2.1-10` | Classification and assignment remain independent; assignment is a criterion feature only when the signature explicitly says so. |
+| `CC-A2.1-11` | Performed Work uses `performedUnderAssignment(W, RA)` and the actual performer is `RA.HolderSystemSlot`. |
+| `CC-A2.1-12` | A `...SystemRoleAssignmentRef` field is typed by `U.RelationRef constrained to U.SystemRoleAssignment`, resolves to one exact occurrence, and keeps its declared species recoverable. |
+| `CC-A2.1-13` | Missing evidence yields unresolved or `unknown`; only demonstrated predicate failure ends the occurrence. |
+| `CC-A2.1-14` | Reduced use stops before explicit individuation when no receiver needs an assignment reference. |
 

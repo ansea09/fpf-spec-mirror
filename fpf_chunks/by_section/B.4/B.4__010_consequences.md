@@ -6,12 +6,12 @@ section_id: "B.4:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__010_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:9 — Consequences"
-line_start: 39812
-line_end: 39819
+line_start: 40023
+line_end: 40030
 dependencies:
   - "A.12"
   - "A.4"
@@ -30,7 +30,7 @@ keywords:
 
 | Benefits | Trade-offs / Mitigations |
 | :--- | :--- |
-| **Creates a "Learning Architecture":** The loop provides a formal, repeatable structure for continuous improvement and adaptation, making the organization's learning process explicit. | **Record overhead:** Documenting each phase of the loop can feel bureaucratic for small, rapid changes. *Mitigation:* keep the local evolution note lightweight. The key is to capture the changed holon, observed basis, acting-side transformer, design-time refinement, deploy relation, and renewed run-time scope. |
+| **Creates a "Learning Architecture":** The loop provides a formal, repeatable structure for continuous improvement and adaptation, making the organization's learning process explicit. | **Record overhead:** Documenting each phase of the loop can feel bureaucratic for small, rapid changes. *Mitigation:* keep the local evolution note lightweight. The key is to capture the changed holon, observed basis, performing Systems and Work, design-time refinement, deploy relation, and renewed run-time scope. |
 | **Ensures Design-Reality Sync:** The loop guarantees that `design-time` specifications and `run-time` realities are continuously reconciled, preventing divergence and maintaining a "living" assurance case. | - |
-| **Makes Evolution Auditable:** The evolution history of a holon, including every refinement and the rationale behind it, becomes a traceable, auditable record performed by named `Transformers`. | - |
+| **Makes Evolution Auditable:** The evolution history of a holon, including every refinement and the rationale behind it, becomes traceable through named Systems, dated Work, and the resulting changes. | - |
 

@@ -1,60 +1,62 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.15"
-pattern_title: "Role–Method–Work Alignment"
+pattern_title: "System-Role–Method–Work Alignment"
 section_id: "A.15:12c"
 section_title: "P2W Work-Family Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__016_p2w-work-family-split.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.15 — Role–Method–Work Alignment"
+  - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12c — P2W Work-Family Split"
-line_start: 24397
-line_end: 24402
+line_start: 24593
+line_end: 24598
 dependencies:
   - "A.10"
-  - "A.12"
-  - "A.15"
-  - "A.15.1-A.15.5"
+  - "A.15.1"
+  - "A.15.2"
+  - "A.15.3"
   - "A.15.4"
   - "A.15.5"
   - "A.2"
+  - "A.2.1"
+  - "A.2.2"
+  - "A.2.5"
+  - "A.2.7"
   - "A.20"
   - "A.21"
-  - "A.4"
+  - "A.3"
   - "A.6"
-  - "A.6.B"
-  - "A.6.C"
+  - "A.6.5"
+  - "A.7"
   - "B.3"
-  - "C.24"
-  - "C.26.2"
   - "C.28"
   - "C.29"
+  - "C.3"
   - "C.32.P2S"
   - "E.10"
   - "E.10.ARCH"
-  - "E.16"
-  - "E.17"
+  - "E.10.ROLE"
   - "E.17.EFP"
   - "E.18.1"
+  - "F.6"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "U.Method"
-  - "U.MethodDescription"
-  - "U.Role"
-  - "U.WorkPlan"
-  - "actual U.Work"
-  - "appearance-based reliance boundary"
-  - "contextual enactment"
-  - "coordinated-work evidence"
-  - "role-method-work distinction"
-  - "work admission display"
-  - "work-entry readiness"
+  - "Method"
+  - "MethodDescription"
+  - "WorkPlan"
+  - "assignment"
+  - "attribution"
+  - "dated Work"
+  - "readiness"
+  - "result boundary"
+  - "system-role kind"
 ---
 
 ### A.15:12c - P2W Work-Family Split
 
-When a P2W use under `E.18.1` produces a `WorkPlanning` or work-entry readiness relation, this family carries the split among selected method, `U.WorkPlan`, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, an actual Work occurrence admitted under `U.Work`, and separate result-related records. A P2W principle scheme, functional diagram, or scenario may guide method inspection and work-planning preparation only after the current work-family object is named.
+When an E.18.1 P2W use reaches `WorkPlanning` or work-entry readiness, keep the selected Method, `U.WorkPlan`, `SlotFillingsPlanItem`, `WorkEntryReadiness@Context`, dated Work occurrence, and separate result records distinct. A principle scheme, functional diagram, or scenario may guide Method inspection and planning only after the current work-family value is named.
 
-WorkPlanning may place evidence-reference hooks and source-currentness requests for the pattern that defines or tests the relation under repair. `A.15.5` may cite WorkPlan and SlotFillingsPlanItem baselines when readiness is the current relation. If the relation under repair is evidence, gate passage, launch-value finalization, performed work, result measurement, assurance, or refresh, name that relation before relying on the work-planning or readiness record.
+Work planning may cite evidence and currentness requests for the direct relation under repair. A.15.5 may cite WorkPlan and plan-item baselines when readiness is current. Name evidence, gate passage, performed Work, result measurement, assurance, or refresh before relying on a planning or readiness record for that stronger claim.
 

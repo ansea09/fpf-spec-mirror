@@ -6,12 +6,12 @@ section_id: "A.15.4:7"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.4/A.15.4__012_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.4 — Work-Relevant Appearance-Based Reliance Repair"
   - "A.15.4:7 — Rationale"
-line_start: 26012
-line_end: 26017
+line_start: 26210
+line_end: 26215
 dependencies:
   - "A.10"
   - "A.15"
@@ -19,6 +19,7 @@ dependencies:
   - "A.15.5"
   - "A.16.0"
   - "A.2.1"
+  - "A.2.5"
   - "A.2.8"
   - "A.2.8.PER"
   - "A.2.9"
@@ -33,6 +34,7 @@ dependencies:
   - "E.10.MOVE"
   - "E.17"
   - "E.17.EFP"
+  - "F.6"
 keywords:
   - "allowed or blocked use"
   - "appearance-based reliance"
@@ -50,7 +52,7 @@ keywords:
 
 ### A.15.4:7 - Rationale
 
-A.15.4 exists because work often first meets a source expression, selected source `U.Episteme`, exact publication occurrence, source-bearing relation, or composed source-relation chain through a display, publication face, generated explanation, copied statement, credential view, dashboard tile, schema wording, or API wording before the required relation or result and project-side reference are visible. Using A.15.4 lets the practitioner keep work moving with orientation or bounded source-finding while preventing that appearance from becoming approval, evidence, assurance, gate passage, performed work, release authorization, role-assignment currentness, role-state currentness, or credential-status currentness by appearance.
+A.15.4 exists because Work often first meets a source expression, selected source `U.Episteme`, exact publication occurrence, source-bearing relation, or composed source-relation chain through a display, publication face, generated explanation, copied statement, credential view, dashboard tile, schema wording, or API wording before the required relation or result and project-side reference are visible. Using A.15.4 lets the practitioner keep Work moving with orientation or bounded source-finding while preventing that appearance from becoming approval, evidence, assurance, gate passage, performed Work, release authorization, system-role-assignment currentness, assignment-state currentness, responsibility, authority, or credential-status currentness by appearance.
 
 The repair is deliberately local and creates no new authority relation. Once the exact evidence, gate, assurance, role/state, work, publication, boundary, or permission/authority object selected in §3 is recovered, apply the predicate defined for it through `SubjectPatternLocator`. Resolve an exact defining or constraining `ClaimGraph` only when rule identity or edition changes this use; an ordinary PatternID is otherwise enough.
 

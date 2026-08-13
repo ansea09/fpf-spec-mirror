@@ -6,12 +6,12 @@ section_id: "A.2.3:End"
 section_title: "A.2.3:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__020_a-2-3-end.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:End — A.2.3:End"
-line_start: 4139
-line_end: 4140
+line_start: 4314
+line_end: 4315
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -40,8 +40,7 @@ dependencies:
   - "U.Episteme"
   - "U.Method"
   - "U.MethodDescription"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
   - "U.Work"
   - "U.WorkPlan"
   - "U.WorkScope"
@@ -49,11 +48,12 @@ keywords:
   - "SLA"
   - "SLO"
   - "Work evidence"
-  - "acceptanceSpec"
-  - "accessSpec"
-  - "claim scope (G)"
+  - "acceptance specification"
+  - "access specification"
+  - "claim scope"
   - "promise content"
-  - "provider/consumer roles"
+  - "promised outcome"
+  - "provider and consumer system-role kinds"
 ---
 
 ### A.2.3:End

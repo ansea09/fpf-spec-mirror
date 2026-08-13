@@ -6,12 +6,12 @@ section_id: "F.15:15.2"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__021_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15.2 — Rationale"
-line_start: 95437
-line_end: 95440
+line_start: 96221
+line_end: 96224
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,5 +50,5 @@ keywords:
 
 ### F.15:15.2 - Rationale
 
-Cross-local reuse is useful only after exact locality and relation truth are preserved; regression is useful only when it compares real earlier/later objects for a named use. F.15 therefore checks a finite joint slice without becoming another ontology, naming protocol, assessment-work owner, evidence relation, publication mechanism, or global status system.
+Cross-local reuse is useful only after exact locality and relation truth are preserved; regression is useful only when it compares real earlier/later objects for a named use. F.15 therefore checks a finite joint slice without defining another ontology or naming protocol, performing assessment Work, establishing evidence relations, publishing content, or creating a global status system.
 

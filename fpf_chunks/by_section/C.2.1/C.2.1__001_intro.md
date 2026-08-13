@@ -6,12 +6,12 @@ section_id: "C.2.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:intro — Intro"
-line_start: 41130
-line_end: 41167
+line_start: 41341
+line_end: 41378
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -78,7 +78,7 @@ A theory, model, specification, proof, or diagnosis can therefore be an episteme
 
 **Primary governed object.** One `U.Episteme`: the claim-bearing knowledge holon being identified or compared.
 
-**Architecture in scope.** C.2.1 also governs that episteme's `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`; it coordinates with the direct owners of viewpoint, view, scope, model use, description, publication, form, carrier, and representation.
+**Architecture in scope.** C.2.1 also governs that episteme's `EpistemeConstitutionRelation`, `EpistemeEmpiricalGroundingRelation`, and `EpistemeEditionRelation`; it coordinates with the subject patterns of viewpoint, view, scope, model use, description, publication, form, carrier, and representation.
 
 **Terminology guard.** The EntityOfConcern **of an episteme** is the exact entity its claims concern. It is not the same field as the primary governed object **of this pattern**.
 

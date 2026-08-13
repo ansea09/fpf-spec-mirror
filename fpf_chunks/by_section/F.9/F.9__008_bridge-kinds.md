@@ -6,12 +6,12 @@ section_id: "F.9:6"
 section_title: "Bridge kinds"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__008_bridge-kinds.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:6 — Bridge kinds"
-line_start: 92816
-line_end: 92838
+line_start: 93588
+line_end: 93610
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -26,6 +26,8 @@ dependencies:
   - "C.26.1"
   - "C.26.2"
   - "C.29"
+  - "C.3"
+  - "E.10.ROLE"
   - "E.17.ID.CR"
   - "E.24.PUB"
   - "F.0.1"
@@ -73,5 +75,5 @@ These kinds state semantic correspondence across different `senseFamily` reading
 6. **Design-spec-to-run-occurrence** - a design sense corresponds to a run-time occurrence sense while remaining different in temporal and realization status.
 7. **Measurement-evidence-for** - a measurement sense corresponds to the measured aspect of another sense. The kind is semantic; actual evidential support remains with A.10 or B.3.
 8. **Policy-constraint-on** - a policy or deontic sense corresponds to a constrained behavioral sense. Actual obligation, permission, or authority remains with the policy or deontic governor.
-9. **Viewpoint-correspondence** - a sense used in one view corresponds to a sense used in another view over an EntityOfConcern. View, description, publication, and source-use claims keep their direct owners.
+9. **Viewpoint-correspondence** - a sense used in one view corresponds to a sense used in another view over an EntityOfConcern. View, description, publication, and source-use claims keep their subject patterns.
 

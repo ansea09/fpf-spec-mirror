@@ -6,12 +6,12 @@ section_id: "E.4.FPF:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.FPF/E.4.FPF__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.FPF — First Principles Framework Form and Publication-or-Access Carrier Assembly"
   - "E.4.FPF:1 — Problem frame"
-line_start: 70059
-line_end: 70068
+line_start: 70462
+line_end: 70471
 dependencies:
   - "C.33"
   - "C.34"
@@ -40,7 +40,7 @@ keywords:
 
 Use this pattern when an FPF steward, framework author, reviewer, or AI agent must treat FPF itself as one framework edition rather than as only a file, a table of contents, a pile of patterns, a DPF, or a set of helper tools.
 
-Primary `EntityOfConcern`: `FirstPrinciplesFrameworkEdition@Context`, the scoped FPF edition as a transdisciplinary first-principles framework. The first useful output is an FPF form map: first-principles scope, selected Core pattern set, cross-domain problem-situation and solution-move architecture, publication or access carriers, relation and edition records, quality route through `E.2.DA`, and blocked overreads.
+Primary `EntityOfConcern`: `FirstPrinciplesFrameworkEdition@Context`, the scoped FPF edition as a transdisciplinary first-principles framework. The first useful output is an FPF form map: first-principles scope, selected Core pattern set, cross-domain problem-situation and solution-move architecture, publication or access carriers, relation and edition records, exact whole-FPF quality assertion under the E.2.DA predicate, and blocked overreads.
 
 Use this when the work changes or assembles README, Preface, ToC, `FPF-Spec.md`, extracted hosts, first-entry views, skill packs, MCP-backed access services, or other carriers of FPF itself. Use `E.4.DPF` instead when the framework is a domain or local framework grounded in FPF. Use `E.4` when the live question is only family placement and routing among framework members.
 

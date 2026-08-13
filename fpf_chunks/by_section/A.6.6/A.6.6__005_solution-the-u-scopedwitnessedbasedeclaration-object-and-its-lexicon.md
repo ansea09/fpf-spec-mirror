@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-the-u-scopedwitnessedbasedeclaration-object-and-its-lexicon.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:4 — Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
-line_start: 19418
-line_end: 19621
+line_start: 19661
+line_end: 19874
 dependencies:
   - "A.10"
   - "A.14"
@@ -129,18 +129,28 @@ Recommended canonical SlotKinds for SWBD:
 
 A `baseRelation` token is not “just a label”. For each baseRelation declared in a Context, its definition SHALL include:
 
-* **Role polarity.** Which end is dependent and which end is base (or declare symmetry explicitly).
+* **Relation-end polarity.** Which end is dependent and which end is base (or declare symmetry explicitly).
 * **Typing expectations.** Admissible ValueKinds and `refMode` for `DependentSlot` and `BaseSlot`.
 * **Token discipline (LEX).** The token SHALL satisfy E.10 token-class morphology for relations/verbs; it SHALL NOT use metaphor heads (`Anchor*`, `Ground*`, `Attach*`) as a meaning-surrogate. If a source phrase must be retained for traceability, record it as source wording through F.18 naming discipline while keeping the relation-specific token specific.
 * **Repair path for mismatches.** If an endpoint’s self-kind does not match the expected ValueKind, the allowed repairs are declared (KindBridge, explicit narrowing, or explicit retargeting); “renaming the endpoint” is not a repair.
 * **Parameter placement.** Any additional qualifiers required by the relation kind (ranges, metrics, reference planes, policies) SHALL be represented either inside `scope` (preferred) or as explicit additional slots in an extended base-declaration signature; they MUST NOT be smuggled as adjectives on the endpoints.
 * **Scope class.** Whether the declaration is claim-scoped (**G**), work-scoped, or publication-scoped.
 * **Time discipline.** Whether `Γ_time` is required, optional, or forbidden for this relation kind.
-* **Witness discipline.** Whether witnesses are always required versus required only for decision use, and what witness-use relations or pinned witness records are admissible: evidence-use relations, edition pins, calibration certificate pins, proof-bearing publications, or policy pins named by direct governing patterns.
+* **Witness discipline.** Whether witnesses are always required versus required only for decision use, and what witness-use relations or pinned witness records are admissible: evidence-use relations, edition pins, calibration certificate pins, proof-bearing publications, or policy pins named by subject patterns.
 * **Admissible change classes.** Which base-change operations are permitted (below) and what continuity requirements apply.
 * **Cross-context / cross-plane policy.** Whether this declared `baseRelation` may cross Contexts/planes at all; if yes, what Bridge ids/CL thresholds must be cited and what loss notes are required (F.9 / C.3.3).
 
 This mirrors A.6.5: a SlotKind without ValueKind/RefMode is underspecified; a baseRelation without its vocabulary entry is equally underspecified.
+
+#### A.6.6:4.4a - Claim-scoped non-kind predicate-base branch
+
+When one identified derivation or criterion-selection claim uses exact claim content as its base, reuse A.6.6's endpoint, scope, time, witness, Bridge/loss, change, and overread discipline without pretending that a base relation kind or SWBD occurrence has been admitted. Identify the exact dependent `U.ClaimGraph`, exact nonempty selected base subgraph by value, the `derive` or `evaluate` mode, exact derivation or evaluation-and-selection claim identity, bounded receiving use, and effective reference scheme. Add an exact A.2.6 ClaimScope, temporal policy/domain, source or witness qualification, or cross-scheme Bridge and loss account only when that independently varying fact changes the assertion.
+
+The assertion is ordinary C.2.1 claim content under `derivedUsingRuleContent` or `evaluatedAgainstRuleContent`. The dependent and base are A.6.0 predicate parameters, not A.6.5 SlotSpecs, participants of a `BaseRelation`, or an intrinsic `rule-bearing` classification. Same-scheme use adds no Bridge. A source edition, designation, acceptance/currentness fact, trace, or witness qualifies the assertion but does not enter semantic-base identity. Equal graphs under the same scheme count as one semantic base with multiple qualifications; a changed graph is another base.
+
+Change only the fact that changed: declare or withdraw a selected base, repoint the dependent, rescope, retime, refresh witnesses, or change the predicate relation. A changed subject, content, mode, bounded use, actual-use claim, scope extension, temporal policy, or interpreted endpoint creates the appropriate successor C.2.1 assertion. Do not infer a new relation kind, occurrence, evidence result, Work, authority, or reliance from that change.
+
+A basis-family analysis is a separate, optional C.2.1 episteme opened only for a named comparison, replay, material-conflict, or reliance receiver. Its candidate universe, evaluations, pairwise compatibility, temporal partition, established family, and disposition neither edit this reusable predicate declaration nor become fields of each actual-use assertion.
 
 #### A.6.6:4.4.1 - Perspective/voice discipline (dependent-view vs base-view)
 
@@ -242,7 +252,7 @@ If these fields cannot be stated, do not create a `SupportRelation`, `SupportBas
 | Support wording means... | Governing ontology to apply |
 | --- | --- |
 | a source, model, diagram, publication, or view describes, constrains, or exposes something | source-description, specification-use, and publication patterns (`A.7`, `A.6.3`, `A.6.2`, `C.2.3`, `E.17`, local source rules) |
-| an observation, test, proof, role, or carrier bears on a claim | evidence patterns (`A.10`, `A.2.4`, `G.6`) |
+| an observation, test, proof, carrier, or source phrase such as *evidence role* says that an episteme bears on a claim | recover the exact bounded evidence-use, status-use, provenance, or support relation through `A.2.4`, `A.10`, or `G.6`; a separately obtaining system-role classification or assignment may itself be evidence only through another evidence-use fact |
 | a claim is acceptable in an assurance or trust calculus | assurance patterns (`B.3`) plus evidence ontology named by value when evidence is live |
 | a causal, intervention, counterfactual, off-policy, or simulation-only use is admissible | causal-use pattern (`C.28`) |
 | a mathematical lens, mapping, or model makes a use admissible or exposes preserved/lost structure | mathematical-lens patterns (`C.29`, `C.26`, `F.9`) |

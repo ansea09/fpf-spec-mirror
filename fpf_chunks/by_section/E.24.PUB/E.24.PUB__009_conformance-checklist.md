@@ -6,12 +6,12 @@ section_id: "E.24.PUB:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__009_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:7 — Conformance Checklist"
-line_start: 89223
-line_end: 89237
+line_start: 89929
+line_end: 89943
 dependencies:
   - "A.6.3"
   - "A.6.REL"
@@ -30,7 +30,6 @@ dependencies:
   - "F.19"
   - "U.EpistemePublication"
   - "U.View"
-  - "U.Work"
 keywords:
 ---
 
@@ -38,14 +37,14 @@ keywords:
 
 | Check | Observable conformance condition |
 | --- | --- |
-| `CC-E24PUB-1` | The named receiving `U.Work` and the publication use it depends on are explicit. A claimed actual use names either the exact declared predicate, participant order, and actual values for a premise, reference, other participant, or work-to-referent use, or the identified A.6.1 application and exact declaration-local binding for a declared operation argument; otherwise the text stops at publication availability or returns the applicable A.15.1 `missing-governor` result. Choice work keeps its C.11 `ChoiceResult` separate from the Work and publication participants. |
+| `CC-E24PUB-1` | Before occurrence, the receiving use is named by the current plan, decision question, training or reference use, or other claim that states what is intended; it is not called `U.Work`. Any claimed dated Work satisfies A.15.1 and F.6: it names its performer, Method, time, containing System, a covering assignment held by that performer, and the F.6 relation linking the Work to that assignment. A short sentence may omit an assignment identifier it does not use. A claimed use of a published assertion names either the declared predicate, participant order, and actual values for a premise, reference, other participant, or work-to-referent use, or the identified A.6.1 application and declaration-local binding for an operation argument. Otherwise the text stops at publication availability or returns the applicable A.15.1 `missing-governor` result. Choice Work keeps its C.11 `ChoiceResult` separate from the Work and publication participants. |
 | `CC-E24PUB-2` | The selected episteme edition, audience declaration, bounded-use declaration, publication form, and presentation carrier are distinguishable. |
 | `CC-E24PUB-3` | `EpistemePublicationRelation` has the five exact participant meanings, the availability predicate, and the maximal-continuous-occurrence identity rule stated in section 4.1. |
 | `CC-E24PUB-4` | `PublicationFormExpressionRelation` and `PublicationFormBearingRelation` are recoverable when expression or carrier availability is load-bearing. |
 | `CC-E24PUB-5` | Plain `published episteme` is used only for contingent participation; `U.EpistemePublication` is not used as a durable kind. |
 | `CC-E24PUB-6` | A `U.View` remains a same-individual dependent specialization of `U.Episteme` under an obtaining E.17.0 conformance relation; graphical appearance and A.6.3 construction alone supply no membership. |
 | `CC-E24PUB-7` | C.29 representation elements and correspondence remain distinct from the publication form and direct subject-side objects. |
-| `CC-E24PUB-8` | Publication work, actual access, reliance, evidence, decision, and performed work remain under their direct patterns. |
+| `CC-E24PUB-8` | Publication activity, actual access, reliance, evidence, decision, and performed Work remain under their direct patterns; any admitted Work satisfies the complete A.15.1 and F.6 account. |
 | `CC-E24PUB-9` | A changed edition, form, carrier, audience, or bounded use leads to the smallest affected object or relation rather than a whole-stack rewrite. |
-| `CC-E24PUB-10` | Ordinary use stops at the readable sentence when no receiving work needs fuller relation detail. |
+| `CC-E24PUB-10` | Ordinary use stops at the readable sentence when the receiving use needs no fuller relation detail. |
 

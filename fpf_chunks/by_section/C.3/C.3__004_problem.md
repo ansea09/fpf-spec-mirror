@@ -6,12 +6,12 @@ section_id: "C.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__004_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:2 — Problem"
-line_start: 44625
-line_end: 44628
+line_start: 44847
+line_end: 44850
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,5 +44,5 @@ keywords:
 
 ### C.3:2 - Problem
 
-A project often needs classification before it needs ontology governance. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, several false conclusions follow: a label classifies by itself, evidence creates the feature it reports, missing evidence proves non-membership, a table becomes an entity set, or a plan row becomes actual work. C.3 keeps each conclusion at its direct owner.
+A project often needs classification before it needs ontology governance. If the kind, its definition, the classified candidate, a record about the candidate, and a displayed set of current members are treated as one object, several false conclusions follow: a label classifies by itself, evidence creates the feature it reports, missing evidence proves non-membership, a table becomes an entity set, or a plan row becomes actual work. C.3 keeps each conclusion at its subject pattern.
 

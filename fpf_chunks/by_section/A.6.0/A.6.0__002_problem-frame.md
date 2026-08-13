@@ -6,12 +6,12 @@ section_id: "A.6.0:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.0/A.6.0__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme"
   - "A.6.0:1 — Problem frame"
-line_start: 11775
-line_end: 11796
+line_start: 11987
+line_end: 12008
 dependencies:
   - "A.15.1"
   - "A.17"
@@ -58,7 +58,7 @@ For the lightest useful declaration, name that subject through `SubjectKind` and
 
 What goes wrong if this pattern is missed: content about later realization, evaluation, and publication accumulates inside the declaration. A later user cannot tell which names and laws are reusable, where they apply, or whether a changed implementation has changed the declaration.
 
-What this buys: one identifiable declaration can be reused while later realizations and uses change under their own governing patterns.
+What this buys: one identifiable declaration can be reused while later realizations and uses change under their own subject patterns.
 
 Do not use this pattern merely to state that a direct relation obtains or that one work occurrence produced a result. State that claim directly. A maintenance work plan may reuse the words `connector` and `conservation law` while scheduling tasks; it remains a work plan unless its own claim content performs the reusable declaration job above. Construct a signature only when reusable declaration content is the current object.
 

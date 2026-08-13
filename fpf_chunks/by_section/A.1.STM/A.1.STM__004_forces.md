@@ -6,12 +6,12 @@ section_id: "A.1.STM:2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:2 — Forces"
-line_start: 2555
-line_end: 2566
+line_start: 2568
+line_end: 2579
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -41,7 +41,7 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Whole-project coherence | A distant use must stay visible without making one pattern own all intermediate facts. |
+| Whole-project coherence | A distant use must stay visible without making one pattern id or ClaimGraph stand for all intermediate subject assertions. |
 | Outside before inside | Architecture is justified by a revisable external-use hypothesis, yet discovery and feedback may reopen that hypothesis. |
 | Backward justification | Reading from value toward missing support is useful, but it is not temporal order or transformation direction. |
 | Forward actuality | Work and changes must be traced through facts that obtain, not through planned arrows or shared names. |

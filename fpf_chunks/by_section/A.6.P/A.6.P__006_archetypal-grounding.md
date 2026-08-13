@@ -6,12 +6,12 @@ section_id: "A.6.P:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:5 — Archetypal Grounding"
-line_start: 16087
-line_end: 16142
+line_start: 16315
+line_end: 16370
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -28,6 +28,7 @@ dependencies:
   - "C.29"
   - "E.10"
   - "E.10.ARCH"
+  - "E.10.ROLE"
   - "E.17.0"
   - "E.24.PUB"
   - "F.18"
@@ -83,9 +84,9 @@ For unchanged `E` and `P`, the pair `<E,P>` determines one positive occurrence. 
 
 Add an occurrence designator only if the next decision must distinguish two conformance occurrences. Add an evaluation result or evidence path only if the reader must rely on the conformance verdict. Add construction history only if the task asks how `E` was produced; add a representation or publication only if another reader must inspect or receive it; add associated Work only if the task asks who performed which activity. Otherwise add none of these objects. A.6.P stops after recovering `E`, `P`, and the direct relation; `E.17.0` governs the predicate and, if the use separately asks whether an episteme is a `U.View`, that recognition.
 
-#### A.6.P:5.4 - Method, work, role, and agency
+#### A.6.P:5.4 - Method, Work, system-role objects, and agency
 
-The sentence `the inspection method checks Pump_P` uses active grammar. The repaired ontology says: one exact `RA : U.RoleAssignment` obtains under `A.2.1` with four actual participants—admitted `System_S` as holder, `InspectorRole`, `InspectorRoles_2026 : U.Episteme` as the role-taxonomy episteme, and `InspectionReferenceScheme : U.ReferenceScheme` as the effective scheme. `F.6` then states that `System_S` performed `InspectionWork_W` under `RA` (`performedUnderAssignment(InspectionWork_W, RA)`); `InspectionWork_W` applies `InspectionMethod_M`; and the direct examination relation connects the work occurrence to `Pump_P`. The example names the assignment participants but does not duplicate its interval or full assignment card. Each object keeps the identity and relations of its direct pattern. Only the holder system acts; the assignment does not.
+The sentence `the inspection method checks Pump_P` uses active grammar. The repaired ontology says: admitted `System_S` is classified under local kind `InspectorSystemRole`. `MaintenanceInspectionAssignment` is a declared `U.SystemRoleAssignment` species. It declares two participant positions, holder and assigned kind, and limits the assigned kind to `InspectorSystemRole`. Occurrence `InspectionAssignment-17` has `System_S` as holder. `F.6` states that `System_S` performed `InspectionWork_W` under that assignment; `InspectionWork_W` enacts `InspectionMethod_M`; and the examination relation connects the Work to `Pump_P`. Taxonomy episteme and reference scheme may interpret the assertion but are not assignment participants. Each object keeps the identity and relations of its pattern. Only the holder System acts; the local kind and assignment do not.
 
 #### A.6.P:5.5 - Formal reduced case
 

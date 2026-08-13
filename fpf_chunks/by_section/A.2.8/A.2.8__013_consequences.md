@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Object)"
-section_id: "A.2.8:9"
+pattern_title: "U.Commitment (Deontic Commitment Relation)"
+section_id: "A.2.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__013_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Object)"
-  - "A.2.8:9 — Consequences"
-line_start: 6448
-line_end: 6460
+  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
+  - "A.2.8:10 — Consequences"
+line_start: 6655
+line_end: 6670
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -22,37 +23,35 @@ dependencies:
   - "A.2.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.RCD"
   - "A.7"
-  - "E.8"
-  - "U.PromiseContent"
-  - "U.Work"
+  - "C.3"
+  - "F.6"
 keywords:
-  - ") but makes the structure explicit"
-  - "BCP‑14 (RFC 2119/8174)"
-  - "adjudication hooks"
-  - "are cues for the modality field after the deontic relation is recovered"
-  - "by themselves"
-  - "commitment"
-  - "deontics"
-  - "evidenceRefs"
-  - "modality normalization"
+  - "actual bearer"
+  - "constitutive rule"
+  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "individual duty"
+  - "instituting basis"
   - "obligation"
   - "prohibition"
   - "recommendation-as-duty"
-  - "scope and validity window"
-  - "they are not the governed object of this pattern"
+  - "validity interval"
 ---
 
-### A.2.8:9 - Consequences
+### A.2.8:10 - Consequences
 
 **Benefits**
 
-* Makes deontic statements **first-class and lintable** (subject/modality/scope/referents/hooks).
-* Enables clean integration with boundary claim classification (A.6.B) and contract unpacking (A.6.C) without embedding ontology in naming patterns.
-* Improves auditability by making evidence expectations explicit *only when intended*.
+- Generic policy content and actual duty no longer collapse.
+- Actual bearers are directly recoverable.
+- Modality, scope, referents, and validity remain lintable.
+- Assignment and responsibility independence is explicit.
+- Assurance can be added proportionately without becoming universal process overhead.
 
-**Trade-offs / mitigations**
+**Costs and mitigations**
 
-* Adds structure to authoring; mitigated by allowing conceptual evidence hooks and default scope policies.
-* Does not resolve conflicts between commitments; mitigated by capturing `source/precedence` tags and delegating resolution to governance patterns (Part D) and context policy.
+- A positive individual-duty claim needs more than a policy sentence. This is the necessary cost of claiming a world-side relation; generic policy content remains cheap to state.
+- Domains with another instituting basis need the pattern that defines that basis. Until then, `missing-governor` is an honest usable result.
+- Conflict resolution remains outside this pattern; record the current relations and use the applicable governance or decision pattern.
 

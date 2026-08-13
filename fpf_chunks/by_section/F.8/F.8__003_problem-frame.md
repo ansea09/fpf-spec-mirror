@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:1 — Problem Frame"
-line_start: 92233
-line_end: 92240
+line_start: 92999
+line_end: 93006
 dependencies:
   - "A.11"
   - "A.15"
@@ -21,8 +21,10 @@ dependencies:
   - "A.2.5"
   - "A.2.7"
   - "A.6.5"
+  - "A.6.RCD"
   - "A.7"
   - "A.8"
+  - "C.11"
   - "C.2.1"
   - "C.3"
   - "E.10"
@@ -50,14 +52,15 @@ keywords:
   - "minting new U-kinds"
   - "parsimony"
   - "reuse"
+  - "role-shaped names"
   - "type explosion"
 ---
 
 ### F.8:1 - Problem Frame
 
-Name pressure is often a sign of unresolved ontology. A project wants one short expression, but that expression may stand for several different governed values or uses: one local sense, an already selected designation, a public row, a RoleDescription label, a status value, a method name, a Work occurrence label, a policy identifier, or a new U-kind candidate.
+Name pressure is often a sign of unresolved ontology. A project wants one short expression, but that expression may stand for several different governed values or uses: one local sense, an already selected designation, a public row, a `SystemRoleKindDescription` label, a status value, a method name, a Work occurrence label, a policy identifier, or a new U-kind candidate.
 
-The dangerous shortcut is to decide by word form or administrative setting. If the word contains `Role`, it is treated as a role. If the same spelling appears under two schemes, it is treated as the same concept. If a source standard uses the name, the name is promoted. If a record says a decision was made, the record is treated as the decision occurrence. If a label such as `PatternReview_2026` surrounds the work, it is treated as a context, role, assignment, evidence source, or authority without recovering the actual object and relation.
+The dangerous shortcut is to decide by word form or administrative setting. If the word contains `Role`, it is treated as a local system-role kind. If the same spelling appears under two schemes, it is treated as the same concept. If a source standard uses the name, the name is promoted. If a record says a decision was made, the record is treated as the decision occurrence. If a label such as `PatternReview_2026` surrounds the work, it is treated as a context, system-role kind, assignment, evidence source, or authority without recovering the actual object and relation.
 
-F.8 delays naming until the exact governed value, effective naming ReferenceScheme, local-sense basis, and proposed use are recovered. It is the gate between a local expression and a stronger naming disposition, not the naming style guide and not the direct owner of the named value.
+F.8 delays naming until the exact governed value, effective naming ReferenceScheme, local-sense basis, and proposed use are recovered. It is the gate between a local expression and a stronger naming disposition, not the naming style guide and not the subject pattern of the named value.
 

@@ -6,12 +6,12 @@ section_id: "E.24:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24/E.24__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.24 — U.Ontic and Ontic Introduction Discipline"
   - "E.24:0 — Use This When"
-line_start: 88023
-line_end: 88066
+line_start: 88719
+line_end: 88762
 dependencies:
   - "A.19.ECS"
   - "A.6.0"
@@ -42,43 +42,43 @@ keywords:
 
 ### E.24:0 - Use This When
 
-Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their relation-participant meanings and admitted actual-participant kinds, reusable declarations, and neighboring governing patterns coherent.
+Use this pattern when FPF work appears to need a durable ontic: a connected action-facing ontology unit whose stable identity and admissible uses depend on keeping several direct relation kinds, their relation-participant meanings and admitted actual-participant kinds, reusable declarations, and neighboring subject patterns coherent.
 
-On first reading, expect two outputs rather than guessing a branch. First characterize the current candidate or source claim and run the existing-governor, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already governed claims in a bounded local episteme, rely directly on current governing patterns, or stop unresolved. Record the **source-use status** independently: not current, quote-only, reduced use, or a selected stronger source use with its exact provenance. Source-use status can accompany any resolved ontology disposition; it is not a fourth ontology branch. Use source-only as a stop only when no governed payload has been selected.
+On first reading, expect two outputs rather than guessing a branch. First characterize the current candidate or source claim and run the existing-rule-content, identity, relation-or-constitution, dependent-use, and non-duplication tests below. Only then record the **ontology disposition**: introduce a durable ontic, coordinate already defined claims in a bounded local episteme, rely directly on current exact subject assertions and their `ClaimGraph` sources, or stop unresolved. Record the **source-use status** independently: not current, quote-only, reduced use, or a selected stronger source use with its exact provenance. Source-use status can accompany any resolved ontology disposition; it is not a fourth ontology branch. Use source-only as a stop only when no exact payload assertion has been selected.
 
-A durable ontic is a reusable ontology unit whose governing pattern states its identity rule and minimal governed relation set for dependent FPF use. A bounded local episteme is a claim-bearing `U.Episteme` that coordinates already governed entities and relations for one named use. Direct governing-pattern use relies on those existing patterns without adding another ontology unit. An unresolved stop retains the inquiry without pretending that one of those three payload dispositions has been selected.
+A durable ontic is a reusable ontology unit whose exact defining or constraining `ClaimGraph` states its identity rule and minimal relation set for dependent FPF use. A bounded local episteme is a claim-bearing `U.Episteme` that coordinates already identified entities, exact relations, and subject assertions for one named use. Direct rule-content use relies on those existing assertions and `ClaimGraph` sources without adding another ontology unit. An unresolved stop retains the inquiry without pretending that one of those three payload dispositions has been selected.
 
 Typical, non-exhaustive working situations include:
 
 - a bounded local episteme starts being cited as though it were a new ontology unit;
 - a source expression or project-side expression keeps pointing to several FPF values at once;
-- a draft ToC row names a calculus or object family, but no current pattern carries its governing meaning;
-- a subject pattern begins to carry local slot-relation doctrine that other patterns also need;
+- a draft ToC row names a calculus or object family, but no current defining or constraining `ClaimGraph` states its meaning;
+- one pattern description begins to repeat local slot-relation doctrine that other uses also need;
 - a proposed subject needs one stable identity, constitution, or recognition rule plus the smallest set of governed relations that dependent use must keep coherent.
 
-**Primary EntityOfConcern.** The pattern governs `U.Ontic`, the durable action-facing ontology unit. Each particular ontic-introduction decision episteme still needs one exact EntityOfConcern selected by its ontology disposition: the selected ontic, the exact object handled by direct governing patterns, one independently governed object that every bounded-episteme claim concerns, or—at an unresolved stop—the exact source episteme or expression entity whose inquiry remains open. The source-use status does not change that EntityOfConcern. The decision episteme describes and justifies the choices; it is not part of `U.Ontic`, and an unresolved phrase or topic list cannot be its EntityOfConcern.
+**Primary EntityOfConcern.** The pattern defines or constrains `U.Ontic`, the durable action-facing ontology unit. Each particular ontic-introduction decision episteme still needs one exact EntityOfConcern selected by its ontology disposition: the selected ontic, the exact object handled by subject patterns, one independently governed object that every bounded-episteme claim concerns, or—at an unresolved stop—the exact source episteme or expression entity whose inquiry remains open. The source-use status does not change that EntityOfConcern. The decision episteme describes and justifies the choices; it is not part of `U.Ontic`, and an unresolved phrase or topic list cannot be its EntityOfConcern.
 
-**Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether several nearby patterns are describing one ontic, several existing governed values, or only a compressed source expression. The downstream reader is the practitioner who needs the resulting subject pattern to say what can be done, claimed, relied on, repaired, compared, or stopped.
+**Primary working reader.** The first reader is an FPF pattern author or reviewer deciding whether several nearby pattern descriptions concern one ontic, several already identified values, or only a compressed source expression. The downstream reader is the practitioner who needs the resulting subject assertions and practical guidance to decide what can be done, claimed, relied on, repaired, compared, or stopped. If a separate `U.MethodDescription` claim matters, apply A.3.1 and A.3.2 to identify its Method and show that the episteme substantively describes how that Method is done; the E.24 locator alone establishes neither.
 
-**Working concern and viewpoint.** From the FPF-authoring viewpoint, preserve the subject's governing relations without duplicating kinds or promoting a claim-bearing episteme for one named use into durable ontology.
+**Working concern and viewpoint.** From the FPF-authoring viewpoint, preserve the subject's exact relations, assertions, and defining or constraining `ClaimGraph` sources without duplicating kinds or promoting a claim-bearing episteme for one named use into durable ontology.
 
-**First useful move.** State the working expression or current claim, recover its exact EntityOfConcern and named receiving use, and record source provenance when current. Then run Checks 1–4: reuse existing governors, test exact identity, recover the needed direct relations or constitution, and test dependent reuse without duplicate ontology. Fill the ontology disposition only from those results. If neither a governed payload nor an exact source episteme or expression entity is identifiable, keep only inquiry material and do not fabricate a decision episteme.
+**First useful move.** State the working expression or current claim, recover its exact EntityOfConcern and named dependent use, and record source provenance when current. Then run Checks 1–4: reuse existing exact predicates and `ClaimGraph` sources, test exact identity, recover the needed direct relations or constitution, and test dependent reuse without duplicate ontology. Fill the ontology disposition only from those results. If neither an exact payload assertion nor an exact source episteme or expression entity is identifiable, keep only inquiry material and do not fabricate a decision episteme.
 
-**What goes wrong if missed.** FPF grows shadow ontology. The same project concern becomes a method in one place, a mechanism in another, a record in a third, and a local checklist in a fourth. Later uses then repair visible symptoms instead of settling the underlying kind, slot, and governing-pattern question.
+**What goes wrong if missed.** FPF grows shadow ontology. The same project concern becomes a method in one place, a mechanism in another, a record in a third, and a local checklist in a fourth. Later uses then repair visible symptoms instead of settling the underlying kind, slot, and subject-pattern question.
 
-**What this buys.** A durable ontic gets an explicit identity plus named direct relation kinds, participant meanings, obtaining conditions, and occurrence-identity rules. RelationSignature and SlotSpec declarations are added only where dependent uses need reusable participant typing. Otherwise, state the coordination in a bounded local episteme whose ClaimGraph cites the direct entities, relations, and governing patterns already carrying the work.
+**What this buys.** A durable ontic gets an explicit identity plus named direct relation kinds, participant meanings, obtaining conditions, and occurrence-identity rules. RelationSignature and SlotSpec declarations are added only where dependent uses need reusable participant typing. Otherwise, state the coordination in a bounded local episteme whose `ClaimGraph` cites the direct entities, relations, exact assertions, and pattern-description locators for their rule content.
 
 Main gains:
 
-- it prevents duplicate ontology by recovering the direct entities and relations first, then reusing their governing patterns;
+- it prevents duplicate ontology by recovering the direct entities, relations, assertions, and defining or constraining `ClaimGraph` sources first;
 - it replaces negative catalogues with positive relation discipline: state the direct relation kind, relation-participant meanings, admitted actual-participant kinds, obtaining condition, and occurrence-identity rule; add `RelationSignature` and `SlotSpec` declarations only when a receiving use needs reusable typing;
-- it gives dependent patterns one stable durable ontic and one governing pattern to cite without copying direct relation rules or reusable SlotSpecs;
-- it keeps each current world-side participant, relation occurrence, reusable declaration, claim-bearing episteme, publication object, view or representation, and source expression under its direct owner; `E.24:4.3a` is the single typed object map;
+- it gives dependent uses one stable durable ontic and one exact rule-content locus to cite without copying direct relation rules or reusable SlotSpecs;
+- it keeps each current world-side participant, relation occurrence, reusable declaration, claim-bearing episteme, publication object, view or representation, and source expression under its own exact predicate, assertion, and defining or constraining `ClaimGraph`; `E.24:4.3a` is the single typed object map;
 - it makes wording follow the one mapped object selected by the current claim instead of repeating the surrounding inventory.
 
 **Not this pattern when.**
 
-- If one existing governing pattern already carries the claim, use that pattern directly.
+- If one existing defining or constraining `ClaimGraph` already states the claim kind, write the exact subject assertion and use the pattern id only as its locator.
 - If the issue is only one wording-use repair row, use `E.10` and `E.10.ARCH`.
 - If the issue is only a new or revised mechanism meaning, use `E.20`.
 - If the issue is only durable naming, use `F.18`.

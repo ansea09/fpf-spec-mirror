@@ -6,12 +6,12 @@ section_id: "E.19:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__004_what-this-buys.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0.2 — What this buys"
-line_start: 85643
-line_end: 85654
+line_start: 86313
+line_end: 86324
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -27,21 +27,19 @@ dependencies:
   - "F.19"
 keywords:
   - "(see H-8)"
-  - "MUST NOT modify modeled-world entities (e.g"
-  - "and (if needed) reference them from CC items"
+  - "MUST NOT modify modeled-world entities such as Earth"
+  - "a system-role kind"
+  - "an assignment"
   - "inside the predicate)"
+  - "or a holon"
   - "where a non-deontic Invariant: predicate is required)"
-  - "“Earth”"
-  - "“RoleAssignment”"
-  - "“Role”"
-  - "“holon”) — express those as Invariant: / Well‑formedness constraint: predicates instead"
 ---
 
 ### E.19:0.2 - What this buys
 
 `E.19` gives authors, reviewers, and stewards a shared review profile: what must be checked, how deep the check should go, which defects block admission or refresh, and what evidence is needed before a pattern-quality claim is made. It also makes the recognition text visible before the heavier assurance machinery begins.
 
-**First useful move.** Name the reviewed pattern edition or subset, the admission or refresh question, `PCP-BASE`, and only the risk-selected profiles. Inspect the affected loci and either repair and verify each defect or record the actionable findings. Add `U.ClaimScope`, qualification window, review Method, reviewer system, assignment, dated Work, and exact check applications only when a reusable result or named reliance depends on them.
+**First useful move.** Name the reviewed pattern edition or subset, the admission or refresh question, `PCP-BASE`, and only the risk-selected profiles. A reviewer applies the selected questions, inspects the affected loci, and either repairs and verifies each defect or records the actionable findings. That ordinary form needs no system-role kind, assignment, Method, or Work assertion. Add `U.ClaimScope`, a qualification window, exact check applications, and A.6.1 bindings only when a reusable result or named reliance depends on them. If the receiving account asserts actual review, repair, or verification `U.Work`, use the §4 actual-Work account; a compact rendering may omit only an assignment identifier unused by the receiving claim.
 
 **Local-repair boundary.** If baseline triage shows that the current review question has no present ontology, usability, SoTA, boundary, naming, or authority risk beyond a small mechanical repair, close with that repair direction. Do not run every profile just because `E.19` exists, and do not claim an `E.21` quality value unless `E.21` has evaluated the pattern version over its required coordinate set.
 

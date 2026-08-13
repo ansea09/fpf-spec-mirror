@@ -6,12 +6,12 @@ section_id: "A.6.REL:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.REL/A.6.REL__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.REL — Relation Obtaining and Individuated Relation Occurrences"
   - "A.6.REL:11 — SoTA-Echoing"
-line_start: 11721
-line_end: 11745
+line_start: 11933
+line_end: 11957
 dependencies:
   - "A.6.0"
   - "A.6.5"
@@ -27,7 +27,7 @@ keywords:
 
 #### Ontological SoTA and constructional sources
 
-This pattern uses these sources to constrain its account of occurrence existence and identity. Their role here is ontological comparison, not notation selection.
+This pattern uses these sources to constrain its account of occurrence existence and identity. They provide ontological comparisons, not notation selection.
 
 | Ontological source | What it contributes | FPF adoption, mutation, and practical effect |
 |---|---|---|
@@ -43,7 +43,7 @@ This pattern uses these sources to test whether the selected ontological distinc
 
 | Representation or implementation line | Distinction tested | Bounded use in A.6.REL |
 |---|---|---|
-| [TypeDB 3.x `links` statement](https://typedb.com/docs/typeql-reference/statements/links/) and current relation model | A query can expose a relation variable with named source-language role players, while shorthand remains available when the relation instance need not be referenced. TypeDB role player is not FPF `U.Role`. | **Adapt as a representation stress test; reject as an ontology source.** Sections 4.2, 4.5, and 4.6 preserve a readable direct relation before explicit individuation. TypeDB demonstrates one implementable representation; it does not establish the FPF relation kind, obtaining condition, or identity rule. |
+| [TypeDB 3.x `links` statement](https://typedb.com/docs/typeql-reference/statements/links/) and current relation model | A query can expose a relation variable with named source-language *role players*, while shorthand remains available when the represented relation instance need not be referenced. That source term denotes neither an FPF system-role kind nor a system-role assignment. | **Adapt as a representation stress test; reject as an ontology source.** Sections 4.2, 4.5, and 4.6 preserve a readable direct relation before explicit individuation. TypeDB demonstrates one implementable representation; it does not establish the FPF relation kind, obtaining condition, or identity rule. |
 | [RDF 1.2 Concepts](https://www.w3.org/TR/rdf12-concepts/), Candidate Recommendation Snapshot, 7 April 2026 | Distinguishes a proposition expressed by a triple term, assertion of a triple, and reifiers used for further statements. | **Adapt as a representation stress test; reject graph syntax and reifier identity as world-side identity sources.** Sections 4.4 and 5.3 apply that distinction to proposition, assertion, and reifier separation. |
 
 This pattern uses the ontological sources to constrain its occurrence-existence and occurrence-identity method. It uses the representation sources to test implementability only after those choices are made. The worked cases expose both boundaries outside information-system projects.

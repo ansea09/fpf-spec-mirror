@@ -6,12 +6,12 @@ section_id: "A.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:3 — Forces"
-line_start: 23271
-line_end: 23280
+line_start: 23524
+line_end: 23533
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -41,6 +41,6 @@ keywords:
 | Causal clarity vs convenient speech | Everyday speech compresses "self-repair" and "automatic update"; engineering use needs the acting side and changed object. |
 | Internal regulation vs object collapse | A larger holon may contain both regulator and regulated parts; that does not make the regulator and regulated position identical for the current claim. |
 | Automation vs accountability | Automated work still needs a system in role, method or work claim, and evidence relation when those claims matter. |
-| Episteme use vs episteme agency | Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme. A different carrier, publication, grounding, or use belongs to its own object or relation. No episteme thereby acts. A causal or interaction claim gets its participants from its direct owner; a Work performer or `U.RoleAssignment` holder must be an admitted `U.System`. |
-| Boundary crossing vs parthood | When an exact boundary-crossing relation independently obtains under its direct owner, it does not thereby make the acting system a part of the changed holon or the larger whole containing it. Without that governor, keep the crossing claim open rather than inferring either crossing or parthood. |
+| Episteme use vs episteme agency | Changed claim content, EntityOfConcern, or effective reference scheme identifies another episteme. A different carrier, publication, grounding, or use belongs to its own object or relation. No episteme thereby acts. A causal or interaction claim gets its participants from its subject pattern; a Work performer or `U.SystemRoleAssignment` holder must be an admitted `U.System`. |
+| Boundary crossing vs parthood | When an exact boundary-crossing relation independently obtains under its subject pattern, it does not thereby make the acting system a part of the changed holon or the larger whole containing it. Without that governor, keep the crossing claim open rather than inferring either crossing or parthood. |
 

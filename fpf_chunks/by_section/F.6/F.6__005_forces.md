@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:3 — Forces"
-line_start: 91654
-line_end: 91663
+line_start: 92387
+line_end: 92397
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,34 +22,34 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:3 - Forces
 
 | Force | Tension |
-|---|---|
-| Readability vs exact identity | Ordinary prose should remain short, while reliance-bearing use may need the exact work and assignment occurrences. |
-| Assignment vs performance | Assignment makes performance possible to attribute; it does not make performance happen. |
-| World-side obtaining vs knowledge | The relation can obtain even when current evidence is missing; missing support makes the relied-on assertion unresolved, not the work unperformed. |
-| Local interpretation vs reuse | The same role word can denote different role values under different taxonomies and schemes. |
-| Thin attribution vs neighboring checks | Capability, state, method fit, result quality, acceptance, and evidence may matter downstream without becoming attribution participants. |
+| --- | --- |
+| Readability vs exact identity | Ordinary prose should stay short, while reliance-bearing use may need exact Work and assignment occurrences. |
+| Common holder projection vs stronger assignment identity | F.6 needs one performer projection but must preserve every additional assignment participant. |
+| Assignment vs performance | An exact assignment can be a participant in Work attribution; its existence, holder, and temporal coverage neither make the Work happen nor establish the attribution relation. |
+| World-side obtaining vs knowledge | Missing support makes reliance unresolved, not Work unperformed. |
+| Local interpretation vs cross-context reuse | Similar names or Bridges do not retarget Work to another assignment. |
+| Thin attribution vs neighboring checks | Capability, state, Method, result, acceptance, and evidence can matter without becoming attribution participants. |
 

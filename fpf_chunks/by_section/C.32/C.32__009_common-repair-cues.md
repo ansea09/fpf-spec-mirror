@@ -6,12 +6,12 @@ section_id: "C.32:8"
 section_title: "Common Repair Cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__009_common-repair-cues.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:8 — Common Repair Cues"
-line_start: 64532
-line_end: 64546
+line_start: 64836
+line_end: 64850
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ keywords:
 |---|---|---|
 | `SingleStructureSynthesis` | One structure is optimized and the result is called the architecture. | Build the synthesis structure map and name the architecture characteristics before admitting the candidate as C.32 work. |
 | `UserFunctionAsArchitectureCharacteristic` | The user-visible function is treated as the architecture quality being optimized. | Recover the functional demand through `A.6.F` or `C.30.ASV`; then name the architecture characteristic or quality bundle separately. |
-| `FunctionNoFeasibleBearer` | A functional architecture names a required function, but no admitted module, role, method, resource, placement, control relation, or evidence structure can carry it. | Repair with `functionBearerFeasibilityRepair`: add or change a bearer, split the function, change placement or resource access, change control responsibility, reduce the demand, or reject the candidate. |
+| `FunctionNoFeasibleBearer` | A functional architecture names a required function, but no bearer satisfies the A.6.F predicate under the relevant System, module, Method, resource, placement, control, evidence, local-kind, classification, or assignment constraints. | Repair with `functionBearerFeasibilityRepair`: add or change the bearer, split the function, change placement or resource access, change control relations, reduce the demand, or reject the candidate. A kind or assignment never becomes the bearer by form, and any responsibility claim remains a separate direct predicate or exact missing governor. |
 | `DescriptionFormAsArchitecture` | An architecture-description artifact is treated as the architecture because it is the most visible representation. | Keep the visible work product under `C.30.AD`, `C.30.ASV`, `E.17`, `E.24.PUB`, `C.29`, or source-use governance as applicable; recover described holon, selected structures, candidate architecture change, and characteristic bundle before admitting any C.32 candidate. |
 | `BenchmarkWinnerAsArchitecture` | A comparison result is treated as architecture selection. | Treat the result as comparison input or as source material for an A.10 evidence relation when that claim is current; admit a C.32 candidate only after selected structure, architecture-change kind, gain, loss, and pattern for the next question are recovered. |
 | `MethodDimensionSemanticsLost` | A BIM, digital-twin, or architecture-view method supplies dimensions, but C.32 use keeps only the dimension name or dimension count and loses the method's structure, constraint, schedule, cost, use-phase, or maintenance semantics. | Preserve the source method semantics, then map each method-declared dimension to selected structures, constraints, preserved and lost structure, architecture characteristics, and source-return condition. |

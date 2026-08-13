@@ -6,12 +6,12 @@ section_id: "A.20:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__008_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:6 — Bias-Annotation"
-line_start: 33805
-line_end: 33808
+line_start: 34007
+line_end: 34010
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"
@@ -38,5 +38,5 @@ keywords:
 
 ### A.20:6 - Bias-Annotation
 
-The pattern constrains *how* CV status and witnesses are carried; it does not encode `GateProfile`-bound thresholds or role and channel fit — those sit in GateFit. This separation keeps GateFit criteria out of mechanism semantics.
+The pattern constrains *how* CV status and witnesses are carried; it does not encode `GateProfile`-bound thresholds, system-role classification or assignment fit, or channel fit. Those questions sit in GateFit under their direct neighboring governors. This separation keeps GateFit criteria out of mechanism semantics.
 

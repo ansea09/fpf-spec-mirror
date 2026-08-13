@@ -6,12 +6,12 @@ section_id: "E.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__008_conformance-checklist.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:7 — Conformance Checklist"
-line_start: 69995
-line_end: 70006
+line_start: 70398
+line_end: 70409
 dependencies:
   - "C.33"
   - "C.34"
@@ -47,8 +47,8 @@ keywords:
 | CC-E4.1 Family member named | The work names whether it concerns Core, Tooling Reference, Pedagogical Companion, foundational principle pattern set, First Principles Framework edition, FPF Core, domain principle framework, or local practice framework. |
 | CC-E4.2 Selected structures named | The family-and-structure map names the selected problem-situation, known-failure, SoTA solution-move, pattern-set, relation, decision, publication/access, source, quality, dependency, and currentness structures that matter for the claim. |
 | CC-E4.3 E.5.3 respected | Dependency direction points toward more stable framework editions, and Core does not depend on domain or local frameworks. |
-| CC-E4.4 Publication/access separated | All-in-one carriers, tables of contents, cards, readmes, skill packs, MCP-backed routes, retrieval routes, assistant integrations, and views are publication, access, or discoverability records with their own owners. |
+| CC-E4.4 Publication/access separated | All-in-one carriers, tables of contents, cards, readmes, skill packs, MCP-backed routes, retrieval routes, assistant integrations, and views are distinct publication, access, or discoverability records; apply the relevant pattern to each claim about them. |
 | CC-E4.5 Exact predicate and assertion named | Pattern-use, relation, dependency, decision, naming, source, currentness, quality, and preservation claims each name their exact predicate and subject assertion; a pattern identifier is only the locator for the next question's defining or constraining ClaimGraph. |
-| CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and return owner. |
+| CC-E4.6 Source-return present | Any carrier used as architecture evidence states captured structure, lost structure, admissible use, and the source to return to. |
 | CC-E4.7 Framework carrier structure-account explicit | README, Preface, ToC, all-in-one carrier, skill pack, MCP route, or other framework carrier states which framework structures its publication or access expression exposes for whom; missing form or adequacy content is repaired as an exact assertion using `E.4.FPF`, `E.4.DPF`, or `E.4.DPF.DA` before adoption or adequacy claims are made. |
 

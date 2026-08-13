@@ -6,12 +6,12 @@ section_id: "A.15.PROD:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.PROD/A.15.PROD__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.15.PROD — Production Work, Entity-Identity Inception, and Production Completion Recovery"
   - "A.15.PROD:5 — Archetypal Grounding"
-line_start: 26833
-line_end: 26906
+line_start: 27035
+line_end: 27108
 dependencies:
   - "A.1"
   - "A.15.1"
@@ -72,7 +72,7 @@ In this case, exact production work satisfied criterion episteme `PC-3` at bound
 
 #### A.15.PROD:5.7 - Non-agentive biological synthesis
 
-A spontaneous reaction or biological growth process may be independently grounded as one or more actual transformations under A.3.4. The transformed biological, chemical, or physical referent may itself be a `U.System`; that fact neither makes it the performer nor supplies production work. If no exact performing System holds the performer position in an obtaining `U.RoleAssignment` and is grounded as enacting an applicable method in one dated Work occurrence admitted under `U.Work`, A.15.PROD opens no production-through-work claim. Retain the transformed referent and transformations. Evaluate entity identity only with the biological practice's named identity predicate; if no such predicate is available, return the exact identity-governor blocker. `Batch B17`, a sample label, first observation, or process record supplies none of the performer-side basis, work identity, or production attribution.
+A spontaneous reaction or biological growth process may be independently grounded as one or more actual transformations under A.3.4. The transformed biological, chemical, or physical referent may itself be a `U.System`; that fact neither makes it the performer nor supplies production work. If no exact performing System holds the performer position in an obtaining `U.SystemRoleAssignment` and is grounded as enacting an applicable method in one dated Work occurrence admitted under `U.Work`, A.15.PROD opens no production-through-work claim. Retain the transformed referent and transformations. Evaluate entity identity only with the biological practice's named identity predicate; if no such predicate is available, return the exact identity-governor blocker. `Batch B17`, a sample label, first observation, or process record supplies none of the performer-side basis, work identity, or production attribution.
 
 If an exact performing System holds the performer position in an obtaining role assignment, enacts a method in dated Work, and a named applicability claim applies that method to this biological case, the relevant A.15.PROD branch may open. Entity-identity inception still needs the applicable identity-specification episteme plus named Work-to-change and change-to-identity predicates or filled local claims; production completion still needs its applicable criterion episteme, boundary, and criterion-satisfaction facts. The same observed growth can therefore support an actual-change claim while the production-work claim remains blocked; the transformed referent remains present in either result and is not erased when the performer-side basis is absent.
 
@@ -88,7 +88,7 @@ BuildOps asks one question: **when did exact `ReleaseBinary_12` first exist?** V
 
 | Needed fact | Exact case fact |
 | --- | --- |
-| Work, performer, and method | A.15.1:6.7.1 supplies exact `ReleaseBinary12_BuildWork_2026-07-21T0900_0912 : U.Work`, performed by `BuildRunner_A : U.System` under obtaining `BuildRunnerAssignment_2026-07-21 : U.RoleAssignment`, enacted method `ReproducibleBuild@BuildOps-v12`, interval 09:00-09:12, and containing system `BuildService_A`. The enacted method states the intended effect of producing an immutable binary. Method-applicability claim `ReproducibleBuildApplies-12` applies that method to exact build input and configuration `BuildInputSet_12`. |
+| Work, performer, and method | A.15.1:6.7.1 supplies exact `ReleaseBinary12_BuildWork_2026-07-21T0900_0912 : U.Work`, performed by `BuildRunner_A : U.System` under obtaining `BuildRunnerAssignment_2026-07-21 : U.SystemRoleAssignment`, enacted method `ReproducibleBuild@BuildOps-v12`, interval 09:00-09:12, and containing system `BuildService_A`. The enacted method states the intended effect of producing an immutable binary. Method-applicability claim `ReproducibleBuildApplies-12` applies that method to exact build input and configuration `BuildInputSet_12`. |
 | Application and candidate basis | After the produced entity exists, A.6.1 application `BuildApplication_12` has result binding `builtBinary -> ReleaseBinary_12`; that binding designates the returned entity but establishes neither its inception nor its boundary. The same identified application is an application of declared operation `storeWrite@BuildOps-v12` and has argument binding `storeTarget -> ArtifactStorePartition_12`; A.15.1:6.7.1 uses this application and binding in the obtaining test for the named Work-to-transformation predicate below. Before inception, `BuildOutputBasis_12` designates the candidate bytes, manifest, digest, and their positions in that partition, not a surrogate future binary. |
 | Actual transformation | A.3.4 independently identifies the one transformation consumed here: `ArtifactStorePopulationTransformation_12 : U.Transformation`, the change of `ArtifactStorePartition_12` from no complete candidate tuple at 09:00 to the written bytes, manifest, and digest at 09:11, after which that tuple remains fixed through build completion at 09:12. |
 | Work to change | A.15.1:6.7.1's BuildOps relation specification declares `BuildWorkPopulatedStore@BuildOps-v12(work, transformation)` with participant order `<work, transformation>`. Its stated test and the stipulated Work, application, target-binding, and transformation facts make `BuildWorkPopulatedStore@BuildOps-v12(ReleaseBinary12_BuildWork_2026-07-21T0900_0912, ArtifactStorePopulationTransformation_12)` obtain. Shared timing or the result binding alone would not establish this predicate. |

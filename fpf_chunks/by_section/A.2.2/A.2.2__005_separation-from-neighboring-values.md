@@ -6,12 +6,12 @@ section_id: "A.2.2:4"
 section_title: "Separation From Neighboring Values"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__005_separation-from-neighboring-values.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:4 — Separation From Neighboring Values"
-line_start: 3447
-line_end: 3458
+line_start: 3614
+line_end: 3625
 dependencies:
   - "A.15"
   - "A.2"
@@ -30,8 +30,8 @@ keywords:
 
 | Source wording | Recovered FPF values |
 |---|---|
-| "Engineer role can approve the design." | `U.Role` for the role value and exact `U.RoleAssignment` for the admitted holder, role value, role-taxonomy episteme, effective reference scheme, and obtaining extent. Do not infer permission, capability, action, or approval Work from that wording; add `U.Capability` only for a measured and qualified ability of the holder system, and use the direct authorization and performed-work relations when those claims are current. |
-| "The robot is assigned as welder." | `U.RoleAssignment`; add `U.Capability` only if the claim also says the robot can meet a welding envelope and measures. |
+| “Engineer role can approve the design.” | Treat bare *role* as an E.10.ROLE trigger. If it means classification, recover local kind `EngineerSystemRole` and a C.3.2 judgment for an admitted System. If assignment identity matters, name the assignment occurrence and its declared `U.SystemRoleAssignment` species. Do not infer permission, capability, action, responsibility, or approval Work from either claim; add `U.Capability` only for a measured and qualified ability of the holder System, and use the permission and performed-Work relations when those claims are made. |
+| “The robot is assigned as welder.” | Name an assignment occurrence with the robot as holder and its declared `U.SystemRoleAssignment` species, whose assigned-kind position has local domain `WelderSystemRole`; add `U.Capability` only if the claim also says that the robot can meet a welding envelope and measures. |
 | "The solver has the scheduling algorithm." | First identify what the possession phrase claims: a deployed-software relation, a capability statement about the solver system, a reference to exact `U.Method`, or a candidate claim-bearing episteme. Only the last candidate enters `A.3.2`, and it is `U.MethodDescription` only when its exact `EntityOfConcern` is one admitted Method and at least one substantive claim says how that Method is done. The phrase alone establishes none of these. |
 | "The report has evidence capability." | Evidence-use relation around an episteme; no capability holder unless a system can perform evidential work. |
 | "The team did one successful run." | `U.Work` occurrence; capability only after a separate capability instance is established with envelope, measures, and currentness. |

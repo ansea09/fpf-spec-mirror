@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__013_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:12 — Relations"
-line_start: 75790
-line_end: 75795
+line_start: 76254
+line_end: 76259
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -39,6 +39,6 @@ keywords:
 ### E.10.MOVE:12 - Relations
 
 - **Builds on:** `E.10`, `E.10.ARCH`, `A.3.4.P`, `A.22.CGUS`, `E.11.PUR`, `E.23`, `A.15.5`, and `E.24`.
-- **Coordinates with:** `A.1.STM` for a non-CGUS system-thinking long-mantra map location; `E.18`, `E.18.1`, `A.15`, `A.21`, `C.24`, `C.30`, `E.17`, `F.17`, `F.18`, `G.11`, `A.10`, and each recovered governed value's direct governing pattern. `F.18` governs a durable-name decision; `G.11` governs refresh orchestration only when currentness, edition, telemetry, freshness, or decay is the actual claim.
-- **Selected by:** E.10 trigger scan when move or readiness wording has FPF-governed use and no direct governing pattern has already resolved the wording.
+- **Coordinates with:** `A.1.STM` for a non-CGUS system-thinking long-mantra map location; `E.18`, `E.18.1`, `A.15`, `A.21`, `C.24`, `C.30`, `E.17`, `F.17`, `F.18`, `G.11`, `A.10`, and each recovered governed value's subject pattern. `F.18` governs a durable-name decision; `G.11` governs refresh orchestration only when currentness, edition, telemetry, freshness, or decay is the actual claim.
+- **Selected by:** E.10 trigger scan when move or readiness wording has FPF-governed use and no subject pattern has already resolved the wording.
 

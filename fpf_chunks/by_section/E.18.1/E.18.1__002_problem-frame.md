@@ -6,12 +6,12 @@ section_id: "E.18.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.1/E.18.1__002_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.18.1 — P2W Problem-to-Work Carry-Through"
   - "E.18.1:1 — Problem frame"
-line_start: 83993
-line_end: 84029
+line_start: 84662
+line_end: 84698
 dependencies:
   - "A.15"
   - "A.15.PROD"
@@ -58,7 +58,7 @@ Use this pattern when an accepted `ProblemCard@Context` is ready enough to guide
 
 The accepted `ProblemCard@Context` is the primary `EntityOfConcern` of any materialized P2W note. Start from one accepted claim and one decision or use that needs it. Then state the relation being asserted, name its participants, and apply the pattern whose Solution answers that relation-specific question. A separately identified `U.Viewpoint` episteme or `BoundedModelUseStructure` participates only when the claim designates that object and its organization changes how the receiving claim is interpreted; neither becomes an identity field of the ProblemCard or note. Method selection, planning, dated work, actual change, result interpretation, and return remain separate continuations. For each, state the exact current question and apply the pattern whose Solution answers it; carry only the returned result or honest stop. P2W introduces no relation kind or occurrence and is neither dated work nor a `U.Transformation`. Citing a PatternID, selecting a continuation, recommending an action, writing an imperative, or stating an intended realization does not admit any episteme as `U.MethodDescription`; A.3.2 requires one already identified C.2.1 episteme, one independently admitted `U.Method` as its exact EntityOfConcern, and at least one substantive way-of-doing claim.
 
-Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, that exact card, and its effective `U.ReferenceScheme`; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted. Each cited PatternID locates the exact Solution passage needed for the current question about its **subject EntityOfConcern**. A practitioner or another capable system applies that guidance to the actual system, episteme, method, role, work occurrence, relation, or other project entity. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
+Keep three objects separate. The **accepted ProblemCard** is the `EntityOfConcern` of a materialized P2W note. The note is identified under `C.2.1` by its ClaimGraph, the accepted card, and its effective `U.ReferenceScheme`; its ClaimGraph names the receiving use and designates a separately identified viewpoint or model-use structure only when the claim uses that object and its organization changes how the receiving claim is interpreted. Each cited PatternID locates the Solution passage needed for the question about its **subject EntityOfConcern**. A practitioner or another capable system applies that guidance to the project entity or relation—for example, a System, episteme, Method, Work occurrence, or direct relation. When source wording says *role*, apply E.10.ROLE before treating it as a local system-role kind, separate System-classification judgment, assignment occurrence, participation or functioning relation, ordinary non-use, or missing-governor case. The **compact note, diagram, plan, trace, and publication** are epistemes or publication-side values that describe, constrain, or make those claims inspectable. Later method enactment or dated work can change or preserve a subject EntityOfConcern; improving a P2W note or completing its fields does not establish that subject change, work occurrence, evidence, acceptance, or result.
 
 **Primary reader and question.** The reader already has an accepted `ProblemCard@Context` and must decide one next claim. Ask in ordinary words: **what relation am I asserting, between which participants, and what result would change the next action?** Then apply the pattern whose Solution answers that question. Source wording or a supporting episteme may help formulate the question but does not supply the downstream result.
 

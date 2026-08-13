@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.6"
-pattern_title: "RoleAssignment and Performed-Work Attribution Check"
+pattern_title: "SystemRoleAssignment and Performed-Work Attribution Check"
 section_id: "F.6:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__016_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.6 — RoleAssignment and Performed-Work Attribution Check"
+  - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:14 — Relations"
-line_start: 91903
-line_end: 91910
+line_start: 92669
+line_end: 92676
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -22,32 +22,31 @@ dependencies:
   - "A.2.1"
   - "A.2.2"
   - "A.2.5"
-  - "A.3.1"
-  - "A.3.2"
+  - "A.3"
+  - "A.6.9"
   - "A.6.REL"
-  - "E.10"
+  - "C.3.3"
+  - "E.10.ROLE"
   - "E.17"
   - "F.18"
   - "F.4"
   - "F.5"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
-  - "U.Work"
 keywords:
-  - "actual performing U.System"
-  - "assignment coverage"
-  - "exact U.RoleAssignment"
+  - "Work attribution"
+  - "exact assignment occurrence"
+  - "holder equality"
   - "performedUnderAssignment"
-  - "separate assertion and evidence"
-  - "world-side attribution"
+  - "performer System"
+  - "separate evidence"
+  - "temporal coverage"
 ---
 
 ### F.6:14 - Relations
 
-**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for `U.Role`; `A.2.1` for `U.RoleAssignment`; and `A.15.1` for dated `U.Work`.
+**Builds on:** `A.6.REL` for relation obtaining and occurrence identity; `A.2` for system-role kinds; `A.2.1` for direct assignment species; and `A.15.1` for dated Work.
 
-**Uses when current:** `A.2.5` for role state; `A.2.2` for capability; `A.3.1`, `A.3.2`, and `A.15` for method and work alignment; `A.10` for evidence; `A.15.4` for reliance on encountered project material; `F.9` for cross-scheme correspondence; and `A.1.1` only when an independently selected model-use structure changes assignment interpretation.
+**Uses when current:** `A.2.5` for assignment state; `A.2.2` for capability; `A.3` and `A.15` for Method and Work alignment; `A.10` for evidence; `A.15.4` for encountered-material reliance; `C.3.3`, `F.9`, and `A.6.9` for cross-context use; and `A.1.1` only when a selected model-use structure changes the receiving interpretation.
 
-**Coordinates with:** `F.4` for role-description epistemes; `F.5` and `F.18` for durable names; `E.17` for publication; and `E.10` for source-word precision repair.
+**Coordinates with:** `F.4` for system-role-kind descriptions; `F.5` and `F.18` for names; `E.17` for publication; and `E.10.ROLE` for ambiguous source wording.
 

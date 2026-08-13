@@ -6,12 +6,12 @@ section_id: "E.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:2 — Problem"
-line_start: 69863
-line_end: 69874
+line_start: 70265
+line_end: 70276
 dependencies:
   - "C.33"
   - "C.34"
@@ -50,5 +50,5 @@ FPF has grown from a single core pattern set into an ecosystem of core rules, to
 - a dependency on a framework edition is treated as a specialization relation;
 - a source or generated carrier is treated as architecture evidence without source-return and preservation claims.
 
-The result is a framework that may look organized but cannot answer ordinary architecture questions: what structure is selected, what depends on what, what can change independently, what is preserved by a projection, and what must return to a stronger owner before it is used.
+The result is a framework that may look organized but cannot answer ordinary architecture questions: what structure is selected, what depends on what, what can change independently, what is preserved by a projection, and which stronger claim requires another pattern before it is used.
 

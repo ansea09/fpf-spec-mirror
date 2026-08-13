@@ -1,43 +1,52 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2"
-pattern_title: "Role Taxonomy"
+pattern_title: "System-Role Kinds and Assignments"
 section_id: "A.2:12"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__014_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2 — Role Taxonomy"
+  - "A.2 — System-Role Kinds and Assignments"
   - "A.2:12 — SoTA-Echoing"
-line_start: 2967
-line_end: 2974
+line_start: 3099
+line_end: 3109
 dependencies:
   - "A.1"
   - "A.1.1"
-  - "A.13"
   - "A.15"
-  - "A.2.1-A.2.6"
+  - "A.2.1"
+  - "A.2.5"
+  - "A.2.7"
   - "A.6.0"
   - "A.6.5"
   - "A.6.REL"
+  - "A.6.RSIR"
   - "C.2.1"
-  - "E.24"
+  - "C.3"
+  - "C.3.1"
+  - "C.3.2"
+  - "E.10.ROLE"
+  - "F.4-F.6"
 keywords:
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
+  - "ambiguous role wording"
   - "assignment"
-  - "context"
-  - "function vs identity"
-  - "holder"
-  - "responsibility"
-  - "role"
+  - "holder System"
+  - "local System classification"
+  - "system-role kind"
+  - "work-facing contribution"
 ---
 
 ### A.2:12 - SoTA-Echoing
 
 | Practice line | Source and status | FPF mutation | Practical consequence |
 | --- | --- | --- | --- |
-| Current foundational-ontology work keeps role-like classification, relation-participant distinctions, relation aspects, and situations from collapsing into one taxonomy. | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint; used as a current comparator, not as an imported category hierarchy. | Keep `U.Role`, `U.RoleAssignment`, A.6.5 participant SlotKinds, role-state relations, and episteme-use relations distinct. FPF additionally applies its own constructive holon-admission test and does not admit `U.Role` as a holon. | A practitioner can model different assignments without creating system subtypes or role parts. |
-| DDD makes model applicability local and describes Context Mapping as a method applied to actual model-use boundaries. | Eric Evans, [Domain-Driven Design Reference](https://www.domainlanguage.com/wp-content/uploads/2016/05/DDD_Reference_2015-03.pdf), 2015 mature reference; Evans, [Context Mapping with an AI-based Component](https://www.domainlanguage.com/articles/context-mapping-an-ai-based-component/), 2026 current worked practice. | Translate the action-facing DDD object to a selected `BoundedModelUseStructure`; keep Context Mapping as `U.Method` and its intended and performed work separate; designate the structure only in the receiving assertion or use whose interpretation it changes. | A pump assignment needs taxonomy and scheme; a DDD integration use names the selected structure without extending generic assignment identity. |
-| FPF relation and episteme discipline keeps description and publication epistemes distinct from evidence, reliance, source-use, and publication relations and from the systems that perform work. | Current `C.2.1`, `A.6.REL`, `A.10`, `A.15.4`, and `E.17` pattern line. | Require a system holder for enactment-facing role assignment and keep each episteme in the direct relation that makes its use relevant. | A team can use a standard as the source for constraints and a report as evidence without either becoming the doer of work. |
+| Current foundational-ontology work separates role-like classification, relation participation, aspects, and situations instead of treating them as one category. | Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint; current comparator, not an imported hierarchy. | Use local C.3 kinds for work-facing classification, direct relation species for assignments, A.6.5 for participant slots, and separate state and episteme-use relations. | Different classifications and assignments do not create system subtypes or role parts. |
+| DOLCE separates endurants, perdurants, qualities, abstracts, dependence, and constitution but does not itself settle FPF system-role-kind or assignment identity. | DOLCE 2022 axiomatization; bounded comparator. | Preserve system, kind, relation occurrence, Work, quality, and episteme distinctions under their FPF governors. | A borrowed category label cannot replace the local identity and predicate law. |
+| DDD makes model applicability local and Context Mapping a method applied to actual model-use boundaries. | Evans, *Domain-Driven Design Reference* (2015) and current context-mapping practice. | Use a selected `BoundedModelUseStructure` only in the receiving claim it changes; keep the Method and performed Work separate. | A plant assignment needs its local kind and species, not a universal context participant. |
+| FPF relation and episteme discipline separates description and publication from evidence, reliance, source use, and the systems performing Work. | Current C.2.1, A.6.REL, A.10, A.15.4, and E.17 line. | Require an admitted system for system-role classification and keep each episteme in the relation that makes its use relevant. | A team can use a standard as a constraint source without making the standard a performer or role holder. |
+
+SysML is not used as a SoTA authority or lineage here. A modeling notation does not decide the identity of a system-role kind, classification judgment, assignment occurrence, participant slot, responsibility relation, or Work.
 

@@ -6,32 +6,26 @@ section_id: "A.19:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19/A.19__013_rationale.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19 — CharacteristicSpace & Dynamics Hook (A.CHR‑SPACE)"
   - "A.19:9 — Rationale"
-line_start: 28836
-line_end: 28841
+line_start: 29038
+line_end: 29043
 dependencies:
   - "A.10"
+  - "A.15"
   - "A.17"
   - "A.18"
   - "A.19.CHR"
-  - "A.19.CN"
   - "A.19.CPM"
-  - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
-  - "A.19.SOURCE-SET-SPACE-SUBSTRATE"
   - "A.19.SelectorMechanism"
-  - "A.2.5"
   - "A.2.6"
-  - "A.3.3"
   - "A.6.5"
   - "C.16"
   - "C.2.1"
-  - "E.18"
   - "E.24"
   - "F.9"
-  - "G.0"
   - "G.11"
   - "G.4"
   - "U.ClaimScope"
@@ -43,15 +37,15 @@ keywords:
   - "declared Characteristics and Scales"
   - "embedding"
   - "product"
-  - "role-specific space refs stay outside A.19"
   - "state trajectories"
   - "structural overlays"
   - "subspace"
+  - "system-role–Method–Work assertions stay outside A.19"
 ---
 
 ### A.19:9 - Rationale
 
 A characteristic space is the minimal object that keeps multi-characteristic claims from becoming loose feature lists. The pattern binds each characteristic to a scale and value set, then lets neighboring patterns consume the declared space for state predicates, thresholds, comparisons, gates, evaluations, assurance, dashboards, and dynamics models.
 
-The separation matters because a threshold or region is not the space, yet its semantic predicate is reusable before and after any one evaluation. A.19 owns that by-value predicate; direct consumers own comparison, acceptance, selection, assertion, evidence, publication, and decision occurrences and results.
+The separation matters because a threshold or region is not the space, yet its semantic predicate is reusable before and after any one evaluation. A.19 is the pattern for that by-value predicate; comparison, acceptance, selection, assertion, evidence-use, publication, and decision occurrences and results require their own current claims under the applicable patterns.
 

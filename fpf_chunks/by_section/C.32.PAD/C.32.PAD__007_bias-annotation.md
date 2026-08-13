@@ -6,12 +6,12 @@ section_id: "C.32.PAD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__007_bias-annotation.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:6 — Bias-Annotation"
-line_start: 66815
-line_end: 66825
+line_start: 67148
+line_end: 67158
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,6 +69,6 @@ keywords:
 | Description-as-decision drift | Architecture descriptions remain `C.30.AD` objects; PAD records the decision relation that may cite them. |
 | Metric-winner drift | Eval readings and metrics can inform trade-offs but do not select or decide by themselves. |
 | Method-structure collapse | Method-use instructions and intended target structures are both recorded and kept distinct. |
-| Work-split loss | Architect-owned structures, developer-owned refinement, and source-return conditions are explicit. |
+| Work-split loss | Structures fixed by the decision, refinement scopes left open, and source-return conditions are explicit. |
 | Evolution lock-in | Supersession and reopen conditions are part of the decision relation. |
 

@@ -6,12 +6,12 @@ section_id: "A.6.3.RT:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.RT/A.6.3.RT__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition"
   - "A.6.3.RT:5 — Archetypal grounding"
-line_start: 14594
-line_end: 14683
+line_start: 14818
+line_end: 14907
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -65,7 +65,7 @@ If the table is independently cited or disputed, exact source episteme `LatencyF
 
 Exact source episteme `CoolingLoopRelationTable-X` and exact receiving episteme `CoolingLoopDependencyDiagram-Y` state the same two connection claims about `CoolingLoop-7` under effective schemes `TabularPlantScheme-5` and `DirectedDiagramPlantScheme-3`. `Y` is a candidate episteme, not automatically a `U.View`.
 
-Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. System `PlantModelingTool-2`, under an exact role assignment, performs dated `CoolingLoopDiagrammingWork-18`; its bindings use all six participants. `DiagramCoolingLoop : X -> Y` states the exact claim rule, scheme relation, preserved connection claims, omitted table qualifiers, prohibited strengthening, and applicability.
+Scheme-description epistemes `TabularPlantSchemeDescription-5` and `DirectedDiagramPlantSchemeDescription-3` concern their respective schemes and state their interpretation rules. Independently selected `CoolingLoopReviewModelUseStructure` satisfies A.1.1 because its model-use organization changes this review. System `PlantModelingTool-2`, under an exact system-role assignment, performs dated `CoolingLoopDiagrammingWork-18`; its bindings use all six participants. `DiagramCoolingLoop : X -> Y` states the exact claim rule, scheme relation, preserved connection claims, omitted table qualifiers, prohibited strengthening, and applicability.
 
 Only then does this occurrence obtain:
 

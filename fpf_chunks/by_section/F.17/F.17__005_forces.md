@@ -6,12 +6,12 @@ section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__005_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:3 — Forces"
-line_start: 95804
-line_end: 95814
+line_start: 96588
+line_end: 96598
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -58,6 +58,6 @@ keywords:
 | Local expression vs durable reuse | Prefer the light local disposition; open F.17 only at the public/Core/durable/cross-local threshold. |
 | Local sense vs globalized wording | Identify every cell under one exact by-value scheme and sense claim; spelling establishes neither sameness nor Bridge. |
 | Naming settlement vs governed value | The NameCard describes the naming decision; it neither defines nor constrains the value or its kind. |
-| Didactic grouping vs ontology | Optional blocks help navigation and create no subtype, part, role, or priority. |
+| Didactic grouping vs ontology | Optional blocks help navigation and create no subtype, part, system-role kind, relation position, or priority. |
 | Row stability vs revision and availability | Row id, row episteme, edition relation, publication occurrence, form, and carrier remain distinct. |
 

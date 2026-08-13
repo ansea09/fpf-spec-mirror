@@ -1,18 +1,19 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.8"
-pattern_title: "U.Commitment (Deontic Commitment Object)"
+pattern_title: "U.Commitment (Deontic Commitment Relation)"
 section_id: "A.2.8:End"
 section_title: "A.2.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8/A.2.8__017_a-2-8-end.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.8 — U.Commitment (Deontic Commitment Object)"
+  - "A.2.8 — U.Commitment (Deontic Commitment Relation)"
   - "A.2.8:End — A.2.8:End"
-line_start: 6500
-line_end: 6501
+line_start: 6691
+line_end: 6692
 dependencies:
+  - "A.10"
   - "A.15.1"
   - "A.2"
   - "A.2.1"
@@ -22,25 +23,20 @@ dependencies:
   - "A.2.9"
   - "A.6.B"
   - "A.6.C"
+  - "A.6.RCD"
   - "A.7"
-  - "E.8"
-  - "U.PromiseContent"
-  - "U.Work"
+  - "C.3"
+  - "F.6"
 keywords:
-  - ") but makes the structure explicit"
-  - "BCP‑14 (RFC 2119/8174)"
-  - "adjudication hooks"
-  - "are cues for the modality field after the deontic relation is recovered"
-  - "by themselves"
-  - "commitment"
-  - "deontics"
-  - "evidenceRefs"
-  - "modality normalization"
+  - "actual bearer"
+  - "constitutive rule"
+  - "do not identify an individual bearer or institute a duty. Adapt"
+  - "individual duty"
+  - "instituting basis"
   - "obligation"
   - "prohibition"
   - "recommendation-as-duty"
-  - "scope and validity window"
-  - "they are not the governed object of this pattern"
+  - "validity interval"
 ---
 
 ### A.2.8:End

@@ -6,12 +6,12 @@ section_id: "D.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69018
-line_end: 69026
+line_start: 69420
+line_end: 69428
 dependencies:
   - "A.10"
   - "A.20"
@@ -33,7 +33,7 @@ keywords:
 | Anti-pattern | What goes wrong | Repair |
 | --- | --- | --- |
 | Decision-ready by map | The mapped conflict is treated as solved. | Choose a D.4 move: mediate, refuse, demand evidence, return, decide with residual, or stop. |
-| Trump-card level | One level's value automatically overrides all others. | Return to D.3 if the level relation or value frame is incomplete; otherwise record the explicit D.4 use. |
+| Trump-card level | One level's value automatically overrides all others. | Use D.3 if the level relation or value frame is incomplete; otherwise record the explicit D.4 use. |
 | Evidence postponement | The team proceeds while saying evidence can be checked after the decision. | Demand evidence, causal analysis, assurance, or architecture return before the decision use, unless residual acceptance is explicit. |
 | Permission by assurance | A passed assurance relation is treated as moral authorization. | Keep B.3 assurance and D.4 ethical use distinct. |
 

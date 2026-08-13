@@ -6,12 +6,12 @@ section_id: "C.17:6"
 section_title: "Conformance Checklist (first tranche)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__007_conformance-checklist-first-tranche.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:6 — Conformance Checklist (first tranche)"
-line_start: 48748
-line_end: 48760
+line_start: 48999
+line_end: 49012
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,9 +57,10 @@ keywords:
 | **CC‑CR‑1 (context‑locality)**               | Every **CreativityProfile** **MUST** name the **`U.BoundedContext`** and the **edition** of `U.CreativitySpace`.                                                                         | Prevents Cross‑context slippage.                                 |
 | **CC‑CR‑2 (Declared bases)**              | **Novelty@context** claims **MUST** declare `ReferenceBase`, `SimilarityKernel`, and `TimeWindow`; **Surprise** claims **MUST** declare `GenerativePrior` and its training slice.                 | Makes “new to whom?” and “unexpected under what?” explicit.   |
 | **CC‑CR‑3 (Objective anchor)**            | **ValueGain** **MUST** reference the **objective** (KPI/utility) and **counterfactual method** (if predicted, the model).                                                                | Stops free‑form value stories.                                |
-| **CC‑CR‑4 (Must‑fit)**                    | If **must** constraints exist, **ConstraintFit** **MUST** be present; enactment decisions **SHALL** treat `ConstraintFit<1` as **fail**, unless an explicit **waiver SpeechAct** exists. | Keeps safety & ethics non‑negotiable.                         |
+| **CC‑CR‑4 (Must‑fit)**                    | If **must** constraints exist, **ConstraintFit** **MUST** be present; enactment decisions **SHALL** treat `ConstraintFit<1` as **fail** unless the current constitutive rule and an independently obtaining direct waiver-effect relation or decision result make that exact exception valid for the receiving constraint. A waiver SpeechAct occurrence alone is insufficient; without the governor, return `missing-governor` and keep the option ineligible. | Keeps safety and ethics non‑negotiable without mistaking communication for institutional effect. |
 | **CC‑CR‑5 (Evidence)**                    | Each coordinate **MUST** have Evidence Graph Ref (neighbours, tests, logs, model cards).                                                                                                   | Enables audit & replication.                                  |
 | **CC‑CR‑6 (Scopes)**                      | Profiles **MUST** include **USM scopes** (ClaimScope/WorkScope) relevant to measurement; off‑scope claims are advisory.                                                                  | Ties numbers to where they hold.                              |
 | **CC‑CR‑7 (No scalarisation by default)** | The pattern **SHALL NOT** force a single scalar “creativity score.” If a Context defines one, it **MUST** publish the weighting and its drift policy.                                   | Keeps decisions on a Pareto frontier unless a policy opts‑in. |
-| **CC‑CR‑8 (Bridge discipline)**           | Cross‑context comparisons **MUST** use a **Bridge** with **CL** and recorded **losses**; any mapped coordinate **MUST** note penalties in the **R** lane, not silently alter the value.     | Honest portability.                                           |
+| **CC‑CR‑8 (Bridge discipline)**           | Cross-context comparisons **MUST** use a **Bridge** with **CL** and recorded **losses**; any mapped coordinate **MUST** note penalties in the **R** lane, not silently alter the value.     | Honest portability. |
+| **CC‑CR‑9 (Local retained-set measures)** | Every reported `FamilyCoverage`, `MinInterFamilyDistance`, `AliasRisk`, or `DescriptorVector` **MUST** cite its `RetainedSetMeasurementPolicyRef` and `ScaleRef`, plus the applicable `DescriptorMapRef.edition`, `DistanceDefRef.edition`, and `CollisionPolicyRef`. The result **MUST** identify the retained set and **MUST NOT** be used as source-admission or universality evidence. | Keeps optional set characteristics reproducible and separate from selection. |
 

@@ -6,12 +6,12 @@ section_id: "A.19.UNM:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__011_consequences.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:9 — Consequences"
-line_start: 31783
-line_end: 31794
+line_start: 31985
+line_end: 31996
 dependencies:
 keywords:
   - "CV→NCV"

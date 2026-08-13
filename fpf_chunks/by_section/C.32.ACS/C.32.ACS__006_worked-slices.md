@@ -6,12 +6,12 @@ section_id: "C.32.ACS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__006_worked-slices.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:5 — Worked slices"
-line_start: 65329
-line_end: 65338
+line_start: 65639
+line_end: 65648
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,5 +55,5 @@ keywords:
 
 **AI-agent architecture.** HCS suggests evidence refresh, policy controllability, latency, observability, and rollback. ACS marks policy controllability, evidence refresh, and latency as optimization indicators. Benchmark performance is not an architecture characteristic by name; it can supply an eval reading only after the bearer, scale, parity frame, and receiving use are declared.
 
-**Role-team architecture.** A hospital escalation team starts from coordination load, accountability clarity, decision latency, evidence custody, and role substitutability. ACS marks decision latency, accountability clarity, and evidence custody as optimization indicators for the next architecture cycle, keeps patient-safety loss and role-continuity loss as guardrails, and leaves staffing choice to the receiving decision pattern.
+**Team and assignment architecture.** A hospital escalation team starts from coordination load, accountability clarity, decision latency, evidence custody, substitutability among local system-role kinds, and continuity of assignment occurrences and their holder Systems. ACS creates separate criteria because A.2.7 can compare or relate local kinds but does not substitute holders. The kind-substitutability row binds the exact local kind-relation structure and predicate; the assignment-continuity row binds the exact assignment occurrences, holder Systems, and continuity predicate. ACS marks decision latency, accountability clarity, and evidence custody as optimization indicators, keeps patient-safety loss and assignment-continuity loss as guardrails, and leaves staffing choice to the receiving decision pattern.
 

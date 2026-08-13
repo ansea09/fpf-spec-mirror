@@ -6,12 +6,12 @@ section_id: "C.27:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.27/C.27__006_archetypal-grounding.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.27 — Temporal Claim Adequacy: State Readings, Temporal Trends, and Intervention-Sensitive Temporal Change"
   - "C.27:5 — Archetypal Grounding"
-line_start: 56220
-line_end: 56525
+line_start: 56494
+line_end: 56799
 dependencies:
   - "A.10"
   - "A.3.3"
@@ -228,7 +228,7 @@ Minimum useful note:
 - rate being changed: bug localization, evidence confirmation, repair
   iteration, uncertainty reduction, or rollout stabilization;
 - effort or input: extra tool calls, broader search, or deeper context retrieval;
-- intervention actor: agent, tool runner, or human operator capable of making the calls;
+- `claimedInterventionApplier`: select the branch that is actually supported. For a tool-using System, name that admitted System; if an assignment is cited, name the holder System and exact assignment but do not make the assignment the applier; for another applier, name its admitted kind and subject pattern. Keep any capability claim, proposed WorkPlan, authority relation, actual Work and F.6 attribution, claimed effect, and evidence separate; if only a plan or capability is known, do not report performed Work or an effect;
 - resistance proxy: noisy output, context overload, search branching, cost, or
   stale evidence;
 - outcome and evaluation evidence: task success, repair success, evidence quality,

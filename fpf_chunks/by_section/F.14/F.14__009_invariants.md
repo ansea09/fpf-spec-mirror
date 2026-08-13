@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.14"
-pattern_title: "Anti-Explosion Control for Role and Status Name Families"
+pattern_title: "Anti-Explosion Control for System-Role and Status Name Families"
 section_id: "F.14:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_invariants.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "F.14 — Anti-Explosion Control for Role and Status Name Families"
+  - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:8 — Invariants"
-line_start: 94835
-line_end: 94847
+line_start: 95611
+line_end: 95623
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -31,26 +31,31 @@ dependencies:
   - "F.18"
   - "F.4"
   - "F.5"
+  - "F.6"
   - "F.8"
   - "F.9"
-  - "U.Role"
-  - "U.RoleAssignment"
+  - "U.SystemRoleAssignment"
 keywords:
-  - "bundles"
-  - "guard-rails"
+  - "NameCard"
+  - "assignment"
+  - "designation"
+  - "evidence use"
+  - "permission"
   - "reuse"
-  - "separation-of-duties"
-  - "vocabulary growth"
+  - "status names"
+  - "system-role names"
+  - "term row"
+  - "vocabulary explosion"
 ---
 
 ### F.14:8 - Invariants
 
-1. **Governed value first.** No durable naming object is added until the exact value or relation, kind, direct owner, and proposed use are recoverable.
+1. **Governed value first.** No durable naming object is added until the exact value or relation, kind, subject pattern, and proposed use are recoverable.
 2. **Lightest sufficient disposition.** Prefer the dispositions `no durable name`, existing designation, alias, or local expression whenever one supports the use without hiding a distinction.
-3. **No status roles.** Status, evidence, requirement, source, publication, and access uses do not become work-facing roles by suffix.
-4. **No assignment by name.** A designation, RoleDescription, role-relation expression, card, cell, or row assigns no holder and proves no Work.
-5. **No hybrid role by convenience.** Exact A.2.7 relations remain relations unless the direct role owner independently admits a different role value.
-6. **No capability or authority by label.** Role and status names prove no capability, skill, permission, assurance, evidence use, method validity, or publication authority.
+3. **No status roles.** Status, evidence, requirement, source, publication, and access uses do not become system-role kinds by suffix.
+4. **No assignment by name.** A designation, `SystemRoleKindDescription`, system-role-kind relation expression, card, cell, or row assigns no system and proves no Work.
+5. **No hybrid kind by convenience.** Exact A.2.7 relations remain relations unless A.2 with C.3 independently admits a different local system-role kind.
+6. **No capability or authority by label.** System-role-kind and status names prove no capability, skill, permission, assurance, evidence use, Method validity, or publication authority.
 7. **Local senses do not globalize.** Same spelling and different local-sense projections establish neither governed-value identity nor an F.9 Bridge.
 8. **Naming objects remain optional and distinct.** Expression, designation, alias, cell, NameCard, row, identifier, publication occurrence, form, and carrier neither imply nor replace one another.
 9. **Selected structure is conditional.** A `BoundedModelUseStructure` is cited only when its organization changes the exact naming use and never becomes a locality slot or naming identity field.

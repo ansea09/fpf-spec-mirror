@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:8"
 section_title: "Common repair cues"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__009_common-repair-cues.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:8 — Common repair cues"
-line_start: 66277
-line_end: 66290
+line_start: 66587
+line_end: 66600
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -63,5 +63,5 @@ keywords:
 | `LevelWordsNoLevels` | Text says level or scope without declared refs. | Use `C.30.STRAT` for stratification-term recovery or `B.2.P` for whole-reidentification wording, then return to residual triage before candidate framing. |
 | `OptimizationNoLoss` | Candidates show only gains. | Add new burden, known loss, or bounded exception. |
 | `IdealityNoBurden` | A candidate removes a bearer or support function but does not name lost function, coupling, evidence, control, or source-return burden. | Use C.32 and C.31; name function-bearing transfer, characteristic changes, and BLP scale window or waiver if scale advantage is claimed. |
-| `FunctionNoBearerAtScope` | A functional change reduces one residual but no bearer can carry it at the affected scope under resource, placement, control, or evidence constraints. | Add or change bearer, split function, change placement or resource access, change control responsibility, reduce the demand, or reject the candidate. |
+| `FunctionNoBearerAtScope` | A functional change reduces one residual but no admitted bearer can carry it at the affected scope under resource, placement, control, or evidence constraints. | Add or change the bearer, split the function, change placement, resource access, or control relations, reduce the demand, or reject the candidate. Any responsibility claim uses its direct predicate or exact missing governor. |
 

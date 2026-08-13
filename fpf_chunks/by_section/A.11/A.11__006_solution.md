@@ -6,13 +6,15 @@ section_id: "A.11:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.11/A.11__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.11 — Ontological Parsimony"
   - "A.11:2 — Solution"
-line_start: 23122
-line_end: 23155
+line_start: 23375
+line_end: 23408
 dependencies:
+  - "A.6.P"
+  - "A.6.RCD"
   - "A.8"
   - "C.3"
   - "E.24.CD"

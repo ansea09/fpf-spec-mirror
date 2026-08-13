@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__004_forces.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:3 — Forces"
-line_start: 65852
-line_end: 65862
+line_start: 66162
+line_end: 66172
 dependencies:
   - "A.10"
   - "A.12"
@@ -48,7 +48,7 @@ keywords:
 | Force | Tension |
 |---|---|
 | Domain action vs architecture influence | A system can act while its architecture or another selected structure influences the candidate; neither fact entails the other. |
-| Performance detail vs candidate synthesis | Role assignment and dated Work matter when performance is claimed, but candidate architecture work must not invent them from an influence diagram. |
+| Performance detail vs candidate synthesis | Exact system-role assignment and dated Work matter when performance is claimed, but candidate architecture work must not invent them from an influence diagram. |
 | Exact influence vs useful local frame | A local compound correspondence can guide candidate synthesis before a reusable episteme about an obtaining exact relation can be asserted. |
 | One pair vs recursive network | One architecture pair can qualify a network reading, but the pair is neither the network nor a cross-flow relation by citation. |
 | Desired transformed architecture vs source-side constraint | The transformed architecture may need a structure the current influence-side arrangement cannot sustain. |

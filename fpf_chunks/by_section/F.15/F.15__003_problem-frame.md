@@ -6,12 +6,12 @@ section_id: "F.15:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__003_problem-frame.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:2 — Problem frame"
-line_start: 95044
-line_end: 95057
+line_start: 95822
+line_end: 95835
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,11 +50,11 @@ keywords:
 
 ### F.15:2 - Problem frame
 
-Unification work fails when composition is claimed before locality, direct ownership, and continuity are checked:
+Unification work fails when composition is claimed before locality, subject patternship, and continuity are checked:
 
 1. **Locality leak.** Same spelling is treated as one meaning without comparing exact `<ReferenceScheme, LocalSenseClaim>` projections.
 2. **Row sprawl.** F.17 rows or F.18 NameCards multiply although an existing governed value and admitted naming use already suffice.
-3. **Role or status inflation.** Adjectival, temporal, or source-label variants become new role or status values without direct-owner recovery.
+3. **System-role or status inflation.** Adjectival, temporal, or source-label variants become new system-role kinds or status values without recovery through the pattern that defines them.
 4. **Silent rewrite.** An edition or rename changes claim content while a stable id is treated as continuity proof.
 5. **Bridge hardening.** A description, Card, `CL`, or earlier relation claim is later used as equivalence or use authority without a current obtaining occurrence and separate bounded-use claim.
 6. **Check collapse.** Scope, rule, application/work, result claim, witness/evidence path, record episteme, publication, and currentness are treated as one object.

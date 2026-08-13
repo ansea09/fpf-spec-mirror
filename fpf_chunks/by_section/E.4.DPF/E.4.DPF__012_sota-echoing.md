@@ -6,16 +6,17 @@ section_id: "E.4.DPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:11 — SoTA-Echoing"
-line_start: 70838
-line_end: 70855
+line_start: 71267
+line_end: 71284
 dependencies:
   - "A.1.1"
   - "A.15.1"
   - "A.15.PROD"
+  - "A.2.1"
   - "A.2.6"
   - "A.22"
   - "A.22.CGUS"
@@ -29,6 +30,7 @@ dependencies:
   - "C.34"
   - "C.35"
   - "E.10"
+  - "E.10.ARCH"
   - "E.11"
   - "E.17"
   - "E.19"
@@ -41,22 +43,30 @@ dependencies:
   - "E.4.PFAD"
   - "E.4.PFR"
   - "E.8"
+  - "F.0.1"
+  - "F.0.2"
+  - "F.1"
   - "F.18"
+  - "F.6"
   - "G.11"
   - "G.2"
 keywords:
+  - "& Search Queries. If the package uses a domain or local PatternID prefix"
+  - "and boundary into additional mini-method columns. Pattern bodies remain the main language of use"
+  - "do not copy first move"
+  - "result"
 ---
 
 ### E.4.DPF:11 - SoTA-Echoing
 
 | Claim | Exact source ref and status | Pattern content changed | Adoption status |
 | --- | --- | --- | --- |
-| A DPF needs one coordinated authoring method and Plain guidance that keep source use, architecture settlement, pattern methods, direct relation assertions, reader access, evaluation, improvement, and currentness distinct but connected, with relation or edition records added for named maintenance uses such as dependency, compatibility, migration, deprecation, or supersession. | Current FPF `G.2`, `E.4.PFAD`, `E.8`, `E.4.PFR`, `E.11`, `E.17`, `E.4.DPF.DA`, `E.21`, `E.23`, and `G.11`, current governing practice line for this pattern. | The E.4.DPF MethodDescription, proportional-apparatus ladder, local repair map, exact first-result branches, carrier boundaries, and quality and currentness exits coordinate these separately governed objects rather than importing one external framework-development lifecycle. | Adopt as the governing line. Recheck this row when any named FPF pattern changes its governed object, result, or boundary; an external source does not override the direct FPF owner by vocabulary similarity. |
+| A DPF needs one coordinated authoring method and Plain guidance that keep source-basis choice, bounded or heavy synthesis, architecture settlement, pattern methods, direct relation assertions, reader access, evaluation, improvement, and currentness distinct but connected. | Current FPF `F.0.1`, `F.1`, `F.0.2`, `G.2`, `E.4.PFAD`, `E.8`, `E.4.PFR`, `E.10.ARCH`, `E.11`, `E.17`, `E.4.DPF.DA`, `E.21`, `E.23`, and `G.11`. | The source-basis table, E.4.DPF MethodDescription, proportional-apparatus ladder, local repair map, first-result branches, carrier boundaries, and quality and currentness exits coordinate the separate contributions without importing one external framework-development lifecycle. | Adopt as the current FPF practice line. Recheck when a named pattern changes the result or boundary used here; vocabulary similarity to an external source does not replace that comparison. |
 | Language artifacts and their examples co-evolve, and missing examples weaken practical use and evolution work. | Zhang, Struber, Hebig, `Development and Evolution of Xtext-based DSLs on GitHub: An Empirical Investigation`, arXiv:2501.19222, 2025 empirical study of 226 developed Xtext languages across 18 application domains, `https://arxiv.org/abs/2501.19222`. | The source-pack, pattern-drafting, worked-case, heterogeneous-transfer, relation-and-edition, and local-repair steps keep examples and related artifacts current with the framework instead of publishing only names or definitions. | Adapt the observed co-evolution pressure. The study concerns software DSL repositories and grammar-driven or metamodel-driven development; it does not make a DPF a language grammar, parser, metamodel, or code-generator project. |
 | Reusable core and domain variation need explicit dependency, migration, tooling, and adoption work rather than clone-and-own packages. | Nazar, `Software Product Line Engineering: Adoption, Tooling and AI Era Challenges`, arXiv:2605.21353, 2026 single-author survey preprint synthesizing SPLE foundations, adoption models, tooling, variability-aware DevOps, empirical gaps, and AI-era challenges, `https://arxiv.org/abs/2605.21353`. | Architecture decision, E.4.PFR dependency and compatibility relations, Core-to-DPF direction, proportional carrier separation, and edition-change repair keep FPF Core, domain frameworks, and local frameworks distinct and migratable. | Adapt reusable-core, variation, migration, and adoption concerns. The source is software-product-line specific and survey-level; feature models, lifecycle schemes, product-line economics, and software tooling do not become default DPF ontology or authoring order. |
 | Pattern candidates need systematic validation pressure and use in practice, not only memorable problem-solution prose or a rule-of-three claim. | Riehle, Harutyunyan, Barcomb, `Pattern Discovery and Validation Using Scientific Research Methods`, arXiv:2107.06065, 2021 method paper with three exploratory studies, `https://arxiv.org/abs/2107.06065`; Iba, `Pattern Languages as Media for the Creative Society`, arXiv:1308.1178, 2013 historical lineage for pattern languages as practice media, `https://arxiv.org/abs/1308.1178`. | E.8 drafting, E.21 evaluation, heterogeneous cases, seed-versus-reliance boundary, and E.23 improvement replace rule-of-three confidence with declared FPF evaluation and repair. Local mantras remain attentional aids to a full Solution rather than substitutes for pattern validation. | Adapt qualitative survey, action-research, case-study, and practice-media pressure where suitable. The 2021 studies are exploratory and the 2013 paper is lineage, not current decision evidence; current FPF evaluation predicates and case facts determine adequacy for the declared use. |
 
-**External-source currentness front.** The current-FPF row above keeps its own exact recheck trigger. Apply each external-source decision only within the role and qualification basis below. When the named smallest change occurs, use `G.11` to reopen only the affected authoring step, case, boundary, or adopted decision and recheck the changed source role with `G.2`; publication of a newer item alone is not a material trigger.
+**External-source currentness front.** The current-FPF row above keeps its own recheck trigger. Apply each external-source decision only within the role and qualification basis below. When the named smallest change occurs, use `G.11` to reopen only the affected authoring step, case, boundary, or adopted decision, then recheck the changed source role through the direct source, F.1, F.0.2, or G.2 route actually used; publication of a newer item alone is not a material trigger.
 
 | External source | Currentness role and qualification/version basis | Smallest material reopen condition |
 | --- | --- | --- |

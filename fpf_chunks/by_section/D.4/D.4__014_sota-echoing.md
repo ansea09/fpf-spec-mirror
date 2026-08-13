@@ -6,12 +6,12 @@ section_id: "D.4:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__014_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:10 — SoTA-Echoing"
-line_start: 69037
-line_end: 69045
+line_start: 69439
+line_end: 69447
 dependencies:
   - "A.10"
   - "A.20"
@@ -34,6 +34,6 @@ keywords:
 | --- | --- |
 | Decision analysis and applied ethics | Mediation and decision use need options, refusal, condition, evidence-demand choices, accepted residuals, responsibility, and return conditions, not only a value slogan. |
 | Safety and assurance practice | Assurance can inform bounded ethical decision use, but does not authorize action under unresolved harm or replace D.3 conflict structure. |
-| Causal and evidence governance | Harm, benefit, and fairness claims depending on causal effect or weak evidence must return to `C.28`, `A.10`, or `B.3` before ethical decision use. |
+| Causal and evidence governance | Harm, benefit, and fairness claims depending on causal effect or weak evidence must use `C.28`, `A.10`, or `B.3` before ethical decision use. |
 | FPF mathematical-lens discipline | Optimization, allocation, scoring, Pareto, and threshold reasoning are selected lenses or measurement claims; they do not replace the D.4 ethical-use record or create a universal optimizer. |
 

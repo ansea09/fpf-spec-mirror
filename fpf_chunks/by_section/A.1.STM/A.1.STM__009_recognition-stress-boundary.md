@@ -6,12 +6,12 @@ section_id: "A.1.STM:7"
 section_title: "Recognition stress boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.STM/A.1.STM__009_recognition-stress-boundary.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "A.1.STM — Using the System-Thinking Long Mantra"
   - "A.1.STM:7 — Recognition stress boundary"
-line_start: 2623
-line_end: 2628
+line_start: 2636
+line_end: 2641
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -39,7 +39,7 @@ keywords:
 
 ### A.1.STM:7 - Recognition stress boundary
 
-Before a map relies on an acting system or changed-system boundary, use the one A.1 recognition architecture through A.1.SCR. Its heterogeneous stress cases cover an engineered pump, an animal, a human, a software-realized AI agent, a robotic AI agent, a coordinated collective and roster near miss, the Moon and a tide bearer, plus the exact proposed-system readings `SutureControl-M17`, `GameSessionWhole-GS204`, and `InternetAccessArrangement-CA17` beside their ordinary direct-owner readings.
+Before a map relies on an acting system or changed-system boundary, use the one A.1 recognition architecture through A.1.SCR. Its heterogeneous stress cases cover an engineered pump, an animal, a human, a software-realized AI agent, a robotic AI agent, a coordinated collective and roster near miss, the Moon and a tide bearer, plus the exact proposed-system readings `SutureControl-M17`, `GameSessionWhole-GS204`, and `InternetAccessArrangement-CA17` beside their ordinary subject-pattern readings.
 
-A.1.STM consumes only the returned recognition result. It does not repeat the six-component test, replace the exact entity with a convenient neighboring bearer, infer work-facing assignment from causal participation, or infer Method, Work, transformation, promise, permission, project designation, or role from systemhood.
+A.1.STM consumes only the returned recognition result. It does not repeat the six-component test, replace the exact entity with a convenient neighboring bearer, infer a system-role assignment from causal participation, or infer Method, Work, transformation, promise, permission, project designation, or a system-role kind from systemhood.
 

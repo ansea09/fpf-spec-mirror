@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 37128
-line_end: 37234
+line_start: 37336
+line_end: 37444
 dependencies:
   - "A.1"
   - "A.10"
@@ -84,12 +84,12 @@ The profile's effective `U.ReferenceScheme`, any current `U.ClaimScope`, and an 
 | Content field | Value kind and use |
 |---|---|
 | `observedChangeClaimRef` | `U.EpistemeRef` resolving to the exact observed-gain or observed-shift claim. |
-| `candidateExplanationClaimRefs[]` | References to claims about better parts, corrected relations, measurement, source quality, method, work, temporal coverage, architecture view, capability, or functioning; each claim names its direct EntityOfConcern and governing pattern. |
+| `candidateExplanationClaimRefs[]` | References to claims about better parts, corrected relations, measurement, source quality, method, work, temporal coverage, architecture view, capability, or functioning; each claim names its direct EntityOfConcern and subject pattern. |
 | `explanationEvidenceRelationRefs[]` | References to the exact evidence relation occurrences supporting or defeating those explanations. |
 | `existingWholeSufficiencyVerdictRef` | `U.EpistemeRef` resolving to the evaluation claim that the existing whole is or is not sufficient for the receiving use. |
 | `remainingWholeReidentificationQuestionRef?` | `U.EpistemeRef` resolving to the residual question when the verdict is not sufficient. |
 
-If the existing-whole verdict is sufficient, stop B.2 and use the direct governing pattern named by the selected explanation claim. The checklist does not perform the repair and its content fields do not create the referenced claims or relations.
+If the existing-whole verdict is sufficient, stop B.2 and use the subject pattern named by the selected explanation claim. The checklist does not perform the repair and its content fields do not create the referenced claims or relations.
 
 #### B.2:4.3 - HolonReidentificationRecord
 
@@ -104,12 +104,12 @@ If the existing-whole verdict is sufficient, stop B.2 and use the direct governi
 | `resultHolonKindRef` | `U.KindRef` resolving to its exact admitted holon kind. |
 | `resultHolonClassificationAssertionRef?` | `U.EpistemeRef` resolving, only when downstream work must inspect or cite the judgment, to a C.2.1 assertion that the candidate new whole satisfies the A.1 criterion under the stated admitted holon kind. |
 | `wholeReidentificationClaimRef` | `U.EpistemeRef` resolving to the claim that the candidate new whole, rather than the prior whole, now carries the subject claim. |
-| `changedClaimGoverningPatternRefs[]` | `U.EpistemeRef` values resolving to the direct patterns for each changed claim used in the rationale. |
+| `changedClaimPatternLocators[]` | `U.EpistemeRef` values resolving to the direct patterns for each changed claim used in the rationale. |
 | `evidenceRelationRefs[]` | References to exact evidence relation occurrences supporting the reidentification claim. |
 | `sourceUseRelationRefs[]` | References to exact source-use relation occurrences when sources are relied on. |
 | `mathLensUseRelationRefs[]` | References to exact C.29 lens-use relations when mathematical results bear on the claim. |
 
-The record does not make the A.1 criterion true, admit a public kind, or create the candidate new holon. `E.24.UK` owns public-kind admission; A.1 owns world-side recognition; C.2.1 owns the optional classification assertion; exact evidence and assurance relations own its warrant. Publication of the record is another relation under the publication patterns.
+The record does not make the A.1 criterion true, admit a public kind, or create the candidate new holon. `E.24.UK` is the pattern for public-kind admission; A.1 is the pattern for world-side recognition; C.2.1 is the pattern for the optional classification assertion; its warrant requires exact evidence and assurance relations. Publication of the record is another relation under the publication patterns.
 
 #### B.2:4.4 - Candidate New Whole Reference And Kind
 
@@ -124,6 +124,8 @@ Do not use `post*` field names as live governed names. They hide the candidate n
 Agency is not a binary status and not a root kind. Treat agency as a characteristic-space threshold for one exact system, predicate, claim scope, and qualification window.
 
 Use `A.13`, `A.19`, and `C.16` for the characteristic-space and threshold claim. Levin-line TAME work can discipline the multi-characteristic framing when agency evidence is relied on for the current claim. B.2 uses agency threshold only as one possible trigger in `MHTTriggerProfile`, and only when crossing the threshold changes closure, supervision, objective, or whole identity.
+
+Recover the admitted System and its agency-relevant characteristic or threshold independently. A System may bear that characteristic while participating passively in the situation. Recover a local system-role kind, a separate System-classification judgment, an obtaining assignment, and ordinary source wording as separate branches; include one only when the receiving claim depends on it. If claim-bearing source wording still says only “role,” use `E.10.ROLE` rather than presuming classification or assignment.
 
 #### B.2:4.6 - Acting-System Participation
 

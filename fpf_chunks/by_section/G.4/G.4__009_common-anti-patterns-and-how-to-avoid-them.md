@@ -6,17 +6,18 @@ section_id: "G.4:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 100108
-line_end: 100133
+line_start: 101352
+line_end: 101377
 dependencies:
   - "A.10"
   - "A.15.1"
   - "A.18"
   - "A.19"
+  - "A.2.1"
   - "A.21"
   - "A.6.1"
   - "B.3"
@@ -29,6 +30,7 @@ dependencies:
   - "E.18"
   - "E.8"
   - "F.17"
+  - "F.6"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -75,5 +77,5 @@ keywords:
 
 * **Declaration mistaken for execution.**
   Avoid: treating a CAL card, `TaskMap`, proof-ledger row, worked example, or evidence edge as proof that an operator ran or a verdict obtained.
-  Prefer: ground dated work, role assignment, method enactment, actual direct bindings, the domain-local result, and any result episteme separately.
+  Prefer: ground the dated Work through its complete A.15.1/F.6 basis and recover actual direct bindings separately. Compact wording may omit only an unused assignment identifier. Keep the domain-local result and any result episteme separate from both.
 

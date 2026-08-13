@@ -6,12 +6,12 @@ section_id: "C.17:11"
 section_title: "Authoring Aids (didactic cards)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__012_authoring-aids-didactic-cards.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:11 — Authoring Aids (didactic cards)"
-line_start: 48819
-line_end: 48828
+line_start: 49071
+line_end: 49080
 dependencies:
   - "A.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 * **Name the base & kernel.** Without them, `Novelty@context` is undefined.
 * **State the objective.** Value without a KPI is a story.
 * **Publish priors.** Surprise needs a trained model with cards.
-* **Gate by musts.** `ConstraintFit` < 1 blocks enactment unless waived.
+* **Gate by musts.** `ConstraintFit` < 1 blocks enactment unless a current constitutive rule and independently obtaining direct waiver effect make the exact exception valid. A waiver SpeechAct alone does not do so; otherwise return `missing-governor`.
 * **Prefer frontiers.** Identify non-dominated options on the declared `Front`; emit a `Shortlist` only through one named lens or policy when publication needs that head.
 * **Bridge explicitly.** Cross‑context talk needs CL and loss notes.
 

@@ -6,12 +6,12 @@ section_id: "B.4:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4/B.4__012_sota-echoing.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.4 — Canonical Evolution Loop"
   - "B.4:10.1 — SoTA-Echoing"
-line_start: 39824
-line_end: 39829
+line_start: 40035
+line_end: 40040
 dependencies:
   - "A.12"
   - "A.4"
@@ -28,7 +28,7 @@ keywords:
 
 ### B.4:10.1 - **SoTA-Echoing**
 
-The loop echoes proven iterative cycles like the Deming Cycle (Plan-Do-Check-Act) and the OODA Loop (Observe-Orient-Decide-Act), but it enriches them with the strong semantic distinctions of the FPF, such as `design-time` vs. `run-time` and the formal role of the external `Transformer`.
+The loop echoes proven iterative cycles like the Deming Cycle (Plan-Do-Check-Act) and the OODA Loop (Observe-Orient-Decide-Act), but it enriches them with the FPF distinction between `design-time` and `run-time`, explicit external acting Systems and their dated Work, F.6 attribution, and separately current local system-role kinds.
 
-By making the `Transformer`'s role explicit in every phase, the pattern avoids the common conceptual error of treating systems or theories as if they evolve on their own. Evolution is always an *action* performed by an agent on a holon. This rigorous, externalist stance is critical for clear causal reasoning and auditable accountability. By making this loop canonical, FPF ensures that all holons within its ecosystem are not just designed and built, but are designed *to be evolved* in a principled, traceable manner.
+By making the admitted acting System and its Work explicit in every phase, the pattern avoids treating systems or theories as if they evolve on their own. Evolution occurs through Work performed by a System on a holon. This externalist stance supports clear causal reasoning and auditable Work attribution. By making the loop canonical, FPF keeps holon evolution principled and traceable.
 

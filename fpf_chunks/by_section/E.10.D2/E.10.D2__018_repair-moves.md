@@ -6,12 +6,12 @@ section_id: "E.10.D2:16"
 section_title: "Repair moves"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__018_repair-moves.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:16 — Repair moves"
-line_start: 76768
-line_end: 76784
+line_start: 77413
+line_end: 77429
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,12 +50,12 @@ Use these repairs on live prose; retain old spellings only as quoted source-side
 2. Replace `DescribedEntity*`, `EntityOfInterest`, `EoI`, `EoIClass`, and generic “object under description” wording with the exact EntityOfConcern and its independently governed identity.
 3. Replace local episteme-slot, subject-field, tuple, card, or context-record constitution with the exact C.2.1 ClaimGraph, EntityOfConcern, and effective ReferenceScheme test.
 4. Replace peer-layer I-D-S wording with EntityOfConcern, description episteme, and admitted specification use; specification is not a third peer kind.
-5. Route one current `DescriptionContext` to E.17.0 as a describing-use qualification selecting one viewpoint. Do not make it an episteme constituent, conformance fact, view-membership fact, or locally defined tuple.
-6. Replace “the role contains a characteristic space, state relation, or checklist” with a precise claim: the role-description episteme characterizes the exact role using claims that cite those independently governed objects or relations.
+5. Handle one current `DescriptionContext` under E.17.0 as a describing-use qualification selecting one viewpoint. Do not make it an episteme constituent, conformance fact, view-membership fact, or locally defined tuple.
+6. Replace “the role contains a characteristic space, state relation, or checklist” with a precise claim: the system-role-kind-description episteme characterizes one exact local system-role kind using claims that cite those independently governed objects or relations.
 7. Replace carrier identity with the exact publication form, `U.PresentationCarrier`, bearing relation, and publication occurrence required by the current use.
 8. Replace `...Spec` names lacking checkable claims, preserved or updated DescriptionContext, and a named harness or validation relation with `...Description`.
 9. Route permission, evidence, assurance, gate, decision, promise, commitment, work, publication, view, Bridge, retargeting, currentness, and representation claims to their exact direct governors.
-10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use `U.RoleAssignment` only for a work-facing role held by an independently admitted `U.System`; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.
+10. Replace “role of this description, source, standard, evidence, or publication” with the exact typed use relation. Use one exact occurrence of a directly declared `U.SystemRoleAssignment` species only for an independently admitted `U.System` assigned to one exact local system-role kind; an acting holon is eligible only after that exact entity has independently passed `U.System` admission for the claim.
 11. Delete mandatory context recursion for descriptions of epistemes; use ordinary C.2.1 recursion with the earlier episteme as EntityOfConcern.
 12. Stop when the recovered constitution and one needed neighboring relation make the next action clear; do not complete a universal description card.
 

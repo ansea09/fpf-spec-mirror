@@ -6,12 +6,12 @@ section_id: "C.17:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__011_relations.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:10 — Relations"
-line_start: 48811
-line_end: 48818
+line_start: 49063
+line_end: 49070
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,9 +52,9 @@ keywords:
 
 ### C.17:10 - Relations
 
-* **A.2 Role & A.15 Run‑alignment.** Creative **Work** is performed by **systems in roles**; outcomes are **epistemes**. Creativity is **measured by `U.Evaluation`**, not “done by a document.”
+* **System-role assignment and Work alignment (A.2, F.6, A.15).** Systems perform creative **Work**; F.6 identifies the assignment under which each performer acted. A short creativity account may omit an assignment identifier that no later claim uses. Outcomes are **epistemes**; creativity is **measured by `U.Evaluation`**, not “done by a document.”
 * **B.3 Trust/Assurance.** Coordinates carry **confidence bands**; Bridges lower **R** by **CL**. A.2.4 evidence-use relations bind datasets and benchmarks used in measurements.
 * **Agency characterization.** A.13 identifies agential participation and the domain profile; A.17/A.18/A.19/C.16/A.10 govern measured characteristics and evidence. Planned C.9 may later consolidate the profile but supplies no current governing force. A high-agency system may still output low-creativity outcomes (and vice versa with strong scaffolding).
 * **A.2.6 USM (Scope).** All measurements sit on **ContextSlices**; `G‑ladder` is explicitly **not** used (C.17 follows A.2.6’s set‑valued scopes).
-* **D‑cluster ethics.** **ConstraintFit** is where **must** constraints, ethics, and safety bind the evaluation; waivers are explicit **SpeechActs**.
+* **D‑cluster ethics.** **ConstraintFit** is where **must** constraints, ethics, and safety bind the evaluation. A waiver SpeechAct is only the communicative Work; the receiving constraint or decision pattern must also recognize an independently obtaining waiver-effect relation or result under a current constitutive rule.
 

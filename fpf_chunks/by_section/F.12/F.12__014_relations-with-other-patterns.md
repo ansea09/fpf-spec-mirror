@@ -6,12 +6,12 @@ section_id: "F.12:13"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__014_relations-with-other-patterns.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:13 — Relations (with other patterns)"
-line_start: 94336
-line_end: 94353
+line_start: 95112
+line_end: 95129
 dependencies:
   - "A.2.3"
   - "F.1"

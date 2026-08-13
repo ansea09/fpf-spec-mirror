@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14 — Closure conditions"
-line_start: 96702
-line_end: 96718
+line_start: 97698
+line_end: 97714
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -63,7 +63,7 @@ One row is ready for its declared citation use only when:
 - the row has one decision, admitted and blocked citation uses, edition designator, and reopen condition;
 - any historical continuation is an exact C.2.1 `EpistemeEditionRelation` rather than shared id or title;
 - any availability is an exact E.24.PUB publication package rather than row, form, carrier, rendering, or upload alone; and
-- every ontology, obtaining, equivalence, authority, role, status, evidence, Work, and other subject-use claim uses the pattern that defines, constrains, or tests it.
+- every ontology, obtaining, equivalence, authority, system-role-kind, assignment, relation-position, status, evidence, Work, and other subject-use claim uses the pattern that defines, constrains, or tests it.
 
 No other row needs to be filled before this one can close. A sheet's row count or optional block plan says nothing about whether another naming decision is substantively needed.
 

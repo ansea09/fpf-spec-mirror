@@ -6,12 +6,12 @@ section_id: "C.32.P2S:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__003_problem.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:2 — Problem"
-line_start: 64722
-line_end: 64731
+line_start: 65031
+line_end: 65040
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -49,7 +49,7 @@ keywords:
 
 ### C.32.P2S:2 - Problem
 
-FPF has subject patterns for problem records, grounded architecture, structural views, candidate palettes, architecture characteristics, eval programs, decisions, ADR-like projections, methods, Work occurrences, separate method descriptions and work-record epistemes, measurements, mathematical lenses, improvement loops, and currentness or decay orchestration. A practitioner still needs one readable pattern for the architecture work that connects them.
+FPF has patterns for problem records, grounded architecture, structural views, candidate palettes, architecture characteristics, eval programs, decisions, ADR-like projections, methods, Work occurrences, separate method descriptions and work-record epistemes, measurements, mathematical lenses, improvement loops, and currentness or decay orchestration. A practitioner still needs one readable pattern for the architecture work that connects them.
 
 Without C.32.P2S, architecture work can fail in two opposite ways.
 

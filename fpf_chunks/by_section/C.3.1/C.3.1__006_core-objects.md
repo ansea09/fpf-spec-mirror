@@ -6,15 +6,16 @@ section_id: "C.3.1:4"
 section_title: "Core Objects"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__006_core-objects.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:4 — Core Objects"
-line_start: 44804
-line_end: 44823
+line_start: 45026
+line_end: 45045
 dependencies:
   - "A.1"
   - "A.11"
+  - "A.2"
   - "A.2.6"
   - "A.6.0"
   - "A.6.5"
@@ -43,7 +44,7 @@ keywords:
 | Object | Meaning | Boundary |
 | --- | --- | --- |
 | `U.Kind` | A kind value identified within one bounded context by a local identity basis; typed claims use `KindSignature` editions whose content names the effective `U.ReferenceScheme`. | It is not automatically a durable public FPF U-kind, and the scheme is not stored on the kind. |
-| `U.SubkindOf` | The admitted direct relation kind that orders two local `U.Kind` values under one effective reference scheme. Its participants are the narrower kind and the broader kind. | It is not a predicate expression, assertion episteme, dependency, part-whole, slot-filling, construction, role-assignment, or admission relation. |
+| `U.SubkindOf` | The admitted direct relation kind that orders two local `U.Kind` values under one effective reference scheme. Its participants are the narrower kind and the broader kind. | It is not a predicate expression, assertion episteme, dependency, part-whole, slot-filling, construction, system-role assignment, or admission relation. |
 | `SubkindOfObtains(k1, k2; RS)` | The relation-obtaining predicate: under exact reference-scheme edition `RS`, the aligned kind interpretations make every defined `true` judgment for `k1` imply `true` for `k2` over the declared candidate domain and applicable slices. | The predicate is rule content; it is not the obtaining occurrence. An unresolved required judgment leaves an assertion about obtaining unresolved rather than making the relation false. |
 | `R_sub : U.SubkindOf` | One obtaining direct relation occurrence between exact narrower kind `k1` and broader kind `k2` under `RS`. | Expose an occurrence designator only when a named receiver needs to distinguish or refer to the occurrence. Participant identities plus the exact effective reference-scheme edition determine its identity. |
 | subkind assertion episteme | A C.2.1 episteme whose content affirms, denies, or leaves unresolved `SubkindOfObtains(k1, k2; RS)` and cites the aligned signature editions and support used. | The assertion neither makes the relation obtain nor creates `R_sub`; a negative or unresolved assertion designates no obtaining occurrence. |

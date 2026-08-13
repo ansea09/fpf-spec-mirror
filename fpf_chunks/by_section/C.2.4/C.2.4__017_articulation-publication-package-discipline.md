@@ -6,12 +6,12 @@ section_id: "C.2.4:16"
 section_title: "Articulation Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__017_articulation-publication-package-discipline.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:16 — Articulation Publication Package Discipline"
-line_start: 43664
-line_end: 43682
+line_start: 43886
+line_end: 43904
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -39,7 +39,7 @@ An `AE` claim that matters for routing or repair should normally publish more th
 
 - stable trigger span;
 - candidate anchors or contrasts;
-- role-bearer / intended-work-or-reliance-move / evaluator slots where relevant;
+- relation-participant, field-meaning, representation-position, bearer, intended-activity-or-plan, admitted-Work, reliance-move, evaluator, or ordinary-wording positions where relevant; unresolved claim-bearing “role” wording goes first to `E.10.ROLE`;
 - a minimally relation-like skeleton;
 - a candidate normal form, or an explicit note that no such form is yet admissible.
 

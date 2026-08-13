@@ -1,29 +1,38 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.2.5"
-pattern_title: "RoleStateRelation - Windowed Role-State Recognition and Work Admission"
+pattern_title: "SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
 section_id: "A.2.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.5/A.2.5__001_intro.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
-  - "A.2.5 — RoleStateRelation - Windowed Role-State Recognition and Work Admission"
+  - "A.2.5 — SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission"
   - "A.2.5:intro — Intro"
-line_start: 4424
-line_end: 4429
+line_start: 4599
+line_end: 4604
 dependencies:
   - "A.15"
+  - "A.15.1"
+  - "A.2"
   - "A.2.1"
+  - "A.2.2"
+  - "A.2.7"
+  - "A.21"
+  - "A.6.5"
+  - "A.6.REL"
+  - "C.3"
 keywords:
-  - "RSG"
-  - "enactability"
-  - "role state"
-  - "role-state evolution"
-  - "state machine"
+  - "Work admission"
+  - "assignment-state predicate"
+  - "assignment-state relation"
+  - "evidence boundary"
+  - "state condition"
+  - "time window"
 ---
 
-## A.2.5 - RoleStateRelation - Windowed Role-State Recognition and Work Admission
+## A.2.5 - SystemRoleAssignmentStateRelation - Assignment-State Recognition and Work Admission
 
 > **Type:** Definitional (D)
 > **Status:** Stable

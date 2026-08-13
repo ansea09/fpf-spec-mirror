@@ -6,12 +6,12 @@ section_id: "B.1.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__002_use-this-when.md"
-commit_sha: "036c056e98c38522172c6b7b3ad08214281cc4e4"
+commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:0 — Use This When"
-line_start: 35718
-line_end: 35745
+line_start: 35920
+line_end: 35947
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,19 +50,19 @@ Typical moments:
 - a functional element must be distinguished from and allocated to physical, organizational, software, or operational bearers;
 - a named decision needs one recoverable view of the system boundary, exact crossings, and compatibility choices without turning that view into the system.
 
-**First useful move.** Name the exact whole and its A.1 recognition status, the decision being made, and each load-bearing claim. For every claim, select its direct owner and either recover the exact result or state the exact missing governor or information. Only then ask whether their joint organization itself changes the named decision.
+**First useful move.** Name the exact whole and its A.1 recognition status, the decision being made, and each load-bearing claim. For every claim, select its subject pattern and either recover the exact result or state the exact missing governor or information. Only then ask whether their joint organization itself changes the named decision.
 
 **What goes wrong if missed.** System aggregation becomes a drawing exercise. Ports, suppliers, documents, digital twins, dashboards, source records, and measuring instruments become components by placement. Functional elements become physical parts by label. External change or measurement is read as containment. One convenient record then appears to establish all those unrelated facts.
 
-**What this buys.** B.1.2 coordinates one engineering aggregation decision while leaving system recognition, exact parthood, assembly, delimitation, crossing, function, bearer, characteristic, evidence, description, representation, and decision claims with their direct owners.
+**What this buys.** B.1.2 coordinates one engineering aggregation decision while leaving system recognition, exact parthood, assembly, delimitation, crossing, function, bearer, characteristic, evidence, description, representation, and decision claims with their subject patterns.
 
 **Not this pattern when.**
 
 - If the exact entity has not yet been evaluated under the already admitted `U.System` kind, use `A.1`; do not promote the proposal into a durable kind-like label.
 - If one exact part-whole relation is the question, use `A.14` and its direct specialization.
 - If constructive assembly grounding is the question, use `C.13`.
-- If functional behavior or a functional element is the question, use `A.6.F` and the exact architecture structural-view owner.
-- If module or bearer allocation is the question, use `A.6.M` and the exact architecture or part-relation owner.
+- If functional behavior or a functional element is the question, use `A.6.F` and the exact architecture structural-view pattern.
+- If module or bearer allocation is the question, use `A.6.M` and the exact architecture or part-relation pattern.
 - If a mathematical aggregation lens is the question, use `C.29`.
-- If the question is project system-of-interest designation, role assignment, Work, transformation, service/access, evidence, description, or publication, use that direct owner; B.1.2 neither identifies nor owns those relations.
+- If the question is project system-of-interest designation, system-role assignment, Work, transformation, service or access, evidence, description, or publication, use that subject pattern; B.1.2 neither identifies nor defines those relations.
 
