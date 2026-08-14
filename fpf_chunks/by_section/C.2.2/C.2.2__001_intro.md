@@ -6,15 +6,18 @@ section_id: "C.2.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:intro — Intro"
-line_start: 42552
-line_end: 42558
+line_start: 42269
+line_end: 42275
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.2.6"
   - "A.21"
+  - "A.6.3.RT"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -23,7 +26,7 @@ dependencies:
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.25"
+  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -32,15 +35,16 @@ dependencies:
   - "E.18"
   - "F.17"
   - "F.9"
+  - "G.2"
   - "G.6"
   - "G.7"
 keywords:
-  - "Bridge-only reuse"
   - "ClaimScope (G)"
   - "Congruence Level (CL / CL^k / CL^plane)"
   - "F–G–R"
   - "Reliability (R)"
   - "TA/VA/LA lanes"
+  - "direct relation"
   - "evidence-bound"
   - "no implicit averaging"
   - "pathwise justification (PathId)"
@@ -50,7 +54,7 @@ keywords:
 
 ## C.2.2 - Reliability R in the F–G–R triad
 
-> Reliability (R) is a conservative, evidence-bound warrant signal for a typed claim under an explicit claim scope (G). Cross-context reuse is **Bridge-only**: scope may be re-expressed via `translate(Bridge,·)` (often narrowing), while congruence penalties route to **R only**.
+> Reliability (R) is a conservative, evidence-bound warrant signal for a typed claim under an explicit claim scope (G). When reuse changes scope, kind, reference plane, notation, source-local meaning, model-use basis, or evidence basis, name the actual relation or operation and route only its declared congruence loss to **R**.
 
 > **Type:** Architectural (A)
 > **Status:** Stable

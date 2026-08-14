@@ -6,12 +6,12 @@ section_id: "F.15:15"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__019_closure-conditions.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:15 — Closure conditions"
-line_start: 96214
-line_end: 96228
+line_start: 95613
+line_end: 95627
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 A finite slice is locally admissible for its named receiving use only when:
 
-1. every scope member and exact version resolves under its subject pattern;
+1. every scope member and exact version resolves under its identity rule and PatternID locator;
 2. every triggered static rule has one exact current C.2.1 result claim;
 3. every changed member has an exact prior/later pair and RSCR result naming continuity/change, losses, evidence, and use;
 4. every failed subject claim names and reaches its direct governor before reuse;

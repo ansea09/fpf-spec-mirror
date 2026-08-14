@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.19.ULSAM.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
-line_start: 32662
-line_end: 32956
+line_start: 32349
+line_end: 32643
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"

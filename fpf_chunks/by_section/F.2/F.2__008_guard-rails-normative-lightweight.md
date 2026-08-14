@@ -3,41 +3,42 @@ chunk_kind: "child"
 pattern_id: "F.2"
 pattern_title: "Term Harvesting & Normalisation"
 section_id: "F.2:7"
-section_title: "Guard‑rails (normative, lightweight)"
+section_title: "Guard-rails (normative, lightweight)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__008_guard-rails-normative-lightweight.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
-  - "F.2:7 — Guard‑rails (normative, lightweight)"
-line_start: 91190
-line_end: 91200
+  - "F.2:7 — Guard-rails (normative, lightweight)"
+line_start: 90957
+line_end: 90967
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.3"
   - "F.4"
   - "F.9"
 keywords:
-  - "lexical unit"
-  - "normalization"
-  - "provenance"
-  - "source-text terms"
-  - "term harvesting"
+  - "LNF"
+  - "LocalExpression"
+  - "LocalSenseClaim"
+  - "effective ReferenceScheme"
+  - "exact source and edition"
+  - "optional SchemeSenseCell"
 ---
 
-### F.2:7 - Guard‑rails (normative, lightweight)
+### F.2:7 - Guard-rails (normative, lightweight)
 
-1. **context‑locality.** Every local lexical unit **MUST** cite a Context (U.BoundedContext from F.1).
-2. **Context‑idiom normalisation.** LNF **MUST** respect the Context’s idiom (spelling/hyphenation/casing) and use **minimal edits**.
-3. **Two registers.** Each unit **SHOULD** carry both **Tech** and **Plain** labels for didactics; if one is missing, justify.
-4. **Minimal generality (G‑1).** The gloss **MUST** be as specific as the Context’s canon requires—no broader.
-5. **EntityOfConcern / Description / specification-use hygiene (A.7).** **MUST NOT** include behaviour equations, deontic rules, measurement math, or type axioms; those belong to patterns.
-6. **No Cross‑context claims.** **MUST NOT** assert equivalence, subsumption, or similarity with terms in other Contexts (F.9 only).
-7. **Edition honesty.** If the Context’s canon has multiple editions with shifting usage, treat them as distinct Contexts in F.1 before harvesting.
-8. **Parsimony.** Prefer **few, telling** lexical units over long tails; keep head terms that will power F.3/F.4/F.9.
+1. **Basis visible.** Every harvested expression **MUST** name the exact source and edition and the effective reference scheme needed to recover its meaning.
+2. **Idiomatic normalisation.** LNF **MUST** preserve meaningful source spelling, hyphenation, casing, and modifiers with minimal edits.
+3. **Two registers.** Each note **SHOULD** carry Tech and Plain labels; the Plain label must explain rather than broaden.
+4. **Minimal generality.** The LocalSenseClaim **MUST** say no more than the source use and receiving question require.
+5. **Category hygiene.** A lexical note **MUST NOT** stand in for behaviour, obligation, measurement, kind, assignment, Work, or evidence.
+6. **No cross-source claim.** F.2 **MUST NOT** assert equivalence, subsumption, similarity, permission, or transfer between local meanings.
+7. **Edition and language honesty.** When edition or language changes meaning, recover a distinct source-local claim and interpretation basis; do not manufacture a universal “new Context” rule.
+8. **Parsimony.** Keep the head expressions that affect F.3, F.4, F.8, or a real F.9 question; omit an unused tail.
 

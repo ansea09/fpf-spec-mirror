@@ -6,12 +6,12 @@ section_id: "E.15:5"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__006_conformance-checklist-normative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:5 — Conformance Checklist (normative)"
-line_start: 79575
-line_end: 79603
+line_start: 79395
+line_end: 79423
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,8 +30,8 @@ keywords:
 
 ### E.15:5 - Conformance Checklist (normative)
 
-**CC‑LA‑1 (Context anchoring).**
-Every authoring run **MUST** declare a `U.BoundedContext`, Delta‑Class, objectives, and acceptance lenses **before** generating candidates.
+**CC‑LA‑1 (Exact frame and intended use).**
+Every authoring run **MUST** name the exact pattern and edition, receiving question and intended use, `ClaimScope`, Delta-Class, objectives, and acceptance lenses before generating candidates. It names a scheme, source, model-use structure, or subject-specific situation only when that value changes the work.
 
 **CC‑LA‑2 (SoTA as evidence).**
 External inputs **MUST** be bound through evidence-use relations around source epistemes with **claim, claim‑scope, polarity, timespan** (formal/empirical lines). No raw links.
@@ -40,7 +40,7 @@ External inputs **MUST** be bound through evidence-use relations around source e
 At least **K≥3** candidate variants **MUST** be generated via **NQD‑CAL** with a declared **E/E policy**; single‑shot edits violate LEX‑AUTH.
 
 **CC‑LA‑4 (Bridges & CL).**
-Any cross‑context reuse **MUST** appear in a **Bridge** with **CL** and *loss notes*. CL penalties apply to **R‑lane** when scoring.
+When a candidate actually relies on a relation between distinct F.17 local-sense cells, that relation **MUST** be stated through F.9 with its admitted use and loss notes. CL penalties apply to the R-lane when scoring. Shared wording, a source import, or an edition change alone does not establish a Bridge.
 
 **CC‑LA‑5 (Harness).**
 The candidate winner **MUST** pass **LEX‑BUNDLE** lint, **SCR/RSCR** tests, Γ‑consistency, and SoD/RSG gates where applicable.

@@ -6,12 +6,12 @@ section_id: "A.6.RCD:End"
 section_title: "A.6.RCD:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__016_a-6-rcd-end.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:End — A.6.RCD:End"
-line_start: 17342
-line_end: 17343
+line_start: 17036
+line_end: 17037
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -23,6 +23,7 @@ dependencies:
   - "C.29"
   - "E.24"
   - "E.24.UK"
+  - "F.17"
   - "F.18"
   - "F.9"
   - "G.11"

@@ -6,12 +6,12 @@ section_id: "A.7:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__003_intent.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:1 — Intent"
-line_start: 21697
-line_end: 21707
+line_start: 21388
+line_end: 21398
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,5 +48,5 @@ Provide a **single, didactically clear lattice of distinctions** that keeps mode
 3. **Holon vs System vs Episteme** (what can act and what cannot),
 4. **EntityOfConcern vs Description episteme, View, and Publication** (the item under concern vs epistemes and publication relation positions that make it available; specification is a gated use or refinement of a Description episteme, not a third peer member of this distinction).
 
-It harmonizes A.2 and A.2.1 (system-role kinds and system-role-assignment relations), A.3.4 (transformation), A.10 (evidence-provenance and carrier and source-currentness relations), A.14 (Advanced Mereology), A.15 (System-Role–Method–Work Alignment), C.2.1 (`U.EpistemeSlotRelation`), E.17 (publication and view discipline), and F.9, F.17, and F.18 bridge and naming discipline.
+It harmonizes A.2 and A.2.1 for system-role kinds and system-role-assignment relations, A.3.4 for transformation, A.10 for evidence-provenance and carrier and source-currentness relations, A.14 for advanced mereology, A.15 for System-Role-Method-Work alignment, C.2.1 for episteme constitution and its separate empirical-grounding and edition relations, E.17 for publication and view discipline, and F.9, F.17, and F.18 for bridge and naming discipline.
 

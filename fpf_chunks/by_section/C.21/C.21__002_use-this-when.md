@@ -6,12 +6,12 @@ section_id: "C.21:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:0 — Use This When"
-line_start: 50973
-line_end: 50984
+line_start: 50674
+line_end: 50687
 dependencies:
   - "A.17"
   - "A.18"
@@ -21,6 +21,7 @@ dependencies:
   - "C.2"
   - "C.20"
   - "E.10"
+  - "F.17"
   - "F.9"
   - "G.0"
   - "G.10"
@@ -43,9 +44,11 @@ keywords:
 
 Use this pattern when a team must characterize the health, maturity, or structure of a discipline without reducing the field to a dashboard score, popularity signal, or one preferred tradition. Typical cases include judging reproducibility, standards convergence, cross-tradition alignment, disruption balance, evidence granularity, or method-family diversity.
 
-**What goes wrong if missed.** Field-health claims become attractive labels: ordinals get averaged, stale evidence looks current, local scope disappears, and cross-context reuse hides meaning loss behind one score.
+**What goes wrong if missed.** Field-health claims become attractive labels: ordinals get averaged, stale evidence looks current, local scope and comparison basis disappear, and values produced under different schemes or measurement editions are treated as comparable without an obtaining relation.
 
-**What this buys.** Discipline health becomes a vector of typed characteristics with scale, unit, polarity, freshness, scope, and bridge conditions visible before any comparison or publication view.
+**What this buys.** Discipline health becomes a vector of typed characteristics with exact scheme and method editions, comparison basis, scale, unit, polarity, freshness, `ClaimScope`, and any actually consumed cross-local relation visible before comparison or publication.
+
+**First useful move.** Name the discipline and practical question, choose one relevant characteristic, state the comparison basis and scope, and say in ordinary language what the current evidence supports and what it does not. Stop there when no numeric comparison, aggregation, or reusable publication is needed.
 
 **Placement.** Part C (Kernel Extension Specifications) -> Cluster C.I (Core CHRs/CALs).
   **Depends on:** **MM-CHR** (C.16), **KD-CAL** (C.2), **USM/Scope** (A.2.6), **Trust & Assurance** (B.3), **E.10 (LEX‑BUNDLE)**.

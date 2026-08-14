@@ -6,50 +6,54 @@ section_id: "F.11:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__014_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:13 — Relations"
-line_start: 94808
-line_end: 94821
+line_start: 94282
+line_end: 94297
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
-  - "D.CTX"
+  - "B.1.5"
+  - "C.2.1"
   - "E.10.D1"
-  - "F.1"
+  - "F.0.1"
   - "F.10"
-  - "F.3"
+  - "F.17"
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Work"
 keywords:
-  - "Actuation"
   - "Method"
   - "MethodDescription"
-  - "Role–Method–Work alignment"
-  - "Work"
+  - "control or transformation output"
+  - "dated Work"
+  - "description use"
+  - "enactment"
+  - "performed-Work attribution"
 ---
 
 ### F.11:13 - Relations
 
 **Builds on:**
-E.10.D1 **D.CTX** (Context ≡ `U.BoundedContext`); A.3/**A.3.1**/**A.3.2**/**A.15** (Method/Spec/Work foundations); Sys‑CAL (Actuation semantics); KD‑CAL (Observation); F.1–F.3 (Contexts → SenseCells); F.10 (Status families & Windows).
+
+- Use **A.3** and **A.3.1** for `U.Method`, **A.3.2** for `U.MethodDescription`, and **A.15** and **A.15.1** for dated `U.Work`.
+- Use **B.1.5** for Method composition and Work enactment, **C.2.1** for the identity of every claim-bearing episteme and report, and **E.10.D1** when vague *context* wording hides the actual source, scheme, scope, use, situation, or evidence basis.
+- Use the direct transformation, observation, or control pattern when an output claim is made; F.11 creates no universal actuation kind.
 
 **Constrains:**
 
-* **F.4 Role Description:** Roles or Statuses **must** point to the right box (e.g., *Approved* → MethodDescription; *Observed* → Work).
-* **F.5 Naming:** Enforce distinct Tech/Plain labels for Method/Spec/Work or Actuation where homonyms threaten.
-* **F.7/F.9 Bridges:** All Cross‑context assertions among quartet terms **must** go through explicit Bridges with **kind/CL/Loss**.
+- **F.4 and F.6:** a local system-role kind, its description, an assignment, and performed-Work attribution remain distinct from Method, MethodDescription, Work, and output.
+- **F.5:** use distinct Plain and Tech designations when one source expression hides different subjects.
+- **F.7 and F.9:** compare exact local claims or F.17 cells and cite F.9 only when a semantic relation actually obtains. A shared heading creates no identity, relation, or use licence.
 
-**Used by.**
-Part C patterns (Sys‑CAL, KD‑CAL, Kind-CAL, LCA‑CAL) and the method/work stack (A.3/A.15/B.1.5) when describing examples, proofs, and cross‑disciplinary mappings.
+**Used by.** Part C examples and the A.3, A.15, and B.1.5 method-and-work stack. Every MethodDescription membership judgement, enactment, performed-Work attribution, description use, observation, output, evidence use, or publication claim still uses the pattern that defines or tests it.
 

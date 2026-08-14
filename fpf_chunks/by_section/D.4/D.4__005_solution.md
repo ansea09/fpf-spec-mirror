@@ -6,12 +6,12 @@ section_id: "D.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:2 — Solution"
-line_start: 69332
-line_end: 69380
+line_start: 69131
+line_end: 69186
 dependencies:
   - "A.10"
   - "A.20"
@@ -35,9 +35,14 @@ Record an `EthicalMediationDecisionUse@Context`:
 ```text
 EthicalMediationDecisionUse@Context:
   conflictStructureRef
-  boundedContextRef
-  valueFrameRefs
+  affectedEntityOfConcernRef
+  affectedSystemRefs?
+  valueFrameEditionRefs
   decisionQuestionRef?
+  intendedDecisionUse?
+  intendedWorkUse?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   optionRefs
   proposedMediationRefs?
   refusalOrStopCondition?
@@ -76,4 +81,6 @@ EthicalMediationDecisionUse@Context:
 ```
 
 The record names the current ethical use of the conflict: mediate, refuse, continue under explicit residual, demand evidence, ask a causal question, ask for assurance, return to architecture, or make a bounded decision.
+
+Name the affected EntityOfConcern and any affected Systems, the value-frame editions, the decision question and options, and the intended decision or Work use. Add ClaimScope and a qualification window when they delimit that use. State the proposed mediation or refusal and any accepted residuals. If evidence, causal adequacy, assurance, architecture residuals, responsibility, permission, or actual Work remains unresolved, return only that question to the pattern that defines it. These values delimit the mediation; a generic context field does not.
 

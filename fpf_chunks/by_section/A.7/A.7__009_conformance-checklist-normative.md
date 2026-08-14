@@ -6,12 +6,12 @@ section_id: "A.7:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__009_conformance-checklist-normative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:7 — Conformance Checklist (normative)"
-line_start: 21988
-line_end: 22012
+line_start: 21679
+line_end: 21703
 dependencies:
   - "A.1"
   - "A.10"
@@ -43,8 +43,8 @@ keywords:
 
 | ID                                       | Requirement                                                                                                                                                                                                                                                                                    | Practical test                                                                                                                            |
 | ---------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
-| **CC‑A7.1 (System-role-kind and behaviour split)** | A context-local **system-role kind** is a `U.Kind`; an assignment is one occurrence of a directly admitted `U.SystemRoleAssignment` species. Behaviour is expressed as **Method**, with **Capability** as the system ability or envelope to enact that Method under conditions and **Work** as the run-time occurrence. | If wording makes the kind or assignment do something, rewrite it so the holder system performs the Work by enacting a Method through a Capability. |
-| **CC‑A7.2 (Transformer-system-role assignment domain)** | `TransformerSystemRole@Context` is usable only through a direct `U.SystemRoleAssignment` species whose declaration-local kind slot admits the exact local transformer-system-role-kind domain and whose holder slot admits systems. | Type-check the exact species, holder, kind domain, predicate, applicability, and occurrence identity; do not filter a permissive family value by a role label. |
+| **CC‑A7.1 (System-role-kind and behaviour split)** | A local **system-role kind** is a `U.Kind` identified by a named practice or source boundary and stable work-facing contribution distinction; an assignment is one occurrence of a directly admitted `U.SystemRoleAssignment` species. Behaviour is expressed as **Method**, with **Capability** as the exact system's ability or envelope to enact that Method under stated conditions and **Work** as the run-time occurrence. | If wording makes the kind or assignment do something, rewrite it so the holder system performs the Work by enacting a Method through a Capability. |
+| **CC‑A7.2 (Transformer-system-role assignment domain)** | A suffixed source designation such as `TransformerSystemRole@ValveSelectionContext` is usable only after the suffix resolves to the named practice or source boundary in the kind's identity basis and a direct `U.SystemRoleAssignment` species admits that exact local kind in its declaration-local kind slot and systems in its holder slot. | Type-check the exact species, holder, kind domain, predicate, applicability, and occurrence identity; do not filter a permissive family value by a role label. |
 | **CC‑A7.3 (Episteme non‑agency)**        | An **episteme SHALL NOT** be described as acting or as the holder in a work-facing system-role assignment. Changes to epistemes are stated through publication, carrier, Work, evidence-provenance, and source-currentness relations: Work on carriers, publication updates, evidence-provenance relations, and source-currentness records under A.10/E.17/A.15. | Text contains the acting system or holon, Work occurrence, and carrier, publication, or evidence relation when change or evidence is claimed. |
 | **CC‑A7.4 (MethodDescription ≠ Method ≠ Capability ≠ Work)** | **MethodDescription** is the same independently identified C.2.1 episteme only when its exact EntityOfConcern is one admitted Method and at least one substantive way-of-doing claim obtains; **Method**, **Capability**, and **Work** retain their separate meanings. Form, label, design-time status, authoring, revision, citation, publication, approval, or use time grants no membership. | Identify the episteme triple and apply the A.3.2 threshold; then name each current Method, Capability claim and dated Work occurrence separately. |
 | **CC‑A7.5 (Operator fit)**               | Use **Γ\_method** only for composing **Method**; **Γ\_time** only for **Work** histories; **Γ\_work** only for resource spend/yields; **Γ\_sys** for systemic properties of systems.                                                                                                           | No sentence should use a single generic “process operator” for all three.                                                                 |

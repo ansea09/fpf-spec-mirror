@@ -6,12 +6,12 @@ section_id: "B.1.1:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__012_rationale.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:9 — Rationale"
-line_start: 35893
-line_end: 35898
+line_start: 35605
+line_end: 35610
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,5 +34,5 @@ keywords:
 
 Dependency language is useful exactly because it is broad. That breadth is also the danger. FPF keeps the breadth for recognition, then restores precision by separating relation kinds, selected structures, mathematical expressions, and publication forms.
 
-B.1.1 therefore does not abolish dependency graphs. It makes them honest: a graph represents a selected relation structure; relation grounding comes from the direct owners.
+B.1.1 therefore does not abolish dependency graphs. It makes them honest: a graph represents a selected relation structure; each direct relation is grounded by the facts and rule that make it obtain.
 

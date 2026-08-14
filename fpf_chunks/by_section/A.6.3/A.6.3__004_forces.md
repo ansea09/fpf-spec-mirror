@@ -1,25 +1,31 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
+pattern_title: "U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
 section_id: "A.6.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
+  - "A.6.3 — U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:3 — Forces"
-line_start: 13427
-line_end: 13447
+line_start: 13397
+line_end: 13407
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.6.0"
   - "A.6.2"
+  - "A.6.3.CR"
+  - "A.6.3.RT"
+  - "A.6.4"
   - "A.6.5"
   - "A.7"
   - "B.5.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -31,22 +37,12 @@ keywords:
 
 ### A.6.3:3 - Forces
 
-* **Same EntityOfConcern, different concerns.**
-  Stakeholders want different slices of the same description and specification-useification, sometimes under different viewpoints, without re-identifying the system, method, service, or other entity that fills `EntityOfConcernSlot`.
-
-* **Internal vs cross‑episteme views.**
-  Some views depend only on a single episteme (direct viewing); others depend on a **CorrespondenceModel** (e.g. aligning requirements and design models). Both are admissible, but they require **different witnesses**.
-
-* **Conservativity vs expressivity.**
-  A view must not introduce new commitments about the EntityOfConcern, but it may:
-
-  * aggregate or factor claims,
-  * change representation regime (diagrammatic vs symbolic vs latent),
-  * or shift to a different inference regime, **as long as this is conservative**.
-
-* **EntityOfConcern and Description-episteme boundary and specification-use strictness.**
-  `…Description` names a Description episteme, and `…Spec` names a Description episteme admitted for specification use whose `subjectRef` decodes to `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩` when the declared checkability/formality gate is present. Viewing works over these `DescriptionContext` triples without collapsing the EntityOfConcern into the Description episteme or Description episteme admitted for specification use produced by the use, while still allowing that EntityOfConcern to be a `U.Episteme` when an episteme is under concern; it also must not confuse those epistemes with publication faces or carriers.
-
-* **Slot discipline and modularity.**
-  With C.2.1 and A.6.5, epistemes now have explicit `SlotKind`/`ValueKind`/`RefKind` triples. Viewing invariants must be stated **per SlotKind**, not in terms of ad‑hoc “fields”, so they can be reused across engineering, publication, and discipline packs.
+| Force | Tension |
+|---|---|
+| Conservativity vs usefulness | A receiving episteme may reorganize, summarize, or omit claims while adding no unsupported commitment about the EntityOfConcern. |
+| Same concern vs changed expression | X and Y share one exact EntityOfConcern, while claim content or effective reference scheme may differ and therefore identify another episteme. |
+| Algebraic composition vs actual work | Viewings should compose and replay as mathematical constructions, while systems and work occurrences remain separate. |
+| Direct source vs several-source correspondence | Some constructions use X alone; others depend on exact relations among several source epistemes. |
+| Construction history vs stable kind membership | How Y was constructed can change without changing whether Y conforms to a viewpoint. |
+| Lightweight assertion vs assurance | A readable source-to-receiving statement often suffices; disputed loss or correspondence requires exact declarations and evidence. |
 

@@ -6,12 +6,12 @@ section_id: "E.5.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__007_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:6 — Conformance Checklist"
-line_start: 72289
-line_end: 72296
+line_start: 72113
+line_end: 72120
 dependencies:
   - "E.4"
   - "E.5"

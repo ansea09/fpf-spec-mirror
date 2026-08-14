@@ -6,12 +6,12 @@ section_id: "F.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__009_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:7 — Conformance Checklist"
-line_start: 92253
-line_end: 92268
+line_start: 91869
+line_end: 91884
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,11 +59,11 @@ keywords:
 | `CC-F5-2` | The direct meaning source is explicit: E.24.UK or direct admission for a U-kind, A.2 with C.3 for a local system-role kind, F.4 for its description, or another exact relation. A Concept-Set row, card, or citation is not admission or identity. |
 | `CC-F5-3` | The Tech designation is no broader than the recovered meaning. |
 | `CC-F5-4` | The Plain designation points to the same value without widening it. |
-| `CC-F5-5` | Edition, source, witness provenance, context, scheme, threshold, and window stay outside the main label unless one truly distinguishes the local value. |
-| `CC-F5-6` | A U-kind name is neutral across witness contexts unless evidence shows the source term is genuinely shared. |
+| `CC-F5-5` | Edition, source, witness provenance, local boundary, scheme, threshold, and window stay outside the main label unless one truly distinguishes the local value. |
+| `CC-F5-6` | A U-kind name is neutral across the named witness sources or practices. Shared source spelling establishes neither the governed value nor a local kind's identity; the direct admission and identity rules must already have done that work. Treat the term as genuinely shared only when evidence establishes the same referent. |
 | `CC-F5-7` | The system-role-kind designation, local kind, F.4 description, classification judgment, assignment species, and assignment occurrence remain distinct. For any assignment identity used, recover the occurrence and its declared A.2.1 species. The species defines the participant meanings, assigned-kind domain, predicate, applicability, and occurrence identity; the occurrence supplies the holder, assigned-kind value, case applicability, extent, and any other participant values. Otherwise the text does not invent an occurrence. |
 | `CC-F5-8` | Status, evidence, requirement, source, publication, assurance, gate, decision, responsibility, and relation-position names remain at their direct objects before durable naming. |
 | `CC-F5-9` | A source term, symbol, predecessor term, or translation is marked as lineage or alias, not another selected Tech designation. |
-| `CC-F5-10` | Durable or public reuse invokes F.18 and F.17 as needed; actual cross-context use names the exact Bridge, bounded-use claim, and proportionate A.10 or B.3 reliance from rule 9. None substitutes for the receiving Work, result, provenance, assurance, or publication occurrence. |
+| `CC-F5-10` | For durable or public reuse, use F.18 and F.17 as needed; actual cross-local use names the exact C.3.3 kind relation or F.9 local-sense relation and the proportionate receiving-use, A.10, or B.3 claims required by rule 9. None substitutes for the receiving Work, result, provenance, assurance, or publication occurrence. |
 | `CC-F5-11` | A worked case does not mint a dated Work identity merely to support naming. When it consumes an already admitted Work, the performer, Method, time, containing System, covering assignment held by that performer, and F.6 relation are recoverable. Result epistemes, provenance values, and their relations remain separate; no label, description, suffix, card, row, or citation substitutes for them. |
 

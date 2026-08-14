@@ -6,12 +6,12 @@ section_id: "D.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:intro — Intro"
-line_start: 69140
-line_end: 69153
+line_start: 68939
+line_end: 68952
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,7 +37,7 @@ keywords:
 
 > **Type:** D-family ethical conflict-structure pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern contains the defining content for the structure of an interlevel ethical conflict; mediation, decision use, assurance, causal use, and architecture residuals remain with their subject patterns.
+> **Pattern role:** This compact pattern defines the structure of an interlevel ethical conflict. Use D.4 for mediation and decision use, D.5 for bias, fairness, impact, and ethical assurance, C.28 for causal claims, and C.30.ILC for architecture residuals.
 
 **Use this when.** Use this pattern when an ethical conflict spans declared levels or scopes and the conflict structure itself must be made inspectable before mediation, decision, assurance, or architecture return.
 

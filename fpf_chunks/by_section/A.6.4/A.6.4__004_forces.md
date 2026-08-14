@@ -6,12 +6,12 @@ section_id: "A.6.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:3 — Forces"
-line_start: 15497
-line_end: 15521
+line_start: 15213
+line_end: 15237
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -49,5 +49,5 @@ keywords:
   * align with `KindBridge` and plane Bridges used for those base reference arrows.
 
 * **Slot discipline and modularity.**
-  C.2.1 and A.6.5 give epistemes a precise `SlotKind`/`ValueKind`/`RefKind` structure, including `EntityOfConcernSlot` and `GroundingHolonSlot`. Retargeting laws must be stated **at the slot level**, not on ad‑hoc “fields”, so they can be reused across `E.18`, MVPK, and discipline packs.
+  C.2.1 and A.6.5 give episteme constitution and direct relations precise participant and SlotSpec rules. Retargeting laws name the exact episteme values they change and keep grounding, scope, viewpoint selection, and other neighboring relations separate, so the laws can be reused across `E.18`, MVPK, and discipline packs.
 

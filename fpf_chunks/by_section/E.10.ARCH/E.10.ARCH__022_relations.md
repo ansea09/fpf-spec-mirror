@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__022_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:14 — Relations"
-line_start: 76664
-line_end: 76689
+line_start: 76491
+line_end: 76516
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,26 +67,26 @@ keywords:
 ### E.10.ARCH:14 - Relations
 
 - `E.4.DPF` defines the DPF entry condition and the placement rule: each domain entry remains beside the DPF claim whose wording it restores; a separate local profile exists only for a named maintained multi-entry use, and any table that publishes it remains a publication form.
-- `E.10` recognizes and closes local wording issues or selects the applicable row; bare claim-bearing *role* selects `E.10.ROLE` and has no default Tech reading.
-- `E.10.ROLE` provides the thin first entry from bare claim-bearing *role*. `A.6.RSIR` realizes first-level recovery for the narrower relation, signature, interface, assignment, declaration-slot, operation, and representation cluster only until the direct pattern is clear.
-- `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations; `A.6.P.WMR` specializes one current method/work-boundary relation-bearing claim and returns exactly one family: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or an exact non-assertability result independently reasoned as `factually unsupported`, `missing-information`, or `missing-governor`; only the last names the affected receiving use and future subject pattern or relation declaration. Use `A.6.RCD` only for the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current governor closes the receiver.
+- Use `E.10` to recognize and close local wording issues or select the applicable row; use `E.10.ROLE` for bare claim-bearing *role*, which has no default Tech reading.
+- `E.10.ROLE` provides the thin first entry from bare claim-bearing *role*. `A.6.RSIR` realizes first-level recovery for the narrower relation, signature, interface, assignment, declaration-slot, operation, and representation cluster only until the defining or testing rule for the recovered object is clear.
+- `A.6.P` realizes the shared algorithm for generic relation construction and retained relation specializations. An `A.6.P.WMR` application records exactly one result family for a current Work and Method boundary claim: an exact direct subject-relation claim, positive or governed negative; an exact `A.6.1` operation-application binding; a local `A.15.PROD` claim or another local relation-bearing claim selected under `A.6.RCD` disposition 2; or exact non-assertability as `factually unsupported`, `missing-information`, or `missing-governor`. Only the last names the affected receiving use and needed future relation rule or declaration. Use `A.6.RCD` only for the residual needed-claim derivation and relation-kind admission question after exact participants are known and no lighter current rule closes the receiver.
 
 - `A.6.F` realizes function-like kind and relation recovery.
 - `C.2.P` realizes source-expression, episteme, publication, and FPF-governed-use recovery.
 - `C.2.P.DR` realizes declarative representation and imperative-metaphor overread repair.
-- `A.3.1` governs one exact `U.Method` and `MethodRelationStructure@BoundedContext` for exact method-side relations once recovered; method-like wording reaches it only while that governed object remains hidden.
-- `A.3.2` governs a `U.MethodDescription` episteme that describes one exact `U.Method`; it does not absorb a mechanism, plan, Work occurrence, transformation, result, structure, architecture, or representation.
-- `A.6.0` and `A.6.5` govern reusable signatures and `SlotSpec` declarations; `C.29` governs tuple, argument, edge, diagram, and other representation use plus explicit correspondence; `A.6.1` and `E.20` govern mechanism meaning and governing-definition assignment. `E.24` alone introduces an exact `onticSlotRelation` when durable ontic settlement is current.
-- `A.15.2`, `A.15.1`, and `A.10` govern planned work, dated work, and evidence or provenance relations that method-like or path-like wording may otherwise hide; `A.15.PROD` governs the local production-work, entity-identity-inception, or production-completion claim when that exact WMR exit is current.
-- `E.18` governs graph paths, path slices, flow valuations, and graph relations over selected `TransformationFlowStructure` when the graph claim is current.
+- `A.3.1` defines one exact `U.Method` and the method-side relations within its scope. When a named use depends on organization among several such relations, use A.22's criterion to select the structure, which may be locally designated `MethodRelationStructure`. Enter through the method-like wording row only while the actual object or relation remains hidden.
+- `A.3.2` defines membership for a `U.MethodDescription` episteme that describes one exact `U.Method`; that membership absorbs no mechanism, plan, Work occurrence, transformation, result, structure, architecture, or representation.
+- `A.6.0` defines reusable signature identity and `A.6.5` defines `SlotSpec` declarations; `C.29` defines representation use and explicit correspondence for tuples, arguments, edges, diagrams, and similar forms; `A.6.1` defines operation application and `E.20` defines governing-definition assignment. An exact `onticSlotRelation` exists only after its E.24 durable ontic settlement is current.
+- Use `A.15.2` for planned work, `A.15.1` for dated Work, and `A.10` for evidence or provenance relations that method-like or path-like wording may otherwise hide; use `A.15.PROD` for the local production-work, entity-identity-inception, or production-completion claim when that exact WMR result family is current.
+- `E.18` defines graph paths, path slices, flow valuations, and graph relations over a selected `TransformationFlowStructure` when the graph claim is current.
 - `C.30.P` realizes architecture and structure wording recovery.
-- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before the recovered claim is handled under its subject pattern.
+- `C.30.STRAT` realizes stratification and source-label wording recovery for `layer`, `level`, `tier`, `stack`, `ladder`, `rung`, `block`, `expert`, `cache`, `router`, `gate`, and close source labels before the recovered claim is handled under its defining or testing rule.
 - `C.16.P` realizes characteristic and scale wording recovery.
 - `C.16.Q` realizes quality characterization and evaluative characterization wording recovery.
-- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or subject pattern is hidden.
-- `F.18` governs durable reusable naming after the kind under repair or relation is known.
+- `A.19.SPR` realizes state-family wording recovery when bearer, state frame, value set, admissible use, or the defining or testing rule is hidden.
+- Use `F.18` for durable reusable naming after the kind under repair or relation is known.
 - `F.19` supplies phrase-level ontology-first plain technical rewriting after the kind under repair is recovered or while proving it is still hidden.
-- `E.8` governs pattern-form and placement wording.
+- `E.8` states the pattern-form and placement rules.
 - `E.19` checks distribution preservation during review and refresh.
-- `E.11` governs entry-distribution and assigns broad or old-term entry cases to README scenarios, ToC query cues, local Problem frames, or `I.2` expanded entry-disambiguation cases.
+- `E.11` states the entry-distribution rules for broad or old-term cases across README scenarios, ToC query cues, local Problem frames, and `I.2` expanded entry-disambiguation cases.
 

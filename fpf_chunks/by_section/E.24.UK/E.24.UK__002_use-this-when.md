@@ -6,12 +6,12 @@ section_id: "E.24.UK:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:0 — Use This When"
-line_start: 89999
-line_end: 90029
+line_start: 89856
+line_end: 89886
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -34,6 +34,7 @@ dependencies:
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
+  - "E.24.UK"
   - "F.18"
   - "U.MethodDescription"
   - "U.Structure"
@@ -44,7 +45,7 @@ keywords:
 
 ### E.24.UK:0 - Use This When
 
-Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must choose among four outcomes: reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a genuinely needed durable kind, or recover a non-kind object under its subject pattern. A title, filename, ToC row, table, or source spelling opens the question but never answers it.
+Use this pattern when a public FPF expression proposes a `U.*`, type, kind, or subkind and the author must choose among four outcomes: reuse an admitted durable kind, declare a bounded C.3.2 local kind, admit a genuinely needed durable kind, or recover a non-kind object under the rule that defines or tests it. A title, filename, ToC row, table, or source spelling opens the question but never answers it.
 
 Typical moments:
 
@@ -63,7 +64,7 @@ Typical moments:
 
 **What goes wrong if missed.** FPF grows a shadow ontology by punctuation. A slot label becomes a kind, a publication form becomes an ontic, type and kind wording becomes active beside ontic settlement, and a useful title survives because it is searchable rather than because it names the governed object.
 
-**What this buys.** Public `U.*` names become trustworthy. A candidate distinction either passes one explicit root or dependent admission test, or stays with the actual governed object and uses its subject pattern only as a locator without creating an umbrella kind.
+**What this buys.** Public `U.*` names become trustworthy. A candidate distinction either passes one explicit root or dependent admission test, or stays with the actual governed object and uses its defining or testing rule, with the PatternID kept only as a locator, without creating an umbrella kind.
 
 **Not this pattern when.**
 

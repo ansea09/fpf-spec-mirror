@@ -6,12 +6,12 @@ section_id: "C.33:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:1 — Problem frame"
-line_start: 67778
-line_end: 67837
+line_start: 67565
+line_end: 67628
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -74,7 +74,10 @@ For the first pass, fill only the fields that prevent the next wrong use:
 StructuralInformationAdequacyNote@Context:
   architectureClaimRef?:
   describedHolonRef:
-  boundedContextRef:
+  architectureConcern:
+  intendedArchitectureUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   selectedStructureRefs:
   selectedSourceStructureRefs?:
   sourceDescriptionOrViewRefs?:
@@ -93,6 +96,7 @@ StructuralInformationAdequacyNote@Context:
   sourceLabelRecoveryRef?:
   mathematicalLensUseOutputRef?:
   measurementOrEvalRefs?:
+  adequacyEvidenceRefs:
   admissibleUse:
   nonAdmissibleUse:
   missingStructureReturnCondition:

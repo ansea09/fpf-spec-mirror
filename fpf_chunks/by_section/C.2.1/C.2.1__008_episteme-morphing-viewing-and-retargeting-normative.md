@@ -6,12 +6,12 @@ section_id: "C.2.1:7"
 section_title: "Episteme morphing, viewing, and retargeting  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__008_episteme-morphing-viewing-and-retargeting-normative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:7 — Episteme morphing, viewing, and retargeting  (normative)"
-line_start: 41720
-line_end: 41748
+line_start: 41437
+line_end: 41465
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -71,9 +71,9 @@ The morphism declaration and any categorical notation are epistemic or mathemati
 
 `A.6.3` governs an exact source-to-receiving viewing construction when one separately identified receiving episteme is constructed from one separately identified source episteme. That construction may preserve the exact EntityOfConcern while restricting claim content or specializing the effective reference scheme. It neither grants `U.View` membership nor performs work. Direct authoring and query generation can identify receiving epistemes without this construction relation.
 
-`E.17.0` independently judges `EpistemeViewpointConformanceRelation(E,P)` for one fixed receiving episteme E and one fixed viewpoint episteme P; only that obtaining relation gives the same E dependent `U.View` membership. A system may perform viewing, query, authoring, or rendering work, but neither that work nor an A.6.1 result position grants `U.View` membership or supplies C.2.1 identity.
+`E.17.0` independently asks whether one fixed receiving episteme E conforms to one fixed viewpoint episteme P; formally, whether `EpistemeViewpointConformanceRelation(E,P)` obtains. Only an obtaining relation gives the same E dependent `U.View` membership. A system may perform viewing, query, authoring, or rendering work, but neither that work nor an A.6.1 result position grants `U.View` membership or supplies C.2.1 identity.
 
-Empirical grounding continues only while every mapped direct relation required by the receiving episteme's exact covered claim subgraph obtains. Changing publication, current use, evaluator, or evidence alone changes neither fixed E/P conformance nor grounding. Several source or receiving epistemes do not automatically form a multi-view family; identify any current collection under C.13 and any selected organization under A.22.
+Empirical grounding continues only while every mapped direct relation required by the receiving episteme's exact covered claim subgraph obtains. Changing publication, current use, evaluator, or evidence alone changes neither the conformance of fixed E to fixed P nor grounding. Several source or receiving epistemes do not automatically form a multi-view family; identify any current collection under C.13 and any selected organization under A.22.
 
 #### C.2.1:7.3 - Epistemic retargeting
 

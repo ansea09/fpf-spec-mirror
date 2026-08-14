@@ -1,44 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.1"
-pattern_title: "Domain‑Family Landscape Survey"
+pattern_title: "Question-Relative Source Selection"
 section_id: "F.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.1 — Domain‑Family Landscape Survey"
+  - "F.1 — Question-Relative Source Selection"
   - "F.1:3 — Forces"
-line_start: 90813
-line_end: 90821
+line_start: 90611
+line_end: 90620
 dependencies:
-  - "A.11"
+  - "A.10"
   - "A.7"
-  - "D.CTX"
-  - "E.10.D1"
+  - "B.3"
+  - "C.2.1"
   - "F.0.1"
-  - "F.2"
-  - "F.3"
-  - "F.4"
+  - "F.0.2"
+  - "F.17"
   - "F.9"
-  - "G.0"
-  - "G.1"
 keywords:
-  - "authoritative source"
-  - "canon"
-  - "context map"
-  - "domain‑family survey"
-  - "scope notes"
-  - "versioning"
+  - "SourceCutNote"
+  - "answer-changing source role"
+  - "exact source and edition"
+  - "finite source cut"
+  - "intended use"
+  - "receiving question"
+  - "reopen condition"
 ---
 
 ### F.1:3 - Forces
 
-| Force                        | Tension to resolve                                                                |
-| ---------------------------- | --------------------------------------------------------------------------------- |
-| **Universality vs locality** | We want cross‑domain unification, but **meaning is local** to a U.BoundedContext. |
-| **Breadth vs parsimony**     | Wide coverage prevents bias; too many Contexts defeats understanding.                |
-| **Recency vs continuity**    | New editions matter; but working knowledge often trails by years.                 |
-| **Didactics vs fidelity**    | Pedagogically simple summaries must remain faithful to the source.                |
+| Force | Tension |
+| --- | --- |
+| Relevance vs finiteness | The cut must expose answer-changing rivals and limits while remaining small enough to inspect together. |
+| Local fidelity vs cross-source use | Each source keeps its own claims and meanings while later work may compare them. |
+| Recency vs continuity | New editions matter, but only changed relied premises should reopen the result. |
+| Efficient search vs human judgment | Search aids may prioritize candidates but cannot decide their role in the answer. |
+| Compact memory vs source analysis | A short result should keep the decision recoverable without becoming a second literature review. |
 

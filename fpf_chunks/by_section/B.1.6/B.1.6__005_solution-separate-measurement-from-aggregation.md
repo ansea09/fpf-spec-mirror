@@ -6,12 +6,12 @@ section_id: "B.1.6:2"
 section_title: "Solution — separate measurement from aggregation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__005_solution-separate-measurement-from-aggregation.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:2 — Solution — separate measurement from aggregation"
-line_start: 37078
-line_end: 37137
+line_start: 36792
+line_end: 36854
 dependencies:
   - "A.1"
   - "A.10"
@@ -65,10 +65,13 @@ If any referenced resource value lacks its resource Characteristic, measurement 
 ```text
 WorkResourceAggregation@Context:
   aggregationConcernRef
-  boundedContextRef
-  accountingBoundaryAndTimeWindowRefs
+  claimScopeRef?: U.ClaimScope
+  accountingBoundaryRefs
+  timeWindowRefs
   aggregatedWorkOccurrenceRefs
-  workPartPhaseOrOverlapRelationRefs
+  resourceUseRelationRefs
+  workPartOrOverlapRelationRefs
+  nonWorkCarrierPhaseRelationRefs?
   resourceCharacteristicRefs
   measurementWorkRefs
   measurementResultEpistemeRefs
@@ -84,7 +87,7 @@ WorkResourceAggregation@Context:
   nonAdmissibleOverread
 ```
 
-These are separately governed objects, not fields that create one another:
+These are separate objects and claims; the fields do not create one another:
 
 - a **resource Characteristic** says which quantity or property is accounted for;
 - **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;
@@ -110,5 +113,5 @@ A ledger, dashboard, policy, profile, clause, citation, or graph edge may repres
 | Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |
 | Edition currentness | `G.11` |
 | Planned work or resource readiness | `A.15.2` or `A.15.5`, never a measured aggregation result |
-| Transformation, whole reidentification, assurance, comparison, or decision | its direct A.3.4, B.2, B.3, A.19, C.11, or other exact governor |
+| Transformation, whole reidentification, assurance, comparison, or decision | the applicable A.3.4, B.2, B.3, A.19, C.11, or other pattern for that exact claim |
 

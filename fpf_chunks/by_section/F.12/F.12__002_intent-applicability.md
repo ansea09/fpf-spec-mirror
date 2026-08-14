@@ -6,35 +6,52 @@ section_id: "F.12:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__002_intent-applicability.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:1 — Intent & applicability"
-line_start: 94867
-line_end: 94872
+line_start: 94339
+line_end: 94346
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.3"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.RCD"
+  - "B.3"
+  - "C.16"
+  - "C.16.P"
+  - "C.2"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.11"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
-  - "F.7"
   - "F.9"
-  - "U.BoundedContext"
   - "U.PromiseContent"
 keywords:
-  - "Service Level Agreement (SLA)"
-  - "Service Level Objective (SLO)"
-  - "acceptance criteria"
-  - "binding"
+  - "EvidenceStatus"
+  - "PromiseContent"
+  - "RequirementStatus"
+  - "declared result scale"
+  - "delivery Work"
+  - "evaluation Work"
+  - "indicator recovery"
+  - "measured value"
   - "observation"
+  - "operation result binding"
 ---
 
 ### F.12:1 - Intent & applicability
 
-**Intent.** Provide a **conceptual binding** that turns a *service promise* (SLO/SLA clause) into a **clear, local, time‑bounded judgement** about **actual Work**, using **Observations** as evidence and **explicit Bridges** where Cross‑context notions must meet. The result is a **Status** (Satisfied/Violated/Inconclusive) that attaches to the **clause‑about‑that‑Work‑in‑that‑Window**.
+**Intent.** Relate an exact promise-content claim to the delivery Work and outcome being judged, the observations and measured values used as evidence, an explicit window and population, and the separate evaluation Work that applies the declared acceptance rule and returns a result on its declared scale. Map that result to F.10 status only when a receiving use needs status, and create a verdict episteme only when another use needs a durable assertion. Keep each object and relation distinct so a reader can see what would change the result.
 
-**Applicability.** Any situation where a **service promise clause** (promise content) is published (availability, latency, safety margin, response time, quality gate, compliance duty) and its fulfilment must be decided from what occurred. Works across digital services, industrial control, laboratory processes, clinical pathways, logistics, etc.
+**Use this when.** An SLO, SLA clause, safety margin, response-time target, quality gate, or other promise must be judged from actual occurrences.
+
+**Do not use this when.** The question is only what the promise says, how the Method is described, or how a measurement is made. Use the direct A.2.3, A.3, A.15, or C.16 pattern. F.12 does not turn a lexical cell or comparison row into a verdict subject.
 

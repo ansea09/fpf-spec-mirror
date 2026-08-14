@@ -6,12 +6,12 @@ section_id: "E.8:11"
 section_title: "SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__016_sota-echoing-normative-lineage-and-deltas-to-contemporary-state-of-the-art.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:11 — SoTA-Echoing  (normative; lineage and deltas to contemporary State-of-the-Art)"
-line_start: 73185
-line_end: 73221
+line_start: 73012
+line_end: 73048
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -73,7 +73,7 @@ keywords:
 3b) **Problem-domain and practice answerability.** The selected SoTA source family **MUST** answer the governed working problem and the relevant domain or practice tradition. It **MUST NOT** be selected only because it makes package placement, naming neatness, or pattern clustering easier to justify.
 4) **Practice alignment.** For each cited item, state **what is adopted, adapted, or rejected** and **why** in 2 to 4 sentences.
 5) **Scale admissibility.** If numeric operations are implied, bind to ComparatorSet or CG-Spec and declare partial-order stance with no hidden scalarization.
-6) **Cross-Context reuse.** Any reuse across `U.BoundedContext` must expose Bridge id plus CL and, if ReferencePlanes differ, Phi policy ids; penalties affect only `R_eff`.
+6) **Actual cross-local relation.** When a use actually relates distinct F.17 local senses or ReferencePlanes, expose the exact F.9 relation, CL, admitted use, loss notes, and applicable plane policy; penalties affect only `R_eff`. Do not invent a Bridge for a shared word or ordinary source import.
 7) **Lexical hygiene.** Avoid “mapping” unless you mean an explicit Bridge, translation relation, or other named relation with loss notes.
 
 **Writing guidance (readability).**
@@ -85,7 +85,7 @@ keywords:
 
 | Claim (E.8 need) | SoTA practice (post-2015) | Use of source | Primary source (post-2015) | Alignment with E.8 | Adoption status |
 |---|---|---|---|---|---|
-| Pattern texts must be teachable, not just correct. | Use a stable skeleton with context, problem, forces, solution, actions, and consequences, plus illustration and checks, to keep patterns readable and actionable. | **Current-practice writing-guidance use.** This row is used for E.8's canonical pattern skeleton and didactic ordering; it is not treated as external authority over FPF ontology. | Iba (2021), “How to Write Patterns: A Practical Guide for Creating a Pattern Language on Human Actions” (PLoP 2021 PLoPourri). | Canonical Template mirrors the skeleton and adds Archetypal Grounding plus Conformance Checklist as first-class sections. | **Adopt and adapt.** Adopt the skeleton; adapt by making bias and conformance explicit sections. |
+| Pattern texts must be teachable, not just correct. | Use a stable skeleton with problem frame, problem, forces, solution, actions, and consequences, plus illustration and checks, to keep patterns readable and actionable. | **Current-practice writing-guidance use.** This row is used for E.8's canonical pattern skeleton and didactic ordering; it is not treated as external authority over FPF ontology. | Iba (2021), “How to Write Patterns: A Practical Guide for Creating a Pattern Language on Human Actions” (PLoP 2021 PLoPourri). | Canonical Template mirrors the skeleton and adds Archetypal Grounding plus Conformance Checklist as first-class sections. | **Adopt and adapt.** Adopt the skeleton; adapt by making bias and conformance explicit sections. |
 | Pattern quality needs explicit validation beyond folklore. | Critique of ad hoc validation, including the rule of three, and push toward more rigorous discovery and validation methods. | **Current-best source use for pattern discovery and validation rigor in this row's narrow use.** The source changes E.8 by requiring validation to be explicit rather than folklore-based. | Riehle, Harutyunyan, Barcomb (2020), “Pattern Discovery and Validation Using Scientific Research Methods”. | E.8 encodes validation as Conformance Checklist plus SoTA-Echoing with adoption status and evidence binding. | **Adopt.** Adopt auditability goals; keep the mechanism lightweight through checks and evidence binding. |
 | Governance should constrain structure, not mandate tools. | Specify conformance and structure; do not prescribe processes, notations, tools, or recording media. | **Current-standard reference use.** The architecture-description standard supplies a useful conformance-vs-tooling distinction, but E.8 does not import architecture-description ontology as pattern-authoring ontology. | ISO/IEC/IEEE 42010:2022, *Software, systems and enterprise - Architecture description*. | E.8 is template-centric and conformance-centric, with guardrails against tool and notation lock-in in core narrative. | **Adopt.** Directly adopt the conformance-not-tooling discipline for authoring shape. |
 | Pattern languages are networks; visuals often mislead. | Systematic surveys report low consensus on what to visualise and ambiguous or inexpressive visuals; relations need clear definition in text. | **Current-practice rationale use.** The source is used as rationale for the text-first relation discipline; it is not current-best source material for all pattern-language visualization. | Quirino, Barcellos, Falbo (2018), “Visual Notations for Software Pattern Languages: A Mapping Study”. | E.8 requires a Relations section and keeps diagrams optional, placing primacy on textual structure and explicit links. | **Adapt.** Use the finding as rationale for text-first, relation-explicit authoring. |

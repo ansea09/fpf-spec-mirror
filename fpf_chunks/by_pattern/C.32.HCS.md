@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.HCS.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
-line_start: 65260
-line_end: 65460
+line_start: 65023
+line_end: 65227
 dependencies:
   - "A.19"
   - "C.11"
@@ -54,7 +54,7 @@ Typical entry phrases:
 "A system-role assignment, organization, built asset, or evidence workflow has reliability-like pressure, but the bearer and scale are unclear."
 ```
 
-**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system or bounded review-work context; the relevant structures include a method relation structure, method descriptions, local system-role kinds, separately obtaining assignments, work-product structures, and evidence records. Only then does the practitioner inspect repeatability, transferability, evidence reuse, and exception growth. Kind substitutability is tested through A.2.7; assignment continuity, holder replacement, staffing, and Work coverage remain separate candidate characteristics under their direct patterns or `missing-governor`. Teachability is recorded as a likely C.25 Q-Bundle. The project carries only those starter heads and first project questions to `C.32.ACS` instead of copying hundreds of names or admitting "practice" as a holon kind.
+**First-minute use slice.** A review lead sees a long quality catalogue and a software-oriented checklist, while the source wording calls the object a reusable review practice. Using C.32.HCS, the practitioner first resolves that label: the live holon is the review organization-as-system; exact review Work occurrences and any presentation carrier remain separate. The relevant structures include a method relation structure, method descriptions, local system-role kinds, separately obtaining assignments, work-product structures, and evidence records. Only then does the practitioner inspect repeatability, transferability, evidence reuse, and exception growth. A.2.7 tests kind substitutability. Assignment continuity, holder replacement, staffing, and Work coverage remain separate candidate characteristics; use the pattern that defines or tests each claim, or return `missing-governor`. Teachability is recorded as a likely C.25 Q-Bundle. The project carries only those starter heads and first project questions to `C.32.ACS` instead of copying hundreds of names or admitting "practice" as a holon kind.
 
 The primary `EntityOfConcern` is one architecture-bearing family starter pack for beginning to turn broad architecture-characteristic names into project criteria rows. A starter head is only a possible characteristic head before project bearer, scale, use class, proxy risk, and protected counter-characteristics are bound. Carry admitted starter heads to ACS. Keep Q-Bundles, measurements, eval programs, candidate palettes, comparison rules, G.5 result declarations, actual publications, and architecture decisions as separate objects handled by their applicable patterns.
 
@@ -65,7 +65,9 @@ The first useful output is an `ArchitectureBearingFamilyCharacteristicStarterPac
 ```text
 ArchitectureBearingFamilyCharacteristicStarterPack@FPF:
   architectureBearingFamilyRef:
-  describedHolonOrCarrierContextRef?:
+  describedHolonRef?:
+  presentationCarrierRef?:
+  starterPackUse:
   recoveryPatternRefs?:
   typicalSelectedStructureRefs:
   starterCharacteristicHeads:
@@ -77,6 +79,8 @@ ArchitectureBearingFamilyCharacteristicStarterPack@FPF:
   nonUniversalCaution:
   criteriaRowPatternRef: C.32.ACS
 ```
+
+Use `describedHolonRef` when the starter heads concern an exact holon. Use `presentationCarrierRef` only when the carrier itself changes how the starter pack is presented or used; do not fill it as a substitute for the described holon.
 
 What goes wrong if C.32.HCS is missed: the team faces hundreds of `-ility` or quality names, copies a catalogue, or starts from a software-module list even when a source label such as method, role, culture, practice, built asset, or evidence workflow still hides what actually bears the characteristic.
 
@@ -167,7 +171,7 @@ Before ACS criteria-row use, ask one proxy-resistance question for each carried 
 
 **Engineered-system family.** A field-device project starts from reliability, maintainability, substitutability, evidence reuse, locality, and source-return cost. `C.32.ACS` later marks only maintainability, substitutability, and evidence reuse as optimization indicators; safety and availability remain guardrails.
 
-**Method-side family.** A source calls a reusable review method "the practice." HCS resolves the label to the described review organization-as-system or bounded review-work context, then keeps the method relation structure, method descriptions, work products, local kinds, separately obtaining assignments, and evidence records separate. The starter heads are repeatability of enactment, transferability, evidence reuse, and exception growth. If substitution is current, A.2.7 tests kinds; assignment continuity, holder replacement, staffing, or Work coverage receives its own predicate and bearer. Teachability belongs to C.25 because it combines learner scope, measures, mechanisms, and evidence.
+**Method-side family.** A source calls a reusable review method "the practice." HCS identifies the review organization-as-system as the described holon, then keeps exact review Work, any presentation carrier, the method relation structure, method descriptions, work products, local kinds, separately obtaining assignments, and evidence records separate. The starter heads are repeatability of enactment, transferability, evidence reuse, and exception growth. If substitution is current, A.2.7 tests kinds; assignment continuity, holder replacement, staffing, or Work coverage receives its own predicate and bearer. Teachability belongs to C.25 because it combines learner scope, measures, mechanisms, and evidence.
 
 **AI-agent workflow.** A retrieval-action setup starts from evidence refresh, policy controllability, latency, observability, and rollback. Benchmark performance stays a benchmark signal or comparison input until an architecture bearer and scale row are named.
 

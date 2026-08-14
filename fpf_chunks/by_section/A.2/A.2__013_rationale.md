@@ -6,7 +6,7 @@ section_id: "A.2:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__013_rationale.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:11 — Rationale"
@@ -45,12 +45,12 @@ System-role kinds solve a local classification problem. System-role assignments 
 
 The architecture therefore keeps these levels separate:
 
-1. the context-local system-role kind and its contribution identity;
+1. the local system-role kind, its practice or source boundary, and its contribution distinction;
 2. the `KindSignature` and one C.3.2 judgment over a system and slice;
 3. any directly declared `U.SystemRoleAssignment` occurrence;
 4. direct neighboring relations for state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, description, and publication.
 
 A system-role kind is not a holon merely because its description has internal fields. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure is the exact relation structure governed by A.2.7, not role mereology.
 
-Semantic locality needs no universal context participant. Bounded kind identity and declaration content carry the classification boundary. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
+Semantic locality needs no universal context participant. The explicit practice or source boundary together with the stable contribution distinction identifies the local kind; declaration content carries the classification criterion. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
 

@@ -6,26 +6,27 @@ section_id: "B.5.3:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:4 — Solution"
-line_start: 41151
-line_end: 41168
+line_start: 40871
+line_end: 40885
 dependencies:
   - "A.13"
   - "A.15"
   - "A.2"
-  - "A.2.1"
   - "A.6.5"
   - "A.7"
   - "B.3.3"
   - "C.2.1"
   - "C.3"
+  - "E.10.ROLE"
   - "E.17"
   - "E.24.UK"
+  - "F.0.1"
   - "F.1"
-  - "F.18"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -33,29 +34,26 @@ dependencies:
   - "F.8"
   - "F.9"
 keywords:
-  - "bounded context"
-  - "bridge scope"
-  - "concept bridge"
+  - "F.17 cell"
+  - "basis relation"
+  - "bounded use and loss"
+  - "direct relation"
   - "domain vocabulary"
-  - "local sense"
-  - "role assignment boundary"
+  - "source-local meaning"
 ---
 
 ### B.5.3:4 - **Solution**
 
-Use a **Domain-Concept Bridge**. Start with the local word in its `U.BoundedContext`, then recover the FPF value that the project is actually using.
+Use the **Domain-Concept Bridge** as a bounded reasoning move, not as a new domain container or mandatory record.
 
-1. Establish the bounded context and local sense: use `F.1` to identify the domain family and authoritative sources, `F.2` to harvest terms with provenance, and `F.3` to cluster the local sense or SenseCell with counter-examples.
-2. Ask what the local word is doing in the current claim: naming an entity, admitted U-kind, ontic slot filler, relation, characteristic coordinate, method, mechanism, work plan, performed work, role assignment, episteme, publication-use relation, evidence-use relation, or other governed value.
-3. If the claim needs durable kindhood, use admission under `E.24.UK` and `C.3` and supply the ontic and slot relation that make the kind reviewable.
-4. If the claim is only local vocabulary, keep it as a LocalSense or SenseCell and bridge it with scope and loss notes.
-5. Use role vocabulary for system or holon role assignments in bounded work-facing contexts. Express meaning, status, evidence use, publication use, and domain interpretation through their own FPF values and relations.
+1. Start from the exact expression, source, edition, and relevant passage. Use F.0.1 to recover the source-local claim. Create an F.17 cell and basis relation only when later durable reuse needs that address.
+2. Ask which exact FPF value or relation the current claim needs, then use the pattern that defines or constrains it. For example, the answer may concern a System, characteristic, Method, Work occurrence, episteme, system-role assignment, or evidence-use relation; the list is illustrative, not a set of new bridge kinds.
+3. If the use really needs a new kind, apply E.24.UK and C.3. A familiar expression, table row, or diagram label supplies no kindhood.
+4. If the recovered source-local claim already answers the question, return it and stop. If a receiving use must relate two distinct local-sense claims, use F.9 to test whether an exact Bridge between their F.17 cells actually obtains. Shared spelling, a mapping table, or a completed card proves no such relation.
+5. State the receiving use separately. Name the direction, scope or applicability boundary, tolerated loss, evidence or reliance basis, and reopen condition only when each changes that use. The semantic relation alone neither authorizes nor performs the use.
+6. When *role* wording is material, use E.10.ROLE and A.2 to distinguish a local system-role kind, classification, assignment, participation, responsibility, or ordinary language before making the direct claim.
 
-The bridge record is therefore not an alias. It is a small typed settlement saying which FPF value the claim uses, what local wording points to it, where the bridge is admissible, and when the stronger source or direct governing pattern must be reopened.
+The practical result can be one readable sentence. Use a note, row, or card only when a later reader or tool needs durable packaging. The package describes the result; it does not create the FPF value, local meaning, relation, or permitted use.
 
-Practical difference from an alias:
-
-* An alias says "`L` is another name for `V`."
-* A Domain-Concept Bridge says: in bounded context `K`, local wording `L` is being used for FPF value or relation `V` in the current claim; the bridge carries the constraints, units, role assignments, loss notes, and return conditions that make that use reviewable.
-* If a component is called "sensor", the bridge can point to a system, a functional element, a measurement capability, a signal publication, or a role assignment. The claim decides which value is being used; the word "sensor" alone does not.
+An alias says only that `L` is another name for `V`. A completed B.5.3 move instead says what the exact source means here, which FPF value the current claim uses, whether any direct relation actually obtains, and what the named receiving use may rely on. Thus a component called "sensor" may lead to a System claim, measurement-capability claim, publication claim, or system-role-assignment claim; the expression alone chooses none of them.
 

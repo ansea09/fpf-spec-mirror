@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.PAD.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
-line_start: 66894
-line_end: 67245
+line_start: 66672
+line_end: 67032
 dependencies:
   - "A.10"
   - "A.15"
@@ -116,8 +116,10 @@ ArchitectureDecisionRelation@Project:
   systemOfInterestAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of systemOfInterestAssignmentSpeciesRef, with actual participants, applicability, extent, and projectSystemOfInterestRef as holder recoverable
   decisionSubjectRef:
   describedHolonRef:
-  boundedContextRef:
   decisionQuestion:
+  intendedDecisionUse:
+  claimScopeRef: U.ClaimScope
+  decisionWindowRef:
   candidateBasisRefs:
   comparisonOrSelectionRefs?
   structuralInformationLensUseRefs?
@@ -175,6 +177,8 @@ ArchitectureDecisionRelation@Project:
   status:
 ```
 
+The filled `ArchitectureDecisionRelation@Project` is the decision result. Its selected option, affected structures, criteria and trade-offs, scope, window, consequences, and status make that result recoverable; a second generic result or context record would only duplicate it.
+
 The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this relation record points to the value governed by the slot-bearing relation.
 
 When an instruction cites actual implementation Work, `actualImplementationWorkRef` names the independently identified `U.Work` occurrence. All facts required by A.15.1, A.2.1, and F.6 remain recoverable; the decision record creates none of them.
@@ -209,7 +213,7 @@ Create `ArchitectureDecisionRelation@Project` before writing an ADR-like publica
 
 Work in this order:
 
-1. Name the composite project `U.Work` participant and the decision subject: described holon, bounded context, decision question, and status. If the decision designates a project system-of-interest, cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. A decision designation proves no compound project-selection truth; return `missing-substrate[project-selection-conjunction]` when that stronger truth is required.
+1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. A decision designation proves no compound project-selection truth; return `missing-substrate[project-selection-conjunction]` when that stronger truth is required.
 2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
 3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.
@@ -254,6 +258,10 @@ ArchitectureDecisionRelation@OrderFlow:
   projectWorkOccurrenceRef: ProductFamilyQ3OrderArchitectureWork, exact admitted composite U.Work
   decisionSubjectRef: order-integration architecture for product-family Q3
   describedHolonRef: product-family order-flow system
+  decisionQuestion: which candidate architecture should guide Q3 order-flow implementation?
+  intendedDecisionUse: direct the Q3 implementation work while preserving the stated refinement boundary
+  claimScopeRef: order-flow architecture for ProductFamilyQ3OrderArchitectureWork
+  decisionWindowRef: accepted for Q3 implementation; reopen on a listed trigger or superseding decision
   candidateBasisRefs: [C32CandidatePalette:order-flow-2026-06]
   selectedArchitectureOptionRefs: [event-carried integration with payment exception]
   selectedStructureEffects:
@@ -263,6 +271,7 @@ ArchitectureDecisionRelation@OrderFlow:
       relationFunctionClaimRef: C.30.ASV
   architectureCharacteristicTradeoffs:
     - architectureCharacteristicRef: substitutability
+      criteriaRowRef: C.32.ACS order-flow substitutability criterion
       expectedGain: service replacement without order-flow rewrite
       acceptedLoss: additional schema-version coordination
       guardrailRef: version-skew eval band
@@ -331,7 +340,7 @@ When a filled field changes, repair the smallest declaration or claim record tha
 
 | Requirement | Required result |
 |---|---|
-| `CC-PAD-1` | The exact composite project `U.Work` participant, decision subject, described holon, bounded context, and decision question are explicit. |
+| `CC-PAD-1` | The exact composite project `U.Work` participant, decision subject, described holon, decision question, intended decision use, ClaimScope, and decision window are explicit. |
 | `CC-PAD-2` | The decision cites candidate basis from `C.32` or a named receiving candidate pattern, or states why no candidate-set question is live. |
 | `CC-PAD-3` | The selected architecture option or bounded exception is named. |
 | `CC-PAD-4` | Affected selected structures are named with subject pattern refs. |

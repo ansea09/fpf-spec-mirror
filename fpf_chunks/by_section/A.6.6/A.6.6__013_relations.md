@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:12 — Relations"
-line_start: 20079
-line_end: 20110
+line_start: 19773
+line_end: 19804
 dependencies:
   - "A.10"
   - "A.14"
@@ -65,7 +65,7 @@ Decision-relevant witness sets should be represented through evidence-use relati
 Constructive grounding is one specific declared `baseRelation` reading: dependent is a model edge, base is a constructor trace; witnesses pin the trace and `U.Work` records.
 
 **Coordinates with C.2.1 grounding holons.**
-Situational/empirical grounding via `GroundingHolonSlot` is treated as a distinct declared `baseRelation` reading; it must not be collapsed with `tv:groundedBy` or with semantic meaning assignment.
+When a base declaration depends on situational or empirical grounding, name the exact episteme, covered claims, grounding holon, and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation`. Treat that relation as a distinct `baseRelation` reading; do not substitute its declaration-local `GroundingHolonSlot`, collapse it with `tv:groundedBy`, or use it as semantic meaning assignment.
 
 **Coordinates with A.6.3–A.6.4 viewing/retargeting.**
 Viewing and retargeting are specialised “relative-to-base” moves (preserve `EntityOfConcernRef` vs retarget it along a declared bridge). They should reuse SWBD vocabulary where an explicit base declaration is required (scope/time/witness), without collapsing into generic “anchoring” prose.
@@ -74,7 +74,7 @@ Viewing and retargeting are specialised “relative-to-base” moves (preserve `
 Base declarations inherit the rule that time-dependent assumptions require explicit `Γ_time`; “current/latest” is not admissible.
 
 **Feeds E.10 / F.18 lexical governance.**
-Umbrella metaphors are disallowed as substitutes for baseRelation tokens; prose must name explicit relation kinds and keep the meaning lane separate (SenseCell/ConceptSet).
+Umbrella metaphors are disallowed as substitutes for baseRelation tokens; prose must name explicit relation kinds and keep source-local meaning, its optional F.17 cell, and any obtaining basis relation separate.
 
 **Constrains support wording in A.6.P/E.10.**
 Support-looking phrases that mean base-dependence are governed here: select a declared `baseRelation`, name `dependent` and `base`, add scope/time/witnesses as live, and preserve polarity. Support-looking phrases that do not mean base-dependence use the ontology of the subject pattern for that claim rather than becoming `SupportRelation`, `SupportBasis`, or `SupportRecord` buckets.

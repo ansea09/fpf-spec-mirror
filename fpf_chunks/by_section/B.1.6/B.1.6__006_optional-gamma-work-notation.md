@@ -6,12 +6,12 @@ section_id: "B.1.6:3"
 section_title: "Optional Gamma_work Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__006_optional-gamma-work-notation.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:3 — Optional Gamma_work Notation"
-line_start: 37138
-line_end: 37148
+line_start: 36855
+line_end: 36865
 dependencies:
   - "A.1"
   - "A.10"
@@ -61,5 +61,5 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
   -> aggregationResultRef, aggregationResultEpistemeRef
 ```
 
-The notation applies only after the resource Characteristics, C.16 measurement work/result epistemes, dated Work set, exact A.15.1 Work-part/episode/overlap relations or directly governed non-Work `PhaseOf` relations, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. It does not create those objects or relations, order method steps, certify a method, or declare emergence.
+The notation applies only after the resource Characteristics, C.16 measurement Work and result epistemes, dated Work set, exact A.15.1 Work-part, episode, and overlap relations or non-Work carrier identity and `PhaseOf` relations, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. It does not create those objects or relations, order method steps, certify a method, or declare emergence.
 

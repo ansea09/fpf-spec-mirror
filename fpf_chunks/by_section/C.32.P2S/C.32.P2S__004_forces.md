@@ -6,12 +6,12 @@ section_id: "C.32.P2S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:3 — Forces"
-line_start: 65043
-line_end: 65055
+line_start: 64806
+line_end: 64818
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -51,7 +51,7 @@ keywords:
 
 | Force | Tension |
 |---|---|
-| Structure-first architecture | Architecture is selected structures of a described holon in a bounded context; the flow is not reducible to documents, labels, stages, or tools. |
+| Structure-first architecture | Architecture uses obtaining relations between an exact described holon and selected structures for a named architecture question and use; the flow is not reducible to documents, labels, stages, tools, or a generic context participant. |
 | Structural uncertainty | Architecturing often starts before structure kinds, bearers, interfaces, allocations, or variation points are known. |
 | Characteristic trade-off | Architecture characteristics compete; optimizing one can damage another or hide Goodhart pressure behind a metric. |
 | Candidate plurality | Useful architecture work keeps structurally different alternatives alive until comparison, selected-set, local choice, or architecture decision becomes the current question. |

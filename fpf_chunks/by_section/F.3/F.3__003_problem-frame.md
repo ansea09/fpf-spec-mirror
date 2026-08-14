@@ -1,44 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:2 — Problem Frame"
-line_start: 91423
-line_end: 91433
+line_start: 91107
+line_end: 91117
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
 ### F.3:2 - Problem Frame
 
-context‑local units (LNF + labels + gloss) from F.2 often **over‑ or under‑differentiate** meaning:
+Source-local lexical notes often over- or under-differentiate meaning:
 
-1. **Over‑split:** superficial variants (*service‑level‑objective* vs *SLO*) treated as different “things”.
-2. **Under‑split:** one gloss covering **two selectional frames** or incompatible use‑cases.
-3. **Drift within a canon:** multi‑chapter texts use the same head differently unless the reader **consolidates** the intended sense.
-4. **Didactic mismatch:** engineer‑friendly label and plain label drift apart when units remain too granular.
+1. **Over-split:** an abbreviation and its full form are treated as different meanings despite interchangeable source use.
+2. **Under-split:** one gloss covers incompatible argument patterns or conclusions.
+3. **Source drift:** different chapters, editions, or translations are blended without checking whether the interpretation basis changed.
+4. **Didactic drift:** the Tech and Plain labels begin to teach different things.
 
-F.3 repairs this **inside the Context** by clustering “same sense” and distinguishing “different sense”, with **parsimony**.
+F.3 repairs this by testing usage under the exact source basis rather than by counting strings.
 

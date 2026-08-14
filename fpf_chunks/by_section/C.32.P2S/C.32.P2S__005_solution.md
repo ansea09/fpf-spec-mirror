@@ -6,12 +6,12 @@ section_id: "C.32.P2S:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:4 — Solution"
-line_start: 65056
-line_end: 65153
+line_start: 64819
+line_end: 64916
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -56,7 +56,7 @@ Before selecting internal structure, state four things in ordinary language: the
 Use the analogy with `E.18.1` P2W narrowly. A P2W use carries an accepted problem-side record or exact accepted C.22.2 `ProblemCard` episteme plus the carried distinction into the next FPF use. A C.32.P2S use carries architecture-relevant pressure and structural uncertainty into candidate structures, selected structures, project architecture decision, realization work, and actual-structure feedback. The practitioner then uses the pattern for the next question. The analogy ends when that question is method, work, telemetry, publication, or improvement-loop use; use its pattern rather than stretching P2S into generic process management.
 
 1. Recover the problem pressure or architecture concern together with its outside-use basis. Name the expected environmental or relying-use change, beneficiary or user, project system-of-interest designation and boundary hypothesis, required functioning, pressure signals, source-use records, affected holon, and first pattern to use. If the pressure is still only a cue, use C.22.2 and cite the resulting `ProblemCard` episteme when it becomes the accepted input. If an actual Problem is claimed, cite an independently obtaining C.22.PFR `ProblematicForRelation`; the card and its fields create no such occurrence. If the outside-use or system basis is absent, recover it under the applicable recognition or problem pattern before continuing with P2S.
-2. Recover the described holon and bounded context only after the outside-use and boundary hypotheses are visible. Then recover candidate or selected structure kinds, selected structures when available, and architecture characteristics. Use C.30 for the grounded architecture claim, C.32.HCS for starter characteristic heads, C.32.ACS for project criteria rows, and C.25 when a composite quality family is current.
+2. Recover the described holon after the outside-use and boundary hypotheses are visible. State the architecture question and intended use, plus ClaimScope or qualification window when either changes the answer. Then recover candidate or selected structure kinds, selected structures when available, and architecture characteristics. Use C.30 for the grounded architecture claim, C.32.HCS for starter characteristic heads, C.32.ACS for project criteria rows, and C.25 when a composite quality family is current.
 3. Represent future-structure uncertainty. State unknown structure kinds, unknown internal composition, candidate bearers, interfaces, allocations, variation points, constraints, expected structures, and the condition that returns the work to stronger inspection of the selected or expected structure. Record what is captured, handed off, latent, hidden, or lost.
 4. Generate architecture ideas, principles, constraints, and candidate structure changes. Use an admitted problem-side record, source-pack cue, architecture pressure note, or candidate-generation input only after the affected selected structure, architecture characteristic, expected gain, accepted loss, and pattern for the receiving claim are recoverable.
 5. Synthesize candidate architecture configurations and candidate sets through `C.32`. Keep function-bearing feasibility, constructive modules, placement, control, transformation-flow, ordinary work organization or actual Work, information, evidence, scale, and other selected structures visible when they change the candidate. Route every unresolved claim-bearing *role* cue through `E.10.ROLE`; carry the recovered local system-role kind, separate System-classification judgment, assignment, direct-relation position, function claim, organization or representation position, or ordinary wording rather than a generic role structure.

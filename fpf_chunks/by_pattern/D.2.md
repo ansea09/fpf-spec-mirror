@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.2.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
-line_start: 68987
-line_end: 69139
+line_start: 68783
+line_end: 68938
 dependencies:
   - "A.1"
   - "A.15"
@@ -45,7 +45,7 @@ keywords:
 
 Ethical trouble in system-holon work often appears because the current action is good for one level and bad for another. A person may benefit while a team is damaged. A project may benefit while a community pays the cost. A standard may improve coordination while excluding a minority case. A model may improve one metric while moving harm to a less visible scope.
 
-Do not force these cases into a fixed ladder such as local, group, ecosystem, planetary. The relevant levels and scopes must be declared from the situation: person, team, organization, community, society, polity, economy, built asset, project, environment, episteme family, standard, publication, AI-enabled system, or another admitted holon or context.
+Do not force these cases into a fixed ladder such as local, group, ecosystem, planetary. Declare the levels and scopes present in the situation—for example, a person, team, organization, community, polity, economy, built asset, project, environment, episteme family, standard, publication, AI-enabled system, or another admitted holon or declared scope.
 
 ### D.2:1.0 - Problem
 
@@ -69,7 +69,9 @@ Open a `MultilevelEthicsEntry@Context`:
 MultilevelEthicsEntry@Context:
   ethicalConcernRef
   affectedEntityOfConcernRef
-  boundedContextRef
+  valueFrameEditionRefs
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   declaredLevelOrScopeRefs
   affectedHolonRefs
   affectedEpistemeRefs?
@@ -92,7 +94,8 @@ MultilevelEthicsEntry@Context:
   authorityMissingGovernorRefs?: exact A.6.RCD results
   interestOrConcernRefs
   capabilityOrFunctioningConcernRefs?
-  methodOrWorkRefs?
+  methodRefs?
+  workRefs?
   transformationRefs?
   expectedConsequenceRefs
   evidenceRefs
@@ -122,14 +125,14 @@ For this pattern, holon work includes material systems and epistemes when they a
 
 ### D.2:5 - Archetypal Grounding (Worked Slice)
 
-A product team wants to reduce service cost by making a medical device harder to service outside authorized centers. The move may improve manufacturer quality control and reduce liability risk, but harm patients in regions where authorized service is unavailable. `D.2` opens the entry: manufacturer, patients, service organizations, device fleet, and regulatory context are declared as affected scopes; value concerns include safety, access, responsibility, and maintainability; the work plan and expected consequences are named. `D.3` then maps the conflict; `D.4` governs mediation or decision use.
+A product team wants to reduce service cost by making a medical device harder to service outside authorized centers. The move may improve manufacturer quality control and reduce liability risk, but harm patients in regions where authorized service is unavailable. `D.2` opens the entry: manufacturer, patients, service organizations, and device fleet are named as affected holons; the applicable regulatory and project value-frame editions delimit the claim; the regional and service scopes are explicit; value concerns include safety, access, responsibility, and maintainability; and the work plan and expected consequences are named. `D.3` then maps the conflict; `D.4` handles mediation or decision use.
 
 ### D.2:5.1 - Bias-Annotation
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Local optimum becomes ethical sufficiency | A benefit at one level is treated as enough while another scope carries harm. | Declare affected levels, scopes, holons, value concerns, and next subject pattern. |
-| Fixed ladder bias | A generic hierarchy such as individual, team, and society replaces the levels present in the case. | Derive levels and scopes from the bounded context and affected EntityOfConcern. |
+| Fixed ladder bias | A generic hierarchy such as individual, team, and society replaces the levels present in the case. | Derive levels and scopes from the affected EntityOfConcern, named holons and Work, value frames, and responsibility relations that are current. |
 | System-only bias | Multilevel ethics is limited to material systems and misses epistemes, standards, publications, or descriptions. | Treat affected systems and epistemes as admitted holons when the case makes them current. |
 | Architecture absorbs ethics | A cross-scope residual is treated only as architecture because it has a structural shape. | Use `C.30.ILC` for architecture residual and `D.3` and `D.4` when value, harm, responsibility, or admissible sacrifice is live. |
 
@@ -167,7 +170,7 @@ The pattern deliberately avoids a fixed ladder. It asks for declared levels and 
 | --- | --- |
 | Multilevel selection and holonic systems thinking | Ethical effects often appear across nested, overlapping, or situation-defined scopes; the case must declare the levels or scopes it uses instead of importing a fixed moral ladder. |
 | Applied ethics and responsibility practice | Responsibility and harm cannot be assigned only at the most local level when a method, work plan, policy, standard, architecture move, or recommendation moves consequences across scopes. |
-| FPF holon and episteme ontology | Affected systems, collections, work occurrences, bounded contexts, disciplines, and epistemes may be current, but descriptions and publication use must not be collapsed into the affected in-life object. |
+| FPF holon and episteme ontology | Affected systems, collections, work occurrences, disciplines, and epistemes may be current; value-frame editions, ClaimScope, and qualification windows delimit the ethical claim, while descriptions and publication use remain separate from the affected in-life object. |
 | Architecture residual discipline | A cross-scope residual can require architecture repair, ethical conflict structure, or both; D.2 names the next pattern to apply instead of treating architecture shape as ethical proof or ethics as architecture by default. |
 
 ### D.2:11 - Relations

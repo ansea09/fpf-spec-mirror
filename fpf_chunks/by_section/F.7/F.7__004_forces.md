@@ -1,22 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept‑Set Table"
+pattern_title: "Concept-Set Table"
 section_id: "F.7:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.7 — Concept‑Set Table"
+  - "F.7 — Concept-Set Table"
   - "F.7:3 — Forces"
-line_start: 92717
-line_end: 92725
+line_start: 92333
+line_end: 92341
 dependencies:
   - "A.6.9"
+  - "B.3"
+  - "C.16"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -24,22 +27,23 @@ dependencies:
   - "F.6"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "columns"
-  - "comparisons"
-  - "concept-set"
-  - "differences"
-  - "row"
-  - "table"
+  - "comparison surface"
+  - "direction"
+  - "evidence"
+  - "exact local claim"
+  - "loss"
+  - "obtaining relation"
+  - "optional SchemeSenseCell"
+  - "receiving use"
 ---
 
 ### F.7:3 - Forces
 
-| Force                          | Tension to resolve                                                                                            |
-| ------------------------------ | ------------------------------------------------------------------------------------------------------------- |
-| **Locality vs comparison**     | Meaning lives in Contexts; yet we must **compare** Contexts to reason across disciplines.                           |
-| **Didactics vs fidelity**      | A compact row is easy to grasp; it must still show **scope and loss** honestly.                               |
-| **Simplicity vs completeness** | A minimal grid aids memory; temptation to overload it with proofs and procedures must be resisted.            |
-| **Sameness vs difference**     | Some families **cannot** be unified; the table must support **contrast rows** without pretending equivalence. |
+| Force | Tension to resolve |
+| --- | --- |
+| **Locality vs comparison** | Each meaning remains source-local, yet the reader must compare them. |
+| **Didactics vs fidelity** | A compact row must not hide direction, loss, evidence, or a missing relation. |
+| **Simplicity vs completeness** | The page should be memorable without pretending that the table contains the full proof. |
+| **Similarity vs relation** | Entries may look alike while no identity, hierarchy, or substitution relation obtains. |
 

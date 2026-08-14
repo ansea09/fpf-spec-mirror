@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.4.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
-line_start: 91726
-line_end: 92049
+line_start: 91338
+line_end: 91665
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -58,16 +58,16 @@ Use F.4 when a project needs a short, reusable description that makes one exact 
 
 Typical moments:
 
-- a project has a durable kind name such as `ReviewerSystemRole`, `OperatorSystemRole`, `InspectorSystemRole`, `TransformerSystemRole`, or `ShipyardCoordinatorSystemRole`, but readers cannot recover its bounded context, contribution identity, `KindSignature`, or work-facing boundary;
+- a project has a durable kind name such as `ReviewerSystemRole`, `OperatorSystemRole`, `InspectorSystemRole`, `TransformerSystemRole`, or `ShipyardCoordinatorSystemRole`, but readers cannot recover the named practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, `KindSignature`, or work-facing boundary;
 - a MethodDescription names a required system-role kind, but readers cannot tell which exact local kind must classify a candidate before an assignment can be checked;
 - a kind name is starting to carry assignment, capability, Method, Work, permission, responsibility, evidence, publication, or status claims that belong elsewhere; or
 - source prose says that a report, standard, dataset, theorem, dashboard, publication, or requirement has a “role”, and the writer must recover whether that wording denotes a system-role kind at all.
 
-**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph names the kind's bounded context, continuing contribution identity, current `KindSignature` edition, effective `U.ReferenceScheme`, and only the neighboring relations needed by the described use. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
+**Primary EntityOfConcern.** A `SystemRoleKindDescription` is one `U.Episteme` constituted under C.2.1. Its exact EntityOfConcern is one local system-role kind. Its ClaimGraph names the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature` edition, effective `U.ReferenceScheme`, and only the neighboring relations needed by the described use. The description is not the kind, a classification judgment, assignment occurrence, holder system, capability, MethodDescription, performed Work, status-use relation, or publication form.
 
 **Primary working reader.** The first reader is an engineer-manager, analyst, Method author, or pattern author who must help people recognize the kind while keeping kind, candidate classification, assignment, capability, Method, Work, evidence use, status use, and publication use distinct.
 
-**First useful move.** Name the exact local system-role kind, its bounded context and contribution identity, the current `KindSignature` edition, and the shortest recognition explanation needed by the next classification, assignment, Method, Work, naming, or Bridge claim.
+**First useful move.** Name the exact local system-role kind, the practice or source boundary in which it is constituted, its stable work-facing contribution distinction, the current `KindSignature` edition, and the shortest recognition explanation needed by the next classification, assignment, Method, Work, naming, or cross-local claim.
 
 **What goes wrong if missed.** A description card becomes a hidden procedure, staffing record, access policy, permission badge, responsibility claim, evidence relation, status assertion, or Work log. Then one word recreates a universal role ontology and a second role-like ontology for epistemes, publications, statuses, and relation positions.
 
@@ -83,12 +83,12 @@ Typical moments:
 - If it is about a Method, MethodDescription, WorkPlan, or performed Work, use A.3 or A.15 and the direct neighboring pattern.
 - If an episteme is used as evidence, source, standard, requirement, publication, assurance input, status bearer, gate input, or decision input, use the direct relation. Do not classify the episteme as a system-role holder by wording.
 - If only a durable name is needed, use F.18.
-- If two local system-role-kind meanings must be compared across contexts or schemes, use C.3.3 and F.9.
+- If the current question relates two exact local system-role kinds, use C.3.3. If it relates two exact source-local senses, address them as F.17 `SchemeSenseCell` values and use F.9. Scheme difference or shared spelling alone triggers neither relation.
 - If bare *role* may mean a relation participant, declaration slot, representation position, ordinary wording, or another object, use E.10.ROLE and A.6.RSIR where relation recovery is needed.
 
 ### F.4:1 - Problem Frame
 
-A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare local kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need the bounded contribution identity, current `KindSignature`, effective scheme, first recognition cues, and boundary to neighboring claims.
+A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare local kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, effective scheme, first recognition cues, and boundary to neighboring claims.
 
 The recurring failure is to make the description carry too much. A compact card is tempting: put kind, status, permission, responsibility, evidence, capability, Method, assignment, Work, and publication cues into one “assignable” template. That convenience creates duplicate ontology. A standard used as a requirement source becomes a “standard role”; a report used as evidence becomes an “evidence role”; an access-control label becomes a system-role kind; a kind name becomes proof of capability or performed Work.
 
@@ -106,28 +106,28 @@ Without this pattern:
 6. **Description and performed Work collapse.** A card is treated as evidence that Work happened.
 7. **Status and episteme uses become system roles.** Publications, standards, datasets, claims, and statuses acquire fake system-role classifications because they matter to reasoning.
 8. **Relation positions become system roles.** Participant meanings, declaration slots, interface places, and representation positions are mistaken for system-role kinds.
-9. **Cross-context labels overreach.** Shared spelling is treated as one kind although two contexts have two exact local kinds and no admitted correspondence.
+9. **Same-spelled local kinds collapse.** Shared spelling is treated as one kind although two named practices or sources constitute two exact local kinds and no C.3.3 relation between them has been established.
 
 ### F.4:3 - Forces
 
 | Force | Tension |
 | --- | --- |
 | Recognition versus ontology | A description must be easy to read but cannot replace the kind, classification judgment, assignment, capability, Method, or Work occurrence. |
-| Local identity versus reuse | A system-role kind has one bounded contribution identity and criterion, while a later use may need an explicit Bridge to another local kind or sense. |
+| Local identity versus reuse | A system-role kind is distinguished by its explicit practice or source boundary and stable work-facing contribution, while a later use may need a C.3.3 relation between exact local kinds or an F.9 relation between exact F.17 local-sense cells. |
 | Compactness versus completeness | A useful description is small, but a stronger receiving claim may need state, capability, Method, assignment, evidence, or status checks. |
 | Open-world use versus form burden | Some uses need only a recognition paragraph; stronger uses need explicit neighboring references without pretending every possible relation is current. |
 | Work-facing classification versus episteme use | An admitted system may satisfy a system-role kind and participate in an assignment. An episteme is instead used through evidence, source, publication, requirement, explanation, assurance, or status relations. |
 
 ### F.4:4 - Solution
 
-Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. The ClaimGraph names the bounded context, continuing contribution identity, current `KindSignature` edition, and effective `U.ReferenceScheme`. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
+Constitute one `SystemRoleKindDescription` through C.2.1. Its ClaimGraph describes one exact local system-role kind, and that kind is its EntityOfConcern. The ClaimGraph names the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature` edition, and effective `U.ReferenceScheme`. The description gives readers enough to recognize and check the kind while routing neighboring claims to their direct rules.
 
 The following is a content checklist, not a relation signature or mandatory record.
 
 **Always make recoverable:**
 
 - the described local system-role kind;
-- its bounded context and continuing contribution identity;
+- the practice or source boundary in which it is constituted and its stable work-facing contribution distinction;
 - the current `KindSignature` edition and effective reference scheme;
 - a short recognition explanation;
 - the full A.1 range of possible candidate systems, using examples only when helpful;
@@ -150,15 +150,15 @@ These are claims or references in an episteme. They are not `SlotSpec` declarati
 | Content element | Meaning |
 | --- | --- |
 | Described system-role kind | The exact local `U.Kind` that is the episteme's EntityOfConcern. |
-| Bounded identity | The context and continuing contribution identity that distinguish this kind from same-spelled kinds elsewhere. |
+| Local identity basis | The named practice or source boundary and stable work-facing contribution distinction that distinguish this kind from same-spelled local kinds. |
 | Kind criterion | The exact current `KindSignature` edition used to judge candidates directly. |
 | Effective scheme | The by-value interpretation scheme used for the description's vocabulary; it is not a kind-identity authority. |
 | Recognition explanation | A first-minute explanation that distinguishes this kind from neighboring kinds and objects. |
 | Candidate-system range | Candidates must first be admitted as `U.System`; people, teams, organizations, and non-human technical objects are possible examples, not four subkinds declared here. |
-| Conditional neighboring references | Direct exits for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
+| Conditional neighboring references | Add neighboring references for assignment state, capability, Method, naming, and Bridges only when the receiving use depends on them. |
 | Non-inference boundary | Explicit separation from classification, assignment, Work, evidence, status, permission, responsibility, publication, and relation-position claims. |
 
-A quick local description may stop after the always-recoverable content. A consequence-bearing Work-admission use opens only the neighboring relations it actually needs.
+A quick local description may stop after the always-recoverable content. A consequence-bearing Work-admission use requires only the neighboring relations it actually needs.
 
 #### F.4:4.2 - Description versus Neighboring Values
 
@@ -171,28 +171,31 @@ A quick local description may stop after the always-recoverable content. A conse
 | Which Method, MethodDescription, WorkPlan, or Work occurrence is current? | A.3, A.15, A.15.1, and A.15.2 |
 | Which substitution, incompatibility, qualification, bundle, or other relation among kinds obtains? | A.2.7 |
 | What durable name should the kind or description have? | F.18 and F.5 |
-| How do two local kinds or senses compare across contexts? | C.3.3 and F.9 |
+| How are two exact local kinds related? | C.3.3, only when its predicate obtains |
+| How are two exact source-local senses related? | F.9 between exact F.17 `SchemeSenseCell` values, only when its predicate obtains |
 | How is an episteme used in evidence, source, requirement, status, publication, or assurance claims? | The exact direct relation |
 | Which relation position admits which filler kind? | A.6.5 and A.6.RSIR |
 
 F.4 points to these loci; it does not copy their ontology.
 
+Keep the description episteme, the exact local system-role kind it describes, the `KindSignature` that states the membership criterion, the effective scheme used to read the description, and any classification judgment about a candidate separate. Add an F.17 `SchemeSenseCell` only when a later use needs a stable local-sense address; cite a `LocalSenseBasisRelation` only when that relation actually obtains. An ordinary F.4 description requires neither.
+
 #### F.4:4.3 - Positive Construction Rule
 
 Write a description in this order:
 
-1. Name the described local system-role kind, bounded context, and continuing contribution identity.
+1. Name the described local system-role kind, the practice or source boundary in which it is constituted, and its stable work-facing contribution distinction.
 2. Name the current `KindSignature` edition and effective reference scheme.
 3. Give one short recognition paragraph, including the broad A.1 system range when a cold reader could narrow it incorrectly.
 4. State the smallest direct criteria or invariants that distinguish the kind.
 5. State what the description does not assert about classification, assignment, capability, Method, Work, evidence, status, permission, responsibility, publication, or relation positions.
 6. Add neighboring references only when the receiving use depends on them.
-7. Use F.18 for a durable public name. Use C.3.3 and F.9 only when an actual cross-context correspondence question is current.
+7. Use F.18 for a durable public name. Use C.3.3 only when an actual relation between exact local kinds is current; use F.9 only when the receiving claim relates distinct F.17 local-sense cells.
 
 ### F.4:5 - Invariants
 
 1. **One described kind.** A `SystemRoleKindDescription` describes exactly one local system-role kind.
-2. **Direct kind identity.** Bounded context, contribution identity, and current criterion remain recoverable; taxonomy rows and schemes are evidence or interpretation aids, not identity authorities.
+2. **Direct kind identity.** The practice or source boundary and stable work-facing contribution distinction remain recoverable; taxonomy rows and schemes are evidence or interpretation aids, not identity authorities.
 3. **Description boundary.** The description is a `U.Episteme`; it is not the kind, candidate, classification judgment, assignment, holder system, capability, Method, Work, or status-use relation.
 4. **System range.** A candidate must independently pass A.1 as `U.System`. No description or kind name performs that admission, and `SystemRole` does not narrow the candidate to non-human technical systems.
 5. **No hidden assignment.** Classification under a local kind neither creates nor proves a `U.SystemRoleAssignment` occurrence.
@@ -239,7 +242,7 @@ Source says “episteme X has role Y”
 
 #### F.4:7.1 - Pump Inspector System Role
 
-`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is `PumpInspectorSystemRole@PlantAMaintenance`. Its contribution identity is supplying the pump-condition inspection judgment used before a Plant A maintenance decision. The description names `PlantA-PumpInspector-KindSignature-v4` and `Plant-A-Maintenance-Scheme`. Under that signature, a candidate counts only when it is already admitted as a `U.System` and two Plant A domain claims obtain: the reading predicate says that this System obtains readings for the named pump and declared condition characteristics in the applicable inspection situation; the judgment predicate says that this System returns the named pre-maintenance judgment from those readings. Each predicate declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. Use `A.6.F` only if source wording first hides those claims behind *function*; it establishes neither predicate. If either predicate or its case facts cannot be recovered, return the exact A.6.RCD `missing-governor` or missing-information result instead of classifying the candidate. A maintenance technician, inspection robot, or service team is only an example until those same conditions are checked.
+`PumpInspectorSystemRoleKindDescription` is a C.2.1 episteme whose EntityOfConcern is `PumpInspectorSystemRole@PlantAMaintenance`. Its contribution identity is supplying the pump-condition inspection judgment used before a Plant A maintenance decision. The description names `PlantA-PumpInspector-KindSignature-v4` and `Plant-A-Maintenance-Scheme`. Under that signature, a candidate counts only when it is already admitted as a `U.System` and two Plant A domain claims obtain: the reading predicate says that this System obtains readings for the named pump and declared condition characteristics in the applicable inspection situation; the judgment predicate says that this System returns the named pre-maintenance judgment from those readings. Each predicate declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. Use `A.6.F` only if source wording first hides those claims behind *function*; it establishes neither predicate. If either predicate or its case facts cannot be recovered, record the exact A.6.RCD `missing-governor` or missing-information result instead of classifying the candidate. A maintenance technician, inspection robot, or service team is only an example until those same conditions are checked.
 
 The description says the kind concerns pump-condition inspection and does not itself denote repair. It may cite pump-inspection capability conditions or an inspection Method when a receiving Work claim needs them. Its boundary says that an inspection report is an episteme used through evaluation, evidence, source, or publication relations, not a system-role holder.
 
@@ -247,7 +250,7 @@ The description makes `PumpInspectorSystemRole` recognizable. It does not say th
 
 #### F.4:7.2 - Reviewer System Role and Review Report
 
-`ReviewerSystemRoleKindDescription` may describe `ReviewerSystemRole@PatternReview-2026`, the local kind identified by the contribution of supplying a reasoned pattern-review judgment against the declared scales. Under `PatternReview-2026-Reviewer-KindSignature-v2`, a candidate counts only when it is already admitted as a `U.System` and two review-domain claims obtain: the comparison predicate says that this System compares the named pattern claims with each selected scale in the applicable review situation; the result predicate says that it returns the named reasoned judgment with the assessed values or defects. Each declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. `A.6.F` is used only to unpack still-ambiguous function wording and establishes neither claim. A missing predicate returns A.6.RCD `missing-governor`; missing case facts return the corresponding unresolved result. This condition can be checked without asserting that any review appointment or dated review Work already exists.
+`ReviewerSystemRoleKindDescription` may describe `ReviewerSystemRole@PatternReview-2026`, the local kind identified by the contribution of supplying a reasoned pattern-review judgment against the declared scales. Under `PatternReview-2026-Reviewer-KindSignature-v2`, a candidate counts only when it is already admitted as a `U.System` and two review-domain claims obtain: the comparison predicate says that this System compares the named pattern claims with each selected scale in the applicable review situation; the result predicate says that it returns the named reasoned judgment with the assessed values or defects. Each declaration supplies participant meanings and applicability, and the current case supplies the satisfying facts. `A.6.F` is used only to unpack still-ambiguous function wording and establishes neither claim. If a predicate is missing, record the A.6.RCD `missing-governor`; if case facts are missing, record the corresponding unresolved result. This condition can be checked without asserting that any review appointment or dated review Work already exists.
 
 Alice's classification under that kind, any review appointment she holds, any dated review Work she performs, and any report used as evidence remain four separate claims. This compact description names none of their occurrence identities.
 
@@ -282,7 +285,7 @@ RBAC *role* often names a permission grouping. If the current claim concerns per
 | Episteme as system-role holder | A report, standard, dataset, theorem, dashboard, or publication is said to hold a role. | Recover the exact evidence, source, standard, requirement, publication, status, or assurance relation. |
 | Status-template fusion | A status, permission, or evidence standing becomes another kind-description branch. | Use the direct status, policy, permission, or evidence relation. |
 | Relation position as system role | “The subject role in this relation …” | Recover participant meaning, `SlotKind`, `ValueKind`, and `RefKind` under A.6.RSIR and A.6.5. |
-| Bridge by label | Shared spelling in two contexts is treated as one local kind. | Keep two kinds; use C.3.3 and F.9 only when the exact correspondence predicates obtain. |
+| Bridge by label | Shared spelling in two practices or sources is treated as one local kind. | Keep two kinds. Use C.3.3 only when an actual relation between those exact kinds obtains. If a separate wording or local-sense relation is current, address the exact F.17 cells and use F.9; shared spelling triggers neither relation. |
 
 ### F.4:9 - Consequences
 
@@ -297,14 +300,14 @@ RBAC *role* often names a permission grouping. If the current claim concerns per
 
 - Former “role-or-status template” material must move to F.10, A.2.4, B.3, A.10, E.17, G.6, or another direct relation.
 - A stronger claim may require several neighboring patterns instead of one overloaded card.
-- Public, Core-facing, or cross-context durable names require F.18.
+- Public, Core-facing, or durable cross-local names require F.18.
 
 ### F.4:10 - SoTA-Echoing and Source Use
 
 | Practice line | What FPF takes | Practical implication |
 | --- | --- | --- |
-| Foundational-ontology work distinguishes a context-dependent classification, its bearer, dependence, capability, function, and participation. | F.4 keeps one local kind and its description separate from the candidate system, classification judgment, assignment, capability, Method, and Work. | A readable description creates none of its neighboring world-side facts. |
-| Terminology and interoperability practice distinguishes a referent, its description, designation, scheme, and explicit cross-context correspondence. | Use F.4 to name the local kind and its scheme-relative description, and C.3.3 and F.9 for actual correspondence. | Same spelling does not identify the same kind across contexts. |
+| Foundational-ontology work distinguishes a locally constituted classification, its bearer, dependence, capability, function, and participation. | F.4 keeps one local kind and its description separate from the candidate system, classification judgment, assignment, capability, Method, and Work. | A readable description creates none of its neighboring world-side facts. |
+| Terminology and interoperability practice distinguishes a referent, its description, designation, scheme, and any explicit relation to another local referent. | Use F.4 to name the local kind and its scheme-relative description, C.3.3 for an actual relation between exact local kinds, and F.9 only for an actual relation between distinct local-sense cells. | Same spelling does not identify the same kind across local practices or sources. |
 | FPF episteme and publication ontology separates the described entity, description episteme, publication form, and carrier. | A `SystemRoleKindDescription` is an episteme about one exact local kind; a card or table may express it. | Editing or publishing the form does not change the kind or create an assignment. |
 | FPF relation-declaration discipline distinguishes participant meaning, actual participants, declaration slots, and representations. | Bare *role* in those uses is recovered through E.10.ROLE and A.6.RSIR. | A relation position does not become a system-role kind. |
 
@@ -330,7 +333,8 @@ Currentness and reopen condition: reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7,
 | Check | Question |
 | --- | --- |
 | `CC-F4-01` | Is the exact C.2.1 EntityOfConcern one local system-role kind? |
-| `CC-F4-02` | Are its bounded context, continuing contribution identity, current `KindSignature`, and effective scheme recoverable? |
+| `CC-F4-02` | Are the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, and effective scheme recoverable? |
+| `CC-F4-02a` | Are the description episteme, local kind, `KindSignature`, effective scheme, optional F.17 cell and basis relation, and candidate-classification judgment kept separate, with optional values added only when the receiving use needs them? |
 | `CC-F4-03` | Is the description separate from the kind, classification judgment, NameCard, public row, publication form, and carrier? |
 | `CC-F4-04` | Does first entry preserve the full A.1 range of possible systems rather than imply only non-human technical systems? |
 | `CC-F4-05` | Are classification and assignment handled separately under C.3.2 and A.2.1? |
@@ -338,7 +342,7 @@ Currentness and reopen condition: reopen F.4 when A.2, C.3, A.2.1, A.2.5, A.2.7,
 | `CC-F4-07` | Are Method, plan, and Work claims handled under A.3, A.15, and their direct neighbors? |
 | `CC-F4-08` | Are evidence, source, standard, requirement, publication, assurance, status, permission, and responsibility claims sent to exact direct relations? |
 | `CC-F4-09` | Are bare-*role* participant, declaration, interface, and representation uses recovered through E.10.ROLE and A.6.RSIR? |
-| `CC-F4-10` | Are durable or cross-context names handled through F.18, C.3.3, and F.9 when current? |
+| `CC-F4-10` | Are durable public names handled through F.18 and actual cross-local relations handled through C.3.3 or F.9 according to their endpoints? |
 | `CC-F4-11` | Are missing neighboring values left `unknown`, unresolved, not asserted, or not current rather than forced into the card? |
 
 ### F.4:13 - Phrasebook

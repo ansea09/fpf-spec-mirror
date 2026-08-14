@@ -6,12 +6,12 @@ section_id: "A.6.6:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:2 — Problem"
-line_start: 19615
-line_end: 19651
+line_start: 19309
+line_end: 19345
 dependencies:
   - "A.10"
   - "A.14"
@@ -73,13 +73,13 @@ Typical failure modes this pattern is designed to eliminate:
    “Grounding” is used as if it were one relation, while FPF already distinguishes at least:
    * constructive grounding of a model-edge by a trace (`tv:groundedBy`),
    * situational/empirical grounding of an episteme via a grounding holon (C.2.1),
-   * semantic meaning assignment (SenseCell/ConceptSet lane; not a base declaration).
+   * source-local meaning recovery and, when needed, an F.17 `SchemeSenseCell` and `LocalSenseBasisRelation` (not a base declaration).
 
 8. **Slot/basing conflation.**
    A.6.5 disambiguates positions in n-ary relations (SlotKind) vs fillers (ValueKind) vs stored references (RefKind). Umbrella basing language reintroduces confusion at the next layer: “why this link exists” (BaseRelation) is missing, and slot-edit operations are conflated with base-declaration edits.
 
-9. **Anchor relapse (Context/meaning surrogate).**
-   “Anchor/anchoring” is used to mean “the context”, “the meaning”, “the global reference”, or “the thing that makes this true”. This collapses D.CTX + SenseCell/ConceptSet lanes into a metaphor and makes review/tooling impossible.
+9. **Anchor relapse (source or meaning surrogate).**
+   “Anchor/anchoring” is used to mean “the source”, “the meaning”, “the global reference”, or “the thing that makes this true”. This hides the exact source, scheme, expression, local claim, and any obtaining basis relation behind a metaphor and makes review impossible.
 
 10. **Support bucket relapse.**
     “Support”, “support basis”, “support relation”, or “support record” is used as a generic container for unlike relations. Some cases are SWBD basedness; others are evidence polarity, assurance input, causal-use support basis, mathematical-lens use, work enablement, source-description, publication companion, or ordinary help. Treating all of them as one undifferentiated support relation recreates the same under-described dependence that A.6.6 exists to repair.

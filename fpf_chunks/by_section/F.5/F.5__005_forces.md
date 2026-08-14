@@ -6,12 +6,12 @@ section_id: "F.5:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:3 — Forces"
-line_start: 92122
-line_end: 92132
+line_start: 91738
+line_end: 91748
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,10 +55,10 @@ keywords:
 
 | Force | Tension |
 | --- | --- |
-| Local idiom versus cross-context neutrality | A local system-role-kind name must fit its context; a U-kind name must not privilege one witness. |
+| Local fit versus cross-local neutrality | A local system-role-kind name must fit the named practice or source use; a public U-kind name must not privilege one witness. |
 | Brevity versus object recovery | A usable name must still let a reader distinguish kind, description, classification, assignment, status, Method, Work, relation, and episteme use. |
 | Teaching versus widening | A Plain designation should help readers without broadening the Tech designation. |
 | Stability versus changed meaning | Names should survive harmless edition or publication changes, but real sense changes need a split, rename, or lineage record. |
 | Morphology versus ontology | Word form guides expectations but establishes no kind. `SystemRole` does not create a universal kind or assignment. |
-| Open-world use versus name burden | A lightweight local label may be enough; public or cross-context reuse can require F.18, F.17, C.3.3, or F.9. |
+| Open-world use versus name burden | A lightweight local label may be enough; durable public reuse can require F.18 or F.17, and an actual cross-local relation can require C.3.3 or F.9. |
 

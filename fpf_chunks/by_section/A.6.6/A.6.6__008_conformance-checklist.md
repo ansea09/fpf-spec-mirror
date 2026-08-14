@@ -6,12 +6,12 @@ section_id: "A.6.6:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:7 — Conformance Checklist"
-line_start: 19950
-line_end: 20004
+line_start: 19644
+line_end: 19698
 dependencies:
   - "A.10"
   - "A.14"
@@ -70,10 +70,10 @@ A carrier (pattern, spec, schema, code carrier, or publication) conforms to A.6.
    Changing `baseRelation` SHALL be treated as a semantic change: it SHALL be represented as a new declaration plus explicit continuity, not as an edit-in-place.
 
 7. **CC‑BD‑7 — Grounding is disambiguated.**
-   Any use of “grounding/grounded” SHALL be disambiguated to a specific declared relation kind or moved to the meaning lane (SenseCell/ConceptSet).
+   Any use of “grounding/grounded” SHALL be disambiguated to a specific declared relation kind or moved to source-local meaning recovery under F.0.1 and, when needed, F.17.
 
-8. **CC‑BD‑8 — Cross-context use is explicit.**
-   If dependent and base reside in different Contexts (or scope translation is required), the declaration’s reuse SHALL cite Bridge ids plus CL policy (no silent reuse across Contexts/planes).
+8. **CC‑BD‑8 — Actual cross-local use is explicit.**
+   If the declaration consumes a relation between different exact local kinds, distinct F.17 cells, translated scopes, or ReferencePlanes, it SHALL cite the applicable C.3.3, F.9, scope, or plane relation and its admitted-use limits. Different sources alone do not require or establish a Bridge.
 
 9. **CC‑BD‑9 — `Γ_time` is not treated as freshness.**
    When witness freshness/decay matters, it SHALL be expressed explicitly through evidence-use timespans, witness qualification windows, or explicit freshness predicates, not by treating `Γ_time` as a proxy.
@@ -85,16 +85,16 @@ A carrier (pattern, spec, schema, code carrier, or publication) conforms to A.6.
    The `*Slot` suffix SHALL be used only for SlotKinds/positions, never for endpoint values or references.
 
 12. **CC‑BD‑12 — No “anchor” relapse.**
-   `anchor*` / `ground*` / `attach*` SHALL NOT be used as surrogates for Context/SenseCell/ConceptSet or for an unnamed dependence kind. Authors SHALL either use the reserved primitive sense (where explicitly defined elsewhere) or rewrite into explicit `baseRelation(dependent, base)` form. Metaphor-head tokens SHALL NOT be minted as new relation-specific `baseRelation` vocabulary entries; if quoted source wording must be retained, record it as source wording against the specific non-metaphor token.
+   `anchor*` / `ground*` / `attach*` SHALL NOT be used as surrogates for a source, local meaning, F.17 cell, local-sense basis relation, or unnamed dependence kind. Authors SHALL either use the reserved primitive sense (where explicitly defined elsewhere) or rewrite into explicit `baseRelation(dependent, base)` form. Metaphor-head tokens SHALL NOT be minted as new relation-specific `baseRelation` vocabulary entries; if quoted source wording must be retained, record it as source wording against the specific non-metaphor token.
 
 13. **CC‑BD‑13 — BaseRelation declarations are explicit.**
-    Every `baseRelation` token used in an SWBD SHALL resolve to a vocabulary entry whose vocabulary entry declares (at minimum): polarity; typing expectations (ValueKind + `refMode`) for `DependentSlot` and `BaseSlot`; admissible repair options (KindBridge, narrowing, or explicit retargeting); scope class; time discipline (`Γ_time` required, optional, or forbidden); witness discipline; admissible change classes; and cross-context and cross-plane policy (Bridge ids + CL threshold + loss notes where applicable).
+    Every `baseRelation` token used in an SWBD SHALL resolve to a vocabulary entry that declares at least polarity; typing expectations (ValueKind + `refMode`) for `DependentSlot` and `BaseSlot`; admissible repair options (KindBridge, narrowing, or explicit retargeting); scope class; time discipline (`Γ_time` required, optional, or forbidden); witness discipline; admissible change classes; and any cross-local or cross-plane policy with the exact applicable relation, admitted use, and loss or limit.
 
 14. **CC‑BD‑14 — Authoring voice is explicit.**
     In Tech / normative prose, based declarations SHALL be written as `baseRelation(dependent, base)` or `dependent --baseRelation--> base`. Base-view prose SHALL be used only if polarity is preserved via explicit inverse-token use; implicit polarity flips SHALL NOT be used.
 
 15. **CC‑BD‑15 — Meaning lane separation.**
-    Semantic meaning assignment SHALL be modeled via SenseCell/ConceptSet lane constructs (E.10 D.CTX), not via SWBD. SWBD SHALL be used only for non-semantic base-dependence (admissibility, calibration, attribution, policy gating, constructive grounding, viewing/retargeting specialisations).
+    Semantic meaning assignment SHALL begin with the exact source, edition, effective ReferenceScheme, local expression, and local-sense claim under F.0.1; an F.17 cell or basis relation is added only when that stronger use is current. It SHALL NOT be modeled as SWBD. SWBD SHALL be used only for non-semantic base-dependence (admissibility, calibration, attribution, policy gating, constructive grounding, and viewing and retargeting specialisations).
 
 16. **CC‑BD‑16 — Reserved “bind” discipline.**
     `bind/binding` SHALL be reserved for **name binding** (LEX discipline) and SHALL NOT be used as a synonym for declaring/refreshing/changing a base declaration. Authors SHALL use the base‑change lexicon (`declareBase`, `rebase`, `rescope`, `retime`, `refreshWitnesses`, …) and explicit continuity/withdrawal relations instead.

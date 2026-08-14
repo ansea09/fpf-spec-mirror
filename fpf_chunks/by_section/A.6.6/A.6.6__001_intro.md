@@ -6,12 +6,12 @@ section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:intro — Intro"
-line_start: 19528
-line_end: 19576
+line_start: 19222
+line_end: 19270
 dependencies:
   - "A.10"
   - "A.14"
@@ -72,17 +72,17 @@ keywords:
 – A.2.4 evidence-use and status-use relation discipline for decision-relevant witness sets, including timespan, provenance, scope, polarity, and freshness constraints.
 - A.7 (Strict Distinction; EntityOfConcern vs Description-episteme and specification-use cases vs publication face, form, unit, carrier, and rendering lanes).
 – E.8 (pattern authoring order & SoTA discipline).
-– E.10 (LEX‑BUNDLE discipline; D.CTX lexical guardrails).
+– E.10 and E.10.D1 for wording-use recovery, with F.0.1 and F.17 for source-local meaning and its optional durable address.
 
 **Coordinates with.**
 – A.10 Evidence–Provenance DAG discipline (`verifiedBy`, `validatedBy`).
 – A.14 per-edge constructive grounding (`tv:groundedBy`) and `validationMode` discipline.
-– C.2.1 `U.EpistemeSlotRelation` grounding slots (`GroundingHolonSlot`, `EntityOfConcernSlot`).
+- C.2.1 episteme constitution through exact claim content, EntityOfConcern, and effective ReferenceScheme, plus the separately obtaining `EpistemeEmpiricalGroundingRelation` between an exact episteme and grounding holon.
 – A.6.3 `U.EpistemicViewing` (`EntityOfConcernRef`-preserving view operators; base-relative “how” without retargeting).
 – A.6.4 `U.EpistemicRetargeting` (base-change along `KindBridge`; retargeting lexicon and continuity rules).
-– C.3.3 `U.KindBridge` & `CL^k` (explicit repair/translation when endpoint kinds or Contexts differ; no silent re-typing).
+– C.3.3 `U.KindBridge`, including the `CL^k` value declared for that bridge (explicit repair or translation when exact endpoint kinds differ; no silent re-typing).
 – E.18 assurance-operations on `U.Transfer` (`CalibrateTo`, `CiteEvidence`, `AttributeTo`, `ConstrainTo`, …).
-– F.9 Bridges & CL (cross-context and cross-plane base declarations cite Bridge ids + CL policy).
+– F.9 Bridge relations and the `CL` value declared for each relation when the declaration actually consumes a relation between distinct F.17 local-sense cells or ReferencePlanes; cite the exact relation and its admitted use.
 – F.15 F-Suite validation harness (carrier/source-currentness, provenance, and refresh governance).
 - F.18 naming governance (Tech/Plain twins and publication-lane naming boundaries).
 

@@ -1,41 +1,42 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:intro — Intro"
-line_start: 91407
-line_end: 91414
+line_start: 91091
+line_end: 91098
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
-## F.3 - Intra‑Context Sense Clustering
+## F.3 - Source-Local Sense Clustering
 
-**“Within one context, decide what ‘the same sense’ really is—before you ever cross Contexts.”**
+**“Under one explicit interpretation basis, merge aliases that make the same local claim and split uses that do not.”**
 **Status.** Architectural pattern.
-**Depends on.** F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting & Normalisation**; E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
-**Coordinates with.** F.4 **Role Description**; F.7 **Concept‑Set Table**; F.8 **Mint or Reuse Decision**; F.9 **Alignment & Bridge Across Contexts**.
-**Aliases (informative).** *context‑local clustering*; *Sense consolidation*.
+**Depends on.** F.1 **Question-Relative Source Selection**; F.2 **Term Harvesting & Normalisation**; F.17 for the optional three-part local-sense cell; E.10.D1 **Recovering What “Context” Means in Use**; A.7 **Strict Distinction**; A.11 **Ontological Parsimony**.
+**Coordinates with.** F.4 **SystemRoleKindDescription**; F.7 **Concept-Set Table**; F.8 **Mint or Reuse Decision**; F.9 only when two exact local meanings need a tested relation.
+**Aliases (informative).** *source-local clustering*; *sense consolidation*.
 

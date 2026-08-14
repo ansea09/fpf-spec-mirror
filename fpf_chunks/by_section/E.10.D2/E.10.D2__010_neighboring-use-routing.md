@@ -6,12 +6,12 @@ section_id: "E.10.D2:8"
 section_title: "Neighboring use routing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__010_neighboring-use-routing.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:8 — Neighboring use routing"
-line_start: 77221
-line_end: 77287
+line_start: 77040
+line_end: 77106
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,11 +48,11 @@ Open a neighboring object only after naming the receiving use and recovering the
 
 #### E.10.D2:8.1 - Describing use, viewpoint, and view
 
-For one describing use, an E.17.0 `DescriptionContext` selects one exact `U.Viewpoint` episteme through its `viewpointRef`. It says from which concern-bearing viewpoint the already identified episteme is being read for that use.
+For one named describing use, state that the use selects one exact `U.Viewpoint` episteme P when that selection changes what is read or checked. It says from which concern-bearing viewpoint the already identified episteme is being read for that use.
 
 That selection:
 
-* does not enter C.2.1 episteme identity;
+* does not acquire C.2.1 episteme identity;
 * does not establish `EpistemeViewpointConformanceRelation`;
 * does not admit or remove same-individual `U.View` membership;
 * selects no receiving view and performs no A.6.3 viewing construction;
@@ -64,7 +64,7 @@ Call the same episteme a `U.View` only when it conforms to at least one exact `U
 
 Use A.2.6 when the receiving use depends on the exact claim scope and its context-slice membership. Use A.1.1 when the receiving use depends on one exact `BoundedModelUseStructure`. Neither scope nor structure becomes a description constituent merely because a table displays it.
 
-Open C.2.1 empirical grounding only when claims must be mapped to exact observation, intervention, measurement, or test relations involving one grounding holon. Open A.10 when the use relies on an exact evidence-provenance path; open B.3 when an assurance claim is made or its material-reliance threshold is met. Evidence, assurance, or an evaluation result can support an assertion about a description or its specification use; none makes the subject-side claim true, changes the EntityOfConcern, or mutates the description episteme. State the exact validity or reliance window when that receiving use depends on one.
+Use C.2.1 empirical grounding only when claims must be mapped to exact observation, intervention, measurement, or test relations involving one grounding holon. Use A.10 when the use relies on an exact evidence-provenance path; use B.3 when an assurance claim is made or its material-reliance threshold is met. Evidence, assurance, or an evaluation result can support an assertion about a description or its specification use; none makes the subject-side claim true, changes the EntityOfConcern, or mutates the description episteme. State the exact validity or reliance window when that receiving use depends on one.
 
 Use G.11 when currentness of the description edition, evidence path, harness, viewpoint, publication, or another neighbor matters to the receiving use. A currentness judgment applies to that exact object or relation; it is not a generic status field of the EntityOfConcern.
 

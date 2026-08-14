@@ -6,12 +6,12 @@ section_id: "B.1.4:3"
 section_title: "Optional Operator Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__006_optional-operator-notation.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:3 — Optional Operator Notation"
-line_start: 36530
-line_end: 36545
+line_start: 36244
+line_end: 36259
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -48,5 +48,5 @@ Gamma_time(temporalAggregationRecord, timeWindow, coverageAndNonOverlapCondition
 
 The notation does not create a holon, transformation, method, work occurrence, or whole reidentification by itself. It records how the selected relation set is combined for the current use.
 
-If the source says a system actually sequences, combines, transforms, measures, or audits something, name that acting-side relation separately through `A.12`, `A.3.4`, `A.15.1`, `B.1.6`, `A.10`, or the direct owner. The person, team, controller, or tool that writes an aggregation record is not automatically the in-world transformer for the EntityOfConcern being aggregated.
+If the source says a system actually sequences, combines, transforms, measures, or audits something, name that acting-side relation separately through `A.12`, `A.3.4`, `A.15.1`, `B.1.6`, `A.10`, or the pattern that defines the exact relation. The person, team, controller, or tool that writes an aggregation record is not automatically the in-world transformer for the EntityOfConcern being aggregated.
 

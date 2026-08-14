@@ -6,12 +6,12 @@ section_id: "B.2.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__006_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:4 — Solution"
-line_start: 38536
-line_end: 38598
+line_start: 38253
+line_end: 38318
 dependencies:
   - "A.1"
   - "A.10"
@@ -44,7 +44,9 @@ Model the current object as `SupervisorSubholonFeedbackRelation@Context`.
 ```text
 SupervisorSubholonFeedbackRelation@Context:
   supervisedHolonRefs: FinSet(U.HolonRef)
-  boundedContextRef:
+  feedbackPolicyRef?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   supervisorSystemRoleKindRef?: U.KindRef resolving to one exact local system-role kind
   supervisingActingSystemRef: U.EntityRef resolving to one admitted U.System
   supervisorSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
@@ -54,12 +56,13 @@ SupervisorSubholonFeedbackRelation@Context:
   sharedMediumOrPublicationRefs?
   holonBoundaryCrossingRelationRefs?
   feedbackClosureCondition:
+  evidenceRefs?
   admissibleUse:
   nonAdmissibleUse:
-  neighboringClaimOwnerRefs?
+  strongerClaimPatternRefs?
 ```
 
-This relation is not a U-kind and not a mathematical loop lens. It is a relation record for the bounded context. The kind and assignment fields are present only when the classification and the assignment occurrence with its declared species exist separately; the feedback relation creates neither.
+This relation is not a U-kind and not a mathematical loop lens. The record names the exact supervised holons, supervising acting system, feedback policy when one applies, signal paths, ClaimScope when needed, qualification window, and evidence when a later use relies on it. Evidence can support the claim but does not create the feedback relation. The kind and assignment fields are present only when the classification and the assignment occurrence with its declared species exist separately; the feedback relation creates neither.
 
 #### B.2.5:4.1 - Two-Sided Feedback Relation
 
@@ -68,7 +71,7 @@ A one-way command, publication, or report relation is not yet a supervisor-subho
 - the observation, report, signal, source, or publication side; and
 - the returned influence, constraint, objective, mode, or work-change side.
 
-If only one side is current, record a one-sided relation and use the subject pattern for that claim.
+If only one side is current, record a one-sided relation and use the pattern that defines that claim.
 
 #### B.2.5:4.2 - Part-Whole Boundary
 

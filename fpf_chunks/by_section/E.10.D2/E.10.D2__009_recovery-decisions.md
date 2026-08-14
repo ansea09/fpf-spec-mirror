@@ -6,12 +6,12 @@ section_id: "E.10.D2:7"
 section_title: "Recovery decisions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__009_recovery-decisions.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:7 — Recovery decisions"
-line_start: 77209
-line_end: 77220
+line_start: 77028
+line_end: 77039
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,8 +47,8 @@ keywords:
 | Current need | Recover | Do not infer |
 |---|---|---|
 | Identify or cite the claim-bearing description | Exact ClaimGraph, exact EntityOfConcern, effective ReferenceScheme, and obtaining C.2.1 constitution | Identity from title, file, card, context field, or publication |
-| Read one episteme for a concern-bearing describing use | One exact E.17.0 DescriptionContext selecting one exact viewpoint | Viewpoint conformance, `U.View` membership, or another episteme identity |
-| Rely on description as a specification | Checkable claims, preserved or updated DescriptionContext, and exact checking harness or validation relation | Specification force from suffix, formality, approval, or storage format |
+| Read one episteme for a concern-bearing describing use | The named describing use and the exact viewpoint P it selects when that selection changes the reading | Viewpoint conformance, `U.View` membership, or another episteme identity |
+| Rely on description as a specification | Checkable claims and an exact checking harness or validation relation; preserve or update a selected viewpoint only when reliance depends on it | Specification force from suffix, formality, approval, or storage format |
 | Use a selected organization of model use | Exact A.1.1 BoundedModelUseStructure designated by the receiving use | Structure as an episteme constituent or generic context |
 | Describe an episteme | A new C.2.1 episteme whose EntityOfConcern is the earlier episteme | Mandatory meta-description layer or context recursion |
 | Use unchanged content differently | The same episteme when all three identity discriminators remain fixed, plus the changed neighboring use relation | A new episteme merely from changed viewpoint selection, evidence, publication, carrier, or representation |

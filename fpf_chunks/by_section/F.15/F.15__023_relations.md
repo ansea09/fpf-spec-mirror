@@ -6,12 +6,12 @@ section_id: "F.15:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__023_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:16 — Relations"
-line_start: 96253
-line_end: 96264
+line_start: 95652
+line_end: 95663
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 ### F.15:16 - Relations
 
-* **F.17 and F.18.** Supply exact scheme-based cells, basis relations/descriptions, NameCards, selected designations, rows, and editions. F.15 checks them and never selects or publishes a name.
+* **F.17 and F.18.** Supply exact scheme-based cells, basis relations/descriptions, NameCards, selected designations, rows, and editions. In an F.15 check, verify those values without selecting or publishing a name.
 * **F.14, F.8, and F.13.** Govern anti-explosion, mint-or-reuse decisions, and lineage before F.15 checks the resulting exact refs.
 * **F.4 and exact system-role patterns.** Define system-role-kind-description epistemes, local system-role kinds, relations among them, assignments, and work claims that the harness cannot absorb.
 * **F.9, C.2.1, A.10, and B.3.** Govern actual Bridge occurrences, separate bounded-use claims, evidence reliance, and assurance. Descriptions, Cards, `CL`, and witnesses are not relation truth or use authority.

@@ -6,12 +6,12 @@ section_id: "E.15:9"
 section_title: "Self‑application Work Log (how this very pattern was authored)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__010_self-application-work-log-how-this-very-pattern-was-authored.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:9 — Self‑application Work Log (how this very pattern was authored)"
-line_start: 79625
-line_end: 79638
+line_start: 79445
+line_end: 79458
 dependencies:
   - "A.10"
   - "B.3"
@@ -32,7 +32,7 @@ keywords:
 
 > *This is **not** chain‑of‑thought; it is the required **`U.Work` evidence** for LEX‑AUTH.*
 
-**Context.** `FPF/Core` (Canon); **Delta‑Class:** Δ‑2 (normative refinement by addition of method & CCs).
+**Historical run basis.** The original run recorded `FPF/Core` as its Context; retain that field as historical wording under that LAT edition. A current reliance recovers the exact FPF/Core edition and only the source, scheme, claim, scope, and other values it needs. **Delta-Class:** Δ-2 (normative refinement by addition of method and CCs).
 **Objectives.** Add an *evolutionary* authoring method; make trace *useful* (quality‑bearing); align with SoTA machinery already in spec.
 **SoTA pack (evidence bound).** Prior FPF kernel commitments to **DRR (E.9)**, **E.10 LEX‑BUNDLE**, **B.4 Evolution**, **C.18 and C.19** NQD/E‑E, **F.15** harness, **F.9** Bridges, **B.3** Trust; these are treated as the authoritative internal SoTA for the Canon here.
 **NQD/E‑E.** Generated ≥3 alternative Solution sections; finalist chosen for clearer Δ‑classes and actionable LAT contents.

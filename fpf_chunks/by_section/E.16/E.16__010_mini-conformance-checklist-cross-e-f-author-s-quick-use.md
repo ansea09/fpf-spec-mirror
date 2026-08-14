@@ -3,15 +3,15 @@ chunk_kind: "child"
 pattern_id: "E.16"
 pattern_title: "RoC‑Autonomy Budget & Enforcement"
 section_id: "E.16:9"
-section_title: "Mini conformance checklist (cross‑E–F; author’s quick use)"
+section_title: "Mini conformance checklist (cross-E-F; author's quick use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__010_mini-conformance-checklist-cross-e-f-author-s-quick-use.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
-  - "E.16:9 — Mini conformance checklist (cross‑E–F; author’s quick use)"
-line_start: 79836
-line_end: 79845
+  - "E.16:9 — Mini conformance checklist (cross-E-F; author's quick use)"
+line_start: 79692
+line_end: 79702
 dependencies:
   - "A.10"
   - "A.13"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.7"
   - "A.21"
   - "B.3"
   - "C.16"
@@ -48,13 +49,14 @@ keywords:
   - "scout/probe/commit checkpoint"
 ---
 
-### E.16:9 - Mini conformance checklist (cross‑E–F; author’s quick use)
+### E.16:9 - Mini conformance checklist (cross-E-F; author's quick use)
 
-1. **Declare** `AutonomyBudgetDecl` (scope, budgets, AdmissibilityConditionsId, overrides).
-2. **Gate** steps with `requiresAutonomyBudget`.
-3. **Emit** an `AutonomyLedgerEntry` for each admitted Work.
-4. **Enforce SoD** on override SpeechActs; **block on depletion**.
-5. **Publish** UTS autonomy fields for any autonomy‑bearing Role/Method/Service.
+1. **Declare the boundary:** name the autonomy claim, consumer local kind, working situation, policy, ClaimScope, window, budget, override-authority kind, and exact A.2.7 incompatibility relation.
+2. **Bind only when real:** mark an early declaration `prospective`; before admitting Work, use an `enactment-bound` edition with actual holder Systems, A.2.1 assignments, Work, and authority-relation occurrence. Invent none of them.
+3. **Gate the Work:** resolve the exact performer, assignment, Work, state, remaining budget, and guards.
+4. **Record the Work:** emit an `AutonomyLedgerEntry` with performer and assignment attribution for every admitted budgeted or override Work item.
+5. **Check override separately:** apply the A.2.7 predicate to both actual assignments and the target Work and window, reject a prohibited joint allocation, and independently test override authority.
+6. **Publish what users need:** expose the budget edition, binding state, policy, override protocol, scope, and window in the UTS row.
 
-*(These five are sufficient for a working test harness in Part F.)*
+These steps are the smallest complete route for a working Part F test harness; optional telemetry and selection lenses remain optional.
 

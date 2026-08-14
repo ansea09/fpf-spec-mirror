@@ -6,26 +6,27 @@ section_id: "B.5.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:3 — Forces"
-line_start: 41142
-line_end: 41150
+line_start: 40862
+line_end: 40870
 dependencies:
   - "A.13"
   - "A.15"
   - "A.2"
-  - "A.2.1"
   - "A.6.5"
   - "A.7"
   - "B.3.3"
   - "C.2.1"
   - "C.3"
+  - "E.10.ROLE"
   - "E.17"
   - "E.24.UK"
+  - "F.0.1"
   - "F.1"
-  - "F.18"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
@@ -33,12 +34,12 @@ dependencies:
   - "F.8"
   - "F.9"
 keywords:
-  - "bounded context"
-  - "bridge scope"
-  - "concept bridge"
+  - "F.17 cell"
+  - "basis relation"
+  - "bounded use and loss"
+  - "direct relation"
   - "domain vocabulary"
-  - "local sense"
-  - "role assignment boundary"
+  - "source-local meaning"
 ---
 
 ### B.5.3:3 - **Forces**
@@ -46,7 +47,7 @@ keywords:
 | Force | Tension |
 | :--- | :--- |
 | **Domain fluency vs. ontological parsimony** | Teams need familiar words, but FPF must not grow a new root kind whenever a local term appears. |
-| **Same word vs. different claim** | One word such as "sensor", "state", "process", or "role" can point to different FPF values in different bounded contexts. |
-| **Bridge use vs. role overuse** | Some domain words really name role values or role assignments; many others name entities, characteristics, methods, descriptions, or evidence relations. |
-| **Bridge record vs. hidden ontology** | A bridge must carry scope, loss, and return conditions rather than hiding them behind a synonym. |
+| **Same word vs. different claim** | The same expression can make different local claims in different sources or schemes and can point to different FPF values. Spelling alone decides none of them. |
+| **Meaning recovery vs. role overuse** | Some domain uses concern a system-role kind or assignment; many concern another value or relation. Recover the claim before choosing the terminology. |
+| **Small result vs. hidden ontology** | The result should be as small as the use permits, yet still expose any real kind, relation, loss, and return condition instead of hiding them behind a synonym. |
 

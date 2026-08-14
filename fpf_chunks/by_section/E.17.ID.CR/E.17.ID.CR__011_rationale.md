@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__011_rationale.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:10 — Rationale"
-line_start: 82947
-line_end: 82955
+line_start: 82804
+line_end: 82812
 dependencies:
   - "A.15"
   - "A.15.4"

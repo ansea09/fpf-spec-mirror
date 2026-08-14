@@ -6,12 +6,12 @@ section_id: "F.9.1:7"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__008_common-failures-and-repairs.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:7 — Common failures and repairs"
-line_start: 94180
-line_end: 94192
+line_start: 93748
+line_end: 93760
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

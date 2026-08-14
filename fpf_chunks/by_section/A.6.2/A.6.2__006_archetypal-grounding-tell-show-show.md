@@ -6,12 +6,12 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 13174
-line_end: 13256
+line_start: 13173
+line_end: 13253
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -43,27 +43,27 @@ The examples below show how EFEM is intended to be used across the EntityOfConce
 *Shape.*
 
 * Domain: `X = U.MethodDescription` episteme with
-  `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, `viewpointRef(X)` an engineering viewpoint (TEVB), `ReferenceScheme_D`.
-* Codomain: `Y = U.MethodSpec` episteme with the **same** `entityOfConcernRef(Y) = entityOfConcernRef(X)`, `viewpointRef(Y) = viewpointRef(X)`, more structured `content(Y) : U.ClaimGraph_S`, more explicit ReferenceScheme (explicit pre/post, obligations).
+  `entityOfConcernRef(X) : U.MethodRef`, `content(X) : U.ClaimGraph_D`, and `ReferenceScheme_D`; when the named engineering validation use selects viewpoint P, record that selection separately.
+* Codomain: `Y = U.MethodSpec` episteme with the **same** `entityOfConcernRef(Y) = entityOfConcernRef(X)`, more structured `content(Y) : U.ClaimGraph_S`, and a more explicit ReferenceScheme. If the same named validation use continues, it preserves its selected viewpoint P separately.
 
 `Specify_DescEp_SpecDesc` is a species of EFEM:
 
 * `entityOfConcernChangeMode(Specify_DescEp_SpecDesc) = preserve`.
 * P1 — effect‑free: it transforms epistemes only.
-* P2 — conservative: any behavioural claims in the Spec must be logically entailed by the informal Description and the method that fills `EntityOfConcernSlot`; if the spec makes behavioural claims not entailed by that pair, that is modelled as creating a **new EntityOfConcern claim with its own Description epistemes and specification use/refinement gates**, not as a valid EFEM instance.
-* P3–P5 — functorial and scoped: specs compose, applicability bound to the appropriate engineering context and Viewpoints.
+* P2 — conservative: any behavioral claims in the Spec must be logical consequences of the informal Description and the exact Method that both epistemes concern. If the Spec adds a commitment not entailed by that basis, the operation is not a valid EFEM instance; identify the new claim as a separate C.2.1 episteme and state the operation, its entry condition, and its result under the rule that defines that operation.
+* P3-P5 — functorial and scoped: specifications compose, and applicability is bounded by the named engineering scope, operating conditions, effective scheme, and any viewpoint selected for the named validation use.
 
 This matches A.7 and E.10.D2: EntityOfConcern-to-Description (`Describe_EoC_DescEp`) is the strict-boundary describing step and is not itself an episteme→episteme morphism; `Specify_DescEp_SpecDesc` is an optional EFEM species over a Description episteme after a specification use/refinement gate is present. EFEM supplies the episteme→episteme laws for that refinement; it does not make Specification a third peer in A.7.
 
 #### A.6.2:5.2 - Internal normalisation of a View (species of EFEM, `entityOfConcernChangeMode = preserve`)
 
-*Context.* In MVPK you compute a engineering view `V` of a system description; you then normalise the view (sort, factor, put equations into normal form) without changing what it says.
+*Context.* In MVPK you compute an engineering view `V` of a system description; you then normalise the view (sort, factor, put equations into normal form) without changing what it says.
 
 Let `X = V_raw`, `Y = V_norm`, both `U.EpistemeView` instances with the same:
 
 * `entityOfConcernRef(X) = entityOfConcernRef(Y)` (same system);
-* `groundingHolonRef(X) = groundingHolonRef(Y)` (same environment);
-* `viewpointRef(X) = viewpointRef(Y)` (same Viewpoint);
+* the exact grounding relation and grounding holon used by the normalization remain unchanged, when grounding is current;
+* any viewpoint selected by the named normalization use is the same exact P for X and Y; this selection is outside episteme identity;
 * `representationSchemeRef(X) = representationSchemeRef(Y)` (same notation).
 
 The EFEM `NormalizeView : X→Y`:
@@ -87,31 +87,29 @@ Inside EFEM, this becomes a species with `entityOfConcernChangeMode = retarget`:
 
 The details belong to A.6.4 and E.18; EFEM provides the generic discipline.
 
-#### A.6.2:5.4 - Worked SlotSpec example (engineering SystemDescription episteme kind)
+#### A.6.2:5.4 - Worked value-and-relation profile (engineering SystemDescription episteme kind)
 *(informative)*
 
-To make the SlotKind/ValueKind/RefKind discipline and EFEM laws concrete, consider a simple engineering `U.EpistemeKind` for system descriptions over `EntityOfConcernClass ⊑ U.Entity` with `EntityOfConcernClass = U.System` in a given Context. A minimal SlotSpec table for such a kind could be:
+To make the C.2.1 value and EFEM law discipline concrete, consider an engineering episteme of a dependent system-description kind whose exact EntityOfConcern is one `U.System`:
 
-| SlotKind              | ValueKind                                     | RefKind / refMode   | Notes                                                                 |
-| --------------------- | --------------------------------------------- | ------------------- | --------------------------------------------------------------------- |
-| `EntityOfConcernSlot` | `U.Entity` (constrained by `EntityOfConcernClass = U.System`) | `U.EntityRef`    | identifies the system that fills `EntityOfConcernSlot`                          |
-| `GroundingHolonSlot`  | `U.Holon`                                     | `U.HolonRef`        | plant / runtime SoS grounding measurements and validation             |
-| `ClaimGraphSlot`      | `U.ClaimGraph`                                | ByValue             | KD‑CAL/LOG‑CAL ClaimGraph for the description or spec                 |
-| `ViewpointSlot`       | `U.Viewpoint`                                 | `U.ViewpointRef`    | engineering viewpoint (e.g. from TEVB) under which Description epistemes, including Description epistemes admitted for specification use, are validated |
-| `ReferenceSchemeSlot` | `U.ReferenceScheme`                           | ByValue             | how the ClaimGraph is interpreted against EntityOfConcern and grounding     |
+| Value named by the EFEM species | Kind or reference form | Use |
+| --- | --- | --- |
+| exact EntityOfConcern | `U.Entity` constrained to `U.System`; designated by `U.EntityRef` | identifies the system that the claims concern |
+| claim content | `U.ClaimGraph` | carries the description or specification claims |
+| effective ReferenceScheme | `U.ReferenceScheme` | makes the claims and their designations interpretable |
 
-This table describes SlotSpecs under one exact episteme `RelationSignature`. Each row names its SlotKind and ValueKind, then either `ByValue` or the exact RefKind used to designate the participant. The table is not an instance of a discipline object, introduces no additional U-kinds, and preserves C.2.1’s constraints on `EntityOfConcernSlot` and `GroundingHolonSlot`.
+This table names actual episteme values; it is not a `RelationSignature` or SlotSpec table. `EntityOfConcernSlot`, `ClaimGraphSlot`, and `ReferenceSchemeSlot` are declaration-local SlotKinds only when the reusable C.2.1 `EpistemeConstitutionRelationSignature` is being inspected. An EFEM species reads or changes the actual participants. It names any selected viewpoint, empirical-grounding relation, or representation relation separately.
 
 Two typical EFEM species over this kind are:
-* `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — a `EntityOfConcernChangeMode = preserve` species that:
-  * **reads** `EntityOfConcernSlot`, `GroundingHolonSlot`, `ViewpointSlot`, `ReferenceSchemeSlot` and **writes** a refined `ClaimGraphSlot` and possibly a strengthened `ReferenceSchemeSlot`;
+* `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — an `EntityOfConcernChangeMode = preserve` species that:
+  * **reads** the exact EntityOfConcern and effective ReferenceScheme, separately uses an obtaining empirical-grounding relation or named describing-use viewpoint only when current, and **writes** refined claim content and possibly a strengthened effective ReferenceScheme;
   * satisfies P2 by only adding claims that are logical consequences of the original description plus the fixed `EntityOfConcern` (A.7 and E.10.D2);
-  * satisfies CC‑C.2.1‑5 by explicitly declaring its slot profile and change mode.
+  * satisfies C.2.1:7.1 by declaring its value-and-relation read/change profile and change mode.
 
 * `Normalize_EngView : EpistemeView → EpistemeView` — a view‑normalisation EFEM (again with `EntityOfConcernChangeMode = preserve`) that:
-  * **reads** all slots and **writes** only `ClaimGraphSlot` (normal form) and `meta`;
+  * **reads** the three C.2.1 identity values and every separately declared neighboring relation on which the operation depends, and **changes** only the output claim content and `meta`;
   * is idempotent and deterministic (P4) and pure (P1);
   * is conservative (P2) by construction: it never introduces new atoms about the selected system.
 
-Concrete A.6.3/A.6.4/E.17.\* patterns for specific engineering description and specification-use idioms provide SlotSpecs of this general shape and state explicitly, per CC‑C.2.1‑5 / CC‑EFEM.\*, which slots their EFEM species read and write.
+Concrete A.6.3/A.6.4/E.17.* patterns for engineering description and specification-use idioms state explicitly, under C.2.1:7.1 and CC-EFEM.*, which episteme values and separately obtaining relations their EFEM species read or change.
 

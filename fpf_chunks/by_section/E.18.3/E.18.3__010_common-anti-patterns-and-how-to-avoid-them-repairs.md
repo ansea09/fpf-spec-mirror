@@ -6,12 +6,12 @@ section_id: "E.18.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them — Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__010_common-anti-patterns-and-how-to-avoid-them-repairs.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:8 — Common Anti-Patterns and How to Avoid Them — Repairs"
-line_start: 85847
-line_end: 85861
+line_start: 85704
+line_end: 85718
 dependencies:
   - "A.10"
   - "A.15"

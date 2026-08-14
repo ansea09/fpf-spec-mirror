@@ -1,48 +1,49 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:10"
-section_title: "Anti‑patterns & remedies"
+section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__011_anti-patterns-remedies.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
-  - "F.3:10 — Anti‑patterns & remedies"
-line_start: 91520
-line_end: 91534
+  - "F.3 — Source-Local Sense Clustering"
+  - "F.3:10 — Anti-patterns & remedies"
+line_start: 91210
+line_end: 91224
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
-### F.3:10 - Anti‑patterns & remedies
+### F.3:10 - Anti-patterns & remedies
 
-| #       | Anti‑pattern               | Symptom in thought                                                            | Why it harms                                            | Remedy (conceptual move)                                                                                          |
-| ------- | -------------------------- | ----------------------------------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **A1**  | **String = Sense**         | Treating surface identity (*service*, *SLO*) as sameness of meaning.          | Collapses distinct uses; hides selectional differences. | Compare **selectional frames** and entailments inside the Context; merge only if conclusions never diverge.          |
-| **A2**  | **Cross‑context creep**       | Folding BPMN *process* with PROV *activity* while clustering **inside** BPMN. | Imports foreign usage; violates locality.               | Constrain attention to **one context**; postpone Cross‑context talk to F.9.                                             |
-| **A3**  | **Over‑granulation**       | Splitting minor orthographic variants (*service‑level‑objective* vs *SLO*).   | Adds friction; no conceptual gain.                      | Consolidate **canon‑blessed aliases** into one Local‑Sense.                                                       |
-| **A4**  | **Under‑granulation**      | One sense for incompatible roles (*event* as node‑type vs occurrence).        | Causes contradictory inferences later.                  | Split on **role/entailment** conflict; add a **counter‑example** to sharpen the cut.                              |
-| **A5**  | **Imported definitions**   | Borrowing dictionary glosses not used in the canon.                           | Drifts from the Context’s idiom; confuses labels.          | Ground every sense line in **statements the canon actually makes**.                                               |
-| **A6**  | **Label drift**            | Tech label in canon idiom; Plain label broadens scope.                        | Teaches the wrong thing; leaks meaning.                 | Keep **Tech** idiomatic; make **Plain** helpful yet strictly **within** the same usage.                           |
-| **A7**  | **Behaviour/math leakage** | Sense lines include runtime metrics, deontic rules, type axioms.              | Mixes EntityOfConcern, Description episteme, and specification-use positions; duplicates Part C work.                   | Sense lines are **usage‑only**; no equations, no policies.                                                        |
-| **A8**  | **Edition blend**          | Mixing 2011 and 2020 usage under one Local‑Sense.                             | Hidden shifts; brittle bridges later.                   | If usage changed with edition, treat as **different Contexts** (F.1) or distinct Local‑Senses with **edition note**. |
-| **A9**  | **Collocate worship**      | Declaring sameness solely from similar nearby words.                          | Correlates ≠ causes; misses entailments.                | Use collocates as **cues**, then decide by **entailment/role** checks.                                            |
-| **A10** | **Temporal fudge**         | Treating a design‑time sense as if it were run‑time (or vice versa).          | Category errors at enactment.                           | Respect the Context’s **time stance**; keep senses aligned to *design* or *run* as declared in F.1.                  |
+| # | Anti-pattern | Symptom | Why harmful | Remedy |
+| --- | --- | --- | --- | --- |
+| **A1** | String = sense | Surface identity decides the cluster. | Different propositions collapse. | Compare argument patterns and entailments. |
+| **A2** | Cross-source creep | A BPMN use is folded with a PROV use inside F.3. | The interpretation basis changes unnoticed. | Finish each local claim first; test any relation in F.9. |
+| **A3** | Over-granulation | *SLO* and its full form become separate claims without a difference in use. | Friction rises without gain. | Consolidate source-blessed aliases. |
+| **A4** | Under-granulation | Diagram node and real occurrence share one claim. | Later inferences contradict each other. | Split on argument or entailment conflict and add a counterexample. |
+| **A5** | Imported definition | A dictionary replaces the selected source passages. | The result is no longer source-local. | Ground the claim in the actual passages. |
+| **A6** | Label drift | Plain adds scope not present in Tech or the claim. | The cold reader learns the wrong concept. | Keep both labels within the same claim. |
+| **A7** | Substantive leakage | A sense line contains policies, equations, or kind criteria. | The lexical note is asked to establish a substantive fact about another value. | Route the claim to its direct pattern. |
+| **A8** | Edition blend | Two editions with changed usage share one unqualified claim. | Replay and comparison become unreliable. | State each basis; merge only if evidence supports the same claim. |
+| **A9** | Cue worship | Similar collocations are treated as proof. | Correlation replaces source meaning. | Use cues to locate passages, then test propositions. |
+| **A10** | Time blur | A design-time use and a run-time occurrence are clustered together. | MethodDescription and Work collapse. | Split and use F.11, A.3, and A.15 for the substantive distinction. |
 

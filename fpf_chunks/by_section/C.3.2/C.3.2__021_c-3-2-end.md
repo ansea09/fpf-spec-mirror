@@ -6,12 +6,12 @@ section_id: "C.3.2:End"
 section_title: "C.3.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__021_c-3-2-end.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:End — C.3.2:End"
-line_start: 45365
-line_end: 45366
+line_start: 45066
+line_end: 45067
 dependencies:
   - "A.14"
   - "A.2.6"

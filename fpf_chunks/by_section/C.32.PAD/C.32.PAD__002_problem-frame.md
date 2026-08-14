@@ -6,12 +6,12 @@ section_id: "C.32.PAD:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:1 — Problem frame"
-line_start: 66900
-line_end: 67012
+line_start: 66678
+line_end: 66794
 dependencies:
   - "A.10"
   - "A.15"
@@ -111,8 +111,10 @@ ArchitectureDecisionRelation@Project:
   systemOfInterestAssignmentOccurrenceRef?: U.RelationRef constrained to an obtaining occurrence of systemOfInterestAssignmentSpeciesRef, with actual participants, applicability, extent, and projectSystemOfInterestRef as holder recoverable
   decisionSubjectRef:
   describedHolonRef:
-  boundedContextRef:
   decisionQuestion:
+  intendedDecisionUse:
+  claimScopeRef: U.ClaimScope
+  decisionWindowRef:
   candidateBasisRefs:
   comparisonOrSelectionRefs?
   structuralInformationLensUseRefs?
@@ -169,6 +171,8 @@ ArchitectureDecisionRelation@Project:
   supersedesDecisionRefs?
   status:
 ```
+
+The filled `ArchitectureDecisionRelation@Project` is the decision result. Its selected option, affected structures, criteria and trade-offs, scope, window, consequences, and status make that result recoverable; a second generic result or context record would only duplicate it.
 
 The field names in this first-output form are publication-friendly filled-reference fields. Durable relation positions must be expressible through `A.6.5` SlotSpecs: each position has a local `SlotKind`, an admitted `ValueKind`, and a by-value or concrete `RefKind` filling mode. A field name such as `decisionSubjectRef` is not a SlotKind, not a U-kind, and not an ADR heading; it is the filled-reference field by which this relation record points to the value governed by the slot-bearing relation.
 

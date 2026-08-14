@@ -6,12 +6,12 @@ section_id: "B.1.1:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__009_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:6 — Conformance Checklist"
-line_start: 35857
-line_end: 35867
+line_start: 35569
+line_end: 35579
 dependencies:
   - "A.1"
   - "A.10"
@@ -35,9 +35,9 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B1.1-1` | A dependency claim names the relation kind before graph notation is relied on. |
-| `CC-B1.1-2` | Graph, matrix, table, or diagram wording is treated as mathematical or representation expression unless a direct owner selects it as the structure under concern. |
+| `CC-B1.1-2` | Graph, matrix, table, or diagram wording is treated as a mathematical or representation expression unless an exact structure relation makes that expression the structure under concern. |
 | `CC-B1.1-3` | Part-whole edges use A.14 and C.13 discipline. |
 | `CC-B1.1-4` | Boundary-crossing, transformation, evidence, source-use, publication-use, and representation relations are not recast as parthood. |
-| `CC-B1.1-5` | Design description, run occurrence, and evidence are not mixed without direct owners and DesignRunTag or equivalent scope discipline. |
-| `CC-B1.1-6` | Graph checks are interpreted only through the selected relation owner and C.29 when the mathematical lens is relied on for the current claim. |
+| `CC-B1.1-5` | Design description, run occurrence, and evidence are not mixed; the record names their separate patterns and uses a DesignRunTag or equivalent scope discipline when needed. |
+| `CC-B1.1-6` | Graph checks are interpreted only through the selected relation's defining or testing rule and C.29 when the mathematical lens is relied on for the current claim. |
 

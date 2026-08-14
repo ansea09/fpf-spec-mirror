@@ -1,42 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:3 — Forces"
-line_start: 91434
-line_end: 91442
+line_start: 91118
+line_end: 91126
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
 ### F.3:3 - Forces
 
-| Force                     | Tension to resolve                                                                                               |
-| ------------------------- | ---------------------------------------------------------------------------------------------------------------- |
-| **Parsimony vs fidelity** | Few Local‑Senses ease teaching; too few dilute real distinctions the canon relies on.                            |
-| **Usage vs definition**   | Glosses should reflect **how the canon uses the word**, not an imported dictionary definition.                   |
-| **Labels vs idiom**       | Tech label must stay in the canon’s idiom; Plain label must help newcomers—without inventing a new sense.        |
-| **Stability vs openness** | Consolidated senses must be stable enough for Role Descriptions and tables, yet revisable when the canon’s use clearly splits. |
+| Force | Tension to resolve |
+| --- | --- |
+| **Parsimony vs fidelity** | Few claims are easier to teach; too few erase distinctions the source relies on. |
+| **Usage vs definition** | Recover how the source uses an expression, not an imported dictionary meaning. |
+| **Labels vs idiom** | Tech stays source-faithful while Plain helps a newcomer without widening the claim. |
+| **Stability vs revision** | Local meanings should remain citable yet change when the source evidence really changes. |
 

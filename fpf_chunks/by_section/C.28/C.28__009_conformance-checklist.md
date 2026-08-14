@@ -6,12 +6,12 @@ section_id: "C.28:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__009_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:7 — Conformance Checklist"
-line_start: 58322
-line_end: 58338
+line_start: 58041
+line_end: 58058
 dependencies:
   - "A.10"
   - "A.15"
@@ -64,4 +64,5 @@ keywords:
 | `CC-C28-9` Semantic-authority split | `C.28` governs causal-use value sets, identification profiles and realizability profiles, graph naming and calculus naming, and support verdicts; neighbors may consume or quote them but must not define competing causal-use value sets. |
 | `CC-C28-10` Simulation-only bounded use | Simulation-only output may support bounded model-supported use, but it never becomes interventional evidence or realized counterfactual sample evidence by vocabulary, validation, or role relabeling alone. |
 | `CC-C28-11` Decision-economics of evidence | A causal-evidence plan for deployment, assurance, audit, benchmark, policy, fairness, or support-treatment use names the decision threshold, evidence value or probe-worthiness, and cost condition or risk condition when escalation is not already mandatory by safety, release, or assurance constraints. |
+| `CC-C28-12` Transportability inputs | When transported support is claimed, name the source and target populations, needed selection and domain-shift assumptions, applicable windows, overlap evidence when needed, comparator or transport formula, and supported and unsupported uses. Name effective schemes and cite an F.9 relation only when interpretation differs between the sources. |
 

@@ -3,56 +3,58 @@ chunk_kind: "child"
 pattern_id: "F.11"
 pattern_title: "Method Quartet Harmonisation"
 section_id: "F.11:10"
-section_title: "Anti‑patterns & remedies"
+section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__011_anti-patterns-remedies.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
-  - "F.11:10 — Anti‑patterns & remedies"
-line_start: 94679
-line_end: 94695
+  - "F.11:10 — Anti-patterns & remedies"
+line_start: 94221
+line_end: 94237
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
-  - "D.CTX"
+  - "B.1.5"
+  - "C.2.1"
   - "E.10.D1"
-  - "F.1"
+  - "F.0.1"
   - "F.10"
-  - "F.3"
+  - "F.17"
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Work"
 keywords:
-  - "Actuation"
   - "Method"
   - "MethodDescription"
-  - "Role–Method–Work alignment"
-  - "Work"
+  - "control or transformation output"
+  - "dated Work"
+  - "description use"
+  - "enactment"
+  - "performed-Work attribution"
 ---
 
-### F.11:10 - Anti‑patterns & remedies
+### F.11:10 - Anti-patterns & remedies
 
-| #       | Anti‑pattern                   | Symptom in prose/models                                               | Why it harms thinking                                                       | Remedy (conceptual move)                                                                                                                                                                                             |
-| ------- | ------------------------------ | --------------------------------------------------------------------- | --------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **A1**  | **Design→Run Substitution**    | “The process **achieved** X” while pointing to a design diagram.      | Treats a **MethodDescription** as if it were **Work**; collapses stances.           | Apply the **stance split**: restate as “The **diagram describes** how X **should** be achieved.” To claim it **happened**, reference a **Work** SenseCell in a run‑time Context and, if needed, add a **Window** (F.10). |
-| **A2**  | **Approval = Evidence**        | “Approved SOP ⇒ requirement satisfied.”                               | A **StatusCell** about a **MethodDescription** does not entail a run‑time outcome. | Keep **Approved** on Spec; place **Satisfied/Violated** on clauses **about Work** within a **Window**; require Observation/Evidence (KD‑CAL) for the run side.                                                       |
-| **A3**  | **Execution = Actuation**      | PLC log of setpoints recorded as the whole execution history.         | Loses non‑signal aspects (delays, conditions, context); removes reasoning support.  | Model **Actuation** as **within** **Work**. Keep both SenseCells: *Task execution* (Work) and *Command/Setpoint* (Actuation).                                                                                        |
-| **A4**  | **BPMN‑as‑Run**                | BPMN *Process* treated as “the thing that ran.”                       | BPMN’s meaning is context‑local and design‑time.                               | Use a **Bridge** (F.7/F.9) from *BPMN\:Process (design)* → *PROV\:Activity (run)* with kind **Interpretation**, CL/Loss declared.                                                                                    |
-| **A5**  | **Spec Drift Retroactivity**   | Update to a recipe is assumed to modify past executions.              | Violates temporal honesty; breaks auditability.                             | Past **Work** remains as‑was. New **MethodDescription** versions describe future **Work** only; record variant relations if a run deviated.                                                                                 |
-| **A6**  | **Homonym Collapse**           | *Task*, *activity*, *process* used interchangeably across Contexts.      | Imports meaning implicitly; masks losses.                                   | Prefix with **Context** and use **SenseCells**: e.g., *task (IEC)*, *activity (PROV)*, *process (BPMN)*. Any relation uses **Bridges** with CL/Loss.                                                                    |
-| **A7**  | **Signal‑Only Compliance**     | SLO judged solely from actuator traces.                               | Ignores measured outcomes; risks false positives.                           | Tie **SLO** clauses to **Observations** (KD‑CAL) **about Work outcomes**; treat Actuation as an input, not proof.                                                                                                    |
-| **A8**  | **Recipe-as-Role**             | “The Spec assigns responsibility” (mixes MethodDescription with Role constructs — `U.RoleDescription`/`U.RoleAssignment`).  | Conflates the `U.MethodDescription` episteme with behavioural masks.         | Use **F.4 Role Description**; let **MethodDescription** only **describe** a Method.                                                                            |
-| **A9**  | **One‑Context Scope**        | A single Context (e.g., BPMN) used as if it covered control/measurement. | Scope mirage; silent cross‑domain generalisation.                           | Re‑cut Contexts (F.1) to include control and sensing. Re‑express statements with the quartet across those Contexts.                                                                                                        |
-| **A10** | **Lossless Bridge Assumption** | Claiming “equivalent” across Contexts without Loss.                      | Hides mismatches; unsafe transfer of inferences.                            | In **F.7/F.9** declare Bridge **kind**, **CL**, and explicit **Loss** notes.                                                                                                                                         |
-| **A11** | **Recipe-as-Kind**             | Treating a MethodDescription vocabulary as a method-kind taxonomy.                  | Category error; confuses description wording with method kindhood.                                           | If a stable hierarchy of **kinds** of Methods is needed, use admission under E.24.UK and C.3 with an ontic and bridge record; keep MethodDescription as *description* only.                                                                                   |
-| **A12** | **Actuation Outside Work**     | Commands modeled without enclosing Work.                              | Severs signal from enactment context; breaks traceability.                  | Embed **Actuation** **within** **Work** intervals; relate to the enacting Role and Method or MethodDescription references.                                                                                                     |
+| # | Anti-pattern | Symptom | Why harmful | Remedy |
+| --- | --- | --- | --- | --- |
+| **A1** | Design as occurrence | “The process achieved X” points to a diagram. | MethodDescription becomes Work. | Name the description and the actual Work separately. |
+| **A2** | Approval as evidence | “Approved SOP, therefore target satisfied.” | A status about a description replaces outcome evidence. | Use observations of Work and the relevant evaluation relation. |
+| **A3** | Work as record | `U.Work` is described as the record of an event. | Occurrence, episteme, and carrier collapse. | Keep Work actual; model report or record separately. |
+| **A4** | Work = control output | A setpoint log is treated as the full execution. | Conditions, delays, and other Work facts disappear. | Name Work and its outputs separately. |
+| **A5** | Universal Actuation | Every case receives an `Actuation` box or kind. | Domain-specific outputs are forced into a false umbrella. | Use the direct control or transformation pattern and actual output kind. |
+| **A6** | Generic Bridge transfer | A Bridge is said to transfer facts between Method, description, Work, and output. | Different relation families collapse. | State MethodDescription membership, enactment, performed-Work, description-use, output, observation, or evidence claims under their own patterns. |
+| **A7** | Source-word collapse | *Task*, *activity*, and *process* are interchanged by label. | Source-local claims vanish. | Recover exact meanings; use F.9 only for an actual semantic relation. |
+| **A8** | Recipe as system role | A description is said to assign responsibility. | MethodDescription and system-role assignment collapse. | Use F.4 and F.6 for kind and assignment; A.3.2 only for description. |
+| **A9** | `System-in-Role` shorthand | The acting participant is a mask-like pseudo-object. | System, kind, assignment, and Work attribution disappear. | Name those four claims separately where material. |
+| **A10** | Retroactive description | A new description version is assumed to change past Work. | Historical occurrence claims become unstable. | Keep past Work and its actual description-use evidence unchanged. |
+| **A11** | Signal-only compliance | Commands are treated as proof of outcome. | Intended influence replaces observed result. | Use observations under C.16 and evidence relations under A.10 and B.3. |
+| **A12** | MethodDescription as kind | A description vocabulary is treated as a taxonomy of Methods. | Description and kindhood collapse. | Establish any kind claim through C.3 and A.3 and keep the description separate. |
 

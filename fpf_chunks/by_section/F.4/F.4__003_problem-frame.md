@@ -6,12 +6,12 @@ section_id: "F.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:1 — Problem Frame"
-line_start: 91768
-line_end: 91775
+line_start: 91380
+line_end: 91387
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -47,7 +47,7 @@ keywords:
 
 ### F.4:1 - Problem Frame
 
-A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare local kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need the bounded contribution identity, current `KindSignature`, effective scheme, first recognition cues, and boundary to neighboring claims.
+A local system-role kind often needs a recognizable description before people can classify a candidate, assign a system, compare local kinds, or use the kind in a Method condition. A name such as `InspectorSystemRole` is not self-explanatory. Readers need the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, effective scheme, first recognition cues, and boundary to neighboring claims.
 
 The recurring failure is to make the description carry too much. A compact card is tempting: put kind, status, permission, responsibility, evidence, capability, Method, assignment, Work, and publication cues into one “assignable” template. That convenience creates duplicate ontology. A standard used as a requirement source becomes a “standard role”; a report used as evidence becomes an “evidence role”; an access-control label becomes a system-role kind; a kind name becomes proof of capability or performed Work.
 

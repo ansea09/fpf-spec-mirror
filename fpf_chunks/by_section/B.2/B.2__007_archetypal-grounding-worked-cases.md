@@ -6,12 +6,12 @@ section_id: "B.2:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__007_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:5 — Archetypal Grounding (Worked Cases)"
-line_start: 37447
-line_end: 37507
+line_start: 37164
+line_end: 37224
 dependencies:
   - "A.1"
   - "A.10"
@@ -52,14 +52,14 @@ Existing-whole repair may be enough if only a sensor improved or a controller pa
 
 ```text
 MHTTriggerProfile@Control : U.Episteme
-  EntityOfConcernSlot: plant-plus-devices configuration
+  entityOfConcernRef: plant-plus-devices configuration
   content:
     changedSupervisionRelationRefs: closed feedback relation
     changedObjectiveClaimRef: maintain output y near reference r
     changedCapabilityClaimRef: capability envelope after closure
 
 HolonReidentificationRecord@Control : U.Episteme
-  EntityOfConcernSlot: regulated control system
+  entityOfConcernRef: regulated control system
   content:
     existingWholeRef: plant-plus-devices configuration
     selectedTriggerProfileRef: MHTTriggerProfile@Control
@@ -71,7 +71,7 @@ HolonReidentificationRecord@Control : U.Episteme
     changedClaimPatternLocators: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
 ```
 
-`EntityOfConcernSlot` belongs to the ordinary C.2.1 episteme-slot relation. The indented content names references carried by each episteme; those labels are not participant SlotKinds of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
+The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
 
 #### B.2:5.2 - Compendium Becomes Theory
 

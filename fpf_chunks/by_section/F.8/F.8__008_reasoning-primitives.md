@@ -6,12 +6,12 @@ section_id: "F.8:6"
 section_title: "Reasoning Primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__008_reasoning-primitives.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:6 — Reasoning Primitives"
-line_start: 93174
-line_end: 93221
+line_start: 92742
+line_end: 92789
 dependencies:
   - "A.11"
   - "A.15"

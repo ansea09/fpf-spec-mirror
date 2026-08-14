@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.15.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
-line_start: 79455
-line_end: 79640
+line_start: 79274
+line_end: 79460
 dependencies:
   - "A.10"
   - "B.3"
@@ -31,7 +31,7 @@ keywords:
 
 > *Author patterns as evidence‑bearing epistemes, evolve them via governed open‑ended search, and publish an auditable trace that improves quality—not just compliance.*
 
-### E.15:1 - Context
+### E.15:1 - Problem frame
 
 FPF patterns are the **canon**: they define the generative rules that other artifacts depend on. Teams need to **change** patterns as the SoTA moves, but ad‑hoc edits lead to drift, low comparability, and brittle downstream updates. We need a **method** that (a) *generates* better alternatives, (b) *selects* them against explicit quality/assurance targets, and (c) *publishes* a machine‑ and human‑checkable **trace** that can be replayed, audited, and re‑run. (Built to cohere with **DRR (E.9)**, **LEX‑BUNDLE (E.10)**, **Canonical Evolution Loop (B.4)**, **NQD/E‑E (C.18 and C.19)**, **Evidence Graph Referring (A.10)**, **Trust (B.3)**, **F‑Suite validation (F.15)**.)
 
@@ -50,7 +50,7 @@ Without a disciplined authoring protocol:
 | ------------------------------------------- | --------------------------------------------------------------------------------- |
 | **Generativity vs Assurance**               | Open‑ended idea generation must not erode safety/traceability.                    |
 | **SoTA speed vs Canon stability**           | Frequent small updates must preserve conceptual integrity and roll‑up invariants. |
-| **Local meaning vs Global reuse**           | Context‑local meaning must cross contexts only via **Bridges** with CL penalties. |
+| **Local meaning vs durable reuse** | Recover meaning from the exact source and edition; use F.17 only for a durable local-sense address and F.9 only for an actual relation between distinct local senses. |
 | **Notational independence vs Checkability** | Text must stay notation‑free yet be verifiable by Tooling harnesses.              |
 
 ### E.15:4 - Solution — A *governed evolutionary* authoring method with a publishable **LEX‑AUTH Trace (LAT)**
@@ -59,9 +59,10 @@ LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated,
 
 #### E.15:4.1 - Method (design‑time choreography)
 
-**Stage A — Frame & Scope (Context, Objectives, Invariants)**
+**Stage A — Frame and Scope (Question, Intended Use, Objectives, Invariants)**
+**Historical record recovery.** Keep an old LAT, Context Card, and the claims it represents immutable under their original edition. When a current use relies on one, recover only the exact source and edition, effective `ReferenceScheme`, local claim, `ClaimScope`, and any method, model, criterion, or other subject-defined value that the use actually needs. Author a successor only from evidence. If an exact needed value cannot be recovered, return that value as unresolved; do not fill it from a card label or a newer edition. Reopen only the claims or actions that depended on the changed or missing value. An edition-number change alone does not reopen unrelated use.
 
-1. **Anchor** the work in a **`U.BoundedContext`** for the spec (e.g., `FPF/Core`), cite governing guard‑rails (**E.5.\***), and state **objectives** for the change (e.g., clarity ↑, universality ↑, assurance cost ↓).
+1. **Frame** the exact pattern and edition, receiving question and intended use, applicable `ClaimScope`, and the selected scheme, source, model-use structure, or subject-specific situation only when it changes the work. Cite the applicable guardrails in **E.5.***, and state objectives for the change, such as clearer language, wider useful application, or lower assurance cost.
 2. **Declare the Delta‑Class** (see §4.3) and **impact radius** (dependent patterns, bridges, tests).
 3. **Fix acceptance targets** (see §4.4 Quality & SoTA metrics).
 
@@ -70,8 +71,8 @@ LEX‑AUTH defines **how** a pattern is **proposed, varied, selected, validated,
 5. **Generate candidate variants** using **NQD‑CAL** engines (Novelty/Quality/Diversity) with an **E/E policy** (explore↔exploit governor) to populate a **Pareto front** of pattern phrasings/structures. *(No single shot; multiple candidate clauses compete.)*
 
 **Stage C — Shape & Align (Structure, Bridges, USM)**
-6. **Shape** top candidates into the standard **architectural template** (Context → Problem → Forces → Solution → CC → Consequences → Rationale), obeying **LEX‑BUNDLE** (no tooling jargon; twin registers allowed).
-7. **Bridge across Contexts** explicitly (F.9): any imported definitions/claims declare **CL** and *loss notes*; propose scoped **narrowing** where needed.
+6. **Shape** top candidates into the standard **pattern template** (Problem frame → Problem → Forces → Solution → CC → Consequences → Rationale), obeying **LEX‑BUNDLE** (no tooling jargon; twin registers allowed).
+7. **Relate local meanings only when needed.** Recover the exact source-local claims first. When the candidate actually relies on a relation between distinct F.17 cells, use F.9 to state that relation, its admitted use, and its loss or limits. A source import or shared word alone creates no Bridge.
 8. **Type scopes** with **USM (A.2.6)**: keep **ClaimScope (G)** distinct from **WorkScope**; no “applicability/envelope” smuggling.
 
 **Stage D — Validate & Decide (Assurance, Tests, DRR)**
@@ -91,25 +92,25 @@ A LAT is **not** “we ran a script.” It is a **structured episteme** that let
 
 **LAT minimal contents (publish with the pattern):**
 
-1. **Context & version** (pattern id, context, SemVer, Delta‑Class).
+1. **Pattern and use identity** (pattern id and edition, intended use, `ClaimScope`, selected scheme or source, and any model-use structure that materially changes the use, plus SemVer and Delta-Class).
 2. **Objective vector** (what we tried to improve: clarity, universality, assurance cost, etc.).
 3. **SoTA pack** (sources bound through evidence-use relations with claim/scope/time and polarity).
 4. **NQD settings** (emitters/lenses, diversity characteristics) + **E/E policy** used.
 5. **Candidate set** (top K variants with NQD scores + short deltas from baseline).
-6. **Bridge ledger** (all cross‑context imports with **CL** and loss notes).
+6. **Cross-local relation account** (each actually consumed F.9 relation between distinct F.17 cells, with admitted use and loss notes; ordinary source imports need no fictitious Bridge).
 7. **Assurance delta** (Δ⟨F,G,R⟩ from baseline; penalties from CL applied).
 8. **Harness results** (checks passed/failed, test diffs).
 9. **DRR link** (decision rationale id).
 10. **Refresh policy** (evidence decay windows and triggers).
 
 **Uses of the LAT:**
-*Reproducibility* (re‑run B‑stages as SoTA changes), *assurance* (explicit impact on F/G/R), *portfolio health* (diversity/coverage), *teaching* (didactic before/after), and *cross‑context safety* (no silent imports).
+*Reproducibility* (re-run B-stages as SoTA changes), *assurance* (explicit impact on `F`, `G`, and `R`), *portfolio health* (diversity and coverage), *teaching* (didactic before-and-after), and *cross-local honesty* (no relation inferred from shared wording or source import).
 Publish the pattern with its **DRR**, and publish the **LAT** as the separate authoring/evidence record for the change. The LAT carries the reproducible authoring trace and cites the DRR as the governing decision record. The DRR remains complete without LAT citations; it may summarize already-available decisive evidence by value when that evidence materially shaped the content choice. If later LAT or refresh evidence motivates a reopened or revised choice, carry that evidence into the successor DRR or other admissible decision record rather than retrofitting the accepted DRR.
 
 **Example of a LAT‑stub**
 ```
 LAT:
-  context: FPF/Core, pattern: F.15, semver: x.y+1, delta-class: Δ‑2
+  pattern: F.15, basis: FPF/Core@<edition>, intended-use: <named use>, claim-scope: <scope>, semver: x.y+1, delta-class: Δ-2
   objectives: {clarity↑, universality↑, assurance-cost↓}
   SoTA-pack: {OpenAlex 2025‑Q3, SPECTER2‑23, DPP‑2019, MAP‑Elites‑2015+}
   NQD-settings: {CharacteristicSpace: domain‑family × …, grid: CVT@k=16}
@@ -118,7 +119,7 @@ LAT:
   assurance‑delta: ΔF=+, ΔG=+, ΔR=+ (after CL‑penalties=0)
   harness: LEX‑BUNDLE lint pass; F‑suite pass; Γ‑consistency ok
   DRR-id: DRR‑2025‑09‑DFCM‑roll‑in
-  refresh: F1‑Card edition refresh window = 6 mo
+  refresh: {source-cut-policy: <policy-id>@<edition>, reopen-on: [receiving question or use, relied source edition, known rival explanation, action-changing counterexample, transfer boundary]}
 ```
 
 #### E.15:4.3 - What counts as “changed the pattern as a whole” — **Delta‑Classes & versioning**
@@ -140,17 +141,17 @@ Classify the intended change **before** work starts (declare it in the DRR frami
 * **Universality** (C‑1): *≥3 heterogeneous domains* anchored in the Archetypal section.
 * **Lexical discipline** (E.10): 0 violations (DevOps lexicon, process/function conflations).
 * **Assurance delta**: ΔF (formality), ΔG (scope clarity), ΔR (reliability after CL penalties).
-* **Bridge integrity**:  Bridge integrity (policy lens): declare minimum CL thresholds per Context policy; penalties route to R only (B.3/F.9); record policy‑id in LAT.
+* **Cross-local relation integrity**: when an actual F.9 relation between distinct local senses is consumed, name the relation, admitted use, loss notes, and applicable CL policy; penalties route to `R` only under B.3 and F.9, and the policy id is recorded in LAT.
 * **Test conformance**: F‑suite pass; RSCR clean.
 * **Exploration health** (NQD): diversity coverage > threshold; no premature convergence.
 * **Didactic economy**: length vs density ratio within band; “Tell‑Show‑Show” present.
 
-**Optional lenses** (context‑specific): *Ethical/SoD guard strength; cross‑scale roll‑up integrity; aggregation proofs present;* etc.
+**Optional lenses** (selected for the subject and intended use): *ethical and separation-of-duties guard strength; cross-scale roll-up integrity; aggregation proofs present;* etc.
 
 ### E.15:5 - Conformance Checklist (normative)
 
-**CC‑LA‑1 (Context anchoring).**
-Every authoring run **MUST** declare a `U.BoundedContext`, Delta‑Class, objectives, and acceptance lenses **before** generating candidates.
+**CC‑LA‑1 (Exact frame and intended use).**
+Every authoring run **MUST** name the exact pattern and edition, receiving question and intended use, `ClaimScope`, Delta-Class, objectives, and acceptance lenses before generating candidates. It names a scheme, source, model-use structure, or subject-specific situation only when that value changes the work.
 
 **CC‑LA‑2 (SoTA as evidence).**
 External inputs **MUST** be bound through evidence-use relations around source epistemes with **claim, claim‑scope, polarity, timespan** (formal/empirical lines). No raw links.
@@ -159,7 +160,7 @@ External inputs **MUST** be bound through evidence-use relations around source e
 At least **K≥3** candidate variants **MUST** be generated via **NQD‑CAL** with a declared **E/E policy**; single‑shot edits violate LEX‑AUTH.
 
 **CC‑LA‑4 (Bridges & CL).**
-Any cross‑context reuse **MUST** appear in a **Bridge** with **CL** and *loss notes*. CL penalties apply to **R‑lane** when scoring.
+When a candidate actually relies on a relation between distinct F.17 local-sense cells, that relation **MUST** be stated through F.9 with its admitted use and loss notes. CL penalties apply to the R-lane when scoring. Shared wording, a source import, or an edition change alone does not establish a Bridge.
 
 **CC‑LA‑5 (Harness).**
 The candidate winner **MUST** pass **LEX‑BUNDLE** lint, **SCR/RSCR** tests, Γ‑consistency, and SoD/RSG gates where applicable.
@@ -179,14 +180,14 @@ Publish the **pattern + LAT** together; past LATs are immutable. New runs produc
 ### E.15:6 - Consequences
 
 **Benefits.**
-*Evolutive quality*: patterns improve through **search + selection**, not edits by fiat. *Auditability*: a re‑runnable **LAT** shows *why* the chosen variant won. *Safety*: cross‑context reuse is explicit and penalized appropriately. *Comparability*: Δ‑classes & SemVer let downstream readers predict blast‑radius.
+*Evolutive quality*: patterns improve through **search + selection**, not edits by fiat. *Auditability*: a re-runnable **LAT** shows *why* the chosen variant won. *Safety*: actually consumed cross-local relations are explicit and proportionately checked. *Comparability*: Delta-classes and SemVer let downstream readers predict blast radius.
 
 **Trade‑offs.**
 Some ceremony (LAT/DRR, NQD lenses) and maintenance (evidence refresh, bridge upkeep). These costs buy reproducibility and SoTA tracking.
 
 ### E.15:7 - Rationale & Links (informative)
 
-LEX‑AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** through evidence-use relations and **KD‑CAL**, drives **candidate generation** with **C.18 NQD‑CAL** under **C.19 E/E‑LOG**, enforces **lexical discipline** via **E.10 LEX‑BUNDLE**, and validates with **F.15** regression harnesses. Cross‑context safety is carried by **F.9 Bridges** with **CL penalties** in **B.3 Trust**. The whole remains **notation‑independent** (E.5.2) and stays within the **Core → Tooling → Pedagogy** dependency rule (E.5.3).
+LEX-AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** through evidence-use relations and **KD-CAL**, drives candidate generation with **C.18 NQD-CAL** under **C.19 E/E-LOG**, enforces lexical discipline via **E.10 LEX-BUNDLE**, and validates with **F.15** regression harnesses. When the work consumes an actual relation between distinct source-local meanings, F.9 carries that relation and B.3 carries any assurance penalty. The whole remains notation-independent (E.5.2) and stays within the Core → Tooling → Pedagogy dependency rule (E.5.3).
 
 ### E.15:8 - Operators (authoring deltas you are allowed to apply)
 
@@ -201,7 +202,7 @@ Each operator carries a default **Delta‑Class** and test obligations.
 
 > *This is **not** chain‑of‑thought; it is the required **`U.Work` evidence** for LEX‑AUTH.*
 
-**Context.** `FPF/Core` (Canon); **Delta‑Class:** Δ‑2 (normative refinement by addition of method & CCs).
+**Historical run basis.** The original run recorded `FPF/Core` as its Context; retain that field as historical wording under that LAT edition. A current reliance recovers the exact FPF/Core edition and only the source, scheme, claim, scope, and other values it needs. **Delta-Class:** Δ-2 (normative refinement by addition of method and CCs).
 **Objectives.** Add an *evolutionary* authoring method; make trace *useful* (quality‑bearing); align with SoTA machinery already in spec.
 **SoTA pack (evidence bound).** Prior FPF kernel commitments to **DRR (E.9)**, **E.10 LEX‑BUNDLE**, **B.4 Evolution**, **C.18 and C.19** NQD/E‑E, **F.15** harness, **F.9** Bridges, **B.3** Trust; these are treated as the authoritative internal SoTA for the Canon here.
 **NQD/E‑E.** Generated ≥3 alternative Solution sections; finalist chosen for clearer Δ‑classes and actionable LAT contents.

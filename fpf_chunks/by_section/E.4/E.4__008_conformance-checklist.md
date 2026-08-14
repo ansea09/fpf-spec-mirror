@@ -6,12 +6,12 @@ section_id: "E.4:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:7 — Conformance Checklist"
-line_start: 70400
-line_end: 70411
+line_start: 70224
+line_end: 70235
 dependencies:
   - "C.33"
   - "C.34"
@@ -45,7 +45,7 @@ keywords:
 | Check | Passing condition |
 | --- | --- |
 | CC-E4.1 Family member named | The work names whether it concerns Core, Tooling Reference, Pedagogical Companion, foundational principle pattern set, First Principles Framework edition, FPF Core, domain principle framework, or local practice framework. |
-| CC-E4.2 Selected structures named | The family-and-structure map names the selected problem-situation, known-failure, SoTA solution-move, pattern-set, relation, decision, publication/access, source, quality, dependency, and currentness structures that matter for the claim. |
+| CC-E4.2 Selected structures named | The family-and-structure map names its intended use and the problem-situation, known-failure, SoTA solution-move, pattern-set, relation, decision, publication, access, source, quality, dependency, and currentness structures that matter for the claim. Cite a source, pattern host, publication relation, or bounded model-use structure only when the map uses that independently established value. |
 | CC-E4.3 E.5.3 respected | Dependency direction points toward more stable framework editions, and Core does not depend on domain or local frameworks. |
 | CC-E4.4 Publication/access separated | All-in-one carriers, tables of contents, cards, readmes, skill packs, MCP-backed routes, retrieval routes, assistant integrations, and views are distinct publication, access, or discoverability records; apply the relevant pattern to each claim about them. |
 | CC-E4.5 Exact predicate and assertion named | Pattern-use, relation, dependency, decision, naming, source, currentness, quality, and preservation claims each name their exact predicate and subject assertion; a pattern identifier is only the locator for the next question's defining or constraining ClaimGraph. |

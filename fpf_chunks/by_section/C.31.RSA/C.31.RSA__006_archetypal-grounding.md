@@ -6,12 +6,12 @@ section_id: "C.31.RSA:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__006_archetypal-grounding.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:5 — Archetypal Grounding"
-line_start: 64073
-line_end: 64157
+line_start: 63818
+line_end: 63910
 dependencies:
   - "A.10"
   - "A.19"
@@ -61,13 +61,21 @@ Each customer delivery still repeats approval work and bespoke integration excep
 
 ```text
 describedHolonRef: product-line delivery system
-boundedContextRef: regulated customer deployments, current qualification window
-architectureClaimRef: ArchitectureOf@Context(product-line delivery)
-structureRefs or structuralAspectRefs:
+reuseQuestion: which selected structures are reused and where does bespoke residue grow?
+deploymentBoundary: regulated customer deployments
+intendedAccountingUse: decide the next reusable-structure repair
+claimScopeRef: reusable-structure accounting for regulated delivery
+qualificationWindowRef: 2026Q3 regulated-delivery review window
+architectureClaimRef: C.30 architecture claim for the product-line delivery system and its selected delivery structures
+structureRefs:
   component template structure
   interface grammar structure
   evidence package structure
   delivery work structure
+accountingRelationRefs:
+  reuse, exception, and bespoke-residue relations for the named deployments
+evidenceRefs:
+  deployment, approval, integration-exception, and reusable-test-package records
 whereReusableStructureCurrentlyLives:
   component template structure
   reusable test package
@@ -82,7 +90,7 @@ residueAcceptedAsBoundedException:
   customer-specific regulatory clause with declared non-admissible reuse
 sourceReturnCondition:
   return to deployment evidence and regulatory exception record before assurance or gate use
-relatedClaimGovernanceIfClaimed:
+relatedClaimPatternsIfClaimed:
   `A.10` and `G.6` for evidence validity; `B.3` for assurance reliance; `A.6.M` for interface grammar; `C.16` if comparison is being made
 stopCondition:
   report-only accounting unless comparator admission, evidence validity, and assurance validity are declared

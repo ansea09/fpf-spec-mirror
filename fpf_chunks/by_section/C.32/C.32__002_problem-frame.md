@@ -6,12 +6,12 @@ section_id: "C.32:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:1 — Problem frame"
-line_start: 64587
-line_end: 64683
+line_start: 64340
+line_end: 64442
 dependencies:
   - "A.10"
   - "A.15"
@@ -83,7 +83,11 @@ Typical entry phrases:
 
 **First-minute use slice.** A regulated product-family team has a C.30-grounded architecture question for one exact field-device-family holon. The question names its current obtaining `ArchitectureRelation` occurrences and their selected structures separately from candidate or expected structures stated only in the current `ArchitectureClaim`. The work question is synthesis: how should required functions, constructive modules, field placement, control responsibility, and certification evidence be coordinated so maintainability, substitutability, latency, and evidence reuse stay acceptable? Using C.32, the practitioner first builds a synthesis structure map, then records three candidate configurations: one shared module grammar with tighter evidence scope, one product-family split with lower interface burden, and one bounded exception that keeps the existing module split but changes evidence responsibility and reopen trigger. The team now has candidate architecture configurations under declared characteristics, not one attractive platform proposal and not new obtaining architecture relations by candidate wording.
 
-The primary `EntityOfConcern` is the local candidate architecture palette for one C.30-grounded synthesis question. Its architecture-side inputs are one described holon, any obtaining `ArchitectureRelation` occurrences and their selected `U.Structure` participants, and any separately identified candidate, required, desired, or expected structures carried only in a truthful `ArchitectureClaim`. The described holon can be a system, product family, organization-as-system, discipline, AI-agent setup, built asset, episteme, Work occurrence, or another admitted holon kind when the FPF admission predicate permits that use. Source labels such as practice, culture, tradition, style, Method, or role enter C.32 only after subject assertions recover the admitted holon or the actual Method relation structure, relation among local system-role kinds, classification, assignment, Work structure, episteme, bounded context, or C.36 cultural-evolution relation. Unresolved claim-bearing “role” wording goes through `E.10.ROLE`. Architecture pressure may concern Method-family structures, relations among local kinds, classifications, or assignments, but C.32 treats them as selected structures or adjacent subject-qualified values around a described holon or bounded context, not as admitted holon kinds or function bearers by label. C.32 is not software-system architecture by default; software-system sources are one source family and one domain example.
+The primary `EntityOfConcern` is the candidate architecture palette for one C.30-grounded synthesis question. Its inputs are the described holon, any obtaining `ArchitectureRelation` occurrences and their selected `U.Structure` participants, and any candidate, required, desired, or expected structures stated only in an `ArchitectureClaim`.
+
+The described holon may be a system, product family, organization-as-system, discipline, AI-agent setup, built asset, episteme, Work occurrence, or another admitted holon kind. Do not admit a source label as a holon. For example, *practice*, *culture*, *tradition*, *style*, *Method*, or *role* may refer to a Method, Method relation structure, relation among local system-role kinds, classification, assignment, Work structure, episteme, source-local meaning, or C.36 cultural-evolution relation. Recover the actual object and claim through its subject pattern; route unresolved claim-bearing *role* wording through `E.10.ROLE`.
+
+ClaimScope and a bounded model-use structure qualify the named use; neither becomes the holon. Architecture pressure may concern Method-family structures, relations among local kinds, classifications, or assignments. Keep each as a selected structure or separate input for the named architecture use, not as a holon kind or function bearer by label. C.32 is not software-system architecture by default; software-system sources are one source family and one domain example.
 
 What goes wrong if C.32 is missed: the team optimizes one visible structure, such as modules, placement, team responsibility, control relation, or evidence package, and then treats that local improvement as architecture synthesis. The competing structures, architecture characteristics, losses, and alternatives disappear before they can be compared.
 
@@ -105,7 +109,7 @@ Common exits by claim kind:
 
 The first useful output is `CandidateArchitecturePalette@Project`. It is the project working record for candidate-palette construction. The name does not introduce a new `U.*` kind, and the record does not carry selection, publication, evidence, assurance, or decision authority.
 
-For a first pass, fill only the described holon, bounded context, synthesis question, synthesis structure map, live architecture-characteristic rows, candidate configurations, and palette stop condition. Add optional refs only when they change the next use of the palette:
+For a first pass, fill only the described holon, synthesis question, intended palette use, current architecture relations and selected structures that change the question, synthesis structure map, live architecture-characteristic rows, candidate configurations, and palette stop condition. Add ClaimScope or a bounded model-use structure only when it changes synthesis; add other optional refs only when they change the next use of the palette:
 
 ```text
 CandidateArchitecturePalette@Project:
@@ -116,8 +120,10 @@ CandidateArchitecturePalette@Project:
   architectureClaimRef?: C.30 ArchitectureClaimRef when a durable actual, candidate, required, desired, or expected claim is current
   currentArchitectureRelationRefs[]?: exact obtaining C.30 ArchitectureRelation refs only
   currentSelectedStructureRefs[]?: the U.Structure participants of those obtaining relations
-  boundedContextRef:
   synthesisQuestion:
+  intendedPaletteUse:
+  claimScopeRef?: U.ClaimScope
+  boundedModelUseStructureRef?: A.1.1 BoundedModelUseStructure, only when its organization changes synthesis
   architectureSynthesisFrameRef?:
   synthesisStructureMap:
     - structureKindRef:

@@ -6,12 +6,12 @@ section_id: "A.6.RCD:5"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RCD/A.6.RCD__007_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.RCD — Needed Relation Claim Derivation and Relation-Kind Admission"
   - "A.6.RCD:5 — Archetypal Grounding — Worked Cases"
-line_start: 17190
-line_end: 17253
+line_start: 16884
+line_end: 16947
 dependencies:
   - "A.11"
   - "A.6.0"
@@ -23,6 +23,7 @@ dependencies:
   - "C.29"
   - "E.24"
   - "E.24.UK"
+  - "F.17"
   - "F.18"
   - "F.9"
   - "G.11"
@@ -50,7 +51,7 @@ No production or entity-inception claim is current because `Housing_42` already 
 
 **Discriminating failures.** `Work_DeliverHousing42` can occur and `Housing_42` can be in the target post-state while `PromiseContentUse` is absent or concerns another promise edition; then `PromisedOutcomeDeliveryRelation` for this promised outcome does not obtain and the promise is not fulfilled. Or the delivery relation can obtain while one acceptance condition is false; an `accepted` label or report cannot repair that failure. Missing evidence leaves reliance on the assertion unresolved; it creates neither fulfilment nor non-fulfilment.
 
-**Disposition and stop.** Stop at disposition 1 under A.2.3. No new compound-law episteme, predicate definition, relation kind, or `RelationSignature` is needed. Open A.6.REL only if a later use must distinguish this fulfilment occurrence from another occurrence of the same admitted relation.
+**Disposition and stop.** Stop at disposition 1 under A.2.3. No new compound-law episteme, predicate definition, relation kind, or `RelationSignature` is needed. Use A.6.REL only if a later use must distinguish this fulfilment occurrence from another occurrence of the same admitted relation.
 
 #### A.6.RCD:5.2 - System-role assignment and performed Work: use A.2.1 and F.6 directly
 
@@ -74,7 +75,7 @@ No production or entity-inception claim is current because `Housing_42` already 
 
 **Discriminating failure.** A graph representation contains a visual or stored path, but one edge points in the wrong direction, denotes a different base relation, or belongs to a superseded structure edition. Representation connectivity therefore does not satisfy the reachability predicate.
 
-**Disposition and stop.** The one-off query stops at disposition 2. Repeated use confined to one exact structure stops at disposition 3's subject-bounded branch. Cross-structure reuse stops at disposition 3's reusable predicate-definition branch and may add ordinary A.6.0 `U.Signature` membership. If a subject practice later needs reachability occurrences with action-facing identity, recurrence, continuation, or participation in another relation, A.6.RCD returns a derived reachability-kind candidate plus a proposed direct subject settlement; `E.24` and `E.24.UK` decide admission, with `A.11` applied when parsimony is current. Only an admitted relation kind opens `RelationSignature`. Path identity, query-result-row identity, predicate-definition identity, subject-structure identity, and relation-occurrence identity are not interchangeable.
+**Disposition and stop.** The one-off query stops at disposition 2. Repeated use confined to one exact structure stops at disposition 3's subject-bounded branch. Cross-structure reuse stops at disposition 3's reusable predicate-definition branch and may add ordinary A.6.0 `U.Signature` membership. If a subject practice later needs reachability occurrences with action-facing identity, recurrence, continuation, or participation in another relation, the A.6.RCD application records a derived reachability-kind candidate plus a proposed direct subject settlement; apply the E.24 and E.24.UK admission tests and the A.11 parsimony test when current. Create a `RelationSignature` only for an admitted relation kind. Path identity, query-result-row identity, predicate-definition identity, subject-structure identity, and relation-occurrence identity are not interchangeable.
 
 #### A.6.RCD:5.4 - Formal and probabilistic result use: preserve separate algebras
 
@@ -82,7 +83,7 @@ No production or entity-inception claim is current because `Housing_42` already 
 
 **Base and derivation.** Keep the formal result in its formal substrate and the probabilistic result in its probability substrate. State the two result-use assertions under their exact predicates in one `C.2.1` episteme whose exact `EntityOfConcern` is the engineering decision-work occurrence. The formal and probabilistic result epistemes remain distinct used results; neither their pair nor a union of nearby objects replaces that concern.
 
-No `F.9` Bridge is needed for this case as stated: the two result epistemes enter the decision through two separately stated direct use relations, while neither claim content nor algebraic meaning is transported across a `U.BoundedContext` or ReferencePlane or combined into one predicate.
+No `F.9` Bridge is needed for this case as stated: the two result epistemes enter the decision through two separately stated direct use relations, while no relation between distinct F.17 cells or ReferencePlanes is claimed and the contents are not combined into one predicate.
 
 **Positive case.** Both direct use relations obtain for the decision-work occurrence under their own applicability, so the decision rationale can cite each result for its admitted use.
 

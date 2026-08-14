@@ -6,12 +6,12 @@ section_id: "B.1.4:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 36606
-line_end: 36615
+line_start: 36320
+line_end: 36329
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -38,7 +38,7 @@ keywords:
 
 | Overread | Repair |
 | --- | --- |
-| A sequence is treated as physical parthood. | Recover ordered relation refs and use contextual aggregation; use part-whole owners only for part-whole claims. |
+| A sequence is treated as physical parthood. | Recover ordered relation refs and use contextual aggregation; use part-whole patterns only for part-whole claims. |
 | A phase label is treated as a new system level. | Recover the carrier identity and phase relation; use whole reidentification only if B.2.P keeps that claim current. |
 | A planning order is treated as performed work. | Use `A.15.2` for work plan and `A.15.1` for dated work occurrence. |
 | A resource total is placed inside temporal aggregation. | Use `B.1.6` for the work-resource ledger. |

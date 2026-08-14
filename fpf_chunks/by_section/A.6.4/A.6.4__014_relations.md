@@ -6,12 +6,12 @@ section_id: "A.6.4:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__014_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:10 — Relations"
-line_start: 15931
-line_end: 15948
+line_start: 15625
+line_end: 15642
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -34,8 +34,8 @@ keywords:
 
 * **Constrained by.**
   * A.6.5 relation-declaration slot discipline for SlotKind, ValueKind, and RefKind rules.
-  * C.2.1 `U.EpistemeSlotRelation` for episteme components and `EntityOfConcernSlot`/`GroundingHolonSlot`.
-  * E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline; `DescriptionContext`).
+  * C.2.1 for exact claim content, EntityOfConcern, and effective ReferenceScheme, plus any separately current empirical-grounding relation.
+  * E.10.D2 (EntityOfConcern, Description-episteme, describing-use, and specification-use discipline).
   * Part F (Bridges, `KindBridge`, ReferencePlane crossings, CL/CL^plane).
   * E.10 (LEX‑BUNDLE naming rules, especially on `…Slot`/`…Ref` and ban on Subject/Object in episteme tech names).
 

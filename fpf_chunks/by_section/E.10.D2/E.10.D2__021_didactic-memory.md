@@ -6,12 +6,12 @@ section_id: "E.10.D2:19"
 section_title: "Didactic memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__021_didactic-memory.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:19 — Didactic memory"
-line_start: 77463
-line_end: 77475
+line_start: 77282
+line_end: 77294
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ Use the short memory **use, claims, entity, scheme, one needed neighbor**:
 2. **Claims.** What exact ClaimGraph is being used?
 3. **Entity.** What exact independently identified EntityOfConcern are those claims about?
 4. **Scheme.** What effective ReferenceScheme makes the claims readable about that entity?
-5. **One needed neighbor.** Does the next action actually need DescriptionContext, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
+5. **One needed neighbor.** Does the next action actually need a describing-use viewpoint, specification checking, grounding, scope, model-use structure, evidence, edition, currentness, publication, carrier, representation, Bridge, or work use?
 6. **Stop.** Add only that direct relation, or stop after constitution if none is needed.
 
 The older memory “entity, description, admitted specification use” remains a useful three-word reminder, but it is not a three-kind ontology. Entity names the independently governed concern; description names the C.2.1 claim-bearing episteme used descriptively; specification names a checkable use admitted for one receiving purpose.

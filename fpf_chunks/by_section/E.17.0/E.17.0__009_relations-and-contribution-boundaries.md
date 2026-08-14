@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 80353
-line_end: 80368
+line_start: 80210
+line_end: 80225
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -37,7 +37,7 @@ keywords:
 - Use **A.22** to select `S_viewpoint` only when separately versioned convention organization changes a named action, and to select any separately current multi-view structure. E.17.0 supplies Q and candidate relation occurrences for that branch; no pattern or episteme acts.
 - **A.6.3** defines optional source-to-receiving viewing construction, including identity viewing; it does not define view membership.
 - **E.10.D2** defines Description epistemes and specification-use qualification; a describing-use viewpoint selection does not establish conformance.
-- **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only to an exact cross-context SenseCell relation.
+- **F.18** supplies the two relation-kind NameCards; naming metadata neither defines relation semantics nor grants admission. **F.9** applies only when an exact relation between distinct F.17 `SchemeSenseCell` values obtains.
 - **E.17.1** defines exact catalogue epistemes and local family declarations whose members are exact `U.ViewpointRef` values. **E.17.2** supplies the four-position project-local engineering viewpoint authoring template and, only after local materialization, its four exact bindings. A declaration, template position, or reference grants no viewpoint or view membership.
 - **E.24.UK** admits dependent `U.Viewpoint` and `U.View` once for public use; E.17.0 supplies their stable positive membership predicates.
 - **E.24.PUB** defines form expression, carrier bearing, publication availability, and recurrence. **C.29** defines representations and correspondence; neither makes the represented world-side relation obtain.

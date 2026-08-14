@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
-line_start: 63510
-line_end: 63876
+line_start: 63233
+line_end: 63614
 dependencies:
   - "A.10"
   - "A.17"
@@ -57,8 +57,12 @@ The first useful move is deliberately small:
 ```text
 ModularityVectorLite:
   describedHolonRef:
-  boundedContextRef:
+  architectureQuestion:
+  intendedArchitectureUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureClaimRef?:
+  selectedStructureRefs:
   structureKindRefs:
   threeLiveCharacteristicsAtMost:
   observedProblem:
@@ -108,11 +112,18 @@ C.31 defines and constrains modularity and reusable-structure characteristic ass
 ```text
 ModularityVectorLite:
   describedHolonRef:
-  boundedContextRef:
+  architectureQuestion:
+  intendedArchitectureUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureClaimRef?:
+  selectedStructureRefs:
   structureKindRefs:
   threeLiveCharacteristicsAtMost:
     - characteristicRef:
+      characteristicScaleRef?:
+      evidenceRefs?:
+      comparisonBasisRef?:
       currentCue:
       repairDirection:
       claimUseClass:
@@ -129,8 +140,12 @@ The vector is complete enough when it states what can be done next and what cann
 ```text
 ModularityVectorLite:
   describedHolonRef: ProductPlatform@FieldPumpFamily
-  boundedContextRef: FieldServiceAndProcurement@2026Q2
+  architectureQuestion: which structural repair would reduce field-replacement and certification burden?
+  intendedArchitectureUse: choose the next modularity repair for field service and procurement
+  claimScopeRef?: field-service and procurement architecture claims
+  qualificationWindowRef?: 2026Q2
   architectureClaimRef?: ArchitectureOf@PumpControllerPlatform
+  selectedStructureRefs: PumpControllerModuleInterfaceStructure, PumpControllerEvidencePackageStructure
   structureKindRefs: ModuleInterfaceStructure, EvidencePackageStructure
   threeLiveCharacteristicsAtMost:
     - characteristicRef: InterfaceStandardizationShare
@@ -288,7 +303,7 @@ Lower or reopen a `ModularityVectorLite`, `ModularityCharacteristicCard`, or rep
 - proxy audit worsens, such as more integration failures, workarounds, source-return events, stale evidence reuse, or bounded exceptions;
 - measurement basis, comparability basis, scoring method, codomain, polarity, unit policy, or declared characteristic basis changes;
 - evidence relation, evidence-provenance relation, source relation, evidence-claim-absent reason, or source-return condition changes;
-- described holon, bounded context, architecture claim, structure kind, characteristic head, or repair direction changes;
+- described holon, architecture question or intended use, ClaimScope or qualification window, architecture claim, structure kind, characteristic head, or repair direction changes;
 - a report-only proxy is used for comparison, selection, publication, assurance, benchmark, causal-use, cross-case reuse, decision, procurement, or architecture scale-preference;
 - `C.31.RSA`, `C.31.ASAP`, `C.16`, `C.25`, `C.29`, `C.30.STRAT`, `A.6.M`, `C.30`, `C.30.ASV`, `A.10`, `B.3`, `A.20`, `A.21`, `G.5`, or `C.11` changes the boundary for the neighboring claim being made.
 
@@ -302,7 +317,7 @@ Admissible repair results are: keep the result report-only, split or rename the 
 
 **Show.** A DSM or dependency graph can substantiate a modularity interpretation, but the graph does not by itself say which dependency kind matters, what scale applies, whether the interpretation is comparable, or what action follows.
 
-Holon and episteme: architecture and modules are selected structures of described holons; the described holon may be an admitted system, organization-as-system, episteme, work occurrence, bounded context, discipline, or another admitted holon kind. Publication-family material enters through episteme and publication patterns; method descriptions enter as epistemes; method values enter through A.3.1 and their exact relation slots. C.31 heads, cards, vectors, and report-only proxies are characteristic records, declared-measurement-basis records, comparability-basis records, or report-only records about those structures.
+Holon and episteme: architecture and modules are selected structures of described holons for named architecture questions and uses; the described holon may be an admitted system, organization-as-system, episteme, work occurrence, discipline, or another admitted holon kind. Publication-family material uses the episteme and publication patterns. A MethodDescription is an episteme; a Method uses A.3.1, and any relation asserted for it uses the pattern that defines that relation. C.31 heads, cards, vectors, and report-only proxies are characteristic records, declared-measurement-basis records, comparability-basis records, or report-only records about those structures.
 
 ### C.31:6 - Bias-Annotation
 

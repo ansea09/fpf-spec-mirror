@@ -6,12 +6,12 @@ section_id: "E.15:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:3 — Forces"
-line_start: 79472
-line_end: 79480
+line_start: 79291
+line_end: 79299
 dependencies:
   - "A.10"
   - "B.3"
@@ -34,6 +34,6 @@ keywords:
 | ------------------------------------------- | --------------------------------------------------------------------------------- |
 | **Generativity vs Assurance**               | Open‑ended idea generation must not erode safety/traceability.                    |
 | **SoTA speed vs Canon stability**           | Frequent small updates must preserve conceptual integrity and roll‑up invariants. |
-| **Local meaning vs Global reuse**           | Context‑local meaning must cross contexts only via **Bridges** with CL penalties. |
+| **Local meaning vs durable reuse** | Recover meaning from the exact source and edition; use F.17 only for a durable local-sense address and F.9 only for an actual relation between distinct local senses. |
 | **Notational independence vs Checkability** | Text must stay notation‑free yet be verifiable by Tooling harnesses.              |
 

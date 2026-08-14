@@ -6,12 +6,12 @@ section_id: "E.10.D2:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__017_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:15 — Relations"
-line_start: 77398
-line_end: 77414
+line_start: 77217
+line_end: 77233
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -52,7 +52,7 @@ keywords:
 
 **Coordinates with:**
 
-* **E.17.0, E.17, and E.24.PUB.** Govern DescriptionContext selection, viewpoint/view membership, publication occurrence, publication form, and carrier bearing without changing C.2.1 identity.
+* **E.17.0, E.17, and E.24.PUB.** Use E.17.0 for a named describing use's viewpoint selection, viewpoint membership, and view membership; use E.17 and E.24.PUB for publication occurrence, publication form, and carrier bearing. None of these changes C.2.1 identity.
 * **A.2.6 and A.1.1.** Govern claim scope and bounded model-use structure only when the receiving use depends on them.
 * **A.10, B.3, and G.11.** Govern evidence provenance, assurance reliance, and currentness for exact objects and relations.
 * **C.29, A.6.2, A.6.3, A.6.4, and F.9.** Govern representation, episteme morphing, source-to-receiving construction, retargeting, and cross-scheme Bridge semantics without label-only sameness.

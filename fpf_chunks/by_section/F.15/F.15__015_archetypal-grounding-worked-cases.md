@@ -6,12 +6,12 @@ section_id: "F.15:13"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__015_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:13 — Archetypal Grounding - worked cases"
-line_start: 96116
-line_end: 96176
+line_start: 95515
+line_end: 95575
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -72,14 +72,14 @@ The slice contains one service-management status value/use and one uptime-observ
 
 F.15 result:
 
-* SCR-F15-S14 requires F.10 for the status family/value, target, scope, window, source condition, and intended use or its current subject pattern.
+* SCR-F15-S14 requires F.10 for the status family/value, target, scope, window, source condition, and intended use, or the exact defining or testing rule for the current status claim.
 * A named cross-local comparison must pass SCR-F15-S12 and S13; the row or shared `availability` label does not create the Bridge.
 * Observation evidence and A.10 reliance are not the status value, comparison result, assurance claim, or F.15 result.
-* B.3 opens only when its assurance claim or material-reliance threshold is current; the slice establishes no assurance by inclusion.
+* Use B.3 only when its assurance claim or material-reliance threshold is current; the slice establishes no assurance by inclusion.
 
 #### F.15:13.3 - Rename a SystemRoleKindDescription without changing the described kind
 
-`IncidentReviewerSystemRoleKindDescription@t0` and `ServiceIncidentReviewerSystemRoleKindDescription@t1` describe the same exact `IncidentReviewerSystemRole` only if F.4's bounded context, continuing contribution identity, current `KindSignature`, effective scheme, and description claims support that continuity. The names alone do not.
+`IncidentReviewerSystemRoleKindDescription@t0` and `ServiceIncidentReviewerSystemRoleKindDescription@t1` describe the same exact `IncidentReviewerSystemRole` only if F.4's named practice or source boundary, stable work-facing contribution distinction, current `KindSignature`, effective scheme, and description claims support that continuity. The names alone do not.
 
 F.15 result:
 

@@ -6,12 +6,12 @@ section_id: "E.8:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__014_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:9 — Consequences"
-line_start: 73164
-line_end: 73171
+line_start: 72991
+line_end: 72998
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -58,7 +58,7 @@ keywords:
 
 | Benefits | Trade‑offs / Mitigations |
 |----------|-------------------------|
-| **Predictable skeleton** – readers instantly know where to find context, forces, and criteria. | Limits author freedom in macro layout; mitigated by flexibility inside the Solution subsection. |
+| **Predictable skeleton** – readers instantly know where to find the problem frame, forces, and criteria. | Limits author freedom in macro layout; mitigated by flexibility inside the Solution subsection. |
 | **Cohesive voice** – S‑principles give FPF a recognisable style, aiding memorability. | Reviewers must read for style, not only semantics; checklists reduce review effort. |
 | **Embedded pedagogy** – Tell‑Show‑Show and Hook → Close heuristics turn the spec into a self‑teaching text. | Slightly longer patterns; justified by better comprehension and fewer clarifying DRRs. |
 

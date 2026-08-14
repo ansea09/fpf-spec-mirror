@@ -6,12 +6,12 @@ section_id: "A.6.2:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__011_rationale.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:10 — Rationale"
-line_start: 13306
-line_end: 13326
+line_start: 13302
+line_end: 13322
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -36,8 +36,8 @@ keywords:
 
 **Why a separate EFEM pattern (A.6.2) instead of folding into A.6.1 or C.2.1?**
 
-* A.6.1 governs **Mechanisms** (operations with AdmissibilityConditions, Γ_time, transport and Bridges)—too operational for the pure episteme transforms we want here.
-* C.2.1 fixes the **ontology of epistemes** (slots, components, ReferencePlane), but does not talk about morphisms. EFEM is explicitly a **morphism‑level** pattern over that ontology.
+* A.6.1 defines **Mechanism** declarations—operations with AdmissibilityConditions, Γ_time, transport and Bridges—which are too operational for the pure episteme transforms needed here.
+* C.2.1 fixes episteme identity through claim content, exact EntityOfConcern, and effective ReferenceScheme and keeps neighboring direct relations separate, but does not define morphisms. EFEM is a morphism-level pattern over those values and relations.
 
 This split mirrors how Signature (A.6.0) separates “what is declared” from “how it is realised”: C.2.1 says what an episteme is; A.6.2 says what an admissible episteme-to-episteme transform is.
 
@@ -45,11 +45,11 @@ This split mirrors how Signature (A.6.0) separates “what is declared” from �
 
 Because almost all subtle errors in multi‑view reasoning show up as **silent retargeting**: a transform that appears to keep the same EntityOfConcern actually changes it (e.g., from “component assembly” to “function bundle”) without naming the bridge or invariant. By forcing every species to declare `preserve` vs `retarget`, EFEM makes those decisions explicit and reviewable.
 
-**Why attach EFEM to SlotKinds instead of informal “fields”?**
+**Why name actual values and relation effects instead of informal fields?**
 
-FPF already committed to a single SlotKind/ValueKind/RefKind discipline (A.6.5) across relations, methods, roles, and now epistemes. Re‑using that discipline here:
+FPF distinguishes actual participants and their references from the declaration-local SlotKinds used in a reusable `RelationSignature`. Reusing that distinction here:
 
-* aligns episteme morphisms with the rest of the framework;
-* enables mechanised checks (e.g., that a viewing only touches slots it promised to touch);
-* avoids minting yet another notion of “parameter” or “role in a relation”.
+* aligns episteme morphisms with the framework's direct-relation architecture;
+* enables checks that an EFEM species changed only the identity values and neighboring relations it declared; and
+* avoids minting another generic parameter, field, or relation-role vocabulary.
 

@@ -6,12 +6,12 @@ section_id: "D.3:3"
 section_title: "Collection and Episteme Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__006_collection-and-episteme-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:3 — Collection and Episteme Cases"
-line_start: 69217
-line_end: 69222
+line_start: 69016
+line_end: 69021
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,5 +37,5 @@ keywords:
 
 A collection is ethically current only when whole-level characteristics, membership relations, environment-mediated effects, or aggregate consequences matter. Use `A.14` for part-whole and membership relation vocabulary and `C.13` for constructive grounding. Do not assign responsibility to a collection merely because it has a plural name.
 
-An episteme is ethically current when its claim-bearing structure, source-use relation, publication relation, described EntityOfConcern, or model family changes affected systems or decisions. Use `C.2.1` for the episteme slot relation and `E.17` for publication claims. Do not turn every ethical conflict over a theory, standard, architecture description, or policy description into a problem about wording.
+An episteme is ethically current when its claim-bearing structure, source-use relation, publication relation, described EntityOfConcern, or model family changes affected systems or decisions. Use C.2.1 for episteme identity and for the exact constitution, empirical-grounding, or edition relation that the claim actually uses, and E.17 for publication claims. Do not turn every ethical conflict over a theory, standard, architecture description, or policy description into a problem about wording.
 

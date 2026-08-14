@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_archetypal-grounding-worked-slices.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:5 — Archetypal Grounding (Worked Slices)"
-line_start: 36578
-line_end: 36585
+line_start: 36292
+line_end: 36299
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -40,5 +40,5 @@ keywords:
 
 **Paper edition history.** When draft, reviewed, and camera-ready texts change claim content, EntityOfConcern, or effective ReferenceScheme, C.2.1 identifies distinct epistemes and tests each claimed `EpistemeEditionRelation` independently. `B.1.4` may record a bounded chronology over those already recovered identities, relations, applicability windows, or publication windows; it does not turn the editions into phases of one episteme. If one unchanged episteme is genuinely needed over a proper interval, A.14 `PhaseOf` may state only that restriction. Source-currentness and publication-use claims use `A.10`, `G.11`, and `E.17`; chronology establishes none of them.
 
-**Cross-context evidence window.** A dashboard aggregates observations from two operating contexts. `B.1.4` records the bounded contexts and the admissible aggregation window. If one context has a different measurement basis, use `C.16` or `C.29` for comparability before relying on the aggregate.
+**Cross-regime evidence window.** A dashboard aggregates observations from two operating regimes. `B.1.4` records the exact observation sets, their subject populations or carriers, the aggregation window, and the admissible use. If the regimes use different measurement bases, use `C.16` or `C.29` for comparability before relying on the aggregate.
 

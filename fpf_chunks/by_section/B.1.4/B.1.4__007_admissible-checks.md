@@ -6,12 +6,12 @@ section_id: "B.1.4:4"
 section_title: "Admissible Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__007_admissible-checks.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:4 — Admissible Checks"
-line_start: 36546
-line_end: 36577
+line_start: 36260
+line_end: 36291
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -41,8 +41,8 @@ For contextual order aggregation:
 - the ordered relation refs are named by value;
 - the `OrderSpec` is declared as total order, partial order, or another named relation;
 - independence, branch, or join conditions are named when parallel factors are used;
-- all claims stay within one bounded context unless a boundary-crossing relation is named;
-- method, method-description, work, transformation, and resource claims use their direct owners.
+- the record names its included positions, ClaimScope when needed, and admissible use; any holon-boundary crossing is named by an exact relation;
+- method, method-description, work, transformation, and resource claims use the patterns that define or test them.
 
 For temporal phase aggregation:
 

@@ -6,12 +6,12 @@ section_id: "A.6.S:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:3 — Forces"
-line_start: 20969
-line_end: 20979
+line_start: 20663
+line_end: 20673
 dependencies:
   - "A.12"
   - "A.3"
@@ -51,7 +51,7 @@ keywords:
 * **Effect‑free operators vs enacted work.** The construction-and-change language should be expressible as effect-free epistemic morphisms (no measurement or actuation), yet applying constructor operations to signature epistemes is still `U.Work` performed by an admitted System and must be auditable. F.6 identifies the assignment under which each performer acted; a short account may omit an unused assignment identifier.
 
 * **Multi‑view richness vs semantic coherence.** Views help stakeholders, but they risk becoming divergent “versions of truth”.
-* **Local meaning vs cross‑context reuse.** Signatures should keep meaning local to a context; reuse across contexts requires explicit bridges and declared loss/penalty policy.
+* **Local meaning vs cross-local reuse.** Signature claim content pins its effective ReferenceScheme where interpretation matters. The local kind and any source-local meaning remain separate values; an actual relation between distinct F.17 cells uses F.9 with its declared limits.
 * **Contract talk vs ontology.** “Contract” language invites mixing promises, norms, and invariants; FPF requires quadrant discipline.
 * **No epistemic agency.** It is tempting to phrase “the ConstructorSignature constructs…”. In FPF, only Systems act; epistemes do not.
 

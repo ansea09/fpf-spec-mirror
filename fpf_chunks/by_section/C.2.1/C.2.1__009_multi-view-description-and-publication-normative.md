@@ -6,12 +6,12 @@ section_id: "C.2.1:8"
 section_title: "Multi-view description and publication  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__009_multi-view-description-and-publication-normative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:8 — Multi-view description and publication  (normative)"
-line_start: 41749
-line_end: 41760
+line_start: 41466
+line_end: 41477
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -54,7 +54,7 @@ keywords:
 
 ### C.2.1:8 - Multi-view description and publication  *(normative)*
 
-C.2.1 identifies every candidate episteme and every viewpoint episteme separately. `E.17.0` alone judges each exact `EpistemeViewpointConformanceRelation(E,P)` and the resulting same-individual `U.View` membership. `DescriptionContext = <EntityOfConcernRef, BoundedContextRef, ViewpointRef>` qualifies one describing use: its singular `viewpointRef` resolves one exact viewpoint episteme, it has no `viewRef`, and it selects no view. If another exact receiving-use qualification selects an already identified view, name that use and its exact governor separately. Neither qualification enters episteme identity or establishes conformance.
+C.2.1 identifies each candidate episteme E and each viewpoint episteme P separately. `E.17.0` then asks whether E conforms to P; its formal name for that relation is `EpistemeViewpointConformanceRelation(E,P)`. Only when the relation obtains is the same E a `U.View` under P. For one named describing use, say that the use selects P. Keep E, its EntityOfConcern, the use, and P distinct. Selection changes neither episteme identity nor conformance and does not make E a view. If another receiving use selects an already identified view, name that use and the pattern that defines or constrains it separately.
 
 Several conforming views remain a plurality. Recover an exact C.13 collection only when a receiving use depends on that plurality as a collection. Recover an exact A.22 `U.Structure` only when the use additionally depends on organization among those views, and state the exact direct organizing relations. A shared EntityOfConcern, package, table, heading set, diagram, or carrier creates neither a view family, a collection, nor that structure.
 

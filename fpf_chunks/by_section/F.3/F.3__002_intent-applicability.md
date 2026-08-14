@@ -1,41 +1,42 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__002_intent-applicability.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:1 — Intent & applicability"
-line_start: 91415
-line_end: 91422
+line_start: 91099
+line_end: 91106
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
 ### F.3:1 - Intent & applicability
 
-**Intent.** Consolidate the **context‑local lexical units** from F.2 into a **small set of Local‑Senses** that actually operate in that **one context (U.BoundedContext)**. Each Local‑Sense receives a crisp, didactic label pair (Tech/Plain) and a short sense statement. The result is an **addressable basis** for later uses (Role Assignment, tables, bridges) that is **still strictly context‑local**.
+**Intent.** Consolidate the expressions recovered by F.2 into a small set of source-local meaning claims under an explicit source and edition and an effective reference scheme. Merge aliases that the source uses interchangeably; split uses whose argument patterns, entailments, or practical consequences differ. The result stays local to its stated interpretation basis.
 
-**Applicability.** Apply **after** F.2 for any Context that will feed naming (F.4/F.5), decision gates (F.8), Cross‑context bridges (F.9), or exemplars in Part C. Use again whenever the canon (edition) **shifts usage** enough to split or merge senses **within the same context**.
+**Use this when.** Several expressions or uses from a selected source may carry one meaning, or one expression may carry several meanings that matter to the receiving question. Repeat when a changed passage, edition, or interpretation basis changes that partition.
 
-**Non‑goals.** No Cross‑context comparison or merging. No behaviour/deontics/type mathematics. No storage schemas or workflows. This is **pure sense‑making** inside one context.
+**Do not use this when.** The local meaning is already clear enough, or the question is whether two meanings from distinct interpretation bases are related. That is an F.9 question. F.3 creates no kind, assignment, cross-source sameness, or permission.
 

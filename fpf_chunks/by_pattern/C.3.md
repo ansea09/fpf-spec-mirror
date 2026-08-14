@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.3.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
-line_start: 44820
-line_end: 44986
+line_start: 44521
+line_end: 44687
 dependencies:
   - "A.1"
   - "A.11"
@@ -49,13 +49,13 @@ keywords:
 
 ### C.3:0 - Use This When
 
-Use this pattern when a claim needs a context-local kind, a subkind order, a judgment about whether one exact candidate satisfies one local kind, or an optional representation of the candidates that satisfy it in one exact context slice.
+Use this pattern when a claim needs a locally constituted kind, a subkind order, a judgment about whether one exact candidate satisfies one local kind, or an optional representation of the candidates that satisfy it in one exact context slice.
 
 **What goes wrong if missed.** A source type, local category, programming class, schema label, mathematical set, or public `U.*` name starts doing several jobs at once. The kind is confused with its declaration, evidence is treated as membership, an unavailable fact becomes false, a current extension becomes ontology, or claim scope is stored on the kind.
 
 **What this buys.** Typed reasoning stays usable without premature ontology growth. A practitioner can recover the local kind, the declaration used to classify, one three-valued judgment, and any optional extension representation while leaving direct world-side features, evidence, scope, work, and durable U-kind admission with their own governors.
 
-**Primary EntityOfConcern.** One typed-reasoning question: the exact context-local `U.Kind`, any `U.SubkindOf` order needed by the claim, and the C.3.2 classification question the use actually asks. The exact `KindSignature` edition used for that question carries the effective `U.ReferenceScheme` in its claim content; the scheme is not stored on the kind.
+**Primary EntityOfConcern.** One typed-reasoning question: the exact local `U.Kind`, its explicit practice or source boundary and stable subject distinction, any `U.SubkindOf` order needed by the claim, and the C.3.2 classification question the use actually asks. The exact `KindSignature` edition used for that question carries the effective `U.ReferenceScheme` in its claim content; the scheme is not stored on the kind.
 
 **First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump criterion.` Add a reusable declaration, explicit judgment details, evidence reference, or extension representation only when a named receiving use needs it.
 
@@ -63,9 +63,9 @@ Use this pattern when a claim needs a context-local kind, a subkind order, a jud
 
 ### C.3:1 - Problem Frame
 
-Across source ontologies, reference schemes, and project slices, "type" can mean ontology class, programming type, schema shape, category, source label, local kind, or public FPF U-kind. C.3 provides the smaller typed-reasoning architecture. A context-local `U.Kind` can be used now without being promoted to a durable public kind; its declared intent, candidate judgment, current extension representation, and the scope of any assertion remain separate objects.
+Across source ontologies, reference schemes, and project slices, “type” can mean ontology class, programming type, schema shape, category, source label, local kind, or public FPF U-kind. C.3 provides the smaller typed-reasoning architecture. A locally constituted `U.Kind` can be used now without being promoted to a durable public kind; its identity basis, declared intent, candidate judgment, current extension representation, and the scope of any assertion remain separate objects.
 
-Start with locality, not coordinates. If a typed claim crosses from one `U.BoundedContext` to another, check the source and target local kinds through C.3.3 even when both contexts cite the same reference-scheme edition or observationally equivalent slices: different authority, membership law, or institutional meaning can still change what counts. A C.3.3 `KindBridge` relates the exact source and target local kinds. When the crossing also changes local vocabulary or interpretation, an F.9 `Bridge` relates the corresponding `SenseCell`s; it does not map or change a `U.ReferenceScheme` as a whole. Within one context, a changed effective reference scheme identifies another `KindSignature` episteme edition, after which C.3.1 decides kind continuity. A `U.ContextSlice` only selects the classification and `KindExtension` evaluation; changing the slice alone creates neither a new semantic locality nor a bridge.
+Start with the local identity basis, not coordinates. If a typed claim crosses from one named practice or source boundary to another, check the exact source and target kinds through C.3.3 even when both uses cite the same reference-scheme edition or observationally equivalent slices: a different constituting practice, membership law, or institutional meaning can still change what counts. A C.3.3 `KindBridge` relates the exact source and target kinds. When the crossing also changes local wording or interpretation, an F.9 relation connects the corresponding F.17 cells; it does not map or change a `U.ReferenceScheme` as a whole. Within one local boundary, a changed effective scheme identifies another `KindSignature` episteme edition, after which the C.3.1 continuity test determines whether the same local kind continues. A `U.ContextSlice` only selects the classification and `KindExtension` evaluation; changing the slice alone creates neither a new local kind identity nor a bridge.
 
 ### C.3:2 - Problem
 
@@ -89,7 +89,7 @@ Keep these four objects separately recoverable:
 
 | Object | Meaning | Subject pattern |
 | --- | --- | --- |
-| context-local `U.Kind` and `U.SubkindOf` order | The kind value used by the typed-reasoning claim and its local partial order. | `C.3` and `C.3.1` |
+| local `U.Kind` and `U.SubkindOf` order | The kind value, its explicit practice or source boundary and stable subject distinction, and the local partial order used by the typed-reasoning claim. | `C.3` and `C.3.1` |
 | `KindSignature` | One `U.Signature` declaration episteme whose exact EntityOfConcern is the local kind and whose claim content declares the candidate `ValueKind`, criterion, slice conditions, reference scheme, assumptions, dependencies, formality, and any current `ExtentRule`. It is neither the kind nor another root U-kind. | `C.3.2`, `A.6.0`, and `C.2.1` |
 | classification judgment | One evaluation for an exact candidate, local kind, signature edition, and context slice with result `true`, `false`, or `unknown`. It is not a direct relation occurrence by default. | `C.3.2` |
 | `KindExtension(k, slice)` | An optional set-valued representation of the declared candidates whose judgment is `true` for the fixed signature edition and slice. | `C.3.2`, with `C.29` when the representation changes a claim-bearing use |
@@ -100,8 +100,8 @@ Scope is not a fifth part of the kind. A `KindSignature` episteme may carry its 
 
 Use the lightest object that answers the current typed-reasoning question.
 
-1. **Recover the local kind.** Name its bounded context and the local identity basis by which later claims can refer to the same kind. Do not store the current use, claim scope, or effective `U.ReferenceScheme` on the kind. A local `U.Kind` is not automatically a durable FPF U-kind.
-2. **Use C.3.1 for order and continuity.** `U.SubkindOf` is a partial order over local kinds. C.3.1 also decides whether the same local kind continues when a declaration edition changes.
+1. **Recover the local kind.** Name the explicit local practice or source boundary and the stable subject distinction that together let later claims recognize the same kind. Do not store the current use, ClaimScope, context slice, or effective `U.ReferenceScheme` on the kind. A local `U.Kind` is not automatically a durable FPF U-kind.
+2. **Use C.3.1 for order and continuity.** `U.SubkindOf` is a partial order over local kinds. Use the C.3.1 continuity test when a declaration edition changes.
 3. **Use C.3.2 for declaration and judgment.** A repeated criterion may justify a `KindSignature` whose claim content pins the effective `U.ReferenceScheme`; one application judges an exact candidate against one exact edition in one exact slice.
 4. **Let direct features decide.** Direct qualities, relations, constructive grounding, or other governed candidate features make the criterion hold or fail. Measurements, observations, schemas, sources, and evidence support claims about those features; they do not constitute membership.
 5. **Keep three results.** A satisfied criterion gives `true`; a known failed criterion gives `false`; missing evidence, an unavailable declared dependency, or an out-of-domain candidate gives `unknown`. A guard may decline use on `unknown` without changing that judgment to `false`.
@@ -119,8 +119,8 @@ Typed reasoning composes with F-G-R and USM in this order: recover typed compati
 | Does this exact candidate satisfy this local kind under this declaration edition and context slice? | `C.3.2` |
 | Does a receiving use need the represented set of true members? | `C.3.2`; `C.29` when the representation itself changes a claim-bearing use |
 | Does the assertion hold in a target slice? | `A.2.6` for its `U.ClaimScope`; do not attach that scope to the kind |
-| Does a typed claim cross into another bounded context? | `C.3.3` for the `KindBridge` between the exact local kinds; add F.9 only when the local senses also need alignment |
-| Did only the effective reference scheme change within one bounded context? | `C.3.2` for another `KindSignature` edition and `C.3.1` for the same-kind continuity decision; the scheme change alone is not a context bridge |
+| Does a typed claim cross into another local practice or source boundary? | `C.3.3` for the `KindBridge` between the exact local kinds; add F.9 only when the source-local senses also need an explicit relation |
+| Did only the effective reference scheme change within one local kind boundary? | `C.3.2` for another `KindSignature` edition and `C.3.1` for the same-kind continuity decision; the scheme change alone is not a kind bridge |
 | Did only the context slice change? | `C.3.2` for another judgment input and possible `KindExtension`; the slice change alone is not a context bridge |
 | Is the local kind being proposed as a durable public FPF `U.*` kind? | `E.24.UK`, followed by the applicable naming patterns |
 | Is a candidate, quality, relation, construction, or work occurrence being identified? | The direct subject pattern; C.3 consumes the governed result and does not create it |
@@ -155,9 +155,9 @@ C.3 counters lexical bias, document bias, and ontology-growth bias. A familiar t
 | `CC-C3-5` | Missing evidence, unavailable dependency, and out-of-domain input yield `unknown`, not `false`. |
 | `CC-C3-6` | Kind scope is absent; declaration and assertion scopes remain on their own epistemes, and `U.ContextSlice` remains an evaluation input. |
 | `CC-C3-7` | An extension is a representation of true candidates, not `U.EntitySet`, A.14 `MemberOf`, a collection holon, or a direct relation occurrence. |
-| `CC-C3-8` | Public `U.*` admission uses `E.24.UK`; cross-context kind use uses `C.3.3`. |
+| `CC-C3-8` | Public `U.*` admission uses `E.24.UK`; cross-local kind use uses `C.3.3`. |
 | `CC-C3-9` | `U.Work`, an exact `W : U.Work`, and any episteme about W remain distinct. |
-| `CC-C3-10` | Bounded-context locality is the outer cross-context trigger: a shared scheme or equivalent slices do not remove it, while a scheme-edition or slice change inside one context does not create it. |
+| `CC-C3-10` | A change of the explicit practice or source boundary or of the stable subject distinction triggers a C.3.3 continuity or bridge question. A shared scheme or equivalent slices do not remove that boundary; a scheme-edition or slice change within the same identity basis does not create a bridge by itself. |
 
 ### C.3:10 - Common Anti-Patterns and How to Avoid Them
 
@@ -193,7 +193,7 @@ C.3 is the head pattern for typed reasoning. It leaves each detailed mechanism a
 | --- | --- | --- |
 | Local kind order and continuity | `C.3.1` | `U.Kind`, `U.SubkindOf`, partial-order law, judgment monotonicity, and continuity across signature editions. |
 | Declaration, candidate judgment, and extension | `C.3.2` | `KindSignature`, exact four-key judgment, `true`/`false`/`unknown`, optional `KindExtension`, and scope/formality/evidence boundaries. |
-| Cross-context kind use | `C.3.3` | The direct `KindBridge` relation between exact source and target local kinds, its separate bridge-assertion episteme, declared preservation and loss, and target-context reevaluation under the exact target `KindSignature` edition. |
+| Cross-local kind use | `C.3.3` | The direct `KindBridge` relation between exact source and target local kinds, its separate bridge-assertion episteme, declared preservation and loss, and target-boundary reevaluation under the exact target `KindSignature` edition. |
 | Local adaptation without cloning a kind | `C.3.4` | A `KindUseAdaptationDeclaration` for one named local use of an exact base kind, its pinned base-kind judgment and additional candidate-feature constraints, the exact three-valued `KindUseAdaptationJudgment`, and any separately declared `KindUseAdaptationCorrespondenceDeclaration` between two exact adaptation declarations. |
 | Abstraction facet | `C.3.5` | `KindAT` as an editorial planning facet on one exact local kind, with no effect on the kind, declaration, judgment, extension, bridge assessment, guard, or F–G–R. |
 | Typed guards and applied examples | `C.3.A` | Declaration-level kind compatibility and exact candidate-use judgments kept separate across regulatory, assurance, ESG, and Method–Work uses, including the independently grounded actual `W : U.Work` boundary. |
@@ -203,7 +203,7 @@ Do not treat this compact head pattern as the whole C.3 discipline when a case n
 ### C.3:15 - Relations
 
 - **Builds on:** `A.2.6` context-slice and scope discipline, `A.6.0` reusable declaration discipline, `C.2.1` episteme identity, F-G-R, and direct subject patterns for candidate features.
-- **Coordinates with:** `C.3.1` through `C.3.5`, `C.3.A`, `C.29`, `E.24.UK`, `A.8`, `A.11`, `F.8`, `F.18`, and generic `A.22.CGUS` when typed reasoning is one locus in an admitted unfolding structure; coordinates with `StructuralCT2RTypingGroundingUnfoldingStructureBlock` only when C.3 supplies local-kind, judgment, subkind, and bridge loci inside a structural construction-to-typed/logical projection, with any cross-context bridge remaining a bridge within that projection rather than an alternative trigger; coordinates with `A.7.1` for a general diagnostic return.
+- **Coordinates with:** `C.3.1` through `C.3.5`, `C.3.A`, `C.29`, `E.24.UK`, `A.8`, `A.11`, `F.8`, `F.18`, and generic `A.22.CGUS` when typed reasoning is one locus in an admitted unfolding structure; coordinates with `StructuralCT2RTypingGroundingUnfoldingStructureBlock` only when C.3 supplies local-kind, judgment, subkind, and bridge loci inside a structural construction-to-typed or logical projection, with any cross-local bridge remaining a bridge within that projection rather than an alternative trigger; coordinates with `A.7.1` for a general diagnostic return.
 - **Does not replace:** direct candidate-feature ontology, A.14 collection membership, `A.2.6` scope, `C.29` representation use, ontic settlement in `E.24`, U-kind admission in `E.24.UK`, or naming in Part F.
 
 ### C.3:End

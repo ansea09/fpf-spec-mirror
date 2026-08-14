@@ -6,12 +6,12 @@ section_id: "E.17.EFP:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:intro — Intro"
-line_start: 81732
-line_end: 81796
+line_start: 81589
+line_end: 81653
 dependencies:
   - "A.10"
   - "A.15"

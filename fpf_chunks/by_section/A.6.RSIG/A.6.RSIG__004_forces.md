@@ -6,12 +6,12 @@ section_id: "A.6.RSIG:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.RSIG/A.6.RSIG__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.RSIG — Recognition Signatures for Descriptions"
   - "A.6.RSIG:3 — Forces"
-line_start: 10166
-line_end: 10176
+line_start: 10165
+line_end: 10175
 dependencies:
   - "A.6"
   - "A.6.P"

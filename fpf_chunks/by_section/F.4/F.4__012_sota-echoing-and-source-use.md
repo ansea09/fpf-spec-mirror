@@ -6,12 +6,12 @@ section_id: "F.4:10"
 section_title: "SoTA-Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__012_sota-echoing-and-source-use.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:10 — SoTA-Echoing and Source Use"
-line_start: 91981
-line_end: 91993
+line_start: 91596
+line_end: 91608
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -49,8 +49,8 @@ keywords:
 
 | Practice line | What FPF takes | Practical implication |
 | --- | --- | --- |
-| Foundational-ontology work distinguishes a context-dependent classification, its bearer, dependence, capability, function, and participation. | F.4 keeps one local kind and its description separate from the candidate system, classification judgment, assignment, capability, Method, and Work. | A readable description creates none of its neighboring world-side facts. |
-| Terminology and interoperability practice distinguishes a referent, its description, designation, scheme, and explicit cross-context correspondence. | Use F.4 to name the local kind and its scheme-relative description, and C.3.3 and F.9 for actual correspondence. | Same spelling does not identify the same kind across contexts. |
+| Foundational-ontology work distinguishes a locally constituted classification, its bearer, dependence, capability, function, and participation. | F.4 keeps one local kind and its description separate from the candidate system, classification judgment, assignment, capability, Method, and Work. | A readable description creates none of its neighboring world-side facts. |
+| Terminology and interoperability practice distinguishes a referent, its description, designation, scheme, and any explicit relation to another local referent. | Use F.4 to name the local kind and its scheme-relative description, C.3.3 for an actual relation between exact local kinds, and F.9 only for an actual relation between distinct local-sense cells. | Same spelling does not identify the same kind across local practices or sources. |
 | FPF episteme and publication ontology separates the described entity, description episteme, publication form, and carrier. | A `SystemRoleKindDescription` is an episteme about one exact local kind; a card or table may express it. | Editing or publishing the form does not change the kind or create an assignment. |
 | FPF relation-declaration discipline distinguishes participant meaning, actual participants, declaration slots, and representations. | Bare *role* in those uses is recovered through E.10.ROLE and A.6.RSIR. | A relation position does not become a system-role kind. |
 

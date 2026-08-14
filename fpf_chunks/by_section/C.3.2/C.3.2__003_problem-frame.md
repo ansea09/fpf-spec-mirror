@@ -6,12 +6,12 @@ section_id: "C.3.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:1 — Problem Frame"
-line_start: 45158
-line_end: 45161
+line_start: 44859
+line_end: 44862
 dependencies:
   - "A.14"
   - "A.2.6"

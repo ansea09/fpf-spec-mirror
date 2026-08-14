@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:4 — Solution"
-line_start: 66751
-line_end: 66787
+line_start: 66529
+line_end: 66565
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,7 +66,7 @@ keywords:
 Convert the warning cue into an `ArchitectureRepairCue@Project`. Work in six steps:
 
 1. State the symptom in ordinary practitioner language.
-2. Name the described holon, bounded context, and architecture object under stress.
+2. Name the described holon, architecture claim when one is current, concern, intended repair use, scope or qualification window when material, architecture object under stress, and failure evidence.
 3. State the blocked overread that would lead the team astray.
 4. Name the first subject pattern for the architecture object or lens relation.
 5. Propose the smallest repair action that changes architecture handling.

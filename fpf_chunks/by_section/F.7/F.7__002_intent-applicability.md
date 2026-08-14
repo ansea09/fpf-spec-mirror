@@ -1,22 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept‑Set Table"
+pattern_title: "Concept-Set Table"
 section_id: "F.7:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__002_intent-applicability.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.7 — Concept‑Set Table"
+  - "F.7 — Concept-Set Table"
   - "F.7:1 — Intent & applicability"
-line_start: 92700
-line_end: 92707
+line_start: 92316
+line_end: 92323
 dependencies:
   - "A.6.9"
+  - "B.3"
+  - "C.16"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -24,21 +27,22 @@ dependencies:
   - "F.6"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "columns"
-  - "comparisons"
-  - "concept-set"
-  - "differences"
-  - "row"
-  - "table"
+  - "comparison surface"
+  - "direction"
+  - "evidence"
+  - "exact local claim"
+  - "loss"
+  - "obtaining relation"
+  - "optional SchemeSenseCell"
+  - "receiving use"
 ---
 
 ### F.7:1 - Intent & applicability
 
-**Intent.** Provide a **single, didactic page** where each **row** presents **one Concept‑Set**—a *set of SenseCells from different Contexts that we are licensed (by explicit Bridges) to treat as “the same for a stated scope”*. Columns are **Contexts**; cells carry **local labels**. The table **does not invent equivalences**: it **summarises** already declared **F.9 Bridges**, exposing *scope, losses, and counter‑examples* at a glance.
+**Intent.** Give a reader one compact surface for comparing exact source-local claims, optional F.17 cells, and any relations that already obtain between them. The table also shows the stated comparison or receiving use, direction, losses, evidence, and counterexamples. It makes a distributed argument readable without turning row membership into sameness or permission.
 
-**Applicability.** Use whenever cross-context reading is necessary (naming admitted U-kinds, roles, methods, characteristic terms, teaching contrasts, assignment/enactment-adjacent terminology). It is a **reading lens**, not a data model: **notation-free**, **governance-free**, **Context-loyal**.
+**Use this when.** Two or more selected sources must be compared for one named question, teaching contrast, designation choice, or receiving use, and prose alone scatters the relevant distinctions.
 
-**Non‑goals.** No hidden merges. No “global terms”. No workflows or tool schemas. The table is a **conceptual display** of *licensed sameness* and *honest non‑sameness*.
+**Do not use this when.** One local claim is enough, or no receiving comparison is named. A table is optional. It creates no value, kind, relation, classification, assignment, evidence use, reliance, verdict, or authorisation.
 

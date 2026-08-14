@@ -6,12 +6,12 @@ section_id: "A.13:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:2 — Problem"
-line_start: 23785
-line_end: 23793
+line_start: 23476
+line_end: 23484
 dependencies:
   - "A.10"
   - "A.12"
@@ -24,10 +24,11 @@ dependencies:
   - "C.9"
   - "E.16"
 keywords:
-  - "agency as role"
+  - "U.SystemRoleAssignment"
   - "agency spectrum"
+  - "agential participation"
   - "autonomy grading"
-  - "contextual role assignment"
+  - "local system-role kind"
   - "substrate-neutral autonomy"
 ---
 
@@ -36,7 +37,7 @@ keywords:
 If agency is treated as a monolithic, intrinsic property or a mere label, four critical failure modes emerge, undermining the rigor of FPF:
 
 1.  **Episteme-as-Actor:** Models might incorrectly assign agency to knowledge epistemes or publications (`U.Episteme`), leading to nonsensical claims like "the specification decided to update the system." This is a direct violation of **Strict Distinction (A.7)**.
-2.  **Type Inflation:** Introducing a root agent kind alongside `U.System` and `U.Episteme` would violate **Ontological Parsimony (C-5)** and create conflicts with the dynamic nature of roles. A system might act agentively in one context and as a passive component in another; a static type cannot capture this.
+2.  **Type Inflation:** Introducing a root agent kind alongside `U.System` and `U.Episteme` would violate **Ontological Parsimony (C-5)**. The same System may qualify for an agential system-role kind and receive an assignment in one working situation but not another. The agency claim states its scope and window separately; a root type cannot express these differences.
 3.  **Unfalsifiable Claims:** Without a measurable basis, "agency" becomes a subjective label. A team might call their system an "agent" for marketing purposes, but this claim has no verifiable meaning and cannot be audited, violating **Evidence Graph Referring (A.10)**.
 4.  **The Binary Trap:** A simple "agent/not-agent" classification is too coarse. It fails to distinguish between a simple thermostat, a predictive cruise control system, and a strategic, self-learning robotic swarm, even though their cognitive capabilities differ by orders of magnitude.
 

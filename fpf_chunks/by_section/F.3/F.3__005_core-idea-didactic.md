@@ -1,43 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__005_core-idea-didactic.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:4 — Core idea (didactic)"
-line_start: 91443
-line_end: 91452
+line_start: 91127
+line_end: 91135
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
 ### F.3:4 - Core idea (didactic)
 
-**Cluster by usage, not by string.**
-Inside one context:
+**Cluster by source use, not by spelling.** Under one explicit interpretation basis:
 
-* **Same sense** → **Local‑Sense**: a small, coherent usage‑region the canon treats as one idea (even if it has aliases or minor surface variation).
-* **Different sense** → **two Local‑Senses**: incompatible selectional frames, entailments, or role in the canon’s own statements.
+* **Same local meaning:** expressions are interchangeable in the relevant source passages and no source-grounded test makes them support different conclusions.
+* **Different local meanings:** their argument patterns, entailments, temporal stance, or practical consequences differ.
 
-Each Local‑Sense becomes **addressable** when paired with its Context: **SenseCell = (Context × Local‑Sense)**. SenseCells are **context‑local coordinates**; they do not pre‑judge any Cross‑context mapping.
+The cluster’s outcome is a **LocalSenseClaim**, with a Tech and Plain label pair, supporting expressions, and an optional counterexample. If durable reuse needs an address, use F.17’s `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>`. The cell has three parts; it is not a two-part pair and does not make the claim global.
 

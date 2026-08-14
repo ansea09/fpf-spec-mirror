@@ -6,12 +6,12 @@ section_id: "C.2.P:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__013_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:9 — Consequences"
-line_start: 42440
-line_end: 42472
+line_start: 42157
+line_end: 42189
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,7 +63,7 @@ keywords:
 For new episteme-publication precision prose:
 - start from FPF kinds and relations, not from familiar publication nouns and document nouns;
 - use `PublicationUnit` for bounded publication units;
-- use `EntityOfConcern` and `EntityOfConcernRef` when the episteme slot is current, and translate `describedEntity` source wording to the adopted EntityOfConcern family before FPF-governed use closure;
+- use the exact `EntityOfConcern` participant and its applicable reference when a claim-bearing episteme is current, and translate `describedEntity` source wording to the adopted EntityOfConcern family before FPF-governed use closure;
 - keep publication form, generic publication face, MVPK face under E.17 constraints, view, carrier, document named for source, evidence, architecture, or review use, reviewed publication, review packet, review record, or review state, and project-side FPF kind and reference named by value separate;
 - name `relationClaimSlice`, `declaredUseBoundary`, and `projectSideFPFRef` separately when more than one is current;
 - classify heterogeneous kind lists before writing a sentence that depends on them;
@@ -71,7 +71,7 @@ For new episteme-publication precision prose:
 - leave accepted FPF names untouched unless a separate accepted naming decision authorizes a rename.
 
 Operationally, each rewrite should:
-- separate FPF-side episteme and publication context from project-side episteme and publication context whenever both are present;
+- separate FPF-side epistemes and publication or use relations from project-side epistemes and their publication or use relations whenever both are present;
 - name `relationClaimSlice`, `declaredUseBoundary`, and `projectSideFPFRef` separately when a publication, display, cue, or explanation is treated as evidence, gate, constraint, adjudication, decision-making reliance, work permission, assurance, or engineering justification;
 - classify heterogeneous lists before naming them: one kind under repair, relation set, tuple-like record, alternative cases, not-triggered alternatives, or failed ontology;
 - say that FPF patterns are applied in problem situations, while project records, publications, views, carriers, and actions are worked with in project practice;

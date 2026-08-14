@@ -6,12 +6,12 @@ section_id: "A.6.4:9"
 section_title: "Mini-checklist (for use)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__013_mini-checklist-for-use.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:9 — Mini-checklist (for use)"
-line_start: 15909
-line_end: 15930
+line_start: 15603
+line_end: 15624
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -39,7 +39,7 @@ When you think you need "retargeting" in FPF, ask:
 3. **What invariant are you preserving?**
    Write it down in KD-CAL/LOG-CAL terms. If you cannot, retargeting is underspecified.
 
-4. **How do `GroundingHolonRef`, context, and viewpoint behave?**
+4. **How do grounding, effective scheme, scope or operating conditions, and any selected describing-use viewpoint behave?**
    State whether they stay the same, move along Bridges, or are out of scope.
 
 5. **Can the operation be factored as Mechanism + pure retargeting?**

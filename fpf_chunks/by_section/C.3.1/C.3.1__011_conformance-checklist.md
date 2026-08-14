@@ -6,12 +6,12 @@ section_id: "C.3.1:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__011_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:9 — Conformance Checklist"
-line_start: 45088
-line_end: 45102
+line_start: 44789
+line_end: 44803
 dependencies:
   - "A.1"
   - "A.11"
@@ -43,7 +43,7 @@ keywords:
 
 | Check | Requirement |
 | --- | --- |
-| `CC-C31-1` | Each local `U.Kind` names its bounded context and local identity basis. Each `U.SubkindOf` obtaining claim names the exact effective reference-scheme edition and aligned signatures used to interpret the order; cross-context use goes through C.3.3. |
+| `CC-C31-1` | Each local `U.Kind` names its explicit practice or source boundary and stable subject distinction. Each `U.SubkindOf` obtaining claim names the exact effective reference-scheme edition and aligned signatures used to interpret the order; cross-local use goes through C.3.3. |
 | `CC-C31-2` | `U.SubkindOf` is an admitted direct relation kind with narrower-kind and broader-kind participants, a recoverable obtaining predicate and applicability, and participant-plus-reference-scheme occurrence identity. |
 | `CC-C31-2a` | A predicate expression, C.2.1 assertion episteme, evidence item, representation edge, and optional `R_sub` occurrence designator are kept distinct; none makes the relation obtain. |
 | `CC-C31-2b` | Reflexivity, transitivity, and antisymmetry constrain obtaining relation facts and are not overloaded with dependency, construction, system-role assignment, declaration-slot, or admission relations. |

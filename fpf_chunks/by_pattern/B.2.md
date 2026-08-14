@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
-line_start: 37278
-line_end: 37586
+line_start: 36995
+line_end: 37303
 dependencies:
   - "A.1"
   - "A.10"
@@ -78,7 +78,7 @@ Typical moments:
 
 A Meta-Holon Transition is not a new root ontology, generic emergence label, or mathematical graph result. It is a whole-reidentification claim about an exact holon already recognized through A.1 construction, identity, part relations, whole-level characteristics, and a direct kind-specific pattern.
 
-The old whole remains a possible explanatory object. B.2 is selected only when it is no longer the right EntityOfConcern for the current claim. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
+The old whole remains a possible explanatory object. Use B.2 only when the old whole is no longer the right EntityOfConcern for the current claim. The candidate new whole can be recognized as a `U.System`, `U.Episteme`, `U.Method`, `U.Work`, `U.Discipline`, or another holon kind only after `E.24.UK` has admitted that public kind and the exact candidate satisfies A.1 plus the direct kind-specific criterion.
 
 ### B.2:2 - Problem
 
@@ -205,7 +205,7 @@ Keep five results apart:
 - the existing whole and candidate new whole, their constituents, obtaining constructive relations, assemblies, characteristics, and identity rules are world-side objects and facts under their direct patterns;
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;
 - evidence and assurance relations support or warrant the assertion's claim content but create neither whole and decide neither identity rule;
-- G.11 decides whether the selected assertion or record edition is current for the receiving use;
+- use G.11 to determine whether the selected assertion or record edition is current for the receiving use;
 - receiving work decides whether to rely, decline to rely, defer, or reopen.
 
 Evidence present or missing, and a current or stale record, can change what an evaluation returns and whether receiving work relies. They cannot turn the same whole into a new whole or a new whole into the same one. Whether the existing whole continues or a new whole must be identified follows the direct identity and reidentification rules plus the actual construction facts. A.1 recognition of either candidate supplies no B.2 warrant and does not select B.2.
@@ -220,14 +220,14 @@ Existing-whole repair may be enough if only a sensor improved or a controller pa
 
 ```text
 MHTTriggerProfile@Control : U.Episteme
-  EntityOfConcernSlot: plant-plus-devices configuration
+  entityOfConcernRef: plant-plus-devices configuration
   content:
     changedSupervisionRelationRefs: closed feedback relation
     changedObjectiveClaimRef: maintain output y near reference r
     changedCapabilityClaimRef: capability envelope after closure
 
 HolonReidentificationRecord@Control : U.Episteme
-  EntityOfConcernSlot: regulated control system
+  entityOfConcernRef: regulated control system
   content:
     existingWholeRef: plant-plus-devices configuration
     selectedTriggerProfileRef: MHTTriggerProfile@Control
@@ -239,7 +239,7 @@ HolonReidentificationRecord@Control : U.Episteme
     changedClaimPatternLocators: A.1, B.1.2, B.2.2, C.30.LCA, A.2.2
 ```
 
-`EntityOfConcernSlot` belongs to the ordinary C.2.1 episteme-slot relation. The indented content names references carried by each episteme; those labels are not participant SlotKinds of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
+The exact EntityOfConcern is an actual participant in the C.2.1 `EpistemeConstitutionRelation`; `EntityOfConcernSlot` is only the corresponding declaration-local participant meaning inside `EpistemeConstitutionRelationSignature`. The `entityOfConcernRef` field and indented content fields carry participant or claim designations in each episteme; they are not SlotKinds or participants of a new MHT relation. The feedback and capability relations retain their direct identities, while the optional classification assertion retains its own C.2.1 identity and does not establish world-side holonhood.
 
 #### B.2:5.2 - Compendium Becomes Theory
 

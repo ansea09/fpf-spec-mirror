@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.4.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
-line_start: 69298
-line_end: 69458
+line_start: 69097
+line_end: 69264
 dependencies:
   - "A.10"
   - "A.20"
@@ -68,9 +68,14 @@ Record an `EthicalMediationDecisionUse@Context`:
 ```text
 EthicalMediationDecisionUse@Context:
   conflictStructureRef
-  boundedContextRef
-  valueFrameRefs
+  affectedEntityOfConcernRef
+  affectedSystemRefs?
+  valueFrameEditionRefs
   decisionQuestionRef?
+  intendedDecisionUse?
+  intendedWorkUse?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   optionRefs
   proposedMediationRefs?
   refusalOrStopCondition?
@@ -110,6 +115,8 @@ EthicalMediationDecisionUse@Context:
 
 The record names the current ethical use of the conflict: mediate, refuse, continue under explicit residual, demand evidence, ask a causal question, ask for assurance, return to architecture, or make a bounded decision.
 
+Name the affected EntityOfConcern and any affected Systems, the value-frame editions, the decision question and options, and the intended decision or Work use. Add ClaimScope and a qualification window when they delimit that use. State the proposed mediation or refusal and any accepted residuals. If evidence, causal adequacy, assurance, architecture residuals, responsibility, permission, or actual Work remains unresolved, return only that question to the pattern that defines it. These values delimit the mediation; a generic context field does not.
+
 ### D.4:3 - Mediation Moves
 
 | Current situation | Admissible D.4 move | Neighboring subject pattern |
@@ -147,7 +154,7 @@ Do not name a mediation move "calculus" unless a mathematical lens is selected a
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | CC-D4-1 | A `conflictStructureRef` from D.3 is present or the use requires D.3. | Prevents mediation without mapped conflict. |
-| CC-D4-2 | The record names the current admissible move: mediate, refuse, demand evidence, return to causal, assurance, or architecture pattern, decide with residual, or stop. | Keeps ethical use explicit. |
+| CC-D4-2 | The record names the affected EntityOfConcern, any affected Systems, value-frame editions, decision question and options, intended decision or Work use, and the current admissible move. ClaimScope and qualification window are explicit when they delimit that use. | Keeps ethical use explicit without relying on a generic context premise. |
 | CC-D4-3 | Evidence, causality, assurance, architecture, and decision claims use their subject patterns. | Prevents D.4 from becoming universal decision authority. |
 | CC-D4-4 | When proceeding under residual harm, name accepted residuals and admitted Systems; keep any local kind, separate System-classification judgment, prospective plan or assignment requirement, and actual relation distinct. Every responsibility, authority, permission, or commitment claim has its independently obtaining direct relation or exact A.6.RCD missing governor. Every actual Work row separates the assignment species from its obtaining occurrence and carries the complete A.15.1/F.6 basis. | Keeps bounded decision use reviewable without deriving responsibility or performance from an assignment or decision. |
 

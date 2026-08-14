@@ -6,7 +6,7 @@ section_id: "A.2:9"
 section_title: "Common Anti-Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__011_common-anti-patterns.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:9 — Common Anti-Patterns"
@@ -51,5 +51,5 @@ keywords:
 | Taxonomy and scheme are assignment participants | Interpretation editions become world-side identity changes. | Keep them in declarations, assertions, or evidence about the predicate. |
 | `AssistantReviewerSystemRole partOf ReviewerSystemRole` | No constructive whole or part relation is established. | Test an exact qualification, substitution, incompatibility, bundle, or another local kind and direct relation. |
 | `The PDF enforced the rule` | An episteme replaces the system and Work that performed enforcement. | Name the performer and Work; state the PDF's source-use, external-rule, evidence, or reliance relation separately. |
-| Same label, therefore same kind or assignment | Spelling establishes neither local identity, Bridge, nor obtaining relation. | Recover the two kinds and establish the exact cross-context result needed by the use. |
+| Same label, therefore same kind or assignment | Spelling establishes neither local identity, Bridge, nor obtaining relation. | Recover the two kinds and establish the exact C.3.3 and, when needed, F.9 result consumed by the use. |
 

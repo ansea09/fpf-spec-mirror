@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.FAIL.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
-line_start: 66654
-line_end: 66893
+line_start: 66427
+line_end: 66671
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -110,13 +110,18 @@ The first useful output is `ArchitectureRepairCue@Project`. It is a working reco
 ```text
 ArchitectureRepairCue@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  architectureRepairCueProjectUseRelationRef?: U.RelationRef governed by the exact repair-use or work-use pattern
+  architectureRepairCueProjectUseRelationRef?: U.RelationRef defined by the exact repair-use or work-use pattern
   symptom:
   describedHolonRef:
-  boundedContextRef:
+  architectureClaimRef?:
+  architectureConcern:
+  intendedRepairUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureObjectUnderStress:
   selectedStructureRef?:
   sourceCueRef?:
+  failureEvidenceRefs:
   blockedOverread:
   firstPatternLocator:
   repairAction:
@@ -162,7 +167,7 @@ Use C.32.FAIL for that conversion. It does not mint a local ontology of failure 
 Convert the warning cue into an `ArchitectureRepairCue@Project`. Work in six steps:
 
 1. State the symptom in ordinary practitioner language.
-2. Name the described holon, bounded context, and architecture object under stress.
+2. Name the described holon, architecture claim when one is current, concern, intended repair use, scope or qualification window when material, architecture object under stress, and failure evidence.
 3. State the blocked overread that would lead the team astray.
 4. Name the first subject pattern for the architecture object or lens relation.
 5. Propose the smallest repair action that changes architecture handling.
@@ -231,7 +236,7 @@ Admit a new repair family only when its row tells the practitioner what to repai
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C32.FAIL-1` | The cue states a recognizable symptom in practitioner language. | Keeps the pattern usable at first contact. |
-| `CC-C32.FAIL-2` | The described holon, bounded context, and architecture object under stress are named. | Prevents source wording from replacing object recovery. |
+| `CC-C32.FAIL-2` | The described holon, architecture claim when current, architecture concern and intended repair use, architecture object under stress, failure evidence, and any material scope or qualification window are named. | Prevents source wording or a generic context field from replacing object recovery. |
 | `CC-C32.FAIL-3` | The blocked overread is stated in one sentence. | Makes the failure precise enough to repair. |
 | `CC-C32.FAIL-4` | The first subject pattern is named. | Keeps architecture, lens, work, evidence, assurance, and decision claims distinct. |
 | `CC-C32.FAIL-5` | The repair action changes architecture handling. | Prevents warning-only rows. |

@@ -6,12 +6,12 @@ section_id: "C.3:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:0 — Use This When"
-line_start: 44826
-line_end: 44839
+line_start: 44527
+line_end: 44540
 dependencies:
   - "A.1"
   - "A.11"
@@ -44,13 +44,13 @@ keywords:
 
 ### C.3:0 - Use This When
 
-Use this pattern when a claim needs a context-local kind, a subkind order, a judgment about whether one exact candidate satisfies one local kind, or an optional representation of the candidates that satisfy it in one exact context slice.
+Use this pattern when a claim needs a locally constituted kind, a subkind order, a judgment about whether one exact candidate satisfies one local kind, or an optional representation of the candidates that satisfy it in one exact context slice.
 
 **What goes wrong if missed.** A source type, local category, programming class, schema label, mathematical set, or public `U.*` name starts doing several jobs at once. The kind is confused with its declaration, evidence is treated as membership, an unavailable fact becomes false, a current extension becomes ontology, or claim scope is stored on the kind.
 
 **What this buys.** Typed reasoning stays usable without premature ontology growth. A practitioner can recover the local kind, the declaration used to classify, one three-valued judgment, and any optional extension representation while leaving direct world-side features, evidence, scope, work, and durable U-kind admission with their own governors.
 
-**Primary EntityOfConcern.** One typed-reasoning question: the exact context-local `U.Kind`, any `U.SubkindOf` order needed by the claim, and the C.3.2 classification question the use actually asks. The exact `KindSignature` edition used for that question carries the effective `U.ReferenceScheme` in its claim content; the scheme is not stored on the kind.
+**Primary EntityOfConcern.** One typed-reasoning question: the exact local `U.Kind`, its explicit practice or source boundary and stable subject distinction, any `U.SubkindOf` order needed by the claim, and the C.3.2 classification question the use actually asks. The exact `KindSignature` edition used for that question carries the effective `U.ReferenceScheme` in its claim content; the scheme is not stored on the kind.
 
 **First useful move.** Write the ordinary conclusion first. For example: `Pump #14 counts as a cooling pump in this plant slice because it satisfies the declared cooling-pump criterion.` Add a reusable declaration, explicit judgment details, evidence reference, or extension representation only when a named receiving use needs it.
 

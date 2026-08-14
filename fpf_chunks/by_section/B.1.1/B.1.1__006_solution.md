@@ -6,12 +6,12 @@ section_id: "B.1.1:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__006_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:4 — Solution"
-line_start: 35762
-line_end: 35827
+line_start: 35469
+line_end: 35539
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,10 +38,15 @@ Use dependency structure first; use graph representation second.
 
 ```text
 DependencyStructure@Context:
-  structureUnderConcernRef:
-  boundedContextRef:
+  dependencyQuestion:
+  intendedUse?:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   candidateNodeRefs:
+  selectedDependencyStructureRef?
   dependencyRelationRefs:
+  relationParticipantRefs:
+  relationGroundingRefs:
   partWholeRelationRefs?
   boundaryCrossingRelationRefs?
   orderRelationRefs?
@@ -51,10 +56,10 @@ DependencyStructure@Context:
   evidenceRelationRefs?
   publicationOrSourceUseRefs?
   designRunTag?
-  directOwnerRefs:
+  definingOrTestingPatternRefs:
 ```
 
-This frame is not a U-kind. It records which relation claims are current and which direct owners govern them.
+This frame is not a U-kind. It records the current relation claims, their exact participants, grounds and qualifications, the selected dependency structure when one is current, and the patterns that define or test those relations.
 
 #### B.1.1:4.2 - Graph Representation
 
@@ -70,18 +75,18 @@ DependencyGraphRepresentation@Context:
   publicationOrViewRef?
 ```
 
-The graph may express acyclicity, reachability, cutsets, weak links, flow, or traceability. Those checks apply to the graph expression and bear on the selected relation only when the relation owner admits the mapping.
+The graph may express acyclicity, reachability, cutsets, weak links, flow, or traceability. Those checks apply to the graph expression and bear on the selected relation only when the rule for that relation admits the mapping.
 
 #### B.1.1:4.3 - Relation Grounding Guide
 
-| If the edge means... | Recover... | Direct owner |
+| If the edge means... | Recover... | Pattern that defines or tests the claim |
 | --- | --- | --- |
 | part of the whole | part-whole relation over admitted holons | `A.14`, `C.13`, `B.1` |
 | member of a collection | membership or collection-as-whole claim | `A.14`, `C.13`, `C.16` |
-| phase of the same carrier | temporal phase relation | `A.14`, temporal owner, `B.1.4` |
-| ordered step or branch | method, process-view, or order relation | method owner, `B.1.4`, `C.29` when lens is current |
+| phase of the same carrier | temporal phase relation | the carrier's identity and phase rules, `A.14`, and `B.1.4` |
+| ordered step or branch | method, process-view, Work, or order relation | `A.3.1`, `A.3.2`, `A.15.1`, or the pattern that defines the order relation; `B.1.4`, and `C.29` when a lens is current |
 | performed work part | work occurrence relation with evidence and timing | `A.15.1` |
-| external influence, signal, supply, measurement, or control | boundary-crossing relation or direct transformation, evidence, measurement, source-use, or control relation | `A.1`, `A.3.4`, `A.10`, `C.26`, or direct owner |
+| external influence, signal, supply, measurement, or control | boundary-crossing relation or direct transformation, evidence, measurement, source-use, supply, or control relation | `A.1`, `A.3.4`, `A.10`, `C.26`, or the pattern that defines the exact direct relation |
 | representation, dashboard, digital twin, or architecture description | description or representation relation, not parthood | `C.2.1`, `E.17`, `C.30.AD`, `C.30.AD.BA` |
 
 #### B.1.1:4.4 - Graph Checks Are Conditional
@@ -91,8 +96,8 @@ Acyclicity, topological order, cutset, reachability, and flow checks are useful 
 Do not infer:
 
 - parthood from graph adjacency;
-- independence from graph separation without relation-owner admission;
+- independence from graph separation without a rule that makes the selected relation support that inference;
 - performed work from a planned step graph;
 - whole reidentification from a graph property without B.2;
-- architecture from a graph without selected-structure and architecture owners.
+- architecture from a graph without an exact described holon, selected structure, and architecture relation or claim.
 

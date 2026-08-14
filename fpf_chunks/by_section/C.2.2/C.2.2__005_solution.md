@@ -6,15 +6,18 @@ section_id: "C.2.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:4 — Solution"
-line_start: 42600
-line_end: 42808
+line_start: 42316
+line_end: 42509
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.2.6"
   - "A.21"
+  - "A.6.3.RT"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -23,7 +26,7 @@ dependencies:
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.25"
+  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -32,15 +35,16 @@ dependencies:
   - "E.18"
   - "F.17"
   - "F.9"
+  - "G.2"
   - "G.6"
   - "G.7"
 keywords:
-  - "Bridge-only reuse"
   - "ClaimScope (G)"
   - "Congruence Level (CL / CL^k / CL^plane)"
   - "F–G–R"
   - "Reliability (R)"
   - "TA/VA/LA lanes"
+  - "direct relation"
   - "evidence-bound"
   - "no implicit averaging"
   - "pathwise justification (PathId)"
@@ -55,7 +59,7 @@ keywords:
 **Definition DEF‑C2.2‑1 (Epistemic location).**
 An epistemic location for a claim `c` is the tuple:
 
-`Loc(c | K, S) = ⟨F(c), G(c), R_eff(c)⟩`
+`Loc(c) = ⟨F(c), G(c), R_eff(c)⟩`
 
 where:
 
@@ -64,8 +68,8 @@ where:
 * `R_eff(c)` is Effective reliability for `c`, treated as a **ratio-scale** scalar in `[0,1]` (or an **ordinal proxy** at **[M‑0/M‑1]**; see §4.5.A).
   `R_eff` is computed **pathwise** (DEF‑C2.2‑3): when more than one admissible justification path exists, publish multiple path records (PathId rows) and cite which PathId(s) a guard/decision consumed (see §4.8.A / G.6). Any collapse to a single scalar is an explicitly declared Γ‑policy (no implicit averaging).
 
-A location is always understood *relative to* a bounded context and the assurance carriers used elsewhere in FPF:
-* `K` is the declared `U.BoundedContext`.
+A location always concerns one exact claim. `G` carries its `U.ClaimScope`; any stance, reference plane, effective scheme, model-use basis, working situation, evidence basis, or validity window is stated separately when it changes interpretation or use:
+* No generic `K` or Context value is part of epistemic-location identity; the exact subject-specific values above remain independently governed.
 * `S ∈ {design, run}` is the claim’s stance carrier (no DesignRunTag chimeras).
 * `ReferencePlane` is declared where applicable; plane crossings apply `CL^plane` and penalize **R only**.
 * When the claim is published on the Working‑Model surface, the author also declares `validationMode ∈ {postulate, inferential, axiomatic}` (E.14 / B.3).
@@ -84,7 +88,7 @@ In all modes, **R remains warrant**, not ontological truth; “proof ⇒ R=1 in 
 #### C.2.2:4.2 - What Reliability R means in KD‑CAL
 
 **Definition DEF‑C2.2‑2 (Reliability as warrant).**
-`R` is a conservative, evidence-bound indicator of how strongly the claim “holds as stated” under its declared scope and context. It is interpreted as a *warrant strength*, not as truth.
+`R` is a conservative, evidence-bound indicator of how strongly the claim "holds as stated" under its declared `U.ClaimScope` and the separately named evidence and use conditions. It is interpreted as *warrant strength*, not as truth.
 
 **Prophylactic clarification.**
 
@@ -97,7 +101,7 @@ In all modes, **R remains warrant**, not ontological truth; “proof ⇒ R=1 in 
 KD‑CAL’s default Γ‑fold is **weakest‑link** on the *entailment spine* (the premises/lemmas actually needed), computed per justification path. It is conservative, monotone, and auditable.
 
 **Definition DEF‑C2.2‑3 (Pathwise weakest-link fold).**
-Let `P` be a justification path for claim `c`. Let `SpineClaims(P)` be the required supports on the entailment spine, and let `SpineBridges(P)` be the bridges actually traversed on that spine (scope bridges, kind bridges, plane/notation transports where applicable).
+Let `P` be a justification path for claim `c`. Let `SpineClaims(P)` be the required supports on the entailment spine, and let `SpineRelations(P)` be the exact scope, kind, plane, notation, source-local, model-use, or evidence-reuse relations actually traversed on that spine.
 
 Define the raw warrant of the path as:
 
@@ -120,64 +124,51 @@ Independence is recorded as an explicit note (e.g., separate rigs/datasets/proof
 If the “multiple paths” actually cover **different** scope slices, do not use `max` to hide weaker slices; instead publish distinct `G_path` (SpanUnion‑style coverage) and keep per‑path `R_eff` traceable (A.2.6 / C.2:4.3).
 
 **Conflict detection (no averaging).**
-If the evidence graph supports both `p` and `¬p` with overlapping scope, do **not** average. Separate by context/scope, or mark the claim **provisional** with explicit conflict edges until resolved.
+If the evidence graph supports both `p` and `¬p` with overlapping scope, do **not** average. Separate the claims by the exact source, scheme, scope, model use, situation, or evidence basis that distinguishes them, or mark the claim **provisional** with explicit conflict edges until resolved.
 
-#### C.2.2:4.4 - Congruence penalties route to R only (no silent widening)
+#### C.2.2:4.4 - Relation-specific congruence penalties route to R only
 
-Cross-context reuse and cross-kind reuse are treated as **transport with loss**, and loss is expressed as a penalty that reduces `R`.
+A reused claim may traverse more than one independently governed relation. Before calculating `R_eff`, state what actually changed and use the rule for that change. A.2.6 owns claim-scope operations; C.3/C.3.3 owns kind relations; F.9 owns a semantic Bridge between exact local-sense cells; notation, reference-plane, model-use, and evidence-reuse relations keep their own definitions. None is a universal crossing relation.
 
-**Invariant INV‑C2.2‑1 (R-only penalty routing).**
-For any transport step that uses a bridge with a declared congruence level, the transported claim preserves its **F** value, re-expresses its scope via an explicit **scope translation** (`translate`) when needed, and only its **R** value is decreased by congruence penalties:
+**Invariant INV-C2.2-1 (R-only penalty routing).** For each traversed relation `r` whose rule declares a congruence loss:
 
 `F_out = F_in`
-`G_out = translate(Bridge, G_in)`  *(identity only for within-context identity use; cross-context use is undefined without a Bridge)*
-`R_out ≤ R_in`
+`G_out = translate(r, G_in)` only when `r` is an applicable A.2.6 scope translation; otherwise `G_out = G_in`
+`R_out ≤ R_in`, with the exact penalty determined by `r` and the cited policy
 
-Claim scope may be *re-expressed* by an explicit translation, but must not be silently widened:
+A scope translation may narrow or re-express `G`; it never widens the claim silently. A change in formality is a new episteme or explicit ΔF move, not a transport penalty. A semantic Bridge changes neither kind nor scope by itself. A kind or plane relation supplies no semantic correspondence unless that separate relation also obtains. Evidence reuse changes warrant only through its own evidence-use or reliance claim.
 
-`G_out = translate(Bridge, G_in)`  (may narrow / drop unmappable slices; never widen without an explicit ΔG)
+There is no implicit crossing. If a reuse depends on a changed value and its required relation or operation is absent, unresolved, or outside its applicability, the reuse is non-conformant. This keeps guard macros simple: each path records the relations it actually traverses and routes their declared losses to `R`, while every other coordinate changes only under its own rule.
 
-**No implicit translation.** Translation between contexts never occurs implicitly: if the target context differs, an explicit Bridge (with declared CL and loss note) is mandatory; otherwise the reuse is non-conformant.
-**No implicit translation.** Cross‑Context reuse is conformant only via an explicit Bridge (declared CL + loss note) and an explicit `translate(Bridge,·)`; see **CC‑C.2.2‑4**.
+#### C.2.2:4.4.A - Worked micro-example: scope revision and evidence reuse
 
-This invariant is why KD‑CAL guard macros and crossing bundles can be simple: transport never silently *widens* a claim; it either (i) translates/narrows scope explicitly, and/or (ii) reduces warrant.
+A materials-lab claim says:
 
-`translate` is the USM operator (A.2.6). It may drop unmappable slices and may include refit-like normalization; **this is not a penalty**. Any further narrowing is an explicit Δ‑move (ΔG−) under A.2.6. Congruence loss (CL/CL^k/CL^plane) still routes to **R only**.
+> `c_lab:` "Adhesive X retains ≥85% tensile strength on Al6061 for 2 h at 120–150 °C."
 
-**Notation/plane transports.** NotationBridge and plane transports contribute to the relevant `CL*_min(P)` bottlenecks for the path; they do not “lower F” by penalty. If an author actually rewrites a claim into a different formality level, that is a new episteme (ΔF), not “transport”.
+Its declared scope is `G_lab := {substrate=Al6061, temp∈[120,150]°C, dwell≤2h, evidenceWindow=1y, rig=Calib-v3}`. A plant engineer proposes a narrower claim for Plant B. Two different moves are required.
 
-#### C.2.2:4.4.A - Worked micro-example: `translate(G)` + penalty (A.2.6:11.2)
+1. **State the plant claim and its scope.** Under A.2.6 the engineer explicitly narrows the temperature interval to `[122,148]°C` because the plant calibration rule reports a ±2 °C bias. This changes `G`; it is not an F.9 semantic Bridge and is not inferred from the words "lab" and "plant".
+2. **Judge reuse of the lab evidence.** The exact A.10 or B.3 evidence-use and reliance claim names the lab evidence, plant claim, calibration edition, validity window, and intended use. If that relation's declared fit is `CL=2` under policy `Φ_v1`, compute `R_eff := max(0, R_lab − Φ_v1(2))`. The penalty reduces warrant; it does not perform the scope edit.
 
-**Source context:** `MaterialsLab@2026`. Claim:
+If lab and plant use distinct local meanings for a material term, F.9 separately tests a Bridge between their exact F.17 cells. Its semantic loss is not the calibration correction or the evidence-reuse result. A further safety narrowing to `[125,145]°C` is another explicit A.2.6 ΔG− decision.
 
-> `c:` “Adhesive X retains ≥85% tensile strength on Al6061 for 2 h at 120–150 °C.”
-
-* `G_src := {substrate=Al6061, temp∈[120,150]°C, dwell≤2h, Γ_time=window(1y), rig=Calib‑v3}`
-* `Loc_src(c) = ⟨F_src, G_src, R_raw⟩`
-
-**Target context:** `AssemblyFloor@EU‑PLANT‑B`. Reuse requires a declared Bridge `b`:
-
-* Bridge `Bridge#MatLab_to_PlantB` maps lab rig → plant rig and introduces a measurement correction; `CL(Bridge#MatLab_to_PlantB)=2` with loss note “±2 °C bias.”
-* **Scope translation:** `G_tgt := translate(b, G_src)` which (in this case) narrows the temperature span to `[122,148]°C` due to the correction.
-* **Penalty routing:** using policy `Φ=Φ_v1`, compute
-  `R_eff := max(0, R_src − Φ_v1(CL(Bridge#MatLab_to_PlantB)))`.
-
-**Key point:** `G` changed only because `translate(b,·)` explicitly re-expressed the *same entitlement* in the target Context’s slice vocabulary; the **congruence loss** still affects **R only**. If authors decide that only `[125,145]°C` is safe to claim on the floor, that is an explicit **ΔG−** decision (scope edit), not a congruence penalty.
+The example therefore preserves one simple rule: name each changed value and relation once, change `G` only through the scope rule, and reduce `R` only through the loss rule that actually applies.
 
 #### C.2.2:4.5 - Effective reliability under transport (policy-defined, monotone, bounded)
 
-When a claim is reused via bridges, `R_eff` is computed by applying penalties determined by congruence levels.
+When a claim is reused through declared relations, `R_eff` is computed by applying the penalties those relations assign to their congruence levels.
 
 **Definition DEF‑C2.2‑4 (Effective reliability under transport).**
 Let:
 
-* `CL` be the congruence level of a scope bridge (B.3).
-* `CL^k` be the congruence level of a kind bridge (C.3).
-* `CL^plane` be the congruence level of a plane transport bridge (B.3 / plane patterns).
+* `CL` be the congruence level declared by the applicable scope, semantic, notation, model-use, or evidence-reuse relation (B.3 and its direct subject pattern).
+* `CL^k` be the congruence level of an applicable kind relation (C.3/C.3.3).
+* `CL^plane` be the congruence level of an applicable reference-plane relation (B.3 / plane patterns).
 
 Let `Φ`, `Ψ`, and `Φ_plane` be **policy-defined**, **monotone**, **bounded**, **table-backed** penalty policies applied on the relevant edges:
-* `Φ(CL)` — scope/context Bridge penalty (CL).
-* `Ψ(CL^k)` — KindBridge penalty (CL^k) when kinds are mapped.
+* `Φ(CL)` — penalty declared for the applicable scope, semantic, notation, model-use, or evidence-reuse relation.
+* `Ψ(CL^k)` — penalty declared for an applicable kind relation.
 * `Φ_plane(CL^plane)` — plane-crossing penalty when `ReferencePlane` differs.
 
 **Important (direction of monotonicity).** Congruence ladders are “polarity up” (higher CL = better fit). Per **CC‑G0‑Φ** and the Trust & Assurance skeleton, penalty tables are monotone **decreasing** in their CL ladders (if `CL1 < CL2` then `Φ(CL1) ≥ Φ(CL2)`, analogously for `Ψ` and `Φ_plane`) and bounded so that `R_eff` remains within `[0,1]` after clipping. Penalty magnitudes are not required to lie in `[0,1]` (tables may exceed 1 to force `R_eff → 0` under the subtractive default); what matters is monotonicity, boundedness, and published policy identifiers.
@@ -196,7 +187,7 @@ When policies are expressed as subtractive penalties, a safe default is:
 This generalises the B.3 skeleton to multiple congruence ladders (scope vs kind vs plane) without introducing new penalty characteristics. If a dimension is not present on the path, its penalty term is treated as neutral (`0` in the subtractive default).
 
 **Provisional marking.**
-Default admissibility thresholds for reuse are set by Bridge calibration profiles (e.g., G.7). Typically, `CL=1` requires an explicit waiver to proceed and `CL=0` is inadmissible; this pattern only specifies that such thresholds gate transport before any numeric penalty is meaningful.
+Default admissibility thresholds for reuse are set by the relevant relation-calibration profile (e.g., G.7). Typically, `CL=1` requires an explicit waiver to proceed and `CL=0` is inadmissible; this pattern only specifies that such thresholds gate reuse before any numeric penalty is meaningful.
 
 #### C.2.2:4.5.A - Math-by-level gating (B.1.3:4.3)
 
@@ -219,11 +210,12 @@ Lanes remain **separable** in SCR/Notes; they are not averaged into a “single 
 Reliability is meaningless if scope operations are applied to ill-typed entities.
 
 **Well-formedness constraint WFC‑C2.2‑1 (Type before scope).**
-Let `G1` and `G2` be claim scopes associated to described entities of kinds `K1` and `K2`. A scope operation that combines them (e.g., `G1 ∩ G2` for serial intersection, `SpanUnion({G_i})` for parallel coverage, or `translate(Bridge, G)` for cross‑context reuse) is defined only if:
-* `K1 = K2`, or
-* (same `U.BoundedContext`) `K1 ⊑ K2` or `K2 ⊑ K1` (an explicit kind relation/cast is named), or
-* (cross‑Context) there exists a declared **KindBridge** relating `K1` and `K2` with an explicit `CL^k` (C.3).
+Let `G1` and `G2` be claim scopes for claims about entities of kinds `K1` and `K2`. A scope operation that combines them—such as `G1 ∩ G2` for serial intersection or `SpanUnion({G_i})` for parallel coverage—is defined only if:
 
+* `K1 = K2`; or
+* an exact C.3/C.3.3 kind relation or cast makes the operation well typed for these participants and this direction.
+
+An A.2.6 scope translation changes `G` only under its own rule. A kind relation does not translate scope. If distinct source-local meanings also matter, an actual F.9 Bridge and its bounded-use claim are separate; neither repairs an ill-typed scope operation.
 This constraint prevents “type-by-scope” anti-patterns where scope manipulation is used to hide type mismatch.
 
 #### C.2.2:4.8 - Minimal authoring recipe
@@ -232,14 +224,11 @@ A minimal, conforming KD‑CAL authoring flow for reliability is:
 
 1. **Fix the typed claim.** State the claim as a typed proposition about a EntityOfConcern (Kind‑CAL, C.3).
 2. **Declare claim scope.** Write `G` explicitly using A.2.6 operators; avoid scope-by-wording.
-3. **Declare stance carriers.** Declare `K=U.BoundedContext`, `S ∈ {design, run}`, and (where relevant on Working‑Model surfaces) `validationMode ∈ {postulate, inferential, axiomatic}`; declare `ReferencePlane` if crossings are in play.
+3. **Declare interpretation conditions.** State design or run stance, `ReferencePlane`, effective scheme, model-use basis, working situation, and `validationMode ∈ {postulate, inferential, axiomatic}` only where each changes this claim or its use. `G` already carries claim scope; do not add a generic Context identifier.
 4. **Bind evidence.** Attach evidence stubs and lane tags (TA/VA/LA) and validity windows / decay policy where applicable (B.3.3, B.3.4).
 5. **Choose Γ-mode.** Declare whether the support is **series** (required) or **parallel** (independent lines to the same claim).
 6. **Compute R_raw.** Use the weakest-link fold on the entailment spine; for parallel support, use `max` only with an explicit independence note.
-7. **Declare bridges on reuse.** If you reuse across contexts/kinds/planes/notations, declare the bridge(s) (including NotationBridge where applicable) and their CLs.
-   Cross‑Context reuse is conformant only when an explicit Bridge is declared; CL admissibility rules apply (waiver or forbid) before any numeric penalty is meaningful (see **CC‑C.2.2‑4**).
-   **Reuse note (FPF discipline).** When this section refers to “reuse/portability across contexts or planes”, interpret it as Bridge-only reuse per §4.4: e.g., Bridge `Bridge#MatLab_to_PlantB` with `CL=2` and an explicit loss note, applying policy ids `Φ=Φ_v1` (and, where applicable, `Ψ=Ψ_v2`, `Φ_plane=Φ_plane_v1`) to reduce `R_eff` only.
-
+7. **Name actual relations on reuse.** Use A.2.6 for an applicable scope translation, C.3/C.3.3 for a kind relation, F.9 for a semantic relation between exact local-sense cells, and the direct pattern for notation, plane, model-use, or evidence reuse. Record the fit or loss declared by each traversed relation. If a required relation is absent or unresolved, stop that reuse; a generic cross-context Bridge cannot substitute for it.
 8. **Compute R_eff.** Apply the declared penalty policies into `R` (never into `F` or `G`), and publish `⟨F,G,R_eff⟩` with traceable references and policy identifiers.
 
 A reliable claim is not a loud claim; it is a claim that can be *carried*.

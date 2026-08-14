@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:7 — Conformance Checklist"
-line_start: 66820
-line_end: 66831
+line_start: 66598
+line_end: 66609
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -66,7 +66,7 @@ keywords:
 | ID | Requirement | Purpose |
 |---|---|---|
 | `CC-C32.FAIL-1` | The cue states a recognizable symptom in practitioner language. | Keeps the pattern usable at first contact. |
-| `CC-C32.FAIL-2` | The described holon, bounded context, and architecture object under stress are named. | Prevents source wording from replacing object recovery. |
+| `CC-C32.FAIL-2` | The described holon, architecture claim when current, architecture concern and intended repair use, architecture object under stress, failure evidence, and any material scope or qualification window are named. | Prevents source wording or a generic context field from replacing object recovery. |
 | `CC-C32.FAIL-3` | The blocked overread is stated in one sentence. | Makes the failure precise enough to repair. |
 | `CC-C32.FAIL-4` | The first subject pattern is named. | Keeps architecture, lens, work, evidence, assurance, and decision claims distinct. |
 | `CC-C32.FAIL-5` | The repair action changes architecture handling. | Prevents warning-only rows. |

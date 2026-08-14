@@ -6,12 +6,12 @@ section_id: "F.15:10"
 section_title: "Twin-register checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__012_twin-register-checks.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:10 — Twin-register checks"
-line_start: 96009
-line_end: 96027
+line_start: 95408
+line_end: 95426
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -50,7 +50,7 @@ keywords:
 
 ### F.15:10 - Twin-register checks
 
-Use these checks when F.18 selected both a Tech and Plain designation.
+Use these checks when the F.18 naming result records both a Tech and a Plain designation.
 
 **SCR-F15-T1 (Same exact settlement).**
 Both expressions resolve through the same current NameCard to the same governed value, effective scheme, local-sense claim, and admitted naming use. The NameCard, expressions, value, and any F.17 cell remain distinct.

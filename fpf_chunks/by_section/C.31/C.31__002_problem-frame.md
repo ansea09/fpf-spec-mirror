@@ -6,12 +6,12 @@ section_id: "C.31:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:1 — Problem frame"
-line_start: 63516
-line_end: 63545
+line_start: 63239
+line_end: 63272
 dependencies:
   - "A.10"
   - "A.17"
@@ -52,8 +52,12 @@ The first useful move is deliberately small:
 ```text
 ModularityVectorLite:
   describedHolonRef:
-  boundedContextRef:
+  architectureQuestion:
+  intendedArchitectureUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureClaimRef?:
+  selectedStructureRefs:
   structureKindRefs:
   threeLiveCharacteristicsAtMost:
   observedProblem:

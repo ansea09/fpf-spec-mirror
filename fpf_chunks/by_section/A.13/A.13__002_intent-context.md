@@ -6,12 +6,12 @@ section_id: "A.13:1"
 section_title: "Intent & Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__002_intent-context.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:1 — Intent & Context"
-line_start: 23774
-line_end: 23784
+line_start: 23465
+line_end: 23475
 dependencies:
   - "A.10"
   - "A.12"
@@ -24,10 +24,11 @@ dependencies:
   - "C.9"
   - "E.16"
 keywords:
-  - "agency as role"
+  - "U.SystemRoleAssignment"
   - "agency spectrum"
+  - "agential participation"
   - "autonomy grading"
-  - "contextual role assignment"
+  - "local system-role kind"
   - "substrate-neutral autonomy"
 ---
 
@@ -35,10 +36,10 @@ keywords:
 
 The concept of "agency"—the capacity of an entity to act purposefully—is central to engineering, biology, and AI, yet it remains one of the most overloaded and ambiguous terms. Without a precise, falsifiable, and substrate-neutral definition, models of autonomous systems risk descending into "self-magic," where actions have no clear cause and accountability is lost.
 
-This pattern builds directly upon the foundations laid in the FPF Kernel to provide that definition. A.1 established that only a **`U.System`** can be the bearer (`holder`) of behavioral roles.  A.2.1 defined the universal `U.RoleAssignment` (`Holder#Role:Context`) as the canonical way to assign roles. A.3 and A.12 defined the `TransformerRole@Context` role value and the principle of acting-side externalization.
+This pattern builds directly on the FPF Kernel. A.1 establishes that the acting holder must be a `U.System`. A.2 and A.2.1 distinguish a local system-role kind, classification by that kind, and an obtaining occurrence of a directly declared `U.SystemRoleAssignment` species. A.12 supplies the acting-side externalization principle.
 
 The intent of this pattern is to:
-1.  Formally define **agency** not as an intrinsic *type* of holon, but as a **contextual Role Assignment**.
+1.  Define **agency** not as an intrinsic *type* of holon, but as an assignment claim: an exact local agential system-role kind is assigned to a `U.System` through an obtaining `U.SystemRoleAssignment`.
 2.  Introduce a measurable, multi-dimensional **spectrum of agency** via a dedicated agency-characteristic profile, moving beyond a simple binary "agent/not-agent" switch.
 3.  Provide a clear, **didactic grading system** that allows engineers and managers to assess and communicate the Agency Grade of any system in a consistent, evidence-backed manner.
 

@@ -6,12 +6,12 @@ section_id: "F.10:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:2 — Problem"
-line_start: 94258
-line_end: 94270
+line_start: 93826
+line_end: 93838
 dependencies:
   - "A.10"
   - "A.15.1"

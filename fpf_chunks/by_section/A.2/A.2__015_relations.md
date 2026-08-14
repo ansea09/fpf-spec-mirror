@@ -6,7 +6,7 @@ section_id: "A.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__015_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:13 — Relations"
@@ -45,7 +45,7 @@ keywords:
 
 **Governs with:** `A.2.1` for system-role assignments; `A.2.2` for capability; `A.2.5` for assignment state; `A.2.7` for relations among system-role kinds; `A.15` and `F.6` for Method-Work alignment and attribution; `F.4`, `F.5`, and `F.18` for description and naming.
 
-**Crosses locality through:** `C.3.3` for exact local kinds, `F.9` for sense alignment, and `A.6.9` for cross-context sameness disambiguation, followed by a bounded-use assertion and current reliance when the receiving action needs them. A matching name, Bridge, card, or selected model-use structure creates neither identity nor assignment.
+**Crosses locality through:** `C.3.3` for exact local kinds, `F.9` for relations between exact F.17 cells, and `A.6.9` for ambiguous sameness wording across local boundaries, followed by a bounded-use assertion and current reliance when the receiving action needs them. A matching name, Bridge, card, or selected model-use structure creates neither identity nor assignment.
 
 **Keeps separate from:** responsibility, commitment, permission, authority, state, capability, Method, Work, evidence, reliance, publication, external-rule, and currentness relations. Apply `E.10.ROLE` to ambiguous wording and `A.6.RSIR` only when relation participation or its declaration must be recovered.
 

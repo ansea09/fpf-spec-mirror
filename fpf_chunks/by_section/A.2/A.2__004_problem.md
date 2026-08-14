@@ -6,7 +6,7 @@ section_id: "A.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__004_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:2 — Problem"
@@ -48,7 +48,7 @@ Without this pattern:
 3. kind identity and the membership criterion are treated as the same thing;
 4. an assignment is used as a family-wide membership rule, or classification is used to manufacture an assignment;
 5. the holder, kind, assignment interval, capability, responsibility, and Work are compressed into one record;
-6. matching labels across contexts are treated as identity or permission for reuse;
+6. matching labels across local practices, sources, or editions are treated as identity or permission for reuse;
 7. proposed subkind edges or extension rows create their own membership evidence;
 8. ordinary *role* wording turns epistemes, slots, positions, or interfaces into system-held roles.
 

@@ -6,12 +6,12 @@ section_id: "A.22:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:4 — Solution"
-line_start: 34628
-line_end: 34911
+line_start: 34315
+line_end: 34616
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -136,7 +136,7 @@ Use description, publication, source-use, evidence, work, gate, decision, releas
 
 Use `A.22.CGUS` when the current A.22 structure is an organization among several identified loci and constraints: admitted starting records, already-current starting structures, relation signatures, constraints, invariants, guarded transitions, preserved and lost structure, admissible next forms, and conditions for stop, return, split, or currentness refresh. This structure specialization is still `U.Structure`; it is not a route, workflow, method, work plan, performed work, decision, evidence relation, gate, architecture description, or publication.
 
-Open `A.22.CGUS` only when the candidate has several loci and cross-locus constraints. A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
+Use `A.22.CGUS` only when the candidate has several loci and cross-locus constraints. A route card, table, graph, README entry, narrative, slide, or happy-path example may describe or demonstrate the unfolding structure, but it is not the structure itself.
 
 #### A.22:4.1c - Bounded And Cross-Context Model-Use Structure Specializations
 
@@ -181,11 +181,11 @@ A.22 does not mint a local generic reliance record. When a structure claim relie
 | Current reliance relation kind | What is named | Definition or test to apply |
 | --- | --- | --- |
 | Source-description relation | source episteme, source view, publication form or rendering where relevant, described structure or structure claim, source-basis pins or structure-use return condition, admissible and non-admissible use | `A.7`, `A.6.3`, `E.17`, `E.17.0`, and local source-publication rules |
-| Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible and non-admissible use | `A.6.6` SWBD or Context-local SWBD specialization |
-| EntityOfConcern or grounding-holon grounding | selected EntityOfConcern, `GroundingHolonSlot` when grounding-holon grounding is being claimed, effective reference scheme, claim scope, optional model-use structure, viewpoint, reference plane, and observation or witness condition when current | `C.2.1`, `A.2.6`, `A.6.4`, `A.6.3.RT`, `A.6.6` only if it is a base-dependence claim |
+| Base-dependence or basedness | `dependent = structure claim or structural description`, `base`, declared `baseRelation`, scope, declared `Γ_time` when temporal scope is claimed, witness refs when witness use is claimed, admissible and non-admissible use | `A.6.6` SWBD, or an admitted subject-specific base relation whose definition supplies the stated participants, applicability, and identity rule |
+| EntityOfConcern or empirical grounding | exact claim-bearing episteme, its EntityOfConcern, and effective ReferenceScheme; when empirical grounding is claimed, the exact grounding holon, covered claim subgraph, and obtaining C.2.1 `EpistemeEmpiricalGroundingRelation`; claim scope, optional model-use structure, describing-use viewpoint, reference plane, and observation or witness condition only when current | `C.2.1`, `A.2.6`, `A.1.1`, `E.17.0`, `A.6.4`, `A.6.3.RT`, and `A.6.6` only for a separate base-dependence claim |
 | Evidence or witness reliance | evidence-use relation, evidence-provenance relation, claim ref, witness publication or observation record, timespan and freshness; if an evidence graph is current, its graph path remains a mathematical or provenance expression rather than an action route | `A.10`, `A.2.4`, `G.6` |
 | Mathematical-lens reliance | lens candidate, lens card, or lens-use record; primary `EntityOfConcern`; relation record or claim record named by value when lens reliance is being claimed; preserved structure; lost structure; stop condition; `MathLensUseOutputRef`; C.29 lens-use result; or `LensUseAdmissibilityValue` | `C.29`, `C.26`, `F.9`, named mathematical-lens pattern |
-| Simulation, generated representation, model, or extracted trace | source publication or representation publication, extraction method, validation boundary, preserved structure, lost structure, structure-use return condition | source-description and Description-context patterns plus `C.29`, `A.10`, or the pattern that defines or tests the exact claim |
+| Simulation, generated representation, model, or extracted trace | exact source episteme and publication when source availability matters, representation or extraction method, validation boundary, preserved structure, lost structure, and structure-use return condition | `C.29` for representation or extraction correspondence; `E.10.D2` and `E.17.0` for description and view claims; `E.17` and `E.24.PUB` for publication; `C.2.1` only for exact episteme identity or an explicitly claimed empirical-grounding relation; `A.10` for evidence; or the pattern that defines or tests the exact simulation, extraction, or validation claim |
 
 If no reliance relation kind can be selected, keep the wording as a source-finding note, recognition cue, ordinary help, quote-only wording, or reduced-use cue. Do not create a generic reliance record to make the claim look resolved.
 
@@ -193,12 +193,15 @@ If no reliance relation kind can be selected, keep the wording as a source-findi
 
 #### A.22:4.3 - Structural descriptions and views
 
-Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, publication forms, or source-pin sets. Every record whose name ends in `Description@Context` here is an existing `U.Episteme`: `C.2.1` supplies its identity and `E.10.D2` constrains its describing use. Every record whose name ends in `View@Context` here remains that same episteme and has `U.View` membership only when the E.17.0 conformance test to an exact viewpoint episteme passes. A.6.3 supplies only an optional source-to-receiving construction. `DescriptionContext` is imported, not locally redefined.
+Structural descriptions and views reuse existing episteme and view machinery. Architecture does not define a second ontology of descriptions, views, viewpoint bundles, multi-view descriptions, publications, publication forms, or source-pin sets. Every record whose name ends in `Description@Context` here designates an existing `U.Episteme`: C.2.1 supplies its identity and E.10.D2 constrains its describing use. Every record whose name ends in `View@Context` remains that same episteme and has `U.View` membership only when the E.17.0 conformance test to an exact viewpoint episteme passes. A.6.3 supplies only an optional source-to-receiving construction. The `@Context` suffix is a local retrieval convention; it does not add a context object or identity field.
 
 ```text
 StructuralDescription@Context ::= {
   descriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
+  entityOfConcernRef,
+  effectiveReferenceScheme,
+  selectedViewpointRef?,
+  selectedModelUseStructureRef?,
   structureRefs: FinSet(U.StructureRef),
   structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | StructureUseReturnConditionRef | U.EpistemeRef),
   describingEpistemeRef,
@@ -208,7 +211,10 @@ StructuralDescription@Context ::= {
 
 StructuralView@Context ::= {
   viewId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
+  entityOfConcernRef,
+  effectiveReferenceScheme,
+  selectedViewpointRef?,
+  selectedModelUseStructureRef?,
   structureRefs: FinSet(U.StructureRef),
   structuralAspectDescriptionRefs?,
   selectedRelationsOrOperations,
@@ -218,7 +224,7 @@ StructuralView@Context ::= {
 }
 ```
 
-`descriptionContext.ViewpointRef` is the viewpoint field. When reliance is on a named claim, `U.EpistemeRef` resolves the exact C.2.1 claim-bearing episteme; a PatternID normally locates the definition, constraint, or test it uses, and an exact ClaimGraph is added only when that identity changes the use. Do not duplicate the viewpoint field locally under another name unless another cited pattern defines a more specific view record.
+The exact EntityOfConcern and effective scheme identify the episteme with its claim content under C.2.1. `selectedViewpointRef`, when present, records that this named describing use selects exact viewpoint P; it does not establish conformance or `U.View` membership. `selectedModelUseStructureRef`, when present, resolves one independently selected `BoundedModelUseStructure` used by the receiving assertion or calculation; it is neither episteme identity nor another viewpoint field. When reliance is on a named claim, `U.EpistemeRef` resolves the exact C.2.1 claim-bearing episteme; a PatternID normally locates the definition, constraint, or test it uses, and an exact ClaimGraph is added only when that identity changes the use.
 
 #### A.22:4.4 - Extracted and transformed structural views
 
@@ -227,7 +233,10 @@ Use extracted or transformed structure records when a corpus, trace, model, lens
 ```text
 ExtractedStructuralView@Context ::= {
   extractedViewId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
+  entityOfConcernRef,
+  effectiveReferenceScheme,
+  selectedViewpointRef?,
+  selectedModelUseStructureRef?,
   sourceCorpusOrTraceRefs,
   structureRefs: FinSet(U.StructureRef),
   extractionDescriptionRef,
@@ -241,7 +250,10 @@ ExtractedStructuralView@Context ::= {
 
 StructureExtractionDescription@Context ::= {
   extractionDescriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
+  entityOfConcernRef,
+  effectiveReferenceScheme,
+  selectedViewpointRef?,
+  selectedModelUseStructureRef?,
   sourceInputKind,
   lensOrMethodRef,
   budgetOrObserverBoundary?,
@@ -255,7 +267,10 @@ StructureExtractionDescription@Context ::= {
 
 StructuralAspectDescription@Context ::= {
   aspectDescriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
+  entityOfConcernRef,
+  effectiveReferenceScheme,
+  selectedViewpointRef?,
+  selectedModelUseStructureRef?,
   aspectKindRef,
   structureRefs: FinSet(U.StructureRef),
   structureClaimRelianceRefs?: FinSet(U.ScopedWitnessedBaseDeclarationRef | EvidenceRelationRef | EvidenceProvenanceRelationRef | MathLensUseOutputRef | StructureUseReturnConditionRef | U.EpistemeRef),
@@ -265,7 +280,10 @@ StructuralAspectDescription@Context ::= {
 
 StructuralCoarseningDescription@Context ::= {
   coarseningDescriptionId,
-  descriptionContext: DescriptionContext(EntityOfConcernRef, EffectiveReferenceScheme, ViewpointRef?, ModelUseStructureRef?),
+  entityOfConcernRef,
+  effectiveReferenceScheme,
+  selectedViewpointRef?,
+  selectedModelUseStructureRef?,
   sourceStructureRefs: FinSet(U.StructureRef),
   resultStructureRefs: FinSet(U.StructureRef),
   preservedUnder,
@@ -329,7 +347,7 @@ stop: reopen selection when a constituent, selected occurrence, or isolation con
 declaredStructureSubstrateRef: TransformationFlowStructureRef under E.18, with mathematical graph description under E.18.2 when that expression is the current claim
 candidate structure: selected transformation-flow structure
 structure-claim reliance relation: selected relation record named by value(
-  sourceDescriptionOrPatternApplicationRef = SourceViewRef, E.18 selected structure or crossing record, or E.18.2 mathematical graph description,
+  sourceDescriptionOrPatternApplicationRef = SourceViewRef, structure or crossing record selected under E.18, or E.18.2 mathematical graph description,
   relationContribution = E.18 selected-structure or crossing definition | A.6.6 base-dependence test | A.10 evidence, source-provenance, or reliance test | C.29 mathematical-lens result, chosen for the claim being made,
   relationKind = source-description | base-dependence | evidence | lens, selected for this reliance,
   validationBoundary = graph-path currentness boundary, slice currentness boundary, or crossing currentness boundary

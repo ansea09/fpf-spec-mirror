@@ -6,37 +6,39 @@ section_id: "F.11:End"
 section_title: "F.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__018_f-11-end.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:End — F.11:End"
-line_start: 94857
-line_end: 94858
+line_start: 94329
+line_end: 94330
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
-  - "D.CTX"
+  - "B.1.5"
+  - "C.2.1"
   - "E.10.D1"
-  - "F.1"
+  - "F.0.1"
   - "F.10"
-  - "F.3"
+  - "F.17"
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Work"
 keywords:
-  - "Actuation"
   - "Method"
   - "MethodDescription"
-  - "Role–Method–Work alignment"
-  - "Work"
+  - "control or transformation output"
+  - "dated Work"
+  - "description use"
+  - "enactment"
+  - "performed-Work attribution"
 ---
 
 ### F.11:End

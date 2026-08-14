@@ -6,12 +6,12 @@ section_id: "A.6.S:5"
 section_title: "Archetypal Grounding — Tell–Show–Show"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__007_archetypal-grounding-tell-show-show.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:5 — Archetypal Grounding — Tell–Show–Show"
-line_start: 21166
-line_end: 21233
+line_start: 20857
+line_end: 20924
 dependencies:
   - "A.12"
   - "A.3"
@@ -50,7 +50,7 @@ keywords:
 
 #### A.6.S:5.1 - Show — System archetype
 
-**Context.** A payments microservice exposes an external boundary used by multiple client systems.
+**Working situation.** A payments microservice exposes an external boundary used by multiple client systems.
 
 **Half‑signature input (what arrives).**
 “Service binds a `User` to a `PaymentMethod`, anchors charges to the `Ledger`, and guarantees idempotency.”
@@ -61,7 +61,7 @@ keywords:
 
   * **Vocabulary:** operations like `Authorize`, `Charge`, `Refund`; slots made explicit (e.g., `UserRefSlot`, `PaymentMethodRefSlot`, `LedgerEntryRefSlot`).
   * **Laws (examples):** “Charge is idempotent under IdempotencyKey”; “Refund does not increase net balance”.
-  * **Applicability:** bounded context = “Payments”, scope = “External API”.
+  * **Applicability:** Payments external API; effective ReferenceScheme and scope are named by the signature edition.
 
 * **ConstructorSignature:** `PaymentSignatureEngineering`
 
@@ -87,7 +87,7 @@ keywords:
 
 #### A.6.S:5.2 - Show — Episteme archetype
 
-**Context.** A research group publishes a “signature” for a boundary concept used across multiple theories (a common “interface” between models).
+**Working situation.** A research group publishes a signature for a boundary concept used across multiple theories—a common interface between models.
 
 **Half‑signature input.**
 “We define correspondence between model A and model B; parameters are anchored to a reference dataset.”
@@ -98,7 +98,7 @@ keywords:
 
   * **Vocabulary:** relation `Corresponds(A_model, B_model, Φ_bridge)` with explicit slot kinds and ref/value modes.
   * **Laws:** invariants about correspondence preservation (“observable X is preserved up to tolerance ε”).
-  * **Applicability:** bounded context = “Model alignment”.
+  * **Applicability:** the named model-alignment question and use; effective schemes and any actual F.9 relation are stated separately.
 
 * **ConstructorSignature:** `CorrespondenceSignatureEngineering`
 

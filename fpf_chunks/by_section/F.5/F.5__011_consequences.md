@@ -6,12 +6,12 @@ section_id: "F.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__011_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:9 — Consequences"
-line_start: 92283
-line_end: 92301
+line_start: 91899
+line_end: 91917
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,8 +65,8 @@ Costs:
 
 - authors recover the object and meaning source before naming;
 - some familiar source labels cannot become FPF Tech designations;
-- public or cross-context names may need F.18, F.17, C.3.3, and F.9 even when a local label looks obvious; and
+- durable public names may need F.18 and F.17, while actual cross-local relations may need C.3.3 or F.9 even when a local label looks obvious; and
 - source text that uses *role* for status, evidence, access, participation, or relation position needs ontological recovery, not suffix editing.
 
-Reopen F.5 when U-kind neutrality, `SystemRole` or `SystemRoleKindDescription` morphology, the Tech-Plain relation, lineage, or cross-context naming boundaries change. Reopen a neighboring pattern when the dispute is about the named object itself.
+Reopen F.5 when U-kind neutrality, `SystemRole` or `SystemRoleKindDescription` morphology, the Tech-Plain relation, lineage, or durable cross-local naming boundaries change. Reopen a neighboring pattern when the dispute is about the named object itself.
 

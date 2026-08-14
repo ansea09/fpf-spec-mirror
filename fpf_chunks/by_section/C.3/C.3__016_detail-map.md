@@ -6,12 +6,12 @@ section_id: "C.3:14"
 section_title: "Detail Map"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__016_detail-map.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:14 — Detail Map"
-line_start: 44965
-line_end: 44978
+line_start: 44666
+line_end: 44679
 dependencies:
   - "A.1"
   - "A.11"
@@ -49,7 +49,7 @@ C.3 is the head pattern for typed reasoning. It leaves each detailed mechanism a
 | --- | --- | --- |
 | Local kind order and continuity | `C.3.1` | `U.Kind`, `U.SubkindOf`, partial-order law, judgment monotonicity, and continuity across signature editions. |
 | Declaration, candidate judgment, and extension | `C.3.2` | `KindSignature`, exact four-key judgment, `true`/`false`/`unknown`, optional `KindExtension`, and scope/formality/evidence boundaries. |
-| Cross-context kind use | `C.3.3` | The direct `KindBridge` relation between exact source and target local kinds, its separate bridge-assertion episteme, declared preservation and loss, and target-context reevaluation under the exact target `KindSignature` edition. |
+| Cross-local kind use | `C.3.3` | The direct `KindBridge` relation between exact source and target local kinds, its separate bridge-assertion episteme, declared preservation and loss, and target-boundary reevaluation under the exact target `KindSignature` edition. |
 | Local adaptation without cloning a kind | `C.3.4` | A `KindUseAdaptationDeclaration` for one named local use of an exact base kind, its pinned base-kind judgment and additional candidate-feature constraints, the exact three-valued `KindUseAdaptationJudgment`, and any separately declared `KindUseAdaptationCorrespondenceDeclaration` between two exact adaptation declarations. |
 | Abstraction facet | `C.3.5` | `KindAT` as an editorial planning facet on one exact local kind, with no effect on the kind, declaration, judgment, extension, bridge assessment, guard, or F–G–R. |
 | Typed guards and applied examples | `C.3.A` | Declaration-level kind compatibility and exact candidate-use judgments kept separate across regulatory, assurance, ESG, and Method–Work uses, including the independently grounded actual `W : U.Work` boundary. |

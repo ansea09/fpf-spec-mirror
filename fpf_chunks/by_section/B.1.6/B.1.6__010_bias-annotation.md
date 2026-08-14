@@ -6,12 +6,12 @@ section_id: "B.1.6:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__010_bias-annotation.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6.1 — Bias-Annotation"
-line_start: 37207
-line_end: 37216
+line_start: 36924
+line_end: 36933
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
-| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or separately governed non-Work carrier phase, stock, window, and policy before aggregation. |
+| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or non-Work carrier identity and phase relation, stock, window, and policy before aggregation. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until an explicit conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
 | Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
 | Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence-use patterns first; use `B.2.P` only when whole reidentification remains current. |

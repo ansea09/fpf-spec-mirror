@@ -6,12 +6,12 @@ section_id: "C.21:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__004_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:2 — Problem"
-line_start: 50989
-line_end: 50996
+line_start: 50692
+line_end: 50699
 dependencies:
   - "A.17"
   - "A.18"
@@ -21,6 +21,7 @@ dependencies:
   - "C.2"
   - "C.20"
   - "E.10"
+  - "F.17"
   - "F.9"
   - "G.0"
   - "G.10"
@@ -43,7 +44,7 @@ keywords:
 
 Narrative health claims cause three recurrent failure modes:
 
-1. **Scale inadmissibility.** Averaging ordinals, mixing units, or comparing incommensurate Contexts => nonsense roll-ups.
+1. **Scale inadmissibility.** Averaging ordinals, mixing units, or comparing values produced under incompatible characteristic, scale, method, or distance editions yields nonsense roll-ups.
 2. **Staleness.** Health “scores” rarely declare **freshness windows** or evidence lanes (TA/VA/LA).
-3. **Scope slippage.** “The field” is left implicit; cross-Context reuse lacks **Bridges & CL**, leading to silent semantic loss. Any numeric comparison or aggregation cites a **CG-Spec** row (characteristics, **ScaleComplianceProfile (SCP)**, **Γ-fold**, MinimalEvidence) before computation.
+3. **Scope and basis slippage.** “The field” and the comparison basis are left implicit; values from different corpora, traditions, cohorts, or schemes are treated as commensurable without an obtaining relation. Any numeric comparison or aggregation cites a **CG-Spec** row (characteristics, **ScaleComplianceProfile (SCP)**, **Γ-fold**, MinimalEvidence) and the exact input editions before computation.
 

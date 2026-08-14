@@ -6,12 +6,12 @@ section_id: "F.5:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__004_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:2 — Problem"
-line_start: 92107
-line_end: 92121
+line_start: 91723
+line_end: 91737
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 Without this pattern:
 
-1. **Context-local terms look global.** `Observation`, `Activity`, or `Process` becomes a U-kind name although it carries one witness tradition's private commitments.
+1. **Local terms look global.** `Observation`, `Activity`, or `Process` becomes a U-kind name although it carries one practice's or source's private commitments.
 2. **System-role names become hidden admissions.** A label such as `ReviewerSystemRole` is treated as if the local kind or candidate classification already exists.
 3. **System-role names become hidden assignments.** A concrete kind label is treated as if someone is already assigned.
 4. **System-role names become capability claims.** A candidate is assumed able because the kind label sounds competent.
@@ -63,6 +63,6 @@ Without this pattern:
 6. **Description and described kind collapse.** `PumpInspectorSystemRoleKindDescription` is treated as `PumpInspectorSystemRole` itself.
 7. **Status names become system-role kinds.** For example, `Approved`, `AccessRole`, `ModelFitEvidenceRole`, or `RequirementRole` creates a fake work-facing classification instead of the exact direct relation.
 8. **Relation positions become system-role kinds.** Signature, relation, or argument-position names borrow role morphology even though they name participation or a declaration place.
-9. **Names carry interpretation metadata.** `Task-IEC61131`, `Participant-BPMN`, or `ReviewerSystemRole-SchemeA` fossilizes an edition, source, context, or scheme in the label.
+9. **Names carry interpretation metadata.** `Task-IEC61131`, `Participant-BPMN`, or `ReviewerSystemRole-SchemeA` fossilizes an edition, source, local boundary, or scheme in the label.
 10. **Aliases become silent renames.** Several labels circulate for one meaning without lineage or Bridge discipline.
 

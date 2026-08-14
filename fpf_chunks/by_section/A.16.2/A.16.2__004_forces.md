@@ -6,12 +6,12 @@ section_id: "A.16.2:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:3 — Forces"
-line_start: 28152
-line_end: 28159
+line_start: 27839
+line_end: 27846
 dependencies:
   - "A.16"
   - "A.16.0"

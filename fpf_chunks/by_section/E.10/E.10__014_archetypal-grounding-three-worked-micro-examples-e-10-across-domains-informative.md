@@ -6,12 +6,12 @@ section_id: "E.10:12"
 section_title: "Archetypal Grounding - three worked micro-examples - E.10 across domains (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__014_archetypal-grounding-three-worked-micro-examples-e-10-across-domains-informative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:12 — Archetypal Grounding - three worked micro-examples - E.10 across domains (informative)"
-line_start: 75846
-line_end: 75871
+line_start: 75673
+line_end: 75698
 dependencies:
   - "A.10"
   - "A.15"
@@ -58,7 +58,7 @@ keywords:
 
 ### E.10:12 - Archetypal Grounding - three worked micro-examples - E.10 across domains *(informative)*
 
-#### E.10:12.1 - Healthcare (OR context)
+#### E.10:12.1 - Healthcare (operating-room planning and work)
 
 **Messy:** “The surgical **process** is scheduled at 08:00; the SOP approves the incision and the **service** documents recovery.”
 **E.10-clean rewrite:**
@@ -72,9 +72,9 @@ keywords:
 **E.10-clean rewrite:**
 “`Robot_SN789` has **Capability** ‘execute `Weld_MIG_v3` within envelope E at measures M’.
 For one run, `Robot_SN789` is admitted as a system and performs `WeldWork-SN789-4711`; A.15.1 and F.6 identify its time, Method, containing System, and assignment. Add `WelderSystemRole` only when that classification matters. Each bounded change of the workpiece joint is identified under A.3.4 before stating a work-to-change fact. If the Work first constitutes a distinct seam entity, `A.15.PROD` supplies its identity specification and inception boundary. Measurement-result epistemes remain separate evidence for acceptance and duration claims.
-Recover source `WeldingCellContext` separately. Any assignment interval is described outside the four participant designations.”
+Treat source string `WeldingCellContext` as a quoted recovery cue. If it changes the claim, recover the exact source edition, plant practice, effective scheme, scope, or working situation that it denotes. Any assignment interval is described outside the four participant designations.”
 
-#### E.10:12.3 - Cloud and SRE (production Context)
+#### E.10:12.3 - Cloud and SRE (production deployment and work)
 
 **Messy:** “The storage **service** wrote logs and the deployment **process** failed after 2 min.”
 **E.10-clean rewrite:**

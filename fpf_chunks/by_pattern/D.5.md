@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.5.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
-line_start: 69459
-line_end: 69638
+line_start: 69265
+line_end: 69451
 dependencies:
   - "A.10"
   - "B.3"
@@ -67,18 +67,22 @@ Open a `BiasAuditAssuranceFrame@Context`:
 ```text
 BiasAuditAssuranceFrame@Context:
   auditedEntityOfConcernRef
-  boundedContextRef
   intendedUseRef
-  affectedPeopleOrGroupRefs?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
+  affectedPopulationRefs?
+  affectedSystemRefs?
   affectedHolonRefs?
   metricOrModelRefs?
   policyOrPublicationRefs?
   biasConcernRefs
+  ethicalClaimRefs?
   fairnessClaimRef?
   impactClaimRef?
   causalFairnessUseRef?
   evidenceRefs
   assuranceClaimRefs?
+  assuranceUseRef?
   mitigationOrConstraintRefs?
   acceptedResidualRefs?
   admissibleUse
@@ -106,7 +110,10 @@ D.5 may use a compact `BiasRegister@Context` when the live need is to keep conce
 BiasRegister@Context:
   auditedEntityOfConcernRef
   intendedUseRef
-  affectedPeopleOrGroupRefs?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
+  affectedPopulationRefs?
+  affectedSystemRefs?
   biasConcernCode
   evidenceRefs
   mitigationOrConstraintRef?
@@ -114,9 +121,9 @@ BiasRegister@Context:
   nextReviewTrigger?
 ```
 
-Use a fuller `BiasAuditReport@Context` only when the object is being released, relied on by other work, exposed to affected people or groups, used for assurance, or used after a material source-currentness, population, context, model, metric, or policy change. The report is a Description episteme or publication-use object; it does not make the audited object fair by existing.
+Use a fuller `BiasAuditReport@Context` when the object is being released, relied on by other work, exposed to affected people or groups, or used for assurance. Also use it after a material change to source currentness, affected population, ClaimScope or qualification window, model, metric, or policy. The report is a Description episteme or publication-use object; it does not make the audited object fair by existing.
 
-Lightweight scan is enough when the intended use is local, reversible, low-impact, and the scan finds no affected group, proxy, metric, representation, causal-use, or publication-use concern. Deeper review is required when the use is consequential, repeated, automated, cross-context, externally published, safety-relevant, regulatorily or deontically constrained, or when an affected group, missing group, proxy variable, threshold, causal fairness claim, accepted residual, or assurance claim is current.
+Lightweight scan is enough when the intended use is local, reversible, low-impact, and the scan finds no affected group, proxy, metric, representation, causal-use, or publication-use concern. Use deeper review when the use is consequential, repeated, automated, externally published, safety-relevant, or regulatorily or deontically constrained. Deeper review is also required when the use crosses a ClaimScope, qualification window, population, or publication boundary, or when an affected group, missing group, proxy variable, threshold, causal fairness claim, accepted residual, or assurance claim is current.
 
 #### D.5:3.2 - Compact Bias Concern Taxonomy
 
@@ -161,7 +168,7 @@ A hiring-screening model has high aggregate accuracy and an internal note says i
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D5-1 | The audited EntityOfConcern, intended use, affected people or groups, bias, fairness, or impact concern, evidence refs, and admissible use are named. | Keeps audit scope inspectable. |
+| CC-D5-1 | The audited EntityOfConcern, intended use, any affected populations or Systems, bias, fairness, impact, or ethical claim, evidence, assurance use when current, repair return, and admissible use are named. ClaimScope and qualification window are explicit when they delimit the audit. | Keeps audit scope inspectable. |
 | CC-D5-2 | Metric, causal fairness, evidence, assurance, publication, and architecture-residual claims use their direct owners. | Prevents D.5 from swallowing neighboring patterns. |
 | CC-D5-3 | Ethical assurance is recorded as assurance or evidence relation, not moral permission. | Keeps assurance from becoming ethical authorization. |
 | CC-D5-4 | If the audit exposes interlevel conflict, D.3 and D.4 become the owners for conflict structure and decision use. | Keeps D.5 connected to the D cluster without replacing it. |

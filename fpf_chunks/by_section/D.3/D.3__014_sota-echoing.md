@@ -6,12 +6,12 @@ section_id: "D.3:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__014_sota-echoing.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:10 — SoTA-Echoing"
-line_start: 69278
-line_end: 69286
+line_start: 69077
+line_end: 69085
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,6 +39,6 @@ keywords:
 | --- | --- |
 | Multilevel ethics and systems thinking | Ethical conflict often crosses declared levels or scopes through Methods, actual Work, transformations, participation, evidence, value concerns, and consequence horizons; the case must show which relations actually conflict. |
 | Collective agency and responsibility debates | Collection, organization, public, or community names require grounding in holon, membership or participation, an independently optional local kind, a separate optional System-classification judgment, any obtaining assignment, agency evidence, and a direct responsibility predicate before responsibility is asserted. |
-| Constructive and episteme ontology | Conflicts can involve systems, collections, work occurrences, bounded contexts, disciplines, and epistemes; description and publication claims remain under their subject patterns, while the forms remain only their forms, not substitutes for affected EntityOfConcern. |
+| Constructive and episteme ontology | Conflicts can involve, for example, systems, collections, work occurrences, disciplines, epistemes, or the exact practice boundaries and model-use structures current in the case. Use C.2.1 for episteme identity and E.17 or E.24.PUB for publication claims; the forms remain only their forms, not substitutes for affected EntityOfConcern. |
 | FPF architecture-residual discipline | Cross-scope architecture residual and interlevel ethical conflict can coincide; Use D.3 to map the ethical conflict and `C.30.ILC` to triage the architecture residual. |
 

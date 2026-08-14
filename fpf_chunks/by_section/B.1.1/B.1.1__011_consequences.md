@@ -6,12 +6,12 @@ section_id: "B.1.1:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__011_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:8 — Consequences"
-line_start: 35878
-line_end: 35892
+line_start: 35590
+line_end: 35604
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,7 +41,7 @@ Positive consequences:
 
 Costs:
 
-- A diagram alone is no longer enough; relation kinds and owners must be named.
+- A diagram alone is no longer enough; relation kinds and the patterns that define or test them must be named.
 - Some compact dependency graphs need multiple relation layers or views.
 - Graph-based checks may need C.29 when the mathematical lens is relied on.
 

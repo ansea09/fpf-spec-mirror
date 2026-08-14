@@ -6,12 +6,12 @@ section_id: "F.9.1:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__006_worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:5 — Worked cases"
-line_start: 94137
-line_end: 94166
+line_start: 93705
+line_end: 93734
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

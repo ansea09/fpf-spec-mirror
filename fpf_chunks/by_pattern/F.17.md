@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.17 — Unified Term Sheet"
-line_start: 96556
-line_end: 97768
+line_start: 95908
+line_end: 97120
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -102,7 +102,7 @@ The practical problem is to make one durable naming decision recoverable without
 | Force | F.17 settlement |
 | --- | --- |
 | Reader memory vs full provenance | Keep one compact row while retaining exact reopening references. |
-| Local expression vs durable reuse | Prefer the light local disposition; open F.17 only at the public/Core/durable/cross-local threshold. |
+| Local expression vs durable reuse | Prefer the light local disposition; use F.17 only at the public/Core/durable/cross-local threshold. |
 | Local sense vs globalized wording | Identify every cell under one exact by-value scheme and sense claim; spelling establishes neither sameness nor Bridge. |
 | Naming settlement vs governed value | The NameCard describes the naming decision; it neither defines nor constrains the value or its kind. |
 | Didactic grouping vs ontology | Optional blocks help navigation and create no subtype, part, system-role kind, relation position, or priority. |
@@ -299,7 +299,7 @@ Use these checks before citing a row outside its immediate sheet.
 | UTS-SCR-04 | F.14 was applied before the current card, cell, and row; the light dispositions—no durable name, existing designation, alias, local expression, a name already used for the value, and admitted row reuse—were tested first. |
 | UTS-SCR-05 | The Tech and Plain designation expressions agree with the exact current F.18 NameCard without becoming the governed value; aliases and rejected candidates remain separate. |
 | UTS-SCR-06 | Any cited `LocalSenseBasisRelation` has only its exact cell and basis episteme as participants; source-unit and publication facts remain qualifiers or neighboring objects. |
-| UTS-SCR-07 | Apply all four Bridge probes: same scheme plus same `LocalSenseClaim` plus another expression is a designation question and adds no Bridge; same scheme plus a different claim opens F.9 and, only for a named row use, the separate use-claim/reliance branch; a different scheme opens only the Bridge question and establishes none; no current correspondence use creates no Bridge or use claim regardless of scheme count. |
+| UTS-SCR-07 | Apply all four Bridge probes: same scheme plus same `LocalSenseClaim` plus another expression is a designation question and adds no Bridge; for the same scheme plus a different claim, use F.9 and, only for a named row use, the separate use-claim/reliance branch; a different scheme opens only the Bridge question and establishes none; no current correspondence use creates no Bridge or use claim regardless of scheme count. |
 | UTS-SCR-08 | Any cited F.9 Bridge has exact endpoint cells and editions, an applicable relation-semantic profile, a true kind-defined predicate, and every required dependency. The separate affirmative C.2.1 use claim states direction, correspondence rule, and loss tolerance, with current A.10 or B.3 reliance. A negative use claim rejects that exact row use; non-passing reliance stops or narrows it; neither negates or reidentifies an otherwise obtaining Bridge. |
 | UTS-SCR-09 | A system-role-kind row does not identify `SystemRoleKindDescription`, `SystemRoleAssignment`, capability, Method, or Work with the governed kind; a status row does not turn a status family, value, or window into a system-role kind. |
 | UTS-SCR-10 | Evidence, assurance, source, publication, description, relation, slot, interface, authority, and equivalence claims use the patterns that define, constrain, or test them rather than becoming row truth. |
@@ -608,11 +608,11 @@ LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
   editionId: 2026-07-25
 ```
 
-This row makes only `BoundedModelUseStructure` current for public reuse. A.22's separate cross-structure NameCard remains local and pending: without an independently governed obtaining crossing and an exact positive membership basis, F.17 returns no public row for that label.
+This row makes only `BoundedModelUseStructure` current for public reuse. A.22's separate cross-structure NameCard remains local and pending: without an independently governed obtaining crossing and an exact positive membership basis, no public row is available for that label.
 
 #### F.17:12.4e - Three bounded-model-use direct relation-kind rows
 
-These rows publish the three already governed A.1.1 relation-kind names used by E.24.UK. Each row publishes a designation only. A.1.1 still decides whether one of those relation occurrences obtains and how it is reidentified. The naming objects and the separately governed local-sense basis occurrences make none of the three A.1.1 relations obtain, and they create no assertion, temporal extent, Work, or structure.
+These rows publish the three already governed A.1.1 relation-kind names used by E.24.UK. Each row publishes a designation only. A.1.1 defines the obtaining and reidentification tests for each such relation occurrence. The naming objects and the separately governed local-sense basis occurrences make none of the three A.1.1 relations obtain, and they create no assertion, temporal extent, Work, or structure.
 
 ```text
 UTSRowId: UTS.ModelApplicabilityRelation.FPFCore.2026-07-25
@@ -923,7 +923,7 @@ AdmissibleUse: Core-facing designation of the direct relation kind, exact Relati
 BlockedUse: no conformance occurrence, U.View membership, adequacy, truth, authority, or publication from the row, name, NameCard, signature, SlotSpecs, viewpointRef, ViewpointId, participant fillers, assertion, evidence, evaluation Work, result, construction, query, rendering, form, carrier, or publication
 RowEditionId: 2026-08-02
 CurrentnessCondition: reopen when E.17.0 changes either participant kind, the target/admitted-kind/content predicate, pair-determined positive occurrence identity, RelationSignature, complete NameCard, FPFCoreReferenceScheme, or named Core use
-Notes: EpistemeViewpointConformanceRelationSignature is a separate C.2.1 RelationSignature episteme with CandidateEpistemeSlot : U.EpistemeRef and ViewpointEpistemeSlot : U.ViewpointRef; retain the exact consumer field viewpointRef : U.ViewpointRef, whose resolution yields P but proves no conformance
+Notes: `EpistemeViewpointConformanceRelationSignature` is the E.17.0 declaration episteme whose exact EntityOfConcern is `EpistemeViewpointConformanceRelation`; A.6.0 independently gives that same individual `U.Signature` membership and relation-facing `RelationSignature` use, with `CandidateEpistemeSlot : U.EpistemeRef` and `ViewpointEpistemeSlot : U.ViewpointRef`; retain the exact consumer field `viewpointRef : U.ViewpointRef`, whose resolution yields P but proves no conformance
 
 SenseCell.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02:
   ReferenceScheme: FPFCoreReferenceScheme

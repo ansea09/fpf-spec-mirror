@@ -6,12 +6,12 @@ section_id: "B.1.4:5.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__009_bias-annotation.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:5.1 — Bias-Annotation"
-line_start: 36586
-line_end: 36594
+line_start: 36300
+line_end: 36308
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -38,8 +38,8 @@ keywords:
 
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
-| Notation becomes ontology | `Gamma_ctx`, `Gamma_time`, graph, or algebra wording is treated as the governed object. | Recover the ordered or temporal relation first, then treat notation as a selected expression. |
-| Sequence becomes work | A method order, plan order, document order, or performed-work history is treated as the same thing. | Name the direct owner: method, method description, work plan, dated work occurrence, or evidence window. |
+| Notation becomes ontology | `Gamma_ctx`, `Gamma_time`, graph, or algebra wording is treated as the in-life object or relation. | Recover the ordered or temporal relation first, then treat notation as a selected expression. |
+| Sequence becomes work | A method order, plan order, document order, or performed-work history is treated as the same thing. | Name the exact claim and use the applicable method, description, work-plan, dated-Work, or evidence pattern. |
 | Phase becomes level | A phase label is used as a new system level or a new whole. | Recover the exact subject first: C.2.1 identity/edition law for an episteme, A.15.1 for Work, or the carrier's direct identity rule and proper `PhaseOf` for another enduring individual. Open whole reidentification only when that question remains current. |
-| Coverage becomes authority | A complete-looking timeline is treated as sufficient evidence or currentness. | Use evidence, source-currentness, and temporal-adequacy owners when those claims are current. |
+| Coverage becomes authority | A complete-looking timeline is treated as sufficient evidence or currentness. | Use the applicable evidence, source-currentness, and temporal-adequacy patterns when those claims are current. |
 

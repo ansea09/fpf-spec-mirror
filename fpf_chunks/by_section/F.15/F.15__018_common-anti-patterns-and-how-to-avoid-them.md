@@ -6,12 +6,12 @@ section_id: "F.15:14"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__018_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:14 — Common Anti-Patterns and How to Avoid Them"
-line_start: 96196
-line_end: 96213
+line_start: 95595
+line_end: 95612
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ keywords:
 | H2 | Bridge by label or Card | Same spelling or a filled Card is treated as relation truth | Imports meaning and hides occurrence/predicate boundaries | SCR-F15-S12/S13 require exact cells, profile, truth, dependencies, use claim, and reliance |
 | H3 | Silent edition swap | An edition or stable id is cited as continuity | Retcons exact earlier claims | RSCR-F15-E1 names exact refs and the direct continuity/change claim |
 | H4 | Locality blur | A local-sense label hides scheme, expression, or claim | Globalizes meaning | SCR-F15-S2/S3 recover the exact basis and SchemeSenseCell triple |
-| H5 | Window as type | A time, scale, phase, or confidence variant becomes a new status family | Status inflation | SCR-F15-S14 and RSCR-F15-E11 return to F.10 or the applicable status pattern |
+| H5 | Window as type | A time, scale, phase, or confidence variant becomes a new status family | Status inflation | Apply F.10 or the applicable status pattern when SCR-F15-S14 or RSCR-F15-E11 fails |
 | H6 | System-role fusion by convenience | Description, bundle, incompatibility, or name becomes one system-role kind | Hides kind, relation, assignment, and work | SCR-F15-S7 and SCR-F15-S15 require F.4 and the exact patterns that define the relations |
 | H7 | Alias as merge | Expression lineage hides value, scheme, or sense change | Loses history and identity | RSCR-F15-E7/E8 require exact continuity before alias treatment |
 | H8 | `CL` or witness optimism | Evidence shorthand silently strengthens relation or use authority | Confuses evidence, relation truth, and bounded use | RSCR-F15-E9/E10 re-test the exact occurrence and separate use claim |

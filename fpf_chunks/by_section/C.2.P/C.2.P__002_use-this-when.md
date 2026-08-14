@@ -6,12 +6,12 @@ section_id: "C.2.P:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:0 — Use this when"
-line_start: 41896
-line_end: 41941
+line_start: 41613
+line_end: 41658
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,7 +65,7 @@ Use `C.2.P` as epistemic precision restoration for wording whose hidden field be
 
 Use `E.10` for lexical and wording-use precision and `C.2.P` for epistemic precision restoration across episteme, publication, carrier-relation, and view distinctions. The C.2.P recovery fields are source expression, source-local meaning, recovered FPF kind and relation set, publication construction, carrier relation construction, view construction, EntityOfConcern or grounding relation, reader use, and use or non-use disposition. These are fields of one recovery pass, not sibling kinds.
 
-The practical partition is episteme-slot or publication-construction use, but it is not limited to named `C.2.1` slots. It also handles source expressions selected for FPF-governed use and pattern-application wording when those phrases carry a claim or use boundary. Apply this pattern from `E.10` only when the applicable pattern cannot yet be selected because one recovery field is unresolved: source wording, claim-bearing episteme, publication construction, carrier-relation construction, project-side reliance, pattern-application wording, or use or non-use disposition. The local decision selects source-expression clarification or FPF-governed use, recovers the episteme-publication relation set, chooses a recovery disposition, and preserves remaining reader use before a neighboring pattern supplies its own definition, constraint, or test.
+The practical partition is episteme identity or direct-relation use versus publication-construction use, but it is not limited to named C.2.1 relations. It also handles source expressions selected for FPF-governed use and pattern-application wording when those phrases carry a claim or use boundary. Apply this pattern from E.10 only when the applicable pattern cannot yet be selected because one recovery field is unresolved: source wording, claim-bearing episteme, publication construction, carrier-relation construction, project-side reliance, pattern-application wording, or use or non-use disposition. The local decision selects source-expression clarification or FPF-governed use, recovers the episteme-publication relation set, chooses a recovery disposition, and preserves remaining reader use before a neighboring pattern supplies its own definition, constraint, or test.
 
 For source-wording restoration, `C.2.P` stops at recovery. It names the recovered FPF kind, relation, `projectSideFPFRef`, `declaredUseBoundary`, `relationClaimSlice`, remaining reader use, or explicit non-use disposition. When another FPF pattern defines, constrains, or tests a recovered field, name that pattern and leave the field in its ontology. Do not turn source wording into a standalone kind or keep authority, evidence, gate, work, assurance, or readiness inside source wording.
 

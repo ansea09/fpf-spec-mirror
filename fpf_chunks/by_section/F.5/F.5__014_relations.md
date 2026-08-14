@@ -6,12 +6,12 @@ section_id: "F.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__014_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:12 — Relations"
-line_start: 92324
-line_end: 92333
+line_start: 91940
+line_end: 91949
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 **Builds on.** A.2, C.3, F.4, F.7, F.18, E.10, E.10.ROLE, and E.10.ARCH.
 
-**Coordinates with.** E.24.UK for U-kind admission; A.2.1 for system-role assignment; A.2.2 for capability; A.2.5 for assignment state; A.2.7 for relations among system-role kinds; A.6.5 and A.6.RSIR for relation positions; A.15 for system-role–Method–Work alignment and dated Work; C.16 for measurement results; C.2.1 for descriptions and result epistemes; G.6 and A.10 for provenance and ordinary evidence reliance; B.3 for assurance-bearing reliance; F.8 for mint or reuse; C.3.3 and F.9 for exact cross-context Bridges; F.10 for status; F.13 for lineage; F.14 for anti-explosion; F.15 for conformance; and F.17 for public term-sheet use.
+**Coordinates with.** E.24.UK for U-kind admission; A.2.1 for system-role assignment; A.2.2 for capability; A.2.5 for assignment state; A.2.7 for relations among system-role kinds; A.6.5 and A.6.RSIR for relation positions; A.15 for system-role–Method–Work alignment and dated Work; C.16 for measurement results; C.2.1 for descriptions and result epistemes; G.6 and A.10 for provenance and ordinary evidence reliance; B.3 for assurance-bearing reliance; F.8 for mint or reuse; C.3.3 for relations between exact local kinds and F.9 for relations between distinct F.17 cells; F.10 for status; F.13 for lineage; F.14 for anti-explosion; F.15 for conformance; and F.17 for public term-sheet use.
 
 **Used by.** Part F naming patterns, F.4 description authors, Concept-Set authors, E.10 repairs that uncover naming rather than phrase-use issues, and any pattern use that creates a durable local name for a U-kind, system-role kind, or `SystemRoleKindDescription`.
 

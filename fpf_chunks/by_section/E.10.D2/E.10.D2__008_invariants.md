@@ -6,12 +6,12 @@ section_id: "E.10.D2:6"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__008_invariants.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:6 — Invariants"
-line_start: 77189
-line_end: 77208
+line_start: 77008
+line_end: 77027
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -48,7 +48,7 @@ keywords:
 
 **D2-2 (Entity-description distinction).** The EntityOfConcern and a description episteme about it are distinct, including when the EntityOfConcern is itself an episteme.
 
-**D2-3 (Specification is a use).** Specification force is admitted by checkable claims, preserved or updated DescriptionContext, and a named harness or validation relation; it is not a peer class or label effect.
+**D2-3 (Specification is a use).** Specification force requires checkable claims and a named harness or validation relation. When viewpoint selection affects reliance, preserve or update the named describing use and its exact selection. Specification is not a peer class or label effect.
 
 **D2-4 (Conditional neighbors).** Grounding, viewpoint, view, claim scope, model-use structure, evidence, edition, publication, carrier, currentness, and representation enter only through their subject patterns when the receiving use depends on them.
 
@@ -60,5 +60,5 @@ keywords:
 
 **D2-8 (Representation separation).** A tuple, card, graph node, schema field, notation token, file, or UI element may participate in a representation or publication of a recovered object; it is not that object by position or appearance.
 
-**D2-9 (No generic context relation).** E.10.D2 defines no `U.EpistemeSlotRelation`, `DescriptionContext` tuple, `BoundedContextRef` constituent, mandatory context recursion, or universal description relation.
+**D2-9 (No generic context relation).** E.10.D2 defines no `U.EpistemeSlotRelation`, positive `DescriptionContext` value or tuple, `BoundedContextRef` constituent, mandatory context recursion, or universal description relation. The old names may appear only as explicitly rejected source wording.
 

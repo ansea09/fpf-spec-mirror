@@ -6,12 +6,12 @@ section_id: "F.17:12"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__014_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:12 — Archetypal Grounding - worked cases"
-line_start: 96829
-line_end: 97676
+line_start: 96181
+line_end: 97028
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -336,11 +336,11 @@ LocalSenseBasisRelationDescription.BoundedModelUseStructure.FPFCore.2026-07-25:
   editionId: 2026-07-25
 ```
 
-This row makes only `BoundedModelUseStructure` current for public reuse. A.22's separate cross-structure NameCard remains local and pending: without an independently governed obtaining crossing and an exact positive membership basis, F.17 returns no public row for that label.
+This row makes only `BoundedModelUseStructure` current for public reuse. A.22's separate cross-structure NameCard remains local and pending: without an independently governed obtaining crossing and an exact positive membership basis, no public row is available for that label.
 
 #### F.17:12.4e - Three bounded-model-use direct relation-kind rows
 
-These rows publish the three already governed A.1.1 relation-kind names used by E.24.UK. Each row publishes a designation only. A.1.1 still decides whether one of those relation occurrences obtains and how it is reidentified. The naming objects and the separately governed local-sense basis occurrences make none of the three A.1.1 relations obtain, and they create no assertion, temporal extent, Work, or structure.
+These rows publish the three already governed A.1.1 relation-kind names used by E.24.UK. Each row publishes a designation only. A.1.1 defines the obtaining and reidentification tests for each such relation occurrence. The naming objects and the separately governed local-sense basis occurrences make none of the three A.1.1 relations obtain, and they create no assertion, temporal extent, Work, or structure.
 
 ```text
 UTSRowId: UTS.ModelApplicabilityRelation.FPFCore.2026-07-25
@@ -651,7 +651,7 @@ AdmissibleUse: Core-facing designation of the direct relation kind, exact Relati
 BlockedUse: no conformance occurrence, U.View membership, adequacy, truth, authority, or publication from the row, name, NameCard, signature, SlotSpecs, viewpointRef, ViewpointId, participant fillers, assertion, evidence, evaluation Work, result, construction, query, rendering, form, carrier, or publication
 RowEditionId: 2026-08-02
 CurrentnessCondition: reopen when E.17.0 changes either participant kind, the target/admitted-kind/content predicate, pair-determined positive occurrence identity, RelationSignature, complete NameCard, FPFCoreReferenceScheme, or named Core use
-Notes: EpistemeViewpointConformanceRelationSignature is a separate C.2.1 RelationSignature episteme with CandidateEpistemeSlot : U.EpistemeRef and ViewpointEpistemeSlot : U.ViewpointRef; retain the exact consumer field viewpointRef : U.ViewpointRef, whose resolution yields P but proves no conformance
+Notes: `EpistemeViewpointConformanceRelationSignature` is the E.17.0 declaration episteme whose exact EntityOfConcern is `EpistemeViewpointConformanceRelation`; A.6.0 independently gives that same individual `U.Signature` membership and relation-facing `RelationSignature` use, with `CandidateEpistemeSlot : U.EpistemeRef` and `ViewpointEpistemeSlot : U.ViewpointRef`; retain the exact consumer field `viewpointRef : U.ViewpointRef`, whose resolution yields P but proves no conformance
 
 SenseCell.EpistemeViewpointConformanceRelation.FPFCore.2026-08-02:
   ReferenceScheme: FPFCoreReferenceScheme

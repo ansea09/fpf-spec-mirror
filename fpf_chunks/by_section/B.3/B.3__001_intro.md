@@ -6,12 +6,12 @@ section_id: "B.3:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:intro — Intro"
-line_start: 38690
-line_end: 38712
+line_start: 38410
+line_end: 38432
 dependencies:
   - "A.10"
   - "A.15"

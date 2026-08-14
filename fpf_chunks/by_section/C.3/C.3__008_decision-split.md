@@ -6,12 +6,12 @@ section_id: "C.3:6"
 section_title: "Decision Split"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__008_decision-split.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:6 — Decision Split"
-line_start: 44889
-line_end: 44907
+line_start: 44590
+line_end: 44608
 dependencies:
   - "A.1"
   - "A.11"
@@ -51,8 +51,8 @@ keywords:
 | Does this exact candidate satisfy this local kind under this declaration edition and context slice? | `C.3.2` |
 | Does a receiving use need the represented set of true members? | `C.3.2`; `C.29` when the representation itself changes a claim-bearing use |
 | Does the assertion hold in a target slice? | `A.2.6` for its `U.ClaimScope`; do not attach that scope to the kind |
-| Does a typed claim cross into another bounded context? | `C.3.3` for the `KindBridge` between the exact local kinds; add F.9 only when the local senses also need alignment |
-| Did only the effective reference scheme change within one bounded context? | `C.3.2` for another `KindSignature` edition and `C.3.1` for the same-kind continuity decision; the scheme change alone is not a context bridge |
+| Does a typed claim cross into another local practice or source boundary? | `C.3.3` for the `KindBridge` between the exact local kinds; add F.9 only when the source-local senses also need an explicit relation |
+| Did only the effective reference scheme change within one local kind boundary? | `C.3.2` for another `KindSignature` edition and `C.3.1` for the same-kind continuity decision; the scheme change alone is not a kind bridge |
 | Did only the context slice change? | `C.3.2` for another judgment input and possible `KindExtension`; the slice change alone is not a context bridge |
 | Is the local kind being proposed as a durable public FPF `U.*` kind? | `E.24.UK`, followed by the applicable naming patterns |
 | Is a candidate, quality, relation, construction, or work occurrence being identified? | The direct subject pattern; C.3 consumes the governed result and does not create it |

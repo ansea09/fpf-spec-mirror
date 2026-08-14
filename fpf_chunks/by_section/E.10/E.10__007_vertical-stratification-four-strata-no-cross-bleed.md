@@ -6,12 +6,12 @@ section_id: "E.10:5"
 section_title: "Vertical Stratification (four strata; no cross-bleed)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__007_vertical-stratification-four-strata-no-cross-bleed.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:5 — Vertical Stratification (four strata; no cross-bleed)"
-line_start: 75129
-line_end: 75145
+line_start: 74956
+line_end: 74972
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,14 +62,14 @@ keywords:
 
 1. **Kernel** — admitted `U.*` names, core relation kinds, and invariants (for example `U.Holon`, `U.SystemRoleAssignment`, `U.Method`, `U.Work`, and `U.PromiseContent`).
 2. **Extension patterns** — CAL, LOG, and CHR exports (e.g., **Sys‑CAL**, **KD‑CAL**, **Agency‑CHR**) that **extend** but do not override Kernel.
-3. **Context** — a **`U.BoundedContext`** with its **Glossary**, **Invariants**, exact local system-role-kind designations and classification rules when current, and **Bridges** (local Context of meaning).
+3. **Local use** — the exact source or practice boundary, effective scheme, local meaning statements, aliases, local kind distinctions and classification rules that the use actually needs; cite an F.9 Bridge only when an exact relation between distinct local senses obtains.
 4. **Instance** — concrete identifiers for admitted holder Systems, exact `U.SystemRoleAssignment` occurrences, Work occurrences, and carriers.
 
-**V‑1 (Unidirectional meaning).** Meaning is constrained from Kernel to extension patterns to Context to Instance. No stratum may redefine a higher stratum’s term; it may only **specialise** or **bridge** it.
+**V‑1 (Unidirectional meaning).** Meaning is constrained from Kernel to extension patterns to local use to Instance. A local source, practice, or scheme may add a narrower designation or distinction, but it does not silently redefine a higher stratum's term; any actual relation between distinct local senses is stated separately.
 
 **V‑2 (Strata and authoring stances).** The four lexical strata above constrain **tokens**. They are independent of a claim-bearing unit's **stance** (its `CtxState` pins such as `DesignRunTag`, `ReferencePlane`, and `Locus`). Strata answer “what words mean here”; stance answers “where this claim is situated” and which evidence-lane expectations apply.
 
-**V-3 (Citation style).** The first mention of a context-local Tech term exposes its **Context** (for example `ServiceStewardSystemRole:ITIL_2020`). Cross-context reuse is admitted through a **Bridge** with a stated **Congruence Level (CL)** (see F.9). The suffix establishes neither system-role-kind admission nor assignment.
+**V-3 (Citation style).** When a local Tech designation changes interpretation or action, its first use names the source or practice boundary and effective scheme that carry that meaning—for example `ReviewerSystemRole@JournalReview-2026`. Reuse under another local meaning names both exact values and uses F.9 only if a direct Bridge between their exact cells actually obtains. The suffix establishes neither kind admission nor assignment.
 
 **V-4 (Firewall).** Tooling and Pedagogy idioms remain outside Kernel prose (DevOps Lexical Firewall). CI/CD jargon, file formats, and API names are not admitted in Core definitions. Pedagogy may use them only as Plain-register examples with Tech anchors present.
 

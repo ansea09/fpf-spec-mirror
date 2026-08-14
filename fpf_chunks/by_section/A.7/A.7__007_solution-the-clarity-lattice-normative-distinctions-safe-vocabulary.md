@@ -6,12 +6,12 @@ section_id: "A.7:5"
 section_title: "Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__007_solution-the-clarity-lattice-normative-distinctions-safe-vocabulary.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:5 — Solution — The Clarity Lattice (normative distinctions & safe vocabulary)"
-line_start: 21735
-line_end: 21946
+line_start: 21426
+line_end: 21637
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,19 +57,19 @@ A.7 establishes the following **pairs and triplets**. Use their **names** and **
 
 #### A.7:5.2 - System-role kind vs function-like wording, functional behaviour, capability, method, and work
 
-* **System-role kind.** One context-local `U.Kind` classifies systems by an assignable work-facing contribution. An obtaining assignment occurrence may relate a system to that kind only through a directly admitted `U.SystemRoleAssignment` species. The kind is **not behaviour**. Example: `CoolingCirculatorSystemRole@ThermalLoop-7`.
+* **System-role kind.** One local `U.Kind`, identified by a named practice or source boundary together with a stable assignable work-facing contribution, classifies systems by that contribution. An obtaining assignment occurrence may relate a system to that kind only through a directly admitted `U.SystemRoleAssignment` species. The kind is **not behaviour**. Example: `CoolingCirculatorSystemRole@ThermalLoop-7`.
 * **Function-like wording.** A source phrase such as "function", "behaviour", "service", or "does X" may name a required transformation or effect (A.3.4), functional behaviour (A.6.F), a capability envelope, a method, performed work, a quality, or a structure. Recover the governed claim before choosing the FPF term.
 * **Under a system-role assignment.** A System or acting holon that holds an assignment may have a **Capability** to enact a **Method** under conditions and may perform **Work** that produces, maintains, prevents, or checks a transformation or effect. Name both the assignment occurrence and its declared species when that distinction matters. The system-role kind is not the behaviour, Method is not identical to the transformation or effect, and Capability is not the Method.
 
 Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Duality (Substance vs system-role kind).** A `U.System` keeps its identity while its classifications and obtaining assignments change. A contribution named by a system-role kind may call for a Method, a Capability envelope to enact that Method under conditions, and possible Work occurrences; none follows from the kind alone.
 
-**Normative guard:** Use **system-role kind** for the exact context-local `U.Kind`, an admitted direct species under `U.SystemRoleAssignment` for assignment occurrences, **functional behaviour** for a behaviour claim stated with A.6.F, **Method** for the abstract way-of-doing, **Capability** for a system ability or envelope to enact a Method under conditions, **Work** for the performed occurrence, and **Transformation** or effect wording for an actual change identified with A.3.4. Do not call the kind or assignment itself a function, and do not define Method as Capability or as the transformation or effect itself.
+**Normative guard:** Use **system-role kind** for that exact local `U.Kind`, an admitted direct species under `U.SystemRoleAssignment` for assignment occurrences, **functional behaviour** for a behaviour claim stated with A.6.F, **Method** for the abstract way-of-doing, **Capability** for a system ability or envelope to enact a Method under conditions, **Work** for the performed occurrence, and **Transformation** or effect wording for an actual change identified with A.3.4. Do not call the kind or assignment itself a function, and do not define Method as Capability or as the transformation or effect itself.
 
 #### A.7:5.3 - MethodDescription vs Method vs Capability vs Work (description vs way-of-doing vs ability envelope vs occurrence)
 
 * **MethodDescription** — one already identified claim-bearing `U.Episteme` whose exact C.2.1 `EntityOfConcern` is one admitted `U.Method` and whose claims, under its effective `U.ReferenceScheme`, say something substantive about that Method as a way of doing. A transformation or enactment concern, generic participant meanings, applicability, precondition, intended effect or preserved condition, bound, or internal method composition can satisfy the positive threshold. The labels *algorithm*, *SOP*, *recipe*, *script*, *procedure*, code, diagram, or design-time artifact are cues only. Authoring, revision, citation, publication, approval, or use time establishes neither episteme identity nor `U.MethodDescription` membership. Its publication cites A.10 carrier/source-currentness refs when the carrier is used as evidence or source.
 * **Method** — the **abstract order-sensitive way-of-doing** composed with **Γ\_method** (B.1.5). A Method is not an occurrence, description episteme, or system ability. Actual participants and operation values remain occurrence-side facts of separately admitted `U.Work` and its direct bindings.
-* **Capability** — the **system ability or envelope** to enact a Method under stated system-role assignments, conditions, resources, and constraints. A Capability belongs to a system-in-context; it is not the MethodDescription and not the performed Work.
+* **Capability** — the **system ability or envelope** to enact a Method under stated system-role assignments, operating conditions, resources, and constraints. Attribute it to the exact system and state the conditions that bound the claim; it is not the MethodDescription and not the performed Work.
 * **Work** — the **dated run-time occurrence** (what actually happened), with resource spend (Γ\_work) and temporal coverage (Γ\_time).
 
 **Designation, reference, and description are different.** A Method identifier designates one exact `U.Method` under the applicable designation rules of an effective `U.ReferenceScheme`. A receiving claim's `methodRef` separately resolves under its effective scheme to that same Method. Neither operation needs a MethodDescription. Cite a separate `methodDescriptionRef` only when that receiving claim actually depends on claims in an exact episteme edition that has already passed A.3.2 membership.
@@ -84,9 +84,9 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 
 * **System or acting holon** — the entity that can enact behaviour when it is the holder in one obtaining occurrence of an exact work-facing `U.SystemRoleAssignment` species.
 * **Episteme** — **cannot act** and is not the holder in a work-facing system-role assignment; it is changed via carriers, publications, and work on those carriers by systems or acting holons. Reference, constraint-source, evidence, status, source, requirement, publication, and assurance uses are direct relations or uses, not system-role assignments.
-* **Holon** — umbrella term; do not use it where the current claim requires a system as assignment holder. Write the exact holder and one named occurrence of the locally admitted direct assignment species—for example, `ValveSelectionAssignment-47 : ValveSelectionTransformerAssignment`, with `HolderSystemSlot = DesignTeamSelectionSystem` and `AssignedSystemRoleKindSlot = TransformerSystemRole@ValveSelectionContext`. The context may be cited by the assertion; it is not a generic assignment participant.
+* **Holon** — umbrella term; do not use it where the current claim requires a system as assignment holder. Write the exact holder and one named occurrence of the locally admitted direct assignment species—for example, `ValveSelectionAssignment-47 : ValveSelectionTransformerAssignment`, with `HolderSystemSlot = DesignTeamSelectionSystem` and `AssignedSystemRoleKindSlot = TransformerSystemRole@ValveSelectionContext`. In this source designation, `ValveSelectionContext` must resolve to the named practice or source boundary used to identify the local kind; the assertion may cite that boundary, but it is not an assignment participant.
 
-**Normative guard:** Work-facing system-role kinds, including `TransformerSystemRole@ValveSelectionContext`, are context-local `U.Kind` values. A declared `U.SystemRoleAssignment` species defines the holder and assigned-kind participant meanings, predicate, applicability, and occurrence identity. An occurrence supplies the holder System or acting holon, assigned local kind, any other participants, and extent. Epistemes do not acquire a system-role kind or assignment merely because they are used as references, evidence, constraints, sources, requirements, publications, or assurance inputs.
+**Normative guard:** Work-facing system-role kinds, including `TransformerSystemRole@ValveSelectionContext`, are local `U.Kind` values identified by their named practice or source boundary and stable contribution distinction. A declared `U.SystemRoleAssignment` species defines the holder and assigned-kind participant meanings, predicate, applicability, and occurrence identity. An occurrence supplies the holder System or acting holon, assigned local kind, any other participants, and extent. Epistemes do not acquire a system-role kind or assignment merely because they are used as references, evidence, constraints, sources, requirements, publications, or assurance inputs.
 
 #### A.7:5.5 - Episteme vs publication carrier and source-currentness record
 
@@ -120,7 +120,7 @@ Safe rewrite for earlier "Holonic Duality (Substance vs Function)": **Holonic Du
 **Normative guard:** Avoid generic “process” for these operators. Reserve “process” for domain idioms; map internally to **Method** (design) and **Work** (run).
 
 #### A.7:5.8 - EntityOfConcern and Description-episteme boundary vs publication face, form, unit, and carrier boundary (orthogonal, normative)
-* **A.7 and E.10.D2 govern the EntityOfConcern-to-description boundary.** What the `EntityOfConcern` value is and how it is described are distinct questions. Description is a `U.Episteme` use with `DescriptionContext`. Specification is a gated use or refinement of a Description episteme, selected by checkability, formality plus checkable constraint, harness, acceptance, C.16 measurement criterion, verification use, or other neighboring pattern governing the claim force; it is not a peer class beside `EntityOfConcern` and Description.
+* **EntityOfConcern-to-description boundary.** A.7 keeps the EntityOfConcern and an episteme that describes it distinct; E.10.D2 supplies the Description and specification-use repair. What the `EntityOfConcern` value is and how it is described are different questions. A Description is a `U.Episteme` about that exact entity under its effective scheme. A named describing use may separately select one viewpoint when the selection changes what is read or checked. Specification is a checkable use or refinement of the Description episteme and requires checkable claims plus a named harness or validation relation; formality, acceptance, a C.16 measurement criterion, or verification practice may contribute to that test but does not substitute for it. EntityOfConcern, Description, selected viewpoint, and specification use remain distinct.
 * **Publication governs availability.** Publication units, publication forms, faces, renderings, and carriers make Description epistemes available to readers or tools, including Description epistemes admitted for specification use. They do not become the `EntityOfConcern` value, the Description episteme, the specification-use gate/refinement, or an evidence/source carrier by the same relation; physical and digital carriers stay in A.10 carrier/source-currentness relations when evidence, source, or reliance use is current.
 * **Publication-face field pins.** When Description epistemes or Description epistemes admitted for specification use are shown on **TechCard**, the minimal **CHR-Pins** are {**UnitType**, **ScaleKind**, **ReferencePlane**, **EditionId**}.
 * **Bridge policy.** Cross-context or cross-reference-plane reuse cites **Bridge id + CL**; **Phi(CL)** and **Phi_plane** penalties apply to **R (trust)** only; **F and G invariant**.
@@ -134,9 +134,9 @@ Use this split when the text needs to say whether two descriptions or views are 
 | Case | A.7 relation case | Admissible move |
 | --- | --- | --- |
 | same referent by value | the localized `EntityOfConcern` or relation named by value, carried by the current claim, or selected by a reference case and the resolved `entityOfConcernRef`, where live, refer to the same item by declared reference discipline | same-entity work inside the declared use |
-| preserved by viewing | A.6.3 viewing preserves `entityOfConcernRef` while changing content, representation, viewpoint, or other episteme slots | same-`EntityOfConcern` Description, Specification, or view transformation |
+| preserved by viewing | A.6.3 viewing preserves the exact EntityOfConcern while producing another episteme whose claim content or effective ReferenceScheme may differ; any representation relation and any viewpoint selected for a named describing use remain separate | same-EntityOfConcern Description, Specification, or view transformation |
 | publication-unit primary only | a bounded publication unit states what it is mainly about, plus its carried move and outside-work boundary, without establishing a claim-bearing episteme trace by itself | publication-unit stability only |
-| bridge-conditional near identity | F.9, F.17, or F.18 admits bounded near-identity or substitution under bridge kind, CL, direction, loss, and bridge-admissible use | bridge-scoped reuse only |
+| bridge-conditional near identity | An F.9 Bridge obtains, and a separate affirmative bounded-use claim names the proposed use, direction, correspondence rule, tolerated loss, and polarity. A practitioner may first use F.18 to settle the governed value's designations and, only when a durable term row is needed, then use F.17 to constitute that row; neither step establishes the Bridge or licenses reuse, while publication, evidence, and any reliance judgement remain separate. | bridge-scoped reuse only |
 | retargeted under invariant | A.6.4 changes `entityOfConcernRef` under `KindBridge`, invariant, and loss discipline | retargeted use only under stated invariant |
 | unresolved candidate | construction/reference/bridge/witness trace is insufficient | candidate tracking, question framing, or non-use |
 | different entity | no admissible sameness or near-sameness path exists for the intended use | keep entities distinct |
@@ -249,5 +249,5 @@ unitOfDelivery := {
 
 In these cards, each `methodConstraintRef` resolves directly to an admitted `U.Method`. Add a separate `methodDescriptionRef` only when the OutcomeSpec claim actually depends on claims in one exact A.3.2-admitted description edition; neither the constraint nor its reference creates that membership.
 
-(Where `E‑(…)` denotes an Episteme/predicate defined in the relevant Context; this appendix does not introduce an expression language.)
+(Where `E‑(…)` is shorthand in these cards for a separately identified episteme or predicate under the card's named effective ReferenceScheme and ClaimScope; this appendix does not introduce an expression language.)
 

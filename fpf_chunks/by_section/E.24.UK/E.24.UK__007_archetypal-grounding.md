@@ -6,12 +6,12 @@ section_id: "E.24.UK:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.UK/E.24.UK__007_archetypal-grounding.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.24.UK — U-kind Admission and Ontic Settlement"
   - "E.24.UK:5 — Archetypal Grounding"
-line_start: 90292
-line_end: 90354
+line_start: 90149
+line_end: 90211
 dependencies:
   - "A.1.1"
   - "A.11"
@@ -34,6 +34,7 @@ dependencies:
   - "E.24"
   - "E.24.CD"
   - "E.24.PUB"
+  - "E.24.UK"
   - "F.18"
   - "U.MethodDescription"
   - "U.Structure"
@@ -63,7 +64,7 @@ In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1
 1. **Subject and use.** The EntityOfConcern is A.15.2's WorkPlan kind-source construct; `MaintenancePlan_Q3` is a member witness, not the decision subject. Planning and readiness patterns need one durable way to recognize substantive intended-work epistemes.
 2. **Coverage.** `U.Episteme` already supplies individual identity, but it does not by itself distinguish epistemes that substantively coordinate intended work. A one-project classification would be tested under C.3 before durable admission.
 3. **Membership.** C.2.1 identifies `MaintenancePlan_Q3`; A.15.2's plan-membership predicate classifies that same individual as `U.WorkPlan` and implies its root `U.Episteme` membership. A calendar image or ticket title without substantive intended-work claims is the nearest non-member.
-4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, `E24UK-AR-UWORKPLAN-RG-01#settlement`, and by-value A.15 reliance are present. A.11 selects a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed.
+4. **Eight tests and settlement.** Identified epistemes, C.2.1 identity, the A.15.2 membership witness, planning use, non-duplication, A.15.2 as direct locus, `E24UK-AR-UWORKPLAN-RG-01#settlement`, and by-value A.15 reliance are present. Under A.11's test, the result is a same-individual dependent kind rather than a second root or plan object; no new A.8 universal root is claimed.
 5. **Result and flip.** `E24UK-AR-UWORKPLAN-RG-01` records `same-individual-dependent`; the existing Tech label `U.WorkPlan` is retained and this replay mints no new name. Reopen when C.2.1 identity, A.15.2 membership, the planning use, or settlement law changes. If only one bounded project needs the distinction and one exact C.3.2 declaration suffices, the disposition changes to `local-kind`.
 
 **Same-individual structure specializations — `BoundedModelUseStructure` and the A.22 conditional crossing-analysis rule.**
@@ -79,17 +80,17 @@ In each closed replay, the `E24UK-*` result reference identifies the exact C.2.1
 
 1. **Subject and use.** The EntityOfConcern is A.2.2's capability kind-source construct; `Pump37MaintenanceCapability_2026` would be one capability individual distinct from holder system `Pump37`. The intended use is reidentifying the capability through its holder while evidence, assignment, and work change.
 2. **Coverage.** `U.System` cannot classify the distinct capability individual, and a local kind would not replace a missing identity rule.
-3. **Membership and missing relation.** A.2.2 supplies a holder-indexed tuple, but no governed two-place capability-to-holder identity-dependence relation, obtaining condition, or identity effect. A holder field or reference is not that relation.
-4. **Failed tests.** Stable identity, reviewable witness, and shared-settlement condition 7 fail at the same missing governor. A.11, A.8, and naming are not reached.
-5. **Result and flip.** `E24UK-BLK-U-CAPABILITY-01` is the resolvable result; there is no accepted identity-dependent admission to reconstruct. Reopen only when A.2.2 governs the exact dependence relation and its identity effect. If recovery shows only a capability assertion, evidence item, fit assessment, or record field rather than a distinct governed individual, the disposition changes to `reject`.
+3. **Membership and missing relation.** A.2.2 contains a holder-indexed tuple, but no rule for a two-place capability-to-holder identity-dependence relation, obtaining condition, or identity effect. A holder field or reference is not that relation.
+4. **Failed tests.** Stable identity, reviewable witness, and shared-settlement condition 7 fail at the same missing governor. The A.11 and A.8 tests are not run, and naming does not begin.
+5. **Result and flip.** `E24UK-BLK-U-CAPABILITY-01` is the resolvable result; there is no accepted identity-dependent admission to reconstruct. Reopen only when A.2.2 defines the exact dependence relation and its identity effect. If recovery shows only a capability assertion, evidence item, fit assessment, or record field rather than a distinct governed individual, the disposition changes to `reject`.
 
 **Rejected near-miss — `U.EpistemePublication`.**
 
 1. **Subject and use.** The EntityOfConcern is the proposed kind source construct for an episteme made available to an audience; the use is to speak plainly about that availability.
-2. **Coverage.** `U.Episteme` already identifies the episteme, while E.24.PUB governs the exact publication occurrence, selected edition, audience, and use.
+2. **Coverage.** `U.Episteme` already identifies the episteme, while E.24.PUB defines the exact publication occurrence, selected edition, audience, use, and publication-form boundary.
 3. **Failed membership.** Publication participation can begin and end without reidentifying the episteme and supplies neither a stable dependent-membership predicate nor a distinct individual. An unpublished edition of the same episteme is the discriminating near-miss.
-4. **Failed tests and settlement.** Stable membership and non-duplication fail; `E24-OS-EPISTEME-ONTIC-01` and E.24.PUB already govern the needed objects and relation. A.11 rejects the duplicate kind; no A.8 or naming branch opens.
-5. **Result.** `E24UK-NAR-EPUB-01` records `reject`. Use Plain **published episteme** only in a claim that identifies or permits recovery of the obtaining `EpistemePublicationRelation`; admit no `U.EpistemePublication` name. Reopen only if a subject pattern later supplies a stable classificatory distinction not reducible to publication participation.
+4. **Failed tests and settlement.** Stable membership and non-duplication fail; `E24-OS-EPISTEME-ONTIC-01` and the E.24.PUB rules already identify the needed objects and publication relation. Applying the A.11 duplicate-kind test records rejection; do not apply A.8 or begin naming.
+5. **Result.** `E24UK-NAR-EPUB-01` records `reject`. Use Plain **published episteme** only in a claim that identifies or permits recovery of the obtaining `EpistemePublicationRelation`; admit no `U.EpistemePublication` name. Reopen only if a later cited rule defines a stable classificatory distinction not reducible to publication participation.
 
 #### E.24.UK:5.3 - Broad rule-content provision/support candidate
 
@@ -103,5 +104,5 @@ A passage that says a proposed type must pass A.8 or A.11 is a kernel-level U-ki
 
 #### E.24.UK:5.5 - Lower-level Heading
 
-A lower-level heading containing `U.*` does not admit kindhood by heading shape. Recover whether the heading names an already admitted root or dependent U-kind, a declaration-local SlotKind, a claim-bearing `U.Episteme`, a relation-defined participant meaning, or a publication object. Keep the recovered object and its subject pattern; rename the heading when it advertises a different kind.
+A lower-level heading containing `U.*` does not admit kindhood by heading shape. Recover whether the heading names an already admitted root or dependent U-kind, a declaration-local SlotKind, a claim-bearing `U.Episteme`, a relation-defined participant meaning, or a publication object. Keep the recovered object and the rule that defines or tests it; rename the heading when it advertises a different kind.
 

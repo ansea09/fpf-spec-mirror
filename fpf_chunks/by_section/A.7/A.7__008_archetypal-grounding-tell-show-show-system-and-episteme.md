@@ -6,12 +6,12 @@ section_id: "A.7:6"
 section_title: "Archetypal Grounding (Tell-Show-Show; System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_archetypal-grounding-tell-show-show-system-and-episteme.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:6 — Archetypal Grounding (Tell-Show-Show; System and Episteme)"
-line_start: 21947
-line_end: 21987
+line_start: 21638
+line_end: 21678
 dependencies:
   - "A.1"
   - "A.10"
@@ -68,7 +68,7 @@ keywords:
 * **Episteme:** “Safety Standard S‑174”.
 * **Carriers:** PDF and printed volume with A.10 carrier/source-currentness refs when the standard is used as source or evidence.
 * **Use relation:** reference-use or constraint-source-use relation for the valve selection activity, named by its subject pattern.
-* **System-role assignment for Work:** `ValveSelectionTransformerAssignment` is the declared species; it defines the holder and assigned-kind participant meanings, local kind domain, predicate, applicability, and occurrence identity. Occurrence `ValveSelectionAssignment-47` has `DesignTeamSelectionSystem` as holder and `TransformerSystemRole@ValveSelectionContext` as assigned-kind value. `ValveSelectionContext` is cited by the assertion rather than added as a generic participant.
+* **System-role assignment for Work:** `ValveSelectionTransformerAssignment` is the declared species; it defines the holder and assigned-kind participant meanings, local kind domain, predicate, applicability, and occurrence identity. Occurrence `ValveSelectionAssignment-47` has `DesignTeamSelectionSystem` as holder and `TransformerSystemRole@ValveSelectionContext` as assigned-kind value. `ValveSelectionContext` resolves to the named ValveSelection practice boundary in that local kind's identity basis; the assertion may cite that boundary, but it is not an assignment participant.
 * **MethodDescription membership:** episteme “Valve Selection SOP v5” has the valve-selection Method below as exact EntityOfConcern and claims the selection criteria, ordered checks, bounds and stop; the SOP label and citation alone establish neither episteme identity nor membership.
 * **Method:** abstract valve-selection way-of-doing described by that SOP.
 * **Capability:** design team's selection-service ability/envelope to enact the Method under the project conditions.
@@ -77,6 +77,6 @@ keywords:
 **Example 3 — Set vs team**
 
 * **Set (MemberOf):** {Alice, Bob, 3.14} — a collection; **no behaviour** implied.
-* **Collective system (team):** boundary, coordination **Method**, supervision **Work**; can be the holder in an obtaining occurrence such as `CoolingMaintenanceAssignment-8 : CoolingMaintenanceWorkAssignment`, whose declaration-local kind slot admits `CoolingMaintenanceSystemRole@ContextT`.
+* **Collective system (team):** boundary, coordination **Method**, supervision **Work**; can be the holder in an obtaining occurrence such as `CoolingMaintenanceAssignment-8 : CoolingMaintenanceWorkAssignment`, whose declaration-local kind slot admits `CoolingMaintenanceSystemRole@ContextT`. Here `ContextT` denotes the named team-maintenance practice boundary used to identify that local kind; it is not an assignment participant.
 * **Safe phrasing:** *“`CoolingMaintenanceAssignment-8 : CoolingMaintenanceWorkAssignment` obtains with `HolderSystemSlot = TeamT` and `AssignedSystemRoleKindSlot = CoolingMaintenanceSystemRole@ContextT`; TeamT performed Work W under that assignment.”*
 

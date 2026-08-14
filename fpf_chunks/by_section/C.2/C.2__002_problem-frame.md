@@ -6,18 +6,24 @@ section_id: "C.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:1 — Problem Frame"
-line_start: 41240
-line_end: 41243
+line_start: 40957
+line_end: 40960
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.6.3.RT"
   - "B.3"
   - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "U.Episteme"
+  - "U.View"
 keywords:
   - "ClaimScope"
   - "F-G-R"
@@ -33,5 +39,5 @@ keywords:
 
 ### C.2:1 - Problem Frame
 
-FPF fixes two archetypal sub‑holons: **`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon). KD‑CAL is the primary composition pattern for `U.Episteme`, giving engineers a compact, testable way to say (a) how strictly an episteme is written (**F**), (b) how much structure it manages (**G**), (c) how well it is warranted by evidence or severe tests (**R**), and (d) how closely **two** epistemes coincide (**CL**). KD‑CAL is built atop **C.2.1 U.Episteme — Epistemes and their slot relation**, which reifies every episteme through `U.EpistemeSlotRelation`: `ClaimGraph`, `EntityOfConcernSlot`, `GroundingHolonSlot`, `Viewpoint`, `View`, and `ReferenceScheme`. Notation, publication forms, carriers, and work occurrences remain outside episteme content and are linked by their own FPF relations.
+FPF fixes two archetypal sub-holons: **`U.System`** (physical/operational) and **`U.Episteme`** (knowledge holon). KD-CAL is the primary composition pattern for `U.Episteme`, giving engineers a compact, testable way to say (a) how strictly an episteme is written (**F**), (b) where its exact claim is asserted to apply (**G**), (c) how well that claim is warranted by evidence or severe tests (**R**), and (d) how closely **two** epistemes coincide (**CL**). C.2.1 supplies the constitution test: exact claim content, one exact EntityOfConcern, and one effective `U.ReferenceScheme`. Grounding, edition, viewpoint, view, representation, publication, form, and carrier remain neighboring objects or relations under their direct patterns.
 

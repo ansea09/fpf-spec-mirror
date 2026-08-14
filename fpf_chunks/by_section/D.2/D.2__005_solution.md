@@ -6,12 +6,12 @@ section_id: "D.2:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:2 — Solution"
-line_start: 69021
-line_end: 69063
+line_start: 68817
+line_end: 68862
 dependencies:
   - "A.1"
   - "A.15"
@@ -36,7 +36,9 @@ Open a `MultilevelEthicsEntry@Context`:
 MultilevelEthicsEntry@Context:
   ethicalConcernRef
   affectedEntityOfConcernRef
-  boundedContextRef
+  valueFrameEditionRefs
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   declaredLevelOrScopeRefs
   affectedHolonRefs
   affectedEpistemeRefs?
@@ -59,7 +61,8 @@ MultilevelEthicsEntry@Context:
   authorityMissingGovernorRefs?: exact A.6.RCD results
   interestOrConcernRefs
   capabilityOrFunctioningConcernRefs?
-  methodOrWorkRefs?
+  methodRefs?
+  workRefs?
   transformationRefs?
   expectedConsequenceRefs
   evidenceRefs

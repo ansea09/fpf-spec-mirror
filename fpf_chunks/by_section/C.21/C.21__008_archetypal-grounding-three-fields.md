@@ -6,12 +6,12 @@ section_id: "C.21:6"
 section_title: "Archetypal Grounding (three fields)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__008_archetypal-grounding-three-fields.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:6 — Archetypal Grounding (three fields)"
-line_start: 51089
-line_end: 51121
+line_start: 50792
+line_end: 50824
 dependencies:
   - "A.17"
   - "A.18"
@@ -21,6 +21,7 @@ dependencies:
   - "C.2"
   - "C.20"
   - "E.10"
+  - "F.17"
   - "F.9"
   - "G.0"
   - "G.10"
@@ -51,7 +52,7 @@ keywords:
 #### C.21:6.2 - Biomedicine (Gene–Disease Associations)
 * **ReproducibilityRate.** Fraction of associations replicated in independent cohorts within **Γ\_time(36 mo)**; LA lane with TA (typing of protocols).
 * **StandardisationLevel.** *de jure* for certain reporting guidelines; *emerging* for pre-registration norms.
-* **EvidenceGranularity.** Move from “paper-level” to *claim-level* units (Context raises the score).
+* **EvidenceGranularity.** Move from “paper-level” to *claim-level* units when the selected characteristic and scale editions assign the higher reading to finer evidential units.
 * **DisruptionBalance.** Target band discourages sustained “novelty spikes” unbacked by replication.
 
 #### C.21:6.3 - Software Performance Engineering (SPE)
@@ -63,12 +64,12 @@ keywords:
 #### C.21:6.4 - Decision‑Making (2015→)
 • ReproducibilityRate — share of causal effect estimates replicated across independent datasets within Γ_time; LA lane.
 • StandardisationLevel — *emerging* for identification checklists; *de facto* for SCM notation in leading stacks (ordinal; no means).
-• AlignmentDensity — CL‑rated Bridges between SCM/DoWhy‑style and RL/BO traditions per 100 DHC‑SenseCells.
+• AlignmentDensity — obtaining F.9 relations between exact F.17 cells from structural-causal-modeling or DoWhy sources and cells from reinforcement-learning or Bayesian-optimization sources, per 100 cells in the declared comparison set.
 • MetaDiversity — dispersion across method families (SCM/RL/BO/DT) within guard‑band; entropy/HHI (units declared in CG‑Spec).
 
 #### C.21:6.5 - Evolutionary Architecture (software)
 • ReproducibilityRate — fraction of architecture fitness results reproduced on independent workloads (rolling 18–24 mo; LA lane).
 • StandardisationLevel — *de facto* for ADR/ATAM patterns; *emerging* for continuous fitness protocols.
-• AlignmentDensity — Bridges across ATAM/SAAM/ADR style guides (CL≥2) normalised per 100 DHC‑SenseCells.
+• AlignmentDensity — obtaining F.9 relations among exact ATAM, SAAM, and ADR local-sense cells per 100 cells in the declared comparison set, with `CL≥2` and the admitted-use limits stated.
 • MetaDiversity — portfolio dispersion across patterns (microservices, event‑driven, layered) with guard‑bands; no ordinal arithmetic.
 

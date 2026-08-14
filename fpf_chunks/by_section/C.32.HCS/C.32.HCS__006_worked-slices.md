@@ -6,12 +6,12 @@ section_id: "C.32.HCS:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.HCS/C.32.HCS__006_worked-slices.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.HCS — Architecture-Bearing Family Characteristic Starter Packs"
   - "C.32.HCS:5 — Worked slices"
-line_start: 65389
-line_end: 65398
+line_start: 65156
+line_end: 65165
 dependencies:
   - "A.19"
   - "C.11"
@@ -39,7 +39,7 @@ keywords:
 
 **Engineered-system family.** A field-device project starts from reliability, maintainability, substitutability, evidence reuse, locality, and source-return cost. `C.32.ACS` later marks only maintainability, substitutability, and evidence reuse as optimization indicators; safety and availability remain guardrails.
 
-**Method-side family.** A source calls a reusable review method "the practice." HCS resolves the label to the described review organization-as-system or bounded review-work context, then keeps the method relation structure, method descriptions, work products, local kinds, separately obtaining assignments, and evidence records separate. The starter heads are repeatability of enactment, transferability, evidence reuse, and exception growth. If substitution is current, A.2.7 tests kinds; assignment continuity, holder replacement, staffing, or Work coverage receives its own predicate and bearer. Teachability belongs to C.25 because it combines learner scope, measures, mechanisms, and evidence.
+**Method-side family.** A source calls a reusable review method "the practice." HCS identifies the review organization-as-system as the described holon, then keeps exact review Work, any presentation carrier, the method relation structure, method descriptions, work products, local kinds, separately obtaining assignments, and evidence records separate. The starter heads are repeatability of enactment, transferability, evidence reuse, and exception growth. If substitution is current, A.2.7 tests kinds; assignment continuity, holder replacement, staffing, or Work coverage receives its own predicate and bearer. Teachability belongs to C.25 because it combines learner scope, measures, mechanisms, and evidence.
 
 **AI-agent workflow.** A retrieval-action setup starts from evidence refresh, policy controllability, latency, observability, and rollback. Benchmark performance stays a benchmark signal or comparison input until an architecture bearer and scale row are named.
 

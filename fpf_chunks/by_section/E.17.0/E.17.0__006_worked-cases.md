@@ -6,12 +6,12 @@ section_id: "E.17.0:5"
 section_title: "Worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__006_worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:5 — Worked cases"
-line_start: 80300
-line_end: 80329
+line_start: 80157
+line_end: 80186
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -40,7 +40,7 @@ A query over source episteme X constructs episteme Y, and A.6.3 records the sour
 
 #### E.17.0:5.3 - One episteme, two viewpoints, one selected use
 
-Unchanged episteme E conforms to safety viewpoint P1 and maintenance viewpoint P2. Two participant-determined conformance occurrences obtain, while the exact use qualification for a current review selects only P1 through one singular `viewpointRef`. E remains one `U.View`; the selection neither creates the P1 conformance nor removes the P2 conformance.
+Unchanged episteme E conforms to safety viewpoint P1 and maintenance viewpoint P2. Two participant-determined conformance occurrences obtain, while the named current review use selects only P1 through one singular `viewpointRef`. E remains one `U.View`; the selection neither creates the P1 conformance nor removes the P2 conformance.
 
 #### E.17.0:5.4 - Viewpoint revision and library repackaging
 

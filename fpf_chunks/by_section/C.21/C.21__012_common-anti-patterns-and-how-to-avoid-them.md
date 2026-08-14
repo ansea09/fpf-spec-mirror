@@ -6,12 +6,12 @@ section_id: "C.21:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:10 — Common Anti-Patterns and How to Avoid Them"
-line_start: 51162
-line_end: 51169
+line_start: 50865
+line_end: 50872
 dependencies:
   - "A.17"
   - "A.18"
@@ -21,6 +21,7 @@ dependencies:
   - "C.2"
   - "C.20"
   - "E.10"
+  - "F.17"
   - "F.9"
   - "G.0"
   - "G.10"
@@ -43,7 +44,7 @@ keywords:
 
 * Treating discipline health as one scalar score before the typed characteristic vector is declared.
 * Averaging ordinal characteristics or mixing units because a dashboard wants one roll-up.
-* Reusing a discipline-health value outside its Context, TargetSlice, freshness window, or Bridge+CL condition.
+* Reusing a discipline-health value outside its intended use, `ClaimScope`, comparison basis, freshness window, or declared edition alignment.
 * Treating a standard, source publication, or dashboard view as proof that the discipline is healthy.
 * Using engineering-grade or semio-substitution extension slots as evidence, assurance, gate passage, or project authority.
 

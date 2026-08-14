@@ -6,51 +6,53 @@ section_id: "F.11:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__002_intent-applicability.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:1 — Intent & applicability"
-line_start: 94546
-line_end: 94560
+line_start: 94114
+line_end: 94128
 dependencies:
   - "A.15"
   - "A.15.1"
   - "A.3"
   - "A.3.1"
   - "A.3.2"
-  - "D.CTX"
+  - "B.1.5"
+  - "C.2.1"
   - "E.10.D1"
-  - "F.1"
+  - "F.0.1"
   - "F.10"
-  - "F.3"
+  - "F.17"
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
   - "F.9"
   - "U.Method"
   - "U.MethodDescription"
   - "U.Work"
 keywords:
-  - "Actuation"
   - "Method"
   - "MethodDescription"
-  - "Role–Method–Work alignment"
-  - "Work"
+  - "control or transformation output"
+  - "dated Work"
+  - "description use"
+  - "enactment"
+  - "performed-Work attribution"
 ---
 
 ### F.11:1 - Intent & applicability
 
-**Intent.** Provide a **notation‑free, Context‑aware map** that keeps four notions distinct and connectable:
+**Intent.** Give a cold reader four practical questions that prevent common category errors:
 
-* **`U.Method`** — the abstract **way of doing** (design‑time concept).
-* **`U.MethodDescription`** — the **recipe episteme** that describes a Method.
-* **`U.Work`** (informal: *Execution*) — the **run‑time occurrence** of doing (recorded event).
-* **`U.Actuation`** — the **control output** applied to a plant (domain‑specific Work in Sys‑CAL).
+1. What **`U.Method`**, the way of doing, is meant?
+2. What **`U.MethodDescription`**, the episteme whose one exact `EntityOfConcern` is that Method, is being used?
+3. What dated **`U.Work`** actually occurred?
+4. Did that Work produce a control signal, command, setpoint, transformation output, or other domain-specific output that matters to this claim?
 
-The pattern makes the split **usable across FPF patterns** (Role Assignment & Enactment, Sys-CAL, KD-CAL, Kind-CAL, planned LCA-CAL) and **legible across Contexts** (SPEM/BPMN for design; PROV-O/SOSA for run; IEC 61131-3/state-space for control).
+These questions are a reading aid, not a universal four-kind ontology. The fourth answer is whatever value and relation its direct control or transformation pattern defines; F.11 does not mint a universal `U.Actuation` kind.
 
-**Applicability.** Any time a discussion risks **mixing designs with executions**, **recipes with runs**, or **workflow with control signals**; whenever you need to **name** or **reason** about “how we do X”, “the SOP/script/model”, “the actual run”, or “the actuator push”.
+**Use this when.** A sentence risks mixing a way of doing with its specification, a design with an occurrence, an approved description with evidence of results, or a Work occurrence with one of its outputs.
 
-**Non‑goals.** No team workflow, no editors, no tools. No prescriptive file formats. **Only** conceptual distinctions and safe reasoning moves.
+**Do not use this when.** The statement already names one exact value and direct relation unambiguously. F.11 does not prescribe files, tools, workflows, or a generic fact-transfer relation.
 

@@ -1,22 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept‑Set Table"
+pattern_title: "Concept-Set Table"
 section_id: "F.7:10"
-section_title: "Anti‑patterns & remedies"
+section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__011_anti-patterns-remedies.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.7 — Concept‑Set Table"
-  - "F.7:10 — Anti‑patterns & remedies"
-line_start: 92816
-line_end: 92830
+  - "F.7 — Concept-Set Table"
+  - "F.7:10 — Anti-patterns & remedies"
+line_start: 92427
+line_end: 92441
 dependencies:
   - "A.6.9"
+  - "B.3"
+  - "C.16"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -24,28 +27,29 @@ dependencies:
   - "F.6"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "columns"
-  - "comparisons"
-  - "concept-set"
-  - "differences"
-  - "row"
-  - "table"
+  - "comparison surface"
+  - "direction"
+  - "evidence"
+  - "exact local claim"
+  - "loss"
+  - "obtaining relation"
+  - "optional SchemeSenseCell"
+  - "receiving use"
 ---
 
-### F.7:10 - Anti‑patterns & remedies
+### F.7:10 - Anti-patterns & remedies
 
-| #         | Anti‑pattern                | Symptom in a row                                                               | Why it breaks thinking                                               | Remedy (conceptual move)                                                                                          |
-| --------- | --------------------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
-| **AP‑1**  | **Bridge‑free sameness**    | Cells listed as “same” because their labels look alike; no cited Bridges.      | Violates locality; imports meaning across Contexts by name.             | A row **exists only** if backed by **F.9 Bridges**. Otherwise produce a **contrast row**.                         |
-| **AP-2**  | **Scope creep**             | Row labelled “Type-structure” but used to justify **assignment/enactment-eligibility** or KD metrics. | Scope licences are not transferable; inference leaks.                | Keep a **small controlled set of Row Scopes**. If use widens, **mint a new row** or **re-bridge** with higher CL. |
-| **AP‑3**  | **senseFamily mixing**      | One row mixes Role, Status, Measurement, and Type‑structure cells.             | Conflates senseFamily (F.0.1); readers cannot tell “what kind of sameness”. | **Type each row.** If two senseFamilys are needed, **split** into two rows.                                             |
-| **AP‑4**  | **Temporal blur**           | Cells with incompatible DesignRunTag declared “same”.                     | Design artefacts ≠ run occurrences; claims invert.                   | Either **harmonise stance** (choose only compatible cells) or publish a **contrast row**.                         |
-| **AP‑5**  | **Loss denial**             | Bridges carry loss notes, but the row omits counter‑examples.                  | Readers over‑trust; misuse outside safe scope.                       | Add a **one‑line counter‑example** that illustrates the loss.                                                     |
-| **AP‑6**  | **CL averaging**            | Row CL(min) computed as an average of heterogeneous Bridges.                   | The weakest link governs; averages overstate safety.                 | Row CL(min) is the **bottleneck** (minimum along connecting paths).                                               |
-| **AP‑7**  | **Overwide rows**           | 6–8 Contexts in one row; hard to read; subtle mismatches hide.                    | Violates didactic primacy; invites hidden losses.                    | **Parsimony**: 2–4 Contexts per row unless each extra cell has a **distinct necessity** you can state in one line.   |
-| **AP‑8**  | **Minted paraphrases**      | Cells reword a Context’s label instead of citing the SenseCell.                   | Hides locality; future drift becomes invisible.                      | **Cells are Context‑loyal.** Use the Context’s own SenseCell label.                                                     |
-| **AP‑9**  | **Duplicate rows by style** | Two rows with the same cell set but different FPF labels.                      | Name inflation; readers assume two distinct concepts.                | Keep **one row** per Concept‑Set per scope. Alternative labels appear as **aliases** in F.5, not new rows.        |
-| **AP‑10** | **Implied transitivity**    | A↔B and B↔C Bridges exist; row silently assumes A↔C at the same CL.            | Paths can reduce CL; semantics might not compose.                    | Compute CL for **A↔C via bottleneck**; if too low, either reduce **Row Scope** or **omit** the cell.              |
+| # | Anti-pattern | Symptom | Why harmful | Remedy |
+| --- | --- | --- | --- | --- |
+| **AP-1** | Row-created sameness | Entries are called “the same” because they share a row. | Layout is mistaken for evidence. | State the actual relation or mark a contrast. |
+| **AP-2** | Scope label as licence | “Naming-only” or another row label is treated as permission. | The receiving-use claim and its evidence disappear. | Write the use conclusion separately. |
+| **AP-3** | `senseFamily` typing | One broad label is used instead of explaining the comparison. | Hidden kinds and relations remain unnamed. | State the intensional comparison and direct relation. |
+| **AP-4** | Temporal blur | Design descriptions and Work occurrences are treated as interchangeable. | MethodDescription and Work collapse. | Show the distinction and any actual relation through F.11, A.3, and A.15. |
+| **AP-5** | Loss denial | A relation is shown without its material limitation. | Readers over-transfer. | Add the loss and a concrete counterexample. |
+| **AP-6** | Row CL | A minimum or average CL is computed across heterogeneous relations. | One number collapses unrelated claims. | Keep CL only on the F.9 relation that declares it; assess the receiving use separately. |
+| **AP-7** | Overwide row | Many sources are added “for completeness”. | Differences hide and the entry cost rises. | Keep two to four answer-changing entries. |
+| **AP-8** | Minted paraphrase | A cell replaces the source expression with a new umbrella term. | Provenance and locality vanish. | Cite the exact local claim; put any selected designation in its own column. |
+| **AP-9** | Duplicate rows by wording | The same argument is repeated under different labels. | Readers infer distinct concepts where none were established. | Keep one comparison and let F.5 manage aliases. |
+| **AP-10** | Automatic transitivity | A–B and B–C are used to assert A–C. | Relation composition may not hold or may add loss. | State only relations whose composition is justified by their direct patterns. |
 

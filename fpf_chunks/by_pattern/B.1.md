@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1 — Holon Aggregation and Part-Whole Construction"
-line_start: 35472
-line_end: 35705
+line_start: 35177
+line_end: 35412
 dependencies:
   - "A.1"
   - "A.14"
@@ -99,7 +99,9 @@ When part-whole construction is current, recover:
 HolonAggregationClaim@Context:
   candidateWholeRef: U.Holon
   candidatePartRefs:
-  boundedContextRef:
+  aggregationPolicyRef?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   identityOrRecognitionRule:
   partRelationRefs:
   constructionBasisRef?
@@ -206,7 +208,7 @@ If the current claim is the method structure, use Method patterns and C.29 when 
 | Check | Requirement |
 | --- | --- |
 | `CC-B1-1` | The current claim identifies whether it is part-whole, membership, collection-as-whole, an exact relation among local system-role kinds, classification, assignment, direct participation, method relation, work occurrence holarchy, selected structure, or mathematical description; unresolved claim-bearing “role” wording is sent through `E.10.ROLE`. |
-| `CC-B1-2` | Part-whole claims name admitted holons, bounded context, identity or recognition rule, part relation, and constructional predicate and subject pattern. |
+| `CC-B1-2` | Part-whole claims name the exact whole and part participants, identity or recognition rule, part relation, constructional predicate and its defining pattern, plus any aggregation policy, selected structure, ClaimScope, or qualification window that changes the claim. |
 | `CC-B1-3` | A.14 and C.13 remain subject patterns for relation vocabulary and constructive grounding. |
 | `CC-B1-4` | Relations among local system-role kinds, classifications, assignments, direct participation relations, and Method relation structures are not treated as holonic parts merely because a label, graph, algebra, or naming convention composes them. `A.2.7` is used only for the first of those branches. |
 | `CC-B1-5` | Performed work occurrence parts require A.15.1. |

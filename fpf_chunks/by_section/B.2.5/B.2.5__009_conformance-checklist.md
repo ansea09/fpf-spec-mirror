@@ -6,12 +6,12 @@ section_id: "B.2.5:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__009_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:6 — Conformance Checklist"
-line_start: 38630
-line_end: 38641
+line_start: 38350
+line_end: 38361
 dependencies:
   - "A.1"
   - "A.10"
@@ -42,10 +42,10 @@ keywords:
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.5-1` | A conforming use names supervised holons and the supervising acting system; it adds the local supervisor system-role kind and exact assignment only when each independently obtains. |
-| `CC-B2.5-2` | A conforming use names observation, report, or source side and influence, constraint, or objective side. |
+| `CC-B2.5-2` | A conforming use names the observation, report, or source side and the influence, constraint, or objective side. It also names any feedback policy, ClaimScope, qualification window, and evidence that changes the relation claim or its later use. |
 | `CC-B2.5-3` | `SupervisorSubholonFeedbackRelation@Context` is used instead of loop wording unless a separate C.29 mathematical-lens use selects a loop object. |
 | `CC-B2.5-4` | No `U.TransformerRef` or `U.InteractionRef` is created. |
 | `CC-B2.5-5` | Parthood, control-structure view, publication and source-use relation, and feedback relation are kept separate. |
-| `CC-B2.5-6` | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims return to their governing patterns. |
+| `CC-B2.5-6` | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims use the patterns that define or test them. |
 | `CC-B2.5-7` | Episteme examples name the acting systems that perform review, revision, publication, or use. |
 

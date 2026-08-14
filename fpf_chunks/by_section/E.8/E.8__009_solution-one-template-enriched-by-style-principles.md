@@ -6,12 +6,12 @@ section_id: "E.8:4"
 section_title: "Solution — One template, enriched by style principles"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__009_solution-one-template-enriched-by-style-principles.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:4 — Solution — One template, enriched by style principles"
-line_start: 72690
-line_end: 73083
+line_start: 72514
+line_end: 72910
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -154,7 +154,10 @@ Resolution and checking are declaration-first and context-sensitive. Authors and
 **H-11 (Assembled Part boundaries and title agreement).** In the assembled publication, every compact ToC Part label **MUST** be a bold separator with a blank line on both sides, not a duplicate structural Part heading. Its title and ASCII ` - ` separator **MUST** agree exactly with the corresponding `# Part <letter> - <title>` body heading. A reserved body Part that has no compact ToC table, including current Part H, does not require an empty compact label or table.
 
 *Unification note:* historic A‑ and D‑templates differed only by the presence/absence of **Bias‑Annotation** and **Relations**; the unified template keeps the headings everywhere and requires every heading to carry content-bearing grounding, boundary, consequence, rationale, source-use, relation, or reduced-case material rather than an omission placeholder.
-The Alexandrian pattern canon historically calls *Problem frame* “Context”. FPF avoids that label because **Context** is already overloaded in FPF (e.g., `U.BoundedContext` and its Plain‑register label).
+The Alexandrian pattern canon historically calls *Problem frame* “Context”. FPF uses *Problem frame* because generic `Context` and universal `U.BoundedContext` do not identify the actual value a claim needs.
+
+Route each use directly: recover source-local meaning through F.0.1 and, only when a durable address or basis relation is needed, F.17; select answer-changing sources through F.1; state `ClaimScope` through A.2.6; use A.1.1 for an admitted bounded model use; and retain a subject-specific context term only where that subject pattern defines it. F.9 is used only for an actual relation between distinct F.17 cells or ReferencePlanes. A shared word, imported source, or generic need for “more context” supplies none of these values.
+
 
 #### E.8:4.1.2 - Preserve Pattern Use Value Across Material Revisions
 
@@ -186,7 +189,7 @@ Test first-use affordability by checking whether the positive Solution supports 
 recognizable situation -> proposed action or judgement -> first useful result -> next action-changing condition or stop
 ```
 
-This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall and an ordinary walkthrough only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. Use `DemonstrativeUnfoldingSlice@Context` only after independent `A.22.CGUS` admission. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
+This rendering explains the pattern; it does not claim that actual work is linear. Use an optional local mantra only when it improves recall and an ordinary walkthrough only when several rows materially improve explanation; choose the smallest form that keeps the action, result, and boundary recoverable. Explanatory rows may fade as competence or task demand permits, but an independently action-changing condition or boundary may not. Use `DemonstrativeUnfoldingSlice` only after independent `A.22.CGUS` admission of that exact structure for the named pattern use. Put a subject-side check immediately before the continuation it changes, and keep authoring, review, quality, and release checks outside the subject Solution.
 
 **Resolve triggered enumerations semantically.** A list is triggered when wording or grammar asserts or implies one common kind, predicate, relation position, authority, action, or result; when its member set or membership rule changes; or when a noun sequence hides a claim or action. A locator or visual scan may find candidates but cannot close the judgment. Give every triggered list one of these resolutions:
 
@@ -195,7 +198,7 @@ This rendering explains the pattern; it does not claim that actual work is linea
 | Declared closed value set | Name the governed value kind or field, state that the set is closed, and give one membership rule that covers every member. |
 | Illustrative examples of a named kind or proposition | Put the kind or proposition first, state that the list is non-exhaustive, and keep examples subordinate. |
 | Heterogeneous neighboring kinds | Reject the false common kind; split the list, retain explicitly heterogeneous neighbors, or route each alien member to its direct governing locus. |
-| Implicit unnamed kind, relation, or structure | Recover an existing governed value and direct pattern. Use `F.18` only when the recovered name must be stable, public, Core-facing, reusable across contexts, or durable enough for later citation; block the claim when recovery fails. |
+| Implicit unnamed kind, relation, or structure | Recover an existing value and the pattern passage that defines or constrains it. Use `F.18` only when the recovered name must be stable, public, Core-facing, durably reusable across local uses, or durable enough for later citation; block the claim when recovery fails. |
 | Action or claim hidden in a noun list | Write the substantive proposition or action first, then retain examples only when they change recognition or use. |
 
 Treat one triggered list as a small attention series. A member is a separate unit when its membership can fail independently or require a different subject predicate. A genuinely small closed set may remain one predicate-level unit only when one explicit membership rule decides every member and none has an independent disposition. Nearby nouns that assert no common membership, and unchanged declared closed sets or named-kind example lists still covered by their exact rule, take the cheap positive-control path. A blanket claim that all lists are coherent is not evidence. `E.10` detects enumeration-as-kind and vague heads, `E.10.ARCH` requires exact predicates for recovered claims, and `F.18` settles durable names; this authoring method does not duplicate their recognition or naming architecture.
@@ -217,7 +220,7 @@ Treat one triggered list as a small attention series. A member is a separate uni
 | S-10 | Punchy Blocks | <= 5 sentences per paragraph; lists for clarity. |
 | S-11 | Narrative Flow | Ensure sections read as a continuous story, not bullet soup. |
 | S-12 | Full sentences over tags | Avoid “keyword soup”. Each list item SHOULD contain a subject and a verb; prefer 2-4 sentence micro-paragraphs to bare tag lists. |
-| S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt/adapt/reject)**; cite Bridges & CL when crossing Contexts/ReferencePlanes. |
+| S-13 | SoTA-Echo structure | In the SoTA-Echoing section, present: **claim -> practice -> source -> alignment -> adoption status (adopt, adapt, or reject)**. When the claim actually relates distinct F.17 local senses or ReferencePlanes, cite the exact F.9 relation, CL, admitted use, and loss; importing a source alone creates no Bridge. |
 | S-14 | Didactic-content sufficiency | New and substantially revised patterns carry enough didactic content to be teachable without nearby project notes. |
 | S-15 | Worked slices over scenario labels | Transform-like families show at least one concrete source and resulting-publication slice; scenario names alone are not enough. |
 | S-16 | Ordinary vs FPF-governed wording realism | Keep ordinary use light, and make heavier review records explicit only for disputed, high-risk, or higher-impact cases. |
@@ -354,7 +357,7 @@ Human-facing fit is also subject-domain fit. A recognition text that starts from
 A pattern can already address the intended reader and keep its boundaries clean, yet still fail the first minute of use for a cold working reader.
 That failure usually appears when the text is admissible but does not yet make the working situation, practical payoff, primary `EntityOfConcern`, non-use boundary, or first action-guiding move visible enough.
 
-**P-2 epistemic precision check.** When `E.10` selects epistemic precision restoration for pattern prose, the first admissible action-guiding move must survive as remaining admissible reader use or be replaced by a neighboring FPF pattern whose content now defines or constrains that claim application. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
+**P-2 epistemic precision check.** When the E.10 criteria call for epistemic precision restoration in pattern prose, the first admissible action-guiding move must survive as remaining admissible reader use or be replaced by a neighboring FPF rule whose content now defines or constrains that claim application. This is a direct `E.2` `P-2` and `E.12` requirement, not an optional style preference. Intentional didactic metaphors and vivid Plain recognition lines are admissible when they are ordinary recognition aids or when their claim kind or admissible-use boundary maps back to Tech under `E.10:6.2`. A precision-corrected rewrite that leaves the recognition text inert is still under-authored.
 
 For canonical patterns, the first-reading text should behave as a **recognition text** and the heavier review/check scope should remain in an **assurance text**.
 

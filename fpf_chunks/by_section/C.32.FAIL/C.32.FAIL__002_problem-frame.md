@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:1 — Problem frame"
-line_start: 66660
-line_end: 66720
+line_start: 66433
+line_end: 66498
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -105,13 +105,18 @@ The first useful output is `ArchitectureRepairCue@Project`. It is a working reco
 ```text
 ArchitectureRepairCue@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  architectureRepairCueProjectUseRelationRef?: U.RelationRef governed by the exact repair-use or work-use pattern
+  architectureRepairCueProjectUseRelationRef?: U.RelationRef defined by the exact repair-use or work-use pattern
   symptom:
   describedHolonRef:
-  boundedContextRef:
+  architectureClaimRef?:
+  architectureConcern:
+  intendedRepairUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureObjectUnderStress:
   selectedStructureRef?:
   sourceCueRef?:
+  failureEvidenceRefs:
   blockedOverread:
   firstPatternLocator:
   repairAction:

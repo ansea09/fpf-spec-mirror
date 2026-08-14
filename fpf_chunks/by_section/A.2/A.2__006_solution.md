@@ -6,7 +6,7 @@ section_id: "A.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__006_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:4 — Solution"
@@ -41,7 +41,7 @@ keywords:
 
 ### A.2:4 - Solution
 
-Use an exact context-local `U.Kind` for each stable assignable work-facing contribution distinction. Give a live technical name the `SystemRole` head, such as `ReviewerSystemRole` or `CoolingCirculatorSystemRole`. Do not introduce `U.SystemRole`; the concrete value is already a local `U.Kind` under C.3.
+Use an exact local `U.Kind` for each stable assignable work-facing contribution distinction. Identify it through the explicit practice or source boundary in which that distinction is constituted together with the distinction itself. Give a live technical name the `SystemRole` head, such as `ReviewerSystemRole` or `CoolingCirculatorSystemRole`. Do not introduce `U.SystemRole`; the concrete value is already a local `U.Kind` under C.3.
 
 Then keep four moves separate:
 
@@ -56,8 +56,8 @@ Capability, assignment state, method admission, performed Work, responsibility, 
 
 A local kind is a system-role kind only when all four conditions hold:
 
-1. its bounded context is explicit;
-2. its identity basis is one stable, assignable, work-facing contribution distinction in that context;
+1. the local practice or source boundary in which the distinction is constituted is explicit;
+2. its identity basis includes one stable, assignable, work-facing contribution distinction within that boundary;
 3. its candidate `ValueKind` is `U.System`; and
 4. its `KindSignature` tests directly governed features of the candidate without treating a label, taxonomy row, description, assignment record, classification judgment, extension row, or proposed `U.SubkindOf` edge as the feature by form.
 
@@ -82,11 +82,11 @@ Every `U.SubkindOf` proposal evaluates the aligned narrower and broader signatur
 
 #### A.2:4.3 - Keep Kind Identity, Declaration, and Extension Separate
 
-The system-role kind is not its `KindSignature`, taxonomy episteme, reference scheme, classification judgment, or `KindExtension`. Same-kind continuity across declaration editions requires an explicit C.3.1 decision using the bounded context and contribution identity. A compatible criterion or scheme edition can preserve the kind while later judgments cite the edition actually used. An identity-changing contribution yields another kind.
+The system-role kind is not its `KindSignature`, taxonomy episteme, reference scheme, classification judgment, or `KindExtension`. Same-kind continuity across declaration editions requires an explicit C.3.1 decision that preserves both the named local practice or source boundary and the stable contribution distinction. A compatible criterion or scheme edition can preserve the kind while later judgments cite the edition actually used. A changed boundary or identity-defining contribution yields another kind.
 
-An old role taxonomy or scheme can provide evidence for recovering the bounded context, contribution identity, or criterion. Its label or identifier does not decide sameness. A selected `BoundedModelUseStructure` can qualify one receiving interpretation when that independently established organization matters; it is designated in the receiving assertion or use and is stored neither on the kind nor as an optional participant of a generic assignment or kind relation. A genuinely structure-dependent relation species instead declares the structure as a required participant, uses the stronger predicate, and states the resulting occurrence-identity law.
+An old role taxonomy or scheme can provide evidence for recovering the local practice or source boundary, contribution distinction, or criterion. Its label or identifier does not decide sameness. A selected `BoundedModelUseStructure` can qualify one receiving interpretation when that independently established organization matters; it is designated in the receiving assertion or use and is stored neither on the kind nor as an optional participant of a generic assignment or kind relation. A genuinely structure-dependent relation species instead declares the structure as a required participant, uses the stronger predicate, and states the resulting occurrence-identity law.
 
-Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only when exact model applicability, actual model use in assigned Work, fixed-content expression coherence, exact applied constraints, and one named selection-use frame jointly change the receiving decision. If the direct kind, relation, assertion, or Bridge already answers the question, stop there; neither a model-use label nor the wish for more context selects the structure.
+Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only when exact model applicability, actual model use in assigned Work, fixed-content expression coherence, exact applied constraints, and one named selection-use frame jointly change the receiving decision. If the direct kind, relation, assertion, or Bridge already answers the question, stop there; neither a model-use label nor a wish for more background selects the structure.
 
 #### A.2:4.4 - Admit Only Exact System-Role-Kind Domains
 
@@ -94,7 +94,7 @@ Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only
 
 ```text
 JournalReviewSystemRoleKindDomain : U.Kind
-  boundedContext: JournalReview-2026
+  localPracticeOrSourceBoundary: JournalReview-2026
   candidateValueKind: U.Kind
   criterion:
     the candidate kind has U.System candidates and a recoverable,
@@ -173,7 +173,7 @@ When a stronger claim appears, add only the needed object:
 - the local kind and judgment when classification matters;
 - the assignment occurrence when who holds what and when matters;
 - the direct state, capability, method, Work, responsibility, commitment, permission, evidence, reliance, or publication relation when that relation carries the claim;
-- the exact F.9 and C.3.3 bridge results for cross-context use, without merging the kinds or creating assignments.
+- the exact C.3.3 kind relation and, when local meanings differ, F.9 relation needed for cross-local use, without merging the kinds or creating assignments.
 
 The earlier Plain sentence is not evidence for a stronger claim.
 

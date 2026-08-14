@@ -6,12 +6,12 @@ section_id: "A.6.4:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:1 — Problem frame"
-line_start: 15446
-line_end: 15469
+line_start: 15162
+line_end: 15185
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -42,7 +42,7 @@ Many important operations on descriptions **change the EntityOfConcern** while p
 All of these are **Ep→Ep transforms** that:
 * operate on Description epistemes, including Description epistemes admitted for specification use rather than mutating the EntityOfConcern itself,
 * do **not** merely slice or re-express an episteme with the same EntityOfConcern (that would be EpistemicViewing, A.6.3),
-* but **do change** the **EntityOfConcern/grounding bundle** (`EntityOfConcernSlot` and usually `GroundingHolonSlot`) under a formal bridge between kinds.
+* but **do change** the exact EntityOfConcern under a formal bridge between its source and receiving kinds, while stating separately whether any current empirical-grounding relation or use qualification is preserved or changed.
 
 We need a single, reusable notion of **“epistemic retargeting”** that captures these operations as:
 * **effect‑free** at the level of Work/Mechanism (EFEM discipline),

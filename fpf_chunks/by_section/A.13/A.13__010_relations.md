@@ -6,12 +6,12 @@ section_id: "A.13:9"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__010_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:9 — Relations"
-line_start: 23906
-line_end: 23918
+line_start: 23593
+line_end: 23605
 dependencies:
   - "A.10"
   - "A.12"
@@ -24,10 +24,11 @@ dependencies:
   - "C.9"
   - "E.16"
 keywords:
-  - "agency as role"
+  - "U.SystemRoleAssignment"
   - "agency spectrum"
+  - "agential participation"
   - "autonomy grading"
-  - "contextual role assignment"
+  - "local system-role kind"
   - "substrate-neutral autonomy"
 ---
 
@@ -35,7 +36,7 @@ keywords:
 
 *   **Builds on:**
     *   `A.1 Holonic Foundation`: Establishes that only `U.System`s can be bearers of behavioral roles.
-    *   `A.2 Role Taxonomy`: Provides the universal  Contextual Role Assignment (`U.RoleAssignment`) mechanism.
+    *   `A.2 System-Role Kinds and Assignments`: Distinguishes an exact local system-role kind, classification by that kind, and an obtaining `U.SystemRoleAssignment`.
     *   `A.12 External Transformer`: Work by an acting holder is modeled using the external transformer principle.
 *   **Coordinates with:**
     *   `B.2 Meta-Holon Transition (MHT)`: A significant jump in the agency-characteristic profile of a collective can trigger an MHT.

@@ -6,12 +6,12 @@ section_id: "F.17:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:3 — Forces"
-line_start: 96604
-line_end: 96614
+line_start: 95956
+line_end: 95966
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -55,7 +55,7 @@ keywords:
 | Force | F.17 settlement |
 | --- | --- |
 | Reader memory vs full provenance | Keep one compact row while retaining exact reopening references. |
-| Local expression vs durable reuse | Prefer the light local disposition; open F.17 only at the public/Core/durable/cross-local threshold. |
+| Local expression vs durable reuse | Prefer the light local disposition; use F.17 only at the public/Core/durable/cross-local threshold. |
 | Local sense vs globalized wording | Identify every cell under one exact by-value scheme and sense claim; spelling establishes neither sameness nor Bridge. |
 | Naming settlement vs governed value | The NameCard describes the naming decision; it neither defines nor constrains the value or its kind. |
 | Didactic grouping vs ontology | Optional blocks help navigation and create no subtype, part, system-role kind, relation position, or priority. |

@@ -6,12 +6,12 @@ section_id: "E.22:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__010_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:9 — Consequences"
-line_start: 88247
-line_end: 88254
+line_start: 88104
+line_end: 88111
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

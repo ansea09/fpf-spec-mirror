@@ -6,7 +6,7 @@ section_id: "A.1:End"
 section_title: "A.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1/A.1__015_a-1-end.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.1 — Holon Ontic Foundation (U.Holon and Admitted Holon Kinds)"
   - "A.1:End — A.1:End"

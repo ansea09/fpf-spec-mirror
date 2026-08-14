@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:0.3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:0.3 — Forces"
-line_start: 76336
-line_end: 76345
+line_start: 76163
+line_end: 76172
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -70,7 +70,7 @@ keywords:
 | --- | --- |
 | Shared repair vs subject-pattern focus | FPF needs recurring trigger recognition, but each subject pattern must stay centered on its own EntityOfConcern. |
 | Ontology-first repair vs lexical cleanup | The repair must recover the exact governed object, direct relation and actual participants, or claim-bearing episteme before choosing wording. |
-| Subject pattern vs restoration detour | A direct pattern should govern when the object is already recoverable by value. |
+| Known rule vs restoration detour | Use the rule that defines, constrains, or tests an already recovered object or claim; do not route it through another restoration pass. |
 | Local cue vs duplicated doctrine | Subject patterns may need one first-use cue, not a copied repair table. |
 | Semantic area vs placement nest | A semantic area, ontological neighborhood, and pattern nest are different objects. |
 

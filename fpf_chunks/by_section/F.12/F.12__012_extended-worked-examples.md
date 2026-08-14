@@ -6,73 +6,62 @@ section_id: "F.12:11"
 section_title: "Extended worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__012_extended-worked-examples.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:11 — Extended worked examples"
-line_start: 95038
-line_end: 95081
+line_start: 94499
+line_end: 94516
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.3"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.RCD"
+  - "B.3"
+  - "C.16"
+  - "C.16.P"
+  - "C.2"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.11"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
-  - "F.7"
   - "F.9"
-  - "U.BoundedContext"
   - "U.PromiseContent"
 keywords:
-  - "Service Level Agreement (SLA)"
-  - "Service Level Objective (SLO)"
-  - "acceptance criteria"
-  - "binding"
+  - "EvidenceStatus"
+  - "PromiseContent"
+  - "RequirementStatus"
+  - "declared result scale"
+  - "delivery Work"
+  - "evaluation Work"
+  - "indicator recovery"
+  - "measured value"
   - "observation"
+  - "operation result binding"
 ---
 
 ### F.12:11 - Extended worked examples
 
-> Each example identifies **Contexts**, the **quadruple** ⟨ClauseCell, WorkCell, MeasureCell, Window⟩, any **Bridge(s)**, and the **Predicate**. The verdict attaches to *ClauseCell\@Window about WorkCell*.
+#### F.12:11.1 - CDN latency by region
 
-#### F.12:11.1 - CDN latency across regions (services + sensing + types)
+Promise content: p95 end-user latency ≤ 200 ms per region per month. Delivery Work population: delivery occurrences per region in that month. Evidence: response-time observations tagged by region and path. If probes measure the promised characteristic directly, use C.16 and A.10 without a proxy. If they indicate a distinct user-experience characteristic, name the exact probe-to-user relation, its defining or testing pattern, and last-mile loss. Evaluation Work returns one result per region on the declared scale. A global all-regions statement is a separate logical aggregation of those results or statuses, not a property of a table row.
 
-* **Contexts.** *ITIL 4* (Clause), *PROV‑O* (Work), *SOSA/SSN* (Measure), *OWL 2* (type labels).
-* **ClauseCell.** *p95 end‑user latency ≤ 200 ms per region per month*.
-* **WorkCell.** *delivery Activities* per region during the month (PROV).
-* **MeasureCell.** *response‑time Observations* tagged by region and path (SOSA/SSN).
-* **Predicate.** For each region in the Window, `P95(latency) ≤ 200 ms`.
-* **Bridges.** *probe→user* (**kind**: proxy; **CL** 2; **Loss**: last‑mile bias).
-* **Verdict.** Region‑wise statuses; a global “all‑regions met” is the **logical AND** of region statuses (declare this aggregation explicitly).
-* **Manager cue.** “Green map ≠ one green verdict”; acceptance is **per Clause per Window per Work population**.
+#### F.12:11.2 - Stroke care door-to-needle
 
-#### F.12:11.2 - Stroke care: door‑to‑needle (method + enactment + status)
+Promise content: at least 90% of in-scope ischemic-stroke episodes achieve door-to-needle ≤ 30 minutes in the quarter. Delivery Work population: patient-episode care occurrences. Evidence: observations of defined door and needle events. Evaluation Work binds those events, counts qualifying episodes, divides by the eligible population, and returns the declared result. Missing triage tags or event ambiguity may support `EvidenceStatus=Inconclusive` and leave `RequirementStatus=Pending`, or produce the exact local result declared by the acceptance scale.
 
-* **Contexts.** *clinical guideline canon* (Clause), *PROV‑O* (Work), *SOSA/SSN* (Measure), *F.10* (status windows).
-* **ClauseCell.** *90% of ischemic‑stroke episodes achieve door‑to‑needle ≤ 30 min per quarter*.
-* **WorkCell.** Population of **patient‑episode Activities** started in the quarter.
-* **MeasureCell.** Timestamps **Observation** of *door* and *needle* events (KD‑CAL).
-* **Predicate.** `|{episodes with (needle−door ≤ 30)}| / |{episodes}| ≥ 0.9`.
-* **Bridges.** *EHR event semantics → PROV Activity* (**Interpretation**, **CL** 2; **Loss**: missing triage tags).
-* **Verdict.** If data gaps exceed a declared tolerance, status is **Inconclusive** rather than “Satisfied by assumption”.
+#### F.12:11.3 - Cold-chain warehouse
 
-#### F.12:11.3 - Cold‑chain warehouse (control + sensing + deontics)
+Promise content: product temperature remains in `[2,8] °C` for at least 99.5% of each day. Delivery Work: the daily storage occurrence or defined population. Evidence: calibrated thermistor observations. First ask whether the measurement model directly concerns product exposure. If sensor position indicates another characteristic, name the exact indicator relation and its stratification loss or stop at `missing-governor`. Evaluation Work returns in-band covered time divided by in-scope time on the declared scale. Any result assertion, RequirementStatus, evidence use, and material reliance statement retain the indicator limit separately.
 
-* **Contexts.** *quality/deontics canon* (Clause), *IEC 61131‑3/PROV* (Work), *SOSA/SSN + ISO 80000‑1* (Measure).
-* **ClauseCell.** *temperature ∈ \[2,8] °C for ≥ 99.5% of each day*.
-* **WorkCell.** The warehouse’s **daily storage Activity**.
-* **MeasureCell.** Thermistor **Observations** with calibrated units (KD‑CAL/ISO 80000‑1).
-* **Predicate.** `(good_time / 24h) ≥ 0.995`.
-* **Bridges.** *sensor position → product exposure* (**kind**: proxy; **CL** 2; **Loss**: stratification).
-* **Verdict.** *Violated* if any day fails; annotate **Loss** to communicate assurance limits.
+#### F.12:11.4 - SaaS incident MTTR
 
-#### F.12:11.4 - SaaS incident MTTR (services + enactment)
-
-* **Contexts.** *ITIL 4* (Clause), *PROV‑O* (Work).
-* **ClauseCell.** *MTTR ≤ 60 min per incident*.
-* **WorkCell.** Each incident’s handling **Activity**.
-* **MeasureCell.** **Observations** of start‑fix and restore timestamps.
-* **Predicate.** `(restore − start_fix) ≤ 60 min`.
-* **Verdict.** Per incident; a quarter’s report is an explicit aggregation of incident‑scoped verdicts.
+Promise content: MTTR ≤ 60 minutes for each in-scope incident. Delivery Work: each incident-handling occurrence. Evidence: observed start-fix and restoration events. Evaluation Work applies the declared duration operation and binds one result per incident. Quarterly reporting explicitly aggregates those results or their separately warranted statuses.
 

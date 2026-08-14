@@ -6,12 +6,12 @@ section_id: "C.32:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:4 — Solution"
-line_start: 64708
-line_end: 64799
+line_start: 64467
+line_end: 64558
 dependencies:
   - "A.10"
   - "A.15"
@@ -71,7 +71,7 @@ Create an `ArchitectureSynthesisFrame@Project` when the selected structures and 
 
 Work in seven steps:
 
-1. Anchor the palette to one described holon or holon family, bounded context, and synthesis question.
+1. Anchor the palette to one described holon or holon family, synthesis question, and intended next use. Name any current C.30 architecture relations and selected structures that can change that question.
 2. Build the smallest useful synthesis structure map. Start with the functional demand and candidate bearer recovered with `A.6.F`, constructive module or manufacture structure, and placement or deployment structure when they shape the question; add control, transformation-flow, Method, Work, local-kind relation or classification, assignment, information, evidence, scale, or other selected structures only when they change the synthesis question. Send unresolved claim-bearing “role” wording through `E.10.ROLE`. For each required function, name at least one admissible bearer under the declared constraints.
 3. Reference the architecture-characteristic criteria rows and any Q-Bundle slots that make the trade-off real. Separate functional demand, architecture characteristics, criteria rows, eval results, and decisions.
 4. Generate candidate architecture configurations. A candidate claim may propose, for example, changed decomposition, allocation, A.6.F function bearing, bearer count, placement, interface grammar, a control or transformation-flow relation, Method use, future assignment conditions, an independently established responsibility relation, evidence scope, information structure, or a bounded exception. Modal candidate wording creates no assignment occurrence and proves no Work occurred. Use a WorkPlan, policy, commitment, permission, decision, or other truthful prospective object when one applies; require the performer System, dated Work, enacted Method, assignment occurrence and its declared species, and F.6 attribution only for actual Work. An assignment never carries responsibility by itself.

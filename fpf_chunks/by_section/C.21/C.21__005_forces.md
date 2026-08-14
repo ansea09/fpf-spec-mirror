@@ -6,12 +6,12 @@ section_id: "C.21:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:3 — Forces"
-line_start: 50997
-line_end: 51005
+line_start: 50700
+line_end: 50708
 dependencies:
   - "A.17"
   - "A.18"
@@ -21,6 +21,7 @@ dependencies:
   - "C.2"
   - "C.20"
   - "E.10"
+  - "F.17"
   - "F.9"
   - "G.0"
   - "G.10"
@@ -43,8 +44,8 @@ keywords:
 
 | Force                            | Tension                                                                                                                    |
 | -------------------------------- | -------------------------------------------------------------------------------------------------------------------------- |
-| **Comparability vs nuance**      | Need global pictures without erasing local meaning (Context, traditions, cohorts).                                         |
+| **Comparability vs nuance** | Need wider pictures without erasing the exact schemes, corpora, traditions, cohorts, and local claims that make each reading meaningful. |
 | **Ordinal vs interval/ratio**    | Powerful stats tempt inadmissible operations on ranks and categories.                                                                  |
-| **Local evidence vs federation** | Health must be computed *in room* (Context slice) yet projectable across rooms via Bridges & CL (penalties to **R** only). |
+| **Local evidence vs federation** | A reading is computed from a named evidence set and `ClaimScope`; federation requires an admitted comparison basis and any actually obtaining cross-local relation, with assurance penalties applied to **R** only. |
 | **Recency vs stability**         | Health evolves; time-series or dashboard views need **freshness**, not just cumulative history.                           |
 

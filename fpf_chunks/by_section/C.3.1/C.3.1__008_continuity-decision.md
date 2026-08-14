@@ -6,12 +6,12 @@ section_id: "C.3.1:6"
 section_title: "Continuity Decision"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__008_continuity-decision.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:6 — Continuity Decision"
-line_start: 45057
-line_end: 45070
+line_start: 44758
+line_end: 44771
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,8 +48,8 @@ Ask these questions in order:
 | Is this another edition of the declaration episteme rather than merely a publication form? | Continue to the kind-identity question. | Publication-form change leaves both signature edition and kind untouched. |
 | Does the new edition preserve the locally declared kind identity despite its explicit content change? | Keep the local kind identity; cite the actual edition in every later judgment. | Identify another local kind. |
 | Are judgments under the editions compared in one subkind argument? | Declare the edition alignment and rerun monotonicity. | Do not compare their extensions as if one criterion were current throughout. |
-| Does the use cross a `U.BoundedContext` boundary? | Use C.3.3 and declare preservation or loss between the exact source and target local kinds. | Continue within the same local context. |
-| Within that context, did the effective `U.ReferenceScheme` change? | Create another `KindSignature` edition, decide kind continuity here, and rerun monotonicity under an explicit edition alignment when the order remains claimed. | Keep the current scheme alignment; a slice-only change creates no bridge. |
+| Does the use cross into another local practice or source boundary? | Use C.3.3 and declare preservation or loss between the exact source and target local kinds. | Continue within the same local kind boundary. |
+| Within the same local identity basis, did the effective `U.ReferenceScheme` change? | Create another `KindSignature` edition, decide kind continuity here, and rerun monotonicity under an explicit edition alignment when the order remains claimed. | Keep the current scheme alignment; a slice-only change creates no bridge. |
 
 A higher `U.Formality` value alone does not prove kind continuity or discontinuity. It characterizes the declaration episteme. The content and the local identity decision do the work.
 

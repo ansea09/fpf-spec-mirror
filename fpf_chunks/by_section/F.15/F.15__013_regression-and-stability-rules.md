@@ -6,12 +6,12 @@ section_id: "F.15:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__013_regression-and-stability-rules.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:11 — Regression and stability rules"
-line_start: 96028
-line_end: 96084
+line_start: 95427
+line_end: 95483
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -79,10 +79,10 @@ When a changed value, sense, or use alters row support, preserve the exact earli
 #### F.15:11.4 - SystemRoleKindDescriptions and names
 
 **RSCR-F15-E7 (`SystemRoleKindDescription` continuity).**
-Compare exact F.4 description epistemes, described local system-role kinds, bounded contexts, continuing contribution identities, current `KindSignature` editions, effective schemes, and claim content. A label-only change cannot prove that the described kind or description episteme stayed the same.
+Compare exact F.4 description epistemes, described local system-role kinds, their named practice or source boundaries and stable work-facing contribution distinctions, current `KindSignature` editions, effective schemes, and claim content. A label-only change cannot prove that the described kind or description episteme stayed the same.
 
 **RSCR-F15-E8 (Alias for expression change; direct recovery for meaning change).**
-If only a selected expression changes while the exact governed value, scheme, sense, and use are preserved, F.13/F.18 may record an alias or rename. A changed described system-role kind, bounded context, contribution identity, current criterion, scheme, local sense, or description claim requires the corresponding new governed object or episteme and a fresh naming settlement.
+If only a selected expression changes while the exact value, scheme, sense, and use are preserved, F.13 and F.18 may record an alias or rename. A changed described system-role kind, constituting practice or source boundary, stable contribution distinction, current criterion, scheme, local sense, or description claim requires the corresponding new object or episteme and a fresh naming settlement.
 
 #### F.15:11.5 - Bridges and bounded uses
 

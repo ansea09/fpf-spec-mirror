@@ -6,32 +6,34 @@ section_id: "F.2:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__005_core-idea-didactic.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:4 — Core idea (didactic)"
-line_start: 91145
-line_end: 91149
+line_start: 90919
+line_end: 90924
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.3"
   - "F.4"
   - "F.9"
 keywords:
-  - "lexical unit"
-  - "normalization"
-  - "provenance"
-  - "source-text terms"
-  - "term harvesting"
+  - "LNF"
+  - "LocalExpression"
+  - "LocalSenseClaim"
+  - "effective ReferenceScheme"
+  - "exact source and edition"
+  - "optional SchemeSenseCell"
 ---
 
 ### F.2:4 - Core idea (didactic)
 
-**Harvest *inside* each Context; name *in that Context’s idiom*; do not cross Contexts.**
-For every Context (a **U.BoundedContext** from F.1), you gather **attested phrases** as *thought-cues*, choose a **Local Normal Form (LNF)** that matches the Context's idiom, attach a **two-register label** (Tech/Plain), and write a **one-sentence gloss**. That's all. These *local lexical units* become **Local-Senses** in F.3 and later addressable **SenseCells** (Context x Local-Sense). Cross-context sameness, behavioural claims, deontics, and durable kindhood are handled by F.9, A.15, E/E-LOG, or admission under E.24.UK and C.3 when those claims are being made.
+For each needed use, name the **exact source and edition**, the relevant passage, and the **effective `U.ReferenceScheme`** under which the passage is being read. Harvest an attested **LocalExpression**, choose a minimally edited **Local Normal Form (LNF)**, add Tech and Plain labels, and state the **LocalSenseClaim** in one sentence.
+
+That is the ordinary F.2 result. If later work needs a durable address, F.17 may represent it as `SchemeSenseCell = <ReferenceScheme, LocalExpression, LocalSenseClaim>` and record the basis relation. The cell is optional and does not replace the source, passage, or claim. F.2 establishes no relation to another source-local meaning.
 

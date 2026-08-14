@@ -6,12 +6,12 @@ section_id: "E.10.D2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:1 — Problem frame"
-line_start: 77077
-line_end: 77102
+line_start: 76896
+line_end: 76921
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -62,7 +62,7 @@ The working distinctions are:
 
 * the **EntityOfConcern** is the independently identified entity about which the selected claim-bearing whole makes its claims;
 * a **description episteme** is an ordinary `U.Episteme` used to carry descriptive claims about that EntityOfConcern;
-* **description use** selects a separately governed `DescriptionContext` for one concern-bearing use without changing episteme identity;
+* a **describing use** names the receiving use and may select one exact viewpoint when that selection changes what is read or checked; selection changes neither episteme identity nor conformance;
 * **specification use** is a checkable use of a description episteme, not a third peer ontology class;
 * viewpoint, view, claim scope, model-use structure, grounding, evidence, edition, publication, carrier, and representation remain neighboring objects and relations.
 

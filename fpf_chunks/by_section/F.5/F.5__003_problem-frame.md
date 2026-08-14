@@ -6,12 +6,12 @@ section_id: "F.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:1 — Problem Frame"
-line_start: 92095
-line_end: 92106
+line_start: 91711
+line_end: 91722
 dependencies:
   - "A.10"
   - "A.15"
@@ -57,9 +57,9 @@ FPF needs names that humans can use without dragging the wrong ontology behind t
 
 This pattern keeps two recurrent naming tasks separate.
 
-First, a U-kind or similar cross-context concept gets a name only after E.24.UK or its direct pattern admits the exact value. A Concept-Set row may preserve witness comparison and evidence; it neither admits nor identifies the value. The name should be neutral across witnesses and no wider than the admitted invariants.
+First, a public U-kind gets a name only after E.24.UK admits the exact value; another durable cross-local value gets a name only after it satisfies its defining membership rule. A Concept-Set row may preserve witness comparison and evidence; it neither admits nor identifies the value. The name should be neutral across witnesses and no wider than the admitted invariants.
 
-Second, one concrete local system-role kind receives a `...SystemRole` designation after A.2 and C.3 settle its context, contribution identity, and criterion. `SystemRole` is common morphology, not a universal governed kind. An F.4 description episteme is another object and may receive a separate `...SystemRoleKindDescription` name. Neither label creates the kind, description, classification, or assignment.
+Second, one concrete local system-role kind receives a `...SystemRole` designation after A.2 and C.3 settle the practice or source boundary in which it is constituted, its stable work-facing contribution distinction, and its criterion. `SystemRole` is common morphology, not a universal kind. An F.4 description episteme is another object and may receive a separate `...SystemRoleKindDescription` name. Neither label creates the kind, description, classification, or assignment.
 
 The tempting shortcut is to make system-role descriptions cover statuses and episteme uses because all need labels. That convenience creates duplicate ontology. Another governed value—for example, a status, evidence use, permission, or publication—may need a name; none becomes a system-role kind because it is named.
 

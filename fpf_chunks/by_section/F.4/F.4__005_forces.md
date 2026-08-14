@@ -6,12 +6,12 @@ section_id: "F.4:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:3 — Forces"
-line_start: 91790
-line_end: 91799
+line_start: 91402
+line_end: 91411
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | Recognition versus ontology | A description must be easy to read but cannot replace the kind, classification judgment, assignment, capability, Method, or Work occurrence. |
-| Local identity versus reuse | A system-role kind has one bounded contribution identity and criterion, while a later use may need an explicit Bridge to another local kind or sense. |
+| Local identity versus reuse | A system-role kind is distinguished by its explicit practice or source boundary and stable work-facing contribution, while a later use may need a C.3.3 relation between exact local kinds or an F.9 relation between exact F.17 local-sense cells. |
 | Compactness versus completeness | A useful description is small, but a stronger receiving claim may need state, capability, Method, assignment, evidence, or status checks. |
 | Open-world use versus form burden | Some uses need only a recognition paragraph; stronger uses need explicit neighboring references without pretending every possible relation is current. |
 | Work-facing classification versus episteme use | An admitted system may satisfy a system-role kind and participate in an assignment. An episteme is instead used through evidence, source, publication, requirement, explanation, assurance, or status relations. |

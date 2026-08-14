@@ -1,73 +1,69 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.16"
-pattern_title: "Worked‑Example Template (Cross‑Domain)"
+pattern_title: "Worked-Example Template (Cross-Domain)"
 section_id: "F.16:12"
-section_title: "Extended worked micro‑examples"
+section_title: "Extended worked micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__013_extended-worked-micro-examples.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.16 — Worked‑Example Template (Cross‑Domain)"
-  - "F.16:12 — Extended worked micro‑examples"
-line_start: 96421
-line_end: 96462
+  - "F.16 — Worked-Example Template (Cross-Domain)"
+  - "F.16:12 — Extended worked micro-examples"
+line_start: 95819
+line_end: 95838
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.3"
+  - "A.6.1"
+  - "A.6.RCD"
   - "B.1.5"
   - "B.3"
-  - "D.CTX"
+  - "C.16.P"
   - "E.10.D1"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
-  - "F.1-F.12"
+  - "F.10"
+  - "F.12"
   - "F.15"
+  - "F.17"
+  - "F.2"
+  - "F.3"
+  - "F.4"
+  - "F.6"
+  - "F.7"
+  - "F.9"
 keywords:
-  - "cross-domain illustration"
-  - "didactic template"
-  - "example"
-  - "pedagogy"
+  - "actual values"
+  - "boundary"
+  - "direct relations"
+  - "evidence"
+  - "exact sources"
+  - "optional cell"
+  - "optional comparison table"
+  - "practical gain"
+  - "working situation"
 ---
 
-### F.16:12 - Extended worked micro‑examples
+### F.16:12 - Extended worked micro-examples
 
-> Each example fits the **one‑page canvas** (§5) and makes the **row** and **bridges** do the work.
+#### F.16:12.1 - OWL class and FCA formal concept
 
-#### F.16:12.1 - Type alignment: OWL class vs FCA concept (design‑time only)
+**Situation and claim.** A product catalogue uses an OWL class named *Pump* and an FCA formal concept with a similar label. The example asks whether their covered products may be compared for one catalogue query.
 
-**Title & claim.** *“Two Lenses on *Pump*: OWL class and FCA concept align for catalogue reasoning.”*
-**Unification line.** Kind-CAL (design) + FCA (design).
-**Contexts.** **OWL 2 (profiles)** — classes, `subClassOf` (design). **FCA corpus** — formal concepts, lattice order (design).
-**SenseCells.** ⟨OWL\:class ‘Pump’⟩, ⟨FCA\:formal‑concept ‘Pump’⟩.
-**Row ρ.** { ⟨OWL\:Pump⟩ ↔ ⟨FCA\:Pump⟩ } — *same practical extension in this product catalogue*.
-**Bridge β.** ⟨FCA\:lattice‑order⟩ **overlaps** ⟨OWL\:subclass‑order⟩, **CL=2**, *loss:* FCA intents may include context attributes not modeled in OWL restrictions.
-**Role-Description hooks.** `TypeLabel` → ⟨OWL\:class⟩ (for naming), no runtime **Role Assignment/Enactment**.
-**Micro‑narrative (3 lines).** For catalogue queries, the **instances** covered by OWL class *Pump* match those of the FCA concept created from the same attributes; we treat them as one row. The **orderings** diverge in nuance (β), but not for membership in this example.
-**Harness pings.** *S‑Row‑Cross*, *S‑TemporalHonesty* (design only), *S‑Bridge‑Kind‑CL*.
+Recover both exact local claims. State the actual relation, if any, between their extensions for this data set and the difference between OWL subclass semantics and FCA lattice order. A small comparison table may display the evidence and limits. Similar labels and table co-placement do not establish identity or class inclusion.
 
-#### F.16:12.2 - Role vs permission: SoD in enactment vs access control
+#### F.16:12.2 - System role and RBAC role
 
-**Title & claim.** *“Behavioral role (BPMN) is disjoint from access role (RBAC); keep duties separate.”*
-**Unification line.** Role Assignmnent and Enactment (design & run) + access/deontics (design).
-**Contexts.** **BPMN 2.0** — participant/lanes (design). **NIST RBAC (2004)** — roles/permissions (design).
-**SenseCells.** ⟨BPMN\:participant⟩, ⟨RBAC\:role⟩.
-**Row ρ.** — *(intentionally none)* — we do **not** treat them as the same.
-**Bridge β.** ⟨BPMN\:participant⟩ **disjoint** ⟨RBAC\:role⟩, **CL=3**, *loss:* none—*different dimensions* (behavioral mask vs permission grouping).
-**Role-Description hooks.** `Operator` → ⟨BPMN\:participant⟩; `AccessRole` → ⟨RBAC\:role⟩. **SoD:** `Operator` ⟂ `AccessRole‑Admin`.
-**Window.** Not applicable.
-**Micro‑narrative (3 lines).** We show SoD by prohibiting the same actor from holding **Operator** and **AccessRole‑Admin**. The disjoint **β** prevents leakage between behavioral masks and permission bundles.
-**Harness pings.** *S‑RoleDescr‑SingleCell*, *S‑SoD*, *S‑Bridge‑Disjoint*.
+**Situation and claim.** The same System performs Work under a local operator system-role assignment and also has permissions grouped by an RBAC role. The claim is that these are different subjects even when both use the word *role*.
 
-#### F.16:12.3 - Method quartet: from MethodDescription to Work with observations
+Use F.4 and F.6 for the local system-role kind, System, obtaining assignment, and performed-Work attribution. Use the access-control pattern for the permission grouping. Use E.10.ROLE and F.0.1 for the trigger word. State any separation-of-duties constraint directly. No disjointness or sameness follows from a table row or from spelling.
 
-**Title & claim.** *“Behavioral role (BPMN) is disjoint from access role (RBAC); keep duties separate.”*
-**Unification line.** **Role Assignment & Enactment** (design & run) + access/deontics (design).
-**Contexts.** **SPEM 2.0** (design: Method or MethodDescription), **PROV‑O** (run: Activity), **SOSA/SSN** (run: Observation), **ITIL 4** (design: SLO).
-**SenseCells.** ⟨SPEM\:MethodDescription⟩, ⟨PROV\:activity⟩, ⟨SOSA\:observation⟩, ⟨ITIL\:SLO⟩.
-**Row ρ.** { ⟨ITIL\:SLO\:build‑time⟩ ↔ ⟨SOSA\:observed‑build‑duration⟩ } — *compare promised vs observed duration on the same window*.
-**Bridges.** β₁: ⟨SPEM\:MethodDescription⟩ **narrower‑than** ⟨PROV\:activity‑plan⟩, **CL=2**, *loss:* PROV lacks prescriptive structure; β₂: ⟨SOSA\:observation⟩ **narrower‑than** ⟨ITIL\:measurement⟩, **CL=2**, *loss:* ITIL abstracts from procedure.
-**Role-Description hooks.** `Operator` → ⟨BPMN\:participant⟩; `AccessRole` → ⟨RBAC\:role⟩. **SoD:** `Operator` ⟂ `AccessRole-Admin`.
-**Window.** *Release window: calendar week*.
-**Micro‑narrative (4 lines).** The **MethodDescription (SPEM)** implies a target **build‑time**; **Work (PROV activity)** occurs; **observations (SOSA)** provide actuals; we compare against the **SLO (ITIL)** via row ρ over the *calendar week* window. Bridges β₁–β₂ explain why plan/measure semantics do not collapse.
-**Harness pings.** *S‑Row‑Cross*, *S‑Window*, *S‑RoleDesc‑SingleCell*, *S‑TemporalHonesty*.
+#### F.16:12.3 - Method description, Work, and service promise
+
+**Situation and claim.** A build MethodDescription contains a target duration; dated build Work occurs; observations report actual duration; a service promise is evaluated for a calendar week.
+
+Use A.3.2 for MethodDescription membership, A.15 and B.1.5 for delivery and evaluation Work and any Method enactment, C.16 for observations and measured values, A.2.3 and F.12 for promise evaluation, A.6.1 for the exact evaluation application and result binding, A.10 for evidence use, and B.3 only for assurance or material reliance. Cite the MethodDescription edition only if it changes the result or replay, and state separately whether the Work used it. A comparison table may show promised and observed values, but it establishes neither Work, result, status, nor a verdict episteme.
 

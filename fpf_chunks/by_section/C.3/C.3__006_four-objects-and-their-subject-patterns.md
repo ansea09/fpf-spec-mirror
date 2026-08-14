@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Four Objects and Their Subject Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_four-objects-and-their-subject-patterns.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Four Objects and Their Subject Patterns"
-line_start: 44862
-line_end: 44874
+line_start: 44563
+line_end: 44575
 dependencies:
   - "A.1"
   - "A.11"
@@ -48,7 +48,7 @@ Keep these four objects separately recoverable:
 
 | Object | Meaning | Subject pattern |
 | --- | --- | --- |
-| context-local `U.Kind` and `U.SubkindOf` order | The kind value used by the typed-reasoning claim and its local partial order. | `C.3` and `C.3.1` |
+| local `U.Kind` and `U.SubkindOf` order | The kind value, its explicit practice or source boundary and stable subject distinction, and the local partial order used by the typed-reasoning claim. | `C.3` and `C.3.1` |
 | `KindSignature` | One `U.Signature` declaration episteme whose exact EntityOfConcern is the local kind and whose claim content declares the candidate `ValueKind`, criterion, slice conditions, reference scheme, assumptions, dependencies, formality, and any current `ExtentRule`. It is neither the kind nor another root U-kind. | `C.3.2`, `A.6.0`, and `C.2.1` |
 | classification judgment | One evaluation for an exact candidate, local kind, signature edition, and context slice with result `true`, `false`, or `unknown`. It is not a direct relation occurrence by default. | `C.3.2` |
 | `KindExtension(k, slice)` | An optional set-valued representation of the declared candidates whose judgment is `true` for the fixed signature edition and slice. | `C.3.2`, with `C.29` when the representation changes a claim-bearing use |

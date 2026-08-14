@@ -6,12 +6,12 @@ section_id: "A.6.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:2 — Problem"
-line_start: 12957
-line_end: 12974
+line_start: 12956
+line_end: 12973
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -37,7 +37,7 @@ keywords:
 Concretely, without EFEM:
 
 1. **No single place for “effect‑free” discipline.**
-   The distinction *“episteme‑only change”* vs *“Work in the world”* is already important (C.2.1 separates episteme components from Work and from publication forms, renderings, and carriers), but the laws for “episteme‑only” operations are scattered or implicit.
+   The distinction between episteme-only change and Work in the world is already important: C.2.1 separates the three episteme identity values and neighboring direct relations from Work, publication forms, renderings, and carriers. The laws for episteme-only operations are otherwise scattered or implicit.
 
 2. **EntityOfConcern behaviour is unclear.**
    Many transforms **intend** to keep “what this episteme is about” fixed (viewing), others **intend** to change it under an invariant (retargeting). Without a common *EntityOfConcernChangeMode* discipline we get silent breaks in “entityOfConcern”: an operation that looks like a harmless format change may in fact surreptitiously change the entity of concern.
@@ -46,7 +46,7 @@ Concretely, without EFEM:
    MVPK, KD‑CAL, and E.18 all implicitly assume that episteme transforms **compose** and respect identities, but the conditions for this (purity, conservativity, idempotence, scope) are not formulated once and reused. Different parts of the spec repeat subtly different sets of laws.
 
 4. **Slot/Ref confusion.**
-   With C.2.1's `U.EpistemeSlotRelation` and the A.6.5 relation-declaration slot discipline, every episteme now has explicit rules for **SlotKind, ValueKind, and RefKind**. Laws for “projection” or “retargeting” that are written against “fields” or unnamed tuple components are now out of alignment.
+   C.2.1 identifies an episteme through exact claim content, one exact EntityOfConcern, and one effective ReferenceScheme. A.6.5 SlotSpecs apply only inside an exact reusable relation declaration. Laws for “projection” or “retargeting” that instead rely on unnamed fields or tuple positions therefore hide what the morphism actually reads or changes.
 
 The result: engineers and tool builders can no longer tell **when they are allowed to transform epistemes without changing what is being claimed about the world**, nor what needs to be witnessed by Bridges and CL‑penalties when entityOfConcern does change.
 

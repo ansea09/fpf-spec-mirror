@@ -6,12 +6,12 @@ section_id: "C.2.4:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__013_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:12 — Relations"
-line_start: 43844
-line_end: 43847
+line_start: 43545
+line_end: 43548
 dependencies:
   - "A.16"
   - "A.16.0"

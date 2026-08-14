@@ -1,48 +1,52 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__015_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:14 — Relations"
-line_start: 91677
-line_end: 91691
+line_start: 91286
+line_end: 91303
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
 ### F.3:14 - Relations
 
 **Builds on:**
-F.1 **Domain‑Family Landscape Survey** (Contexts fixed); F.2 **Term Harvesting** (Units ready); E.10.D1 **D.CTX** (Context discipline); A.7 **Strict Distinction**.
+
+- Use **F.1** for the finite source cut and receiving question.
+- Use **F.2** for exact expressions and source-local lexical notes.
+- Use **F.17** for `<ReferenceScheme, LocalExpression, LocalSenseClaim>` only when a stable address is needed.
+- Use **E.10.D1** to keep source, scheme, claim scope, model use, and working situation distinct when *context* wording is encountered.
 
 **Constrains:**
 
-* **F.4 Role Description.** Role Descriptions **cite SenseCells**; they do **not** invent senses.
-* **F.7 Concept‑Set Table.** Rows are built from **SenseCells** (later Cross‑context assembly); intra‑Context clarity here prevents row bloat.
-* **F.8 Mint or Reuse Decision.** Decisions compare proposed names to **existing SenseCells** to avoid type inflation.
-* **F.9 Alignment & Bridge.** Bridges connect **SenseCell ↔ SenseCell** across Contexts; F.3 provides the stable endpoints.
+- **F.4** may cite an exact cell but never infers a local system-role kind from it.
+- **F.7** displays exact local claims or cells and already obtaining relations for one stated comparison or use; F.3 clustering creates neither a row relation nor permission.
+- **F.8** compares proposed wording with exact existing designations and claims without treating either as the value being named.
+- **F.9** tests a relation only between exact local meanings whose interpretation bases differ. F.3 establishes no Bridge, cross-source sameness, substitution, or use licence.
 
-**Is used by.**
-Part C Extention Patterns to ground examples and invariants in **Context‑true** language.
+**Used by.** Part C patterns may cite a local-sense claim under its exact source and scheme; the direct pattern still defines or constrains the substantive value or relation in the example.
 

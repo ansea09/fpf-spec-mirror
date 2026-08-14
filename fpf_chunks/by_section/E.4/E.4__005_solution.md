@@ -6,12 +6,12 @@ section_id: "E.4:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:4 — Solution"
-line_start: 70291
-line_end: 70370
+line_start: 70104
+line_end: 70189
 dependencies:
   - "C.33"
   - "C.34"
@@ -49,7 +49,13 @@ Create a family-and-structure map with these fields:
 ```text
 FPFFamilyAndStructureMap@Context:
   ecosystemScopeRef
-  boundedContextRef
+  intendedMapUse
+  claimScopeRef?
+  sourceRefs?
+  patternHostRefs?
+  selectedArchitectureStructureRefs?
+  publicationRelationRefs?
+  boundedModelUseStructureRef?
   frameworkFamilyMembers
   selectedPatternSetRefs
   selectedProblemSituationStructureRefs
@@ -68,7 +74,7 @@ FPFFamilyAndStructureMap@Context:
   dependentUsePatternLocators
 ```
 
-This map is a context record. It is not a new root kind and not a substitute for the exact subject assertions and defining or constraining ClaimGraphs it references.
+This map answers the declared ecosystem question for its intended use. It is not a new root kind, a source of semantic locality, or a substitute for the subject claims and patterns it cites.
 
 Classify the family members as follows:
 
@@ -87,7 +93,7 @@ Classify the family members as follows:
 
 The ordinary method is:
 
-1. Declare the ecosystem scope and bounded context.
+1. Declare the ecosystem scope and intended map use. Cite the exact source, pattern host, selected architecture structure, publication relation, or bounded model-use structure only when the map actually relies on it.
 2. Name the family member being created, used, or changed.
 3. List the selected structures that matter for the architecture claim: recurring problem-situation structures, known failure modes, reusable SoTA solution-move structures, pattern set, pattern-use relations, pattern-framework relations, decision records, dependency and edition records, publication/access carriers, source packs, quality records, and currentness records. For PF work, the pattern-language publication carrier exposes a reader-facing expression of that problem-and-solution architecture, not a neutral list of topics.
 4. If the family member is FPF itself as a framework edition, open `E.4.FPF` for form, publication/access carriers, and whole-FPF adequacy routing.

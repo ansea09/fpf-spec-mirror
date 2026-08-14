@@ -6,12 +6,12 @@ section_id: "C.2.P:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.P/C.2.P__015_sota-echoing.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.P — Epistemic Precision Restoration"
   - "C.2.P:11 — SoTA-Echoing"
-line_start: 42483
-line_end: 42543
+line_start: 42200
+line_end: 42260
 dependencies:
   - "A.10"
   - "A.15"
@@ -73,9 +73,9 @@ The current FPF corpus already has patterns that contribute to this discipline:
 
 - `E.10` supplies the head-kind, term, morphology, register, and forbidden-umbrella discipline.
 - `E.10.D2` gives the "thing vs words vs rules" discipline and the carrier humility rule.
-- `F.18` gives the local-first naming protocol: Context, Kind, purpose and use-domain, local sense, candidate head families, NQD-front, semantic read-through, and lexical Q components before one label becomes a reusable head.
+- `F.18` gives the local-first naming protocol: governed value and kind; the pattern and contribution that define or constrain them; by-value scheme; local-sense claim; intended use; candidate comparison; and any separately obtaining relation.
 - `A.6.P` gives the relation-precision restoration method: restore generic head kind, build candidate sets for endpoint kinds and relation kinds, select kind-explicit slots and qualifiers, then allow guardrailed wording.
-- `C.2.1` gives the episteme slot relation and selected `EntityOfConcern` discipline.
+- `C.2.1` gives episteme identity through exact claim content, EntityOfConcern, and effective ReferenceScheme and keeps empirical grounding and edition continuity as distinct direct relations.
 - `A.7` keeps EntityOfConcern, Description episteme, and publication carrier distinct.
 - `E.17.0`, `E.17` distinguish views, viewpoints, MVPK faces, publication forms, and publication projections.
 - `A.15.4` shows how to keep an encountered publication, display, or low-articulation cue distinct from the project-side FPF kind and reference used for work or reliance.
@@ -103,7 +103,7 @@ This reduced external-practice set changes the Solution in one practical way: ep
 
 Run `PCP-TERM` when the repair changes episteme-publication-heavy naming, umbrella words, slash compounds, trigger-word replacements, or relation wording.
 
-Run `PCP-BRIDGE` when the repair imports terms, claims, norms, or authority expectations across contexts, disciplines, reference schemes, publication forms, or project record kinds.
+Run `PCP-BRIDGE` when the repair imports terms, claims, norms, or authority expectations between named sources, practices, disciplines, reference schemes, publication forms, or project record kinds.
 
 Run `PCP-ENTRY` only when the repair changes which FPF pattern a working reader should apply in a problem situation. Do not use `PCP-ENTRY` as a substitute for the epistemic precision restoration itself.
 

@@ -1,42 +1,44 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.3"
-pattern_title: "Intra‑Context Sense Clustering"
+pattern_title: "Source-Local Sense Clustering"
 section_id: "F.3:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.3 — Intra‑Context Sense Clustering"
+  - "F.3 — Source-Local Sense Clustering"
   - "F.3:5 — Minimal vocabulary (this pattern only)"
-line_start: 91453
-line_end: 91461
+line_start: 91136
+line_end: 91145
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.4"
   - "F.7"
   - "F.8"
   - "F.9"
 keywords:
-  - "Local-Sense"
-  - "SenseCell"
-  - "counter-examples"
-  - "disambiguation"
-  - "sense clustering"
+  - "LocalSenseClaim"
+  - "alias consolidation"
+  - "counterexample"
+  - "effective ReferenceScheme"
+  - "optional SchemeSenseCell"
+  - "source expression"
 ---
 
 ### F.3:5 - Minimal vocabulary (this pattern only)
 
-* **Context** — short for `U.BoundedContext` (per D.CTX).
-* **Unit** — a context‑local lexical unit from F.2 (LNF + Tech/Plain + gloss).
-* **Local‑Sense** — the **conceptual cluster** of Units deemed “same sense” **within that Context**.
-* **SenseCell** — the **address** for a Local‑Sense: *(Context, Local‑Sense)*. This is what later patterns will **cite**.
-* **Counter‑example** — a short, canonical sentence or use that **must not** be covered by the Local‑Sense; it sharpens the boundary.
-* **Usage cue** *(informative)* — a clue from usage (collocational patterns, paraphrases, entailments in the canon) that **suggests** merge or split. Cues **do not decide**; the canon’s intent does.
+* **Interpretation basis** — the exact source and edition and the effective `U.ReferenceScheme` used to understand the selected passages.
+* **Unit** — a source-local lexical note from F.2.
+* **LocalSenseClaim** — the one-sentence claim that a cluster of source uses supports under that basis.
+* **Supporting expressions** — the F.2 expressions consolidated by the claim.
+* **Counterexample** — a short source-grounded use that must not be covered by this claim.
+* **SchemeSenseCell** — F.17’s optional stable address; it carries the scheme, an expression, and the local-sense claim.
+* **Usage cue** — collocation, paraphrase, argument pattern, or entailment that suggests a merge or split; a cue is evidence to inspect, not a decision by itself.
 

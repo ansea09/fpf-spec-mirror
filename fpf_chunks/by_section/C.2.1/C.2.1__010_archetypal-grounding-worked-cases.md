@@ -6,12 +6,12 @@ section_id: "C.2.1:9"
 section_title: "Archetypal Grounding — Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__010_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:9 — Archetypal Grounding — Worked Cases"
-line_start: 41761
-line_end: 41806
+line_start: 41478
+line_end: 41523
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -90,7 +90,7 @@ Wiring-model episteme `E1` concerns exact harness `H` under reference scheme `S1
 
 For the `C.29` lens-use statement, the target phenomenon is the connectivity of `H`; the candidate mathematical object is the wiring-diagram representation under its stated diagram scheme; the mapping resolves connector marks and pin marks to the independently identified connectors and pins. A layout-only transition preserves connector identity, pin identity, and connection predicates. An omitted connection loses one predicate, while a changed legend loses the earlier mark-to-connector reference. The diagram remains admissible for maintenance diagnosis only while the connections on which that diagnosis depends are preserved and recoverable; stop that use or return to the source relation structure when they are not. This representation statement does not prove that the diagram is the harness, that visual similarity preserves claims, or that a higher readability score preserves episteme identity.
 
-A readability score can therefore improve while diagnosable connectivity becomes worse. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. `C.29` and `A.6.3.RT` govern the representation transition and its preserved or lost structure; C.2.1 decides whether the changed claim graph or effective reference scheme identifies another episteme.
+A readability score can therefore improve while diagnosable connectivity becomes worse. When that score is used as the practical value, apply `E.13`: name the intended diagnostic value, the readability proxy, and what became worse. Use `C.29` and `A.6.3.RT` for the representation transition and its preserved or lost structure; under the C.2.1 identity rule, a changed claim graph or effective reference scheme identifies another episteme.
 
 #### C.2.1:9.8 - Learned representation and tool-using inference
 

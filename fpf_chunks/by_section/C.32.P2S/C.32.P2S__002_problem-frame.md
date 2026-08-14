@@ -6,12 +6,12 @@ section_id: "C.32.P2S:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:1 — Problem frame"
-line_start: 64916
-line_end: 65032
+line_start: 64675
+line_end: 64795
 dependencies:
   - "A.1"
   - "A.1.SCR"
@@ -55,7 +55,7 @@ The common first moment is practical: a required function has no recoverable bea
 
 The first useful output is `ProblemToStructureArchitecturingFlowCard@Project`. The card is a working `U.Episteme` about one project-local P2S architecturing transformation flow, not the flow itself, the P2S method, a `U.MethodDescription`, or any planned or performed `U.Work`. It is not a new `U` kind, not an architecture claim, not an architecture decision, not a work plan, not an eval result, and not a publication format. It keeps the connected flow reviewable while each local object remains distinct and the practitioner uses the pattern for each current claim.
 
-For the first pass, fill only the fields that prevent the next wrong move: described holon, bounded context, problem pressure, first pattern to use, one unknown or selected structure slot, and pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the corresponding question becomes current.
+For the first pass, fill only the fields that prevent the next wrong move: exact problem claim or pressure, described holon, architecture question and intended use, ClaimScope or qualification window when material, first pattern to use, one unknown or selected structure slot, selected transformation-flow structure when one is actually relied on, and pattern for the next claim. Add decision, work, eval, publication, and feedback refs only when the corresponding question becomes current.
 
 ```text
 ProblemToStructureArchitecturingFlowCard@Project:
@@ -63,7 +63,11 @@ ProblemToStructureArchitecturingFlowCard@Project:
   architecturingFlowCardProjectUseRelationRef?: U.RelationRef whose predicate is stated in the cited architecturing-use or work-use pattern
   flowId:
   describedHolonRef:
-  boundedContextRef:
+  architectureQuestion:
+  intendedArchitectureUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
+  transformationFlowStructureRef?: exact independently selected E.18 structure used by this flow
   architectingSystemRef?: U.EntityRef constrained to U.System
   architectingAssignmentSpeciesRef?: U.RelationKindRef constrained under U.SystemRoleAssignment
   architectingSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment, naming the obtaining occurrence when an assignment claim is current

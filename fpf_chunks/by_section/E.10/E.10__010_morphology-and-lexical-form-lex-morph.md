@@ -6,12 +6,12 @@ section_id: "E.10:8"
 section_title: "Morphology and Lexical Form (LEX.Morph)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__010_morphology-and-lexical-form-lex-morph.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:8 — Morphology and Lexical Form (LEX.Morph)"
-line_start: 75412
-line_end: 75653
+line_start: 75239
+line_end: 75480
 dependencies:
   - "A.10"
   - "A.15"
@@ -65,9 +65,9 @@ keywords:
 #### E.10:8.0 - Casing and basic forms
 
 **M‑0 (Casing and categories).**
-Kind names and exact context-local system-role-kind labels: **UpperCamelCase** (`IncisionOperatorSystemRole`, `MethodDescription`).
+Kind names and exact local system-role-kind labels: **UpperCamelCase** (`IncisionOperatorSystemRole`, `MethodDescription`).
 Relations and verbs: **lowerCamelCase** (`performedUnderAssignment`, `isExecutionOf`, `bindsMethod`).
-IDs and instances: **flat with delimiters** (context-defined) but never collide with kind-name or system-role-kind-label forms (e.g., `W#Seam134`, `ctx:Hospital.OR_2025`).
+IDs and instances: **flat with delimiters** chosen by the exact local naming scheme or project profile, but never colliding with kind-name or system-role-kind-label forms (e.g., `W#Seam134`, `ctx:Hospital.OR_2025`).
 **Register discipline:** normative tokens use the Technical register; Plain synonyms are allowed in prose only, never in constraints.
 
 #### E.10:8.1 - Reserved suffixes (gated by LEX.TokenClass, EntityOfConcern and Description-episteme boundary, and specification use)
@@ -76,7 +76,7 @@ IDs and instances: **flat with delimiters** (context-defined) but never collide 
 
 | **Suffix**              | **Kind named by suffix**                   | **EntityOfConcern and Description-episteme boundary and specification-use gate**                       | **LEX.TokenClass gate**         | **Examples**                                      | **Typical inadmissible uses**                                       |
 | ----------------------- | ------------------------------------------ | ------------------------------------ | ------------------------------- | ------------------------------------------------- | --------------------------------------------------------------------- |
-| **`SystemRole`** (compound ending) | **One exact context-local system-role kind** | The candidate is independently admitted under C.3 and A.2 and classifies entities already admitted under A.1 as `U.System`; the name supplies no assignment, agency, capability, or Work. | ContextToken | `TransformerSystemRole`, `ApproverSystemRole` | Bare `...Role`; participant, declaration, representation, evidence, status, standard, source, constraint, commitment, or publication-use readings. |
+| **`SystemRole`** (compound ending) | **One exact local system-role kind** | The candidate is independently admitted under C.3 and A.2; its identity names the practice or source boundary and stable assignable contribution, and it classifies entities already admitted under A.1 as `U.System`. The name supplies no assignment, agency, capability, or Work. | ContextToken | `TransformerSystemRole`, `ApproverSystemRole` | Bare `...Role`; participant, declaration, representation, evidence, status, standard, source, constraint, commitment, or publication-use readings. |
 | **`Method`**            | **One semantic way of doing** | EntityOfConcern side | KernelToken or ContextToken | `SteriliseInstrumentMethod` | Attaching an episteme edition or carrier version to the Method. When one exact method-description edition matters, use a separate governed `U.EpistemeRef` and only the narrow edition selector defined by A.3.2; keep tooling and carrier versions separate. |
 | **`MethodDescription`** | **Claim-bearing episteme about one exact admitted method** | Description episteme only when its claims make at least one substantive statement about that method as a way of doing | KernelToken or ContextToken | `SteriliseInstrumentMethodDescription` | Admission by recipe, procedure, algorithm, code, diagram, document form, or label; calling it "process"; encoding runtime actuals; embedding an edition or carrier version in the conceptual name. |
 | **`...Spec`**             | **Testable specification** (acceptance-bound) | Description episteme admitted for specification use                              | KernelToken or ContextToken        | `MethodSpec`, `TransformationFlowStructureSpec`, `SystemSpec`            | Using “Spec” without acceptance tests or harness; treating formal notation alone as specification; putting runtime actuals here. |
@@ -89,11 +89,11 @@ IDs and instances: **flat with delimiters** (context-defined) but never collide 
 | **`Evaluation`**        | **Evaluation episteme or evaluation record**        | Description episteme or Description episteme admitted for specification use              | ContextToken or DiscriminatorToken | `CalibrationEvaluation`                           | Using to name system-role kinds, assignments, or methods.                                       |
 | **`EvidenceRole`** (retired trigger only) | Source evidence-role wording; recover evidence-use, source-use, status-use, assurance-use, gate-use, or publication-use relation. | Trigger wording, not a system-role kind | Trigger wording | evidence-use, status-use, source-use, or publication-use relation named by its direct pattern | Using as a system-role kind, `U.SystemRoleAssignment`, or generic evidence. |
 | **`Episteme`**          | **Epistemic knowledge unit** (structural)  | Description episteme or Description episteme admitted for specification use                            | KernelToken or ContextToken        | `TraceabilityEpisteme`                            | Colliding with CHR **ReferencePlane** (never suffix “Plane”).         |
-| **`System` or `Holon`**    | **Substantial entity**                     | EntityOfConcern side                              | KernelToken or ContextToken        | `AnesthesiaSystem`, `OrderFulfillmentHolon`       | Using to denote Context or run record.                              |
+| **`System` or `Holon`** | **Substantial entity** | EntityOfConcern side | KernelToken or ContextToken | `AnesthesiaSystem`, `OrderFulfillmentHolon` | Using to denote a source, scheme, local-use qualifier, or run record. |
 | **`Boundary`**          | **System boundary**                        | EntityOfConcern side                              | KernelToken or ContextToken        | `SterileFieldBoundary`                            | Using as a system-role kind or method.                                            |
 | **`Objective`** | **Target state** | EntityOfConcern side or Description episteme side, depending on formalization | KernelToken or ContextToken | `HemostasisObjective` | Encoding acceptance tests in the objective. Put tests in the specification governed by their actual subject; use `MethodDescription` or `MethodSpec` only when that subject is one admitted `U.Method`, A.3.2 membership holds, and the specification-use gate is present. |
-| **`Requirement`** (trigger only) | **No FPF-wide suffix meaning.** Recover the constraint, commitment, completeness condition, result expectation, dependency, sufficiency condition, availability or relevance state, or coverage constraint. | Trigger wording; a durable context token exists only after its lexical admission rule is satisfied. | Trigger wording or a ContextToken named for the recovered construction | latency constraint under its constraint pattern; `U.Commitment` when accountable undertaking is current | Publishing `Requirement` as a general head or suffix; treating unlike constructions as one kind. |
-| **`BoundedContext`**    | **Context card**                           | (meta-structural; not EntityOfConcern and Description-episteme or specification use)         | ContextToken                    | `ITIL_2020_BoundedContext`                        | Treating Context as domain; minting `U.*` inside a Context.           |
+| **`Requirement`** (trigger only) | **No FPF-wide suffix meaning.** Recover the constraint, commitment, completeness condition, result expectation, dependency, sufficiency condition, availability or relevance state, or coverage constraint. | Trigger wording; a durable local-use token exists only after its lexical admission rule is satisfied. | Trigger wording or a ContextToken named for the recovered construction | latency constraint under its constraint pattern; `U.Commitment` when accountable undertaking is current | Publishing `Requirement` as a general head or suffix; treating unlike constructions as one kind. |
+| **`Context` or `BoundedContext`** (trigger or established source term only) | **No FPF-wide kind or card is named by this suffix** | Apply E.10.D1. For the established DDD term, use A.1.1 and name the exact model-use relations or selected `BoundedModelUseStructure`; for another use, name the actual source, scheme, scope, situation, frame, or local practice that changes the action. | Trigger wording or an already admitted local-use token | quoted DDD bounded context; source label retained as source wording | Minting `U.BoundedContext`, a mandatory Context Card, or a generic identity container. |
 | **`surface`** (trigger only) | Not a durable Tech head by itself; recover publication face, form, unit, carrier, rendering, UI face, physical surface, geometric surface, or another FPF object named by value. | publication availability or ordinary source wording | Trigger wording | publication face, interop publication form, carrier relation | StructureSurface, MechanismSurface, PortfolioSurface |
 | **`Card`**                 | UTS or record unit (episteme)               | Description episteme, Description episteme admitted for specification use, or publication-unit use, depending on FPF kind named by value       | ContextToken                     | MethodCard, ExternalIndexCard            | Encoding runtime actuals; using as a ‘Service’  |
 
@@ -145,7 +145,7 @@ IDs and instances: **flat with delimiters** (context-defined) but never collide 
 
 **L‑ROLE — guarded recovery from *role***
 * Bare claim-bearing *role* is a lexical trigger with no default Tech reading. Apply `E.10.ROLE`, write the ordinary sentence with its recognizable object and action or relation, and stop as soon as one exact object or relation and its direct pattern are clear.
-* Use `SystemRole` only as the common compound inside one concrete context-local system-role-kind designation such as `ReviewerSystemRole`. It creates no system admission, assignment, agency, capability, responsibility, participation, Work, evidence use, or status.
+* Use `SystemRole` only as the common compound inside one concrete local system-role-kind designation such as `ReviewerSystemRole`. The kind's identity uses its explicit practice or source boundary and stable contribution distinction; the spelling creates no system admission, assignment, agency, capability, responsibility, participation, Work, evidence use, or status.
 * A participant meaning or actual participant remains under its direct relation; a reusable declaration place remains an A.6.5 `SlotKind` or A.6.1 declaration; a tuple, table, formula, graph, diagram, schema, or call position remains under its representation pattern and explicit correspondence. None becomes a system-role kind by wording.
 * Preserve ordinary or quoted *role* when no FPF claim relies on it. Preserve *owner* when a precise ownership relation is current—for example, an architectural, organizational, policy, source, or responsibility relation. This rule forbids lexical cleansing as well as default formalization.
 
@@ -153,13 +153,13 @@ IDs and instances: **flat with delimiters** (context-defined) but never collide 
 
 **M-F (Inadmissible in Kernel tokens).** KernelToken names do not use *...Function*, *...Process*, *...Task*, or *...Activity*. These are ambiguous or vacuous; recover the object through section 6 before naming it: one `U.Method`, one qualifying `U.MethodDescription`, one Work occurrence admitted under `U.Work`, or another accepted recovered value. The source suffix alone selects none.
 
-**M‑FW (Tool and file markers).** Tooling and file suffixes (*…API*, *…JSON*, *…YAML*, *…CI*, *…Kafka*, *…Postgres*) are **not** part of conceptual names. Place them in **Context** glossaries or operational configs (DevOps Lexical Firewall). Kernel names never carry tool, format, or notation marks. It is pure conceptual, no data management and data governance intended.
+**M-FW (Tool and file markers).** Tooling and file suffixes (*...API*, *...JSON*, *...YAML*, *...CI*, *...Kafka*, *...Postgres*) are **not** part of conceptual names. Place them in local source or practice glossaries or operational configurations (DevOps Lexical Firewall). Kernel names never carry tool, format, or notation marks. This is conceptual discipline, not a data-management ontology.
 
 #### E.10:8.3 - Prefix discipline
 
-**M‑P1 (Reserved prefixes).** `U.` is reserved for admitted U-kinds and governed dependent `U.*` forms; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. Never mint `U.*` inside a Context.
+**M-P1 (Reserved prefixes).** `U.` is reserved for admitted U-kinds and dependent `U.*` forms admitted under their definitions; `Γ_` for algebraic operators; `CAL, LOG, and CHR` for **pattern packages**. A local glossary, scheme, source label, or use never mints `U.*`.
 
-**M‑P2 (Edition and version markers).** Use a context marker only under A.1.1's bounded-model-use structure rules. Select one exact episteme edition only through a governed reference whose referent is that exact `U.Episteme` and whose direct reference pattern defines a narrow selector. Do not attach an edition selector to an EntityOfConcern-side `Method`, Space, system, bare `Service`, or their references. When a use depends on a defining, describing, CG-Spec, service-description, or service-offer episteme, reference that episteme separately. A service-access publication, publication occurrence, publication form, and carrier retain their own governed references and do not inherit the episteme selector. Tool and carrier versions remain separately governed. Authors MAY annotate context-local service labels for didactics only after every governed value is recoverable.
+**M-P2 (Edition and version markers).** Use a model-use marker only when A.1.1's direct model-use relations or a selected `BoundedModelUseStructure` require it. Select one exact episteme edition only through a typed reference whose referent is that exact `U.Episteme`, with a narrow selector defined at its reference-pattern locator. Do not attach an edition selector to an EntityOfConcern-side `Method`, Space, system, bare `Service`, or their references. When a use depends on a defining, describing, CG-Spec, service-description, or service-offer episteme, reference that episteme separately. A service-access publication, publication occurrence, publication form, and carrier retain their own references and do not inherit the episteme selector. Tool and carrier versions remain separate. Authors may annotate local service labels for didactics only after every named value is recoverable.
 **Norms (edition, release, and version).**
 1) **edition** — one exact `U.Episteme` with its own C.2.1 identity. A later episteme is related to an earlier one only when the exact `EpistemeEditionRelation` predicate obtains; shared label, order, file version, or selector value establishes none. `PhaseOf` may describe one unchanged episteme over a proper interval but never connects different episteme identities.
 2) **release** — a separately governed publication or release occurrence, or the exact Work that performs it when that Work claim is current. Publication occurrence, publication form, and carrier remain distinct; release establishes neither episteme identity nor `EpistemeEditionRelation`.
@@ -171,13 +171,13 @@ IDs and instances: **flat with delimiters** (context-defined) but never collide 
 
 **M‑1 (Kind-side test).** The candidate fits **one** admitted kind or one side in the Strict Distinction lattice (EntityOfConcern ≠ Description episteme ≠ publication carrier; exact local system-role kind ≠ `U.SystemRoleAssignment` occurrence ≠ Method ≠ Work). If not, **rename** or split.
 
-**M-2 (Classified-kind anchoring).** The head noun names the classified FPF kind or exact subject construction: exact local system-role kind, `U.SystemRoleAssignment` occurrence, Method, Work, Context, Characteristic, Capability, constraint claim, `U.Commitment`, publication form, service-access relation, service-offer record, or another direct FPF value. Bare *role* first uses `E.10.ROLE`; no free-floating metaphor, bare `Service`, or bare `Requirement` head passes by lexical shape.
+**M-2 (Classified-kind anchoring).** The head noun names the classified FPF kind or exact subject construction: exact local system-role kind, `U.SystemRoleAssignment` occurrence, Method, Work, Characteristic, Capability, constraint claim, `U.Commitment`, publication form, service-access relation, service-offer record, exact source or practice boundary, local-use designation, or another direct FPF value. Bare *role* first uses `E.10.ROLE`; no free-floating metaphor, bare `Service`, bare `Context`, or bare `Requirement` head passes by lexical shape.
 
-**M‑3 (Family congruence).** Where eligibility clarity is needed, add a context-specific characteristic or `SystemRoleAssignmentStateRelation` as a separate qualifier for the current governed value; do not hide either in a system-role-kind name. Do not turn standards, requirements, evidence, or status labels into `...SystemRole` names, and do not fake families with bare metaphors such as `RowPlane`, `senseFamily`, or `...Lane`.
+**M-3 (Family congruence).** Where eligibility clarity is needed, add the exact subject-specific characteristic or `SystemRoleAssignmentStateRelation` as a separate qualifier for the current value; do not hide either in a system-role-kind name. Do not turn standards, requirements, evidence, or status labels into `...SystemRole` names, and do not fake families with bare metaphors such as `RowPlane`, `senseFamily`, or `...Lane`.
 
 **M‑4 (Run and description split).** Use **`Work`** only for executions. Treat `recipe`, code, diagram step, procedure, or document form as recognition evidence only: classify a claim-bearing episteme as `U.MethodDescription` only when its exact EntityOfConcern is one admitted `U.Method` and its claims pass the A.3.2 substantive-description threshold; keep the method, representation, publication form, plan, and Work occurrence separate.
 
-**M‑5 (Kernel parochiality).** `KernelToken` names carry **no domain nouns**. Recover domain markers under the objects and rules that define them. Use `ContextToken` only after its context-local lexical use is recovered; use A.19 `CharacteristicSpace` only after its named `U.Characteristic`, declared CSLC scale, context in which it is used, and receiving use are current; use A.2.5 `SystemRoleAssignmentStateRelation` only when that direct predicate obtains. Lexical shape establishes none of them.
+**M-5 (Kernel parochiality).** `KernelToken` names carry **no domain nouns**. Recover domain markers under the objects and rules that define them. Use `ContextToken` only after the exact local source, practice, scheme, meaning, and receiving use are recovered; use A.19 `CharacteristicSpace` only after its named `U.Characteristic`, declared CSLC scale, and exact receiving use are current; use A.2.5 `SystemRoleAssignmentStateRelation` only when that direct predicate obtains. Lexical shape establishes none of them.
 
 **M‑6 (Vacuity ban).** Avoid vacuous heads (*Thing, Event, Process, Resource*). Use established U-kind heads such as `U.Holon`, `U.Work`, and `U.Method`.
 
@@ -187,7 +187,7 @@ IDs and instances: **flat with delimiters** (context-defined) but never collide 
 
 #### E.10:8.5 - Alias hygiene
 
-Aliases are permitted **only** inside a **Context Glossary** and map to **one** technical label with an **equivalence** note (≡). No global aliases.
+Aliases are permitted only in one named local source or practice glossary under an effective scheme and explicit local meaning claim. Each alias points to one Tech designation; it does not assert semantic equivalence or a Bridge. No global aliases.
 
 #### E.10:8.5a - Entry lexeme support and lexical-query discipline
 
@@ -240,8 +240,8 @@ The same boundary should be kept explicit in lexical support:
 
 Language-specific query cues may be added as entry-lexeme support.
 They do not become canonical names, aliases, or semantic equivalents unless
-`F.18` admits that naming use; otherwise E.10 keeps the phrase as ordinary
-context-local query wording. Such a practitioner phrase may help recover a
+an accepted F.18 naming settlement admits that use; otherwise keep the phrase as ordinary
+local query wording. Such a practitioner phrase may help recover a
 canonical FPF pattern while remaining lexical-query support only.
 
 #### E.10:8.6 - Compatibility with USM (acts and tokens)
@@ -250,17 +250,17 @@ canonical FPF pattern while remaining lexical-query support only.
 
 `LEX.TokenClass(t)=c  ⇒  USM.Scope(usage) ∈ AllowedScopes(c)`.
 
-Example: use of a `KernelToken` in a Context constraint can be admitted through a Bridge or alias; logging `Work` inside a MethodDescription violates M-4 and the policy.
+Example: use of a `KernelToken` in a locally scoped constraint is admitted only under the exact scheme and allowed-scope rule; an alias adds no Bridge. Logging `Work` inside a MethodDescription violates M-4 and the policy.
 
 #### E.10:8.7 - Acceptance and regression checks (LEX and USM)
 
 * **SCR‑MOR‑S01 (Suffix whitelist).** Every normative token with a reserved suffix matches § 8.1 row semantics and passes EntityOfConcern and Description-episteme boundary and specification-use gates.
 * **SCR-MOR-S02 (Kernel exclusions).** KernelToken names contain none of the inadmissible suffixes from section 8.2.
-* **SCR‑MOR‑S03 (Prefixes).** Reserved prefixes obey § 8.3; no `U.*` minted in Context.
+* **SCR-MOR-S03 (Prefixes).** Reserved prefixes obey § 8.3; no local glossary, source, scheme, or use mints `U.*`.
 * **SCR‑MOR‑S04 (Run and design gate).** `Work` appears only for executions; `MethodDescription` has no runtime actuals.
 * **SCR‑MOR‑S05 (Collision).** Full‑text + Reserved‑Names checks pass (no other sense of the token elsewhere).
 * **SCR‑MOR‑S06 (Object‑of‑talk).** Heads pass M‑2; no bare metaphors as heads.
-* **RSCR‑MOR‑E01 (DevOps firewall).** Tool and file suffixes quarantined to Context; none leak into KernelToken names.
+* **RSCR-MOR-E01 (DevOps firewall).** Tool and file suffixes stay in local glossaries or operational configurations; none leak into KernelToken names.
 * **RSCR‑MOR‑E02 (USM compliance).** For each LexicalAct, verify `USM.Scope ∈ AllowedScopes(LEX.TokenClass)` (see § 7.5).
 
 #### E.10:8.8 - Autonomy lexicon (L‑AUTO )
@@ -284,7 +284,7 @@ Example: use of a `KernelToken` in a Context constraint can be admitted through 
 **Rule L-CHR-S3 (Status).** Episteme statuses, `SystemRoleAssignmentStateRelation` occurrences or assertions, deontic statuses, and epistemic statuses are not Characteristics by label alone; each remains governed by its direct pattern.
 **Rule L-CHR-S4 (Lexical classifiers).** Keep a lexical classifier or tag under its classification rule: a local classification function and value set, source wording, C.29 representation element, example or alternative set, status or state-frame value set, local kind or classifier, or another construction defined for that classifier. Call it a `U.Characteristic` only when that characteristic and one CSLC scale are declared. Do not default the residue to `Facet`, attribute, or another umbrella kind.
 **Checks.**
-— **CC-L-CHR-1.** `scope characteristic(s)` is banned in Core and Context.
+— **CC-L-CHR-1.** `scope characteristic(s)` is banned in Kernel and local-use Tech wording.
 — **CC-L-CHR-2.** `CharacteristicSpace` near `Scope` — error.
 — **CC-L-CHR-3.** Kind-preserving repair: `F–G–R characteristics` → `F–G–R components` only when the recovered kind is component rather than characteristic.
 

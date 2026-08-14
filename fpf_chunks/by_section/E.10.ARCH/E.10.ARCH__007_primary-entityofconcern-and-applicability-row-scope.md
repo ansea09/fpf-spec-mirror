@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:1"
 section_title: "Primary EntityOfConcern and applicability-row scope"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__007_primary-entityofconcern-and-applicability-row-scope.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:1 — Primary EntityOfConcern and applicability-row scope"
-line_start: 76350
-line_end: 76379
+line_start: 76177
+line_end: 76206
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,7 +73,7 @@ A row may use `semanticAreaBaseConcept`, `semanticArea`, `semanticAreaSenseFamil
 - the recurring wording use recognized by `E.10`;
 - the exact governed entity, value, episteme, obtaining direct relation, or representation exposed by that use;
 - the exact claim or use being made;
-- the direct pattern that defines or constrains that object, relation, or representation;
+- the rule that defines or constrains that object, relation, or representation, and the pattern ID that locates the rule;
 - the repaired wording;
 - the admissible reader use that survives; and
 - the blocked stronger reading.

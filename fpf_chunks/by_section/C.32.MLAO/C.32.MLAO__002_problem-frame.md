@@ -6,12 +6,12 @@ section_id: "C.32.MLAO:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.MLAO/C.32.MLAO__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.MLAO — Multilevel Architecture Residual Optimization"
   - "C.32.MLAO:1 — Problem frame"
-line_start: 66387
-line_end: 66475
+line_start: 66158
+line_end: 66248
 dependencies:
   - "A.10"
   - "A.19.CPM"
@@ -94,14 +94,16 @@ Common exits by claim kind:
 
 The first useful output is `MultilevelArchitectureResidualOptimizationFrame@Project`. The frame is a working record for residual-reducing candidate framing. It records residual movement and candidate burdens; it is not a universal optimizer, scalar optimum, C.29 lens result, or architecture decision:
 
-For a first pass, fill only the described holon, bounded context, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, evolution window, residual-reducing candidates with residual reduced and new burden, pattern for the next question, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and architecture-influence-correspondence refs only when that support is current for the candidate being framed.
+For a first pass, fill only the described holon, optimization question and objective basis, residual-triage ref, affected level or scope refs, selected structures, residual-bearing loci, criteria rows, ClaimScope when needed, evolution window, residual-reducing candidates with residual reduced and new burden, pattern for the next question, and stop condition. Add front, archive, NQD, OEE, C.29 lens, ideality, scale-amenability, function-bearer, and architecture-influence-correspondence refs only when that support is current for the candidate being framed.
 
 ```text
 MultilevelArchitectureResidualOptimizationFrame@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  residualOptimizationFrameProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-use or work-use pattern
+  residualOptimizationFrameProjectUseRelationRef?: U.RelationRef defined by the exact synthesis-use or work-use pattern
   describedHolonRef:
-  boundedContextRef:
+  optimizationQuestion:
+  objectiveBasisRefs:
+  claimScopeRef?: U.ClaimScope
   residualTriageRef:
   declaredHolonLevelRefs?:
   declaredScopeRefs:

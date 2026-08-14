@@ -1,52 +1,37 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.1"
-pattern_title: "Contextual Lexicon Principles"
+pattern_title: "Source-Local Meaning Recovery"
 section_id: "F.0.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.0.1 — Contextual Lexicon Principles"
+  - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:intro — Intro"
-line_start: 90469
-line_end: 90481
+line_start: 90326
+line_end: 90331
 dependencies:
-  - "A.1.1"
-  - "A.11"
-  - "A.4"
-  - "A.7"
-  - "A.8"
-  - "B.3"
-  - "D.CTX"
+  - "E.10"
   - "E.10.D1"
+  - "F.0.2"
   - "F.1"
-  - "F.2"
-  - "F.3"
-  - "F.7"
+  - "F.17"
+  - "F.18"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "U.BoundedContext"
-  - "bridge"
-  - "congruence"
-  - "context"
-  - "lexicon"
-  - "local meaning"
-  - "semantic boundary"
+  - "actual cross-local relation"
+  - "exact source and edition"
+  - "local expression"
+  - "optional durable address"
+  - "source-local meaning"
+  - "troubling word use"
 ---
 
-## F.0.1 - Contextual Lexicon Principles
+## F.0.1 - Source-Local Meaning Recovery
 
-
-> **One‑sentence summary.** All meanings in FPF are **local to a `U.BoundedContext`** (“Context of meaning”); terms are **spoken with their Context**, and any relation **across Contexts** exists **only** as an explicit **Alignment Bridge** with stated loss/fit.
-
-**Status.** Architectural pattern.
-**Builds on:** A.1.1 `U.BoundedContext` (formal frame); A.7 *Strict Distinction* (C‑6); A.8 *Universal Core* (C‑1); A.11 *Ontological Parsimony* (C‑5); A.4 *Temporal Duality* (C‑7); **E.10.D1 D.CTX** (lexical discipline for “Context”).
-**Coordinates with.** **F.1** (Context Map via Context Cards), **F.2** (local term capture), **F.3** (intra‑Context clustering), **F.7** (Concept‑Set Table), **F.9** (Alignment & Bridge), **B.3** (Trust & Assurance; CL penalties).
-
-> **Didactic note.** In the Tech register, **Context ≡ `U.BoundedContext`** (per E.10.D1). We use “Context of meaning” as a **metaphor only**; *Context* remains the normative short form for `U.BoundedContext`. The word **anchor** is not used in FPF. The word *plane* is reserved to **CHR:ReferencePlane** only.
-
-**Terminology guard (normative, Part F).** The **row classifier** is **senseFamily**: {Role | Status | Measurement | Type‑structure | Method | Execution}. **Characteristic** (MM‑CHR) names measurable aspects only (A.17–A.19) and MUST NOT be used for row typing in Part F. Avoid the generic word **facet** in Part F; when unavoidable, reference **C.3.5 KindAT (informative facet)** or **Compose‑CAL `U.Facet`** explicitly. Only **CHR:ReferencePlane** is permitted (no bare “plane”); use **EntityOfConcern / Description episteme / specification-use boundary** for entity-description-specification-use discipline; use **stance** for design vs run.
+> **Type:** Architectural (A)
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative
 

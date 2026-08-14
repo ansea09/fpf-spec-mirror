@@ -6,12 +6,12 @@ section_id: "F.5:6"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__008_bias-annotation.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:6 — Bias Annotation"
-line_start: 92244
-line_end: 92252
+line_start: 91860
+line_end: 91868
 dependencies:
   - "A.10"
   - "A.15"
@@ -55,7 +55,7 @@ keywords:
 
 1. **Semio-bias.** A name, card, row, publication, or source label is mistaken for the named value or authority to use it.
 2. **Role-bias.** Evidence, status, access, source, requirement, participation, or argument-position wording is forced into `SystemRole` morphology.
-3. **Source-vocabulary capture.** One source context's term becomes the Tech designation without showing cross-context fit.
+3. **Source-vocabulary capture.** One source's term becomes the Tech designation without showing fit to the admitted value or exact local kind.
 4. **Suffix formalism.** Adding `SystemRole`, `KindDescription`, `Status`, `Record`, `Graph`, or `Map` makes a label look precise while the object remains unresolved.
 
 The repair is object recovery first, designation second.

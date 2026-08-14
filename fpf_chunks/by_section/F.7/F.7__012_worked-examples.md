@@ -1,22 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept‑Set Table"
+pattern_title: "Concept-Set Table"
 section_id: "F.7:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__012_worked-examples.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.7 — Concept‑Set Table"
+  - "F.7 — Concept-Set Table"
   - "F.7:11 — Worked examples"
-line_start: 92831
-line_end: 92872
+line_start: 92442
+line_end: 92471
 dependencies:
   - "A.6.9"
+  - "B.3"
+  - "C.16"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -24,55 +27,44 @@ dependencies:
   - "F.6"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "columns"
-  - "comparisons"
-  - "concept-set"
-  - "differences"
-  - "row"
-  - "table"
+  - "comparison surface"
+  - "direction"
+  - "evidence"
+  - "exact local claim"
+  - "loss"
+  - "obtaining relation"
+  - "optional SchemeSenseCell"
+  - "receiving use"
 ---
 
 ### F.7:11 - Worked examples
 
-> Each example gives a **row** (compact), then a **reading** explaining scope and limits. All sameness claims presuppose suitable **F.9 Bridges** with the stated CL.
+#### F.7:11.1 - Actor wording across BPMN and PROV
 
-#### F.7:11.1 - Behavioural actor across Contexts (naming‑only)
+| Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
+| --- | --- | --- | --- | --- | --- |
+| Choose a plain-language heading for a teaching paragraph | BPMN **Participant** claim; PROV **Agent** claim | No identity asserted; any F.9 relation must be established for the exact claims | PROV agents include software and organisations; BPMN participants have model-specific structure | Source passages and F.0.1 | The word **party** may be used as an explanatory umbrella only in this paragraph if the sentences retain each source’s distinct claim. |
 
-| FPF Label (Tech / Plain)              | Row Scope   | Row CL(min) | BPMN 2.0        | PROV‑O    | Rationale                                                                               | Counter‑examples                                                                                      |
-| ------------------------------------- | ----------- | ----------- | --------------- | --------- | --------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
-| **actor** / *party that participates* | Naming‑only | CL = 2      | **Participant** | **Agent** | Both denote a bearer that can be named as the party to which activities are attributed. | PROV **Agent** includes software agents; BPMN **Participant** is typically an organisation lane/pool. |
+#### F.7:11.2 - Runtime occurrence comparison
 
-**Reading.** The row licenses a **glossary‑level sameness** for didactic prose (“the actor”). It does **not** license modelling **identity** or inference across Contexts.
+| Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
+| --- | --- | --- | --- | --- | --- |
+| Report selected PLC task runs as provenance activities | IEC task-execution claim; PROV Activity claim | A stated source-local semantic or representation relation, direction IEC → PROV, when actually established | PROV omits scan-cycle and scheduling semantics | F.9 or the direct representation pattern plus evidence | Report only the covered occurrence facts; do not infer that every PROV Activity is an IEC task run. |
 
-#### F.7:11.2 - Execution occurrence (assignment/enactment-eligibility)
+Performed-Work attribution remains an A.15.1 and F.6 claim about actual Work and system-role assignment. The table supplies neither.
 
-| FPF Label                                       | Row Scope       | Row CL(min) | PROV‑O                                                           | IEC 61131‑3                                          | Rationale                                                                       | Counter‑examples                                                   |
-| ----------------------------------------------- | --------------- | ----------- | ---------------------------------------------------------------- | ---------------------------------------------------- | ------------------------------------------------------------------------------- | ------------------------------------------------------------------ |
-| **execution-occurrence** / *a run that happens* | assignment/enactment-eligibility | CL = 2      | **Activity** (time-bounded occurrence using/generating entities) | **Task execution** (cyclic/event-driven program run) | Both are **run-time** occurrences that can support `Work.performedBy = RoleAssignment` or a named `RoleEnactmentFact`. | BPMN **Process** is a **design** graph; not an occurrence—exclude. |
+#### F.7:11.3 - Measured value and target
 
-**Reading.** Safe to use as the **run-time occurrence referenced by performed-work attribution** when we say “this Work was performed under an assignment”. Not safe to equate **all** PROV Activities with **all** PLC task runs for analytics.
+| Comparison or use | Exact entries | Relation | Boundary | Basis | Conclusion |
+| --- | --- | --- | --- | --- | --- |
+| Judge an observed service characteristic against a target | SOSA observation and its result; ISO quantity value if used; ITIL service target | Measurement, scale, and unit relations; F.9 only for a genuine local-meaning relation | Composite KPI, sampling, and unit limits | C.16, A.10, B.3, and F.12 | Compare only the named characteristic, population, and window with adequate evidence. |
 
-#### F.7:11.3 - Result value as KD‑metric (measurement)
+#### F.7:11.4 - Class inclusion and FCA order
 
-| FPF Label                           | Row Scope | Row CL(min) | SOSA/SSN             | ISO 80000‑1                      | ITIL 4           | Rationale                                                                                                | Counter‑examples                                               |
-| ----------------------------------- | --------- | ----------- | -------------------- | -------------------------------- | ---------------- | -------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------- |
-| **result‑value** / *measured value* | KD‑metric | CL = 2      | **Result** (literal) | **QuantityValue** (unit‑bearing) | **metric value** | A number representing a **Characteristic** at observation time; can be unitised and compared to targets. | ITIL “metric” may be a composite index; units may be implicit. |
+A contrast row may show OWL class inclusion, FPF subtype, and FCA concept order together while stating that FCA order is not class inclusion. A positive relation between the first two is still a separate claim with its own semantics and evidence.
 
-**Reading.** Licences **metric tables** that join observations to service targets; warns that composite KPIs may violate unit fidelity.
+#### F.7:11.5 - *Role* trigger word
 
-#### F.7:11.4 - Subtype relation (type‑structure)
-
-| FPF Label                   | Row Scope      | Row CL(min) | OWL 2             | Kind-CAL            | Rationale                                     | Counter‑examples                                                                 |
-| --------------------------- | -------------- | ----------- | ----------------- | ------------------- | --------------------------------------------- | -------------------------------------------------------------------------------- |
-| **is‑a** / *type hierarchy* | Type‑structure | CL = 3      | `rdfs:subClassOf` | `U.SubtypeRelation` | Both are partial orders used for inheritance. | FCA **concept order** is not a class subsumption—exclude or publish another row. |
-
-#### F.7:11.5 - Contrast: “role” (access vs behaviour)
-
-| FPF Label           | Row Scope | Row CL(min) | NIST RBAC                 | BPMN 2.0                                 | Rationale                                                      | Counter‑examples                                                                   |
-| ------------------- | --------- | ----------- | ------------------------- | ---------------------------------------- | -------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
-| **role** (contrast) | —         | —           | **Role** (permission set) | **Participant/Actor** (behavioural mask) | Same surface; **different senseFamilys** (Status vs Role/behaviour). | Any attempt to unify collapses deontics into behaviour; stance and effects differ. |
-
-**Reading.** This row **teaches difference**; it deliberately **does not** license sameness.
+Show NIST RBAC **role** as a permission grouping and a local system-role-kind claim as a kind whose instances are Systems. Mark them **distinct subjects**. Use E.10.ROLE to recover other uses such as relation participation or signature position; do not assign them one `senseFamily` merely because the spelling matches.
 

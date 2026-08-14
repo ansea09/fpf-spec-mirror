@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.1.6.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
-line_start: 37044
-line_end: 37277
+line_start: 36758
+line_end: 36994
 dependencies:
   - "A.1"
   - "A.10"
@@ -57,7 +57,7 @@ keywords:
 > **Status:** Stable
 > **Normativity:** Normative unless explicitly marked informative
 
-**Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over exact dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, directly governed non-Work carrier phases, boundary partitions, or comparable work-resource ledgers.
+**Use this when.** Use this pattern when the current claim aggregates resources, effort, time, energy, material, information, cost, or another measured resource over exact dated Work occurrences, A.15.1 temporal or operational Work parts, event-bounded episodes, non-Work carrier phases with an established identity and `PhaseOf` relation, boundary partitions, or comparable work-resource ledgers.
 
 **Not this pattern when.** If the current question is the method as a way of doing, use `A.3.1`. If it is a method description, SOP, algorithm text, simulator configuration, or formal expression, use `A.3.2`. If it is a work plan, use `A.15.2`. If it is whether Work occurred or which Work temporal part, episode, operational part, retry, resumption, or later occurrence is current, use `A.15.1`. If it is work-entry readiness, full-kit condition, or resource readiness before work entry, use `A.15.5`. If it is bounded aggregation of already recovered temporal relations without resource accounting, use `B.1.4`. If it is a transformation claim, use `A.3.4`. If apparent resource gain changes whole identity, use `B.2.P` before any B.2-family pattern.
 
@@ -67,7 +67,7 @@ keywords:
 
 ### B.1.6:1 - Problem Frame
 
-Practitioners need to roll up work-resource claims across runs, exact A.15.1 Work temporal parts or episodes, teams, devices, stations, model-training epochs, directly governed non-Work carrier phases, or evidence-production occurrences. The recurring error is to treat a method, method description, plan, phase label, dashboard, or expected efficiency as if it were measured performed Work or as if the label established a Work relation.
+Practitioners need to roll up work-resource claims across runs, exact A.15.1 Work temporal parts or episodes, teams, devices, stations, model-training epochs, non-Work carrier phases with an established identity and `PhaseOf` relation, or evidence-production occurrences. The recurring error is to treat a method, method description, plan, phase label, dashboard, or expected efficiency as if it were measured performed Work or as if the label established a Work relation.
 
 Use `B.1.6` for the work-resource aggregation claim. Treat dated work occurrence, Method, MethodDescription, WorkPlan, resource ledger, holon delimitation, transformation, evidence, and whole reidentification as separate claims under their applicable patterns.
 
@@ -98,10 +98,13 @@ If any referenced resource value lacks its resource Characteristic, measurement 
 ```text
 WorkResourceAggregation@Context:
   aggregationConcernRef
-  boundedContextRef
-  accountingBoundaryAndTimeWindowRefs
+  claimScopeRef?: U.ClaimScope
+  accountingBoundaryRefs
+  timeWindowRefs
   aggregatedWorkOccurrenceRefs
-  workPartPhaseOrOverlapRelationRefs
+  resourceUseRelationRefs
+  workPartOrOverlapRelationRefs
+  nonWorkCarrierPhaseRelationRefs?
   resourceCharacteristicRefs
   measurementWorkRefs
   measurementResultEpistemeRefs
@@ -117,7 +120,7 @@ WorkResourceAggregation@Context:
   nonAdmissibleOverread
 ```
 
-These are separately governed objects, not fields that create one another:
+These are separate objects and claims; the fields do not create one another:
 
 - a **resource Characteristic** says which quantity or property is accounted for;
 - **measurement work** and a **C.16 measurement-result episteme** supply each attributed resource value, Scale, Unit, uncertainty, model, calibration, and time stance;
@@ -143,7 +146,7 @@ A ledger, dashboard, policy, profile, clause, citation, or graph edge may repres
 | Source recovery and provenance | `A.10` and `G.6`; `E.17` for publication |
 | Edition currentness | `G.11` |
 | Planned work or resource readiness | `A.15.2` or `A.15.5`, never a measured aggregation result |
-| Transformation, whole reidentification, assurance, comparison, or decision | its direct A.3.4, B.2, B.3, A.19, C.11, or other exact governor |
+| Transformation, whole reidentification, assurance, comparison, or decision | the applicable A.3.4, B.2, B.3, A.19, C.11, or other pattern for that exact claim |
 
 ### B.1.6:3 - Optional `Gamma_work` Notation
 
@@ -154,11 +157,11 @@ Gamma_work(workResourceAggregationRecord, resourceBasis, aggregationPolicy)
   -> aggregationResultRef, aggregationResultEpistemeRef
 ```
 
-The notation applies only after the resource Characteristics, C.16 measurement work/result epistemes, dated Work set, exact A.15.1 Work-part/episode/overlap relations or directly governed non-Work `PhaseOf` relations, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. It does not create those objects or relations, order method steps, certify a method, or declare emergence.
+The notation applies only after the resource Characteristics, C.16 measurement Work and result epistemes, dated Work set, exact A.15.1 Work-part, episode, and overlap relations or non-Work carrier identity and `PhaseOf` relations, accounting boundary and time window, aggregation policy, and dated aggregation Work have been named. It does not create those objects or relations, order method steps, certify a method, or declare emergence.
 
 ### B.1.6:4 - Ledger Discipline
 
-The ledger is a replay surface, not the aggregation's ontic owner. For every resource component it records:
+The ledger is a replay surface, not the source of the aggregation claim. For every resource component it records:
 
 - resource Characteristic, Scale, Unit, polarity when relevant, and accounting boundary;
 - exact measured or estimated subject, time window, and work occurrence to which the value applies;
@@ -199,7 +202,7 @@ Use `PortionOf` only for an exact resource portion with its A.14 measure and add
 | Obligation | What must be named |
 | --- | --- |
 | Resource input | Resource Characteristic, Scale/Unit, subject, C.16 measurement work/result episteme, uncertainty, time, and provenance |
-| Work set | Dated Work occurrences and exact A.15.1 temporal-part, episode, operational-part, other admitted Work-part, partition, and overlap relations; any non-Work carrier phase remains separately governed |
+| Work set | Dated Work occurrences and exact A.15.1 temporal-part, episode, operational-part, other admitted Work-part, partition, and overlap relations; any non-Work carrier phase keeps its own identity rule and `PhaseOf` relation |
 | Policy | Edition, inclusion, conversions, weights, missing values, boundary allocation, uncertainty, overlap/deduplication, and output kind |
 | Aggregation execution | Dated `U.Work`, performer, method, resources, and actual direct/A.6.1 bindings |
 | Aggregation result | Typed result, work set, policy, boundary, window, qualifications, and distinct C.2.1 episteme |
@@ -208,7 +211,7 @@ Use `PortionOf` only for an exact resource portion with its A.14 measure and add
 
 ### B.1.6:6 - Archetypal Grounding
 
-**Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run occurrences and A.15.1 `TemporalPartOf_work`, episode, operational-part, or overlap relations define the included Work set; a test-cell or engine phase enters only through its separately governed carrier identity and proper relation. Shared warm-up energy is recorded as overlap. Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation Work and result.
+**Engine test programme.** C.16 measurement Work attributes fuel mass, electrical energy, operator time, and emissions values to exact subjects under their Scales, models, calibration bases, windows, and uncertainties. Each has its own result episteme. Exact test-run occurrences and A.15.1 `TemporalPartOf_work`, episode, operational-part, or overlap relations define the included Work set; a test-cell or engine phase enters only through the carrier's identity rule and proper phase relation. Shared warm-up energy is recorded as overlap. Dated aggregation Work applies `ProgrammeResourcePolicy-v3`, which allocates warm-up energy once and propagates input uncertainty. The B.1.6 result is a typed resource vector plus qualifications; a C.2.1 episteme states it. A later emissions verdict remains separate evaluation Work and result.
 
 **Manufacturing cell.** Welding and painting are two dated work occurrences. Electricity, gas, consumables, and labor time are separate resource Characteristics with measurement-result epistemes. A shared extraction fan and overlapping operator time require direct shared-use facts and an allocation policy. The resource ledger represents those facts; it does not create the work, parts, overlap, measurements, aggregation, or frame transformation.
 
@@ -219,7 +222,7 @@ Use `PortionOf` only for an exact resource portion with its A.14 measure and add
 | Bias risk | Failure | Mitigation |
 | --- | --- | --- |
 | Plan becomes measurement or aggregation | Expected resource use is presented as performed work or an obtained total. | Keep the plan, dated work, C.16 measurement result, aggregation work, and B.1.6 result distinct. |
-| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or separately governed non-Work carrier phase, stock, window, and policy before aggregation. |
+| Boundary or phase word carries accounting | A port, interface, team, device, epoch, or phase label is used as Work parthood, overlap, or accounting boundary. | Establish the exact delimitation, A.15.1 Work relation or non-Work carrier identity and phase relation, stock, window, and policy before aggregation. |
 | Untyped total hides conversion | Hours, energy, material, money, and data are added as one number. | Keep resource vectors typed until an explicit conversion relation or model is declared admissible under the applicable measurement or mathematical-lens pattern. |
 | Shared stock is double-counted | The same person, tool, inventory, meter, dataset, or port appears in multiple work slices. | Declare overlap and deduplication policy, or narrow admissible use. |
 | Efficiency becomes emergence | Reduced resource use is treated as a new whole or synergy without reidentification. | Use measurement and evidence-use patterns first; use `B.2.P` only when whole reidentification remains current. |
@@ -279,9 +282,9 @@ Source refresh is local: replay the row's named rule, case, and checklist rows f
 - Coordinates with `A.3.1`, `A.3.2`, and `A.15.2` for method, method description, and work plan.
 - Coordinates with `A.15.5` for work-entry readiness, full-kit condition, and resource readiness before work entry; B.1.6 may cite those refs but does not decide readiness.
 - Coordinates with `A.15.1` for exact Work temporal parts, episodes, operational parts, overlaps, retries, resumptions, and later occurrences; with `B.1.4` only for bounded aggregation of already recovered temporal relations; and with `C.27` for temporal-claim adequacy.
-- Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, proper temporal restriction of a directly governed non-Work carrier, and constructive grounding.
+- Coordinates with `A.1`, `B.1`, `A.14`, and `C.13` for holon delimitation, part-whole, proper temporal restriction and `PhaseOf` for a non-Work carrier, and constructive grounding.
 - Coordinates with `A.3.4` for transformation. When whole reidentification or emergence-family wording is current, `B.2.P` tests the problem and the relevant B.2-family pattern defines or constrains the recovered claim.
-- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10`/`G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.15.1 for Work relations; A.14/B.1.4 for separately governed non-Work part or phase relations and their bounded aggregation; E.17 for publication; and the direct comparison, assurance, transformation, reidentification, or decision pattern when those uses are current.
+- Coordinates with `C.16` for resource Characteristics and measurement results; `A.10` and `G.6` for provenance; `G.11` for currentness; `C.29` for representation or mathematical-lens claims; A.15.1 for Work relations; A.14 and B.1.4 for non-Work part or phase relations and their bounded aggregation; E.17 for publication; and the applicable comparison, assurance, transformation, reidentification, or decision pattern when those uses are current.
 
 ### B.1.6:End
 

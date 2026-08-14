@@ -6,12 +6,12 @@ section_id: "E.10.D2:17"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__019_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:17 — Conformance checklist"
-line_start: 77432
-line_end: 77448
+line_start: 77251
+line_end: 77267
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -49,8 +49,8 @@ keywords:
 | **CC-D2-1** | Is the exact receiving use and its next question or action named before optional qualification machinery is opened? |
 | **CC-D2-2** | Does every description episteme recover the exact C.2.1 ClaimGraph, EntityOfConcern, and effective ReferenceScheme, without a local slot relation or record-shaped constitution? |
 | **CC-D2-3** | Is the EntityOfConcern independently identified and kept distinct from the description episteme, including in episteme-about-episteme cases? |
-| **CC-D2-4** | For one describing use, does any `DescriptionContext` select exactly one current viewpoint without entering identity, conformance, or `U.View` membership? |
-| **CC-D2-5** | Does every `...Spec` use have checkable claims, a preserved or updated DescriptionContext, and an exact harness or validation relation? |
+| **CC-D2-4** | When one describing use selects a viewpoint, are the use and exact viewpoint named separately from episteme identity, conformance, and `U.View` membership? |
+| **CC-D2-5** | Does every `...Spec` use have checkable claims and an exact harness or validation relation, with any reliance-relevant viewpoint selection preserved or updated for the named describing use? |
 | **CC-D2-6** | Are grounding, view, scope, model-use structure, evidence, assurance, edition, currentness, publication, carrier, and representation opened only when the receiving use depends on their direct relation? |
 | **CC-D2-7** | Are publication occurrence, form, carrier, view, representation, file, dashboard, and work record kept distinct from the EntityOfConcern and episteme? |
 | **CC-D2-8** | Is current prose free of peer-layer I-D-S vocabulary, `intensional object`, `DescribedEntity*`, `EntityOfInterest`, `EoI`, `EoIClass`, mandatory context recursion, and a local DescriptionContext tuple? |

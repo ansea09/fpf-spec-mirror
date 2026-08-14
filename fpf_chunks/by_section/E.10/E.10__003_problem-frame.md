@@ -6,12 +6,12 @@ section_id: "E.10:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:1 — Problem frame"
-line_start: 75084
-line_end: 75098
+line_start: 74911
+line_end: 74925
 dependencies:
   - "A.10"
   - "A.15"
@@ -59,9 +59,9 @@ keywords:
 ### E.10:1 - Problem frame
 **Current name set.** `E.10` is the current FPF pattern. `E.10:0.2` is the shared wording-use trigger scan. The `LEX-BUNDLE` and `ULR` sections below are subordinate material for selected lexical, register, naming, morphology, and local rewrite problems. They are not a second ontology, wording-recognition table, or pattern head, and do not replace `E.10.ARCH`, a selected precision-restoration pattern, the concrete pattern for the recovered claim, or `F.18`. When subordinate material conflicts with `E.10:0.2`, `E.10.ARCH`, `A.3.4.P`, `A.6.F`, `C.2.P`, `E.24.*`, `F.18`, or another named pattern, the current applicability table and the pattern that defines the claim control the repair.
 
-**Intent.** Provide one **normative** trigger-and-repair rule set that makes FPF language **unambiguous, composable across contexts, and teachable** by design. Authors, reviewers, and tooling use the subordinate material only for the selected wording problem after `E.10:0.2` has chosen the closure disposition:
+**Intent.** Provide one **normative** trigger-and-repair rule set that makes FPF language **unambiguous, composable across sources and uses, and teachable** by design. Authors, reviewers, and tooling use the subordinate material only for the selected wording problem after `E.10:0.2` has chosen the closure disposition:
 
-* **Vertical stratification** (Kernel ↔ Extensions ↔ Context ↔ Instance);
+* **Vertical stratification** (Kernel ↔ Extension patterns ↔ Local use ↔ Instance);
 * **Twin registers** (Tech and Plain) with safe synonyms;
 * **Naming morphology** (allowed suffixes and style) for the kernel’s core objects;
 * **Minimal Generality** tests (names are neither parochial nor vacuous);
@@ -69,5 +69,5 @@ keywords:
 * **Conformance checks** and minimal examples.
 
 **Scope.** Applies to:
-(a) **Core** (Parts A–G), (b) **Extensions patterns specs** (CAL, LOG, and CHR), (c) **Context glossaries** that claim FPF conformity, and (d) **Diagrams and prose** in normative text. It **does not** constrain Tooling or Pedagogy wording other than where they quote Core semantics.
+(a) **Core** (Parts A–G), (b) **Extension pattern specifications** (CAL, LOG, and CHR), (c) **local source or practice glossaries** that claim FPF conformity, and (d) **diagrams and prose** in normative text. It **does not** constrain Tooling or Pedagogy wording other than where they quote Core semantics.
 

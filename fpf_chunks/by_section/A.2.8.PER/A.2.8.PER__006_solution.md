@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__006_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:4 — Solution"
 line_start: 6732
-line_end: 6919
+line_end: 6918
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,8 +73,8 @@ NonProhibitionFinding@Context <: U.Episteme
   normativeFrameRef: U.EpistemeRef
   frameCurrentnessResultRef: U.EpistemeRef
   frameCompletenessForUseResultRef: U.EpistemeRef
-  boundedContextRef: U.BoundedContextRef
   scope: U.ClaimScope
+  intendedUse:
   evaluationWindow: QualificationWindowPolicy
   checkedProhibitionRefs: set<ClaimIdRef>
   result: nonProhibited | unresolved
@@ -87,8 +87,8 @@ NonViolationFinding@Context <: U.Episteme
   normativeFrameRef: U.EpistemeRef
   frameCurrentnessResultRef: U.EpistemeRef
   frameCompletenessForUseResultRef: U.EpistemeRef
-  boundedContextRef: U.BoundedContextRef
   scope: U.ClaimScope
+  intendedUse:
   evaluationWindow: QualificationWindowPolicy
   checkedProhibitionRefs: set<ClaimIdRef>
   result: nonViolating | unresolved
@@ -120,17 +120,16 @@ RelationOccurrenceGroundAndQualifiers:
   institutingSpeechActRef: SpeechActRef
   grantorSystemRoleAssignmentRef: U.RelationRef constrained to U.SystemRoleAssignment
   grantValidityPolicyRef: U.EpistemeRef
-  boundedContextRef: U.BoundedContextRef
   scope: U.ClaimScope
   validityWindow: QualificationWindowPolicy
   revocationOrSupersessionRef?: SpeechActRef
 ```
 
-The beneficiary and permitted-action specification are participants. The grantor system-role assignment, instituting act, policy, context, scope or window, and revocation are constructive grounds or qualifiers, not collapsed participants.
+The beneficiary and permitted-action specification are participants. The grantor system-role assignment, instituting act, policy, ClaimScope, validity window, and revocation are constructive grounds or qualifiers, not collapsed participants.
 
 The relation begins only when an admitted holder `U.System` performs a `U.SpeechAct` under the exact `grantorSystemRoleAssignmentRef`, the act satisfies the current policy's grant-validity predicate, and it institutes permission for the named participants. The assignment's `HolderSystemSlot` resolves to that system: the system performs the act, while the assignment supplies only the holder and assigned-kind fact used by the policy. Any authority claim required by the policy obtains independently; the assignment never supplies authority by form and never acts. The relation obtains while beneficiary applicability, policy continuation, scope, and window hold and no valid revocation or supersession ends it.
 
-One occurrence is identified by the instituting speech-act occurrence, exact beneficiary ref and ref kind, action-specification edition, policy/context, and effective interval. Beneficiary change, renewal, materially changed action specification, non-carried policy edition, or revocation ends or splits the occurrence. A policy edition preserves it only through an explicit satisfied carry-forward rule.
+One occurrence is identified by the instituting speech-act occurrence, exact beneficiary ref and ref kind, action-specification edition, policy edition, ClaimScope, and effective interval. Beneficiary change, renewal, materially changed action specification, non-carried policy edition, or revocation ends or splits the occurrence. A policy edition preserves it only through an explicit satisfied carry-forward rule.
 
 #### A.2.8.PER:4.5 - Declare actual exercise
 

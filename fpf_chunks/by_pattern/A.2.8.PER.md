@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.8.PER.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
 line_start: 6693
-line_end: 7001
+line_end: 7000
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -41,7 +41,7 @@ keywords:
 
 Use this pattern when a policy, approval, permit, system-role rule, boundary claim, readiness check, or later work use needs to distinguish five questions: whether a sufficiently complete current frame supports a `NonProhibitionFinding@Context`; whether a valid grant currently obtains as `GrantedPermissionRelation@Context`; whether dated matching work exercises it through `PermissionExerciseRelation@Context`; whether checked actual work supports a `NonViolationFinding@Context`; and whether an incompatible current grant and norm requires `PermissionNormConflictFinding@Context`.
 
-The first useful move is to name the beneficiary reference, permitted-action specification or checked work, policy and bounded context, scope, window, and the exact result needed now. Return exactly the warranted `NonProhibitionFinding@Context`, `GrantedPermissionRelation@Context`, `PermissionExerciseRelation@Context`, `NonViolationFinding@Context`, or `PermissionNormConflictFinding@Context`; do not infer one from another.
+The first useful move is to name the beneficiary reference, permitted-action specification or checked work, current normative-frame edition and policy, ClaimScope, intended use, window, and the exact result needed now. Return exactly the warranted `NonProhibitionFinding@Context`, `GrantedPermissionRelation@Context`, `PermissionExerciseRelation@Context`, `NonViolationFinding@Context`, or `PermissionNormConflictFinding@Context`; do not infer one from another.
 
 **Not this pattern when.** Use `A.2.8` for one actual bearer's obligation, recommendation-as-duty, or prohibition; `A.2.9` for the communicative work that institutes or revokes a grant; `A.6.B` for L/A/D/E classification; `A.15.5` for work-entry readiness; `A.21` for gate decisions; and `A.15.1` for the identity and result of performed work. This support pattern is not a method, gate, permit carrier, work plan, or generic authorization object.
 
@@ -51,7 +51,7 @@ The primary reader is a policy, boundary, work-planning, assurance, or operation
 
 Permission-looking language often compresses unlike values. “No rule forbids it” may be an incomplete search result. “The permit allows it” may refer to a document, an issuing act, or an enduring relation. “We used the permit” may mean only that a badge was visible, while no matching work occurred. A green gate can also look as if it defeated a current prohibition.
 
-The governed concern is the smallest exact permission result needed for one beneficiary, action specification, context, scope, and window. The act, permit episteme, publication carrier, evidence relation, admissibility predicate, readiness relation, gate decision, actual Work, and work result remain distinct and are handled under their respective subject patterns.
+The concern is the smallest exact permission result needed for one beneficiary, action specification, normative-frame edition, ClaimScope, intended use, and window. The act, permit episteme, publication carrier, evidence relation, admissibility predicate, readiness relation, gate decision, actual Work, and work result remain distinct and are handled under their respective subject patterns.
 
 ### A.2.8.PER:2 - Problem
 
@@ -111,8 +111,8 @@ NonProhibitionFinding@Context <: U.Episteme
   normativeFrameRef: U.EpistemeRef
   frameCurrentnessResultRef: U.EpistemeRef
   frameCompletenessForUseResultRef: U.EpistemeRef
-  boundedContextRef: U.BoundedContextRef
   scope: U.ClaimScope
+  intendedUse:
   evaluationWindow: QualificationWindowPolicy
   checkedProhibitionRefs: set<ClaimIdRef>
   result: nonProhibited | unresolved
@@ -125,8 +125,8 @@ NonViolationFinding@Context <: U.Episteme
   normativeFrameRef: U.EpistemeRef
   frameCurrentnessResultRef: U.EpistemeRef
   frameCompletenessForUseResultRef: U.EpistemeRef
-  boundedContextRef: U.BoundedContextRef
   scope: U.ClaimScope
+  intendedUse:
   evaluationWindow: QualificationWindowPolicy
   checkedProhibitionRefs: set<ClaimIdRef>
   result: nonViolating | unresolved
@@ -158,17 +158,16 @@ RelationOccurrenceGroundAndQualifiers:
   institutingSpeechActRef: SpeechActRef
   grantorSystemRoleAssignmentRef: U.RelationRef constrained to U.SystemRoleAssignment
   grantValidityPolicyRef: U.EpistemeRef
-  boundedContextRef: U.BoundedContextRef
   scope: U.ClaimScope
   validityWindow: QualificationWindowPolicy
   revocationOrSupersessionRef?: SpeechActRef
 ```
 
-The beneficiary and permitted-action specification are participants. The grantor system-role assignment, instituting act, policy, context, scope or window, and revocation are constructive grounds or qualifiers, not collapsed participants.
+The beneficiary and permitted-action specification are participants. The grantor system-role assignment, instituting act, policy, ClaimScope, validity window, and revocation are constructive grounds or qualifiers, not collapsed participants.
 
 The relation begins only when an admitted holder `U.System` performs a `U.SpeechAct` under the exact `grantorSystemRoleAssignmentRef`, the act satisfies the current policy's grant-validity predicate, and it institutes permission for the named participants. The assignment's `HolderSystemSlot` resolves to that system: the system performs the act, while the assignment supplies only the holder and assigned-kind fact used by the policy. Any authority claim required by the policy obtains independently; the assignment never supplies authority by form and never acts. The relation obtains while beneficiary applicability, policy continuation, scope, and window hold and no valid revocation or supersession ends it.
 
-One occurrence is identified by the instituting speech-act occurrence, exact beneficiary ref and ref kind, action-specification edition, policy/context, and effective interval. Beneficiary change, renewal, materially changed action specification, non-carried policy edition, or revocation ends or splits the occurrence. A policy edition preserves it only through an explicit satisfied carry-forward rule.
+One occurrence is identified by the instituting speech-act occurrence, exact beneficiary ref and ref kind, action-specification edition, policy edition, ClaimScope, and effective interval. Beneficiary change, renewal, materially changed action specification, non-carried policy edition, or revocation ends or splits the occurrence. A policy edition preserves it only through an explicit satisfied carry-forward rule.
 
 #### A.2.8.PER:4.5 - Declare actual exercise
 
@@ -290,7 +289,7 @@ The chief bias is document-and-display authority: a readable permit, badge, poli
 |---|---|
 | `CC-A2.8.PER-1` | The current result is exactly `NonProhibitionFinding@Context`, `GrantedPermissionRelation@Context`, `PermissionExerciseRelation@Context`, `NonViolationFinding@Context`, or `PermissionNormConflictFinding@Context`. |
 | `CC-A2.8.PER-2` | Beneficiary selects exactly one of `beneficiarySystemRoleKindRef : U.KindRef`, `beneficiarySystemRoleAssignmentRef : U.RelationRef constrained to U.SystemRoleAssignment`, or `beneficiaryPartyRef : PartyRef`, with its branch-specific eligibility test. The branch record is not a new beneficiary U-kind. |
-| `CC-A2.8.PER-3` | A strong grant names the admitted `U.System` that performs the instituting act, the exact grantor system-role assignment whose `HolderSystemSlot` resolves to that system, participants, policy and context, scope and window, currentness, and occurrence identity. The assignment supplies no authority by form and never acts; any required authority relation obtains independently. |
+| `CC-A2.8.PER-3` | A strong grant names the admitted `U.System` that performs the instituting act, the exact grantor system-role assignment whose `HolderSystemSlot` resolves to that system, participants, policy edition, ClaimScope and validity window, currentness, and occurrence identity. The assignment supplies no authority by form and never acts; any required authority relation obtains independently. |
 | `CC-A2.8.PER-4` | Weak findings require a current frame explicitly complete enough for the intended use; incompleteness returns `unresolved`. |
 | `CC-A2.8.PER-5` | Exercise names dated work, the admitted `U.System` that performed it, the one current grant occurrence, scope, and interval; it answers action match and beneficiary eligibility from those objects and the exact covering assignment or on-behalf-of relation. It does not require generic match, eligibility, or beneficiary-binding findings, and the assignment never performs the work. |
 | `CC-A2.8.PER-6` | Neither exercise nor non-exercise establishes `NonViolationFinding@Context`; non-exercise is not violation, and exercise is not obligation satisfaction and does not consume a grant without an explicit policy. |
@@ -325,7 +324,7 @@ Positive permission has different satisfaction and failure behavior from obligat
 |---|---|---|---|
 | How do weak and strong permission differ? | Moltmann (2024) distinguishes modal objects, strong permission, weak non-violation, and action satisfiers. | Separate frame-relative findings, instituted grants, and actual exercise; retain FPF subject patterns. | **Adapt.** Do not import modal objects, truthmakers, or possible worlds as U-kinds. |
 | How should permission, duty, and prohibition remain distinct? | W3C ODRL 2.2 (2018) models permission, prohibition, duty, assignee, action, constraint, and policy separately. | Keep beneficiary, action specification, policy, scope/window, and duty/prohibition predicates and pattern locations explicit. | **Adapt.** FPF uses direct relations and epistemic findings rather than importing the ODRL information model wholesale. |
-| What makes a policy decision usable? | NIST SP 800-207 (2020) and current policy-as-code practice separate subject, requested action, resource/context, current policy, and decision evidence. | Exercise eligibility and conflict use are bounded by exact beneficiary, action, context, scope/window, and current policy. | **Adapt.** A policy response or gate display is not itself an enduring grant. |
+| What makes a policy decision usable? | NIST SP 800-207 (2020) and current policy-as-code practice separate subject, requested action, resource and operating facts, current policy, and decision evidence. | Exercise eligibility and conflict use are bounded by the exact beneficiary, action, normative-frame and policy editions, ClaimScope, window, and intended use. | **Adapt.** A policy response or gate display is not itself an enduring grant. |
 | How should digital permit evidence be relied on? | W3C Verifiable Credentials Data Model 2.0 (2025) separates issuer, holder, verifier, status, proof, and relying context. | Permit publications enter `A.10` evidence/currentness paths and do not replace the grant relation. | **Adapt.** Credential form supplies neither permission nor exercise by itself. |
 
 These sources change the practical record and its failure results. They do not license a generic authorization kind, beneficiary kind, permit-as-relation shortcut, or automatic precedence rule.

@@ -6,12 +6,12 @@ section_id: "B.2.5:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:0 — Use This When"
-line_start: 38481
-line_end: 38509
+line_start: 38198
+line_end: 38226
 dependencies:
   - "A.1"
   - "A.10"
@@ -45,7 +45,7 @@ The first useful move is to recover the relation:
 
 ```text
 Which holons are supervised?
-Which admitted system supervises in this bounded context, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
+Which admitted system supervises these holons for this feedback use, under which policy and during which time window, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
 What observation, report, signal, publication, or source relation carries state?
 What influence, constraint, objective, mode, or work change returns?
 Which transformation, work, architecture, evidence, assurance, timing,

@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.2.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
 line_start: 2706
@@ -50,7 +50,7 @@ keywords:
 
 Use this pattern when one admitted `U.System` can contribute to different work or functioning without becoming a different system, and the current claim must say either:
 
-- which context-local work-facing kind the system counts under now; or
+- which locally constituted work-facing kind the system counts under now; or
 - which system-role assignment actually obtains.
 
 A system here is any individual independently admitted by A.1. It can be a person, team, organization, service, organism, or non-human technical object. The `SystemRole` head in a name such as `ReviewerSystemRole` says that candidates are systems; it does not admit the candidate, create an assignment, imply agency or capability, prove that Work occurred, or name a relation slot.
@@ -63,9 +63,9 @@ Typical moments:
 - ordinary wording says that a publication, method, capability, or relation participant “plays a role”, although the direct relation is still hidden;
 - a proposed “part of a role” may instead be another kind, a relation among kinds, an assignment-state predicate, a capability condition, a responsibility or commitment relation, or a method or Work structure.
 
-**Primary EntityOfConcern.** One exact context-local `U.Kind` whose candidates are `U.System` individuals and whose identity basis is a stable, assignable, work-facing contribution distinction. Such a kind is called a **system-role kind**. Assignment is a neighboring direct relation, not part of the kind.
+**Primary EntityOfConcern.** One exact local `U.Kind` whose candidates are `U.System` individuals and whose identity basis combines an explicit local practice or source boundary with one stable, assignable, work-facing contribution distinction. Such a kind is called a **system-role kind**. Assignment is a neighboring direct relation, not part of the kind.
 
-**Primary working reader.** The first reader is an engineer-manager, analyst, or FPF author who must keep system identity stable while making classification and assignment inspectable. A later reader must be able to recover the bounded context, contribution identity, declaration edition, candidate and slice, and any separately obtaining assignment and Work attribution.
+**Primary working reader.** The first reader is an engineer-manager, analyst, or FPF author who must keep system identity stable while making classification and assignment inspectable. A later reader must be able to recover the local practice or source boundary, contribution distinction, declaration edition, candidate and slice, and any separately obtaining assignment and Work attribution.
 
 **First useful move.** Start with the ordinary conclusion: “Alice counts as a reviewer for this submission” or “PumpUnit-3 is assigned as cooling circulator for this operating episode.” For classification, name the local system-role kind and evaluate the candidate with one `KindSignature` under C.3.2. Add a `U.SystemRoleAssignment` occurrence only when holding or assignment identity is actually claimed.
 
@@ -73,7 +73,7 @@ Typical moments:
 
 **What goes wrong if missed.** One label absorbs kind identity, classification, holder, assignment, capability, responsibility, and Work. Or every contribution is forced into a system role even when the real claim concerns evidence use, a relation participant, a declaration slot, or ordinary wording. In both cases readers cannot tell what exists, what merely describes it, and what actually happened.
 
-**What this buys.** Systems retain their identities while work-facing classifications and assignments change. Membership is testable from governed system features rather than labels or circular hierarchy edges. Two contexts can keep distinct kinds even when they use the same word, and ordinary contribution wording can stay readable without manufacturing an ontology.
+**What this buys.** Systems retain their identities while work-facing classifications and assignments change. Membership is testable from the system features named by the membership rule rather than labels or circular hierarchy edges. Two local practices or sources can keep distinct kinds even when they use the same word, and ordinary contribution wording can stay readable without manufacturing an ontology.
 
 **Not this pattern when.**
 
@@ -89,7 +89,7 @@ Typical moments:
 
 One system can contribute in several ways while remaining the same system. `PumpUnit-3` remains the same pump when it counts under `CoolingCirculatorSystemRole` for plant operation and under `TestArticleSystemRole` for qualification. A person remains the same person while counting under author and verifier kinds in different slices and holding different assignments.
 
-These are local typed distinctions, not durable universal kinds. Each system-role kind has a bounded context and a contribution-based identity. A `KindSignature` edition states how candidate features are evaluated. A C.3.2 judgment then answers whether one System counts under that kind in one slice. A separate assignment occurrence says that a System is assigned under its declared `U.SystemRoleAssignment` species.
+These are local typed distinctions, not durable universal kinds. Each system-role kind is constituted within an explicit local practice or source boundary and has a contribution-based identity. A `KindSignature` edition states how candidate features are evaluated. A C.3.2 judgment then answers whether one System counts under that kind in one slice. A separate assignment occurrence says that a System is assigned under its declared `U.SystemRoleAssignment` species.
 
 Ordinary language also uses *role* to mean contribution or position. A design method can use a standard publication as a source for a constraint; a report can participate in an evidence relation; and a value can fill a relation slot. Those useful claims make neither the episteme nor the slot filler a system-role kind or assignment participant. The current relation must be recovered before the wording carries an FPF technical claim.
 
@@ -102,7 +102,7 @@ Without this pattern:
 3. kind identity and the membership criterion are treated as the same thing;
 4. an assignment is used as a family-wide membership rule, or classification is used to manufacture an assignment;
 5. the holder, kind, assignment interval, capability, responsibility, and Work are compressed into one record;
-6. matching labels across contexts are treated as identity or permission for reuse;
+6. matching labels across local practices, sources, or editions are treated as identity or permission for reuse;
 7. proposed subkind edges or extension rows create their own membership evidence;
 8. ordinary *role* wording turns epistemes, slots, positions, or interfaces into system-held roles.
 
@@ -119,7 +119,7 @@ Without this pattern:
 
 ### A.2:4 - Solution
 
-Use an exact context-local `U.Kind` for each stable assignable work-facing contribution distinction. Give a live technical name the `SystemRole` head, such as `ReviewerSystemRole` or `CoolingCirculatorSystemRole`. Do not introduce `U.SystemRole`; the concrete value is already a local `U.Kind` under C.3.
+Use an exact local `U.Kind` for each stable assignable work-facing contribution distinction. Identify it through the explicit practice or source boundary in which that distinction is constituted together with the distinction itself. Give a live technical name the `SystemRole` head, such as `ReviewerSystemRole` or `CoolingCirculatorSystemRole`. Do not introduce `U.SystemRole`; the concrete value is already a local `U.Kind` under C.3.
 
 Then keep four moves separate:
 
@@ -134,8 +134,8 @@ Capability, assignment state, method admission, performed Work, responsibility, 
 
 A local kind is a system-role kind only when all four conditions hold:
 
-1. its bounded context is explicit;
-2. its identity basis is one stable, assignable, work-facing contribution distinction in that context;
+1. the local practice or source boundary in which the distinction is constituted is explicit;
+2. its identity basis includes one stable, assignable, work-facing contribution distinction within that boundary;
 3. its candidate `ValueKind` is `U.System`; and
 4. its `KindSignature` tests directly governed features of the candidate without treating a label, taxonomy row, description, assignment record, classification judgment, extension row, or proposed `U.SubkindOf` edge as the feature by form.
 
@@ -160,11 +160,11 @@ Every `U.SubkindOf` proposal evaluates the aligned narrower and broader signatur
 
 #### A.2:4.3 - Keep Kind Identity, Declaration, and Extension Separate
 
-The system-role kind is not its `KindSignature`, taxonomy episteme, reference scheme, classification judgment, or `KindExtension`. Same-kind continuity across declaration editions requires an explicit C.3.1 decision using the bounded context and contribution identity. A compatible criterion or scheme edition can preserve the kind while later judgments cite the edition actually used. An identity-changing contribution yields another kind.
+The system-role kind is not its `KindSignature`, taxonomy episteme, reference scheme, classification judgment, or `KindExtension`. Same-kind continuity across declaration editions requires an explicit C.3.1 decision that preserves both the named local practice or source boundary and the stable contribution distinction. A compatible criterion or scheme edition can preserve the kind while later judgments cite the edition actually used. A changed boundary or identity-defining contribution yields another kind.
 
-An old role taxonomy or scheme can provide evidence for recovering the bounded context, contribution identity, or criterion. Its label or identifier does not decide sameness. A selected `BoundedModelUseStructure` can qualify one receiving interpretation when that independently established organization matters; it is designated in the receiving assertion or use and is stored neither on the kind nor as an optional participant of a generic assignment or kind relation. A genuinely structure-dependent relation species instead declares the structure as a required participant, uses the stronger predicate, and states the resulting occurrence-identity law.
+An old role taxonomy or scheme can provide evidence for recovering the local practice or source boundary, contribution distinction, or criterion. Its label or identifier does not decide sameness. A selected `BoundedModelUseStructure` can qualify one receiving interpretation when that independently established organization matters; it is designated in the receiving assertion or use and is stored neither on the kind nor as an optional participant of a generic assignment or kind relation. A genuinely structure-dependent relation species instead declares the structure as a required participant, uses the stronger predicate, and states the resulting occurrence-identity law.
 
-Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only when exact model applicability, actual model use in assigned Work, fixed-content expression coherence, exact applied constraints, and one named selection-use frame jointly change the receiving decision. If the direct kind, relation, assertion, or Bridge already answers the question, stop there; neither a model-use label nor the wish for more context selects the structure.
+Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only when exact model applicability, actual model use in assigned Work, fixed-content expression coherence, exact applied constraints, and one named selection-use frame jointly change the receiving decision. If the direct kind, relation, assertion, or Bridge already answers the question, stop there; neither a model-use label nor a wish for more background selects the structure.
 
 #### A.2:4.4 - Admit Only Exact System-Role-Kind Domains
 
@@ -172,7 +172,7 @@ Use `A.1.1` before citing that structure. Select `BoundedModelUseStructure` only
 
 ```text
 JournalReviewSystemRoleKindDomain : U.Kind
-  boundedContext: JournalReview-2026
+  localPracticeOrSourceBoundary: JournalReview-2026
   candidateValueKind: U.Kind
   criterion:
     the candidate kind has U.System candidates and a recoverable,
@@ -251,7 +251,7 @@ When a stronger claim appears, add only the needed object:
 - the local kind and judgment when classification matters;
 - the assignment occurrence when who holds what and when matters;
 - the direct state, capability, method, Work, responsibility, commitment, permission, evidence, reliance, or publication relation when that relation carries the claim;
-- the exact F.9 and C.3.3 bridge results for cross-context use, without merging the kinds or creating assignments.
+- the exact C.3.3 kind relation and, when local meanings differ, F.9 relation needed for cross-local use, without merging the kinds or creating assignments.
 
 The earlier Plain sentence is not evidence for a stronger claim.
 
@@ -259,11 +259,11 @@ The earlier Plain sentence is not evidence for a stronger claim.
 
 #### A.2:5.1 - Reviewer Membership and a Non-Circular Subkind
 
-The review context declares one local kind from a contribution identity and direct holder features:
+The JournalReview practice declares one local kind from its practice boundary, contribution distinction, and direct holder features:
 
 ```text
 ReviewerSystemRole : U.Kind
-  boundedContext: JournalReview-2026
+  localPracticeOrSourceBoundary: JournalReview-2026
   localIdentityBasis:
     the assignable contribution distinction “can supply a substantive review judgment
     meeting the current JournalReview acceptance conditions”
@@ -332,11 +332,11 @@ An engineering team uses RFC 9110 while designing an HTTP service. Keep these cl
 
 The publication neither counts under the system-role kind nor performs the Work.
 
-#### A.2:5.4 - The Same Label in Two Contexts
+#### A.2:5.4 - The Same Label in Two Local Practices
 
-An editorial context and a safety-assurance context can each declare a `ReviewerSystemRole`. They remain two local kinds because context and contribution identity are part of each kind's identity. A shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
+An editorial-review practice and a safety-assurance practice can each declare a `ReviewerSystemRole`. They remain two local kinds because the constituting practice boundary and stable contribution distinction together form each identity basis. A shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
 
-Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both contexts in one `Reviewer` column. First recover the two F.17 sense cells and the exact F.9 Bridge needed for the display. Then state a separate C.2.1 assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the contexts' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
+Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both practices in one `Reviewer` column. First recover the two exact local kinds and any F.17 cells needed by the displayed expressions; then establish only the C.3.3 kind relation and F.9 local-sense relation that the display actually consumes. State a separate C.2.1 bounded-use assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the practices' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
 
 Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If the use makes an assurance claim or crosses B.3's material-reliance threshold, only a current positive B.3 claim carrying this same use and sufficient minimum reliance safety assurance supports it; no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked dispositions stop or narrow the use. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
 
@@ -348,10 +348,10 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 
 | Bias risk | Failure | Repair |
 | --- | --- | --- |
-| Lexical bias | A familiar role label is treated as a kind, judgment, or assignment. | Recover the bounded contribution identity, signature, candidate, and slice; keep ordinary wording Plain when no technical object is needed. |
+| Lexical bias | A familiar role label is treated as a kind, judgment, or assignment. | Recover the named practice or source boundary, stable contribution distinction, signature, candidate, and slice; keep ordinary wording Plain when no technical object is needed. |
 | Document bias | A taxonomy, description, card, or publication is treated as the kind or assignment. | Keep the episteme and publication relation separate from the governed world-side values. |
 | Episteme-as-agent drift | A standard, report, dataset, or model is said to perform Work. | Name the performer system and Work occurrence; keep the episteme in its evidence, reliance, external-rule, source-use, or publication relation. |
-| Global-label bias | Matching names are treated as matching kinds or sufficient permission for cross-context use. | Keep local identities separate and establish only the Bridge and bounded-use claim that actually obtain. |
+| Global-label bias | Matching names are treated as matching kinds or sufficient permission for cross-local use. | Keep local identities separate and establish only the C.3.3 kind relation, any F.9 local-sense relation, and the bounded-use claim that actually obtain. |
 | Assignment-membership circularity | Assignment proves classification or classification creates assignment. | Evaluate direct features first; use assignment only when the signature explicitly cites an independently obtaining assignment predicate. |
 | Slot-role drift | A relation participant becomes a system-held role because a source labels the position `role`. | Recover the exact participant meaning, SlotKind, and ValueKind under A.6.RSIR. |
 | Capability-role drift | Assignment or kind membership is treated as proof of ability. | Use A.2.2 and a separate capability-fit predicate. |
@@ -362,21 +362,21 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 ### A.2:7 - Working Guidance
 
 1. Identify the candidate and confirm its independent A.1 admission as `U.System`.
-2. Name the bounded context and one stable assignable contribution identity.
+2. Name the local practice or source boundary and one stable assignable contribution distinction that together identify the local kind.
 3. Declare or select the exact `KindSignature` edition and its direct governed feature criteria.
 4. Evaluate the candidate, kind, signature edition, and slice as `true`, `false`, or `unknown`.
 5. Add an assignment only when an occurrence of a declared assignment species actually obtains.
-6. State state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, and reliance through their direct patterns.
+6. State each claim about state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, or reliance through the pattern that defines or constrains it.
 7. Evaluate every subkind proposal from independently obtained aligned judgments; never use the proposed edge as a membership premise.
-8. For cross-context use, keep both kinds and their assignments distinct and establish only the needed C.3.3 and F.9 bridge claims.
+8. For cross-local use, keep both kinds and their assignments distinct and establish only the C.3.3 kind relation, F.9 local-sense relation, and bounded-use claim actually needed.
 9. If the source uses *role* for another object, apply E.10.ROLE and continue with the recovered subject pattern; stop at `missing-governor` when no relation is yet admitted.
 
 ### A.2:8 - Conformance Checklist
 
 | ID | Check |
 | --- | --- |
-| `CC-A2.1` | Every system-role kind is one context-local `U.Kind`; no `U.Role` or universal `U.SystemRole` is introduced. |
-| `CC-A2.2` | The bounded context, assignable contribution identity, and `U.System` candidate kind are explicit. |
+| `CC-A2.1` | Every system-role kind is one local `U.Kind`; no `U.Role` or universal `U.SystemRole` is introduced. |
+| `CC-A2.2` | The explicit local practice or source boundary, stable assignable contribution distinction, and `U.System` candidate kind are recoverable and jointly identify the local kind. |
 | `CC-A2.3` | Kind identity, `KindSignature`, classification judgment, extension, vocabulary episteme, and reference scheme remain distinct. |
 | `CC-A2.4` | Each judgment names one system, system-role kind, signature edition, slice, and `true`/`false`/`unknown` result. |
 | `CC-A2.5` | Membership clauses use directly governed candidate features; labels, records, judgments, extensions, and proposed subkind edges are not features by form. |
@@ -385,10 +385,10 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 | `CC-A2.8` | Taxonomy, scheme, signature, assertion, and interval description are interpretation or claim content rather than generic assignment participants. |
 | `CC-A2.9` | Capability, state, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, and publication remain separately governed. |
 | `CC-A2.10` | A `U.SubkindOf` claim follows independently evaluated aligned signatures and C.3.1 monotonicity. |
-| `CC-A2.11` | Same spelling across contexts or editions does not decide kind identity; continuity and bridges are explicit. |
+| `CC-A2.11` | Same spelling across local practices, sources, or editions does not decide kind identity; continuity and actual relations are explicit. |
 | `CC-A2.12` | Relation-position or ordinary contribution wording creates no system-role kind or assignment by itself. |
 | `CC-A2.13` | A proposed decomposition is resolved through exact relations among kinds or neighboring subject patterns, not `partOf` over a system-role kind. |
-| `CC-A2.14` | Cross-context use keeps both kinds distinct, cites the exact C.3.3/F.9 result, bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver; a Bridge Card is not a use licence. |
+| `CC-A2.14` | Cross-local use keeps both kinds distinct, cites the exact C.3.3 kind relation and any F.9 local-sense relation, and states the bounded use, direction, preservation rule, tolerated loss, polarity, effective scheme, and current reliance needed by the receiver; a Bridge Card is not a use licence. |
 | `CC-A2.15` | A selected model-use structure appears only in the receiving claim it changes; it neither classifies nor assigns a system and never enters a generic relation as an optional participant. |
 
 ### A.2:9 - Common Anti-Patterns
@@ -403,16 +403,16 @@ An external notation may call one relation position `role`. Apply E.10.ROLE and 
 | Taxonomy and scheme are assignment participants | Interpretation editions become world-side identity changes. | Keep them in declarations, assertions, or evidence about the predicate. |
 | `AssistantReviewerSystemRole partOf ReviewerSystemRole` | No constructive whole or part relation is established. | Test an exact qualification, substitution, incompatibility, bundle, or another local kind and direct relation. |
 | `The PDF enforced the rule` | An episteme replaces the system and Work that performed enforcement. | Name the performer and Work; state the PDF's source-use, external-rule, evidence, or reliance relation separately. |
-| Same label, therefore same kind or assignment | Spelling establishes neither local identity, Bridge, nor obtaining relation. | Recover the two kinds and establish the exact cross-context result needed by the use. |
+| Same label, therefore same kind or assignment | Spelling establishes neither local identity, Bridge, nor obtaining relation. | Recover the two kinds and establish the exact C.3.3 and, when needed, F.9 result consumed by the use. |
 
 ### A.2:10 - Consequences
 
 | Gain | Cost or tradeoff |
 | --- | --- |
-| Systems retain stable identity while contribution classifications and assignments change. | Relied-on classification must identify a bounded kind and signature edition. |
+| Systems retain stable identity while contribution classifications and assignments change. | Relied-on classification must identify the local kind, its practice or source boundary, and the signature edition used. |
 | Membership can be checked without circular assignment or hierarchy premises. | Direct candidate features and unavailable dependencies must be distinguished. |
 | Assignment identity remains available through direct species and uninterrupted obtaining. | A stronger appointment needs its real participants and predicate rather than a generic record. |
-| Local vocabularies remain reusable without a universal role root. | Cross-context sameness and use require explicit continuity or bridge results. |
+| Local vocabularies remain reusable without a universal role root. | Cross-local sameness and use require explicit continuity, an obtaining C.3.3 kind relation, or an F.9 local-sense relation, as applicable. |
 | Ordinary sentences remain readable. | A stronger receiving claim must still expose the exact kind, judgment, assignment, or relation it consumes. |
 | Episteme use, capability, responsibility, Method, and Work remain independently testable. | Contribution wording must be resolved before it carries another technical inference. |
 
@@ -422,14 +422,14 @@ System-role kinds solve a local classification problem. System-role assignments 
 
 The architecture therefore keeps these levels separate:
 
-1. the context-local system-role kind and its contribution identity;
+1. the local system-role kind, its practice or source boundary, and its contribution distinction;
 2. the `KindSignature` and one C.3.2 judgment over a system and slice;
 3. any directly declared `U.SystemRoleAssignment` occurrence;
 4. direct neighboring relations for state, capability, Method, Work, responsibility, commitment, permission, authority, evidence, reliance, description, and publication.
 
 A system-role kind is not a holon merely because its description has internal fields. Proposed “parts” repeatedly resolve into other kinds, relation predicates, assignments, Method or Work structures, or parts of description epistemes. The useful structure is the exact relation structure governed by A.2.7, not role mereology.
 
-Semantic locality needs no universal context participant. Bounded kind identity and declaration content carry the classification boundary. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
+Semantic locality needs no universal context participant. The explicit practice or source boundary together with the stable contribution distinction identifies the local kind; declaration content carries the classification criterion. An assignment species declares only its real participants. A receiving assertion or use can cite a selected model-use structure when that structure actually changes interpretation.
 
 ### A.2:12 - SoTA-Echoing
 
@@ -448,7 +448,7 @@ SysML is not used as a SoTA authority or lineage here. A modeling notation does 
 
 **Governs with:** `A.2.1` for system-role assignments; `A.2.2` for capability; `A.2.5` for assignment state; `A.2.7` for relations among system-role kinds; `A.15` and `F.6` for Method-Work alignment and attribution; `F.4`, `F.5`, and `F.18` for description and naming.
 
-**Crosses locality through:** `C.3.3` for exact local kinds, `F.9` for sense alignment, and `A.6.9` for cross-context sameness disambiguation, followed by a bounded-use assertion and current reliance when the receiving action needs them. A matching name, Bridge, card, or selected model-use structure creates neither identity nor assignment.
+**Crosses locality through:** `C.3.3` for exact local kinds, `F.9` for relations between exact F.17 cells, and `A.6.9` for ambiguous sameness wording across local boundaries, followed by a bounded-use assertion and current reliance when the receiving action needs them. A matching name, Bridge, card, or selected model-use structure creates neither identity nor assignment.
 
 **Keeps separate from:** responsibility, commitment, permission, authority, state, capability, Method, Work, evidence, reliance, publication, external-rule, and currentness relations. Apply `E.10.ROLE` to ambiguous wording and `A.6.RSIR` only when relation participation or its declaration must be recovered.
 

@@ -6,12 +6,12 @@ section_id: "C.33:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:7 — Conformance checklist"
-line_start: 67910
-line_end: 67920
+line_start: 67701
+line_end: 67711
 dependencies:
   - "A.22"
   - "A.6.3.NAR"
@@ -52,7 +52,7 @@ keywords:
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-C33-1` | The note names described holon, bounded context, selected structure refs or structure kinds, and the carrier or observation being used. |
+| `CC-C33-1` | The note names the described holon, architecture concern and intended use, selected structure refs or structure kinds, carrier or observation being used, any evidence supporting an adequacy or insufficiency conclusion, and any material ClaimScope or qualification window. |
 | `CC-C33-2` | Captured selected structure is stated as relations, constraints, invariants, allocations, compositions, variation classes, operations, dynamics refs, or preserved organization. |
 | `CC-C33-3` | Expected but uncaptured structure and lost or hidden structure are stated when the next use depends on them. |
 | `CC-C33-4` | Observer or budget boundary is present for agent-produced, learned, probed, epiplexity-style, or maps derived from a named source publication, source model, or source codebase. |

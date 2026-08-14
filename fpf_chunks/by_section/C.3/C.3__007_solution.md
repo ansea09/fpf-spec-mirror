@@ -6,12 +6,12 @@ section_id: "C.3:5"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__007_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:5 — Solution"
-line_start: 44875
-line_end: 44888
+line_start: 44576
+line_end: 44589
 dependencies:
   - "A.1"
   - "A.11"
@@ -46,8 +46,8 @@ keywords:
 
 Use the lightest object that answers the current typed-reasoning question.
 
-1. **Recover the local kind.** Name its bounded context and the local identity basis by which later claims can refer to the same kind. Do not store the current use, claim scope, or effective `U.ReferenceScheme` on the kind. A local `U.Kind` is not automatically a durable FPF U-kind.
-2. **Use C.3.1 for order and continuity.** `U.SubkindOf` is a partial order over local kinds. C.3.1 also decides whether the same local kind continues when a declaration edition changes.
+1. **Recover the local kind.** Name the explicit local practice or source boundary and the stable subject distinction that together let later claims recognize the same kind. Do not store the current use, ClaimScope, context slice, or effective `U.ReferenceScheme` on the kind. A local `U.Kind` is not automatically a durable FPF U-kind.
+2. **Use C.3.1 for order and continuity.** `U.SubkindOf` is a partial order over local kinds. Use the C.3.1 continuity test when a declaration edition changes.
 3. **Use C.3.2 for declaration and judgment.** A repeated criterion may justify a `KindSignature` whose claim content pins the effective `U.ReferenceScheme`; one application judges an exact candidate against one exact edition in one exact slice.
 4. **Let direct features decide.** Direct qualities, relations, constructive grounding, or other governed candidate features make the criterion hold or fail. Measurements, observations, schemas, sources, and evidence support claims about those features; they do not constitute membership.
 5. **Keep three results.** A satisfied criterion gives `true`; a known failed criterion gives `false`; missing evidence, an unavailable declared dependency, or an out-of-domain candidate gives `unknown`. A guard may decline use on `unknown` without changing that judgment to `false`.

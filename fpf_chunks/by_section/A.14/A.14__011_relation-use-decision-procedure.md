@@ -6,12 +6,12 @@ section_id: "A.14:9.1"
 section_title: "Relation-use decision procedure"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__011_relation-use-decision-procedure.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:9.1 — Relation-use decision procedure"
-line_start: 24124
-line_end: 24149
+line_start: 23811
+line_end: 23836
 dependencies:
   - "A.1"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.10:10"
 section_title: "Reference routine for turning messy language into E.10-clean prose (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__012_reference-routine-for-turning-messy-language-into-e-10-clean-prose-informative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:10 — Reference routine for turning messy language into E.10-clean prose (informative)"
-line_start: 75777
-line_end: 75822
+line_start: 75604
+line_end: 75649
 dependencies:
   - "A.10"
   - "A.15"
@@ -62,16 +62,16 @@ keywords:
 
 #### E.10:10.1 - Pass 0 — *Pre‑flight (2 minutes per page)*
 
-0.1 **Name the Context card** you’re writing in (title, edition, scope note).
+0.1 **Name only the local facts that matter here:** the exact source or practice, effective scheme, scope, model-use structure, working situation, frame, or referent when it changes interpretation or action. Do not create a generic Context card.
 0.2 For every new or renamed token, **declare `LEX.TokenClass`** ∈ {KernelToken, ContextToken, DiscriminatorToken}.
 0.3 Apply the **MG-DA pre-check** (anchored head noun; no metaphor heads; if an enumeration is current, name its closed value set, classified kind, and classification rule; declare a `CharacteristicSpace` only when the enumeration is the declared CSLC scale of one named `U.Characteristic`).
 0.4 Perform **collision and uniqueness** checking: full-text grep plus Reserved-Names registry (see § 7). If collides -> rename or DRR deprecate.
 
-#### E.10:10.2 - Pass 1 — *Harvest in the Context*
+#### E.10:10.2 - Pass 1 — *Inspect the selected span*
 
 1.1 **Underline overloaded words** (*process, service, function, workflow, ticket, approval, spec, plan,* …).
 1.2 For each, write a **one‑line intent** in Plain register (what FPF kind or relation is meant).
-1.3 Mark any cross‑Context reuse candidates.
+1.3 Mark shared labels whose local senses may differ; do not infer a relation from the label.
 
 #### E.10:10.3 - Pass 2 — *Recover Core anchors (not substitution)*
 
@@ -86,19 +86,19 @@ Pass 2 is not a lexical replacement table. For each underlined word or phrase, f
  • document or evidence-bearing publication cue → **`Episteme`** used in an evidence-use, source-use, status-use, constraint, commitment, gate, or publication-use relation named by its evidence, source, status, constraint, commitment, gate, or publication pattern
 2.2 Apply **LEX.Morph** (§ 8): compound and suffix gates such as concrete `...SystemRole` kind designations, `...Work`, `MethodDescription`, service-description episteme, service-access publication, or service-offer record labels, casing, and reserved prefixes. Bare `...Role` remains a trigger, not an accepted default form.
 2.3 Pass **EntityOfConcern and Description-episteme boundary and specification-use** check: name the EntityOfConcern directly; do not type a recipe, procedure, code expression, diagram, ETL label, document form, or relation-structure description as `U.MethodDescription` by appearance. Admit only a claim-bearing episteme whose exact EntityOfConcern is one admitted `U.Method` and whose claims pass A.3.2; use Spec only where a named specification-granting gate is present. Recover actual performed facts as independently obtaining relations involving a Work occurrence, and keep run records as separate epistemes.
-2.4 Attach **Context tags** on first use; set **twin labels** (Tech and Plain) in the local Glossary.
+2.4 On first use, state the exact source or practice and effective scheme when they change meaning. Add a Tech-and-Plain twin pair in the local glossary only when a one-to-one didactic mapping is useful.
 2.5 Perform one local `KindRestorationCheck` for each changed FPF-governed phrase. Write the full form below only when the repair needs a separately inspectable result; otherwise the repaired sentence and its kind-preservation check are enough. Keep any written result with the bounded repair instead of creating a second ledger:
    - `Situation`: quote the sentence and say in ordinary words why the phrase matters to its reader.
    - `Action`: write the intended sentence and select one `E.10:0.0a` branch, another concrete governed object, or explicit ordinary/quoted non-use.
    - `Before/after`: name the governed object, claim, applicable pattern contribution, admissible use, and scope on both sides; add only the distinctions required by the selected branch.
-   - `Visible result and stop`: give the accepted wording, concrete result returned by the selected pattern, or blocker, plus the nearby case that must not be read into it. Stop when that result lets the reader return to the domain task.
+   - `Visible result and stop`: give the accepted wording, concrete result obtained by applying the selected rule, or blocker, plus the nearby case that must not be read into it. Stop when that result lets the reader return to the domain task.
 
 Mark the disposition `preserved`, `split`, `intentionally changed`, or `blocker`. A changed phrase without this check remains an unresolved lexical finding. Cite the concrete pattern for any current relation, declaration, representation, bare-*role* recovery, exact local system-role kind or assignment, Method, Work, evidence, assurance, gate, or decision use, and state what it contributes; `E.10` detects the wording problem and does not replace that ontology.
 
 #### E.10:10.4 - Pass 3 — *Stitch and publish*
 
 3.1 Add **safe rewrites** for any anti‑patterns you found (use § 9.2 quick table).
-3.2 If sameness is needed across Contexts, create a **Bridge** (F.9) with explicit kind, direction, congruence level, loss, and scope; apply **A.6.9 (RPR‑XCTX)** when quoted or imported source wording uses umbrella language such as “same”, “equivalent”, “align”, or “map”.
-3.3 Publish a one‑page **UTS** (F.17) for the Context (columns: Context, Tech label, Plain label, Kernel anchor, Warnings).
+3.2 If sameness or mapping between two exact local senses is being claimed, identify both senses and create their F.17 cells when stable addresses are needed. Cite an F.9 Bridge only if its direct relation actually obtains, and state direction, congruence, loss, and scope; keep use and reliance separate. Apply **A.6.9 (RPR-XCTX)** when quoted or imported wording such as “same”, “equivalent”, “align”, or “map” still hides the relation.
+3.3 Publish an F.17 row or compact UTS only when readers need a durable term address. State the value it names, effective scheme, source expression, local sense, Tech and Plain designations when both exist, and warnings. The row creates no Bridge, equivalence, use, or reliance.
 3.4 Log a short **DRR** when renames or aliases occur (F.13), linking to grep results that motivated the change.
 

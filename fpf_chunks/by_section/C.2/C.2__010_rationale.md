@@ -6,18 +6,24 @@ section_id: "C.2:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__010_rationale.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:9 — Rationale"
-line_start: 41323
-line_end: 41326
+line_start: 41040
+line_end: 41043
 dependencies:
   - "A.1"
   - "A.10"
+  - "A.6.3.RT"
   - "B.3"
   - "C.2.1"
+  - "C.29"
+  - "E.17"
+  - "E.17.0"
+  - "E.24.PUB"
   - "U.Episteme"
+  - "U.View"
 keywords:
   - "ClaimScope"
   - "F-G-R"
@@ -33,5 +39,5 @@ keywords:
 
 ### C.2:9 - Rationale
 
-KD‑CAL turns the coarse legacy semiotic picture into **holonic composition** over `U.EpistemeSlotRelation`, where formal structure and claim scope (**F,G**), evidence (**R**), and cross‑mapping congruence (**CL**) are visible and composable. The explicit C.2.1 slot relation prevents carrier confusion; the characteristics provide a **manager‑readable** yet **formalisation‑ready** scale (with **G** grounded in **scope/envelope**, not part‑count); the CL scale replaces overloaded “alignment” with a typed sameness relation.
+KD-CAL turns the coarse legacy semiotic picture into **holonic composition** over exact C.2.1 epistemes and their claims. Exact claim content, EntityOfConcern, and effective reference scheme keep episteme identity stable; formal structure and claim scope (**F,G**), evidence (**R**), and pairwise congruence (**CL**) remain visible and composable without an omnibus slot relation. Direct grounding, edition, view, representation, publication, and carrier patterns prevent category collapse. The resulting characteristics remain **manager-readable** and **formalisation-ready**, with **G** grounded in scope/envelope rather than part count.
 

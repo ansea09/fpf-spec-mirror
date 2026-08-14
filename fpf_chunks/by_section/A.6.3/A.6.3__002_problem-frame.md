@@ -1,25 +1,31 @@
 ---
 chunk_kind: "child"
 pattern_id: "A.6.3"
-pattern_title: "U.EpistemicViewing — EntityOfConcern-preserving morphism"
+pattern_title: "U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
 section_id: "A.6.3:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3/A.6.3__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism"
+  - "A.6.3 — U.EpistemicViewing - EntityOfConcern-preserving episteme construction"
   - "A.6.3:1 — Problem frame"
-line_start: 13383
-line_end: 13400
+line_start: 13373
+line_end: 13388
 dependencies:
+  - "A.15.1"
+  - "A.15.PROD"
   - "A.6.0"
   - "A.6.2"
+  - "A.6.3.CR"
+  - "A.6.3.RT"
+  - "A.6.4"
   - "A.6.5"
   - "A.7"
   - "B.5.3"
   - "C.2"
   - "C.2.1"
+  - "C.29"
   - "E.10.D2"
   - "E.17"
   - "E.17.0"
@@ -31,19 +37,17 @@ keywords:
 
 ### A.6.3:1 - Problem frame
 
-Engineers and researchers constantly need **views that preserve the same EntityOfConcern**:
-* an ISO 42010‑style architectural view for a particular stakeholder group over a shared architecture description;
-* a SysML v2 “view‑as‑query” over an underlying model, changing visualisation but not the modelled system;
-* a publication view (Plain/Tech/Assurance) in MVPK over a common description and specification-useification;
-* an LLM‑friendly episteme derived from a symbolic specification (or vice versa), preserving what system is being described.
+Engineering work often needs a different body of claims about the same thing. Examples include a safety-focused slice of a system description, a normalized technical card, a conservative translation between notations, or a coverage view built from requirements and design epistemes plus stated correspondence claims.
 
-All of these are **episteme→episteme** transforms that must:
-* keep the **EntityOfConcern** fixed (`EntityOfConcernSlot` in C.2.1), and
-* change only **how** the episteme talks about it: sliced `U.ClaimGraph`, different `U.Viewpoint`, alternative `U.RepresentationScheme`, or a different `U.ReferenceScheme` tuned to the same EntityOfConcern and grounding holon.
+Several neighboring facts can all be true but are not the same fact:
 
-We need a single, reusable notion of **“epistemic viewing”** that captures these projections as:
-* **effect‑free** (no Work/Mechanism side‑effects),
-* **EntityOfConcern-preserving** (no silent retargeting),
-* **conservative** (no new commitments about the EntityOfConcern),
-* and **functorial** (compose cleanly in multi-step compositions).
+1. X and Y are two exact C.2.1 epistemes;
+2. Y was constructed from X under one declared viewing rule;
+3. X and Y have the same EntityOfConcern;
+4. Y makes no stronger claims than the identified sources license;
+5. Y conforms to an exact viewpoint and is therefore a `U.View`;
+6. a system performed work that first constituted Y;
+7. Y was later published through an exact form and carrier.
+
+Ordinary use may need only items 1 through 4. The remaining claims are opened independently.
 

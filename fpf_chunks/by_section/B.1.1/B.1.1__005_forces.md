@@ -6,12 +6,12 @@ section_id: "B.1.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__005_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:3 — Forces"
-line_start: 35753
-line_end: 35761
+line_start: 35460
+line_end: 35468
 dependencies:
   - "A.1"
   - "A.10"
@@ -37,5 +37,5 @@ keywords:
 | Visual clarity vs relation precision | Graphs make dependencies visible but tempt one-edge-fits-all modeling. |
 | Part-whole locality vs external influence | External systems can influence, measure, transform, or supply a holon without becoming its parts. |
 | Mathematical checks vs ontology-side grounding | Acyclicity, cutsets, reachability, and flow checks help only after relation kinds are selected. |
-| Design view vs run evidence | Design-time dependency descriptions and run-time evidence often share labels but have different governed objects. |
+| Design view vs run evidence | Design-time dependency descriptions and run-time evidence often share labels but concern different subjects and require separate claims. |
 

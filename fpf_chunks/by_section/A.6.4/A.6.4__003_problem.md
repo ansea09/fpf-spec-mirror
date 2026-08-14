@@ -6,12 +6,12 @@ section_id: "A.6.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:2 — Problem"
-line_start: 15470
-line_end: 15496
+line_start: 15186
+line_end: 15212
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -45,11 +45,11 @@ Without a dedicated pattern for EpistemicRetargeting:
    * nothing connects these moves to `KindBridge` and ReferencePlane policies.
 
 4. **StructuralReinterpretation is ad‑hoc.**
-   `E.18` positions `StructuralReinterpretation` as a transformation-flow locus, but its retargeting semantics are the generic “retargeting under a bridge” relation governed here, not a special graph-position ontology. Without a core pattern:
+   `E.18` positions `StructuralReinterpretation` as a transformation-flow locus, but its retargeting semantics use the generic “retargeting under a bridge” discipline defined here, not a special graph-position ontology. Without a core pattern:
 
    * StructuralReinterpretation risks duplicating retargeting logic,
    * other discipline packs may reinvent their own ad‑hoc re‑targetings.
 
 5. **EntityOfConcern and Description-episteme boundary and specification-use discipline is left underspecified.**
-   For Description epistemes and Description epistemes admitted for specification use (`...Description` and `...Spec`), retargeting **changes `EntityOfConcernRef` in `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`** (E.10.D2), but must say what happens to context and viewpoint. Without an explicit pattern, these decisions get scattered across different E‑patterns instead of being governed centrally.
+   For Description epistemes, including those admitted for specification use, retargeting changes the exact EntityOfConcern between independently identified source and receiving epistemes. It must also state what happens to every material effective scheme, grounding, scope, operating condition, and viewpoint selected for a named describing use. Without this explicit split, unrelated decisions are hidden in one context record and scattered across E-patterns.
 

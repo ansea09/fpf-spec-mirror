@@ -6,12 +6,12 @@ section_id: "A.6.6:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__010_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:9 — Consequences"
-line_start: 20020
-line_end: 20037
+line_start: 19714
+line_end: 19731
 dependencies:
   - "A.10"
   - "A.14"
@@ -56,7 +56,7 @@ keywords:
 * Reduced “grounding” confusion: multiple grounding senses become distinguishable relation kinds.
 
 **Trade-offs / mitigations**
-* More explicit metadata and vocabulary: mitigated by defining declared `baseRelation` vocabulary entries once per Context and reusing them.
+* More explicit metadata and vocabulary: mitigated by defining each selected local `baseRelation` vocabulary entry once and reusing it.
 * Authoring overhead for witnesses in decision contexts: mitigated by pointing to already-existing `U.Work` refs and witness pins instead of creating new documents.
 
 **Adoption test (informative).**

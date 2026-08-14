@@ -6,12 +6,12 @@ section_id: "A.22:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:7 — Conformance Checklist"
-line_start: 34934
-line_end: 34953
+line_start: 34639
+line_end: 34658
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -79,7 +79,7 @@ keywords:
 | **CC-A22-2 Non-agentive structure.** | Structure wording does not make the structure, pattern, constraint, graph, or result act, select, optimize, prove, decide, warrant, sense, plan, or adapt. | Name the exact acting system and its work, or apply the pattern whose proof, decision, or work test answers the claim; keep A.22 to selected organization. |
 | **CC-A22-3 Structure-claim reliance relation boundary.** | When source-description, source-use, base-dependence, grounding, evidence, lens, simulation, extraction, or representation reliance is claimed, name the concrete relation and the A.6.6, source-description, evidence, lens, assurance, causal, gate, decision, or publication definition or test used for it. | Add the exact relation kind, definition or test, validation boundary, admissible use, and non-admissible use, or mark the reliance phrase as carrying no admissible reliance. |
 | **CC-A22-4 Description and view separation.** | A structural description, structural view, extracted view, diagram, table, graph, dashboard, or publication face is not treated as the structure itself. | Treat the visible form as description, view, source-description relation, A.6.6 base declaration, publication form, or publication and name the selected structure separately only if selected organization is being claimed. |
-| **CC-A22-5 DescriptionContext reuse.** | Description epistemes and specification-use cases reuse `DescriptionContext` and `U.Episteme`; E.17.0 supplies the sole `U.View` conformance test, while A.6.3 supplies optional viewing construction. No second architecture-local description or view ontology is introduced. | Replace local description or view fields with the imported use qualification, conformance relation, or construction relation defined by the cited neighboring pattern. |
+| **CC-A22-5 Describing-use separation.** | Description epistemes keep exact claim content, EntityOfConcern, and effective scheme under C.2.1. A named describing use may separately select one viewpoint, and a receiving calculation or assertion may separately select one independently identified `BoundedModelUseStructure`. E.17.0 alone supplies the `U.View` conformance test; A.6.3 supplies optional viewing construction. | Remove any compound context field; state only the exact episteme values and the optional use selections that the current action needs. |
 | **CC-A22-6 Structure-use return.** | `StructureUseReturnCondition` is present when hidden selected-structure, source-basis, source-description, evidence, lens, simulation, extraction, or representation distinctions are used for action, assurance, causal use, legal or regulatory review, comparison, or decision reopening. | Add one structure-use return condition or narrow the record's admissible use so the hidden distinction is not relied on. |
 | **CC-A22-7 Non-structure claim kind.** | Evidence, assurance, gate, release, causal, dynamics, measurement, work, decision, publication, bridge, and mathematical-lens claims use the patterns that define or test those claims. | The check passes when that concrete contribution and the claim kind are named, while the A.22 record remains limited to selected-structure use. |
 | **CC-A22-8 Architecture pattern application.** | Architecture claims use `C.30` and `ArchitectureOf@Context`; A.22 does not treat architecture as a root kind or define C.30-specific records. | Apply C.30 or a C.30 subpattern and keep A.22 only as the selected-structure EntityOfConcern and structure-claim reliance relation. |

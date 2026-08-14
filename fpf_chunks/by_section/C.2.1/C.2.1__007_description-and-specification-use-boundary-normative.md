@@ -6,12 +6,12 @@ section_id: "C.2.1:6"
 section_title: "Description and specification-use boundary  (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__007_description-and-specification-use-boundary-normative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:6 — Description and specification-use boundary  (normative)"
-line_start: 41700
-line_end: 41719
+line_start: 41417
+line_end: 41436
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -68,7 +68,7 @@ For a description use, keep these values recoverable:
 
 When a filled card used to describe the entity has recoverable claim content, EntityOfConcern, and effective reference scheme, it is one episteme carrying these values. Its reusable layout can be a publication form, and the exact sheet or file that bears that layout can be a `U.PresentationCarrier`. The episteme, form, and carrier are not direct relation occurrences, and none makes a viewpoint, scope, or model-use relation obtain.
 
-`E.10.D2` governs the distinction among the EntityOfConcern, its Description episteme, and specification use. A Description episteme is admitted for specification use only when `E.10.D2` checkability, DescriptionContext, and harness or validation conditions are satisfied. The suffix `Spec`, formal notation, approval appearance, or publication in a repository does not grant that use.
+Use `E.10.D2` to keep the EntityOfConcern, its Description episteme, and specification use distinct. A Description episteme is admitted for specification use only when its claims are checkable and a named harness or validation relation can test them. Preserve or update a selected viewpoint only for the named describing use whose reliance depends on it. The suffix `Spec`, formal notation, approval appearance, or publication in a repository does not grant that use.
 
 Self-description uses the same rule. If an episteme describes itself, its EntityOfConcern designation resolves to that episteme. If a review episteme describes it, the review episteme has the first episteme as EntityOfConcern and its own claim content and reference scheme.
 

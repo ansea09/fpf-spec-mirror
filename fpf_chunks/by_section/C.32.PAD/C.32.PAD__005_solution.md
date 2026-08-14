@@ -6,12 +6,12 @@ section_id: "C.32.PAD:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:4 — Solution"
-line_start: 67037
-line_end: 67134
+line_start: 66819
+line_end: 66921
 dependencies:
   - "A.10"
   - "A.15"
@@ -67,7 +67,7 @@ Create `ArchitectureDecisionRelation@Project` before writing an ADR-like publica
 
 Work in this order:
 
-1. Name the composite project `U.Work` participant and the decision subject: described holon, bounded context, decision question, and status. If the decision designates a project system-of-interest, cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. A decision designation proves no compound project-selection truth; return `missing-substrate[project-selection-conjunction]` when that stronger truth is required.
+1. Name the composite project `U.Work` participant and the decision subject: described holon, decision question, intended use, ClaimScope, decision window, and status. If the decision designates a project system-of-interest, cite the existing `U.System` or the pre-inception intended-system claim. Add a local kind only when it is current, add a separate System-classification judgment only when that judgment independently obtains, and add an assignment only through its separately declared A.2.1 species and obtaining occurrence whose holder is that System. Route `SystemOfInterestRole` source wording through `E.10.ROLE`; establish every Work, change, and use fact through its own predicate and pattern. A decision designation proves no compound project-selection truth; return `missing-substrate[project-selection-conjunction]` when that stronger truth is required.
 2. Cite the candidate basis. Use `C.32` for the candidate palette, `C.32.MLAO` for residual-reducing multilevel candidate frames, `C.32.CONWAY` when an influence-source architecture and transformed-side architecture content shaped the candidate, and `C.32.FAIL` for repaired candidate errors. Cite a C.32.CONWAY synthesis frame while either side is modal or the direct influence relation is unresolved; cite an exact pair row only for its already obtaining direct occurrence and two obtaining C.30 architecture-relation participants.
 3. Cite comparison or selection input only when it exists. Use `A.19.CPM` for explicit comparison, `A.19.SelectorMechanism` for set-returning selection, `G.5` for selected-set result declaration, and `C.11` for local choice. For publication, use `E.17` for a source-backed face and source return and `E.24.PUB` for the publication occurrence and audience availability.
 4. State the selected architecture option or bounded exception. Name the affected selected structures and the subject pattern for each structure claim.
@@ -112,6 +112,10 @@ ArchitectureDecisionRelation@OrderFlow:
   projectWorkOccurrenceRef: ProductFamilyQ3OrderArchitectureWork, exact admitted composite U.Work
   decisionSubjectRef: order-integration architecture for product-family Q3
   describedHolonRef: product-family order-flow system
+  decisionQuestion: which candidate architecture should guide Q3 order-flow implementation?
+  intendedDecisionUse: direct the Q3 implementation work while preserving the stated refinement boundary
+  claimScopeRef: order-flow architecture for ProductFamilyQ3OrderArchitectureWork
+  decisionWindowRef: accepted for Q3 implementation; reopen on a listed trigger or superseding decision
   candidateBasisRefs: [C32CandidatePalette:order-flow-2026-06]
   selectedArchitectureOptionRefs: [event-carried integration with payment exception]
   selectedStructureEffects:
@@ -121,6 +125,7 @@ ArchitectureDecisionRelation@OrderFlow:
       relationFunctionClaimRef: C.30.ASV
   architectureCharacteristicTradeoffs:
     - architectureCharacteristicRef: substitutability
+      criteriaRowRef: C.32.ACS order-flow substitutability criterion
       expectedGain: service replacement without order-flow rewrite
       acceptedLoss: additional schema-version coordination
       guardrailRef: version-skew eval band

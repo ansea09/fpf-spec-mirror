@@ -6,7 +6,7 @@ section_id: "A.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__007_archetypal-grounding.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:5 — Archetypal Grounding"
@@ -43,11 +43,11 @@ keywords:
 
 #### A.2:5.1 - Reviewer Membership and a Non-Circular Subkind
 
-The review context declares one local kind from a contribution identity and direct holder features:
+The JournalReview practice declares one local kind from its practice boundary, contribution distinction, and direct holder features:
 
 ```text
 ReviewerSystemRole : U.Kind
-  boundedContext: JournalReview-2026
+  localPracticeOrSourceBoundary: JournalReview-2026
   localIdentityBasis:
     the assignable contribution distinction “can supply a substantive review judgment
     meeting the current JournalReview acceptance conditions”
@@ -116,11 +116,11 @@ An engineering team uses RFC 9110 while designing an HTTP service. Keep these cl
 
 The publication neither counts under the system-role kind nor performs the Work.
 
-#### A.2:5.4 - The Same Label in Two Contexts
+#### A.2:5.4 - The Same Label in Two Local Practices
 
-An editorial context and a safety-assurance context can each declare a `ReviewerSystemRole`. They remain two local kinds because context and contribution identity are part of each kind's identity. A shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
+An editorial-review practice and a safety-assurance practice can each declare a `ReviewerSystemRole`. They remain two local kinds because the constituting practice boundary and stable contribution distinction together form each identity basis. A shared label, vocabulary source, or reference-scheme spelling establishes neither sameness nor a Bridge.
 
-Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both contexts in one `Reviewer` column. First recover the two F.17 sense cells and the exact F.9 Bridge needed for the display. Then state a separate C.2.1 assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the contexts' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
+Suppose a staffing dashboard proposes `u-reviewer-display`: show assignments from both practices in one `Reviewer` column. First recover the two exact local kinds and any F.17 cells needed by the displayed expressions; then establish only the C.3.3 kind relation and F.9 local-sense relation that the display actually consumes. State a separate C.2.1 bounded-use assertion with direction `d-safety-to-editorial-display`, rule `r-preserve-reviewer-differences`, and tolerance `t-shared-label-only`, plus polarity and effective scheme. The rule keeps the practices' admission, independence, evidence, and completion fields separate and tolerates only the shared display label.
 
 Current A.10 provenance and `RelianceDisposition=pass` can support that display use. They do not justify substitution between assignments or merge the two kinds. If the use makes an assurance claim or crosses B.3's material-reliance threshold, only a current positive B.3 claim carrying this same use and sufficient minimum reliance safety assurance supports it; no-assurance, insufficient-record, narrowed, rejected, withdrawn, abstaining, or blocked dispositions stop or narrow the use. A Bridge Card can package the Bridge, bounded-use assertion, evidence, and disposition, but it grants no assignment, eligibility, capability, use suitability, or performed-Work inference. A selected `BoundedModelUseStructure` is cited only in the receiving use whose interpretation it changes.
 

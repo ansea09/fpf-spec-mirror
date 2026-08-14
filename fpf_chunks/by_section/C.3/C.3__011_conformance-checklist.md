@@ -6,12 +6,12 @@ section_id: "C.3:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__011_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:9 — Conformance Checklist"
-line_start: 44923
-line_end: 44937
+line_start: 44624
+line_end: 44638
 dependencies:
   - "A.1"
   - "A.11"
@@ -53,7 +53,7 @@ keywords:
 | `CC-C3-5` | Missing evidence, unavailable dependency, and out-of-domain input yield `unknown`, not `false`. |
 | `CC-C3-6` | Kind scope is absent; declaration and assertion scopes remain on their own epistemes, and `U.ContextSlice` remains an evaluation input. |
 | `CC-C3-7` | An extension is a representation of true candidates, not `U.EntitySet`, A.14 `MemberOf`, a collection holon, or a direct relation occurrence. |
-| `CC-C3-8` | Public `U.*` admission uses `E.24.UK`; cross-context kind use uses `C.3.3`. |
+| `CC-C3-8` | Public `U.*` admission uses `E.24.UK`; cross-local kind use uses `C.3.3`. |
 | `CC-C3-9` | `U.Work`, an exact `W : U.Work`, and any episteme about W remain distinct. |
-| `CC-C3-10` | Bounded-context locality is the outer cross-context trigger: a shared scheme or equivalent slices do not remove it, while a scheme-edition or slice change inside one context does not create it. |
+| `CC-C3-10` | A change of the explicit practice or source boundary or of the stable subject distinction triggers a C.3.3 continuity or bridge question. A shared scheme or equivalent slices do not remove that boundary; a scheme-edition or slice change within the same identity basis does not create a bridge by itself. |
 

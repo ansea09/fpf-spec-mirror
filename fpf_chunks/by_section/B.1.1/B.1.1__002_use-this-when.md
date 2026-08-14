@@ -6,12 +6,12 @@ section_id: "B.1.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:0 — Use This When"
-line_start: 35712
-line_end: 35736
+line_start: 35419
+line_end: 35443
 dependencies:
   - "A.1"
   - "A.10"
@@ -41,7 +41,7 @@ Typical moments:
 - a project needs to know whether a relation is part-whole, dependence, representation, influence, source use, publication use, or evidence relation;
 - a selected dependency structure will be expressed with a graph, table, matrix, or another mathematical or representation lens.
 
-**First useful move.** Name the dependency relation under concern before choosing graph notation. Then decide whether the relation is part-whole, boundary crossing, order, temporal phase, resource relation, mapping, evidence, publication use, source use, or another directly governed relation.
+**First useful move.** Name the dependency relation under concern before choosing graph notation. Then decide whether it is part-whole, boundary crossing, order, temporal phase, resource, representation, evidence, publication use, source use, or another direct relation defined or tested by the applicable pattern.
 
 **What goes wrong if missed.** A graph becomes the ontology; an edge named "depends on" carries many relation kinds at once; external influence becomes parthood; order and time are encoded as structure; and mathematical checks look precise while the relation being checked remains unclear.
 

@@ -6,12 +6,12 @@ section_id: "E.8:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__012_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:7 — Conformance Checklist"
-line_start: 73098
-line_end: 73137
+line_start: 72925
+line_end: 72964
 dependencies:
   - "E.10"
   - "E.10.MOVE"
@@ -72,7 +72,7 @@ Conformance Checklist items are authoring checks: they test whether the pattern 
 | **CC-SG.5** | Pattern prose **SHOULD** demonstrate adherence to Style Principles **S-0 ... S-19**; reviewers are empowered to request revision when clarity or didactic quality suffers. | Embeds common narrative voice without rigid policing. |
 | **CC-SG.6 (SoTA-Echo required).** | Every pattern **SHALL** include a **SoTA-Echoing** section and clearly state divergence of its Solution from SoTA with explanation of why. Architectural patterns **SHALL** satisfy the full authoring requirements below. Definitional patterns **SHALL** carry reduced SoTA when a full comparison is not meaningful: name which current practice is adopted, adapted, or rejected for terminology work, ambiguity or sense recovery, separation between constraint and ontology, controlled-vocabulary caution, or a comparable definitional problem. Internal coherence alone is not enough. | Ensures explicit lineage, guards against vocabulary drift, and prevents definitional patterns from using internal coherence as zero SoTA. |
 | **CC-SG.7 (Post-2015, multi-Tradition).** | For Architectural patterns, SoTA-Echoing **SHALL** cite >= 3 post-2015 sources across >= 2 Traditions; each item **MUST** carry adoption status (adopt/adapt/reject) with reason. | Guards against monoculture; makes intent explicit. |
-| **CC-SG.8 (Bridge & CL on reuse).** | Any cross-Context or ReferencePlane reuse mentioned in SoTA-Echoing **MUST** cite **Bridge id + CL** and (if ReferencePlanes differ) **Φ(CL)**/**Φ_plane** policy-ids; penalties **-> R_eff** only. | Safe, auditable reuse. |
+| **CC-SG.8 (Actual cross-local relation).** | When SoTA-Echoing actually relates distinct F.17 local senses or ReferencePlanes, it **MUST** cite the exact F.9 relation, CL, admitted use, loss notes, and applicable plane policy; penalties affect `R_eff` only. Shared wording or a source import alone does not establish a Bridge. | Safe, auditable reuse without fictitious relations. |
 | **CC-SG.9 (Lexical hygiene).** | The term **mapping** **SHALL NOT** appear in SoTA-Echoing except in the precise E.10 sense; use **alignment/Bridge/relation** instead. | Avoids overloading reserved vocabulary. |
 | **CC-SG.10 (No keyword soup).** | SoTA-Echoing items **MUST** be written as sentences (not bare noun phrases); bullet lists are acceptable only with complete clauses. | Improves didactic quality and comparability. |
 | **CC-SG.11 (Anti-patterns).** | Every pattern **SHALL** include a **Common Anti-Patterns and How to Avoid Them** section with at least one local misuse, overread, boundary case, or neighboring-pattern misuse relation. A placeholder saying no anti-pattern applies is nonconforming. | Makes misuse cases explicit and reduces review churn without creating omission-as-content. |

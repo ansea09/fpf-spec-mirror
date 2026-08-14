@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/B.2.5.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
-line_start: 38475
-line_end: 38689
+line_start: 38192
+line_end: 38409
 dependencies:
   - "A.1"
   - "A.10"
@@ -50,7 +50,7 @@ The first useful move is to recover the relation:
 
 ```text
 Which holons are supervised?
-Which admitted system supervises in this bounded context, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
+Which admitted system supervises these holons for this feedback use, under which policy and during which time window, and which local supervisor system-role kind and exact assignment obtain when that classification matters?
 What observation, report, signal, publication, or source relation carries state?
 What influence, constraint, objective, mode, or work change returns?
 Which transformation, work, architecture, evidence, assurance, timing,
@@ -104,7 +104,9 @@ Model the current object as `SupervisorSubholonFeedbackRelation@Context`.
 ```text
 SupervisorSubholonFeedbackRelation@Context:
   supervisedHolonRefs: FinSet(U.HolonRef)
-  boundedContextRef:
+  feedbackPolicyRef?
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   supervisorSystemRoleKindRef?: U.KindRef resolving to one exact local system-role kind
   supervisingActingSystemRef: U.EntityRef resolving to one admitted U.System
   supervisorSystemRoleAssignmentRef?: U.RelationRef constrained to U.SystemRoleAssignment
@@ -114,12 +116,13 @@ SupervisorSubholonFeedbackRelation@Context:
   sharedMediumOrPublicationRefs?
   holonBoundaryCrossingRelationRefs?
   feedbackClosureCondition:
+  evidenceRefs?
   admissibleUse:
   nonAdmissibleUse:
-  neighboringClaimOwnerRefs?
+  strongerClaimPatternRefs?
 ```
 
-This relation is not a U-kind and not a mathematical loop lens. It is a relation record for the bounded context. The kind and assignment fields are present only when the classification and the assignment occurrence with its declared species exist separately; the feedback relation creates neither.
+This relation is not a U-kind and not a mathematical loop lens. The record names the exact supervised holons, supervising acting system, feedback policy when one applies, signal paths, ClaimScope when needed, qualification window, and evidence when a later use relies on it. Evidence can support the claim but does not create the feedback relation. The kind and assignment fields are present only when the classification and the assignment occurrence with its declared species exist separately; the feedback relation creates neither.
 
 #### B.2.5:4.1 - Two-Sided Feedback Relation
 
@@ -128,7 +131,7 @@ A one-way command, publication, or report relation is not yet a supervisor-subho
 - the observation, report, signal, source, or publication side; and
 - the returned influence, constraint, objective, mode, or work-change side.
 
-If only one side is current, record a one-sided relation and use the subject pattern for that claim.
+If only one side is current, record a one-sided relation and use the pattern that defines that claim.
 
 #### B.2.5:4.2 - Part-Whole Boundary
 
@@ -196,11 +199,11 @@ Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use 
 | Check | Requirement |
 | --- | --- |
 | `CC-B2.5-1` | A conforming use names supervised holons and the supervising acting system; it adds the local supervisor system-role kind and exact assignment only when each independently obtains. |
-| `CC-B2.5-2` | A conforming use names observation, report, or source side and influence, constraint, or objective side. |
+| `CC-B2.5-2` | A conforming use names the observation, report, or source side and the influence, constraint, or objective side. It also names any feedback policy, ClaimScope, qualification window, and evidence that changes the relation claim or its later use. |
 | `CC-B2.5-3` | `SupervisorSubholonFeedbackRelation@Context` is used instead of loop wording unless a separate C.29 mathematical-lens use selects a loop object. |
 | `CC-B2.5-4` | No `U.TransformerRef` or `U.InteractionRef` is created. |
 | `CC-B2.5-5` | Parthood, control-structure view, publication and source-use relation, and feedback relation are kept separate. |
-| `CC-B2.5-6` | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims return to their governing patterns. |
+| `CC-B2.5-6` | Stability, safety, timing, causal, evidence, assurance, gate, and mathematical-lens claims use the patterns that define or test them. |
 | `CC-B2.5-7` | Episteme examples name the acting systems that perform review, revision, publication, or use. |
 
 ### B.2.5:7 - Common Anti-Patterns and How to Avoid Them
@@ -211,7 +214,7 @@ Work authority uses `A.15`; gate passage uses `A.21`; interface commitments use 
 | Functional layer as component | A planning or control layer is modeled as a physical part of the controlled holon. | Separate parthood from feedback relation; use `C.30.LCA` for the view. |
 | Perfect communication | State access is assumed instant, complete, or lossless. | Name medium or publication limits; use `C.27`, `A.3.3`, or evidence-use patterns for timing and information claims. |
 | Episteme acts | A theory, model, paper, dashboard, or standard senses, judges, plans, or adapts. | Name the acting System and revision Work; use F.6 to identify the assignment under which each performer acted. A short sentence may omit an unused assignment identifier. Name the Method or review practice structuring the Work when current, and any publication or source-use relation. This Work rule does not make assignment or system-role classification a condition of the supervisor-subholon feedback relation itself. |
-| Relation certifies safety | The feedback relation is treated as evidence, assurance, gate, or safety result. | Keep the relation and apply the governing pattern for the stronger claim. |
+| Relation certifies safety | The feedback relation is treated as evidence, assurance, gate, or safety result. | Keep the relation and use the pattern for the stronger claim. |
 
 ### B.2.5:8 - Consequences
 
@@ -231,7 +234,7 @@ Costs:
 
 Supervisor-subholon feedback is a recurring relation in control, organization, architecture, and epistemic revision. It becomes precise only when separated from part-whole composition, control-structure views, publication and source-use relations, and stronger assurance claims.
 
-The selected name is `SupervisorSubholonFeedbackRelation@Context` because the governed object is a relation. A mathematical loop, if needed, is a lens or structure selected by another pattern; it is not selected by the name of this relation.
+The selected name is `SupervisorSubholonFeedbackRelation@Context` because the subject is a relation. A mathematical loop, if needed, is a lens or structure selected by another pattern; the relation's name does not establish it.
 
 ### B.2.5:10 - SoTA-Echoing
 

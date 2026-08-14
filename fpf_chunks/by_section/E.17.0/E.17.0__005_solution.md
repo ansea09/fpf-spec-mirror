@@ -6,12 +6,12 @@ section_id: "E.17.0:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:4 — Solution"
-line_start: 79911
-line_end: 80299
+line_start: 79768
+line_end: 80156
 dependencies:
   - "A.22"
   - "A.6.3"
@@ -50,7 +50,7 @@ If the current thing is only a diagram element, graph node, form, or carrier, re
 
 `U.Viewpoint` is a same-individual dependent durable kind under `U.Episteme`. One exact viewpoint P is the same individual as a C.2.1 episteme, not a slot value, method, publication form, bundle member, selected structure, local result value, or RelationSignature.
 
-P has one truthful C.2.1 EntityOfConcern. In the ordinary self-contained branch it is the exact independently admitted target kind, or exact context-local kind, whose membership criterion P uses. Only when separately versioned convention components and their organization change a named reuse, comparison, or maintenance action is P instead about exact selected `S_viewpoint : U.Structure`. Neither branch introduces a new public kind or organization record.
+P has one truthful C.2.1 EntityOfConcern. In the ordinary self-contained branch it is the exact independently admitted durable or local target kind whose membership criterion P uses. A local kind remains identified by its explicit practice or source boundary and stable subject distinction. Only when separately versioned convention components and their organization change a named reuse, comparison, or maintenance action is P instead about exact selected `S_viewpoint : U.Structure`. Neither branch introduces a new public kind or organization record.
 
 **Existing-P route.** Resolve one current `U.ViewpointRef` to exact P and inspect P's fixed target criterion, admitted kinds, concern coverage, semantic-form, completeness, consistency, and omission rules. Do not reconstruct P's constituent collection or authoring history merely to use the already admitted edition.
 
@@ -75,11 +75,11 @@ Its only two actual participants are independently identified before the test:
 
 1. E is one independently identified episteme and P is one independently admitted viewpoint episteme;
 2. exact `T := EntityOfConcern(E)` is recovered only from E's C.2.1 constitution;
-3. exact T satisfies P's fixed `EntityOfConcernKindCriterion` through either the cited public durable-kind membership rule or one exact C.3.2 `KindSignature` edition and one exact `U.ContextSlice` fixed by P for a local criterion;
+3. exact T satisfies P's fixed `EntityOfConcernKindCriterion` through the cited public durable-kind membership rule or the direct identity and membership rule of one exact independently admitted local kind; an exact C.3.2 `KindSignature` edition and one exact `U.ContextSlice` are separate test inputs only when P's local membership test needs them;
 4. E has at least one independently admitted episteme kind referenced by P's admitted-kind claims, excluding `U.View` and every kind whose membership depends on this same conformance; and
 5. E's fixed claim content, interpreted under its effective reference scheme, satisfies P's fixed concern-coverage and semantic-form rules, including each exact completeness rule and each admitted omission or loss condition named by P.
 
-T is recovered from E, not guessed from a use qualifier, topic, P, label, reference spelling, or evaluator input, and it is not a hidden third participant. Changing T changes E. Changing P's target criterion, cited public membership rule, local KindSignature, ContextSlice, admitted-kind claims, or conformance rules changes P.
+T is recovered from E, not guessed from a use qualifier, topic, P, label, reference spelling, or evaluator input, and it is not a hidden third participant. Changing T changes E. Changing P's target criterion, admitted target kind or cited membership rule, any exact `KindSignature` edition or `U.ContextSlice` named as a separate test input, admitted-kind claims, or conformance rules changes P.
 
 State the result immediately after the five tests:
 
@@ -111,14 +111,14 @@ The complete F.18 NameCard for the direct conformance kind is:
 | `NameCardId` | `NameCard.EpistemeViewpointConformanceRelation.FPFPublic`; card identity only |
 | `GovernedValueRef` | exact direct kind `EpistemeViewpointConformanceRelation`, not a source line, card, signature, token, phrase, occurrence, or reference |
 | `SubjectPatternLocator` | `E.17.0`, locating the exact defining and occurrence-identity claims; F.18 separately constrains naming, A.6.5 declares SlotSpecs, and E.24.UK admits the dependent kinds |
-| `BoundedContextRef` | `FPF English public publication, edition 2026-07-14`; not project context, host path, current use, effective scheme, local ContextSlice, or relation time |
+| `ReferenceScheme` | effective FPF English publication scheme and its edition under which this naming claim is read; project use, host path, claim scope, local sense, and relation time remain separate |
 | `LocalSenseRef` | exact two-participant semantic conformance of one episteme to one viewpoint episteme |
 | `TechLabel` | `EpistemeViewpointConformanceRelation` |
 | `PlainLabel` | `the episteme conforms to this exact viewpoint` |
 | Candidate set | selected label, `EpistemeConformsToViewpointRelation`, `ViewpointConformanceRelation`, `ViewConformanceRelation`, `EpistemeViewpointGovernanceRelation`, `ViewpointGovernanceRelation`, `ViewMembershipRelation`, `viewpoint-to-description relation` |
 | Rejections | shorter conformance names hide a participant or assume view membership; governance collapses selection with semantic conformance; membership names the derived classification; the description placeholder narrows arbitrary episteme and omits the predicate. None is an alias. |
 | Selection rationale | the selected Tech label names both participant kinds and the obtaining predicate without presupposing that E is already a `U.View` |
-| `BridgeRefs` | none; scheme difference, spelling, candidate similarity, and public reuse create no cross-context sameness claim |
+| `BridgeRefs` | none; scheme difference, spelling, candidate similarity, and public reuse create no relation between local kinds or between F.17 local-sense cells |
 | Lineage | the selected name replaces `viewpoint-to-description relation` without admitting that placeholder as a synonym or second public designation |
 | Refresh | reopen only when either participant kind, the conformance predicate, direct occurrence identity, or repeated reader evidence changes; not for spelling preference, one reaction, layout, repackaging, or unchanged semantics |
 
@@ -149,7 +149,7 @@ The first row sets the ordinary architecture. The second demonstrates the narrow
 
 ##### E.17.0:4.6.1 - Author the smallest self-contained viewpoint episteme
 
-Identify the exact independently admitted target kind `K_target` (or exact C.3.2 local kind declaration and ContextSlice) that the candidate epistemes' EntitiesOfConcern must satisfy. Constitute exact P under C.2.1 as `<ClaimGraph(P), K_target, ReferenceScheme(P)>`; the target kind is P's truthful exact EntityOfConcern because P states how epistemes about members of that kind are to be read. P's fixed ClaimGraph:
+Identify the exact independently admitted target kind `K_target` that the candidate epistemes' EntitiesOfConcern must satisfy. For a local kind, name its explicit practice or source boundary and stable subject distinction. Use an exact C.3.2 `KindSignature` edition and `U.ContextSlice` only as separate inputs when the membership test needs them. Constitute exact P under C.2.1 as `<ClaimGraph(P), K_target, ReferenceScheme(P)>`; the target kind is P's truthful exact EntityOfConcern because P states how epistemes about members of that kind are to be read. P's fixed ClaimGraph:
 
 1. states the exact target-kind criterion and cites its direct authority;
 2. names exact stakeholder or audience referents only when they change the concerns, and states the exact concerns;
@@ -167,12 +167,12 @@ Construct `C_viewpoint` under C.13 from the exact constituent episteme editions.
 
 | Constituent | Admit it when | Exact subject and practical job | Do not collapse it with |
 |---|---|---|---|
-| `E_target` | A target-kind criterion is current. | One C.2.1 episteme whose exact EntityOfConcern is the admitted target kind and whose claims cite the direct membership rule. For a context-local target, the exact C.3.2 `KindSignature` is the constituent; use another `U.Signature` only when the criterion is itself a reused declaration with vocabulary, laws, and applicability. It says which entities a conforming view may concern. | a raw kind reference, target mention as membership proof, or a wrapper Signature around a local KindSignature |
+| `E_target` | A target-kind criterion is current. | One C.2.1 episteme whose exact EntityOfConcern is the admitted target kind and whose claims cite the direct identity and membership rule. For a local target, those claims name its practice or source boundary and stable subject distinction; an exact C.3.2 `KindSignature` edition and `U.ContextSlice` remain separate test inputs when the receiving membership judgment needs them. Use another `U.Signature` only when the criterion is itself a reused declaration with vocabulary, laws, and applicability. | a raw kind reference, target mention as membership proof, a local KindSignature or ContextSlice substituted for the target kind, or a wrapper Signature around a local declaration |
 | `E_stakeholder.system[i]` | The concern names one stakeholder system. | One C.2.1 episteme whose exact EntityOfConcern is the independently admitted exact `U.System`. | system mention, stakeholder-family typing, a current system-role assignment, or the episteme substituted for the System |
-| `E_stakeholder.systemRoleKind[i]` | The concern addresses Systems classified under one exact local system-role kind. | One C.2.1 episteme whose exact EntityOfConcern is that local `U.Kind`; its claims cite the current `KindSignature` and `U.ContextSlice` when the receiving use depends on them. A reusable context field ends in `...SystemRoleKindRef` and is typed by `U.KindRef`. Classification judgments and actual assignments remain separate. | bare *role* spelling, `KindSignature`, classification judgment, holder reference, assignment occurrence, or responsibility |
-| `E_stakeholder.systemRoleAssignment[i]` | One exact obtaining assignment occurrence changes the concern. | One C.2.1 episteme whose exact EntityOfConcern is that occurrence under a directly declared species of `U.SystemRoleAssignment`. A reusable context field ends in `...SystemRoleAssignmentRef` and is typed by `U.RelationRef constrained to U.SystemRoleAssignment`. | local kind, holder System, assertion or description of the assignment, assignment spelling, or responsibility |
+| `E_stakeholder.systemRoleKind[i]` | The concern addresses Systems classified under one exact local system-role kind. | One C.2.1 episteme whose exact EntityOfConcern is that local `U.Kind`; its claims name the kind's practice or source boundary and stable work-facing contribution distinction. They may cite the current `KindSignature` edition and `U.ContextSlice` as separate classification-test inputs when the receiving use needs them. A reusable reference field ends in `...SystemRoleKindRef` and is typed by `U.KindRef`. Classification judgments and actual assignments remain separate. | bare *role* spelling, `KindSignature`, classification judgment, holder reference, assignment occurrence, or responsibility |
+| `E_stakeholder.systemRoleAssignment[i]` | One exact obtaining assignment occurrence changes the concern. | One C.2.1 episteme whose exact EntityOfConcern is that occurrence under a directly declared species of `U.SystemRoleAssignment`. A reusable reference field ends in `...SystemRoleAssignmentRef` and is typed by `U.RelationRef constrained to U.SystemRoleAssignment`. | local kind, holder System, assertion or description of the assignment, assignment spelling, or responsibility |
 | `E_stakeholder.collection[i]` | Several exact Systems jointly form the concern referent. | One C.2.1 episteme whose exact EntityOfConcern is the independently identified C.13 collection-as-whole. | list adjacency, one System, local system-role kind or assignment, the member plurality, or a description substituted for the collection whole |
-| `E_stakeholder.localKind[i]` | The concern quantifies over one context-local classification. | The exact C.3.2 `KindSignature` episteme together with its fixed `U.ContextSlice`; its membership criterion and extension bound the concern. Cross-context reuse requires C.3.3. | a wrapper Signature, raw class spelling, silent public-kind promotion, or a local extension treated as universal |
+| `E_stakeholder.localKind[i]` | The concern quantifies over one exact local kind. | One C.2.1 episteme whose exact EntityOfConcern is the independently admitted local kind. Its claims name the practice or source boundary and stable subject distinction. An exact C.3.2 `KindSignature` edition and `U.ContextSlice` remain separate inputs only when a classification judgment is current. If the concern later relates this kind to another exact local kind, ask the C.3.3 relation question separately. | a wrapper Signature, raw class spelling, KindSignature or ContextSlice substituted for the kind, silent public-kind promotion, or a local extension treated as universal |
 | `E_concern[i]` | One exact question or concern claim is needed. | Ordinarily one C.2.1 episteme about one independently identified entity. It states what a conforming episteme must address. Promote it to `U.Signature` only when the concern predicate itself is a reused declaration with vocabulary, laws, and applicability. | a public `U.Concern`, unresolved EntityOfConcern, one-use question inflated into a Signature, or a concern label |
 | `E_admittedKind[i]` | One independently admitted episteme kind may enter conformance. | One C.2.1 episteme that cites the exact kind and the rule that admits its members; an exact local `KindSignature` may itself be the constituent. | a raw label or reference, admission by citation, a local wrapper, circular `U.View` admission, or the reference substituted for the membership rule |
 | `E_rule[i]` | A construction, interpretation, coverage, semantic-form, completeness, consistency, or omission constraint is current. | Ordinarily one C.2.1 episteme stating the constraint about its exact EntityOfConcern. Use `U.Signature` only for genuinely reusable declaration content with vocabulary, laws, and applicability; use `U.MethodDescription` only when the claims describe one independently admitted method as a way of doing. | every rule coerced to Signature, procedural appearance as method-description admission, missing exact subject, or one-use constraint inflated with declaration fields |
@@ -211,7 +211,7 @@ Omit both local values from P, direct relation obtaining, and—when the structu
 When the structured branch is triggered, Q carries these eight organization constraints by value:
 
 1. **One target criterion.** Select exactly one `E_target` by its exact claim content and cited target-kind membership rule; a raw kind label, viewpoint name, or collection position proves neither selection nor membership.
-2. **Concerns depend on the target.** Every exact `E_concern[i]` depends on `E_target`. When stakeholder attribution changes the concern, cite one exact stakeholder referent recovered as an independently identified System, local system-role kind, obtaining system-role assignment, collection-as-whole, or other context-local classification. A responsibility claim remains a separately governed direct relation and never follows from the kind or assignment.
+2. **Concerns depend on the target.** Every exact `E_concern[i]` depends on `E_target`. When stakeholder attribution changes the concern, cite one exact stakeholder referent recovered as an independently identified System, local system-role kind, obtaining system-role assignment, collection-as-whole, or another exact local kind whose members are the concern referents. A responsibility claim remains a separately defined direct relation and never follows from the kind or assignment.
 3. **Coverage depends on exact concerns and claim families.** Each coverage constraint depends on the exact concern constituents and exact claim families it evaluates; a heading, graph edge, unresolved family label, or coverage result is neither the dependency nor proof of coverage.
 4. **Semantic form depends on the admitted kind.** Each semantic-form constraint depends on the exact independently admitted-kind constituent to which it applies; notation, form, or a raw kind reference grants no admission or dependence.
 5. **Method conventions depend on exact method descriptions.** Each method-based convention depends on one exact `D_method[i]` whose exact EntityOfConcern is an independently admitted A.3.1 method. The raw method remains outside C, and description, method, dependence, and performed work remain distinct.
@@ -238,7 +238,7 @@ In the structured branch the selected public individual is exact episteme P abou
 - An episteme about one method is a neighboring `U.MethodDescription` only when exact M and that description independently pass A.3.1 and A.3.2; it is not the viewpoint genus. A method-description constituent does not retarget P from S to M.
 - No viewpoint record, wrapper, organization object, context entity, or non-entity value is needed; P, S, C, and selected relation occurrences already exhaust the identity-bearing objects.
 - A catalogue or local family-declaration position, catalogue edition, package ID, or publication grouping does not constitute P or grant membership.
-- P requires no parent `U.Signature`, is not a public C.3 local kind, and is not `EpistemeViewpointConformanceRelationSignature`. A reusable classifier, context-local classification, and direct-relation declaration are different jobs with different subjects.
+- P requires no parent `U.Signature`, is not a public C.3 local kind, and is not `EpistemeViewpointConformanceRelationSignature`. A reusable kind declaration, a local-kind classification judgment, and a direct-relation declaration are different jobs with different subjects.
 
 `U.Viewpoint` is therefore the same P under the complete positive predicate above: no new root identity, wrapper identity, method requirement, selection-dependent membership, or generic-episteme shortcut.
 
@@ -279,14 +279,14 @@ The complete F.18 NameCard for this relation-kind designation is:
 | `NameCardId` | `NameCard.ViewpointConventionDependencyRelation.FPFPublic`; this identifies the card only. |
 | `GovernedValueRef` | exact direct kind `ViewpointConventionDependencyRelation`, not r, its signature, vocabulary entry, token, assertion, or card |
 | `SubjectPatternLocator` | `E.17.0`, locating the exact defining and occurrence-identity claims; A.6.6 separately constrains reusable vocabulary-entry use, and F.18 separately constrains this naming act rather than the relation semantics |
-| `BoundedContextRef` | `FPF English public publication, edition 2026-07-14`; this is naming context, not occurrence time |
+| `ReferenceScheme` | effective FPF English public-publication scheme and edition under which this naming claim is read; this is not occurrence time or a context object |
 | `LocalSenseRef` | semantic dependence of one exact viewpoint-convention constituent episteme on another exact base constituent episteme, dependent first |
 | `TechLabel` | `ViewpointConventionDependencyRelation` |
 | `PlainLabel` | `this viewpoint-convention constituent depends on that exact base constituent` |
 | Candidate set | dependency candidates: selected label, `ConstituentSemanticDependencyRelation`, `ViewpointConventionRelianceRelation`; representation candidates: `ConstituentReferenceRelation`, `ViewpointLinkRelation`, `ViewpointOrganizationEdge` |
 | Rejections | `ConstituentSemanticDependencyRelation` drops the viewpoint-convention boundary; reliance widens to decision reliance; reference states resolution only; link leaves predicate and polarity unstated; organization-edge names a graph representation rather than obtaining. None is an alias. |
 | Selection rationale | the selected label names both the viewpoint-convention domain and semantic-dependency predicate; the RelationSignature, not the label, carries participant meanings |
-| `BridgeRefs` | none in this bounded context; a future cross-context sameness claim requires an exact F.9 Bridge Card |
+| `BridgeRefs` | none; this settlement makes no cross-scheme local-sense correspondence claim. If later naming work creates an F.17 cell or basis relation, record it only when that exact naming use needs and supports it. |
 | Lineage | rejected reference, link, organization-edge, semantic-dependency, and reliance spellings remain source lineage only, never synonyms |
 | Refresh | reopen when participant kinds, obtaining predicate, A.6.6 use policy, or repeated reader evidence changes; do not refresh for document churn, an occurrence change, or a token-only change that leaves the sense named by this card unchanged |
 
@@ -327,7 +327,7 @@ When empirical interpretation or replay testing is current, identify separately:
 - `H_dependencyEvaluator : U.System` under A.1 as performer;
 - exact `RA_dependencyEvaluator : DependencyEvaluationWorkAssignment <: U.SystemRoleAssignment` under A.2.1, with `H_dependencyEvaluator` in `HolderSystemSlot` and declaration-local assigned-kind domain `DependencyEvaluatorSystemRole`; the kind, assignment, holder System, and Work remain distinct, and neither the kind nor assignment acts;
 - `M_dependencyTest : U.Method` under A.3.1 and, when needed, `D_dependencyTest : U.MethodDescription` under A.3.2; D describes M but is neither method, work, RelationSignature, nor OperationAlgebra, and a separate A.6.1 operation declaration is cited only when typed application is current;
-- exact `W_dependencyTest : U.Work` performed by H under RA through F.6, with `enactsMethod(W_dependencyTest,M_dependencyTest)` obtaining;
+- exact `W_dependencyTest : U.Work` performed by H under RA through F.6 and enacting M under A.15.1;
 - exact `B_dependencyEmpirical`, a C.2.1 episteme identifying the model, calibration, assumptions, and interpretation basis; and
 - exact result episteme `T_dependency = <G_dependencyTestResult,E_dependent,S_test>`, whose ClaimGraph designates exact `E_base`, predicate, method, conditions, basis, and positive or negative result.
 
@@ -355,7 +355,7 @@ Historical use of any claim or result requires exact work, enacted method, and a
 
 Recover `S_dep` from `E_dependent`, `S_base` from `E_base`, and `S_decl` from D. They are three uses of existing `U.ReferenceScheme`, outside r and its RelationSignature. G may designate exact endpoints, claim values, and declared names through those schemes; designation is neither occurrence obtaining, truth, nor historical participation.
 
-Within one bounded context, keep claim-scope `widen`, `narrow`, and `refit` under A.2.6. Use `translate` only across exact context-local senses through an obtaining F.9 Bridge between exact SenseCells. Scheme difference, same spelling, token reuse, or translation intent triggers no Bridge.
+Keep claim-scope `widen`, `narrow`, and `refit` under A.2.6 when no local-sense translation is needed. Use `translate` only when scope membership must be expressed between exact local senses: require an obtaining F.9 Bridge between their exact `SchemeSenseCell` values, the separate affirmative claim for that translation's direction, rule, and tolerance, and the current A.10 or B.3 reliance branch. Scheme difference, same spelling, token reuse, or translation intent triggers no Bridge.
 
 Open `RepresentationSchemeTransitionRelation@Context` only when all six required participants—one independently selected `BoundedModelUseStructure : U.Structure`, the preserved EntityOfConcern, source and receiving representation epistemes, and source and receiving scheme-description epistemes—are independently recoverable before dependency testing and an exact system performs actual representation-transformation Work. The `@Context` suffix is only the retrieval label for that A.1.1 bounded-context use; no bounded-context object or generic context field participates, and the required Work is part of the obtaining test rather than a seventh participant. Require the same exact EntityOfConcern, declared preservation for the receiving use, explicit loss or recoverability, tuple-plus-scheme-pair occurrence identity, and a separate transition-description episteme whose EntityOfConcern is that occurrence. Add C.29 only for a current mathematical lens and keep its output local. If no exact transition or Bridge applies, block the proposed cross-scheme dependency use.
 
@@ -365,9 +365,9 @@ Changing only J, an assertion or occurrence description, evaluation result, basi
 
 #### E.17.0:4.8 - Keep selection for one describing use separate
 
-For one current describing use, its use qualification carries one singular `viewpointRef : U.ViewpointRef`. Resolve that reference under the effective reference scheme to exact P. `ViewpointId` is P's designator; designator, reference, and episteme remain different objects.
+For one current describing use, name that use and one singular `viewpointRef : U.ViewpointRef`. Resolve the reference under the effective reference scheme to exact P. `ViewpointId` is P's designator; designator, reference, episteme, and describing use remain different objects.
 
-The use qualification selects P for that use only. It does not establish conformance or `U.View` membership, enter C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. A use needing several viewpoints first identifies the C.13 collection and its exact membership; it does not overload `viewpointRef` with a collection value.
+That describing use selects P for itself only. The selection does not establish conformance or `U.View` membership, give E a new C.2.1 identity, reidentify E, or create a universal selection relation, legacy context tuple, bounded-context object, or generic model-use identity field. Another use may select another P while E remains unchanged. A use needing several viewpoints first identifies the C.13 collection and its exact membership; it does not overload `viewpointRef` with a collection value.
 
 The architecture therefore keeps exactly two positive dependent-kind rules—P as `U.Viewpoint` by its fixed self-contained content about an exact target kind or, conditionally, by fixed content about selected S; and E as `U.View` by obtaining conformance—and two direct relation kinds: viewpoint-convention dependence and E/P conformance. D remains optional for a named A.22 use; the two local explicit-result ValueKinds remain optional for named evaluation consumers. Families carry exact `U.ViewpointRef` values. C.2.1 identity, MethodDescription, A.6.3 construction, E.24.PUB publication, C.29 representation, and unrelated interfaces retain their separate identities and rules.
 
@@ -381,7 +381,7 @@ Keep these claims independent:
 - **construction:** A.6.3 states an obtaining source-to-receiving viewing relation when one exists;
 - **membership:** E.17.0 states whether the receiving episteme conforms to an exact viewpoint;
 - **work:** A system may perform query, authoring, or rendering work;
-- **production:** A.15.PROD is opened only when a local work/change/entity-identity-inception or completion claim about the receiving episteme is current.
+- **production:** use A.15.PROD only when a local work/change/entity-identity-inception or completion claim about the receiving episteme is current.
 
 Do not infer one claim from the label `generated view`.
 

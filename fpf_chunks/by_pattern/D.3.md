@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.3.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
-line_start: 69140
-line_end: 69297
+line_start: 68939
+line_end: 69096
 dependencies:
   - "A.1"
   - "A.10"
@@ -36,7 +36,7 @@ keywords:
 
 > **Type:** D-family ethical conflict-structure pattern
 > **Status:** Stable
-> **Pattern role:** This compact pattern contains the defining content for the structure of an interlevel ethical conflict; mediation, decision use, assurance, causal use, and architecture residuals remain with their subject patterns.
+> **Pattern role:** This compact pattern defines the structure of an interlevel ethical conflict. Use D.4 for mediation and decision use, D.5 for bias, fairness, impact, and ethical assurance, C.28 for causal claims, and C.30.ILC for architecture residuals.
 
 **Use this when.** Use this pattern when an ethical conflict spans declared levels or scopes and the conflict structure itself must be made inspectable before mediation, decision, assurance, or architecture return.
 
@@ -68,12 +68,12 @@ Interlevel ethical conflict is often debated before it is structured. The failur
 
 ### D.3:2 - Solution
 
-Record an `InterlevelEthicalConflictStructure@Context`:
+Record an `InterlevelEthicalConflictStructure`:
 
 ```text
-InterlevelEthicalConflictStructure@Context:
+InterlevelEthicalConflictStructure:
   conflictConcernRef
-  boundedContextRef
+  claimScopeRef?
   affectedEntityOfConcernRefs
   declaredLevelOrScopeRefs
   affectedHolonRefs
@@ -104,7 +104,7 @@ InterlevelEthicalConflictStructure@Context:
   consequenceHorizonRefs
   conflictRelationRefs
   nonConflictOverread
-  nextUseSubjectPatternLocator
+  nextUseQuestionRef
 ```
 
 This structure may be represented by a table, graph, formal predicate, narrative case, or another selected description form. The representation is not the conflict itself. If a mathematical lens does work in the claim, cite `C.29`; if the publication form changes admissible use, cite `E.17`.
@@ -113,7 +113,7 @@ This structure may be represented by a table, graph, formal predicate, narrative
 
 A collection is ethically current only when whole-level characteristics, membership relations, environment-mediated effects, or aggregate consequences matter. Use `A.14` for part-whole and membership relation vocabulary and `C.13` for constructive grounding. Do not assign responsibility to a collection merely because it has a plural name.
 
-An episteme is ethically current when its claim-bearing structure, source-use relation, publication relation, described EntityOfConcern, or model family changes affected systems or decisions. Use `C.2.1` for the episteme slot relation and `E.17` for publication claims. Do not turn every ethical conflict over a theory, standard, architecture description, or policy description into a problem about wording.
+An episteme is ethically current when its claim-bearing structure, source-use relation, publication relation, described EntityOfConcern, or model family changes affected systems or decisions. Use C.2.1 for episteme identity and for the exact constitution, empirical-grounding, or edition relation that the claim actually uses, and E.17 for publication claims. Do not turn every ethical conflict over a theory, standard, architecture description, or policy description into a problem about wording.
 
 ### D.3:4 - Boundaries
 
@@ -129,9 +129,9 @@ An episteme is ethically current when its claim-bearing structure, source-use re
 
 **Engineering advice.** A consultant improves the effectiveness of a client's harmful project. The conflict is not only "bad client, good Method." `D.3` maps the consultant and client Systems, affected public, Method, actual Work when it occurred, any separately obtaining assignment, agency evidence, and consequence horizon. A responsibility claim is admitted only through its direct predicate and participants; otherwise the case records `missing-governor`. `D.4` handles refusal, conditions, escalation, or decision use.
 
-**Collection case.** A fleet-level optimization reduces maintenance cost but increases failure risk for a small subfleet used in harsher conditions. `D.3` names the fleet, subfleet, membership relation, any acting collective system, affected users, evidence set, value concerns, responsibility relations, and consequence horizon separately. Collection membership alone makes neither the fleet a responsible acting whole nor the subfleet its part under another relation; each stronger claim needs its subject pattern.
+**Collection case.** A fleet-level optimization reduces maintenance cost but increases failure risk for a small subfleet used in harsher conditions. `D.3` names the fleet, subfleet, membership relation, any acting collective system, affected users, evidence set, value concerns, responsibility relations, and consequence horizon separately. Collection membership alone makes neither the fleet a responsible acting whole nor the subfleet its part under another relation. Use A.1 to test systemhood, A.14 for a part-whole claim, and the exact responsibility predicate with its actual participants for a responsibility claim.
 
-**Episteme case.** A published architecture description normalizes an interface assumption that excludes an alternative implementation option. The ethical conflict may involve the episteme whole, its source-use relation, affected suppliers, and system consequences. `D.3` maps the conflict; `C.30.AD` governs architecture-description adequacy and `E.17` governs publication-use claims.
+**Episteme case.** A published architecture description normalizes an interface assumption that excludes an alternative implementation option. The ethical conflict may involve the episteme whole, its source-use relation, affected suppliers, and system consequences. `D.3` maps the conflict; use C.30.AD's architecture-description adequacy rules and E.17's publication-use rules for those separate claims.
 
 ### D.3:5.1 - Bias-Annotation
 
@@ -140,15 +140,15 @@ An episteme is ethically current when its claim-bearing structure, source-use re
 | Debate replaces structure | The team argues about values before naming the affected objects and relations. | Fill the conflict structure before mediation. |
 | Representation becomes conflict | A diagram, matrix, or narrative is treated as the ethical conflict itself. | Separate the conflict EntityOfConcern from the selected description form. |
 | Collective name becomes responsibility | Organization, society, public, market, or AI is treated as responsible by label. | Name the holon or collection, membership or participation relation, optional local kind, separate System-classification judgment, any assignment species and occurrence, agency characteristic or threshold, and evidence. Cite the direct responsibility predicate and participants or return `missing-governor`; none of the preceding facts creates responsibility. |
-| Architecture absorbs ethics | Cross-scope residual wording hides value, harm, responsibility, or admissible sacrifice. | Use architecture patterns for selected structures and `D.3` and `D.4` when ethical conflict is current. |
+| Architecture absorbs ethics | Cross-scope residual wording hides value, harm, responsibility, or admissible sacrifice. | Use A.22 and the applicable C.30 rule for a selected structure or architecture claim; use D.3 and D.4 when ethical conflict is current. |
 
 ### D.3:6 - Conformance Checklist
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | CC-D3-1 | The conflict names affected EntityOfConcern refs, declared levels or scopes, value frames, evidence, and consequence horizons. | Makes the conflict structure inspectable. |
-| CC-D3-2 | Collection, episteme, part-whole, membership, method, work, and transformation refs use their subject patterns when those claims are current. | Prevents ethical conflict from absorbing ontology. |
-| CC-D3-3 | `nextUseSubjectPatternLocator` distinguishes mediation, decision use, assurance, causal use, architecture residual, and bias, fairness, or impact audit. | Keeps D.3 separate from neighboring use patterns. |
+| CC-D3-2 | Episteme identity uses C.2.1; part-whole claims use A.14; Method uses A.3.1; dated Work uses A.15.1; transformation uses A.3.4. Collection membership and every other relation need their own direct predicate and actual participants. | Prevents ethical conflict from absorbing ontology. |
+| CC-D3-3 | `nextUseQuestionRef` points to D.4 for mediation or decision use, D.5 for bias, fairness, impact, or ethical assurance, C.28 for causal use, and C.30.ILC for an architecture residual. | Keeps D.3 separate from neighboring questions. |
 | CC-D3-4 | The representation of the conflict is not treated as the conflict itself. | Prevents semio-bias in ethical conflict maps. |
 
 ### D.3:8 - Common Anti-Patterns and How to Avoid Them
@@ -157,7 +157,7 @@ An episteme is ethically current when its claim-bearing structure, source-use re
 | --- | --- | --- |
 | Political label as structure | The conflict is named by a slogan such as society versus innovation. | Name the affected EntityOfConcern refs, levels or scopes, value frames, and evidence. |
 | Actor by plural noun | A collection is made responsible because its name is plural or institutional. | Recover membership, part-whole, participation, optional assignment, and agency evidence separately. Cite a direct responsibility relation with exact participants or return `missing-governor`. |
-| Description-only conflict | The case becomes a problem about wording of a report, model, or standard. | Keep episteme and publication-use claims with their subject patterns while mapping the affected systems or decisions. |
+| Description-only conflict | The case becomes a problem about wording of a report, model, or standard. | Use C.2.1 for episteme identity and E.17 or E.24.PUB for publication use while D.3 maps the affected systems or decisions. |
 | Mediation inside map | The conflict map chooses the compromise. | Stop at structure; D.4 is the pattern for mediation or decision use. |
 
 ### D.3:7 - Consequences
@@ -176,7 +176,7 @@ The pattern therefore focuses on the conflict EntityOfConcern: affected objects,
 | --- | --- |
 | Multilevel ethics and systems thinking | Ethical conflict often crosses declared levels or scopes through Methods, actual Work, transformations, participation, evidence, value concerns, and consequence horizons; the case must show which relations actually conflict. |
 | Collective agency and responsibility debates | Collection, organization, public, or community names require grounding in holon, membership or participation, an independently optional local kind, a separate optional System-classification judgment, any obtaining assignment, agency evidence, and a direct responsibility predicate before responsibility is asserted. |
-| Constructive and episteme ontology | Conflicts can involve systems, collections, work occurrences, bounded contexts, disciplines, and epistemes; description and publication claims remain under their subject patterns, while the forms remain only their forms, not substitutes for affected EntityOfConcern. |
+| Constructive and episteme ontology | Conflicts can involve, for example, systems, collections, work occurrences, disciplines, epistemes, or the exact practice boundaries and model-use structures current in the case. Use C.2.1 for episteme identity and E.17 or E.24.PUB for publication claims; the forms remain only their forms, not substitutes for affected EntityOfConcern. |
 | FPF architecture-residual discipline | Cross-scope architecture residual and interlevel ethical conflict can coincide; Use D.3 to map the ethical conflict and `C.30.ILC` to triage the architecture residual. |
 
 ### D.3:11 - Relations

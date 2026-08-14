@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.32.CONWAY.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
-line_start: 65967
-line_end: 66380
+line_start: 65734
+line_end: 66151
 dependencies:
   - "A.10"
   - "A.12"
@@ -105,11 +105,12 @@ Common exits by claim kind:
 
 The first useful output is `ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project`. It is a working record for candidate synthesis, not an acting entity, exact relation occurrence, architecture decision, or structural-equivalence claim.
 
-For a first pass, fill only the bounded context, synthesis question, independently identified changed referent, source-side and transformed-side exact holon and selected-structure refs, and either an obtaining C.30 `ArchitectureRelation` ref or a truthful modal `ArchitectureClaim` ref for each side, together with governed characteristic refs or plain provisional heads, applicable candidate-form heads, and the next subject pattern. Assert an influence row only when its direct relation is current and both architecture sides are obtaining C.30 occurrences; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
+For a first pass, fill only the synthesis question, intended correspondence use, ClaimScope when it changes the claim, independently identified changed referent, source-side and transformed-side exact holon and selected-structure refs, and either an obtaining C.30 `ArchitectureRelation` ref or a truthful modal `ArchitectureClaim` ref for each side. Add architecture-characteristic criteria refs or plain provisional heads, applicable candidate-form heads, evidence and the evolution window, and the next pattern. Assert an influence row only when its direct relation is current and both architecture sides are obtaining C.30 occurrences; otherwise keep one explicit provisional pressure in `provisionalArchitectureCharacteristicHeads[]` and its exact return. The first-minute case above can be filled as follows:
 
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
-  boundedContextRef: ProductFamilyModuleChange@2026Q3
+  intendedCorrespondenceUse: prepare architecture candidates for independent field-module replacement
+  claimScopeRef?: product-family module-change architecture claims
   synthesisQuestion: which source-side, product-side, joint, or bounded-mismatch change can support independently replaceable field modules?
   changedReferentRef: ProductFamilyFieldModuleBoundary@2026Q3
   influenceSourceSelectedStructureMap[]:
@@ -148,6 +149,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     - candidateRef: JointChange@CellEvidenceAndModuleBoundary
     - candidateRef: BoundedMismatch@ExplicitExceptionCost
   evolutionWindowRef: ProductFamilyModuleChange@2026Q3
+  evidenceRefs?: current batch-line evidence-structure and field-module boundary records
   nextQuestionPatternLocator: C.32.ACS
 ```
 
@@ -156,9 +158,10 @@ This sparse frame asserts no influence occurrence and no exact pair row. The fou
 ```text
 ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
   projectWorkOccurrenceRef?: U.EntityRef constrained to U.Work
-  architectureCorrespondenceFrameProjectUseRelationRef?: U.RelationRef governed by the exact synthesis-use or work-use pattern
-  boundedContextRef:
+  architectureCorrespondenceFrameProjectUseRelationRef?: U.RelationRef defined by the exact synthesis-use or work-use pattern
   synthesisQuestion:
+  intendedCorrespondenceUse:
+  claimScopeRef?: U.ClaimScope
   changedReferentRef:
   actualTransformationRef?: U.EntityRef constrained to U.Transformation, only when A.3.4 independently admits the bounded change of changedReferentRef
   performerRows[]?:
@@ -193,6 +196,7 @@ ArchitectureInfluenceTransformedArchitectureCorrespondenceFrame@Project:
     relationFunctionClaimRef:
     sourceReturnCondition?:
   evolutionWindowRef:
+  evidenceRefs?:
   architecturePairRowRefs[]?: ArchitectureInfluenceTransformedArchitectureCorrespondenceRow@Context refs
   correspondenceClaims[]?: synthesis-local compound claims that have not yet met the exact-row assertion threshold
     correspondenceId:

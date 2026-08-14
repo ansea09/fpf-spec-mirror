@@ -6,42 +6,45 @@ section_id: "F.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__014_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:13 — Relations"
-line_start: 91357
-line_end: 91371
+line_start: 91040
+line_end: 91056
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.3"
   - "F.4"
   - "F.9"
 keywords:
-  - "lexical unit"
-  - "normalization"
-  - "provenance"
-  - "source-text terms"
-  - "term harvesting"
+  - "LNF"
+  - "LocalExpression"
+  - "LocalSenseClaim"
+  - "effective ReferenceScheme"
+  - "exact source and edition"
+  - "optional SchemeSenseCell"
 ---
 
 ### F.2:13 - Relations
 
 **Builds on:**
-**F.1** (Contexts fixed; heterogeneity/parsimony in place).
-**E.10.D1 D.CTX** (Context ≡ U.BoundedContext; “Problem Frame” reserved for narrative).
-**F.0.1** (Source - Local Meaning - Bridge‑Only Crossing).
+
+- Use **F.1 Question-Relative Source Selection** to recover the exact sources, editions, answer-changing contributions, and receiving question.
+- Use **F.0.1 Source-Local Meaning Recovery** to recover the exact source-local claim.
+- Use **E.10.D1** when vague *context* wording hides source, scheme, scope, situation, or use.
+- Use **F.17** for a durable `SchemeSenseCell` and basis relation only when later reuse needs that address.
 
 **Constrains:**
-**F.3** (Intra‑Context Sense Clustering): operates **only** on units **from one Context**; produces Local‑Senses and addressable **SenseCells**.
-**F.4** (Role Description Definition): may **cite SenseCells**, not raw strings.
-**F.9** (Alignment & Bridge): consumes **homonymy signals**; declares explicit Cross‑context mappings with loss policies.
 
-**Used by.**
-Extention patterns in Part C when referencing domain idioms (labels stay **context‑local**).
+- **F.3** clusters exact expressions and local claims under one effective scheme; it does not infer sameness across sources.
+- **F.4** may cite an exact F.17 cell when a local system-role-kind description needs it; a harvested expression establishes no kind.
+- **F.9** receives exact local meanings only when a proposed use needs an actual relation between them. F.2 supplies no Bridge, equivalence, direction, or use licence.
+
+**Used by.** Part C patterns may cite the exact source expression and local-sense claim. The direct subject pattern still defines or constrains the value in the current claim.
 

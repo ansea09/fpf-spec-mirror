@@ -6,12 +6,12 @@ section_id: "C.3:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__017_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:15 — Relations"
-line_start: 44979
-line_end: 44984
+line_start: 44680
+line_end: 44685
 dependencies:
   - "A.1"
   - "A.11"
@@ -45,6 +45,6 @@ keywords:
 ### C.3:15 - Relations
 
 - **Builds on:** `A.2.6` context-slice and scope discipline, `A.6.0` reusable declaration discipline, `C.2.1` episteme identity, F-G-R, and direct subject patterns for candidate features.
-- **Coordinates with:** `C.3.1` through `C.3.5`, `C.3.A`, `C.29`, `E.24.UK`, `A.8`, `A.11`, `F.8`, `F.18`, and generic `A.22.CGUS` when typed reasoning is one locus in an admitted unfolding structure; coordinates with `StructuralCT2RTypingGroundingUnfoldingStructureBlock` only when C.3 supplies local-kind, judgment, subkind, and bridge loci inside a structural construction-to-typed/logical projection, with any cross-context bridge remaining a bridge within that projection rather than an alternative trigger; coordinates with `A.7.1` for a general diagnostic return.
+- **Coordinates with:** `C.3.1` through `C.3.5`, `C.3.A`, `C.29`, `E.24.UK`, `A.8`, `A.11`, `F.8`, `F.18`, and generic `A.22.CGUS` when typed reasoning is one locus in an admitted unfolding structure; coordinates with `StructuralCT2RTypingGroundingUnfoldingStructureBlock` only when C.3 supplies local-kind, judgment, subkind, and bridge loci inside a structural construction-to-typed or logical projection, with any cross-local bridge remaining a bridge within that projection rather than an alternative trigger; coordinates with `A.7.1` for a general diagnostic return.
 - **Does not replace:** direct candidate-feature ontology, A.14 collection membership, `A.2.6` scope, `C.29` representation use, ontic settlement in `E.24`, U-kind admission in `E.24.UK`, or naming in Part F.
 

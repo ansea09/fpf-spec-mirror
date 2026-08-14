@@ -6,7 +6,7 @@ section_id: "A.2.2:6"
 section_title: "Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__007_worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:6 — Worked Cases"
@@ -30,7 +30,7 @@ keywords:
 
 #### A.2.2:6.1 - Manufacturing Cell
 
-`WeldingShiftAssignment` is a declared species under `U.SystemRoleAssignment`. Its signature defines the holder and assigned-kind participant meanings and uses `WelderSystemRole` as the local assigned-kind domain; it adds another participant only if that participant changes the assignment predicate or occurrence identity. One occurrence has `RobotArm_A` as holder and lasts while the predicate obtains without interruption for the same participants. A taxonomy episteme, reference scheme, interval description, or generic context may interpret the assertion but is not another assignment participant. A separate Work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains. The assignment proves neither permission, ability, action, nor performed Work.
+`WeldingShiftAssignment` is a declared species under `U.SystemRoleAssignment`. Its signature defines the holder and assigned-kind participant meanings and uses `WelderSystemRole` as the local assigned-kind domain; it adds another participant only if that participant changes the assignment predicate or occurrence identity. One occurrence has `RobotArm_A` as holder and lasts while the predicate obtains without interruption for the same participants. The assertion has exact claim content, EntityOfConcern, and effective ReferenceScheme; a ClaimScope, selected slice, interval, or qualification window is stated separately when it changes interpretation or validity. None of those values is another assignment participant. A separate Work or system-locus relation may place intended or performed welding at `AssemblyLine_2026` when that relation obtains. The assignment proves neither permission, ability, action, nor performed Work.
 
 The capability instance is separate; a statement or record may describe it:
 

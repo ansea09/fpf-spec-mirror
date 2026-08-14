@@ -6,12 +6,12 @@ section_id: "F.18:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:0 — Use This When"
-line_start: 97773
-line_end: 97785
+line_start: 97125
+line_end: 97137
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -45,11 +45,11 @@ keywords:
 
 ### F.18:0 - Use This When
 
-Use `F.18` when a name must become stable, public, Core-facing, reusable across contexts, or durable enough that later work can cite it without guessing. Typical cases:
+Use `F.18` when a name must become stable, public, Core-facing, reusable under more than one named source, practice, or reference scheme, or durable enough that later work can cite it without guessing. Typical cases:
 
 - a local expression becomes a durable name for a system-role kind, relation, slot, method, work, characteristic, status value, architecture element, or other already governed value;
 - two teams use different words for the same candidate sense and need one reusable term plus preserved local wording;
-- one tempting head word is useful in one context but misleading in another;
+- one tempting head word is useful under one recovered local meaning but misleading under another;
 - a system-role-derived, method-derived, status-like, evidence-like, interface-like, or slot-like name risks creating a second ontology by wording alone.
 
 First useful move: recover the exact governed object or governed value before choosing the name. When relation-facing wording is current, distinguish a predicate-definition episteme, an admitted relation kind, an obtaining relation occurrence, a representation element, and a designator or reference; for a residual relation claim, cite the `A.6.RCD` settlement before naming. Other candidates—such as a system-role kind, assignment occurrence, method, work, characteristic, status value, architecture element, or claim-bearing episteme—stay under their direct patterns rather than being forced into that relation-facing list. When bare claim-bearing *role* still hides the object, use `E.10.ROLE` first. Then ask: under which effective by-value `U.ReferenceScheme`, by which direct pattern, for which use, and with which exact local sense is this object named? Only then decide whether a local expression is enough or a `NameCard` is needed. A public row is a later step: create one only when public, Core-facing, durable-across-context, or cross-context reuse is current and the `F.17` entry and result gate in section 4 passes.

@@ -6,12 +6,12 @@ section_id: "F.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__013_relations.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:11 — Relations"
-line_start: 98583
-line_end: 98603
+line_start: 97935
+line_end: 97955
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -61,6 +61,6 @@ Coordinates with:
 Constrained non-use:
 
 - `F.18` admits no new U-kind and creates none of the governed system-role kinds, assignments, statuses, methods, Work, relations, signatures, slots, interfaces, or other subject values it names. A `NameCard` is a separately constituted `U.Episteme` under C.2.1, not a kind minted by F.18.
-- Do not use `F.18` to decide whether two values are the same across contexts. An exact relation admitted under F.9 can obtain only between local senses whose `<ReferenceScheme, LocalSenseClaim>` projections differ; a separate C.2.1 claim states one proposed naming use between those projections, A.10 or B.3 supplies its reliance rule, and the direct value rules still decide any identity claim.
+- Do not use `F.18` to decide whether two locally interpreted values are identical. A Bridge between exact F.17 cells can obtain only under the F.9 predicate; a separate C.2.1 claim states one proposed naming use between those cells, A.10 or B.3 supplies its reliance rule, and any governed-value identity claim must independently satisfy the direct value rules.
 - `F.18` does not turn a publication row, card, table, or glossary entry into the thing being named.
 

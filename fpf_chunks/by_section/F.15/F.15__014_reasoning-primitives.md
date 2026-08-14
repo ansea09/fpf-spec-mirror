@@ -6,12 +6,12 @@ section_id: "F.15:12"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__014_reasoning-primitives.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:12 — Reasoning primitives"
-line_start: 96085
-line_end: 96115
+line_start: 95484
+line_end: 95514
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -66,10 +66,10 @@ changedMemberResult(priorRef, laterRef, rscrRef, continuityOrChangeClaim, losses
 
 ```text
 failedRule(ruleRef, subjectClaimRef)
-  -> use its subject pattern for subjectClaimRef before the receiving use.
+  -> use the defining or testing rule for subjectClaimRef before the receiving use.
 ```
 
-F.15 may report the failed check. It does not repair or decide the subject claim merely by writing another record field.
+An F.15 result may report the failed check. Writing another record field neither repairs nor decides the subject claim.
 
 ```text
 bridgeSuitableForUse(bridgeOccurrenceRef, useClaimRef)

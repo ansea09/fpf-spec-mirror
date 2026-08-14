@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.31.RSA.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
-line_start: 63877
-line_end: 64257
+line_start: 63615
+line_end: 64010
 dependencies:
   - "A.10"
   - "A.19"
@@ -54,9 +54,16 @@ The first useful move is `ReusableStructureTriage`:
 ```text
 ReusableStructureTriage:
   describedHolonRef:
-  boundedContextRef:
+  reuseQuestion:
+  deploymentBoundary?:
+  intendedAccountingUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureClaimRef?:
-  structureRefs or structuralAspectRefs:
+  structureRefs:
+  structuralAspectRefs?:
+  accountingRelationRefs:
+  evidenceRefs:
   whereReusableStructureCurrentlyLives:
   whereBespokeResidueCurrentlyGrows:
   residueRefactoredInto:
@@ -64,7 +71,7 @@ ReusableStructureTriage:
     workStructure | evidencePackage | assuranceArgumentStructure | otherDeclared
   residueAcceptedAsBoundedException:
   sourceReturnCondition?:
-  relatedClaimGovernanceIfClaimed:
+  relatedClaimPatternsIfClaimed:
   stopCondition:
 ```
 
@@ -256,13 +263,21 @@ Each customer delivery still repeats approval work and bespoke integration excep
 
 ```text
 describedHolonRef: product-line delivery system
-boundedContextRef: regulated customer deployments, current qualification window
-architectureClaimRef: ArchitectureOf@Context(product-line delivery)
-structureRefs or structuralAspectRefs:
+reuseQuestion: which selected structures are reused and where does bespoke residue grow?
+deploymentBoundary: regulated customer deployments
+intendedAccountingUse: decide the next reusable-structure repair
+claimScopeRef: reusable-structure accounting for regulated delivery
+qualificationWindowRef: 2026Q3 regulated-delivery review window
+architectureClaimRef: C.30 architecture claim for the product-line delivery system and its selected delivery structures
+structureRefs:
   component template structure
   interface grammar structure
   evidence package structure
   delivery work structure
+accountingRelationRefs:
+  reuse, exception, and bespoke-residue relations for the named deployments
+evidenceRefs:
+  deployment, approval, integration-exception, and reusable-test-package records
 whereReusableStructureCurrentlyLives:
   component template structure
   reusable test package
@@ -277,7 +292,7 @@ residueAcceptedAsBoundedException:
   customer-specific regulatory clause with declared non-admissible reuse
 sourceReturnCondition:
   return to deployment evidence and regulatory exception record before assurance or gate use
-relatedClaimGovernanceIfClaimed:
+relatedClaimPatternsIfClaimed:
   `A.10` and `G.6` for evidence validity; `B.3` for assurance reliance; `A.6.M` for interface grammar; `C.16` if comparison is being made
 stopCondition:
   report-only accounting unless comparator admission, evidence validity, and assurance validity are declared

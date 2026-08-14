@@ -6,12 +6,12 @@ section_id: "E.10:14"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__016_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:14 — Conformance Checklist"
-line_start: 75883
-line_end: 75898
+line_start: 75710
+line_end: 75725
 dependencies:
   - "A.10"
   - "A.15"
@@ -63,12 +63,12 @@ Use this checklist for the accepted wording span, not for the whole corpus by re
 1. **Bounded span named.** The exact sentence, row, section, pattern, or project text under repair is recoverable.
 2. **Trigger and use separated.** The trigger word is identified, and the FPF-governed use carried by that word is stated separately from the word itself.
 3. **Plain result and applicable pattern recovered.** The repaired wording states the ordinary sentence or action first, selects one `E.10:0.0a` branch when the use is relation-like, and names that result's pattern and admissible use. A different governed object, source-use relation, explicit non-use, or blocker is named instead when no branch applies.
-4. **Applicable pattern selected.** If the issue is no longer lexical, name the pattern or precision-restoration realization pattern and its concrete contribution.
+4. **Applicable rule identified.** If the issue is no longer lexical, name the pattern or precision-restoration realization pattern and its concrete contribution.
 5. **The four relation-like branches remain distinct.** An obtaining world-side relation is not its reusable declaration, a report that claims it, or a field, table, graph, or formula that represents it. A declaration position, participant designation, label, or representation place creates no actual participant, obtaining relation, or new U-kind by itself.
 6. **Math lens kept separate from ontology.** Graphs, tuples, algebras, spaces, mappings, and similar mathematical expressions are used as mathematical lenses only when that is the current claim.
 7. **Final wording closes the local wording-use case.** The result is accepted wording, direct pattern use, controlled precision reduction, quote-only use, reduced-use cue, blocked use, incomplete rewrite, ordinary prose, or not-triggered disposition.
 8. **No umbrella replacement.** The repair does not replace one broad head with another broad head such as `basis`, `support`, `route`, `path`, `status`, `record`, `object`, `role`, `method`, `mechanism`, `flow`, or `structure` without the recovered object and relation.
 9. **Reader use remains visible.** The user can still see what to do next with the project object, relation, source, evidence, publication, method, work, architecture, characteristic, or other EntityOfConcern that made the wording important.
-10. **Work/method boundary words close through a governor.** `input`, `raw material`, `source data`, `source material`, `output`, `result`, `outcome`, `deliverable`, `handoff`, and work-name wording either retain an already exact direct pattern use or return one `A.6.P.WMR` exit. Classification, a generic result relation, method-description filling, or a designation that merely type-checks against an A.6.5 `SlotSpec` is not closure.
+10. **Work/method boundary words close through a governor.** `input`, `raw material`, `source data`, `source material`, `output`, `result`, `outcome`, `deliverable`, `handoff`, and work-name wording either retain an already exact direct pattern use or produce one `A.6.P.WMR` result family. Classification, a generic result relation, method-description filling, or a designation that merely type-checks against an A.6.5 `SlotSpec` is not closure.
 
 

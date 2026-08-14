@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.S.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
-line_start: 20915
-line_end: 21353
+line_start: 20609
+line_end: 21044
 dependencies:
   - "A.12"
   - "A.3"
@@ -62,14 +62,14 @@ keywords:
 
 This pattern reserves the following tokens in Tech (normative) register:
 
-* **TargetSignature** — the engineered signature episteme (and its editions) under construction/stabilisation (**not** the EntityOfConcern, and **not** a Bridge “target Context”).
+* **TargetSignature** — the engineered signature episteme (and its editions) under construction and stabilisation (**not** the EntityOfConcern, and **not** the target source or cell of an F.9 relation).
 * **ConstructorSignature** — the enabling signature that describes constructor operations for TargetSignature evolution (do **not** mint a second Tech token such as `EnablingSignature`).
 
 Rename-guards (common collisions):
 
 * **enabling** — Plain adjective meaning “producing/maintaining the TargetSignature”; it is not a `U.*` token.
 * **constructor** — MUST be disambiguated as one of: `ConstructorSignature` (episteme), `constructor op` (EFEM), or the admitted System that performs the construction Work. State any local system-role classification and obtaining system-role assignment separately. If the physics term is intended, spell **“Constructor Theory”** explicitly.
-* **target** — avoid bare “target” in Tech clauses; use `TargetSignature` or qualify the target (e.g., “Bridge target Context”, “target holon”).
+* **target** — avoid bare “target” in Tech clauses; use `TargetSignature` or qualify the target (for example, “F.9 target cell” or “target holon”).
 * **contract** — if source wording uses this Plain shorthand, recover whether it means `TargetSignature`, Contract Bundle, promise content, commitment, or work/evidence. In this pattern the intended recovered value is usually `TargetSignature`; promises, duties, and gates are classified under `A.6.B` and `A.6.C`.
 
 ### A.6.S:1 - Problem frame
@@ -104,7 +104,7 @@ FPF needs a pattern for **engineering signatures as boundary epistemes**: a disc
 * **Effect‑free operators vs enacted work.** The construction-and-change language should be expressible as effect-free epistemic morphisms (no measurement or actuation), yet applying constructor operations to signature epistemes is still `U.Work` performed by an admitted System and must be auditable. F.6 identifies the assignment under which each performer acted; a short account may omit an unused assignment identifier.
 
 * **Multi‑view richness vs semantic coherence.** Views help stakeholders, but they risk becoming divergent “versions of truth”.
-* **Local meaning vs cross‑context reuse.** Signatures should keep meaning local to a context; reuse across contexts requires explicit bridges and declared loss/penalty policy.
+* **Local meaning vs cross-local reuse.** Signature claim content pins its effective ReferenceScheme where interpretation matters. The local kind and any source-local meaning remain separate values; an actual relation between distinct F.17 cells uses F.9 with its declared limits.
 * **Contract talk vs ontology.** “Contract” language invites mixing promises, norms, and invariants; FPF requires quadrant discipline.
 * **No epistemic agency.** It is tempting to phrase “the ConstructorSignature constructs…”. In FPF, only Systems act; epistemes do not.
 
@@ -116,11 +116,11 @@ This pattern relies on **Strict Distinction** (A.7), transformation discipline (
 
 * **ConstructorSignature (operator description; EntityOfConcern and Description-episteme boundary).**
   The ConstructorSignature is an **Episteme** (typically a Description/Spec) that *describes* a small family of constructor operations for signature evolution.
-  The ConstructorSignature SHALL specify each constructor operation family as an instance/species of `U.EffectFreeEpistemicMorphing` (EFEM; A.6.2) or a declared sub‑species (e.g., A.6.3/A.6.4): **episteme→episteme** morphisms over the `C.2.1 U.EpistemeSlotRelation` positions (`ClaimGraphSlot`, `EntityOfConcernSlot`, `GroundingHolonSlot`, `ViewpointSlot`, `ViewSlot`, `ReferenceSchemeSlot`) plus attached meta/edition fields.
+  For each constructor-operation family, the ConstructorSignature SHALL state whether it follows the general EFEM rules in A.6.2, the more specific viewing rules in A.6.3, or the retargeting rules in A.6.4. Its declaration states the effect of the episteme-to-episteme morphism on exact claim content, EntityOfConcern, and effective ReferenceScheme and separately names any empirical-grounding relation, representation relation, describing-use viewpoint selection, view-conformance claim, or edition value it consumes.
   As EFEM, constructor ops are **effect‑free** in the strict A.6.2 sense: **no Work, no Mechanism application, and no mutation of systems or carriers**.
   Concretely: an EFEM step *derives* a successor episteme (often a new edition) and its structured delta; the physical act of materialising that successor on carriers (files, repositories, registries, releases, or carrier and source-currentness records) is **Work** performed by an admitted System. Any local system-role classification remains a separate claim. F.6 identifies the assignment under which each performer acted; a short account may omit an assignment identifier that no later claim uses.
 
-  Slot discipline alignment requirement (A.6.5 and C.2.1:7.1): a conforming ConstructorSignature SHALL state (for each constructor operation entry) which `C.2.1` slots it may read and which it may write, expressed in SlotKind/ValueKind/RefKind terms, and SHALL declare whether that operation entry is a species of A.6.2, A.6.3, or A.6.4.
+  Value-and-relation alignment requirement (C.2.1:7.1 and A.6.5): for each constructor-operation entry, a conforming ConstructorSignature SHALL state which C.2.1 identity values and neighboring relations it reads or changes and whether it follows the general A.6.2 EFEM rules, the A.6.3 viewing rules, or the A.6.4 retargeting rules. SlotKind, ValueKind, and refMode terms are used only for an exact reusable relation declaration and remain local to its `RelationSignature`.
 
 * **Enactor (capability) vs enactment (world-contact).**
   An admitted `U.System` uses a **Method** and performs particular steps as dated **Work** on carriers such as repositories, releases, pins, and carrier and source-currentness references. A MethodDescription is a separate episteme that describes the Method. F.6 identifies the assignment under which each performer acted; neither a local system-role kind nor an assignment acts. A short account may omit an assignment identifier that no later claim uses.
@@ -143,21 +143,18 @@ In a conforming design, model **two signatures**:
 
 A.6.S names this pairing discipline **U.SignatureEngineeringPair**: a signature engineering arrangement where a ConstructorSignature is explicitly defined for (at least) one TargetSignature.
 
-Minimal definition (informative): a `U.SignatureEngineeringPair` binds exactly two signature epistemes in the same Context: a **TargetSignature** (the boundary signature under stabilization) and a **ConstructorSignature** (the enabling signature describing the constructor operations used to build/evolve the TargetSignature).
+Minimal definition (informative): a `U.SignatureEngineeringPair` binds exactly two signature epistemes for one named signature-engineering question and use: a **TargetSignature** (the boundary signature under stabilization) and a **ConstructorSignature** (the enabling signature describing the constructor operations used to build or evolve the TargetSignature). Each signature carries its own effective scheme, criterion, dependencies, and applicability in claim content; the pair stores neither a local kind nor a source-local meaning.
 
 **Terminology note (C.2.1 alignment + twin discipline).**
 This pattern uses `TargetSignature` as the **Tech designation** for “the signature episteme under construction and stabilisation”. It is a designation of the signature's place in this arrangement, not a local system-role kind or system-role assignment.
-If a Context wants an explanatory Plain label, it MAY use **“signature of interest (SoI)”** as a **Plain twin** for `TargetSignature`, but Plain twins are didactic only and MUST NOT appear in conformance/acceptance clauses.
+If a publication needs an explanatory Plain label, it MAY use **“signature of interest (SoI)”** as a **Plain twin** for `TargetSignature`, but Plain twins are didactic only and MUST NOT appear in conformance or acceptance clauses.
 
-Do not conflate:
-* the **TargetSignature** (a signature episteme that is engineered and published), with
-* the TargetSignature’s **`EntityOfConcernSlot`** (C.2.1), which refers to the boundary or entity the signature is *about*; C.2.1 calls this the EntityOfConcern or entity of concern.
+Do not conflate the **TargetSignature**—the signature episteme being engineered and published—with its exact C.2.1 EntityOfConcern, the boundary or entity that its claims concern.
 
 In C.2.1 terms:
-* the TargetSignature is the **episteme** (and its editions) that we engineer and publish;
-* the TargetSignature’s `EntityOfConcernSlot` refers to the **entity of concern** (the boundary in the world or model);
-* the TargetSignature’s `GroundingHolonSlot` anchors where/how that boundary description is grounded.
-
+* the TargetSignature is the episteme, and distinct editions remain distinct epistemes under the C.2.1 identity rule;
+* its exact EntityOfConcern is the boundary or entity in the world or model that the signature claims concern; and
+* if empirical grounding is claimed, an exact `EpistemeEmpiricalGroundingRelation` separately names the covered claims and grounding holon.
 If the “SoI” phrasing risks confusion with C.2.1 “entity‑of‑interest” talk, keep it out of Tech/normative prose and use **TargetSignature** vs **ConstructorSignature** consistently.
 
 **Mint-or-Reuse note (informative).**
@@ -166,7 +163,7 @@ This pattern introduces the following **Tech names** in the A.6 cluster:
 * **ConstructorSignature** — the enabling signature (episteme) describing constructor operations for TargetSignature evolution;
 * **U.SignatureEngineeringPair** — the two‑signature arrangement (TargetSignature + ConstructorSignature).
 
-If any Plain twins are used (e.g., “signature of interest”), they MUST follow the E.10/F.* twin discipline (1:1 mapping per Context, registry entry, and no use in normative register).
+If any Plain twins are used (for example, “signature of interest”), they MUST follow the E.10 and F.* twin discipline: one-to-one correspondence under the effective scheme, registry entry when that public reuse needs one, and no Plain twin in normative register.
 
 The intended shape is:
 
@@ -291,8 +288,8 @@ In most cases, use:
 * **edition** + explicit continuity/withdrawal links for semantic evolution, and
 * a coarse **status** (`Draft`/`Review`/`Stable`/`Deprecated`) for process signalling.
 
-If a Context needs a finer state-change policy (e.g., “proposed → reviewed → published → frozen”), model it as Work policy in the ConstructorSignature’s Applicability or as a Context‑local state-change episteme; keep the TargetSignature semantics unchanged.
-Where state-change policy is normative, express it as a Context-local status or state-transition policy for the relevant signature episteme or publication, with A.2.4/F.10 status-use discipline and A.6.5 slot discipline where needed. Do not call the episteme's status a system role or create a system-role assignment for it; use E.10.ROLE to route bare *role* wording to the actual status, state, declaration-position, or other direct branch.
+If a project needs a finer state-change policy (for example, “proposed → reviewed → published → frozen”), model it as Work policy in the ConstructorSignature's Applicability or as a separately identified local state-change episteme; keep the TargetSignature semantics unchanged.
+Where state-change policy is normative, express it as a status or state-transition policy for the relevant signature episteme or publication under its effective scheme and ClaimScope, with A.2.4 and F.10 status-use discipline and A.6.5 slot discipline where needed. Do not call the episteme's status a system role or create a system-role assignment for it; use E.10.ROLE to route bare *role* wording to the actual status, state, declaration position, or other direct branch.
 
 ### A.6.S:5 - Archetypal Grounding — Tell–Show–Show
 
@@ -300,7 +297,7 @@ Where state-change policy is normative, express it as a Context-local status or 
 
 #### A.6.S:5.1 - Show — System archetype
 
-**Context.** A payments microservice exposes an external boundary used by multiple client systems.
+**Working situation.** A payments microservice exposes an external boundary used by multiple client systems.
 
 **Half‑signature input (what arrives).**
 “Service binds a `User` to a `PaymentMethod`, anchors charges to the `Ledger`, and guarantees idempotency.”
@@ -311,7 +308,7 @@ Where state-change policy is normative, express it as a Context-local status or 
 
   * **Vocabulary:** operations like `Authorize`, `Charge`, `Refund`; slots made explicit (e.g., `UserRefSlot`, `PaymentMethodRefSlot`, `LedgerEntryRefSlot`).
   * **Laws (examples):** “Charge is idempotent under IdempotencyKey”; “Refund does not increase net balance”.
-  * **Applicability:** bounded context = “Payments”, scope = “External API”.
+  * **Applicability:** Payments external API; effective ReferenceScheme and scope are named by the signature edition.
 
 * **ConstructorSignature:** `PaymentSignatureEngineering`
 
@@ -337,7 +334,7 @@ Where state-change policy is normative, express it as a Context-local status or 
 
 #### A.6.S:5.2 - Show — Episteme archetype
 
-**Context.** A research group publishes a “signature” for a boundary concept used across multiple theories (a common “interface” between models).
+**Working situation.** A research group publishes a signature for a boundary concept used across multiple theories—a common interface between models.
 
 **Half‑signature input.**
 “We define correspondence between model A and model B; parameters are anchored to a reference dataset.”
@@ -348,7 +345,7 @@ Where state-change policy is normative, express it as a Context-local status or 
 
   * **Vocabulary:** relation `Corresponds(A_model, B_model, Φ_bridge)` with explicit slot kinds and ref/value modes.
   * **Laws:** invariants about correspondence preservation (“observable X is preserved up to tolerance ε”).
-  * **Applicability:** bounded context = “Model alignment”.
+  * **Applicability:** the named model-alignment question and use; effective schemes and any actual F.9 relation are stated separately.
 
 * **ConstructorSignature:** `CorrespondenceSignatureEngineering`
 
@@ -380,12 +377,12 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 |             ID | Requirement                                                                                                                                                                                                                                                               | Purpose                                                               |
 | -------------: | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- |
 | **CC‑A.6.S‑1** | A conforming boundary description **SHALL** identify a **TargetSignature** and (when the boundary is being actively constructed or evolved) a **ConstructorSignature** that describes how the TargetSignature is produced and revised.                                     | Prevents conflating the TargetSignature with the ConstructorSignature engineering work. |
-| **CC‑A.6.S‑2** | The ConstructorSignature **SHALL** use (or explicitly map to) the canonical **slot operation verbs** from A.6.5 and the **base‑change lexicon** from A.6.6 (`declareBase`, `rebase`, `rescope`, `retime`, …). It **MUST NOT** use umbrella metaphors (e.g., `anchor*`) or “bind/binding” as substitutes for explicit baseRelation/base‑change talk, and it **MUST NOT** collapse distinct meanings (e.g., using “edit” for both by‑value updates and ref retargeting). Context‑specific shorthands MAY exist, but they MUST have an explicit mapping entry to the canonical verb classes and be registered per LEX discipline. | Keeps change semantics explicit and reviewable.                       |
+| **CC‑A.6.S‑2** | The ConstructorSignature **SHALL** use (or explicitly relate its terms to) the canonical **slot operation verbs** from A.6.5 and the **base-change lexicon** from A.6.6 (`declareBase`, `rebase`, `rescope`, `retime`, …). It **MUST NOT** use umbrella metaphors (for example, `anchor*`) or “bind/binding” as substitutes for explicit baseRelation/base-change talk, and it **MUST NOT** collapse distinct meanings (for example, using “edit” for both by-value updates and ref retargeting). Source- or project-specific shorthands MAY exist, but each has an explicit relation to the canonical verb class and is registered only when the receiving use needs durable reuse. | Keeps change semantics explicit and reviewable. |
 | **CC‑A.6.S‑3** | Any TargetSignature change that alters TargetSignature meaning **SHALL** mint a **new TargetSignature edition** and downstream references **SHALL** be updated via explicit **ref retargeting** (A.6.5), not by silent in‑place mutation. Use A.6.4 retargeting only when `EntityOfConcernRef` changes under a `KindBridge`. | Makes semantic evolution explicit without confusing editioning with described‑entity retargeting. |
 | **CC‑A.6.S‑4** | If MVPK is used, each published face (`U.View`) **SHALL** be constructed as a **view** of the canonical L/A/D/E-classified claim set and **MUST NOT** introduce new semantic commitments. `AssuranceLane` MAY add procedural adjudication guidance and evidence pointers, but any normative criteria MUST be stated as canonical `E-*` claims and be cited by ID. | Prevents parallel Contract Bundles or rival canonical claim sets emerging from views.                    |
 | **CC‑A.6.S‑5** | Claims about laws, admissibility, deontics, and work evidence **SHALL** be classified using A.6.B’s quadrant discipline and (where used) recorded with stable claim IDs in a claim register.                                                                                  | Prevents quadrant mixing in contract prose.                           |
 | **CC‑A.6.S‑6** | The TargetSignature **SHALL NOT** contain operational gate predicates or deontic obligations; such constraints belong to mechanisms and agent norms respectively (A.6.1, A.6.B).                                                                                         | Preserves the signature/mechanism boundary.                           |
-| **CC‑A.6.S‑7** | Constructor operations described by the ConstructorSignature **SHALL** be expressible as **effect‑free epistemic morphisms** (A.6.2). For each EFEM constructor operation family, the ConstructorSignature **MUST** declare `entityOfConcernChangeMode` and the `C.2.1` slot read/write profile. Any step that performs measurements, actuation, validation runs, or other side‑effects **MUST** be modeled as Work or Mechanism application and cannot be a constructor op. | Prevents smuggling mechanisms/work into “signature editing”.          |
+| **CC-A.6.S-7** | Constructor operations described by the ConstructorSignature SHALL be expressible as effect-free epistemic morphisms (A.6.2). For each EFEM constructor operation family, the ConstructorSignature MUST declare `entityOfConcernChangeMode` and its C.2.1 value-and-relation read/change profile. Any step that performs measurements, actuation, validation runs, or other side effects MUST be modeled as Work or Mechanism application and cannot be a constructor operation. | Prevents smuggling mechanisms or Work into signature editing. |
 | **CC‑A.6.S‑8** | Any concrete change to a TargetSignature edition or its MVPK faces **SHALL** be represented as Work performed by an admitted System, with A.10 evidence and E.17 publication relations where current. It **SHALL** satisfy F.6 for every performer; a short boundary account may omit an assignment identifier not used by its receiving claim. Normative text **MUST NOT** ascribe agency to the signature, local system-role kind, or assignment. | Aligns no-epistemic-agency with current System, Work, assignment, evidence, and publication discipline. |
 
 ### A.6.S:8 - Common Anti-Patterns and How to Avoid Them
@@ -408,7 +405,7 @@ Lenses tested: **Gov**, **Arch**, **Onto/Epist**, **Prag**, **Did**. Scope: **Un
 | **Cleaner separation of concerns.** Signatures stay free of gates and obligations; mechanisms and norms stay explicit.                  | **Temptation to over‑formalize.** Some contexts do not need deep formality. *Mitigation:* apply assurance‑appropriate depth; keep views lightweight. |
 | **Multi‑view publication stays coherent.** Views are projections, not semantic forks.                                                   | **Discipline enforcement needed.** Without review habits, teams regress. *Mitigation:* make CC items part of boundary review checklists.             |
 
-**Adoption test (informative).** A Context is “A.6.S-ready” when, for every TargetSignature change, reviewers can point to (i) the constructor verbs used (A.6.5 and A.6.6), (ii) the EFEM metadata (`entityOfConcernChangeMode` and slot read-and-write profile), and (iii) the performer System, dated Work, F.6 attribution, and publication carriers (A.1, A.15, A.15.1, A.2.1, F.6, A.10, E.17). An ordinary short account may omit an assignment identifier not used by its receiving claim.
+**Adoption test (informative).** A signature-engineering use is “A.6.S-ready” when reviewers can point, for every TargetSignature change, to (i) the constructor verbs used (A.6.5 and A.6.6), (ii) the EFEM metadata (`entityOfConcernChangeMode` and value-and-relation read/change profile), and (iii) the performer System, dated Work, F.6 attribution, and publication carriers (A.1, A.15, A.15.1, A.2.1, F.6, A.10, E.17). An ordinary short account may omit an assignment identifier not used by its receiving claim.
 
 ### A.6.S:10 - Rationale
 
@@ -450,9 +447,9 @@ Finally, classifying claims through A.6.B makes “contract” talk ontologicall
   * A.6.0 — `U.Signature`
   * A.6.2 — `U.EffectFreeEpistemicMorphing` (constructor ops are EFEM species)
   * A.2, A.2.1, and F.6 — local system-role kinds and the assignment under which each System performed the Work; classification, assignment, performer System, and proportional reporting remain separate
-  * C.2.1 — Episteme slots (`EntityOfConcernSlot`, `ViewpointSlot`, `ViewSlot`) and naming deconfliction
+  * C.2.1 — episteme identity through claim content, exact EntityOfConcern, and effective ReferenceScheme, with empirical grounding and edition continuity kept as separate direct relations
   * (optional) E.18 — TransformationFlowStructure, when signature-construction work is represented as a transformation-flow structure
-  * E.10 and LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept out of normative register
+  * E.10 and LEX discipline — if the publication uses Plain twins (“SoI”) or shorthands, keep their exact Tech readings recoverable and keep Plain twins out of normative register
   * A.6.3 — `U.EpistemicViewing`
   * A.6.4 — `U.EpistemicRetargeting`
   * A.6.5 — relation-declaration slot discipline

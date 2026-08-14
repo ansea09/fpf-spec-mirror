@@ -1,39 +1,59 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.16"
-pattern_title: "Worked‑Example Template (Cross‑Domain)"
+pattern_title: "Worked-Example Template (Cross-Domain)"
 section_id: "F.16:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__002_intent-applicability.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.16 — Worked‑Example Template (Cross‑Domain)"
+  - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:1 — Intent & applicability"
-line_start: 96278
-line_end: 96285
+line_start: 95677
+line_end: 95686
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.3"
+  - "A.6.1"
+  - "A.6.RCD"
   - "B.1.5"
   - "B.3"
-  - "D.CTX"
+  - "C.16.P"
   - "E.10.D1"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
-  - "F.1-F.12"
+  - "F.10"
+  - "F.12"
   - "F.15"
+  - "F.17"
+  - "F.2"
+  - "F.3"
+  - "F.4"
+  - "F.6"
+  - "F.7"
+  - "F.9"
 keywords:
-  - "cross-domain illustration"
-  - "didactic template"
-  - "example"
-  - "pedagogy"
+  - "actual values"
+  - "boundary"
+  - "direct relations"
+  - "evidence"
+  - "exact sources"
+  - "optional cell"
+  - "optional comparison table"
+  - "practical gain"
+  - "working situation"
 ---
 
 ### F.16:1 - Intent & applicability
 
-**Intent.** Provide a **single, didactic page template** for cross‑domain worked examples that makes every claim **local to a Context** (Context), every Cross‑context step **explicit via a Bridge**, and every named role template or status template **traceably tied** to one **SenseCell**. The template is **notation‑free** and **tool‑agnostic**; it captures **how to think** the example so others can replay it.
+**Intent.** Provide a one-page worked-example shape that starts with a recognizable question and practical gain, names the actual values and obtaining relations, exposes exact sources and evidence, and leaves a clear boundary. Optional lexical cells and comparison tables help navigation only when they reduce reader effort.
 
-**Applicability.** Use whenever you illustrate **any** FPF construct that spans more than one Context: **Role Assignment & Enactment** bindings, acceptance checks, measurement-driven claims, type alignment, control/actuation stories, etc.
+**Use this when.** A pattern needs a compact example that crosses disciplines, source schemes, design-time and run-time boundaries, or several relation families and prose alone would hide the hand-offs.
 
-**Non‑goals.** No registries, workflows, editors, or storage formats; no step‑by‑step “team procedures.” This pattern shapes **the page a reader sees**, not how it was produced.
+**Do not use this when.** A shorter direct example already shows the claim. F.16 does not require a cross-source relation, table row, lexical cell, system-role claim, window, or SoD unless the case actually contains one.
+
+**Non-goals.** No registry, workflow, editor, storage format, or proof by page layout. The template shapes what the reader sees, not how a team produces it.
 

@@ -6,12 +6,12 @@ section_id: "E.15:7"
 section_title: "Rationale & Links (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__008_rationale-links-informative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:7 — Rationale & Links (informative)"
-line_start: 79612
-line_end: 79615
+line_start: 79432
+line_end: 79435
 dependencies:
   - "A.10"
   - "B.3"
@@ -30,5 +30,5 @@ keywords:
 
 ### E.15:7 - Rationale & Links (informative)
 
-LEX‑AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** through evidence-use relations and **KD‑CAL**, drives **candidate generation** with **C.18 NQD‑CAL** under **C.19 E/E‑LOG**, enforces **lexical discipline** via **E.10 LEX‑BUNDLE**, and validates with **F.15** regression harnesses. Cross‑context safety is carried by **F.9 Bridges** with **CL penalties** in **B.3 Trust**. The whole remains **notation‑independent** (E.5.2) and stays within the **Core → Tooling → Pedagogy** dependency rule (E.5.3).
+LEX-AUTH extends the FPF constitution by **operationalising pattern evolution**: it plugs **B.4 Canonical Evolution Loop** into **E.9 DRR**, binds **SoTA** through evidence-use relations and **KD-CAL**, drives candidate generation with **C.18 NQD-CAL** under **C.19 E/E-LOG**, enforces lexical discipline via **E.10 LEX-BUNDLE**, and validates with **F.15** regression harnesses. When the work consumes an actual relation between distinct source-local meanings, F.9 carries that relation and B.3 carries any assurance penalty. The whole remains notation-independent (E.5.2) and stays within the Core → Tooling → Pedagogy dependency rule (E.5.3).
 

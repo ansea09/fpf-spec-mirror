@@ -6,12 +6,12 @@ section_id: "D.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__010_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:6 — Conformance Checklist"
-line_start: 69250
-line_end: 69258
+line_start: 69049
+line_end: 69057
 dependencies:
   - "A.1"
   - "A.10"
@@ -38,7 +38,7 @@ keywords:
 | ID | Requirement | Purpose |
 | --- | --- | --- |
 | CC-D3-1 | The conflict names affected EntityOfConcern refs, declared levels or scopes, value frames, evidence, and consequence horizons. | Makes the conflict structure inspectable. |
-| CC-D3-2 | Collection, episteme, part-whole, membership, method, work, and transformation refs use their subject patterns when those claims are current. | Prevents ethical conflict from absorbing ontology. |
-| CC-D3-3 | `nextUseSubjectPatternLocator` distinguishes mediation, decision use, assurance, causal use, architecture residual, and bias, fairness, or impact audit. | Keeps D.3 separate from neighboring use patterns. |
+| CC-D3-2 | Episteme identity uses C.2.1; part-whole claims use A.14; Method uses A.3.1; dated Work uses A.15.1; transformation uses A.3.4. Collection membership and every other relation need their own direct predicate and actual participants. | Prevents ethical conflict from absorbing ontology. |
+| CC-D3-3 | `nextUseQuestionRef` points to D.4 for mediation or decision use, D.5 for bias, fairness, impact, or ethical assurance, C.28 for causal use, and C.30.ILC for an architecture residual. | Keeps D.3 separate from neighboring questions. |
 | CC-D3-4 | The representation of the conflict is not treated as the conflict itself. | Prevents semio-bias in ethical conflict maps. |
 

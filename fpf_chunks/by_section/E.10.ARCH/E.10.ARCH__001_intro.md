@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:intro — Intro"
-line_start: 76264
-line_end: 76291
+line_start: 76091
+line_end: 76118
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -73,11 +73,11 @@ keywords:
 **Plain-name.** Wording ontology repair architecture.
 
 **Intent.**
-Keep FPF wording-use precision restoration distributed without letting every pattern of concern or subject pattern grow its own first-stage wording-recognition table. `E.10` recognizes overloaded wording use; `E.10.ARCH` says which applicability rows exist, how one row selects the first applicable restoration or subject pattern, and when repeated repair-only prose should be extracted from a subject pattern.
+Keep FPF wording-use precision restoration distributed without letting every pattern of concern or subject pattern grow its own first-stage wording-recognition table. Use `E.10` to recognize overloaded wording, `E.10.ARCH` to find the applicable row and choose the first restoration or the rule for an already recovered claim, and extraction only when repair-only prose is repeated inside a subject pattern.
 
 `E.10.ARCH` is not a generic language-cleanup pattern. Its mechanism is ontological reconstruction: recover the object or relation at issue, the use that makes the wording consequential, and the pattern text that defines or constrains that object, relation, or use. Recover a claim-bearing episteme, publication object, source-relation disposition, state-family value, or mathematical lens only when that object is current. The output returns to wording after those objects and their direct relations are recoverable. When the kind is recoverable but phrase-level apparatus still hides it, use `F.19` for ontology-first plain technical rewriting.
 
-**Relation-use recovery rule.** When wording hides a positive or explicitly restricted direct-relation claim, first name the obtaining direct relation and its actual participants under the participant meanings stated by the direct pattern. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants. A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless its subject pattern establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`. `E.10.ARCH` creates none of those objects; it supplies the authoring route back to their subject patterns.
+**Relation-use recovery rule.** When wording hides a positive or explicitly restricted direct-relation claim, first name the obtaining relation and its actual participants as specified by the ClaimGraph that defines the predicate. Individuate one `U.Relation` occurrence only when a named receiving use needs to distinguish it. Add a reusable `RelationSignature` and A.6.5 `SlotSpec` values only when reusable typed declaration is current. Add participant designations only inside a current assertion or relation-occurrence-description episteme; the designations do not replace the actual participants. A filled project row that states the claim is a claim-bearing episteme. A field, edge, diagram element, or table cell remains a publication form or C.29 representation element unless a defining rule establishes another object and an explicit correspondence. Use an E.24 `onticSlotRelation` only after durable ontic settlement makes that direct relation current. A mathematical tuple or argument position stays representation-side until an explicit correspondence relates it to a declared `SlotSpec`. Using `E.10.ARCH` creates none of those objects; the author returns to the rules that define, constrain, or test them, with the PatternIDs serving only as locators.
 **Use this pattern when** a recurring wording-use problem hides stable ontological recovery work that should be shared instead of copied into each subject pattern. In DPF authoring, enter through `E.4.DPF` only when recurring domain wording prevents reliable use of named DPF patterns. The shared method remains in FPF; each domain entry remains in the DPF that uses it.
 
 **What goes wrong if missed.** Subject patterns accumulate local wording-repair catalogues and stop foregrounding their own governed object, invariant, and first useful move.
@@ -86,9 +86,9 @@ Keep FPF wording-use precision restoration distributed without letting every pat
 
 **Rationale.** Precision restoration needs an ontology-first distribution rule because a recurring trigger word may hide different governed objects, direct relations and participants, declaration-local `SlotSpec` values, claim-bearing epistemes, publication objects, or mathematical lenses in different places.
 
-**SoTA-Echoing.** The pattern follows FPF's current ontology-first restoration practice: typed object recovery, subject pattern use when available, and thin pointers in subject patterns instead of repeated repair doctrine.
+**SoTA-Echoing.** The pattern follows FPF's current ontology-first restoration practice: recover the typed object, use its defining, constraining, or testing rule when available, and keep only a thin pointer in a subject pattern instead of repeated repair doctrine.
 
 **Builds on.** `E.10`, `A.6.P`, `A.6.P.WMR`, `A.6.RCD`, `A.6.F`, `C.2.P`, `C.2.P.DR`, `C.30.STRAT`, `A.19.SPR`, `A.6.3.CSC`, `A.3.1`, `A.3.2`, `A.6.0`, `A.6.1`, `E.20`, `A.15.PROD`, `E.24`, `E.24.CD`, `E.24.PUB`, `F.18`, `E.8`, `E.19`, and `E.2`.
 
-**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27.TA`, `C.27`, `C.29`, `A.3.1`, `A.3.2`, `A.3.3`, `A.3.4`, `A.6.0`, `A.6.1`, `A.6.P.WMR`, `E.18`, `E.20`, `A.15.PROD`, `E.24`, `E.24.CD`, `E.24.PUB`, `A.15.2`, `A.15.1`, `A.10`, `F.19`, `E.21`, `E.11`, `I.2`, and evidence, assurance, gate, work, decision, causal-use, release, and publication patterns define or constraining those claims when those claims are being made.
+**Coordinates with.** `A.22`, `C.30`, `C.30.P`, `C.30.STRAT`, `C.30.ASV`, named `C.30.*` structure or view patterns, `C.16`, `A.17`, `A.18`, `A.19`, `C.25`, `C.27.TA`, `C.27`, `C.29`, `A.3.1`, `A.3.2`, `A.3.3`, `A.3.4`, `A.6.0`, `A.6.1`, `A.6.P.WMR`, `E.18`, `E.20`, `A.15.PROD`, `E.24`, `E.24.CD`, `E.24.PUB`, `A.15.2`, `A.15.1`, `A.10`, `F.19`, `E.21`, `E.11`, `I.2`, and the evidence, assurance, gate, work, decision, causal-use, release, and publication passages that define or constrain those claims when they are current.
 

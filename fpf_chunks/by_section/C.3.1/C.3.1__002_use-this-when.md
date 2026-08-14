@@ -6,12 +6,12 @@ section_id: "C.3.1:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__002_use-this-when.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:0 — Use This When"
-line_start: 44993
-line_end: 45006
+line_start: 44694
+line_end: 44707
 dependencies:
   - "A.1"
   - "A.11"
@@ -41,15 +41,15 @@ keywords:
 
 ### C.3.1:0 - Use This When
 
-Use this pattern when one typed-reasoning use needs a context-local kind, a subkind order, or a decision about whether the same local kind continues across editions of its declaration.
+Use this pattern when one typed-reasoning use needs a locally constituted kind, a subkind order, or a decision about whether the same local kind continues across editions of its declaration.
 
 **What goes wrong if missed.** `U.SubkindOf` starts carrying dependency, construction, scope, public kind admission, or extension-table maintenance. A changed declaration is mistaken either for a new kind automatically or for a harmless rewrite automatically, and old classifications are silently reinterpreted.
 
-**What this buys.** The user gets a small local partial order, a judgment-level monotonicity law, and an explicit kind-continuity decision while durable U-kind admission, classification, declaration identity, and cross-context bridging stay with their own governors.
+**What this buys.** The user gets a small local partial order, a judgment-level monotonicity law, and an explicit kind-continuity decision while durable U-kind admission, classification, declaration identity, and cross-local bridging remain separate and use their own definitions and checks.
 
-**Primary EntityOfConcern.** One context-local `U.Kind` identity, its bounded context and local identity basis, and any `U.SubkindOf` order interpreted through the exact `U.ReferenceScheme` named by the aligned declaration editions.
+**Primary EntityOfConcern.** One local `U.Kind` identity, its explicit practice or source boundary and stable subject distinction, and any `U.SubkindOf` order interpreted through the exact `U.ReferenceScheme` named by the aligned declaration editions.
 
-**First useful move.** Write the ordinary order claim first: `CoolingPumpKind is a subkind of PumpKind in the Plant-7 bounded context, interpreted through PlantScheme-7.` Then identify the declaration editions used to evaluate candidates and test whether the order is monotone for the same candidate and slice.
+**First useful move.** Write the ordinary order claim first: `CoolingPumpKind is a subkind of PumpKind for the Plant-7 practice, interpreted through PlantScheme-7.` Then identify the declaration editions used to evaluate candidates and test whether the order is monotone for the same candidate and slice.
 
-**Not this pattern when.** Use C.3.2 for the declaration, one candidate classification, or an extension representation; C.3.3 for use across contexts; and `E.24.UK` when a local kind is proposed as a durable public FPF U-kind.
+**Not this pattern when.** Use C.3.2 for the declaration, one candidate classification, or an extension representation; C.3.3 for use across local practice or source boundaries; and `E.24.UK` when a local kind is proposed as a durable public FPF U-kind.
 

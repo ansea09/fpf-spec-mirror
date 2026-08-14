@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 53021
-line_end: 53245
+line_start: 52723
+line_end: 52955
 dependencies:
   - "A.1"
   - "A.10"
@@ -54,10 +54,10 @@ An admitted planning System may perform planning or revision Work that prepares 
 
 **Operators (Gamma_agential; CAL, conceptual):**
 
-1. `Gamma_agential.eligible(tool, TaskSignature, K_ctx) -> {true|false, notes}`
-   *Eligibility gate* based on capability fit, policy allow-list or deny-list, and context K (including safety constraints).
+1. `Gamma_agential.eligible(tool, TaskSignature, PolicyEdition, IntendedUse, ClaimScope?, ValidityWindow?) -> {true|false, notes}`
+   *Eligibility gate* based on capability fit, the cited policy edition and its allow-list or deny-list, intended use, any action-changing ClaimScope or validity window, and the applicable safety constraints.
 
-2. `Gamma_agential.enumerate(TaskSignature, K_ctx) -> CandidateSet<ATC.CallRouteDescription>`
+2. `Gamma_agential.enumerate(TaskSignature, PolicyEdition, IntendedUse, ClaimScope?, ValidityWindow?) -> CandidateSet<ATC.CallRouteDescription>`
    Returns admissible callable route descriptions. It **MAY** delegate to **NQD-CAL** for heterogeneous route families and **MUST** apply the current **E/E-LOG lens** (objectives & telemetry) to tag candidates. Before a candidate enters an enactment-facing plan, its C.2.1 episteme must resolve under the effective reference scheme and identify the exact independently admitted Method; an unresolved route label remains probe material, not a planned enactment.
 
 3. `Gamma_agential.plan(Objective, CandidateSet, Budget, ATC.Policy) -> ATC.CallPlan`
@@ -67,7 +67,7 @@ An admitted planning System may perform planning or revision Work that prepares 
    Executes with **hard gates** (budget, risk, constraint-fit). For each actual call, name its `U.Work` occurrence and keep all facts required by A.15.1, A.2.1, and F.6 recoverable, including the admitted performer System and the Method enacted by the dated Work. The operator logs provenance suitable for B.3 assurance reporting while keeping plan, description, Work, Method and service promise separate.
 
 5. `Gamma_agential.replan(Signals, ATC.CallPlan, BudgetPrime) -> ATC.CallPlanPrime`
-   Triggered by sentinel breaches, assurance drops, or policy events; preserves or explicitly revises the ordered exact Method refs, separately cited route descriptions, editioned policy, effective planning context, and other plan content. Changing a description reference does not silently change either the Method or any actual Work history.
+   Triggered by sentinel breaches, assurance drops, or policy events; preserves or explicitly revises the ordered exact Method refs, separately cited route descriptions, policy edition, intended use, ClaimScope, validity and re-evaluation windows, safety constraints, and other plan content. Changing a description reference does not silently change either the Method or any actual Work history.
 
 6. `Gamma_agential.score(Route or PlanAlternative) -> <ValueProxies, Cost, Risk, FGR_floor>`
    Computes selection signals **without** illegal scalarisation across mixed scales; **uses Pareto comparison under the C.19 E/E-LOG lens** and leaves final dominance to declared policies.
@@ -95,8 +95,8 @@ A successful probe does not by itself justify a larger burn or a committed rollo
 * **ATC-3 (Budget & Harm Gates).** Plans **SHALL** declare ceilings on compute, cost, wall-time, and risk; execution **MUST** abort or replan on breach. Actual burned or residual budget belongs in `CheckpointReturn`, `CallGraph`, or other work-side reporting, not inside the `CallPlan` field set.
 * **ATC-4 (Explore-Share Discipline).** Plans **MUST** declare `explore_share`; defaults **inherit from E/E-LOG profiles**. **Informative defaults**: `0` for safety-critical or deterministic tasks; `approx 0.2-0.4` for ambiguous tasks with heterogeneous tool families. Promotion of illumination telemetry into dominance **requires explicit policy**.
 * **ATC-5 (Provenance & Replay).** Every actual call **MUST** emit a **CallGraph** row with its exact Work ref, exact enacted Method ref, performer System, obtaining assignment, Service id, optional cited MethodDescription edition, inputs and outputs (redacted per privacy), `CallPlan` ref, **EmitterPolicyRef**, actual interval, and budget deltas. The graph records these facts; it creates none of them. (NQD/E/E provenance fields apply when used.)
-* **ATC-6 (Assurance-First Decisions).** Selection **MUST** respect B.3: WLNK minima on the F and R dimensions (weakest-link floors), CL penalties on integration, and **no** chimera scores across design-time and run-time scopes. State **<F,G,R>** for the typed claim `this plan is admissible under K,S`.
-* **ATC-7 (Notation/Vendor Independence).** Core pattern text **MUST NOT** encode vendor-specific tokens; bindings occur in Context via Bridges/Profiles. (Lexical guard-rails.)
+* **ATC-6 (Assurance-First Decisions).** Selection **MUST** respect B.3: WLNK minima on the F and R dimensions (weakest-link floors), CL penalties on integration, and **no** chimera scores across design-time and run-time scopes. State **<F,G,R>** for the typed claim that this plan is admissible for the cited policy edition, intended use, ClaimScope, and qualification window.
+* **ATC-7 (Notation and Vendor Independence).** Core pattern text **MUST NOT** encode vendor-specific tokens. Keep a vendor binding in its separate adapter or profile description and state the exact source scheme, intended use, and relation to the selected Method. (Lexical guard-rails.)
 
 #### C.24:4.1a - Planning under budget must consume the same declared doctrine
 #### C.24:4.1b - Causal action-use spec for call plans
@@ -143,12 +143,20 @@ What this does not establish: `C.24` does not estimate effects, prove identifica
 **ATC-Policy fields (conceptual).**
 `{ backstop_confidence, explore_share, risk_bound, cost_ceiling, time_ceiling, tie_breakers, novelty_quota?, wild_bet_quota?, stop_conditions, BLP_delta_alpha, BLP_delta_delta }` - realised by referencing an `E/E-LOG` `EmitterPolicy` and adding Bitter-Lesson-Preference clauses. Defaults inherit from `C.19`; any deviation is editioned.
 
-**BLP precedence.** In conflicts with tactics that hard-code narrow scripts, the Bitter-Lesson Preference applies subject to `E.3/E.5` precedence. Where scripts encode safety-critical gating or regulatory compliance, scripts prevail unless the governing context publishes the override rationale, expiry, measured hazard avoided, and planned re-evaluation window.
+**BLP precedence.** In conflicts with tactics that hard-code narrow scripts, the Bitter-Lesson Preference applies subject to the precedence rules in `E.3` and `E.5`. Where a script encodes safety-critical gating or regulatory compliance, it prevails unless a named rule or policy is current for the case, permits an override, and a decision or waiver is issued under the required authority relation. Record that relation, the decision or waiver, the rationale, the measured hazard avoided, the expiry, and the planned re-evaluation window.
 
 #### C.24:4.3 - Didactic quick card
 
 **Agentic Call Plan (public field set).**
-`Objective - Context(K) - PlannedCallsInOrder[{MethodRef, MethodDescriptionRef?[edition-pinned]}] - BudgetEnvelope{time_budget, compute_budget, cost_budget, risk_limit} - PolicyRef - Explore-share - StopConditions - ReplanConditions - BLP tolerances - BLP waiver (if any) - Assurance<F,G,R|K,S> - Provenance ids`
+
+Record:
+
+- the objective and ordered planned calls, with exact Method refs and edition-pinned MethodDescription refs only when needed;
+- the time, compute, cost, and risk budget, the policy edition, and `explore_share`, using `0` when no exploration is planned;
+- stop and replan conditions and any BLP tolerances; and
+- the assurance and provenance refs required by this plan.
+
+If a waiver is used, also state its authority relation, decision or waiver, rationale, measured-hazard evidence, expiry, and re-evaluation window. Add ClaimScope, intended use, or a validity window only when it changes planning or validity.
 
 #### C.24:4.4 - Explicit enactment outputs and closure rule
 

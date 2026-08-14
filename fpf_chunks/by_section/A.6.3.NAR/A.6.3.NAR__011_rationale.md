@@ -6,12 +6,12 @@ section_id: "A.6.3.NAR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.NAR/A.6.3.NAR__011_rationale.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.3.NAR — Structure-to-Narrative Rendering"
   - "A.6.3.NAR:10 — Rationale"
-line_start: 15389
-line_end: 15394
+line_start: 15105
+line_end: 15110
 dependencies:
   - "A.10"
   - "A.22.CGUS"

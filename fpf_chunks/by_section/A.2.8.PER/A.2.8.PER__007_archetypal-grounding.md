@@ -6,12 +6,12 @@ section_id: "A.2.8.PER:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.8.PER/A.2.8.PER__007_archetypal-grounding.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2.8.PER — Granted Permission, Exercise, and Non-Prohibition"
   - "A.2.8.PER:5 — Archetypal Grounding"
-line_start: 6920
-line_end: 6939
+line_start: 6919
+line_end: 6938
 dependencies:
   - "A.10"
   - "A.15.1"

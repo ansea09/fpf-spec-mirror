@@ -6,12 +6,12 @@ section_id: "B.1.1:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 35868
-line_end: 35877
+line_start: 35580
+line_end: 35589
 dependencies:
   - "A.1"
   - "A.10"
@@ -34,9 +34,9 @@ keywords:
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| DependencyGraph as ontology | The graph is treated as the thing being built. | Name the dependency structure and relation owners first. |
-| External supplier as part | A supplier or infrastructure system is drawn inside the product. | Use a boundary-crossing relation, supply relation, commitment relation, A.6.C contract-language unpacking, evidence relation, publication-use relation, source-use relation, or another direct owner; use parthood only for admitted parts. |
-| Mapping as parthood | A model, dashboard, or digital twin is a node inside the asset. | Use representation, publication, architecture-description, or evidence owners. |
-| Order as component | A subsequent step is represented as a component of an earlier step. | Use order, method, or work occurrence owners. |
+| DependencyGraph as ontology | The graph is treated as the thing being built. | Name the dependency structure and exact relations first. |
+| External supplier as part | A supplier or infrastructure system is drawn inside the product. | Use the exact boundary-crossing, supply, commitment, evidence, publication-use, source-use, or other direct relation; use parthood only for admitted parts. Use `A.6.C` only when the source's contract wording itself must be unpacked. |
+| Mapping as parthood | A model, dashboard, or digital twin is a node inside the asset. | Use the exact representation, publication, architecture-description, or evidence relation. |
+| Order as component | A subsequent step is represented as a component of an earlier step. | Use the pattern that defines the order, method, description, or Work-occurrence claim. |
 | Acyclicity as adequacy | The graph has no cycles, so the model is accepted. | Check whether the selected relation is grounded and whether graph checks answer the current concern. |
 

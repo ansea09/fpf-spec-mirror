@@ -6,15 +6,18 @@ section_id: "C.2.2:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__006_archetypal-grounding.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:5 — Archetypal Grounding"
-line_start: 42809
-line_end: 42838
+line_start: 42510
+line_end: 42539
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.2.6"
   - "A.21"
+  - "A.6.3.RT"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -23,7 +26,7 @@ dependencies:
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.25"
+  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -32,15 +35,16 @@ dependencies:
   - "E.18"
   - "F.17"
   - "F.9"
+  - "G.2"
   - "G.6"
   - "G.7"
 keywords:
-  - "Bridge-only reuse"
   - "ClaimScope (G)"
   - "Congruence Level (CL / CL^k / CL^plane)"
   - "F–G–R"
   - "Reliability (R)"
   - "TA/VA/LA lanes"
+  - "direct relation"
   - "evidence-bound"
   - "no implicit averaging"
   - "pathwise justification (PathId)"
@@ -66,7 +70,7 @@ Informative; non-binding.
   * LA: HIL simulation + track tests under sampled conditions with recorded telemetry windows (freshness required).
   * TA: typed alignment between “μ” in simulations, “μ” in the estimation pipeline, and “μ” inferred from real-world sensors.
 
-If telemetry is reused from the track context to the road context, a scope bridge is declared with `CL=2`. Using the default monotone penalty table (B.3), the LA contribution is reduced, and the derived `R_eff(c1)` drops accordingly. The claim’s envelope `G(c1)` does not change; only the warrant for transporting the evidence does.
+If track telemetry is used as evidence for the road claim, establish the exact A.10 or B.3 evidence-use and reliance claim, including the road claim, telemetry edition, operating scope, validity window, and intended use. Apply only the fit or loss declared for that evidence reuse; `G(c1)` changes only through a separate A.2.6 scope revision.
 
 #### C.2.2:5.2 - Episteme illustration
 
@@ -76,5 +80,5 @@ If telemetry is reused from the track context to the road context, a scope bridg
 * `c3:` “A achieves ≥ 0.92 F1 on dataset family F under deployment preprocessing P.” (empirical)
 
 `c2` can achieve high VA with a proof carrier; its LA lane may be N/A, but its TA lane remains relevant because the intended meaning of “domain D” must align with the implementation’s input model.
-`c3` requires LA evidence and a freshness/shift policy because dataset and preprocessing drift change the scope and the warrant. If `c3` is reused from a lab dataset context to a production context, a bridge with explicit CL is required, and `R_eff` is reduced until new in-context evidence is attached.
+`c3` requires LA evidence and a freshness or shift policy because dataset and preprocessing drift can change both scope and warrant. For production use, state the exact dataset/preprocessing relation and the A.10 or B.3 evidence-reuse claim, then apply its declared loss to `R_eff`; change `G` separately if the production claim has another scope.
 

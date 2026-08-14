@@ -1,50 +1,43 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.0.1"
-pattern_title: "Contextual Lexicon Principles"
+pattern_title: "Source-Local Meaning Recovery"
 section_id: "F.0.1:1"
-section_title: "Problem Frame"
+section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.0.1 — Contextual Lexicon Principles"
-  - "F.0.1:1 — Problem Frame"
-line_start: 90482
-line_end: 90492
+  - "F.0.1 — Source-Local Meaning Recovery"
+  - "F.0.1:1 — Problem frame"
+line_start: 90332
+line_end: 90343
 dependencies:
-  - "A.1.1"
-  - "A.11"
-  - "A.4"
-  - "A.7"
-  - "A.8"
-  - "B.3"
-  - "D.CTX"
+  - "E.10"
   - "E.10.D1"
+  - "F.0.2"
   - "F.1"
-  - "F.2"
-  - "F.3"
-  - "F.7"
+  - "F.17"
+  - "F.18"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "U.BoundedContext"
-  - "bridge"
-  - "congruence"
-  - "context"
-  - "lexicon"
-  - "local meaning"
-  - "semantic boundary"
+  - "actual cross-local relation"
+  - "exact source and edition"
+  - "local expression"
+  - "optional durable address"
+  - "source-local meaning"
+  - "troubling word use"
 ---
 
-### F.0.1:1 - Problem Frame
+### F.0.1:1 - Problem frame
 
-Trans‑disciplinary modelling fails without an explicit discipline for **where words mean what**.
+> **One-sentence summary.** Recover what one expression means in one exact source passage before comparing, translating, or reusing it elsewhere.
 
-* **Semantic drift.** The same string (“process”, “role”, “service”) slides between domains and editions.
-* **Homonym collisions.** One label carries incompatible senses across fields.
-* **Hidden synonymy.** Different labels point to the same local sense, but the identity is unstated.
-* **Implicit globalism.** Meaning is treated as universal; integration silently re‑writes models.
+Use `F.0.1` when a word in an already selected source may be read in more than one way and the reading can change the present answer or action. Name the exact source and edition, state the source-local meaning in ordinary language, and point to the passage that supports that reading.
 
-FPF resolves this by **localising** meaning first, then **explicitly translating** across locales.
+The first useful result is one source-backed meaning statement. For example: “In OMG BPMN 2.0.2 (January 2014), *Process* here means the designed sequence or flow of Activities in an organization; this reading comes from §10.1.” If that answers the question, use it and stop.
+
+**What changes in practice.** A reader can inspect the source of the meaning without first creating a semantic container, record, relation, or assurance package. A stronger formal result is added only for a named later use.
+
+**Not this pattern when.** Use an already clear source claim directly when no lexical distinction changes the work. Use `F.1` when the open question is which sources can change the answer, `F.0.2` when several source ontologies must be compared for one receiving claim, and `F.18` when the problem is selecting an FPF term after the subject is settled. When the problem is not lexical, use the rule that defines or tests the exact entity, relation, claim, measurement, permission, or Work question. Use `F.9` only when an actual relation between already recovered source-local meanings is current.
 

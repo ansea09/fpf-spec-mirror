@@ -6,12 +6,12 @@ section_id: "B.1.1:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__007_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:5 — Archetypal Grounding (Worked Cases)"
-line_start: 35828
-line_end: 35847
+line_start: 35540
+line_end: 35559
 dependencies:
   - "A.1"
   - "A.10"
@@ -48,5 +48,5 @@ If the edge means representation, recover the architecture-description, publicat
 
 Source graph: `Prep -> Weld -> Paint`.
 
-If the graph describes a method or process view, use the method and order owners. If the graph describes performed work, use A.15.1 with occurrence identity, timing, evidence, and work-part relation. Do not let the same graph do both jobs.
+If the graph describes a method or process view, use the patterns that define the method, description, and order claims. If it describes performed Work, use A.15.1 with occurrence identity, timing, evidence, and the exact Work relation. Do not let the same graph do both jobs.
 

@@ -6,12 +6,12 @@ section_id: "A.12:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__004_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:2 — Problem"
-line_start: 23515
-line_end: 23525
+line_start: 23206
+line_end: 23216
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -38,7 +38,7 @@ keywords:
 
 Without A.12:
 
-1. **Self-action hides the acting side.** "The system changed itself" does not say which exact entity occupies the acting side, whether A.1 recognizes that entity under `U.System`, which exact continuing subject is claimed to change, or which direct relation governs the claim.
+1. **Self-action hides the acting side.** "The system changed itself" does not say which exact entity occupies the acting side, whether that entity satisfies the complete A.1 `U.System` criterion, which exact continuing subject is claimed to change, or which direct relation defines the participation claim.
 2. **Transformation and work collapse.** A bounded transformation, a method, a work occurrence, and evidence of success are treated as the same claim.
 3. **Epistemes become agents.** A document, model, source record, report, or theory is said to update, decide, authorize, or verify itself.
 4. **Reflexive systems become single blocks.** A regulator and regulated part are hidden inside one block, so failure analysis and architecture work lose the internal relation that mattered.

@@ -6,12 +6,12 @@ section_id: "E.10.D2:14"
 section_title: "SoTA-echoing and source use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__016_sota-echoing-and-source-use.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:14 — SoTA-echoing and source use"
-line_start: 77387
-line_end: 77397
+line_start: 77206
+line_end: 77216
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -47,7 +47,7 @@ keywords:
 | Source or practice line | FPF use | Boundary |
 |---|---|---|
 | ISO/IEC/IEEE 42010 architecture-description practice, retained as established-practice lineage | Preserve the useful separation among described architecture, concern-bearing viewpoint, view, correspondence, and publication when testing architecture cases. | It is neither FPF ontology nor a claim about the current best architecting method; it grants no evidence, assurance, gate, decision, or work authority. |
-| ISO/IEC/IEEE 29148:2018 requirements-engineering practice, retained as established specification lineage | Stress that specification use depends on checkable requirements, verification or validation, and a named life-cycle use rather than official appearance. | The standard does not supply C.2.1 identity, E.17.0 DescriptionContext, or the direct FPF checking relation; detailed prose is not a specification by name. |
+| ISO/IEC/IEEE 29148:2018 requirements-engineering practice, retained as established specification lineage | Stress that specification use depends on checkable requirements, verification or validation, and a named life-cycle use rather than official appearance. | The standard does not supply C.2.1 identity, E.17.0 describing-use viewpoint selection, or the direct FPF checking relation; detailed prose is not a specification by name. |
 | Current FPF C.2.1, E.17.0, E.24.PUB, A.1.1, A.2.6, A.10/B.3, G.11, and C.29 interfaces | Supply the authoritative local identities and direct-use boundaries for episteme, viewpoint/view, publication, model use, scope, reliance, currentness, and representation. | E.10.D2 consumes those interfaces; it does not mint a rival description ontology or copy every neighbor into one pattern. |
 | Rodin's constructive identity and near-sameness line, used as conceptual lineage | Keep same-label and different-presentation cases answerable by explicit identity discriminators and evidence-backed comparison. | Similar wording or a shared formal substrate does not establish the same EntityOfConcern, same episteme, an obtaining Bridge, or admissible substitution. |
 

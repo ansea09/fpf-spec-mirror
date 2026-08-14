@@ -6,15 +6,18 @@ section_id: "C.2.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:2 — Problem"
-line_start: 42579
-line_end: 42588
+line_start: 42295
+line_end: 42304
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.2.6"
   - "A.21"
+  - "A.6.3.RT"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -23,7 +26,7 @@ dependencies:
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.25"
+  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -32,15 +35,16 @@ dependencies:
   - "E.18"
   - "F.17"
   - "F.9"
+  - "G.2"
   - "G.6"
   - "G.7"
 keywords:
-  - "Bridge-only reuse"
   - "ClaimScope (G)"
   - "Congruence Level (CL / CL^k / CL^plane)"
   - "F–G–R"
   - "Reliability (R)"
   - "TA/VA/LA lanes"
+  - "direct relation"
   - "evidence-bound"
   - "no implicit averaging"
   - "pathwise justification (PathId)"
@@ -55,6 +59,6 @@ FPF needs a reliability coordinate that is:
 1. **Auditable.** A reader can trace R to concrete evidence and see how reuse penalties were applied.
 2. **Composable.** R can be propagated through claim graphs conservatively, without illegal scale arithmetic.
 3. **Orthogonal.** R is not conflated with F (expression) or G (scope).
-4. **Bridge-safe.** Any loss from transport across contexts/kinds/planes is explicit and affects **R only**.
+4. **Relation-aware.** Any loss declared by an actual scope-translation, kind, plane, notation, source-local, model-use, or evidence-reuse relation is explicit and affects **R only**.
 5. **Minimal.** The solution does not introduce new core types or new face-kinds.
 

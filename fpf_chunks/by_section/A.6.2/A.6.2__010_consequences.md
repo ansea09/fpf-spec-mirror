@@ -6,12 +6,12 @@ section_id: "A.6.2:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__010_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:9 — Consequences"
-line_start: 13289
-line_end: 13305
+line_start: 13286
+line_end: 13301
 dependencies:
   - "A.1"
   - "A.6.0"
@@ -43,9 +43,8 @@ keywords:
 * **Stable backbone for Viewing & Retargeting.**
   A.6.3 and A.6.4 do not need to repeat P0–P5; they specialise EFEM with additional constraints (preserve/retarget). Other patterns (e.g. MultiViewDescribing, MVPK, E.18 structural reinterpretation) can depend on EFEM as a stable base.
 
-* **Slot‑level clarity.**
-  By formulating EFEM laws in terms of SlotKinds/ValueKinds/RefKinds (A.6.5) and the EpistemeSlotRelation (C.2.1), it becomes much harder for Episteme to confuse “EntityOfConcern”, “slot in a relation”, and “reference to that entity”.
-
+* **Value-and-relation clarity.**
+  By requiring each EFEM species to name the C.2.1 identity values and separately obtaining relations it reads or changes, the pattern keeps an EntityOfConcern, a declaration-local SlotKind, and a reference to the entity distinct.
 * **Better didactics.**
-  The traditional “semantic triangle” becomes a didactic projection of EFEM over the EpistemeSlotRelation: EFEM + C.2.1 explain precisely what the triangle was trying to gesture at (symbol, concept, referent), while correctly foregrounding operations, viewpoints, grounding holons, and reference schemes.
+  The traditional “semantic triangle” becomes a didactic projection over C.2.1 episteme constitution and the neighboring relations an EFEM species actually uses. It can gesture at expression, meaning, and subject without turning viewpoint, empirical grounding, representation, or reference into one slot tuple.
 

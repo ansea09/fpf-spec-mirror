@@ -1,22 +1,25 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.7"
-pattern_title: "Concept‑Set Table"
+pattern_title: "Concept-Set Table"
 section_id: "F.7:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.7 — Concept‑Set Table"
+  - "F.7 — Concept-Set Table"
   - "F.7:intro — Intro"
-line_start: 92691
-line_end: 92699
+line_start: 92307
+line_end: 92315
 dependencies:
   - "A.6.9"
+  - "B.3"
+  - "C.16"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.4"
@@ -24,22 +27,23 @@ dependencies:
   - "F.6"
   - "F.8"
   - "F.9"
-  - "U.BoundedContext"
 keywords:
-  - "columns"
-  - "comparisons"
-  - "concept-set"
-  - "differences"
-  - "row"
-  - "table"
+  - "comparison surface"
+  - "direction"
+  - "evidence"
+  - "exact local claim"
+  - "loss"
+  - "obtaining relation"
+  - "optional SchemeSenseCell"
+  - "receiving use"
 ---
 
-## F.7 - Concept‑Set Table
+## F.7 - Concept-Set Table
 
-**“Show one thing across Contexts—only where explicit bridges allow it.”**
+**“Put exact local meanings and already established relations side by side; let the table display the argument, never create it.”**
 
 **Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for ‘Context’** (Context ≡ `U.BoundedContext`); **F.0.1 senseFamily (normative)**; F.1 **Domain‑Family Landscape Survey**; F.2 **Term Harvesting**; F.3 **Intra‑Context Sense Clustering** (SenseCells); F.5 **Naming Discipline**; F.9 **Alignment & Bridge Across Contexts**.
-**Coordinates with.** F.4 **Role Description**; F.6 **Role Assignment & Enactment Cycle (Six-Step)**; Part C patterns (for examples), **MM‑CHR (for Characteristic)**; A.6.9 (RPR‑XCTX for repairing umbrella cross‑Context sameness/alignment prose before it justifies rows).
-**Aliases (informative).** *Concept‑Set table*, *comparison grid*.
+**Depends on.** E.10.D1 **Recovering What “Context” Means in Use**; F.0.1 **Source-Local Meaning Recovery**; F.1 **Question-Relative Source Selection**; F.2 **Term Harvesting**; F.3 **Source-Local Sense Clustering**; F.17 for optional exact cells; F.5 **Naming Discipline**; F.9 for actual semantic relations and their separate bounded-use claims.
+**Coordinates with.** F.4 **SystemRoleKindDescription**; F.6 **SystemRoleAssignment and Performed-Work Attribution Check**; direct Part C patterns for the compared values; C.16 for characteristics; A.6.9 when umbrella sameness wording must be repaired before a relation is asserted.
+**Aliases (informative).** *Concept-Set table*; *comparison grid*; *Giants’ table*.
 

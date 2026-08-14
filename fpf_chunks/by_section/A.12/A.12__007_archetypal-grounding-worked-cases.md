@@ -6,12 +6,12 @@ section_id: "A.12:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__007_archetypal-grounding-worked-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:5 — Archetypal Grounding (Worked Cases)"
-line_start: 23628
-line_end: 23697
+line_start: 23319
+line_end: 23388
 dependencies:
   - "A.1"
   - "A.1.1"
@@ -52,14 +52,14 @@ ReflexiveSplit@RobotInternals:
 ActingSideExternalization@RobotCalibration:
   changedSubjectRef: SensorSuite-R17, the exact continuing U.Holon identified under A.1 for this claim
   actingEntityRef: CalibrationController-R17
-  actingSystemRef: CalibrationController-R17, the same entity after A.1 recognizes it under U.System
+  actingSystemRef: CalibrationController-R17, the same entity after it satisfies the complete A.1 U.System criterion
   actingSystemRoleAssignmentRef: CalibrationAssignment-R17, one obtaining work-facing U.SystemRoleAssignment held by CalibrationController-R17
   transformationRef: SensorCalibrationTransformation-R17, independently admitted under A.3.4 as a bounded change of SensorSuite-R17
   workOccurrenceRef: CalibrationWork-R17, performed under CalibrationAssignment-R17 through F.6
   strongerOwnerRefs: A.1 identities of SensorSuite-R17 and CalibrationController-R17; A.14 part relations; A.2.1 CalibrationAssignment-R17; F.6 performed-under-assignment relation; A.3.4 SensorCalibrationTransformation-R17; A.15.1 CalibrationWork-R17
 ```
 
-The robot remains the containing holon. The two `ComponentOf` occurrences make the internal entity positions explicit. The companion acting-side frame carries the same-entity A.1 reading and names an obtaining assignment, exact Work, and independently admitted transformation through their subject patterns. The fact that the change occurs inside Robot-R17 does not remove the acting side.
+The robot remains the containing holon. The two `ComponentOf` occurrences make the internal entity positions explicit. The companion acting-side frame carries the same-entity A.1 reading, the A.2.1 assignment, the A.15.1 Work occurrence with its F.6 attribution, and the A.3.4 transformation as separate claims. The fact that the change occurs inside Robot-R17 does not remove the acting side.
 
 #### A.12:5.2 - Document Cross-Reference Update
 
@@ -71,7 +71,7 @@ This case chooses the carrier-change reading rather than combining it with an ep
 ActingSideExternalization@DocumentBuild:
   changedSubjectRef: PublicationFile-17, the exact continuing U.PresentationCarrier reidentified by the bounded case-local continuity rule stated above
   actingEntityRef: BuildRunner-4
-  actingSystemRef: BuildRunner-4, the same entity after A.1 recognizes it under U.System
+  actingSystemRef: BuildRunner-4, the same entity after it satisfies the complete A.1 U.System criterion
   methodRef: CrossReferenceUpdateMethod-3, admitted under A.3.1
   methodDescriptionRef: BuildScriptEpisteme-9, admitted under A.3.2 as a description of CrossReferenceUpdateMethod-3
   actingSystemRoleAssignmentRef: CrossReferenceUpdateAssignment-27, one obtaining work-facing U.SystemRoleAssignment held by BuildRunner-4
@@ -95,12 +95,12 @@ Recovered A.12 use:
 ActingSideExternalization@Machining:
   changedSubjectRef: Workpiece-8, the exact continuing U.Holon identified under A.1 for this claim
   actingEntityRef: Lathe-3
-  actingSystemRef: Lathe-3, the same entity after A.1 recognizes it under U.System
+  actingSystemRef: Lathe-3, the same entity after it satisfies the complete A.1 U.System criterion
   actingSystemRoleAssignmentRef: MachiningAssignment-8, one obtaining work-facing U.SystemRoleAssignment held by Lathe-3
   transformationRef: MachiningTransformation-8, independently admitted under A.3.4 as a bounded change of Workpiece-8
   workOccurrenceRef: MachiningWork-8, performed under MachiningAssignment-8 through F.6
   strongerOwnerRefs: A.1 identities of Workpiece-8 and Lathe-3; A.2.1 MachiningAssignment-8; F.6 performed-under-assignment relation; A.3.4 MachiningTransformation-8; A.15.1 MachiningWork-8
 ```
 
-`MachiningWork-8` and `MachiningTransformation-8` are independently identified; this account asserts no work-to-change relation between them. The additional sentence needed for a positive crossing claim is: "Lathe-3 transmits cutting force to Workpiece-8 during MachiningTransformation-8." No current direct pattern in this case supplies an admitted relation kind, obtaining predicate, applicability, and occurrence-identity rule for that sentence. Result: `A.6.RCD missing-governor[receiving use: decide whether this force-transfer claim supports a boundary-crossing explanation without a parthood inference; participants: Lathe-3 and Workpiece-8; missing predicate or relation declaration: direct force-transfer or crossing relation]`; `holonBoundaryCrossingRelationRef` stays unfilled. Fixture, control, and material-removal claims would need their own exact participants and subject patterns. Neither the independently identified Work nor transformation establishes parthood; use part-whole patterns only for a separately supported part-whole claim.
+`MachiningWork-8` and `MachiningTransformation-8` are independently identified; this account asserts no work-to-change relation between them. The additional sentence needed for a positive crossing claim is: "Lathe-3 transmits cutting force to Workpiece-8 during MachiningTransformation-8." No current FPF rule in this case defines the required relation kind, obtaining predicate, applicability, and occurrence identity for that sentence. Result: `A.6.RCD missing-governor[receiving use: decide whether this force-transfer claim supports a boundary-crossing explanation without a parthood inference; participants: Lathe-3 and Workpiece-8; missing predicate or relation declaration: direct force-transfer or crossing relation]`; `holonBoundaryCrossingRelationRef` stays unfilled. Fixture, control, and material-removal claims likewise need exact participants and a ClaimGraph or declaration that defines each predicate. Neither the independently identified Work nor transformation establishes parthood; use A.14 or another exact part-whole rule only for a separately supported part-whole claim.
 

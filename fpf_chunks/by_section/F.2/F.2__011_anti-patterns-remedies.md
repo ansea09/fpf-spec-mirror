@@ -3,49 +3,50 @@ chunk_kind: "child"
 pattern_id: "F.2"
 pattern_title: "Term Harvesting & Normalisation"
 section_id: "F.2:10"
-section_title: "Anti‑patterns & remedies"
+section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__011_anti-patterns-remedies.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
-  - "F.2:10 — Anti‑patterns & remedies"
-line_start: 91236
-line_end: 91254
+  - "F.2:10 — Anti-patterns & remedies"
+line_start: 90987
+line_end: 91005
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.3"
   - "F.4"
   - "F.9"
 keywords:
-  - "lexical unit"
-  - "normalization"
-  - "provenance"
-  - "source-text terms"
-  - "term harvesting"
+  - "LNF"
+  - "LocalExpression"
+  - "LocalSenseClaim"
+  - "effective ReferenceScheme"
+  - "exact source and edition"
+  - "optional SchemeSenseCell"
 ---
 
-### F.2:10 - Anti‑patterns & remedies
+### F.2:10 - Anti-patterns & remedies
 
-| #       | Anti‑pattern                 | Symptom (in thought or prose)                                        | Why harmful                                                  | Remedy (conceptual move)                                                                                |
-| ------- | ---------------------------- | -------------------------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------- |
-| **A1**  | **Global normal form**       | One “canonical” label reused across Contexts.                           | Erases local meaning; invites stealth bridges.               | Keep **LNF per Context**; any Cross‑context relation belongs to **F.9** only.                                 |
-| **A2**  | **String = meaning**         | Assuming identical strings denote one concept across Contexts.          | Homonym collision (*process*, *role*, *service*).            | Always prefix mentally with the **Context**; treat same string in different Contexts as **different units**.  |
-| **A3**  | **Over‑normalisation**       | Folding hyphens/case/morphology “for consistency”.                   | Loses the canon’s idiom; breaks citations.                   | **Minimal edits** toward the Context’s idiom; never toward a global house‑style.                           |
-| **A4**  | **Headless multiword**       | Truncating to a head (“objective” for “service‑level objective”).    | Ambiguity; collapses scope.                                  | Preserve canonical **head‑modifier** as LNF when meaningful.                                            |
-| **A5**  | **Premature structure**      | Embedding behaviour, deontics, units, or type axioms into the gloss. | EntityOfConcern / Description / specification-use mixing (violates A.7); biases later patterns.          | Gloss **usage**, not calculus; structural content belongs to Extention Patterns in Part C.                   |
-| **A6**  | **Cross‑context folding**       | “BPMN workflow ≈ PROV activity” written inside F.2.                   | Hidden bridge; unpriced losses.                              | No Cross‑context claims in F.2; write the **itch to bridge** for **F.9**.                                  |
-| **A7**  | **Edition blur**             | “BPMN” without year/profile; mixing excerpts across editions.        | Silent sense shift; unrepeatable reasoning.                  | Treat distinct editions as **distinct Contexts** in F.1, then harvest.                                     |
-| **A8**  | **Vendor‑dialect elevation** | Treating a DSL/keyword list as “the domain”.                         | Projectionism; narrow idiom dominates.                       | If needed, model the DSL as **one context among others**; keep heterogeneity from F.1.                     |
-| **A9**  | **Tail chasing**             | Harvesting hundreds of rare terms.                                   | Cognitive overload; dilutes signal.                          | Keep **head terms** that feed F.3/F.4/F.9; justify rare units by their bridging value.                  |
-| **A10** | **Fake symmetry**            | Tech and Plain labels are identical jargon.                          | Didactic failure.                                            | Make **Plain** genuinely explanatory; keep **Tech** faithful to the canon.                              |
-| **A11** | **Temporal fudge**           | Using run‑time words in design Contexts (or vice versa).                | Category drift; later contradictions.                        | Respect the Context’s **DesignRunTag** from its Card (F.1 §7.2).                                      |
-| **A12** | **Cross‑language collapse**  | Merging bilingual terms as one unit.                                 | Erases idiom‑specific signals; hides normative mapping gaps. | Treat each language edition as its **own Context** unless the canon declares a normative mapping.          |
-| **A13** | **Alias inflation**          | Inventing new local names “for clarity”.                             | Strays from the canon; hinders bridging.                     | Prefer the canon’s idiom; keep invented phrasings to the **Plain** register only.                       |
-| **A14** | **Role/status conflation**   | RBAC “role” glossed as behavioural role.                             | Cross‑family bleed; wrong assignment later.                         | Call out the Context in the label: **access‑role (RBAC)** vs **participant (BPMN)**; keep senses disjoint. |
+| # | Anti-pattern | Symptom | Why harmful | Remedy |
+| --- | --- | --- | --- | --- |
+| **A1** | Global normal form | One canonical label is reused across sources. | It erases source-local meaning. | Keep an LNF per recovered source use; relate meanings only in F.9. |
+| **A2** | String = meaning | Identical spelling is treated as one concept. | Homonyms such as *role* and *process* collapse. | State source, scheme, and LocalSenseClaim before comparison. |
+| **A3** | Over-normalisation | Case, hyphens, or modifiers are removed for consistency. | Source cues and citations become unreliable. | Make only minimal edits. |
+| **A4** | Headless multiword | *Service-level objective* becomes *objective*. | Scope disappears. | Preserve the meaningful compound. |
+| **A5** | Premature structure | A gloss contains equations, duties, or kind axioms. | A lexical note is asked to establish a substantive fact about another value. | Route the substantive claim to its direct pattern. |
+| **A6** | Cross-source folding | “BPMN process ≈ PROV activity” appears in F.2. | A relation and its losses are hidden. | Leave the comparison to F.9. |
+| **A7** | Edition blur | A source name has no edition although usage changed. | The claim cannot be replayed. | Name the exact edition and recover the changed meaning afresh. |
+| **A8** | Dialect elevation | A tool keyword list is treated as the whole domain. | One source use displaces other evidence. | Keep it as one exact source basis. |
+| **A9** | Tail chasing | Hundreds of unused terms are harvested. | Signal and working memory are diluted. | Keep terms that change the receiving answer. |
+| **A10** | Fake Plain label | Tech and Plain repeat the same jargon. | The cold reader gains nothing. | Explain the use without widening it. |
+| **A11** | Design-time and run-time blur | A design expression is glossed as an occurrence, or conversely. | MethodDescription and Work collapse. | State the actual source-local claim and route the distinction through F.11, A.3, and A.15. |
+| **A12** | Cross-language collapse | Bilingual expressions are merged because a dictionary aligns them. | Normative and idiomatic differences vanish. | Recover each source use; assert a relation only when one obtains. |
+| **A13** | Alias inflation | A new technical term is invented “for clarity”. | It competes with the source and hides provenance. | Keep inventions, if needed, only as bounded Plain labels. |
+| **A14** | Role–status conflation | RBAC *role* is glossed as an acting system role. | Permission and agency claims mix. | Say **access role (RBAC)** and use E.10.ROLE and F.4 for any system-role claim. |
 

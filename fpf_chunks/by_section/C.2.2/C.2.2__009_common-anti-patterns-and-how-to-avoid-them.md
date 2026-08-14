@@ -6,15 +6,18 @@ section_id: "C.2.2:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.2/C.2.2__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.2.2 — Reliability R in the F–G–R triad"
   - "C.2.2:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 42867
-line_end: 42880
+line_start: 42568
+line_end: 42581
 dependencies:
+  - "A.1.1"
+  - "A.10"
   - "A.2.6"
   - "A.21"
+  - "A.6.3.RT"
   - "B.1.3"
   - "B.3"
   - "B.3.3"
@@ -23,7 +26,7 @@ dependencies:
   - "C.2"
   - "C.2.3"
   - "C.21"
-  - "C.25"
+  - "C.29"
   - "C.3"
   - "C.3.3"
   - "C.3.A"
@@ -32,15 +35,16 @@ dependencies:
   - "E.18"
   - "F.17"
   - "F.9"
+  - "G.2"
   - "G.6"
   - "G.7"
 keywords:
-  - "Bridge-only reuse"
   - "ClaimScope (G)"
   - "Congruence Level (CL / CL^k / CL^plane)"
   - "F–G–R"
   - "Reliability (R)"
   - "TA/VA/LA lanes"
+  - "direct relation"
   - "evidence-bound"
   - "no implicit averaging"
   - "pathwise justification (PathId)"
@@ -57,7 +61,7 @@ Informative; non-binding.
 | **Averaging assurance**    | A mean/weighted sum of `R` values is reported as “confidence”.                               | It violates WLNK and is usually illegal scale arithmetic.        | Use weakest-link `min` on the entailment spine, then apply congruence penalties into `R` only.          |
 | **Truth-by-score**         | `R=0.9` is treated as “the claim is true.”                                                    | R is warrant strength, not ontological truth.                    | Require explicit evidence links and scope; treat R as decision warrant only.                             |
 | **Scope laundering**       | The claim’s applicability grows by wording changes while `G` is unchanged.                    | It silently widens scope, making comparisons meaningless.        | Use A.2.6 operators and treat scope changes as explicit revisions.                                       |
-| **Bridge laundering**      | A claim is reused in a new context without a bridge, and R is carried over unchanged.         | It hides semantic loss and encourages overconfident reuse.       | Declare bridges with CL and recompute `R_eff` using penalties.                                           |
+| **Relation laundering**    | A claim or its evidence is reused after a changed scope, kind, plane, notation, local meaning, model use, or evidence basis, while `R` is carried over unchanged. | It hides the actual change and its relation-specific loss. | Name the direct relation or scope operation and recompute `R_eff` from its declared loss; stop if that relation is missing. |
 | **DesignRunTag chimera**     | Design-time proofs and run-time telemetry are mixed as if they were the same evidence object. | Evidence belongs to different stances and decays differently.    | Separate lanes and validity windows; treat crossings explicitly.                                         |
 | **Ordinal arithmetic**     | CL or F levels are averaged to produce a pseudo-score.                                        | It violates scale legality and produces non-auditable numbers.   | Keep CL/F ordinal; convert only via declared penalty tables on R.                                        |
 | **Many-weak-makes-strong** | Numerous low-quality supports are combined to inflate confidence.                             | It violates the weakest-link intent of conservative propagation. | Default to `min` for required supports; allow `max` only with explicit independence arguments.          |

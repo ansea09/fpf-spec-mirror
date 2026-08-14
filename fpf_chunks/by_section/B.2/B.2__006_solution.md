@@ -6,12 +6,12 @@ section_id: "B.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__006_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:4 — Solution"
-line_start: 37338
-line_end: 37446
+line_start: 37055
+line_end: 37163
 dependencies:
   - "A.1"
   - "A.10"
@@ -146,7 +146,7 @@ Keep five results apart:
 - the existing whole and candidate new whole, their constituents, obtaining constructive relations, assemblies, characteristics, and identity rules are world-side objects and facts under their direct patterns;
 - a B.2 whole-reidentification assertion is a C.2.1 episteme about those objects;
 - evidence and assurance relations support or warrant the assertion's claim content but create neither whole and decide neither identity rule;
-- G.11 decides whether the selected assertion or record edition is current for the receiving use;
+- use G.11 to determine whether the selected assertion or record edition is current for the receiving use;
 - receiving work decides whether to rely, decline to rely, defer, or reopen.
 
 Evidence present or missing, and a current or stale record, can change what an evaluation returns and whether receiving work relies. They cannot turn the same whole into a new whole or a new whole into the same one. Whether the existing whole continues or a new whole must be identified follows the direct identity and reidentification rules plus the actual construction facts. A.1 recognition of either candidate supplies no B.2 warrant and does not select B.2.

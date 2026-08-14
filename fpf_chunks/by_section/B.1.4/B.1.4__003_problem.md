@@ -6,12 +6,12 @@ section_id: "B.1.4:1.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__003_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:1.1 — Problem"
-line_start: 36456
-line_end: 36461
+line_start: 36168
+line_end: 36173
 dependencies:
   - "A.1.1"
   - "A.14"
@@ -36,7 +36,7 @@ keywords:
 
 ### B.1.4:1.1 - Problem
 
-Without this pattern, four errors recur. First, `SerialStepOf` or another ordered relation is read as ordinary parthood, so changing the order looks harmless even when the aggregate meaning changes. Second, a phase label is read as a new holon level or a new whole, so identity change is hidden instead of handled by whole reidentification. Third, design-time plans, possible method order, run-time histories, and evidence windows are folded together as one sequence. Fourth, mathematical order, graph, or operator notation starts to govern the in-life object instead of expressing a recovered relation for one bounded use.
+Without this pattern, four errors recur. First, `SerialStepOf` or another ordered relation is read as ordinary parthood, so changing the order looks harmless even when the aggregate meaning changes. Second, a phase label is read as a new holon level or a new whole, so identity change is hidden instead of handled by whole reidentification. Third, design-time plans, possible method order, run-time histories, and evidence windows are folded together as one sequence. Fourth, mathematical order, graph, or operator notation starts to stand for the in-life object instead of expressing a recovered relation for one bounded use.
 
-The practical failure is not a missing diagram. It is an inadmissible aggregate: the user cannot tell which carrier is being followed, which relation is ordered, which time window is covered, whether gaps or overlaps matter, and which stronger owner must carry work, resource, transformation, evidence, or whole-reidentification claims.
+The practical failure is not a missing diagram. It is an inadmissible aggregate: the user cannot tell which carrier is being followed, which positions or phases are included, which relation is ordered, which time window is covered, whether gaps or overlaps matter, or which pattern must carry a stronger work, resource, transformation, evidence, or whole-reidentification claim.
 

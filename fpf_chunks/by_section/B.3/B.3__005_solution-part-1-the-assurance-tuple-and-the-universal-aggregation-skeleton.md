@@ -6,12 +6,12 @@ section_id: "B.3:4"
 section_title: "Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__005_solution-part-1-the-assurance-tuple-and-the-universal-aggregation-skeleton.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:4 — Solution — Part 1: The assurance tuple and the universal aggregation skeleton"
-line_start: 38751
-line_end: 39106
+line_start: 38471
+line_end: 38826
 dependencies:
   - "A.10"
   - "A.15"
@@ -219,7 +219,7 @@ If those fields are missing, the encountered publication face, rendering, or cue
 Constructive assurance moves:
 
 - narrow `G` to the evidenced or rule-bounded scope;
-- raise `F` by formalizing argument structure, method-description fields, or `MethodRelationStructure@BoundedContext` when method composition, fallback, selection, or method-family relation is current;
+- raise `F` by formalizing argument structure or method-description fields, or by naming the exact method-side relations used in composition, fallback, selection, or a method family; when the assurance question depends on their organization, use A.22's structure-selection criterion to select the structure for that use and call it `MethodRelationStructure`;
 - raise `R` by adding validation, replication, more probative, repeated, current, or more relevant evidence;
 - improve `CL` by repairing mappings, units, interfaces, or integration edges;
 - separate design assurance from run assurance;

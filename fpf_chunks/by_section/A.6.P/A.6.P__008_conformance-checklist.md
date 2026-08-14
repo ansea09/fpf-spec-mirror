@@ -6,12 +6,12 @@ section_id: "A.6.P:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.P/A.6.P__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.P — Relational Precision Restoration - Recovering Direct Relations from Under-Specified Claims"
   - "A.6.P:7 — Conformance Checklist"
-line_start: 16379
-line_end: 16401
+line_start: 16073
+line_end: 16095
 dependencies:
   - "A.1.SCR"
   - "A.1.STM"
@@ -40,7 +40,7 @@ keywords:
 
 1. **Recognition.** The use begins with one actual relation-bearing claim and states which later claim or operation is blocked by its ambiguity.
 2. **Grounded heads.** Every load-bearing head refers to an exact object or remains explicitly unresolved; a qualifier does not substitute for the head kind.
-3. **Direct relation.** Every positive or governed-negative direct subject-relation exit names exact actual participants, an explicit admitted `RelationKind` token, and the pattern that defines its predicate, participant meanings, obtaining condition, and identity rule. The A.6.P.WMR non-relation exits remain under their subject patterns.
+3. **Direct relation.** Every positive or governed-negative direct subject-relation result names exact actual participants, an explicit admitted `RelationKind` token, and the pattern that defines its predicate, participant meanings, obtaining condition, and identity rule. The A.6.P.WMR non-relation result families remain defined or tested by the rules for the recovered Method, Work, result, production, delivery, acceptance, transfer, or receiving-use claim.
 4. **Participant meanings.** The direct pattern states the participant meanings, actual participation, obtaining predicate, applicability, and occurrence-identity rule; every participant retains its independently governed kind.
 5. **No negative occurrence.** Negative assertion, refutation, or unresolved reliance remains claim- or evaluation-side and creates no negative world-side occurrence.
 6. **Demand-driven declaration.** A compatible `RelationSignature` and declaration-local `SlotSpec`s appear only when reusable typed use is current; an ordinary assertion may name participants directly.
@@ -55,7 +55,7 @@ keywords:
 15. **Boundary classification.** Apply L, A, D, and E only to an actual A.6.B boundary statement. Before marking **A**, point to the particular mechanism application and the predicate checked at entry; if either is absent, leave claim use or scope, A.6.P entry or stop, endpoint-kind correction, and Bridge need with their own patterns.
 16. **Candidate guide and stop.** Unresolved alternatives are grounded objects, kinds, or relations with a discriminating check, not a synonym list or representation-first ontology. Until the check selects one reading, the note remains Plain or informative, names the blocked reader, decision, or work and the needed discriminator, and carries no decision, gate, publication, assurance, reliance, or cross-context reuse.
 17. **Representation boundary.** A table, row, field set, tuple, graph edge, functional expression, arrow, formula, or reifier has explicit `C.29` correspondence for any relied-on FPF use and does not constitute the represented relation by form.
-18. **Optional episteme operation.** Use this path only when a later task must describe an operation on an episteme or representation. Identify input and output independently under `C.2.1`; use only an exact compatible `A.6.3` viewing or construction case, keep any continuity relation separate, and use `A.15.1` for actual authoring, materialisation, checking, or publication Work. Do not infer applicability of the current slot/write profiles from this edition in `A.6.2` or `A.6.4`; for morphing or retargeting, preserve the exact input, output, changed EntityOfConcern if any, and needed sentence as an explicit unsupported-operation stop. Neither an operation nor that Work by itself changes the repaired world-side relation or supplies occurrence identity.
+18. **Optional episteme operation.** Use this path only when a later task must describe an operation on an episteme or representation. Identify input and output independently under `C.2.1`. Use `A.6.3` for an exact compatible EntityOfConcern-preserving viewing or construction case whose entry and result conditions hold; use `A.6.2` for an effect-free epistemic morphing case that satisfies its entry and laws; use `A.6.4` for an exact retargeting case that satisfies its bridge, invariant, loss, admissibility, and witness conditions. If the selected pattern's actual entry or result condition is missing, preserve the input, output, changed EntityOfConcern if any, and needed sentence as an explicit `unsupported-operation` stop. Keep any continuity relation separate, and use `A.15.1` for actual authoring, materialisation, checking, or publication Work. Neither an operation nor that Work by itself changes the repaired world-side relation or supplies occurrence identity.
 19. **Plain relaxation.** Short final wording retains a recoverable direct relation, actual participants, and visible escalation points.
 20. **Neighboring subject result.** The repaired claim closes under one exact predicate or constraint selected in A.6.P:4.11, including exactly one of the four A.6.P.WMR families when that specialization is current; the neighboring pattern identifier is only its locator.
 

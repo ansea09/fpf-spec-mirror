@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/D.1.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
-line_start: 68852
-line_end: 68986
+line_start: 68643
+line_end: 68782
 dependencies:
   - "A.1"
   - "A.10"
@@ -69,11 +69,16 @@ Recover an `EthicalValueFrame@Context` before treating the claim as ethically ad
 EthicalValueFrame@Context:
   ethicalClaimRef
   affectedEntityOfConcernRef
-  boundedContextRef
+  intendedEthicalUse
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?
   valueConcernRefs
+  valueFrameEditionRefs?
   ethicalTheoryOrTraditionRefs?
   affectedHolonRefs?
+  affectedSystemRefs?
   affectedEpistemeRefs?
+  directResponsibilityRelationRefs?
   systemRoleAssignmentRefs?: FinSet(U.RelationRef constrained to U.SystemRoleAssignment)
   methodOrWorkRefs?
   transformationRefs?
@@ -117,7 +122,7 @@ A team says that a triage model is "ethical because it maximizes total benefit."
 
 | ID | Requirement | Purpose |
 | --- | --- | --- |
-| CC-D1-1 | The value concern, affected EntityOfConcern, bounded context, and evidence refs are named. | Keeps "ethical" from becoming a label without content. |
+| CC-D1-1 | The ethical claim, affected EntityOfConcern, value concern, intended use, and evidence are named. Value-frame editions, ClaimScope, qualification window, affected Systems, and direct responsibility relations are added when they change the claim or its admissible use. | Keeps "ethical" from becoming a label without content or a generic context premise. |
 | CC-D1-2 | The text states admissible use and non-admissible overread for the ethical claim. | Prevents value wording from authorizing action by itself. |
 | CC-D1-3 | Ethical theory, tradition, or project-specific value frame is named when it changes the claim. | Keeps plural value frames inspectable. |
 | CC-D1-4 | Multilevel conflict, mediation, bias or fairness audit, causal use, evidence, assurance, and architecture residuals use their subject patterns. | Keeps D.1 as boundary pattern rather than universal ethics owner. |

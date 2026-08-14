@@ -6,12 +6,12 @@ section_id: "A.13:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.13/A.13__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.13 — The Agential Role & Agency Spectrum"
   - "A.13:4 — Solution"
-line_start: 23803
-line_end: 23858
+line_start: 23494
+line_end: 23545
 dependencies:
   - "A.10"
   - "A.12"
@@ -24,42 +24,39 @@ dependencies:
   - "C.9"
   - "E.16"
 keywords:
-  - "agency as role"
+  - "U.SystemRoleAssignment"
   - "agency spectrum"
+  - "agential participation"
   - "autonomy grading"
-  - "contextual role assignment"
+  - "local system-role kind"
   - "substrate-neutral autonomy"
 ---
 
 ### A.13:4 - Solution
 
-FPF's solution is threefold: it defines agential participation via `U.RoleAssignment` (A.2.1), makes agency measurable with a dedicated Characterization, and provides a didactic summary via a graded scale.
+FPF's solution is threefold: establish agential participation through an obtaining system-role assignment, measure agency with a dedicated Characterization, and provide a didactic summary through a graded scale.
 
-#### A.13:4.1 - The Core Definition: Agential participation as contextual role assignment
+#### A.13:4.1 - The Core Definition: Agential participation through an exact system-role assignment
 
-An ordinary-language **"agent"** in FPF is not a fundamental type. When the term is admitted, it is a convenience term (a Register 1 / Register 2 label) for a specific **Contextual Role Assignment (`U.RoleAssignment`)**:
+An ordinary-language **"agent"** is not a fundamental FPF type. When a precise agency claim is needed, name four things:
 
-> `AgentialParticipation ≍ U.RoleAssignment(holderRef: U.System, roleRef: AgentialRole@Context, boundedContextRef: U.BoundedContext)`
+1. the acting holder recognized as a `U.System`;
+2. the exact local agential system-role kind whose membership criterion the holder satisfies;
+3. an occurrence of a directly declared `U.SystemRoleAssignment` species that assigns that kind to the holder and actually obtains; and
+4. any claim scope, working situation, and time window needed by the intended use, kept separate from the assignment's identity.
 
-This means the acting holder is a **`U.System`** that currently bears **`AgentialRole@Context`** within a specific **`U.BoundedContext`**.
+This keeps a useful ordinary word without creating a universal `Agent` or `AgentialRole` kind. Classification by the local kind does not by itself establish an assignment or performed Work. Because the holder must be a `U.System`, an episteme cannot become the acting holder of this assignment.
 
-*   **No root Agent kind:** To be clear, FPF does not add a base kind for "agent" beside `U.System` and `U.Episteme`. This avoids type inflation and preserves the dynamic nature of roles.
-*   **Epistemes Cannot Hold Work-Facing Agential Roles:** As the `holderRef` must name a `U.System`, this definition constitutionally forbids `U.Episteme`s from being acting holders, preventing the "episteme-as-actor" category error.
-*   **Canonical Syntax:** The technical notation is `System#AgentialRole:Context`.
+#### A.13:4.2 - Local Agential System-Role Kinds and Their Specializations
 
-#### A.13:4.2 - The `AgentialRole` and its Specializations
-
-*   **`AgentialRole@Context`:** This is the abstract role value for goal-directed action within a context. It is not a separate root kind.
-*   **Specialized Roles:** More specific behavioral role values like `TransformerRole@Context` and `ObserverRole@Context` specialize `AgentialRole@Context`. They describe *what kind* of agential action is being performed at a given moment.
-    *   A system holding `TransformerRole@Context` is currently modifying another holon.
-    *   A system holding `ObserverRole@Context` is currently gathering information.
-    This creates a clean role-value hierarchy: a `TransformerRole@Context` assignment is agential, but an agential assignment is not always transformational; it could be observing, planning, or idle.
+*   **Local agential system-role kind:** A practice or source may define a local kind whose stable work-facing contribution is goal-directed action. The kind classifies candidate Systems under its own criterion; it is not a universal root kind, an assignment occurrence, or Work.
+*   **Specialized agential system-role kinds:** A local practice may distinguish transformation, observation, planning, or another contribution when it supplies a real criterion for the distinction. An assignment to one such kind establishes only that assignment; any transformation, observation, plan, or performed Work still needs its own claim.
 
 #### A.13:4.3 - Measuring Agency: The Agency Characteristic Profile and the Spectrum
 
-Agency is not a binary switch; it is a multi-dimensional spectrum of capabilities. A.13 defines the current domain profile and attaches its measurable characteristics to a `U.RoleAssignment`; A.17, A.18, A.19, C.16, and A.10 govern characterization, measurement, and evidence. Planned **C.9 Agency Characteristic Profile** may later consolidate that profile but supplies no current definitions or governing force.
+Agency is not a binary switch; it is a multi-dimensional spectrum of capabilities. A.13 defines the current domain profile and attaches its measurable characteristics to the exact holder and agency claim; A.17, A.18, A.19, C.16, and A.10 govern characterization, measurement, and evidence. Planned **C.9 Agency Characteristic Profile** may later consolidate that profile but supplies no current definitions or governing force.
 
-The agency-characteristic profile is grounded in contemporary research (e.g., Active Inference, Basal Cognition) and includes the following key characteristics. Each is measured for a specific holder system in a specific context and must be backed by evidence (A.10).
+The agency-characteristic profile is grounded in contemporary research (e.g., Active Inference, Basal Cognition) and includes the following key characteristics. Each measurement names its exact holder and, where relevant, its task family or work target, claim scope, working situation, and time window; A.10 supplies the evidence basis.
 
 1.  **Boundary Maintenance Capacity (BMC):** The ability of the system to maintain its structural and functional integrity against perturbations. *(How robust is it?)*
 2.  **Predictive Horizon (PH):** The temporal or causal depth of the holder's internal model. *(How far ahead can it "see"?)*
@@ -67,9 +64,9 @@ The agency-characteristic profile is grounded in contemporary research (e.g., Ac
 4.  **Policy Enactment Reliability (PER):** The probability that the agent will successfully execute its chosen `U.Method` under operational conditions. *(How reliably does it do what it decides to do?)*
 5.  **Objective Complexity (OC):** A measure of the complexity of the `U.Objective` the holder can pursue, from simple set-points to abstract, multi-scale goals.
 
-##### A.13:4.3.1 - Context-bounded task-family specialization claims
+##### A.13:4.3.1 - Task-family specialization claims
 
-When work shifts to a new `TaskFamily`, describe the holder as acquiring **context-bounded task-family specialization** rather than as becoming more generally intelligent in the abstract. The same holder may carry different task-family specializations across different task families without becoming a new U-kind. Breadth across unrelated task families is not the adaptation-signature claim here; the adaptation-signature claim is **time-to-usable specialization** on the declared task family and work target under a named work-measure threshold, adaptation budget, and freshness or provenance basis.
+When Work shifts to a new `TaskFamily`, describe evidence-backed specialization for that task family and work target rather than greater intelligence in general. Keep the task family, work target, claim scope, working situation, measurement window, work-measure threshold, adaptation budget, and provenance basis as separate values. The same holder may show different specializations for different task families without becoming a new U-kind; the claim here is **time-to-usable specialization** for the stated task family and target.
 
 Low-human-overlap or newly discovered task families remain admissible when the task family, evidence basis, and reuse window are explicit by value.
 

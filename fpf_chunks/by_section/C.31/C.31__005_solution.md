@@ -6,12 +6,12 @@ section_id: "C.31:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31/C.31__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.31 — Modularity and Reusable Structure Characteristics"
   - "C.31:4 — Solution"
-line_start: 63565
-line_end: 63761
+line_start: 63292
+line_end: 63499
 dependencies:
   - "A.10"
   - "A.17"
@@ -54,11 +54,18 @@ C.31 defines and constrains modularity and reusable-structure characteristic ass
 ```text
 ModularityVectorLite:
   describedHolonRef:
-  boundedContextRef:
+  architectureQuestion:
+  intendedArchitectureUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureClaimRef?:
+  selectedStructureRefs:
   structureKindRefs:
   threeLiveCharacteristicsAtMost:
     - characteristicRef:
+      characteristicScaleRef?:
+      evidenceRefs?:
+      comparisonBasisRef?:
       currentCue:
       repairDirection:
       claimUseClass:
@@ -75,8 +82,12 @@ The vector is complete enough when it states what can be done next and what cann
 ```text
 ModularityVectorLite:
   describedHolonRef: ProductPlatform@FieldPumpFamily
-  boundedContextRef: FieldServiceAndProcurement@2026Q2
+  architectureQuestion: which structural repair would reduce field-replacement and certification burden?
+  intendedArchitectureUse: choose the next modularity repair for field service and procurement
+  claimScopeRef?: field-service and procurement architecture claims
+  qualificationWindowRef?: 2026Q2
   architectureClaimRef?: ArchitectureOf@PumpControllerPlatform
+  selectedStructureRefs: PumpControllerModuleInterfaceStructure, PumpControllerEvidencePackageStructure
   structureKindRefs: ModuleInterfaceStructure, EvidencePackageStructure
   threeLiveCharacteristicsAtMost:
     - characteristicRef: InterfaceStandardizationShare
@@ -234,7 +245,7 @@ Lower or reopen a `ModularityVectorLite`, `ModularityCharacteristicCard`, or rep
 - proxy audit worsens, such as more integration failures, workarounds, source-return events, stale evidence reuse, or bounded exceptions;
 - measurement basis, comparability basis, scoring method, codomain, polarity, unit policy, or declared characteristic basis changes;
 - evidence relation, evidence-provenance relation, source relation, evidence-claim-absent reason, or source-return condition changes;
-- described holon, bounded context, architecture claim, structure kind, characteristic head, or repair direction changes;
+- described holon, architecture question or intended use, ClaimScope or qualification window, architecture claim, structure kind, characteristic head, or repair direction changes;
 - a report-only proxy is used for comparison, selection, publication, assurance, benchmark, causal-use, cross-case reuse, decision, procurement, or architecture scale-preference;
 - `C.31.RSA`, `C.31.ASAP`, `C.16`, `C.25`, `C.29`, `C.30.STRAT`, `A.6.M`, `C.30`, `C.30.ASV`, `A.10`, `B.3`, `A.20`, `A.21`, `G.5`, or `C.11` changes the boundary for the neighboring claim being made.
 

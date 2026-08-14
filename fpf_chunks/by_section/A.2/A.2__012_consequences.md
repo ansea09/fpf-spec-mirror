@@ -6,7 +6,7 @@ section_id: "A.2:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2/A.2__012_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.2 — System-Role Kinds and Assignments"
   - "A.2:10 — Consequences"
@@ -43,10 +43,10 @@ keywords:
 
 | Gain | Cost or tradeoff |
 | --- | --- |
-| Systems retain stable identity while contribution classifications and assignments change. | Relied-on classification must identify a bounded kind and signature edition. |
+| Systems retain stable identity while contribution classifications and assignments change. | Relied-on classification must identify the local kind, its practice or source boundary, and the signature edition used. |
 | Membership can be checked without circular assignment or hierarchy premises. | Direct candidate features and unavailable dependencies must be distinguished. |
 | Assignment identity remains available through direct species and uninterrupted obtaining. | A stronger appointment needs its real participants and predicate rather than a generic record. |
-| Local vocabularies remain reusable without a universal role root. | Cross-context sameness and use require explicit continuity or bridge results. |
+| Local vocabularies remain reusable without a universal role root. | Cross-local sameness and use require explicit continuity, an obtaining C.3.3 kind relation, or an F.9 local-sense relation, as applicable. |
 | Ordinary sentences remain readable. | A stronger receiving claim must still expose the exact kind, judgment, assignment, or relation it consumes. |
 | Episteme use, capability, responsibility, Method, and Work remain independently testable. | Contribution wording must be resolved before it carries another technical inference. |
 

@@ -6,12 +6,12 @@ section_id: "F.5:11"
 section_title: "SoTA-Echoing and Source Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__013_sota-echoing-and-source-use.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:11 — SoTA-Echoing and Source Use"
-line_start: 92310
-line_end: 92323
+line_start: 91926
+line_end: 91939
 dependencies:
   - "A.10"
   - "A.15"
@@ -56,10 +56,10 @@ keywords:
 | Practice line | What FPF adopts | Practical implication |
 | --- | --- | --- |
 | Terminology and controlled-vocabulary practice | Referent, preferred designation, Plain explanation, symbol, alias, and lineage are separate. | Tech designation, Plain designation, symbol, and source spelling are not interchangeable. |
-| Ontology engineering practice | Class and relation names should not encode accidental provenance, thresholds, or temporary use. | Source, edition, witness, context, scheme, window, and threshold stay in direct claims. |
+| Ontology engineering practice | Class and relation names should not encode accidental provenance, thresholds, or temporary use. | Source, edition, witness, local boundary, scheme, window, and threshold stay in direct claims. |
 | Human-centered technical writing | A teaching phrase helps only when it preserves the underlying concept. | Plain wording explains; it does not widen the Tech designation. |
 | Morphology-aware naming | Word form affects expectations about actor, action, state, result, description, and relation position. | `...SystemRole`, `...SystemRoleKindDescription`, Method, Work, status, and slot morphology remain distinct. |
-| Cross-context terminology use | Shared spelling is evidence at most; actual correspondence and reliance need explicit relations and claims. | A label, Bridge, use claim, evidence path, assurance record, card, or row creates no kind, assignment, Work, result, or publication. |
+| Cross-local terminology use | Shared spelling is evidence at most; an actual relation and reliance need explicit claims. | A label, Bridge, use claim, evidence path, assurance record, card, or row creates no kind, assignment, Work, result, or publication. |
 
 SysML is intentionally not used as naming or ontology authority here. A familiar modeling notation does not settle the referent, kind, description, assignment, participation, permission, Method, or Work.
 

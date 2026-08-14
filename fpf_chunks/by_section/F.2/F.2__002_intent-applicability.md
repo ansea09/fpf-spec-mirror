@@ -6,35 +6,36 @@ section_id: "F.2:1"
 section_title: "Intent & applicability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__002_intent-applicability.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:1 — Intent & applicability"
-line_start: 91118
-line_end: 91125
+line_start: 90892
+line_end: 90899
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.3"
   - "F.4"
   - "F.9"
 keywords:
-  - "lexical unit"
-  - "normalization"
-  - "provenance"
-  - "source-text terms"
-  - "term harvesting"
+  - "LNF"
+  - "LocalExpression"
+  - "LocalSenseClaim"
+  - "effective ReferenceScheme"
+  - "exact source and edition"
+  - "optional SchemeSenseCell"
 ---
 
 ### F.2:1 - Intent & applicability
 
-**Intent.** Provide a **conceptual** (notation‑free) discipline for turning *Context‑internal usage* into **context‑local lexical units** ready for later reasoning—without Cross‑context merging and without slipping into governance or tooling. The result is a **small, auditable set of context‑local names and glosses** that faithfully reflect how the canon speaks.
+**Intent.** Turn usage in an exact source and edition into a small, auditable set of source-local expressions and one-sentence meaning claims. Keep the source’s idiom, help a cold reader, and withhold every cross-source conclusion.
 
-**Applicability.** Use whenever a unification line (from F.1) needs **actual words** to be referenced by patterns in Part C (Extention patterns) or by Role Descriptions (F.4). Re‑enter F.2 when a canon/edition changes or when a new Context is admitted in F.1.
+**Use this when.** F.1 has selected a source because it can change the receiving answer, and the reader needs the actual words that carry its contribution. Re-enter when the selected edition, passage, language, or interpretation basis changes enough to change meaning.
 
-**Non‑goals.** No global labels; no Cross‑context equivalence; no workflow or role descriptions; no storage/API talk. F.2 specifies **how to think**, not how to “run a pipeline”.
+**Do not use this when.** The words are already recovered precisely enough for the receiving question, or the current task is to relate two local meanings; use F.9 for that relation. F.2 creates no global term, kind, assignment, behaviour, obligation, or storage scheme.
 

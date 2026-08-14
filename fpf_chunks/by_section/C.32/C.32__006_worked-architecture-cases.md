@@ -6,12 +6,12 @@ section_id: "C.32:5"
 section_title: "Worked Architecture Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__006_worked-architecture-cases.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:5 — Worked Architecture Cases"
-line_start: 64800
-line_end: 64809
+line_start: 64559
+line_end: 64568
 dependencies:
   - "A.10"
   - "A.15"

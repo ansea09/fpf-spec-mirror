@@ -6,12 +6,12 @@ section_id: "D.3:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__011_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 69259
-line_end: 69267
+line_start: 69058
+line_end: 69066
 dependencies:
   - "A.1"
   - "A.10"
@@ -39,6 +39,6 @@ keywords:
 | --- | --- | --- |
 | Political label as structure | The conflict is named by a slogan such as society versus innovation. | Name the affected EntityOfConcern refs, levels or scopes, value frames, and evidence. |
 | Actor by plural noun | A collection is made responsible because its name is plural or institutional. | Recover membership, part-whole, participation, optional assignment, and agency evidence separately. Cite a direct responsibility relation with exact participants or return `missing-governor`. |
-| Description-only conflict | The case becomes a problem about wording of a report, model, or standard. | Keep episteme and publication-use claims with their subject patterns while mapping the affected systems or decisions. |
+| Description-only conflict | The case becomes a problem about wording of a report, model, or standard. | Use C.2.1 for episteme identity and E.17 or E.24.PUB for publication use while D.3 maps the affected systems or decisions. |
 | Mediation inside map | The conflict map chooses the compromise. | Stop at structure; D.4 is the pattern for mediation or decision use. |
 

@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:9"
 section_title: "Rationale and SoTA Echo"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__011_rationale-and-sota-echo.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:9 — Rationale and SoTA Echo"
-line_start: 76836
-line_end: 76841
+line_start: 76663
+line_end: 76668
 dependencies:
   - "A.2"
   - "A.2.1"

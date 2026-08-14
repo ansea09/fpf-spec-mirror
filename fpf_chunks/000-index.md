@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `646b41f84ffef4918ad9bdb34e7b450f0c4903ee`
+Commit SHA: `7205ce8cea50eb778520a026373b2b7bcbc43fbb`
 
 Chunking method: `pattern-aware`
 
@@ -42,7 +42,7 @@ Patterns: `294`
 - [A.6.0 — U.Signature - Reusable Law-Governed Declaration Episteme](by_pattern/A.6.0.md)
 - [A.6.1 — U.Mechanism - Reusable Law-Governed Operation Declaration](by_pattern/A.6.1.md)
 - [A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes](by_pattern/A.6.2.md)
-- [A.6.3 — U.EpistemicViewing — EntityOfConcern-preserving morphism](by_pattern/A.6.3.md)
+- [A.6.3 — U.EpistemicViewing - EntityOfConcern-preserving episteme construction](by_pattern/A.6.3.md)
 - [A.6.3.CSC — Controlled Semantic Coarsening](by_pattern/A.6.3.CSC.md)
 - [A.6.3.CR — ConservativeRetextualization: EntityOfConcern-Preserving Textual Re-Expression](by_pattern/A.6.3.CR.md)
 - [A.6.3.RT — Representation-Scheme Transition: EntityOfConcern-Preserving Representation-Scheme Transition](by_pattern/A.6.3.RT.md)
@@ -234,7 +234,7 @@ Patterns: `294`
 - [E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture](by_pattern/E.10.ARCH.md)
 - [E.10.ROLE — Recovering What “Role” Means in the Current Claim](by_pattern/E.10.ROLE.md)
 - [E.10.P — Conceptual Prefixes policy & registry](by_pattern/E.10.P.md)
-- [E.10.D1 — Lexical Discipline for “Context” (D.CTX)](by_pattern/E.10.D1.md)
+- [E.10.D1 — Recovering What “Context” Means in Use](by_pattern/E.10.D1.md)
 - [E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline](by_pattern/E.10.D2.md)
 - [E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline](by_pattern/E.11.md)
 - [E.11.PUA — Pattern Use in a Working Situation and First Useful Result](by_pattern/E.11.PUA.md)
@@ -267,14 +267,14 @@ Patterns: `294`
 - [E.24.CD — Ontic Candidate Detection and First-Use Disposition](by_pattern/E.24.CD.md)
 - [E.24.PUB — Ontic Description and Publication Discipline](by_pattern/E.24.PUB.md)
 - [E.24.UK — U-kind Admission and Ontic Settlement](by_pattern/E.24.UK.md)
-- [F.0.1 — Contextual Lexicon Principles](by_pattern/F.0.1.md)
-- [F.1 — Domain‑Family Landscape Survey](by_pattern/F.1.md)
+- [F.0.1 — Source-Local Meaning Recovery](by_pattern/F.0.1.md)
+- [F.1 — Question-Relative Source Selection](by_pattern/F.1.md)
 - [F.2 — Term Harvesting & Normalisation](by_pattern/F.2.md)
-- [F.3 — Intra‑Context Sense Clustering](by_pattern/F.3.md)
+- [F.3 — Source-Local Sense Clustering](by_pattern/F.3.md)
 - [F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind](by_pattern/F.4.md)
 - [F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels](by_pattern/F.5.md)
 - [F.6 — SystemRoleAssignment and Performed-Work Attribution Check](by_pattern/F.6.md)
-- [F.7 — Concept‑Set Table](by_pattern/F.7.md)
+- [F.7 — Concept-Set Table](by_pattern/F.7.md)
 - [F.8 — Mint-or-Reuse Decision](by_pattern/F.8.md)
 - [F.9 — Alignment and Bridge across Contexts](by_pattern/F.9.md)
 - [F.9.1 — Bridge Stance Note](by_pattern/F.9.1.md)
@@ -284,7 +284,7 @@ Patterns: `294`
 - [F.13 — Lexical Continuity & Deprecation](by_pattern/F.13.md)
 - [F.14 — Anti-Explosion Control for System-Role and Status Name Families](by_pattern/F.14.md)
 - [F.15 — Static and Regression Conformance Harness for Unification](by_pattern/F.15.md)
-- [F.16 — Worked‑Example Template (Cross‑Domain)](by_pattern/F.16.md)
+- [F.16 — Worked-Example Template (Cross-Domain)](by_pattern/F.16.md)
 - [F.17 — Unified Term Sheet](by_pattern/F.17.md)
 - [F.18 — Local-First Unification Naming Protocol](by_pattern/F.18.md)
 - [F.19 — Ontology-First Plain Technical Rewriting](by_pattern/F.19.md)

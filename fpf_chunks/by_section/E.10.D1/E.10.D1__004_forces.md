@@ -1,42 +1,47 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.10.D1"
-pattern_title: "Lexical Discipline for “Context” (D.CTX)"
+pattern_title: "Recovering What “Context” Means in Use"
 section_id: "E.10.D1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
+  - "E.10.D1 — Recovering What “Context” Means in Use"
   - "E.10.D1:3 — Forces"
-line_start: 76910
-line_end: 76918
+line_start: 76735
+line_end: 76744
 dependencies:
-  - "A.2.1"
-  - "A.4"
-  - "A.7"
-  - "F.1"
-  - "F.2"
-  - "F.3"
-  - "F.4"
-  - "F.6"
-  - "F.7"
+  - "A.1.1"
+  - "A.2.6"
+  - "C.30"
+  - "E.10"
+  - "E.10.ARCH"
+  - "E.17.0"
+  - "F.0.1"
+  - "F.17"
+  - "F.19"
   - "F.9"
 keywords:
-  - "U.BoundedContext"
-  - "anchor"
-  - "context"
-  - "domain"
-  - "frame"
+  - "architecture"
+  - "claim scope"
+  - "context wording"
+  - "environment"
+  - "model use"
+  - "positive wording repair"
+  - "source-local meaning"
+  - "viewpoint"
+  - "working situation"
 ---
 
 ### E.10.D1:3 - Forces
 
-| Force                     | Tension to resolve                                                 |
-| ------------------------- | ------------------------------------------------------------------ |
-| Universality vs locality  | One calculus vs many local context of meaning (C‑6 vs C‑1).          |
-| Brevity vs precision      | Short labels vs unambiguous reference.                             |
-| Stability vs evolution    | Fixed terms vs edition turnover and language variants (C‑7).       |
-| Parsimony vs expressivity | Few primitives vs enough hooks for Role Assignment & Enactment, Concept Sets, and Bridges. |
+| Force | Tension |
+| --- | --- |
+| Short wording and recoverable meaning | *Context* is concise, but the reader still needs to know which boundary changes the action. |
+| Shared recovery and subject-specific rules | One recurring wording problem deserves one method, while the subject patterns still define or test each recovered value or relation. |
+| Cheap repair and complete repair | Most sentences need one small rewrite; a recurring cross-framework problem may require `E.10.ARCH`. |
+| Source fidelity and FPF precision | A source may use *context* as a technical term, while an FPF claim must state the source-local value and its receiving use without importing the source ontology wholesale. |
+| Familiar shorthand and subject precision | Readers recognize *context*. Subject patterns define or test the available values and relations; the practitioner selects the one used by the statement. |
 

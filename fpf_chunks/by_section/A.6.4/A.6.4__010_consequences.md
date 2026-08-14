@@ -6,12 +6,12 @@ section_id: "A.6.4:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__010_consequences.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:6 — Consequences"
-line_start: 15870
-line_end: 15888
+line_start: 15564
+line_end: 15582
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -34,7 +34,7 @@ keywords:
   * **retargetings**: different `EntityOfConcernRef` under `KindBridge` and invariants.
 
 * **Retargeting semantics for StructuralReinterpretation.**
-  `E.18` `StructuralReinterpretation` receives semantics from `U.EpistemicRetargeting`, not from an ad-hoc special graph-position kind. This reduces duplication and clarifies how CL penalties and Bridges are used.
+  For E.18, the A.6.4 `U.EpistemicRetargeting` conditions define when a case may be called `StructuralReinterpretation`; an ad-hoc graph-position kind does not. This reduces duplication and clarifies how CL penalties and Bridges are used.
 
 * **Invariants become first‑class.**
   Retargeting makes invariants explicit and type‑checked: every such morphism must state what it preserves and how that is expressed in KD‑CAL/LOG‑CAL.
@@ -43,5 +43,5 @@ keywords:
   ReferencePlane crossings and kind‑level moves are handled via existing Bridges (Part F), with CL^plane/CL^k penalties and SquareLaw witnesses, instead of hidden in implementation details.
 
 * **Better integration with EntityOfConcern and Description-episteme boundary and specification-use gate.**
-  For `…Description`/`…Spec` epistemes, retargeting is the only place where `EntityOfConcernRef` in `DescriptionContext` is allowed to change; all other EntityOfConcern and Description-episteme boundary and specification-use operations (Describe, specification-use refinement, Viewing) keep it fixed.
+  For `...Description` or `...Spec` epistemes, A.6.4 is the place to state a controlled EntityOfConcern change between exact source and receiving epistemes. Describe, specification-use refinement, and Viewing preserve that value; any material scheme, grounding, scope, operating-condition, or describing-use viewpoint change remains separately visible.
 

@@ -6,12 +6,12 @@ section_id: "A.6.4:8"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__008_conformance-checklist-normative.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:8 — Conformance Checklist (normative)"
-line_start: 15814
-line_end: 15860
+line_start: 15508
+line_end: 15554
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -33,14 +33,14 @@ Any pattern that claims to define `U.EpistemicRetargeting` **SHALL**:
 
 * declare itself a species of `U.EffectFreeEpistemicMorphing` (A.6.2),
 * fix `entityOfConcernChangeMode = retarget`,
-* and state its Applicability profile (EntityOfConcernClass pairs, contexts, viewpoints, representation schemes, invariants).
+* and state the EntityOfConcern kind pair, invariant, and any grounding, scheme, scope, operating condition, describing-use viewpoint, or representation relation that constrains its applicability.
 
-**CC‑A.6.4‑2 - Slot‑level read/write discipline.**
+**CC-A.6.4-2 - Value-and-relation read/change discipline.**
 Each species of EpistemicRetargeting **MUST**:
-* list the SlotKinds it **reads** (at least `EntityOfConcernSlot`, `GroundingHolonSlot`, `ClaimGraphSlot`, `ViewpointSlot`, `ReferenceSchemeSlot`, plus any C.2.1+ slots used),
-* list the SlotKinds it **writes** (at least `EntityOfConcernSlot`, typically also `ClaimGraphSlot`, `ReferenceSchemeSlot`, and `meta`),
-* state explicitly how `GroundingHolonSlot` and `ViewpointSlot` behave (preserved vs bridged),
-* reference A.6.5 to show that SlotSpecs remain consistent across domain/codomain kinds.
+* list the C.2.1 values it reads or changes: at least EntityOfConcern, claim content, and effective ReferenceScheme;
+* state that the exact EntityOfConcern changes and whether claim content, effective ReferenceScheme, or separately identified edition or metadata values also change;
+* state explicitly how grounding behaves and, separately, how any viewpoint selected for a named describing use is preserved or changed,
+* use A.6.5 SlotSpecs only when an exact reusable relation declaration is current, keeping those SlotKinds local to that `RelationSignature`.
 
 **CC‑A.6.4‑3 - Bridge & invariant declaration.**
 Each species SHALL:
@@ -53,23 +53,23 @@ Retargeting species that interact with `E.18` transformation-flow structures or 
 * describe the commutative squares (or more general diagrams) that express “evaluate then retarget = retarget then evaluate” up to equivalence,
 * identify the corresponding SquareLaw‑retargeting witnesses and how they are represented as epistemes.
 
-**CC-A.6.4-5 - DescriptionContext behaviour for Description-episteme and specification-use cases.**
-For retargetings over `…Description`/`…Spec` epistemes:
-* laws MUST be phrased in terms of `DescriptionContext = ⟨EntityOfConcernRef, BoundedContextRef, ViewpointRef⟩`,
-* `EntityOfConcernRef` MUST change in a way consistent with the declared `KindBridge`,
-* `BoundedContextRef` MUST either be preserved or changed only via explicit Context‑Bridges,
-* `ViewpointRef` MUST either be preserved or change from one exact source reference to one exact receiving reference in the retained subset of a named local declaration inside one exact catalogue L; both references MUST resolve exact P editions under `R_L`, while the retargeting or correspondence witness remains separately identified.
-
+**CC-A.6.4-5 - Description-episteme and describing-use behaviour.**
+For retargetings over `...Description` or `...Spec` epistemes:
+* X and Y MUST each be identified through their exact C.2.1 claim content, EntityOfConcern, and effective scheme;
+* the EntityOfConcern MUST change consistently with the declared `KindBridge`;
+* every material change to grounding, effective scheme, claim scope, model-use structure, operating condition, or specification-use basis MUST be stated separately;
+* when a named describing use selects a viewpoint, the source and receiving selections MUST be preserved or changed explicitly through exact references resolving exact P editions; any catalogue-family restriction bounds eligible references but does not replace the retargeting witness; and
+* an F.9 Bridge is required only for an actual relation between distinct local senses. No generic context reference or universal context bridge is introduced.
 **CC‑A.6.4‑6 - Separation from Viewing and Mechanisms.**
 * Any species that leaves `entityOfConcernRef` unchanged is **not** a conformant EpistemicRetargeting; it belongs to `U.EpistemicViewing` (A.6.3) or another EFEM species.
-* Any species that performs measurements, actuation, or other side‑effects MUST be declared as `U.Mechanism`, performed `U.Work`, or another directly governed work/effect value and cannot be an EpistemicRetargeting.
+* Any species that performs measurement, actuation, or another world-side effect is not an EpistemicRetargeting. Identify a mechanism and its application through A.6.1 and E.20, dated Work through A.15.1, and an actual changed referent through A.3.4 whenever those claims are current.
 
 **CC-A.6.4-7 - Retargeting witness and reopen discipline.**
 For every FPF-governed retargeting use, the source EntityOfConcern, receiving EntityOfConcern, `KindBridge`, invariant, preserved commitments, withdrawn or new commitments, admissible predicate changes, admissibility value, retargeting witness, and source-bearing reopen condition are recoverable. If bridge or invariant witnessing is insufficient for the intended use, the case records source-bearing reopen, bridge-only comparison, controlled coarsening, report-only use, exploratory use, or named neighboring-pattern handoff.
 
 **CC-A.6.4-8 - Neighboring-pattern handoff.**
-Retargeting wording does not carry work authority, evidence force, assurance force, gate passage, abductive selection, temporal adequacy, dynamics law, control relation, bridge substitution, or transformation-flow path currentness unless the governing FPF pattern and project-side FPF kind or reference named by value are named.
+Retargeting wording carries no work authority, evidence force, assurance force, gate passage, abductive selection, temporal adequacy, dynamics law, control relation, bridge substitution, or transformation-flow path currentness unless the pattern that defines or constrains that claim and the project-side FPF kind or reference are named by value.
 
 **CC-A.6.4-9 - StructuralReinterpretation boundary.**
-When `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is used, the graph, path, constraint, and gate relations stay with `E.18`, `A.20`, or `A.21`. `StructuralReinterpretation` receives retargeting semantics from `A.6.4`; it is not proof of `entityOfConcernRef` continuity and not an `E.18`-local retargeting kind.
+When `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is used, the graph, path, constraint, and gate relations stay with `E.18`, `A.20`, or `A.21`. A.6.4 defines the retargeting conditions used for `StructuralReinterpretation`; it is not proof of `entityOfConcernRef` continuity and not an `E.18`-local retargeting kind.
 

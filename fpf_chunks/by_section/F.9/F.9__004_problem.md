@@ -6,12 +6,12 @@ section_id: "F.9:2.1"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__004_problem.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:2.1 — Problem"
-line_start: 93488
-line_end: 93491
+line_start: 93056
+line_end: 93059
 dependencies:
   - "A.10"
   - "A.15.1"

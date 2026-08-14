@@ -1,46 +1,64 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.16"
-pattern_title: "Worked‑Example Template (Cross‑Domain)"
+pattern_title: "Worked-Example Template (Cross-Domain)"
 section_id: "F.16:11"
-section_title: "Anti‑patterns & remedies"
+section_title: "Anti-patterns & remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__012_anti-patterns-remedies.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.16 — Worked‑Example Template (Cross‑Domain)"
-  - "F.16:11 — Anti‑patterns & remedies"
-line_start: 96406
-line_end: 96420
+  - "F.16 — Worked-Example Template (Cross-Domain)"
+  - "F.16:11 — Anti-patterns & remedies"
+line_start: 95804
+line_end: 95818
 dependencies:
+  - "A.10"
   - "A.15"
   - "A.3"
+  - "A.6.1"
+  - "A.6.RCD"
   - "B.1.5"
   - "B.3"
-  - "D.CTX"
+  - "C.16.P"
   - "E.10.D1"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
-  - "F.1-F.12"
+  - "F.10"
+  - "F.12"
   - "F.15"
+  - "F.17"
+  - "F.2"
+  - "F.3"
+  - "F.4"
+  - "F.6"
+  - "F.7"
+  - "F.9"
 keywords:
-  - "cross-domain illustration"
-  - "didactic template"
-  - "example"
-  - "pedagogy"
+  - "actual values"
+  - "boundary"
+  - "direct relations"
+  - "evidence"
+  - "exact sources"
+  - "optional cell"
+  - "optional comparison table"
+  - "practical gain"
+  - "working situation"
 ---
 
-### F.16:11 - Anti‑patterns & remedies
+### F.16:11 - Anti-patterns & remedies
 
-| #         | Anti‑pattern               | Symptom in the page                                            | Why it breaks thinking                                         | Remedy (point to this template & sibling patterns)                        |
-| --------- | -------------------------- | -------------------------------------------------------------- | -------------------------------------------------------------- | ------------------------------------------------------------------------- |
-| **AP‑1**  | **Row‑less tour**          | A list of facts from many Contexts with no **Concept‑Set row**.   | Reader cannot see *what is treated as the same* for the claim. | Include **≥ 1 row ρ** spanning ≥ 2 Contexts (§5‑5, §6‑2).                    |
-| **AP‑2**  | **Stealth bridging**       | Phrases like “basically the same” with no Bridge.              | Imports meaning Cross‑context; hides losses.                      | State a **Bridge β** with **kind, CL, loss** (§5‑6, F.9).                 |
-| **AP-3**  | **Role-Description vagueness**          | A Role or Status named without a SenseCell.                       | Why it breaks thinking                                         | Remedy (point to this template & sibling patterns)                        |
-| **AP‑4**  | **Global words**           | *process, role, service* appear unprefixed.                    | Context‑less words drift mid‑example.                             | Prefix first mention with the **Context** (*process (BPMN)*) (§6‑1, E.10.D1). |
-| **AP‑5**  | **Window‑free comparison** | Numbers/targets compared with no stated window.                | Apples‑to‑oranges across time/scale.                           | Declare a **Window** for the Status (§5‑8, F.10).                         |
-| **AP‑6**  | **SoD leakage**            | Duties named but the same actor implicitly holds both.         | Violates Separation‑of‑Duties intent.                          | State **SoD** and keep duties disjoint (§5‑8, F.14).                      |
-| **AP‑7**  | **DesignRunTag blur**        | A design‑time notion used as if it were a run‑time occurrence. | Category error; wrong Context claims.                             | Mark Context stance and keep claims in‑stance (§5‑3, §6‑5).                  |
-| **AP‑8**  | **Edition haze**           | “BPMN”, “ITIL” without edition/profile.                        | Debates about “what the book says”.                            | Put **name + edition** on each Card (§5‑3).                               |
-| **AP‑9**  | **CL silence**             | Bridge kind given, no CL or loss note.                         | Reader cannot assess translation risk.                          | Add **CL** and **loss** in every Bridge (§5‑6, B.3).                      |
-| **AP‑10** | **Over‑row**               | Ten cells glued into one row “for convenience”.                | Collapses distinct senses; unreadable.                         | Prefer **one tight row**; split into **two rows** if needed (§5‑5, §8).   |
+| # | Anti-pattern | Symptom | Why harmful | Remedy |
+| --- | --- | --- | --- | --- |
+| **AP-1** | Architecture before question | The page opens with cells and routes but no recognizable problem. | Reader cannot tell what changes in practice. | Lead with situation, gain, and worked claim. |
+| **AP-2** | Mandatory row | Every example must span two sources and contain a Concept-Set row. | Ceremony replaces the simplest adequate explanation. | Make the table optional; use direct prose when enough. |
+| **AP-3** | Row-created sameness | Entries are “the same for this claim” because they share a row. | Layout becomes an ontological assertion. | State the actual relation and evidence, or show a contrast. |
+| **AP-4** | Cell as subject | A RoleDescription, promise, Work, observation, result, or status is anchored to one cell as though the cell were that value. | Lexical address replaces the subject. | Name the actual value; cite a cell only for local wording. |
+| **AP-5** | Generic Bridge | All cross-domain relations are labelled Bridges. | MethodDescription membership, description use, enactment, indicator, evidence, assignment, and fulfilment collapse. | Use each defining or testing pattern; recover unsupported indicator wording through C.16.P and A.6.RCD, and reserve F.9 for local-meaning relations. |
+| **AP-6** | Global trigger word | *Role*, *function*, *process*, or *service* appears without recovering its subject. | Polysemy hides objects and relations. | Apply E.10 and F.0.1 and then choose precise plain wording. |
+| **AP-7** | Design-time and run-time blur | A design description is narrated as Work. | Plan and occurrence collapse. | Use F.11, A.3, and A.15 and state the actual relation. |
+| **AP-8** | Edition haze | Source name lacks the edition that controls meaning. | The example cannot be replayed. | Name the source, edition, and relevant passage. |
+| **AP-9** | Evidence silence | The result appears without observations, source claims, or reliance basis. | Confidence cannot be assessed. | Show evidence use, limits, and non-use boundary. |
+| **AP-10** | Ontologist’s shorthand | Predicate notation replaces an ordinary explanation. | Precision becomes inaccessible to the cold reader. | Lead with plain language; retain compact notation only when it genuinely shortens a repeated calculation. |
 

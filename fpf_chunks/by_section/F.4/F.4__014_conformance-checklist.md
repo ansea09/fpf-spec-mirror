@@ -6,12 +6,12 @@ section_id: "F.4:12"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__014_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:12 — Conformance Checklist"
-line_start: 92007
-line_end: 92022
+line_start: 91622
+line_end: 91638
 dependencies:
   - "A.15"
   - "A.15.1"
@@ -50,7 +50,8 @@ keywords:
 | Check | Question |
 | --- | --- |
 | `CC-F4-01` | Is the exact C.2.1 EntityOfConcern one local system-role kind? |
-| `CC-F4-02` | Are its bounded context, continuing contribution identity, current `KindSignature`, and effective scheme recoverable? |
+| `CC-F4-02` | Are the practice or source boundary in which the kind is constituted, its stable work-facing contribution distinction, current `KindSignature`, and effective scheme recoverable? |
+| `CC-F4-02a` | Are the description episteme, local kind, `KindSignature`, effective scheme, optional F.17 cell and basis relation, and candidate-classification judgment kept separate, with optional values added only when the receiving use needs them? |
 | `CC-F4-03` | Is the description separate from the kind, classification judgment, NameCard, public row, publication form, and carrier? |
 | `CC-F4-04` | Does first entry preserve the full A.1 range of possible systems rather than imply only non-human technical systems? |
 | `CC-F4-05` | Are classification and assignment handled separately under C.3.2 and A.2.1? |
@@ -58,6 +59,6 @@ keywords:
 | `CC-F4-07` | Are Method, plan, and Work claims handled under A.3, A.15, and their direct neighbors? |
 | `CC-F4-08` | Are evidence, source, standard, requirement, publication, assurance, status, permission, and responsibility claims sent to exact direct relations? |
 | `CC-F4-09` | Are bare-*role* participant, declaration, interface, and representation uses recovered through E.10.ROLE and A.6.RSIR? |
-| `CC-F4-10` | Are durable or cross-context names handled through F.18, C.3.3, and F.9 when current? |
+| `CC-F4-10` | Are durable public names handled through F.18 and actual cross-local relations handled through C.3.3 or F.9 according to their endpoints? |
 | `CC-F4-11` | Are missing neighboring values left `unknown`, unresolved, not asserted, or not current rather than forced into the card? |
 

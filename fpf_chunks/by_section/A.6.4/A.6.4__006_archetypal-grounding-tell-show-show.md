@@ -6,12 +6,12 @@ section_id: "A.6.4:5"
 section_title: "Archetypal Grounding (Tell-Show-Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:5 — Archetypal Grounding (Tell-Show-Show)"
-line_start: 15781
-line_end: 15809
+line_start: 15475
+line_end: 15503
 dependencies:
   - "A.6.2"
   - "A.6.3"
@@ -41,7 +41,7 @@ In each case, what remains stable is an **invariant** (behaviour, energy, likeli
 * `X` describes a physical module holon `S_phys`.
 * `Y` describes a function holon `S_func`.
 * A `KindBridge(S_phys, S_func)` expresses “this module realises that function”.
-* An `E.18` `StructuralReinterpretation` locus can be governed as an instance of `U.EpistemicRetargeting` when its invariant is the behaviour relation between `S_phys` and `S_func`.
+* An E.18 `StructuralReinterpretation` locus is an instance of `U.EpistemicRetargeting` when its invariant is the behaviour relation between `S_phys` and `S_func`.
 
 **Show 2 — Signal↔Spectrum.**
 * `X` describes a time‑domain signal `s(t)`; `EntityOfConcernRef(X) = S_time`.

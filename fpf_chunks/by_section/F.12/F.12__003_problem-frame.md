@@ -6,37 +6,53 @@ section_id: "F.12:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:2 — Problem frame"
-line_start: 94873
-line_end: 94880
+line_start: 94347
+line_end: 94355
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.3"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.RCD"
+  - "B.3"
+  - "C.16"
+  - "C.16.P"
+  - "C.2"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.11"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
-  - "F.7"
   - "F.9"
-  - "U.BoundedContext"
   - "U.PromiseContent"
 keywords:
-  - "Service Level Agreement (SLA)"
-  - "Service Level Objective (SLO)"
-  - "acceptance criteria"
-  - "binding"
+  - "EvidenceStatus"
+  - "PromiseContent"
+  - "RequirementStatus"
+  - "declared result scale"
+  - "delivery Work"
+  - "evaluation Work"
+  - "indicator recovery"
+  - "measured value"
   - "observation"
+  - "operation result binding"
 ---
 
 ### F.12:2 - Problem frame
 
-1. **Plan ≠ proof.** Diagrams and playbooks are treated as if they demonstrated fulfilment.
-2. **Signal ≠ outcome.** Control signals (Actuation) are mistaken for the consumer‑perceived outcome (the outcome promised by the clause).
-3. **Global meanings.** *Availability*, *incident*, *latency* are used as if universal, ignoring context‑local senses.
-4. **Unstated translation.** Metrics from one canon are mapped to clauses from another without declaring losses.
-5. **Timeless verdicts.** Judgements are asserted with no explicit Window (day, month, batch).
+1. **Plan ≠ proof.** A diagram or playbook is treated as evidence that its promise was met.
+2. **Output ≠ outcome.** Commands or setpoints are mistaken for the consumer-relevant result.
+3. **Word ≠ measure.** *Availability*, *latency*, or *incident* is used without recovering its exact local meaning and characteristic.
+4. **Proxy by assumption.** Monitor output is called a proxy before asking whether the observation and measurement model already concern the promised characteristic directly; when they do not, the needed indicator relation has no defining or testing rule.
+5. **Evaluation disappears.** A verdict appears without evaluation Work, an enacted evaluation Method, exact operation inputs, or a result binding.
+6. **Status families collapse.** `Satisfied`, `Violated`, and `Inconclusive` are treated as one universal scale even though the first two are RequirementStatus values and the third is an EvidenceStatus value unless an exact local result scale says otherwise.
 

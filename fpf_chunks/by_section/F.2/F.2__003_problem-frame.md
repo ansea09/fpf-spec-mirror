@@ -6,37 +6,38 @@ section_id: "F.2:2"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__003_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:2 — Problem Frame"
-line_start: 91126
-line_end: 91135
+line_start: 90900
+line_end: 90909
 dependencies:
   - "A.11"
   - "A.7"
-  - "D.CTX"
   - "E.10.D1"
   - "F.0.1"
   - "F.1"
+  - "F.17"
   - "F.3"
   - "F.4"
   - "F.9"
 keywords:
-  - "lexical unit"
-  - "normalization"
-  - "provenance"
-  - "source-text terms"
-  - "term harvesting"
+  - "LNF"
+  - "LocalExpression"
+  - "LocalSenseClaim"
+  - "effective ReferenceScheme"
+  - "exact source and edition"
+  - "optional SchemeSenseCell"
 ---
 
 ### F.2:2 - Problem Frame
 
-Even with Contexts fixed (F.1), three mistakes recur:
+Three mistakes recur even after the right sources are selected:
 
-1. **Word‑centrism.** Treating a string as if it carried its meaning across Contexts (*process*, *role*, *service*).
-2. **Over‑normalisation.** Forcing one spelling/morphology across different canons, erasing Context‑specific cues.
-3. **Premature structure.** Smuggling behaviour, deontics, or type structures into what should remain **lexical**.
+1. **Word-centrism.** A string such as *process*, *role*, or *service* is treated as though it carried one meaning everywhere.
+2. **Over-normalisation.** Spelling or morphology is forced into a house style and source-specific cues disappear.
+3. **Premature structure.** A short lexical note quietly acquires behavioural, deontic, measurement, or kind claims that the source passage does not establish.
 
-F.2 prevents these by **localising** meaning and **naming** strictly **inside** each Context.
+F.2 prevents these mistakes by tying each expression and local-sense claim to the exact source basis that supports it.
 

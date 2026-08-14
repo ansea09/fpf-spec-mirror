@@ -1,44 +1,44 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.1"
-pattern_title: "Domain‑Family Landscape Survey"
+pattern_title: "Question-Relative Source Selection"
 section_id: "F.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
-  - "F.1 — Domain‑Family Landscape Survey"
+  - "F.1 — Question-Relative Source Selection"
   - "F.1:intro — Intro"
-line_start: 90786
-line_end: 90794
+line_start: 90577
+line_end: 90587
 dependencies:
-  - "A.11"
+  - "A.10"
   - "A.7"
-  - "D.CTX"
-  - "E.10.D1"
+  - "B.3"
+  - "C.2.1"
   - "F.0.1"
-  - "F.2"
-  - "F.3"
-  - "F.4"
+  - "F.0.2"
+  - "F.17"
   - "F.9"
-  - "G.0"
-  - "G.1"
 keywords:
-  - "authoritative source"
-  - "canon"
-  - "context map"
-  - "domain‑family survey"
-  - "scope notes"
-  - "versioning"
+  - "SourceCutNote"
+  - "answer-changing source role"
+  - "exact source and edition"
+  - "finite source cut"
+  - "intended use"
+  - "receiving question"
+  - "reopen condition"
 ---
 
-## F.1 - Domain‑Family Landscape Survey
+## F.1 - Question-Relative Source Selection
 
-**“Fix the context of meaning before you name anything.”**
-**Status.** Architectural pattern.
-**Depends on.** E.10.D1 **Lexical Discipline for “Context” (D.CTX)**; **F.0.1 Contextual Lexicon Principles**; A.7 **Strict Distinction (Clarity Lattice)**; A.11 **Ontological Parsimony**.
-**Coordinates with.** F.2 **Term Harvesting & Normalisation**; F.3 **Intra‑Context Sense Clustering**; F.4 **Role Description**; F.9 **Alignment & Bridge Across Contexts**; **G.0–G.1** *(Scope/entityOfConcern handoff)*.  *(Bridges live only in F.9.)*
+> **Type:** Architectural (A)
+> **Status:** Draft
+> **Normativity:** Normative unless explicitly marked informative
 
-**Aliases (informative).** *Contexts‑first survey*; *Context cut*.
+> **One-sentence summary.** Select the smallest inspectable set of exact sources whose claims, limits, rivals, or counterexamples can change one stated answer or use.
+
+**Historical title (informative).** *Domain-Family Landscape Survey*.
+**Aliases (informative).** *Source cut*; *question-relative source selection*.
 

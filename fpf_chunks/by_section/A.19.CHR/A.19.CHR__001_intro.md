@@ -6,12 +6,12 @@ section_id: "A.19.CHR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__001_intro.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:intro — Intro"
-line_start: 30940
-line_end: 30971
+line_start: 30627
+line_end: 30658
 dependencies:
   - "A.15.3"
   - "A.19"

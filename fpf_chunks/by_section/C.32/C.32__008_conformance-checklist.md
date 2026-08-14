@@ -6,12 +6,12 @@ section_id: "C.32:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32/C.32__008_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.32 — Architecture Candidate Synthesis"
   - "C.32:7 — Conformance Checklist"
-line_start: 64825
-line_end: 64837
+line_start: 64584
+line_end: 64596
 dependencies:
   - "A.10"
   - "A.15"
@@ -69,7 +69,7 @@ keywords:
 
 | ID | Requirement | Purpose |
 |---|---|---|
-| `CC-C32-1` | The use names one synthesis question, described holon, and bounded context. | Keeps the palette local. |
+| `CC-C32-1` | The use names one synthesis question, described holon, intended palette use, and the current architecture relations and selected structures that change the question; ClaimScope or a bounded model-use structure is added only when action-changing. | Keeps the palette local without a generic context premise. |
 | `CC-C32-2` | The synthesis structure map names the smallest useful set of selected structures and subject patterns. | Prevents one-structure optimization from masquerading as synthesis. |
 | `CC-C32-3` | Architecture characteristics and any quality bundles are named before candidate comparison. | Keeps functional demand distinct from architecture trade-offs. |
 | `CC-C32-4` | Each candidate configuration names selected structure changes, expected gain, known loss, and constraint fit. | Makes the candidate actionable. |

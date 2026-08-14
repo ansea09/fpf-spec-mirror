@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:2 — Solution"
-line_start: 69174
-line_end: 69216
+line_start: 68973
+line_end: 69015
 dependencies:
   - "A.1"
   - "A.10"
@@ -35,12 +35,12 @@ keywords:
 
 ### D.3:2 - Solution
 
-Record an `InterlevelEthicalConflictStructure@Context`:
+Record an `InterlevelEthicalConflictStructure`:
 
 ```text
-InterlevelEthicalConflictStructure@Context:
+InterlevelEthicalConflictStructure:
   conflictConcernRef
-  boundedContextRef
+  claimScopeRef?
   affectedEntityOfConcernRefs
   declaredLevelOrScopeRefs
   affectedHolonRefs
@@ -71,7 +71,7 @@ InterlevelEthicalConflictStructure@Context:
   consequenceHorizonRefs
   conflictRelationRefs
   nonConflictOverread
-  nextUseSubjectPatternLocator
+  nextUseQuestionRef
 ```
 
 This structure may be represented by a table, graph, formal predicate, narrative case, or another selected description form. The representation is not the conflict itself. If a mathematical lens does work in the claim, cite `C.29`; if the publication form changes admissible use, cite `E.17`.

@@ -6,12 +6,12 @@ section_id: "A.6.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:1 — Problem frame"
-line_start: 19577
-line_end: 19614
+line_start: 19271
+line_end: 19308
 dependencies:
   - "A.10"
   - "A.14"
@@ -65,7 +65,7 @@ In drafts, authors often reach for a single umbrella metaphor (frequently “anc
 
 > **Deconfliction note (lexical).** This pattern is about *base-dependence in content* (“X is usable relative to B”). It is not about E.10’s **Domain Anchoring** (MG-DA), where “anchoring” is a *lexical* primitive for binding token morphology to the term's selected EntityOfConcern. When you see `anchor*` in a basedness sentence, treat it as a defect unless an explicit baseRelation token is present.
 >
-> **Deconfliction note (context/meaning).** This pattern is also not a license to reintroduce “anchor” as a surrogate for **Context**, **SenseCell**, or “where meaning lives”. Any such use is an *anchor‑relapse* and SHALL be rewritten into explicit Context/SenseCell/ConceptSet lane constructs (E.10 D.CTX), not into SWBD.
+> **Deconfliction note (source-local meaning).** This pattern is not a license to use “anchor” for a source, meaning, or the thing that supposedly makes a word mean something. Recover the exact source and edition, effective `ReferenceScheme`, local expression, local-sense claim, and exact supporting passage under F.0.1. Create an F.17 `SchemeSenseCell` or obtaining `LocalSenseBasisRelation` only when a later use needs that durable address or support claim. A small source note or Card may represent an already constituted episteme; its form supplies no meaning and is not an SWBD.
 >
 > **Deconfliction note (support wording).** This pattern defines or constrains support wording only when the claim being made is base-dependence: `dependent` is usable, admissible, interpretable, comparable, publishable, or actionable relative to `base` via a declared `baseRelation`. It does not govern support as ordinary help, source discovery, reader navigation, work enablement, evidence-use polarity, assurance calculus, causal-use support basis, mathematical-lens use, or publication companion use. Those readings use their ontology of the subject pattern for that claim: source-description, evidence, assurance, causal-use, mathematical-lens, work/resource, publication/navigation, or publication-companion patterns as live. A support phrase that cannot select one support reading remains a cue, not a base declaration.
 

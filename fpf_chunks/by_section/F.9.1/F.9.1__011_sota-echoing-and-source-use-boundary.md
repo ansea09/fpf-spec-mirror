@@ -6,12 +6,12 @@ section_id: "F.9.1:10"
 section_title: "SoTA echoing and source-use boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__011_sota-echoing-and-source-use-boundary.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:10 — SoTA echoing and source-use boundary"
-line_start: 94207
-line_end: 94216
+line_start: 93775
+line_end: 93784
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

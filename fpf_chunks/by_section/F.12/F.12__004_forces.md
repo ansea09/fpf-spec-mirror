@@ -6,38 +6,53 @@ section_id: "F.12:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__004_forces.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:3 — Forces"
-line_start: 94881
-line_end: 94889
+line_start: 94356
+line_end: 94364
 dependencies:
+  - "A.10"
+  - "A.15.1"
   - "A.2.3"
+  - "A.3.2"
+  - "A.6.1"
+  - "A.6.RCD"
+  - "B.3"
+  - "C.16"
+  - "C.16.P"
+  - "C.2"
+  - "E.13"
+  - "F.0.1"
   - "F.1"
   - "F.10"
   - "F.11"
+  - "F.17"
   - "F.2"
   - "F.3"
   - "F.5"
-  - "F.7"
   - "F.9"
-  - "U.BoundedContext"
   - "U.PromiseContent"
 keywords:
-  - "Service Level Agreement (SLA)"
-  - "Service Level Objective (SLO)"
-  - "acceptance criteria"
-  - "binding"
+  - "EvidenceStatus"
+  - "PromiseContent"
+  - "RequirementStatus"
+  - "declared result scale"
+  - "delivery Work"
+  - "evaluation Work"
+  - "indicator recovery"
+  - "measured value"
   - "observation"
+  - "operation result binding"
 ---
 
 ### F.12:3 - Forces
 
-| Force                                | Tension to resolve                                                                                        |
-| ------------------------------------ | --------------------------------------------------------------------------------------------------------- |
-| **Promise vs. occurrence**           | A service **promise clause** (`U.PromiseContent`) is an external promise, yet acceptance must reference **Work** (run‑time). |
-| **Locality vs. integration**         | Meanings are **context‑local**; still we must compare across **service situations**, plants, and monitors.                 |
-| **Parsimony vs. realism**            | We want a small binding scheme, yet domains differ (percentiles, downtime minutes, control margins).      |
-| **Evidence vs. privacy/feasibility** | Observations prove outcomes; sometimes only proxies exist.                                                |
+| Force | Tension to resolve |
+| --- | --- |
+| **Promise and occurrence** | Promise content is stated in advance; fulfilment concerns actual Work and delivered outcome. |
+| **Local meaning and integration** | Sources use different words, while the judgement must join their claims without a generic Bridge. |
+| **Parsimony and realism** | One compact pattern must cover thresholds, percentiles, shares, counts, and bands. |
+| **Evidence and feasibility** | Direct observation is best, but sometimes only a limited proxy is available. |
 

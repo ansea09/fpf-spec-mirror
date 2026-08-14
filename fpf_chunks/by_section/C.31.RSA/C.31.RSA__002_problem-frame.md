@@ -6,12 +6,12 @@ section_id: "C.31.RSA:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.RSA/C.31.RSA__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.31.RSA — Reusable Structure Accounting"
   - "C.31.RSA:1 — Problem frame"
-line_start: 63883
-line_end: 63915
+line_start: 63621
+line_end: 63660
 dependencies:
   - "A.10"
   - "A.19"
@@ -49,9 +49,16 @@ The first useful move is `ReusableStructureTriage`:
 ```text
 ReusableStructureTriage:
   describedHolonRef:
-  boundedContextRef:
+  reuseQuestion:
+  deploymentBoundary?:
+  intendedAccountingUse:
+  claimScopeRef?: U.ClaimScope
+  qualificationWindowRef?:
   architectureClaimRef?:
-  structureRefs or structuralAspectRefs:
+  structureRefs:
+  structuralAspectRefs?:
+  accountingRelationRefs:
+  evidenceRefs:
   whereReusableStructureCurrentlyLives:
   whereBespokeResidueCurrentlyGrows:
   residueRefactoredInto:
@@ -59,7 +66,7 @@ ReusableStructureTriage:
     workStructure | evidencePackage | assuranceArgumentStructure | otherDeclared
   residueAcceptedAsBoundedException:
   sourceReturnCondition?:
-  relatedClaimGovernanceIfClaimed:
+  relatedClaimPatternsIfClaimed:
   stopCondition:
 ```
 

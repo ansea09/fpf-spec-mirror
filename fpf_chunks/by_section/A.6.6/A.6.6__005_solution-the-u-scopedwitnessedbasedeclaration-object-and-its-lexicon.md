@@ -6,12 +6,12 @@ section_id: "A.6.6:4"
 section_title: "Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__005_solution-the-u-scopedwitnessedbasedeclaration-object-and-its-lexicon.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:4 — Solution — The U.ScopedWitnessedBaseDeclaration object and its lexicon"
-line_start: 19663
-line_end: 19876
+line_start: 19357
+line_end: 19570
 dependencies:
   - "A.10"
   - "A.14"
@@ -74,7 +74,7 @@ Where:
 
 **Notation.** `SlotContent(VK, refMode)` is a compact shorthand for “a slot whose SlotSpec declares `ValueKind=VK` and `refMode ∈ {ByValue | RefKind}` (A.6.5)”.
 
-**SlotSpec note.** `VK_*` / `RK_*` / `refMode_*` above are **not** “anything goes”: they are fixed by the chosen `BaseRelationSlot` vocabulary entry and must be declared as SlotSpecs (A.6.5). In other words, SWBD is a reusable *shape*, but each Context’s declared `baseRelation` vocabulary entry makes it a concrete, typed signature.
+**SlotSpec note.** `VK_*`, `RK_*`, and `refMode_*` above are **not** “anything goes”: they are fixed by the selected `BaseRelationSlot` vocabulary entry and must be declared as SlotSpecs (A.6.5). In other words, SWBD is a reusable *shape*, but the selected local `baseRelation` declaration makes it a concrete, typed signature.
 
 **Instance/prose notation note (convention).** In the prose and examples below, the slot fillers are written as `dependent`, `base`, `baseRelation`, `scope`, `Γ_time`, `witnesses` (no `*Slot` suffix). The `*Slot` suffix is reserved for SlotKinds/positions only (A.6.5 / E.10).
 
@@ -84,7 +84,7 @@ Where:
 * **WF‑BD‑3 (Time explicit when time matters).** If the declaration’s interpretation depends on time, `GammaTimeSlot` is explicit; “latest/current” is not a substitute.
 * **WF‑BD‑4 (Decision use requires witnesses).** If the declaration is used for assurance, gating, or admissibility decisions, `WitnessSetSlot` is non-empty and resolvable.
 * **WF‑BD‑5 (Edition fence for decision/publication).** An SWBD that is cited by PublicationScope or used for decision is immutable per edition: any permitted change class is represented as a new declaration linked via explicit continuity/withdrawal, not as an in-place rewrite.
-* **WF‑BD‑6 (No silent cross-context reuse).** An SWBD that relates dependent and base across Contexts/planes (or requires scope translation) is admissible only if it cites the Bridge ids + CL policy that make the reuse admissible (F.9). No informal “it is the same entity anyway” prose is an admissible substitute.
+* **WF‑BD‑6 (No silent cross-local reuse).** If an SWBD consumes a relation between different exact local kinds, distinct F.17 cells, translated scopes, or ReferencePlanes, it cites the applicable C.3.3, F.9, scope, or plane relation and the limits of the receiving use. Merely drawing dependent and base from different sources does not create a Bridge. No informal “it is the same entity anyway” prose is an admissible substitute.
 
 This is the discipline-level analogue of A.6.5’s move: disambiguation is achieved by making the missing structural component explicit and non-optional in decision-relevant contexts.
 
@@ -122,11 +122,11 @@ Recommended canonical SlotKinds for SWBD:
 * **Invariant (Time gating).** If time-dependent assumptions exist, the SWBD includes `GammaTimeSlot` carrying a `GammaTimePolicy` (WF‑BD‑3).
 * **Invariant (Witness gating).** If the declaration participates in assurance/gating/admissibility decisions, the SWBD includes a non-empty, resolvable `WitnessSetSlot` (WF‑BD‑4).
 
-**Field naming guard (implementation; informative).** When materialising SWBD as a record/card, implementations SHOULD avoid naming data fields with the `*Slot` suffix. Prefer `dependentRef`, `baseRef`, `baseRelationRef`, `scope`, `gammaTime`, `witnesses` (or Context‑local equivalents). `*Slot` remains reserved for SlotKinds/SlotSpecs (A.6.5).
+**Field naming guard (implementation; informative).** When materialising SWBD as a record or representation, implementations SHOULD avoid naming data fields with the `*Slot` suffix. Prefer `dependentRef`, `baseRef`, `baseRelationRef`, `scope`, `gammaTime`, and `witnesses`, or the corresponding terms in the selected local declaration. `*Slot` remains reserved for SlotKinds and SlotSpecs (A.6.5).
 
 #### A.6.6:4.4 - BaseRelation declaration
 
-A `baseRelation` token is not “just a label”. For each baseRelation declared in a Context, its definition SHALL include:
+A `baseRelation` token is not “just a label”. For each selected local baseRelation declaration, its definition SHALL include:
 
 * **Relation-end polarity.** Which end is dependent and which end is base (or declare symmetry explicitly).
 * **Typing expectations.** Admissible ValueKinds and `refMode` for `DependentSlot` and `BaseSlot`.
@@ -137,7 +137,7 @@ A `baseRelation` token is not “just a label”. For each baseRelation declared
 * **Time discipline.** Whether `Γ_time` is required, optional, or forbidden for this relation kind.
 * **Witness discipline.** Whether witnesses are always required versus required only for decision use, and what witness-use relations or pinned witness records are admissible: evidence-use relations, edition pins, calibration certificate pins, proof-bearing publications, or policy pins named by subject patterns.
 * **Admissible change classes.** Which base-change operations are permitted (below) and what continuity requirements apply.
-* **Cross-context / cross-plane policy.** Whether this declared `baseRelation` may cross Contexts/planes at all; if yes, what Bridge ids/CL thresholds must be cited and what loss notes are required (F.9 / C.3.3).
+* **Cross-local and cross-plane policy.** State whether the relation may connect different exact local kinds, distinct F.17 cells, translated scopes, or ReferencePlanes. When it may, name the applicable C.3.3, F.9, scope, or plane relation, admitted use, and loss or limit; source difference alone is insufficient.
 
 This mirrors A.6.5: a SlotKind without ValueKind/RefMode is underspecified; a baseRelation without its vocabulary entry is equally underspecified.
 
@@ -178,12 +178,12 @@ Instead:
 1) Name the **BaseRelation token** (declared vocabulary element), and
 2) Use a **relation-specific verb phrase** that corresponds to that token.
 
-**Lane guard for meaning.** If the intent is “attach meaning to a term”, do not introduce a baseRelation named `Anchor…` or `Ground…`. Use SenseCell/ConceptSet discipline; semantic meaning assignment is not expressed by SWBD.
+**Lane guard for meaning.** If the intent is “say what this expression means in this source”, do not introduce a baseRelation named `Anchor…` or `Ground…`. Recover the source-local claim under F.0.1; use F.17 only when a durable `SchemeSenseCell` or obtaining `LocalSenseBasisRelation` is actually needed. Semantic meaning assignment is not expressed by SWBD.
 
 **Grounding disambiguation rule.** If the prose says “grounded”, it MUST be rewritten into one of:
 * constructive grounding (`tv:groundedBy`, base is a trace),
 * situational/empirical grounding (base is a grounding holon or experimental setup),
-* meaning lane (SenseCell/ConceptSet; not SWBD).
+* source-local meaning lane (exact source, scheme, expression, local claim, and optional F.17 cell or basis relation; not SWBD).
 
 **Bind deconfliction note.** Authors MUST NOT use the verb “bind/binding” as a synonym for declaring/refreshing/changing a base declaration. “bind/binding” is reserved for **name binding** (LEX discipline). For SWBD edits, authors SHALL use the base‑change lexicon (below) instead.
 
@@ -206,7 +206,7 @@ These names denote **semantic change classes**. In decision/publication lanes, i
 
 **Relation to A.6.5 slot operations (non-normative mapping).** These are *semantic change classes*; an implementation may realise them using A.6.5 slot operations on the SWBD record fields. Example: a **rebase** may be implemented as a `retarget` of `baseRef` on a *new* SWBD edition. The point of A.6.6 is that “we retargeted a ref” is not the semantic story; “we rebased the declaration” is.
 
-**Relation to E.18 assurance ops (informative).** On `U.Transfer`, the allowed ops (`ConstrainTo/CalibrateTo/CiteEvidence/AttributeTo`) can be viewed as Context-approved specialisations of `declareBase/rescope/rebase/refreshWitnesses` for specific declared `baseRelation` readings, with stricter declared constraints and lintability.
+**Relation to E.18 assurance ops (informative).** On `U.Transfer`, the allowed ops—`ConstrainTo`, `CalibrateTo`, `CiteEvidence`, and `AttributeTo`—can be viewed as pattern-defined specialisations of `declareBase`, `rescope`, `rebase`, and `refreshWitnesses` for specific declared `baseRelation` readings, with stricter declared constraints and lintability.
 
 #### A.6.6:4.7 - Disambiguation guide for selecting a baseRelation
 
@@ -221,7 +221,7 @@ When a draft uses an umbrella phrase (“anchored”, “attached”, “grounde
 | “This description is about X under a view” | **Viewing / retargeting (specialised)** (`viewedVia`, `retargetedAlong`) | episteme/view | selected EntityOfConcern | view operator pins, Bridge ids (if retargeting) |
 | “Allowed only under policy P” | **Constraint / policy** (`constrainedBy`, `permittedUnder`) | work-step / publication item | policy/rule | policy pin, waiver/work ref |
 | “Property belongs to object” | **Attribution / aboutness** (`attributedTo`, `aboutEntity`, `characterises`) | property/abstraction | object | observation/derivation witnesses |
-| “Meaning of this term is …” | **Meaning lane** (SenseCell/ConceptSet) | term occurrence | SenseCell/Concept row | definition/usage witnesses |
+| “This expression means … in this source” | **Source-local meaning lane** (F.0.1; F.17 only when a durable address or basis relation is needed) | local expression | local-sense claim | exact source passage and, when current, an obtaining basis relation |
 
 This table is illustrative; the discipline requirement is that the chosen baseRelation be explicit, declared, and relation-specific. The “Meaning lane” row is included only as a **do-not-model-with-SWBD** reminder.
 
@@ -244,7 +244,7 @@ admissibleUse:
 nonAdmissibleUse:
 ```
 
-If these fields can be stated, rewrite the phrase as `baseRelation(dependent, base)` or `dependent --baseRelation--> base` and use an SWBD or a Context-local SWBD specialization. Examples include `validatedBy(claim, evidenceCarrier)`, `calibratedTo(measurementOutput, standard)`, `normalisedTo(metric, datum)`, `attributedTo(propertyClaim, selectedEntity)`, `aboutEntity(description, entityOfConcern)`, and `permittedUnder(workStep, policy)`.
+If these fields can be stated, rewrite the phrase as `baseRelation(dependent, base)` or `dependent --baseRelation--> base` and use an SWBD or a selected local SWBD specialization. Examples include `validatedBy(claim, evidenceCarrier)`, `calibratedTo(measurementOutput, standard)`, `normalisedTo(metric, datum)`, `attributedTo(propertyClaim, selectedEntity)`, `aboutEntity(description, entityOfConcern)`, and `permittedUnder(workStep, policy)`.
 
 If these fields cannot be stated, do not create a `SupportRelation`, `SupportBasis`, `SupportRecord`, or local support-headed type. Classify by reading and apply the matching ontology:
 

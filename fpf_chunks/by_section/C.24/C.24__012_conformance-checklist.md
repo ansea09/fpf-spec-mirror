@@ -6,12 +6,12 @@ section_id: "C.24:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__012_conformance-checklist.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:7 — Conformance Checklist"
-line_start: 53250
-line_end: 53265
+line_start: 52960
+line_end: 52975
 dependencies:
   - "A.1"
   - "A.10"
@@ -46,8 +46,8 @@ keywords:
 1. **CC-ATC-1 - Declared separation.** Every planned call step selects an exact independently admitted `U.Method`; `ATC.CallRouteDescription` is a separate `U.MethodDescription` episteme; `ATC.CallPlan` is a `U.WorkPlan`; each execution is exact dated `U.Work` with actual `enactsMethod`; acceptance is via separate `U.PromiseContent`. No description, service promise, CallGraph row, method-side route logic, or actual burn is smuggled into another object.
 2. **CC-ATC-2 - Budgets on record.** Time budget, compute budget, cost ceiling, and risk limit exist ex ante; stop conditions are listed.
 3. **CC-ATC-3 - E/E policy.** `EmitterPolicyRef` (or equivalent) and `explore_share` are editioned and logged.
-4. **CC-ATC-4 - Assurance tuple.** State the typed claim `Plan admissible under K,S` with `<F,G,R>` and CL penalties traceable in the `CallGraph` SCR. Design-time and run-time never merged.
-5. **CC-ATC-5 - BLP waiver discipline.** Any heuristic override against a general method includes expiry and re-evaluation date.
+4. **CC-ATC-4 - Assurance tuple.** State the typed claim that the plan is admissible for its cited policy edition, intended use, ClaimScope, and qualification window, with `<F,G,R>` and CL penalties traceable in the `CallGraph` SCR. Design-time and run-time are never merged.
+5. **CC-ATC-5 - BLP waiver discipline.** Any heuristic override against a general method names the permitting rule or policy that is current for the case and cites the authority relation, decision or waiver issued under it, rationale, measured-hazard evidence, expiry, and re-evaluation date.
 6. **CC-ATC-6 - Provenance minimum.** Every actual call record includes `{WorkRef, MethodDescriptionRef? and edition when cited, PromiseContentRef?, CallPlanRef, EmitterPolicyRef, budget deltas, DescriptorMapRef? (if NQD), DistanceDefRef? (if NQD), Seeds?, Dedup?}`. `WorkRef` names the independently identified `U.Work` occurrence. Its Method, interval, containing System, and every performer's assignment species, obtaining occurrence, and F.6 relation remain recoverable under A.15.1, A.2.1, and F.6. Each ref resolves its direct object; the record creates none of them.
 7. **CC-ATC-7 - Notation independence.** No vendor tokens in conceptual text; bindings via Bridges or Profiles only.
 8. **CC-ATC-8 - BLP tolerances declared.** `alpha/delta` tolerances are present in `ATC.Policy` or referenced via the active `E/E-LOG` profile.

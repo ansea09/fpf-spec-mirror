@@ -6,12 +6,12 @@ section_id: "E.16:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.16/E.16__002_problem-frame.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.16 — RoC‑Autonomy Budget & Enforcement"
   - "E.16:1 — Problem Frame"
-line_start: 79649
-line_end: 79652
+line_start: 79469
+line_end: 79472
 dependencies:
   - "A.10"
   - "A.13"
@@ -22,6 +22,7 @@ dependencies:
   - "A.2"
   - "A.2.1"
   - "A.2.5"
+  - "A.2.7"
   - "A.21"
   - "B.3"
   - "C.16"
@@ -50,5 +51,5 @@ keywords:
 
 ### E.16:1 - Problem Frame
 
-Autonomy‑claiming **performers** (*RoleAssignments* over services/robots/teams operating without continuous human direction) must **stay within declared limits** (safety, risk, resource, remit) and **yield** to governance when required. Without a uniform rule, “autonomy” drifts into tacit norms, cannot be benchmarked or audited, and undermines selection (Part G) and publication (Part F).
+A System that performs Work without continuous human direction must stay within declared safety, risk, resource, and remit limits and yield through the stated override path. The same need can be declared prospectively for a Method or Service before a particular performer or Work item exists. Without a uniform rule, an autonomy claim drifts into tacit norms, cannot be benchmarked or audited, and undermines selection (Part G) and publication (Part F).
 

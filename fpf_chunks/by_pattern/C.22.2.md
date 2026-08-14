@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.22.2.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "C.22.2 — ProblemCard"
-line_start: 52082
-line_end: 52730
+line_start: 51784
+line_end: 52432
 dependencies:
   - "A.10"
   - "A.15"

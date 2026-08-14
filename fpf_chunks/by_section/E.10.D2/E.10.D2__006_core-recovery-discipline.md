@@ -6,12 +6,12 @@ section_id: "E.10.D2:4.1"
 section_title: "Core recovery discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__006_core-recovery-discipline.md"
-commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
+commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:4.1 — Core recovery discipline"
-line_start: 77138
-line_end: 77176
+line_start: 76957
+line_end: 76995
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -56,7 +56,7 @@ A description episteme is an ordinary `U.Episteme` whose exact `U.ClaimGraph` co
 
 Its ClaimGraph may contain labels, characterizations, criteria, structural or behavioral claims, diagrams interpreted under a scheme, or other claim-bearing content. Those claims and representations do not become parts or properties of the EntityOfConcern unless the corresponding direct subject pattern establishes them.
 
-For one describing use, the `DescriptionContext` defined by E.17.0 selects the exact viewpoint from which this episteme is read. That use qualification is not an episteme identity discriminator, does not establish viewpoint conformance or `U.View` membership, and is not locally redefined here.
+For one named describing use, state the exact viewpoint P it selects when that selection changes interpretation or action. Keep the episteme, its EntityOfConcern, the use, and P distinct. The selection is not an episteme identity discriminator and establishes neither viewpoint conformance nor `U.View` membership.
 
 #### E.10.D2:4.1.3 - Specification-use admission
 
@@ -65,7 +65,7 @@ Use a `...Spec` name only when the receiving use depends on specification force 
 1. the exact description episteme and its C.2.1 constitution;
 2. checkable claims, invariants, criteria, or acceptance conditions in its ClaimGraph;
 3. a named harness, validation, conformance, measurement, or evaluation relation capable of checking those claims for the stated use;
-4. a preserved or explicitly updated E.17.0 `DescriptionContext` for that describing use.
+4. when viewpoint selection affects reliance, the named describing use and its exact selected viewpoint are preserved or explicitly updated.
 
 Declared formality, notation discipline, comparators, tolerances, and measurement rules are named when the claims depend on them. They do not substitute for the checkable claims or the harness. If the conditions are absent, call the episteme a description and present proposed criteria as proposals; a `Spec` suffix, schema, signature, approval, or publication does not supply specification force.
 
