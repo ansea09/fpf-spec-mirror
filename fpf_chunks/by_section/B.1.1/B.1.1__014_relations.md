@@ -6,12 +6,12 @@ section_id: "B.1.1:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.1/B.1.1__014_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.1.1 — Dependency Structure and Relation Grounding"
   - "B.1.1:11 — Relations"
-line_start: 35906
-line_end: 35911
+line_start: 35908
+line_end: 35913
 dependencies:
   - "A.1"
   - "A.10"

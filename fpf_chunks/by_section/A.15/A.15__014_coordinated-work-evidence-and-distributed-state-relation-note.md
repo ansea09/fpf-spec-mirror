@@ -6,12 +6,12 @@ section_id: "A.15:12a"
 section_title: "Coordinated-work evidence and distributed-state relation note"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15/A.15__014_coordinated-work-evidence-and-distributed-state-relation-note.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15 — System-Role–Method–Work Alignment"
   - "A.15:12a — Coordinated-work evidence and distributed-state relation note"
-line_start: 24563
-line_end: 24588
+line_start: 24565
+line_end: 24590
 dependencies:
   - "A.10"
   - "A.15.1"

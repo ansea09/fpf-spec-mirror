@@ -6,12 +6,12 @@ section_id: "B.1.4:5"
 section_title: "Archetypal Grounding (Worked Slices)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__008_archetypal-grounding-worked-slices.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:5 — Archetypal Grounding (Worked Slices)"
-line_start: 36576
-line_end: 36583
+line_start: 36578
+line_end: 36585
 dependencies:
   - "A.1.1"
   - "A.14"

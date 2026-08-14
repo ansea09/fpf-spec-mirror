@@ -6,12 +6,12 @@ section_id: "C.2.LS:16"
 section_title: "Profile Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__017_profile-publication-package-discipline.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:16 — Profile Publication Package Discipline"
-line_start: 43702
-line_end: 43721
+line_start: 43701
+line_end: 43720
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -49,13 +49,13 @@ A publishable `U.LanguageStateFacetProfile` should normally carry:
 - the local relation to `F` when readers might otherwise treat `F` as a surrogate;
 - any omission note when a facet is intentionally unpublished, unknown, or locally irrelevant.
 
-One-line publication is admissible only if facet governance remains legible.
+One-line publication is admissible only if the facet definitions and tests remain legible.
 
 #### C.2.LS:16.2 - Partial-profile rule
 A partial profile is admissible only when omission is explicit. Publishing `AE` and `CD` while deferring `LanguageStateAnchoringMode` is acceptable; silently omitting it and then speaking in scalar prose such as "early" or "ready" is not.
 
-If only one facet is published, either explain why the others are not governed in the current note or point to the note where they are already published.
+If only one facet is published, either explain why the others are not included in the current note or point to the note where they are already published.
 
 #### C.2.LS:16.3 - Overlay discipline
-Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the governed profile and must not replace the facet bundle.
+Local overlays such as "explicit-but-open", "trace-heavy", or "operator-tight" are admissible only when they dock to explicit facet refs. Overlays remain secondary to the declared profile and must not replace the facet bundle.
 

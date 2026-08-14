@@ -6,12 +6,12 @@ section_id: "C.3:4"
 section_title: "Four Objects and Their Subject Patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__006_four-objects-and-their-subject-patterns.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:4 — Four Objects and Their Subject Patterns"
-line_start: 44863
-line_end: 44875
+line_start: 44862
+line_end: 44874
 dependencies:
   - "A.1"
   - "A.11"

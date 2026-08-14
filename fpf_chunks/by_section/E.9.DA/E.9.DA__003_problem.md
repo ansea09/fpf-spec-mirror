@@ -6,12 +6,12 @@ section_id: "E.9.DA:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__003_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:2 — Problem"
-line_start: 73791
-line_end: 73806
+line_start: 73793
+line_end: 73808
 dependencies:
   - "A.19.ECS"
   - "E.10"

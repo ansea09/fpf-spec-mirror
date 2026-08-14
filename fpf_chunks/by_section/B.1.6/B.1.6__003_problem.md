@@ -6,12 +6,12 @@ section_id: "B.1.6:1.0"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__003_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:1.0 — Problem"
-line_start: 37062
-line_end: 37065
+line_start: 37064
+line_end: 37067
 dependencies:
   - "A.1"
   - "A.10"

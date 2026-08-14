@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:7 — Conformance Checklist"
-line_start: 82877
-line_end: 82919
+line_start: 82881
+line_end: 82923
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -62,9 +62,9 @@ Use ID.CR-Core for ordinary comparison notes. Conditional rows apply only when t
 #### E.17.ID.CR:7.2 - ID.CR-Conditional checks
 
 1. **CC-ID-4 - Base-case governing-pattern relation is explicit.**
-   A reviewer can tell why the case does not really belong to `A.6.3.*`, `F.9.1`, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
+   A reviewer can tell why the case does not really belong to `A.6.3.*`, an F.9 Bridge or bounded-use branch, an F.9.1 stance-note branch, `E.17.EFP`, `B.5.2(.0)`, `OntologicalReframing`, or `A.6.4`.
 2. **CC-ID-5 - Bridge declaration does not hide.**
-   If bridge-mediated comparative relation governs the case, `bridgeCardRef` is required; optional `bridgeStanceRef` remains visible and subordinate to that existing bridge card.
+   If the case depends on bridge-mediated comparison, `bridgeOccurrenceRef` and `boundedUseClaimRef` are required. Optional `bridgeCardRef` remains packaging; optional `bridgeStanceRef` resolves a separate F.9.1 episteme whose `EntityOfConcern` is that claim.
 3. **CC-ID-7 - Reader-fit stays bounded.**
    `targetUserModel`, `interactionMode`, `contrastiveQuestion`, `boundedComparativeUse`, and `overreadRisk` are visible when needed, but they do not create an authority claim that the unit does not carry.
 

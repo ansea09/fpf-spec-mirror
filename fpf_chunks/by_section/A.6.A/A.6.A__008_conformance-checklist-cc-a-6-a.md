@@ -6,7 +6,7 @@ section_id: "A.6.A:7"
 section_title: "Conformance Checklist (CC-A.6.A)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__008_conformance-checklist-cc-a-6-a.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:7 — Conformance Checklist (CC-A.6.A)"
@@ -96,7 +96,7 @@ A text or pattern conforms to A.6.A iff:
     Moving from invitation to quality ascription, capability, commitment, or work uses `changeRelationKind(...)` or an explicit split.
 
 17. **CC-A.6.A-17 — Bridge accountability.**
-    Cross-tradition parallels publish bridge stance and loss notes.
+    Cross-tradition parallels state the obtaining F.9 Bridge and bounded-use claim, including tolerated loss; any F.9.1 stance note remains a separate optional episteme about that claim.
 
 18. **CC-A.6.A-18 — Boundary-claim hook when needed.**
     If the repaired invitation is used for admissibility, commitments, publication, or automation, downstream L-, A-, D-, or E-classified hooks are explicit.

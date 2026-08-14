@@ -6,12 +6,12 @@ section_id: "G.Core:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:intro — Intro"
-line_start: 98847
-line_end: 98863
+line_start: 98863
+line_end: 98879
 dependencies:
   - "A.15.3"
   - "A.19"

@@ -6,12 +6,12 @@ section_id: "A.6.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:intro — Intro"
-line_start: 19526
-line_end: 19574
+line_start: 19528
+line_end: 19576
 dependencies:
   - "A.10"
   - "A.14"
@@ -32,7 +32,6 @@ dependencies:
   - "F.15"
   - "F.18"
   - "F.9"
-  - "U.RelationSlotDiscipline"
 keywords:
   - "SWBD"
   - "anchoring"
@@ -64,11 +63,11 @@ keywords:
 
 **Status.** Normative (Core).
 
-**Placement.** Part A, cluster A.IV “Signature Stack & Boundary Discipline”; adjacent to A.6.5 `U.RelationSlotDiscipline`.
+**Placement.** Part A, cluster A.IV “Signature Stack & Boundary Discipline”; adjacent to A.6.5 relation-declaration slot discipline.
 
 **Depends on.**
 – A.6.0 `U.Signature` (universal signature carrier).
-– A.6.5 `U.RelationSlotDiscipline` (SlotKind/ValueKind/RefKind stratification + slot-operation lexicon).
+– A.6.5 relation-declaration slot discipline (SlotKind, ValueKind, and RefKind stratification plus the slot-operation lexicon).
 – A.2.6 (Scope discipline; explicit `Γ_time`; implicit “latest/current” is forbidden).
 – A.2.4 evidence-use and status-use relation discipline for decision-relevant witness sets, including timespan, provenance, scope, polarity, and freshness constraints.
 - A.7 (Strict Distinction; EntityOfConcern vs Description-episteme and specification-use cases vs publication face, form, unit, carrier, and rendering lanes).

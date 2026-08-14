@@ -6,12 +6,12 @@ section_id: "D.3:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__010_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:6 — Conformance Checklist"
-line_start: 69248
-line_end: 69256
+line_start: 69250
+line_end: 69258
 dependencies:
   - "A.1"
   - "A.10"

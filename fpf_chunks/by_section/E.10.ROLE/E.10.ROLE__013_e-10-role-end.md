@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:End"
 section_title: "E.10.ROLE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__013_e-10-role-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:End — E.10.ROLE:End"
-line_start: 76852
-line_end: 76853
+line_start: 76854
+line_end: 76855
 dependencies:
   - "A.2"
   - "A.2.1"

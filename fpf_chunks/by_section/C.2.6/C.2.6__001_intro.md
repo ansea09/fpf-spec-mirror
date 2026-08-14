@@ -6,12 +6,12 @@ section_id: "C.2.6:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:intro — Intro"
-line_start: 44127
-line_end: 44140
+line_start: 44126
+line_end: 44139
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,7 +41,7 @@ keywords:
 
 **Plain-name.** Language-state anchoring mode.
 
-**Use this pattern when.** Use C.2.6 when a governed `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
+**Use this pattern when.** Use C.2.6 when a `U.Episteme` publication needs to say whether its current position is anchored in bodily enactment, traces, model state, document mediation, operator loop, or an explicit mixed regime.
 
 **What goes wrong if missed.** A prose note hides an embodied, trace-based, model-latent, or operator-loop cue; bridge-loss notes disappear; and the final publication face is mistaken for the original anchoring regime.
 

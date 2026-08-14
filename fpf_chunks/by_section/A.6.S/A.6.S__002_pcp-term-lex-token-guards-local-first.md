@@ -6,12 +6,12 @@ section_id: "A.6.S:0"
 section_title: "PCP-TERM/LEX token guards (local-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.S/A.6.S__002_pcp-term-lex-token-guards-local-first.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
   - "A.6.S:0 — PCP-TERM/LEX token guards (local-first)"
-line_start: 20928
-line_end: 20941
+line_start: 20930
+line_end: 20943
 dependencies:
   - "A.12"
   - "A.3"

@@ -6,12 +6,12 @@ section_id: "E.4.PFR:7"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:7 — Common Anti-Patterns and How to Avoid Them"
-line_start: 71928
-line_end: 71943
+line_start: 71930
+line_end: 71945
 dependencies:
   - "A.10"
   - "A.6.0"

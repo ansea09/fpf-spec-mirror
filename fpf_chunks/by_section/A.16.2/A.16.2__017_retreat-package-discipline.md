@@ -6,12 +6,12 @@ section_id: "A.16.2:16"
 section_title: "Retreat Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.16.2/A.16.2__017_retreat-package-discipline.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.16.2 — Reopen / SketchBackoff / Respecify"
   - "A.16.2:16 — Retreat Package Discipline"
-line_start: 28266
-line_end: 28287
+line_start: 28268
+line_end: 28289
 dependencies:
   - "A.16"
   - "A.16.0"

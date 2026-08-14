@@ -6,12 +6,12 @@ section_id: "C.22.PFR:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__013_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:12 — Relations"
-line_start: 52064
-line_end: 52077
+line_start: 52066
+line_end: 52079
 dependencies:
   - "A.10"
   - "A.15.1"

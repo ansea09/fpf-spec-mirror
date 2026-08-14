@@ -6,12 +6,12 @@ section_id: "C.29:14"
 section_title: "Informative taxonomy seed"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.29/C.29__019_informative-taxonomy-seed.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.29 — Mathematical Lens Use"
   - "C.29:14 — Informative taxonomy seed"
-line_start: 59756
-line_end: 59775
+line_start: 59758
+line_end: 59777
 dependencies:
   - "A.1.1"
   - "A.10"

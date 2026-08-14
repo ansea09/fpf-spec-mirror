@@ -6,12 +6,12 @@ section_id: "G.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:3 — Forces"
-line_start: 100602
-line_end: 100611
+line_start: 100618
+line_end: 100627
 dependencies:
   - "A.10"
   - "A.15.3"

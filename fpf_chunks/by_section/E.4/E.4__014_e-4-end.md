@@ -6,12 +6,12 @@ section_id: "E.4:End"
 section_title: "E.4:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4/E.4__014_e-4-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.4 — FPF Ecosystem Family Architecture"
   - "E.4:End — E.4:End"
-line_start: 70454
-line_end: 70455
+line_start: 70456
+line_end: 70457
 dependencies:
   - "C.33"
   - "C.34"

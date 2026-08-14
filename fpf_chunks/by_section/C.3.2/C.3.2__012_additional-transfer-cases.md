@@ -6,12 +6,12 @@ section_id: "C.3.2:10"
 section_title: "Additional Transfer Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__012_additional-transfer-cases.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:10 — Additional Transfer Cases"
-line_start: 45285
-line_end: 45292
+line_start: 45284
+line_end: 45291
 dependencies:
   - "A.14"
   - "A.2.6"

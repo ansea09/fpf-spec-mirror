@@ -6,7 +6,7 @@ section_id: "A.6.2:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:5 — Archetypal Grounding (Tell–Show–Show)"
@@ -100,7 +100,7 @@ To make the SlotKind/ValueKind/RefKind discipline and EFEM laws concrete, consid
 | `ViewpointSlot`       | `U.Viewpoint`                                 | `U.ViewpointRef`    | engineering viewpoint (e.g. from TEVB) under which Description epistemes, including Description epistemes admitted for specification use, are validated |
 | `ReferenceSchemeSlot` | `U.ReferenceScheme`                           | ByValue             | how the ClaimGraph is interpreted against EntityOfConcern and grounding     |
 
-This table is an instance of A.6.5 `U.RelationSlotDiscipline`: each row is a SlotSpec triple ⟨SlotKind, ValueKind, refMode/RefKind⟩; no additional U-kinds are introduced, and C.2.1’s constraints on `EntityOfConcernSlot`/`GroundingHolonSlot` are preserved.
+This table describes SlotSpecs under one exact episteme `RelationSignature`. Each row names its SlotKind and ValueKind, then either `ByValue` or the exact RefKind used to designate the participant. The table is not an instance of a discipline object, introduces no additional U-kinds, and preserves C.2.1’s constraints on `EntityOfConcernSlot` and `GroundingHolonSlot`.
 
 Two typical EFEM species over this kind are:
 * `Specify_DescEp_SpecDesc_Sys : SystemDescription → SystemSpec` — a `EntityOfConcernChangeMode = preserve` species that:

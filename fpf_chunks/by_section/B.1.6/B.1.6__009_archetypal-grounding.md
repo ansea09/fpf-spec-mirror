@@ -6,12 +6,12 @@ section_id: "B.1.6:6"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.6/B.1.6__009_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.1.6 — Work-Resource Aggregation"
   - "B.1.6:6 — Archetypal Grounding"
-line_start: 37197
-line_end: 37204
+line_start: 37199
+line_end: 37206
 dependencies:
   - "A.1"
   - "A.10"

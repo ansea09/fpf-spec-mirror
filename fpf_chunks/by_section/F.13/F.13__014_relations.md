@@ -6,12 +6,12 @@ section_id: "F.13:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__014_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:13 — Relations"
-line_start: 95416
-line_end: 95429
+line_start: 95432
+line_end: 95445
 dependencies:
   - "F.1"
   - "F.10"

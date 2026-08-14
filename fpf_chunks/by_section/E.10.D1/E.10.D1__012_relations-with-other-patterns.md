@@ -6,12 +6,12 @@ section_id: "E.10.D1:11"
 section_title: "Relations (with other patterns)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__012_relations-with-other-patterns.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:11 — Relations (with other patterns)"
-line_start: 77023
-line_end: 77033
+line_start: 77025
+line_end: 77035
 dependencies:
   - "A.2.1"
   - "A.4"

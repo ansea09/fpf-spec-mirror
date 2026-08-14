@@ -6,12 +6,12 @@ section_id: "C.18:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__013_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:11 — Relations"
-line_start: 49774
-line_end: 49781
+line_start: 49776
+line_end: 49783
 dependencies:
   - "A.15"
   - "A.19"

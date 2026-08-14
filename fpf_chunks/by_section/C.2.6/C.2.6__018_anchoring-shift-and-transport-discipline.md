@@ -6,12 +6,12 @@ section_id: "C.2.6:17"
 section_title: "Anchoring Shift and Transport Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__018_anchoring-shift-and-transport-discipline.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:17 — Anchoring Shift and Transport Discipline"
-line_start: 44272
-line_end: 44282
+line_start: 44271
+line_end: 44281
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -38,8 +38,8 @@ keywords:
 #### C.2.6:17.1 - Shift declaration rule
 When an episteme crosses from one anchoring mode to another, state whether the shift is merely publication-level or whether it changes what can be preserved, compared, or trusted. A move from operator-loop enactment to report prose, for example, often drops timing, bodily load, and enactment friction.
 
-#### C.2.6:17.2 - Bridge-loss governing relation
-If an anchoring shift matters across contexts, `F.9` or `F.9.1` should govern the loss or stance note. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
+#### C.2.6:17.2 - Bridge-loss rule
+If an anchoring shift matters across semantic contexts, use F.9 to state the Bridge, bounded-use claim, and loss account; add an F.9.1 stance note only when it helps explain that claim. `C.2.6` only requires the shift to be noticed and not misrepresented as lossless.
 
 #### C.2.6:17.3 - Same-content illusion test
 Two cues may be paraphrased into the same sentence while remaining differently anchored. If the anchoring regime differs, the cues are not automatically substitutable.

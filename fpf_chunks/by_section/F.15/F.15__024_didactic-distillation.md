@@ -6,12 +6,12 @@ section_id: "F.15:18"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.15/F.15__024_didactic-distillation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.15 — Static and Regression Conformance Harness for Unification"
   - "F.15:18 — Didactic distillation"
-line_start: 96249
-line_end: 96252
+line_start: 96265
+line_end: 96268
 dependencies:
   - "A.1.1"
   - "A.10"

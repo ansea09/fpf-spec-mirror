@@ -6,7 +6,7 @@ section_id: "A.6.4:4"
 section_title: "Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__005_solution-u-epistemicretargeting-as-efem-profile-entityofconcernchangemode-retarget.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:4 — Solution — U.EpistemicRetargeting as EFEM profile (entityOfConcernChangeMode = retarget)"
@@ -276,7 +276,7 @@ Any attempt to apply a retargeting outside this Applicability profile is **ill�
 Boundary rules:
 - if the EntityOfConcern is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
 - if the EntityOfConcern is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
-- if the source and receiving items are only bridge-only comparison, analogy, equivalence, or substitution relation, use `F.9` or `F.9.1` instead of interpreting the bridge as identity;
+- if the source and receiving items need only a Bridge or a judgment about one bounded use, use `F.9`; use `F.9.1` only for an optional stance note about that already constituted use claim, and do not interpret either as identity;
 - if the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if decoded or latent output is interpretable but not tied to source claim, access relation, recoverability evidence, admissible-use value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;

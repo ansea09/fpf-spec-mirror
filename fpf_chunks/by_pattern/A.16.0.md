@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.16.0.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.16.0 — U.LanguageStateMoveTrajectory - Optional trajectory-account normal form over the language-state U.CharacteristicSpace"
-line_start: 27572
-line_end: 27840
+line_start: 27574
+line_end: 27842
 dependencies:
   - "A.16"
   - "A.16.1"
@@ -205,7 +205,7 @@ The word `move` remains inherited from `A.16` and means a typed language-state p
 A trajectory may later cross a viewpoint or context boundary. When that happens:
 
 - bridge substitution licence remains with `F.9`;
-- stance overlays remain with `F.9.1`;
+- stance notes remain with `F.9.1`;
 - viewpoint reuse remains with `E.17.1`;
 - endpoint-local semantics remain in the rules defined or tested by the named endpoint patterns; publication availability remains a separate `E.24.PUB` relation.
 

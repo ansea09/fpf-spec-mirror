@@ -6,12 +6,12 @@ section_id: "C.13:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__011_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:8 — Consequences"
-line_start: 47309
-line_end: 47327
+line_start: 47308
+line_end: 47326
 dependencies:
   - "A.1"
   - "A.14"

@@ -6,12 +6,12 @@ section_id: "E.17.0:End"
 section_title: "E.17.0:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__011_e-17-0-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:End — E.17.0:End"
-line_start: 80381
-line_end: 80382
+line_start: 80383
+line_end: 80384
 dependencies:
   - "A.22"
   - "A.6.3"

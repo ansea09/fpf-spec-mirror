@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__014_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:12 — Relations"
-line_start: 61703
-line_end: 61715
+line_start: 61705
+line_end: 61717
 dependencies:
   - "A.10"
   - "A.15"

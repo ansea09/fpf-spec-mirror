@@ -6,12 +6,12 @@ section_id: "E.11.PUA:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:7 — Conformance Checklist"
-line_start: 78467
-line_end: 78479
+line_start: 78469
+line_end: 78481
 dependencies:
   - "A.15"
   - "A.6.5"

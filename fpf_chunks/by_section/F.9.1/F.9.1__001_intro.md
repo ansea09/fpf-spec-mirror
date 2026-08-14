@@ -1,51 +1,58 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9.1"
-pattern_title: "Bridge Stance Overlay"
+pattern_title: "Bridge Stance Note"
 section_id: "F.9.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
-  - "F.9.1 — Bridge Stance Overlay"
+  - "F.9.1 — Bridge Stance Note"
   - "F.9.1:intro — Intro"
-line_start: 94027
-line_end: 94041
+line_start: 94031
+line_end: 94052
 dependencies:
-  - "A.16.0"
+  - "A.10"
   - "A.6.3.CSC"
-  - "A.6.A"
-  - "A.6.P"
-  - "B.4.1"
+  - "B.3"
   - "C.16.Q"
-  - "C.2.2a"
-  - "C.25"
-  - "E.17.1"
+  - "C.2.1"
   - "E.17.ID.CR"
+  - "E.24.PUB"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "bridge stance"
+  - "bounded-use claim"
+  - "bridge stance note"
   - "interpretive gloss"
-  - "language-state comparisons"
-  - "overlay annotation"
-  - "projection note"
-  - "rename note"
-  - "stance overlay"
+  - "local rename"
+  - "non-equivalence"
+  - "operationalization"
+  - "partial analogy"
+  - "projection"
 ---
 
-## F.9.1 - Bridge Stance Overlay
+## F.9.1 - Bridge Stance Note
 
 > **Type:** Architectural (A)
 > **Status:** Stable
 > **Normativity:** Normative unless marked informative
 
-**Plain-name.** Bridge-card stance overlay.
-**One-line summary.** `BridgeStanceOverlay` governs one stance annotation over an existing `F.9` bridge card so authors can say how to read that bridge without changing its kind, direction, `CL`, or loss notes and without treating the overlay as bridge authority or as a cure for missing source-bearing return.
-**Primary EntityOfConcern in plain terms.** One overlay annotation attached to an existing `F.9` bridge card; not the bridge card itself, not a second bridge kind, and not the pattern that governs coarsened renderings.
-**Use this when.** Use this overlay when an existing bridge card already exists and the real need is one compact stance label such as `localRename`, `operationalizes`, `partialAnalogy`, `projection`, or `nonEquivalent` that helps readers interpret that bridge without widening its substitution licence.
-**Start here when.** Your first honest artefact is already an `F.9` bridge card, and the practical question is how to read that bridge rather than whether a bridge exists at all.
-**What goes wrong if missed.** Authors fall back to vague phrases like "roughly analogous" or "just a rename", and readers either over-read the gloss as silent bridge authority or under-read it as disposable style.
-**What this buys.** One compact interpretive gloss over an existing bridge card that stays reusable, keeps the bridge taxonomy stable, and still leaves source-bearing return and bridge publication duties where they belong.
-**Not this pattern when.** Not this overlay when the case is the bridge card itself under `F.9`, or when a coarsened rendering still needs source-bearing return before any bridge-bearing use is admissible; use `A.6.3.CSC Controlled Semantic Coarsening` for that coarsened-rendering relation.
+**Plain name.** A short note that helps a reader interpret one particular use of a Bridge.
+
+**One-line summary.** A bridge stance note is a separate claim-bearing episteme about one exact F.9 bounded-use claim. It may say that the use is best read as a local rename, operationalization, partial analogy, projection, or warning against equivalence. It changes neither the Bridge nor the claim it explains.
+
+**Use this when.** Use F.9.1 after an F.9 Bridge has been shown to obtain and a separate bounded-use claim already says what someone proposes to do with that Bridge, in which direction, under which rule, and with what tolerated loss. Add a stance note only when one short interpretive cue will help a reader without replacing those facts.
+
+**Start here when.** You already have the Bridge and its bounded-use claim, but a reader may still overread a phrase such as “operationalizes”, “projection”, or “roughly analogous”.
+
+**First useful move.** Point to the exact bounded-use claim and write one ordinary sentence: “For this named use, read the relation as ___; do not infer ___.” Choose a stance word only if it makes that sentence shorter and clearer.
+
+**What goes wrong if missed.** A friendly gloss starts acting like proof of equivalence, permission to substitute, or evidence that a use happened. The opposite failure also occurs: authors build a second bridge taxonomy merely to explain how one already warranted use should be read.
+
+**What this buys.** Readers get a compact caution or reading aid while the Bridge, proposed use, evidence, reliance, authorization, actual downstream act, and optional publication package remain separately checkable.
+
+**Not this pattern when.** Use F.9 when the Bridge or suitability of a proposed use is still unsettled. Use A.6.3.CSC when a shortened or coarsened rendering needs a source tether, a narrower admissible use, blocked downstream uses, or a return trigger. Do not create a stance note merely because a comparison sounds informal.
 

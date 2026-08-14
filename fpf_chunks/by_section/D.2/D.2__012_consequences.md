@@ -6,12 +6,12 @@ section_id: "D.2:7"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__012_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:7 — Consequences"
-line_start: 69109
-line_end: 69112
+line_start: 69111
+line_end: 69114
 dependencies:
   - "A.1"
   - "A.15"

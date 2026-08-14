@@ -6,12 +6,12 @@ section_id: "F.5:8"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__010_common-anti-patterns-and-repairs.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:8 — Common Anti-Patterns and Repairs"
-line_start: 92265
-line_end: 92278
+line_start: 92269
+line_end: 92282
 dependencies:
   - "A.10"
   - "A.15"

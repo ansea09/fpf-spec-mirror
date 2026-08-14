@@ -6,12 +6,12 @@ section_id: "C.32.PAD:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.PAD/C.32.PAD__011_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.PAD — Project Architecture Decision After Candidate Synthesis"
   - "C.32.PAD:10 — Rationale"
-line_start: 67198
-line_end: 67205
+line_start: 67200
+line_end: 67207
 dependencies:
   - "A.10"
   - "A.15"

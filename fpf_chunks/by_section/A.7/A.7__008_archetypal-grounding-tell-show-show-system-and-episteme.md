@@ -6,12 +6,12 @@ section_id: "A.7:6"
 section_title: "Archetypal Grounding (Tell-Show-Show; System and Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7/A.7__008_archetypal-grounding-tell-show-show-system-and-episteme.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.7 — Strict Distinction (Clarity Lattice)"
   - "A.7:6 — Archetypal Grounding (Tell-Show-Show; System and Episteme)"
-line_start: 21945
-line_end: 21985
+line_start: 21947
+line_end: 21987
 dependencies:
   - "A.1"
   - "A.10"

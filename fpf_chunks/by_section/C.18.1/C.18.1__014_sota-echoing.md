@@ -6,12 +6,12 @@ section_id: "C.18.1:12.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__014_sota-echoing.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:12.1 — SoTA-Echoing"
-line_start: 49894
-line_end: 49899
+line_start: 49896
+line_end: 49901
 dependencies:
   - "A.10"
   - "A.15.1"

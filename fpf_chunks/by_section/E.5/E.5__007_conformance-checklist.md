@@ -6,12 +6,12 @@ section_id: "E.5:6"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__007_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:6 — Conformance Checklist"
-line_start: 72036
-line_end: 72046
+line_start: 72038
+line_end: 72048
 dependencies:
   - "E.2"
   - "E.3"

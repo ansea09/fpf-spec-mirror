@@ -6,12 +6,12 @@ section_id: "A.19.UNM:End"
 section_title: "A.19.UNM:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__015_a-19-unm-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:End — A.19.UNM:End"
-line_start: 32041
-line_end: 32042
+line_start: 32043
+line_end: 32044
 dependencies:
 keywords:
   - "CV→NCV"

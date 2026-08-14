@@ -6,7 +6,7 @@ section_id: "A.2.3:6"
 section_title: "Mapping the common “service” picture to FPF (didactic bridge)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.3/A.2.3__010_mapping-the-common-service-picture-to-fpf-didactic-bridge.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.2.3 — U.PromiseContent (Promise Content)"
   - "A.2.3:6 — Mapping the common “service” picture to FPF (didactic bridge)"

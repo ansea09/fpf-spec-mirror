@@ -6,12 +6,12 @@ section_id: "E.10.D2:18"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__020_phrasebook.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:18 — Phrasebook"
-line_start: 77447
-line_end: 77460
+line_start: 77449
+line_end: 77462
 dependencies:
   - "A.1.1"
   - "A.10"

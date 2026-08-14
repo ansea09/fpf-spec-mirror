@@ -6,12 +6,12 @@ section_id: "C.2.3:18"
 section_title: "Glossary and Notation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__019_glossary-and-notation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:18 — Glossary and Notation"
-line_start: 43475
-line_end: 43483
+line_start: 43477
+line_end: 43485
 dependencies:
   - "A.16"
   - "A.18"

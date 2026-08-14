@@ -6,12 +6,12 @@ section_id: "A.15.2:9"
 section_title: "Launch-value and actual-use boundary for P2W"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.2/A.15.2__015_launch-value-and-actual-use-boundary-for-p2w.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15.2 — U.WorkPlan"
   - "A.15.2:9 — Launch-value and actual-use boundary for P2W"
-line_start: 25448
-line_end: 25455
+line_start: 25450
+line_end: 25457
 dependencies:
   - "A.10"
   - "A.15"

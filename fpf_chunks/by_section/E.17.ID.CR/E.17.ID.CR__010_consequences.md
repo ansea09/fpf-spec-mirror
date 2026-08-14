@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__010_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:9 — Consequences"
-line_start: 82935
-line_end: 82942
+line_start: 82939
+line_end: 82946
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -40,7 +40,7 @@ keywords:
 
 ### E.17.ID.CR:9 - Consequences
 
-- The middle band between bridge-stance overlay over an existing Bridge Card and prompt-bearing abduction becomes reviewable rather than rhetorical.
+- The middle band between a short F.9.1 stance note about an existing bounded-use claim and prompt-bearing abduction becomes reviewable rather than rhetorical.
 - Reviewers get a cleaner way to distinguish comparative interpretation from the first crossed claim that would make another governing pattern primary.
 - Authors pay a small extra declaration weight, but the gain is fewer hidden neighboring-pattern boundary mistakes and less comparison-unit instability.
 - Guided comparative review units become easier to prepare honestly because bounded use, overread risk, and world-contact limits can be declared without pretending that the unit already carries a broader guidance claim than it really does.

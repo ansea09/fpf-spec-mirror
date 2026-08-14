@@ -6,7 +6,7 @@ section_id: "A.6.A:4"
 section_title: "Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__005_solution-stable-lens-sense-family-slots-normal-form-change-lexicon-guardrails.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:4 — Solution - Stable lens -> Sense Family -> Slots -> Normal Form -> Change Lexicon -> Guardrails"
@@ -334,9 +334,9 @@ Examples:
 
 #### A.6.A:4.7 - Bridge discipline across traditions
 
-Whenever two traditions are compared using action-first language, the author SHALL publish an explicit **bridge stance** and loss note.
+Whenever two traditions are compared using action-first language, first identify an obtaining F.9 Bridge and state one bounded-use claim for the named comparison. The claim says what comparison is proposed, in which direction, under which correspondence rule, with what tolerated loss, and with what polarity. Keep observed loss in the evidence account. Add a separate F.9.1 stance note only when a short reading aid helps the reader understand that claim.
 
-Allowed bridge stances:
+Useful stance labels include, for example:
 
 * **`localRename`**
 * **`operationalizes`**
@@ -346,10 +346,10 @@ Allowed bridge stances:
 
 Examples:
 
-* `AIS.PhysicalAffordance` - `AIS.InterfaceAffordance` is usually `partialAnalogy`, not identity.
-* `AIS.EpistemicProbe` - `AIS.ClosureAdvance` is usually a progression-by-closure relation, not identity.
-* `AIS.LatentPolicyCue` > `AIS.ControlOpportunity` is often `operationalizes` or `projection`.
-* `AIS.PhysicalAffordance` > `PolicyHook` in robotics is usually `projection` under a controller frame.
+* A named comparison between `AIS.PhysicalAffordance` and `AIS.InterfaceAffordance` may support a bounded partial analogy when the Bridge and use claim establish it. An optional `partialAnalogy` note helps reject identity; the label alone establishes nothing.
+* `AIS.EpistemicProbe` and `AIS.ClosureAdvance` usually need the direct progression-by-closure relation that is actually claimed. If their senses cross semantic contexts, apply F.9 before adding any optional stance note.
+* A named use from `AIS.LatentPolicyCue` toward `AIS.ControlOpportunity` may be read as operationalization or projection only after its Bridge, direction, rule, and tolerated loss are explicit.
+* A robotics use from `AIS.PhysicalAffordance` toward `PolicyHook` may have a projection reading under one controller frame. The F.9 claim carries that bounded use and its loss; an F.9.1 note only explains it.
 * Action invitation and quality ascription may co-occur, but co-occurrence is **not** identity.
 
 #### A.6.A:4.8 - Change lexicon
@@ -381,7 +381,7 @@ A silent move from invitation to commitment, capability, or work is a breaking s
 
 When an action invitation becomes boundary-bearing, classify it explicitly:
 
-* **L** — `actionInvitation` relation specification skeleton, `ActionInvitationSense` semantics, normal-form admissibility, enactor and site discipline, bridge stances.
+* **L** — `actionInvitation` relation specification skeleton, `ActionInvitationSense` semantics, normal-form admissibility, enactor and site discipline, and the boundary between an F.9 bounded-use claim and any optional F.9.1 stance note.
 * **A** — admissibility conditions for using the invitation in selector use, triage use, automation use, or publication use.
 * **D** — duties on authors, operators, or stewards of the named source with authority-reference relation: lexical firewall, naming the invited actor, naming the hook `authoritySourceRef` source, naming override paths where required.
 * **E** — carrier-referenced witnesses: sensory traces, interface events, probe notes, controller logs, run traces, incident records.
@@ -411,7 +411,7 @@ A.6.A allows monotone elaboration:
 3. Choose an admissible normal form and a local `articulationHint` when omission would hide articulation state.
 4. Add guards, method hooks, policy hooks, and witness bindings.
 5. If a `CuePack` or `ActionOption` is projected into `OptionSet` or `PolicyHook`, or connected to **C.16.Q**, **A.6.B**, or the relevant **A.15** pattern family, publish an explicit projection or operationalization note rather than silently upgrading the invitation.
-6. Add bridges and loss notes if traditions are compared.
+6. If traditions are compared, state the obtaining F.9 Bridge and bounded-use claim, including tolerated loss; add an F.9.1 stance note only when it helps the reader.
 7. If the invitation becomes boundary-bearing, emit the relevant L, A, D, and E decomposition hooks and, where enactment is implied, apply the relevant A.15 pattern family.
 8. Never move from invitation into capability, commitment, or work silently.
 

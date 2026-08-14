@@ -6,12 +6,12 @@ section_id: "A.6.6:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__013_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:12 — Relations"
-line_start: 20077
-line_end: 20108
+line_start: 20079
+line_end: 20110
 dependencies:
   - "A.10"
   - "A.14"
@@ -32,7 +32,6 @@ dependencies:
   - "F.15"
   - "F.18"
   - "F.9"
-  - "U.RelationSlotDiscipline"
 keywords:
   - "SWBD"
   - "anchoring"
@@ -53,7 +52,7 @@ keywords:
 **Specialises A.6.P Relational Precision Restoration (RPR).**
 A.6.6 is the RPR specialisation for “basedness / relative‑to” claims: it makes the relation kind explicit via `baseRelation`, qualifies it with scope/`Γ_time`/witnesses, and standardises evolution via a base‑change lexicon plus lexical red‑flags (`anchor*`).
 
-**Builds on A.6.5 `U.RelationSlotDiscipline`.**
+**Builds on A.6.5 relation-declaration slot discipline.**
 SWBD introduces a structured record with slots; those slots must be SlotKind/ValueKind/RefKind disciplined, and its change classes must not be confused with slot-edit operations (A.6.5) or name-binding terminology (E.10 / L‑BIND).
 
 **Constrains A.10 evidence admissibility links.**

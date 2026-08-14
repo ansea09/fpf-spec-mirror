@@ -6,12 +6,12 @@ section_id: "A.21:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.21/A.21__006_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.21 — GateProfilization: OperationalGate(profile) (GateFit core)"
   - "A.21:5 — Archetypal Grounding"
-line_start: 34415
-line_end: 34434
+line_start: 34417
+line_end: 34436
 dependencies:
   - "A.19"
   - "A.2.6"

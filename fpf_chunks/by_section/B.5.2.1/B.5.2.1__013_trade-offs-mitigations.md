@@ -6,12 +6,12 @@ section_id: "B.5.2.1:10a"
 section_title: "Trade‑offs & mitigations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.1/B.5.2.1__013_trade-offs-mitigations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.5.2.1 — Creative Abduction with NQD"
   - "B.5.2.1:10a — Trade‑offs & mitigations"
-line_start: 41110
-line_end: 41116
+line_start: 41112
+line_end: 41118
 dependencies:
   - "A.17"
   - "A.18"

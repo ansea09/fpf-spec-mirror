@@ -6,12 +6,12 @@ section_id: "C.32.ACS:6"
 section_title: "Kind and Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACS/C.32.ACS__007_kind-and-receiving-claim-boundary.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.ACS — Architecture Characteristic Criteria Set for Improvement Cycles"
   - "C.32.ACS:6 — Kind and Receiving-Claim Boundary"
-line_start: 65649
-line_end: 65662
+line_start: 65651
+line_end: 65664
 dependencies:
   - "A.1.1"
   - "A.10"

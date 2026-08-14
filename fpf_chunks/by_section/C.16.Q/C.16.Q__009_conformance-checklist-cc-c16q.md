@@ -6,12 +6,12 @@ section_id: "C.16.Q:7"
 section_title: "Conformance Checklist (CC-C16Q)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__009_conformance-checklist-cc-c16q.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:7 — Conformance Checklist (CC-C16Q)"
-line_start: 48592
-line_end: 48634
+line_start: 48594
+line_end: 48636
 dependencies:
   - "A.10"
   - "A.16"
@@ -89,7 +89,7 @@ A text or pattern conforms to C.16.Q iff:
 12. **CC-C16Q-12 - Functional separation.**
     Function or capability claims remain distinct from quality-family claims.
 13. **CC-C16Q-13 - Bridge accountability.**
-    Cross-local comparison resolves exact F.17 cells and cites an obtaining F.9 Bridge. Any bounded-use claim, optional Card, and F.9.1 overlay remain separate; a stance, `CL`, shared label, or loss note establishes none of them.
+    Cross-local comparison resolves exact F.17 cells and cites an obtaining F.9 Bridge plus the exact bounded-use claim when a use is proposed. Any optional Card and F.9.1 stance note remain separate; the stance note's `EntityOfConcern` is that claim. A stance word, `CL`, shared label, or loss note establishes none of them.
 14. **CC-C16Q-14 - Boundary-claim hook when needed.**
     If a repaired ascription is used for admissibility, commitment, publication, evidence-bearing decision, or adjudication, the downstream `L/A/D/E` claims and the patterns used to define or test them are explicit.
 15. **CC-C16Q-15 - Lexical firewall.**
@@ -101,5 +101,5 @@ A text or pattern conforms to C.16.Q iff:
 18. **CC-C16Q-18 - Reference resolution is not object substitution.**
     Designators, governed refs, their resolved viewpoint or bearer objects, evaluator, result, frame, scope, grounding holon, and any selected structure remain distinct.
 19. **CC-C16Q-19 - Change verbs dock cleanly with A.6.P and A.6.5.**
-    `retargetBearer(...)` and the other declared reference moves are used only for ref retargeting; by-value revisions use their declared verbs; a scheme or scope change triggers claim-identity review; edits to witnesses, evidence paths, grounding, Bridge, Card, or overlay refs do not silently rewrite one another; and silent retyping is forbidden.
+    `retargetBearer(...)` and the other declared reference moves are used only for ref retargeting; by-value revisions use their declared verbs; a scheme or scope change triggers claim-identity review; edits to witnesses, evidence paths, grounding, Bridge, bounded-use-claim, Card, or stance-note refs do not silently rewrite one another; and silent retyping is forbidden.
 

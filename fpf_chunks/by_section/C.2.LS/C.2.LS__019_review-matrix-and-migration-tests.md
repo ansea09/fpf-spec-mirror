@@ -6,12 +6,12 @@ section_id: "C.2.LS:18"
 section_title: "Review Matrix and Migration Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__019_review-matrix-and-migration-tests.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:18 — Review Matrix and Migration Tests"
-line_start: 43733
-line_end: 43749
+line_start: 43732
+line_end: 43748
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,14 +44,14 @@ keywords:
 #### C.2.LS:18.1 - Review matrix
 An assurance reader should ask:
 
-- is each published facet governed by its proper pattern rather than by surrogate prose;
+- does each published facet keep the definition and test supplied by its own pattern rather than by surrogate prose;
 - does any overlay smuggle a hidden scalar or gate decision;
 - are threshold claims tied to the facet that really bears them;
 - do cited moves in `A.16`, `A.16.1`, `A.16.2`, `B.4.1`, or `B.5.2.0` actually match the facet bundle;
-- if the profile crosses a bridge or viewpoint boundary, are stance and loss notes kept in `F.9` or `F.9.1` rather than imported as fake facets.
+- if the profile crosses a Bridge or viewpoint boundary, did the author use `F.9` for the Bridge, bounded-use claim, and loss account, and keep any optional F.9.1 stance note separate rather than importing it as a fake facet?
 
 #### C.2.LS:18.2 - Migration test for source prose
-Source phrases such as "still immature", "not ready yet", or "already stable enough" should be unpacked into: which facet is claimed, which anchor or bundle member justifies it, which threshold or route consequence follows, and which `governingPatternRef` or `authoritySourceRef` carries that consequence.
+Source phrases such as "still immature", "not ready yet", or "already stable enough" should be unpacked into: which facet is claimed, which anchor or bundle member justifies it, which threshold or route consequence follows, and which cited rule or external `authoritySourceRef` justifies that consequence.
 
 #### C.2.LS:18.3 - Comparative profile use
 Compare profiles facetwise unless a Context has published an explicit local aggregation for reporting. Such an aggregation remains secondary and must not replace the profile in norms, thresholds, or bridge claims.

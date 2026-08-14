@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__002_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:1 — Problem frame"
@@ -42,7 +42,7 @@ keywords:
 
 **Start here.** Make one six-row note: source passage or account; shorter candidate; present use and distinctions that must survive; loss or unsupported addition; non-admissible downstream use; return trigger. Keep it inline when the source and candidate remain adjacent or directly linked. Do not construct C.2.1 identity triples or `c : X -> Y` merely to shorten material for a local, reversible use. Open the exact branch when independent reuse, citation, dispute, cross-scheme interpretation, policy, bridge, work, gate, privacy, engineering justification, or assurance makes endpoint or construction identity matter.
 
-**Neighboring contributions.** A.6.3.CR supplies the same-EntityOfConcern rewording boundary; A.6.3.RT supplies the representation-scheme transition account when a material scheme change is current; E.17.EFP classifies an explanation-facing use; E.17.ID.CR supplies bounded comparison; F.9/F.9.1 carry bridge or substitution claims; A.6.4 carries a changed EntityOfConcern. A.15.1 is used only when the claim depends on actual coarsening Work. E.24.PUB identifies any occurrence that makes selected episteme `X` or `Y` available through a form and carrier.
+**Neighboring contributions.** Use A.6.3.CR for same-EntityOfConcern rewording, A.6.3.RT when a material representation-scheme change is current, E.17.EFP for an explanation-facing use, and E.17.ID.CR for bounded comparison. Use F.9 for the Bridge and bounded-use claim, and add an F.9.1 stance note only when it helps explain that claim. Use A.6.4 when the EntityOfConcern changes. Use A.15.1 only when the claim depends on actual coarsening Work, and use E.24.PUB to identify an occurrence that makes selected episteme `X` or `Y` available through a form and carrier.
 
 **What goes wrong if missed.** A helpful summary hides a qualifier or distinction needed by its current reader, invents or strengthens something the source does not support, or mistakes a form, source set, model, graph, publication, or readable tile for an episteme endpoint. The summary then becomes evidence, redaction becomes closure, a dashboard becomes a causal verdict, or a briefing becomes work authority.
 
@@ -62,5 +62,5 @@ keywords:
 | --- | --- | --- |
 | A shorter incident note, redacted partner note, dashboard wording, lookup form, workshop sheet, or didactic account retains the distinctions needed for its named triage, disclosure, retrieval, coordination, or planning-preparation use. | The note points to the source and makes the reader check both whether needed distinctions survived and whether the candidate added or strengthened anything the source does not support before release, audit, accountability, engineering-justification, or independent reuse. | Neither the shorter candidate nor its publication occurrence, form, or carrier is release authority, evidence, audit closure, accountability finding, bridge or substitution admissibility, work authority, or assurance conclusion. |
 
-**Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT for a representation-medium change whose material issue is the scheme; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9/F.9.1 for bridge or substitution; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
+**Not this pattern when.** Use A.6.3.CR for ordinary rewording with no narrower-use or controlled-loss question; A.6.3.RT for a representation-medium change whose material issue is the scheme; E.17.EFP for explanation fidelity; E.17.ID.CR for comparison; F.9 for a Bridge or bounded-use claim; F.9.1 only for a separate stance note about such a claim; A.6.4 for a changed EntityOfConcern; A.15 for work; and A.20/A.21 for a constraint or gate claim.
 

@@ -6,12 +6,12 @@ section_id: "C.13:1"
 section_title: "Intent"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__002_intent.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:1 — Intent"
-line_start: 47148
-line_end: 47159
+line_start: 47147
+line_end: 47158
 dependencies:
   - "A.1"
   - "A.14"

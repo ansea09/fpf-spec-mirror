@@ -6,7 +6,7 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.4.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
 line_start: 15417
@@ -32,10 +32,10 @@ keywords:
 **One‑line summary.** `U.EpistemicRetargeting` is the **EntityOfConcern retargeting** species of `U.EffectFreeEpistemicMorphing`: an effect‑free episteme→episteme morphism that **intentionally changes what the episteme is about** (the value filling `EntityOfConcernSlot` in C.2.1) under a declared `KindBridge` and invariant, while remaining conservative with respect to that invariant.
 **EntityOfConcern retargeting discipline.** A.6.4 names the retarget branch of the C.2.1 EntityOfConcern retargeting law: `entityOfConcernRef(Y) != entityOfConcernRef(X)` only under a declared `KindBridge`, invariant, loss boundary, and admissible use. Source-side spellings are source wording only; conformant text normalizes them to `EntityOfConcern*` before use.
 
-**Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 `U.RelationSlotDiscipline`**.
+**Placement.** After **A.6.3 `U.EpistemicViewing`**, before **A.6.5 relation-declaration slot discipline**.
 
 **Builds on.**
-A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicViewing`; A.6.5 `U.RelationSlotDiscipline`; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2/C.3 (KD‑CAL/LOG‑CAL, ReferencePlane, Kind‑level reasoning); F.9 (Bridges, `KindBridge`, CL/CL^plane, SquareLaw witnesses).
+A.6.0 `U.Signature`; A.6.2 `U.EffectFreeEpistemicMorphing`; A.6.3 `U.EpistemicViewing`; A.6.5 relation-declaration slot discipline; A.7 and E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline, `DescriptionContext`); C.2.1 `U.Episteme — Epistemes and their slot relation`; C.2/C.3 (KD‑CAL/LOG‑CAL, ReferencePlane, Kind‑level reasoning); F.9 (Bridges, `KindBridge`, CL/CL^plane, SquareLaw witnesses).
 
 **Used by.**
 E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpretation loci); discipline packs for signal/spectrum transforms, data↔model retargetings, abstraction/refinement under kind‑invariants; KD‑CAL/LOG‑CAL retargeting rules; additional species for architecture and governance reinterpretations.
@@ -52,7 +52,7 @@ E.18 (`StructuralReinterpretation` loci and other transformation-flow reinterpre
 
 **What this buys.** One honest retargeting relation: the reader can see the source entity, receiving entity, bridge, invariant, preserved commitments, lost or new commitments, and the specific admissible use that remains.
 
-**Not this pattern when.** Not this pattern when the EntityOfConcern is preserved and the main change is wording (`A.6.3.CR`), representation scheme or reasoning medium (`A.6.3.RT`), controlled coarsening (`A.6.3.CSC`), explanation mode (`E.17.EFP`), bridge-only comparison without retargeting (`F.9` or `F.9.1`), work (`A.15`), evidence (`A.10`), assurance (`B.3`), gate decision (`A.21`), temporal adequacy (`C.27`), or dynamics/control law (`A.3.3`).
+**Not this pattern when.** Not this pattern when the EntityOfConcern is preserved and the main change is wording (`A.6.3.CR`), representation scheme or reasoning medium (`A.6.3.RT`), controlled coarsening (`A.6.3.CSC`), explanation mode (`E.17.EFP`), an F.9 Bridge or bounded-use claim without retargeting, an optional F.9.1 stance note about such a claim, work (`A.15`), evidence (`A.10`), assurance (`B.3`), gate decision (`A.21`), temporal adequacy (`C.27`), or dynamics/control law (`A.3.3`).
 
 ### A.6.4:1 - Problem frame
 
@@ -380,7 +380,7 @@ Any attempt to apply a retargeting outside this Applicability profile is **ill�
 Boundary rules:
 - if the EntityOfConcern is preserved and the main change is representation scheme or reasoning medium, use `A.6.3.RT`;
 - if the EntityOfConcern is preserved and the main change is explanation mode, explanatory stance, or explanation-facing publication, use `E.17.EFP`;
-- if the source and receiving items are only bridge-only comparison, analogy, equivalence, or substitution relation, use `F.9` or `F.9.1` instead of interpreting the bridge as identity;
+- if the source and receiving items need only a Bridge or a judgment about one bounded use, use `F.9`; use `F.9.1` only for an optional stance note about that already constituted use claim, and do not interpret either as identity;
 - if the receiving item is useful only under narrower declared use with visible loss and source-bearing reopen, use `A.6.3.CSC`;
 - if decoded or latent output is interpretable but not tied to source claim, access relation, recoverability evidence, admissible-use value, and remaining reader action, keep it report-only, exploratory, source-bearing reopen, or in the named neighboring pattern;
 - if a `StructuralReinterpretation`, `PathSliceId`, `CrossingRef`, or `DecisionLogRef` is present, use `E.18`, `A.20`, or `A.21` for graph, path, constraint, and gate relations. Those references do not prove semantic continuity or retargeting admissibility by themselves;
@@ -546,7 +546,7 @@ When you think you need "retargeting" in FPF, ask:
   * Complements A.6.3 `U.EpistemicViewing` (EntityOfConcern-preserving EFEM) as the “retargeting” counterpart.
 
 * **Constrained by.**
-  * A.6.5 `U.RelationSlotDiscipline` for SlotKind/ValueKind/RefKind discipline.
+  * A.6.5 relation-declaration slot discipline for SlotKind, ValueKind, and RefKind rules.
   * C.2.1 `U.EpistemeSlotRelation` for episteme components and `EntityOfConcernSlot`/`GroundingHolonSlot`.
   * E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline; `DescriptionContext`).
   * Part F (Bridges, `KindBridge`, ReferencePlane crossings, CL/CL^plane).

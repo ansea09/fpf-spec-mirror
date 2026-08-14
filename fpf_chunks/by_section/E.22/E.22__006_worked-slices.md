@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 88192
-line_end: 88203
+line_start: 88196
+line_end: 88207
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

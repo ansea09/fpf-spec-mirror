@@ -1,39 +1,40 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9.1"
-pattern_title: "Bridge Stance Overlay"
+pattern_title: "Bridge Stance Note"
 section_id: "F.9.1:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__002_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
-  - "F.9.1 — Bridge Stance Overlay"
+  - "F.9.1 — Bridge Stance Note"
   - "F.9.1:1 — Problem frame"
-line_start: 94042
-line_end: 94044
+line_start: 94053
+line_end: 94056
 dependencies:
-  - "A.16.0"
+  - "A.10"
   - "A.6.3.CSC"
-  - "A.6.A"
-  - "A.6.P"
-  - "B.4.1"
+  - "B.3"
   - "C.16.Q"
-  - "C.2.2a"
-  - "C.25"
-  - "E.17.1"
+  - "C.2.1"
   - "E.17.ID.CR"
+  - "E.24.PUB"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "bridge stance"
+  - "bounded-use claim"
+  - "bridge stance note"
   - "interpretive gloss"
-  - "language-state comparisons"
-  - "overlay annotation"
-  - "projection note"
-  - "rename note"
-  - "stance overlay"
+  - "local rename"
+  - "non-equivalence"
+  - "operationalization"
+  - "partial analogy"
+  - "projection"
 ---
 
 ### F.9.1:1 - Problem frame
-When positions or trajectories in language-state work are compared across schools or contexts, authors often need a disciplined interpretive gloss on top of a formal bridge card. The gloss must help reading without becoming a second bridge taxonomy.
+
+People often need one short gloss after they have established a cross-local semantic relation and judged one bounded use of it. “Operationalizes”, “partial analogy”, and “projection” can be helpful, but each can also sound stronger than the underlying claim. The task is to make the intended reading explicit without making the gloss a Bridge kind, a use licence, or a substitute for evidence.
 

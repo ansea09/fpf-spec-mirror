@@ -6,12 +6,12 @@ section_id: "A.7.CP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.7.CP/A.7.CP__006_solution.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.7.CP — Constructive-Premise Compact and Reasoning-Basis Use"
   - "A.7.CP:4 — Solution"
-line_start: 22546
-line_end: 22627
+line_start: 22548
+line_end: 22629
 dependencies:
   - "A.7"
   - "A.7.1"

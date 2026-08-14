@@ -6,12 +6,12 @@ section_id: "C.16.P:8"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__011_bias-annotation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:8 — Bias-Annotation"
-line_start: 47860
-line_end: 47867
+line_start: 47859
+line_end: 47866
 dependencies:
   - "A.10"
   - "A.15"

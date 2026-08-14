@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 32257
-line_end: 32270
+line_start: 32259
+line_end: 32272
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

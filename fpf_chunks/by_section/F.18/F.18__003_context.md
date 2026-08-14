@@ -6,12 +6,12 @@ section_id: "F.18:1"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__003_context.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:1 — Context"
-line_start: 97770
-line_end: 97789
+line_start: 97786
+line_end: 97805
 dependencies:
   - "A.10"
   - "A.15.1"

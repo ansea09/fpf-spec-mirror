@@ -6,12 +6,12 @@ section_id: "C.2.5:17"
 section_title: "Continuing and Withdrawn Authority Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__018_continuing-and-withdrawn-authority-handling.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:17 — Continuing and Withdrawn Authority Handling"
-line_start: 44087
-line_end: 44104
+line_start: 44086
+line_end: 44103
 dependencies:
   - "A.16"
   - "A.16.0"

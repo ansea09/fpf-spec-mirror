@@ -6,12 +6,12 @@ section_id: "C.2.LS:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__015_authoring-and-review-guidance.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:14 — Authoring and Review Guidance"
-line_start: 43664
-line_end: 43684
+line_start: 43663
+line_end: 43683
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -46,7 +46,7 @@ When publishing a language-state facet profile:
 
 1. start from the local authoring problem rather than from a memorized progression;
 2. name the facet refs explicitly;
-3. add threshold refs only when a threshold changes routing, repair, or governance;
+3. add threshold refs only when a threshold changes routing, repair, or another operative decision;
 4. avoid global labels such as "mature", "raw", or "ready" unless the profile decomposition is already visible.
 
 #### C.2.LS:14.2 - For assurance readers
@@ -55,7 +55,7 @@ An assurance reader should ask:
 - is any facet silently replaced by `F`?
 - is a threshold published on an explicit facet rather than on a poetic surrogate?
 - do route or reopen claims actually match the published facet bundle?
-- are profile notes genuinely informative, or are they smuggling governing semantics that belong elsewhere?
+- are profile notes genuinely informative, or are they smuggling definitions or tests from elsewhere?
 
 #### C.2.LS:14.3 - For integrators
 Integrators should preserve profile references rather than rephrasing them into local slang. A local alias is acceptable only if the underlying facet docking remains explicit and stable.

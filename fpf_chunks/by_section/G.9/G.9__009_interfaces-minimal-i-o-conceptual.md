@@ -6,12 +6,12 @@ section_id: "G.9:5"
 section_title: "Interfaces (minimal I/O; conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__009_interfaces-minimal-i-o-conceptual.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:5 — Interfaces (minimal I/O; conceptual)"
-line_start: 103884
-line_end: 103894
+line_start: 103900
+line_end: 103910
 dependencies:
   - "A.19"
   - "A.21"

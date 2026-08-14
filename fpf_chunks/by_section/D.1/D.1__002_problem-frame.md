@@ -6,12 +6,12 @@ section_id: "D.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__002_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:1 — Problem Frame"
-line_start: 68864
-line_end: 68869
+line_start: 68866
+line_end: 68871
 dependencies:
   - "A.1"
   - "A.10"

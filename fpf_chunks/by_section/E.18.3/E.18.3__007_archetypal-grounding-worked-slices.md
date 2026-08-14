@@ -6,12 +6,12 @@ section_id: "E.18.3:5"
 section_title: "Archetypal Grounding — Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__007_archetypal-grounding-worked-slices.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:5 — Archetypal Grounding — Worked Slices"
-line_start: 85664
-line_end: 85814
+line_start: 85668
+line_end: 85818
 dependencies:
   - "A.10"
   - "A.15"

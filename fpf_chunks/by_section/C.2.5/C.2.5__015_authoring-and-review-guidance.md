@@ -6,12 +6,12 @@ section_id: "C.2.5:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__015_authoring-and-review-guidance.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:14 — Authoring and Review Guidance"
-line_start: 44043
-line_end: 44058
+line_start: 44042
+line_end: 44057
 dependencies:
   - "A.16"
   - "A.16.0"

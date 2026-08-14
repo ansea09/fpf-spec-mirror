@@ -6,12 +6,12 @@ section_id: "E.18.NET:5"
 section_title: "Archetypal Grounding — worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.NET/E.18.NET__006_archetypal-grounding-worked-cases.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.18.NET — Network of Transformation-Flow Structures"
   - "E.18.NET:5 — Archetypal Grounding — worked cases"
-line_start: 86114
-line_end: 86193
+line_start: 86118
+line_end: 86197
 dependencies:
   - "A.1.STM"
   - "A.12"

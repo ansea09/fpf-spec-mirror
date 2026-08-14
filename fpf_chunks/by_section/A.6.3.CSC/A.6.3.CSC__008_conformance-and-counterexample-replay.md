@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:7"
 section_title: "Conformance and counterexample replay"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__008_conformance-and-counterexample-replay.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:7 — Conformance and counterexample replay"
@@ -55,7 +55,7 @@ A check is retained only if it changes the next admissible use, blocks a concret
 | **CC-CSC-9 (Loss/recoverability).** | Exact reuse or reliance cases state every concrete decision-relevant loss and select exactly one immediate recoverability action for the proposed use. | Preserves multiple losses while making the next move unambiguous. |
 | **CC-CSC-10 (Chain continuity).** | Every coarsening chain keeps exact original source episteme, each intermediate episteme, each construction, accumulated loss, and return; otherwise reopen exact `X`. | Prevents summarization from resetting source identity. |
 | **CC-CSC-11 (Privacy).** | Redaction cases name sharing boundary, withheld claims, risk rationale, blocked accountability/gate uses, and exact source review path. | Prevents redaction-as-closure. |
-| **CC-CSC-12 (Interop).** | Interop simplification names exact relation claims and handles Bridge/equivalence pressure under F.9/F.9.1. | Prevents simplified wording from asserting correspondence. |
+| **CC-CSC-12 (Interop).** | Interop simplification names the exact F.9 Bridge and bounded-use claim when Bridge or equivalence pressure is live; an optional F.9.1 stance note stays separate. | Prevents simplified wording or a stance word from asserting correspondence. |
 | **CC-CSC-13 (No authority by repetition).** | Fluency, citation, repetition, publication visibility, or a more convenient carrier cannot widen use. | Keeps `Y` within its declared use. |
 
 #### A.6.3.CSC:7.3 - Counterexample replay

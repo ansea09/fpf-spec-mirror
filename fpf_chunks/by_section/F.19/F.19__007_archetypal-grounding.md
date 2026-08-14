@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 98738
-line_end: 98752
+line_start: 98754
+line_end: 98768
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

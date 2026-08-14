@@ -6,12 +6,12 @@ section_id: "E.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__003_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:2 — Problem"
-line_start: 70102
-line_end: 70105
+line_start: 70104
+line_end: 70107
 dependencies:
   - "E.2"
 keywords:

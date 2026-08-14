@@ -6,12 +6,12 @@ section_id: "C.33:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.33/C.33__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.33 — Structural Information Adequacy for Architecture Capture and Missing-Structure Return"
   - "C.33:7 — Conformance checklist"
-line_start: 67908
-line_end: 67918
+line_start: 67910
+line_end: 67920
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

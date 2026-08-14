@@ -6,12 +6,12 @@ section_id: "C.2.LS:15"
 section_title: "Extension and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__016_extension-and-migration-notes.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:15 — Extension and Migration Notes"
-line_start: 43685
-line_end: 43701
+line_start: 43684
+line_end: 43700
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -42,7 +42,7 @@ keywords:
 ### C.2.LS:15 - Extension and Migration Notes
 
 #### C.2.LS:15.1 - Local extension rule
-Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the governed set into one summary factor.
+Contexts may extend the profile with local threshold refs, route notes, or additional descriptive aids, but they shall not add a new master facet that collapses the named facet set into one summary factor.
 
 #### C.2.LS:15.2 - Migration from surrogate prose
 Older prose often says:
@@ -55,4 +55,4 @@ Older prose often says:
 A conforming migration rewrites such statements into explicit facet talk: which facet is low, which is high, which threshold is or is not met, and which move that fact justifies.
 
 #### C.2.LS:15.3 - Boundary reminder
-`U.LanguageStateFacetProfile` is a coordination record. If authors find themselves putting move rules, bridge rules, scale rules, or bundle semantics into the profile itself, they are writing in the wrong governing pattern.
+`U.LanguageStateFacetProfile` is a coordination record. If authors put move rules, bridge rules, scale rules, or bundle semantics into the profile itself, that content belongs with the pattern that defines the move, Bridge, scale, or bundle.

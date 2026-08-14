@@ -6,12 +6,12 @@ section_id: "C.21:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__014_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:12 — Rationale"
-line_start: 51174
-line_end: 51177
+line_start: 51176
+line_end: 51179
 dependencies:
   - "A.17"
   - "A.18"

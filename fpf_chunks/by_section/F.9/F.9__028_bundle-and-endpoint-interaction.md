@@ -6,12 +6,12 @@ section_id: "F.9:26"
 section_title: "Bundle and endpoint interaction"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__028_bundle-and-endpoint-interaction.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:26 — Bundle and endpoint interaction"
-line_start: 94000
-line_end: 94005
+line_start: 94004
+line_end: 94009
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -58,5 +58,5 @@ keywords:
 
 Viewpoint bundles, quality bundles, dashboards, reports, and endpoint bundles may cite Bridges and bounded-use claims, but they do not absorb their semantics. Each bundle keeps its own ontology and direct use rule.
 
-When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance overlay may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
+When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance note may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
 

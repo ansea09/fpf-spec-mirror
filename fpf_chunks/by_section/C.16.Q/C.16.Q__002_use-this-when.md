@@ -6,12 +6,12 @@ section_id: "C.16.Q:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__002_use-this-when.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:0 — Use this when"
-line_start: 47962
-line_end: 47979
+line_start: 47961
+line_end: 47978
 dependencies:
   - "A.10"
   - "A.16"
@@ -64,13 +64,13 @@ keywords:
 
 Use this pattern when wording such as `quality`, `good`, `fit`, `high-quality`, `quality characteristic`, `quality improved`, or an evaluative `-ility` claim hides which quality or evaluative-characterization use is live.
 
-**Lowest sufficient use.** Keep ordinary praise or quoted source-local wording ordinary when it carries no FPF-governed use. When the evaluative endpoint is already known, publish the form defined for that endpoint directly. Use `qualityTermAscription(...)` only when transitional ambiguity must remain inspectable. Its core bearer, scheme, frame, scope, evaluator/viewpoint, and result boundaries stay explicit; add optional witness, evidence, grounding, Bridge, Card, overlay, time, plane, and substrate refs only when those branches are live.
+**Lowest sufficient use.** Keep ordinary praise or quoted source-local wording ordinary when it carries no FPF-governed use. When the evaluative endpoint is already known, publish the form defined for that endpoint directly. Use `qualityTermAscription(...)` only when transitional ambiguity must remain inspectable. Its core bearer, scheme, frame, scope, evaluator/viewpoint, and result boundaries stay explicit; add optional witness, evidence, grounding, Bridge, bounded-use-claim, Card, stance-note, time, plane, and substrate refs only when those branches are live.
 
 **What goes wrong if missed.** A broad quality word becomes a scalar verdict, gate, evidence claim, relation, Bridge, action invitation, or bundle by appearance, while the bearer, scheme, probe/model configuration, comparison configuration, ClaimScope, quality sense, admissible normal form, and applicable endpoint rule remain hidden.
 
 **What this buys.** The reader can recover the bearer and interpretation basis, see which probe/model and comparison configurations are active, distinguish evaluator from viewpoint, identify the candidate quality sense and admissible normal form, and take any result, evidence, grounding, Bridge, or relation claim to the pattern that defines or tests it before using the quality word as action guidance.
 
-**First useful move.** Name the bearer, effective ReferenceScheme, probe/model frame, comparison frame or `none`, and ClaimScope; then decide whether the wording is evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, Bridge or stance-overlay use, action invitation, or ordinary prose, and apply the pattern for that use.
+**First useful move.** Name the bearer, effective ReferenceScheme, probe/model frame, comparison frame or `none`, and ClaimScope; then decide whether the wording is evaluative characterization, characteristic-scale construction, Q-bundle, pattern-quality coordinate, relation construction, an F.9 Bridge or bounded-use claim, an optional F.9.1 stance note, action invitation, or ordinary prose, and apply the pattern for that use.
 
 **Not this pattern when.**
 

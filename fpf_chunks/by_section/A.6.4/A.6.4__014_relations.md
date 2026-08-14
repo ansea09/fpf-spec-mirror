@@ -6,7 +6,7 @@ section_id: "A.6.4:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.4/A.6.4__014_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.4 — U.EpistemicRetargeting — EntityOfConcern retargeting morphism"
   - "A.6.4:10 — Relations"
@@ -33,7 +33,7 @@ keywords:
   * Complements A.6.3 `U.EpistemicViewing` (EntityOfConcern-preserving EFEM) as the “retargeting” counterpart.
 
 * **Constrained by.**
-  * A.6.5 `U.RelationSlotDiscipline` for SlotKind/ValueKind/RefKind discipline.
+  * A.6.5 relation-declaration slot discipline for SlotKind, ValueKind, and RefKind rules.
   * C.2.1 `U.EpistemeSlotRelation` for episteme components and `EntityOfConcernSlot`/`GroundingHolonSlot`.
   * E.10.D2 (EntityOfConcern and Description-episteme boundary and specification use/refinement discipline; `DescriptionContext`).
   * Part F (Bridges, `KindBridge`, ReferencePlane crossings, CL/CL^plane).

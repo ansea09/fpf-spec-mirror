@@ -6,12 +6,12 @@ section_id: "C.22.2:18"
 section_title: "Misuse Modes and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__019_misuse-modes-and-repairs.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:18 — Misuse Modes and Repairs"
-line_start: 52570
-line_end: 52579
+line_start: 52572
+line_end: 52581
 dependencies:
   - "A.10"
   - "A.15"

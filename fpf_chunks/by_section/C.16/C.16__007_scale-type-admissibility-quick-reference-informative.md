@@ -6,12 +6,12 @@ section_id: "C.16:6"
 section_title: "Scale-type admissibility quick reference (Informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__007_scale-type-admissibility-quick-reference-informative.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:6 — Scale-type admissibility quick reference (Informative)"
-line_start: 47507
-line_end: 47527
+line_start: 47506
+line_end: 47526
 dependencies:
   - "A.10"
   - "A.15.1"

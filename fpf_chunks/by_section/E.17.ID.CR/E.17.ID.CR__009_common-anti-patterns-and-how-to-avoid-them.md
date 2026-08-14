@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82920
-line_end: 82934
+line_start: 82924
+line_end: 82938
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -45,7 +45,7 @@ keywords:
 | Anti-pattern | Why it is wrong | How to avoid it |
 | --- | --- | --- |
 | **Comparison-unit instability** | The text sounds as if it governs a note in one section, a publication unit in another, a comparative move in a third, and a whole review process in a fourth. | Stabilise one bounded comparative review unit early and keep note, sheet, UI, and rendering labels explicit as ordinary forms of that object rather than stylistic substitutes. |
-| **Bridge gloss inflation** | A helpful comparative sentence starts acting like a bridge licence the declared bridge card and stance do not allow. | Keep bridge-mediated comparative relation tied to required `bridgeCardRef`; use optional `bridgeStanceRef` only as a subordinate overlay under `F.9.1`. |
+| **Bridge gloss inflation** | A helpful comparative sentence or stance word starts acting like a Bridge or use licence. | Require `bridgeOccurrenceRef` and `boundedUseClaimRef`; keep any Card optional, and use `bridgeStanceRef` only for a separate F.9.1 episteme about that exact claim. |
 | **Soft prompt smuggling** | The review unit is really creating an abductive prompt or action-selection case, but hides it in gentle prose. | If prompt selection or action-selection claim governs the next action, publish `U.AbductivePrompt` with explicit `promptSpecies`, `openQuestion`, and cue or action-selection provenance instead of keeping it here. |
 | **Viewing capture** | Same-entity restatement or representation-shift work is pulled into interpretation just because the result is more readable. | Name the base source relation or representation work first and use bounded comparison only when bounded comparative lift is primary. |
 | **Explanation-face laundering** | Interpretation language is used to avoid explicit `E.17.EFP` class and bounded-use review. | If face class or bounded connective prose is primary, stay with `E.17.EFP`. |

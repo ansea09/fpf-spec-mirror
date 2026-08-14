@@ -6,12 +6,12 @@ section_id: "C.32.P2S:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.P2S/C.32.P2S__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.P2S — Problem-to-Structure Architecturing Unfolding"
   - "C.32.P2S:7 — Conformance Checklist"
-line_start: 65180
-line_end: 65196
+line_start: 65182
+line_end: 65198
 dependencies:
   - "A.1"
   - "A.1.SCR"

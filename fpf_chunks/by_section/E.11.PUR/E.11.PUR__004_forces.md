@@ -6,12 +6,12 @@ section_id: "E.11.PUR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:3 — Forces"
-line_start: 78555
-line_end: 78566
+line_start: 78557
+line_end: 78568
 dependencies:
   - "A.15"
   - "A.19"

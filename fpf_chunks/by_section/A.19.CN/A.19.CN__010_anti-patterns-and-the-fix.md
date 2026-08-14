@@ -6,12 +6,12 @@ section_id: "A.19.CN:9"
 section_title: "Anti‑patterns (and the fix)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__010_anti-patterns-and-the-fix.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:9 — Anti‑patterns (and the fix)"
-line_start: 30837
-line_end: 30847
+line_start: 30839
+line_end: 30849
 dependencies:
   - "A.19"
   - "A.6.1"

@@ -6,12 +6,12 @@ section_id: "F.17:14"
 section_title: "Closure conditions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__018_closure-conditions.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:14 — Closure conditions"
-line_start: 97698
-line_end: 97714
+line_start: 97714
+line_end: 97730
 dependencies:
   - "A.1.1"
   - "A.10"

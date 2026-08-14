@@ -6,12 +6,12 @@ section_id: "B.2.P:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.P/B.2.P__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.2.P — Emergence and MHT Precision Restoration"
   - "B.2.P:intro — Intro"
-line_start: 37585
-line_end: 37590
+line_start: 37587
+line_end: 37592
 dependencies:
   - "A.1.1"
   - "A.10"

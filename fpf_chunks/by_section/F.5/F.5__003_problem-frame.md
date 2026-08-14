@@ -6,12 +6,12 @@ section_id: "F.5:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__003_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:1 — Problem Frame"
-line_start: 92091
-line_end: 92102
+line_start: 92095
+line_end: 92106
 dependencies:
   - "A.10"
   - "A.15"

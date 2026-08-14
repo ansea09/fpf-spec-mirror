@@ -6,7 +6,7 @@ section_id: "A.6.2:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.2/A.6.2__003_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.2 — U.EffectFreeEpistemicMorphing — Effect‑free morphisms of epistemes"
   - "A.6.2:2 — Problem"
@@ -46,7 +46,7 @@ Concretely, without EFEM:
    MVPK, KD‑CAL, and E.18 all implicitly assume that episteme transforms **compose** and respect identities, but the conditions for this (purity, conservativity, idempotence, scope) are not formulated once and reused. Different parts of the spec repeat subtly different sets of laws.
 
 4. **Slot/Ref confusion.**
-   With the new `U.EpistemeSlotRelation` and `U.RelationSlotDiscipline`, every episteme now has explicit **SlotKind / ValueKind / RefKind** discipline. Laws for “projection” or “retargeting” that are written against “fields” or unnamed tuple components are now out of alignment.
+   With C.2.1's `U.EpistemeSlotRelation` and the A.6.5 relation-declaration slot discipline, every episteme now has explicit rules for **SlotKind, ValueKind, and RefKind**. Laws for “projection” or “retargeting” that are written against “fields” or unnamed tuple components are now out of alignment.
 
 The result: engineers and tool builders can no longer tell **when they are allowed to transform epistemes without changing what is being claimed about the world**, nor what needs to be witnessed by Bridges and CL‑penalties when entityOfConcern does change.
 

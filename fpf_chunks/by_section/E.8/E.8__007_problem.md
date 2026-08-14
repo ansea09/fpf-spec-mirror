@@ -6,12 +6,12 @@ section_id: "E.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__007_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:2 — Problem"
-line_start: 72662
-line_end: 72679
+line_start: 72664
+line_end: 72681
 dependencies:
   - "E.10"
   - "E.10.MOVE"

@@ -6,12 +6,12 @@ section_id: "C.30.P:9"
 section_title: "Common anti-patterns"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__012_common-anti-patterns.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:9 — Common anti-patterns"
-line_start: 61420
-line_end: 61430
+line_start: 61422
+line_end: 61432
 dependencies:
   - "A.10"
   - "A.15"

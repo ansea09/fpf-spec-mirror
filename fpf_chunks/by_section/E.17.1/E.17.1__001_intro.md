@@ -6,12 +6,12 @@ section_id: "E.17.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:intro — Intro"
-line_start: 80383
-line_end: 80414
+line_start: 80385
+line_end: 80416
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -60,7 +60,7 @@ keywords:
 
 
 **Builds on.**
-`A.6.2-A.6.4` (episteme morphism classes), `A.6.5 U.RelationSlotDiscipline`, `A.7`, `E.7`, `E.10`, `E.10.D1`, `E.10.D2`, and `E.17.0 MultiViewDescribing`.
+`A.6.2-A.6.4` (episteme morphism classes), A.6.5 relation-declaration slot discipline, `A.7`, `E.7`, `E.10`, `E.10.D1`, `E.10.D2`, and `E.17.0 MultiViewDescribing`.
 
 **Used by.**
 `E.17.2` (TEVB engineering viewpoint bundles), `E.18:5.12`, and domain-specific viewpoint families for architecture, governance, safety, research, or assurance.

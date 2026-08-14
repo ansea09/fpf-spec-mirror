@@ -6,12 +6,12 @@ section_id: "C.16.Q:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__013_sota-echoing.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:11 — SoTA-Echoing"
-line_start: 48694
-line_end: 48738
+line_start: 48696
+line_end: 48740
 dependencies:
   - "A.10"
   - "A.16"
@@ -99,7 +99,7 @@ This section follows the required structure: **claim > practice > source use and
 
 **Scale legality.** The rows above do **not** license free arithmetic on the word *quality*. Whenever C.16.Q operationalizes engineering heads, selector objectives, or control adequacy numerically, it **SHALL** bind the comparison to an explicit `ComparatorSet`, `CG-Spec`, or declared aggregation policy and **SHALL** reject covert scalarization of bundles, explanations, or preconceptual signals.
 
-**Cross-local and plane note.** This section states alignment and non-identity only. Any actual reuse of a quality vocabulary, selector head, or viewpoint-bound family across different `<ReferenceScheme, LocalSenseClaim>` bases SHALL resolve two exact F.17 cells and cite an obtaining F.9 Bridge. The proposed use, direction, rule, tolerated loss, polarity, evidence reliance, and any cross-plane representation relation remain separately governed; a stance overlay, `CL`, loss note, shared label, or plane policy makes none of them obtain.
+**Cross-local and plane note.** This section states alignment and non-identity only. Any actual reuse of a quality vocabulary, selector head, or viewpoint-bound family across different `<ReferenceScheme, LocalSenseClaim>` bases SHALL resolve two exact F.17 cells and cite an obtaining F.9 Bridge. The proposed use, direction, rule, tolerated loss, polarity, evidence reliance, and any cross-plane representation relation remain separate; a stance word or note, `CL`, loss note, shared label, or plane policy makes none of them obtain.
 
 **Historical-lineage note.** Earlier touchstones such as Pirsig, Popper, and Deutsch remain useful as lineage and local-gloss resources, but C.16.Q does not use them as formal SoTA anchors here because E.8 requires post-2015 primary sources for Architectural patterns unless the row is explicitly lineage or local-gloss material.
 

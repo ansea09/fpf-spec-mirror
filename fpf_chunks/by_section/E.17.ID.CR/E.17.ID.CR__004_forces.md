@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:3 — Forces"
-line_start: 82333
-line_end: 82347
+line_start: 82335
+line_end: 82349
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -43,7 +43,7 @@ keywords:
 | Force | Tension |
 | --- | --- |
 | **Engineer-manager usability vs governance precision** | The pattern starts from a recognisable review situation without hiding its neighboring patterns. |
-| **Middle-band reality** | Some bounded comparisons are more committed than a bridge-stance overlay over an existing Bridge Card but still below full action selection. |
+| **Middle-band reality** | Some bounded comparisons add more interpretive lift than a short F.9.1 stance note about an existing bounded-use claim but still stop below full action selection. |
 | **Source tether vs interpretive lift** | The case adds a bounded interpretive lift without pretending to create a new free-floating semantics. |
 | **Comparison unit vs surrounding work** | The pattern keeps the comparative review unit, the bounded comparison, and the larger review process distinct rather than sliding between them by style. |
 | **Viewing restraint** | Interpretation does not absorb same-entity viewing, conservative rewriting, or representation-scheme transition whose main question is not bounded comparison. |

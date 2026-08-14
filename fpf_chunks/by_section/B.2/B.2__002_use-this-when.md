@@ -6,12 +6,12 @@ section_id: "B.2:0"
 section_title: "Use This When"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2/B.2__002_use-this-when.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.2 — Meta-Holon Transition - Whole Reidentification"
   - "B.2:0 — Use This When"
-line_start: 37282
-line_end: 37308
+line_start: 37284
+line_end: 37310
 dependencies:
   - "A.1"
   - "A.10"

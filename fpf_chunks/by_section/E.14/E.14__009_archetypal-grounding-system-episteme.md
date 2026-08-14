@@ -6,12 +6,12 @@ section_id: "E.14:6"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__009_archetypal-grounding-system-episteme.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:6 — Archetypal Grounding (System / Episteme)"
-line_start: 79284
-line_end: 79315
+line_start: 79286
+line_end: 79317
 dependencies:
   - "B.3.5"
   - "C.13"

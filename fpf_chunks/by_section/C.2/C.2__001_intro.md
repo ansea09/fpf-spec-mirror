@@ -6,12 +6,12 @@ section_id: "C.2:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2/C.2__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2 — Epistemic holon composition (KD-CAL)"
   - "C.2:intro — Intro"
-line_start: 41232
-line_end: 41237
+line_start: 41234
+line_end: 41239
 dependencies:
   - "A.1"
   - "A.10"

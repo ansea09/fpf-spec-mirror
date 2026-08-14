@@ -6,12 +6,12 @@ section_id: "A.15.3:6"
 section_title: "Scope Declaration and Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.3/A.15.3__007_scope-declaration-and-rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15.3 — SlotFillingsPlanItem"
   - "A.15.3:6 — Scope Declaration and Rationale"
-line_start: 25700
-line_end: 25705
+line_start: 25702
+line_end: 25707
 dependencies:
   - "A.15.1"
   - "A.15.2"

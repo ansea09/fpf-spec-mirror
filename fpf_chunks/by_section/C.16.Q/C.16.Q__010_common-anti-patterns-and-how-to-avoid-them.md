@@ -6,12 +6,12 @@ section_id: "C.16.Q:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 48635
-line_end: 48650
+line_start: 48637
+line_end: 48652
 dependencies:
   - "A.10"
   - "A.16"
@@ -74,5 +74,5 @@ keywords:
 | **Generic-frame collapse** | one `evaluationFrame` or context label is expected to supply probe, model, comparison, scope, and scheme semantics | hides independently governed choices and makes a changed comparison look like the same claim | name the effective ReferenceScheme, probe/model frame, A.19.CPM comparison frame, and ClaimScope separately |
 | **Embedded viewpoint** | the record stores a viewpoint-looking value as evaluator or generic context | collapses reference, viewpoint episteme, evaluator, and result | store one governed `U.ViewpointRef` or `none`; resolve it under E.17.0 and keep evaluator separate |
 | **Witness-is-grounding** | a test report, trace, score, or filled record is cited as empirical grounding | presence of a carrier or result label establishes no direct relation | name witness refs and A.10 path separately; cite an exact obtaining `EpistemeEmpiricalGroundingRelation` or `none` |
-| **Bridge-by-label or overlay** | shared *quality* wording or a F.9.1 stance is treated as the cross-local relation or as use authority | creates false identity, silent loss, and unauthorized substitution | resolve exact F.17 cells, test and cite the F.9 Bridge, then state the separate bounded-use claim; add a Card or overlay only when independently present |
+| **Bridge-by-label or stance note** | shared *quality* wording or an F.9.1 stance word is treated as the cross-local relation or use authority | creates false identity, silent loss, and unauthorized substitution | resolve exact F.17 cells, test and cite the F.9 Bridge, then state the separate bounded-use claim; add a Card only as optional packaging and a stance note only when its `EntityOfConcern` is that claim |
 

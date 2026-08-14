@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__005_solution.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:4 — Solution"
@@ -116,7 +116,7 @@ Ordinary direct semantic compression needs no `coarseningBranch`: state its conc
 | --- | --- |
 | source-pinned surrogate, index, or handle | Keep the named source directly reachable and limit the candidate to source-finding, retrieval, or orientation. Naming an `authoritySourceRef` only routes return to its governed relation; the candidate does not become that authority, evidence, gate, or work source. |
 | privacy or redaction | Name the sharing boundary, every concrete withheld or weakened distinction, the re-identification or accountability risk being reduced, the exact source review path, and the accountability or gate uses that remain blocked. |
-| exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary; equivalence, substitution, projection, or Bridge use requires F.9/F.9.1. |
+| exceptional interop-facing simplification | Keep exact `X`, exact `Y`, and `c` recoverable and name the exact operative relation claim, such as bounded contrast, broader/narrower, partial overlap, proxy, or lossy normalization. Use E.17.ID.CR when bounded comparison is primary. Equivalence, substitution, projection, or Bridge use requires an F.9 Bridge and bounded-use claim; an F.9.1 stance note is optional reader help about that claim. |
 | genuine aggregation or quotient condition | Name the distinctions combined and the aggregation rule while exact `Y` still concerns the same exact EntityOfConcern as `X`. A bounded selected set may appear inside `Y`'s claim content but is not an endpoint by itself. If several entities or alternatives become a new class-level or proxy EntityOfConcern, use A.6.4. |
 
 A branch cue changes only the additional rule named in its row. Scheme difference, publication adjacency, citation, independent reuse, or high stakes alone selects none of these branches and proves no correspondence or authority.
@@ -148,7 +148,7 @@ A coarsening chain may not reset provenance. For `X -> Y1 -> Y2`, identify all t
 | Explanation-facing class over exact source episteme `X`, whether or not it is currently published | `E.17.EFP`; any publication occurrence, form, and carrier remain under E.24.PUB |
 | Bounded comparison over exact source epistemes, with any publication access stated separately | `E.17.ID.CR` |
 | Equivalence, substitution, interop row, or bridge or substitution use | `F.9` |
-| Stance over an already published bridge card | `F.9.1` |
+| A short reading note about an already constituted F.9 bounded-use claim | `F.9.1`; a Card is optional packaging rather than a prerequisite |
 | Changed EntityOfConcern or proxy EntityOfConcern | `A.6.4` |
 | Carrier, export, OCR or parsing, or front-end behavior is primary | `A.7` first; then `A.6.3.RT`, `A.6.3.CSC`, `A.6.4`, or interpretation sources only if meaning-bearing structure, loss, retargeting, or interpretive lift is live |
 | Briefing treated as work plan, work authority, or execution cue | `A.15` |

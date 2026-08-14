@@ -6,12 +6,12 @@ section_id: "C.2.1:5"
 section_title: "Semantic triangle as a didactic projection  (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.1/C.2.1__006_semantic-triangle-as-a-didactic-projection-informative.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.1 — U.Episteme: Constitution, Empirical Grounding, and Edition Relations"
   - "C.2.1:5 — Semantic triangle as a didactic projection  (informative)"
-line_start: 41684
-line_end: 41697
+line_start: 41686
+line_end: 41699
 dependencies:
   - "A.1"
   - "A.1.1"

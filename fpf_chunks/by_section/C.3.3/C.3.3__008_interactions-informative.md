@@ -6,12 +6,12 @@ section_id: "C.3.3:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__008_interactions-informative.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
   - "C.3.3:7 — Interactions (informative)"
-line_start: 45474
-line_end: 45502
+line_start: 45473
+line_end: 45501
 dependencies:
   - "A.2.6"
   - "A.6.REL"

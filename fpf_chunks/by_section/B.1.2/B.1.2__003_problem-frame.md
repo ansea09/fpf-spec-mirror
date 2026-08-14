@@ -6,12 +6,12 @@ section_id: "B.1.2:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.2/B.1.2__003_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.1.2 — System Aggregation and Holon Delimitation"
   - "B.1.2:1 — Problem Frame"
-line_start: 35948
-line_end: 35961
+line_start: 35950
+line_end: 35963
 dependencies:
   - "A.1"
   - "A.10"

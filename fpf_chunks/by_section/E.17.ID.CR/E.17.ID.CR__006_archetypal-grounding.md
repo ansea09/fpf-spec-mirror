@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:5"
 section_title: "Archetypal grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__006_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:5 — Archetypal grounding"
-line_start: 82632
-line_end: 82867
+line_start: 82635
+line_end: 82871
 dependencies:
   - "A.15"
   - "A.15.4"
@@ -78,14 +78,15 @@ One rendering is a `SourceLinkedExplanationReconstruction` on a `TechCard` face;
 
 #### E.17.ID.CR:5.4 - Worked boundary examples
 
-##### E.17.ID.CR:5.4.1 - Lower-boundary bridge-stance overlay case
+##### E.17.ID.CR:5.4.1 - Lower-boundary stance-note case
 
-**Bridge-stance overlay unit.** `The existing Bridge Card relates the local maintenance-pressure term to the partner continuity term; this overlay says the relation is normally treated as asymmetry-explicating rather than substitution-friendly.`
+**Stance-note unit.** `F.9 already records an obtaining Bridge and a bounded-use claim for reading the local maintenance-pressure term alongside the partner continuity term. This separate note says that, for that use, the relation is best read as asymmetry-explicating rather than substitution-friendly.`
 
 Why it stays under `F.9.1`:
-- the bridge stance is already declared;
-- the review unit only makes that stance more legible;
-- no bounded interpretive lift beyond the bridge-stance overlay is added.
+
+- the Bridge and bounded-use claim already exist;
+- the note only makes the claim easier to read; and
+- no bounded comparative lift beyond that stance note is added.
 
 ##### E.17.ID.CR:5.4.2 - Mixed primary-pattern composition with `A.6.3.RT`
 
@@ -264,13 +265,13 @@ Why `ComparativeReviewUnit` no longer governs:
 
 Why it is invalid here:
 - no source references are visible;
-- bridge-mediated comparison is being implied without explicit bridge declaration;
+- bridge-mediated comparison is being implied without an explicit obtaining Bridge and bounded-use claim;
 - blocked substitution and authority claims are being smuggled in through soft phrasing.
 
-**Minimal repair.** `Under bridge card BC-12 and the stated comparison criterion, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary.`
+**Minimal repair.** `Under Bridge B-12 and bounded-use claim UC-12, both notes foreground the same operator-timing concern for this review task, but they are not substitution-equivalent and the source episteme or source publication set remains primary. Card BC-12 may be cited when that optional package is useful.`
 
 What the repair does:
-- restores the source references and bridgeCardRef;
+- restores the source references, `bridgeOccurrenceRef`, and `boundedUseClaimRef`, while keeping any `bridgeCardRef` optional;
 - narrows the claim back to bounded comparison;
 - reasserts the blocked downstream claim or effect.
 

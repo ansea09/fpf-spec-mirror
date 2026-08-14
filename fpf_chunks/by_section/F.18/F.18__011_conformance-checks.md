@@ -6,12 +6,12 @@ section_id: "F.18:9"
 section_title: "Conformance Checks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.18/F.18__011_conformance-checks.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.18 — Local-First Unification Naming Protocol"
   - "F.18:9 — Conformance Checks"
-line_start: 98528
-line_end: 98553
+line_start: 98544
+line_end: 98569
 dependencies:
   - "A.10"
   - "A.15.1"

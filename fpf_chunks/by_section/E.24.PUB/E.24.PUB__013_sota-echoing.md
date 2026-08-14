@@ -6,12 +6,12 @@ section_id: "E.24.PUB:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.24.PUB/E.24.PUB__013_sota-echoing.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.24.PUB — Ontic Description and Publication Discipline"
   - "E.24.PUB:11 — SoTA-Echoing"
-line_start: 89968
-line_end: 89979
+line_start: 89972
+line_end: 89983
 dependencies:
   - "A.6.3"
   - "A.6.REL"

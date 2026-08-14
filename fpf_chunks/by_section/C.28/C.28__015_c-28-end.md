@@ -6,12 +6,12 @@ section_id: "C.28:End"
 section_title: "C.28:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.28/C.28__015_c-28-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.28 — CausalUse-CAL: Causal-Use Questions, Causality-Ladder Rungs, Identification and Realizability"
   - "C.28:End — C.28:End"
-line_start: 58425
-line_end: 58426
+line_start: 58427
+line_end: 58428
 dependencies:
   - "A.10"
   - "A.15"

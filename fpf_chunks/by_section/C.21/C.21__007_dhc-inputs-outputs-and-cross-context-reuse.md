@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "DHC Inputs, Outputs, and Cross-Context Reuse"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_dhc-inputs-outputs-and-cross-context-reuse.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — DHC Inputs, Outputs, and Cross-Context Reuse"
-line_start: 51081
-line_end: 51086
+line_start: 51083
+line_end: 51088
 dependencies:
   - "A.17"
   - "A.18"

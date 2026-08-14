@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.9.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
-line_start: 93434
-line_end: 94026
+line_start: 93438
+line_end: 94030
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -623,7 +623,7 @@ If evidence, observed loss, reliance, assurance, wording, or publication changes
 
 Viewpoint bundles, quality bundles, dashboards, reports, and endpoint bundles may cite Bridges and bounded-use claims, but they do not absorb their semantics. Each bundle keeps its own ontology and direct use rule.
 
-When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance overlay may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
+When a quality-family claim crosses contexts, observed loss may bear on its bounded-use claim and on B.3 assurance, but neither fact retypes the quality family. An F.9.1 stance note may help readers interpret the claim; it remains a separate episteme and cannot widen the relation, proposed use, reliance, authorization, or occurrence.
 
 ### F.9:27 - C.29 mathematical-lens use relation
 

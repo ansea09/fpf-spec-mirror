@@ -6,12 +6,12 @@ section_id: "C.18.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:3 — Forces"
-line_start: 49810
-line_end: 49813
+line_start: 49812
+line_end: 49815
 dependencies:
   - "A.10"
   - "A.15.1"

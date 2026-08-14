@@ -6,12 +6,12 @@ section_id: "A.22:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22/A.22__007_bias-annotation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.22 — Structure and Structural Views (STRUCT-CAL)"
   - "A.22:6 — Bias-Annotation"
-line_start: 34918
-line_end: 34931
+line_start: 34920
+line_end: 34933
 dependencies:
   - "A.1"
   - "A.1.1"

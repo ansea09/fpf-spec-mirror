@@ -6,12 +6,12 @@ section_id: "E.8.ECSPF:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
   - "E.8.ECSPF:7 — Conformance Checklist"
-line_start: 73345
-line_end: 73362
+line_start: 73347
+line_end: 73364
 dependencies:
   - "A.19.ECS"
   - "C.25"

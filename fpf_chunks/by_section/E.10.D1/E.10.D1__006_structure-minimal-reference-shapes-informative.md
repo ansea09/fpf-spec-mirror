@@ -6,12 +6,12 @@ section_id: "E.10.D1:5"
 section_title: "Structure — Minimal reference shapes (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D1/E.10.D1__006_structure-minimal-reference-shapes-informative.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.10.D1 — Lexical Discipline for “Context” (D.CTX)"
   - "E.10.D1:5 — Structure — Minimal reference shapes (informative)"
-line_start: 76942
-line_end: 76949
+line_start: 76944
+line_end: 76951
 dependencies:
   - "A.2.1"
   - "A.4"

@@ -6,12 +6,12 @@ section_id: "B.5.2.0:15"
 section_title: "Species boundary reminders"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2.0/B.5.2.0__017_species-boundary-reminders.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.5.2.0 — U.AbductivePrompt"
   - "B.5.2.0:15 — Species boundary reminders"
-line_start: 40911
-line_end: 40918
+line_start: 40913
+line_end: 40920
 dependencies:
   - "A.16"
   - "A.16.0"

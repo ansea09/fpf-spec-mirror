@@ -6,12 +6,12 @@ section_id: "C.2.6:14"
 section_title: "Authoring and Review Guidance"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__015_authoring-and-review-guidance.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:14 — Authoring and Review Guidance"
-line_start: 44228
-line_end: 44243
+line_start: 44227
+line_end: 44242
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,5 +47,5 @@ When declaring anchoring mode, ask:
 An assurance reader should watch for the common mistake where prose formatting tricks authors into forgetting the original anchoring mode.
 
 #### C.2.6:14.3 - Bridge note
-If anchoring changes across publication or translation, `F.9` and `F.9.1` should often carry explicit loss or stance notes rather than silent equivalence language.
+If anchoring changes across publication or translation, use F.9 for the Bridge, bounded-use claim, and its evidence and loss account. Use F.9.1 only when a separate stance note about that claim helps replace silent equivalence language with a bounded reading.
 

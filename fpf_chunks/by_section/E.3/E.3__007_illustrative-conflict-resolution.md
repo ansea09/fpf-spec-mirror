@@ -6,12 +6,12 @@ section_id: "E.3:6"
 section_title: "Illustrative Conflict Resolution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__007_illustrative-conflict-resolution.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:6 — Illustrative Conflict Resolution"
-line_start: 70153
-line_end: 70226
+line_start: 70155
+line_end: 70228
 dependencies:
   - "E.2"
 keywords:

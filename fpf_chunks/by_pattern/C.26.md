@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/C.26.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.26 — Quantum-Like Modeling Lens"
-line_start: 53720
-line_end: 54335
+line_start: 53722
+line_end: 54337
 dependencies:
   - "A.10"
   - "A.15"
@@ -414,7 +414,7 @@ Question-to-pattern map:
 | --- | --- |
 | Coarsened rendering of source episteme or source publication for narrower use | `A.6.3.CSC` |
 | Same-selected-entity representation-scheme or reasoning-medium transition | `A.6.3.RT` |
-| Cross-context equivalence, substitution, projection, export, or loss | `F.9` / `F.9.1` |
+| Cross-context equivalence, substitution, projection, export, or loss | `F.9` for the Bridge and bounded-use claim; `F.9.1` only for an optional stance note about that claim. Keep the lens-specific preserved and lost structure here. |
 | Measurement coordinate, scale, score, result, or dashboard reading | `C.16` |
 | Evidence carrier, provenance, method, support, or time window | `A.10` |
 | Assurance claim, release support, audit, readiness, or compliance use | `B.3` |

@@ -6,12 +6,12 @@ section_id: "C.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__002_use-this-when.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:0 — Use this when"
-line_start: 49935
-line_end: 49941
+line_start: 49937
+line_end: 49943
 dependencies:
   - "A.15"
   - "A.19.CPM"

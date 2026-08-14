@@ -6,12 +6,12 @@ section_id: "B.5.3:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.3/B.5.3__006_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "B.5.3 — Domain-Concept Bridge"
   - "B.5.3:5 — Archetypal Grounding"
-line_start: 41167
-line_end: 41204
+line_start: 41169
+line_end: 41206
 dependencies:
   - "A.13"
   - "A.15"

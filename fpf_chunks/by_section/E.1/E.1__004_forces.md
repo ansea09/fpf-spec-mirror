@@ -6,12 +6,12 @@ section_id: "E.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:3 — Forces"
-line_start: 69646
-line_end: 69663
+line_start: 69648
+line_end: 69665
 dependencies:
   - "E.2"
 keywords:

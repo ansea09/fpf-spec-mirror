@@ -6,12 +6,12 @@ section_id: "C.13:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.13/C.13__014_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.13 — Constructional Mereology (Compose‑CAL)"
   - "C.13:10 — Relations"
-line_start: 47350
-line_end: 47380
+line_start: 47349
+line_end: 47379
 dependencies:
   - "A.1"
   - "A.14"

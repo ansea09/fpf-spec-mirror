@@ -6,12 +6,12 @@ section_id: "A.19.CHR:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CHR/A.19.CHR__010_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.19.CHR — CHRMechanismSuite"
   - "A.19.CHR:10 — Rationale"
-line_start: 31561
-line_end: 31574
+line_start: 31563
+line_end: 31576
 dependencies:
   - "A.15.3"
   - "A.19"

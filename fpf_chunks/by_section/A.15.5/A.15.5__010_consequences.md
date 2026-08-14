@@ -6,12 +6,12 @@ section_id: "A.15.5:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.5/A.15.5__010_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15.5 — Work-Entry Readiness and Full-Kit Preparation"
   - "A.15.5:9 — Consequences"
-line_start: 26437
-line_end: 26449
+line_start: 26439
+line_end: 26451
 dependencies:
   - "A.10"
   - "A.15"

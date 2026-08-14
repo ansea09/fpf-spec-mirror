@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__011_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:10 — Rationale"
-line_start: 66342
-line_end: 66349
+line_start: 66344
+line_end: 66351
 dependencies:
   - "A.10"
   - "A.12"

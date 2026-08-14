@@ -6,12 +6,12 @@ section_id: "F.2:15"
 section_title: "Acceptance tests (SCR/RSCR — concept‑level)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__016_acceptance-tests-scr-rscr-concept-level.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:15 — Acceptance tests (SCR/RSCR — concept‑level)"
-line_start: 91377
-line_end: 91396
+line_start: 91381
+line_end: 91400
 dependencies:
   - "A.11"
   - "A.7"

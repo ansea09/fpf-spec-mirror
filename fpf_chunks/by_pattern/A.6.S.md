@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/A.6.S.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.S — U.SignatureEngineeringPair - Signature engineering via a ConstructorSignature and a TargetSignature"
-line_start: 20913
-line_end: 21351
+line_start: 20915
+line_end: 21353
 dependencies:
   - "A.12"
   - "A.3"
@@ -455,7 +455,7 @@ Finally, classifying claims through A.6.B makes “contract” talk ontologicall
   * E.10 and LEX discipline — if the Context uses Plain twins (“SoI”) or shorthands, they must be registered and kept out of normative register
   * A.6.3 — `U.EpistemicViewing`
   * A.6.4 — `U.EpistemicRetargeting`
-  * A.6.5 — `U.RelationSlotDiscipline`
+  * A.6.5 — relation-declaration slot discipline
   * A.6.6 — Base Declaration Discipline
   * A.6.B — Boundary Norm Square & Claim Register discipline
   * E.17 and E.17.0 — MVPK and multi‑view describing

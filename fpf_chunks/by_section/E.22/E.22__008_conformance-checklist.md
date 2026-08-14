@@ -6,12 +6,12 @@ section_id: "E.22:7"
 section_title: "Conformance checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:7 — Conformance checklist"
-line_start: 88210
-line_end: 88226
+line_start: 88214
+line_end: 88230
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

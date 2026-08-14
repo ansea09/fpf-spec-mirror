@@ -6,12 +6,12 @@ section_id: "C.26.3:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.3/C.26.3__007_bias-annotation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.26.3 — Viability-Envelope Boundary Regulation"
   - "C.26.3:6 — Bias-Annotation"
-line_start: 55225
-line_end: 55232
+line_start: 55227
+line_end: 55234
 dependencies:
   - "A.10"
   - "A.15"

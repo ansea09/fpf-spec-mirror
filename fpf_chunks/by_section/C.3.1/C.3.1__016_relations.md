@@ -6,12 +6,12 @@ section_id: "C.3.1:14"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__016_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:14 — Relations"
-line_start: 45130
-line_end: 45136
+line_start: 45129
+line_end: 45135
 dependencies:
   - "A.1"
   - "A.11"

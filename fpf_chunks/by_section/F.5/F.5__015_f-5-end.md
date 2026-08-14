@@ -6,12 +6,12 @@ section_id: "F.5:End"
 section_title: "F.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__015_f-5-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:End — F.5:End"
-line_start: 92330
-line_end: 92331
+line_start: 92334
+line_end: 92335
 dependencies:
   - "A.10"
   - "A.15"

@@ -1,43 +1,45 @@
 ---
 chunk_kind: "child"
 pattern_id: "F.9.1"
-pattern_title: "Bridge Stance Overlay"
+pattern_title: "Bridge Stance Note"
 section_id: "F.9.1:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
-  - "F.9.1 — Bridge Stance Overlay"
+  - "F.9.1 — Bridge Stance Note"
   - "F.9.1:3 — Forces"
-line_start: 94048
-line_end: 94054
+line_start: 94071
+line_end: 94079
 dependencies:
-  - "A.16.0"
+  - "A.10"
   - "A.6.3.CSC"
-  - "A.6.A"
-  - "A.6.P"
-  - "B.4.1"
+  - "B.3"
   - "C.16.Q"
-  - "C.2.2a"
-  - "C.25"
-  - "E.17.1"
+  - "C.2.1"
   - "E.17.ID.CR"
+  - "E.24.PUB"
+  - "F.17"
+  - "F.18"
   - "F.9"
 keywords:
-  - "bridge stance"
+  - "bounded-use claim"
+  - "bridge stance note"
   - "interpretive gloss"
-  - "language-state comparisons"
-  - "overlay annotation"
-  - "projection note"
-  - "rename note"
-  - "stance overlay"
+  - "local rename"
+  - "non-equivalence"
+  - "operationalization"
+  - "partial analogy"
+  - "projection"
 ---
 
 ### F.9.1:3 - Forces
+
 | Force | Tension |
-|---|---|
-| **Expressive stance vs bridge discipline** | Add interpretive clarity without introducing a rival bridge-kind system. |
-| **Reuse vs inflation** | Make stance annotations reusable across bundles while keeping bridge cards structurally governed by `F.9`. |
-| **Interpretive help vs substitution abuse** | Help readers interpret a bridge without silently licensing substitution beyond what `F.9` allows. |
+| --- | --- |
+| Readability and exactness | One short cue can help a reader, but the cue cannot carry the relation or use semantics by itself. |
+| Reuse and locality | A small vocabulary is reusable, while every stance still belongs to one exact bounded-use claim. |
+| Help and overread | A friendly gloss should aid interpretation without widening equivalence, substitution, authority, or reliance. |
+| Loss emphasis and duplicate claims | A stance may foreground one material loss, but it should not restate or silently alter the bounded-use claim. |
 

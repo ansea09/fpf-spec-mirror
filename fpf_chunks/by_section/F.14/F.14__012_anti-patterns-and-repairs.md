@@ -6,12 +6,12 @@ section_id: "F.14:11"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__012_anti-patterns-and-repairs.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:11 — Anti-patterns and repairs"
-line_start: 95718
-line_end: 95732
+line_start: 95734
+line_end: 95748
 dependencies:
   - "A.10"
   - "A.15.1"

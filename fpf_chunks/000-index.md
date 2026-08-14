@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `11f2345e65e4b2ec5b84c0cecde4c9485834d28d`
+Commit SHA: `646b41f84ffef4918ad9bdb34e7b450f0c4903ee`
 
 Chunking method: `pattern-aware`
 
@@ -277,7 +277,7 @@ Patterns: `294`
 - [F.7 — Concept‑Set Table](by_pattern/F.7.md)
 - [F.8 — Mint-or-Reuse Decision](by_pattern/F.8.md)
 - [F.9 — Alignment and Bridge across Contexts](by_pattern/F.9.md)
-- [F.9.1 — Bridge Stance Overlay](by_pattern/F.9.1.md)
+- [F.9.1 — Bridge Stance Note](by_pattern/F.9.1.md)
 - [F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status](by_pattern/F.10.md)
 - [F.11 — Method Quartet Harmonisation](by_pattern/F.11.md)
 - [F.12 — Service Acceptance–Work Evidence Link](by_pattern/F.12.md)

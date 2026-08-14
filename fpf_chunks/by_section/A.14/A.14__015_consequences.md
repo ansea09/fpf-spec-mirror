@@ -6,12 +6,12 @@ section_id: "A.14:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.14/A.14__015_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.14 — Advanced Mereology: Components, Portions, Aspects & Phases"
   - "A.14:12 — Consequences"
-line_start: 24176
-line_end: 24190
+line_start: 24178
+line_end: 24192
 dependencies:
   - "A.1"
   - "A.15"

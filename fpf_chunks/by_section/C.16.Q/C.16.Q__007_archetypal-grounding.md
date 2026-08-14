@@ -6,12 +6,12 @@ section_id: "C.16.Q:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.Q/C.16.Q__007_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.16.Q — Quality-Term Precision Restoration"
   - "C.16.Q:5 — Archetypal Grounding"
-line_start: 48418
-line_end: 48581
+line_start: 48420
+line_end: 48583
 dependencies:
   - "A.10"
   - "A.16"
@@ -65,7 +65,7 @@ keywords:
 #### C.16.Q:5.1 - Tell
 
 If a draft says *quality*, the draft has not yet named the evaluative family.
-A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, Card, and stance overlay.
+A conforming rewrite publishes either the evaluative form for one known endpoint or one explicit `qualityTermAscription(...)` transitional record with bearer, one `QualitySense`, effective ReferenceScheme, separate probe/model and comparison frames, evaluator and `U.ViewpointRef`, ClaimScope, admissible normal form, `endpointPatternLocator` or endpoint source relation, and explicit boundaries among result claim, witnesses, evidence use, empirical grounding, Bridge, bounded-use claim, optional Card, and optional stance note.
 
 #### C.16.Q:5.2 - Show (System lane)
 

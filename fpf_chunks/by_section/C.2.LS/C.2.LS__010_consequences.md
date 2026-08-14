@@ -6,12 +6,12 @@ section_id: "C.2.LS:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__010_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:9 — Consequences"
-line_start: 43607
-line_end: 43609
+line_start: 43609
+line_end: 43611
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -40,5 +40,5 @@ keywords:
 ---
 
 ### C.2.LS:9 - Consequences
-The benefit is authority-reference clarity: early cue work, bridge annotations, and reopen moves can all talk about one explicit facet profile. The trade-off is more explicit profile authoring and threshold publication.
+The benefit is clearer source and rule references: early cue work, bridge annotations, and reopen moves can all refer to one explicit facet profile. The trade-off is more explicit profile authoring and threshold publication.
 

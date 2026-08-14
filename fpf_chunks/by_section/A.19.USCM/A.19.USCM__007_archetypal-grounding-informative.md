@@ -6,12 +6,12 @@ section_id: "A.19.USCM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__007_archetypal-grounding-informative.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:5 — Archetypal Grounding — informative"
-line_start: 32504
-line_end: 32533
+line_start: 32506
+line_end: 32535
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"

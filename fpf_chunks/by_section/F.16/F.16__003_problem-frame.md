@@ -6,12 +6,12 @@ section_id: "F.16:2"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__003_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.16 — Worked‑Example Template (Cross‑Domain)"
   - "F.16:2 — Problem frame"
-line_start: 96270
-line_end: 96280
+line_start: 96286
+line_end: 96296
 dependencies:
   - "A.15"
   - "A.3"

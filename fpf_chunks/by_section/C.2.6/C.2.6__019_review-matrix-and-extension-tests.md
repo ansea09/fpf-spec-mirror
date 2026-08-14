@@ -6,12 +6,12 @@ section_id: "C.2.6:18"
 section_title: "Review Matrix and Extension Tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__019_review-matrix-and-extension-tests.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:18 — Review Matrix and Extension Tests"
-line_start: 44283
-line_end: 44299
+line_start: 44282
+line_end: 44298
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -48,5 +48,5 @@ An assurance reader should ask:
 A new local anchoring mode is justified only when it answers a distinct anchoring question that the starter family cannot express without distortion.
 
 #### C.2.6:18.3 - Cross-facet reminder
-Anchoring mode often correlates with representation and articulation changes, but it does not govern them. Reject prose that uses `AM.ModelLatent`, `AM.EmbodiedFelt`, or `AM.OperatorLoop` as shorthand for being vague, early, trustworthy, or closed.
+Anchoring mode often correlates with representation and articulation changes, but it does not define or test them. Reject prose that uses `AM.ModelLatent`, `AM.EmbodiedFelt`, or `AM.OperatorLoop` as shorthand for being vague, early, trustworthy, or closed.
 

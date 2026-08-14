@@ -6,12 +6,12 @@ section_id: "G.0:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.0/G.0__004_forces.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.0 — Frame Standard and Comparability Governance — CG‑Spec"
   - "G.0:3 — Forces"
-line_start: 99320
-line_end: 99327
+line_start: 99336
+line_end: 99343
 dependencies:
   - "A.10"
   - "A.17"

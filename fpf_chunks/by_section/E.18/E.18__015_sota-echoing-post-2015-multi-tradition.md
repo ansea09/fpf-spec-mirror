@@ -6,12 +6,12 @@ section_id: "E.18:12"
 section_title: "SoTA-Echoing (post-2015, multi-Tradition)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18/E.18__015_sota-echoing-post-2015-multi-tradition.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.18 — Transformation Flow Structure"
   - "E.18:12 — SoTA-Echoing (post-2015, multi-Tradition)"
-line_start: 84567
-line_end: 84583
+line_start: 84571
+line_end: 84587
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

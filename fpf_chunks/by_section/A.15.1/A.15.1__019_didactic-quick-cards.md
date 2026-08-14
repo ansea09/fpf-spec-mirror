@@ -6,12 +6,12 @@ section_id: "A.15.1:15"
 section_title: "Didactic quick cards"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__019_didactic-quick-cards.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15 — Didactic quick cards"
-line_start: 25143
-line_end: 25151
+line_start: 25145
+line_end: 25153
 dependencies:
   - "A.1"
   - "A.1.1"

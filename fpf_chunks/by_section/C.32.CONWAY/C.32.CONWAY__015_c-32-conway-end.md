@@ -6,12 +6,12 @@ section_id: "C.32.CONWAY:End"
 section_title: "C.32.CONWAY:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.CONWAY/C.32.CONWAY__015_c-32-conway-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.CONWAY — Architecture-Influence and Transformed-Architecture Correspondence"
   - "C.32.CONWAY:End — C.32.CONWAY:End"
-line_start: 66377
-line_end: 66378
+line_start: 66379
+line_end: 66380
 dependencies:
   - "A.10"
   - "A.12"

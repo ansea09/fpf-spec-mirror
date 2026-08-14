@@ -6,12 +6,12 @@ section_id: "E.18.3:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.18.3/E.18.3__013_sota-echoing.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.18.3 — Constraint-Governed Transformation-Flow Unfolding Structure"
   - "E.18.3:11 — SoTA-Echoing"
-line_start: 85872
-line_end: 85885
+line_start: 85876
+line_end: 85889
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "G.10:8.1"
 section_title: "Anti‑patterns and remedies"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__010_anti-patterns-and-remedies.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:8.1 — Anti‑patterns and remedies"
-line_start: 104392
-line_end: 104402
+line_start: 104408
+line_end: 104418
 dependencies:
   - "A.10"
   - "A.15.3"

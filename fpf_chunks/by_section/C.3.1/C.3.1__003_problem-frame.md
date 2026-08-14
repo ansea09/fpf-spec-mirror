@@ -6,12 +6,12 @@ section_id: "C.3.1:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__003_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:1 — Problem Frame"
-line_start: 45008
-line_end: 45011
+line_start: 45007
+line_end: 45010
 dependencies:
   - "A.1"
   - "A.11"

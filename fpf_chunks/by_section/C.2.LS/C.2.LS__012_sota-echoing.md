@@ -6,12 +6,12 @@ section_id: "C.2.LS:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__012_sota-echoing.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:11 — SoTA-Echoing"
-line_start: 43613
-line_end: 43630
+line_start: 43615
+line_end: 43629
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -43,17 +43,14 @@ keywords:
 
 **SoTA note.** This section does not mint a second rule source. It is a load-bearing alignment statement: the Solution, Conformance Checklist, and boundary discipline of this pattern must match the stance stated here or explicitly justify divergence.
 
-**Traditions covered.** This pattern binds itself to architecture-description governance, model-based systems engineering, and governance/profile discipline.
+**Source boundary.** The exact facet meanings and profile rules come from `A.18/A.19` and the neighboring FPF patterns. External sources are used only when they change a rule or case.
 
-| Claim need | SoTA practice (post-2015) | Primary source (post-2015) | Alignment with `C.2.LS` | Adoption status |
+| Claim need | Bounded comparison | Exact source | Use in `C.2.LS` | Disposition |
 |---|---|---|---|---|
-| Multi-facet state should be published through explicit profile elements rather than one summary stage label. | Contemporary architecture-description practice keeps the relevant properties, views, and correspondence evidence explicit instead of replacing them with one reader-facing maturity word. | ISO/IEC/IEEE 42010:2022 | `C.2.LS` adopts this by requiring explicit facet refs and by rejecting profile-by-vibe labels such as `ready` or `raw` when the bundle matters operationally. | **Adopt.** |
-| Complex technical state is better captured through typed properties and decomposable profiles than one maturation rail. | Recent MBSE practice favours explicit properties, viewpoints, and cross-view consistency over one implicit staircase of readiness. | OMG SysML v2 (2025) | `C.2.LS` adapts this into a thin facet-profile bundle whose members remain decomposable and whose thresholds stay tied to named facets. | **Adapt.** |
-| Governance-facing readiness should stay scoped and profile-based, not collapse into one global adjective. | Current governance frameworks use explicit profiles, scoped conditions, and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | `C.2.LS` adopts profile-level threshold publication and rejects the popular shortcut where one polished profile label substitutes for explicit facet talk. | **Adopt/Reject-popular-shortcut.** |
+| Readiness claims should stay scoped instead of collapsing into one global adjective. | A profile can state scoped conditions and local thresholds rather than one blanket readiness label. | NIST AI RMF 1.0 (2023) | Require explicit facet-level thresholds and reject a polished profile label as a substitute for the facet values. | **Adopt/Adapt.** |
+| A publication can keep several named description elements visible without making their container identical to those elements. | Architecture-description vocabulary distinguishes named elements and their correspondence in a published description. | ISO/IEC/IEEE 42010:2022 | Use this only as a narrow publication comparator; it does not establish the language-state facet ontology. | **Narrow comparator only.** |
 
-**Architecture-description governance.** `C.2.LS` adopts the discipline that useful state publication should keep the relevant profile elements explicit rather than hiding them inside one summary label.
+SysML v2 is deliberately excluded from the positive SoTA basis and from useful lineage for this question. Search prominence and official status do not show that it solves the facet-profile problem, and no demonstrated use here changes a rule or worked case. Treat it as a historical dead end for this comparison. Do not add a replacement citation merely to fill the removed row.
 
-**MBSE and profile discipline.** `C.2.LS` adapts typed multi-property state publication into a thin, decomposable language-state facet bundle rather than one master scale.
-
-**Local stance.** The load-bearing SoTA claim for this pattern is narrow: best-known current practice treats language-state publication as a small explicit facet profile with local thresholds and decomposable readings, not as one maturity adjective or one route-coloured bundle label.
+**Local stance.** The useful bounded result is a small explicit facet profile with local thresholds and decomposable readings, not one maturity adjective or one route-coloured bundle label.
 

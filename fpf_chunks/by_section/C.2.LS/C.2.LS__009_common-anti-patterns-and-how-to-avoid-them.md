@@ -6,12 +6,12 @@ section_id: "C.2.LS:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 43600
-line_end: 43606
+line_start: 43602
+line_end: 43608
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -44,5 +44,5 @@ keywords:
 - **Formality capture.** Letting `F` stand in for closure or articulation. Publish those facets explicitly.
 - **Bundle inflation.** Turning `U.LanguageStateFacetProfile` into a second `A.19`. Keep it thin and referential.
 - **Opaque readiness.** Using words such as `ready` or `mature` without naming which facet justifies the claim.
-- **Route-note capture.** Letting an informative route note behave like move rule, gate state, or endpoint governance. Keep route notes informative and push operative authority back to `A.16`, downstream governing patterns, or gate/work governing FPF patterns or `authoritySourceRef` targets.
+- **Route-note capture.** Letting an informative route note act as a move rule, gate state, or endpoint rule. Keep route notes informative. Use `A.16` for admissible moves, the applicable pattern for a downstream definition or test, the applicable gate or Work pattern for those claims, and an `authoritySourceRef` only when an external authority actually supplies the rule.
 

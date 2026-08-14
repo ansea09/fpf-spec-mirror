@@ -6,7 +6,7 @@ section_id: "A.6.5:7"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.5/A.6.5__008_conformance-checklist.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.5 — Relation-Declaration Slot Discipline - SlotKind, ValueKind, RefKind, and participant-designation discipline"
   - "A.6.5:7 — Conformance Checklist"
@@ -28,10 +28,10 @@ keywords:
 
 ### A.6.5:7 - Conformance Checklist
 
-1. The direct relation kind and subject pattern are named before SlotSpecs are declared.
+1. The direct relation kind and the definition of its predicate, applicability, participant meanings, and identity rule are named before SlotSpecs are declared.
 2. Every participant meaning needed by reusable typed use has one complete `<SlotKind, ValueKind, refMode>` SlotSpec in the `RelationSignature`.
 3. Each SlotKind is local to the one exact `RelationSignature` that contains its SlotSpec.
-4. World-side relation prose names participant meanings and actual participants; declaration prose uses `SlotSpec` and `...Slot` only for declaration-local SlotKinds; receiving-episteme prose names participant designations and uses `...Ref` only for admitted RefKinds or governed reference values. Actual participant ValueKind names carry neither suffix. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. `Position` and `place` are not alternate FPF names for a declaration slot.
+4. World-side relation prose names participant meanings and actual participants; declaration prose uses `SlotSpec` and `...Slot` only for declaration-local SlotKinds; receiving-episteme prose names participant designations and uses `...Ref` only for admitted RefKinds or reference values of those kinds. Actual participant ValueKind names carry neither suffix. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant. `Position` and `place` are not alternate FPF names for a declaration slot.
 5. Each ValueKind is exact enough for the direct predicate and does not combine participant kinds for which the predicate has different semantics.
 6. An assertion or description episteme that designates a participant by reference names the exact RefKind and resolves it to the declared ValueKind.
 7. The actual relation participant, its reference, reference resolution, SlotSpec declaration, participant designation in the assertion, and relation occurrence remain distinct.
@@ -39,13 +39,13 @@ keywords:
 9. A verb-shaped predicate is not used as evidence of work, method, transformation, agency, or holonhood.
 10. Only an admitted `U.System` is admitted for `HolderSystemSlot`. Each species under `U.SystemRoleAssignment` declares its `AssignedSystemRoleKindSlot` domain and any additional participant meaning whose value changes the predicate or occurrence identity.
 11. `U.Work` and `U.Method` rely on their own constructive holon tests, while `U.Transformation` relies on `A.3.4`'s actual-bounded-change identity; A.6.5 admits none of them by grammar.
-12. The direct relation pattern defines the obtaining predicate and occurrence-identity rule; current-case facts or constituting history supply the factual basis; a claim-bearing episteme records polarity; and evidence or reliance remains separately governed.
+12. The direct-relation definition supplies the obtaining predicate and occurrence-identity rule; current-case facts or constituting history supply the factual basis; a claim-bearing episteme records polarity; and evidence or reliance remains a separate judgement.
 13. A declaration, assertion, description, representation, or publication episteme does not create the world-side relation by form.
 14. Ordinary use can stop before signatures, explicit occurrence identity, or C.3 kind derivation when the receiving use depends on none of them; typed reuse, occurrence identity, and local-kind quantification are independent thresholds, and none is a prerequisite for another.
 15. Relation-declaration slot discipline remains a rule set; its pattern name is not promoted to `U.RelationSlotDiscipline`.
-16. A relation fact, an episteme claim, and a locally derived kind are dispatched to their direct patterns without minting `RelationDefinedQualification` or `E.24.RC`.
+16. A relation fact, an episteme claim, and a locally derived kind are handled by the patterns that define those respective objects without minting `RelationDefinedQualification` or `E.24.RC`.
 17. SlotSpecs occur only inside exact `RelationSignature` declarations for direct-relation participant meanings; method-description, operation, plan, work, evaluation, representation, card, schema, and record fields do not become SlotSpecs by shape or label. A receiving semantic field is covered by an explicit declaration against one exact SlotSpec. An external or independently named representation field keeps its source name and requires an explicit C.29 correspondence. Neither route makes the field a SlotSpec or the designation an actual participant.
 18. An A.15.3 planned-filling row may cite an exact SlotSpec, but the planned designation remains plan content and establishes neither an actual participant nor relation obtaining.
-19. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the subject pattern before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-governor result.
+19. Interface, port, endpoint, API, and signature language remains available for recognition. The text states what connects, crosses, or is transferred between which entities and recovers the direct-relation definition before declaring SlotSpecs; an unresolved case requires A.6.RSIR or an exact missing-relation result.
 20. When source wording calls an entity a result, first determine whether the same entity continued or a new entity began. A separately worded delivery, acceptance, or evaluation claim is opened one at a time with its concrete participants; no pattern catalogue or generic result kind substitutes for that decision.
 

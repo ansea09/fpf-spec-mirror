@@ -6,12 +6,12 @@ section_id: "C.20:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.20/C.20__013_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.20 — Composition of U.Discipline (Discipline-CAL)"
   - "C.20:9 — Rationale"
-line_start: 50930
-line_end: 50937
+line_start: 50932
+line_end: 50939
 dependencies:
   - "A.1"
   - "A.14"

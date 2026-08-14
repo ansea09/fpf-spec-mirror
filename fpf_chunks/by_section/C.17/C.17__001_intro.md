@@ -6,12 +6,12 @@ section_id: "C.17:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)"
   - "C.17:intro — Intro"
-line_start: 48778
-line_end: 48818
+line_start: 48780
+line_end: 48820
 dependencies:
   - "A.1"
   - "A.10"

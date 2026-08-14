@@ -6,12 +6,12 @@ section_id: "C.2.7:17"
 section_title: "Factor Interaction and Cross-Facet Reading Rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.7/C.2.7__018_factor-interaction-and-cross-facet-reading-rule.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.7 — U.LanguageStateRepresentationFactorBundle"
   - "C.2.7:17 — Factor Interaction and Cross-Facet Reading Rule"
-line_start: 44445
-line_end: 44455
+line_start: 44444
+line_end: 44454
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -41,5 +41,5 @@ Representation factors may correlate, but they do not determine one another. Hig
 Representation talk must not silently replace `AE`, `CD`, or `LanguageStateAnchoringMode`. A shift from distributed to symbolic publication may change readability while leaving articulation low, closure open, or anchoring heavily operator-bound.
 
 #### C.2.7:17.3 - Bridge reminder
-If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. The bridge itself remains governed by `F.9` and `F.9.1`.
+If a representation shift matters in transport across contexts, note that the shift may alter what is preserved or salient. Use `F.9` for the Bridge and its bounded-use claim; use `F.9.1` only for a separate optional stance note about that claim.
 

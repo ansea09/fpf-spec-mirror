@@ -6,12 +6,12 @@ section_id: "C.2.LS:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.LS/C.2.LS__005_solution.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.LS — U.LanguageStateFacetProfile - Thin profile bundle for language-state facets"
   - "C.2.LS:4 — Solution"
-line_start: 43527
-line_end: 43580
+line_start: 43529
+line_end: 43582
 dependencies:
   - "A.16"
   - "A.16.0"
@@ -47,26 +47,26 @@ keywords:
 - `languageStateClosureDegreeRef` -> `U.LanguageStateClosureDegree` from `C.2.5`
 - `languageStateAnchoringModeRef` -> `U.LanguageStateAnchoringMode` from `C.2.6`
 - `languageStateRepresentationFactorBundleRef` -> `U.LanguageStateRepresentationFactorBundle` from `C.2.7`
-- `thresholdRefs?` -> context-local threshold declarations over the governed facets
+- `thresholdRefs?` -> context-local threshold declarations over the named facets
 - `routeNotes?` -> informative notes that help interpret routing or reopening decisions
 
-`C.2.LS` is therefore a **profile-bundle governing pattern**, not a characteristic governing pattern and not a trajectory governing pattern. Characteristic semantics remain with `A.18/A.19`; admissible moves remain with `A.16`; explicit transition-structure publication remains with `E.18`.
+`C.2.LS` therefore defines only the **profile bundle**; it defines neither an individual characteristic nor a trajectory. `A.18/A.19` supply characteristic semantics, `A.16` defines admissible moves, and `E.18` describes publication of explicit transition structures.
 
 #### C.2.LS:4.0a - Kind and profile-bundle boundary
 
 `U.LanguageStateFacetProfile` is a dependent durable profile-bundle value under the declared `U.LanguageStateSpace` and `U.CharacteristicSpace` boundary, not a root U-kind. Its identity is the explicit bundle of language-state facet refs used for position reading and threshold publication. A local dashboard, table, route note, or maturity label is a publication or interpretation over the bundle, not the bundle itself.
 
-#### C.2.LS:4.1 - Governing boundary
-`C.2.LS` governs only the profile composition and the rule that the language-state facets must remain explicit and non-collapsed. It does **not**:
+#### C.2.LS:4.1 - Contribution boundary
+`C.2.LS` defines only profile composition and requires the language-state facets to remain explicit and non-collapsed. It does **not**:
 
 - redefine `F`;
 - invent a second formality progression;
-- govern the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
-- govern reopen/backoff moves;
-- govern endpoint classification or bridge kinds.
+- redefine the scale semantics of `AE`, `CD`, `LanguageStateAnchoringMode`, or `U.LanguageStateRepresentationFactorBundle`;
+- define reopen/backoff moves;
+- define endpoint classification or bridge kinds.
 
 #### C.2.LS:4.2 - Threshold publication discipline
-Any threshold used for routing, admissible move guards, or entry into `A.6.P` shall be published on explicit named facets within the profile. Contexts shall not speak of hidden sub-levels of `F` when what matters is really articulation, closure, anchoring, or the representation-factor bundle.
+Any threshold used to choose a next question, constrain an admissible move, or begin `A.6.P` recovery shall be published on explicit named facets in the profile. Do not describe hidden sub-levels of `F` when the real issue is articulation, closure, anchoring, or the representation-factor bundle.
 
 #### C.2.LS:4.2.a - Local profile-reading witness
 For this pattern, a published facet profile is reviewable when:
@@ -74,7 +74,7 @@ For this pattern, a published facet profile is reviewable when:
 - the facet refs are explicit or explicitly inherited from an already pinned upstream publication;
 - any threshold-bearing use names the facet whose threshold is being invoked;
 - route notes or local overlays remain informative and visibly docked to the explicit facet bundle;
-- and the profile does not smuggle move rules, bridge rules, gate state, or downstream governing-pattern semantics into the bundle record.
+- and the profile does not smuggle move rules, bridge rules, gate state, or downstream definitions and tests into the bundle record.
 
 A polished label, one strong facet, or one memorable route note does not by itself yield an admissible profile reading. The profile remains conformant only when the named facets stay explicit and decomposable.
 
@@ -89,7 +89,7 @@ A language-state judgement may be composite, but the composite shall be decompos
 A conforming profile makes this decomposition visible rather than hiding it under one poetic label such as "early" or "raw".
 
 #### C.2.LS:4.4 - Corridor map note
-`C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but only as the thin governing pattern of the facet-profile bundle. Readers who need one map of the full language-state governing-pattern set should read the corridor note in `C.2.2a`.
+`C.2.LS` participates in the current `Language-State & Semantic Routing Corridor`, but contributes only the thin facet-profile bundle. Readers who need one map of the full language-state pattern set should read the corridor note in `C.2.2a`.
 
-That map does not change the governing boundary here: `C.2.LS` still does not govern cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
+That map does not change this boundary: `C.2.LS` still does not define cue preservation, route-bearing publication, prompt entry, or downstream endpoint use.
 

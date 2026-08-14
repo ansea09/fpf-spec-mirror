@@ -6,12 +6,12 @@ section_id: "F.10:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__010_consequences.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:9 — Consequences"
-line_start: 94487
-line_end: 94494
+line_start: 94503
+line_end: 94510
 dependencies:
   - "A.10"
   - "A.15.1"

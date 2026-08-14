@@ -6,12 +6,12 @@ section_id: "A.15.1:15a"
 section_title: "P2W Performed-Work Use Relation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.1/A.15.1__020_p2w-performed-work-use-relation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15.1 — U.Work"
   - "A.15.1:15a — P2W Performed-Work Use Relation"
-line_start: 25152
-line_end: 25157
+line_start: 25154
+line_end: 25159
 dependencies:
   - "A.1"
   - "A.1.1"

@@ -6,12 +6,12 @@ section_id: "E.2.DA:6"
 section_title: "Bias annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.2.DA/E.2.DA__007_bias-annotation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.2.DA — FPF Pillar-Adequacy Evaluation CharacteristicSpace"
   - "E.2.DA:6 — Bias annotation"
-line_start: 70013
-line_end: 70018
+line_start: 70015
+line_end: 70020
 dependencies:
   - "A.19.ECS"
   - "E.10"

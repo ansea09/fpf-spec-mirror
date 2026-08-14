@@ -6,12 +6,12 @@ section_id: "E.3:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__010_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:9 — Rationale"
-line_start: 70240
-line_end: 70242
+line_start: 70242
+line_end: 70244
 dependencies:
   - "E.2"
 keywords:

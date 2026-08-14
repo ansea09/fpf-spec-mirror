@@ -6,12 +6,12 @@ section_id: "G.4:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.4/G.4__003_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.4 — CAL Authoring for a CG-Frame: Operators, Acceptance Clauses, Evidence Wiring"
   - "G.4:2 — Problem"
-line_start: 101038
-line_end: 101047
+line_start: 101054
+line_end: 101063
 dependencies:
   - "A.10"
   - "A.15.1"

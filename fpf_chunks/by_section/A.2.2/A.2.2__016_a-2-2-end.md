@@ -6,7 +6,7 @@ section_id: "A.2.2:End"
 section_title: "A.2.2:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__016_a-2-2-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:End — A.2.2:End"

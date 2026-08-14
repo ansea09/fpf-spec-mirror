@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.17.1.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
-line_start: 80383
-line_end: 80818
+line_start: 80385
+line_end: 80820
 dependencies:
   - "A.16.0"
   - "A.22"
@@ -59,7 +59,7 @@ keywords:
 
 
 **Builds on.**
-`A.6.2-A.6.4` (episteme morphism classes), `A.6.5 U.RelationSlotDiscipline`, `A.7`, `E.7`, `E.10`, `E.10.D1`, `E.10.D2`, and `E.17.0 MultiViewDescribing`.
+`A.6.2-A.6.4` (episteme morphism classes), A.6.5 relation-declaration slot discipline, `A.7`, `E.7`, `E.10`, `E.10.D1`, `E.10.D2`, and `E.17.0 MultiViewDescribing`.
 
 **Used by.**
 `E.17.2` (TEVB engineering viewpoint bundles), `E.18:5.12`, and domain-specific viewpoint families for architecture, governance, safety, research, or assurance.
@@ -450,7 +450,7 @@ A description family may project only a subset of a reusable bundle. This is adm
 
 First decide whether the comparison stays inside one exact effective reference scheme. In that branch, name the exact members or claim subgraphs, comparison predicate, polarity, scope, and participants, then apply the pattern that defines the predicate; provenance merely identifies their catalogue origins. If only names, member sets, omissions, or structures can be compared, state that bounded lexical or structural contrast and stop.
 
-When local senses cross schemes or contexts, resolve the exact F.17 cells and apply F.9. A semantic correspondence may be claimed only when the exact Bridge obtains; a proposed comparison, translation, or reuse additionally requires its own `<u,d,r,t>` bounded-use claim and current A.10 reliance disposition or triggered B.3 assurance branch. Similar family labels, matching designators, matching member counts, or provenance tuples establish none of those results. F.9.1 may annotate an already recovered Bridge for readability but cannot supply the Bridge or widen its use boundary.
+When local senses cross schemes or semantic contexts, resolve the exact F.17 cells and apply F.9. Claim a semantic correspondence only when the exact Bridge obtains. A proposed comparison, translation, or reuse also needs its own bounded-use claim naming the proposed use, direction, correspondence rule, tolerated loss, and polarity, plus a current A.10 reliance disposition or the B.3 assurance branch when its threshold is met. Similar family labels, matching designators, matching member counts, or provenance tuples establish none of those results. Use F.9.1 only to add a separate stance episteme whose EntityOfConcern is that bounded-use claim; it neither annotates nor reidentifies the Bridge and cannot widen the claim.
 
 #### E.17.1:19.3 - Boundary to publication-face design
 A publication face may render one composite presentation of several viewpoints, but the face is not the bundle. `E.17.1` therefore requires the underlying member structure to remain recoverable even when a public-facing document flattens it for readability.

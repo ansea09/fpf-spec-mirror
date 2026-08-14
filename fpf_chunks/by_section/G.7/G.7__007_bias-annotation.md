@@ -6,12 +6,12 @@ section_id: "G.7:6"
 section_title: "Bias‑Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.7/G.7__007_bias-annotation.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "G.7 — Cross‑Tradition Bridge Calibration Kit (BridgeMatrix → BridgeCards + BCT/Sentinels)"
   - "G.7:6 — Bias‑Annotation"
-line_start: 102966
-line_end: 102970
+line_start: 102982
+line_end: 102986
 dependencies:
   - "A.21"
   - "B.3"

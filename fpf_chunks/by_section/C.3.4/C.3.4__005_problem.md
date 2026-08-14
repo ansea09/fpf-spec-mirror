@@ -6,12 +6,12 @@ section_id: "C.3.4:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__005_problem.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:3 — Problem"
-line_start: 45631
-line_end: 45637
+line_start: 45630
+line_end: 45636
 dependencies:
   - "A.2.6"
   - "C.2.1"

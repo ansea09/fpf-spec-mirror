@@ -6,12 +6,12 @@ section_id: "F.1:9"
 section_title: "Self‑checks (mental, not procedural)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.1/F.1__010_self-checks-mental-not-procedural.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.1 — Domain‑Family Landscape Survey"
   - "F.1:9 — Self‑checks (mental, not procedural)"
-line_start: 90898
-line_end: 90904
+line_start: 90902
+line_end: 90908
 dependencies:
   - "A.11"
   - "A.7"

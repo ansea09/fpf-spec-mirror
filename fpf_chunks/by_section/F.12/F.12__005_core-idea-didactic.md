@@ -6,12 +6,12 @@ section_id: "F.12:4"
 section_title: "Core idea (didactic)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__005_core-idea-didactic.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:4 — Core idea (didactic)"
-line_start: 94874
-line_end: 94886
+line_start: 94890
+line_end: 94902
 dependencies:
   - "A.2.3"
   - "F.1"

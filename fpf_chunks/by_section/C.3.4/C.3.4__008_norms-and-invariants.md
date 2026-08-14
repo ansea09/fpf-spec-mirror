@@ -6,12 +6,12 @@ section_id: "C.3.4:6"
 section_title: "Norms and Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__008_norms-and-invariants.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:6 — Norms and Invariants"
-line_start: 45671
-line_end: 45702
+line_start: 45670
+line_end: 45701
 dependencies:
   - "A.2.6"
   - "C.2.1"

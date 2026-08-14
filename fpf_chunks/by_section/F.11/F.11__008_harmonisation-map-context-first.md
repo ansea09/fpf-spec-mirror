@@ -6,12 +6,12 @@ section_id: "F.11:7"
 section_title: "Harmonisation map (Context‑first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.11/F.11__008_harmonisation-map-context-first.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.11 — Method Quartet Harmonisation"
   - "F.11:7 — Harmonisation map (Context‑first)"
-line_start: 94616
-line_end: 94638
+line_start: 94632
+line_end: 94654
 dependencies:
   - "A.15"
   - "A.15.1"

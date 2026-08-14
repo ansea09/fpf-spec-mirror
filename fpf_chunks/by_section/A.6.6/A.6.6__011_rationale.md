@@ -6,12 +6,12 @@ section_id: "A.6.6:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.6/A.6.6__011_rationale.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.6 — Base Declaration Discipline - Kind-explicit, scoped, witnessed base declaration discipline (with base-change lexicon)"
   - "A.6.6:10 — Rationale"
-line_start: 20036
-line_end: 20052
+line_start: 20038
+line_end: 20054
 dependencies:
   - "A.10"
   - "A.14"
@@ -32,7 +32,6 @@ dependencies:
   - "F.15"
   - "F.18"
   - "F.9"
-  - "U.RelationSlotDiscipline"
 keywords:
   - "SWBD"
   - "anchoring"

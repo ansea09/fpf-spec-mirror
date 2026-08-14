@@ -6,7 +6,7 @@ section_id: "A.6.3.CSC:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.3.CSC/A.6.3.CSC__006_archetypal-grounding.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.3.CSC — Controlled Semantic Coarsening"
   - "A.6.3.CSC:5 — Archetypal Grounding"
@@ -50,7 +50,7 @@ keywords:
 
 **Coarsened narrative briefing.** Exact source episteme `ArchitectureCandidates-X` states three candidate, two trade-off, and one unresolved-constraint claims about one exact system. Exact briefing episteme `CandidateBriefing-Y` concerns the same system. NAR supplies the narrative-ordering account; CSC supplies the declared omission of alternatives, orientation-only use, blocked selection/decision/implementation/evidence use, and return to `X`. The briefing form is neither endpoint.
 
-**Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison/Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; those uses require F.9/F.9.1 or return to `X`.
+**Exceptional interop-facing simplification.** Exact source episteme `ExchangeComparison-X` states the bounded source-local claims and exact comparison or Bridge dependencies. Exact orientation episteme `ExchangeGloss-Y` states the narrower broader-than gloss about the same comparison EntityOfConcern. `InteropCoarsening : X -> Y` does not establish equivalence, projection, substitution, or a Bridge; those uses require an obtaining F.9 Bridge and a separate bounded-use claim or return to `X`. An F.9.1 stance note may explain that claim but cannot replace it.
 
 **Bad fit: hidden work authority.** `Deployment may proceed; see summary S-3.` This is not an admissible controlled coarsening card. The sentence tries to convert a coarsened summary into execution or gate authority. Use `A.15`, `A.20`, or `A.21`, and reopen the source-bearing side before any work or approval claim proceeds.
 

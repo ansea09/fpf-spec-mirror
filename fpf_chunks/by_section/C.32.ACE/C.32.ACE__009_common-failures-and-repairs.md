@@ -6,12 +6,12 @@ section_id: "C.32.ACE:8"
 section_title: "Common failures and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__009_common-failures-and-repairs.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:8 — Common failures and repairs"
-line_start: 65906
-line_end: 65918
+line_start: 65908
+line_end: 65920
 dependencies:
   - "A.10"
   - "A.15.1"

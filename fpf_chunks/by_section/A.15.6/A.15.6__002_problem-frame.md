@@ -6,12 +6,12 @@ section_id: "A.15.6:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.15.6/A.15.6__002_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.15.6 — Project, Process, and Case Recovery through Work, Method, and Transformation"
   - "A.15.6:1 — Problem frame"
-line_start: 26482
-line_end: 26499
+line_start: 26484
+line_end: 26501
 dependencies:
   - "A.1"
   - "A.1.STM"

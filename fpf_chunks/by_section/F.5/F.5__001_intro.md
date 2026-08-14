@@ -6,12 +6,12 @@ section_id: "F.5:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:intro — Intro"
-line_start: 92046
-line_end: 92051
+line_start: 92050
+line_end: 92055
 dependencies:
   - "A.10"
   - "A.15"

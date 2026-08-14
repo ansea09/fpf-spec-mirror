@@ -6,12 +6,12 @@ section_id: "A.19.CN:5"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__006_conformance-checklist-normative.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:5 — Conformance Checklist (normative)"
-line_start: 30673
-line_end: 30702
+line_start: 30675
+line_end: 30704
 dependencies:
   - "A.19"
   - "A.6.1"

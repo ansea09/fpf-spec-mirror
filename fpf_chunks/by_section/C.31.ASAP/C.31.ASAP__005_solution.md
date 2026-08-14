@@ -6,12 +6,12 @@ section_id: "C.31.ASAP:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.31.ASAP/C.31.ASAP__005_solution.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.31.ASAP — Architecture Scale-Amenability Preference"
   - "C.31.ASAP:4 — Solution"
-line_start: 64313
-line_end: 64463
+line_start: 64315
+line_end: 64465
 dependencies:
   - "A.1.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "C.32.ADA:13"
 section_title: "Footer marker"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__014_footer-marker.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:13 — Footer marker"
-line_start: 67764
-line_end: 67767
+line_start: 67766
+line_end: 67769
 dependencies:
   - "A.1.1"
   - "A.10"

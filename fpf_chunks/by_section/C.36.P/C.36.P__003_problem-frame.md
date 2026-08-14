@@ -6,12 +6,12 @@ section_id: "C.36.P:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.36.P/C.36.P__003_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.36.P — Cultural-Evolution Wording-Use Precision Restoration"
   - "C.36.P:1 — Problem Frame"
-line_start: 68744
-line_end: 68749
+line_start: 68746
+line_end: 68751
 dependencies:
   - "A.1"
   - "A.15"

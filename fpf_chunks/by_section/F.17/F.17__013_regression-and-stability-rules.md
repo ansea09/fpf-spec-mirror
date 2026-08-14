@@ -6,12 +6,12 @@ section_id: "F.17:11"
 section_title: "Regression and stability rules"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__013_regression-and-stability-rules.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:11 — Regression and stability rules"
-line_start: 96800
-line_end: 96812
+line_start: 96816
+line_end: 96828
 dependencies:
   - "A.1.1"
   - "A.10"

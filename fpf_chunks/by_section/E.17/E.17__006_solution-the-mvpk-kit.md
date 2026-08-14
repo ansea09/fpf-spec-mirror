@@ -6,12 +6,12 @@ section_id: "E.17:5"
 section_title: "Solution — the MVPK Kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17/E.17__006_solution-the-mvpk-kit.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17 — Multi‑View Publication Kit"
   - "E.17:5 — Solution — the MVPK Kit"
-line_start: 81215
-line_end: 81546
+line_start: 81217
+line_end: 81548
 dependencies:
   - "A.10"
   - "A.15.4"
@@ -188,7 +188,7 @@ When a publication-facing unit, publication face, rendering, narrower-use render
 | Is the primary issue explanation-facing rendering class on an existing MVPK face? | `E.17.EFP ExplanationFaithfulnessProfile`. |
 | Is the primary issue one bounded comparative review unit over sources? | `E.17.ID.CR ComparativeReviewUnit`. |
 | Did the EntityOfConcern, target, ontology frame, or claim or relation record named by value change? | `A.6.4`, `OntologicalReframing`, or the retargeting or reframing pattern named by value. |
-| Is the publication-facing unit being used as bridge, substitution, equivalence, "same", "equivalent", "align", or "map" wording, or cross-context comparison relation? | Use Part F and `A.6.9` for repairing "same", "equivalent", "align", or "map" wording into explicit bridge work; use `F.9` or `F.9.1` for Bridge Cards, bridge kind, direction, `CL`, loss notes, bounded use, and stance overlays. Comparison alone is not a bridge. |
+| Is the publication-facing unit being used as bridge, substitution, equivalence, "same", "equivalent", "align", or "map" wording, or cross-context comparison relation? | Use Part F and `A.6.9` to repair the wording. Use F.9 for the obtaining Bridge, bounded-use claim, optional `CL`, evidence and loss boundaries, and optional Card. Use F.9.1 only for a separate stance note about that claim. Comparison alone is not a Bridge, and a publication face is neither the Bridge nor the note. |
 | Is the live question carrier, export, OCR, screen, front-end behavior, or work on carriers? | `A.7` and the exact carrier relation, front-end relation, or work-on-carrier record. |
 
 **Evidence-path boundary.** An `A.10` evidence/provenance path, including one that cites attestation, freshness, or a G.11 currentness result, carries only the claim named by value it instantiates. It does not approve or authorize work, pass a gate, perform work, supply release permission, or raise assurance or engineering-justification use unless the typed project-side FPF kind and reference named by value that carries that downstream claim is also instantiated, such as `A.15.4`, `A.15`, `A.20`, `A.21`, or `B.3`.
@@ -235,7 +235,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 **Source-gap states.** When the source relation is missing, say which source gap is present: source not named; source named but unavailable; source available but not used; source used but insufficient; source stale or outside its window; source contradicted; or mismatch among the source-maintenance System, any maintenance Work admitted by A.15.1 and F.6, the status register, and a separately established responsibility relation. Assignment establishes neither source-maintenance responsibility nor status-register authority. Block only the unsupported effect and keep any reduced bounded use available.
 
-**Measure and display overread.** A number, score, percentage, color, rank, confidence value, similarity value, dashboard state, or measurement display is orientation only until its measurement source, aggregation rule, time window, scope, calibration or evidence path, and intended use are recoverable. Use `A.10` for evidence, `B.3` for assurance, `A.20`/`A.21` for gate use, `A.15.4` plus the recovered work relation for work reliance, and `F.9`/`F.9.1` for bridge or substitution claims.
+**Measure and display overread.** A number, score, percentage, color, rank, confidence value, similarity value, dashboard state, or measurement display is orientation only until its measurement source, aggregation rule, time window, scope, calibration or evidence path, and intended use are recoverable. Use `A.10` for evidence, `B.3` for assurance, `A.20`/`A.21` for gate use, `A.15.4` plus the recovered work relation for work reliance, and F.9 for a Bridge or bounded-use claim. Use F.9.1 only for an optional stance note about an already constituted claim.
 
 **World-contact stop.** A face does not self-refresh after source update, revocation, policy change, holon-state change, incident, model update, environmental change, or new observation. Refresh the source, reissue the publication, or recover the new concrete project-side record before downstream work, evidence, gate, control, carrier, or reliance continues.
 
@@ -253,7 +253,7 @@ This preservation rule also applies across extraction, translation, screenshotti
 
 - **Green dashboard tile.** A tile says `Model ready`. Treat the tile as the `PublicationUnit` when that tile carries the present release overread. The useful publication use is source-finding and status orientation unless an exact `GateDecisionRef`, gate profile, source relation, and evidence or currentness relation are recoverable. Without those, the tile is not release permission or gate passage by green color or placement.
 - **Generated explanation with source links.** A generated text explains a method and cites sources. The explanation rendering is not source replacement. Source links carry only the pinned operative claims they actually carry. If work or reliance is present, use `A.10` for the evidence path named by value or keep the rendering as reader help; if the rendering is deliberately reduced-use, use `A.6.3.CSC`.
-- **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparator or sorting relation, source references, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or bridge relation needs `F.9` or `F.9.1`.
+- **Comparison table.** A table compares two methods and places one first. Ordering is not selection. The comparator or sorting relation, source references, shared review frame, and unsupported downstream claim remain visible. Choice or decision needs `C.11`; equivalence or a Bridge needs F.9, while F.9.1 may add only an optional stance note about an established bounded-use claim.
 - **Unrecovered source wording.** A draft uses source-object wording, undeclared interpretive-view shorthand, or generic unit wording without naming the FPF kind. Recover the FPF kind and relation positions instead of minting source-relation pseudo-kinds or undeclared interpretive-view pseudo-kinds. Use `PublicationUnit` only when a bounded reader-inspected unit inside a publication is present; otherwise use the exact episteme, view, publication, carrier relation, section of a named non-pattern FPF publication form whose reader-help function and reference are recoverable, `A.6.P` relation claim, or typed project-side FPF kind and reference named by value.
 - **Translated tutorial.** A translated tutorial can improve reader access to an FPF pattern. It is a derivative rendering, not the original source. Operative claims need source mapping for reliance, translated heads can need `E.17.AUD.LHR` or `C.2.P`, and `F.18` is present only when durable naming, UTS, Core-facing, or cross-context naming work is intended.
 

@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__002_problem-frame.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:1 — Problem frame"
-line_start: 82311
-line_end: 82322
+line_start: 82313
+line_end: 82324
 dependencies:
   - "A.15"
   - "A.15.4"

@@ -6,12 +6,12 @@ section_id: "E.17.1:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__013_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:12 — Relations"
-line_start: 80602
-line_end: 80612
+line_start: 80604
+line_end: 80614
 dependencies:
   - "A.16.0"
   - "A.22"

@@ -6,12 +6,12 @@ section_id: "C.2.4:17"
 section_title: "Threshold Crossing and Split Handling"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.4/C.2.4__018_threshold-crossing-and-split-handling.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "C.2.4 — U.ArticulationExplicitness"
   - "C.2.4:17 — Threshold Crossing and Split Handling"
-line_start: 43905
-line_end: 43915
+line_start: 43904
+line_end: 43914
 dependencies:
   - "A.16"
   - "A.16.0"

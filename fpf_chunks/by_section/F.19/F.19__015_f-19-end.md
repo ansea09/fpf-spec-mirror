@@ -6,12 +6,12 @@ section_id: "F.19:End"
 section_title: "F.19:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__015_f-19-end.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:End — F.19:End"
-line_start: 98843
-line_end: 98846
+line_start: 98859
+line_end: 98862
 dependencies:
   - "A.19.SPR"
   - "A.6.P"

@@ -6,7 +6,7 @@ section_id: "A.6.A:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.A/A.6.A__013_relations.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "A.6.A — Action-Invitation Precision Restoration (ACT-INV)"
   - "A.6.A:12 — Relations"
@@ -65,5 +65,5 @@ This pattern is scoped to **action-invitation repair and endpoint continuation**
 `actionInvitation(...)` should be classified through `A.6.B` and connected to `A.15` when work enactment is live toward gates, commitments, methods, or work. Operator-facing starter senses such as `AIS.AlertInterventionCue` or `AIS.OperatorInterventionCue` should not be buried under generic `AIS.InterfaceAffordance` when human factors and policy hooks substantively differ.
 
 #### A.6.A:12.3 - Governance boundary
-Bridge stances, articulation-state subject patterns, authority-reference fields, and language-state facet characteristics are **referenced** by this pattern but remain governed by `F.9.1`, `A.16`, `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`.
+This pattern may cite an F.9 Bridge and bounded-use claim, an optional F.9.1 stance note, an A.16 articulation-state result, authority-reference fields, or language-state facet characteristics from `C.2.LS`, `C.2.4`, `C.2.5`, `C.2.6`, and `C.2.7`; it does not redefine any of them.
 

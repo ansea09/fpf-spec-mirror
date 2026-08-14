@@ -6,12 +6,12 @@ section_id: "F.8:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__001_intro.md"
-commit_sha: "11f2345e65e4b2ec5b84c0cecde4c9485834d28d"
+commit_sha: "646b41f84ffef4918ad9bdb34e7b450f0c4903ee"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:intro — Intro"
-line_start: 92960
-line_end: 92965
+line_start: 92964
+line_end: 92969
 dependencies:
   - "A.11"
   - "A.15"
