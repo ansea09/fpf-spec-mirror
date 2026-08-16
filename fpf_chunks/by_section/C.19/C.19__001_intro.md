@@ -6,14 +6,13 @@ section_id: "C.19:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__001_intro.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:intro — Intro"
-line_start: 49622
-line_end: 49637
+line_start: 49306
+line_end: 49321
 dependencies:
-  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -21,6 +20,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.19"
   - "C.22.PFR"
   - "C.24"
   - "C.28"
@@ -28,19 +28,22 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "E.17"
-  - "E.23"
   - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
   - "already-live candidate pool"
+  - "audience availability"
   - "change trigger"
   - "explore-exploit"
   - "governing lens"
   - "keep frontier"
   - "narrow to subset"
   - "pool-policy result"
+  - "publication face"
+  - "publication occurrence"
+  - "selector-facing declaration"
   - "sunset line"
   - "widen"
 ---
@@ -53,11 +56,11 @@ keywords:
 
 **Plain-name.** Explore-exploit governor.
 
-**Intent.** State and test exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit and auditable, and so one pool-policy result does not take over local choice, enactment, selector-result declaration, or publication-availability questions.
+**Intent.** State and test exploration and exploitation policy over still-live candidate pools so frontier treatment, graduation, narrowing, and sunset treatment stay explicit and auditable. A C.19 result governs pool treatment only; `C.19:4.4` routes a question that has moved to another operation or result.
 
 **Export relation.** `C.19` defines no generation operation. Use it to state and test live-pool treatment records over candidate pools, fronts, archive regions, family regions, and cultural live pools.
 
-**Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` and `G.11` for selector-facing set-result declaration and refresh.
+**Depends on.** `C.18` for archive and front stewardship, `C.16` for characteristic and measurement claims, `A.19.CPM` and `A.19.SelectorMechanism` for comparison and selection kernels, `B.3` for assurance-sensitive confidence claims, and `G.5` for ordinary selector and default tokens.
 
-**Coordinates with.** `C.11` for local choice among already-available options, `C.24` for enactment planning after choice, `G.5` for selector-facing set-result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `C.17`, and `G.9`.
+**Coordinates with.** `C.17` for compatible characteristic results and `G.9` for parity comparison. `C.19:4.4` names the exact next-pattern coordination when the live question changes.
 

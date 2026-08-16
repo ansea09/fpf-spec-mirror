@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/F.17.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.17 — Unified Term Sheet"
-line_start: 95908
-line_end: 97120
+line_start: 95681
+line_end: 96893
 dependencies:
   - "A.1.1"
   - "A.10"

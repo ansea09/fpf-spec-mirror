@@ -6,12 +6,12 @@ section_id: "B.3.5:10"
 section_title: "Bias-Annotation (auditable, human-first)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__012_bias-annotation-auditable-human-first.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:10 — Bias-Annotation (auditable, human-first)"
-line_start: 39521
-line_end: 39536
+line_start: 39529
+line_end: 39544
 dependencies:
   - "B.3"
   - "C.13"

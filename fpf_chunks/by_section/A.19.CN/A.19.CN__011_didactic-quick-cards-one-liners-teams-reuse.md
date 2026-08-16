@@ -6,12 +6,12 @@ section_id: "A.19.CN:10"
 section_title: "Didactic quick cards (one‑liners teams reuse)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__011_didactic-quick-cards-one-liners-teams-reuse.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:10 — Didactic quick cards (one‑liners teams reuse)"
-line_start: 30537
-line_end: 30550
+line_start: 30546
+line_end: 30559
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -37,11 +37,11 @@ keywords:
 
 ### A.19.CN:10 - Didactic quick cards (one‑liners teams reuse)
 
-1. **Numbers travel with their Context.** Always cite `Context@Edition`.
+1. **Numbers travel with their basis.** Cite the characteristic and scale editions, bearer, reference or comparison basis, scope/window, and result.
 2. **If the normalization is not declared, the trend is fiction.**
 3. **WLNK beats wishful means.** Use weakest‑link folds for safety.
 4. **Admit → Assert → Act.** (CN‑frame admission → RSG StateAssertion → Method step).
-5. **Bridge or bust.** Cross‑context = Bridge with CL and loss notes.
+5. **Relate before reuse.** When local meanings differ, establish the exact Bridge, then state the separate receiving use, direction, rule, and tolerated loss.
 6. **Steward writes, Certifier admits.** (SoD by design.)
 7. **Charts are recipes.** Name the `MethodDescription` that made the number.
 8. **Deprecate in the open.** CN‑frame cards carry DRR & retirement plans.

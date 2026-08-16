@@ -6,12 +6,12 @@ section_id: "F.6:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__006_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:4 — Solution"
-line_start: 92018
-line_end: 92140
+line_start: 91816
+line_end: 91940
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -100,10 +100,12 @@ An assertion can state the exact pair, and evidence can support reliance on that
 
 Before checking or relying on attribution, recover RA's declared species and occurrence. This distinguishes the assignment even when the final practitioner sentence omits its full declaration. Every species declares:
 
-- a `HolderSystemSlot` whose value domain is `U.System`;
-- a declaration-local `AssignedSystemRoleKindSlot` whose value domain is the exact local system-role kind;
-- every additional participant meaning and value domain;
+- a `HolderSystemSlot` whose `ValueKind` is `U.System`;
+- a declaration-local `AssignedSystemRoleKindSlot` whose `ValueKind` is the exact local system-role-kind domain admitted for that species;
+- every additional participant meaning and its `ValueKind`;
 - the rule, applicability, and maximal uninterrupted occurrence identity.
+
+An assignment occurrence supplies one participant value for each slot. In particular, it supplies one local system-role-kind value from the `AssignedSystemRoleKindSlot` domain; the value does not replace or narrow that declared domain.
 
 A simple assignment may have only holder and kind. A project appointment may also have `ReviewCommissionSlot`. F.6 accepts both through the family ValueKind and holder projection while retaining the declared species and all participants that distinguish the assignment occurrence. Those participants and the assignment rule still do not establish that the Work was performed under the assignment; the case must establish that link separately. F.6 never creates a two-participant generic assignment beside the appointment.
 

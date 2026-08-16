@@ -6,12 +6,12 @@ section_id: "F.8:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__003_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:1 — Problem Frame"
-line_start: 92571
-line_end: 92578
+line_start: 92374
+line_end: 92379
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,22 +45,23 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:1 - Problem Frame
 
-Name pressure is often a sign of unresolved ontology. A project wants one short expression, but that expression may stand for several different governed values or uses: one local sense, an already selected designation, a public row, a `SystemRoleKindDescription` label, a status value, a method name, a Work occurrence label, a policy identifier, or a new U-kind candidate.
+Name pressure often reveals an unresolved subject. One word may be offered for different things—for example, a designation, local system-role kind, optional description of that kind, assignment occurrence, status value, policy identifier, or Work label. Shared spelling proves none of these identities.
 
-The dangerous shortcut is to decide by word form or administrative setting. If the word contains `Role`, it is treated as a local system-role kind. If the same spelling appears under two schemes, it is treated as the same concept. If a source standard uses the name, the name is promoted. If a record says a decision was made, the record is treated as the decision occurrence. If a label such as `PatternReview_2026` surrounds the work, it is treated as a context, system-role kind, assignment, evidence source, or authority without recovering the actual object and relation.
-
-F.8 delays naming until the exact governed value, effective naming ReferenceScheme, local-sense basis, and proposed use are recovered. It is the gate between a local expression and a stronger naming disposition, not the naming style guide and not the subject pattern of the named value.
+F.8 therefore asks what the expression will designate and for which use before judging the wording. It is the gate from a local expression to a stronger naming treatment. It neither defines the governed value nor performs the later naming work.
 

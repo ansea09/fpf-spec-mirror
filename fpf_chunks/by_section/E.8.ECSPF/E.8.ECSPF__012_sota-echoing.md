@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__012_sota-echoing.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:11 — SoTA-Echoing"
-line_start: 73217
-line_end: 73226
+line_start: 72957
+line_end: 72971
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,11 +28,16 @@ keywords:
 
 ### E.8.ECSPF:11 - SoTA-Echoing
 
-**Source-use convention.** This section uses source rows only where they change the publication form: evaluated object and use before checklist, coordinate meanings and missingness, worked cases, non-scalar comparison, protected trade-offs, or action-guiding recognition text. Reporting frameworks and standards are reference-only use unless they solve the publication-form problem named by value.
+**Source-use convention and qualification.** The current-source decisions below are qualified through 2026-08-15 for the identified editions and this publication-form question. Each source is used only for the content named in its row. Reopen the smallest affected row when a new edition, successor, or materially better competitor changes that adopted content, its scope, or its currentness; a bibliographic change alone does not reopen the pattern.
 
-| Claim | Current practice line | Use of source and representative sources | Adoption in E.8.ECSPF | Boundary |
+| Source and stable identity | Adopted content | Change made here | Boundary | Reopen condition |
 |---|---|---|---|---|
-| Evaluation rubrics are useful only when criteria, value meanings, and use context are explicit. | Current reporting practice makes evaluation cards, scenario descriptions, metric meanings, raw-result visibility, intended use, and performance-characteristic reporting explicit. | **Current-practice and reference use.** BenchmarkCards and EvalCards are current evaluation-card reporting sources; HELM, VHELM, and AHELM are current suite-reporting sources for scenarios, metrics, inference settings, prompts, raw outputs, and comparable reporting; model cards are retained lineage for intended-use and performance-characteristic reporting. | The publication form must publish evaluated object kind, use, coordinate meanings, missingness, and worked cases before checklist closure. | `E.8.ECSPF` is not a benchmark harness, model-card schema, automated evaluator, or reporting standard. |
-| Multicriteria evaluation needs non-scalar comparison and trade-off visibility. | Current QD and multicriteria practice keeps dimensions, dominance, trade-offs, objective heads, and diversity or descriptor choices visible when one total score would hide important loss. | **Current-best source use for QD overview in this narrow use, plus retained lineage.** `A survey on Quality-Diversity optimization: Approaches, applications, and challenges`, *Swarm and Evolutionary Computation* 100:102240 (2026), supplies the current QD overview used here. MCDA and older QD practice are retained lineage for dimensions, dominance, and trade-offs. | The publication form keeps coordinate values, protected trade-offs, and status meanings distinct. | Scalarization belongs only in an explicitly declared local method or where the applicable neighbouring pattern defines or constrains that claim. |
-| Pattern publication must remain action-guiding. | Pattern-language practice treats a pattern as reusable action guidance for recurring situations, not as a static rubric table. | **Lineage and current FPF reference use.** Pattern-language practice is retained as lineage and problem pressure; current FPF `E.8` supplies the publication-form rules for recognition text, first useful move, worked cases, and relations. | The publication form keeps recognition text and first evaluation use before coordinate tables. | `E.8.ECSPF` does not replace `E.8`; it specializes it for evaluation-characteristic-space patterns. |
+| [*BenchmarkCards: Large Language Model and Risk Reporting* (arXiv:2410.12974)](https://arxiv.org/abs/2410.12974) | Structured documentation of benchmark properties, including targeted risks and evaluation methodology, to support informed benchmark selection. | When published evaluation guidance relies on a benchmark, its source basis identifies the benchmark properties that affect coordinate or evidence selection. | BenchmarkCards documents benchmark properties. It does not define the whole evaluation process or prescribe how to measure and interpret a result. | Reopen this use if a successor changes which benchmark properties are needed for informed selection. |
+| [*Evaluation Cards: An Interpretive Layer for AI Evaluation Reporting* (arXiv:2606.09809)](https://arxiv.org/abs/2606.09809) | Composition of benchmark metadata, evaluation-run data, and model metadata into one interpretable reporting layer, with reader-sensitive interpretation. | The publication form keeps benchmark description, run evidence, evaluated-object metadata, and the evaluation result distinguishable when those values are required. | This is the 2026 *Evaluation Cards* paper. A separate 2025 proposal called *EvalCards* is not a source here unless its content is deliberately selected and identified. | Reopen if the reporting layers or their interpretive use materially change. |
+| [*Holistic Evaluation of Language Models* (HELM, arXiv:2211.09110)](https://arxiv.org/abs/2211.09110) | Standardized scenario-and-metric comparison, multi-metric visibility, stated coverage and missingness, and inspectable prompts and completions. | The pattern publishes the declared scenario or use, metric or coordinate meanings, missingness, and evidence needed for comparison instead of a bare aggregate. | HELM is a language-model evaluation suite, not a general FPF publication method. | Reopen if HELM's comparison discipline is superseded for the adopted scenario, metric, or evidence use. |
+| [*VHELM: A Holistic Evaluation of Vision Language Models* (arXiv:2410.07112)](https://arxiv.org/abs/2410.07112) | The HELM comparison discipline extended to vision-language models, with modality-relevant aspects and standardized prompting, inference, metrics, and released generations. | A claimed cross-modality evaluation must publish the modality-specific use, procedure, and evidence that actually affect its coordinates. | Only the vision-language extension is adopted; VHELM does not justify claims about every evaluated object or modality. | Reopen if a successor changes the adopted vision-language procedure or exposes a missing modality boundary. |
+| [*AHELM: A Holistic Evaluation of Audio-Language Models* (arXiv:2508.21376)](https://arxiv.org/abs/2508.21376) | The HELM comparison discipline extended to audio-language models across audio-relevant aspects, with standardized prompts, inference parameters, metrics, and released outputs. | An audio-language evaluation must publish the audio-specific use, procedure, and evidence that change its coordinates. | AHELM is an audio-language source, not an agent-evaluation source and not evidence for unrelated modalities. | Reopen if a successor changes the adopted audio-language procedure or exposes a missing audio boundary. |
+| [*A survey on Quality-Diversity optimization: Approaches, applications, and challenges* (2026, DOI 10.1016/j.swevo.2025.102240)](https://doi.org/10.1016/j.swevo.2025.102240) | Current overview, for this narrow question, of QD feature or descriptor spaces, local quality and objective heads, diversity, containers, comparison or dominance, and evaluation metrics. | The publication form keeps dimensions, comparison rules, and protected trade-offs visible when an aggregate would hide loss. | QD is optimization over a declared feature space, not a universal evaluation architecture. A bounded scalarization remains separately declared with its use, loss, and non-use boundary. | Reopen if a newer synthesis changes the QD comparison used here or if this pattern claims more than the narrow non-scalar lesson. |
+
+Model-card literature and classic pattern-language literature remain historical lineage for intended-use reporting and action-guiding publication. The retained publication lesson is concrete: put recognition and the first evaluation use before coordinate tables. This lineage is not presented as current-best evidence for the question. Current FPF `E.8` supplies the internal authoring rule and is not an external SoTA source.
 

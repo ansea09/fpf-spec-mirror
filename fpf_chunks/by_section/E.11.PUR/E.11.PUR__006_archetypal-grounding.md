@@ -6,12 +6,12 @@ section_id: "E.11.PUR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUR/E.11.PUR__006_archetypal-grounding.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.11.PUR — Pattern-Use Applicability, Recommendation, and Coordination"
   - "E.11.PUR:5 — Archetypal Grounding"
-line_start: 78528
-line_end: 78567
+line_start: 78326
+line_end: 78365
 dependencies:
   - "A.15"
   - "A.19"

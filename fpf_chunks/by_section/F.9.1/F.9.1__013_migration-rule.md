@@ -6,12 +6,12 @@ section_id: "F.9.1:12"
 section_title: "Migration rule"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9.1/F.9.1__013_migration-rule.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.9.1 — Bridge Stance Note"
   - "F.9.1:12 — Migration rule"
-line_start: 93791
-line_end: 93801
+line_start: 93564
+line_end: 93574
 dependencies:
   - "A.10"
   - "A.6.3.CSC"

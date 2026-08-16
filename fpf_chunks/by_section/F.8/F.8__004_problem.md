@@ -6,12 +6,12 @@ section_id: "F.8:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__004_problem.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:2 — Problem"
-line_start: 92579
-line_end: 92593
+line_start: 92380
+line_end: 92390
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,29 +45,28 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:2 - Problem
 
 Without this pattern:
 
-1. **Local phrases become durable names.** A temporary phrase outlives its use and looks like FPF vocabulary.
-2. **Source names capture FPF.** One tradition's word becomes the selected FPF name before its local sense and cross-local fit are shown.
-3. **Role expressions become system-role ontology.** `EvidenceRole`, `RequirementRole`, `AccessRole`, or `ProviderRole` is promoted without checking whether one exact context-local system-role kind exists for `U.System` candidates.
-4. **System-role-kind names hide assignments.** A `SystemRoleKindDescription` label is treated as if a system were already assigned to the kind.
-5. **Public rows overreach.** A row admitted for naming is reused for assignment, measurement, equivalence, or structural inference.
-6. **Aliases change meaning.** A prettier label is introduced but silently changes kind, scope, occurrence identity, or use.
-7. **Kernel inflation follows comfort.** A new U-kind is proposed because existing names feel awkward.
-8. **Policy identifiers appear as strings.** A policy identifier is reused without a separately resolvable policy specification, or introduced for an accountable use without the direct basis for its mint decision or choice occurrence.
-9. **Decision records act by proxy.** A filled card or record is treated as if it performed the decision or created its governed value.
-10. **Locality labels become objects.** A review, team, project, or date label is made into a generic context and then used to manufacture work, roles, evidence, status, or authority.
+1. **Local or source wording becomes durable ontology.** A temporary phrase or familiar standard term survives without a recovered subject and use.
+2. **Role-like wording collapses different objects.** A local system-role kind, its optional F.4 description, an A.2.1 assignment, performed Work, or another governed relation receives one misleading label.
+3. **Reuse widens silently.** An alias changes meaning, or an F.17 row admitted for naming is reused for equivalence, assignment, measurement, or structural inference.
+4. **Naming is asked to admit ontology.** A proposed U-kind enters F.8 before E.24.UK has settled whether the result is an admitted kind, reused kind, local kind, or recovered non-kind object.
+5. **Identifiers and records act by proxy.** A policy identifier lacks a resolvable specification, or a filled record is treated as the decision occurrence or result it describes.
+6. **Locality labels become subjects.** A review, team, project, or date label is used as if it created Work, assignment, evidence, status, or authority.
 

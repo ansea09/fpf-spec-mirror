@@ -6,12 +6,12 @@ section_id: "B.1.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.3/B.1.3__008_conformance-checklist-normative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.1.3 — Γ_epist - Knowledge‑Specific Aggregation"
   - "B.1.3:7 — Conformance Checklist (normative)"
-line_start: 36089
-line_end: 36101
+line_start: 36097
+line_end: 36109
 dependencies:
   - "A.1"
   - "A.12"

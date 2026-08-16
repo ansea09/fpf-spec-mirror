@@ -6,12 +6,12 @@ section_id: "B.3:10.1"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__013_sota-echoing.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:10.1 — SoTA-Echoing"
-line_start: 39011
-line_end: 39029
+line_start: 39019
+line_end: 39037
 dependencies:
   - "A.10"
   - "A.15"

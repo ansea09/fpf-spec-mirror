@@ -6,12 +6,12 @@ section_id: "A.19.USCM:5"
 section_title: "Archetypal Grounding — informative"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.USCM/A.19.USCM__007_archetypal-grounding-informative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.USCM — Unified Scoring Mechanism, USCM"
   - "A.19.USCM:5 — Archetypal Grounding — informative"
-line_start: 32193
-line_end: 32222
+line_start: 32200
+line_end: 32229
 dependencies:
 keywords:
   - "CG-Spec.MinimalEvidence"
@@ -29,7 +29,7 @@ keywords:
 
 Think of USCM as **admissibility‑gated scoring**:
 
-* Input: “an admitted profile of measures, in this context slice, plus CN-Spec governance card and CG-Spec admissibility gate”
+* Input: “an admitted profile of measures for this exact bearer, criteria, scope and window, comparison basis, evidence policy, and result use, plus the CN-Spec and CG-Spec editions that declare those bounds”
 * Output: “a set of score measures that downstream steps may compare/select on”
 
 The key didactic boundary is: **USCM is allowed to transform measures only within the admissibility surface (SCP+CSLC), and it must not hide normalization, aggregation, or ordering.**
@@ -41,7 +41,7 @@ A program manager evaluates competing rollout plans for a product launch.
 * The admitted profile includes measures like `{Cost, LeadTime, Reliability, RiskExposure, CarbonPerUnit}`.
 * The CG‑Spec’s `SCP` admits only scale‑lawful transforms (e.g., monotone transforms on ratio/interval measures, explicit unit alignment rules, and prohibited operations on ordinal measures).
 * USCM runs `Score(...)` and outputs a score profile such as `{UtilityScore, RiskScore}` rather than forcing a single number.
-* A plan lacks sufficient evidence for `RiskExposure` in this context slice; `ScoreEligibility` returns `degrade`, and the audit records the effective MinimalEvidence policy and the editions of `CNSpecRef` and `CGSpecRef`.
+* A plan lacks sufficient evidence for `RiskExposure` for the named planning bearer, selected claim slices, and qualification window; `ScoreEligibility` returns `degrade`, and the audit records the effective MinimalEvidence policy and the exact CN-Spec and CG-Spec editions.
 
 Downstream steps can now compare and select with an explicit audit trail, instead of pretending that “the score was objective.”
 

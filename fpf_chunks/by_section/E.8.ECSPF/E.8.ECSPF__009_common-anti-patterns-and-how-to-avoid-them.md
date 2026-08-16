@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 73192
-line_end: 73206
+line_start: 72930
+line_end: 72946
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -32,9 +32,11 @@ keywords:
 |---|---|---|
 | **Score-sheet pattern.** | The pattern is mostly a table of values. | Move evaluated object kind, use, first evaluation use, FPF-publication boundary, and practical consequence into recognition text before the table. |
 | **Checklist-as-solution.** | Users are told only what must be checked. | Put the actual evaluation method and record shape in `Solution`; let checklist rows verify it. |
-| **Publication-form/content collapse.** | The FPF pattern is treated as the evaluated object being evaluated or evaluation result. | State that the pattern is a publication form for the `CharacteristicSpace`; the evaluated object and evaluation result are separate. |
+| **Publication-form/content collapse.** | The accepted specification, its `CharacteristicSpace`, the pattern, the evaluated object, the later evaluation, and its result are treated as one thing. | State what each is and show that the pattern teaches the accepted specification; none of the other objects becomes the pattern. |
 | **Positive-only case bank.** | Every example passes. | Add below-floor and outside-declared-object-kind boundary cases. |
-| **Related-pattern authority theft.** | The pattern claims authority over evidence, assurance, release, measurement, naming, or improvement. | Use the applicable pattern to define, constrain, or test each such claim; keep only the evaluation claim here. |
+| **Undeclared total.** | Ordinal coordinate values are added, averaged, or collapsed into an “overall score”. | Keep the coordinates visible; if a bounded scalarization is separately admitted, name its method, use, loss, and non-use boundary. |
+| **Proxy improvement.** | A visible coordinate rises while a protected value becomes worse, yet the result is called improved. | Compare the changed values and protected trade-offs; stop or reopen when the evaluation rewards the loss. |
+| **Related-pattern authority theft.** | The pattern claims authority over evidence, assurance, a gate or release decision, measurement, naming, or improvement. | Cite the applicable pattern and state the concrete contribution used here; keep only the evaluation claim in this pattern. |
 | **Rubric promotion.** | A local rubric becomes an FPF pattern because it was useful once. | Keep it local unless durable FPF reuse and evaluated-object scope are established and every outside claim names the applicable pattern and its contribution. |
 | **Frozen evaluation publication form.** | The evaluated EntityOfConcern kind, use, use of a cited source, source adoption/adaptation/rejection decision, or coordinate meanings change, but the pattern keeps the old values as if still current. | Reopen `A.19.ECS` for the evaluation EntityOfConcern and state whether earlier evaluation results remain comparable, need a bridge, or must be retired. |
 | **Report-shaped evaluation pattern.** | The pattern publishes coordinate names but leaves the returned result as a narrative, score list, or two-column table. | Add a result-form block: coordinate, value, short rationale, evidence basis, and coordinate-specific payload where needed. |

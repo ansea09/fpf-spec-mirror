@@ -6,12 +6,12 @@ section_id: "F.4:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__003_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:1 — Problem Frame"
-line_start: 91380
-line_end: 91387
+line_start: 91178
+line_end: 91185
 dependencies:
   - "A.15"
   - "A.15.1"

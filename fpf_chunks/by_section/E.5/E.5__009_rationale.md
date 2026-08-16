@@ -6,12 +6,12 @@ section_id: "E.5:8"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5/E.5__009_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.5 — Four Guard‑Rails of FPF"
   - "E.5:8 — Rationale"
-line_start: 71881
-line_end: 71893
+line_start: 71568
+line_end: 71580
 dependencies:
   - "E.2"
   - "E.3"

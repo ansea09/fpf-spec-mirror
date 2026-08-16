@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__001_intro.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:intro — Intro"
-line_start: 62813
-line_end: 62821
+line_start: 62500
+line_end: 62508
 dependencies:
   - "A.10"
   - "A.15"

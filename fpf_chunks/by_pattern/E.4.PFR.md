@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.4.PFR.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
-line_start: 71481
-line_end: 71806
+line_start: 71168
+line_end: 71493
 dependencies:
   - "A.10"
   - "A.6.0"

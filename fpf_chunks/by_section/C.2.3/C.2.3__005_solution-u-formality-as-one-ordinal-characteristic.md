@@ -6,12 +6,12 @@ section_id: "C.2.3:4"
 section_title: "Solution - U.Formality as one ordinal characteristic"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.3/C.2.3__005_solution-u-formality-as-one-ordinal-characteristic.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.2.3 — Unified Formality Characteristic F"
   - "C.2.3:4 — Solution - U.Formality as one ordinal characteristic"
-line_start: 42932
-line_end: 42970
+line_start: 42940
+line_end: 42978
 dependencies:
   - "A.16"
   - "A.18"

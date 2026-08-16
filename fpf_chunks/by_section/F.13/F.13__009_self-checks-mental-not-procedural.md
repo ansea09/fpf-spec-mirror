@@ -6,12 +6,12 @@ section_id: "F.13:8"
 section_title: "Self‑checks (mental, not procedural)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.13/F.13__009_self-checks-mental-not-procedural.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.13 — Lexical Continuity & Deprecation"
   - "F.13:8 — Self‑checks (mental, not procedural)"
-line_start: 94672
-line_end: 94679
+line_start: 94445
+line_end: 94452
 dependencies:
   - "F.1"
   - "F.10"

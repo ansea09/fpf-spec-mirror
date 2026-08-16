@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:End"
 section_title: "E.10.MOVE:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__014_e-10-move-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:End — E.10.MOVE:End"
-line_start: 76089
-line_end: 76090
+line_start: 75887
+line_end: 75888
 dependencies:
   - "A.1.STM"
   - "A.10"

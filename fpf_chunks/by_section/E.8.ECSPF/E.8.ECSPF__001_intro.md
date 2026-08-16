@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__001_intro.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:intro — Intro"
-line_start: 73064
-line_end: 73069
+line_start: 72751
+line_end: 72756
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -26,7 +26,7 @@ dependencies:
 keywords:
 ---
 
-## E.8.ECSPF - Evaluation CharacteristicSpace FPF Pattern Publication Form
+## E.8.ECSPF - FPF Pattern Publication Form for Evaluation Guidance
 
 > **Type:** Authoring method pattern
 > **Status:** Stable

@@ -6,12 +6,12 @@ section_id: "E.8:0.2"
 section_title: "What this buys"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__004_what-this-buys.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0.2 — What this buys"
-line_start: 72428
-line_end: 72454
+line_start: 72115
+line_end: 72141
 dependencies:
   - "E.10"
   - "E.10.MOVE"

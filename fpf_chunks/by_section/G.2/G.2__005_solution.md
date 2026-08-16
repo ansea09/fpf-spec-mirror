@@ -6,12 +6,12 @@ section_id: "G.2:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__005_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:4 — Solution"
-line_start: 99482
-line_end: 99792
+line_start: 99255
+line_end: 99565
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -68,7 +68,7 @@ keywords:
 
   CorePinsRequired := {
     // Scope pins (G.2‑specific)
-    CG-FrameContext,
+    CGFrameId, // identifies the exact CG-frame, which is the declared framing episteme; its cited ClaimGraph keeps source and edition, claim regions, EntityOfConcern, comparison basis, and intended use recoverable
     Tradition[],
     entityOfConcern := ⟨GroundingHolon, ReferencePlane⟩,
     SoTA_SetId,
@@ -111,12 +111,12 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
    **Constraint (normative):** `SoTA_Set@CG‑Frame` **MUST** be reconstructible from pack components by id (no “hidden extra set”).
 
 1. **`G.2a CorpusLedger`**
-   Ledger of candidate sources with Context and triage status (e.g., include / park / retire) and explicit rationale hooks.
+   Ledger of candidate sources. Each row names the exact source and edition, claim region used, triage status (for example, include, park, or retire), evidence locator, and rationale for this CG-frame and receiving use.
 
 2. **`G.2b ClaimSheets[Tradition]`**
    Typed Claim Sheets per `Tradition`, each with:
 
-* explicit `U.BoundedContext` and `entityOfConcern`,
+* exact source and edition, claim region, effective ReferenceScheme where meaning matters, EntityOfConcern, and comparison basis for the stated use,
 * explicit evidence anchors/citations (A.10 and/or EvidenceGraph refs when available),
 * explicit freshness window notes and risk/trust cues *(cite `B.3` governing definitions when using trust/decay language)*.
 
@@ -128,7 +128,7 @@ Each named component is addressable via a stable **pack‑local identifier** (e.
    If any row asserts substitution or fusion across sources or across `Tradition` records, the pack **MUST** attach a `GammaEpistSynthId` record (alias: **`G.2‑F`**) per `G.2:Ext.GammaEpistSynthesis` (no silent fusion).
 
 5. **`G.2e MicroExamples`**
-   Worked micro‑examples for load‑bearing claims, each citing A.10 carriers, declaring context + `entityOfConcern`, and annotating assurance type(s) (`TA`/`VA`/`LA`, where applicable).
+   Worked micro-examples for load-bearing claims. Each names the exact source and edition, claim region, EntityOfConcern, comparison basis, and intended use; cites its A.10 carrier or evidence path; and annotates applicable assurance types (`TA`, `VA`, or `LA`). The example card is only a publication form for those claims.
 
 6. **`G.2f UTSProposals`**
    Draft Name Cards + Minimal Definitional Sheets (MDS) + alias proposals (incl. concept‑set linkage where applicable), with the required publication pins.
@@ -171,7 +171,7 @@ When authoring `ClaimSheets[Tradition]`, teams often benefit from a single‑pag
 A conforming `G.2` pack publication is built by iterating the following conceptual loop until the declared gates are satisfied:
 
 1. **Declare scope and plurality.**
-   Declare `CG-FrameContext`, the initial `Tradition` set, and the `entityOfConcern` surface for each intended claim region. Record these declarations in the pack pins (not as implicit assumptions).
+   Identify the exact CG-frame (the declared framing episteme), the initial `Tradition` set, each intended claim region and EntityOfConcern, the comparison basis, and the receiving use. Record the cited CG-frame and source editions and evidence anchors in the pack pins rather than hiding them in a generic context field.
 
 2. **Discover and triage sources (ledger‑first).**
    Populate `CorpusLedger` via:
@@ -193,7 +193,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
    If a `G.2` pack publication asserts fusion or substitution across sources or across `Tradition` records (beyond mere “parallel divergent claims”), it **MUST** emit `GammaEpistSynthId` records per `G.2:Ext.GammaEpistSynthesis` (provenance union + explicit object alignment refs + assurance tuple refs), and it **MUST** keep penalties routed to `R_eff` only by delegation (`CC‑GCORE‑PEN‑1`).
 
 7. **Publish teachable micro‑groundings.**
-   Attach worked micro‑examples to load‑bearing claims, each tied to A.10 carriers and declaring context + `entityOfConcern`.
+   Attach worked micro-examples to load-bearing claims, each tied to the exact source and edition, claim region, EntityOfConcern, comparison basis, intended use, and A.10 carrier or evidence path.
 
 8. **Apply gates and record repairs.**
    Enforce `FamilyCoverageFloorK` (and any optional diversity‑by‑distance gate). If a gate fails, the pack **MUST**:
@@ -214,7 +214,7 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 | Interface         | Consumes                                                      | Produces                                                                    |
 | ----------------- | ------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| **G.2‑1 Harvest** | `CG-FrameContext`, initial `Tradition[]`, `HarvestPolicyRef?`  | `SoTA Synthesis Pack@CG‑Frame` (G.2a–G.2l)                                  |
+| **G.2-1 Harvest** | exact CG-frame (the declared framing episteme) identified by `CGFrameId`, initial `Tradition[]`, source edition and claim-region boundary, EntityOfConcern, comparison basis, receiving use, `HarvestPolicyRef?` | `SoTA Synthesis Pack@CG-Frame` (G.2a-G.2l) |
 | **G.2‑2 Extend**  | existing Pack + new sources/anchors + updated policy pins     | updated Pack + RSCR‑relevant trigger emissions (canonical kinds)            |
 | **G.2‑3 HandOff** | Pack                                                          | `CHR‑handoff` (to G.3), `CAL‑handoff` (to G.4), `Registry‑handoff` (to G.5) |
 
@@ -277,15 +277,15 @@ A conforming `G.2` pack publication is built by iterating the following conceptu
 
 * `DHCMethodRef.edition`
 * `WindowRef?` *(if the DHC series is windowed)*
-* `DHCSenseCellId[]` *(pack‑local ids for emitted DHC SenseCells; if any are public, cite via `UTSRowId[]`)*
-* `UTSRowId[]?` *(only if any DHC SenseCells / series ids are minted/evolved as public ids)*
+* exact F.17 `SchemeSenseCell` refs used by the DHC comparison set (use `SenseCellAddressRef` where a durable address is needed; cite `UTSRowId[]` only for independently public ids)
+* `UTSRowId[]?` *(only if a cited cell or series id is independently minted or evolved as a public id)*
 * `PathId[]` / `PathSliceId[]` *(when alignment summaries cite evidence paths via G.6)*
 
 **RSCRTriggerKindIds:** `{RSCRTriggerKindId.EditionPinChange, RSCRTriggerKindId.EvidenceSurfaceEdit, RSCRTriggerKindId.TelemetryDelta}`
 
 **Notes (extension discipline):**
 * If DHC alignment summaries are emitted, this extension ensures the DHC method edition and the cited evidence paths are visible.
-* Units/constraints (governing pattern: `C.21`) must be **pinned, not redefined** here (e.g., `bridges_per_100_DHC_SenseCells`, `CL_min = 2` for cross‑Context counting, and the “CL=3 implies free substitution” interpretation when used).
+* Units and constraints governed by `C.21` are pinned, not redefined here: for example `bridges_per_100_cells`, the exact F.17 cell comparison set, exact F.9 Bridge refs, `CL_min = 2`, and the stated interpretation of `CL=3` when used. The count is over named cells and obtaining relations, not contexts.
 
 ###### G.2:4.5.4 - GPatternExtension: NQDAnnex
 

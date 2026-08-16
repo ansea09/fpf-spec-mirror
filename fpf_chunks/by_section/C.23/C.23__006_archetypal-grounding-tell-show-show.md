@@ -6,12 +6,12 @@ section_id: "C.23:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:5 — Archetypal Grounding (Tell–Show–Show)"
-line_start: 52551
-line_end: 52592
+line_start: 52238
+line_end: 52279
 dependencies:
   - "A.10"
   - "B.3"
@@ -56,7 +56,7 @@ keywords:
 *S2 excerpt.* `DataShape=MIP; NoiseModel=deterministic; Objective={↓cost@ratio, ↑service_level@ordinal}; Size≈10^5 vars; convex_relaxation=available`.
 *Families.* `MILP (branch‑and‑bound)`, `Constraint‑Programming`, `Heuristic meta‑search`.
 *Rules.*
-— `MILP`: **Eligibility** requires `convex_relaxation=available`; **MaturityCard**=`L3` in the registered `U.BoundedContext` ⇒ `Admit`.
+— `MILP`: **Eligibility** requires `convex_relaxation=available`; the cited L3 MaturityCard edition names the registered family, evidence profile, benchmark basis, claim scope, qualification window, and intended selector use ⇒ `Admit`.
 — `Constraint‑Programming`: **MaturityCard**=`L2`; Acceptance demands `service_level≥B` (ordinal predicate). With `B` met but baseline parity unknown ⇒ `Degrade(scope‑narrow)`.
 — `Heuristic meta‑search`: **MaturityCard**=`L1` ⇒ `Degrade(sandbox)` or `Abstain` depending on RSCR parity policy.
 *Didactic anchor.* Selector returns a **Pareto set** (no cross‑ordinal weighting), as required by G.5.

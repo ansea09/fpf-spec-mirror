@@ -6,12 +6,12 @@ section_id: "B.5.2:17"
 section_title: "Migration and Boundary Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.2/B.5.2__018_migration-and-boundary-notes.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.5.2 — Abductive Loop"
   - "B.5.2:17 — Migration and Boundary Notes"
-line_start: 40468
-line_end: 40480
+line_start: 40476
+line_end: 40488
 dependencies:
   - "A.10"
   - "A.16"

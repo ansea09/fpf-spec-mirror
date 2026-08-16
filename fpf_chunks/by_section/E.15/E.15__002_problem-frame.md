@@ -6,12 +6,12 @@ section_id: "E.15:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.15/E.15__002_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.15 — Lexical Authoring & Evolution Protocol  (LEX‑AUTH)"
   - "E.15:1 — Problem frame"
-line_start: 79278
-line_end: 79281
+line_start: 79076
+line_end: 79079
 dependencies:
   - "A.10"
   - "B.3"

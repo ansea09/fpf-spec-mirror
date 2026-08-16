@@ -6,12 +6,12 @@ section_id: "C.23:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.23/C.23__008_conformance-checklist-normative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.23 — MethodFamily Evidence & Maturity (Method‑SoS‑LOG)"
   - "C.23:7 — Conformance Checklist (normative)"
-line_start: 52597
-line_end: 52616
+line_start: 52284
+line_end: 52303
 dependencies:
   - "A.10"
   - "B.3"
@@ -41,11 +41,11 @@ keywords:
 
 | ID           | Requirement                                                                                                                                                                                | Purpose                                       |
 | ------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------- |
-| **CC‑C23.1** | Each `MethodFamily` **SHALL** publish a `MaturityCard` with rung justification via **A.10** anchors (lanes, freshness windows) and (if bridged) **Bridge ids** with **CL** and loss notes. | Makes maturity **auditable** and lane‑typed.  |
-| **CC‑C23.2** | `SoS‑LOG` rules **MUST** be **executable** (no prose‑only) and cite: Eligibility test result; CG‑Spec gate verdict; EvidenceProfile minima; Acceptance verdict; Γ‑fold contributors; **EvidenceGraph PathId/PathSliceId**; CL/Φ policy‑ids. | |
+| **CC-C23.1** | For each `MethodFamily`, an editioned `MaturityCard` SHALL name the exact family and registry edition, evidence profile, claim scope, qualification window, intended use, rung justification, A.10 anchors, and freshness windows; cite a relation and loss note only when the admission claim actually relies on it. | Makes maturity auditable without a generic context. |
+| **CC-C23.2** | Each executable `SoS-LOG` rule declaration MUST cite the exact MethodFamilyId and registry edition, rule and policy editions, Eligibility and CG-Spec verdicts, EvidenceProfile minima, Acceptance verdict, claim scope, qualification window, Γ-fold contributors where used, decision result, and EvidenceGraph path. Relation and loss-policy ids appear only when the branch relies on them. | Keeps every decision premise reconstructable. |
 | **CC‑C23.3** | Enumerations used by the rules (**Degrade(mode)**; Maturity rungs) **SHALL** be **closed** and **UTS‑registered** (twin labels). | |
 | **CC‑C23.4** | **Unknowns** in S2 **SHALL** map to `{degrade | abstain | sandbox}` with explicit **branch‑ids**; no `unknown→0/false` coercions.                                                          | Tri‑state discipline.                          |
-| **CC‑C23.5** | Cross-Context or cross-plane use **MUST** cite a **Bridge**; **Φ(CL)**/**Φ\_plane** **MUST** be monotone, bounded, table‑backed; penalties **→ `R_eff` only**.                                      | Keeps F/G invariant; legal CL routing.        |
+| **CC-C23.5** | If a branch relies on an F.9 Bridge, kind relation, or plane relation, it MUST cite that exact obtaining relation, direction, what meaning is preserved and what is lost, receiving use, and applicable loss policy; supported penalties affect `R_eff` only. A changed family, evidence profile, claim scope, qualification window, or use is not by itself a crossing. | Keeps `F` and `G` invariant and relation claims truthful. |
 | **CC‑C23.6** | **No thresholds** in CHR or Maturity; thresholds **live only** in **AcceptanceClauses** (G.4).                                                                                             | Separation of concerns.                       |
 | **CC‑C23.7** | `MaturityCard` **SHALL NOT** be turned into a global scalar; treat as **poset**; any ordering **MUST** be lawful over CHR types.                                                           | Forbids cross‑scale scalarisation.            |
 | **CC‑C23.8** | Publish to **UTS** with twin labels; run **GateCrossing visibility checks** on cited crossings: **CrossingBundle** attestation (**E.18/F.9/F.17/E.17/A.21** where live), **LanePurity**, and **Lexical SD** (**E.10**) under GateChecks/GateProfile (**A.21**). | Publication & crossing visibility hygiene. |

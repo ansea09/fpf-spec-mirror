@@ -6,12 +6,12 @@ section_id: "F.0.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__001_intro.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:intro — Intro"
-line_start: 90326
-line_end: 90331
+line_start: 90124
+line_end: 90129
 dependencies:
   - "E.10"
   - "E.10.D1"

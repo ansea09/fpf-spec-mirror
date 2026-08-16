@@ -6,12 +6,12 @@ section_id: "B.4.1:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.4.1/B.4.1__010_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.4.1 — Observe -> Notice -> Stabilize -> Route"
   - "B.4.1:9 — Consequences"
-line_start: 39885
-line_end: 39887
+line_start: 39893
+line_end: 39895
 dependencies:
   - "A.15"
   - "A.16"

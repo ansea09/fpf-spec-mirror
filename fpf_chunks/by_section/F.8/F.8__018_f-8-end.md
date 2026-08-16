@@ -6,12 +6,12 @@ section_id: "F.8:End"
 section_title: "F.8:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__018_f-8-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:End — F.8:End"
-line_start: 93004
-line_end: 93005
+line_start: 92777
+line_end: 92778
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,15 +45,18 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:End

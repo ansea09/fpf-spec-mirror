@@ -6,12 +6,12 @@ section_id: "F.8:7"
 section_title: "Archetypal Grounding - worked cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__009_archetypal-grounding-worked-cases.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:7 — Archetypal Grounding - worked cases"
-line_start: 92790
-line_end: 92868
+line_start: 92578
+line_end: 92626
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,15 +45,18 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:7 - Archetypal Grounding - worked cases
@@ -67,71 +70,41 @@ The source label `PatternReview_2026` is not a context object. Classify the actu
 - `PatternReviewReferenceScheme-2026` can be an effective by-value `U.ReferenceScheme` for interpreting review terminology; and
 - "used while deciding the label for the 2026 review method" can be claim content describing the decision-use setting without minting any context entity.
 
-If the independently governed `ReviewerSystemRole` is a local system-role kind, F.8 may return `nameSystemRoleKindDescription`: use `F.4` for the `SystemRoleKindDescription` episteme and `F.5` or `F.18` for the label when its durability is current. The review label does not define that kind, assign a reviewer system, or demonstrate review Work.
+If the recovered `ReviewerSystemRole` kind needs a durable local designation, F.8 returns `openDurableNamingSettlement`: A.2 and C.3 keep governing the kind, F.5 governs its designation, and F.18 supplies the settlement. This need does not require a `SystemRoleKindDescription`; use F.4 only when the practice separately needs that description. The review label defines no kind, assigns no reviewer system, and demonstrates no review Work.
 
-The expression "review report has reviewer role" is a different case. `ReviewReport-82` is an episteme. A direct evidence, source, or publication relation may later use it for an adequacy claim about a reviewed pattern; the report is not a `U.System`, is not classified by the local review-system-role kind, and cannot enter its assignment relation. Its title does not make any evidence use or publication authority obtain.
+The expression "review report has reviewer role" is a different case. `ReviewReport-82` is an episteme. An evidence, source, or publication relation may later use it for an adequacy claim about a reviewed pattern; the report is not a `U.System`, is not classified by the review-system-role kind, and cannot enter its assignment relation. Its title establishes neither evidence use nor publication authority.
 
 #### F.8:7.2 - Actor Across BPMN and PROV
 
-A manager wants one word, "actor", for a BPMN participant and a PROV agent in a diagram. First recover the two exact local senses under their effective ReferenceSchemes. If an actual F.9 Bridge relates the exact cells and one F.17 row admits naming-only use, F.8 returns `reuseAdmittedTermRow` for prose and diagram labels only.
+A manager wants one word, "actor", for a BPMN participant and a PROV agent in a diagram. First recover the two local senses under their ReferenceSchemes. If an obtaining F.9 Bridge relates the named cells and an F.17 row admits naming-only use, F.8 returns `reuseAdmittedTermRow` for prose and diagram labels only. This supports no governed-value identity, substitution, system-role assignment, or Work.
 
-No governed-value identity, substitution, system-role assignment, or Work follows. If the project later needs a local system-role kind under one scheme, it creates or reuses the local `SystemRoleKindDescription` episteme for that independently recovered kind.
+If the project later needs a local system-role kind under one scheme, it first recovers the kind through A.2 and C.3. F.5 then governs any new designation, with F.18 only for durable reuse; F.4 is added only if a separate description episteme is needed.
 
 #### F.8:7.3 - Access Role
 
-An access-control source says `ApproverRole`. Under the source's effective naming ReferenceScheme, the expression may designate a permission grouping or exact policy relation. F.8 first recovers the exact access, policy, status, or deontic assertion and predicate. Only if A.2 independently recovers an exact local approval-system-role kind does a `SystemRoleKindDescription` naming decision become current.
+An access-control source says `ApproverRole`. Under its naming ReferenceScheme, the expression may designate a permission grouping or policy relation. First recover the access, policy, status, or deontic claim and predicate. Only if A.2 and C.3 recover a local approval-system-role kind does F.8 consider a name for that kind. F.5 governs its designation, F.18 applies only for durability, and F.4 remains optional for a separately needed description.
 
-Otherwise the durable designation, if needed, belongs to the direct access, policy, status, or gate pattern. The `Role` suffix, a source card, or a selected model-use Structure creates no local system-role kind or assignment.
+Otherwise any needed durable designation belongs to the access, policy, status, or gate pattern. The `Role` suffix, a source card, or a selected model-use Structure creates no local system-role kind or assignment.
 
 #### F.8:7.4 - Policy Identifier
 
-A gate profile proposes `Aut-Guard-2026`. F.8 treats this as a policy-identifier question only after an exact policy specification is independently recoverable. Ordinary reuse resolves the existing identifier and its separate specification. Recover the original mint decision or choice occurrence only when the current reuse relies on that history for citation, replay, accountability, supersession, or another named relation. New introduction requires the direct mint basis when such a claim is made; without its predicate, participants, applicability, and occurrence identity, return `missing-governor` for that stronger claim. Any C.11 result, decision-making Work, result episteme, or displayed record stays separate.
+A gate profile proposes `Aut-Guard-2026`. F.8 treats this as a policy-identifier question only after the policy specification is recovered. Ordinary reuse resolves the identifier and specification. Recover the mint decision or choice occurrence only when reuse relies on that history for citation, replay, accountability, supersession, or another named relation. If a new introduction makes that stronger claim without an occurrence basis, return `missing-governor`. Any C.11 result, decision-making Work, result episteme, or record stays separate.
 
-The identifier is not the specification, local system-role kind, method, gate result, evidence value, permission, or source authority. It is a reference used by the pattern that defines or constrains the exact policy claim.
+The identifier is not the specification, local system-role kind, Method, gate result, evidence value, permission, or source authority. It is a reference used by the pattern that defines or constrains the governed policy claim.
 
 #### F.8:7.5 - New U-kind Candidate
 
-A team proposes `U.InfluenceEdge` because many documents use "influence". F.8 blocks immediate minting. The team must show that the candidate is not an existing relation, causal claim, evidence relation, characteristic, method relation, Bridge relation, structural name, publication form, or local frame under current patterns. If it remains cross-family, irreducible, and needed by several domain families, the proposal goes to `E.24.UK`, `A.8`, `A.11`, `C.3`, `E.9`, and `F.18`. F.8 neither creates nor admits the kind.
+A team proposes `U.InfluenceEdge` because many documents use "influence". At F.8 entry there is no recovered governed value with a stable admission disposition, so F.8 returns `blockOrLowerUse` and stops naming. If the expression still hides whether the subject is an existing relation or claim—for example, a causal, evidence, Method, or Bridge relation—or a characteristic, structural name, publication form, local frame, or another object, E.24.CD recovers that object or the unresolved proposal. A recovered governed object returns to its subject pattern; a surviving U-kind proposal goes to E.24.UK for `root`, `same-individual-dependent`, `identity-dependent`, `reuse`, `local-kind`, or `reject`. Only after that result is stable may F.8 reopen for a name of the admitted or reused kind, bounded local kind, or recovered non-kind object. F.8 creates neither the proposal object nor a public spelling and admits no kind.
 
 #### F.8:7.6 - Readable Disposition and Explicit Stops
 
-The first case needs only the light F.8 result. `PatternReviewReferenceScheme-2026` is the effective naming scheme; the actual review Work, any review plan, and this naming use remain separate. The following is a readable projection, not an identified decision occurrence or durable decision record:
+The `ReviewerRole` case closes with one readable result. The recovered kind is a local `U.Kind` for `U.System` candidates, distinguished by its stable review contribution and tested by its `KindSignature`; any assignment remains separate. The result is:
 
-```text
-CandidateExpression: ReviewerRole
-GovernedValueOrRelationRef: ReviewerSystemRole
-GovernedKindOrRelationKindRef: the admitted U.Kind for ReviewerSystemRole
-GovernedValueSubjectPatternLocator: A.2
-ProposedNamingUse: durable local label for the SystemRoleKindDescription episteme used by the review method
-EffectiveNamingReferenceScheme: PatternReviewReferenceScheme-2026
-LocalSenseClaim: local U.Kind for U.System candidates, identified by the stable review contribution and tested by its KindSignature; assignment is separate
-ReuseCandidateRefs: no existing designation or alias supports the exact proposed use
-SelectedDisposition: nameSystemRoleKindDescription
-ResultingNamingRefs: F.4 SystemRoleKindDescription authoring next; F.18 only if durable reuse remains current
-DurableDecisionOccurrence: omitted; no receiving claim needs citation, replay, or accountability
-DecisionResultEpisteme: omitted
-NonAdmissibleOverread: the disposition assigns no System, establishes no review Work or evidence use, and publishes no label
-ReopenCondition: reopen if the expression is used for evidence, status, access, source, publication, or cross-local row claims
-```
+> Under `PatternReviewReferenceScheme-2026`, use `ReviewerRole` as the Plain designation of `ReviewerSystemRole` for local review-method prose. No existing designation or alias supports that use, so select `openDurableNamingSettlement`: A.2 and C.3 continue to govern the kind, F.5 governs its designation, and F.18 supplies the durable settlement. This result creates no `SystemRoleKindDescription`, assignment, review Work, evidence use, or publication. Reopen it if the proposed use becomes evidential, status-bearing, access-related, source-facing, published, or cross-local.
 
-If a later receiving claim genuinely needs an accountable occurrence, first recover its direct decision or choice pattern, predicate, actual participants, applicability, and identity rule. No such direct pattern is current in this worked case, so the correct durable branch result is `missing naming-decision governor`; do not mint `ReviewerSystemRoleNamingDecision-2026-07-31`. A C.11 `ChoiceResult` may be used only when the case is genuinely a local choice among already available options and satisfies C.11; any dated decision-making Work remains separate under A.15.1 and F.6.
+That sentence is the F.8 result. It needs no decision occurrence or result episteme. If a later claim must cite, replay, or assign accountability to the decision, use §4.5. No naming-decision governor is available in this case, so that branch returns `missing-governor` rather than inventing `ReviewerSystemRoleNamingDecision-2026-07-31`. C.11 applies only to a genuine local choice among available options; decision-making Work remains under A.15.1 and F.6.
 
-The second case does not enter F.8. The proposed `EvidenceRole` wording has exposed an evidence-use question, but no exact governed relation, relation kind, or single subject pattern has yet been recovered. The review label again supplies no context, evidence, or authority.
+`EvidenceRole` stops earlier and does not enter F.8. The known subject is `ReviewReport-82 : U.Episteme`, proposed for evidence use concerning an adequacy claim. Still missing are the target claim and polarity, the evidence-use relation and relation kind, the provenance and any assurance or reliance use and validity window, and one subject pattern that defines the relation. Apply that pattern and keep the wording local until those facts are recovered. `PatternReviewReferenceScheme-2026` may interpret the source wording, but the review label creates no evidence relation, system-role kind, description, assignment, authority, or publication. No `SchemeSenseCell`, `LocalSenseBasisRelation`, or selected Structure is needed merely to record this stop.
 
-```text
-PreF8RecoveryStop:
-  CandidateExpression: EvidenceRole
-  KnownSubject: ReviewReport-82 : U.Episteme
-  ProposedNamingUse: reusable wording for one exact evidence-use relation
-  EffectiveNamingReferenceScheme: PatternReviewReferenceScheme-2026
-  RecoveredFact: ReviewReport-82 is proposed for evidence use concerning an adequacy claim; it is not a system and cannot be assigned to a local system-role kind
-  MissingEntryFacts: the exact target claim and polarity; the exact evidence-use relation and relation kind; provenance, assurance or reliance use, and validity window when current; one subject pattern
-  RequiredDirectPatternUse: apply the one pattern whose Solution defines the exact evidence-use relation and recover the missing entry facts there
-  LocalSenseState: no stable cell address or independently current LocalSenseBasisRelation is needed for this blocked role-word reading
-  SelectedModelUseStructureState: none; no independently selected Structure changes this use
-  DirectTerminologyProbe: test the eventual direct evidence-pattern terminology only after recovery
-  StopResult: do not enter F.8 and do not mint EvidenceRole; keep the expression local until the governed relation, exact kind, one direct pattern, and proposed naming use are present
-  NonAdmissibleOverread: this stop creates no evidence relation, local system-role kind, SystemRoleKindDescription, assignment, authority, or publication
-  ReopenCondition: enter F.8 only after one exact governed relation, its exact relation kind, one subject pattern, and the proposed naming use are independently present; reopen the direct claim first if its target claim, polarity, provenance, assurance or reliance use, or validity window changes
-```
+Re-enter F.8 only after one governed relation, its kind, its subject pattern, and the proposed naming use are available. If the target claim, polarity, provenance, assurance or reliance use, or validity window changes, reopen the subject claim rather than the name.
 

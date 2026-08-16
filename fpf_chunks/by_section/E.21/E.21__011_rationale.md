@@ -6,12 +6,12 @@ section_id: "E.21:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__011_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:9 — Rationale"
-line_start: 87758
-line_end: 87763
+line_start: 87556
+line_end: 87561
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"

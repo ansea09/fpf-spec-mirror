@@ -6,12 +6,12 @@ section_id: "G.Core:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__002_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:1 — Problem frame"
-line_start: 98232
-line_end: 98242
+line_start: 98005
+line_end: 98015
 dependencies:
   - "A.15.3"
   - "A.19"

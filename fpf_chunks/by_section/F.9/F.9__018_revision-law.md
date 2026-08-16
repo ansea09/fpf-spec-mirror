@@ -6,12 +6,12 @@ section_id: "F.9:16"
 section_title: "Revision law"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__018_revision-law.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:16 — Revision law"
-line_start: 93434
-line_end: 93444
+line_start: 93207
+line_end: 93217
 dependencies:
   - "A.10"
   - "A.15.1"

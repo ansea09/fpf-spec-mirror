@@ -6,12 +6,12 @@ section_id: "D.4:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__005_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:2 — Solution"
-line_start: 69131
-line_end: 69186
+line_start: 68818
+line_end: 68873
 dependencies:
   - "A.10"
   - "A.20"

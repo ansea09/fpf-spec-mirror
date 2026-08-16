@@ -6,12 +6,12 @@ section_id: "A.19.UNM:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__006_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:4 — Solution"
-line_start: 31393
-line_end: 31594
+line_start: 31405
+line_end: 31601
 dependencies:
 keywords:
   - "CV→NCV"
@@ -44,7 +44,7 @@ UNM is **not** a bag of algorithms. It is a **canonical semantic surface**:
 **NormalizationMethod.** The method *kind* (class) that defines:
 1) the **invariants** it preserves (`NormalizationInvariant[*]`),
 2) its **closure rules** (composition, and inverses where defined), and
-3) its **validity rules** (scope / context / time window constraints).
+3) its **validity rules** (admitted bearer, scope, qualification window, reference or comparison basis, and intended-use constraints).
 
 **NormalizationMethodDescription.** An editioned epistemic description of a normalization method (bounds, validity region/window, scope constraints, and evidence links governed by `C.16`).
 **NormalizationMethodDescriptionRef.** A ref to an editioned `NormalizationMethodDescription`, used in `CN_Spec.normalization.method_descriptions`.
@@ -57,7 +57,7 @@ UNM is **not** a bag of algorithms. It is a **canonical semantic surface**:
 
 **NCV (NormalizedCharacteristicValue).** A normalized **value** for a coordinate (UNM does **not** “normalize characteristics”; it normalizes coordinate values under declared invariants).
 
-**`≡_UNM` (UNM‑congruence).** A context‑local equivalence relation induced by a chosen `NormalizationMethodInstance`.
+**`≡_UNM` (UNM-congruence).** The equivalence relation induced by one chosen `NormalizationMethodInstance` for its declared characteristic-space and CN-Spec editions, bearer, scope/window, reference or comparison basis, and intended comparison.
 Two charts (or chart items/views) are `≡_UNM` iff they are related by a finite chain of admissible transformations that preserve the declared invariants.
 
 **NormalizationInvariant.** A named invariant (e.g., unit alignment, polarity, reference plane) declared in `CN_Spec.normalization.invariants` and/or the selected `NormalizationMethodDescription`. Preserving the declared `NormalizationInvariant[*]` is the core admissibility claim for a normalization method instance.
@@ -66,9 +66,7 @@ Two charts (or chart items/views) are `≡_UNM` iff they are related by a finite
 **UNM_id.** An optional identifier in `CN_Spec.normalization.UNM_id?` selecting the UNM **mechanism instance** used by this CN‑frame. This is routing/governance; it is distinct from `NormalizationMethodInstanceId` (method/application).
 **ValidityWindow.** A named validity window attached to a `NormalizationMethodInstanceId`, bounding where/when the instance is admissible (no implicit “latest”).
 
-**`UNM.TransportRegistryΦ`.** An editioned anchor (single‑writer under UNM authoring) that enumerates the declared transport/plane pins and Φ‑penalties used when normalizations are reused across contexts or planes. Referenced via edition pins in suite and flow spec refs; never re‑authored downstream.
-**Alias:** `UNM.TransportRegistryPhi` is an ASCII‑safe alias token (dock via `F.18`); it is **not** a competing head.
-
+**Relation and reuse boundary.** A normalized value remains tied to the exact normalization-method instance and edition, characteristic-space and CN-Spec editions, bearer, scope and window, reference or comparison basis, evidence, and intended comparison. Reusing it does not by itself establish a transfer relation. Cite an F.9 Bridge or a plane relation only when that relation actually obtains, and state the receiving use separately.
 **Lexical guard (strict distinction).** Avoid the word **`map`** / **`mapping`** for UNM transforms (especially `Map`), because `Map` is a specialized FPF term and creates ontology drift. Prefer “normalization”, “re‑parameterization”, “transform under invariants”.
 Legacy κ‑notation for normalization is retired; do not re‑introduce it.
 
@@ -96,19 +94,18 @@ Legacy κ‑notation for normalization is retired; do not re‑introduce it.
 - `A.17/A.18` (measurement meaning & scale lawfulness; not redefined here)
 
 **SubjectBlock**
-- `SubjectKind`: `NormalizationMethod classes` (with induced `≡_UNM` over charts/views)
-- `GovernedValueDomain`: chart/`U.CharacteristicSpace` family in a CN-frame (one `U.BoundedContext`), where normalization acts on coordinate values (`CV`) for measurable slots (UNM normalizes **values**, not characteristics)
-- `SliceSet`: `U.ContextSliceSet` (context is explicit; no implicit “global normalization”)
-- `ExtentRule`: “coordinate values admitted for normalization within the declared context and the method instance validity window”
+- `SubjectKind`: `NormalizationMethod classes` (with induced `≡_UNM` over admitted chart items or views)
+- `GovernedValueDomain`: coordinate values (`CV`) for named measurable slots in the exact `U.CharacteristicSpace` and CN-Spec editions; UNM normalizes **values**, not characteristics
+- `BearerAndUseBoundary`: the exact bearer, scope and window, reference or comparison basis, evidence, and intended comparison declared for those values
+- `ExtentRule`: “coordinate values admitted by the selected CN-Spec for this bearer and use, within the normalization-method instance's declared validity window”
 - `ResultKinds`:
   - `NormalizedCharacteristicValue (NCV)`
-  - `UNM‑congruence (≡_UNM)`
-  - optional quotient objects and/or `Normalization‑fixed` representatives (via `NormalizationFixSpec`)
-
+  - `UNM-congruence (≡_UNM)`
+  - optional quotient objects and/or `Normalization-fixed` representatives (via `NormalizationFixSpec`)
 **SlotIndex (derived projection; minimum)**
 - `CharacteristicSpaceSlot : ⟨ValueKind = U.CharacteristicSpace, refMode = U.CharacteristicSpaceRef⟩`
 - `CNSpecSlot : ⟨ValueKind = CN‑Spec, refMode = CNSpecRef⟩`
-- `ContextSlot : ⟨ValueKind = U.BoundedContext, refMode = U.BoundedContextRef⟩`
+- The `CNSpecSlot` resolves the exact bearer, claim scope and selected slices, qualification window, reference or comparison basis, evidence requirements, and intended comparison; these qualify the use and do not form a generic setting SlotKind.
 
 UNM‑specific slots (must be alias‑docked into the CHR SlotKind lexicon if used across the suite):
 - `NormalizationMethodInstanceSlot : ⟨ValueKind = NormalizationMethodInstanceId, refMode = ByValue⟩`
@@ -122,17 +119,17 @@ UNM‑specific slots (must be alias‑docked into the CHR SlotKind lexicon if us
 
 **Authoring note (didactic).** `NormalizationMethodDescriptionSlot`, `NormalizationInvariantSetSlot`, and `NormalizationFixSlot` are typically *resolved/derived* from `CN_Spec.normalization.{method_descriptions,invariants,fix}` plus the selected `NormalizationMethodInstanceId`. They are listed here because they participate in eligibility/audit semantics — not because every operation takes them as explicit inputs.
 
-**Note (transport anchor, not a SlotKind).** When transport/plane reuse is invoked, Audit MUST cite the edition pin key `UNM.TransportRegistryΦ` (aka `UNM.TransportRegistryPhi`) in the editions vector (see Transport/Audit), rather than introducing an ad‑hoc `…Ref` kind.
+**Relation note (not a SlotKind).** A Bridge, kind relation, or plane relation is cited only when the use relies on that obtaining relation. Its declaration and receiving use remain separate from the UNM SlotIndex.
 
 **OperationAlgebra (conceptual)**
 1) `apply`
 - Preconditions: `UNM_Eligibility(…) ∈ {pass, degrade}` (fail‑closed; `abstain` ⇒ no NCV output).
-- Inputs: `NormalizationMethodInstanceSlot`, `CoordinateValueSlot`, `CharacteristicSpaceSlot`, `CNSpecSlot`, `ContextSlot`
+- Inputs: `NormalizationMethodInstanceSlot`, `CoordinateValueSlot`, `CharacteristicSpaceSlot`, `CNSpecSlot`; the selected CN-Spec supplies the exact bearer, scope/window, basis, evidence requirements, and intended comparison.
 - Outputs: `NCVSlot` (+ availability of `UNMCongruenceSlot` for the same method instance)
 
 2) `compose`
 - Purpose: build a composed method (only when explicitly declared lawful).
-- Inputs: `NormalizationMethodInstancePairSlot` (roles = {inner, outer}), `ContextSlot`
+- Inputs: `NormalizationMethodInstancePairSlot` (roles = {inner, outer}), `CharacteristicSpaceSlot`, `CNSpecSlot`; both instances must be admitted for the same declared bearer, scope/window, basis, and intended use.
 - Output: `NormalizationMethodInstanceSlot` (new composed `NormalizationMethodInstanceId`), with an explicit validity window and evidence pins.
 
 3) `quotient(≡_UNM)`
@@ -145,22 +142,22 @@ UNM‑specific slots (must be alias‑docked into the CHR SlotKind lexicon if us
 - **UNM‑L1 (Declared method class gate).** A normalization method instance is admissible only if its method is declared in the allowed method class set: `{ratio:scale, interval:affine, ordinal:monotone, nominal:categorical, tabular:LUT(+uncertainty)}`.
 - **UNM‑L1a (Method semantics are governed by the method).** `NormalizationMethod` defines invariants, closure (composition / inverses where defined), and validity rules. UNM consumes these declarations; it does not invent extra admissibility.
 - **UNM‑L2 (Congruence is first-class).** Each chosen method instance induces `≡_UNM` over charts/views; equality/comparability decisions that rely on normalization are defined on the quotient (or on a declared fix), not on raw labels.
-- **UNM‑L2a (Context-local by default).** `≡_UNM` is context‑local; cross‑context reuse requires explicit transport declarations (Bridge-only).
+- **UNM-L2a (Declared-basis locality).** `≡_UNM` holds only for the selected method instance, characteristic-space and CN-Spec editions, bearer, scope and window, reference or comparison basis, and intended comparison. A later use must show that those premises still hold or constitute a new result.
 - **UNM‑L3 (Fail‑closed).** If admissibility/evidence is insufficient (or required inputs are missing/stale), UNM does not silently coerce; it yields `abstain` or `degrade` (tri‑state guard discipline) and may surface an explicit freshness/work request (see A.19.UNM:4.5).
   *Didactic reading:* `abstain` ⇒ no lawful NCV/comparability for this slice; `degrade` ⇒ NCV may be produced but must be treated as policy‑gated and auditable (never “quietly good enough”).
 - **UNM‑L4 (No implicit indicatorization).** `NCV` does not imply “indicator”; indicator status is a separate policy step (UINDM).
-- **UNM‑L5 (Bridge‑only transport).** Cross‑context reuse of normalization requires explicit Bridge-only transport declarations (Bridge id + channel + `ReferencePlane(src,tgt)`); entityOfConcern changes require a KindBridge (`CL^k`) and the two‑bridge rule. Penalties route to the **R‑lane only** (never to F/G; if scalarized, into `R_eff`).
+- **UNM-L5 (Relation before reuse).** When a receiving comparison depends on an F.9 Bridge, kind relation, or plane relation, cite the exact obtaining relation, its direction, what it preserves or loses, and the receiving use. A change of bearer, scope, corpus, scale, method, or window is not by itself such a relation. Supported penalties route to the **R-lane only** (never to F/G; if scalarized, into `R_eff`).
 - **UNM‑L6 (Time explicitness).** Validity windows are named; no implicit “latest”.
-- **UNM‑L7 (Auditability).** The applied method instance, invariants, validity window, evidence pins, and any transport/plane declarations must be auditable as refs/pins.
-- **UNM‑L8 (No shadow writers).** When UNM publishes/updates editioned anchors used downstream (e.g., `UNM.TransportRegistryΦ`), other patterns and faces treat them as **ref‑only** (single‑writer discipline; no competing centers of gravity).
+- **UNM‑L7 (Auditability).** The applied method and CN-Spec editions, normalized values, bearer, scope and window, comparison basis, evidence pins, intended comparison, and any actually relied-on Bridge, kind relation, or plane relation must be auditable as refs or pins.
+- **UNM-L8 (No shadow writers).** Downstream patterns cite the exact method, CN-Spec, basis, and evidence editions they use; they do not re-author those anchors or make a registry substitute for them.
 - **UNM‑L9 (No publish/telemetry ops).** UNM defines no publish/telemetry step. Any publication/telemetry is out of suite closure and does not mutate UNM semantics (`NCV`, `≡_UNM`, quotient/fix); only Audit pins are produced here.
 
 **AdmissibilityConditions**
 Definition (UNM‑Eligibility):
-`UNM_Eligibility(NormalizationMethodInstanceSlot, CoordinateValueSlot, CharacteristicSpaceSlot, CNSpecSlot, ContextSlot) → GuardDecision`
+`UNM_Eligibility(NormalizationMethodInstanceSlot, CoordinateValueSlot, CharacteristicSpaceSlot, CNSpecSlot) → GuardDecision`
 where `GuardDecision ∈ {pass | degrade | abstain}` and follows this predicate semantics:
 - **pass** iff all of the following hold:
-  - (**CN‑frame binding**) the selected `NormalizationMethodInstanceId` is declared in `CN_Spec.normalization.instances` (or an equivalent declared surface), its method kind is included in `CN_Spec.normalization.methods`, and (if present) it satisfies `normalization.admissible_reparameterizations`;
+  - (**CN-Spec binding**) the selected `NormalizationMethodInstanceId` is declared in `CN_Spec.normalization.instances` (or an equivalent declared surface), its method kind is included in `CN_Spec.normalization.methods`, and (if present) it satisfies `normalization.admissible_reparameterizations`; the exact characteristic-space and CN-Spec editions, bearer, claim scope and selected slices, qualification window, reference or comparison basis, and intended comparison are recoverable;
   - (**Target coordinate binding**) the input `CV`’s `slot_id` belongs to the method instance’s declared bound coordinate set;
   - (**Scale‑regime compatibility**) the method kind is compatible with the coordinate’s regime (`ratio:scale | interval:affine | ordinal:monotone | nominal:categorical | tabular:LUT(+uncertainty)`) and preserves the declared `NormalizationInvariant[*]` (from `CN_Spec.normalization.invariants` and/or the method description);
   - (**Validity window**) the method instance’s validity window covers the active slice/time policy (no implicit “latest”);
@@ -174,28 +171,26 @@ UNM is applicable when:
 - a declared downstream step requires “compare-on-invariants” and thus requires explicit normalization.
 UNM is typically skipped when `comparability.mode = coordinatewise` (unless an explicit downstream step requires a declared quotient/fix anyway).
 
-**Transport**
-- **Bridge-only.** Any cross-context use must be expressed via explicit Bridge pins and recorded in Audit.
-- If the entityOfConcern changes, a KindBridge (`CL^k`) must be declared (two‑bridge rule).
-- If transport/plane reuse is invoked, the edition pin key `UNM.TransportRegistryΦ` (aka `UNM.TransportRegistryPhi`) MUST be cited explicitly (in addition to Bridge/CL/ReferencePlane pins); penalties remain R‑lane only.
-
+**Relation and reuse boundary**
+- A normalized value remains local to the exact method instance and edition, characteristic-space and CN-Spec editions, bearer, scope and window, reference or comparison basis, evidence, and intended comparison recorded for it.
+- If a receiving use depends on a relation between distinct source-local meanings, cite the exact F.9 Bridge, its direction, what it preserves or loses, and that receiving use. If reference planes differ and the comparison depends on their relation, cite the exact plane relation as a separate claim.
+- A changed bearer, scope, corpus, scale, method, or window does not by itself establish either relation. If the bearer kind also changes, state the separate kind relation rather than hiding it inside a Bridge. Any loss penalty remains on the R-lane and is used only when the corresponding relation claim supports it.
 **Γ_timePolicy**
 - Default: `point` (no implicit “latest”).
 - If normalization relies on time windows, the validity window is part of the method instance and must be declared.
 
 **PlaneRegime**
-- Normalized values live on the episteme ReferencePlane by default.
-- Plane crossings require explicit `CL^plane` and are audited; penalties route to `R_eff` only.
-
+- A normalized value keeps the reference plane declared for its input and intended comparison; normalization creates no implicit plane crossing.
+- When a comparison actually relies on a relation between different planes, cite that exact relation, its direction and loss, and keep its use separate from the normalization result.
 **Audit**
 Audit records MUST include:
-- `CNSpecRef.edition` + `comparability.mode`
-- (when present) `CN_Spec.normalization.UNM_id` (the selected UNM mechanism instance id for this CN‑frame)
+- `CNSpecRef.edition` + `comparability.mode`, the exact `U.CharacteristicSpace` edition, and the evaluated bearer
+- (when present) `CN_Spec.normalization.UNM_id` (the selected UNM mechanism instance id for this CN-Spec)
 - chosen `NormalizationMethodInstanceId`, its validity window, and any `NormalizationMethodDescriptionRef.edition`
 - declared `NormalizationInvariant[*]` and `NormalizationFixSpec` (if used)
-- any declared admissible re‑parameterizations (if present in `CN‑Spec.normalization`)
-- all evidence pins (as declared by the instance) and their scope ids
-- any Bridge/CL/ReferencePlane pins if transport or plane crossings are invoked, plus the edition pin key `UNM.TransportRegistryΦ/Phi`
+- any declared admissible re-parameterizations (if present in `CN_Spec.normalization`)
+- claim scope and selected slices, reference or comparison basis, intended comparison, and all evidence pins used by the instance
+- an exact F.9 Bridge, kind relation, or plane relation only when the recorded result or receiving use actually relies on it, including direction, preserved or lost meaning, and the receiving use
 - any emitted `FreshnessRequest` / work request identifiers (when applicable; see A.19.UNM:4.5)
 
 #### A.19.UNM:4.2 - CN-frame wiring: `normalization` and comparability routing (normative-by-reference)
@@ -224,6 +219,6 @@ Do not silently treat an arbitrary representative as canonical.
 When UNM is used inside transformation-flow structures/graphs (e.g., `E.18`):
 - UNM occurs **before** selection/decision steps.
 - If required measurements are **missing or stale**, UNM does not “guess a number”; it surfaces an explicit **freshness/work request** that must be planned in `U.WorkPlanning` and executed in `U.WorkEnactment`.
-- In transformation-flow terms, transport/plane reuse is surfaced as explicit calibration records and transport-policy records pinned to `TransportRegistry^Φ` (editioned as `UNM.TransportRegistryΦ`; penalties stay R‑lane only).
-- Editioned anchors referenced by faces downstream (e.g., `UNM.TransportRegistryΦ`, and admissibility anchors when applicable) remain **single‑writer**: downstream consumers cite them as refs and do not re‑author them.
+- A receiving step cites the exact normalized values, method and CN-Spec editions, bearer, scope/window, comparison basis, evidence and intended use. It cites a Bridge, kind relation or plane relation only when its conclusion actually relies on that obtaining relation and keeps any supported loss on the R-lane.
+- Downstream consumers cite editioned method, basis and evidence anchors as refs and do not re-author them.
 

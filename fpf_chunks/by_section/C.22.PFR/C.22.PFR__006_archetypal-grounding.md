@@ -6,12 +6,12 @@ section_id: "C.22.PFR:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.PFR/C.22.PFR__006_archetypal-grounding.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.22.PFR — Problematic-For Relation"
   - "C.22.PFR:5 — Archetypal Grounding"
-line_start: 51669
-line_end: 51698
+line_start: 51356
+line_end: 51385
 dependencies:
   - "A.10"
   - "A.15.1"

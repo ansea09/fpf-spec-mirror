@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__011_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:10 — Rationale"
-line_start: 73213
-line_end: 73216
+line_start: 72953
+line_end: 72956
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,5 +28,5 @@ keywords:
 
 ### E.8.ECSPF:10 - Rationale
 
-The split between `A.19.ECS` and `E.8.ECSPF` preserves the FPF distinction between an evaluation characteristic-space specification and its publication form. `A.19.ECS` says what must exist for an evaluation to be adequate. `E.8.ECSPF` says how that adequate evaluation is authored as an FPF pattern when FPF publication is selected. This prevents two symmetric mistakes: stuffing FPF pattern-format requirements into a general characteristic-space construction method, and publishing an evaluation-characteristic-space pattern whose coordinate set is not recoverable by value.
+The split between `A.19.ECS` and `E.8.ECSPF` preserves the distinction between an evaluation characteristic-space specification, the pattern that teaches its use, a later evaluation, and the resulting record. `A.19.ECS` says what the specification must contain. `E.8.ECSPF` says how to carry that accepted content into an FPF pattern when durable publication is selected. This prevents two symmetric mistakes: stuffing FPF pattern-format requirements into a general characteristic-space construction method, and publishing guidance whose accepted coordinate set is not recoverable by value.
 

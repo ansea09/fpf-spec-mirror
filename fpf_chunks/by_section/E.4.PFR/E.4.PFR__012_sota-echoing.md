@@ -6,12 +6,12 @@ section_id: "E.4.PFR:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__012_sota-echoing.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:10 — SoTA-Echoing"
-line_start: 71786
-line_end: 71797
+line_start: 71473
+line_end: 71484
 dependencies:
   - "A.10"
   - "A.6.0"

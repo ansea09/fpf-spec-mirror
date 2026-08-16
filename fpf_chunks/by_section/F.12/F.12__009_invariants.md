@@ -6,12 +6,12 @@ section_id: "F.12:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.12/F.12__009_invariants.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.12 — Service Acceptance–Work Evidence Link"
   - "F.12:8 — Invariants"
-line_start: 94448
-line_end: 94462
+line_start: 94221
+line_end: 94235
 dependencies:
   - "A.10"
   - "A.15.1"

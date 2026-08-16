@@ -6,12 +6,12 @@ section_id: "B.1.4:1.2"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.1.4/B.1.4__004_forces.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.1.4 — Contextual and Temporal Aggregation"
   - "B.1.4:1.2 — Forces"
-line_start: 36174
-line_end: 36183
+line_start: 36182
+line_end: 36191
 dependencies:
   - "A.1.1"
   - "A.14"

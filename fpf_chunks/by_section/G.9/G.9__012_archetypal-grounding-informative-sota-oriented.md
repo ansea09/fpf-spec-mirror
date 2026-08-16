@@ -6,12 +6,12 @@ section_id: "G.9:8"
 section_title: "Archetypal grounding (informative; SoTA‑oriented)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.9/G.9__012_archetypal-grounding-informative-sota-oriented.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.9 — Parity and Benchmark Harness"
   - "G.9:8 — Archetypal grounding (informative; SoTA‑oriented)"
-line_start: 103331
-line_end: 103344
+line_start: 103114
+line_end: 103127
 dependencies:
   - "A.19"
   - "A.21"

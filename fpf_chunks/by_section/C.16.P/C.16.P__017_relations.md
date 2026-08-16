@@ -6,12 +6,12 @@ section_id: "C.16.P:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16.P/C.16.P__017_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.16.P — Characteristic and Scale Precision Restoration"
   - "C.16.P:13 — Relations"
-line_start: 47616
-line_end: 47627
+line_start: 47624
+line_end: 47635
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "C.22.2:24"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__025_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:24 — Consequences"
-line_start: 52407
-line_end: 52425
+line_start: 52094
+line_end: 52112
 dependencies:
   - "A.10"
   - "A.15"

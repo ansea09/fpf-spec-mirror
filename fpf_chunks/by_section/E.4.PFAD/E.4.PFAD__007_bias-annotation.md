@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__007_bias-annotation.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:6 — Bias-Annotation"
-line_start: 70558
-line_end: 70565
+line_start: 70245
+line_end: 70252
 dependencies:
   - "A.6.RCD"
   - "A.6.REL"

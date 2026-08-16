@@ -6,12 +6,12 @@ section_id: "A.19.SelectorMechanism:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.SelectorMechanism/A.19.SelectorMechanism__013_sota-echoing.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.SelectorMechanism — Unified Selection Kernel, SelectorMechanism"
   - "A.19.SelectorMechanism:11 — SoTA-Echoing"
-line_start: 33382
-line_end: 33414
+line_start: 33390
+line_end: 33422
 dependencies:
 keywords:
   - "SelectEligibility"

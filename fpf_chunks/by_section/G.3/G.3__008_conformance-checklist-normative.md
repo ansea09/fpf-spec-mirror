@@ -6,12 +6,12 @@ section_id: "G.3:7"
 section_title: "Conformance Checklist (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__008_conformance-checklist-normative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:7 — Conformance Checklist (normative)"
-line_start: 100314
-line_end: 100337
+line_start: 100097
+line_end: 100120
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -27,8 +27,10 @@ dependencies:
   - "E.10"
   - "E.5.1"
   - "E.5.3"
+  - "F.0.1"
   - "F.1"
   - "F.17"
+  - "F.18"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -60,7 +62,7 @@ keywords:
 | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **CC‑G3‑CoreRef** | `G.3` is conformant only if the applicable `G.Core` obligations declared in `G.3:4.1` are satisfied (effective expansion of profiles/sets + deltas; explicit pins; typed RSCR triggers; defaults with one governing definition).                       |
 | CC‑G3‑01          | `CHR Pack@CG‑Frame` is published as a notation‑independent kit payload with the minimum exported objects listed in `G.3:4.2`.                                                                                                         |
-| CC‑G3‑02          | Every `CHR.Characteristic` has an explicit declared `Context`, an explicit `ReferencePlane`, and a filled `ObservableOf` field (instrument/protocol + uncertainty model + validity window).                                               |
+| CC-G3-02 | Every `CHR.Characteristic` names its exact characteristic and scale editions, its bearer as the `entityOfConcern`, claim scope and applicable slices, any applicable qualification and evaluation windows, `ReferencePlane`, method or model edition when it affects interpretation, evidence refs, intended downstream use, and a filled `ObservableOf` field (instrument or protocol, uncertainty model, and validity window). |
 | CC‑G3‑03          | Every `CHR.Characteristic` declares its `ScaleRef`, `Polarity`, and `UnitSet` (or an explicit “unitless” declaration), plus bounds/zero semantics where applicable.                                                                   |
 | CC‑G3‑04          | Missingness is typed in the CHR artefacts such that downstream tri‑state handling is possible without silent coercion. *(Tri‑state semantics are governed by `G.Core`; the typing obligation is CHR‑local.)*                              |
 | CC‑G3‑05          | `CHR.Scale` / `CHR.Level` artefacts encode the scale type and admissible transforms, and make illicit arithmetic checkable by downstream consumers.                                                                                   |

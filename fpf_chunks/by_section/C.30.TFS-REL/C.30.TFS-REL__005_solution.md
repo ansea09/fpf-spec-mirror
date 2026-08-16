@@ -6,12 +6,12 @@ section_id: "C.30.TFS-REL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.TFS-REL/C.30.TFS-REL__005_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.30.TFS-REL — Architecture Transformation-Flow Structure Relation"
   - "C.30.TFS-REL:4 — Solution"
-line_start: 62914
-line_end: 63141
+line_start: 62601
+line_end: 62828
 dependencies:
   - "A.10"
   - "A.15"

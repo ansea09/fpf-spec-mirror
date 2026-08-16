@@ -6,12 +6,12 @@ section_id: "E.14:8"
 section_title: "Conformance Checklist (normative; author‑facing duties for thought and prose)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.14/E.14__011_conformance-checklist-normative-author-facing-duties-for-thought-and-prose.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.14 — Human‑Centric Working‑Model"
   - "E.14:8 — Conformance Checklist (normative; author‑facing duties for thought and prose)"
-line_start: 79151
-line_end: 79209
+line_start: 78949
+line_end: 79007
 dependencies:
   - "B.3.5"
   - "C.13"

@@ -6,12 +6,12 @@ section_id: "G.2:5"
 section_title: "Archetypal Grounding (System / Episteme)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__006_archetypal-grounding-system-episteme.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:5 — Archetypal Grounding (System / Episteme)"
-line_start: 99793
-line_end: 99800
+line_start: 99566
+line_end: 99573
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -53,7 +53,7 @@ keywords:
 
 | Template element   | `U.System` illustration                                                                                                                                                                                                                                                  | `U.Episteme` illustration                                                                                                                                                                                                                               |
 | ------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| **Tell**           | A safety engineering team needs to choose a control stack across multiple engineering “schools” (robust control, learning‑based control, formal verification), under a declared operational context and a concrete `entityOfConcern` (the vehicle + operating envelope). | A research group must synthesize SoTA on “decision quality” across competing lineages (causal decision theory, evidential variants, bounded rationality, and active‑inference‑style formalisms), each with distinct evidence norms and semantics.       |
-| **Show (failure)** | The team merges terms across contexts, treats incompatible test protocols as comparable, and collapses multiple partially ordered trade‑offs into one unqualified score. The resulting design cannot explain why a later safety review disagrees.                        | The group produces a single “best” metric of decision quality and retrofits definitions to fit it. Later, conflicting claims cannot be traced because evidence anchors and crossing losses were never made explicit.                                    |
-| **Show (repair)**  | A conformant `G.2` pack keeps parallel Claim Sheets per `Tradition`, publishes explicit alignment/loss notes where reuse is attempted, and emits hand‑offs so CHR/CAL/selection can be authored without re‑inventing semantics.                                          | A conformant `G.2` pack preserves plural claims, publishes explicit bridge‑backed alignment where justified, represents indicators as families/variants, and makes evidence anchors and freshness windows visible so downstream re‑audits are possible. |
+| **Tell** | A safety engineering team needs to choose a control stack across robust-control, learning-based, and formal-verification lineages. It identifies the exact CG-frame (the declared framing episteme), vehicle and operating-envelope EntityOfConcern, source editions, claim regions, test or comparison basis, evidence anchors, and intended decision use. | A research group synthesizes SoTA on decision quality across named causal, evidential, bounded-rationality, and active-inference lineages, keeping each source edition, local claim, evidence norm, comparison basis, and intended research use explicit. |
+| **Show (failure)** | The team merges source-local terms, treats incompatible test protocols and populations as comparable, and collapses partially ordered trade-offs into one unqualified score. A later safety review cannot recover which source, claim region, basis, or evidence supported the choice. | The group publishes one “best” metric and retrofits definitions to it. Conflicting claims cannot be traced because source editions, evidence anchors, comparison bases, and any actual cross-source relation were never made explicit. |
+| **Show (repair)** | Keep parallel Claim Sheets with exact sources, editions, claim regions, EntitiesOfConcern, comparison bases, and evidence. Cite an F.9 Bridge and loss only for an actual relation. Authors of CHR, CAL, and selection methods can then use the citable claims without attributing authority to a card. | Preserve plural claims, represent indicators as families or variants, and expose freshness and evidence. Any justified alignment names its exact cells and obtaining relation; the card or matrix merely represents that result. |
 

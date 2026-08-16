@@ -6,12 +6,12 @@ section_id: "E.4.PFAD:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFAD/E.4.PFAD__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.4.PFAD — Principle-Framework Architecture Decision"
   - "E.4.PFAD:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70579
-line_end: 70589
+line_start: 70266
+line_end: 70276
 dependencies:
   - "A.6.RCD"
   - "A.6.REL"

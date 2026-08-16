@@ -6,12 +6,12 @@ section_id: "G.2:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__002_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:1 — Problem frame"
-line_start: 99454
-line_end: 99464
+line_start: 99227
+line_end: 99237
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"
@@ -54,9 +54,9 @@ keywords:
 A team extends FPF into a new `CG‑Frame`. The relevant literature is typically:
 
 * **plural** (multiple `Tradition` lineages with incompatible commitments),
-* **context‑sensitive** (results depend on `U.BoundedContext` and declared `entityOfConcern`),
+* **source- and use-sensitive** (results depend on the exact source and edition, claim region, EntityOfConcern, comparison basis, evidence, and receiving use),
 * **method‑heterogeneous** (different evidence styles, operator sets, and validity regions),
 * **time‑sensitive** (rapid drift post‑2015; frequent benchmark/protocol shifts).
 
-Downstream Part‑G work (CHR/CAL/selection/shipping/refresh) depends on the team producing **consumable, citation‑ready artefacts** without collapsing semantic boundaries across contexts or planes.
+Downstream Part-G work in CHR, CAL, selection, shipping, and refresh depends on citation-ready claims that keep each exact CG-frame, source edition, claim region, EntityOfConcern, comparison basis, evidence anchor, and actual cross-source relation recoverable.
 

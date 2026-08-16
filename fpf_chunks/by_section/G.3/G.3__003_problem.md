@@ -6,12 +6,12 @@ section_id: "G.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__003_problem.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:2 — Problem"
-line_start: 99958
-line_end: 99969
+line_start: 99731
+line_end: 99742
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -27,8 +27,10 @@ dependencies:
   - "E.10"
   - "E.5.1"
   - "E.5.3"
+  - "F.0.1"
   - "F.1"
   - "F.17"
+  - "F.18"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -58,11 +60,11 @@ keywords:
 
 Without a disciplined CHR authoring layer, teams repeatedly produce “measurable slots” that are *numerically manipulable but semantically unlawful*:
 
-* **Meaning leaks** across contexts (same token, different referent/sense).
+* **Meaning leaks** when the same token is reused after its referent or sense, bearer, scope, validity window, evidence basis, or intended use has changed.
 * **Illicit arithmetic** (e.g., averaging ordinals, mixing units, laundering polarity).
 * **Hidden normalizations** that silently change scale type, polarity, or admissible transforms.
 * **Unreproducible comparisons** (missing edition pins for methods/distances/policies; unclear reference plane).
-* **Unscoped reuse** (no explicit bridge and loss notes; unclear `entityOfConcern` changes).
+* **Unscoped reuse** (the characteristic or scale lacks an exact edition, bearer, scope and validity window, reference plane, evidence basis, or intended downstream use; any relation needed for reuse is left unstated).
 * **Un-auditable aggregation** (no explicit legality surface and guard surface; no proof hooks; unclear Γ‑fold governing-definition assignment).
 * **Refresh chaos** (changes in names/editions/policies do not map to typed RSCR causes).
 

@@ -6,12 +6,12 @@ section_id: "C.3.2:15"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.2/C.3.2__017_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.3.2 — Kind Intent, Membership Judgment, and Extension"
   - "C.3.2:15 — Consequences"
-line_start: 45044
-line_end: 45051
+line_start: 45052
+line_end: 45059
 dependencies:
   - "A.14"
   - "A.2.6"

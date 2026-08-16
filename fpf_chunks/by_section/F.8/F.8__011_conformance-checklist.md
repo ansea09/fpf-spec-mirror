@@ -6,12 +6,12 @@ section_id: "F.8:8"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__011_conformance-checklist.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:8 — Conformance Checklist"
-line_start: 92904
-line_end: 92922
+line_start: 92662
+line_end: 92680
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,33 +45,36 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:8 - Conformance Checklist
 
 | Check | Pass condition |
 | --- | --- |
-| `CC-F8-01` | One candidate expression, one exact independently governed value or relation, its direct pattern, and one proposed use are named before the disposition. |
-| `CC-F8-02` | Mixed system-role-kind, system-role-assignment, status, evidence, source, requirement, method, Work, measurement, policy, publication, or structure uses are split by governed value and use. |
-| `CC-F8-03` | Effective naming ReferenceScheme and exact local-sense claim are explicit; a cell, basis relation, or selected Structure appears only when independently current. |
-| `CC-F8-04` | Local phrase, existing designation, alias, direct-pattern name, and admitted F.17 row were tried before any stronger naming object. |
-| `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, and authority boundary. |
-| `CC-F8-06` | A role expression becomes a durable local system-role-kind name only after A.2 has recovered the exact context-local `U.Kind`, its `U.System` candidate domain, contribution identity basis, `KindSignature`, and `SystemRoleKindDescription`; assignment remains separate. |
-| `CC-F8-07` | Assignment and performed-Work claims use `A.2.1`, `F.6`, and `A.15.1`, not naming. |
-| `CC-F8-08` | Status, evidence, access, source, requirement, publication, assurance, gate, decision, and relation-position names return to subject patterns. |
-| `CC-F8-09` | F.17 row reuse stays within the row's `AdmissibleUse`; local-sense reuse and equal spelling imply neither F.9 Bridge nor equivalence. |
-| `CC-F8-10` | Ordinary use creates no durable decision object. Any cited decision or choice occurrence resolves its direct pattern, predicate, actual participants, applicability, and occurrence identity; otherwise the result is `missing-governor`. Any C.11 result, decision-making Work, C.2.1 episteme, displayed record, and resulting naming objects remain distinct. |
-| `CC-F8-11` | `PatternReview_2026` or another locality label is reclassified as exact Work, plan/edition, decision-use claim content, or effective ReferenceScheme when that object is current; the label creates none of them. |
-| `CC-F8-12` | New U-kind candidates cite cross-family recurrence, irreducibility, `E.24.UK`, and the accepted direct admission basis; F.8 claims no admission. |
-| `CC-F8-13` | A policy identifier resolves its separate specification and explicit scope. A local non-accountable introduction requires no manufactured occurrence. A cited, replayed, normative, cross-local, or accountable mint history additionally resolves the direct pattern, predicate, actual participants, applicability, and identity basis for its occurrence; without them, that stronger branch returns `missing-governor`. Any result record or Work remains separate. |
-| `CC-F8-14` | The result states its non-admissible overread and the smallest condition that reopens it. |
+| `CC-F8-01` | The expression, governed value or relation, subject pattern, and proposed use are named before the disposition. |
+| `CC-F8-02` | An expression that covers several governed subjects or uses is split; for example, a kind, assignment, evidence use, policy, Method, or Work is not handled as one naming case. |
+| `CC-F8-03` | The naming ReferenceScheme and local-sense claim are stated. A cell, basis relation, or selected Structure appears only when the naming use needs that object. |
+| `CC-F8-04` | Local phrase, existing designation, alias, subject-pattern name, and admitted F.17 row were tried before a stronger naming object. |
+| `CC-F8-05` | Reuse preserves kind, scope, occurrence identity, local-sense claim, admitted use, authority, and lineage. |
+| `CC-F8-06` | A system-role-kind designation follows A.2 and C.3 recovery of the kind and does not require an F.4 description. If the description is separately needed, its label remains distinct from the kind designation. |
+| `CC-F8-07` | Classification, assignment, and performed Work remain under C.3, A.2.1, F.6, and A.15.1 rather than being inferred from a name. |
+| `CC-F8-08` | Any other governed subject—for example, a status, evidence use, access value, policy, publication use, or relation position—returns to its subject pattern before naming. |
+| `CC-F8-09` | F.17 row reuse stays within `AdmissibleUse`; spelling or local-sense reuse implies neither an F.9 Bridge nor equivalence. |
+| `CC-F8-10` | Ordinary use creates no decision object. The accountable branch resolves the decision or choice occurrence through the pattern that admits it or returns `missing-governor`, while any C.11 result, Work, result episteme, record, and naming object stays separate. |
+| `CC-F8-11` | A locality label such as `PatternReview_2026` is interpreted as the Work, plan, claim content, ReferenceScheme, or other object actually present; the label creates none of them. |
+| `CC-F8-12` | An unsettled U-kind proposal receives only `blockOrLowerUse` and the needed E.24.CD or E.24.UK route. Naming reopens only for the object identified by a stable admission result. |
+| `CC-F8-13` | A policy identifier resolves its specification and scope. When its mint history is cited, replayed, normative, cross-local, or accountable, the occurrence basis required by §8.1 is also recoverable; otherwise that stronger claim returns `missing-governor`. |
+| `CC-F8-14` | The result states the boundary that must not be inferred and the smallest change that reopens the decision. |
 

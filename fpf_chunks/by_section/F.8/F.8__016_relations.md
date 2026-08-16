@@ -6,12 +6,12 @@ section_id: "F.8:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__016_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:13 — Relations"
-line_start: 92983
-line_end: 92999
+line_start: 92756
+line_end: 92772
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,31 +45,34 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:13 - Relations
 
 **Builds on.** `A.7`, `E.24.UK`, `A.8`, `A.11`, `E.10`, `E.10.ARCH`, `F.1`, `F.2`, `F.3`, `F.5`, `F.9`, `F.14`, `F.17`, and `F.18`.
 
-**Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.6.RCD`, `A.15`, `A.15.1`, `C.11`, `F.4`, `F.6`, `F.10`, `F.13`, `F.15`, `C.2.1`, `C.3`, `E.9`, `E.24.CD`, `E.24.PUB`, and the direct status-use, evidence-use, source-use, publication-use, requirement-use, assurance, gate, decision, choice, policy, method, Work, characteristic, and architecture patterns.
+**Coordinates with.** `A.2`, `A.2.1`, `A.2.5`, `A.2.7`, `A.6.5`, `A.6.RCD`, `A.15`, `A.15.1`, `C.11`, `F.4`, `F.6`, `F.10`, `F.13`, `F.15`, `C.2.1`, `C.3`, `E.9`, `E.24.CD`, and `E.24.PUB`, plus the subject pattern for any other governed value.
 
 **Constrains.**
 
-- `F.5` names only after F.8 has selected the exact naming case.
-- Use `F.4` only for local `SystemRoleKindDescription` naming cases.
-- `F.9` governs an actual Bridge between exact cells; `F.17` governs any admitted public-row use before F.8 reuses it.
+- `F.5` names only after F.8 has selected the naming case.
+- Use `F.4` only for a separately needed `SystemRoleKindDescription`; naming the local kind itself does not require that episteme.
+- `F.9` governs an obtaining Bridge between F.17 cells; `F.17` governs admitted public-row use before F.8 reuses it.
 - `F.18` expands durable naming only after lighter dispositions have failed.
 - `F.14` supplies the anti-explosion stop before every stronger F.8 disposition.
 - `F.15` may check the resulting distinctions; it neither chooses the disposition nor creates a naming object.
 
-**Does not replace.** The subject patterns for the value or relation, decision occurrence, local system-role kind, `U.SystemRoleAssignment`, performed Work, status, evidence, source, publication, requirement, assurance, gate, policy, method, relation slot, characteristic, architecture, selected Structure, or their descriptions.
+**Does not replace.** The subject pattern for any governed value or relation. For example, it does not replace the rules for a system-role kind, assignment, performed Work, decision occurrence, status, evidence use, policy, relation slot, selected Structure, or description episteme.
 

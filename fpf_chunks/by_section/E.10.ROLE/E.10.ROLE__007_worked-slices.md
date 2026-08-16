@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:5"
 section_title: "Worked Slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__007_worked-slices.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:5 — Worked Slices"
-line_start: 76613
-line_end: 76630
+line_start: 76411
+line_end: 76428
 dependencies:
   - "A.2"
   - "A.2.1"

@@ -6,12 +6,12 @@ section_id: "E.5.3:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.5.3/E.5.3__004_forces.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.5.3 — Unidirectional Dependency"
   - "E.5.3:3 — Forces"
-line_start: 72077
-line_end: 72084
+line_start: 71764
+line_end: 71771
 dependencies:
   - "E.4"
   - "E.5"

@@ -6,12 +6,12 @@ section_id: "F.17:10"
 section_title: "Static conformance rules for a UTS"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__012_static-conformance-rules-for-a-uts.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:10 — Static conformance rules for a UTS"
-line_start: 96146
-line_end: 96167
+line_start: 95919
+line_end: 95940
 dependencies:
   - "A.1.1"
   - "A.10"

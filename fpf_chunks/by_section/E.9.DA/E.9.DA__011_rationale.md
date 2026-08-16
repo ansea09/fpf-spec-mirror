@@ -6,12 +6,12 @@ section_id: "E.9.DA:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__011_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:10 — Rationale"
-line_start: 73950
-line_end: 73953
+line_start: 73746
+line_end: 73749
 dependencies:
   - "A.19.ECS"
   - "E.10"
@@ -27,5 +27,5 @@ keywords:
 
 ### E.9.DA:10 - Rationale
 
-The cheapest place to repair a missing FPF decision is the DRR, before uncertainty fans out into hosts. A direct semantic judgement over the exact DRR and any triggered actual-host replay is the ordinary result. A complete coordinate table and exact evaluation/result identities are valuable only when a separately requested reusable evaluation or named later reliance needs them.
+The cheapest place to repair a missing FPF decision is the DRR, before uncertainty fans out into hosts. A direct semantic judgement over the exact DRR, the bounded omitted-question search, and any triggered actual-host replay is the ordinary result. A complete coordinate table and exact evaluation/result identities are valuable only when a separately requested reusable evaluation or named later reliance needs them. The two result forms preserve the observed trade-off between concise usable decision records and detail needed for a specific reliance; neither form substitutes for decision content.
 

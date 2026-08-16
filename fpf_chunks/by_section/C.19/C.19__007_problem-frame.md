@@ -6,14 +6,13 @@ section_id: "C.19:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__007_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:1 — Problem frame"
-line_start: 49675
-line_end: 49686
+line_start: 49359
+line_end: 49370
 dependencies:
-  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -21,6 +20,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.19"
   - "C.22.PFR"
   - "C.24"
   - "C.28"
@@ -28,32 +28,35 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "E.17"
-  - "E.23"
   - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
   - "already-live candidate pool"
+  - "audience availability"
   - "change trigger"
   - "explore-exploit"
   - "governing lens"
   - "keep frontier"
   - "narrow to subset"
   - "pool-policy result"
+  - "publication face"
+  - "publication occurrence"
+  - "selector-facing declaration"
   - "sunset line"
   - "widen"
 ---
 
 ### C.19:1 - Problem frame
-C.19 provides named, versioned policies and lenses that govern still-live pool treatment after C.18 generation, archive, or front records exist.
+C.19 describes named, versioned policies and lenses for treating a still-live pool after C.18 generation, archive, or front records exist.
 
 When `C.11` has already made local choice among one fixed `OptionSet` explicit, `C.19` begins where the question becomes policy over several still-live candidate lines, family regions, or frontier segments rather than one more local `ChoiceResult` record.
 
 Immediate failure indicators for this pattern:
-- the current pool-policy result cannot name the still-live candidate pool it is governing
+- the current pool-policy result cannot name the still-live candidate pool whose treatment it states
 - the governing lens or policy state is missing
 - the next pool-side treatment exists only as one vague promise to continue exploration later
 
-If the question is still which single option should survive now, apply `C.11`. If the next artifact must already be one enactment-facing plan, apply `C.24`. If the retained set still needs a selector-facing result declaration, apply `G.5`. If that result already exists and the question is presentation or availability to an audience, use `E.17` for its source-backed publication face and return to source and `E.24.PUB` for the publication occurrence and availability.
+If the live question is not treatment of a still-live pool, use the exact exit in `C.19:4.4`. C.19 begins or continues only while the pool-policy question is current.
 

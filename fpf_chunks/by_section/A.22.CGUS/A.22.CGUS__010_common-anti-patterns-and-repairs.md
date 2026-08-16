@@ -6,12 +6,12 @@ section_id: "A.22.CGUS:8"
 section_title: "Common Anti-Patterns And Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.22.CGUS/A.22.CGUS__010_common-anti-patterns-and-repairs.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.22.CGUS — Constraint-Governed Unfolding Structure"
   - "A.22.CGUS:8 — Common Anti-Patterns And Repairs"
-line_start: 35119
-line_end: 35133
+line_start: 35127
+line_end: 35141
 dependencies:
   - "A.22"
   - "A.6.3.NAR"

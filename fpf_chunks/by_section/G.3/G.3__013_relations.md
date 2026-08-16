@@ -6,12 +6,12 @@ section_id: "G.3:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__013_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:12 — Relations"
-line_start: 100369
-line_end: 100375
+line_start: 100152
+line_end: 100158
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -27,8 +27,10 @@ dependencies:
   - "E.10"
   - "E.5.1"
   - "E.5.3"
+  - "F.0.1"
   - "F.1"
   - "F.17"
+  - "F.18"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -56,7 +58,7 @@ keywords:
 
 ### G.3:12 - Relations
 
-**Builds on:** `G.Core`, `G.1`, `G.2`, `G.6` (EvidenceGraph / Path citation), `A.19.CHR`, `A.15.3`, `A.17–A.18/C.16` (MM‑CHR), `F.1–F.9` (Contexts/UTS/Bridges), `B.3` / `B.3.4`, `A.10`, `E.10`, `E.5.1–E.5.3`.
+**Builds on:** `G.Core`, `G.1`, `G.2`, `G.6` (EvidenceGraph / Path citation), `A.19.CHR`, `A.15.3`, `A.17–A.18/C.16` (MM-CHR), `F.0.1` (source-local meaning), `F.1` (source selection), `F.9` (actual relations between local-sense cells), `F.17` (scheme-sense cells), `F.18` (bounded use and reliance), `B.3` / `B.3.4`, `A.10`, `E.10`, `E.5.1–E.5.3`.
 **Uses (via Extensions):** `G.0` (promotion/linkage to `CG‑Spec`), optional `C.18 and C.19` (QD/OEE wiring).
 **Publishes to:** `G.4` (admissible operators plus legality and guard macros and freshness pins), `G.5` (role declarations plus pins for reproducibility), `UTS` (Name Cards and public-id continuity notes), RSCR tests and hooks.
 **Constrains:** any CAL/LOG/selector usage that consumes CHR (must treat CHR artefacts as typed/legal surfaces, not as prose hints).

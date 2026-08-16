@@ -6,12 +6,12 @@ section_id: "A.19.CN:9"
 section_title: "Anti‑patterns (and the fix)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__010_anti-patterns-and-the-fix.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:9 — Anti‑patterns (and the fix)"
-line_start: 30526
-line_end: 30536
+line_start: 30535
+line_end: 30545
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -41,7 +41,7 @@ keywords:
 | ----------------------- | ----------------------------------------- | ---------------------------- | --------------------------------------- |
 | **Chartless number**    | “Latency = 120”                           | No unit/vantage → untestable | Fill `cs_basis` + `chart`                          |
 | **Normalization smuggling**     | Quiet “per‑unit” normalisation mid‑stream | Trend reversal               | Declare UNM normalization references (`NormalizationMethodId` / `NormalizationMethodInstanceId`) + named invariants (see A.19.UNM)        |
-| **Bridge‑by‑name**      | Reusing labels across Contexts               | False comparability          | Author **Bridge** with CL + loss        |
+| **Bridge-by-name**      | Reusing equal labels under different schemes | False comparability | Establish the exact F.9 relation and state the separate receiving use and tolerated loss |
 | **Free‑hand averaging** | Arithmetic mean on bounded risks          | Violates WLNK                | Declare `Γ_fold` with WLNK              |
 | **CN‑frame sprawl**        | Ten nearly‑identical CN‑frames               | Cognitive debt               | Use Registry + DRR; prefer reuse        |
 | **Role conflation**     | Same person edits CN‑Spec & certifies data     | SoD breach                   | Enforce `CN‑frameSteward ⊥ CN‑frameCertifier` |

@@ -6,14 +6,13 @@ section_id: "C.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19/C.19__018_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.19 — Explore-Exploit Live-Pool Governor"
   - "C.19:12 — Relations"
-line_start: 49985
-line_end: 49995
+line_start: 49672
+line_end: 49682
 dependencies:
-  - "A.15"
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
   - "B.3"
@@ -21,6 +20,7 @@ dependencies:
   - "C.16"
   - "C.17"
   - "C.18"
+  - "C.19"
   - "C.22.PFR"
   - "C.24"
   - "C.28"
@@ -28,19 +28,22 @@ dependencies:
   - "C.32.P2S"
   - "C.35"
   - "E.17"
-  - "E.23"
   - "E.24.PUB"
   - "G.11"
   - "G.5"
   - "G.9"
 keywords:
   - "already-live candidate pool"
+  - "audience availability"
   - "change trigger"
   - "explore-exploit"
   - "governing lens"
   - "keep frontier"
   - "narrow to subset"
   - "pool-policy result"
+  - "publication face"
+  - "publication occurrence"
+  - "selector-facing declaration"
   - "sunset line"
   - "widen"
 ---
@@ -54,5 +57,5 @@ keywords:
 - Non-admissible use: faster narrowing is not automatically a positive result; it may collapse exploration health, diversity, archive coverage, or frontier discovery.
 - Exit: use C.19 for the pool-policy result; use C.27 only for the temporal-claim adequacy question when speed or change affects admissible use.
 
-Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coordinates with: `C.22.PFR` for actual Problem identity, `E.23` for declared improvement loops, `C.11` for local choice among already-available options, `C.18` for candidate generation and archive and front relations, `C.32.P2S` when pool policy preserves architecture alternatives for problem-to-structure carry-through, `C.32` for candidate-palette admission, `C.35` when generated or discovered structure-bearing outputs need admission support before pool policy can use them, `C.24` and the A.15 family for planning and performed work, `G.5` for selector-facing result declaration, `E.17` for a source-backed publication face and return to source, `E.24.PUB` for the publication occurrence and audience availability, `G.11` for refresh, `C.28` for causal-use support, `C.17`, and `G.9`.
+Builds on: `C.18`, `C.16`, `A.19.CPM`, `A.19.SelectorMechanism`, and `B.3`. Coordinates with: `C.22.PFR` for actual Problem identity; `C.18` for generation, Archive, and Front; `C.32.P2S`, `C.32`, and `C.35` for architecture-alternative carry-through and candidate admission; `C.28` for causal-use support; `C.17` and `G.9` for evaluation and parity inputs; and the next-result patterns and transfer values named in `C.19:4.4`.
 

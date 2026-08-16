@@ -6,12 +6,12 @@ section_id: "A.19.ULSAM:3"
 section_title: "Forces (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.ULSAM/A.19.ULSAM__005_forces-normative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.ULSAM — Unified Lawful Scale Aggregation Mechanism (ULSAM)"
   - "A.19.ULSAM:3 — Forces (normative)"
-line_start: 32420
-line_end: 32430
+line_start: 32427
+line_end: 32437
 dependencies:
   - "A.19.CPM"
   - "A.19.SelectorMechanism"
@@ -37,6 +37,6 @@ keywords:
 - **Evidence gating vs “always return a number.”** The mechanism must support abstain/degrade rather than coercion.
 - **Optional stage vs pipeline clarity.** `fold_Γ?` is optional in CHR protocols; optionality must be explicit (not implicit “sometimes scoring folds”).
 - **Auditability vs minimal overhead.** Recording contributor sets and effective pins adds overhead but prevents semantic drift.
-- **Cross-context reuse vs locality.** Cross-context folds must respect Transport discipline (Bridge+CL/ReferencePlane) and penalty routing to `R_eff`.
+- **Declared-set locality vs reuse.** A fold is valid for one admitted measure set, grouping or membership basis, policy editions, scope and window, evidence basis, contributors, and intended result; a later use must recheck those premises and cite any relation it actually relies on.
 - **P2W separation and gate/guard separation.** ULSAM must expose eligibility and audit pins without turning into (i) a WorkPlanning baseline binder or (ii) an admissibility gate: planned slot fillings belong to WorkPlanning plan items, while GateDecision/GateLog live in gate patterns / WorkEnactment (suite protocols remain mechanism-steps only).
 

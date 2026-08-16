@@ -6,12 +6,12 @@ section_id: "F.8:12"
 section_title: "SoTA-Echoing - Source-Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__015_sota-echoing-source-use.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:12 — SoTA-Echoing - Source-Use"
-line_start: 92971
-line_end: 92982
+line_start: 92735
+line_end: 92755
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,26 +45,38 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:12 - SoTA-Echoing - Source-Use
 
-| Practice line | What FPF adopts | Practical implication |
-| --- | --- | --- |
-| Controlled-vocabulary and terminology practice | Preferred labels, aliases, definitions, scope notes, and deprecated labels are separate fields and uses. | F.8 decides the smallest disposition; F.5, F.13, and F.18 then name without confusing alias with meaning change. |
-| Ontology engineering and conceptual modeling | New classes or kinds are expensive and should be tested against existing values, relations, and constraints. | New U-kind candidates require `E.24.UK`, irreducibility, and direct admission basis, not comfort. |
-| Domain-driven bounded-model-use practice | Interpretation may depend on an independently selected organization of model use. | Carry the effective naming ReferenceScheme for every naming use; cite a selected bounded-model-use Structure only when its organization changes this use. |
-| Authorization and policy-reference practice | Policy identifiers must resolve to definitions and, when accountable minting is claimed, the direct basis for that mint decision or choice occurrence. | Keep identifier, policy specification, occurrence, any C.11 result, any decision-making Work, and result record separate; the identifier is not permission, gate passage, or evidence. |
-| FPF system-role, Work, and episteme ontology | Local system-role kinds, `SystemRoleKindDescription` epistemes, `U.SystemRoleAssignment` occurrences, dated Work, decision results, evidence use, and status use are distinct. | Split role-like and record-like source expressions by exact kind or relation before durable naming. |
+**Qualification and selection rule.** These decisions are qualified on 2026-08-15 for the cited editions and the F.8 questions below. The set is deliberately small. ISO 704 and SKOS are current standards or durable lineage, not claimed as research frontiers. The gUFO–OBO row combines a current formal comparator with an operational ontology-maintenance practice. The Cedar row is a current research-and-practice comparator. A source belongs here because it changes an F.8 disposition or boundary, not because it is official, popular, or easy to find.
 
-Source-use boundary: a source tradition may supply candidate expressions, aliases, and current practice pressure. It does not select the FPF disposition, establish the governed value, make a relation obtain, or confer authority. Those claims follow the direct pattern and independently recovered facts.
+| Source, status, and question | Decision for F.8 | What F.8 uses and rejects | Affected loci and smallest source-driven revisit |
+| --- | --- | --- | --- |
+| [ISO 704:2022](https://www.iso.org/standard/79077.html), edition 4 — current international terminology standard. Question: how should an expression, its designation use, the concept or other subject, and any definition stay distinguishable? Its Pareto position here is the latest general standard that directly treats links among objects, concepts, definitions, and designations across fields; it is not presented as a research frontier. | **Adopt the subject-before-designation order; adapt its terminology distinctions to FPF values, relations, and subject patterns.** | Keep expression, designation, governed subject, and any description separate. Reject using terminology work to admit an ontic kind, and reject a full terminology entry when a local phrase is sufficient. | §§0, 4.1–4.3, and checks 01–08. Revisit only if a later ISO 704 edition or a better general terminology account changes the designation–subject–definition distinction or preserves it with lower practitioner cost. |
+| W3C [SKOS Reference](https://www.w3.org/TR/skos-reference/), 2009 Recommendation — current standard and representation lineage for lightweight labels and concept schemes. Question: what can preferred and alternative labels, scheme placement, and mapping links support without importing class identity? Its Pareto position is the small, explicit label model and its stated non-entailments, not its age. | **Adapt preferred/alternative-label and scheme discipline as a reuse stress test.** | Preserve the selected-designation/alias split and local-sense scope. Reject RDF or SKOS as required FPF representation; reject same spelling, `skos:exactMatch`, or scheme membership as FPF identity, F.9 Bridge, kind admission, or wider F.17 use; do not require a cell merely to keep wording local. | §§4.1–4.4, 7.2, and checks 03–09. Revisit if a normative SKOS successor or a better lightweight label model changes these label or mapping boundaries. |
+| Almeida, Guizzardi, Sales, and Fonseca, [gUFO](https://arxiv.org/abs/2603.20948), 2026 preprint, read with the current [OBO Foundry principles](https://obofoundry.org/principles/fp-000-summary.html) and its [term-stability rule](https://obofoundry.org/principles/fp-019-term-stability.html) — accepted synthesis for the new-kind question. gUFO supplies a current typology-of-types and relational-aspect comparator; OBO supplies operational scope, reuse, identifier, relation-reuse, and stable-referent pressure. Together they cover formal category discipline and maintained-vocabulary cost better than either alone. | **Adapt the category/label separation and reuse pressure.** | A spelling or source class does not establish an FPF kind. Test existing values, relations, scopes, and stable meanings before proposing another kind. Reject gUFO's hierarchy, OWL commitments, OBO's biomedical scope and IRI rules, and any external source as FPF admission authority. | The pre-admission stop in §§0 and 4.1–4.2, case 7.5, invariants 3 and 8, and checks 05 and 12. Revisit if gUFO's type distinctions or the cited OBO scope, reuse, or stability principles change materially, or a better account reduces admission burden without losing these distinctions. |
+| Cutler et al., [Cedar](https://arxiv.org/abs/2403.04651), 2024, read with current Cedar 4 and [Verified Permissions policy-name and policy-id practice](https://docs.aws.amazon.com/verifiedpermissions/latest/userguide/terminology.html), checked 2026-08-15 — current research-and-operation comparator for policy references. Question: how should policy content, a name or identifier, request evaluation, and enforcement stay separate? Its Pareto position is a modern readable and formally analysed policy language with active operational use, not vendor popularity. | **Adapt only the separation of policy reference, policy content, evaluation, and effect.** | Keep a policy identifier resolvable to its specification and keep any decision occurrence, result, Work, or enforcement separate. Reject Cedar and AWS types, stores, API identifiers, and authorization semantics as FPF ontology; reject any inference that an identifier grants permission or makes a policy claim true. | The policy target and step 10, case 7.4, §8.1, and checks 10 and 13. Revisit if the cited line changes the separation among policy name or identifier, policy content, and decision, or a more general current source preserves it with less domain-specific machinery. |
+
+**Internal FPF basis, not external SoTA.**
+
+- F.14, F.5, F.17, and F.18 supply the local-phrase, designation, alias, row-use, and durable-naming ladder.
+- A.2, C.3, F.4, A.2.1, F.6, and A.15.1 keep designation `L`, local system-role kind `K`, optional description `D`, assignment `A`, and performed Work distinct.
+- E.24.CD, E.24.UK, A.8, and A.11 recover an unclear object and decide kind admission before F.8 names the result.
+- A.6.RCD, C.11, C.2.1, and E.9 govern any accountable decision occurrence, separate result, result episteme, and policy-history record.
+- F.1–F.3 and F.9 govern local-sense discovery and an obtaining Bridge; A.1.1 and A.22 govern any selected bounded-model-use Structure. F.8 cites those objects only when the naming use needs them.
+
+**Source-use boundary.** External sources can supply candidate expressions, a comparison pressure, or a narrow representation test. They do not select the F.8 disposition, establish the governed subject, make a relation obtain, admit a kind, or grant authority. Those results remain with the named FPF pattern and the recovered facts.
 

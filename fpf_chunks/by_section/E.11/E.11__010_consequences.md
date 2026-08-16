@@ -6,12 +6,12 @@ section_id: "E.11:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11/E.11__010_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.11 — First-Practical Entry and Pattern-Use Discoverability Discipline"
   - "E.11:9 — Consequences"
-line_start: 77767
-line_end: 77772
+line_start: 77565
+line_end: 77570
 dependencies:
   - "A.22.CGUS"
   - "C.2.1"

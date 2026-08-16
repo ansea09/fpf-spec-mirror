@@ -6,12 +6,12 @@ section_id: "F.2:11"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__012_worked-examples.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:11 — Worked examples"
-line_start: 91006
-line_end: 91028
+line_start: 90804
+line_end: 90826
 dependencies:
   - "A.11"
   - "A.7"

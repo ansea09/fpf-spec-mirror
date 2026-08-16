@@ -6,7 +6,7 @@ section_id: "A.1.SCR:5"
 section_title: "Archetypal Grounding — Seven Heterogeneous Worked Cases"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.1.SCR/A.1.SCR__007_archetypal-grounding-seven-heterogeneous-worked-cases.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.1.SCR — Finding the Acting or Changed System"
   - "A.1.SCR:5 — Archetypal Grounding — Seven Heterogeneous Worked Cases"

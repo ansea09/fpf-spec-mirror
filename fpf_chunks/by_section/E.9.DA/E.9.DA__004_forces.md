@@ -6,12 +6,12 @@ section_id: "E.9.DA:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9.DA/E.9.DA__004_forces.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace"
   - "E.9.DA:3 — Forces"
-line_start: 73636
-line_end: 73646
+line_start: 73386
+line_end: 73396
 dependencies:
   - "A.19.ECS"
   - "E.10"

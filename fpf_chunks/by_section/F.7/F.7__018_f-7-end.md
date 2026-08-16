@@ -6,12 +6,12 @@ section_id: "F.7:End"
 section_title: "F.7:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__018_f-7-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:End — F.7:End"
-line_start: 92530
-line_end: 92531
+line_start: 92333
+line_end: 92334
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -25,7 +25,6 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.8"
   - "F.9"
 keywords:
   - "comparison surface"

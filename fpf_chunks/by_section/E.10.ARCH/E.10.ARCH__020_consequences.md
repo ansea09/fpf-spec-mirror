@@ -6,12 +6,12 @@ section_id: "E.10.ARCH:12"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ARCH/E.10.ARCH__020_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10.ARCH — Wording-Use Ontological Precision Restoration Architecture"
   - "E.10.ARCH:12 — Consequences"
-line_start: 76467
-line_end: 76474
+line_start: 76265
+line_end: 76272
 dependencies:
   - "A.10"
   - "A.15.1"

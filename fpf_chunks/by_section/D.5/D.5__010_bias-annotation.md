@@ -6,12 +6,12 @@ section_id: "D.5:6.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.5/D.5__010_bias-annotation.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "D.5 — Bias Audit and Ethical Assurance"
   - "D.5:6.1 — Bias-Annotation"
-line_start: 69394
-line_end: 69402
+line_start: 69081
+line_end: 69089
 dependencies:
   - "A.10"
   - "B.3"

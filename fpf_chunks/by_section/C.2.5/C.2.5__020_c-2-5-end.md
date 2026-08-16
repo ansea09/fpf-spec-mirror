@@ -6,12 +6,12 @@ section_id: "C.2.5:End"
 section_title: "C.2.5:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.5/C.2.5__020_c-2-5-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.2.5 — U.LanguageStateClosureDegree"
   - "C.2.5:End — C.2.5:End"
-line_start: 43825
-line_end: 43826
+line_start: 43833
+line_end: 43834
 dependencies:
   - "A.16"
   - "A.16.0"

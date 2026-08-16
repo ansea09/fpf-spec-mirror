@@ -6,12 +6,12 @@ section_id: "A.19.UNM:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__003_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:1 — Problem frame"
-line_start: 31357
-line_end: 31368
+line_start: 31369
+line_end: 31380
 dependencies:
 keywords:
   - "CV→NCV"
@@ -28,12 +28,12 @@ keywords:
 ### A.19.UNM:1 - Problem frame
 
 FPF needs a disciplined way to talk about **measurable slots** (coordinates/scales) such that engineers can reason about:
-- **What it means** to compare values across charts/slices/contexts, and
+- **What it means** to compare values across charts, slices, bearers, or reference bases, and
 - **Where the “meaning-preserving” transformations live**, so comparisons are lawful and explainable.
 
 In practice, teams routinely face a mismatch between:
 - values that look comparable (“they’re numbers”), and
-- values that are not comparable without normalization (different units, scale types, reference planes, context semantics, or validity windows).
+- values that are not comparable without normalization—for example, because their units, scale types, reference planes, bearer or population assumptions, comparison bases, intended uses, or validity windows differ.
 
 FPF’s CHR family explicitly separates stages (normalize → indicatorize → score → fold → compare → select). UNM is the *normalization* stage, and its job is to make “compare-on-invariants” explicit and auditable.
 

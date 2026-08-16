@@ -6,7 +6,7 @@ section_id: "A.2.6:3"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.6/A.2.6__005_problem.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.2.6 — Unified Scope Mechanism (USM): Context Slices & Scopes"
   - "A.2.6:3 — Problem"

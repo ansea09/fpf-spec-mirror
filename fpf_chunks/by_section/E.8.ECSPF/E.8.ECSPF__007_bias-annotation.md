@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__007_bias-annotation.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:6 — Bias-Annotation"
-line_start: 73170
-line_end: 73173
+line_start: 72906
+line_end: 72909
 dependencies:
   - "A.19.ECS"
   - "C.25"

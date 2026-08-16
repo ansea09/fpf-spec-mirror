@@ -6,12 +6,12 @@ section_id: "B.2.5:5"
 section_title: "Archetypal Grounding (Worked Cases)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.2.5/B.2.5__007_archetypal-grounding-worked-cases.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.2.5 — Supervisor-Subholon Feedback Relation"
   - "B.2.5:5 — Archetypal Grounding (Worked Cases)"
-line_start: 38319
-line_end: 38340
+line_start: 38327
+line_end: 38348
 dependencies:
   - "A.1"
   - "A.10"

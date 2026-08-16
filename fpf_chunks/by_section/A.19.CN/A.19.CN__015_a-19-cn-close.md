@@ -6,12 +6,12 @@ section_id: "A.19.CN:Close"
 section_title: "A.19.CN:Close"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__015_a-19-cn-close.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:Close — A.19.CN:Close"
-line_start: 30621
-line_end: 30624
+line_start: 30633
+line_end: 30636
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -37,5 +37,5 @@ keywords:
 
 ### A.19.CN:Close
 
-A.19.CN gives A.19 some **teeth**: a *CN‑Spec* you can put on one page, a **Registry** that stops sprawl, **Bridges** that carry explicit loss, and a **checklist + harness** that make comparability **auditable**. It obeys the **mandatory pattern structure** of Part E (style, checklists, DRR, guard‑rails) while remaining tool‑agnostic and context‑local.
+A.19.CN makes comparability operational: a one-page *CN-Spec*, a registry for edition, status, supersession, and deprecation records, explicit relations and receiving-use claims for cross-local reuse, and a checklist plus harness for audit. It remains tool-agnostic and keeps every reading tied to its characteristic and scale editions, bearer, comparison basis, scope/window, evidence, and intended use.
 

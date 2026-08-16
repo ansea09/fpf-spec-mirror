@@ -6,12 +6,12 @@ section_id: "C.30.P:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.P/C.30.P__006_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.30.P — Architecture and Structure Precision Restoration"
   - "C.30.P:4 — Solution"
-line_start: 61009
-line_end: 61057
+line_start: 60696
+line_end: 60744
 dependencies:
   - "A.10"
   - "A.15"

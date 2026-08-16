@@ -6,12 +6,12 @@ section_id: "A.20:9"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.20/A.20__012_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.20 — Flow Constraint Validity — Eulerian"
   - "A.20:9 — Rationale"
-line_start: 33754
-line_end: 33757
+line_start: 33762
+line_end: 33765
 dependencies:
   - "A.19.SelectorMechanism"
   - "A.21"

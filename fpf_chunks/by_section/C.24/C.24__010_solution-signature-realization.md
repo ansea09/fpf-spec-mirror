@@ -6,12 +6,12 @@ section_id: "C.24:4"
 section_title: "Solution — Signature & Realization"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.24/C.24__010_solution-signature-realization.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.24 — Agentic Tool-Use and Call Planning (C.Agent-Tools-CAL)"
   - "C.24:4 — Solution — Signature & Realization"
-line_start: 52723
-line_end: 52955
+line_start: 52410
+line_end: 52642
 dependencies:
   - "A.1"
   - "A.10"

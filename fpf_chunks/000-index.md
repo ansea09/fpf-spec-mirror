@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `7205ce8cea50eb778520a026373b2b7bcbc43fbb`
+Commit SHA: `3d098629dc218572089f1890080c17d6f1d9a867`
 
 Chunking method: `pattern-aware`
 
@@ -152,7 +152,7 @@ Patterns: `294`
 - [C.16 — Measurement & Metrics Characterization (MM‑CHR)](by_pattern/C.16.md)
 - [C.16.P — Characteristic and Scale Precision Restoration](by_pattern/C.16.P.md)
 - [C.16.Q — Quality-Term Precision Restoration](by_pattern/C.16.Q.md)
-- [C.17 — Characterising Generative Novelty & Value (Creativity‑CHR)](by_pattern/C.17.md)
+- [C.17 — Characterising Generative Novelty and Value](by_pattern/C.17.md)
 - [C.18 — Open-Ended Search Archive and Front Stewardship](by_pattern/C.18.md)
 - [C.18.1 — Scaling‑Law Lens Binding (SLL)](by_pattern/C.18.1.md)
 - [C.19 — Explore-Exploit Live-Pool Governor](by_pattern/C.19.md)
@@ -226,7 +226,7 @@ Patterns: `294`
 - [E.6 — Didactic Architecture of the Specification](by_pattern/E.6.md)
 - [E.7 — Archetypal Grounding Principle](by_pattern/E.7.md)
 - [E.8 — FPF Authoring Conventions & Style Guide](by_pattern/E.8.md)
-- [E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form](by_pattern/E.8.ECSPF.md)
+- [E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance](by_pattern/E.8.ECSPF.md)
 - [E.9 — Design‑Rationale Record (DRR) Method](by_pattern/E.9.md)
 - [E.9.DA — DRR Decision-Adequacy Evaluation CharacteristicSpace](by_pattern/E.9.DA.md)
 - [E.10 — Unified Lexical Rules for FPF](by_pattern/E.10.md)

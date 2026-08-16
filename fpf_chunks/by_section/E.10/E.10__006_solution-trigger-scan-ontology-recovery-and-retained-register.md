@@ -6,12 +6,12 @@ section_id: "E.10:4"
 section_title: "Solution - trigger scan, ontology recovery, and retained register"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__006_solution-trigger-scan-ontology-recovery-and-retained-register.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:4 — Solution - trigger scan, ontology recovery, and retained register"
-line_start: 74943
-line_end: 74955
+line_start: 74741
+line_end: 74753
 dependencies:
   - "A.10"
   - "A.15"

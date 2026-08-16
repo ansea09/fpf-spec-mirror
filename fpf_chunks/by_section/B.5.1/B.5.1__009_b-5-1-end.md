@@ -6,12 +6,12 @@ section_id: "B.5.1:End"
 section_title: "B.5.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__009_b-5-1-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:End — B.5.1:End"
-line_start: 40160
-line_end: 40161
+line_start: 40168
+line_end: 40169
 dependencies:
   - "B.5"
 keywords:

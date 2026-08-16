@@ -6,12 +6,12 @@ section_id: "B.5.1:7"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5.1/B.5.1__008_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.5.1 — Explore → Shape → Evidence → Operate"
   - "B.5.1:7 — Relations"
-line_start: 40154
-line_end: 40159
+line_start: 40162
+line_end: 40167
 dependencies:
   - "B.5"
 keywords:

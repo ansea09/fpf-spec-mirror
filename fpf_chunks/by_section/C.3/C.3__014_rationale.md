@@ -6,12 +6,12 @@ section_id: "C.3:12"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__014_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:12 — Rationale"
-line_start: 44658
-line_end: 44661
+line_start: 44666
+line_end: 44669
 dependencies:
   - "A.1"
   - "A.11"

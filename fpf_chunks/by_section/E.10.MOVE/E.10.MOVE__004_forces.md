@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__004_forces.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:3 — Forces"
-line_start: 75855
-line_end: 75864
+line_start: 75653
+line_end: 75662
 dependencies:
   - "A.1.STM"
   - "A.10"

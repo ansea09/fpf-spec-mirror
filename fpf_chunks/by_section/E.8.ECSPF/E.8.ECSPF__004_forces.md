@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__004_forces.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:3 — Forces"
-line_start: 73105
-line_end: 73115
+line_start: 72792
+line_end: 72802
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -31,9 +31,9 @@ keywords:
 | Force | Tension |
 |---|---|
 | **Recognition first vs coordinate completeness** | An evaluation-characteristic-space pattern needs tables, but the reader must first see the working situation and first evaluation use. |
-| **Generic E.8 form vs ECS payload** | The canonical pattern skeleton stays fixed, but the payload has special fields from `A.19.ECS`. |
+| **Generic E.8 form vs evaluation content** | The canonical pattern skeleton stays fixed, but the evaluation has special content fields from `A.19.ECS`. |
 | **Reusable FPF pattern vs local evaluation** | FPF publication is useful only when the evaluation is durable and reusable beyond one local project. |
 | **Values named by value vs checklist feel** | Values and statuses must be named by value without making the pattern feel like an administrative form. |
-| **Related-pattern statements vs second ontology** | For each outside claim, the pattern must use the content that defines, constrains, tests, or supplies repair guidance for it, without becoming a directory of every related pattern. |
+| **Related-pattern statements vs second ontology** | For each outside claim, the pattern must state the concrete contribution it uses from neighbouring content, without forcing every contribution into one verb list or becoming a directory of possibly related patterns. |
 | **Evaluation of object vs evaluation of FPF pattern version** | The evaluation judges its evaluated object; `E.21` may separately evaluate whether the authored FPF pattern publication form is good enough. |
 

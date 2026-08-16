@@ -6,12 +6,12 @@ section_id: "B.5:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.5/B.5__005_solution.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.5 — Canonical Reasoning Cycle"
   - "B.5:4 — Solution"
-line_start: 40027
-line_end: 40059
+line_start: 40035
+line_end: 40067
 dependencies:
   - "A.10"
   - "B.4"

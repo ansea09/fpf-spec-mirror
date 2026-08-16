@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:5"
 section_title: "Archetypal Grounding (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__007_archetypal-grounding-informative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:5 — Archetypal Grounding (informative)"
-line_start: 31880
-line_end: 31909
+line_start: 31886
+line_end: 31915
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"
@@ -28,7 +28,7 @@ keywords:
 
 Think of UINDM as a **policy‑bound projection**:
 
-* Input: “the whole declared characteristic basis of a CN‑frame (in this context slice) + an explicit indicator choice policy”
+* Input: “the declared characteristic basis for this exact bearer, claim scope and selected slices, qualification window, evidence basis, and intended use, plus an explicit indicator choice policy”
 * Output: “the subset of characteristic references that are allowed to count as indicators for downstream CHR steps”
 
 The key didactic boundary is: **UINDM chooses coordinates; it does not alter coordinates.**

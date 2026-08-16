@@ -6,12 +6,12 @@ section_id: "F.8:11"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__014_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:11 — Rationale"
-line_start: 92961
-line_end: 92970
+line_start: 92725
+line_end: 92734
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,24 +45,27 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:11 - Rationale
 
-F.8 is placed before naming style because a naming mistake is often a kind, locality, or use mistake. A practitioner should not ask "what name should we use?" until the exact governed value or relation, its subject pattern, proposed use, effective ReferenceScheme, and local-sense claim are recoverable.
+A naming mistake is often a subject or use mistake. Asking “what name should we use?” too early lets wording decide ontology, scope, or authority. F.8 therefore recovers the subject and proposed use before selecting a naming treatment.
 
-The pattern is intentionally narrower than `F.18`. F.18 can run a durable naming settlement, candidate comparison, NameCard, lineage, and later F.17 row gate. F.8 supplies the prior disposition: should this expression remain local, reuse something already current, or open one stronger naming path? It does not create the value or perform the stronger path.
+F.8 is narrower than F.18. It decides whether the expression stays local, reuses something available, or opens one stronger naming path. F.18 runs a durable settlement, candidate comparison, NameCard, lineage, and any later public-row gate. F.8 creates neither the governed value nor the objects produced by the stronger path.
 
-The strict role-expression boundary is central. A role expression names a local system-role kind only when A.2 independently recovers the exact context-local `U.Kind`, its `U.System` candidate domain, contribution identity basis, and `KindSignature`. Epistemes, publications, standards, requirements, evidence, statuses, permissions, gates, decisions, methods, Work, and relation positions may need names, but they do not become system-role kinds because source prose used `role`.
+The system-role branch shows why the ordering matters. A designation `L`, local system-role kind `K`, optional F.4 description `D`, and any assignment `A` are different objects. The word *role* can also point to another governed subject. Recovering that subject first keeps naming from creating a false kind or assignment.
 
-The decision-description boundary is equally important when a direct pattern has admitted an accountable decision or choice occurrence. That occurrence, a C.2.1 result episteme about it, and a rendered record answer different questions. Keeping them distinct provides traceability without letting administrative artifacts perform content decisions; ordinary F.8 use stops earlier with no durable decision object.
+The accountable branch follows the same rule. A decision occurrence, C.2.1 result episteme about it, C.11 result, decision-making Work, and rendered record answer different questions. Section 4.5 opens only when a receiving claim needs that stronger traceability; ordinary F.8 use stops earlier.
 

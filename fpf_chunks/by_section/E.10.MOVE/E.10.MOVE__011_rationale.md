@@ -6,12 +6,12 @@ section_id: "E.10.MOVE:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.MOVE/E.10.MOVE__011_rationale.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10.MOVE — Move and Readiness Wording Precision Restoration"
   - "E.10.MOVE:10 — Rationale"
-line_start: 76067
-line_end: 76072
+line_start: 75865
+line_end: 75870
 dependencies:
   - "A.1.STM"
   - "A.10"
@@ -40,5 +40,5 @@ keywords:
 
 Move-like wording is too useful to ban and too ambiguous to leave ungoverned. `E.10.MOVE` gives a narrow restoration path: recover the governed text span, claim being made, and object under wording repair; classify borrowed or ordinary wording; name the governed FPF value; preserve reader use; and apply the pattern that defines or constrains that value.
 
-The pattern is a child of E.10 because it starts as wording-use restoration. Its mantra branch requires one A.22.CGUS for an admitted demonstrative use row, a Plain local use to its bounded result's direct pattern, and a Plain long use to the subject pattern of the current map answer or stop. Evaluation movement wording requires one E.23 for separately prediction about a later evaluation result. Recommendation, transformation, readiness, gate, publication, and Work claims remain with their direct patterns.
+The pattern is a child of E.10 because it starts as wording-use restoration. Its mantra branch requires one A.22.CGUS for an admitted demonstrative use row, a Plain local use to its bounded result's direct pattern, and a Plain long use to the subject pattern of the current map answer or stop. Evaluation-movement wording uses E.23 for a separate prediction about a later evaluation result. Recommendation, transformation, readiness, gate, publication, and Work claims remain with their direct patterns.
 

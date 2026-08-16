@@ -6,12 +6,12 @@ section_id: "B.3.5:8"
 section_title: "Compatibility & cross‑references"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3.5/B.3.5__010_compatibility-cross-references.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.3.5 — Working-Model Relations & Grounding (CT2R-LOG)"
   - "B.3.5:8 — Compatibility & cross‑references"
-line_start: 39425
-line_end: 39430
+line_start: 39433
+line_end: 39438
 dependencies:
   - "B.3"
   - "C.13"

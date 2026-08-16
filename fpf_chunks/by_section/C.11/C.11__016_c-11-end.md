@@ -6,12 +6,12 @@ section_id: "C.11:End"
 section_title: "C.11:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.11/C.11__016_c-11-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.11 — Decision Theory (Decsn-CAL)"
   - "C.11:End — C.11:End"
-line_start: 46830
-line_end: 46831
+line_start: 46838
+line_end: 46839
 dependencies:
   - "A.13"
   - "A.18"

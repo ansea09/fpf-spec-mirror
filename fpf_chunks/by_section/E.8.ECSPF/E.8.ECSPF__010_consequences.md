@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "E.8.ECSPF"
-pattern_title: "Evaluation CharacteristicSpace FPF Pattern Publication Form"
+pattern_title: "FPF Pattern Publication Form for Evaluation Guidance"
 section_id: "E.8.ECSPF:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8.ECSPF/E.8.ECSPF__010_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
-  - "E.8.ECSPF — Evaluation CharacteristicSpace FPF Pattern Publication Form"
+  - "E.8.ECSPF — FPF Pattern Publication Form for Evaluation Guidance"
   - "E.8.ECSPF:9 — Consequences"
-line_start: 73207
-line_end: 73212
+line_start: 72947
+line_end: 72952
 dependencies:
   - "A.19.ECS"
   - "C.25"
@@ -28,7 +28,7 @@ keywords:
 
 ### E.8.ECSPF:9 - Consequences
 
-A conforming `E.8.ECSPF` publication form makes an evaluation findable, teachable, and reusable inside FPF. It lets `E.22` frame quality evaluations and `E.23` run improvement loops without re-inventing values. It also makes the cost visible: a reusable evaluation-characteristic-space pattern must publish more than a local rubric, because it must prevent wrong-kind use, hidden value drift, neighbour theft, and proxy-for-value substitution.
+A conforming `E.8.ECSPF` publication form makes evaluation guidance findable, teachable, and reusable inside FPF. It lets a practitioner frame an evaluation with `E.22` or repeat improvement with `E.23` without re-inventing values. It also makes the cost visible: a reusable evaluation pattern must publish more than a local rubric, because it must prevent wrong-kind use, hidden value drift, neighbour theft, and proxy-for-value substitution.
 
-The pattern publication form does not certify the evaluated object, approve a release, prove evidence, or finish improvement. It only publishes a bounded evaluation.
+The pattern publication form does not certify the evaluated object, approve a release, prove evidence, or finish improvement. It only teaches a bounded evaluation and the form of its result.
 

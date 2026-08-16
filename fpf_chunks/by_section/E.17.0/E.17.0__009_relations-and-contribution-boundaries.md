@@ -6,12 +6,12 @@ section_id: "E.17.0:8"
 section_title: "Relations and contribution boundaries"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.0/E.17.0__009_relations-and-contribution-boundaries.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.17.0 — Viewpoint and View Recognition for Multi-View Describing"
   - "E.17.0:8 — Relations and contribution boundaries"
-line_start: 80210
-line_end: 80225
+line_start: 80008
+line_end: 80023
 dependencies:
   - "A.22"
   - "A.6.3"

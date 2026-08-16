@@ -6,12 +6,12 @@ section_id: "D.2:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.2/D.2__015_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "D.2 — Multilevel Ethics For Holon Work"
   - "D.2:11 — Relations"
-line_start: 68929
-line_end: 68936
+line_start: 68616
+line_end: 68623
 dependencies:
   - "A.1"
   - "A.15"

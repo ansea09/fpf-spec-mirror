@@ -6,12 +6,12 @@ section_id: "F.6:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__007_invariants.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:5 — Invariants"
-line_start: 92141
-line_end: 92159
+line_start: 91941
+line_end: 91959
 dependencies:
   - "A.1.1"
   - "A.10"

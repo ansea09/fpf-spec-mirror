@@ -6,12 +6,12 @@ section_id: "E.23:1"
 section_title: "Problem frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__002_problem-frame.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:1 — Problem frame"
-line_start: 88153
-line_end: 88167
+line_start: 87951
+line_end: 87965
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"

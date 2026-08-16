@@ -6,12 +6,12 @@ section_id: "F.8:5"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__007_invariants.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:5 — Invariants"
-line_start: 92725
-line_end: 92741
+line_start: 92548
+line_end: 92560
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,31 +45,30 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:5 - Invariants
 
-1. **Governed value before disposition.** The candidate expression, exact governed value or relation, direct pattern, and one proposed use are named before any F.8 result.
-2. **One decision, one exact use.** Mixed expressions are split by governed value and use before deciding.
-3. **Lightest sufficient result.** Local phrase, existing designation, alias, direct-pattern name, and admitted row reuse are tried before a cell, NameCard, new row, policy identifier, or U-kind candidate.
-4. **Reuse preserves identity.** Reuse cannot change kind, scope, occurrence identity, local-sense claim, admitted use, or authority.
-5. **Local senses do not globalize.** Reusing a designation under one effective ReferenceScheme establishes neither sameness with another cell nor an F.9 Bridge.
-6. **System-role-kind names are work-facing.** Such a name or `SystemRoleKindDescription` label points to an independently recovered context-local `U.Kind` for `U.System` candidates; status, evidence, access, source, publication, requirement, assurance, gate, decision, policy, and relation-position uses remain direct-pattern values.
-7. **System-role assignment and Work are not naming.** A name, decision result, NameCard, cell, row, or identifier neither assigns a system nor demonstrates performed Work.
-8. **Rows stay within admitted use.** F.8 may reuse an F.17 row only at its declared use and gains no equivalence from the row.
-9. **Decision occurrence and description stay distinct.** Ordinary F.8 use creates no durable decision object. When a direct pattern has admitted an exact decision or choice occurrence, a C.2.1 result episteme or displayed record may describe it but cannot perform it; absent that predicate, participants, applicability, and identity rule, return `missing-governor`.
-10. **Naming objects stay distinct.** Governed value, designation, alias, cell, basis relation, NameCard, row, identifier, publication occurrence, form, carrier, and currentness relation imply none of the others.
-11. **Selected structure is conditional.** A bounded-model-use Structure is cited only when independently selected organization changes interpretation for this exact use; it is not a generic locality or identity slot.
-12. **New U-kind candidates are rare.** Cross-family recurrence, irreducibility, `E.24.UK` admission, and accepted decision basis are necessary; F.8 itself admits no U-kind.
-13. **Policy identifiers are resolvable.** A policy identifier remains distinct from its policy specification, the exact independently admitted mint decision or choice occurrence when one is required, any C.11 result, any decision-making Work, and the decision-result episteme or record.
-14. **Labels grant no authority.** Source titles, review labels, suffixes, rows, records, and identifiers create no ontology, evidence, status, equivalence, permission, or publication authority.
+1. **Four facts, one use.** Every disposition names the expression, governed value or relation, its subject pattern, and one proposed use. Split an expression that covers more than one governed subject or use.
+2. **Lightest sufficient result.** Try the ordinary reuse ladder before creating a cell, NameCard, row, or policy identifier. An unsettled U-kind proposal stops before naming.
+3. **Reuse preserves meaning.** Reuse or aliasing changes no kind, scope, occurrence identity, local-sense claim, admitted use, authority, or lineage. Shared spelling under another scheme establishes neither sameness nor an F.9 Bridge.
+4. **Kind, description, assignment, and Work stay distinct.** A designation may name a recovered local system-role kind `K` without creating the optional F.4 description `D`. Neither name classifies a candidate, creates an A.2.1 assignment `A`, or demonstrates Work. Other governed uses remain with their subject patterns.
+5. **Rows stay within admitted use.** Reusing an F.17 row supplies only its `AdmissibleUse` and no equivalence.
+6. **Ordinary and accountable decisions stay distinct.** Ordinary F.8 use needs no decision occurrence or result episteme. The §4.5 branch opens only after the decision or choice pattern admits the occurrence; otherwise it returns `missing-governor`.
+7. **Naming objects imply none of one another.** A designation, cell, basis relation, NameCard, row, identifier, publication occurrence, form, or carrier is created only for its receiving use. A selected Structure appears only when its organization changes interpretation of this naming use.
+8. **Admission precedes naming.** Before E.24.UK returns a stable disposition, F.8 can only block or lower the proposed naming use. Afterward it may name only the admitted, reused, local, or recovered non-kind object identified by that result.
+9. **Policy identifiers remain references.** Every identifier resolves a policy specification. Its mint occurrence and history are required only for the stronger uses stated in §8.1 and remain distinct from any C.11 result, decision-making Work, result episteme, or record.
+10. **Labels grant no authority.** A source title, suffix, row, record, or identifier creates no governed subject, obtaining relation, permission, evidence, equivalence, or publication authority.
 

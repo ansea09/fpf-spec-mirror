@@ -6,12 +6,12 @@ section_id: "G.3:4"
 section_title: "Solution — CHR authoring kit and publication surface"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__005_solution-chr-authoring-kit-and-publication-surface.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:4 — Solution — CHR authoring kit and publication surface"
-line_start: 99980
-line_end: 100275
+line_start: 99753
+line_end: 100058
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -27,8 +27,10 @@ dependencies:
   - "E.10"
   - "E.5.1"
   - "E.5.3"
+  - "F.0.1"
   - "F.1"
   - "F.17"
+  - "F.18"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -75,8 +77,9 @@ GCorePinSetId.PartG.CrossingVisibilityPins
 
 // Pins strengthened for CHR authoring (delta over PinSets)
 CorePinsRequired := {
-// NOTE: `CG-FrameContext`, `entityOfConcern`, `CNSpecRef.edition`, `CGSpecRef.edition` are already required
-// by `GCorePinSetId.PartG.AuthoringMinimal` (cite, don’t restate here).
+// NOTE: the frame pin inherited from `GCorePinSetId.PartG.AuthoringMinimal` denotes only the exact
+// declared CG-frame, which is the framing episteme here; it supplies no universal setting, scope, or reuse authority.
+// `entityOfConcern`, `CNSpecRef.edition`, and `CGSpecRef.edition` remain inherited; each card adds the exact use pins named below.
 UTSRowId[],                      // required: CHR terms are public ids (Name Cards plus public-id continuity records)
 PathId[]/PathSliceId[],          // required: worked examples/tests and refresh anchoring cite paths
 ReferencePlane,                  // required: definitional claims are plane-scoped
@@ -132,7 +135,7 @@ RSCRTriggerKindId.BaselineBindingEdit
 #### G.3:4.3 - CHR authoring chassis (S1–S8)
 
 **S1 — Charter the measurement scope (scope anchor).**
-Declare the CHR `U.BoundedContext` and scope for the CG‑Frame, including: `entityOfConcern` boundaries, `ReferencePlane`, freshness/decay expectations, and the list of contested terms likely to require bridging. Output a design‑time `MeasurementCharter` and `KindMap@Context`.
+Identify the exact declared CG-frame (the framing episteme). For this CHR work, state the bearer or bearers and identify each as an `entityOfConcern`. Also state the scope, any applicable qualification and evaluation windows, `ReferencePlane`, evidence basis, intended downstream use, freshness or decay expectations, and any contested expression whose reuse may require an actual `F.9` relation. Output a design-time `MeasurementCharter` and `KindMap`.
 If freshness/decay expectations are anything beyond an explicit “non‑decaying” declaration, wire them via
 `G.3:Ext.DecayWiring` (governing pattern: `B.3.4`) rather than encoding decay semantics in CHR prose.
 If assurance‑subtype lane tags are used (e.g., TA/VA/LA), declare the lane regime here so downstream evidence discipline can remain lane‑pure (taxonomy/semantics governed by `B.3`; evidence‑path representation & audit governed by `G.6`; this pattern only records wiring).
@@ -152,14 +155,23 @@ A CharacteristicCard is the minimum unit CHR publishes for downstream legality. 
 
 `CharacteristicCard := ⟨
   UTSRowId,
-  Context,
+  CharacteristicRef.edition,
+  entityOfConcern,
+  ClaimScope,
+  ApplicableSliceRef[],
+  QualificationWindow?,
+  EvaluationWindow?,
+  MeasurementMethodRef.edition?,
+  MeasurementModelRef.edition?,
+  EvidenceRef[],
+  IntendedDownstreamUse,
   ReferencePlane,
   ObjectKind,
   Intent,
   Definition (typed),
   ObservableOf := ⟨instrument/protocol (A.10 anchors/carriers), uncertainty model, validity window⟩,
   EvidenceLanes? (KD‑CAL lanes; wiring only; semantics governed by `G.4` / `G.6`),
-  ScaleRef,
+  ScaleRef.edition,
   Polarity ∈ {↑, ↓, ⊥},
   Domain/Range,
   UnitSet,
@@ -241,8 +253,8 @@ This step prepares the RSCR loop but does not govern orchestration (governing de
 
 | Interface                           | Consumes                                          | Produces                                                         |
 | ----------------------------------- | ------------------------------------------------- | ---------------------------------------------------------------- |
-| **G.3‑1 Charter_CHR**               | `CG‑FrameContext` (`G.1`), SoTA inputs (`G.2`)    | `MeasurementCharter`, `KindMap@Context`                          |
-| **G.3‑2 MintOrReuse_Terms**         | candidate terms + UTS registry                    | Name Cards + UTS ids for `Characteristic/Scale/Level/Coordinate` |
+| **G.3-1 Charter_CHR** | exact declared CG-frame (the framing episteme), bearer or bearers identified as EntitiesOfConcern, scope and applicable windows, `ReferencePlane`, evidence basis, intended downstream use, and SoTA inputs (`G.2`) | `MeasurementCharter`, `KindMap` |
+| **G.3-2 MintOrReuse_Terms** | candidate characteristic, scale, level, or coordinate expressions; their effective scheme, source-local sense, and intended CHR use; UTS registry | reused or minted ids and Name Cards where public ids are needed; exact `F.17` cell refs and `F.9` relation refs only when an actual relation between local meanings is required for the stated reuse and obtains |
 | **G.3‑3 Define_Characteristic**     | `MeasurementCharter`, candidate semantics         | `CHR.Characteristic[]` (CharacteristicCards)                     |
 | **G.3‑4 Define_ScaleLevel**         | CharacteristicCard + MM‑CHR rules                 | `CHR.Scale[]`, `CHR.Level[]`                                     |
 | **G.3‑5 Define_CoordinatePolicy**   | Scale/Level + use‑case constraints                | `CHR.Coordinate[]` + legality annotations                        |

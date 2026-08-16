@@ -6,7 +6,7 @@ section_id: "A.0:4"
 section_title: "Solution - Normative onboarding glossary and publication hooks"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.0/A.0__005_solution-normative-onboarding-glossary-and-publication-hooks.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.0 — Onboarding Glossary (NQD & E/E‑LOG)"
   - "A.0:4 — Solution - Normative onboarding glossary and publication hooks"

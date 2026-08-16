@@ -6,12 +6,12 @@ section_id: "F.8:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__013_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:10 — Consequences"
-line_start: 92939
-line_end: 92960
+line_start: 92697
+line_end: 92724
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,36 +45,45 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:10 - Consequences
 
 Good consequences:
 
-- durable vocabulary grows more slowly and with clearer justification;
-- role words used for status, evidence, access, source, requirement, publication, or slot positions stop forming duplicate system-role-kind ontology;
-- effective ReferenceSchemes and exact local-sense claims replace generic context slots without erasing real locality;
-- F.17 rows keep their declared scope, and local-sense reuse no longer masquerades as cross-local equivalence;
-- F.5 and F.18 receive better naming inputs because F.8 has already selected the smallest disposition;
-- independently current decision or choice occurrences and their result records remain separately inspectable; and
-- policy identifiers become checkable references instead of decorative strings.
+- vocabulary grows only when a receiving use needs a stronger name;
+- role-like, source, and record-like expressions return to their governed subjects before naming;
+- aliases and F.17 rows retain their admitted meaning and scope;
+- F.5 and F.18 receive a recovered subject and a selected naming path; and
+- accountable decisions and policy identifiers remain inspectable without making their records act.
 
 Costs:
 
-- authors must recover kind, subject pattern, use, scheme, and local-sense basis before naming;
-- mixed expressions require separate decisions;
-- some attractive names remain local phrases or aliases;
-- durable public or cross-local names may require independently justified cell, NameCard, Bridge, row, reliance, decision-result, and publication objects; and
-- a new U-kind becomes harder to justify because minting waits for `E.24.UK` and the relevant admission law rather than naming comfort.
+- authors must recover the subject, pattern, use, scheme, and local sense before naming;
+- mixed expressions need separate decisions, and some attractive words stay local or remain aliases;
+- durable or public use may require its own NameCard, Bridge, row, reliance, decision result, or publication object; and
+- a proposed U-kind receives no F.8 name before E.24.UK settles admission.
 
-Reopen F.8 when `E.24.UK`, `A.2`, `A.2.1`, `A.6.RCD`, `A.15.1`, `C.11`, `F.4`, `F.5`, `F.6`, `F.9`, `F.14`, `F.17`, `F.18`, `A.6.5`, `C.2.1`, `E.10`, `E.9`, `A.8`, `A.11`, or policy-identifier discipline changes enough that the dispositions or object boundaries would change.
+**Refresh by meaning, not by neighbour edition.**
+
+- If F.14, F.5, F.17, or F.18 changes the lightest-sufficient naming ladder, row-entry threshold, `AdmissibleUse`, or escalation to a stronger naming object, revisit §§0 and 4.1–4.4, case 7.2, checks 03–09, and the compact corpus entry.
+- If A.2, C.3, F.4, A.2.1, F.6, or A.15.1 changes how a local system-role kind is recovered, how `L`, `K`, `D`, and `A` relate, or where assignment and performed Work begin, revisit the corresponding target rows, step 7, §4.3, cases 7.1, 7.3, and 7.6, invariant 4, and checks 06–08.
+- If A.6.RCD, C.11, C.2.1, or A.15.1 changes how a decision or choice occurrence, result, result episteme, decision-making Work, or missing governor is established, revisit §4.5, the accountable stop in 7.6, invariant 6, and check 10.
+- If E.24.CD, E.24.UK, A.8, or A.11 changes object recovery, admission dispositions, or the admission-before-naming order, revisit the entry and non-use boundary, the pre-admission target and step 11, case 7.5, invariant 8, and check 12.
+- If the policy subject pattern, E.9, A.6.RCD, C.11, or C.2.1 changes the policy specification–identifier distinction or the support required for mint history, revisit the policy target, step 10, case 7.4, §8.1, invariant 9, and checks 10 and 13.
+- If a source used in §12 changes a distinction that F.8 adopted, or a better current source preserves the needed precision and readability at lower use cost, revisit that source row and only the F.8 loci named by it.
+
+A new edition number, publication status, link, harmless wording repair, or added example does not reopen F.8 when these meanings stay unchanged. A changed disposition, governed subject, kind or relation, admitted use, ordering dependency, or better solution reopens only the dependent loci named above.
 

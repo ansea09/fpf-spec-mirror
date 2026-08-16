@@ -6,12 +6,12 @@ section_id: "F.9:12"
 section_title: "Worked examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.9/F.9__014_worked-examples.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.9 — Alignment and Bridge across Contexts"
   - "F.9:12 — Worked examples"
-line_start: 93271
-line_end: 93300
+line_start: 93044
+line_end: 93073
 dependencies:
   - "A.10"
   - "A.15.1"

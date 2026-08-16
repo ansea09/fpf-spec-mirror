@@ -6,12 +6,12 @@ section_id: "G.1:11"
 section_title: "SoTA‑Echoing (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.1/G.1__012_sota-echoing-informative.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.1 — CG‑Frame‑Ready Generator"
   - "G.1:11 — SoTA‑Echoing (informative)"
-line_start: 99418
-line_end: 99427
+line_start: 99191
+line_end: 99200
 dependencies:
   - "A.10"
   - "A.15.3"

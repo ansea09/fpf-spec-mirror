@@ -6,12 +6,12 @@ section_id: "E.22:End"
 section_title: "E.22:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__014_e-22-end.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:End — E.22:End"
-line_start: 88147
-line_end: 88148
+line_start: 87945
+line_end: 87946
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"

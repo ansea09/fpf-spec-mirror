@@ -6,12 +6,12 @@ section_id: "C.18.1:5"
 section_title: "Consumer relation fields - minimal inputs and outputs (conceptual)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18.1/C.18.1__006_consumer-relation-fields-minimal-inputs-and-outputs-conceptual.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.18.1 — Scaling‑Law Lens Binding (SLL)"
   - "C.18.1:5 — Consumer relation fields - minimal inputs and outputs (conceptual)"
-line_start: 49547
-line_end: 49550
+line_start: 49231
+line_end: 49234
 dependencies:
   - "A.10"
   - "A.15.1"

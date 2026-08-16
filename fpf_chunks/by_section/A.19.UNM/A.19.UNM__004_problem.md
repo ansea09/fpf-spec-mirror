@@ -6,12 +6,12 @@ section_id: "A.19.UNM:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UNM/A.19.UNM__004_problem.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.UNM — Unified Normalization Mechanism (UNM)"
   - "A.19.UNM:2 — Problem"
-line_start: 31369
-line_end: 31381
+line_start: 31381
+line_end: 31393
 dependencies:
 keywords:
   - "CV→NCV"
@@ -32,9 +32,9 @@ Without an explicit UNM governing pattern:
 1) **Normalization drifts into hidden places.** It gets embedded inside scoring, comparison, or selection, making admissibility and governance non-local.
 
 2) **Comparability becomes rhetorical.** People say “we normalize” but cannot answer:
-   *Which method? Which invariants? Which validity window? Which evidence? Which transport/plane regime?*
+   *Which method? Which invariants? Which bearer, comparison basis, scope and window? Which evidence? Does the receiving comparison rely on an actual Bridge, kind relation, or plane relation?*
 
-3) **Cross-context and cross-plane slips become invisible.** Teams “reuse” normalizations across contexts without explicit Bridge/CL/ReferencePlane discipline.
+3) **Basis and relation changes become invisible.** Teams reuse normalizations for another bearer, comparison basis, source-local meaning, or reference plane without naming what changed or the relation on which the new use depends.
 
 4) **Engineers cannot reconstruct the mechanism.** When UNM semantics are scattered, the pattern structure (problem/forces/solution) is lost, hurting didactic use by engineering managers.
 

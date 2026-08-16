@@ -6,12 +6,12 @@ section_id: "G.3:8"
 section_title: "Common Anti‑Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.3/G.3__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.3 — CHR Authoring for a CG‑Frame: Characteristics, Scales, Levels, Coordinates"
   - "G.3:8 — Common Anti‑Patterns and How to Avoid Them"
-line_start: 100338
-line_end: 100346
+line_start: 100121
+line_end: 100129
 dependencies:
   - "A.10"
   - "A.15.3"
@@ -27,8 +27,10 @@ dependencies:
   - "E.10"
   - "E.5.1"
   - "E.5.3"
+  - "F.0.1"
   - "F.1"
   - "F.17"
+  - "F.18"
   - "F.9"
   - "G.0"
   - "G.1"
@@ -61,5 +63,5 @@ keywords:
 * **Polarity drift.** Don’t rely on “higher is better” implicitly; do publish polarity explicitly and make downstream use auditable.
 * **Threshold leakage into CHR.** Don’t embed policy cut‑offs in CHR; do keep thresholds in CAL acceptance artefacts.
 * **Unpinned semantics.** Don’t cite “the metric” or “the distance” without edition pins; do require edition‑pinned references when semantics affect interpretation.
-* **Unscoped reuse.** Don’t reuse CHR terms across contexts without explicit import and loss notes; do keep crossings explicit and auditable (pinned through `G.Core`).
+* **Unscoped reuse.** Don’t reuse a characteristic or scale beyond its defining source and use on token continuity alone. Name the exact editions, bearer, scope and applicable window, reference plane, evidence, and intended downstream use; cite `F.9` only when an actual relation between the named local senses is needed and obtains.
 

@@ -6,12 +6,12 @@ section_id: "F.8:9"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:9 — Common Anti-Patterns and How to Avoid Them"
-line_start: 92923
-line_end: 92938
+line_start: 92681
+line_end: 92696
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,30 +45,33 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:9 - Common Anti-Patterns and How to Avoid Them
 
 | Anti-pattern | Symptom | Repair |
 | --- | --- | --- |
-| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover the exact governed value or relation, subject pattern, and proposed use first. |
-| Evidence-role revival | `EvidenceRole` becomes a system-role-kind name family. | Recover the exact evidence-use relation; name it only through its subject pattern. |
+| Suffix minting | A word ending in `Role`, `Status`, `Graph`, `Map`, or `Record` becomes ontology. | Recover the governed value or relation, subject pattern, and proposed use first. |
+| Evidence-role revival | `EvidenceRole` becomes a system-role-kind name family. | Recover the evidence-use relation; name it only through its subject pattern. |
 | Status-system-role fusion | `ReadyReviewerRole` or `ApprovedRole` names a local system-role kind plus state. | Separate the system-role kind from the assignment-state or status-use relation. |
-| Row overuse | A public naming row justifies equivalence, system-role assignment, or structural inference. | Lower use to the exact F.17 `AdmissibleUse` or repair the row and any required Bridge. |
+| Row overuse | A public naming row justifies equivalence, system-role assignment, or structural inference. | Lower use to the F.17 `AdmissibleUse` or repair the row and any needed Bridge. |
 | Alias with payload | An alias changes kind, scope, occurrence identity, use, or authority. | Treat it as a different decision; use `F.5`, `F.13`, and `F.18`. |
-| Source prestige minting | A standard or framework term becomes the selected FPF name by prestige. | Keep it as source wording, evidence for a local sense, or an alias until exact recovery and selection pass. |
-| Review label as context | `PatternReview_2026` is used as context, Work, system-role assignment, evidence, or authority. | Recover the exact dated Work or plan or edition, decision-use claim, or effective ReferenceScheme needed by the actual assertion. |
-| Decision identifier or record as decision | An identifier or filled record is treated as the decision occurrence or as creating its result. | Recover the occurrence through its direct pattern, predicate, actual participants, applicability, and identity rule. If none is current, return `missing-governor`; constitute a separate C.2.1 result episteme only when needed. |
+| Source prestige minting | A standard or framework term becomes the selected FPF name by prestige. | Keep it as source wording, evidence for a local sense, or an alias until the subject and naming use are recovered and a designation is selected. |
+| Review label as context | `PatternReview_2026` is used as context, Work, system-role assignment, evidence, or authority. | Recover the dated Work, plan or edition, decision-use claim, or naming ReferenceScheme needed by the assertion. |
+| Decision identifier or record as decision | An identifier or filled record is treated as the decision occurrence or as creating its result. | Recover the occurrence through the decision or choice pattern, predicate, actual participants, applicability, and identity rule that establish it. If none is available, return `missing-governor`; constitute a separate C.2.1 result episteme only when needed. |
 | Naming-object cascade | One expression automatically gets a cell, NameCard, row, identifier, and publication. | Apply F.14 at every gate and create only the next object whose receiving use pays for it. |
-| U-kind comfort minting | A new U-kind is proposed because existing names feel awkward. | Attempt reduction to local phrase, existing designation, alias, direct-pattern name, admitted row, existing relation, or existing U-kind; use `E.24.UK` before admission. |
+| U-kind comfort minting | A new U-kind is proposed because existing names feel awkward, and F.8 is asked to name or admit it. | Return `blockOrLowerUse`; recover the object through E.24.CD when needed, let E.24.UK settle admission, and reopen naming only for the object named by that stable result. |
 | Policy identifier as magic word | An identifier is used without a separately resolvable specification, or its mint history is called accountable, cited, replayable, normative, or reusable across the local boundary without an occurrence basis. | Supply the specification for every identifier. For the stronger history claim, supply its direct occurrence basis or return `missing-governor`; a merely local non-accountable identifier does not manufacture one. |
 

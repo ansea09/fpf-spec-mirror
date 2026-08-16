@@ -6,12 +6,12 @@ section_id: "E.10.D2:15"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.D2/E.10.D2__017_relations.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.10.D2 — EntityOfConcern, Description Episteme, and Specification-Use Discipline"
   - "E.10.D2:15 — Relations"
-line_start: 77217
-line_end: 77233
+line_start: 77015
+line_end: 77031
 dependencies:
   - "A.1.1"
   - "A.10"

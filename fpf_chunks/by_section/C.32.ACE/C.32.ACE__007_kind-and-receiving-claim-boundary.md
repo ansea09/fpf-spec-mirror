@@ -6,12 +6,12 @@ section_id: "C.32.ACE:6"
 section_title: "Kind and Receiving-Claim Boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ACE/C.32.ACE__007_kind-and-receiving-claim-boundary.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.32.ACE — Architecture Characteristic Eval Programs"
   - "C.32.ACE:6 — Kind and Receiving-Claim Boundary"
-line_start: 65655
-line_end: 65658
+line_start: 65342
+line_end: 65345
 dependencies:
   - "A.10"
   - "A.15.1"

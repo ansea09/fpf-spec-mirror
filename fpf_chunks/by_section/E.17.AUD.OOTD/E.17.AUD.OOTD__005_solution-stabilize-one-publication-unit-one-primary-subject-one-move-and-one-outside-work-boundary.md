@@ -6,12 +6,12 @@ section_id: "E.17.AUD.OOTD:4"
 section_title: "Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.AUD.OOTD/E.17.AUD.OOTD__005_solution-stabilize-one-publication-unit-one-primary-subject-one-move-and-one-outside-work-boundary.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "E.17.AUD.OOTD — PublicationUnit Stability Discipline and PublicationUnit Primary-Subject Discipline - publication-unit stability over one primary subject"
   - "E.17.AUD.OOTD:4 — Solution - stabilize one publication unit, one primary subject, one move, and one outside-work boundary"
-line_start: 83541
-line_end: 83681
+line_start: 83339
+line_end: 83479
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "F.6:9"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__011_conformance-checklist.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:9 — Conformance Checklist"
-line_start: 92224
-line_end: 92244
+line_start: 92024
+line_end: 92044
 dependencies:
   - "A.1.1"
   - "A.10"
@@ -46,7 +46,7 @@ keywords:
 
 1. `WorkOccurrenceSlot` names one admitted dated `U.Work` occurrence.
 2. `SystemRoleAssignmentSlot` names one assignment occurrence of a declared species under `U.SystemRoleAssignment` through `U.RelationRef`.
-3. The assignment's declared species, all identity-bearing participants, rule, applicability, and uninterrupted occurrence identity remain recoverable.
+3. The assignment's declared species, all identity-bearing participants, rule, applicability, and uninterrupted occurrence identity remain recoverable. Each species keeps its SlotSpec `ValueKind` domains distinct from the participant values supplied by the occurrence; `AssignedSystemRoleKindSlot` takes one kind value from its declared local system-role-kind domain.
 4. The case establishes that W was performed under RA; the assignment's existence, matching holder, and temporal overlap do not establish that link.
 5. The assignment holder is the System that actually performed W.
 6. The assignment predicate covers the selected Work interval; attribution to a Work part first identifies that part as `U.Work`.

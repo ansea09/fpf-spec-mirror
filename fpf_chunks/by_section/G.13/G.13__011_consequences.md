@@ -6,12 +6,12 @@ section_id: "G.13:10"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.13/G.13__011_consequences.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)"
   - "G.13:10 — Consequences"
-line_start: 104926
-line_end: 104932
+line_start: 104709
+line_end: 104715
 dependencies:
   - "A.18"
   - "A.19"

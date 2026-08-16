@@ -6,12 +6,12 @@ section_id: "F.8:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__005_forces.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:3 — Forces"
-line_start: 92594
-line_end: 92605
+line_start: 92391
+line_end: 92402
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,26 +45,29 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:3 - Forces
 
 | Force | Tension |
 | --- | --- |
-| Parsimony vs coverage | Avoid new durable names while still giving teams enough vocabulary for real recurring work. |
-| Local sense vs cross-local reuse | A name can be obvious under one effective ReferenceScheme and unsafe for another exact local-sense projection. |
-| Human readability vs ontology | Short names help use; they also hide kind, scope, occurrence identity, and relation if admitted too early. |
-| Source familiarity vs FPF neutrality | A familiar source word may be useful as an alias while still being a bad selected FPF designation. |
-| Naming speed vs downstream cost | Quick minting is cheap now and expensive when every subsequent pattern must repair it. |
-| Traceability vs record-first collapse | A result episteme can make a decision inspectable, but it must not replace the decision occurrence or perform the governed action. |
-| Open-world use vs false completeness | A missing durable name may mean "not current", not "new U-kind required". |
+| Parsimony vs coverage | Avoid new durable names while keeping enough vocabulary for recurring work. |
+| Local fit vs reuse | A name may be clear under one ReferenceScheme and unsafe for another use or local sense. |
+| Readability vs hidden ontology | Short names help readers but can hide kind, relation, scope, or occurrence identity. |
+| Familiarity vs neutrality | A source word may be a useful alias without being the selected FPF designation. |
+| Speed vs downstream cost | Quick minting is cheap now and expensive when later patterns must repair it. |
+| Traceability vs record-first collapse | A result episteme can support replay without becoming the decision occurrence. |
+| Open-world use vs false completeness | No durable name may mean “not needed now”, not “a new U-kind is required”. |
 

@@ -6,12 +6,12 @@ section_id: "B.3:5"
 section_title: "Proof obligations for an assurance-result claim"
 source_path: "FPF-Spec.md"
 output_path: "by_section/B.3/B.3__006_proof-obligations-for-an-assurance-result-claim.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "B.3 — Trust and Assurance Calculus (F-G-R with Congruence)"
   - "B.3:5 — Proof obligations for an assurance-result claim"
-line_start: 38827
-line_end: 38886
+line_start: 38835
+line_end: 38894
 dependencies:
   - "A.10"
   - "A.15"

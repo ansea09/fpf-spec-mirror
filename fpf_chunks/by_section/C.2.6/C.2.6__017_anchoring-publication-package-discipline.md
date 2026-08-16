@@ -6,12 +6,12 @@ section_id: "C.2.6:16"
 section_title: "Anchoring Publication Package Discipline"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.2.6/C.2.6__017_anchoring-publication-package-discipline.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.2.6 — U.LanguageStateAnchoringMode"
   - "C.2.6:16 — Anchoring Publication Package Discipline"
-line_start: 43954
-line_end: 43971
+line_start: 43962
+line_end: 43979
 dependencies:
   - "A.16"
   - "A.16.0"

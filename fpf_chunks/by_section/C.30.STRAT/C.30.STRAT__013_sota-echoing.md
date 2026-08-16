@@ -6,12 +6,12 @@ section_id: "C.30.STRAT:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.STRAT/C.30.STRAT__013_sota-echoing.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "C.30.STRAT — Stratification Wording Precision Restoration"
   - "C.30.STRAT:11 — SoTA-Echoing"
-line_start: 61417
-line_end: 61424
+line_start: 61104
+line_end: 61111
 dependencies:
   - "A.10"
   - "A.15"

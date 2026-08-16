@@ -6,12 +6,12 @@ section_id: "F.4:13"
 section_title: "Phrasebook"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.4/F.4__015_phrasebook.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.4 — SystemRoleKindDescription — Describing an Exact System-Role Kind"
   - "F.4:13 — Phrasebook"
-line_start: 91639
-line_end: 91659
+line_start: 91437
+line_end: 91457
 dependencies:
   - "A.15"
   - "A.15.1"

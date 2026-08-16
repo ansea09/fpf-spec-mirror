@@ -6,12 +6,12 @@ section_id: "F.7:16"
 section_title: "Didactic distillation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__017_didactic-distillation.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:16 — Didactic distillation"
-line_start: 92526
-line_end: 92529
+line_start: 92329
+line_end: 92332
 dependencies:
   - "A.6.9"
   - "B.3"
@@ -25,7 +25,6 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.8"
   - "F.9"
 keywords:
   - "comparison surface"

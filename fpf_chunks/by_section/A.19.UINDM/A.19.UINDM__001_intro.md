@@ -6,12 +6,12 @@ section_id: "A.19.UINDM:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.UINDM/A.19.UINDM__001_intro.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.UINDM — Unified Indicatorization Mechanism (UINDM)"
   - "A.19.UINDM:intro — Intro"
-line_start: 31732
-line_end: 31746
+line_start: 31739
+line_end: 31753
 dependencies:
 keywords:
   - "CHR suite stage indicatorize"

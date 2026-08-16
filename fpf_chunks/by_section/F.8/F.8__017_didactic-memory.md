@@ -6,12 +6,12 @@ section_id: "F.8:14"
 section_title: "Didactic Memory"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.8/F.8__017_didactic-memory.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.8 — Mint-or-Reuse Decision"
   - "F.8:14 — Didactic Memory"
-line_start: 93000
-line_end: 93003
+line_start: 92773
+line_end: 92776
 dependencies:
   - "A.11"
   - "A.15"
@@ -45,18 +45,21 @@ dependencies:
   - "F.4"
   - "F.5"
   - "F.6"
-  - "F.7"
+  - "F.8"
   - "F.9"
 keywords:
-  - "decision lattice"
-  - "minting new U-kinds"
-  - "parsimony"
-  - "reuse"
-  - "role-shaped names"
-  - "type explosion"
+  - "admission before naming"
+  - "alias"
+  - "designation"
+  - "durable naming"
+  - "governed value or relation"
+  - "local phrase"
+  - "proposed naming use"
+  - "row use"
+  - "subject before name"
 ---
 
 ### F.8:14 - Didactic Memory
 
-Do not ask for a better name first. Recover one exact value or relation and one use; state the effective naming ReferenceScheme and local-sense claim; then try local phrase, existing designation, alias, direct-pattern name, and admitted F.17 row. Stop with the readable disposition unless a receiving claim truly needs an accountable decision occurrence. In that rarer branch, recover its direct predicate, participants, applicability, and identity or return `missing-governor`. A label, card, row, identifier, publication, C.11 result, Work occurrence, or decision record creates none of the ontology, assignment, evidence, status, equivalence, authority, or decision occurrence it mentions.
+Name the subject and use before judging the word. Try the light naming ladder and stop at the first sufficient result. An unsettled U-kind goes to E.24.UK before naming; an accountable decision opens §4.5 only when the decision occurrence itself must be used. A name, card, row, identifier, publication, or record creates neither the subject nor any relation or authority it mentions.
 

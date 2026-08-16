@@ -6,12 +6,12 @@ section_id: "F.3:5"
 section_title: "Minimal vocabulary (this pattern only)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.3/F.3__006_minimal-vocabulary-this-pattern-only.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "F.3 — Source-Local Sense Clustering"
   - "F.3:5 — Minimal vocabulary (this pattern only)"
-line_start: 91136
-line_end: 91145
+line_start: 90934
+line_end: 90943
 dependencies:
   - "A.11"
   - "A.7"

@@ -6,12 +6,12 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "7205ce8cea50eb778520a026373b2b7bcbc43fbb"
+commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"
-line_start: 30580
-line_end: 30620
+line_start: 30589
+line_end: 30632
 dependencies:
   - "A.19"
   - "A.6.1"
@@ -40,7 +40,10 @@ keywords:
 **Template note (refs-only).** This template shows *slot placement* for governance. Token semantics for normalization belong to the A.19.UNM governing pattern (A.19.UNM); indicatorization semantics belong to the indicatorization governing pattern (e.g., A.19.UINDM); evidence/backing semantics belong to C.16; admissibility/evidence gates belong to G.0.
 
 ```
-CN‑frame: <Name>      Context: <Context/Edition>
+CN‑frame: <Name>      Edition: <edition>      Bearer: <bearer ref>
+ComparisonBasis: <corpus, baseline, reference state, or declared comparison set>
+ScopeAndWindow: <scope ref and qualification interval, when used>
+IntendedUse: <claim, comparison, admission, or aggregation use>
 characteristics:
   - <CharacteristicName> : <Unit/Scale>  [Polarity: up|down|target-range]
 Chart:
