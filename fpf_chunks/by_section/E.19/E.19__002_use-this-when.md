@@ -6,12 +6,12 @@ section_id: "E.19:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.19/E.19__002_use-this-when.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.19 — Pattern Quality Gates: Review and Refresh Profiles"
   - "E.19:0 — Use this when"
-line_start: 85960
-line_end: 85967
+line_start: 85943
+line_end: 85950
 dependencies:
   - "A.15.1"
   - "A.6.P"
@@ -37,7 +37,7 @@ keywords:
 
 ### E.19:0 - Use this when
 
-Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. `E.19` supplies profile-based questions and conclusion semantics. A reviewer applies the selected questions. That ordinary wording asserts no local system-role kind, separate System-classification judgment, `U.SystemRoleAssignment`, `U.Method`, `U.Work`, or authority relation. When exact replay or a named later use asserts actual review, repair, or verification `U.Work`, use the §4 actual-Work account. Within that account, compact reporting may omit only an assignment identifier unused by the receiving claim; the complete basis remains recoverable.
+Use `E.19` when one exact new, substantially revised, or aging FPF pattern edition or bounded subset needs a repeatable admission, refresh, or return-for-repair review. `E.19` supplies profile-based questions and conclusion semantics. A reviewer applies the selected questions and returns either repaired text with focused verification or actionable findings.
 
 Use it especially when a draft looks structurally compliant but may still fail on first-minute usability, primary `EntityOfConcern` stability, terminology, SoTA grounding, related-pattern boundaries, examples, anti-patterns, or shipping-facing authority claims.
 

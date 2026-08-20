@@ -6,12 +6,12 @@ section_id: "G.5:0.3"
 section_title: "First-minute questions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__005_first-minute-questions.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:0.3 — First-minute questions"
-line_start: 100629
-line_end: 100648
+line_start: 100758
+line_end: 100777
 dependencies:
   - "C.11"
   - "C.18"

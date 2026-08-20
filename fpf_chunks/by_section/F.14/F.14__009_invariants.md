@@ -6,12 +6,12 @@ section_id: "F.14:8"
 section_title: "Invariants"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__009_invariants.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:8 — Invariants"
-line_start: 94799
-line_end: 94811
+line_start: 94917
+line_end: 94929
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -50,7 +50,7 @@ keywords:
 
 ### F.14:8 - Invariants
 
-1. **Governed value first.** No durable naming object is added until the exact value or relation, kind, subject pattern, and proposed use are recoverable.
+1. **Governed value first.** No durable naming object is added until the exact value or relation, kind, proposed use, and the pattern contribution that defines, constrains, or tests each needed claim are recoverable.
 2. **Lightest sufficient disposition.** Prefer the dispositions `no durable name`, existing designation, alias, or local expression whenever one supports the use without hiding a distinction.
 3. **No status roles.** Status, evidence, requirement, source, publication, and access uses do not become system-role kinds by suffix.
 4. **No assignment by name.** A designation, `SystemRoleKindDescription`, system-role-kind relation expression, card, cell, or row assigns no system and proves no Work.

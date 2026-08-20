@@ -6,7 +6,7 @@ section_id: "A.2.2:8"
 section_title: "Composite Capability"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.2/A.2.2__009_composite-capability.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "A.2.2 — U.Capability - System Ability Envelope and Measures"
   - "A.2.2:8 — Composite Capability"

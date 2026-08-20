@@ -6,7 +6,7 @@ section_id: "C.3.1:10"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.1/C.3.1__012_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.3.1 — U.Kind and U.SubkindOf Core"
   - "C.3.1:10 — Common Anti-Patterns and How to Avoid Them"
@@ -32,11 +32,14 @@ dependencies:
   - "F.8"
 keywords:
   - "U.SubkindOf direct relation"
-  - "assertion episteme"
-  - "local kind"
-  - "partial order"
-  - "relation occurrence"
-  - "relation-obtaining predicate"
+  - "classification equivalence"
+  - "closed finite domain"
+  - "continuity"
+  - "criterion entailment"
+  - "kind identity"
+  - "membership criterion"
+  - "participant-determined occurrence"
+  - "preorder"
 ---
 
 ### C.3.1:10 - Common Anti-Patterns and How to Avoid Them

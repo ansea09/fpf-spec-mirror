@@ -6,12 +6,12 @@ section_id: "C.32.FAIL:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.FAIL/C.32.FAIL__005_solution.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.32.FAIL — Architecture Failure Recognition and Repair"
   - "C.32.FAIL:4 — Solution"
-line_start: 66216
-line_end: 66252
+line_start: 66199
+line_end: 66235
 dependencies:
   - "A.10"
   - "A.15.1"

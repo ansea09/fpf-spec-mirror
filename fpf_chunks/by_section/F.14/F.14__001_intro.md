@@ -6,12 +6,12 @@ section_id: "F.14:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__001_intro.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:intro — Intro"
-line_start: 94653
-line_end: 94666
+line_start: 94769
+line_end: 94781
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -49,7 +49,6 @@ keywords:
 ---
 
 ## F.14 - Anti-Explosion Control for System-Role and Status Name Families
-> **Status:** Stable in the current FPF
 
 **"Name less; recover the governed values first."**
 

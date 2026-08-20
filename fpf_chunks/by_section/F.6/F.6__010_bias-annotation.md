@@ -6,12 +6,12 @@ section_id: "F.6:8"
 section_title: "Bias Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__010_bias-annotation.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:8 — Bias Annotation"
-line_start: 92012
-line_end: 92023
+line_start: 92128
+line_end: 92139
 dependencies:
   - "A.1.1"
   - "A.10"

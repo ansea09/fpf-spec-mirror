@@ -6,7 +6,7 @@ section_id: "A.10:10a"
 section_title: "Evidence carriers for quantum-like statements"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.10/A.10__015_evidence-carriers-for-quantum-like-statements.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "A.10 — Evidence Graph Referring: Claim-Bound Evidence and Provenance Graph"
   - "A.10:10a — Evidence carriers for quantum-like statements"

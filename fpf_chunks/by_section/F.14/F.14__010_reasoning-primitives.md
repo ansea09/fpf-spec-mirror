@@ -6,12 +6,12 @@ section_id: "F.14:9"
 section_title: "Reasoning primitives"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__010_reasoning-primitives.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:9 — Reasoning primitives"
-line_start: 94812
-line_end: 94845
+line_start: 94930
+line_end: 94963
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -67,7 +67,7 @@ systemRoleKindBundleRelation(K1, K2) obtains
 
 ```text
 statusVariant(S, windowOrValue)
-  -> keep status family S unless its subject pattern establishes a different family.
+  -> keep status family S unless the pattern that defines the status claim establishes a different family.
 ```
 
 ```text

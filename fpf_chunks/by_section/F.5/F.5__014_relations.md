@@ -6,12 +6,12 @@ section_id: "F.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.5/F.5__014_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.5 — Naming Discipline for U-kind Names and SystemRoleKindDescription Labels"
   - "F.5:12 — Relations"
-line_start: 91738
-line_end: 91747
+line_start: 91854
+line_end: 91863
 dependencies:
   - "A.10"
   - "A.15"

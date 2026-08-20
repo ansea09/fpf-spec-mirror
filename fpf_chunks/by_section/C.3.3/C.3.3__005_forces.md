@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge & CL^k — Cross‑context Mapping of Kinds"
+pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
 section_id: "C.3.3:4"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__005_forces.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
+  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:4 — Forces"
-line_start: 45116
-line_end: 45124
+line_start: 45110
+line_end: 45119
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -21,20 +21,15 @@ dependencies:
   - "C.3.2"
   - "F.9"
 keywords:
-  - "CL^k"
-  - "KindBridge direct relation"
-  - "R penalty"
-  - "bridge assertion episteme"
-  - "loss"
-  - "target judgment"
 ---
 
 ### C.3.3:4 - Forces
 
-| Force                                    | Tension to resolve                                                                              |
-| ---------------------------------------- | ----------------------------------------------------------------------------------------------- |
-| **Minimal disclosure vs precision**      | Bridges must be light to write yet precise enough to avoid semantic drift.                      |
-| **Local autonomy vs global reuse**       | Each target‑context keeps its vocabulary; reuse requires explicit, reviewable mappings.                   |
-| **Typed safety vs agility**              | We need typed compatibility checks without blocking exploratory reuse.                          |
-| **Separate channels vs operator workload** | Two channels (Scope & Kind) must be explicit, but guard writers shouldn’t drown in boilerplate. |
+| Force | Tension to resolve |
+| --- | --- |
+| Same-kind reuse vs bridge discipline | Do not invent a bridge for provenance, but make real distinct-kind correspondence explicit. |
+| Minimal disclosure vs precision | State only what the receiving use consumes while keeping direction, definedness, and loss inspectable. |
+| Local autonomy vs reuse | Receiving kinds keep their membership distinctions; correspondence does not merge them. |
+| Separate channels vs workload | Scope, sense, and kind correspondence remain separate without forcing all three into every use. |
+| Fresh truth vs useful support | Source results may support reliance but never substitute for receiving admissibility or judgment. |
 

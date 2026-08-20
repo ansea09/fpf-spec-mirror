@@ -6,12 +6,12 @@ section_id: "E.23:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.23/E.23__011_rationale.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.23 — Quality Improvement Loop Method"
   - "E.23:10 — Rationale"
-line_start: 88324
-line_end: 88327
+line_start: 88439
+line_end: 88442
 dependencies:
   - "A.19.ECS"
   - "A.22.CGUS"
@@ -30,5 +30,5 @@ keywords:
 
 ### E.23:10 - Rationale
 
-The shared method is simple: select a proposed improvement; perform it through separately identified Work that passes A.15.1 and F.6; connect the returned value or changed object through its direct relation or A.6.1 binding; then re-evaluate through separate Work and a separate result episteme. Check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. A.22 carries the guarded alternatives, selected continuation, stop, and returns; when transformation-flow membership is independently current, E.18 and E.18.3 recognize that selected structure rather than a second loop object. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method or turn the cycle into enduring Work or context.
+The shared method is simple: select a proposed improvement; perform it; connect any returned value or changed object through its direct relation or A.6.1 binding; then re-evaluate through a separate pass and result. `CC-E23-4` supplies the dated-Work account whenever either performed pass is asserted as Work. Check trade-offs and cost, then stop, continue, switch method, open a new frame, or hold. A.22 carries the guarded alternatives, selected continuation, stop, and returns; when transformation-flow membership is independently current, E.18 and E.18.3 recognize that selected structure rather than a second loop object. Classical improvement cycles, agentic loops, fixed-performer optimization, MCDA, Goodhart, and OEE and NQD lines contribute useful operations and boundaries, but they do not replace this method or turn the cycle into enduring Work or context.
 

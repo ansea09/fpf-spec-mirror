@@ -6,12 +6,12 @@ section_id: "C.3.4:8"
 section_title: "Interactions"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.4/C.3.4__010_interactions.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning"
   - "C.3.4:8 — Interactions"
-line_start: 45417
-line_end: 45437
+line_start: 45400
+line_end: 45420
 dependencies:
   - "A.2.6"
   - "C.2.1"
@@ -21,12 +21,6 @@ dependencies:
   - "C.3.A"
   - "F.9"
 keywords:
-  - "base KindSignature"
-  - "candidate-feature constraint"
-  - "correspondence declaration"
-  - "kind-use adaptation declaration"
-  - "three-valued judgment"
-  - "vocabulary binding"
 ---
 
 ### C.3.4:8 - Interactions

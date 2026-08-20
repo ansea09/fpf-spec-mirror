@@ -6,11 +6,11 @@ section_id: null
 section_title: null
 source_path: "FPF-Spec.md"
 output_path: "by_pattern/E.20.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.20 — Mechanism Introduction Protocol"
-line_start: 86730
-line_end: 87130
+line_start: 86740
+line_end: 87140
 dependencies:
   - "A.15.3"
   - "A.6.1"

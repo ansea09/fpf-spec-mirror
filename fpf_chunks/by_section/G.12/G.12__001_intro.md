@@ -1,26 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.12"
-pattern_title: "DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
+pattern_title: "DHC Dashboards (Discipline-Health Time Series and Views)"
 section_id: "G.12:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.12/G.12__001_intro.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
+  - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:intro — Intro"
-line_start: 103999
-line_end: 104012
+line_start: 104126
+line_end: 104135
 dependencies:
   - "A.19"
+  - "A.2.6"
+  - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.21"
+  - "C.29"
   - "E.10"
+  - "E.24.PUB"
   - "E.5.2"
   - "F.17"
   - "F.18"
+  - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"
@@ -43,17 +49,13 @@ keywords:
   - "view-only slices"
 ---
 
-## G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)
+## G.12 — DHC Dashboards (Discipline-Health Time Series and Views)
 
-**Tag:** Architectural kit pattern (conceptual; notation‑independent; dashboard‑kit governing definition)
+**Tag:** Architectural kit pattern; notation-independent.
 
-**Stage:** design‑time authoring **→** run‑time computation & publication (series and slices); **refresh/RSCR‑wired**
+**Stage:** optional series authoring → measurement and series-update Work → representation → optional publication and refresh.
 
-**Primary hooks:** **G.Core** (core invariants, linkage catalogues, RSCR trigger catalogue, Default Governing Definition Index), **C.21** (DHC slots + `DHCPack` / `DHCMethodSpec` / `DHCSeries` artefacts), **G.6** (EvidenceGraph; `PathId`/`PathSliceId` citation), **G.7** (Bridge calibration / CL & `Φ/Ψ/Φ_plane` policy surfaces; when crossings/plane routing is used), **G.11** (telemetry‑driven refresh/decay orchestration), **G.5** (selector set-result / set‑returning outputs, when dashboard consumes performance trade‑offs), **A.19** (CN‑Spec governance card), **G.0** (CG‑Spec legality gate), **F.17/F.18** (UTS + twin labels), **E.5.2** (notation independence), **E.10** (LEX discipline).
-*(Optional, extension‑gated hooks:* **G.2** (SoTA palette & DHC alignment hooks), **C.18 and C.19** (QD / E‑E / OEE telemetry pins), **G.8** (SoS‑LOG bundle & maturity ladder view), **G.10** (shipping inclusion of dashboard slices).)*
+**Primary hooks:** C.21 for discipline-health Characteristics and the common replay basis; C.16 for measurement; C.2.1 for result and series epistemes; C.29 for representations; E.24.PUB for publication availability; G.6 for evidence paths when relied on; G.11 for refresh; G.Core, A.19, and G.0 for the exact legality and comparison surfaces actually used.
 
-**Why this exists.** **C.21** defines *what* lawful “discipline health” slots are (CHR‑typed; scale/legality aware; freshness‑windowed), but it does not, by itself, provide a **generation‑first** method for producing **edition‑pinned, evidence‑citable DHC time series** that remain refreshable under RSCR.
-**G.12** is that dashboard method: it defines the **dashboard kit surfaces** (`DHCSeries@Context`, `DHCRow@Context`, `DashboardSlice@Context`, telemetry pins) and a pipeline for computing and publishing DHC readings **without shadow specs**, **without illicit arithmetic**, and **without smuggling scalar winners** out of partial orders or telemetry.
-
-**Modularity note.** G.12 governs **dashboard publication units and wiring** only. It **does not** govern CN-Spec, CG-Spec, CHR, CAL, selection semantics, evidence semantics, shipping, or refresh heuristics. It binds to those governing definitions via refs/pins/editions/policy‑ids and keeps any method‑/generator‑specific panels strictly inside **Extensions** (`GPatternExtension` blocks).
+**Optional hooks:** G.2 for SoTA palettes, G.5 for selector results, C.18 and C.19 for QD or open-ended telemetry, G.8 for maturity views, G.10 for shipping, F.18 when public names are needed, and F.9 only for actual distinct-local-sense comparison.
 

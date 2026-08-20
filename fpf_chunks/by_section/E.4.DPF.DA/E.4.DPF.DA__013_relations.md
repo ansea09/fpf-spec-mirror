@@ -6,12 +6,12 @@ section_id: "E.4.DPF.DA:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF.DA/E.4.DPF.DA__013_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.4.DPF.DA — Domain Principle Framework Package-Adequacy Evaluation CharacteristicSpace"
   - "E.4.DPF.DA:12 — Relations"
-line_start: 71155
-line_end: 71165
+line_start: 71138
+line_end: 71148
 dependencies:
   - "A.1.1"
   - "A.10"

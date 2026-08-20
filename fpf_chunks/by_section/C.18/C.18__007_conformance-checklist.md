@@ -6,12 +6,12 @@ section_id: "C.18:5"
 section_title: "Conformance Checklist"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__007_conformance-checklist.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:5 — Conformance Checklist"
-line_start: 49100
-line_end: 49115
+line_start: 49083
+line_end: 49098
 dependencies:
   - "A.15"
   - "A.19"

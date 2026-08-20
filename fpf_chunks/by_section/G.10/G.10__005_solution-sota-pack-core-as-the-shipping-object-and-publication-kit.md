@@ -6,16 +6,17 @@ section_id: "G.10:4"
 section_title: "Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__005_solution-sota-pack-core-as-the-shipping-object-and-publication-kit.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:4 — Solution — SoTA‑Pack(Core) as the shipping object and publication kit"
-line_start: 103206
-line_end: 103490
+line_start: 103335
+line_end: 103617
 dependencies:
   - "A.10"
   - "A.15.3"
   - "C.18"
+  - "C.21"
   - "E.18"
   - "E.5.2"
   - "F.17-F.18"
@@ -256,20 +257,18 @@ All method‑/generator‑/interop‑specific shipping extension declarations li
 **GPatternExtensionId:** `QDArchiveShippingPins`
 **GPatternExtensionKind:** `MethodSpecific`
 **GoverningPatternId:** `C.18`
-**Uses:** `{C.18, G.5, G.8, G.11}`
+**Uses:** `{C.18, C.21, G.5, G.8, G.11}`
 **⊑/⊑⁺:** `∅`
 **RequiredPins/EditionPins/PolicyPins (minimum):**
 
 * `DescriptorMapRef.edition`
 * `DistanceDefRef.edition`
-* `DHCMethodRef.edition?`
-* `DHCMethodSpecRef.edition?`
+* active fields from C.21's DHC replay basis *(only when shipped archive telemetry consumes a C.21 DHC coordinate; carry exactly the fields used rather than a generic method-spec or metric-edition pin)*
 * `EmitterPolicyRef` *(policy‑id / ref)*
 * `InsertionPolicyRef` *(policy‑id / ref)*
 * `CharacteristicSpaceRef` *(id/ref; iff archive partitioning is declared)*
 * `CharacteristicSpaceRef.edition?` *(iff partitioning depends on an editioned space definition)*
 * `PathSliceId[]` *(to bind telemetry/refresh scope when archive behaviour is present)*
-
 **RSCRTriggerSetIds:** `∅` *(covered by `G.10` core linkage via `GCoreTriggerSetId.RefreshOrchestration`)*
 **Notes (shipping-pin discipline):**
 * This block never redefines archive semantics; it only states which pins must be present in the shipped pack when QD archive fields are present.

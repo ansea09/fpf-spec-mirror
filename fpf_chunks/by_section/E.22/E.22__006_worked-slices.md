@@ -6,12 +6,12 @@ section_id: "E.22:5"
 section_title: "Worked slices"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.22/E.22__006_worked-slices.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.22 — Improvement-Oriented Quality Evaluation Question Framing"
   - "E.22:5 — Worked slices"
-line_start: 87851
-line_end: 87862
+line_start: 87970
+line_end: 87981
 dependencies:
   - "A.19.ECS"
   - "C.17-C.19"
@@ -30,7 +30,7 @@ keywords:
 
 ### E.22:5 - Worked slices
 
-**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names the pattern version, E.21 characteristic space and floor predicate, the evaluation ClaimScope, the decision that will consume the result, `E.21` as the evaluation pattern, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. It may name the intended evaluator System without claiming current assignment or Work. The direct E.21 evaluation returns a complete coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine" and not the frame itself. If replay or reliance asserts that result through dated evaluation Work, use the A.15.1 and F.6 actual-Work account and name the typed result relation or A.6.1 binding between that Work and result.
+**Floor evaluation.** A reviewer is asked whether one pattern is ready for ordinary use. The frame names the pattern version, E.21 characteristic space and floor predicate, the evaluation ClaimScope, the decision that will consume the result, `E.21` as the evaluation pattern, purpose `floorEvaluation`, the declared floor, and the expected `E.21` result form. If independence or capability changes admissibility, the declaration states that condition without naming a future performer. The direct E.21 evaluation returns a complete coordinate table with `ShortRationale` and `EvaluationEvidenceBasis`, not a narrative "looks fine" and not the frame itself. If replay or reliance asserts dated evaluation Work, use the A.15.1 and F.6 account and name the typed result relation or A.6.1 binding between that Work and result.
 
 **Exceptional improvement.** A pattern already passes the floor. The frame asks for substantive non-dominated improvements for named coordinates while protecting usability and related-pattern fit. The result returns proposal rows for content improvements such as missing worked cases, source-currentness carry-through, mature-comparator discharge, deletion of displaced apparatus, or relation cleanup, plus checked no-candidate dispositions for coordinates where no non-dominated content move remains. It does not ask the evaluator to make every coordinate `5`.
 

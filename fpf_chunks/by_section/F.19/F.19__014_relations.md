@@ -6,12 +6,12 @@ section_id: "F.19:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__014_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:12 — Relations"
-line_start: 97968
-line_end: 97983
+line_start: 98097
+line_end: 98112
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -40,8 +40,8 @@ keywords:
 | `E.8` | In FPF pattern authoring under `E.8`, use `F.19` to keep pattern bodies addressed to their intended users. |
 | `E.10` | After apparatus removal, use `E.10` for remaining wording whose kind, relation, or admissible use is hidden; use `E.10:0.2c.17` when a heterogeneous list needs different heads or predicates. |
 | `E.10.ARCH` | Use its shared wording-use recovery architecture for the remaining content. |
-| `E.10.ROLE` | Use its distinctions to recover what role-shaped wording means in the current claim without treating *role* as one technical kind. |
-| `A.6.F` | Use its distinctions for function-shaped wording, including metonymy and multiple readings; the familiar count is only a recall cue. |
+| `E.10.ROLE` | Route role-shaped wording there once to recover the actual claim; F.19 does not copy its distinctions. |
+| `A.6.F` | Route function-shaped wording there once to recover the actual claim, including metonymic or multiple readings; F.19 does not copy its dispatch. |
 | `F.18` | Use it for durable reusable names after kind and use are known. |
 | `A.6.P` | Use it when the remaining content hides relation kind, endpoint, basedness, anchoring, current ontic slot, relation position, or use relation. |
 | `A.19.SPR`, `C.2.P`, `C.16.P`, `C.30.P` | For remaining state-family, source or publication, characteristic or scale, and architecture or structure wording, use the corresponding pattern. |

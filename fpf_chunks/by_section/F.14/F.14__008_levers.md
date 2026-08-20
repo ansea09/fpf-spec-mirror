@@ -6,12 +6,12 @@ section_id: "F.14:7"
 section_title: "Levers"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__008_levers.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:7 — Levers"
-line_start: 94765
-line_end: 94798
+line_start: 94883
+line_end: 94916
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -59,7 +59,7 @@ keywords:
 | `SeniorReviewer` | a proposed system-role-kind name that may hide a qualifier, assignment-state condition, capability, or assurance claim | A.2, A.2.2, A.2.5, B.3, F.18 |
 | `RequestApproverSystemRole` | system-role-kind bundle expression or forbidden fused kind | A.2.7, F.8 |
 | `AtRisk`, `Grace`, `PreValidated` | status value, window, confidence, or presentation label | F.10 or direct status pattern |
-| `EvidenceRole`, `RequirementRole`, `AccessRole` | evidence use, requirement use, access or policy use, or source use | A.10, E.10.D2, and the exact access, policy, or source pattern |
+| `EvidenceRole`, `RequirementRole`, `AccessRole` | first recover the exact claim: evidence reliance, an actual assurance claim, ambiguous description use, publication occurrence or form, or a requirement, standard, source, access, or policy use | A.10 for evidence reliance; B.3 only for an actual assurance claim; E.10.D2 only to recover description-use ambiguity; E.24.PUB for publication occurrence, form, or carrier; otherwise the pattern that directly defines, constrains, or tests the recovered claim, or `missing-governor` |
 | same spelling under two local-sense bases | two designations or an exact F.9 relation question | F.18, F.9; F.17 only at its public-row threshold |
 
 #### F.14:7.2 - Reuse before minting
@@ -74,9 +74,9 @@ If two system-role kinds travel together, recover the exact A.2.7 bundle or qual
 
 If the proposed name marks evaluation, active use, grace, archival state, confidence, or presentation, keep the status family and use F.10 windows, values, or direct status-use relations. A new status family needs a recovered governed difference, not another adjective.
 
-#### F.14:7.5 - Keep qualifiers with their subject patterns
+#### F.14:7.5 - Keep qualifiers with the claims they qualify
 
-Time, location, object type, seniority, permission, Method, capability, evidence, source, and publication are not system-role-kind or status identity by suffix. Keep each qualifier with its direct pattern. Retain it in a durable name only when the already governed value and the named use genuinely require that designation.
+Time, location, object type, seniority, permission, Method, capability, evidence, source, and publication are not system-role-kind or status identity by suffix. Keep a qualifier with the claim it qualifies and use the pattern that defines, constrains, or tests that claim. Retain the qualifier in a durable name only when the already governed value and named use genuinely require that designation.
 
 #### F.14:7.6 - Stop before a naming-object cascade
 

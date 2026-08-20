@@ -6,12 +6,12 @@ section_id: "E.11.PUA:End"
 section_title: "E.11.PUA:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.11.PUA/E.11.PUA__014_e-11-pua-end.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.11.PUA — Pattern Use in a Working Situation and First Useful Result"
   - "E.11.PUA:End — E.11.PUA:End"
-line_start: 78144
-line_end: 78145
+line_start: 78127
+line_end: 78128
 dependencies:
   - "A.15"
   - "A.6.5"

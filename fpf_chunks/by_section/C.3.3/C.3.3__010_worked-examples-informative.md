@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge & CL^k — Cross‑context Mapping of Kinds"
+pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
 section_id: "C.3.3:9"
 section_title: "Worked Examples (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__010_worked-examples-informative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
+  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:9 — Worked Examples (informative)"
-line_start: 45236
-line_end: 45249
+line_start: 45224
+line_end: 45237
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -21,23 +21,17 @@ dependencies:
   - "C.3.2"
   - "F.9"
 keywords:
-  - "CL^k"
-  - "KindBridge direct relation"
-  - "R penalty"
-  - "bridge assertion episteme"
-  - "loss"
-  - "target judgment"
 ---
 
 ### C.3.3:9 - Worked Examples (informative)
 
 #### C.3.3:9.1 - Vehicle → TransportUnit (manufacturing)
 
-Source kinds `Vehicle` and `PassengerCar`, target kinds `TransportUnit` and `PassengerTransportUnit`, and their exact declaration editions are independently identified. One KindBridge relation obtains from `Vehicle` to `TransportUnit` and another from `PassengerCar` to `PassengerTransportUnit` under the pinned scheme editions. The bridge assertion states that source fact `SubkindOfObtains(PassengerCar, Vehicle; sourceRS)` is preserved by target fact `SubkindOfObtains(PassengerTransportUnit, TransportUnit; targetRS)`, while the EV distinction is collapsed; it records `CL^k=2`, the lost battery-health invariants, and definedness limited to `registryAPI v1.4` in the selected time window. A candidate is classified only by `J(candidate, TransportUnit, transportUnitEdition, TargetSlice)` or the more specific target judgment when that receiving use is current. The independent scope-bridge and kind-bridge reliance penalties reduce R; F and G are unchanged.
+Source kinds `Vehicle` and `PassengerCar`, target kinds `TransportUnit` and `PassengerTransportUnit`, and their exact declaration editions are independently identified. One KindBridge relation obtains from `Vehicle` to `TransportUnit` and another from `PassengerCar` to `PassengerTransportUnit` under the pinned scheme editions. The bridge assertion states that source fact `SubkindOfObtains(PassengerCar, Vehicle; sourceRS)` is preserved by target fact `SubkindOfObtains(PassengerTransportUnit, TransportUnit; targetRS)`, while the EV distinction is collapsed; it records `CL^k=2`, the lost battery-health invariants, and definedness limited to `registryAPI v1.4` in the selected time window. A candidate is first checked for admissibility and then classified by the exact receiving declaration; source classification is not copied. If the receiving claim also relies on an independently established scope translation, that relation's consequence remains separate from the kind-bridge consequence; F and G are unchanged.
 
-#### C.3.3:9.2 - AuthenticatedRequest across services (software)
+#### C.3.3:9.2 - Same AuthenticatedRequest kind across services — no bridge
 
-Source and target `AuthenticatedRequest` kinds and their exact declaration editions are independently identified. The bridge mapping predicate states the `authHeader` to `x-auth` correspondence and preservation of the signature-validity invariant; the bridge assertion gives `CL^k=3` and its definedness under `AuthStandard v2.3`. It does not construct the target declaration. The frontend evaluates each exact request with its target signature edition and slice; unavailable target dependencies yield `unknown`.
+Frontend and gateway services use the same `AuthenticatedRequest` kind: the candidate request domain, signature-validity condition, and intended member/non-member distinction are aligned. Each service uses its selected declaration edition and evaluates the request afresh. The gateway spelling `x-auth` may require an F.9 sense relation or a C.3.4 vocabulary binding when that wording use is relied on, but the service boundary and spelling alone create neither another kind nor a `KindBridge`.
 
 #### C.3.3:9.3 - AdultPatient across jurisdictions (clinical)
 

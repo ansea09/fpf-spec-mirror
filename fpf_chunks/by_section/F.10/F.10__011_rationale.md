@@ -6,12 +6,12 @@ section_id: "F.10:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.10/F.10__011_rationale.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.10 — Status Families Mapping: Evidence, Standard, and Requirement Status"
   - "F.10:10 — Rationale"
-line_start: 93852
-line_end: 93857
+line_start: 93968
+line_end: 93973
 dependencies:
   - "A.10"
   - "A.15.1"

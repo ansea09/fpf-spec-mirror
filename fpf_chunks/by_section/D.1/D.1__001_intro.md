@@ -6,12 +6,12 @@ section_id: "D.1:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__001_intro.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:intro — Intro"
-line_start: 68330
-line_end: 68343
+line_start: 68313
+line_end: 68326
 dependencies:
   - "A.1"
   - "A.10"

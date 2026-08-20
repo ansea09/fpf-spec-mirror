@@ -6,7 +6,7 @@ section_id: "C.3:2"
 section_title: "Problem"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3/C.3__004_problem.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.3 — Kinds, Intent and Extent, and Typed Reasoning"
   - "C.3:2 — Problem"
@@ -33,13 +33,14 @@ dependencies:
   - "F.8"
   - "F.9"
 keywords:
-  - "KindBridge"
-  - "SubkindOf"
-  - "bounded-context local kind"
-  - "effective ReferenceScheme"
-  - "intent-bearing KindSignature"
-  - "optional slice-indexed extension"
-  - "three-valued candidate judgment"
+  - "KindSignature"
+  - "SubkindOf preorder"
+  - "admissibility"
+  - "admitted U.Kind individual"
+  - "distinct-kind KindBridge"
+  - "membership distinction"
+  - "optional extension"
+  - "true/false/unknown judgment"
 ---
 
 ### C.3:2 - Problem

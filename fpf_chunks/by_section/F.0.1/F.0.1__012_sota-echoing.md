@@ -6,12 +6,12 @@ section_id: "F.0.1:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.0.1/F.0.1__012_sota-echoing.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.0.1 — Source-Local Meaning Recovery"
   - "F.0.1:11 — SoTA-Echoing"
-line_start: 90351
-line_end: 90361
+line_start: 90467
+line_end: 90477
 dependencies:
   - "E.10"
   - "E.10.D1"

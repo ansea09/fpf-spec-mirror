@@ -6,12 +6,12 @@ section_id: "G.11:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.11/G.11__014_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.11 — Telemetry-Driven Refresh and Decay Orchestrator"
   - "G.11:12 — Relations"
-line_start: 103991
-line_end: 103996
+line_start: 104118
+line_end: 104123
 dependencies:
   - "A.6.RCD"
   - "B.3.4"

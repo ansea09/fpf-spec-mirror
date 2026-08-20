@@ -6,12 +6,12 @@ section_id: "F.7:15"
 section_title: "Acceptance tests"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.7/F.7__016_acceptance-tests.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.7 — Concept-Set Table"
   - "F.7:15 — Acceptance tests"
-line_start: 92311
-line_end: 92328
+line_start: 92427
+line_end: 92444
 dependencies:
   - "A.6.9"
   - "B.3"

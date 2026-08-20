@@ -6,12 +6,12 @@ section_id: "C.18:1"
 section_title: "Problem Frame"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__003_problem-frame.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:1 — Problem Frame"
-line_start: 48918
-line_end: 48923
+line_start: 48901
+line_end: 48906
 dependencies:
   - "A.15"
   - "A.19"

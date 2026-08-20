@@ -6,12 +6,12 @@ section_id: "F.19:8"
 section_title: "Common anti-patterns and how to avoid them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__010_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:8 — Common anti-patterns and how to avoid them"
-line_start: 97924
-line_end: 97942
+line_start: 98049
+line_end: 98067
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -41,8 +41,8 @@ keywords:
 | Hypergeneric repair | The rewrite uses `object`, `item`, `value`, `relation`, `record`, `condition`, `basis`, `material`, or `specialization` to sound precise while hiding the actual object, relation, rule, or action. | Restore the practitioner-recognizable object and relation; for specialization, say what specializes what and which inherited or changed slots or uses matter. |
 | Plain-language drift | Smooth prose drops the kind named by value or admissible-use boundary. | Remove apparatus first, then restore remaining wording precision before shortening. |
 | Flow smuggling | Development, projection, landing, or evaluation evidence is written as user-facing guidance. | Move the evidence to the review record, quality result, projection record, release document, or other appropriate evidence document and keep only the resulting user-facing action or boundary. |
-| Role-shaped label as ontology | The word *role* is treated as one technical value or replaces the object kind. | Recover the local system-role kind, classification, obtaining assignment, relation participation, declaration or representation position, another direct relation, or ordinary wording that the sentence actually needs; do not infer any branch from the word alone. |
-| Function-shaped label as ontology | The word *function* is treated as one technical value or as proof of functioning, capability, assignment, or Work. | Use `A.6.F` to recover the claim by meaning; allow metonymy and more than one reading, and treat the familiar count of meanings only as a recall cue. |
+| Role-shaped label as ontology | The word *role* is treated as one technical value or replaces the object kind. | Keep the phrase as content until `E.10.ROLE` recovers the actual claim; do not infer a branch from the word alone. |
+| Function-shaped label as ontology | The word *function* is treated as one technical value or as proof of functioning, capability, assignment, or Work. | Keep the phrase as content until `A.6.F` recovers the claim; allow metonymy or several simultaneous readings without copying its dispatch here. |
 | False common head | One grammatical subject is made to select, compare, carry, publish, and evaluate unlike things. | Split the claims and use `E.10:0.2c.17`; retain only heads that fit every listed member. |
 | Slot label as ontology | A slot, field, relation-position, or use-relation label replaces the object kind, or the same object in several slots or relation positions is treated as several kinds. | Preserve object kind, slot, relation position, and use separately; cite the specific pattern only when its definition, constraint, or test is needed. |
 | Apparatus-looking data structure | A record, card, table, schema, dashboard, or data-structure word is kept because it sounds precise, but it does not carry the EntityOfConcern, slot relation, publication boundary, admissible use, or next action. | Remove it, or use `E.24.CD`, `E.24.PUB`, or the specific content pattern when the structure really carries a candidate-ontic, publication, or domain relation. |

@@ -6,12 +6,12 @@ section_id: "E.10:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10/E.10__005_forces.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.10 — Unified Lexical Rules for FPF"
   - "E.10:3 — Forces"
-line_start: 74732
-line_end: 74740
+line_start: 74715
+line_end: 74723
 dependencies:
   - "A.10"
   - "A.15"

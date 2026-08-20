@@ -6,12 +6,12 @@ section_id: "F.16:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.16/F.16__001_intro.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.16 — Worked-Example Template (Cross-Domain)"
   - "F.16:intro — Intro"
-line_start: 95443
-line_end: 95449
+line_start: 95566
+line_end: 95572
 dependencies:
   - "A.10"
   - "A.15"

@@ -6,12 +6,12 @@ section_id: "E.9:End"
 section_title: "E.9:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.9/E.9__017_e-9-end.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.9 — Design‑Rationale Record (DRR) Method"
   - "E.9:End — E.9:End"
-line_start: 73352
-line_end: 73353
+line_start: 73335
+line_end: 73336
 dependencies:
   - "A.10"
   - "A.15.1"

@@ -6,12 +6,12 @@ section_id: "C.21:5"
 section_title: "DHC Inputs, Outputs, and Comparison Use"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.21/C.21__007_dhc-inputs-outputs-and-comparison-use.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.21 — Field Health & Structure (Discipline-CHR)"
   - "C.21:5 — DHC Inputs, Outputs, and Comparison Use"
-line_start: 50473
-line_end: 50478
+line_start: 50456
+line_end: 50461
 dependencies:
   - "A.17"
   - "A.18"

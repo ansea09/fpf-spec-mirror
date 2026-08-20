@@ -6,12 +6,12 @@ section_id: "G.Core:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.Core/G.Core__013_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.Core — Part G Core Invariants"
   - "G.Core:12 — Relations"
-line_start: 98404
-line_end: 98428
+line_start: 98533
+line_end: 98557
 dependencies:
   - "A.15.3"
   - "A.19"

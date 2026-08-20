@@ -6,12 +6,12 @@ section_id: "C.22.1:6"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.1/C.22.1__007_forces.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.22.1 — Task-family adaptation signature"
   - "C.22.1:6 — Forces"
-line_start: 51026
-line_end: 51034
+line_start: 51009
+line_end: 51017
 dependencies:
   - "A.15"
   - "C.19.1"

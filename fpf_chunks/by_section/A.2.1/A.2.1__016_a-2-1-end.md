@@ -6,7 +6,7 @@ section_id: "A.2.1:End"
 section_title: "A.2.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.2.1/A.2.1__016_a-2-1-end.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "A.2.1 — U.SystemRoleAssignment - Contextual System-Role Assignment"
   - "A.2.1:End — A.2.1:End"

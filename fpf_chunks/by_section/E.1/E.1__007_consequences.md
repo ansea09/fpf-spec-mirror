@@ -6,12 +6,12 @@ section_id: "E.1:6"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.1/E.1__007_consequences.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.1 — Vision & Mission: “Operating System for Thought”"
   - "E.1:6 — Consequences"
-line_start: 69188
-line_end: 69192
+line_start: 69171
+line_end: 69175
 dependencies:
   - "E.2"
 keywords:

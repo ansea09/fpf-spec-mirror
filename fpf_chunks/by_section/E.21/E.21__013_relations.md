@@ -6,15 +6,16 @@ section_id: "E.21:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__013_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:11 — Relations"
-line_start: 87572
-line_end: 87592
+line_start: 87692
+line_end: 87713
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
+  - "A.6.1"
   - "A.6.P"
   - "C.16"
   - "C.2.P"
@@ -23,6 +24,7 @@ dependencies:
   - "E.11"
   - "E.19"
   - "E.2.DA"
+  - "E.21"
   - "E.22"
   - "E.23"
   - "E.8"
@@ -40,7 +42,8 @@ keywords:
 | `A.19`, `A.19.ECS`, `A.17`, `A.18`, `C.16`, and `C.16.Q` | Govern the characteristic space, object-specific evaluation specification, characteristics, scale/value bindings, measurement boundary, coordinate-result quality ascriptions, and precision of those ascriptions. E.21 supplies the pattern-quality coordinates, calibration, non-arithmetic `PatternQualityQBundle` result payload named by C.16.Q, aggregate result shape, and local status meanings. |
 | `E.8.ECSPF` | Guides an author in carrying an accepted evaluation characteristic-space specification into practitioner-facing FPF pattern content. It keeps the specification, its `CharacteristicSpace`, the authored pattern, a later evaluation, and its result distinct. |
 | `E.8` | Governs authoring of the pattern body whose exact edition E.21 assessment work evaluates. |
-| `A.15.1`, `F.6`, `A.2`, `A.2.1`, and `A.6.1` | Define or constrain the item 5 actual-Work account and the evaluation application or bindings. An admitted evaluator `U.System` may ordinarily apply the questions without asserting this branch. A compact result may omit only an assignment identifier unused by the receiving claim; the complete basis remains recoverable. Route unresolved source *role* through `E.10.ROLE`; the specification, characteristic space, profile, result, kind, assignment, and optional record perform none of the assessment. |
+| `A.15.1`, `A.3.1`, `F.6`, `A.2`, and `A.2.1` | Define or constrain the item 5 dated-assessment-Work account: temporal extent; a complete current A.15.1 basis or one named locally declared Work-to-System predicate whose relation obtains for the exact Work and containing-System participants under an exact system boundary and qualification window; every evaluator-performer; enacted Method; and an obtaining F.6 attribution through a covering assignment for every performer. Only an assignment identifier unused by the receiving claim may be omitted. Under these patterns, the Work, any returned value or direct evaluation-result relation, and the C.2.1 result episteme stay distinct. An E.21 claim connects them only through an exact A.6.1 result binding or a separately declared direct evaluation-result relation that actually obtains. An evaluator may ordinarily apply the questions without asserting dated Work. Route unresolved source *role* through `E.10.ROLE`; no specification, characteristic space, profile, result, kind, assignment, or record performs the assessment. |
+| `A.6.1` | Constrains only the exact declared-operation application admitted under the compact conditional rule in E.21:4. Dated assessment Work alone does not invoke it. |
 | `C.2.1` | Constitutes the checked pattern episteme/version reference, per-coordinate result claims, aggregate pattern-quality-result episteme, and optional evaluation-record episteme independently. |
 | `A.10` and `B.3` | Govern exact evidence use/provenance and any assurance or reliance on the result. Witness presence and a favorable value create neither relation. |
 | `F.10` and `G.11` | Govern downstream status use/interpretation and currentness. The local `PatternQualityStatus` value neither admits a pattern nor authorizes downstream use by itself. |

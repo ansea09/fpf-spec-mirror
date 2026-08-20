@@ -6,7 +6,7 @@ section_id: "A.12:8"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.12/A.12__011_consequences.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "A.12 — Acting-Side Externalization and Reflexive Split"
   - "A.12:8 — Consequences"

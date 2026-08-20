@@ -6,12 +6,12 @@ section_id: "D.1:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__014_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:10 — Relations"
-line_start: 68460
-line_end: 68467
+line_start: 68443
+line_end: 68450
 dependencies:
   - "A.1"
   - "A.10"

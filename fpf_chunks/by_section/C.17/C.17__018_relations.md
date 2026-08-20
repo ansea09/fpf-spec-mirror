@@ -6,12 +6,12 @@ section_id: "C.17:16"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.17/C.17__018_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.17 — Characterising Generative Novelty and Value"
   - "C.17:16 — Relations"
-line_start: 48882
-line_end: 48887
+line_start: 48865
+line_end: 48870
 dependencies:
   - "A.0"
   - "A.1.1"

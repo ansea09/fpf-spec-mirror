@@ -6,12 +6,12 @@ section_id: "C.32.ADA:11"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.32.ADA/C.32.ADA__012_sota-echoing.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.32.ADA — Architecture Decision Adequacy Scales"
   - "C.32.ADA:11 — SoTA-Echoing"
-line_start: 67214
-line_end: 67228
+line_start: 67197
+line_end: 67211
 dependencies:
   - "A.1.1"
   - "A.10"

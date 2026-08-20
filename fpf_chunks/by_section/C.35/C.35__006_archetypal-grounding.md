@@ -6,12 +6,12 @@ section_id: "C.35:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.35/C.35__006_archetypal-grounding.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.35 — Structural Synthesis and Discovery Adequacy"
   - "C.35:5 — Archetypal Grounding"
-line_start: 67756
-line_end: 67767
+line_start: 67739
+line_end: 67750
 dependencies:
   - "A.15.1"
   - "A.15.PROD"

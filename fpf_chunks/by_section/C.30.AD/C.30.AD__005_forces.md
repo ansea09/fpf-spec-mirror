@@ -6,12 +6,12 @@ section_id: "C.30.AD:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD/C.30.AD__005_forces.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.30.AD — Architecture Description Adequacy"
   - "C.30.AD:3 — Forces"
-line_start: 59991
-line_end: 60002
+line_start: 59974
+line_end: 59985
 dependencies:
   - "A.1"
   - "A.10"

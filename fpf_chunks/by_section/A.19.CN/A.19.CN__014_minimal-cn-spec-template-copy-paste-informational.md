@@ -6,7 +6,7 @@ section_id: "A.19.CN:13"
 section_title: "Minimal CN‑Spec template (copy/paste, informational)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.19.CN/A.19.CN__014_minimal-cn-spec-template-copy-paste-informational.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "A.19.CN — CN‑frame (comparability & normalization)"
   - "A.19.CN:13 — Minimal CN‑Spec template (copy/paste, informational)"

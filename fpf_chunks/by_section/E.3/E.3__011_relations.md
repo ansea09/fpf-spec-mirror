@@ -6,12 +6,12 @@ section_id: "E.3:10"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.3/E.3__011_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.3 — Principle Taxonomy & Precedence Model"
   - "E.3:10 — Relations"
-line_start: 69745
-line_end: 69750
+line_start: 69728
+line_end: 69733
 dependencies:
   - "E.2"
 keywords:

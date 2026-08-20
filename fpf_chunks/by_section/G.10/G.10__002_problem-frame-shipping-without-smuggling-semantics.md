@@ -6,16 +6,17 @@ section_id: "G.10:1"
 section_title: "Problem frame — Shipping without smuggling semantics"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.10/G.10__002_problem-frame-shipping-without-smuggling-semantics.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.10 — SoTA Pack Shipping"
   - "G.10:1 — Problem frame — Shipping without smuggling semantics"
-line_start: 103174
-line_end: 103183
+line_start: 103303
+line_end: 103312
 dependencies:
   - "A.10"
   - "A.15.3"
   - "C.18"
+  - "C.21"
   - "E.18"
   - "E.5.2"
   - "F.17-F.18"

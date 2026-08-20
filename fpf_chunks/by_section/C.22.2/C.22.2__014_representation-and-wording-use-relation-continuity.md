@@ -6,12 +6,12 @@ section_id: "C.22.2:13"
 section_title: "Representation and Wording-Use Relation Continuity"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.22.2/C.22.2__014_representation-and-wording-use-relation-continuity.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.22.2 — ProblemCard"
   - "C.22.2:13 — Representation and Wording-Use Relation Continuity"
-line_start: 51873
-line_end: 51888
+line_start: 51856
+line_end: 51871
 dependencies:
   - "A.10"
   - "A.15"

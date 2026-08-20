@@ -6,12 +6,12 @@ section_id: "F.14:11"
 section_title: "Anti-patterns and repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.14/F.14__012_anti-patterns-and-repairs.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.14 — Anti-Explosion Control for System-Role and Status Name Families"
   - "F.14:11 — Anti-patterns and repairs"
-line_start: 94906
-line_end: 94920
+line_start: 95028
+line_end: 95042
 dependencies:
   - "A.10"
   - "A.15.1"
@@ -54,7 +54,7 @@ keywords:
 | --- | --- | --- | --- |
 | AP-1 | Hybrid-system-role minting | `RequestApproverSystemRole` becomes one kind. | Use exact A.2.7 relations; admit a new kind only under A.2 with C.3 and later naming gates. |
 | AP-2 | Modifier-as-system-role | Every circumstance yields `NightOperatorSystemRole` or `RemoteOperatorSystemRole`. | Recover schedule, location, state, plan, or policy qualifier. |
-| AP-3 | Status or evidence role | `ReadyReviewerSystemRole` or `EvidenceRole` becomes a system-role family. | Use F.10 for status, A.10 or B.3 for evidence use, E.10.D2 for description use, or the pattern that defines, constrains, or tests the recovered claim. |
+| AP-3 | Status or evidence role | `ReadyReviewerSystemRole` or `EvidenceRole` becomes a system-role family. | Use F.10 for the recovered status claim. Route bounded evidence reliance to A.10, an actual assurance claim to B.3, description-use ambiguity to E.10.D2 for recovery only, and publication occurrence, form, or carrier to E.24.PUB. Route every other recovered requirement, standard, source, access, or policy claim to its direct pattern, or return `missing-governor`. |
 | AP-4 | Prestige bypass | `SeniorReviewer` substitutes for assurance or separation. | Keep the system-role kind fixed and recover capability, state, assurance, policy, or assignment checks. |
 | AP-5 | Row duplication | Another row is added for an already admitted name and use. | Reuse the exact row within its admitted use; retain old wording as lineage when useful. |
 | AP-6 | Assignment hidden in a name | `AliceReviewerSystemRole` looks like a kind but encodes one assigned system. | Use A.2.1 to recover the exact assignment occurrence. Use F.6 only when a separate claim attributes dated Work to that assignment; keep the local system-role kind separate. |

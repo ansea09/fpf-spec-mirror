@@ -6,12 +6,12 @@ section_id: "F.2:13"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__014_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:13 — Relations"
-line_start: 90838
-line_end: 90854
+line_start: 90954
+line_end: 90970
 dependencies:
   - "A.11"
   - "A.7"

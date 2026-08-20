@@ -6,12 +6,12 @@ section_id: "E.17.EFP:9"
 section_title: "Consequences"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.EFP/E.17.EFP__010_consequences.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.17.EFP — ExplanationFaithfulnessProfile — explanation-use discipline over existing MVPK faces"
   - "E.17.EFP:9 — Consequences"
-line_start: 81886
-line_end: 81892
+line_start: 81869
+line_end: 81875
 dependencies:
   - "A.10"
   - "A.15"

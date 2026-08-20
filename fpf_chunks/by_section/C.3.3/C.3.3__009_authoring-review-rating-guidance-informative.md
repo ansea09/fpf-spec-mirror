@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge & CL^k — Cross‑context Mapping of Kinds"
+pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
 section_id: "C.3.3:8"
 section_title: "Authoring, Review & Rating Guidance (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__009_authoring-review-rating-guidance-informative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
+  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:8 — Authoring, Review & Rating Guidance (informative)"
-line_start: 45211
-line_end: 45235
+line_start: 45198
+line_end: 45223
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -21,19 +21,14 @@ dependencies:
   - "C.3.2"
   - "F.9"
 keywords:
-  - "CL^k"
-  - "KindBridge direct relation"
-  - "R penalty"
-  - "bridge assertion episteme"
-  - "loss"
-  - "target judgment"
 ---
 
 ### C.3.3:8 - Authoring, Review & Rating Guidance (informative)
 
 #### C.3.3:8.1 - Authoring a KindBridge assertion
 
-* **Start narrow & honest.** Declare only the kinds and `⊑` links you **actually preserve**; mark the rest **unknown**.
+* **Compare identity before authoring a bridge.** A changed locality, source, team, spelling, or scheme first replays C.3.1. Stop without a bridge when the same kind continues.
+* **Start narrow and honest.** For two distinct kinds, declare only the directional correspondence and subkind facts the receiving use actually relies on; mark the rest unknown.
 * **Prefer independently identified target kinds.** If the target already has a suitable kind and declaration edition, relate that kind directly. If a new target declaration is required, author it separately before asserting bridge obtaining; list what the mapping predicate preserves, relaxes, or drops.
 * **Write loss notes in plain language.** Example: “EV vs ICE subkinds collapsed; battery‑health invariants dropped.”
 * **Fix the definedness area.** Bind to target Standards/versions and any environment selectors essential to classification.
@@ -41,7 +36,7 @@ keywords:
 
 #### C.3.3:8.2 - Review playbook (10 minutes)
 
-1. **Two bridges present?** Scope Bridge **and** KindBridge?
+1. **Identity checked first?** Same kind reused without a bridge, or two distinct kinds and the obtaining correspondence shown? Add Scope or F.9 relations only when the receiving use consumes them.
 2. **Order claims honest?** Any `⊑` inversions? Collapses disclosed?
 3. **`CL^k` plausible?** Based on preserved properties, not name similarity?
 4. **Loss notes present?** Will they force narrowing of Scope or extra tests?

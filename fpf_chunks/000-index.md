@@ -2,7 +2,7 @@
 
 Source: `FPF-Spec.md`
 
-Commit SHA: `3d098629dc218572089f1890080c17d6f1d9a867`
+Commit SHA: `d9170ae93b035896511bce82dfb5d9082a50b8a2`
 
 Chunking method: `pattern-aware`
 
@@ -143,7 +143,7 @@ Patterns: `294`
 - [C.3 — Kinds, Intent and Extent, and Typed Reasoning](by_pattern/C.3.md)
 - [C.3.1 — U.Kind and U.SubkindOf Core](by_pattern/C.3.1.md)
 - [C.3.2 — Kind Intent, Membership Judgment, and Extension](by_pattern/C.3.2.md)
-- [C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds](by_pattern/C.3.3.md)
+- [C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds](by_pattern/C.3.3.md)
 - [C.3.4 — KindUseAdaptationDeclaration — Contextual Adaptation of Kinds without Cloning](by_pattern/C.3.4.md)
 - [C.3.5 — KindAT — Intentional Abstraction Facet for Kinds (K0…K3)](by_pattern/C.3.5.md)
 - [C.3.A — Typed Guard Macros for Kinds + USM (Annex)](by_pattern/C.3.A.md)
@@ -301,6 +301,6 @@ Patterns: `294`
 - [G.9 — Parity and Benchmark Harness](by_pattern/G.9.md)
 - [G.10 — SoTA Pack Shipping](by_pattern/G.10.md)
 - [G.11 — Telemetry-Driven Refresh and Decay Orchestrator](by_pattern/G.11.md)
-- [G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)](by_pattern/G.12.md)
+- [G.12 — DHC Dashboards (Discipline-Health Time Series and Views)](by_pattern/G.12.md)
 - [G.13 — External Interop Hooks for SoTA Discipline Packs (conceptual)](by_pattern/G.13.md)
 - [I.2 — Expanded Entry Disambiguation Cases](by_pattern/I.2.md)

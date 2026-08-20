@@ -6,12 +6,12 @@ section_id: "G.2:6"
 section_title: "Bias-Annotation (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.2/G.2__007_bias-annotation-informative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.2 — SoTA Harvester & Synthesis"
   - "G.2:6 — Bias-Annotation (informative)"
-line_start: 99574
-line_end: 99589
+line_start: 99703
+line_end: 99718
 dependencies:
   - "A.10"
   - "A.19.DECLARED-SUBSTRATE-INTERPRETIVE-VIEW"

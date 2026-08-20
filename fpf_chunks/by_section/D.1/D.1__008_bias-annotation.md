@@ -6,12 +6,12 @@ section_id: "D.1:4.1"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.1/D.1__008_bias-annotation.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "D.1 — Ethical Value Plurality and FPF Boundary"
   - "D.1:4.1 — Bias-Annotation"
-line_start: 68412
-line_end: 68420
+line_start: 68395
+line_end: 68403
 dependencies:
   - "A.1"
   - "A.10"

@@ -6,12 +6,12 @@ section_id: "F.17:8"
 section_title: "Optional block plan"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.17/F.17__010_optional-block-plan.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.17 — Unified Term Sheet"
   - "F.17:8 — Optional block plan"
-line_start: 95885
-line_end: 95900
+line_start: 96008
+line_end: 96023
 dependencies:
   - "A.1.1"
   - "A.10"

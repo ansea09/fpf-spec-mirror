@@ -6,12 +6,12 @@ section_id: "F.6:7"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.6/F.6__009_archetypal-grounding.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.6 — SystemRoleAssignment and Performed-Work Attribution Check"
   - "F.6:7 — Archetypal Grounding"
-line_start: 91967
-line_end: 92011
+line_start: 92083
+line_end: 92127
 dependencies:
   - "A.1.1"
   - "A.10"

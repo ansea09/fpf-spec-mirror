@@ -6,12 +6,12 @@ section_id: "F.19:10"
 section_title: "Rationale"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__012_rationale.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:10 — Rationale"
-line_start: 97949
-line_end: 97958
+line_start: 98074
+line_end: 98083
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -41,5 +41,5 @@ Plain technical style in FPF is not a separate aesthetic layer. It is the visibl
 2. restore remaining wording, names, relations, slots, and uses through the specific pattern contribution needed by the claim;
 3. write the shortest sentence that keeps the recovered meaning.
 
-Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phrase-style super-pattern. `E.10` catches words and heads whose kind or use is hidden; `E.10.ROLE` resolves a role-shaped trigger without defaulting to one ontology, and `A.6.F` does the same for function-shaped wording without turning its recall count into a closed taxonomy. `F.19` catches the earlier phrase-level problem: the content may not even be visible until process, role-shaped, function-shaped, status, reference, quality, or negative-catalogue apparatus is removed.
+Putting `F.19` beside wording-use restoration keeps `E.10` from becoming a phrase-style super-pattern. `E.10` catches words and heads whose kind or use is hidden; `E.10.ROLE` and `A.6.F` recover the actual role- or function-shaped claim. `F.19` catches the earlier phrase-level problem: content may not be visible until process, label, status, reference, quality, or negative-catalogue apparatus is removed.
 

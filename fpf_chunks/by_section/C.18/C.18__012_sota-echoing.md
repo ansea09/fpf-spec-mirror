@@ -6,12 +6,12 @@ section_id: "C.18:10"
 section_title: "SoTA-Echoing"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.18/C.18__012_sota-echoing.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.18 — Open-Ended Search Archive and Front Stewardship"
   - "C.18:10 — SoTA-Echoing"
-line_start: 49147
-line_end: 49160
+line_start: 49130
+line_end: 49143
 dependencies:
   - "A.15"
   - "A.19"

@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge & CL^k — Cross‑context Mapping of Kinds"
+pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
 section_id: "C.3.3:2"
 section_title: "Context"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__003_context.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
+  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:2 — Context"
-line_start: 45105
-line_end: 45108
+line_start: 45097
+line_end: 45100
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -21,15 +21,9 @@ dependencies:
   - "C.3.2"
   - "F.9"
 keywords:
-  - "CL^k"
-  - "KindBridge direct relation"
-  - "R penalty"
-  - "bridge assertion episteme"
-  - "loss"
-  - "target judgment"
 ---
 
 ### C.3.3:2 - Context
 
-Contexts use different **classifications**: ontology classes vs shape Standards, regulatory cohorts vs app types, etc. Informal “same‑name” reuse silently mutates entityOfConcern. USM already made scope moves explicit. **KindBridge** does the same for kinds: **declare the mapping**, rate its **congruence**, and capture known **losses**.
+Different sources or practices may use the same kind, or different kinds may coexist inside one source. Names, source labels, compatible schemes, and matching current extensions decide neither. First compare the candidate domains and membership distinctions under C.3.1. Same-kind reuse needs no bridge. Distinct-kind reuse may need a `KindBridge` when its exact correspondence predicate can be established. F.9 is additional only when distinct local senses and their bounded use are current.
 

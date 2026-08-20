@@ -1,26 +1,32 @@
 ---
 chunk_kind: "child"
 pattern_id: "G.12"
-pattern_title: "DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
+pattern_title: "DHC Dashboards (Discipline-Health Time Series and Views)"
 section_id: "G.12:End"
 section_title: "G.12:End"
 source_path: "FPF-Spec.md"
-output_path: "by_section/G.12/G.12__013_g-12-end.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+output_path: "by_section/G.12/G.12__014_g-12-end.md"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "G.12 — DHC Dashboards (Discipline‑Health time‑series; admissible telemetry; generation‑first)"
+  - "G.12 — DHC Dashboards (Discipline-Health Time Series and Views)"
   - "G.12:End — G.12:End"
-line_start: 104408
-line_end: 104409
+line_start: 104386
+line_end: 104387
 dependencies:
   - "A.19"
+  - "A.2.6"
+  - "C.16"
   - "C.18"
   - "C.19"
+  - "C.2.1"
   - "C.21"
+  - "C.29"
   - "E.10"
+  - "E.24.PUB"
   - "E.5.2"
   - "F.17"
   - "F.18"
+  - "F.9"
   - "G.0"
   - "G.10"
   - "G.11"

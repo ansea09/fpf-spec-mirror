@@ -6,12 +6,12 @@ section_id: "F.2:8"
 section_title: "Micro-examples"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.2/F.2__009_micro-examples.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.2 — Term Harvesting & Normalisation"
   - "F.2:8 — Micro-examples"
-line_start: 90766
-line_end: 90776
+line_start: 90882
+line_end: 90892
 dependencies:
   - "A.11"
   - "A.7"

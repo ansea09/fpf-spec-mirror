@@ -6,12 +6,12 @@ section_id: "C.19.1:2"
 section_title: "Policy clauses (normative; synchronized with Core)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.19.1/C.19.1__003_policy-clauses-normative-synchronized-with-core.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.19.1 — Bitter‑Lesson Preference (BLP)"
   - "C.19.1:2 — Policy clauses (normative; synchronized with Core)"
-line_start: 49719
-line_end: 49759
+line_start: 49702
+line_end: 49742
 dependencies:
   - "A.0"
   - "A.10"

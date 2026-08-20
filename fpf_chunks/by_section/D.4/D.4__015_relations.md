@@ -6,12 +6,12 @@ section_id: "D.4:11"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.4/D.4__015_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "D.4 — Ethical Mediation and Decision Use"
   - "D.4:11 — Relations"
-line_start: 68943
-line_end: 68949
+line_start: 68926
+line_end: 68932
 dependencies:
   - "A.10"
   - "A.20"

@@ -6,12 +6,12 @@ section_id: "F.19:5"
 section_title: "Archetypal Grounding"
 source_path: "FPF-Spec.md"
 output_path: "by_section/F.19/F.19__007_archetypal-grounding.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "F.19 — Ontology-First Plain Technical Rewriting"
   - "F.19:5 — Archetypal Grounding"
-line_start: 97879
-line_end: 97893
+line_start: 98003
+line_end: 98018
 dependencies:
   - "A.19.SPR"
   - "A.6.P"
@@ -47,4 +47,5 @@ keywords:
 | Role-shaped label | "The platform owns scale." | "This scale compares platform and non-platform alternatives." |
 | Publication and evidence mix | "The dashboard is the evidence gate." | "The dashboard presents evidence. Use `A.10` for the evidence claim and `A.21` for any gate decision." |
 | Comparison, carrier, and publication mix | "E.4.PFIP preserves expression, carrier, and publication." | "The framework maintainer compares the predecessor and candidate publication expressions for the declared use. Use `E.10:0.2c.17` to separate the expression comparison from carrier-bearing and publication-occurrence claims." |
+| Operational-detail loss | "Rewrite 'Boil for five minutes after simmer begins' as 'Cook until ready'." | "Reject the rewrite. It keeps a broad cooking action but loses the five-minute duration, start condition, and usable stop criterion." |
 

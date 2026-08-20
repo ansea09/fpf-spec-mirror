@@ -6,15 +6,16 @@ section_id: "E.21:4"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.21/E.21__005_solution.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.21 — FPF Pattern-Quality Evaluation CharacteristicSpace"
   - "E.21:4 — Solution"
-line_start: 87172
-line_end: 87479
+line_start: 87182
+line_end: 87493
 dependencies:
   - "A.17-A.19"
   - "A.19.ECS"
+  - "A.6.1"
   - "A.6.P"
   - "C.16"
   - "C.2.P"
@@ -23,6 +24,7 @@ dependencies:
   - "E.11"
   - "E.19"
   - "E.2.DA"
+  - "E.21"
   - "E.22"
   - "E.23"
   - "E.8"
@@ -43,21 +45,23 @@ For one pattern-quality evaluation, keep independently recoverable the objects a
 2. the declared `ClaimScope`, working reader, intended receiving use, qualification window, evidence basis, and evaluation configuration;
 3. the selected `U.CharacteristicSpace`, this E.21 evaluation-specification episteme, every coordinate/scale binding, and the local result-form and status-value rules;
 4. when exact Method identity or actual assessment Work is asserted, one separately identified semantic evaluation `U.Method`;
-5. when actual dated assessment `U.Work` is asserted, A.15.1 identifies its time, Method, containing System, and evaluator-performer; F.6 identifies the exact assignment under which the evaluator acted and requires that attribution to be independently grounded; A.6.1 identifies the evaluation application, checked pattern, configuration, bindings, and returned results;
+5. when actual dated assessment `U.Work` is asserted, its account cites a complete current `A.15.1` basis or names one locally declared Work-to-System predicate and establishes that its relation obtains for that exact Work and containing `U.System`; the predicate declaration states the exact system boundary and qualification window that make the complete Work lie within that System. The account also recovers the Work's temporal extent and every evaluator-performer; `A.3.1` identifies the exact `U.Method` enacted by that Work; for every evaluator-performer, `F.6` establishes an obtaining attribution through a covering assignment whose holder is that performer. A compact account may omit an assignment identifier unused by the receiving claim, but the assignment and attribution must still obtain;
 6. every coordinate-result claim, their same-bearer non-arithmetic `PatternQualityQBundle` ClaimGraph payload, and one C.2.1 aggregate pattern-quality-result episteme when a durable result is needed;
 7. witnesses, comparator/source/case refs, exact A.10 evidence-use/provenance relations, and any B.3 assurance or reliance result;
 8. an optional evaluation-record episteme that packages those refs without performing assessment or creating the result;
 9. the local `PatternQualityStatus` value and any separate F.10 status use/interpretation, E.19 admission or refresh decision, project gate or authority decision, publication, and currentness relation; and
 10. later E.23 improvement or other repair work and its changed pattern edition.
 
-The ordinary form stops at the admitted evaluator `U.System` applying the quality questions. In the Work-bearing form, the world-side facts in item 5 are required; a compact result may omit only an assignment identifier unused by the receiving claim. Any local evaluator system-role kind and independently obtaining System-classification judgment are optional separate claims; neither the kind nor the assignment evaluates. Route unresolved source *role* through `E.10.ROLE`.
+`A.6.1` enters only when a separately admitted `U.Mechanism` declares the exact operation that was actually used and the receiving claim needs that application occurrence or its bindings. Then name the mechanism and operation and require that operation's `ApplicationPredicate`, `ApplicationIdentityRule`, `ApplicationExtentRule`, argument and result declarations, declaration-local binding predicates, exact application occurrence, and actual declaration-local bindings. Treat the checked pattern, configuration, coordinate results, and aggregate result as application inputs or results only when the operation declares those exact meanings and the corresponding bindings actually obtain. Otherwise omit `PatternQualityEvaluationApplicationRef`; the dated-Work and result accounts remain complete without it.
 
-Each coordinate-result claim is one quality ascription about the exact checked pattern edition. It keeps recoverable the bearer, effective ReferenceScheme, characteristic, scale value, evaluation rule or probe, comparison or calibration frame when used, `U.ClaimScope`, intended use, qualification window, ordinary assessing action or exact assessment application when asserted, short rationale, and evidence locus. The complete same-bearer coordinate set forms the non-arithmetic `PatternQualityQBundle` payload carried by the aggregate result episteme; it is not an average, score, characteristic space, or second result. The evaluator system, evaluator viewpoint episteme if any, witness set, optional record, and receiving status or admission use remain separate.
+The ordinary form stops with an admitted evaluator `U.System` applying the quality questions. A claim of dated assessment Work opens item 5 but does not by itself create an `A.6.1` application. Any local evaluator system-role kind and independently obtaining System-classification judgment are optional separate claims; neither a kind nor an assignment evaluates. Route unresolved source *role* through `E.10.ROLE`.
+
+Each coordinate-result claim is one quality ascription about the exact checked pattern edition. It keeps recoverable the bearer, effective ReferenceScheme, characteristic, scale value, evaluation rule or probe, comparison or calibration frame when used, `U.ClaimScope`, intended use, qualification window, ordinary assessing action or exact declared-operation application when separately asserted, short rationale, and evidence locus. The complete same-bearer coordinate set forms the non-arithmetic `PatternQualityQBundle` payload carried by the aggregate result episteme; it is not an average, score, characteristic space, or second result. The evaluator system, evaluator viewpoint episteme if any, witness set, optional record, and receiving status or admission use remain separate.
 
 One conforming two-level assessment-and-result shape applies:
 
 1. configure the checked pattern edition, scope, use, reader, window, characteristic space and specification, and evidence basis; include the exact semantic evaluation Method only when its identity or actual assessment Work is asserted;
-2. in the ordinary form, let the admitted evaluator `U.System` apply the specification without inventing Work-facing objects; when actual dated assessment `U.Work` is asserted, use the item 5 actual-Work account and let that Work enact the Method through the A.6.1 application and bindings;
+2. let the admitted evaluator `U.System` apply the specification; add item 5 only when the result deliberately asserts dated assessment Work, and add an `A.6.1` application only when the compact conditional rule above is independently satisfied;
 3. constitute every coordinate-result claim with `ShortRationale` and the aggregate result episteme;
 4. assert the local `PatternQualityStatus` in that result;
 5. state its stop, repair, architecture-hold, or refresh condition; and
@@ -65,11 +69,17 @@ One conforming two-level assessment-and-result shape applies:
 
 There is no separate pre-check result. If a pattern lacks frame, first move, source basis, mature comparison, or naming clarity, the relevant coordinates fall.
 
+A bounded lexical, checklist, or automated smell screen may identify suspect loci and reduce search cost. Record the checked edition, covered defect family, and observed limits in `EvaluationEvidenceBasis`; the screen neither assigns a coordinate value nor establishes semantic completeness, practical use, or the aggregate result.
+
+When candidate editions are compared, keep the declared use, reader, probes, and evidence conditions common where possible and expose missing or underrepresented evidence. This supports replayable comparison; it does not turn ordinal coordinates into one score or establish evaluator agreement that has not been studied.
+
+An E.21 result evaluates one exact edition for one declared use. It does not validate the pattern universally. A stronger validation claim needs separately declared expert checks, observed applications or cases, or other fit-for-purpose research evidence. Missing actual-use evidence therefore caps only the coordinates whose stronger values require it.
+
 #### E.21:4.1 - Local names and kind settlement
 
 | Local name | Kind and function |
 |---|---|
-| `PatternQualityEvaluation` | Compatibility compound label for the configured evaluation package. Any use resolves to the exact characteristic space/specification, configuration, assessment application/work, result episteme, witnesses/evidence-use relations, and optional record rather than treating this label as one kind or actor. |
+| `PatternQualityEvaluation` | Compatibility compound label for the configured evaluation package. Any use resolves to the exact characteristic space/specification, configuration, ordinary assessment or separately asserted dated Work, result episteme, witnesses/evidence-use relations, optional record, and exact declared-operation application only when the compact A.6.1 condition holds; the label is not one kind or actor. |
 | `PatternQualityCharacteristicSpaceRef` | Reference to the exact A.19 `U.CharacteristicSpace` whose slots are the required E.21 coordinates and whose bindings use the E.21 ordinal scale; not an assessment, result, or record. |
 | `PatternQualityEvaluationSpecRef` | Reference to this object-specific A.19.ECS evaluation-specification episteme: applicability, coordinate and scale meanings, evidence/missingness rules, calibration, result shape, local status meanings, and reopen conditions. |
 | `PatternOfConcernRef` | Exact authored FPF pattern edition or bounded version named by value as the checked object, with its host path or monolith section and edition, commit, hash, or other pinned version basis recoverable. `PatternOfConcern` is relation-relative: the same pattern can also be the concern in another use, review, or evaluation flow. This row does not create a special kind of pattern or a second text. The evaluated pattern also has its own primary `EntityOfConcern`: the subject that its Problem, Solution, or guidance is about. FPF patterns are applied to situations, claims, texts, or work objects. Say that a pattern defines, constrains, tests, or supplies a repair for a claim, relation, or boundary only when its content actually does; use `related pattern` for a looser pattern relation and `relation` only for the relation itself. |
@@ -81,8 +91,8 @@ There is no separate pre-check result. If a pattern lacks frame, first move, sou
 | `QualityEvaluationQuestionFrameRef` | `E.22` frame when purpose, floor, trade-offs, absorption, or proposal expectation needs to be declared. |
 | `PatternQualityEvaluationConfiguration` | Local input tuple binding the exact checked pattern, scope, use, reader, and window, characteristic space and specification, question frame when used, and evidence basis, plus the semantic evaluation Method only when its identity or actual assessment Work is asserted. It is neither a new U-kind nor performed work. |
 | `SemanticPatternQualityEvaluationMethodRef` | Reference to the exact semantic `U.Method` when Method identity or actual assessment Work is asserted. Exact assessment Work enacts that Method; the E.21 specification and coordinate table do not become the Method merely by being consulted. |
-| `PatternQualityAssessmentWorkRef` | Used only when the evaluation asserts exact dated A.15.1 `U.Work`. Then the item 5 actual-Work account and the A.6.1 application or bindings apply. |
-| `PatternQualityEvaluationApplicationRef` | Exact A.6.1 application and actual bindings when the evaluation asserts that application: the exact assessment Work, checked pattern, evaluation configuration, and returned coordinate and result refs. Ordinary assessment wording does not create an application object. |
+| `PatternQualityAssessmentWorkRef` | Used only when the evaluation asserts exact dated A.15.1 `U.Work`. Then the item 5 Work account applies. Work alone creates no A.6.1 application; add an application ref only when the separately admitted mechanism-operation condition is also satisfied. |
+| `PatternQualityEvaluationApplicationRef` | Reference to one exact A.6.1 application occurrence admitted under one exact operation declared by a separately admitted `U.Mechanism`, together with its actual declaration-local bindings. It is present only when the compact conditional rule in E.21:4 holds; ordinary assessment and dated Work do not create it. |
 | `CoordinateValueRationales` | One result claim for every required coordinate: `Coordinate`, `Value`, `ShortRationale`. |
 | `CoordinateEvidenceRefs` | Per-coordinate text, case, relation, SoTA, mature comparator, projection, or review refs where the short rationale depends on evidence outside the pattern body row being discussed. Reference presence does not itself establish a coordinate value. |
 | `PrecisionRestorationProfile` | Compact result profile over six precision-restoration layers: word, head, and use precision; phrase-level apparatus; repeated or distributed material; ontic and slot-relation clarity; description, publication, and source boundary separation; and pattern-application ontology. It collapses those layers into one scalar effect for the E.21 result, not one coordinate per defect. The profile names present or bounded issues, checked absence scope when clean, affected coordinates, and the selected restoration locus or concrete pattern contribution such as `E.10`, `E.10.ARCH`, `F.18`, `F.19`, `E.24.CD`, `E.24.PUB`, or an object-specific pattern. |
@@ -112,20 +122,16 @@ PatternQualityEvaluationConfiguration:
   QualityEvaluationQuestionFrameRef: <E.22 frame when used>
   EvaluationEvidenceBasis: <checked pattern, corpus, source, comparator, case, and projection loci; missing or unchecked loci named explicitly when they affect values>
 
-PatternQualityAssessmentApplication: <only when an exact application or actual assessment Work is asserted>
-  AssessmentWorkRef: <the dated assessment U.Work that performs the assessment>
-  EvaluatorSystemRef: <the admitted U.System that performed AssessmentWorkRef>
+When dated assessment Work is asserted:
+  AssessmentWorkRef: <the dated assessment U.Work>
+  EvaluatorSystemRefs: <every admitted U.System that performed AssessmentWorkRef>
   AssessmentTemporalExtent: <exact extent of W>
-  ContainingSystemRef: <the U.System that contains the named assessment Work>
-  EvaluatorSystemRoleAssignmentRef: <the covering assignment occurrence for EvaluatorSystemRef; its declared species supplies every participant meaning and a local evaluator system-role-kind domain>
-  HolderEquality: <the named assignment has EvaluatorSystemRef as its holder>
-  PerformedUnderAssignmentRef: <the F.6 relation linking the named assessment Work to the named assignment occurrence>
-  EnactedMethodRef: <the U.Method enacted by AssessmentWorkRef; the same Method as SemanticPatternQualityEvaluationMethodRef>
-  A6_1ApplicationAndBindingRefs: <exact application, W, checked-object and configuration inputs, and returned-result bindings>
+  WorkToSystemRelationBasis: <cite the complete current A.15.1 basis, or name one locally declared Work-to-System predicate and establish its obtaining relation; in either form identify AssessmentWorkRef, the exact containing U.System, exact system boundary, and qualification window>
+  EnactedMethodRef: <the exact A.3.1 U.Method enacted by AssessmentWorkRef>
+  PerformerAssignmentBasis: <for every evaluator-performer, one obtaining F.6 attribution through a covering assignment whose holder is that performer; show the assignment identifier only when the receiving claim uses its identity>
   EvaluationConfigurationRef:
-  ReturnedCoordinateResultRefs:
-  AggregateResultRef:
-
+When an exact declared-operation application is also asserted:
+  ApplicationAndBindingAccount: <the separately admitted mechanism, exact declared operation and application occurrence, and actual declaration-local bindings required by the compact A.6.1 rule in E.21:4>
 PatternQualityResultEpisteme:
   EntityOfConcern: <same exact PatternOfConcernRef>
   EffectiveReferenceScheme:
@@ -141,7 +147,7 @@ PatternQualityResultEpisteme:
       PatternQualityStatus: <local result value>
       StopCondition: <local stop, first repair, hold, or refresh>
       BoundedNonUse:
-  AssessmentApplicationRef: <exact ref when the application branch is asserted; otherwise omitted>
+  AssessmentApplicationRef: <exact A.6.1 occurrence ref only when the declared-operation condition holds; otherwise omitted>
   PatternQualityWitnessRefs:
   PatternQualityEvidenceUseRefs:
 PatternQualityEvaluationRecord: <optional packaging of configuration, application/work, result, witness/evidence, non-use, and reopen refs only>
@@ -211,7 +217,7 @@ When the profile is not clean, lower every affected coordinate named by the prof
 
 #### E.21:4.4 - RequiredPatternQualityCoordinates
 
-For every conforming E.21 result, an admitted evaluator `U.System` applies the evaluation specification to every coordinate, and the result episteme states every coordinate value and rationale. This ordinary form asserts no assignment or `U.Work`. When the result asserts dated assessment `U.Work`, use the item 5 actual-Work account.
+For every conforming E.21 result, an admitted evaluator `U.System` applies the evaluation specification to every coordinate, and the result episteme states every coordinate value and rationale.
 
 | Coordinate | What it evaluates |
 |---|---|

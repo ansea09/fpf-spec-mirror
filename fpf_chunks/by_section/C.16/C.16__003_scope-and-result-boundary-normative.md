@@ -6,12 +6,12 @@ section_id: "C.16:2"
 section_title: "Scope and result boundary (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__003_scope-and-result-boundary-normative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:2 — Scope and result boundary (Normative)"
-line_start: 47116
-line_end: 47128
+line_start: 47099
+line_end: 47111
 dependencies:
   - "A.10"
   - "A.15.1"

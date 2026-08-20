@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge & CL^k — Cross‑context Mapping of Kinds"
+pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
 section_id: "C.3.3:7"
 section_title: "Interactions (informative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__008_interactions-informative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
+  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:7 — Interactions (informative)"
-line_start: 45182
-line_end: 45210
+line_start: 45174
+line_end: 45197
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -21,40 +21,29 @@ dependencies:
   - "C.3.2"
   - "F.9"
 keywords:
-  - "CL^k"
-  - "KindBridge direct relation"
-  - "R penalty"
-  - "bridge assertion episteme"
-  - "loss"
-  - "target judgment"
 ---
 
 ### C.3.3:7 - Interactions (informative)
 
-#### C.3.3:7.1 - With USM Scope bridges (two channels)
+#### C.3.3:7.1 - With Scope and Sense Relations
 
-When using a claim across Contexts, expect **two concurrent bridges**:
+A receiving use may need none, one, or several independent relations:
 
-* **Scope Bridge (USM):** the exact scope-bridge occurrence supports translation of G; its separate assessment supplies CL and the `Φ(CL)` consequence to R.
-* **KindBridge (this pattern):** the obtaining direct relation connects exact source and target kinds; its separate bridge assertion supplies `CL^k`, loss, and the `Ψ(CL^k)` consequence to R.
+- an A.2.6 scope relation when the claim's admitted extent is translated or compared;
+- a C.3.3 `KindBridge` when two distinct kinds are directionally related; and
+- an F.9 relation when distinct local senses are related for a bounded use.
 
-**Discipline:** compute both; **do not** collapse them into one “interoperability score.”
+Open only the channels the receiving claim consumes. Keep their definedness, losses, and R consequences separate.
 
- See **Annex C.3.A §5 (E‑01)** for the normative evaluation order in guards.
+#### C.3.3:7.2 - With Receiving Classification
 
-#### C.3.3:7.2 - With target classification (C.3.2)
+After same-kind reuse or an obtaining bridge, use the receiving `KindSignature` edition. Check candidate and slice admissibility. If admissible, evaluate the exact receiving judgment. If a mapping motivates another signature, author that declaration episteme separately. A source judgment can support a claim but never supplies receiving truth.
 
-After an obtaining KindBridge relates source kind `k` to independently identified target kind `k'`, evaluate the exact target judgment `J(candidate, k', targetSignatureEdition, TargetSlice)`. If a mapping rule motivates another target `KindSignature`, a system authors and identifies that declaration episteme separately; the bridge relation and its assertion do not construct it. A source judgment may be evidence for the receiving reliance claim but never substitutes for the target judgment.
+#### C.3.3:7.3 - With Kind-use Adaptations
 
-#### C.3.3:7.3 - With Role masks (C.3.4)
+For same-kind reuse, select the receiving C.3.4 declaration and evaluate afresh without a bridge. For distinct-kind use, recover the obtaining `KindBridge`, bridge assertion, receiving adaptation declaration, and any exact adaptation-correspondence declaration needed for differing constraints or bindings. Source adaptation results are not receiving truth.
 
-A cross-context masked use requires an obtaining KindBridge relation between exact source and target kinds, the separate bridge assertion, a target RoleMask declaration episteme, and a `MaskAdapter` declaration episteme when constraints or bindings differ. The target context evaluates its exact `J_mask`; source masked results are not target truth. Any justified bridge penalties affect R only, and a stable target refinement requires an independently identified local kind and obtaining `U.SubkindOf` relation.
+#### C.3.3:7.4 - With Guards
 
-#### C.3.3:7.4 - With guards (Annex C.3.A)
-
-Use the **`Guard_XContext_Typed`** macro (Annex C.3.A), which requires **both bridges** and applies **both penalties** to **R**:
-
-* find Scope bridge (CL≥threshold), translate **G**, check coverage;
-* establish the exact KindBridge relation and its bridge assertion, recover the independently identified target kind and signature edition, and evaluate the exact target judgment;
-* apply **Φ(CL)** and **Ψ(`CL^k`)** to **R**; keep **F/G** untouched.
+A typed receiving guard first determines whether the same kind continues or a distinct-kind bridge is current. It then checks receiving admissibility and, when admissible, the fresh judgment. It independently checks any scope or sense relation the claim consumes and applies only justified consequences to R. `not-applicable`, `unknown`, absent bridge, and guard refusal remain different results.
 

@@ -6,12 +6,12 @@ section_id: "E.17.1:17"
 section_title: "Edition and Migration Notes"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__018_edition-and-migration-notes.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:17 — Edition and Migration Notes"
-line_start: 80415
-line_end: 80437
+line_start: 80398
+line_end: 80420
 dependencies:
   - "A.16.0"
   - "A.22"

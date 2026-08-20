@@ -6,12 +6,12 @@ section_id: "C.30.AD.BA:8"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30.AD.BA/C.30.AD.BA__011_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.30.AD.BA — Built-Asset Architecture Description and Reference Designation"
   - "C.30.AD.BA:8 — Relations"
-line_start: 60595
-line_end: 60606
+line_start: 60578
+line_end: 60589
 dependencies:
   - "A.1"
   - "A.10"

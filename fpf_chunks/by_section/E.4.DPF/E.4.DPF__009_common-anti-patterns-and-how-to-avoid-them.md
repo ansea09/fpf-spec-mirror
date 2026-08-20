@@ -6,12 +6,12 @@ section_id: "E.4.DPF:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.DPF/E.4.DPF__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.4.DPF — Domain Principle Framework Authoring and Publication-or-Access Carrier Assembly"
   - "E.4.DPF:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 70732
-line_end: 70767
+line_start: 70715
+line_end: 70750
 dependencies:
   - "A.1.1"
   - "A.15.1"

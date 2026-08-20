@@ -6,7 +6,7 @@ section_id: "A.6.C:5"
 section_title: "Archetypal Grounding (Tell–Show–Show)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/A.6.C/A.6.C__006_archetypal-grounding-tell-show-show.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "A.6.C — Contract Unpacking for Boundaries"
   - "A.6.C:5 — Archetypal Grounding (Tell–Show–Show)"

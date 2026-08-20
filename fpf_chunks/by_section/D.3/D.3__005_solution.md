@@ -6,12 +6,12 @@ section_id: "D.3:2"
 section_title: "Solution"
 source_path: "FPF-Spec.md"
 output_path: "by_section/D.3/D.3__005_solution.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "D.3 — Interlevel Ethical Conflict Structure"
   - "D.3:2 — Solution"
-line_start: 68660
-line_end: 68702
+line_start: 68643
+line_end: 68685
 dependencies:
   - "A.1"
   - "A.10"

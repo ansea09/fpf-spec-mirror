@@ -6,12 +6,12 @@ section_id: "E.4.PFR:intro"
 section_title: "Intro"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.4.PFR/E.4.PFR__001_intro.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.4.PFR — Pattern-Framework Relation and Edition Discipline"
   - "E.4.PFR:intro — Intro"
-line_start: 71168
-line_end: 71185
+line_start: 71151
+line_end: 71168
 dependencies:
   - "A.10"
   - "A.6.0"

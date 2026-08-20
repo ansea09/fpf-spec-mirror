@@ -6,12 +6,12 @@ section_id: "C.16:7"
 section_title: "Provenance and use semantics (Normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.16/C.16__008_provenance-and-use-semantics-normative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.16 — Measurement & Metrics Characterization (MM‑CHR)"
   - "C.16:7 — Provenance and use semantics (Normative)"
-line_start: 47236
-line_end: 47246
+line_start: 47219
+line_end: 47229
 dependencies:
   - "A.10"
   - "A.15.1"

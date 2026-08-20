@@ -6,12 +6,12 @@ section_id: "E.10.ROLE:7"
 section_title: "Common Anti-Patterns and Repairs"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.10.ROLE/E.10.ROLE__009_common-anti-patterns-and-repairs.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.10.ROLE — Recovering What “Role” Means in the Current Claim"
   - "E.10.ROLE:7 — Common Anti-Patterns and Repairs"
-line_start: 76442
-line_end: 76452
+line_start: 76425
+line_end: 76435
 dependencies:
   - "A.2"
   - "A.2.1"

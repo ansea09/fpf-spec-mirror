@@ -6,12 +6,12 @@ section_id: "E.17.1:6"
 section_title: "Bias-Annotation"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.1/E.17.1__007_bias-annotation.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.17.1 — Viewpoint Bundle Library - Reusable Viewpoint Reference Bundles"
   - "E.17.1:6 — Bias-Annotation"
-line_start: 80210
-line_end: 80213
+line_start: 80193
+line_end: 80196
 dependencies:
   - "A.16.0"
   - "A.22"

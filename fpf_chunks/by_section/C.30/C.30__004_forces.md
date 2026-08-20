@@ -6,12 +6,12 @@ section_id: "C.30:3"
 section_title: "Forces"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.30/C.30__004_forces.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.30 — Grounded Architecture and Selected-Structure Adequacy"
   - "C.30:3 — Forces"
-line_start: 59282
-line_end: 59292
+line_start: 59265
+line_end: 59275
 dependencies:
   - "A.1"
   - "A.10"

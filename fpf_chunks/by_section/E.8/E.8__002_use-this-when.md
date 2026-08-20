@@ -6,12 +6,12 @@ section_id: "E.8:0"
 section_title: "Use this when"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.8/E.8__002_use-this-when.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.8 — FPF Authoring Conventions & Style Guide"
   - "E.8:0 — Use this when"
-line_start: 72103
-line_end: 72110
+line_start: 72086
+line_end: 72093
 dependencies:
   - "E.10"
   - "E.10.MOVE"

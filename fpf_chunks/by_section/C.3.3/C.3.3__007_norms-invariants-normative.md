@@ -1,17 +1,17 @@
 ---
 chunk_kind: "child"
 pattern_id: "C.3.3"
-pattern_title: "KindBridge & CL^k — Cross‑context Mapping of Kinds"
+pattern_title: "KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
 section_id: "C.3.3:6"
 section_title: "Norms & Invariants (normative)"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.3.3/C.3.3__007_norms-invariants-normative.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
-  - "C.3.3 — KindBridge & CL^k — Cross‑context Mapping of Kinds"
+  - "C.3.3 — KindBridge and CL^k — Cross-local Correspondence between Distinct Kinds"
   - "C.3.3:6 — Norms & Invariants (normative)"
-line_start: 45141
-line_end: 45181
+line_start: 45133
+line_end: 45173
 dependencies:
   - "A.2.6"
   - "A.6.REL"
@@ -21,37 +21,31 @@ dependencies:
   - "C.3.2"
   - "F.9"
 keywords:
-  - "CL^k"
-  - "KindBridge direct relation"
-  - "R penalty"
-  - "bridge assertion episteme"
-  - "loss"
-  - "target judgment"
 ---
 
 ### C.3.3:6 - Norms & Invariants (normative)
 
 > The following formalize the **KB‑01…KB‑12** rules announced in C.3.
 
-#### C.3.3:6.1 - Direct relation subject and scope
+#### C.3.3:6.1 - Direct Relation Subject and Scope
 
-**KB-01 (Participants and obtaining).** A `KindBridge` relation occurrence has exactly two direct participants: one source local kind and one target local kind. It obtains only under the named source and target reference-scheme editions when the directional correspondence predicate holds for the paired kind interpretations within declared definedness. Order preservation or collapse is not an obtaining condition for one pair relation; it is asserted separately over the relevant KindBridge and `U.SubkindOf` occurrences. The `KindSignature` epistemes used to evaluate the correspondence, their formality values, mapping expression, bridge assertion, evidence, `CL^k`, and loss notes are not relation participants.
+**KB-01 (Distinct participants and obtaining).** One `KindBridge` occurrence has exactly two ordered participants: an independently identified source kind and an independently identified distinct target kind. It obtains only when its directional correspondence predicate holds within declared definedness. A different locality, label, scheme, or extension supplies no bridge. Signatures, assertions, evidence, `CL^k`, loss notes, and slices are not participants.
 
-**KB-02 (No Scope).** A KindBridge MUST NOT map Claim or Work scope G. Scope translation uses the USM Bridge + CL channel (A.2.6, Part B). `U.ContextSlice` values appear in bridge applicability and target judgments, not as scope stored on either kind.
+**KB-02 (No Scope or sense substitution).** A `KindBridge` maps neither Claim/Work scope nor local wording. Scope translation uses A.2.6 when the receiving claim actually consumes it. An F.9 relation is added only for a current distinct-sense use. Neither channel is required merely because a kind bridge exists.
 
-**No blended score.** Congruence for Scope (CL) and for Kind (`CL^k`) MUST NOT be aggregated into a single interoperability score in guards; each channel is assessed and penalized separately. See Annex C.3.A §5 (E-06).
+**No blended score.** Scope congruence, sense-relation loss, and kind congruence remain separate. Do not aggregate them into one interoperability score.
 
-#### C.3.3:6.2 - Settlement, assertion, and identity
+#### C.3.3:6.2 - Settlement, Assertion, and Identity
 
-**KB-03 (Direct settlement).** The C.3.3 direct relation settlement SHALL make recoverable:
+**KB-03 (Direct settlement).** The C.3.3 settlement SHALL make recoverable:
 
-1. the exact source-kind and target-kind participants, direction, and source/target reference-scheme editions;
-2. the directional mapping obtaining predicate and its definedness area, with no implicit `latest`; and
-3. the occurrence-identity rule: when explicit identity is needed, source kind, target kind, direction, and both reference-scheme editions distinguish the occurrence.
+1. exact ordered source-kind and target-kind participants and the proof that they are distinct;
+2. the directional correspondence predicate, applicability, and definedness; and
+3. participant-determined occurrence identity for that ordered pair.
 
-A separate C.2.1 bridge-assertion episteme SHALL name the paired source and target `KindSignature` editions used to evaluate the predicate and, for the receiving use, state the mapping-rule expression, the status of each selected obtaining `U.SubkindOf` relation as preserved, collapsed, not preserved, or unknown, plus any current `CL^k`, loss notes, evidence, admitted use, and assertion polarity. Another assertion, mapping expression, card, row, signature edition, or publication edition does not create another relation occurrence. A changed assertion, signature, or mapping-rule edition prompts reevaluation of obtaining; it does not reidentify a continuing relation when the participants, direction, and scheme editions remain fixed and the same relation still obtains. A changed participant, direction, or scheme edition is another proposed occurrence and must establish obtaining independently.
+The separate bridge assertion states whether obtaining is affirmed, denied, or unresolved; only an affirmative assertion may designate an obtaining occurrence. It also names the declaration and scheme editions used to interpret the predicate, selected source and target subkind facts, preservation/collapse/non-preservation/unknown results, `CL^k`, loss, evidence, and admitted use. Another assertion, mapping expression, card, signature, scheme edition, or publication does not create another relation occurrence. A changed interpretation prompts a renewed obtaining test. If the same ordered participants and correspondence continue, the same relation continues; if not, the prior obtaining claim is no longer current.
 
-**KB-04 (Determinism and local evaluation).** With fixed scheme versions and mapping-rule edition, the asserted bridge use MUST be reproducible. Independently, with fixed candidate, target `KindSignature` edition, TargetSlice, and target-declaration dependencies, evaluate reproducible `J(candidate, targetKind, targetSignatureEdition, TargetSlice)` in the target context. A source judgment or bridge assertion may support reliance but MUST NOT be copied into the target result. Preserve `unknown` only for a target judgment whose own declared evaluation cannot settle; an unsettled or inadmissible bridge use and the guard's refusal remain separate receiving predicates.
+**KB-04 (Fresh receiving classification).** With fixed receiving candidate, signature edition, and slice, check admissibility first. `not-applicable` forms no classification judgment. An admissible request is evaluated reproducibly as `true`, `false`, or `unknown`. A source judgment or bridge assertion may support reliance but is never copied into the receiving result. An unavailable bridge dependency blocks that bridge use without rewriting an independently evaluated receiving result.
 
 #### C.3.3:6.3 - Order & Monotonicity
 
@@ -62,11 +56,11 @@ A separate C.2.1 bridge-assertion episteme SHALL name the paired source and targ
 #### C.3.3:6.4 - Congruence & Assurance
 
 **KB-08 (Anchor reuse and AT neutrality).** `CL^k` reuses the ordinal anchor semantics of CL but assesses the declared bridge use over kind intent and order. The bridge-assertion episteme labels it kind-congruence. Neither the obtaining KindBridge relation nor its assertion computes or alters KindAT; AT is editorial and independent of `CL^k`.
-**KB-09 (Effect on R only).** When a receiving claim relies on an obtaining KindBridge relation and on `J(candidate, targetKind, targetSignatureEdition, TargetSlice)`, apply the bridge-assertion episteme's monotone `Ψ(CL^k)` consequence to R alongside any independent scope-bridge penalty. Do not alter F or G. An `unknown` target judgment remains `unknown` even when the guard declines use.
+**KB-09 (Effect on R only).** After receiving admissibility has been checked and an admissible candidate has received a fresh target judgment, a claim that relies on both that result and an obtaining KindBridge may apply only the bridge assertion's justified monotone `Ψ(CL^k)` consequence to R, alongside any independently established scope-relation consequence. A `not-applicable` candidate forms no judgment; `unknown` stays `unknown`; F and G do not change.
 **KB‑10 (Chaining).** For a chain of bridges, **effective `CL^k` = min** of the links (weakest‑link).
 
 #### C.3.3:6.5 - Loss Notes & Definedness
 
 **KB-11 (Loss notes).** The bridge-assertion episteme SHALL state which `KindSignature` invariants are not preserved, which obtaining source `U.SubkindOf` relations are collapsed or not preserved, and any higher-equality caveats. These claims do not rewrite the source or target kinds.
-**KB-12 (Definedness and guard use).** The bridge obtaining predicate and assertion SHALL state the definedness area. Outside it, a receiving guard declines that cross-context bridge use. The independently evaluated target classification retains its own `true`, `false`, or `unknown` value; bridge inapplicability neither rewrites it nor denies that another bridge could obtain.
+**KB-12 (Definedness and guard use).** The bridge predicate and assertion SHALL state definedness. Outside it, a receiving guard declines that bridge use. Independently, receiving classification keeps `not-applicable` or its admissible `true`, `false`, or `unknown` result; bridge inapplicability rewrites none of them.
 

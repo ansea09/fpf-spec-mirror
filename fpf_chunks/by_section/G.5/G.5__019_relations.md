@@ -6,12 +6,12 @@ section_id: "G.5:12"
 section_title: "Relations"
 source_path: "FPF-Spec.md"
 output_path: "by_section/G.5/G.5__019_relations.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "G.5 — Multi‑Method Dispatcher and MethodFamily Registry"
   - "G.5:12 — Relations"
-line_start: 101441
-line_end: 101470
+line_start: 101570
+line_end: 101599
 dependencies:
   - "C.11"
   - "C.18"

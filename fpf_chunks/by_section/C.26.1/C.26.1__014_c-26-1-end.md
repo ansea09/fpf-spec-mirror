@@ -6,12 +6,12 @@ section_id: "C.26.1:End"
 section_title: "C.26.1:End"
 source_path: "FPF-Spec.md"
 output_path: "by_section/C.26.1/C.26.1__014_c-26-1-end.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "C.26.1 — Probe-Coupled Boundary Interaction"
   - "C.26.1:End — C.26.1:End"
-line_start: 54033
-line_end: 54034
+line_start: 54016
+line_end: 54017
 dependencies:
   - "A.1.1"
   - "A.10"

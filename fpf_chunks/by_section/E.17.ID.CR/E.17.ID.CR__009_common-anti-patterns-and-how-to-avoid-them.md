@@ -6,12 +6,12 @@ section_id: "E.17.ID.CR:8"
 section_title: "Common Anti-Patterns and How to Avoid Them"
 source_path: "FPF-Spec.md"
 output_path: "by_section/E.17.ID.CR/E.17.ID.CR__009_common-anti-patterns-and-how-to-avoid-them.md"
-commit_sha: "3d098629dc218572089f1890080c17d6f1d9a867"
+commit_sha: "d9170ae93b035896511bce82dfb5d9082a50b8a2"
 heading_path:
   - "E.17.ID.CR — ComparativeReviewUnit - bounded comparison over comparative review units"
   - "E.17.ID.CR:8 — Common Anti-Patterns and How to Avoid Them"
-line_start: 82579
-line_end: 82593
+line_start: 82562
+line_end: 82576
 dependencies:
   - "A.15"
   - "A.15.4"
